@@ -161,12 +161,19 @@ sind die Paare, bei denen eine Abstimmung etwas bringt. Systematische Fehler: Ge
 (Oekonom → Dekonom), qwen3.8 modernisiert gegen den Prompt (Wittwe → Witwe, Partik. →
 Part.), kraken verstümmelt Stern und Gedankenstrich am Zeilenanfang.
 
-**Entscheid für Welle 1 (Vorschlag):** Hauptleser Gemini 3.8 Flash für alle 1 030
-Seiten (~3 h, Kosten je Seite) mit `qwen3-vl-30b-a3b-instruct` als zweiter, kostenloser
-Lesung für den Abgleich (~1,5 h); `kraken-german_print` nur für einspaltige Seiten als
-dritte Stimme und für Zeilengeometrie, wo sie gebraucht wird. qwen3.8 nur, wenn das
-Nachdenken abschaltbar wird. Vor dem Volllauf: Prompt um die Oe/De-Falle ergänzen und
-die vier GT-Seiten von einer Person gegenlesen lassen.
+**Entscheid (06.11.2026, Projektleitung):** Volllauf je Satzart, zwei Leser je Seite.
+Fraktur (1884, 1888, 1892; 427 Seiten): **Gemini 3.8 Flash** + `qwen3-vl-30b-a3b-instruct`.
+Antiqua (1896, 1899; 395 Seiten): **`qwen3.8-27b`** (GPUStack, ohne Kosten je Seite)
++ `qwen3-vl-30b-a3b-instruct`. Prompt `adressbuch_atr_v2.md` (v1 plus Hinweis auf die
+Fraktur-Verwechslungen O/D, B/V, K/R). Ausgelassen: Leerseiten, Inserate und die
+1896er Doppelseiten (PDF 127–142); Auswahl in `data/csv/fullrun_pages.csv`, Ordner
+`fraktur/` und `antiqua/` unter `data/nextcloud/adressbuecher-aarau/` auf tei. Läufe:
+`aarau-fraktur-gemini-v1` (MCP-Job), `aarau-antiqua-qwen38-v1`,
+`aarau-fraktur-qwen3vl30b-v1`, `aarau-antiqua-qwen3vl30b-v1` (CLI auf tei, nohup).
+Erwartete Dauer: Gemini ~1,5 h, qwen3-vl-30b ~1,5 h für beide Hälften, qwen3.8 ~8 h.
+Holen und weiterverarbeiten: `make fullrun-fetch fullrun-lines fullrun-parse`.
+Alle Seiten gehen anschliessend direkt durch Welle 2. Die menschliche Zweitkorrektur
+der vier GT-Seiten bleibt offen.
 
 **Welle 2, erster Stand:** `scripts/04_parse.py` (regelbasiert) löst auf den zehn
 Einwohner-Probeseiten der Gemini-Lesung 426 Adresszeilen auf, 407 «high», 14 «medium»

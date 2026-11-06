@@ -27,3 +27,7 @@ fullrun-lines:  ## 02_lines.csv aus allen Volllauf-Lesungen
 fullrun-parse:  ## Welle 2: Einwohner-Einträge aus Hauptleser je Satzart → 04_entries.csv
 	$(PY) scripts/04_parse.py --run aarau-fraktur-gemini-v1 --reader gemini-3.8-flash --section einwohner --out data/csv/04_entries_fraktur.csv
 	$(PY) scripts/04_parse.py --run aarau-antiqua-qwen38-v1 --reader qwen3.8-27b --section einwohner --out data/csv/04_entries_antiqua.csv
+	$(PY) scripts/04_parse.py --run aarau-fraktur-gemini-v1 --reader gemini-3.8-flash --section berufe --out data/csv/04_berufe_fraktur.csv
+	$(PY) scripts/04_parse.py --run aarau-antiqua-qwen38-v1 --reader qwen3.8-27b --section berufe --out data/csv/04_berufe_antiqua.csv
+	$(PY) scripts/05_buildings.py --run aarau-fraktur-gemini-v1 --reader gemini-3.8-flash --out-buildings data/csv/05_buildings_fraktur.csv --out-residents data/csv/05_residents_fraktur.csv
+	$(PY) scripts/05_buildings.py --run aarau-antiqua-qwen38-v1 --reader qwen3.8-27b --out-buildings data/csv/05_buildings_antiqua.csv --out-residents data/csv/05_residents_antiqua.csv

@@ -30,7 +30,7 @@ FIELDS = ["entry_id", "volume", "page", "section", "line_from", "line_to", "entr
           "dash_prefix", "surname", "surname_inherited", "alliance_name", "maiden_name",
           "forename", "title", "civil_status", "relation", "occupation_raw", "origin_raw",
           "origin_canton", "address_seq", "address_role", "street_raw", "building_no",
-          "phone_flag", "parse_method", "parse_confidence", "residual", "text"]
+          "phone_flag", "heading", "parse_method", "parse_confidence", "residual", "text"]
 
 STATUS = {"Sohn", "Tochter", "Wittwe", "Witwe", "Wwe.", "Wwe", "Frau", "Fräulein", "Frl.",
           "Part.", "Partik.", "Privatin", "Privatier", "Rentier", "Rentierin", "Rentner"}
@@ -48,6 +48,7 @@ def prenormalise(text: str) -> str:
     """Gemini-Rohtext → GT-Konventionen: ⸗/= → -, Tabs → Leerzeichen, * an den Anfang."""
     t = text.replace("ſ", "s").replace("⸗", "-").replace("­", "")
     t = re.sub(r"(?<=[\s—])=(?=\S)", "-", t)
+    t = re.sub(r"(?<=[A-Za-zäöüÄÖÜß])=(?=[A-Za-zäöüÄÖÜß])", "-", t)   # Stigeler=Schaub
     t = re.sub(r"^(\s*)\*\s*", r"\1*", t, flags=re.M)
     t = re.sub(r"^\*\t", "*", t, flags=re.M)
     t = re.sub(r"\t+", "  ", t)
@@ -209,11 +210,27 @@ def forename_lexicon(texts: list[str]) -> set[str]:
     return {k for k, v in lex.items() if v >= 2}
 
 
+HEADING_RE = re.compile(r"^(?!—)[A-ZÄÖÜ][^\d,;]{2,70}[.:]?$")
+CROSSREF_RE = re.compile(r"^\(?\s*(Siehe|siehe|Im weitern siehe|Vergl\.|S\.)\b")
+
+
 def parse_page(text: str, volume: str, page: int, section: str = "einwohner",
-               prev_surname: str = "", forenames: set[str] | None = None) -> list[dict]:
+               prev_surname: str = "", forenames: set[str] | None = None,
+               heading: str = "") -> list[dict]:
+    """Einwohner- und Berufsregister. Im Berufsregister setzt eine Zeile ohne Komma und
+    Ziffer (z. B. «Hafnereien.») die Rubrik, die jeder folgende Eintrag in `heading`
+    trägt; Querverweise «(Siehe …)» werden als Notiz an die Rubrik gehängt."""
     rows, prev, prev_rec = [], prev_surname, None
     for n, (lf, lt, t) in enumerate(page_to_entries(prenormalise(text)), start=1):
+        if section == "berufe":
+            if CROSSREF_RE.match(t):
+                continue
+            if HEADING_RE.match(t) and "," not in t:
+                heading = t.rstrip(".:").strip()
+                prev = ""
+                continue
         rec = parse_entry(t, prev, prev_rec, forenames)
+        rec["heading"] = heading
         prev = rec["surname"] or prev
         prev_rec = rec
         addrs = rec.get("_addresses") or [("", "", "")]
@@ -253,14 +270,17 @@ def main() -> None:
             d = json.loads(jp.read_text(encoding="utf-8"))
             pages.append((m["volume"], int(m["page"]), d.get("text") or ""))
         lex = forename_lexicon([p[2] for p in pages])
-        prev_vol, prev_page, prev_surname = None, None, ""
+        prev_vol, prev_page, prev_surname, heading = None, None, "", ""
         for vol, page, text in pages:
-            # Familienname über die Seitengrenze nur bei direkt aufeinanderfolgenden Seiten
-            carry = prev_surname if (vol == prev_vol and page == prev_page + 1) else ""
-            page_rows = parse_page(text, vol, page, args.section, prev_surname=carry, forenames=lex)
+            # Familienname und Rubrik über die Seitengrenze nur bei direkt aufeinanderfolgenden Seiten
+            consecutive = (vol == prev_vol and page == prev_page + 1)
+            carry = prev_surname if consecutive else ""
+            heading = heading if consecutive else ""
+            page_rows = parse_page(text, vol, page, args.section, prev_surname=carry, forenames=lex, heading=heading)
             rows.extend(page_rows)
             prev_vol, prev_page = vol, page
             prev_surname = next((r["surname"] for r in reversed(page_rows) if r["surname"]), "")
+            heading = next((r["heading"] for r in reversed(page_rows) if r.get("heading")), heading)
     else:
         sys.exit("--text oder --run/--reader angeben")
 
