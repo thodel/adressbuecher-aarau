@@ -117,8 +117,9 @@ das Reasoning-Problem aus `docs/BATCH_ATR.md`; ohne Denkabschaltung im externen 
 bleibt das ein Risiko). `qwen3-vl-30b-a3b-instruct` 20/20, **5,4 s je Seite**, keine
 Abbrüche.
 
-**Gateway** (`aarau-probe-v1`): kraken ~50 s je Seite inklusive Segmentierung; Details
-unten. Erste Lesung `kraken-german_print` auf 1884 S. 18: Wörter weitgehend richtig,
+**Gateway** (`aarau-probe-v1`, 80 Aufrufe, 65 min, alle 20 Seiten je Modell gelesen,
+kein Abbruch): kraken ~15 s je Seite inklusive Segmentierung, qwen3vl-german-xix-v2
+25 s; Energie laut Gateway-Zähler 1,4 Wh (kraken) bzw. 2,2 Wh (qwen3vl) je Seite. Erste Lesung `kraken-german_print` auf 1884 S. 18: Wörter weitgehend richtig,
 langes s und ⸗ erhalten, aber Stern/Gedankenstrich am Zeilenanfang teils verstümmelt,
 eine Randnotiz als Textzeile («Keiaiait»), und auf zweispaltigen Seiten werden die
 Spalten zeilenweise vermischt.
@@ -140,10 +141,10 @@ Randnotizen entfernt), je GT-Seite:
 | `gemini-3.8-flash` (extern, Prompt-Digest `@48d0eac8`) | 0,007* | 0,004* | 0,000* | 0,000* | 10,9 |
 | `qwen3.8-27b` (GPUStack) | 0,044 | 0,057 | 0,010 | 0,001 | 72,9 |
 | `qwen3-vl-30b-a3b-instruct` (GPUStack) | 0,032 | 0,046 | 0,031 | 0,011 | 5,4 |
-| `kraken-german_print` (Gateway) | 0,033 | 0,073 | 0,432 | 0,020 | ~50 |
-| `kraken-austrian_fraktur` (Gateway) | 0,057 | 0,098 | 0,476 | 0,034 | ~50 |
-| `kraken-catmus_print_large` (Gateway) | 0,260 | 0,291 | — | — | ~50 |
-| `qwen3vl-german-xix-v2` (Gateway) | — | — | — | — | — |
+| `kraken-german_print` (Gateway) | 0,033 | 0,073 | 0,432 | 0,020 | 15,8 |
+| `kraken-austrian_fraktur` (Gateway) | 0,057 | 0,098 | 0,476 | 0,034 | 14,9 |
+| `kraken-catmus_print_large` (Gateway) | 0,260 | 0,291 | 0,434 | 0,034 | 16,2 |
+| `qwen3vl-german-xix-v2` (Gateway, Kurrent-Feintuning) | 0,113 | 0,808 | 0,784 | 0,031 | 24,7 |
 
 \* GT geht von dieser Lesung aus, Zahl nach unten verzerrt.
 
@@ -151,8 +152,12 @@ Lesart: Auf **Antiqua** sind Gemini und qwen3.8 praktisch fehlerfrei, qwen3-vl-3
 1–3 %. Auf **Fraktur** liegt Gemini unter 1 %, kraken-german_print bei 3 % (einspaltig)
 und 7 % (zweispaltig), die Qwen-Modelle bei 3–6 %; kraken-catmus ist hier unbrauchbar.
 **Zweispaltige Seiten** brechen den kraken-Pfad (43–48 % auf Antiqua, weil die
-Segmentierung die Spalten zeilenweise verbindet); alle Seitenleser lösen die Spalten mit
-`[spalte 2]` korrekt auf. Systematische Fehler: Gemini liest Fraktur-«Oe» als «De»
+Segmentierung die Spalten zeilenweise verbindet) und das Kurrent-Feintuning
+`qwen3vl-german-xix-v2` (78–81 %, es lässt ganze Spalten weg); die Seitenleser mit dem
+Adressbuch-Prompt lösen die Spalten mit `[spalte 2]` korrekt auf. Paarweise Abweichung
+auf allen 20 Seiten (`data/csv/probe_disagreement.csv`): Gemini und kraken-german_print
+liegen auf Fraktur im Median 1,8 % auseinander, Gemini und qwen3-vl-30b 3,4 % — das
+sind die Paare, bei denen eine Abstimmung etwas bringt. Systematische Fehler: Gemini liest Fraktur-«Oe» als «De»
 (Oekonom → Dekonom), qwen3.8 modernisiert gegen den Prompt (Wittwe → Witwe, Partik. →
 Part.), kraken verstümmelt Stern und Gedankenstrich am Zeilenanfang.
 
