@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p169",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p169.jpeg",
+    "bytes": 256843,
+    "sha256": "18b96ed233dbf03dd3a9225919c9ec2bed4075f31dd2e2cb8b763fbbe569eb0f",
+    "sha256_of": "original",
+    "working_copy": "1899_p169.jpeg"
+  },
+  "text": "65\nPortmann-Peyer, Luise, Stadthof 94.\nSchatzmann-Häring, Elisabeth, vor dem Haldenthor 1309.\nSennhauser, Rosa und Amalie, vor dem Haldenthor 1519.\nSiegenthaler-Hirt, Elise, Hammer 189.\nSuter, Elise, Ziegelrain 711.\nWeber, Anna, Waltersburg 856.\nWiederkehr-Oeschger, Viktoria, Milchgasse 152.\nZellweger, Elise, Milchgasse 153.\n\nGlashandlungen.\nHagenbuch, Karl, * Kronengasse 35.\nRies-Buhlrein, Eml., Ziegelrain 702.\n\nGlasurmühle.\nHof-Müller, Ed., obere Vorstadt 935. (Siehe Inserat Seite 25.)\n\nGlaswarenhandlungen.\nHagenbuch, Karl, * Kronengasse 35.\nHemmeler-Stahl, J., * Rathausgasse 21.\nMorath, J. W., * Rathausgasse 2.\nWetter & Cie., * Magazin z. Globus, obere Vorstadt 925.\n\nGlockengiesserei.\nRüetschi, Hermann, * Rainstraße 844.\n\nGoldleistenhandlungen.\nHagenbuch, Friedrich, Buchbinder, * vordere Vorstadt 676. (Siehe\nInserat Seite 18)\nRies-Buhlrein, Emanuel, Ziegelrain 702.\nSchatzmann, Samuel, Buchbinder, Pelzgasse 135. (S. Inserat S. 5.)\nWärtli, August, Buchbinder, Kirchhof 166. (S. Inserat Seite 15.)\nZebert, Georg, Buchbinder, * Laurenzenthorgasse 116.\n\nGold- und Silberwaren.\nFischer, Jonathan, vordere Vorstadt 1260. (S. Inserat Seite 19.)\nHärdy, Wilhelm, * Rathausgasse 42.\nHirschy, J. R., * vordere Vorstadt 668. (Siehe Inserat Seite 14.)\n\nGoldschmiede.\nFischer, Jonathan, Holzmarkt 1260. (S. Inserat Seite 19.)\nHärdy, Wilhelm, * Rathausgasse 42.\n\nGrabsteinlager.\nRusterholz & Freihofer, * Rain 885. (Siehe Inserat Seite 4.)\n\nStadt Aarau. E.\n5",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4796,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1459,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0513,
+    "mean_line_chars": 36.21,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:39:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p169",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p169.jpeg",
+      "bytes": 256843,
+      "sha256": "18b96ed233dbf03dd3a9225919c9ec2bed4075f31dd2e2cb8b763fbbe569eb0f",
+      "sha256_of": "original",
+      "working_copy": "1899_p169.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:39:06+00:00"
+  }
+}

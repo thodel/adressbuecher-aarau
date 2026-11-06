@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p067",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p067.jpeg",
+    "bytes": 268714,
+    "sha256": "605e46b98e33f4c76f243594cf8f044f0c348279870e6dca7c2510428dbb2503",
+    "sha256_of": "original",
+    "working_copy": "1896_p067.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 45\nHaus-\nNr.\n1308 Meier-Lüthy, Johann Jakob, Lehrer.\nHengherr-Hiltbrunner, August, Lehrer, v. Affoltern b. Höngg (Zürich).\n1425 Conrad-Lüthy, Peter, Regierungsrat, von Auu.\n1454 Ammann-Strähl, Robert, Architect, Kantonshochbaumeister.\nSchwendimann-Amsler, Wilhelm, Dragonerlieutenant, Kavallerie-\n  Instruktor, von Pohlern (Bern).\n1455 * Derselbe. Wohnhaus.\n1456 * Derselbe.\nKettiger-Bertschinger, Arnold, Kaufmann, Prokurist, von Liestal\n  (Baselland).\nKind-Aldinger, Gottfried, Hauptmann, Infanterie-Instruktor, v. Chur.\nBahnhofstrasse.\n559 Kern-Rychner, Emil, Mechaniker.\nKern-Hunziker, Emil, Fabrikant.\n560 * Derselbe. Wohnhaus mit Remise.\nDieterker-Schluep, Jakob, Postfakture, von Thalheim.\nAmmann, Maria, Ladentochter, von Ryken.\n1317 Hässig-Sigle, Julius, Café zur Bank.\nWitzinger-Lenthe, Moritz, Dr. med., prakt. Arzt, von Unter-\n  hallau (Schaffhausen).\nSiebenmann-Steiner, Gottlieb, Camionneur und Spediteur.\n1318 † Derselbe. Wasch- und Holzhaus.\n1160 Wolfsg-ruber-Kuenze, Gottfried, Photograph, v. Bonn (Preußen).\nWismer, Heinrich, Chef der Gütererpedition, von Utiikon (Zürich).\nDössekell. Mina, Klavierlehrerin, von Seon.\nHuber, Korinna, Bez.-Lehrerin, von Besenbären.\n1447 Dolder-Saxer, Jakob Friedrich, Kaufmann, von Hauptweil (Thurg.).\n  Hauptagentur der Helvetia. Feuer- und Transportversicherung.\nMüri-Hiltpold, Joh., Dr. jur., Fürsprech, Regierungsrat, v. Schinzmach.\n561 † Richner & Rothpletz. Thon- und Steingutlröhren- und Cement-\n  warenfabrik. Röhren zu Wasser-, Rauch- und Abtritbleitungen, Cement-\n  bausteine, Cementlröhren, Céement-, Sargemünder- und Mettlacher-Boden-\n  und Wanderkleidungsplatten für Korridore, Veranden, Küchen, Schul-\n  hÄuser u. Kirchen. Grosses Lager in Regulir-Füll-Oefen verschiedener,\n  sehr gut bewährter Systeme. Allein-Verkauf der Feuerlösche-Granaten\n  „Labbé“. Handel und Lieferung aller möglichen Baumaterialien.\n562 † Dieselben. Holzhaus.\n1077 † \" Röhrenfabrik.\n1270 † \" \"\n563 Holzach-Siebenmann, Dietrich, Bierbrauer. Speisewirthschaft.\nSpengler-Lienhard, Louise, Witwe, Part.\n564 † Derselbe. Kegelbahn.\n565 † \" Bierbrauerei.\n566 † \" Eiskeller.\n1214 † \" Eishaus und Bierkeller.\n1215 † \" Wasch- und Holzhaus.\n[handschriftlich: Fach-Richt V. 659 1911 1916]\n[handschriftlich: A 1176 1076]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 148775,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2291,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:31:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p067",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p067.jpeg",
+      "bytes": 268714,
+      "sha256": "605e46b98e33f4c76f243594cf8f044f0c348279870e6dca7c2510428dbb2503",
+      "sha256_of": "original",
+      "working_copy": "1896_p067.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:31:41+00:00"
+  }
+}

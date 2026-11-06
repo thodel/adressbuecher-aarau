@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p144",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p144.jpeg",
+    "bytes": 292370,
+    "sha256": "aefaf26227cc09fd9b25a65afd5a55f8c91cc5656cfa1fdb0b75c325ed41712c",
+    "sha256_of": "original",
+    "working_copy": "1899_p144.jpeg"
+  },
+  "text": "40\nSpeck geb. Hochuli, Elsa, Bachstraße 1032.\nSpengler, Bertha, Näherin, Golattenmattgasse 231 a.\n— geb. Lienhard, Luise, Witwe, Bahnhofstraße 563.\nSperlich, Theodor, Hutbandlung, vordere Vorstadt 666.\nSpichiger, Friedr., Dek.-Maler, vordere Vorstadt 682. Werkstätte\n  Bachstraße 1029.\nSpillmann, Augustin, Fabrikarbeiter, vor dem Haldenthor 802.\nSpinner, Joh. Jakob, Part., Bachstraße 1154.\nSpirgi, Rudolf, Fabrikarbeiter, Halden 260 b.\nSpitzli, Joh. Jakob, Kaufmann, Kasinoträße 576.\nSprecher, Karl, Elektrotechniker, Zschokkestraße 977.\nSprenger, Wilhelm, Schreiner, Rathausgasse 22.\nSpringer, Hermann, Kaufmann, Gartenstraße 998.\nSpühler, Anna, Kunstmalerin, Bachstraße 1155.\n— Joh. Jakob, Sekretär, Baehräße 1155.\nStäbli, Henriette Adele, Privatin, Laurenzenvorstadt 394.\n— Ida, Part., Laurenzenvorstadt 394.\nStäublin, Gottlieb Wilhelm, Part., Gais 482.\n— Sophie, Dr's., Part., Gais 482.\nStäheli, Jakob, Fabrikarbeiter, Tellii 440.\nStähelin, Alfred, Dr. med., [tel] jenseits der Aare (Kirschgarten) 1086.\nStänz-Bircher, Anna Maria, Part., Rain 831.\n— Rud., Schriftsetzer, Graben 620.\n— geb. Suter, Luise, Ingenieurs Witwe, Bachstraße 1107.\nStäubli, Joh. Heinrich, Kassier der Güterexpedition, Rain 829.\n— Niklaus, Direktionsssekretär, Rain 843.\nStaatsanwaltschaft, hintere Vorstadt 690.\nStacher geb. Brunner, Ida, Zollrain 293.\nStadler geb. Hämptli, Anna, Witwe, obere Vorstadt 939.\nStahel & Cie., Manufacturwarenhandlung en gros, [tel] Schloßplatz 191.\n— Johann, Kaufmann, Schloßplatz 191.\nStalder, Friedrich, Speisewirthschaft, Kasinosträße 570.\n— Joseph, Gipser, Kirchgasse 15.\n— Katharina, Haushälterin, Kirchgasse 15.\nStapfer, Johann, Schuhmacher, Graben 207.\n— Johann, Sohn, Schuhmachermeister, Rathausgasse 31.\nStaub, Jak. Bernhard, Wagenkontrollour, hinter dem Bahnhof 1492.\n— Johann, Maschineningenieur, hinter dem Bahnhof 1492.\n— Joh. Jakob, Bahnhofangestellter, hinter dem Bahnhof 1492.\nStauber, Gottfried, Telegraphist, Schachen 736.\n— Jakob, Notar und Amtsrevisor, Schachen 736.\nStauffcr, Albert, Bankangestellter, Laurenzenvorstadt 544.\nSteffen geb. Meier, Anna, Witwe, Rain 878.\nStehle, Albert, Schneider, Schachen 734.\nSteimer, Eugen, Fachlehrer, Bachstraße 1043.\nSteiner, Erwin, Steindrucker, vor dem Haldenthor 800.\n— geb. Haller, Mina, Witwe, Taglöhnerin, Laurenzenvorstadt 376.\n— Hermann, Bahnanigestellter, Halden 272.\n— Jakob, Postkondukteur, Laurenzenithorgasse 117.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17107,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2394,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:45:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p144",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p144.jpeg",
+      "bytes": 292370,
+      "sha256": "aefaf26227cc09fd9b25a65afd5a55f8c91cc5656cfa1fdb0b75c325ed41712c",
+      "sha256_of": "original",
+      "working_copy": "1899_p144.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:45:18+00:00"
+  }
+}

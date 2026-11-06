@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p068",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p068.jpeg",
+    "bytes": 272303,
+    "sha256": "710170fefa21e2fa7ac6ce42b1decedde74fd7366c9f57915adb4a09924e932a",
+    "sha256_of": "original",
+    "working_copy": "1899_p068.jpeg"
+  },
+  "text": "60\nHaus-\nNr.\nSchatzmann-Gruber, Heinrich, Schneider, v. Altstätt (Tirol).\nStehle-Meissner, Alb., Schneider, v. Rheinstetten (W'berg.).\n735 * Schaub-Blauenstein, Adelbert, Gypsermeister, v. Ettingen\n(Baselland).\nWehrli-Engeli, J., Sekretär und Betriebsbeamter, von\nKüttigen.\nHaberstich-Stöckli, Jb., Zinsrodelverwalter, v. O.-Entfelden.\nHumm-Buchli, Friedrich, Schneider, von Kirchleerau.\n736 Brack-Uster, Heinrich, Chef des Aarg. Polizeikorps.\nStauber-Götti, Jakob, Notar, Amtsrevisor, von Zezwyl.\n— Gottfried, Sohn, Telegraphist.\nThut, Gottlieb, Part., von Ober-Entfelden.\n737 Siebenmann-Merz, Emil, Stadtkassier und Steuerbezüger.\nFrey-Pfiffer, Maria, Witwe, Part., von Zurzach.\nSchmuziger-Hochstrasser, Maria, Witwe, Part.\nHochstrasser (Merz), Maria, Damenschneiderin, v. Auen-\nstein.\n738 † Walter-Matter, Verena, Ökonoms Witwe. Scheune.\n739 * Dieselbe. Wohnhaus.\nWalthier-Egger, Jakob, Sohn, Ökonom.\nHauri-Kyburz, Elisabeth, Briefträgers, Witwe, Part., von\nSeengen.\n740 † Dieselbe. Schopf.\n1402 † Dieselbe. Pferdestall.\n741 Gloor-Lehmann, Wilhelm, Fuhrmann, von Leutwyl.\nSchweizer-Siebenmann, Sophie, Witwe., von Basel. Bett-\nwarengeschäft.\n742 † Siegrist-Fischer, Jakob, Metzger, von Meisterschwanden.\n(Scheune.)\n743 † Keller-Berney, Abraham, Mechaniker. Metalldreherei.\n\nZiegelrain.\n744 }\n745 } Abgetragen; an deren Platz\n746 }\n1400 † Kern & Cie. Fabrikgebäude.\n747 * Dieselben. ⛔ Fabrikgebäude. Fabrikation mathematischer\nund geodätischer Instrumente.\nHunziker-Leuch, Edwin, Commis, von Oberkulm.\n748 † Dieselben. Fabrikgebäude.\n749 † Holzhaus.\n750 Kuhn-Buser, Alfred, Stadtrat, Schlosserei u. mech. Werk-\nstätte ⛔.\n751 Strich-Brack, Julius Wilh., v. Aachen (Preussen). Halblein-\nund Halbwollstoff-Fabrikation.\nBrack, Jakob, Part, von Elfingen.\nKaspar-Frey, Anna, Witwe, von Zezwyl.\n— -Stauffer, Siegwart, Postangestellter.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5409,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1830,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:29:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p068",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p068.jpeg",
+      "bytes": 272303,
+      "sha256": "710170fefa21e2fa7ac6ce42b1decedde74fd7366c9f57915adb4a09924e932a",
+      "sha256_of": "original",
+      "working_copy": "1899_p068.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:29:04+00:00"
+  }
+}

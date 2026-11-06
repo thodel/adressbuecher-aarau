@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p034",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p034.jpeg",
+    "bytes": 276133,
+    "sha256": "5fb85f45736e396ee34673be816703c545b90127383eec3a2693c1ff6fe9c76e",
+    "sha256_of": "original",
+    "working_copy": "1896_p034.jpeg"
+  },
+  "text": "12            Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n126   Hunziker-Baumberger, Rudolf, Lehrer.\nHunziker, Bertha, Damenschneiderin.\nTuchschmid-Huber, Konrad, Sattler und Tapezierer, von Thundorf\n  (Thurgau).\n127   Willi-Blattner, August, Metzger, v. Lostorf (Soloth.) Speisewirtschaft.\nFrei-Möscher, Ulrich Wilhelm, Werkmeister, von Zurzach.\n128   ⇒ Weber-Lüscher, Otto, Weinhandlung, von Menziken.\nLüscher-Herzig, Elisabeth, Witwe, Part., von Muhen.\nStacher-Brunner, Gustav, Seminarlehrer, von Egnach (Thurgau).\nRiesterer, August, Mechaniker, von Basel.\nHauser geb. Bollinger, Karolina, Part., v. Saulgau (Württemberg).\nMerz, Hermann, Konditor, von Menziken.\nKrügel-Zenker, Karl, Lithograph, von Saalfeld.\n⇒ H. Kummler & Cie. Elektricitätswerk. (Bureau).\n129 * Siebenmann-Hagnauer, Friedrich, Bierbrauer, Stadtrat (Wirt-\n  schaft zur Zunfstube).\nLüthi-Weibel, Elise, Witwe, von Holziken (Wirtin z. Zunfstube).\nSpeisewirtschaft.\nLenzi-Fischer, Albert, Kontrolleur auf der Aarg. Ersparniskasse,\n  von Zuzgen.\nWildi-Hagnauer, Friedrich, Postbeamter, von Reinach.\n130   Deubelbeiss-Berner, Johann, Spengler, von Schinznach.\nBell-Marti, Lina, Witwe. Spezereihandlung.\nStrebel-Steiner, Hans, Steindrucker, von Dottenheim (Bayern).\n131 * Rüetschi, Gottlieb, Part., in Suhr.\n⇒ Rüetschi-Schneider, Max, Bäckermeister.\nRüetschi-Nüßerli, Fried., Buchhalter.\n132 * Willimann-Wehrli, Maria, von Oberhof.\nHilfiker-Alchenberger, Jakob, Schuhmacher, von Safenwyl.\nPortmann-Peyer, Josef, Ausläufer, von Escholzmatt (Luzern).\nPortmann-Peyer, Louise, Glätterin, von Escholzmatt (Luzern).\nMüller, Marie, Zimmermanns, Part., von Oberbözberg.\nLäuchli, Lina, Glätterin.\n133   Suter-Iberg, Albert, Schneidermeister, von Kölliken.\n134   Hassler-Bircher, Paul, Kupferschmied. Kupferwarenhandlung.\nBircher, Jakob, Part., von Küttingen.\nOelhafen geb. Hagnauer, Nanette, Witwe, Part.\nSuter-Müller, Jakob, Taglöhner, Kölliken.\n135   Schatzmann-Läuchli, Samuel, Buchbinder, von Windisch. Schreib-\n  materialen-, Feuerwerk- und Rahmenhandlung.\n136   ⇒ Häfliger-Hilfiker, Otto, Metzgerei und Speisewirtschaft, von\n  Oberentfelden.\nHilfiker geb. Wilhelm, Emilie, Witwe, Part., von Muhen.\n137   Wassmer-Kummler, Emil, Kaufmann, Spezereihandlung z. Adler.\nSuter-Kopp, Jost, Konditor, von Münster (Luzern).\nKopp, Theresa, von Münster (Luzern).\nSeilaz-Brunner, Abraham, von Bas-Vully (Freiburg), Coiffcur-\n  geschäft und Parfümeriehandlung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 98587,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2418,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:41:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p034",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p034.jpeg",
+      "bytes": 276133,
+      "sha256": "5fb85f45736e396ee34673be816703c545b90127383eec3a2693c1ff6fe9c76e",
+      "sha256_of": "original",
+      "working_copy": "1896_p034.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:02+00:00"
+  }
+}

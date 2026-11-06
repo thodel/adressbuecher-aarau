@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p082",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p082.jpeg",
+    "bytes": 270608,
+    "sha256": "8e07be9eacd9a3989fe7db141890d1fb579ecde10c91ee5a0fbc9c9eecd92db5",
+    "sha256_of": "original",
+    "working_copy": "1896_p082.jpeg"
+  },
+  "text": "60\nVerzeichnis der Gebäude und ihrer Bewohner.\n772 * Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\nFricker-Amsler, Joseph, Commis, von Oberhof.\nBeiler-Merz, Joh. Gottlieb, Commis, von Wahnern (Bern).\n773 * Derselbe. Anbau.\nBlattner-Werzli, Rud., Schuhfabrikarbeiter, von Küttigen.\nSpürgi-Kramer, Rudolf, Fabrikarbeiter, von Unterkulm.\n774 † Derselbe. Holzmagazin.\n775 † \" Scheune.\n776 † \" Holzmagazin.\n777 Rey-Ringgeler, Jakob, Lehrer, der Bezirksschule.\n778 † Derselbe. Holzhaus.\n779 * Wehrli-Dubs, Johann, Gärtner, von Küttigen. (Gartenhaus).\n780 Abgetragen; an dessen Platz\n1272 [tel] Wehrli-Dubs, Johann, Gärtner, von Küttigen.\nHäuptli-Ott, Othmar, Adjunkt des Staatsbuchhalters.\n781 Abgetragen; an dessen Platz\n1084 * Derselbe. Wohnhaus.\nSuter-Bircher, Albert, Taglöhner, von Kölliken.\nMerz-Horlacher, Traugott, Telephon-Monteur, von Beinwyil.\nEichenberger-Strümemann, Adolf, Taglöhner, von Beinwyil.\nSchaub, Wilhelm, Taglöhner, von Tenniken (Baselland).\nSchaub, Paulina, Fabrikarbeiterin, von Tenniken (Baselland).\n782 † Derselbe. Scheune und Holzhaus.\n1108 † \" Gewächshaus.\n1143 † \" \"\n1144 † \" \"\n783 † Frei-Rohner, Robert, Bäcker. Holzschopf.\n784 Trinkler-Meier, Karolina, Instructors Witwe, von Bötzen.\nBolliger-Schärer, Johann, Schriftsetzer, von Küttigen.\n785 † Dieselbe. Waschhaus.\n1182 † Seiler-Hanhart, Andreas, Bäcker. Holzhaus.\n1092 * Wägeler-Vogel, Karl, Dachdecker, von Waldshut (Baden).\nHaller-Attiger, Wilhelm, Badaufseher, von Reinach.\nHaller-Attiger, Marie, Glätterin, von Reinach.\nHuber, Anna, Privatin, von Rykon-Illnau (Zürich).\nHäfeli-Fischer, Julie, Näherin, von Seengen.\nVogel, Friedrich, Dachdecker, von Kölliken.\nVogel, Rosa, Part., von Kölliken.\n1093 * Derselbe.\nWernli-Wernli, Rudolf, Taglöhner, von Thalheim.\n1306 Wägeler-Vogel, Karl, Dachdecker u. Kaminfeger, v. Waldshut (Baden).\n1273 † Derselbe. Waschhaus.\n786 * [tel] Gasbeleuchtungsgesellschaft. Wohnhaus.\nBechstein-von Jettmar, Wilhelm, von Meiningen (Sachsen), Direktor\nder Gasfabrik.\n787 † Dieselbe. Gasfabrik.\n788 † \" Reinigungshaus.\n789 † \" Steinkohlenschopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 378118,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2053,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:57:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p082",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p082.jpeg",
+      "bytes": 270608,
+      "sha256": "8e07be9eacd9a3989fe7db141890d1fb579ecde10c91ee5a0fbc9c9eecd92db5",
+      "sha256_of": "original",
+      "working_copy": "1896_p082.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:57:16+00:00"
+  }
+}

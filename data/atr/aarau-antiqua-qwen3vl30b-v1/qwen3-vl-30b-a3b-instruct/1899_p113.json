@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p113",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p113.jpeg",
+    "bytes": 279445,
+    "sha256": "67c97d5b413003f93f47ccb2608527efe06db03138b622edef9549a693de5a83",
+    "sha256_of": "original",
+    "working_copy": "1899_p113.jpeg"
+  },
+  "text": "Drack, Hermann, Metallgießer, Vor dem Haldenthor 1569.\n— Luise, Milchgasse 149.\nDreifuss, Emil, Manufakturwarenhandlung, Graben 352.\n— Karl, Kaufmann, Laden vord. Vorstadt 889, Wohnung 670.\n— Karl Moses, Kaufmann, Rain 875.\nDürr, Alfred, Tambour-Instruktor, Halden 284.\n— Emil, Gemüsehändler, Milchgasse 143.\n— Gottfried, Schuhmacher, Halden 275.\n— Heinrich, alt Pfarrer, Privatier, Rathausgasse 19.\n— Hermann, Maler, Kasinostraße 1130.\n— Hieronimus, Straßenwärter, Adelbändli 174.\n— Johanna, Privatier, Rathausgasse 19.\n— Isaak, Schreinermeister, Milchgasse 161.\n— Karl August, Part., Rathausgasse 19.\n— Karolina, Glasers, Halden 275.\n— geb. Lüscher, Maria, Witwe, Gemüsehändlerin, Graben 1237.\nDubs, Elise, Müllers, Hammer 182.\n— Jakob, Müller, Hammer 182.\n— Johann, Müller, Hammer 182.\n— Karl, Metzger, Rathausgasse 32.\n— Louise, Part., Laurenzenvorstadt 1294.\nEberle, Franz, Müller, Stadthof 95.\nEckert, Eduard, Zimmerpolier, hinter dem Bahnhof 1512.\n— Elise, Damenschneiderin, hinter dem Bahnhof 1512.\n— Walther, Sohn, Zimmerpolier, hinter dem Bahnhof 1512.\nEckstein, Johann Martin, Steindrucker, Zollrain 178.\nEger, Theophil, Schneider, Hammer 190.\nEggen, Eduard, Kaufmann, Laurenzenthorgasse 119 b.\nEggimann geb. Joss, Rosina, Wirtin Bahnhofstraße 1025.\nEgloff, Franz Adam, Postangestellter, Rain 877.\n— Johann Ernst, Buchbinder, Bachstraße 933.\nEhlers, Heinrich Konrad, Buchhändler, Laurenzenvorstadt 418.\nEhrsam geb. Andres, Emilie, Witwe, Zschokkestraße 975.\n— Ida, Part., Bachstraße 1040.\nEichenberger, Adolf, Taglöhner, vor dem Haldenthor 1084.\n— Christian, Zeughausarbeiter, Metzgergasse 56.\n— Gottlieb, Schreiner, Bahnhofstraße 1018.\n— Ida und Elise, Damenschneiderinnen, Metzgergasse 56.\n— Rudolf, Zimmermann, Halden 285.\nEisengiesserei und Weichgussfabrik, hinter dem Bahnhof 499.\nElastiques-Fabrik (E. Bally), hinter dem Bahnhof 490, Comptoir Laurenzenvorstadt 405.\nElektrizitätswerk, städtisches, hintere Vorstadt 684.\nElmer, Joseph, Lokomotivführer, Laurenzenvorstadt 552.\nElsasser, Gottlieb, Küfermeister, Halden 290.\nEngesser, Joseph, Schneider, vor dem Haldenthor 803.\nErdin, Albin, Kaufmann, Lingerie- und Bonneteriewarenhandlung, Rathausgasse 22.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5990,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2170,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:33:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p113",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p113.jpeg",
+      "bytes": 279445,
+      "sha256": "67c97d5b413003f93f47ccb2608527efe06db03138b622edef9549a693de5a83",
+      "sha256_of": "original",
+      "working_copy": "1899_p113.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:33:26+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p026",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p026.jpeg",
+    "bytes": 275150,
+    "sha256": "d25bef2597cef0fd65b74db1cf20e3ee8530a3763d1370b533251ac247e0484d",
+    "sha256_of": "original",
+    "working_copy": "1896_p026.jpeg"
+  },
+  "text": "4\nHaus-\nNr.\n29 Schmid-Maurer, Mathilde, Negontiantin, von Möriken. Comestibleshdlg.\nMaurer, Louise, Part.\n30 Müller-Hürner, Eduard, Schirrmacher. Schirmhandlung.\n31 Stapfer-Fessenmeier, J., Schuhmacherstr., v. Sarmenstorf. Schuhhdlg.\nStapfer, Johann, Sohn, Schuhmacher, von Sarmenstorf.\n32 Dubs-Walther, Karl, Metzger u. Speisewirt, von Küttingen.\n\nKronengasse.\n33 Firma Erny-Fassler & Sohn.\nErny-Bauer, Karl, Kaufmann, Mercerie-, Passementerie-, Bonneterie-\nund Lingerie-Warenhandlung.\nWaldmeier-Gautschl, Alfred, Commis (Gamper & Cie.) von Möhlin.\nImhof, Lina, Lehrerin.\nImhof, Susette, Privatin.\n34 Württemberger-Kaiser, Marie, Coiffeurs Witwe.\nKaiser, Sigmund, gew. Kaufmann.\nSchibler, Fritz, Coiffeur, von Walterswyl (Solothurn). Parfümerie-\nwarenhandlung.\nKlein-Berner, Jean, v. Kaisten. Samen- und Landesproduktenhdlg.\nBrugger-Vetter, Osk., v. Wehr (Baden). Velo- u. Nähmaschinenhdlg.\nHagenbuch, Karl, Kaufmann. Glas- u. Porzellanwarenhandlung.\nOttolini-Steiner, Jean, Koch, von Isola Bella (Italien).\n35 Hintz-Wolf, Anna, Witwe, Zuckerbäckerei.\nHintz, Ulrich, Zuckerbäcker, von Lahr (Württemberg).\nWolf-Allemann, Fritz, Architekt, Adjunkt des Hochbaumeisters.\n36 Vonfelten-Willimann, Franz Jos. Corsett- u. Quincaillerieschäft.\nWillimann-Wehrli, Marie, Witwe, von Oberhof.\nMösch-Mösch, Karl, Güterexpedient, von Frick.\n37 Gloor-Siebenmann, Marie, Witwe, von Schöftland. Kolonial-\nwaren und Delikatessen-Handlung.\nFehr-Widmer, Hans, Bankangestellter, von Kölliken.\n38 Mathys-Hafner, Rudolf, Gastwirt zur Krone, von Eriswyl (Bern).\nWehrli-Schneider, Jak., Bäcker, von Küttingen. Speisewirtschaft.\n39 Jungi-Blattner, Johann, Schuhmacher, von Guggisberg (Bern).\nJungi-Blattner, Lina, Damenschneiderin, von Guggisberg (Bern).\nWinkler-Angstmann, Joseph, Maurerpolier, von Fließ (Tirol).\nHäusler, Emanuel, Kaufmann, von Biel.\n40 Faller geb. Faller, Elise Louise, Witwe, v. Raitenbuch (Grossh. Baden).\nFirma Gebr. Faller, Militärartikel, Eisen- und Quincaillieriewarenhdlg.\nFaller, Karl Friedr., Sohn, Kaufmann, von Raitenbuch (Grossh. Baden).\n41\n\nRathausgasse.\n42 Härldi, Wilhelm, Goldschmied, von Lenzburg, Gold- u. Silberwarenhdlg.\nHärldi, Lina, Haushälterin, von Lenzburg.\nWeber-Wolfeter, Emil, von Hausen. Nähmaschinenhandlung (Com-\npagnie Singer).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5692,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2253,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:01:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p026",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p026.jpeg",
+      "bytes": 275150,
+      "sha256": "d25bef2597cef0fd65b74db1cf20e3ee8530a3763d1370b533251ac247e0484d",
+      "sha256_of": "original",
+      "working_copy": "1896_p026.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:01:48+00:00"
+  }
+}

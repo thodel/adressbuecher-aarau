@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p077",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p077.jpeg",
+    "bytes": 261025,
+    "sha256": "6b878d768c7297eb172aaf267858fc4f4e88b05c8914526ac818bb5e17a61125",
+    "sha256_of": "original",
+    "working_copy": "1896_p077.jpeg"
+  },
+  "text": "Haus-\nNr.\n1236 * Hirschy-Merz, Joh. Rudolf, Uhrenmacher.\nFirma: Hauri & Gränicher, Broderie- und Tapisseriegeschäft.\nGränicher, Fanny, Brodeuse.\nDiethelm-Kalanquin, Reinhard, Zugführer, v. Heffenhofen (Thurg.).\n1262 Nägelin-Gisiger, Arnold, Hôtelier, von Liedertswil.\n696 * Derselbe.\n    Jäcker-Haller, Joseph, Elbwaren-Handlung, von Lachapelle-\nsous-Rougemont (Frankreich).\nPlüss-Zimmerli, Jakob, Maurer, von Brittnau.\nPlüss-Zimmerli, Marie, Hebammе, von Brittnau.\n697 Mayer-Vogel, Thomas, Schuhmachermeister, von Eigoldingen (Baden).\nSchuhhandlung.\n698 Bertschi, Bertha und Marie, Damenschneiderinnen, v. Dürrenäsch.\nOelhafen-Rufli, Rudolf, Metzgermeister.\n699 Oelhafen, Arnold, Metzger, Sohn.\nWildi-Wespi, Adele, von Veltheim. Salzverkauf.\n\nZiegelrain.\n700    Holzach-Schmidt, Fritz, Metzger u. Wirt. Speisewirtschaft.\nMüller-Riederer, Lorenz, Maschinenmeister, v. Unter-Iberg (Schwyz).\n701 Derselbe. Wohnhaus und Fleischverkaufsladen.\n702 Ries-Buhlrein, Emanuel. Glas-, Farbwaren- und Drogueriewarenhdlg.\nRochholz, Mina, Klavierlehrerin, von Ansbach (Bayern).\n703 Schmuziger-Bühler, Gottlieb, Schneidermeister.\nSchmuziger, Fritz, Brot- und Zuckerbäckerei.\nSchmuziger, Lucia, Damenschneiderin.\nSpirgi-Spirgi, Friedrich, Posamenter, von U.-Kulm.\n704 Suter-Dürr, Rudolf, Spengler, von Niederhallwyl. Spenglerwaren\nund Lampenlager.\nSuter-Fehlmann, Anna, Witwe, von Gränichen. Wäschерin.\nSuter, Anna, Damenschneiderin, von Gränichen.\nPfund-Hengartner, Jak., Schreiner, v. Lenk (Bern).\nHaller-Fehlmann, Susette, Spetterin, von Reinach.\n705 Hässig Bühler, Friedrich, Kupferschmied.\nHässig-Baumann, Margarita, Malers Witwe.\nWieland-Wieland, Hermine, Witwe, Part., von Rheinfelden.\nEgli-Hürlimann, Hermann, Maschinist (Elektrizitätswerk), von\nBäretschwil (Zürich).\nBaldinger, Wilhelm, Mechaniker, von Rekingen.\n706 † Derselbe. Werkstätte.\n707 a Siebenmann, Bertha, Part.\nDätwyler-Meyer, Johann, Taglöhner, von Wittwyl.\nIsliker, Anna, Damenschneiderin, von Andelfingen (Zürich).\nFrei-Lindenmann, Maria, Taglöhnerin, v. Reigoldswil (Baselland).\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5623,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2048,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:06:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p077",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p077.jpeg",
+      "bytes": 261025,
+      "sha256": "6b878d768c7297eb172aaf267858fc4f4e88b05c8914526ac818bb5e17a61125",
+      "sha256_of": "original",
+      "working_copy": "1896_p077.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:06:35+00:00"
+  }
+}

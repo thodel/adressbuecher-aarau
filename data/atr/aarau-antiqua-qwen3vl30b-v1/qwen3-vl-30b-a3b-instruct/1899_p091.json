@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p091",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p091.jpeg",
+    "bytes": 280247,
+    "sha256": "297a06352b52c94c25a39159e46e80bb871ae5ab2e003fdb57673f194b6555fb",
+    "sha256_of": "original",
+    "working_copy": "1899_p091.jpeg"
+  },
+  "text": "Haus-\nNr.\n1062 Dr. Hegar-Bolley, Friedrich, Musikdirektor von Zürich\nund Basel.\n1080 † Derselbe. Gewächshaus.\n1152 † \" Holzschopf u. Geflügelhaus.\n\nNach der Nummerierung gebaute Häuser.\n1063 Schäfer-Troller, Adolf, Architekt. (In der Gais.)\n1064 † Derselbe. Holzschopf. (In der Gais.)\n1065 † Abgetragen.\n1066 † Ryniker, Gebr., Bierbrauer. Kühlschiff. (Mühlegäbschen.)\n1067 † Schneider, Gust., Dr., alt Oberrichter. Rebhäuschen. (Weinbg.)\n1068 † Burkhardt, Ferd., Coiffeur. Rebhäuschen. (Weinberg.)\n1069 † Abgetragen.\n1070 † \"\n1071 †\n1072 Gautschi, Rud., Wirt, z. „Frohsinn“. (Hinter dem Bahnhof.)\n1073 † Kraft-Kaspar, Maria, Witwe. Holzremise. (Bachstraße.)\n1074 * Spengler-Lienhard, Luise, Witwe, Part. (Bahnhofstraße.)\n1075 Brentano-Bruggisser, Max, Zahnarzt, von Laufenburg. (Ent-\nfelderstraße.)\n1076 Beck, Friedrich, Sattler. Waschhaus. (Entfelderstraße.)\n1077 † Richner, Karl, Röhrenfabrik. (Bahnhofstraße.)\n1078 † Künzlen & Cie. Eisengießerei. (Hinterm Bahnhof.)\n1079 † Zschokke, M., Baugeschäft. (Rohrerstraße.)\n1080 † Dr. Hegar-Bolley, Friedrich. Gewächshaus. (Bachstraße.)\n1081 † Klingelfuss, Johann, Mechaniker. Werkstätte. (Weinberg.)\n1082 † Derselbe. Holzschopf. (Weinberg.)\n1083 * Amsler-Falger, Witwe. Wohnhäuschen. (Vor d. Haldenthor.)\n1084 * Wehrli-Dubs, Joh., Gärtner. Wohnhaus. (Vor d. Haldenthor.)\n1085 † Jenny & Weigel, Farbgebäude. (In der Telli.)\n1086 Stähelin-Herzog, Alfred, Dr. med. (Im Kirschgarten.)\n1087 † Derselbe. Eishaus. (Im Kirschgarten.)\n1088 Abgetragen.\n1089 † Gasbeleuchtungsgesellschaft. Schopf. (An der Aare.)\n1090 † Dieselbe. Schopf. (An der Aare.)\n1091 † Haller-Märki, Karl, Bureau. (Schönenwerderstraße.)\n1092 * Wägeler-Vogel, Karl, Dachdecker. (Vor dem Haldenthor.)\n1093 Derselbe. Wohnhaus. (Vor dem Haldenthor.)\n1094 † Schaffner, Sam., Fuhrmann. Scheune. (Vor d. Haldenthor.)\n1095 † Schützengesellschaft Aarau. Schützenhaus. (Scheibenschachen.)\n1096 † Dieselbe. Scheibenstand. (Scheibenschachen.)\n1097 † Schmidt-Hagnauer. Rebhäuschen. (Weinberg.)\n1098 * Bircher-Schatzmann, Dr. med. (Bachstraße.)\n1099 † Derselbe. Scheune. (Bachstraße.)\n1100 Merz-Märk, Notar. \"\n1101 Bäbler, J. J., Professor. \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6825,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2137,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:31:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p091",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p091.jpeg",
+      "bytes": 280247,
+      "sha256": "297a06352b52c94c25a39159e46e80bb871ae5ab2e003fdb57673f194b6555fb",
+      "sha256_of": "original",
+      "working_copy": "1899_p091.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:31:12+00:00"
+  }
+}

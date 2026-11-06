@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p027",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p027.jpeg",
+    "bytes": 267191,
+    "sha256": "4f5044489675aa38d2220310478a88a90d78a9acd5855efc96d5ef142ebc5c2f",
+    "sha256_of": "original",
+    "working_copy": "1896_p027.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.        5\nHaus-\nNr.\n43 Hofer-Schaffner, Gottlieb, Kaufmann, Spezerei- und Ellenwarenhdlg.\n  Gröbli-Reindli, Jakob, Schneider, von Henau (St. Gallen).\n44 Hofer-Schaffner, Gottlieb, Kaufmann.\n  Reul-Saier, Philipp, Schneider, von Ob-Höchstadt (Preussen).\n  Hofmann, Nanette, Weissnäherin, von Zell (Zürich).\n  Wernli-Wildi, Maria, Witwe, von Thalheim.\n45 Fehlmann-Brack, Kaspar, Bäckermeister.\n  Wernle-Bläuer, Andreas, Schuhmacher, von Thalheim.\n  Hirt geb. Wehrli, Elisabeth, Witwe, Spetterin, von Zenzwil.\n  Hirt, Elise, Damenschneiderin, von Zenzwil.\n  Amser-Spirgi, Heinrich Ludwig, Taglöhner, von Densbüren.\n  Birri-Aklin, Wilhelm, Bremser, von Zeihen.\n46 Hässig-Lienhard, Hermann, Bäcker und Pintenwirt.\n  Hässig, Fritz, Sohn, Bäcker.\n  Eng, Albert, Tanzlehrer, von Arnstadt.\n  Grimm-Suter, Anton Robert, von Gebenstorf, Bahnanangestellter.\n47 * Hässig-Lienhard, Hermann, Bäcker und Pintenwirt.\n  Schneeberger-Salvi, Jakob, von Vordemwald. Hut- u. Kleiderhdlg.\n  (Magazin.)\n  Hauois-Marrer, Jos., Maurer, von Strengen (Tirol).\n  Meier-Bertschi, Jakob, Schlosser, von Hausen.\n  Bertschi-Wächter, Maria, Wäscherin, von Dürrenäsch.\n48 Seiler-Hahnart, Andreas, Bäckermeister.\n49 * -> Gamper & Cie. (Anteilhaber: Müller-Haberstich, Fr., Gamper-\n  Zürcher, Hermann und Gamper-Baumann, Emil. Lager in Herren- und\n  Damen-Kleiderstoffen, Herren- und Damen-Konfektion, Anfertigung von Herrenkleidern\n  nach Mass.\nZollrain.\n50 * -> Gamper & Cie.  Magazin.\n51 Frey-Rohner, Robert, Bäcker und Pintenwirt, von Zurzach.\n  Rohner geb. Ehrsam, Elise, Arzts Witwe, Part.\n  Keller, Lisette, Privat., von Zurzach.\n  Keller, Henriette, Weissnäherin, von Zurzach.\n  Rütli, Hans, Postangestellter, von Schönenwerd.\n52 Vonarx, Karolina, Pintenwirtin, von Olten.\n  Helm-Vonarx, Elise, Witwe, von Oerlikon (Zürich).\n  Helm, Fanny, Modistin,\n  Burger, Johann, Gerichtsschreiber, von Freienwyl.\n53 Nüsperli-Nussbaum, Friedrich, Sattler.\n  Nüsperli, Karl, Postcommis.\n  Nüsperli, Friedrich, Postcommis.\n  Filiale: von J. Zuberbühler, Zurzach, Lingerie- und Broderiegeschäft.\n  Keller, Henriette, von Zurzach, Geschäftsführerin.\n  Buchmann-Spicher, Adele, Damenschneiderin, von Veltheim.\n54 Heller-Erb, Heinrich, Rechtsagent, Inkassogeschäft.\n  Heller, Oskar, Sohn, Notar.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 74880,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2291,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:32:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p027",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p027.jpeg",
+      "bytes": 267191,
+      "sha256": "4f5044489675aa38d2220310478a88a90d78a9acd5855efc96d5ef142ebc5c2f",
+      "sha256_of": "original",
+      "working_copy": "1896_p027.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:12+00:00"
+  }
+}

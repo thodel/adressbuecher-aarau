@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p033",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p033.jpeg",
+    "bytes": 265415,
+    "sha256": "42bf929ec89e94f667df680e227098a2b3853fed3ec1168a3ce1c3d716a95c62",
+    "sha256_of": "original",
+    "working_copy": "1896_p033.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.   11\nHaus-\nNr.\n117 [tel] Wüthrich-Lüdi, Samuel zum Storchen, von Eggiwyl (Bern).\n  Spezerei-, Wein- u. Spirituosenhandlung. Telephon öffentl. Sprechstation.\nWüthrich-Dambach, Jakob, Confiseur, von Eggiwyl (Bern).\nWüthrich, Gottlieb, Confiseur, Fabrikangestellter, v. Eggigwil (Bern).\nSteiner-Dürr, Jakob, Postkondukteur, von Oberengstringen (Zürich).\nHunziker-Müller, Friedr., Maschinenmeister. (Buchdr. Sauerländer).\nBalmer, Marie und Carolina, von Lausen (Baselland), Wäscherei\n  und Glätterei.\nBertschi-Wassmer, Jakob, Postfakteur, von Sumiswald (Bern).\nTheez-Amsler, Elise, Witwe, von Paris. Schirm- u. Kostümsgeschäft.\nTheez, Albert, Schuhmacher, von Paris.\nBurgmeier-Kieser, Josef, (Klavierdépot).\n118 Burkhardt-Bertschinger, Ferdinand, Coiffeur.\nBurkhardt-Graf, Ferdinand, Sohn, Coiffeur und Chirurg. (Coiffeur-\n  und Toilettenwarengeschäft.)\nBurkhardt, Lina, Coiffeuse.\nTanner-Vonwiller, Erwin, Fürsprech. Advokatur- u. Notariatsbureau.\n119 a Rohr-Hässig, Emma, Witwe.\nRohr-Reimann, Jakob, Kaufmann, Kolonialwarenhandl. Salzverkauf.\n119 b Eggen-Sulzer, Eduard, Kolonialwarenhandlung.\n120 * Schiesser, J. J. Sohns, Erbschaft.\nFischer-Vonwiller, Adolf, Postbeamter. Cigarren- u. Tabakhandlung.\nFischer, Louise, Ladentochter.\nLanderer-Delécras, August, Uhrenmacher, von Kaiserstuhl.\nBeck, Albert, Uhrenmachergehilfe.\n\nPelzgasse.\n\n121 * [tel] Schiesser-Hässig, Hermann, Käse- und Butterhandlung.\nSchiesser, Margaretha, Part.\nSchaffner-Zeller, Marie, Witwe, Part.\nFrei, Maria Magdalena, Ladendiennerin, von Zurzach.\n122 Künze-Rümmeli, Oswald, Schuhmachermeister, von Uetikon\n  (Zürich). Schuhhandlung.\nKünze, Herm. Jakob, Sohn, Mechaniker, von Uetikon (Zürich).\nTrog, Gottlieb, Schuhmacher.\nBühler, Anna, Näherin, von Wattwil.\nTheodor, Amadeus, Zugführer, von Pizy (Waadt).\n123 Rychner-Hess, Konrad, Seiler, Seilerwaren- und Peitschenlager,\n  Fettwaren.\n124 Gysi-Bächli, Adolf, Tapezierer, von Buchs. Möbelhandlung.\nHärri, Rudolf, Exped.-Chef auf der Staatskanzlei, von Birrwwyl.\nLenzin, Sophie, Lehrerin.\nZehnder geb. Kaufmann, Barb., Witwe, Gemüsehändlerin, v. Gränichen.\n125 Adam-Hess, Anton, Part., von Allschwyi (Baselland).\nWalter-Schmuziger, August, von Neumühl (Baden). Nähmaschinen-\n  und Fourmaturenhandlung.\nWalti, Samuel, Taglöhner, von Dürrenäsch.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 97852,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2307,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p033",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p033.jpeg",
+      "bytes": 265415,
+      "sha256": "42bf929ec89e94f667df680e227098a2b3853fed3ec1168a3ce1c3d716a95c62",
+      "sha256_of": "original",
+      "working_copy": "1896_p033.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:23+00:00"
+  }
+}

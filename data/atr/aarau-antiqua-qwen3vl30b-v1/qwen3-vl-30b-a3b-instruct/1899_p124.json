@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p124",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p124.jpeg",
+    "bytes": 284596,
+    "sha256": "b970c62e65bf27d42cd72cf482074b4884fa8f0755f8eed8b2b15d6631a4a658",
+    "sha256_of": "original",
+    "working_copy": "1899_p124.jpeg"
+  },
+  "text": "20\nHeusser, Otto, Bremser, obere Vorstadt 919.\nHiemer, Johann, Schneider, Milchgasse 145.\nHilfiker, Jakob, Schuhmacher, Pelzgasse 68.\n— geb. Wilhelm, Emilie, Witwe, vor dem Haldenthor 1312.\nHintermann, Robert, Oberstlieutenant, Instruktor I. Klasse der In-\nfanterie, Laurenzenvorstadt 547.\nHintz, Ulrich, Zuckerbäcker, ⚭ Kronengasse 36.\n— geb. Wolf, Anna, Konditors Witwe, Kronengasse 36.\nHirschy, Joh. Rud., Uhrenmacher, vordere Vorstadt 667. Uhren-,\nGold- und Silberwarenhandlung\nHirsbrunner, Gottfried, Sohn, Instrumentmacher, Kasinostraße 570.\n— Jakob, Part., Halden 255.\n— Elise, Spezerei handlung, Halden 255\nHirt, Karl, Coiffeur, hintere Vorstadt 621.\n— Luise, Bahnhofstraße 1173.\n— geb. Wehrli, Elisabeth, Witwe, Spetterin, Rathausgasse 45.\nHirzel, Arnold, Dr. phil., Lehrer, Rain 869.\nHitz, Bertha, Part., Rain 875.\n— Otto, Negt., Spezerei- und Brennmaterialienhandlung, Rain 875.\nHöner, Anton, Part., Rain 877.\nHörner, Max, Reisender, Zollrain 88.\nHoch, Gustav, Kaufmann, Samen- und Spezerei handlung, ⚭ Lau-\nrenzenthorgasse 351.\nHochstrasser, Elise, Damenschneiderin, Milchgasse 151.\n— geb. Fehlmann, Verena, Spetterin, Milchgasse 151.\n— Johann, Fabrikarbeiter, Halden 274.\n— (Merz), Maria, Damenschneiderin, Schachen 737.\nHochuli, Gottlieb, Schuhmacher, Laurenzenvorstadt 376.\n— Jb., Briefträger, Rain 1185.\nHodel, Josepha, Part., Rain 869.\nHof, Eduard, Mechaniker, obere Vorstadt 935.\n— Müller, Bertha, Butterhandlung, Salzverkauf, ob. Vorstadt 935.\nHofer, Gottlieb, Dampfkessel-Inspektor, Feerstraße 1455.\n— Gottlieb, Negt., Tuch- und Spezereiwarenhandlung, Rathaus-\ngasse 43.\n— Joh. Jakob, Maler, Metzgergasse 107.\n— Marie, Näherin, Günhardfeldweg 1150.\nHoffmann, Arnold, Ellenwarenhandlung, vordere Vorstadt 675.\n— Christof, Coiffeur, Kirchgasse 8 a.\n— Emil, Kaufmann, Feerstraße 1417.\n— geb. Enderli, Elisabeth, Witwe, Gais 1440.\n— Friedrich, Kasernenarbeiter, Ziegelrain 709.\n— Jakob, Ökonom, Laurenzenvorstadt 607.\n— Johann, Schuhmacher, Milchgasse 72.\n— Nanette, Weißnäherin, Kronengasse 44.\n— geb. Schenk, Maria, Spetterin, Rathausgasse 29.\nHohlbein, Eugen, Schreiner, Milchgasse 153.\nHohler, Lydia, Part., Entfelderstraße 967.\nHolliger, Arnold, Schlosser, vor dem Haldenthor 768.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6629,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2201,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:34:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p124",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p124.jpeg",
+      "bytes": 284596,
+      "sha256": "b970c62e65bf27d42cd72cf482074b4884fa8f0755f8eed8b2b15d6631a4a658",
+      "sha256_of": "original",
+      "working_copy": "1899_p124.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:34:36+00:00"
+  }
+}

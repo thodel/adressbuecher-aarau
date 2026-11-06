@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p099",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p099.jpeg",
+    "bytes": 280429,
+    "sha256": "baee930fc5a812d956cb5b777bd3c441abf77e0dbaaa172fa87b15fc0fd66e42",
+    "sha256_of": "original",
+    "working_copy": "1899_p099.jpeg"
+  },
+  "text": "Haus-\nNr.\n1401 † Wydler, Söhne, zur Farb. Holzschopf. (Ziegelrain.)\n1402 † Walther-Matter, J., Erbschaft. Stall u. Remise. (Schachen.)\n1403 Schmuziger, Arnold, Ingenieur. Wohnhaus. (Laurenzen-\nvorstadt.)\n1404 † Wäffler, Hein., Turnlehrer. Magazin. (Laurenzenvorstadt.)\n1405 † Oehler & Cie. Fabrikgebäude. (In der Gais.)\n1406 † Dieselben. Fabrikgebäude mit Gießerei. (In der Gais.)\n1407 † „ Bureau. (In der Gais.)\n1408 † Oehler & Cie. Lagerschuppen. (In der Gais.)\n1409 † Jura-Cementfabriken. Werkstatt u. Küche. (Scheibenschachen.)\n1410 † Dieselben. Ofenhaus. (Scheibenschachen.)\n1411 † Gasfabrik. Aktiengesellschaft. Werkstatt. (Schifflände.)\n1412 † Gerodetti, Virgilio. Marmorsäge. (Hinter dem Bahnhof.)\n1413 † Birmann, A., Sohn. Magazin. (Bachstraße.)\n1414 Lüscher-Umiker, Herm., Mechaniker. Wohnhaus. (Hinter\ndem Bahnhof.)\n1415 † Trüb-Müller, Aug., Kaufmann. Waschhaus. (Gönhardstraße.)\n1416 Stocker-Wirz, Fr. Jos., Dr. jur., Bankkontrolleur. Wohn-\nhaus. (Feerstraße.)\n1417 Hoffmann-Gamper, Emil. Wohnhaus. (Feerstraße.)\n1418 † A. Oehler & Cie. Holzschuppen. (In der Gais.)\n1419 † Dieselben. Abritte. (In der Gais.)\n1420 Fisch-Thut, Adolf, Buchhalter. Wohnhaus. (Buchserstraße.)\n1421 Mauch-Zimmerli, Rud., Bankabwart. Wohnhaus. (Buchserstr.)\n1422 † Hassler-Schmid, Hans. Waschhaus. (Kasinostraße.)\n1423 Wüst, Kon., Rektor d. Bezirksschule. Wohnhaus. (Buchser-\nstraße.)\n1424 Gantner, Erbschaft. Wohnhaus. (Schloßplatz.)\n1425 Konrad, Peter, Regierungsrat. Wohnhaus. (Peerstraße.)\n1426 † Weber, Wilh., Küher. Waschhaus. (Erlinsbacherstraße.)\n1427 † Rämisperger, Herm., Spengler. Magazin. (Jenseits der\nAare. Hinter dem Werkhaus.)\n*1428 *Einwohnergemeinde Aarau. Maschinengebäude mit Wohnung.\n(Am Gewerbekanal.)\n1429 † Einwohnergemeinde Aarau. Spritzenhaus. (In der Telli.)\n1430 † Frikер-Wirz, Friedr., Kaufmann. Magazin. (Rainstraße.)\n1431 † Abgetragen.\n1432 *Einwohnergemeinde Aarau. Neue Kantonschule. (Bahnhofstr.)\n1433 † Dieselbe. Gewächshaus. (Bahnhofstraße.)\n1434 † Staat Aargau. Krankenanstalt. Operationsgebäude. (In\nder Gais.)\n1435 † Derselbe. Krankenanstalt. Portierhäuschen. (In der Gais)\n1436 † Schweinestallschopf.\n1437 † Andres-Bircher, Friedr., Hafner. Holzschopf. (Ob. Vorstadt)\n1438 Gerber-Walther, Hans, Hôtelier. Gasthof. (Bahnhofstraße.)\n1439 Wehrli-Märk, Emil, Architekt. Wohnhaus. „Zur Erika.“\n(Herzogstraße.)\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7285,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2343,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:32:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p099",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p099.jpeg",
+      "bytes": 280429,
+      "sha256": "baee930fc5a812d956cb5b777bd3c441abf77e0dbaaa172fa87b15fc0fd66e42",
+      "sha256_of": "original",
+      "working_copy": "1899_p099.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:32:07+00:00"
+  }
+}

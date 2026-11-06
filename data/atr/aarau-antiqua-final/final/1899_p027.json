@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p027",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p027.jpeg",
+    "bytes": 275420,
+    "sha256": "18dded22a66951dbe8a40a88f7a4379224b1619ad5834d3e22c021c7607326db",
+    "sha256_of": "original",
+    "working_copy": "1899_p027.jpeg"
+  },
+  "text": "19\nHaus-\nNr.\n1389 Weber-Beck, Gustav, Bezirksarzt. [tel]\n  Grünhut, Robert, Bahningenieur S. C. B., von Wien.\n  198 u. 199 Abgetragen. An dessen Platz\n1183 Gemeinde Aarau (Saalbau).\n200 † Einwohnergemeinde Aarau (Alte Storchen\n  scheune).\n201 † Biland-Wettler, Karl, Gastwirt, von Birkenstorf.\n  Scheune des Gasthofs zum Ochsen.\n\nGraben.\n202 Schmidt-Hagnauer, Gustav, Kaufmann. [tel]\n  Hassler-Schlatte, Walter, Kaufmann, Manufacturwaren- und\n  Teppichhandlung.\n  Merz, Hermann, Fabrikant, von Menziken.\n203 Abgetragen. An dessen Platz.\n1161 Kirchner-Vonwiller, Ida, Modistin, von Merseburg (Preußen).\n  Modewaren-Geschäft.\n  Vonwiller-Gautschi, Lina, Witwe, Part., von St. Gallen\n  Hugi, Marie, Coiffeuse, von Selzach (Solothurn).\n  Schönholzer, Robert, Kaufmann, von Göttinghofen.\n1552 Dieselbe. Waschhaus.\n204 Frey-Schmidtin, Othmar, Fürsprech, Bankdirektor.\n205 Rohr-Hässig, Emma, Witwe, Part.\n  Rohr-Habicht, Hans, Konditor, Konditorei u. Kaffeewirtsch. [tel]\n  Bolens-Richner, Selma, Part., von Morges (Waadt).\n206 Schiesser-Hässig, Hermann, Kaufmann. Käsehandlg. en gros. [tel]\n207 Stapfer-Däster, Johann, Schuhmacher.\n  Huber, Albert, Kassier am Bahnhof, von Teufenthal.\n  Graf, Arnold, Eugen, Coiffeur und Chirurg, von Birrwyl.\n208 Abgetragen. An dessen Platz\n1237 Dürri-Lüscher, Maria, Witwe, Gemüsehdlg. [tel] (Wirtschaft zur\n  Grabenallee).\n  Schlumberger-Jakob, Reinhardt, von Lörrach, Wirt.\n  Burgheer-Dürri, Viktor, Schneider, von Schmiechedrue.\n  Riehl-Dürri, Charles, Koch, von Obernai (Elsaß).\n209 Kieser-Hassler, Samuel, Postkassier.\n  Hassler, Margaretha, Glasers, Part.\n  Burgmeier-Kieser, Joseph, Gesanglehrer. [tel] Großes Klavier-\n  und Harmoniumlager, [tel] Laurenzen thorgasse 117. Kauf,\n  Tausch und Miete.\n\nHinter dem Platz.\n210 Wildi-Aesbach, Emil, Schreinermeister, von Suhr.\n211 † Gemeinde Aarau. Spritzenhaus No. 8.\n212 † Weber-Lüscher, Otto, Weinhändler, Wein- und Faßlager.\n213 Trefzger-Schöndli, Gustav, Dampf-Wasch- und Badanstalt.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 106965,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1967,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:51:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p027",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p027.jpeg",
+      "bytes": 275420,
+      "sha256": "18dded22a66951dbe8a40a88f7a4379224b1619ad5834d3e22c021c7607326db",
+      "sha256_of": "original",
+      "working_copy": "1899_p027.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:51:53+00:00"
+  }
+}

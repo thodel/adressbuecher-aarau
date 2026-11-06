@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p100",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p100.jpeg",
+    "bytes": 262385,
+    "sha256": "39808e7b74c3645e9fd7dc43f5964c91c1aeca084f6ffaf6f24da021c7ace604",
+    "sha256_of": "original",
+    "working_copy": "1896_p100.jpeg"
+  },
+  "text": "78\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\nFrey-Brand, Franz Karl, Postcommis, von Zurzach.\nSprüngli, Oskar, Stationsgehilfe, von Zofingen.\n1073\n† Dieselbe. Holzremise.\n1040\nMaier-Ganter, Konrad, Lohnkutscher, v. Reisalflingen (Baden).\nHassler-Oberlin, Margareta, Witwe, Lingeriesgeschäft.\nHassler, Gustav. Maler.\nHassler, Heinrich, Fürsprech.\nHassler, Alfred, Lehrer.\nEhrsam, Ida, Part.\nWyss, Niklaus, Gerichtskanzlist, von Sulz.\nEgloff, Joh. Ernst, Buchbinder, von Tägerweilen (Thurgau).\nBinkert, Joseph, Stationsgehilfe, von Leuggern.\nHirs, Heinrich, Bahnangestellter, von Dielsdorf (Zürich).\n1107\nStänz-Suter, Luise, Witwe, Part.\nBenner-Rott, Emilie, Part., von Paris.\nBrentano-Zimmermann, Gustav, Staatsanwalt, von Laufenburg.\nBossard, Elisa, Part., von Altstetten (Zürich).\n1098\n* Bircher-Schatzmann, Heinrich, Dr. med.\n  Schär-Frey, Friedrich, Major, Instruktor der Kavallerie, v. Inkwil\n  (Bern).\n  Wirz-Martin, Emil, Buchhändler, von Solothurn.\n1099\n† Derselbe. Waschhaus.\n1100\nMerz-Märk, Sebastian, Notar. (Notariats-, Informations- und\n  Inkassogeschaft.)\n1101\nBähler, Johann Jakob, Dr. phil., Professor, von Matt (Glarus).\n1124\nZulauf-Siebenmann, Marie, Witwe.\n1135\n† Dieselbe. Magazin.\n1150\n†\n\"\nStallung und Remise.\n1196\n†\n\"\nRemise.\n1137\nWolfinger-Mayer, Max, Professor, von Mannheim (Baden).\n1138\n* Schmid-Jenny, Joh. Jakob, Oberst, in Glarus.\n  Schmid-Läuchli, Joh. Jak., Ingenieur, Konkordats- u. Kataster-\n  geometer, von Glarus.\n1112\nStephani-Wettler, Albertine, Fabrikants Witwe.\n1152\n† Dieselbe. Holzs chopf.\n1113\nAdam-Stephani, Hedwig, Witwe, von Allschwyil (Baselland).\n1127\n† Dieselbe. Stallung und Holzremise.\n1175\nWehrli-Märk, Emil, Kassier der Aarg. Bank, von Küttigen.\n1174\nBühler-Heusler, Karl, Kaufmann, von Bibern (Schaffhausen).\n  Warenagentur-Geschäft.\n1156\nFrey, Eugen, Part.\n1155\nMösch-Gassler, Martin, Registrator, von Frick.\n1154\nSpinner-Billo, Joh. Jak., Part.\n  Bürki, Ida, Gesellschafterin, von Bümpitz (Bern).\n1041 *\nHerzog-von Jenner, Lina, Witwe, und Herzog, Jakob u. Anna.\n  Wohnhaus.\n  Philipp-von Arx, Johann, Milchverkäufer, von Kienberg (Soloth.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 688462,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2107,
+    "lines": 78,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0256,
+    "mean_line_chars": 25.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T15:36:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p100",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p100.jpeg",
+      "bytes": 262385,
+      "sha256": "39808e7b74c3645e9fd7dc43f5964c91c1aeca084f6ffaf6f24da021c7ace604",
+      "sha256_of": "original",
+      "working_copy": "1896_p100.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T15:36:50+00:00"
+  }
+}

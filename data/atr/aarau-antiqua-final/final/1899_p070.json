@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p070",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p070.jpeg",
+    "bytes": 280318,
+    "sha256": "86b3193cd814225d14f1835c7fe47ded5c3b6fd1f736d9589dc90d3a62accd0a",
+    "sha256_of": "original",
+    "working_copy": "1899_p070.jpeg"
+  },
+  "text": "62\nHaus-\nNr.\nSchudel-Bircher, Wilh., Lithograph, v. Beggingen (Schaffh.).\nSteiner-Haller, Johann, Postfacteur, von Schmiedrued.\n767 Hemmeler-Fecht, Gottlieb, Werkmeister.\nBallynnn-Egloff, Karl, Bankangestellter, v. Lausen (Basell.).\nBachmann, Marie, Fabrikarbeiterin, von Bottenwyl.\n768 * Derselbe. Wohngebäude mit Werkstätte.\nFrei-Steiner, Fried., Schreiner, v. Auenstein. (Werkstätte.)\nHolliger-Rüetschi, Arnold, Schlosser, von Boniswyl.\n769 * Frauen-Comité. Kleinkinderschule.\nZeller, Lina, Lehrerin, von Oberstammheim (Zürich).\nFrei, Maria, Spetterin, von Densbüren.\n770 * Wehrli-Hemmeler, Johann, Zimmermeister.\nHunziker-Wieland, Elise, Part., von Oberkulm.\nHunziker, Elise, Malerin, von Oberkulm.\n771 Wehrli-Hemmeler, Joh., Zimmermeister.\n1569 Drack-Rohr, Hermann, Metalgießer.\n1570 * Derselbe. (Werkstätte.)\n772 * Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\nFricker-Amsler, Joseph, Commis, von Oberhof.\nMeier-Christen, Joh., Schneider, v. Neutra (Württemberg).\n773 * Derselbe. Anbau.\nBrunner-Lehner, Maria, Witwe, Part., von Gränichen.\nLüscher, Lisette, Weißnäherin, von Muhen.\n774 † Derselbe. Holzmagazin.\n775 † „ Scheune.\n776 † „ Holzmagazin.\n777 Rey-Ringer, Jakob, Lehrer der Bezirksschule.\n778 † Derselbe. Holzhaus.\n779 * Wehrli-Dubs, Joh., Gärtner, von. Küttigen. (Gartenhaus).\n780 Abgetragen: an dessen Platz\n1272 Wehrli-Dubs, Johann, Gärtner [tel], von Küttigen.\nHäuptli-Ott, Othmar, Adjunkt des Staatsbuchhalters.\n781 Abgetragen; an dessen Platz\n1084 * Derselbe. Wohnhaus.\nMerz-Horlacher, Traugott, Telephon-Monteur, v. Beinwyl.\nEichenberger-Stirnemann, Adolf, Taglöhner, von Beinwyl.\nSchaub, Wilhelm, Taglöhner, von Tenniken (Baselland).\n— Paulina, Fabrikarbeiterin, „ „ „\nSinger-Kloter Georg, Maurer, v. Salzstetten (Württembg.).\nSchaub, Bertha, Fabrikarbeiterin, v. Tenniken (Baselland.)\n782 * Derselbe. Scheune und Holzhaus.\n1108 † „ Gewächshaus.\n1143 † „ „\n1144 † „ „\n783 † Frei-Rohner, Robert, Bäcker. Holzschopf.\n784 Giger-Märki, Jakob, Schreiner, von Gontenschwyl.\n— — dessen Frau, von Gontenschwyl. Wäscherei.\nRüti-Basler, Joh., Schlosser, von Rothrist.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16290,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2081,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:37:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p070",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p070.jpeg",
+      "bytes": 280318,
+      "sha256": "86b3193cd814225d14f1835c7fe47ded5c3b6fd1f736d9589dc90d3a62accd0a",
+      "sha256_of": "original",
+      "working_copy": "1899_p070.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:37:09+00:00"
+  }
+}

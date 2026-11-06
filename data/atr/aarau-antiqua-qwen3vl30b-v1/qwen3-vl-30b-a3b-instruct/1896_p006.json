@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p006",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p006.jpeg",
+    "bytes": 172746,
+    "sha256": "f2e96217e47c665215226e6d72647f5c79dffddcf06761562ea526736ff7c30a",
+    "sha256_of": "original",
+    "working_copy": "1896_p006.jpeg"
+  },
+  "text": "Adolf Frey\nDRUCK V. H. FELD, ZÜRICH.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 267,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "short",
+    "chars": 36,
+    "lines": 2,
+    "longest_char_run": 1,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 17.5,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0278,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:53:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p006",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p006.jpeg",
+      "bytes": 172746,
+      "sha256": "f2e96217e47c665215226e6d72647f5c79dffddcf06761562ea526736ff7c30a",
+      "sha256_of": "original",
+      "working_copy": "1896_p006.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:53:48+00:00"
+  }
+}

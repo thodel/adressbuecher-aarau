@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p187",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p187.jpeg",
+    "bytes": 259738,
+    "sha256": "1ba5f77e3af28d987099d54235f3759f6d9e1ff26e88c9150837e5433b331312",
+    "sha256_of": "original",
+    "working_copy": "1899_p187.jpeg"
+  },
+  "text": "Ernst, Hermann, Halden 240.\nHeinzelmann, Johann, Kirchgasse 13.\nHilfiker, Jakob, Pelzgasse 132.\nHoffmann, Johann, Milchgasse 72.\nHostetter, Niklaus, Halden 266.\nJörg, Peter, Rain 820.\nIsliker, Ulrich, Milchgasse 75.\nKünze, Oswald, Pelzgasse 122.\nLienberger, Kaspar, Kirchgasse 8 b.\nLimmacher, Niklaus, Rathausgasse 24.\nMayer, Thomas, hintere Vorstadt 697.\nMüller, Johann Jakob, Kirchgasse 10.\nRoth, Friedrich, Zeughausstraße 1387.\nSchenk, Johann, Adelbändli 85.\nSchröder, Theodor, Kirchhof 80.\nSiegist, Adolf, Laurenzenvorstadt 376.\nStapfer, Johann, * Rathausgasse 31.\nStrebél, Joseph, Kirchgasse 12.\nTheez, Albert, Oberthor 754.\nVogt, Johann, obere Vorstadt 911.\nWandfluh, Johann, Rathausgasse 18.\n30\nSchwammhandlungen.\nAngst, Robert, * hinter dem Platz 214.\nHagenbuch, Karl, * Kronengasse 35.\nMorath, Johann, * Rathausgasse 2.\nRies-Buhlrein, El., Ziegelrain 702.\n  sowie sämtliche Coiffeurs.\nSeiler.\nBrunnerhofer, Verena, Witwe, Holzmarkt 754.\nRychner, Konrad, Pelzgasse 123.\n  Dieselben handeln auch mit Seilerwaren.\nSpetterinnen.\nBächli, Margarethe, Rain 877.\n— Verena, Adelbändli 172.\nBärttschi-Wächter, Maria, Rathausgasse 46.\nBamberger-Schwarz, Anna, Witwe, Halden 260.\nBerner, Maria und Verena, Milchgasse 150.\nBrändli-Müller, Elisabeth, Laurenzenvorstadt 376.\nBruder-Bruder, Verena, Golattenmattgasse 237 b.\nDietiker, Susanna, Rain 875.\nDöhnell, Emma, Halden 267.\nDrack-Hauser, Elisabeth, Milchgasse 149.\nFäs-Huber, Anna, Golattenmattgasse 237.\nFischer-Wydler, Ernestine, Adelbändli 174.\nFrei, Maria, vor dem Haldenthor 769.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4612,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1544,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 31.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:41:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p187",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p187.jpeg",
+      "bytes": 259738,
+      "sha256": "1ba5f77e3af28d987099d54235f3759f6d9e1ff26e88c9150837e5433b331312",
+      "sha256_of": "original",
+      "working_copy": "1899_p187.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:41:24+00:00"
+  }
+}

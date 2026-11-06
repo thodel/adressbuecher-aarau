@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p099",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p099.jpeg",
+    "bytes": 267253,
+    "sha256": "de91a70b261b7686095bb3fc40bfd60dd7edb3ba674f22184f57867364f22d2f",
+    "sha256_of": "original",
+    "working_copy": "1896_p099.jpeg"
+  },
+  "text": "Haus-\nNr.\n1025  Eggimann-Joss, Johann, v. Sumiswald (Bern). Speisewirtschaft.\nGross-Daum, Johanna, Hausiererin, v. Irrenttraut (Preußen).\nQuernheim-Gross, Magdalena, Hausiererin, v. Irrenttraut (Preußen).\nRoth-Weber, Rudolf, Retoucheur, von Erlinsbach.\nMaurer-Lüscher, Fritz, Commis, von Schmiedrued.\nZiegler-Büchler, Joh. Wilhelm, von Veltheim. Enveloppen- und\nPapierhandlung.\n1026 * Richner & Rothpletz.\nNadler geb. Häuptli, Anna, Witwe, von Biberstein. Spezereiwaren-\nhandlung.\n\nBachstrasse.\n\n1027 † Richner & Rothpletz. Mühlenscheune.\n1028 Schmidt-Siebenmann, Adolf, Sattlermeister.\nWespi-Schmidt, Emilie, von Ossingen (Zürich).\nRothpletz, Karl, Architekt.\nBeyeler-Lehner, Friedrich, Dachdecker, von Guggisberg (Bern).\nGlöckner (Knauth), Franz, Kunstmaler, v. Niederzwönitz (Sachsen).\nMüller-Nikles, Jakob, Ausläufer, von Unterentfelden.\n1029 † Derselbe. Malerwerkstätte.\nSpychiger-Thommen, Friedrich, Dekorationsmaler, v. Ursenbach\n(Bern). (Werkstätte).\n1207 † Derselbe Sattlerwerkstätte.\n1030 † Gemeinde Aarau. Schuppen.\n1031 Maurer-Lemann, Friedrich, Heizer, von Schmiedrued.\nZubler-Brügger, Jakob, Schmied, von Hunzenschwyl.\nFurrer-Notter, Erhard, Schneider, von Bolken (Solothurn).\nSager-Wildi, Jakob, Taglöhner, von Gränichen.\nLaury, Jakob, Wagner, von Mühlethal (Werkstätte).\n1032 Jörg-Hächler, Samuel, Schreiner, von Affoltern (Bern).\nSpeck-Hochuli, Elsa, Vorgängerin, von Oberkulm.\n1033 Erismann, Samuel, alt Armenpfleger.\nErismann-Indermauer, Abraham, Friedensrichter, Oekonom.\n1034 † Derselbe. Scheune.\n1035 Imhof-Aman, Ernst, Fabrikant. Farbwarenfabrikation für Konditoreien.\n1036 † Andres-Bircher, Friedrich, Hafner, Holzhaus.\n1037 † Derselbe. Hafnerei.\n1038 Brunner, Gottfried, Part.\nBrunner, Auguste, Glätterin.\nMellert-Brunner, Heinrich, Lithograph, von Steinach (Baden).\nWalti-Kiburz, Otto, Milchverkäufer und Präparateur, v. Dürrenäsch.\nZiegler, Karl, Zugführer.\nZimmerli, Gottfried, Buchhalter, von Ofringen.\nSchäubli, Marie, Damenschneiderin, von Bennwil (Baselland).\n1039 Kraft-Kaspar, Maria, Witwe, von Brugg.\nKaspar-Hunziker, Maria, Witwe.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5734,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2077,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:08:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p099",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p099.jpeg",
+      "bytes": 267253,
+      "sha256": "de91a70b261b7686095bb3fc40bfd60dd7edb3ba674f22184f57867364f22d2f",
+      "sha256_of": "original",
+      "working_copy": "1896_p099.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:08:42+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p053",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p053.jpeg",
+    "bytes": 258588,
+    "sha256": "d725ff5ce392f3c9fdc281c5789ee79b8c2d8dac860fed061811b9d734561ff5",
+    "sha256_of": "original",
+    "working_copy": "1896_p053.jpeg"
+  },
+  "text": "Verzeichniss der Gebäude und ihrer Bewohner                                                                 31\nHaus-\nNr.\n337 Weber-Weber, Wilhelm, Milchverkäufer, von Menziken.\n    Wehrli-Graf, Jakob, Handlanger, von Küttigen.\n1426 † Derselbe. Keller und Waschhaus.\n338 Bircher-Wehrli, Karl, Büchsenschmied, von Küttigen.\n\n                      Jenseits der Aare.\n\n339 * Zimmermann, Maria, Witwe, Erbschaft.\n    Hofer-Gehri, Jakob, Notar, von Rothrist.\n    Stephanie-Heckmann, Wilhelmine, Witwe, Part.\n    Montandon, Paul, Kaufmann, von Locle.\n    Billo-Billo, Maria, Kaufmanns, Part.\n1247 † Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wagenschopf und\n  Eiskeller.\n\n                            Weinberg.\n\n340 † Frey-Frey, K., Stadtrats Erbschaft. Rebhäuschen.\n341 † Kern-Rychner, Emil. Rebhäuschen.\n\n                    Jenseits der Aare.\n\n342 Bauhofer-Keller, Anna, Kaufmanns Witwe.\n    Bauhofer, Maria, Lehrerin.\n    Bauhofer, Emil Heinrich, Kaufmann.\n    Rey-Ranucci, Jakob Friedrich, Professor.\n    Hunziker-Müller, Marie Anna, Schuhmachers Wwe., v. Unter-Kulm.\n343 † Derselbe. Holzschopf.\n344 † Gemeinde Aarau. Holzmagazin.\n345 † Derselbe. Werkhaus.\n1280   † Gemeinde Aarau. Spritzenhaus.\n1427   † Rämisperger-Hunkeler, Hermann, Spenglermeister. Magazin.\n346 Müller-Rothpletz, Arnold, Architect und Baumeister.\n347 † Abgetragen.\n348 † Gemeinde Aarau. Badanstalt.\n1104   † Derselbe. Schuppen für Kriegsfuhrwerke.\n1385   † Meier-Wydler, Hans, Postbureauchef, von Hilfikon.\n\n                     Laurenzenthagasse.\n\n349 Hassler-Wanger, Emil, Negt. Kolonialwaarenhandlung.\n    Imhof-Herzog, Emma, Dr. meds. Witwe, Part.\n    Schlumpf, Eduard, Buchhalter, von St. Gallen.\n350 † Derselbe. Holzschoff.\n351 [tel] Hoch-Ernst, Gustav, Kaufmann, von Zollikon (Zürich).\n    Firma: Gustav Hoch & Cie. Samen- und Spezereihandlung,\n  Spezialität in landwirthschaftl. Gemüse- und Blumensämereien, Lager\n  in Futtermitteln, Hopfen und Brauerharz.\n    Lüthy-Gamper, Samuel, von Schöffland. Chef des Telegraphen-\n  und Telephon-Bureau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 50279,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2020,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0222,
+    "mean_line_chars": 40.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:01:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p053",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p053.jpeg",
+      "bytes": 258588,
+      "sha256": "d725ff5ce392f3c9fdc281c5789ee79b8c2d8dac860fed061811b9d734561ff5",
+      "sha256_of": "original",
+      "working_copy": "1896_p053.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:01:34+00:00"
+  }
+}

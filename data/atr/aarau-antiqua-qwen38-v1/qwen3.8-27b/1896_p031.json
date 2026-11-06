@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p031",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p031.jpeg",
+    "bytes": 265386,
+    "sha256": "2c3dafc3f1e4667680b2f466b118727c0808432aff793304ad1388511cf118eb",
+    "sha256_of": "original",
+    "working_copy": "1896_p031.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.                                                                 9\nHaus-\nNr.                                             Stadthof.\n92 a   Dambach-Heiniger, Joh. Jakob, Postangestellter, von Ober-Bötzberg.\n        Kyburz, geb. Wüthrich, Barbara, Fabriksarbeiterin, von Unter-Kulm.\n        Kyburz, Elise, Glätterin, von Unter-Kulm.\n        Hunziker-Frei, Gottlieb, Schneider und Kleiderreiniger, von U.-Kulm.\n92 b   Gisi-Werlini, Samuel, Schreinermeister, von Möriken.\n        Schwammberger-Schmid, Jakob, Färber, von Auenstein.\n92 c   Rothpletz-Siebenmann, Maria, Elisabeth, Schreinners Witwe.\n        Schäfer-Frei, Emil, Zeughausarbeiter.\n        Widmer-Mathis, Jakob, Sattler, von Gränichen.\n92 d   Schmid-Schickler, Hans, Brieträger.\n        Dambach, Joh. Jakob, Postangestellter, von Ober-Bötzberg.\n        Schmid, Elise, Schneiders.\n92 e * Rothpletz-Siebenmann, Maria, Elisabeth, Schreinners Witwe.\n        Gloor-Verder, Heinrich, Zimmermann, von Birr.\n        Gloor, Olga, Damenschneiderin, von Birr.\n        Gloor-Gloor, Heinrich, Zimmermann, von Birr.\n        Ging-Hug, August, Schmid, Taglöhner.\n92 f † Gandel-Wassmer, Joh. Jak., Bierbrauer, v. Langenthalheim, Magazin.\n93 *    Rothpletz-Siebenmann, Maria, Elisabeth, Schreinners Witwe.\n        Bächli-Holliger, Gottlieb, Schuhmacher, von Buchs.\n94     Bossard, Geschwister, von Effingen.\n        Bossard, Maria, Wagenputzerin, von Effingen.\n        Bossard, Anna Maria, Part., von Effingen.\n        Bossard, Lina, Lehrerin, von Effingen.\n        Walti-Zimmermann, Rosa, Witwe, Taglöhnerin, von Dürrenäsch.\n        Walti, Hans, Sohn, Schreinergeselle, von Dürrenäsch.\n95     Eberle-Heer, Franz, Müller, von Gossau (Zürich).  Mittlere\n        Mühle (Kunstmühle).\n96 †   Dieselbe.  Kunstmühle, Transmission.\n97     Abgetragen.  (Ryniker, Gebrüder, Bierbrauer).\n98 †   Abgetragen an dessen Platz\n1256   Eberle-Heer, Franz, Müller (Waschhaus).\n\n                                    Laurenzen thor gasse.\n\n99     Abgetragen.  An dessen Platz\n1231 * Ryniker, Gebrüder, Bierbrauer.  Eiskeller.\n        Ryniker-Waldis, Arnold, Kaufmann.\n\n                                       Metzger gasse.\n\n100    Hefti-Hunziker, Joh. Peter, Schneidermeister, v. Schwanden (Glarus).\n        Tuch- und Kleiderhandlung.\n        Baumgartner-Rohrer, Anton, Bäcker, von Giessbach (Baden).\n        Bertschi-Schwammberger, Adolf, Schneider, von Sumiswald.\n        Bertschi-Schwammberger, Marie, Damenschneiderin, v. Sumiswald.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 79121,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2497,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:36:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p031",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p031.jpeg",
+      "bytes": 265386,
+      "sha256": "2c3dafc3f1e4667680b2f466b118727c0808432aff793304ad1388511cf118eb",
+      "sha256_of": "original",
+      "working_copy": "1896_p031.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:14+00:00"
+  }
+}

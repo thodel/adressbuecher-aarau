@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p031",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p031.jpeg",
+    "bytes": 279309,
+    "sha256": "776a6932183af2fc2896c737ada01189a0b8dac27a716e94e3e130df0a9b5b1a",
+    "sha256_of": "original",
+    "working_copy": "1899_p031.jpeg"
+  },
+  "text": "Haus-\nNr.\n250 Wehrli-Bircher, Hans, Gipsermeister.\n251 Meyer-Schneider, Joh. Robert, Bahnarbeiter, von Wohlen.\nHuber-Ment, Jakob, Schneider, von Unterembrach (Zürich).\nHeini-Kaspar, Otto, Gießer, von Hergiswyl (Luzern).\n252 Bolliger-Ment, Emil, Buchbinder, von Schloßrued.\nLerf-Kirchhofer, Moritz, Schneider, von Leibstatt.\nHeindl-Plüss, Mathilde, Damenschneiderin, von Sachsenried\n(Baiern).\n253 Brunnhofer-Schmid, Magdalena, Mechanikers Witwe.\nHäusermann-Schmid, Elisabeth, Taglöhnerin, von Egliswyl.\nGloor, Marie, Vorgängerin, von Birrwyl.\n254 * Hirsbrunner-Kiener, Jakob, Instrumentenmacher.\nBrunner, Auguste, Part.\n— Sandmeier, Oskar, Schriftsetzer.\nHerzog-Dietiker, Konrad, Schneider, von Homberg (Thurgau).\n255 Hirsbrunner-Kiener, Jakob, Instrumentenmacher, Part.\n— Elise, Spezereihandlung.\n256 Armengut der Gemeinde Aarau.\nHemmelер-Lange, Emil, Taglöhner.\nOelhafen-Müller, Elisabeth Louise, Malers Witwe.\nHässig-Fischer, Albert, Werkführer.\n257 Zimmermann-Wernli, Johann, gew. Bahnwärter, von Ruppers-\nwyl (Erbschaft).\nHubeli-Stänz, Verena, Taglöhnerin, von Effingen.\nRuf-Portmann, Johann, Taglöhner, von Rekingen.\n258 * Armengut der Gemeinde Aarau.\nBeck-Böll, Gottlieb, Schlosser.\n259 * Camisasca, Franz, Kaufmann.\nPlüss-Ledermann, Bernhard, Knecht, von Ryken.\nBachmann-Müller, Rudolf, Maurer, von Bottenwyl.\nStirnemann-Huber, Johann, Taglöhner, von Gränichen.\n260 * Keller-Berney, Abraham, Mechaniker.\n260 b * Hassler, Julie, Modistin.\nBamberger-Schwarz, Anna, Wwe., Taglöhnerin, v. Siglistorf.\nWalser-Bamberger, Marie, Zuschnneiderin, v. Rottweil (Baden).\nSpirgi-Kramer, Rudolf, Aufseher, Chocoladefabrik, von U.-Kulm.\nNiederhauser-Schenk, Maria, Spetterin, von Eriswyl (Bern).\nMüller, Verena, Part., von Unter-Kulm.\n261 Rauchenstein-Pfleger, Sophie, Professors Witwe.\nPfleger, Emma, Pfarrers, Privatin.\n262 Abgetragen.\n263 * Hefti-Hunziker, J. P., Schneidermeister, von Schwanden (Gl.).\nSchneider-Hochstrasser, Samuel, Taglöhner, von Thalheim.\n264 Wildi, Jakob, Tapezierer, von Schafisheim.\n— Anna, Damenschneiderin, von Schafisheim.\nZimmerli-Stänz, Eduard, Cementarbeiter, von Oftringen.\nSchmid-Burkolter, Friedrich, Schneider, von Zurzach.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6002,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2152,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:25:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p031",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p031.jpeg",
+      "bytes": 279309,
+      "sha256": "776a6932183af2fc2896c737ada01189a0b8dac27a716e94e3e130df0a9b5b1a",
+      "sha256_of": "original",
+      "working_copy": "1899_p031.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:25:44+00:00"
+  }
+}

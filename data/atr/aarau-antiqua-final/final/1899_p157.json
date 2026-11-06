@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p157",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p157.jpeg",
+    "bytes": 241561,
+    "sha256": "8776016272a56644b3c1247c18bc348cfaaca19ec41bc0ecafabda794770cc28",
+    "sha256_of": "original",
+    "working_copy": "1899_p157.jpeg"
+  },
+  "text": "53\n\nBaumwolltuchfabrikation.\n\nOboussier & Comp., * Graben 613.\n\nBadanstalten.\n\na. In Aarau.\n\nFlußbadanstalt Aarau, jenseits der Aare 348.\nTrefzger, Gustav, Färbergäßchen 213.\n\nb. In der Umgehung.\n\nSt. Laurenzenbad in Erlinsbach.\nBad in Gränichen.\nBad in Oberentfelden.\nBad in Schinznach.\n\nBäcker.\n\nBaumgartner, Anton, Kronengasse 40.\nBolli, Jakob, Pelzgasse 62.\nBolliger, Albert, Milchgasse 142.\nBuser, Emil, Metzgergasse 57.\nFehlmann, Kaspar, Rathausgasse 45.\nFrey, Karl, Rain 832.\nFrey-Rohner, Robert, * Zollrain 51.\nGuggisberg, Emil, Bahnhofstraße 598 b.\nHany, Hermann, Kirchgasse 11.\nHässig, Friedrich, Rathausgasse 46.\nHemmeler, Oskar, vordere Vorstadt 669.\nHug, Samuel, vordere Vorstadt 673.\nMatter, Adolf, Schmiedgasse 1232.\nMeister, Georg, Graben 216.\nRüetschi, Max, Pelzgasse 131.\nSchmuziger, Fritz, Ziegelrain 703.\nSeiler, Andreas, Rathausgasse 48.\n— Oskar, Zollrain 88.\nSiegrist, Albert, obere Vorstadt 940.\nSimmen, Emil, Rathausgasse 18.\nSoland, Heinrich, obere Vorstadt 913.\nWehrli, Georg, Metzgergasse 100.\nWidmer, Rudolf, obere Vorstadt 927. [handschriftlich: 2 3]\n\nBaumwolltuchhandlungen (en gros).\n\nOboussier & Cie., * Graben 613.\n(Im weitem siehe Tuchhandlungen.)\n\nBaumwollspinnerei.\n\nFrey & Cie., * in der Telli 431.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 26828,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1235,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 28.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:54:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p157",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p157.jpeg",
+      "bytes": 241561,
+      "sha256": "8776016272a56644b3c1247c18bc348cfaaca19ec41bc0ecafabda794770cc28",
+      "sha256_of": "original",
+      "working_copy": "1899_p157.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:54:38+00:00"
+  }
+}

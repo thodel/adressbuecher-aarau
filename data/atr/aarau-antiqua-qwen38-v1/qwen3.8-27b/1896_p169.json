@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p169",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p169.jpeg",
+    "bytes": 285062,
+    "sha256": "8338daa01a3bfee3a7d8382fab309af63ebb8ff0815caf4172be6cb1863abcaf",
+    "sha256_of": "original",
+    "working_copy": "1896_p169.jpeg"
+  },
+  "text": "Geschäfts- und Gewerbetreibende.                                                                 181\nSparkasse von Aarau und Umgebung,\n  hintere Vorstadt 645.\n  Kassastunden 12–2 Uhr mittags.\n  Präsident des Verwaltungsrates:\n  Schneider, Fridolin, Oberrichter.\n  Kassier: Schmid, Peter.\nSpar-, Leih- und Diskontokasse, hintere\n  Vorstadt 638.\n  Kassastunden 9–12 und 2–5 Uhr.\n  Präsident des Vorstandes: Schneider,\n  Gustav, Dr. jur.\n  Verwalter: Gebrüder Hemmeler.\n  Baugeschäfte.\nMüller, Arnold, * jens. d. Aare 346.\nMüller & Belser, Entfelderstr. 985.\nSchafer, Adolf, * Gais 1063.\nSchmuziger, Johann, * jens. d. Aare 295.\nSchmuziger-Koller, Daniel, hinter dem\n  Bahnhof 503.\nZschokke & Cie., * Rohrerstr. 473.\nZschokke, O., * Rohrerstr. 472 (siehe\n  Inserat Seite 22).\n  Baumwolltuchfabrikation.\nFléury & Adam, * Gais 1266 u. 1286.\nOboussier & Comp., * Graben 613.\n  Badanstalten.\n    a. in Aarau.\nFlußbadanstalt Aarau, jens. d. Aare 348.\nTrefzger, Gustav, Färgergässchen 213.\n    b. in der Umgebung.\nSt. Laurenzenbad in Erlinsbach (siehe\n  Inserat Seite 8).\nBad in Gränichen.\nBad in Oberentfelden.\nBad in Schinznach.\n  Bäcker.\nBaumann, Karl, vordere Vorstadt 673.\nBaumgartner, Anton, Metzgerg. 100.\nBollì, Jakob, Pelzgasse 62.\nBuser, Emil, Metzgergasse 57.\nFehlmann, Kaspar, Rathausg. 45.\nFrey-Rohner, Robert, * Zollrain 51.\nGänslen, Luise, obere Vorstadt 914.\nGloor, Rudolf, Milchgasse 142.\nGuggisberg, Emil, Bahnhofstr. 598 b.\n[spalte 2]\nHäny, Hermann, Kirchgasse 11.\nHässig, Hermann, Rathausgasse 46.\nHemmeler, Oskar, vord. Vorstadt 669.\nHug, Samuel, Zollrain 88.\nMatter, Adolf, Schmiedgasse 1232.\nMeister, Georg, Graben 216.\nRüetschi, Max, Pelzgasse 131.\nSeiler, Andreas, Rathausgasse 48.\nSeiler, Oskar, Rain 832.\nSiegrist, Albert, obere Vorstadt 940.\nSimmen Emil, Rathausgasse 18.\nSchmuziger, Fritz, Ziegelrain 703.\nWehrli, Jakob, Kronengasse 40.\nWidmer, Rudolf, obere Vorstadt 927.\n  Baumwollspinnerei.\nFrey & Cie., * in der Tellı 431.\nBaumwolltuchhandlungen (en gros).\nOboussier & Cie., * Graben 613.\n  (Im Weiteren siehe Tuchhandlungen.)\n  Bazars.\nFiliale der vereinigten Schweizer Bazars\n  in Zürich, * obere Vorstadt 925.\n  (Siehe Inserat Seite 12.)\nHemmeler-Haßler, A., * Metzgergasse 55.\nHemmeler-Stahl, Jak., * Rathausgasse 21.\n  Bettmacherinnen.\nPlüß-Haller, Maria Anna, Glattenmatt-\n  gasse 232.\n  (Im Weiteren siehe Bettwarenhändler.)\n  Bettwarenhändler.\nCodoni-Dreßler, Laurenz, * Rain 826.\nHeß, Gebr., * Rathausgasse 4.\nHering-Leuenberg, Lisette, Milchg. 71.\nScheibler, Alfred, Adelbändli 83.\nSchweizer-Siebenmann, Sophie, Schachen\n  741.\n  Bibeldepot.\nAngst, Gottlieb * hinter dem Platz 214.\n  Bijouterie-Waren.\nFischer, Jonathan, Holzmarkt 1260.\nFrey, Albert, hintere Vorstadt 693.\nHärdi, Wilhelm, * Rathausgasse 42.\nHirschy, Joh. Rud., * vord. Vorstadt 668.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21820,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2783,
+    "lines": 90,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 29.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T16:51:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p169",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p169.jpeg",
+      "bytes": 285062,
+      "sha256": "8338daa01a3bfee3a7d8382fab309af63ebb8ff0815caf4172be6cb1863abcaf",
+      "sha256_of": "original",
+      "working_copy": "1896_p169.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T16:51:11+00:00"
+  }
+}

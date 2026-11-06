@@ -85,7 +85,7 @@ def norm_tables() -> tuple[dict, dict]:
     if p.exists():
         with p.open(encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
-                if r["norm_method"] == "rule":
+                if r["norm_method"] in ("rule", "fuzzy"):
                     streets[r["street_raw"]] = (r["street_norm"], _geo().place_key(r, r["street_norm"]))
     return origins, streets
 

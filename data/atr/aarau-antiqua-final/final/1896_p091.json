@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p091",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p091.jpeg",
+    "bytes": 270161,
+    "sha256": "f842f4ca9dfe372f3b36ab4a6360dfdb3422852373400602c68b7e925858301e",
+    "sha256_of": "original",
+    "working_copy": "1896_p091.jpeg"
+  },
+  "text": "Verzeichniss der Gebäude und ihrer Bewohner. 69\nHaus-\nNr.\n921 Blattner-Burgunder, Aug., Sekretär der Aarg. Ersparniskase,\nvon Küttigen.\nKaspar-Frei, Anna, Witwe, von Zezwyl.\nKaspar Siegwart, Postpacker, von Zezwyl.\n922 Siegrist-Lindemann, Johann, Schuhmacher, von Meisterschwanden.\nSpezereihandlung.\nWüthrich-Bartlome, Anna, Küfers Witwe, von Trub (Bern).\n923 [tel] Ernst-Käser, Friedrich, Röhrenfabrikant.\nFischer-Niggli, Lina, Witwe, Part., von Reinach.\nSiebenmann, Emmy, Klavierlehrerin.\n924 † Derselbe. Magazin.\n925 Siegrist-Ryniker, Heinrich, Metzgermeister.\nMeyer-Roth, Verena, Part., von Dintikon.\nMeyer, Eduard Erwin, Sekretär, von Dintikon.\nMüller-Hauri, Karl Theodor, Schmied, von Biberstein.\nFiliale der Vereinigten Schweizerbazars in Zürich.\nGeschäftsführer: Wetter-Weiss, J. Ulrich, von St. Gallen.\n926 Randegger-Wirth, Josephine, Witwe, v. Ossingen (Zürich). Speise-\nwirtschaft, (Bayerische Bierhalle).\nLechner-Wirth, Paul Franz, Zuschnneider (bei Gerber), von Wien.\nMarfurt-Hofer, Xaver, Coiffeur, von Langnau (Luzern).\n927 Widmer-Rychner, Rudolf, Bäckermeister, von Gränichen. Pinten-\nwirtschaft.\nStauber-Götti, Jakob, Notar, Amtsrevisor.\nStauber, Gottfried Telegraphist.\n928 Brunner-Umiker, Elisabeth, Witwe, Spezereihandlung.\n929 * Dieselbe. Wohnhaus.\nFrei-Hochuli, Rudolf, Commis bei Schiesser, von Gontenschwyl.\nGerster-Rutz, Rosa, Part., von Neukirch-Egnach (Thurgau).\nLocher, Karl, Commis, von Oberegg (Appenzell).\nSandmeier, Marie, Damenschneiderin.\n930 * Ernst-Merian, Augusts, Erbschaft.\n[tel] Firma: Vidiella & Frey, Weinhandlung. (Bureau).\nHerzog-Tschanz, Gottlieb, Kaufmann, von Reckingen.\nLäubli-Kretz, Ernst, Schreiner, von Seengen.\n931 Abgetragen, an dessen Platz\n1117 Rychner-Renz, Rosa, Part.\nRychner-Karli, Karl Christian, Röhrenfabrikant.\nRychner, Fritz, Pianist.\nSchneider-Rychner, Gustav, Dr. jur., Fürsprech, Oberrichter.\nDöbeli-Binder, Samuel, BezirksSchullehrer, von Seon.\n932 Abgetragen.\nBachstrasse.\n1413 † Birmann, Adolf, Fruchthändler, von Basel (Magazin).\n933 † [tel] Gysi & Cie. (Otto Gysi-Siebenmann und Hans Gysi-Riniker).\nFabrikgebäude.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 239698,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2085,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T15:09:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p091",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p091.jpeg",
+      "bytes": 270161,
+      "sha256": "f842f4ca9dfe372f3b36ab4a6360dfdb3422852373400602c68b7e925858301e",
+      "sha256_of": "original",
+      "working_copy": "1896_p091.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T15:09:50+00:00"
+  }
+}

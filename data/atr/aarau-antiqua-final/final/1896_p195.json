@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p195",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p195.jpeg",
+    "bytes": 256830,
+    "sha256": "3884ee9699f0007dbae812bfea2e68f97039eaf162cb46e9c68ca000b02e30e6",
+    "sha256_of": "original",
+    "working_copy": "1896_p195.jpeg"
+  },
+  "text": "Behörden etc.\nFriedensrichter.\n\nErismann, Abraham, Oekonom.\n\nEinwohner-Rechnungskommission.\n\nPräsident: Dr. Stocker-Würz, Fürsprech.\nMitglieder: Gasser, Emanuel, Fabrikant.\n          Weber-Lüscher, O., Weinhändler.\n          Hagnauer-Zimmermann, A.\n          Rychner, K., Seller.\n          Hünig, Othmar, Staatsbuchhalteradj.\n          Müri, Paul, Gerichtspräsident.\n\nOrtsbürger-Rechnungskommission.\n\nPräsident: Baumann, Karl, Weinhändler.\nMitglieder: Keser, Robert, Bankbeamter.\n          Herzog, Dr., Hans, Staatsarchivar.\n          Rothpletz-Rächin, Fabrikant.\n          Wassmer-Kunzler, Kaufmann.\n          Gysi, Hans, Mechaniker.\n          Schmutziger, Joh., Baumeister.\n\nSchulpflege.\n\nPräsident: Hässig, Hans, Stadtrat.\nVizepräsident: Zürcher, Dr. A., Arzt.\nAktuar: Fischer, X., Pfarrer.\nMitglieder: Stübelin, A., Dr. med.\n          Wernly, Rud., Pfarrer.\n          Baumann, Karl, Wein händler.\n          Rohr, H., Staatsanwalts substitut.\n          Zündtlen-Rächin, Fabrikant.\n          Staigerländer, R., Buchhändler.\n          Bally, Eugen, Fabrikant.\n          Markwalder, Fr., Oberst.\n\nSteuerkommission.\n\nPräsident: Heller, H., Vizegerichtspräsident.\nVicepräsident: Reicher, Konrad, Seller.\nMitglieder: Brack-Uster, H.\n          Kelholz, G., Postbeamter.\n          Schäfer, A., Stadtrat.\n          Henz-Hües, Stadtrat.\n          Hagnauer, R., Fabrikant.\n          Gysi-Studer, A., Mechaniker.\nErsatzmann: Amster, Otto, Stadtkassier.\n\n[spalte 2]\n157\n\nForstkommission.\n\nPräsident: Schmid, Max, Stadtammann.\nMitglieder: Imhof-Hunziger, Emil.\n          Siebenmann, P., Stadtrat.\n          Hässig-Lienhard, H.\n          Siebenmann, Rud., Bierbrauer, Vater.\n          Fahrländer, Eugen, Ingenieur.\n          Siebenmann, Bernhard, Bäcker.\n          Erisman, A., Friedensrichter.\n          Peer, Carl.\nBeratend: Jessel, Xaver, Forstverwalter.\nAktuar: Niggli, A., Fürsprech und Gemeinde-\nschreiber.\n\nC. Gerichtsbehörden.\n\nObergericht.\n\nPräsident: Irniger, Heinrich, Fürsprech, von\n          Menziken, in Lenzburg.\nVicepräsident: Ursprung, Albert, Fürsprech, von\n          Ueken, in Zürich.\nMitglieder: Dr. Frey, Sam., Fürsprech, von\n          Gontenschwil.\n          Schneider, Fridol., Fürsprech, von\n          Herznach, in Aarau.\n          Wüdy, Sam., Fürsprech, von Velt-\n          heim, in Brugg.\n          Rohr, Joh., Fürsprech, v. Hunzen-\n          schwil, in Aarau.\n          Keller, Beat, von Sarmentstorf, in\n          Bremgarten.\n          Heubeger, Jak., v. Bözen, in Aarau.\n          Dr. Schneider, Gust, Fürsprech, von\n          und in Aarau.\n\nKriminalgericht.\n\nPräsident: Schneider, Fridolin, Obergerichter.\nVicepräsident: Keller, Beat, Obergerichter.\nMitglieder: Dr. Schneider, Gustav, Obergerichter.\n\nBezirksgericht Aarau.\n\nPräsident: Müri, Paul, Fürsprech, von Schinz-\n          nach, in Aarau.\nVicepräsident: Heller, Heinrich, von Aarau.\nMitglieder: Lüscher, Rud., von Mühen.\n          Blatner, Hans, von Küttigen.\n          Rüetschi, Samuel, von Suhm.\n\nSiegel der Stadt Aarau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28598,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2997,
+    "lines": 87,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 27.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:13:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p195",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p195.jpeg",
+      "bytes": 256830,
+      "sha256": "3884ee9699f0007dbae812bfea2e68f97039eaf162cb46e9c68ca000b02e30e6",
+      "sha256_of": "original",
+      "working_copy": "1896_p195.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:13:56+00:00"
+  }
+}

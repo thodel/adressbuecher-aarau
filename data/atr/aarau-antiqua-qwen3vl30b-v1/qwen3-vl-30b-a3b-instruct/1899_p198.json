@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p198",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p198.jpeg",
+    "bytes": 251266,
+    "sha256": "a556dd59805653524c2982c1facb895292e00bf2687f8f6c204a140703dc7415",
+    "sha256_of": "original",
+    "working_copy": "1899_p198.jpeg"
+  },
+  "text": "94\nKalender d. Schweizer Imkers, herausgegeben v. H. Kramer,\nPräsident des Vereins schweiz. Bienenfreunde. 2. Jahrg.\nMitteilungen der aarg. naturforschenden Gesellschaft.\nOrgan des Vereins, 8. Jahrg. Red. Dr. F. Mühlberg.\nMitteilungen der Kommission des schweiz. Lehrervereins\nüber Jugendschriften. Organ d. Kommission. 21. Jahrg.\nDie Tierwelt, Zeitung für Ornithologie, Geflügel- und Ka-\nninchenzucht. Offizielles Organ schweiz. Geflügelzucht-\nvereine. 8. Jahrgang.\nPolizeianzeiger, Aargauischer.\nDruck und Verlag von Emil Wirz, * Oberthor 139.\nDer Tierfreund, Organ der deutschschweizer. Tierschutz-\nvereine. 6 mal jährlich. Preis für Mitglieder Fr. —. 50,\nfür Nichtmitglieder Fr. 1.\nEidgen. Nationalkalender für das Schweizervolk. 72. Jahr-\ngang. Gegründet 1825.\nSchweizer. landwirtschaftl. Zeitschrift. 1 mal wöchentlich.\nPreis Fr. 4 für Aarau, franko für auswärts Fr. 7. 50.\n24. Jahrgang.\nSchweizer. Schreibkalender, in 10 verschiedenen Ausgaben.\nGegründet 1849.\nTaschenkalender für Weinbau und Weinhandel. Gegr. 1895.\nWirz’s Schreibkalender für schweiz. Landwirte. Gegrün-\ndet 1895.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3794,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1088,
+    "lines": 25,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:43:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p198",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p198.jpeg",
+      "bytes": 251266,
+      "sha256": "a556dd59805653524c2982c1facb895292e00bf2687f8f6c204a140703dc7415",
+      "sha256_of": "original",
+      "working_copy": "1899_p198.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:43:12+00:00"
+  }
+}

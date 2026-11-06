@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p110",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p110.jpeg",
+    "bytes": 285327,
+    "sha256": "399ad021db797f6e03c30c70784baddacdbeb9695d7bacca78bc37ca233be604",
+    "sha256_of": "original",
+    "working_copy": "1899_p110.jpeg"
+  },
+  "text": "6\nBolliger, Louise, Haushälterin, Milchgasse 142.\n— Manger, Gustav, Hemdenfabrikation, hintere Vorstadt 646.\n— Rudolf, Pächter, Roggenhausen 851.\n— Rudolf, Bankangestellter, hinter dem Bahnhofe 1537.\n— Samuel, Bedienter, Kasinostraße 660.\n— geb. Schädelin Julia, Part., vor dem Haldenthor 804.\nBöhm, Georg, Seiler, Pelzgasse 132.\n— geb. Hofmann, Maschinenstrickerin, Pelzgasse 132.\nBonneck, Max, Blumengeschäft, Graben 1516.\nBopp, Gottlieb, Reisender, hinter dem Bahnhof 1512.\n— Elisabeth, Rain 831.\n— geb. Häusler, Louise, Witwe, Rain 884.\nBossard, Anna, Part., Stadthof 94.\n— Lina, Lehrerin, Stadthof 94.\n— Maria, Wagenputzerin, Stadthof 94.\n— Elisa, Part., Milchgasse 153 b.\n— Jakob, Gärtner, Laurenzenvorstadt 419.\nBouvard, Johann, Güterexpedient, hinter dem Bahnhof 495.\nBräm, Albert, Sohn, Kaufmann, Graben 221.\n— geb. Huber, Anna, Witwe, hinter dem Bahnhof 1414.\nBrändli geb. Meier, Bertha, Fabrikarbeiterin, Ziegelrain 711.\n— Jakob, Fabrikarbeiter, Ziegelrain 711.\n— geb. Müller, Elisabeth, Witwe, Spetterin, Laurenzenvorstadt 376.\nBrack, Abraham, Okonom, Bachstraße 1061.\n— Gottlieb, Buchhalter, Graben 220.\n— Heinrich, Chef des Arg. Polizeikorps, Schachen 736.\n— Heinrich, Fabrikaufseher, Wirt zum Alpenzeiger. [tel] Gishügel 317.\n— Jakob, Kaufmann, Bahnhofstraße 1336.\n— Jakob, Part., Ziegelrain 751.\n— geb. Leuzinger, Margaretha, Adelbändli 84.\nBrand, Jakob, Spezeriehandlung, vordere Vorstadt 669.\nBrast, Emma, Holzmarkt 661.\n— geb. Lienhard, Charlotte, Witwe, Waffenhandlg., Holzm. 661.\n— Sophie Ida, Holzmarkt 661.\nBrentano, Gustav, Staatsanwalt, Bachstraße 1107.\n— Max, Zahnarzt [tel] Entfelderstraße 1075.\nBryner, Anna, Modistin, Halden 285.\nBrogli, Joseph, Briefträger, Tellirain 1335.\nBrosi-Miville, Rudolf, Kreis-Postdirektor, Bahnhofstraße 513.\nBrügger, Christian, Kontrolleur, hinter dem Bahnhof 497.\nBrütel, Konstanze, Part., Feerstraße 1416.\nBruder geb. Bruder Verena, Wwe., Spetterin, Golattenmattg. 237 b.\nBrunner, Auguste, Part., Halden 254.\n— Emil, Bauamtsarbeiter, Halden 287.\n— Franz Xaver, Knecht, Obere Vorstadt 937.\n— Gottfried, Part., Bachstraße 1038.\n— Heinrich, Bahnangestellter, vor dem Haldenthor 800.\n— Heinrich, Fuhrmann, Golattenmattgasse 236.\n— Jakob, Seifensieder, Part., Halden 287.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17544,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2226,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.54,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:12:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p110",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p110.jpeg",
+      "bytes": 285327,
+      "sha256": "399ad021db797f6e03c30c70784baddacdbeb9695d7bacca78bc37ca233be604",
+      "sha256_of": "original",
+      "working_copy": "1899_p110.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:12:19+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p090",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p090.jpeg",
+    "bytes": 267591,
+    "sha256": "0e4ebb62bf1f247d878a747dab2e1ee32ca2587c655345619a2d9f4ca3750dc8",
+    "sha256_of": "original",
+    "working_copy": "1896_p090.jpeg"
+  },
+  "text": "68\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n900 Bürgi-Fricker, Barbara, Hutmachers Witwe, von Olten.\nFeilner-Bürgi, Hans, Mechaniker, von Bittendorf (Württemberg).\nSaxer-Laubacher, Andreas Theodor, von Hägglingen.\nKonsum der Arbeiter-Union Aarau.\nGeschäftsführer: Lutholf-Bühler, Jos., von Luzern.\n901 † Dieselbe. Werkstattgebäude.\n902 * Siebenmann-Fischer, Otto, Kreiskommandant.\nWyler-Guggenheim, Raphael, Kaufmann, von Endingen. Manu-\nfakturwarenhandlung.\nKuhn-Andermatt, Johann, Bahnmeister S. C. B., von Dottikon.\n903 [tel] Henz-Gautsch, Emil, Eisenwarenhandlung.\nVuillermot-Leblanc, Charles Jean L., Kaufmann, von Verrières\n(Frankreich).\n904 † Staat Aargau. Alte Postremise.\n905 [tel] Derselbe. Regierungsgebäude.\nKäser-Schütz, Jakob, Rathausabwart, von Biberstein.\n906 † Derselbe. Holzhäus.\n907 † \"\n908 † \" Großratsgebäude. Kantonsbibliothek.\nObere Vorstadt.\n909 Wernli-Meier, Jakob, Schreinermeister.\n910 † Derselbe. Werkstätte.\n911 Vogt-Kohler, Johann, Schuhmachermeister. Schuhhandlung.\n912 Gautsch-Wiser, Hrch., Wirt, v. Reinach. Gasthaus z. Herberge.\n913 Gänslen-Koch, Regina Luise, von Starrkirch (Solothurn). Bäcker-\nwarenladen.\n914 * Dieselbe. Wohnhaus mit Bäckerei.\nMaritz-Bircher, Marie, Witwe, Part., von Burgdorf (Bern).\nMaritz, Julius, Sekretär der Gemeindekanzlei, von Burgdorf (Bern).\nAndres-Bircher, Bertha, Buchbinders, Part.\nWanger, Luise, Pfarrhelfers, Part.\n915 * Dieselbe. Hinterhaus.\n916 [tel] Andres-Bircher, Friedrich, Hafnermeister.\nBircher, Fanny, Part.\nStierli-Andres, Elise, Buchdruckers Witwe.\n917 † Derselbe. Offenmagazin und Geschirrhandlung.\n918 † \" Waschhaus.\n1437 † \" Holzschopf.\n919 * Hemmeler-Scheibler, Hafners Witwe.\n[tel] Hemmeler-Schmidt, Wilh., Hafnermeister. Geschirrhandlung.\nStehle-Meissner, Albert, Schneider, von Rheinsteetten (Württembg.).\n920 † Dieselbe. Holzschopf.\n921 Hemmeler-Roth, Wilhelm, Kanzlist.\nHemmeler, Julia, Lehrerin.\nHemmeler, Wilhelm, Postcommis.\nMüller, Elise, Glätterin, von Biberstein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18720,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1972,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T15:05:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p090",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p090.jpeg",
+      "bytes": 267591,
+      "sha256": "0e4ebb62bf1f247d878a747dab2e1ee32ca2587c655345619a2d9f4ca3750dc8",
+      "sha256_of": "original",
+      "working_copy": "1896_p090.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T15:05:50+00:00"
+  }
+}

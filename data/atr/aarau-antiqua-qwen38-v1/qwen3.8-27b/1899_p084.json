@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p084",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p084.jpeg",
+    "bytes": 280856,
+    "sha256": "6339db55c05ff089ac7d2601860eb758c7ee61b8501cfb4e49c0ad3c17b725bc",
+    "sha256_of": "original",
+    "working_copy": "1899_p084.jpeg"
+  },
+  "text": "76\nHaus-\nNr.\nOchsner, Marie, Part., von Uster (Zürich).\n—, Johann, Koch, von Uster (Zürich).\nHassler-Oberlin, Margaretha, Witwe, Part.\n—, Gustav, Maler.\n—, Heinrich, Fürsprecher.\n1533 * Derselbe. (Café Restaurant z. Tivoli.)\nBertschi-Vogt, Hermann, Wirt, von Dürenäsch.\n1076 † Derselbe. Wasch- und Holzhaus.\n1511 Richner-Karli, Karl, Fabrikant. [tel]\nKeller-Siebenmann, Auguste, Witwe, Part., v. Veltheim.\nMayer, Egina, Part., von Baden.\n1285 Mathys-Matter, Wilhelm, Feilenhauer, von Kölliken.\nKäser-Leder, Rudolf, Steinhauer, von Biberstein.\n— —, Nanette, Wäscherin und Glätterin, von Biberstein.\nPfüss-Amstutz, Johann, Kondukteur, von Vordemwald.\n1195 Riniker-Wernli, Hermann, Milchverkäufer.\nHagnauer-Hensler, Jak. Eugen, alt Pfarrer.\n1203 † Derselbe. Holz-, Schweine- und Geflügelhaus.\n1147 Vogel-Wassmer, Rudolf, Kaminfeger und Dachdecker,\n  von Kölliken, Lager in Dach- und Randschindeln.\nStiner-Erismann, Karl, Lehrer, von Unterentfelden.\nUmler, Maria, Fabrikarbeiterin, von Suhr.\n1222 † Derselbe. Schopf.\nGönhardfeldweg.\n1145 Bertschi-Ackermann, Emil Joh., Landwirt, v. Ober-Kulm.\nMüller-Widmer, Jakob, Sekretär, von Gränichen.\n1309 * Rothpletz-Richner, Friedrich, Fabrikant. [tel]\n1377 † Derselbe. Holz- und Waschehaus.\n1388 Buffetti-Hagemann, Enrico, Kunstmaler, von Lendinara\n  (Italien).\n1399 † Derselbe. Holz- und Waschehaus.\n1150 Trüb-Müller, August, Lithographiebesitzer.\nGautschi-Dietschi, Friedrich, Commis, von Reinach.\nBusslinger-Kienberger, Siegfried, Postcommis.\n1415 † Derselbe. Holz- und Waschehaus.\n1241 Suter-Riederer, Jakob, Professor, Direktor des Töchter-\n  instituts u. Lehrerinnenseminars, v. Suhr u. Winterthur.\n1376 † Derselbe. Holz- und Waschehaus.\nHohlweg.\n984 † Gemeinde Aarau. Brunnenhaus.\nEntfelderstrasse.\n985 u. 986 Abgetragen. An dessen Platz\n1506 † Siebenmann-Hagnauer, Fried., Bierbrauer. (Adlerbrauerei.)\n987 † Gemeinde Aarau. Brunnenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 96867,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1882,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:52:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p084",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p084.jpeg",
+      "bytes": 280856,
+      "sha256": "6339db55c05ff089ac7d2601860eb758c7ee61b8501cfb4e49c0ad3c17b725bc",
+      "sha256_of": "original",
+      "working_copy": "1899_p084.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:52:00+00:00"
+  }
+}

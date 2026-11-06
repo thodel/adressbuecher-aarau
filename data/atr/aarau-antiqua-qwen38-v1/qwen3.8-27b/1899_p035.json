@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p035.jpeg",
+    "bytes": 272336,
+    "sha256": "010014620830807b7293f0f7cd443fa22a484700bd0c7edfdc3de0d49ec85c3b",
+    "sha256_of": "original",
+    "working_copy": "1899_p035.jpeg"
+  },
+  "text": "27\nHaus-\nNr.\n1394 † Heuberger-Fischer, Jakob, Sekretär der Finanzdirektion.\nBläuer, Jakob, Kanzlist, von Linn.\n1395 Bircher-Burger, Emil, Postcommis.\n1524 Dr. Tuchschmid-Wildi, August, Professor. Rektor der Kan-\ntonsschule, von Thundorf (Thurgau).\n1448 Läuchli-Koradi, Hans, Buchhalter, von Remigen.\n297 a Siebenmann-Hagnauer, Friedrich, Bierbrauer, Stadtrat. [tel]\nRychner-Grötzinger, Joh. Heinrich, Kaufmann.\n297 b † Derselbe. Wasch- und Holzhauß.\n298 a An dessen Platz\n1303 a Maurer-Peter, Emil, Wirt und Negotiant [tel], zum Kreuz,\nSalzbüttte und Spiritverkauf. Ausschank von einheimischem\nu. fremdem Bier, Dépôt für Flaschenbiere, Handel in Ko-\nlonialwaren. Eigene Kaffeerösterei.\nSiegrist-Navara, Hermann, Reisender, von Meisterschwanden.\n298 b An dessen Platz\n1303 b * Derselbe. Magazin.\nMüller-Hagenbuch, Otto, Buchhalter.\nGysi-Amann, Traugott, Lehrer.\n298 c An dessen Platz\n1303 c † Derselbe. Kegelbahn.\n299 a Andres-Schmid, Jakob, Schreinermeister.\n1227 † Derselbe. Holzschopf.\n299 b Andres, Gottlieb, Fondsverwalter.\nMüller-Andres, August, Büchsenmacher, v. Zella (Gr. Baden).\n1228 † Derselbe. Holzschopf.\n1531 Morach-Müller, Jakob, Fabrikaufseher, von Walterswyl (Sol.)\n300 Blattner-Jäger, Dr. Jur., Otto, Fürsprech und Notar; Advo-\nkaturbureau: Obere Vorstadt 948.\nBlattner, Anna, Lehrerin.\n301 † Derselbe. Holzschopf.\n302 a Bircher-Sasson, Andreas, Kaufmann, von Küttingen u. Kairo.\nBircher, Andreas, Part., von Küttingen.\nSchmid-Herzog, Albert, Major, Instr.-Offizier, von Egelshofen-\nKreuzlingen.\n302 b † Derselbe. Scheune.\n302 c † Derselbe. Hintergebäude.\n303 * Stähelin-Herzog, Alfred, Dr. med., von Basel.\n1086 — Alfred, Dr. med., [tel] Rentier, von Basel. „Villa zum\nKirschgarten.“\n304 † Derselbe. Scheune und Remise.\n305 † Derselbe. Treibhaus.\n306 † Derselbe. Holz- und Waschhaus.\n1087 † Derselbe. Eiskeller.\n307 Gamper-Baumann, Emil, March.-Tailleur. [tel] (Zur Schö nau).\nBillo-Bohrer, Feodor, Kaufmann.\n308 † Derselbe. Holzhaus.\n1462 † Derselbe. Gewächshaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29341,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1982,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:58:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p035.jpeg",
+      "bytes": 272336,
+      "sha256": "010014620830807b7293f0f7cd443fa22a484700bd0c7edfdc3de0d49ec85c3b",
+      "sha256_of": "original",
+      "working_copy": "1899_p035.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:58:33+00:00"
+  }
+}

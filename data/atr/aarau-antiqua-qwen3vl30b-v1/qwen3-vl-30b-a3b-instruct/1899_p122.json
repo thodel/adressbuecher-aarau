@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p122",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p122.jpeg",
+    "bytes": 283976,
+    "sha256": "5ccd5b9e0f5f159a01845cb78db7b5bd96e33b831b36845ec0ba77d708ff5486",
+    "sha256_of": "original",
+    "working_copy": "1899_p122.jpeg"
+  },
+  "text": "18\nHassler, Hans & Cie. ⇔ (Hans Hassler-Schmid u. Dr. Emil Hassler),\n  Teppichgeschäft en gros, Kasinostraße 578.\n— Heinrich, Fürsprech, Entfelderstraße 983.\n— geb. Hunziker, Elise, Witwe, Tapetenhdlg., Bahnhofstraße 1020.\n— Julie, Modistin, Adelbändli 172.\n— Margaretha, Glasers, Graben 209.\n— Marie, Part., Halden 265.\n— geb. Meier, Marie, Part., Schloßplatz 197.\n— geb. Oberlin, Margaretha, Witwe, Entfelderstraße 983.\n— Paul, Kupfersehmied, Pelzgasse 134.\n— Remigius, Taubstumme, Adelbändli 172.\n— Sophie, Glätterin, Adelbändli 172.\n— Theodor, Buchbinder, Milchgasse 153 b.\n— Walter, Kaufmann, (Nachfolger von G. Schmidt-Hagnauer), Manufakturwarenhandlung, Graben 202.\nHauenis, Josef, Maurer, Bachstraße 1038.\nHauenstein, Alois, Lehrer, Laurenzenvorstadt 552.\nHauri geb. Christen, Marie, Witwe, Rain 875.\n— & Gränicher, Firma, Broderiegeschäft, hintere Vorstadt 1236.\n— Jean, Coiffeur, Wohnung Pelzgasse 130. Coiffeurgeschäft zwischen den Thoren 137.\n— Karl, Kaufmann, hintere Vorstadt 624.\n— Karl, Ziegler, Rain 866.\n— -Graber, Anna, Witwe, Fuhrmanns, vor dem Haldenthor 755.\n— geb. Kyburz, Briefträgers Witwe, Schachen 739.\nHausser, Gottlieb, Obergärtner, in der Gais 1186.\n— Quirin, Maurer, Golattenmattgasse 231 b.\nHausmann, Johann, Taglöhner, Halden 274.\nHediger geb. Born, Maria, Witwe, Milchgasse 151.\nHefti, Johann Peter, Schneider, Metzgergasse 100.\nHegar, Friedrich, Dr., Musikdirektor, ⇔ Bachstraße 1062.\nHegnauer, Rudolf, Buchhalter, Schachen 729.\n— Rudolf, Fabrikant. Strohwarenfabrikation, ⇔ Hammer 194.\nHeindel geb. Plüß, Mathilde, Damenschneiderin, Halden 252.\nHeini, Otto, Gießer, Halden 251.\nHeinzelmann, Johann, Schuhmacher, Kirchgasse 13.\nHeitz, Kornelius, Zimmermann, Laurenzenvorstadt 376.\nHeller, Heinrich, Gerichtspräsident, Zollrain 293.\n— Oskar, Sohn, Notar, Inkassogeschäft, Zollrain 293.\nHelm, Fanny, Modistin, Zollrain 52.\n— geb. von Arx, Elise Witwe, Zollrain 52.\nHemmeler, Alfred, Metzger, ⇔ vordere Vorstadt 671.\n— August, Kaufmann, Metzgergasse 55.\n— August, Sohn, Kaufmann, Rain 872.\n— & Cie., Quincailleriewarenhandlung, hintere Vorstadt 638.\n— Emil, Kaufmann, Metzgergasse 58.\n— Emil, Sohn, Kaufmann, hinter dem Bahnhof 1539.\n— Emil, Taglöhner, Halden 256.\n— Eugen, Telegraphist, Kronengasse 40.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7183,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2235,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.54,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:34:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p122",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p122.jpeg",
+      "bytes": 283976,
+      "sha256": "5ccd5b9e0f5f159a01845cb78db7b5bd96e33b831b36845ec0ba77d708ff5486",
+      "sha256_of": "original",
+      "working_copy": "1899_p122.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:34:23+00:00"
+  }
+}

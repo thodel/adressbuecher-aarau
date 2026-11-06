@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p107",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p107.jpeg",
+    "bytes": 286725,
+    "sha256": "602d39a7e4dd97a6062fff9755ba634959e687c500ff495eb39afe6e25f0c4cb",
+    "sha256_of": "original",
+    "working_copy": "1899_p107.jpeg"
+  },
+  "text": "Ballmer, Marie und Karolina, Wäschерinnen und Glätterinnen,\nLaurenzenthorgasse 117.\nBally, Eugen, Fabrikant, Rohrerstraße 473.\n— geb. Schmitter, Adeline, Fabrikants Witwe, in der Gais 488.\n— Söhne, C. F., Schuhfabrik, jenseits der Aare 309.\nBamberger geb. Schwarz, Anna, Witwe, Taglöhnerin, Halden 260 b.\nBanza, Jean, Kaffeewirtschaft, Bahnhofstraße 1020.\nBargetzi, Oswald, Ingenieur, Entfelderstraße 1202.\nBasler, Peter, Kantonsgeometer, hinter dem Bahnhof 1352.\n— Johann, Brieffräger, Schmiedgasse 635.\nBaugeschäft M. Zschokke. Rohrerstraße 472.\nBauhofer, Emil Heinrich, Kaufmann, Kirchhof 169.\n— Maria, Lehrerin, Zeughausstraße 1387.\nBaum, Hermann, Maler, Pelzgasse 130.\nBaumann, geb. Baumann, Ida, Witwe, Wirtin zum Freihof.\nLaurenzenvorstadt 390.\n— Elise, Damenschneiderin, Schachen 729.\n— Emma, Modistin, Laden Pelzgasse 64, Wohnung Pelzgasse 66.\n— Emil, Kaufmann, Rathausgasse 16.\n— Eugen, Kaufmann, Weinhändler, obere Vorstadt 958.\n— geb. Frei, Anna, Näherin, Ziegelrain 752.\n— Gebr., Weinhandlung, Laurenzenvorstadt 390.\n— Gottlieb, Schneider, Schachen 729.\n— geb. Gysi, Bertha, obere Vorstadt 958.\n— Johann, Bauamtsarbeiter, Milchgasse 74.\n— Karl, Kaufmann, Weinhändlung, Zeughausstraße 1310.\n— geb. Käser, Susanna, Witwe, Rain 888.\n— -Wälti, Maria, Milchverkäuferin, Kaffeewirtschaft, hintere Vor-\nstadt 623.\n— Samuel Johann, Schmied, Entfelderstraße 979.\n— Simon, Fuhrmann, Halden 249.\n— geb. Wacker, Susanna, Part., Laurenzenvorstadt 353.\nBaumgartner, Adolf, Commis, Rathausgasse 4.\n— Anton, Bäckermeister und Wirt, Kronengasse 40.\nBaur, Bernhard, Schneider, Pelzgasse 68.\n— Xaver, Kondukteur, Ziegelrain 710.\nBechstein, Wilhelm, Direktor der Gasfabrik, vor d. Haldenthor 786.\nBeck, Albrecht, Uhrenmachergehilfe, Schmiedgasse 1232.\n— Emil, Sattler, Ziegelrain 708.\n— Friedrich, Sattler, Entfelderstraße 983.\n— Gottlieb, Schlosser, Halden 258.\n— Karl, Schneider, Ziegelrain 722.\n— Luise, Part., in der Gais 1249.\n— Luise, Damenschneiderin, Adelbändli 174.\n— Karolina, Weißnäherin, Adelbändli 174.\nBeilharz, Lina, Weißnäherin, Halden 287.\nBeiler, Magdalena, Diakonissin, Bahnhofstraße 1173.\n— -Merz, Elise, Witwe, Corsettschneiderin, vor d. Haldenthor 1519.\nBelart, Julie, Lehrerin, Bachstraße 1052.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7342,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2210,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:32:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p107",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p107.jpeg",
+      "bytes": 286725,
+      "sha256": "602d39a7e4dd97a6062fff9755ba634959e687c500ff495eb39afe6e25f0c4cb",
+      "sha256_of": "original",
+      "working_copy": "1899_p107.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:32:46+00:00"
+  }
+}

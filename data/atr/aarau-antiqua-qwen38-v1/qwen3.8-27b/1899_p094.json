@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p094",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p094.jpeg",
+    "bytes": 280136,
+    "sha256": "f62b05271bd274f41cd1060e6910ac1212ae58c6ca946d12ae638b62e1a266f1",
+    "sha256_of": "original",
+    "working_copy": "1899_p094.jpeg"
+  },
+  "text": "86\nHaus-\nNr.\n1195 Riniker-Wernli, Hermann. (Entfelderstraße.)\n1196+ Thut, Gottlieb, Weinhändler. Remise. (Bachstraße.)\n1197+ Pfarrhaus zur röm.-kath. Kirche. (Schmiedgasse.)\n1198+ Zschokke-Sauerländer, Guido. Bienenhaus. (Zschokkestraße.)\n1199+ Aktiengesellschaft Felschlösschen Rheinfelden. Schopf.\n  (Gartenstraße.)\n1200 * Zschokke, Konradin, Ingenieur. (Entfelderstraße.)\n1201+ Lütolff, Joseph, chemische Wäscherei. Waschhaus. (Vor\n  dem Haldenthor.)\n1202+ Zschokke, Konradin, Ingenieur. Oekonomiegebäude. (Ent-\n  felderstraße.)\n1203+ Riniker, Herm., Küher. Holzmagazin. (Entfelderstraße.)\n1204+ Brack, Heinrich, Wirt. Holzhaus u. Stallung. (Alpenzeiger.)\n1205+ Zschokke, Konradin, Ingenieur. Holz- und Hühnehaus.\n  (Entfelderstraße.)\n1206+ Brack, Heinrich, Wirt. Trinkhalle. (Alpenzeiger.)\n1207+ Richner & Rothpletz, Werkstätte. (Bachstraße.)\n1208+ Diakonissenstation Aarau. Wasch- und Glättehaus. (Bahn-\n  hofstraße.)\n1209+ Gebr. Baumann, Weinhändler. Eiskeller. (Rohrerstraße.)\n1210 Hässig, Hans, Stadtrat. (Lindenhof, Gais.)\n1211+ Jura-Cementfabriken. Brennofenhaus. (Scheibenschachen.)\n1212 Dieselben. Cementmagazin. (Scheibenschachen.)\n1213+ \"    Materialschuppen.\n1214+ Holzach-Siebenmann, Dietrich, Bierbrauer. Eishaus. (Bahn-\n  hofstraße.)\n1215+ Derselbe. Wasch- und Holzhaus. (Bahnhofstraße)\n1216+ Aktiengesellschaft Felschlösschen, Rheinfelden. Eiskeller.\n  (Gartenstraße.)\n1217 Wohler-Bolliger, Joh., Postbeamter. (Lindenhof, Gais.)\n1118+ Mattenberger, Joh., Metzger. Stallung. (V. d. Haldenthor.)\n1219+ Kull, Phil., Spenglers Erbschaft. Magazin. \" \" \"\n1220+ Käser, Emil, Gärtner. Bienenhaus. \" \" \"\n1221+ Abgetragen.\n1222+ Vogel, Rudolf, Dachdecker. Schopf. (Entfelderstraße.)\n1223 Abgetragen.\n1224+ Gemeinde Aarau. Gewächshaus. (Friedhof.)\n1225+ Schmuziger, Traugott, Maler. Holzhaus. (Rain.)\n1226+ Derselbe. Gartenhaus. (Rain.)\n1227+ Andres, Jakob, Schreiner. Schopf. (Jenseits der Aare.)\n1228+ — Gottlieb, Fondverwalter. Schopf. \" \" \"\n1229+ Erismann, Friedrich, Güterexpedient. Stallung. (In der Gais.)\n1230 Abgetragen.\n1231 Abgetragen.\n1232 * Matter, Samuel, Amtsschreiber. (Schmiedgasse.)\n1233+ Gänslen-Landolt, Karl. Magazine. (Obere Vorstadt.)\n1234+ Siebenmann-Siebenmann, Maria, Witwe, Part. Holzhaus.\n  (Bankstraße.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 40304,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2240,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0392,
+    "mean_line_chars": 42.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:02:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p094",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p094.jpeg",
+      "bytes": 280136,
+      "sha256": "f62b05271bd274f41cd1060e6910ac1212ae58c6ca946d12ae638b62e1a266f1",
+      "sha256_of": "original",
+      "working_copy": "1899_p094.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:02:53+00:00"
+  }
+}

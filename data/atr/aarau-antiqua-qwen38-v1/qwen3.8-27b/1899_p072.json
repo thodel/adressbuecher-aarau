@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p072",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p072.jpeg",
+    "bytes": 279895,
+    "sha256": "1d1c4cfcd6612884bbac94e31e9dedb87d2151c33435c27f8c13a982032514d9",
+    "sha256_of": "original",
+    "working_copy": "1899_p072.jpeg"
+  },
+  "text": "64\nHaus-\nNr.\n801 + Reformirte Kirchengemeinde Aarau. Gartenhaus. (Wernly,\n  Pfarrer).\n802 Zürcher-Huber, Friedrich, Landwirt, von Trub (Bern).\n  — geb. Hauenstein, Anna, Part., von Trub (Bern).\n  Spillmann-Buser, Augustin, Schuhfabriksarbeiter, v. Ober-\n  gösgen (Solothurn).\n803 Siegrist-Heuberger, Jakob, Schriftsetzer, von Elfgingen.\n  Engesser-Brunner, Joseph, Schneider, von Turchhausen\n  (Würtemberg).\n804 * Amsler-Falger, Fridolin, Revisor, von Kaisten; dessen\n  Erbschaft.\n  — geb. Falger, Maria, Witwe, Part., von Kaisten.\n  —, Ida, Schneiderin, von Kaisten.\n  Jäggi, Wilhelmine, gew. Seminarlehrerin.\n  Bolliger-Schädelin, Julia, Part., von Schloßrued.\n1083 * Dieselve. Wohnhäuser.\n  Suter, Anna, Spetterin, von Schaffsheim.\n1109 Weber-Käser, Jakob, Bankabwart, von Oberflachs.\n  Maurer-Leutwyler, Gottlieb, Taglöhner, v. Rubigen (Bern).\n805 + Derselbe. Remise.\n806 + \" Holzscho pf.\n1369 + \" Scho pf.\n1243 + Liechti-Steinegger, Paul, Dr. phil., Prof., v. Murten (Frbg.).\n1252 + Derselve. Bienenhaus.\n807 + \" Gartenhaus.\n1245 + + Dubs-Walther, Karl, Metzger. Scheune.\n1218 + + Mattenberger-Walther, Jakob, Metzger.\n1324 + + Derselve. Eiskeller.\n1330 + \" Bienenhaus.\n1212 + + Kull, Philipp, Spenglers Erbschaft. Gartenhaus u. Magazin.\n808 Widmer-Horlacher, Gottfried, Kaminfeger, von Gränichen.\n  Schenker-Ackermann, Augustin, Fuhrmann, v. Rothacker\n  (Solothurn).\n1473 + Derselve. Holz- und Waschhaus.\n1519 Beierer-Merz, Elise, Wwe., Corsettschneiderin, v. Wahlern\n  (Bern).\n  Fisch-Vogt, Marie, Part.\n  Sennhauser-Gossewisch, Anna, Modistin, v. Herrliberg (Zür.).\n  —, Rosa und Amalie, Glätterinnen, von Herrliberg.\n809 Wernli-Adel, Jakob, Gärtner.\n  Schauer-Wehrli, Joseph, Schneider, von Straßburg.\n  Plüss-Arber, Jakob, Zimmermann, von Vordemwald.\n  Sandmeier-Obrecht, Kaspar, Dachdecker, von Gränichen.\n810 Lütolf-Bühler, Joseph, chemische Wäscherei, von Luzern.\n811 + Derselve. Holzhaus.\n1201 + \" Waschhaus.\n812 Abgetragen.\n1110 + Siebenmann-Walther, Major. Gartenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 100064,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1984,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:40:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p072",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p072.jpeg",
+      "bytes": 279895,
+      "sha256": "1d1c4cfcd6612884bbac94e31e9dedb87d2151c33435c27f8c13a982032514d9",
+      "sha256_of": "original",
+      "working_copy": "1899_p072.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:40:14+00:00"
+  }
+}

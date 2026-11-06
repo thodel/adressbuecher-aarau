@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p034",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p034.jpeg",
+    "bytes": 275374,
+    "sha256": "4b63fe49f55c5bab69b105df09b907d3739531640c93bf06c0b9d19d4636a2a0",
+    "sha256_of": "original",
+    "working_copy": "1899_p034.jpeg"
+  },
+  "text": "26\nHaus-\nNr.\n286 Widmer-Siegrist, Samuel, Fabrikarbeiter, von Gränichen.\nFischer, Maria, Fabrikarbeiterin, von Fahrwangen.\nWernli-Treier, Samuel, Pferdewärter, von Thalheim.\nAmsler-Fasler, Georg, Taglöhner, von Densbüren.\n1283 † Derselbe\n287 Ferario-Natale, Cerani, Schuhmacher, von Somma (Italien).\nBrunner, Jakob, Seifensieder.\n— -Knecht, Emil, Bauamtsarbeiter.\n— — Verena, Hebamme.\nBeilharz, Lina, Weißnäherin, von Untermußbach (Württemb.).\nSchenk-Müller, Adolf, Cementarbeiter, von Langnau (Bern).\n288 † Derselbe. Waschhaus.\n289 * Derselbe. Hinterhaus.\n290 Schenker-Weber, Adrian, Magaziner, von Walterswyl (Sol.).\nElsasser-Bertschi, Gottlieb, Küfermeister, von Unterkulm.\nOrtlieb-Bertschi, Louise, von Behlenheim (Elsaß), Aufseherin\nder Gewerbebehalle.\nBertschi-Vogt, Elise, Schreiners Witwe, von Sumiswald (Bern).\nPfister-Sandmeier, Emil, Taglöhner, von Erlinsbach (Soloth.).\n— — Emma, Näherin, von Erlinsbach (Solothurn).\nSchmid-Eng, Peter, Posamenter, von Herznach.\n291 † Derselbe. Remise.\n\nZollrain.\n292 Keller-Läuchli, Paul, Zuckerbäcker und Kaffeewirtschaft. ⚫\nLäuchli-Bürgi, Anna, Witwe, Part., von Remigen.\n— Lina, Buchhalterin von Remigen.\nÜbersax, Jakob, Ferger, von Thörigen (Bern).\n293 Heller-Erb, Heinrich, Gerichtspräsident.\nHeller-Stockmar, Oskar, Notar. ⚫ Inkassogeschäft.\nStacher-Brunner, Ida, Frau, gewes. Seminarlehrers, von Eg-\nnach (Thurgau).\nBlume-Hirt, Philipp, Schreinermeister, v.Sprendlingen (Hessen).\n— Jakob, Sohn, Schreiner, von Sprendlingen (Hessen).\n— Philipp, Sohn, Drechsler, von Schwerzenbach (Zürich).\n\nJenseits der Aare.\n294 Schmuziger-Kern, Ida, Baumeisters Witwe, Part.\n— -Hünerwadel, Johann, Baumeister. ⚫\nGanter-Schilling, Heinrich, Professor, von Neustadt (Baden).\n295 * Dieselbe.\nBureau von Schmuziger, Baumeister.\n296 † Dieselbe. Waschhaus.\n1393 † Schmuziger-Hünerwadel, Johann, Baumeister (Holzschuppen).\n[spalte 2]\n1394\n1395\n1524\n1448\n1303\n1303\n1303\n1277\n1283\n1531\n1086\n1087\n1462",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5894,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1929,
+    "lines": 59,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0339,
+    "mean_line_chars": 31.68,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:26:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p034",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p034.jpeg",
+      "bytes": 275374,
+      "sha256": "4b63fe49f55c5bab69b105df09b907d3739531640c93bf06c0b9d19d4636a2a0",
+      "sha256_of": "original",
+      "working_copy": "1899_p034.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:26:02+00:00"
+  }
+}

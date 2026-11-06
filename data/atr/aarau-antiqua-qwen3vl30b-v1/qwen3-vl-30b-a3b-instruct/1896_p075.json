@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p075.jpeg",
+    "bytes": 269379,
+    "sha256": "e76828c9e61c74f4948d9ab958f80d60ffa8d3ce1caa06f25a144f04e031e7a8",
+    "sha256_of": "original",
+    "working_copy": "1896_p075.jpeg"
+  },
+  "text": "Haus-\nNr.\n1260 Müller-Gamper, Samuel, Part.\nFischer-Burger, Jonathan, Goldschmied, von Reinach. Bijouterie-\nwaren- und Uhrenhandlung.\n\nVordere Vorstadt.\n666 Amsler-Tschudy, Otto, Notar und Stadtkassier, von Kaisten.\nFirma: Amsler-Tschudy, vormals E. Pfisterer. Pelzwaren-, Hut-\nund Schirmhandlung.\nWidmer, Karoline und Marie, Modistinnen, von Freienwyl.\nVieser-Rupp, Theodor, Kaufmann, v. Lahr (Grossh. Baden).\n1262 667 a u. b Abgetragen; an dessen Platz\nNägelin-Gisiger, Arnold, Hôtelier, v. Liedertswil (Baselland).\nGasthof z. Wildenmann.\nBürgin-Gluck, Maria, von Bubendorf (Baselland), Part.\n668 Hirschi-Merz, Joh. Rudolf, Uhrenmacher. Uhren-, Gold- und\nSilberwarenhandlung.\n669 Brand-Baumann, Jakob, Spezereihandlung.\nHemmelер-Lanz, Oskar, Bäckermeister. Pintenwirtschaft.\nUhler, Bertha, v. Uttweil (Thurg.), Hauptlehrerin am Gewerbe museum.\nUhler, Emma, Part., von Uttweil (Thurgau).\n670 Gerber-Hassler, Luise Elisabeth, March.-Tailleurs Witwe.\nGerber-Seiler, Gustav, March.-Tailleur. Lager in Herren- u.\nKnabenkleiderkonfektion. Anfertigung von Herrenkleidern nach Maß.\nDreifuss-Bloch, Karl, Kaufmann, von Endingen.\n671 Fricker-Kienberger, Johann, Postbeamter.\nGrolimund-Gröli, Sigmund, Buchhandlungsangestellter, v. Beinwyl\n(Solothurn).\n672 Grolimund, Emma, Lehrerin, von Beinwyl (Solothurn).\nAbgetragen; an dessen Platz\n1263 * Aktiengesellschaft Feldschlösschen in Rheinfelden. Speise-\nwirtschaft zum Affenkasten (Wirt: Gerber, Emil).\nPfisterer-Rohr, Robert, Bierbrauer. Vertreter des Bierdépôt Rhein-\nfelden für Aarau und Umgebung.\nErnst-Pfisterer, Lina, Witwe, Part.\n673 Baumann-Eichenberger, Karl, Bäckermeister, von Schafisheim.\nSpeisewirtschaft.\nSiebenmann-Ackermann, Bernhard, Part.\nMüller-Nünlist, Sigmund, Zimmermeister, von Walterswil (Soloth.).\n674 Kunz-Graf, Ernst, Zuckerbäcker, von Wald (Zürich).\nZündt geb. Hagenbuch, Elise Luise, Witwe, Part., von Altstätten,\n(St. Gallen).\nBührer-Gubler, Elise, Witwe, von Bibern (Schaffhausen).\n675 Studler-Sandmeier, Anna, Witwe, Part.\nGysi-Studler, Arnold, Mechaniker.\nHofmann, Arnold, von Aarburg. Manufakturwarenhandlung.\n676 Hagenbuch-Egger, Friedrich, Buchbinderei und Papeterie.\n677 † Derselbe. Buchbinderwerkstätte.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6228,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2192,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:06:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p075.jpeg",
+      "bytes": 269379,
+      "sha256": "e76828c9e61c74f4948d9ab958f80d60ffa8d3ce1caa06f25a144f04e031e7a8",
+      "sha256_of": "original",
+      "working_copy": "1896_p075.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:06:24+00:00"
+  }
+}

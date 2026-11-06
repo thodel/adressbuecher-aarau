@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p080",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p080.jpeg",
+    "bytes": 270734,
+    "sha256": "61c8acead7e40c29620eb9009eb1a059640942ebf91b5edf5d6636d97e2e65c8",
+    "sha256_of": "original",
+    "working_copy": "1899_p080.jpeg"
+  },
+  "text": "72\nHaus-\nNr.\n928 Riniker-Temperli, Friedrich, Spezereihdlg., v. Schinznach.\nLooser-Breisinger, Joh. Jakob, Bierbrauer, von Erleman.\n(Württemberg).\nSpähne-Waldmeier, Lse., Weißnähterin, v. Karsau (Baden).\n929 * Derselbe.\nDr. Schneider-Richner, Gustav, alt Oberrichter, Fürsprech\nund Notar. ⇔ Advokatur- und Notariats-Büreau.\nGötz-Müri, Friedrich, Schuhfabrikaufseher, v. Roth a. See\n(Württemberg).\nImhof-Schmid, Katharina, Part.\nSandmeier, Marie, Damenschneiderin.\n930 * Ernst-Merian, Augusts Erbschaft.\nFirma: Vidiella & Frey, Weinhandlung. ⇔ (Büreau).\nMeyer-Schait, Jakob, Gärtner, von Dintikon.\nMuster-Bürgi, Magdalena, Part., von Hafle (Bern).\nFlach-Buser, Joh., Müller, von Bonndorf (Grth. Baden).\n— — Anna, Wäscherin u. Glätterin, v. Bonndorf „\n931 Abgetragen, an dessen Platz\n1117 Rychner-Renz, Rosa, Part.,\n— Fritz, Pianist.\nSchneider-Rychner, Gustav, Dr. jur., Fürsprech, alt Ober-\nrichter. ⇔\nDöbeli-Binder, Samuel, Bezirksschullehrer, von Seon.\nWetter-Weiss, Ulrich, Kaufmann, von St. Gallen.\n932 Abgetragen.\n\nBachstrasse.\n1413 † Birmann, Adolf, Fruchthändler, von Basel (Magazin).\n933 † Gysi & Cie. (Otto Gysi-Siebenmann u. Hans Gysi-Riniker).\n⇔ Fabrikgebäude.\nEgloff, Ernst, Buchbinder, von Tägerweilen (Thurgau).\nBuchbinderwerkstätte.\n934 † Gemeinde Aarau. Spritzenhaus. (Spritzen Nr. 6 und 7.)\n\nObere Vorstadt.\n935 Hof-Müller, Eduard, Mechaniker, v. Hauenstein (Soloth.).\n(Velohandlung und Reparaturwerkstätte.)\n— — Bertha, v. Hauenstein. (Butter und Eierhandlung.\n(Salzverkauf.)\nBürgi-Burkhard, Anna, Witwe, Part., von Erlinsbach.\nFetzer-Baruchello, Guido, Buchhalter, von Rheinfelden.\n936 † Derselbe. Glasur mühle.\n937 Berchtold-Glaus, Jakob, Schuhmacher, von Schmiedrued.\nSchuhhandlung.\nMüller-Hauri, Karl Theodor, Schmied, von Biberstein.\nBrunner-Rohr, Fz. Xav., Knecht, v. Derendingen (Soloth.).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5449,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1813,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 37.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:30:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p080",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p080.jpeg",
+      "bytes": 270734,
+      "sha256": "61c8acead7e40c29620eb9009eb1a059640942ebf91b5edf5d6636d97e2e65c8",
+      "sha256_of": "original",
+      "working_copy": "1899_p080.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:30:12+00:00"
+  }
+}

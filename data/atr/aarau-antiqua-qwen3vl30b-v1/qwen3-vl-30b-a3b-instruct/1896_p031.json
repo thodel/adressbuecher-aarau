@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p031",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p031.jpeg",
+    "bytes": 265386,
+    "sha256": "2c3dafc3f1e4667680b2f466b118727c0808432aff793304ad1388511cf118eb",
+    "sha256_of": "original",
+    "working_copy": "1896_p031.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n9\nHaus-\nNr.\nStadthof.\n92 a Dambach-Heiniger, Joh. Jakob, Postangestellter, von Ober-Bötzberg.\nKyburz, geb. Wüthrich, Barbara, Fabrikarbeiterin, von Unter-Kulm.\nKyburz, Elise, Glätterin, von Unter-Kulm.\nHunziker-Frei, Gottlieb, Schneider und Kleiderreiniger, von U.-Kulm.\n92 b Gisi-Wernli, Samuel, Schreinermeister, von Möriken.\nSchwammberger-Schmid, Jakob, Färber, von Auenstein.\n92 c Rothpletz-Siebenmann, Maria, Elisabeth, Schreiners Witwe.\nSchäfer-Frei, Emil, Zeughausarbeiter.\nWidmer-Mathis, Jakob, Sattler, von Gränichen.\n92 d Schmid-Schickler, Hans, Brieffräger.\nDambach, Joh. Jakob, Postangestellter, von Ober-Bötzberg.\nSchmid, Elise, Schneiders.\n92 e * Rothpletz-Siebenmann, Maria, Elisabeth, Schreiners Witwe.\nGloor-Werder, Heinrich, Zimmermann, von BIRR.\nGloor, Olga, Damenschneiderin, von BIRR.\nGloor-Gloor, Heinrich, Zimmermann, von BIRR.\nGing-Hug, August, Schmied, Taglöhner.\n92 f † Gundel-Wassmer, Joh. Jak., Bierbrauer, v. Langenaltheim, Magazin.\n93 * Rothpletz-Siebenmann, Maria, Elisabeth, Schreiners Witwe.\nBächli-Holliger, Gottlieb, Schuhmacher, von Buchs.\n94 Bossard, Geschwister, von Effingen.\nBossard, Maria, Wagenputzerin, von Effingen.\nBossard, Anna Maria, Part., von Effingen.\nBossard, Lina, Lehrerin, von Effingen.\nWalti-Zimmermann, Rosa, Witwe, Taglöhnerin, von Dürrenäsch.\nWalti, Hans, Sohn, Schreinergeselle, von Dürrenäsch.\n95 Eberle-Heer, Franz, Müller, von Gossau (Zürich). Mittlere\nMühle (Kunstmühle).\n96 † Dieselbe. Kunstmühle, Transmission.\n97 Abgetragen. (Ryniker, Gebrüder, Bierbrauer).\n98 † Abgetragen an dessen Platz\n1256 Eberle-Heer, Franz, Müller (Waschhaus).\nLaurenzentorgasse.\n99 Abgetragen. An dessen Platz\n1231 * Ryniker, Gebrüder, Bierbrauer. Eiskeller.\nRyniker-Waldis, Arnold, Kaufmann.\nMetzgergasse.\n100 Hefti-Hunziker, Joh. Peter, Schneidermeister, v. Schwanden (Glarus).\nTuch- und Kleiderhandlung.\nBaumgartner-Rohrer, Anton, Bäcker, von Giessbach (Baden).\nBertschi-Schwammberger, Adolf, Schneider, von Sumiswald.\nBertschi-Schwammberger, Marie, Damenschneiderin, v. Sumiswald.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5338,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2069,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:02:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p031",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p031.jpeg",
+      "bytes": 265386,
+      "sha256": "2c3dafc3f1e4667680b2f466b118727c0808432aff793304ad1388511cf118eb",
+      "sha256_of": "original",
+      "working_copy": "1896_p031.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:02:15+00:00"
+  }
+}

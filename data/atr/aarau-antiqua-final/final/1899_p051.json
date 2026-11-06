@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-gemini-retry-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p051",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p051.jpeg",
+    "bytes": 256938,
+    "sha256": "c7983de69ea36a5946c0e179cc37591decf584f85965bf18061ff5e14e814500",
+    "sha256_of": "original",
+    "working_copy": "1899_p051.jpeg"
+  },
+  "text": "43\n\n  Haus-\n  Nr.\n  510  Siebenmann-Siebenmann, Marie, Witwe, Part.\n1234 †  Dieselbe. Holzhaus.\n1141    Kunz, Johann Jakob, von Wald (Zürich), Part.\n        Walder-Kunz, Elise, Witwe, von Benken (Schaffhausen).\n        Gessner-Siegfried, August, Dr. phil., Professor, von Zürich.\n1251 †  Derselbe. Holz- und Waschhaus.\n1146 *  Lüscher-Umiker, Hermann, Mechaniker.\n        Schär-Frey, Friedrich, Major, Instr. I. Klasse der Kavallerie,\n          von Inkwyl (Bern).\n\nBahnhofstrasse.\n\n  511 * Aargauische Bank. [tel]\n  512 † Dieselbe. Holzhaus.\n1360    Zebert-Altorfer, Georg, von Bauma (Zürich). Papeterie. [tel]\n        Wirth-Geiger, Joh. Rudolf, Arzt, Part., von Speicher (Appenz.)\n1438    Gerber-Walther, Hans, Hôtelier [tel] (Hôtel Terminus).\n  513 * Näf & Zschokke. Kreispostgebäude. [tel]\n        Brosy-Miville, Rudolf, Kreispostdirektor, v. Mümliswyl (Sol.).\n  514 † Dieselben. Postremise.\n  515   Schweizerische Nordostbahn. Bahnhofgebäude.\n        Kübler-Kuhn, Johann, Bahnhofinspektor.\n        Schäfer-Meier, Friedrich, gew. Einnehmer der Nordostbahn.\n        Meister-Uttiger, Jakob Emil, Adjunkt des Bahnhofinspektors,\n          von Dübendorf (Zürich).\n        Kühn-Hofmann, Bernhard, Restaurateur. [tel]\n  516 † Schweizerische Nordostbahn. Einsteighalle.\n  517 † Dieselbe. Wagenremise.\n  518 †   „      Wärterhaus.\n  519 †   „      [tel] Güterschopf mit Wohnungen (Güterexpedition,\n          Bureau).\n        Lindegger-Kyburz, Gottfried, Güterexpedient, v. O.-Entfelden.\n        Rippstein-Küng, Joseph, Portier, von Kienberg (Solothurn).\n  520 † Dieselbe. Waschhaus und Abtritte.\n  521 †   „      Maschinenremise.\n  522 †   „      Wasserstationsgebäude.\n  523 †   „      Güterschopf (Fruchtschuppen).\n  524 †   „      Wagenremise.\n  525 †   „      Bahnwärterhäuschen.\n  526 †   „      Abtrittgebäude.\n  527 †   „      Bahnwärterhäuschen.\n  528 †   „              „\n  529 †   „              „\n  530 †   „              „\n  531 †   „              „\n  532 †   „              „\n  533 †   „              „",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6138,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2009,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T20:48:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-gemini-retry-v1",
+    "source": {
+      "key": "1899_p051",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p051.jpeg",
+      "bytes": 256938,
+      "sha256": "c7983de69ea36a5946c0e179cc37591decf584f85965bf18061ff5e14e814500",
+      "sha256_of": "original",
+      "working_copy": "1899_p051.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:48:05+00:00"
+  }
+}

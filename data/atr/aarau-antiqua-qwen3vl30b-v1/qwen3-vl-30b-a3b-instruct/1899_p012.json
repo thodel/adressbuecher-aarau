@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p012",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p012.jpeg",
+    "bytes": 270964,
+    "sha256": "d03ddbf3e6d36e2e88a04b7571de9a4bcc261e7477ec97f1401d85651969814a",
+    "sha256_of": "original",
+    "working_copy": "1899_p012.jpeg"
+  },
+  "text": "4\nHaus\nMr.\n29 Schmid-Maurer, Mathilde, Negt., von Möriken, Comestibleshdlg.\nMaurer, Louise, Part.\nHoffmann geb. Schenk, Maria, Spetterin, von Schottikon (Zch).\n30 Müller-Hürner, Eduard, Schirmmacher. Schirmhandlung.\n31 Stapfer-Gronmeyer, Johann, Schuhmachermsr., Schuhhandlg.\n32 Dubs-Walther, Karl, Metzger und Speisewirt , von Küttingen.\n\nKronengasse.\n33 Erny-Fassler & Sohn, Firma.\nErny-Bauer, Karl, Kaufmann, Mercerie-, Passementerie-, Bonne-\nterie- und Lingerie-Warenhandlung.\nErny-Fassler, Emil, Kaufmann, Armenpfleger. Vertretung der\nPhönix-Feuerversicherung. Schweiz.Sterbe- und Alterskasse, Lebensver-\nsicherung.\nSandmeier, August, Kaufmann.\n34 Würtemberger-Kaiser, Marie, Coiffeurs Witwe.\nHagenbuch-Würtemberger, Karl, Kaufmann.\nSchibler-Bieber, Fritz, Coiffeur, von Walterswyl (Solothurn).\nParfümeriewarenhandlung.\nKlein-Berner, Jean, v. Kaisten. Samen- und Landespro-\nduktenhandlung.\n35 Hagenbuch, Karl, Kaufmann. Glas- u. Porzellanwarenhandlung.\n36 Hintz-Wolf, Anna, Witwe.\nHintz-Gysi, Ulrich, von Lehr (Württemberg). Zuckerbäckerei.\n37 Vonfelten-Willimann, Franz Jos., Corsett- u. Quincailleriegeschäft.\nWillimann-Wehrli, Marie, Witwe, von Oberhof.\nHerzog-Frey, Adolf, Schreiner, von Hornussen.\n38 Gloor-Siebenmann, Marie, Witwe, von Schöftland. Kolonial-\nwaren- und Delikatessenhandlung.\nStrub-Mühlestein, Robert, Schneider, von Ueberlingen (Großh.\nBaden).\n39 Mathys-Hafner, Katharina, Witwe, Wirtin zur „Krone“, von\nEriswyl (Bern).\n40 *Erismann-Frischknecht, Fritz, von Moosleerau.\nBaumgartner-Rohrer, Anton, Bäcker, von Gießbach, Großh.\nBaden, Speisewirtschaft.\nBaur-Suter, Xaver, Kondukteur, von Sarmenstorf.\nHemmeler-Monhardt, Eugen, Telegraphist.\nRingier, Robert, Part., von Zofingen.\n41 Faller geb. Faller, Elise Louise, Witwe, v. Raitenbuch (Großh.\nBaden). Firma Gebr. Faller, Militärtartikel, Eisen- und Quin-\ncailleriewarenhandlung.\n— Karl Friedr., Sohn, Kaufmann, von Raitenbuch (Gr. Baden).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4881,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1915,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:24:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p012",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p012.jpeg",
+      "bytes": 270964,
+      "sha256": "d03ddbf3e6d36e2e88a04b7571de9a4bcc261e7477ec97f1401d85651969814a",
+      "sha256_of": "original",
+      "working_copy": "1899_p012.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:24:05+00:00"
+  }
+}

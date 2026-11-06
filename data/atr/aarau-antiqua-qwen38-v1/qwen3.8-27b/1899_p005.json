@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p005",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p005.jpeg",
+    "bytes": 234467,
+    "sha256": "ec2c560feb16a988173515716804ede0326546c105c97935164c67e1e3ad78ed",
+    "sha256_of": "original",
+    "working_copy": "1899_p005.jpeg"
+  },
+  "text": "[ handschriftlich: 2 ]\nHandels- und Gewerbe-Adressbuch\nfür den\nKanton Aargau.\nSeparat-Auszug:\nAdressbuch\nder\nStadt Aarau\n1899.\nIX. Ausgabe.\nBearbeitet\n[handschriftlich: (Fr)] von\nG. Vogel,\nPolizeilieutenant, Aarau. [stempel: KANTONSBIBLIOTHEK · AARAU ·]\nBERN,\nPOLYTECHNISCHE ANSTALT FÜR VERLAG UND PUBLIZITÄT.\nAARAU,\nH. R. SAUERLÄNDER & CIE.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3702,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 341,
+    "lines": 18,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 18.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0059,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:29:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p005",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p005.jpeg",
+      "bytes": 234467,
+      "sha256": "ec2c560feb16a988173515716804ede0326546c105c97935164c67e1e3ad78ed",
+      "sha256_of": "original",
+      "working_copy": "1899_p005.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:29:32+00:00"
+  }
+}

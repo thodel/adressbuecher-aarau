@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p149",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p149.jpeg",
+    "bytes": 282860,
+    "sha256": "abee667cfdc53e6eebc26129e5c0a6e8ef76440124fc6fbfec0b671e3453c470",
+    "sha256_of": "original",
+    "working_copy": "1896_p149.jpeg"
+  },
+  "text": "Alphabetisches Verzeichnis. 111\nMaurer, Fritz, Commis, Bahnhofstraße 1025.\n— Gottlieb, Taglöhner, vor dem Haldenthor 1109.\n— Lisette, Damenschneiderin, Milchgasse 73.\n— Luise, Part., Rathausgasse 29.\n— Philipp, Gießereiarbeiter, Milchg. 73.\n— Samuel, Taglöhner, Hammer 188.\nManz, Philipp, Aufseher, Scheibenschachen 313.\nMeier, August, Direktionssekretär, Rain 874.\n— geb. Boß, Sophie, Witwe, Part., von Paris, Metzgergasse 58.\n— Emil, Verwalter des Kantonsspitals (wohnt in Buchs).\n— geb. Großmann, Anna, Witwe, Part., vordere Vorstadt 680.\n— geb. Hägeli, Karolina, Witwe, Taglöhnerin, Laurenzenvorstadt 376.\n— Jakob, Schlosser, Rathausgasse 47.\n— Jakob, Taglöhner, Scheibenschachen 313.\n— Jakob, Gärtner, obere Vorstadt 938.\n— Jakob, Zimmermann, Entfelderstraße 1285.\n— Jakob, Bäcker, (Taglöhner) Kirchgasse 10.\n— Jakob, Part., jenseits d. Aare 1303 b.\n— Joh. Jakob, Lehrer, Feerstraße 1308.\n— Nothburga, Posamenterin, Bachstraße 1031.\nMeyer, Eduard Erwin, Sekretär, obere Vorstadt 925.\n— Johann Jakob, Part., Rain 860.\n— Johann Robert, Bahnarbeiter, Halden 250.\n— Joseph, Postcommis, jenseits der Aare 1385.\n— J. L., Architekt, Direktor des Gewerbemuseums, Laurenzenvorstadt 547.\n— geb. Roth, Verena, Part., obere Vorstadt 925.\nMeierhofer, Rudolf, Güterschaffner, hinter dem Bahnhof 1072.\nMeisel, Xaver, Forstverwalter, Rathausgasse 19.\n— Verena, Weißwarenhandlung, Rathausgasse 19.\nMeissner, Johann, Schneider, Halden 266 b.\nMeister, Georg, Bäcker und Wirt, Gräben 216.\nMellert, Heinr., Lithograph, Bachstraße 1038.\nMerz, Jakob, Taglöhner, Halden 268.\n— Jakob, Taglöhner, Adelbändli 174.\n— Flora, Postangestellte, Milchgasse 159.\n— Hch. Gottlieb, Part., Milchgasse 159.\n— Hermann Konditor, Pelzgasse 128.\n— geb. Ruh, Margaretha, Witwe, Part., vor dem Haldenthor 758.\n— Sebastian, Notar, Bachstraße 1100.\n& Suter, (Hermann Merz und Jost Suter) Confiserie und Patisserie, Bankstraße 1141.\n— Traugott, Telefonarbeiter, vor dem Haldenthor 1084.\n— Walter, Dr. jur., Justizsekretär, Gartenstraße 998.\nMettauer, Gottlieb, Taglöhner, Halden 250.\n— Joseph, Bahnarbeiter, Halden 277.\nMichel, Katharina, Spetterin, Golattenmattgasse 233.\nMillenet geb. Rychner, Rosa, Bereiters Witwe, Damenschneiderin, Kirchg. 10.\nMinder, Fritz, Bierbrauer, Milchgasse 159.\nMittelschweizerische geogr.-kommerzielle Gesellschaft in Aarau. Präsident: Dr. A. Stähelin.\nMöller, August, Büchsenmacher, jenseits der Aare 299.\n— Ernst Aug., Büchsenmacher, Scheibenschachen 315.\nMösch, Emil, Commis, Rathausgasse 3.\n— Karl, Güterexpedient, Kronengasse 37\n— Martin, Registrator, Bachstraße 1155.\n— geb. Mösch, Aloisa, Witwe, Rain 871.\nMontandon, Paul, Kaufmann, jenseits der Aare 339.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7481,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2651,
+    "lines": 56,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:13:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p149",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p149.jpeg",
+      "bytes": 282860,
+      "sha256": "abee667cfdc53e6eebc26129e5c0a6e8ef76440124fc6fbfec0b671e3453c470",
+      "sha256_of": "original",
+      "working_copy": "1896_p149.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:13:10+00:00"
+  }
+}

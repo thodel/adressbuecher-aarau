@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p010",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p010.jpeg",
+    "bytes": 247361,
+    "sha256": "c55b78e797db2fcf9e14f1bc1be2f65b9d284983ae1bafb227a003218961f284",
+    "sha256_of": "original",
+    "working_copy": "1896_p010.jpeg"
+  },
+  "text": "IV\n  Trotzdem wir im »Taschenkalendar für Gemeinnützigkeit und\n  Vereinswesen« pro 1881/82, herausgegeben von E. Zschokke, Julius\n  Henz und Pfarrer R. Wernly (bei Sauerländer, Aarau 1883), eine\n  äußerst verdankenswerte Grundlage besaßen, bot uns z. B. die Zu-\n  sammenstellung über die öffentlichen Anstalten, Vereine und Gesell-\n  schaften unserer Stadt (S. 156-172) Schwierigkeiten, von welchen\n  der Leser kaum eine Ahnung haben dürfte.\n  Der eigentliche Adressenteil wurde wie bis anhin von Herrn\n  Polizeivachtmeister Vogel in sorgfältiger Weise ausgearbeitet.\n  Im Übrigen sind wir zahlreichen Mitarbeitern zu Dank verpflichtet.\n  Die Herren Stadtschreiber A. Niggli, Rektor Dr. Th. Odinga,\n  Stadtförster X. Meisel, Dr. F. Schnuziger, Prof. Dr. F. Mühliberg,\n  Prof. H. Ganter, Prof. A. Schumann, Guido Zchokke, J. Kistler,\n  Ed. Erwin Meyer seien als liebenswürdige Ratgeber und Mitarbeiter\n  besonders erwähnt.\n  Ebenso sei dem tit. Stadtrat und der kaufmännischen Gesell-\n  schaft für ihre finanzielle Unterstützung hiermit der verbindliche\n  Dank ausgesprochen.\n  Herr Alt-Lehrer H. Herzog, dessen Sammeleifer manch lokal-\n  geschichtliches Dokument seine Erhaltung verdankt, war so freund-\n  lich, uns das Verzeichnis aller bis jetzt erschienenen Adressbücher\n  Araaus mitzuteilen. Die zum Teil kaum mehr als in einem Exem-\n  plar erhaltenen, unscheinbaren Heftchen sind in der städtischen\n  Lehrerbibliothek aufbewahrt.\n  1. Sandmeier, Dl., Adresskalendar der Stadt Aarau und Umgebung auf 1869.\n  2. Müller, J., Verzeichnis sämtlicher Einwohner, Wohn- und Oekonomiegebäude\n    der Gemeinde Aarau auf 1877.\n  3. Sandmeier, Dl., dasselbe auf 1879.\n  4. Vogel, G., Adresskalendar der Stadt Aarau und Umgebung f. d. Jahr 1881.\n  5. \" \" Adressbuch der Stadt Aarau 1884.\n  6. \" \" \" \" \" 1888.\n  7. \" \" \" \" \" 1892.\n  8. \" \" \" \" \" 1896.\n  Allfällige Richtigstellungen, besonders über öffentliche Anstalten\n  und Gesellschaften, von denen zum Teil keine Auskunft erhältlich\n  war, nehmen wir mit Dank entgegen.\n  Aarau, 1. Juni 1896.\n  Mittelschweiz. Geograph.-Kommerzielle Gesellschaft:\n    Karl Bühler, Sekretär.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 49317,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2119,
+    "lines": 40,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:12:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p010",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p010.jpeg",
+      "bytes": 247361,
+      "sha256": "c55b78e797db2fcf9e14f1bc1be2f65b9d284983ae1bafb227a003218961f284",
+      "sha256_of": "original",
+      "working_copy": "1896_p010.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:12:40+00:00"
+  }
+}

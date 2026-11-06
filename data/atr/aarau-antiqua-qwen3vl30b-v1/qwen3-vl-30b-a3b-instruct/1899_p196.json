@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p196",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p196.jpeg",
+    "bytes": 254742,
+    "sha256": "b92fc86a90ecaa0d473303c0f2b9b0d31bb06a6d7d67f20a1da3584e487e959f",
+    "sha256_of": "original",
+    "working_copy": "1899_p196.jpeg"
+  },
+  "text": "92\nKaffeeiwirtschaften.\nBaumann, Kaspar, hintere Vorstadt 623.\nBanga-Lässer, Joh., Bahnhofstraße 1020.\nGuggisberg, Emil, Bahnhofstraße 568.\nKeller-Läuchli, Paul, Zollrain 292.\nKunz, Ernst, vordere Vorstadt 674.\nRohr, Hans, Konditor, Graben 205.\nWüthrich, Jakob, Rathausgasse 20.\nWullschleger-Blattner, Bahnhofstraße 1023.\nWoll- und Baumwollstoff-Druckerei.\nJenny & Weigel, * Telli 490.\nZahnärzte.\nBerner, Hermann, Dr., Graben 618.\nBrentano, Max, Entfelderstraße 1075.\nVogt, Adolf, Laurenzenvorstadt 353. (S. Inserat Seite 10.)\nZiegelfabrikanten.\nErnst-Käser, Friedr. Jak., * (Strangfalzziegelei), in der Gais 1353.\nHauri-Siegenthaler, Karl, Rain 866.\nThut-Gidemann, Hermann, * Rain 863.\nZimmermeister.\nEichenberger, Rudolf, Halden 285.\nMüller, Sigmund, vordere Vorstadt 673.\nWehrli, Johann, vor dem Haldenthor 770.\nZuckerbäcker.\n(Siehe Konditoren.)\nVerzeichnis der in der Stadt Aarau erscheinenden\nZeitungen, Zeitschriften und Kalender.\nDruck und Verlag der Aktiengesellschaft der Aargauer\nNachrichten, * hintere Vorstadt 662.\nAargauer Nachrichten, 7 mal wöchentlich. Preis Fr. 9 für\nAarau, franco auswärts Fr. 11.\nGratisbeilagen: Aarauer Blätter (wöchentl. 8 Seiten stark, illustr.). Taschen-\nfahrtenplan der Eisenbahnen und Posten in Aargau. Gegründet: 1854 durch\nBuchdrucker Martin, Redaktor: Dr. M. Widmann.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4380,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1322,
+    "lines": 36,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.75,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:43:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p196",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p196.jpeg",
+      "bytes": 254742,
+      "sha256": "b92fc86a90ecaa0d473303c0f2b9b0d31bb06a6d7d67f20a1da3584e487e959f",
+      "sha256_of": "original",
+      "working_copy": "1899_p196.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:43:03+00:00"
+  }
+}

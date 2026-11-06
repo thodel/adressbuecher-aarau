@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p200",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p200.jpeg",
+    "bytes": 263385,
+    "sha256": "1e637d1aef61a28631976325ee8edc37bcf702d763a58d4d7969d744a6f5b125",
+    "sha256_of": "original",
+    "working_copy": "1899_p200.jpeg"
+  },
+  "text": "96\n\nB. Bezirksbehörden.\n\n1. Bezirksamt.\n\nBezirksammann: Steiner, Jak., von Suhr.\nAmtsrevisor: Stauber, Jb., von Zezwyi.\nAmtsschreiber: Matter, Sam, von Oberentfelden.\n\n2. Bezirksgericht.\n\nPräsident: Heller, Heinrich, von Aarau.\nVizepräsident: Lüscher, Hans, Notar, von Muhen, in Aarau.\nMitglieder: Lienhard, Gottlieb, von Buchs.\n  Lüscher, Rudolf, von Muhen.\n  Rüetschi, Samuel, von Suhr.\n\nC. Behörden der Stadt Aarau.\n\n1. Gemeinderat.\n\nGemeindeammann: Schmidt, Max, Fürsprech.\nVizeammann: Stierli-Brentano, G. L., Fürsprech.\nGemeinderäte: Hässäig, Hans\n  Henz, Jakob, Kaufmann.\n  Kuhn-Buser, Mechaniker.\n  Rychner, Ludwig, Ingenieur.\n  Siebenmann, Fritz, Bierbrauer.\n\n2. Beamte.\n\nGemeindeschreiber: Niggli-Bohnenblust, Arnold, Fürsprech.\n  Stellvertreter: Frey-Kieser, Josef, Notar.\nForstverwalter: Meisel, Xaver.\nFondsverwalter: Andres, Gottlieb.\nBauverwalter: Haßler, Albert, Architekt.\nCivilstandsbeamter: Frey-Kieser, Josef, Notar.\nStadtingenieur: Jäger, Hugo.\nStadtkassier: Siebenmann, Emil.\nBetriebsbeamter: Wehrli, Jakob, Sekretär d. Gemeindekanzlei.\nGemeindewebel: Fricker, Joseph.\nFriedensrichter: Erismann, Abraham, Ökonom.\n  Erny-Fassler, Stellvertreter.\n\n3. Einwohner-Rechnungskommission.\n\nPräsident: Dr. Stocker-Wirz, Fürsprech.\nMitglieder: Gamper-Baumann, Emil, march.-tailleur.\n  Guggisberg, Emil, Bäcker.\n  Hassler-Schmid, Hans, Kaufmann.\n  Hegnauer, Rudolf, Fabrikant.\n  Heuberger-Siebenmann, Gottlieb, Sekretär.\n  Dr. Schneider, Gustav, Fürsprech.\n  Zehnder, Otto, Kantonssingenieur.\n  Zimmermann, Johann, Lehrer.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10532,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1532,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.89,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:28:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p200",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p200.jpeg",
+      "bytes": 263385,
+      "sha256": "1e637d1aef61a28631976325ee8edc37bcf702d763a58d4d7969d744a6f5b125",
+      "sha256_of": "original",
+      "working_copy": "1899_p200.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:28:12+00:00"
+  }
+}

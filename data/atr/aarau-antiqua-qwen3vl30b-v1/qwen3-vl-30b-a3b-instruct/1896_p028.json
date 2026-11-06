@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p028",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p028.jpeg",
+    "bytes": 267544,
+    "sha256": "4d8e9f26a750fefa28532158893b2943bb96ef8ad7ef271e84c5da33ea871cee",
+    "sha256_of": "original",
+    "working_copy": "1896_p028.jpeg"
+  },
+  "text": "6\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\nMetzgergasse.\n55 Hemmeler-Hassler, August, Kaufmann, Quincaillerie- und Kinder-\nspielwaren-Handlung.\nPfleger, geb. Grösser, Maria, Part.\nPfleger, Hermann, Kondukteur, S. C. B.\nWydler, Lina, Part.\nSchöpflin, geb. Hemmeler, Hedwig, Wwe., Part., von Kandern, Gross-\nherzogtum Baden.\n56 Dätwyler-Merz, Susanna, Notars Witwe, Part.\nLüscher, Jakob, Notar, von Muhlen, Notariats-, Rechts- u. Inkasso-\ngeschäft (Bureau).\nZimmerli, Jakob, Part., von Rothrist.\nEichenberger, Christian, Witwer, Zeughausarbeiter, von Beinwyl.\nEichenberger, Ida und Elise, Weissnäherinnen, von Beinwyl.\n57 Buser-Wildi, Emil, Bäckermeister.\n58 Hemmeler-Türler, Emil, Kaufmann, Mercerie-, Garn- und Ellen-\nwarenhandlung.\nHemmeler, Emil, Kaufmann, Sohn.\nMeier, geb. Bolz, Sophie, Witwe, Part., von Paris.\n59 † Derselbe. Magazine.\n60 Strübin-Frey, August, von Basel, Speisewirtschaft zum vis-à-vis.\nKoller-Kohler, Elisabeth, Spetterin, von Berikon.\n61 * Hoch-Ernst, Gustav, Kaufmann, von Zollikon (Zürich).\nSchmid-Fischer, Heinrich, Kaufmann, von Wittnau, Manufaktur-\nwarenhandlung.\nPelzgasse.\n62 Bolli-Hunziker, Jakob, Bäckermeister, von Altdorf (Schaffhausen).\n63 Wassmer-Ott, Fidel, Schneidemeister, von Jungholz (Baden).\nKönig-Steiniger, Anna, Küfers, Witwe, von Bottenwyl.\n64 Widmer, Xaver, Hausknecht z. Ochsen, von Freienwyl.\nBaumann, Emma, Modistin, von Oberentfelden, Modegeschäft.\n65 * Sommerhalder-Buser, Jakob, Zahnarzt in Lenzburg.\nHauri-Blanc, Jean, Coiffeur, von Seengen, Fabrikation von künst-\nlichen Haargeflechten.\nHallauer-Benziger, Leonhard, Giessereiarbeiter, v. Ursendorf,(Württbg.)\nDettwyler-Suter, Karls Ehefrau, von Reigoldswyl (Baselland).\nDettwyler, Bertha, Damenschneiderin, von Reigoldswyl (Baselland).\nHess-Zürcher, Wilhelm, Pintenwirt.\n66 Fäs-Gall, Rudolf, Kasernier, von Schöftland.\n67 Lienhard, Anna, Modistin, von Buchs, Modegeschäft.\nHagnauer, Friedrich, Bürstenfabrikant. Bürstenwarenhandlung.\nHagnauer, Hermann, Sohn, Kaufmann.\nBach-Roux, Wilhelm, Schneider, von Köln.\nSulzmann-Frei, Georg, Steindrucker, von Oberlahnstein (Preussen).\n69 Schaub-Blauenstein, Adelbert, Gipsermeister, v. Ettingen (Baselland).\nRamsauer, geb. Hächler, Anna, Wwe., Part., v. Herisau (Appenzell).\nRohr-Blauenstein, Maria Anna, Fabrikarbeiterin, v. HunzenschwyI.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5830,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2299,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0196,
+    "mean_line_chars": 44.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:01:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p028",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p028.jpeg",
+      "bytes": 267544,
+      "sha256": "4d8e9f26a750fefa28532158893b2943bb96ef8ad7ef271e84c5da33ea871cee",
+      "sha256_of": "original",
+      "working_copy": "1896_p028.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:01:59+00:00"
+  }
+}

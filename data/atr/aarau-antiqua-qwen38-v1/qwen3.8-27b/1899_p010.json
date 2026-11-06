@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p010",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p010.jpeg",
+    "bytes": 283512,
+    "sha256": "b6223c3291416abd5596e75500ba5a3c244631bef1c6e2826e4483625fb71c75",
+    "sha256_of": "original",
+    "working_copy": "1899_p010.jpeg"
+  },
+  "text": "2\nHaus-               Kirchgasse.\nNr.\n6 * Staat Aargau, Pfarrhelfergebäude.\n  Frei-Rauchenstein, Eduard, Pfarrhelfer für den Helferkreis Aarau.\n7 Vidella - Tarrats, Manuel, von Sitges (Spanien), Spanische\n  Weinhalle. Weinhandlung. [tel]\n8 a Hoffmann-Suter, Christoph, von Schwabach (Bayern). Coiffeur-\n  geschäft.\n  Schori-Ott, Joh. Friedrich, Schriftsetzer, von Radolfingen.\n  Hermann, Eduard, Commis.\n8 b Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n  — — Kaspar, Schuhmachermeister, von Spreitenbach.\n9 a+ Gemeinde Aarau. Feuerlöschmagazin. Leiter Nr. I.\n9 b Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n10 a Rychner-Thommen, Elise, Witwe, Spenglerwarenhandlung.\n  — Fritz, Sohn, Spenglermeister.\n  Fricker-Schmid, Joh. Jak., Schneider, von Habsburg.\n  Kleeb, Jos. Anton, Taglöhner, Rogglishwil (Bern).\n  Millenet-Rychner, R., Bereiters Witwe, von Genf, Damen-\n  schneiderin.\n10 b Rychner-Thommen, Elise, Witwe.\n  Müller-Amsler, Joh. Jakob, Schuhmacher, von Unter-Kulm.\n  Meier-Wehrli, Jakob, Bäcker, von Holderbank.\n11 Häny-Häny, Marie, Bäckers Witwe, Part., von Kölliken.\n  Häny, Hermann, Sohn, Bäckermeister, von Kölliken.\n  Hunziker-Brunner, Maria, Wwe., von Moosleerau.\n  Hassler, Gotth. Bauamtsarbeiter.\n12 Strebel-Bernauer, Joseph, Schuhmacher, von Mögenwyl.\n  Suter-Lüscher, Gabriel, Posamentor, von Gränichen.\n  Ludwig-Oes, Oskar, Schneider, von Herschdorf, Preußen.\n13 Lattmann-Ackermann, Georg, Lokomotiv, von Sternen berg\n  (Zürich)\n  Heinzelmann, Joh., Schuhmacher, von Marschalkzimmer\n  (Württemberg).\n  Vogel-Harnisch, Emil, Confiseur, von Gurbrü (Bern).\n  Fehlmann-Holzreuter, Christoph, Taglöhner, von Seon.\n14 Sommerhalder-Lindenmann, Rudolf, Köher, von Schloßrued.\n  Milch- und Käsehandlung.\n  Hunziker-Gloor, Friedrich, Schreiner, von Ober-Kulm.\n  — — Anna, Damenschneiderin, von Ober-Kulm.\n15 * Faller-Unwin, Friedr., Kaufmann.\n  Lüthi-Kneubühler, Eduard, Sattler, von Bleienbach (Bern).\n  — — A., von Bleienbach (Bern). Plazierungsbureau.\n  Hächler-Peter, Gottlieb, Bauamtsarbeiter, von Teufenthal.\n  — Louise, Glätterin, von Teufenthal.\n  Stalder-Felger, Joseph, Gipser, von Hösle (Luzern).\n  — Katharina, Haushälterin, von Hösle (Luzern).\n  Waltl, Samuel, Taglöhner, von Dürenäsch.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 130690,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2243,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:33:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p010",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p010.jpeg",
+      "bytes": 283512,
+      "sha256": "b6223c3291416abd5596e75500ba5a3c244631bef1c6e2826e4483625fb71c75",
+      "sha256_of": "original",
+      "working_copy": "1899_p010.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:33:03+00:00"
+  }
+}

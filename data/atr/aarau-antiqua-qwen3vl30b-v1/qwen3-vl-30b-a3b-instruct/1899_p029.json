@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p029",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p029.jpeg",
+    "bytes": 268408,
+    "sha256": "5a68dc717f5defd37e925d6598945a971197a4dd612eda7063743388cea68cb2",
+    "sha256_of": "original",
+    "working_copy": "1899_p029.jpeg"
+  },
+  "text": "Haus-\nNr.\n228 a Aktiengesellschaft des Aargauer Tagblattes.\nVertreter: Stierli, Fürsprech.\nGeschäftsführer: Müller-Grob, Alfr. Friedr., von Weinfelden\n(Thurg.)\n228 a Stierli, Sophie, Damenschneiderin, von Aristau.\n— Marie, Ladentochter. \" \"\n— Elise, Part. \" \"\n— Cäcilia, \" \" \"\n228 b Buchdruckerei des Aargauer Tagblattes.\n\nGolattenmattgasse.\n229 Hemmeler, Ida, Privatlehrerin.\n— Meta, Part.\n230 Näf-Widmer, Urs Jos., Taglöhner, von Wiesen (Solothurn).\nTschudin-Hagen, Karl, Schneider, von Läufelfingen (Basell.).\n231 a Spengler, Bertha, Part.\nWiedemann-Paulus, Max, Schneider, von Füßen (Baiern).\n231 b Rämisperger geb. Berner, Marie, Gürtlers Witwe.\nHauser-Ryniker, Guirin, Maurer, vou Pians (Tirol).\nPortmann-Emmenegger, Theresia, Fabrikarbeiterin, v. Escholz-\nmatt (Luzern).\n232 Plüss-Haller, Maria Anna, Bettmacherin, von Rotrist.\n233 Landolt-Frank, Katharina, Schuhmachers Witwe, Part.\nTreier-Schenk, Johann, Taglöhner, von Wölfinswyl.\nMichel, Katharina, Spetterin, von Olten.\n234 Schneider, Ulrich, Schlossermeister.\n235 * Hassler-Brunnhof er, Elise, Witwe.\nBrunnhof er-Gietzentanner, Verena, Seilers Witwe.\nJörg, Jakob, Seiler, von Affoltern (Bern).\nWildi-Hilfiker, Gottfried, Heizer, von Schafisheim.\n236 Stirnemann-Gisi, Jakob, Zimmermann, von Gränichen.\nBrunner-Senn, Heinrich, Fuhrmann, von Schmiedrued.\n237 a Fäs-Huber, Anna, Witwe, Spetterin, von Oberkulm.\n237 b Bruder-Bruder, Verena, Witwe, Wäscherin, von Seengen.\n237 c Morgenthaler, David. Dienstmanns Erbschaft.\nSchäfer-Morgenthaler, Karl Eduard, Buchdrucker, v. Chemnitz\n(Sachsen).\n238 † Fäs-Huber, Holzschopf.\n239 Döhnel-Kyburz, August, Schuhmacher, v. Badenweiler (Baden).\n\nHalden.\n240 Ernst-Dürr, Hermann, Schuhmacher.\nHunziker-Frei, Gottlieb, Schneider, von Unter-Kulm.\nGrütter-Graber, Friedrich, Taglöhner, von Seeberg (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5405,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1800,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.89,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:25:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p029",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p029.jpeg",
+      "bytes": 268408,
+      "sha256": "5a68dc717f5defd37e925d6598945a971197a4dd612eda7063743388cea68cb2",
+      "sha256_of": "original",
+      "working_copy": "1899_p029.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:25:34+00:00"
+  }
+}

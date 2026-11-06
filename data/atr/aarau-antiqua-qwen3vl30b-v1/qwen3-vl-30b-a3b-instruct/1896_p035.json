@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p035.jpeg",
+    "bytes": 263755,
+    "sha256": "fcad9680546403700046124924a0b0c42ef2e1fd92c7f4132b18aae71377357e",
+    "sha256_of": "original",
+    "working_copy": "1896_p035.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n13\nHaus-\nNr.\nOberthor.\n138 * Wirz-Martin, Emil, von Solothurn.\nWirz-Christen, Karol., Wwe., v. Solothurn, Schreibmaterialienhdlg.\nBaldinger, geb. Wirz, Josephine, Ladenvorsteherin, von Baden.\n139 Wirz-Martin, Emil, von Solothurn. (Vormals J. J. Christen).\nSortimentsbuchhandlung, Verlagsbuchhandlung, Buchdruckerei und\nBuchbinderei.\n140 * Mattenberger-Walther, Jakob, Metzger, von Birr. Metzgerei.\nFürst-Grob, Anton, Schreiner, von Gunzgen (Solothurn).\n\nMilchgasse.\n141 Mattenberger-Walther, Jakob, Metzger, v. Birr. Speisewirtschaft.\n142 Gloor-Geissler, Rudolf, von BirrwyI. Bäckerei.\nWernli, Anna Maria, Part., von Thalheim.\n143 * Derselbe.\nMüller-Hartmann, Jakob, Obergerichtsweibel.\nGraf-Häuptli, Jakob, Taglöhner, von Beinwyl.\nHäuptli-Suter, Verena, Spetterin, von Biberstein.\nSchärli-Hilfiker, Johann, Taglöhner, von Biberstein.\n144 Walti-Müller, Marie, Witwe, von Dürrenäsch (Spezerei- und\nMilchhandlung).\nBlattner-Wehrli, Gottlieb, Fabrikarbeiter, von Küttigen.\nBruder-Bruder, Verena, Witwe, Spetterin, von Seengen.\n145 * Dieselbe.\nMüller-Oeschger, Samuel, Obsthändler, von Fahrwangen.\nHemmeler, Rosina, Part.\nSuter, Anna Elisabeth, Spetterin, von Suhr.\n146 * Kull, Philipp, Spenglers Erbschaft.\nKull, Emil, Spenglermeister, v. Riniken, Spenglerwaren-u. Lampenlager.\nMüller-Schneider, Susanna, Haushälterin, von Birr.\nLüscher, Emma, Weissnäherin, von Obermuhlen.\nSauter, Theresia, Vorgängerin, von Balgheim.\n147 Andres-Meier, Samuel, Schlossermeister.\nRüedi, Anna, Glätterin, von Sulz.\nBachofen, Joh. Friedrich, Sekretär, von Eiken.\n148 * Kull, Philipp, Spenglers Erbschaft.\nKistler-Treier, Emil, Taglöhner, von Bötzen.\nBolliger-Häfeli, Gottfried, Schmied, von Uerkheim.\nCima-Hauri, Johann, Mechaniker, von Aquila (Tessin).\n149 Drack-Rohr, Hermann, Metallgiesser.\nDrack-Hauser, Elisabeth, Witwe, Spetterin.\nDrack, Louise, Glätterin.\nFurter, geb. Rohr, Anna, Taglöhnerin, von Staufen.\n150 Siegrist-Fischer, Jakob, Metzger, von Meisterschwanden.\nEngesser-Brunner, Joseph, Schneider, v. Durchhausen (Württembg.)\nBrunner-Lehner, Anna Maria, Part., von Gränichen.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6041,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2121,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.42,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:02:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p035.jpeg",
+      "bytes": 263755,
+      "sha256": "fcad9680546403700046124924a0b0c42ef2e1fd92c7f4132b18aae71377357e",
+      "sha256_of": "original",
+      "working_copy": "1896_p035.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:02:39+00:00"
+  }
+}

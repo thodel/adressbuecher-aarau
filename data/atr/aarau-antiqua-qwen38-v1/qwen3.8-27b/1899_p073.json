@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p073",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p073.jpeg",
+    "bytes": 274870,
+    "sha256": "20124f2206f446a02fd6e63022e9057a935e3e3f5f2991d97fcef5ccfb1e7a39",
+    "sha256_of": "original",
+    "working_copy": "1899_p073.jpeg"
+  },
+  "text": "Haus-\nNr.\n65\n813 + Staat Aargau. Laboratorium.\n814 + Derselbe. Munitionsmagazin.\n815 +    Abritte.\n816 + Rychner, Heinrich, Gewehrfabrikant. Schießstand.\n817 + Derselbe. Scheibenstand.\n818 + Reformirte Kirchgemeinde Aarau. Gartenhaus. (Graf, Pfr.)\nRain.\n819 Hagenbuch-Gross, Karl, Chirurg und Leichenbeschauer.\n     Spiegelglasversicherungs-Agentur.\n     — -Müller, Emil, Coiffeurgeschäft. Pat. ärztl. Gehilfe.\n820 Jürg-Künzli, Peter, Schuhmachermeister. Schuhhandlung.\n     —, Emma, Damenschneiderin.\n     Gertiser-Andres, Maria, Witwe, Part., von Münchwyl.\n     Andres, Emma, Fabrikarbeiterin.\n821 Birkhofer-Hagenbuch, Albertine, Damenschneiderin.\n     Andres-Bircher, Heinr., Buchbinder, Schreibmaterialienhdlg.\n     Bermer, Gottlieb, Dienstmann, von Unterkulm.\n822 Keller, Gottlieb, von Wösch nau (Solothurn).\n     —, Olga, v. Wösch nau (Soloth.). Wirtin z. Neuen Bund.\n     Speisewirtschaft.\n     Huber-Stähli, Peter, Gießer, von Petersthal (Gr. Baden).\n823 Wittmer, Julius, Lithographieanstalt und Druckerei, von\n     Erlinsbach (Solothurn).\n     Gautschi-Frei, Susette, Witwe, v. Gontenschwyl. Spezerei-\n     handlung.\n     Wanger-Siebenmann, Sophie, Witwe, Part.\n     Saxer, Friedrich, Part.\n     Frey-Kumpf, Friedrich, Kanzlei-Sekretär, v. Densbüren.\n824 + Derselbe. Lithographie-Anstalt.\n825 a Etter-Hägi, Reinhard, Milchverkäufer, von Langrickenbach\n     (Thurgau).\n     Sauter, Theresia, Vorgängerin, von Balgheim.\n825 b Friker-Wirz, Friedr., von Hunzenschwyl. Spezereihandlg.\n826 * Dressler-Hoffmann, Laurenz, Kaufmann, von Belfort\n     (Frankreich).\n     Codoni-Dressler, Remigius, Kaufmann von Cabbio (Tessin).\n     Möbel- und Tuchwarenhandlung. [tel]\n     Wehrli, Andreas, Zimmermann, von Küttigen, Part.\n     Wehrli, Marie, Spetterin, von Küttigen.\n     Failer, Georg, Schriftsetzer, von Harthausen (Preussen.)\n     Sommerhalder-Rüsli, Hans, Hausknecht v. Gontenschwyl.\n827 + Nägelin-Gisiger, Arnold, Hôtelier, von Liedertswyl. Scheune\n     zum Wildenmann.\n828 Richner-Siebenmann, Elise, Bandfabrikants Witwe.\n     Landolt-Hässig, Lina, Witwe, Part.\n     Gonzenbach-Gonzenbach, Julie, Witwe, von St. Gallen.\nStadt Aarau.\n5",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 66548,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2139,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:41:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p073",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p073.jpeg",
+      "bytes": 274870,
+      "sha256": "20124f2206f446a02fd6e63022e9057a935e3e3f5f2991d97fcef5ccfb1e7a39",
+      "sha256_of": "original",
+      "working_copy": "1899_p073.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:41:20+00:00"
+  }
+}

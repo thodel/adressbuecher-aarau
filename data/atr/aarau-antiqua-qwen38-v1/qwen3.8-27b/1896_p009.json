@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p009",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p009.jpeg",
+    "bytes": 242999,
+    "sha256": "93aac2110dff31e047b07b6cc85869e1e0894ededc45ea97b85352de1c32ceb6",
+    "sha256_of": "original",
+    "working_copy": "1896_p009.jpeg"
+  },
+  "text": "III\n\nVorwort.\n\n  Die großen Verkehrserleichterungen, welche in den letzten Jahr-\nzehnten geschaffen wurden, haben zur Folge gehabt, dass auch der\nbescheidenste Handwerker und der einsamste Gelehrte in das Getriebe\ndes Weltverkehrs hineingezogen worden sind. Jedermann hat Be-\nziehungen nach auswärts, die ihn veranlassen, Erkundigungen aller\nArt einzuziehen.\n  Es ist deshalb eine ganz natürliche Erscheinung, dass die\nAdressbücherliteratur sich in kurzer Zeit zu hoher Blüte entwickelt\nhat. Leider ist man aber in der Schweiz auf diesem Gebiete viel-\nfach noch zurückgeblieben.\n  Eine Lücke wurde durch unsere Gesellschaft ausgefüllt, indem\nsie vor einigen Jahren unter der Firma:\nSchweizerische Zentralstelle für Adressbücher\neine Leihanstalt von Adressbüchern aller Länder ins Leben rief,\nwelche sich des Beifalls aller Beteiligten erfreut.\n  Durch die genannte Zentralstelle ist unsere Gesellschaft in\nnähere Berührung mit vielen Verlegern von Adressbüchern ge-\nkommen. Ebenso ergaben sich nach und nach Beziehungen zu den\nöffentlichen Verkehrsanstalten des In- und Auslandes, sodass der\nWunsch nahe lag, denselben unsere Stadt in würdiger Weise be-\nkannt zu machen.\n  Wir waren nun bestrebt, ein möglichst mustergiltig ausge-\nstattetes Adressbuch von Aarau herauszugeben, um den Verlegern\nund Anstalten, welche uns jeweilen in zuvorkommender Weise ihre\nneuen Adresswerke überließen, Gegenrecht halten zu können.\n  Ob der von uns gemachte Versuch, einem Adressbuch durch\nBeigabe eines illustrierten Anhanges einen mehr als vorübergehenden\nWert zu verleihen, gelungen ist, mag dem Urteil der Leser über-\nlassen bleiben.\n  Auf alle Fälle würde eine Serie von gut und planmäßig redi-\ngierten Adressbüchern mit der Zeit eine für den Historiker nicht zu\nunterschätzende Fundgrube zur Lokalgeschichte bieten. Wie über-\nall, war auch hier der Anfang schwierig.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 77013,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1857,
+    "lines": 35,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:11:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p009",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p009.jpeg",
+      "bytes": 242999,
+      "sha256": "93aac2110dff31e047b07b6cc85869e1e0894ededc45ea97b85352de1c32ceb6",
+      "sha256_of": "original",
+      "working_copy": "1896_p009.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:51+00:00"
+  }
+}

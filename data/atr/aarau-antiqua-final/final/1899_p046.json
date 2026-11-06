@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p046",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p046.jpeg",
+    "bytes": 270144,
+    "sha256": "a821b97457de2bca93a1e1a8c6947db00383e91086247aa5eebbc4cd8a66dc00",
+    "sha256_of": "original",
+    "working_copy": "1899_p046.jpeg"
+  },
+  "text": "38\nHaus-\nNr.\n1344 †    Lagerhausgesellschaft. Bureau.\n1253 †    Keller-Steiner, Karl. Heuschuppen und Weinkeller.\n1513      Jäggi-Weber, Herm., Geschäftsführer, Baugeschäft Zschokke [tel].\n          465 †    Zschokke, Marie, Witwe, Baugeschäft. Magazin.\n          466 †    Dieselbe. Schreinerwerkstätte und Magazin.\n          467 †    ″        Maschrensaal und Parqueterie.\n          468 †    ″        Transmission mit Säge.\n          499 a †  ″        Dampfmaschine und Dampfkessel.\n          469 b u. 470 † Dieselbe. Abgetragen, an dessen Platz.\n1450 †    Dieselbe. Holzmagazin mit Maschinenhaus.\n          471 †    ″        Bureau, Werkstätte und Stallung.\n          472 †    ″        [tel] Bureau.\n1079 †    ″        Abgetragen.\n1132 †    ″        Schuppen.\n1290 †    ″        Schmiedegebäude.\n1345 †    ″        Fraismaschine.\n1370 †    ″        Steinhauerhütte und Arbeiterbaracke.\n1371 †    ″        Schuppen.\n1372 †    ″        Schuppen für Cementsteine.\n1373 †    ″        Schuppen für Röhrenfabrikation.\n473       Bally-Arndt, Eugen, Fabrikant [tel].\n1338 †    Derselbe. Wasch- und Holzhaus.\n          474 a b c † Schweizerische Eidgenossenschaft. Zeughäuser.\n          474 d †    Staat Aargau. Zeughaus.\n          475 †      Schweizerische Eidgenossenschaft u. Staat Aargau. Zeughaus.\n          476 †      Dieselben. Abtrittgebäude.\n          477 †      Dieselben. Abgetragen.\n478       Gasser-Fendrich, Emanuel, Fabrikant [tel] (zur Tanneneck),\n          von Hallau (Schaffhausen).\n\nIn der Gais.\n\n1210      Hässig, Hans, Stadtrat (zum Lindenof).\n          — Emma, Privatin.\n479 *     Evangelische Gesellschaft in der Schweiz.\n          Müller-Hilfiker, Samuel, Prediger, von Unterkulm.\n1217      Wohner-Bolliger, Johann Martin, Postbeamter, von Wohlen.\n          Saxer geb. Traug, Anna, Part.\n          Zurlinden-Boitel, Friedrich, Bankdirektor, von Zofingen.\n1248      Widmer-Häfeli, Rudolf, Weinhändler, v. Grächen. [tel] Speise-\n          wirtschaft (zum Lindenof).\n1249      Locher-Willi, Jakob, Postkondukteur, von Ems (Graubünden).\n          Beck, Louise, Buchdruckers, Part.\n1266      Adam-Keller, Anton, Fabrikant, von Allschwil (Basel).\n1267      Fröhlich-Stelzer, Franz, Dr. Prof., von Brugg.\n480       Schäfer, Emil, Sohn, Kaufmann [tel]. Erbschaft.\n          Linden-Grob, Emma, Witwe, Haushälterin, von Tablatt (St. G.).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 79042,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2344,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:09:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p046",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p046.jpeg",
+      "bytes": 270144,
+      "sha256": "a821b97457de2bca93a1e1a8c6947db00383e91086247aa5eebbc4cd8a66dc00",
+      "sha256_of": "original",
+      "working_copy": "1899_p046.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:09:50+00:00"
+  }
+}

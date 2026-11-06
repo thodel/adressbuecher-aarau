@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p077",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p077.jpeg",
+    "bytes": 289781,
+    "sha256": "bd395066ad2b983c89066d0bf86b699bd61713c8aabf962ec68b89242f317089",
+    "sha256_of": "original",
+    "working_copy": "1899_p077.jpeg"
+  },
+  "text": "Haus-\nNr.\n877 a Wasmer, Jakob, Wagner, von Suhr.\nHallauer-Lüscher, Anton, Taglöhner, v. Ursendorf (Wtbg.).\nSommerhalder-König, Louise, Spetterin, v. Gontenschwyl.\nWehrli-Kähr, Maria. Part.\nHöner-Höner, Anton, Part., von Lachen (Schwyz).\nEgloff, Franz, Postfaktur, von Wettingen.\n877 b Scheibler-Zingg, Fritz, Küfermeister von Unterentfelden.\n878 Keller-Steiner, Karl, Hafer- und Weinhandlung.\nSteiner, Johann, Part.\nSteiner-Lindenmann, Susanne, Witwe, Part.\nMühlberg-Sutermeister, Fritz, Dr. phil. Professor.\nVon Steiger-Marthaler, William, Techniker, von Bern.\nSteffen-Meier, Anna, Witwe, von Seebach (Zürich).\n879 * Derselbe. Hinterhaus.\nSemmler-Gans, Marg., Schuhhändl., v. Pirmasens (Bayern).\nVolkmer-Mussmann, Barbara, Schuhhändlerin, von Pirmasens (Bayern).\n1494 Wassmer-Kummler, Emil, Kaufmann, „Daheim“.\n880 Nägeli-Keller, Joh. Jakob, Schriftsetzer, von Bülach (Zür.)\nNägeli, Jakob, Tapezierer von Bülach (Zürich).\nLüscher-Lüscher, Rudolf, Maurer von Moosleerau.\n881 * Armengut der Gemeinde Aarau. Wohnhaus.\nHässig-Lüscher, Johann, Dienstmann, Antiquar und Gemüsehändler.\nRämisperger-Studler, Verena, Spenglers Witwe, (Taglöh.)\nRämisperger, Hermann jünger, Spengler.\n882 † Henz-Gautschi, Emil, Magazin.\n883 Rohr-Hochstrasser, Rudolf, Schmied.\nWälti-Maurer, Rudolf, Schneider, von Unterkulm.\n884 Bopp-Häusler, Kaspar, Pflästerer. Erbschaft.\n— —, Louise, Witwe, Part.\nKielholz-Brogli, Franz, Bahnangestellter von Mettau.\nNäf-Eichenberger, Emma, Witwe, Part., v. Meilen (Zürich).\n885 * Rusterholz und Freihof er, Bildhauerei und Grabsteinlager.\nRusterholz-Schäppi, Alb., Bildhauer, v. Wädenswyl (Zür.)\nRebmann-Häfliger, Karl Jak., Maler v. Fellbach (Wrtbg.)\nWidmer-Felber, Joh., Fabrikarbeiter, von Gränichen.\nWidmer-Felber, Anna, Weissnäherin, von Gränichen.\nAlbiez-Stiner, Gustav, Appreteur, von Säckingen (Baden).\n886 † Dieselben. Magazin.\n887 † Bildhauerei-Atelier.\n888 Berner-Marti, Jakob, Schreinermeister, von Rupperswyl.\nBaumann-Käser, Susanna, Polizeifeldweibels Witwe.\n889 Saxer,Ludwig, Part.\nSaxer, Lisa, Part.\nDreifuss-Bloch, Karl, Kaufmann, von Endingen. Manufakturwarenhandlung.\nWildi-König, Rudolf, von Suhr. General-Agent der Basler Lebensversicherungsgesellschaft.\n69",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5649,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2189,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:29:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p077",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p077.jpeg",
+      "bytes": 289781,
+      "sha256": "bd395066ad2b983c89066d0bf86b699bd61713c8aabf962ec68b89242f317089",
+      "sha256_of": "original",
+      "working_copy": "1899_p077.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:29:55+00:00"
+  }
+}

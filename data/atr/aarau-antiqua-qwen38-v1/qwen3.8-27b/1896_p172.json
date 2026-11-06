@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p172",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p172.jpeg",
+    "bytes": 276284,
+    "sha256": "6de5ad19e48522166413fc8c4ba367bbcc00f76e34f3ebe1a8cd0cf8d1882161",
+    "sha256_of": "original",
+    "working_copy": "1896_p172.jpeg"
+  },
+  "text": "134\nGeschäfts- und Gewerbetreibende.\nDamenschneiderinnen.\n(Siehe Schneiderinnen.)\nDrechsler.\nBär, Otto, Entfelderstraße 964.\nBlume, Philipp, mech. Holzdrechsleri,\nHammer 189.\nHäuptli, Emil, Halden 284.\nHuber, Heinrich, mechan. Drechsleri,\nZieglerain 753.\nKeller, Abraham, Metallsdreherei, * vor\ndem Haldenthor 743.\nDroguenhandlungen.\nLandolt & Cie., * obere Vorstadt 949.\nRies-Buhlerin, E., Zieglerain 702.\nEichmeister.\nKlingelfuß, Joh. Friedrich, Mechaniker, *\nWeinberg 321 c.\nEisengiesserei.\nOehler, A. & Cie., * Gais 1405.\nWürger, Hchs., Erbschaft, hinter dem\nBahnhof 498.\nEisenhandlung.\nHenz, Jakob & Cie., * vordere Vorstadt\n679.\nEisen-, Messing- und Stahlwaren.\nFaller, Friedrich, * Rathausgasse 17.\nFaller-Faller  Elise Luise, Witwe., *\nKronengssse 41.\nHenz-Gautschi, Emil, * vordere Vorstadt\n903.\nHenz, Jb. & Cie., * vordere Vorstadt 678.\nElastische Gewebe-Fabriken.\nBally, E., Fabrik hinter dem Bahnhof\n490, Bureau Laurenzenvorstadt 405.\nHartmann & Schürch, * Bachstr. 1048.\nElektritzitätsgeschäfte.\nKummfer, H. & Cie., * hint. dem Platz\n212.\nElektrotechniker.\nZimmerli, Paul, Rathausgasse 26.\n[spalte 2]\nEllenwarenhandlungen.\n(Siehe Tuchwaren.)\nErsparniskassen.\n(Siehe Bankgeschäfte.)\nEsswarenhandlungen.\n(Siehe Comestibles.)\nFabrikationsgeschäfte.\nAndres-Bircher, Friedrich, Ofenfabrikation.\nObere Vorstadt 916.\nBally, C. F., Söhne, (Les fils de C.\nF. Bally. * Jensets der Aare 309.\nHauptsitz in Schönenwerd, Filiale Aarau.\nFirminnhaber Eduard Bally-Prior und Arthur\nBally-Herzog. Arbeiterzahl: 350. Erzeugnisse:\nSchuhwaren. Elektrizitätsbetriebe. Export nach\nallen Gegenden.\nC. F. B.\n(Fabrikmarke.)\nE. Bally, Elastiques-Fabrik. (E. Bally,\nFabrique de Tissus Elastiques.) * Lau-\nrenzenvorstadt 405.\nFirmenhaher: Eug. Bally. Gegründet 1854.\nArbeiterzahl: ca. 250. Erzeugnisse: Fabrika-\ntion aller Arten elastischer Gewebe. (Tissus\nElastiques en tous genres.) Dampfbetrieb.\nExport.\n(Fabrikmarke.)\nBiber-Niggli, Theodor, Seidenbandfabri-\nkation. * Hammer 193.\nCuster & Cie., Mineralwasserfabrikation.\n* Bahnhofstraße 651.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15734,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2029,
+    "lines": 74,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0135,
+    "mean_line_chars": 26.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T16:52:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p172",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p172.jpeg",
+      "bytes": 276284,
+      "sha256": "6de5ad19e48522166413fc8c4ba367bbcc00f76e34f3ebe1a8cd0cf8d1882161",
+      "sha256_of": "original",
+      "working_copy": "1896_p172.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T16:52:06+00:00"
+  }
+}

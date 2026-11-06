@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p183",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p183.jpeg",
+    "bytes": 244806,
+    "sha256": "e971a553d1f866bb94d60d468979c9605b0b66bc9ff29c91a720b16226eb483c",
+    "sha256_of": "original",
+    "working_copy": "1899_p183.jpeg"
+  },
+  "text": "79\nSarglager.\nWildi, Samuel, Schreiner, Ziegelrain 713.\n\nSattler.\nBeck, Emil, Ziegelrain 708.\n— Friedrich, Zeughaussattler, Entfelderstraße 983.\nBircher, Eduard, Halden 286.\nGantner, Arnold, Pelzgasse 126.\nHäfeli, Josef, Kasinostraße 660.\nKiburz, Gotthold, Entfelderstraße 968.\nLüthi, Eduard, Kirchgasse 15.\n— Fritz, hintere Vorstadt 642.\nNüsperli, Friedrich, Zollrain 53.\n\nSchirmmacher.\nMüller, Eduard, * Rathausgasse 30. (S. Inserat Seite 18.)\nTheez-Amsler, Witwe, Oberthor 754.\n\nSchirmhandlungen.\nCodoni-Dreßler, Remigius, * Rain 826. (S. Inserat Seite 14.)\nHeß, Gebr., * Rathausgasse 4.\nMüller, Eduard, * Rathausgasse 30. (S. Inserat Seite 18.)\nSernatinger, Valerian, vordere Vorstadt 893.\nSperlich, Theodor, vordere Vorstadt 666. (S. Inserat Seite 2.)\nTheez-Amsler, Witwe, Oberthor 754.\n\nSchleifer.\nHässig, Gottlieb, Hammer 1295.\nSchäfer, Cäsar, vordere Vorstadt 680.\n\nSchlosser.\nAndres, Samuel, Milchgasse 147.\nBeck, Gottlieb, Halden 258.\nFäs, Gottlieb, Bachstraße 1031.\nGysi, Friedrich, hintere Vorstadt 645.\nHässig, Julius, Milchgasse 77.\nKuhn-Buser, Alfred, Ziegelrain 750. (S. Inserat Seite 4.)\nLäuchli, Friedrich, Hammer 184.\nSchneider, Ulrich, Golattenmattgasse 234.\n\nSchneider.\nBaumann, Gottlieb, Schachen 729.\nBaur, Bernhard, Pelzgasse 68.\nBeck, Karl, Ziegelrain 722.\nBertschi, Adolf, Metzgergasse 100.\n— Emil, Holzmarkt 663.\nEger, Theophil, Hammer 190.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4175,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1367,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0476,
+    "mean_line_chars": 31.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0022,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:41:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p183",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p183.jpeg",
+      "bytes": 244806,
+      "sha256": "e971a553d1f866bb94d60d468979c9605b0b66bc9ff29c91a720b16226eb483c",
+      "sha256_of": "original",
+      "working_copy": "1899_p183.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:41:05+00:00"
+  }
+}

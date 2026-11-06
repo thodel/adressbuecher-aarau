@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p030",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p030.jpeg",
+    "bytes": 257358,
+    "sha256": "beb816299cabf97d62d88ca4d6ea89c3219b3981597364e87943e3897ccb3c8b",
+    "sha256_of": "original",
+    "working_copy": "1899_p030.jpeg"
+  },
+  "text": "22\nHaus-\nNr.\n241 Armengut der Gemeinde Aarau. Armenhaus.\nMüller-Woodtli, Jakob, Armenhausvorsteher.\nMüller, Emma, Glätterin.\nArmenhausbewohner:\nSiebenmann, Wilhelm, Bäcker.\nFischer, Susanna.\nSiebenmann, Julie.\nSchmid, Rud., gew. Landsasse.\nRothpletz, Heinrich, Buchbinder.\nSiebenmann-Ritter, Witwe.\nHässig, Nanette.\nFrank, Louise.\nEhrsam, Schneiders Witwe.\nSiebenmann, Bertha.\nFischer, Louise.\nLienhard, Maria.\nSiebenmann, Rosa.\nHürner, Julius.\nRenold, Maria.\nDürr, Gottlieb.\nFischer, Ludwig.\nBrunnhofer, Gottlieb.\nDürr, Gottlieb, Schlosser.\nTrog, Gottlieb, Schuhmacher.\nPfrundanstalt:\nAndres, Heinrich, gew. Soldat.\nNüsperli, Marie Anna, Schneiders.\n242 † Dasselbe. Holz- und Spritzenhaus.\n243 † Dasselbe. Absonderungshaus.\n244 Abgetragen.\n245 a und b. Abgetragen.\n246 * Brunnhofer, El., Lehrers Erbschaft:\nZähner-Brunnhofer, Nanette, von Horn (Thurgau). Stellen-\nvermittlungsbureau des schweiz. Frauenverbandes.\n— Louise, Ladentochter, von Horn (Thurgau).\nBrunnhofer, Lisette, Lehrers, Part.\nHolliger-Berner, Gottfried, Taglöhner, von Boniswyl.\nWellenberg-Schaffner, Albertaine, Witwe, von Schöftland.\n247 * Jörg, Jakob, Seiler, von Affoltern, (Bern).\nBrunnhofer-Gietzentanner, Ursula, Witwe.\nLäuchli-Vogel, Johann, Hafner, von Remigen.\nFischer, Friedrich, Weibels, Schreiner.\n248 Hassler-Brunnhofer, Elise, Kaminfegers Witwe, Glätterin.\nLüscher-Jäggi, Marie, Spetterin, von Moosleerau.\nWilhelm-Kaspar, Gottlieb, Färber, von Safenwyl.\n249 Baumann-Schenk, Simon, Fuhrmann, von Bottenwyl.\nHorlacher-Iberg, Samuel, Mechaniker, von Umiken.\nWüthrich-Stirnemann, Jakob, Taglöhner, von Eggiwyl (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4070,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1596,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 30.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:25:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p030",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p030.jpeg",
+      "bytes": 257358,
+      "sha256": "beb816299cabf97d62d88ca4d6ea89c3219b3981597364e87943e3897ccb3c8b",
+      "sha256_of": "original",
+      "working_copy": "1899_p030.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:25:38+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p100",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p100.jpeg",
+    "bytes": 286492,
+    "sha256": "b73285131f563f6115ac7b5b3c8344cf259c3bf0908b7d86e1d48fd2cf348c1a",
+    "sha256_of": "original",
+    "working_copy": "1899_p100.jpeg"
+  },
+  "text": "92\nHaus-\nNr.\n1440 Furter, A., Kondukteur. Wohnhaus. (Bucherstraße.)\n1441 † Fleiner u. Cie. Scheune u. Remise. (Erinsbacherstraße.)\n1442 † Schützengesellschaft Aarau. Revolverscheibenstand. (Schei-\nbenschachen.)\n1443 Gamper, Herm. Wohnhaus. (Feerstraße.)\n1444 Rohr-Baumann, Hans, Oberri chter. Wohnhaus. (Feerstraße.)\n1445 * Staat Aargau. Gewerbemuseum. (Bahnhofstraße.)\n1446 † Dürr, Herm., Maler. Holzschopf. (Kasinostraße.)\n1447 Dolder-Saxer, J., Kaufmann. Wohnhaus. (Bahnhofstraße.)\n1448 Hunziker-Thommen, Witwe. Wohnhaus. (Gartenstraße.)\n1449 † Sieg rist-Riniker, H., Metzger. Scheune. (Zegli.)\n1450 † Zschokke, M., Baugeschäft. Holzmagazin, Dampfmachine.\n(Rohrerstraße.)\n1451 † Müller-Suter, Jak., Lithographiebesitzer. Waschhaus. (Bucher-\nstraße.)\n1452 * Riniker, Arnold, Kaufmann. (Zeughausstraße.)\n1453 † Ernst-Käser, Friedr., Röhren- und Falzziege lfabrik. (In der\nGais.)\n1454 Ammann, Robert, Hochbaumeister. Wohnhaus. (Feerstraße.)\n1455 * Derselbe. Mittelhaus. (Feerstraße.)\n1456 * Wohnhaus. \"\n1457 Riniker, Arnold. Chaletbaute. (Binsenhof.)\n1458 Bächli, Jakob, Ingenieur. Wohnhaus. (Jurastraße.)\n1459 † Dolder-Saxer, Jakob, Kaufmann. Wasch- und Holzhaus.\n(Bahnhofstraße.)\n1460 Vondäniken, Emil, Commis. Wohnhaus. (Erinsbacherstraße.)\n1461 † Roth, Joh., Aufseher. Kellergebäude m. Waschhaus. (Erins-\nbacherstraße.)\n1462 † Gamper-Baumann, Emil. Gewächshaus. (Küttigerstraße.)\n1463 † Richner, Karl, Röhrenfabrikant. Magazingebäude. (Bahnhof-\nstraße.)\n1464 † Walther-Schatzmann, Barbara, Witwe. Heuschuppen. (Wal-\ntersburg.)\n1465 Meyer, Friedrich, Schneider, Wohnhaus. (Scheibenschachen.)\n1466 Senn-Gysi, Hans, Zeughausverwalter, Wohnhaus. (Jurastr.)\n1467 Spar-, Leih- und Diskontokasse, Wohnhaus. (Bachstraße.)\n1468 Riniker-Waldis, Arnold, Wirt zum Binsenhof. Scheune.\n1469 — —, Arnold, Wirt, Musikpavillon.\n1470 — —, \" Trinkhalle.\n1471 Bally, Eugen, Ökonomiegebäude. (Rohrerstraße.)\n1472 Kummler, Hermann, Fabrikgebäude. (Herzogstraße.)\n1473 Widmer, Gottfried, Kaminfeger, Waschhaus. (V. d. Haldenth.)\n1474 Ernst, Jakob, Röhrenfabrikant, Fabrikgebäude. (Thorfeld.)\n1475 Schärer, Adolf, Architekt, Wohnhaus. (Hinter d. Bahnhof.)\n1476 Müller, Arnold, Architekt, Wohnhaus. (Jenseits der Aare.)\n1477 Kummler, Hermann. Wohnhaus. (Herzogstraße.)\n1478 Derselbe. Ökonomiegebäude \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17685,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2280,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.02,
+    "mean_line_chars": 44.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:05:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p100",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p100.jpeg",
+      "bytes": 286492,
+      "sha256": "b73285131f563f6115ac7b5b3c8344cf259c3bf0908b7d86e1d48fd2cf348c1a",
+      "sha256_of": "original",
+      "working_copy": "1899_p100.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:05:55+00:00"
+  }
+}

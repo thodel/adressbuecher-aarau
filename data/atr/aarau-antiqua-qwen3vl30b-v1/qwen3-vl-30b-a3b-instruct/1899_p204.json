@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p204",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p204.jpeg",
+    "bytes": 255609,
+    "sha256": "bfe9b533822e269d5e15c733e66df1faaa11564da684be57918b96c0fec39da8",
+    "sha256_of": "original",
+    "working_copy": "1899_p204.jpeg"
+  },
+  "text": "100\nMädchen-Bezirksschule.\nDr. Helbling, Deutsch, Geschichte, Religion.\nWydler, H., Arithmetik, Schreiben, Naturkunde, Buchhaltung.\nFaßnacht, Olga, Französisch und Englisch.\nHuber, Corina, Deutsch, Geschichte und Geographie.\nBurgmeier, Joseph, Gesang an beiden Bezirksschulen und Kl. V\nGemeindeschule.\nProf. Rennhart, Italienisch an Klasse III und IV beider Bezirks-\nschulen.\nWeibel, Adolf, Zeichnen an beiden Bezirksschulen.\nWäffler, H., Turnen an beiden Bezirksschulen und an Klasse V\nKnaben-Gemeindeschule.\nB. Fortbildungsschule.\nLehrer.\nHengherr, August.\nC. Gemeindeschulen.\n(5 Klassen.)\nLehrer.\nUnterschule.\nBossart, Lina.\nGrolimund, Emma.\nMüller, Ida.\nZimmermann, Johann.\nSiebenmann, Marie.\nStiner, Karl.\nKnabenschulen.\nSenn, Isidor.\nMeier, Jakob.\nHauenstein, Fritz.\nHunziker, Rudolf.\nGysi, Traugott, Rektor.\nMädchenschulen.\nHaberstich, Frida.\nLenzin, Sophie.\nBuhof er, Marie.\nHaberstich, Lina.\nBelart, Julie.\nD. Arbeitsschulen.\nLehrerinnen.\nBär, Marie.\nSchäppi, Anna.\nMeyer-Lüthy.\nMarti-Siebenmann.\nE. Kleinkinderschulen.\nKleinkinderschule auf dem Rain. Lehrerin: Fisch, Mina.\n\" vor dem Haldenthor. Lehrerin: Zeller, Lina.\n\" an der Bahnhofstraße. Lehrerin: Frl. Roschach.\n\" i. alten Kantonsschulgebäude. Lehrerin: Wagner.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3023,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1228,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 24.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0024,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:43:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p204",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p204.jpeg",
+      "bytes": 255609,
+      "sha256": "bfe9b533822e269d5e15c733e66df1faaa11564da684be57918b96c0fec39da8",
+      "sha256_of": "original",
+      "working_copy": "1899_p204.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:43:35+00:00"
+  }
+}

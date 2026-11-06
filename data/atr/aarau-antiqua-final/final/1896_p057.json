@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p057",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p057.jpeg",
+    "bytes": 251917,
+    "sha256": "d8d0baa4663087fecc3f59adf4f85353b0a38b9544d437e88a27193fe1642137",
+    "sha256_of": "original",
+    "working_copy": "1896_p057.jpeg"
+  },
+  "text": "Verzeichniss der Gebäude und ihrer Bewohner.                                                                85\nHaus-\nNr.\n412     Windisch-Kohler, Samuel, von Densbüren.  Generalagentur der\n          schweiz. Rentenanstalt in Zürich.\n        Felber-Obrist, Johann, Postkondukteur, von Oberbözberg.\n        Züllig-Dornbirrer, Joh. Georg, Bahnanngestellter (Kassier), von\n          Arbon (Thurgau).\n413     Isler, Emil Peter, Fürsprech und Notar, von Wohlen.  Advokatur-\n          und Notariatsbureau.\n        Isler-Troller, Maria, Part., von Wohlen.\n        Holzach-Wäffler, Dietrich, Part.\n414  +  Derselbe.  Holzschofp.\n415     Oehler-Frey, Bertha, Witwe.\n        Oehler-Theiler, Oskar, Ingenieur.\n        Theiler, geb. Rebmann, Elise, Part., von Wädensweil (Zürich).\n416  +  Dieselbe.  Wasch- und Holzhaus.\n417  +  Dieselbe.  Oekonomiegebände.\n418  *   Sauerländer-Frey, H. R.\n          Konsularagentur der Vereinigten Staaten Nordamerikas.\n          Bureau der Firma H. R. Sauerländer & Cie.  Verlagsbuchhandlung.\n          Expedition des Amtsblattes des Kantons Aargau.\n             \"    Aargauischen Polizeianzeigers (Fahndungsblatt).\n             \"    der Schweizerischen Bienenzeitung.\n             \"    \"    illustrirten schweiz. Jugendblätter.  Monatsschrift.\n             \"    Vierteljahrsschrift Vom Jura zum Schwarzwald.\n        Custer-Sauerländer, Mathilde, Witwe, Part.\n        Sauerländer-Custer, Emma, Witwe, Part.\n        Ehlers-Sauerländer, Heinrich Konrad, Buchhändler, v. Honolulu\n          (Sandwich-Inseln).\n419  +  Derselbe.  Oekonomie- und Wohngebände.\n        Bossert-Gloor, Jakob, Gärtner und Portier, von Birr.\n420  +  Derselbe.  Buchdruckerei.\n421  +      \"       Abgetragen; an dessen Platz\n1184 +       Buchbinderei.\n422     Frey-Frey, Mina, Stadtrats Witwe.\n        Frey, Robert, Sohn, Fabrikant.\n        Frey-Schindler, Max, Kaufmann.\n423     Frey, Robert, und Frey, Max.  Chokoladefabrikation R. & M. Frey.\n1264 +  Derselben.  Fabrikgebände.\n1292 +      \"       Maschinenhaus.\n424  +  Frey-Frey, Mina, Stadtrats Witwe.  Waschhaus.\n425  +  Dieselbe.  Scheune und Schopf.\n426  +      \"       Holzschofp.\n427  +      \"       Geflügelhaus.\n1291      \"       Gewächshaus.\n428     Frey-Frey, Adolf, Dr. med.\n        Sauerländer-Frey, Remigius, Buchdruckereibesitzer.\n429  +  Derselbe.  Scheune und Remise.\n430  +      \"       Treib-, Wasch- und Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41441,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2380,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:07:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p057",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p057.jpeg",
+      "bytes": 251917,
+      "sha256": "d8d0baa4663087fecc3f59adf4f85353b0a38b9544d437e88a27193fe1642137",
+      "sha256_of": "original",
+      "working_copy": "1896_p057.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:33+00:00"
+  }
+}

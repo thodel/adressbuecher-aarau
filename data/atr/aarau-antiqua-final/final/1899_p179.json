@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p179",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p179.jpeg",
+    "bytes": 255489,
+    "sha256": "19f198ac3926eae2409c487f0cecd70d9a155f5c7a08b2da9308decc5fe127c8",
+    "sha256_of": "original",
+    "working_copy": "1899_p179.jpeg"
+  },
+  "text": "75\nRiniker, Hermann, Entfelderstraße 1195.\n— Jakob, Binsenhof 1005.\nScheidegger, Joh. Ulrich, * Holzmarkt 663.\nSommerhalder, Rudolf, Kirchgasse 14.\nSteiner, Samuel, Ökonom, Laurenzenvorstadt 547.\nStirnemann, Jakob, Zollrain 91.\nUrben, Johann, Kasinostroße 660.\nWalther, Barbara, Ökonoms Witwe, Rain 856.\n— Hans, Ökonom, Bachstraße 1041.\n— Witwe, Ökonoms, Schachen 739.\nWalti-Müller, Marie, Milchgasse 144.\n— Otto, Bachstraße 1038.\nWeber, Wilhelm, Erlinsbacherstrasse 337.\nFabrikation künstlicher Mineralwasser.\nCuster, E. & Cie., * Bahnhofstraße 651.\nTemperenzgetränke, Schaumweine.\nHagenbuch, Ernst, Zollrain 177.\nSchmid, J., Hammer 183.\nModistinnen.\n(Modegesäfte.)\nBär, Adele, Kronengasse 42.\nBaumann, Emma, Pelzgasse 64.\nBryner, Anna, Halden 285.\nHaßler, Julie, Adelbändli 172.\nHelm, Fanny, Zollrain 52.\nKirchhofer, Marie, Kasinostroße 659.\nKirchner-Vonwiller, Ida, Graben 1161.\nLienhard, Anna, Pelzgasse 67.\nMatter-Fäs, Marie, Schmedgasse 1232.\nMüller-Schmocker, Verena, Zollrain 54.\nSchmidt, Jenny, Zollrain 292.\nSennhauser-Gossewisch, A., vor dem Haldenthor 1519.\nWeber-Suter, Ida, Laurenzenthorgasse 1118.\nWidmer, Karolina und Marie, vordere Vorstadt 666.\nMöbelhandlungen.\nCodoni-Dreßler, Remigius, * Rain 826. (S. Inserat Seite 14.)\nGewerbehalle Aarau, Ziegelrain 754.\nGysi, Adolf, Pelzgasse 124.\nHeß, Gebr., * „z. Stadt Mühlhausen“, Rathausgasse 4.\nHering-Lenenberger, Lisette, Milchgasse 71.\nScheibler, Alfred, Adelbändli 83.\nMöbelfabrik.\n(Siehe Fabrikationsgeschäfte.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21228,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1479,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:07:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p179",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p179.jpeg",
+      "bytes": 255489,
+      "sha256": "19f198ac3926eae2409c487f0cecd70d9a155f5c7a08b2da9308decc5fe127c8",
+      "sha256_of": "original",
+      "working_copy": "1899_p179.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:07:53+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p036",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p036.jpeg",
+    "bytes": 288613,
+    "sha256": "e345f18ef1b3fffc03ec3b01760f679faf84f7e756dfc7817e721d8b361d3498",
+    "sha256_of": "original",
+    "working_copy": "1899_p036.jpeg"
+  },
+  "text": "28\nHaus-\nNr.\n309 * Bally, Söhne, C. F., Fabrikbesitzer [tel], in Schönenwerd, Schuh-\nfabrik.\n1515 * Dieselben. Neue Schuhfabrik.\n310 a † Dieselben. Dampfkesselhaus.\n310 b † Dieselben. Maschinenhaus.\n311 † Dieselben. Pump haus und Druckwasserleitung.\n\nScheibenschachen.\n\n1485 Manz-Busch, Philipp, Aufseher, von Ramsen (Rheinpfalz).\nBerchem-Sturm, Nikolaus, Zimmermann, v. Semingen (Luxemb.)\nJapert, Julius, Stadtpolizist, von Gansingen.\n1486 Läppi-Richner, Rudolf, Commis, von Gränichen.\nZöbrist-Gerster, Fritz, Schneider, von Hendschikon.\n312 a Wernli-Wehrli, Maria, Gärtners Witwe, von Thalheim.\nWehrli, Friedrich, Gärtner, von Küttigen.\n312 b Herzog-Wettmann, Johann, Brennemeister, von Ermatingen\n(Thurgau).\n313 Gloor-Widmer, Heinrich, Bandweber, von Oberkulm.\nOsterwalder-von Arx, Rudolf, Schneider, von Stettfurt (Thurg.).\n314 Birri-Wülser, Fridolin, Posamenter, von Zeihen.\nSenn-Studer, Siegfried, Maurer, von Strengen (Tirol).\n1250 † Derselbe. Stall.\n315 a Wirz-Huber, Franz, Wagenvisiteur, von Starrkirch (Soloth.).\n315 b Möller-Reinle, Ernst August, Büchsenmacher, von Zella (Sachs.).\n316 Wüest-Lindemann, Jakob, Röhr fabriksarbeiter, v. Gränichen.\nFischer-Roth, Maria, Bauamtsarbeiters.\nFrieden, Gottl. Friedrich, Cementarbeiters, von Seedorf (Bern).\n— Jakob, Bahnarbeiter, von Seedorf (Bern).\n1532 Wernli-Wernli, Anna, Cementarbeiters, von Thalheim.\n— — Samuel, Cementarbeiter, von Thalheim.\nMaurer-Nussberger, Samuel, Taglöhner, von Schmiedrued.\n1284 Schneider-Wernli, Verena, Aufsehers, von Thalheim.\n— — Jakob, Aufseher, von Thalheim.\n1465 Meier-Häuptli, Friedrich, Schneider, von Hausen.\nKleiner-Salm, Gottlieb, Gasfabrikarbeiter, von Egliswyl.\n1522 Jost-Moser, August, Schneider, von Langnau (Bern).\n1004 † Ryniker, Gebrüder, Bierbrauer. (Faßremise.)\n1839 Vogel-Ernst, Joh., Obermüller, Cementfabrik.\n1278 Schmid-Pauli, Daniel, Gärtner, von Erlinsbach.\n1095 † Schützengesellschaft Aarau. Schützenhaus.\n1096 † Dieselbe. Scheibenstand.\n1442 † Dieselbe. Revolverstand.\n1178 † Jura-Cementfabriken. Portlandcementfabrik.\n1179 † Dieselben. Turbinenhaus.\n1180 † „ Komptoir. [tel]\n1181 † „ Schuppen.\n[spalte 2]\n121\n121\n121\n123\n127\n127\n127\n127\n131\n140\n141\n106\n136\n131\n1204\n1206",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 110994,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2184,
+    "lines": 65,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0923,
+    "mean_line_chars": 32.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:00:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p036",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p036.jpeg",
+      "bytes": 288613,
+      "sha256": "e345f18ef1b3fffc03ec3b01760f679faf84f7e756dfc7817e721d8b361d3498",
+      "sha256_of": "original",
+      "working_copy": "1899_p036.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:00:24+00:00"
+  }
+}

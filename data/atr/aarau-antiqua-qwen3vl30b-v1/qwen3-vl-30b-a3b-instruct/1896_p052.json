@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p052",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p052.jpeg",
+    "bytes": 263372,
+    "sha256": "9f76792eca76e19657f55b29a14858efaa752f451baddb65b654c832c5f16c14",
+    "sha256_of": "original",
+    "working_copy": "1896_p052.jpeg"
+  },
+  "text": "30\nHaus-\nNr.\n1097 † Schmidt-Hagnauer. Rebhäuschen.\n1102 Siebenmann-Fischer, Otto, Kreiskommandant.\nBolliger-Siebenmann, Fritz, Magaziner, von Schmiedrued.\n1174 † Derselbe. Bienenhaus.\n\nErlinsbacherstrasse.\n327 † Fleiner & Cie., Cementbrennerei, Fabrikation von schwerem hydrau-\nlischem Kalk.\n1163 † Derselbe. Cementmühle.\n1164 † \" Magazin.\n1165 † \" Abgetragen.\n328 † \" Kalkofenschopf.\n329 † \" Schopf.\n330 † \" Bureau mit Steinschopf.\n331 † \" Waaghaus.\n1238 † \" Turm mit Transmission.\n1282 † \" Brennofen. Trockenpresse.\n1296 † \" Stein- und Kohlenschuppen.\n1297 † \" Steinschuppen.\n1151 † \" Wagenremise.\n1441 † \" Scheune und Remise.\n332 * \" Trotte.\nGraf, Jakob, Cementarbeiter, von Küttingen.\nRoth-Sahli, Samuel, Knecht, von ZezwyI.\n1428 * Einwohnergemeinde Aarau. Elektrische Kraftzentrale.\nAeberli-Gross, H. Albin, Maschinist, von Erlenbach (Zürich).\nFischer-Kaufmann, Friedrich, Hülfsmaschinist.\n1067 † Schneider-Rychner, Gustav, Dr. Fürsprech, Oberrichter. Reb-\nhäuschen.\n1068 † Burkhard, Ferd., Coiffeur. Rebhäuschen.\n333 Siegfried-Leupold, Friedrich, Staatsbuchhalter, von Zofingen.\n334 † Derselbe. Holzschopf.\n1298 Roth, Johann, Aufseher, von Obererlinsbach.\nBodmer-Roth, Johann Julius, Fabrikkaufseher, v. Erlinsbach.\n1361 † Derselbe. Holzschopf.\n335 * Fleiner & Cie.\nFlückiger-Hug, Jakob, Käser, von Auswil (Bern).\nWehrli-Blattner, Adolf, Cementarbeiter, von Küttingen.\nKäser-Fischer, Jakob, Cementküfer, v. Obererlinsbach (Solothurn).\n1136 † Einwohnergemeinde Aarau. Schirmhäuschen am Kanal.\n1460 Vondäniken-Roth, Emil, Buchhalter, von Obererlinsbach (Solothurn.).\nVondäniken-Vonfelten, Anna Maria, Witwe, von Obererlinsbach\n(Solothurn).\n336 Rothpletz-Imhof, Louise, Stadtrats Witwe.\nGuyer-Blattner, August, Part., von Fehraltorf (Zürich).\n1146 Blattner-Bircher, Hans Rudolf, Landwirt, von Küttingen.\nWidmer-Burkhart, Herm., Heizer, von Hausen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5173,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1850,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:04:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p052",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p052.jpeg",
+      "bytes": 263372,
+      "sha256": "9f76792eca76e19657f55b29a14858efaa752f451baddb65b654c832c5f16c14",
+      "sha256_of": "original",
+      "working_copy": "1896_p052.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:04:15+00:00"
+  }
+}

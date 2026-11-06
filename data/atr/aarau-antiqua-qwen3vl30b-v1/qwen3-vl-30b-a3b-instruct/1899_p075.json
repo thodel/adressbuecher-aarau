@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p075.jpeg",
+    "bytes": 261878,
+    "sha256": "398bba261918525833cbded2d7293280210218d0ec031bb252846f0bc003c38c",
+    "sha256_of": "original",
+    "working_copy": "1899_p075.jpeg"
+  },
+  "text": "Haus-\nNr.\n843 Rüetschi-Bopp, Her., Glocken- u. Geschützgiesserei Aarau.\nRüetschi-Christen, Elise, Witwe, Part.\nAlbrecht, Eduard, Glockengiesser.\nStäuble, Niklaus, Direktionssekretär, von Sulz.\n844 † Dieselben. Glockengiesserei.\n845 † \" Giesserei und Schmiede.\n846 † \" Abgetragen.\n847 † \" Gartenhaus.\n848 Märki-Haller, Gottlieb, Mühlenbauer von Mönthal.\nHenz-Siebenmann, Adele, Witwe, Part.\n849 † Siebenmann, Rudolf, Bierbrauer, Holzhaus.\n850 Abgetragen, an dessen Platz.\n1185 Keller, Ida, Glätterin von Oberendingen.\n—-Pfister, Fritz, Part. von \"\n—, Maria, Glätterin,\nLenzin-Hort, Xaver, Taglöhner, von Oberhof.\nHagnauer-Kaspar, Hans, Heizer.\nRütti-Mauderli, Hans, Postcommiss von Schönenwerd.\nHochuli-Zisett, Jakob, Brieftträger von Reitnau.\n1350 † Dieselbe. Schopf.\n1564 Hässig-Sigle, Julius, Speisewirtschaft (Restaurant Bellevue).\n1571 † Derselbe. Scheune.\n1091 * Haller-Märki, Karl, Mühlenbaugeschäft. Bureau.\nHaller-Märki, Firma. Spezialität: Griesputzmaschinen.\nRoggenhausen.\n851 * Gemeinde Aarau, Pächterhaus.\nBolliger-Thut, Rudolf, Pächter, von Egliswyl. Sommer-\nwirtschaft.\nOberholz.\n852 † Staat Aargau. Pulverhaus.\nWalthersburg.\n853 † Wather-Schatzmann, Barb., Oekonoms Witwe, Waschhaus.\n854 † Dieselbe. Scheune und Remise.\n855 † \" Scheune.\n856 \" Wohnhaus.\n1464 † Weber, Anna, Glätteriu, von Vordemwald.\nDieselbe. Heuschuppen.\nRain.\n857 a Strebel-Rüetschi, Eduard, Schreiner von Büblikon.\nHäusermann-Gertsch, Fritz, Schneider, von Egliswyl.\n857 b † Derselbe. Schopfanbau.\n67",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4726,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1485,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:29:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p075.jpeg",
+      "bytes": 261878,
+      "sha256": "398bba261918525833cbded2d7293280210218d0ec031bb252846f0bc003c38c",
+      "sha256_of": "original",
+      "working_copy": "1899_p075.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:29:44+00:00"
+  }
+}

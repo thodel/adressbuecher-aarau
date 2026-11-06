@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p078",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p078.jpeg",
+    "bytes": 282679,
+    "sha256": "6783f1cf8245b82319aa5591bc7d98d224e0a54371cf0caa2574229c7d0314d3",
+    "sha256_of": "original",
+    "working_copy": "1899_p078.jpeg"
+  },
+  "text": "70\nHaus-\nNr.\n  890 Ackermann-Buser, Albert, Kaufmann, von Amriswil\n  (Thurgau), Herren- und Knabenkleider-Magazin.\n  Hungerbühler-Hochreutiner, Hugo, Oberst, Kreisinstruktor,\n  von St. Gallen.\n  891 * Derselbe.\n  Lehmann-Oehlhafen, Jenny, Witwe, von Zofingen. Mer-\n  cerie und Manufacturwaren-Handlung.\n  892 Dolder, Susette, von Hauptwil (Thurgau). Mercerie, Bon-\n  neterie und Modewarengandlung.\n  893 Sernatinger-Eng, Valerian, von Ludwigshafen (Baden).\n  Hut- Mützen- und Pelzwarengeschäft. Kautschukartikel\n  und Filzwaren. [tel]\n  Frey-Spalinger, Karl, Registrator von Zurzach.\n  Vogelmoid-Spalinger, Susanna, Part. von Horb., (Wrtbg.).\n  894 Keusch-Diebold, Jos. Karl, Apotheker, von BoswyL [tel]\n  Wyder, Lina, Part.\n  Streit-Hegnauer, Mina, Witwe, Part., von Zimmerwald\n  (Bern).\n  1288 + Derselbe. Schopf.\n  895 Gysi & Cie. (Otto Gysi-Siebenmann und Hans Gysi-\n  Ryniker). mechanisches und optisches Geschäft, Pho-\n  tographieanstalt. [tel]\n  Gysi-Siebenmann, Otto, Photograph.\n  Gysi, Otto, Sohn. Photograph.\n  896 + Dieselben. Photographisches Atelier.\n  897 † Dieselben. HolzschoPf.\n  898 Kull-Lerch, Emil, Spenglermeister, von Riniken.\n  Müller geb. Schneider, Susanna, Haushälterin, von Birr.\n  Wehrli-Marti, Jakob, Schreiner, von Küttigen.\n  Lücher, Emma, Weißnäherin, von Muhen.\n  899 + Derselbe. Werkstätte.\n  900 Bürgi-Fricker, Barbara, Hutmachers Witwe, von Olten.\n  Feilner-Bürgi, Hs., Mechaniker, v. Bittendorf (Württembg.).\n  Eris mann-Lehner, Adolf, Hch., Hafner, v. Gontenschwyl.\n  Bruns, Heinrich, von Bremen. Arbeiterkleiderhalle.\n  901 + Dieselbe. Magazin.\n  902 + Hess-Wolf, Alexander, Kaufmann, von Zillisheim (Elsass).\n  Wyler-Guggenheim, Raphael, Kaufmann, von Endingen.\n  Manufacturwarehandlung.\n  Roth-Zaugg, Friedrich, Obergerichtskanzlist.\n  903 + Henz-Gautschi, Emil, Eisenwarehandlung. [tel]\n  Vuillermet-Leblanc, Charles Jean L., Kaufmann, von\n  Verrières (Frankreich).\n  904 + Staat Aargau. Alte Postremise.\n  905 Derselbe. Regierungsgebäude. [tel]\n  Käser-Schütz, Jakob, Rathausabwart, von Biberstein.\n  906 + Derselbe. Holzhaus.\n  907 † \"\n  908 † \" Großrathsgebäude. Kanton sbibliothek.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17428,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2128,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:46:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p078",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p078.jpeg",
+      "bytes": 282679,
+      "sha256": "6783f1cf8245b82319aa5591bc7d98d224e0a54371cf0caa2574229c7d0314d3",
+      "sha256_of": "original",
+      "working_copy": "1899_p078.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:46:33+00:00"
+  }
+}

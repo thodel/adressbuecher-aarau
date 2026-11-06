@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p054",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p054.jpeg",
+    "bytes": 258952,
+    "sha256": "e2be3ab71e23dd5b7670e0ec3e53f5f54b55515e494765d7fb306702c833d362",
+    "sha256_of": "original",
+    "working_copy": "1896_p054.jpeg"
+  },
+  "text": "32     Verzeichniss der Gebäude und ihrer Bewohner.\nHaus-     Graben.\nNr.\n352 * Dreyfuss-Götsschel, Adolf, Kaufmann, von Endingen, in Basel,\n  Dreifuss-Guggenheim, Emil, Kaufmann, von Endingen. Manu-\n  fakturwarenhandlung.\n  Herzog-Hagnauer, Heinrich, gew. Lehrer, von Rekingen.\n\nLaureenzenvorstadt.\n1340     ⇒ Aktiengesellschaft der aargauischen Kreditanstalt.\n  Pfau-Bleuler, Joh. Jakob, Direktor, von Schaffhausen.\n  Pfau, Joh. Jak., Bankangestellter, von Schaffhausen.\n1389     ⇒ Weber-Beck, Gustav, Bezirksarzt, von Menziken.\n  Grünhut, Robert, Bahningenieur, S. C. B., von Wien.\n353 Vogt-Regard, Adolf, Zahnarzt, v. Bürglen (Thurgau). (Schlossgarten).\n  Regard, Marie, Part., von Genf.\n  Baumann-Wacker, Susanna, Part., von Bürglen (Thurgau).\n354 † Derselbe. Remise.\n355 † Derselbe. Waschhaus.\n1403 Schmuziger-Lackerbauer, Arnold, Ingenieur.\n356     ⇒ Frey-Hagnauer, Konrad, Dr. med., prakt. Arzt.\n357 † Derselbe. Remise.\n358 † Derselbe. Waschhaus.\n359 † Derselbe. Sommerhaus.\n360 Markwalder-Gamper, Traugott, Oberst, Instruktor I. Klasse der\n  Kavallerie.\n  Kurz-Korkhaus, Erwin, Fürsprech, Advokatur- und Notariatsbureau.\n361 * Derselbe.\n  Wirz-Widmer, Adolf, Postkondukteur, von Menziken.\n  Wirz, Adolf, Sohn, Commis, von Menziken.\n  Wirz, Wilhelmine, Maschinenstickerin, von Menziken.\n  Wirz, Emma, Damenschneiderin, von Menziken.\n  Bolliger-Huggenberger, Jakob, Oberwagenwärter, von Kirchrüed.\n362 * Derselbe.\n  Bolliger-Ment, Emil, Buchbinder, von Schlossrued.\n  Widmer-Rüegsegger, Jakob, Buchhalter, von Suhr.\n363 * Derselbe.\n  Wernli-Reinhard, Kaspar, Weichenwärter, von Thalheim.\n  Blattner-Egger, Hans, Buchbinder, von Küttigen.\n364 * Wydler-Frey, Med. Drs. Erbschaft.\n  Wydler, Mathilde, Part.\n  Wydler-Oboussier, Hans Ferdinand, Kaufmann.\n  Hunziker-Wydler, Pauline, Part.\n365 u. 366 † Dieselbe. Scheune.\n367     ⇒ Müller-Haberstich, Friedrich August, Kaufmann.\n  Haberstich, Rosa, Part.\n368 u. 369 † Derselbe. Oekonomiegebäude.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 106401,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1946,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.3,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:03:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p054",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p054.jpeg",
+      "bytes": 258952,
+      "sha256": "e2be3ab71e23dd5b7670e0ec3e53f5f54b55515e494765d7fb306702c833d362",
+      "sha256_of": "original",
+      "working_copy": "1896_p054.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:20+00:00"
+  }
+}

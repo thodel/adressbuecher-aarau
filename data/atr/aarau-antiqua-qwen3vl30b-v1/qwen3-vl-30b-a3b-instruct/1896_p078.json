@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p078",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p078.jpeg",
+    "bytes": 260988,
+    "sha256": "902f1354a36d7729c3a8d2da123295f54aa3b21fd0a9398690f87e56a9953561",
+    "sha256_of": "original",
+    "working_copy": "1896_p078.jpeg"
+  },
+  "text": "56\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n707 b * Andres-Meier, Samuel, Schlosser.\nHäusermann-Gertsch, Friedr., Schneider, von Egliswil.\nUrban-Nussbaum, Ernst, Schreiner, von Liegnitz (Schlesien).\n708 * Armengut der Gemeinde Aarau.\nBeck-Hunziker, Emil, Sattler.\n709 Andres-Weber, Friedrich, Buchhalter. Ellenwarenhandlung.\nHofmann-Wehrli, Friedrich, Kasernenarbeiter, von Schloßrued.\n710 * Huber-Bircher, Heinrich, Drechsler.\nKüng-Furrer, Anton, Sekretär, von Birri.\nLäuchli-Hossli, Jakob, Polizeidiener, von Remigen.\nWernli-Wehrli, Maria, Witwe, Maschinenstickerin, von Thalheim.\nCastruzi, Leopold, Zeichner, von Rom.\n711 * Holzach-Schmidt, Friedrich, Metzger.\nBrändli-Hug, Jakob, Fabrikarbeiter, von Unterbötzberg.\nSuter, Elise, Wäscherin, von Gränichen.\nHuber, Rosa, Glätterin, von Oberkulm.\nBrändli-Meier, Bertha, Fabrikarbeiterin, von Unterbötzberg.\n712 Hangartner-Götz, Kaspar, Camionneur, v. Wangen (Großth. Baden).\nHagi-Brugger, Franziska, Haushälterin, v. Oberradach (Großth. Baden).\n713 Bircher-Kielholz, Julius, Kreisingenieur, von Küttingen.\nWildi-Lässer, Samuel, Schreinermeister, v. Schafisheim. Sargmagazin.\nWehrli-Roth, Jakob, Fabrikarbeiter, von Biberstein.\nLeutwyler-Hofer, Elise, Maschinenstrickerin, von Menziken.\nHuber-Gisi, Auguste, Vorgängerin, von Dornach (Grossth. Baden).\nLohrer, Jakob, Prediger, von Hottingen (Zürich).\n714 † Gebr. Wydler.\nFirma: H. Wydler Söhne, Färbereigeschäft. Schwefelkammer.\n715 * Dieselben. Wohnhäusern.\nLüscher-Lüscher, Jakob, Commis, von Moosleerau.\nHofmann, Lina, Fabrikarbeiterin, von Schloßrued.\n716 † Dieselben. Färbereigebäude. Magazin.\n717 * \" Wohnhaus und Farbmagazin.\nWydler-Hechinger, Hans, Kaufmann.\n718 Dieselben. Wohnhaus.\nWydler-Wehrli, Heinrich, Färber.\nWydler-Wernli, Erwin, \"\n719 † Dieselben. Färberei und Heizeinrichtung.\n720 \" Abgetragen.\n721 * \" Wohnhaus.\nWydler-Bäurlin, Emilie, Witwe.\nWydler, Emilie, Tochter.\nWydler, Eugen, Färber.\n722 * Dieselben. Wohnhaus.\nGanter-Vettiger, Christian, Magaziner, von Kussmaßhausen (Bayern).\nOberli-Wydler, Richard, Privat, von Mels (Kt. Gallen).\n1172 † Dieselben. Wagenremise.\n1401 † Dieselben. Holzschopf.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6448,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2142,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.21,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:06:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p078",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p078.jpeg",
+      "bytes": 260988,
+      "sha256": "902f1354a36d7729c3a8d2da123295f54aa3b21fd0a9398690f87e56a9953561",
+      "sha256_of": "original",
+      "working_copy": "1896_p078.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:06:42+00:00"
+  }
+}

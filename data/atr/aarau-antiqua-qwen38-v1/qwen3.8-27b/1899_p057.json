@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p057",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p057.jpeg",
+    "bytes": 260437,
+    "sha256": "ccb153dbeb6ad61a6c05aa483d6c1fe3d35d14be62bc36c9d4d380a7b08ca302",
+    "sha256_of": "original",
+    "working_copy": "1899_p057.jpeg"
+  },
+  "text": "49\nHaus-\nNr.\nLaurenzenvorstadt.\n585 Gemeinde Aarau. Aargauisches Töchterinstitut u. Lehrer-\n  innenseminar.\n  Fröbel'scher Kindergarten, Stadtbibliothek und Städt.\n  Lesezimmer.\n586 Fleiner, Alberts Erbschaft. [tel]\n  — -Zschokke, Leontine, Fabrikants Witwe.\n  —, Hans, Fabrikant.\n  Zschokke, Arthur, Part.\n  Haberstick, Rosa, Part.\n  Tanner, Irmengard, Part.\n  — -Vonwiller, Erwin, Fürsprech. Advocatur- u. Notariats-\n  bureau.\n587 † Dieselbe. Wasch- und Holzhaus.\n588 † Dieselbe. Holzschopf.\n589 Staat Aargau. Infanterie-Kaserne.\n590 Derselbe. Kantine.\n  Hürbin-Heuberger, Ferdinand, Oberstleutnant, [tel] von\n  Wegenstetten. Wirt zur Kantine.\nZeughausstrasse.\n591 Staat Aargau. Kasernen-Stallung.\n592 Derselbe. Reitsbahn.\n593 \"       Stallung.\n594 \"       Reitsbahn.\n595 \"       Turnhalle.\n1452 * Riniker-Waldis, Arnold, Kaufmann.\n  Wehrli-Michel, Jakob, Wirt [tel], von Küttigen. Speise-\n  wirtschaft \"Café Fédéral\".\n  Zulauf-Siebenmann, Maria, Witwe.\n  Klingelfuss-Graf, Ottilie, Wwe., v. Basel. Plazierungsbureau.\n1548 † Derselbe. Waschhaus.\n1310 Frey-Vetterli, Achilles, von Densbüren. Coiffeur- und\n  Hutgeschäft.\n  Baumann-Hemmarn, Karl, Kaufmann.\n  Thom-Hännÿ, Franz, Trompeter-Instruktor der Infanterie,\n  von Kirchberg.\n1387 Roth-Gautschi, Friedrich, Schuhmacher, von Mühlethal.\n  Schuhhandlung.\n  — -Widmer, Verena, Witwe, Part., von Mühlethal.\n  Ryniker-Lutz, Adolf, Kaufmann.\n  Flühmann, Elisabeth, Seminarlehrerin, von Saxeten (Bern).\n  Nadig, Klara, Part., von Davos (Graubünden).\n  Schmid, Jenny, Modistin.\n1120 Staat Aargau. Kavallerie-Kaserne.\n1211 Derselbe. Stallungen.\n  596 \"       Zeughaus [tel].\n  597 \"       Schmiedewerkstätte und Schopf.\n  598 \"       Kriegsfuhrwerkschuppen.\nStadt Aarau.\n4",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 31495,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1718,
+    "lines": 53,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 30.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:22:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p057",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p057.jpeg",
+      "bytes": 260437,
+      "sha256": "ccb153dbeb6ad61a6c05aa483d6c1fe3d35d14be62bc36c9d4d380a7b08ca302",
+      "sha256_of": "original",
+      "working_copy": "1899_p057.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:22:44+00:00"
+  }
+}

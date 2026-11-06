@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-gemini-retry-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p087",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p087.jpeg",
+    "bytes": 282728,
+    "sha256": "ebbbf66d60805bd659c8acd6a716b64684fe64e74140c7d991734dd4a8f6fb8f",
+    "sha256_of": "original",
+    "working_copy": "1899_p087.jpeg"
+  },
+  "text": "79\n\nHaus-\nNr.\n  1015  Evangelischer Verein, Kapelle.\n1343    Derselbe. Vereinshaus. Klein-Kinderschule.\n        Bächli-Holliger, Gottlieb, Schuhmacher, Abwart, von Buchs.\n  1016 † Frey-Rüegg & Cie., Fabrik. Seidenbandfabrikation. [tel]\n  1017 † Dieselben. Maschinenhaus.\n  1018  Dieselben. Wohnhaus mit Holzremise.\n        Eichenberger-Fischer, Gottlieb, Schreiner von Beinwyl.\n1173 *  Diakonissenstation Aarau.\n        Berchten, Susanna, Diakonissin, von St. Stephan (Bern).\n        Kunz, Nanette, Näherin, von Mönchaltorf (Zürich).\n        Kiener geb. Tschopp, Näherin, von Zezwyl.\n        Beyeler, Magdalena, Diakonissin, von Wahlern (Bern).\n        Hirt, Luise, von Schmiedrued.\n        Fierz, Emma, Männedorf (Zürich).\n1208 †  Diakonissenstation Aarau. Waschhaus.\n  1019 * Evangelischer Verein.\n        Schmuziger-Dietrich, Louis, Pfarrer.\n  1020  Hassler-Hunziker, Elise, Witwe, Tapetenhandlung.\n        Banga-Lässer, Jean, Kaffeewirtschaft, von Mönchenstein.\n          (Kaffeehalle).\n        Bär-Hassler, Louis, Sekretär.\n        Theodor, Amadeus, Zugführer, von Pizy (Waadt).\n  1021 † Dieselbe. Hintergebäude.\n        Lässer, Anna, Haushälterin von Wiliberg.\n  1022 a Jäger-Hässig, Johann, Maurer, von Aussersihl (Zürich).\n        Hunziker-Schürch, Marie, Schriftsetzers Witwe, Part.\n        Buhlrein, Friedrich, gewes. Spengler, Part.\n  1022 b Wildi-Leuthard, Verena, Witwe, Part., von Veltheim.\n        Marfurt, Franz Xaver, Coiffeur, Coiffeurgeschäft.\n        Peter, Joh. Ulrich, Mechaniker, Werkführer von Bassers-\n          dorf (Zürich).\n  1023  Siebenmann-Seiler, Katharina, Witwe, Part.\n        Bertschi-Steiner, Gottlieb, Taglöhner von Dürrenäsch.\n        Schmuziger-Lang, Elisa, Schreiners Witwe, Taglöhnerin.\n        Wullschleger-Blattner, Hch., Stadtarbeiter, Kaffeewirtschaft.\n        Wullschleger, Hans, Knecht, von Schloßrued.\n  1024  Abgetragen an dessen Platz\n1074 *  Spengler-Lienhard, Luise, Witwe, Part.\n        Siebenmann-Siebenmann, Arnold, Tapezierer.\n        Siebenmann-Blum, Elisa, Witwe, Part.\n        Schwanz-Gautschi, Theodor, (Spezereihandlung) von Guten-\n          stein (Großherzth. Baden).\n        Zuber-Baumann, Andreas, Architekt.\n  1025  Eggimann-Joss, Rosina, Witwe, von Sumiswald (Bern) [tel]\n          Speisewirtschaft.\n        Gross-Daum, Johanna, Hausiererin v. Irmtraut (Preussen).\n        Quernheim-Gross, Magdl., Hausiererin, v. Irmtraut (Preus.)\n        Felber-Roth, Karl, Schneider, von Unterbötzberg.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6069,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2454,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T20:48:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-gemini-retry-v1",
+    "source": {
+      "key": "1899_p087",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p087.jpeg",
+      "bytes": 282728,
+      "sha256": "ebbbf66d60805bd659c8acd6a716b64684fe64e74140c7d991734dd4a8f6fb8f",
+      "sha256_of": "original",
+      "working_copy": "1899_p087.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:48:25+00:00"
+  }
+}

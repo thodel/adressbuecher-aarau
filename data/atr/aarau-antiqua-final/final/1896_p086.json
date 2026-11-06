@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p086",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p086.jpeg",
+    "bytes": 272996,
+    "sha256": "c5428b58e0a61e6d1aff2dcb5e8faf23e4f918546b47a059a6eef5ba5c76ed8f",
+    "sha256_of": "original",
+    "working_copy": "1896_p086.jpeg"
+  },
+  "text": "64    Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n836 † Dieselben.  Magazin.\n837 Abgetragen.\n1329   † Dieselben.  Holzschopf.\n838 Siebenmann, Gottlieb, Gerber, Part.\n  Schär, Maria, Haushälterin, von Balzennwyl.\n  Biedermann-Stydler, Emil, Hauptmann, Instruktor der Infanterie,\n  von Ins (Bern).\n  Spitzli-Fricker, Joh. Jakob, Kaufmann, von Oberutzwyl (St. Gallen).\n839 Keller-Buser, Gottfried, Buchdrucker, von Hottwyl.  Druck und\n  Verlag des Aargauischen Anzeigers, des Suhrenthalberboten und des\n  Schulblattes.\n840 Wyder-Brast, Albert, Kaufmann, von Oberstraß (Zürich). (Agentur-\n  und Kommissionsgeschäft. Agentur der Nordischen Feuerversicherungs-\n  gesellschaft in London.)\n841 † Rüetschi-Bopp, Hermann und Westfeld-Spitzli, Wilhelm, Glocken-\n  gießerei.  Scheune.\n842 † Dieselben.  Holzschopf.\n843 [tel]  Dieselben.  Wohnhaus.  Firma Rüetschi & Cie., Glocken- und\n  Geschützigießerei Aarau.\n  Rüetschi-Bopp, Hermann, Techniker und Glockengiesser.\n  Westfeld-Spitzli, Wilhelm, Kaufmann, von Unterschäpfi (Baden).\n  Rüetschi-Christen, Elise, Witwe, Part.\n  Albrecht, Eduard, Glockengiesser.\n  Stäubli, Niklaus, Direktionssekretär, von Sulz.\n844 † Dieselben.  Glockengießerei.\n845 †      \"      Gießerei mit Schmiede.\n846 †      \"      Kohlenraum.\n847 †      \"      Gartenhaus.\n848 * Schibler-Meister, Oskar, Fürsprech.  Gerichtspräsident in Kulm.\n  Schneider, Alfred, Seminarlehrer, von Hittnau (Zürich).\n  Schneider-Graf, Barbara, Witwe, von Hittnau (Zürich).\n  Valli-Eggspühler, Angelo, Accordant, von Mogliano (Italien).\n  Firma: Pancirolli & Cie., Kunstmaler-Atelier.\n  Pancirolli, Giuseppe, Kunstmaler, von Verana (Italien).\n  De franceschi, Massimo, Kunstmaler, von Nicate (Italien).\n  Anselmini, Emilia, Haushälterin, von Gaggio (Italien).\n849 + Siebenmann, Rudolf, Bierbrauer, Holzhaus.\n850 Abgetragen, an dessen Platz\n1185    Keller, Ida, Glätterin, von Oberendingen.\n  Keller-Pfister, Fritz, Bedienter.\n  Thielke-Hort, Friedrich, Schneider, von Polle, Hannover.\n  Schaffner-Fuhrmann, Samuel, Camionneur, von Effingen.\n1350    † Dieselbe.  Schopf.\n\nSchönenwederstrasse (Wöschnau).\n\n1091    * Märki, Jakob und Haller, Karl, Mühlenbaugeschäft.  Bureau.\n  Firma: Märki & Haller.  Spezialität: Griesputzmaschinen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 76156,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2235,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T15:02:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p086",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p086.jpeg",
+      "bytes": 272996,
+      "sha256": "c5428b58e0a61e6d1aff2dcb5e8faf23e4f918546b47a059a6eef5ba5c76ed8f",
+      "sha256_of": "original",
+      "working_copy": "1896_p086.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T15:02:14+00:00"
+  }
+}

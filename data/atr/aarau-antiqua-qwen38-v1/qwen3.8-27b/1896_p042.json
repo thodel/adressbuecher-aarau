@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p042",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p042.jpeg",
+    "bytes": 261576,
+    "sha256": "b67a7caaf3d628bc6e70f942a9b2f2364b09a3e62150bdfce207c0b6d896a881",
+    "sha256_of": "original",
+    "working_copy": "1896_p042.jpeg"
+  },
+  "text": "20\nVerzeichniss der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n214 * Siebenmann, Adolf und Fanny.\nAngst-Hässig, Gottlieb, Negotiant, v. Eglisau (Zürich). Buchhand-\n  lung für christliche Literatur und Dépôt der aarg. Bibelgesellschaft.\n  Artikel für Krankenpflege. Dépôt der internationalen Verbandstoff-\n  Fabrik Schaffhausen. Chemisch-technische Präparate, Schwämme und\n  chinesischer Thee.\nAngst, Robert, Sohn, Kaufmann, von Eglisau (Zürich).\nFassler, Marie, Priv., von Densbüren.\nGraben.\n215 [tel] Allgemeine aargauische Ersparniskasse.\nImhof-Munzinger, Emil, Part.\nWelti-Siebenmann, Henriette, Part.\nWelti, Lisa, Part.\n216 [tel] Meister-Gisi, Georg, Bäckerei und Pintenwirtschaft.\nLorenz-Isaak, Joseph, Arzt, von Klingnau.\nMoser-Lorenz, Karl, Architekt, von Baden.\n217 Buser-Müller, Heinrich, Hufschmied.\nZschokke-Voitel, Margaretha, Witwe, Part.\n218 Urech-Imhof, Philippine, Witwe, Part.\nOtt, Kaspar, Rentier, von Zürich.\n219 * Dolder-Saxer, Jakob Friedrich, Kaufmann, v. Hauptweil (Thurgau).\n[tel] Firma: Grossmann, Otto, Handelsgärtnerei und Samenhdg.\n  Blumenbzar.\n  Vertreterin: Steiner-Schürch, Anna, Part., von Dürrenäsch.\nSteiner, Hans, Zeichner, von Dürrenäsch.\n220 * [tel] Zschokke-Sauerländer, Guido, Buchhändler. Firma: H. R.\n  Sauerländer & Cie. Sortimentsbuchhandlung.\nBrack-Steininger, Gottlieb, Buchhalter, von Effingen.\n221 * Hunziker-Thommen, Maria, Witwe, Part.\n222 [tel] Vogt-Siegrist, Samuel, von Schinznach. Restauration.\nOberthor.\n223 † Gemeinde Aarau. Spritzenhaus Nr. 4.\n224 * Dieselbe. Oberthurm.\nSchäfer-Morlock, Wilhelm, Dienstmann.\n225 Wirz-Martin, Emil, von Solothurn. Buchdruckerei.\n226 [tel] Siebenmann, Otto und Gustav, March.-Tailleur. Offiziars-\n  Ausrüstungen, Civil-Maassgeschäft.\nSiebenmann-Walther, Otto, March.-Tailleur.\nSiebenmann-Hemmeler, Gustav, March.-Tailleur.\n227 Dieselben. Anbau.\n228 a [tel] Aktiengesellschaft des Aargauer Tagblättes.\n  Vertreter: Stierli, Fürsprech.\n  Geschäftsführer: Müller-Balmer, Alfr. Friedr., v. Weinfelden (Thurg.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 80138,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1989,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.91,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:50:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p042",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p042.jpeg",
+      "bytes": 261576,
+      "sha256": "b67a7caaf3d628bc6e70f942a9b2f2364b09a3e62150bdfce207c0b6d896a881",
+      "sha256_of": "original",
+      "working_copy": "1896_p042.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:43+00:00"
+  }
+}

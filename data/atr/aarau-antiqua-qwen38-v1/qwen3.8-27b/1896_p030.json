@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p030",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p030.jpeg",
+    "bytes": 266135,
+    "sha256": "72656493598fa0b05c9d8458da0ac40d2f3deb8c5b578abcac54fc42aa4e9f73",
+    "sha256_of": "original",
+    "working_copy": "1896_p030.jpeg"
+  },
+  "text": "8\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n  Müller-Nikles, Jakob, Ausläufer, von Unterentfelden.\n  Ott, Anna, Zettlermeisterin, von Ryken.\n82 * Morath, Johann, Kaufmann.\n  Frank-Roland, Samuel, Schreiner.\n  Wittwer-Bolliger, Katharina, Witwe, von Schangnau, Bern.\n  Wittwer, Emma, Weissnäherin, von Schangnau, Bern.\n  Wehrli-Fassler, Elisabeth, Spetterin, von Biberstein.\n83 Scheibler-Suter, Alfred, Tapezierer, von Unterentfelden.\n  Zimmerli, Joh., Holzer, von Unterentfelden.\n84 * Märk, Karl, Part.\n  Gunsch-Furter, Johann, Maurer, von Mutsch (Tirol).\n  Brack-Lomzinger, Konrad, Buchdrucker, von Mönthal.\n85 a * Bär-Frei, Sattlers Witwe.\n  Schenk-Habegger, Johann, Schuhmacher, Langnau, Bern.\n  Bertschi-Holzreuter, Rudolf, Holzer, von Dürrenäsch.\n  Bertschi, Emil, Sohn, Holzer, von Dürrenäsch.\n85 b Keller-Sommerhalden, Erwin, Giessereiarbeiter, von Maisprach.\n86 a Schmuziger-Zulauf, Marie, Part.\n  Neeser-Hilfiker, Samuel, Holzer von Schlossrued.\n86 b Dieselbe.\n  Bachmann-Moser, Kaspar, Taglöhner, von Bottenwyl.\n\nZollrain.\n\n87 Kieser-Leyraz, Fanny, Witwe, Part.\n  Kieser-Kilchmann, Wilhelm, Metzger, Speisewirtschaft.\n  Wehrli-Bolliger, Karl, Gasmeister, von Küttigen.\n88 Jeggli-Hässig, Emma, Bäckers Witwe.\n  Hug-Bär, Samuel, Bäcker, von Thalheim.\n  Fassler-Furter, Friedrich Georg, Gipser, Densbüren.\n  Fassler, Anna, Weissnäherin, von Densbüren.\n  Künzlen-Kranich, Friedr., Buchhalter, von Sulzbach (Württemberg).\n  Strebel, Martina, Spetterin, von Mägenwyl.\n  Strebel, Verena, Spetterin, von Mägenwyl.\n  Strebel, Waldburga, Näherin, von Mägenwyl.\n  Renold-Wildi, Marie, Part., Witwe.\n89 [tel] Wirth-Herzog, Jakob, Part.\n  Wirth-Voser, Franz, Sohn, Kaufmann. Lebens- u. Unfallversicherung.\n  Auswanderung.\n  Rüegg-Wirth, Fanny, Witwe, Part., von Bauma, Zürich.\n  Fröhlich, geb. Fröhlich, Sophie, Oberrichters Witwe, von Brugg.\n  Fröhlich, Elise, Part., von Brugg.\n90 † Gemeinde Aarau. Schlachthaus.\n91 * Gundel-Wassmer, Joh. Jak., Bierbrauer, von Langenaltheim (Bayern).\n  Stirnemann-Henzmann, Jakob, von Gränichen, Holz-, Kohlen-,\n  Käse-, Milch- und Butterhandlung.\n  Buser-Bräutigam, Rosina, Bäckers Witwe, Part.\n  Buser, Gottlieb, Sohn, Kaufmann.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 120632,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2175,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p030",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p030.jpeg",
+      "bytes": 266135,
+      "sha256": "72656493598fa0b05c9d8458da0ac40d2f3deb8c5b578abcac54fc42aa4e9f73",
+      "sha256_of": "original",
+      "working_copy": "1896_p030.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:55+00:00"
+  }
+}

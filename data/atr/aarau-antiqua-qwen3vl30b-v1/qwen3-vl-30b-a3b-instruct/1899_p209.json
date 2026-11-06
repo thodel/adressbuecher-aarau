@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p209",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p209.jpeg",
+    "bytes": 253661,
+    "sha256": "c85b717bc21fc584e430cb6ad161b381afd944067f006292cf4e81680e24490c",
+    "sha256_of": "original",
+    "working_copy": "1899_p209.jpeg"
+  },
+  "text": "105\nHandel und Gewerbe.\nKaufmännische Gesellschaft.\nVerein Schweiz. Geschäftsreisender Sektion Aarau,\nKaufmännischer Verein in Aarau.\nAargauischer Ingenieur- und Architektenverein.\nHandwerks- und Gewerbeverein.\nGewerbehalle.\nTypographia.\nSchuhmachermeisterverein.\nSchneiderfachverein.\nHeizer- und Maschinisten-Verein Ober-Aargau mit Sitz in Aarau.\nAarg. Gärtner-Fachverein „Vinca“.\n\nVaria.\nOrnithologischer Verein Aarau.\nBienenklub Aarau.\nAargauischer Stenographenverein.\nVerein für vereinfachte Stenographie in Aarau.\n\nb. Gemeinnützige u. wohlthätige Vereine etc.\nGemeinnützige Vereine.\nKulturgesellschaft des Bezirks Aarau.\nEinwohnerverein Aarau.\nVerschönerungs- und Verkehrskommission der Stadt Aarau.\nAargauischer Tierschutz-Verein. Sektion des schweiz. Centralvereins.\nSamariter-Verein Aarau.\nGrütllverein.\n\nWohlthätige Vereine.\nHülf s-Gesellschaft in Aarau.\nArmenerziehungsverein Aarau.\nStädtischer Fünfrappenverein.\nVerein gegen Hausbet tel.\nFrauen-Arbeitsverein für Arme.\nDeutscher Hilfsverein Aarau.\nKranken-Suppen-Anstalt.\nMäßigkeit sverein des Blauen Kreuzes, Sektion Aarau.\nAargauischer Taubstummenverein.\nFreimaurerloge zur „Brudertreue“.\nSchwestern-Verein der Loge zur „Brudertreue“.\n\nUnterstützungskassen.\nStädtischer Lehrer-Pensions-Verein.\nMänner-Krankenkasse Aarau.\nKrankenunterstützungs-Gesellschaft für Frauen und Töchter.\nArbeiter-Krankenkasse.\nBuchdrucker-Krankenkasse.\nKrankenkasse des Grütllvereins.\nDienstbotenkrankenkasse.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3680,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1448,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 30.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:43:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p209",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p209.jpeg",
+      "bytes": 253661,
+      "sha256": "c85b717bc21fc584e430cb6ad161b381afd944067f006292cf4e81680e24490c",
+      "sha256_of": "original",
+      "working_copy": "1899_p209.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:43:56+00:00"
+  }
+}

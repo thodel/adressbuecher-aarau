@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p106",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p106.jpeg",
+    "bytes": 281106,
+    "sha256": "d328c4c4e6e8146bcf8788d99236202893825138c9e0f67755abbc3b8e40eb4f",
+    "sha256_of": "original",
+    "working_copy": "1899_p106.jpeg"
+  },
+  "text": "2\nAllgemeiner Consum-Verein Aarau, Milchgaße 70.\nAmmann, Marie, Ladentochter, Bahnhofstraße 560.\n— Robert, Hochbaumeister, Feerstraße 1454.\n— Rudolf, Steindrucker, Hammer 183.\nAmsler, Bertha, Postdirektors, Entfelderstraße 973.\n— Emil, Fürsprech, Feerstraße 1456.\n— geb. Falger, Marie, Witwe, vor dem Haldenthor 804.\n— Georg, Taglöhner, Halden 286.\n— Heinrich, Fabrikaufseher, Entfelderstraße 979.\n— Heinrich Ludwig, Taglöhner, Rathausgasse 45.\n— Ida, Schneiderin, vor dem Haldenthor 804.\n— Otto, Notar, Kaufmann, vordere Vorstadt 666.\nAnderegg, Ulrich, Mechaniker, Pelzgasse 65.\nAndres-Bircher, Bertha, Part., Bahnhofstraße 658.\n— Emma, Fabrikarbeiterin, Rain 820.\n— Friedrich, Hafner, ⛬ obere Vorstadt 916.\n— Friedrich, Buchhalter, Ziegelrain 709.\n— Gottlieb, Fondsverwalter, jenseits der Aare 299 b.\n— Heinrich, Buchbinder, Rain 821.\n— Jakob, Bahnangestellter, Halden 282.\n— Jakob, Schreinermeister, jenseits der Aare 299 a.\n— Otto, Hafnermeister, Milchgasse 78.\n— Samuel, Schlossermeister, Milchgasse 147.\nAngerer, Joseph, Schmied, Rohrerstraße 1362.\nAngliker geb. Oelhafen, Emma, Witwe, hintere Vorstadt 638.\nAngst geb. Hässig, Johanna, Witwe, hinter dem Platz 214.\n— Robert, Sohn, Kaufmann, Hinter dem Platz 214.\nBäbler, Johann Jakob, Dr. phil., Prof., Bachstraße 1101.\nBächli, Gottlieb, Schuhmacher, Bahnhofstraße 1021.\n— Margaritha, Spetterin, Rain 877 b.\n— Verena, Spetterin, Adelbändli 172.\nBäckerverband Aarau. Präsident: Rudolf Widmer.\nBär, Adele, Modistin, Rathausgasse 42.\n— Louis, Sekretär der Militärkanzlei, Bahnhofstraße 1020.\n— Marie, Arbeitslehrerin, obere Vorstadt 964.\n— Otto, Drechsler, obere Vorstadt 964.\nBärttschi, Jakob, Wirt, Weinberg 321.\nBachmann, Johann, Spezereihandlung, Milchgasse 159.\n— Joseph, Schneider, hinter dem Bahnhof 1302.\n— Kaspar, Taglöhner, Adelbändli 86.\n— Marie, Fabrikarbeiterin, vor dem Haldenthor 767.\n— Rudolf, Maurer, Halden 259.\nBachofen, Johann Friedrich, Sekretär, Milchgasse 147.\nBaldeschwylcr, Mathilde, Part., obere Vorstadt 966.\nBaldinger, Roman, Wirt z. Rößli, ⛬ Metzgergasse 112.\n— geb. Wirz, Josephine, Ladenvorsteherin, Oberthor 138.\nBallmer, Karl, Bankangestellter, vor dem Haldenthor 767.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6546,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2154,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:32:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p106",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p106.jpeg",
+      "bytes": 281106,
+      "sha256": "d328c4c4e6e8146bcf8788d99236202893825138c9e0f67755abbc3b8e40eb4f",
+      "sha256_of": "original",
+      "working_copy": "1899_p106.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:32:39+00:00"
+  }
+}

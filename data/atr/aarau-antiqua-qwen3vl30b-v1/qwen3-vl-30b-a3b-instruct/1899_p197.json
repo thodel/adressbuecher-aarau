@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p197",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p197.jpeg",
+    "bytes": 271766,
+    "sha256": "3e4eb1f6ab76e88954893a4696160bf9b627a63f00a8191fc9411aecc7709af4",
+    "sha256_of": "original",
+    "working_copy": "1899_p197.jpeg"
+  },
+  "text": "93\nDruck und Verlag der Aktiengesellschaft des Aarg. Tag-\nblattes, * Oberthor 223.\nAargauer Tagblatt, 7 mal wöchentlich. Preis Fr. 9 für\nAarau, franko auswärts Fr. 11. Samuel Landolt (Aargauer Kanton-Tagblatt)\nGegründet 1847 an Stelle des Posthörnli durch Friedr. Kappeler. Weiter-\nführung durch † Karl Stierli (von 1869–87). 1888 Übergang an eine Aktien-\ngesellschaft. Redaktor: Dr. A. Weder.\nAargauer Volksfreund, 3 mal wöchentlich. Preis für Aarau\nund Auswärts Fr. 6.\nGegründet 1863; Redaktor: Dr. A. Weder.\nDruck und Verlag von Gottfried Keller, * Rain 838.\nAargauischer Anzeiger, 2 mal wöchentlich. Preis für Aarau\nFr. 5, franko für auswärts Fr. 5. 20.\nGegründet 1797; Redaktor: G. Keller.\nAargauer Schulblatt, (neue Folge), für die Kantone Aargau,\nBaselland, Solothurn, 2 mal monatlich. Preis für Aarau\nund auswärts Fr. 2. 50.\nGegründet: 1875. Redaktor: R. Hunziker, Lehrer.\nSuhrenthaler Bote, 2 mal wöchentlich. Preis Fr. 5 für\nAarau, franko für auswärts Fr. 5. 20.\nGegründet 1866 in Schöftland. Redaktor: G. Keller.\nDruck und Verlag von H. R. Sauerländer & Co., * Lau-\nrenzenvorstadt 418.\nAmtsblatt des Kantons Aargau, 1 mal wöchentlich. Preis\nFr. 6. 50 für Aarau, franko auswärts 7. 50.\nErscheint seit dem Bestehen des Kantons. Verlag von H.R. Sauerländer & Cie.\nseit 1877.\nArgovia, Jahresschrift, Organ der historischen Gesellschaft\ndes Kantons Aargau. 26. Jahrgang.\nBienenzeitung, Schweizerische, Organ des Vereins schweiz.\nBienenfreunde. Neue Folge, 21. Jahrgang. Fr. 4.\nGewerbeblatt, Aargauisches. Organ des Aarg. Handwerker-\nund Gewerbevereins. 2 mal monatlich.\nJahresheft des Vereins schweizer. Gymnasiallehrer. Organ\ndes Vereins. 28. Jahrgang.\nJugendblätter, Illustrierte schweizerische, 1 mal monatlich.\nPreis Fr. 5.\nHerausgegeben von Otto Sutermeister. 26. Jahrgang.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4825,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1784,
+    "lines": 39,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:43:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p197",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p197.jpeg",
+      "bytes": 271766,
+      "sha256": "3e4eb1f6ab76e88954893a4696160bf9b627a63f00a8191fc9411aecc7709af4",
+      "sha256_of": "original",
+      "working_copy": "1899_p197.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:43:08+00:00"
+  }
+}

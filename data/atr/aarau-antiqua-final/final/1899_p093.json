@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p093",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p093.jpeg",
+    "bytes": 277424,
+    "sha256": "e60583ab801cc458180da44361d27508b30fbe575e349accaf163251f6869fac",
+    "sha256_of": "original",
+    "working_copy": "1899_p093.jpeg"
+  },
+  "text": "85\nHaus-\nNr.\n1144 † Derselbe. Gewächshaus. (Vor dem Haldenthor.)\n1145 Bertschi-Ackermann, Emil, Ökonom. (Gönhardfeldweg.)\n1146 Lüscher-Umiker, H., Mechaniker. (Bankstraße.)\n1147 Vogel-Wassmer, R., Kaminfeger. (Entfelderstraße.)\n1148 † Schäfer-Troller, A., Architect. Magazin. (In der Gais.)\n1149 † Derselbe. Materialschuppen. (In der Gais.)\n1150 Trüb-Müller, Aug., Fabrikant. (Gönhardfeldweg.)\n1151 † Fleiner, Alberts Erbschaft. Wagenremise.\n1152 † Stephani-Wettler, Albertine. Holzschopf. (Bachstraße.)\n1153 † Dr. Hegar-Bolley, Friedrich. Holzhaus. \"\n1154 Spinner-Billo. (Bachstraße.)\n1155 Spühler-Frey, Joh. Jak. (Bachstraße.)\n1156 Frey, Eugen, Rentier.\n1157 † Gänslen-Landolt, Karl. Remise. (Obere Vorstadt.)\n1158 † Jenny & Weigel, Fabrikgebäude. (Tell.)\n1159 † Gautschl-Roth, Rud., Ökonom und Gautschl, Friedr. Stallung.\n(Tell.)\n1160 Wolfsgruber-Küenze, Gottfr., Photograph. (Bahnhofstraße.)\n1161 Kirchner-Vonwyler, Ida. (Graben.)\n1162 Abgetragen.\n1163 † Fleiner, Alb., Fabrikants Erbschaft. Cementmühle. (Erlins-\nbacherstraße.)\n1164 † Dieselbe. Magazin. (Erlinsbacherstraße.)\n1165 † Einwohnergemeinde Aarau. Kraftcentrale. (Erlinsbacher-\nstraße.)\n1166 Siebenmann-Siebenmann, Gotth., Part. (Gartenstraße.)\n1167 † Derselbe. Wasch- und Holzhause.\n1168 † Schmidt-Henz, Hans. Gartenhaus. (Schachen.)\n1169 Henz-Plüss, Jakob, Kaufmann. (Vordere Vorstadt.)\n1170 Römisch-katholische Kirche. (Kasinostraße.)\n1171 Abgetragen.\n1172 Wydler, Hrchs., Färbers Söhne. (Ziegelrain.)\n1173 Diakonissen-Station. (Bahnhofstraße.)\n1174 Spar-, Leih- und Diskontokasse. (Bachstraße.)\n1175 Wehrli-Märk, Emil, Kassier. \"\n1176 Heuberger, Karl, Coiffeur. (Kasinostraße.)\n1177 † Hess, Alexander, Kaufmann. Bienenhaus. (Weinberg.)\n1178 † Jura - Cement - Fabriken. Portlandcementfabrik. (Scheiben-\nschachen.)\n1179 † Dieselben. Turbinenhaus. (Scheibenschachen.)\n1180 Komptoir. \"\n1181 † \" Schuppen. \"\n1182 † Seiler-Hanhart, A., Bäcker. Holzhaus. (Vor d. Haldenthor.)\n1183 Einwohnergemeinde Aarau. Saalbau. (Schloßplatz.)\n1184 † Sauerländer-Frey, Remig. Buchbinderei. (Laurenzenvorstadt.)\n1185 Keller, Ida, Glätterin. (Rain.)\n1186 † bis 1194. Staat Aargau. Kantonsspital. (Gais.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17183,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2149,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:02:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p093",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p093.jpeg",
+      "bytes": 277424,
+      "sha256": "e60583ab801cc458180da44361d27508b30fbe575e349accaf163251f6869fac",
+      "sha256_of": "original",
+      "working_copy": "1899_p093.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:02:12+00:00"
+  }
+}

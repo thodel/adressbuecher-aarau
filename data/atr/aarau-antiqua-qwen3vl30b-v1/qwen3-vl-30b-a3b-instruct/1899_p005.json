@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p005",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p005.jpeg",
+    "bytes": 234467,
+    "sha256": "ec2c560feb16a988173515716804ede0326546c105c97935164c67e1e3ad78ed",
+    "sha256_of": "original",
+    "working_copy": "1899_p005.jpeg"
+  },
+  "text": "Handels- und Gewerbe-Adressbuch\nfür den\nKanton Aargau.\nSeparat-Auszug:\nAdressbuch\nder\nStadt Aarau\n1899.\nIX. Ausgabe.\nBearbeitet\nvon\nG. Vogel,\nPolizeilieutenant, Aarau\nBERN,\nPOLYTECHNISCHE ANSTALT FÜR VERLAG UND PUBLIZITÄT.\nAARAU,\nH. R. SAUERLÄNDER & CIE.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 876,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 254,
+    "lines": 17,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 14.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0079,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:22:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p005",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p005.jpeg",
+      "bytes": 234467,
+      "sha256": "ec2c560feb16a988173515716804ede0326546c105c97935164c67e1e3ad78ed",
+      "sha256_of": "original",
+      "working_copy": "1899_p005.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:22:45+00:00"
+  }
+}

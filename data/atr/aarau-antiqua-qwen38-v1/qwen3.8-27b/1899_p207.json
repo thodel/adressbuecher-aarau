@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p207",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p207.jpeg",
+    "bytes": 284614,
+    "sha256": "7d50fa8b215dea96c53065c409a884966704000e3ff34aedb532b568edb4ad18",
+    "sha256_of": "original",
+    "working_copy": "1899_p207.jpeg"
+  },
+  "text": "103\n  2. Das kantonale Antiquarium, zuerst hervorgegangen aus der\nSammlung römischer Alterthümer von Vindonissa, seit den 60er Jahren\nin Aarau untergebracht. Objekte aus der prähistorischen, der\nrömischen, der allemannischen Periode und aus dem Mittelalter.\nVon hervorragendem Werth sind, abgesehen von den herrlichen\nGlasmalereien der ehemaligen Benediktinerabtei Muri aus dem\n16. Jahrhundert, das Lunkhofener Mosaik, eine antike Thonbüste,\ndie römischen Bronzen, Thonlampen und Glaswaren, ferner die\nägyptische Sammlung, eine große spätgothische Wettinger Truhe,\nendlich eine beträchtliche Anzahl römischer Inschriftensteinе.\nKonservator: Prof. J. Hunziker.\n  3. Die Kunstsammlung. Ölgemälde (Böcklin's Muse v. Anakreon),\nAquarelle, Sculpturen, Kupferstiche.\nKonservator: Professor M. Wolflinger.\n(Siehe auch Kunstverein.)\n  4. Sammlung der Geographisch-Kommerziellen Gesellschaft.\n(Siehe auch Vereine.)\nDie ethnologische Sammlung.\nDie photographische Sammlung.\nDas schweizerische Werthzeichenmuseum u. a.\nII. Kantonales naturhistorisches Museum.\n(Altes Kasino. Kasinostraße.)\n  Dasselbe ist eine der bemerkenswerthesten Sehen swürdigkeiten\nvon Aarau. Es besteht aus der Vereinigung der Sammlungen des\nStaates mit denen der Aargauischen Naturforschenden Gesellschaft.\nDas Museum ist jeweilen am Mittwoch und Sonntag Nachmittag\nvon 2-4 zu freiem Besuche geöffnet. In der Zwischenzeit öffnet\n(gegen eine Gebühr) der Abwart. Konservator: Dr. F. Mühlberg.\nd. Kantonale Krankenanstalt.\n(In der Gais. Buchserstraße.)\n  Anstaltsärzte:\nOberärzte: Dr. Bircher, Heinrich, für die chirurgische Abteilung;\nzugleich Direktor.\nKalt, Alfred, für die medizinische Abteilung mit Gebäranstalt\nund Hebammenschule.\nTarif:\n(s. Kostenvergütungsdekret vom 10. Juli 1888):\nDie tägliche Verpflegungsstaxe beträgt bei Verpflegung in den\ngewöhnlichen Krankensälen für selbstzahlende Patienten je nach\nihren Vermögens- und Erwerbsverhältnissen\n  wenn sie Kantonsbürger      sind 90 Cts. bis Fr. 3.\n  \"            \" Nichtkantonsbürger \"       Fr. 2 bis Fr. 4.\nKantonsangehörige Kinder unter 10 Jahren bezahlen 70 Cts. bis\nFr. 2. Kantonsfremde Kinder mindestens Fr. 1. 50.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 288058,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2144,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:38:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p207",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p207.jpeg",
+      "bytes": 284614,
+      "sha256": "7d50fa8b215dea96c53065c409a884966704000e3ff34aedb532b568edb4ad18",
+      "sha256_of": "original",
+      "working_copy": "1899_p207.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:38:18+00:00"
+  }
+}

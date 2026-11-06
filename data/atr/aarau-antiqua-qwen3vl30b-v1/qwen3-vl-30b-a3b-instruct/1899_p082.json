@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p082",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p082.jpeg",
+    "bytes": 263997,
+    "sha256": "8d9c5af1752b19cea9d22b68a393e802be692381769b6796edebf35b95f11308",
+    "sha256_of": "original",
+    "working_copy": "1899_p082.jpeg"
+  },
+  "text": "74\nHaus-\nNr.\n955 Sandmeier-Rohr, Susette, Witwe, Part.\n— Gottlieb, Buchbinder.\nKäser-Müller, Anna, Barbara, Part., von Oberflachs.\nMärki-Urech, Heinrich, Magaziner, von Mandach.\n956 Fischer-Frei, Albert, Sekretär.\n957 † Gemeinde Aarau. Gebethalle.\n1123 † Dieselbe. Materialschuppen.\n1224 † Gewächshaus.\n958 Baumann-Gysi, Heinrich, Ökonom. (Erbschaft.)\n— —, Bertha, Witwe, Part.\n— -Wacker, Eugen, Weinhändler. ⇨\n959 † Dieselbe. Scheune.\n1378 † \" Wasch- und Holzhaus.\n\nEntfelderstrasse.\n960 * Zschokke-Faure, Konradin, Ingenieur.\nDoser-Schröder, Leop., Direktionssekretär, v. Rheinfelden.\nZschokke-Bodmer, Hermann (Bureau), ⇨ Generalagentur\nder Basler Feuer- und Transportversicherungs-Gesell-\nschaften.\n— -Offenhäuser, Elise, Pfarrers Witwe.\n961 † Derselbe. Waschhaus.\n962 \" Abgetragen.\n1200 Zschokke-Faure, Konradin, Ingenieur. ⇨\n1202 * Derselbe. Technisches Bureau.\n1205 † Bargetzi-Wyss, Oswald, Ingenieur, von Solothurn.\n963 Derselbe. Holz- und Gefügelhaus.\n1523 * Siebenmann, Friedrich, Bierbrauer, Stadtrat. ⇨ „Chalet\nzum Adlerbräu“.\n— Kuhn, Hans, Wirt.\n964 Bär, Rudolf, Schreinermeisters Kinder.\n—, Adele, Modistin.\n—, Otto, Drechsler.\n—, Marie, Arbeitslehrerin.\nMeyer-Meischer, Friedrich, Schreiner, v. Roggwyl (Bern).\n965 † Dieselben. Holzhaus.\n966 Wespi-Zurlinden, A., Wwe., Hafnergeschäft.\n— Karl, Sohn, Hafnermeister.\nRauch-Baldeschwyler, Bertha, Part., v. Mühlhausen (Elsäß.)\nBaldeschwyler, Mathilde, Part., von Laufenburg.\n1281 † Dieselbe. Materialschuppen.\n967 * Dieselbe.\nHaller-Widmer, Gotthilf, Kondukteur, von Kölliken.\nGuggisberg-Hagenbuch, Bertha, Witwe, Part., von Belp\n(Bern).\nHohler, Lidia, Part., von Zuzgen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5021,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1631,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:30:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p082",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p082.jpeg",
+      "bytes": 263997,
+      "sha256": "8d9c5af1752b19cea9d22b68a393e802be692381769b6796edebf35b95f11308",
+      "sha256_of": "original",
+      "working_copy": "1899_p082.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:30:22+00:00"
+  }
+}

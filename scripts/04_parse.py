@@ -39,7 +39,8 @@ TITLES = {"Dr.", "Dr. med.", "Dr. phil.", "Dr. jur.", "Prof.", "Regt.", "Pfr."}
 ADDR_RE = re.compile(r"^(?P<street>.+?)\s+(?P<no>\d+\s?[a-z]?\.?(?:\s?[a-z]\.?)?)\.?$")
 ROLE_RE = re.compile(r"^(Wohnung|Werkstätte|Geschäft|Magazin|Bureau|Laden|Comptoir|Atelier)\s*[:,]?\s*", re.I)
 ORIGIN_RE = re.compile(r"^(?:von|v\.)\s+(?P<place>.+?)(?:\s*\((?P<canton>[^)]+)\))?$")
-RUNNING_HEAD = re.compile(r"^\d+\s*$|^(\d+\s+(—\s+)?)?[A-ZÄÖÜ][\w-]+\.?\s+—\s+[A-ZÄÖÜ][\w-]+\.?(\s+\d+)?$|^Alphabetisches Verzeichnis")
+RUNNING_HEAD = re.compile(r"^\d+\s*$|^(\d+\s+(—\s+)?)?[A-ZÄÖÜ][\w-]+\.?\s+—\s+[A-ZÄÖÜ][\w-]+\.?(\s+\d+)?$"
+                          r"|^(\d+\s+)?(Alphabetisches Verzeichnis|Geschäfts- und Gewerbetreibende|Verzeichnis der Gebäude[^,]*)\.?(\s+\d+)?$|^—\s*\d+\s*—$")
 FIRM_RE = re.compile(r"&\s*(Cie|Co|Comp|Sohn|Söhne)\b|\bCie\.|\bGebr(üder|\.)|\bSöhne\b|^\S*fabrik\.|\bAktiengesellschaft\b|\bA\.-G\.", re.I)
 IDEM_RE = re.compile(r"\b(id\.|idem|dito|do\.)\s*", re.I)
 
@@ -52,11 +53,14 @@ def prenormalise(text: str) -> str:
     t = re.sub(r"^(\s*)\*\s*", r"\1*", t, flags=re.M)
     t = re.sub(r"^\*\t", "*", t, flags=re.M)
     t = re.sub(r"\t+", "  ", t)
+    t = re.sub(r"—?\s*(->|⇒|☞|☎|→)\s*—?", " [tel] ", t)          # Telefonzeichen als Pfeil/Hand (1896)
+    t = re.sub(r"—\[tel\]—", "[tel]", t)
+    t = re.sub(r"[ ]{2,}\[tel\]", " [tel]", t)
     return t
 
 
 ENTRY_START = re.compile(r"^(\*|—|--|-\s|\[handschriftlich)|^\*?\s*[A-ZÄÖÜ][\w'.-]+(\s+(geb\.|von|de|&|u\.|und)\s+[\w'.-]+)?\s*,")
-COMPLETE_END = re.compile(r"\d+\s?[a-z]?\s*\.?\s*(\[tel\])?\s*$")
+COMPLETE_END = re.compile(r"\d+\s?[a-z]?\s*\.?\s*(\[tel\])?\s*(\([^)]*\)\.?)?\s*$")
 
 
 def page_to_entries(text: str) -> list[tuple[int, int, str, str]]:
@@ -77,7 +81,14 @@ def page_to_entries(text: str) -> list[tuple[int, int, str, str]]:
         prev_entry = entries[-1] if entries and entries[-1][3] == "entry" else None
         starts = bool(ENTRY_START.match(s))
         complete = bool(prev_entry and COMPLETE_END.search(prev_entry[2]))
-        if prev_entry and not complete and (not starts or s[:1].islower() or s.startswith("(")):
+        first = s.split(",")[0].strip()
+        abbrev_start = first in STATUS or first.rstrip(".") + "." in STATUS or (first.endswith(".") and len(first) <= 8) \
+            or first in ("Witwe", "Wittwe", "Sohn", "Tochter", "Part", "Wwe")
+        if prev_entry and s[:1].islower():
+            lf, lt, t, k = prev_entry          # Kleinbuchstabe am Zeilenanfang: immer Fortsetzung
+            entries[-1] = (lf, i, (t[:-1] + s) if (t.endswith("-") and not t.endswith(" -")) else (t + " " + s), k)
+            continue
+        if prev_entry and not complete and (not starts or s.startswith("(") or abbrev_start):
             lf, lt, t, k = prev_entry
             t = (t[:-1] + s) if (t.endswith("-") and s[:1].islower()) else (t + " " + s)
             entries[-1] = (lf, i, t, k)
@@ -234,6 +245,36 @@ def forename_lexicon(texts: list[str]) -> set[str]:
     return {k for k, v in lex.items() if v >= 2}
 
 
+def _ckey(t: str) -> str:
+    t = t.lower().replace("ae", "ä").replace("waaren", "waren").replace("th", "t").replace("ß", "ss")
+    return re.sub(r"[^a-zäöü]", "", t)
+
+
+def class_vocab() -> set[str]:
+    p = CSV_DIR / "06_occupation_classes.csv"
+    if not p.exists():
+        return set()
+    with p.open(encoding="utf-8") as fh:
+        return {_ckey(r["class"]) for r in csv.DictReader(fh)}
+
+
+CLASS_VOCAB = class_vocab()
+NOT_HEADING = re.compile(r"^St\. |^(General|Haupt|Lokal|Bezirks)?[Aa]gent|^(Präsident|Direktor|Kassier|Verwalter|Aktuar|Inspektor|Aktiengesellschaft|Filiale)\b")
+
+
+def is_heading(t: str) -> bool:
+    """Rubrik im Berufsregister: im Klassenverzeichnis der Inhaltsverzeichnisse, oder kurz
+    (≤ 4 Wörter), ohne Komma/Ziffer/Trennstrich am Ende und mit Plural- oder Sammelendung."""
+    t = t.strip().rstrip(".:").strip()
+    if not t or "," in t or re.search(r"\d", t) or t.endswith("-") or t[:1].islower() or NOT_HEADING.match(t):
+        return False
+    if _ckey(t) in CLASS_VOCAB:
+        return True
+    head = re.sub(r"\s*\(.*\)$", "", t)
+    words = head.split()
+    return 1 <= len(words) <= 4 and re.search(r"(en|er|ern|innen|eien|ungen|ereien|anstalten|geschäfte|waren|artikel|händler|fabrikation)$", words[-1]) is not None
+
+
 HEADING_RE = re.compile(r"^(?!—)[A-ZÄÖÜ][^\d,;]{2,70}[.:]?$")
 CROSSREF_RE = re.compile(r"^\(?\s*(Siehe|siehe|Im weitern siehe|Vergl\.|S\.)\b")
 
@@ -249,12 +290,14 @@ def parse_page(text: str, volume: str, page: int, section: str = "einwohner",
         if section == "berufe":
             if CROSSREF_RE.match(t):
                 continue
-            if kind == "other" or (HEADING_RE.match(t) and "," not in t):
+            if is_heading(t):
                 heading = t.rstrip(".:").strip()
                 prev = ""
                 continue
         elif kind == "other":
             continue                      # Titel, Kopfnoten («Bürger sind Diejenigen …»)
+        if section == "berufe" and kind == "other":
+            continue                      # Fliesstext von Agenturen, Kopfnoten
         rec = parse_entry(t, prev, prev_rec, forenames)
         rec["heading"] = heading
         prev = rec["surname"] or prev

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p080",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p080.jpeg",
+    "bytes": 262858,
+    "sha256": "57cd7b8e11dba5e84e390e34d8def6a791b42bd22172f5f06db7ad4716d03ae9",
+    "sha256_of": "original",
+    "working_copy": "1896_p080.jpeg"
+  },
+  "text": "58\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n737 Siebenmann-Merz, Emil, Sekretär und Betriebsbeamter.\nFrey-Pfiffer, Maria, Witwe, Part., von Zurzach.\nWidmer-Rohner, Xaver, Kanzlist, von Schneisingen.\n738 † Walther-Matter, Verena, Oekonom's Witwe. Scheune.\n739 Dieselbe. Wohnhaus.\nWalther, Jakob, Sohn, Ökonom.\nWernli-Wächter, Johann, Weichenwärter, von Thalheim.\nKäser-Laurent, Emil, Gärtner, von Oberflachs.\n740 † Dieselbe. Schopf.\n1402 † Dieselbe. Pferdestall.\n741 Gloor-Lehmann, Wilhelm, Fuhrmann, von Leutwyl.\nSchweizer-Siebenmann, Sophie, Wwe., v. Basel. Bettwarengeschäft.\n742 † Fischer, Friedrich, Fuhrmann. Scheune.\n743 † Keller-Berney, Abraham, Mechaniker. Metaldreherei.\n\nZiegelrain.\n\n744 {\n745 Abgetragen; an deren Platz\n746 {\n1400 † Kern & Cie. Fabrikgebäude.\n747 * Dieselben. → Fabrikgebäude. Fabrikation mathematischer und geo-\nmetrischer Instrumente.\nHunziker-Leuch, Edwin, Commis, von Oberkulm.\n748 † Dieselben. Fabrikgebäude.\n749 † „ Holzhans.\n750 → Kuhn-Buser, Alfred, Stadtrat, Schlosserei u. mech. Werkstätte.\n751 Strich-Brack, Julius Wilhelm, von Aachen (Preussen). Halblein-\nund Halbwollstoff-Fabrikation.\nBrack, Jakob, Part., von Elfigen.\nNussbaum-Finkbonner, Trinetie, Witwe, von Densbüren.\nNussbaum, Hanna, Kleinkinderlehrerin, von Densbüren.\nNussbaum, Frida, v. Densbüren, Aufseherin in der Schuhfabrik Bally.\nMüller-Nussbaum, Sara, Part., von Basel.\nRiner-Hächler, Joseph, Kondukteur.\nHächler, Luise, Weißnäherin, von Buchs.\nSchmuziger-Visel, Wilhelmine, Part.\n1316 † Derselbe. Schopf.\n752 * Holzach, Friedrich, Metzger. Schweinemetzq.\nBaumann-Frei, Anna, Näherin, von Attelwyl.\n753 Huber-Bircher, Heinrich, Drechsler. Mechanische Drechsleri.\nKistler-Kull, Jakob, Steuerpräsident, von Bözen.\n754 * Gemeinde Aarau.\nVorsteherin: Ortlieb geb. Bertschi, Luise, von Behlenheim (Elsass).\nBrunnhöfer-Gietzertanner, Verena, Seilers Witwe. Seilerwaren-\nverkauf.\nRothpletz-Hassler, Rudolf, Metzger. Bäckereiwarenverkauf.\nTheez-Amsler, Emilie, Schirmmacherin v. Paris. Schirmverkauf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16422,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2011,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:48:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p080",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p080.jpeg",
+      "bytes": 262858,
+      "sha256": "57cd7b8e11dba5e84e390e34d8def6a791b42bd22172f5f06db7ad4716d03ae9",
+      "sha256_of": "original",
+      "working_copy": "1896_p080.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:48:35+00:00"
+  }
+}

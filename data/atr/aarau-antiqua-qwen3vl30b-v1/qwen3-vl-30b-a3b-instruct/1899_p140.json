@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p140",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p140.jpeg",
+    "bytes": 287356,
+    "sha256": "c9f52308353abc216d715ccf6ec028e64b296eec2930aa51db46b67e82a28e1a",
+    "sha256_of": "original",
+    "working_copy": "1899_p140.jpeg"
+  },
+  "text": "36\nSchatzmann geb. Siegrist, Anna, Part., in der Gais 1483.\nSchaub, Adelb., Gipsmeister, ⚭ Pelzgasse 69.\n— Bertha, Fabrikarbeiterin, vor dem Haldenthor 1084.\n— Karl, Schneider, Rain 833.\n— Pauline, Fabrikarbeiterin, vor dem Haldenthor 1084.\n— Wilhelm, Taglöhner, vor dem Haldenthor 1084.\nSchauer, Joseph, Schneider, vor dem Haldenthor 809.\nScheibler, Alfr., Sattler u. Tapezierer, Möbelhdlg., Adelbändli 173.\n— Fritz, Küfer, Rain 877 b.\nScheidegger, Dr., Edwin Ernst, Arzt, ⚭ Bahnhofstraße 1317.\n— Joh. Ulrich, Milch-, Butter- und Käsehandlung, Holzmarkt 663.\nSchenk, Adolf, Cementarbeiter, Halden 287.\n— Johann, Schuhmacher, Adelbändli 85 a.\nSchenker, Adrian, Magaziner, Halden 289.\n— Adolf, Fachlehrer, Graben 352.\n— Augustin, Fuhrmann, vor dem Haldenthor 808.\n— Gottlieb, Dr. med., ⚭ Bahnhofstraße 1289.\n— Gustav, Bezirkstierarzt, Schmiedgasse 619.\nScheuermann, Emilie Part., Metzgergasse 105.\nScherz, Karl Niklaus, Wirt z. „Löwen“, vordere Vorstadt 681.\nSchibler, Fritz, Coiffeur, Kronengasse 34.\n— Rudolf, Aufseher, Telli 445.\nSchibli, Alfred, Chef der Militärkanzlei, Graben 219.\n— Anna, Damenschneiderin, Graben 219.\n— geb. Jäggi, Anna Maria, Witwe, Part., Graben 219.\n— Karl, Bauführer, Graben 219.\nSchiesser, Hermann, Kaufmann, ⚭ Wohnung Graben 206, Käsehandlung Pelzgasse 121.\n— Heinrich, Kanzleigehilfe der Krankenanstalt, in der Gais 1186.\nSchilling, August, Wirt z. Kettenbrücke, ⚭ Zollrain 179.\nSchindler geb. Trümpi, Emma, Entfelderstraße 973.\nSchlatter, August, Part., Metzgergasse 103.\n— geb. Bühler, Maria, Witwe, Kirchhof 80.\n— Friedrich, Lokomotivführer, Laurenzenvorstadt 1379.\nSchlumMBERGER, Reinhardt, Wirt z. „Graben-Allee“, Graben 1237.\nSchmid, Albert, Major, Instr.-Offizier, jenseits der Aare 302.\n— Albert, Schriftsetzer, vor dem Haldenthor 1332.\n— Bruno, Magaziner, Gieshügel 1102.\n— Daniel, Gärtner, Scheibenschachen 1278.\n— Frida, Anna und Sophie, Weißnäherinnen, h. d. Bahnhof 494.\n— Hans, Briefträger, Stadthof 92 d.\n— Heinr., Kaufmann, Manufakturwarenhandlg., Laurenzentorg. 120.\n— Hermann, Stadtpolizist, Schachen 732.\n— Jakob, Ingenieur, ⚭ Bachstraße 1138.\n— Johann Baptist, Mineralwasserfabrikant, Rathausgasse 46. Fabrik ⚭ Hammer 183.\n— Johann Friedrich, Schneider, Halden 264.\n— geb. Maurer, Mathilde, Negotiantin, Comestibleshandlung, Rathausgasse 29.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6701,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2291,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:36:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p140",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p140.jpeg",
+      "bytes": 287356,
+      "sha256": "c9f52308353abc216d715ccf6ec028e64b296eec2930aa51db46b67e82a28e1a",
+      "sha256_of": "original",
+      "working_copy": "1899_p140.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:36:22+00:00"
+  }
+}

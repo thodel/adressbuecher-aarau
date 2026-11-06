@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p057",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p057.jpeg",
+    "bytes": 251917,
+    "sha256": "d8d0baa4663087fecc3f59adf4f85353b0a38b9544d437e88a27193fe1642137",
+    "sha256_of": "original",
+    "working_copy": "1896_p057.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 85\nHaus-\nNr.\n412 Windisch-Kohler, Samuel, von Densbüren. Generalagentur der\nschweiz. Rentenanstalt in Zürich.\nFelber-Obrist, Johann, Postkondukteur, von Oberbözberg.\nZüllig-Dornbirrer, Joh. Georg, Bahngestellter (Kassier), von\nArbon (Thurgau).\n413 Isler, Emil Peter, Fürsprech und Notar, von Wohlen. Advokatur-\nund Notariatsbureau.\nIsler-Troller, Maria, Part., von Wohlen.\nHolzach-Wäffler, Dietrich, Part.\n414 † Derselbe. Holzschopf.\n415 Oehler-Frey, Bertha, Witwe.\n⇒ Oehler-Theiler, Oskar, Ingenieur.\nTheiler, geb. Rebmann, Elise, Part., von Wädensweil (Zürich).\n416 † Dieselbe. Wasch- und Holzhaus.\n417 † Dieselbe. Oekonomiegebäude.\n418 * ⇒ Sauerländer-Frey, H. R.\nKonsularagentur der Vereinigten Staaten Nordamerikas.\nBureau der Firma H. R. Sauerländer & Cie. Verlagsbuchhandlung.\nExpedition des Amtsblattes des Kantons Aargau.\n\" \" Aargauischen Polizeianzeigers (Fahndungsblatt).\n\" \" der Schweizerischen Bienenzeitung.\n\" \" illustrierten schweiz. Jugendblätter. Monatsschrift.\n\" \" Vierteljahresschrift Vom Jura zum Schwarzwald.\nCuster-Sauerländer, Mathilde, Witwe, Part.\nSauerländer-Custer, Emma, Witwe, Part.\nEhlers-Sauerländer, Heinrich Konrad, Buchhändler, v. Honolulu\n(Sandwichs-Inseln).\n419 † Derselbe. Oekonomie- und Wohngebäude.\nBossert-Gloor, Jakob, Gärtner und Portier, von Birr.\n420 † Derselbe. Buchdruckerei.\n421 † \" Abgetragen; an dessen Platz\n1184 † Buchbinderei.\n422 Frey-Frey, Mina, Stadtrats Witwe.\nFrey, Robert, Sohn, Fabrikant.\nFrey-Schindler, Max, Kaufmann.\n⇒ Frey, Robert, und Frey, Max. Chokoladefabrikation R. & M. Frey.\n423 1264 † Dieselben. Fabrikgebäude.\n1292 † \" Maschinenhaus.\n424 † Frey-Frey, Mina, Stadtrats Witwe. Waschhaus.\n425 † Dieselbe. Scheune und Schopf.\n426 † \" Holzschopf.\n427 † \" Geflügelhaus.\n\" \" Gewächshaus.\n1291\n428 Frey-Frey, Adolf, Dr. med.\nSauerländer-Frey, Remigius, Buchdruckereibesitzer.\n429 † Derselbe. Scheune und Remise.\n430 † \" Treib-, Wasch- und Holzhaus.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5401,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1966,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:04:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p057",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p057.jpeg",
+      "bytes": 251917,
+      "sha256": "d8d0baa4663087fecc3f59adf4f85353b0a38b9544d437e88a27193fe1642137",
+      "sha256_of": "original",
+      "working_copy": "1896_p057.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:04:41+00:00"
+  }
+}

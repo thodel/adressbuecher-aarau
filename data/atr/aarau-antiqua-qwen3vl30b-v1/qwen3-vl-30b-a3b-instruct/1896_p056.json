@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p056",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p056.jpeg",
+    "bytes": 254365,
+    "sha256": "ff79a61d55022df773805b51da6acefd7e9f27b2e874bd4e604f638c502036f3",
+    "sha256_of": "original",
+    "working_copy": "1896_p056.jpeg"
+  },
+  "text": "34 Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\nLaurenzenvorstadt.\n390  Baumann, Karl u. *Eugen. Firma: Gebr. Baumann, Weinhdlg.\nBaumann-Hemmann, Karl, Kaufmann.\nBaumann-Baumann, Ida, Wirtin zum Freihof, von Stilli.\nZimmerli geb. Suter, Louise, Witwe, Part., von Aarburg.\n391 † Dieselben. Weinkeller und Brennerei.\n392 a† Dieselben. Trinkhalle.\n392 b* Dieselben. Gartenhaus.\n393 † Dieselben. Fassremise.\n1257 † Dieselben. Fassremise.\n1258 † Abgetragen.\n1374 † Fassremise.\n394 Sauerländer-Benz, Elise, Witwe. Erbschaft.\nBolliger-Kielholz, Albert, Bankbuchhalter, von Küttigen.\nLutz, Johann, Kaufmann, von Basel.\nStäubli-Lutz, Johann Heinrich, von Horgen (Zürich), Kassier der\nGüterexpedition.\nWietlisbach-Frey, Sophie, Witwe, Part., von Bremgarten.\n395 † Gebr. Baumann. Weinkeller.\n396 † Sauerländer-Benz, Elise, Witwe, (Erbschaft) Wasch- u. Holzhaus.\n397  Zürcher-Wirz, Alfred, Arzt.\n398 † Derselbe. Holzhaus.\n1321 † Derselbe. Remise.\n1326 † Derselbe. Waschhaus.\n399 Wäffler-Stäuble, Heinrich, Turnlehrer, von Basel.\nGiger-Frick, Adolf, Postcommiss, von Gontenschwyl.\n400 † Derselbe. Holzhaus.\n1404 † Derselbe. Nebengebäude.\n401 Roth-Schmuziger, Alfred, Oberst, von Bühler (Appenzell).\nHeuberger-Siebenmann, Gottlieb, Sekretär. Agentur der schweiz.\nRentenanstalt.\n402 † Derselbe. Holzschopf.\n403 Frey-Hotze, Ida, Witwe, Part.\nStreit-Hegnauer, Mina, Witwe, Part., von Zimmerwald (Bern).\nGraf, Rudolf, Schriftsetzer, von Küttigen.\n404 † Dieselbe. Holzhaus.\n405 † Bally-Arndt, Eugen, Fabrikant. Fabrikgebäude mit Comptoir.\n406 † Derselbe. Nebengebäude.\n407 † Derselbe. Holzschopf.\n408 * Ringier-Müller, Staatsschreibers Witwe, Erbschaft.\nRingier, Adolf, Lagerhausdirektor.\nKurz, Sophie, Part., von Schwamendingen (Zürich).\n409 † Dieselbe. Holzhaus.\n410 Hommel-Stein, August, Mechaniker.\nLindt geb. Clias, Karolina, Pfarrers Witwe, von Bern.\nErni, Leonhard Arnold, Maschinentechniker, von Zürich.\n411 † Derselbe. Holzschopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5392,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1929,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:04:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p056",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p056.jpeg",
+      "bytes": 254365,
+      "sha256": "ff79a61d55022df773805b51da6acefd7e9f27b2e874bd4e604f638c502036f3",
+      "sha256_of": "original",
+      "working_copy": "1896_p056.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:04:36+00:00"
+  }
+}

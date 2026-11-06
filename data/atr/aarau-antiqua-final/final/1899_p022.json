@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p022",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p022.jpeg",
+    "bytes": 279646,
+    "sha256": "09251d3cf5abc53b58b684e836e5740bf6c9862b36d4a3d231540c940554dd95",
+    "sha256_of": "original",
+    "working_copy": "1899_p022.jpeg"
+  },
+  "text": "14\n\nHaus-\nNr.\n152 Wiedehr-Oescher, Viktoria, Witwe, von Zell (Luzern),\n  Wäscherei und Glätterei.\nOescher, Klara, Wäscherin, von Wyl.\nFricker-Häusermann, Verena, Spetterin, von Veltheim.\nHunziker-Müller, Heinrich, Camioneur, von Ob.-Kulm.\nRoth, Katharina, Spetterin, von Ewattingen (Baden).\n153 a* Hassler-Müller, Theodor, Buchbinder.\nZellweger-Fischer, Jak., Büchsenmacher, v. Teufen (Appenz.).\n  — Elise, Glätterin, von Teufen (Appenzell).\nRothpletz-Hunziker, Anna Maria, Part.\n153 b Hassler-Müller, Theodor, Buchbinder.\nBertschi, Bertha, Damenschneiderin, von Dürenäsch.\nBoss-hard, Elise, Privat, von Altstetten (Zürich).\nHolbein-Zimmerli, Eugen, Schreiner, von Steinach (St. Gall.).\n154* Weber-Beck, Gustav, Bezirksarzt.\nSiegrist-Hauri, Anna, Witwe, Wäscherin, von Seengen.\n  — Johann, Sohn, Taglöhner, von Seengen.\nPfenniger-Bayon, Katharina, Sesselflechterin, v. Stäfa (Zch.).\n  — Marie, Weißnäherin, von Stäfa (Zürich).\nGloor, Elise, Fabrikarbeiterin, von Dürenäsch.\nHunziker-Müller, Maria, Schuhmachers, von Unter-Kulm.\n155* Bachmann-Riniker, Johann, Küfer.\nLüscher-Konrad, Theodor, Küfer, von Moosleerau.\n156* Beck-Fisch, Elise, Witwes Erbschaft.\nScharli-Hilliker, Johann, Taglöhner, von Biberstein.\nHäuptli-Schälikli, Jakob, Färber, von Biberstein.\nRyser, Rosa, Weißnäherin, von Villnachern.\nWehrli-Fuss, Barbara, Postfakteurs Witwe, von Asp.\nBürgi-Schmid, Barbara, Part., von Unter-Erlinsbach (Aarg.).\nSenn-Blattner, Karol., Wwe., Bureauangestellte, v. Densbüren.\n157 Schmuziger-Jacot, Karl, Rentier.\n158 Reformierte Kirchgemeinde Aarau. Pfarrhaus.\nWernly-Kraft, Rudolf, ref. Pfarrer, von Thalheim.\nKraft, geb. Gautschl, Auguste Friederike, Wwe., Part., von\n  Brugg.\n159 Bachmann-Riniker, Johann, Küfer. Spezereihandlung.\nMinder-Feuz, Fritz, Bierbrauer, von Huttwyl (Bern).\nLeu-Zimmermann, Jakob, Obergerichtskanzlist, v. Birrenlauf.\nMerz-Gautschl, Heinrich Gottlieb, Part., von Menziken.\n  — Flora, Postangestellte, von Menziken.\nZulauf, Jakob, Postkommis, von Schinznach.\n  Derselbe. Werkstätte und Brennerei.\n1279 +\n160* Gemeinde Aarau.\nRothpletz Rudolf, Metzger.\nIberg-Lüscher, Marie, Witwe, von Küttingen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 102417,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2121,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:44:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p022",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p022.jpeg",
+      "bytes": 279646,
+      "sha256": "09251d3cf5abc53b58b684e836e5740bf6c9862b36d4a3d231540c940554dd95",
+      "sha256_of": "original",
+      "working_copy": "1899_p022.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:44:55+00:00"
+  }
+}

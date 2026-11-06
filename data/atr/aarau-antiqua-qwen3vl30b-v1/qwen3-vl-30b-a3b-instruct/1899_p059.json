@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p059",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p059.jpeg",
+    "bytes": 258137,
+    "sha256": "8fae63dfcbb298350cce6e07191e3b40a03343dda2eea33725796bf07d347ea8",
+    "sha256_of": "original",
+    "working_copy": "1899_p059.jpeg"
+  },
+  "text": "Haus-\nNr.\n616+ Derselbe. Magazin.\n617+ „ Waschhaus.\n618 Berner-Egli, Dr., Hermann, Zahnarzt.\nBerner-Mauch, Rudolf, Part.\n1516 * Siebenmann, Rudolf, Bierbrauer.\nBonneck-Tschanz, Max, Gärtnerei und Blumengeschäft , von Danzig (Preußen).\nMüller-Wassmer, Jakob, Oberaufseher, von Safenwyl.\n619 Willimann, Anton, Lohnkutscher (an der Schmiedgasse aufgenommen).\n620 a Siebenmann, Rud., Bierbrauer. Pinten-Wirtschaft zum Hirschen.\nKaufmann, Otto, Commis, von Buchs (Luzern).\nStänz-Wildi, Rudolf, Schriftsetzer, von Küttingen.\nGeissmann, Xaver, Sekretär, von Hägglingen.\n620 b Derselbe. Kegelbahn.\n\nHinteres Vorstadt.\n621 * Siebenmann-Siebenmann, Rudolf, Partikular.\nHirt-Hirt, Karl, Coiffeur, von Gertwyler (Elsaß).\nGyger-Sommerhalder, Jakob, Polizeiwachtmeister, von Gontenschwyl.\n622 * Derselbe.\nAktiengesellschaft: Druck und Verlag der „Aargauer Nachrichten“. \nKessler-Läuchli, Johann, Verwalter, von Schiers und Klosters (Graubünden).\nJoho, Anna Maria, Part., von Auenstein.\n623 Baumann-Wälti, Maria, Witwe, von Bottenwyl. Kaffee-wirtschaft.\nWalti-Wernli, Hermann, Wagenwärter, von Dürrenäsch.\nMüller-Walti, Maria, Witwe, Weißnäherin, von Bötzbeg.\n624 Bertschinger-Wild, Gustav, von Lenzburg, Spezereihandlg.\nHauri-Gränicher, Karl, Buchhalter, von Seengen.\n\nSchmiedgasse.\n625 Widmer-Eichenberger, Hermann, Küfermeister, v. Hausen.\nBruns-Gattiker, Hermann, Schlosser, von Bremen.\n— obigen Ehefrau, Glätterin,\n— Heinrich, Kaufmann, Sohn,\nSchneider-Egli, Emil Ed., Magaziner, von Pfäffikon.\n626+ Derselbe. Remise und Waschküche.\n619 Willimann-Lehmann, Anton, Part.\n— Fritz, Sohn, Lohnkutscher.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4802,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1587,
+    "lines": 37,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:28:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p059",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p059.jpeg",
+      "bytes": 258137,
+      "sha256": "8fae63dfcbb298350cce6e07191e3b40a03343dda2eea33725796bf07d347ea8",
+      "sha256_of": "original",
+      "working_copy": "1899_p059.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:28:15+00:00"
+  }
+}

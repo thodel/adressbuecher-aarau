@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p189",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p189.jpeg",
+    "bytes": 275097,
+    "sha256": "1d6cfa19e9fab7d2eb238360431558cbe336a9f892fab42fbc79c305ed627a94",
+    "sha256_of": "original",
+    "working_copy": "1896_p189.jpeg"
+  },
+  "text": "Geschäfts- und Gewerbetreibende. 151\nTeppichhandlungen.\nCodoni-Dreßler, Remigius, * Rain 826.\nHaßler, Hans & Cie., * Kasinostr. 578.\nHaßler, Walter, Graben 202.\nHeß, Gebr., * Rathausgasse 4.\nTierärzte.\nFischer-Eglinger, Rudolf, Viehinspektor,\nGais 486.\nSchenker, Gustav, Bezirkstierarzt, Schmied-\ngasse 619.\nTintenfabrikation.\n(Siehe Siegellackfabrikation.)\nTotengräber.\nVogler, Julius, Schmiedgasse 1232.\nThonröhrenfabrikation.\nErnst-Käser, Friedr., * in d. Gais 1353.\nRichner & Rothpletz, * Bahnhofstr. 561.\n(Siehe Inserat Seite 24.)\nTricotfabrikation (Strickwaren).\nKirchhofer-Obrist, Marie, Witwe, Kasino-\nstraße 1130.\nLeutwyler-Hofer, Elise, Ziegelrain 713.\nWernli-Wehrli, Maria, Ziegelrain 710.\nTuchhandlungen.\nAndres-Weber, Friedrich, Ziegelrain 707.\nCodoni-Dreßler, Remigius, * Rain 826.\nDreifuß, Emil, * Graben 352.\nDreifuß, Karl, * vordere Vorstadt 889.\nGamber & Cie., * Rathausgasse 49.\nGerber, Gustav, * vordere Vorst. 670.\nGisi-von Arx, V., * Holzmarkt 664.\nGuyer, Oskar, * Telli 456.\nHemmeler-Türler, Emil, * Metzgerg. 58.\nHeß, Gebr., * „zur Stadt Mühlhausen“,\nRathausgasse 4.\nHefti, Joh. Peter, Metzgergasse 100.\nHerzig, Friedrich, hintere Vorstadt 644.\nHofer, Gottlieb, * Rathausgasse 43.\nMatter, Jakob, Adelbändli 170.\nSchneeburger-Salvi, * Jb., Rathausg. 3.\nSiebenmann, Gebr., * Oberthor 226.\nStrich, Julius, Ziegelrain 751.\nSuter, Albert, Pelzgasse 133.\nWassmer, Fidel, Pelzgasse 133.\nWeber-Suter, Heinrich, (Spezialität in\nDamenkleidern) Laurenzenhorg.1118.\nUebersetzungsbureau.\nMittelschweizer. Geographisch-Kommer-\nzielle Gesellschaft.\nUhrenmacher.\nFrey, Albert, hintere Vorstadt 693.\nHemmeler, Jakob, * Rathausgasse 23.\nHirschy, Joh., Rud., * vord. Vorst. 668.\nLanderer, August, Laurenzenhorg. 120.\nSiegenthaler, Hermann, Hammer 189.\nSuter, Rudolf, Kasinostraße 571.\nUhrenhandlungen.\nFischer, Jonathan, Holzmarkt 1260.\nFrey, Albert, hintere Vorstadt 693.\nHemmeler, Jakob, * Rathausgasse 23.\nHirschy, Joh. Rud., vord. Vorst. 668.\nLanderer, August, Laurenzenhorg. 120.\nMorath, J. W., * Rathausgass 2.\nSuter, Rudolf, Kasinostraße 571.\nUnfallversicherung.\n(Siehe Agenturen.)\nVelo-handlungen.\nWalter-Schmuziger, Aug., Pelzgasse 125.\nVerniklungsanstalt.\nKummler, H. & Cie., hint. d. Platz 212.\nVerbandstoffhandlungen.\nAngst, Gottlieb, * hinter d. Platz 214.\nWagen (öffentliche).\nFleiner (Cementbrennerei), Erlinsbacher-\nstraße.\nSchlachthaus (Viehwage).\nSiebenmann & Cie., * Bahnhofstr. 537.\nSteiner, Samuel, Laurenzenvorstadt.\nWachsfabrikanten.\nMaurer, Emil, * zum Krenz, jenseits der\nAare 1303.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8327,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2523,
+    "lines": 83,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0602,
+    "mean_line_chars": 29.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:18:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p189",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p189.jpeg",
+      "bytes": 275097,
+      "sha256": "1d6cfa19e9fab7d2eb238360431558cbe336a9f892fab42fbc79c305ed627a94",
+      "sha256_of": "original",
+      "working_copy": "1896_p189.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:18:24+00:00"
+  }
+}

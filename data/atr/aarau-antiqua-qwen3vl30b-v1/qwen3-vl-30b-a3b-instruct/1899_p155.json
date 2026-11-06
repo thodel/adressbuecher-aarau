@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p155",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p155.jpeg",
+    "bytes": 280493,
+    "sha256": "591de8dfe3a3748224e57727641d92ad912738e245f3fe20d2cb039661997340",
+    "sha256_of": "original",
+    "working_copy": "1899_p155.jpeg"
+  },
+  "text": "Erny-Fäßler, Emil, Kronengasse 33.\nAgentur des „Phönix“, franz. Mobiliar-Versicherungs-Gesellschaft, der\nSchweiz. Sterbe- und Alterskasse. Gegenseitige Lebensversicherungs- und\nRentenanstalt.\nFricker-Wirz, Friedrich, Rain 825.\nHauptagentur der Lebensversicherungsbank für Deutschland in Gotha.\nHagenbuch, Charles, Rain 819.\nHauptagentur der Mannheimer Spiegelglasversicherungsgesellschaft.\nHoffmann-Gamper, Emil, Kaufmann, Feerstraße 1417.\nGeneralagentur d. „Schweiz. Allg. Versicherungsaktiengesellschaft in Zürich.\nHauptagentur der Zürcher allgem. Unfall- und Haftpflichtversicherungs-\nAktiengesellschaft. Agentur der Lebensversicherungs- und Ersparnisbank\nin Stuttgart. Geschäftsführer der Sektion Aarau des schweizerischen Ver-\nbandes Kreditreform. (Siehe Inserat Seite 22.)\nKeller, Andreas, Bachstraße, Herzoggut 1043.\nHauptagentur der schweiz. Mobiliarversicherungsgesellschaft in Bern.\nWildi-König, Rud., vordere Vorstadt 889.\nGeneralagentur der Basler Lebens- und Unfallversicherungsgesellschaften\n(siehe Inserat Seite 21.)\nWindisch, Sl., Laurenzenvorstadt 412.\nGeneralagentur der schweiz. Rentenanstalt in Zürich.\nWirth, Franz, Zollrain 89.*\nLebens- und Unfall-Versicherung. Auswanderung. (S. Inserat S. 14 u. 15.)\nWyder-Brast, A., Rain 840.\nAgentur der nordischen Feuerversicherungsgesellschaft in London. An-\nnoncen-Expedition für Rud. Mosse in Zürich. Generalagentur der Union\n„Suisse“, Glas- und Wasserversicherung.\nWydler, Jul.,* Notar, Rathausgasse 3.\nHauptagentur der franz. Feuerversicherungsgesellschaft „Phönix“. Haupt-\nagentur der Lebensversicherungsgesellschaft „La National“ in Paris. Agen-\ntur der schweiz. Hagelversicherungsgesellschaft in Zürich.\nZschokke, Hermann, Entfelderstraße 960.\nGeneralagentur der Basler Versicherungsgesellschaft gegen Feuerschaden\nfür die Kantone Aargau, Solothurn und Zug. Generalagentur der Basler\nTransport-Versicherungsgesellschaften für den Kanton Aargau.\n\nApotheker.\nKeusch, Jos. Karl, * vordere Vorstadt 894.\nJung, Ludwig, * Rathausgasse 16. (Siehe Inserat Seite 22.)\nWeibezahl, Leonhard, * Rathausgasse 5.\nWydler, Konrad, * Rathausgasse 23.\n\nArchitekten.\nAmmann, Robert, Feerstraße 1454.\nHäfler, Albert, Stadtbauverwalter, Hammer 188.\nKreb, Karl, Rathausgasse 20.\nMoser, Karl, Rathausgasse 42.\nMüller, Arnold, * jenseits der Aare 346. Zum Schützenhaus.\nÜbernahme von Bauarbeiten jeder Art. Cementröhrenfabrikation.\nRothpletz, Karl, Laurenzenvorstadt 410.\nSchäfer, Adolf, * Gais 1063.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5818,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2443,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:37:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p155",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p155.jpeg",
+      "bytes": 280493,
+      "sha256": "591de8dfe3a3748224e57727641d92ad912738e245f3fe20d2cb039661997340",
+      "sha256_of": "original",
+      "working_copy": "1899_p155.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:37:55+00:00"
+  }
+}

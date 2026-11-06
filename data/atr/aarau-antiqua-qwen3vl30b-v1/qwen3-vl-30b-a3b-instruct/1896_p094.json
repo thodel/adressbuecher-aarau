@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p094",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p094.jpeg",
+    "bytes": 269766,
+    "sha256": "20d3bd63e38de6c675a7e8a7e9cbd2422611473d2cc1c36b4e2f4ff0b53e3016",
+    "sha256_of": "original",
+    "working_copy": "1896_p094.jpeg"
+  },
+  "text": "72\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n963 † Siebenmann, Friedrich, Bierbrauer, Stadtrat. Werkschopf.\nMüller, Siegmund, Zimmermann, von Erlinsbach (Solothurn). (Zimmer-\nmanns-Werkstätte.)\n964 Bär, Rudolf, Schreinermeisters Kinder.\nBär, Rudolf, Schreiner.\nBär, Otto, Drechsler.\nBär, Marie, Arbeitslehrerin.\nBär, geb. Frei, Johanna, Witwe, Part.\n965 † Dieselben. Holzhaus.\n966 Wespi-Zurlinden, Karl, Hafnermeister.\nRauch-Baldeschwyler, Bertha, Part., von Mühlhausen (Elsaß).\nBaldeschwyler, Mathilde, Part., von Laufenburg.\n1281 † Derselbe. Materialschuppen.\n967 Lips-Sager, Kaspar, Postkondukteur, von Urdorf (Zürich).\nGuggisberg-Hagenbuch, Bertha, Witwe, Part., von Belp (Bern).\nHohler, Lidia, Part., von Zuzgen.\n968 Kyburz, Gotthold, Sattler und Tapezierer, von Ober-Entfelden.\n969 Käppeli-Müller, Gottlieb, Dr. jur., Reg.-Rat.\n970 Schmuziger-Freudiger, Traugott, Malermeister.\nAmmann-Strähl, Robert, Hochbaumeister, von Menziken.\nBertschi, Jakob August, Sekretär, von Dürrenäsch.\n971 † Derselbe. Werkstätte.\n972 ⚡ Schmuziger, Friedrich, Dr. med., prakt. Arzt.\n1177 † Derselbe. Bienenhaus.\n973 Schindler-Trümpi, Emma, Fabrikants Witwe, v. Mollis (Glarus).\nAmsler, Bertha, Postdirektors, von Bötzen.\n1134 Dieselbe. Holzremise.\n1075 ⚡ Brentano-Bruggisser, Max, Zahnarzt, von Laufenburg.\nZschokke-Bodmer, Hermann, Agent.\nZschokkestrasse.\n974 Wanger, Gustav, Kassier der Aarg. Ersparniskasse.\nWanger, Sophie, Kassiers.\nWanger, Marie, Part., Kaufmanns.\nWeisshaupt-Landolt, Elisabeth, Witwe, von Wollishofen (Zürich).\n975 Ehrsam-Andres, Emilie, Postbeamten Witwe.\nZschokke-Schmuziger, Arnold, Dr. jur., Staats schreiber.\n976 a† Wanger, Gustav, Kassier. (Holzhaus.)\n976 b† Ehrsam-Andres, Emilie, Postbeamten Witwe. (Holzhaus.)\n977 Stigeler-Schaub, Joseph, Zeughausdirektor, von Reckingen.\nErny-Fassler, Emil, Armenpfleger. Agentur für Feuer- und\nLebensversicherung.\nGartenstrasse.\n978 † Aktienbrauerei Feldschlösschen, Rheinfelden. (Bierkeller.)\n1199 † Dieselbe. Schopf.\n1216 † „ Eiskeller.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5664,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2001,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:08:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p094",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p094.jpeg",
+      "bytes": 269766,
+      "sha256": "20d3bd63e38de6c675a7e8a7e9cbd2422611473d2cc1c36b4e2f4ff0b53e3016",
+      "sha256_of": "original",
+      "working_copy": "1896_p094.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:08:15+00:00"
+  }
+}

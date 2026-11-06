@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p135",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p135.jpeg",
+    "bytes": 277273,
+    "sha256": "f4bf84017617af4c9418b9e475c2d15670249dc9de06bcaeb50759a0b5dadbfd",
+    "sha256_of": "original",
+    "working_copy": "1899_p135.jpeg"
+  },
+  "text": "31\nNotter, Robert, Stadtpolizist, Bachstraße 1040.\nNünlist geb. Müller, Katharina, Taglöhnerin, Halden 268.\nNüsperli, Friedrich, Sattler, Zollrain 53.\n— Friedrich, Postcommis, Zollrain 53.\n— Karl, Postcommis, Zollrain 53.\nNussbaum, Anna Johanna, Gemüsehändlerin, hintere Vorstadt 643.\n— Charles Bernhard, Buchhalter, Gais 487.\n— geb. Finkbohner, Trinette, Witwe, Zollrain 177.\n— Frida, Aufseherin, Zollrain 177.\nNussberger, Sam., Taglöhner, Hammer 188.\nOberli, Richard, Part., Ziegelrain 722.\nOboussier, F. & Cie. (F. L. Oboussier und Fritz Oboussier).\nMech. Baumwollweberei. Bureau Graben 613, Fabrik in Buchs.\n— Friedrich, Fabrikant, Graben 613.\nObrist, Johanna, Speisewirtschaft zur „Telli“, Telli 448.\n— Theodor, Postangestellter, Telli 448.\nOchsner, Johann, Koch, Entfelderstraße 983.\n— Marie, Part., Entfelderstraße 983.\nOehler, A. & Cie. (Alfred Oehler und Oskar Oehler). Maschinen-\nfabrik, Eisengießerei. Gais 1405.\n— Alfred, Ingenieur, Gais 480.\n— geb. Frey, Bertha, Witwe, Laurenzenvorstadt 415.\n— Oskar, Ingenieur, Laurenzenvorstadt 415.\nOehlhafen, Arnold, Sohn, Metzger, hintere Vorstadt 698.\n— Hermann, Bankangestellter, Laurenzenvorstadt 544.\n— geb. Hagnauer, Nanette, Part., Pelzgasse 134.\n— geb. Müller, Elisabeth Luise, Malers Witwe, Halden 256.\n— geb. Ruffi, Anna, Metzgers Witwe, hintere Vorstadt 698.\nOeschger, Klara, Wäscherin, Milchgasse 152.\nOhl, Gustav, Fabrikant, Bachstraße 1048.\nOrtlieb geb. Bertschi, Luise, Aufseherin der Gewerbehalte, Halden 290.\nOsterwalder, Rudolf, Zuschneider, Scheibenschachen 313.\nOtt, Anna, Zettlermeisterin, Adelbändli 81.\n— Jakob, Obergerichtsweibel, Hammer 188.\n— Kaspar, Rentier, Graben 218.\n— geb. Keller, Verena, Part., Bachstraße 1043.\n— Friedrich, Buchhalter, Spezerei-, Milch- und Butterhandlung,\nSalzverkauf, Adelbändli 81.\nOttolini, Jean, Koch, Laurenzenthorgasse 117.\nPabst geb. Schindler, Babette, Part., Entfelderstraße 973.\nPauli, Marie, Spetterin, Schmiedgasse 637.\nPeier geb. Rob, Wilhelmine, Glätterin, Kirchhof 166.\n— Sophie, Glätterin, Kirchhof 166.\nPeschl geb. Schacher, Maria, Witwe, Halden 280 a.\nPeter, Joh. Ulrich, Mechaniker, Werkführer, Bahnhofstraße 1022.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6472,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2136,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:35:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p135",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p135.jpeg",
+      "bytes": 277273,
+      "sha256": "f4bf84017617af4c9418b9e475c2d15670249dc9de06bcaeb50759a0b5dadbfd",
+      "sha256_of": "original",
+      "working_copy": "1899_p135.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:35:48+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p062",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p062.jpeg",
+    "bytes": 266204,
+    "sha256": "1e890a5ec65285160665873fe79c224f6907163a3a5d716590a27f6db0ebc236",
+    "sha256_of": "original",
+    "working_copy": "1899_p062.jpeg"
+  },
+  "text": "84\nHaus-\nNr. 654 u. 655 † Derselbe. Holzschopf.\n1142 † Derselbe. Holzschopf.\n1289 Schenker-Siebenmann, Gottl., Dr. med. prakt. Arzt. ⚫\n1304 † Derselbe. Wasch- und Holzhaus.\n656 * Hassler-Stampfli, Hans, Erbschaft.\n  Hány, Rudolf, v. Kölliken. ⚫ Leder- u. Fourniturenhdlg.\n  Gull-Wild, Bernadina, Wwe., Part., von St. Gallen.\n  —, Emil, Kaufmann, von St. Gallen.\n657 † Derselbe. Holzschopf.\n658 Heuberger-Rychner, Karl. Coiffeurgeschäft. Installation\n  und Handlung elektrischer Apparate.\n  Birchmeier-Felber, Alfred, Lithograph, von Würenlingen.\n  — —, Verena, Merceriegeschäft, von Würenlingen.\n  Näf-Ludwig, Emil, Statistiker, von Aarburg.\n  Andres-Bircher, Bertha, Part.\n  Wanger, Louise, Pfarrhelfers, Part.\n\nKasinostrasse.\n1493 † Heuberger-Bircher, Karl, Coiffeur.\n  Indermauer, Jakob, Metzger (Metzglokal).\n1176 * Derselbe. Wohuhaus.\n  Indermauer-Richner, Elise, Witwe. Spezerei handlung.\n  —, Jakob, Metzger. ⚫ Metzgerei und Wursterei.\n  Heuberger-Wernli, Elisabeth, Witwe.\n  Maritz-Müller, Julius, Sekretär, von Burgdorf (Bern).\n659 * Derselbe. Wohnhaus.\n  Kirchhofer-Obrist,, Maria, Wwe., Part., von Auenstein.\n  —, Maria, Modistin, von Auenstein.\n  Imhof, Lina, Lehrerin.\n  —, Susette, Part.\n660 Häfelin-Hächler, Joseph, Sattler, von Oberwyl.\n  Urben-Flückiger, Johann, von Niederlenz. Milch-, Käse-\n  und Butterhandlung.\n  Bolliger-Schenker, Samuel, Bedienter, von Schloßrued.\n1130 Dürr-Seiler, Hermann, Malermeister.\n  Meyer-Cena, Joseph, Kaufmann, von Knutwyl (Luzern).\n  — —, Magdalena, von Knutwyl (Luzern). Ital. Produk-\n  tenhandlung.\n  Hubacher-Jakob, Jakob, Portier, von Urtenen (Bern).\n1446 † Derselbe. Holzschopf.\n  Schatzmann-Weibel, Alb., Photogr. Atelier, v. Windisch.\n\nHolzmarkt.\n661 Brast, Sophie Ida, und Brast, Rosina Emma. Waffenhdlg.\n  — -Lienhard, Charlotte, Witwe.\n  —, Emma.\n  —, Sophie Ida.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5569,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1824,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:28:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p062",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p062.jpeg",
+      "bytes": 266204,
+      "sha256": "1e890a5ec65285160665873fe79c224f6907163a3a5d716590a27f6db0ebc236",
+      "sha256_of": "original",
+      "working_copy": "1899_p062.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:28:31+00:00"
+  }
+}

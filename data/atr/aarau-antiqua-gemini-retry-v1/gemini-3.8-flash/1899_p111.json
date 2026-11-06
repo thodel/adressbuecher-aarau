@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-gemini-retry-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p111",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p111.jpeg",
+    "bytes": 288991,
+    "sha256": "ab698b83f151e507f9afaedff0bb8f58bb30d0581b49e53b2b9061576124ff09",
+    "sha256_of": "original",
+    "working_copy": "1899_p111.jpeg"
+  },
+  "text": "7\n\nBrunner geb. Lehner, Anna Maria, Part., vor dem Haldenthor 773.\n— Oskar, Schriftsetzer, Halden 254.\n— geb. Umiker, Elisabeth, Entfelderstraße 970.\n— Verena, Hebamme, Halden 287.\nBrunnhofer, Albert, Tambourinstruktor, Ziegelrain 715.\n— August, Wirt, Zollrain 178.\n— Elise, Damenschneiderin, Rain 875.\n— Emil, Postangestellter, Schachen 734.\n— geb. Gietzentanner, Ursula, Witwe, Halden 247.\n— geb. Gietzentanner, Verena, Witwe, Golattenmattgasse 235.\n— Lisette, Lehrers, Part., Halden 246.\n— geb. Schmidt, Magdalena, Witwe, Halden 253.\nBruns, Dorothea, Fein- und Großwascherei, Schmiedgasse 625.\n— Hermann, Schlosser, Schmiedgasse 625.\n— Heinrich, Kaufmann, Arbeiterkleiderhalle, vordere Vorstadt 900.\nBühler, Anna, Näherin, Pelzgasse 122.\n— Gottlieb, Kupferschmied, Schmiedgasse 632.\n— Heinrich, Schmied, Rathausgasse 467.\nBührer geb. Gidemann, Anna, Witwe, Part., Laurenzenthorgasse 349.\nBürgi geb. Burkhardt, Anna, Witwe, obere Vorstadt 935.\n— geb. Fricker, Barbara, Witwe, vordere Vorstadt 900.\n— geb. Schmid Barbara, Part., Milchgasse 156.\n— Werner, Reisender, hinter dem Bahnhofe 1414.\nBürgin geb. Gluck, Maria, Part., vordere Vorstadt 1262.\nBürki, Ida, Gesellschafterin, Bachstraße 1154.\nBucher, Gottlieb, Fabrikarbeiter, Telli 440.\n— Johann, Fabrikarbeiter, Telli 440.\n— geb. Wirz, Marie, Witwe, Part., Telli 440.\nBuchler, Louise, Rain 831.\nBuchmann geb. Spycher, Adele, Damenschneiderin, Zollrain 53.\nBuchser geb. Bachmann, Maria, Hebamme, Pelzgasse 65.\n— Rudolf, Schreiner, hinter dem Bahnhof 496.\n— Samuel, Schmied, Pelzgasse 65.\nBuffetti, Enrico, Kunstmaler, Gönhardfeldweg 1388.\nBuhlrein, Friedrich, Part., Bahnhofstraße 1022.\nBurger, Johann, Kriminal-Gerichtsschreiber, Bachstraße 1045.\n— Samuel, Wirt, [tel] Schachen 731.\nBurgheer, Viktor, Schneider, Graben 1237.\nBurkholter, Rudolf, Taglöhner, Halden 276.\nBurgmeier, [tel] Joseph, Gesanglehrer und Musikdirektor. Wohnung\n  Graben 209. Harmoniumlager, Laurenzenthorgasse 117.\nBurkhardt, Ferdinand, Coiffeur, Laurenzenthorgasse 118.\n— Ferdinand, Sohn, Coiffeur, Laurenzenthorgasse 118.\n— Lina, Coiffeuse, Laurenzenthorgasse 118.\n—-Mauch, Pauline, Corsettschneiderin, Ziegelrain 707.\nBuser geb. Bräutigam, Rosina, Part., Metzgergasse 56.\n— Emil, Güterschaffner, hintere Vorstadt 641.\n— Emil, Bäckermeister, [tel] Metzgergasse 57.\n— Gottlieb, Kaufmann, Metzgergasse 56.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7158,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2332,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T20:48:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-gemini-retry-v1",
+    "source": {
+      "key": "1899_p111",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p111.jpeg",
+      "bytes": 288991,
+      "sha256": "ab698b83f151e507f9afaedff0bb8f58bb30d0581b49e53b2b9061576124ff09",
+      "sha256_of": "original",
+      "working_copy": "1899_p111.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:48:32+00:00"
+  }
+}

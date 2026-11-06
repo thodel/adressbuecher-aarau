@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p184",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p184.jpeg",
+    "bytes": 280536,
+    "sha256": "73a2b03ff206d72bf8013fc0029c8d982c8cce5d5312906f2c097dbd78510ac5",
+    "sha256_of": "original",
+    "working_copy": "1896_p184.jpeg"
+  },
+  "text": "146\nGeschäfts- und Gewerbetreibende.\nQuincaillierewaren.\nErdin, Albin, * Nachfolger von Witwe\n  Jean Kiefer, Rathausgasse 22.\nFaller-Faller, Elise Luise, * Wwe., Kronen-\ngasse 41.\nHagenbuch, Karl, * Kronengasse 35.\nHemmeler-Haßler, A., * Metzgerg. 55.\nHemmeler & Cie., * (en gros Geschäft),\nhintere Vorstadt 638.\nHemmeler-Stahl, J., * (vormals R.\nRitter-Stahl, Rathausgasse 21.\nMorath, Johann, * Rathausgasse 2.\nVonfelten-Willimann, * Kronengasse 37.\nVereinigte Schweizer Bazars, * Filiale:\nObere Vorstadt 925.\n(Siehe Inserat S. 12.)\nRechtsagenten.\n(Siehe InkaSSOgeschäfte)\nReisszeugfabrikanten.\nGysi & Co., * vordere Vorstadt 895.\n(Siehe Inserat s. 1.)\nKern & Cie., * Ziegelrain 747.\nRöhrenfabriken.\n(Siehe Fabrikationsgeschäfte.)\nSalzauswäger.\nGänslen, Luise, obere Vorstadt 913.\nMaurer, Emil, * Jens. d. Aare 1303 a.\nOtt-Wenger, Maria, Adelbändli 81.\nRohr, Jakob, * Laurenzenthorg. 119.\nWildi-Wespi, Adele, hintere Vorst. 699.\nSamenhandlungen.\nGroßmann, Otto, Graben 219.\nHenz, Jakob, vordere Vorstadt 679.\nHoch, Gustav & Cie., * Graben 351.\nKlein, Jean, * Kronengasse 34.\nSarglager.\nWildi, Samuel, Schreiner, Ziegelrain 713.\nSattler.\nBeck, Emil, Ziegelrain 708.\nBeck, Friedrich, Zeughausattler, Ent-\nfelderstraße 983.\nBircher, Eduard, Halden 286.\n[spalte 2]\nHafeli, Josef, Kasinostraße 660.\nKiburz, Gotthold, Entfelderstraße 968.\nLüthi, Eduard, Kirchgasse 15.\nLüthi, Fritz, hintere Vorstadt 642.\nNüsperli, Friedrich, Zollrain 53.\nSchmid, Adolf, Bachstraße 1028.\nTuchschmid, Konrad, Pelzgasse 126.\nSchirmmacher.\nMüller, Eduard, Rathausgasse 30.\nTheez-Amsler, Witwe, Oberthor 754.\nSchirmhandlungen.\nAmsler-Tschudi, Anna, * (vorm. Pfisterer,\nEmil) vordere Vorstadt 666.\nCodoni-Dreßler, Remigius, * Rain 826.\nHeß, Gebr., * Rathausgasse 4.\nMüller, Eduard, * Rathausgasse 30.\nSernatinger, Valerian, vord. Vorst. 893.\nTheez-Amsler, Witwe, Oberthor 754.\nSchneider.\nBach, Wilhelm, Pelzgasse 68.\nBachmann, Josef, Schmiedgasse 633.\nBaumann, Gottlieb, Schachen 729.\nBeck, Karl, Milchgasse 153.\nBertschi, Adolf, Metzgergasse 100.\nBertschi, Emil, Holzmarkt 663.\nBurghkeer, Viktor, Graben 1237.\nDyma, Ignaz, Golattmattgasse 232.\nEger, Theophil, obere Vorstadt 940.\nEngesser, Joseph, Milchgasse 150.\nFischer, Franz, Halden 285.\nFrei, Johann, Milchgrase 74.\nFurrer, Erhard, Bachstraße 1031.\nGamber, Emil, Marchand Tailleur, Rat-\nhausgasse 49.\nGanser, Georg, Rathausgasse 24.\nGerber, Gustav,* Marchand Tailleur, vor-\ndere Vorstadt 670.\nGeyer, Joseph, Schachen 741.\nGränicher, Jakob, Kirchplatz 162.\nGröbli, Jakob, Rathausgasse 43.\nHartmann, Ludwig, Hammer 188.\nHefli, Joh. Peter, Metzgergasse 100.\nHeimer, Johann, Graben, 1237.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 81097,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2613,
+    "lines": 88,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0114,
+    "mean_line_chars": 28.68,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:06:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p184",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p184.jpeg",
+      "bytes": 280536,
+      "sha256": "73a2b03ff206d72bf8013fc0029c8d982c8cce5d5312906f2c097dbd78510ac5",
+      "sha256_of": "original",
+      "working_copy": "1896_p184.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:06:50+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p061",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p061.jpeg",
+    "bytes": 251852,
+    "sha256": "21e9d44b0608af202ca680ec59749128ecbf80f2fe86abe33ea95217a4619e1e",
+    "sha256_of": "original",
+    "working_copy": "1896_p061.jpeg"
+  },
+  "text": "Haus-\nNr.\n1106 † Derselbe. Werkstätte und Bureau.\nMarti-Aeschbach, Elise, Haushälterin, von Etziken, (Solothurn).\n1423 Wüest-Senn, Konrad, Bezirksschullehrer, von Uffikon (Luzern).\nRektor der Knabenschulen.\n1186 † Staat Aargau. Kantonale Krankenanstalt. Verwaltungsgebäude.\nBircher-Schatzmann, Heinrich, Dr. med., administrativer Direktor\nund Oberarzt der chirurgischen Abteilung.\nKalt-Läubli, Alfred August, von Koblenz, Oberarzt der medizinischen\nAbteilung und der Gebäranstalt.\nMeyer-Brunner, Emil, Verwalter, v. Rheinfelden, in Buchs wohnhaft.\nBolliger, Heinrich, Sekretär, von Küttigen.\nStutz, Joseph, Portier, von Hägglingen.\nHauser-Mathey, Gottlieb, Obergärtner, von Böttstein.\n1187 Derselbe. Medizinisch-chirurgischer Pavillon.\n1188 \" \" \"\n1189 \" \" \" Baracke für Infektionskranke.\n1190 \" \" \" \"\n1191 \" \" \" Kinderpavillon.\n1192 \" \" \" Hebammen- und Gebäranstalt.\n1193 \" \" \" Küchen-, Wasch- und Kesselhaus.\n1194 \" \" \" Leichenhaus mit Gärtnerwohnung und Magazin.\n1323 \" \" \" Spritzenhaus mit Kohlenschuppen.\n1434 \" \" \" Operationshaus.\n1435 \" \" \" Portierhäuschen.\n1436 \" \" \" Schweinstallschopf.\n484 † Staat Aargau. Pulverhaus.\n1286 Fleury-Adam, Joseph, Kaufmann, von Laufen (Bern).\n1063 Schäfer-Troller, Adolf, Architekt und Stadtrat.\n1064 † Derselbe. Holz- und Waschhaus.\n1065 † \" \" Baracke mit Küche.\n1125 † \" \" Schreinerwerkstätte.\n1126 † \" \" Gartenhaus.\n1139 † \" \" Ladenschopf.\n1148 † \" \" Bureau mit Magazin.\n1149 † \" \" Steinhauerhütte.\n1440 Furtner-Furter, Abraham, Kondukteur, von Stauffen.\nElmer-Weber, Joseph, Lokomotivführer, von St. Gallen.\nReckziegel-Hellmann, Anton, Lithograph, von Graz (Oesterreich).\nHellmann-Jerabek, Julie, Part., von Hermanstadt (Schlesien).\n485 Erismann-Sager, Fried., Güterexpedient, von Gontenschwyl.\n1229 † Derselbe. Scheune.\n486 † Fischer-Eglinger, Rudolf, Tierarzt und Viehinspektor, von\nFahrwangen. (Speisewirtschaft).\nEglinger, Wilhelmine, Part., von Basel.\n487 * Derselbe. Wohnhaus.\nMaurer-Richner, Fritz, Buchhalter, von Zollikon (Zürich).\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5660,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1994,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:05:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p061",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p061.jpeg",
+      "bytes": 251852,
+      "sha256": "21e9d44b0608af202ca680ec59749128ecbf80f2fe86abe33ea95217a4619e1e",
+      "sha256_of": "original",
+      "working_copy": "1896_p061.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:05:04+00:00"
+  }
+}

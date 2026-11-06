@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p115",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p115.jpeg",
+    "bytes": 282953,
+    "sha256": "fb964eab7f55451bcdeb40937e5cdb67fdff123b1028597a4afd59d9ad4ce5b2",
+    "sha256_of": "original",
+    "working_copy": "1899_p115.jpeg"
+  },
+  "text": "11\nFehlmann geb. Blattner, Anna, Lingeriegeschäft, Bahnhofstr. 648.\n— Christoph, Taglöhner, Kirchgasse 13.\n— Johann, Gärtner, Halden 282.\n— Kaspar, Bäckermeister, Rathausgasse 45.\n— Heinrich, Aufseher, Bahnhofstraße 648.\n— Samuel, Wirt, Schachen 727.\nFeilner, Hans, Mechaniker, vordere Vorstadt 900.\nFelber, Joh., Postkondukteur, in der Gais 1480.\n— Georg, Hammer 188.\n— Karl, Schneider, Bahnhofstraße 1025.\nFerario, Cerani, Schuhmacher, Halden 1283.\nFetzer, Guido, Buchhalter, obere Vorstadt 935.\nFierz, Emma, Bahnhofstraße 1173.\nFigi, Jb., Schlosser, in der Gais 1509.\nFisch, Adolf, Buchhalter, in der Gais 1420.\n— geb. Dürri, Elise, Schuhmachers Witwe, Halden 275.\n— Gottlieb, Kaufmann, vordere Vorstadt 681.\n— Lina, Metzgers, Näherin, Milchgasse 142.\n— Mina, Kleinkinderlehrerin, Rain 875.\n— geb. Vogt, Marie, Part., vor dem Haldenthor 1519.\nFischer, Adolf, Postbeamter, Cigarren- und Tabakhandlung, Laurenzentorgasse 120.\n— Albert, Sekretär, obere Vorstadt 956.\n— Ernst, Kantonspfarrhelfer, Laurenzenvorstadt 602.\n— Franz, Schneider, Halden 285.\n— Friedrich, Schreiner, Weibels, Halden 247.\n— Friedrich, Maschinist, Erlinsbacherstraße 1428.\n— Hans, Brieftträger, Adelbändli 174.\n— geb. Haller, Maria, Taglöhnerin, Hammer 187.\n— Johann, Bahnwärter, Rain 858.\n— Jonathan, Goldschmied, Holzmarkt 1260.\n— Ludwig, Bauamtsarbeiter, in der Telli 448.\n— Luise, Ladentochter, Laurenzentorgasse 120.\n— Luise, Messerschmieds, Damenschneiderin, Adelbändli 172.\n— Maria, Fabrikarbeiterin, Halden 286.\n— geb. Niggli, Lina, Witwe, Part., obere Vorstadt 923.\n— -Peter, Anna, Part., Schmiedgasse 619.\n— geb. Roth, Maria, Stadtarbeiters, Scheibenschachen 316.\n— & Schmuziger, Bureau, Rohrerstraße 1362.\n— geb. Widmer, Maria, Witwe, Laurenzenvorstadt 361.\n— geb. Wydler, Ernestine, Witwe, Taglöhnerin, Adelbändli 174.\n— Xaver, christkatholischer Pfarrer, ⊗ Adelbändli 175.\nFlach, Anna, Wäscherin, obere Vorstadt 930.\n— Johann, Müller, obere Vorstadt 930.\nFleiner & Cie. ⊗ Cementfabrik, Erlinsbacherstraße 330.\n— Hans, Fabrikant, Laurenzenvorstadt 586.\n— geb. Zschokke, Leontine, Witwe, Laurenzenvorstadt 586.\nFlühmann, Elise, Seminarlehrerin, Zeughausstraße 1387.\nFlückiger, Jakob, Käser, Erlinsbacherstraße 335.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6314,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2198,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:33:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p115",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p115.jpeg",
+      "bytes": 282953,
+      "sha256": "fb964eab7f55451bcdeb40937e5cdb67fdff123b1028597a4afd59d9ad4ce5b2",
+      "sha256_of": "original",
+      "working_copy": "1899_p115.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:33:38+00:00"
+  }
+}

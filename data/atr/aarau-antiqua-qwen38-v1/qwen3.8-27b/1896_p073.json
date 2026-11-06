@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p073",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p073.jpeg",
+    "bytes": 255308,
+    "sha256": "aa56c587d5de12b24330068e79723c65ccbdb8b8a1079863d2beba7054d30dc1",
+    "sha256_of": "original",
+    "working_copy": "1896_p073.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.    51\nHaus-\nNr.\n642 * Lüthi-Dätwiler, Rudolf, Posthalter, in Schöffland.\nLüthi-Kiburz, Fritz, Sattler, von Schöffland.\nHassler, Gustav, Maler. (Werkstätte.)\nLindenmann, Jakob, Büchsenmacher, von Seengen.\nWeigel, Heinrich, Schneider, von Kolberg (Preußen).\n643 Umiker-Marti, Maria, Witwe, Part., von Thalheim.\nWittmer, geb. Hoffmann, Salome, Witwe, Fabrikarbeiterin, von\n  Erlinsbach (Solothurn).\nGeyer-Schleich, Joseph, Schneider, von Benfeld (Elsaß).\nFuchs-Blattner, Susanna, Witwe, von Elfgingen.\nMühlethaler-Leder, Gottfried, Taglöhner, von Graben (Bern).\n644 Herzig-Hauri, Friedrich, Schneidermeister, von Wynau (Bern).\nHerzig, Karl, Sohn, Schneider, von Wynau (Bern).\n645 Schmid-Wolf, Peter, Sekretär, Kassier der Sparkasse Aarau und\n  Umgebung.\nGysi, Friedrich, Schlossermeister.\nHerzog-Rauber, Gottlieb, Ingenieur, von Brugg.\n646 * Henz-Gautschi, Emil, Eisenhandlung.\nBolliger-Manger, Gustav, Kaufmann. Hemden-, Schürzen- und\n  Knabenkleider-Anfertigungsgeschäft.\nGautschi-Siebenmann, Samuel, Kantonsingenieur.\n647 Lüscher, Geschwister, Elise und Luise.\nLüscher, Luise, Part.\nLüscher, Elise, Glätterin.\nSuter, Rosina, von Safenwil, Brodverkauf.\nLüscher, Ottilie, von Muhen, Milchverkauf.\nWidemann-Paulus, Max, Schneider, von Füssen (Bayern).\n\nBahnhofstrasse.\n\n648 Fehlmann-Blattner, Rudolf, Aufseher.\nFehlmann-Blattner, Anna. Mercerie- und Lingeriegeschäft.\nSiebenmann, Luise, Part.\n649 * Hofer-Schaffner, Gottlieb, Negt.\nBertschi-Zehnder, Adolf, Wagner, von Dürrenäsch.\n650 † Müller-Schneebeli, Heinrich, Wirt z. Löwen. Scheune.\nSchaffner, Friedrich, Wagnergehilfe.\n651 Custer-Roth, Emil, Fabrikant (Chemiker), von Rheineck (St. Gallen).\n  Firma: E. Custer & Cie. Fabrication von Mineralwasser und\n  Kellerei-Artikeln.\nCuster, Fanny, Lehrerin, von Rheineck (St. Gallen).\nHagnauer, Hedwig, Lehrerin.\nBlattner-Hofer, Elisabeth, Witwe, von Küttingen.\n652 u. 653 † Derselbe. Fabrikgebäude.\n654 u. 655 † , Holzschopf.\n1142 † Derselbe, Holzschopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 89678,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1993,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.17,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:39:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p073",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p073.jpeg",
+      "bytes": 255308,
+      "sha256": "aa56c587d5de12b24330068e79723c65ccbdb8b8a1079863d2beba7054d30dc1",
+      "sha256_of": "original",
+      "working_copy": "1896_p073.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:39:08+00:00"
+  }
+}

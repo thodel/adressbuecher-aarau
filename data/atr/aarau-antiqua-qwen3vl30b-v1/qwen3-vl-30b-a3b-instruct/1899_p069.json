@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p069",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p069.jpeg",
+    "bytes": 281684,
+    "sha256": "730423a4ca5b78cff032fe3a8d0c19c3362f1ac4c0b85d57764cf99eabe594ee",
+    "sha256_of": "original",
+    "working_copy": "1899_p069.jpeg"
+  },
+  "text": "Haus.\nNr.\n751 Wernli-Wächter, Johann, Weichenwärter, von Thalheim.\nKaspar-Frey, Verena, Part., von ZezwyI.\nRiner-Hächler, Joseph, Kondukteur.\n— — Anna, Placierungsbüreau.\nHächler, Jakob, Part., von Buchs.\nSchmuziger-Visel, Wilhelmine, Part.\n1816 † Derselbe. Schopf.\n752 * Holzach, Friedrich, Metzger. Schweinemetzg.\nBaumann-Frei, Anna, Näherin, von Attelwyl.\n753 Huber-Bircher, Heinrich, Drechsler. Mech. Drechslerei.\nKistler-Kull, Jakob, Steuerpräsident, von Bözen.\n754 * Gemeinde Aarau. Gewerbehalle.\nVorsteherin: Ortlib geb. Bertschi, Luise, von Behlenheim\n(Elsass).\nBrunnhofer-Gietzentanner, Verena, Seilers Witwe. Seiler-\nwarenverkauf.\nRothpletz-Hassler, Rudolf, Metzger. Bäckerwarenverkauf.\nTheez-Amsler, Emilie, Schirimmacherin, von Paris. Schirm-\nverkauf.\nVor dem Haldenthor.\n755 Zubler-Brügger, Jakob, Schmied, von HunzenschwyI.\nLaury-Wärren, Jakob, Wagner, von Mühlethal.\nHauri-Graber, Anna, Wwe., von Reitnau.\n756 u. 757 † Abgetragen. An dessen Platz:\n1500 † Gebrüder Riniker, Bierbrauer. Eis- und Lagerkeller.\n758 Merz-Ruh, Margareta, Witwe, Part., von Leimbach.\nFecht-Ruh, Julius, Weinhandlung.\nRuh, Konrad, Kaufmann, von Schaffhausen.\n759 † Baumann-Schenk, Sim., Fuhrhalter, v. Bottenwyl. (Scheune.)\n760 Abgetragen; an dessen Platz\n1299 * Schatzmann-Häring, Jakob, Saalbauabwart, v. Windisch.\n— — Elisabeth, Leinen- u. Wollwascherei, v. Windisch.\n— -Weibel, Albert, Photograph, von Windisch. (Atelier\nKasinostraße.)\nErismann, Maria, Weißnäherin, von Muhen.\nBlattner, Maria, Weißnäherin, von Küttingen.\n1311 † Derselbe. Schopf.\n761 † Hassler-Ernst, August, Färber. Magazin.\n762 Häusler-Schmid, Angelus, Malermeister, v. Schwaderloch.\n— -Zähner, Emil, Sohn, Maler, von Schwaderloch.\n— Karl, Sohn, Schriftsetzer, von Schaderloch.\n— Julie, Glätterin, von Schwaderloch.\n763 † Baumer-Wildi, Adolf, Metzger. (Scheune.)\n764 † Hassler-Ernst, August, Färber. (Farbgebäude.)\n765 † Wildi, Jb., Tapezierer, v. Schafisheim. (Gartenhaus.)\n766 Camisasca, Franz, Kaufmann.\nHerzig-Camisasca, Karl, Schneidermeister u. Sektionschef,\nvon Wynau (Bern).\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6147,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2056,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:29:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p069",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p069.jpeg",
+      "bytes": 281684,
+      "sha256": "730423a4ca5b78cff032fe3a8d0c19c3362f1ac4c0b85d57764cf99eabe594ee",
+      "sha256_of": "original",
+      "working_copy": "1899_p069.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:29:10+00:00"
+  }
+}

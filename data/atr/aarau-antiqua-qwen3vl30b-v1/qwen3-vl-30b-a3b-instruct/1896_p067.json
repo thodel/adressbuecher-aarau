@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p067",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p067.jpeg",
+    "bytes": 268714,
+    "sha256": "605e46b98e33f4c76f243594cf8f044f0c348279870e6dca7c2510428dbb2503",
+    "sha256_of": "original",
+    "working_copy": "1896_p067.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n45\nHaus-\nNr.\n1308 Meier-Lüthy, Johann Jakob, Lehrer.\n1425 Hengherr-Hiltbrunner, August, Lehrer, v. Affoltern b. Höngg (Zürich).\n1454 Conrad-Lüthy, Peter, Regierungsrat, von Auw.\n1454 Ammann-Strähl, Robert, Architekt, Kantonschobaumeister.\n1455 Schwendimann-Amsler, Wilhelm, Dragonerlieutenant, Kavallerie-\nInstructor, von Pohlrn (Bern).\n1455 * Derselbe. Wohnhaus.\n1456 * Derselbe.\nKettiger-Bertschinger, Arnold, Kaufmann, Prokurist, von Liestal\n(Basel land).\nKind-Aldinger, Gottfried, Hauptmann, Infanterie-Instruktor, v. Chur.\nBahnhofstrasse.\n559 Kern-Rychner, Emil, Mechaniker.\n560 Kern-Hunziker, Emil, Fabrikant.\n* Derselbe. Wohnhaus mit Remise.\nDietiker-Schluep, Jakob, Postfaktor, von Thalheim.\nAmmann, Maria, Ladentochter, von Ryken.\n1317 Hässig-Sigle, Julius, Café zur Bank.\nWitzinger-Lenthe, Moritz, Dr. med., prakt. Arzt, von Unter-\nhallau (Schaffhausen).\nSiebenmann-Steiner, Gottlieb, Camionneur und Spediteur.\n1318 † Derselbe. Wasch- und Holzhaus.\n1160 Wolfsgruber-Küenze, Gottfried, Photograph, v. Bonn (Preußen).\nWismer, Heinrich, Chef der Güterexpedition, von Uitikon (Zürich).\nDössekel, Mina, Klavierlehrerin, von Seon.\nHuber, Korinna, Bez.-Lehrerin, von Besenbüren.\n1447 Dolder-Saxer, Jakob Friedrich, Kaufmann, von Hauptweil (Thurg.).\nHauptagentur der Helvetia. Feuer- und Transportversicherung.\nMüri-Hiltpold, Joh., Dr. jur., Fürsprach, Regierungsrat, v. Schinznach.\n561 † Richner & Rothpletz. Thon- und Steingutröhren- und Cement-\nwarenfabrik. Röhren zu Wasser-, Rauch- und Abtrittleitungen, Cement-\nbausteine, Cementröhren, Cément-, Sargemünder- und Mettlacher-Boden-\nund Wandverkleidungsplatten für Korridore, Veranden, Küchen, Schul-\nhäuser u. Kirchen. Grosses Lager in Regulier-Füll-Ofen verschiedener,\nsehr gut bewährter Systeme. Allein-Verkauf der Feuerlösch-Granaten\n„Labbé“. Handel und Lieferung aller möglichen Baumaterialien.\n562 † Dieselben. Holzhaus.\n1077 † \" Röhrenfabrik.\n1270 † \" \"\n563 Holzach-Siebenmann, Dietrich, Bierbrauer. Speisewirtschaft.\nSpengler-Lienhard, Louise, Witwe, Part.\n564 † Derselbe. Kegelbahn.\n565 † \" Bierbrauerei.\n566 † \" Eiskeller.\n1214 † \" Eishaus und Bierkeller.\n1215 † \" Wasch- und Holzhaus.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5916,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2205,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:05:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p067",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p067.jpeg",
+      "bytes": 268714,
+      "sha256": "605e46b98e33f4c76f243594cf8f044f0c348279870e6dca7c2510428dbb2503",
+      "sha256_of": "original",
+      "working_copy": "1896_p067.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:05:39+00:00"
+  }
+}

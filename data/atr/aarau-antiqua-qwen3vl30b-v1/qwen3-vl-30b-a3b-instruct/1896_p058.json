@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p058",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p058.jpeg",
+    "bytes": 268443,
+    "sha256": "18663c9b9a1fde59865be73510dee70a5fac6590cf9597f5873f88757ce278fd",
+    "sha256_of": "original",
+    "working_copy": "1896_p058.jpeg"
+  },
+  "text": "36\nVerzeichnis der Gebäude und ihrer Bewohner.\n\nHans-\nNr.\n1335 Brogli-Gautschi, Josef, Brieftträger, von Sisseln.\n1429 Husi-Lämmli, Franz Josef, Bahngestellter von Wangen (Soloth.).\n    Einwohnergemeinde Aarau. Spritzenhaus.\n431 † Frey-Herzog, August, Fabrikant. Bureau der Firma Frey & Cie.\n432 † Derselbe. Scheune.\n433 † \" Holzmagazin.\n434 † \" Bleikammergebäude und Dampfkessel.\n435 a † \" Laboratorium, Magazin.\n435 b † \" Laboratorium chemischer Produkte u. photogr. Utensilien.\n436 † \" Chemisches Laboratorium.\n437 * \" Schreinereigebäude mit Arbeiterwohnung.\n438 † \" Magazin.\n439 † \" Schopf und Magazin.\n440 * \" Kosthaus.\nKäser-Stänz, Xaver, Aufseher, von Erlinsbach (Solothurn).\nWernli-Hächler, Jakob, Fabrikarbeiter, von Thalheim.\nStäheli-Grenacher, Jakob, Fabrikarbeiter, von Egliswyl.\nKramer-Müller, Jakob, Knecht, von Zewyl.\nBucher-Bolliger, Joh., Fabrikarbeiter, von Niederwenningen (Zürich).\nBucher-Rohr, Gottlieb, Fabrikarbeiter, v. Niederwenningen (Zürich).\nBucher-Wirz, Marie, Witwe, Part., von Niederwenningen (Zürich).\nRodel-Sandmeier, Anna, Witwe, Fabrikarbeiterin, von Staufen.\nWernli, Joh., Gabriels, Taglöhnner, von Thalheim.\n441 † Derselbe. Wasch- und Holzhaus.\n442 † \" Baumwollspinnerei.\n443 † \" Wasserrad und Transmission.\n1245 † Frey, Robert und Max, Chokoladefabrikanten. Maschinenhäuschen.\n444 a * Frey-Herzog, August, Fabrikant. Wohngebäude.\nEgli-Schärr, Karl, Hauptmann, Instruktor I. Klasse der Infanterie,\nvon Gossau (Zürich).\n444 b † Derselbe. Schreinerwerkstätte.\n445 * Derselbe. Wohnhaus.\nSchibler-Sinniger, Rudolf, Aufseher, von Walterswyl (Solothurn).\nSchibler, Friedrich, Coiffeur, von Walterswyl (Solothurn). Geschäft\nKronengasse 34.\n446 † Derselbe. Gebäude mit Wasserstellfallen.\n447 † \" Magazingebäude.\n448 \" Obrist-Diener, Theodor, Postpacker, von Magden.\nObrist-Diener, Johanna. Speisewirtschaft zur Telli.\n449 Jenny & Weigel, Färberei- und Druckereigeschäft.\nJenny-Kunz, Adolf, Kaufmann, von Iffwil (Bern).\nWeigel-Imbach, Johann, Färber.\nRothpletz-Wannod, Karl, Bankangestellter.\n450 † Dieselben. Scheune und Tröcknehaus.\n451 † \" Fabrikgebäude.\n452 † \" Färberei.\nIn der Telli.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5797,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2117,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:04:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p058",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p058.jpeg",
+      "bytes": 268443,
+      "sha256": "18663c9b9a1fde59865be73510dee70a5fac6590cf9597f5873f88757ce278fd",
+      "sha256_of": "original",
+      "working_copy": "1896_p058.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:04:47+00:00"
+  }
+}

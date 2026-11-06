@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p024",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p024.jpeg",
+    "bytes": 264530,
+    "sha256": "783483efd32103064658e38573ef0872c05b5a42e8490fce79b8ae620ad8b43b",
+    "sha256_of": "original",
+    "working_copy": "1899_p024.jpeg"
+  },
+  "text": "46\nHaus-\nNr.\n172 * Wehrli-Hassler, Friedrich, Pedell.\nSchaffner-Meier, Margaretha, Näherin, von Effingen.\nHassler, Sophie, Glätterin.\n  — Julie, Modistin.\n  — Remigius, Taubstumme.\nFischer, Louise, Messerschmieds, Damenschneiderin.\nBächli, Verena, Spetterin, von Buchs.\nWassmer, Samuel, Ausläufer, von Suhr.\nSalm, Marie, Schneiderin, von Veltheim.\n  — Barbara, Spetterin, von Veltheim.\nMüller, Maria Anna, Fabrikarbeiterin, von Kulm.\n173 Scheibler-Suter, Alfr., Tapezierer, v. U.-Entfelden. Möbellhdlg.\nWidmer-Bahnhofzer, Hans, Aufseher, von Gränichen.\n174 * Fisch-Buser, Witwes Erbschaft.\nRämisperger-Hunkeler, Hermann, Spenglermeister.\nMerz-Usiker, Jakob, Taglöhner, von Beinwyi.\nBeck, Karolina, Weißnäherin.\n  — Louise, Damenschneiderin.\nDürr-Gradcn, Hieron., Straßenwärter.\nWanger, Henriette, Buchbinders, Part.\nFischer-Widler, Ernestine, Witwe, Taglöhnerin.\n  — Hans, Brieftträger.\n175 Staat Aargau. Kath. Pfarrhaus.\nFischer-Keller, Xaver, christkath. Pfarrer [tel], von Triengen.\nKümmerli, Rosa, von Kölliken, Technikerin, Juracement-\n  fabriken.\nBlattner-Hofer, Elisabeth, Wwe., von Küttingen.\n\nRathausgasse.\n\n176 * Gemeinde Aarau. Rathaus. Städtische Polizeiwache [tel], Zahl-\n  kasse; Fremdenbureau. Sitz der Jury, des Obergerichts [tel],\n  des Bezirksgerichts [tel]; und des Gemeinderates, Gemeinde-\n  kanzlei [tel], Gemeindeammann [tel]; Bureau des Zivilstands-\n  beamten, des Betriebsbeamten [tel], des Bauverwalters [tel],\n  des Fondsverwalters, Forstverwalters und Katastergeo-\n  meters [tel].\nFrickler-Reimann, Joseph, von Wöflinswil, Gemeindeweibel\n  und Rathausabwart.\n\nZollrain.\n\n177 Hagenbuch-Hagenbuch, August [tel], Sekretär.\n  — — Verena, Spezerei- und Wollwaren-, Korb- und Tapeten-\n  handlung. (Nachfolgerin von Schmidt z. Bären.)\nWürger, Geschwister, Heinrich, Karl, Lina und Lisa.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 104767,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1806,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:47:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p024",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p024.jpeg",
+      "bytes": 264530,
+      "sha256": "783483efd32103064658e38573ef0872c05b5a42e8490fce79b8ae620ad8b43b",
+      "sha256_of": "original",
+      "working_copy": "1899_p024.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:47:20+00:00"
+  }
+}

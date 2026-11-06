@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p060",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p060.jpeg",
+    "bytes": 264513,
+    "sha256": "c2e23157585cc4158ab11a3069666cc7290d89f303da28d332d85c626eabb70d",
+    "sha256_of": "original",
+    "working_copy": "1896_p060.jpeg"
+  },
+  "text": "38\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n474 a b c † Schweizerische Eidgenossenschaft. Zeughäuser.\n474 d † Staat Aargau. Zeughaus.\n475 † Schweizerische Eidgenossenschaft u. Staat Aargau. Zeughaus.\n476 † Dieselben. Abtrittgebäude.\n477 † Dieselben. Abgetragen.\n478 Gasser-Fendrich, Emanuel, Fabrikant, (zur Tanneneck), von Hallau (Schaffhausen).\n\nIn der Gais.\n1210 Hässig, Hans, Stadtrat (zum Lindenhof).\nHässig, Emma, Privatin.\n479 * Schäfer-Troller, Adolf, Architekt und Stadtrat.\nZehnder-Fischer, Margaretha, Wwe., Part., von Kölliken.\n1217 * Bolliger, Johann, Notars Erbschaft.\nWohler-Bolliger, Johann Martin, Postbeamter, von Wohlen.\nRenner-Distel, August, Kaufmann, von Stuttgart.\n1248 Widmer-Häfeli, Rudolf, Weinhändler, von Gränichen. Speisewirt-\nschaft (zum Lindenhof).\n1249 Locher-Willi, Jakob, Postkonduktueur, von Ems (Graubünden).\nBeck, Louise, Buchdruckers, Part.\n1266 Adam-Keller, Anton, Fabrikant, von Allschwil (Basel).\n1267 Fröhlich-Stelzer, Franz, Dr., Prof., von Brugg.\n480 Schäfer, Emil, Kaufmann.\nLinden-Grob, Emma, Witwe, Haushälterin, von Tablatt (St. Gallen).\nOehler-Osthuess, Alfred, Ingenieur.\n481 † Derselbe. Hühnerhaus.\n482 Stäblin, Sophie, Part., Dr's., von Brugg.\nStäblin, Gottlieb Wilhelm, Part., von Brugg.\nZehnder, Otto, Kantonsingenieur, von Zofingen.\n483 † Dieselbe. Scheune.\n1405 † A. Oehler & Cie. Maschinenfabrik u. Eisengiesserei (Werkstätte).\n1406 † Derselbe. Giesserei.\n1407 † \" Bureau.\n1408 † \" Magazin und Schuppen.\n1418 † \" Anbau an das Bureaugebäude.\n1419 † \" Abtritt.\n1453 † Ernst-Käser, Friedrich, Fabrikant. Röhrenfabrik.\n1131 Müller-Suter, Jakob, Lithographiebesitzer, von Lenzburg.\nSuter geb. Rauber, Susette, Wwe., Part.\n1390 Isler-Guye, Alois Othmar, Kaufmann, von Wohlen.\n1420 * O. Zschokke, Baugeschäft.\nFisch-Thut, Adolf, Buchhalter.\n1421 Mauch-Zimmerli, Rudolf, Bankabwart, von Teufenthal.\nAesbach-Dümas, Otto, Mechaniker, von Reinach.\n1105 Aesbach-Urech, Friedrich, Mechaniker, von Reinach.\nHuber-Benz, Alois, Ofenmacher, von Kriens (Luzern).\nZiegler-Niffenegger, Siegfried, Taglöhner, von Veltheim.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5714,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2071,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:04:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p060",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p060.jpeg",
+      "bytes": 264513,
+      "sha256": "c2e23157585cc4158ab11a3069666cc7290d89f303da28d332d85c626eabb70d",
+      "sha256_of": "original",
+      "working_copy": "1896_p060.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:04:58+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p143",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p143.jpeg",
+    "bytes": 281306,
+    "sha256": "cdc66a77afc0761c20f9453782da5e838c96950f466025009fd3f80a212db7e5",
+    "sha256_of": "original",
+    "working_copy": "1899_p143.jpeg"
+  },
+  "text": "Siebenmann, Fritz, Commis, Rain 869.\n— Gebr. (Otto Siebenmann-Walther und Gustav Siebenmann-Hemmeler), Civil- und Militärschneiderei, Konfektion. Oberthor 226.\n— Gottlieb, Färber, Halden 275.\n— Gottlieb, Gerber, Rain 838.\n— Gottlieb, Part., zum „Rosenfels“, Gartenstraße 1166.\n— Gottlieb, Spediteur, Konradstraße 992.\n— Gustav, March. Tailleur, Oberthor 226.\n— Hans, Wirt, „Chalet zum Adlerbräu“, Entfelderstraße 1523.\n— Jakob, Part., Entfelderstraße 970.\n— Karl, Kaufmann, Entfelderstraße 979.\n— Ludwig, Schuhmacher, Adelbändli 171.\n— Luise, Part., Bahnhofstraße 648.\n— Otto, March. Tailleur, Oberthor 226.\n— Otto, Abwart, Laurenzenvorstadt 584.\n— Otto, Schlosser, hintere Vorstadt 694.\n— Rudolf, Bierwirtschaft, Graben 620.\n— geb. Seiler, Katharina, Witwe, Bahnhofstraße 1023.\n— geb. Siebenmann, Marie, Witwe, Bankstraße 510.\nSiegenthaler geb. Hirt, Elise, Wäschерin u. Glätterin, Hammer 189.\nSiegfried, Friedrich, Staatsbuchhalter, Erlinsbacherstraße 333.\nSiegrist, Adolf, Schuhmacher, Laurenzenvorstadt 376.\n— Albert, Bäcker, obere Vorstadt 940.\n— Arnold, Stuhlschreiner, Laurenzenvorstadt 376.\n— Emil, Lagerhausbeamter, Rain 874.\n— geb. Hauri, Maria, Spetterin, Milchgasse 154.\n— Heinrich, Metzger, obere Vorstadt 925.\n— Hermann, Reisender, jenseits der Aare 1303 a.\n— Jakob, Metzger, Milchgasse 150.\n— Jakob, Commis, Metzgergasse 56.\n— Jb., Schriftsetzer, vor dem Haldenthor 803.\n— Johann, Negt., obere Vorstadt 922.\n— Johann, Taglöhner, Milchgasse 154.\n— geb. Plüß, Anna, Haushälterin, Laurenzenvorstadt 376.\n— Wilhelm, Postcommis, obere Vorstadt 938.\nSimmen, Emil, Bäcker und Pintenwirt, Rathausgasse 18.\nSinger, Georg, Maurer, vor dem Haldenthor 1084.\n— Gustav Ad., Prediger, Laurenzenvorstadt 399.\n— & Cie., Nähmaschinendépôt, in der Gais 1105.\nSoland, Heinrich, Bäcker und Wirt, obere Vorstadt 913.\nSommerhalder, Gottlieb, Taglöhner, Adelbändli 86 b.\n— Hans, Knecht, Rain 826.\n— geb. König, Luise, Spetterin, Rain 877.\n— Rudolf, Milch-, Butter- und Käsehandlung, Kirchgasse 14.\nSpähne, Luise, Weißnäherin, Rain 828.\nSparkasse von Aarau. Präsident: Fridolin Schneider, Oberrichter; Kassier: Peter Schmid-Wolf, hintere Vorstadt 645.\nSpar, Leih- & Diskontokasse. Verwalter: A. Hemmeler-Häbler und E. Hemmeler-Türler. Hintere Vorstadt 638.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7436,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2257,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:36:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p143",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p143.jpeg",
+      "bytes": 281306,
+      "sha256": "cdc66a77afc0761c20f9453782da5e838c96950f466025009fd3f80a212db7e5",
+      "sha256_of": "original",
+      "working_copy": "1899_p143.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:36:43+00:00"
+  }
+}

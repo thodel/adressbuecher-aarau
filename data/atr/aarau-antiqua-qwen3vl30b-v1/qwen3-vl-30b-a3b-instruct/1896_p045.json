@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p045",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p045.jpeg",
+    "bytes": 275353,
+    "sha256": "e0aa1d43685d584ec58b6569e0dcb03013a518585a715982d922c13df7129aee",
+    "sha256_of": "original",
+    "working_copy": "1896_p045.jpeg"
+  },
+  "text": "Haus-\nNr.\n247 Dürri, Karoline, Glasers.\nFischer, Friedrich, Weibels, Schreiner.\n248 Hassler-Brunnhofcr, Elise, Kaminfegers Witwe, Glätterin.\nLüscher-Jäggi, Marie, Spetterin, von Moosleerau.\nWilhelm-Kaspar, Gottlieb, Färber, von Safenwyl.\n249 Hauri-Grabcr, Rudolf, Fuhrmann, von Reitnau.\nHorlacher-Iberg, Samuel, Mechaniker, von Umiken.\nWüthrich-Stirnemann, Jakob, Taglöhner, v. Eggiwyl (Bern).\n250 Wehrli-Bircher, Hans, Gipsermeister.\nMeyer-Schneider, Joh. Robert, Bahnarbeiter, von Wohlen.\nChristen, Gottfried, Bahnarbeiter, von Thörigen (Bern).\nMettauer, Gottlieb, Taglöhner, von Gipf.\n251 Huber-Ment, Jakob, Schneider, von Unterembrach (Zürich).\nKeller-Isler, Jos. Hermann, Schneider, v. Ueberlingen (Grossh. Baden).\n252 Strub-Mühlestein, Robert, Schneider, von Kienberg (Solothurn).\nHerzog-Dietiker, Konrad, Schneider, von Homburg (Thurgau).\n253 Brunnhofer-Schmid, Magdalena, Mechanikers Witwe.\nHäusermann-Schmid, Elisabeth, Taglöhnerin, von Egliswyl.\nGloor, Marie, Vorgängerin, von Birtwyl.\nGrütter, Gottlieb, Gipser, von Roggwyl (Bern).\n254 * Hirsbrunner-Kiener, Jakob, Instrumentenmacher.\nGugel-Diriwächter, Friedr., Schuhmacher, v. Mengen (Grossh. Baden).\nZobrist-Gerster, Friedrich, Schneider, von Hendschikon.\n255 Hirsbrunner-Kiener, Jakob, Instrumentenmacher. Spezereihandlg.\n256 Armengut der Gemeinde Aarau.\nAndres, Jakob, Bahngangestellter.\nAndres-Walter, Verena, Metzgers Witwe.\nOelhafen-Müller, Elisabeth Louise, Malers Witwe.\nHässig-Fischer, Albert, Werkführer.\n257 Zimmermann-Wernli, Johann, gew. Bahnwärter, von Rupperswyl\n(Erbschaft).\nHäusermann-Ruf, Adolf, Taglöhner; von Egliswyl.\nRuf-Portmann, Johann, Taglöhner, von Rekingen.\n258 * Armengut der Gemeinde Aarau.\nBeck-Böll, Gottlieb, Schlosser.\n259 * Camisasca, Franz, Kaufmann.\nPlüss-Ledermann, Bernhard, Knecht, von Ryken.\nBachmann-Müller, Rudolf, Maurer, von Bottenwyl.\nStirnemann-Huber, Johann, Taglöhner, von Gränichen.\n260 a Keller-Bernéy, Abraham, Mechaniker.\n260 b * Hassler, Julie, Modistin.\nBamberger-Schwarz, Anna, Wwe., Taglöhnerin, von Siglistorf.\nWalser-Bamberger, Marie, Zuschneiderin, von Rottweil (Baden).\nHunziker-Säuberli, Marie, Taglöhnerin, von Gontenschwyl.\nSäuberli, Barbara, Part., von Teufenthal.\nUmiker, Samuel, Taglöhner, von Thalheim.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5924,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2244,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:03:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p045",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p045.jpeg",
+      "bytes": 275353,
+      "sha256": "e0aa1d43685d584ec58b6569e0dcb03013a518585a715982d922c13df7129aee",
+      "sha256_of": "original",
+      "working_copy": "1896_p045.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:34+00:00"
+  }
+}

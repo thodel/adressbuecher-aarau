@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p070",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p070.jpeg",
+    "bytes": 248795,
+    "sha256": "86a9afe4217269f94685171b74813d824a82b261cfbbfa845e5804bde0619fec",
+    "sha256_of": "original",
+    "working_copy": "1896_p070.jpeg"
+  },
+  "text": "48\nHaus-\nNr.\n1211 Staat Aargau. Stallungen.\n596 Derselbe. Zeughaus.\n597 Derselbe. Schmiedewerkstätte und Schopf.\n598 \" Kriegsfuhrwerkschuppen.\n599 \" Wagner- und Sattlerwerkstätte, Magazin und Comptoir.\n600 \" Kriegsfuhrwerkschuppen.\n601 \" Holzschopf.\n\nLaurenzenvorstadt.\n602 * Feer-Grossmann, Erbschaft.\nStierli-Brentano, Goar Leonz, Fürsprech und Notar, Vize-Stadt-\nammann, von Aristau (Bureau Graben Nr. 615).\nKäslin-Schönecker, Lina, Musikdirektors Witwe.\nStettler, A. Ernst, v. Bolligen (Bern). Redaktor d. „Aarg. Tagblattes“.\nFeer, Adele, Part.\nFeer, Karl.\nFeer, James.\nFeer, Sophie, Part.\n603 Dieselbe. Abgetragen.\n604 † \" Holzschopf.\n605 † \" \"\n606 † \" Bad- und Glättezimmer.\n\nBahnhofstrasse.\n607 * Feer-Grossmann, Erbschaft. Wohnhaus mit Scheune.\nHoffmann-Bolliger, Jakob, Oekonom, von Unterkulm.\nHausmann-Rüetschi, Gottlieb, Wagenwärter, von Schafisheim.\n608 Staat Aargau. Kantonsschülerhaus.\nGanter-Schilling, Heinrich, Professor, von Neustadt (Baden).\n609 † Derselbe. Abgetragen.\n610 \" Firma Erne & Cie., Kolonialwarengeschäft en gros.\n1319 \" Magazin.\n1320 \" Holzremise.\n611 \" Magazin und Stallung (Erne & Cie.).\n612 \" Abgetragen.\n\nGrabcn.\n613 * Oboussier-Imhof, Friedrich, Part., in Riesbach-Zürich.\nFirma F. Oboussier & Cie., Baumwolltuchfabrikation.\nOboussier-Schäfer, Friedrich, Fabrikant.\n614 † Derselbe. Magazine.\n1128 † \" Waschhaus.\n615 * Oboussier-Schäfer, Friedrich, Kaufmann.\nLang, Franz Theodor, Augenarzt, von Oftringen.\nZehnder, Gottlieb, Part., von Birmenstorf.\nStierli-Brentano, Goar Leonz, Fürsprech und Notar, Vize-Stadt-\nammann, von Aristau (Advokatur- und Notariatsbureau).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4738,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1601,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 33.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:05:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p070",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p070.jpeg",
+      "bytes": 248795,
+      "sha256": "86a9afe4217269f94685171b74813d824a82b261cfbbfa845e5804bde0619fec",
+      "sha256_of": "original",
+      "working_copy": "1896_p070.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:05:55+00:00"
+  }
+}

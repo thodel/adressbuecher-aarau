@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p019",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p019.jpeg",
+    "bytes": 182861,
+    "sha256": "264f5aa27982df9c8098e663da75e202d821887260c4b2472743cc99a6a161d7",
+    "sha256_of": "original",
+    "working_copy": "1896_p019.jpeg"
+  },
+  "text": "XII\n\nSeite\n,,Vinc a“, Gärtnertachverein . . 165\nVorwort . . . . . . III\nWachsfabrikanten . . . . 151\nWaffenhandlungen . . . . 152\nWagen, öffentliche . . . . 151\nWagner . . . . . . . 152\nWald promenaden . . . . 180\nWaschanstalten . . . . . 152\nWascherinnen . . . . . 152\nWasserfahrverein . . . . 170\nWasserwaagenfabrikation . 135, 152\nWechselgeschäfte . . . . 137\nWeinhandlungen . . . . . 152\nWeißnäherinnen . . . . . 152\nWertzzeichenmuseum, schweiz. . 162\nWirtschaften . . . . . . . 153\n\nSeite\nWohngebäude . . . 1—88\nWohlthätige Vereine . . . . 167\nWollstoff-Druckerei . . . . 154\nWollwarenhandlungen . . . . 150\nZahnärzte . . . . . . . 154\nZeichner . . . . . . . . 154\nZeichnungs instrumente (s. Fabrik-\nGeschäfte) . . . —\nZeitschriften . . . . . . 154\nZeitungen . . . . . . . . 154\nZeitungsmuseum, schweiz. . . 162\nZiegel fabrikanten . . . . 154\nZimmermeister . . . . . . 154\nZimmerei, s. Fabrikations-Geschäfte\nZschokke, Hrch. (Denkmal) . . 179\nZuckerbäcker, s. Konditoreien . —",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8773,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 981,
+    "lines": 35,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0286,
+    "mean_line_chars": 27.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0031,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p019",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p019.jpeg",
+      "bytes": 182861,
+      "sha256": "264f5aa27982df9c8098e663da75e202d821887260c4b2472743cc99a6a161d7",
+      "sha256_of": "original",
+      "working_copy": "1896_p019.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:17+00:00"
+  }
+}

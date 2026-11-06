@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p151",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p151.jpeg",
+    "bytes": 285396,
+    "sha256": "4298a53336b817f22e5f1c37a3983dff33f814a65de663e184c782122f30854d",
+    "sha256_of": "original",
+    "working_copy": "1899_p151.jpeg"
+  },
+  "text": "47\nWietlisbach, Josef Burkardt, Postcommis, Schachen 1259.\nWildi, Anna, Damenschneiderin, Halden 264.\n— Emil, Schreiner, hinter dem. Platz 210.\n— Friedr., Postbeamter, Pelzgasse 129.\n— Gottfr., Heizer, Gollenmattgasse 235.\n— Jakob, Tapezierer, Halden 264.\n— geb. Lauthard, Verena, Witwe, Bahnhofstraße 1022 b.\n— Rudolf, Generalagentur der Basler Lebensversicherungsgesell-\n  schaft, vordere Vorstadt 889.\n— Samuel, Schreiner, Ziegelrain 713.\n— geb. Wepsi, Adele, Witwe, Salzverkauf hintere Vorstadt 699.\nWoldt, Ferdinand, Schuhmacher, Halden 271.\n— geb. Wolfensberger, Schneiderin, Halden 271.\nWilhelm, Gottlieb, Färber, Halden 248.\nWillimann, Anton, Schmiedgasse 619.\n— Fritz, Sohn, Lohnkutscher, [tel] Schmiedgasse 619.\n— geb. Wehrli, Marie, Witwe, Kronengasse 37.\nWindisch, Samuel, Generalagentur der schweiz. Rentenanstalt in\n  Zürich, Laurenzenvorstadt 412.\nWinteler, Jost, Dr. phil., Professor, Laurenzenvorstadt 548.\nWirth, Franz, Lebens- und Unfallversicherung. Auswanderung. [tel]\n  Zollrain 89.\n— Jakob, Part., [tel] Zollrain 89.\n— Joh. Rud., Arzt, Part., Bahnhofstraße 1360.\nWirz, Adolf, Postkondukteur, in der Gais 1514.\n— Adolf, Commis, Ziegelrain 702.\n— geb. Christen, Karoline, Witwe, Schreibmaterialienhandlung und\n  Leihbibliothek, Oberthor 138.\n— Emil, (vormals J. J. Christen), Sortiments- und Verlagsbuch-\n  handlung, Buchdruckerei und Buchbinderei. [tel] Oberthor 139,\n  Wohnung Bachstraße 1174.\n— Franz, Wagenvi sitour, Scheibenschachen 315.\n— Wilhelmine, Maschinenstrickerin, in der Gais 1514.\nWismer, Heinrich, Chef der Güterexpedition, Bahnhofstraße 1160.\nWittmer, Julius, Lithograph, Rain 323.\nWolf, Karl, Architekt, Adjunkt des Hochbaumeisters, Bachstr. 1045.\nWolfinger, Max, Prof., Bachstraße 1137.\nWolfsgruber, Gottfried, Photograph, [tel] Bahnhofstraße 1160.\nWüest, Konrad, Bezirkslehrer, Rektor der Knabenschulen, in der\n  Gais 1423.\nWürger, Geschwister, Heinrich, Karl, Lina und Lisa. Zollrain 177.\nWürttemberg geb. Kaiser, Marie, Coiffeurs Witwe, Kronengasse 34.\nWüst, Jakob, Röhrenfabrikarbeiter, Scheibenschachen 316.\nWüthrich, Jakob, Zuckerbäcker, Kaffeewirtschaft [tel] Rathausgasse 20.\n— Jakob, Taglöhner, Halden 249.\n— Joh. Jakob, Arbeiter im Elektricitätswerk, Rathausgasse 20.\n— Samuel, Negot. und Pintenwirt, [tel] Laurenzenthorgasse 117.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 31179,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2280,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:50:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p151",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p151.jpeg",
+      "bytes": 285396,
+      "sha256": "4298a53336b817f22e5f1c37a3983dff33f814a65de663e184c782122f30854d",
+      "sha256_of": "original",
+      "working_copy": "1899_p151.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:50:02+00:00"
+  }
+}

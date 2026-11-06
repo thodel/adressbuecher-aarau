@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p086",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p086.jpeg",
+    "bytes": 257378,
+    "sha256": "a074fec3c8437bb743539ce43181be0b05bcd4e15eeda8cd3b4b8f227f585144",
+    "sha256_of": "original",
+    "working_copy": "1899_p086.jpeg"
+  },
+  "text": "78\nHaus-\nNr.\n1510 Schmidt-Halbritter, Max, Fürsprech, Stadtammann.\n1448 Hunziker-Thommen, Maria, Witwe, Part.\nHunziker, Hermann, Sohn, Kaufmann.\n1458 * Bächli, Jakob, Ingenieur in Buchs.\nFirma Zschokke & Cie. (Bureau).\nZehnder-Gassmann, Otto, Kantons-Ingenieur von Zofingen.\n1555 † Schäfer-Troller, Adolf, Architekt.\nSchäfer, Ida, Postkontrolleurs, Part.\n1526 * Derselbe.\nGraf-Martin, Hermann, Kaufmann, v. Querfurt (Sachsen).\n1466 Senn-Gysi, Hans, Zeughausverwalter von Zofingen.)\n\nJurastrasse.\n\nGoldern.\n1001 Jakob-Ryser, Johann, Oekonom, von Rapperswil (Bern).\n1002 † Derselbe. Wagenschopf.\n1008 † Derselbe. Waschhaus.\n\nScheibenschachen.\n1004 † Riniker, Gebrüder, Bierbrauer. Färbemise.\n\nBinsenhof.\n1005 Riniker-Läuchli, Jakob, Oekonom.\n1006 * Derselbe. Wohnhaus.\nRennhard-Stirnemann, Joseph, Knecht, von Böttstein.\n1007 † Derselbe. Scheune.\n1008 † \" Holzschopf.\n1009 † \" Werkstätte und Waschhaus.\n1010 Abgetragen an dessen Platz.\n1457 Riniker-Waldis, Arnold, Kaufmann, ⚭ Wirtschaft zum\n„Binsenhof“ (Chalet).\n1011 Abgetragen an dessen Platz.\n1468 † Derselbe. Scheune.\n1012 Abgetragen.\n1469 † Derselbe. Musikpavillon.\n1470 † \" Trinkhalle.\n1501 † \" Kegelbahn.\n1502 † \" Hühnerhaus.\n1503 † \" Holzschopf.\n1504 † \" Bienenhaus.\n\nBahnhofstrasse.\n1013 Zurlinden-Richner, Rudolf, Fabrikant, von Zofingen.\n1014 † Derselbe. Wasch- und Holzhaus.\n1221 † \" Holzremise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4625,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1356,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 29.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0022,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:30:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p086",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p086.jpeg",
+      "bytes": 257378,
+      "sha256": "a074fec3c8437bb743539ce43181be0b05bcd4e15eeda8cd3b4b8f227f585144",
+      "sha256_of": "original",
+      "working_copy": "1899_p086.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:30:43+00:00"
+  }
+}

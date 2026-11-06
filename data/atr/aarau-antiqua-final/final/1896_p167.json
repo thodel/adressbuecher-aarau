@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p167",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p167.jpeg",
+    "bytes": 241241,
+    "sha256": "1bc765c6d0bed258c574de550affc6821b23ce59b6018d67e1c2c918b7a540ec",
+    "sha256_of": "original",
+    "working_copy": "1896_p167.jpeg"
+  },
+  "text": "Aarau von Südwesten gesehen.\nDie\nGeschäfts- und Gewerbetreibenden\nin alphabetischer Folge der Berufsklassen.\n* = Im Handelsregister eingetragen.\nAdressbücher.\nSchweizerische Centralstelle für Adress-\n  bücher. Bachstraße 1174. (Adress-\n  bücher Leihanstalt.)\nAdvokaten.\n  (Siehe Fürsprecher.)\nAerzte.\nBircher, Heinrich, Dr. med., Oberarzt\n  der chirurg. Abteilung an der kan-\n  tonalen Krankenanstalt. Nr. 1186.\n  Sprechstunden 10-11 Uhr vormit-\n  tags; Sonntag ausgenommen.\nFrey, Konrad, Dr. med., Laurentzen-\n  vorstadt 356.\n[spalte 2]\nIsler, Walter, Dr. med., Bachstr. 1047.\nKalt, Alfred, Oberarzt der medizinischen\n  Abteilung und der Gebäranstalt an der\n  kant. Krankenanstalt, Nr. 1186. Sprech-\n  stunden 1 1/2 bis 2 1/2 Uhr nachm.,\n  Sonntag ausgenommen.\nLang, Franz, Theodor, Augenarzt,\n  Graben 615.\nLorenz, Josef, Graben 216.\nSchenker, Gottlieb, Dr. med., Bahn-\n  hofstrasse 1289.\nSchmuziger, Friedrich, Dr. med., Ent-\n  felderstraße 972.\nWeber, Gustav, Bezirksarzt, Schloß-\n  platz 1389.\n  *",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 34957,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1002,
+    "lines": 36,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 25.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T16:50:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p167",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p167.jpeg",
+      "bytes": 241241,
+      "sha256": "1bc765c6d0bed258c574de550affc6821b23ce59b6018d67e1c2c918b7a540ec",
+      "sha256_of": "original",
+      "working_copy": "1896_p167.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T16:50:23+00:00"
+  }
+}

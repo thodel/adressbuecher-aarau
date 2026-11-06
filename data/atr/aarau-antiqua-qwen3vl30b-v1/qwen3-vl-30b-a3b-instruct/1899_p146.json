@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p146",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p146.jpeg",
+    "bytes": 279201,
+    "sha256": "f4e0134bac674bb17d391c7c4c945b5859f5544e787bbed5e756a3f4047fbc1e",
+    "sha256_of": "original",
+    "working_copy": "1899_p146.jpeg"
+  },
+  "text": "42\nSuter, Anna Elisabeth, Spetterin, Milchgasse 145.\n— Elise, Wäschерin, Ziegelrain 711.\n— Gabriel, Posamenter, Kirchgasse 12.\n— Jakob, Schreiner, Rain 833.\n— Jakob, Professor, Seminarlehrer, Gönhardfeldweg 1241.\n— Johann, Part., Laurenzenthorgasse 1118.\n— Johann Rudolf, Fabrikarbeiter, Laurenzenvorstadt 376.\n— Joseph, Bezirksschullehrer, hinter dem Bahnhof 1351.\n— Jost, Konditor, hintere Vorstadt 638.\n— Rosa, Damenschneiderin, Laurenzenthorgasse 1118.\n— Rudolf, Spengler, Ziegelrain 704.\n— Rudolf, Uhrenmacher, Kasinostraße 1556.\nTanner, Erwin, Fürsprech, Wohnung Entfelderstraße 1398, Bureau\nLaurenzenvorstadt 586.\n— Irmengard, Part., Laurenzenvorstadt 586.\nTaubstummenanstalt Aarau. Präsident: Aug. Guyer, Erlinsbacher-\nstraße 336.\nTheez, Albert, Schuhmacher, Laurenzenthorgasse 117.\n— geb. Amsler, Emilie, Schirm- und Kostümgéschäft. Wohnung\nLaurenzenthorgasse 117, Laden Holzmarkt 754.\nTheiler geb. Rebmann, Elise, Witwe, Part., Laurenzenvorstadt 415.\nTheodor, Amadeus, Zugführer, Bahnhofstraße 1020.\nThielke, Friedrich, Schneider, Rain 862.\nThom, Franz, Trompeterinstruktor d. Infanterie, Zeughausstraße 1310.\nThut, Gottlieb, Weinhändler, Bachstraße 1124.\n— Gottlieb, Part., Schachen 736.\n— Hermann, Ziegler, Rain 863.\n— Walter, Kaufmann, Laurenzenvorstadt 547.\nTöchternheim Aarau. Laurenzenvorstadt 394.\nTraine, Eugen, Hauptmann, Instruktor der Infanterie, Bahnhof-\nstraße 1336.\nTrefzger, Gustav, Dampfwascherei u. Badanstalt, Färbergäßchen 231.\nTreier, Johann, Schreiner, Halden 280.\n— Johann, Taglöhner, Golattenmattgasse 233.\n— Trösch geb. Schütz, Anna, Stadthof 92 a.\nTrüeb, August, Lithographiebesitzer, Gönhardfeldweg 1150.\nTschanz, Wilhelm, Maschinist, Bachstraße 1028.\nTschudin, Karl, Schneider, Golattenmattgasse 230.\nTuchschmid, Aug., Dr. phil., Professor, jenseits der Aare 1524.\nTurgi, August, Maschinist, Bachstraße 1040.\nUebelmann geb. Dubs, Anna, Wwe., Part., Laurenzenvorstadt 1294.\nUebersax, Jakob, Ferger, Zollrain 292.\nUhler, Bertha, Lehrerin am Gewerbemuseum, Entfelderstraße 981.\nUmiker, Marie, Fabrikarbeiterin, Entfelderstraße 1147.\n— geb. Marti, Maria, Witwe, hintere Vorstadt 643.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6276,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2116,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:37:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p146",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p146.jpeg",
+      "bytes": 279201,
+      "sha256": "f4e0134bac674bb17d391c7c4c945b5859f5544e787bbed5e756a3f4047fbc1e",
+      "sha256_of": "original",
+      "working_copy": "1899_p146.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:37:03+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p021",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p021.jpeg",
+    "bytes": 267517,
+    "sha256": "317d4b7ecc69d4997730a9a7ffd2fc93ce456c4693ff7cc40f4585e5aea55a7b",
+    "sha256_of": "original",
+    "working_copy": "1899_p021.jpeg"
+  },
+  "text": "13\nHaus-\nNr.\nOberthor.\n138 * Wirz-Martin, Emil, ⚭ von Solothurn.\n— Christen, Karol., Wwe., v. Solothurn, Schreibmaterialienhdgl.\nBaldinger, geb. Wirz, Josephine, Ladenvorsteherin, v. Baden.\n139 Wirz-Martin, Emil ⚭, von Solothurn. (Vormals J. J. Christen).\nSortimentsbuchhandlg., Verlagsbuchhandlg., Buchdruckerei\nund Buchbinderei.\n140 * Mattenberger-Walther, Jakob, Metzger, ⚭ Metzgerei.\n\nMilchgasse.\n141 Mattenberger-Walther, Jakob, Metzger, Speisewirtschaft.\n142 Bolliger, Albert, Bäckermeister, von Küttingen.\n— Louise, Haushälterin, von Küttingen.\nFisch, Lina, Privatin.\n143 * Derselbe.\nDürr-Hofer, Emil, Gemüsehändler.\nRüetschi-Reinert, Karl, Coiffeur (Wohnung).\n144 Wälti-Müller, Marie, Witwe, von Dürrenäsch (Spezerei- und\nMilchhandlung).\n— Emil, Sohn, Milchhändler, von Dürrenäsch.\n145 * Dieselbe.\nHaller-Attiger, Friedr. Wilh., Badaufseher, von Reinach.\nHemmeler, Rosina, Part.\nSuter, Anna Elisabeth, Spetterin, von Suhr.\nHiemer-Ruchti, Johann, Schneider, von Altusried (Bayern).\n146 * Kull, Philipp, Spenglers Erbschaft.\nWyser-Grob, Gustav, Korbmacher, v. Nieder-Gösgen (Soloth.).\n147 Andres-Meier, Samuel, Schlossermeister.\nBachofen, Joh. Friedrich, Sekretär, von Eiken.\n148 * Kull, Philipp, Spenglers Erbschaft.\nKistler-Treier, Emil, Taglöhner, von Bötzen.\nGing-Ryser, Wilhelm, Wagner.\nCima-Hauri, Verena, Wwe., Fabrikarbeiterin v. Aquila (Tessin).\n149 Dambach-Drack, Jakob, Fakteur, von Ob.-Bözberg.\nDrack-Hauser, Elisabeth, Witwe, Spetterin.\n150 Siegrist-Fischer, Jakob, Metzger ⚭, von Meisterschwanden.\nImhof-Brem, Emil, Mechaniker, von Freienwyl.\nBerner, Verena, Spetterin, von U.-Kulm.\n— Marianna, Spetterin, von U.-Kulm.\n151 * Hoffmann-Käser, Johann, Schuhmachermeister.\nHediger-Born, Maria, Postfaktors Witwe, von Reinach.\nHochstrasser-Fehlmann, Verena, Spetterin, von Fahrwangen.\n— Elise, Damenschneiderin, von Fahrwangen.\nSchäfer-Frei, Emil, Bauamtsarbeiter.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5047,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1890,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.21,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:24:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p021",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p021.jpeg",
+      "bytes": 267517,
+      "sha256": "317d4b7ecc69d4997730a9a7ffd2fc93ce456c4693ff7cc40f4585e5aea55a7b",
+      "sha256_of": "original",
+      "working_copy": "1899_p021.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:24:53+00:00"
+  }
+}

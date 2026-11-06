@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p150",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p150.jpeg",
+    "bytes": 276563,
+    "sha256": "055c0c95841ffbccb28c6f60932d2d01f40575061d7e37aced841fc107ef9ba9",
+    "sha256_of": "original",
+    "working_copy": "1896_p150.jpeg"
+  },
+  "text": "112\nAlphabetisches Verzeichnis.\nMorath, Johann, Kaufmann, Glas-, Porzellan- und Uhrenhandlung,  Rat- hausgasse 2.\n— Johann, Sohn, Kaufmann, Rathaus- gasse 2.\nMorgenthaler, David, Dienstmann, Go- lattenmattgasse 237 c.\n— Elisabeth, Spetterin, Bahnhofstraße 1019.\nMoser, Johann, Handlanger, Laurenzen- vorstadt 376.\n— Karl, Architekt, Graben 216.\nMühlberg, Fritz, Dr. phil., Professor, Rain 878.\n— Theodor, Postkontrolleur, Feerstraße 1307.\nMühlethaler, Gottfr., Taglöhner, hintere Vorstadt 643.\nMüller, Albertine, Damenschneiderin, vor dem Haldenthor 770.\n— Alfred Friedr., Geschäftsführer, (Aarg. Tagblatt) Oberthor 228.\n— Arnold, Baumeister, jenseits der Aare 346.\n— Eduard, Schirmmacher, Rathausg. 30.\n— Emil, Bahngestellter, Kasinostraße 1176.\n— Eugen, Wagenkontrolleur, hinter dem Bahnhof 1268..\n— Elisabeth, Haushälterin, Scheiben- schachen 316.\n— Elise, Glätterin, obere Vorstadt 921.\n— Elise, Staatsweibels Witwe, obere Vorstadt 921.\n— Friedrich August, Kaufmann, Lauren- zenvorstadt 367.\n— Friedrich, Oekonom, Schachen 725.\n— Fritz Coiffeur, Metzgergasse 107.\n— Hans Jakob, Taglöhner, Lauzenzen- vorstadt 376.\n— Heinrich, Hôtelier (Löwen), vordere Vorstadt 681.\n— Hermann, Sohn, Oekonom, Schachen 726.\n— geb. Hunn, Verena, Part., Bachstraße 1038.\n— geb. Hurni, Maria, Witwe, obere Vor- stadt 935.\nMüller, Jb., Aufseher, hintere Vorstadt 694.\n— Jakob, Obergerichtsweibel, Milchgasse 143.\n— Jakob, Bahnarbeiter, Laurenzenvor- stadt 376.\n— Jakob August, Stationsgehilfe, hinter dem Bahnhof 1351.\n— Jakob, Ausläufer, Bachstraße 1028.\n— Jakob, Lithographiebesitzer, Wohnung in der Gais 1131.\n— Jakob, Posamenter, Laurenzenvorstadt 376.\n— Jakob, Buchbinder, Schmiedgasse 637.\n— Jakob, Armenhausvorsteher, Halden 241.\n— Johann Jakob, Schuhmacher, Kirch- gasse 10.\n— Johann, Postangestellter, Zollrain 179. .\n— Jost, Schneider, Schmiedgasse 636.\n— Karl Theodor, Schmied, obere Vor- stadt 925.\n— & Trüb.  (Jakob Müller u. August Trüb.) Graphische Kunstanstalt, Druckerei und Buchbinderei, Bahn- hofstraße 1287.\n— Lorenz, Lithograph, Ziegelrain 700.\n— Maria, Zimmermanns, Part., Pelzgasse 132.\n— Maria Anna, Fabrikarbeiterin, Adel- bändli 172.\n— geb. Nußbaum, Sara, Part., Ziegel- rain 751.\n— Otto, Buchhalter, vor dem Halden- thor 770.\n— Rudolf, Bremser, Hammer 188.\n— Rosa, Glätterin, Halden 241.\n— Samuel, Maschinenputzer, obere Vor- stadt 947.\n— Samuel, Part., Holzmarkt 1260.\n— Samuel, Obsthändler, Milchgasse 145.\n— Sigmund, Zimmermeister, vordere Vor- stadt 673.\n— geb. Schneider, Susanna, Haushälterin, Milchgasse 146.\n— Verena, Modistin, Metzgergasse 107.\n— geb. Walti, Marie, Weißnäherin, hintere Vorstadt 623.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7404,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2629,
+    "lines": 57,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:13:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p150",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p150.jpeg",
+      "bytes": 276563,
+      "sha256": "055c0c95841ffbccb28c6f60932d2d01f40575061d7e37aced841fc107ef9ba9",
+      "sha256_of": "original",
+      "working_copy": "1896_p150.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:13:17+00:00"
+  }
+}

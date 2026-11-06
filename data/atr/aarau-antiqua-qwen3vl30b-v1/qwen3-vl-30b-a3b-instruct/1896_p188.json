@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p188",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p188.jpeg",
+    "bytes": 278368,
+    "sha256": "71a468f0783bb5f81a6ddd623f92a2de83bde4e917e8fd3d138e5413e6d37201",
+    "sha256_of": "original",
+    "working_copy": "1896_p188.jpeg"
+  },
+  "text": "150\nGeschäfts- und Gewerbetreibende.\nHagenbuch-Hagenbuch, Verena, Zollrain\n177.\nHaßler-Wanger, E., * Laurenzenthor-\ngasse 349.\nHenz, Jakob & Cie., * vord. Vorst. 678.\nHoch, Gustav & Cie., * Graben 349.\nHirsbrunner, Jakob, Halden 255.\nHitz-Lanz, Otto, * Rain 875.\nHofer, Gottlieb, * Rathausgasse 43.\nIndermauer-Richner, Elise, Bahnhofstraße\n658.\nKonsum der Arbeiter-Union Aarau, vord.\nVorstadt 900.\nMaurer, Emil. * jenseits d. Aare 1303ä.\nNadler-Häuptli, Wwe., Bahnhofstr. 1026.\nOtt-Wenger, Maire, Adelbändli 81.\nRohr, Jakob, * Laurenzenthorg. 119 a.\nRoth, Rudolf, Bahnhofstraße 1074.\nSchmid-Maurer, Mathilde, Rathausg. 29.\nSiegrist-Lindenmann, Johann, * obere\nVorstadt 922.\nStephani-Winkler, Margaritha, * Witwe,\nRathausgasse 26.\nWalti-Müller, Marie, Witwe, Milchg. 144.\nWassmer, Emil, * z. Adler, Pelzg. 137.\nWüthrich, Samuel, * Laurenzenthorg. 117.\nSpiegellager.\nHagenbuch, Karl, * Kronengasse 35.\nMorath, Johann, * Rathausgasse 2.\nSprechstationen.\n(Oeffentliches Telephon.)\nWüthrich-Lüdi, Samuel, Laurenzenthor-\ngasse 117.\nSteinhauereigeschäfte.\nRusterholz & Freihofer, * Bildhauer,\nRainstraße 886.\nZschokke, O., * Baugeschäft, Rohrer-\nstraße 473.\nStellenvermittler.\nGraf, Marie, Witwe, Milchgasse 73.\nLüthi-Kneubühler, Anna, Kirchgasse 15.\nZähner-Brunnhofer, (Schweizer. Frauen-\nverband) Halden 246.\nStickerei- und Wollwaren-\nHandlungen.\nFörderer, Geschw., Rathausgasse 20.\nHagenbuch-Hagenbuch, Verena, Zollrain\n177.\nHauri & Gränicher, * hint. Vorst. 1236.\nStoffdruckereien.\nJenny & Weigel, * Telli 449.\nStrohgeflechtfabrikation.\nHegnauer, Rudolf, * Hammer 194.\nStrohhutwascherei.\n(Siehe Modistinnen.)\nTapezierer.\nBircher, Eduard, Halden 286.\nGysi, Adolf, Pelzgasse 124.\nHäfelin, Joseph, Kasinostraße 660.\nKiburz, Gotthold, Entfelderstraße 968.\nLüthi, Eduard, Kirchgasse 15.\nLüthi, Fritz, hintere Vorstadt 642.\nSchäfer, Otto, Halden 275.\nScheibler, Alfred, Adelbändli 83.\nSiebenmann, Arnold, Bahnhofstr. 1074.\nTuchschmid, Konrad, Pelzgasse 126.\nWildi, Jakob, Halden 264.\nTapetenlager.\nHagenbuch-Hagenbuch, Verena, Zollrain\n177.\nHaßler-Hunziker, Karl, Bahnhofstr. 1020.\nSiebenmann, Arnold, Bahnhofstr. 1074.\nTapissereigeschäfte.\nFörderer, Schwestern, * Rathausgasse 20.\nHauri & Gränicher, * hint. Vorst. 1236.\nTeigwarenhandlungen.\n(Siehe Spezereihandlungen S. 149.)\nTelegraphen- und Telefonbureau.\n(Metzgergasse 113.)\n(Täglich geöffnet vom 1. Mai bis 1. November\nvon morgens 7 bis abends 9 Uhr und vom 1. No-\nvember bis 1. Mai von morgens 8 bis abends 9 Uhr.\nChef: Lüthy, Samuel.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7948,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2482,
+    "lines": 85,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0706,
+    "mean_line_chars": 28.21,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:18:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p188",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p188.jpeg",
+      "bytes": 278368,
+      "sha256": "71a468f0783bb5f81a6ddd623f92a2de83bde4e917e8fd3d138e5413e6d37201",
+      "sha256_of": "original",
+      "working_copy": "1896_p188.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:18:16+00:00"
+  }
+}

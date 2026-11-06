@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p067",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p067.jpeg",
+    "bytes": 263969,
+    "sha256": "25917d4a37d4f4277a4b819c34e51604e25f2c6d479bb7a46f2237f2d29bc094",
+    "sha256_of": "original",
+    "working_copy": "1899_p067.jpeg"
+  },
+  "text": "Haus-\nNr.\n722 * Dieselben. Wohnhaus.\nBeck-Hertenstein, Karl, Schneider, von Horb (Würtbrg.).\nOberli-Wydler, Richard, Privat, von Mels (St. Gallen).\n1172 † Dieselben. Wagenremise.\n1401 † Dieselben. Holzschopf.\n\nSchachen.\n723 Schmidt-Henz, Hans, Part.\nHassler-Schmidt, Fried., Verwalter des städt. Elektrici-\ntätswerkes.\n1168 † Derselbe, Holzschopf.\n724 † Ortsbürger-Gemeinde Aarau. Waschhaus.\n1333 † Einwohner-Gemeinde Aarau. Militärbaracke I.\n1334 † Dieselbe. Militärbaracke II.\n1259 Walther-Matter, Verena, Ökonoms Witwe.\nWietlisbach-Walther, Joseph Burkard, Postcommis.\n725 Müller-von Däniken, Friedrich, Ökonom.\n726 * Derselbe. Wohnhaus.\nMüller-Bachmann, Hermann, Ökonom.\n1331 † Derselbe, Scheune.\n727 Fehlmann-Wernli, Samuel, Lehrer, von Seon. Speise-\nwirtschaft.\n— —, Maria, obigen Ehefrau, Wirtin z. Cantine.\n728 † Derselbe, Trinkhalle.\n729 Hegnauer-Fischer, Rudolf, Buchhalter, von Seengen.\nBaumann-Bhend, Gottlieb, Schneider, von Schafisheim.\n—, Elise, Damenschneiderin, von Schafisheim.\nKeller-Isler, Herm. Jos., Schneider, v. Überlingen (Baden).\n1325 † Derselbe. Holzschopf.\n1261 Matter-Schönenberg, Samuel, Amtsschreiber, von Ober-\nentfelden.\nHässig-Matter, Gottlieb, Postcommis.\n730 Meyer-Bucher, August, Direktionssekretär, von Ober-\nsiggenthal.\n731 Burger-Kielholz, Samuel, Wirt, von Möriken. Speise-\nwirtschaft\nHuber-Ruchit, Rudolf, Telefonarbeiter, v. Mauraz (Waadt).\n732 * Derselbe. Wohnhaus.\nSchmid-Jakober, Hermann, Stadtpolizist, von Zuzgen.\nKielholz, Luise, Part.\n733 Mürset-Lüscher, Gottlieb, Fuhrmann, von Diesse (Bern).\nSpeisewirtschaft.\n734 Brunnhofer-Schenk, Emil, Postangestellter.\nBolliger-Siebenmann, Fritz, Wirt, von Schloßrued. Speise-\nwirtschaft.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4496,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1689,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 34.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:28:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p067",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p067.jpeg",
+      "bytes": 263969,
+      "sha256": "25917d4a37d4f4277a4b819c34e51604e25f2c6d479bb7a46f2237f2d29bc094",
+      "sha256_of": "original",
+      "working_copy": "1899_p067.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:28:59+00:00"
+  }
+}

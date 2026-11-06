@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p159",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p159.jpeg",
+    "bytes": 250999,
+    "sha256": "96f3b337b5b0d01c7345cb90527c92ee1194c8e29b69068e7a5f08efa58e6ff6",
+    "sha256_of": "original",
+    "working_copy": "1899_p159.jpeg"
+  },
+  "text": "55\nBlumenhandlungen.\nBonneck, Max, Graben 1516.\nKlein, Jean, * Kronengasse 34.\nGroßmann, Otto, Graben 219.\nWehrli, Johann, Schachen 779.\nBonnetierewaren.\nErdin, A., * Rathausgasse 20. (Siehe Inserat Seite 22.)\nErny-Fässler & Sohn, * Kronengasse 33.\nBriefmarkensammler.\nFrey, Karl, Buchbinder.\nGysi, Otto, Photograph, Sohn.\nHenz-Plüss, J., Präsident des Vereins für Briefmarkenkunde.\nHeuberger-Fischer, Jakob.\nHunziker, Fritz, Buchdrucker.\nHunziker-Leuch, Edwin.\nKern-Hunziker, Emil.\nMüller, Eduard, Schirmmacher.\nOehler, Alfred, Ingenieur.\n— Oskar, Ingenieur.\nRychner, Louis, Ingenieur.\nSiebenmann-Merz, Emil, Konservator des Schweiz. Wertzeichen-\n  museums in Aarau.\nVerein für Briefmarkenkunde. *\nBroderiegeschäfte.\nFörderer, Schwestern, * Graben 221.\nHauri & Gränicher, * hintere Vorstadt 1236.\nBuchbinder.\nAndres, Heinrich, Rain 821.\nEgloff, Ernst, Bachstraße 933.\nHagenbuch, Friedrich, * vordere Vorstadt 676. (Siehe Inserat S. 18.)\nHaßler, Theodor, Milchgasse 153.\nMüller, Jakob, hintere Vorstadt 696.\nMüller & Trüb, * Bahnhofstraße 1287.\nSandmeier, Gottlieb, obere Vorstadt 955.\nSauerländer, H. R. & Cie., Buchbinderei en gros, * Laurenzenvor-\n  stadt 1184.\nSchatzmann, Samuel, Pelzgasse 135. (Siehe Inserat Seite 5.)\nWärtli, August, Kirchplatz 166. (Siehe Inserat Seite 15.)\nWitz, Emil, * Oberthor 139. (Siehe Inserat Seite 13.)\nZebert, Georg, * Laurenzenthor gasse 116.\nBuchdruckereien.\nAktiengesellschaft der Aargauer Nachrichten, * h. Vorstadt 622.\n(Siehe Inserat Seite 23.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21277,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1485,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.68,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:55:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p159",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p159.jpeg",
+      "bytes": 250999,
+      "sha256": "96f3b337b5b0d01c7345cb90527c92ee1194c8e29b69068e7a5f08efa58e6ff6",
+      "sha256_of": "original",
+      "working_copy": "1899_p159.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:55:24+00:00"
+  }
+}

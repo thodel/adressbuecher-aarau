@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p182",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p182.jpeg",
+    "bytes": 273092,
+    "sha256": "21a0e8e1f52db46a86f1ac947516c7795562eaf02b5581abee5f5c2d53c370e0",
+    "sha256_of": "original",
+    "working_copy": "1899_p182.jpeg"
+  },
+  "text": "78\nPhotographische Anstalten.\nGysi & Co., * vordere Vorstadt 895. (Siehe Inserat S. 26.)\nSchatzmann, Albert, Kasin straße 1446. (S. Inserat S. 19.)\nWolfsgruber, Gottfried, Bahnhof straße 1160. (S. Inserat S. 9.)\nPhotographische Bedarfsartikel.\nFrey & Co., in der Telli 431. (Siehe Inserat.)\nPräparateurs.\nZellweger, Oskar, Hammer 190.\nPulververkauf.\nBrast, Geschwister, * Holzmarkt 661.\nQuincaillierwaren.\nErдин, Albin, * Rathausgasse 22. (S. Inserat Seite 22.)\nFaller-Faller, Elise Luise, * Witwe, Kronengasse 41.\nHagenbuch, Karl, * Kronengasse 35.\nHemmeler & Cie., * (en gros Geschäft), hintere Vorstadt 638.\n— Stahl, J., * Rathausgasse 21.\nLamm-Roth, Albert. „Central Bazar“, Graben 1237.\nMarti, Hulda Flora, Metzgergasse 55. (S. Inserat Seite 7.)\nMorath, Johann, * Rathausgasse 2.\nVonfelten-Willimann, * Kronengasse 37.\nWetter & Cie., * Magazin Globus, obere Vorstadt 925.\nRechtsagenten.\n(Siehe Inkassogeschäfte.)\nReisszeugfabrikanten.\nGysi & Co., * vordere Vorstadt 895. (Siehe Inserat S. 26.)\nKern & Cie., * Ziegelrain 747. (S. Inserat Seite 20.)\nRöhrenfabriken.\n(Siehe Fabrikationsgeschäfte.)\nSalzauswäger.\nBell-Marti, Lina, Pelzgasse 65.\nHof, Eduard, obere Vorstadt 935.\nMaurer, Emil, * jenseits der Aare 1303 a.\nOtt-Wenger, Maria, Adelbändli 81.\nWildi-Wespi, Adele, hintere Vorstadt 699.\nSamenhandlungen.\nGroßmann, Otto, Graben 219.\nHenz, Jakob, * vordere Vorstadt 679.\nHoch, Gustav & Cie., * Graben 351.\nKlein, Jean, * Kronengasse 34.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17975,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1444,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.025,
+    "mean_line_chars": 35.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:09:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p182",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p182.jpeg",
+      "bytes": 273092,
+      "sha256": "21a0e8e1f52db46a86f1ac947516c7795562eaf02b5581abee5f5c2d53c370e0",
+      "sha256_of": "original",
+      "working_copy": "1899_p182.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:09:41+00:00"
+  }
+}

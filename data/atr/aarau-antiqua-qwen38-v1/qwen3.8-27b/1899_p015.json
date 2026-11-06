@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p015",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p015.jpeg",
+    "bytes": 277285,
+    "sha256": "ae3253224719421935eb43b62373b25e4337e893b8f7f9173299e1f0fb65ce45",
+    "sha256_of": "original",
+    "working_copy": "1899_p015.jpeg"
+  },
+  "text": "7\nHaus-\nNr.\n67 Fäs-Gall, Rudolf, Kasernier, von Schöttland.\nLienhard, Anna, Modistin, von Buchs, Modegeschäft.\n68 Hagnauer, Friedrich, Bürstenfabrikant. Bürstenwarenhandlung.\n— Hermann, Sohn, Kaufmann.\nHilfiker-Alchenberger, Jakob, Schuhmacher, von Safenwyl.\nBaur, Bernhardt, Schneider, von Sarmenstorf.\n69 Schaub-Blauenstein, Adelbert, Gipsermeister ✂, von Ettingen\n(Baselland).\nRamsauer, geb. Hächler, Anna, Wwe., Part., v. Herisau (App.).\nRohr-Blauenstein, Maria Anna, Fabrikarbeiterin, von Hunzen-\nschwyl.\n\nMilchgasse.\n70 Bertschi-Bircher, Julius, gew. Zugführer, v. Sumiswald (Bern).\n— Anna, Damenschneiderin, von Sumiswald (Bern).\nAllgemeiner Consum-Verein Aarau, Spezereihandlung.\nHaberstich-Huber, Agnes, Witwe, von Ob.-Entfelden.\n71 Hering-Leuenberger, Johann, Lehrer, von Aristorf (Baselland).\nBett- und Möbelhandlung.\nHäusler-Müri, Joseph, Heizer, von Schwaderloch.\n72 Hoffmann-Käser, Joh., Schuhmachermeister, Schuhwarenhandlg.\n73* Maurer, Louise, Privatin.\n— Ernst, Philipp, Giessereiarbeiter.\n— Lisa, Ladentochter.\n— Robert, Coiffeur.\nHässig-Finsterwald, Emil, Tapezierer.\n74 Baumann-Leutwyler, Johann, Stadtarbeiter, von Bottenwyl.\nMüller-Nikles, Jakob, Ausläufer, von Unternstfelden.\nWidmer-Wüthrich, Jakob, Webermeister, von Gränichen.\n75 Wernli-Bolliger, Johann, Stadtarbeiter.\nIsliker, Ulrich, Schuhmacher, von Andelfingen (Zürich).\nGloor-Horlacher, Ferdinand, Holzer, von Birr.\n76 Ernst-Lehmann, Samuel, Gasarbeiter, von Holziken.\nGloor-Grossenbacher, Adolf, Dachdecker, von Dürrenäsch.\nSchnellmann-Widmer, Heinrich, Maurer, Rapperswyl (St. G.).\n77 Hässig-Siegrist, Julius, Schlossermeister.\nFäs, Ida, Fabrikarbeiterin, von Oberkulm.\n78 Andres-Eichelberger, Otto, Hufenschmied.\nHolzreuter-Suter, Katharina, Wwe., Taglöhnerin, von Üken.\nCernyho-Sotota, Frantisca, Maschinenmeister, von Modletice\n(Österreich).\n79 Wärtli geb. Nußbaum, Marg., Witwe, Part.\nRüedi-Wärtli, Joh. Nepomuk, Staatsweibel, von Sulz.\nFrank-Häuptli, Rudolf, Postpacker.\nMüller, Karl, Schneidermeister, von Birr.\nRoth, Jakob, Schneidermeister, von Birr. Firma: K. Müller & J. Roth,\nMarchand-Tailleurs.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16785,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2090,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:35:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p015",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p015.jpeg",
+      "bytes": 277285,
+      "sha256": "ae3253224719421935eb43b62373b25e4337e893b8f7f9173299e1f0fb65ce45",
+      "sha256_of": "original",
+      "working_copy": "1899_p015.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:35:00+00:00"
+  }
+}

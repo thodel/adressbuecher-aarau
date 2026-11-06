@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p171",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p171.jpeg",
+    "bytes": 270025,
+    "sha256": "455803c02bfeb9bd326c7566c3723437b90bd6d4a5170a9dc1689148e71820cf",
+    "sha256_of": "original",
+    "working_copy": "1896_p171.jpeg"
+  },
+  "text": "Geschäfts- und Gewerbetreibende. 133\nBüchsenmacher.\nRychner, Heinrich, * Schloßplatz 196.\nBürstenhändler.\nFaller, geb. Faller, Witwe, Elise, *\nKronengasse 41.\nHagnauer, Friedrich, Pelzgasse 68.\nMorath, Johann, * Rathausgasse 2.\nBürstenfabrikanten.\nHagnauer, Friedrich, Pelzgasse 68.\nCamionneure.\nHangartner, Kaspar, Ziegelrain 712.\nHunziker, Heinrich. Rain 1185.\nSiebenmann & Cie., * Bahnhofstr. 537.\nChampagner.\nBührer-Heusler, Karl, * Bachstraße 1174.\nCement-Fabrikation.\nFleiner & Cie., Cementfabrik u. Bureau, *\nErlinsbacherstraße 327. (S. Inserat\nSeite 1.)\nZurlinden & Cie., * im Scheibenschachen\n1180 (Portlandcement).\nChemisch-technische Präparate.\nAngst, Gottlieb, * hint. dem Platz 214\nChemische Produkte.\nCuster, E. & Cie., * Mineralwasserfabri-\nkation, Bahnhofstraße 551.\nFrey & Cie., * in der Telli 431 (Siehe\nInserat S. 3).\nLandolt & Cie., * obere Vorstadt 949.\nRiniker. Gebr., * Fabrik v. d. Halden-\nthor 755.\nCigarren- und Tabak-Handlungen.\nFischer, Adolf, * Laurenzenthorg. 120.\nGuggisberg, Emil, Bahnhofstr. 568 b.\nferner alle Spezereihandlungen.\nCoiffeurs.\nBurkhardt, F., Laurenzenthorgasse 118.\nBurkhardt, Ferd., Sohn, Laurenzenthor-\ngasse 118.\nFrey, Achilles, Zeughausstraße 1310.\nGraf, Arnold Eugen, Graben 1237.\nHagenbuch, Karl, Rainstraße 819.\nHauri, Jean, Pelzgasse 65.\nHeuberger, Karl, Bahnhofstraße 658.\nHoffmann, Christoph, Kirchgasse 8 a.\nMarfurt, Franz Xaver, Bahnhofstr. 1022.\nMüller, Fritz, Metzgerg. 107.\nRüetschi, Karl, Rathausgasse (Milch-\ngasse) 22.\nSchibler, Fritz, Kronengasse 34.\nSeilaz, Abraham, Oberthor 137.\nDieselben handelu auch mit\nParfümeriewaren.\nCoiffeusen.\nBurkhardt, Lina, Laurenzenthorg. 118.\nHugi, Marie, Graben 207.\nMürset Marie, Kirchgasse 13.\nSeilaz-Brunner, Julie, Oberthor 137.\nComestibles.\nGloor-Siebenmann, Marie, * Kroneng. 38.\n(Siehe Inserat S. 15.)\nJäker-Haller, Joseph, * hint. Vorst. 696.\nSchmid-Maurer, Mathilde, * Rathausg. 29.\nChocolade-Fabrikation.\nFrey, R. & M., * Laurenzenvorst. 423.\nDachdecker.\nHerzig, Friedrich, Halden 289.\nVogel, Rudolf, Entfelderstr. 1147.\nWägeler, Karl, v. d. Haldenthor 1306.\nWidmer, Rudolf, v. d. Haldenthor 808.\nDampfsäge.\nZschokke, O., Baugeschäft, * Rohrer-\nstraße 466.\nDelikatessenhandlungen.\n(Siehe Comestibles.)\nDienstmänner.\nBerner, Gottlieb, Rain 821.\nHässig, Johann Konrad, Rain 881.\nMorgenthaler, David, Golattenmattgasse\n237.\nSchäfer, Wilhelm, Oberthor 234.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7057,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2363,
+    "lines": 82,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0122,
+    "mean_line_chars": 27.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:15:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p171",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p171.jpeg",
+      "bytes": 270025,
+      "sha256": "455803c02bfeb9bd326c7566c3723437b90bd6d4a5170a9dc1689148e71820cf",
+      "sha256_of": "original",
+      "working_copy": "1896_p171.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:15:56+00:00"
+  }
+}

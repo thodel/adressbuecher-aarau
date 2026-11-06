@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p109",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p109.jpeg",
+    "bytes": 286590,
+    "sha256": "100d47e7ec1e884beb66eec082467417fe1e17557256533f358745275467827c",
+    "sha256_of": "original",
+    "working_copy": "1899_p109.jpeg"
+  },
+  "text": "5\nBillo, Feodor, Kaufmann, jenseits der Aare 307.\n— Julius, Part., Bahnhofstraße 535.\n— Binz, Gustav, Ingenieur, Laurenzenvorstadt 413.\nBircher, Andreas, Vater, Part., jenseits der Aare 302.\n— Andreas, Kaufmann, jenseits der Aare 302.\n— Eduard, Sattler, Halden 279.\n— Emil Ludwig, Postcommis, jenseits der Aare 1395.\n— Fanny, Part., obere Vorstadt 916.\n— Heinrich, Dr. med., Direkt. d. kant. Krankenanstalt, in d. Gais 1186.\n— Jakob, Part., Pelzgasse 134.\n— Jakob, Schlosser, Halden 252.\n— Julius, Kreisingenieur, Zieglerain 713.\n— Karl, Büchsenmacher, Erlinsbacherstraße 338.\n— geb. Kyburz, Anna, Witwe, Part., hinter dem Bahnhof 497.\nBirchmeier, Alfred, Lithograph, Bahnhofstraße 658.\n— August, Maler, hinter dem Bahnhof 1477.\n— -Felber, Verena, Mercereiengeschäft, Bahnhofstraße 658.\nBirkhofer geb. Hagenbuch, Albertine, Damenschneiderin, Rainstr. 821.\nBirmann, Adolf, Hafer- und Mehlhandlg., Sohn, hintere Vorstadt 689.\n— geb. Baldenweg, Anna Maria, Witwe, hintere Vorstadt 689.\n— geb. Probst, Marie, Witwe, Weinhandlung, Bachstraße 1098.\nBirri, Fridolin, Posamenter, Scheibenschachen 314.\n— Wilhelm, Bremser, Rathausgasse 45.\nBläuer, Jakob, Kanzlist, jenseits der Aare 1394.\nBlattner, Anna, Lehrerin, jenseits der Aare 300.\n— August, Sekretär, obere Vorstadt 921.\n— Gottlieb, Fabrikarbeiter, Milchgasse 144.\n— Hans Rudolf, Landwirt, Erlinsbacherstraße 1246.\n— geb. Hofer, Elisabeth, Witwe, Adelbändli 175.\n— Marie, Weißnäherin, vor dem Haldenthor 1299.\n— Otto, Dr. jur., Fürsprech, Advokaturbureau obere Vorstadt 948.\nWohnung jenseits der Aare 300.\nBlume, Jakob, Sohn, Schreiner, Zollrain 293.\n— Philipp, Schreinermeister, Werkstätte Hammer 188. Wohnung\nZollrain 293.\n— Philipp, Sohn, Drechsler, Zollrain 293.\nBörschig, Georg, Bierbrauer, Laurenzentorgasse 1572.\nBodmer, Joh. Julius, Fabrikaufseher, Erlinsbacherstraße 1298.\nBolens geb. Rychner, Selma, Witwe, Graben 205.\nBolli, Jakob, Bäckermeister, Pelzgasse 62.\nBolliger, Albert, Bäcker, Milchgasse 142.\n— Albert, Bankbuchhalter, hinter dem Bahnhof 1477\n— Emma und Anna, Damenschneiderinnen, Hammer 190.\n— Emil, Buchbinder, Halden 252.\n— Friedrich, Wirt, Schachen 734.\n— Gottfried, Schmied, Hammer 1496.\n— Heinrich, Kanzleigehülfe der Krankenanstalt, Gais 1186.\n— Hermann Rudolf, Bahngestellter, Hammer 190.\n— Jakob, Dienstmann, Laurenzenvorstadt 361.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6930,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2309,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:33:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p109",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p109.jpeg",
+      "bytes": 286590,
+      "sha256": "100d47e7ec1e884beb66eec082467417fe1e17557256533f358745275467827c",
+      "sha256_of": "original",
+      "working_copy": "1899_p109.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:33:00+00:00"
+  }
+}

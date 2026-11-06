@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p060",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p060.jpeg",
+    "bytes": 278275,
+    "sha256": "5c675ef4d4487cfcc2dec9000f20407754d9c25cb3470bcfa3b903177eb37946",
+    "sha256_of": "original",
+    "working_copy": "1899_p060.jpeg"
+  },
+  "text": "82\nHaus-\nNr.\n619    Schenker, Gustav, Bezirksarzt, von Schönenwerd (Sol.).\n  Fischer-Peter, Anna, Part.\n627    Abgetragen. An dessen Platz\n1170 *    Bau- und Garantie-Comité der römisch-kath. Kirche (römisch-\n  katholische Pfarrkirche).\n1197 *    Dasselbe. [tel] Pfarrhaus.\n  Stöckli, Stephan, römisch-katholischer Pfarrer, von Muri.\n  — Elisabeth, Haushälterin, von Muri.\n628    Frey-Rüegg, Oskar, Fabrikant.\n  Rüegg-Abesser, Pauline, Witwe, von Bauma (Zürich).\n629 † Derselbe. Remise.\n1269 †    Siebenmann, Rudolf, Bierbrauer. Brauereigebäude.\n  Bertschi-Vogt, Hermann, von Dürrenäsch (Brauereinhaber).\n630 † Derselbe. Remise, Bier- und Eiskeller.\n631    Abgetragen. An dessen Platz\n1232 *    Matter-Schönenberg, Samuel, Amtsschreiber, von Ober-\n  Entfelden.\n  — -Fäs, Adolf, Bäcker, von Oberentfelden.\n  — — obigen Ehefrau, Modegeschäft.\n  Deubelbeiss-Schaffner, Samuel, Part., von Holderbank.\n  Beck, Albert, Uhrenmacher.\n1244 †    Derselbe. Hintergebäude. Klein- und Großbäckerei.\n632    Bühler-Haberstich, Gottlieb, Kupferschmied.\n633 *    Bertschinger-Wild, Gustav, Spezereihandler, von Lenzburg.\n  (Magazin.)\n634 * Camisasca, Franz, Kaufmann.\n  Marini-Pertusni, Dominico, Südfrüchten- und Geflügel-\n  Händler, von Pognona (Italien).\n635 * Müller-Vondániken, Friedrich, Ökonom.\n  Widmer-Hoffmann, Salome, Witwe, Fabrikarbeiterin, von\n  Erlinsbach (Solothurn).\n  Basler-Müller, Joh., Briefträger, von Zeihen.\n  Gruber-Stalder, Engelhart, Maurer, von Nasseirein (Tirol).\n636    Müller-Kramer, Jost, Schneider.\n  Meier-Häggeli, Karoline, Wwe., Taglöhnerin, von Büren\n  (Luzern).\n637    Rychner-Schleuniger, Maria, Hafners Witwe.\n  Benninger-Jung, Jakob, Bahnarbeiter, von Jeus (Freibrg.).\n  Pauli, Maria, Spetterin, von Villnachern.\nHinterer Vorstadt.\n638    Hemmeler-Frey, Elise, Witwe.\n  Hemmeler & Cie., Quincaillerie- und Spielwaarengeschäft\n  en gros. Spar-, Leih- und Diskontokasse. [tel]\n  Suter-Kopp, Jost, Kaufmann, von Münster (Luzern).\n  Angliker-Oelhafen, Emma, Witwe, Part., von Niederlenz.\n639 † Dieselbe. Magazin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 118160,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2032,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:26:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p060",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p060.jpeg",
+      "bytes": 278275,
+      "sha256": "5c675ef4d4487cfcc2dec9000f20407754d9c25cb3470bcfa3b903177eb37946",
+      "sha256_of": "original",
+      "working_copy": "1899_p060.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:26:51+00:00"
+  }
+}

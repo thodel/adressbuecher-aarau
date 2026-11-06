@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p018",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p018.jpeg",
+    "bytes": 268642,
+    "sha256": "508023d28edcd7393bfefedb76cda71ee864cce9d3b56865be56495a3246d812",
+    "sha256_of": "original",
+    "working_copy": "1899_p018.jpeg"
+  },
+  "text": "40\n\nHaus-\nNr.\n        Bertschi-Schwammberger, Adolf, Schneider, von Sumiswald.\n          — — Marie, Damenschneiderin, von Sumiswald.\n101 * Derselbe.\n        Cantu-Hübscher, Jos., Maurermeister, v. Vico-Morcote (Tessin).\n        Schatzmann-Stauffer, Johann, Mechaniker, von Haufen.\n102 Ryniker, Gebrüder, Karl und Arnold, Bierwirtschaft. [tel]\n          — -Wirth, Karl, Bierbrauer.\n103 * Derselben.\n        Ryniker-Gross, Friedrich, Bierbrauer, Part.\n        Gross, geb. Gross, Louise, Part., von Zurzach.\n        Schlatter, August, Part.\n          104 † Derselben. Brauereigebäude.\n1066 †     Derselben. Kühlschiff.\n          105 * Derselben. Bureau.\n        Scheurmann, Emilie, Privatinn.\n          106a† Dieselben. Holzhaus.\n          106b  Dieselben. Küche und Eßzimmer.\n107 Lenzi-Weber, Jakob, Korbmacher, von Wölflinswyl. Korb-\n          warenhandlung.\n        Frei-Tanner, Johann, Schneider, von Densbüren.\n          — Louise, Damenschneiderin, von Densbüren.\n        Urech-Flückiger, Jakob, Stadtpolizist, von Niederhallwyl.\n        Dill-Frei, Johann Jakob, Schuhmacher, von Basel.\n        Hofer-Brunner, Johann Jakob, Maler, von Niederwyl.\n108 Gamper-Wild, Adolf, Metzger und Wurster. [tel]\n        Gamper-Hassler, Karolina, Bäckers Witwe.\n109 † Derselbe. Schweinemetzg und Waschhaus.\n110 † Derselbe. Metzgerei- und Wursterielokal.\n111 † Derselbe. Eiskeller.\n1328 † Derselbe. Eiskeller.\n112 * Kühn-Hoffmann, Bernhard (Gasthof zum Rössli).\n        Balginger-Lienhardt, Roman, Wirt, [tel] von Zurzach.\n        Lienhardt, Franz, Part., von Buchs.\n113 * Gemeinde Aarau. Post-Filiale und Telegraphenbureau, Tele-\n          phon-Centralstation, Löschmagazin.\n\n                    Laurenzenthorgasse.\n\n114 Abgetragen. An dessen Platz\n1118 Weber-Suter, Heinrich, Kaufmann, von Hinweil (Zürich).\n          Spezialität in Damenkleiderstoffen.\n        Weber-Suter, Ida, Modistin, von Hinweil (Zürich), Mode- und\n          Handschuhgeschäft.\n        Suter, Johann, Part., von Kölliken.\n          — Rosa, Damenschneiderin, v. Kölliken. Robes u. Confection.\n115 Biland-Wettler, Karl, Wirt [tel], von Birmenstorf. (Gasthof\n          z. Ochsen).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 68850,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2137,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:38:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p018",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p018.jpeg",
+      "bytes": 268642,
+      "sha256": "508023d28edcd7393bfefedb76cda71ee864cce9d3b56865be56495a3246d812",
+      "sha256_of": "original",
+      "working_copy": "1899_p018.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:38:35+00:00"
+  }
+}

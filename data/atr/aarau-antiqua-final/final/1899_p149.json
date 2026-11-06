@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p149",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p149.jpeg",
+    "bytes": 278249,
+    "sha256": "2b205e5d923bc4b450a639c5b04de7814a8108ef55fb6704fd38d66405a61e63",
+    "sha256_of": "original",
+    "working_copy": "1899_p149.jpeg"
+  },
+  "text": "45\nWehrli, Emil, Bankkassier, Bachstraße 1175.\n— geb. Fässler, Elisabeth, Speterin, Adelbändli 82.\n— Friedrich, Gärtner, Scheibenschachen 312.\n— Friedrich, Pedell, Bahnhofstraße 1432.\n— geb. Fuß, Barbara, Postfakteurs Witwe, Milchgasse 156.\n— Georg, Bäcker, Metzgergasse 100.\n— Hans, Gipsermeister, Halden 250.\n— Hans, Zimmermann, vor dem Haldenthor 771.\n— Jakob, Handlanger, Erlinsbacherstraße 337.\n— J., Sekreitär, Betreibungsbeamter, Schachen 735.\n— Jakob, Schreiner, vordere Vorstadt 898.\n— Jakob, Fabrikarbeiter, Ziegelrain 713.\n— Jakob, Bäcker und Speisewirt, [tel] Zeughausstraße 1452.\n— Jean, Gärtner, [tel] vor dem Haldenthor 1272.\n— Karl, Emil, Architekt, zur „Erika“, Herzogstraße 1439.\n— geb. Kähr, Maria, Witwe, Rain 877.\n— Karl, Gasmeister, Zollrain 87.\n— Maria, Speterin, Rain 826.\n— Rudolf, Geschäftsführer d. Aarg. Ersparniskasse, Konradstr. 993.\nWeibel, Adolf, Zeichnungslehrer, Feerstraße 1425.\nWebezahI, Leonhard, Apotheker, [tel] Rathausgasse 5.\nWeigel, Heinrich, Schneider, hintere Vorstadt 642.\n— Joh., Färbereibesitzer, Telli 449.\nWeikgenannt geb. Käser, Verena, Näherin, Rathausgasse 25.\nWeingärtner, Zacharias, Schneider, Adelbändli 82.\nWeiss, Nikolaus, Sekreitär der Staatsanwaltschaft, Laurenzen thor-\n  gasse 117.\nWeisse, Paul, Schneider, vor dem Haldenthor 800.\nWeisshaupt geb. Landolt, Elisabeth, Witwe, Laurenzenvorstadt 1554.\nWellenberg geb. Schaffner, Albertine, Revisors Witwe, Halden 246.\nWelti, Heinrich, Postpacker, Laurenzenvorstadt 552.\n— Lisa, Part., Graben 215.\nWerenfels, Albert, Kaufmann, in der Gais 480.\nWernli, Andr., Schuhmacher, Rathausgasse 45.\n— Anna Maria, Part., Ziegelrain 705.\n— Elisabeth, Rain 331.\n— Friedrich, Schreiner, obere Vorstadt 927.\n— Gottlieb, Kanzlist, in der Gais 1421.\n— Jakob, Part., vor dem Haldenthor 809.\n— Jakob, Fabrikarbeiter, Telli 440.\n— Jakob, Gärtner, vor dem Haldenthor 799.\n— Jakob, Maschinist, Obere Vorstadt 938.\n— Jakob, Schreinermeister, obere Vorstadt 909.\n— Jakob, Taglöhner, Halden 281.\n— Johann Jakob, Taglöhner, Adelbändli 171.\n— Johann, Stadtarbeiter, Milchgasse 75.\n— Joh., Magaziner, hinter dem Bahnhof 1072.\n— Johann, Gabriels, Taglöhner, Telli 440.\n— Joh., Bahnangestellter, Ziegelrain 751.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 68899,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2187,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.72,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:48:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p149",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p149.jpeg",
+      "bytes": 278249,
+      "sha256": "2b205e5d923bc4b450a639c5b04de7814a8108ef55fb6704fd38d66405a61e63",
+      "sha256_of": "original",
+      "working_copy": "1899_p149.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:48:11+00:00"
+  }
+}

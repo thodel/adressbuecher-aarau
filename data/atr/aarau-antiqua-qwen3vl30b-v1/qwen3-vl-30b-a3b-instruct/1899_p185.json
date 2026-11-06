@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p185",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p185.jpeg",
+    "bytes": 265196,
+    "sha256": "ccf72b1f1fa985c53639612938e841e0e1788c2c47e818d7a34506cbb89147bd",
+    "sha256_of": "original",
+    "working_copy": "1899_p185.jpeg"
+  },
+  "text": "81\nDettwyler, Bertha und Lisette, Bahnhofstraße 1525.\nEckert, Elise, hinter dem Bahnhof 1512.\nEr din-Zumsteg, Rosalie, Hammer 185.\nFischer, Luise, Adelbändli 172.\nFlückiger, Lina, Halden 266.\nFurrer-Blume, Mina, Zollrain 179.\nGloor, Bertha, Adelbändli 171.\nGuyot, Maria, Rain 875.\nHeindl-Plüß, Mathilde, Halden 252.\nHochstraßer (Merz), Marie, Schachen 737.\nHochstraße, Elise, Milchgasse 151.\nHürzeler, Emma, Hammer 185.\nHunziker, Anna, Kirchgasse 14.\nHunziker-Märki, Marie, Gais 1440.\nJörg, Emma, Rain 820.\nIsliker, Anna, Ziegelrain 707.\nKunz, Nanette, Bahnhofstraße 1173.\nLandolt-Häuptli, Marie, Halden 284.\nLüscher, Emma, vordere Vorstadt 898.\n— Lisette, vor dem Haldenthor 773.\nMarti, Lina, Halden 267.\nMaurer, Lisette, Milchgasse 73.\nMillenet-Richner, Rosa, Kirchgasse 10.\nMüller, Albertine, Halden 264.\n— -Hug, Marie, hinter dem Bahnhof 1072.\n— -Walti, Maria, hintere Vorstadt 623.\nPlüß, Anna, hintere Vorstadt 688.\nSalm, Maria, Adelbändli 172.\nSandmeier, Marie, obere Vorstadt 929.\nSchäubli, Marie, Pelzgasse 66.\nSchaffner, Emma, vor dem Haldenthor 796.\n— -Meier, Margar., Adelbändli 173.\nSchibli, Anna, Graben 219.\nSchmid, Frida, Anna und Sophie, hinter dem Bahnhof 494.\nSchmuz, Anna, Zollrain 54.\nSchmuziger, Louise, hintere Vorstadt 645.\n— Lucie, Ziegelrain 703.\nSpähne-Waldmeier, Louise, obere Vorstadt 928.\nSteinmayer, Frida, Halden 266.\nStierli, Sophie, Oberthor 228 a.\nSuter, Rosa, Laurenzenthorgasse 1118.\nRobes et Confection.\nWidmer-Felber, Anna, Rain 885.\nWildi, Anna, Halden 264.\nSchreibmaterialienhandlungen.\nAndres, Heinrich, Rain 821.\nHagenbuch, Friedrich, * vordere Vorstadt 676. (S. Inserat S. 18.)\nHäfler, Theodor, Milchgasse 153.\nStadt Aarau. E. 6",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5227,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1671,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:41:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p185",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p185.jpeg",
+      "bytes": 265196,
+      "sha256": "ccf72b1f1fa985c53639612938e841e0e1788c2c47e818d7a34506cbb89147bd",
+      "sha256_of": "original",
+      "working_copy": "1899_p185.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:41:15+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p065",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p065.jpeg",
+    "bytes": 256813,
+    "sha256": "9488e52a19ffdab3bb0d4e78079df3d739b21f0ddee4951cd15ac7f742a2be10",
+    "sha256_of": "original",
+    "working_copy": "1896_p065.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 43\nHaus-\nNr.\n536 Derselbe. Nebengebäude.\n537 † Derselbe. ⛓ Bureau und Scheune der Firma Siebenmann & Cie., Camionnage-, Speditions- und Brennmaterialiengeschäft und öffentliche Brückenwage.\n538 † Derselbe. Schmiede.\n539 † \" Holzschopf.\n540 † \" Gebäude mit Brückenwage.\n1336 Brack-Mühlhaupt, Jakob, Kaufmann.\nTraine-Aldinger, Eugen, Hauptmann, von Oberhofen-Illighausen (Thurgau). Instruktions-Offizier.\n1240 † Derselbe. Magazin.\n541 * Firma Richner & Rothpletz.\nRychner-Peter, Elisabeth, Witwe, von Rohr. Pintenwirtschaft.\nHärrl-Baumann, Arnold, Postcommis, von Birrwyl.\n542 † Dieselben. Holzhaus.\n543 † Siebenmann-Steiner, Gottlieb, Camionneur. Holzhaus.\n\nLaurenzenvorstadt.\n544 Stauffer-Wildi, Albert, Bankangestellter, von Hallwyl.\nOelhafen-Bührer, Hermann, Bureau-Chef der Aarg. Bank.\n545 † ⛓ Lagerhäuser der Central Schweiz.\n546 † Dieselben. Gebäude mit Dampfkessel.\n547 * Steiner-Sennhauser, Samuel, Oekonom. Rössligut.\nHemmerler-Biedermann, August, Kaufmann.\nMeyer-Zschokke, Jakob Ludwig, Architekt, von Zürich. Direktor des kantonalen Gewerbemuseums.\nMüri, Paul, von Schinznach, Gerichtspräsident.\n548 * Derselbe. Wohnhaus.\nWinteler-Eckart, Jost, Dr. phil., Professor, von Kerenzen (Glarus).\nFrick, Friederika, Part., von Linda (Sachsen).\n1294 * Derselbe. Wohnhaus.\nHintermann-Keller, Robert, Oberst-Lieutenant, Infanterie-Instruktor I. Klasse.\nKeller, Lina, Part., von Veltheim.\nHagenbuch-Haywood, Gottl., Kaufmann, v. Hettlingen (Zürich).\n1379 Steiner-Sennhauser, Samuel, Oekonom.\nWegelin-Schmid, Joh. Rud., Architekt, v. Diessenhofen (Thurgau).\nWegelin-Riesch, Maria, Part., v. Diessenhofen (Thurgau).\nForderer-Schwammberger, Alois, Zuschneider, von Ziegelbach (Württemberg).\nForderer, Mathias, Part., von Ziegelbach (Württemberg).\nHegetschweiler-Horlacher, August, Kondukteur N. O. B., von Ottenbach (Zürich).\nBenz-Frey, Joseph, Kondukteur N. O. B., von Neuenhof.\n549 † Derselbe. Scheune und Einfahrt.\n550 † \" Speicher mit Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5430,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1989,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.51,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:05:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p065",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p065.jpeg",
+      "bytes": 256813,
+      "sha256": "9488e52a19ffdab3bb0d4e78079df3d739b21f0ddee4951cd15ac7f742a2be10",
+      "sha256_of": "original",
+      "working_copy": "1896_p065.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:05:28+00:00"
+  }
+}

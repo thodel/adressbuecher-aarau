@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p047",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p047.jpeg",
+    "bytes": 275909,
+    "sha256": "352ad4623d8ffc5365604200c5d4eb33b9083f6b7887413b7dfab39432fbe485",
+    "sha256_of": "original",
+    "working_copy": "1896_p047.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n25\nHaus-\nNr.\n272 Bircher-Wächter, Jakob, Schlosser, von Küttingen.\nFrey, Niklaus, Cementarbeiter, von Oberhof.\n273 Keller-Bauhofer, Bertha, Färbers Witwe, Färbereigeschäft.\nHunziker-Stirnenmann, Alfred, Taglöhner, von Moosleerau.\n274 Hausmann-Heuberger, Johann, Taglöhner, von Schafisheim.\nTreier-Schenk, Johann, Taglöhner, von Wölflinswyl.\nKielholz-Brogli, Franz, Bahnangestellter, von Mettau.\nNiederhäuser-Schenk, Marie, Spetterin, von Eriswil (Bern).\n275 * Armengut der Gemeinde Aarau.\nSchäfer-Scheller, Otto, Tapezierer.\nFischer, Friedrich, Fuhrmann.\nFischer, Adelina, Haushälterin.\nSiebenmann-Beck, Gottlieb, Färber.\n276 * Widmer-Zehnder, Samuel, Wirt, von Safenwyl, Kohlenhandlung.\nBollin-Schöndli, Mathe, Bedienter, von Uttenhofen (Großh. Baden).\nBurkolter-Widmer, Rudolf, Taglöhner, von Buchegg (Solothurn).\n277 Widmer-Zehnder, Samuel, von Safenwyl (Haldenrestauration).\nBerner, Maria Anna, Spetterin, von Kulm.\nBerner, Verena, Fabrikarbeiterin, von Kulm.\nMettauer-Schaub, Joseph, Bahnarbeiter, von Gipf.\n278 † Kieser-Levraz, Fanny, Metzgers Witwe, Schweinemetzg.\n279 * Baumberger, Emanuel, in Basel.\nFrei-Dürr, Gottfried, Taglöhner, von Trachselwald (Bern).\nWüthrich-Dambach, Joh. Jakob, Taglöhner, von Eggiwyl (Bern).\nJehle-Weber, Mathäus, Scheibenarbeiter, von Wyl.\n280 a Peschl-Schacher, Joseph, Maurer, von Passau (Bayern).\nKirchhofer-Schwarz, Karl, Schuhmachermeister, von Schaffhausen.\n280 b Keller-Hauri, Joseph, Pferdewärter, von Oberendingen.\n281 Derselbe. Wohnhaus.\nFricke-Reimann, Joseph, Polizeidiener, von Wölflinswyl.\nMaritz-Keller, Arnold, Schuhfabrikarbeiter, von Lostorf (Solothurn).\nFrei-Amsler, Friedrich, Küfer von Auenstein.\nLenzin, Xaver, Bahnangestellter, von Oberhof.\nLüscher, Emilie Augustine, Haushälterin, von Muhlen.\n1305 † Derselbe. Scheune (Hinter der Halde).\n282 * Familienkiste Meier.\nBrunnerhofer-Hunziker, Albert, Tambourinstruktor.\nJoho-Bryner, Samuel, Färber, von Auenstein.\nSchaffner-Wernli, Karl, Bahnarbeiter, von Buus (Baselland).\nWernli-Vogt, Jakob, Taglöhner, von Thalheim.\nFehlmann-Buss, Johann, Gärtner, von Seon.\n283 † Gemeinde Aarau. Holzschopf.\n284 Häuptli-Burkardt, Anna Maria, Drechslers Witwe, von Biberstein.\nHäuptli-Schmid, Emil, Sohn, Drechsler, von Biberstein.\nLandolt-Häuptli, Marie, Witwe, Damenschneiderin.\nKallmann-Hausmann, Elise, Fabrikarbeiterin, von Mühlheim (Baden).\nGruber-Stalder, Engelbert, Maurer, von Nasserein (Tirol).\nBrunner, Anna Maria, Fabrikarbeiterin, von Gränichen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6822,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2494,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:03:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p047",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p047.jpeg",
+      "bytes": 275909,
+      "sha256": "352ad4623d8ffc5365604200c5d4eb33b9083f6b7887413b7dfab39432fbe485",
+      "sha256_of": "original",
+      "working_copy": "1896_p047.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:46+00:00"
+  }
+}

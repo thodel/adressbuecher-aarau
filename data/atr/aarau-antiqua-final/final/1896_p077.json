@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p077",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p077.jpeg",
+    "bytes": 261025,
+    "sha256": "6b878d768c7297eb172aaf267858fc4f4e88b05c8914526ac818bb5e17a61125",
+    "sha256_of": "original",
+    "working_copy": "1896_p077.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 55\nHaus-\nNr.\n1236 * Hirschy-Merz, Joh. Rudolf, Uhrenmacher.\n  Firma: Hauri & Gränicher, Broderie- und Tapisseriegeschäft.\n  Gränicher, Fanny, Brodeuse.\n  Diethelm-Kalanquin, Reinhard, Zugfahrer, v. Heffenhofen (Thurg.).\n1262 Nägelin-Gisiger, Arnold, Hotelier, von Liedertswil.\n  Hagmann-Stolz, Adolf, in Schönenwerd. Schuhhandlung. (Filiale).\n696 * Derselbe.\n  Jäcker-Haller, Joseph, Esswaren-Handlung, von Lachapelle-\n  sous-Rougemont (Frankreich).\n  Plüss-Zimmerli, Jakob, Maurer, von Brittnau.\n  Plüss-Zimmerli, Marie, Hebamme, von Brittnau.\n697 Mayer-Vogel, Thomas, Schuhmachermeister, von Egoldingen (Baden).\n  Schuhhandlung.\n  Bertschi, Bertha und Marie, Damenschneiderinnen, v. Dürrenäsch.\n698 Oelhafen-Ruffi, Rudolf, Metzgermeister.\n  Oelhafen, Arnold, Metzger, Sohn.\n699 Wildi-Wespi, Adele, von Veltheim. Salzverkauf.\n\nZiegelrain.\n700 Holzach-Schmidt, Fritz, Metzger u. Wirt. Speisewirtschaft.\n  Müller-Riederer, Lorenz, Maschinenmeister, v. Unter-Iberg (Schwyz).\n  Derselbe. Wohnhaus und Fleischverkaufsladen.\n701 Ries-Buhlerin, Emanuel. Glas-, Farbwaren- und Drogueriewarenhdlg.\n  Rochholz, Mina, Klavierlehrerin, von Ansbach (Bayern).\n702 Schmuziger-Bühler, Gottlieb, Schneidermeister.\n  Schmuziger, Fritz, Brot- und Zuckerbäckerei.\n  Schmuziger, Lucia, Damenschneiderin.\n  Spirgi-Spirgi, Friedrich, Posamenter, von U.-Kulm.\n703 Suter-Dürr, Rudolf, Spengler, von Niederhallwyl. Spenglerwaren\n  und Lampenlager.\n  Suter-Fehlmann, Anna, Witwe, von Gränichen. Wäscherin.\n  Suter, Anna, Damenschneiderin, von Gränichen.\n  Pfund-Hengartner, Jak., Schreiner, v. Lenk (Bern).\n  Haller-Fehlmann, Susette, Spettin, von Reinach.\n704 Hässig Bühler, Friedrich, Kupferschmied.\n  Hässig-Baumann, Margareita, Malers Witwe.\n  Wieland-Wieland, Hermine, Witwe, Part., von Rheinfelden.\n  Egli-Hürlimann, Hermann, Maschinist (Elektrizitätswerk), von\n  Birettschwil (Zürich).\n  Balinger, Wilhelm, Mechaniker, von Rekingen.\n705 † Derselbe. Werkstätte.\n706 a Siebenmann, Bertha, Part.\n  Dätwyler-Meyer, Johann, Taglöhner, von Wittwyl.\n  Isliker, Anna, Damenschneiderin, von Andelfingen (Zürich).\n  Frei-Lindenmann, Maria, Taglöhnerin, v. Reigoldswil (Baselland).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 69397,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2195,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:44:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p077",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p077.jpeg",
+      "bytes": 261025,
+      "sha256": "6b878d768c7297eb172aaf267858fc4f4e88b05c8914526ac818bb5e17a61125",
+      "sha256_of": "original",
+      "working_copy": "1896_p077.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:44:05+00:00"
+  }
+}

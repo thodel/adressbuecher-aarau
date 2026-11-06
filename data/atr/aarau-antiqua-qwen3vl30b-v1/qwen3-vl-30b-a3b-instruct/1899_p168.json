@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p168",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p168.jpeg",
+    "bytes": 254130,
+    "sha256": "854f99bfa3bada0e31e75d624a471420a1fc5ac4216cbe67cc1f05dd936d0f0f",
+    "sha256_of": "original",
+    "working_copy": "1899_p168.jpeg"
+  },
+  "text": "64\nGemüsehändler.\nDürr, Emil, Milchgasse 143.\nFlückiger-Wüthrich, R., Witwe, Pelzgasse (Färbergälschen), 125.\nHässig, Konrad, Rain 881.\nJäcker-Haller, Joseph, * Laurenzenthorgasse 119 a.\nMarini, Dominico, Schmiedgasse 634.\nRiehl-Dürr, Graben 1237.\nZehnder, Barbara, Kirchhof 165.\n\nGeschäftsagenten.\n(Siehe Incassogeschäfte.)\n\nGeschirrhandlungen.\nAndres, Friedrich, * obere Vorstadt 917.\nHagenbuch, Karl, * Kronengasse 35.\nHemmelер-Stahl, Ida, * Rathausgasse 21.\n— Wilhelm, * obere Vorstadt 919.\n— -Scheibler, Verena, Witwe, obere Vorstadt 944.\nMorath, J. W., * Rathausgasse 2.\n\nGipsermeister.\nFaßler, Friedrich Georg, Zollrain 88.\nSchaub, Adelbert, Pelzgasse 69.\nWehrli, Hans, Halden 250.\n(I m weitern siehe die Baumeister.)\n\nGlätterinnen.\nBalmer, Marie und Karoline, Laurenzenthorgasse 117.\nBruns-Gattiker, Dorothea, Schmiedgasse 625.\nDietiker, Anna, Adelbändli 170.\nFlach-Buser, Anna, obere Vorstadt 930.\nGmünder-Läuchli, Lina, Pelzgasse 132.\nHächler, Louise, Kirchgasse 15.\nHäusler, Julie, vor dem Haldenthor 762.\nHaller-Attiger, Maria, Milchgasse 145.\nHaßler, Sophie, Adelbändli 172.\nHuber-Müller, Bertha, Hammer 190.\nKäser-Leder, Nanette, Entfelderstraße 1285.\nKeller, Ida, Rain 1185.\nKüng-Rüedi, Anna, Hammer 1496.\nLienhard-Hürzeler, Marie, obere Vorstadt 944.\nLüscher, Elise, hintere Vorstadt 647.\nMüller, Emma, Halden 241.\n— Elise, obere Vorstadt 921.\nPeyer-Roos, Wilhelmine, Kirchhof 166.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4140,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1408,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 31.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:39:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p168",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p168.jpeg",
+      "bytes": 254130,
+      "sha256": "854f99bfa3bada0e31e75d624a471420a1fc5ac4216cbe67cc1f05dd936d0f0f",
+      "sha256_of": "original",
+      "working_copy": "1899_p168.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:39:01+00:00"
+  }
+}

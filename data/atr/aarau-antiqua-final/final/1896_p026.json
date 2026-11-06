@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p026",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p026.jpeg",
+    "bytes": 275150,
+    "sha256": "d25bef2597cef0fd65b74db1cf20e3ee8530a3763d1370b533251ac247e0484d",
+    "sha256_of": "original",
+    "working_copy": "1896_p026.jpeg"
+  },
+  "text": "4\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n29 Schmid-Maurer, Mathilde, Negotiantin, von Möriken. Comestibleshdlg.\nMaurer, Louise, Part.\n30 Müller-Hürner, Eduard, Schirmmacher. Schirmhandlung.\n31 Stapfer-Fessenmeier, J., Schuhmacherstr., v. Sarnenstorf. Schuhhdlg.\nStapfer, Johann, Sohn, Schuhmacher, von Sarnenstorf.\n32 Dubs-Walther, Karl, Metzger u. Speisewirt, von Küttigen.\n\nKronengasse.\n\n33 Firma Erny-Fassler & Sohn.\nErny-Bauer, Karl, Kaufmann, Mercerie-, Passenterie-, Bonneterie-\nund Lingerie-Warenhandlung.\nWaldmeier-Gautschi, Alfred, Commis (Gämper & Cie.) von Möhlin.\nImhof, Lina, Lehrerin.\nImhof, Susette, Privat.\n34 Württemberger-Kaiser, Marie, Coiffeurs Witwe.\nKaiser, Sigmund, gew. Kaufmann.\nSchibler, Fritz, Coiffeur, von Walterswyl (Solothurn). Parfümerie-\nwarenhandlung.\nKlein-Berner, Jean, v. Kaisten. Samen- und Landesproduktenhdlg.\nBrugger-Vetter, Osk., v. Wehr (Baden). Velo- u. Nähmaschinenhdlg.\n35 Hagenbuch, Karl, Kaufmann. Glas- u. Porzellanwarendlung.\nOttolini-Steiner, Jean, Koch, von Isola Bella (Italien).\n36 Hintz-Wolf, Anna, Witwe. Zuckerbäckerei.\nHintz, Ulrich, Zuckerbäcker, von Lahr (Württemberg).\nWolf-Allemand, Fritz, Architekt, Adjunkt des Hochbaumeisters.\n37 Vonfelt-Williamann, Franz Jos. Corsett- u. Quincaillieriegesehaft.\nWilliamann-Wehrli, Marie, Witwe, von Oberhof.\nMösch-Mösch, Karl, Güterexpedient, von Frick.\n38 Gloor-Siebenmann, Marie, Witwe, von Schöffland. Kolonial-\nwaren und Delikatesen-Handlung.\nFehr-Widmer, Hans, Bankangestellter, von Kölliken.\n39 Mathys-Hafner, Rudolf, Gastwirt zur Krone, von Erlswyl (Bern).\n40 Wehrli-Schneider, Jak., Bäcker, von Küttigen. Speisewirtschaft.\nJungi-Blattner, Johann, Schuhmacher, von Guggisberg (Bern).\nJungi-Blattner, Lina, Damenschneiderin, von Guggisberg (Bern).\nWinkler-Angstmann, Joseph, Maurerpoller, von Fliess (Tirol).\nHäusler, Emanuel, Kaufmann, von Biel.\n41 Faller geb. Faller, Elise Louise, Witwe, v. Raitenbuch (Grossh. Baden).\nFirma Gebr. Faller, Militärartikel, Eisen- und Quincailleriewarenddlg.\nFaller, Karl Friedr., Sohn, Kaufmann, von Raitenbuch (Grossh. Baden).\n\nRathausgasse.\n\n42 Härdi, Wilhelm, Goldschmied, von Lenzburg, Gold- u. Silberwarenddlg.\nHärdi, Lina, Haushälterin, von Lenzburg.\nWeber-Wolfter, Emil, von Hausen. Nähmaschinenhandlung (Com-\npagnie Singer).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 116942,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2288,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:30:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p026",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p026.jpeg",
+      "bytes": 275150,
+      "sha256": "d25bef2597cef0fd65b74db1cf20e3ee8530a3763d1370b533251ac247e0484d",
+      "sha256_of": "original",
+      "working_copy": "1896_p026.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:30:57+00:00"
+  }
+}

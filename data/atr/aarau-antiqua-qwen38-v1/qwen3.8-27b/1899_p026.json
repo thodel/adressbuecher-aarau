@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p026",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p026.jpeg",
+    "bytes": 296351,
+    "sha256": "45cc9857263d3d675187d27395f1b0375abe11751f98654569a8c04faa986d3d",
+    "sha256_of": "original",
+    "working_copy": "1899_p026.jpeg"
+  },
+  "text": "18\nHaus-\nNr.\n188 Felber-Gruber, Georg, von Unterbötzberg.\nBerchem-Weiss, Peter, Schuhmacher, v. Semingen (Luxemburg).\nOtt-Felber, Jakob, Obergerichtsweibel, von Biberstein.\nFischer-Haller, Maria, Taglöhnerin, von Tennwyl.\nFahländer geb. Müller, Verena, Part.\nBlume-Hirt, Philipp, Schreiner, von Sprendlingen (Hessen).\n  Bau- und Möbelschreinerei. (Werkstätte.)\nNussberger-Leutwyler, Samuel, Taglöhner, von Seengen.\n189 * Hassler-Heberlein, Adolf, Färber.\nSiegenthaler-Hirth, Elise, von Trub (Bern). Wäscherei und\n  Glätterei.\n190 * Hassler-Heberlein, Adolf, Färber.\nZellweger, Oskar, Part., von Hauptweil (Thurgau).\nHuber-Müller, Johann, Schneider, von Tristach (Oesterreich).\n— — Bertha, Glätterin, von Tristach (Oesterreich).\nBolliger, Rud. Hermann, Bahnangestellter, von Schloßrued.\n— Emma und Anna, Damenschneiderinnen, von Schloßrued.\n— Rudolf, Stadtpolizist, von Schloßrued.\nWernle-Schmidli, Kaspar, Holzer, von Thalheim.\nEger-Epp ler, Theophil, Schneider, von Riehen (Basel).\nSchlossplatz.\n191 Stahel-Ernst, Jean, Kaufmann. [tel]\nStahel & Cie., Manufacturwaren-Handlung en gros.\nWeber, Stephan, von Sulz.\n— Regina, Part., von Sulz.\nHammer.\n192 † Hegnauer-Renold, Rudolf, Fabrikant. Holzmagazin.\n193 * Derselbe. Fabrikgebäude. Fabrikation und Export von Ge-\n  flechten in Stroch, Roßhaar, Manillahanf und Baumwolle.\nBiber-Graber, Theodor, Fabrikation von Seidenband und\n  Nähmaschinenhandlung. [tel]\n194 Hegnauer-Renold, Rudolf, Fabrikant. [tel] Wohnhaus.\nWidmer, Rosette, Fergarin, von Othmarsingen.\nSchlossplatz.\n195 * Rothpletz-Wydler, E., Oberst, zum Schloßli (Erbschaft).\nRingier-Schwarz, Karl Arnold, Regierungsrat, von Zofingen.\nFrey-Wirth, Lina, Bureaulistin, von Wangen (Solothurn).\n196 Rychner-Renold, Heinrich, Gewehrfabrikant.\n197 Gantner-Brack, Hermann, Oekonom.\n— -Rychner, Maria, Ökonoms Witwe.\n— Gottlieb, Oekonom.\nHemmeler, Friedrich, Postangestellter.\nHassler-Meyer, Maria, Part., von Männedorf (Zürich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 58875,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1928,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0217,
+    "mean_line_chars": 40.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:50:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p026",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p026.jpeg",
+      "bytes": 296351,
+      "sha256": "45cc9857263d3d675187d27395f1b0375abe11751f98654569a8c04faa986d3d",
+      "sha256_of": "original",
+      "working_copy": "1899_p026.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:50:06+00:00"
+  }
+}

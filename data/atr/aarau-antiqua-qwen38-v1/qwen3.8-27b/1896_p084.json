@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p084",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p084.jpeg",
+    "bytes": 281064,
+    "sha256": "8ad2d0e043edeacd4d24172847bf4ceea1316afd08ece0725c97213a5e76871e",
+    "sha256_of": "original",
+    "working_copy": "1896_p084.jpeg"
+  },
+  "text": "62                            Verzeichniss der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n1243        Liechti-Steinegger, Paul, Dr. phil., Prof., von Murten (Freiburg).\n1252        † Derselbe.     Bienenhaus.\n            807 †           Gartenhaus.\n1245        † Dubs-Walther, Karl, Metzger.  Scheune.\n1218        † Mattenberger-Walther, Jakob, Metzger,",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 174077,
+  "truncated": true,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 348,
+    "lines": 8,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0057,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T15:00:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p084",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p084.jpeg",
+      "bytes": 281064,
+      "sha256": "8ad2d0e043edeacd4d24172847bf4ceea1316afd08ece0725c97213a5e76871e",
+      "sha256_of": "original",
+      "working_copy": "1896_p084.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T15:00:31+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p196",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p196.jpeg",
+    "bytes": 254742,
+    "sha256": "b92fc86a90ecaa0d473303c0f2b9b0d31bb06a6d7d67f20a1da3584e487e959f",
+    "sha256_of": "original",
+    "working_copy": "1899_p196.jpeg"
+  },
+  "text": "",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 150407,
+  "truncated": true,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "empty",
+    "chars": 0,
+    "lines": 0,
+    "longest_char_run": 0,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 0.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:25:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p196",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p196.jpeg",
+      "bytes": 254742,
+      "sha256": "b92fc86a90ecaa0d473303c0f2b9b0d31bb06a6d7d67f20a1da3584e487e959f",
+      "sha256_of": "original",
+      "working_copy": "1899_p196.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:25:01+00:00"
+  }
+}

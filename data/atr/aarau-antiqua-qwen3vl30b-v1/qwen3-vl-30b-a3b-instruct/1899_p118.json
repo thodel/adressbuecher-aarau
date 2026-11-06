@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p118",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p118.jpeg",
+    "bytes": 288024,
+    "sha256": "52e06bc40f42af7ea379b87ca6cea8649b36cbde6edec798dd21d861d8d371af",
+    "sha256_of": "original",
+    "working_copy": "1899_p118.jpeg"
+  },
+  "text": "14\nGantner, Hermann, Ökonom, Schloßplatz 197.\n— geb. Richner, Marie, Ökonoms Witwe, Schloßplatz 197.\nGasfabrik. ⚭ Zollrain 786.\nGasser & Cie. ⚭ Seidenbandfabrikation, Laurenzenvorstadt 377.\n— Emanuel, Fabrikant zum „Tanneck“, Rohrerstraße 478.\nGautschi, Albert, Schlosser, Halden 282.\n— Friedrich, Commis, Gönhardfeldweg 1150.\n— Friedrich, Sohn, Ökonom, Telli 460.\n— -Frey, Susette, Witwe, Spezereihandlung, Rain 823.\n— Rudolf, Ökonom, Telli 460.\n— Rudolf, Wirt, zum Frohsinn, ⚭ hinter dem Bahnhof 1172.\n— Rudolf, Sohn, Ökonom, Telli 460.\n— Samuel, Kantons-Ingenieur, hintere Vorstadt 646.\n— geb. Wyser, Lina, Witwe und Wirtin zur Herberge, ⚭ obere\nVorstadt 912.\nGehrig, Karl, Gärtner, Adelbändli 86 a.\nGeissmann, Xaver, Sekretär, Graben 620.\nGenossenschaft von Landwirten und Milchhändlern von Aarau und\nUmgebung, Präsident: Abraham Brack, Bachstraße 1061.\nGerber, Emil, Wirt zum Affenkasten, ⚭ hintere Vorstadt 692.\n— Gustav, Marchand-Tailleur, ⚭ vordere Vorstadt 670.\n— Hans, Hôtelier, ⚭ Bahnhofstr. 1438.\n— geb. Hassler, Luise Elisab., Witwe, Part., vordere Vorstadt 670.\n— Max, Metzger und Wirt, ⚭ Pelzgasse 127.\nGerodetti, Virgilius, Marmorgeschaft, hinter dem Bahnhof 1268.\nGertiser geb. Andres, Maria, Witwe, Rain 820.\nGerster geb. Rutz, Rosa, Part., in der Gais 1517.\nGesellschaft für Vieh- und Pferdezucht im Kanton Aargau. Präsident:\nJ. Plüss-Angst in Brittnau.\nGessner, August, Dr. phil., Professor, Bankstraße 1141.\nGewerbe-Halle Aarau, Ziegelrain 754.\nGewerbe-Museum, kantonales, Bahnhofstraße 1445.\nGiger, Jakob, Polizei-Wachtmeister, hintere Vorstadt 621.\n— Jakob, Schreiner, vor dem Haldenthor 784.\n— geb. Wildi, Rosina, Witwe, obere Vorstadt 937.\nGing, August, Schmied, Taglöhner, Stadthof 92.\n— geb. Hunziker Klara, Vorgängerin, Rathausgasse 3.\n— Wilhelm, Wagner, Milchgasse 148.\nGisi, Adolf, Tapezierer, ⚭ Pelzgasse 124.\n— Jakob, Rechnungsrevisor, in der Gais 1514.\n— Samuel, Schreinermeister, Stadthof 92 b.\n— von Arx, Viktor, Tuchhandlung, Holzmarkt 664.\nGysi, Arnold, Mechaniker, vordere Vorstadt 675.\n— & Cie. Reißzeugfabrikation, Optisches Warenlager, Photogra-\nphisches Atelier, ⚭ vordere Vorstadt 895.\n— Emil, Maler, obere Vorstadt 942.\n— Emil, Part., Gartenstraße 998.\n— Friedrich, Schlosser, hintere Vorstadt 689, Werkstätte 645.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6602,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2258,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:33:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p118",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p118.jpeg",
+      "bytes": 288024,
+      "sha256": "52e06bc40f42af7ea379b87ca6cea8649b36cbde6edec798dd21d861d8d371af",
+      "sha256_of": "original",
+      "working_copy": "1899_p118.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:33:57+00:00"
+  }
+}

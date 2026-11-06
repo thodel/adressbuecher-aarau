@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p196",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p196.jpeg",
+    "bytes": 272783,
+    "sha256": "37279a5a7de2179edfd66a805f6d6473515f84bc10726e393635e7f1bc01a88c",
+    "sha256_of": "original",
+    "working_copy": "1896_p196.jpeg"
+  },
+  "text": "Oekonom, Oberthor, Oekonomiegebäude\nDie alte Kantonschule, nach einer alten Lithographie.\n\nOeffentliche Anstalten.\na. Lehranstalten.\n\nKantonsschule.\nGründung derselben 1802.\nRektor: Dr. Aug. Tuchschemid.\n\nProfessoren und Lehrer.\nDr. Bühler, für Geschichte sowie einen Teil des\nDeutschen an der Gewerbeschule.\nBurgmeier, für Gesang.\nDr. Frey, Stellvertreter des Rektors, für deutsche\nSprache und Litteratur am Gymnasium u. den\nbeiden oberen Klassen der Gewerbeschule.\nDr. Fröhlich, für alte Sprachen.\nDr. Ganter, für Mathematik am Gymnasium und\nan der Gewerbeschule.\nDr. Gessner, für alte Sprachen.\nGladbach, für technisches Zeichnen, deskriptive u.\npraktische Geometrie und für Geographie am\nGymnasium und an der Gewerbeschule.\nHunziker, für Französisch am Gymnasium und\nGewerbeschule.\nDr. Lischke, für Chemie.\nDr. Mühlberg, für Naturgeschichte.\nRennhart, für Englisch am Gymnasium und an der\nGewerbeschule, für Italienisch an d. Gewerbe-\nschule.\nRey, Jakob Friedr., für Französisch u. Italienisch.\nRoth, Oberst, für theoretischen Militärunterricht.\nDr. Tuchschemid, Rektor, für Mathematik an der\nGewerbeschule und Physik am Gymnasium u.\nan der Gewerbeschule.\nWäffler, für Turnunterricht.\nWernly, Pfarrer, für Hebräisch.\nWidmer, Pfarrer in Gränichen, für Religionsunter-\nricht.\nDr. Winteler, für Geschichte am Gymnasium und\nalte Sprachen.\nWolffinger, für Kunstzeichnen.\nZimmermann, für Schreiben und Stenographie.\nAn der Musikschule.\nRödelberger, Direktor, für Violine und Pianoforte.\nDas Kantonschülerhaus\nwurde am 1. Mai 1890 eröffnet. Dasselbe hat den\nZweck, Kantonschüler, deren Eltern nicht in Aarau\nwohnen, aufzunehmen, zu verpflegen und ihnen\nwährend ihrer Studienzeit in Aarau das Elternhaus\nzu ersetzen. Es nimmt 38 Schüler auf. Der der-\nzeitige Vorsteher ist Dr. H. Ganter.\nTöchterinstitut und Lehrerinnen-\nSeminar Aarau.\nGründung des Töchterinstituts als einer Privat-\nanstalt nach dem Muster der Gossweilerschen Schule\nin Zürich durch eine Stiftung der Schultheißin\nHunziker geb. Zollikofer 1786 und Eröffnung den\n9. November 1887. Das Töchterinstitut ist die\nälteste höhere Lehranstalt unseres Kantons.\nGründung des (staatlichen) Lehrerinnenseminars\n1872 im Anschluss an das Töchterinstitut und Er-\nöffnung der vereinigten Anstalt anfangs Juni 1873.\nZweck: A. des Töchterinstituts nach der Stif-\ntungsurkunde: „Bessere Bildung der Töchter.“ Schon\nnach einem Jahre kamen zu den bisherigen wissen-\nschaftlichen Fächern noch die französische Sprache\nund weibliche Arbeiten hinzu, „rsteres, „weil man\nhoffte, dadurch die Unkosten, ja vielleicht Sitten-\nverderbnis, so die Absendung unserer Töchter nach\nder Waadt, Genf oder Colmar veranlasst, wo nicht\nganz, doch zum Teil zu ersparen; letzteres, weil",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6710,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2709,
+    "lines": 70,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0143,
+    "mean_line_chars": 37.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:19:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p196",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p196.jpeg",
+      "bytes": 272783,
+      "sha256": "37279a5a7de2179edfd66a805f6d6473515f84bc10726e393635e7f1bc01a88c",
+      "sha256_of": "original",
+      "working_copy": "1896_p196.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:19:14+00:00"
+  }
+}

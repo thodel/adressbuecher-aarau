@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p145",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p145.jpeg",
+    "bytes": 302687,
+    "sha256": "d1075112b40e1d29d1f96b53bd9acd83e456aaa5f7b534ad226e97affa60924f",
+    "sha256_of": "original",
+    "working_copy": "1899_p145.jpeg"
+  },
+  "text": "41\nSteiner, Johann, Part., Rain 878.\n— Johann, Postfakteur, vor dem Haldenthor 766.\n— geb. Lindenmann, Susanna, Witwe, Part., Rain 878.\n— Samuel, Ökonom, Laurenzenvorstadt 1379.\n— geb. Schürch, Anna, Witwe, Vertrete rin des Blumenbazar,\n  Graben 219.\nSteinmayer, Frida, Damenschneiderin, Halden 266.\nStephani geb. Heckmann, Wilhelmine, Witwe, Part., Laurenzen-\n  vorstadt 412.\n— geb. Wettler, Albertine, Fabrikants Witwe, Bachstraße 1112.\n— geb. Winkler, Margaritha, Kaufmanns Witwe, Kolonialwaren-\n  handlung, Rathausgasse 26.\nStierli geb. Andres, Elise, Witwe, obere Vorstadt 916.\n— Cäcilia, Part., Oberthor 228 a.\n— Elise, Part., Oberthor 228 a.\n— Goar Leonz, Fürsprech und Notar, Vize-Stadtammann, Wohnung\n  Laurenzenvorstadt 602, Advokaturbureau Graben 615.\n— Marie, Ladendinerin, Oberthor 228 a.\n— Samuel, Kondukteur, Kirchhof 165 b.\n— Sophie, Damenschneiderin, Oberthor 228 a.\nStigeler, Jos., Zenghausdirektor, Zschokkestraße 977.\nStillig, Joseph, Maschinenmeister, Zollrain 178.\nStiner, Karl, Lehrer, Entfelderstraße 1147.\nStirnemann, Jakob, Zimmermann, Golattenmattgasse 236.\n— Jakob, Holz-, Kohlen-, Milch- und Käsehandlung, Zollrain 91.\n— Johann, Taglöhner, Halden 259.\n— Joh. Rudolf, Steindrucker, Kasinostrasse 571.\n— Marie, Fabrikarbeiterin, Laurenzenvorstadt 376.\nStöckli, Elisabeth, Haushälterin, Schmidgasse 1179.\n— Stephan, römisch-katholischer Pfarrer, Schmidgasse 1179.\nStocker, J. Friedrich, Dr. jur., Bankkontroleur, Feerstraße 1416.\nStoffel, Elise, Entfelderstraße 979.\nStrasser, Kaspar, Privat., Gieshügel 326.\nStrehel, Eduard, Schreiner, Rain 857.\n— Hans, Steindrucker, Pelzgasse 130.\n— Joseph, Schuhmacher, Kirchgasse 12.\n— Karl, Sekretär, Halden 267.\n— Martina, Spetterin, Zollrain 88.\n— Verena, Spetterin, Zollrain 88.\n— Waldburga, Näherin, Zollrain 88.\nStrich, Julius Wilhelm, Halbleinfabrikant, Ziegelrain 751.\nStreit, Benedikt, Dr. med., Laurenzenvorstadt 1554.\n— geb. Hegnauer, Mina, Part., vordere Vorstadt 894.\nStrübin, August, Wirt, Restauration z. vis-à-vis, Metzgergasse 60.\nStrub, Robert, Schneider, Kronengasse 38.\nStuder, Adeline, Part., Bahnhofstraße 1317.\nStudler geb. Sandmeier, Anna, Witwe, vordere Vorstadt 675.\nSuter, Albert, Schneidermeister, Pelzgasse 133.\n— Anna, Spetterin, vor dem Haldenthor 1083.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16352,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2248,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:45:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p145",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p145.jpeg",
+      "bytes": 302687,
+      "sha256": "d1075112b40e1d29d1f96b53bd9acd83e456aaa5f7b534ad226e97affa60924f",
+      "sha256_of": "original",
+      "working_copy": "1899_p145.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:45:34+00:00"
+  }
+}

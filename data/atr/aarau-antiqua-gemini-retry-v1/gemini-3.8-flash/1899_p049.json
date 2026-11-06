@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-gemini-retry-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p049",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p049.jpeg",
+    "bytes": 279424,
+    "sha256": "12ad40fbd6ab78d3b184d48b4fe73d0418d9287caf6adb147245205f0431af91",
+    "sha256_of": "original",
+    "working_copy": "1899_p049.jpeg"
+  },
+  "text": "41\n\nHaus-\nNr.\nHerzogstrasse.\n1439 Wehrli-Märk, Emil, Architekt, v. Höngg (Zür.). „Zur Erika.“\n1365 Kummler-Sauerländer, Hermann, Kaufmann [tel].\n  — -Frey, Augusta, Witwe, Part.\n1366 Kern-von Arand, Heinrich, Fabrikant [tel].\n1367 † Derselbe. Wasch- und Holzhaus.\n  488 Bally-Schmitter, Adeline, Fabrikants Witwe.\n  489 † Dieselbe. Bad- und Waschhaus.\n\nHinter dem Bahnhof.\n  490 † Bally-Arndt, Eugen, Fabrikgebäude. Fabrikat. elast. Gewebe.\n  491 † Derselbe. Kesselhaus.\n  492 † „ Kosthaus.\n  493 † „ Schreiner- und Schlosserwerkstätte.\n  494 Wegelin-Schmid, Joh. Rud., Architekt, v. Diesenhofen (Thurg.).\n  — -Riesch, Maria, Part., von Diesenhofen.\n  Walti-Zimmermann, Rosa, Witwe, Taglöhnerin, v. Dürrenäsch.\n  Marti-Hanreiter, Fritz, Bierbrauer.\n  Schmid, Frida, Weißnäherin, von Watterdingen (Baden).\n  — Anna, „ „ „ „\n  — Sophie, „ „ „ „\n1072 Gautschi-Maculin, Rud., Speisewirtschaft z. Frohsinn [tel], von\n  Reinach.\n  Wernli-Hug, Johann, Magaziner, von Thalheim.\n  Müller-Hug, Eugen, Wagenkontrolleur, von Affoltern a./A.\n  495 Bouvard-Schulthess, Joh., Güterexpedient, von Remetschwyl.\n  496 Käser-Plüss, Rudolf, Postkondukteur.\n  Buchser-Schmid, Rudolf, Schreiner, von Schöftland.\n  497 Brügger-Sommerhalder, Christian, Kontrolleur, von Chur-\n  walden (Graubünden).\n  Bircher-Kyburz, Anna, Witwe, Part., von Küttigen.\n  Mosimann-Walliser, Gottfried, Bahnangestellter, von Signau\n  (Bern).\n1512 Eckert-Giger, Eduard, Zimmerpolier v. Großräudchen (Preuß.).\n  — Elise, Damenschneiderin, von Großräudchen.\n  Bopp-Ruh, Gottlieb, Reisender.\n  Senn-Winkler, Isidor, Part., Kirchdorf.\n  498 † Künzlen & Cie., Eisengießerei und Weichgußfabrik.\n  499 † Derselbe. Bureau [tel].\n  500 † „ Mechanische Sandmühle.\n1078 † „ Eisengießerei.\n1302 Rotter-Baumgartner, Johann, Schreinermeister, von Werms-\n  dorf (Österreich).\n  Bachmann-Kümin, Joseph, Schneider, von Wollerau (Schwyz).\n1491 Lüscher-Greninger, Daniel, Gießereibesitzer, von O.-Entfelden.\n  501 Fricker-Hiltpold, Verena, Bahnmeisters Witwe, von Veltheim.\n  Kielholz, Gottlieb, Adjunkt vom Postdirektor, von Mettau.\n  502 Freimaurerloge zur Brudertreue. [tel]\n  Niederhauser-Gysin, Theodor, Buchbinder, von Baselaugst.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6669,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2172,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T20:47:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-gemini-retry-v1",
+    "source": {
+      "key": "1899_p049",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p049.jpeg",
+      "bytes": 279424,
+      "sha256": "12ad40fbd6ab78d3b184d48b4fe73d0418d9287caf6adb147245205f0431af91",
+      "sha256_of": "original",
+      "working_copy": "1899_p049.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:47:52+00:00"
+  }
+}

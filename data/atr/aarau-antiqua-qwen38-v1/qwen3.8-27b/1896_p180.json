@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p180",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p180.jpeg",
+    "bytes": 286000,
+    "sha256": "641eca8fbd96657718889580ac32061a247614ddfe51b20cb1c1311d1bc10ac7",
+    "sha256_of": "original",
+    "working_copy": "1896_p180.jpeg"
+  },
+  "text": "142\nGeschäfts- und Gewebetreibende.\nLebensversicherung.\n(Siehe Agenturen.)\nLederhandlungen.\nHagnauer, A. & Cie., * Konradstr. 1255.\nHaßler, Hans, * Bahnhofstraße 656.\nSiebenmann, Gottlieb, * Rain 838.\nLehrer.\nPrivat- und Musiklehrer.\nBurgmeier, J., Musik- und Gesanglehrer,\n  Graben 209.\nDösselkel, Mina, Klavierlehrerin, Bahn-\n  hofstraße 1160.\nFrey-Kumpf, Fr., Musiklehrer, Schachen\n  810.\nHemmeler, Ida, Klavierlehrerin, Golatten-\n  mattgasse 229.\nHolzinger, Mina, Klavierlehrerin, obere\n  Vorstadt 948.\nKutschera, Eugen, Musik- und Gesang-\n  lehrer, Bachstraße 1043.\nImhof, Lina, Kronengasse 33.\nRödelsberger, Franz, Musiklehrer, hinter\n  dem Bahnhof 1357.\nRychner, Fritz, Pianist, ob. Vorst. 1117.\nRochholz, Marie, Klavierlehrerin, Ziegel-\n  rain 702.\nSiebenmann, Emmy, Klavierlehrerin, ob.\n  Vorstadt 923.\nSpühler, Anna, Zeichenlehrerin, Ent-\n  felderstraße 1195.\nThom, Franz, Musiklehrer, Zeughaus-\n  straße 1387.\nWittmer, J., Musiklehrer, Kasinostr. 573.\nWittmer, Emma, Klavierlehrerin, Kasino-\n  straße 573.\nLeichenbeschauer.\nHagenbuch, Karl, Coiffeur, Rain 819.\nLingeriewaren.\nBolliger-Manger, * hintere Vorstadt 646.\nErdin, Albin, * Nachfolger von Witwe\n  Jean Kiéfer, Rathausgasse 22.\nErismann & Blattner, hint. Vorst. 621.\nErny-Faßler & Sohn, * Kronengasse 33.\n  (Siehe Inserat Seite 21.)\n[spalte 2]\nFehlmann-Blattner, Anna, Bahnhofstraße\n  648.\nHaßler-Hunziker, Karl, Bahnhofstr. 1020.\nHaßler-Oberli, Margaretha, Gais 469.\nHeß, Gebr., * zur Stadt Mühlhausen,\n  Rathausgasse 4.\nMeisel-Leutwyler, Verena; * Rathausg. 19.\nSchmid-Fischer, Heinrich, * Metzgerg. 61.\nSchmid, Marie, Bahnhofstraße 658.\nZuberbühler, J., Zolldrain 53.\nLinieranstalt.\nZebert, Georg, * Laurenzentborg. 116.\nLithographische Anstalten.\nKohlmann, Verena, Witwe, Kirchg. 164.\nMüller & Trüb, * Bahnhofstraße 1287.\nWittmer, Julius, Rain 823.\nLiqueurfabrikanten.\nBrunnhofor-Meder, Aug., * Zolldrain 178.\n  (Siehe Inserat Seite 4.)\nMaler.\nBorchmeier, August, Kasinostraße 574.\nDürr, Hermann, Kasinostraße 1130.\nGysi, Emil, obere Vorstadt 942.\nHaasler, Angelus, v. d. Haldenthor 762.\nHaßler, Gustav, hintere Vorstadt 642.\nRehmann, Karl, Rain 885.\nRothpletz, Julius, Konradstrasse 990.\nSchmuziger, Traugott, Entfelderstr. 970.\nSpychiger, Friedrich, vord. Vorst. 682.\n  Werkstätte Bachstraße 1029.\nUster, Heinrich, Schachen 736.\nManufacturwarengeschäfte.\nDreifuß, Emil, * Graben 352.\nDreifuß, Karl, * vordere Vorstadt 889.\nGamper & Cie., * Rathausg. 49 u. 50.\nGisi-von Arx, * Holzmarkt 664.\nHaßler, Walter, * Graben 202.\nHeß, Gebr, * Rathausgasse 4.\nHoffmann, Arnold, vord. Vorstadt 675.\nLehmann-Oelhafen, J., vord. Vorst. 891.\nSchmid-Fischer, Heinrich, * Metzgerg. 61.\nStahel & Cie., * (en gros), Schloß-\n  platz 191.\nWylor, Raphael, * vord. Vorstadt 902.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 219233,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2731,
+    "lines": 91,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.011,
+    "mean_line_chars": 28.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:03:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p180",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p180.jpeg",
+      "bytes": 286000,
+      "sha256": "641eca8fbd96657718889580ac32061a247614ddfe51b20cb1c1311d1bc10ac7",
+      "sha256_of": "original",
+      "working_copy": "1896_p180.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:03:33+00:00"
+  }
+}

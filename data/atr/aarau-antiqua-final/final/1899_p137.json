@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p137",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p137.jpeg",
+    "bytes": 286889,
+    "sha256": "83cb40d3be9af50875dc54f9c1b4a9ab3b14653b317dd42229cc4e99ced47410",
+    "sha256_of": "original",
+    "working_copy": "1899_p137.jpeg"
+  },
+  "text": "33\nReinhardt, Joh. Baptist, Gärtner, hintere Vorstadt 642.\nRenold geb. Geissmann, Katharina, Part., Kasinostrasse 1391.\n— geb. Schneider, Marie, Fabrikarbeiterin, vordere Vorstadt 673.\nRennhardt, Joseph, Knecht, Binsenhof 1006.\nRennhart, J. Martin, Professor, Bahnhofstrasse 1447.\nReil, Philipp, Schneider, Rathausgasse 44.\nRey, Jakob, Lehrer der Bezirksschule, vor dem Haldenthor 777.\n— Jakob Friedrich, Professor, Bahnhofstrasse 609.\nRichner, Karl, Fabrikation von Thon- und Steinzeug-Röhren, [tel]\n  Bahnhofstrasse 561.\nRichter, Albert, Färber, Bachstrasse 1055.\nRiehl, Karl, Koch, Graben 1237.\nRies, Emanuel, Drogueriwarenhandlung, Ziegelrain 702.\nRiesterer, August, Mechaniker, Pelzgasse 128.\nRiner-Hächler, Anna, Plazierungsbureau, Ziegelrain 751.\n— Johann, Stadtpolizist, Weinberg 324.\n— Joseph, Kondukteur, Ziegelrain 751.\n— Rosa, Weifnäherin, Milchgasse 156.\nRingier, Adolf, Laurenzenvorstadt 408.\n— Karl Arnold, Reg.-Rat., Schloßplatz 195.\n— Robert, Part., Kronengasse 40.\nRiniker, Adolf, Kaufmann, Zeughausstrasse 1387.\n— Arnold, Kaufmann, Wirt, Binsenhof 1459.\n— Friedrich, Spezeriehandlung, obere Vorstadt 928.\n— Gebr., (Karl Riniker und Arnold Riniker), Bierbrauerei, [tel]\n  Metzgergasse 102.\n— Friedrich, Bierbrauer, Part., Metzgergasse 102.\n— Hermann, Kührer, Entfelderstrasse 1195.\n— Jakob, Okonom, Binsenhof 1005.\n— Karl, Bierbrauer, [tel] Bierwirtschaft, Metzgergasse 102.\nRippstein, Joseph, Bahnhofportier, Bahnhofstrasse 519.\nRitzmann, Jakob, Bureauchef der Helvetia St. Gallen. Rain 858.\nRödelsberger, Franz, Musikdirektor, Bahnhofstrasse 1317.\nRochholz, Mina, Klavierlehrerin, Ziegelrain 702.\nRodel geb. Sandmeier, Anna, Witwe, Fabrikarbeiterin, Telli 440.\nRohner geb. Ehrsam, Elise, Arzts Witwe, Part., Zollrain 51.\nRohr geb. Blauenstein, Marie Anna, Witwe, Pelzgasse 69.\n— Daniel, Straßenwärter, Halden 269.\n— geb. Gloor, Marie, Part., Kronengasse 38.\n— geb. Hässig, Emma, Witwe, Part., Graben 205.\n— Hans, Oberrichter, [tel] Feerstrasse 1444.\n— Hans, Konditorei und Kaffeewirtschaft, [tel] Graben 205.\n— Hans, Fürsprech, Staatsanwaltschaftssubstitut, Bachstrasse 1054.\n— Jakob, Kaufmann, Kolonialwarenhandlung, [tel] Pelzgasse 137.\n— Johann, Wirt, Holzmarkt 662.\n— Rudolf, Schmiéd, Rainstrasse 883.\nRoss, Xaver, Postangestellter, Ziegelrain 700.\nRoth, Alfred, Oberst, Laurenzenvorstadt 401.\n— Friedrich, Obergerichtskanzlist, vordere Vorstadt 902.\nStadt Aarau. E.\n3",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19781,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2392,
+    "lines": 52,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:39:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p137",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p137.jpeg",
+      "bytes": 286889,
+      "sha256": "83cb40d3be9af50875dc54f9c1b4a9ab3b14653b317dd42229cc4e99ced47410",
+      "sha256_of": "original",
+      "working_copy": "1899_p137.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:39:10+00:00"
+  }
+}

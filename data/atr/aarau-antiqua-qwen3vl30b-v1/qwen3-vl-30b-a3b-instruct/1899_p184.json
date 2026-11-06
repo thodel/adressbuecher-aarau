@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p184",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p184.jpeg",
+    "bytes": 265912,
+    "sha256": "d8549bec77c660bbf33e6f6e3f40e5429a2f5ff617cdac3ffd37270511875d22",
+    "sha256_of": "original",
+    "working_copy": "1899_p184.jpeg"
+  },
+  "text": "80\nEngesser, Joseph, vor dem Haldenthor 803.\nFischer, Franz, Halden 285.\nFrei, Johann, Metzgergasse 107.\nFurrer, Erhard, Bachstraße 1031.\nGamper, Emil, Marchand-Taileur, Rathausgasse 49.\nGanser, Georg, Rathausgasse 24.\nGerber, Gustav, Marchand-Taileur, vordere Vorstadt 670.\n(Siehe Inserat Seite 9.)\nGränicher, Jakob, Kirchplatz 162.\nHäusermann, Fritz, Rain 857.\nHefti, Joh. Peter, Metzgergasse 100.\nHerzig, Friedrich, March.-Taileur, hintere Vorstadt 644.\nHunziker, Gottlieb, Halden 240.\nKeller, Joh., Schachen 729.\nLechner-Wirth, Paul Franz, Kasinostraße 576. (S. Inserat S. 11.)\nLerf, Moritz, Halden 252.\nMeier, Joseph, vor dem Haldenthor 772.\nMeissner, Johann, Halden 266.\nMüller, Jost, Schmiedgasse 636.\n— Karl, Milchgasse 79.\nRoth, Jakob, Milchgasse 79.\nSchatzmann, Heinrich, Schachen 734.\nSchauer, Joseph, vor dem Haldenthor 809.\nSchmied, Friedrich, Halden 264.\nSchmuziger, Gottlieb, Ziegelrain 703.\nSiebenmann, Gebr., Marchand-Taileur, Oberthor 226.\nStehle, Albert, Schachen 734.\nSuter, Albert, Pelzgasse 133.\nThielke, Friedrich, Rain 862.\nTschudin, Karl, Golattenmattgasse 230.\nWälti, Rudolf, Rain 883.\nWassmer, Fidel, Pelzgasse 63.\nWeise, Paul, Vor dem Haldenthor 800.\nSchneiderinnen.\nAdrion, Marie, Halden 269.\nAmsler, Ida, vor dem Haldenthor 804.\nBaumann-Frei, Anna, Ziegelrain 752.\n— Elise, Schachen 729.\nBeck, Louis, Adelbändli 174.\nBeilharz, Lina, Halden 287.\nBertschi, Anna, Milchgasse 70.\n— Bertha, Milchgasse 153.\n— Lüscher, Louise, Pelzgasse 62.\n— -Schwammberger, Marie, Metzgergasse 100.\nBirkhofer-Hagenbuch, Albertine, Rain 821.\nBolliger, Emma und Anna, Hammer 190.\nBrunnhofer, Elise, Rain 875.\nBuchmann, Adele, Zollrain 53.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5028,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1645,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:41:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p184",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p184.jpeg",
+      "bytes": 265912,
+      "sha256": "d8549bec77c660bbf33e6f6e3f40e5429a2f5ff617cdac3ffd37270511875d22",
+      "sha256_of": "original",
+      "working_copy": "1899_p184.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:41:10+00:00"
+  }
+}

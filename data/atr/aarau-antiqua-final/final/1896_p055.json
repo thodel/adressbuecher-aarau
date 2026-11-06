@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p055",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p055.jpeg",
+    "bytes": 322292,
+    "sha256": "702b0613de77e7b716c16f8b219ce6dcb907cd8bf35a120e998956b92cb2b842",
+    "sha256_of": "original",
+    "working_copy": "1896_p055.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 33\nHaus-\nNr.\n370 † Abgetragen.\n371 ⚓ Fahländer-Hunziker, Karl, Dr. jur., Regierungsrat, v. Laufenburg.\n  Siebelist geb. Fahländer, Anna, Part., von Berlin.\n372 † Derselbe. Holzhaus und Remise.\n373 † Hunziker-Züst, Guido, Rentier. Comptoir und Magazin.\n374 n. 375 ⚓ Derselbe. Wohngebäude.\n376 * Hunziker-Züst, Guido, Rentier.\n  Siegrist-Schmid, Adolf, Schuhmacher, von Meisterschwanden.\n  Meier-Hägelí, Karoline, Wwe., Taglöhnerin, von Büron (Luzern).\n  Hägeli, Georg Andreas, Part., von Altersberg (Württemberg).\n  Siegrist-Hochuli, Arnold, Stuhlschreinerei, von Liedertswyl (Baselland).\n  Stirnemann, Maria, Fabrikarbeiterin, von Gränichen.\n  Dill-Frei, Joh. Jb. Christoph, Schuhmacher, von Basel.\n  Steiner-Haller, Mina, Wwe., Taglöhnerin, von Rein.\n  Leu-Karrer, Jakob, Taglöhner, von Schlossrued.\n  Siegrist-Püss, Anna, Witwe, Spetterin, von Meisterschwanden.\n  Müller-Suter, Jakob, Posamenter, von Unterkulm.\n  Müller-Huber, Jakob, Bah narbeiter, von Unterkulm.\n  Dietiker-Wernli, Samuel, Schuhmacher, von Thalheim.\n  Schumacher-Bachmann, Arnold, Bah narbeiter, v. Wangen (Soloth.)\n  Heiz-Neesser, Kornelius, Zimmermann, von Menziken.\n  Frei-Hintermann, Arnold, Taglöhner, von Mellingen.\n  Müller-Müller, Hs. Jakob, Taglöhner, von Unterkulm.\n  Renold-Schneider, Marie, Fabrikarbeiterin, von Bruneegg.\n  Moser-Schneeberger, Johann, Handlanger, von Inkwyl (Bern).\n  Brändli-Müller, Elisabeth, Witwe, Spetterin, von Bötzbeg.\n  Suter-Huber, Joh. Rudolf, Fabrikarbeiter, von Gränichen.\n  Wehrli, Anna, Fabrikarbeiterin, von Küttingen.\n377 † Hunziker-Züst, Guido, Rentier. (Fabrikgebäude.)\n  ⚓ Gasser & Cie. Seidenbandfabrikation.\n378 † Derselbe. Maschinenhaus und Werkstatt.\n379 † Derselbe. Scheune und Remise.\n380 † Derselbe.\n381 † Derselbe.\n382 † Derselbe. Seitenbau mit Holzschopf.\n383 † Derselbe. Waschhaus.\n384 † Fahländer-Hunziker, Karl. Treibhaus.\n385 † Hunziker-Züst, Guido, Geflügelhaus.\n1114 * Wernli-Adel, Jakob, Gärtner, von Thalheim.\n  Keller-Hauri, Wilhelm, Pferdedwärter, von Oberendingen.\n\nIm Hammer.\n386 † Hegnauer-Renold, Rudolf, Fabrikationsgebäude.\n  ⚓ Gebrüder Bally, Bandfabrikation.\n387 † Derselbe. Kesselhaus.\n388 † Derselbe. Holzhaus.\n389 † Hassler-Heberlein, Adolf. Remise.\n3",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 113869,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2245,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:05:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p055",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p055.jpeg",
+      "bytes": 322292,
+      "sha256": "702b0613de77e7b716c16f8b219ce6dcb907cd8bf35a120e998956b92cb2b842",
+      "sha256_of": "original",
+      "working_copy": "1896_p055.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:05:14+00:00"
+  }
+}

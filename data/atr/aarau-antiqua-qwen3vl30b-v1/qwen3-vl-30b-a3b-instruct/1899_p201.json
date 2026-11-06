@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p201",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p201.jpeg",
+    "bytes": 259433,
+    "sha256": "00a13412eaee38af2ebf46a7442070b7f0f143b34fa556d21fa68fb01c9de44a",
+    "sha256_of": "original",
+    "working_copy": "1899_p201.jpeg"
+  },
+  "text": "97\n4. Ortsbürger-Rechnungskommission.\nPräsidcnt: Gysi, Traugott, Lehrer.\nMitglieder: Andres-Bircher, Friedrich, Hafnermeister.\nBaumann, Eugen, Weinhändler.\nFrey, Max, Fabrikant.\nRothpletz, Karl, Architekt.\nSchmuziger, Joh., Baumeister.\nSchmuziger-Lackerbauer, Arnold, Ingenieur.\n\n5. Schulpflege.\nPräsidcnt: Hässig, Hans, Stadtrat.\nVicepräsidcnt: Rohr, Hans, Staatsanwaltssubstitut.\nAktuar: Fischer, X., Pfarrer.\nMitglieder: Baumann, Karl, Weinhändler.\nDr. Berner, Hermann, Zahnarzt.\nDr. Gessner, J. A., Professor.\nHartmann, Rudolf, Fabrikant.\nReimann, Gustav, Obergerichtsschreiber.\nDr. Schmuziger, Friedrich, Arzt.\nWernly, Rud., Pfarrer.\nZurlinden-Richner, Fabrikant.\n\n6. Steuerkommission.\nPräsidcnt: Brack, Heinrich, Polizeichef.\nMitglieder: Brunnhofer-Meder, August, Wirt.\nGuggisberg, Emil, Bäcker.\nGysi-Studler, Arnold.\nHartmann, Rudolf, Fabrikant.\nHenz-Plüss, Stadtrat.\nHoffmann-Gamper, Emil.\nRychner, Louis, Stadtrat.\nErsatzmänner: Amsler, Otto, Notar.\nGysi-von Arx, Viktor, Kaufmann.\nAktuar: Siebenmann, Emil, Stadtkassier.\n\n7. Forstkommission.\nPräsidcnt: Schmidt, Max, Stadtamtmann.\nMitglieder: Erismann, A., Friedensrichter.\nFahrländer, Eugen, Ingenieur.\nFeer, Karl.\nHässig-Lienhard, H.\nImhof-Munzinger, Emil.\nSiebenmann, Bernhard, Bäcker.\nSiebenmann, F., Stadtrat.\nSiebenmann, Jakob, Ökonom.\nAbgeordneter der Ortsbürgerrechnungskommission: Baumann,\nEugen, Weinhändler.\nBeratend: Meisel, Xaver, Forstverwalter.\nAktuar: Niggli, A., Eürsprech und Gemeindeschreiber.\nStadt Aarau. E. 7",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4446,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1490,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0208,
+    "mean_line_chars": 30.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:43:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p201",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p201.jpeg",
+      "bytes": 259433,
+      "sha256": "00a13412eaee38af2ebf46a7442070b7f0f143b34fa556d21fa68fb01c9de44a",
+      "sha256_of": "original",
+      "working_copy": "1899_p201.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:43:23+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p199",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p199.jpeg",
+    "bytes": 236677,
+    "sha256": "368e00bf9555cc6f5731297c828c8fbabc71df574cce8f9dcc89d58d678e813a",
+    "sha256_of": "original",
+    "working_copy": "1899_p199.jpeg"
+  },
+  "text": "Verzeichnis\nder\nBehörden, öffentlichen Anstalten, Vereine und\nGesellschaften der Stadt Aarau.\n\nBehörden.\nA. Kantonalphörden.\n1. Regierungsrat.\nLandammann: Dr. Müri.\nLandstatthalter: Conrad.\nMitglieder des Regierungsrates: Dr. Fahrländer, Dr. Käppeli,\nRingier.\nStaatsschreiber: Dr. Zschokke, Arnold, von Aarau.\nStaatsarchivar: Dr. Herzog, Hans, von Aarau.\n2. Obergericht.\nPräsident: Ursprung, Albert, Fürspruch, von Üken, in Zürzach.\nVizepräsident: Wildi, Sam., Fürspruch, von Veltheim, in Brugg.\nMitglieder: Fischer, Joh., Fürspruch, von Merenschwand, in\nBaden.\nDr. Frøy, Sam., Fürspruch, von Gontenschwyl.\nHeuberger, Jak., von Bözen, in Aarau.\nIrmiger, Heinrich, Fürspruch, von Menziken, in\nLenzburg.\nKeller, Beat, von Sarmenstorf, in Bremgarten.\nRohr, Joh., Fürspruch, von Hunzenschwyl, in Aarau.\nSchneider, Fridol., Fürspruch, von Herz nach, in\nAarau.\n3. Kriminalgericht.\nPräsident: Keller, Beat, Oberrichter.\nVizepräsident: Irmiger, Heinrich, Oberrichter.\nMitglied: Fischer, Joh., Oberrichter.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 2491,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 997,
+    "lines": 30,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:43:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p199",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p199.jpeg",
+      "bytes": 236677,
+      "sha256": "368e00bf9555cc6f5731297c828c8fbabc71df574cce8f9dcc89d58d678e813a",
+      "sha256_of": "original",
+      "working_copy": "1899_p199.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:43:14+00:00"
+  }
+}

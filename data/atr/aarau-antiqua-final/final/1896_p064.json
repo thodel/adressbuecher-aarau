@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p064",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p064.jpeg",
+    "bytes": 247393,
+    "sha256": "2ffd4b0f999b4a9df73c4b1231544e2ffae273b2f320e9e600bd33f1780cd25d",
+    "sha256_of": "original",
+    "working_copy": "1896_p064.jpeg"
+  },
+  "text": "42\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\nBahnhofstrasse.\n511 * [tel] Aargauische Bank.\nRothpletz-Brüel, Alfred, Bankdirektor.\n512 † Dieselbe. Holzhaus.\n1360 Zebert-Altorfer, Georg, von Bauma (Zürich). Papeterie.\nErne-Leblanc, Eduard, Kaufmann, von Leuggern.\nBertschinger-Riniker, Anna, Witwe, von Lenzburg.\n1438 [tel] Gerber-Walther, Hans, Hôtelier (Hôtel Gerber).\n513 * [tel] Näf & Zschokke. Kreispostgebäude.\nDambach-Wild, Jakob, Kreispostdirektor, von Brugg.\n514 † Dieselbe. Postrémise.\n515 Schweizerische Nordostbahn. Bahnhofgebäude.\nKübler-Kuhn, Johann, Bahnhofinspektor.\nSchäfer-Meier, Friedrich, Einnehmer der Nordostbahn.\nWärtli-Vogel, Christian, Bahnanlagesteller.\n[tel] Kühn-Hofmann, Bernhard, Restaurateur.\n516 † Schweizerische Nordostbahn. Einstieghalle.\n517 † Dieselbe. Wagenremise.\n518 † \" Wärterhaus.\n519 † \" [tel] Güterschopf mit Wohnungen (Güterexpedition, Bureau).\nStaub-Kübler, Joh. Jak., Bahnhofangestellter, v. Dübendorf (Zürich).\nStaub-Wehrlí, Bernh. Jb., Wagenkontroleur, v. Dübendorf (Zürich).\nStaub, Johann, Maschinenarbeiter, von Dübendorf (Zürich).\nRippstein-Küng, Joseph, Portier, von Kienberg (Solothurn).\n520 † Dieselbe. Waschhaus und Abritte.\n521 † \" Maschinenremise.\n522 † \" Wasserstationsgebäude.\n523 † \" Güterschopf (Fruchtschuppen).\n524 † \" Wagenremise.\n525 † \" Bahnwärterhäuschen.\n526 † \" Abtrittgebäude.\n527 † \" Bahnwärterhäuschen.\n528 † \" \"\n529 † \" \"\n530 † \" \"\n531 † \" \"\n532 † \" \"\n533 † \" \"\n534 † \" Abgetragen.\n1116 † \" Bahnwärterhäuschen.\n1239 † \" Abtritt.\n1254 † \" Waschmagazin.\n1300 † Hoch, Gustav, Samenhändler. Magazin.\n1287 [tel] Müller & Trüb. Lithographische Kunstanstalt, Buchdruckerei,\nBuchbinderei, Zinkographie.\n535 Billo-Bär, Julius, Part.\nFrei, Elisabeth, Haushälterin, von Auenstein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 115326,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1752,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:26:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p064",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p064.jpeg",
+      "bytes": 247393,
+      "sha256": "2ffd4b0f999b4a9df73c4b1231544e2ffae273b2f320e9e600bd33f1780cd25d",
+      "sha256_of": "original",
+      "working_copy": "1896_p064.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:26:40+00:00"
+  }
+}

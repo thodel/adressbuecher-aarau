@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p160",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p160.jpeg",
+    "bytes": 263192,
+    "sha256": "b95db8f6c4e06f6dda8b183b2a1b512b7f4f747b2fe0cc5a6219bed9910bfed1",
+    "sha256_of": "original",
+    "working_copy": "1899_p160.jpeg"
+  },
+  "text": "56\nAktiengesellschaft des Aargauer Tagblattes, * Oberthor 228.\n  (Siehe Inserat Seite 16.)\nKeller, Gottfried, * Rainstraße 839. (Siehe Inserat Seite 18.)\nMüller & Trüb, * Bahnhofstraße 1287.\nSauerländer, H. R. & Cie., * Laurenzenvorst. 420. (S. Inserat.)\nWirz, Emil, * Oberthor 139. (Siehe Inserat Seite 13.)\n\nBuchhandlungen.\nAngst, Robert (Bibeldepot), * hinter dem Platz 214.\nSauerländer, H. R. & Cie., * Sortimentsbuchhandlung, Graben 220.\n  Verlagsbuchhandlung, Laurenzenvorstadt 418. (Siehe Inserat.)\nWirz, Emil, * Oberthor 139. (Siehe Inserat Seite 13.)\n\nButterverkäufer.\nEtter, Reinhard, Rain 825.\nHof-Müller, Bertha, obere Vorstadt 935.\nJäcker, Joseph, * Laurenzentorgasse 119.\nOtt-Wenger, Marie, Adelbändli 81.\nScheidegger, J. Ulrich, * Holzmarkt 663.\nSchiesser, Hermann, * Pelzgasse 121 (en gros et en detail).\nSchmied-Maurer, Math., * Rathausgasse 29.\nSeiler-Hanhart, Andr., * Rathausgasse 48.\nSommerhalder, Rudolf, Kirchgasse 14.\nStirnemann, Jakob, Zollrain 91.\nUrben, Johann, Kasinost raße 660.\nWalti-Müller, Marie, Milchgasse 144.\n\nBürstenhändler.\nFaller geb. Faller, Witwe, Elise, * Kronengasse 41.\nHagnauer, Friedrich, Pelzgasse 68.\nLenzi, Jakob, Korbmacher, Metzgergasse 107.\nMorath, Johann, * Rathausgasse 2.\n\nBürstenfabrikant.\nHagnauer, Friedrich, Pelzgasse 68.\n\nCamionneure.\nHangartner, Kaspar, Ziegelrain 712.\nHunziker, Heinrich, Milchgasse 152.\nSiebenmann & Cie., * Bahnhofstraße 537. (Siehe Inserat Seite 26.)\n\nChampagner.\nCuster, E. & Cie., Bahnhofstraße 651.\nVidiella, Manuel, * Kirchgasse 7. (Siehe Inserat Seite 26.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 37257,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1543,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0513,
+    "mean_line_chars": 38.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:56:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p160",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p160.jpeg",
+      "bytes": 263192,
+      "sha256": "b95db8f6c4e06f6dda8b183b2a1b512b7f4f747b2fe0cc5a6219bed9910bfed1",
+      "sha256_of": "original",
+      "working_copy": "1899_p160.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:56:01+00:00"
+  }
+}

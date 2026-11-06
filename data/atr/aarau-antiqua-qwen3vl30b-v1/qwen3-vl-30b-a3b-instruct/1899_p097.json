@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p097",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p097.jpeg",
+    "bytes": 288921,
+    "sha256": "698feee45622a37fb42bc87786935a6917c9bd82ccec47837bf39706a4666829",
+    "sha256_of": "original",
+    "working_copy": "1899_p097.jpeg"
+  },
+  "text": "Haus-\nNr.\n1315 + Rychner, Louis, Ingenieur. Holzschopf. (Rain.)\n1316 + Strich, Julius Wilhelm, Fabrikant. Schopf. (Ziegelrain.)\n1317 Siebenmann, Friedr., Bierbrauer. Wirtschaft. (Bahnhofstraße.)\n1318 + Derselbe. Wasch- und Badhaus.                  \"\n1319 + Staat Aargau. Holzremise.                       \"\n1320 + Derselbe. Magazin und Stallung                  \"\n1321 + Zürcher, Alfred, Arzt. Holzremise. (Laurenzenvorstadt.)\n1322 + Holzach, Dietrich, Bierbrauer. Trinkhalle und Kegelbahn.\n     (Bahnhofstraße.)\n1323 + Staat Aargau. Spritzenremise m. Kohlenschuppen. (Thorfeld.)\n1324 + Mattenberger, Jak., Metzger. Eiskeller. (Vor d. Haldenthor.)\n1325 + Hegnauer-Fischer, Rudolf, Buchh., Holzschopf. (Schachen.)\n1326 + Zürcher, Alfred, Arzt, Waschhaus. (Laurenzenvorstadt.)\n1327 + Holzach, Dietrich, Bierbrauer. Eiskeller. (Bahnhofstraße.)\n1328 + Gamper, Adolf, Metzger. Eiskeller. (Mühlegässchen.)\n1329 + Abgetragen.\n1330 + Mattenberger, Jb., Metzger. Bienenhaus. (Vor d. Haldenthor.)\n1331 + Müller, Friedrich, Landwirt. Scheune. (Schachen.)\n1332 Schmid, Joh. Alb. u. Samuel. Wohnhaus. (Vor d. Haldenthor.)\n1333 + Einwohnergemeinde Aarau. Baracke I. (Schachen.)\n1334 + Dieselbe.                                        \" II.   \"\n1335 Ernst, Gustav. Landwirt. (Tellirain.)\n1336 Brack, J., Kaufmann. Wohnhaus. (Bahnhofstraße.)\n1337 Hunziker-Fleiner, Hermann, Wohnhaus.\n1338 + Bally-Arndt, Eugen. Wasch- und Holzhaus. \" (Rohrerstraße.)\n1339 Vogel, Joh., Cementmüller. Wohnhaus. (Scheibenschachen.)\n1340 Aktiengesellschaft der Aarg. Kreditanstalt. (Schloßgarten.)\n1341 + Schmid, Joh. Alb. u. Samuel. Waschhaus. Vor d. Haldenthor.)\n1342 + Wernli-Häßiger, Jak., Gärtner. Treibhaus. \" \"\n1343 Evangelischer Verein. Vereinshaus. (Bahnhofstraße.)\n1344 Lagerhausgesellschaft. Bureau. (Rohrerstraße.)\n1345 + Zschokke, M., Baugeschäft. Fraismaschine. (Rohrerstraße.)\n1346 + Gysi-Büchli, Emil. Holzremise. (Gartenstraße.)\n1347 + Hassler, Emil, Dr. med. Gartenhaus. (Kasinostraße.)\n1348 + Derselbe. Schopf mit Magazin.                    \"\n1349 + \" \" Treibhaus.                                 \"\n1350 + Keller, Ida, Glätterin. Schopf. (Rain.)\n1351 Suter, Joseph, Bez.-Lehrer. (Hinter dem Bahnhof.)\n1352 * Basler, Peter, Kantonsgeometer. (Hinter dem Bahnhof.)\n1353 Abgetragen.\n1354 + Hunziker-Fleiner, Herm., Holzhaus mit Remise. (Feerstraße.)\n1355 + Ernst, Friedrich, Fabrikant. Holzschuppen. (Rohrerstraße.)\n1356 * Schäfer, Adolf, Architekt. Wohnh. Südbahnbureau. (Hinter\n     dem Bahnhof.)\n1357 Rödelberger, Franz, Musikdirektor. (Hinter dem Bahnhof.)\n1358 Bally-Arndt, Eugen, Fabrikant. (Rohrerstraße.)\n1359 Schmuziger & Cie. Fabrikanten. (Rain.)\n89",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7128,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2639,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:31:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p097",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p097.jpeg",
+      "bytes": 288921,
+      "sha256": "698feee45622a37fb42bc87786935a6917c9bd82ccec47837bf39706a4666829",
+      "sha256_of": "original",
+      "working_copy": "1899_p097.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:31:53+00:00"
+  }
+}

@@ -60,7 +60,7 @@ STREET_RULES = [
     (r"\bstr\.$", "straße"), (r"\bstr\.\s", "straße "), (r"str\.$", "straße"),
     (r"g\.$", "gasse"), (r"gaſſe", "gasse"), (r"=\s*gasse", "gasse"), (r"-\s*gasse", "gasse"),
     (r"^vorst\.?$", "Vorstadt"), (r"\bvorst\.", "Vorstadt"), (r"\bvorstdt\b", "Vorstadt"), (r"\bvst\.", "Vorstadt"),
-    (r"^ob\.\s", "obere "), (r"^vord\.\s", "vordere "), (r"^hint\.\s", "hintere "), (r"^v\.\s+vorstadt", "vordere Vorstadt"),
+    (r"^ob\.\s", "obere "), (r"^hinterer?\s+vorstadt$", "hintere Vorstadt"), (r"^jens\.\s*d\.\s*aare$", "jenseits der Aare"), (r"^vord\.\s", "vordere "), (r"^hint\.\s", "hintere "), (r"^v\.\s+vorstadt", "vordere Vorstadt"),
     (r"^h\.\s*d\.\s", "hinter dem "), (r"^hint\.\s*d\.\s", "hinter dem "), (r"^v\.\s*d\.\s", "vor dem "), (r"^vor\s*d\.\s", "vor dem "),
     (r"haldenth\.", "Haldenthor"), (r"haldenthor\.?$", "Haldenthor"), (r"^haldenthor$", "vor dem Haldenthor"),
     (r"^bahnh\.$", "Bahnhof"), (r"hinter dem bahnh\.", "hinter dem Bahnhof"),
@@ -123,6 +123,7 @@ def norm_street(raw: str) -> tuple[str, str]:
         return s, "raw"
     # Parserreste: «von Zürich Graben» → letztes Wort, wenn davor ein Heimatort steht
     low = s.lower()
+    low = low.replace("strasse", "straße").replace("laurentzen", "laurenzen").replace(" thor", "thor")
     low = re.sub(r"=\s*", "", low)                      # «Vor= Stadt» → «vorstadt» (Trennstrich)
     for pat, rep in STREET_RULES:
         new = re.sub(pat, rep, low, flags=re.I)
@@ -174,17 +175,31 @@ def main() -> None:
     cnt = Counter(r["street_raw"] for r in rows if r.get("street_raw"))
     old = read_existing(STREETS, ["street_raw"])
     out = []
+    # Lesefehler unscharf an häufige Strassennamen angleichen («Ziegelnrain» → «Ziegelrain»)
+    base = Counter()
+    for raw, n in cnt.items():
+        sn, m = norm_street(raw)
+        if m == "rule":
+            base[sn] += n
+    known = [k for k, v in base.items() if v >= 15]
+    import difflib
     for raw, n in sorted(cnt.items(), key=lambda x: (-x[1], x[0])):
         sn, method = norm_street(raw)
+        if method == "rule":
+            # an einen deutlich häufigeren, ähnlichen Namen angleichen (Lesefehler sind seltener als die richtige Form)
+            bigger = [k for k in known if k != sn and base[k] >= 3 * base.get(sn, 0)]
+            close = difflib.get_close_matches(sn, bigger, n=1, cutoff=0.86)
+            if close:
+                sn, method = close[0], "fuzzy"
         rec = {k: "" for k in STREET_FIELDS}
         rec.update(old.get((raw,), {}))
         rec.update({"street_raw": raw, "street_norm": sn, "n": str(n), "norm_method": method,
-                    "geo_query": f"{sn}, Aarau, Schweiz" if method == "rule" else ""})
+                    "geo_query": f"{sn}, Aarau, Schweiz" if method in ("rule", "fuzzy") else ""})
         out.append(rec)
     with STREETS.open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=STREET_FIELDS); w.writeheader(); w.writerows(out)
-    norms = Counter(r["street_norm"] for r in out if r["norm_method"] == "rule")
-    covered = sum(int(r["n"]) for r in out if r["norm_method"] == "rule")
+    norms = Counter(r["street_norm"] for r in out if r["norm_method"] in ("rule", "fuzzy"))
+    covered = sum(int(r["n"]) for r in out if r["norm_method"] in ("rule", "fuzzy"))
     print(f"{len(out)} Strassen (roh) → {STREETS}; normiert: {len(norms)} Namen, {covered} von {sum(cnt.values())} Zeilen")
 
 

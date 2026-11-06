@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p182",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p182.jpeg",
+    "bytes": 282427,
+    "sha256": "6440711c41ad6311b8bddf98756de4d610a83d71995156176a5dc9ef266f5823",
+    "sha256_of": "original",
+    "working_copy": "1896_p182.jpeg"
+  },
+  "text": "144 Geschäfts- und Gewerbetreibende.\nErismann, Abraham, Oekonom, Bach-\n  straße 1033.\nEtter, Reinhard, Rain 825.\nGantner, Witwe, Oekonom, Schloß-\n  platz 197.\nGautschi, Rud., Oekonom, Tellti 460.\nGuyer, Oskar, Fabrikant, Tellti 456.\nJakob, Johann, Oekonom, Goldern 1001.\nLehner, Rudolf, obere Vorstadt 946.\nLüscher, Ottilie, Bahnhofstraße 647.\nMüller, Friedrich, Oekonom, Schachen 725.\nOtt-Wenger, Marie, Adelbändli 81.\nPhilipp, Johann, Bachstraße 1041.\nRiniker, Hermann, Entfelderstraße 1195.\nRiniker, Jakob, Binsenhof 1005.\nScheidegger, Joh. Ulrich, * Holzmarkt 663.\nSommerhalder, Rudolf, Kirchgasse 14.\nSteiner, Samuel, Oekonom, Laurenzen-\n  Vorstadt 547.\nStirnemann, Jakob, Zollrain 91.\nUrben, Johann, Kasinostraße 660.\nWalther, Gottlieb, Oekonom, Rain 856.\nWalther, Hans, Oekonom, Bachstr. 1041.\nWalther, Wwe., Oekonom, Schachen 739.\nWalti-Müller, Marie, Milchgasse 144.\nWalti, Otto, Bachstraße 1038.\nWeber, Wilhelm, Erinsbacherstraße 337.\nFabrikation künstlicher Mineral-\n  wassers.\nCuster, E. & Cie., * Bahnhofstr. 651.\nModistinnen.\n  (Modegesäfte.)\nBaumann, Emma, Pelzgasse 64.\nBryner, Anna, Halden 285.\nHaßler, Julie, Adelbändli 172.\nHelm, Fanny, Zollrain 52.\nKirchhofer, Marie, Kasinostraße 1130.\nKirchner-Vonwiller, Ida, Graben 207.\nLienhard, Anna, Pelzgasse 67.\nMüller-Schmocker, Verena, Metzgerg. 107.\nSchmidt, Jenny, Zollrain 292.\nSennhauser-Gossowisch, A., v. d. Halden-\n  thor 758.\nWeber-Suter, Ida, Laurenzenthorg. 1118.\nWidmer, Karolina und Marie, vordere\n  stadt 666.\n[spalte 2]\nMöbelhandlungen.\nBühler-Häusler, * (Spezialität; Wiener-\n  Sessel), Bachstraße 1174.\n  (Siehe Inserat Seite 10 und 11.)\nCodoni-Dreßler, Remigius, * Rain 826.\nGewerbehalle Aarau, Ziegelrain 754.\nHeß, Gebr., * „z. Stadt Mühlhausen“,\n  Rathausgasse 4.\nHering-Leuenberger, Lisette, Milchg. 71.\nScheibler, Alfred, Aelbbändli 83.\nGysi, Adolf, Pelzgasse 124.\nMöbelfabrik.\n  (Siehe Fabrikationsgeschäfte.)\nMusikalienhandlungen.\nBrast, Emma u. Ida, Holzmarkt 661.\nFrey, Albert, hintere Vorstadt 693.\nHirsbrunner, Gottfried, * Kasinostr. 570.\nWidmer, F. J., Kasinostraße 573.\nMühlebaugeschäfte.\nMärki & Haller, Schönenwerderstraße,\n  Wöschnau. (Siehe Inserat S. 18.)\nMüller.\nDubs, Geschwister, * (untere Mühle),\n  Hammer 182.\nEberle, Franz, * (mittlere Mühle), Stadt-\n  hof 95.\nMünzensammler.\nPfisterer, Robert, vordere Vorstadt 1263.\nDreifuß, Karl, * vordere Vorstadt 889.\nMützenhandlungen.\nSernatinger, Valerian, * vord. Vorst. 893.\nAmsler-Tschudi, Anna, * vordere Vor-\n  stadt 666.\nMüller, Eduard, * Schirmacher, Rathaus-\n  gasse 30. (Siehe Inserat Seite 9.)\nNäherinnen.\n  (Siehe Weißnäherinnen.)\nNähmaschinenhandlungen.\nBieber-Niggli, Theodor, * Hammer 193.\nLüscher-Umiker, Hermann, hinter dem\n  Bahnhof 1414.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 50356,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2701,
+    "lines": 89,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0112,
+    "mean_line_chars": 28.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:05:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p182",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p182.jpeg",
+      "bytes": 282427,
+      "sha256": "6440711c41ad6311b8bddf98756de4d610a83d71995156176a5dc9ef266f5823",
+      "sha256_of": "original",
+      "working_copy": "1896_p182.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:05:05+00:00"
+  }
+}

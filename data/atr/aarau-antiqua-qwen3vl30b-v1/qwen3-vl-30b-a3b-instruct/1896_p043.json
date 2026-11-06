@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p043",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p043.jpeg",
+    "bytes": 261198,
+    "sha256": "d16197261b5325c3475ca77b32716a297dd8751333650f1a1fccd099bf580811",
+    "sha256_of": "original",
+    "working_copy": "1896_p043.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n21\nHaus-\nNr.\n228 a Stierli, Sophie, Damenschneiderin, von Aristau.\nStierli, Marie, Ladentochter.\nStierli, Elise, Part.,\nStierli, Cäcilie, \"\n228 b Buchdruckerei des Aargauer Tagblattes.\nGolattenmattgasse.\n229 Hemmeler, Ida, Privatlehrerin.\nHemmeler, Meta, Part.\nSchröder-Kern, Theodor, Schuhmacher, von Heintrog (Preussen).\nWerkstätte.\n230 Näf-Widmer, Urs Jos., Taglöhner, von Wiesen (Solothurn).\nFehlmann, Rudolf, Dachdecker, von Menziken.\nFischer, Friedrich, Schreiner, Fuhrmanns.\n231 a Spengler, Bertha, Part.\nHäas-Huber, Jos., Bierbrauer, von Ehningen (Grossh. Baden).\n231 b Rämisperger geb. Berner, Marie, Gürtlers Witwe.\nHermann, Elisabeth, Spetterin, von Rohrbach (Bern).\nPortmann-Emmenegger, Theresia, Fabrikarbeiterin, von Escholzmatt (Luzern).\n232 Plüss-Haller, Maria Anna, Bettmacherin, von Rotrist.\n233 Landolt-Frank, Katharina, Schuhmachers Witwe, Part.\nRothpletz-Hunziker, Anna Maria, Schreiners Witwe, Part.\nMichel, Katharina, Spetterin, von Olten.\n234 Schneider-Läuchli, Ulrich, Schlossermeister.\nJost-Moser, August, Schneider, von Langnau (Bern).\n235 * Hassler-Brunnhofer, Elise, Witwe.\nBrunnhofer-Gietzentanner, Verena, Seilers Wittwe.\nJörg, Jakob, Seiler, von Affoltern (Bern).\nGietzentanner, Elisabeth, Part., von Kappel (St. Gallen).\nWildi-Hilfiker, Gottfried, Heizer, von Schafisheim.\n236 Stirnemann-Gisi, Jakob, Zimmermann, von Gränichen.\nBrunner-Senn, Heinrich, Fuhrmann, von Schmiedrued.\n237 a Fäs-Huber, Jakob, Posamenter, von Oberkulm.\n237 b Dietiker-Staub, Adolf, Briefträger, von Thalheim.\nDietiker, Emma, Wäscherin, von Thalheim.\n237 c Morgenthaler, David, Dienstmann, von Staffelbach.\nSchäfer-Morgenthaler, Karl Eduard, Buchdrucker, von Chemnitz, (Sachsen).\n238 † Fäs-Huber, Jakob, Posamenter. Holzschopf.\n239 Döhnel-Kyburz, August, Schuhmacher, von Badenweiler (Baden).\nHalden.\n240 Ernst-Dürr, Hermann, Schuhmacher.\nHunziker-Hunziker, Heinrich, Holzer, von Kirchleerau.\nHunziker, Elisa, Taglöhnerin, von Gontenschwyl.\nGrütter-Graber, Friedrich, Taglöhner, von Seeberg (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5793,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2050,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:03:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p043",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p043.jpeg",
+      "bytes": 261198,
+      "sha256": "d16197261b5325c3475ca77b32716a297dd8751333650f1a1fccd099bf580811",
+      "sha256_of": "original",
+      "working_copy": "1896_p043.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:24+00:00"
+  }
+}

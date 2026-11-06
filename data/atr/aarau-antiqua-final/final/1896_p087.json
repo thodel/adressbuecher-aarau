@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p087",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p087.jpeg",
+    "bytes": 251328,
+    "sha256": "4c3085ad4231d5ec0290c1cb474ae8a13c5da692ba2943c43370c7630bb9e70a",
+    "sha256_of": "original",
+    "working_copy": "1896_p087.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.        65\nHaus-\nNr.\n\nRoggenhausen.\n\n851 * Gemeinde Aarau. Pächterhaus.\n  Bolliger-Thut, Rudolf, Pächter, von Egliswyl. Sommerwirtschaft.\n\nOberholz.\n\n852 † Staat Aargau. Pulverhaus.\n\nWalthersburg.\n\n853 † Walther-Schatzmann, Gottlieb, Oekonom. Waschhaus.\n854 † Derselbe. Scheune und Remise.\n855 † \"     Scheune.\n856 \"     Wohnhaus.\n  Weber, Anna, Glätterin, von Vordemwald.\n1464     † Derselbe. Heuschuppen\n\nRain.\n\n857 a Strebel-Rüetschi, Eduard, Schreiner, von Büblikon.\n  Treier-Frei, Johann, Schreiner, von Oberhof.\n  Gysi-Keller, Johann, Färber, von Suhr.\n857 b † Derselbe. Schopfanbau.\n858 Haberstick-Stöckli, Jakob, Zinsrodelverwalter, von Oberentfelden\n  Haberstick, Frieda, Lehrerin, von Oberentfelden.\n859 * Schweiz. Centralbahn. Bahnwärterhäuschen.\n  Fischer-Wilhelm, Johann, Bahnwärter, von Oftringen.\n860 Schweizer-Siebenmann, Sophie, Witwe, Part., von Dätwyl.\n  Nadig, Clara, Part., von Davos (Graubünden).\n  Flühmann, Elisabeth, Seminarlehrerin, von Saxeten (Bern).\n  Meyer-Stählin, Joh. Jak., Part., von Zürich.\n861 † Dieselbe. Holzhau.\n862 * Schweizer-Siebenmann, Sophie, Witwe, Part., von Dätwyl.\n  Schweizer-Gubler, Nanette, Staatsarchivars Witwe, von Dätwyl.\n  Wydler-Gubler, Paulina, Witwe, Part.\n  David-Hunziker, Julie, Witwe, Part., von Basel.\n863 [tel] Thut-Gidemann, Hermann, Ziegler, v. Oberentfelden, mechan.\n  Ziegelei.\n864 † Derselbe. Ziegelhütte.\n865 † Gemeinde Aarau. Holzmagazin.\n866 Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\n867 u. 868 † Derselbe. Schopf.\n869 Fahrländer-Johannes, Eugen, Ingenieur.\n  Wirth-Geiger, Joh. Rud., Arzt, Part., von Speicher (Appenzell).\n  Siebenmann-Hodel, Fritz, Commis.\n  Hodel, Josephia, Part., von Rheinfelden.\n870 † Derselbe. Holzhau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 85904,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1748,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T15:03:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p087",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p087.jpeg",
+      "bytes": 251328,
+      "sha256": "4c3085ad4231d5ec0290c1cb474ae8a13c5da692ba2943c43370c7630bb9e70a",
+      "sha256_of": "original",
+      "working_copy": "1896_p087.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T15:03:40+00:00"
+  }
+}

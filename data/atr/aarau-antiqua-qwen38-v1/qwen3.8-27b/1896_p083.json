@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p083",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p083.jpeg",
+    "bytes": 261772,
+    "sha256": "90f37bd613146b27dea6594be9add3f87a5ed60c853cc3ea641ed7ca34a0dce5",
+    "sha256_of": "original",
+    "working_copy": "1896_p083.jpeg"
+  },
+  "text": "Verzeichniss der Gebäude und ihrer Bewohner.    61\nHaus-\nNr.\n790 † Dieselbe.  Schopf.\n791 † „    Waschhaus.\n1089 † „    Schopf.\n1090 † „    Schopf.\n1220 † „    Bienenhaus.\n1411 † „    Werkstätte und Magazin.\n792 † Häfliger-Hilfinger, Otto, Metzger.  Scheune.\n1312 Hilfinger-Wilhelm, Emilie, Part., Bäckers Witwe, von Safenwil.\nSteiner-Haller, Johann, Postfacteur, von Schmiedrued.\n793 † Derselbe.  Gartenhaus.\n794 † Kern, Adolf, Mechaniker.  Remise.\n795 † Derselbe.  Scheune.\n1220 † „    Bienenhaus.\n796 † Berchtold-Lüscher, Nanette, Fuhrmanns Frau, von Schmiedrued.\nBerchtold-Lüscher, Samuel, Fuhrmann, von Schmiedrued.\nWernli, Joh. Gabriel, Taglöhner, von Thalheim.\n797 † Dieselbe.  Remise.\n798 † „    Gewächshaus.\n1094 † „    Scheune.\n799 Wernli-Häfliger, Jakob, Gärtner, von Thalheim.\n1342 † Derselbe.  Treibhaus.\n1332 Schmid, Johann Albert, und Schmid, Samuel.\nSchmid-Schmid, Samuel, Commis.\nSchmid, Albert, Schriftsetzer,\nSchmid, Anna und Jenny, Wäscherei und Glätterei.\n1341 † Dieselben.  Waschhaus.\n800 Brunner-Künzli, Heinrich, Bahnarbeiter.\nSteiner-Künzli, Erwin, Steindrucker, von Gontenschwyl.\n1271 † Derselbe.  Scheune.\n801 † Reformirte Kirchgemeinde Aarau. Gartenhaus. (Wernli, Pfarrer).\n802 Zürcher-Huber, Friedrich, Landwirt, von Trub (Bern).\nZürcher geb. Hauenstein, Anna, Part., von Trub (Bern).\nSpillmann-Nünlist, Arnold Laurenz, Taglöhner, von Obergössgen\n(Solothurn).\n803 Siegrist-Heuberger, Jakob, Schriftsetzer, von Elflingen.\nSpillmann-Buser, Augustin, Schuhfabrikarbeiter, von Obergössgen\n(Solothurn).\n804 Amsler-Falger, Fridolin, Revisor, von Kaisten; dessen Erbschaft.\nAmsler geb. Falger, Maria, Witwe, Part., von Kaisten.\nAmsler, August, Postcommis, von Kaisten.\nBolliger-Schädelin, Julia, Part., von Schlossrued.\n1083 * Dieselbe.  Wohnhäuschen.\nSuter, Anna, Spettlerin, von Schafisheim.\n1109 Weber-Käser, Jakob, Bankakwart, von Oberflachs.\nMaurer-Leutwyler, Gottlieb, Taglöhner, von Rubigen (Bern).\n805 † Derselbe.  Remise.\n806 † „    Holzschopf.\n1369 † „    Schopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21609,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1995,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0392,
+    "mean_line_chars": 38.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:57:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p083",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p083.jpeg",
+      "bytes": 261772,
+      "sha256": "90f37bd613146b27dea6594be9add3f87a5ed60c853cc3ea641ed7ca34a0dce5",
+      "sha256_of": "original",
+      "working_copy": "1896_p083.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:57:37+00:00"
+  }
+}

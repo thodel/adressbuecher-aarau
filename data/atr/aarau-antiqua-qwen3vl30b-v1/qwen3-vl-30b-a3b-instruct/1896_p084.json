@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p084",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p084.jpeg",
+    "bytes": 281064,
+    "sha256": "8ad2d0e043edeacd4d24172847bf4ceea1316afd08ece0725c97213a5e76871e",
+    "sha256_of": "original",
+    "working_copy": "1896_p084.jpeg"
+  },
+  "text": "62\nHaus-\nNr.\n1243 Liechti-Steinegger, Paul, Dr. phil., Prof., von Murten (Freiburg).\n1252 + Derselbe. Bienenhaus.\n807 + \" Gartenhaus.\n1245 + Dubs-Walther, Karl, Metzger. Scheune.\n1218 + Mattenberger-Walther, Jakob, Metzger, von Birr.\n1324 + Derselbe. Eiskeller.\n1330 + \" Bienenhaus.\n1219 + Kull, Philipp, Spenglers Erbschaft. Gartenhaus und Magazin.\n808 Widmer-Horlacher, Gottfried, Kaminfeger, von Gränichen.\n809 Wernli-Adel, Jakob, Gärtner.\nRiner-Obrist, Johann, Polizeidieners, von Herznach.\nCadonau-Hunziker, Anton, Kellner, v. Waltensburg (Graubünden).\nDürr-Hofer, Emil, Gemüsehändler.\n810 Frey-Kumpf, Friedr., Kanzleisekretär u. Musiklehrer, v. Densbüren.\nFrey, Friedr., Sohn, Weinhändler (in Firma Vidiella & Frey), von Densbüren.\nFrey, Rosa, Feinwäscherei und Glätterei, von Densbüren.\n811 + Derselbe. Holzhaus.\n1201 + \" Waschhaus.\n812 Abgetragen.\n1110 + Siebenmann-Walther, Schneider. Gartenhaus.\n813 + Staat Aargau. Laboratorium.\n814 + Derselbe. Munitionsmagazin.\n815 + \" Abtritte.\n816 + Rychner, Heinrich, Gewehrfabrikant. Schießstand.\n817 + Derselbe. Scheibenstand.\n818 + Reformirte Kirchgemeinde Aarau. Gartenhaus. (Graf, Pfarrer).\n\nRain.\n819 Hagenbuch-Gross, Karl, Coiffeur, Chirurg und Leichenbeschauer. Spiegelglasversicherungs-Agentur.\nSchatzmann-Bolliger, Elise, Spetterin. von Windisch.\n820 Jörg-Künzli, Peter, Schuhmachermeister. Schuhhandlung.\nJörg, Emma, Damenschneiderin.\nKeller, Maritz, Schuhmacher, von Wösch nau (Solothurn).\nGertiser-Andres, Maria, Witwe, Part., von Münchwylen.\nAndres, Emma, Fabrikarbeiterin.\n821 Birkhofer-Hagenbuch, Albertine, Damenschneiderin.\nAndres-Bircher, Heinrich, Buchbinder, Schreibmaterialienhandlung.\nSchürch-Haas, Robert, Buchdrucker, von Rohrbach (Bern).\nBerner, Gottlieb, Dienstmann, von Unterkulm.\n822 Keller, Gottlieb, von Wösch nau (Solothurn).\nGraf-Tröndle, Ottilie, Witwe, v. Worblingen (Großherzogtum Baden).\nWirtin z. Neuen Bund. Speisewirtschaft.\nFischer-Widmer, Marie, Witwe, Part.\n823 Wittmer-Schuhmacher, Elise, Witwe, Part., v. Erlinsbach (Soloth.). \nWittmer, Julius, Lithographieanstalt und Druckerei, von Erlinsbach (Solothurn).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6241,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2101,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.68,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:07:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p084",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p084.jpeg",
+      "bytes": 281064,
+      "sha256": "8ad2d0e043edeacd4d24172847bf4ceea1316afd08ece0725c97213a5e76871e",
+      "sha256_of": "original",
+      "working_copy": "1896_p084.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:18+00:00"
+  }
+}

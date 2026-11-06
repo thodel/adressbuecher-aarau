@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p194",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p194.jpeg",
+    "bytes": 287298,
+    "sha256": "ce168c0a0acc61e265fd4fa67ee263d9043b98518f8d6cfbea3f27718eaa18e1",
+    "sha256_of": "original",
+    "working_copy": "1896_p194.jpeg"
+  },
+  "text": "Das Grossratsgebäude, nach einem alten Aquaretta-Blatt.\n\nVerzeichnis\nder\nBehörden, öffentlichen Anstalten, Vereine und Gesell-\nschaften der Stadt Aarau.*)\n\nBehörden.\n\nA. Kantonalbehörden.\nGrosser Rat.\nPräsident : Zschokke, Konrad, von und in Aarau.\nVice-Präsident : Frey, Karl, Bezirksamtmann, von\nund in Surzach.\n\nRegierungsrat.\nLandammann : Ringier.\nLandschaffhalter : Dr. Käppeli.\nMitglieder des Regierungsrates : Ringier, Dr. Käppeli,\n  Dr. Fehrländer, Conrad, Dr. Muri.\nStaatsschreiber : Dr. Zschokke, Arnold von Aarau.\nStaatsarchivar : Dr. Herzog, Hans, von Aarau.\n\nB. Behörden der Stadt Aarau.\nGemeinderat.\nGemeindeammann : Schmidt, Max, Fürsprech.\nViceammann : Stürzli-Brantano, G. L., Fürsprech.\nGemeinderäte : Hübsy, Hans,\nHenz, Jakob, Kaufmann,\nKuhn-Buser, Mechaniker,\nSchäfer-Troller, Ad., Architekt.\nSiebenmann, Fritz, Bierbrauer.\n\n*) Von mehreren Anstalten und Vereinen waren Angaben nicht erhältlich.\n[spalte 2]\nGemeindeschreiber.\nNiggli-Bahnenblust, Arnold, Fürsprech.\nStellvertreter : Frey-Kieser, Josef, Notar.\n\nForstverwalter.\nMeisel, Xaver.\n\nFondsverwalter.\nAndres, Gottlieb.\n\nBauverwalter.\nSiebenmann-Hürsch, Gottlieb.\n\nCivilstandsbeamter.\nFrey-Kieser, Josef, Notar.\n\nStadtkassier.\nAmster, Otto.\n\nBetreibungsbeamter.\nSiebenmann, Emil, Sekretär der Gemeindekanzlei.\n\nGemeindeweibel.\nFischer, Thomas.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 30724,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1319,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 27.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:13:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p194",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p194.jpeg",
+      "bytes": 287298,
+      "sha256": "ce168c0a0acc61e265fd4fa67ee263d9043b98518f8d6cfbea3f27718eaa18e1",
+      "sha256_of": "original",
+      "working_copy": "1896_p194.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:13:27+00:00"
+  }
+}

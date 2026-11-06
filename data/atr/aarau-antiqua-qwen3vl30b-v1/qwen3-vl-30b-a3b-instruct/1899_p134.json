@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p134",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p134.jpeg",
+    "bytes": 282450,
+    "sha256": "d34768c5d0192b269a40ab5fcf610e064993938b477b7cbc3d3d5c2555c9d92e",
+    "sha256_of": "original",
+    "working_copy": "1899_p134.jpeg"
+  },
+  "text": "30\nMüller, Jakob, Oberanfseher, Graben 1516.\n— Jakob, Ausläufer, Milchgasse.\n— Jakob, Lithographiebesitzer, Wohnung in der Gais 1131.\n— Jakob, Sekretär, Gönhardfeldweg 1145.\n— Jakob, Posamenter, Laurenzenvorstadt 377.\n— Jakob, Buchbinder, hintere Vorstadt 696.\n— Jakob, Armenhausvorsteher, Halden 241.\n— Joh. Jakob, Postpacker, Halden 271.\n— Johann Jakob, Schuhmacher, Kirchgasse 10.\n— Johann, Maler, Halden 277.\n— Johann, Postangestellter, in der Gais 1514.\n— Johann Heinrich, Fakteur, Bahnhofstraße 568.\n— Jost, Schneider, Schmiedgasse 636.\n— & Trüb. (Jakob Müller und August Trüb.) ⇒ Graphische Kunst-\nanstalt, Druckerei und Buchbinderei, Bahnhofstraße 1287.\n— Karl, Schneider, Milchgasse 79.\n— Karl Theodor, Schmied, obere Vorstadt 937.\n— Maria, Zimmermanns, Part., Pelzgasse 132.\n— Maria Anna, Fabrikarbeiterin, Adelbändli 172.\n— geb. Nußbaum, Sara, Part., Rain 831.\n— Otto, Buchhalter, jenseits der Aare 1303 b.\n— Rudolf, Bremser, Hämmer 188.\n— Rosa, Glätterin, Halden 241.\n— Samuel, Prediger, in der Gais 479.\n— Samuel, Maschinenputzer, obere Vorstadt 947.\n— Samuel, Part., Holzmarkt 1260.\n— Samuel, Postfaktor, in der Gais 1483.\n— Sigmund, Zimmermeister, vordere Vorstadt 673.\n— geb. Schneider, Susanna, Haushälterin, vordere Vorstadt 898.\n— Verena, Modistin, Zollrain 54.\n— Verena, Part., Halden 260 b.\n— geb. Walti, Marie, Weißnäherin, hintere Vorstadt 623.\nMüri, Johann, Dr. Jur., Regierungsrat, Bahnhofstraße 1447.\nMürset, Gottlieb, Wirt und Fuhrmann, Schachen 733.\n— Marie, Coiffeuse, Pelzgasse 137.\nMuster geb. Bürgi, Magdalena, Part., obere Vorstadt 930.\nNäf geb. Eichenberger, Emma, Wwe., Rain 884.\n— Emil, Kantonsstatistiker, Bahnhofstraße 658.\n— Urs Joseph, Taglöhner, Golattenmattgasse 230.\nNägelin, Arnold, Hôtelier (Wildenmann), ⇒ vordere Vorstadt 1262.\nNägeli, Jakob, Tapezierer, Rain 880.\n— Joh. Jakob, Schriftsetzer, Rain 880.\nNadig, Klara, Part., Zeughausstraße 1387.\nNadler geb. Häuptli, Anna, Witwe, Spezereihdlg., Bahnhofstr. 647.\nNiederhauser geb. Schenk, Marie, Spetterin, Halden 260 b.\n— Theodor, Buchbinderei-Chef, hinter dem Bahnhof 502.\nNiggli, Arnold, Fürsprech, Stadtschreiber, obere Vorstadt 948.\n— Elise, Weißnäherin, Kasinostraße 580.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6578,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2173,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:35:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p134",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p134.jpeg",
+      "bytes": 282450,
+      "sha256": "d34768c5d0192b269a40ab5fcf610e064993938b477b7cbc3d3d5c2555c9d92e",
+      "sha256_of": "original",
+      "working_copy": "1899_p134.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:35:42+00:00"
+  }
+}

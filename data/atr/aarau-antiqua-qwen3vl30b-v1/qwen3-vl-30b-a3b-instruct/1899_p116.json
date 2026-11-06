@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p116",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p116.jpeg",
+    "bytes": 281530,
+    "sha256": "e6ff4f5471417dc1bee37326e2bd6e64e7951e7449634f74c529e0509a1c1e5c",
+    "sha256_of": "original",
+    "working_copy": "1899_p116.jpeg"
+  },
+  "text": "12\nFlückiger, Gottfried, Pferdewärter, Stadthof 92 a.\n— Lina, Damenschneiderin, Halden 266.\n— geb. Wüthrich, Rosette, Witwe, Gemüsehändlerin, Pelzgasse (Färbergäbschen) 125.\nFörderer geb. Hinden, Anna, Witwe, Graben 221.\n— Geschwister, Anna, Elise und Pauline, Tapisserie- und Broderie-geschäft.  Graben 221.\n— Hermine, Klavierlehrerin, Graben 221.\nForderer, Alois, Zuschneider, hinter dem Bahnhof 1492.\n— Mathias, Part., hinter dem Bahnhof 1492.\nForstverwaltung.  Rathausgasse 176.\nForter geb. Märk, Maria, Metzgergasse 55.\nFrank, Rudolf, Postpacker, Milchgasse 79.\n— Samuel, Schreiner, Adelbändli 82.\nFrauen-Asyl, Rain 831.\nFrei, Arnold, Taglöhner, Laurenzenvorstadt 376.\n— Bernhard Friedrich, Handlanger, in der Gais 1509.\n— Eduard, Pfarrhelfer, Kirchgasse 6.\n— Elisabeth, Haushälterin, Bahnhofstraße 535.\n— Emil, Metzger und Wirt,  Zollrain 87.\n— Franz Karl, Postcommis, Bachstraße 1039.\n— Friedrich, Schreiner, Halden 272. Werkstätte v. d. Haldenth. 768.\n— Gottfried, Stadtpolizist, Bachstraße 1040.\n— Gottfried, Taglöhner, Halden 279.\n— Heinrich, Taglöhner, Halden 280.\n— Johann, Schneider, Metzgergasse 107.\n— Johann, Taglöhner, Halden 282.\n— Luise, Damenschneiderin, Metzgergasse 107.\n— Maria Magdalena, Ladendienerin, Pelzgasse 121.\n— Maria, Spetterin, vor dem Haldenthor 769.\n— Niklaus, Cementarbeiter, Halden 272.\n— Rudolf, Commis, Gais 487.\n— Ulrich Wilhelm, gew. Werkmeister, Pelzgasse 127.\nFreihofer, Jakob, Bildhauer, hintere Vorstadt 1236.\nFreimaurerloge z. Brudertreue,  hinter dem Bahnhof 502.\nFrey, Achilles, Coiffeur, Zeughausstraße 1310.\n— Adolf, Dr. med., Laurenzenvorstadt 428.\n— Albert, Uhrmacher, hintere Vorstadt 693.\n— August, Fabrikant, in der Telli 431.\n— & Cie., Chemische Fabrik,  Telli 431.\n— Eugen, Part., Bachstraße 1156.\n— geb. Frey, Mina, Stadtrats Witwe, Laurenzenvorstadt 422.\n— Franz Karl, Postcommis, Bachstraße 1039.\n— Friedrich, Sekretär und Musiklehrer, Rain 823.\n— Friedr., Sohn, Weinhändl., h. Vorstadt 693. Bureau ob. Vorstadt 980.\n— Jakob, Bankangestellter, Kasinostraße 1556.\n— Joseph, Notar, Civilstandsbeamter, Konradstraße 989.\n— Joseph, Schriftsetzer, in der Gais 1514.\n— Karl, Bäcker und Wirt, Rain 832.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6250,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2167,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 43.24,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:33:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p116",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p116.jpeg",
+      "bytes": 281530,
+      "sha256": "e6ff4f5471417dc1bee37326e2bd6e64e7951e7449634f74c529e0509a1c1e5c",
+      "sha256_of": "original",
+      "working_copy": "1899_p116.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:33:44+00:00"
+  }
+}

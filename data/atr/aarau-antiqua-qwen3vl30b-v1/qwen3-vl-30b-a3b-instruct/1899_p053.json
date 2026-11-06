@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p053",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p053.jpeg",
+    "bytes": 266114,
+    "sha256": "38310aa75b87a77c5177512d8a31c237a120dc2841f061143b39df0e7d9e4efb",
+    "sha256_of": "original",
+    "working_copy": "1899_p053.jpeg"
+  },
+  "text": "Haus-\nNr.\n548 * Derselbe. Wohnhaus.\nWinteler-Eckart, Jost., Dr. phil., Professor, von Kerenzen (Gl.).\nFrick, Friederika, Part., von Linda (Sachsen).\n1294 * Derselbe. Wohnhaus.\nUebelmann-Dubs, Anna, Witwe, Part., von Küttingen.\nDubs, Louise, Part., von Küttingen.\nKeller, Lina, Part., von Veltheim.\n1379 Hagenbuch-Haywood, Gottl., Kaufmann, v. Hettlingen (Zch).\nSteiner-Sennhauser, Samuel, Ökonom.\nDeppeler-Kauer, Friedrich, Prediger, von Degerfelden.\nSchlatter-Keller, Friedrich, Lokomotivführer, v. Signau (Bern).\nZimmermann-Hartmann, Johann, Lehrer, von Kempfhof.\nBenz-Frey, Joseph, Kondukteur N. O. B., von Neuenhof.\n549 † Derselbe. Scheune und Einfahrt.\n550 † \" Speicher mit Waschhaus.\n551 † \" Schopf und Schweinescheune.\n1265 † \" Waghäuschen.\n1554 Streit-Heller, Benedikt, Dr. med., prakt. Arzt , von Belp-\nberg (Bern).\nWeisshaupt-Landolt, Elisabeth, Witwe, v. Wollishofen (Zch.).\n552 * Feer-Herzog, Karls Erbschaft (alte Taubstummenanstalt).\nSchneider-Bruckner, Ferdinand, Bankangestellter.\nWelti-Spühler, Heinrich, Postpacker, von Zurzach.\nMeier-Matter, Jakob, Zimmermann, von Dintiken.\nWidmer-Rohner, Xaver, Kanzlist, von Schneisingen.\nElmer, Joseph, Lokomotivführer, von St. Gallen.\nHauenstein-Hollinger, Alois, Lehrer, von Degerfelden.\n\nBahnhofstrasse.\n1432 Einwohnergemeinde Aarau. Neues Kantonsschulgebäude.\nWehrli-Hassler, Friedrich, Pedell.\n1433 Dieselbe. Gewächs- und Treibhaus.\n553 Abgetragen. An dessen Platz\n1445 Staat Aargau. Kantoniales Gewerbemuseum.\nRuch-Schälkli, Alfred, von Mitlödi (Glarus). Abwart.\n554 * Derselbe. Gärtnerhaus.\n555 † \" Ökonomiegebäude mit Waschhaus.\n556 † \" Abgetragen.\n557 † \" Geflügelhaus.\n558 † \" Abgetragen.\n\nFeerstrasse.\n1337 Hunziker-Fleiner, Hermann , Privatier.\n1354 Derselbe. Wasch- und Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5248,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1748,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:27:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p053",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p053.jpeg",
+      "bytes": 266114,
+      "sha256": "38310aa75b87a77c5177512d8a31c237a120dc2841f061143b39df0e7d9e4efb",
+      "sha256_of": "original",
+      "working_copy": "1899_p053.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:27:46+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p079.jpeg",
+    "bytes": 272040,
+    "sha256": "c07029a90754567de14d900dc3f2aa0a579a6136ce6990767c2dfad368274384",
+    "sha256_of": "original",
+    "working_copy": "1899_p079.jpeg"
+  },
+  "text": "71\nHaug-\nNr.\nObere Vorstadt.\n909 Wernli-Meier, Jakob, Schreinermeister.\n910 † Derselbe. Werkstätte.\n911 Vogt-Kohler, Johann, Schuhmachermeister. Schuhhandlg.,\nGasthaus zur Herberge.\n912 Gautschi-Wiser, Mina, Witwe, Wirtin, [tel] von Reinach.\nSpeisewirthschaft.\n913 Soland-Höfel, Heinrich, Bäcker, v. Stüsslingen (Solothurn.).\nSpeisewirthschaft.\n914 * Derselbe. Wohnhaus mit Bäckerei.\n915 * \" Hinterhaus.\nAeschbach-Steiner, Rudolf, Steinhauer, von Hendschikon.\n916 Andres-Bircher, Friedrich, Hafnermeister. [tel]\nBircher, Fanny, Part.\nStierli-Andres, Elise, Buchdruckers Witwe.\n917 † Derselbe. Ofenmagazin und Geschirrhandlung.\n918 † \" Waschhaus.\n1437 † \" Holzschopf.\n919 * Hemmeler-Scheibler, Hafners Witwe.\n— Schmidt, Wilh., Hafnermeister. [tel] Geschirrhandlung.\nHeusser-Müller, Otto, Bremser, von Remetschwyl.\n920 † Dieselbe. Holzschopf.\n921 Hemmeler-Roth, Wilhelm, Kanzlist.\n— Julia, Lehrerin.\n— Wilhelm, Postcommis.\nMüller-Riniker, Elise, Staatsweibels Witwe, v. Biberstein.\nMüller, Elise, Glätterin, von Biberstein.\nHunziker-Stirnemann, Alf., Lagerhausarbeiter, von Moos-\nleerau.\nBlatner-Burgunder, Aug., Sekretär der Aarg. Ersparnis-\nkasse, von Küttigen.\n922 Siegrist-Lindemann, Johann, Schuhmacher, von Meister-\nschwenden. Spezereihandlung.\nBhend-Wernli, Johann, Schreiner, von Unterseen (Bern).\n923 Ernst-Käser, Friedrich, Röhrenfabrikant. [tel]\nFischer-Niggli, Lina, Witwe, Part., von Reinach.\nSiebenmann, Emmy, Klavierlehrerin.\n924 † Derselbe. Magazin.\n925 Siegrist-Ryniker, Heinrich, Metzgermeister.\nMeyer-Roth, Verena, Part., von Dintikon.\n— Ednard Erwin, Sekretär, von Dintikon.\nWetter & Cie. [tel] Magazin zum Globus. Haushalts-\nund Luxusartikel.\n926 Wernle-Trerier, Anna, Wirtin [tel], von Herznach, Speise-\nwirthschaft, (Bayerische Bierhalle).\nMarfurt-Hofer, Xaver, Coiffeur, von Langnau (Luzern).\n927 Widmer-Rychner, Rudolf, Bäckermeister, von Gränichen.\nPintenwirthschaft.\nWernli-Montprecht, Friedrich, Schreiner.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17680,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1932,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0192,
+    "mean_line_chars": 36.17,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:46:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p079.jpeg",
+      "bytes": 272040,
+      "sha256": "c07029a90754567de14d900dc3f2aa0a579a6136ce6990767c2dfad368274384",
+      "sha256_of": "original",
+      "working_copy": "1899_p079.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:46:51+00:00"
+  }
+}

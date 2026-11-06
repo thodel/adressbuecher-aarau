@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p126",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p126.jpeg",
+    "bytes": 278450,
+    "sha256": "db3820d7a3b9d43448f11b1fd474a51cc841eecb939932678b00adef9e333e04",
+    "sha256_of": "original",
+    "working_copy": "1899_p126.jpeg"
+  },
+  "text": "22\nHunziker, Hermann, Knecht, hintere Vorstadt 643.\n— Karl Adolf, Lithograph, Gais 1440.\n— geb. Müller, Maria Anna, Schuhmachers Witwe, Milchgasse 154.\n— Rudolf, Lehrer, Pelzgasse 126.\n— geb. Säuberli, Marie, Witwe, Taglöhnerin, hintere Vorstadt 694.\n— geb. Schürch, Maria, Witwe, Bahnhofstraße 1022 a.\n— geb. Thommen, Maria, Witwe, Gartenstraße 1448.\n— geb. Wieland, Elise, Witwe, vor dem Haldenthor 770.\n— geb. Wydler, Paulina, Part., Laurenzenvorstadt 364.\nHusi, Franz Joseph, Bahnangestellter, Tellirain 1335.\nJäcker, Joseph, Comestibleshändler, ≈ Laurenzentorgasse 119 a.\nJäger, Johann, Maurer, Bahnhofstraße 1022.\nJäggi, Agathokles, Gipser, Halden 271.\n— Hermann, Geschäftsführer (Baugeschäft M. Zschokke), Rohrerstraße 1513.\n— Wilhelmine, Seminar-Lehrerin, vor dem Haldenthor 804.\nJakob, Johann, Ökonom, Goldern 1001.\nJappert, Jul., Stadtpolizist, Scheibenschachen 1485.\n— geb. Lüscher, Marie, Witwe, Milchgasse 160.\nJeggli geb. Hässig, Emma, Witwe, Zollrain 88.\nJehle, Mathäus, Schreiner, Halden 279.\nJenny & Weigel (Adolf Jenny und Joh. Weigel), Färberei ≈, Telli 449.\n— Adolf, Kaufmann, Telli 449.\nJeck, Georg, Bauamtsarbeiter, Halden 282.\nImhof, Emil, Mechaniker, Milchgasse 150.\n— Emil, Part., Gartenstraße 999.\n— Ernst, Fabrikant, Bachstraße 1035.\n— Lina, Lehrerin, Kasinostraße 659.\n— Luise, Part., Laurenzenvorstadt 362.\n— Susette, Part., Kasinostraße 659.\n— geb. Schmid, Katharina, Witwe, obere Vorstadt 929.\nIndermauer, Jakob, Metzger, ≈ Kasinostraße 1176.\n— geb. Richner, Elise, Witwe, Spezereihandlung, Kasinostr. 1196.\nJörg, Jakob, Seilergehilfe, Golattenmattgasse 235.\n— Emma, Damenschneiderin, Rain 820.\n— Peter, Schuhmachermeister, Rain 820.\n— Samuel, Schreiner, Bachstraße 1032.\nJoho, Anna Maria, Part., hintere Vorstadt 622.\n— Samuel, Färber, Kirchhof 166.\nJost, Aug., Schneider, Scheibenschachen 1522.\nIsler, Alois Othmar, Kaufmann, Bahnhofstraße 1360.\n— Anton, Fabrikarbeiter, Halden 284.\n— Emil, Fürsprach u. Notar, Advokaturbureau, Laurenzenvorst. 413.\n— Walter, Dr. med., ≈ Bachstraße 1047.\nIsliker, Anna, Damenschneiderin, Ziegelrain 707.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6297,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2069,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:34:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p126",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p126.jpeg",
+      "bytes": 278450,
+      "sha256": "db3820d7a3b9d43448f11b1fd474a51cc841eecb939932678b00adef9e333e04",
+      "sha256_of": "original",
+      "working_copy": "1899_p126.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:34:49+00:00"
+  }
+}

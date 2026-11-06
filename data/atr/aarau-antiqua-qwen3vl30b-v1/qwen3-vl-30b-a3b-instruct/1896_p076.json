@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p076",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p076.jpeg",
+    "bytes": 266926,
+    "sha256": "8cb301764abc2ee0f78abe048d0fd02ab4256a0907e438589f9503c4ca19f034",
+    "sha256_of": "original",
+    "working_copy": "1896_p076.jpeg"
+  },
+  "text": "54\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n678 * Henz-Plüss, Jakob, Kaufmann.\nHenz-von Seuter, Hans, Kaufmann.\nFirma: Jakob Henz & Cie. Kolonialwarengeschäft.\n679 Abgetragen; an dessen Platz\n1169 Henz-Plüss, Jakob, Kaufmann.\nHenz-Märk, Julius, Kaufmann.\nFirma: Jb. Henz & Cie. Eisenhandlungsgeschäft.\n680 Schäfer-Denner, Cäsar, Messerschmied.\nMeier-Grossmann, Anna, Witwe, Part., von Rheinfelden.\nHässig-Hauenstein, Elisabeth, Witwe, Part.\n681 Müller-Schneebeli, Heinrich, Hôtelier, von Untersträß (Zürich).\nGasthof zum Löwen.\nFisch, Gottlieb, Kaufmann.\n682 Rothpletz-Marti, Friedrichs Erbschaft.\nRothpletz, Emil, Verwalter.\nWaldmeier geb. Rothpletz, Bertha, Witwe, Part., von Hellikon.\nSpychiger-Thomer, Friedrich, Dek.-Maler, von Ursenbach (Bern).\n683 Müller-Schneebeli, Heinrich, Gastwirt. Wohnhaus mit † Stallung\n† Waschhaus etc.\n\nHintere Vorstadt.\n684 * Einwohner-Gemeinde Aarau. Elektrische Lichtcentrale.\nVerwalter: Hassler-Schmidt, Friedr. (Bureau).\nBetriebschef: Zimmerli, Paul. (Bureau).\n685 † Dieselbe. Holzschopf.\n686 u. 687. † Henz-Plüss, Jakob, Kaufmann, Magazin.\n688 * Derselbe. Wohnhaus.\nPlüss, Anna, Damenschneiderin.\n689 Birmann, Adolf, Müller, von Basel. Mehlhandlung.\nBirmann-Baldenweg, Albert, Part., von Basel.\nWeber-Noe, Heinrich, Lithograph, von Reigoldswil (Baselland).\n690 * Gemeinde Aarau. Amthaus.\nBezirksamt und Staatsanwaltschaft.\nKantonaler Polizeiposten und Bezirksgefängnisse.\nRubli-Schwarz, Joh. Jakob, Gefangenwart, von Effingen.\n691 * Aktiengesellschaft Feldschlösschen in Rheinfelden. Bierdepot.\n692 * Dieselbe. Hintere Bierwirtschaft z. Affenkasten.\nGerber-Wüthrich, Emil, Wirt z. Affenkasten.\n693 Gerber-Seiler, Gustav, March.-Tailleur. Arbeiterkleidermagazin.\nRüetschi, Max, Kaufmann, Buchhalter.\nSenn-Gysi, Hans, Zeughausverwalter, von Zofingen.\nKull-Gerber, Adolf, Postangestellter, von Niederlenz.\nFigi-Hürlimann, Jakob, Schlosser, von Luchsingen (Glarus).\nGerman-Probst, Heinrich, Part., von Winterthur.\nFrey, Albert, [?], Uhrenbürer, von Densbüren. (Uhrenhandlung). Optiker.\n694 Siebenmann-Brunnhöfer, Otto, Schlosser, Part.\nMüller-Wassmer, Jakob, Oberaufseher (bei Bally, E.), v. Safenwyl.\n695 Abgetragen; an dessen Platz\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5808,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2192,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.15,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:06:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p076",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p076.jpeg",
+      "bytes": 266926,
+      "sha256": "8cb301764abc2ee0f78abe048d0fd02ab4256a0907e438589f9503c4ca19f034",
+      "sha256_of": "original",
+      "working_copy": "1896_p076.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:06:30+00:00"
+  }
+}

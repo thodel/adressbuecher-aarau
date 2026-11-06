@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p011",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p011.jpeg",
+    "bytes": 282303,
+    "sha256": "684b45cc77a95ce719d302ffbff17a269d69e6ffd36e61d6113701e203b558f3",
+    "sha256_of": "original",
+    "working_copy": "1899_p011.jpeg"
+  },
+  "text": "3\nHaus-\nNr.\nRathausgasse.\n16 Jung, Ludwig, Apotheker, von Großwangen (Luzern).\n  Baumann-Jucker, Emil, Kaufmann, von Uetikon (Zürich).\n17 Faller-Unwin, Friedrich, Kaufmann, von Brünlingen (Großh.\n  Baden). Eisenwarenhandlung.\n18 Simmen-Bill, Emil, Bäcker, von Schinznach, Pintenwirtschaft.\n  Marti-Keller, Oskar, Commis, von Wengi (Bern).\n  Wandfluh-Sommer, Johann, Schuhmacher, von Frutigen (Bern).\n  Zanger-Haller, Johann, Taglöhner, von Brunnenthal (Soloth.).\n19 Dürr, Geschwister, Heinrich und Johanna.\n  — Heinrich, Pfarrer, Privat.\n  — Karl August, Sohn, Part.\n  — Johanna, Part.\n  Meisel-Leutwyler, Xaver, Forstverwalter.\n  — — Verena, Weißwarenhaltung.\n20 Wüthrich-Dambach, Jakob, Zuckerbäcker [tel], von Eggiwil (Bern).\n  Kaffeewirtschaft.\n  — — Joh. Jakob, Angestellter im Elektrizitätswerk, von Eggen-\n  wil (Bern).\n  Seilaz-Brunner, Abraham, von Bas-Vuilly (Freiburg), Coiffeur.\n  Kress-Andersen, Karl, Architekt, von Wigoltingen (Thurgau).\n21 Hemmeler-Stahl, Jakob, Uhrenmacher.\n  — — Ida, Haushaltsartikel-, Quincaillierie- und Kinder-\n  spielwarenhandlung.\n  Häsle-Rümmeli, Emil, Maler, von Haagen (Großh. Baden).\n22 Erdin-Obrecht, Albin, Kaufmann, von Gansingen, Mercerie-,\n  Quincaillierie-, Lingerie-, Passementerie- u. Bonneterie-Waren-\n  handlung.\n  Sprenger-Thöni, Wilhelm, Schreinermeister, von Rheinfelden.\n  Rüetschi-Reinert, Karl, Coiffeurgeschäft.\n23 Wyssler, Konrad, Apotheker. [tel]\n  Frey-Kieser, Joseph, Notar, Civilstandsbeamter, Stellvertreter\n  des Gemeindeschreibers.\n  Hemmeler-Stahl, Jakob, Uhrenmacher. Uhrenhandlung.\n24 Limacher, Nikl., Schuhmacherstr., von Schüpfheim (Luz.)\n  Ganser, Johann, Schneider, von Landshut (Bayern).\n25 Käser-Bircher, Jakob Friedrich, Buchbinder, von Oberflachs,\n  Pintenwirtschaft.\n  Weickgenannt geb. Käser, Verena, von Meingoldsheim (Großh.\n  Baden).\n  Wernli-Glauser, Rudolf, Cementmüller, von Thalheim.\n26 Stephani-Winkler, Margaritha, Kaufmanns Witwe, Kolonial-\n  waren-, Tabak- und Cigarrenhandlung.\n  Keller-Bailly, Alois, Postkommis, von Sarmentstorf.\n  Mühlemann, Emil, Bautechniker, von Burgdorf (Bern).\n27 † Stephani-Winkler, Margaritha, Kaufmanns Witwe. Magazin.\n  Hess-Wolf, Alexander. Firma Gebrüder Hess, Möbelhandlung.\n28 † Stephani-Winkler, Margaritha. Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 52212,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2247,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.75,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:33:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p011",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p011.jpeg",
+      "bytes": 282303,
+      "sha256": "684b45cc77a95ce719d302ffbff17a269d69e6ffd36e61d6113701e203b558f3",
+      "sha256_of": "original",
+      "working_copy": "1899_p011.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:33:56+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p154",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p154.jpeg",
+    "bytes": 243205,
+    "sha256": "390fcb955efe9ea9b56eede7987f4e76ba96f5f5b99838f9ad0113761e60db45",
+    "sha256_of": "original",
+    "working_copy": "1899_p154.jpeg"
+  },
+  "text": "Die\nGeschäfts- und Gewerbetreibenden\nin alphabetischer Folge der Berufsklassen.\n\n* = Im Handelsregister eingetragen.\n\nAdvokaten.\n(Siehe Fürsprecher.)\n\nÄrzte.\nBircher, Heinrich, Dr. med., Oberarzt der chirurg. Abteilung an\nder kant. Krankenanstalt, Nr. 1186. Sprechstunden 10—11 Uhr\nvormittags; Sonntag ausgenommen.\nFrey, Konrad, Dr. med., Laurenzenvorstadt 356.\nIsler, Walter, Dr. med., Bachstraße 1047.\nKalt, Alfred, Oberarzt der medizinischen Abteilung und der Ge-\nbäranstalt an der kant. Krankenanstalt, No. 1186. Sprech-\nstunden 1½—2½ Uhr nachmittags, Sonntag ausgenommen.\nLang, Franz Theodor, Augenarzt, Graben 615.\nScheidegger, Edwin Ernst, Dr. med., Bahnhofstraße 1317.\nSchenker, Gottlieb, Dr. med., Bahnhofstraße 1289.\nSchmuziger, Friedrich, Dr. med., Entfelderstraße 972.\nStreit, Benedikt, Dr. med., Laurenzenvorstadt 1554.\nWeber, Gustav, Bezirksarzt, Schloßplatz 1389.\nZürcher, Alfred, Adjunkt des Bezirksarztes, Laurenzenvorstadt 397.\n(Sämtliche Ärzte [mit Ausnahme der Spitalärzte] haben ihre Sprechstunden\nvormittags von 8—9 Uhr und nachmittags von 1—2 Uhr.)\n\nAgenturen.\nDolder, J.,* Bahnhofstraße 1447.\nAargauische Hauptagentur der Helvetia in St. Gallen, Feuer- und Trans-\nportversicherung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3739,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1205,
+    "lines": 28,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.93,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:37:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p154",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p154.jpeg",
+      "bytes": 243205,
+      "sha256": "390fcb955efe9ea9b56eede7987f4e76ba96f5f5b99838f9ad0113761e60db45",
+      "sha256_of": "original",
+      "working_copy": "1899_p154.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:37:49+00:00"
+  }
+}

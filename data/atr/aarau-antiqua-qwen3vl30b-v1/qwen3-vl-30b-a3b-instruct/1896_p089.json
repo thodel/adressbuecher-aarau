@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p089",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p089.jpeg",
+    "bytes": 262401,
+    "sha256": "30db2b218ed9097d96a737c934ed10e2987339c8da76eb06bd54849d912f7a0d",
+    "sha256_of": "original",
+    "working_copy": "1896_p089.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n67\nHaus-\nNr.\n884 Bopp-Häusler, Kaspar, Pfälsterer.\nFrey-Hofer, Jakob, Lokomotivheizer, von Auenstein.\nBaumann-Leutwiler, Joh. Bauamtsarbeiter, von Bottenwil.\n885 Rusterholz und *Freihofer, Bildhauerei und Grabsteinlager.\nRusterholz-Schäppi, Albert, Bildhauer, von Wädensweil (Zürich).\nRebmann-Häfliger, Karl Jak., Maler, von Fellbach (Württemberg).\nWidmer-Felber, Joh., Fabrikarbeiter, von Gränichen.\nWidmer-Felber, Anna, Weissnäherin, von Gränichen.\nAlbiez-Stiner, Gustav, Apreteur, von Säckingen (Baden).\n886 † Dieselben. Magazin.\n887 † \" Bildhauerei-Atelier.\n888 Berner-Marti, Jakob, Schreinermeister, von Rupperswyl.\nLäuchli-Coradi, Hans, Buchhalter (Zurlinden & Cie.), v. Remigen.\n\nVordere Vorstadt.\n889 Saxer, Ludwig, Part.\nSaxer, Lisa, Part.\nDreifuss-Bloch, Karl, Kaufmann, von Endingen. Manufakturwaren-\nhandlung.\nWildi-König, Rudolf, von Suhr. General-Agent der Basler Lebens-\nversicherungsgesellschaft.\n890 Ackermann-Buser, Albert, Kaufmann, von Amrisweil (Thurgau).\nHerren- und Knabenkleider-Magazin.\nHungerbühler-Hochreutiner, Hugo, Oberst, Kreisinstruktor, von\nSt. Gallen.\n891 * Derselbe.\nLehmann-Oehlhafen, Jenny, Witwe, von Zofingen. Mercerie- und\nManufakturwaren-Handlung.\n892 Dolder, Susette, von Hauptweil (Thurgau). Mercerie-, Bonneterie-\nund Modewarenhandlung.\nFisch, Lina, Metzgers, Part.\n893 ↭ Sernatinger-Enz, Valerian, von Ludwigshafen (Baden). Hut-\nMützen- und Pelzwarengeschäft. Kautschukartikel und Filzwaren.\nScherrer-Gansoser, Friedr., Lithograph, von Kriens (Luzern).\n894 Keusch-Diebold, Jos. Karl, Apotheker, von Boswil.\nBrütel, Konstanze, Part.\nHauri-Christen, Marie, Witwe, Part., von Hirschthal.\n1288 † Derselbe. Schopf.\n895 ↭ Gysi & Cie. (Otto Gysi-Siebenmann und Hans Gysi-Ryniker),\nmechanisches und optisches Geschäft, Photographieanstalt.\nGysi-Siebenmann, Otto, Photograph.\nGysi, Otto, Sohn, Photograph.\n896 † Dieselben. Photographisches Atelier.\n897 † Dieselben. Holzschopf.\n898 Brunner-Abderhalden, Friedrich, Messerschmied, von Brunnadern.\n(St. Gallen). Messerschmiedwarenhandlung.\n899 † Derselbe. Werkstätte.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5612,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2105,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:07:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p089",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p089.jpeg",
+      "bytes": 262401,
+      "sha256": "30db2b218ed9097d96a737c934ed10e2987339c8da76eb06bd54849d912f7a0d",
+      "sha256_of": "original",
+      "working_copy": "1896_p089.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:47+00:00"
+  }
+}

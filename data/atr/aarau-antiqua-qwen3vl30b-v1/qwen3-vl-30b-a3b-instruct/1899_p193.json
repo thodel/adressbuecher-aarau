@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p193",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p193.jpeg",
+    "bytes": 261201,
+    "sha256": "d9b49714e431c470fb748823db5ff660ed7d6014c4f28eba1cbd32ecfe206cba",
+    "sha256_of": "original",
+    "working_copy": "1899_p193.jpeg"
+  },
+  "text": "89\nWagner.\nBertschi, Adolf, Bahnhofstraße 649.\nLaury, Jakob, vor dem Haldenthor 755.\nWassmer, Jakob, Rain 877.\n\nWäschерinnen.\nBalmer, Marie und Karolina, Laurenzenthorgasse 117.\nBertschi-Wächter, Maria, Rathausgasse 47.\nBruder, Verena, Golattenmattgasse 237 b.\nBruns-Gattiker, Dorothea, Schmiedgasse 625.\nDietiker, Emma, Adelbändli 170.\nFlach, Anna, obere Vorstadt 930.\nHaller-Attiger, Marie, Milchgasse 145.\nKäser-Leder, Nanette, Entfelderstraße 1285.\nLienhard-Baumann, Emilie, Halden 285.\nMatter-Thommann, Maria, Witwe, Adelbändli 170.\nOeschger, Klara, Milchgasse 152.\nPeyer-Roos, Wilhelmine, Kirchhof 166.\nSchatzmann-Häring, Elisabeth, (Wollwascherei), vor dem Halden-\nthor 1299.\nSiegenthaler-Hirt, Elise, Hammer 189.\nSiegrist-Hauri, Anna, Milchgasse 154.\nSuter, Elise, Ziegelrain 711.\nZellweger, Elise, Milchgasse 153.\n\nWaschanstalten.\nTrefzger, Gustav, Färbergäbschen 213.\n\nWasserwagenfabrikation.\nKlingelfuß, Joh. Friedr., * Mechaniker, im Weinberg 321.\n\nWeinhandlungen.\nBaumann, Gebr., * Laurenzenvorstadt 390.\nBrügger-Sommerhalder, Christian, hinter dem Bahnhof 497. (Vor-\nzügliche Veltliner- u. Neuenburger-Weine. Prima Referenzen.)\nFecht, Julius, * vor dem Haldenthor 758.\nGerodetti, Virgilius, hinter dem Bahnhof.\nHeuberger, Jakob, Küttigerstraße.\nKeller, Karl, Rain 878.\nThut, Gottlieb, * Bachstraße 1124.\nVidialla & Frev. * obere Vorstadt 930. (Siehe Inserat S. 3.)\nWeber-Lüscher, Otto, * Pelzgasse 128.\nWüthrich-Lüdi, * Laurenzenthorgasse 117.\n\nWeissnäherinnen.\nBaumann-Frei, Anna, Ziegelrain 752.\nBeck, Karolina, Adelbändli 174.\nBlattner, Maria, vor dem Haldenthor 760.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4524,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1584,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.91,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:42:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p193",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p193.jpeg",
+      "bytes": 261201,
+      "sha256": "d9b49714e431c470fb748823db5ff660ed7d6014c4f28eba1cbd32ecfe206cba",
+      "sha256_of": "original",
+      "working_copy": "1899_p193.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:42:46+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p006",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p006.jpeg",
+    "bytes": 233743,
+    "sha256": "cdd88d8869b50a4a60975d75208937de31667ff862b77fc1d0a34232f3793616",
+    "sha256_of": "original",
+    "working_copy": "1899_p006.jpeg"
+  },
+  "text": "Vorwort.\n\nVorliegendes „Adreßbuch für die Stadt Aarau\" ist\n  ein Auszug aus dem Kantonal-Adreßbuch, dem als Bei-\n  gabe zur Vervollständigung noch ein Verzeichnis der Ge-\n  bäude der Stadt Aarau mit ihren Eigentümern und Be-\n  wochnern vorangesezt wurde.\n  Dieses Adreßbuch tritt als IX. Ausgabe an Stelle des\n  früher von Herrn G. Vogel, Polizeilieutenant, in Aarau\n  herausgegebenen Aarauer Adreßbuches und besitzt, dank\n  der gewissenhaften Bearbeitung durch Herrn Vogel neben\n  einer großen Zuverlässigkeit die gleiche frühere Inhalts-\n  einteilung.\n  Es wird also auch in seinem neuen Gewande den\n  tit. Interessenten gleichwohl ein alter Bekannter sein.\n  Bern, Ende 1898.\n                                          Die Verleger.\n\nBerichtigung.\n\n  Auf Seite 69, Gebäudeverzeichnis:\n  Zwischen Hausnummer 888 und 889 soll es heißen\n  Vordere Vorstadt.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 25525,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 855,
+    "lines": 20,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0035,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:29:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p006",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p006.jpeg",
+      "bytes": 233743,
+      "sha256": "cdd88d8869b50a4a60975d75208937de31667ff862b77fc1d0a34232f3793616",
+      "sha256_of": "original",
+      "working_copy": "1899_p006.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:29:57+00:00"
+  }
+}

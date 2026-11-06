@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p049",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p049.jpeg",
+    "bytes": 265718,
+    "sha256": "d87eef7d7922bba04d0ec5a1e814adc77badb7533737e7c8a6e98c47e6f5440c",
+    "sha256_of": "original",
+    "working_copy": "1896_p049.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n27\nHaus-\nNr.\nJenseits der Aare.\n294 Schmuziger-Kern, Ida, Baumeisters Witwe, Part.\nRingier-Schwarz, Karl Arnold, Reg.-Rat, von Zofingen.\nDr. Tuchschmid-Wildi, August, Professor, von Thundorf (Thurg.)\nRektor der Kantonsschule.\nPedolin, Peter Albert, Arzt, von Chur (Graubünden).\n295 * Dieselbe.\n  Schmuziger-Hünerwadel, Johann, Baumeister.\n296 † Dieselbe. Waschhaus.\n1393 † Schmuziger-Hünerwadel, Johann, Baumeister (Holzschuppen).\n1394 Heuberger-Fischer, Jakob, Sekretär der Finanzdirektion.\nBläuer, Jakob, Kanzlist, von Linn.\n1395 * Bircher-Burger, Emil, Postcommis.\nDr. Widmann-Grüssi, Max, von Augst, (Baselland). Redaktor der\n„Aargauer Nachrichten“.\n297 a  Siebenmann-Hagnauer, Friedrich, Bierbrauer, Stadtrat.\nRychner-Grötzinger, Joh. Heinrich, Kaufmann.\n297 b† Derselbe. Wasch- und Holzhaus.\n298 a An dessen Platz\n1303 a  Maurer-Peter, Emil, Wirt und Negociant, zum Kreuz, Salzbütte\nu. Spritverkauf. Ausschank v. einheimischem u. fremdem Bier, Dépôt\nfür Flaschenbiere, Handel in Kolonialwaren. Eigene Kaffeerösterei.\nSteiger, Albert, Ausläufer, von Bleienbach (Bern).\n298 b An dessen Platz\n1303 b * Derselbe. Magazin.\nGysi-Ammann, Traugott, Lehrer.\nMeier-Zobrist, Jakob, Part., von Othmarsingen.\n298 c An dessen Platz\n1303 c † Derselbe. Kegelbahn.\n299 a Andres-Schmid, Jakob, Schreinermeister.\n1227 † Derselbe. Holzschopf.\n299 b Andres, Gottlieb, Fondsverwalter.\nMöller-Andres, August, Buchsenmacher, v. Zella (Grossh. Baden).\n1228 † Derselbe. Holzschopf.\n300 Blattner-Jäger, Dr. jur., Otto, Fürsprech und Notar; Advokatur-\nbureau: Obere Vorstadt 948.\nBlattner, Anna, Lehrerin.\n301 † Derselbe. Holzschopf.\n302 a Bircher-Sasson, Andreas, Kaufmann, von Küttigen und Kairo.\nBircher, Andreas, Part., von Küttigen.\nHeuberger-Weigand, Jakob, Fürsprech, Oberrichter, von Bötzen.\n 302 b† Derselbe. Scheune.\n302 c† Derselbe. Hintergebäude.\n303 * Stähelin-Herzog, Alfred, Dr. med., von Basel.\n  Stähelin-Herzog, Alfred, Dr. med., Rentier, von Basel. Villa\nzum Kirschgarten.\n1086 304 † Derselbe. Scheune und Remise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6114,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2054,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:03:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p049",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p049.jpeg",
+      "bytes": 265718,
+      "sha256": "d87eef7d7922bba04d0ec5a1e814adc77badb7533737e7c8a6e98c47e6f5440c",
+      "sha256_of": "original",
+      "working_copy": "1896_p049.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:58+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p110",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p110.jpeg",
+    "bytes": 258916,
+    "sha256": "bee880fdb9d77cc63401a0ba82b9ec547a1bf8ca108a3d29cf1e3497b0c493d8",
+    "sha256_of": "original",
+    "working_copy": "1896_p110.jpeg"
+  },
+  "text": "88                    Nach der Nummerierung gebaute Häuser.\nHaus-\nNr.\n1438  Gerber-Walther, Hans, Hôtelier.  Gasthof.  (Bahnhofstraße.)\n1439  Wehrli-Märk, Emil, Architect.  Wohnhaus.  „Zur Erika“ .  (Herzogstraße.)\n1440  Furter, A., Kondukteur.  Wohnhaus.  (Bucherstraße.)\n1441  † Fleiner & Cie.  Scheune und Remise.  (Erlinsbacherstraße.)\n1442  † Schützengesellschaft Aarau.  Revolverschiebenstand.  (Scheibensachen.)\n1443  Gamper, Herrn.  Wohnhaus.  (Feerstraße.)\n1444  Rohr-Baumann, Hans, Oberrichter.  Wohnhaus.  (Feerstraße.)\n1445  * Staat Aargau.  Gewerbemuseum.  (Bahnhofstraße.)\n1446  † Dürri, Herm., Maler.  Holzschnopf.  (Kasinoplatz.)\n1447  Dolder-Saxer, J., Kaufmann.  Wohnhaus.  (Bahnhofstraße.)\n1448  Hunziker-Thommen, Witwe.  Wohnhaus.  (Gartenstraße.)\n1449  † Sieglist-Riniker, H., Metzger.  Scheune.  (Zelgli.)\n1450  † Zschokke, O., Baugeschäft.  Holzmagazin,  Dampfmaschine.  (Rohrerstraße.)\n1451  † Müller-Suter, Jakob, Lithographiebesitzer.  Waschhaus.  (Bucherstraße.)\n1452  * Schäfer, Adolf, Architect.  Waschhaus.  (Zeughausstraße.)\n1453  † Ernst-Käser, Friedr., Röhren- und Falzziegebfabrik.  (In der Gais.)\n1454  Ammann, Robert, Hochbaumeister.  Wohnhaus.  (Feerstraße.)\n1455  * Derselbe.  Mittelhaus.  (Feerstraße.)\n1456  *     „       Wohnhaus.\n1457  Riniker, Arnold.  Chaletbaute.  (Binsenhof.)\n1458  Bächli, Jakob, Ingenieur.  Wohnhaus.  (Bachstraße.)\n1459  † Dolder-Saxer, Jakob, Kaufmann.  Wasch- und Holzhaus.  (Bahnhofstraße.)\n1460  Vondäniken, Emil, Commis.  Wohnhaus.  (Erlinsbacherstraße.)\n1461  † Roth, Joh., Aufseher.  Kellergebäude mit Waschhaus.  (Erlinsbacherstraße.)\n1462  † Gamper-Baumann, Emil, Gewächshaus.  (Küttigerstraße.)\n1463  † Richner & Rothpletz, Röhrenfabrikanten.  Magazingeb.  (Bahnhofstraße.)\n1464  † Walther-Schatzmann, Gottlieb.  Heuschuppen.  (Waltersburg.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 93785,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1817,
+    "lines": 30,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 59.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T16:03:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p110",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p110.jpeg",
+      "bytes": 258916,
+      "sha256": "bee880fdb9d77cc63401a0ba82b9ec547a1bf8ca108a3d29cf1e3497b0c493d8",
+      "sha256_of": "original",
+      "working_copy": "1896_p110.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T16:03:18+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p128",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p128.jpeg",
+    "bytes": 292060,
+    "sha256": "9ee842c44f03a2f398f663d7711fffd13b30f3e3257fc92e12c5e307934d7f8a",
+    "sha256_of": "original",
+    "working_copy": "1899_p128.jpeg"
+  },
+  "text": "24\nKeller, Lina, Part., Wollwarenhandlung, Rathausgasse 5.\n— Lisette, Privat., Zollrain 51.\n— Maria, Glätterin, Rain 1185.\n— Olga, Wirtin zum „Neuen Bund“, Rain 822.\n— Paul, Zuckerbäcker, Kafferwirtschaft, Zollrain 292.\n— geb. Siebenmann, Auguste, Uhrenmachers Wwe., Entfelderstr. 1511.\n— Wilhelm, Pferdewärter, Halden 286.\nKern & Cie., (Heinrich Kern und Emil Kern, Fabrikation mathematischer Instrumente), ≡ Ziegelrain 747.\n— Emil, Fabrikant, ≡ Bahnhofstraße 559.\n— Hrch., Fabrikant, ≡ Herzogstraße 1366.\nKessler, Johann, Verwalter der „Aarg. Nachrichten,“ h. Vorstadt 622.\nKettiger, Arnold, Kaufmann, Feerstraße 1456.\nKeusch, Jos. Karl, Apotheker, vordere Vorstadt 894.\nKiburz, Gotthold, Sattler und Tapezierer, Entfelderstraße 968.\n— geb. Wüthrich, Barbara, Wäscherin, Laurenzenthorgasse 1572.\nKielholz, Franz, Bahnangestellter, vor dem Haldenthor 1519.\n— Gottlieb, Postbeamter, hinter dem Bahnhof 501.\n— Luise, Part., Schachen 732.\nKiener geb. Tschopp, Margaretha, Näherin, Bahnhofstraße 1173.\nKieser, Robert, Bankbeamter, hinter dem Bahnhof 503.\n— Samuel, Postkassier, Graben 209.\n— Wilh., Kaufmann, Zollrain 87.\nKirchhofer, Marie, Modistin, Kasinostraße 659.\n— geb. Obrist, Maria, Witwe, Kasinostraße 659.\nKirchner geb. Vonwiller, Ida, Mod., Modewarengeschäft, Graben 1161.\nKist, Emil, Obermüller, Stadthof 92 b.\nKistler, Emil, Taglöhner, Milchgasse 148.\n— Jb., Steuerpräsident, Ziegelrain 753.\nKleeß, Jos. Anton, Taglöhner, Kirchgasse 10 a.\nKlein, Jean, Samenhandlung, ≡ Kronengasse 34.\nKleiner, Gottlieb, Gasfabrikarbeiter, Scheibenschachen 1465.\nKlingelfuss, Emil, Mechaniker, Erlinsbacherstraße 1530.\n— Johann Friedrich, Mechaniker und Eichmeister, Weinberg 321 c.\n— -Graf, Ottilie, Witwe, Zeughausstraße 1452.\nKloter, Edmund, Packer, Rathausgasse 5.\nKnecht geb. Vögeli, Barbara, Fabrikarbeiterin, Halden 264.\nKnechtli, Gottfried, Buchhalter, Laurenzenvorstadt 602.\nKöhler, G. A., Lithograph, Pelzgasse 128.\nKönig geb. Steininger, Anna, Küfers Witwe, hintere Vorstadt 688.\nKohlmann geb. Läuchli, Verena, Lithographie und Steindruckereigeschäft, Kirchhof 164.\nKoller geb. Kohler, Elisabeth, Spetterin, Metzgergasse 60.\nKrähenbühl, Luise, Näherin, Halden 264.\nKraft geb. Gautschi, Auguste Friedrike, Witwe, Part., Milchgasse 158.\n— Hermann, Steindrucker, Weinberg 324.\n— geb. Kaspar, Maria, Witwe, Bachstraße 1039.\nKramer, Jakob, Knecht, Telli 440.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7053,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2357,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.17,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:35:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p128",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p128.jpeg",
+      "bytes": 292060,
+      "sha256": "9ee842c44f03a2f398f663d7711fffd13b30f3e3257fc92e12c5e307934d7f8a",
+      "sha256_of": "original",
+      "working_copy": "1899_p128.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:35:02+00:00"
+  }
+}

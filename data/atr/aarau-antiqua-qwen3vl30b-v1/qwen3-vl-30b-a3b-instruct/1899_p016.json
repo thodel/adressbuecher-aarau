@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p016",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p016.jpeg",
+    "bytes": 275525,
+    "sha256": "babb4d6c13568fac933490c4977bdf408baa50affda40b6c3c40cf9a8c2afe81",
+    "sha256_of": "original",
+    "working_copy": "1899_p016.jpeg"
+  },
+  "text": "8\nHaus-\nNr.\n80 Kirchhof.\nSchlatter-Bühler, Maria, Marbriers Witwe.\nKäser-Häfliger, Heinrich, Fabrikarbeiter, von Biberstein.\nSchröder-Kern, Theodor, Schuhmacher, v. Heintrog (Preußen).\nAdelbändli.\n81 Ott-Wenger, Friedrich, Buchhalter, von Ryken.\n— — Maria, Witwe, Milch-, Butter-, Käs- und Spezereihand-\nlung, Salzverkauf.\nRüetschi, Gottfried, alt Obergerichtsweibel.\nOtt, Anna, Zettlermeisterin, von Ryken.\n82 * Morath, Johann, Kaufmann.\nFrank-Roland, Samuel, Schreiner.\nWeingärtner-Spiegelberg, Zacharias, Schneider, von Oetigheim\n(Baden).\nWehrli-Fassler, Elisabeth, Spetterin, von Biberstein.\n83 * Scheibler-Suter, Alfred, Tapezierer, von Unterentfelden.\nZimmerli, Joh., Holzer, von Unterentfelden.\nMärki-Vogt, Jakob, Buchbinder, von Rüfenach.\n84 Läuchli-Hosli, Jakob, Stadtpolizist, von Remigen.\nBrack-Leuzinger, Margaritha, Buchdruckers, von Mönthal.\n85 a * Bär-Frei, Sattlers Witwe. Erbschaft.\nSchenk-Habegger, Johann, Schuhmacher, Langnau, Bern.\nBertschi-Holzreuter, Rudolf, Holzer, von Dürrenäsch.\n— Emil, Sohn, Holzer, von Dürrenäsch.\n85 b Keller-Sommerhalder, Erwin, Giessereiarbeiter, von Maisprach.\n86 a Schmuziger-Zulauf, Marie, Part.\nGehrig-Innertkirchen, Karl, Gärtner, von Ammerswyl (Aarg.).\n86 b Dieselbe.\nSommerhalder-Huggenberger, Gottlieb, Taglöhner, v. Schloßrued.\nZollrain.\n87 Kieser-Kilchmann, Wilhelm, Kaufmann. (Speisewirtschaft.)\nFrei-Hauri, Emil, Metzger und Speisewirt , von Densbüren.\nWehrli-Bolliger, Karl, Gasmester, von Küttigen.\n88 Jeggli-Hässig, Emma, Bäckers Witwe.\nSeiler-Leder, Oskar, Bäcker.\nHörner-Grill, Max, Reisender, von Alfenz (Rheinpfalz).\nFassler-Furter, Friedrich Georg, Gipser, Densbüren.\n— Anna, Weißnäherin, von Densbüren.\nStrebel, Martina, Spetterin, von Mägenwyl.\n— Verena, Spetterin, von Mägenwyl.\n— Waldburga, Näherin, von Mägenwyl.\n89 Wirth-Herzog, Jakob, Part. \nWirth-Voser, Franz, Sohn, Kaufmann. Lebens- und Unfall-\nversicherung. Auswanderung.\nRüegg-Wirth, Fanny, Witwe, Part., von Bauma, Zürich.\nFröhlich geb. Fröhlich, Sophie, Oberrichters Wwe., v. Brugg.\n— Elise, Part., von Brugg.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5742,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2053,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:24:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p016",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p016.jpeg",
+      "bytes": 275525,
+      "sha256": "babb4d6c13568fac933490c4977bdf408baa50affda40b6c3c40cf9a8c2afe81",
+      "sha256_of": "original",
+      "working_copy": "1899_p016.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:24:27+00:00"
+  }
+}

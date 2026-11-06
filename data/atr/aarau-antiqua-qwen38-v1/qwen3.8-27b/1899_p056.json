@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p056",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p056.jpeg",
+    "bytes": 271727,
+    "sha256": "bd95f4065f6ceeb112c15e0d4f57a17285aebf18a7c68bce8b18023063d5c00c",
+    "sha256_of": "original",
+    "working_copy": "1899_p056.jpeg"
+  },
+  "text": "48\nHaus-\nNr.\nStalder-Messerli, Friedrich, von Lüzelflüh (Bern).\n— —, Maria, Wirtin, von Lüzelflüh (Bern). Speisewirt-\nschaft zum „National“.\n571 * Suter-Lüscher, Rudolf, Uhrenmacher, von Kölliken.\nStirnmann-Stärk, Joh. Rud., Steindrucker, v. Gränichen.\nImhof-Schmid, Katharina, Witwe, Part.\n572 † Derselbe.\nWidmer-Hunziker, Samuel, Schreinerwerkstätte.\n1391 * Derselbe.\nRenold-Geissmann, Katharina, Part.\nWidmer-Hunziker, Samuel, Schreinermeister, v. Brittnau.\n1556 Suter-Lüscher, Rudolf, Uhrenmacher, v. Kölliken. Uhren-\nhandlung.\nDiethelm-Kalanquin, Reinhardt, Zugführer, v. Heffenhofen\n(Thurgau).\nFrey-Hässig, Jakob, Bankangestellter.\nHässig-Baumann, Margarita, Malers Witwe.\n573 Widmer-Reimann, Franz J., Musiklehrer. Musikalienhdlg.\n—, Emma, Klavierlehrerin.\n574 * Baumann-Baumann, Ida, Witwe, von Stilli.\nRandegger-Wirt, Josephine, Witwe, von Ossingen, Zürich.\nWirtschaft z. „Schwyzerhüsli“.\n575 † Dieselbe. Holzschiephof.\n576 Lechner-Wirth, Franz Jos., March-Tailleur, von Wien.\nSpitzli-Fricker, Joh. Jak., Kaufmann, v. Oberuzzwyl (St. G.).\nLindenmann-Wey, Marie, Witwe, von Fahrwangen.\n—, Ida, Telegraphistin, von Fahrwangen.\n—, Emma, Lehrerin, von Fahrwangen.\nGladbach-Renold, Philipp, Professor, v. Oppenheim (Hessen).\n577 Decker-Hoffmann, Julius, Huf- und Wagenschmied.\n—, Elise, Part.\nSchmuziger-Gutjahr, Anna Maria, Witwe, Part.\n578 Hassler-Schmid, Hans, Kaufmann.\nFirma: Hans Hassler & Cie., Teppichlager. Vertretung\nund Fabriklager in Engl. Linoleum.\n579 † Derselbe. Remise.\n1422 † Waschhaus.\n1347 † Hassler, Emil, Dr. med. Gartenhaus.\n1348 † Derselbe. Schopp mit Magazin.\n1349 † Treibhaus.\n580 Keller, Katharina, Fuhrhaltereigeschäft.\nNiggli, Elise, Weißnäherin, von Aarburg.\n581 † Dieselbe. Scheune und Remise.\n582 † Remise.\n583 † Remise mit Schweinescheune.\n584 Einwohnergemeinde Aarau. Naturhistorisches Museum.\nSiebenmann-Schaffner, Otto, Abwart.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 23551,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1866,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:22:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p056",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p056.jpeg",
+      "bytes": 271727,
+      "sha256": "bd95f4065f6ceeb112c15e0d4f57a17285aebf18a7c68bce8b18023063d5c00c",
+      "sha256_of": "original",
+      "working_copy": "1899_p056.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:22:13+00:00"
+  }
+}

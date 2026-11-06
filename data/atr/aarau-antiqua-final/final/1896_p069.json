@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p069",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p069.jpeg",
+    "bytes": 242911,
+    "sha256": "e707c4018e47ad6eef233d387c3aa230c786a78d18f1a6b521b4f9135329340a",
+    "sha256_of": "original",
+    "working_copy": "1896_p069.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n578 Hassler-Schmid, Hans, Kaufmann.\nFirma: Hans Hassler & Cie., Teppichlager. Vertretung und\nFabriklager in Engl. Linoleum.\n579 † Derselbe. Remise.\n1422 † Derselbe. Waschhaus.\n1347 † Hassler, Emil, Dr. med. Gartenhaus.\n1348 † Derselbe. Schopf mit Magazin.\n1349 † Derselbe. Treibhaus.\n580 Keller, Katharina, Fuhrhaltereigeschäft.\nDella Valle-Wellinger, Konstantino, Maurer, von Varese (Italien).\nBrack geb Alkin, Fridolina, Fabrikarbeiterin, von Mönthal.\n581 † Dieselbe. Scheune und Remise.\n582 † Remise.\n583 † Remise mit Schweinescheune.\n584 Einwohnergemeinde Aarau. Naturhistorisches Museum.\nLaurenzenvorstadt.\n585 Gemeinde Aarau. Altes Kantonsschulgebäude.\n586 Fleiner, Alberts Erbschaft.\nFleiner-Zschokke, Leontine, Fabrikants Witwe.\nFleiner, Hans, Fabrikant.\nZschokke, Arthur, Part.\nSchmuziger, Lina, Part.\nTanner, Irmengard, Part.\n587 † Dieselbe. Wasch- und Holzhauß.\n588 † Dieselbe. Holzschopf.\n589 Staat Aargau. Infanterie-Kaserne.\n590 Derselbe. Kantine.\nHürbin-Heuberger, Ferdinand, Oberstleutnant, von Wegen-\nstetten. Wirt zur Kantine.\nZeughausstrasse.\n591 Staat Aargau. Kasernen-Stallung.\n592 Derselbe. Reithahn.\n593 Stallung.\n594 Reithahn.\n595 Turnhalle.\n1452 * Schäfer-Troller, Adolf, Architekt.\n1310 Frey-Vetterli, Achilles, Coiffeur, von Densbüren. Coiffeur- und\nHutgeschäft.\nStern-Zäslin, Alexander, Pfarrer an der evangel. Kapelle, von Basel.\n1387 * Ryniker-Waldis, Arnold, Kaufmann.\nRoth-Gautschi, Friedrich, Schuhmacher, v. Mühlethal. Schuhhdlg.\nRoth-Widmer, Verena, Witwe, Part., von Mühlethal.\nRyniker-Lutz, Adolf, Kaufmann.\nThom-Hänny, Franz, Trompeter-Instruktor der Infanterie, von\nKirchberg (Bern).\n1120 Staat Aargau. Kavallerie-Kaserne.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 13364,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1715,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:33:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p069",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p069.jpeg",
+      "bytes": 242911,
+      "sha256": "e707c4018e47ad6eef233d387c3aa230c786a78d18f1a6b521b4f9135329340a",
+      "sha256_of": "original",
+      "working_copy": "1896_p069.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:33:18+00:00"
+  }
+}

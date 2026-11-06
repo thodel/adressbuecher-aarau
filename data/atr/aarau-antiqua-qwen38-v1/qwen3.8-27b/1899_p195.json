@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p195",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p195.jpeg",
+    "bytes": 278401,
+    "sha256": "46e3a69df5acecddd8572ce351f967089c491cffca8cff03fd06d52e9bdef417",
+    "sha256_of": "original",
+    "working_copy": "1899_p195.jpeg"
+  },
+  "text": "91\nHug, Samuel, Bäcker, vordere Vorstadt 673.\nKaiser, Friedrich, Café Central, Bahnhofstraße 1525.\nKeller, Olga, z. Neuen Bund, Rain 822.\nKühn, Bernhard, * Bahnhofrestauration, Bahnhofstraße 515.\n  (Siehe Inserat Seite 7.)\nLeube-Kienberger, Adele, z. Café Jura, Rohrerstraße 1479.\nLüthi-Weibel, Elisa, Witwe, z. „Zunftstube\", Pelzgasse 129.\nMattberger, Jakob, * Milchgasse 141.\nMaurer-Richner, Fritz, in der Gais 436.\nMürset, Gottlieb, Schachen 733.\nObrist-Diener, Johanna, Tellli 448.\nRandegger, Josephine, z. Schwyzerrhüsli, Kasinostraße 574.\nRiniker, Arnold, * Restaurant zum Binsenhof. (S. Inserat Seite 1.)\n— Gebr., * Bierbrauer, Metzgergasse 102.\nRohr, Johann, Holzmarkt 662.\nSchilling, August, z. Kettenbrücke, Zollrain 179. (S. Inserat S. 5.)\nSchlumberger, Reinhard, Graben 1237.\nSiebenmann, Hans, z. Adlerbräu, Chalet, Entfelderstraße 1523.\nSoland, Heinrich, obere Vorstadt 913.\nStalder-Messerli, Marie, z. „National\", Kasinostraße 570.\nStrübin-Frey, August, Metzgergasse 60.\nVogt-Siegist, Samuel, * Graben 222.\nWeber-Hegnauer, Hermann, * Bahnhofstraße 568.\nWehrli, Jakob, Bäcker, z. Fédéral, Zeughausstraße 1452.\nWernle-Treier, Anna, z. Bairischen Halle, obere Vorstadt 926.\nWidmer, Rudolf, zum „Lindenhof\", Gais 1248.\n— Samuel, * Halden 277.\nPintenwirtschaften.\nBärtschi, Jakob, Weinberg 321.\nBolliger, Rudolf, Roggenhausen 851.\nFrey-Ringier, Karl, Bäcker, Rain 832.\nFrei-Rohner, Robert, * Zollrain 51.\nHemmeler, Oskar, * vordere Vorstadt 669.\nHeß, Wilhelm, Pelzgasse 66.\nKäser, Fritz, Rathausgasse 25.\nMeister, Georg, * Graben 216.\nRichner-Peter, Elisabeth, Bahnhofstraße 541.\nSiebenmann, Rud., * Bierbrauer, Graben 620.\nSimmen, Emil, * Rathausgasse 18.\nVidiella, Manuel, * Spanische Weinhalle, Kirchgasse 7.\n  (Siehe Inserat Seite 26.)\nVonarx, Karolina, Zollrain 52.\nWidmer, Rudolf, obere Vorstadt 927.\nWüthrich-Lüdi, Samuel, * zum Storchchen, Laurenzen thor gasse 117.\nSommerswirtschaften.\nBalddinger, Roman (Rössligarten), Schachen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 47524,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1947,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:22:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p195",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p195.jpeg",
+      "bytes": 278401,
+      "sha256": "46e3a69df5acecddd8572ce351f967089c491cffca8cff03fd06d52e9bdef417",
+      "sha256_of": "original",
+      "working_copy": "1899_p195.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:22:31+00:00"
+  }
+}

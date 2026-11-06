@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p020",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p020.jpeg",
+    "bytes": 276271,
+    "sha256": "e6a011cb1417e85193fd57b8afcd5623d21bc6c76333274e288af489627f5b8b",
+    "sha256_of": "original",
+    "working_copy": "1899_p020.jpeg"
+  },
+  "text": "12\nHaus-\nNr.\n126 Hunziker-Baumberger, Rudolf, Lehrer.\nGantner-Schär, Arnold, Sattler und Tapezierer.\n127 Gerber, Max, Metzger. Speisewirtschaft. [tel]\nFrei-Müsch, Ulrich Wilhelm, gew. Werkmeister, v. Zurzach.\n128 Weber-Lüscher, Otto, Weinhandlung. [tel]\nDr. Keller-Feiss, Gottfried, Fürsprech. Advokaturbureau.\nKöhler-Greuter, G. A., Lithograph, von Dresden.\nLüscher-Gloor, Karl, Küfer, von Muhen.\nRiesterer, August, Mechaniker, von Basel.\n129 * Siebenmann-Hagnauer, Friedrich, Bierbrauer, Stadtrat (Wirt-\n  schaft zur Zunftstube).\nLüthi-Weibel, Elise, Witwe, von Holziken (Wirtin z. Zunft-\n  stube). Speisewirtschaft.\nLenzi-Fischer, Albert, Kontroleur auf d. Aarg. Ersparniskasse,\n  von Zuzgen.\nWildi-Hagnauer, Friedrich, Postbeamter, von Reinach.\n130 Deubelbeiss-Berner, Johann, Spengler, von Schinznach.\nHauri-Blanc, Jean, Coiffeur, von Seengen. (Wohnung.)\nStrebel-Steiner, Hans, Steindrucker, von Dotenheim (Bayern).\nDäster & Baum, Firma. Malergeschäft.\nDäster, Gottfried, Maler, von Balzenschwyl.\nBaum, Hermann, Maler, von Mahlberg (Preußen).\n131 * Rüetschi, Gottlieb, Part., in Suhr.\n— Schneider, Max, Bäckermeister. [tel]\n132 * Willimann-Wehrli, Maria, von Oberhof.\nGmünder-Läuchli, Lina, Glätterin, von Herisau (Appenzell).\nBöhm-Hofmann, Georg, Seiler, von Wilechingen (Schaffhausen).\n— Maria, Maschinennäherin.\nMüller, Marie, Zimmermanns, Part., von Oberbözberg.\n133 Suter-Spielmann, Albert, Schneidermeister, von Kölliken.\n134 Hassler-Bircher, Paul, Kupferschmied. Kupferwarenhandlung.\nBircher, Jakob, Part., von Küttigen.\nOelhafen geb. Hagnauer, Nanette, Witwe, Part.\nSeifert-Hüsser, Heinrich, Schneider, v. Falkenstein (Sachsen).\n135 Schatzmann-Läuchli, Samuel, Buchbinder, von Windisch.\n  Schreibmaterialien-, Feuerwerk- und Rahmenhandlung.\n136 Häfliger-Hilfiker, Otto, Metzgerei und Speisewirtschaft [tel], von\n  Oberentfelden.\n137 Rohr-Reimann, Jakob, Kaufmann, Kolonialwarenhandlung. [tel]\nHauri-Blanc, Jean, Coiffeur, von Seengen (Coiffeurgeschäft).\nSeemann-Sargel, Richard Wilh., Lithograph, von Berlin.\nMürsett, Maria, Coiffense, von Dieße (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 128532,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2066,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:42:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p020",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p020.jpeg",
+      "bytes": 276271,
+      "sha256": "e6a011cb1417e85193fd57b8afcd5623d21bc6c76333274e288af489627f5b8b",
+      "sha256_of": "original",
+      "working_copy": "1899_p020.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:42:45+00:00"
+  }
+}

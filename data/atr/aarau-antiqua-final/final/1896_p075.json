@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p075.jpeg",
+    "bytes": 269379,
+    "sha256": "e76828c9e61c74f4948d9ab958f80d60ffa8d3ce1caa06f25a144f04e031e7a8",
+    "sha256_of": "original",
+    "working_copy": "1896_p075.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 53\nHaus-\nNr.\n1260    Müller-Gamper, Samuel, Part.\n  Fischer-Burger, Jonathan, Goldschmied, von Reinach. Bijouterie-\n  waren- und Uhrenhandlung.\n\nVordere Vorstadt.\n\n666     Amsler-Tschudy, Otto, Notar und Stadtkassier, von Kaisten.\n  Firma: Amsler-Tschudy, vormals E. Pfisterer. Pelzwaren-, Hut-\n  und Schirmhandlung.\n  Widmer, Karoline und Marie, Modistinnen, von Freienwyl.\n  Viesser-Rupp, Theodor, Kaufmann, v. Lahr (Grossh. Baden).\n667 a   u. b Abgetragen; an dessen Platz\n1262    → Nägelin-Gisiger, Arnold, Hôtelier, v. Liedertswil (Baselland).\n  Gasthof z. Wildenmann.\n  Bürgin-Glück, Maria, von Bubendorf (Baselland), Part.\n668     Hirschi-Merz, Joh. Rudolf, Uhrenmacher. Uhren-, Gold- und\n  Silberwarenhandlung.\n669     Brand-Baumann, Jakob, Spezeroehandlung.\n  Hemmeler-Lanz, Oskar, Bäckermeister. Pintentwirtschaft.\n  Uhler, Bertha, v. Uttweil (Thurg.), Hauptlehrerin am Gewerbemuseum.\n  Uhler, Emma, Part., von Uttweil (Thurgau).\n670     Gerber-Hassler, Luise Elisabeth, March-Tailleurs Witwe.\n  → Gerber-Seiler, Gustav, March-Tailleur. Lager in Herren- u.\n  Knabenkleiderkonfektion. Anfertigung von Herrenkleidern nach Maß.\n  Dreifuss-Bloch, Karl, Kaufmann, von Endingen.\n671     Fricker-Kienberger, Johann, Postbeamter.\n  Grolimund-Gröli, Sigmund, Buchhandlungsangestellter, v. Beinwyl\n  (Solothurn).\n  Grolimund, Emma, Lehrerin, von Beinwyl (Solothurn).\n672     Abgetragen; an dessen Platz\n1263 *  → Aktiengesellschaft Feldschlösschen in Rheinfelden. Speise-\n  wirtschaft zum Affenkasten (Wirt: Gerber, Emil).\n  Pfisterer-Rohr, Robert, Bierbrauer. Vertreter des Biérdépôt Rhein-\n  felden für Aarau und Umgebung.\n  Ernst-Pfisterer, Lina, Witwe, Part.\n673     Baumann-Eichenberger, Karl, Bäckermeister, von Schafisheim.\n  Speisewirtschaft.\n  Siebenmann-Ackermann, Bernhard, Part.\n  Müller-Nünlist, Sigmund, Zimmermeister, von Walterswil (Soloth.).\n674     → Kunz-Graf, Ernst, Zuckerbäcker, von Wald (Zürich).\n  Zündt geb. Hagenbuch, Elise Luise, Witwe, Part., von Altstätten,\n  (St. Gallen).\n  Bühler-Gubler, Elise, Witwe, von Bibern (Schaffhausen).\n675     Studler-Sandmeier, Anna, Witwe, Part.\n  Gysi-Studler, Arnold, Mechaniker.\n  Hofmann, Arnold, von Aarburg. Manufacturwarenhandlung.\n676     Hagenbuch-Egger, Friedrich, Buchbinderei und Papeterie.\n677 †   Derselbe. Buchbindereiwerkstätte.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 52734,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2349,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:40:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p075.jpeg",
+      "bytes": 269379,
+      "sha256": "e76828c9e61c74f4948d9ab958f80d60ffa8d3ce1caa06f25a144f04e031e7a8",
+      "sha256_of": "original",
+      "working_copy": "1896_p075.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:40:17+00:00"
+  }
+}

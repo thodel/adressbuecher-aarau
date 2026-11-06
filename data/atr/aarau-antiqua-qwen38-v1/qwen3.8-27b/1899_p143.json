@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p143",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p143.jpeg",
+    "bytes": 281306,
+    "sha256": "cdc66a77afc0761c20f9453782da5e838c96950f466025009fd3f80a212db7e5",
+    "sha256_of": "original",
+    "working_copy": "1899_p143.jpeg"
+  },
+  "text": "39\nSiebenmann, Fritz, Commis, Rain 869.\n— Gebr. (Otto Siebenmann-Walther und Gustav Siebenmann-\nHemmeler), Civil- und Militärschneiderei, Konfektion. [tel] Ober-\nthor 226.\n— Gottlieb, Färber, Halden 275.\n— Gottlieb, Gerber, Rain 838.\n— Gottlieb, Part., [tel] zum \"Rosenfels\", Gartenstrasse 1166.\n— Gottlieb, Spediteur, [tel] Konradstrasse 992.\n— Gustav, March. Tailleur, Oberthor 226.\n— Hans, Wirt, \"Chalet zum Adlerbräu\", Entfelderstrasse 1523.\n— Jakob, Part., Entfelderstrasse 970.\n— Karl, Kaufmann, Entfelderstrasse 979.\n— Ludwig, Schuhmacher, Adelbändli 171.\n— Luise, Part., Bahnhofstrasse 648.\n— Otto, March. Tailleur, Oberthor 226.\n— Otto, Abwart, Laurenzenvorstadt 584.\n— Otto, Schlosser, hintere Vorstadt 694.\n— Rudolf, Bierwirtschaft, [tel] Graben 620.\n— geb. Seiler, Katharina, Witwe, Bahnhofstrasse 1023.\n— geb. Siebenmann, Marie, Witwe, Bankstrasse 510.\nSiegenthaler geb. Hirt, Elise, Wäscherin u. Glätterin, Hammer 189.\nSiegfried, Friedrich, Staatsbuchhalter, Erinsbacherstrasse 333.\nSiegrist, Adolf, Schuhmacher, Laurenzenvorstadt 376.\n— Albert, Bäcker, obere Vorstadt 940.\n— Arnold, Stuhlschreiner, Laurenzenvorstadt 376.\n— Emil, Lagerhausbeamter, Rain 874.\n— geb. Hauri, Maria, Spetterin, Milchgasse 154.\n— Heinrich, Metzger, obere Vorstadt 925.\n— Hermann, Reisender, jenseits der Aare 1303 a.\n— Jakob, Metzger, [tel] Milchgasse 150.\n— Jakob, Commis, Metzgergasse 56.\n— Jb., Schriftsetzer, vor dem Haldenthaler 803.\n— Johann, Ngt., obere Vorstadt 922.\n— Johann, Taglöhner, Milchgasse 154.\n— geb. Pfliß, Anna, Haushälterin, Laurenzenvorstadt 376.\n— Wilhelm, Postcommis, obere Vorstadt 938.\nSimmen, Emil, Bäcker und Pintenwirt, Rathausgasse 18.\nSinger, Georg, Maurer, vor dem Haldenthaler 1084.\n— Gustav Ad., Prediger, Laurenzenvorstadt 399.\n— & Cie., Nähmaschinendépôt, in der Gais 1105.\nSoland, Heinrich, Bäcker und Wirt, obere Vorstadt 913.\nSommerhalder, Gottlieb, Taglöhner, Adelbändli 86 b.\n— Hans, Knecht, Rain 826.\n— geb. König, Luise, Spetterin, Rain 877.\n— Rudolf, Milch-, Butter- und Käsehandlung, Kirchgasse 14.\nSpähne, Luise, Weißnäherin, Rain 828.\nSparkasse von Aarau. Präsident: Fridolin Schneider, Oberrichter;\nKassier: Peter Schmid-Wolf, hintere Vorstadt 645.\nSpar-, Leih- & Diskontokasse. Verwalter: A. Hemmeler-Haßler\nund E. Hemmeler-Türler. Hintere Vorstadt 638.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 91452,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2295,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:45:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p143",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p143.jpeg",
+      "bytes": 281306,
+      "sha256": "cdc66a77afc0761c20f9453782da5e838c96950f466025009fd3f80a212db7e5",
+      "sha256_of": "original",
+      "working_copy": "1899_p143.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:45:01+00:00"
+  }
+}

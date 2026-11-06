@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p050",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p050.jpeg",
+    "bytes": 274108,
+    "sha256": "6ce83c1275c4fa5f4861fbc0e30e56dfd35e3a6f7b8564338c2179b84a79645c",
+    "sha256_of": "original",
+    "working_copy": "1899_p050.jpeg"
+  },
+  "text": "42\nHaus-\nNr.\n1558 u. 1559 * Kübler-Kuhn, Johann, Bahnhofinspektor.\nMadon-Laufer, Viktor, Lokomotivführer, von Zürich.\nGossewisch-Maier, Friedr. Aug., Kondukteur, von Schloßrued.\nLandolt-Hartmann, Emilie, Witwe, Part.\n1492 Staub-Kübler, Jakob, Bahnangestellter, von Dübendorf (Zch.).\n— -Wehrli, Jakob, Wagenkontrolleur, von Dübendorf (Zch.).\nForderer-Schwammberger, Alois, Zuschneider, von Ziegel-\nbach (Wtbg.).\n— Mathias, Part., von Ziegelbach.\n1293 † Derselbe. Holzschopf.\n1477 * Kummler-Sauerländer, Hermann.\nBirchmeier-Kull, August, Maler, von Würenlingen.\nBolliger-Kielholz, Albert, Bankbuchhalter, von Küttigen.\n1472 † Kummler & Cie. Fabrikgebäude.\n1478 † Derselbe. Ökonomiegebäude.\n1553 † Derselbe. Schuppen.\n1539 Bolliger-Gloor, Rudolf, Bankangestellter, von Schmiedrued.\nHemmeler-Stähli, Emil, Kaufmann.\n1357 * Meyer-Fäs, Jean, Postangestellter, von Dintiken.\nRödelberger-Popp, Franz, Musikdirektor, v. Würzburg (Bayern).\nKünzlen-Kranich, Friedrich, Gießereibesitzer.\n1356 Schäfer-Troller, Adolf, Architekt, Südbahnbureau.\n1351 Suter-Geissberger, Joseph, Bezirksschullehrer, von Lengnau.\n1352 Basler-Furter, Peter, Kantonsgeometer, von Zeihen.\n1345 * Doswald-Schenker, Jos. Eduard, von Neuheim (Zug). Speise-\nwirtschaft. Restaurant z. Bahnhof.\n503 * Schmuziger-Koller, Daniel, Baumeister, in Zürich.\nKieser-Dambach, Robert, Bankbeamter.\n504 † Derselbe. Holzschopf.\n505 † „ Magazin.\n506 † „ Ladenschopf.\n507 † „ Baracke.\nMüller, Sigmund, Baumeister.\n1268 Gerodetti-Habermacher, Virgilius. ⇔ Marmorsteingeschäft.\nWeinhandlung.\n1412 † Derselbe. Marmorsäge.\n508 † Tourewani, Peter, Baumeister in Olten. Gartenhaus.\n1414 Lüscher-Umiker, Hermann, Mechaniker.\nBürgi, Werner, Reisender, von St. Gallen.\nBigler, Ulrich, Dr. phil., Bezirksschullehrer, von Oberthal.\n(Bern).\nBräm-Huber, Anna, Witwe, Part., von Bülach (Zürich).\nBankstrasse.\n509 Kauf, Heinrich, gew. Lokomotivf., von Wellhausen (Thurgau).\n— Alfred, Kassier d. aarg. Kreditanst, v. Wellhausen (Thurg).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5506,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1963,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:27:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p050",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p050.jpeg",
+      "bytes": 274108,
+      "sha256": "6ce83c1275c4fa5f4861fbc0e30e56dfd35e3a6f7b8564338c2179b84a79645c",
+      "sha256_of": "original",
+      "working_copy": "1899_p050.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:27:30+00:00"
+  }
+}

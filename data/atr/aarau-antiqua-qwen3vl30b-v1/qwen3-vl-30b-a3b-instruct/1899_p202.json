@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p202",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p202.jpeg",
+    "bytes": 277241,
+    "sha256": "ba3b46407a97fb3213e8da2ae4d88317cd57e29083bc84ac320b06d1d2522935",
+    "sha256_of": "original",
+    "working_copy": "1899_p202.jpeg"
+  },
+  "text": "98\nÖffentliche Anstalten.\na. Lehranstalten.\nKantonsschule.\nGründung derselben 1802.\nRektor: Dr. Aug. Tuchschmid.\nProfessoren und Lehrer.\nDr. Bäbler, für Geschichte sowie einen Teil des Deutschen an der\ntechnischen Abteilung.\nBurgmeier, für Gesang.\nCaminada, David, für neuere Sprachen.\nHerzog, Joh. Ad., für deutsche Sprache und Litteratur am Gym-\nnasium und den beiden obern Klassen der technischen Abteilung\nund Religionsunterricht.\nDr. Fröhlich, für alte Sprachen.\nDr. Ganter, für Mathematik am Gymnasium und an der techn.\nAbteilung.\nDr. Gessner, für alte Sprachen.\nDr. Hans Otti, für technisches Zeichnen, deskriptive und prak-\ntische Geometrie und für Geographie am Gymnasium und an\nder technischen Abteilung.\nHeuberger, Jak., Oberrichter, für Handels- und Wechselrecht.\nDr. Hunziker, für Französisch am Gymnasium und technischen\nAbteilung.\nKürschner, Friedrich, für Handelswissenschaften.\nDr. Liechti, für Chemie.\nDr. Mühlberg, für Naturgeschichte.\nRennhardt, für Englisch am Gymnasium und an der technischen\nAbteilung, für Italienisch an der technischen Abteilung.\nRey, Jakob Friedr., für Französisch, Italienisch und Spanisch.\nRoth, Oberst, für theoretischen Militärunterricht.\nDr. Schwere, Siegfried, für Algebra an der Handelsabteilung.\nDr. Tuchschmid, Rektor, für Mathematik an der technischen\nAbteilung und Physik am Gymnasium.\nWäffler, für Turnunterricht\nWernly, Pfarrer, für Hebräisch.\nDr. Winteler, für Geschichte am Gymnasium und alte Sprachen.\nWolfinger, für Kunstzeichnen.\nZimmermann, für Schreiben und Stenographie.\nAn der Musikschule.\nRödelberger, Direktor, für Violine und Pianoforte.\nDas Kantonsschülerhaus\nwurde am 1. Mai 1890 eröffnet. Dasselbe hat den Zweck, Kantons-\nschüler, deren Eltern nicht in Aarau wohnen, aufzunehmen und zu\nverpflegen und ihnen während ihrer Studienzeit in Aarau das Eltern-\nhaus zu ersetzen. Es nimmt 38 Schüler auf. Der derzeitige Vor-\nsteher ist: Rey, Jakob Friedrich.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4114,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1921,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 39.89,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:43:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p202",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p202.jpeg",
+      "bytes": 277241,
+      "sha256": "ba3b46407a97fb3213e8da2ae4d88317cd57e29083bc84ac320b06d1d2522935",
+      "sha256_of": "original",
+      "working_copy": "1899_p202.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:43:27+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p208",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p208.jpeg",
+    "bytes": 258221,
+    "sha256": "b691222fcb6538ed3a7c561176cf43da1ce94b4f3f0fe0a6b1ef5550e056c35e",
+    "sha256_of": "original",
+    "working_copy": "1899_p208.jpeg"
+  },
+  "text": "104\nDie aargauischen Gemeinden bezahlen für kranke Angehörige\n  je nach ihren Steuerverhältnissen 90 Cts. bis Fr. 1. 50, für Kinder\n  unter 10 Jahren 70 Cts. bis Fr. 1. 30.\n  Bei Verpflegung in besonderen Zimmern beträgt die Taxe für\n  Kantonbürger mindestens Fr. 4, für Nichtkantonbürger mindestens\n  Fr. 5.\ne. Gemeinnützige Geldinstitute.\nAllgemeine aargauische Ersparniskasse.\nPräsident: Dr. O. Blattner, Fürsprech.\nGeschäftsführer: R. Wehrli-Peyer.\nSparkasse zu Aarau.\nPräsident: Fridolin Schneider, Oberichter.\nGeschäftsführer: P. Schmid-Wolf.\nf. Gemeinnützige Anstalten verschiedener Art.\nTaubstummen-Anstalt Aarau auf Landenhof.\nAnstalt für schwachsinnige Kinder auf Schloss Biberstein.\n  (Rechtsdomizil Aarau.)\nArmen-Erziehungsanstalt auf Schloss Kasteln.\n  (Rechtsdomizil Aarau.)\nDiakonissen-Station.\n  (Bahnhofstraße.)\nKrankenmobilenmagazin Aarau.\n  (Im städtischen Armenhaus.)\nVereine und Gesellschaften.\na. Fachvereine.\nKunst und Wissenschaft. Sammelwesen.\nAargauischer Kunstverein.\nHistorische Gesellschaft.\nKränzchen der historischen Gesellschaft.\nMittelschweizerische Geographisch-Kommerzielle Gesellschaft.\nNaturforschende Gesellschaft.\nSektion Aargau des S. A. C.\nLesegesellschaft.\nVerein für Briefmarkenkunde.\nKantonsschülerverein Industria Aarau.\nKantonsschülerverbindung „Argovia“.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 57565,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1301,
+    "lines": 37,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.027,
+    "mean_line_chars": 33.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:39:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p208",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p208.jpeg",
+      "bytes": 258221,
+      "sha256": "b691222fcb6538ed3a7c561176cf43da1ce94b4f3f0fe0a6b1ef5550e056c35e",
+      "sha256_of": "original",
+      "working_copy": "1899_p208.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:39:16+00:00"
+  }
+}

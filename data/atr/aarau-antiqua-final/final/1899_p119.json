@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-gemini-retry-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p119",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p119.jpeg",
+    "bytes": 287923,
+    "sha256": "8a2a979dce393722d0703816c16f2997111f2534530269a88a783d203f577e5d",
+    "sha256_of": "original",
+    "working_copy": "1899_p119.jpeg"
+  },
+  "text": "15\n\nGysi, Hans, Reißzeugfabrikant, Gartenstraße 999.\n— Otto, Photograph, vordere Vorstadt 895.\n— Otto, Sohn, Photograph, vordere Vorstadt 895.\n— Otto Robert, Postcommis, obere Vorstadt 942.\n— Rudolf, Maler, obere Vorstadt 940.\n— Traugott, Lehrer, jenseits der Aare 1303 b.\nGladbach Philipp, Professor, Kasinostraße 576.\nGloor, Adolf, Dachdecker, Milchgasse 76.\n— Arnold, Schreiner, Ziegelrain 707.\n— Bertha, Damenschneiderin, Adelbändli 171.\n— Elise, Fabrikarbeiterin, Milchgasse 154.\n— Ferdinand, Holzspalter, Milchgasse 75.\n— Heinrich, Zimmermann, Stadthof 92.\n— Heinrich, Bandweber, Scheibenschachen.\n— Johann, Zahnmacher, Hammer 183.\n— Marie, Vorgängerin, Halden 253.\n— geb. Siebenmann, Witwe, Delikatessen-Handlg. Kroneng. 38.\n— Wilhelm, Fuhrmann, Schachen 741.\n— Wilhelmine, Taglöhnerin, Adelbändli 171.\nGmünder geb. Läuchli, Lina, Glätterin, Pelzgasse 132.\nGötz, Friedrich, Schuhfabrikaufseher, Obere Vorstadt 929.\nGonzenbach geb. Gonzenbach, Julie, Witwe, Rain 828.\nGossewisch, Friedrich Aug., Kondukteur, hinter dem Bahnhofe 1558.\nGränicher, Fanny (Firma Hauri und Gränicher), Broderiegeschäft,\n  hintere Vorstadt 1236.\n— Jakob, Schneider, Kirchhof 162.\n— geb. Richner, Rosa, Briefträgers Witwe, Part. Kirchhof 162.\nGraf, Arnold Eugen, Coiffeur und Chirurg, Graben 207.\n— Ernst, reformierter Pfarrer, Kirchhof 169.\n— Hermann, Kaufmann, Jurastraße 1526.\n— geb. Hunkeler, Mar., Wwe., Stellenvermittler., ht. Vorstadt 641.\n— Jakob, Cementarbeiter, Erlinsbacherstraße 332.\n— Johann, Hausknecht, Milchgasse 114.\n— Rudolf, Schriftsetzer, Laurenzenvorstadt 1294.\nGröbli, Jakob, Schneider, Rathausgasse 43.\nGrolimund, Emma, Lehrerin, vordere Vorstadt 671.\n— Sigmund, Buchhandlungsangestellter, vordere Vorstadt 671.\nGross geb. Daum, Johanna, Bahnhofstraße 1025.\n— geb. Groß, Luise. Part., Metzgergasse 103.\nGrossmann, Otto, Handelsgärtner, Filiale: Graben 219.\nGrünhut, Robert, Bahningenieur S. C. B., Schloßplatz 1389.\nGrütter, Friedrich, Magaziner, Halden 240.\nGruber, Engelbert, Maurer, Schmiedgasse 635.\nGünther, Eugen, Instruktor der Infanterie, Rohrerstraße 1536.\nGugel, Friedrich, Schuhmacher, Rathausgasse 47.\nGuggisberg, Emil, Bahnhofstraße, 568 b.\n— geb. Hagenbuch, Bertha, Part., Entfelderstraße 967.\nGull, Emil, Kaufmann, Bahnhofstraße 656.\n— geb. Wild, Bernardine, Witwe, Bahnhofstraße 656.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7427,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2304,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T20:48:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-gemini-retry-v1",
+    "source": {
+      "key": "1899_p119",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p119.jpeg",
+      "bytes": 287923,
+      "sha256": "8a2a979dce393722d0703816c16f2997111f2534530269a88a783d203f577e5d",
+      "sha256_of": "original",
+      "working_copy": "1899_p119.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:48:39+00:00"
+  }
+}

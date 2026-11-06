@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p158",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p158.jpeg",
+    "bytes": 263193,
+    "sha256": "39b2f16713f5b2b56c4b4dbf334b0e527e7afbee4a2db23cfca4af71cec4d025",
+    "sha256_of": "original",
+    "working_copy": "1899_p158.jpeg"
+  },
+  "text": "54\nBazars.\nHemmeler-Stahl, Ida, * Rathausgasse 21.\nLamm-Roth, Albert, in Basel.\nFiliiale „Central-Bazar“ Graben 1237.\nMarti, Hulda Flora, Metzgergasse 55. (Siehe Inserat Seite 7.)\nWetter & Cie., * „Magazin z. Globus“, obere Vorstadt 925.\n\nBettmacherinnen.\nPlüß-Haller, Maria Anna, Golattenmattgasse 232.\nSchweizer-Siebenmann, Sophie, Schachen 741.\n(Im weitern siehe Bettwarenhändler.)\n\nBettwarenhändler.\nCodoni-Dreßler, Laurenz, * Rain 826. (Siehe Inserat Seite 14.)\nHeß, Gebr., * Rathausgasse 4.\nHering-Leuenberg, Lisette, * Milchgasse 71.\nPlüß-Amstutz, Entfelderstraße 1285.\nScheibler, Alfred, Adelbändli 83. (Siehe Inserat Seite 21.)\nSchweizer-Siebenmann, Sophie, Schachen 741.\n\nBibeldépôt.\nAngst, Gottlieb * hinter dem Platz 214.\n\nBijouterie-Waren.\nFischer, Jonathan, Holzmarkt 1260. (Siehe Inserat Seite 19.)\nFrey, Albert, hintere Vorstadt 693.\nHärdi, Wilhelm, * Rathausgasse 42.\nHirschy, Joh. Rud., * vordere Vorstadt 668. (S. Inserat Seite 14.)\n\nBierbrauereien mit Bierwirtschaften.\nBertschi-Vogt, Hermann, Schmiedgasse 1269.\nHolzach, Dietrich, * Bahnhofstraße 563. (S. Inserat Seite 7.)\nRiniker, Gebr., * Metzgergasse 102.\nSiebenmann, Friedrich, * „Adlerbrauerei“, Entfelderstraße 1506.\n[Im weitern siehe Wirtschaften.]\n\nBierdépôts.\nPfisterer-Rohr, Bahnhofstraße, Dépôt der Aktienbrauerei Feld-\nschlößchen, Rheinfelden.\nSchilling-Döbeli, Zollrain, Dépôt der Aktienbrauerei Basel. (Siehe\nInserat Seite 5.)\n\nBierpressionen-Fabrikation.\nKeller, Abr., Mechaniker, * Halden 260. (Siehe Inserat Seite 24.)\n\nBildhauer.\nRusterholz & Freihofer, * Rainstraße 886. (S. Inserat Seite 4.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4354,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1583,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.025,
+    "mean_line_chars": 38.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:38:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p158",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p158.jpeg",
+      "bytes": 263193,
+      "sha256": "39b2f16713f5b2b56c4b4dbf334b0e527e7afbee4a2db23cfca4af71cec4d025",
+      "sha256_of": "original",
+      "working_copy": "1899_p158.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:38:09+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p076",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p076.jpeg",
+    "bytes": 266926,
+    "sha256": "8cb301764abc2ee0f78abe048d0fd02ab4256a0907e438589f9503c4ca19f034",
+    "sha256_of": "original",
+    "working_copy": "1896_p076.jpeg"
+  },
+  "text": "54        Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n678 * [tel] Henz-Plüss, Jakob, Kaufmann.\n  Henz-von Seuter, Hans, Kaufmann.\n  Firma: Jakob Henz & Cie.   Kolonialwarengeschäft.\n679 Abgetragen; an dessen Platz\n1169 Henz-Plüss, Jakob, Kaufmann.\n  Henz-Märk, Julius, Kaufmann.\n  Firma: Jb. Henz & Cie.   Eisenhandlungsgäft.\n680 Schäfer-Dennler, Cäsar, Messerschmied.\n  Meier-Grossmann, Anna, Witwe, Part., von Rheinfelden.\n  Hässig-Hauenstein, Elisabeth, Witwe, Part.\n681 [tel] Müller-Schneebeli, Heinrich, Hôtelier, von Unterstrass (Zürich).\n  Gasthof zum Löwen.\n  Fisch, Gottlieb, Kaufmann.\n682 Rothpletz-Marti, Friedrichs Erbschaft.\n  Rothpletz, Emil, Verwalter.\n  Waldmeier geb. Rothpletz, Bertha, Witwe, Part., von Hellikon.\n  Spyhiger-Thomer, Friedrich, Dek.-Maler, von Urnenbach (Bern).\n683 Müller-Schneebeli, Heinrich, Gastwirt.   Wohnhaus mit † Stallung\n  † Waschhaus etc.\n\nHinterer Vorstadt.\n684 * [tel] Einwohner-Gemeinde Aarau.   Elektrische Lichtcentrale.\n  Verwalter: Hassler-Schmidt, Friedr. (Bureau).\n  Betriebschef: Zimmerli, Paul.   (Bureau).\n685 † Dieselbe.   Holzschopf.\n686 u. 687. † Henz-Plüss, Jakob, Kaufmann, Magazin.\n688 * Dieselbe.   Wohnhaus.\n  Plüss, Anna, Damenschneiderin.\n689 Birmann, Adolf, Müller, von Basel.   Mehlhandlung.\n  Birmann-Baldenweg, Albert, Part., von Basel.\n  Weber-Noe, Heinrich, Lithograph, von Reigoldswil (Baselland).\n690 * Gemeinde Aarau.   Amthaus.\n  Bezirksamt und [tel] Staatsanwaltschaft.\n  [tel] Kantonaler Polizeiposten und Bezirksgefängnisse.\n  Rubli-Schwarz, Joh. Jakob, Gefängniswart, von Effingen.\n691 * Aktiengesellschaft Feldschlösschen in Rheinfelden.   Bierdepôt.\n692 * Dieselbe.   Hintere Bierwirtschaft z. Affenkasten.\n  Gerber-Wüthrich, Emil, Wirt z. Affenkasten.\n693 Gerber-Seiler, Gustav, March.-Tailleur.   Arbeiterkleidermagazin.\n  Rüetschi, Max, Kaufmann, Buchhalter.\n  Senn-Gysi, Hans, Zeughausverwalter, von Zofingen.\n  Kull-Gerber, Adolf, Postangestellter, von Niederlenz.\n  Figi-Hürliemann, Jakob, Schlosser, von Luchringen (Glarus).\n  German-Probst, Heinrich, Part., von Winterthur.\n  Frey, Albert, Uhrmacher, von Densbüren. (Uhrenhandlung).   Optiker.\n694 Siebenmann-Brunnhoffer, Otto, Schlosser, Part.\n  Müller-Wassmer, Jakob, Oberaufseher (bei Bally, E.), v. Safenwil.\n695 Abgetragen; an dessen Platz",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 158858,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2295,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:42:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p076",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p076.jpeg",
+      "bytes": 266926,
+      "sha256": "8cb301764abc2ee0f78abe048d0fd02ab4256a0907e438589f9503c4ca19f034",
+      "sha256_of": "original",
+      "working_copy": "1896_p076.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:42:56+00:00"
+  }
+}

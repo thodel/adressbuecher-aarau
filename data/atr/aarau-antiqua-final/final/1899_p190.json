@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p190",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p190.jpeg",
+    "bytes": 256998,
+    "sha256": "f45f1649ecef39f13e69e83577cc2666a458e7abe33ddcee02db937cd58d20b5",
+    "sha256_of": "original",
+    "working_copy": "1899_p190.jpeg"
+  },
+  "text": "86\nSteinhauereigeschäfte.\nRusterholz & Freihofer, * Bildhauer, Rainstraße 886. (S. Inserat S. 4.)\nZschokke, M., * Baugeschäft, Rohrerstraße 473. (S. Inserat S. 25.)\nStellenvermittler.\nKlingelfuß-Graf, Ottilie, Witwe, Zeughausstraße 1452.\nLüthi-Kneubühler, Anna, Kirchgasse 15.\nZähner-Brunnhofer (Schweiz. Frauenverband), Halden 246.\nStickerei- und Wollwarenhandlungen.\nFörderer, Geschw., Graben 221.\nHagenbuch-Hagenbuch, Verena, Zollrain 177.\nHauri & Gränicher, * hintere Vorstadt 1236.\nKeller, Lina, Rathausgasse 5.\nStoffdruckereien.\nJenny & Weigel, * Telli 449.\nStrohgeflechtfabrikation.\nHegauer, Rudolf, * Hammer 194.\nStrohhutwascherei.\n(Siehe Modistinnen.)\nTapezierer.\nBircher, Eduard, Halden 286.\nGantner, Arnold, Pelzgasse 126.\nGysi, Adolf, Pelzgasse 124.\nHäfelin, Joseph, Kasinostraße 660.\nHässig, Emil, Milchgasse 73.\nKiburç, Gotthold, Entfelderstraße 968.\nLüthi, Eduard, Kirchgasse 15.\n— Fritz, hintere Vorstadt 642.\nNägeli, Jakob, Rain 880.\nScheibler, Alfred, Adelbändli 83. (S. Inserat Seite 21.)\n[handschriftlich: 22]\nSiebenmann, Arnold, Bahnhofstraße 1074.\nWildi, Jakob, Halden 264.\nTapetenlager.\nHagenbuch-Hagenbuch, Verena, Zollrain 177.\nHafler-Hunziker, Karl, Bahnhofstraße 1020.\nSiebenmann, Arnold, Bahnhofstraße 1074.\nTapissièrgeschäfte.\nFörderer, Schwestern, * Graben 221.\nHauri & Gränicher, * hintere Vorstadt 1236.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 26497,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1335,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.075,
+    "mean_line_chars": 32.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:19:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p190",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p190.jpeg",
+      "bytes": 256998,
+      "sha256": "f45f1649ecef39f13e69e83577cc2666a458e7abe33ddcee02db937cd58d20b5",
+      "sha256_of": "original",
+      "working_copy": "1899_p190.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:19:02+00:00"
+  }
+}

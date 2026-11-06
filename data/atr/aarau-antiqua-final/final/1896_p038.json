@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p038",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p038.jpeg",
+    "bytes": 258919,
+    "sha256": "1a865975db46c716b47157a0f822eba0c95800f4b9a4ff7f9b31906720ca5895",
+    "sha256_of": "original",
+    "working_copy": "1896_p038.jpeg"
+  },
+  "text": "16 Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\nHassler, Sophie, Glätterin.\nHassler, Julie, Modistin.\nHassler, Remigius, Taubstummte.\nFischer, Louise, Messerschmieds, Damenschneiderin.\nBächli, Verena, Spetterin, von Buchs.\nWassmer, Samuel, Ausläufer, von Suhr.\nSalm, Marie, Schneiderin, von Veltheim.\nSalm, Barbara, Spetterin, von Veltheim.\nMüller, Maria Anna, Fabrikarbeiterin, von Kulm.\n173 * Hünziker, F., Stabsfouriers Erbschaft.\nSchaffner-Meier, Margaretha, Näherin, von Effingen.\nErnst-Döhnell, Robert, Briefträger.\nBühler-Guyer, Heinrich, Schmied, von Volketsweil (Zürich).\nSenn-Studer, Siegfried, Maurer, von Strengen (Tirol).\n174 * Fisch-Buser, Wittwes Erbschaft.\nRämisperger-Hunkeler, Hermann, Spenglermeister.\nMerz-Umkir, Jakob, Taglöhner, von Beinwil.\nBeck, Karoline, Weissnäherin.\nBeck, Louise, Damenschneiderin.\nDurr-Gradén, Hieron., Strassenwärter.\nWanger, Henriette, Buchbinders, Part.\nFischer-Widler, Ernestine, Witwe, Taglöhnerin.\n175 Staat Aargau. Kathol. Pfarrhaus.\nFischer-Keller, Xaver, christkathol. Pfarrer, von Triengen.\nKeller, Lina, Part.\n\nRathausgasse.\n176 * Gemeinde Aarau. Rathaus. Städtische Polizeiwache, Zahl-\n  kasse Fremdenbüreau und Sektionschef. Sitz der Jury, des Ober-\n  gerichts, des Bezirksgerichts; und des Gemeinderates, Gemeinde-\n  kanzlei, Gemeindeammann; Bureau des Civilstandsbeamten, des\n  Betriebsbeamten, des Bauverwalters, des Fondsverwalters, Forst-\n  verwalters und Katastergeometers.\nFischer-Peter, Thomas, Gemeindeweibel und Rathausabwart.\n\nZollrain.\n177 Hagenbuch-Hagenbuch, August, Sekretär.\nHagenbuch-Hagenbuch, Verena, Spezerei- und Wollwaren-, Korb-\n  und Tapetenhandlung. (Nachfolger von Schmidt, z. Bären.)\nCorevon-Schmidt, Lina, Witwe, Part.\nSchmidt, Hedwig, Part.\nKümmerli, Rosa, v. Kölliken, Technikerin im Geschäft Zurlinden & Cie.\nKniest, Hermann, Schneider von Wisbergen (Preussen).\n178 Brunnhofe-Meder, August, Restaurateur und Liqueurfabrikant.\nWengi-Kalt, Adolf, Postbeamter.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 52608,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1955,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:46:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p038",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p038.jpeg",
+      "bytes": 258919,
+      "sha256": "1a865975db46c716b47157a0f822eba0c95800f4b9a4ff7f9b31906720ca5895",
+      "sha256_of": "original",
+      "working_copy": "1896_p038.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:36+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p129",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p129.jpeg",
+    "bytes": 283770,
+    "sha256": "f47d3179a0205ddde60375e6e4441ba49ec0a6485e51aa2a1517eb2433ed7aa3",
+    "sha256_of": "original",
+    "working_copy": "1899_p129.jpeg"
+  },
+  "text": "Kranken-Anstalt. In der Gais 1186.\nKredit-Anstalt, Aarganische, Laurenzenvorstadt 1340.\nKreiskommando, Laurenzenvorstadt 364.\nKress, Karl, Architekt, Rathausgasse 20.\nKrummet, Gottlieb, Schuhhandlung, hintere Vorstadt 694.\nKübler, Joh., Bahnhofinspektor, Bahnhofstraße 515.\nKühn, Bernhard, Restaurateur, Bahnhofstraße 515.\nKümmerli, Rosa, Technikerin, Jura-Cementfabriken, Zollrain 177.\nKüng, Anna, Glätterin, Hammer 1496.\n— Anton, Sekretär, Telli 455.\n— Johann, Schriftsetzer, Hammer 1496.\nKünze, Hermann, Sohn, Mechaniker, Pelzgasse 122.\n— Oswald, Schuhmachermeister, Pelzgasse 122.\nKünzlen & Cie. Eisengießerei und Weichgußfabrik, hinter dem\nBahnhof 498.\n— Friedrich, Gießereibesitzer, hinter dem Bahnhof 1357.\nKuhn, Alfred, Mechaniker, Stadtrat, Ziegelrain 750.\n— Joh., Bahnm eister, hintere Vorstadt 1236.\nKull, Adolf, Postcom mis, hintere Vorstadt 693.\n— Emil, Spenglermeister, vordere Vorstadt 898.\nKulturg esellschaft des Bezirks Aarau, Präsident: Siegfried-Leupold,\nErlinsbacherstraße 333.\nKumm ler geb. Frey, Auguste, Witwe, Part., Herzogstraße 1365.\n— H.&Cie., Elektrotechnische Werkstätte u.Installationsgeschäft.\nHinter dem Bahnhof 1472.\n— Hermann, Kaufmann, Herzogstraße 1365.\nKunz, Ernst, Zuckerbäcker, vordere Vorstadt 674.\n— Joh. Jak., Zuckerbäcker, Bankstraße 1141.\n— Nanette, Näherin, Bahnhofstraße 1173.\nKurz, Erwin, Fürsprecher und Notar, Laurenzenvorstadt 360.\n— Sophie, Part., Laurenzenvorstadt 408.\nKutscher a, Eugen, Musikdirektor, Laurenzenvorstadt 390.\nLässer, Anna, Bahnhofstraße 1021.\n— geb. Gränicher, Susette, Witwe, Stadthof 92 c.\nLäubli, Jakob, Fabrikaufseher, Hammer 1505.\nLäuchi, Adolf, Lithograph, Kirchhof 164.\n— geb. Bürgi, Anna, Witwe, Zollrain 292.\n— Friedrich, Schlossermeister, Hammer 184.\n— Hans, Buchhalter, jenseits der Aare 1448.\n— Jakob, Stadtpolizist, Adelbändli 84.\n— Johann, Hafner, Halden 247.\n— Johann, Küher, obere Vorstadt 939.\n— Lina, Buchhalterin, Zollrain 292.\nLäuppi, Rudolf, Commis, Scheibenschachen 1486.\nLagerhäuser der Centralschweiz in Aarau und Olten, Laurenzen-\nvorstadt 545.\nLandolt & Cie. Lack- und Firnisfabrikation, obere Vorstadt 949.\n— geb. Frank, Katharina, Schuhmachers Wwe., Golattenmattg. 233.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6600,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2179,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:35:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p129",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p129.jpeg",
+      "bytes": 283770,
+      "sha256": "f47d3179a0205ddde60375e6e4441ba49ec0a6485e51aa2a1517eb2433ed7aa3",
+      "sha256_of": "original",
+      "working_copy": "1899_p129.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:35:09+00:00"
+  }
+}

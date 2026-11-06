@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p054",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p054.jpeg",
+    "bytes": 278416,
+    "sha256": "703a2e9a8409d718e35e688218ee5eb734012991bf1a7063bd45b433ab61f8f2",
+    "sha256_of": "original",
+    "working_copy": "1899_p054.jpeg"
+  },
+  "text": "46\nHaus-\nNr.\n1443 Gamper-Zürcher, Hermann, Kaufmann, ⚭.\nZürcher, Johann, gew. Turnlehrer, von Thalweil (Zür.).\n1444 Rohr-Baumann, Hans, Oberrichter, ⚭ von HunzenschwyI.\n1416 Stocker-Wirz, Friedrich Jos., Dr. jur., Fürsprech, Bankkon-\ntrolleur.\n1417 Brütel, Constanze, Part.\nHoffmann-Gamper, Emil, Kaufmann.\nGeneralagentur der Schweiz. Transport-Vers.-Gesellschaft in\nZürich.\nHauptagentur der Allg. Unfall- und Haftpflicht-Versicherungs-\nAktiengesellschaft Zürich in Zürich.\nBiedermann-Stydler, Emil, Hauptmann, Instruktor der In-\nfanterie, von Ins (Bern).\n1307 Widmer-Gamper, Friedr., Postcommis.\nDr. Schwere, Gottfried, Seminarlehrer, von Leuggern.\n1308 Mühlberg-Amsler, Marie, Postkontrolleurs Wwe., von Muri.\nMeier-Lüthy, Johann Jakob, Lehrer.\nHengherr-Hiltbrunner, August, Lehrer, v. Affoltern b. Höngg\n(Zürich).\n1425 Conrad-Lüthy, Peter, Regierungsrat ⚭, von Auw.\n1498 Weibel, Adolf, Zeichnungslehrer, von Muri.\nErne-Leblanc, Eduard, Kaufmann, von Leuggern.\nReimann-Reichli, Gust., Obergerichtsschreiber, v. Wölflinswyl.\nMontandon-Jequier, Paul, Commis, von Fleurier (Neuenburg).\n1499 † Erne & Cie., Kolonialwarengeschäft en gros, ⚭. Bureau und\nMagazin.\n1454 Ammann-Strähl, Robert, Architekt, Kantonschochbaumeister.\nSchwendimann-Amsler, Wilhelm, Dragoneroberlieutenant, Ka-\nvallerie-Instruktor, von Pohlern (Bern).\n1455 * Derselbe. Wohnhaus.\nKutscherä-Kiessner, E., Musik- und Gesangsdirektor, v. Brünn\n(Mähren).\n1456 * Hofer-Furter, Gottlieb, Dampfkessel-Inspektor, v. Bergdietikon.\nDerselbe.\nKettiger-Bertschinger, Arnold, Kaufmann, Prokurist, v. Liestal\n(BaselIand).\nAmsler-Harsch, Emil, Fürsprech und Notar, von Schinznach.\nBahnhofstrasse.\n559 Kern-Hunziker, Emil, Fabrikant ⚭.\n560 * Derselbe. Wohnhaus mit Remise.\nDietiker-Schluep, Jakob, Postfakteur, von Thalheim.\nAmmann, Maria, Ladentochter, von Ryken.\nDietiker-Häfliger, Johann, Maler, von Thalheim.\n1317 * Siebenmann-Hagnauer, Friedr., Bierbrauer, „Café z. Bank“.\nDisteli-Studer, Theodor, Wirt ⚭, von Olten.\nStuder, Adeline, Part., von Olten.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5842,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2008,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:27:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p054",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p054.jpeg",
+      "bytes": 278416,
+      "sha256": "703a2e9a8409d718e35e688218ee5eb734012991bf1a7063bd45b433ab61f8f2",
+      "sha256_of": "original",
+      "working_copy": "1899_p054.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:27:51+00:00"
+  }
+}

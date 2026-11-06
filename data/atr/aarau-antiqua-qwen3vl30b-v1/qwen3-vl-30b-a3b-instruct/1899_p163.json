@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p163",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p163.jpeg",
+    "bytes": 256661,
+    "sha256": "405b1a80d2a2db283de5875f11f8fb42a2e75d6a0f48e518b83648a0d1f79e28",
+    "sha256_of": "original",
+    "working_copy": "1899_p163.jpeg"
+  },
+  "text": "59\nEisen-, Messing- und Stahlwaren.\nFaller, Friedrich, * Rathausgasse 17.\n— -Faller, Elise Luise, Witwe, * Kronengasse 41.\nHenz-Gantschi, Emil, * vordere Vorstadt 903. (S. Inserat S. 23.)\n— Jb. & Cie., * vordere Vorstadt 678.\nElastische Gewebe-Fabriken.\nBally, E., * Fabrik hinter dem Bahnhof 490, Bureau Laurenzen-\nvorstadt 405.\nElektrizitäts-geschäfte.\nKummler & Cie., * hinter dem Bahnhof 1472. (S. Inserat S. 16.)\nElektrotechniker.\nSprecher, Karl, Zschokkestraße 977.\nEllenwarenhandlungen.\n(Siehe Tuchwaren.)\nErsparniskassen.\n(Siehe Bankgeschäfte.)\nEsswarenhandlungen.\n(Siehe Comestibles.)\nFabrikationsgeschäfte.\nAdam & Cie. * Fabrik in Buchs.\nFirmainhaber: A. Adam-Keller und Scholer. Gründungsjahr: 1860. Er-\nzeugnisse: Bleiche, Färberei und Appretur-Anstalt. Wasser- und Dampf-\nbetrieb.\nAndres-Bircher, Friedrich, Ofenfabrikation. Obere Vorstadt 916.\n(Siehe Inserat Seite 11.)\nBally, C. F., Söhne, (Les fils de C. F. Bally). * Jenseits d. Aare 309.\nHauptsitz in Schönenwerd, Filiale Aarau. Firmainhaber Eduard Bally-Prior\nund Arthur Bally-Herzog. Erzeugnisse: Schuhwaren. Elektrizitätsbetrieb.\nExport nach allen Gegenden.\nE. Bally, Elastiques-Fabrik. (E. Bally, Fabrique de Tissus Elasti-\nques.) * Laurenzenvorstadt 405.\nFirmainhaber: Eug. Bally. Gegründet 1854. Erzeugnisse: Fabrikation aller\nArten elastischer Gewebe. (Tissus Elastiques en tous genres.) Dampf-\nbetrieb. Export.\nBiber-Grab er, Theodor, Seidenbandfabrikation. * Hammer 193.\nCuster & Cie., Mineralwasserfabrikation. * Bahnhofstraße 651.\nErnst, Friedrich, Jak., * Röhrenfabrikation. Gais 1453.\nFleiner & Cie. * Jenseits der Aare 330.\nÄlteste Cementfabrik der Schweiz. Firmainhaber: Hans Fleiner. Kom-\nmanditärin: Frau Léontine Fleiner-Zschokke. Gründungsjahr der Fabrik:\n1833. Seit 1856 im Besitze der Familie Fleiner. Erzeugnisse: Fabrikation",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4798,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1815,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.24,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:38:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p163",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p163.jpeg",
+      "bytes": 256661,
+      "sha256": "405b1a80d2a2db283de5875f11f8fb42a2e75d6a0f48e518b83648a0d1f79e28",
+      "sha256_of": "original",
+      "working_copy": "1899_p163.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:38:31+00:00"
+  }
+}

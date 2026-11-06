@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p083",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p083.jpeg",
+    "bytes": 268695,
+    "sha256": "37b3fc4fa0a77b159a0747e86da02ab6bd92507fdf29f4d46394cd265f56cbd8",
+    "sha256_of": "original",
+    "working_copy": "1899_p083.jpeg"
+  },
+  "text": "75\n\nHaus-\nNr.\n968 Kyburg-Zaugg, Gotthold, Sattler und Tapezierer, v. Ober-\n  Entfelden.\n969 Käppeli-Müller, Gottlieb, Dr. jur., Reg.-Rat.\n970 Siebenmann-Steiner, Jakob, Part.\n  Brunner-Imiker, Elisabeth, Part.\n  Bertschi, Jakob, August, Sekretär, von Dürrenäsch.\n971 † Derselbe. Waschhaus.\n972 Schmuziger, Friedrich, Dr. med., prakt. Arzt. [tel]\n1177 † Derselbe. Bienenhaus.\n973 Schindler-Trümpi, Emma, Fabrikants Wwe., v. Mollis (Gl.).\n  Fabst-Schindler, Babette, Part., von Netstall (Glarus).\n1184 Derselbe. Holzremise.\n1075 Brentano-Bruggisser, Max, Zahnarzt, [tel] von Laufenburg.\n  Zschokke-Bodmer, Hermann, Agent.\n\nZschokkestrasse.\n974 Wanger, Gustav, Kassier der Aarg. Ersparniskasse.\n  —, Sophie, Kassiers.\n  —, Marie, Part., Kaufmanns.\n975 Ehrsam-Andres, Emilie, Postbeamten Witwe.\n  Zschokke-Schmuziger, Arnold, Dr. jur., Staatsschreiber.\n976 a † Wanger, Gustav, Kassier. (Holzhaus).\n976 b † Ehrsam-Andres, Emilie, Postbeamten Wwe. (Holzhaus).\n977 Stigler-Schaub, Joseph, Zeughausdirektor, v. Reckingen.\n  Sprecher-Siegrist, Karl, Chef des Elektrizitätswerkes, [tel]\n  von Aesch (Baselland).\n\nGartenstrasse.\n978 † Aktienbrauerei Feldschlösschen, Rheinfelden. (Bierkeller.)\n1199 † Derselbe. Schopf.\n1216 † „ Eiskeller.\n\nEntfelderstrasse.\n979 * Gebr. Riniker, Bierbrauer.\n  Siebenmann-Schmidt, Karl, Part.\n  Stoffel, Elisa, Bureauangestellte, von Lindau.\n  Baumann, Johann, Schmied, Part.\n  Amsler-Baumann, Heinrich, Werkführer, v. Densbüren.\n980 † Abgetragen.\n1398 Landolt-Hächler, Gottlieb, Ökonom (Zum Tannenheim).\n  Tanner-Vonwiller, Erwin, Fürsprech und Notar.\n1386 † Derselbe. Scheune.\n981 Maier-Rychner, Bertha, Professors Witwe.\n  Uhler, Bertha, Hauptlehrerin am Gewerbemuseum, von\n  Uttweil (Thurgau).\n982 † Dieselbe. Holz- und Waschhaus.\n983 Beck, Friedrich, Sattler.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 48316,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1785,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:50:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p083",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p083.jpeg",
+      "bytes": 268695,
+      "sha256": "37b3fc4fa0a77b159a0747e86da02ab6bd92507fdf29f4d46394cd265f56cbd8",
+      "sha256_of": "original",
+      "working_copy": "1899_p083.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:50:23+00:00"
+  }
+}

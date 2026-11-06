@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p032",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p032.jpeg",
+    "bytes": 258381,
+    "sha256": "50896dfb5d21c4383798bf878c4607a9cbf8969b938fd89215bd4ee9faa44e08",
+    "sha256_of": "original",
+    "working_copy": "1896_p032.jpeg"
+  },
+  "text": "10\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n101 * Derselbe.\nCantu-Hübscher, Joseph, Maurermeister, von Vico-Morcote (Tessin).\nHübscher-Willimann, Clementine, Part., von Schongau (Luzern).\nSchröder-Kern, Theodor, Schuhmacher, von Heintrog (Preussen).\n102 ⚡ Ryniker, Gebrüder, Karl und Arnold, Bierwirtschaft.\n103 * Dieselben.\nRyniker-Gross, Friedrich, Bierbrauer, Part.\nGross geb. Gross, Louise, Part., von Zurzach.\nSchlatter, August, Part.\n104 † Dieselben. Brauereigebäude.\n1066 † Dieselben. Kühlschiff.\n105 * Dieselben.\nHäfeli-Hächler, Josef, Sattler, von Oberwyl. (Werkstätte).\nKeller-Siebenmann, Auguste, Uhrenmachers Witwe, von Veltheim.\nScheurmann, Emilie, Privatin.\n106 a † Dieselben. Holzhaus.\n106 b Dieselben. Küche und Esszimmer.\n107 Lenzi-Weber, Jakob, Korbmacher, v. Wölflinswyl. Korbwarenhandl.\nMüller-Schmocker, Friedrich, Coiffeur.\nMüller-Schmocker, Verena, Modistin.\nUrech-Flückiger, Jakob, Polizeidiener, von Niederhallwyl.\nSchmutz geb. Weber, Anna, Wwe., Spetterin, v. Eptingen (Baselland).\nSchmocker, Gottlieb, Postpacker, von Ringgenberg (Bern).\n108 ⚡ Gamper-Wildi, Adolf, Metzger und Wurster.\nGamper-Hassler, Karolina, Bäckers Witwe.\n109 † Derselbe. Schweinemetzg und Waschhaus.\n110 † Derselbe. Metzgerei- und Wurstereilokal.\n111 † Derselbe. Eiskeller.\n1328 † Derselbe. Eiskeller.\n112 * ⚡ Kühn-Hoffmann, Bernhard, (Gasthof zum Rössli).\nKäsermann-von Allmen, Johann, von Bätterkinden (Bern), Wirt\nzum Rössli.\n113 * Gemeinde Aarau. Post-Filiale und Telegraphenbureau, Telefon-\nCentralstation, Löschmagazin, Stadtbibliothek und Grütlivereinslokal.\n\nLaurenzentorgasse.\n114 Abgetragen. An dessen Platz\n1118 Weber-Suter, Heinrich, Kaufmann, von Hinweil (Zürich) Spezialität\nin Damenkleiderstoffen.\nWeber-Suter, Ida, Modistin, von Hinweil (Zürich) Moden- und\nSeidenwaren, Spezialität in Handschuhen.\nSuter, Johann, Part., von Kölliken.\nSuter, Rosa, Damenschneiderin, von Kölliken. Robes u. Confection.\n115 ⚡ Biland-Wettler, Karl, Wirt, v. Birmenstorf. (Gasthof z. Ochsen).\n116 ⚡ Zebert-Altorfer, Georg, Buchbinder, von Bauma (Zürich).\nBuchbinderei und Linieranstalt. Schreibmaterialienhandlung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5694,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2120,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:02:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p032",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p032.jpeg",
+      "bytes": 258381,
+      "sha256": "50896dfb5d21c4383798bf878c4607a9cbf8969b938fd89215bd4ee9faa44e08",
+      "sha256_of": "original",
+      "working_copy": "1896_p032.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:02:21+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p098",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p098.jpeg",
+    "bytes": 280213,
+    "sha256": "61030cfb868edb5a9001f4b7b9f671f4b197176fd016bbe168a5a73a2b9c04dd",
+    "sha256_of": "original",
+    "working_copy": "1896_p098.jpeg"
+  },
+  "text": "76\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n1018 * Dieselben. Wohnhaus mit Holzremise.\nEichenberger-Fischer, Gottlieb, Schreiner, von Beinwy].\n1173 * Diakonissenstation Aarau.\nBerchten, Susanna, Diakonissin, von St. Stephan (Bern).\nKunz, Nanette, Näherin, von Mönchaltorf (Zürich).\nKiner geb. Tschopp, Näherin, von Zezwyl.\nBeyerler, Magdalena, Diakonissin, von Waleren (Bern).\nHirt, Luise, von Schmiedrued.\n1208 † Diakonissenstation Aarau. Waschhaus\n1019 * Evangelischer Verein.\nHauser, Elisa, Diakonissin, von Höstein (Baselland).\nWerner, Anna, Diakonissin, von Merishausen (Schaffhausen).\nFisch, Karoline, Arzt's.\nBertschinger, Johanna, von Lenzburg.\nFuchs-Kiburz, Marie, von Dürenäsch.\nMorgenthaler, Elisabeth, von Madiswil (Bern).\nBucher, Luise, von Lauffohr.\nSuter-Kähr, Elisabeth, Witwe, von Rapperswil (Bern).\n1020 Hassler-Hunziker, Karl, Kaufmann. Hemdenfabrikation. Weiss-\nwaren- und Tapetenhandlung.\nSiebenmann-Schmidt, Karl, Kaufmann.\nStoffel, Elisa, Bureauangestellte, von Lindau.\nRothpletz, Karl, Architect (Bureau).\nBär-Hassler, Louis, Sekretär.\nLässer, Bertha, von Williberg. (Kaffeehalle.)\nLässer, Anna, Haushälterin, von Williberg.\nLässer, Marie, Haushälterin, von Williberg.\n1021 † Derselbe. Hintergebäude.\nHunziker, Elisa, Damenschneiderin, von Muhren.\n1022 a Jäger-Hässig, Johann, Maurer, von Aussersihl (Zürich).\nHunziker-Schüch, Marie, Schriftsetzers Witwe, Part.\nBuhlrein, Friedrich, gewes. Spengler, Part.\n1022 b Wildi-Leuthard, Verena, Witwe, Part., von Veltheim.\nMarfurt, Frz. Xaver, Coiffeur, v. Langnau (Luzern), Coiffeurgeschäft.\nWächter, Maria, Hebamme, von Mönthal.\n1023 Siebenmann-Seiler, Katharina, Witwe, Part.\nHunziker-Siegrist, Rudolf, von Oberkulm. Kaffeewirtschaft.\nHirt-Siegrist, Samuel, Chocoladearbeiter, von Schöftnaud.\nSchmuziger-Lang, Elisa, Schreiners Witwe, Taglöhnerin.\nWullschleger-Blattner, Heinrich, Stadtarbeiter.\nWullschleger, Hans, Knecht, von Schloßrued.\nIberg-Hausmann, Maria, Witwe, Fabrikarbeiterin, von Küttigen.\n1024 Abgetragen, an dessen Platz\n1074 * Spenglier-Lienhard, Luise, Witwe, Part.\nSiebenmann-Siebenmann, Arnold, Tapezierer.\nSiebenmann-Blum, Elisa, Witwe, Part.\nRoth-Weber, Rudolf, von Erlinsbach (Aargau). Spezeriehandlung.\nSiebenmann-Hürsch, Gottlieb, Architect, Bauverwalter.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 71760,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2260,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T15:23:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p098",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p098.jpeg",
+      "bytes": 280213,
+      "sha256": "61030cfb868edb5a9001f4b7b9f671f4b197176fd016bbe168a5a73a2b9c04dd",
+      "sha256_of": "original",
+      "working_copy": "1896_p098.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T15:23:47+00:00"
+  }
+}

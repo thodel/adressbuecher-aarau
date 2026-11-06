@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p147",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p147.jpeg",
+    "bytes": 282831,
+    "sha256": "238272fd3c9f67d352c3aa490c847ee8c6e02d8ae37c5632c343b47e77c087e6",
+    "sha256_of": "original",
+    "working_copy": "1896_p147.jpeg"
+  },
+  "text": "Kurz, Erwin, Fürsprach u. Notar, Laurenzenvorstadt 360.\n— Sophie, Part., Laurenzenvorstadt 408.\nKutscherä, Eugen, Musikdirektor, Bachstraße 1043.\nLässer, Anna, Bahnhofstraße 1020.\n— Bertha, Kaffeehalle, Bahnhofstr. 1020.\n— Maria, Bahnhofstraße 1020.\nLäubli, Ernst, Schreiner, Obere Vorstadt 930.\n— Jakob, Fabrikaufseher, Hammer 190.\nLäuchli, Adolf, Lithograph, Kirchhof 164.\ngeb. Bürgi, Anna, Witwe, Wirtin, Rathausgasse 25.\n— Friedrich, Schlossermeister, Hammer 184.\n— Hans, Buchhalter, Rain 888.\n— Jakob, Polizeidiener, Ziegelrain 710.\n— Johann, Küher, Obere Vorstadt 939.\n— Lina, Glätterin, Pelzgasse 132.\nLagerhäuser der Centralschweiz in Aarau und Olten. Direktor: Adolf Ringer,  Laurenzenvorstadt 545.\nLanderer, August, Uhrenmacher, Laurenzenthorgasse 120.\nLandolt & Cie. (Karl Landolt, Karl Gänslen u. Karl Landolt-Thomen in Zürich) Lack- und Firnisfabrikation, Obere Vorstadt 949.\n— geb. Frank, Katharina, Schuhmachers Witwe, Golattenmattgasse 233.\n— Gottl., Oekonom, „Zum Tannenheim“, Entfelderstraße 1398.\n— geb. Hässig, Lina, Witwe, Rain 828.\n— geb. Häuptli, Maria, Witwe, Damen Schneiderin, Halden 284.\n— Karl, Fabrikant, obere Vorstadt 949.\nLang, Franz Theod., Augenarzt, Graben 615.\nLattmann, Georg Heinrich, Lokomotivführer, Kirchgasse 13.\nLaube, Andreas, Stationsgehilfe, hinter dem Bahnhof 1351.\n— Karl, Rechnungsrevisor, Entfelderstraße 981.\nLauber, Jos. Anton, Postcommis, Rathausgasse 22.\nLaury, Jakob, Wagner, Bachstraße 1031.\nLechner, Paul Franz, Zuschneider, obere Vorstadt 926.\nLehmann geb. Oelhafen, Jenny, Merceriegeschäft, vordere Vorstadt 891.\nLehner, Rudolf, Küher, obere Vorstadt 946.\nLenzi, Albert, Koutroleur der Aarg. Ersparniskasse, Pelzgasse 129.\n— Jakob, Korbmacher, Korbwarendlg., Metzgergasse 107.\n— Xaver, Bahnangestellter, Halden 281.\nLenzin, Sophie, Lehrerin, Pelzgasse 124.\nLerf, Moritz, Schneider, Schmiedgasse 635.\nLeu, Jakob, Taglöhner, Laurenzenvorstadt 376.\n— Jakob, Obergerichtskanzlist, vor dem Haldenthor 766.\nLeutwyler geb. Hofer, Elise, Strickerin, Ziegelrain 713.\nLiechti, Paul, Dr. phil., Professor, vor dem Haldenthor 1243.\nLienberger, Kaspar, Schuhmacher, Kirchgasse 8 b.\nLienhard, Anna, Modistin,Modengeschäft, Pelzgasse 67.\n— geb. Baumann, Emilie, Witwe, Rain 880.\nLimmacher, Nikl., Schuhmachermeister, Rathausgasse 24.\nLindenmann, Emma, Lehrerin, Kasinostraße 576.\n— Jakob, Büchsenmacher, Hintere Vorstadt 642.\n— Ida, Telegraphistin, Kasinostraße 576.\n— geb. Wey, Maria, Witwe, Part., Kasinostraße 576.\nLindegger, Gottfried, Güterexpedient, Hinter dem Bahnhof 497.\nLinden geb. Grob, Emma, Witwe, Haushälterin, Gais 480.\nLindt geb. Clas, Karol., Pfarrers Witwe, Laurenzenvorstadt 410.\n— Otto, Dr. phil., Apotheker, Rathausgasse 16.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7525,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2689,
+    "lines": 53,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.75,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:12:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p147",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p147.jpeg",
+      "bytes": 282831,
+      "sha256": "238272fd3c9f67d352c3aa490c847ee8c6e02d8ae37c5632c343b47e77c087e6",
+      "sha256_of": "original",
+      "working_copy": "1896_p147.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:12:54+00:00"
+  }
+}

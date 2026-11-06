@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p063",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p063.jpeg",
+    "bytes": 262576,
+    "sha256": "b87081551a8ac816194abe68b7ce9068d1383bd587713e4141b845257696c097",
+    "sha256_of": "original",
+    "working_copy": "1896_p063.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 41\nHaus-\nNr.\n501 Fricker-Hiltpold, Samuel, Bahnmeister, von Veltheim.\nKielholz, Gottlieb, Postbeamter, von Mettau.\n502 Freimaurerloge zur Brudertreue.\nNiederhauser-Gysin, Theodor, Buchbinder, von Baselaugst (Baselland).\n1351 Ernst-Steiner, Gustav, Kanzleisekretär.\nLaube, Andreas, Stationsgehülfe, von Böbikon.\nMüller, Jakob Augustin, Stationsgehülfe, von Degerfelden.\n1352 * Schäfer-Troller, Adolf, Architekt.\nBaltisberger-Röhne, Jakob, Prediger, von Mühlthal.\nGloor, Karoline, Wäscherin, von Birrwyl.\n1356 * Derselbe. Südbahnbureau.\n1357\n503 * Rödelberger-Popp, Franz, Musikdirektor, v. Würzburg (Bayern).\nSchmuziger-Koller, Daniel, Baumeister, in Zürich.\nKieser-Dambach, Robert, Bankbeamter.\n504 † Derselbe. Holzschopf.\n505 † \" Magazin.\n506 † \" Ladenschopf.\n507 † \" Baracke\nMüller, Arnold, Baumeister. Fabrikation und Lager in Cement-\nröhren etc.\n1268 Gerodetti-Habermacher, Virgilius, von Sagliano (Italien). Mar-\nmorsteingeschäft.\nMadon-Laufer, Viktor, Lokomotivführer, von Zürich.\nBugmann, Karl, Stationsgehülfe, von Dottikon.\nMüller, Eugen, Wagenkontrolleur, von Affoltern (Zürich).\n1412 † Derselbe. Marmorsäge.\n508 † Saxer-Pfleger, Ludwig, Kaufmann, Gartenhaus.\n1414 Lüscher-Umiker, Hermann, Mechaniker.\nBürgi, Werner, Reisender, von St. Gallen.\nBigler, Ulrich, Dr. phil., Bezirksschullehrer, von Oberthal (Bern).\nSchenker, Adolf, Fachlehrer (Handwerkerschule), v. Dänikon (Soloth.).\nBankstrasse.\n509 Kauf-Gattiker, Heinrich, gew. Lokomotivf., v. Wellhausen (Thurgau).\nKauf, Alfred, Kassier d. aarg. Kreditanst., v. Wellhausen (Thurgau).\n510 Siebenmann-Siebenmann, Rudolf, Part.\n1234 † Derselbe. Holzhaus.\n1141 Kunz, Johann Jakob, von Wald (Zürich), Part.\nWalder-Kunz, Elise, Witwe, von Benken (Schaffhausen).\nGessner-Siegfried, August, Dr. phil., Professor, von Zürich.\nFirma: Merz & Suter. Zuckerwarenfabrik.\n1251 † Derselbe. Holz- und Waschhaus.\n1146 * Lüscher-Umiker, Hermann, Mechaniker.\nHenz-Siebenmann, Adele, Witwe, Part.\nWürger, Heinrich, Giessereibesitzers sel. Kinder.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6582,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2031,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:05:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p063",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p063.jpeg",
+      "bytes": 262576,
+      "sha256": "b87081551a8ac816194abe68b7ce9068d1383bd587713e4141b845257696c097",
+      "sha256_of": "original",
+      "working_copy": "1896_p063.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:05:17+00:00"
+  }
+}

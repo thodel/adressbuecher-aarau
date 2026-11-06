@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p097",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p097.jpeg",
+    "bytes": 243980,
+    "sha256": "a378e75005f6919d5871eea8d0caa8a1a3cfccda3d0d6d200f5e4ce3db290ee1",
+    "sha256_of": "original",
+    "working_copy": "1896_p097.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 75\nHaus-\nNr.\n1346 † Derselbe. Holzremise.\n999 Riniker, Hans, Regierungsrat, von Habsburg. Erbschaft.\n  Gysi-Riniker, Hans, Reifzeugfabrikant.\n1000 † Dieselbe. Wasch- und Holzhaus.\n1103 Hartmann-Götter, Rudolf, Fabrikant, von Ebnat (St. Gallen).\n1122 † Derselbe. Waschhaus.\n1129 * [tel] Bally-Prior, Eduard, Fabrikant in Schönenwerd.\n  Gull-Wild, Bernadine, Witwe, Part., von St. Gallen.\n  Gull, Emil, Kaufmann, von St. Gallen.\n  Prior-Dettmer, Helena, Part., von Dissen (Hannover).\n  v. Brockdorff, Emilie, Comtesse, von Kiel (Holstein).\n1166 [tel] Siebenmann-Siebenmann, Gottlieb, Part. (Zum Rosenfels.)\n1167 † Derselbe. Waschhaus.\n1448 Hunziker-Thommen, Maria, Witwe, Part.\n  Hunziker, Hermann, Sohn, Kaufmann.\n\nGoldern.\n1001 Jakob-Ryser, Johann, Oekonom, von Rapperswil (Bern).\n1002 † Dieselbe. Wagenschopf.\n1003 † Derselbe. Waschhaus.\n\nScheibenschachen.\n1004 † Riniker, Gebrüder, Bierbrauer. Faßremise.\n\nBinsenhof.\n1005 Riniker-Läuchli, Jakob, Oekonom.\n1006 * Derselbe. Wohnhaus.\n  Rennhard-Stirnmann, Joseph, Knecht, von Böttstein.\n1007 † Derselbe. Scheune.\n1008 † Derselbe. Holzschofpf.\n1009 † Derselbe. Werkstätte und Waschhaus.\n1010 Riniker-Waldis, Arnold, Kaufmann, Wirtschast z. „Binsenhof“.\n  Riniker-Temperli, Friedrich, Landwirt, von Schinznach.\n1011 † Derselbe. Stallung, Scheune und Holzhaus.\n1012 Abgetragen.\n\nBahnhofstrasse.\n1013 [tel] Zurinder-Richner, Rudolf, Fabrikant, von Zofingen.\n1014 † Derselbe. Wasch- und Holzhaus.\n1221 † Derselbe. Holzremise.\n1343 1015 Evangelischer Verein. Kapelle.\n  Derselbe. Vereinshaus. Klein-Kinderschule.\n  Kull-Hartmann, Friedrich, Abwart, von Fluntern (Zürich).\n1016 † [tel] Frey-Rüegg & Cie., Fabrik. Seidenbandfabrikation.\n1017 † Dieselben. Maschinenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 342566,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1755,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T15:22:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p097",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p097.jpeg",
+      "bytes": 243980,
+      "sha256": "a378e75005f6919d5871eea8d0caa8a1a3cfccda3d0d6d200f5e4ce3db290ee1",
+      "sha256_of": "original",
+      "working_copy": "1896_p097.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T15:22:36+00:00"
+  }
+}

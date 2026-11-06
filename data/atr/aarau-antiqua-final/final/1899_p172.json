@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p172",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p172.jpeg",
+    "bytes": 256917,
+    "sha256": "50bc7845ab0eb1f370b7fd624aa307856c9e497f6617e23fcd39cfcadf0a3266",
+    "sha256_of": "original",
+    "working_copy": "1899_p172.jpeg"
+  },
+  "text": "68\n\n    Instrumentmacher.\nHirsbrunner, Gottfried, * Kasinostraße 570.\n    Käsehandlungen.\nEtter, Reinhard, Rain 825.\nOtt-Wenger, Marie, Adelbändli 81.\nScheidegger, J. Ulrich, * Holzmarkt 663.\nSchießer, Hermann, * (en gros et en détail), Pelzgasse 121.\nSommerhalder, R., Kirchgasse 14.\nStirnemann, Jakob, Zollrain 91.\nUrben, Johann, Kasinostraße 660.\n    Kalkfabrikanten.\nFlener & Cie., * Fabrik von schwerem hydraulischem Kalk, Erlins-\n  bacherstraße 327. (S. Inserat innere vordere Deckelseite.)\nHauri-Siegenthaler, Karl, * Rain 866.\nThut-Gidemann, Hermann, * Rain 863.\n    Kaminfeger.\nVogel, Rudolf, Entfelderstraße 1147.\nWägeler, Karl, vor dem Haldenthor 1306.\nWidmer, Gottfried, vor dem Haldenthor 808.\n    Kastanienverkäufer.\nDürr, Emil, Milchgasse 143.\nMarini, Dominico, Schmiedgasse 634.\n    Kautschuk-Artikel für Krankenpflege.\nAngst, Robert, * hinter dem Platz 214.\nSernatinger, Valerian, * vordere Vorstadt 893.\nSperlich, Theodor, vordere Vorstadt 666.\n    Kellereiartikel.\nCuster, E. & Cie., * Bahnhofstraße 651.\n  Klärlösungen, Fasswachs, Fassbrand etc.\n    Kerzenfabrikanten.\nErdin, Siegfried, Hammer 185 b.\nMaurer, Emil, * z. Kreuz, jenseits der Aare 1303 a.\n    Kinderspielwaren.\nHemmeler & Cie., * hintere Vorstadt 638. (en gros.)\n— -Stahl, J., * Rathausgasse 21.\nMarti, Flora, Metzgergasse 55. (S. Inserat Seite 7.)\nMorath, J. W., * Rathausgasse 2.\nVonfelten-Willimann, Franz Joseph, * Kronengasse 37.\nWetter & Cie., * obere Vorstadt 925.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10917,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1455,
+    "lines": 40,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0021,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:03:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p172",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p172.jpeg",
+      "bytes": 256917,
+      "sha256": "50bc7845ab0eb1f370b7fd624aa307856c9e497f6617e23fcd39cfcadf0a3266",
+      "sha256_of": "original",
+      "working_copy": "1899_p172.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:03:51+00:00"
+  }
+}

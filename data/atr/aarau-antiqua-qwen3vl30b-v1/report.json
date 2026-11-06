@@ -1,0 +1,80 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "pages": 395,
+  "started_at": "2026-11-06T13:53:47+00:00",
+  "elapsed_s": 3019.4,
+  "rebuilt": false,
+  "skipped_files": [],
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": "/home/dh/agentic_historian/agentic_historian/data/nextcloud/adressbuecher-aarau/antiqua",
+    "gateway": "http://130.92.59.240:8200",
+    "runner": {
+      "name": "agentic-historian",
+      "version": "0.1.0",
+      "commit": "fa9e130746122e0e888d23d9d5825a5bdd068631",
+      "commit_source": "git"
+    },
+    "started_at": "2026-11-06T13:53:47+00:00",
+    "ended_at": "2026-11-06T14:44:06+00:00",
+    "models": [
+      {
+        "model": "qwen3-vl-30b-a3b-instruct",
+        "engine": null,
+        "level": null,
+        "revision": null,
+        "revision_kind": "unreported",
+        "weights": null,
+        "base_model": null
+      }
+    ]
+  },
+  "models": [
+    {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "done": 395,
+      "skipped": 0,
+      "failed": 0,
+      "chars": 1004866,
+      "lines": 0,
+      "truncated": 11,
+      "truncated_keys": [
+        "1896_p008",
+        "1896_p014",
+        "1896_p016",
+        "1896_p017",
+        "1896_p018",
+        "1896_p019",
+        "1896_p021",
+        "1896_p206",
+        "1899_p007",
+        "1899_p170",
+        "1899_p188"
+      ],
+      "empty": 0,
+      "empty_keys": [],
+      "repetitive": 2,
+      "repetitive_keys": [
+        "1899_p170",
+        "1899_p188"
+      ],
+      "deliberated": 0,
+      "deliberation_keys": [],
+      "verdicts": {
+        "short": 3,
+        "ok": 390,
+        "repetitive": 2
+      },
+      "recognition_ms": 3016333,
+      "elapsed_s": 3019.4,
+      "aborted": "",
+      "source_errors": 0,
+      "source_missing": 0,
+      "source_missing_keys": [],
+      "errors": [],
+      "energy": null
+    }
+  ]
+}

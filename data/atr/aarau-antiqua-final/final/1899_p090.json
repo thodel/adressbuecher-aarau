@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p090",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p090.jpeg",
+    "bytes": 262565,
+    "sha256": "45939e2d6b0ada653fb4fe95c77f76fcec427e221cec8af30918fa44a60216a2",
+    "sha256_of": "original",
+    "working_copy": "1899_p090.jpeg"
+  },
+  "text": "82\nHaus-\nNr.\nWidmer-Nadler, Arnold, Lithograph, von Gränichen.\nKeller-Jäggi, Andreas, Hauptagent der Schweizerischen\n  Mobilienversicherungsgesellschaft (Bern).\n1044 + Derselbe. Holzremise und Hühnerhaus.\n1045 Derselbe. Wohnhaus.\nBurger-Mathys, Hans, Fürsprech, Kriminalgerichts-\n  schreiber, von Freienwil.\nWolf-Allemann, Fritz, Architekt, Adjunkt des Hoch-\n  baumeisters.\n1046 + Herzog-Zobel, Julie, Witwe, Scheune.\n1047 — —, Julie, Witwe.\n  —, Hans, Dr. Phil., Staatsarchivar.\n  —, Max, Kaufmann.\nRoithpletz-Brüel, Alfred, alt Bankdirektor.\nIsler, Walter, Dr. med., ⚓ von Wohlen.\n1048 * Hegnauer-Renold, Rudolf, Fabrikant.\nOhl, Gustav, Fabrikant, v. Barmen (Bureau).\nHangartner-Alder, Ferd., Lithograph. (Schaffhausen).\n1049 + Derselbe. Fabrikgebäude.\n1050 + Wyser, Alfred (Färberei).\nOhl, Gustav, Fabrikant (Litzenfabrikation).\nR. und M. Frey, Chocoladefabrik.\n1051 + Wyser-Müller, Alfred, Seidenfärber. Firma: Alfred Wyser,\n  Seidenfärberei.\n1052 Derselbe. Wohnhaus mit Werkstätte.\nBelart, Julie, Lehrerin, von Brugg.\nBelart, Marie, Part., von Brugg.\n1053 + Wyser-Müller, Alfred. Holzschofpf.\n1054 + Reiner-Scheuermann, Elise, Fabrikants (Erbenschaft).\nRohr-Reiner, Hans, Staatsanwaltsubstitut, von Lenzburg.\n1055 Wyser-Müller, Alfr., Seidenfärber ⚓. Wohnhaus und\n  Färberei.\nRichter-Wyser, Albert, Färber, von Elberfeld (Preussen).\n1056 + Derselbe. Färberei.\n1057 + „ Seidenfabrik und Druckerei.\n1058 a + „ Waschhaus.\n1058 b + „ Färberei.\n1059 Abgetragen.\n1060 + Dr. Hegar-Bolley, Friedrich, Musikdirektor von Zürich\n  und Basel. (Scheune).\n1061 Brack-Fehlmann, Abraham, Oekonom.\n1396 Walter-Dubs, Hans, Oekonom und Holzhandlung. ⚓\nSiebenmann, Adolf, Sekretär.\n  —, Fanny, Part.\n1518 + Derselbe. Scheune.\n1535 + „ Hühnerhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 107062,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1731,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:00:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p090",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p090.jpeg",
+      "bytes": 262565,
+      "sha256": "45939e2d6b0ada653fb4fe95c77f76fcec427e221cec8af30918fa44a60216a2",
+      "sha256_of": "original",
+      "working_copy": "1899_p090.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:00:00+00:00"
+  }
+}

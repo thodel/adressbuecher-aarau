@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p079.jpeg",
+    "bytes": 274337,
+    "sha256": "67fa828cbd444f7cb35592322bd45eee4a474b7861a71d9bdb82f877d4b7e638",
+    "sha256_of": "original",
+    "working_copy": "1896_p079.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.    57\nHaus-\nNr.\nSchachen.\n723    Schmidt-Henz, Hans, Part.\n         Hassler-Schmidt, Fried., Verwalter des städt. Electricitätswerkes.\n1168   † Derselbe.    Holzschopf.\n724   † Ortsbürger-Gemeinde Aarau.    Waschhaus.\n1333   † Einwohner-Gemeinde Aarau.    Militärbaracke I.\n1334   † Derselbe.    Militärbaracke II.\n1259   * Walther-Matter, Verena, Oekonoms Witwe.\n         Wietlisbach-Walther, Joseph Burkard, Postcommis.\n         Furter-Rüegger, Friedrich, Agent, von Staufen.\n         Furter, Theophil, Privatlithograph, von Staufen.\n         Furter, Klara, von Staufen, Kursleiterin von Handarbeiten, künst-\n         liche Blumen von Stoff und Papier.\n725    Müller-von Däniken, Friedrich, Oeconom.\n         Reinhard-Müller, Joh. Baptist, Gärtner, von Balsthal (Solothurn).\n726   * Derselbe.    Wohnhaus.\n         Müller-Bachmann, Hermann, Oeconom.\n1331   † Derselbe.    Scheune.\n727    ☛ Egloff-Meier, Franz, Postfacteur, von Wettingen.    Kantinen-\n         wirthschaft.\n728   † Derselbe.    Trinkhalle.\n729    Hegnauer-Fischer, Rudolf, Buchhalter, von Seengen.\n         Baumann-Bhend, Gottlieb, Schneider, von Schafisheim.\n         Baumann, Elise, Damenschneiderin, von Schafisheim.\n         Meier-Appenzeller, Franz Joseph, Schneider, von Wohlen.\n1325   † Derselbe.    Holzschopf.\n1261   Matter-Schönenberg, Samuel, Amtsschreiber, von Oberentfelden.\n         Senn-Brand, Isidor, Lehrer, von Ob.-Siggenthal.\n730    Kielholz, Leopold, Part. Erbschaft.\n731    ☛ Burger-Kielholz, Samuel, Wirt, v. Möriken.    Speisewirthschaft.\n         Senn, Gottfried, Sekretär (Militärkanzlei), von Gansingen.\n         Huber-Ruchit, Rudolf, Telephonarbeiter, von Mauraz (Waadt).\n732   * Derselbe.    Wohnhaus.\n         Kielholz, Luise, Part.\n733    Hürset-Lüscher, Gottl., Fuhrmann, v. Dienne (Bern). Speisewirthschaft.\n734    Hochstrasser (Merz), Marie, Damenschneiderin, v. Auenstein.\n         Schmuziger-Hochstrasser, Marie, Part.\n         Ammann-Wälchli, Joh., v. Madiiswyl (Bern), Speisewirthschaft.\n         Hauri-Kyburz, Samuel, Briefträger, von Seengen.\n         Basler, Johann, Briefträger, von Zeihen.\n735    Uster-Bolliger, Heinrich, Malermeister, von Feuerthalen (Zürich).\n         (Malerwerkstätte).\n736   * Derselbe.    Wohnhaus.\n         Brack-Uster, Heinrich, Chef des Aarg. Polizeikorps.\n         Bolliger-Speck, Elisabeth, Part., von Schlossrued.\n         Thut, Gottlieb, Part., von Ober-Entfelden.\n         *",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 142328,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2460,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.72,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:48:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p079.jpeg",
+      "bytes": 274337,
+      "sha256": "67fa828cbd444f7cb35592322bd45eee4a474b7861a71d9bdb82f877d4b7e638",
+      "sha256_of": "original",
+      "working_copy": "1896_p079.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:48:18+00:00"
+  }
+}

@@ -40,7 +40,7 @@ def street_vocab() -> list[str]:
     if p.exists():
         with p.open(encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
-                if r["norm_method"] == "rule" and int(r["n"]) >= 3:
+                if r["norm_method"] in ("rule", "fuzzy") and int(r["n"]) >= 3:
                     names.add(r["street_norm"])
     names |= {"Bahnhofstraße", "Bahnhofstrasse", "Hintere Bahnhofstr.", "Telli", "Graben", "Weinberg", "Küttigerstraße",
               "Kasinostraße", "Casinostraße", "Laurenzenvorstadt", "Vordere Vorstadt", "Hintere Vorstadt", "Obere Vorstadt",

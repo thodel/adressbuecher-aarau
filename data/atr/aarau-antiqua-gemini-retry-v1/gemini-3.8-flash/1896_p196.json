@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-gemini-retry-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p196",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p196.jpeg",
+    "bytes": 272783,
+    "sha256": "37279a5a7de2179edfd66a805f6d6473515f84bc10726e393635e7f1bc01a88c",
+    "sha256_of": "original",
+    "working_copy": "1896_p196.jpeg"
+  },
+  "text": "Die alte Kantonsschule, nach einer alten Lithographie.\n\nOeffentliche Anstalten.\n\na. Lehranstalten.\n\nKantonsschule.\nGründung derselben 1802.\nRektor: Dr. Aug. Tuchschmid.\n\nProfessoren und Lehrer.\nDr. Bäbler, für Geschichte sowie einen Teil des\n  Deutschen an der Gewerbeschule.\nBurgmeier, für Gesang.\nDr. Frey, Stellvertreter des Rektors, für deutsche\n  Sprache und Litteratur am Gymnasium u. den\n  beiden obern Klassen der Gewerbeschule.\nDr. Fröhlich, für alte Sprachen.\nDr. Ganter, für Mathematik am Gymnasium und\n  an der Gewerbeschule.\nDr. Gessner, für alte Sprachen.\nGladbach, für technisches Zeichnen, deskriptive u.\n  praktische Geometrie und für Geographie am\n  Gymnasium und an der Gewerbeschule.\nHunziker, für Französisch am Gymnasium und\n  Gewerbeschule.\nDr. Liechti, für Chemie.\nDr. Mühlberg, für Naturgeschichte.\nRennhart, für Englisch am Gymnasium und an der\n  Gewerbeschule, für Italienisch an d. Gewerbe-\n  schule.\nRey, Jakob Friedr., für Französisch u. Italienisch.\nRoth, Oberst, für theoretischen Militärunterricht.\nDr. Tuchschmid, Rektor, für Mathematik an der\n  Gewerbeschule und Physik am Gymnasium u.\n  an der Gewerbeschule.\nWäffler, für Turnunterricht.\nWernly, Pfarrer, für Hebräisch.\nWidmer, Pfarrer in Gränichen, für Religionsunter-\n  richt.\n[spalte 2]\nDr. Winteler, für Geschichte am Gymnasium und\n  alte Sprachen.\nWolfinger, für Kunstzeichnen.\nZimmermann, für Schreiben und Stenographie.\nAn der Musikschule.\nRödelberger, Direktor, für Violine und Pianoforte.\n\nDas Kantonsschülerhaus\nwurde am 1. Mai 1890 eröffnet. Dasselbe hat den\nZweck, Kantonsschüler, deren Eltern nicht in Aarau\nwohnen, aufzunehmen, zu verpflegen und ihnen\nwährend ihrer Studienzeit in Aarau das Elternhaus\nzu ersetzen. Es nimmt 38 Schüler auf. Der der-\nzeitige Vorsteher ist Dr. H. Ganter.\n\nTöchterinstitut und Lehrerinnen-\nSeminar Aarau.\nGründung des Töchterinstituts als einer Privat-\nanstalt nach dem Muster der Gossweilerschen Schule\nin Zürich durch eine Stiftung der Schultheißin\nHunziker geb. Zollikofer 1786 und Eröffnung den\n9. November 1787. Das Töchterinstitut ist die\nälteste höhere Lehranstalt unseres Kantons.\nGründung des (staatlichen) Lehrerinnenseminars\n1872 im Anschluss an das Töchterinstitut und Er-\nöffnung der vereinigten Anstalt anfangs Juni 1873.\nZweck: A. des Töchterinstituts nach der Stif-\ntungsurkunde: „Bessere Bildung der Töchter.“ Schon\nnach einem Jahre kamen zu den bisherigen wissen-\nschaftlichen Fächern noch die französische Sprache\nund weibliche Arbeiten hinzu, ersteres, „weil man\nhoffte, dadurch die Unkosten, ja vielleicht Sitten-\nverderbnis, so die Absendung unserer Töchter nach\nder Waadt, Genf oder Colmar veranlasst, wo nicht\nganz, doch zum Teil zu ersparen; letzteres, weil",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7087,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2712,
+    "lines": 70,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0143,
+    "mean_line_chars": 37.3,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T20:47:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-gemini-retry-v1",
+    "source": {
+      "key": "1896_p196",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p196.jpeg",
+      "bytes": 272783,
+      "sha256": "37279a5a7de2179edfd66a805f6d6473515f84bc10726e393635e7f1bc01a88c",
+      "sha256_of": "original",
+      "working_copy": "1896_p196.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:47:45+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p210",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p210.jpeg",
+    "bytes": 267009,
+    "sha256": "e9d51d2bd7b6a7dbbf43cf2110ec0f7eec2e4047f08d79576786f439681f9d48",
+    "sha256_of": "original",
+    "working_copy": "1896_p210.jpeg"
+  },
+  "text": "172\nVereine etc.\nFritzen-Verein.\nGründung: 1860.\nZweck: Geselligkeit.\nMitgl. auf Ende Oktober 1894: 42.\nJahresbeitrag: beliebig, Minimum 50 Cts.\nAkt.: Fritz Andres, Kanzlist.\nJakoben-Verein.\nGründung: 25 Juli 1863.\nZweck: Geselligkeit.\nMitglieder: 53. 14 junge Jakobe, welche vom\nVerein je ein Sparkassabüchlein besitzen.\nJahresbeitrag: Fr. 1.\nPräs.: Jakob Wirth-Herzog.\nAkt.: Jakob Stauber, Notar.\nVermögen: Fr. 600.\nVermögen der 14 jungen Jakobe: Fr. 400.\nAltersgenossen-Verein.\nGründung: 15. Januar 1884.\nZweck: In regelmässigen Zusammenkünften\ndas gemütliche u. gesellschaftliche Leben der über\n60 Jahre alten Einwohner zu pflegen und dieselben\neinander näher zu bringen. Alljährlich im Vor-\nsommer macht derselbe einen einträglichen Ausflug,\nan welchem auch Frauen und Töchter teilnehmen.\nVerstorbene Mitglieder werden von den andern zur\nletzten Ruhstätte begleitet. Der Verein hat eine\nFahne und beteiligt sich an vaterländischen Festen\nund Feierlichkeiten.\nMitgl.: 151, worunter 3 Ehrenmitglieder.\nJahresbeitrag: Fr. 1.\nPräs.: H. Baumann-Gysi.\n[spalte 2]\nAkt.: Meisel, Forstverwalter.\nKassier: Hässig-Lienhard.\nVereinslokal: Hôtel Wildenmann.\nDreizhner-Klub.\nGründung: „Im Jahre des Heils 1873 waren den\nersten Dienstag des Monats Juli 13 Männer in der\nWirtschaft Kieser versammelt, die zusammen 800\nJahre repräsentirten. Da es im Volksmunde heißt,\nwenn dreizhne beieinander sind, so stirbt inner\nJahresfrist Einer, so gaben sich die Anwesenden\ndas Wort jährlich Rundschen zu halten; sie blieben\nbis heute (6. Juli 1875) verschont. Nach zährijärirem\nBestand konstituirte sich dann noch ein jüngerer\nVerein (Klub II), dessen Mitglieder zusammen 726\nJahre zählten und die den männlichen Zweck ver\nfolgen: jährlich am ersten Dienstag des Monat\nJuli sich ihres Daseins zu freuen.“ (Aus dem Vors\nwort zum Protokoll). Die erste Sitzung fand am\n6. Juli 1875 statt.\nZweck: Je den ersten Dienstag im Juli ge\nmütliches Beisammensein beim „Herbergsvater\nWilhelm“. Abhaltung einer Gedenkthiseifer bei\nSterbefällen von Mitgliedern und Beiwohnung beim\nBegräbnis.\nMitglieder: Am Dienstag den 2. Juli 1895 waren\nvon Klub I noch 2 Mitglieder mit zusammen 137\nJahren und vom Klub II 4 Mitglieder mit zusam\nmen 239 Jahren am Leben. — Es dürfen statuten\ngemäss keine neuen Mitglieder aufgenommen wer\nden, der Verein muss aussterben.\nJahresbeitrag: Fr. 1.\nVermögen auf 2. Juli 1895: Klub I ca. Fr. 200\nund Klub II Fr. 228, 20. Das bezügliche Sparkassa\nbüchlein soll nach statutarischar Bestimmung dem\nletzten Dreizhner als Eigen tum zufallen.\nPräsident: Jb. Wirth-Herzog.\nInternirten-Denkmal auf dem Friedhof.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17330,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2595,
+    "lines": 71,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0423,
+    "mean_line_chars": 35.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:29:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p210",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p210.jpeg",
+      "bytes": 267009,
+      "sha256": "e9d51d2bd7b6a7dbbf43cf2110ec0f7eec2e4047f08d79576786f439681f9d48",
+      "sha256_of": "original",
+      "working_copy": "1896_p210.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:29:26+00:00"
+  }
+}

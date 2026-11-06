@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p064",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p064.jpeg",
+    "bytes": 275667,
+    "sha256": "b1e5ba1fc7a0dfe7ee09e95f248d68f5f3260fe172e74654646e0b0bc2a91a77",
+    "sha256_of": "original",
+    "working_copy": "1899_p064.jpeg"
+  },
+  "text": "56\nHaus-\nNr.\nSiebenmann-Ackermann, Bernhard, Part.\n  Müller-Nünlisr, Sigmund, Zimmermeister, von Walterswil\n  (Solothurn).\n  Renold-Schneider, Maria, Fabrikarbeiterin, von Bruneegg.\n674 Kunz-Graf, Ernst, Zuckerbäcker, [tel] von Wald (Zürich).\n  Zündt geb. Hagenbuch, Elise Luise, Witwe, Part., von\n  Alstättchen (St. Gallen).\n675 Studer-Sandmeier, Anna, Witwe, Part.\n  Gysi-Studler, Arnold, Mechaniker.\n  Hofmann, Arnold, von Aarburg. Manufakturwaarenhdlg.\n676 Hagenbuch-Egger, Friedr., Buchbinderei u. Papeterie. [tel]\n677 † Derselbe. Buchbinderwerkstätte.\n678 * Henz-Plüss, Jakob, Kaufmann. [tel]\n  — -von Seuter, Hans, Kaufmann.\n  Jakob Henz & Cie., Firma. Colonialwaarengeschäft.\n679\n  Abgetragen; an dessen Platz\n1169\n  Henz-Plüss, Jakob, Kaufmann.\n  Jb. Henz & Cie., Firma. Eisenhandlungsgeschäft.\n680 Schäfer-Deniler, Cäsar, Messerschmied.\n  Meier-Grossmann, Anna, Witwe, Part., von Rheinfelden.\n  Hässig-Hauenstein, Elisabeth, Witwe, Part.\n681 Scherz-Mollet, Karl Niklaus,",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 143914,
+  "truncated": true,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 980,
+    "lines": 27,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.3,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:32:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p064",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p064.jpeg",
+      "bytes": 275667,
+      "sha256": "b1e5ba1fc7a0dfe7ee09e95f248d68f5f3260fe172e74654646e0b0bc2a91a77",
+      "sha256_of": "original",
+      "working_copy": "1899_p064.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:32:13+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p085",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p085.jpeg",
+    "bytes": 273321,
+    "sha256": "ec9319c85e61e89a8e639da02497addfd8aca2698479181377e33739cf66b711",
+    "sha256_of": "original",
+    "working_copy": "1896_p085.jpeg"
+  },
+  "text": "Haus-\nNr.\n823 Gautschi-Frei, Rudolf, Commis, v. Gontenschwyl. Spezereihandlung.\nWanger-Siebenmann, Sophie, Witwe, Part.\nReimann, Adele, Spetterin, von Wölflinswyl.\n824 † Dieselbe. Lithographie-Anstalt.\n825 a Etter-Hägi, Reinhard, Milchverkäufer, v. Langrickenbach (Thurg.).\nPeyer-Ross, Wilhelmine, Wäscherin u. Glätterin, v. Lostorf (Soloth.).\nPeyer, Sophie, Glätterin, von Lostorf (Soloth.).\nRüegger-Holliger, Maria, Witwe, von Rothrist.\n825 b Friker-Wirz, Friedr., von Hunzenschwyl. Spezereihandlung.\n826 * Dressler-Hofmann, Laurenz, Kaufmann, von Belfort (Frankreich).\nCodoni-Dressler, Remigius, Kaufmann, v. Cabbio (Tessin). Bett-, Möbel- und Tuchwarenhandlung.\nWehrli, Andreas, Zimmermann, von Küttigen, Part.\nWehrli, Marie, Spetterin, von Küttigen.\nFailer, Georg, Schriftsetzer, von Harthausen (Preussen).\nSpähne-Waldmeier, Luise, Weißnäherin, von Karsau (Baden).\nWidmer-Wüthrich, Jakob, Webermeister, von Gränichen.\nWüthrich, Barbara, Spetterin, von Ryniken.\n827 † Nägelin-Gisiger, Arnold, Hôtelier, von Liedertswil. Scheune zum Wildenmann.\n828 Richner-Siebenmann, Elise, Bandfabrikants Witwe.\nLandolt-Hässig, Lina, Witwe, Part.\nIsliker-Hagenbuch, Sophie, Weißnäherin, v. Kleinandelfingen (Zürich).\nGonzenbach-Gonzenbach, Julie, Witwe, von St. Gallen.\n829 Lüscher-Hilfiker, Hans, Notar, v. Muhlen. Notariats-u. Inkassogeschäft.\nRennhard-Maier, J. Martin, Professor, von Wigoltingen (Thurg.).\n830 † Derselbe. (Hinterhaus mit Bureau).\n831 Schmuziger-Koller, Daniel, Baumeister.\nBührer-Gidemann, Anna, Witwe.\n1225 † Derselbe. Holzhaus.\n1226 † Derselbe. Gartenhaus.\n832 Rychner-Hess, Louis, Ingenieur.\nHess-Basler, Elise, Witwe, von Gempenach (Freiburg).\nDünner, Sophie, Haushälterin, von Weinfelden (Thurgau).\nSeiler-Leder, Oskar, Bäcker und Wirt (Pintenwirtschaft).\nKeller-Jäggi, Andreas, Hauptagent der schweizerischen Mobiliarversicherungsgesellschaft (Bern).\nStäbli, Henriette Adele, Privat, von Brugg.\nImhof, Luise, Part.\n1315 † Derselbe. Holzschopf.\n833 Suter-Kohler, Jakob, Schreiner, von Kölliken.\nFlückiger-Trösch, Gottfried, Pferdewärter, von Auswyl (Bern).\nTrösch-Schütz, Anna, Haushälterin, von Thunstetten (Bern).\n834 Firma Schmuziger & Cie., Siegellack- und Tintenfabrikation.\nSchmuziger-Rüetschi, Emil, Fabrikant.\n835 † Abgetragen; an dessen Platz\nDieselben.\n1359 Schmuziger-Stäheli, Adolf, Fabrikant.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6342,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2320,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:07:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p085",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p085.jpeg",
+      "bytes": 273321,
+      "sha256": "ec9319c85e61e89a8e639da02497addfd8aca2698479181377e33739cf66b711",
+      "sha256_of": "original",
+      "working_copy": "1896_p085.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:24+00:00"
+  }
+}

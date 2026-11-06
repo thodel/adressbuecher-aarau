@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p064",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p064.jpeg",
+    "bytes": 275667,
+    "sha256": "b1e5ba1fc7a0dfe7ee09e95f248d68f5f3260fe172e74654646e0b0bc2a91a77",
+    "sha256_of": "original",
+    "working_copy": "1899_p064.jpeg"
+  },
+  "text": "56\nHaus-\nNr.\nSiebenmann-Ackermann, Bernhard, Part.\nMüller-Nünlist, Sigmund, Zimmermeister, von Walterswil\n(Solothurn).\nRenold-Schneider, Maria, Fabrikarbeiterin, von Brunegg.\n674 Kunz-Graf, Ernst, Zuckerbäcker, ⚭ von Wald (Zürich).\nZündt geb. Hagenbuch, Elise Luise, Witwe, Part., von\nAltstätten (St. Gallen).\n675 Studler-Sandmeier, Anna, Witwe, Part.\nGysi-Studler, Arnold, Mechaniker.\nHofmann, Arnold, von Aarburg. Manufakturwarenhdlg.\n676 Hagenbuch-Egger, Friedr., Buchbinderei u. Papeterie. ⚭\n677 † Derselbe. Buchbinderwerkstätte.\n678 * Henz-Plüss, Jakob, Kaufmann. ⚭\n— -von Seuter, Hans, Kaufmann.\nJakob Henz & Cie., Firma. Kolonialwarengeschäft.\n679 Abgetragen; an dessen Platz\n1169 Henz-Plüss, Jakob, Kaufmann.\nJb. Henz & Cie., Firma. Eisenhandlungsgeschäft.\n680 Schäfer-Denner, Cäsar, Messerschmied.\nMeier-Grossmann, Anna, Witwe, Part., von Rheinfelden.\nHässig-Hauenstein, Elisabeth, Witwe, Part.\n681 Scherz-Mollet, Karl Niklaus, Wirt, ⚭ von Köniz (Bern).\nGasthof zum Löwen.\nFisch, Gottlieb, Kaufmann.\n682 Rothpletz-Marti, Friedrichs Erbschaft.\n—, Emil, Verwalter.\nWaldmeier geb. Rothpletz, Bertha, Wwe., Part., v. Hellikon.\nSpychiger-Thomer, Fried., Dek.-Maler, v. Ursenbach (Bern).\n683 Scherz-Mollet, Karl, Gastwirt. Wohnhaus mit † Stal-\nlung, † Waschhaus etc.\n\nHinterer Vorstadt.\n684 * Einwohnergemeinde Aarau. ⚭ Elektrische Lichtcentrale.\nVerwalter: Hassler-Schmidt, Friedr. (Bureau).\nBetriebschef: Sprecher-Siegrist, Karl, (Bureau).\n685 † Dieselbe. Holzschopf.\n686 u. 687 † Henz-Plüss, Jakob, Kaufmann, Magazin.\n688 * Derselbe. Wohnhaus.\nPlüss, Anna, Damenschneiderin.\nKönig-Steininger, Anna, Witwe, Part., von Bottenwyl.\n689 Birmann, Adolf, Müller, von Basel. Mehllhandlung.\n— -Baldenweg, Anna Maria, Witwe, Part., von Basel.\nGysi-Frey, Friedrich, Schlosser.\n690 * Gemeinde Aarau. Amthaus.\nBezirksamt ⚭ und Staatsanwaltschaft ⚭.\nKantonaler Polizeiposten und Bezirksgefägnisse. ⚭\nRubli-Schwarz, Joh. Jakob, Gefangengwart, von Effingen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5727,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1947,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:28:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p064",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p064.jpeg",
+      "bytes": 275667,
+      "sha256": "b1e5ba1fc7a0dfe7ee09e95f248d68f5f3260fe172e74654646e0b0bc2a91a77",
+      "sha256_of": "original",
+      "working_copy": "1899_p064.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:28:43+00:00"
+  }
+}

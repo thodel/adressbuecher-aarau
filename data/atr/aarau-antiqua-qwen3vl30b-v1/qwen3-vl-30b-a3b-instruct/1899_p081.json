@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p081",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p081.jpeg",
+    "bytes": 270707,
+    "sha256": "73e1eb2bac28b5030d75d539a58da950d1f671473b371ba7bbf4918ed521ee65",
+    "sha256_of": "original",
+    "working_copy": "1899_p081.jpeg"
+  },
+  "text": "Haus-\nNr.\n938 * Siebenmann, Friedrich, Bierbrauer, in Aarau und Gysi,\nGottlieb, Bezirksrichters Erbschaft, in Buchs.\nWernli, Jakob, Maschinist, von Thalheim.\nSiegrist-Jolliet, Wilhelm, Postangestellter, von Seengen.\nHaberstich-Scheuermann, Bertha, Schulinspektors Witwe.\n— Lina, Lehrerin.\n939 * Dieselben. Wohnhaus.\nLäuchli, Johann, Milchverkäufer.\nNadler-Häuptli, Anna, Witwe, von Biberstein.\n940 Siegrist-Müller, Albert, Bäcker. (Bäckerei.)\nWeber-Noe, Heinrich, Lithograph, v. Reigoldswyl (Basell.).\nGysi-Hess, Rudolf, Maler.\n941 Huber-Hochuli, Fritz, Sohn, Spengler. Spengler- und\nMetallwarenhandlung.\n942 Gysi-Anderegg, Emil, Malermeister.\n— Otto Robert, Postcommis.\n943 † Derselbe. Werkstätte.\n944 Hemmeler-Scheibler, Verena, Hafners Witwe. Geschirr-\nund Glaswarenhandlung.\nLienhardt-Hürzeler, Albert, Schlosser, von Uerkheim.\n— — Maria, Glätterin, von Uerkheim.\n945 † Hemmeler-Schmidt, Wilhelm, Hafner (Ofenfabrik).\n946 Aeschbach, Friedrich, Part., von Oltingen (Baselland.)\nLehner-Bertschi, Rudolf, Milchverkäufer, von Gränichen.\n947 * Derselbe. Wohnhaus.\nMüller-Frei, Samuel, Maschinenputzer, von Unterkulm.\nPöll, Niklaus, Maurer, von Gmar (Tyrol).\nBertschi-Jakob, Jakob, Sekretär, von Dürrenäsch.\nPöll-Widmer, Johann, Maurerpolier, von Gmar (Tirol.\n948 Blattner-Jäger, Otto, Dr. jur., Fürsprech u. Notar. (Advo-\nkatur- und Notariatsbüreau).\nNiggli-Bohnenblust, Arnold, Fürsprech u. Stadtschreiber.\nHolzinger, Bertha, Postcommise, von Baselaugst.\n— Mina, Klavierlehrerin, von Baselaugst.\n— Pauline, Part., von Baselaugst.\n949 Firma: Landolt & Cie. ⊇ Fabrikation feiner Wagen-,\nBau- und Dekorationslacke. Leinölfabrik.\nGänslen-Landolt, Karl, Fabrikant.\n950 Dieselben. Abgetragen.\n951 † \" Maler- und Spenglerwerkstätte, und Stalling.\n952 † \" Magazin.\n953 † \" \"\n954 † \" Firnisfabrik.\n1111 † \" Chemisches Laboratorium.\n1157 † \" Remise und Waschhaus.\n1233 † \" Magazine.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5010,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1872,
+    "lines": 48,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0021,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:30:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p081",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p081.jpeg",
+      "bytes": 270707,
+      "sha256": "73e1eb2bac28b5030d75d539a58da950d1f671473b371ba7bbf4918ed521ee65",
+      "sha256_of": "original",
+      "working_copy": "1899_p081.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:30:17+00:00"
+  }
+}

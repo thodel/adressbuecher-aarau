@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p105",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p105.jpeg",
+    "bytes": 250074,
+    "sha256": "78210db2997e88b2368e5a14eee515a8d6372d883ba6e95d5b2fe05087700fc3",
+    "sha256_of": "original",
+    "working_copy": "1899_p105.jpeg"
+  },
+  "text": "Alphabetisches Verzeichnis\nder\nBürger und Einwohner der Stadt Aarau.\nDie näheren Angaben über Beruf und Heimatort befinden sich im Verzeichnis\nder Wohngebäude.\n[tel] = Telephon.\nAargauer Nachrichten, [tel] hintere Vorstadt 622.\n  — Tagblatt, [tel] Oberthor 228.\nAargauische Bank, [tel] Bahnhofstraße 511.\n  — Kreditanstalt, [tel] Laurenzenvorstadt 1340.\n  — Naturforschende Gesellschaft. (Präsident: Prof. Dr. F. Mühl-\n  berg, Rain 878.)\nAargauischer Tierschutzverein. Präsident: Häuptli, Adjunkt des\nStaatsbuchhalters.\nAargauisches Versicherungsamt, Bahnhofstraße 1526.\nAckermann, Albert, Kaufmann, vordere Vorstadt 890.\nAcklin, Emil, Verwalter der Krankenanstalt, in der Gais 1186.\nAdam, Anton, Part., Pelzgasse 125.\n  — Anton, Fabrikant, in der Gais 1266.\n  — & Cie., Bleiche, Färberei und Appretur. Fabrik in Buchs.\n  — geb. Stephani, Hedwig, Witwe, Bachstraße 1113.\nAdlon, Andreas, Hafner, Halden 269.\n  — Marie, Damenschneiderin, Halden 269.\nAeschbach, Friedrich, Mechaniker, [tel] in der Gais 1105.\n  — Friedrich, Part., obere Vorstadt 946.\n  — Otto, Mechaniker, in der Gais 1106.\n  — Rudolf, Steinhauer, obere Vorstadt 915.\nAlbice, Gustav, Appreteur, Rain 885.\nAlbrecht, Eduard, Glockengiesser, Rain 843.\n  — Heinrich, Kaufmann, Laurenzenvorstadt 410.\nAllgemeine aarg. Ersparniskasse, [tel] Graben 215.\nStadt Aarau. E.\n1",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 64543,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1328,
+    "lines": 33,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0023,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:08:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p105",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p105.jpeg",
+      "bytes": 250074,
+      "sha256": "78210db2997e88b2368e5a14eee515a8d6372d883ba6e95d5b2fe05087700fc3",
+      "sha256_of": "original",
+      "working_copy": "1899_p105.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:08:42+00:00"
+  }
+}

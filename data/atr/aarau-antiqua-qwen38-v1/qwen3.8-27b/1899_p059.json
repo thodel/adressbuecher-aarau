@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p059",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p059.jpeg",
+    "bytes": 258137,
+    "sha256": "8fae63dfcbb298350cce6e07191e3b40a03343dda2eea33725796bf07d347ea8",
+    "sha256_of": "original",
+    "working_copy": "1899_p059.jpeg"
+  },
+  "text": "52\nHaus-\nNr.\n616 † Derselbe. Magazin.\n617 †     \" Waschhaus.\n618 Berner-Egli, Dr.. Hermann, Zahnarzt.\nBerner-Mauch, Rudolf, Part.\n1516 * Siebenmann, Rudolf, Bierbrauer.\nBonneck-Tschanz, Max, Gärtnerei und Blumengeschäft [tel],\nvon Danzig (Preußen).\nMüller-Wassmer, Jakob, Oberaufseher, von Safenwyl.\n619 Willimann, Anton, Lohnkutscher [tel] (an der Schmiedgasse\nangenommen).\n620 a Siebenmann, Rud., Bierbrauer. [tel] Pinten-Wirtschaft zum\nHirschen.\nKaufmann, Otto, Commis, von Buchs (Luzern).\nStänz-Wildi, Rudolf, Schriftsetzer, von Küttigen.\nGeissmann, Xaver, Sekretär, von Hägglingen.\n620 b Derselbe. Kegelbahn.\n\nHintere Vorstadt.\n621 * Siebenmann-Siebenmann, Rudolf, Partikular.\nHirt-Hirt, Karl, Coiffeur, von Gertwiler (Elsaß).\nGyger - Sommerhalden, Jakob, Polizeiwachtmeister, von\nGontenschwyl.\n622 * Derselbe.\nAktiengesellschaft: Druck und Verlag der „Aargauer Nach-\nrichten“. [tel]\nKessler-Läuchli, Johann, Verwalter, von Schiers und\nKlosters (Graubünden).\nJoho, Anna Maria, Part., von Anenstein.\n623 Baumann-Wälti, Maria, Witwe, von Bottenwyl. Kaffee-\nwirtschaft.\nWalti-Wernli, Hermann, Wagenwärter, von Dürrenäsch.\nMüller-Walti, Maria, Witwe, Weißnäherin, von Bötztberg.\n624 Bertschinger-Wild, Gustav, von Lenzburg, Spezereihandlg.\nHauri-Gränicher, Karl, Buchhalter, von Seengen.\n\nSchmiedgasse.\n625 Widmer-Eichenberger, Hermann, Küfermeister, v. Hausen.\nBruns-Gattiker, Hermann, Schlosser, von Bremen.\n— — obigen Ehefrau, Glätterin, \" \"\n— Heinrich, Kaufmann, Sohn, \" \"\nSchneider-Egli, Emil Ed., Magaziner, von Pfäffikon.\n626 † Derselbe. Remise und Waschküche.\n619 Willimann-Lehmann, Anton, Part.\n— Fritz, Sohn, Lohnkutscher.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 12897,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1633,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:24:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p059",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p059.jpeg",
+      "bytes": 258137,
+      "sha256": "8fae63dfcbb298350cce6e07191e3b40a03343dda2eea33725796bf07d347ea8",
+      "sha256_of": "original",
+      "working_copy": "1899_p059.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:24:52+00:00"
+  }
+}

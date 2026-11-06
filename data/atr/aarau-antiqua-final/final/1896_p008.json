@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p008",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p008.jpeg",
+    "bytes": 184469,
+    "sha256": "a123f7f9b7e9aa64d7b9c883101f596b5283d4337f030aac0b854f3c4a7099e2",
+    "sha256_of": "original",
+    "working_copy": "1896_p008.jpeg"
+  },
+  "text": "Allgemeines Inhaltsverzeichnis.\nSeite\nVorwort . . . . . . . . . . . . . . . . . III\nNachtrag . . . . . . . . . . . . . . . . . . V\nAlphabetisches Sach-Register . . . . . . . . . . . VII\nVerzeichnis der Straßen und Plätze . . . . . . XIV\nVerzeichnis der Inserate . . . . . . . . . . . . . XV\nJahr- und Viehmärkte . . . . . . . . . . . . . . XVI\nVerzeichnis der Gebäude und ihrer Bewohner . . . . 1 — 88\nAlphabetisches Verzeichnis der Bürger und Einwohner . . . . 89 — 128\nDie Geschäfts- u. Gewerbetreibenden in alphab. Folge d. Berufsklassen 129 — 155\nVerzeichnis der Behörden . . . . . . . . . . . . . . . 156 — 157\n  Zusammengestellt von G. Vogel, Polizeiwachtmeister.\nVerzeichnis der öffentlichen Anstalten . . . . . . . . . . 158 — 163\nVerzeichnis der Vereine, Gesellschaften etc. . . . . . . . . 163 — 172\nIllustrirte Abteilung:\n  Führer durch Aarau, Lage und Bevölkerung . . . . . . . . 173 — 178\n  Städtische Anlagen . . . . . . . . . . . . . . . . . . . . 179\n  Waldpromenaden . . . . . . . . . . . . . . . . . . . . . 180\n  Ausflüge . . . . . . . . . . . . . . . . . . . . . . . . . . . 187\n  Geschichtliches . . . . . . . . . . . . . . . . . . . . . . 189\n  Naturhistorische Verhältnisse . . . . . . . . . . . . . . 193\n  Industrielles . . . . . . . . . . . . . . . . . . . . . . . . . 196\n  Die Aarauer Reizzeug . . . . . . . . . . . . . . . . . . . . 196 — 206\n  Adolf Frey . . . . . . . . . . . . . . . . . . . . . . . . . . 206\n  Vater Joh. Rudolf Meyer . . . . . . . . . . . . . . . . . 214\n  Der Aarauer Stadtbach . . . . . . . . . . . . . . . . . . . 224\n  Inserate.\n[stempel: KANTONSBIBLIOTHEK AARGAU]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 34835,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1618,
+    "lines": 29,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.93,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:10:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p008",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p008.jpeg",
+      "bytes": 184469,
+      "sha256": "a123f7f9b7e9aa64d7b9c883101f596b5283d4337f030aac0b854f3c4a7099e2",
+      "sha256_of": "original",
+      "working_copy": "1896_p008.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:10:34+00:00"
+  }
+}

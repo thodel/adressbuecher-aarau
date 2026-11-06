@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p181",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p181.jpeg",
+    "bytes": 282634,
+    "sha256": "c584cefb20c2cf5a1880332a5fa56c2f0001e1585e238142efef2d37038a4609",
+    "sha256_of": "original",
+    "working_copy": "1896_p181.jpeg"
+  },
+  "text": "Geschäfts- und Gewerbetreibende. 143\nMarmorsteingeschäfte.\nGerodetti, Virgilius, * hinter dem Bahn-\n  hof 1268.\nMaschinenfabriken.\nOehler, A. & Cie., * Gais 1405.\n  (Siehe Inserat Seite 6.)\nMaschinenstickerinnen.\nWirz, Wilhelmine, Laurentzenvorst. 361.\nKirchhofer-Obrist, Marie, Kasinostr. 1130.\nWernli-Wehrli, Marie, Ziegelrain 710.\nLeutwyler-Hofer, Elise, Ziegelrain 713.\nMathematische Instrumente.\nFirma: Kern & Cie., * Ziegelrain 747.\nGysi & Co., * vordere Vorstadt 895.\n  (Siehe Inserat Seite 7.)\nMaurermeister.\nCantu, Joseph, Metzgergasse 101.\nPeschl, Joseph, Halden 280.\nMechaniker.\nAeschbach, Friedrich, in der Gais 1105.\nKeller, Abraham, * Halden 260.\nKlingelfuß, J. F., * im Weinberg 321.\nKuhn, Alfred, * Ziegelrain 750.\nLüscher-Umiker, Hermann, hinter dem\n  Bahnhof 1414.\nMehlhandlungen.\nBirmann, Albert, * hint. Vorstadt 684.\nDubs, Geschw., * Hammer 182.\nEberle, Franz, * Stadthof 95.\n  (Siehe auch die Bäcker.)\nMerceriewarenhandlungen.\nDolder, Susette, vordere Verstadt 892.\nErdirn, Albin, * Nachfolger von Witwe\n  Jean Kiefer, Rathausgasse 22.\nErny-Fasler & Sohn, * Kronengasse 33.\n  (Siehe Inserat Seite 21.)\nFehlmann-Blättner, A. Bahnhofstr. 648.\nHauri & Gränicher, * hint. Vorst. 1236.\nHemmeler-Hafler, A., * Metzgerg. 55.\nHemmeler & Cie., (en gros), hintere\n  Vorstadt 638.\nHemmeler-Stahl, J., * Rathausg. 21.\n[spalte 2]\nHeuß, Gebr., * Rathausgasse 4.\nHofer, Gottlieb, * Rathausgasse 43.\nLehmann-Oelhafen, J., vord. Vorst. 891.\nMeisel-Leutwyler, Verena, * Rathausg. 19.\nMesserschmiede.\nBrunner, Friedrich, vord. Vorst. 898.\nSchafer, Cäsar, vordere Vorstadt 680.\n  (Dieselben handeln auch mit Messer-\n  schmiedwaren.)\nMetallgiessereien.\nDrack, Hermann, * Milchgasse 149.\nRüetschi & Cie., * Rain 844.\nWürgar, Heinrichs Erbschaft, hinterm\n  Bahnhof 498.\nOehler & Cie., * in der Gais 1407.\n  (Siehe Inserat Seite 6.)\nMetzgermeister.\nDubs, Karl, * Rathausgasse 32.\nGamper, Adolf, * Metzgergasse 108.\nHagnauer, Gottlieb, Halden 266.\nHäfliger, Otto, * Pelzgasse 136.\nHemmeler, Alfred, vordere Vorstadt 671.\nHolzach, Fritz, * Ziegelrain 700.\nIndermauer, Jakob, Kasinogstraße 1176.\nKieser, Wilhelm, Zollrain 87.\nMattenberger, Jakob, * Oberthor 140.\nOelhafen, Arnold, hintere Vorstadt 698.\nRothpletz, Rudolf, Milchgasse 160.\nSiegrist, Heinrich, obere Vorstadt 925.\nSiegrist, Jakob, Milchgasse 150.\nWilli, August, Pelzgasse 127.\nMilitärartikel.\nBrast, Geschwister, * Holzmarkt 661.\nFaller-Faller, Elise Louise, * Witwe\n  Kronengasse 41.\nHerzig, Friedrich, Schneider * hintere\n  Vorstadt 644.\nSiebenmann, Gebr., * Oberthor 226.\nMilchverkäufer.\nBaumann, Kaspar, hintere Vorstadt 623.\nBircher, Andreas, Tannergut 302.\nBrack, Abraham, Bachstraße 1061.\nDubs, Geschw. Müller, Hammer 182.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41672,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2688,
+    "lines": 87,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0115,
+    "mean_line_chars": 29.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:04:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p181",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p181.jpeg",
+      "bytes": 282634,
+      "sha256": "c584cefb20c2cf5a1880332a5fa56c2f0001e1585e238142efef2d37038a4609",
+      "sha256_of": "original",
+      "working_copy": "1896_p181.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:04:15+00:00"
+  }
+}

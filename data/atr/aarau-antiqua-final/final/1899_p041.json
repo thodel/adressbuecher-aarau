@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p041",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p041.jpeg",
+    "bytes": 275350,
+    "sha256": "721e2cb73a1067f619e2f346c161c3fde8e6d065b057959ce3cb0e110285207b",
+    "sha256_of": "original",
+    "working_copy": "1899_p041.jpeg"
+  },
+  "text": "33\nHaus.\nNr.\n367 Schmuziger-Koller, Daniel, Part.\n368 u. 369 + Derselbe. Oekonomiegebäude.\n370 + Abgetragene\n371 Fahrländer-Hunziker, Karl, Dr. jur., Regierungsrat [tel], von\n  Laufenburg.\n  Siebelist geb. Fahränder, Anna, Part., von Berlin.\n372 + Derselbe. Holzhaus und Remise.\n373 + Hunziker-Züst, Guido, Rentier. Comptoir und Magazin.\n374 u. 375 [tel] Derselbe. Wohngebäude.\n376 * Derselbe.\n  Siegrist-Schmid, Adolf, Schuhmacher, von Meisterschwanden.\n  Erismann-Marbet, Jakob, Schuhmacher, von Ob-Kulm.\n  Siegrist-Hochuli, Arnold, Stuhlschreiner, von Liedertswyl\n  (Baselland).\n  Stirnemann, Maria, Fabrikarbeiterin, von Gränichen.\n  Hochuli-Widmer, Gottlieb, Schuhmacher, von Safenwyl.\n  Steiner-Haller, Mina, Wwe., Taglöhnerin, von Rein.\n  Leu-Karrer, Jakob, Taglöhner, von Schloßrued.\n  Siegrist-Plüss, Anna, Wwe., Spetterin, v. Meisterschwanden.\n  Müller-Suter, Jakob, Posamenter, von Unterkulm.\n  — -Huber, Jakob, Bahnarbeiter, von Unterkulm.\n  Dietiker-Wernli, Samuel, Schuhmacher, von Thalheim.\n  Heiz-Neesser, Kornelius, Zimmermann, von Menziken.\n  Frei-Hintermann, Arnold, Taglöhner, von Mellingen.\n  Müller-Müller, Hs. Jakob, Taglöhner, von Unterkulm.\n  Brändli-Müller, Elisabeth, Witwe, Spetterin, von Bözberg.\n  Suter-Huber, Joh. Rudolf, Fabrikarbeiter, von Gränichen.\n  Wehrli, Anna, Fabrikarbeiterin, von Küttingen.\n377 + Hunziker-Züst, Guido, Rentier. (Fabrikgebäude.)\n  Gasser & Cie. Seidenbandfabrikation. [tel]\n378 + Derselbe. Maschinenhaus und Werkstatt.\n379 + Derselbe. Scheune und Remise.\n380 + Derselbe.\n381 + Derselbe.\n382 + Derselbe. Seitenbau mit Holzschofpf.\n383 + Derselbe. Waschehaus.\n384 + Fahrländer-Hunziker, Karl. (Treibhaus.)\n385 + Hunziker-Züst, Guido (Geflügelhaus).\n1114 Märki-Wehrli, Jakob, Fabrikschuhmacher, von Müntthal.\n\nIm Hammer.\n\n386 + Hegnauer-Renold, Rudolf (Fabrikationsgebäude).\n387 + Derselbe. Kesselhaus.\n388 + Derselbe. Holzhaus.\n389 + Hassler-Heberlein, Adolf. (Remise.)\nStadt Aarau.\n3",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16288,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1941,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:04:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p041",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p041.jpeg",
+      "bytes": 275350,
+      "sha256": "721e2cb73a1067f619e2f346c161c3fde8e6d065b057959ce3cb0e110285207b",
+      "sha256_of": "original",
+      "working_copy": "1899_p041.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:04:54+00:00"
+  }
+}

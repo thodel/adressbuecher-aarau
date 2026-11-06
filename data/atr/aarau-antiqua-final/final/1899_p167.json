@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p167",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p167.jpeg",
+    "bytes": 259475,
+    "sha256": "5e8e6f827b0386c765e5636f0c8817b9c391f18e8f4736051a06111b289e6ec3",
+    "sha256_of": "original",
+    "working_copy": "1899_p167.jpeg"
+  },
+  "text": "63\nHofer, Gottlieb, * Rathausgasse 43.\nKeller, Lina, Rathausgasse 5.\nSchneeberger-Salvi, Jakob, * Rathausgasse 3.\nWüthrich-Lüdi, Samuel, * Laurenzenhorngasse 117.\nGasanstalt.\nGasbeleuchtungsanstalt Aarau, * Zollrain 786.\n  Direktor: Bechstein, Wilhelm,\n  Gasmeister: Wehrli, Karl.\nGasthöfe.\n  (Siehe Wirthschaften.)\nGärtner.\nFehlmann, Johann, Halden 282.\nGehrig, Karl, Adelbändli, 86.\nGroßmann, Otto, Handelsgärtnerei, Depot, Graben 219.\nKäser, Emil, Schachen 739.\nKlingelfuß, Johann Heinrich, Weinberg 326.\nMeier, Jakob, obere Vorstadt 930.\nReinhard, Joh. Baptist, hintere Vorstadt 642.\nVogler, Julius, Stadt- und Friedhofsgärtner, Bachstraße 1043.\nWehrli, Johann, vor dem Holdenthor 1272.\nWernli, Jakob, vor dem Haldenthor 799.\n[handschriftlich: 10]\nGeflügelhändler.\nMarini, Dominico, Schmiedgasse 634.\nPuricelli, Bevenato, Bachstraße 1028.\nGeometer.\nJäger, Hugo, Kataster-Geometer, Feerstraße 1307.\nSchmid, Johann Jakob, Bachstraße 1138.\nRychner, Louis, Rain 832.\nGeistliche.\nFischer, Xaver, Pfarrer d. christ-kath. Kirchgemeinde, Adelbändli 175.\n  — Ernst, reform. Kantonspfarrhelfer, Laurenzenvorstadt 602.\nFrey, Eduard, Pfarrhelfer der reformirten Kirchgemeinden für den\n  Helferkreis Aarau, Kirchgasse 6.\nGraf, Ernst, Pfarrer der reform. Kirchgemeinde, Kirchhof 169.\nStöckli, Stephan, Pfarrer der römisch-katholischen Genossenschaft,\n  Schmiedgasse 1197.\nSchmuziger, Louis, Pfarrer der evangel. Kapelle, Bahnhofstr. 656.\nWernly, Rudolf, Pfarrer der reform. Kirchgemeinde, Milchgasse 158.\nGeldwechsel- und Wechselgeschäft.\nWirth, Franz, * Zollrain 89.  (Siehe Inserat Seite 14 u. 15.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38518,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1590,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:01:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p167",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p167.jpeg",
+      "bytes": 259475,
+      "sha256": "5e8e6f827b0386c765e5636f0c8817b9c391f18e8f4736051a06111b289e6ec3",
+      "sha256_of": "original",
+      "working_copy": "1899_p167.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:01:11+00:00"
+  }
+}

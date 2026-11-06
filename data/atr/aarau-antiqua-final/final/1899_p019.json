@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p019",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p019.jpeg",
+    "bytes": 273778,
+    "sha256": "8b187a7bd95143ea10c998fa41fa91882878bb97bf86471ca52823a4bcf3061e",
+    "sha256_of": "original",
+    "working_copy": "1899_p019.jpeg"
+  },
+  "text": "11\nHaus-\nNr.\n116 Zebert-Altorfer, Georg, Buchbinder [tel], von Bauma (Zürich).\n  Buchbinderei u. Linieranstalt. Schreibmaterialienhandlung.\n117 Wüthrich-Lüdi, Samuel, zum Storchcn, [tel] von Eggiwyl (Bern).\n  Spezerei-, Wein- u. Spirituosenhandlung. Telephon öffentl.\n  Sprechstation.\n  Steiner-Dürr, Jakob, Postkondekteur, von Oberengstringen\n  (Zürich).\n  Hunziker-Müller, Friedr., Maschinenmeister.\n  Balmer, Marie u. Karolina, v. Lausen (Baselland), Wäscherei\n  und Glätterei.\n  Bertschi-Wassmer, Jakob, Postfakteur, von Sumiswald (Bern).\n  Theez-Amsler, Elise, Witwe, von Paris. Schirm- und Kostüm-\n  geschäft.\n  Theez, Albert, Schuhmacher, von Paris.\n  Burgmeier-Kieser, Josef, Klavier- u. Musikinstrumentenhandlg.\n  Hess, Gebrüder, Möbelmagazin.\n118 Burkhardt-Bertschinger, Ferdinand, Coiffeur.\n  — -Graf, Ferdinand, Sohn, Coiffeur und Chirurg. (Coiffeur-\n  und Toilettenwarengeschäft.)\n  — Lina, Coiffeuse.\n119 a Jäckcr-Haller, Joseph, Comestibleshandlung, [tel] v. Lachapelle\n  sous-Rougcmont (Frankreich).\n119 b Eggen-Sulzer, Eduard, Kolonialwareuhandlung.\n120 a Schiesser, J. J., Sohns, Erbschaft.\n  Fischer-Vonwiller, Ad., Postbeamter. Cigarren u. Tabakhandlg.\n  — Louise, Ladentochter.\n  Schmid-Fischer, Heinrich, Manufakturwareuhandlg., v. Wittnau.\nPelzgasse.\n121 * Schiesser-Hässig, Hermann, Käse- und Butterhandlung. [tel]\n  — Margaretha, Part.\n  Schaffner-Zeller, Marie, Witwe, Part.\n  Frei, Maria Magdalena, Ladendienerin, von Zurzach.\n122 Künze-Rümmeli, Oswald, Schuhmachermeister, von Uetikon\n  (Zürich). Schuhhandlung.\n  — Herm. Jakob, Sohn, Mechaniker, von Uetikon (Zürich).\n  Locher-Heimgartner, Jakob, Bremscr, von Remetschwyil.\n123 Rychner-Hess, Konrad, Seiler, Seilerwaren- und Peitschenlager,\n  Fettwaren.\n124 Gysi-Bächli, Adolf, Tapezierer, von Buchs. Möbelhandlg. [tel]\n  Härri, Rudolf, Exped.-Chef auf der Staatskanzlei, v. Birrwyl.\n  Lenzin, Sophie, Lehrerin.\n125 Adam-Hess, Anton, Part., von Allschwyil (Baselland).\n  Walter-Schmuziger, August, von Neumühl (Baden). [tel] Näh-\n  maschinen- und Fourniturenhandlung.\n  Flickiger-Wüthrich, Rosette, Witwe, Gemüsehändleriu, von\n  Auswyl (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 121169,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2122,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:40:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p019",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p019.jpeg",
+      "bytes": 273778,
+      "sha256": "8b187a7bd95143ea10c998fa41fa91882878bb97bf86471ca52823a4bcf3061e",
+      "sha256_of": "original",
+      "working_copy": "1899_p019.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:40:36+00:00"
+  }
+}

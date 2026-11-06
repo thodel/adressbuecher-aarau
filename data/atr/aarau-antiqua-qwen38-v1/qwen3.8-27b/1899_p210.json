@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p210",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p210.jpeg",
+    "bytes": 233752,
+    "sha256": "7b979a4b0a42873022bc2d416ab01f31ecd0ee3c5e08651ac00b63d6a13f8466",
+    "sha256_of": "original",
+    "working_copy": "1899_p210.jpeg"
+  },
+  "text": "106\nReligiöse Vereine.\nChristlicher Jünglings- und Männerverein Aarau.\nVerband der christlichen Jünglings- und Männervereine des Kan-\n  tons Aargau.\nSchweizerische christlich-soziale Vereinigung.\nAargauische Bibelgesellschaft.\nc. Gesellige Vereine.\nMusikalische Vereine.\nCäcilienverein Aarau.\nSängerbund Aarau.\nEvangelischer Gesangverein.\nChristkatholischer Kirchenchor.\nRömisch-katholischer Kirchenchor.\nStadtmusikgesellschaft Aarau.\nMusikgesellschaft Konkordia.\nOrchester-Verein.\nMilitärische Vereine.\nOffiziersgesellschaft.\nUnteroffiziersverein.\nArtillerieverein.\nMilitär-Sanitäts-Verein von Aarau und Umgebung.\nWasserfahrverein.\nSchützengesellschaften.\nSchützengesellschaft Aarau.\nFreier Schießverein.\nFlobert-Schießverein.\nSchützengesellschaft des Grütliveins.\nTurnvereine.\nBürgerturnverein.\nTurnverein alte Sektion.\nKantonsschüler-Turnverein.\nGrütli-Turnverein.\nTurngesellschaft für Damen.\nVaria.\nVelo-Klub.\nDonnerstags-Kegelgesellschaft.\nSchach-Klub.\nFritz-Verein.\nJakoben-Verein.\nAltersgenossen-Verein.\nDreizehner-Klub.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 44266,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1027,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 23.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:40:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p210",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p210.jpeg",
+      "bytes": 233752,
+      "sha256": "7b979a4b0a42873022bc2d416ab01f31ecd0ee3c5e08651ac00b63d6a13f8466",
+      "sha256_of": "original",
+      "working_copy": "1899_p210.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:40:57+00:00"
+  }
+}

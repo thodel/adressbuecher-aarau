@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p108",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p108.jpeg",
+    "bytes": 289355,
+    "sha256": "892b2a276125206e1b0ee108d8a770b11e89ed7aec005ac6e729c44ab8ff6980",
+    "sha256_of": "original",
+    "working_copy": "1899_p108.jpeg"
+  },
+  "text": "4\nBelart, Marie, Part., Bachstraße 1052.\nBell, geb. Marti, Lina, Witwe, Spezeriehandlung, Pelzgasse 65.\nBelz, Johann, Wagenvisiteur, Bahnhofstraße 552.\nBennert geb. Rot, Emilie, Part., Bachstraße 1107.\nBenninger, Jb., Bahnarbeiter, Schmiedgasse 637.\nBenz, Joseph, Kondukteur, Laurenzenvorstadt 1379.\nBerchem, Niklaus, Zimmermann, Scheibenschachen 1485.\n— Peter, Schuhmacher, Hammer 187.\nBerchten, Susanna, Diakonissin, Bahnhofstraße 1173.\nBerschthold, Jakob, Schuhmacher, obere Vorstadt 937.\nBerner, F. Hermann, Dr., Zahnarzt, [tel] Graben 618.\n— Gottlieb, Dienstmann, Rain 821.\n— Jakob, Schreinermeister, Rain 888.\n— Lina, Schneiderin, Holzmarkt 664.\n— Maria Anna, Spetterin, Milchgasse 150.\n— Rudolf, Part., Graben 618.\n— Verena, Spetterin, Milchgasse 150.\nBertschi, Adolf, Wagner, Bahnhofstraße 649.\n— Adolf, Schneider, Metzgergasse 100.\n— Anna, Damenschneiderin, Milchgasse 70.\n— Bertha, Damenschneiderin, Milchgasse 153.\n— Emil, Ökonom, Gönhardfeldweg 1145.\n— Emil, Schneider, Holzmarkt 663.\n— Emil, Sohn, Holzspalter, Adelbändli 85 a.\n— Gottlieb, Taglöhner, Bahnhofstraße 1023.\n— Gottlieb, Briefträger, vor dem Haldenthor 1566.\n— Hermann, Bierbrauer und Wirt z. „Tivoli“, Entfelderstraße 1523.\n— Jakob, Sekretär, obere Vorstadt 947.\n— Gottlieb, Magazinier, Bahnhofstraße 607.\n— Jb. August, Sekretär, Entfelderstraße 970.\n— Jakob, Postangestellter, Laurenzentorgasse 117.\n— Julius, Zugführer, Milchgasse 70.\n— geb. Lüscher, Luise, Damenschneiderin, Pelzgasse 62.\n— geb. Schwammberger, Marie, Damenschneiderin, Metzgergasse 100.\n— geb. Wächter, Marie, Wäscherin, Rathausgasse 47.\n— Rudolf, Holzspalter, Adelbändli 85 a.\n— geb. Vogt, Elise, Schreiners Witwe, Halden 290.\nBertschinger, Gustav, Spezeriehändler, hintere Vorstadt 624.\n— geb. Riniker, Anna, Witwe, in der Gais 1390.\nBetriebsamt, [tel] städtisches Rathaus 176.\nBezirksamt, hintere Vorstadt 690.\nBhend, Johann, Schreiner, obere Vorstadt 922.\nBiber, Theodor, Seidenband-Fabrikant u. Nähmaschinenhandlung, [tel]\n  Hammer 193.\nBiberstein, Eugen, Spenglergehilfe, Halden 266 b.\nBiedermann, Emil, Hauptmann, Feerstraße 1417.\nBigler, Ulrich, Dr. phil., Lehrer, hinter dem Bahnhof 1414.\nBiland, Karl, Wirt, [tel] (Gasthof z. Ohsen), Laurenzentorgasse 115.\nBillo, geb. Billo, Marie, Kaufmanns, Part., jenseits der Aare 339.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 74499,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2279,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:11:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p108",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p108.jpeg",
+      "bytes": 289355,
+      "sha256": "892b2a276125206e1b0ee108d8a770b11e89ed7aec005ac6e729c44ab8ff6980",
+      "sha256_of": "original",
+      "working_copy": "1899_p108.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:11:13+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p089",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p089.jpeg",
+    "bytes": 273065,
+    "sha256": "b8faf05719144a7842c26e67f1da1fc91c9affc87b1ebaadfff988ab22f34cff",
+    "sha256_of": "original",
+    "working_copy": "1899_p089.jpeg"
+  },
+  "text": "81\nHaus-\nNr.\n1040 Meier-Ganter, Kon., Lohnkutscher, v. Reaisalffingen (Baden.)\nEhrsam, Ida, Part.\nTurgi-Frey, August, Maschinist von Leibstatt.\nNotter, Robert, Stadtpolizist, von Boswyl.\nFrey, Gottfried, Stadtpolizist, von Klingnau.\n1107 Stänz-Suter, Louise, Witwe, Part.\nBenner-Rott, Emilie, Part., von Paris.\nBrentano-Zimmermann, Gustav, Staatsanwalt, v. Laufenbg.\n1098 * Bircher-Schatzmann, Heinrich. Dr. med.\nBirmann-Probst, Maria, Pensionat, von Basel.\nHaller, Joh. Theodor, Gerichtsschreiber, von Zofingen.\nMorgan-Kilpatrick, Henri H., amerikanischer Konsul.\n1099 † Derselbe. Waschhaus.\n1100 Merz-Märk, Sebastian, Notar. [tel] (Notariats-, Informations-\n  und Inkassogeschäft).\n1101 Bäbler, Johann Jakob, Dr. phil, Professor, v. Matt (Glar).\n1124 Thut-Hilty, Gottlieb, Weinhändler, [tel] von Oberentfelden.\n1135 † Derselbe. Magazin.\n1150 † \"        Stallung und Remise.\n1196 † \"        Remise.\n1137 Wolfinger-Mayer, Max, Professor, von Mannheim (Baden).\n1138 Schmid-Läuchli, Joh. Jak., Ingenieur [tel], Konkordats-\n  und Katastergeometer, von Glarus.\n1534 † Derselbe.   \"Chalet\".   Bureau.\n1112 Stephani-Wettler, Albertine, Fabrikants Witwe.\n1152 † Dieselbe. Holzschof.\n1113 Adam-Stephani, Hedwig, Witwe, von Allschwyl (Baselland).\n1127 † Dieselbe. Stallung und Holzremise.\n1175 Wehrli-Märk, Emil, Kassier der Aarg. Bank, von Küttigen.\n1174 * Spar-, Leih- und Diskontokasse Aarau.\nWirz-Martin, Emil, Buchhändler, von Solothurn.\n1156 Frey, Eugen, Part.\n1155 Spühler-Frey, Joh. Jakob, Sekretär, von Reckingen.\nSpühler, Anna, Kunstmalerin, von Reckingen.\n1154 Spinner-Billo, Joh., Jak., Part.\nBürki, Ida, Gesellschafterin, von Bümplitz (Bern).\n1041 * Grossmann, Albert, Fabrikant, von Zofingen, in Brombach\n(Baden).\nPhilipp-von Arx, Joh., Milchverkäufer, v. Kienberg (Soloth.)\n1042 a b † Derselbe. Scheune und Remise.\n1043 * \"        Wohnhaus.\nSteimer-Wiedehr, Eugen, Fachlehrer am Gewerbe-\nmuseum, von Wättingen.\nVogler-Baumann, Julius, Stadtgärtner, v. Ober-Rohrdorf.\nKeller-Fehlmann, Johann, Landwirt, von Hotwyl.\nOtt-Keller, Verena, Witwe, Part., von Aarburg.\nStadt Aarau.\n6",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 43760,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2081,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.75,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:58:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p089",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p089.jpeg",
+      "bytes": 273065,
+      "sha256": "b8faf05719144a7842c26e67f1da1fc91c9affc87b1ebaadfff988ab22f34cff",
+      "sha256_of": "original",
+      "working_copy": "1899_p089.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:58:13+00:00"
+  }
+}

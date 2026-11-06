@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p162",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p162.jpeg",
+    "bytes": 243308,
+    "sha256": "cb3f06a3068b7292f75c0ce7fa8665d66f8b24d5f8e859b7e251470b17a157d3",
+    "sha256_of": "original",
+    "working_copy": "1899_p162.jpeg"
+  },
+  "text": "58\nComestibles.\nGloor-Siebenmann, Marie, * Kronengasse 38. (S. Inserat S. 24.)\nJäcker-Haller, Joseph, * Laurenzenthorgasse 119.\nSchmid-Maurer, Mathilde, * Rathausgasse 29.\n\nDachdecker.\nGloor, Adolf, Milchgasse 76.\nVogel, Rudolf, Entfelderstraße 1147.\nWägeler, Karl, vor dem Haldenthor 1306.\nWidmer, Rudolf, vor dem Haldenthor 808.\n\nDamenschneiderinnen.\n(Siehe Schneiderinnen.)\n\nDampfsäge.\nZschokke, M., Baugeschäft, * Rohrerstraße 466. (S. Inserat S. 25.)\n\nDelikatessenhandlungen.\n(Siehe Comestibles.)\n\nDienstmänner.\nBerner, Gottlieb, Rain 821.\nBolliger, Jakob, Laurenzenvorstadt 361.\nHässig, Johann Konrad, Rain 881.\nSchäfer, Wilhelm, Oberthor 234.\n\nDrechsler.\nBär, Otto, Entfelderstraße 964.\nBlume, Philipp, mech. Holzdrechslerei, Hammer 189.\nHäuptli, Emil, Halden 284.\nHuber, Heinrich, mechanische Drechslerei, Ziegelrain 733.\nKeller, Abraham, Metalldreherei, * vor dem Haldenthor 743.\n\nDrogenhandlungen.\nLandolt & Cie., * obere Vorstadt 949.\nRies-Buhlrein, E., Ziegelrain 702.\n\nEichmeister.\nKlingelfuß, Joh. Friedrich, Mechaniker, * Weinberg 321 c.\n\nEisengiesserei.\nKünzlen & Cie., * Bahnhof 498. (Siehe Inserat Seite 8.)\nOehler, A. & Cie., * Gais 1405. (S. Inserat vis-à-vis Textseite 1.)\n\nEisenhandlung.\nHenz, Jakob & Cie., * vordere Vorstadt 679.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4205,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1253,
+    "lines": 37,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:38:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p162",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p162.jpeg",
+      "bytes": 243308,
+      "sha256": "cb3f06a3068b7292f75c0ce7fa8665d66f8b24d5f8e859b7e251470b17a157d3",
+      "sha256_of": "original",
+      "working_copy": "1899_p162.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:38:26+00:00"
+  }
+}

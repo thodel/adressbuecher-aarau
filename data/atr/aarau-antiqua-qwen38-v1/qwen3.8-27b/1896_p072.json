@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p072",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p072.jpeg",
+    "bytes": 267112,
+    "sha256": "c31b3ad769af94bdafe751570a0f09236bba6d78242dd62881a0ba12af4d5d04",
+    "sha256_of": "original",
+    "working_copy": "1896_p072.jpeg"
+  },
+  "text": "50 Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n1197 * Dasselbe. Pfarrhaus.\nStöckli, Stephan, römisch-katholischer Pfarrer, von Muri.\nStöckli, Elisabeth, Haushälterin, von Muri.\n628 Frey-Rüegg, Oskar, Fabrikant.\nRüegg-Abesser, Pauline, Witwe, von Bauma (Zürich).\n629 + Dasselbe. Remise.\n1269 + Siebenmann, Rudolf, Bierbrauer. Brauereigebäude.\nBertschi, Hermann, von Dürrenäsch (Brauereieinhaber).\n630 + Derselbe. Remise, Bier- und Eiskeller.\n631 Abgetragen, an dessen Platz\n1232 * Matter-Schönenberg, Samuel, Amtsschreiber, von Oberentfelden.\nMatter-Fäs, Adolf, Bäcker, von Oberentfelden.\nFrey-Spengler, Elise, Reg.-Rats Witwe, von Zurzach.\nVogler-Baumann, Julius, Stadtgärtner, von Oberrohrdorf.\n1244 + Derselbe. Hintergebäude. Klein- und Großbäckerei.\n632 Bühler-Haberstich, Gottlieb, Kupferschmied, von Riethelm.\n633 * Bertschinger-Wild, Gustav, Spezialeinhändler, v. Lenzburg. Magazin.\nEichenberger-Joho, Verena, Schuhmachers Witwe, von Reinach.\nBachmann-Kümin, Joseph, Schneider, von Wollerau.\n634 * Camisasca, Franz, Kaufmann.\nMarini-Buricelli, Dominico, Südfrüchten- und Geflügelhändler, von\nPognona (Italien).\nErni-Mauderli, Katharina, Witwe, Fabrikarbeiterin, von Stülingen.\nGampp-Spreuer, Philipp, Aufseher, von Horwussen.\n635 * Müller-Vondäniken, Friedrich, Oekonom.\nWidmer-Hoffmann, Salome, Witwe, Fabrikarbeiterin, von Erlins-\nbach (Solothurn).\nLerf-Kirchhofer, Moritz, Schneider, von Leibstatt.\n636 Müller-Kramer, Jost, Schneider.\nHuber-Kern, Margarita, Wäscherin und Glätterin, von Wösch-\nnau (Solothurn).\n637 Rychner-Schleuniger, Maria, Hafners Witwe.\nMüller-Vonäsch, Jakob, Buchbinder, von Unterkulm.\nPauli, Maria, Spitterin, von Villnachern.\nHinter Vorstadt.\n638 Hemmeler-Frey, Friedrich, Kaufmann, alt Stadtrat.\nHemmeler & Cie., Quincailerie- und Spielwargeschäft en gros.\nSpar-, Leih- und Diskontokasse.\nMärki-Schaffner, Jakob, Mühlenbauer.\n639 + Derselbe. Magazin.\n640 + Jakob Henz & Cie., Scheune und Remise.\n1235 + Derselbe. Wagenschopf und Remise.\n641 Derselbe. Wohnhaus.\nBuser-Buser, Emil, Güterschaffner, v. Unter-Erlinsbach (Solothurn).\nBaumann-Käser, Heinrich, Polizeifeldweibel.\nMallzahn, August, Schuhmacher, von Neustadt (Preussen).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 51085,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2172,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:37:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p072",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p072.jpeg",
+      "bytes": 267112,
+      "sha256": "c31b3ad769af94bdafe751570a0f09236bba6d78242dd62881a0ba12af4d5d04",
+      "sha256_of": "original",
+      "working_copy": "1896_p072.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:37:39+00:00"
+  }
+}

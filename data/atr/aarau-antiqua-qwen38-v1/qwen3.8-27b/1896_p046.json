@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p046",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p046.jpeg",
+    "bytes": 268026,
+    "sha256": "292badb85b32bbca76da4dabb21c871c3d643f7843384ffb8d82d8cdf74de67a",
+    "sha256_of": "original",
+    "working_copy": "1896_p046.jpeg"
+  },
+  "text": "24       Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n261 Rauchenstein-Pfleger, Sophie, Professors Witwe.\n  Pfleger, Emma, Pfarrers, Privatin.\n262 Abgetragen.\n263 * Hefti-Hunziker, J. P., Schneidermeister, von Schwanden (Glarus).\n  Erisman-Lehner, Hermann, Hafner, von Gontenschwyl.\n264 Wildi-Matt, Jakob, Tapezierer, von Schafisheim.\n  Wildi, Anna, Damenschneiderin, von Schafisheim.\n  Zimmerli-Stänz, Eduard, Cementarbeiter, von Oftringen.\n  Schmid-Burkolter, Friedrich, Schneider, von Zurzach.\n  Weikgenannt-Käser, Verena, Wwe., Näherin, v. Mingolsheim (Baden).\n  Käser, Friedrich, Buchbinder, von Oberflachs.\n  Hunn-Fehlmann, Verena, Taglöhnerin, von Egliswyl.\n  Fehlmann, Elisabeth, Part., von Möriken.\n  Knecht-Vögeli, Barbara, Fabrikarbeiterin, von Oberflachs.\n  Krähenbühl, Louise, Näherin, von Althishofen (Luzern).\n  Bertschi, Wilhelm, gew. Camioneur, von Dürrenäsch.\n265 Hassler-Ernst, August, Färber.\n  Hassler, Maria, Part.\n266 a Wehrli-Hässig, Hans, Zimmermann.\n266 b Hagnauer, Gottlieb, Metzger.\n  Heisttler-Hagnauer, Nikolaus, Schuhmacher, v. Guggisberg (Bern).\n  Meissner-Süss, Johann, Schneider, von Geroldshofen (Bayern).\n  Biberstein-Spycher, Eugen, Spengler, von Bözingen (Bern).\n267 Siebenmann-Marti, Rosinas Erbschaft.\n  Strebel-Siebenmann, Karl, Sekretär.\n  Marti-Siebenmann, Ida, Arbeitslehrerin.\n  Marti, Lina, Damenschneiderin.\n  Döhnelt, Emma, Spetterin, von Badenweiler (Baden).\n268 Merz-Dürr, Jb., Heizer.\n  Schmid-Unger, Sophie, Weichenwärters Witwe, Part., v. Erlinsbach.\n  Schmid, Rudolf, Taglöhner, von Erlinsbach.\n  Nünlist-Müller, Katharina, Taglöhnerin v. N.-Erlinsbach (Solothurn).\n  Huber, Rudolf, Posamenter, von Unterkulm.\n269 * Keller-Läuchli, Paul, Zuckerbäcker.\n  Rohr-Wehrli, Daniel, Straßenwärter, von Hunzenschwyl.\n  Werle-Treier, Samuel, Taglöhner, von Thalheim.\n270 † Derselbe.\n  Dürr, Gottfried, Schuhmacher. (Werkstätte.)\n  Renold, Friedrich, Taubstumme, Gießerarbeiter.\n271 * Camisasca, Franz, Kaufmann, Part.\n  Jäggi-Meyer, Agathokles, Gipser, von Fulenbach (Solothurn).\n  Schneider-Hochstrasser, Samuel, Taglöhner, von Thalheim.\n  Suter-Arber, Rudolf, Part., von Gränichen.\n272 * Wärtli, Friedrich, Buchhalter, in Derendingen.\n  Steiner, Hermann, Bahnan gestellter, von Gontenschwyl.\n  Steiner, Bertha, Fabrikarbeiterin, von Gontenschwyl.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 126084,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2301,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:55:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p046",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p046.jpeg",
+      "bytes": 268026,
+      "sha256": "292badb85b32bbca76da4dabb21c871c3d643f7843384ffb8d82d8cdf74de67a",
+      "sha256_of": "original",
+      "working_copy": "1896_p046.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:55:01+00:00"
+  }
+}

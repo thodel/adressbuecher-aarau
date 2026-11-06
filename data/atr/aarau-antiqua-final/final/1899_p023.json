@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p023",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p023.jpeg",
+    "bytes": 259829,
+    "sha256": "dd3e3a22beb52f1e503da6ff87ccbb332a4ae7f3992b960f8eb4dad7a9bf02c2",
+    "sha256_of": "original",
+    "working_copy": "1899_p023.jpeg"
+  },
+  "text": "18\nHaus-\nNr.\n161 Dürr-Schmuziger, Isaak, Schreiner.\n  Schmuziger, Ssette, Part.\n  — Verena, Part.\n  Weber-Müller, Ferdinand, Schneider, von Kreisdorf (Böhmen).\nKirchhof.\n162 Gränicher, geb. Richner, Rosa, Witwe, Part.\n  — -Wärtli, Joh. Jak., Schneider, ref. Siegrist, Spezeroehdlg.\n163 Vogel-Dubs, Gottfried, Polizei-Lieutenant, von Kölliken.\n  Zuber-Müller, Andreas, Part.\n  Hess-Wolf, Alexander, Kaufmann, von Zillisheim (Elsass).\n  (Werkstätte und Magazin für Bettwaren.)\n164 Wanger-Häusermann, Julia, Buchbinders Wwe., Part.\n  — Rosa.\n  — Julie, Part.\n  Kohlmann-Läuchli, Verena, Witwe, Lithographie und Stein-\n  druckerei.\n  Läuchli, Adolf, Lithograph, von Remigen.\n  Umiker-Steiner, Samuel, Kutscher, von Thalheim.\n  Huber-Bichsel, Bankratrius, Knecht, von Häggingen.\n165 a *Wärtli, Friedrich, Buchhalters Erbschaft.\n  Fuchs-Sommerhalder, Franz, Posaementer, von Hornussen.\n  Zehnder-Kaufmann, Barbara, Wwe., Gemüsehändlerin, von\n  Gränichen.\n  Vogt-Keller, Marie, Hebamme, von Villigen.\n165 b Stierli-Häny, Samuel, Kondukteur d. N. O. B., v. Gebenstorf.\n166 Wärtli-Ernst, August, Buchbinder.\n  Peyer-Boss, Wilhelmine, Wäscherin und Glätterin, v. Lostorf\n  (Solothurn).\n  Joho-Bryner, Samuel, Färber, von Auenstein.\n167 a Derselbe.\n167 b Abgetragen.\n168 Gemeinde Aarau, Kirche.\n169 Dieselbe. Pfarrhaus.\n  Graf-Fäsi, Ernst, von Winterthur, ref. Pfarrer.\nAdelbändli.\n170 Dietiker-Staub, Adolf, Briefträger, von Thalheim.\n  — Emma, Wäscherin, von Thalheim.\n  Matter-Thommen, Maria, Witwe, Wäscherin, von Kölliken.\n  Gunsch-Furter, Joseph, Maurer, von Mutsch (Tirol).\n  Wernly, Elisabeth, Näherin, von Thalheim.\n171 Siebenmann-Frey, Ludwig, Schuhmacher, Part.\n  Wernli-Urech, Johann Jak., Taglöhner, von Thalheim.\n  Gloor, Wilhelmine, Taglöhnerin, von Dürrenäsch.\n  — Bertha, Damenschneiderin, von Dürrenäsch.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 40266,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1811,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.32,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:45:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p023",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p023.jpeg",
+      "bytes": 259829,
+      "sha256": "dd3e3a22beb52f1e503da6ff87ccbb332a4ae7f3992b960f8eb4dad7a9bf02c2",
+      "sha256_of": "original",
+      "working_copy": "1899_p023.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:45:35+00:00"
+  }
+}

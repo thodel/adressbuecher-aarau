@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p181",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p181.jpeg",
+    "bytes": 251650,
+    "sha256": "f2f4dcf423376c1ca4fa2524723f136f8b8632f4b04060ec9888bed336cffca1",
+    "sha256_of": "original",
+    "working_copy": "1899_p181.jpeg"
+  },
+  "text": "77\nStauber, Jakob, Amtsrevisor, Schachen 736.\nStierli, Goar Leonz, Fürsprech, Graben 615.\nTanner, Erwin, Fürsprech, Laurenzenvorstadt 586.\nWylder, Julius, Rathausgasse 3.\nOfenfabrication.\nAndres-Bircher, Fr., * obere Vorstadt 916. (S. Inserat S. 11.)\nHemmeler, Wilhelm, * obere Vorstadt 919. (S. Inserat S. 2.)\nOptische Instrumente.\nFrei, Alb., Uhrmacher, hintere Vorstadt 693.\nGysi & Co., * vordere Vorstadt 895. (Siehe Inserat Seite 26.)\nKern & Cie., * Zieglerain 747. (S. Inserat Seite 20.)\nPapeterie.\nHagenbuch, Friedr., * vordere Vorstadt 676.\nZebert, Georg, * Bahnhofstraße 1360.\nParfümeriewaren.\n(Siehe Coiffeurs.)\nPasementerie.\nErدين, Albin, * Rathausgasse 22. (S. Inserat Seite 22.)\nErny-Faßler & Sohn, * Kronengasse 33.\nPlazierungsbureau.\n(Siehe Stellenvermittler.)\nPelzwarenhändler.\nSernatinger, Valerian, * vordere Vorstadt 893.\nSperlich, Theodor, vordere Vorstadt 666. (S. Inserat Seite 2.)\nPfarrer.\n(Siehe Geistliche.)\nPianos und Pianofortes.\n(Siehe Klavierhandlungen.)\nPost.\nDas Hauptpostbureau am Bahnhof ist geöffnet an Werktagen vom 1. April\nbis 1. Oktober, von morgens 7 Uhr bis abends 8 Uhr, und vom 1. Oktober bis\n1. April von morgens halb 8 Uhr bis abends 8 Uhr. An Sonntagen vormittags\nvon 8 bis 10 Uhr und nachmittags von 3 bis 5 Uhr.\nDas Filialbureau in der Stadt, Metzgergasse 113, ist geöffnet an Werktagen\nvom 1. April bis 1. Oktober von morgens 7 Uhr bis abends 8 Uhr und vom\n1. Oktober bis 1. April von morgens halb 8 Uhr bis abends 8 Uhr. An Sonn-\ntagen vormittags von 10 bis 12 Uhr und nachmittags von 1 bis 3 Uhr.\nKreispostdirektor: Brosi, Rudolf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 12318,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1580,
+    "lines": 39,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.54,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:09:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p181",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p181.jpeg",
+      "bytes": 251650,
+      "sha256": "f2f4dcf423376c1ca4fa2524723f136f8b8632f4b04060ec9888bed336cffca1",
+      "sha256_of": "original",
+      "working_copy": "1899_p181.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:09:23+00:00"
+  }
+}

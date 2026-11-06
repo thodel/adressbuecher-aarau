@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p013",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p013.jpeg",
+    "bytes": 240487,
+    "sha256": "466ec6f8203bd08e858f0139d6937501c72921e735d14a0ed0a8f7262d6ebb81",
+    "sha256_of": "original",
+    "working_copy": "1896_p013.jpeg"
+  },
+  "text": "VII\n\nAlphabetisches Sachregister.\n\nSeite\nAarau Lage und Bevölkerung . 173\nAarau Geschichte . . . 189\nAarau Industrie . . . 196\nAarau und Umgebung . 173—196\nAarg. Antiquarium . . . 161\nAarg. Bibelgesellschaft . 169\nAarg. Ingenieur- und Architekten-\n  verein . . . . . 165\nAarg. Kunstverein . . . 163\nAarg. Tierschutzverein . 166\nAarg. Taubstummverein . 168\nAdressbücher-Leihanstalt . 129\nAdvokaten (siehe Fürsprecher) —\nÄrzte . . . . . . . 129\nAgenturen . . . . . . 130\nAgentur und Komm.-Geschäfte . 141\nAlphabetisches Verzeichnis d. Bürger\n  und Einwohner . . 89—128\nAlphabetisches Verzeichnis der Be-\n  rufsklassen . . . 129—155\nAltersgenossenverein . . 172\nAlte Sektion . . . . . 171\nAnlagen, städtische . . . 179\nAnstalten, gemeinnützige . 163\nAnstalten, öffentliche . . 158\nAnstalt für schwachsinnige Kinder\n  auf Schloß Biberstein . 163\nApotheker . . . . . . 130\nAppretur (s. Fabrikationsgeschäfte) —\nArbeiterkrankenkasse . . 168\nArbeitsschulen . . . . 160\nArchitekten . . . . . . 130\nArchitekten und Ingenieurverein . 165\nArgovia, Kantonschülerverbindung 164\nArmenziehungsanstalt Kasteln . 163\nArmenziehungsverein des Bezirks\n  Aarau . . . . . . . 167\nArtillerieverein . . . . 170\nAsphaltgeschäfte . . . 130\nAusrufer . . . . . . . 130\nAusrusterii (s. Fabrikationsgesch.) —\nAus Aarau Geschichte . . 189\n[spalte 2]\nSeite\nAusflüge zu Fuß . . . 184\nAusflüge mit der Eisenbahn . 187\nAntiquarium, kantonales . 161\nÄcker . . . . . . . 131\nBadanstalten . . . . . 131\nBandfabrikanten (siehe Fabrikations-\n  geschäfte) . . . . . —\nBankgeschäfte . . . . 130\nBaugeschäfte . . . . 131\nBaumwollspinnerei . . 131\nBaumwollstoffdruckerei . 154\nBaumwolltuchfabrikation . 131\nBaumwolltuchhandlungen . 131\nBauverwalter . . . . 156\nBazars . . . . . . . 131\nBehörden . . . . . . 156\nBeleuchtungsgeschäfte . 141\nBetriebsbeamter . . . 156\nBerufsklassen . . . . 129—155\nBettmacherinnen . . 131\nBettwarenhändler . . 131\nBezirksgericht . . . 157\nBezirksschulen . . . 159\nBibeldepot . . . . . . 131\nBibelgesellschaft, aargauische . 169\nBibliotheken . . . . . 160\nBienenklub . . . . . . 165\nBinsenhof . . . . . . 183\nBierbrauereien und Wirthschaften . 132\nBierpressionen . . . . 132\nBildhauer . . . . . . 132\nBijouteriewaren . . . 131\nBleicherei (s. Fabrikationsgeschäfte) —\nBlumenhandlungen . . 132\nBonneteriewaren . . . 132\nBranchenabtheilung . . 129—155\nBrandmalerei auf Holz (s. Fabri-\n  kationsgeschäfte) . . .\nBriefmarkensammler . . 132\nBriefmarkenmuseum, schweiz. . 162",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 39841,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2453,
+    "lines": 87,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0115,
+    "mean_line_chars": 27.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:15:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p013",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p013.jpeg",
+      "bytes": 240487,
+      "sha256": "466ec6f8203bd08e858f0139d6937501c72921e735d14a0ed0a8f7262d6ebb81",
+      "sha256_of": "original",
+      "working_copy": "1896_p013.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:15:10+00:00"
+  }
+}

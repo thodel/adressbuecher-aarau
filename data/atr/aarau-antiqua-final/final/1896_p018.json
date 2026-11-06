@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p018",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p018.jpeg",
+    "bytes": 239707,
+    "sha256": "16428061e9d9a612ffa0132081551c8ab10ef764d6b920c49e4cefff232a0dcc",
+    "sha256_of": "original",
+    "working_copy": "1896_p018.jpeg"
+  },
+  "text": "XII\nSeite\nSchwammhandlungen 148\nSchweiz. Alpenklub (S. A.) 164\nSchwesternverein der Loge 168\nSparkassen, s. Bankgeschäfte\nSpeditionsgeschäfte 141\nSpeisewirtschaften 153\nSpengler 149\nSpettnerinnen 148\nSpezereihandlungen 149\nSpiegellager 150\nSprechstationen, öffentliche 150\nStadtbach, der Aarauer (Gedicht) 224\nStadtkassier 156\nStadtmusikgesellschaft 170\nStädt. Lehrerpensionsverein 168\nStädt. Fünfrappenverein 167\nStadtschreiber 156\nStadtrat 156\nStahlwaren 134\nSt. Laurenzenbad 185\nSteinhaufgeschäfte 150\nStellenvermittler 150\nStenographenvereine 166\nSteuerkommission 157\nStickerei- und Wollwaren 150\nStoffdruckereien 150\nStraßen-Verzeichnis XIV\nStrickwaren 151\nStrohgeflechtsfabrikation 135, 150\nStrohhutwascherei, s. Modistinnen —\nTabak und Cigarren 133\nTapetenlager 150\nTapezierer 150\nTapissierergeschäfte 135\nTaubstummenanstalt auf Landenhof 163\nTaubstummenverein, aarg. 163\nTeigwaren, s. Spezereihandlungen —\nTelegraphenbureau 150\nTelephonbureau 150\nTelephon, öffentliches 150\nTeppichhandlungen 151\nThonöhrnen u. Thonwaren 135, 151\nTierärzte 151\nTierschutzverein, aarg. 166\nTintenfabrikation 136, 149\n[spalte 2]\nSeite\nTöchterinstitut 158\nTotengräber 151\nTressen, s. Fabrikgeschäfte —\nTicotfabrikation 151\nTuchhandlungen 151\nTurnvereine 171\nTypographia 165\nUebersetzungsbureau 151\nUnfallversicherung, s. Agenturen —\nUhrenhandlungen 151\nUhrenmacher 151\nUnionsgesang 169\nUnteroffiziersverein 170\nUnterstützungskassen 168\nVelohandlungen 151\nVelo-Klub 171\nVerband der christl. Jünglings-\n  Männervereine im Aargau 169\nVerbandsstoffhandlungen 151\nVereine: Kunst, Wissenschaft etc. 163\n  Handel und Gewerbe 164\n  Diverse 164\n  Gemeinnützige 166\n  Wohltätige 167\n  Religiöse 169\n  Musikalische 169\n  Militärische 170\n  Gesellige 172\n  Turnverein 171\nVerein für Briefmarkenkunde 164\nVerein gegen Hausbettel 167\nVerein schweiz. Geschäftsreisender 164\nVerkehrskommission 166\nVerniklungsanstalt 157\nVerschönerungs- und Verkehrs-\n  kommission 166\nVerzeichnis der Gebäude und ihrer\n  Bewohner 1—88\nVerzeichnis der Bürger und Ein-\n  wohner, alphabetisch 89—128\nVerzeichnis der Behörden, Anstalten,\n  Vereine etc. 156—172\nVerzeichnis der Zeitungen und Zeit-\n  schriften 154\nViehmärkte XVI",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 78909,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2177,
+    "lines": 94,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0106,
+    "mean_line_chars": 21.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p018",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p018.jpeg",
+      "bytes": 239707,
+      "sha256": "16428061e9d9a612ffa0132081551c8ab10ef764d6b920c49e4cefff232a0dcc",
+      "sha256_of": "original",
+      "working_copy": "1896_p018.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:08+00:00"
+  }
+}

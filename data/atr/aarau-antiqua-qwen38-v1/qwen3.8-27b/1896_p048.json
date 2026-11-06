@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p048",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p048.jpeg",
+    "bytes": 275221,
+    "sha256": "48379a8b8e370173180fb1e076c66274ec7de3ff233270b72b78f4c95affa408",
+    "sha256_of": "original",
+    "working_copy": "1896_p048.jpeg"
+  },
+  "text": "26   Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n285 Eichenberger-Flad, Rudolf, Zimmermann, von Reinach.\nFischer, Franz, Schneider.\nVogel-Thommen, Joh., Säger, von Flühli (Luzern).\nVogel, Louise, Weißnäherin, von Flühli (Luzern).\nBryner, Anna, Modistin, von Möriken.\nGing-Ryser, Wilhelm, Wagner.\n286 Bertschi-Schäfer, Gottfried, Schreiner, von Dürrenäsch.\nBircher-Suter, Eduard, Sattler und Tapezierer, von Küttigen.\nGiger-Märki, Jakob, Schreiner, von Gontenschwyl.\nWandfluh-Sommer, Johann, Schuhmacher, von Frutigen (Bern).\nFischer, Maria, Fabrikarbeiterin, von Fahrwangen.\n1283 † Derselbe. Schreinerwerkstätte.\n287 Brunner, Jakob, Seifensieder.\nBrunner-Knecht, Emil, Baumarbeiter.\nBrunner-Knecht, Verena, Hebamme.\nBeilharz, Lina, Weißnäherin, von Untermußbach (Württemberg).\nTschopp-Schaad, Jakob, Taglöhner, von Waldenburg (Baselland).\nWidmer, Samuel, Taglöhner, von Gränichen.\n288 † Derselbe. Waschkhaus.\n289 * Derselbe. Hinterhaus.\nHerzig-Weber, Friedrich, Dachdecker, von Obersteholz (Bern).\n290 Elsasser-Kyburg, Gottlieb, Küfermeister, von Unterkulm.\nOrtlieb-Bertschi, Louise, von Behlenheim (Elsass), Aufseherin der\n  Gewerbehalle.\nBertschi-Vogt, Elise, Schreiners Witwe, von Sumiswald (Bern).\nPfister-Sandmeier, Emil, Taglöhner, von Erlinsbach (Solothurn).\nPfister-Sandmeier, Emma, Näherin, von Erlinsbach (Solothurn).\nSchmid-Eng, Peter, Posamenter, von Herznach.\n291 † Derselbe. Remise.\n\nZollrain.\n292 [handschriftlich: //] Keller-Läuchli, Paul, Zuckerbäcker und Kaffeewirtschaft.\nHelm-Schmid, Emil, Tapezierer, von Oerlikon (Zürich).\nSchmidt, Jenny, Modistin.\n293 * [handschriftlich: /] Heller-Erb, Heinrich, Rechtsagent.\nHerrnschwand, Kurt, Dr. phil., Bezirkschullehrer, von Murten.\nSchäppi-Honegger, Bertha, Witwe, von Horgen (Zürich).\nSchäppi, Anna, Arbeitslehrerin, von Horgen (Zürich).\nSchäppi, Bertha, Bureauestellte, von Horgen (Zürich)\nBlume-Hirt, Philipp, Schreinermeister, von Sprendlingen (Hessen).\nBlume, Jakob, Sohn, Schreiner, von Sprendlingen (Hessen).\nBlume, Philipp, Sohn, Drechslerr, von Schwerzenbach (Zürich).\nDietliker-Holzach, Alfred, Bautechniker, von Wetzikon (Zürich).\nFurrer-Blume, Eduard, Konditor, von Kriens (Luzern).\nFurrer-Blume, Mina, von Kriens (Luzern). Robes und Konfektion,\n  Massgeschäft für Damen und Kinder.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 80625,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2267,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.15,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:57:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p048",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p048.jpeg",
+      "bytes": 275221,
+      "sha256": "48379a8b8e370173180fb1e076c66274ec7de3ff233270b72b78f4c95affa408",
+      "sha256_of": "original",
+      "working_copy": "1896_p048.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:57:26+00:00"
+  }
+}

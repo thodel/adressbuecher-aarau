@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p111",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p111.jpeg",
+    "bytes": 287042,
+    "sha256": "7d6147f97244f17ce4d6a52f96a2d2d28b53f7de3215006af2878b9f8ac30f29",
+    "sha256_of": "original",
+    "working_copy": "1896_p111.jpeg"
+  },
+  "text": "Die Halde vom Zollrain aus gesehen.  Nach einer Zeichnung von E. Meissner in Wien.\n\nAlphabetisches Verzeichnis\n  der\nBürger und Einwohner der Stadt Aarau.\nDie näheren Angaben über Beruf und Heimatort befinden sich im Verzeichnis der Wohngebäude.\n—[tel]— = Telephon.\nIn diesem Verzeichnis sind auch die im Handelsregister eingetragenen Gesellschaften enthalten.\nDie Geschäftsfirmen, die im Handelsregister eingetragen sind, im Bruchenteile besonders bezeichnet.\n—*—\nAargauer Nachrichten, —[tel]— hintere\n  Vorstadt 622.\n— Tagblatt, —[tel]— Oberthor 228.\nAargauische Bank, —[tel]— Bahnhofstraße\n  511.\n— Kreditanstalt, —[tel]— Laurenzenvorstadt\n  1340.\n— Naturforschende Gesellschaft.\n  (Präsident: Prof. Dr. F. Mühlerg, Rain 879.)\nAargauischer Tierschutzverein. Prä-\n  sident: A. Keller, Rain 832.\nAckermann, Albert, Kaufmann, vordere\n  Vorstadt 890.\nAdam, Anton, Part., Pelzgasse 125.\n— Anton, Fabrikant, in der Gais 1266.\n— geb. Stephani, Hedwig, Witwe, Bach-\n  straße 1113.\nAdrian, Andreas, Hafner, Halden 269.\n[spalte 2]\nAeberli, H. Albin, Maschinist, Erlins-\n  bacherstraße 1428.\nAeschbach, Friedrich, Mechaniker, —[tel]—\n  in der Gais 1105.\n— Friedrich, Part., obere Vorstadt 946.\n— Otto, Mechaniker, in der Gais 1421.\n— Rudolf, Steinhauer, Milchgasse 70.\nAlbiez, Gustav, Appreteur, Rain 885.\nAlbrecht, Eduard, Glockengießer, Rain\n  843.\nAllgemeine aarg. Ersparniskasse, —[tel]—\n  Graben 215.\nAmmann, Johann, Wirt, Schachen 734.\n— Marie, Ladentochter, Bahnhofstraße\n  560.\n— Robert, Hochbaumeister, Feerstraße\n  1454.\n— Rudolf, Steindrucker, Hammer 188.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 80575,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1558,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.26,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T16:04:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p111",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p111.jpeg",
+      "bytes": 287042,
+      "sha256": "7d6147f97244f17ce4d6a52f96a2d2d28b53f7de3215006af2878b9f8ac30f29",
+      "sha256_of": "original",
+      "working_copy": "1896_p111.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T16:04:39+00:00"
+  }
+}

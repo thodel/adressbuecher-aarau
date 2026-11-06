@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p076",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p076.jpeg",
+    "bytes": 283067,
+    "sha256": "e61a43b11271d55873580a42b0ab99f6636cc15a7ec59eb33e61eca6d5cd11ab",
+    "sha256_of": "original",
+    "working_copy": "1899_p076.jpeg"
+  },
+  "text": "68\nHaus-\nNr.\n858 Lips-Sager, Kaspar, Postkondukteur v. Urdorf (Zürich).\nRitzmann-Anderhub, Jakob, Büroauchef der Helvetia\nSt. Gallen, von Flaach (Zürich).\n859 * Schweiz. Centralbahn, Bahnwärterhäuschen.\nFischer-Wilhelm, Johann, Bahnwärter, von Oftringen.\n860 Schweizer-Siebenmann, Sophie, Witwe, Part, von Dätwyl.\nSchmuziger, Lina, Part.\nMeyer-Stählin, Joh. Jak., Part., von Zürich.\n861 † Dieselbe. Holzhaus.\n862 * Schweizer-Siebenmann, Sophie, Witwe, Part., v. Dätwyl.\nSchweizer-Gubler, Nan., Staatsarchivars Wwe., v. Dätwyl.\nDavid-Hunziker, Juli, Witwe, Part., von Basel.\nThilke-Hort, Friedrich, Schneider v. Pölle (Hannover).\n863 Thut-Gidemann, Hermann, Ziegler von Oberentfelden,\nmechanische Ziegelei. ⚭\n864 † Derselbe. Ziegelhütte.\n1551 †\n\" Ziegelschopf.\n865 † Gemeinde Aarau. Holzmagazin.\n866 Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\n867 u. 868 † Derselbe. Schopf.\n869 Fahrländer-Johannes, Eugen, Ingenieur.\nDr. Hirzel-Henckell, Arn., Bezirksschullehrer v. Lenzburg.\nHenckell-Piderit, Bertha, Part. von Hannover.\nSiebenmann-Model, Fritz, Commis.\nModel, Josepha, Part., von Rheinfelden.\n870 † Derselbe. Holzhaus.\n871 Schneider-Mösch, Fridolin, Oberrichter, von Herznach.\nMösch-Mösch, Aloisa, Witwe, von Frick.\nLauber-Müller, Jos. Anton, Postcommiss von Oeschgen.\n872 Hemmeler-Biedermann, August, Kaufmann.\nSchäppi-Honneger, Bertha, Part., v. Horgen (Zürich).\n— Anna, Arbeitslehrerin, von Horgen (Zürich).\n— Bertha, Bureauangestellte, von Horgen (Zürich).\n873 † Derselbe. Holzhaus.\n874 Siegrist-Hunziker, Emil, Kaufmann, Beamter des Nieder-\nlagshauses in Aarau.\nHolliger-Schneider, Gottlieb, Bahnbeamter v. Boniswyl.\nRebmann-Häfliger, Karl Jakob, Maler v. Fellbach (Würt-\ntemberg), (Malerwerkstätte).\n875 Hitz-Lanz, Otto, Negt., Spezerei-, Kohlen- u. Holzhandlg.\nHitz, Bertha, Part., von Hausen am Albis (Zürich).\nGuyot, Maria, Damenschneiderin, von Lyon.\nDietiker, Susanna, Spetterin, von Thalheim.\nBrunnhofer, Elise, Damenschneiderin.\nFisch, Mina, (Kleinkinderschule).\nHauri-Christen, Maria, Part., von Hirschtal.\nDreifuss, Wyler, Karl Moses, Kaufmann aus Endingen.\n876 † Derselbe. Scheune.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6150,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2103,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:29:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p076",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p076.jpeg",
+      "bytes": 283067,
+      "sha256": "e61a43b11271d55873580a42b0ab99f6636cc15a7ec59eb33e61eca6d5cd11ab",
+      "sha256_of": "original",
+      "working_copy": "1899_p076.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:29:50+00:00"
+  }
+}

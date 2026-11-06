@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p092",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p092.jpeg",
+    "bytes": 262617,
+    "sha256": "76e610d38e25e5238fd4a805cf4420ddae618e9ac1be3ebc58bf8578542e3221",
+    "sha256_of": "original",
+    "working_copy": "1896_p092.jpeg"
+  },
+  "text": "70 Verzeichniss der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n933 Egloff, Ernst, Buchbinder, von Tägerweilen (Thurgau). Buchbinder-\n  werkstätte.\n934 † Gemeinde Aarau. Spritzenhaus. (Spritzen Nr. 6 und 7).\n\nObere Vorstadt.\n\n935 Schmidt-Lanz, Adolf, Kaufmann. Inspector der engl. Lebens-\n  versicherungsgesellschaft Star in London. Geschirr- und Glaswaren-\n  handlung.\n  Müller-Hurni, Marie, Witwe, Part.\n  Bürgi-Burkhard, Anna, Witwe, Part., von Erlinsbach.\n936 † Derselbe. Glasmühle.\n937 Berchtold-Glaus, Jakob, Schuhmacher, von Schmiedrued. Schuh-\n  handlung.\n  Wälti-Maurer, Rudolf, Schneider, von Unterkulm.\n  Wildi, Adolf, Part., von Veltheim.\n  Gyger, geb. Wildi, Rosina, Malers Witwe, Part., von Aibheim\n  (Württemberg).\n938 * Siebenmann, Friedrich, Bierbrauer, in Aarau und Gysi, Gottlieb,\n  Bezirksrichters Erbschaft, in Buchs.\n  Meier-Schait, Jakob, Gärtner, von Dintikon.\n  Siegrist-Jolliet, Wilhelm, Postangestellter, von Seengen.\n  Haberstich-Scheuermann, Bertha, Schulinpektors Witwe.\n  Haberstich, Lina, Lehrerin.\n939 * Dieselben. Wohnhaus.\n  Läuchli, Johann, Milchverkäufer.\n  Seifert-Hüsser, Heinrich, Schneider, von Falkenstein (Sachsen).\n940 Siegrist, Albert, Bäcker, von Meisterschwanden. (Bäckerei.)\n  Eger-Eppier, Theophil, Schneider, Riehen.\n  Näf-Eichenberger, Edwin, Lokomotivführer, von Meilen (Zürich).\n  Horlacher, Elise, Damenschneiderin, von Umiken.\n941 Huber-Renz, Thunselda, Spenglers Witwe. Spengler- und Metall-\n  warenhandlung.\n  Huber, Fritz, Sohn, Spengler.\n  Spillmann, Joh. Jakob, Spengler, Geschäftsführer, von Hedingen\n  (Zürich).\n942 Gysi-Anderegg, Emil, Malermeister.\n  Gysi, Otto Robert, Postcommis.\n943 † Derselbe. Werkstätte.\n944 Hemmeler-Scheibler, Verena, Hafners Witwe. Geschirr- und\n  Glaswarenhandlung.\n  Wernli-Siegrist, Anna, Witwe, Part., von Thalheim.\n945 † Hemmeler-Schmidt, Wilhelm, Hafner (Ofenfabrik).\n946 Aeschbach, Friedrich, Part., von Oltingen (Baselland).\n  Lehner-Bertschi, Rudolf, Milchverkäufer, von Gränichen.\n947 * Derselbe. Wohnhaus.\n  Müller-Frei, Samuel, Maschinenputzer, von Unterkulm.\n  Pfister, Eduard, Bahnarbeiter, von Rorbas (Zürich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 126176,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2108,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 40.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T15:11:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p092",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p092.jpeg",
+      "bytes": 262617,
+      "sha256": "76e610d38e25e5238fd4a805cf4420ddae618e9ac1be3ebc58bf8578542e3221",
+      "sha256_of": "original",
+      "working_copy": "1896_p092.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T15:11:56+00:00"
+  }
+}

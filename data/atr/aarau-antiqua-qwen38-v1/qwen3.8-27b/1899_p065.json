@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p065",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p065.jpeg",
+    "bytes": 277200,
+    "sha256": "33316af5f86cc127cb3c797bc5c40032f033c4df45c1740ff379d15b99834ff2",
+    "sha256_of": "original",
+    "working_copy": "1899_p065.jpeg"
+  },
+  "text": "87\nHaus-\nNr.\n691 * Aktiengesellschaft Feldschlösschen in Rheinfelden. Bier-\n  dépôt.\n692 * Dieselbe. Hintere Bierwirtschaft z. Affenkasten.\n  Gerber-Wüthrich, Emil, Wirt z. Affenkasten.\n693 — -Seiler, Gust, March.-Tailleur. Arbeiterkleidermagazin.\n  Ly ps-Spahr, Kaspar, Kaufmann, von Birmenstorf (Zür.).\n  Kull-Gerber, Adolf, Postangestellter, von Niederlenz.\n  Frey, Albert, Uhrenmacher, von Densbüren. (Uhrenhand-\n  lung). Optiker.\n  —, Friedrich, Kaufmann, von Densbüren.\n694 Siebenmann-Brunnhofer, Otto, Schlosser, Part.\n  Hunziker-Säuberli, Maria, Taglöhnerin, v. Gontenschwyl.\n  Säuberli, Barbara, Part., von Teufenthal.\n  Krummet-Moog, Gottlieb, Schuhhandlung, von Pirman sens\n  (Bayern).\n695 Abgetragen; an dessen Platz\n1236 Hauri-Gränicher, Karl, Kaufmann, von Seengen.\n  Hauri & Gränicher, Firma. Broderie- u. Tapissierieg geschäft.\n  Gränicher, Fanny, Brodeuse.\n  Kuhn-Andermatt, Johann, Bahnmeister, von Dottikon.\n1262 Freihofer-Rusterholz, Jak., Bildhauer, v. Veltheim (Zch.).\n  Nägelin-Gisiger, Arnold, Hôtelier, von Liedertswil.\n  Hagmann-Stolz, Adolf, in Schönenwerd. Schuhhandlung.\n  (Filiale).\n696 * Derselbe.\n  Lü scher, Albert, von Muhen, Käse-, und Milchhandlung.\n  Müller-Vonäsch, Jakob, Buchbinder, von Unterkulm.\n  Plüss-Zimmerli, Jakob, Maurer, von Brittnau.\n  — —, Marie, Hebamme, von Brittnau.\n697 Mayer-Vogel, Thomas, Schuhmachermeister, von Eigol-\n  dingen (Baden). Schuhhandlung.\n698 Oelhafen-Rufli, Anna, Witwe, Part.\n  —, Arnold, Metzger, Sohn. ♂\n699 Wildi-Wespi, Adele, von Veltheim. Salzverkauf.\nZiegelnrain.\n700 Holzach-Schmidt, Fritz, Metzger u. Wirt. Speisewirtsch. ♂\n  Roos-Hunziker, Xaver, Postangestellter, v. Romoos (Luz.).\n701 Derselbe. Wohnhaus und Fleischverkaufsladen.\n702 Ries-Buhlrein, Emanuel. Glas-, Farbwaren- u. Droguerie-\n  warenhandlung.\n  Wirz-Buhlrein, Adolf, Commis, von Menziken.\n  Rochholz, Mina, Klavierlehrerin, von Ansbach (Bayern).\n703 Schmuziger-Bühler, Gottlieb, Schneidermeister.\n  — -Walti, Fritz, Brot- und Zuckerbäckerei.\n  —, Lucia, Damenschneiderin.\n704 Suter-Dürr, Rudolf, Spengler, v. Niederhallwyl. Spengler-\n  waren und Lampenlager.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 62230,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2107,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:33:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p065",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p065.jpeg",
+      "bytes": 277200,
+      "sha256": "33316af5f86cc127cb3c797bc5c40032f033c4df45c1740ff379d15b99834ff2",
+      "sha256_of": "original",
+      "working_copy": "1899_p065.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:33:16+00:00"
+  }
+}

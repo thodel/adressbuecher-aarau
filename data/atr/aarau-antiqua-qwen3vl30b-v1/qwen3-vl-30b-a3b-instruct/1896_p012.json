@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p012",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p012.jpeg",
+    "bytes": 250365,
+    "sha256": "5030ac878213aaceec5b83c51b026df704751a0b2a80d41a1c7a918ad2110b44",
+    "sha256_of": "original",
+    "working_copy": "1896_p012.jpeg"
+  },
+  "text": "VI\nLandolt, Gottlieb, Oekonom, Ist Eigentümer des Hauses 671 vordere Vorstadt, nicht Fricker-Kienberger, Postbeamter.\nLäuppi-Richner, Commis, von Gränichen, Rain 862.\nLaube, Karl, Notar, Rechnungsrevisor, wohnt Laurenzenvorstadt 602 statt Entfelderstraße 981.\nLenzi, Xaver, Taglöhner, von Oberhof wohnt Rain 1185 statt Halde 280.\nLocher-Heimgartner, Jakob, Bremser, von Remetschwyl, wohnt Buchserstraße 1440 statt hinter dem Bahnhof 407.\nLüscher geb. Suter, Elisabeth, Kasinostraße 571 ist gestorben.\nLüscher geb. Herzig, Elisabeth, Bäcker's Witwe, Pelzgasse 128 ist gestorben.\nMaurer-Geyser, Otto, Steindrucker, von Zollikon, Schmiedgasse 625.\nMüller-Vogt, Jakob, Postpacker, von Unterbözberg, Rathausgasse 29.\nPfeger-Lauchenauer, Hermann Friedrich, Kondukteur, Bachstraße 1040.\nPfund, Jakob, Schreiner, wohnt vor dem Haldenthor 704 statt Zieglerain 619.\nProbst-Schneider, Johann, Schneider, von Ins, Milchgasse 155.\nRüetschi-Reinert, Karl, Coiffeur, Milchgasse 141.\nSager-Finsterwald, Jakob, Commis, von Gränichen, wohnt hinter dem Bahnhof 497.\nSandmeier-Obrecht, Kaspar, Dachdecker, von Gränichen, Halden 279.\nSchäfer-Frei, Emil, Stadtarbeiter, Milchgasse 151 statt Stadthof 92.\nSchäppi-Honegger, Bertha, Witwe, von Horgen, wohnt Entfelderstraße 970 statt Zollrain 293.\nSchenker-Ackermann, Augustin, Fuhrmann, von Walterswil (Solothurn), Halden 281.\nSchibli, Alfred, von Killwangen, Chef der Militärkanzlei, Graben 219.\nSchibli, Anna, von Killwangen, Damenschneiderin, Graben 219.\nSchibli geb. Jäggi, Anna Maria, Witwe, von Killwangen, Graben 219.\nSchmidt, Jenny, Modistin, Bachstraße 1040 statt Zollrain 292.\nSchmidt, Johann Baptist, von Reiden, Mineralwasserfabrikant, Pelzgasse 128.\nSchwalb-Wessler, Adolf, Photograph, von Karlsbad, Kirchhof 166 ist fort von hier.\nSchwammberger-Schmid, Jakob, Färber, von Auenstein, wohnt Golattenmattgasse 234 statt Stadthof 92.\nSenn-Kaspar, Gottlieb, Taglöhner, von Unterkulm, Milchgasse 154.\nSiebenmann-Rinderknecht, Hans, Kaufmann, Weinberg 1102.\nSpirgi-Spirgi, Rudolf, Fabrikarbeiter, von Gränichen, wohnt Kasinostraße 1130 statt Zieglerain 70\nSpringer-Hopff, Hermann, Kaufmann, von Isnÿ (Württemberg), Gartenstraße 998.\nSprüngli-Muggli, Oskar Stationsgehilfe, wohnt Gais 487 statt Bachstraße 1039.\nSuter-Müller, Johann Jakob, Taglöhner, von Kölliken, wohnt Stadthof 92 statt Pelzgasse 134.\nUrech-Zürcher, Traugott, Fuhrmann, von Niederhallwyl, vor dem Haldenthor 809.\nWäffler-Wegmüller, Friedrich, Schneider, von Frutigen, Scheibenschachen 316.\nWehrli, Jakob, Part., von Küttigen, Halden 269.\nWehrli-Fischer, Rudolf, Taglöhner, von Küttigen, Schmiedgasse 635.\nWieland geb. Wieland, Hermine, Witwe, wohnt Rain 829 statt Zieglerain 705.\nWürger, Heinrich, Gießereibesitzer, hinter dem Bahnhof 498, ist gestorben.\nZiegler, Johann, Reisender, Bahnhofstraße 1025, ist fort von hier.\nZschokke geb. Voitel, Margaritha, Graben 217, ist gestorben.\nZürcher geb. Hauenstein, Anna, Schachen 802, ist gestorben.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7876,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2943,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 70.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:55:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p012",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p012.jpeg",
+      "bytes": 250365,
+      "sha256": "5030ac878213aaceec5b83c51b026df704751a0b2a80d41a1c7a918ad2110b44",
+      "sha256_of": "original",
+      "working_copy": "1896_p012.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:55:14+00:00"
+  }
+}

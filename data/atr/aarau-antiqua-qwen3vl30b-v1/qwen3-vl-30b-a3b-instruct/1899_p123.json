@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p123",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p123.jpeg",
+    "bytes": 280431,
+    "sha256": "3e3829d8384df1bfa79bbeb23656265ca447ffe88099b29eb77a52ea1e246be8",
+    "sha256_of": "original",
+    "working_copy": "1899_p123.jpeg"
+  },
+  "text": "Hemmeler geb. Frey, Elise, Witwe, hintere Vorstadt 638.\n— Friedrich, Kaufmann, jenseits der Aare 342.\n— Friedrich, Postcommis, Schloßplatz 197.\n— Gottlieb, Werkmeister, vor dem Haldenthor 767.\n— Jakob, Uhrenmacher, Rathausgasse 21.\n— geb. Stahl, Ida, Quincaillierewarenhandlung, Rathausgasse 21.\n— Ida, Privatlehrerin, Golattenmattgasse 229.\n— Julia, Lehrerin, obere Vorstadt 921.\n— Meta, Part., Golattenmattgasse 229.\n— Oskar, Bäcker und Wirt, vordere Vorstadt 669.\n— Rosina, Part., Milchgasse 145.\n— geb. Scheibler, Verena, Witwe, obere Vorstadt 944.\n— -Türler, Emil, Kaufmann, Garn- und Tuchwarenhandlung, Metzgergasse 58.\n— Wilhelm, Kanzlist, obere Vorstadt 921.\n— Wilhelm, Postcommis, obere Vorstadt 921.\n— Wilhelm, Hafnermeister,  obere Vorstadt 919.\nHenchell-Piderit, Bertha, Part., Rain 869.\nHengherr, August, Lehrer, Feerstraße 1308.\nHenz, Emil, Kaufmann, Eisenwarenhandlung,  vord. Vorstadt 903.\n— Hans, Kaufmann, vordere Vorstadt 678.\n— Jakob & Cie., (Hans Henz und Jakob Henz-Plüß), Grobeisenhandlung, Metalle, Gusse, Kolonialwaren,  vord. Vorstadt 678.\n— Jakob, Kaufmann, vordere Vorstadt 1169.\n— geb. Siebenmann, Adele, Hafners Witwe, Rain 848.\nHering, Johann, Lehrer, Bettwaren- und Möbelhandlung, Milchgasse 71.\nHerzig, Friedrich, Schneider, hintere Vorstadt 644.\n— Karl, Sohn, Schneider, Sektionschef, vor dem Haldenthor 766.\nHerzog, Adolf, Schreiner, Kronengasse 37.\n— Adolf, Professor, Zschokkestraße 996.\n— Gottlieb, Ingenieur, hintere Vorstadt 645.\n— Hans, Dr. phil., Staatsarchivar, Bachstraße 1047.\n— geb. Hagnauer, Angeline, Witwe, Bachstraße 1038.\n— Johann, Brennmeister, Scheibensachsen 312.\n— Konrad, Schneider, Halden 254.\n— Max, Kaufmann, Bachstraße 1047.\n— geb. Zobel, Julie, Witwe, Bachstraße 1047.\nHess, Alexander, Kaufmann,  Rathausgasse 4.\n— Gebr., Filiale Aarau (Hauptgeschäft in Biel), Tuch- und Möbelhandlung,  Rathausgasse 4.\n— geb. Basler, Elise, Witwe, Rain 832.\n— Jakob Andreas, Müller, Stadthof 92 a.\n— Wilhelm, Wirt, Pelzgasse 66.\nHeuberger, Gottlieb, Sekretär, Laurenzenvorstadt 401.\n— Jakob, Direktionssekretär, jenseits der Aare 1394.\n— Jakob, Oberrichter, Laurenzenvorstadt 360.\n— Karl, Coiffeur, Bahnhofstraße 658.\n— geb. Wernli, Elisabeth, Witwe, Kasinostraße 1176.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6528,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2214,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:34:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p123",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p123.jpeg",
+      "bytes": 280431,
+      "sha256": "3e3829d8384df1bfa79bbeb23656265ca447ffe88099b29eb77a52ea1e246be8",
+      "sha256_of": "original",
+      "working_copy": "1899_p123.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:34:30+00:00"
+  }
+}

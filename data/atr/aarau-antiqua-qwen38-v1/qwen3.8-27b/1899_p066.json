@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p066",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p066.jpeg",
+    "bytes": 280311,
+    "sha256": "e4a5475147d516788daee01e6271d54a33b5e3aae0c45fd4adf1b062865c48e2",
+    "sha256_of": "original",
+    "working_copy": "1899_p066.jpeg"
+  },
+  "text": "Haus-\nNr.\n58\nSchnetzler-Leimgruber, Joh Ludwig, Bremser, v. Kaisten.\nMärki-Amsler, Jakob, Küfer, von Mandach.\nHaller-Fehlmann, Susette, Spetterin, von Reinach.\n705 Hässi-Bühler, Friedrich, Kupferschmied.\n— -Zimmerli, Alfred, Kupferschmied.\nErnst-Döhnell, Robert, Briefträger.\nWernli, Anna Maria, Part., von Thalheim.\n706 † Derselbe. Werkstätte.\n707 a Siebenmann, Bertha, Part.\nBurkhard-Mauch, Paul, Corsettschneiderin, v. Kaiserstuhl.\nIsliker, Anna, Damenschneiderin, von Andelfingen (Zch.).\n707 b * Andres-Meier, Samuel, Schlosser.\nGloor-Schärli, Arnold, Schreiner, von Dürrenäsch.\nUrban-Nussbaum, Ernst, Schreiner, v. Liegnitz (Schlesien).\n708 * Armenhut der Gemeinde Aarau.\nBeck-Hunziker, Emil, Sattler.\n709 Andres-Weber, Friedrich, Buchhalter. Ellenwarenhandlg.\nHofmann-Wehrli, Friedr., Kasernearbeiter, v. Schloßrued.\n710 * Huber-Bircher, Heinrich, Drechsler.\nKäser-Knupp, August, Reisender, von Erlinsbach (Soloth.).\nWernli-Wehrli, Maria, Witwe, Maschinenstrickerin, von\n  Thalheim.\nBaur-Suter, Xaver, Kondukteur, von Sarmenstorf.\n711 * Holzach-Schmidt, Friedrich, Metzger.\nBrändli-Hug, Jakob, Fabrikarbeiter, von Unterbözberg.\nSuter, Elise, chemische Wäscherei, von Gränichen.\nBrändli-Meier, Bertha, Fabrikarbeiterin, v. Unterbötzburg.\n712 Hangartner-Götz, Kasp., Camionneur, v. Wangen (Gr. B.).\n713 Bircher-Kielholz, Julius, Kreisingenieur, ☞ v. Küttigen.\nWildi-Lässer, Samuel, Schreinermeister, von Schafisheim.\n  Sargmagazin.\nWehrli-Roth, Jakob, Fabrikarbeiter, von Biberstein.\nLeutwyler-Hofer, Elise, Maschinenstrickerin, v. Menziken.\n714 Gebr. Wydler. [tel]\nH. Wydler Söhne, Firma, Färbereigeschäft, Schwefelkammer.\n715 Dieselben. Wohnhäuschen.\nBrunnhofe-Hunziker, Albert, Tambour-Instruktor.\n716 † Dieselben. Färbereigebäude. Magazin.\n717 * \" Wohnhaus und Farbmagazin.\nWydler-Hechinger, Hans, Kaufmann.\n718 Dieselben. Wohnhaus.\nWydler-Wehrli, Heinrich, Färber.\n— -Wernli, Erwin, Färber.\n719 † Dieselben. Färberei und Heizeinrichtung.\n720 \" Abgetragen.\n721 * \" Wohnhaus.\nWydler-Bäurlin, Emilie, Witwe.\n—, Emilie, Tochter.\n—, Eugen, Färber.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 43683,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2051,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:33:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p066",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p066.jpeg",
+      "bytes": 280311,
+      "sha256": "e4a5475147d516788daee01e6271d54a33b5e3aae0c45fd4adf1b062865c48e2",
+      "sha256_of": "original",
+      "working_copy": "1899_p066.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:33:59+00:00"
+  }
+}

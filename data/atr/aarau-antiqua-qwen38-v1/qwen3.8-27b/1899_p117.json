@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p117",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p117.jpeg",
+    "bytes": 284775,
+    "sha256": "537c59b0f1ade5f338bd41a028a609b20371de93fb89f70850d3a308ba4633a0",
+    "sha256_of": "original",
+    "working_copy": "1899_p117.jpeg"
+  },
+  "text": "13\nFrey, Karl, Registrator, vordere Vorstadt 893.\n— Konrad, Dr. med., prakt. Arzt, [tel] Laurenzenvorstadt 356.\n— Max, Fabrikant, Laurenzenvorstadt 422.\n— Oskar, Fabrikant, Schmiedgasse 628.\n— Othm., Bankdirektor, Graben 204.\n— geb. Pfliffer, Maria, Witwe, Schachen 737.\n— R. & M., Chocoladefabrik, [tel] Laurenzenvorstadt 423.\n— Robert, Fabrikant, Laurenzenvorstadt 422.\n— Robert, Bäcker und Wirt, Zollrain 51.\n— Rüegg & Cie., Seidenfabrikation, [tel] Bahnhofstraße 1016.\n— geb. Wirth, Lina, Bureaustin, Schloßplatz 195.\nFrick, Friederika, Part., Laurenzenvorstadt 548.\nFrickart geb. Wälchi, Hulda, Doktors, Weinberg 321 b.\nFriker, Friedrich, Spezereihaudlung, Rein 825 b.\n— geb. Häusermann, Verena, Witwe, Milchgasse 152.\n— Joh. Jakob, Schneider, Kirchgasse 10 a.\n— Johann, Postbeamter, vordere Vorstadt 671.\n— Joseph, Commis, vor dem Haldenthor 772.\n— Jos., Gemeindeweibeil, Rathausgasse 176.\n— geb. Hiltbold, Verena, Bahnmeisters Wwe., h. d. Bahnhof 501.\nFrieden, Gottlieb Friedrich, Cementarbeiter, Scheibenschachen 316.\n— Jakob, Bahnarbeiter, Scheibenschachen 316.\nFröhlich, Elise, Part., Zollrain 89.\n— geb. Fröhlich, Sophie, Oberrichters Wwe., Part., Zollrain 89.\n— Franz, Dr. Professor, Gais 1267.\nFrösch, Herm., Kondukteur, Bahnhofstraße 1025.\nFrymann, Gottfried, Part., Hammer 188.\nFüglistaller, Karl Jos., Assistent, Gewerbemuseum, Weinberg 1102.\nFuchs, Franz Xaver, Kirchhof 165 a.\nFurrer, Eduard, Konditor, Zollrain 179.\n— Erhard, Schneider, Bachstraße 1031.\n— geb. Blume, Mina, Damenschneiderin, Zollrain 179.\nFurter, Abraham, Kondukteur, in der Gais 1440.\n— geb. Rohr, Anna, Witwe, Taglöhnerin, Milchgasse 148.\n\nG\nGänslen, Karl, Fabrikant, obere Vorstadt 949.\nGallauer, Anton, Taglöhner, Rain 877 a.\nGamp, Philipp, Aufseher, jenseits der Aare 339.\nGamper, Adolf, Metzgermeister, [tel] Metzgergasse 108.\n— & Cie., Konfektion in Herren- und Damenkleidern. [tel] Rathaus-\n  gasse 49 und 50.\n— Emil, March.-Tailleur, [tel] jenseits der Aare 307.\n— geb. Hassler, Bäkers Witwe, Metzgergasse 108.\n— Hermann, Kaufmann, [tel] Feerstraße 1443.\nGanser, Georg, Schneider, Rathausgasse 24.\nGanter, Heinrich, Dr., Professor, jenseits der Aare 294.\nGantner, Arnold, Okonom, Sattler, Pelgasse 126.\n— Gottlieb, Okonom, Schloßplatz 197.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 122407,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2234,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:20:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p117",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p117.jpeg",
+      "bytes": 284775,
+      "sha256": "537c59b0f1ade5f338bd41a028a609b20371de93fb89f70850d3a308ba4633a0",
+      "sha256_of": "original",
+      "working_copy": "1899_p117.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:20:24+00:00"
+  }
+}

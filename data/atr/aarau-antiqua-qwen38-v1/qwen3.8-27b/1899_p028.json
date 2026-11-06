@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p028",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p028.jpeg",
+    "bytes": 272810,
+    "sha256": "abb725b0bb0dba03577bdde916553914a1203df57dea3ea69c79cfbca534afaa",
+    "sha256_of": "original",
+    "working_copy": "1899_p028.jpeg"
+  },
+  "text": "20\nHaus-\nNr.\n214 * Siebenmann, Adolf und Fanny.\n  Angst geb. Hässig, Johanna, Witwe von Eglisau.\n  Angst, Robert, Kaufmann, von Eglisau (Zürich). Buchhand-\n  lung für christliche Literatur und Dépôt der aarg. Bibel-\n  gesellschatt. Artikel für Krankenpflege. Dépôt der internatio-\n  nalen Verbandsstoff-Fabrik Schaffhausen. Chemisch-technische\n  Präparate, Schwämme und chinesischer Thee.\n  Fassler, Marie, Priv., von Densbüren.\nGraben.\n215 Allgemeine aargauische Ersparniskasse. [tel]\n  — Lisa, Part.\n216 Meister-Gisi, Georg, Bäckerei und Pintenwirtschaft. [tel]\n  Holzach, Dietrich, Part.\n217 Buser-Müller, Heinrich, Hufschmied.\n218 Urech-Imhof, Philippine, Witwe, Part.\n219 * Dolder-Saxer, Jakob Friedrich, Kaufmann, v. Hauptweil (Thg.)\n  Grossmann, Otto, Firma, Handelsgärtnerei und Samenhdg. [tel]\n  Blumenbaz.\n  Vertretcerin: Steiner-Schürch, Anna, Part., von Dürrenäsch.\n  Schibli, Alfred, Chef der Militärkanzlei, von Killwangen.\n  — Jäggi, Anna Maria, Witwe, von Killwangen.\n  — Anna, Damenschneiderin, von Killwangen.\n  — Karl, Baufführer, von Killwangen.\n220 * Zschokke-Sauerländer, Guido, Buchhändler. [tel] Firma: H. R.\n  Sauerländer & Cie., Sortimentsbuchhandlung.\n  Brack-Steininger, Gottlieb, Buchhalter, von Effingen.\n221 * Hunziker-Thommen, Maria, Witwe, Part.\n  Förderer geb. Hinden, Anna, Witwe.\n  — Geschwister, Emma, Elise, Pauline. Tapisserie- und\n  Broderiegeschäft. [tel]\n  — Hermine, Klavierlehrerin.\n  Wettler geb. Schneider, Julie, Part.\n  Bräm-Hofmann, Albert, Kaufmann, von Bülach (Zürich).\n222 Vogt-Siegrist, Samuel, von Schinznach. Restauration. [tel]\nOberthor.\n223 † Gemeinde Aarau. Spritzenhaus No. 4.\n224 * Dieselbe. Oberturm.\n  Schäfer-Morlock, Wilhelm, Dienstmann.\n225 Wirz-Martin, Emil, von Solothurn. Buchdruckerei.\n226 Siebenmann, Otto und Gustav, March-Tailleurs. [tel] Offiziers-\n  Ausrüstungen, Civil-Maßgeschäft.\n  — Walther, Otto, March-Tailleur.\n  — Hemmela, Gustav, March-Tailleur.\n227 Dieselben. Anbau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 86585,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1950,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.32,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:53:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p028",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p028.jpeg",
+      "bytes": 272810,
+      "sha256": "abb725b0bb0dba03577bdde916553914a1203df57dea3ea69c79cfbca534afaa",
+      "sha256_of": "original",
+      "working_copy": "1899_p028.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:53:19+00:00"
+  }
+}

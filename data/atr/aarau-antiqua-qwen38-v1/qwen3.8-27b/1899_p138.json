@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p138",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p138.jpeg",
+    "bytes": 291741,
+    "sha256": "682fb3e97be6e9a0b596f64a2882c1b47564b77970395139d54be9107f4042e6",
+    "sha256_of": "original",
+    "working_copy": "1899_p138.jpeg"
+  },
+  "text": "34\nRoth, Friedrich, Schuhmachermeister, Zeughausstraße 1387.\n— Johann, Schneider, Milchgasse 79.\n— Joh., Aufseher, Erlinsbacherstraße 1298.\n— Katharina, Spetterin, Milchgasse 152.\n— Samuel, Taglöhner, Erlinsbacherstraße 332.\n— geb. Weber, Sophie, Nähmaschinenhdg., Laurenenvorstadt 363.\n— geb. Widmer, Verena, Witwe, Spetterin, Zeughausstraße 1387.\nRothpletz, Alfred, alt Bankdirektor, Bachstraße 1047.\n— geb. Bürgi, Maria, Pfarrers Witwe, in der Telli 454.\n— Emil, Verwalter, vordere Vorstadt 682.\n— Heinrich, Förster, Telli 454.\n— geb. Hunziker, Anna Maria, Schreiners Witwe, Milchgasse 153.\n— geb. Imhof, Luise, Stadtrats Witwe, Erlinsbacherstraße 336.\n— Karl, Architekt, Laurenzenvorstadt 410.\n— Karl, Bankangestellter, Telli 449.\n— Rudolf, Metzger, Milchgasse 160.\n— geb. Siebenmann, Marie Elisabeth, Schreiners Witwe, Part.,\nStadthof 92 c.\nRotter, Johann, Schreiner, hinter dem Bahnhof 1302.\nRüedi, Anton, Cementarbeiter, Erlinsbacherstraße 1246.\n— Johann, Staatsweibel, Milchgasse 79.\nRüegg geb. Aesser, Pauline, Witwe, Schmiedgasse 628.\n— geb. Wirth, Fanny, Witwe, Part., Zollrain 89.\nRüetschi geb. Christen, Elise, Witwe, Rain 843.\n— Fried., Buchhalter, Gais 1563.\n— Gottfried, alt Obergerichtsweibel, Adelbändli 81.\n— Hermann, Glockengiesserei, [tel] Rainstraße 843.\n— Karl, Coiffuregeschäft, Rathausgasse 22, Wohnung Milchgasse 143.\n— Max, Bäckermeister, [tel] Pelzgasse 131.\nRütti, Hans, Postangestellter, Rain 1185.\n— Johann, Schlosser, vor dem Haldenthor 784.\nRubli, Johann Jakob, Gefangenenwart, hintere Vorstadt 690.\nRuch, Alfred, Abwart, Bahnhofstraße 1445.\n— Rudolf, Schreiner, vor dem Haldenthor 768.\nRuef, Johann, Taglöhner, Halden 257.\nRuh, Konrad, Kaufmann, vor dem Haldenthor 758.\nRusterholz, Albert, Bildhauer, Rain 885.\nRychner, geb. Buhlrein, Maria Elisabeth, Part., Rain 832.\n— geb. Thommen, Elise, Witwe, Kirchgasse 10.\n— Friedrich, Sohn, Spenglermeister, Kirchgasse 10.\n— Fritz, Pianist, obere Vorstadt 1117.\n— Hrch., Gewehrfabrikant, Schloßplatz 196.\n— Joh. Heinrich, Buchhalter, jenseits der Aare 297 a.\n— Karl Christian, Röhrenfabrikant, Entfelderstraße 1511.\n— Konrad, Seiler, Seilerwarenhandlung, Pelzgasse 123.\n— Louis, Ingénieur, Stadtrat, Rain 832.\n— geb. Peter, Elisabeth, Wirtin, Bahnhofstraße 541.\n— geb. Renz, Rosa, Part., obere Vorstadt 1117.\n— geb. Schleuniger, Marie, Hafners Witwe, Schmiedgasse 637.\n— geb. Siebenmann, Elise, Witwe, Part., Rain 828.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18171,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2394,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:39:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p138",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p138.jpeg",
+      "bytes": 291741,
+      "sha256": "682fb3e97be6e9a0b596f64a2882c1b47564b77970395139d54be9107f4042e6",
+      "sha256_of": "original",
+      "working_copy": "1899_p138.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:39:28+00:00"
+  }
+}

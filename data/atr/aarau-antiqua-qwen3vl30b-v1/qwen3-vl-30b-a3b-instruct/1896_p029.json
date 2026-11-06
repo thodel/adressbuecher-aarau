@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p029",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p029.jpeg",
+    "bytes": 258357,
+    "sha256": "0f1ec3ceb9a4b0996c641dcf0a0fd9d90b5eb946bcc51acd44043efade07cd8f",
+    "sha256_of": "original",
+    "working_copy": "1896_p029.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n7\nHaus-\nNr.\nMilchgasse.\n70 Bertschi-Bircher, Julius, Zugführer, von Summiswald (Bern).\nBertschi, Bertha, Damenschneiderin, von Sumiswald (Bern).\nAeschbach-Steiner, Rudolf, Steinhauer, von Hendschikon.\nWyser-Grob, Gustav, Korbmacher, von Niedergösgen (Solothurn).\n71 Hering-Leuenberger, Johann, Lehrer, von Aristort (Baselland). Bett-\nund Möbelhandlung.\nHäusler-Müri, Joseph, Heizer, von Schwaderloch.\n72 Hoffmann-Käser, Joh., Schuhmachermeister, Schuhwarenhandlung.\n73 * Maurer, Louise, Privatin.\nMaurer-Ernst, Philipp, Giessereiarbeiter.\nMaurer, Lisette, Damenschneiderin.\nGraf-Hunkeler, Marie, von Birrwyl, Stellenvermittlungsbureau.\nNüsperli, Marie Anna, Schneiders, Part.\n74 * Siegrist-Fischer, Jakob, Metzger, von Meisterschwanden.\nFrey-Tanner, Johann, Schneider, von Densbüren.\nGautschi-Hintermann, Jakob, Zimmermann, von Reinach.\nKummer, geb. Schuwei, Josephine, von Oberönz (Bern).\n75 Wernli-Bolliger, Johann, Stadtarbeiter, von Thalheim.\nJsliker, Ulrich, Schuhmacher, von Andelfingen (Zürich).\nGloor-Horlacher, Ferdinand, Holzer, von Birk.\nErnst-Lehmann, Samuel, Gasarbeiter, von Holziken.\nSchatzmann-Gruber, Heinrich, Schneider, von Altstätt (Tirol).\nSchnellmann-Widmer, Heinrich, Maurer, Rapperswyl, (St. Gallen).\n77 Hässig-Siegrist, Julius, Schlossermeister.\nFäs, Ida, Fabrikarbeiterin, von Oberkulm.\n78 Andres-Eichelberger, Otto, Hafnermeister.\nIberg-Lüscher, Maria, Witwe, von Kättigen.\nSinger-Kloter, Georg, Maurer, von Salzstetten (Württemberg).\n79 Wärtli, geb. Nussbaum, Marg., Witwe, Part.\nRüedi-Wärtli, Joh. Nepomuk, Staatsweibel, von Sulz.\nFrank-Häuptli, Rudolf, Postpacker.\nKoch-Rupp, Hugo, Klaviermacher, von Gräfentona.\nKirchhof.\n80 * Schlatter-Bühler, Maria, Marbriers Wittwe.\nHagnauer-Kaspar, Joh. Ludwig, Taglöhner.\nLeutolf-Bühler, Joseph, Schneider, von Luzern.\nNiggli, Elise, Weissnäherin, von Aarburg.\nAdelbändli.\n81 Ott-Wenger, Friedrich, Buchhalter, von Ryken.\nOtt-Wenger, Maria, Witwe, Milch-, Butter-, Käs- und Spezerei-\nhandlung, Salzverkauf.\nRüetschi, Gottfried, alt Obergerichtsweibel.\nRüetschi, Bertha, Haushälterin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5190,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2097,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:02:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p029",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p029.jpeg",
+      "bytes": 258357,
+      "sha256": "0f1ec3ceb9a4b0996c641dcf0a0fd9d90b5eb946bcc51acd44043efade07cd8f",
+      "sha256_of": "original",
+      "working_copy": "1896_p029.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:02:05+00:00"
+  }
+}

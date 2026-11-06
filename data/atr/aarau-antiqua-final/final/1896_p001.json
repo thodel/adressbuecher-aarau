@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p001",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p001.jpeg",
+    "bytes": 299460,
+    "sha256": "bdc805da273caccb026202f5e75c894a51d4d3780793a5f6434d3775a39f753b",
+    "sha256_of": "original",
+    "working_copy": "1896_p001.jpeg"
+  },
+  "text": "[handschriftlich: Co 40]\nAdreß-Buch\nder\nStadt Aarau\n1896",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18067,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "short",
+    "chars": 56,
+    "lines": 5,
+    "longest_char_run": 1,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 10.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0179,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:09:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p001",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p001.jpeg",
+      "bytes": 299460,
+      "sha256": "bdc805da273caccb026202f5e75c894a51d4d3780793a5f6434d3775a39f753b",
+      "sha256_of": "original",
+      "working_copy": "1896_p001.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:09:26+00:00"
+  }
+}

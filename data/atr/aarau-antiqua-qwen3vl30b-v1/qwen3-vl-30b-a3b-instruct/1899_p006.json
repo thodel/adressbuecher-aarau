@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p006",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p006.jpeg",
+    "bytes": 233743,
+    "sha256": "cdd88d8869b50a4a60975d75208937de31667ff862b77fc1d0a34232f3793616",
+    "sha256_of": "original",
+    "working_copy": "1899_p006.jpeg"
+  },
+  "text": "Vorwort.\n\nVorliegendes „Adreßbuch für die Stadt Aarau“ ist\nein Auszug aus dem Kantonalt-Adreßbuch, dem als Bei-\ngabe zur Vervollständigung noch ein Verzeichnis der Ge-\nbäude der Stadt Aarau mit ihren Eigentümern und Be-\nwohnern vorangesetzt wurde.\nDieses Adreßbuch tritt als IX. Ausgabe an Stelle des\nfrüher von Herrn G. Vogel, Polizeileutenant, in Aarau\nherausgegebenen Aarauer Adreßbuches und besitzt, dank\nder gewissenhaften Bearbeitung durch Herrn Vogel neben\neiner großen Zuverlässigkeit die gleiche frühere Inhalts-\neinteilung.\nEs wird also auch in seinem neuen Gewande den\ntit. Interessenten gleichwohl ein alter Bekannter sein.\nBern, Ende 1898.\n\nDie Verleger.\n\nBerichtigung.\n\nAuf Seite 69, Gebäudeverzeichnis:\nZwischen Hausnummer 888 und 889 soll es heißen\nVordere Vorstadt.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 1795,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 782,
+    "lines": 20,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0038,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:22:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p006",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p006.jpeg",
+      "bytes": 233743,
+      "sha256": "cdd88d8869b50a4a60975d75208937de31667ff862b77fc1d0a34232f3793616",
+      "sha256_of": "original",
+      "working_copy": "1899_p006.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:22:46+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p035.jpeg",
+    "bytes": 263755,
+    "sha256": "fcad9680546403700046124924a0b0c42ef2e1fd92c7f4132b18aae71377357e",
+    "sha256_of": "original",
+    "working_copy": "1896_p035.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.                                   13\nHaus-\nNr.\n                                      Oberthor.\n138 *        [tel]  Wirz-Martin, Emil, von Solothurn.\n               Wirz-Christen, Karol., Wwe., v. Solothurn, Schreibmaterialienhdlg.\n               Baldinger, geb.- Wirz, Josephine, Ladenvorsteherin, von Baden.\n139          [tel]  Wirz-Martin, Emil, von Solothurn. (Vormals J. J. Christen).\n               Sortimentsbuchhandlung, Verlagsbuchhandlung, Buchdruckerei und\n               Buchbinderei.\n140 *        [tel]  Mattenberger-Walther, Jakob, Metzger, von Birr. Metzgerei.\n               Fürst-Grob, Anton, Schreiner, von Gunzgen (Solothurn).\n\n                                      Milchgasse.\n141          Mattenberger-Walther, Jakob, Metzger, v. Birr. Speisewirtschaft.\n142          Gloor-Geissler, Rudolf, von Birrwyl. Bäckerei.\n               Wernli, Anna Maria, Part., von Thalheim.\n143 *        Derselbe.\n               Müller-Hartmann, Jakob, Obergerichtsweibel.\n               Graf-Häuptli, Jakob, Taglöhner, von Beinwil.\n               Häuptli-Suter, Verena, Spetterin, von Biberstein.\n               Schärli-Hilfiker, Johann, Taglöhner, von Biberstein.\n144          Walti-Müller, Marie, Witwe, von Dürrenäsch (Spezerei- und\n               Milchhandlung).\n               Blattner-Wehrli, Gottlieb, Fabrikarbeiter, von Kuttigen.\n               Bruder-Bruder, Verena, Witwe, Spetterin, von Seengen.\n145 *        Dieselbe.\n               Müller-Oeschger, Samuel, Obsthändler, von Fahrwangen.\n               Hemmeler, Rosina, Part.\n               Suter, Anna Elisabeth, Spetterin, von Suhr.\n146 *        Kull, Philipp, Spenglers Erbschaft.\n               Kull, Emil, Spenglermeister, v. Rimiken, Spenglerwaren-u. Lampenlager.\n               Müller-Schneider, Susanna, Haushälterin, von Birr.\n               Lüscher, Emma, Weissnäherin, von Obermuhren.\n               Sauter, Theresia, Vorgängerin, von Balgheim.\n147          Andres-Meier, Samuel, Schlossermeister.\n               Rüedi, Anna, Glätterin, von Sulz.\n               Bachofen, Joh. Friedrich, Sekretär, von Eiken.\n148 *        Kull, Philipp, Spenglers Erbschaft.\n               Kistler-Treier, Emil, Taglöhner, von Bötzen.\n               Bolliger-Häfeli, Gottfried, Schmied, von Uerkheim.\n               Cima-Hauri, Johann, Mechaniker, von Aquila (Tessin).\n149          Drack-Rohr, Hermann, Metallgießer.\n               Drack-Hauser, Elisabeth, Witwe, Spetterin.\n               Drack, Louise, Glätterin.\n               Furter, geb. Rohr, Anna, Taglöhnerin, von Staufen.\n150          Siegrist-Fischer, Jakob, Metzger, von Meisterschwanden.\n               Engesser-Brunner, Joseph, Schneider, v. Durchhausen (Württemberg.)\n               Brunner-Lehner, Anna Maria, Part., von Gränichen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 115500,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2798,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:42:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p035.jpeg",
+      "bytes": 263755,
+      "sha256": "fcad9680546403700046124924a0b0c42ef2e1fd92c7f4132b18aae71377357e",
+      "sha256_of": "original",
+      "working_copy": "1896_p035.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:42:57+00:00"
+  }
+}

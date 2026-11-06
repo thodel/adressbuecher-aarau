@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p040.jpeg",
+    "bytes": 279634,
+    "sha256": "80ebf61467164df1a36e37704a52fcb75f6587741d93993c8771d36b48f328e2",
+    "sha256_of": "original",
+    "working_copy": "1896_p040.jpeg"
+  },
+  "text": "18\nHaus-\nNr.\n188     Fahrländer geb. Müller, Verena, Part.\n        Hartmann-Kahrmeier, Ludwig, Schneider, v. Augsburg (Bayern).\n        Maurer-Nussberger, Samuel, Taglöhner, von Schmiedrued.\n        Fischer-Haller, Jakob, Zimmermann, Bauamtsarbeiter, v. Tennwyl.\n        Blume-Hirt, Philipp, Schreiner, von Sprendlingen (Hessen). Bau-\n        und Möbelschreinerei.\n        Nussberger-Leutwyler, Samuel, Taglöhner, v. Seengen.\n        Hunziker & Cie. Möbelfabrik.\n189 *   Hassler-Heberlein, Adolf, Färber.\n        Siegenthaler-Hirt, Hermann, Uhrenmacher, von Trub (Bern).\n        Siegenthaler-Hirt, Elise, von Trub (Bern). Wäscherei u. Glätterei.\n190 *   Hassler-Heberlein, Adolf, Färber.\n        Zellweger, Oskar, Part., von Hauptweil (Thurgau).\n        Läubli-Häfeli, Jakob, Fabrikaufseher, von Seengen.\n        Hofmann, Marie, Fabrikarbeiterin, von Schlossrued.\n        Huber-Müller, Johann, Schneider, von Tristach (Oesterreich).\n        Huber-Müller, Bertha, Glätterin, von Tristach (Oesterreich).\n        Bolliger, Rud. Hermann, Bahnangestellter, von Schlossrued.\n        Bolliger, Emma und Anna, Damenschneiderinnen, von Schlossrued.\n        Bolliger, Armin, Ferger, von Schlossrued.\n        Wernle-Schmidli, Kaspar, Holzer, von Thalheim.\n191     Stahel-Ernst, Jean, Kaufmann.\n        Stahel & Cie., Manufakturwaren-Handlung en gros.\n        Weber, Stephan, Sekretär (Staatsanwaltschaft), von Sulz.\n        Weber, Regina, Part., von Sulz.\n192 †   Hegnauer-Renold, Rudolf, Fabrikant. Holzmagazin.\n193 *   Derselbe. Fabrikgebäude. Fabrikation und Export von Geflechten\n        in Stroh, Roßhaar, Manillahanf und Baumwolle.\n        Biber-Graber, Theodor, Fabrikation von Seidenband und Näh-\n        maschinen-Handlung.\n194     Hegnauer-Renold, Rudolf, Fabrikant. Wohnhaus.\n        Widmer, Rosette, Fergerin, von Othmarsingen.\n\nSchlossplatz.\n195 *   Rothpletz-Wydler, E., Oberst, zum Schlößli (in Zürich).\n        Zehnder-Siebenmann, Maria, Part.\n        Frey-Wirth, Lina, Bureaualistin, von Wangen (Solothurn).\n196     Rychner-Renold, Heinrich, Gewehrfabrikant.\n197     Gantner-Rychner, Maria, Oekonoms Witwe.\n        Gantner, Hermann, Oekonom.\n        Gantner, Gottlieb, Oekonom.\n        Gantner, Arnold, Oekonom (Sattler).\n        Hemmeler-Pfister, Friedrich, Postangestellter.\n        Hassler-Meier, Maria, Part., von Männedorf (Zürich).\n198 u. 199 Abgetragen. An dessen Platz\n1183    Gemeinde Aarau (Saalbau).\n        Schatzmann-Häring, Jakob, Abwart, von Windisch.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5967,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2472,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:03:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p040.jpeg",
+      "bytes": 279634,
+      "sha256": "80ebf61467164df1a36e37704a52fcb75f6587741d93993c8771d36b48f328e2",
+      "sha256_of": "original",
+      "working_copy": "1896_p040.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:07+00:00"
+  }
+}

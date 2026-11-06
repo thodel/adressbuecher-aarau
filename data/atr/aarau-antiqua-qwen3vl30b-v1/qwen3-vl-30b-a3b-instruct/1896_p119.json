@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p119",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p119.jpeg",
+    "bytes": 274977,
+    "sha256": "666df2a3afb8f271f0001f0e981d53e9e46121146ad3b6f888dd023c4d94cb29",
+    "sha256_of": "original",
+    "working_copy": "1896_p119.jpeg"
+  },
+  "text": "Fäs, Jakob, Posamenter, Golattenmattgasse 237 a.\n— Ida, Fabrikarbeiterin, Milchgasse 77.\n— Rudolf, Kaser nier, Pelzgasse 67.\nFahrländer, Eugen, Ingenieur, Rainstraße 869.\n— Karl, Dr. jur., Regierungs-Rat, Laurenzenvorstadt 371.\n— geb. Müller, Verena, Part., Hammer 188.\nFailer, Georg, Schriftsetzer, Rain 826.\nFaller geb. Faller, Elise Luise, Witwe, Eisen- und Quincailleriehandlung, Kronengasse 41.\n— Friedrich, Kaufmann, Eisenhandlung, Rathausgasse 17.\nFaller, Karl Friedrich, Sohn, Kaufmann, Kronengasse 41.\nFassler, Anna, Weißnäherin, Zollrain 88.\n— Friedr. Georg, Gipser, Zollrain 88.\n— Maria, Part., hinter dem Platz 214.\nFeer, Adele, Rentière, Laurenzenvorst. 602.\n— Hans, Bankangestellter, Kroneng 38.\n— James, Laurenzenvorstadt 602.\n— Karl, Laurenzenvorstadt 602.\n— Sophie, Laurenzenvorstadt 602.\nFecht, Julius, Weinhandlung, vor dem Haldenthor 758.\nFehlmann geb. Blattner, Anna, Lingeriegeschäft, Bahnhofstraße 648.\n— Christoph, Taglöhner, Kirchgasse 13.\n— Elisabeth, Part., Halden 264.\n— geb. Hinden, Margaretha, Witwe, Taglöhnerin, vor dem Haldenthor 766.\n— Johann, Gärtner, Halden 282.\n— Kasp., Bäckermeister, Rathausgasse 45.\n— Rudolf, Aufseher, Bahnhofstraße 648.\n— Rudolf, Dachdecker, Golattenmattgasse 230.\nFeilner, Hans, Mechaniker, vordere Vorstadt 900.\nFelber, Joh., Postkondukteur, Laurenzenvorstadt 412.\n— Georg, Laternenputzer, Hammer 188.\n— Verena, Damenschneiderin, Hammer. 188.\nFenner, Joh., Güterexpedient, vor dem Haldenthor 1299.\nFigi, Jb., Schlosser, hint. Vorstadt 693.\nFisch, Adolf, Buchhalter, in der Gais 1420.\n— geb. Dür, Elise, Schuhmachers Witwe, Halden 247.\n— Gottlieb, Kaufm., Vord. Vorstadt 681.\n— Josephina, Part., Zieglerain 703.\n— Karl, Oberstlieutenant, Instruktor I. Klasse d. Infanterie, zur Blumenhalde, Gishügel 319.\n— Karolina, Arzts, Bahnhofstraße 1019.\n— Lina, Metzgers, Näherin, Vordere Vorstadt 892.\n— Mina, Kleinkinderlehrerin, Rain 875.\n— geb. Vogt, Marie, Part. Milchgasse 160.\nFischer, Adolf, Postbeamter, Cigarren- und Tabakhandlung, Laurenzenthor gasse 120.\n— Albert, Sekretär, obere Vorstadt 956.\n— Franz, Schneider, Halden 285.\n— Friedrich, Fuhrmann, Halden 275.\n— Friedr., Schreiner, Weibels, Halden 247..\n— Friedrich, Schreiner, Fuhrmanns, Golattenmattgasse 230.\n— Friedrich, Hilfsmaschinist, Erlinsbacherstraße 1428.\n— Jakob, Zimmermann, Hammer 188.\n— Jonathan, Goldschmied, Holzmarkt 1260.\n— Ludwig, Bauamtsarbeiter, Adelbändli 171.\n— Luise, Ladentochter, Laurenzenthor gasse 120.\n— Luise, Messerschmieds, Damenschneiderin, Adelbändli 172.\n— Maria, Fabrikarbeiterin, Halden 286.\n— geb. Niggli, Lina, Witwe, Part., obere Vorstadt 923.\n— Rudolf, Tierarzt, Viehinspektor und Wirt, Gais 486.\n— geb. Roth, Maria, Stadtarbeiters, Scheibenschachen 312.\n— Thomas, Gemeindeweibel, Rathausgasse 176.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8089,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2754,
+    "lines": 59,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:11:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p119",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p119.jpeg",
+      "bytes": 274977,
+      "sha256": "666df2a3afb8f271f0001f0e981d53e9e46121146ad3b6f888dd023c4d94cb29",
+      "sha256_of": "original",
+      "working_copy": "1896_p119.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:11:13+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p148",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p148.jpeg",
+    "bytes": 284505,
+    "sha256": "db3493efb96d9d209cedccfb337c510779c95fe3d839c09dcd95a810bd3a3582",
+    "sha256_of": "original",
+    "working_copy": "1899_p148.jpeg"
+  },
+  "text": "44\nWaldmeier, Alfred, Kaufmann, jenseits der Aare 342.\n— geb. Rothpletz, Bertha, Witwe, Part., vordere Vorstadt 682.\nWalsér geb. Bamberger, Marie, Zschneiderin, Halden 260.\nWalter, August, Velo- und Nähmaschinenhandlung, [tel] Pelzgasse 125.\nWalther geb. Schatzmann, Barbara, Witwe, Ökonoms, Rain 856.\n— Hans, Ökonom, [tel] Bachstraße 1396.\n— Jakob, Ökonom, Schachen 739.\n— geb. Matter, Verena, Witwe, Schachen 1259.\nWalti, Emil, Milchgändler, Milchgasse 144.\n— Hermann, Wagenwärter, hintere Vorstadt 623.\n— geb. Müller, Marie, Witwe, Spezerei- und Milchkandlung, Milch-\n  gasse 144.\n— Samuel, Taglöhner, Kirchgasse 15.\n— geb. Zimmermann, Rosa, Taglöhnerin, h. d. Bahnhof 494.\nWandfluh, Joh., Schuhmacher, Rathausgasse 18.\nWanger geb. Hüsermann, Julia, Buchbinders, Kirchhof 164.\n— Gustav, Kassier der Aarg. Ersparniskasse, Zschokkestraße 974.\n— Henriette, Adelbändli 174.\n— Julie, Buchbinders, Kirchhof 164.\n— Luise, Part., Bahnhofstraße 658.\n— Marie, Kaufmanns, Part. Zschokkestraße 974.\n— Rosa, Buchbinders, Kirchhof 164.\n— geb. Siebenmann, Sophie, Rain 823.\n— Sophie, Kassiers, Part., Zschokkestraße 974.\nWassmer, Emil, Kaufmann, [tel] „Daheim“, Rain (Zelgli) 1494.\n— Fidel, Schneidermeister, Pelzgasse 63.\n— Jakob, Wagner, Rain 877.\n— Samuel, Ausläufer, Adelbändli 172.\nWeber, Anna, Glätterin, Waltersburg 856.\n— geb. Buchmann, Magdalena, Witwe, Rathausgasse 3.\n— Ferdinand, Schneider, Milchgasse 161.\n— Gustav, Bezirksarzt, [tel] Schloßplatz 1389.\n— Hermann, Speisewirt, [tel] Bahnhofstraße 568 a.\n— Heinrich, Lithograph, obere Vorstadt 940.\n— Heinrich, Kaufmann, Spezialität in Damenkleiderstoffen, Lau-\n  renzenthor gasse 1118.\n— Jakob, Handlanger, Erlinsbacherstraße 337.\n— Jakob, Bankabwart, vor dem Haldenthor 1109.\n— Otto, Weinhandlung Pelzgasse 128.\n— Regina, Part., Schloßplatz 191.\n— Stephan, Schloßplatz 191.\n— -Suter, Ida, Modistin, Modegeschäft, Laurenzenthorgasse 1118.\n— Theresia, Ladentochter, Rathausgasse 45.\n— Wilhelm, Milchverkäufer, Erlinsbacherstraße 337.\nWegelin, Joh. Rud., Architect, hinter dem Bahnhof 494.\n— geb. Riesch, Maria, Part., hinter dem Bahnhof 494.\nWehrlí, Adolf, Cementarbeiter, Erlinsbacherstraße 335.\n— Andreas, Zimmermann, Rain 826.\n— Anna, Fabrikarbeiterin, Laurenzenvorstadt 376.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 55259,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2227,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:47:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p148",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p148.jpeg",
+      "bytes": 284505,
+      "sha256": "db3493efb96d9d209cedccfb337c510779c95fe3d839c09dcd95a810bd3a3582",
+      "sha256_of": "original",
+      "working_copy": "1899_p148.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:47:02+00:00"
+  }
+}

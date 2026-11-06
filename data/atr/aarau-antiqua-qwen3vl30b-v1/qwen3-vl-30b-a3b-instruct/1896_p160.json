@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p160",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p160.jpeg",
+    "bytes": 288964,
+    "sha256": "4a05673281d9c52c9a21dd826b048fe700a8ca599083b2187c3c009260bceffc",
+    "sha256_of": "original",
+    "working_copy": "1896_p160.jpeg"
+  },
+  "text": "122\nAlphabetisches Verzeichnis.\nStreit geb. Hegnauer, Mina, Part., Laurenzenvorstadt 403.\nStrübin, August, Wirt, Restauration z. vis-a-vis, Metzgergasse 60.\nStrub, Robert, Schneider, Halden 252.\nStudler geb. Sandmeier, Anna, Witwe, vordere Vorstadt 675.\nSulzmann, Georg, Steindrucker, Pelzgasse 68.\nSuter, Albert, Taglöhner, vor dem Haldenthor 1084.\n— Albert, Schneidermeister, Pelzg. 133.\n— Anna, Damenschneiderin, Ziegelrain 704.\n— Anna, Spetterin, vor dem Haldenthor 1083.\n— Elise, Wäscherin, Ziegelrain 711.\n— geb. Fehlmann, Anna, Ziegelrain 704.\n— Gabriel, Posamenter, Kirchgasse 12.\n— Jakob, Schreiner, Rain 833.\n— Jakob, Taglöhner, Pelzgasse 134.\n— Jakob, Professor, Seminarlehrer, Gönhardfeldweg 1241.\n— Johann, Part., Laurenzenthorgr. 1118.\n— Johann Rudolf, Fabrikarbeiter, Laurenzenvorstadt 376.\n— Jost, Konditor, Pelzgasse 137.\n— geb. Kähr, Elisabeth, Part., Bahnhofstraße 1019.\n— geb. Rauber, Susette, Witwe, Part., in der Gais 1131.\n— Rosa, Damenschneiderin, Laurenzenthorgasse 1118.\n— Rosina, Brodverkauf, hintere Vorstadt 647.\n— Rudolf, Part., Halden 271.\n— Rudolf, Spengler, Ziegelrain 704.\n— Rud., Uhrenmacher, Kasinostr. 571.\nTanner, Erwin, Fürsprech, Wohnung Entfelderstraße 1398, Bureau Laurenzenthorgasse 118.\n— Irmengard, Part., Laurenzenvorstadt 586.\nTaubstummenanstalt Aarau. Präsident: Julius Henz. Vord. Vorstadt 1169.\nTheez, Albert, Schuhmacher, Laurenzenthorgasse 117.\n— geb. Amsler, Emilie, Schirm- und Kostüngeschäft. Wohnung Laurenzenthorgasse 117, Laden Holzmarkt 754.\nTheiler geb. Rebmann, Elise, Witwe, Part., Laurenzenvorstadt 415.\nTheodor, Amadeus, Zugführer, Pelzgasse 122.\nThielke, Friedrich, Schneider, Rain 1185.\nThom, Franz, Trompeterinstruktor der Infanterie, Zeughausstraße 1310.\nThut, Gottlieb, Part., Schachen 736.\n— Hermann, Ziegler, Rain 863.\n— Rudolf, Part., Entfelderstraße 979.\nTrainé, Eugen, Hauptmann, Instruktor der Infanterie, Bahnhofstraße 1336.\nTrefzger, Gustav, Dampfwascherei und Badanstalt, Färbergässchen 231.\nTreier, Johann, Schreiner, Rain 857.\n— Johann, Taglöhner, Halden 274.\nTrinkler, Karolina, Witwe, Part., vor dem Haldenthor 784.\nTrösch geb. Schütz, Anna, Rain 833.\nTrog, Gottlieb, Schuhmacher, Pelzgasse 122.\nTrüb, August, Lithographiebesitzer, Gönhardfeldweg 1150.\nTschopp, Jakob, Taglöhner, Halden 287.\nTuchschmid, Aug., Dr. phil., Professor, jenseits der Aare 294.\n— Kourad, Sattler und Tapezierer, Pelzgasse 126.\nUebersax, Jakob, Fergger, Weinberg 321 b.\nUhler, Bertha, Lehrerin, vordere Vorstadt 669.\n— Emma, Part., vordere Vorstadt 669.\nUmiker geb. Marti, Maria, Witwe, hint. Vorstadt 643.\n— Samuel, Straßenwärter, Halden 260 b.\n— Samuel, Knecht, Hammer 1301.\nUnteroffiziersverein Aarau. Präsident: Julius Bodmer, Erlinsbacherstrasse 1298.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7732,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2725,
+    "lines": 58,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:14:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p160",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p160.jpeg",
+      "bytes": 288964,
+      "sha256": "4a05673281d9c52c9a21dd826b048fe700a8ca599083b2187c3c009260bceffc",
+      "sha256_of": "original",
+      "working_copy": "1896_p160.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:14:36+00:00"
+  }
+}

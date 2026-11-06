@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p038",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p038.jpeg",
+    "bytes": 271690,
+    "sha256": "e962cec8de82bb3a2d1c20dab9ef5b12515eb5341a858444d89d6fec4bf0d4bf",
+    "sha256_of": "original",
+    "working_copy": "1899_p038.jpeg"
+  },
+  "text": "30\nHaus-\nNr.\n326 * Klingelfuss-Widmer, Johann, Friedrich, Mechaniker, v. Basel.\n      Klingelfuss-Strasser, Joh. Heinrich, Gärtner, von Basel.\n      Strasser-Hediger, Kaspar, Privat., von Nußbaumen.\n1081 † Derselbe. Fabrikgebäude.\n1082    Abgetragen.\n1097 † Schmidt-Hagnauer. Rebhäuschen.\n1102 * Hess, Alexander, Kaufmann, von Zllisheim (Elsasß).\n      Schmid-Dätwyler, Bruno, Magaziner, von Bassignigen (Thurg.).\n1174 † Derselbe. Bienenhaus.\n\nErlinsbacherstrasse.\n\n327 † Fleiner & Cie., Cementbrennerei, Fabrikation von schwerem\n      hydraulischem Kalk.\n1163 † Derselbe. Cementmühle.\n1164 † \" Magazin.\n1165 † \" Abgetragen.\n  328 † \" Kalkofenschopf.\n  329 † \" Schopf.\n  330 † \" Bureau mit Steinschopf. [tel]\n  331 † \" Wagenthaus.\n1238 † \" Turm mit Transmission.\n1282 † \" Brennofen. Trockenpresse.\n1296 † \" Stein- und Kohlenschuppen.\n1297 † \" Steinschuppen.\n1151 † \" Wagenremise.\n1441 † \" Scheune und Remise.\n  332 * \" Trotte.\n      Graf, Jakob, Cementarbeiter, von Küttigen.\n      Roth-Sahli, Samuel, Knecht, von Zenzwyi.\n1428 * Einwohnergemeinde Aarau. Elektrische Kraftzentrale.\n      Fischer-Kaufmann, Friedrich, Maschinist.\n1067 † Schneider-Rychner, Gustav, Dr. Fürsprech, Oberrichter. (Reb-\n      häuschen.)\n1068 † Burkhard, Ferd., Coiffeur. (Rebhäuschen.)\n  333 Siegfried-Leupold, Friedrich, Staatsbuchhalter [tel], v. Zofingen.\n  334 † Derselbe. Holzschopf.\n1298 Roth, Johann, Aufseher, von Obererlinsbach.\n      Bodmer-Roth, Johann Julius, Fabrikaufseher, v. Erlinsbach.\n1361 † Derselbe. Holzschopf.\n  335 * Fleiner & Cie.\n      Flückiger-Hug, Jakob, Käsar, von Auswil (Bern).\n      Wehrli-Blattner, Adolf, Cementarbeiter, von Küttigen.\n      Käser-Fischer, Jakob, Cementküfer, v. Obererlinsbach (Sol.)\n1136 † Einwohnergemeinde Aarau. Schirmhäuschen am Kanal.\n  336 Rothpletz-Imhof, Louise, Stadträtin Witwe.\n      Guyer-Blattner, August, Part., von Fehraltorf (Zürich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 127641,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1879,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:03:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p038",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p038.jpeg",
+      "bytes": 271690,
+      "sha256": "e962cec8de82bb3a2d1c20dab9ef5b12515eb5341a858444d89d6fec4bf0d4bf",
+      "sha256_of": "original",
+      "working_copy": "1899_p038.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:03:48+00:00"
+  }
+}

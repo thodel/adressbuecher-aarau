@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p124",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p124.jpeg",
+    "bytes": 283581,
+    "sha256": "541220013700c44b4c0082914fc32be28138ed39c0db661fe662e61017c91858",
+    "sha256_of": "original",
+    "working_copy": "1896_p124.jpeg"
+  },
+  "text": "102\nAlphabetisches Verzeichnis.\nHäuptli, Jakob, Färber, Milchgasse 156.\n— Othmar, Adjunkt des Staatsbuchhalters, vor dem Haldenthor 1272.\n— geb. Suter, Verena, Spetterin, Milchgasse 143.\nHäusermann, Adolf, Taglöhner, Halden 257.\n— Friedr., Schneider, Ziegelrain 707 b.\n— geb. Schmid, Elisabeth, Halden 253.\nHäusler, Angelus, Maler, vor dem Haldenthor 762.\n— Emil, Sohn, Maler, vor dem Haldenthor 762.\n— Joseph, Heizer, Milchgasse 71.\n— Julie, Glätterin, vor dem Haldenthor 762.\n— Karl, Schriftsetzer, vor dem Haldenthor 762.\nHaberstich, Emil, Sohn, Magaziner, Milchgasse 152.\n— Frieda, Lehrerin, Rain 858.\nHaberstich, Gottlieb, Holzspalter, Milchgasse 152.\n— Jakob, Zinsrodelverwalter, Rain 858.\n— Lina, Lehrerin, obere Vorstadt 938.\n— Rosa, Part., Laurenzenvorstadt 367.\n— geb. Scheuermann, Bertha, Witwe, obere Vorstadt 938.\nHagenbuch, August, Sekretär, Zollrain 177.\n— Friedrich, Buchbinder, vordere Vorstadt 676.\n— Gottlieb, Kaufmann, Laurenzenvorstadt 1294.\n— Karl, Coiffeur, Rain 819.\n— Karl, Kaufmann, Glas- u. Porzellanwarenhandlung, ⟺ Kronengasse 35.\n— Verena, Spezereihandlung, Zollrain 177.\nHagi geb. Brugger, Franziska, Ziegelrain 712.\nHagmann, Ad., Schuhhandlung (Filiale), hintere Vorstadt 1262.\nHagnauer, A. & Cie. Lederhandlung, ⟺ Konradstraße 1255.\n— Albert, Kaufmann, Konradstr. 1255.\n— Emma, Part., Konradstraße 989.\nHagnauer, Friedrich, Bürstenmacher, Pelzgasse 68.\n— Gottlieb, Metzger, Halden 266 b.\n— Hedwig, Lehrerin, Bahnhofstr. 651.\n— Hermann, Sohn, Kaufmann, Pelzg. 68.\n— Joh. Ludwig, Taglöhner, Kirchhof 80.\n— Mathilde, Part., Konradstraße 989.\n— Nanette, Konradstraße 989.\n— geb. Wildberger, Barbara, Witwe, Part., Konradstrasse 989.\nHaller, geb. Fehlmann, Susette, Witwe, Spetterin, Ziegelrain 704.\n— Marie, Glätterin, vor dem Haldenthor 1092.\n— Wilhelm, Badmeister, vor dem Haldenthor 1092.\nHangartner, Ferdinand, Lithograph, Bachstraße 1048.\n— Kaspar, Camionneur, Ziegelrain 712.\nHartmann, Ludwig, Schneider, Hammer 188.\n— & Schürch. (Rudolf Hartmann und Adolf Schürch). Fabrikation elastischer Gewebe, Bachstraße 1048.\n— Rud., Fabrikant Gartenstr. 1103.\nHaas, Jos., Bierbrauer, Golattenmattgasse 231 a.\nHassler, Adolf, Färber, Hammer 188.\n— Alfred, Lehrer, Bachstraße 1040.\n— Arnold, Buchhalter, Telli 454.\n— August, Färber, Halden 265.\n— geb. Brunnhofer, Elise, Kamintegers Witwe, Halden 248.\n— Emil, Kolonialwarenhandlung, Laurenzenvorstadt 349.\n— Friedr., Verwalter des städtischen Elektrizitätsw., Schachen 723.\n— Gottlieb, Bauamtsarbeiter, Kirchg. 11.\n— Gustav, Maler, Werkstätte hintere Vorstadt 642. Wohnung Bachstraße 1040.\n— Hans, Lederhandlung, ⟺ Bahnhofstraße 656.\n— Hans & Cie. (Hans Hassler Schmid und Dr. Emil Hassler), Teppichgeschäft en gros, Kasinostraße 578.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8124,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2719,
+    "lines": 60,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:11:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p124",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p124.jpeg",
+      "bytes": 283581,
+      "sha256": "541220013700c44b4c0082914fc32be28138ed39c0db661fe662e61017c91858",
+      "sha256_of": "original",
+      "working_copy": "1896_p124.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:11:55+00:00"
+  }
+}

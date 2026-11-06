@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-gemini-retry-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p037.jpeg",
+    "bytes": 250142,
+    "sha256": "baa6f948ad42e90624625d464392de583fb1476efc117758db2eced492561a7b",
+    "sha256_of": "original",
+    "working_copy": "1896_p037.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 15\n\nHaus-\nNr.\n  161 Dürr-Schmuziger, Isaak, Schreiner.\n    Schmuziger, Susette, Part.\n    Schmuziger, Verena, Part.\n    Märki-Amsler, Jakob, Küfer, von Mandach.\n\nKirchhof.\n\n  162 Gränicher geb. Richner, Rosa, Witwe, Part.\n    Gränicher-Wärtli, Joh. Jak., Schneider, ref. Siegrist. Spezereihdlg.\n  163 Vogel-Dubs, Gottfried, Polizeiwachtmeister, von Kölliken.\n    Zuber-Müller, Andreas, Part.\n    Hess-Wolf, Alexander, Kaufmann, von Zillisheim (Elsass). (Werk-\n      stätte und Magazin für Bettwaren).\n  164 Wanger-Häusermann, G., Buchbinder.\n    Wanger, Rosa.\n    Wanger, Julie, Part.\n    Kohlmann-Läuchli, Verena, Witwe, Lithographie u. Steindruckerei.\n    Läuchli, Adolf, Lithograph, von Remigen.\n    Gampp-Spreuer, Philipp, Aufseher, von Hornussen.\n  165 a * Wärtli, Friedrich, Buchhalter in Derendingen.\n    Fuchs-Sommerhalder, Franz Joseph, Posamenter von Hornussen\n    Hübscher-König, Anna, Witwe, Spetterin, von Dottikon.\n    Vogt-Keller, Jakob, Schreiner, von Villigen.\n    Vogt-Keller, Marie, Hebamme, von Villigen.\n  165 b Stierli-Häny, Samuel, Kondukteur d. N. O. B., von Gebenstorf.\n  166 Wärtli-Ernst, August, Buchbinder.\n    Siebenmann-Sprüngli, Sophie, Witwe, Part.\n    Schwalb-Wessler, Adolf, Photograph, von Karlsbad (Böhmen).\n  167 a Derselbe.\n  167 b Abgetragen.\n  168 Gemeinde Aarau, Kirche.\n  169 Dieselbe. Pfarrhaus.\n    Graf-Fäsi, Ernst, von Winterthur, ref. Pfarrer.\n\nAdelbändli.\n\n  170 Matter-Hagnauer, Jakob, Schneidermeister, von Kölliken, Kleider-\n      Fabrikation.\n    Matter-Thommen, Maria, Witwe, Wäscherin, von Kölliken.\n    Spörri-Käser, Elise, Schneiderin, von Bäretschwyl, (Zürich).\n    Wernly, Elisabeth, Näherin, von Thalheim.\n  171 Siebenmann-Frey, Ludwig, Schuhmacher, Part.\n    Dürr-Siebenmann, Karolina, Registrators Witwe.\n    Fischer, Ludwig, Bauamtsarbeiter.\n    Gloor Wilhelmine, Taglöhnerin, von Dürrenäsch.\n    Gloor, Bertha, Damenschneiderin, von Dürrenäsch.\n  172 * Wehrli-Hassler, Friedrich, Pedell.\n    Scheibler-Suter, Alfred, Taperierer, von Unter-Entfelden. Möbel-\n      magazin und Werkstätte.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7017,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2093,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T20:47:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-gemini-retry-v1",
+    "source": {
+      "key": "1896_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p037.jpeg",
+      "bytes": 250142,
+      "sha256": "baa6f948ad42e90624625d464392de583fb1476efc117758db2eced492561a7b",
+      "sha256_of": "original",
+      "working_copy": "1896_p037.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:47:30+00:00"
+  }
+}

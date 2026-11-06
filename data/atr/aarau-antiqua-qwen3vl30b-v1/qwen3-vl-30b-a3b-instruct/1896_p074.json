@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p074",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p074.jpeg",
+    "bytes": 259613,
+    "sha256": "26aa92be7dda1a0fe88c7cc7aadd6d0fe8b405b89e73a5ebbb3f1dd0b2599cc1",
+    "sha256_of": "original",
+    "working_copy": "1896_p074.jpeg"
+  },
+  "text": "52\nHaus-\nNr.\n1289  Schenker-Siebenmann, Gottl., Dr. med. prakt. Arzt.\n1304  † Derselbe. Wasch- und Holzhaus.\n656  Hassler-Stampfli, Hans. Leder- und Fourniturenhandlung.\nBillo-Honegger, Eduard, Part.\n657  † Derselbe. Holzschopf.\n658  Heuberger-Rychner, Karl. Coiffeurgeschäft. Installation und\nHandlung elektrischer Aparate.\nSchmid, Maria, v. Buch bei Weinfelden (Thurgau). Lingeriegeschäft.\nNäf-Ludwig, Emil, Statistiker, von Aarburg.\nIndermauer-Richner, Elise, Witwe. Spezereihandlung.\nVilliger, Anton, von Sins. Geschäftsführer d. „Aarg. Nachrichten“).\nGisi, Jakob, Rechnungsrevisor, von Bîrr.\nVogel, Jakob, Bremser, von Kölliken.\n\nKasinostrasse.\n1176  Heuberger-Wernli, Elisabeth, Witwe, Part.\nBretschler-Furter, Emil, Elektrotechniker, von Oberwinterthur.\nIndermauer, Jakob, Metzger. Metzgerei und Wursterei.\nMüller, Emil, Bahngestellter, von Sirnach (Thurgau).\n659  † Dieselbe. Holzschopf.\n660  Häfelin-Hächler, Joseph, Sattler, von Oberwyl.\nUrben-Flückiger, Johann, von Niederlenz. Milch-, Käse- und\nButterhandlung.\nBolliger-Schenker, Samuel, Bedienter, von Schloßrued.\nRüetschi, Max, Kaufmann.\n1130  Dürr-Seiler, Hermann, Malermeister.\nKirchhofer-Obrist, Marie, Witwe, Maschinenstrickerin, v. Auenstein.\nKirchhofer, Marie, Modistin, von Auenstein.\nKaufmann-Pflug, Jos., Schreiner, von Winikon (Luzern).\nKaufmann-Müller, Katharina, Witwe, von Winikon (Luzern).\n1446  † Derselbe. Holzschopf.\n\nHolzmarkt.\n661  Brast, Sophie Ida, und Brast, Rosina Emma. Waffenhandlung.\nBrast-Lienhard, Charlotte, Witwe.\nBrast, Emma.\nBrast, Sophie Ida.\n662  Rohr-Holliger, Joh., von Buchs. Speisewirtschaft.\n663  Scheidegger-Roth, Johann Ulrich, Käser, von Ursenbach (Bern).\nMilch-, Butter- und Käsehandlung.\nBertschi-Storkenmeier, Emil, Schneider, von Sumiswald (Bern).\nWehrli-Marti, Jakob, Schreiner, von Kättigen.\n664  Gisi-von Arx, Viktor, Kaufmann, von Niedergösgen (Solothurn).\nLager in Herren- und Damenkleiderstoffen. Damenkonfektion.\nBerner, Lina, Schneiderin, von Schafisheim.\n665  Abgetragen; an dessen Platz",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5520,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2006,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.66,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:06:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p074",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p074.jpeg",
+      "bytes": 259613,
+      "sha256": "26aa92be7dda1a0fe88c7cc7aadd6d0fe8b405b89e73a5ebbb3f1dd0b2599cc1",
+      "sha256_of": "original",
+      "working_copy": "1896_p074.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:06:18+00:00"
+  }
+}

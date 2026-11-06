@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p092",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p092.jpeg",
+    "bytes": 289098,
+    "sha256": "2f53f3130ff1c063275e8c3af90a78537fece695ca75f5d514fcd77626ba6785",
+    "sha256_of": "original",
+    "working_copy": "1899_p092.jpeg"
+  },
+  "text": "84\n\nHaus-\nNr.\n1102 * Hess, Alexander, Kaufmann. (Weinberg.)\n1103 Hartmann, Rudolf, Fabrikant. (Gartenstraße.)\n1104 † Gemeinde Aarau. Schuppen. (Jenseits der Aare.)\n1105 † Aeschbach, Friedrich, Mechaniker. Werkstätte und Bureau.\n  (In der Gais.)\n1106 Derselbe. Wohnhaus. (In der Gais.)\n1107 Stänz-Suter, Witwe. (Bachstraße.)\n1108 † Wehrli-Dubs, Johann, Gärtner. Gewächshaus. (Vor dem\n  Haldenthor.)\n1109 Weber, Joh. Jak., Bankabwart. (Vor dem Haldenthor.)\n1110 † Siebenmann-Walther, Otto, Schneider. Gartenhaus. (Vor\n  dem Haldenthor.)\n1111 † Gänslen-Landolt, Karl. Magazin. (Obere Vorstadt.)\n1112 Stephani-Wettler, Albertine, Witwe. (Bachstraße.)\n1113 Adam-Stephani, Hedwig, Witwe. \"\n1114 Märki-Wehrli, Jakob, Fabrikaufseher. (Laurenzenvorstadt,\n  Philosophenweg.)\n1115 Abgetragen.\n1116 † Schweiz. Nordostbahn. Wärterhäuschen. (Bahnhof.)\n1117 Richner-Renz, Witwe. (Obere Vorstadt.)\n1118 Weber-Suter, Heinrich, Kaufmann. (Laurenzenthorstraße.)\n1119 Abgetragen.\n1120 † Staat Aargau. Kavalieriekaserne. (Zeughausstraße.)\n1121 † Derselbe. Stallungen. (Zeughausstraße.)\n1122 † Hartmann, Rudolf, Fabrikant. Waschhaus. (Gartenstraße.)\n1123 † Gemeinde Aarau. Materialschuppen. (Friedhof.)\n1124 Thut, Gottlieb, Weinhändler. (Bachstraße.)\n1125 † Schäfer-Troller, Architekt. Werkstätte. (In der Gais.)\n1126 † Derselbe. Gartenhaus. (In der Gais.)\n1127 † Adam-Stephani, Witwe. Scheune. (Bachstraße.)\n1128 † Oboussier, Fried., Fabrikant. Waschhaus. (Grabenstraße.)\n1129 * Bally-Prior, Ed., Fabrikant, in Schönenwerd. (Gartenstraße.)\n1130 Dürr-Seiler, Hermann, Malermeister. (Kasinostrasse.)\n1131 Müller-Suter, Jakob, Lithograph. (In der Gais.)\n1132 † Zschokke, M., Baugeschäft. (Schuppen.) (Rohrerstraße.)\n1133 † Imhof-Ernst, Fabrikant. Fabrikationsgebäude. (Tell.)\n1134 † Schindler-Trümpi, Emma. Holzerneise. (Entfelderstrasse.)\n1135 † Thut, Gottlieb, Weinhändler. Magazin. (Bachstraße.)\n1136 * Einwohnergemeinde Aarau. Schirmhäuschen am Kanal.\n  (Erlinsbacherstrasse.)\n1137 Wolfinger, Max, Professor. (Bachstraße.)\n1138 * Schmid-Läuchli, Ingenieur. (Bachstraße.)\n1139 † Schäfer-Troller, Ad., Architekt. Magazin. (In der Gais.)\n1140 † Thut, Gottlieb, Weinhändler. Stallung. (Bachstraße.)\n1141 Kunz, Joh., Konditor. (Bankstrasse.)\n1142 † Custer-Roth, Emil, Chemiker. Schopf. (Bahnhofstrasse.)\n1143 † Wehrli-Dubs, Johann, Gärtner. Gewächshaus. Vor dem\n  Haldenthor.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 43475,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2351,
+    "lines": 51,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0196,
+    "mean_line_chars": 44.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:01:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p092",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p092.jpeg",
+      "bytes": 289098,
+      "sha256": "2f53f3130ff1c063275e8c3af90a78537fece695ca75f5d514fcd77626ba6785",
+      "sha256_of": "original",
+      "working_copy": "1899_p092.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:01:55+00:00"
+  }
+}

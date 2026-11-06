@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p201",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p201.jpeg",
+    "bytes": 259433,
+    "sha256": "00a13412eaee38af2ebf46a7442070b7f0f143b34fa556d21fa68fb01c9de44a",
+    "sha256_of": "original",
+    "working_copy": "1899_p201.jpeg"
+  },
+  "text": "97\n4. Ortsbürger-Rechnungskommission.\nPräsident:    Gysi, Traugott, Lehrer.\nMitglieder:    Andres-Bircher, Friedrich, Hafnermeister.\n  Baumann, Eugen, Weinhändler.\n  Frey, Max, Fabrikant.\n  Rothpletz, Karl, Architekt.\n  Schmuziger, Joh., Baumeister.\n  Schmuziger-Lackerbauer, Arnold, Ingenieur.\n5. Schulpflege.\nPräsident:    Hässig, Hans, Stadtrat.\nVicepräsident:    Rohr, Hans, Staatsanwaltssubstitut.\nAktuar:    Fischer, X., Pfarrer.\nMitglieder:    Baumann, Karl, Weinhändler.\n  Dr. Berner, Hermann, Zahnarzt.\n  Dr. Gessner, J. A., Professor.\n  Hartmann, Rudolf, Fabrikant.\n  Reimann, Gustav, Obergerichtsschreiber.\n  Dr. Schmuziger, Friedrich, Arzt.\n  Wernly, Rud., Pfarrer.\n  Zurlinden-Richner, Fabrikant.\n6. Steuerkommission.\nPräsident:    Brack, Heinrich, Polizeichef.\nMitglieder:    Brunnhofer-Meder, August, Wirt.\n  Guggisberg, Emil, Bäcker.\n  Gysi-Studier, Arnold.\n  Hartmann, Rudolf, Fabrikant.\n  Henz-Plüss, Stadtrat.\n  Hoffmann-Gamper, Emil.\n  Rychner, Louis, Stadtrat.\nErsatzmänner:    Amsler, Otto, Notar.\n  Gysi-von Arx, Viktor, Kaufmann.\nAktuar:    Siebenmann, Emil, Stadtkassier.\n7. Forstkommision.\nPräsident:    Schmidt, Max, Stadtammann.\nMitglieder:    Erisman, A., Friedensrichter.\n  Fahländer, Eugen, Ingenieur.\n  Feer, Karl.\n  Hässig-Lienhard, H.\n  Imhof-Munzinger, Emil.\n  Siebenmann, Bernhard, Bäcker.\n  Siebenmann, F., Stadtrat.\n  Siebenmann, Jakob, Ökonom.\nAbgeordneter    der Ortsbürgerrechnungskommission:    Baumann,\n  Eugen, Weinhändler.\nBeratend:    Meisel, Xaver, Forstverwalter.\nAktuar:    Niggli, A., Fürsprech und Gemeindeschreiber.\nStadt Aarau, E.\n7",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 80185,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1585,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 30.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:29:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p201",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p201.jpeg",
+      "bytes": 259433,
+      "sha256": "00a13412eaee38af2ebf46a7442070b7f0f143b34fa556d21fa68fb01c9de44a",
+      "sha256_of": "original",
+      "working_copy": "1899_p201.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:29:32+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p062",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p062.jpeg",
+    "bytes": 271032,
+    "sha256": "ae3983615099b66d745bfafa04c322733f477ee78afeea45a3eb05de2c1a9443",
+    "sha256_of": "original",
+    "working_copy": "1896_p062.jpeg"
+  },
+  "text": "40\nHaus-\nNr.\nVerzeichnis der Gebäude und ihrer Bewohner.\nHerzogstrasse.\n1439 Wehrli-Märk, Emil, Architekt, von Hönegg (Zürich).\n1365 Kummler, Hermann, Kaufmann. (Zur Erika).\nKummler-Frey, Augusta, Witwe, Part.\n1366 Kern-von Arand, Heinrich, Fabrikant.\n1367 † Derselbe. Wasch- und Holzhaus.\n488 Bally-Schmitter, Adeline, Fabrikants Witwe.\nHildebrand-Voser, Julius, Gärtner, von Waldshut.\n489 † Dieselbe. Bad- und Waschhaus.\nHinter dem Bahnhof.\n490 † Bally-Arndt, Eugen, Fabrikgebäude. Fabrikation elastischer Gewebe.\n491 † Derselbe. Kesselhaus.\n492 † \" Kosthaus.\n493 † \" Schreiner- und Schlosserwerkstätte.\n494 * Zschokke, O., Baugeschäft.\nEckert-Giger, Eduard, Zimmerpolier, von Großräudchen (Preußen).\nEckert, Walter, Sohn, Bauführer, von Großräudchen (Preußen).\nJäggi-Weber, Hermann, Geschäftsführer (Zschokke, O., Baugeschäft).\nSchmid-Baumann, Katharina, Witwe, von Watterdingen (Baden).\nSchmid, Frida, Weißnäherin, von Watterdingen (Baden).\nSchmid, Anna, \" \" \"\nSchmid, Sophie, \" \" \"\nDeubelbeiss-Schaffner, Samuel, Güterschaffner, von Holderbank.\nWernli-Hug, Johann, Magaziner, von Thalheim.\n1072 Wernli-Wernli, Elisabeth, Witwe, Part., von Thalheim.\nGautschi-Maculin, Rud., Speisewirtschaft z. Frohsinn, v. Reinach.\nHaupt-Ginsberg, Hermann, Oberkellner, von Regensberg (Zürich).\nMeierhofer-Lang, Rudolf, Güterschaffner, von Weiach (Zürich).\n495 Bouvard-Schulthess, Joh., Güterexpedient, von Remetschwy.\n496 Käser-Plüss, Rudolf, Postkondukteur.\nWildi, Karl, Part.\n497 Baumann-Frey, Jakob, Schlosser, von Arbon (Thurgau).\nBrügger-Sommerhalder, Christian, Kontrolleur, von Churwalden (Graubünden).\nBircher-Kyburz, Anna, Witwe, Part., von Küttigen.\nLocher-Heimgartner, Jakob, Bremser, von Remetschwy.\nLindegger-Kyburz, Gottfried, Güterexpedient, von Oberentfelden.\n498 † Würger, Heinrichs Erbschaft. Eisengießerei und Weichgußfabrik.\n499 † Dieselbe. Bureau.\n500 † \" Mechanische Sandmühle.\n1078 † \" Eisengießerei.\n1293 † Billo-Bär, Julius, Fabrikant. Holzhaus.\n1302 Rotter-Baumgartner, Johann, Schreinermeister, von Wermsdorf (Oesterreich).\nBelz-Ochsner, Johann, Wagenvisiteur, von Zihlschlacht (Thurgau).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7229,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2104,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:05:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p062",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p062.jpeg",
+      "bytes": 271032,
+      "sha256": "ae3983615099b66d745bfafa04c322733f477ee78afeea45a3eb05de2c1a9443",
+      "sha256_of": "original",
+      "working_copy": "1896_p062.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:05:11+00:00"
+  }
+}

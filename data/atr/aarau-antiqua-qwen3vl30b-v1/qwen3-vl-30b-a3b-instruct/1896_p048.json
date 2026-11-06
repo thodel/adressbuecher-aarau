@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p048",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p048.jpeg",
+    "bytes": 275221,
+    "sha256": "48379a8b8e370173180fb1e076c66274ec7de3ff233270b72b78f4c95affa408",
+    "sha256_of": "original",
+    "working_copy": "1896_p048.jpeg"
+  },
+  "text": "26\nHaus-\nNr.\n285 Eichenberger-Flad, Rudolf, Zimmermann, von Reinach.\nFischer, Franz, Schneider.\nVogel-Thommen, Joh., Säger, von Flühli (Luzern).\nVogel, Louise, Weißnäherin, von Flühli (Luzern).\nBryner, Anna, Modistin, von Möriken.\nGing-Ryser, Wilhelm, Wagner.\n286 Bertschi-Schäfer, Gottfried, Schreiner, von Dürrenäsch.\nBircher-Suter, Eduard, Sattler und Tapezierer, von Küttingen.\nGiger-Märki, Jakob, Schreiner, von Gontenschwyl.\nWandfluh-Sommer, Johann, Schuhmacher, von Frutigen (Bern).\nFischer, Maria, Fabrikarbeiterin, von Fahrwangen.\n1283 † Derselbe. Schreinerwerkstätte.\n287 Brunner, Jakob, Seifensieder.\nBrunner-Knecht, Emil, Bauamtsarbeiter.\nBrunner-Knecht, Verena, Hebамme.\nBeilharz, Lina, Weißnäherin, von Untermußbach (Württemberg).\nTschopp-Schaad, Jakob, Taglöhner, von Waldenburg (Baselland).\nWidmer, Samuel, Taglöhner, von Gränichen.\n288 † Derselbe. Waschhaus.\n289 * Derselbe. Hinterhaus.\n290 Herzig-Weber, Friedrich, Dachdecker, von Oberstekholz (Bern).\nElsasser-Kyburz, Gottlieb, Küfermeister, von Unterkulm.\nOrtlieb-Bertschi, Louise, von Behlenheim (Elsass), Aufseherin der\nGewerbehalle.\nBertschi-Vogt, Elise, Schreiners Witwe, von Sumiswald (Bern).\nPfister-Sandmeier, Emil, Taglöhner, von Erlinsbach (Solothurn).\nPfister-Sandmeier, Emma, Näherin, von Erlinsbach (Solothurn).\nSchmid-Eng, Peter, Posamenter, von Herznach.\n291 † Derselbe. Remise.\n\nZollrain.\n292 Keller-Läuchli, Paul, Zuckerbäcker und Kaffeeiwirtschaft.\nHelm-Schmid, Emil, Tapezierer, von Oerlikon (Zürich).\nSchmidt, Jenny, Modistin.\n293 * Heller-Erb, Heinrich, Rechtsagent.\nHerrenschwand, Kurt, Dr. phil., Bezirksschullehrer, von Murten.\nSchäppi-Honegger, Bertha, Witwe, von Horgen (Zürich).\nSchäppi, Anna, Arbeitslehrerin, von Horgen (Zürich).\nSchäppi, Bertha, Bureauangestellte, von Horgen (Zürich)\nBlume-Hirt, Philipp, Schreinermeister, von Sprendlingen (Hessen).\nBlume, Jakob, Sohn, Schreiner, von Sprendlingen (Hessen).\nBlume, Philipp, Sohn, Drechsler, von Schwerzenbach (Zürich).\nDietliker-Holzach, Alfred, Bautechniker, von Wetzikon (Zürich).\nFurrer-Blume, Eduard, Konditor, von Kriens (Luzern).\nFurrer-Blume, Mina, von Kriens (Luzern). Robes und Konfektion,\nMassgeschäft für Damen und Kinder.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5820,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2183,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:03:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p048",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p048.jpeg",
+      "bytes": 275221,
+      "sha256": "48379a8b8e370173180fb1e076c66274ec7de3ff233270b72b78f4c95affa408",
+      "sha256_of": "original",
+      "working_copy": "1896_p048.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:52+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p037.jpeg",
+    "bytes": 250142,
+    "sha256": "baa6f948ad42e90624625d464392de583fb1476efc117758db2eced492561a7b",
+    "sha256_of": "original",
+    "working_copy": "1896_p037.jpeg"
+  },
+  "text": "Haus-\nNr.\n161 Dürr-Schmuziger, Isaak, Schreiner.\nSchmuziger, Susette, Part.\nSchmuziger, Verena, Part.\nMärki-Amsler, Jakob, Küfer, von Mandach.\n\nKirchhof.\n162 Gränicher geb. Richner, Rosa, Witwe, Part.\nGränicher-Wärtli, Joh. Jak., Schneider, ref. Siegrist. Spezereihdlg.\n163 Vogel-Dubs, Gottfried, Polizeiwachtmeister, von Kölliken.\nZuber-Müller, Andreas, Part.\nHess-Wolf, Alexander, Kaufmann, von Zillisheim (Elsass). (Werk-\nstätte und Magazin für Bettwaren).\n164 Wanger-Häusermann, G., Buchbinder.\nWanger, Rosa.\nWanger, Julie, Part.\nKohlmann-Läuchli, Verena, Witwe, Lithographie u. Steindruckerei.\nLäuchli, Adolf, Lithograph, von Remigen.\nGampp-Spreuer, Philipp, Aufseher, von Hornussen.\n165 a* Wärtli, Friedrich, Buchhalter in Derendingen.\nFuchs-Sommerhalder, Franz Joseph, Posamenter von Hornussen\nHübscher-König, Anna, Witwe, Spetterin, von Dottikon.\nVogt-Keller, Jakob, Schreiner, von Villigen.\nVogt-Keller, Marie, Hebamme, von Villigen.\n165 b Stierli-Häny, Samuel, Kondukteur d. N. O. B., von Gebenstorf.\n166 Wärtli-Ernst, August, Buchbinder.\nSiebenmann-Sprüngli, Sophie, Witwe, Part.\nSchwalb-Wessler, Adolf, Photograph, von Karlsbad (Böhmen).\n167 a Derselbe.\n167 b Abgetragen.\n168 Gemeinde Aarau, Kirche.\n169 Dieselbe. Pfarrhaus.\nGraf-Fäsi, Ernst, von Winterthur, ref. Pfarrer.\n\nAdelbändli.\n170 Matter-Hagnauer, Jakob, Schneidermeister, von Kölliken, Kleider-\nFabrikation.\nMatter-Thommen, Maria, Witwe, Wäscherin, von Kölliken.\nSpörrl-Käser, Elise, Schneiderin, von Bäretschwyl, (Zürich).\nWernly, Elisabeth, Näherin, von Thalheim.\n171 Siebenmann-Frey, Ludwig, Schuhmacher, Part.\nDürr-Siebenmann, Karolina, Registrators Witwe.\nFischer, Ludwig, Bauamtsarbeiter.\nGloor Wilhelmine, Taglöhnerin, von Dürrenäsch.\nGloor, Bertha, Damenschneiderin, von Dürrenäsch.\n172 * Wehrli-Hassler, Friedrich, Pedell.\nScheibler-Suter, Alfred, Taperierer, von Unter-Entfelden. Möbel-\nmagazin und Werkstätte.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5015,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1892,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:02:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p037.jpeg",
+      "bytes": 250142,
+      "sha256": "baa6f948ad42e90624625d464392de583fb1476efc117758db2eced492561a7b",
+      "sha256_of": "original",
+      "working_copy": "1896_p037.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:02:51+00:00"
+  }
+}

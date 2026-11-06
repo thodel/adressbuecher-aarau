@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p112",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p112.jpeg",
+    "bytes": 286993,
+    "sha256": "a8f3d840105ac8500d662f33296f23d72bc9fb5f5e92e912e35bb90274503cab",
+    "sha256_of": "original",
+    "working_copy": "1899_p112.jpeg"
+  },
+  "text": "8\nBuser, Heinrich, Hufschmied, Graben 217.\nBusslinger, Siegfried, Postcommis, Gönhardfeldweg 1150.\nC\nCamnada, David, Professor, Bachstraße 1039.\nCamisasca, Franz, Kaufmann, vor dem Haldenthor 766.\nCantu, Joseph, Maurermeister, Metzgergasse 101.\nCernyho, Frantiska, Maschinenmeister, Milchgasse 78.\nCima geb. Hauri, Verena, Wwe., Milchgasse 148.\nCodoni, Remigius, Kaufmann, Rain 826.\nConrad, Peter, Regierungsrat, [tel] Feerstraße 1425.\nConsulat der Vereinigten Staaten von Nordamerika, Laurenzenvor-\n  stadt 418.\nCuster, E. & Cie., Mineralwasserfabrikation, Bahnhofstraße 651.\n  — Emil, Chemiker, Bahnhofstraße 651.\n  — Fanny, Lehrerin, Bahnhofstraße 651.\n  — geb. Sauerländer, Mathilde, Wwe., Part., Laurenzenvorstadt 418.\nD\nDäster, Gottfried, Maler, Pelzgasse 130.\nDätwyler, Johann, Taglöhner, Stadthof 92 e.\nDambach, Johann Jakob, Postangestellter, Stadthof 92 a.\n  — Johann Jakob, Postpacker, Milchgasse 149.\n  — geb. Wild, Sophie, Kreispostdirektors Witwe, Rainstraße 832.\nDavid geb. Hunziker, Julie, Witwe, Part., Rain 862.\nDecker, Elise, Part., Kasinostraße 577.\n  — Julius, Hufschmied, Kasinostraße 577.\nDeppeler, Friedrich, Prediger, Laurenzenvorstadt 1379.\nDettwylcr, Bertha u. Lisette, Damenschneiderinnen, Bahnhofstr. 1525.\n  — Karl, Mechaniker, Bahnhofstraße 1525.\nDeubelbeiss, Johann, Spenglermeister, Pelzgasse 130.\n  — Samuel, Part., Schmiedgasse 1232.\nDiakonissenstation, Bahnhofstraße 1173.\nDiethelm, Reinhard, Zugführer, Kasinostraße 1556.\nDietiker, Adolf, Briefträger, Adelbändli 170.\n  — Emma, Wäscherin, Adelbändli 170.\n  — Jakob, Postfakteur, Bahnhofstraße 560.\n  — Samuel, Schuhmacher, Laurenzenvorstadt 376.\n  — Susanna, Spetterin, Rain 875.\nDill, Johann Jakob, Schuhmacher, Metzgergasse 107.\nDisteli, Theodor, Wirt, Bahnhofstraße 1317.\nDöbeli, Samuel, Bezirksschullehrer, Obere Vorstadt 1117.\nDöhnel, August, Schuhmachermeister, Gollattenmattgasse 239.\n  — Emma, Spetterin, Halden 267.\nDössekel, Mina, Klavierlehrerin, Bahnhofstraße 1160.\nDolder, Jak. Friedr., Kaufm., Versicherungsagentur, Bahnhofstr. 1447.\n  — Susette, Merceriehandlung, Vordere Vorstadt 892.\nDoser, Leopold, Direktionsschreiber, Entfelderstraße 960.\nDoswald, Joseph Eduard, Wirt, hinter dem Bahnhof 1475.\nDrack geb. Hauser, Elisabeth, Spetterin, Milchgasse 149.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 43076,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2257,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:15:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p112",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p112.jpeg",
+      "bytes": 286993,
+      "sha256": "a8f3d840105ac8500d662f33296f23d72bc9fb5f5e92e912e35bb90274503cab",
+      "sha256_of": "original",
+      "working_copy": "1899_p112.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:15:18+00:00"
+  }
+}

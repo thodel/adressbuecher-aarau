@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p203",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p203.jpeg",
+    "bytes": 272649,
+    "sha256": "ed1887ac559a7e7dd0111a8048e11ec9b3ae4c3170ff8de459fd0e15585ba8ea",
+    "sha256_of": "original",
+    "working_copy": "1899_p203.jpeg"
+  },
+  "text": "99\nTöchterinstitut und Lehrerinnen-Seminar Aarau.\nLehrpersonal.\nRektor: Suter, Jakob.\nDr. Bigler, Ulrich (seit 1896) für Mathematik und interimistisch\n  für Französisch in Kl. I (20 St.)\nBlattner, Anna (seit 1896) für Englisch und Französisch. (24 St.)\nBurgmeier, Joseph (seit 1873) für Gesang (5 St.)\nFlühmann, Elise (seit 1880) für Geschichte, Italienisch, Kirchen-\n  geschichte und Religionslehre (23 St.)\nHuber, Corina (seit 1895), für Turnen (2 St.)\nKutschera, Eugen, Musikdirektor (seit 1892) für Klavierspiel am\n  Institut (4 St.) und seit Herbst 1894) für Instrumentalmusik\n  am Seminar (11 St.)\nMatter, Emil, für Mathematik (Verwesar) (3 St.)\nDr. Schwere, Siegfried (seit 1897) für Geographie, Kalligraphie\n  und Naturkunde (25 St.)\nSuter, Jakob (seit 1887) für Deutsch und Pädagogik (21 St.)\nWolfinger, M., (seit 1876) für Kunstzeichnen (7 St.)\nDr. Zschokke, E., für Deutsch (Verwesar) (3 St.)\nAktuarin der Lehrerkonferenz Flühmann, Elise.\nUnterrichtsanstalt des kantonalen Gewerbemuseums.\nGewerbe- und Handwerkerschule.\nFachschule für Dekorationsmalerei und kunstgewerbl. Zeichnen.\nFachschule für Bau- und Holztechnik.\nFrauenarbeitsschule.\nDilettantenklasse.\nLehrer.\nDirektor: Meyer-Zschokke, Ludwig.\nAssistent: Füglistaller, Karl.\nFachlehrer: Steimer, Eugen, für Dekorationsmalerei.\n  Schenker, Adolf, für Bau- und Holztechnik.\n  Uhler, Bertha, Frauenarbeitsschule.\nStädtische Schulen.\nA. Bezirksschulen.\n(Vier Klassen)\nLehrkräfte.\nKnaben-Bezirksschule.\nDr. Bigler, U., Rechnen, Geometrie, geometr. Zeichnen.\nDöbeli, S., Geographie, Rechnen, Naturgeschichte, Buchhaltung,\n  Schreiben.\nDr. Hirzel, A., Latein und Griechisch.\nRey, J., Deutsch und Religion.\nSuter, Johann, Französisch.\nWüest, C., Naturkunde, Geometrie, mathem. Geographie.\nDr. Zschokke, E., Rektor beid. Bezirksschulen, Deutsch, Geschichte.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 47101,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1816,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.15,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:31:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p203",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p203.jpeg",
+      "bytes": 272649,
+      "sha256": "ed1887ac559a7e7dd0111a8048e11ec9b3ae4c3170ff8de459fd0e15585ba8ea",
+      "sha256_of": "original",
+      "working_copy": "1899_p203.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:31:43+00:00"
+  }
+}

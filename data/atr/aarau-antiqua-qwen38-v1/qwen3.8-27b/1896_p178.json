@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p178",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p178.jpeg",
+    "bytes": 275495,
+    "sha256": "06333de87ef2c04d8b95820baa7284154eec9e540cb9408ec34b5f790791b085",
+    "sha256_of": "original",
+    "working_copy": "1896_p178.jpeg"
+  },
+  "text": "140    Geschäfts- und Gewerbetreibende.\nInstrumentmacher.\nHirsbrunner, Gottfried, * Kasinostr. 570.\nKäsehandlungen.\nBaumann, Kaspar, hint. Vorstadt 623.\nEtter, Reinhard, Rain 825.\nOtt-Wenger, Marie, Adelbändli 81.\nScheidegger, J. Ulrich, * Holzmarkt 663.\nSchieber, Hermann, * (en gros et en\n  détail) Pelzgasse 121.\nSommerhalder, R., Kirchgasse 14.\nStirnemann, Jakob, Zollrain 91.\nUrben, Johann, Kasinostraße 660.\nKalkfabrikanten.\nFleiner & Cie., * Fabrik von schwerem\n  hydraulischem Kalk, Erlinsbacher-\n  straße 327.\nHauri-Siegenhaler, Karl, * Rain 866.\nThut-Gidemann, Hermann, * Rain 863.\nKaminfeger.\nHerzig, Friedrich, Halden 289.\nVogel, Rudolf, Entfelderstraße 1147.\nWägeler, Karl, vor d. Haldenthor 1306.\nWidmer, Gottfried, v. d. Haldenthor 808.\nKastanienverkäufer.\nMarini, Domenico, Schmidgasse 634.\nKautschuk-Artikel f. Krankenpflege.\nAmsler-Tschudy, Anna, * vord. Vorstadt\n  666.\nAngst, Robert, * hint. dem Platz 214.\nSernatinger, Valerian, * v. Vorst. 893.\nKellereiaartikel.\nCuster, E. & Cie., * Bahnhofstraße 651.\nKerzenfabrikanten.\nErdin, Siegfried, Hammer 185 b.\nMaurer, Emil, * z. Kreuz, jenseits der\n  Aare 1303 a.\nKinderwagen.\nHäfelin, Joseph, Sattler, Kasinostr. 660.\nKyburz, Gotthold, Sattler, Entfelder-\n  straße 968.\nLüthi, Eduard, Kirchgasse 15.\n[spalte 2]\nTuchscheid, Konrad, Pelzgasse 126.\nVereinigte Schweizerbazars, * Filialie, ob.\n  Vorstadt 925. (Siehe Inserat S. 12.)\nKinderspielwaren.\nHemmeler-Haßler, * August, Metzger-\n  gasse 55.\nHemmeler & Cie., * hintere Vorst. 638.\n  (en gros).\nHemmeler-Stahl, J., * (vor. R. Ritter-Stahl)\n  Rathausgasse 21.\nMorath, J. W., * Rathausgasse 2.\nSchnuziger, Marie, * (vorm. Schnuziger-\n  Fisch) Rathausgasse 1.\nVereinigte Schweizerbazars, * Filialie, ob.\n  Vorstadt 925. (Siehe Inserat S. 12.)\nVonfetten-Willimann, Franz Joseph, *\n  Kronengasse 37.\nKlavierhandlung.\nBurgmeier, Joseph, * Wohnung Graben\n  209, Magazin Laurenzenthorg. 117.\n  (Siehe Inserat Seite 16.)\nKlaviermacher.\nKoch, Hugo, Milchgasse 79.\nKleiderhandlungen.\nAckermann, Albert, * vord. Vorst. 890.\nCodoni-Dreßler, Remigius, * Rain 826.\nGamper & Cie., * Rathausg. 49—50.\nGerber, Gustav, vordere Vorstadt 670.\nGisi-von Arx, Viktor, * Holzmarkt 664.\nHefti, Peter, Metzgergasse 100.\nHofer, Gottlieb, * Rathausgasse 43.\nMatter, Jakob, Adelbändli 170.\nSchneeberger-Salvi, Jakob, * Rathaus-\n  gasse 3.\nSiebenmann, Gebr., * March. Tailleur,\n  Oberthor 226.\nKleiderfärberei.\nWyser, Alfred, * Bachstraße 1055.\nKleiderreiniger.\nHunziker, Gottlieb, Stadthof 92.\nKohlen-, Briquettes- und Coaks-\n  handlungen.\nGasfabrik Aarau, * Zollrain 786.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 78881,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2561,
+    "lines": 86,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0233,
+    "mean_line_chars": 28.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T16:57:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p178",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p178.jpeg",
+      "bytes": 275495,
+      "sha256": "06333de87ef2c04d8b95820baa7284154eec9e540cb9408ec34b5f790791b085",
+      "sha256_of": "original",
+      "working_copy": "1896_p178.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T16:57:23+00:00"
+  }
+}

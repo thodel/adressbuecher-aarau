@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p063",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p063.jpeg",
+    "bytes": 274260,
+    "sha256": "e377dd048c3db973749b82101610435ba40ab4207fce1c2da0abd44c73db3639",
+    "sha256_of": "original",
+    "working_copy": "1899_p063.jpeg"
+  },
+  "text": "Haus-\nNr.\n662 Rohr-Holliger, Joh., von Buchs, Speisewirtschaft.\n663 Scheidegger-Roth, Johann Ulrich, Käser, von Ursenbach\n(Bern). Milch-, Butter- und Käsehandlung.\nBertschi-Storkenmeier, Emil, Schneider, von Sumiswald\n(Bern).\n664 Gisi-von Arx, Viktor, Kaufmann, von Niedergösgen (Sol.).\nLager in Herren- und Damenkleiderstoffen. Damen-\nkonfektion.\n665 Berner, Lina, Schneiderin, von Schafisheim.\nAbgetragen; an dessen Platz\n1260 Müller-Gamper, Samuel, Part.\nFischer-Burger, Jonathan, Goldschmied, von Reinach.\nBijouteriewaren.\nVordere Vorstadt.\n666 Amsler-Tschudy, Otto, Notar, Kaufmann, von Kaisten.\nSperlich-Zimmermann, Theodor, von Oppeln (Schlesien).\nPelz-, Hut- und Schirmhandlung.\nWidmer, Karoline und Marie, Modistinnen, v. Freienwyl.\n667 a u. b Abgetragen; an dessen Platz\n1262 Nägelin-Gisiger, Arnold, Hôtelier, von Liedertswil\n(Baselland). Gasthof z. Wildenmann.\nBürgin-Gluck, Maria, von Bubendorf (Baselland), Part.\n668 Hirschi-Merz, Joh. Rudolf, Uhrenmacher. Uhren-, Gold-\nund Silberwarenhandlung.\n669 Brand-Baumann, Jakob, Spezereihandlung.\nHemmeler-Lanz, Oskar, Bäckermeister. Pintenwirtschaft.\n670 Gerber-Hassler, Luise Elisabeth, March.-Tailleurs Witwe.\n— -Seiler, Gustav, March.-Tailleur. Lager in Herren-\nu. Knabenkleiderkonfektion. Anfertigung von Herren-\nkleidern nach Maß.\nDreifuss-Bloch, Karl, Kaufmann, von Endingen.\n671 * Landolt-Hächler, Gottlieb, Ökonom.\nHemmeler-Mathys, Alfred, Metzgermeister.\nFricke-Kienberger, Johann, Postbeamter.\nGrolimund-Gröli, Sigmund, Buchhandlungsangestellter, von\nBeinwyl (Solothurn).\n—, Emma, Lehrerin, von Beinwyl (Solothurn).\nAbgetragen; an dessen Platz\n672 1263 * Aktiengesellschaft Feldschlösschen in Rheinfelden. Speise-\nwirtschaft zum Affenkasten (Wirt: Gerber-Wüthrich,\nEmil).\nPfisterer-Rohr, Robert, Bierbrauer. Vertreter des Bier-\ndépôt Rheinfelden für Aarau und Umgebung.\nErnst-Pfisterer, Lina, Witwe, Part.\n673 Hug-Bär, Samuel, Bäcker und Wirt, von Thalheim.\nSpeisewirtschaft.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5473,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1954,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 38.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:28:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p063",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p063.jpeg",
+      "bytes": 274260,
+      "sha256": "e377dd048c3db973749b82101610435ba40ab4207fce1c2da0abd44c73db3639",
+      "sha256_of": "original",
+      "working_copy": "1899_p063.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:28:37+00:00"
+  }
+}

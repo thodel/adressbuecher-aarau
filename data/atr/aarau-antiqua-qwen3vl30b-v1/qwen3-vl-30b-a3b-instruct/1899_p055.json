@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p055",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p055.jpeg",
+    "bytes": 271053,
+    "sha256": "9a4ff719b035542988a972c02787f110cadf505c50cee7dacbdab4a76473b69f",
+    "sha256_of": "original",
+    "working_copy": "1899_p055.jpeg"
+  },
+  "text": "Haus-\nNr.\nDr. Scheidegger-Scheidegger, Edwin Ernst, Arzt ⚭, von Sumiswald (Bern).\nRödelberger-Popp, Franz, Musikdirektor, von Würzburg (Bayern).\n1318 † Derselbe. Wasch- und Holzhaus.\n1160 Wolfsgruber-Küenze, Gottfr., Photograph ⚭, v. Bonn (Pr.).\nWismer, Heinrich, Chef d. Güterexpedition, v. Uitikon (Zür.).\nDössekel, Mina, Klavierlehrerin, von Seon.\nHuber, Korinna, Bez.-Lehrerin, von Besenbüren.\n1447 Dolder-Saxer, Jak. Fried., Kaufmann, v. Hauptweil (Thrg.).\nHauptagentur d. Helvetia. Feuer- u. Transportversicherung.\nMüri-Hiltpold, Joh., Dr. jur., Fürsprach, Regierungsrat, von Schinznach.\nRennhard-Maier, J. Martin, Professor, v. Wigoltingen (Th.).\nFassnacht, Olga, Bezirksschullehrerin, von Murten.\n561 † Richner, Karl ⚭, Thon- und Steingutröhren- u. Cement-\nwarenfabrik. Röhren zu Wasser-, Rauch- und Abtritt-\nleitungen, Cementbausteine, Cementröhren, Cement-,\nSargemünder- und Mettlacher-Boden- und Wandver-\nkleidungsplatten für Korridore, Veranden, Küchen, Schul-\nhäuser und Kirchen. Großes Lager in Regulier-Füll-\nÖfen verschiedener, sehr gut bewährter Systeme. Allein-\nVerkauf der Feuerlösch-Granaten „Labbé“. Handel\nund Lieferung aller möglichen Baumaterialien.\n562 † Derselbe. Holzhaus.\n1077 † \" Röhrenfabrik.\n1270 † \" \n563 Holzach-Siebenmann, Dietrich, Bierbrauer ⚭. Speise-\nwirtschaft.\nSpengler-Lienhard, Louise, Witwe, Part.\n564 † Derselbe. Kegelbahn.\n565 † \" Bierbrauerei.\n566 † \" Eiskeller.\n1214 † \" Eishaus und Bierkeller.\n1315 † \" Wasch- und Holzhaus.\n1322 † \" Trinkhalle und Kegelbahn.\n1327 † \" Eiskeller.\n567 Gemeinde Aarau.\nHassler-Brunnhofer, Karoline, Schulhausabwart.\n568 a Weber-Hegnauer, Hermann, von Menziken ⚭. Restauration.\n568 b Guggisberg-Beck, Emil, Bäcker u. Konditor ⚭, von Vevey (Waadt). Kaffeewirtschaft, Tabak- u. Cigarrenhandlg.\nMüller-Bopp, Johann Heinrich, Fakteur, von Unterkulm.\n569 * Derselbe. Wohnhaus.\n\nKasinostrasse.\n570 Hirsbrunner-Baumann, Gottfried, Instrumentenmacher. Musikalienhandlung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5138,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1940,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.07,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:27:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p055",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p055.jpeg",
+      "bytes": 271053,
+      "sha256": "9a4ff719b035542988a972c02787f110cadf505c50cee7dacbdab4a76473b69f",
+      "sha256_of": "original",
+      "working_copy": "1899_p055.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:27:57+00:00"
+  }
+}

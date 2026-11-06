@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p051",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p051.jpeg",
+    "bytes": 248324,
+    "sha256": "af35353b3832820ca250bdacaa10aff03bd5c8d3f6c36cd764a2e74d4df9cffb",
+    "sha256_of": "original",
+    "working_copy": "1896_p051.jpeg"
+  },
+  "text": "Haus-\nNr.\nVerzeichnis der Gebäude und ihrer Bewohner.\n29\n1230 † Dieselben. Schopf, abgetragen.\n1274 † \" Steinschuppen.\n1275 † \" Waaghaus.\n1276 † \" Scheune und Stallung.\n1277 † \" Abort.\n1313 † \" Kohlenschuppen, abgetragen.\n1409 † \" Küche und Esszimmer.\n1410 † \" Ringofenhaus.\n1069 Abgetragen.\n1363 † Gemeinde Aarau. Wasenhaus.\n1314 † Hürzeler, Jakob, Hadernhändler. Schopf.\n\nGishügel.\n317 ⇒ Wächter-Hassler, Hans, von Remigen. Wirthschaft z. Alpen-\nzeiger. Kurhaus.\n318 Abgetragen; an dessen Platz\n1204 † Derselbe. Holzhaus und Stallung.\n1206 † \" Trinkhalle.\n319 ⇒ Zschocke-Sauerländer, Olivier, Ingenieur, „Zur Blumenhalde“.\nFisch-Zschocke, Karl, Oberstl., Instruktor I. Klasse der Infanterie.\n320 † Derselbe. Waschhaus und Holzschopf.\n\nWeinberg.\n321 a * ⇒ Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wirthschaft\nund Bierbrauerei „zum Weinberg“.\nBärtschi-Minder, Jakob, Wirth, „zum Weinberg“ v. Lützelflüh (Bern).\n321 b Plüss-Wälchli, Friedrich Rudolf, Landwirth, von Ryken.\nPlüss-Wälchli, Lea, Hebamme, von Ryken.\nBrack-Wälchli, Heinrich, Webermeister, von Mönthal.\nWydler-Kuhn, Robert, Ausläufer.\nUebersax, Jakob, Ferger, von Thörigen (Bern).\nJappert, Julius, Polizeidiener, von Gansingen.\n321 c Klingelfuss-Widmer, Johann Friedrich, Mechaniker u. Eichmeister,\nvon Basel. Spezialfabrikation von Wasserwaagen, Lager in allen\nSorten Waagen und Gewichten.\nWidmer, Maria, Part., von Gränichen.\n322 * Plüss-Wälchli, Rudolf, Landwirth, von Ryken.\nWernli-Senn, Gottlieb, Kanzlist, von Thalheim.\n323 † Derselbe. Schopf.\n324 † Siebenmann-Hagnauer, Friedrich. Brauerei-Gebäude.\n325 † Derselbe. Kegelbahn.\n326 * Klingelfuss, Johann Friedrich, Mechaniker und Eichmeister, von\nBasel. Eichstätte.\nKlingelfuss-Graf, Alfred, Mechaniker, von Basel.\n1081 † Derselbe. Fabrikgebäude.\n1082 Abgetragen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14308,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1782,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:00:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p051",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p051.jpeg",
+      "bytes": 248324,
+      "sha256": "af35353b3832820ca250bdacaa10aff03bd5c8d3f6c36cd764a2e74d4df9cffb",
+      "sha256_of": "original",
+      "working_copy": "1896_p051.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:00:17+00:00"
+  }
+}

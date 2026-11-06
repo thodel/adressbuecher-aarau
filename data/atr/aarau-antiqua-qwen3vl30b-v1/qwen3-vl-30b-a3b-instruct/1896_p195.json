@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p195",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p195.jpeg",
+    "bytes": 256830,
+    "sha256": "3884ee9699f0007dbae812bfea2e68f97039eaf162cb46e9c68ca000b02e30e6",
+    "sha256_of": "original",
+    "working_copy": "1896_p195.jpeg"
+  },
+  "text": "Behörden etc. 157\n\nFriedensrichter.\nErismann, Abraham, Oekonom.\n\nEinwohner-Rechnungskommission.\nPräsident: Dr. Stocker-Wirz, Fürsprech.\nMitglieder: Gasser, Emanuel, Fabrikant.\nWeber-Lüscher, O., Weinhändler,\nHagnauer-Zimmermann, A.\nRüchler, K., Seiler.\nHürlimann, Othmar, Staatsbuchhalteradj.\nMüri, Paul, Gerichtspräsident.\n\nOrtsbürger-Rechnungskommission.\nPräsident: Baumann, Karl, Weinhändler.\nMitglieder: Kieser, Robert, Bankbeamter.\nHerzog, Dr., Hans, Staatsarchivar.\nRothpletz-Richner, Fabrikant.\nWassmer-Kümmel, Kaufmann.\nGysi, Hans, Mechaniker.\nSchmuziger, Joh., Baumeister.\n\nSchulpflege.\nPräsident: Hässig, Hans, Stadtrat.\nVizepräsident: Zürcher, Dr. A., Arzt.\nAktuar: Fischer, X., Pfarrer.\nMitglieder: Stühelin, A., Dr. med.\nWernly, Rud., Pfarrer,\nBaumann, Karl, Weinhändler.\nRohr, H., Staatsanwaltssubstitut.\nZurlinden-Richner, Fabrikant.\nSäuerländer, R., Buchhändler.\nBally, Eugen, Fabrikant.\nMarkwalder, Fr., Oberst.\n\nSteuerkommission.\nPräsident: Heller, H., Vizegerichtspräsident.\nVizepräsident: Richner, Konrad, Seiler.\nMitglieder: Brack-Uster, H.\nKielholz, G., Postbeamter,\nSchüfer, A., Stadtrat.\nHenz-Plüss, Stadtrat.\nHegnauer, R., Fabrikant.\nGysi-Studer, A., Mechaniker.\nErsatzmann: Amster, Otto, Stadtkassier.\n\nForstkommission.\nPräsident: Schmidli, Max, Stadtammann.\nMitglieder: Imhof-Münziger, Emil,\nSiebenmann, F., Stadtrat.\nHässig-Lienhard, H.\nSiebenmann, Rud., Bierbrauer, Vater.\nFahrländer, Eugen, Ingenieur.\nSiebenmann, Bernhard, Bäcker.\nErismann, A., Friedensrichter.\nPeer, Carl.\nBeratend: Meisel, Xaver, Forstverwalter.\nAktuar: Niggli, A., Fürsprech und Gemeindeschreiber.\n\nC. Gerichtsbehörden.\nObergericht.\nPräsident: Irmiiger, Heinrich, Fürsprech, von\nMenziken, in Lenzburg.\nVizepräsident: Ursprung, Albert, Fürsprech, von\nUeken, in Zurzach.\nMitglieder: Dr. Frey, Sam., Fürsprech, von\nGontenschwyl.\nSchneider, Fridol., Fürsprech, von\nHerznach, in Aarau.\nWildy, Sam., Fürsprech, von Veltheim, in Brugg.\nRohr, Joh., Fürsprech, v. Hunzenschwyl, in Aarau.\nKeller, Beat, von Sarmenstorf, in\nBremgarten.\nHeuberger, Jak., v. Büzen, in Aarau,\nDr. Schneider, Gust., Fürsprech, von\nund in Aarau.\n\nKriminalgericht.\nPräsident: Schneider, Fridolin, Oberrichter.\nVizepräsident: Keller, Beat, Oberrichter.\nMitglieder: Dr. Schneider, Gustav, Oberrichter.\n\nBezirksgericht Aarau.\nPräsident: Müri, Paul, Fürsprech, von Schinznach, in Aarau.\nVizepräsident: Heller, Heinrich, von Aarau,\nMitglieder: Lüscher, Rud., von Muhlen.\nBlattner, Hans, von Küttigen.\nRüetschi, Samuel, von Suhr.\n\n[spalte 2]\nSiegel der Stadt Aarau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6745,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2526,
+    "lines": 82,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 29.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:19:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p195",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p195.jpeg",
+      "bytes": 256830,
+      "sha256": "3884ee9699f0007dbae812bfea2e68f97039eaf162cb46e9c68ca000b02e30e6",
+      "sha256_of": "original",
+      "working_copy": "1896_p195.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:19:08+00:00"
+  }
+}

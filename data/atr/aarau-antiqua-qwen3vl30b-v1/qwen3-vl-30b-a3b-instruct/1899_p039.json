@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p039",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p039.jpeg",
+    "bytes": 266068,
+    "sha256": "fdaa9bf17c9f60bba3312db798295baf799925ee217d7047b5d10b0952928984",
+    "sha256_of": "original",
+    "working_copy": "1899_p039.jpeg"
+  },
+  "text": "31\nHaus-\nNr.\n1460 Vondänenken-Roth, Emil, Buchhalter, von Obererlinsbach (Sol.)\n— -Vonfelten, Anna Maria, Witwe, von Obererlinsbach (Sol.).\n1246 Blattner-Bircher, Hans Rudolf, Landwirt, von Kättigen.\nRüedi-Hufschmid, Anton, Cementarbeiter, von Sulz.\n337 Weber-Weber, Wilhelm, Milchverkäufer, von Menziken.\n— -Graf, Jakob, Handlanger, von Kättigen.\n1426 † Derselbe. Keller und Waschhaus.\n338 Bircher-Wehrli, Karl, Büchsenschmied, von Kättigen.\n1530 Klingelfuss-Sommerhalder, Emil, Mechaniker, von Basel.\n\nJenseits der Aare.\n339 Vonvelten-Willimann, Franz Jos., Kaufmann.\nGamp-Spreuer, Philipp, Fabrikaufseher, von Hornussen.\nHofer-Gehri, Jakob, Notar, von Rothrist.\nBillo-Billo, Maria, Kaufmanns, Part.\nFeer-Widmer, Johann, Bankangestellter, von Kölliken.\n1247 † Siebenmann-Hagnauer, Friedrich, Bierbrauer. (Wagenschopf.)\nund Eiskeller.\n\nWeinberg.\n340 † Zschokke, Konradin, Ingenieur (Rebhäuschen).\n341 † Derselbe. (Rebhäuschen.)\n\nJenseits der Aare.\n342 * Bauhofer-Keller, Anna, Kaufmanns Witwe. Erbschaft.\nWaldmeier-Gautschi, Alfred, Kaufmann, von Möhlin.\nHemmeler-Weiss, Fritz, Kaufmann.\n343 † Dieselbe. Holzschopf.\n344 † Gemeinde Aarau. (Holzmagazin.)\n345 † Dieselbe. (Werkhaus.)\n1280 † Dieselbe. (Spritzenhaus.)\n1427 † Rämisperger-Hunkeler, Hermann, Spenglermeister. (Magazin.)\n346 Müller-Rothpletz, Arnold, Architekt und Baumeister.\n347 † Abgetragen.\n348 † Gemeinde Aarau. Badanstalt.\n1104 † Dieselbe. Schuppen für Kriegsfuhrwerke.\n1385 Meier-Wydler, Hans, Postbureauchef, von Hilfikon.\n\nLaurenzenthorgasse.\n349 Hassler-Wanger, Emil, Negt., Kolonialwarenhandlung.\nBührer-Gidemann, Anna, Witwe, Part.\n350 † Derselbe. Holzschopf.\n351 Hoch-Ernst, Gustav, Kaufmann ⚭, von Zollikon (Zürich).\nSamen- und Spezerei-handlung, Spezialität in landwirt-",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4660,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1745,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0233,
+    "mean_line_chars": 39.51,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:26:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p039",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p039.jpeg",
+      "bytes": 266068,
+      "sha256": "fdaa9bf17c9f60bba3312db798295baf799925ee217d7047b5d10b0952928984",
+      "sha256_of": "original",
+      "working_copy": "1899_p039.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:26:30+00:00"
+  }
+}

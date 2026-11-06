@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p194",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p194.jpeg",
+    "bytes": 285312,
+    "sha256": "73a466a3ceb6b7a04505d04fda21a4da63529d8b3ad857e0686419b13d333f10",
+    "sha256_of": "original",
+    "working_copy": "1899_p194.jpeg"
+  },
+  "text": "90\nEichenberger, Ida und Elisa, Metzgergasse 56.\nErismann, Maria, vor dem Haldenthor 760.\nFaßler, Anna, Zollrain 88.\nHäfeli-Fischer, Julie, Bahnhofstraße 541.\nHoffmann, Nanette, Rathausgasse 44.\nKrähenbühl, Luise, Halden 264.\nMüller-Walti, Marie, hintere Vorstadt 623.\nNiggli, Elise, Kasinostraße 580.\nPfenninger, Marie, Milchgasse 154.\nPfister-Sandmeier, Emma, Halden 290.\nRiner, Rosa, Milchgasse 156.\nSchmid, Frida, hinter dem Bahnhof 494.\nSpähne-Waldmeier, Luise, obere Vorstadt 928.\nWidmer-Felber, Anna, Rain 885.\nWirtschaften.\nGasthöfe.\nHötel Gerber: Gerber, Hans, * Bahnhofstraße 1438.\nHerberge: Gautschi-Wyser, Lina, obere Vorstadt 912.\nKrone: Mathys geb. Hafner, Katharina, * Kronengasse 39.\nKurhaus: Brack, Heinrich, zum Alpenzeiger 317. (S. Inserat S. 11.)\nLöwen: Scherz, Karl, * vordere Vorstadt 681.\nOchsen: Biland, Karl, * Laurenzenthorgasse 115.\nRößli: Baldinger, Roman, Metzgergasse 112.\nWildenmann: Nägelin, Arnold, * vordere Vorstadt 1262.\nSpeisewirtschaften.\nBaumann, Ida, Witwe, zum Freihof, Laurenzenvorstadt 390.\nBaumgartner, Anton, Bäcker, Kronengasse 40.\nBertschi-Vogt, Hermann, z. Tivoli, Entfelderstraße 983.\nBolliger, Fritz, Schachen 734.\nBrunnhofer-Meder, August, * Zollrain 178.\nBurger, Samuel, Schachen 731.\nDisteli, Theodor, Café Bank, Bahnhofstraße 1317.\nDoswald, Jos. Eduard, Restaurant Bahnhof, hinter d. Bahnhof 1475.\nDubs, Karl, * Rathausgasse 32.\nEggimann-Job, Rosina, Witwe, Bahnhofstraße 1025.\nFehlmann-Wernle, Maria, z. Kantine, Schachen 727.\nFrei, Emil, Metzger, Zollrain 87.\nGautschi, Rudolf, zum Frohsinn, hinter dem Bahnhof 1072.\nGerber, Emil, * z. „Affenkasten“, vordere Vorstadt 1263 und hint.\nVorstadt 692.\n— Max, Metzger, Pelzgasse 127.\nHäfliger-Hilfiker, Otto, * Pelzgasse 136.\nHässig-Groß, Fritz, Rathausgasse 46.\n— -Sigle, Julius, Restaurant Bellevue, Schönenwerderstraße 1564.\nHolzach-Siebenmann, Dietrich, * Bahnhofstraße 563. (S. Inserat S. 7.)\n— -Schmidt, Friedr., * Ziegelrain 700.\nHürbin, Ferdinand, * zur Kantine, Laurenzenvorstadt 590.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6375,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2004,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:42:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p194",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p194.jpeg",
+      "bytes": 285312,
+      "sha256": "73a466a3ceb6b7a04505d04fda21a4da63529d8b3ad857e0686419b13d333f10",
+      "sha256_of": "original",
+      "working_copy": "1899_p194.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:42:52+00:00"
+  }
+}

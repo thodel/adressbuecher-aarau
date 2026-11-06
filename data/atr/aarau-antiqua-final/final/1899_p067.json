@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p067",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p067.jpeg",
+    "bytes": 263969,
+    "sha256": "25917d4a37d4f4277a4b819c34e51604e25f2c6d479bb7a46f2237f2d29bc094",
+    "sha256_of": "original",
+    "working_copy": "1899_p067.jpeg"
+  },
+  "text": "59\nHaus-\nNr.\n      722 * Dieselben. Wohnhaus.\n      Beck-Hertenstein, Karl, Schneider, von Horb (Würtbrg.).\n      Oberli-Wydler, Richard, Privat, von Mels (St. Gallen).\n      1172 † Dieselben. Wagenremise.\n      1401 † Dieselben. Holzschopf.\n\n      Schachen.\n      723 Schmidt-Henz, Hans, Part.\n      Hassler-Schmidt, Fried., Verwalter des städt. Elektri-\n      tätswerkes.\n      1168 † Derselbe. Holzschopf.\n      724 † Ortsbürger-Gemeinde Aarau. Waschhaus.\n      1333 † Einwohner-Gemeinde Aarau. Militärbaracke I.\n      1334 † Dieselbe. Militärbaracke II.\n      1259 Walther-Matter, Verena, Ökonoms Witwe.\n      Wietlisbach-Walther, Joseph Burkard, Postcommis.\n      725 Müller-von Däniken, Friedrich, Ökonom.\n      726 * Derselbe. Wohnhaus.\n      Müller-Bachmann, Hermann, Ökonom.\n      1331 † Derselbe. Scheune.\n      727 Fehlmann-Wernli, Samuel, Lehrer, von Seon. Speise-\n      wirtshaft.\n      — —, Maria, obigen Ehefrau, Wirtin z. Cantine.\n      728 † Derselbe. Trinkhalle.\n      729 Hegnauer-Fischer, Rudolf, Buchhalter, von Seengen.\n      Baumann-Bhend, Gottlieb, Schneider, von Schaffsheim.\n      —, Elise, Damenschneiderin, von Schaffsheim.\n      Keller-Isler, Herm. Jos., Schneider, v. Überlingen (Baden).\n      1325 † Derselbe. Holzschopf.\n      1261 Matter-Schönenberg, Samuel, Amtsschreiber, von Ober-\n      entfelden.\n      Hässig-Matter, Gottlieb, Postcommis.\n      730 Meyer-Bucher, August, Direktionssekretär, von Ober-\n      siggenthal.\n      731 Burger-Kielholz, Samuel, Wirt von Möriken. Speise-\n      wirtshaft\n      Huber-Ruchit, Rudolf, Telephonarbeiter, v. Mauraz (Waadt).\n      732 * Derselbe. Wohnhaus.\n      Schmid-Jakober, Hermann, Stadtpolizist, von Zuzgen.\n      Kielholz, Luise, Part.\n      733 Mürset-Lüscher, Gottlieb, Fuhrmann, von Diesse (Bern).\n      Speisewirtshaft.\n      734 Brunnhofer-Schenck, Emil, Postangestellter.\n      Bolliger-Siebenmann, Fritz, Wirt, von Schloßgrüed. Speise-\n      wirtshaft.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 115417,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1941,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 34.68,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:35:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p067",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p067.jpeg",
+      "bytes": 263969,
+      "sha256": "25917d4a37d4f4277a4b819c34e51604e25f2c6d479bb7a46f2237f2d29bc094",
+      "sha256_of": "original",
+      "working_copy": "1899_p067.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:35:55+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p101",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p101.jpeg",
+    "bytes": 254078,
+    "sha256": "c9cfc321bdd2ea993b9e976183ac90b16e2724c257ba337072bbc7d2f1cabff5",
+    "sha256_of": "original",
+    "working_copy": "1896_p101.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n79\nHaus-\nNr.\n1042 a b † Dieselben. Scheune und Remise.\n1043 * Dieselben. Wohnhaus.\nSteimer-Wiederkehr, Eugen, Fachlehrer am Gewerbemuseum, von\nWettingen.\nKutscherä-Kiessner, E., Musik- u. Gesangdirektor, v. Brünn (Mähren).\nKeller-Fehlmann, Johann, Landwirt, von Hottwil.\nOtt-Keller, Verena, Witwe, Part. von Aarburg.\n1044 † Dieselben. Holzremise und Hühnerhaus.\n1045 Dieselben. Wohnhaus.\nHerzog-von Jenner, Lina, Oekonoms Witwe.\nHerzog, Jakob, Part.\n1046 † Herzog-Zobel, Julie, Witwe, Scheune.\n1047 Herzog-Zobel, Julie, Witwe.\nHerzog, Hans, Dr. Phil., Staatsarchivar.\nHerzog, Max, Kaufmann.\nIsler-Bruggisser, Walter, Dr. med., von Wohlen.\nFrey-Beger, Adolf, Dr. phil., Professor, von Gontenschwil.\n1048 * Herzog-von Jenner, Lina, Herzog, Jakob und Anna.\nR. Hartmann und A. Schürch (W. Reiners Nachf.). Fabrikation\nelastischer Gewebe.\nHanggartner-Alder, Ferd., Lithograph, von Buchthalen (Schaffh.).\n1049 † Dieselben. Fabrikgebäude.\n1050 †\n1051 † Wyser-Müller, Alf., Seidenfärberei. Firma: Alfred Wyser, Seidenfärberei.\n1052 Derselbe. Wohnhaus mit Werkstätte.\nBelart, Julie, Bez.-Lehrerin, von Brugg.\nBelart, Marie, Part., von Brugg.\n1053 † Herzog-von Jenner, Lina und Mithafte. Holzschopf.\n1054 * Reiner-Scheuermann, Elise, Fabrikants Erbschaft.\n1055 * Wyser-Müller, Alfred, Seidenfärberei. Wohnhaus und Färberei.\nRichter-Wyser, Albert, Färber, von Elberfeld (Preussen).\n1056 † Derselbe. Färberei.\n1057 † ” Seidenfärberei und Druckerei.\n1058 a † ” Waschhaus.\n1058 b † ” Färberei.\n1059 Abgetragen.\n1060 † Frey-Bolley, Lina, Witwe. Scheune.\n1061 Brack-Fehlmann, Abraham, Oekonom.\nBrack-Erismann, Anna, Witwe, Part.\n1396 Walther-Dubs, Hans, Oekonom und Holzhandlung.\nSiebenmann, Adolf, Sekretär.\nSiebenmann, Fanny, Part.\n1397 † Derselbe. Scheune.\n1431 † ” Holzschopf.\n1062 Frey-Bolley, Lina, Witwe. (Villa Olinda).\n1080 † Dieselbe. Gewächshaus.\n1153 † Dieselbe. Holzschopf und Geflügelhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6065,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1931,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:08:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p101",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p101.jpeg",
+      "bytes": 254078,
+      "sha256": "c9cfc321bdd2ea993b9e976183ac90b16e2724c257ba337072bbc7d2f1cabff5",
+      "sha256_of": "original",
+      "working_copy": "1896_p101.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:08:54+00:00"
+  }
+}

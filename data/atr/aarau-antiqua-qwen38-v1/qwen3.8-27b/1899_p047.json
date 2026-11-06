@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p047",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p047.jpeg",
+    "bytes": 279139,
+    "sha256": "d94530d55b3dd0505f98189bfff186ecfdbfc4ce8167c048dbe4e7c5f9faa9ca",
+    "sha256_of": "original",
+    "working_copy": "1899_p047.jpeg"
+  },
+  "text": "39\nHaus-\nNr.\nWerrenfels-Reiner, Albert, Kaufmann, von Basel.\nOehler-Osthuess, Alfred, Ingenieur [tel].\n481 † Derselbe. Hühnerhaus.\n482 Stäблиn, Sophie, Part., Dr's., von Brugg.\n— Gottlieb Wilhelm, Part., von Brugg.\n483 † Dieselbe. Scheune.\n1509 * A. Oehler & Cie. Maschinenfabrik. (Portierhaus.)\nFigi-Hürlimann, Jak., Schlossermeister, v. Luchsingen (Glarus).\nFrei-Amsler, Friedrich, Handlanger, von Auenstein.\n1405 † A. Oehler & Cie. Maschinenfabr. u. Eisengiesserei (Werkstätte).\n1406 † Derselbe. Giesserei.\n1407 † \" [tel] Bureau.\n1408 † \" Magazin und Schuppen.\n1418 † \" Anbau an das Bureaugebäude.\n1419 † \" Abtritt.\n1527 † \" Giesserei.\n1453 † Ernst-Käser, Friedrich, Fabrikant. Röhrenfabrik [tel].\n1131 Müller-Suter, Jakob, Lithographiebesitzer [tel], von Lenzburg.\n1390 Bertschinger-Riniker, Anna, Witwe, von Hausen.\nIsler-Guye, Alois Othmar, Kaufmann, von Wohlen.\n1420 Fisch-Thut, Adolf, Buchhalter.\n1421 Mauch-Zimmerli, Rudolf, Bankabwart, von Teufenthal.\nWernle-Senn, Gottlieb, Kanzlist, von Thalheim.\n1105 Aeschbach-Urech, Friedrich, Mechaniker [tel], von Reinach.\nComp. Singer, Nähmaschinenhandlung und Werkstätte [tel].\n1106 † Derselbe. Werkstätte.\nMarti-Aeschbach, Elise, Haushälterin, von Etziken (Soloth.).\nAeschbach-Dumas, Otto, Mechaniker, von Reinach.\n1490 † Derselbe. Bureau und Magazin.\n1483 Müller-Schatzmann, Samuel, Postfaktor, von U.-Bözberg.\nHager-Arnitz, Arnold, Mechaniker, von Adelboden (Bern).\nSchatzmann-Sieg rist, Anna, Part., von Hausen.\n1482 Wernle-Neeser, Kaspar, Postkondukteur, von Thalheim.\nMoor-Haltiner, Ernst, Geometer, von Brütten (Zürich).\n1480 Felber-Obrist, Johann, Postkondukteur, von Ob.-Bözberg.\nHartmann-Nüssli, Wilhelm, Lithograph, v. Barmen (Preußen).\n1481 † Derselbe. Holzschof.\n484 † Staat Aargau. Pulverhaus.\n1423 Wiest-Senn, Konrad, Bezirksschullehrer.\n1514 Müller-Stückli, Joh. Baptist, Postcommis, von Muri.\nGysi, Jakob, Rechnungsrevisor, von Birr.\nWirz, Adolf, Postkondukteur, von Menziken.\n—, Wilhelmine, Maschinenstrickerin, von Menziken.\nFrey-Küng, Joseph, Schriftsetzer, von Muri.\n1517 Zingg-Fisch, Jak., Zugführer, von Rothenhausen (Weinfelden).\n— —, Hermine, obigen Ehefrau. Spezereihandlung.\nSchneider-Ryser, Frz. Xaver, Zugführer, von Herznach.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 54618,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2207,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:10:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p047",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p047.jpeg",
+      "bytes": 279139,
+      "sha256": "d94530d55b3dd0505f98189bfff186ecfdbfc4ce8167c048dbe4e7c5f9faa9ca",
+      "sha256_of": "original",
+      "working_copy": "1899_p047.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:10:44+00:00"
+  }
+}

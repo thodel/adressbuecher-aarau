@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p132",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p132.jpeg",
+    "bytes": 281625,
+    "sha256": "868f8b3b8fa911acea23d4bb96a1901f774dd6d197131034d48b2be207922319",
+    "sha256_of": "original",
+    "working_copy": "1899_p132.jpeg"
+  },
+  "text": "28\nMatter-Fäs, Maria, Modistin, Schmiedgasse 1232.\n— Samuel, Amtsschreiber, Schachen 1261.\n— geb. Thomann, Marie, Witwe, Wäscherin, Adelbändli 170.\nMauch, Rudolf, Bankabwart, in der Gais 1421.\nMaurer, Emil, Negotiant und Wirt zum „Kreuz“,  jenseits der\nAare 1303 a.\n— Friedrich, Heizer, Bachstraße 1031.\n— Fritz, Wirt,  in der Gais 486.\n— Gottlieb, Taglöhner, vor dem Haldenthor 1109.\n— Lisa, Ladentochter, Milchgasse 73.\n— Luise, Part., Rathausgasse 29.\n— Philipp, Gießereiarbeiter, Milchgasse 73.\n— Samuel, Taglöhner, Scheibenschachen 1532.\n— Wilhelm, Fuhrmann, Bahnhofstraße 536.\nMeier geb. Großmann, Anna, Witwe, vordere Vorstadt 680.\n— August, Direktionssekretär, Schachen 730.\n— Emil, Sekretär des aarg. Versicherungsamtes, Gais 1563.\n— Eduard Erwin, Sekretär, obere Vorstadt 925.\n— Friedrich, Schneider, Scheibenschachen 1465.\n— geb. Hägeli, Karolina, Witwe, Taglöhnerin, Schmiedgasse 636.\n— Jakob, Schlosser, Rathausgasse 47.\n— Jakob, Gärtner, obere Vorstadt 930.\n— Jakob, Zimmermann, Laurenzenvorstadt 552.\n— Jakob, Bäcker, Taglöhner, Kirchgasse 10.\n— Jakob, Part., Telli 444.\n— Joh. Jakob, Lehrer, Feerstraße 1308.\n— geb. Cena, Magdalena, italienische Produktenhdlg., Kasinostr.1130.\n— Friedrich, Schreiner, Entfelderstraße 964.\n— Jean, Postangestellter, hinter dem Babnhof 1539.\n— Johann Jakob, Part., Rain 860.\n— Johann Robert, Bahnarbeiter, Halden 250.\n— Hans, Postbüreauchef, jenseits der Aare 1385.\n— Joseph, Kaufmann, Kasinostraße 1130.\n— J. L., Architekt, Direktor des Gewerbemuseums, Laurenzen-\nvorstadt 403.\n— geb. Roth, Verena, Part., obere Vorstadt 925.\nMeierhofer, Rudolf, Güterschaffner, Stadthof 91.\nMeisel, Xaver, Forstverwalter, Rathausgasse 19.\n— Verena, Weißwarenhandlung, Rathausgasse 19.\nMeissner Johann, Schneider, Halden 266 b.\nMeister, Georg, Bäcker und Wirt,  Graben 216.\n— Jakob Emil, Adjunkt, Bahnhofstraße 515.\nMellert, Heinrich, Lithograph, Bachstraße 1038.\nMerz, Flora, Postangestellte, Milchgasse 159.\n— Heinrich Gottlieb, Part., Milchgasse 159.\n— Hermann, Zuckerwaren-Fabrikant, Graben 202.\n— Jakob, Taglöhner, Halden 268.\n— Jakob, Taglöhner, Adelbändli 174.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6427,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2099,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:35:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p132",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p132.jpeg",
+      "bytes": 281625,
+      "sha256": "868f8b3b8fa911acea23d4bb96a1901f774dd6d197131034d48b2be207922319",
+      "sha256_of": "original",
+      "working_copy": "1899_p132.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:35:29+00:00"
+  }
+}

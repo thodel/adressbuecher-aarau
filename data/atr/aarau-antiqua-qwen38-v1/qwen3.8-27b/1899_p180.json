@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p180",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p180.jpeg",
+    "bytes": 260872,
+    "sha256": "3819bd914c27528106ab587016a66a9b265d3b1c59d82ee6e6788939a0debd66",
+    "sha256_of": "original",
+    "working_copy": "1899_p180.jpeg"
+  },
+  "text": "76\nMusikalien- und Instrumentenhandlungen.\nBrast, Emma und Ida, * Holzmarkt 661.\nBurgmeier, Joseph, * Laurenzen thor gasse 117. (S. Inserat S. 12.)\nInstrumentenlager I. Ranges.\nFrey, Albert, hintere Vorstadt 693.\nHirsbrunner, Gottfried, * Kasinstraße 570.\nWidmer, F. J., Kasinostraße 573.\nMühlebaugeschäft.\nHaller-Märki, * Schönenwerderstrabe, Wöschnau. (S. Inserat S. 9.)\nMüller.\nEberle, Franz, * (mittlere Mühle), Stadthof 95.\nMünzensammler.\nPfisterer, Robert, vordere Vorstadt 1263.\nDreifuß, Karl, * vordere Vorstadt 889.\nMützenhandlungen.\nMüller, Eduard, * Schirmmacher, Rathausgasse 30. (S. Inserat S. 18.)\nSernatinger, Valerian, * vordere Vorstadt 893.\nSperlich, Theodor, vordere Vorstadt 666. (S. Inserat Seite 2.)\nNäherinnen.\n(Siehe Weißnäherinnen.)\nNähmaschinenhandlungen.\nBieber-Niggli, Theodor, * Hammer 193.\nComp. Singer, in der Gais 1105.\nLüscher- Umiker, Hermann, hinter dem Bahnhof 1414.\nRoth-Weber, Sophie, Laurenzen vorstadt 363.\nWalter-Schmuziger, August, * Pelzgasse 125.\nNotare.\nAmsler, Emil, Fürsprech, Feerstraße 1456.\n— Otto, vordere Vorstadt 666.\nBlattner, Otto, Dr., Fürsprech, obere Vorstadt 948.\nFrey, Jos., Stellvertreter d. Gemeindeschreibers, Konradstraße 989.\nHeller, Oskar, Sohn, * Zollrain 293. (Siehe Inserat S. 6.)\nHeuberger-Fischer, Jakob, Direktionssekretär, jens. d. Aare 1394.\nIsler, Emil, Fürsprech, Laurenzen vorstadt 413.\nKeller, Gottfried, Pelzgasse 128.\nKurz, Erwin, Fürsprech, Laurenzen vorstadt 360.\nLüscher, Hans, * Rain 829.\n— Jakob, * Metzgergasse 56.\nMerz, Sebastian, * Bachstraße 1000.\nSchmidt, Max, Fürsprech, Stadtammann, Jurast raße 1510.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 77611,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1592,
+    "lines": 41,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:09:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p180",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p180.jpeg",
+      "bytes": 260872,
+      "sha256": "3819bd914c27528106ab587016a66a9b265d3b1c59d82ee6e6788939a0debd66",
+      "sha256_of": "original",
+      "working_copy": "1899_p180.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:09:10+00:00"
+  }
+}

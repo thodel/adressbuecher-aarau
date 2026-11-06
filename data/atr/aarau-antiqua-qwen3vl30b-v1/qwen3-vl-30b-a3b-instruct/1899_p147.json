@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p147",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p147.jpeg",
+    "bytes": 280533,
+    "sha256": "2cf7d784674e6b191b9c19541fe48941b88f0cc0ad392ce545597cae8cb02fe4",
+    "sha256_of": "original",
+    "working_copy": "1899_p147.jpeg"
+  },
+  "text": "43\nUmiker, Samuel, Kutschner, Kirchhof 164.\nUnteroffiziersverein Aarau. Präsident: Julius Bodmer, Erlinsbacher-\nstraße 1298.\nUrban, Ernst, Schreiner, Ziegelrain 707 b.\nUrben, Joh., Küher, Kasinostraße 660.\nUrech, Jakob, Stadtpolizist, Metzgergasse 107.\n— geb. Imhof, Philippine, Witwe, Part., Graben 218.\n— Traugott, Knecht, Weinberg 322.\nValli, Angelo, Accordant, Rohrerstraße 1536.\nVerein für Briefmarkenkunde Aarau. Präsident: Jakob Henz-Plüß,\nvordere Vorstadt 1169.\nVerkürzen geb. Schäfer, Karoline Elisab., Witwe, Konradstraße 990.\nVidiella & Frey. ⚭ (Manuel Vidiella und Fried. Frey) Weinhand-\nlung, obere Vorstadt 930.\n— Manuel, Spanische Weinhalle. ⚭ Kirchgasse 7.\n— Vogel, Emil, Konfiseur, Kirchgasse 13.\n— Friedrich, Dachdecker, vor dem Haldenthor 1092.\n— Gottfried, Polizeilieutenant, Kirchhof 163.\n— Johann, Obermüller, Scheibenschacher 1339.\n— Johann, Säger, Halden 285.\n— Rudolf, Kaminfeger und Dachdecker, Entfelderstraße 1147.\nVogelmaid-Spalinger, Susanna, Part., vordere Vorstadt 893.\nVogler, Julius, Stadtgärtner, Bachstraße 1043.\nVogt, Adolf, Zahnarzt, ⚭ Laurenzenvorstadt 353. (Schloßgarten.)\n— Jakob, Schreiner, Kirchhof 165 a.\n— Joh., Schuhmacher, obere Vorstadt 911.\n— geb. Keller, Marie, Hebamme, Kirchhof 165 a.\n— Samuel, Speisewirt, ⚭ Graben 222.\nVolkemer geb. Mußmann, Barbara, Rain 879.\nVonarx, Karolina, Wirtin, Zollrain 52.\nVon Brockdorf, Emilie, Komtesse, Gartenstraße 1129.\nVondäniken, Emil, Buchhalter, Erlinsbacherstraße 1460.\n— geb. Vonfelten, Anna Maria, Witwe, Erlinsbacherstraße 1460.\nVonfelten, Franz Jos., Korsett- u. Quincailleriesgeschäft, Kroneng. 37.\nVon Steiger, William, Techniker, Rain 878.\nVonwiller geb. Gautschi, Lina, Witwe, Part., Graben 1161.\nVuillermot, Charles Jean L., Kaufmann, vordere Vorstadt 903.\nWächter geb. Lindenmann, Luise, Taglöhnerin, Hammer 1301.\nWäffler, Heinrich, Turnlehrer, Laurenzenvorstadt 399.\nWägeler, Karl, Dachdecker und Kaminfeger, v. d. Haldenthor 1306.\nWälti, Rud., Schneider, Rain 883.\nWärtli, Aug., Buchbinder, Kirchhof 166.\n— Christ., gew. Bahngangestellter, Laurenzenvorstadt 410.\n— geb. Nußbaum, Margaretha, Part., Milchgasse 79.\nWagner, Alice, Lehrerin, Kindergarten, Telli 431.\nWalder geb. Kunz, Elise, Part., Bankstraße 1141.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6015,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2214,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:37:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p147",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p147.jpeg",
+      "bytes": 280533,
+      "sha256": "2cf7d784674e6b191b9c19541fe48941b88f0cc0ad392ce545597cae8cb02fe4",
+      "sha256_of": "original",
+      "working_copy": "1899_p147.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:37:09+00:00"
+  }
+}

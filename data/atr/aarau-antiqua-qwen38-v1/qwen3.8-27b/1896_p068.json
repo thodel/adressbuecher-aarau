@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p068",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p068.jpeg",
+    "bytes": 260950,
+    "sha256": "1ab1f435dbb5cd9808945b80ce85533ead735e15cadf2636e121e9ffcd184667",
+    "sha256_of": "original",
+    "working_copy": "1896_p068.jpeg"
+  },
+  "text": "46 Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n1322 † Derselbe. Trinkhalle und Kegelbahn.\n1327 † \" Eiskeller.\n567 Gemeinde Aarau. Schulhaus.\n  Hassler-Brunnhofer, Johann, Schulhausabwart.\n568 a ➔ Weber-Hegnauer, Hermann, von Menziken. Restauration.\n568 b Guggisberg-Beck, Emil, Bäcker und Konditor, von Vevey (Waadt).\n  Kaffeewirthschaft, Tabak- und Cigarrenhandlung.\n569 * Derselbe. Wohnhaus.\n  Käppeli-König, Johann, Zugführer, von Merenschwand.\n\nKasinostrasse.\n570 Hirsbrunner-Baumann, Gottfried, Instrumentenmacher. Musikalien-\n  handlung.\n  Stalder-Messerli, Friedrich, von Luzelfüh (Bern).\n  Stalder-Messerli, Maria, Wirtin, von Luzelfüh (Bern). Speise-\n  Wirthschaft zum National.\n  Kloter-Kohler, Edmund, Packer, von Lengnau.\n  Frey, Joh. Jakob, Telegraphist, von Russikon (Zürich).\n571 Suter-Lüscher, Rudolf, Uhrenmacher, v. Kölkilen. Uhrenhandlung.\n  Lüscher-Suter, Elisabeth, Part., von Oberentfelden.\n  Frösch, Hermann, Kondukteur, von Zofingen.\n  Imhof-Schmid, Katharina, Witwe, Part.\n  Schneider-Egli, Emil Eduard, Magaziner, von Pfäffikon (Zürich).\n572 † Derselbe. Schmiede- und Wagnerei-Werkstätte.\n  Ging, Wilhelm, Wagner (Werkstätte).\n  Zubler-Brügger, Jakob, Schmid. (Werkstätte).\n1391 * Derselbe.\n  Renold-Geissmann, Katharina, Part.\n573 Wittmer-Reimann, Franz J., Musiklehrer. Musikalienhandlung.\n  Wittmer, Emma und Martha, Klavierlehrerinnen.\n  Gautschi-Dietschy, Friedrich, Commis, von Reinach.\n574 Birchmeier-Kull, August, Maler, von Würenlingen. Speisewirthschaft\n  und Spezeriehandlung.\n575 † Derselbe. Holzschof.\n576 * Imhof, Alexis, Negotiant in Zürich.\n  ➔ Schmidt-Halbritter, Max, Fürsprech u. Notar, Stadtammann.\n  Lindenmann-Wey, Marie, Witwe, von Fahrwangen.\n  Lindenmann, Ida, Telegraphistin, von Fahrwangen.\n  Lindenmann, Emma, Lehrerin, von Fahrwangen.\n  Gladbach-Renold, Philipp, Professor, von Oppenheim (Hessen).\n  Saxer, Friedrich, Part.\n577 Decker-Hoffmann, Julius, Huf- und Wagenschmied.\n  Decker, Elise, Part.\n  Hoffmann, Jakob, Part., von Zell.\n  Schmuziger-Gutjahr, Anna Maria, Witwe, Part.\n  Gutjahr, Regina, Part., von Danstetten (Grossh. Baden).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 83800,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2104,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:33:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p068",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p068.jpeg",
+      "bytes": 260950,
+      "sha256": "1ab1f435dbb5cd9808945b80ce85533ead735e15cadf2636e121e9ffcd184667",
+      "sha256_of": "original",
+      "working_copy": "1896_p068.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:33:05+00:00"
+  }
+}

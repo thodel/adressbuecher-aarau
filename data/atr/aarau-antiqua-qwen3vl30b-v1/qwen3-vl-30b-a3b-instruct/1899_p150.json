@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p150",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p150.jpeg",
+    "bytes": 287021,
+    "sha256": "a4a1ccae3acde2e4ada1f2ca0992599efd2c4168dcd4c0a768370a97370daad4",
+    "sha256_of": "original",
+    "working_copy": "1899_p150.jpeg"
+  },
+  "text": "46\nWernli, Julius, Lagerhausangestellter, Rohrerstraße 1560.\n— Kaspar, Holzer, Hammer 190.\n— Kaspar, Postkondukteur, in der Gais 1482.\n— Kaspar, Weichenwärter, Laurenzenvorstadt 363.\n— geb. Wildi, Maria, Witwe, Rathausgasse 45.\n— Rudolf, reform. Pfarrer, Milchgasse 158.\n— Rudolf, Taglöhner, vor dem Haldenthor 1093.\n— Rudolf, Cementmüller, Rathausgasse 25.\n— Samuel, Holzspalter, Hammer 185 c.\n— Samuel, Taglöhner, Halden 286.\n— Samuel, Cementarbeiter, Scheibenschachen 1532.\n— geb. Treier, Anna, Wirtin z. „Bairischen Halle“, ob. Vorstadt 926.\n— geb. Wehrli, Maria, Gärtners Witwe, Scheibenschachen 312.\n— geb. Wehrli, Maria, Maschinenstrickerin, Ziegelrain 710.\nWespi, K., Sohn, Hafnermeister, obere Vorstadt 966.\n— geb. Schmid, Emilie, Bachstraße 1028.\n— -Zurlinden, A., Witwe, Hafners, obere Vorstadt 966.\nWestfeld geb. Spitzli, Ida, Witwe, Laurenzenvorstadt 364.\nWetter & Cie., Firma, Magazin zum Globus, ob. Vorstadt 925.\n— J. Ulrich, Kaufmann, obere Vorstadt 1117.\nWettler geb. Schneider, Julie, gew. Wirtin z. „Ochsen“, Graben 221.\nWidmer, Anna, Weißnäherin, Rain 885.\n— Arnold, Lithograph, Bachstraße 1043.\n— Emma, Klavierlehrerin, Kasinostraße 573.\n— Franz J., Musiklehrer, Kasinostraße 573.\n— Franz Xaver, Obergerichtskanzlist, Laurenzenvorstadt 552.\n— Friedr., Postcommis, Feerstraße 1307.\n— Gottfr., Kaminfeger, vor dem Haldenthor 808.\n— Gottlieb, Telefonarbeiter, Halden 281.\n— Hans, Aufseher, Adelbändli 173.\n— Herm., Küfer, Schmiedgasse 625.\n— geb. Hoffmann, Salome, Witwe, Schmiedgasse 635.\n— Jakob, Webermeister, Milchgasse 74.\n— Johann, Landwirt, Hammer 183.\n— Johann, Fabrikarbeiter, Rain 885.\n— Karolina und Maria, Modistinnen, vordere Vorstadt 666.\n— Maria, Part., Weinberg 321 c.\n— Rosette, Fergerin, Hammer 194.\n— Rudolf, Bäcker und Wirt, obere Vorstadt 927.\n— Rudolf, Weinhändler, Speisewirtschaft z. „Lindenhof“, in der Gais 1248.\n— Samuel, Taglöhner, Halden 286.\n— Samuel, Schreiner, Kasinostraße, Werkstätte 572, Wohnung 1391.\n— Samuel, Wirt, Halden 277.\n— Xaver, Hausknecht (Ochsen), Pelzgasse 64.\nWiederkehr geb. Oeschger, Viktoria, Witwe, Wäscherin und Glätterin, Milchgasse 152.\nWieland geb. Wieland, Hermine, Witwe, Part., Rain 829.\nWiesenthal, Max, Disponent, Laurenzenvorstadt 403.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6738,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2217,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0208,
+    "mean_line_chars": 45.21,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:37:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p150",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p150.jpeg",
+      "bytes": 287021,
+      "sha256": "a4a1ccae3acde2e4ada1f2ca0992599efd2c4168dcd4c0a768370a97370daad4",
+      "sha256_of": "original",
+      "working_copy": "1899_p150.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:37:29+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p186",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p186.jpeg",
+    "bytes": 286460,
+    "sha256": "c768d3186d24888ff3ded1c14036cfb6a78edf2fb0baaa3cc3198dfaf886a02f",
+    "sha256_of": "original",
+    "working_copy": "1896_p186.jpeg"
+  },
+  "text": "148\nGeschäfts- und Gewerbetreibende.\nJörg, Samuel, Bachstraße 1032.\nRotter, Joh., hinter dem Bahnhof 1302.\nRuch, Rudolf, vor d. Haldenthor 768.\nSprenger, Wilhelm, Rain 877.\nStrebel, Eduard, Rain 857.\nWernli, Jakob, obere Vorstadt 909.\nWildi, Emil, hinter dem Platz 210.\nWildi, Samuel, Ziegelrain 713.\nSchuhfabrikation.\n(Siehe Fabrikationsgeschäfte.)\nSchuhmacher-Fournituren.\nHaßler, Hans, * Gerber, Bahnhofstr. 656.\nSchuhwarenhandlungen.\nBerchtold, Jakob, obere Vorstadt 937.\nCodoni-Dreßler, * Remigius, Rain 826.\nHagmann, Adolf, * hint. Vorst. 1262.\nHoffmann, Johann, Milchgasse 72.\nJörg, Peter, Rain 820.\nKrumet, Gottlieb, hintere Vorstadt 694.\nKünze, Oswald, Pelzgasse 122.\nLimacher, Niklaus, Rathausgasse 24.\nMayer, Thomas, hintere Vorstadt 697.\nRoth, Friedrich, Zeughausstraße 1387.\nSchneeberger-Salvi, Jakob, * Rathausgasse 3.\nSemmeler-Gans, Margaretha, Rain 879.\nStapfer, Johann, * Rathausgasse 31.\nStrebel, Joseph, Kirchgasse 12.\nVogt, Johann, obere Vorstadt 911.\nVolkmer-Mußmann, Barbara, Rain 879.\nSchuhmacher.\nBächli, Gottlieb, Stadthof, 93.\nBerchtold, Jakob, obere Vorstadt 937.\nDietiker, Samuel, Laurenzenvorstadt 376.\nDill, Johann, Laurenzenvorstadt 376.\nDöhnel, August, Golattenmattgasse 239.\nDürr, Gottfried, Halden 274.\nErnst, Hermann, Halden 240.\nGugel, Friedrich, Halden 254.\nHeinzelmann, Johann, Kirchgasse 13.\nHilfiker, Jakob, Pelzgasse 132.\nHoffmann, Johann, Milchgasse 72.\nHofstetter, Niklaus, Halden 266.\nJörg, Peter, Rain 820.\nIsliker, Ulrich, Milchgasse 75.\nKirchhofer, Karl, Halden 280.\nKünze, Oswald, Pelzgasse 122.\nLienberger, Kaspar, Kirchgasse 8 b.\nLimacher, Niklaus, Rathausgasse 24.\nMayer, Thomas, hintere Vorstadt 697.\nMüller, Johann Jakob, Kirchgasse 10.\nRoth, Friedrich, Zeughausstraße 1387.\nSchenk, Johann, Adelbändli 85.\nSchröder, Theodor, Metzgergasse 101.\nSiegrist, Adolf, Laurenzenvorstadt 376.\nStapfer, Johann, * Rathausgasse 31.\nStrebel, Joseph, Kirchgasse 12.\nTheez, Albert, Oberthor 754.\nVogt, Johann, obere Vorstadt 911.\nWandfluh, Johann, Halden 286.\nSchwammhandlungen.\nAngst, Gottlieb, * hinter dem Platz 214.\nHagenbuch, Karl, * Kronengasse 35.\nMorath, Johann, * Rathausgasse 2.\nRies-Buhlrein, El., Ziegelrain 702.\n  sowie sämtliche Coiffeurs.\nSeiler.\nBrunnhofer, Verena, Wwe., Holzmarkt 754.\nRychner, Konrad, Pelzgasse 123,\n  Dieselben handeln auch mit Seilerwaren.\nSpetterinnen.\nBächli, Margaretha, Rain 877.\nBächli, Verena, Adelbändli 172.\nBärttschi-Wächter, Maria, Rathausg. 46.\nBamberger-Schwarz, Anna, Wwe., Halden 260.\nBerner, Maria Anna, Halden 277.\nBrändli-Müller, Elisabeth, Laurenzenvorstadt 376.\nBruder-Bruder, Verena, Milchgasse 144.\nDietiker, Susanna, Rain 875.\nDöhnel, Emma, Halden 267.\nDrack-Hauser, Elisabeth, Milchgasse 149.\nFischer-Wydler, Ernestine, Adelbändli 174.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8665,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2732,
+    "lines": 83,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.1205,
+    "mean_line_chars": 31.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:17:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p186",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p186.jpeg",
+      "bytes": 286460,
+      "sha256": "c768d3186d24888ff3ded1c14036cfb6a78edf2fb0baaa3cc3198dfaf886a02f",
+      "sha256_of": "original",
+      "working_copy": "1896_p186.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:17:59+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p177",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p177.jpeg",
+    "bytes": 259474,
+    "sha256": "d4995bd931cec520418806de5db184d75f1484a6480decb3935342477d8f4aa3",
+    "sha256_of": "original",
+    "working_copy": "1899_p177.jpeg"
+  },
+  "text": "73\nMarmorsteingeschäft.\nGerodetti, Virgilius, * hinter dem Bahnhof. (S. Inserat S. 9.)\nMaschinenfabriken.\nOehler, A. & Cie., * Gais 1405. (S. Inserat vis à vis d. Textseite 1.)\nMaschinenstickerinnen.\nKirchhofer-Obrist, Marie, Kasinostroße 659.\nWernli-Wehrli, Marie, Ziegelrain 710.\nLeutwyler-Hofer, Elise, Ziegelrain 713.\nMathematische Instrumente.\nGysi & Co., * vordere Vorstadt 895. (Siehe Inserat Seite 26.)\nHommel F., vorm. Hommel & Esser, Laurenzenvorstadt 410.\n(Feinste Reisszenge.)\nKern & Cie., * Ziegelrain 747. (S. Inserat Seite 20.)\nMaurermeister.\nCantu, Joseph, Metzgergasse 101.\nMechaniker.\nAeschbach, Friedrich, in der Gais 1105.\nHof, Eduard, obere Vorstadt 935. (S. Inserat Seite 25.)\nKeller, Abraham, * Halden 260. (S. Inserat Seite 24.)\nKlingelfuß, J. F., * im Weinberg 321.\nKuhn, Alfred, * Ziegelrain 750. (S. Inserat Seite 4.)\nLüscher-Umiker, Hermann, hinter dem Bahnhof 1414.\nMehlhandlungen.\nBirmann, Adolf, * hintere Vorstadt 684.\nDubs, Geschw., * Hammer 182.\nEberle, Franz, * Stadthof 95.\n(Siehe auch die Bäcker.)\nMerceriewarenhandlungen.\nDolder, Susette, vordere Vorstadt 892.\nErdin, Albin, * Rathausgasse 22. (S. Inserat Seite 22.)\nErny-Faßler & Sohn, * Kronengasse 33.\nFehlmann-Blattner, Anna, Bahnhofstraße 648.\nHauri & Gränicher, * hintere Vorstadt 1236.\nHemmeler & Cie. * (en gros), hintere Vorstadt 638.\n- Stahl, J., * Rathausgasse 4.\nHeß, Gebr., * Rathausgasse 4.\nHofer, Gottlieb, * Rathausgasse 43.\nLehmann-Oelhafen, J., vordere Vorstadt 891.\nMarti, Hulda Flora, Metzgergasse 55. (S. Inserat Seite 7.)\nMeisel-Leutwyler, Verena, * Rathausgasse 19.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 31758,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1576,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:07:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p177",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p177.jpeg",
+      "bytes": 259474,
+      "sha256": "d4995bd931cec520418806de5db184d75f1484a6480decb3935342477d8f4aa3",
+      "sha256_of": "original",
+      "working_copy": "1899_p177.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:07:18+00:00"
+  }
+}

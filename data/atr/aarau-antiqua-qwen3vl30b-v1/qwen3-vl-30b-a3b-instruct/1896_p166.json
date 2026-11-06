@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p166",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p166.jpeg",
+    "bytes": 250604,
+    "sha256": "00556af5338c16990092c051d4bb5af4467f4ce460b20bf5e627ba62bf4e3b87",
+    "sha256_of": "original",
+    "working_copy": "1896_p166.jpeg"
+  },
+  "text": "128\nAlphabetisches Verzeichnis.\nZschokke, Arnold, Dr. jur., Staats-\nschreiber, Entfelderstraße 975.\n— Arthur, Part., Laurenzenvorst. 586.\n— & Cie., (Olivier Zschokke u. Jakob\nBächli in Buchs), Eisenbahn- und-\nWasserbauten, Bureau  Rohrer-\nstraße 473.\n— Ernst, Dr. phil., Bezirksschullehrer,\nZschokkestraße 995.\n— Guido, Buchhändler, Zschokkestrasse\n995.\n— Hermann, Versicherungsagent,  Bureau Entfelderstraße 960, Wohnung\nEntfelderstraße 1075.\n— Konradin, Ingenieur,  Entfelder-\nstraße 1200.\n— O., Baugeschäft,  Rohrerstr. 472.\n— geb. Offenhäuser, Elise, Pfarrers Wwe.,\nEntfelderstraße 960.\nOlivier, Ingenieur, z. „Blumenhalde“,\n jenseits der Aare 319.\n— geb. Zimmerli, Justine, Witwe, Part.,\nRain 871.\nZuber, Andreas, Part., Kirchhof. 163.\nZuberbühler, J., in Zurzach (Lingerie-\nund Broderiegeschäft), Filiale: Zoll-\nrain 53.\nZubler, Jakob, Schmied, Kasinostraße\n572, Wohnung Bachstraße 1031.\n— Reinhard, Mechan., Bahnhofstr. 536.\nZulauf, Jakob, Postcommis, Milchgasse\n159.\n— geb. Siebenmann, Marie, Witwe, Bach-\nstraße 1124.\nZumsteg, Anselm, Schuhmacher, Hammer\n185 b.\nZüllig, Johann Georg, Bahnangestellter\n(Kassier), Laurenzenvorstadt 412.\nZündt geb. Hagenbuch, Elise Luise,\nWitwe, Part., vordere Vorst. 674.\nZürcher, Alfred, Arzt,  Laurenzen-\nvorstadt 397.\n— Friedrich, Taglöhner, vor d. Halden-\nthor 802.\n— geb. Hauenstein, Anna, vor dem\nHaldenthor 802.\n— Johann, gewes. Turnlehrer, Feerstr.\n1443.\nZurlinden & Cie., (Rudolf Zurlinden-\nRichner, Karl Fischer, Ingenieur in\nZürich u. Daniel Schmuziger). Port-\nland-Cementfabrikation,  Scheiben-\nschachen 1180.\n— Rudolf, Fabrikant, Bahnhofstr. 1013.\n[spalte 2]\nSiegel des Frauenklosters in der Halde in Aarau, Ende des 13. Jahrhunderts.\nOriginalstempel im städt. Archiv in Aarau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5062,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1731,
+    "lines": 58,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 28.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:15:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p166",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p166.jpeg",
+      "bytes": 250604,
+      "sha256": "00556af5338c16990092c051d4bb5af4467f4ce460b20bf5e627ba62bf4e3b87",
+      "sha256_of": "original",
+      "working_copy": "1896_p166.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:15:21+00:00"
+  }
+}

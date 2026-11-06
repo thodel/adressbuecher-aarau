@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p009",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p009.jpeg",
+    "bytes": 237548,
+    "sha256": "bde1fad3e72ee245b4bac348a0921ac332490a00b37bf4201580438ccb85fde3",
+    "sha256_of": "original",
+    "working_copy": "1899_p009.jpeg"
+  },
+  "text": "Verzeichnis\nder\nGebäude der Stadt Aarau\nmit ihren\nEigentümern und Bewohnern.\n\nNeben jeder Nummer ist der Eigentümer des betreffenden Hauses bemerkt; bewohnt er selbst dieses nicht, so ist ein * beigesetzt Ökonomiegebäude sind mit † bezeichnet. Wo kein Heimatsort beigesetzt ist, sind es Bürger von Aarau.\n\n= Telefon.\n\nRathausgasse.\nHaus-\nNr.\n1* Morath-Dilger, Johann, Kaufmann.\n2 — — Quincaillerie-, Glas-, Porzellanwaren-, Uhren- und Kinderspielwarenhandlung.\n— Joh., Sohn, Kaufmann.\n3 Baumgartner, Adolf, Commis, von Oensingen (Solothurn).\nWydler-Fischer, Julius, Notariats-, Incasso-, Informations- und Verwaltungsgeschäft. Hauptagentur der franz. Feuerversicherungsgesellschaft \"Phönix\". — Hauptagentur der Lebensversicherungsgesellschaft „La Nationale“ in Paris. — Agentur der schweiz. Hagelversicherungsgesellschaft.\nSchneeberger-Salvi, Jakob, von Vordemwald (Italienische Warenhalle).\nWeber geb. Buchmann, Magdalena, Witwe, Part., von Oberflachs.\nGing geb. Hunziker, Klara, Vorgängerin.\n4 Hess-Wolf, Alexander, Kaufmann, von Zillisheim (Elsaß). Tuch- u. Möbelwarenhandlung. Firma Gebrüder Hess, Filiale der Magazin zur Stadt Mühlhausen, Biel und Solothurn.\n5 Weibezahl, Leonhard, Apotheker, von Gotha.\nKloter-Kohler, Eduard, Packer, von Lengnau.\nKeller, Lina, Wollenwarenhandlung.\nStadt Aarau.\n1",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3044,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1302,
+    "lines": 24,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.17,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:23:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p009",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p009.jpeg",
+      "bytes": 237548,
+      "sha256": "bde1fad3e72ee245b4bac348a0921ac332490a00b37bf4201580438ccb85fde3",
+      "sha256_of": "original",
+      "working_copy": "1899_p009.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:23:49+00:00"
+  }
+}

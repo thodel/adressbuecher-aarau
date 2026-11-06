@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p156",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p156.jpeg",
+    "bytes": 287543,
+    "sha256": "b2c8e4ea605f4251fcbda3e72d0412f2b192a0371f8a7b35a49e8ed2814523fe",
+    "sha256_of": "original",
+    "working_copy": "1896_p156.jpeg"
+  },
+  "text": "118\nAlphabetisches Verzeichnis.\nSchmid, Johann Friedrich, Schneider, Halden 264.\n— Joseph Anton., Polizeiwachtmeister, hintere Vorstadt 621.\n— Marie, Lingeriegeschäft, Bahnhofstraße 658.\n— geb. Maurer, Mathilde, Negottiantin, Comestibleshandlung, Rathausgasse 29.\n— Peter, Sekretär, hintere Vorstadt 645.\n— Peter, Posamenter, Halden 290.\n— Rudolf, Taglöhner, Halden 268.\n— Samuel, Commis, vor dem Haldenthor 1332.\n— geb. Unger, Sophie, Bahnwärter's Wtw., Halden 268.\nSchmidt, Adolf, Sattler, Bachstr. 1028.\n— Adolf, Kaufmann, obere Vorstadt 935.\n— Gustav, Kaufmann, Part., Graben 202.\n— Hans, Part., Schachen 723.\n— Jenny, Modistin, Zollrain 292.\n— Max, Fürsprech und Notar, Stadtammann, Kasinostraße 576.\nSchmocker, Gottl., Postpacker Metzgergasse 107.\nSchmutz geb. Weber, Anna, Witwe, Spetterin, Metzgergasse 107.\nSchmuziger, Adolf, Fabrikant, Rain 838.\n— Arnold, Fabrikant, Laurenzenvorstadt 1403.\n— Daniel, Baumeister, Rain 831.\n— & Cie. (Emil Schmuziger-Rüetschiund Adolf Schmuziger-Stäheli) Siegellack- u. Tintenfabrikation, Rain 834.\n— geb. Lang, Elise, Witwe, Bahnhofstraße 1023.\n— Emil, Fabrikant, Rain 834.\n— Fritz, Bäcker, Ziegelrain 703.\n— Friedrich, Dr. med., Entfelderstraße 972.\n— Gottlieb, Schneidermeister, Ziegelrain 703.\n— geb. Gutjahr, Anna Maria, Witwe, Part., Kasinostraße 577.\n— geb. Hochstraßer, Marie. Part., Schachen 734.\nSchmuziger, Johann, Architekt, Bau- meister, jenseits der Aare 294.\n— geb. Kern, Ida, Baumeisters Witwe, jenseits der Aare 294.\n— Karl, Rentier, Milchgasse 157.\n— Lina, Part., Laurenzenvorstadt 586.\n— Louis, Pfarrer, Bahnhofstr. 656.\n— Lucie, Damenschneiderin, Ziegelrain 703.\n— Marie, Schreibmaterialien- u. Kinderspielwarenhandlung, Rathausgasse 1.\n— Susette, Part., Milchgasse 161.\n— Traugott, Maler, Entfelderstraße 970.\n— Verena, Part., Milchgasse 161.\n— geb. Visel, Wilhelmine, Witwe, Ziegelrain 751.\n— Marie, Part., Adelbändli 86 a.\nSchneeberger, Jakob, Handelsmann, Rathausgasse 3.\nSchneider, Alfred, Seminarlehrer, Rain 848.\n— Barbara, Witwe, Rain 848.\n— Emil Eduard, Magaziner, Kasinostr. 571.\n— Ferdinand, Bankangestellter, Laurenzenvorstadt 552.\n— Franz Xaver, Zugmeister, Milchgasse 159.\n— Fridolin, Oberrichter, Rain 871.\n— Gustav, Dr. jur., Oberrichter, obere Vorstadt 1117.\n— Jakob, Aufseher, Scheibenschachen 1284.\n— Samuel, Taglöhner, Halden 271.\n— Ulrich, Schlossermeister, Golattenmattgasse 234.\nSchneiter, Karl, Reisender, Rathausgasse 21.\nSchnellmann, Hrch., Maurer, Milchg. 76.\nSchnetzler, Johann Ludwig, Bremser, Kirchgasse 14.\nSchöpflin geb. Hemmeler, Hedwig, Wtw., Part., Metzgergasse 55.\nSchröder, Theodor, Schuhmacher, Wohnung Metzgergasse 101, Werkstätte Golattenmattgasse 229.\nSchumacher, Arnold, Bahnarbeiter, Laurenzenvorstadt 376.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7071,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2711,
+    "lines": 59,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.97,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:14:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p156",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p156.jpeg",
+      "bytes": 287543,
+      "sha256": "b2c8e4ea605f4251fcbda3e72d0412f2b192a0371f8a7b35a49e8ed2814523fe",
+      "sha256_of": "original",
+      "working_copy": "1896_p156.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:14:04+00:00"
+  }
+}

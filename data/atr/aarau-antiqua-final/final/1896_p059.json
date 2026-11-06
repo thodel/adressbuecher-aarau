@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p059",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p059.jpeg",
+    "bytes": 256260,
+    "sha256": "2e8f7e2ac4b4dff7a7fd099bd8a3e50f5c5214b03b08c5e108bfc92eae1dc469",
+    "sha256_of": "original",
+    "working_copy": "1896_p059.jpeg"
+  },
+  "text": "Haus-\nVerzeichnis der Gebäude und ihrer Bewohner.\n37\nNr.\n453 † Dieselben. Druckerei.\n1085 † \" Farbgebäude.\n1158 † \" Fabrikg ebäude.\n454 * Krippendorf-Müller, Herm., Prof. Dr. phil., in Dresden.\nRothpletz-Bürgi, Maria, Pfarrers Witwe.\nHassler-Weisser, Arnold, Commis.\n455 * Derselbe.\nWeisse-Meinj, Karl, Färbermeister, von Glauchau (Sachsen).\n1133 † Imhof-Aman, Ernst, Fabrikationsgebäude.\n456 Guyer-Gunkel, Oskar, Kaufmann. Halbleinfabrikation.\n457 † Derselbe. Fabrikationsgebäude.\n458 † \" Scheune.\n459 † \" Tuchwalke.\n460 Gautschi-Roth, Rudolf und Gautschi, Friedr., Oekonom, v. Reinach.\nGautschi-Wernli, Rudolf, Oekonom, von Reinach.\nGautschi-Roth, Rudolf, Sohn, Oekonom, von Reinach.\nGautschi, Friedrich, Sohn, Oekonom, von Reinach.\n1159 † Dieselben. Waschhaus.\n461 † Auer-Vetter, Georg, Bierbrauer. Bierkeller.\n1209 † Derselbe. Eiskeller.\n462 † Staat Aargau. Turnhaus.\nRohrerstrasse.\n1362 † Zurlinden & Cie. Schuppen für die Seilbahn.\n463 Spirgi-Hochstrasser, Samuel, Landwirt, von Unterkulm.\n464 † Lagerhäuser der Centralschweiz. Petroleum-Keller (Alkoholdépôt).\n1344 † Lagerhaugesellschaft. Bureau.\n1253 † Keller-Steiner, Karl. Heuschuppen und Weinkeller.\n465 † Zschokke, O., Baugeschäft. Magazin.\n466 † Derselbe. Schreinerwerkstätte und Magazin.\n467 † \" Maschinensaal und Parketterie.\n468 † \" Transmission mit Säge.\n469 a † \" Dampfmaschine und Dampfkessel.\n469 b u. 470 † Derselbe. Abgetragen, an dessen Platz\n1450 † Derselbe. Holzmagazin mit Maschinenhaus.\n471 † \" Bureau, Werkstätte und Stallung.\n472 † \" [tel] Bureau.\n1079 † \" Abgetragen.\n1132 † \" Schuppen.\n1290 † \" Schmiedegebäude.\n1345 † \" Fraismaschine.\n1370 † \" Steinhauerhütte und Arbeiterbaracke.\n1371 † \" Schuppen.\n1372 † \" Schuppen für Cementsteine.\n1373 † \" Schuppen für Röhrenfabrikation.\n473 [tel] Bally-Arndt, Eugen, Fabrikant.\nZschokke & Cie. Bauunternehmung (Bureau).\n1338 † Derselbe. Wasch- und Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 153728,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1879,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:11:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p059",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p059.jpeg",
+      "bytes": 256260,
+      "sha256": "2e8f7e2ac4b4dff7a7fd099bd8a3e50f5c5214b03b08c5e108bfc92eae1dc469",
+      "sha256_of": "original",
+      "working_copy": "1896_p059.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:11:34+00:00"
+  }
+}

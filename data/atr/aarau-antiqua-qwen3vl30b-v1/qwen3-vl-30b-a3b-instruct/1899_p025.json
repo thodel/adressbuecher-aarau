@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p025",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p025.jpeg",
+    "bytes": 286308,
+    "sha256": "b3d10cc1811099eff950e0cec5c144362537d31598eb9fdd87205f0f77f8b620",
+    "sha256_of": "original",
+    "working_copy": "1899_p025.jpeg"
+  },
+  "text": "Haus-\nNr.\nBilletter-Apel, Wilhelmine, Wwe., von Hainichen (Sachsen).\n— Anna, Damenschneiderin, von Hainichen (Sachsen).\n178 Brunnhofer, August, Restaurateur und Liqueurfabrikant.\nEckstein-Scheindel, Joh. Martin, Steindrucker, v. Schwabach\n(Baiern)\nStillig, Joseph, Maschinenmeister, von Krelling (Böhmen).\n179 Schilling-Döbeli, August, Wirt, von Hornussen. Wirtschaft\nzur Kettenbrücke. Bierdepot der Aktienbrauerei Basel.\nFurrer-Blume, Mina, Damenschneiderin, von Kriens (Luzern).\nKeller-Franke, Mina, Obergerichtsschreibers Witwe, Part.\n180 † Dieselbe. Scheune.\n181 * Dubs, Geschwister, Elise, Jakob und Johann, von Küttigen.\nHässig-Haug, Gottlieb, Feinschleifer.\n— Rosina, Part.\nIm Hammer.\n182 Dubs, Geschwister, Jakob, Johann und Elise, von Küttigen.\nMehlhandlung.\n— Jakob, Müller, von Küttigen.\n— Johann, Müller, von Küttigen.\n— Elise, von Küttigen.\n183 * Dieselben.\nSchmid, J., Mineralwasserfabrikant, von Reiden (Luzern).\nAmmann-Grenacher, Rudolf, Steindrucker, von Roggwil (Bern).\nGloor-Peyer, Johann, Zahnmacher, von Dürrenäsch.\nWidmer-Engelmann, Johann, Landwirt, von Gränichen.\n1301 184 a Läuchli-Bircher, Friedrich, Schlosser.\n* Ryniker, Gebrüder, Karl und Arnold.\nWächter-Lindenmann, Louise, Taglöhnerin, von Mönthal.\n1295 184 b Abgetragen, an dessen Platz\nHässig, Gottlieb, Feinschleifer (Werkstätte).\n185 a Hürzeler-Gloor, Jakob, Hadernhändler, von Uerkheim.\n— Schenk, Adolf, Monteur, von Uerkheim.\n— Emma, Damenschneiderin, \"\n185 b Erdin-Zumsteg, Siegfried, Kerzenfabrikant, von Gansingen.\n— Rosalia, Damenschneiderin, von Gansingen.\nZumsteg-Jehle, Anselm, Schuhmacher, von Mettau.\n185 c Wernli-Meier, Samuel, Holzer, von Thalheim.\n186 * Hassler-Heberlein, Adolf, Färber.\nPrantl-Wildi, Niklaus, Maurer, von Strengen (Tirol).\nFrey, R. & M., Chocoladefabrik.\n187 * Derselbe. Holzschopf.\n188 Hassler-Heberlein, Adolf, Färber.\n— Albert, Architekt, Stadtbaumeister.\nFrymann-Lässer, Gottfried, Part.\nWydler-Kuhn, Robert, Ausläufer.\nSchäfer-Scheller, Elise, Wwe., Sesselflechterin.\nMüller-Stirnemann, Rudolf, Bremser, von Niederbipp (Bern).\nStadt Aarau. 2\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5542,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2074,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:25:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p025",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p025.jpeg",
+      "bytes": 286308,
+      "sha256": "b3d10cc1811099eff950e0cec5c144362537d31598eb9fdd87205f0f77f8b620",
+      "sha256_of": "original",
+      "working_copy": "1899_p025.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:25:13+00:00"
+  }
+}

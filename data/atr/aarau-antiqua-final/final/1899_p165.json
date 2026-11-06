@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p165",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p165.jpeg",
+    "bytes": 280602,
+    "sha256": "db136edaba1f899194c7129c96a61ba2a06ae999e2400983f5547c288d2c4766",
+    "sha256_of": "original",
+    "working_copy": "1899_p165.jpeg"
+  },
+  "text": "61\nKummier & Cie. * hinter dem Bahnhof 1472. Bureau Laurenzen-\n  vorstadt 405.\n  Herstellung elektrischer Apparate, Utensilien etc. (S. Inserat Seite 16.)\nLandolt & Cie. * Obere Vorstadt 949.\n  Firmainhaber: C. Gänslen-Landolt, C. Landolt-Thommen Kommanditür,\n  Gründungsjahr: 1850. Erzeugnisse: Feine Lacke und Firnisse für Wagen-,\n  Bau- und Dekorationsmalerei, Elektrizitäts- und Dampfbetrieb. Export.\nMerz & Suter, * Confewarenfabrik. Bahnhofstraße 652 u. 653.\n  Firmainhaber: Merz & Suter. Gründungsjahr: 1894. Erzeugnisse: Confi-\n  seriewarenartikel, Dessert, Chocolat.\nMüller & Trüb, Graphische Kunstanstalt. * Bahnhofstraße 1287.\n  Firmainhaber: J. Müller und A. Trüb. Gründungsjahr: 1850. Erzeugnisse:\n  Alle Erzeugnisse der Druckindustrie. (Gravure, Chromolithographie, Buch-\n  druck, photograph. Druckverfahren etc.) Dampfbetrieb. Export.\nOboussier, F. & Cie., Baumwolltuchfabrikation. * Graben 613.\nA. Oehler & Cie., Maschinenfabrik und Eisengiessereien. * In der\n  Gais 1407.\n  Firmainhaber: Alfred Oehler und Oskar Oehler. Gründungsjahr: 1881.\n  Erzeugnisse: Siehe Inserat vis-a-vis Textseite 1.\nRichner Karl. * Bahnhofstraße 561.\n  Firmainhaber: C. Richner-Karli. Gründungsjahr 1830. Erzeugnisse: Thon-\n  u. Steinzeugröhren, Cementbausteine, Cementbodenplatten, Cementröhren etc.\n  (S. Inserat S. 17.) Dampfbetrieb.\nH. R. Sauerländer & Cie., Laurenzenvorstadt 1184.\n  En gros-Fabrikation in Buchdecken jeder Art, Prägearbeiten, Reklamen-\n  plakaten u. s. w.- (Siehe Inserate.)\nSchmuziger & Cie. * Rain 834.\n  Firmainhaber: E. Schmuziger-Rüetschi, A. Schmuziger-Staeheli. Erzeug-\n  nisse: Siegellack, Tinte, flüssige Klebstoffe, Handel in Aarauer Spezialitäten,\n  wie Reisszeuge, Messer etc. Export.\nZebert-Altorfer, G., Buchbinderei, Linieranstalt, Papierhandlung. *\n  Laurenzenthorgasse 116.\n  Firmainhaber: G. Zebert von Bauma, Kanton Zürich. Gründungsjahr: 1879.\n  Erzeugnisse: Geschäftsbücher, Kopierbücher, Notizbücher, sowie Einbände\n  aller Art.\nZschokke, M., Baugeschäft. * Rohrerstraße 472.\n  Firmainhaber: Marie Zschokke geb. Sauerländer. Geschäftsführer: H. Jäggi\n  u. E. Wehrlü, Architekt. Gründungsjahr 1890. Erzeugnisse: Sägerei, Zimmerei,\n  Schreinerei, Glaserei und Parqueterie. (Siehe Inserat Seite 25.) Dampf-\n  betrieb mit eigener elektrischer Beleuchtung.\n\nFarbwarenfabrikation.\nImhof, Ernst, * Bachstraße 1035.\nLandolt & Cie., * obere Vorstadt 949.\n\nFarbwarenhandlungen.\nImhof, Ernst, * Bachstraße 1035.\nLandolt & Cie., * obere Vorstadt 949.\nRies-Buhlrein, E., Ziegelrain 702.\nund die Maler.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 57793,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2527,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0408,
+    "mean_line_chars": 49.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:00:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p165",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p165.jpeg",
+      "bytes": 280602,
+      "sha256": "db136edaba1f899194c7129c96a61ba2a06ae999e2400983f5547c288d2c4766",
+      "sha256_of": "original",
+      "working_copy": "1899_p165.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:00:00+00:00"
+  }
+}

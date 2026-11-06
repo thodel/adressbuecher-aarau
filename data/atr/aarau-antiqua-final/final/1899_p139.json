@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p139",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p139.jpeg",
+    "bytes": 287169,
+    "sha256": "2be4c00d7e22504b9e918755e299b98e39f34de669778bbef1b385d42f6228da",
+    "sha256_of": "original",
+    "working_copy": "1899_p139.jpeg"
+  },
+  "text": "35\nSäberli, Barbara, Part., hintere Vorstadt 694.\nSager, Jakob, Taglöhner, Bachstraße 1031.\nSalm, Barbara, Spetterin, Adelbändli 172.\n  — Marie, Damenschneiderin, Adelbändli 172.\nSandmeier, August, Kaufmann, Kronengasse 33.\n  — Gottlieb, Buchbinder, obere Vorstadt 955.\n  — Marie, Damenschneiderin, obere Vorstadt 929.\n  — Kaspar, Dachdeckergeselle, vor dem Haldenthor 809.\n  — geb. Rohr, Susette, Witwe, obere Vorstadt 955.\nSauerländer geb. Custer, Emma, Part., Laurenzenvorstadt 418.\n  — H. R. & Cie. [tel] (Remigius Sauerländer und Guido Zschokke-\n  Sauerländer), Buchdruckerei und Verlagbuchhandlung, Lau-\n  renzenvorstadt 418. Sortimentbuchhandlung [tel] Graben 220.\n  — Remigius, Buchdruckereibesitzer, Laurenzenvorstadt 428.\nSauter, Theresia, Vorgängerin, Rainstraße 825.\nSaxer, Friedrich, Part., Rain 823.\n  — Lisa, Part., vordere Vorstadt 889.\n  — Ludwig, Part., vordere Vorstadt 889.\n  — geb. Trug, Anna, Witwe, in der Gais 1217.\nSchärer, Adolf, Architect, Gais 1063.\n  — Cäsar, Messerschmied, vordere Vorstadt 680.\n  — Emil, Sohn, [tel] Kaufmann, z. „Birkenhof“, in der Gais 480.\n  — Emil, Bauamtsarbeiter, Milchgasse 151.\n  — Friedrich, gew. Einnehmer der N. O. B., Bahnhofstraße 515.\n  — Ida, Part., Jurastraße 1555.\n  — Karl Eduard, Buchdrucker, Golattenmatzgasse 237 c.\n  — geb. Scheller, Elise, Witwe, Sesselflechterin, Hammer 188.\n  — Wilhelm, Dienstmann, Oberthor 224.\nSchäppi, Anna, Arbeitslehrerin, Rain 872.\n  — Bertha, Bureauangestellte (R. & M. Frey), Rain 872.\n  — geb. Honegger, Bertha, Witwe, Rain 872.\nSchär, Friedr., Major, Bankstraße 1146.\n  — Maria, Haushälterin, Rain 838.\nSchärli, Joh., Taglöhner, Milchgasse 156.\nSchäublin, Maria, Damenschneiderin, Pelzgasse 66.\nSchaffner, Emma, Schneiderin, vor dem Haldenthor 796.\n  — Friedrich, Wagner, Bahnhofstraße 649.\n  — -Fischer, Johanna, vor dem Haldenthor 796.\n  — geb. Meier, Margaretha, Näherin, Adelbändli 173.\n  — Samuel, Fuhrmann, vor dem Haldenthor 796.\n  — geb. Zeller, Maria, Pelzgasse 121.\nSchatzmann, Albert, Photograph, vor dem Haldenthor 1299. (Ate-\n  lier Kasinostraße.)\n  — geb. Bolliger, Elise, Spetterin, Weinberg 321 b.\n  — Elisabeth, Leinen- und Wollwascherei, vor d. Haldenthor 1299.\n  — Heinrich, Schneider, Schachen 734.\n  — Jb., Saalbaubwart, Schloßplatz 1183.\n  — Johann, Mechaniker, Metzgergasse 101.\n  — Samuel, Buchbinder, Schreibmaterialienhandlung, Pelzgasse 135.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 52886,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2369,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:40:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p139",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p139.jpeg",
+      "bytes": 287169,
+      "sha256": "2be4c00d7e22504b9e918755e299b98e39f34de669778bbef1b385d42f6228da",
+      "sha256_of": "original",
+      "working_copy": "1899_p139.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:40:21+00:00"
+  }
+}

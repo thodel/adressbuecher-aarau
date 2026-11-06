@@ -192,6 +192,33 @@ Inhaltsverzeichnisses), 2 575 Bewohner, 164 Konkordanzbereiche, 534 Berufsklasse
 Durchsuchbar: [Aarau Adressdaten Erstblick](https://claude.ai/artifact/XtgZetSeQZKgXXhEziKnjo)
 (`make erstblick`).
 
+**Stand alle fünf Bände (06.11.2026, abends).** Antiqua (1896, 1899; 395 Seiten): qwen3.8-27b
+in 7,5 h, 68,7 s je Seite; 12 Seiten am Token-Deckel abgebrochen (9 leer — das
+Nachdenk-Problem), diese mit Gemini 3.8 Flash und demselben Prompt nachgelesen
+(`aarau-antiqua-gemini-retry-v1`); der Endstand je Seite steht in
+`data/atr/aarau-antiqua-final/final/`, welche Lesung gilt in `data/csv/02_reading_choice.csv`
+(`scripts/02c_compose_run.py`). qwen3-vl-30b als Zweitleser: 395/395 in 50 min.
+Parser-Anpassungen für die Antiqua-Bände: Telefonzeichen als Pfeil («->», «⇒») → `[tel]`;
+Fortsetzungszeilen, die mit einer Abkürzung beginnen («Part., Rain 820.»), und Zeilen mit
+Kleinbuchstaben am Anfang hängen immer am vorangehenden Eintrag; Rubriken im
+Berufsregister nur, wenn sie im Klassenverzeichnis stehen oder wie eine Berufsklasse
+aussehen; im Gebäudeverzeichnis gelten Bewohner auch ohne Einzug (1899), Bewohner am
+Seitenanfang gehören zum letzten Gebäude der Vorseite, Strassenüberschriften müssen wie
+eine Strasse aussehen, und im Teil «Nach der Nummerierung gebaute Häuser» kommt die Strasse
+aus der Klammer beim Gebäude («(Gartenstraße.)», Ditto «id.»/«"» = wie oben).
+
+| Tabelle | 1884 | 1888 | 1892 | 1896 | 1899 | «high» |
+|---|---:|---:|---:|---:|---:|---:|
+| Einwohner-Adresszeilen | 1 860 | 1 860 | 1 981 | 2 241 | 2 158 | 96,8 % |
+| Berufsregister | 1 131 | 1 222 | 1 163 | 1 272 | 1 236 | 85,6 % |
+| Gebäude | 1 080 | 1 442 | 1 670 | 1 842 | 2 049 | 99,9 % |
+| Bewohner (Gebäudeverzeichnis) | — | 1 392 | 1 402 | 1 564 | 1 476 | 99,2 % |
+
+Gebäude ohne Strasse (ohne abgetragene): Fraktur 13 von 4 192, Antiqua 107 von 3 891.
+Verortung über alle Bände: Heimatorte 87 % der 5 267 Nennungen (728 Orte), Strassen 96 %
+der 15 896 Adresszeilen (74 Strassen; Lesefehler werden unscharf an deutlich häufigere
+Namen angeglichen). Telefon: 18 199 Einträge verknüpft.
+
 **Kontrollseite und Flagging (GitHub Pages).** `scripts/90_erstblick.py` baut aus den
 Welle-2-CSV die Seite `web/index.html` (Reiter Einwohner/Gebäude/Bewohner/Berufe,
 Filter nach Band, Konfidenz und Volltext, je Zeile die ATR-Rohzeile). Je Zeile lässt

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p088",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p088.jpeg",
+    "bytes": 272805,
+    "sha256": "fd17fefcdea2e6ca4a4f561c42393bf10cb4556787fb09f102ef584e544835c5",
+    "sha256_of": "original",
+    "working_copy": "1899_p088.jpeg"
+  },
+  "text": "80\n\nHaus-\nNr.\n  Schwanz-Gautschi, Theodor von Gutenstein (Baden).\n  Frösch-Müller, Hermann, Kondukteur, von Zofingen.\n1026 u. 1027 Abgetragen. An deren Platz:\n1525 * Richner und Rothpletz.\n  Kaiser-Roth, Friedrich, Wirt, von Leuzingen (Bern).\n  (Café Zentral).\n  Aargauisches Versicherungsamt, (Bureau.) [tel]\n  Dettwyler-Suter, Karl, Mechaniker von Reigoldswyl\n  Baselland).\n  Dettwyler, Bertha und Lisette, Damenschneiderinnen, von\n  Reigoldswyl (Baselland).\nBachstrasse.\n1028 * Richner & Rothpletz.\n  Rattaggi-Küfer, Giuseppe, Südfrüchtenhandlung von\n  Lavena (Italien).\n  Puricelli-Puricelli, Benvenuto, Geflügelhändler von Sala\n  Comacino (Italien).\n  Rattaggi-Valmaggi, Maria, Witwe, von Lavena (Italien).\n  Tschanz-Weber, Wilhelm, Maschinist von Röthenbach\n  (Bern).\n1029 † Dieselben.\n  Siebenmann-Siebenmann, Arn., Tapezierer (Werkstätte).\n1207 † Dieselben.\n  Spychiger-Thomen, Friedrich, Maler von Ursern (Bern).\n  Werkstatt.\n1030 † Gemeinde Aarau. Schuppen.\n1031 Maurer-Lemann, Friedrich, Heizer, von Schmiedrued.\n  Fäs-Lüthi, Gottlieb, Schlosser, von Schöttland.\n  Furrer-Notter, Erhard, Schneider, von Bolken (Solothurn).\n  Sager-Wildi, Jakob, Taglöhner, von Gränichen.\n1032 Jörg-Hächler, Samuel, Schreiner, von Affoltern (Bern).\n  Speck-Hochuli, Elsa, Vorgängerin, von Oberkulum.\n1033 Erismann-Indermauer, Abraham, Friedensrichter, Oekonom.\n1034 † Derselbe. Scheune.\n1035 Imhof-Aman, Ernst, Fabrikant. Farbwarenfabrikation für\n  Konditoreien.\n1036 † Andres-Bircher, Friedrich, Hafner (Holzhaus).\n1037 † Derselbe. Hafnerei.\n1038 Brunner, Gottfried, Part.\n  Haeuys-Marrer, Joseph, Maurer, v. Strengen (Tyrol).\n  Mellert-Brunner, Heinr., Lithograph, von Steinach (Baden).\n  Herzog-Hagnauer, Angelina, Witwe, Part., von Rekingen.\n1039 Kraft-Kaspar, Maria, Witwe, von Brugg.\n  Kaspar-Hunziker, Maria, Witwe.\n  Caminada, David, Professor, von Lavognino.\n  Frey-Brand, Franz Karl, Postcommis, von Zurzach.\n1073 † Dieselbe. Holzremise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 69502,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1940,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:57:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p088",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p088.jpeg",
+      "bytes": 272805,
+      "sha256": "fd17fefcdea2e6ca4a4f561c42393bf10cb4556787fb09f102ef584e544835c5",
+      "sha256_of": "original",
+      "working_copy": "1899_p088.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:57:30+00:00"
+  }
+}

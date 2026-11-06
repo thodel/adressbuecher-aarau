@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p205",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p205.jpeg",
+    "bytes": 254083,
+    "sha256": "13d1c51186c1a454ed612236888855edb50e4f671b2f486a24e00edb87bdc73a",
+    "sha256_of": "original",
+    "working_copy": "1899_p205.jpeg"
+  },
+  "text": "101\n\nb. Bibliotheken.\nAargauische Kantonsbibliothek.\n(Im Großratsgebäude.)\nBibliothekstunden: a) Bücherausgabe Mittwoch und Samstag\n2 bis 5 Uhr (vom 1. Oktober bis 1. April von 2 bis 4 Uhr). b) Das\nLesezimmer ist zu den genannten Stunden Mittwochs und Samstags,\nsowie außerdem Montags geöffnet.\nJahresabonnement: Für die im Kanton niedergelassenen Abon-\nnenten Fr. 3, für die außerhalb des Kantons wohnenden Fr. 4.\nBibliothekar: Dr. Hans Herzog.\n\nStadtbibliothek Aarau.\n(Altes Kantonsschulgebäude.)\nBibliothekstunden: Mittwoch 1 bis 3 Uhr.\nJahresabonnement: Fr. 4. Halbjahr 2. 50.\n\nRegierungsbibliothek.\n(Im Regierungsgebäude.)\n\nRatsbibliothek.\n(Im städtischen Rathaus.)\n\nObergerichtsbibliothek.\n(Im Obergerichtssal.)\n\nMilitärbibliothek.\n(Im Zeughaus.)\n\nBibliothek und Vorbildersammlung des kantonalen\nGewerbemuseums.\n(Siehe dasselbe.)\n\nBibliothek der Mittelschweizer. geographisch-kommerziellen\nGesellschaft.\n(Im Gewerbemuseum.)\n\nBibliothek der historischen Gesellschaft.\nDieselbe wurde der Aarg. Kantonsbibliothek einverleibt.\n\nBibliothek der Naturforschenden Gesellschaft.\n(Im städtischen Schulhaus.)\nDieselbe wurde der Aarg. Kantonsbibliothek einverleibt.\n\nBibliothek des Kunstvereins.\n(Im kant. Gewerbemuseum.)\n\nStädtische Lehrerbibliothek.\n(Im städtischen Schulhaus.)\nJahresbeitrag: Jeder Lehrer und Lehrerin Fr. 1. 50.\nBibliothekarin: Frida Haberstich.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3932,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1359,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.05,
+    "mean_line_chars": 32.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:43:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p205",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p205.jpeg",
+      "bytes": 254083,
+      "sha256": "13d1c51186c1a454ed612236888855edb50e4f671b2f486a24e00edb87bdc73a",
+      "sha256_of": "original",
+      "working_copy": "1899_p205.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:43:39+00:00"
+  }
+}

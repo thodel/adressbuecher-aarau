@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p044",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p044.jpeg",
+    "bytes": 242112,
+    "sha256": "54ab826462dd9218d81c0935ada5c022f12db778f958622d5c9a8416d6ab5dcc",
+    "sha256_of": "original",
+    "working_copy": "1896_p044.jpeg"
+  },
+  "text": "22\nVerzeichniss der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n241\nArmengut der Gemeinde Aarau. Armenhaus.\nMüller-Woodtli, Jakob, Armenhausvorsteher.\nMüller, Rosa, Glätterin.\nArmenhausbewohner:\nSiebenmann, Messerschmieds Witwe.\nSiebenmann, Wilhelm, Bäcker.\nBrunnhofer, Max.\nFischer, Susanna.\nSiebenmann, Julie.\nSchmid, Rudolf, gew. Landsasse.\nGränicher, Benjamin, Sattler.\nRothpletz, Heinrich, Buchbinder.\nSiebenmann-Ritter, Witwe.\nRuefli, Louise.\nSchmid, Rudolfs Frau.\nHemmeler, Schlossers Witwe.\nHässig, Nanette.\nFrank, Louise.\nEhrsam, Schneiders Witwe.\nHunziker-Sandmeier, Witwe.\nSiebenmann, Bertha.\nFischer, Louise.\nLienhard, Maria.\nSiebenmann, Rosa.\nHürner, Julius.\nFisch, alt Lehrerin.\nBrunnhofe-Bachmann, Witwe.\nRenold, Marie.\nDürr, Gottlieb.\nFischer, Ludwig.\nBrunnhofe, Gottlieb.\nPfrundanstalt:\nGing, Joh. Jak., Part.\nRychner-Buhlrain, Marie Elisabeth, Part.\nNüsperli, Marie Anna, Schneiders.\n242 † Dasselbe. Holz- und Spritzenhaus.\n243 † Dasselbe. Absonderungsbaus.\n244 Abgetragen.\n245 a und b. Abgetragen.\n246 * Brunnhofer, El., Lehrers Erbschaft:\nZähner-Brunnhofe, Nanette, von Horn (Thurgau). Stellenver-\nmittlungsbureau des schweiz. Frauenverbandes.\nBrunnhofe, Lisette, Lehrers, Part.\nHolliger-Berner, Gottfried, Taglöhner, von Boniswyl.\nWellenberg-Schaffner, Albertine, Witwe, von Schöffland.\n247 Brunnhofe-Gietzentanner, Ursula, Witwe.\nFisch-Dürr, Elise, Schuhmachers Witwe.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 11991,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1384,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 25.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:52:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p044",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p044.jpeg",
+      "bytes": 242112,
+      "sha256": "54ab826462dd9218d81c0935ada5c022f12db778f958622d5c9a8416d6ab5dcc",
+      "sha256_of": "original",
+      "working_copy": "1896_p044.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:52:06+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p175",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p175.jpeg",
+    "bytes": 271857,
+    "sha256": "30421edd6c00ac68a541dc71689f607f93e10b2690e2eeae9ec6c3b6f022df73",
+    "sha256_of": "original",
+    "working_copy": "1896_p175.jpeg"
+  },
+  "text": "Erny-Fäßler & Sohn, * Kronengasse 33.\nHagenbuch-Hagenbuch, Verena, Zollrain\n177.\nHemmeler-Türler, E., * Metzgergasse 59.\nHeß-Wolf, Alexander, * Rathausgasse 4.\nHofer, Gottlieb, * Rathausgasse 43.\nSchneeberger-Salvi, Jakob, * Rathausg. 3.\nWüthrich-Lüdi, Samuel, * Laurenzenthor-\ngasse 117.\n\nGasanstalt.\nGasbeleuchtungsanstalt Aarau, * Zoll-\nrain 786.\nDirektor: Bechstein, Wilhelm.\nGasmester: Wehrli, Karl.\n\nGasthöfe.\n(Siehe Wirtschaften.)\n\nGärtner.\nFehlmann, Johann, Halden 282.\nGehrig, Karl, Hammer 1301.\nGroßmann, Otto, Handelsgärtnerei, Depot,\nGraben 219.\nMeier, Jakob, obere Vorstadt 938.\nKäser, Emil, Schachen 739.\nReinhard, Joh. Baptist, Schachen 725.\nVogler, Julius, Stadt- u. Friedhofgärtner,\nSchmiedgasse 1232.\nWehrli, Johann, v. d. Haldenthor 1272.\nWernli, Jakob. v. d. Haldenthor 799.\n\nGeflügelhändler.\nMarini, Dominico, Schmiedgasse 634.\n\nGeometer.\nSchmid, Johann Jakob, Konkordats- und\nKataster-Geometer, Bachstraße 1138.\nRychner, Louis, Rain 832.\n(Siehe Inserat Seite 23.)\n\nGeistliche.\nFischer, Xaver, Pfarrer d. christ-kathol.\nKirchgemeinde, Adelbändli 175.\nFrey, Eduard, Pfarrhelfer d. reformierten\nKirchgemeinden für den Helferkreis\nAarau, Kirchgasse 6.\nGraf, Ernst, Pfarrer der reform. Kirch-\ngemeinde, Kirchhof 169.\nStöckli, Stephan, Pfarrer d. römisch-kathol.\nGenossenschaft, Schmiedgasse 1197.\nSchmuziger, Louis, Pfarrer d. evangel.\nKapelle, Bahnhofstraße 656.\nWernly, Rudolf, Pfarrer der reformierten\nKirchgemeinde, Milchgasse 158.\n\nGeldwechsel- u. Wechselgeschäft.\nWirth-Herzog, Jakob, * Zollrain 89.\n\nGemüsehändler.\nDürr, Emil, vor dem Haldenthor 809.\nDürr-Lüscher, Marie, Witwe, * Graben\n1237.\nFlückiger-Wüthrich, R., Witwe, Hammer\n183.\nHässig, Konrad, Rain 881.\nJäker-Haller, Joseph, * hintere Vor-\nstadt 696.\nMarini, Dominico, Schmiedgasse 634.\nMüller, Samuel, Milchgasse 145.\nZehnder, Barbara, Färbergäßchen 124.\n\nGeschäftsagenten.\n(Siehe Incassogeschäfte.)\n\nGeschirrhandlungen.\nAndres, Friedrich, * obere Vorstadt 917.\nHagenbuch, Karl, * Kronengasse 35.\nHemmeler-Stahl, Ida, * Rathausgasse 21.\nHemmeler, Wilhelm, * ob. Vorstadt 919.\nHemmeler-Scheibler, Verena, Witwe, ob.\nVorstadt 944.\nMorath, J. W., * Rathausgasse 2.\nSchmidt-Lanz, Ad., * obere Vorstadt 935.\n\nGewehrfabrikation.\nRychner, Heinrich, * Schloßplatz 196.\n\nGipsermeister.\nFäßler, Friedrich Georg, Zollrain 88.\nSchaub, Adelbert, Pelzgasse 69.\nWehrli, Hans, Halden 250.\n(Im Weitern siehe die Baumeister.)\n\nGlätterinnen.\nBalmer, Marie und Karoline, Laurenzen-\nthorgasse 117.\n*",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7074,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2463,
+    "lines": 85,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0118,
+    "mean_line_chars": 27.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:16:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p175",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p175.jpeg",
+      "bytes": 271857,
+      "sha256": "30421edd6c00ac68a541dc71689f607f93e10b2690e2eeae9ec6c3b6f022df73",
+      "sha256_of": "original",
+      "working_copy": "1896_p175.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:16:30+00:00"
+  }
+}

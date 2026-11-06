@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p052",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p052.jpeg",
+    "bytes": 268661,
+    "sha256": "6139d932087eade9762735155000aa6a53c130eeea9a37a06fb5fc8e445d5123",
+    "sha256_of": "original",
+    "working_copy": "1899_p052.jpeg"
+  },
+  "text": "44\nHaus-\nNr.\n534 † Dieselbe. Abgetragen.\n1116 † \" Bahnwärterhäuschen.\n1239 † \" Abtritt.\n1254 † \" Waschmagazin.\n1540 † \" Wärterhäuschen.\n1541 † \" \"\n1542 † \" \"\n1543 † \" Centralweichenhäuschen.\n1544 † \" \"\n1545 † \" \"\n1546 † \" Magazinhäuschen (Gais).\n1547 † \" Centralweichenhäuschen (Gais).\n1300 † Hoch, Gustav, Samenhändler. [tel] Magazin.\n1287 Müller & Trüb. [tel] Lithographische Kunstanstalt, Buch-\n  druckerei, Buchbinderei, Zinkographie.\n535 Billo-Bär, Julius, Part.\nFrei, Elisabeth, Haushälterin, von Auenstein.\n536 * Derselbe. Nebengebäude.\nMaurer-Häfeli, Wilhelm, Fuhrmann, von Schmiedrued.\n537 † Derselbe. [tel] Bureau u. Scheune der Firma Siebenmann & Cie.,\n  Camionage- Speditions- und Brennmaterialiengeschäft und\n  öffentliche Brückenwage.\n538 † Derselbe. Schmiede.\n539 † \" Holzschopf.\n540 † \" Gebäude mit Brückenwage.\n1336 Brack-Müllhaupt, Jakob, Kaufmann. [tel]\nTrain-Aldinger, Eugen, Hauptmann, von Oberhofen-Illig-\n  hausen (Thurgau). Instruktions-Offizier.\n1240 † Derselbe. Magazin.\nHangartner, Kaspar, Camioneur [tel] (Bureau).\n541 * Holzach-Siebenmann, Dietrich, Bierbrauer.\nRychner-Peter, Elisabeth, Witwe, v. Rohr. Pintenwirtschaft.\nHärri-Baumann, Arnold, Postcommis, von Birrwyl.\nHäfeli-Fischer, Julie, Witwe, Näherin, von Seengen.\n542 † Derselbe. Holzhaus.\n543 † Siebenmann-Steiner, Gottlieb, Camioneur. Holzhaus.\n\nLaurenzenvorstadt.\n544 Stauffer-Wildi, Albert, Bankangestellter, von Hallwyl.\nOelhafen-Bührer, Hermann, Bureau-Chef der Aarg. Bank.\nPlüss, Rosina, Näherin, von Ryken.\n545 † Lagerhäuser der Centralschweiz. [tel]\n546 † Dieselben. Gebäude mit Dampfkessel.\n547 * Steiner-Sennhauser, Samuel, Ökonom. Rösliigut.\nThut-Schiesser, Walther, Kaufmann, von Oberentfelden.\nHintermann-Keller, Robert, Oberst, Instr. I. Kl. d. Infanterie.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 36795,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1758,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:18:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p052",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p052.jpeg",
+      "bytes": 268661,
+      "sha256": "6139d932087eade9762735155000aa6a53c130eeea9a37a06fb5fc8e445d5123",
+      "sha256_of": "original",
+      "working_copy": "1899_p052.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:18:50+00:00"
+  }
+}

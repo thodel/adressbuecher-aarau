@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p114",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p114.jpeg",
+    "bytes": 281788,
+    "sha256": "7747aee0133c0238bc1c247532162bca245f7860bce3e1fe350d16d5af118ddc",
+    "sha256_of": "original",
+    "working_copy": "1899_p114.jpeg"
+  },
+  "text": "10\n\nErdin, Rosalia, Damenschneiderin, Hammer 185 b.\n— Siegfried, Kerzenfabrikant, Hammer 185 b.\nErismann & Blattner, Weißwarentgeschäft, vor d. Haldenthor 1299.\n— Abraham, Ökonom, Friedensrichter, Bachstraße 1033.\n— Adolf Heinrich, Hafner, vordere Vorstadt 900.\n— Friedrich, Güterexpedient, Gais 485.\n— Jakob, Schuhmacher, Laurenzenvorstadt 376.\n— Marie, Weißnäherin, vor dem Haldenthor 1299.\n— Rudolf, Taglöhner, Ziegelrain 707 a.\nErne & Cie., Kolonialwarengeschäft, en gros, [tel] Laurenzenvorst. 1499.\n— Eduard, Kaufmann, Feerstraße 1498.\nErny, Emil, Armenpfleger, Kronengasse 33.\n— Emil, Fürsprech, Direktor des aarg. Versicherungsamtes, Garten-\nstraße 1129.\n— -Fassler & Sohn. Handlung in Mercerie-, Woll- und Seiden-\nwaren. Kronengasse 33.\n— Karl, Kaufmann, Kronengasse 33.\nErnst, Jakob, Thonröhrenfabrikation. Röhrenfabrik Gais 1453.\nInhaber:\n— Friedr. Jakob, Röhrenfabrikant, [tel] Wohnung ob. Vorstadt 923.\n— Gustav, Landwirt, Telli 1335.\n— Hermann, Schuhmacher, Halden 240.\n— geb. Pfisterer, Lina, Witwe, vordere Vorstadt 1263.\n— Robert, Briefträger, Ziegelrain 705.\n— Samuel, Gasarbeiter, Milchgasse 76.\nEtter, Reinhard, Küher, Rain 825\n\nFäs, Gottlieb, Schlosser, Bachstraße 1031.\n— geb. Huber, Anna, Wwe., Spetterin, Gölattenmattgasse 237 a.\n— Ida, Fabrikarbeiterin, Milchgasse 77.\n— Rudolf, Kasernier, Pelzgasse 67.\nFahrländer, Eugen, Ingenieur, Rainstraße 869.\n— Karl, Dr. jur., Regierungsrat, [tel] Laurenzenvorstadt 371.\n— geb. Müller, Verena, Part., Hammer 188.\nFailer, Georg, Schriftsetzer, Rain 826.\nFaller geb. Faller, Elise Luise, Witwe, Eisen- und Quincaillerie-\nhandlung, Kronengasse 41.\n— Friedrich, Kaufmann, Eisenhandlung, Rathausgasse 17.\n— Karl Friedrich, Sohn, Kaufmann, Kronengasse 41.\nFassler, Anna, Weißnäherin, Zollrain 88.\n— Friedr. Georg, Gipser, Zollrain 88.\n— Maria, Part., hinter dem Platz 214.\nFassnacht, Olga, Bezirkschullehrin, Bahnhofstraße 1447.\nFeer, Adele, Rentière, Laurenzenvorstadt 602.\n— Hans, Bankangestellter, jenseits der Aare 339.\n— Karl, Laurenzenvorstadt 602.\n— Sophie, Laurenzenvorstadt 602.\nFecht, Julius, Weinhandlung, [tel] vor dem Haldenthor 758.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15581,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2106,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:16:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p114",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p114.jpeg",
+      "bytes": 281788,
+      "sha256": "7747aee0133c0238bc1c247532162bca245f7860bce3e1fe350d16d5af118ddc",
+      "sha256_of": "original",
+      "working_copy": "1899_p114.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:16:42+00:00"
+  }
+}

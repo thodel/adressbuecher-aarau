@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p053",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p053.jpeg",
+    "bytes": 258588,
+    "sha256": "d725ff5ce392f3c9fdc281c5789ee79b8c2d8dac860fed061811b9d734561ff5",
+    "sha256_of": "original",
+    "working_copy": "1896_p053.jpeg"
+  },
+  "text": "Haus-\nNr.\n337 Weber-Weber, Wilhelm, Milchverkäufer, von Menziken.\nWehrli-Graf, Jakob, Handlanger, von Küttigen.\n1426 † Derselbe. Keller und Waschhaus.\n338 Bircher-Wehrli, Karl, Büchsenschiem, von Küttigen.\n\nJenseits der Aare.\n339 * Zimmermann, Maria, Witwe, Erbschaft.\nHofer-Gehri, Jakob, Notar, von Rothrist.\nStephanie-Heckmann, Wilhelmine, Witwe, Part.\nMontandon, Paul, Kaufmann, von Locle.\nBillo-Billo, Maria, Kaufmanns, Part.\n1247 † Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wagenschopf und\nEiskeller.\n\nWeinberg.\n340 † Frey-Frey, K., Stadtrats Erbschaft. Rebhäuschen.\n341 † Kern-Rychner, Emil. Rebhäuschen.\n\nJenseits der Aare.\n342 Bauhofer-Keller, Anna, Kaufmanns Witwe.\nBauhofer, Maria, Lehrerin.\nBauhofer, Emil Heinrich, Kaufmann.\nRey-Ranucci, Jakob Friedrich, Professor.\nHunziker-Müller, Marie Anna, Schuhmachers Wwe., v. Unter-Kulm.\n343 † Dieselbe. Holzschopf.\n344 † Gemeinde Aarau. Holzmagazin.\n345 † Dieselbe. Werkhaus.\n1280 † Gemeinde Aarau. Spritzenhaus.\n1427 † Rämisperger-Hunkeler, Hermann, Spenglermeister. Magazin.\n346 Müller-Rothpletz, Arnold, Architekt und Baumeister.\n347 † Abgetragen.\n348 † Gemeinde Aarau. Badanstalt.\n1104 † Dieselbe. Schuppen für Kriegsfuhrwerke.\n1385 † Meier-Wydler, Hans, Postbureauchef, von Hilfikon.\n\nLaurenzenthorgasse.\n349 Hassler-Wanger, Emil, Negt. Kolonialwarenhandlung.\nImhof-Herzog, Emma, Dr. meds. Witwe, Part.\nSchlumpf, Eduard, Buchhalter, von St. Gallen.\n350 † Derselbe. Holzschopf.\n351 Hoch-Ernst, Gustav, Kaufmann, von Zollikon (Zürich).\nFirma: Gustav Hoch & Cie. Samen- und Spezerei handlung,\nSpezialität in landwirtschaftl. Gemüse- und Blumensämereien, Lager\nin Futtermitteln, Hopfen und Bräuerharz.\nLüthy-Gamper, Samuel, von Schöftland. Chef des Telegraphen-\nund Telephone-Bureau.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4664,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1751,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0222,
+    "mean_line_chars": 37.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:04:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p053",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p053.jpeg",
+      "bytes": 258588,
+      "sha256": "d725ff5ce392f3c9fdc281c5789ee79b8c2d8dac860fed061811b9d734561ff5",
+      "sha256_of": "original",
+      "working_copy": "1896_p053.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:04:19+00:00"
+  }
+}

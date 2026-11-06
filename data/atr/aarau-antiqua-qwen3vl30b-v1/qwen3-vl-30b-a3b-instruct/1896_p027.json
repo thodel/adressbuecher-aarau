@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p027",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p027.jpeg",
+    "bytes": 267191,
+    "sha256": "4f5044489675aa38d2220310478a88a90d78a9acd5855efc96d5ef142ebc5c2f",
+    "sha256_of": "original",
+    "working_copy": "1896_p027.jpeg"
+  },
+  "text": "Haus-\nNr.\n43 Hofer-Schaffner, Gottlieb, Kaufmann, Spezerei- und Ellenwarenhdlg.\nGröbli-Reindli, Jakob, Schneider, von Henau (St. Gallen).\n44 Hofer-Schaffner, Gottlieb, Kaufmann.\nReül-Saier, Philipp, Schneider, von Ob.-Höchstadt (Preussen).\nHofmann, Nanette, Weissnäherin, von Zell (Zürich).\n45 Wernli-Wildi, Maria, Witwe, von Thalheim.\nFehlmann-Brack, Kaspar, Bäckermeister.\nWernle-Bläuer, Andreas, Schuhmacher, von Thalheim.\nHirt geb. Wehrli, Elisabeth, Witwe, Spetterin, von ZezwyI.\nHirt, Elise, Damenschneiderin, von ZezwyI.\nAmsler-Spirgi, Heinrich Ludwig, Taglöhner, von Densbüren.\nBirri-Aklin, Wilhelm, Bremser, von Zeihen.\n46 Hässig-Lienhard, Hermann, Bäcker und Pintenwirt.\nHässig, Fritz, Sohn, Bäcker.\nEng, Albert, Tanzlehrer, von Arnstadt.\nGrimm-Suter, Anton Robert, von Gebenstorf, Bahnangestellter.\n47 * Hässig-Lienhard, Hermann, Bäcker und Pintenwirt.\nSchneeberger-Salvi, Jakob, von Vordemwald. Hut- u. Kleiderhdlg.\n(Magazin.)\nHauels-Marrer, Jos., Maurer, von Strengen (Tirol).\nMeier-Bertschi, Jakob, Schlosser, von Hausen.\nBertschi-Wächter, Maria, Wäschcrin, von Dürrenäsch.\n48 Seiler-Hanhart, Andreas, Bäckermeister.\n49 * ⚭ Gamper & Cie. (Anteilhaber: Müller-Haberstich, Fr., Gamper-\nZürcher, Hermann und Gamper-Baumann, Emil). Lager in Herren- und\nDamen-Kleiderstoffen, Herren- und Damen-Konfektion, Anfertigung von Herrenkleidern\nnach Mass.\n\nZollrain.\n50 * ⚭ Gamper & Cie. Magazin.\n51 Frey-Rohner, Robert, Bäcker und Pintenwirt, von Zurzach.\nRohner geb. Ehrsam, Elise, Arzts Witwe, Part.\nKeller, Lisette, Privat., von Zurzach.\nKeller, Henriette, Weissnäherin, von Zurzach.\nRütti, Hans, Postangestellter, von Schönenwerd.\n52 Vonarx, Karolina, Pintenwirtin, von Olten.\nHelm-Vonarx, Elise, Witwe, von Oerlikon (Zürich).\nHelm, Fanny, Modistin,\nBurger, Johann, Gerichtsschreiber, \" von Freienwyl.\n53 Nüsperli-Nussbaum, Friedrich, Sattler.\nNüsperli, Karl, Postcommis.\nNüsperli, Friedrich, Postcommis.\nFiliale: von J. Zuberbühler, Zurzach, Lingerie- und Broderiegeschäft.\nKeller, Henriette, von Zurzach, Geschäftsführerin.\nBuchmann-Spicher, Adele, Damenschneiderin, von Veltheim.\n54 Heller-Erb, Heinrich, Rechtsagent, Inkassogeschäft.\nHeller, Oskar, Sohn, Notar.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5715,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2171,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:01:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p027",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p027.jpeg",
+      "bytes": 267191,
+      "sha256": "4f5044489675aa38d2220310478a88a90d78a9acd5855efc96d5ef142ebc5c2f",
+      "sha256_of": "original",
+      "working_copy": "1896_p027.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:01:54+00:00"
+  }
+}

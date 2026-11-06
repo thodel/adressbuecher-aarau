@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p193",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p193.jpeg",
+    "bytes": 245630,
+    "sha256": "a6f786082f3f6a3d9e3f81220fed8c0d0d5ff48ba9b150398e7d747c01ec6a52",
+    "sha256_of": "original",
+    "working_copy": "1896_p193.jpeg"
+  },
+  "text": "Geschäfts- und Gewerbetreibende. 155\nUnterrichtsanstalt d. Gewerbemuseums, Eidgen. Nationalkalender für das\ndes aarg. Gewerbeverbandes, d. aarg. Schweizervolk. 72. Jahrgang. Ge-\nHandwerkerschulen, d. aarg. Kunst- gründet 1825.\nvereins. 1. Jahrgang.\nMitteilungen d. aarg. naturforschen- Fernschau, Jahrbuch d. Mittelschweiz.-\nden Gesellschaft. Organ d. Vereins. Geographisch - Kommerziellen Gesell-\n7. Jahrgang. Red. Dr. F. Mühlberg. sellschaft. Gegründet 1886. Auf-\nlage 1000. Redaktor: Dr. Hans\nLehmann.\nMitteilungen der Kommission des Kleine Mitteilungen, 4 mal jährlich.\nschweiz. Lehrervereins über- Verkehrsorgan der Mittelschweiz.-\nJugendschriften. Org. d. Kommis- Geogr. - Kommerziellen Gesellschaft;\nsion. 20. Jahrg. wird an die Mitglieder gratis abge-\ngeben.\nSchweizerische Bienenzeitung. Or- Schweizer. landwirtschaftl. Zeit-\ngan der schweiz. Vereine für Bienen- schrift. 1 mal wöchentlich. Preis\nzucht. 1 mal monatlich. 31. Jahrg. Fr. 4 für Aarau, franko für aus-\nwärts Fr. 7. 50. Auflage 12,000.\nDruck und Verlag von Emil Wirz, * 24. Jahrgang.\nOberthor 139.\nDer Tierfreund, Organ der deutsch- Schweizer. Schreibkalender, in 10\nschweizer. Tierschutzvereine. 6 mal verschiedenen Ausgaben. Gegr. 1849.\njährlich. Auflage 3000. Preis für Wirz's Schreibkalender für schweiz.\nMitglieder Fr. —. 50, für Nichtmit- Landwirte. Gegründet 1895. Auf-\nglieder Fr. 1. lage 3500.\nMilchgasse in Aarau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4264,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1394,
+    "lines": 27,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0022,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:18:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p193",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p193.jpeg",
+      "bytes": 245630,
+      "sha256": "a6f786082f3f6a3d9e3f81220fed8c0d0d5ff48ba9b150398e7d747c01ec6a52",
+      "sha256_of": "original",
+      "working_copy": "1896_p193.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:18:57+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p081",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p081.jpeg",
+    "bytes": 273984,
+    "sha256": "71863ad17a3638a8ef8e9af6fdf47f587408090c07cc8cc54ef90ccee23a5789",
+    "sha256_of": "original",
+    "working_copy": "1896_p081.jpeg"
+  },
+  "text": "Haus-\nNr.\nVerzeichnis der Gebäude und ihrer Bewohner.\n59\nVor dem Haldenthor.\n755 † Gebr. Ryniker, Bierbrauer. Chem. Laboratorium (Holzessigfabrik.)\n756 † Dieselben. Holzmagazin.\n757 † Dieselben. Scheune.\n758 Merz-Ruh, Margareta, Witwe, Part., von Leimbach.\nFecht-Ruh, Julius. Weinhandlung.\nSennhauser-Gossewisch, Anna, Modistin, v. Herrliberg (Zürich).\nSennhauser, Rosa und Amalia, Glätterinnen, von Herrliberg (Zürich).\n759 † Hauri-Graber, Rudolf, Fuhrmann. Scheune.\n760 Abgetragen; an dessen Platz\n1299 * Schatzmann-Häring, Jakob, Saalbauabwart, von Windisch.\nSchatzmann-Häring, Elisabeth, Leinen- und Wollwascherei, von Windisch.\nFenner-Hossig, Johann, Güterexpedient, von Küsnach (Zürich).\nFenner-Hossig, Agatha, Korsetschneiderin, von Küsnach (Zürich).\nGloor-Dietiker, Jakob, Schreiner, von Alliswyl.\nEggmann-Gloor, Elise, Fabrikarb., von Uttweil (Thurgau).\n1311 † Derselbe. Schopf.\n761 † Hassler-Ernst, August, Färber. Magazin.\n762 Häusler-Schmid, Angelus, Malermeister, von Schwaderloch.\nHäusler, Emil, Sohn, Maler, von Schwaderloch.\nHäusler, Karl, Sohn, Schriftsetzer, von Schwaderloch.\nHäusler, Julie, Glätterin, von Schwaderloch.\nSchmid-Jakober, Hermann, Polizeidienere, von Zuzgen.\n763 † Gamper-Wildi, Adolf, Metzger. Scheune.\n764 † Hassler-Ernst, August, Färber. Farbgebäude.\n765 † Wildi-Matt, Jakob, Tapezierer, von Schafisheim. Gartenhaus.\n766 Camisasca, Franz, Kaufmann.\nLeu-Zimmermann, Jakob, Kanzlist, von Birrenlauf.\nFehlmann-Hinden, Margarita, Näherin von Remigen.\nHässig-Matter, Gottlieb, Postcommis.\n767 Hemmeler-Fecht, Gottlieb, Werkmeister.\nBallmer-Egloff, Karl, Bankangestellter, von Lausen (Baselland).\nBachmann, Marie, Fabrikarbeiterin, von Bottenwyl.\nArmbruster, Joseph, Schneider, von Einbach (Baden).\n768 * Derselbe. Wohngebäude mit Werkstätte.\nRuch-Huggenberger, Rudolf, Schreiner, v. Trachselwald (Bern).\n769 * Frauen-Comité. Präsidentin Frau Sauerländer-Benz. Kleinkinderschule.\nZeller, Lina, Lehrerin, von Oberstammheim (Zürich).\nFrei, Maria, Spetterin, von Densbüren.\n770 * Wolfsgruber-Küenze, Gottfried, Photograph, v. Koblenz (Preussen).\nMüller, Otto, Buchhalter der Kreditanstalt.\nMüller, Albertine, Haushälterin, von Möttingen (Württemberg).\nHunziker-Wieland, Elise, Part., von Oberkulm.\nHunziker, Elise, Malerin, von Oberkulm.\n771 † Derselbe. Photographisches Atelier.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6724,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2318,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:07:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p081",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p081.jpeg",
+      "bytes": 273984,
+      "sha256": "71863ad17a3638a8ef8e9af6fdf47f587408090c07cc8cc54ef90ccee23a5789",
+      "sha256_of": "original",
+      "working_copy": "1896_p081.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:00+00:00"
+  }
+}

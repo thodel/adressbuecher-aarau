@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p040.jpeg",
+    "bytes": 266588,
+    "sha256": "1d60a7b87ab2ca12fd96fc02c00df67e29aa552421876280aadcb8d9fd187b1f",
+    "sha256_of": "original",
+    "working_copy": "1899_p040.jpeg"
+  },
+  "text": "32\nHaus-\nNr.\nschaftlichen Gemüse- und Blumensämereien, Lager in\nFuttermitteln, Hopfen und Brauerharz.\n351 Lüthy-Gamper, Samuel, von Schöftland. Chef des Telegraphen-\nund Telefon-Bureau.\nGraben.\n352 * Dreyfuss-Götschel, Adolf, Kaufmann, von Endingen, in Basel,\n— Guggenheim, Emil, Kaufmann, von Endingen. Manu-\nfakturwarenhandlung.\nSchenker-Gaisser, Adolf, Fachlehrer am Gewerbemuseum,\nvon Däniken (Solothurn).\n\nLaurenzenvorstadt.\n1340 Aktiengesellschaft der aargauischen Kreditanstalt. ☞\nPfau-Bleuler, Joh. Jakob, Direktor, von Schaffhausen.\n— Joh. Jak., Bankangestellter, von Schaffhausen.\n353 Vogt, Adolf, Zahnarzt ☞, v. Bürglen (Thurg.). (Schloßgarten.)\nBaumann-Wacker, Susanna, Part., von Bürglen (Thurgau).\nMüller-Haberstich, Friedrich, Kaufmann. ☞\n354 † Derselbe. Remise.\n355 † Derselbe. Waschhaus.\n1403 Schmuziger-Lackerbauer, Arnold, Ingenieur.\n356 Frey-Hagnauer, Konrad, Dr. med., prakt. Arzt. ☞\n357 † Derselbe. Remise.\n358 † Derselbe. Waschhaus.\n359 † Derselbe. Sommerhaus.\n360 * Markwalder-Gamper, Traugott, Oberst, Waffenchef der Ka-\nvallerie in Bern.\nKurz-Korkhaus, Erwin, Fürsprach, Advokatur- u. Notariats-\nbureau.\nHeuberger-Weigand, Jakob, Fürsprech, Oberrichter, v. Bötzen.\nSenn-Brand, Isidor, Lehrer, von Kirchdorf.\n361 * Derselbe.\nFischer-Widmer, Marie, Witwe, Part.\n362 * Bolliger-Huggenberger, Jakob, Dienstmann, von Kirchrued.\nDerselbe.\nPfleger, Hermann, Kondukteur S. C. B.\nImhof, Louise, Pfarrers, Part.\n363 * Derselbe.\nWernli-Reinhard, Kaspar, Weichenwärter, von Thalheim.\nRoth-Weber, Sophie, Nähmaschinenhdlg., von Ob.-Erlinsbach\n(Aargau).\n364 * Wydler-Frey, Med. Drs. Erbschaft.\nZimmerli-Huber, Gottlieb, Kreiskommandant, v. Zofingen.\nHunziker-Wydler, Pauline, Part.\nWestfeld-Spitzli, Ida, Wwe., v. Unterschüpf (Großh. Baden).\n365 u. 366 † Derselbe. Scheune.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5500,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1796,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:26:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p040.jpeg",
+      "bytes": 266588,
+      "sha256": "1d60a7b87ab2ca12fd96fc02c00df67e29aa552421876280aadcb8d9fd187b1f",
+      "sha256_of": "original",
+      "working_copy": "1899_p040.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:26:36+00:00"
+  }
+}

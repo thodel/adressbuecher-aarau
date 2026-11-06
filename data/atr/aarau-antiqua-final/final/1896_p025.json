@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p025",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p025.jpeg",
+    "bytes": 265559,
+    "sha256": "9591bfa227943e177bdea46ce50a597aa45e060f5ee1e20af76dc9cb456aa4cd",
+    "sha256_of": "original",
+    "working_copy": "1896_p025.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.                                                            8\nHaus-\nNr.\nRathausgasse.\n16 Lindt, Otto, Dr. phil., Apotheker, von Bern.\n17 Faller-Unwin, Friedrich, Kaufmann, von Bräunlingen (Großh. Baden).\n  Eisenwaarenhandlung.\n18 Simmen-Schertenleib, Emil, Bäcker, von Schinznach, Pintenwirthschaft.\n  Marti-Keller, Oskar, Commis, von Wengi (Bern).\n  Heindl-Plüss, Mathilde, Damenschneiderin, von Sachsenried (Bayern).\n19 Durr, Geschwister, Heinrich und Johanna.\n  Durr, Heinrich, Pfarrer, Privat.\n  Durr, Karl August, Sohn, Part.\n  Durr, Johanna, Part.\n  Meisel-Leutwyler, Xaver, Forstverwalter.\n  Meisel-Leutwyler, Verena, Weisswaarenhandlung.\n20 * Lauber-Adam, Joseph, Professor in Biel.\n  -> Förderer-Hinden, Anna, Witwe.\n  Förderer, Geschwister, Anna, Elise und Pauline, Tapiserie- und\n  Broderiegeschäft.\n  Kress-Andersen, Karl, Architect, von Wigoltingen (Thurgau).\n21 Hemmeler-Stahl, Jakob, Uhrenmacher, Quincaillerie- und Kinder-\n  spielwaarenhandlung.\n  Stahl-Schoop, Karolina, Part., von Dozwil (Thurgau).\n  Schneider-Obermayer, Karl, Reisender, von Amsoldingen (Bern).\n22 Erdin-Obrecht, Albin, Kaufmann, von Gansingen, Nachfolger von\n  Witwe Jean Kiefer & Cie., Mercerie-, Quincaillerie-, Lingerie-, Passe-\n  menterie- und Bonneterie-Waarenhandlung.\n  Birmann-Probst, Maria, Witwe, von Basel. Weinhandlung.\n  Rüetschi-Reinert, Karl, Coiffurgeschäft.\n  Lauber, Joseph Anton, Postcommis, von Oeschen.\n  Waibel, Jos., Buchhandlungsg., von Singen u. Freiburg i. Br.\n23 -> Wydler, Konrad, Apotheker.\n  Frey-Kieser, Joseph, Notar, Stellvertreter des Gemeindeschreibers und\n  Civilstandsbeamter.\n  Hemmeler-Stahl, Jakob, Uhrenmacher. Uhrenhandlung.\n24 * Hemmeler-Stahl, Jakob, Uhrenmacher.\n  Limmacher-Niggli, Nikl., Schuhmacherstr., von Schüpfheim (Luzern).\n  Ganser, Johann, Schneider, von Landshut (Bayern).\n25 Läubli-Bürgi, Anna, Witwe, von Remigen. Pintenwirthschaft.\n  Bohnenblust, Hermann, Reisender, von Aarburg.\n  Huter-Basler, Joseph, Maurerpolier, von St. Jakob (Tirol).\n26 Stephani-Winkler, Margaritha, Kaufmanns Witwe, Colonialwaaren-\n  Tabak- und Cigarrenhandlung.\n  Billeter-Apel, Moritz, Faktor, von Hainichen (Sachsen).\n  Billeter, Anna, Damenschneiderin, von Hainichen (Sachsen).\n  -> Zimmerli, Paul, Elektrotechniker.\n  Hess, Margaritha, Postaspirantin, von Bern.\n27 + Stephani-Winkler, Margaritha, Kaufmanns Witwe. Magazin.\n28 + Dieselbe. Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17974,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2417,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:29:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p025",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p025.jpeg",
+      "bytes": 265559,
+      "sha256": "9591bfa227943e177bdea46ce50a597aa45e060f5ee1e20af76dc9cb456aa4cd",
+      "sha256_of": "original",
+      "working_copy": "1896_p025.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:00+00:00"
+  }
+}

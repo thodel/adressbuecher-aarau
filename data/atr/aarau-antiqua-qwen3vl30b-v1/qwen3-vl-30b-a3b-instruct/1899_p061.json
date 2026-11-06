@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p061",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p061.jpeg",
+    "bytes": 269855,
+    "sha256": "13d5528ae7d13073d9ccd597016736e883623b1f30c26c30764cb3bd1f4c9c13",
+    "sha256_of": "original",
+    "working_copy": "1899_p061.jpeg"
+  },
+  "text": "Haus-\nNr.\n640 † Jakob Henz & Cie., Scheune und Remise.\n1285 † Derselbe. Wagenschopf und Remise.\n641 * Derselbe. Wohnhaus.\nBuser-Buser, Emil, Güterschaffner, von Unter-Erlinsbach\n(Solothurn).\nGraf-Hunkeler, Maria, Part., von BirrwyI.\n—, Helene, Ladentochter, von BirrwyI.\n642 Reinhardt-Müller, Bapt., Gärtner, von Balsthal (Soloth.).\nLüthi-Kiburz, Fritz, Sattler, von Schöftland.\nWeigel, Heinrich, Schneider, von Kolberg (Preußen).\n643 Umiker-Marti, Maria, Witwe, Part., von Thalheim.\nNussbaum, Anna Johanna, Gemüschändlerin, von BirrwyI.\nHunziker-Frei, Hermann, Knecht, von Kirchleerau.\n644 Herzig-Hauri, Friedr., Schneidermeister, v. Wynau (Bern).\n— -Camisasca, Karl, Sohn, Schneidermeister, von Wynau\n(Bern). (Sektions-Chef Aarau.)\n645 Schmid-Wolf, Peter, Sekretär, Kassier d. Sparkasse Aarau\nund Umgebung.\nGysi-Frei, Friedrich, Schlossermeister (Werkstätte).\nHerzog-Rauber, Gottlieb, Ingenieur, von Brugg.\nSchmuziger, Luise, Damenschneiderin.\n646 * Henz-Gautschi, Emil, Eisenhandlung.\nBolliger-Manger, Gustav, Kaufmann. Hemden-, Schürzen-\nund Knabenkleider-Anfertigungsgeschäft.\nGautschi-Siebenmann, Samuel, Kantonsingenieur.\n647 Lüscher, Geschwister, Elise und Luise.\n—, Luise, Part.\n—, Elise, Glätterin.\nNadler-Häuptli, Anna, Witwe, v. Biberstein. Spezereihdlg.\n\nBahnhofstrasse.\n648 Fehlmann-Blattner, Heinrich, Aufseher.\n— — Anna. Mercerie- und Lingeriegeschäft.\nSiebenmann, Luise, Part.\n649 * Hofer-Schaffner, Gottlieb, Negt.\nBertschi-Zehnder, Adolf, Wagner, von Dürrenäsch.\nSchaffner, Friedrich, Wagnergchilfe.\n650 † Scherz-Mollet, Karl Niklaus, von Köniz (Bern). Wirt\nz. Löwen. (Scheune.)\n651 Custer-Roth, Emil, Fabrikant (Chemiker), v. Rheineck\n(St. Gallen).\nE. Custer & Cie., Firma. Fabrikation von Mineral-\nwasser und Kellerei-Artikeln.\nCuster, Fanny, Lehrerin, von Rheineck (St. Gallen).\nHagnauer, Hedwig, Lehrerin.\n652 u. 653 † Derselbe. Fabrikgebäude.\nMerz & Suter, Zuckerwarenfabrik.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4929,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1899,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:28:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p061",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p061.jpeg",
+      "bytes": 269855,
+      "sha256": "13d5528ae7d13073d9ccd597016736e883623b1f30c26c30764cb3bd1f4c9c13",
+      "sha256_of": "original",
+      "working_copy": "1899_p061.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:28:26+00:00"
+  }
+}

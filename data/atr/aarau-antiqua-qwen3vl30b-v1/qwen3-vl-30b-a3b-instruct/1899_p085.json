@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p085",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p085.jpeg",
+    "bytes": 271522,
+    "sha256": "3766d2045ec754012e70d8dc427bb23ff90cc434bdae470299e4bcec936e834e",
+    "sha256_of": "original",
+    "working_copy": "1899_p085.jpeg"
+  },
+  "text": "Haus-\nNr.\n988 Abgetragen, an dessen Platz\n1255 Hagnauer-Zimmermann, Albert, Lederfabrikant. ↕\n989 —-Wildberger, Barbara, Witwe, Part.\n—, Emma Part.\n—, Nanette, Part.\n—, Mathilde, Part.\nFrey-Kieser, Joseph, Notar, Civilstandsbeamter und Stell-\nvertreter des Gemeindeschreibers.\n990 Rothpletz-Waldkirch, Pontentia, Malermeisters Witwe.\nVerkrüzen-Schäfer, Karoline Elisabeth, Witwe, Part.,\nvon Stuttgart.\n991 * Derselbe. Holzhaus.\n1381 † ” Waschhaus.\n992 Siebenmann-Steiner, Gottlieb, Kaufmann, (Camionneur).\nSchürch, Adolf, Fabrikant von Bürren zum Hof (Bern).\n993 Wehrli-Peier, Rudolf, von Küttingen, Geschäftsführer der\nAllg. Aarg. Frsparniskasse.\n994 † Derselbe. Gartenhaus.\n\nZschokkestrasse.\n995 Zschokke-Sauerländer, Guido, Buchhändler. Meteorolo-\ngische Station.\nZschokke, Ernst, Dr. phil., Bezirksschullehrer,\nDerselbe. Bienenhaus.\n1198 † 996 Wydler-Fischer, Heinrich, Bezirkslehrer von Affoltern\na./A. (Zürich).\nHerzog-Fischer, Adolf, Professor an der Kantonsschule, von\nWegenstetten.\n997 † Derselbe. Holzhaus.\n\nGartenstrasse.\n998 Gysi-Büchle, Emil. Part.\nSpringer-Hopf, Hermann, Kaufmann, von Isny (Württemb.)\nMerz-Diebold, Walter, Dr. jur., Justizsekretär, v. Menziken.\n1346 † Derselbe. Holzremise.\n999 Riniker, Hans, Regierungsrat von Habsburg. Erbschaft.\nGysi-Riniker, Hans, Reißzeugfabrikant.\nImhof-Munzinger, Emil, Part.\n1000 † Dieselbe. Wasch- und Holzhaus.\n1166 Siebenmann-Siebenmann, Gottlieb, Part. (Zum Rosenfels).\n1167 † Derselbe. Waschhaus.\n1129 * Bally-Prior, Eduard, Fabrikant, ↕ in Schönenwerd.\nPrior-Dettmer, Helena, ↕ Part., v. Dissen (Hannover).\nv. Brockdorff, Emilie, Comtesse, von Kiel (Holstein).\nErny-Ammann, Emil, Direktor d. Aarg. Versicherungsamtes.\n1103 Hartmann-Götte, Rudolf, Kaufmann. ↕\n1122 † Derselbe Waschhaus.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4698,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1760,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:30:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p085",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p085.jpeg",
+      "bytes": 271522,
+      "sha256": "3766d2045ec754012e70d8dc427bb23ff90cc434bdae470299e4bcec936e834e",
+      "sha256_of": "original",
+      "working_copy": "1899_p085.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:30:38+00:00"
+  }
+}

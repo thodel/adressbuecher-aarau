@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p087",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p087.jpeg",
+    "bytes": 251328,
+    "sha256": "4c3085ad4231d5ec0290c1cb474ae8a13c5da692ba2943c43370c7630bb9e70a",
+    "sha256_of": "original",
+    "working_copy": "1896_p087.jpeg"
+  },
+  "text": "Haus-\nNr.\n851 * Gemeinde Aarau. Pächterhaus.\nBolliger-Thut, Rudolf, Pächter, von Egliswyl. Sommerwirtschaft.\n\nRoggenhausen.\n\n852 † Staat Aargau. Pulverhaus.\n\nOberholz.\n\n853 † Walther-Schatzmann, Gottlieb, Oekonom. Waschhaus.\n854 † Derselbe. Scheune und Remise.\n855 † \" Scheune.\n856 \" Wohnhaus.\n1464 † Derselbe. Heuschuppen\n\nWalthersburg.\n\n857 a Strebel-Rüetschi, Eduard, Schreiner, von Büblikon.\nTreier-Frei, Johann, Schreiner, von Oberhof.\nGysi-Keller, Johann, Färber, von Suhr.\n857 b † Derselbe. Schopfanbau.\n858 Haberstich-Stöckli, Jakob, Zinsrodelerwalter, von Oberentfelden\nHaberstich, Frieda, Lehrerin, von Oberentfelden.\n859 * Schweiz. Centralbahn. Bahnwärterhäuschen.\n860 Fischer-Wilhelm, Johann, Bahnwärter, von Oftringen.\nSchweizer-Siebenmann, Sophie, Witwe, Part., von Dätwyl.\nNadig, Clara, Part., von Davos (Graubünden).\nFlühmann, Elisabeth, Seminarlehrerin, von Saxeten (Bern).\nMeyer-Stählin, Joh. Jak., Part., von Zürich.\n861 † Dieselbe. Holzhaus.\n862 * Schweizer-Siebenmann, Sophie, Witwe, Part., von Dätwyl.\nSchweizer-Gubler, Nanette, Staatsarchivars Witwe, von Dätwyl.\nWydler-Gubler, Paulina, Witwe, Part.\nDavid-Hunziker, Julie, Witwe, Part., von Basel.\n863 Thut-Gidemann, Hermann, Ziegler, v. Oberentfelden, mechan.\nZiegelei.\n864 † Derselbe. Ziegelhütte.\n865 † Gemeinde Aarau. Holzmagazin.\n866 Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\n867 u. 868 † Derselbe. Schopf.\n869 Fahrländer-Johannes, Eugen, Ingenieur.\nWirth-Geiger, Joh. Rud., Arzt, Part., von Speicher (Appenzell).\nSiebenmann-Hodel, Fritz, Commis.\nHodel, Josepha, Part., von Rheinfelden.\n870 † Derselbe. Holzhaus.\n\nRain.\n\n5",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5145,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1606,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:07:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p087",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p087.jpeg",
+      "bytes": 251328,
+      "sha256": "4c3085ad4231d5ec0290c1cb474ae8a13c5da692ba2943c43370c7630bb9e70a",
+      "sha256_of": "original",
+      "working_copy": "1896_p087.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:35+00:00"
+  }
+}

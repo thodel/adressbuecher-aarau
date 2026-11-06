@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p125",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p125.jpeg",
+    "bytes": 278157,
+    "sha256": "cf706d4ef957d0f484afcc39f23957e9dde6aaf1b371125cd5ac322ac9dd5c9b",
+    "sha256_of": "original",
+    "working_copy": "1899_p125.jpeg"
+  },
+  "text": "21\nHolliger, Gottfried, Taglöhner, Halden 246.\n  — Gottlieb, Bahnbeamter, Rain 874.\nHolzach, Dietrich, Part., Graben 216.\n  — Dietrich, Bierbrauer, [tel] Bahnhofstrasse 563.\n  — Fritz, Metzger und Wirt, [tel] Ziegelsrain 700.\nHolzingen, Bertha, Postcommise, obere Vorstadt 948.\n  — Mina, Klavierlehrerin, obere Vorstadt 948.\n  — Pauline, Part., obere Vorstadt 948.\nHolzreuter geb. Suter, Katharina, Wwe., Taglöhnerin, Milchgasse 78.\nHommel, August, Mechaniker, Laurenzenvorstadt 410.\nHorlacher, Samuel, Mechaniker, Halden 249.\nHostettler, Nikolaus, Schuhmacher, Halden 266.\nHübscher geb. Vogt, Luise, Taglöhnerin, Halden 285.\nHürbin, Ferdinand, Wirt z. Kantine, [tel] Laurenzenvorstadt 590.\nHürzeler, Adolf, Monteur, Hammer 185 a.\n  — Emma, Damenschneiderin, Hammer 185 a.\n  — Jb., Hadernhändler, Hammer 185 a.\nHubacher, Jakob, Portier, Kasinostrasse 1130.\nHubeli geb. Stünz, Verena, Taglöhnerin, Halden 257.\nHuber, Albert, Kassier am Bahnhof, Graben 207.\n  — Anna, Privatin, vor dem Haldenthor 1092.\n  — Bankratius, Knecht, Kirchhof 164.\n  — -Müller, Bertha, Glätterin, Hammer 190.\n  — Fritz, Spengler, obere Vorstadt 941.\n  — Heinrich, Drechsler, Ziegelsrain 753.\n  — Jakob, Schneider, Halden 251.\n  — Johann, Schneider, Hammer 190.\n  — Korina, Lehrerin, Bahnhofstrasse 1160.\n  — Peter, Gießer, Rain 822.\n  — Rudolf, Telephonarbeiter, Schachen 731.\nHug, Samuel, Bäckermeister und Wirt, [tel] vordere Vorstadt 673.\nHugi, Maria, Coiffeuse, Graben 1161.\nHumm, Friedrich, Schneider, Schachen 735.\nHunn geb. Fehlmann, Verena, Taglöhnerin, Halden 264.\n  — Friedrich, Schneider, Halden 273.\nHungerbühler, Hugo, Oberst, vordere Vorstadt 890.\nHunziker, Alfred, Lagerhausarbeiter, obere Vorstadt 921.\n  — Anna, Damenschneiderin, Kirchgasse 14.\n  — & Cie., Möbelfabrik, Hammer 188.\n  — Edwin, Commis, Ziegelsrain 747.\n  — Elise, Malerin, vor dem Haldenthor 770.\n  — Friedrich, Maschinemeister, Laurenzenthorstrasse 117.\n  — Friedrich, Schreiner, Kirchgasse 14.\n  — Gottlieb, Schneider, Kleiderreiniger, Halden 240.\n  — Guido, Rentier, [tel] Laurenzenvorstadt 374.\n  — geb. Brunner, Maria, Witwe, Kirchgasse 11.\n  — Hrch., Camionneur, Milchstrasse 152.\n  — Hermann, Sohn, Kaufmann, Gartenstrasse 1448.\n  — Hermann, Part., [tel] Feerstrasse 1337.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 69756,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2235,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.52,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:28:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p125",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p125.jpeg",
+      "bytes": 278157,
+      "sha256": "cf706d4ef957d0f484afcc39f23957e9dde6aaf1b371125cd5ac322ac9dd5c9b",
+      "sha256_of": "original",
+      "working_copy": "1899_p125.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:28:50+00:00"
+  }
+}

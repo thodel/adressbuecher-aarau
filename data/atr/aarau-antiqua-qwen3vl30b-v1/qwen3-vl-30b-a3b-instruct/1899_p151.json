@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p151",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p151.jpeg",
+    "bytes": 285396,
+    "sha256": "4298a53336b817f22e5f1c37a3983dff33f814a65de663e184c782122f30854d",
+    "sha256_of": "original",
+    "working_copy": "1899_p151.jpeg"
+  },
+  "text": "Wietlisbach, Josef Burkardt, Postcommis, Schachen 1259.\nWildi, Anna, Damenschneiderin, Halden 264.\n— Emil, Schreiner, hinter dem Platz 210.\n— Friedr., Postbeamter, Pelzgasse 129.\n— Gottfr., Heizer, Golattenmattgasse 235.\n— Jakob, Tapezierer, Halden 264.\n— geb. Leuthard, Verena, Witwe, Bahnhofstraße 1022 b.\n— Rudolf, Generalagentur der Basler Lebensversicherungsgesell-\nschaft, vordere Vorstadt 889.\n— Samuel, Schreiner, Ziegelrain 713.\n— geb. Wespí, Adele, Witwe, Salzverkauf hintere Vorstadt 699.\nWildt, Ferdinand, Schuhmacher, Halden 271.\n— geb. Wolfensberger, Schneiderin, Halden 271.\nWilhelm, Gottlieb, Färber, Halden 248.\nWillimann, Anton, Schmiedgasse 619.\n— Fritz, Sohn, Lohnkutscher, Schmiedgasse 619.\n— geb. Wehrli, Marie, Witwe, Kronengasse 37.\nWindisch, Samuel, Generalagentur der schweiz. Rentenanstalt in\nZürich, Laurenzenvorstadt 412.\nWinteler, Jost, Dr. phil., Professor, Laurenzenvorstadt 548.\nWirth, Franz, Lebens- und Unfallversicherung. Auswanderung. Zollrain 89.\n— Jakob, Part., Zollrain 89.\n— Joh. Rud., Arzt, Part., Bahnhofstraße 1360.\nWirz, Adolf, Postkondukteur, in der Gais 1514.\n— Adolf, Commis, Ziegelrain 702.\n— geb. Christen, Karoline, Witwe, Schreibmaterialienhandlung und\nLeihbibliothek, Oberthor 138.\n— Emil, (vormals J. J. Christen), Sortiments- und Verlagsbuch-\nhandlung, Buchdruckerei und Buchbinderei. Oberthor 139,\nWohnung Bachstraße 1174.\n— Franz, Wagenvisiteur, Scheibenschachen 315.\n— Wilhelmine, Maschinenstrickerin, in der Gais 1514.\nWismer, Heinrich, Chef der Güterexpedition, Bahnhofstraße 1160.\nWittmer, Julius, Lithograph, Rain 323.\nWolf, Karl, Architekt, Adjunkt des Hochbaumeisters, Bachstr. 1045.\nWolffinger, Max, Prof., Bachstraße 1137.\nWolfsgruber, Gottfried, Photograph, Bahnhofstraße 1160.\nWüest, Konrad, Bezirkslehrer, Rektor der Knabenschulen, in der\nGais 1423.\nWürger, Geschwister, Heinrich, Karl, Lina und Lisa. Zollrain 177.\nWürttemberger geb. Kaiser, Marie, Coiffeurs Witwe, Kronengasse 34.\nWüst, Jakob, Röhrenfabrikarbeiter, Scheibenschachen 316.\nWüthrich, Jakob, Zuckerbäcker, Kaffeewirtschaft Rathausgasse 20.\n— Jakob, Taglöhner, Halden 249.\n— Joh. Jakob, Arbeiter im Elektrizitätswerk, Rathausgasse 20.\n— Samuel, Negot. und Pintenwirt, Laurenzenthorgasse 117.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6511,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2224,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:37:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p151",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p151.jpeg",
+      "bytes": 285396,
+      "sha256": "4298a53336b817f22e5f1c37a3983dff33f814a65de663e184c782122f30854d",
+      "sha256_of": "original",
+      "working_copy": "1899_p151.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:37:36+00:00"
+  }
+}

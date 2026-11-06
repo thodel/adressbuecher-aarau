@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p062",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p062.jpeg",
+    "bytes": 271032,
+    "sha256": "ae3983615099b66d745bfafa04c322733f477ee78afeea45a3eb05de2c1a9443",
+    "sha256_of": "original",
+    "working_copy": "1896_p062.jpeg"
+  },
+  "text": "40\n                                Verzeichnis der Gebäude und ihrer Bewohner.\n      Haus-\n      Nr.\n                          Herzogstrasse.\n1439    Wehrli-Märk, Emil, Architekt, von Höngg (Zürich).\n1365    Kummler, Hermann, Kaufmann. (Zur Erika).\n        Kummler-Frey, Augusta, Witwe, Part.\n1366    Kern-von Arand, Heinrich, Fabrikant.\n1367    † Derselbe.  Wasch- und Holzhaus.\n        488    Bally-Schmitter, Adeline, Fabrikants Witwe.\n              Hildebrand-Voser, Julius, Gärtner, von Waldshut.\n        489 † Dieselbe.  Bad- und Waschhaus.\n\n                          Hinter dem Bahnhof.\n490 † Bally-Arndt, Eugen, Fabrikgebäude.  Fabrikation elastischer Gewebe.\n491 † Derselbe.  Kesselhaus.\n492 † \"  Kosthaus.\n493 † \"  Schreiner- und Schlosserwerkstätte.\n494 * Zschokke, O., Baugeschäft.\n       Eckert-Giger, Eduard, Zimmerpolier, von Großräuchern (Preußen).\n       Eckert, Walter, Sohn, Bauführer, von Großräuchern (Preußen).\n       Jäggi-Weber, Hermann, Geschäftsführer (Zschokke, O., Baugeschäft).\n       Schmid-Baumann, Katharina, Witwe, von Watterdingen (Baden).\n       Schmid, Frida, Weißnäherin, von Watterdingen (Baden).\n       Schmid, Anna,  \"  \"  \"\n       Schmid, Sophie,  \"  \"  \"\n       Deubelbeiss-Schaffner, Samuel, Güterschaffner, von Holderbank.\n       Wernli-Hug, Johann, Magazinier, von Thalheim.\n       Wernli-Wernli, Elisabeth, Witwe, Part., von Thalheim.\n1072    Gautschi-Maculin, Rud., Speisewirtschaft z. Frohsinn, v. Reinach.\n       Haupt-Ginsberg, Hermann, Oberkellner, von Regensberg (Zürich).\n       Meierhofer-Lang, Rudolf, Güterschaffner, von Weiach (Zürich).\n495    Bouvard-Schulthess, Joh., Güterexpedient, von Remetschwil.\n496    Käser-Plüss, Rudolf, Postkondukteur.\n       Wildi, Karl, Part.\n       Baumann-Frey, Jakob, Schlosser, von Arbon (Thurgau).\n497    Brügger-Sommerhalder, Christian, Kontrolleur, von Churwalden\n       (Graubünden).\n       Bircher-Kyburz, Anna, Witwe, Part., von Küttingen.\n       Locher-Heimgartner, Jakob, Bremscr, von Remetschwil.\n       Lindegger-Kyburz, Gottfried, Güterexpedient, von Oberentfelden.\n498 † Würger, Heinrichs Erbschaft.  Eisengiesserei und Weichgußfabrik.\n499 † Dieselbe.  Bureau.\n500 † \"  Mechanische Sandmühle.\n1078    \"  Eisengiesserei.\n1293    † Billo-Bär, Julius, Fabrikant.  Holzhaus.\n1302    Rotter-Baumgartner, Johann, Schreinermeister, von Wermersdorf\n       (Oesterreich).\n       Belz-Ochsner, Johann, Wagenvisiteur, von Zihlschlacht (Thurgau).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 240521,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2437,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:23:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p062",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p062.jpeg",
+      "bytes": 271032,
+      "sha256": "ae3983615099b66d745bfafa04c322733f477ee78afeea45a3eb05de2c1a9443",
+      "sha256_of": "original",
+      "working_copy": "1896_p062.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:23:37+00:00"
+  }
+}

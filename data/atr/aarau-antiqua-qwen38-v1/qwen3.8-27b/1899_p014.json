@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p014",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p014.jpeg",
+    "bytes": 272384,
+    "sha256": "c1b089e2ff78f2788e205d4e885118207e257ef39428a1fc7d3e40df30ca0db9",
+    "sha256_of": "original",
+    "working_copy": "1899_p014.jpeg"
+  },
+  "text": "6\nHaus-\nNr.\n54 Müller-Schmocker, Friedrich, Coiffeur.\n  — — Verena, Modistin.\nSchmutz-Weber, Anna, von Eptingen (Baselland).\n  — Anna, Damenschneiderin, von Eptingen (Baselland).\nSchmocker, Gottlieb, Postangestellter, von Ringgenberg (Bern).\nMetzgergasse.\n55 Hemmeler, August, Kaufmann.\nSchöpflin geb. Hemmeler, Hedwig, Wwe., Part., von Kandern\n  (Großh. Baden).\nMarti, Hilda Flora, von Lyß (Bern). Quincaillerie- u. Kinder-\nspielwarenhandlung.\nForter geb. Märk, Maria, von Marbach (St. Gallen).\nMärk, Karl, Part.\n56 * Sieg rist-Fischer, Jakob, Metzger, von Meisterschwanden.\nLüscher, Jakob, Notar, von Muhen, Notariats-, Rechts- und\nInkassogeschäft (Bureau).\nBuser geb. Brütigam, Rosina, Witwe.\nBuser, Gottlieb, Sohn, Kaufmann.\nEichenberger, Christian, Witwer, Zehghausarbeiter, von Beinwyl.\nEichenberger, Ida und Elise, Weißnäherinnen, von Beinwyl.\nSieg rist-Mützenberg, Jakob, Commis, von Meisterschwanden.\n57 Buser-Wildi, Emil, Bäckermeister. [tel]\n58 Hemmeler, Emil, Kaufmann, Mercerie-, Garn- und Ellenwaren-\nhandlung.\nMeier geb. Boß, Sophie, Witwe, Part., von Paris.\n59 † Derselbe. Magazine.\n60 Strübin-Frey, August, von Basel, Speisewirtschaft zum Vis-à-vis.\nKoller-Kohler, Elisabeth, Spetterin, von Berikon.\n61 * Lüscher, Albert, Käser, von Muhen.\nHassler-Baumgartner, Franziska, Witwe, von Roggweil (Thurg.).\nPelzgasse.\n62 Bolli-Hunziker, Jakob, Bäckermeister, von Altdorf (Schafh.).\nBertschi-Lüscher, Louise, Damenschneiderin, von Dürrenäsch.\n63 Wassmer-Ott, Fidel, Schneidermeister.\n64 Widmer, Xaver, Hausknecht z. Ochsen, von Freienwyl.\nBaumann, Emma, Modistin, von Oberentfelden, Modegeschäft.\n65 Bell-Marti, Lina, Witwe. Spezerereihandlung.\nBuchser-Bachmann, Samuel, Schmid, von Schöffland.\n  — — Maria, Hebamme, von Schöffland.\nAdeegg-Schaub, Ulrich, Mechaniker, von Wattwyl.\n66 Hess-Zürcher, Wilhelm, Pintenwirt.\nSchäublin, Maria, Damenschneiderin, von Bannwyl (Baselland).\nBaumann, Emma, Modistin, von Ob.-Entfelden.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14202,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1934,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.89,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:34:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p014",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p014.jpeg",
+      "bytes": 272384,
+      "sha256": "c1b089e2ff78f2788e205d4e885118207e257ef39428a1fc7d3e40df30ca0db9",
+      "sha256_of": "original",
+      "working_copy": "1899_p014.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:34:43+00:00"
+  }
+}

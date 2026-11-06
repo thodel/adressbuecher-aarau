@@ -41,6 +41,42 @@ B_FIELDS = ["building_id", "volume", "page", "line", "building_no", "building_no
 NUM_RE = re.compile(r"^\s*(?P<nos>\d+\s?[a-z]?(?:\s*(?:\.|,)?\s*(?:u\.|und|-|–)\s*\d+\s?[a-z]?)*)\s*\.?\s*(?P<mark>[*†+]|\(\*\))?\s*(?P<rest>.*)$")
 DITTO_RE = re.compile(r"^(Derselbe|Dieselbe|Dieselben|Dieselb\.|„|\"|''|Ders\.|Dies\.)\s*[.,]?\s*(?P<type>.*)$")
 STREET_RE = re.compile(r"^[A-ZÄÖÜ][^\d,]{2,60}[.:]?$")
+STREET_SUFFIX = re.compile(r"(strasse|straße|gasse|gässchen|gäßchen|gässli|garten|vorstadt|platz|weg|rain|halden|hof|graben|thor|tor|aare|bahnhof|quartier|telli|gais|hammer|schachen|weinberg|igelweid|adelbändli|binsenhof|goldern|roggenhausen|oberholz|waltersburg|wöschnau|gishügel|kirchhof|stadthof|scheibenschachen|zelgli|promenade|allee|matte|holz|feld|halde|bühl|berg)\.?:?$", re.I)
+
+
+AFTER_NUMBERING = "(nach der Nummerierung gebaut)"
+PAREN_STREET = re.compile(r"\((?P<st>((vor|hinter|jenseits|in|im|an|bei|Vor|Hinter|Jenseits|In|Im|An|Bei|v\.|h\.)\s*)?((dem|der|den|d\.)\s+)?((obere|vordere|hintere|neues|Obere|Vordere|Hintere|Neues)\s+)?[A-ZÄÖÜ][^()\d,]{2,40}?)\.?(,[^()]*)?\)?(?=\s|$|\))")
+
+
+def street_from_parens(text: str) -> str:
+    for m in PAREN_STREET.finditer(text or ""):
+        cand = m.group("st").strip().rstrip(".")
+        c2 = cand.replace("ß", "ss")
+        if is_street_heading(c2[:1].upper() + c2[1:]) or re.search(r"(str|g|bg|gässchen|gässli|vorst|garten)\.?$", c2):
+            return cand
+    return ""
+
+
+def known_streets() -> set[str]:
+    out = set()
+    p = Path("data/csv/05b_number_ranges.csv")
+    if p.exists():
+        with p.open(encoding="utf-8") as fh:
+            out |= {r["street"].lower() for r in csv.DictReader(fh) if r["street"]}
+    return out
+
+
+KNOWN_STREETS = known_streets()
+
+
+def is_street_heading(s: str) -> bool:
+    t = s.strip().rstrip(".:").strip()
+    if not t or "," in t or re.search(r"\d", t) or len(t.split()) > 5 or t[:1].islower():
+        return False
+    return t.lower() in KNOWN_STREETS or bool(STREET_SUFFIX.search(t))
+
+
+LOOKS_ENTRY = re.compile(r"^(\*\s*)?((Dr|Frau|Fräulein|Wwe|Witwe)\.?\s+)?[A-ZÄÖÜ][\w'.-]+(\s*-\s*[\w'.-]+)?(\s+(geb\.|&|u\.|und|von|de|à)\s+[\w'.-]+)*\s*,|^[A-ZÄÖÜ][\w-]+\s+(Gebr\.|&|u\.)")
 HEADER_RE = re.compile(r"^(Haus[-=]?|Nr\.|—\s*\d+\s*—|\d+)\s*$")
 TYPE_WORDS = ("Scheune", "Remise", "Waschhaus", "Holzhaus", "Holzschopf", "Schopf", "Magazin",
               "Fabrik", "Werkstätte", "Stall", "Gartenhaus", "Sommerhaus", "Eiskeller", "Keller",
@@ -63,13 +99,17 @@ def split_type(owner: str) -> tuple[str, str]:
 
 def parse_building_page(text: str, volume: str, page: int, street: str = "", prev_owner: dict | None = None):
     buildings, residents = [], []
-    cur = None
+    cur = prev_owner or None          # Bewohner am Seitenanfang gehören zum letzten Gebäude der Vorseite
     prev = prev_owner or {}
     for i, raw in enumerate(prenormalise(text).split("\n"), start=1):
         line = raw.rstrip()
         s = line.strip()
-        if not s or s == "[spalte 2]" or HEADER_RE.match(s):
+        if not s or s == "[spalte 2]" or HEADER_RE.match(s) or re.match(r"^(\d+\s+)?Verzeichniss? der Gebäude", s):
             continue
+        if re.match(r"^Nach der Num\w*ung gebaute Häuser", s):
+            street = AFTER_NUMBERING            # ab hier steht die Strasse in Klammern beim Gebäude
+            continue
+        s = re.sub(r"^Nr\.\s+(?=[A-ZÄÖÜ])", "", s)
         m = NUM_RE.match(s) if not line.startswith("  ") or re.match(r"^\s{0,8}\d", line) else None
         if m and re.match(r"^(Verzeichnis|Alphabetisches|Gebäude|Haus)", m.group("rest") or ""):
             continue                                   # Kolumnentitel mit Seitenzahl
@@ -106,8 +146,10 @@ def parse_building_page(text: str, volume: str, page: int, street: str = "", pre
             e = parse_entry(cur["owner_text"], "")
             cur["owner_surname"] = e["surname"]
             cur["owner_entry"] = json.dumps({k: e[k] for k in ("surname", "alliance_name", "forename", "occupation_raw", "origin_raw", "civil_status") if e.get(k)}, ensure_ascii=False)
-        elif cur is not None and (line.startswith("  ") or s.startswith("—")):
-            starts_entry = bool(re.match(r"^(—|\*?\s*[A-ZÄÖÜ][\w'.-]+(\s+(geb\.|&|u\.|und)\s+[\w'.-]+)?\s*,|[A-ZÄÖÜ][\w-]+\s+(Gebr\.|&))", s))
+        elif cur is not None and (line.startswith("  ") or s.startswith("—") or LOOKS_ENTRY.match(s) or s[:1].islower()
+                                  or not is_street_heading(s)):
+            # 1899 rückt Bewohner nicht ein: «Name, …» ohne Hausnummer ist ein Bewohner
+            starts_entry = bool(LOOKS_ENTRY.match(s) or s.startswith("—"))
             has_resident = bool(residents) and residents[-1]["building_id"] == cur["building_id"]
             if not starts_entry and not has_resident:
                 # Fortsetzung der Eigentümerzeile («… Quincaillerie-» / «waaren- und Uhrenhandlung.»)
@@ -130,11 +172,11 @@ def parse_building_page(text: str, volume: str, page: int, street: str = "", pre
                 continue
             e = parse_entry(s, cur["owner_surname"], has_address=False)
             e = {k: v for k, v in e.items() if k != "_addresses"}
-            e.update({"entry_id": f"{volume}-gebaeude-{page:03d}-{len(residents)+1:03d}", "volume": volume,
+            e.update({"entry_id": f"{volume}-gebaeude-{page:03d}-L{i:03d}", "volume": volume,
                       "page": str(page), "section": "gebaeude", "line_from": i, "line_to": i,
                       "building_id": cur["building_id"], "building_no": cur["building_no"], "street_raw": street})
             residents.append(e)
-        elif STREET_RE.match(s) and not s.startswith("—"):
+        elif is_street_heading(s) and not s.startswith("—"):
             street = s.rstrip(".:").strip()
         else:
             if cur is not None:
@@ -197,11 +239,33 @@ def main() -> None:
     all_b, all_r = [], []
     street, prev, last = "", None, (None, None)
     for vol, page, text in pages:
-        if not (vol == last[0] and page == last[1] + 1):
+        if vol != last[0]:                        # Strasse/Eigentümer innerhalb des Verzeichnisses mitführen (auch über Inserate-Lagen)
             street, prev = "", None            # Strasse/Eigentümer nur über direkte Folgeseiten mitführen
         b, r, street, prev = parse_building_page(text, vol, page, street, prev)
         all_b.extend(b); all_r.extend(r)
         last = (vol, page)
+    # «nach der Nummerierung gebaute Häuser»: Strasse aus der Klammer beim Eigentümer oder beim ersten Bewohner
+    res_by_b: dict[str, list[dict]] = {}
+    for r in all_r:
+        res_by_b.setdefault(r["building_id"], []).append(r)
+    fixed = 0
+    last_st = ""
+    for b in all_b:
+        if b["street_raw"] == AFTER_NUMBERING:
+            st = street_from_parens(b["owner_text"] + " " + b["building_type"]) or next((street_from_parens(r["text"]) for r in res_by_b.get(b["building_id"], []) if street_from_parens(r["text"])), "")
+            txt = b["owner_text"] + " " + b["building_type"]
+            how = "Strasse aus Klammer"
+            if not st and (re.search(r'(["„“]|\bid\b)\s*\.?\s*$', b["owner_text"]) or re.search(r'(^\s*(["„“]|id\b))|(\bid\.?\s*$)', b["building_type"]) or b["owner_same_as_prev"]):
+                st, how = last_st, "Strasse vom vorigen Gebäude (Ditto)"
+            b["street_raw"] = st
+            last_st = st or last_st
+            b["note"] = (b["note"] + " | " if b["note"] else "") + (f"nach der Nummerierung gebaut; {how}" if st else "nach der Nummerierung gebaut; Strasse fehlt")
+            fixed += 1 if st else 0
+            for r in res_by_b.get(b["building_id"], []):
+                r["street_raw"] = st
+    if any(b["note"].startswith("nach der Nummerierung") or "nach der Nummerierung" in b["note"] for b in all_b):
+        n_after = sum(1 for b in all_b if "nach der Nummerierung" in b["note"])
+        print(f"nach der Nummerierung gebaut: {n_after} Gebäude, Strasse aus Klammer: {fixed}")
     check_ranges(all_b)
     for path, rows, fields in ((args.out_buildings, all_b, B_FIELDS),
                                (args.out_residents, all_r, ["building_id", "building_no"] + FIELDS)):

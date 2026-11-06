@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p023",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p023.jpeg",
+    "bytes": 279009,
+    "sha256": "a4d6e836daaa6df7e510e16e921f2032500f0b2ad23ddb91c6601de311512d20",
+    "sha256_of": "original",
+    "working_copy": "1896_p023.jpeg"
+  },
+  "text": "Ansicht der alten Stadt von der Aare aus gesehen.\nNach einer Federzeichnung von Karl Rauber in Baden.\nVerzeichnis\nder\nGebäude der Stadt Aarau mit ihren Eigenthümern\nund Bewohnern.\nNeben jeder Nummer ist der Eigenthümer des betreffenden Hauses bemerkt; bewohnt er selbst dieses nicht,\nso ist ein * beigesetzt. Oekonomiegebäude sind mit † bezeichnet. Wo kein Heimatsort beigesetzt ist, sind\nes Bürger von Aarau.\nHaus-\nNr.\nRathausgasse.\n1 * Schmuziger-Koller, Daniel, Baumeister.\nSchmuziger, Marie, Schreibmaterialien- u. Kinderspielwarenhandl.\n(Vormals Firma Daniel Schmuziger-Fisch.)\nWassmer, Anna, Ladentochter, von Mellingen.\n2 [tel] Morath-Dilger, Johann, Kaufmann, Quincaillerie-, Glas-, Porzellan-\nwaren-, Uhren- und Kinderspielwarenhandlung.\nMorath, Joh., Sohn, Kaufmann.\nBaumgartner, Adolf, Commis, von Oensingen (Solothurn).\nWeber, Theresia, Ladentochter, von Pfäffikon, Luzern.\n3 Wydler-Fischer, Julius, Notariats-, Incatto-, Informations- und Ver-\nwaltungsgeschäft. Hauptagentur der franz. Feuerversicherungsgesellschaft „Phönix“.\n— Hauptagentur der Lebensversicherungsgesellschaft „La Nationale“ in Paris. —\nAgentur der schweiz. Hagelversicherungsgesellschaft.\nSchneeberger-Salvi, Jakob, von Vordernwald (Italienische-Warenhalle).\nFrei, geb. Württemberg, Bertha, Witwe, Part., von Dresden.\nKramer, Jakob, Taglöhner, von Schloßfrued.\nWeber geb. Buchmann, Magdalena, Witwe, Part., von Oberflachs.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 12047,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1404,
+    "lines": 29,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p023",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p023.jpeg",
+      "bytes": 279009,
+      "sha256": "a4d6e836daaa6df7e510e16e921f2032500f0b2ad23ddb91c6601de311512d20",
+      "sha256_of": "original",
+      "working_copy": "1896_p023.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:06+00:00"
+  }
+}

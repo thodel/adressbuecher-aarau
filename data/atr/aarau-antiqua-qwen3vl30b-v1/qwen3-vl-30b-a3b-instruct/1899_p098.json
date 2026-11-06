@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p098",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p098.jpeg",
+    "bytes": 287314,
+    "sha256": "f3ad40496fc185610b749792941197ee948c2cfe274f514e1ac73dbb536ee8bb",
+    "sha256_of": "original",
+    "working_copy": "1899_p098.jpeg"
+  },
+  "text": "90\nHaus-\nNr.\n1360 Zebert-Altorfer, Georg, Buchbinder. (Bahnhofstraße.)\n1361 + Roth, Joh., Aufseher, Schopf. (Erlinsbacherstraße.)\n1362 + Jura-Cementfabriken. Schuppen f. d. Seilbahn. (Rohrerstraße.)\n1363 + Einwohnergemeinde Aarau. Wasenhaus. (Scheibenschachen.)\n1364 + Wasserfahrverein Aarau. Schopf. (Am rechten Aaruer, unterhalb der Kettenbrücke.)\n1365 Kummler, Hermann. (Herzogsträßchen.)\n1366 Kern, Heinrich, Fabrikant.\n1367 + Derselbe. Wasch- und Holzhaus. ” (Herzogsträßchen.)\n1368 + Lüscher-Umiker, Hermann. Waschhaus. (Hinter d. Bahnhof.)\n1369 + Weber, Jak., Bankabwart. Wasch- u. Holzhaus. (Schachen.)\n1370 + Zschokke, M., Baugeschäft. Mauerküche. (Rohrerstraße).\n1371 + Derselbe. Cementschopf. (Rohrerstraße.)\n1372 + Zchokke, M., Baugeschäft. Schopf. (Rohrerstraße).\n1373 + Dieselbe. Cementröhrenschopf.\n1374 + Baumann, Gebr., Weinhändler. Fabremise. ” (Laurenzenvorst.)\n1375 + Frey, Achilles, Coiffeur. Wasch- u. Holzhaus. (Zeughausstr.)\n1376 + Suter, Jakob, Rektor. Wasch- und Holzhaus. (Gönhardweg.)\n1377 + Rothpletz-Rychner, Fabrikant. Waschhaus.\n1378 + Baumann-Gisi, H. (Erbschaft). Wasch-u. Holzhaus. (Hohlgasse.)\n1379 Steiner, Samuel. Landwirt. Wohnhaus. (Laurenzenvorstadt.)\n1380 + Jura-Cementfabriken. Seilbahnladestation. (Scheibenschachen.)\n1381 + Rothpletz, Julius, Maler. Waschhaus. (Konradstraße.)\n1382 + Fleury-Adam, J., Kaufmann. Waschhaus. (In der Gais.)\n1383 + Vogt, Adolf, Zahnarzt. Holzhaus. (Schloßplatz.)\n1384 + Derselbe. Waschhaus.\n1385 Meier, Hans, Postcommis. Wohnhaus. (Erlinsbacherstraße.)\n1386 Landolt-Hächler, Gottl. Scheune. (Entfelderstraße.\n1387 Roth, Friedr., Schuhmacher. Wohnhaus. (Zeughausstraße.)\n1388 Buffetti-Hagemann, Enrico. Wohnhaus. (Gönhardstraße.)\n1389 Weber, Gustav, Arzt. Wohnhaus. (Schloßplatz.)\n1390 Bertschinger-Riniker, Anna, Witwe. Wohnhaus. (Buchserstr.)\n1391 * Suter, Rudolf, Uhrenmacher. Wohnhaus. (Kasionostraße.)\n1392 Camisasca, Franz. Wohnhaus. (Vor dem Haldenthor.)\n1393 + Schmuziger, Jean, Baumeister. Ladenschuppen (Jenseits der Aare.)\n1394 Heuberger-Fischer, J., Finanzsekretär. Wohnhaus. (Jenseits der Aare.)\n1395 * Bircher-Burger, Emil, Posteommis. Wohnhaus. (Jenseits der Aare.)\n1396 Walther-Dubs, Hans, Landwirt. Wohnhaus. (Bachstraße.)\n1397 + Abgetragen.\n1398 Landolt-Hächler, Gottlieb, Wohnhaus. „Z. Tannenheim“ (Entfelderstraße.)\n1399 + Buffetti-Hagemann, Enrico. Waschhaus. (Gönhardfeldweg.)\n1400 + Kern & Cie. Reißzeugfabrik. (Ziegelrain.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6964,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2420,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:32:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p098",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p098.jpeg",
+      "bytes": 287314,
+      "sha256": "f3ad40496fc185610b749792941197ee948c2cfe274f514e1ac73dbb536ee8bb",
+      "sha256_of": "original",
+      "working_copy": "1899_p098.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:32:00+00:00"
+  }
+}

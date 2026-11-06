@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p079.jpeg",
+    "bytes": 274337,
+    "sha256": "67fa828cbd444f7cb35592322bd45eee4a474b7861a71d9bdb82f877d4b7e638",
+    "sha256_of": "original",
+    "working_copy": "1896_p079.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 57\nHaus-\nNr.\nSchachen.\n723 Schmidt-Henz, Hans, Part.\nHassler-Schmidt, Fried., Verwalter des städt. Elektricitätswerkes.\n1168 † Derselbe. Holzschopf.\n724 † Ortsbürger-Gemeinde Aarau. Waschhaus.\n1333 † Einwohner-Gemeinde Aarau. Militärbaracke I.\n1334 † Dieselbe. Militärbaracke II.\n1259 * Walther-Matter, Verena, Oekonomis Witwe.\nWietlisbach-Walther, Joseph Burkard, Postcommis.\nFurter-Rüegger, Friedrich, Agent, von Staufen.\nFurter, Theophil, Privatlithograph, von Staufen.\nFurter, Klara, von Staufen, Kursleiterin von Handarbeiten, künst-\nliche Blumen von Stoff und Papier.\n725 Müller-von Däniken, Friedrich, Oekonom.\nReinhard-Müller, Joh. Baptist, Gärtner, von Balsthal (Solothurn).\n726 * Derselbe. Wohnhaus.\nMüller-Bachmann, Hermann, Oekonom.\n1331 † Derselbe. Scheune.\n727 ⚑ Egloff-Meier, Franz, Postfacteur, von Wettingen. Kantinen-\nwirtschaft.\n728 † Derselbe. Trinkhalle.\n729 Hegnauer-Fischer, Rudolf, Buchhalter, von Seengen.\nBaumann-Bhend, Gottlieb, Schneider, von Schafisheim.\nBaumann, Elise, Damenschneiderin, von Schafisheim.\nMeier-Appenzeller, Franz Joseph, Schneider, von Wohlen.\n1325 † Derselbe. Holzschopf.\n1261 Matter-Schönenberg, Samuel, Amtsschreiber, von Oberentfelden.\nSenn-Brand, Isidor, Lehrer, von Ob.-Siggenthal.\n730 Kielholz, Leopold, Part. Erbschaft.\n731 ⚑ Burger-Kielholz, Samuel, Wirt, v. Möriken. Speisewirtschaft.\nSenn, Gottfried, Sekretär (Militärkanzlei), von Gansingen.\nHuber-Ruchit, Rudolf, Telefonarbeiter, von Mauraz (Waadt).\n732 * Derselbe. Wohnhaus.\nKielholz, Luise, Part.\n733 Mürset-Lüscher, Gottl., Fuhrmann, v. Diesse (Bern). Speisewirtschaft.\n734 Hochstrasser (Merz), Marie, Damenschneiderin, v. Auenstein.\nSchmuziger-Hochstrasser, Marie, Part.\nAmmann-Wälchli, Joh., v. Madiswyl (Bern), Speisewirtschaft.\nHauri-Kyburz, Samuel, Briefträger, von Seengen.\nBasler, Johann, Briefträger, von Zeihen.\n735 Uster-Bolliger, Heinrich, Malermeister, von Feuerthalen (Zürich).\n(Malerwerkstätte).\n736 Derselbe. Wohnhaus.\nBrack-Uster, Heinrich, Chef des Aarg. Polizeikorps.\nBolliger-Speck, Elisabeth, Part., von Schlossrued.\nThut, Gottlieb, Part., von Ober-Entfelden.\n*",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5785,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2138,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:06:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p079.jpeg",
+      "bytes": 274337,
+      "sha256": "67fa828cbd444f7cb35592322bd45eee4a474b7861a71d9bdb82f877d4b7e638",
+      "sha256_of": "original",
+      "working_copy": "1896_p079.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:06:47+00:00"
+  }
+}

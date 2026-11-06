@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p095",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p095.jpeg",
+    "bytes": 262218,
+    "sha256": "b39f5115c5072121afb953b01e22c9087c9be7dbcb98b5f29a6ba5e851a34929",
+    "sha256_of": "original",
+    "working_copy": "1896_p095.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n73\nHaus-\nNr.\nEntfelderstrasse.\n979 Thut-Laufer, Rudolf, Privat, von Oberentfelden.\n980 † Dreifuss-Wyler, Karl Moses, Kaufmann, von Endingen.\n1398 Landolt-Hächler, Gottlieb, Oekonom (Zum Tannenheim).\n1386 † Tanner-Vonwiller, Erwin, Fürsprech und Notar.\n981 Maier-Rychner, Bertha, Professors Witwe.\nRychner-Henz, Henriette, Part.\nLaube, Karl, Notar, Rechnungsrevisor, von Böbikon.\nIten, Albertine, Comptoiristin, von Unterägeri (Zug).\n982 † Dieselbe. Holz- und Waschhaus.\n983 Beck, Friedrich, Sattler.\nOchsner, Marie, Part., von Uster (Zürich).\nSiebenmann-Steiner, Jakob, Part.\nErny-Ammann, Emil, Fürsprech, Direktionssekretär.\n1076 † Derselbe. Wasch- und Holzhaus.\n1285 Mathys-Matter, Wilhelm, Feilenhauer, von Kölliken.\nKäser-Leder, Rudolf, Steinhauer, von Biberstein.\nKäser-Leder, Nanette, Wäscherin und Glätterin.\n1195 Riniker-Wernli, Hermann, Milchverkäufer.\nSpühler-Frey, Joh. Jakob, Kanzleisekretär, von Reckingen.\n1203 † Derselbe. Holz-, Schweine- und Geflügelhaus.\n1147 Vogel-Wassmer, Rudolf, Kaminfeger und Dachdecker, v. Kölliken,\nLager in Dach- und Randschindeln.\n1222 † Derselbe. Schopf.\nGönhardfeldweg.\n1145 Bertschi-Ackermann, Emil Joh., Landwirt, von Ober-Kulm.\n1309 Hoffmann-Schenk, Rudolf, Postangestellter, v. Schottikon (Zürich).\n⇒ Rothpletz-Richner, Friedrich, Fabrikant.\n1377 † Derselbe. Holz- und Waschhaus.\n1388 Gänslen-Landolt, Karl, Fabrikant.\n1399 † Derselbe. Holz- und Waschhaus.\n1150 Trüb-Müller, August, Lithographiebesitzer, von Dübendorf (Zürich).\nWetter-Weiss, Ulrich, Kaufmann, von St. Gallen.\nBusslinger-Kienberger, Siegfried, Postcommis.\n1415 † Derselbe. Holz- und Waschhaus.\n1241 Suter-Riederer, Jakob, Professor, Direktor des Töchterinstituts und\nLehrerinnenseminars von Suhr und Winterthur.\n1376 † Derselbe. Holz- und Waschhaus.\n*",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5177,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1811,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:08:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p095",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p095.jpeg",
+      "bytes": 262218,
+      "sha256": "b39f5115c5072121afb953b01e22c9087c9be7dbcb98b5f29a6ba5e851a34929",
+      "sha256_of": "original",
+      "working_copy": "1896_p095.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:08:20+00:00"
+  }
+}

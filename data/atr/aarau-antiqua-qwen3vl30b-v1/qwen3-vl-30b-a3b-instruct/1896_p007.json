@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p007",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p007.jpeg",
+    "bytes": 217744,
+    "sha256": "4728512e067dc5a5871b7cf5ba4a6ca3f4a9b1017c2d3b03076983a957e9a01c",
+    "sha256_of": "original",
+    "working_copy": "1896_p007.jpeg"
+  },
+  "text": "Mittelschweizerische Geographisch-Kommerzielle Gesellschaft in Aarau.\n(Zentralstelle für Adressbücher.)\n\nAdress-Buch\nder\nStadt Aarau\n(Schweiz)\n\n1896\n\nNebst illustriertem Anhang\nmit 1 Kupferstich und 56 Originalillustrationen.\n\nAARAU.\nDruck von Emil Wirz, vormals J. J. Christen.\nVerkaufsstelle: G. Vogel, Polizeiwachtmeister.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 915,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 325,
+    "lines": 12,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 25.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0062,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:53:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p007",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p007.jpeg",
+      "bytes": 217744,
+      "sha256": "4728512e067dc5a5871b7cf5ba4a6ca3f4a9b1017c2d3b03076983a957e9a01c",
+      "sha256_of": "original",
+      "working_copy": "1896_p007.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:53:49+00:00"
+  }
+}

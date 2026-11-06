@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p042",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p042.jpeg",
+    "bytes": 269382,
+    "sha256": "d9ae3060b94afd08c94be20f2bb2cff779fa1d57773ec146c69be1ab4f99c0f6",
+    "sha256_of": "original",
+    "working_copy": "1899_p042.jpeg"
+  },
+  "text": "346\nHaus-\nNr.        Laurenzenvorstadt.\n390 * Riniker, Gebr., Bierbrauer. Speisewirtschaft z. Freihof.\n        Baumann-Baumann, Ida, Wirtin z. Freihof, v. Stilli.\n        Baumann, Karl und *Eugen. Firma: Gebr. Baumann,\n        Weinhandlung (Bureau).\n391 + Baumann, Gebr., Weinkeller und Brennerei.\n392 a, b + Riniker, Gebr. (Trinkhalle).\n393 + Dieselben. Gartenhaus.\n1257 +        Baumann, Gebr. (Faßremise.)\n1258 +        Abgetragen.\n1374 +        Dieselben. (Faßremise).\n394 * Zschokke-Sauerländer, Maria, Oliviers Witwe.\n        Töchterheim Aarau.\n        Vorsteherin :\n        Zschokke-Jordi, Elise, Witwe.\n        Stähli, Henriette Adele, von Brugg,\n        — Ida, Part., von Brugg.\n        Mösch-Gassler, Maria, Wwe., Part., von Frick.\n395 + Gebr. Baumann. Weinkeller.\n396 + Zschokke-Sauerländer, Maria, Wwe., Wasch- u. Holzhaus.\n397        Zürcher-Wirz, Alfred, Arzt.\n398 + Derselbe. Holzhaus.\n1321 +        Derselbe. Remise.\n1326 +        Derselbe. Waschhaus.\n399        Wäffler-Stäuble, Heinrich, Turnlehrer, von Basel.\n        Singer-Andres, Gustav Ad., Prediger, v. Ebingen (Wrtbg.).\n400 + Derselbe. Holzhaus.\n1404 +        Derselbe. Nebengebäude.\n401        Roth-Schmuziger, Alfred, Oberst, von Bühler (Appenzell).\n        Heuberger-Siebenmann, Gottlieb, Sekretär. Agentur der\n        schweiz. Rentenanstalt.\n402 + Derselbe. Holzschopf.\n403        Meyer-Zschokke, Jak. Ludwig, Direktor d. Gewerbemuseums,\n        von Zürich.\n        Wiesenthal-Schierener, Max, Disponent, von Passau.\n404 + Derselbe. Holzhaus.\n405 + Bally-Arndt, Eugen, Fabrikant. Fabrikgebäude m. Comptoir.\n406 + Derselbe. Nebengebäude.\n407 + Derselbe. Holzschopf.\n408 * Ringier-Müller, Staatsschreibers Witwe (Erbenschaft).\n        — Tschudi, Adolf, von Zofingen.\n        Kurz, Sophie, Part., von Schwamendingen (Zürich).\n409 + Dieselbe. Holzhaus.\n410        Hommel-Stein, August, Mechaniker.\n        Wärtli-Vogel, Christian, Part.\n        Albrecht-Kauf, Heinrich, Kaufmann, von Dielsdorf (Zürich).\n        Rothpletz, Karl, Architekt.\n411 + Derselbe. Holzschopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 103518,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2042,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:06:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p042",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p042.jpeg",
+      "bytes": 269382,
+      "sha256": "d9ae3060b94afd08c94be20f2bb2cff779fa1d57773ec146c69be1ab4f99c0f6",
+      "sha256_of": "original",
+      "working_copy": "1899_p042.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:06:38+00:00"
+  }
+}

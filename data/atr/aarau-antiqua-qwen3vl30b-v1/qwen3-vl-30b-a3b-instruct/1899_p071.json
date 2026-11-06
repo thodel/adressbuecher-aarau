@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p071",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p071.jpeg",
+    "bytes": 264349,
+    "sha256": "90badd6c9ba505f95a0adeaa4cac435beffa84a065c539ed5f46299d83eb138c",
+    "sha256_of": "original",
+    "working_copy": "1899_p071.jpeg"
+  },
+  "text": "Haus-\nNr.\n785 † Derselbe. Waschhaus.\n1182 † Seiler-Hanhart, Andreas, Bäcker. Holzhaus.\n1092 * Wägeler-Vogel, Karl, Dachdecker, von Waldshut (Baden).\nVogel-Grädel, Friedrich, Dachdecker, von Kölliken.\nHuber, Anna, Privatin, von Rykon-Illnau (Zürich).\nMorf-Dreher, Jakob, Schneider, von Illnau (Zürich).\n1093 * Derselbe.\n1306 Wernli-Wernli, Rudolf, Taglöhner, von Thalheim.\nWägeler-Vogel, Karl, Dachdecker und Kaminfeger, von Waldshut (Baden).\n1273 † Derselbe. Waschhaus.\n786 * Gasbeleuchtungsgesellschaft.  Wohnhaus.\nBechstein-von Jettmar, Wilhelm, v. Meiningen (Sachsen),\nDirektor der Gasfabrik.\n787 † Dieselbe. Gasfabrik.\n788 † \" Reinigungshaus.\n789 † \" Steinkohlenschopf.\n790 † \" Schopf.\n791 † \" Waschhaus.\n1089 † \" Schopf.\n1090 † \" Schopf.\n1220 † \" Bienenhaus.\n1411 † \" Werkstätte und Magazin.\n792 † Häftiger-Hilfiker, Otto, Metzger. (Scheune.)\n1312 Hilfiker-Wilhelm, Emilie, Part., Bäckers Witwe, v. Safenwil.\nLienhardt-Lüthi, Jakob, Monteur, von Wallisellen (Zch.).\n793 † Derselbe. Gartenhaus.\n794 Käser-Lorent, Emil, Gärtner, von Oberflachs. Remise.\n795 † Derselbe. Wohnhaus.\n1220 † \" Holzschopf.\n1549 † \" Gewächshaus.\n796 Schaffner-Fuhrmann, Samuel, Fuhrmann, v. Effingen.\n— -Fischer, Johanna, Part., von Effingen.\n—, Emma, Schneiderin, von Effingen.\n797 † Derselbe. Remise.\n798 † \" Gewächshaus.\n1094 † \" Scheune.\n799 Wernli-Häftiger, Jakob, Gärtner, von Thalheim.\n1342 † Derselbe. Treibhaus.\n1332 Schmid, Johann Albert, und Schmid, Samuel.\n— -Schmid, Samuel, Commis.\n— -Kollmar, Albert, Schriftsetzer.\n1341 † Dieselben. Waschhaus.\n800 Brunner, Heinrich, Bahnarbeiter.\nSteiner-Künzli, Erwin, Steindrucker, von Gontenschwyl.\nWeisse-Roth, Paul, Schneider, von Waldheim (Sachsen).\n1271 † Derselbe. Scheune.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4880,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1721,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:29:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p071",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p071.jpeg",
+      "bytes": 264349,
+      "sha256": "90badd6c9ba505f95a0adeaa4cac435beffa84a065c539ed5f46299d83eb138c",
+      "sha256_of": "original",
+      "working_copy": "1899_p071.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:29:22+00:00"
+  }
+}

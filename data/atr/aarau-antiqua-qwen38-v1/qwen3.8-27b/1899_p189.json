@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p189",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p189.jpeg",
+    "bytes": 266534,
+    "sha256": "6910a6735db87d2421904caea3bc91b61dbb8f6ccc7daf3a70a60d9f1fa44024",
+    "sha256_of": "original",
+    "working_copy": "1899_p189.jpeg"
+  },
+  "text": "85\nSparkassen.\n(Siehe Bankgeschäfte.)\nSpengler.\nHuber, Fritz, obere Vorstadt 941.\nKull, Emil, vordere Vorstadt 898. (S. Inserat Seite 2.)\nRämisperger, Hermann, Adelbändli 174.\nRichner, Friedrich, Kirchgasse 10.\nSuter, Rudolf, Ziegelrain 704.\n(Dieselben handeln auch mit Spenglerwaren.)\nSpezerihandlungen.\nAllgemeiner Konsumverein Aarau, Milchgasse 70.\nBachmann, Johann, Milchgasse 155.\nBell-Marti, Lina, Pelzgasse 130.\nBertschinger-Wild, G., * hintere Vorstadt 624.\nBrand, Jakob, vordere Vorstadt 669.\nEggen, Eduard, Laurenzenthorgasse 119 b.\nFricke-Wirz, Fr., * Rain 825.\nGauntschi-Frey, Susette, Rain 823.\nGloor-Siebenmann, Marie, * Witwe, Kronengasse 38.\nGränicher, Jakob, Kirchhof 162.\nHagenbuch-Hagenbuch, Verena, Zollrain 177.\nHäsler-Wanger, E., * Laurenzenthorgasse 349.\nHenx, Jakob & Cie., vordere Vorstadt 678.\nHirsbrunner, Elise, Halden 255.\nHitze-Lanz, Otto, * Rain 875.\nHoch, Gustav, * Graben 349.\nHofer, Gottlieb, * Rathausgasse 43.\nIndermaurer-Richner, Elise, Bahnhofstraße 658.\nMaurer, Emil, * jenseits der Aare 1303 a.\nNadler-Häuptli, Witwe, Bahnhofstraße 647.\nOtt-Wenger, Marie, Adelbändli 81.\nRiniker, Friedrich, obere Vorstadt 928.\nRohr, Jakob, * Oberthor 137.\nSchmid-Maurer, Mathilde, Rathausgasse 29.\nSchwanz, Theodor, Bahnhofstraße 1074.\nSiegrist-Lindenmann, Johann, * obere Vorstadt 922.\nStephani-Winkler, Margaritha, * Witwe, Rathausgasse 26.\nWalti-Müller, Marie, Witwe, Milchgasse 144.\nWüthrich, Samuel, * Laurenzenthorgasse 117.\nZingg-Fisch, Hermine, Zugführers, in der Gais 1517.\nSpiegellager.\nHagenbuch, Karl, * Kronengasse 35.\nMorath, Johann, * Rathausgasse 2.\nSprechstationen.\n(Öffentliches Telephon.)\nWüthrich-Lüdi, Samuel, Laurenzenthorgasse 117.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14312,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1678,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.72,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:18:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p189",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p189.jpeg",
+      "bytes": 266534,
+      "sha256": "6910a6735db87d2421904caea3bc91b61dbb8f6ccc7daf3a70a60d9f1fa44024",
+      "sha256_of": "original",
+      "working_copy": "1899_p189.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:18:35+00:00"
+  }
+}

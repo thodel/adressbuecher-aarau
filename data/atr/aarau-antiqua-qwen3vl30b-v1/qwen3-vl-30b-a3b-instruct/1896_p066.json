@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p066",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p066.jpeg",
+    "bytes": 264133,
+    "sha256": "b6948dcf070cd0d9ce856e8f1da1688ace603545552d64098a6bbce8385b2d63",
+    "sha256_of": "original",
+    "working_copy": "1896_p066.jpeg"
+  },
+  "text": "44\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n551 † Derselbe. Schopf und Schweinescheune.\n1265 † \" Waghäuschen.\n552 * Feer-Herzog, Karls Erbschaft (Alte Taubstummenanstalt).\nSchneider-Bruckner, Ferdinand, Bankangestellter.\nWelti-Spühler, Heinrich, Postpacker, von Zurzach.\nStettler-Mathys, Jakob, Maler, von Bolligen (Bern).\nSiebenmann-Schaffner, Otto, Koch.\nSchaffner-Fehlmann, Elisabeth, Wwe., Part., von Gränichen.\nWernli-Lienhard, Maria Anna, Spetterin, von Thalheim.\nHauenstein-Hollinger, Alois, Lehrer, von Degerfelden.\nReimann-Reichli, Gustav, Fürsprech, Obergerichtsschreiber, von Wölfliswyl.\n\nBahnhofstrasse.\n1432 Einwohnergemeinde Aarau. Neues Kantonsschulgebäude.\nWehrli-Hassler, Friedrich, Pedell.\n1433 Dieselbe. Gewächs- und Treibhaus.\n553 Abgetragen. An dessen Platz\n1445 Staat Aargau. Kantonales Gewerbemuseum.\nRuch-Schälkli, Alfred, von Mitlödi (Glarus). Abwart.\nFüglistaller, Karl Jos., Assistent, von Lieli.\n554 * Dieselbe. Portierhaus.\nKorneli-Hoffmann, Friedrich, Gärtner, von Alliswil.\n555 † Dieselbe. Oekonomiegebäude mit Waschhaus und Remise.\n556 † \" Oekonomiegebäude mit Stallung.\n557 † \" Remise und Geflügelhaus.\n558 † \" Abgetragen.\n\nFeerstrasse.\n1337 Hunziker-Fleiner, Hermann, Privatier.\n1354 Derselbe. Wasch- und Holzhaus.\n1443 Gamper-Zürcher, Hermann, Kaufmann.\nZürcher, Johann, gew. Turnlehrer, von Thalweil (Zürich).\n1444 Rohr-Baumann, Hans, Oberrichter, von Hunzenschwy.\n1416 Stocker-Wirz, Friedrich Jos., Dr. jur., Fürsprech, Bankkontrolleur, von Obermumpf.\nKeller-Bailly, Alois, Postcommis, von Sarmenstorf.\n1417 Hoffmann-Gamper, Emil, Kaufmann.\nGeneralagentur der Schweiz. Transport-Vers.-Gesellschaft in Zürich.\n\" \" Germania, Lebensvers.-Gesellschaft in Stettin.\nHauptagentur der Zürcher Allg. Unfall- und Haftpflicht-Versicherungs-\nAktiengesellschaft in Zürich.\nKeller-Wilhelm, Jakob, Notar, von Niederlenz.\n1307 Widmer-Gamper, Friedr., Postcommis.\nHubacher, Gustav, Zeichner, von Bern.\nMühlberg-Amsler, Theodor, Postkontrolleur, von Muri.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5349,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1987,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.17,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:05:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p066",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p066.jpeg",
+      "bytes": 264133,
+      "sha256": "b6948dcf070cd0d9ce856e8f1da1688ace603545552d64098a6bbce8385b2d63",
+      "sha256_of": "original",
+      "working_copy": "1896_p066.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:05:33+00:00"
+  }
+}

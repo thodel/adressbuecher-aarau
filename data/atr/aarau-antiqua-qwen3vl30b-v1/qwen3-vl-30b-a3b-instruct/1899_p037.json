@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p037.jpeg",
+    "bytes": 255812,
+    "sha256": "b110bb3c39485c6681e0f54262e330dac6cb11bb096a45ac150e5ce05fa9825d",
+    "sha256_of": "original",
+    "working_copy": "1899_p037.jpeg"
+  },
+  "text": "Haus-\nNr.\n1211 † Dieselben. Brennofenhaus.\n1212 † \" Cementmagazin.\n1213 † \" Materialschuppen.\n1230 † \" Schopf, abgetragen.\n1274 † \" Steinschuppen.\n1275 † \" Wagh aus.\n1276 † \" Scheune und Stallung.\n1277 † \" Abort.\n1313 † \" Kohlenschuppen, abgetragen.\n1409 † \" Küche und Eßzimmer.\n1410 † \" Ringofenhaus.\n1069 † Abgetragen.\n1363 † Gemeinde Aarau. (Wasenhaus.)\n1314 † Hürzeler, Jakob, Hadernhändler. (Schopf.)\n\nGishügel.\n317 ⚭ Brack-Wälchli, Joh. Heinrich, Fabrikaufseher, von Mön-\nthal. Wirtschaft z. Alpenzeiger. Kurhaus.\n318 Abgetragen. An dessen Platz\n1204 † Derselbe. Holzhaus und Stallung.\n1206 † \" Trinkhalle.\n319 Zschokke-Sauerländer, Maria, Witwe ⚭, „Zur Blumenhalde“.\n220 † Dieselbe. Waschhaus und Holzschopf.\n\nWeinberg.\n321 a * Siebenmann-Hagnauer, Friedrich, Bierbrauer. ⚭ Wirtschaft\n„zum Weinberg“.\nBärtschi-Minder, Jakob, Wirt „zum Weinberg“, von Lützel-\nflüh (Bern).\n321 b Plüss-Wälchli, Friedrich Rudolf, Landwirt, von Ryken.\n— — Lea, Hebamme, von Ryken.\nFrikart-Wälchli, Hulda, Doktors, von Zofingen.\nSchatzmann-Bolliger, Elise, Spetterin, von Windisch.\n321 c Klingelfuss-Widmer, Johann Friedrich, Mechaniker und Eich-\nmeister, von Basel. Spezialfabrikation von Wasserwagen,\nLager in allen Sorten Wagen und Gewichten.\nWidmer, Maria, Part., von Gränichen.\n322 * Plüss-Wälchli, Friedrich, von Ryken.\nUrech-Zürcher, Traugott, Knecht, von Nieder-Hallwyl.\n323 † Derselbe. Schopf.\n324 * Siebenmann-Hagnauer, Friedrich.\nKraft-Schönberger, Hermann, Steindrucker, von Berlin.\nRiner-Obrist, Johann, Stadtpolizist, von Herz nach.\n325 † Derselbe. Kegelbahn.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4984,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1569,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:26:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p037.jpeg",
+      "bytes": 255812,
+      "sha256": "b110bb3c39485c6681e0f54262e330dac6cb11bb096a45ac150e5ce05fa9825d",
+      "sha256_of": "original",
+      "working_copy": "1899_p037.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:26:20+00:00"
+  }
+}

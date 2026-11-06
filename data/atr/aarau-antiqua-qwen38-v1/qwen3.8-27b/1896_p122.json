@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p122",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p122.jpeg",
+    "bytes": 276354,
+    "sha256": "83059eb5e38b411174769b0335ec736905c9c13bf0f3bfc6712bbaaab76d005e",
+    "sha256_of": "original",
+    "working_copy": "1896_p122.jpeg"
+  },
+  "text": "100\nAlphabetisches Verzeichnis.\nGehrig, Karl, Gärtner, Hammer 1301.\nGeissmann, Xaver, Sekretär, Graben 620.\nGenossenschaft von Landwirten u. Milchhändlern von Aarau und Umgebung, Präsident: Abraham Brack, Bachstraße 1061.\nGeyer, Joseph, Schneider, hintere Vorstadt 643.\nGerber, Emil, Wirt zum Affenkasten, [tel] hintere Vorstadt 692.\n— Gustav, March.-Tailleur, [tel] vordere Vorstadt 670.\n— Hans, Hôtelier, [tel] Bahnhofstr. 1438.\n— geb. Hassler, Luise Elisabeth, Witwe, Part., vordere Vorstadt 670.\nGerman, Heinr., Part., hintere Vorstadt 693.\nGerodetti, Virgilius, Marmorgeschäft, hinter dem Bahnhof 1268.\nGertiser geb. Andres, Maria, Witwe, Rain 820.\nGerster, Rosa, Part., Obere Vorstadt 929.\nGesellschaft für Vieh- u. Pferdezucht im Kanton Aargau. Präsident: J. Plöss-Angst in Brittnau.\nGessner, August, Dr. phil., Professor, Bankstraße 1141.\nGewerbe-Halle Aarau. Ziegellain 754.\nGewerbe-Museum, kantonales, Bahnhofstr. 1445.\nGietzennanner, Elisabeth, Part., Gottenmattgasse 235.\nGiger, Adolf, Postcommis, Laurenzenvorstadt 399.\n— Jakob, Schreiner, Halden 286.\n— geb. Wildi, Rosina, Witwe, obere Vorstadt 937.\nGing, August, Schmied, Taglöhner, Stadthof 92 e.\n— Johann Jakob, Part., Halden 241.\n— Wilhelm, Wagner, Halde 285; Werkstätte Kasinostrasse 572.\nGisi, Adolf, Tapezierer, Pelzgasse 124.\n— Jakob, Rechnungsrevisor, Bahnhofstraße 658.\n— Johann, Färber, Rain 857.\n[spalte 2]\nGisi, Samuel, Schreinermeister, Stadthof 92 b.\n— von Arx, Viktor, Tuchhandlung, Holzmarkt 664.\nGysi, Arnold, Mechaniker, vordere Vorstadt 675.\n— & Cie. Reifzeugfabrikation, Optisches Warenlager, Photographisches Atelier, [tel] vordere Vorstadt 895.\n— Emil, Maler, obere Vorstadt 942.\n— Emil, Part., Gartenstraße 998.\n— Friedrich, Schlosser, h. Vorstadt 645.\n— Hans, Reifzeugfabrikant, Gartenstrasse 999.\n— Otto, Photograph, vord. Vorstadt 895.\n— Otto, Sohn, Photograph, vord. Vorstadt 895.\n— Otto Robert, Postcommis, obere Vorstadt 942.\n— Traugott, Lehrer, jenseits der Aare 1303 b.\nGladbach, Philipp, Professor, Kasinostraße 576.\nGlöckner, (Knauth) Franz, Kunstmaler, Bachstraße 1028.\nGloor, Bertha, Damenschneiderin, Adelbändli 171.\nGloor, Elise, Fabrikarbeiterin, Milchg. 154.\n— Ferdinand, Holzsparer, Milchgasse 75.\n— Heinrich, Zimmermann, Stadthof 92 e.\n— Heinrich, Bandweber, Scheibenschachen 313.\n— Jakob, Schreiner, vor dem Haldenthor 1299.\n— Karoline, Wäscherin, hinter d. Bahnhof 1352.\n— Marie, Vorgängerin, Halden 253.\n— Olga, Damenschneiderin, Stadthof 92 e.\n— Rudolf, Bäcker, Milchgasse 142.\n— geb. Siebenmann, Marie, Witwe, [tel] Delikatessen-Handlung, Kroneng. 38.\n— Wilhelm, Fuhrmann, Schachen 741.\n— Wilhelmine, Taglöhnerin, Adelbändli 171.\nGonzenbach geb. Gonzenbach, Julie, Witwe, Rain 828.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 20815,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2692,
+    "lines": 57,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T16:20:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p122",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p122.jpeg",
+      "bytes": 276354,
+      "sha256": "83059eb5e38b411174769b0335ec736905c9c13bf0f3bfc6712bbaaab76d005e",
+      "sha256_of": "original",
+      "working_copy": "1896_p122.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T16:20:38+00:00"
+  }
+}

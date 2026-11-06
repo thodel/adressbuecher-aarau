@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p032",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p032.jpeg",
+    "bytes": 286800,
+    "sha256": "782b0c5188fac33856a327063722006eace069b93abd7f4b4fa039c946d66096",
+    "sha256_of": "original",
+    "working_copy": "1899_p032.jpeg"
+  },
+  "text": "24\nHaus-\nNr.\nMüller, Albertine, Damenschneiderin, von Möttingen (Wbrg.).\nHunn-Fehlmann, Verena, Taglöhnerin, von Egliswyl.\nKnecht-Vögeli, Barbara, Fabrikarbeiterin, von Oberflachs.\nKrähenbühl, Louise, Näherin, von Altschhofen (Luzern).\n265    Hassler-Ernst, August, Färber.\n      — Maria, Part.\n266 a  Hagnauer, Gottlieb, Metzgers Erbschaft.\n266 b  — Gottlieb, Metzgers Erbschaft.\nHostettler-Hagnauer, Nikl., Schuhmacher, v. Guggisberg (Bern).\nMeissner-Süss, Johann, Schneider, von Geroldshofen (Bayern).\nBiberstein-Spycher, Eugen, Spengler, von Bözingen (Bern).\nSteinmayer, Frida, Damenschneiderin, von Steinach (Großh.\nBaden).\nFlückiger, Lina, Damenschneiderin, von Rohrbach-Graben (Bern).\n267    Siebenmann-Marti, Rosinas Erbschaft.\nStrebel-Siebenmann, Karl, Sekretär.\nMarti-Siebenmann, Ida, Arbeitslehrerin.\n      — Lina, Damenschneiderin.\nDöhnel, Emma, Spetterin, von Badenweiler (Baden).\n268    Merz-Dürr, Jb., Heizer.\nSchmid-Unger, Sophie, Weichenwärters Witwe, Part., von\nErlinsbach.\n      — Rudolf, Taglöhner, von Erlinsbach.\nNünlist-Müller, Katharina, Taglöhnerin, v. N.-Erlinsbach (Sol.).\n269    Adrion-Stauss, Andreas, Hafner, von Alpirsbach (Würtbg.).\n      — Maria, Damenschneiderin, von Alpirsbach (Württemberg).\nRohr-Wehrli, Daniel, Straßenwärter, von Hunzenschwil.\n270 †  Derselbe.\nBircher-Suter, Eduard, von Küttigen.  (Sattlerwerkstätte.)\n271 *  Camisasca, Franz, Kaufmann, Part.\nJäggi-Bolliger, Agathokles, Gipser, von Fulenbach (Soloth.)\nMüller-Vogt, Joh. Jakob, Postpaker, von Unter-Bötzberg.\nWildt-Wolfensberger, Ferdinand, Schuhmacher, von Diesenheim.\n— — obigen Ehefrau, Schneiderin.\n272 *  Wärtli-Ernst, August, Buchbinder.\nFrey-Steiner, Friedrich, Schreinermeister, von Auenstein.\nSteiner, Hermann, Bahangestellter, von Gontenschwil.\nBircher-Wächter, Jakob, Schlosser, von Küttigen.\nFrey, Niklaus, Cementarbeiter, von Oberhof.\n273    Keller-Bauhofer, Bertha, Färbers Witwe, Färbereigeschäft.\nHunn-Büchli, Friedrich, Schneider, von Kirchleerau.\n274    Hausmann-Heuberger, Johann, Taglöhner, von Schafisheim.\nHochstrasser-Bolliger, Jakob, Fabrikarbeiter, von Fahrwangen.\nKyburz, Lisette, Krankenwärterin, von Oberentfelden.\n275 *  Armengut der Gemeinde Aarau.\nDürr, Karolina, Glasers.\nFisch-Dürr, Elise, Schuhachers Witwe.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 47054,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2247,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:55:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p032",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p032.jpeg",
+      "bytes": 286800,
+      "sha256": "782b0c5188fac33856a327063722006eace069b93abd7f4b4fa039c946d66096",
+      "sha256_of": "original",
+      "working_copy": "1899_p032.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:55:55+00:00"
+  }
+}

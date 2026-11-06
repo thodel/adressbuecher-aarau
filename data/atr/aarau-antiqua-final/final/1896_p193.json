@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p193",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p193.jpeg",
+    "bytes": 245630,
+    "sha256": "a6f786082f3f6a3d9e3f81220fed8c0d0d5ff48ba9b150398e7d747c01ec6a52",
+    "sha256_of": "original",
+    "working_copy": "1896_p193.jpeg"
+  },
+  "text": "Geschäfts- und Gewerbetreibende.                                                                 155\nUnterrichtsanstalt d. Gewerbemuseums,\n  des aarg. Gewerbeverbandes, d. aarg.\n  Handwerkerschulen, d. aarg. Kunst-\n  vereins. 1. Jahrgang.\nMitteilungen d. aarg. naturforschen-\n  den Gesellschaft. Organ d. Vereins.\n  7. Jahrgang. Red. Dr. F. Mühlberg.\nMitteilungen der Kommission des\n  schweiz. Lehrervereins über-\n  Jugendschriften. Org. d. Kommis-\n  sion. 20. Jahrg.\nSchweizerische Bienenzeitung. Or-\n  gan der schweiz. Vereine für Bienen-\n  zucht. 1 mal monatlich. 31. Jahrg.\nDruck und Verlag von Emil Wirz, *\n  Oberthor 139.\nDer Tierfreund, Organ der deutsch-\n  schweizer. Tierschutzvereine. 6 mal\n  jährlich. Auflage 3000. Preis für\n  Mitglieder Fr. —. 50, für Nichtmit-\n  glieder Fr. 1.\n[spalte 2]\nEidgen. Nationalkalender für das\n  Schweizervolk. 72. Jahrgang. Ge-\n  gründet 1825.\nFernschau, Jahrbuch d. Mittelschweiz.-\n  Geographisch-Kommerziellen Gesell-\n  schaft. Gegründet 1886. Auf-\n  lage 1000. Redaktor: Dr. Hans\n  Lehmann.\nKleine Mitteilungen, 4 mal jährlich.\n  Verkehrorgan der Mittelschweizer.-\n  Geogr.-Kommerziellen Gesellschaft;\n  wird an die Mitglieder gratis abge-\n  geben.\nSchweizer. landwirtschaftl. Zeit-\n  schrift. 1 mal wöchentlich. Preis\n  Fr. 4 für Aarau, franko für aus-\n  wärts Fr. 7. 50. Auflage 12,000.\n  24. Jahrgang.\nSchweizer. Schreibkalender, in 10\n  verschiedenen Ausgaben. Gegr. 1849.\nWirz's Schreibkalender für schweiz.\n  Landwirte. Gegründet 1895. Auf-\n  lage 3500.\n\nMilchgasse in Aarau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 23224,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1527,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 30.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:12:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p193",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p193.jpeg",
+      "bytes": 245630,
+      "sha256": "a6f786082f3f6a3d9e3f81220fed8c0d0d5ff48ba9b150398e7d747c01ec6a52",
+      "sha256_of": "original",
+      "working_copy": "1896_p193.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:12:56+00:00"
+  }
+}

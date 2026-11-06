@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p051",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p051.jpeg",
+    "bytes": 256938,
+    "sha256": "c7983de69ea36a5946c0e179cc37591decf584f85965bf18061ff5e14e814500",
+    "sha256_of": "original",
+    "working_copy": "1899_p051.jpeg"
+  },
+  "text": "43\nHaus-\nNr.\n510 Siebenmann-Siebenmann, Marie, Witwe, Part.\n1234 † Dieselbe. Holzhaus.\n1141 Kunz, Johann Jakob, von Wald (Zürich), Part.\nWalder-Kunz, Elise, Witwe, von Benken (Schaffhausen).\nGessner-Siegfried, August, Dr. phil., Professor, von Zürich.\n1251 † Derselbe. Holz- und Waschhaus.\n1146 * Lüscher-Umiker, Hermann, Mechaniker.\nSchär-Frey, Friedrich, Major, Instr. I. Klasse der Kavallerie,\nvon Inkwyl (Bern).\n\nBahnhofstrasse.\n511 * Aargauische Bank. ☞\n512 † Dieselbe. Holzhaus.\n1360 Zebert-Altorfer, Georg, von Bauma (Zürich). Papeterie. ☞\nWirth-Geiger, Joh. Rudolf, Arzt, Part., von Speicher (Appenz.)\n1438 Gerber-Walther, Hans, Hôtelier ☞ (Hôtel Terminus).\n513 * Näf & Zschokke. Kreispostgebäude. ☞\n514 † Dieselben. Postremise.\n515 Schweizerische Nordostbahn. Bahnhofgebäude.\nKübler-Kuhn, Johann, Bahnhofinspektor.\nSchäfer-Meier, Friedrich, gew. Einnehmer der Nordostbahn.\nMeister-Uttiger, Jakob Emil, Adjunkt des Bahnhofinspektors,\nvon Dübendorf (Zürich).\nKühn-Hofmann, Bernhard, Restaurateur. ☞\n516 † Schweizerische Nordostbahn. Einsteighalle.\n517 † Dieselbe. Wagenremise.\n518 † \" Wärterhaus.\n519 † \" Güterschopf mit Wohnungen (Güterexpedition,\nBureau).\nLindegger-Kyburz, Gottfried, Güterexpedient, v. O.-Entfelden.\nRippstein-Küng, Joseph, Portier, von Kienberg (Solothurn).\n520 † Dieselbe. Waschhaus und Abtritte.\n521 † \" Maschinenremise.\n522 † \" Wasserstationsgebäude.\n523 † \" Güterschopf (Fruchtschuppen).\n524 † \" Wagenremise.\n525 † \" Bahnwärterhäuschen.\n526 † \" Abtrittgebäude.\n527 † \" Bahnwärterhäuschen.\n528 †\n529 † \"\n530 † \"\n531 † \"\n532 † \"\n533 † \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5063,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1566,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.32,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:27:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p051",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p051.jpeg",
+      "bytes": 256938,
+      "sha256": "c7983de69ea36a5946c0e179cc37591decf584f85965bf18061ff5e14e814500",
+      "sha256_of": "original",
+      "working_copy": "1899_p051.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:27:35+00:00"
+  }
+}

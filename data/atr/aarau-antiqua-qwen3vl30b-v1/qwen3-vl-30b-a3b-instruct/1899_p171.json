@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p171",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p171.jpeg",
+    "bytes": 253616,
+    "sha256": "2d1abb516a4d9ff09d6c7e4723eea1767583fd723fb2ad8b1ba31b3f61f5b86d",
+    "sha256_of": "original",
+    "working_copy": "1899_p171.jpeg"
+  },
+  "text": "67\nHolzhandlungen.\nHitz-Lanz, Otto, * Rainstraße 875.\nStirnemann, Jakob, Zollrain 91.\nWalther-Dubs, Hans, Bachstraße 1396.\n\nHolzspalter.\nBertschi, Rudolf, Adelbändli 85.\nGloor, Ferdinand, Milchgasse 75.\nWernli, Kaspar, Hammer 190.\n— Samuel, Hammer 185 c.\nZimmerli, Joh., Adelbändli 83.\n\nHuthandlungen.\nAckermann-Buser, Albert, * vordere Vorstadt 890.\nCodoni-Dreßler, R., * Rain 826. (S. Inserat Seite 14.)\nFrei, Achilles, Coiffeur, Zeughausstraße 1310.\nMüller, Eduard, * Schirrmacher, Rathausgasse 30. (S. Inserat S. 18.)\nSchneeberger-Salvi, Jakob, * Rathausgasse 3.\nSernatinger, Valerian, * vordere Vorstadt 893.\nSperlich, Theodor, vordere Vorstadt 666. (S. Inserat S. 2.)\n\nInformationsgeschäfte.\nHeller, Oskar, * Zollrain 54. (S. Inserat Seite 6.)\nMerz, Sebastian, * Notar, Bachstraße 1100.\nWydler, Julius, Notar, * Rathausgasse 3.\n\nIngenieure.\nBircher, Julius, Ziegelrain 713.\nFahrländer, Eugen, Rainstraße 869.\nGautschi, Samuel, hintere Vorstadt 646.\nHerzog, Gottlieb, hintere Vorstadt 645.\nJäger, Hugo, Stadtingenieur, Feerstraße 1307.\nOehler, Alfred, Gais 480.\n— Oskar, Laurenzenvorstadt 415.\nRychner, Louis, Rain 832.\nSchmid, Johann Jakob, Bachstraße 1138.\nSchmuziger, Arnold, Laurenzenvorstadt 1403.\nZehnder, Otto, Gais 482.\nZschokke, Konradin, Entfelderstraße 1200.\n\nInkassogeschäfte.\nHeller, Oskar, * Notar, Zollrain 54. (S. Inserat Seite 6.)\nLüscher, Hans, * Notar, Rain 829.\nLüscher, Jakob, * Notar, Metzgergasse 56.\nMerz, Sebastian, * Bachstraße 1100.\nWydler, Julius, Notar, * Rathausgasse 3.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4956,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1505,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0238,
+    "mean_line_chars": 34.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:40:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p171",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p171.jpeg",
+      "bytes": 253616,
+      "sha256": "2d1abb516a4d9ff09d6c7e4723eea1767583fd723fb2ad8b1ba31b3f61f5b86d",
+      "sha256_of": "original",
+      "working_copy": "1899_p171.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:40:10+00:00"
+  }
+}

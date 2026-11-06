@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p048",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p048.jpeg",
+    "bytes": 278842,
+    "sha256": "94ec4a357567b2ead6b3d4338340d1ccef2db7436322d22126c481b6a8a6b2da",
+    "sha256_of": "original",
+    "working_copy": "1899_p048.jpeg"
+  },
+  "text": "40\nHaus-\nNr.\nLocher-Nussbaum, Karl, Prokurist, von Oberegg (Appenzell).\nGerster-Rutz, Rosa, Part., von Neukirch (Epnach).\n1186 Staat Aargau. Kant. Krankenanstalt. Verwaltungsgebäude.\nBircher-Schatzmann, Heinrich, Dr. med., administrativer\nDirektor und Oberarzt der chirurgischen Abteilung.\nKalt-Läubli, Alfred August, von Koblenz, Oberarzt der medi-\nzinischen Abteilung und der Gebäranstalt.\nBolliger, Heinrich, Kanzleigehülfe, von Kättigen.\nAcklin-Jäger, Emil, Verwalter, von Herznach.\nSchiesser, Heinrich, Kanzleigehülfe, von Dießbach (Glarus).\nHauser-Mathey, Gottlieb, Obergärtner, von Böttstein.\nDerselbe. Medizinischer Pavillon.\n1187 \" Chirurgischer\n1188 \" Baracke für medizinische Abteilung.\n1189 \" \" chirurgische\n1190 \" Kinderpavillon und Augenabteilung.\n1191 \" Hebammen- und Gebäranstalt.\n1192 \" Küchen-, Wasch- und Kesselhaus.\n1193 \" Leichenhaus mit Gärtnerwohnung u. Wartzimmer.\n1194 \" Spritzenhaus mit Kohlenschuppen.\n1323 \" Operationshaus.\n1434 \" Portierhäuschen.\n1435 \" Schweinstallschopf.\n1436 \" Hühnerhaus.\n1488 \" Magazin.\n1489\n1286 Fleury-Adam, Joseph, Kaufmann, von Laufen (Bern).\n1063 Schäfer-Troller, Adolf, Architekt.\n1064 † Derselbe. Holz- und Waschhaus.\n1065 † \" Baracke mit Küche.\n1125 † \" Schreinerwerkstätte.\n1126 † \" Gartenhaus.\n1139 † \" Ladenschopf.\n1148 † \" Bureau mit Magazin.\n1149 † \" Steinhauerhütte.\n1440\nFurter-Furter, Abraham, Zugführer, von Staufen.\nHunziker-Märki, Karl, Lithograph.\nHoffmann-Enderli, Elisabeth, Witwe, v. Stauffenberg (Baden).\n485 Erismann-Sager, Fried., Güterexpedient, von Gontenschwyl.\n1229 † Derselbe. Scheune.\n1563 Meyer-Brunner, Emil, Sekretär des Aarg. Versicherungs-\namtes, von Rheinfelden.\nRüetschi-Nüsperli, Friedrich, Buchhalter.\nZeender-Schäfer, Louis, Schriftsetzer, von Könitz (Bern).\n486 Maurer-Rychner, Fritz, Wirt, von Zollikon (Zürich).\n(Speisewirtschaft.)\n487 * Derselbe. Wohnhaus.\nFrey-Hochuli, Rudolf, Commis, von Gontenschwyl.\nNussbaum-Terry, Charl Bernh., Buchhalter, v. Densbüren.\n[spalte 2]\n14\n13\n13\n13\n10\n15\n10\n13\n14",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5579,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1995,
+    "lines": 63,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0794,
+    "mean_line_chars": 30.68,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:27:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p048",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p048.jpeg",
+      "bytes": 278842,
+      "sha256": "94ec4a357567b2ead6b3d4338340d1ccef2db7436322d22126c481b6a8a6b2da",
+      "sha256_of": "original",
+      "working_copy": "1899_p048.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:27:19+00:00"
+  }
+}

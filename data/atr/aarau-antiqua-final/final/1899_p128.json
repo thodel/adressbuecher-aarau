@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p128",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p128.jpeg",
+    "bytes": 292060,
+    "sha256": "9ee842c44f03a2f398f663d7711fffd13b30f3e3257fc92e12c5e307934d7f8a",
+    "sha256_of": "original",
+    "working_copy": "1899_p128.jpeg"
+  },
+  "text": "24\nKeller, Lina, Part., Wollwarenhandlung, Rathausgasse 5.\n— Lisette, Privat., Zollrain 51.\n— Maria, Glätterin, Rain 1185.\n— Olga, Wirtin zum „Neuen Bund“, Rain 822.\n— Paul, Zuckerbäcker, Kafferrwirtschaft, Zollrain 292.\n— geb. Siebenmann, Augustine, Uhrenmachers Wwe., Entfelderstr.1511.\n— Wilhelm, Pferdewärter, Halden 286.\nKern & Cie., (Heinrich Kern und Emil Kern, Fabrikation mathe-\n  matischer Instrumente), [tel] Ziegelrain 747.\n— Emil, Fabrikant, [tel] Bahnhofstraße 559.\n— Hrch., Fabrikant, [tel] Herzogstraße 1366.\nKessler, Johann, Verwalter der „Aarg. Nachrichten,“ h. Vorstadt 622.\nKettiger, Arnold, Kaufmann, Feerstraße 1456.\nKeusch, Jos. Karl, Apotheker, vordere Vorstadt 894.\nKiburz, Gotthold, Sattler und Tapezierer, Entfelderstraße 968.\n— geb. Wüthrich, Barbara, Wäscherin, Laurenzenthorgasse 1572.\nKielholz, Franz, Bahnangestellter, vor dem Haldenthal 1519.\n— Gottlieb, Postbeamter, hinter dem Bahnhof 501.\n— Luise, Part., Schachen 732.\nKiener geb. Tschopp, Margaretha, Näherin, Bahnhofstraße 1173.\nKieser, Robert, Bankbeamter, hinter dem Bahnhof 503.\n— Samuel, Postkassier, Graben 209.\n— Wilh., Kaufmann, Zollrain 87.\nKirchhofer, Marie, Modistin, Kasinostraße 659.\n— geb. Obrist, Maria, Witwe, Kasinostraße 659.\nKirchmer geb. Vonwiler, Ida, Mod., Modewarengeschäft, Graben 1161.\nKist, Emil, Obermüller, Stadthof 92 b.\nKistler, Emil, Taglöhner, Milchgaße 148.\n— Jb., Steuerpräsident, Ziegelrain 753.\nKleeb, Jos. Anton, Taglöhner, Kirchgaße 10 a.\nKlein, Jean, Samenhandlung, [tel] Kronengaße 34.\nKleiner, Gottlieb, Gasfabrikarbeiter, Scheibenschachen 1465.\nKlingelfuss, Emil, Mechaniker, Erlinsbacherstraße 1530.\n— Johann Friedrich, Mechaniker und Eichmeister, Weinberg 321 c.\n— -Graf, Otilie, Witwe, Zeughausstraße 1452.\nKloter, Edmund, Packer, Rathausgasse 5.\nKnecht geb. Vögeli, Barbara, Fabrikarbeiterin, Halden 264.\nKnechtli, Gottfried, Buchhalter, Laurenzenvorstadt 602.\nKöhler, G. A., Lithograph, Pelzgasse 128.\nKönig geb. Steiner, Anna, Küfers Witwe, hintere Vorstadt 688.\nKohlmann geb. Lünchli, Verena, Lithographie und Steindruckerei-\n  geschäft, Kirchhof 164.\nKoller geb. Kohler, Elisabeth, Spetterin, Metzgergasse 60.\nKrähenbühl, Luise, Näherin, Halden 264.\nKraft geb. Gauthier, Auguste Friederike, Witwe, Part., Milchgaße 158.\n— Hermann, Steindrucker, Weinberg 324.\n— geb. Kaspar, Maria, Witwe, Bachstraße 1039.\nKramer, Jakob, Knecht, Tell i 440.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 72411,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2376,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:31:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p128",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p128.jpeg",
+      "bytes": 292060,
+      "sha256": "9ee842c44f03a2f398f663d7711fffd13b30f3e3257fc92e12c5e307934d7f8a",
+      "sha256_of": "original",
+      "working_copy": "1899_p128.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:31:34+00:00"
+  }
+}

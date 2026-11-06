@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p096",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p096.jpeg",
+    "bytes": 238504,
+    "sha256": "2fed5587594f354246101144719742bc22fed4f1e8a05ca808b2276d5ec259c7",
+    "sha256_of": "original",
+    "working_copy": "1896_p096.jpeg"
+  },
+  "text": "74\nHaus-\nNr.\nVerzeichnis der Gebäude und ihrer Bewohner.\nHohlweg.\n984 † Gemeinde Aarau. Brunnenhaus.\nEntfelderstrasse.\n985 † Siebenmann, Friedrich, Bierbrauer, Stadtrat.\n986 Müller & Belser, Bauunternehmer. (Baumaterialienschof.)\n1171 Abgetragen, an dessen Platz\nSiebenmann, Friedrich, Bierbrauer, Stadtrat. Bierkeller.\n987 † Gemeinde Aarau. Brunnenhaus.\nKonradstrasse.\n988 Abgetragen, an dessen Platz\n1255 Hagnauer-Zimmermann, Albert, Kaufmann.\n989 Hagnauer-Wildberger, Barbara, Witwe, Part.\nHagnauer, Emma, Part.\nHagnauer, Nanette, Part.\nHagnauer, Mathilde, Part.\nAmsler-Harsch, Emil, Fürsprech und Notar, von Schinznach.\nAdvokaturbureau.\n990 Rothpletz-Waldkirch, Julius, Malermeister.\n991 † Verkrüzen-Schäfer, Karoline Elisabeth, Witwe, Part., v. Stuttgart.\n1381 Derselbe. Holzhaus.\n† Derselbe. Waschhaus.\n992 Schäfer, Ida, Postkontrolleurs, Part.\nSchürch, Adolf, Fabrikant, von Büren zum Hof (Bern).\n993 Wehrli-Peier, Rudolf, von Küttingen, Geschäftsführer der Allg. Aarg.\nErsparniskasse.\n994 † Derselbe. Gartenhaus.\nZschokkestrasse.\n995 Zschokke-Sauerländer, Guido, Buchhändler. Meteorologische\nStation.\nZschokke-Bernet, Ernst, Dr. phil., Bezirksschullehrer.\n1198 † Derselbe. Bienenhaus.\n996 Wydler-Fischer, Hrch., Bezirkslehrer, von Affoltern a./A. (Zürich).\nWerenfels-Reiner, Albert, Kaufmann, von Basel.\n997 † Derselbe. Holzhaus.\nGartenstrasse.\n998 Gysi-Büchle, Emil, Part.\nWidmer-Schäfer, Camilla, Witwe, Part., von Oberutzwil (St. Gall.).\nMerz-Diebold, Walter, Dr. jur., Justizsekretär, von Menziken.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4287,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1510,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:08:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p096",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p096.jpeg",
+      "bytes": 238504,
+      "sha256": "2fed5587594f354246101144719742bc22fed4f1e8a05ca808b2276d5ec259c7",
+      "sha256_of": "original",
+      "working_copy": "1896_p096.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:08:25+00:00"
+  }
+}

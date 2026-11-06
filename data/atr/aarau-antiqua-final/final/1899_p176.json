@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p176",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p176.jpeg",
+    "bytes": 262178,
+    "sha256": "87b6bcc917d3221a71345e33ad8bdde3067321becfb525ea76db8a5d2855fe2b",
+    "sha256_of": "original",
+    "working_copy": "1899_p176.jpeg"
+  },
+  "text": "72\nLingeriewaren.\nBirchmeier-Felber, Verena, Bahnhofstraße 658.\nBolliger-Manger, * hintere Vorstadt 646.\nErdin, Albin, * Rathausgasse 22. (S. Inserat Seite 22.)\nErismann & Blattner, vor dem Haldenthor 1299.\nErny-Faesler & Sohn, * Kronengasse 33.\nFehlmann-Blattner, Anna, Bahnhofstraße 648.\nHeß, Gebr., * zur Stadt Mühlhausen, Rathausgasse 4.\nMeisel-Leutwyler, Verena, * Rathausgasse 19.\nSchmid-Fischer, Heinrich, Laurenzenthorgasse 120.\nLinienanstalt.\nZebert, Georg, * Laurenzenthorgasse 116.\nLithographische Anstalten.\nKohlmann, Verena, Witwe, Kirchgasse 164.\nMüller & Trüb, * Bahnhofstraße 1287.\nWittmer, Julius, Rain 823.\nLiqueurfabrikanten.\nBrunnhofer-Meder, Aug., * Zollrain 178.\nMaler.\nBirchmeier, August, hinter dem Bahnhof 1477.\nDäster & Baum, Pelzgasse 130.\nGysi, Emil, obere Vorstadt 942.\nHäusler, Angelus, vor dem Haldenthor 762.\nHaßler, Gustav, hintere Vorstadt 642.\nRebmann, Karl, Rain 885.\nSchmuziger, Traugott, Rain 831.\nSpychiger, Friedrich, v. Vorstadt 682. Werkstätte Bachstraße 1029.\nManufakturwarengeschäfte.\nDreifuß, Emil, * Graben 352.\n— Karl, * vordere Vorstadt 889.\nErdin, A., Rathausgasse 22. (Siehe Inserat Seite 22.)\nGamber & Cie., * Rathausgasse 49 und 50.\nGisi-von Arx, * Holzmarkt 664.\nHaßler, Walter, * Graben 202.\nHeß, Gebr., * Rathausgasse 4.\nHoffmann, Arnold, vordere Vorstadt 675.\nLehmann-Oelhafen, J., vordere Vorstadt 891.\nSchmid-Fischer, Heinrich, * Laurenzenvorstadt 120.\nStahel & Cie., * (en gros), Schloßplatz 191.\nWeber-Suter, H., Laurenzenthorgasse 1118.\nSpezialität in Damenkleiderstoffen.\nWyler, Raphael, * vordere Vorstadt 902.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28791,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1573,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T20:06:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p176",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p176.jpeg",
+      "bytes": 262178,
+      "sha256": "87b6bcc917d3221a71345e33ad8bdde3067321becfb525ea76db8a5d2855fe2b",
+      "sha256_of": "original",
+      "working_copy": "1899_p176.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:06:46+00:00"
+  }
+}

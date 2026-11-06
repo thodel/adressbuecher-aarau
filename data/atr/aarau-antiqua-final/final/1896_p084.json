@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-gemini-retry-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p084",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p084.jpeg",
+    "bytes": 281064,
+    "sha256": "8ad2d0e043edeacd4d24172847bf4ceea1316afd08ece0725c97213a5e76871e",
+    "sha256_of": "original",
+    "working_copy": "1896_p084.jpeg"
+  },
+  "text": "62            Verzeichnis der Gebäude und ihrer Bewohner.\n\nHaus-\nNr.\n1243       Liechti-Steinegger, Paul, Dr. phil., Prof., von Murten (Freiburg).\n1252    † Derselbe. Bienenhaus.\n    807 †       „    Gartenhaus.\n1245    † Dubs-Walther, Karl, Metzger. Scheune.\n1218    † Mattenberger-Walther, Jakob, Metzger, von Birr.\n1324    † Derselbe. Eiskeller.\n1330    †       „    Bienenhaus.\n1219    † Kull, Philipp, Spenglers Erbschaft. Gartenhaus und Magazin.\n    808    Widmer-Horlacher, Gottfried, Kaminfeger, von Gränichen.\n    809    Wernli-Adel, Jakob, Gärtner.\n           Riner-Obrist, Johann, Polizeidiener, von Herznach.\n           Cadonau-Hunziker, Anton, Kellner, v. Waltensburg (Graubünden).\n           Dürr-Hofer, Emil, Gemüsehändler.\n    810    Frey-Kumpf, Friedr., Kanzleisekretär u. Musiklehrer, v. Densbüren.\n           Frey, Friedr., Sohn, Weinhändler (in Firma Vidiella & Frey), von\n             Densbüren.\n           Frey, Rosa, Feinwäscherei und Glätterei, von Densbüren.\n    811 † Derselbe. Holzhaus.\n1201    †       „    Waschhaus.\n    812    Abgetragen.\n1110    † Siebenmann-Walther, Schneider. Gartenhaus.\n    813 † Staat Aargau. Laboratorium.\n    814 † Derselbe. Munitionsmagazin.\n    815 †       „    Abtritte.\n    816 † Rychner, Heinrich, Gewehrfabrikant. Schießstand.\n    817 † Derselbe. Scheibenstand.\n    818 † Reformirte Kirchgemeinde Aarau. Gartenhaus. (Graf, Pfarrer).\n\nRain.\n\n    819    Hagenbuch-Gross, Karl, Coiffeur, Chirurg und Leichenbeschauer.\n           Spiegelglasversicherungs-Agentur.\n           Schatzmann-Bolliger, Elise, Spetterin. von Windisch.\n    820    Jörg-Künzli, Peter, Schuhmachermeister. Schuhhandlung.\n           Jörg, Emma, Damenschneiderin.\n           Keller, Maritz, Schuhmacher, von Wöschnau (Solothurn).\n           Gertiser-Andres, Maria, Witwe, Part., von Münchwylen.\n           Andres, Emma, Fabrikarbeiterin.\n    821    Birkhofer-Hagenbuch, Albertine, Damenschneiderin.\n           Andres-Bircher, Heinrich, Buchbinder, Schreibmaterialienhandlung.\n           Schürch-Haas, Robert, Buchdrucker, von Rohrbach (Bern).\n           Berner, Gottlieb, Dienstmann, von Unterkulm.\n    822    Keller, Gottlieb, von Wöschnau (Solothurn).\n           Graf-Tröndle, Ottilie, Witwe, v. Worblingen (Großherzogtum Baden).\n           Wirtin z. Neuen Bund. Speisewirtschaft.\n           Fischer-Widmer, Marie, Witwe, Part.\n    823    Wittmer-Schuhmacher, Elise, Witwe, Part., v. Erlinsbach (Soloth.).\n           Wittmer, Julius, Lithographieanstalt und Druckerei, von Erlinsbach\n             (Solothurn).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7668,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2539,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T20:47:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-gemini-retry-v1",
+    "source": {
+      "key": "1896_p084",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p084.jpeg",
+      "bytes": 281064,
+      "sha256": "8ad2d0e043edeacd4d24172847bf4ceea1316afd08ece0725c97213a5e76871e",
+      "sha256_of": "original",
+      "working_copy": "1896_p084.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T20:47:38+00:00"
+  }
+}

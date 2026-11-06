@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p040.jpeg",
+    "bytes": 279634,
+    "sha256": "80ebf61467164df1a36e37704a52fcb75f6587741d93993c8771d36b48f328e2",
+    "sha256_of": "original",
+    "working_copy": "1896_p040.jpeg"
+  },
+  "text": "18 Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n188 Fahrländer geb. Müller, Verena, Part.\nHartmann-Kahrmeier, Ludwig, Schneider, v. Augsburg (Bayern).\nMaurer-Nussberger, Samuel, Taglöhner, v. Schmiedrued.\nFischer-Haller, Jakob, Zimmermann, Bauamtssarbbeiter, v. Tennwyl.\nBlume-Hirt, Philipp, Schreiner, v. Sprendlingen (Hessen). Bau-\nund Möbelschreinerei.\nNussberger-Leutwyler, Samuel, Taglöhner, v. Seengen.\nHunziker & Cie. Möbelfabrik.\n189 * Hassler-Heberlein, Adolf, Färber.\nSiegenthaler-Hirt, Hermann, Uhrenmacher, von Trub (Bern).\nSiegenthaler-Hirt, Elise, von Trub (Bern). Wäscherei u. Glätterei.\n190 * Hassler-Heberlein, Adolf, Färber.\nZellweger, Oskar, Part., von Hauptweil (Thurgau).\nLäubli-Häfelt, Jakob, Fabrikaufseher, von Seengen.\nHofmann, Marie, Fabrikarbeiterin, von Schlossrued.\nHuber-Müller, Johann, Schneider, von Tristach (Oesterreich).\nHuber-Müller, Bertha, Glätterin, v. Tristach (Oesterreich).\nBolliger, Rud. Hermann, Bahnan angestellter, von Schlossrued.\nBolliger, Emma und Anna, Damenschneiderinnen, von Schlossrued.\nBolliger, Armin, Ferger, von Schlossrued.\nWernle-Schmidli, Kaspar, Holzer, von Thalheim.\n191 Stahel-Ernst, Jean, Kaufmann.\nStahel & Cie., Manufakturwaren-Handlung en gros.\nWeber, Stephan, Sekretär (Staatsanwaltschaft), von Sulz.\nWeber, Regina, Part., von Sulz.\n192 † Hegnauer-Renold, Rudolf, Fabrikant. Holzmagazin.\n193 * Derselbe. Fabrikgebäude. Fabrikation und Export von Geflechten\nin Stroh, Roßhaar, Manillahanf und Baumwolle.\nBiber-Graber, Theodor, Fabrikation von Seidenband und Näh-\nmaschinen-Handlung.\n194 Hegnauer-Renold, Rudolf, Fabrikant. Wohnhaus.\nWidmer, Rosette, Fegerin, von Othmarsingen.\nSchlossplatz.\n195 * Rothpletz-Wylder, E., Oberst, zum Schloßli (in Zürich).\nZehnder-Siebenmann, Maria, Part.\nFrey-Wirth, Lina, Bureaulistin, von Wangen (Solothurn).\n196 Rychner-Renold, Heinrich, Gewehr fabrikant.\n197 Gantner-Rychner, Maria, Oekonoms Witwe.\nGantner, Hermann, Oekonom.\nGantner, Gottlieb, Oekonom.\nGantner, Arnold, Oekonom (Sattler).\nHemmeler-Pfister, Friedrich, Postangestellter.\nHassler-Meier, Maria, Part., von Männedorf (Zürich).\n198 u. 199 Abgetragen. An dessen Platz\n1183 Gemeinde Aarau (Saalbau).\nSchatzmann-Häring, Jakob, Abwart, von Windisch.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 52513,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2219,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:47:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p040.jpeg",
+      "bytes": 279634,
+      "sha256": "80ebf61467164df1a36e37704a52fcb75f6587741d93993c8771d36b48f328e2",
+      "sha256_of": "original",
+      "working_copy": "1896_p040.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:43+00:00"
+  }
+}

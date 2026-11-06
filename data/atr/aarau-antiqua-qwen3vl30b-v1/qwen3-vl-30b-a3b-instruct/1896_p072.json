@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p072",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p072.jpeg",
+    "bytes": 267112,
+    "sha256": "c31b3ad769af94bdafe751570a0f09236bba6d78242dd62881a0ba12af4d5d04",
+    "sha256_of": "original",
+    "working_copy": "1896_p072.jpeg"
+  },
+  "text": "50\nHaus-\nNr.\n1197 * Dasselbe. Pfarrhaus.\nStöckli, Stephan, römisch-katholischer Pfarrer, von Muri.\n628 Frey-Rüegg, Oskar, Fabrikant.\n629 † Derselbe. Remise.\n1269 † Siebenmann, Rudolf, Bierbrauer. Brauereigebäude.\n630 † Derselbe. Remise, Bier- und Eiskeller.\n631 Abgetragen, an dessen Platz\n1232 * Matter-Schönenberg, Samuel, Amtsschreiber, von Oberentfelden.\nMatter-Fäs, Adolf, Bäcker, von Oberentfelden.\nFrey-Spengler, Elise, Reg.-Rats Witwe, von Zurzach.\nVogler-Baumann, Julius, Stadtgärtner, von Oberrohrdorf.\n1244 † Derselbe. Hintergebäude. Klein- und Großbäckerei.\n632 Bühler-Haberstich, Gottlieb, Kupferschmied, von Rietheim.\n633 * Bertschinger-Wild, Gustav, Spezereihändler, v. Lenzburg. Magazin.\nEichenberger-Joho, Verena, Schuhmachers Witwe, von Reinach.\n634 * Bachmann-Kümin, Joseph, Schneider, von Wollerau.\nMarini-Buricelli, Dominico, Südfrüchten- und Geflügelhändler, von\nPognona (Italien).\nErni-Mauderli, Katharina, Witwe, Fabrikarbeiterin, von Stühlingen.\nGampp-Spreuer, Philipp, Aufseher, von Hornussen.\n635 * Müller-Vondäniken, Friedrich, Oekonom.\nWidmer-Hoffmann, Salome, Witwe, Fabrikarbeiterin, von Erlins-\nbach (Solothurn).\n636 Lerf-Kirchhofer, Moritz, Schneider, von Leibstatt.\nMüller-Kramer, Jost, Schneider.\nHuber-Kern, Margarita, Wäscherin und Glätterin, von Wösch nau\n(Solothurn).\n637 Rychner-Schleuniger, Maria, Hafners Witwe.\nMüller-Vonäsch, Jakob, Buchbinder, von Unterkulm.\nPauli, Maria, Spetterin, von Villnachern.\n\nHintere Vorstadt.\n638 Hemmeler-Frey, Friedrich, Kaufmann, alt Stadtrat.\nHemmeler & Cie., Quincaillerie- und Spielwarengeschäft en gros.\nSpar-, Leih- und Diskontokasse.\nMärki-Schaffner, Jakob, Mühlenbauer.\n639 † Derselbe. Magazin.\n640 † Jakob Henz & Cie., Scheune und Remise.\n1235 † Derselbe. Wagenshopf und Remise.\n641 * Derselbe. Wohnhaus.\nBuser-Buser, Emil, Güterschaffner, v. Unter-Erlinsbach (Solothurn).\nBaumann-Käser, Heinrich, Polizeifeldweibel.\nMallzahn, August, Schuhmacher, von Neustadt (Preußen).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6019,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1954,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.42,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:06:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p072",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p072.jpeg",
+      "bytes": 267112,
+      "sha256": "c31b3ad769af94bdafe751570a0f09236bba6d78242dd62881a0ba12af4d5d04",
+      "sha256_of": "original",
+      "working_copy": "1896_p072.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:06:07+00:00"
+  }
+}

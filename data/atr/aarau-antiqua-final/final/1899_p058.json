@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p058",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p058.jpeg",
+    "bytes": 248256,
+    "sha256": "db829d4a0fb38ea778351ec9fefd8a4a5710d4e5dae2c500c0a3b43b08459f2f",
+    "sha256_of": "original",
+    "working_copy": "1899_p058.jpeg"
+  },
+  "text": "50\nHaus-\nNr.\n599 Derselbe. Wagner- und Sattlerwerkstätte, Magazin und\n  Comptoir.\n600 Derselbe. Kriegsfuhrwerkschuppen.\n601 Holzschofp.\n\nLaurenzenvorstadt.\n\n602* Feer-Grossmann, Erbschaft.\n  Stierli-Brentano, Goar Leonz, Fürsprech und Notar, Vize-\n  Stadtammann, von Aristau (Bureau Graben Nr. 615).\n  Käslin-Schönecker, Lina, Musikdirektors Witwe.\n  — Robert, cand jur.\n  Feer, Adele, Part.\n  — Karl.\n  — Sophie, Part.\n  Knechili-Gasser, Gottfried, Buchhalter, von Muhen.\n603 Dieselbe. Abgetragen.\n604 † \" Holzschofp.\n605 † \"\n606 † \" Bad- und Glättezimmer.\n\nBahnhofstrasse.\n\n607* Feer-Grossmann, Erbschaft. Wohnhaus mit Scheune.\n  Hoffmann-Bolliger, Jakob, Ökonom, von Unterkulm.\n  Bertschi-Wey, Gottlieb, Magaziner, von Dürrenäsch.\n608 † Derselbe. Abgetragen.\n609 Staat Aargau. Kantonsschülerhaus.\n610 Derselbe. Magazin.\n1819 \" Holzremise.\n1320 \" Magazin.\n611 \" Abgetragen.\n612 \" \"\n\nGraben.\n\n613* Oboussier-Imhof, Friedrich, Part. in Riesenbach-Zürich.\n  Firma F. Oboussier & Cie., Baumwolltuchfabrikation.\n  Oboussier-Schäfer, Friedrich, Fabrikant.\n614 † Derselbe. Magazine.\n1128 † \" Waschanus.\n615* Oboussier-Schäfer, Friedrich, Kaufmann.\n  Lang, Franz Theodor, Augenarzt, von Oftmingen.\n  Zehnder, Gottlieb, Part., von Birmenstorf.\n  Stierli-Brentano, Goar Leonz, Fürsprech und Notar, Vize-\n  Stadtammann, von Aristau (Advokatur- und Notariats-\n  bureau).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 115252,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1360,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0227,
+    "mean_line_chars": 28.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:24:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p058",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p058.jpeg",
+      "bytes": 248256,
+      "sha256": "db829d4a0fb38ea778351ec9fefd8a4a5710d4e5dae2c500c0a3b43b08459f2f",
+      "sha256_of": "original",
+      "working_copy": "1899_p058.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:24:40+00:00"
+  }
+}

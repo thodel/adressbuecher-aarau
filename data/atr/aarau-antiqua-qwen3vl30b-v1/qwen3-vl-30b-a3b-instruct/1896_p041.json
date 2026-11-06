@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p041",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p041.jpeg",
+    "bytes": 272101,
+    "sha256": "14b308e982054603974f66c3a4be953c8f75e54a9c12e15ac32aa55afdf2eb5a",
+    "sha256_of": "original",
+    "working_copy": "1896_p041.jpeg"
+  },
+  "text": "Haus-\nNr.\n200 † Einwohnergemeinde Aarau (Alte Storchenscheune).\n201 † Biland-Wettler, Karl, Gastwirt, von Birmenstorf.\nScheune des Gasthofs zum Ochsen.\n\nGraben.\n202  Schmidt-Hagnauer, Gustav, Kaufmann.\nJäggi, Wilhelmine, Seminarlehrerin.\nHassler-Schlatter, Walter, Kaufmann, Manufakturwaren- u. Teppich-\nHandlung.\n203 Abgetragen; an dessen Platz\n1161  Bircher-Burger, Emil Ludwig, Postbeamter.\nBircher-Burger, Marie, Restauration (Café Bircher).\nHorlacher, Wilhelm, Kaufmann, von Umiken.\n204 Frey-Schmidlin, Othmar, Fürsprech, Vice-Bankdirektor.\n205 Rohr-Hässig, Emma, Witwe, Part.\nRohr-Habicht, Hans, Konditor, Konditorei u. Kaffeewirtschaft.\nBolens-Richner, Selma, Part., von Morges (Waadt).\nHofer, Anna, Postangestellte, von Hüttingen (Thurgau).\n206  Schiesser-Hässig, Hermann,Kaufmann. Käsehandlung en gros.\n207 * Markwalder-Gamper, Traugott, Oberst, Kavallerie-Instruktor I. Kl.\nKirchner-Vonwiller, Ida, Modistin, von Merseburg (Preussen). Mode-\nwaren-Geschäft.\nHugi, Marie, Coiffeuse, von Selzach (Solothurn).\nVonwiller-Gautschi, Lina, von St. Gallen, Part.\n208 Abgetragen; an dessen Platz\n1237  Dürr-Lüscher, Maria, Witwe, Gemüsehdlg. und Restauration.\nBurgheer-Dürr, Viktor, Schneider, von Schmiedrued.\nHeimer-Ruchti, Johann, Schneider, von Kempten (Bayern).\nRiehl-Dürr, Charles, Koch, von Obernai (Elsass).\nGraf, Arnold, Eugen, Coiffeur und Chirurg, von Birrwyl.\n209 Kieser-Hassler, Samuel, Postkassier.\nHassler, Margaretha, Glasers, Part.\nBurgmeier-Kieser, Joseph, Gesanglehrer. Grosses Klavier-\nund Harmoniumlager, im grossen Saale des ehemaligen Gasthofes z.\n„Stochren“, Laurenzenthorgasse 117. Kauf, Tausch- und Miete.\n\nHinter dem Platz.\n210 Wildi-Aesbach, Emil, Schreinermeister, von Suhr.\n211 † Gemeinde Aarau. Spritzenhaus Nr. 8.\n212 * H. Kummler & Cie., Elektrizitätswerk Aarau. Fabrikgebäude.\nBureau vis-à-vis in Nr. 128. Installation elektr. Licht- und Kraft-\nanlagen, elektr. Lautwerke- und Telefonanlagen. Mechanische\nWerkstätten, Vernicklungsanstalt.\n213 Trefzger-Schöndli, Gustav, Dampf-Wasch- und Badanstalt. Kohlen-\nHandlung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5457,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2050,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0222,
+    "mean_line_chars": 44.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:03:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p041",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p041.jpeg",
+      "bytes": 272101,
+      "sha256": "14b308e982054603974f66c3a4be953c8f75e54a9c12e15ac32aa55afdf2eb5a",
+      "sha256_of": "original",
+      "working_copy": "1896_p041.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:13+00:00"
+  }
+}

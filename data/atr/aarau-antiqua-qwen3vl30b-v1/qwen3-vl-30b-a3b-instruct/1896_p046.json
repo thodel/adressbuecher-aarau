@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p046",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p046.jpeg",
+    "bytes": 268026,
+    "sha256": "292badb85b32bbca76da4dabb21c871c3d643f7843384ffb8d82d8cdf74de67a",
+    "sha256_of": "original",
+    "working_copy": "1896_p046.jpeg"
+  },
+  "text": "24\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n261 Rauchenstein-Pfleger, Sophie, Professors Witwe.\nPfleger, Emma, Pfarrers, Privatin.\n262 Abgetragen.\n263 * Hefti-Hunziker, J. P., Schneidermeister, von Schwanden (Glarus).\nErismann-Lehner, Hermann, Hafner, von Gontenschwyl.\n264 Wildi-Matt, Jakob, Tapezierer, von Schafisheim.\nWildi, Anna, Damenschneiderin, von Schafisheim.\nZimmerli-Stänz, Eduard, Cementarbeiter, von Oftringen.\nSchmid-Burkolt, Friedrich, Schneider, von Zurzach.\nWeikgenannt-Käser, Verena, Wwe., Näherin, v. Mingolsheim (Baden).\nKäser, Friedrich, Buchbinder, von Oberflachs.\nHunn-Fehlmann, Verena, Taglöhnerin, von Egliwyl.\nFehlmann, Elisabeth, Part., von Möriken.\nKnecht-Vögeli, Barbara, Fabrikarbeiterin, von Oberflachs.\nKrähenbühl, Louise, Näherin, von Altishofen (Luzern).\nBertschi, Wilhelm, gew. Camioneur, von Dürrenäsch.\n265 Hassler-Ernst, August, Färber.\nHassler, Maria, Part.\n266 a Wehrli-Hässig, Hans, Zimmermann.\n266 b Hagnauer, Gottlieb, Metzger.\nHostettler-Hagnauer, Niklaus, Schuhmacher, v. Guggisberg (Bern).\nMeissner-Süss, Johann, Schneider, von Geroldshofen (Bayern).\nBiberstein-Spycher, Eugen, Spengler, von Bözingen (Bern).\n267 Siebenmann-Marti, Rosinas Erbschaft.\nStrebel-Siebenmann, Karl, Sekretär.\nMarti-Siebenmann, Ida, Arbeitslehrerin.\nMarti, Lina, Damenschneiderin.\nDöhnell, Emma, Spetterin, von Badenweiler (Baden).\n268 Merz-Dürr, Jb., Heizer.\nSchmid-Unger, Sophie, Weichenwärter's Witwe, Part., v. Erlinsbach.\nSchmid, Rudolf, Taglöhner, von Erlinsbach.\nNünlist-Müller, Katharina, Taglöhnerin v. N.-Erlinsbach (Solothurn).\nHuber, Rudolf, Posamenter, von Unterkulm.\n269 * Keller-Läuchli, Paul, Zuckerbäcker.\nRohr-Wehrli, Daniel, Straßenwärter, von Hunzenschwyl.\nWernle-Treier, Samuel, Taglöhner, von Thalheim.\n270 † Derselbe.\nDürr, Gottfried, Schuhmacher. (Werkstätte.)\nRenold, Friedrich, Taubstumme, Gießereiarbeiter.\n271 * Camisasca, Franz, Kaufmann, Part.\nJäggi-Meyer, Agathokles, Gipser, von Fulenbach (Solothurn).\nSchneider-Hochstrasser, Samuel, Taglöhner, von Thalheim.\nSuter-Arber, Rudolf, Part., von Gränichen.\n272 * Wärtli, Friedrich, Buchhalter, in Derendingen.\nSteiner, Hermann, Bahnangestellter, von Gontenschwyl.\nSteiner, Bertha, Fabrikarbeiterin, von Gontenschwyl.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5910,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2240,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:03:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p046",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p046.jpeg",
+      "bytes": 268026,
+      "sha256": "292badb85b32bbca76da4dabb21c871c3d643f7843384ffb8d82d8cdf74de67a",
+      "sha256_of": "original",
+      "working_copy": "1896_p046.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:40+00:00"
+  }
+}

@@ -184,7 +184,7 @@ def geocode_streets(cache: dict, limit: int | None) -> None:
     by_norm: dict[str, dict] = {}
     done = 0
     for r in rows:
-        if r["norm_method"] != "rule":
+        if r["norm_method"] not in ("rule", "fuzzy"):
             continue
         n = r["street_norm"]
         m = manual.get(n)

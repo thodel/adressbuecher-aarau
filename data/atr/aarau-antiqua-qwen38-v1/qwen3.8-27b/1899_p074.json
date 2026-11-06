@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p074",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p074.jpeg",
+    "bytes": 277843,
+    "sha256": "b485a3a4b3b8c41fa1b4dd7db31efa73ef2edd1ac1e2392a2fd3f8b6d1e60a35",
+    "sha256_of": "original",
+    "working_copy": "1899_p074.jpeg"
+  },
+  "text": "66\nHaus-\nNr.\n829 Lüscher-Hilfiker, Hans, Notar, Bezirksrichter, von Muhen.\n  Notariats- und Inkassogeschäft.\n  Stäubli-Lutz, Joh. Heinrich, Kassier der Güterexpedition\n  von Horgen (Zürich).\n  Lutz, Johann, Kaufmann, von Basel.\n  Wieland-Wieland, Hermine, Part. von Rheinfelden.\n830 † Derselbe. (Hinterhaus mit Bureau).\n831 Schmuziger-Freudigen, Traugott, Malermeister.\n  Möscher-Keller, Karl, Bahnansteller von Frick.\n  Frauen-Asyl bestehend aus:\n  Bopp, Elisabeth, Hausmutter, von Unterhallau.\n  Stänz-Bircher, Anna Maria, Part. von Küttigen.\n  Müller-Nussbaum, Sarah, von Basel.\n  Mattenberger, Elise, von Birr.\n  Lienhardt, Rosetta, von Buchs.\n  Wernli, Elisabeth, von Thalheim.\n  Büchler, Louise, von Lauffohr.\n  Margraf, Anna, von Gottmadingen.\n1225 † Derselbe. Holzhaus.\n1226 † \" Gartenhaus.\n832 Rychner-Hess, Louis, Ingenieur. Stadtrat.\n  — geb. Buhlmann, Maria Elisabeth, Part.\n  Hess-Basler, Elise, Witwe, von Gempenach (Freiburg).\n  Dambach geb. Wild, Sophie, Witwe, von Brugg.\n  Frey-Ringier, Karl, Bäcker und Wirt von Densbüren\n  (Pintenwirtschaft.)\n1315 † Derselbe. Holzschopf.\n833 Suter-Kohler, Jakob, Schreiner, von Kölliken.\n834 Firma Schmuziger & Cie., Sieglack-u. Tintenfabrikation.\n  Schmuziger-Rüetschi, Emil, Fabrikant.\n835 † Abgetragen; an dessen Platz.\n  Dieselben.\n1359 Schmuziger-Stäheli, Adolf, Fabrikant.\n836 † Dieselben. Magazin.\n837 \" Abgetragen.\n1508 † Dieselben. Farbholtzküche.\n838 Siebenmann, Gottlieb, Gerber, Part.\n  Schar, Maria, Haushälterin, von Balzenwyl.\n  Reimann-Schaub, Fritz, Postbeamter, von Wölflinswyl.\n  Lüscher-Weissbrot, Jakob, Notar von Muhen.\n839 Keller-Buser, Gottfried, Buchdrucker von Hottwyl. Druck\n  und Verlag des Aargauischen Anzeigers, des Suhren-\n  thalerboten und des Schulblattes.\n840 Wyder-Brast, Albert, Kaufmann, von Oberstrass (Zürich).\n  (Agentur- und Kommissionsgeschäft. Agentur der\n  Nordischen Feuerversicherungsgesellschaft in London).\n841 † Rüetschi-Bopp, Hermann, Glockengiesserei. Scheune.\n842 Abgetragen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 30870,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1982,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.75,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:41:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p074",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p074.jpeg",
+      "bytes": 277843,
+      "sha256": "b485a3a4b3b8c41fa1b4dd7db31efa73ef2edd1ac1e2392a2fd3f8b6d1e60a35",
+      "sha256_of": "original",
+      "working_copy": "1899_p074.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:41:51+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p071",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p071.jpeg",
+    "bytes": 252150,
+    "sha256": "a1d3f0fa283e68bc48a1b25bdd6820157d3b777e19fde61523320725b897f75b",
+    "sha256_of": "original",
+    "working_copy": "1896_p071.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner. 49\nHaus-\nNr.\n616 Derselbe. Scheune mit Schopf.\n617 „ Wachhaus.\n618 Berner-Egli, Dr., Hermann, Zahnarzt.\nBerner-Mauch, Rudolf, Part.\nHirzel, Arnold, Dr. phil., Bezirksschullehrer, von Lenzburg.\n619 Willimann, Anton, Lohnkutscher (an der Schmiedgasse auf-\ngenommen).\n620 a Siebenmann, Rud., Bierbrauer. Pinten-Wirtschaft z. Hirschen.\nKauffmann, Otto, Commis, von Buchs (Luern).\nStänz-Wildi, Rudolf, Schriftsetzer, von Küttigen.\nGeissmann, Xaver, Sekretär, von Häggingen.\n620 b Derselbe. Kegelbahn und Kühlschiff.\n\nHintere Vorstadt.\n621 * Siebenmann-Siebenmann, Rudolf, Partikular.\nErismann & Blattner, Weisswarengeschäft.\nErismann, Marie, Weissnähern, von Muhen.\nBlattner, Marie, Weissnähern, von Küttigen.\nZiegler-Erismann, Marie, von Veltheim.\nSchmid-Willi, Joseph Anton, Polizeiwachtmeister und Fischereiagent,\nvon Wittnau.\n622 * Siebenmann, Rudolf, Bierbrauer.\nAktiengesellschaft: Druck u. Verlag der „Aargauer Nachrichten\".\nZimmermann-Hartmann, Johann, Lehrer, von Kempfhof.\nJoho, Anna Maria, Part. von Biberstein.\n623 Baumann-Wälti, Kaspar, Milchverkäufer, von Bottenwyl. Kaffee-\nwirtschaft.\nWalti-Wernli, Hermann, Wagenwärter, von Dürrensäsch.\nMüller-Walti, Maria, Witwe, Weissnähern, von Bötzingen.\n624 Bertschinger-Wild, Gustav, von Lenzburg. Spezereihandlung.\nHauri-Gränicher, Karl, Buchhalter, von Seengen.\n\nSchmiedgasse.\n625 Widmer-Eichenberger, Hermann, Küfermeister, von Hussen.\nBaumann-Gautschi, Samuel, Hufschmied, Part.\nWernli-Neessr, Kaspar, Postkondukteur, von Thalheim.\nAmsler-Baumann, Heinrich, Fabrikkaufseher, von Densbüren.\nHüsser-Müller, Otto, Bremser, von Remetschwil.\nHochuli, Jakob, Postangestellter, von Reitnau.\n626 Derselbe. Remise und Waschküche.\n619 Willimann-Lehmann, Anton, Lohnkutscher.\nSchenker, Gustav, Bezirkstierarzt, von Schönenwerd (Solothurn).\n627 Abgetragen; an dessen Platz\n1170 * Bau- und Garantie-Comité der römisch-kathol. Kirche (römisch-\nkatholische Pfarrkirche).\n4",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 77506,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1957,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:36:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p071",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p071.jpeg",
+      "bytes": 252150,
+      "sha256": "a1d3f0fa283e68bc48a1b25bdd6820157d3b777e19fde61523320725b897f75b",
+      "sha256_of": "original",
+      "working_copy": "1896_p071.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:36:48+00:00"
+  }
+}

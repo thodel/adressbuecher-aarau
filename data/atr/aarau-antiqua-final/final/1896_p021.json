@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p021",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p021.jpeg",
+    "bytes": 213385,
+    "sha256": "1210897f17e240851393be8e858f322b704500ea7027acbe68ec4c7a5822a3ed",
+    "sha256_of": "original",
+    "working_copy": "1896_p021.jpeg"
+  },
+  "text": "XV\n\nVerzeichnis der Inserate.\n\nInserat Seite\nBaloise, Lebensversicherungs-Agentur . . . . . . . . . . . . . . 4\nBrändli & Cie., Horgen, Asphalt, Holzcement etc. . . . . . . 23\nBrunnhofer, August, Liquerfabrikant . . . . . . . . . . . . . . 4\nBurgmeier, J., Harmonium- und Klavier-Lager . . . . . . . . . 16\nBührer, Karl, Wierermöbel . . . . . . . . . . . . . . . . . . . . 11\nErny-Fassler & Sohn, Mercerie-Verlag . . . . . . . . . . . . . 21\nFleiner & Cie., Cementfabrik . . . . . . . . . . . . . . . . . . . 1\nFrey & Cie., chemische Produkte . . . . . . . . . . . . . . . . . 3\nGerber, Hans (Hotel Gerber) . . . . . . . . . . . . . . . . . . . 12\nGloor-Siebenmann, Delikatessen und Spezerei etc. . . . . . . 15\nGysi & Cie., Reißzeugfabrik und optische Instrumente . . . . 4, 7, 16\nHagenbuch, Friedr., Buchbinderei und Papeterie . . . . . . . . 22\nHassler & Cie., Hans, Teppichlager, Linoleum . . . . . . . . . 14\nHässig, Julius, Café zur Bank . . . . . . . . . . . . . . . . . . 14\nHirschy, J. R., Uhrenmacher . . . . . . . . . . . . . . . . . . . 16\nHoffmann-Gamper, Agenturen . . . . . . . . . . . . . . . . . . . 15\nLagerhäuser der Central schweiz . . . . . . . . . . . . . . . . . . 7\n„La Suisse“, Lebensversicherung . . . . . . . . . . . . . . . . . . 18\nMärky & Haller, Mühlenbau . . . . . . . . . . . . . . . . . . . . 18\nMerz-Märk, Notariat und Inkasso . . . . . . . . . . . . . . . . . 16\nMittelschweiz. Geograph.-Kommerzielle Gesellschaft . . . . . . 10\nMüller, Ed., Schirmfabrikation . . . . . . . . . . . . . . . . . . 9\nOehler & Cie., A., Maschinenfabrik und Eisengießerei . . . . . 6\nRichner & Rothpletz, Cementwaren . . . . . . . . . . . . . . . 24\nRüetschi & Cie., Glockengiesserei . . . . . . . . . . . . . . . . . 13\nRusterholz & Freihofer, Bildhauer . . . . . . . . . . . . . . . . . 5\nRychner, L., Ingenieur . . . . . . . . . . . . . . . . . . . . . . . 23\nSchatzmann, S., Buchbinder . . . . . . . . . . . . . . . . . . . . 2\nSchmuziger & Cie., Tintenfabrik . . . . . . . . . . . . . . . . . . 7\nSt. Laurenzenbad . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\nVereinigte Schweizer-Bazars . . . . . . . . . . . . . . . . . . . . 12\nVidiella & Frey, Weinhandlung . . . . . . . . . . . . . . . . . . . 19\nWildi-König, R, Agenturen . . . . . . . . . . . . . . . . . . . . 4\nWinterthurer Unfallversicherungs-Gesellschaft . . . . . . . . . . 5\nWirth, Franz, Agenturen . . . . . . . . . . . . . . . . . . . . . . 5, 18\nWirz-Christen, C., Papeterie . . . . . . . . . . . . . . . . . . . . 21\nWirz, Emil, Buchdruckerei . . . . . . . . . . . . . . . . . . . . . 17\nWüthrich-Elmer, St. Laurenzenbad . . . . . . . . . . . . . . . . . 8\nZschokke, O., Baugeschäft . . . . . . . . . . . . . . . . . . . . . 22\n„Zürich“, Unfallversicherungsgesellschaft . . . . . . . . . . . . 15",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 23889,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2793,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 63.93,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:26:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p021",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p021.jpeg",
+      "bytes": 213385,
+      "sha256": "1210897f17e240851393be8e858f322b704500ea7027acbe68ec4c7a5822a3ed",
+      "sha256_of": "original",
+      "working_copy": "1896_p021.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:50+00:00"
+  }
+}

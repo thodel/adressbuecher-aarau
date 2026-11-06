@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p186",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p186.jpeg",
+    "bytes": 266392,
+    "sha256": "8f49815c17f5fd905114773d02a925cf68e99a7528cbb0414c1947a95db91195",
+    "sha256_of": "original",
+    "working_copy": "1899_p186.jpeg"
+  },
+  "text": "82\nSchatzmann, Samuel, Pelzgasse 135. (S. Inserat Seite 5.)\nWirz-Christen, Karoline, * Oberthor 138.\nZebert, Georg, * Laurenzenthorgasse 116 und Bahnhofstraße 1860.\nSchreiner.\nAndres, Jakob, jenseits der Aare 299.\nBerner, Rudolf, Rain 888.\nBlume, Philipp, Hammer 188.\nDürr, Isaak, Milchgasse 141.\nFrei, Friedrich, vor dem Haldenthor 768.\nGysi, Samuel, Stadthof 92 b.\nJörg, Samuel, Bachstraße 1032.\nRotter, Joh., hinter dem Bahnhof 1302.\nStrebel, Eduard, Rain 857.\nWernli, Jakob, obere Vorstadt 909. (S. Inserat S. 22.)\nWildi, Emil, hinter dem Platz 210.\n— Samuel, Ziegelrain 713.\nSchuhfabrikation.\n(Siehe Fabrikationsgeschäfte.)\nSchuhmacher-Fournituren.\nHäny, Rudolf, Bahnhofstraße 656.\nSchuhwarenhandlungen.\nBerchtold, Jakob, obere Vorstadt 937.\nCodoni-Dreßler, * Remigius, Rain 826. (S. Inserat Seite 14.)\nHagmann, Adolf, * hintere Vorstadt 1262.\nHoffmann, Johann, Milchgasse 72.\nJörg, Peter, Rain 820.\nKrumet, Gottlieb, hintere Vorstadt 694.\nKünze, Oswald, Pelzgasse 122.\nLimmacher, Niklaus, Rathausgasse 24.\nMayer, Thomas, hintere Vorstadt 697.\nRoth, Friedrich, Zeughausstraße 1887.\nSchneeberger-Salvi, Jakob, * Rathausgasse 3.\nSemmeler-Gans, Margaretha, Rain 879.\nStapfer, Johann, * Rathausgasse 31.\nVogt, Johann, obere Vorstadt 911.\nVolkmer-Mußmann, Barbara, Rain 879.\nSchuhmacher.\nBächli, Gottlieb, Bahnhofstraße 1021.\nBerchtold, Jakob, obere Vorstadt 937.\nDietiker, Samuel, Laurenzenvorstadt 376.\nDill, Johann, Metzgergasse 107.\nDöhnelt, August, Golattenmattgasse 239.\nDürr, Gottfried, Halden 274.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4556,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1505,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0227,
+    "mean_line_chars": 33.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:41:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p186",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p186.jpeg",
+      "bytes": 266392,
+      "sha256": "8f49815c17f5fd905114773d02a925cf68e99a7528cbb0414c1947a95db91195",
+      "sha256_of": "original",
+      "working_copy": "1899_p186.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:41:20+00:00"
+  }
+}

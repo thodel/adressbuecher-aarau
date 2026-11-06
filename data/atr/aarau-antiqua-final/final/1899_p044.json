@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p044",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p044.jpeg",
+    "bytes": 275171,
+    "sha256": "0890c0275832dcc627ba6884e56dfcedab3d05e9ab636d41caebec643dc79e32",
+    "sha256_of": "original",
+    "working_copy": "1899_p044.jpeg"
+  },
+  "text": "36\nHaus-\nNr.\nIn der Tellii.\n1335 * Ernst-Rey, Gustav, Landwirt.\n        Brogli-Gautschi, Josef, Brieffräger, von Sisseln.\n        Husi-Lämmlı, Franz Josef, Bahnan gestellter, v. Wangen (Sol.)\n        Derselbe. Wohnhaus und Scheune.\n1429 † Einwohnergemeinde Aarau. Spritzenhaus.\n 431 * Frey-Herzog, August, Fabrikant. [tel] Bureau der Firma\n        Frey & Cie.\n        Wagner, Alice, Lehrerin, Kindergarten, von Bern.\n 432 † Derselbe. Scheune.\n 433 † \" Holzmagazin.\n 434 † \" Bleikammergebäude und Dampfkessel.\n 435 a † \" Laboratorium, Magazin.\n 435 b † \" Laboratorium chemischer Produkte und photogr.\n        Utensilien.\n 436 † \" Chemisches Laboratorium.\n 437 * \" Schreinereigebäude mit Arbeiterwohnung.\n 438 † \" Magazin.\n 439 † \" Schopp und Magazin.\n 440 * \" Kosthaus.\n        Käser-Stänz, Xaver, Aufseher, von Erlinsbach (Solothurn).\n        Wernli-Hächler, Jakob, Fabrikarbeiter, von Thalheim.\n        Stäheli-Grenacher, Jakob, Fabrikarbeiter, von Egli swyl.\n        Kramer-Müller, Jakob, Knecht, von Zezwyl.\n        Bucher-Bolliger, Joh., Fabrikarbeiter, v. Niederweningen (Zch.).\n        — -Rohr, Gottlieb, Fabrikarbeiter, v. Niederweningen (Zch.).\n        — -Wirz, Marie, Witwe, Part., von Niederweningen (Zürich).\n        Rodel-Sandmeier, Anna Witwe, Fabrikarbeiterin, v. Staufen.\n 441 † Derselbe. Wasch- und Holzhaus.\n 442 † \" Baumwollspinnerei.\n 443 † \" Wasserrad und Transmission.\n1245 Frey, Robert und Max, Chocoladefabrikanten. [tel] Maschinen-\n        hüuschen.\n 444 a * Frey-Herzog, August, Fabrikant. Wohngebäude.\n        Meyer-Zobrist, Jakob, Kaufmann, von Othmarsingen.\n 444 † * Derselbe. Schreinereiwerkstätte.\n 445 * Wohnhaus.\n        Schibler-Sinniger, Rudolf, Aufseher, von Walterswyl (Sol.).\n 446 † Derselbe. Gebäude mit Wasserstetlfällen.\n 447 † \" Magazingebäude.\n 448 Obrist-Diener, Theodor, Postpacker, von Magden.\n        — — Johanna, Speisewirtschaft zur Tellii.\n        Derselbe Kegelbahn.\n 449 Jenny & Weigel. Färberei- und Druckereigeschäft [tel].\n        — -Kunz, Adolf, Kaufmann, von Iffwil (Bern).\n        Weigel-Imbach, Johann, Färber.\n        Rothpletz-Wannod, Karl, Bankangestellter.\n 450 † Dieselben. Scheune und Tröcknhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 84563,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2160,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T18:08:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p044",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p044.jpeg",
+      "bytes": 275171,
+      "sha256": "0890c0275832dcc627ba6884e56dfcedab3d05e9ab636d41caebec643dc79e32",
+      "sha256_of": "original",
+      "working_copy": "1899_p044.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T18:08:17+00:00"
+  }
+}

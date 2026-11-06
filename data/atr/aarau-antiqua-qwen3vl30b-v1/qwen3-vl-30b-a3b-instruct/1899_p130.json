@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p130",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p130.jpeg",
+    "bytes": 293172,
+    "sha256": "6ea8f73f4b6a96896d184a617841b2e006543643578881915913603dd29611bb",
+    "sha256_of": "original",
+    "working_copy": "1899_p130.jpeg"
+  },
+  "text": "26\nLandolt, Gottlieb, Ökonom, „Zum Tannenheim“, Entfelderstraße 1398.\n— geb. Hässig, Lina, Witwe, Rain 828.\n— geb. Häuptli, Maria, Witwe, Damenschneiderin, Halden 284.\n— geb. Hartmann, Emilie, Witwe, hinter dem Bahnhof 1559.\nLang, Franz Theod., Augenarzt, Graben 615.\nLattmann, Georg Heinrich, Lokomotivführer, Kirchgasse 13.\nLauber, Jos. Anton, Postcommis, Rain 871.\nLaury, Jakob, Wagner, vor dem Haldenthor 755.\nLechner, Paul Franz, March-Tailleur, Kasinostraße 576.\nLehmann geb. Oelhafen, Jenny, Merceriegeschäft, vord. Vorstadt 891.\nLehner, Rudolf, Küher, obere Vorstadt 946.\nLenzi, Albert, Kontrolleur der Aarg. Ersparniskasse, Pelzgasse 129.\n— Jakob, Korbmacher, Korbwarenhandlung, Metzgergasse 107.\n— Xaver, Taglöhner, Rain 1185.\nLenzin, Sophie, Lehrerin, Pelzgasse 124.\nLerf, Moritz, Schneider, Halden 252.\nLeu, Jakob, Taglöhner, Laurenzenvorstadt 376.\n— Jakob, Obergerichtskanzlist, Rohrerstraße 1536.\nLeube geb. Kienberger, Adele, Wirtin z. Jura, Rohrerstraße 1479.\nLeutwyler geb. Hofer, Elise, Strickerin, Ziegelrain 713.\nLiechti, Paul, Dr. phil., Professor, vor dem Haldenthor 1243.\nLienberger, Kaspar, Schuhmacher, Kirchgasse 8 b.\nLienhard, Albert, Schlosser, obere Vorstadt 944.\n— Anna, Modistin, Modengeschäft, Pelzgasse 67.\n— geb. Baumann, Emilie, Witwe, Halden 285.\n— Franz, Part., Metzgergasse 112.\n— Jakob, Monteuer, vor dem Haldenthor 1312.\n— Marie, Glätterin, obere Vorstadt 944.\n— Rosette, Rain 831.\nLimmacher, Niklaus, Schuhmachermeister, Rathausgasse 24.\nLinden geb. Grob, Emma, Witwe, Haushälterin, Gais 480.\nLindenmann, Emma, Lehrerin, Kasinostraße 576.\n— Ida, Telegraphistin, Kasinostraße 576.\n— geb. Wey, Maria, Witwe, Part., Kasinostraße 576.\nLindegger, Gottfried, Güterexpedient, Bahnhofstraße 519.\nLips, Kaspar, Postkondukteur, Rain 858.\n— Kaspar, Kaufmann, hintere Vorstadt 693.\nLocher, Jakob, Bremser, Pelzgasse 122.\n— Jakob, Postkondukteur, Gais 1249.\n— Karl, Prokurist, in der Gais 1517.\nLooser, Joh. Jakob, Bierbrauer, obere Vorstadt 928.\nLüscher, Albert, Käse- und Milchhandlung, hintere Vorstadt 696.\n— Daniel, Gießereibesitzer, hinter dem Bahnhof 1491.\n— Elise, Glätterin, hintere Vorstadt 647.\n— Emma, Weißnäherin, vordere Vorstadt 898.\n— Hans, Notar, Bezirksrichter, Rain 829.\n— Herm., Mechaniker, hinter dem Bahnhof 1414.\n— geb. Jäggi, Marie, Spetterin, Halden 248.\n— Jakob, Notar (Bureau). Metzgergasse 56. Wohnung Rain 838.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7161,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2367,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:35:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p130",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p130.jpeg",
+      "bytes": 293172,
+      "sha256": "6ea8f73f4b6a96896d184a617841b2e006543643578881915913603dd29611bb",
+      "sha256_of": "original",
+      "working_copy": "1899_p130.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:35:16+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p196",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p196.jpeg",
+    "bytes": 272783,
+    "sha256": "37279a5a7de2179edfd66a805f6d6473515f84bc10726e393635e7f1bc01a88c",
+    "sha256_of": "original",
+    "working_copy": "1896_p196.jpeg"
+  },
+  "text": "Die alte Kantonsschule, nach einer alten Lithographie.\n\nOeffentliche Anstalten.\n\na. Lehranstalten.\n\nKantonsschule.\n\nGründung derselben 1802.\n\nRektor: Dr. Aug. Tscherschmid.\n\nProfessoren und Lehrer.\n\nDr. Bühler, für Geschichte sowie",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 144398,
+  "truncated": true,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 231,
+    "lines": 8,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 27.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0087,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:16:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p196",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p196.jpeg",
+      "bytes": 272783,
+      "sha256": "37279a5a7de2179edfd66a805f6d6473515f84bc10726e393635e7f1bc01a88c",
+      "sha256_of": "original",
+      "working_copy": "1896_p196.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:16:20+00:00"
+  }
+}

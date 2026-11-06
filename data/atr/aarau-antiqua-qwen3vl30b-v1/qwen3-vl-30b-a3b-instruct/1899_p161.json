@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p161",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p161.jpeg",
+    "bytes": 261481,
+    "sha256": "27737107a0c16fe190667f240fbd150d33b049cc464931108059a047710d9bcf",
+    "sha256_of": "original",
+    "working_copy": "1899_p161.jpeg"
+  },
+  "text": "57\nCement-Fabrikation.\nFleiner & Cie., Cementfabrik und Bureau, * Erlinsbacherstraße 327.\n(Siehe Inserat vordere innere Deckelseite.)\nJura-Cementfabriken, * im Scheibenschachen 1180, Portlandcement-\nund hydr. Kalkfabriken in Aarau und Wildegg. Größte\nFabrik der Schweiz.\nChemisch-technische Präparate.\nAngst, Robert, hinter dem Platz 214.\nChemische Produkte.\nCuster, E. & Cie., * Mineralwasserfabrikation, Bahnhofstraße 551.\nFrey & Cie., * in der Telli 431. (Siehe Inserat.)\nLandolt & Cie., * obere Vorstadt 949.\nChocolade-Fabrikation.\nFrey, R. & M., * Laurenzenvorstadt 423.\nCigarren- und Tabakhandlungen.\nBurgmeier, J., Laurenzenthorgasse 117. Cigarren, Cigarretten,\nTabak, Pfeifen etc. En gros & détail. (S. Inserat S. 12.)\nFischer, Adolf, * Laurenzenthorgasse 120.\nGuggisberg, Emil, * Bahnhofstraße 568 b.\nFerner alle Spezereihandlungen.\nCoiffeurs.\nBurkhardt, F., Laurenzenthorgasse 118.\n— Ferd., Sohn, Laurenzenthorgasse 118.\nFrey, Achilles, Zeughausstraße 1310.\nGraf, Arnold Eugen, Graben 207.\nHagenbuch, Emil, Rainstraße 819.\nHauri, Jean, Oberthor 137.\nHeuberger, Karl, Bahnhofstraße 658.\nHirt, Karl, hintere Vorstadt 621.\nHoffmann, Christoph, Kirchgasse 8 a.\nMarfurt, Franz Xaver, Bahnhofstraße 1022.\nMüller, Fritz, Zollrain 54.\nRüetschi, Karl, Rathausgasse (Milchgasse) 22.\nSchibler, Fritz, Kronengasse 34.\nSeilaz, Abraham, Rathausgasse 20.\nDieselben handeln auch mit Parfümeriewaren.\nCoiffeusen.\nBurkhardt, Lina, Laurenzenthorgasse 118.\nHugi, Marie, Graben 1161.\nMürset, Marie, Pelzgasse 137.\nSeilaz-Brunner, Julie, Rathausgasse 20.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4087,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1542,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:38:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p161",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p161.jpeg",
+      "bytes": 261481,
+      "sha256": "27737107a0c16fe190667f240fbd150d33b049cc464931108059a047710d9bcf",
+      "sha256_of": "original",
+      "working_copy": "1899_p161.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:38:22+00:00"
+  }
+}

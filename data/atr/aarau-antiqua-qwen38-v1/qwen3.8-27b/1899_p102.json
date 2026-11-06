@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p102",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p102.jpeg",
+    "bytes": 309357,
+    "sha256": "fe6bfad61162d40c405e79762015b7bd85aed5fdd077dc9f6625a43240a4a50f",
+    "sha256_of": "original",
+    "working_copy": "1899_p102.jpeg"
+  },
+  "text": "94\nHaus\nNr.\n1527 Oehler & Cie., Giesserei. Thorfeld.\n1528 Klingelfuss, J. F., Mechaniker, Pflanzenhaus. (Erinsbacherstr.)\n1529 Derselbe. Holzschopf. (Erinsbacherstraße.)\n1530 \" Wohnhaus.\n1531 Morach, Jakob, Fabrikaufseher, Wohnhaus. (Küttigerstraße.)\n1532 Wernle, Anna, Samuels Frau, Wohnhaus. (Scheibenschachen.)\n1533 Beck-Braun, Friedrich, Sattler, Gebäude mit Wirtschaf\n  ts-lokal. (Entfelderstraße.)\n1534 Schmid-Läuchli, Ingenieur Chaletbau. (Bachstraße.)\n1535 Walther-Dubs, H., Transformatoren, Hühnerhaus. (Bachstraße.)\n1536 Walli, Angelo, Unternehmer, Wohnhaus. (Rohrerstraße.)\n1537 Ernst-Käser, Friedr., Fabrikant, Lehmlagerschopf. (Thorfeld.)\n1538 Wolfsg ruber, Gottfd., Photograph, Waschhaus. (Kiefergarten.)\n1539 Bolliger-Gloor, R., Bankangestellter, Wohnhaus. (Herzogstr.)\n1540 Schweizer. Nordostbahn, Wärterbude.\n1541 Derselbe. Wärterbude.\n1542 \" \"\n1543 \" Centralweichenbude.\n1544 \" \"\n1545 \" \"\n1546 \" Bude für Geräte. (In der Gais.)\n1547 \" Centralweichenbude.\n1548 Ryniker, Arnold, Bierbrauer. Waschhaus. (Kiefergarten.)\n1549 Käser-Laurent, Emil, Gewächshaus. (Vor dem Haldenthor.)\n1550 Widmer-Felber, Johann, Gartenhaus. (Zelgli.)\n1551 Thut-Gidemann, Trockenhaus. (Rain.)\n1552 Kirchner-Vonwyler, Ida, Waschhaus. (Graben.)\n1553 Kümmler & Cie., Leiternschopf. (Hinter dem Bahnhof.)\n1554 Streit, Dr. med., Villa. (Laurenzenvorstadt.)\n1555 Schäfer, Adolf, Architekt, Wohnhaus. (Jurastrasse.)\n1556 Suter, Rudolf, Uhrenmacher, Wohnhaus. (Casinostraße.)\n1557 Kümmler, Herm, Fabrikant, Wohnhaus. (Hinter dem Bahnhof.)\n1558 Kübler, J., Bahnhofsinspektor, \"\n1559 Derselbe. Wohnhaus. (Hinter dem Bahnhof.) \"\n1560 Kaspar-Häuptli, Eduard, Wohnhaus. (Rohrerstraße.)\n1561 Schatzmann, Alb., Photographie-Atelier. (Casinostraße.)\n1562 Ernst, Jakob, Röhrenfabrikant, Wohnhaus. (In der Gais.)\n1563 Meyer-Brunner, Emil, Wohnhaus. (Bucherstraße.)\n1564 Hässig-Siegler, Julius, Wohnhaus. (Schönenwerderstraße.)\n1565 Jenny & Weigel, Färbereigesch., Magazingebäude. (Telli.)\n1566 Bertschi, Gottl., Briefträger, Wohnhaus. (Vor d. Haldenthor.)\n1567 Brunner-Knecht, Emil, Wohnhaus. (Mühlematte.)\n1568 Birri, Fridolin, Oekonomiegebäude. (Scheibenschachen.)\n1569 Drack, Herm., Metallgießer. Wohnhaus. (Schifflände.)\n1570 Derselbe. Werkstatt und Schopfanbau. (Schifflände.)\n1571 Hässig-Siele, Julius, Wirt. Scheune. (Schönenwerderstr.)\n1572 Gebr. Ryniker. Brauerei-Gebäude. (Laurenzenthorgasse.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 78819,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2378,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.54,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:07:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p102",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p102.jpeg",
+      "bytes": 309357,
+      "sha256": "fe6bfad61162d40c405e79762015b7bd85aed5fdd077dc9f6625a43240a4a50f",
+      "sha256_of": "original",
+      "working_copy": "1899_p102.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:07:37+00:00"
+  }
+}

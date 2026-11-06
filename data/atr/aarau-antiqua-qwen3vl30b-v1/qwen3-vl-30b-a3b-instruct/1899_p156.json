@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p156",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p156.jpeg",
+    "bytes": 263845,
+    "sha256": "0b48632937700d244f1c8ed8c9bfa3116791a50f470b9edcb9789f8d9902312e",
+    "sha256_of": "original",
+    "working_copy": "1899_p156.jpeg"
+  },
+  "text": "52\nSchmuziger, Johann, jenseits der Aare 295.\nWegelin, Johann Rud., hinter dem Bahnhof 494.\nWehrli, Emil, Herzogstraße 1439.\nWolf, Karl, Bachstraße 1045.\nAsphaltgeschäfte.\nWehrli, Johann, Gipser, Halden 250.\nZschokke, M., * Baugeschäft, Rohrerstraße 465. (S. Inserat S. 25.)\nAusrüfer von Steigerungen.\nFricke, Joseph, Gemeindeweibel, Rathausgasse 176.\nBandfabrikanten.\n(Siehe Fabrikationsgeschäfte.)\nBankgeschäfte.\nAargauische Bank, * Bahnhofstraße 511. (Siehe Inserat Seite 12.)\nKassastunden 8¹⁄₂—12 und 2—5 Uhr.\nDirektoren: Frey, Othmar und Zurlinden, Friedrich.\nKassier: Wehrli, Emil.\nAargauische Creditanstalt, * Laurenzenvorstadt 1340. (S. Inserat S. 8.)\nKassastunden 9—12 und 2—5 Uhr.\nDirektor: Pfau, Johann Jakob.\nKassier: Kauf, Alfred.\nAllg. Aarg. Ersparniskasse, * Graben 215.\nKassastunden: 9—12 und 2—4 Uhr.\nGeschäftsführer: Wehrli, Rudolf.\nZinsrodelverwalter: Haberstich, Jak.\nKassier: Wanger, Gustav.\nKontrolleur: Lenzi, Albert.\nSparkasse von Aarau und Umgebung, * hintere Vorstadt 645.\nKassastunden 12—2 Uhr mittags.\nPräsident des Verwaltungsrates: Schneider, Fridolin, Ober-\nrichter.\nKassier: Schmid, Peter.\nSpar-, Leih- und Diskontokasse, * hintere Vorstadt 638.\nKassastunden 9—12 und 2—5 Uhr.\nPräsident des Vorstandes: Schneider, Gustav, Dr. jur.\nVerwalter: Gebrüder Hemmeler.\nBaugeschäfte.\nMüller, Arnold, * jenseits der Aare 346.\n— Sigmund, hinter dem Bahnhof 507.\nSchäfer, Adolf, * Gais 1063.\nSchmuziger, Johann, * jenseits der Aare 295.\nZschokke & Cie., * Jurastraße 1458.\nZschokke, M., * Rohrerstraße 472 (siehe Inserat Seite 25).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4911,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1551,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0233,
+    "mean_line_chars": 35.09,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:38:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p156",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p156.jpeg",
+      "bytes": 263845,
+      "sha256": "0b48632937700d244f1c8ed8c9bfa3116791a50f470b9edcb9789f8d9902312e",
+      "sha256_of": "original",
+      "working_copy": "1899_p156.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:38:00+00:00"
+  }
+}

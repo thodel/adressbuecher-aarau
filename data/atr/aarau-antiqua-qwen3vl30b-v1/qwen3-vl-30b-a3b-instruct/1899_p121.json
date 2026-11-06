@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p121",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p121.jpeg",
+    "bytes": 280753,
+    "sha256": "dfd4861aa94ba0312b1d4e2942af19881fb7815f943ed2034562556f5e867440",
+    "sha256_of": "original",
+    "working_copy": "1899_p121.jpeg"
+  },
+  "text": "Haberstich, Frida, Lehrerin, Schachen 735.\n— geb. Huber, Agnes, Milchgasse 70.\n— Jakob, Zinsrodelverwalter, Schachen 735.\n— Lina, Lehrerin, obere Vorstadt 938.\n— Rosa, Part., Laurenzenvorstadt 586.\n— geb. Scheuermann, Bertha, Witwe, obere Vorstadt 938.\nHagenbuch, August, Sekretär, Zollrain 177.\n— Emil, Coiffeur, Rain 819.\n— Ernst, Mineralwasserfabrikant, Zollrain 177.\n— Friedrich, Buchbinder, vordere Vorstadt 676.\n— Gottlieb, Kaufmann, Laurenzenvorstadt 1294.\n— Karl, Chirurg, Rain 819.\n— Karl, Kaufmann, Glas- und Porzellanwarenhandlung, ⊗ Kronengasse 35.\n— -Hagenbuch, Verena, Spezereihandlung, ⊗ Zollrain 177.\nHager, Arnold, Mechaniker, in der Gais 1483.\nHagmann, Adolf, Schuhhandlung (Filiale), hintere Vorstadt 1262.\nHagnauer, Albert, Lederfabrikant, ⊗ Konradstraße 1255.\n— Emma, Part., Konradstraße 989.\n— Friedrich, Bürstenmacher, Pelzgasse 68.\n— Hedwig, Lehrerin, Bahnhofstraße 651.\n— Hermann, Sohn, Kaufmann, Pelzgasse 68.\n— Jakob Eugen, alt Pfarrer, Entfelderstraße 1195.\n— Johann Ludwig, Heizer, Rain 1185.\n— Mathilde, Part., Konradstraße 989.\n— Nanette, Konradstraße 989.\n— geb. Wildberger, Barbara, Witwe, Part., Konradstraße 989.\nHaller, Gotthilf, Kondukteur, Entfelderstraße 967.\n— geb. Fehlmann, Susette, Witwe, Spetterin, Ziegelrain 704.\n— Johann, Gerichtsschreiber, Bachstraße 1098.\n— Karl, Mühlenbaugeschäft (Bureau), ⊗ Rain 1091.\n— Marie, Glätterin, Milchgasse 145.\n— Wilhelm, Badmeister, Milchgasse 145.\nHangartner, Ferdinand, Lithograph, Bachstraße 1048.\n— Kaspar, Camionneur, Ziegelrain 712.\nHartmann, Rudolf, Fabrikant, Gartenstraße 1103.\n— Wilhelm, Lithograph, in der Gais 1480.\nHassler, Adolf, Färber, Hammer 188.\n— Albert, Architekt, Bauverwalter, Hammer 188.\n— Arnold, Commis, Telli 454.\n— August, Färber, Halden 265.\n— geb. Baumgartner, Franziska, Metzgergasse 61.\n— geb. Brunnhofer, Elise, Kaminfegers Witwe, Halden 248.\n— geb. Brunnhofer, Karoline, Schulhausabwart 567.\n— Emil, Kolonialwarenhandlung, Laurenzenvorstadt 349.\n— Friedrich, Verwalter des städt. Elektrizitätswerkes, Schachen 723.\n— Gottlieb, Bauamtsarbeiter, Kirchgasse 11.\n— Gustav, Maler, Werkstätte hintere Vorstadt 642. Wohnung Entfelderstraße 983.\nStadt Aarau. E.\n17\n2",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5807,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2171,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:34:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p121",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p121.jpeg",
+      "bytes": 280753,
+      "sha256": "dfd4861aa94ba0312b1d4e2942af19881fb7815f943ed2034562556f5e867440",
+      "sha256_of": "original",
+      "working_copy": "1899_p121.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:34:16+00:00"
+  }
+}

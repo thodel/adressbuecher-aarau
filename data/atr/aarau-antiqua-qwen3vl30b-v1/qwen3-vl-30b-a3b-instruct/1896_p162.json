@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p162",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p162.jpeg",
+    "bytes": 299457,
+    "sha256": "76cfd801aa420dbef0991155ec6257dfe44cd3aaa8347ee0fad5596b2f624491",
+    "sha256_of": "original",
+    "working_copy": "1896_p162.jpeg"
+  },
+  "text": "124\nAlphabetisches Verzeichnis.\nWalther, Gottlieb, Oekonom, Rain 856.\n— Hans, Oekonom,  Bachstraße 1396.\n— Jakob, Sohn, Oekonom, Schachen 739.\n— geb. Mattern, Verena, Witwe, Schachen 739.\nWalti, Hans, Sohn, Schreiner, Stadthof 94.\n— Hermann, Wagenwärter, hintere Vorstadt 623.\n— geb. Müller, Marie, Witwe, Spezerei- und Milchhandlung, Milchgasse 144.\n— Otto, Küher, Bachstraße 1038.\n— Samuel, Taglöhner, Färbergäßchen 125.\n— geb. Zimmermann, Rosa, Taglöhnerin, Stadthof 94.\nWandfluh, Joh., Schuhmacher, Halden 286.\nWanger, Gottlieb, Buchbinder, Kirchhof 164.\n— Gustav, Kassier der Aarg. Ersparniskasse, Zschokkestraße 974.\n— Henriette, Adelbändli 174.\n— Julie, Buchbinders, Kirchhof 164.\n— Luise, Part., obere Vorstadt 914.\n— Marie, Kaufmanns, Part., Zschokkestrasse 974.\n— Rosa, Buchbinders, Kirchhof 164.\n— geb. Siebenmann, Sophie, Rain 823.\n— Sophie, Kassiers, Part., Zschokkestraße 974.\nWassmer, Anna, Ladentochter, Rathausgasse 1.\n— Emil, Kaufmann, Spezereihandlung z. „Adler“, Pelzgasse 137.\n— Fidel, Schneidermeister, Pelzg. 63.\n— Jakob, Wagner, Rain 877\n— Samuel, Ausläufer, Adelbändli 172.\nWeber, Anna, Glätterin, Waltersburg 856.\n— geb. Buchmann, Magdalena, Witwe, Rathausgasse 3.\n— Emil, Nähmaschinenhandlung, Rathausgasse 42.\n— Ferdinand, Schneider, Milchgasse 154.\n— Gustav, Bezirksarzt,  Schlossplatz 1389.\n— Hermann, Speisewirt,  Bahnhofstraße 568 a.\nWeber, Heinrich, Lithograph, hintere Vorstadt 689.\n— Heinrich, Kaufmann, Spezialität in Damenkleiderstoffen, Laurenzenthor- gasse 1118.\n— Jakob, Bankabwart, vor dem Halden- thor 1109.\n— Regina, Part., Hammer 191.\n— Stephan, Sekretär (Staatsanwaltschaft) Hammer 191.\n— -Suter, Ida, Modistin, Modegeschäft, Laurenzenthorgasse 1118.\n— Theresia, Ladentochter, Rathausg. 2.\n— Wilhelm, Milchverkäufer, Erlinsbacherstraße 337.\nWegelin, Joh. Rud., Architekt, Laurenzenvorstadt 1379.\n— Maria, Part., Laurenzenvorst. 1379.\nWehrli, Adolf, Cementarbeiter, Erlinsbacherstraße 335.\n— Andreas, Zimmermann, Rain 826.\n— Anna, Fabrikarbeiterin, Laurenzen- vorstadt 376.\n— Emil, Bankkassier, Bachstraße 1175.\n— geb. Fassler, Elisabeth, Spetterin, Adelbändli 82.\n— Friedrich, Gärtner, Scheibenschachen 312.\n— Friedrich, Pedell, Bahnhofstr. 1442.\n— geb. Fuß, Barbara, Postfakteurs Witwe, Milchgasse 156.\n— Hans, Gipsermeister, Halden 250.\n— Hans, Zimmermann, Halden 266 a.\n— Jakob, Handlanger, Erlinsbacherstraße 337.\n— Jakob, Part., Rain 877 a.\n— Jakob, Schreiner, Holzmarkt 663.\n— Jakob, Fabrikarbeiter, Ziegellrain 713.\n— Jakob, Bäcker und Speisewirt  Kronengasse 40.\n— Jakobea, Part., Halden 269.\n— Jean, Gärtner,  vor dem Halden- thor 1272.\n— Karl Emil, Architekt, zur Erika, Herzogstraße 1439.\n— Karl, Gasmeister, Zollrain 87.\n— Maria, Spetterin, Rain 826.\n— Rudolf, Taglöhner, Schmiedg. 635.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7900,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2754,
+    "lines": 65,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:14:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p162",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p162.jpeg",
+      "bytes": 299457,
+      "sha256": "76cfd801aa420dbef0991155ec6257dfe44cd3aaa8347ee0fad5596b2f624491",
+      "sha256_of": "original",
+      "working_copy": "1896_p162.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:14:52+00:00"
+  }
+}

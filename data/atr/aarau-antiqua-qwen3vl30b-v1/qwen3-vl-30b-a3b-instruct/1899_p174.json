@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p174",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p174.jpeg",
+    "bytes": 255692,
+    "sha256": "4b7fb013d70fd660320f04f3fba202a7ec13985f13f478d54b4f203d5ec2a3a6",
+    "sha256_of": "original",
+    "working_copy": "1899_p174.jpeg"
+  },
+  "text": "70\nKommissions- und Agenturgeschäfte.\nWyder-Brast, Albert, Rain 840.\n\nKonditoreien.\nGuggisberg, Emil, * Bahnhofstraße 568 b.\nHintz, Ulrich, Kronengasse 36.\nKeller, Paul, Zollrain 292.\nKunz, Ernst, vordere Vorstadt 674.\nMerz & Suter, * en gros, Bahnhofstraße 652.\nRohr, Hans, Graben 205.\nSchmuziger, Fritz, Ziegelrain 703.\nSoland, Heinrich, obere Vorstadt 913.\nWüthrich, Jakob, Rathausgasse 20.\n\nKonfektionsgeschäfte.\nAckermann-Buser, * vordere Vorstadt 890.\nBruns, Heinrich, vordere Vorstadt 900.\nCodoni-Dreßler, Remigius, * Rain 826. (S. Inserat Seite 14.)\nGamper & Cie., * Rathausgasse 49.\nGerber, Gustav, * vordere Vorstadt 670. (S. Inserat Seite 9.)\nGisi-von Arx, Viktor, * Holzmarkt 664.\nSiebenmann, Gebr., * Oberthor 226.\nSuter, Rosa, Laurenzenvorstadt 1118.\n\nKorbmacher.\nLenzi, Jakob, Metzgergasse 107.\nWyser, Gustav, Milchgasse 146.\n\nKorbwarenhandlungen.\nHagenbuch-Hagenbuch, Verena, Zollrain 177.\nHemmeler-Stahl, J., * Rathausgasse 21.\nLenzi, Jakob, Metzgergasse 107.\nWetter & Cie., * obere Vorstadt 925.\nWyser, Gustav, Milchgasse 146.\n\nKostümgeschäft.\nTheez-Amsler, Elise, Laurenzenthorgasse 117.\n\nKunstmalерinnen.\nHunziker, Elise, vor dem Haldenthor 770.\nSpühler, Anna, Bachstraße 1155.\n\nKupferschmiede.\nBühler, Gottlieb, Schmiedgasse 632.\nHässig, Alfred, Ziegelrain 705.\nHaßler, Paul, Pelzgasse 134.\nDieselben handeln auch mit Kupferschmiedwaren.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4570,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1358,
+    "lines": 41,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0488,
+    "mean_line_chars": 31.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0022,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:40:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p174",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p174.jpeg",
+      "bytes": 255692,
+      "sha256": "4b7fb013d70fd660320f04f3fba202a7ec13985f13f478d54b4f203d5ec2a3a6",
+      "sha256_of": "original",
+      "working_copy": "1899_p174.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:40:24+00:00"
+  }
+}

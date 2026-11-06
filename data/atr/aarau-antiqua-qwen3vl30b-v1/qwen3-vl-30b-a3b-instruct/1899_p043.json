@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p043",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p043.jpeg",
+    "bytes": 264642,
+    "sha256": "03c7276e8b8baf6c904901fd79af017c7752ca237e7213dd69577deb547d43df",
+    "sha256_of": "original",
+    "working_copy": "1899_p043.jpeg"
+  },
+  "text": "Haus-\nNr.\n412 Windisch-Kohler, Samuel, von Densbüren. Generalagentur\nder schweiz. Rentenanstalt in Zürich.\nStephani-Heckmann, Wilhelmine, Witwe, Part.\n413 Isler, Emil Peter, Fürsprach u. Notar, v. Wohlen. Advokatur-\nund Notariatsbureau.\nBinz-Näf, Gustav, Ingenieur, von Bülach (Zürich).\n414 † Derselbe. Holzschopf.\n415 Oehler-Frey, Bertha, Witwe.\n— -Theiler, Oskar, Ingenieur ⚫.\nTheiler geb. Rebmann, Elise, Part., von Wädensweil (Zch.)\n416 † Dieselbe. Wasch- und Holzhaus.\n417 † Dieselbe. Ökonomiegebäude.\n418 * Sauerländer-Frey, H. R.\nBureau der Firma H. R. Sauerländer & Cie., Verlagsbuch-\nhandlung. ⚫\nExpedition des Amtsblattes des Kantons Aargau.\n\" \" Aarg. Polizeianzeigers (Fahndungsblatt).\n\" der Schweizerischen Bienenzeitung.\n\" \" illustr. schweiz. Jugendblätter. Monatschrift.\n\" \" Tierwelt.\n\" \" Mitteilungen des Aarg. Gewerbemuseums.\nKonsulat der Vereinigten Staaten Nordamerikas (Bureau).\nCuster-Sauerländer, Mathilde, Witwe, Part.\nSauerländer-Custer, Emma, Witwe, Part.\nEhlers-Sauerländer, Heinrich Konrad, Buchhändler, v. Hono-\nlulu (Sandwichs-Inseln).\n419 † Derselbe. Ökonomie- und Wohngebäude.\nBossert-Gloor, Jakob, Gärtner und Portier, von Birc.\n420 † Derselbe. Buchdruckerei.\n421 † \" Abgetragen; an dessen Platz\n1184 † Buchbinderei.\n422 Robert und Max Frey, Chocoladefabrikanten.\nFrey-Frey, Mina, Stadtrats Witwe.\n— -Amsler, Robert, Fabrikant.\n— -Schindler, Max, Fabrikant.\n423 Frey, Robertu. Frey, Max, Chocoladefabrikation R. & M. Frey. ⚫\n1264 † Dieselben. Fabrikgebäude.\n1292 † \" Maschinenhaus.\n424 † \" Waschhaus.\n425 † \" Scheune und Schopf.\n426 † \" Holzschopf.\n427 † \" Geflügelhaus.\n1291 † \" Gewächshaus.\n428 † Frey-Frey, Adolf, Dr. med.\nSauerländer-Frey, Remigius, Buchdruckereibesitzer.\n429 † Derselbe. Scheune und Remise.\n430 † \" Treib-, Wasch- und Holzhaus.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5091,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1791,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:26:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p043",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p043.jpeg",
+      "bytes": 264642,
+      "sha256": "03c7276e8b8baf6c904901fd79af017c7752ca237e7213dd69577deb547d43df",
+      "sha256_of": "original",
+      "working_copy": "1899_p043.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:26:52+00:00"
+  }
+}

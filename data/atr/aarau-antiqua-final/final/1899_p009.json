@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p009",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p009.jpeg",
+    "bytes": 237548,
+    "sha256": "bde1fad3e72ee245b4bac348a0921ac332490a00b37bf4201580438ccb85fde3",
+    "sha256_of": "original",
+    "working_copy": "1899_p009.jpeg"
+  },
+  "text": "Verzeichnis\nder\nGebäude der Stadt Aarau\nmit ihren\nEigentümern und Bewohnern.\nNeben jeder Nummer ist der Eigentümer des betreffenden Hauses bemerkt; be-\nwohnt er selbst dieses nicht, so ist ein * beigesetzt. Ökonomiegebäude sind mit\n+ bezeichnet. Wo kein Heimatort beigesetzt ist, sind es Bürger von Aarau.\n[tel] = Telephon.\nHaus-\nRathausgasse.\nNr.\n1 * Morath-Dilger, Johann, Kaufmann.\n2 — — Quinquillerie-, Glas-, Porzellanwaren-, Uhren- und Kinderspielwaren-\n  handlung.\n  — Joh., Sohn, Kaufmann.\n  Baumgartner, Adolf, Commis, von Oensingen (Solothurn).\n3 Wydler-Fischer, Julius, Notariats-, Incasso-, Informations- und\n  Verwaltungsgeschäft. Hauptagentur der franz. Feuerversicherungsge-\n  sellschaft „Phönix“. — Hauptagentur der Lebensversicherungsgesell-\n  schaft „La Nationale“ in Paris. — Agentur der schweiz. Hagelver-\n  sicherungsgesellschaft.\n  Schneeberger-Salvi, Jakob, von Vordemwald (Italienische\n  Warenhalle). [tel]\n  Weber geb. Buchmann, Magdalena, Witwe, Part., von Oberflachs.\n  Ging geb. Hunziker, Klara, Vorgängerin.\n4 Hess-Wolf, Alexander, Kaufmann, von Zillisheim (Elsass). Tuch-\n  u. Möbelwarenhandlung. [tel] Firma Gebrüder Hess, Filiale der Maga-\n  zine zur Stadt Mühlhausen, Biel und Solothurn.\n5 Weibezaal, Leonhard, Apotheker, [tel] von Gotha.\n  Kloter-Kohler, Ednard, Packer, von Lengnau.\n  Keller, Lina, Wollenwarenhandlung.\nStadt Aarau.\n1",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 22694,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1369,
+    "lines": 34,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T17:30:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p009",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p009.jpeg",
+      "bytes": 237548,
+      "sha256": "bde1fad3e72ee245b4bac348a0921ac332490a00b37bf4201580438ccb85fde3",
+      "sha256_of": "original",
+      "working_copy": "1899_p009.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T17:30:53+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p161",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p161.jpeg",
+    "bytes": 290173,
+    "sha256": "cbe2ceac213f1701584947c8b59f62697c1a82e37a2daad0ed623e36b35fe44f",
+    "sha256_of": "original",
+    "working_copy": "1896_p161.jpeg"
+  },
+  "text": "Alphabetisches Verzeichnis. 123\nUrban, Ernst, Schreiner, Ziegelrain 707 b.\nUrben, Joh., Küher, Kasinostraße 660.\nUrech, Jakob, Polizeidiener, Metzgergasse 107.\n— geb. Imhof, Philippine, Witwe, Part., Graben 218.\nUster, Heinrich, Maler, Schachen 736.\nValli, Angelo, Accordant, Rain 848.\nVerein für Briefmarkenkunde Aarau.\nPräsident: Jakob Henz-Plüß, vordere Vorstadt 1169.\nVereinigte Schweizer-Bazars, Aktiengesellschaft. Direktoren: Georg Steiger in St. Gallen und Ferdinand Zehnder in Zürich. Filiale obere Vorstadt 925.\nVerkürzen geb. Schäfer, Karoline Elisab., Witwe, Konradstraße 990.\nVidiella & Frey. (Manuel Vidiella u. Fried. Frey) Weinhandlung, obere Vorstadt 930.\n— Manuel, Spanische Weinhalle. Kirchgasse 7.\nVieser, Theodor, Kaufmann, vord. Vorstadt 666.\nVilliger, Anton, Geschäftsführer d. Aarg. Nachrichten. Bahnhofstraße 658.\nVogel, Friedrich, Dachdecker, vor dem Haldenthor 1092.\n— Gottfried, Polizeiwachtmeister, Kirchhof 163.\n— Jakob, Bremser, Bahnhofstraße 658.\n— Johann, Obermüller, Scheibenschachen 1339.\n— Johann, Säger, Halden 285.\n— Luise, Weißnäherin, Halden 285.\n— Rosa, Part., v. d. Haldenthor 1092.\n— Rudolf, Kaminfeger und Dachdecker, Entfelderstraße 1147.\nVogler, Julius, Stadtgärtner, Schmiedgasse 1232.\nVogt, Adolf, Zahnarzt, Laurenenvorstadt 353. (Schloßgarten.)\n— Jakob, Schreiner, Kirchhof 165 a.\n— geb. Keller, Marie, Hebamme, Kirchhof 165 a.\nVogt, Joh., Schuhmacher, ob. Vorst. 911.\n— Samuel, Speisewirt, Graben 222.\nVolkemer geb. Mußmann, Barbara, Rain 879\nVonarx, Karolina, Wirtin, Zollrain 52.\nVon Brockdorf, Emilie, Komtesse, Gartenstraße 1129.\nVondäniken, Emil, Buchhalter, Erlinsbacherstraße 1460.\n— geb. Vonfelten, Anna Maria, Witwe, Erlinsbacherstraße 1460.\nVonfelten, Franz Joseph, Korsett- und Quincailleriegeschäft, Kronengasse 37.\nVon Steiger, William, Techniker, Rain 878.\nVonwiller geb. Gautschi, Lina, Witwe, Part., Graben 207.\nVuillermot, Charles Jean L., Kaufmann, vordere Vorstadt 903.\nWächter, Hans, Kurwirt z. Alpenzeiger, Gishügel 317.\n— Heinrich, Knecht, Hammer 182.\n— geb. Lindemann, Luise, Taglöhnerin, Hammer 1301.\n— Marie, Hebamm, Bahnhofstr. 1022 b.\nWäffler, Heinrich, Turnlehrer, Laurenzenvorstadt 399.\nWägeler, Karl, Dachdecker u. Kaminfeger, vor dem Haldenthor 1306.\nWälti, Rud, Schneider, ob. Vorstadt 937.\nWärtli, Aug., Buchbinder, Kirchhof 166.\n— Christ., Bahngest., Bahnhofstr. 515.\n— geb. Nußbaum, Margaretha, Part., Milchgasse 79.\nWaibel, Joseph, Buchhandlungsgelhife, Rathausgasse 22.\nWalder geb. Kunz, Elise, Part., Bankstraße 1141.\nWaldmeier. Alfred, Kaufmann, Kronengasse 33.\n— geb. Rothpletz, Bertha, Witwe, Part., vordere Vorstadt 682.\nWalser geb. Bamberger, Marie, Zuschneiderin, Halden 260 b.\nWalter, August, Velo- u. Nähmaschinenhandlung, Pelzgasse 125.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7696,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2733,
+    "lines": 54,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:14:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p161",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p161.jpeg",
+      "bytes": 290173,
+      "sha256": "cbe2ceac213f1701584947c8b59f62697c1a82e37a2daad0ed623e36b35fe44f",
+      "sha256_of": "original",
+      "working_copy": "1896_p161.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:14:44+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p024",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p024.jpeg",
+    "bytes": 287891,
+    "sha256": "d573dbe9ed779e40d37e90d8c27c989cf8046b13eb51f2f70861d5ab692d9e75",
+    "sha256_of": "original",
+    "working_copy": "1896_p024.jpeg"
+  },
+  "text": "2\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n4  Hess-Wolf, Alexander, Kaufmann von Zillisheim (Elsaß). Tuch-\nund Möbelwarenhandlung. Firma Gebrüder Hess, Filiale der Magazine zur Stadt\nMülhausen, Biel und Solothurn.\nHess, Emanuel, Commis, von Mülhausen.\n5 Weibezahl, Leonhard, Apotheker, von Gotha.\n\nKirchgasse.\n6 * Staat Aargau. Pfarrhelfergebäude.\n7 Frei-Rauchenstein, Eduard, Pfarrhelfer für den Helferkreis Aarau.\n  Vidieila-Tarats, Manuel, von Sitges (Spanien). Spanische Wein-\n  halle. Weinhändlung.\n8 a Gantner geb. Fuchs, Elise, Schneiderin, von Grabs (St. Gallen).\n  Hoffmann-Suter, Christoph, von Schwabach (Bayern). Coiffeurgeschäft.\n  Siegrist-Hauri, Marie, Wäscherin, von Seengen.\n8 b Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n  Lienberger-Weber, Kaspar, Schuhmachermeister von Spreitenbach.\n9 a † Gemeinde Aarau. Feuerlöschmagazin. Leiter Nr. I.\n9 b Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n10 a Rychner-Thommen, Friedrich, Spenglermstr., Spenglerwarenhandl.\n  Millenet-Rychner, R., Bereiters Witwe, von Genf. Damenschneiderin.\n  Hächler-Peter, Gottlieb, Bauamtsarbeiter, von Teufenthal.\n  Erismann, Rudolf, Taglöhner, von Kirchrued.\n10 b Rychner-Thommen, Friedrich, Spenglermeister.\n  Müller-Amsler, Joh. Jakob, Schuhmacher, von Unter-Kulm.\n  Meier-Wehrli, Jakob, Bäcker, von Holderbank.\n11 Hány-Hány, Marie, Bäckers Witwe, Part., von Kölliken.\n  Hány-Hunziker, Hermann, Sohn, Bäckermeister, von Kölliken.\n  Roth, Friedrich, Ausläufer (Aarg. Nachrichten), von Mühlethal.\n  Hassler, Gottl., Bauamtsarbeiter.\n12 Strebel-Bernauer, Joseph, Schuhmacher, v. Mägenwyl, Schuhhandlung.\n  Suter-Lüscher, Gabriel, Posamenter, von Gränichen.\n  Kaufmann-Meyer, Nikl., Polizeidiener, von Knutwyl (Luzern).\n  Kaufmann-Meyer, El., Hebamme, von Knutwyl (Luzern).\n13 Lattmann-Ackermann, Georg, Lokomotivf., von Sternenberg (Zürich).\n  Heinzelmann, Joh., Schuhmacher, von Marschallzimmer (Württemberg).\n  Döbeli, Ros., Privatin, von Boniswyl.\n  Mürset, Maria, Coiffeuse, von Diesse (Bern).\n  Fehlmann-Holzreuter, Christoph, Taglöhner, von Seon.\n14 Sommerhalder-Lindenmann, Rudolf, Küher, von Schlossrued.\n  Milch- und Käsehandlung.\n  Hunziker-Gloor, Friedrich, Schreiner, von Ober-Kulm.\n  Schnetzler, Johann Ludwig, Bremser, von Kaisten.\n15 * Fallert-Unwin, Friedr., Kaufmann.\n  Lüthi-Kneubühler, Eduard, Sattler, von Bleienbach (Bern).\n  Lüthi-Kneubühler, A., von Bleienbach (Bern). Plazierungsbureau.\n  Hoffmann-Suter, Christ., Coiffeur, von Schwabach (Bayern).\n  Bircher, Johann, Schriftsetzer, von Küttingen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6395,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2560,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:01:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p024",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p024.jpeg",
+      "bytes": 287891,
+      "sha256": "d573dbe9ed779e40d37e90d8c27c989cf8046b13eb51f2f70861d5ab692d9e75",
+      "sha256_of": "original",
+      "working_copy": "1896_p024.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:01:36+00:00"
+  }
+}

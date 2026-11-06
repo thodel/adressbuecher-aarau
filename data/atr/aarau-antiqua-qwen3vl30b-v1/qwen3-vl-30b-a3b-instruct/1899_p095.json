@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p095",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p095.jpeg",
+    "bytes": 284817,
+    "sha256": "98fa24019aeb52da508aafeb69c8bad053d6b9e2cc2b4f3731b65404b20589c4",
+    "sha256_of": "original",
+    "working_copy": "1899_p095.jpeg"
+  },
+  "text": "Haus-\nNr.\n1235 † Henz, Jakob & Cie. Magazin. (Hintere Vorstadt.)\n1236 Hauri-Gränicher, Karl, Kaufmann. (Hintere Vorstadt.)\n1237 Dürr-Lüscher, Gemüsehändlerin. Wohnhaus. (Am Graben.)\n1238 † Fleiner, Alberts Erbschaft. Thurm mit Transmission. (Jenseits der Aare.)\n1239 † Schweiz. Nordostbahn. Abtritte. (Bahnhofstraße.)\n1240 † Brack, Jakob, Kaufmann. Magazin.\n1241 Suter, Jakob, Rektor. (Gönhardfeldweg.)\n1242 † Dubs, Karl, Metzger. Scheune. (Vor dem Haldenthor.)\n1243 † Dr. Liechti, Paul, Prof. Wohnhaus. (Vor dem Haldenthor.)\n1244 † Matter, Sl., Amtsschreiber. Hintergebäude. (Schmiedgasse.)\n1245 † Frey, Robert und Max. Maschinenhäuschen. (Telli.)\n1246 Blattner, Rud., gewes. Nagelschmied. (Erlinsbacherstraße.)\n1247 † Siebenmann, Friedr., Bierbrauer. Wagenschopf u. Eiskeller. (Jenseits der Aare.)\n1248 Widmer-Häfeli, Rudolf, Wirt zum Lindenhof. (In der Gais.)\n1249 Locher-Willi, Jakob, Postkondukteur (Lindenhof, Gais.)\n1250 Abgetragen.\n1251 † Kunz, J. J., Konditor. Holz- und Waschhaus. (Bankstraße.)\n1252 † Dr. Liechti, Paul, Professor. Bienenhaus. (Schachen.)\n1253 † Keller-Stelner, Karl. Heuschuppen. (Rohrerstraße.)\n1254 † Schweiz. Nordostbahn. Waschhaus. (Bahnhof.)\n1255 Hagnauer-Zimmermann, Albert, Wohnhaus. (Konradstraße.)\n1256 † Eberle, Franz, Müller. Waschhaus. (Mühlegässchen.)\n1257 † Baumann, Karl u. Eugen. Faßremise. (Laurenzenvorstadt.)\n1258 † Abgetragen.\n1259 * Walther-Matter, J. J., Oekonom. Wohnhaus. (Schachen.)\n1260 Müller-Gamper, Samuel. Wohnhaus mit Kaufladen (Holzmarktplatz.)\n1261 Matter, Samuel, Amtsschreiber. Wohnhaus. (Schachen.)\n1262 Nägelin, Arnold, Hôtelier. Gasthof z. Wildenman. (Vordere Vorstadt.)\n1263 Aktiengesellschaft Feldschlösschen, Rheinfelden. Wirtschaft Affenkasten. (Vordere Vorstadt.)\n1264 † Frey, Rob. u. Frey, Max, Chokoladefabrikanten. (Balainenweg.)\n1265 † Steiner, Sl., Oekonom. Waghäuschen. (Laurenzenvorstadt.)\n1266 Adam, Anton, Fabrikant. Wohnhaus. (Lindenhof, Gais.)\n1267 Fröhlich-Stelzer, Franz, Dr. Prof., von Brugg. (In der Gais.)\n1268 Gerodetti, Virgilio. (Hinterm Bahnhof.)\n1269 † Siebenmann, Rudolf, Bierbrauer, Brauerei. (Schmiedgasse.)\n1270 † Richner, Karl. Röhrenfabrikation. (Bahnhofstraße.)\n1271 † Brunner, Heinrich, Bahnarbeiter, Gebäude mit Stallung. (Vor dem Haldenthor.)\n1272 * Wehrli-Dubs, Joh., Gärtner. Wohnhaus. (Vor d. Haldenthor).\n1273 † Wägeler-Vogel, Karl, Deckdecker, Wasch- und Hühnerhaus. (Schifflände.)\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6881,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2399,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 56.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:31:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p095",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p095.jpeg",
+      "bytes": 284817,
+      "sha256": "98fa24019aeb52da508aafeb69c8bad053d6b9e2cc2b4f3731b65404b20589c4",
+      "sha256_of": "original",
+      "working_copy": "1899_p095.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:31:38+00:00"
+  }
+}

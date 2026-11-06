@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p025",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p025.jpeg",
+    "bytes": 265559,
+    "sha256": "9591bfa227943e177bdea46ce50a597aa45e060f5ee1e20af76dc9cb456aa4cd",
+    "sha256_of": "original",
+    "working_copy": "1896_p025.jpeg"
+  },
+  "text": "Verzeichnis der Gebäude und ihrer Bewohner.\n3\nHaus-\nNr.\nRathausgasse.\n16 Lindt, Otto, Dr. phil., Apotheker, von Bern.\n17 Faller-Unwin, Friedrich, Kaufmann, von Bräunlingen (Großh. Baden).\nEisenwarenhandlung.\n18 Simmen-Schertenleib, Emil, Bäcker, von Schinznach, Pintenwirtschaft.\nMarti-Keller, Oskar, Commis, von Wengi (Bern).\nHeindl-Plüss, Mathilde, Damenschneiderin, von Sachsenried (Bayern).\n19 Dürr, Geschwister, Heinrich und Johanna.\nDürr, Heinrich, Pfarrer, Privat.\nDürr, Karl August, Sohn, Part.\nDürr, Johanna, Part.\nMeisel-Leutwyler, Xaver, Forstverwalter.\nMeisel-Leutwyler, Verena, Weisswarenhandlung.\n20 * Lauber-Adam, Joseph, Professor in Biel.\nFörderer-Hinden, Anna, Witwe.\nFörderer, Geschwister, Anna, Elise und Pauline, Tapisserie- und\nBroderiegesellschaft.\nKress-Andersen, Karl, Architekt, von Wigoltingen (Thurgau).\n21 Hemmeler-Stahl, Jakob, Uhrenmacher, Quincaillerie- und Kinder-\nspielwarenhandlung.\nStahl-Schoop, Karolina, Part., von Dozwil (Thurgau).\nSchneiter-Obermajer, Karl, Reisender, von Amsoldingen (Bern).\n22 Erdin-Obrecht, Albin, Kaufmann, von Gansingen, Nachfolger von\nWitwe Jean Kiefer & Cie., Mercerie-, Quincaillerie-, Lingerie-, Passe-\nmenterie- und Bonneterie-Warenhandlung.\nBirmann-Probst, Maria, Witwe, von Basel. Weinhändlung.\nRüetschi-Reinert, Karl, Coiffeurgeschäft.\nLauber, Joseph Anton, Postcommis, von Oeschgen.\nWaibel, Jos., Buchhandlungsgeh., von Singen u. Freiburg i. Br.\n23 Wydler, Konrad, Apotheker.\nFrey-Kieser, Joseph, Notar, Stellvertreter des Gemeindeschreibers und\nCivilstandsbeamter.\nHemmeler-Stahl, Jakob, Uhrenmacher. Uhrenhandlung.\n24 * Hemmeler-Stahl, Jakob, Uhrenmacher.\nLimmacher-Niggli, Nikl., Schuhmacherstr., von Schüpfheim (Luzern).\nGanser, Johann, Schneider, von Landshut (Baiern).\n25 Läuchli-Bürgi, Anna, Witwe, von Remigen. Pintenwirtschaft.\nBohnenblust, Hermann, Reisender, von Aarburg.\nHuter-Basler, Joseph, Maurerpolier, von St. Jakob (Tirol).\n26 Stephani-Winkler, Margaritha, Kaufmanns Witwe, Kolonialwaren-\nTabak- und Cigarrenhandlung.\nBilleter-Apel, Moritz, Faktor, von Hainichen (Sachsen).\nBilleter, Anna, Damenschneiderin, von Hainichen (Sachsen).\nZimmerli, Paul, Elektrotechniker.\nHess, Margaritha, Postaspirantin, von Bern.\n27 † Stephani-Winkler, Margaritha, Kaufmanns Witwe. Magazin.\n28 † Dieselbe. Waschhaus.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5788,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2297,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:01:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p025",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p025.jpeg",
+      "bytes": 265559,
+      "sha256": "9591bfa227943e177bdea46ce50a597aa45e060f5ee1e20af76dc9cb456aa4cd",
+      "sha256_of": "original",
+      "working_copy": "1896_p025.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:01:42+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p141",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p141.jpeg",
+    "bytes": 278110,
+    "sha256": "6ba4f3f26019826aea01f74ed58111f96ef185246fbd65d554f5f05cae78c2f0",
+    "sha256_of": "original",
+    "working_copy": "1899_p141.jpeg"
+  },
+  "text": "37\nSchmid, Peter, Sekretär, hintere Vorstadt 645.\n— Peter, Posamenter, Halden 290.\n— Rudolf, Taglöhner, Halden 268.\n— Samuel, Commis, vor dem Haldenthor 1332.\n— geb. Unger, Sophie, Bahnwärters Witwe, Halden 268.\nSchmidt, Gustav, Kaufmann, Part., Graben 202.\n— Hans, Part., Schachen 723.\n— Jenny, Modistin, Zollrain 292.\n— Max, Fürsprech und Notar, Stadttammann, Jurastraße 1510.\nSchmocker, Gottlieb, Postpacker Zollrain 54.\nSchmutz, Anna, Damenschneiderin, Zollrain 54.\n— geb. Weber, Anna, Witwe, Spetterin, Zollrain 54.\nSchmuziger, Adolf, Fabrikant, Rain 1359.\n— Arnold, Fabrikant, Laurenzenvorstadt 1403.\n— Daniel, Baumeister, Part., Laurenzenvorstadt 367.\n— & Cie. (Emil Schmuziger-Rüetschi und Adolf Schmuziger-Stäheli)\n  Siegellack- und Tintenfabrikation, Rain 834.\n— geb. Lang, Elise, Witwe, Bahnhofstraße 1023.\n— Emil, Fabrikant, Rain 834.\n— Fritz, Bäcker, Ziegelrain 703.\n— Friedrich, Dr. med., Entfelderstraße 972.\n— Gottlieb, Schneidermeister, Ziegelrain 703.\n— geb. Gutjahr, Anna Maria, Witwe, Part., Kasinostraße 577.\n— geb. Hochstraßer, Marie, Part., Schachen 737.\n— Johann, Architekt, Baumeister, jenseits der Aare 294.\n— geb. Kern, Ida, Baumeisters Witwe, jenseits der Aare 294.\n— Jacot, Karl, Rentier, Milchgasse 157.\n— Lina, Part., Rain 860.\n— Louis, Pfarrer, Bahnhofstraße 1019.\n— Lucie, Damenschneiderin, Ziegelrain 703.\n— Luise, Damenschneiderin, hintere Vorstadt 645.\n— Susette, Part., Milchgasse 161.\n— Traugott, Maler, Rain 831.\n— Verena, Part., Milchgasse 161.\n— geb. Visel, Wilhelmine, Witwe, Ziegelrain 751.\n— geb. Zulauf, Marie, Part, Adelbändli 86 a.\nSchneeberger, Jakob, Handelsmann, Rathausgasse 3.\nSchneider, Emil Eduard, Magazinier, Schmiedgasse 625.\n— Ferdinand, Bankangestellter, Laurenzenvorstadt 552.\n— Franz Xaver, Zugführer, in der Gais 1517.\n— Fridolin, Obergericht, Rain 871.\n— Gustav, Dr. jur., Fürsprech, Wohnung obere Vorstadt 1117,\n  Advokaturbureau obere Vorstadt 929.\n— Jakob, Aufseher, Scheibenschachen 1284.\n— Samuel, Taglöhner, Halden 263.\n— Ulrich, Schlossermeister, Gottenmattgasse 234.\nSchneidtmann, Heinrich, Maurer, Milchgasse 76.\nSchnetzler, Johann Ludwig, Ziegelrain 704.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 96132,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2127,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:42:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p141",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p141.jpeg",
+      "bytes": 278110,
+      "sha256": "6ba4f3f26019826aea01f74ed58111f96ef185246fbd65d554f5f05cae78c2f0",
+      "sha256_of": "original",
+      "working_copy": "1899_p141.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:42:43+00:00"
+  }
+}

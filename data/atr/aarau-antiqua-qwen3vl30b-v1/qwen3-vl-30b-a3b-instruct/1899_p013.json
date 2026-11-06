@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p013",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p013.jpeg",
+    "bytes": 271205,
+    "sha256": "b30ec6bf5bab8a04a8c4666e523f34cc65f344795c6beba6e10ec0e60620cecd",
+    "sha256_of": "original",
+    "working_copy": "1899_p013.jpeg"
+  },
+  "text": "Haus-\nNr.\n42 Härdi, Wilhelm, Goldschmied, von Lenzburg, Gold- u. Silber-\nwarenhandlung.\n  — Lina, Haushälterin, von Lenzburg.\n  Bär, Adele, Modistin, Modegeschäft.\n  Moser, Karl, Architekt, Bureau.\n43 Hofer-Schaffner, Gottl., Kaufmann, Spezerei- u. Ellenwarenhdg.\n  Gröbli-Reindli, Jakob, Schneider, von Henau (St. Gallen).\n44 Hofer-Schaffner, Gottlieb, Kaufmann.\n  Reül-Saier, Philipp, Schneider, von Ob.-Höchstadt (Preußen).\n  Hofmann, Nanette, Weißnäherin, von Zell (Zürich).\n45 Fehlmann-Brack, Kaspar, Bäckermeister.\n  Wernle-Bläuer, Andreas, Schuhmacher, von Thalheim.\n  Hirt geb. Wehrli, Elisabeth, Witwe, Spetterin, von Zewyl.\n  Wernli geb. Wildi, Maria, Witwe, von Thalheim.\n  Amsler-Spirgi, Heinrich Ludwig, Taglöhner, von Densbüren.\n  Birri-Aklin, Wilhelm, Bremscr, von Zeihen.\n46 Hässig-Lienhard, Herm., Part.\n  — Gross, Fritz, Bäcker, Speisewirtschaft.\n  Schmid, Joh. Baptist, Mineralwasserfabrikant, von Reiden (Lz.)\n47 * Hässig-Lienhard, Hermann, Part.\n  Seiler, Walter, Uhrenmacher.\n  Gugel-Diriwächter, Friedrich, Schuhmcher, von Mengen (Großh.\n  Baden.\n  Meier-Bertschi, Jakob, Schlosser, von Hausen.\n  Bertschi-Wächter, Maria, Wäschcrin, von Dürrenäsch.\n48 Seiler-Hanhart, Andreas, Bäckermeister.\n49 * Gamper & Cie., (Anteilhaber: Müller-Haberstich, Fr., Gamper-\n  Zürcher, Hermann und Gamper-Baumann, Emil). Lager in\n  Herren- und Damen-Kleiderstoffen, Herren- und Damen-Konfektion,\n  Anfertigung von Herrenkleidern nach Mass.\n\nZollrain.\n50 * Gamper & Cie., Magazin.\n51 Frey-Rohner, Robert, Bäcker und Pintenwirt, von Zurzach.\n  Rohner geb. Ehrsam, Elise, Arzts Witwe, Part.\n  Keller, Lisette, Privat., von Zurzach.\n  — Henriette, Weißnäherin, von Zurzach.\n52 Vonarx, Karolina, Pintenwirtin, von Olten.\n  Helm-Vonarx, Elise, Witwe, von Oerlikon (Zürich).\n  Helm, Fanny, Modistin,\n  Nüsperli-Nussbaum, Friedrich, \"Sattler.\"\n  Nüsperli, Karl, Postcommis.\n  — Friedrich, Postcommis.\n  J. Zuberbühler, Filiale, von Zurzach, Lingerie- und Broderie-\n  geschäft.\n  Keller, Henriette, von Zurzach, Geschäftsführerin.\n  Buchmann-Spicher, Adele, Damenschneiderin, von Veltheim.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5529,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2086,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:24:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p013",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p013.jpeg",
+      "bytes": 271205,
+      "sha256": "b30ec6bf5bab8a04a8c4666e523f34cc65f344795c6beba6e10ec0e60620cecd",
+      "sha256_of": "original",
+      "working_copy": "1899_p013.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:24:10+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p036",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p036.jpeg",
+    "bytes": 271543,
+    "sha256": "4fb2b8157799d4866df543363501a83415dff1ff48ab6113eaf6b0cb26d759fb",
+    "sha256_of": "original",
+    "working_copy": "1896_p036.jpeg"
+  },
+  "text": "14\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n151 * Hoffmann-Käser, Johann, Schuhmachermeister.\nHediger-Born, Maria, Postfaktors Witwe, von Reinach.\nHochstrasser-Fehlmann, Verena, Spetterin, von Fahnwangen.\nHochstrasser, Elise, Damenschneiderin, von Fahnwangen.\nSeitz, Joh. Baptist, Drechsler, von Berneck.\n152 Wiederkehr-Oeschger, Viktoria, Witwe, v. Zell (Luzern) Wäscherei\nund Glätterei.\nOeschger, Klara, Wäscherin, von Wyl.\nFricker-Häusermann, Verena, Spetterin, von Veltheim.\nHolzreuter-Suter, Katharina, Witwe, Taglöhnerin, von Ueken.\nRoth, Katharina, Spetterin, von Ewattingen (Baden).\nSchäubli-Rüegger, Marie, von Bennwil (Baselland).\nHaberstich-Huber, Gottlieb, Part., von Oberentfelden.\nHaberstich, Emil, Sohn, Magaziner, von Oberentfelden.\n153 a * Hassler-Müller, Theodor, Buchbinder.\nZellweger-Fischer, Jakob, Büchsenmacher, v. Teufen (Appenzell).\nZellweger, Elise, Glätterin, von Teufen (Appenzell).\nDürr-Wüthrich, Gottlieb, Bauamtsarbeiter.\n153 b Hassler-Müller, Theodor, Buchbinder.\nBeck-Hertenstein, Karl, Schneider, von Horb (Württemberg).\n154 * Weber-Beck, Gustav, Bezirksarzt, von Menziken.\nHemmeler-Lange, Emil, Taglöhner.\nPfenninger-Bayon, Katharina, Sesselflechterin, von Stäfa (Zürich).\nWeber-Pfenninger, Ferd., Schneider, von Griestorf (Böhmen.)\nPfenniger, Marie, Weissnäherin, von Stäfa (Zürich).\nGloor, Elise, Fabrikarbeiterin, von Dürrenäsch.\nAngliker-Dätwyler, Abraham, Taglöhner, von Niederlenz.\n155 * Bachmann-Riniker, Johann, Küfer.\n156 * Beck-Fisch, Elise, Wittwes Erbschaft.\nBertschi-Siegrist, Gottlieb, Briefträger, von Dürrenäsch.\nHäuptli-Schälkli, Jakob, Färber, von Biberstein.\nRyner, Rosa, Weissnäherin, von Villnachern.\nWehrli-Fuss, Barbara, Postfaktors Witwe, von Asp.\nBürgi-Schmid, Barbara, Part., von Unter-Erlinsbach (Aargau).\n157 Schmuziger-Jacot, Karl, Rentier.\n158 Reformirte Kirchgemeinde Aarau. Pfarrhaus.\nWernly-Kraft, Rudolf, ref. Pfarrer, von Thalheim.\nKraft, geb. Gautschi, Auguste Friederike, Witwe, Part., von Brugg.\n159 Bachmann-Riniker, Johann, Küfer.\nMinder-Feuz, Fritz, Bierbrauer, von Lunterbrunnen (Bern).\nSchneider-Riser, Franz Xaver, Kondukteur, von Herznach.\nMerz-Gautschi, Heinrich Gottlieb, Part., von Menziken.\nMerz, Flora, Postangestellte, von Menziken.\nZulauf, Jakob, Postkommis, von Schinznach.\n1279 † Derselbe. Werksätte und Brennerei.\n160 Gemeinde Aarau.\nRothpletz-Hassler, Rudolf, Metzger.\nFisch-Vogt, Marie, Witwe.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19951,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2398,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:43:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p036",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p036.jpeg",
+      "bytes": 271543,
+      "sha256": "4fb2b8157799d4866df543363501a83415dff1ff48ab6113eaf6b0cb26d759fb",
+      "sha256_of": "original",
+      "working_copy": "1896_p036.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:17+00:00"
+  }
+}

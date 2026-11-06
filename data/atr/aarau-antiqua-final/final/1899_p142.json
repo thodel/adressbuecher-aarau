@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p142",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p142.jpeg",
+    "bytes": 287894,
+    "sha256": "077f5f5c3e8f028db3696e124714b5f91ade061a2596167ce7f36d18010c606b",
+    "sha256_of": "original",
+    "working_copy": "1899_p142.jpeg"
+  },
+  "text": "38\nSchönholzer, Robert, Kaufmann, Graben 1161.\nSchöpflin geb. Hemmeler, Hedwig, Witwe, Part., Metzgergasse 55.\nSchori, Joh. Friedrich, Schriftsetzer, Kirchgasse 8 a.\nSchröder, Theodor, Schuhmacher, Kirchhof 80.\nSchudel, Wilhelm, Lithograph, vor dem Haldenthor 766.\nSchürch, Adolf, Fabrikant, Konradstraße 992.\nSchützengesellschaft Aarau. Präsident: Rud. Hegnauer, Hammer 194.\nSchwanz, Theodor, Spezeriehandlung Bahnhofstraße 1074, Wohnung\n  Bahnhofstraße 1025.\nSchweizer geb. Gubler, Nanette, Witwe, Rain 862.\n— geb. Siebenmann, Sophie, Witwe, Part., Rain 860.\n— geb. Siebenmann, Sophie, Wwe., Bettwarengeschäft, Schachen 741.\nSchweizerische naturforschende Gesellschaft. Präsident: Professor\n  François Alphons Forel in Morges.\nSchweiz. gemeinnütziger Frauenverein. Präsidentin: Frau Gertrud\n  Villiger-Keller in Lenzburg.\nSchwendimann, Wilhelm, Kavallerieinstruktor, Feerstraße 1454.\nSchwere, Gottfried, Dr., Seminarlehrer, Feerstraße 1307.\nSeemann, Richardt Wilh., Lithograph, Pelzgasse 137.\nSeifert, Heinrich, Schneider, Pelzgasse 134.\nSeilaz, Abraham, Coiffurgeschäft und Parfümeriehandlung, Rat-\n  hausgasse 20.\n— geb. Brunner, Coiffeuse, Rathausgasse 20.\nSeiler, Andreas, Bäcker, Rathausgasse 48.\n— Oskar, Bäcker, [tel] Zollrain 88.\n— Walter, Uhrmacher, Rathausgasse 47.\nSemmler geb. Ganß, Margaretha, Schuhhändlerin, Rain 879.\nSenn geb. Blattner, Karolina, Witwe, Ausrüsterin, Milchgasse 156.\n— Gottfried, Sekretär, Rain 883.\n— Hans, Zeughausverwalter, Jurastraße 1466.\n— Isidor, Lehrer, Laurentenvorstadt 360.\n— Isidor, Part., hinter dem Bahnhof 1512.\n— Siegfried, Maurer, Scheibenschachen 314.\nSennhauser, Anna, Modistin, vor dem Haldenthor 1519.\n— Rosa und Amalia, Glätterinnen, vor dem Haldenthor 1519.\nSernatinger, Valerian, Hutmacher, [tel] vordere Vorstadt 893.\nSiebelist, geb. Fahrländer, Anna, Part., Laurentenvorstadt 371.\nSiebenmann, Adolf, Sekretär, Bachstraße 1396.\n— Arnold, Tapezierer, Bahnhofstraße 1074.\n— Bernhard, Part., vordere Vorstadt 673.\n— Bertha, Part., Ziegelrain 707.\n— geb. Blum, Elise, Witwe, Bahnhofstraße 1074.\n— & Cie., Camionnage, Spedition und Brennmaterialien. [tel] Bahn-\n  hofstraße 537.\n— Emmy, Klavierlehrerin, obere Vorstadt 923.\n— Emil, Stadtkassier, Schachen 737.\n— Fanny, Part., Bachstraße 1396.\n— Friedrich, Bierbrauer, Stadtrat, [tel] Wohnung jens. d. Aare 297 a.\n  Bierbrauerei Entfelderstraße 1506.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 46317,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2353,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:43:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p142",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p142.jpeg",
+      "bytes": 287894,
+      "sha256": "077f5f5c3e8f028db3696e124714b5f91ade061a2596167ce7f36d18010c606b",
+      "sha256_of": "original",
+      "working_copy": "1899_p142.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:43:29+00:00"
+  }
+}

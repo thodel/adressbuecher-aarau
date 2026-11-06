@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p050",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p050.jpeg",
+    "bytes": 265672,
+    "sha256": "e5e789c00336084898af1200bc3c7d7f6038f359641b72cd349e646eb59dcd34",
+    "sha256_of": "original",
+    "working_copy": "1896_p050.jpeg"
+  },
+  "text": "28\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n305 † Derselbe. Treibhaus.\n306 † Derselbe. Holz- und Waschhaus.\n1087 † Derselbe. Eiskeller.\n307 [tel] Gamper-Baumann, Emil, March.-Tailleur. (Zur Schönau).\n  Billo-Bohrer, Feodor, Kaufmann.\n308 † Derselbe. Holzhaus.\n1462 † Derselbe. Gewächshaus.\n309 * [tel] Bally, Söhne, C. F., Fabrikbesitzer in Schönenwerd. Schuhfabrik.\n310 a † Dieselben. Dampfkesselhaus.\n310 b † Dieselben. Maschinenhaus.\n311 † Dieselben. Pumphaus und Druckwasserleitung.\nScheibenschachen.\n312 a Wernli-Wehrlí, Maria, Gärtners Witwe, von Thalheim.\n  Wehrli, Friedrich, Gärtner, von Küttigen.\n  Hausmann, Gottfried, Bahnarbeiter, von Schafisheim.\n312 b * Zurlinden & Cie.\n  Fischer geb. Roth, Maria, Strassenwärters.\n  Frieden, Gottlieb Friedrich, Cementarbeiter, von Seedorf (Bern).\n  Frieden, Jakob, Bahnarbeiter, von Seedorf (Bern).\n313 Gloor-Widmer, Heinrich, Bandweber, von Oberkulm.\n  Meyer-Hunziker, Jakob, Schlosser, von Scherz.\n  Manz-Busch, Philipp, Aufseher, von Ramsen (Bayern).\n314 Birri-Wülsér, Fridolin, Posamentor, von Zeihen.\n  Osterwalder-von Arx, Rudolf, Schneider, von Stettfurt (Thurg.).\n1250 † Derselbe. Stall.\n315 a Wirz-Huber, Franz, Wagenvisiteur, von Starrkirch (Solothurn).\n315 b Möller-Reinle, Ernst August, Büchsenmacher, von Zella (Sachsen).\n316 Wüest-Lindemann, Jakob, Röhrenfabrikarbeiter, von Gränichen.\n  Eichhorn, Karl Adolf, Oberbrenner, von Wiesbaden (Preussen).\n  Eichhorn, Maria, Witwe, Part., von Wiesbaden (Preussen).\n  Müller, Elisabeth, Haushälterin, von Hundelshausen (Preussen).\n1284 Schneider-Wernli, Verena, Aufsehers, von Thalheim.\n  Schneider-Wernli, Jakob, Aufseher, von Thalheim.\n1004 † Ryniker, Gebrüder, Bierbrauer. Fassremise.\n1339 Vogel-Ernst, Joh., Obermüller, Cementfabr., v. Thalheim (Preussen).\n1278 Schmid-Pauli, Daniel, Gärtner, von Erlinsbach.\n  Pauli-Müri, Katharina, Witwe, von Villnachern.\n1095 † Schützengesellschaft Aarau. Schützenhaus.\n1096 † Dieselbe. Scheibenstand.\n1442 † Dieselbe. Revolverstand.\n1178 † Firma Zurlinden & Cie. Portlandcementfabrik.\n1179 † Dieselben. Turbinenhaus.\n1180 † \" [tel] Komptoir.\n1181 † \" Schuppen.\n1211 † \" Brennofenhaus.\n1212 † \" Cementmagazin.\n1213 † \" Materialschuppen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 62613,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2197,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:00:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p050",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p050.jpeg",
+      "bytes": 265672,
+      "sha256": "e5e789c00336084898af1200bc3c7d7f6038f359641b72cd349e646eb59dcd34",
+      "sha256_of": "original",
+      "working_copy": "1896_p050.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:00:03+00:00"
+  }
+}

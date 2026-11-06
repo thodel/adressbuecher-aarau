@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p131",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p131.jpeg",
+    "bytes": 280083,
+    "sha256": "877540fa6580fca31de0c7f791d9835ddffd620f057143d9335d762d9fde4048",
+    "sha256_of": "original",
+    "working_copy": "1899_p131.jpeg"
+  },
+  "text": "27\nLüscher, Karl, Küfer, Pelzgasse 128.\n— geb. Kaufmann, Anna Maria, Taglöhnerin, Halden 280.\n— Luise, Part., hintere Vorstadt 696.\n— Lisette, Weißnäherin, vor dem Haldenthalor 773.\n— Ottilie, Milchverkauf, hintere Vorstadt 696.\n— Rudolf, Maurer, Rain 880.\n— Theodor, Küfer, Milchgasse 155.\nLüthi, Anna, (Plazirungsbureau für weibliche Dienstboten). Kirch-\n  gasse 15.\n— Eduard, Sattler, Kirchgasse 15.\n— Fritz, Sattler, hintere Vorstadt 642.\n— Samuel, Chef des Telegraphenbureau, Laurenzenthor gasse 351.\n— geb. Weibel, Elise, Witwe, Wirtin z. „Zunfts tube“, Pelzgasse 129.\nLütolf, Joseph, Schneider, ehem. Wäscherei, vor d. Haldenthalor 810.\nLudwig, Oskar, Schneider, Kirchgasse 12.\nLutz, Johann, Kaufmann, Rain 829.\n\nMärk, Karl, Part., Metzgergasse 55.\nMärki-Haller, Gottlieb, Mühlenbauer, Rainstraße 848.\n— Heinrich, Magazinier, obere Vorstadt 955.\n— Jakob, Küfer, Ziegelrain 704.\n— Jakob, Buchbinder, Adelbändli 83.\n— Jakob, Fabrikschuhmacher, Laurenzenvorstadt (Phylosophen-\n  weg 1114.\nMadon, Viktor, Lokomotivführer, hinter dem Bahnhof 1558.\nMaier, Egina, Part., Entfelderstraße 1511.\n— Konrad, Lohnkutscher, [tel] Bachstraße 1040.\n— geb. Rychner, Bertha, Professors Witwe, Entfelderstraße 981.\nMayer, Thomas, Schuhmachermeister, hintere Vorstadt 697.\nManz, Philipp, Aufseher, Scheibensachen 1485.\nMarfurt, Franz Xaver, Coiffeur, Wohnung obere Vorstadt 926,\n  Coiffurgeschäft Bahnhofstraße 1022.\nMargraf, Anna, Rain 831.\nMarini, Dominiko, Südf Früchtenhändler, Schmiedgasse 634.\nMaritz, Arnold, Schuhfabrikarbeiter, Halden 279.\n— Julius, Sekretär, Kasinstraße 1176.\nMarti geb. Aeschbach, Elise, Haushälterin, in der Gais 1106.\n— Fritz, Bierbrauer, hinter dem Bahnhof 494.\n— Hulda Flora, Quincailleriewarenhandlung, Metzgergasse 55.\n— Lina, Damenschneiderin, Halden 267.\n— Oskar, Commis, Rathausgasse 18.\n— geb. Siebenmann, Ida, Arbeitslehrerin, Halden 267.\nMathys geb. Hafner, Katharina, Witwe, Gastwirtin zur „Krone“,\n  Kronengasse 39.\n— Wilhelm, Feilenhauer, Entfelderstraße 1285.\nMattenberger, Elise, Rain 831.\n— Jakob, Metzger u. Speisewirt, [tel] Oberthor 140 u. Milchgasse 141.\nMatter, Adolf, Bäcker, Schmiedgasse 1232.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 50168,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2133,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:34:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p131",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p131.jpeg",
+      "bytes": 280083,
+      "sha256": "877540fa6580fca31de0c7f791d9835ddffd620f057143d9335d762d9fde4048",
+      "sha256_of": "original",
+      "working_copy": "1899_p131.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:34:11+00:00"
+  }
+}

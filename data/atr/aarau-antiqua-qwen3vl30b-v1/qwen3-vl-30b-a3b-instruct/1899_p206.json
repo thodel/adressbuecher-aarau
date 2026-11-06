@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p206",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p206.jpeg",
+    "bytes": 277744,
+    "sha256": "d50ace2d397e3727921da112bc6cc7c5357d985d21f9e1e04f7d7a10bc993d6c",
+    "sha256_of": "original",
+    "working_copy": "1899_p206.jpeg"
+  },
+  "text": "102\nKantonsschulbibliothek.\n(Im neuen Kantonsschulgebäude.)\nBibliothekar: Prof. Dr. J. J. Bäbler.\nBibliothek des Töchtern-Instituts und Lehrerinnen-Seminars.\n(Im alten Kantonsschulhaus, II. Etage.)\nBibliothekstunden: Montag halb 2 bis 3 Uhr und Dienstag\n11 bis halb 12 Uhr.\nJahresabonnement: Fr. 3.\nBibliothekar: J. Suter, Rektor.\nBezirksschulbibliothek.\n(Im städtischen Schulhaus.)\nBibliothek des Grütlivereins.\n(Im alten Kaufhaus. Stadtgebäude.)\nGeöffnet: Alle Abend 8—10 Uhr.\nBenützung gratis.\nEvangelische Leihbibliothek.\n(Im Diakonissenhaus.)\nBibliothekstunden: Montag 1—3 Uhr.\nJahresabonnement: Fr. 2.\nBibliothekarin: Jungfer Nanette Kunz.\nc. Sammlungen.\nI. Kantoniales Gewerbemuseum.\n(Bahnhofstraße.)\nIn demselben sind untergebracht:\nDie gewerbliche Unterrichtsanstalt, bestehend aus: a) allgem.\nHandwerkerschule; b) Fachschule für Dekorationsmalen und kunst-\ngewerbliches Zeichnen; c) Fachschule für Bau- und Holztechnik;\nd) Frauenarbeitsschule; e) Dilettantenabteilung.\nFerner folgende Sammlungen:\n1. Gewerbliche Sammlungen: Kunstgewerbliche Objekte alter\nund neuer Zeit, mit Versuchsanstalt für Hilfsmaschinen, Werkzeug\nund Materialien für gewerbI. Zwecke. Temporäre Ausstellung von\nProdukten aarg. Gewerbetreibender. Gewerbliche Bibliothek mit\nVorbildersammlung. Lesezimmer und öffentl. Zeichnensaal.\nDie gewerblichen Sammlungen, die Bibliothek und der öffentl.\nZeichnungssaal mit Lesezimmer und Auskunftsbureau sind täglich\ngeöffnet von 9—12 Uhr und von 2—5 Uhr, Sonntags 10—12 Uhr,\nim Winter nur bis 4 Uhr, dafür Mittwoch und Freitag abends\n7—9 Uhr.\nDie übrigen Sammlungen sind gratis geöffnet vom 1. April bis\n31. Oktober Mittwoch und Freitag 10—12, 2—4 Uhr. Sonntag\n10—12 Uhr. Im Winter: Sonntag 10—12 Uhr und 2—4 Uhr. An\nden nicht benannten Tagen gegen eine Gebühr.\nDirektor des Gewerbemuseums: J. L. Meyer-Zschokke. Assistent;\nKarl Füglistaller.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4584,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1862,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.5,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:43:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p206",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p206.jpeg",
+      "bytes": 277744,
+      "sha256": "d50ace2d397e3727921da112bc6cc7c5357d985d21f9e1e04f7d7a10bc993d6c",
+      "sha256_of": "original",
+      "working_copy": "1899_p206.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:43:44+00:00"
+  }
+}

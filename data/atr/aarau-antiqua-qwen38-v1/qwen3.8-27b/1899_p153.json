@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p153",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p153.jpeg",
+    "bytes": 241135,
+    "sha256": "d1672b68653401fee5c59507955da785022fe1473698e03dd2c0e5aa7ce17248",
+    "sha256_of": "original",
+    "working_copy": "1899_p153.jpeg"
+  },
+  "text": "49\nZschokke, Ernst, Dr. phil., Bezirksschullehrer, Zschokkestraße 995.\n  — Guido, Buchhändler, Zschokkestraße 995.\n  — Hermann, Versicherungsagent, [tel] Bureau Entfelderstraße 960,\n  Wohnung Entfelderstraße 1075.\n  — geb. Jorda, Elise, Witwe, Laurenzenvorstadt 394.\n  — Konradin, Ingenieur, [tel] Entfelderstraße 1200.\n  — M., Baugeschäft, [tel] Rohrerstraße 472.\n  — geb. Offenhäuser, Elise, Pfarrers Witwe, Entfelderstraße 960.\n  — geb. Sauerländer, Maria, Witwe, z. „Blumenhalde“, [tel] jenseits\n  der Aare 319.\nZündt geb. Hagenbuch, Elise Luise, Witwe, Part., vordere Vor-\n  stadt 674.\nZürcher, Alfred, Arzt, [tel] Laurenzenvorstadt 397.\n  — Friedrich, Taglöhner, vor dem Haldenthor 802.\n  — geb. Hauenstein, Anna, vor dem Haldenthor 802.\nZuber, Andreas, Part., Kirchhof 163.\n  — Andreas, Architect, Bahnhofstraße 1074.\nZuberbühler, J., in Zurzach (Lingerie- u. Broderiegeschäft), Filiale :\n  Zollrain 53.\nZubler, Jakob, Schmied, vor dem Haldenthor 755.\n  — Reinhard, Mechan., Bahnhofstraße 536.\nZulauf, Jakob, Postcommis, Mühlgasse 159.\n  — geb. Siebenmann, Marie, Witwe, Zenghausstraße 1452.\nZumsteg, Anselm, Schuhmacher, Hammer 185 b.\nZurlinden, Friedrich, Bankdirektor, in der Gais 1217.\n  — Rudolf, Fabrikant, Bahnhofstraße 1013.\n\nStadt Aarau E.\n4",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 27379,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1257,
+    "lines": 29,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.17,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:51:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p153",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p153.jpeg",
+      "bytes": 241135,
+      "sha256": "d1672b68653401fee5c59507955da785022fe1473698e03dd2c0e5aa7ce17248",
+      "sha256_of": "original",
+      "working_copy": "1899_p153.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:51:27+00:00"
+  }
+}

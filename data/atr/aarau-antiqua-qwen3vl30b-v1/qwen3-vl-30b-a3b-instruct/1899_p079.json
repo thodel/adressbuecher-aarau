@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p079.jpeg",
+    "bytes": 272040,
+    "sha256": "c07029a90754567de14d900dc3f2aa0a579a6136ce6990767c2dfad368274384",
+    "sha256_of": "original",
+    "working_copy": "1899_p079.jpeg"
+  },
+  "text": "74\nHaus-\nNr. Obere Vorstadt.\n909 Wernli-Meier, Jakob, Schreinermeister.\n910 † Derselbe. Werkstätte.\n911 Vogt-Kohler, Johann, Schuhmachermeister. Schuhhandlg.,\n912 Gautschi-Wiser, Mina, Witwe, Wirtin, von Reinach.\nGasthaus zur Herberge.\n913 Soland-Höfel, Heinrich, Bäcker, v.Stüsslingen (Solothurn.).\nSpeisewirtschaft.\n914 * Derselbe. Wohnhaus mit Bäckerei.\n915 * „ Hinterhaus.\n916 Aeschbach-Steiner, Rudolf, Steinhauer, von Hendschikon.\nAndres-Bircher, Friedrich, Hafnermeister. \nBircher, Fanny, Part.\nStierli-Andres, Elise, Buchdruckers Witwe.\n917 † Derselbe. Ofenmagazin und Geschirrhandlung.\n918 † „ Waschhaus.\n1437 † „ Holzschopf.\n919 * Hemmeler-Scheibler, Hafners Witwe.\n— Schmidt, Wilh., Hafnermeister. Geschirrhandlung.\nHeusser-Müller, Otto, Bremser, von RemetschwyI.\n920 † Dieselbe. Holzschopf.\n921 Hemmeler-Roth, Wilhelm, Kanzlist.\n— Julia, Lehrerin.\n— Wilhelm, Postcommis.\nMüller-Riniker, Elise, Staatsweibels Witwe, v. Biberstein.\nMüller, Elise, Glätterin, von Biberstein.\nHunziker-Stirnemann, Alf., Lagerhausarbeiter, von Moos-\nleerau.\nBlattner-Burgunder, Aug., Sekretär der Aarg. Ersparnis-\nkasse, von Küttingen.\n922 Siegrist-Lindenmann, Johann, Schuhmacher, von Meister-\nschwanden. Spezereihandlung.\nBhend-Wernli, Johann, Schreiner, von Unterseen (Bern).\n923 Ernst-Käser, Friedrich, Röhrenfabrikant. \nFischer-Niggli, Lina, Witwe, Part., von Reinach.\nSiebenmann, Emmy, Klavierlehrerin.\n924 † Derselbe. Magazin.\n925 Siegrist-Ryniker, Heinrich. Metzgermeister.\nMeyer-Roth, Verena, Part., von Dintikon.\n— Eduard Erwin, Sekretär, von Dintikon.\nWetter & Cie. Magazin zum Globus. Haushaltungs-\nund Luxusartikel.\n926 Wernle-Treier, Anna, Wirtin, von Herznoch, Speise-\nwirtschaft, (Bayerische Bierhalle).\nMarfurt-Hofer, Xaver, Coiffeur, von Langnau (Luzern).\n927 Widmer-Rychner, Rudolf, Bäckermeister, von Gränichen.\nPintenwirtschaft.\nWernli-Montprecht, Friedrich, Schreiner.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5548,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1880,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:30:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p079.jpeg",
+      "bytes": 272040,
+      "sha256": "c07029a90754567de14d900dc3f2aa0a579a6136ce6990767c2dfad368274384",
+      "sha256_of": "original",
+      "working_copy": "1899_p079.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:30:07+00:00"
+  }
+}

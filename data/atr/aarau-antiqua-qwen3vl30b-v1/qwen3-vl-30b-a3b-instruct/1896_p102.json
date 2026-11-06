@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p102",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p102.jpeg",
+    "bytes": 282138,
+    "sha256": "7bfeecbfa29c5d90ac08e117a596e340b39446dda12467e8fdc23dfe215eb523",
+    "sha256_of": "original",
+    "working_copy": "1896_p102.jpeg"
+  },
+  "text": "80\nNach der Nummerierung gebaute Häuser.\n\nHaus-\nNr.\n1063 Schäfer-Troller, Adolf, Architekt. (In der Gais.)\n1064 + Derselbe. Holzschopf. (In der Gais).\n1065 + Abgetragen.\n1066 + Ryniker, Gebr. Bierbrauer. Kühlschiff. (Mühlegässchen.)\n1067 + Schneider, Gustav, Dr., Oberrichter. Rebhäuschen. (Weinberg.)\n1068 + Burkardt, Ferd., Coiffeur. Rebhäuschen. (Weinberg).\n1069 + Abgetragen.\n1070 + Abgetragen.\n1071 + Abgetragen.\n1072 Gautschi, Rudolf, Wirt, zum „Frohsinn“. (Hinter dem Bahnhof.)\n1073 + Kraft-Kaspar, Maria, Witwe. Holzremise. (Bachstraße.)\n1074 * Spengler-Lienhard, Luise, Witwe, Part. (Bahnhofstraße).\n1075 Brentano-Bruggisser, Max, Zahnarzt, von Laufenburg. (Entfelderstraße.)\n1076 Beck, Friedrich, Sattler. Waschhaus. (Entfelderstraße.)\n1077 + Richner & Rothpletz, Röhrenfabrik. (Bahnhofstraße.\n1078 + Würger, Heinrichs Erbschaft. Eisengießerei. (Hinterm Bahnhof.)\n1079 Zschokke, Ol., Baugeschäft. (Rohrerstraße.)\n1080 + Frey-Bolley, Lina, Witwe. Gewächshaus. (Bachstraße.)\n1081 + Klingelfuss, Johann, Mechaniker. Werkstätte. (Weinberg.)\n1082 + Derselbe. Holzschopf. (Weinberg.)\n1083 * Amsler-Falger, Witwe, Wohnhäuschen. (Vor dem Haldenthor.)\n1084 * Wehrli-Dubs, Johann, Gärtner. Wohnhaus. (Vor dem Haldenthor.)\n1085 + Jenny & Weigel, Farbgebäude. (In der Telli.)\n1086 Stähelin-Herzog, Alfred, Dr. med. (Im Kirschgarten.)\n1087 + Derselbe. Eishaus. (Im Kirschgarten.)\n1088 Abgetragen.\n1089 + Gasbeleuchtungsgesellschaft. Schopf. (An der Aare.)\n1090 + Dieselbe. Schopf. (An der Aare.)\n1091 + Märki, Jakob und Haller, Karl, Bureau. (Schönenwerderstraße.)\n1092 * Wägeler-Vogel, Karl, Dachdecker. (Vor dem Haldenthor.)\n1093 Derselbe. Wohnhaus. (Vor dem Haldenthor.)\n1094 + Berchthold-Lüscher, Nanette, Fuhrmanns. Scheune. (Vor d. Haldenthor.)\n1095 + Schützengesellschaft Aarau. Schützenhaus. (Scheibenschachen.)\n1096 + Dieselbe. Scheibenstand. (Scheibenschachen.)\n1097 + Schmidt-Hagnauer. Rebhäuschen. (Weinberg.)\n1098 * Bircher-Schatzmann, Dr. med. (Bachstraße.)\n1099 + Derselbe. Scheune.\n1100 Merz-Märk, Notar.\n1101 Bäbler, J. J., Professor.\n1102 Siebenmann, Otto, Kreiskommandant. (Weinberg.)\n1103 Hartmann, Rudolf, Fabrikant. (Gartenstraße.)\n1104 + Gemeinde Aarau. Schuppen. (Jenseits der Aare.)\n1105 + Aechbach, Friedrich, Mechaniker. Werkstätte u. Bureau. (In der Gais.)\n1106 Derselbe. Wohnhaus. (In der Gais.)\n1107 Stänz-Suter, Witwe. (Bachstraße.)\n1108 + Wehrli-Dubs, Johann, Gärtner. Gewächshaus. (Vor dem Haldenthor.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7515,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2432,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:09:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1896_p102",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p102.jpeg",
+      "bytes": 282138,
+      "sha256": "7bfeecbfa29c5d90ac08e117a596e340b39446dda12467e8fdc23dfe215eb523",
+      "sha256_of": "original",
+      "working_copy": "1896_p102.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:09:01+00:00"
+  }
+}

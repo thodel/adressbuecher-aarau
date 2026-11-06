@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p136",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p136.jpeg",
+    "bytes": 282843,
+    "sha256": "0eaee144599b317f77c0f1f0fa14bb4dd12cca6d13a65cc4a3979a19abd35e25",
+    "sha256_of": "original",
+    "working_copy": "1899_p136.jpeg"
+  },
+  "text": "32\n\nPfau, Joh. Jakob, Direktor der aarg. Kreditanstalt, [tel] Laurenzenvor-\nstadt 1340.\n— Joh. Jakob, Bankangestellter, Laurenzenvorstadt 1340.\nPfenniger geb. Bayon, Katharina, Sesselflechterin, Milchgasse 154.\n— Marie, Weißnäherin, Milchgasse 154.\nPfister, Emil, Taglöhner, Halden 290.\n— geb. Sandmeier, Emma, Näherin, Halden 290.\nPfisterer, Robert, Bierbrauer, vordere Vorstadt 1263.\nPfleger, Emma, Pfarrers, Part., Halden 261.\n— Hermann, Kondukteur S. C. B., Laurenzenvorstadt 362.\nPhilipp, Johann, Küher, Bachstraße 1041.\nPlüss, Anna, Damenschneiderin, hintere Vorstadt 688.\n— Bernhard, Knecht, Halden 259.\n— Friedrich Rudolf, Landwirt, Weinberg 321 b.\n— geb. Haller, Maria, Witwe, Bettenmacherin, Goltattenmattgasse 232.\n— Jakob, Maurer, hintere Vorstadt 696.\n— Jakob, Zimmermann, vor dem Haldenthor 809.\n— Johann, Kondukteur, Entfelderstraße 1285.\n— Rosine, Weißnäherin, Laurenzenvorstadt 544.\n— geb. Wächli, Lea, Hebamme, Weinberg 321 b.\n— geb. Zimmerli, Marie, Hebamme, hintere Vorstadt 696.\nPöll, Johann, Maurerpolier, obere Vorstadt 947.\nPostgebäude, Bahnhofstraße 513.\nPortmann geb. Emmenegger, Theresia, Fabriksarbeiterin, Goltatten-\nmattgasse 231 b.\n— Joseph, Ausläufer, Stadthof 94.\n— geb. Peyer, Luise, Glätterin, Stadthof 94.\nPran tl, Alois, Maurer, Hammer 186.\nPrior geb. Dettmer, Helena, Part., [tel] Gartenstraße 1129.\nProbst, Johann, Schneider, Halden 282.\nPuricelli, Revenato, Geflügelhändler, Bachstraße 1028.\n\nQuernheim, Magdalena, Hausiererin, Bahnhofstraße 1025.\n\nRämisperger geb. Berner, Marie, Gürtlers Witwe, Goltattenmatt-\ngasse 231 b.\n— Hermann, Spenglermeister, Adelbändli 174.\n— geb. Studler, Verena, Rain 881.\nRamsauer geb. Hächler, Anna, Witwe, Part., Pelzgasse 69.\nRandedger geb. Wirth, Josephine, Witwe, Wirtin z. Schwyzerhüsli,\nKasinostraße 574.\nRattaggi, Giuseppe, Südfrüchtenhandlung, Bachstraße 1028.\n— -Valmaggi, Maria, Witwe, Bachstraße 1028.\nRauch geb. Baldeschwyler, Bertha, Witwe, obere Vorstadt 966.\nRebmann, Karl Jakob, Maler, Rain 885. (Werkstätte Rain 874.)\nReimann, Friedrich, Postcommis, Rain 838.\n— Gustav, Obergerichtsschreiber, Feerstraße 1498.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16334,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2098,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:38:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p136",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p136.jpeg",
+      "bytes": 282843,
+      "sha256": "0eaee144599b317f77c0f1f0fa14bb4dd12cca6d13a65cc4a3979a19abd35e25",
+      "sha256_of": "original",
+      "working_copy": "1899_p136.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:38:50+00:00"
+  }
+}

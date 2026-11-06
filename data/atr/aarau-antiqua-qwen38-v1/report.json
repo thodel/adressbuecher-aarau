@@ -1,0 +1,88 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "pages": 395,
+  "started_at": "2026-11-06T13:09:08+00:00",
+  "elapsed_s": 27156.4,
+  "rebuilt": false,
+  "skipped_files": [],
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": "/home/dh/agentic_historian/agentic_historian/data/nextcloud/adressbuecher-aarau/antiqua",
+    "gateway": "http://130.92.59.240:8200",
+    "runner": {
+      "name": "agentic-historian",
+      "version": "0.1.0",
+      "commit": "2cf0a328040334dc9bdabbcad8ec140fc4541d28",
+      "commit_source": "git"
+    },
+    "started_at": "2026-11-06T13:09:08+00:00",
+    "ended_at": "2026-11-06T20:41:44+00:00",
+    "models": [
+      {
+        "model": "qwen3.8-27b",
+        "engine": null,
+        "level": null,
+        "revision": null,
+        "revision_kind": "unreported",
+        "weights": null,
+        "base_model": null
+      }
+    ]
+  },
+  "models": [
+    {
+      "model": "qwen3.8-27b",
+      "done": 395,
+      "skipped": 0,
+      "failed": 0,
+      "chars": 860129,
+      "lines": 0,
+      "truncated": 12,
+      "truncated_keys": [
+        "1896_p037",
+        "1896_p084",
+        "1896_p196",
+        "1899_p049",
+        "1899_p050",
+        "1899_p051",
+        "1899_p064",
+        "1899_p077",
+        "1899_p087",
+        "1899_p111",
+        "1899_p119",
+        "1899_p196"
+      ],
+      "empty": 9,
+      "empty_keys": [
+        "1896_p037",
+        "1899_p049",
+        "1899_p050",
+        "1899_p051",
+        "1899_p077",
+        "1899_p087",
+        "1899_p111",
+        "1899_p119",
+        "1899_p196"
+      ],
+      "repetitive": 0,
+      "repetitive_keys": [],
+      "deliberated": 0,
+      "deliberation_keys": [],
+      "verdicts": {
+        "short": 3,
+        "ok": 383,
+        "empty": 9
+      },
+      "recognition_ms": 27154106,
+      "elapsed_s": 27156.4,
+      "aborted": "",
+      "source_errors": 0,
+      "source_missing": 0,
+      "source_missing_keys": [],
+      "errors": [],
+      "energy": null
+    }
+  ]
+}

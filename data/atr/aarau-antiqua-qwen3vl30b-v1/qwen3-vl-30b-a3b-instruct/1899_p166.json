@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p166",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p166.jpeg",
+    "bytes": 252837,
+    "sha256": "4caab60a6eefde31d2c05bf6e90bee78fe67665b6f54e08bd1c2392cc03e42db",
+    "sha256_of": "original",
+    "working_copy": "1899_p166.jpeg"
+  },
+  "text": "62\nFärbereien.\nHaßler-Ernst, August, * Halden 265.\nJenny & Weigel, * in der Telli 449.\nKeller, Bertha, Witwe, Halden 273.\nWydler, H., Söhne, * Ziegelrain 718.\nWyser, Alfred, * Bachstraße 1055.\n\nFeilenhauer.\nMathys, Wilhelm, Entfelderstraße 1285.\nHof, Eduard, Hammer 188.\n\nFeinschleifer.\nHässig, Gottlieb, Hammer 1295.\n\nFeuerversicherung.\n(Siehe Agenturen.)\n\nFührhalter.\nBaumann, Simon, Halden 249.\nGloor, Wilhelm, Schachen 741.\nHangartner, Kaspar, Ziegelrain 712.\nKeller, Katharina (Lohnkutscheri), Kasinostraße 580.\nMaier, Konrad (Lohnkutscher), Bachstraße 1040.\nMürset, Gottlieb, Schachen 733.\nSiebenmann & Cie., Bahnhofstraße 537. (Siehe Inserat Seite 26.)\nWillimann, Ant. (Lohnkutscher), Schmiedgasse 619.\n\nFürsprecher.\nAmsler, Emil, Konradstraße 989.\nBlattner, Otto, Dr., obere Vorstadt 948.\nIsler, Emil, Laurenzenvorstadt 413.\nKeller, Gottfried, Dr., Pelzgasse 128.\nKurz, Erwin, Laurenzenvorstadt 360.\nSchmidt, Max, Stadtammann, Jurastraße 1510.\nSchneider, Gustav, Dr., obere Vorstadt 929.\nStierli, Goar Leonz, Graben 615.\nTanner, Erwin, Laurenzenvorstadt 586.\n\nGarnhandlungen.\nCodoni-Dreßler, R., * Rain 826. (Siehe Inserat Seite 14.)\nErdin, Albin, * Rathausgasse 22. (Siehe Inserat Seite 22.)\nErny-Fäßler & Sohn, * Kronengasse 33.\nHagenbuch-Hagenbuch, Verena, Zollrain 177.\nHemmeler-Türler, E., * Metzgergasse 59.\nHeß-Wolf, Alexander, * Rathausgasse 4.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4503,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1360,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T14:38:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen3vl30b-v1",
+    "source": {
+      "key": "1899_p166",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p166.jpeg",
+      "bytes": 252837,
+      "sha256": "4caab60a6eefde31d2c05bf6e90bee78fe67665b6f54e08bd1c2392cc03e42db",
+      "sha256_of": "original",
+      "working_copy": "1899_p166.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:38:52+00:00"
+  }
+}

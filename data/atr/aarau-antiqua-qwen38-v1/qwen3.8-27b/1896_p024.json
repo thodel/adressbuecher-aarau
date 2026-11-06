@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p024",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p024.jpeg",
+    "bytes": 287891,
+    "sha256": "d573dbe9ed779e40d37e90d8c27c989cf8046b13eb51f2f70861d5ab692d9e75",
+    "sha256_of": "original",
+    "working_copy": "1896_p024.jpeg"
+  },
+  "text": "2 Verzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr. 4 [tel] Hess-Wolf, Alexander, Kaufmann von Zillisheim (Elsaß). Tuch-\n  und Möbelwarenhandlung. Firma Gebrüder Hess, Filiale der Magazine zur Stadt\n  Mühlhausen, Biel und Solothurn.\n  Hess, Emanuel, Commis, von Mühlhausen.\n  5 Weibezahl, Leonhard, Apotheker, von Gotha.\n\nKirchgasse.\n6 * Staat Aargau. Pfarrerhelfergebäude.\n  Frei-Rauchenstein, Eduard, Pfarrerhelfer für den Helferkreis Aarau.\n7 [tel] Vidiella -Tarats, Manuel, von Sitges (Spanien). Spanische Wein-\n  halte. Weinhandlung.\n8 a Gantner geb. Fuchs, Elise, Schneiderin, von Grabs (St. Gallen).\n  Hoffmann-Suter, Christoph, von Schwabach (Bayern). Coiffurgeschäft.\n  Siegrist-Hauri, Marie, Wäscherin, von Seengen.\n8 b Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n  Lienberger-Weber, Kaspar, Schuhmachermeister von Spreitenbach.\n9 a † Gemeinde Aarau. Feuerlöschmagazin. Leiter Nr. I.\n9 b Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n10 a Lichner-Thommen, Friedrich, Spenglermstr., Spenglerwarenhandl.\n  Millenet-Rychner, R., Bereiters Witwe, von Genf. Damenschneiderin.\n  Hächler-Peter, Gottlieb, Bauamtsarbeiter, von Teufenthal.\n  Erismann, Rudolf, Taglöhner, von Kirchrued.\n10 b Rychner-Thommen, Friedrich, Spenglermeister.\n  Müller-Amsler, Joh. Jakob, Schuhmacher, von Unter-Kulm.\n  Meier-Wehrli, Jakob, Bäcker, von Holderbank.\n11 Hány-Hány, Marie, Bäckers Witwe, Part., von Kölliken.\n  Hány-Hunziker, Hermann, Sohn, Bäckermeister, von Kölliken.\n  Roth, Friedrich, Ausläufer (Aarg. Nachrichten), von Mühlethal.\n  Hassler, Gottl., Bauamtsarbeiter.\n12 Strebel-Bernauer, Joseph, Schuhmacher, v. Mägenwyl, Schuhhandlung.\n  Suter-Lüscher, Gabriel, Posamentor, von Gränichen.\n  Kaufmann-Meyer, Nikl., Polizeidienor, von Knuttwyl (Luzern).\n  Kaufmann-Meyer, El., Hebamme, von Knuttwyl (Luzern).\n13 Lattmann-Ackermann, Georg, Lokomotivf., von Sterenberg (Zürich).\n  Heinzelmann, Joh., Schuhmacher, von Marschalkzimmer (Würtemberg).\n  Döbeli, Ros., Privatin, von Boniswyl.\n  Mürset, Maria, Coiffeuse, von Diesse (Bern).\n  Fehlmann-Holzreuter, Christoph, Taglöhner, von Seon.\n14 Sommerhalder-Lindenmann, Rudolf, Küher, von Schlossrued.\n  Milch- und Käsehandlung.\n  Hunziker-Gloor, Friedrich, Schreiner, von Ober-Kulm.\n  Schnetzler, Johann Ludwig, Bremser, von Kaisten.\n15 * Faller-Unwin, Friedr., Kaufmann.\n  Lüthi-Kneubühler, Eduard, Sattler, von Bleienbach (Bern).\n  Lüthi-Kneubühler, A., v. von Bleienbach (Bern). Plazierungsbureau.\n  Hoffmann-Suter, Christ., Coiffeur, von Schwabach (Bayern).\n  Bircher, Johann, Schriftsetzer, von Küttigen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 95862,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2586,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:28:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1896_p024",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p024.jpeg",
+      "bytes": 287891,
+      "sha256": "d573dbe9ed779e40d37e90d8c27c989cf8046b13eb51f2f70861d5ab692d9e75",
+      "sha256_of": "original",
+      "working_copy": "1896_p024.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:42+00:00"
+  }
+}

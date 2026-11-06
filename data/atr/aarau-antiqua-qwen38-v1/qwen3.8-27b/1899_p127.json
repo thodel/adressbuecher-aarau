@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p127",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p127.jpeg",
+    "bytes": 273318,
+    "sha256": "a12489c30613a9f19789ea40809e785252670e3c06ce3d8ccdae27b4604f6136",
+    "sha256_of": "original",
+    "working_copy": "1899_p127.jpeg"
+  },
+  "text": "23\nIslíker, Ulrich, Schuhmacher, Milchgasse 75.\nJung, Ludwig, [tel] Apotheker, Rathausgasse 16.\nJura-Cementfabriken, [tel] Scheibenschachen 1178.\nKäppeli, Gottlieb, Dr. jur., Regierungsrat, Entfelderstraße 969.\nKäser, Aug., Reisender, Ziegelrain 710.\n— Emil, Gärtner, vor dem Haldenthor 794.\n— Heinrich, Fabrikarbeiter, Kirchhof 80.\n— Jakob Friedrich, Buchbinder und Wirt, Rathausgasse 25.\n— Jakob, Küfer, Erlinsbächerstraße 335.\n— Jakob, Rathausabwart, vordere Vorstadt 905.\n— Joh. Rudolf, Steinhauer, Entfelderstraße 1285.\n— geb. Müller, Anna Barbara, Part., obere Vorstadt 955.\n— Nanette, Wäscherin und Glätterin, Entfelderstraße 1285.\n— Rudolf, Postkondekteur, hinter dem Bahnhof 496.\n— Xaver, Fabrikaufseher, Telli 440.\nKäslin geb. Schönecker, Lina, Musiklehrers Wwe., Laurenzenvorst. 602.\nKaiser, Friedrich, Wirt z. Café Central, Bahnhofstraße 1525.\nKalt, Alfred August, Oberarzt der med. Abteilung am Kantons-\nspital, in der Gais 1186.\nKantonsschule (neue), Bahnhofstraße 1432.\nKaspar, Eduard, Ferger, Rohrerstraße 1560.\n— geb. Frei, Anna, Witwe, Ziegelrain 751.\n— geb. Hunziker, Maria, Witwe, Bachstraße 1039.\n— Siegwart, Postbacker, Ziegelrain 751.\n— geb. Frei, Verena, Part., Ziegelrain 751.\nKauf, Alfred, Kassier, Bankstraße 509.\n— Heinrich, Part., Bankstraße 509.\nKaufmann, Otto, Commis, Graben 620.\nKeller, Abraham, Mechaniker, [tel] Halden 260 a.\n— Alois, Postcommis, Rathausgasse 26.\n— geb. Bauhofer, Bertha, Färbers Witwe, Halden 273.\n— Andreas, Agent, [tel] Bachstraße 1043.\n— Erwin, Gießerarbeiter, Adelbändli 85 b.\n— geb. Franke, Mina, Witwe, Zollrain 179.\n— Fritz, Diener, Rain 1185.\n— Gottfried, Buchdrucker, Rain 839.\n— Dr. Gottfried, Fürsprech, Pelzgasse 128.\n— Gottlieb, Rain 822.\n— Henriette, Weißnäherin, Zollrain 51.\n— Ida, Glätterin, Rain 1185.\n— Johann, Maler, Halden 281.\n— Johann, Ökonom, Bachstraße 1043.\n— Joseph, Pferdwärter, Halden 280 b.\n— Jos. Hermann, Schneider, Schachen 729.\n— Kath., Fuhrhalters, [tel] Kasinostraße 580.\n— Karl, Fouragehandlung, Rain 878.\n— Lina, Part., Laurenzenvorstadt 1294.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16422,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2034,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T19:30:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-v1",
+    "source": {
+      "key": "1899_p127",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p127.jpeg",
+      "bytes": 273318,
+      "sha256": "a12489c30613a9f19789ea40809e785252670e3c06ce3d8ccdae27b4604f6136",
+      "sha256_of": "original",
+      "working_copy": "1899_p127.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T19:30:22+00:00"
+  }
+}
