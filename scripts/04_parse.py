@@ -92,7 +92,9 @@ def split_addresses(tail: str) -> list[tuple[str, str, str]]:
 
 
 def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
-                forenames: set[str] | None = None) -> dict:
+                forenames: set[str] | None = None, has_address: bool = True) -> dict:
+    """`has_address=False` für Bewohnerzeilen des Gebäudeverzeichnisses: dort ist die
+    Adresse das Gebäude, und das letzte Segment ist Beruf oder Heimatort."""
     t = text.strip()
     rec = {k: "" for k in FIELDS}
     rec["text"] = text
@@ -141,7 +143,9 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
         rec["_addresses"] = []
         return rec
     addresses: list[tuple[str, str, str]] = []
-    if idem_n and prev and not re.search(r"\d", segs[-1]):
+    if not has_address:
+        pass
+    elif idem_n and prev and not re.search(r"\d", segs[-1]):
         # keine eigene Adresse: Heimatort/Adresse der Vorzeile übernehmen
         rec["origin_raw"], rec["origin_canton"] = prev.get("origin_raw", ""), prev.get("origin_canton", "")
         addresses = list(prev.get("_addresses") or [])

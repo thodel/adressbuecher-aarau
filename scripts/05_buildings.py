@@ -124,18 +124,12 @@ def parse_building_page(text: str, volume: str, page: int, street: str = "", pre
                 r = residents[-1]
                 r["text"] = (r["text"][:-1] + s) if r["text"].endswith("-") and s[:1].islower() else (r["text"] + " " + s)
                 keep = ("entry_id", "volume", "page", "section", "line_from", "text")
-                parsed = {k: v for k, v in parse_entry(r["text"], cur["owner_surname"]).items() if k in FIELDS and k not in keep}
+                parsed = {k: v for k, v in parse_entry(r["text"], cur["owner_surname"], has_address=False).items() if k in FIELDS and k not in keep}
                 residents[-1] = {**r, **parsed, "line_to": i, "building_id": cur["building_id"],
                                  "building_no": cur["building_no"], "street_raw": street}
                 continue
-            e = parse_entry(s, cur["owner_surname"])
+            e = parse_entry(s, cur["owner_surname"], has_address=False)
             e = {k: v for k, v in e.items() if k != "_addresses"}
-            if e["surname"] and "adresse ohne nummer" in e["residual"]:
-                # Bewohner haben keine eigene Adresse: die Adresse ist das Gebäude
-                e["residual"] = "; ".join(n for n in e["residual"].split("; ") if not n.startswith("adresse ohne nummer"))
-                e["occupation_raw"] = ", ".join(x for x in [e["occupation_raw"], e.get("street_raw", "")] if x) if False else e["occupation_raw"]
-                if e["parse_confidence"] == "medium" and not e["residual"]:
-                    e["parse_confidence"] = "high"
             e.update({"entry_id": f"{volume}-gebaeude-{page:03d}-{len(residents)+1:03d}", "volume": volume,
                       "page": str(page), "section": "gebaeude", "line_from": i, "line_to": i,
                       "building_id": cur["building_id"], "building_no": cur["building_no"], "street_raw": street})
