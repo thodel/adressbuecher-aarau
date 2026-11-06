@@ -9,13 +9,18 @@ aus `agentic_historian`.
 
 ## 1. Befund: die Quellen
 
-| Band | Seiten | Satz | Bemerkung |
+| Band | Seiten | Satz | Abfolge (PDF-Seiten; vollständig in `data/csv/01_pages.csv`) |
 |---|---:|---|---|
-| 1884 | 100 | Fraktur | Einwohner ab S. 1 (Buchseite); Gebäudeverzeichnis; Berufsklassen; Behörden |
-| 1888 | 192 | Fraktur (zu prüfen) | |
-| 1892 | 200 | Fraktur/Antiqua (zu prüfen) | |
-| 1896 | 290 | Antiqua (zu prüfen) | grösster Band, viele Inserate |
-| 1899 | 248 | Antiqua | IX. Ausgabe; Inhaltsverzeichnis auf S. 7 des PDF |
+| 1884 | 100 | Fraktur | Vorspann 1–14 · Einwohner 15–57 · Gebäude 59–72 (2-spaltig) · Strassenliste 73 · Berufe 75–91 · Behörden 92–93 · Inhalt mit Hausnummern-Konkordanz 94–96 |
+| 1888 | 192 | Fraktur | Vorspann 1–10 · Gebäude 11–82 · Inserate 83–90 · Einwohner 91–142 · Berufe 143–164 · Behörden 165–166 · Telefon-Abonnenten 167–169 · Strassen/Nachtrag/Inhalt mit Konkordanz 170–175 · Inserate 176–188 |
+| 1892 | 200 | Fraktur | Vorspann 1–8 · Gebäude 9–80 · **Inserate-Lage 81–88 mitten im Gebäudeverzeichnis** · Gebäude 89–95 («nach der Nummerierung gebaute Häuser») · Einwohner 96–153 · Berufe 154–174 · Behörden 175–177, 182 · Telefon 178–181 · Strassen/Nachtrag/Inhalt mit Konkordanz 183–188 · Inserate 189–196 |
+| 1896 | 290 | Antiqua | Vorspann 1–22 (röm. III–XVI, mit Sachregister, Strassen→Seite) · Gebäude 23–110 · Einwohner 111–166 (**PDF 127–142 wiederholen 111–126**, gedr. S. 89–104 doppelt) · Berufe 167–192 · Zeitungen 193 · Behörden/Anstalten/Vereine 194–210 · illustrierter Anhang 211–262 · Inserate 263–286 |
+| 1899 | 248 | Antiqua | Vorspann 1–8 · Gebäude 9–102 · Inserat 103–104 · Einwohner 105–153 (gedr. 1–49) · Berufe 154–196 (gedr. 50–92, Zählung läuft weiter) · Zeitungen 197–198 · Behörden 199–210 · Strassen→Seite 211 · Inserate 212–248 |
+
+Befund Welle 0 (06.11.2026, alle 1 030 Seiten klassifiziert): «Zeitungen» ist in
+1884/1888/1892 nur eine Rubrik unter Z im Berufsregister; 1888 und 1892 haben zusätzlich
+ein Verzeichnis der Telefon-Abonnenten (Abschnitt `sonst`); 1896 enthält ein Sachregister
+und ein Porträt Adolf Freys. Keine fehlenden Seiten; alle Seitenzählungen gehen auf.
 
 Alle PDFs sind reine Bild-PDFs (kein Textlayer, Producer «semantics visual library»,
 A4-Seiten, ein Bild pro Seite). Zusammen 1 030 Seiten. Die eingebetteten Scans sind
@@ -156,7 +161,7 @@ ausgedrückt wird. Entscheid vor Stufe 08, nach Rücksprache mit dem Bestandsgra
 
 | Welle | Schritt | Inhalt | Abnahme |
 |---|---|---|---|
-| 0 | Setup | Repo-Struktur, `pyproject`, `Makefile`, `data/pdf` als Verweis (nicht committen), Seitenbilder 300 dpi PNG je Band, `01_pages.csv` mit Abschnittsgrenzen von Hand | 1 030 Bilder, Abschnitte aller fünf Bände markiert |
+| 0 | Setup ✅ 06.11.2026 | Repo-Struktur, `requirements.txt`, `Makefile`, Seitenbilder byteidentisch extrahiert (`data/pages/`, nicht im Git), `00_volumes.csv` mit SHA-256, `01_pages.csv` mit Abschnitt, Seitenzahl, Satz und Spalten für alle 1 030 Seiten | erfüllt; Grenzseiten je auf der Einzelseite bestätigt |
 | 0 | Ground Truth | 20 Seiten (4 je Band, aus Einwohner- und Gebäudeverzeichnis) handkorrigiert; 200 Einträge daraus als Soll für den Parser | `data/gt/` liegt vor |
 | 1 | ATR Probe | Seiten auf den Share (`dav:`-Ordner oder `datasets:`), `start_batch` dry-run, dann `sample=10` mit `kraken-german_print`, `kraken-austrian_fraktur`, `qwen3vl-german-xix-v2`, Gemini extern (`reasoning=low`, Prompt `prompts/adressbuch_atr.md` versioniert) | `score_ground_truth`: CER je Leser und Satzart; Entscheid je Band |
 | 1 | ATR voll | alle Seiten mit den zwei besten Lesern; `compare_readings`; Seiten mit hoher Abweichung in Review-Liste | `02_lines.csv` vollständig; Bericht je Band |
@@ -331,13 +336,21 @@ adressbuecher-aarau/
 5. **Gebäudenummern** — ob die durchlaufenden Nummern zwischen 1884 und 1899 stabil
    bleiben (Vorwort der Bände lesen); davon hängt die Gebäude-Identität in Welle 3 ab
    und die Gebäudeebene der Geokodierung in 4b.
-6. **Zuordnung der Gebäudenummern zu Orten — offen.** Welcher Plan die durchlaufenden
-   Nummern trägt (Siegfriedkarte zeigt sie nicht; Kandidaten: Brandversicherungs-/
-   Nummernplan der Stadt Aarau im Stadtarchiv, Katasterplan, Gebäudeversicherung
-   Aargau) und ob er digital und nachnutzbar vorliegt. Spur im Material: das
-   «Verzeichnis der Strassen und Plätze» im Band 1896 (S. XIV) könnte eine Konkordanz
-   Strasse ↔ Nummernbereich enthalten; zu prüfen in Welle 0. Ohne Plan bleibt die
-   Karte auf Strassenmitte. Entscheid steht aus.
+6. **Zuordnung der Gebäudenummern zu Orten — offen.** Geklärt ist nach Welle 0, was
+   die Nummern sind: eine **stadtweit fortlaufende Gebäudenummerierung** («Verzeichniß
+   der Wohn- und Oekonomiegebäude im Stadtbezirk Aarau in fortlaufender Nro.»). Die
+   Inhaltsverzeichnisse von 1884 (PDF 94), 1888 (PDF 172–173) und 1892 (PDF 185–186)
+   enthalten eine **Konkordanz Strasse → Nummernbereiche → Seite** (z. B. Rathausgasse
+   Nr. 1–5, 16–32, 42–49, 176; Zollrain 50–54, 87–91, 177–181, 292–293; Laurenzenvorstadt
+   353–385, 390–430, 544–552, 585–612); Neubauten erhielten die nächste freie Nummer,
+   darum liegen die Bereiche einer Strasse verstreut, und die späten Nummern (1178–1230)
+   stehen unter «nach der Nummerierung gebaute Häuser». Das 1896er «Verzeichnis der
+   Strassen und Plätze» (S. XIV) und 1899 (PDF 211) verweisen nur Strasse → Seite.
+   Die Konkordanz gibt also jeder Nummer ihre Strasse und ist eine erste Prüfung der
+   Nummernstabilität zwischen den Bänden (Welle 2). **Offen bleibt die Lage im Raum:**
+   welcher Plan die Nummern trägt (Kandidaten: Brandversicherungs-/Nummernplan im
+   Stadtarchiv Aarau, Katasterplan, Gebäudeversicherung Aargau) und ob er digital und
+   nachnutzbar vorliegt. Ohne Plan bleibt die Karte auf Strassenmitte. Entscheid steht aus.
 7. **Kachelanbieter** für die öffentliche Karte (eigener Server, swisstopo-Grundkarte
    als Alternative zu OSM-Kacheln, oder ein OSM-Kachelanbieter mit passenden Bedingungen).
 8. **Auflösung der Scans** — ~120 dpi. Höher aufgelöste Digitalisate anfragen
