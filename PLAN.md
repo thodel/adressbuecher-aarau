@@ -486,3 +486,23 @@ adressbuecher-aarau/
    als Alternative zu OSM-Kacheln, oder ein OSM-Kachelanbieter mit passenden Bedingungen).
 8. **Auflösung der Scans** — ~120 dpi. Höher aufgelöste Digitalisate anfragen
    (Kantonsbibliothek Aargau, e-rara) oder mit dem Vorhandenen messen, ob die CER reicht.
+
+## 7. Agenda — Nachträge der Projektleitung (06.11.2026)
+
+1. **Abgleich mit den historischen Telefonbüchern.** Die Telefon-Abonnentenlisten der
+   Bände 1888 und 1892 (Abschnitt `sonst` in `01_pages.csv`) und das Telefonsymbol ab 1896
+   sind der Anschluss; dazu kommen die externen PTT-Telefonbuchdaten (lokal:
+   `~/Repos/PTT_phonebook_data_tsv`, `~/Repos/unil_ptt-postal-data-processing`,
+   `~/Repos/gemini-phonebook-analysis`). Ziel: je Band die Abonnenten mit den Einträgen
+   des Einwohner- und Berufsregisters verknüpfen (Name + Strasse + Nummer), Deckung
+   messen, und die Telefonbuch-Jahrgänge nach 1899 als Verlängerung der Zeitreihe
+   prüfen (wer bleibt, wer kommt dazu). Gilt ebenso für Basel.
+2. **Wohnortstabilität über die Bände** — Issue
+   [#1](https://github.com/thodel/adressbuecher-aarau/issues/1): Anteil der Personen,
+   die über die beobachtbaren 15 Jahre am selben Gebäude/derselben Strasse bleiben, die
+   innerhalb Aaraus umziehen, und die aus den Verzeichnissen verschwinden. Setzt die
+   Personenidentität (Welle 3) und die Gebäudeidentität über die Bände voraus. Ebenso für Basel.
+3. **Einzugsgebiet und Wohnorte auf der Karte** — in Arbeit: `06_normalise.py`
+   (Heimatorte, Strassen), `10_geo.py` (Nominatim mit Cache, GeoJSON), `92_karte.py`
+   (`web/karte.html`, Leaflet auf OSM). Heimatorte je Band als Kreise, Strassen
+   als Kreise auf Strassenmitte; Gebäudegenauigkeit folgt mit der Nummernzuordnung.

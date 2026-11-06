@@ -1,0 +1,226 @@
+"""10_geo.py — Geokodierung über Nominatim (OpenStreetMap) und GeoJSON für die Karte (Stufe 10).
+
+    python scripts/10_geo.py geocode [--only origins|streets] [--limit N]
+    python scripts/10_geo.py geojson
+
+`geocode` füllt lat/lon/osm_* in 06_origins.csv und 06_streets.csv. Jede Anfrage wird in
+data/geo/nominatim_cache.json abgelegt (Schlüssel = Anfragetext), sodass ein zweiter Lauf
+nur neue Namen kostet. Nominatim-Regeln: höchstens eine Anfrage je Sekunde, eigener
+User-Agent, keine Massenabfragen — darum 1,1 s Pause und Cache.
+
+Strategie Heimatorte: Kanton bekannt → «Ort, Kanton, Land» (countrycodes=Land);
+Schweiz ohne Kanton → zuerst «Ort, Aargau» (die meisten Heimatorte liegen im Kanton),
+dann «Ort, Schweiz». `geo_confidence` sagt, welche Stufe traf: canton / aargau-assumed /
+country / none. Strassen: «Strasse, Aarau, Schweiz», nur Treffer innerhalb der Stadt.
+
+`geojson` schreibt data/geo/origins.geojson (Punkt je Heimatort mit Zähler je Band) und
+data/geo/streets.geojson (Punkt je Strasse mit Zähler je Band) aus den CSV.
+"""
+from __future__ import annotations
+
+import argparse
+import csv
+import glob
+import json
+import time
+import urllib.parse
+import urllib.request
+from collections import Counter, defaultdict
+from pathlib import Path
+
+CSV_DIR = Path("data/csv")
+GEO_DIR = Path("data/geo")
+CACHE = GEO_DIR / "nominatim_cache.json"
+UA = "adressbuecher-aarau/0.1 (+https://github.com/thodel/adressbuecher-aarau)"
+BASE = "https://nominatim.openstreetmap.org/search"
+AARAU_BOX = (7.98, 47.36, 8.12, 47.42)   # lon_min, lat_min, lon_max, lat_max (grosszügig)
+
+
+def load_cache() -> dict:
+    if CACHE.exists():
+        return json.loads(CACHE.read_text(encoding="utf-8"))
+    return {}
+
+
+def save_cache(c: dict) -> None:
+    GEO_DIR.mkdir(parents=True, exist_ok=True)
+    CACHE.write_text(json.dumps(c, ensure_ascii=False, indent=0), encoding="utf-8")
+
+
+def query(cache: dict, q: str, countrycodes: str = "", viewbox: tuple | None = None) -> list:
+    key = f"{q}|{countrycodes}|{viewbox or ''}"
+    if key in cache:
+        return cache[key]
+    params = {"q": q, "format": "jsonv2", "limit": 3, "addressdetails": 1, "accept-language": "de"}
+    if countrycodes:
+        params["countrycodes"] = countrycodes
+    if viewbox:
+        params["viewbox"] = ",".join(str(x) for x in viewbox); params["bounded"] = 1
+    req = urllib.request.Request(BASE + "?" + urllib.parse.urlencode(params), headers={"User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except Exception as exc:  # noqa: BLE001
+        print(f"   ! {q}: {exc}")
+        data = None
+    time.sleep(1.1)
+    if data is not None:
+        cache[key] = data
+        save_cache(cache)
+    return data or []
+
+
+def pick(results: list, want_types=("city", "town", "village", "hamlet", "municipality", "suburb", "locality", "administrative", "isolated_dwelling", "neighbourhood")) -> dict | None:
+    for r in results:
+        if r.get("type") in want_types or r.get("class") in ("place", "boundary"):
+            return r
+    return results[0] if results else None
+
+
+def geocode_origins(cache: dict, limit: int | None) -> None:
+    path = CSV_DIR / "06_origins.csv"
+    with path.open(encoding="utf-8") as fh:
+        rows = list(csv.DictReader(fh)); fields = list(rows[0].keys())
+    done = 0
+    for r in rows:
+        if r["lat"] or r["manual_lat"] or r["norm_method"] == "empty" or not r["origin_norm"]:
+            continue
+        if limit and done >= limit:
+            break
+        o, cn, cc = r["origin_norm"], r["canton_norm"], r["country"].lower()
+        hit, conf = None, "none"
+        if cn and cc == "ch":
+            hit = pick(query(cache, f"{o}, {cn}", "ch")); conf = "canton" if hit else conf
+        if not hit and cc == "ch":
+            hit = pick(query(cache, f"{o}, Aargau", "ch")); conf = "aargau-assumed" if hit else conf
+            if not hit:
+                hit = pick(query(cache, o, "ch")); conf = "country" if hit else conf
+        if not hit and cc != "ch":
+            q = f"{o}, {cn}" if cn else o
+            hit = pick(query(cache, q, cc)); conf = "country" if hit else conf
+        done += 1
+        if hit:
+            r.update({"lat": hit["lat"], "lon": hit["lon"], "osm_type": hit.get("osm_type", ""), "osm_id": str(hit.get("osm_id", "")),
+                      "display_name": hit.get("display_name", "")[:120], "geo_confidence": conf})
+        else:
+            r["geo_confidence"] = "none"
+        print(f"{done:4d} {o!r:30} {cn!r:14} → {conf:15} {r['display_name'][:60]}")
+    with path.open("w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=fields); w.writeheader(); w.writerows(rows)
+    c = Counter(r["geo_confidence"] or "offen" for r in rows)
+    print("Heimatorte:", dict(c))
+
+
+def geocode_streets(cache: dict, limit: int | None) -> None:
+    path = CSV_DIR / "06_streets.csv"
+    with path.open(encoding="utf-8") as fh:
+        rows = list(csv.DictReader(fh)); fields = list(rows[0].keys())
+    by_norm: dict[str, dict] = {}
+    done = 0
+    for r in rows:
+        if r["lat"] or r["manual_lat"] or r["norm_method"] != "rule":
+            continue
+        n = r["street_norm"]
+        if n in by_norm:
+            r.update(by_norm[n]); continue
+        if limit and done >= limit:
+            break
+        res = query(cache, f"{n}, Aarau", "ch", AARAU_BOX)
+        hit = next((x for x in res if x.get("class") in ("highway", "place") or x.get("type") in ("residential", "pedestrian", "living_street", "tertiary", "secondary", "primary", "unclassified", "neighbourhood", "quarter", "suburb", "square")), None) or (res[0] if res else None)
+        done += 1
+        upd = {"lat": hit["lat"], "lon": hit["lon"], "osm_type": hit.get("osm_type", ""), "osm_id": str(hit.get("osm_id", "")),
+               "display_name": hit.get("display_name", "")[:120], "geo_confidence": "osm-street"} if hit else {"geo_confidence": "none"}
+        r.update(upd); by_norm[n] = upd
+        print(f"{done:4d} {n!r:32} → {upd.get('geo_confidence')} {upd.get('display_name', '')[:60]}")
+    with path.open("w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=fields); w.writeheader(); w.writerows(rows)
+    print("Strassen:", dict(Counter(r["geo_confidence"] or "offen" for r in rows)))
+
+
+def geojson() -> None:
+    rows = []
+    for f in sorted(glob.glob(str(CSV_DIR / "04_entries_*.csv")) + glob.glob(str(CSV_DIR / "05_residents_*.csv"))):
+        with open(f, encoding="utf-8") as fh:
+            rows.extend(csv.DictReader(fh))
+    vols = sorted({r["volume"] for r in rows})
+    GEO_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Heimatorte
+    with (CSV_DIR / "06_origins.csv").open(encoding="utf-8") as fh:
+        orig = {(r["origin_raw"], r["origin_canton"]): r for r in csv.DictReader(fh)}
+    agg: dict[tuple, dict] = {}
+    unlocated = Counter()
+    for r in rows:
+        if not r.get("origin_raw"):
+            continue
+        o = orig.get((r["origin_raw"], r.get("origin_canton", "")))
+        if not o:
+            continue
+        lat, lon = o["manual_lat"] or o["lat"], o["manual_lon"] or o["lon"]
+        if not lat:
+            unlocated[r["volume"]] += 1; continue
+        key = (o["origin_norm"], o["canton_norm"], o["country"])
+        a = agg.setdefault(key, {"name": o["origin_norm"], "canton": o["canton_norm"], "country": o["country"],
+                                 "lat": float(lat), "lon": float(lon), "confidence": o["geo_confidence"] or "manual",
+                                 "counts": {v: 0 for v in vols}, "occupations": Counter()})
+        a["counts"][r["volume"]] += 1
+        if r.get("occupation_raw"):
+            a["occupations"][r["occupation_raw"].split(",")[0].strip()] += 1
+    feats = []
+    for a in agg.values():
+        top = [k for k, _ in a["occupations"].most_common(5)]
+        feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [a["lon"], a["lat"]]},
+                      "properties": {"name": a["name"], "canton": a["canton"], "country": a["country"], "confidence": a["confidence"],
+                                     "counts": a["counts"], "total": sum(a["counts"].values()), "top_occupations": top}})
+    located = {v: sum(a["counts"][v] for a in agg.values()) for v in vols}
+    out = {"type": "FeatureCollection", "features": feats,
+           "meta": {"volumes": vols, "located": located, "unlocated": dict(unlocated)}}
+    (GEO_DIR / "origins.geojson").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
+    print(f"origins.geojson: {len(feats)} Orte; verortet je Band {located}; nicht verortet {dict(unlocated)}")
+
+    # Strassen (nur Einwohnerverzeichnis: dort steht die Adresse)
+    with (CSV_DIR / "06_streets.csv").open(encoding="utf-8") as fh:
+        streets = {r["street_raw"]: r for r in csv.DictReader(fh)}
+    agg2: dict[str, dict] = {}
+    unloc2 = Counter()
+    for r in rows:
+        s = streets.get(r.get("street_raw", ""))
+        if not r.get("street_raw"):
+            continue
+        if not s or not (s["manual_lat"] or s["lat"]):
+            unloc2[r["volume"]] += 1; continue
+        a = agg2.setdefault(s["street_norm"], {"name": s["street_norm"], "lat": float(s["manual_lat"] or s["lat"]),
+                                                "lon": float(s["manual_lon"] or s["lon"]), "counts": {v: 0 for v in vols},
+                                                "occupations": Counter(), "citizens": {v: 0 for v in vols}})
+        a["counts"][r["volume"]] += 1
+        if r.get("citizen_flag") == "1":
+            a["citizens"][r["volume"]] += 1
+        if r.get("occupation_raw"):
+            a["occupations"][r["occupation_raw"].split(",")[0].strip()] += 1
+    feats = [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [a["lon"], a["lat"]]},
+              "properties": {"name": a["name"], "counts": a["counts"], "citizens": a["citizens"], "total": sum(a["counts"].values()),
+                             "top_occupations": [k for k, _ in a["occupations"].most_common(5)]}} for a in agg2.values()]
+    located = {v: sum(a["counts"][v] for a in agg2.values()) for v in vols}
+    out = {"type": "FeatureCollection", "features": feats, "meta": {"volumes": vols, "located": located, "unlocated": dict(unloc2)}}
+    (GEO_DIR / "streets.geojson").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
+    print(f"streets.geojson: {len(feats)} Strassen; verortet je Band {located}; nicht verortet {dict(unloc2)}")
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    g = sub.add_parser("geocode"); g.add_argument("--only", choices=["origins", "streets"]); g.add_argument("--limit", type=int)
+    sub.add_parser("geojson")
+    args = ap.parse_args()
+    if args.cmd == "geocode":
+        cache = load_cache()
+        if args.only in (None, "streets"):
+            geocode_streets(cache, args.limit)
+        if args.only in (None, "origins"):
+            geocode_origins(cache, args.limit)
+    else:
+        geojson()
+
+
+if __name__ == "__main__":
+    main()
