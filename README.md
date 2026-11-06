@@ -10,3 +10,11 @@ QLever, MCP) kommt aus [agentic_historian](https://github.com/thodel/agentic_his
 
 Der Plan mit Befund, Pipeline, CSV-Schema, Mapping und Abnahmekriterien steht in
 [PLAN.md](PLAN.md).
+
+## Betrieb
+
+- ATR läuft über den Server `tei` (SSH-Alias in `~/.ssh/config`, oder `TEI_SSH=user@host`); die
+  Läufe werden über den MCP-ATR-Server von agentic_historian gestartet (siehe PLAN.md, Welle 1).
+- `make fullrun-fetch fullrun-parse erstblick` holt fertige Läufe, parst alle Abschnitte und baut
+  die Kontrollseite `web/index.html`; GitHub Pages baut dieselbe Seite bei jedem Push.
+- Flags von der Kontrollseite: CSV exportieren, `make flags-merge FILE=…`, committen.

@@ -71,7 +71,7 @@ Abkürzungen; dieselben Personen in bis zu fünf Bänden — die Zeitreihe ist d
 ## 2. Befund: was `agentic_historian` liefert
 
 Geprüft am 06.11.2026 gegen `~/Repos/agentic_historian` (main) und den laufenden
-MCP-ATR-Server auf tei (`server_status`: ok, Gateway `130.92.59.240:8200`, 64 Modelle).
+MCP-ATR-Server auf tei (`server_status`: ok, ATR-Gateway auf idhefix erreichbar, 64 Modelle).
 
 | Baustein | Wo | Nutzen hier |
 |---|---|---|
@@ -110,7 +110,7 @@ die Doppelstrich-Trennung ⸗ wird als `=` wiedergegeben. Struktur (Stern, Gedan
 Einzug der Fortsetzungszeilen) ist für den Parser direkt brauchbar.
 
 **GPUStack** (`aarau-probe-gpustack-v1`, über den externen Leser mit
-`GEMINI_BASE_URL=https://gpustack.unibe.ch/v1`, gleicher Prompt, Reasoning auf
+`GEMINI_BASE_URL` auf den GPUStack der Universität umgebogen, gleicher Prompt, Reasoning auf
 Modell-Default, von tei per CLI gestartet, weil der MCP-Server keine Basis-URL-Wahl hat):
 `qwen3.8-27b` 20/20 gelesen, 72,9 s je Seite, eine Seite leer und am Token-Deckel
 abgebrochen (1896 S. 176, zweispaltiges Berufsregister: 164 s Nachdenken, kein Text —
