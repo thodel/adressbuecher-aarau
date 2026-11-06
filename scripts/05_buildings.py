@@ -100,7 +100,9 @@ def parse_building_page(text: str, volume: str, page: int, street: str = "", pre
             prev = cur
         elif cur is not None and volume == "1884" and line.startswith("  "):
             # 1884 (zweispaltig, ohne Bewohnerzeilen): Einzug = Fortsetzung des Eigentümers
-            cur["owner_text"], cur["building_type"] = split_type((cur["owner_text"] + " " + s).strip())
+            joined = (cur["owner_text"][:-1] + s) if cur["owner_text"].endswith("-") and s[:1].islower() \
+                else (cur["owner_text"] + ("" if cur["owner_text"].endswith("-") else " ") + s)
+            cur["owner_text"], cur["building_type"] = split_type(joined.strip())
             e = parse_entry(cur["owner_text"], "")
             cur["owner_surname"] = e["surname"]
             cur["owner_entry"] = json.dumps({k: e[k] for k in ("surname", "alliance_name", "forename", "occupation_raw", "origin_raw", "civil_status") if e.get(k)}, ensure_ascii=False)

@@ -82,15 +82,34 @@ Geplant für Stufe 3: `02b_lines_chosen.csv` mit der gewählten Lesung je Zeile
 | `parse_confidence` | `high`, `medium`, `low`, `review` |
 | `residual` | Textrest, den der Parser nicht zuordnen konnte |
 
-## 05_buildings.csv — ein Gebäude je Band je Zeile (Stufe 5)
+Zusätzliche Spalten seit dem ersten Parser: `entry_type` (`person` / `firma`), `heading`
+(Rubrik des Berufsregisters, z. B. «Hafnereien»; leer im Einwohnerverzeichnis),
+`maiden_name` (Geburtsname nach «geb.»). Das Berufsregister wird mit demselben Parser
+und `--section berufe` in eigene Dateien (`04_berufe_<satz>.csv`) geschrieben; dort
+ist `occupation_raw` meist leer und die Rubrik trägt den Beruf.
+
+## 05_buildings.csv — ein Gebäude je Band je Zeile (Stufe 5, `scripts/05_buildings.py`)
 
 | Spalte | Inhalt |
 |---|---|
-| `volume`, `building_no` | Schlüssel |
-| `street_raw`, `street_norm` | Strasse/Quartier gemäss Zwischentitel, normiert über `06_streets.csv` |
-| `owner_entry_id` | Eintrag des Eigentümers (`Derselbe` aufgelöst) |
-| `resident_entry_ids` | Einträge der Bewohner, `;`-getrennt |
-| `lat`, `lon`, `osm_way_id`, `geo_method`, `geo_confidence` | Geokodierung (Stufe 10); `geo_method` ∈ `osm-building`, `plan-punkt`, `strassenmitte` |
+| `building_id` | `<volume>-B-<building_no>` |
+| `volume`, `page`, `line` | Herkunft |
+| `building_no`, `building_nos` | erste Nummer (Schlüssel) und die gedruckte Nummernangabe («365. u. 366.») |
+| `marker` | `*` Eigentümer wohnt im Haus, `†` Nebengebäude, leer sonst |
+| `street_raw` | Strasse/Quartier gemäss letztem Zwischentitel (nur über direkt aufeinanderfolgende Seiten mitgeführt) |
+| `owner_text` | Eigentümer wie gedruckt, Ditto («Derselbe», «„») aufgelöst |
+| `owner_same_as_prev` | `1`, wenn der Eigentümer per Ditto vom vorangehenden Gebäude übernommen wurde |
+| `owner_surname`, `owner_entry` | Familienname und geparste Felder des Eigentümers (JSON) |
+| `building_type` | Gebäudeart (Scheune, Remise, Fabrikgebäude, Erbschaft …) |
+| `phone_flag`, `parse_confidence`, `note` | wie oben; `note` sammelt unzugeordnete Zeilen |
+| geplant: `street_norm`, `lat`, `lon`, `osm_way_id`, `geo_method`, `geo_confidence` | Normalisierung (06) und Geokodierung (10) |
+
+## 05_residents.csv — ein Bewohner je Zeile (Stufe 5)
+
+Die eingerückten Bewohnerzeilen unter einem Gebäude, geparst wie ein Einwohnereintrag
+(alle Spalten von `04_entries.csv`), dazu `building_id` und `building_no`. Der
+Gedankenstrich erbt hier den Familiennamen des Eigentümers. 1884 hat keine
+Bewohnerzeilen (jede Nummer nennt nur den Eigentümer).
 
 ## 06_occupations.csv, 06_streets.csv, 06_origins.csv — Normalisierungstabellen (handgepflegt)
 
