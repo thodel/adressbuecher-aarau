@@ -93,14 +93,20 @@ function data() { return mode === 'origins' ? ORIGINS : STREETS; }
 function count(f) { const c = f.properties.counts; return vol === 'alle' ? f.properties.total : (c[vol] || 0); }
 function fmt(n) { return n.toLocaleString('de-CH'); }
 // Link auf die Kontrollseite, gefiltert auf diesen Ort bzw. diese Strasse (und den gewählten Band)
-function keyOf(p) { return mode === 'origins' ? p.name + (p.canton ? ', ' + p.canton : '') : p.name; }
+function labelOf(p) { return mode === 'origins' ? p.name + (p.canton ? ', ' + p.canton : '') : p.name; }
 function entriesUrl(p, t) {
-  const u = new URLSearchParams({ tab: t, col: mode === 'origins' ? 'origin_norm' : 'street_norm', val: keyOf(p) });
+  const u = new URLSearchParams({ tab: t, col: mode === 'origins' ? 'origin_place' : 'street_place', val: p.key, label: labelOf(p) });
   if (vol !== 'alle') u.set('vol', vol);
   return './?' + u.toString();
 }
+function kindCount(p, k) { const c = p.by_kind[k] || {}; return vol === 'alle' ? Object.values(c).reduce((a, b) => a + b, 0) : (c[vol] || 0); }
+function bestTab(p) { return kindCount(p, 'einwohner') >= kindCount(p, 'bewohner') ? 'einwohner' : 'bewohner'; }
 function links(p) {
-  return `<br><a href="${entriesUrl(p, 'einwohner')}">Einträge im Einwohnerverzeichnis</a> · <a href="${entriesUrl(p, 'bewohner')}">Bewohner (Gebäudeverzeichnis)</a>`;
+  const out = [], e = kindCount(p, 'einwohner'), b = kindCount(p, 'bewohner');
+  if (e) out.push(`<a href="${entriesUrl(p, 'einwohner')}">${fmt(e)} im Einwohnerverzeichnis</a>`);
+  if (b) out.push(`<a href="${entriesUrl(p, 'bewohner')}">${fmt(b)} im Gebäudeverzeichnis</a>`);
+  const v = p.variants && p.variants.length > 1 ? `<br><small>Schreibungen: ${p.variants.join(', ')}</small>` : '';
+  return v + (out.length ? '<br>Einträge' + (vol === 'alle' ? '' : ' ' + vol) + ': ' + out.join(' · ') : '');
 }
 function render() {
   for (const b of $('mode').children) b.setAttribute('aria-pressed', b.dataset.m === mode);
@@ -125,7 +131,7 @@ function render() {
   const pct = loc + un ? Math.round(100 * loc / (loc + un)) : 0;
   $('stats').innerHTML = `<div class="stat"><span>${mode === 'origins' ? 'Heimatorte' : 'Strassen'} auf der Karte</span><span>${fmt(feats.length)}</span></div><div class="stat"><span>Einträge verortet</span><span>${fmt(loc)} von ${fmt(loc + un)} (${pct} %)</span></div><div class="bar" style="width:${pct}%"></div>`;
   $('toptitle').textContent = mode === 'origins' ? 'Grösste Heimatorte' : 'Strassen mit den meisten Einträgen';
-  $('top').innerHTML = feats.slice(0, 12).map(f => `<div class="stat"><span><a href="${entriesUrl(f.properties, 'einwohner')}">${f.properties.name}</a>${f.properties.canton && f.properties.canton !== 'Aargau' ? ' <small>(' + f.properties.canton + ')</small>' : ''}</span><span>${fmt(count(f))}</span></div>`).join('');
+  $('top').innerHTML = feats.slice(0, 12).map(f => `<div class="stat"><span><a href="${entriesUrl(f.properties, bestTab(f.properties))}">${f.properties.name}</a>${f.properties.canton && f.properties.canton !== 'Aargau' ? ' <small>(' + f.properties.canton + ')</small>' : ''}</span><span>${fmt(count(f))}</span></div>`).join('');
   if (feats.length) {
     // Ausschnitt: Mitteleuropa (Ausreisser in Übersee bleiben auf der Karte, bestimmen aber den Ausschnitt nicht)
     const near = feats.filter(f => f.geometry.coordinates[0] > 4 && f.geometry.coordinates[0] < 13 && f.geometry.coordinates[1] > 44 && f.geometry.coordinates[1] < 52);

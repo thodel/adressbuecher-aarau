@@ -213,18 +213,54 @@ def geocode_streets(cache: dict, limit: int | None) -> None:
     print("Strassen:", dict(Counter(r["geo_confidence"] or "offen" for r in rows)))
 
 
-def geojson() -> None:
+def place_key(r: dict, fallback: str) -> str:
+    """Schlüssel des Ortes, an dem ein Heimatort/eine Strasse auf der Karte liegt:
+    OSM-Objekt, sonst handgesetzte Koordinate, sonst die normierte Schreibung.
+    Verschiedene Schreibungen desselben Ortes («Paris» / «Paris (Frankreich)») fallen
+    so auf einen Punkt; die Kontrollseite filtert über denselben Schlüssel."""
+    if r.get("manual_lat"):
+        return f"manual/{r['manual_lat']},{r['manual_lon']}"
+    if r.get("osm_id"):
+        return f"{r.get('osm_type', '')}/{r['osm_id']}"
+    if r.get("lat"):
+        return f"pt/{r['lat']},{r['lon']}"
+    return f"name/{fallback}"
+
+
+def load_rows() -> list[dict]:
     rows = []
     for f in sorted(glob.glob(str(CSV_DIR / "04_entries_*.csv")) + glob.glob(str(CSV_DIR / "05_residents_*.csv"))):
+        kind = "einwohner" if "04_entries" in f else "bewohner"
         with open(f, encoding="utf-8") as fh:
-            rows.extend(csv.DictReader(fh))
+            for r in csv.DictReader(fh):
+                r["_kind"] = kind
+                rows.append(r)
+    return rows
+
+
+def _feature(a: dict, extra: dict) -> dict:
+    name, _ = a["names"].most_common(1)[0]
+    props = {"key": a["key"], "name": name, "variants": [n for n, _ in a["names"].most_common(6)],
+             "counts": a["counts"], "total": sum(a["counts"].values()), "by_kind": a["by_kind"],
+             "top_occupations": [k for k, _ in a["occupations"].most_common(5)]}
+    props.update(extra)
+    return {"type": "Feature", "geometry": {"type": "Point", "coordinates": [a["lon"], a["lat"]]}, "properties": props}
+
+
+def geojson() -> None:
+    rows = load_rows()
     vols = sorted({r["volume"] for r in rows})
     GEO_DIR.mkdir(parents=True, exist_ok=True)
+
+    def new_agg(key: str, lat: str, lon: str) -> dict:
+        return {"key": key, "lat": float(lat), "lon": float(lon), "names": Counter(), "cantons": Counter(),
+                "countries": Counter(), "confidence": Counter(), "counts": {v: 0 for v in vols},
+                "by_kind": {"einwohner": {v: 0 for v in vols}, "bewohner": {v: 0 for v in vols}}, "occupations": Counter(), "citizens": {v: 0 for v in vols}}
 
     # Heimatorte
     with (CSV_DIR / "06_origins.csv").open(encoding="utf-8") as fh:
         orig = {(r["origin_raw"], r["origin_canton"]): r for r in csv.DictReader(fh)}
-    agg: dict[tuple, dict] = {}
+    agg: dict[str, dict] = {}
     unlocated = Counter()
     for r in rows:
         if not r.get("origin_raw"):
@@ -235,47 +271,51 @@ def geojson() -> None:
         lat, lon = o["manual_lat"] or o["lat"], o["manual_lon"] or o["lon"]
         if not lat:
             unlocated[r["volume"]] += 1; continue
-        key = (o["origin_norm"], o["canton_norm"], o["country"])
-        a = agg.setdefault(key, {"name": o["origin_norm"], "canton": o["canton_norm"], "country": o["country"],
-                                 "lat": float(lat), "lon": float(lon), "confidence": o["geo_confidence"] or "manual",
-                                 "counts": {v: 0 for v in vols}, "occupations": Counter()})
+        k = place_key(o, o["origin_norm"])
+        a = agg.setdefault(k, new_agg(k, lat, lon))
+        a["names"][o["origin_norm"]] += 1
+        if o["canton_norm"]:
+            a["cantons"][o["canton_norm"]] += 1
+        a["countries"][o["country"]] += 1
+        a["confidence"][o["geo_confidence"] or "manual"] += 1
         a["counts"][r["volume"]] += 1
+        a["by_kind"][r["_kind"]][r["volume"]] += 1
         if r.get("occupation_raw"):
             a["occupations"][r["occupation_raw"].split(",")[0].strip()] += 1
     feats = []
     for a in agg.values():
-        top = [k for k, _ in a["occupations"].most_common(5)]
-        feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [a["lon"], a["lat"]]},
-                      "properties": {"name": a["name"], "canton": a["canton"], "country": a["country"], "confidence": a["confidence"],
-                                     "counts": a["counts"], "total": sum(a["counts"].values()), "top_occupations": top}})
+        canton = a["cantons"].most_common(1)[0][0] if a["cantons"] else ""
+        country = "FR" if canton in ("Frankreich", "Elsass") else (a["countries"].most_common(1)[0][0] if a["countries"] else "")
+        if canton and country == "CH" and any(c != "CH" for c in a["countries"]):
+            country = next(c for c, _ in a["countries"].most_common() if c != "CH")
+        feats.append(_feature(a, {"canton": canton, "country": country, "confidence": a["confidence"].most_common(1)[0][0]}))
     located = {v: sum(a["counts"][v] for a in agg.values()) for v in vols}
     out = {"type": "FeatureCollection", "features": feats,
            "meta": {"volumes": vols, "located": located, "unlocated": dict(unlocated)}}
     (GEO_DIR / "origins.geojson").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
     print(f"origins.geojson: {len(feats)} Orte; verortet je Band {located}; nicht verortet {dict(unlocated)}")
 
-    # Strassen (nur Einwohnerverzeichnis: dort steht die Adresse)
+    # Strassen
     with (CSV_DIR / "06_streets.csv").open(encoding="utf-8") as fh:
         streets = {r["street_raw"]: r for r in csv.DictReader(fh)}
     agg2: dict[str, dict] = {}
     unloc2 = Counter()
     for r in rows:
-        s = streets.get(r.get("street_raw", ""))
         if not r.get("street_raw"):
             continue
+        s = streets.get(r["street_raw"])
         if not s or not (s["manual_lat"] or s["lat"]):
             unloc2[r["volume"]] += 1; continue
-        a = agg2.setdefault(s["street_norm"], {"name": s["street_norm"], "lat": float(s["manual_lat"] or s["lat"]),
-                                                "lon": float(s["manual_lon"] or s["lon"]), "counts": {v: 0 for v in vols},
-                                                "occupations": Counter(), "citizens": {v: 0 for v in vols}})
+        k = place_key(s, s["street_norm"])
+        a = agg2.setdefault(k, new_agg(k, s["manual_lat"] or s["lat"], s["manual_lon"] or s["lon"]))
+        a["names"][s["street_norm"]] += 1
         a["counts"][r["volume"]] += 1
+        a["by_kind"][r["_kind"]][r["volume"]] += 1
         if r.get("citizen_flag") == "1":
             a["citizens"][r["volume"]] += 1
         if r.get("occupation_raw"):
             a["occupations"][r["occupation_raw"].split(",")[0].strip()] += 1
-    feats = [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [a["lon"], a["lat"]]},
-              "properties": {"name": a["name"], "counts": a["counts"], "citizens": a["citizens"], "total": sum(a["counts"].values()),
-                             "top_occupations": [k for k, _ in a["occupations"].most_common(5)]}} for a in agg2.values()]
+    feats = [_feature(a, {"citizens": a["citizens"]}) for a in agg2.values()]
     located = {v: sum(a["counts"][v] for a in agg2.values()) for v in vols}
     out = {"type": "FeatureCollection", "features": feats, "meta": {"volumes": vols, "located": located, "unlocated": dict(unloc2)}}
     (GEO_DIR / "streets.geojson").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
