@@ -26,7 +26,7 @@ import sys
 from pathlib import Path
 
 CSV_DIR = Path("data/csv")
-FIELDS = ["entry_id", "volume", "page", "section", "line_from", "line_to", "owner_flag",
+FIELDS = ["entry_id", "volume", "page", "section", "line_from", "line_to", "entry_type", "owner_flag",
           "dash_prefix", "surname", "surname_inherited", "alliance_name", "maiden_name",
           "forename", "title", "civil_status", "relation", "occupation_raw", "origin_raw",
           "origin_canton", "address_seq", "address_role", "street_raw", "building_no",
@@ -39,7 +39,19 @@ TITLES = {"Dr.", "Dr. med.", "Dr. phil.", "Dr. jur.", "Prof.", "Regt.", "Pfr."}
 ADDR_RE = re.compile(r"^(?P<street>.+?)\s+(?P<no>\d+\s?[a-z]?\.?(?:\s?[a-z]\.?)?)\.?$")
 ROLE_RE = re.compile(r"^(Wohnung|Werkstätte|Geschäft|Magazin|Bureau|Laden|Comptoir|Atelier)\s*[:,]?\s*", re.I)
 ORIGIN_RE = re.compile(r"^(?:von|v\.)\s+(?P<place>.+?)(?:\s*\((?P<canton>[^)]+)\))?$")
-RUNNING_HEAD = re.compile(r"^\d+\s*$|^\d+\s+\S+\.?\s+—\s+\S+\.?$|^[A-ZÄÖÜ][a-zäöü]+\.\s+—\s+[A-ZÄÖÜ][a-zäöü]+\.$|^Alphabetisches Verzeichnis")
+RUNNING_HEAD = re.compile(r"^\d+\s*$|^(\d+\s+(—\s+)?)?[A-ZÄÖÜ][\w-]+\.?\s+—\s+[A-ZÄÖÜ][\w-]+\.?(\s+\d+)?$|^Alphabetisches Verzeichnis")
+FIRM_RE = re.compile(r"&\s*(Cie|Co|Comp|Sohn|Söhne)\b|\bCie\.|\bGebr(üder|\.)|\bSöhne\b|^\S*fabrik\.|\bAktiengesellschaft\b|\bA\.-G\.", re.I)
+IDEM_RE = re.compile(r"\b(id\.|idem|dito|do\.)\s*", re.I)
+
+
+def prenormalise(text: str) -> str:
+    """Gemini-Rohtext → GT-Konventionen: ⸗/= → -, Tabs → Leerzeichen, * an den Anfang."""
+    t = text.replace("ſ", "s").replace("⸗", "-").replace("­", "")
+    t = re.sub(r"(?<=[\s—])=(?=\S)", "-", t)
+    t = re.sub(r"^(\s*)\*\s*", r"\1*", t, flags=re.M)
+    t = re.sub(r"^\*\t", "*", t, flags=re.M)
+    t = re.sub(r"\t+", "  ", t)
+    return t
 
 
 def page_to_entries(text: str) -> list[tuple[int, int, str]]:
@@ -49,7 +61,7 @@ def page_to_entries(text: str) -> list[tuple[int, int, str]]:
         if not raw.strip() or raw.strip() == "[spalte 2]":
             continue
         line = raw.rstrip()
-        if RUNNING_HEAD.match(line.strip()) or re.match(r"^\d+\s+\S.*—.*\.$", line.strip()) and i <= 2:
+        if RUNNING_HEAD.match(line.strip()):
             continue
         if (line.startswith("  ") or line.startswith("\t")) and entries:
             lf, lt, t = entries[-1]
@@ -78,12 +90,19 @@ def split_addresses(tail: str) -> list[tuple[str, str, str]]:
     return out
 
 
-def parse_entry(text: str, prev_surname: str) -> dict:
+def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
+                forenames: set[str] | None = None) -> dict:
     t = text.strip()
     rec = {k: "" for k in FIELDS}
     rec["text"] = text
     rec["parse_method"] = "rule"
+    rec["entry_type"] = "firma" if FIRM_RE.search(t) else "person"
     notes = []
+    # 1888: «id.» = wie im vorangehenden Eintrag (Heimatort, Adresse)
+    idem_n = len(IDEM_RE.findall(t))
+    if idem_n:
+        t = IDEM_RE.sub("", t).strip().rstrip(",").strip()
+        notes.append(f"id.×{idem_n} aus Vorzeile")
     hs = re.findall(r"\[handschriftlich:[^\]]*\]", t)
     if hs:
         notes.append("handschriftlich:" + "|".join(hs))
@@ -117,16 +136,23 @@ def parse_entry(text: str, prev_surname: str) -> dict:
             rec["surname"] = head
     segs = [s.strip() for s in re.split(r",\s*", t) if s.strip()]
     if not segs:
-        rec["parse_confidence"] = "review"; rec["residual"] = t
+        rec["parse_confidence"] = "review"; rec["residual"] = "; ".join(notes + [t])
+        rec["_addresses"] = []
         return rec
-    # Adresse: vom Ende her alles, was mit einer Nummer endet (inkl. «; Werkstätte …»)
-    addr_tail = segs.pop()
-    while segs and not ADDR_RE.match(addr_tail.split(";")[0].strip().rstrip(".")) and re.search(r"\d", addr_tail):
-        addr_tail = segs.pop() + ", " + addr_tail
-    # Rollenwort «Wohnung» steht als eigenes Segment davor
-    if segs and ROLE_RE.match(segs[-1] + " x"):
-        addr_tail = segs.pop() + ", " + addr_tail
-    addresses = split_addresses(addr_tail)
+    addresses: list[tuple[str, str, str]] = []
+    if idem_n and prev and not re.search(r"\d", segs[-1]):
+        # keine eigene Adresse: Heimatort/Adresse der Vorzeile übernehmen
+        rec["origin_raw"], rec["origin_canton"] = prev.get("origin_raw", ""), prev.get("origin_canton", "")
+        addresses = list(prev.get("_addresses") or [])
+    else:
+        # Adresse: vom Ende her alles, was mit einer Nummer endet (inkl. «; Werkstätte …»)
+        addr_tail = segs.pop()
+        while segs and not ADDR_RE.match(addr_tail.split(";")[0].strip().rstrip(".")) and re.search(r"\d", addr_tail):
+            addr_tail = segs.pop() + ", " + addr_tail
+        # Rollenwort «Wohnung» steht als eigenes Segment davor
+        if segs and ROLE_RE.match(segs[-1] + " x"):
+            addr_tail = segs.pop() + ", " + addr_tail
+        addresses = split_addresses(addr_tail)
     # Vorname: erstes Segment, sofern es nicht Status/Beruf ist
     if segs and segs[0] not in STATUS and not ORIGIN_RE.match(segs[0]):
         rec["forename"] = segs.pop(0)
@@ -151,15 +177,18 @@ def parse_entry(text: str, prev_surname: str) -> dict:
         rec["maiden_name"], rec["forename"] = " ".join(parts[:-1]), parts[-1]
         notes.append("vorname aus geb.-Name abgetrennt")
     # «— Leutwyler, Samuel, Taglöhner»: Allianzname ohne Bindestrich — der «Vorname» ist
-    # ein Nachname, der eigentliche Vorname steht im ersten Berufssegment
+    # ein Nachname. Erkannt über das Vornamenlexikon der nicht-Gedankenstrich-Einträge:
+    # ein Vorname, der dort nie vorkommt, gefolgt von einem Segment, das ein Vorname ist.
     first_rest = rest[0] if rest else ""
-    if (rec["dash_prefix"] and not rec["alliance_name"] and rec["forename"]
-            and re.fullmatch(r"[A-ZÄÖÜ][a-zäöüß]+", first_rest or "")
-            and first_rest not in STATUS and not first_rest.endswith(("er", "in", "ant", "ist"))):
+    if (forenames and rec["dash_prefix"] and not rec["alliance_name"] and rec["forename"]
+            and rec["forename"].rstrip(".") not in forenames
+            and first_rest.rstrip(".") in forenames):
         notes.append(f"allianz/vorname unsicher: {rec['forename']} | {first_rest}")
     bad = [a for a in addresses if not a[2]]
     rec["parse_confidence"] = "high" if not bad and rec["surname"] else ("medium" if rec["surname"] else "review")
-    if any(n.startswith("allianz/vorname") for n in notes) and rec["parse_confidence"] == "high":
+    if rec["entry_type"] == "firma" and rec["parse_confidence"] == "high":
+        rec["parse_confidence"] = "medium"
+    if any(n.startswith(("allianz/vorname", "id.")) for n in notes) and rec["parse_confidence"] == "high":
         rec["parse_confidence"] = "medium"
     if bad:
         notes.append("adresse ohne nummer:" + "|".join(a[1] for a in bad))
@@ -168,12 +197,27 @@ def parse_entry(text: str, prev_surname: str) -> dict:
     return rec
 
 
-def parse_page(text: str, volume: str, page: int, section: str = "einwohner") -> list[dict]:
-    rows, prev = [], ""
-    for n, (lf, lt, t) in enumerate(page_to_entries(text), start=1):
-        rec = parse_entry(t, prev)
+def forename_lexicon(texts: list[str]) -> set[str]:
+    """Vornamen aus Einträgen ohne Gedankenstrich (dort ist der Vorname-Slot zuverlässig)."""
+    lex: dict[str, int] = {}
+    for text in texts:
+        for _, _, t in page_to_entries(prenormalise(text)):
+            r = parse_entry(t, "")
+            if not r["dash_prefix"] and r["forename"] and r["entry_type"] == "person":
+                for tok in r["forename"].split():
+                    lex[tok.rstrip(".")] = lex.get(tok.rstrip("."), 0) + 1
+    return {k for k, v in lex.items() if v >= 2}
+
+
+def parse_page(text: str, volume: str, page: int, section: str = "einwohner",
+               prev_surname: str = "", forenames: set[str] | None = None) -> list[dict]:
+    rows, prev, prev_rec = [], prev_surname, None
+    for n, (lf, lt, t) in enumerate(page_to_entries(prenormalise(text)), start=1):
+        rec = parse_entry(t, prev, prev_rec, forenames)
         prev = rec["surname"] or prev
-        addrs = rec.pop("_addresses", []) or [("", "", "")]
+        prev_rec = rec
+        addrs = rec.get("_addresses") or [("", "", "")]
+        rec = {k: v for k, v in rec.items() if k != "_addresses"}
         for seq, (role, street, no) in enumerate(addrs, start=1):
             row = dict(rec)
             row.update({"entry_id": f"{volume}-{section}-{page:03d}-{n:03d}", "volume": volume,
@@ -194,18 +238,29 @@ def main() -> None:
 
     rows: list[dict] = []
     if args.text:
-        rows = parse_page(args.text.read_text(encoding="utf-8"), args.volume, args.page, args.section)
+        text = args.text.read_text(encoding="utf-8")
+        rows = parse_page(text, args.volume, args.page, args.section, forenames=forename_lexicon([text]))
     elif args.run and args.reader:
         meta = {}
         with (CSV_DIR / "01_pages.csv").open(encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
                 meta[f"{r['volume']}_p{int(r['page']):03d}"] = r
+        pages = []
         for jp in sorted((Path("data/atr") / args.run / args.reader).glob("*.json")):
             m = meta.get(jp.stem)
             if not m or m["section"] != args.section:
                 continue
             d = json.loads(jp.read_text(encoding="utf-8"))
-            rows.extend(parse_page(d.get("text") or "", m["volume"], int(m["page"]), args.section))
+            pages.append((m["volume"], int(m["page"]), d.get("text") or ""))
+        lex = forename_lexicon([p[2] for p in pages])
+        prev_vol, prev_page, prev_surname = None, None, ""
+        for vol, page, text in pages:
+            # Familienname über die Seitengrenze nur bei direkt aufeinanderfolgenden Seiten
+            carry = prev_surname if (vol == prev_vol and page == prev_page + 1) else ""
+            page_rows = parse_page(text, vol, page, args.section, prev_surname=carry, forenames=lex)
+            rows.extend(page_rows)
+            prev_vol, prev_page = vol, page
+            prev_surname = next((r["surname"] for r in reversed(page_rows) if r["surname"]), "")
     else:
         sys.exit("--text oder --run/--reader angeben")
 
