@@ -28,7 +28,7 @@ from pathlib import Path
 CSV_DIR = Path("data/csv")
 DASH = r"[—–-]"
 RANGE_RE = re.compile(rf"(?P<a>\d+\s?[a-z]?)\s*{DASH}\s*(?P<b>\d+\s?[a-z]?)")
-PAGE_TAIL = re.compile(r"(?:Seite|S\.|„)\s*(?P<p>\d+)\s*\.?$")
+PAGE_TAIL = re.compile(r"(?:Seite|S\.|„|\"|''|”)\s*(?P<p>\d+)\s*\.?$")
 STREET_RE = re.compile(r"^(?P<s>[A-ZÄÖÜ][A-Za-zäöüß' .-]{2,40}?)\s*:\s*$")
 CLASS_RE = re.compile(r"^(?P<c>[A-ZÄÖÜ][^.]{2,60}?)\s*(?:\.\s*){2,}\s*(?P<p>\d+)\s*$|^(?P<c2>[A-ZÄÖÜ][^.]{2,60}?)\s+(?P<p2>\d{2,3})\s*$")
 
@@ -49,7 +49,7 @@ def parse_toc(text: str, volume: str) -> tuple[list[dict], list[dict]]:
         p = PAGE_TAIL.search(line)
         if p and ("Haus" in line or "„" in line or "Nr" in line or street):
             spec = line[:p.start()]
-            spec = re.sub(r"^(Haus\s*Nr\.?|„|\"|Nr\.?|\s)+", "", spec).strip(" .,")
+            spec = re.sub(r"^(Haus\s*Nr\.?|„|\"|”|''|Nr\.?|\s)+", "", spec).strip(" .,")
             found = False
             for item in re.split(r"\s*(?:,|\bu\.|\bund\b)\s*", spec):
                 item = item.strip()

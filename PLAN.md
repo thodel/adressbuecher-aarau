@@ -176,6 +176,18 @@ Holen und weiterverarbeiten: `make fullrun-fetch fullrun-lines fullrun-parse`.
 Alle Seiten gehen anschliessend direkt durch Welle 2. Die menschliche Zweitkorrektur
 der vier GT-Seiten bleibt offen.
 
+**Stand Fraktur (06.11.2026, 16 Uhr):** Gemini 427/427 Seiten in 60 min, 8,4 s je
+Seite, 3 leere Seiten (Umschläge), **keine abgeschnitten**; qwen3-vl-30b 427/427 in
+45 min, 9 abgeschnitten, 2 Schleifen (Seiten für den Abgleich markiert). Welle 2 über
+1884/1888/1892 aus der Gemini-Lesung: 5 463 Einwohner-Adresszeilen (1 671 / 1 852 /
+1 940; 97 % «high», 744 mit Bürger-Stern), 3 875 Zeilen im Berufsregister (82 % high;
+Rest sind Agenturen mit Fliesstext, Rubriken mit Firmennamen, Einträge ohne Nummer
+«ausserhalb des Stadtbezirks»), 4 192 Gebäude (4 ausserhalb der Seitenbereiche des
+Inhaltsverzeichnisses), 2 575 Bewohner, 164 Konkordanzbereiche, 534 Berufsklassen.
+Durchsuchbar: [Aarau Adressdaten Erstblick](https://claude.ai/artifact/XtgZetSeQZKgXXhEziKnjo)
+(`make erstblick`). Antiqua läuft: qwen3.8-27b ~50 s je Seite (ca. 6 h), qwen3-vl-30b
+~6 s je Seite; danach `make fullrun-fetch fullrun-parse erstblick`.
+
 **Welle 2, erster Stand:** `scripts/04_parse.py` (regelbasiert) löst auf den zehn
 Einwohner-Probeseiten der Gemini-Lesung 426 Adresszeilen auf, 407 «high», 14 «medium»
 (Firmen, Ditto-«id.» von 1888, unsichere Allianznamen), 5 «review» (Seitenanfang ohne
