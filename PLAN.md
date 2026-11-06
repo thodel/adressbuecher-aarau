@@ -196,7 +196,8 @@ werden als CSV exportiert und mit `scripts/91_merge_flags.py` nach
 «gemeldet» (✓) zeigt. Alternativ öffnet ein Link je Zeile ein vorausgefülltes
 GitHub-Issue (Label `review`). Der Workflow `.github/workflows/pages.yml` baut und
 veröffentlicht die Seite bei jedem Push auf `main`, der `data/csv/`, `data/review/`
-oder den Generator berührt — also nach jedem fertigen Band automatisch. Seitenbilder
+oder den Generator berührt — also nach jedem fertigen Band automatisch. Live unter
+https://thodel.github.io/adressbuecher-aarau/ (Repo seit 06.11.2026 öffentlich). Seitenbilder
 sind nicht auf der Seite (Nachnutzung der Scans ungeklärt, Abschnitt 6); für ATR-Fehler
 braucht es daher das PDF daneben. GitHub Pages setzt bei einem Gratis-Konto ein
 öffentliches Repo voraus. Antiqua läuft: qwen3.8-27b ~50 s je Seite (ca. 6 h), qwen3-vl-30b

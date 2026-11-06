@@ -11,6 +11,8 @@ QLever, MCP) kommt aus [agentic_historian](https://github.com/thodel/agentic_his
 Der Plan mit Befund, Pipeline, CSV-Schema, Mapping und Abnahmekriterien steht in
 [PLAN.md](PLAN.md).
 
+Kontrollseite der Datensätze (Flagging): https://thodel.github.io/adressbuecher-aarau/
+
 ## Betrieb
 
 - ATR läuft über den Server `tei` (SSH-Alias in `~/.ssh/config`, oder `TEI_SSH=user@host`); die
