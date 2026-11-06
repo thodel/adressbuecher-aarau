@@ -442,7 +442,11 @@ adressbuecher-aarau/
    das 1884er Inhaltsverzeichnis führt nur Nummernbereiche **je Seite** (1–47 S. 55 …
    1136–1203 S. 68), die Strassenzuordnung steht erst in den Inhaltsverzeichnissen
    1888 und 1892; `scripts/05b_concordance.py` liest beides sowie die Berufsklassen
-   (`06_occupation_classes.csv`, 1884: 220 Klassen). **Offen bleibt die Lage im Raum:**
+   (`06_occupation_classes.csv`, 1884: 220 Klassen). Stand 1888: 96 Bereiche für 50
+   Strassen, Nummern 1–1062 praktisch lückenlos; zwei Bereiche sind **Druckfehler der
+   Quelle** (am Bild geprüft: «Jenseits der Aare 339—848» statt 339–348, «Weinberg
+   240—341» statt 340–341), die die Plausibilitätsprüfung des Parsers in `note` markiert.
+   **Offen bleibt die Lage im Raum:**
    welcher Plan die Nummern trägt (Kandidaten: Brandversicherungs-/Nummernplan im
    Stadtarchiv Aarau, Katasterplan, Gebäudeversicherung Aargau) und ob er digital und
    nachnutzbar vorliegt. Ohne Plan bleibt die Karte auf Strassenmitte. Entscheid steht aus.
