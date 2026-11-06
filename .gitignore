@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Projekt: Quellen und Bilder bleiben ausserhalb von Git
+data/pdf/
+data/pages/
+data/atr/**/*.png
+data/atr/**/*.jpg
+.venv/
