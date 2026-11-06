@@ -94,6 +94,83 @@ Der NER-Prompt von Agent C ist auf spätmittelalterliche Verwaltungsschriften ge
 wird nicht für die Einträge verwendet; die Einträge sind regelhaft genug für einen Parser
 mit LLM-Nachbesserung bei Resten.
 
+### Befund Welle 1 — ATR-Probe (06.11.2026, 20 Seiten, `data/csv/probe_pages.csv`)
+
+**Gemini 3.8 Flash** (extern, Prompt `prompts/adressbuch_atr.md`, Runner-Digest
+`@48d0eac8`, Datei-SHA-256 `20f4eeb6…`, `reasoning=low`, Lauf `aarau-probe-gemini-v1`): 20/20 Seiten gelesen, keine
+abgeschnitten, kein Leerlauf, 2 502 Zeichen und 10,9 s je Seite, 3,6 min für die
+Probe. Zweispaltige Seiten (Gebäude 1884, Berufsregister) werden mit `[spalte 2]`
+korrekt getrennt; der Kolumnentitel bleibt; handschriftliche Randnotizen werden als
+`[handschriftlich: …]` ausgesondert statt in den Text zu rutschen; durchscheinende
+Buchstaben der Nachbarseite (1899) werden ignoriert. Fehlerbild auf den gesichteten
+Seiten: einzelne Ziffern (893/693), ein systematischer Fraktur-Lesefehler
+**«Oekonom» → «Dekonom»** (O/D), vereinzelt verdoppelte Buchstaben («Elsassser»);
+die Doppelstrich-Trennung ⸗ wird als `=` wiedergegeben. Struktur (Stern, Gedankenstrich,
+Einzug der Fortsetzungszeilen) ist für den Parser direkt brauchbar.
+
+**GPUStack** (`aarau-probe-gpustack-v1`, über den externen Leser mit
+`GEMINI_BASE_URL=https://gpustack.unibe.ch/v1`, gleicher Prompt, Reasoning auf
+Modell-Default, von tei per CLI gestartet, weil der MCP-Server keine Basis-URL-Wahl hat):
+`qwen3.8-27b` 20/20 gelesen, 72,9 s je Seite, eine Seite leer und am Token-Deckel
+abgebrochen (1896 S. 176, zweispaltiges Berufsregister: 164 s Nachdenken, kein Text —
+das Reasoning-Problem aus `docs/BATCH_ATR.md`; ohne Denkabschaltung im externen Leser
+bleibt das ein Risiko). `qwen3-vl-30b-a3b-instruct` 20/20, **5,4 s je Seite**, keine
+Abbrüche.
+
+**Gateway** (`aarau-probe-v1`): kraken ~50 s je Seite inklusive Segmentierung; Details
+unten. Erste Lesung `kraken-german_print` auf 1884 S. 18: Wörter weitgehend richtig,
+langes s und ⸗ erhalten, aber Stern/Gedankenstrich am Zeilenanfang teils verstümmelt,
+eine Randnotiz als Textzeile («Keiaiait»), und auf zweispaltigen Seiten werden die
+Spalten zeilenweise vermischt.
+
+**Ground Truth** (`data/gt/`, 4 Seiten, `provenance.csv`): 1884 S. 18 (Fraktur,
+Einwohner), 1884 S. 80 (Fraktur, Berufsregister zweispaltig), 1896 S. 99 (Antiqua,
+Einwohner zweispaltig), 1899 S. 16 (Antiqua, Einwohner). Entstanden aus der
+Gemini-Lesung, jede Abweichung zu kraken am Bildausschnitt entschieden
+(`scripts/gt_diff.py`), dann die Seite gegen das Bild gelesen — **von Claude, nicht von
+einer Person**, und von Gemini ausgehend: Gemini kommt dadurch zu gut weg, die anderen
+Zahlen sind belastbar. Eine menschliche Zweitkorrektur dieser vier Seiten ist der
+günstigste Weg, die Verzerrung zu messen.
+
+Zeichenfehlerrate (CER, Levenshtein auf dem normalisierten Seitentext: ſ→s, ⸗/=→-,
+Randnotizen entfernt), je GT-Seite:
+
+| Leser | 1884 S. 18 Fraktur | 1884 S. 80 Fraktur 2-sp. | 1896 S. 99 Antiqua 2-sp. | 1899 S. 16 Antiqua | s/Seite |
+|---|---:|---:|---:|---:|---:|
+| `gemini-3.8-flash` (extern, Prompt-Digest `@48d0eac8`) | 0,007* | 0,004* | 0,000* | 0,000* | 10,9 |
+| `qwen3.8-27b` (GPUStack) | 0,044 | 0,057 | 0,010 | 0,001 | 72,9 |
+| `qwen3-vl-30b-a3b-instruct` (GPUStack) | 0,032 | 0,046 | 0,031 | 0,011 | 5,4 |
+| `kraken-german_print` (Gateway) | 0,033 | 0,073 | 0,432 | 0,020 | ~50 |
+| `kraken-austrian_fraktur` (Gateway) | 0,057 | 0,098 | 0,476 | 0,034 | ~50 |
+| `kraken-catmus_print_large` (Gateway) | 0,260 | 0,291 | — | — | ~50 |
+| `qwen3vl-german-xix-v2` (Gateway) | — | — | — | — | — |
+
+\* GT geht von dieser Lesung aus, Zahl nach unten verzerrt.
+
+Lesart: Auf **Antiqua** sind Gemini und qwen3.8 praktisch fehlerfrei, qwen3-vl-30b bei
+1–3 %. Auf **Fraktur** liegt Gemini unter 1 %, kraken-german_print bei 3 % (einspaltig)
+und 7 % (zweispaltig), die Qwen-Modelle bei 3–6 %; kraken-catmus ist hier unbrauchbar.
+**Zweispaltige Seiten** brechen den kraken-Pfad (43–48 % auf Antiqua, weil die
+Segmentierung die Spalten zeilenweise verbindet); alle Seitenleser lösen die Spalten mit
+`[spalte 2]` korrekt auf. Systematische Fehler: Gemini liest Fraktur-«Oe» als «De»
+(Oekonom → Dekonom), qwen3.8 modernisiert gegen den Prompt (Wittwe → Witwe, Partik. →
+Part.), kraken verstümmelt Stern und Gedankenstrich am Zeilenanfang.
+
+**Entscheid für Welle 1 (Vorschlag):** Hauptleser Gemini 3.8 Flash für alle 1 030
+Seiten (~3 h, Kosten je Seite) mit `qwen3-vl-30b-a3b-instruct` als zweiter, kostenloser
+Lesung für den Abgleich (~1,5 h); `kraken-german_print` nur für einspaltige Seiten als
+dritte Stimme und für Zeilengeometrie, wo sie gebraucht wird. qwen3.8 nur, wenn das
+Nachdenken abschaltbar wird. Vor dem Volllauf: Prompt um die Oe/De-Falle ergänzen und
+die vier GT-Seiten von einer Person gegenlesen lassen.
+
+**Welle 2, erster Stand:** `scripts/04_parse.py` (regelbasiert) löst auf den zehn
+Einwohner-Probeseiten der Gemini-Lesung 426 Adresszeilen auf, 407 «high», 14 «medium»
+(Firmen, Ditto-«id.» von 1888, unsichere Allianznamen), 5 «review» (Seitenanfang ohne
+vorangehenden Familiennamen, da die Probeseiten nicht aufeinander folgen). Erkannte
+Konventionen: Stern = Hausbesitzer, Gedankenstrich = geerbter Familienname, «-Name» nach
+Gedankenstrich = Allianzname, «geb.» = Geburtsname, Doppeladressen mit «;», «[tel]»,
+«id. id.» in 1888 für Heimatort und Adresse der Vorzeile.
+
 ## 3. Architektur der Pipeline
 
 ```
