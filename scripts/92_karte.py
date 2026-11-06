@@ -52,6 +52,9 @@ h1 { font-size: 1.25rem; margin: 0; font-weight: 700; }
 #map { flex: 1 1 auto; min-width: 0; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); }
 .leaflet-popup-content { font-family: var(--font-body); font-size: 13.5px; }
 .leaflet-popup-content b { color: var(--accent); }
+.leaflet-popup-content a { color: #7a2e2e; font-weight: 600; }
+#top a { color: var(--fg); text-decoration: none; border-bottom: 1px dotted var(--muted); }
+#top a:hover, #top a:focus-visible { color: var(--accent); }
 .legend { font-size: 0.85rem; color: var(--muted); }
 @media (max-width: 760px) { .main { flex-direction: column; } .panel { flex: 0 0 auto; max-height: 40%; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
@@ -70,7 +73,7 @@ h1 { font-size: 1.25rem; margin: 0; font-weight: 700; }
     <div class="card"><h2>Band</h2><div class="seg" id="vol"></div></div>
     <div class="card"><h2>Verortet</h2><div id="stats"></div></div>
     <div class="card" id="topcard"><h2 id="toptitle">Grösste Orte</h2><div id="top"></div></div>
-    <p class="legend">Kreisfläche ∝ Zahl der Einträge. Heimatort = Bürgerort («von …») im Einwohner- und Gebäudeverzeichnis; ein Ort ohne Kantonsangabe wurde zuerst im Aargau gesucht (Konfidenz «aargau-assumed»).</p>
+    <p class="legend">Kreisfläche ∝ Zahl der Einträge. Klick auf einen Kreis oder einen Namen in der Liste führt zu den zugehörigen Einträgen. Heimatort = Bürgerort («von …») im Einwohner- und Gebäudeverzeichnis; ein Ort ohne Kantonsangabe wurde zuerst im Aargau gesucht (Konfidenz «aargau-assumed»).</p>
   </div>
   <div id="map" role="application" aria-label="Karte"></div>
 </div>
@@ -89,6 +92,16 @@ $('vol').innerHTML = ['alle'].concat(vols).map(v => `<button data-v="${v}" aria-
 function data() { return mode === 'origins' ? ORIGINS : STREETS; }
 function count(f) { const c = f.properties.counts; return vol === 'alle' ? f.properties.total : (c[vol] || 0); }
 function fmt(n) { return n.toLocaleString('de-CH'); }
+// Link auf die Kontrollseite, gefiltert auf diesen Ort bzw. diese Strasse (und den gewählten Band)
+function keyOf(p) { return mode === 'origins' ? p.name + (p.canton ? ', ' + p.canton : '') : p.name; }
+function entriesUrl(p, t) {
+  const u = new URLSearchParams({ tab: t, col: mode === 'origins' ? 'origin_norm' : 'street_norm', val: keyOf(p) });
+  if (vol !== 'alle') u.set('vol', vol);
+  return './?' + u.toString();
+}
+function links(p) {
+  return `<br><a href="${entriesUrl(p, 'einwohner')}">Einträge im Einwohnerverzeichnis</a> · <a href="${entriesUrl(p, 'bewohner')}">Bewohner (Gebäudeverzeichnis)</a>`;
+}
 function render() {
   for (const b of $('mode').children) b.setAttribute('aria-pressed', b.dataset.m === mode);
   for (const b of $('vol').children) b.setAttribute('aria-pressed', b.dataset.v === vol);
@@ -103,7 +116,7 @@ function render() {
     const isHome = mode === 'origins' && p.name === 'Aarau';
     const c = L.circleMarker([lat, lon], { radius: r, color: mode === 'origins' ? '#7a2e2e' : '#2f5f8f', weight: 1, fillOpacity: isHome ? 0.15 : 0.45 });
     const per = vols.map(v => `${v}: ${fmt(p.counts[v] || 0)}`).join(' · ');
-    c.bindPopup(`<b>${p.name}</b>${p.canton ? ', ' + p.canton : ''}${p.country && p.country !== 'CH' ? ' (' + p.country + ')' : ''}<br>${fmt(n)} Einträge${vol === 'alle' ? '' : ' in ' + vol}<br><small>${per}</small>${p.top_occupations && p.top_occupations.length ? '<br><small>Berufe: ' + p.top_occupations.join(', ') + '</small>' : ''}${p.confidence ? '<br><small>Verortung: ' + p.confidence + '</small>' : ''}`);
+    c.bindPopup(`<b>${p.name}</b>${p.canton ? ', ' + p.canton : ''}${p.country && p.country !== 'CH' ? ' (' + p.country + ')' : ''}<br>${fmt(n)} Einträge${vol === 'alle' ? '' : ' in ' + vol}<br><small>${per}</small>${p.top_occupations && p.top_occupations.length ? '<br><small>Berufe: ' + p.top_occupations.join(', ') + '</small>' : ''}${p.confidence ? '<br><small>Verortung: ' + p.confidence + '</small>' : ''}${links(p)}`);
     c.bindTooltip(`${p.name} (${fmt(n)})`);
     c.addTo(layer);
   }
@@ -112,7 +125,7 @@ function render() {
   const pct = loc + un ? Math.round(100 * loc / (loc + un)) : 0;
   $('stats').innerHTML = `<div class="stat"><span>${mode === 'origins' ? 'Heimatorte' : 'Strassen'} auf der Karte</span><span>${fmt(feats.length)}</span></div><div class="stat"><span>Einträge verortet</span><span>${fmt(loc)} von ${fmt(loc + un)} (${pct} %)</span></div><div class="bar" style="width:${pct}%"></div>`;
   $('toptitle').textContent = mode === 'origins' ? 'Grösste Heimatorte' : 'Strassen mit den meisten Einträgen';
-  $('top').innerHTML = feats.slice(0, 12).map(f => `<div class="stat"><span>${f.properties.name}${f.properties.canton && f.properties.canton !== 'Aargau' ? ' <small>(' + f.properties.canton + ')</small>' : ''}</span><span>${fmt(count(f))}</span></div>`).join('');
+  $('top').innerHTML = feats.slice(0, 12).map(f => `<div class="stat"><span><a href="${entriesUrl(f.properties, 'einwohner')}">${f.properties.name}</a>${f.properties.canton && f.properties.canton !== 'Aargau' ? ' <small>(' + f.properties.canton + ')</small>' : ''}</span><span>${fmt(count(f))}</span></div>`).join('');
   if (feats.length) {
     // Ausschnitt: Mitteleuropa (Ausreisser in Übersee bleiben auf der Karte, bestimmen aber den Ausschnitt nicht)
     const near = feats.filter(f => f.geometry.coordinates[0] > 4 && f.geometry.coordinates[0] < 13 && f.geometry.coordinates[1] > 44 && f.geometry.coordinates[1] < 52);

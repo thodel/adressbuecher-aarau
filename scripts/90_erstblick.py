@@ -30,14 +30,15 @@ REPO_URL = "https://github.com/thodel/adressbuecher-aarau"
 TABS = [
     ("einwohner", "Einwohner", ["04_entries_fraktur.csv", "04_entries_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "citizen_flag", "surname", "alliance_name", "maiden_name", "forename",
-      "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "street_raw", "building_no",
-      "address_role", "phone_flag", "entry_type", "parse_confidence", "residual", "text"]),
+      "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "origin_norm", "street_raw", "street_norm",
+      "building_no", "address_role", "phone_flag", "entry_type", "parse_confidence", "residual", "text"]),
     ("gebaeude", "Gebäude", ["05_buildings_fraktur.csv", "05_buildings_antiqua.csv"], "building_id",
      ["building_id", "volume", "page", "building_nos", "marker", "street_raw", "owner_text", "building_type",
       "owner_same_as_prev", "phone_flag", "parse_confidence", "note"]),
     ("bewohner", "Bewohner", ["05_residents_fraktur.csv", "05_residents_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "building_no", "surname", "alliance_name", "maiden_name", "forename",
-      "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "parse_confidence", "residual", "text"]),
+      "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "origin_norm", "street_norm",
+      "parse_confidence", "residual", "text"]),
     ("berufe", "Berufe", ["04_berufe_fraktur.csv", "04_berufe_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "heading", "surname", "alliance_name", "forename", "occupation_raw",
       "street_raw", "building_no", "origin_raw", "entry_type", "parse_confidence", "residual", "text"]),
@@ -49,7 +50,7 @@ TABS = [
 LABELS = {"entry_id": "ID", "building_id": "ID", "volume": "Band", "page": "PDF-S.", "citizen_flag": "Bürger *",
           "surname": "Name", "alliance_name": "Allianz", "maiden_name": "geb.", "forename": "Vorname",
           "civil_status": "Stand", "relation": "Bezug", "occupation_raw": "Beruf", "origin_raw": "Heimatort",
-          "origin_canton": "Kt.", "street_raw": "Strasse", "building_no": "Nr.", "address_role": "Adressrolle",
+          "origin_canton": "Kt.", "origin_norm": "Heimatort (norm.)", "street_norm": "Strasse (norm.)", "street_raw": "Strasse", "building_no": "Nr.", "address_role": "Adressrolle",
           "phone_flag": "Tel.", "entry_type": "Typ", "parse_confidence": "Konfidenz", "residual": "Rest/Notiz",
           "text": "ATR-Zeile", "building_nos": "Nr.", "marker": "Marke", "owner_text": "Eigentümer",
           "building_type": "Gebäudeart", "owner_same_as_prev": "Ditto", "note": "Notiz", "heading": "Rubrik", "ptt_id": "ID", "ptt_source": "Quelle",
@@ -61,6 +62,28 @@ REASONS = ["ATR-Lesefehler", "Parser: Feld falsch", "Parser: Eintrag falsch getr
            "Quelle: Druckfehler", "Dublette", "Anderes"]
 
 
+def norm_tables() -> tuple[dict, dict]:
+    """(origin_raw, origin_canton) → «Ort» bzw. «Ort, Kanton»; street_raw → street_norm.
+    Dieselben Schlüssel wie in data/geo/*.geojson, damit die Karte exakt filtern kann."""
+    origins, streets = {}, {}
+    p = CSV_DIR / "06_origins.csv"
+    if p.exists():
+        with p.open(encoding="utf-8") as fh:
+            for r in csv.DictReader(fh):
+                if r["origin_norm"]:
+                    origins[(r["origin_raw"], r["origin_canton"])] = r["origin_norm"] + (f", {r['canton_norm']}" if r["canton_norm"] else "")
+    p = CSV_DIR / "06_streets.csv"
+    if p.exists():
+        with p.open(encoding="utf-8") as fh:
+            for r in csv.DictReader(fh):
+                if r["norm_method"] == "rule":
+                    streets[r["street_raw"]] = r["street_norm"]
+    return origins, streets
+
+
+ORIGINS, STREETS = norm_tables()
+
+
 def load(files: list[str], cols: list[str]) -> list[list[str]]:
     rows = []
     for f in files:
@@ -69,6 +92,8 @@ def load(files: list[str], cols: list[str]) -> list[list[str]]:
             continue
         with p.open(encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
+                r["origin_norm"] = ORIGINS.get((r.get("origin_raw", ""), r.get("origin_canton", "")), "") if r.get("origin_raw") else ""
+                r["street_norm"] = STREETS.get(r.get("street_raw", ""), "") if r.get("street_raw") else ""
                 row = [r.get(c, "") for c in cols]
                 if cols[0] == "entry_id" and r.get("address_seq") and r["address_seq"] not in ("", "1"):
                     row[0] = f"{row[0]}#{r['address_seq']}"
@@ -123,6 +148,8 @@ button { font: inherit; cursor: pointer; }
 button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 input[type="search"], select, input[type="text"] { font: inherit; padding: 5px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); color: var(--fg); min-width: 0; }
 input[type="search"] { flex: 1 1 220px; }
+.chip { display: inline-flex; gap: 6px; align-items: center; background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 999px; padding: 2px 4px 2px 10px; font-size: 0.88rem; }
+.chip button { border: 0; background: transparent; color: var(--accent); font-weight: 700; padding: 0 6px; }
 .count { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 0.9rem; }
 .flagbar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); font-size: 0.9rem; }
 .flagbar .n { font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
@@ -162,6 +189,7 @@ td.act a { color: var(--muted); font-size: 12px; margin-left: 6px; }
   <select id="vol" aria-label="Band"><option value="">alle Bände</option></select>
   <select id="conf" aria-label="Konfidenz"><option value="">alle Konfidenzen</option><option value="high">high</option><option value="medium">medium</option><option value="review">review</option></select>
   <label><input type="checkbox" id="onlyflag"> nur markierte</label>
+  <span id="colfilter" class="chip" hidden></span>
   <input id="q" type="search" placeholder="Suchen: Name, Beruf, Strasse, Heimatort, ID …" aria-label="Suchen">
   <span class="count" id="count"></span>
 </div>
@@ -183,7 +211,9 @@ const REPORTED = __REPORTED__;
 const REPO = "__REPO__";
 const PAGE = 300;
 const KEY = 'aarau.flags.v1';
-let tab = (location.hash.replace('#','') in DATA) ? location.hash.replace('#','') : Object.keys(DATA)[0];
+const P = new URLSearchParams(location.search);
+let tab = P.get('tab') && DATA[P.get('tab')] ? P.get('tab') : ((location.hash.replace('#','') in DATA) ? location.hash.replace('#','') : Object.keys(DATA)[0]);
+let colF = P.get('col') || '', valF = P.get('val') || '';
 let shown = PAGE;
 let flags = {};
 try { flags = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { flags = {}; }
@@ -219,7 +249,11 @@ function actCell(k, r) {
 function render() {
   for (const b of tabsEl.children) b.setAttribute('aria-selected', b.dataset.k === tab);
   const d = DATA[tab], needle = q.value.trim().toLowerCase(), v = vol.value, c = conf.value, ci = d.cols.indexOf('parse_confidence');
-  const rows = d.rows.filter(r => (!v || r[1] === v) && (!c || r[ci] === c) && (!onlyflag.checked || flags[tab + '|' + r[0]] || reported[tab + '|' + r[0]]) && (!needle || r.join(' ').toLowerCase().includes(needle)));
+  const fi = colF ? d.cols.indexOf(colF) : -1;
+  const chip = $('colfilter');
+  if (colF && valF) { chip.hidden = false; chip.innerHTML = `${esc(LABELS[colF] || colF)} = <b>${esc(valF)}</b><button type="button" id="clearcol" aria-label="Filter entfernen">✕</button>`; $('clearcol').onclick = () => { colF = valF = ''; history.replaceState(null, '', location.pathname); shown = PAGE; render(); }; }
+  else { chip.hidden = true; }
+  const rows = d.rows.filter(r => (!v || r[1] === v) && (!c || r[ci] === c) && (!colF || !valF || fi < 0 || r[fi] === valF) && (!onlyflag.checked || flags[tab + '|' + r[0]] || reported[tab + '|' + r[0]]) && (!needle || r.join(' ').toLowerCase().includes(needle)));
   thead.innerHTML = '<tr><th>Flag</th>' + d.cols.map(cc => `<th>${esc(LABELS[cc] || cc)}</th>`).join('') + '</tr>';
   tbody.innerHTML = rows.slice(0, shown).map(r => {
     const key = tab + '|' + r[0];
@@ -258,7 +292,10 @@ function fallbackCopy(text) { const ta = document.createElement('textarea'); ta.
 $('clear').onclick = () => { if (!Object.keys(flags).length) return; flags = {}; save(); render(); toast('Flags gelöscht'); };
 more.onclick = () => { shown += PAGE; render(); };
 for (const el of [q, vol, conf, onlyflag]) el.addEventListener(el === q ? 'input' : 'change', () => { shown = PAGE; render(); });
-try { const t = localStorage.getItem('aarau.tab'); if (!location.hash && t && DATA[t]) tab = t; } catch (e) {}
+try { const t = localStorage.getItem('aarau.tab'); if (!location.hash && !P.get('tab') && t && DATA[t]) tab = t; } catch (e) {}
+if (P.get('vol')) vol.value = P.get('vol');
+if (P.get('conf')) conf.value = P.get('conf');
+if (P.get('q')) q.value = P.get('q');
 render();
 </script>
 """
