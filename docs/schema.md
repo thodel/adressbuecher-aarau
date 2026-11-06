@@ -58,7 +58,7 @@ Geplant für Stufe 3: `02b_lines_chosen.csv` mit der gewählten Lesung je Zeile
 | `volume`, `page`, `section` | Herkunft |
 | `line_from`, `line_to` | erste und letzte Zeile des Eintrags in `02_lines.csv` |
 | `text` | der zusammengesetzte Eintragstext, Trennstriche aufgelöst |
-| `owner_flag` | `1`, wenn der Eintrag mit `*` (Hausbesitzer) beginnt |
+| `citizen_flag` | `1`, wenn der Eintrag mit `*` beginnt: im Einwohnerverzeichnis **Bürger von Aarau** («Bürger sind Diejenigen, die mit einem * bezeichnet sind», Kopfnote 1884); im Gebäudeverzeichnis bedeutet `*` dagegen, dass der Eigentümer selbst im Haus wohnt (dort Spalte `marker`) |
 | `dash_prefix` | `1`, wenn der Eintrag mit Gedankenstrich beginnt (Familienname wiederholt) |
 | `surname_inherited` | der ergänzte Familienname bei `dash_prefix` |
 | `heading` | der zuletzt gesehene Zwischentitel (Strasse im Gebäudeverzeichnis, Berufsklasse im Berufsregister) |

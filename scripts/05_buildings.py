@@ -107,12 +107,15 @@ def parse_building_page(text: str, volume: str, page: int, street: str = "", pre
             cur["owner_surname"] = e["surname"]
             cur["owner_entry"] = json.dumps({k: e[k] for k in ("surname", "alliance_name", "forename", "occupation_raw", "origin_raw", "civil_status") if e.get(k)}, ensure_ascii=False)
         elif cur is not None and (line.startswith("  ") or s.startswith("—")):
-            if buildings and residents and residents[-1]["building_id"] == cur["building_id"] and line.startswith("    "):
+            starts_entry = bool(re.match(r"^(—|\*?\s*[A-ZÄÖÜ][\w'.-]+(\s+(geb\.|&|u\.|und)\s+[\w'.-]+)?\s*,|[A-ZÄÖÜ][\w-]+\s+(Gebr\.|&))", s))
+            if residents and residents[-1]["building_id"] == cur["building_id"] and (line.startswith("    ") or not starts_entry):
                 # tiefer eingerückt: Fortsetzung der letzten Bewohnerzeile
                 r = residents[-1]
-                r["text"] = r["text"] + " " + s
-                residents[-1] = {**r, **{k: v for k, v in parse_entry(r["text"], cur["owner_surname"]).items() if k in FIELDS and k != "text"},
-                                 "building_id": cur["building_id"], "building_no": cur["building_no"], "street_raw": street}
+                r["text"] = (r["text"][:-1] + s) if r["text"].endswith("-") and s[:1].islower() else (r["text"] + " " + s)
+                keep = ("entry_id", "volume", "page", "section", "line_from", "text")
+                parsed = {k: v for k, v in parse_entry(r["text"], cur["owner_surname"]).items() if k in FIELDS and k not in keep}
+                residents[-1] = {**r, **parsed, "line_to": i, "building_id": cur["building_id"],
+                                 "building_no": cur["building_no"], "street_raw": street}
                 continue
             e = parse_entry(s, cur["owner_surname"])
             e = {k: v for k, v in e.items() if k != "_addresses"}
@@ -128,6 +131,37 @@ def parse_building_page(text: str, volume: str, page: int, street: str = "", pre
             if cur is not None:
                 cur["note"] = (cur["note"] + " | " if cur["note"] else "") + f"unzugeordnet Z{i}: {s[:60]}"
     return buildings, residents, street, prev
+
+
+def check_ranges(buildings: list[dict]) -> None:
+    """Gebäudenummer gegen den Seitenbereich des Inhaltsverzeichnisses (05b) prüfen."""
+    rng_path = CSV_DIR / "05b_number_ranges.csv"
+    if not rng_path.exists():
+        return
+    printed = {}
+    with (CSV_DIR / "01_pages.csv").open(encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            if r["printed_page"].isdigit():
+                printed[(r["volume"], r["page"])] = r["printed_page"]
+    ranges = {}
+    with rng_path.open(encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            if not r["street"]:
+                ranges.setdefault((r["volume"], r["page_printed"]), []).append((int(re.sub(r"\D", "", r["no_from"])), int(re.sub(r"\D", "", r["no_to"]))))
+    flagged = 0
+    for b in buildings:
+        key = (b["volume"], printed.get((b["volume"], b["page"]), ""))
+        if key not in ranges:
+            continue
+        n = int(re.sub(r"\D", "", b["building_no"]) or 0)
+        lo = min(a for a, _ in ranges[key]); hi = max(z for _, z in ranges[key])
+        if not (lo - 40 <= n <= hi + 40):      # «nach der Nummerierung gebaute Häuser» dürfen abweichen
+            b["note"] = (b["note"] + " | " if b["note"] else "") + f"Nummer ausserhalb Seitenbereich {lo}-{hi}"
+            if b["parse_confidence"] == "high":
+                b["parse_confidence"] = "medium"
+            flagged += 1
+    if flagged:
+        print(f"{flagged} Gebäudenummern ausserhalb des Seitenbereichs laut Inhaltsverzeichnis")
 
 
 def main() -> None:
@@ -159,6 +193,7 @@ def main() -> None:
         b, r, street, prev = parse_building_page(text, vol, page, street, prev)
         all_b.extend(b); all_r.extend(r)
         last = (vol, page)
+    check_ranges(all_b)
     for path, rows, fields in ((args.out_buildings, all_b, B_FIELDS),
                                (args.out_residents, all_r, ["building_id", "building_no"] + FIELDS)):
         with path.open("w", newline="", encoding="utf-8") as fh:

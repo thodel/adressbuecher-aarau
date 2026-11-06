@@ -26,7 +26,7 @@ import sys
 from pathlib import Path
 
 CSV_DIR = Path("data/csv")
-FIELDS = ["entry_id", "volume", "page", "section", "line_from", "line_to", "entry_type", "owner_flag",
+FIELDS = ["entry_id", "volume", "page", "section", "line_from", "line_to", "entry_type", "citizen_flag",
           "dash_prefix", "surname", "surname_inherited", "alliance_name", "maiden_name",
           "forename", "title", "civil_status", "relation", "occupation_raw", "origin_raw",
           "origin_canton", "address_seq", "address_role", "street_raw", "building_no",
@@ -112,7 +112,7 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
         rec["phone_flag"] = "1"
         t = t.replace("[tel]", "").replace("  ", " ")
     if t.startswith("*"):
-        rec["owner_flag"] = "1"
+        rec["citizen_flag"] = "1"
         t = t[1:].strip()
     if t.startswith("—"):
         rec["dash_prefix"] = "1"

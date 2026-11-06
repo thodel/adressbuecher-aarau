@@ -54,7 +54,8 @@ Jeder Band hat dieselben Abschnitte (Reihenfolge nach 1899):
 3. **Alphabetisches Verzeichnis der Einwohner** — der Kern. Ein Eintrag:
    `Name[-Allianzname], Vorname, [Zivilstand/Witwe/Sohn/Tochter], Beruf, [von Heimatort (Kanton)], Strasse Gebäudenummer.`
    Gedankenstrich = Wiederholung des Familiennamens der vorangehenden Zeile; Stern =
-   Hausbesitzer; Abkürzungen («Part.», «Wwe.», «Hrch.», «v.»). Mehrere Adressen pro Eintrag
+   **Bürger von Aarau** (Kopfnote 1884: «Bürger sind Diejenigen, die mit einem * bezeichnet
+   sind» — nicht Hausbesitz, das war eine Fehlannahme bis zur Gemini-Lesung); Abkürzungen («Part.», «Wwe.», «Hrch.», «v.»). Mehrere Adressen pro Eintrag
    kommen vor («Wohnung …; Werkstätte …»).
 4. **Geschäfts- und Gewerbetreibende nach Berufsklassen** — Berufsregister, zweispaltig,
    mit eigenem Stichwortverzeichnis (S. 91 von 1884).
@@ -179,7 +180,7 @@ der vier GT-Seiten bleibt offen.
 Einwohner-Probeseiten der Gemini-Lesung 426 Adresszeilen auf, 407 «high», 14 «medium»
 (Firmen, Ditto-«id.» von 1888, unsichere Allianznamen), 5 «review» (Seitenanfang ohne
 vorangehenden Familiennamen, da die Probeseiten nicht aufeinander folgen). Erkannte
-Konventionen: Stern = Hausbesitzer, Gedankenstrich = geerbter Familienname, «-Name» nach
+Konventionen: Stern = Bürger (Einwohnerverzeichnis) bzw. Eigentümer wohnt im Haus (Gebäudeverzeichnis), Gedankenstrich = geerbter Familienname, «-Name» nach
 Gedankenstrich = Allianzname, «geb.» = Geburtsname, Doppeladressen mit «;», «[tel]»,
 «id. id.» in 1888 für Heimatort und Adresse der Vorzeile.
 
@@ -236,7 +237,8 @@ Alle Begriffe aus `registry.py`; nichts Eigenes, solange SDHSS es hat.
 | Beruf | `sdh-slc:C12` Actor's Social Role (Vokabular) + `sdh-slc:C13` Embodiment je Person und Band | `P4` → E52 (Bandjahr als Zeitpunkt der Beobachtung) |
 | Wohnsitz | `P74_has_current_or_former_residence` → Gebäude; je Band als `E13_Attribute_Assignment` mit Zeit (damit Umzüge datierbar sind) | |
 | Gebäude | `E53_Place` mit `E42` (Gebäudenummer) | `P89_falls_within` → Strasse (`E53`) → Aarau (`E53`, Wikidata) |
-| Hausbesitz | Stern = `E13` «besitzt» (Rollentyp E55), nicht als Rechtsakt modelliert | |
+| Bürgerrecht Aarau | Stern im Einwohnerverzeichnis = `sdh-slc:C5` Membership (Typ «Bürgerrecht») → `E74_Group` Bürgergemeinde Aarau | ersetzt die frühere Lesart «Hausbesitz» |
+| Eigentum | Gebäudeverzeichnis: Eigentümer je Nummer = `E13` «Eigentümer» (Rollentyp E55) mit Bandjahr; `*` dort = Eigentümer wohnt im Haus (zusätzlich `P74`) | |
 | Heimatort / Bürgerrecht | `sdh-slc:C5` Membership (Typ «Bürgerrecht») → `E74_Group` (Bürgergemeinde) mit `P74`-Ort | |
 | Behörde, Verein, Firma | `E74_Group` + `crm-sup:C9` Gruppentyp | Amt = `sdh-slc:C13` innerhalb der Gruppe, mit Bandjahr |
 | Herkunft jedes Knotens | `prov:wasDerivedFrom` → Datensatz (Band + ATR-Lauf + Pipeline-Commit) | |
@@ -436,7 +438,11 @@ adressbuecher-aarau/
    stehen unter «nach der Nummerierung gebaute Häuser». Das 1896er «Verzeichnis der
    Strassen und Plätze» (S. XIV) und 1899 (PDF 211) verweisen nur Strasse → Seite.
    Die Konkordanz gibt also jeder Nummer ihre Strasse und ist eine erste Prüfung der
-   Nummernstabilität zwischen den Bänden (Welle 2). **Offen bleibt die Lage im Raum:**
+   Nummernstabilität zwischen den Bänden (Welle 2). Nachtrag nach der Gemini-Lesung:
+   das 1884er Inhaltsverzeichnis führt nur Nummernbereiche **je Seite** (1–47 S. 55 …
+   1136–1203 S. 68), die Strassenzuordnung steht erst in den Inhaltsverzeichnissen
+   1888 und 1892; `scripts/05b_concordance.py` liest beides sowie die Berufsklassen
+   (`06_occupation_classes.csv`, 1884: 220 Klassen). **Offen bleibt die Lage im Raum:**
    welcher Plan die Nummern trägt (Kandidaten: Brandversicherungs-/Nummernplan im
    Stadtarchiv Aarau, Katasterplan, Gebäudeversicherung Aargau) und ob er digital und
    nachnutzbar vorliegt. Ohne Plan bleibt die Karte auf Strassenmitte. Entscheid steht aus.
