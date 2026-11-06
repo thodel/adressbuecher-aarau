@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p118",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p118.jpeg",
+    "bytes": 285598,
+    "sha256": "583748f19b6f4597c7df10fd2eb8671c10f33c195c6af01836fc2c40a9a7f2fb",
+    "sha256_of": "original",
+    "working_copy": "1888_p118.jpeg"
+  },
+  "text": "100 — Landolt — Lüscher.\n\n[handschriftlich: X] Landolt-Thommen, Karl, Fabrikation feiner Wagen-, Bau- und Dekora-\n  tionslacke, obere Vorstadt 949.\nLattmann-Ackermann, Georg Heinrich, Lokomotivheizer von Sternenberg[handschriftlich: x]\n  (Zürich), hinter dem Bahnhof 1072.\nLaube, Karl, Rechnungsrevisor von Böbikon, Rain 848.\nLauber, Joseph Anton, Postcommis von Oeschgen, Rathhausgasse 20.\nLeibundgut-Geiser, Rosina, Taglöhnerin von Melchnau (Bern), Adel-\n  bändli 83.\n[handschriftlich: X] Lenzi-Fischer, Albert, Kontroleur der Aarg. Ersparniskasse, von Zuzgen,\n  vor dem Haldenthor 758.\n[handschriftlich: X] Lenzi, Sophie, Lehrerin, Kirchhof 165 b.\nLenzi-Treier, Xaver, Taglöhner von Oberhof, vor dem Haldenthor 796.\nLerf-Kirchhofer, Moritz, Schneider von Leibstadt, Igelweid 635.\nLeu, Jakob, Postkondukteur von Birmenstorf, Rain 877.\nLeu-Karrer, Jakob, Taglöhner von Schloßrued, Laurenzenvorstadt 376.\nLeubin-Kienberger, Albert, Postcommis von Frick, obere Vorstadt 967.\n[handschriftlich: X] Leupold, Dr. Eduard, Fürsprech, Redaktor des „Aarg. Tagblattes“,\n  Gartenstraße 998.\nLeutwyler-Hofer, Elise, Strickerin von Reinach, Schachen 736.\nLeutwyler, Verena, Weißwaarenhandlung, Rathhausgasse 19.\n[handschriftlich: X] Liechti-Steinegger, Paul, Dr. phil., Professor von Murten (Freiburg),\n  vor dem Haldenthor 1243.\nLiechti-Strebel, Karolina, Part., Wittwe von Wittnau, Rain 857.\nLienberger-Weber, Kaspar, Schuhmacher von Spreitenbach, Kirchgasse 8 b.\nLienhardt, Maria Anna, Spetterin, Halden 260 b.\nLimacher-Niggli, Niklaus, Schuhmachermeister von Schüpfheim (Luzern),\n  Pelzgasse 69.\nLindenmann-Wey, Maria, Wittwe, Part., von Fahrwangen, Zollrain 177.\nLindenmann, Ida, Telegraphistin, id. id. id.\nLindenmann, Emma, Privatlehrerin, id. id. id.\nLindegger-Kyburz, Gottfried, Güterexpedient von Oberentfelden, hintere\n  Vorstadt 693.\n[handschriftlich: X] Lindt-Elias, Karolina, Pfarrers Wittwe von Bern, Bahnhofstraße 651.\n[handschriftlich: X] Lindt-Meißner, Otto, Dr. phil., Apotheker von Bern, Rathhausgasse 16.\nLips-Sager, Kaspar, Postkondukteur v. Urdorf (Zürich), Entfelderstr. 967.\nLochbrunner-Geiger, Adolf, Lokomotivführer von Laufenburg, Rain 885.\nLocher-Häuptli, Elise, Friedrich's Ehefrau, Modistin v. Dietikon (Zürich),\n  Kirchhof 166.\nLocher-Willi, Jakob, Postkondukteur von Ems (Graubünden), Gais 1249.\n[handschriftlich: /] Lorenz-Isaak, Joseph, Arzt von Klingnau, Graben 216.\nLüscher, Elise, Glätterin, Rathausgasse 24.\n[handschriftlich: X] Lüscher-Greminger, Daniel, Schlosser von Oberentfelden, Igelweid 1232.\nLüscher-Herzig, Elisabeth, Bäckers Wwe., Part. v Muhen, Rathhausg. 18.\n[handschriftlich: X] Lüscher-Hilsiker, Hans, Notar von Muhen, Rain 829.\nLüscher, Jakob, Schuhmachermeister, hintere Vorstadt 647.\nLüscher, Louise, Part., hintere Vorstadt 647.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9687,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2772,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:36:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p118",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p118.jpeg",
+      "bytes": 285598,
+      "sha256": "583748f19b6f4597c7df10fd2eb8671c10f33c195c6af01836fc2c40a9a7f2fb",
+      "sha256_of": "original",
+      "working_copy": "1888_p118.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:42+00:00"
+  }
+}

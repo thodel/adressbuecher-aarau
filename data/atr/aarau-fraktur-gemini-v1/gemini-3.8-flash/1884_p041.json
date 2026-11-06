@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p041",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p041.jpeg",
+    "bytes": 306983,
+    "sha256": "f1deaa075e13be743a69a9f3dc540f2aec64f0ba7c5a0c617d86938a3d9198b1",
+    "sha256_of": "original",
+    "working_copy": "1884_p041.jpeg"
+  },
+  "text": "Müller. — Peier. 37\n\nMüller-Hürni, Marie, Wittwe, Partik. obere Vorstadt 936.\nMürset-Häuptli, Friedrich, Gärtner, v. Dieße (Bern), Laurenzenvorst. 554.\n— =Hediger, Marie, Wittwe, Partik., von Dieße (Bern), Milchgasse 144.\n— Marie, Coiffeuse, von Dieße (Bern), Milchgasse 144.\n\nNadler-Häuptli, August, Gepäckträger, von Biberstein, Ziegelrain 705.\nNater, Marie, Weißnäherin, von Berzdorf (Solothurn), Kirchgasse 14.\nNäs-Widmer, Urs Josef, Taglöhner, von Wysen (Soloth.), Kirchgasse 101.\nNeeser-Hilfiker, Samuel, Taglöhner, von Schloßrued, Bahnhofstraße 1025.\n*Neuburger-Imhof, Albert, Apotheker, Partik., Graben 215.\nNiederhauser-Gisi, Theodor, Buchbinder, von Baselaugst (Baselland) in\n  der Gais 487.\n— =Schenk, Maria, Taglöhnerin, v. Eriswyl (Bern), v. d. Haldenth. 809.\nNieding, Heinr., Zimmermeister, v. Märstetten (Thurgau), n. Quartier 970.\nNiggli, Friedrich, Lehrer, Partik., von Aarburg, Graben 221.\n* — =Bohnenblust, Arnold, Stadtschreiber, Rainstraße 872.\n— =Niggli, Elise, Weißnäherin, von Aarburg, Casinostraße 580.\n— Elise, Weißnäherin, von Aarburg, Casinostraße 580.\nNußbaum-Finkbohner, Trinette, Wittwe, v. Densbüren, im Hammer 188.\n— Anna Johanna, Spetterin, von Birrwyl, vordere Vorstadt 902.\n*Nüsperli-Witz, Eduard, Fabrikinspektor, Laurenzenvorstadt 410.\n* — =Nußbaum, Friedrich, Sattler, Zollrain 53.\n* — Karl, Postcommis, Zollrain 53.\n* — =Richner, Julie, Partik., Pelzgasse 124.\n* — Johanna, Partik., Halden 279.\n* — Louise, Partik., Halden 279.\n* — Karoline, Partik., Halden 279.\n\n*Oboussier-Imhof, Friedrich, Fabrikant, Graben 613.\nObrist-Diener, Theodor, Postangestellter, von Magden, in der Telli 448.\n*Oeler-Frey, August, Fabrikant, Laurenzenvorstadt 415.\n* — =Theiler, Oskar, Ingenieur, Laurenzenvorstadt 415.\n*Oelhafen-Rufli, Rudolf, Metzger, hintere Vorstadt 698.\n* — =Hagnauer, Johanna, Partik., Pelzgasse 134.\n* — Hermann, Bankangestellter, Pelzgasse 134.\n* — Maria, Näherin, Rainstraße 875.\nOeschger-von Felten, Remigius, Straßenwärter, von Wyl, Weinberg 322.\n— Klara, Glätterin, von Wyl, Milchgasse 152.\nOppliger, Otto, Bankangestellter, von Aarburg, Rathhausgasse 2.\nOtt, Kaspar, Rentier, von Zürich Graben 218.\n— =Schär, Rudolf, Kaminfeger, von Biberstein, Adelbändli 173.\n— Anna, Zettlermeisterin, von Ryken, Halden 249.\n— =Keller, Verena, Partik., von Aarburg, neues Quartier 1145.\n\nPauli, Maria Susanna, Partik., von Villnachern, Metzgergasse 105.\n— Maria, Taglöhnerin, von Villnachern, Igelweid 637.\nPeier-Fisch, Anna, Wittwe, Partik., von Bergdietikon, Metzgergasse 58.\n— Anna, Lehrerin, von Bergdietikon, Metzgergasse 58.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9252,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2563,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:14:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p041",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p041.jpeg",
+      "bytes": 306983,
+      "sha256": "f1deaa075e13be743a69a9f3dc540f2aec64f0ba7c5a0c617d86938a3d9198b1",
+      "sha256_of": "original",
+      "working_copy": "1884_p041.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:14:17+00:00"
+  }
+}

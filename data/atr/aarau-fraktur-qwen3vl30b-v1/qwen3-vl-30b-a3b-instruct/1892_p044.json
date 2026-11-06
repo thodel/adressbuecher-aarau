@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p044",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p044.jpeg",
+    "bytes": 209773,
+    "sha256": "4e3a04407916072e615630d3cf1b91bc99bb395d0cf0095cc44b33f23b25db28",
+    "sha256_of": "original",
+    "working_copy": "1892_p044.jpeg"
+  },
+  "text": "Haus-\nNr.\n1353. † Ernst-Käfer, Friedrich, Fabrikant. Röhrenfabrik.\n1186. Staats Aargau. Kantonale Krankenanstalt. Verwaltungsgebäude.\nBircher=Schachmann, Heinrich, Dr. med., administrativer Direktor und\nOberarzt der chirurgischen Abtheilung.\nRalt=Läubli, Alfred August, von Koblenz, Oberarzt der medizinischen\nAbtheilung und der Gebäransfalt.\nMeyer-Brunner, Emil, Verwalter, von Rheinfelden, in Buchs wohnhaft.\nBolliger, Heinrich, Sekretär, von Rüttigen.\nLeimgruber, Eduard, Portier, von Herzach.\nBauer, Friedrich, Ausläufer, von Nagold.\nDerfelbe. Medizinisch-chirurgischer Pavillon.\n1187. \" Barade für Infektionskranke.\"\n1188. \"\n1189. \"\n1190. \"\n1191. \" Kinderpavillon. \"\n1192. \" Gebammen- und Gebäransfalt.\n1193. \" Küchen-, Wasch- und Kesselhaus.\n1194. \" Leichenhaus mit Gärtnerwohnung und Magazin.\n1323. \" Springenhaus mit Kohlenschuppen.\n484. † Staat Aargau. Pulverhaus.\n1286. Fleury=Adam, Joseph, Kaufmann, von Laufen (Bern).\nDr. A. Hirzel, Bezirkslehrer, von Lenzburg.\n1063. Schäfer=Troller, Adolf, Architekt.\n1064. † Derfelbe. Holz- und Waschhaus:\n1065. † \" Barade mit Küche.\n1125. † \" Schreinerwerkstätte.\n1126. † \" Gartenhaus.\n1139. † \" Ladenkopf.\n1148. † \" Bureau mit Magazin.\n1149. † \" Steinhauserhütte.\n485. Erismann=Sager, Fried., Güterexpedient, von Gontenschwil.\n1229 † Derfelbe. Scheune.\n486. Fischer=Eglinger, Rudolf, Speisewirth, Thierarzt und Viehinspektor,\nvon Fahrwangen.\nEglinger, Wilhelmine, Part., von Basel.\n487. * Derfelbe. Wohnhaus.\nBollmann-Gisert, Johann Georg, Steindrucker, von Dudelsheim (Hessen).\nMartin-Haus, Emil, Lithograph, von Füllinsdorf (Baselland).\n488. Bally-Schmitter, Adeline, Fabrikants Wittwe.\n489. † Diefelbe. Bad- und Waschhaus.\n[spalte 2]\nHinter dem Bahnhof.\n490. † Bally=Arndt, Eugen, Fabrikgebäude. Fabrikation elastischer Gewebe.\n491. † Derfelbe. Kesselhaus.\n492. † \" Kosthaus.\n493. † \" Schreiner- und Schlosserwerkstätte.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4040,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1873,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.24,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:37:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p044",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p044.jpeg",
+      "bytes": 209773,
+      "sha256": "4e3a04407916072e615630d3cf1b91bc99bb395d0cf0095cc44b33f23b25db28",
+      "sha256_of": "original",
+      "working_copy": "1892_p044.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:25+00:00"
+  }
+}

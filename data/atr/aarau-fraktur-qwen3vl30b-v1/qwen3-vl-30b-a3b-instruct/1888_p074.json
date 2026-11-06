@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p074",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p074.jpeg",
+    "bytes": 234854,
+    "sha256": "f8c0ec7167ab0e4da3452ed839d0a3b8b5212a4a9c442554603372986f8b0afa",
+    "sha256_of": "original",
+    "working_copy": "1888_p074.jpeg"
+  },
+  "text": "64\nHaus-\nNr.\nGartenstraße.\n998. Gyfi=Büchli, Emil, Mechaniker.\nSchächter, Johann Joseph, Bezirksschullehrer, von Altstätten, St. Gallen.\nRektor der Mädchenbezirksschule.\nDr. Leupold, Eduard, Fürsprach, Redactor des Aarg. Tagblattes.\nBüchli, Johann Rudolf, Privat.\nRilliet, Eduard, Ingenieur, von Genf.\n999. Riniker=Schilplin, Hans, Regierungsrath, von Habsburg.\n1000.† Derfelbe. Waisch- und Holzhaus.\n1103 Perusset=Laurent, Alfred, Bezirksschullehrer, von Grandson (Waadt).\nPrior-Dettmer, Helena, Part., von Dissen (Hannover).\nv. Brodorff, Emilie, Comtesse, von Riel (Holstein).\n1122 † Derfelbe. Waischhaus.\n1129 Schoder=Haufer, Wilhelm, Fürsprach, Gerichtspräsident.\nSchäfer=Holzach, Carl, Correspondent der Aarg. Creditanstalt.\n1166 Siebenmann=Siebenmann, Gottlieb, Part.\n1167 † Derfelbe. Waischhaus.\nGoldern.\n1001. Siebenmann=Steiner, Jakob, Dekonom.\nSteiner-Lindenmann, Zuzanna, Wittwe, Part., von Dürrenäsch.\n1002.† Derfelbe. Wagenshopf.\n1003.† Derfelbe. Waischhaus.\nBinenhof.\n1004.† Riniker=Grosz, Friedrich, Bierbrauer. Fakremise.\n1005. Riniker=Läuchli, Jakob, Dekonom.\nRiniker, Jakob, Part., von Habsburg.\n1006.* Derfelbe. Wohnhaus.\nSchwammberger-Berchtold, Johann, Taglöhner, von Auenstein.\n1007.† Derfelbe. Echeune.\n1008.† Derfelbe. Holzshopf.\n1009.† Derfelbe. Werkstätte und Waischhaus.\n1010. Riniker=Tempelri, Friedrich, Badwirth, von Schinznach. Sommer-\nwirthschaft.\n1011.† Derfelbe. Holzhaus.\n1012.† Derfelbe. Trinkhalle.\nBahnhofstraße.\n1013. Zurlinden=Richter, Rudolf, Fabrikant, von Josingen.\n1014.† Derfelbe. Waisch- und Holzhaus.\n1221 † Derfelbe. Holzremise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3470,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1576,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p074",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p074.jpeg",
+      "bytes": 234854,
+      "sha256": "f8c0ec7167ab0e4da3452ed839d0a3b8b5212a4a9c442554603372986f8b0afa",
+      "sha256_of": "original",
+      "working_copy": "1888_p074.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:59+00:00"
+  }
+}

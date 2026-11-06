@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p016",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p016.jpeg",
+    "bytes": 222766,
+    "sha256": "f27521f732512bf91c03ee360785a672df132e7133826ee0f424e104d3701164",
+    "sha256_of": "original",
+    "working_copy": "1892_p016.jpeg"
+  },
+  "text": "— 8 —\nHaus-\nNr.\n  Hunziker-Tschopp, Gottlieb, Schneider, von Unterkulm.\n  Tschopp-Schaad, Jakob, Taglöhner, von Waldenburg (Baselland).\n  Boßardt, Jakob, Taglöhner von Birr.\n85.a. *Bär-Frei, Sattlers, Wittwe.\n  Angliker-Dätwyler, Abraham, Heizer, von Niederlenz.\n  Heuberger-Jenny, Joh. Heinrich, Taglöhner, von Bözen.\n85.b. Keller-Sommerhalder, Erwin, Gießereiarbeiter, von Maisprach.\n86.a. Schmuziger-Zulauf, Marie, Part.\n  Gloor-Horlacher, Ferdinand, Holzspalter, von Birr.\n  Bachmann-Moser, Kaspar, Taglöhner, von Bottenwyl.\n86.b. Dieselbe.\n  Schmid-Eng, Peter, Posamenter, von Herznach.\n\nZollrain.\n87.  Kieser-Leyvraz, Fanny, Wittwe. Part.\n  Kieser-Kilchmann, Wilhelm, Metzger, Speisewirthschaft.\n  Wehrli-Bolliger, Karl, Gasmeister, von Küttigen.\n88.  Feggli-Hässig, Robert, Bäckermeister.\n  Künzlen-Kranich, Fried., Buchhalter von Sulzbach (Württemberg).\n  Strebel, Martina, Spetterin, von Mägenwyl.\n  Strebel, Verena, Spetterin, von Mägenwyl.\n  Strebel, Waldburga, Näherin, von Mägenwyl.\n  Renold-Wildi, Marie, Part., Wittwe.\n  Ackli-Frei, Johann, Bapt. Wagenwärter, von Ueken.\n89.  Wirth-Herzog, Jakob, Auswanderungs-Agent, General-Agentur für\n    Auswanderungs-, Lebens- und Unfallversicherung.\n  Fröhlich geb. Fröhlich, Sophie, Oberrichters Wittwe, von Brugg.\n  Fröhlich, Elise, Part., von Brugg.\n  Traine-Aldinger, Eugen, Oberlieut., Instruktionsoffizier II. Klasse, von\n    Oberhofen-Illighausen (Thurgau).\n90. † Gemeinde Aarau. Schlachthaus.\n91. * Gundel-Waßmer, Joh. Jakob, Bierbrauer, von Langenaltheim (Baiern).\n  Stirnemann-Henzmann, Jakob, von Gränichen, Holz-, Käse- und\n    Butterhandlung.\n  Waßmer-Voß, Rosette, Wittwe, von Mellingen.\n  Meier-Voß, Sophie, Part., Wittwe, von Paris (Frankreich).\n\nStadthof.\n92. a. Dambach-Heiniger, Joh. Jakob, Postangestellter, von Ober-Bözberg.\n92. b. Gisi-Wernli, Samuel, Schreinermeister, von Möriken.\n92. c. Rothpletz-Siebenmann, Maria, Elisabeth, Schreiners Wittwe.\n  Schäfer-Frei, Emil, Zeughausarbeiter.\n92. d. Schmid-Peter, Elisabeth, Wittwe, Part.\n  Schmid, Hans, Postangestellter.\n  Schmid, Emma, Damenschneiderin.\n  Schmid, Elise, Schneiders, Fabrikarbeiterin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9970,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2126,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:46:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p016",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p016.jpeg",
+      "bytes": 222766,
+      "sha256": "f27521f732512bf91c03ee360785a672df132e7133826ee0f424e104d3701164",
+      "sha256_of": "original",
+      "working_copy": "1892_p016.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:19+00:00"
+  }
+}

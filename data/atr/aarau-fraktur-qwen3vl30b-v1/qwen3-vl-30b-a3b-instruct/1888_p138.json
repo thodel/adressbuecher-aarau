@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p138",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p138.jpeg",
+    "bytes": 298984,
+    "sha256": "657b54458ff0a951ea135b42763bd308304302447d7c8d2093ce0e8033e2cc35",
+    "sha256_of": "original",
+    "working_copy": "1888_p138.jpeg"
+  },
+  "text": "120 Wehrli — Wernli.\n\nWehrli, Andreas, Zimmermann von Rüttigen, Rain 885.\nWehrli-Bircher, Hans, Gyppermeister, Halden 250.\nWehrli-Bolliger, Karl, Gassmeister von Rüttigen, Zollrain 51.\nWehrli-Juf, Peter, Postfaktor von Atp, Milchgasse 156.\nWehrli-Häfker, Friedrich, Bedell, Casinostraße 584.\nWehrli-Herzog, Rudolf, Geschäftsführer der Aarg. Ersparniskasse von Rüttigen, Conradsstraße 993.\nWehrli, Jakob, Mechaniker von Rüttigen, Bahnhofstraße 1018.\nWehrli-Rühr, Jakob, Gyppermeister von Densbüren, Rain 877.\nWehrli, Karl Emil, Architekt von Höngg (Zürich), Laurenzenvorstadt 360.\nWehrli-Wärt, Emil, Bankkassier von Rüttigen, Bachstraße 1175.\nWehrli, Maria, Spetterin von Rüttigen, Rain 885.\nWehrli-Marti, Jakob, Schreiner von Rüttigen, Ziegelrain 704.\nWehrli-Roth, Jakob, Fabrikarbeiter von Biberstein, Pelzgasse 125.\nWehrli-Steiner, Johann, Knecht von Atp, Halden 272.\nWehrli-Walser, Samuel, Gärtner von Rüttigen, vor dem Haldenthor 780.\nWehrli-Wehrli, Rudolf, Maschinenmeister v. Rüttigen, obere Vorstadt 946.\nWeibezahl, Leonhard, Apotheker von Gotha, Rathausgasse 5.\nWeidmann-Albrecht, Albert, Tapezierer von Bachs (Zürich), Kirchgasse 12.\nWeiersmüller-Mofer, Sophie, Reg.-Rath's Wittwe, Part., Bahnhofstr. 658.\nWeigel-Jmbach, Joh., Fürbereitsbeziger v. Glauchau (Sachsen), Tell 449.\nWeilemann-Schurter, Joh. Heinrich, Werkführer von Birmenstorf, Adelbändli 172.\nWeitgenannt-Röser, Verena, Näherin von Mlingolsheim (Großh. Baden), Halden 269.\nWeisse-Meiny, Karl, Färbermeister von Glauchau (Sachsen), Tell 454.\nWellenberg-Schaffner, Albertine, Revisors Wittwe von Schöftland, Milchgasse 156.\nWelti-Siebenmann, Andreas, Kart., Graben 215.\nWelti-Spühler, Heinrich, Buchdrucker von Zurzach, Kirchhof 80.\nWengi-Ratt, Adolf, Postbeamter, Zollrain 177.\nWernli-Adel, Jakob, Gärtner, vor dem Haldenthor 809.\nWernli-Bolliger, Johann, Taglöchner von Thalheim, Altbändli 86.\nWernli-Blauer, Andreas, Schuhmachermeister v. Thalheim, Rathausg. 44.\nWernli-Hächler, Jakob, Fabrikarbeiter von Thalheim, Tell 440.\nWernli-Häfliger, Jakob, Gärtner von Thalheim, vor dem Haldenthor 799.\nWernli-Hediger, Samuel, Holzpalter von Thalheim, Hammer 185 c.\nWernli-Kraft, Rudolf, Pfarrer von Thalheim, Milchgasse 158.\nWernli-Lienhard, Maria Anna, Spetterin von Thalheim, Laurenzenvorstadt 552.\nWernli-Meier, Jakob, Schreinermeister, obere Vorstadt 909.\nWernli-Rußbaum, Jakob, Knecht von Thalheim, vor dem Haldenthor 802.\nWernli-Reinhart, Kaspar, Weichenwärter von Thalheim, Laurenzenvorstadt 362.\nWernli-Schweri, Marie, Gärtners Wittwe von Thalheim, vor dem Haldenthor 808.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5553,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2547,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 62.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:28:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p138",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p138.jpeg",
+      "bytes": 298984,
+      "sha256": "657b54458ff0a951ea135b42763bd308304302447d7c8d2093ce0e8033e2cc35",
+      "sha256_of": "original",
+      "working_copy": "1888_p138.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:43+00:00"
+  }
+}

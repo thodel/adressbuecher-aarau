@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p067",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p067.jpeg",
+    "bytes": 244043,
+    "sha256": "9979471987e74fc27be71193119c4ff1c55d6735356539a9e7bdcd97bb739110",
+    "sha256_of": "original",
+    "working_copy": "1888_p067.jpeg"
+  },
+  "text": "— 57 —\nHaus-\nNr.\n  Gysi, David, Part., von Suhr.\n  Martin geb. Hoffmann, Babette, Part.\n886.† Dieselben. Magazin.\n887.† Dieselben. Bildhauerei-Atelier\n888.† Keusch = Diebold, Joseph Karl, Apotheker, von Boswyl. Scheune\n    und Remise.\n\nVordere Vorstadt.\n\n889. Saxer = Pfleger, Ludwig, Kaufmann.\n  Saxer, Elise, Partik.\n  Dreifuß-Bloch, Karl, Kaufmann. Manufakturwaarenhandlung.\n  Schmid-Suter, Johann, in Zofingen. Pariser-Bazar.\n  Bolliger, Anna, Ladentochter, von Gontenschwyl.\n  Trüeb-Müller, August, Lithographiebesitzer, von Dübendorf (Zürich).\n890.* Buser, Friedrich, Kleiderhändler.\n  Ackermann-Buser, Albert, Kaufmann, von Ammrisweil (Thurgau). Herren-\n    und Knabenkleider-Magazin.\n891. Buser, Friedrich, Kleiderhandlung.\n892. Dolder, Susette, von Hauptwyl (Thurgau). Mercerie-, Bonneterie-\n    und Modewaarenhandlung.\n  Schmidt, Jenny, Modistin.\n  Schmid, Lisette, Goldschmieds, Part.\n893. Zimmerli = Nußbaum, Karolina, Wittwe, Part.\n  Widmer, Karolina, Modistin, von Freienwyl.\n  Widmer, Marie, Modistin, von Freienwyl.\n  Zschokke-Zimmerli, Justina, Wittwe, Part.\n  Rumpf, Bertha, Privatin, von Basel.\n  Zimmerli, Karl, Techniker\n894. Keusch = Diebold, Jos. Karl, Apotheker, von Boswyl.\n  Diebold-Müller, Sophie, Wittwe, Part., von Baden.\n  Müller-Suter, Jakob, Lithographiebesitzer, von Lenzburg.\n  Suter geb. Rauber, Susette, Wittwe, Part.\n  Imhof-Lingenstorfer, Louise, Pfarrers Wittwe, Part.\n  Imhof, Louise, Part.\n  Imhof, Susette, Part.\n895. Gysi, Gebrüder. Firma: Friedrich Gysi, mechanisches und optisches\n    Geschäft.\n  Gysi-Siebenmann, Otto, Photograph.\n  Gysi, Anna, Buchhalterin.\n896.† Dieselben. Photograph. Atelier.\n897.† Dieselben. Holzschopf.\n898. Brunner = Abderhalden, Friedrich, Messerschmied, von Brunnadern\n    (St. Gallen).\n899.† Derselbe. Werkstätte.\n900. Bürgi = Fricker, Joseph, Part., von Olten.\n  Sernatinger = Enz, Valerian, von Ludwigshafen (Baden). Hut-, Mützen-\n    und Pelzwaarengeschäft. Kautschoucartikel und Filzwaaren.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7358,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1967,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:30:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p067",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p067.jpeg",
+      "bytes": 244043,
+      "sha256": "9979471987e74fc27be71193119c4ff1c55d6735356539a9e7bdcd97bb739110",
+      "sha256_of": "original",
+      "working_copy": "1888_p067.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:30:52+00:00"
+  }
+}

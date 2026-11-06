@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p069",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p069.jpeg",
+    "bytes": 252674,
+    "sha256": "11616aa2ede4cb41e14160a908a4c1c33a9e6005e07e980480a414664d3c7b4b",
+    "sha256_of": "original",
+    "working_copy": "1888_p069.jpeg"
+  },
+  "text": "— 59 —\n\nHaus=\nNr.\n923. Ernst = Käser, Friedrich, Röhrenfabrikant.\n  Morlet-Favrat, Joh. Franz August, Reisender, von Neuenstadt (Bern).\n924.† Derselbe. Magazin.\n925.* Siebenmann, Gottlieb, Gerber. (Alte Post.)\n  Bührer-Gubler, Joh. Jak., Kaufmann. Agentur- und Commissionsgeschäft\n    (Büreau).\n  Kistler-Kull, Jakob, Steuerpräsident, von Bözen.\n  Wildi-Hegnauer, Fried., Postbeamter, von Reinach.\n926. Randegger = Wirth, Conrad, von Ossingen (Zürich). Bayrische Bierhalle.\n  Ballmer, Marie, Wäscherin und Glätterin, von Lausen (Baselland).\n  Ballmer, Karolina, Wäscherin und Glätterin, von Lausen (Baselland).\n  Häuptli-Ott, Othmar, Adjunkt des Staatsbuchhalters, von Biberstein.\n927. Widmer = Rychner, Rudolf, Bäcker, von Gränichen. Pintenwirthschaft.\n  Stauber-Pagan, Jakob, Amtsrevisor, von Zeßwyl.\n928. Brunner = Umiker, Jakob, Negt.\n  Umiker-Wernli, Elisabeth, Part., von Thalheim.\n929.* Derselbe. Wohnhaus.\n  Henz geb. Siebenmann, Adele, Wittwe, Part.\n  Rüetschi-Christen, Jakob, Gießer.\n  Brack-Steininger, Gottlieb, Buchhalter, Effingen.\n930.* Ernst = Merian, Augusts, Parts., Erbschaft.\n  Wildi-Wespi, Adele, Wittwe, von Veltheim.\n  Marfurt, Franz Xaver, Coiffeur, von Langnau (Luzern).\n931. Abgetragen, an dessen Platz\n1117  Richner = Renz, Rosa, Part.\n  Rothpletz-Richner, Friedrich, Fabrikant.\n  Spengler-Thönnen, Maria Magdalena, Wittwe, Part.\n  Wirz-Martin, Emil, Buchhändler, von Solothurn.\n  Richner, Fritz, Pianist.\n932. Abgetragen.\n\nBachstraße.\n\n933. Firma: Friedrich Gysi, Reißzeugfabrik. Ethnologisches Gewerbemuseum\n  der mittelschweizerischen geographisch-commerciellen Gesellschaft.\n934.† Gemeinde Aarau. Spritzenhaus.\n\nObere Vorstadt.\n\n935. Schmidt-Lanz, Adolf, Kaufmann. Inspecteur de la Cie. d'assurances\n  sur la Vie contre les Accidents „La Providence“ à Paris.\n  Geschirr- und Glaswaarenhandlung.\n  Müller-Hurni, Marie, Wittwe, Part.\n  Bürgi-Burkhard, Anna, Wittwe, Part., von Erlinsbach.\n936.† Derselbe. Glasurmühlen.\n937. Fischer, Margaretha, Messerschmieds Part.\n  Wildi, Adolf, Part., von Veltheim.\n  Wildi, Julie, Part, \" \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7219,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2058,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:31:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p069",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p069.jpeg",
+      "bytes": 252674,
+      "sha256": "11616aa2ede4cb41e14160a908a4c1c33a9e6005e07e980480a414664d3c7b4b",
+      "sha256_of": "original",
+      "working_copy": "1888_p069.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:31:08+00:00"
+  }
+}

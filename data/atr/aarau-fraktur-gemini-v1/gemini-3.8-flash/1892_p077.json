@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p077",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p077.jpeg",
+    "bytes": 196445,
+    "sha256": "aeb7c4c3d3dfde5df008b450b8d684e01b6574622fb51b1ce9ecf30888c2a1c1",
+    "sha256_of": "original",
+    "working_copy": "1892_p077.jpeg"
+  },
+  "text": "— 69 —\n\nHaus-\nNr.\nScheibenschachen.\n\n1004. † Riniker-Groß, Friedrich, Bierbrauer. Faßremise.\n\nBinsenhof.\n\n1005. Riniker-Läuchli, Jakob, Oekonom.\n1006. * Derselbe. Wohnhaus.\n  Rennhard-Stirnemann, Joseph, Knecht, von Böttstein.\n  Zimmermann-Hochstraßer, Samuel, Taglöhner, von Oberflachs.\n1007. † Derselbe. Scheune.\n1008. † Derselbe. Holzschopf.\n1009. † Derselbe. Werkstätte und Waschhaus.\n1010. Riniker-Temperli, Friedrich, Badwirth, von Schinznach. Bad-\n  wirthschaft.\n1011. † Derselbe. Holzhaus.\n1012. † Derselbe. Trinkhalle.\n\nBahnhofstraße.\n\n1013. Zurlinden-Richner, Rudolf, Fabrikant, von Zofingen.\n1014. † Derselbe. Wasch- und Holzhaus.\n1221  † Derselbe. Holzremise.\n1015. Evangelischer Verein. Kapelle.\n1343  Derselbe. Vereinshaus. Kinderschule.\n  Kull-Hartmann, Friedrich, Abwart, von Fluntern.\n1016. † Frey-Feer, Fabrikants Erbschaft. Fabrikgebäude.\n  (Firma: F. Frey-Feer & Cie. Seidenbandfabrikation.)\n1017. † Dieselbe. Maschinenhaus.\n1018. * Dieselbe. Wohnhaus mit Holzremise.\n  Eichenberger-Fischer Gottlieb, Schreiner, von Beinwyl.\n1173  Diakonissenstation Aarau.\n  Berchten, Susanna, Diakonissin, von St. Stephan (Bern).\n  Kunz, Nanette, Näherin, von Mönchaltorf (Zürich).\n  Kiener geb. Tschopp, Näherin, von Zezwyl.\n  Krenger, Anna, von Riggisberg.\n  Hirt, Louise, von Schmiedrued.\n1208  † Diakonissenstation Aarau. Waschhaus.\n1019. * Evangelischer Verein.\n  Schenkel-Meili, Bertha, Wittwe, von Außersihl (Zürich), Vorsteherin.\n  Boßard, Elise, von Altstätten (Zürich).\n  Hässig, Rosette.\n  Fisch, Karoline, Arzt’s.\n  Müller, Marie Anna, von Hirschthal.\n  Wirz, Elisabeth, von Schmiedrued.\n1020. Haßler-Hunziker, Karl, Kaufmann. Hemdenfabrikation. Weiß-\n  waaren- und Tapetenlager.\n  Siebenmann-Schmidt, Karl, Kaufmann.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6380,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1734,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:53:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p077",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p077.jpeg",
+      "bytes": 196445,
+      "sha256": "aeb7c4c3d3dfde5df008b450b8d684e01b6574622fb51b1ce9ecf30888c2a1c1",
+      "sha256_of": "original",
+      "working_copy": "1892_p077.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:53:54+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p078",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p078.jpeg",
+    "bytes": 230701,
+    "sha256": "8ff3f97fa4b743a57fb9e51ad57049dbb033f133bac94984e1b1bd541133cd8d",
+    "sha256_of": "original",
+    "working_copy": "1892_p078.jpeg"
+  },
+  "text": "— 70 —\n\n  Bär-Haßler, Louis, Sekretär.\n  Rychner-Hunziker, Elise, Malers Wittwe, Part.\n1021. † Derselbe. Hintergebäude.\n  Manger, Jakob, Part., von Bysi (Bern).\n1022. a. Jäger-Häßig, Johann, Maurer, von Außersihl (Zürich).\n  Hunziker-Schürch, Marie, Schriftsetzers Wittwe, Part.\n  Buhlrein, Friedrich, gewes. Spengler, Part.\n1022. b. Wildi-Leuthard, Verena, Wittwe, Part., von Veltheim.\n  Marfurt, Franz Xaver, Coiffeur, von Langnau (Luzern), Coiffeurgeschäft.\n  Wächter, Maria, Hebamme, von Mönthal.\n1023. Siebenmann-Seiler, Catharina, Wittwe, Part.\n  Hunziker-Siegrist, Rudolf, von Oberkulm. Kaffeewirthschaft.\n  Schenker-Müller, Johann, Knecht, von Rothacker.\n  Kaufmann-Müller, Rudolf, Taglöhner, von Gränichen.\n  Weber geb. Hunziker, Anna, von Egliswyl.\n  Wächter-Lindenmann, Heinrich, Knecht, von Mönthal.\n  Bertschi-Steiner, Gottlieb, Taglöhner, von Dürrenäsch.\n1024. Abgetragen, an dessen Platz\n1074 * Spengler-Lienhard, Louise, Wittwe, Part.\n  Siebenmann-Hürsch, Gottlieb, Architekt, Bauverwalter.\n  Dambach-Wildi, Jakob, Kreispostadjunkt, von Brugg.\n  Steffen, Albert, Korbmacher, von Kloten (Zürich). Korb-, Bürsten-\n    und Schirmhandlung.\n  Roth-Weber, Rudolf, von Erlinsbach (Aargau) Spezereihandlung.\n1025. Eggimann-Joß, Johann, von Sumiswald (Bern). Restauration.\n  Suter, Elisabeth, Taglöhnerin, von Gränichen.\n  Roth-Weber, Rudolf, Retoucheur, von Erlinsbach (Aargau).\n1026. * Gemeinde Aarau. Wohnhaus.\n  Nadler geb. Häuptli, Anna, Wittwe, von Biberstein, Spezereiwaaren-\n    handlung.\n  Ginsberg-Ammann, Elisabeth, Wittwe Part.\n\nBachstraße.\n1027. † Gemeinde Aarau. Mühlenscheune.\n1028. Schmidt-Siebenmann, Adolf, Sattlermeister.\n  Fehlmann-Buß, Johann, Gärtner, von Seon.\n  Egloff, Johann Ernst, Buchbinder, von Tägerweilen (Thurgau).\n  Wüthrich-Hecht, E. A., Kaufmann, von Trub (Bern).\n1029. †Derselbe. Firma: Artistisches Institut E. A. Wüthrich & Cie. Kunst-\n    verlag. Buchbinderei, Vergolderei, Druckerei, Xylographie,\n    Lithographie und Typographie.\n1207 Derselbe. Sattlerwerkstätte.\n1030. † Gemeinde Aarau. Schuppen.\n1031. Senn-Zubler, Adelheid, Küfers Wittwe, von Hottwyl.\n  Hirt-Gautschi, Johann, Portier (Löwen), von Birrhard.\n  Meyer, Nothburga, Posamenterin von Erlinsbach (Solothurn).\n  Suter-Meyer, Kaspar, Posamenter, von Gränichen.\n1032. Jörg-Hächler, Samuel, Schreiner, von Affoltern (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8533,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2330,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:54:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p078",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p078.jpeg",
+      "bytes": 230701,
+      "sha256": "8ff3f97fa4b743a57fb9e51ad57049dbb033f133bac94984e1b1bd541133cd8d",
+      "sha256_of": "original",
+      "working_copy": "1892_p078.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:54:03+00:00"
+  }
+}

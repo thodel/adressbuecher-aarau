@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p112",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p112.jpeg",
+    "bytes": 255796,
+    "sha256": "194b859400fedba2e70a6d7b527a22c8f6c8a08706cf50ad5b944084db613237",
+    "sha256_of": "original",
+    "working_copy": "1892_p112.jpeg"
+  },
+  "text": "96\nGautschi — Gloor.\nGautschi-Leuenberger, Rudolf, Defonom von Reinach, Tell 460.\nGautschi-Maculin, Rudolf, Wirt zum „Frohsinn“, von Reinach, hinter dem Bahnhof 1172.\nGautschi-Notb, Rudolf, Sohn, Defonom von Reinach, Tell 460.\nXGautschi-Siebenmann, Samuel, Kantons-Ingenieur, hintere Vorstadt 646.\nGeizmann, Xaver, Sekretär von Hägglingen, Pelzgasse 130.\nGeyer-Schleich, Josepfi, Schneider von Benfeld (Elfa), Rathausgasse 45.\nGerber-Haßler, Louise Elisabeth, Wittwe, Part., vordere Vorstadt 670.\nXGerber-Seiler, Gustav, March. Tailleur. Kleider- und Tuchhandlung, vordere Vorstadt 670.\nGerber, Robert, Commis, vordere Vorstadt 670.\nGerodetti-Habermacher, Virgilus, Hutmacher und Handlung von Marmorsteinen von Sagliano (Italien), hinter dem Bahnhof 1268.\nGertifer-Andrez, Maria, Wittwe, Part. von Wünchwylen, Rain 820.\nXGefner, August, Dr. Professor von Zürich, Bachstraße 1101.\nGiesch-Caviezcl, Adolf, Kaufmann von Chur, hintere Vorstadt 638.\nGiezentanner, Elisabeth, Part. von Kappel (St. Gallen), Golattenmattgasse 235.\nGiger-Märki, Jakob, Schreiner von Gontenschwy, Halden 286.\nGiger-Wildi, Rosina, Malers Wittwe, Part. von Kirchheim (Württemberg), obere Vorstadt 937:\nGing-Hug, August, Schmied, Stadthof 92 e, Werkstätte Casinofstraße 572.\nGing, Johann Jakob, Part., Casinofstraße 571.\nGing-Ryser, Wilhelm, Wagner, Wittgasse 77, Werkstätte Casinofstraße 572.\nGinsberg-Ammann, Elisabeth, Wittwe, Part., Bahnhofstraße 1026.\nXGifi- von Arz, Viktor, Kaufmann, Tuchhandlung von Niedergösgen (Solothurn), Holzmarkt 664.\nXGifi-Bächli, Adolf, Tapezierer von Buchs, Pelzgasse 126.\nGifi-Wernli, Samuel, Schreinermeister von Möriken, Stadthof 92 b.\nGifiger-Feer, Johann, Gärtner v. Rienberg (Solothurn), Casinoftr. 580.\nXGyfi-Ammann, Traugott, Lehrer, jenseits der Aare 1303 b.\nGyfi, Anna, Buchhalterin, vordere Vorstadt 895.\nGyfi-Anderegg, Emil, Maler, obere Vorstadt 942.\nXGyfi-Büchle, Emil, Part., Gartenstraße 978.\nGyfi-Fischer, Friedrich, Schlosser, hintere Vorstadt 645.\nGyfi, Hans, Sohn, Mechaniker, vordere Vorstadt 895.\nGyfi, Lisette, Modelltechers, Part., Kirchgasse 10.\nGyfi, Otto, Sohn, Photograph, vordere Vorstadt 895.\nGyfi, Otto Robert, Postcommis, obere Vorstadt 942.\nXGyfi-Siebenmann, Otto, Photograph, vordere Vorstadt 895.\nXGyfi-Studler, Arnold, Mechaniker, vordere Vorstadt 675.\nGladdach-Renold, Professor von Dppenheim (Hessen), Casinofstraße 576.\nGloor, Bertha, Damenschneiderin von Dürrenäsch, Adelbändli 171.\nGloor, Elise, Fabrikarbeiterin, von Seon, Halden 260.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5297,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2481,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 61.05,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:33:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1892_p112",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p112.jpeg",
+      "bytes": 255796,
+      "sha256": "194b859400fedba2e70a6d7b527a22c8f6c8a08706cf50ad5b944084db613237",
+      "sha256_of": "original",
+      "working_copy": "1892_p112.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:33:49+00:00"
+  }
+}

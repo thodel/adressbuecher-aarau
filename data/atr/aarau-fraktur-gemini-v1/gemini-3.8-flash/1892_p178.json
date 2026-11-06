@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p178",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p178.jpeg",
+    "bytes": 191137,
+    "sha256": "6c6a5342403c0b616e406e0d79010e226b4da055bb2f1446f4e5baed27c277ae",
+    "sha256_of": "original",
+    "working_copy": "1892_p178.jpeg"
+  },
+  "text": "162\n\nVerzeichniß der Telephon-Abonnenten des Netzes Aarau\nund Umgebung.\n\nCentral-Station. Metzgergasse 113.\nDirekt verbunden mit Basel, Langenthal, Lenzburg, Olten, Zofingen und Zürich.\n\nDienstzeit der Centralstation:\nApril—Oktober von 7 Uhr Morgens bis 9 Uhr Abends.\nNovember—März von 8 Uhr Morgens bis 9 Uhr Abends.\n\nTaxen für 3 Minuten lange interurbane Gespräche:\nAdlisweil 30 Cts.\nAffoltern 30 „\nBaden 30 „\nBasel 30 „\nBern 50 „\nBülach 30 „\nDelsberg 50 „\nGlarus 50 „\nHorgen 30 „\nLangenthal 30 „\nLenzburg 30 „\nLiestal 30 „\nLuzern 30 „\nMännedorf 50 „\n[spalte 2]\nOlten 30 Cts.\nRagaz 75 „\nRüti (Zürich) 50 „\nRheinfelden 30 „\nSt. Gallen 50 „\nSolothurn 30 „\nThalweil 30 „\nUster 50 „\nWinterthur 50 „\nZofingen 30 „\n(mit Aarburg, Murgenthal\nund Safenwyl)\nZürich 30 „\nZug 30 „\n\nAargauische Bank Bahnhofstraße 511.\nAargauische Creditanstalt Laurenzenthorgasse 351.\nAllgemeine aarg. Ersparnißkasse Graben 215.\n\nBally, C. F. Schuhfabrik Schöftland.\n  „ „ „ „ (Comptoir) Schönenwerd\n  „ „ „ Wohnung (Bally-Rychner) Schönenwerd.\nBally, Gebrüder, Bandfabrik Hammer 386.\n  „ Comptoir in Schönenwerd.\nBally E., Elastiquesfabrik Laurenzenvorstadt 405.\n  „ „ Wohnung Rohrerstraße 473.\nErne & Cie., Colonialwaaren Laurenzenvorstadt 609.\nBaumann, Gebr., Weinhandlung zum Freihof Laurenzenvorstadt 390.\nBaumann-Gysi, Oekonom obere Vorstadt 958.\nBerner, Dr., Zahnarzt Bankstraße 1098.\nBertschinger, zur Cantine Laurenzenvorstadt 590.\nBezirksgericht Rathhausgasse 176.\nBieber-Niggli, Seidenbandfabrik u. Nähmaschinen-\n  handlung. Hammer 386.\nBieber-Niggli, Wohnung Bibersteinerstraße.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5944,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1563,
+    "lines": 57,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 26.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:07:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p178",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p178.jpeg",
+      "bytes": 191137,
+      "sha256": "6c6a5342403c0b616e406e0d79010e226b4da055bb2f1446f4e5baed27c277ae",
+      "sha256_of": "original",
+      "working_copy": "1892_p178.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:41+00:00"
+  }
+}

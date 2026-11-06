@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p040.jpeg",
+    "bytes": 311475,
+    "sha256": "0429c1083e53188617285b276dfab4b83b3ca0cb820fb512accc822784c9e3a4",
+    "sha256_of": "original",
+    "working_copy": "1884_p040.jpeg"
+  },
+  "text": "36 Morgenthaler. — Müller.\nMorgenthaler, Maria, Damenschneiderin, von Strengelbach, Solattenmattgasse 237c.\n— Elise, Spetterin, von Madiswyl (Bern), im Hammer 184.\n— Mösch-Gäbler, Martin, Kanzleisekretär, von Frick, Bachstraße 1155.\n— Kanz, Franz, Kutscher, von Frick, Laurenzenvorstadt 552.\n*Mühlberg-Codognari, Fritz, Professör, Rainstraße 878.\n— Amsler,Theodor, Postkontrolleur, von Muri, neues Quartier 983.\n*Müller-Locher, Wilhelm, Kaufmann, Schloßplatz 195.\n* — Haberstich, Friedrich August, Kaufmann, Bahnhofstraße 656.\n* — Camper, Samuel, Spezereihändler, Holzmarkt 665.\n* — Woodtle, Jakob, Gemeindeweibel, Rathausgasse 176.\n* — Hürner, Eduard, Schirrmacher, Rathausgasse 30.\n* — Urech, Küfers Wittwe, Partik., Halben 286.\n* — Julius, Partik., Schachen 723.\n* — Theodor, Partik., Schachen 723.\n* — Cäsar, Regt., Schachen 723.\n* — Emma, Haushälterin, Schachen 723.\n* — von Däniken, Friedrich, Gepäckträger und Dekonom, Schachen 725.\n* — Rothplek, Arnold, Baumeister, Pelzgasse 124.\n— Suter, Jakob, Lithograph, von Lenzburg, vordere Vorstadt 894.\n— Kramer, Joß, Schneidemeister, von Büron (Luzern), Ziegelweid 636.\n— Bonäsch, Jakob, Buchbinder, von Unterfultm, hintere Vorstadt 642.\n— Eggenschwyler, Johann, Postcommis, von Muri, Rathausgasse 47.\n— Balmer, Alfred, Schriftseker, v. Weinfelden (Thurgau), Milchg. 79.\n— Samuel, Maschinenpuzer, von Unterfultm, im Weinberg 335.\n— Hofer, Johann, Auffeher von Hirschthal, Ziegelrain 707b.\n— Rauber, Jakob, Taglöhnner, von Bözberg, obere Vorstadt 964.\n— Berner, Anna Maria, Taglöhnnerin von Rulm, Kirchplatz 167a.\n— Bildi, Karoline, Wittwe, Partik., von Möttilingen (Württemberg), Halben 285.\n— Albertine, Damenschneiderin, von Möttilingen (Württemberg), Halben 285.\n— Otto, Commis, von Möttilingen (Württemberg), Halben 285.\n— Anna, Fabrikarbeiterin, von Unterfultm, Laurenzenvorstadt 376.\n— Hächler, Barbara, Wittwe, Partik., von Rulm, Teil 448.\n— Maria, Spetterin, von Bözberg, Ziegelrain 702.\n— Maria, Näherin, von Hirschthal, Rainstraße 875.\n— Rintker, Elise, Staatsweibels Wittwe, von Biberstein, vordere Vorstadt 905.\n— Elise, Glätterin, von Biberstein, vordere Vorstadt 905.\n— Johann, Ingenieur, von Linn, Pelzgasse 129.\n— Vogler, Heinrich, Buchbinder, von Unterfultm, im Weinberg 321.\n— Eichenberger, Johann, Schreinermeister, von Oberfultm, Halben 290.\n— Widmer, Gottlieb, Schuhmacher, von Unterfultm, Milchgasse 143.\n— Karl, Reiseprediger, von Binzen (Großh. Baden), h. d. Platz 214.\n— Schnider, Susanna, Haushälterin, von Bür, Milchgasse 146.\n— Hunn, Verena, Partik., von Unterfultm, Milchgasse 152.\n— Maria, Taglöhnnerin, von Unterfultm, vor dem Halbenthör 802.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5602,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2624,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:12:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p040.jpeg",
+      "bytes": 311475,
+      "sha256": "0429c1083e53188617285b276dfab4b83b3ca0cb820fb512accc822784c9e3a4",
+      "sha256_of": "original",
+      "working_copy": "1884_p040.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:12:50+00:00"
+  }
+}

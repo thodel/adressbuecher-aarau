@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p140",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p140.jpeg",
+    "bytes": 250675,
+    "sha256": "684dbe5a2658b590abebd19ef3f5523497ef1f3204f2ec00dcf06af0d448ec05",
+    "sha256_of": "original",
+    "working_copy": "1892_p140.jpeg"
+  },
+  "text": "124\nSchneider — Siebenmann.\nSchneider-Wernli, Jakob, Aufseher von Thalheim, Scheibenschachen 1284.\nSchnellmann-Widmer, Heinrich, Maurer von Rapperswyl (Zürich) Halden 254.\nSchumacher-Bachmann, Arnold, Bahnarbeiter von Wangen (Solothurn), Laurenzenvorstadt 376.\n*Schumann-Kingler, Albert, Professör von Gotha (Sachsen), Rain 875.\n*Schürch, Adolf, Fabrikant von Büren 3. Hof (Bern), Conradsstrasse 992.\nSchwammberger-Schmid, Jakob, Färber von Auenstein, Rain 820.\nSchweizer-Gubler, Nanette, Staatsarchivars Wittwe v. Dättwyl, Rain 862.\n*Schweizer-Siebenmann, Fried. Ferd., Schweiz. Banknoteninspektor von Dättwyl, Rain 860.\nSchweizer-Siebenmann, Sophie, Wittwe, Bettwaarengeschäft, von Basel, Schachen 741.\nSeidenberg-Konstantinovski, Simon, Part. v. Odeja (Rußland), Rain 843.\nSeiler-Hanhardt, Andreas, Bäcker, Kathhausgasse 48.\n*Seiler-Dtonnie, Albin, Gepäckträger von Mägenwyl, Rain 884.\nSemmler-Ganß, Margaretha, Schuhhändlerin von Pirmasens (Baiern), Bahnhofstrasse 541.\nSenn-Blattner, Karolina, Wittwe, Ausrüsterin von Densbüren, vordere Vorstadt 682.\n*Xenn-Gyfi, Hans, Zeughausverwalter von Zofingen, Bachstraße 1043.\n*Xenn, Zsidor, Lehrer von Ziggenthal, Laurenzenvorstadt 544.\nSenn, Zina, Glästerin von Uster (Zürich), Adelbändli 173.\nSenn-Zuber, Adelheid, Küfers Wittwe von Hottwyl, Bachstraße 1031.\nSennhauser, Elise, von Herrliberg (Zürich), Hammer 188.\nSennhauser-Goffewich, Anna, Modistin von Herrliberg (Zürich), Rain 885.\nSennhauser-Schnorf, Elise, Part. von Herrliberg (Zürich), Hammer 188.\n*Siernatinger-Gnö, Valerian, Hutmacher von Ludwigschafen (Baden), vordere Vorstadt 893.\n*Siebelist-Fahrländer, Anna, Part. von Berlin, Laurenzenvorstadt 371.\n*Siebenmann-Ackermann, Bernhard, Part., vordere Vorstadt 673.\nSiebenmann, Adolf, Sekretär, Schachen 1261.\nSiebenmann-Beck, Gottlieb, Färber, Halden 275.\nSiebenmann, Bertha, Part., Zieglerain 707.\nSiebenmann-Blum, Elise, Spetterin, vordere Vorstadt 902.\n*Siebenmann-Bräm, Otto, Kreiskommandant, Weinberg 1102.\nSiebenmann-Brunnhöfer, Otto, Schlosser, hintere Vorstadt 694.\nSiebenmann, Emmy, Klavierlehrerin, obere Vorstadt 923.\nSiebenmann, Fanny, Part., Schachen 1261.\nSiebenmann-Frei, Ludwig, Schuhmacher, Adelbändli 171.\n*Siebenmann, Gottlieb, Gerber, Rain 838.\nSiebenmann, Gottlieb, Part., Schachen 741.\n*Siebenmann-Hagnauer, Friedrich, Bierbrauer, Stadtrath, Wohnung jenseits der Nare 297 a; Bierbrauerei, Weinberg 324.\n*Siebenmann-Hemmeler, Gustav, March. Tailleur, Oberthor 226.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7004,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2446,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 61.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:45:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p140",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p140.jpeg",
+      "bytes": 250675,
+      "sha256": "684dbe5a2658b590abebd19ef3f5523497ef1f3204f2ec00dcf06af0d448ec05",
+      "sha256_of": "original",
+      "working_copy": "1892_p140.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:42+00:00"
+  }
+}

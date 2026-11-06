@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p140",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p140.jpeg",
+    "bytes": 250675,
+    "sha256": "684dbe5a2658b590abebd19ef3f5523497ef1f3204f2ec00dcf06af0d448ec05",
+    "sha256_of": "original",
+    "working_copy": "1892_p140.jpeg"
+  },
+  "text": "124                  Schneider — Siebenmann.\n\nSchneider-Wernli, Jakob, Aufseher von Thalheim, Scheibenschachen 1284.\nSchnellmann-Widmer, Heinrich, Maurer von Rapperswyl (Zürich) Hal-\n  den 254.\nSchumacher-Bachmann, Arnold, Bahnarbeiter von Wangen (Solothurn),\n  Laurenzenvorstadt 376.\nSchumann-Ringier, Albert, Professor von Gotha (Sachsen), Rain 875.\nSchürch, Adolf, Fabrikant von Büren z. Hof (Bern), Conradstraße 992.\nSchwammberger-Schmid, Jakob, Färber von Auenstein, Rain 820.\nSchweizer-Gubler, Nanette, Staatsarchivars Wittwe v. Dätwyl, Rain 862.\nSchweizer-Siebenmann, Fried. Ferd., Schweiz. Banknoteninspektor von\n  Dätwyl, Rain 860.\nSchweizer-Siebenmann, Sophie, Wittwe, Bettwaarengeschäft, von Basel,\n  Schachen 741.\nSeidenberg-Konstantinovski, Simon, Part. v. Odessa (Rußland), Rain 843.\nSeiler-Hanhardt, Andreas, Bäcker, Rathhausgasse 48.\nSeiler-Otonnie, Albin, Gepäckträger von Mägenwyl, Rain 884.\nSemmler-Gans, Margaretha, Schuhhändlerin von Pirmasens (Baiern),\n  Bahnhofstraße 541.\nSenn-Blattner, Karolina, Wittwe, Ausrüsterin von Densbüren, vordere\n  Vorstadt 682.\nSenn-Gysi, Hans, Zeughausverwalter von Zofingen, Bachstraße 1043.\nSenn, Isidor, Lehrer von Siggenthal, Laurenzenvorstadt 544.\nSenn, Lina, Glätterin von Uster (Zürich), Adelbändli 173.\nSenn-Zuber, Adelheid, Küfers Wittwe von Hottwyl, Bachstraße 1031.\nSennhauser, Elise, von Herrliberg (Zürich), Hammer 188.\nSennhauser-Gossewisch, Anna, Modistin von Herrliberg (Zürich), Rain 885.\nSennhauser-Schnorf, Elise, Part. von Herrliberg (Zürich), Hammer 188.\nSernatinger-Enz, Valerian, Hutmacher von Ludwigshafen (Baden), vordere\n  Vorstadt 893.\nSiebelist-Fahrländer, Anna, Part. von Berlin, Laurenzenvorstadt 371.\nSiebenmann-Ackermann, Bernhard, Part., vordere Vorstadt 673.\nSiebenmann, Adolf, Sekretär, Schachen 1261.\nSiebenmann-Beck, Gottlieb, Färber, Halden 275.\nSiebenmann, Bertha, Part., Ziegelrain 707.\nSiebenmann-Blum, Elise, Spetterin, vordere Vorstadt 902.\nSiebenmann-Bräm, Otto, Kreiskommandant, Weinberg 1102.\nSiebenmann-Brunnhofer, Otto, Schlosser, hintere Vorstadt 694.\nSiebenmann, Emmy, Klavierlehrerin, obere Vorstadt 923.\nSiebenmann, Fanny, Part., Schachen 1261.\nSiebenmann-Frei, Ludwig, Schuhmacher, Adelbändli 171.\nSiebenmann, Gottlieb, Gerber, Rain 838.\nSiebenmann, Gottlieb, Part., Schachen 741.\nSiebenmann-Hagnauer, Friedrich, Bierbrauer, Stadtrath, Wohnung\n  jenseits der Aare 297 a; Bierbrauerei, Weinberg 324.\nSiebenmann-Hemmeler, Gustav, March. Tailleur, Oberthor 226.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8120,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2464,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:01:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p140",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p140.jpeg",
+      "bytes": 250675,
+      "sha256": "684dbe5a2658b590abebd19ef3f5523497ef1f3204f2ec00dcf06af0d448ec05",
+      "sha256_of": "original",
+      "working_copy": "1892_p140.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:01:28+00:00"
+  }
+}

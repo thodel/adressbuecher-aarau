@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p033",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p033.jpeg",
+    "bytes": 208257,
+    "sha256": "6d5157fc589b6900d7940aa410b80dafd5634e545814cd09c2c23bf19bf3535c",
+    "sha256_of": "original",
+    "working_copy": "1892_p033.jpeg"
+  },
+  "text": "Haus\nNr.\nBeilharz, Lina, Weißnäherin, von Untermuschbach (Württemberg).\nRüttlist-Müller, Katharina, Taglöhnerin, von N.-Erlinsbach (Solothurn).\nSpirgi-Spirgi, Friedrich, Pofamenter, von Unter-Kulm.\n288.† Derfelbe. Waschhaus.\n289. * Derfelbe. Hinterhaus.\n290. Schaub, Wilhelm, Taglöhner, von Tennen (Wafeland).\nElfaßer-Ryburz, Gottlieb, Küfermeister, von Unterkulm.\nFischer-Widmer, Johann Heinrich, Postkondukteur.\nGraf-Häuptli, Jakob, Taglöhner, von Birmwyl.\nHäuptli-Suter, Verena, Dienstmanns, von Biberstein.\n291. † Derfelbe. Remise.\n\nZollrain.\n292. Keller-Läuchli, Paul, Zuckerbäcker und Kaffeewirthschaft.\nHelm-Schmid, Emil, Tapezierer von Derliton (Zürich).\nSchmidt, Jenny, Modistin.\n293. * Firma Baumann-Streuli, in Horgen (Zürich).\nSchäppi-Honegger, Bertha, Wittwe, von Horgen. Handlung in Seiden-\nwaaren.\nSchäppi, Anna, Arbeitslehrerin, von Horgen.\nSchäppi, Bertha, Bureauangestellte, „\nGamper-Zürcher, Hermann, Kaufmann.\nRumm-Weitmann, Heinrich, Lithograph, von New-York.\nRohr, Samuel, Gerichtssubstitut.\nSchmuziger-Lackenbauer, Arnold, Fabrikant.\n\nJenseits der Aare.\n294. Schmuziger-Kern, Jda, Baumeisters Wittwe, Part.\nSchmuziger, Johann, Sohn, Architekt.\nRingier-Schwarz, Karl Arnold, Reg.-Rath, von Zofingen.\nSiegfried-Leupold, Friedrich, Staatsbuchhalter, von Zofingen.\n295. * Dieselbe.\nBillo-Bohrer, Fedor, Kaufmann.\n296. † Dieselbe. Waschhaus.\n297. Siebenmann-Hagnauer, Friedrich, Bierbrauer, Stadtrath.\nRychner-Größinger, Johann Heinrich, Procurist (Gewerbfabrik Rychner).\n297. b. Derfelbe. Waß- und Holzhaus.\n298. a. An dessen Platz\n1303. a. Maurer-Peter, Emil, Gastwirth und Negotiant, zum Kreuz.\nSalzbütte und Spritverkauf.\n298. b. An dessen Platz\n1303. b. * Derfelbe. Magazin.\nGyfi-Ammann, Traugott, Lehrer.\nMeier-Jobrift, Jakob, Part., von Othmarfingen.\n298. c. An dessen Platz\n1303. c. † Derfelbe. Regelbahn.\n299. a. Andreas-Schmid, Jakob, Schreinermeister.\n1227. † Derfelbe. Holzschopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4102,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1910,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:36:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p033",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p033.jpeg",
+      "bytes": 208257,
+      "sha256": "6d5157fc589b6900d7940aa410b80dafd5634e545814cd09c2c23bf19bf3535c",
+      "sha256_of": "original",
+      "working_copy": "1892_p033.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:01+00:00"
+  }
+}

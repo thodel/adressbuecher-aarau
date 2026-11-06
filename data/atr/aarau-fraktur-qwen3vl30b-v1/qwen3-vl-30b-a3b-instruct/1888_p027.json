@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p027",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p027.jpeg",
+    "bytes": 267400,
+    "sha256": "6e505920fd6068ec57152d3abf776ea12cce020187872541de4424d04db1ab6e",
+    "sha256_of": "original",
+    "working_copy": "1888_p027.jpeg"
+  },
+  "text": "Haus-\nNr.\n178. Brunnhofer-Meder, August, Restaurateur und Liqueurfabrikant.\nBlattner-Hofer, Elisabeth, Wittwe, von Rüttigen.\nMärk-Hofer, Karl, Privat.\nMärk, Maria, Lehrerin.\n179. Fischer, Thomas, Bierbrauer.\nHeuberger-Fischer, Jakob, Rechnungsrevijor, von Bözberg.\nKeller-Franke, Joseph, Obergerichtsschreiber.\n180.† Derfelbe. Scheune.\n181.* Dubs-Schärli, Jakob, Müller, von Rüttigen.\nKeller-Leuenberger, Lisette, Bettmacherin, von Kallern, Ellenwaaren-\nhandlung.\nIm Hammer.\n182. Dubs-Schärli, Jakob, Müller, von Rüttigen. Untere Mühle.\n183.† Derfelbe. Fabrikgebäude.\n184. a. Länschli-Bircher, Friedrich, Schlosser, von Remigen.\n184. b. Hässig, Gottlieb, Feinschleifer. Werkstätte.\n185. a. Speirer-Heß, Sophie, Küfers Wittwe, von Rastatt. Stellenvermittlerin.\nLüscher-Schlatler, Johann, Steinhäuer, von Muhlen.\n185. b.* Fischer, Jakob, Telegraphist's Erbschaft.\nBolliger-Trösch, Johann, Küfer, von Uerzheim.\nBolliger-Häfeli, Gottfried, Cement-Arbeiter, von Uerzheim.\n185. c. Wernli-Hediger, Samuel, Holzer, von Thalheim.\n186.* Hazler-Häberlin, Adolf, Färber.\nFirma Buser, Hans, Schlosser und Mechaniker. Mechanische Werkstätte.\nSpezialität: Mühlenbau.\n187.† Derfelbe. Holzschopf.\n188. Hazler-Häberlin, Adolf, Färber.\nNutzbaum-Finkbohner, Trinette, Wittwe, von Densbüren.\nAebi-Spillmann, Joseph, Sattler und Tapezierer, von Sursee (Kuzern).\nWäscherei und Glätterei.\nFrymann-Lässer, Gottfried, Part.\nMaag-Wildi, Jakob, Hafner, von Neunkirch, Schaffhausen.\nFelber-Gruber, Georg, Gasfabrikarbeiter, von Oberbözberg.\nFelber, Marie, Damenschneiderin, von Oberbözberg.\nHegnauer-Fischer, Rudolf, Buchhalter, von Seengen.\nGeiger, Lorenz, von Weidlerstatt, Württemberg, Feilenhäuer und Schleiferei.\nMüller-Lüthy, Friedrich, Taglöhner, von Niederwyl.\nFischer-Haller, Jakob, Zimmermann, von Tennwyl.\nFirma Hommel-Esser, F., Reißzeugfabrikation, u. f. w.\nThoma-Oberli, Joseph, Theodor, Schreiner, von Augsburg (Baier).\n189.* Hazler-Häberlin, Adolf, Färber.\nBlume-Hirt, Philipp, Schreinermeister, von Sprendlingen, Hessen.\nBlume-Hirt, Maria, Feinwäscherin und Glätterei, von Sprendlingen (Hessen).\nBlume, Mina, Damenschneiderin, von Sprendlingen (Hessen).\n190.* Hazler-Häberlin, Adolf, Färber.\nZellweger, Oskar, Part., von Hauptweil (Thurgau).\nAdressbuch der Stadt Aarau 1888.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4659,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2262,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:20:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p027",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p027.jpeg",
+      "bytes": 267400,
+      "sha256": "6e505920fd6068ec57152d3abf776ea12cce020187872541de4424d04db1ab6e",
+      "sha256_of": "original",
+      "working_copy": "1888_p027.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:39+00:00"
+  }
+}

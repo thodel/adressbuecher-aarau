@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p062",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p062.jpeg",
+    "bytes": 254659,
+    "sha256": "d147a0b75c33821d6097aac19996f1d3733286b6642b69e9aa1a84dbd0df64d5",
+    "sha256_of": "original",
+    "working_copy": "1888_p062.jpeg"
+  },
+  "text": "Haus-\nNr.\n802. Wässmer-Dtt, Fidel, Schneider, von Jungholz (Baden).\nHäffig-Hischer, Albert, Werkstättrer.\nWernli-Rußbaum, Jakob, Taglöhner, von Thalheim.\nMüller, Maria, Taglöhnerin, von Unterfultm.\n803. Siegrist-Heuberger, Jakob, Schriftsetzer, von Eisingen.\n804. Amsler geb. Falger, Maria, Wittwe, Part., von Raiffen.\nAmsler, Otto, Stadtkassier und Sektionschef,\n\" \"\nAmsler, August, Postangestellter,\n\" \"\nAmsler, Jda, Damenschneiderin,\n\" \"\nWydler-Wehrli, Heinrich, Färber.\n1083 *Diefelbe.\nRüeggger-Holliger, Marie, Wittwe, Taglöhnerin, von Niederwyl.\n1109 Egloff-Spychiger, Joh. Georg Fried., Gärtner, von Tägerweilen\n(Thurgau).\nBogt-Ryburz, Anna Maria, Schneiders Wittwe, von Mandach.\n805.†Derfelbe. Gewächshaus.\n806. Abgetragen.\n1243 Liechti-Steinegger, Paul, Dr. phil., Professor, von Murten (Freiburg).\n1252 †Derfelbe. Bienenhaus.\n1242 †Dubé-Walther, Karl, Metzger. Scheune.\n1218 †Siegrist-Riniker, Heinrich, Metzger. Scheune.\n1219 †Kull, Philipp, Spengler. Gartenhaus und Magazin.\n808. Wernli-Schweri, Maria, Wittwe, Gärtner, von Thalheim.\n809. Wernli-Adel, Jakob, Gärtner.\nBertschi-Wächter, Maria, Wäscherin, von Dürrenäsch.\nMüri-Freh, Joh. Erch., Mechaniker, von Schinznach.\nFerrazzi-Lüscher, Joseph, Cementfabrikarbeiter, von Cardano (Italien).\n810. Frey-Rumpf, Friedrich, Kanzleisekretär, von Densbiren.\nFrey, Friedrich, Sohn, Sekretär,\n\" \"\nFrey, Albert, Sohn, Uhrenmacher,\n\" \"\nFrey, Roja, Feinwäscheri und Glätterei, \" \"\n811.†Derfelbe. Holzhaus.\n1201 †Derfelbe. Waschhaus.\n812. Abgetragen.\n813.†Staat Aargau. Laboratorium.\n814.†Derfelbe. Munitionsmagazin.\n815.†Derfelbe. Abritte.\n816.†Rychnner, Heinrich, Gewehrfabrikant. Schießstand.\n817.†Derfelbe. Scheibenstand.\n818.†Reformierte Kirchgemeinde Aarau. Gartenhaus.\nRain.\n819. Hagenbuch-Grosz, Karl, Coiffeur u. Chirurg. Spiegelglasversich.-Agentur.\nBolliger-Schenker, Samuel, Bedienter, von Schlokrued.\n820. Förg-Künzli, Peter, Schuhmachermeister, von Langenfelsbold (Breuzen),\nSchuhhandlung.\nSchwammberger-Schmid, Jakob, Färber, von Auenstein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4427,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2005,
+    "lines": 53,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0755,
+    "mean_line_chars": 36.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p062",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p062.jpeg",
+      "bytes": 254659,
+      "sha256": "d147a0b75c33821d6097aac19996f1d3733286b6642b69e9aa1a84dbd0df64d5",
+      "sha256_of": "original",
+      "working_copy": "1888_p062.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:09+00:00"
+  }
+}

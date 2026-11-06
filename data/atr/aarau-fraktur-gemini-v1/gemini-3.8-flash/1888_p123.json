@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p123",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p123.jpeg",
+    "bytes": 265719,
+    "sha256": "227af0acd28416dd78b4cd799542f78644814441a7cd6b090cf51eca09b2bc71",
+    "sha256_of": "original",
+    "working_copy": "1888_p123.jpeg"
+  },
+  "text": "Nüsperli — Pfenninger. 105\n\nNüsperli, Emma, Weißgerbers, Part., Pelzgasse 124.\nNüsperli, Johanna, Part., Halden 279.\nNüsperli, Maria Anna, Schneiders, Part., Pelzgasse 68.\nNüsperli-Nußbaum, Friedrich, Sattler, Zollrain 53.\nNüsperli, Karl, Postcommis, id. id.\nNüsperli, Jean, Commis, id. id.\nNüsperli-Richner, Julie, Part., Pelzgasse 124.\nNüsperli-Witz, Edmund, Fabrikinspektor, Schloßplatz 195.\n\nOboussier-Imhof, Friedrich, Fabrikant, Graben 613.\nObrist-Diener, Theodor, Postangestellter von Magden, Telli 448.\nObrist-Meuli, Emil, Comestibleshändler von Brugg, Metzgergasse 100.\nOehler-Frey, August, Fabrikant, Laurenzenvorstadt 415.\nOehler-Theiler, Oskar, Ingenieur, id. id.\nOelhafen-Bührer, Hermann, Bankangestellter, Laurenzenvorstadt 544.\nOelhafen-Hagnauer, Johanna, Part., Pelzgasse 134.\nOelhafen-Müller, Elisabeth Louise, Malers Wittwe, Rathhausgasse 24.\nOelhafen-Rufli, Rudolf, Metzger, hintere Vorstadt 698.\nOelhafen, Arnold, Sohn, Metzger, id. id. id.\nOeschger-von Felten, Remigius, Fabriknachtwächter v. Wyl, Weinberg 322.\nOeschger, Klara, Glätterin von Wyl, Milchgasse 152.\nOrt-Merz, Jakob Wilhelm, Glaser von Suhr, Ziegelrain 708.\nOtt, Anna, Zettlermeisterin von Ryken, Adelbändli 81.\nOtt, Kaspar, Rentier von Zürich, Graben 218.\nOtt-Keller, Verena, Part. von Aarburg, Gönhardfeldweg 1145.\nOtt-Schär, Marie, Kaminfegers Wittwe von Biberstein, Adelbändli 173.\n\nPassera-Gloor, Johann, Cementarbeiter von Segonzano (Südtyrol),\nTelli 460.\nPauli, Maria Susanna, Part. von Villnachern, Metzgergasse 105.\nPeduzzi, Franz, Südfrüchtenhandlung von Schignano (Italien), Bahnhof-\nstraße 1026.\nPeier-Voß, Wilhelmine, Glätterin von Lostorf (Solothurn), Kirchgasse 11.\nPeier-Fisch, Anna, Wittwe, Part. von Bergdietikon, Metzgergasse 58.\nPeier, Anna, Lehrerin von Bergdietikon, id. id.\nPerusset-Laurent, Alfred, Lehrer von Grandson (Waadt), Gartenstraße 1103.\nPeschl-Schacher, Joseph Martin von Passau (Bayern), Halden 280 a.\nPeter-Gut, Anna, Fourniturenhändlers Wittwe von Pfaffnau (Luzern),\nhintere Vorstadt 621.\nPfau-Bleuler, Joh. Jakob, Direktor der Aarg. Creditanstalt, von Schaff-\nhausen, Laurenzenthorgasse 351.\nPfenninger-Bayon, Katharina, Sesselflechterin von Stäfa (Zürich), Milch-\ngasse 154.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8563,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2198,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.29,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:37:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p123",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p123.jpeg",
+      "bytes": 265719,
+      "sha256": "227af0acd28416dd78b4cd799542f78644814441a7cd6b090cf51eca09b2bc71",
+      "sha256_of": "original",
+      "working_copy": "1888_p123.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:25+00:00"
+  }
+}

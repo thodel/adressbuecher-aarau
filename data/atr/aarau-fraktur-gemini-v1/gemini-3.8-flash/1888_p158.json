@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p158",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p158.jpeg",
+    "bytes": 277989,
+    "sha256": "efdd88f0ea191c6192054d2bbb1ca0edb6107307a056776a56e50980121122e4",
+    "sha256_of": "original",
+    "working_copy": "1888_p158.jpeg"
+  },
+  "text": "140\n\nSägenseiler.\nHäuptli, Emil, Drechsler, Halden 284.\nHunziker, Heinrich, Holzer, Halden 263.\nWernli, Samuel, Holzer, Hammer 185 c,\nund die Holzspalter Seite 132.\n\nSalzauswäger.\nGänslen, Adolf, Bäcker, ob. Vorstadt 913.\nMaurer, Emil, jenseits der Aare 298.\nRohr-Häfig, Emma, Laurenzenthorg. 119.\nRüetschi-Wenger, Gottfr., Adelbändli 81.\nWildi-Plüß, Maria, Wwe., hintere Vor=\n  stadt 699.\n\nSamenhandlungen.\nBrunner-Nußbaum, Elise, Igelweid 634.\nHenz, Jakob, vordere Vorstadt 679.\nHoch, Gustav, Metzgergasse 61.\nFirma Abraham Zimmermann, (Groß=\n  mann), Graben 205.\n\nSattler.\nBeck, Albrecht, Igelweid 633.\nBeck, Friedrich, Zeughaussattler, Entfelder=\n  straße 983.\nLüthi, Alexander, Casinostraße 660.\nLüthy, Eduard, Kirchgasse 15.\nNüßperli, Friedrich, Zollrain 53.\nSchmidt, Adolf, Bachstraße 1028.\n\nSchirmmacher.\nMüller, Eduard, Rathhausgasse 30.\nPfisterer, Emil, vordere Vorstadt 666.\nTheez-Amsler, Wittwe, Oberthor 754.\n\nSchirmhandlungen.\nCamisasca, Franz, Rain 826.\nHeß, Isaak, Rathhausgasse 4.\nMüller, Eduard, Rathhausgasse 30.\nPfisterer, Emil, vordere Vorstadt 666.\nTheez-Amsler, Wittwe, Oberthor 754.\n\nSchleifer.\nBrunner, Friedrich, Messerschmied, vordere\n  Vorstadt 898.\nGeiger, Lorenz, Hammer 188.\nHäffig, Julius, Feinschleifer, Hammer 184.\nSchäfer, Cäsar, Messerschmied 680.\n\n[spalte 2]\nSchlosser.\nAndres, Samuel, Milchgasse 147.\nBeck, Gottlieb, Halden 256.\nBruns, Hermann, Hammer 188.\nGysi, Friedrich, hintere Vorstadt 645.\nHäffig, Julius, Milchgasse 77.\nKuhn, Alfred, Ziegelrain 750.\nLäuchli, Friedrich, Hammer 184.\nLüscher, Daniel, Igelweid 1232.\nSchneider, Ulrich, Golattenmattgasse 234.\nSiebenmann, Otto, Bachstraße 1032.\n\nSchmiede.\nBaumann, Samuel, Igelweid 625.\nBuser, Heinrich, Graben 217.\nDecker, Julius, Casinostraße 577.\nGing, August, Casinostraße 571.\nRohr, Rudolf, Rainstraße 883.\n\nSchneider.\nBachmann, V., vor dem Haldenthor 779.\nBertschi, Emil, Rain 821.\nBertschi, Adolf, Metzgergasse 107.\nBuchmann, Jakob, Golattenmattg. 236.\nEhrsam, Daniel, Ziegelrain 707 b.\nEger, Theophil, Milchgasse 71.\nEngesser, Joseph, Milchgasse 70.\nFischer, Franz, Halden 285.\nFrei, Johann, Milchgasse 74.\nFritsch, Franz, Kirchhof 164.\nGamper, Emil, Marchand Tailleur,\n  Rathhausgasse 49.\nGennert, Eduard, Halden 269.\nGerber, Gustav, Marchand Tailleur,\n  vordere Vorstadt 670.\nGermann, Johann, Halden 251.\nGränicher, Jakob, Kirchplatz 162.\nHesti, Joh. Peter, Metzgergasse 100.\nHerzig, Friedrich, hintere Vorstadt 644.\nHerzog, Konrad, Halden 252.\nHuber, Jakob, Halden 251.\nHunziker, Gottlieb, Adelbändli 82.\nKrauer, Heinrich, Halden 246.\nKull, Johann, Milchgasse 152.\nLerf, Moritz, hintere Vorstadt 694.\nMatter, Jakob, Adelbändli 170.\nMeier-Müller, Paul, Ziegelrain 751.\nMüller, Jost, Igelweid 636.\nSchmuziger, Gottlieb, Ziegelrain 703.\nSiebenmann, Gustav & Otto, Marchand\n  Tailleur, Oberthor 226.\nStohler, Jakob, Rathhausgasse 25.\nStrub, Robert, Halden 252.\nWaßmer, Gallus, Pelzgasse 133.\nWaßmer, Fidel, vor dem Haldenthor 802.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9595,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2928,
+    "lines": 97,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0309,
+    "mean_line_chars": 28.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:42:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p158",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p158.jpeg",
+      "bytes": 277989,
+      "sha256": "efdd88f0ea191c6192054d2bbb1ca0edb6107307a056776a56e50980121122e4",
+      "sha256_of": "original",
+      "working_copy": "1888_p158.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:42:27+00:00"
+  }
+}

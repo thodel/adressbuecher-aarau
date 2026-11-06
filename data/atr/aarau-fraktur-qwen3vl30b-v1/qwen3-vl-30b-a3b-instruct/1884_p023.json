@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p023",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p023.jpeg",
+    "bytes": 312583,
+    "sha256": "a672d51c4c84382d71e0209d72a16ff9636360da14406e6021baa32e94c06749",
+    "sha256_of": "original",
+    "working_copy": "1884_p023.jpeg"
+  },
+  "text": "Erismann. — Schlmann.\n19\nErismann, Maria, Wärterin, von Muhlen, Kohrerstraße 478.\n— Rudolf, Handlanger, von Kirchrued, Milchgasse 143.\n— Elise, Spetterin, von Kirchrued, Milchgasse 143.\nErne, Eduard, Kaufmann, von Leuggern, Laurenzenvorstadt 602.\n*Erni-Fazler, Emil, Kaufmann, Mercerie- und Ellenwaaren-Handlung,\nKronengasse 33.\n* Ernst-Merian, August, Partif., Graben 203.\n* — =Käfer, Friedrich, Röhrenfabrikant, obere Vorstadt 923.\n* — =Schlmann, Anna, Hafners Wittwe, Partif., obere Vorstadt 923.\n* — =Döhncl, Robert, Briesträger, Bachstraße 1031.\n* — Dürf, Hermann, Schuhmacher, Halden 240.\n— Lehmann, Samuel, Bäcker, von Holziken, Milchgasse 76.\n* — =Steiner, Gustav, Sekretär, Zollrain 89.\n* — =Pfisterer, Lina, Bierbrauers Wittwe, vordere Vorstadt 672.\nEßig-Weibel, Jakob, Gießer, von Mettau, hinter dem Bahnhof 496.\nEtter-Hägi, Reinhard, Milchverkäufer, von Langriedenbach (Thurgau),\nLaurenzenvorstadt 361.\nFahrländer-Hunziker, Karl, Dr. Jur., Staatsanwalt, von Laufenburg,\nLaurenzenvorstadt 371.\n* — =Johann, Eugen, Ingenieur, Rainstraße 869.\n* — =Siebenmann, Wilhelmine, Med. Drs. Wittwe, Partif., Rainstr. 869.\n* — =Müller, Verena, Partif., Bachstraße 1038.\nFaller-Rohr, Georg, Schriftsetzer, v. Harthauen (Preußen), Rainstr. 885.\nFaller-Unwin, Fried., Kaufmann (Eisenwaarenhandlung), v. Bräunlingen\n(Großhzh. Baden), Rathausgasse 17.\n— =Fehrenbach, Katharina, Wittwe, Partif., von Bräunlingen (Großhzh.\nBaden), Rathausgasse 17.\n— =Faller, Elise Louise, Wittwe, von Meitenbuch (Baden), Firma Gebr.\nFaller, Eisen- u. Zwincailleriwaarenhandlung, Kronengasse 41.\nFazler, Maria, Haushälterin, von Densbüren, hinter dem Platz 214.\nFäs-Gall, Rudolf, Kaserier, von Schöfisland, Laurenzenvorstadt 361.\n— =Bircher, Sl., Schuhmachermeistr., v. Oberkulm, Schuhhandlung, Kthg. 3.\n— =Huber, Jakob, Posamenter, von Oberkulm, Halden 259.\n*Feer-Herzog, Karoline, Wittwe, Rentiere, Laurenzenvorstadt 553.\n* — Karl, Rentier, Laurenzenvorstadt 553.\n* — James, Rentier, Laurenzenvorstadt 553.\n* — Adele, Rentiere, Laurenzenvorstadt 602.\n*Fehlmann-Brack, Kaspar, Bäcker, Rathausgasse 45.\n— =Spreng, Rud., Dachdecker u. Kaminfeger, v. Menziken, Rainstr. 884.\n— =Sandmeier, Jb., Dachdecker u. Kaminfeger, v. Menziken, Halden 259.\n— =Müller, Johann Jakob, Pächter, von Mönthal, Pintenwirthschaft,\nRoggenhausen 851.\n— =Hinden, Marg., Küfers, Taglöhnerin, v. Remigen, Halden 273.\n— =Schöddler, Christoph, Taglöhner, von Seon, Rathausgasse 47.\n— =Blauer, Salomon, Bahnwärter, von Mönthal, Ziegelrain 710.\n— =Blattner, Rudolf, Aufseher, von Mönthal, Bahnhofstraße 1025.\n— =Blattner, Anna, von Mönthal, Mercerie- und Singerie-Geschäft,\nBahnhofstraße 1074.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5837,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2637,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:11:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p023",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p023.jpeg",
+      "bytes": 312583,
+      "sha256": "a672d51c4c84382d71e0209d72a16ff9636360da14406e6021baa32e94c06749",
+      "sha256_of": "original",
+      "working_copy": "1884_p023.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:07+00:00"
+  }
+}

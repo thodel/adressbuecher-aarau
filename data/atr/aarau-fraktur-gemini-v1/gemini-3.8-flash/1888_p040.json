@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p040.jpeg",
+    "bytes": 245355,
+    "sha256": "246df11df981ae0d94a2f83e1581e2ca78cef9413bb3707ffaf3336c44c87581",
+    "sha256_of": "original",
+    "working_copy": "1888_p040.jpeg"
+  },
+  "text": "— 30 —\n\nHaus=\nNr.\n  Suter, Adolf, Taglöhner, von Kölliken.\n  Müller-Amsler, Joh. Jakob, Schuster, von Unterkulm.\n  Kaufmann-Bäny, Albrecht, Posamenter, von Gränichen.\n  Heiz-Neeser, Cornelius, Zimmermann, von Menziken.\n  Frei-Hintermann, Arnold, Taglöhner, von Mellingen.\n377.† Hunziker=Springer, Hermann, Rentier. Fabrikgebäude.\n  Gasser & Hunziker, Seidenbandfabrikation.\n378.† Derselbe. Maschinenhaus und Werkstatt.\n379.† Hunziker=Züst, Guido, Rentier. Scheune und Remise.\n380.† Derselbe.\n381.† Derselbe.\n382.† Hunziker=Springer, Hermann. Holzschopf.\n383.† Hunziker=Züst, Guido. Waschhaus.\n384.† Hunziker=Fleiner, Hermann. Treibhaus.\n385.† Hunziker=Züst, Guido, Geflügelhaus.\n1114 *Wernli=Adel, Jakob, Gärtner, von Thalheim.\n  Fasler-Wehrli, Johann, Gemüsehändler, von Densbüren.\n  Rütschi-Schilling, Anna, Fabrikarbeiterin, von Schlieren (Zürich).\n\nIm Hammer.\n\n386.† Feer=Zuber's Erbschaft. Fabrikationsgebäude.\n  Gebrüder Bally, Bandfabrikation.\n  Hegnauer, Rudolf (Büreau).\n387.† Dieselbe. Kesselhaus.\n388.† Dieselbe. Holzhaus.\n389.† Haßler=Häberlin, Adolf. Remise.\n\nLaurenzenvorstadt.\n\n390. Baumann, Karl und * Eugen. Firma: H. Baumann, Weinhandlung.\n  Baumann-Hemmann, Karl, Kaufmann.\n  Baumann-Baumann, Heinrich, Wirth zum Freihof, von Stilli.\n  Frey-Kiefer, Joseph, Notar, Civilstandsbeamter und Stellvertreter des\n    Gemeindeschreibers.\n391.† Dieselben. Weinkeller und Brennerei.\n392. a.† Dieselben. Trinkhalle.\n392. b.* Dieselben. Coiffeurgeschäft: Burkhardt, Ferdinand, Sohn, Coiffeur.\n393.† Dieselben. Gartenhaus.\n1257 † Dieselben. Faßremise.\n1258 † Dieselben. Holzhaus.\n394. Sauerländer=Benz, Elise, Wittwe.\n  Wanger-Wanger, Gustav, Kassier der Aarg. Ersparnißkasse.\n  Wietlisbach-Frey, Sophie, Wittwe, Part., von Bremgarten.\n395.† Dieselbe. Hintergebäude.\n396.† Dieselbe. Wasch- und Holzhaus.\n397. Zürcher=Wirz, Alfred, Arzt.\n398.† Derselbe. Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6642,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1868,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:27:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p040.jpeg",
+      "bytes": 245355,
+      "sha256": "246df11df981ae0d94a2f83e1581e2ca78cef9413bb3707ffaf3336c44c87581",
+      "sha256_of": "original",
+      "working_copy": "1888_p040.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:26+00:00"
+  }
+}

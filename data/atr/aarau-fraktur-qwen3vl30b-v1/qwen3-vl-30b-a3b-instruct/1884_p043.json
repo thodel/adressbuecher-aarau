@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p043",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p043.jpeg",
+    "bytes": 332767,
+    "sha256": "503dfd2ea10e6ca055a217cb32dafcea6d86c602cb3b413f5deec02c2b128755",
+    "sha256_of": "original",
+    "working_copy": "1884_p043.jpeg"
+  },
+  "text": "Reimann, Friedrich, Postcommis, von Wölflinswyl, Weinberg 321.\n— =Aberegg, Josef, Zimmermann, von Oberhof, Laurenzenvorstadt 376.\nReiner-Scheuermann, Elise, Fabrikants Wittwe, Bachstraße 1054.\n*Renold-Wildi, Johann, Wirth, Graben 222.\n* — =Hinden, Daniel, Briesträger und Wirth, Schachen 733.\n* — =Geizmann, Emil, Maurer, im Hammer 188.\nReffelli-Frei, David, Steinbauer, von Befano (Italien), Halben 248.\n*Rey-Ringger, Jakob, Rektor der Bezirksschule, vor dem Halbenthor 777.\n*Richard-Schmid, Jakob, Mezger und Wirth, Ziegelrain 700.\n*Richner-Renold, Heinrich, Gewehrfabrikant, Schloßplatz 196.\n* — Eugen, Sohn, Büchsenmacher, Schloßplatz 196.\n* — =Grözinger, Joh. Hrsh., Buchhalter, Jenfeits der Aare 295.\n* — =Thomann, Friedrich, Spenglermeister, Kirchgasse 10.\n* — =Heß, Konrad, Seiler, Pelzgasse 123.\n* — =Siebenmann, Adolf, Fabrikant, Laurenzenvorstadt 412.\n* — Karl Christian, Fabrikant, Bahnhofstraße 561.\n* — Otto, Sohn, Fabrikant, Rainstraße 828.\n* — =Siebenmann, Elise, Bandfabrikants Wittwe, Partik., Rainstr. 828.\n* — Samuel, Bäcker und Wirth, Rainstraße 832.\n* — =Braft, Jda, Partik., Holzmarkt 661.\n* — =Hunziker, Elise, Malers Wittwe, Partik., Pelzgasse 124.\n* — =Renzi, Rosa, Partik., obere Vorstadt 1117.\n* — =Schleuniger, Maria, Hafners Wittwe, Sgelweid 637.\n* — =Henz, Henriette, Partik., neues Quartier 981.\n* — =Peter, Johann, Wirth, von Rohr, Bahnhofstraße 541.\n*Ries-Buhlrein, Emanuel, Farbwaarenhändler, Ziegelrain 702.\nRifer-Specht, Willi., Werkführer, v. Deschelbronn (Wrtmbg.), Pelzg. 128.\nKilliet, Eduard, Bautechniker, von Genf, Graben 222.\nRiner-Hächler, Johann, Kondukteur, von Herzach, obere Vorstadt 916.\n— =Leingruber, Johann, Polizeidienier, v. Herzach, obere Vorstadt 916.\nRingier-Eschudi, Adolf, Kaufmann, von Zofingen, Laurenzenvorstadt 408.\n*Riniker-Groß, Friedrich, Bierbrauer, Mezgergasse 102.\n* — =Beck, Nanette, Wittwe, Partik., Mezgergasse 103.\n* — Adolf, Commis, Mezgergasse 103.\n— =Schilplin, Hans, Oberförster, von Habsburg, Bachstraße 1043.\n— =Wernli, Herm., Milchverkäufer, v. Habsburg, neues Quartier 1195.\n— Friedrich, Badwirth, von Schinznach, Binsenhof 1010.\n— Sophie, Partik., von Schinznach, Binsenhof 1010.\n* — Rienier, Abraham, Dekonom, Binsenhof 1005.\n* — Läuchli, Jakob, Sohn, Dekonom, Binsenhof 1005.\n— Jakob, Dekonom, von Habsburg, Binsenhof 1005.\n*Ritter-Stahl, Jda, Wittwe, Quincailleriewaarenhandlung, Rathhausg. 21.\nRochholz-Schröder, Ernst Ludwig, Prof., v. Ansbach (Bayern), Ziegelr. 722.\n— Mina, Musikklehrerin, von Ansbach (Bayern), Ziegelrain 722.\nRödel-Sandmeier, Maria Anna, Fabrikarbeiterin, von Staufen, Tell 440.\n*Rohner-Ehrsam, Elise, Arzts Wittwe, Partik., Zollrain 51.\n* — Emil, Bäcker und Wirth, Zollrain 51.\nRohr-Baumann, Hans, Oberrichter, v. Hunzenschwyl, Laurenzenvorft. 353.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6161,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2758,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 56.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:13:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p043",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p043.jpeg",
+      "bytes": 332767,
+      "sha256": "503dfd2ea10e6ca055a217cb32dafcea6d86c602cb3b413f5deec02c2b128755",
+      "sha256_of": "original",
+      "working_copy": "1884_p043.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:13:08+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p101",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p101.jpeg",
+    "bytes": 300989,
+    "sha256": "bccdb94c8b1319e89c7922d61b1cc8f13bd131686095ffbfbb4b5dec1ec9b60a",
+    "sha256_of": "original",
+    "working_copy": "1888_p101.jpeg"
+  },
+  "text": "Eichenberger – Faller.\n83\nEichenberger-Fischer, Gottlieb, Schreiner von Reinwyl, Rain 880.\nEichenberger-Flad, Rudolf, Zimmermann von Reinach, Milchgasse 154.\nEichenberger-Joho, Rudolf, Schuhmacher von Reinach, Jgelweid 636.\nElsässer-Aiburz, Gottlieb, Rüfermeister von Unterfultm, Halden 290.\nEng-Guldinann, Heinrich, Schuhmacher (Schuhfabrik) von Stützlingen\n(Solothurn), Casinostraße 580.\nEngesser-Brunner, Joseph, Schneider von Durchhausen (Württemberg),\nMilchgasse 70.\nErbin, Albin, Kaufmann, Geschäftsführer von Ganfingen, Rathausg. 12.\nErbin-Zumsteg, Siegfried, Taglöhner von Ganfingen, Halden 264.\nErisman-Hüffi, Samuel, Holzspalter von Schloßrued, Kirchgasse 10 a.\nErisman, Marie, Weißnäherin von Muhlen, hintere Vorstadt 621.\nErisman, Marie, Fabrikarbeiterin von Gontenschwyl, Adelbändli 81.\nErisman, Rudolf, Taglöhner von Kirchrued, Kirchgasse 10.\nErisman-Sager, Samuel, Güterexpedient von Gontenschwyl, Gais 485.\nErisman, Samuel, Friedensrichter und Armenpfleger, Bachstraße 1033.\nErisman-Indermauer, Abraham, Defonom, id. id.\nErne-Leblanc, Eduard, Kaufmann, von Leuggern, Laurenzenthorngasse 349.\nErni-Maunderli, Lorenz, Taglöhner von Stützlingen, Jgelweid 637.\nErny-Fäzler, Emil, Kaufmann, Mercerie- und Ellenwaaren-Handlung,\nKronengasse 33.\nErnst-Döhnal, Robert, Brieftträger, Adelbändli 173.\nErnst-Dür, Hermann, Schuhmacher, Halden 240.\nErnst-Räser, Friedrich, Köhrenfabrikant, obere Vorstadt 923.\nErnst-Lehmann, Samuel, Gasarbeiter von Holziken, Milchgasse 76.\nErnst-Pfisterer, Lina, Bierbrauers Wittwe, vordere Vorstadt 672.\nErnst-Steiner, Gustav, Sekretär, Laurenzenvorstadt 412.\nErnst-Setter, Jakob, Portier der kantonalen Krankenanstalt 1186.\nEtter-Hägi, Reinhard, Milchverkäufer von Langriedenbach (Thurgau),\nLaurenvorstadt 361.\nFäs-Bircher, Samuel, Schuhmachermeister von Oberfultm, Schuhhand-\nlung, Rathausgasse 3.\nFäs-Gall, Rudolf, Raufnieri von Schöftland, Pelzgasse 67.\nFäs, Marie, Modistin, Modewarenhandlung v. Schöftland, Pelzgasse 67.\nFäs-Huber, Jakob, Pofamenter von Oberfultm, Solattenmattgasse 237 a.\nFahrländer-Hunziker, Karl, Dr. jur., Regierungsrath von Laufenburg,\nLaurenzenvorstadt 371.\nFahrländer-Johannes, Eugen, Ingenieur, Rainstraße 869.\nFahrländer-Siebenmann, Wilhelmine, Med. Drs. Wittwe, Part., Rain 869.\nFahrländer-Müller, Verena, Part., Bachstraße 1061.\nFailer-Rohr, Georg, Schriftfekker von Harthausen (Breuken), Rain 885.\nFaller-Unwin, Friedrich, Kaufmann, Eisenhandlung von Bräunlingen\n(Großh. Baden), Rathausgasse 17.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5676,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2467,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:25:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p101",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p101.jpeg",
+      "bytes": 300989,
+      "sha256": "bccdb94c8b1319e89c7922d61b1cc8f13bd131686095ffbfbb4b5dec1ec9b60a",
+      "sha256_of": "original",
+      "working_copy": "1888_p101.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:32+00:00"
+  }
+}

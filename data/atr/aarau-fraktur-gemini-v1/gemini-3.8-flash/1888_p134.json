@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p134",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p134.jpeg",
+    "bytes": 290449,
+    "sha256": "b6e1d3324591d75a2cc14e3f3b4eb79435189d8b09b05c4dd7f5c151d78436b9",
+    "sha256_of": "original",
+    "working_copy": "1888_p134.jpeg"
+  },
+  "text": "116  Stierli — Suter.\n\nStierli, Marie, Ladentochter von Aristau, Oberthor 228 a.\nStierli, Elise, Part.  id.  id.  id.\nStigeler-Glätti, Joh. Jak., Zimmermann von Eglisau (Zürich), Rath-\n  hausgasse 45.\nStigeler-Schaub, Joseph, Zeughausdirektor v. Reningen, Zschokkestr. 977.\nStirnemann-Huber, Johann, Taglöhner von Gränichen, Halden 290.\nStirnemann, Jakob, Notar von Gränichen, Notariats- u. Inkassogeschäft,\n  Metzgergasse 56.\nStirnemann, Louise, Lehrerin von Gränichen, Pelzgasse 124.\nStirnemann-Müller, Louise von Gränichen, Ellenwaarenhandlung, Pelz-\n  gasse 124.\nStöckli, Stephan, römisch-kath. Pfarrer von Muri, Igelweid 1179.\nStöckli, Elisabeth, Haushälterin von Muri,  id.  id.\nStoffel, Lisa, Ladentochter von Lindau (Baiern), Bachstraße 1038.\nStohler-Zobrist, Jakob, Schneider von Arboldswyl (Baselland), Rath-\n  hausgasse 25.\nStrebel-Brunner, Marie, Part. von Büblikon, Pelzgasse 63.\nStrebel, Eduard, Schreiner von Büblikon, Rain 857.\nStrebel-Rüetschi, Eduard, Schreiner von Büblikon, Rain 857.\nStrebel, Martina, Spetterin von Mägenwyl, Zollrain 88.\nStrebel, Waldburga, Näherin von Mägenwyl,  id.  id.\nStrebel, Verena, Spetterin von Mägenwyl  id.  id.\nStrebel-Siebenmann, Karl, Sekretär, Halden 267.\nStrich-Brack, Julius Wilhelm, Halbleinfabrikant von Aachen (Preußen),\n  Ziegelrain 751.\nStrub-Mühlestein, Robert, Schneider v. Kienberg (Soloth.), Halden 252.\nStrub-Uttinger, Emanuel, Tapezierer von Läufelfingen (Baselland), hint.\n  Vorstadt 696.\nStrub-Wildi, Leonhard, Möbelhändler von Läufelfingen (Baselland),\n  Milchgasse 71.\nStrübin-Frey, August, Wirth von Basel, Restauration, Casinostraße 570.\nStudler-Sandmeier, Anna, Schneiders Wittwe, vordere Vorstadt 675.\nSuter, Adolf, Taglöhner von Kölliken, Laurenzenvorstadt 376.\nSuter, Anna Elisabeth, Spetterin von Suhr, Milchgasse 145.\nSuter-Arber, Rudolf, Posamenter von Gränichen, Laurenzenvorstadt 376.\nSuter-Dürr, Rudolf, Spengler von Hallwyl, Ziegelrain 704.\nSuter, Johann, Commissionär, von Kölliken, vordere Vorstadt 666.\nSuter, Rosa, Damenschneiderin,  id.  id.  id.  id.\nSuter, Ida, Modistin,  id.  id.  id.  id.\nSuter-Kleinert, Johann, Buchhalter von Seon, Bachstraße 1038.\nSuter-Kohler, Jakob, Schreiner von Kölliken, Adelbändli 85 b.\nSuter-Lüscher, Gabriel, Bandweber von Gränichen, Halden 259.\nSuter-Lüscher, Rudolf, Uhrenmacher von Kölliken, Igelweid 1232.\nSuter-Müller, Elise, Wittwe, Taglöhnerin von Kölliken, Golattenmatt-\n  gasse 231.\nSuter-Rauber, Susette, Wittwe, Part., vordere Vorstadt 894.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7304,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2472,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.26,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:38:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p134",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p134.jpeg",
+      "bytes": 290449,
+      "sha256": "b6e1d3324591d75a2cc14e3f3b4eb79435189d8b09b05c4dd7f5c151d78436b9",
+      "sha256_of": "original",
+      "working_copy": "1888_p134.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:53+00:00"
+  }
+}

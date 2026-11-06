@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p164",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p164.jpeg",
+    "bytes": 227388,
+    "sha256": "7666ebcc56a4c61633cb74882a1a0a461069e903e166bf5901b7be2c28b5edfd",
+    "sha256_of": "original",
+    "working_copy": "1892_p164.jpeg"
+  },
+  "text": "148\n\nDr. Prof. Liechti, für Naturkunde.\nMaier, Prof., für Französisch.\nRödelberger für Musik.\nStacher, Gustav, für Naturgeschichte,\n  Mathematik-, Physik, Chemie und\n  Schreibunterricht.\nSuter, J. J., Rektor, für Deutsch,\n  Pädagogik und Religion.\nWolfinger, Max, für den Zeichnungs=\n  unterricht.\n\nC. Bezirksschulen.\n1. Knabenbezirksschule.\nDr. Bigler, Bezirkslehrer.\nDöbeli, Samuel,   „\nDr. A. Hirzel,   „\nPerusset, A.,   „\nRey, J.,   „\nWüest, E.,   „   (Rektor).\nDr. Zschokke, Ernst, Bezirkslehrer.\n\n2. Mädchenschule.\nDr. Odinga, Rektor.\nWydler, H., Bezirkslehrer.\nHagnauer, Hedwig, Bezirkslehrerin.\nHuber, Corinna,   „\n\nHilfslehrer.\nBurgmeier, J., Gesanglehrer.\nRennhart, Prof., Lehrer für Italienisch.\nStörchlin, H., Zeichnungslehrer.\nWäffler, H., Turnlehrer.\n\nD. Gemeindeschulen.\n1. Knabengemeindeschule.\nGysi, Traugott,   Lehrer.\nHauenstein, Friedrich,   „\nHengherr, August,   „\nHerzog, Heinrich,   „\nHunziker, Rudolf,   „\nMeyer, Jakob,   „\nSenn, Isidor,   „\nZimmermann, Johann,   „\n\n2. Mädchengemeindeschule.\nBelart, Julie,   Lehrerin.\nBlattner, Anna,   „\nHaberstich, Lina,   „\nLenzi, Sophie,   „\nMüller-Hürner, Frau,   „\nPlüß, Louise,   „\nRohner-Märk, Marie,   „\nStirnemann, Emma, Lehrerin.\nBär, Marie,   Arbeitslehrerin.\nMarti-Siebenmann, Ida,   „\n\n[spalte 2]\nMeyer-Lüthy, Frau, Arbeitslehrerin.\nSchäppi, Anna,   „\nHaßler, Pedell.\nWüest, Hausrektor.\n\nE. Kleinkinderschulen.\nFisch, Mina, Rain 875.\nNußbaum, Hanna, Bahnhofstraße 1343.\nSchaub, Marie, v. d. Haldenthor 769.\n\nF. Privatlehrer.\nBurgmeier, J., Musiklehrer, Graben 209.\nDößekel, Mina, Klavierlehrerin, Bahn=\n  hofstraße 1160.\nFrey-Kumpf, Fr., Musiklehrer, Schachen 810.\nHemmeler, Ida, Klavierlehrerin, Golatten=\n  mattgasse 229.\nHolzinger, Mina, Klavierlehrerin, obere\n  Vorstadt 948.\nKutschera, Eugen, Musiklehrer, Bach=\n  straße 1043.\nRödelberger, Franz, Musiklehrer, Bahn=\n  hofstraße 658:\nRychner, Friz, Pianist, obere Vorst. 1117.\nRochholz, Marie, Klavierlehrerin, Metzger=\n  gasse 100.\nSchneider, Theo., Musiklehrer, Casino=\n  straße 570.\nSiebenmann, Emmy, Klavierlehrerin,\n  obere Vorstadt 923.\nThom, Franz, Musiklehrer, hinter dem\n  Bahnhof 1352.\nWittmer, J., Musiklehrer, Casinostr. 573.\nWittmer, Emma, Klavierlehrerin, Casino=\n  straße 573.\nBonwiller, Emilie, Klavierlehrerin, Rain\n  888.\n\nLeichenbegleiter.\nFehlmann, Johann, Bachstraße 1028.\nMerz, Jakob, Halden 268.\nSchäfer, Wilhelm, Oberthor 224.\nSiegrist, Adolf, Laurenzenvorstadt 376.\n\nLingeriewaaren.\nBolliger-Manger, Gustav, hintere Vor=\n  stadt 646.\nDolder, J., Graben 219.\nErdin, Albin, Nachfolger von Wwe. Jean\n  Kiefer, Rathhausgasse 22.\nErismann & Blattner, hintere Vor=\n  stadt 621.\nErny-Faßler, Kronengasse 33.\nFehlmann-Blattner, Anna, Bahnhof=\n  straße 648.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 47159,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2700,
+    "lines": 103,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 24.75,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:05:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p164",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p164.jpeg",
+      "bytes": 227388,
+      "sha256": "7666ebcc56a4c61633cb74882a1a0a461069e903e166bf5901b7be2c28b5edfd",
+      "sha256_of": "original",
+      "working_copy": "1892_p164.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:05:35+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p063",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p063.jpeg",
+    "bytes": 203349,
+    "sha256": "626bd2ab6b0cb87d898fe4df6cabebff2fc6500c3699da614a3d22fe4d92ff5f",
+    "sha256_of": "original",
+    "working_copy": "1892_p063.jpeg"
+  },
+  "text": "— 55 —\n\nHaus-\nNr.\nPfister-Sandmeier, Emil, Taglöhner, von Erlinsbach (Solothurn).\nPfister-Sandmeier, Emma, Schneiderin, \" \" \"\nPfister-Pfister, Maria, Part., \" \" \"\n782. † Diezelfe. Scheune und Holzhaus.\n1108 † \" Gewächshaus.\n1143 † \" \"\n1144 † \" \"\n783. † Frei-Rohner, Robert, Bäcker. Holzschopf.\n784. Trinkler-Meier, Karolina, Instruktor's Wittwe, von Büzen.\nPrantl-Wildi, Alois, Maurer, von Strengen (Tirol).\n785. † Diezelfe. Waschhaus.\n1182 † Seiler-Hanhart, Andreas, Bäcker. Holzhaus.\n1092 * Wägeler-Bogel, Karl, Dachdecker, von Waldshut (Baden).\nSchneider-Hoch, Joseph, Goldschmied, von Rapperswyl (Zürich).\nHuber, Anna, Privatin, von Nyfon-Allnau (Zürich).\n1093 * Schärli-Hilfiker, Johann, Flözer, von Biberstein.\nWernli-Bogt, Jakob, Taglöhner, von Thalheim.\n1306 Wägeler-Bogel, Karl, Dachdecker und Kaminfeger, von Waldshut (Baden).\n1273 † Derzelfe. Waschhaus.\n786. * Gasbeleuchtungsgesellschaft. Wohnhaus.\nBechstein von Zettmar, Wilhelm, von Meiningen (Sachsen), Direktor der Gasfabrik.\n787. † Diezelfe. Gasfabrik.\n788. † \" Reinigungshaus.\n789. † \" Steinfohlenschopf.\n790. † \" Schopf.\n791. † \" Waschhaus.\n1089 † \" Schopf.\n1090 † \" \"\n1312 792. † Häfli ger-Hilfiker, Otto, Metzger. Scheune.\nHilfiker-Wilhelm, Jakob, Part., von Muhlen.\n793. † Derzelfe. Gartenhaus.\n794. † Kern, Adolf, Mechaniker. Remise.\n795. † Derzelfe. Scheune.\n1220 † \" Bienenhaus.\n796. Berchtold-Lüscher, Nanette, Fuhrmanns Frau, von Schmiedrued,\nBerchtold-Lüscher, Samuel, Fuhrmann, \" \"\nLenzi, Xaver, Bahnangestellter, von Oberhof.\n797. † Diezelfe. Remise.\n798. † \" Gewächshaus.\n1094 † \" Scheune.\n799. Wernli-Häfli ger, Jakob, Gärtner, von Thalheim.\nMaurer-Nußberger, Samuel, Taglöhner, von Schmiedrued.\n1342 † Derzelfe. Treibhaus.\n1332 Schmidt, Johann Albert, und Schmidt Samuel.\nSchmidt-Häusler, Verena, Gärtners Wittwe.\nSchmidt, Anna und Jenny. Wäscherei und Glätterei.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4224,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1846,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p063",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p063.jpeg",
+      "bytes": 203349,
+      "sha256": "626bd2ab6b0cb87d898fe4df6cabebff2fc6500c3699da614a3d22fe4d92ff5f",
+      "sha256_of": "original",
+      "working_copy": "1892_p063.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:45+00:00"
+  }
+}

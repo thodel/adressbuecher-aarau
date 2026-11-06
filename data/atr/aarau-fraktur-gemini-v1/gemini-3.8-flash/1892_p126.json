@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p126",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p126.jpeg",
+    "bytes": 245976,
+    "sha256": "eeb39d24f57c50e0ab6cd844876f3e633abce30e47c7461e6ba218c4944ba75a",
+    "sha256_of": "original",
+    "working_copy": "1892_p126.jpeg"
+  },
+  "text": "110  Lindegger — Mayer.\n\n  Lindegger-Kyburz, Gottfried, Güterexpedient von Oberentfelden, Rain 880.\n[handschriftlich: ✕]Lindt-Elias, Karol., Pfarrers Wittwe von Bern, Laurenzenvorstadt 410.\n[handschriftlich: ✕]Lindt, Otto, Dr. phil., Apotheker von Bern, Rathhausgasse 16.\n  Lips-Sager, Kaspar, Postkondukteur, v. Urdorf (Zürich), Entfelderstr. 967.\n  Lochbrunner-Geiger, Adolf, Lokomotivführer von Laufenburg, Rain 885.\n  Locher-Willi, Jakob, Postkondukteur von Ems (Graubünden), Gais 1249.\n[handschriftlich: ✕]Lorenz-Isaak, Joseph, Arzt von Klingnau, Graben 216.\n  Lüscher, Elise, Glätterin, hintere Vorstadt 647.\n  Lüscher, Emma, Weißnäherin von Muhen, Milchgasse 156.\n  Lüscher-Herzig, Elisabeth, Bäckers Wittwe, Part. v. Muhen, Pelzg. 128.\n[handschriftlich: ✕]Lüscher-Hilsiker, Hans, Notar von Muhen, Rain 829.\n[handschriftlich: ✕]Lüscher, Jakob, Notar von Muhen (Geschäftsbüreau), Metzgergasse 56.\n  Lüscher, Louise, Part., hintere Vorstadt 647.\n  Lüscher-Lüscher, Jakob, Commis von Moosleerau, Ziegelrain 715.\n  Lüscher-Schlatter, Susanna, Taglöhnerin von Muhen, Schachen 745.\n[handschriftlich: ✕]Lüscher-Umiker, Hermann, Mechaniker, Nähmaschinenhandlung, Bank-\n    straße 1146.\n  Lüscher-Wülser, Lisette, Part. von Aarburg, Bahnhofstraße 1336.\n[handschriftlich: ✕]Lüthi-Gamper, Samuel, Telegraphist, von Schöftland, Laurenzenthor-\n    gasse 1118.\n  Lüthi-Kyburz, Friz, Sattler von Schöftland, Metzgergasse 117.\n  Lüthi-Kneubühler, Anna von Bleienbach (Bern), (Plazirungsbüreau für\n    weibliche Dienstboten), Kirchgasse 15.\n  Lüthi-Simmen, Alexander, Sattler von Schöftland, Casinostraße 660.\n  Lüthi-Weibel, Jakob, Gerichtskanzlist von Holziken, Wirth zur Zunft-\n    stube, Pelzgasse 129.\n[handschriftlich: ✕]Lutz-Hagnauer, Johann, Kaufmann von Basel, Laurenzenvorstadt 602.\n\nMäder, Henriette, Modistin von Köln, Metzgergasse 101.\n  Märk-Hofer, Karl, alt Armenhausverwalter, Entfelderstraße 983.\n  Märk, Louise, Part. Adelbändli, 83.\n  Märki-Amsler, Jakob, Küfer von Mandach, Milchgasse 161.\n[handschriftlich: ✕]Märki-Haller, Gottlieb, Mühlenbauer von Mandach, Schönenwerder-\n    straße 1091.\n  Märki-Schaffner, Jakob, Mühlenbauer von Mandach, Rain 832.\n  Maag-Wildi, Jakob, Hafner von Neunkirch (Schaffhausen), Pelzg. 134.\n  Madon-Lauser, Viktor, Lokomotivführer von Unterstraß (Zürich), Laurenzen-\n    vorstadt 552.\n[handschriftlich: ✕]Maier-Rychner, Kaspar, Professor, Entfelderstraße 981.\n  Maier-Ganter, Konrad, Lohnkutscher, von Reisalfingen (Großh. Baden),\n    Bachstraße 1040.\n  Mayer-Vogel, Thomas, Schuhmachermeister von Eigoldingen (Groh. Baden),\n    Schuhhandlung, hintere Vorstadt 697.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9823,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2606,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:59:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p126",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p126.jpeg",
+      "bytes": 245976,
+      "sha256": "eeb39d24f57c50e0ab6cd844876f3e633abce30e47c7461e6ba218c4944ba75a",
+      "sha256_of": "original",
+      "working_copy": "1892_p126.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:59:32+00:00"
+  }
+}

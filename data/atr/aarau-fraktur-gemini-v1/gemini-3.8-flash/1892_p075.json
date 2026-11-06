@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p075.jpeg",
+    "bytes": 203848,
+    "sha256": "4bde6d79ccc79a921ad5efe78c76d7d9bd245ccc23ff85081dec21fc2c1fac35",
+    "sha256_of": "original",
+    "working_copy": "1892_p075.jpeg"
+  },
+  "text": "— 67 —\n\nHaus=\nNr.\n983. Beck=Braun, Friedrich, Sattler.\n  Ochsner, Marie, Part., von Uster (Zürich).\n  Märk-Hofer, Karl, alt Armenhausverwalter, Part.\n  Rohner-Märk, Marie, Lehrerin.\n  Blattner-Hofer, Elisabeth, Part., von Küttigen.\n  Böhmert-Comte, Richard, Kaufmann, von Dresden.\n1076 †Derselbe. Wasch= und Holzhaus.\n1285 Mathys=Matter, Wilhelm, Feilenhauer, von Kölliken.\n  Hegetschwyler-Horlacher, August, Eisenbahnkondukteur, v. Ottenbach (Zürich).\n  Ryner-Hächler, Joseph, Eisenbahnkondukteur, von Herznach.\n1195 Riniker=Wernli, Hermann, Milchverkäufer, von Habsburg.\n  Feer-Widmer, Johann, Bankbeamter, von Kölliken.\n1203 †Derselbe. Holz=, Schwein= und Geflügelhaus.\n1147 Vogel=Waßmer, Rudolf, Kaminfeger und Dachdecker, von Kölliken,\n  Lager in Dach= und Randschindeln.\n  Kuhn-Andermatt, Johann, Bahnmeister, von Dottikon (Aargau).\n1222 †Derselbe. Schopf.\n\nGönhardsfeldweg.\n\n1145 Keller=Fehlmann, Johann, Oekonom, von Hottwyl.\n  Ott geb. Keller, Verena, Wittwe, Part., von Aarburg.\n  Furter-Furter, Abraham, Eisenbahnkondukteur, von Stauffen.\n1309 Rothpletz=Richner, Friedrich, Fabrikant.\n1150 Umiker=Hürlimann, Samuel, von Thalheim.\n  Hofer, Marie, Näherin, von Niederwyl\n  Bußlinger-Kienberger, Siegfried, Postcommis, von Dätwyl.\n  Odinga-Brändli, Theodor, Dr. phil., Rektor der Mädchenschulen, von\n    Uster (Zürich).\n1241 Suter=Riederer, Jakob, Professor, Direktor des Töchterinstituts\n    und Lehrerinnenseminars von Suhr und Winterthur.\n\nHohlweg.\n\n984. †Gemeinde Aarau. Brunnenhaus.\n\nEntfelderstraße.\n\n985. †Siebenmann, Friedrich, Bierbrauer, Stadtrath.\n  Belser, Gottlieb, Bauunternehmer in Gösgen. (Baumaterialienschopf.)\n986. Abgetragen, an dessen Platz\n1171 Siebenmann, Friedrich, Bierbrauer, Stadtrath. Bierkeller.\n987. †Gemeinde Aarau. Brunnenhaus.\n\nConradstraße.\n\n988. Abgetragen, an dessen Platz\n1255 Hagnauer=Zimmermann, Albert, Kaufmann.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6398,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1860,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:53:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p075.jpeg",
+      "bytes": 203848,
+      "sha256": "4bde6d79ccc79a921ad5efe78c76d7d9bd245ccc23ff85081dec21fc2c1fac35",
+      "sha256_of": "original",
+      "working_copy": "1892_p075.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:53:42+00:00"
+  }
+}

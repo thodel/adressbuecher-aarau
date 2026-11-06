@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p082",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p082.jpeg",
+    "bytes": 217617,
+    "sha256": "598a24a5db22301c9b45eefb9a60d0324b2bb6505e70216b594e5971f787ef50",
+    "sha256_of": "original",
+    "working_copy": "1888_p082.jpeg"
+  },
+  "text": "— 72 —\n\nHaus-\n  Nr.\n1239.† Schweiz. Nordostbahn. Abtritte (in der Gais).\n1240.† Ernst-Käser, Fried., Röhrenfabrikant. Magazin (Bahnhofstraße).\n1241. Widmer-Gamper, Fried., Postcommis. (Gönhardfeldweg.)\n1242.† Dubs, Karl, Metzger. Scheune (vor dem Haldenthor).\n1243. Dr. Liechti, Paul, Professor. Wohnhaus (vor dem Haldenthor).\n1244.† Lüscher, Daniel, Schlosser. Werkstätte (Igelweid).\n1245.† Frey-Frey, Karl. Maschinenhäuschen (Telli).\n1246. Blattner, Rud., gew. Nagelschmied. (Erlinsbacherstraße.)\n1247.† Siebenmann, Fried., Bierbrauer. Wagenschopf und Eiskeller (jen-\n    seits der Aare).\n1248. Bolliger, Johann, Notar (Lindenhof), in der Gais.\n1249. Locher-Willi, Jakob, Postkondukteur (Lindenhof), in der Gais.\n1250.† Birri, Fridolin, Posamenter. Ställchen (Scheibenschachen).\n1251.† Kunz, J. J., Conditor. Holz- und Waschhaus (Bankstraße).\n1252.† Dr. Liechti, Paul, Professor. Bienenhaus (Schachen).\n1253.† Keller-Steiner, Karl. Heuschuppen (Rohrerstraße).\n1254.† Schweiz. Nordostbahn. Waschhaus (Bahnhof).\n1255. Hagnauer-Zimmermann, Albert. Wohnhaus (Conradstraße).\n1256.† Meili, Jakob, Müller. Stallung (Mühlegäßchen).\n1257.† Baumann-Gysi, Heinrich. Faßremise (Laurenzenvorstadt).\n1258.† Derselbe. Holzhaus.  id.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5464,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1219,
+    "lines": 24,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.54,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:32:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p082",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p082.jpeg",
+      "bytes": 217617,
+      "sha256": "598a24a5db22301c9b45eefb9a60d0324b2bb6505e70216b594e5971f787ef50",
+      "sha256_of": "original",
+      "working_copy": "1888_p082.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:48+00:00"
+  }
+}

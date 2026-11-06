@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p063",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p063.jpeg",
+    "bytes": 203349,
+    "sha256": "626bd2ab6b0cb87d898fe4df6cabebff2fc6500c3699da614a3d22fe4d92ff5f",
+    "sha256_of": "original",
+    "working_copy": "1892_p063.jpeg"
+  },
+  "text": "— 55 —\n\nHaus=\nNr.\n  Pfister=Sandmeier, Emil, Taglöhner, von Erlinsbach (Solothurn).\n  Pfister=Sandmeier, Emma, Schneiderin, „ „ „\n  Pfister=Pfister, Maria, Part., „ „ „\n  782. † Dieselbe. Scheune und Holzhaus.\n1108 † „ Gewächshaus.\n1143 † „ „\n1144 † „ „\n  783. † Frei=Rohner, Robert, Bäcker. Holzschopf.\n  784. Trinkler=Meier, Karolina, Instruktors Wittwe, von Bözen.\n  Prantl=Wildi, Alois, Maurer, von Strengen (Tirol).\n  785. † Dieselbe. Waschhaus.\n1182 † Seiler=Hanhart, Andreas, Bäcker. Holzhaus.\n1092 * Wägeler=Vogel, Karl, Dachdecker, von Waldshut (Baden).\n  Schneider=Hoch, Joseph, Goldschmied, von Rapperswyl (Zürich).\n  Huber, Anna, Privatin, von Kykon=Illnau (Zürich).\n1093 * Derselbe.\n  Schärli=Hilfiker, Johann, Flößer, von Biberstein.\n  Wernli=Vogt, Jakob, Taglöhner, von Thalheim.\n1306 Wägeler=Vogel, Karl, Dachdecker und Kaminfeger, von Waldshut\n    (Baden).\n1273 † Derselbe. Waschhaus.\n  786. * Gasbeleuchtungsgesellschaft. Wohnhaus.\n  Bechstein = von Jettmar, Wilhelm, von Meiningen (Sachsen), Direktor\n    der Gasfabrik.\n  787. † Dieselbe. Gasfabrik.\n  788. † „ Reinigungshaus.\n  789. † „ Steinkohlenschopf.\n  790. † „ Schopf.\n  791. † „ Waschhaus.\n1089 † „ Schopf.\n1090 † „ „\n  792. † Häfliger=Hilfiker, Otto, Metzger. Scheune.\n1312 Hilfiker=Wilhelm, Jakob, Part., von Muhen.\n  793. † Derselbe. Gartenhaus.\n  794. † Kern, Adolf, Mechaniker. Remise.\n  795. † Derselbe. Scheune.\n1220 † „ Bienenhaus.\n  796. Berchtold=Lüscher, Nanette, Fuhrmanns Frau, von Schmiedrued.\n  Berchtold=Lüscher, Samuel, Fuhrmann, „ „\n  Lenzi, Xaver, Bahnangestellter, von Oberhof.\n  797. † Dieselbe. Remise.\n  798. † „ Gewächshaus.\n1094 † „ Scheune.\n  799. Wernli=Häfliger, Jakob, Gärtner, von Thalheim.\n  Maurer=Nußberger, Samuel, Taglöhner, von Schmiedrued.\n1342 † Derselbe. Treibhaus.\n1332 Schmidt, Johann Albert, und Schmidt Samuel.\n  Schmidt-Häusler, Verena, Gärtners Wittwe.\n  Schmidt, Anna und Jenny. Wäscherei und Glätterei.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7779,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1926,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:52:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p063",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p063.jpeg",
+      "bytes": 203349,
+      "sha256": "626bd2ab6b0cb87d898fe4df6cabebff2fc6500c3699da614a3d22fe4d92ff5f",
+      "sha256_of": "original",
+      "working_copy": "1892_p063.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:52:10+00:00"
+  }
+}

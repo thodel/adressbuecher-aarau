@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p127",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p127.jpeg",
+    "bytes": 273882,
+    "sha256": "d0670cc4772923122be1c453a9afe2310bdcf9162ff380e69a2b5ccb4da1d2de",
+    "sha256_of": "original",
+    "working_copy": "1888_p127.jpeg"
+  },
+  "text": "Rothwyler — Zater.                                                                 109\nRothwyler-Supfer, Anton, Büchsenmacher von Dürriheim (Großh. Baden),\n  Hammer 190.\nRuch-Schäffi, Alfred, Schuhmacher von Wittnödi (Glarus) Milchgasse 151.\nRuef-Joho, Johann, Taglöhner, von Neufingen, Halden 249.\nRuef-Zweifel, Wilhelm, Schloßer, Neufingen, Laurenzenvorstadt 376.\nRuefli, Johann, Taglöhner, von Seengen, Igelmeld 637.\nRüedi-Würsti, Johann, Staatsweibel von Sulz, Milchgasse 79.\nRüegg-Stephani, Barbara, Postkonduktours Wittwe von Balmen (Zürich),\n  Milchgasse 145.\nRieger-Gysling, Otto, Malermeister von Wyl (Zürich), Ziegelrain 746.\nRieger-Holliger, Maria, Wittwe, Taglöhnerin von Niederwyl, vor dem\n  Haldenthor 1083.\nRietschi-Bopp, Hermann, Techniker und Glockengiesser, Rainstrasse 843.\nRietschi-Christen, Jakob, Glockengiesser, obere Vorstadt 929.\nRietschi, Gottlieb, Bäcker und Wirth von Suhm, Felzgasse 131.\nRietschi-Henberger, Ludwig, Kanzleisekretär, Rain 825.\nRietschi-Mattli, Gottfried, Obergerichtsweibel, Aebibändli 81.\nRietschi-Müsperli, Friedrich, Buchhalter, Cafinostrasse 571.\nRietschi-Müsperli, Sophie, Part., Wittwe, hintere Vorstadt 694.\nRietschi-Wenger, Gottfried, Milchverkäufer, Spezereihandlung und Salz=\n  verkauf, Aebibändli 81.\nRütschi-Schilling, Anna, Fabrikarbeiterin von Schlieren (Zürich), Lau=\n  renzenvorstadt 1114.\nRumpf, Bertha, Part. von Basel, vordere Vorstadt 893.\n*Rusterholz-Schäppi, Albert, Bildhauer von Wädenswyl, Rain 885.\n\nTager-Schauenbösch, Jakob, Postampter von Gränichen, obere Vor=\nstadt 937.\nTager-Wildi, Jakob, Taglöhner von Gränichen, obere Vorstadt 947.\nTalm, Marie, Damenschneiderin von Beltheim, Milchgasse 144.\nTalm, Barbara, Haushälterin                id.       id.    id.\nTandmeier, Melchior, Part. von Seengen, in der Telli 440.\nTandmeier-Rohr, Susette, Wittwe, Part., obere Vorstadt 955.\nTandmeier, Gottlieb, Buchbinder,           id.       id.    id.\nTandmeier, Marie, Jadbentochter,           id.       id.    id.\nTandmeier, Marie, Damenschneiderin         id.       id.    id.\nTandmeier, Margaretha, Damenschneiderin id.          id.    id.\nTandmeier-Obrecht, Dachdeckergefelle, Ziegelrain 708.\n*auerländer-Benz, Elise, Wittwe, Part., Laurenzenvorstadt 394.\n*auerländer-Cutter, Emma, Part., Laurenzenvorstadt 418.\nauerländer-Frey, Remigius, Buchdruckereibesitzer, Laurenzenvorstadt 418.\nTayer, Elise, Part., vordere Vorstadt 889.\n*ayer-Pfleger, Ludwig, Kaufmann, vordere Vorstadt 889.\nTayer-Truong, Anna, Wittwe, Haushälterin, Rain 872.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 37450,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2503,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.66,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:17:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1888_p127",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p127.jpeg",
+      "bytes": 273882,
+      "sha256": "d0670cc4772923122be1c453a9afe2310bdcf9162ff380e69a2b5ccb4da1d2de",
+      "sha256_of": "original",
+      "working_copy": "1888_p127.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:17:45+00:00"
+  }
+}

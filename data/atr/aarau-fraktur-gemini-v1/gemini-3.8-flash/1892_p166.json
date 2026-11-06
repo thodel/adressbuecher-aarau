@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p166",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p166.jpeg",
+    "bytes": 241278,
+    "sha256": "1f36626bdbbf7cb0458d0545dc9752d79f85b76a064f101de24429ffc61f00fe",
+    "sha256_of": "original",
+    "working_copy": "1892_p166.jpeg"
+  },
+  "text": "150\n\nHerzig, Friedrich, Schneider, hintere Vor-\n  stadt 644.\nPfisterer, Emil, vordere Vorstadt 666.\nFirma: Siebenmann, Gebr., Oberthor 226.\n\nMilchverkäufer.\n\nIm Stadtbezirk.\n\nBaumann Kaspar, hintere Vorstadt 623.\nBerchtold, Samuel, v. d. Haldenthor 773.\nBircher, Andreas, Tallergut 302.\nBirmann, Adolf, Müller, hintere Vor-\n  stadt 684.\nBrack, Abraham, Bachstraße 1061.\nDubs, Jakob, Müller, Hammer 182.\nErismann, Abraham, Oekonom, Bach-\n  straße 1033.\nEtter, Reinhard, Rain 825.\nFisch-Vogt, Marie, Milchgasse 160.\nFischer, Thomas, Bierbrauer, Zollrain 179.\nGantner, Wittwe, Oekonoms, Schloß-\n  platz 197.\nGautschi, Rud., Oekonom, Telli 460.\nGuyer, Oskar, Fabrikant, Telli 456.\nKeller, Johann, Oekonom, Gönhardfeld-\n  weg 1145.\nLehner, Rudolf, Kirchgasse 15.\nMaritz, Arnold, Halden 281.\nMüller, Friedr., Oekonom, Schachen 725.\nPhilipp, Johann, Bachstraße 1038.\nRiniker, Hermann, Entfelderstraße 1195.\nRiniker, Jakob, Binsenhof 1005.\nRüetschi-Wenger, Marie, Adelbändli 81.\nScheidegger, Joh. Ulrich, Holzmarkt 663.\nSiebenmann, J., Oekonom, Goldern 1001.\nSommerhalder, Rudolf, Milchgasse 79.\nSteiner, Samuel, Oekonom, Laurenzen-\n  vorstadt 547.\nUrben, Johann, Casinostraße 660.\nWalther, Gottlieb, Oekonom, Rain 856.\nWalther, Hans, Oekonom, Bachstr. 1041.\nWalther, Jakob, Oekonom, Schachen 739.\nWalti, Jakob, Milchgasse 144.\nWeber, Wilhelm, Erlinsbacherstraße 337.\nWullschleger, Hch., Oekonom, Schachen 741.\n\nAußerhalb des Stadtbezirks.\n\nBircher, Johann, in Rohr.\nHächler, Johann Jakob, in Rohr.\nRohr, Wittwe, in Buchs.\nRoth, Jakob, Bürlis, in Buchs.\nDietiker, Adolf, in Suhr.\nDreyer, Friedrich, in Suhr.\nNeuenschwander, Johann, in Liebegg.\n\n[spalte 2]\n\nBurger, Gottlieb, in Entfelden.\nPauli, Johann, in Wöschnau.\nEng, Jakob, in Stüßlingen.\n\nFabrikation künstlicher Mineral-\nwasser.\n\nE. Custer & Cie., Bahnhofstraße 651.\n\nModistinnen.\n\nBaumann, Emma, Pelzgasse 64.\nBryner, Anna, Halden 284.\nFäs, Marie, Pelzgasse 67.\nGottschalk, Amalie, Rathhausgasse 44.\nHaßler, Julie, Adelbändli 172.\nHelm, Fanny, Zollrain 52.\nKirchner-Vonwiller, Ida, Graben 207.\nMüller-Schmocker, Verena, Milchgasse 73.\nSchmidt, Jenny, Zollrain 292.\nSennhauser-Gossewisch, A., Rain 885.\nSuter, Ida, vordere Vorstadt 666.\nWidmer, Karolina und Marie, Bahnhof-\n  straße 658.\n\nMöbelhandlungen.\n\nBührer-Häusler (Wiener Möbel), Bach\n  straße 1174.\nDreßler, Laurenz (Camisasca's Nach-\n  folger), Rain 826.\nGewerbehalle Aarau Ziegelrain 754.\nFirma Gebr. Heß, Rathhausgasse 4.\nHering-Leuenberg, Lisette, Zollrain 181.\nStrub, Leonhard, Milchgasse 71.\nund die Tapezierer Seite 155.\n\nMusikalienhandlungen.\n\nBrast, Geschwister, Holzmarkt 661.\nFrey, Albert, Rain 821.\nHirßbrunner, Jakob, Halden 255.\nWidmer, F. J., Casinostraße 573.\n\nMühlebaugeschäfte.\n\nMärki & Haller, Schönenwerderstraße,\n  Wöschnau.\n\nMüller.\n\nBirmann, Albert (obere Mühle), hintere\n  Vorstadt 684.\nDubs, Elisabeth, Wittwe (untere Mühle),\n  Hammer 182.\nMeili, Emma, Wittwe (mittlere Mühle),\n  Stadthof 95.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 11206,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2925,
+    "lines": 98,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 28.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:05:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p166",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p166.jpeg",
+      "bytes": 241278,
+      "sha256": "1f36626bdbbf7cb0458d0545dc9752d79f85b76a064f101de24429ffc61f00fe",
+      "sha256_of": "original",
+      "working_copy": "1892_p166.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:05:56+00:00"
+  }
+}

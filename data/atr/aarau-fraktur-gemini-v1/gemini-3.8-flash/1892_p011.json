@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p011",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p011.jpeg",
+    "bytes": 231409,
+    "sha256": "7a6e10edf358f1a06dfbbcb8d3a8d5735424152f9d0a19eb2b3c35fcc178fb84",
+    "sha256_of": "original",
+    "working_copy": "1892_p011.jpeg"
+  },
+  "text": "— 3 —\n\n  Meisel-Leutwyler, Xaver, Forstverwalter.\n  Meisel-Leutwyler, Verena, Weißwaarenhandlung.\n20. * Adam-Stephani, Paul, Fabrikants. (Erbschaft.)\n  Förderer-Hinden, Anna, Wittwe.\n  Förderer, Geschwister, Anna, Elise und Pauline, Tapisserie- und Broderie-\n    geschäft.\n  Birmann-Probst, Maria, Wittwe, von Basel, Weinhandlung.\n  Probst geb. Benkert, Maria, Part. von Aarberg (Bern).\n  Beügger, Johann Alexander, Buchhalter, von Winterthur.\n  Wanner, Jakob, Buchhalter von Schleitheim.\n  Hediger, Süsette, Näherin, von Reinach.\n21.  Hemmeler-Stahl, Jakob, Uhrenmacher, Quincaillerie- und Kinder-\n    spielwaarenhandlung.\n  Dietliker, Alfred, Bautechniker von Wetzikon.\n22. * Girod-Wyß, Louis, Kaufmann, von Romont (Freiburg).\n  Erdin-Obrecht, Albin, Kaufmann, von Gansingen. Nachfolger von\n    Wittwe Jean Kiefer & Cie., Mercerie-, Quincaillerie-, Lingerie-,\n    Passementerie- und Bonneterie-Waarenhandlung.\n  Fricker-Siebenmann, Othmar, Sekretär (Artilleriebüreau), von Frick.\n  Siebenmann-Hunziker, Emma, Wittwe, Part.\n23.  Wydler, Konrad, Apotheker.\n  Hemmeler-Stahl, Jakob, Uhrenmacher, Uhrenhandlung.\n24. * Hemmeler-Stahl, Jakob, Uhrenmacher.\n  Limacher-Niggli, Niklaus, Schuhmachermeister, von Schüpfheim (Luzern).\n  Fehlmann-Holzreuter, Christoph, Bedienter, von Seon.\n25.  Läuchli-Bürgi, Anna, Wittwe, von Remigen, Pintenwirthschaft.\n  Läuchli, Lina, Glätterin.\n  Läuchli, Johann, Commis.\n26. Stephani-Winkler, August, Kaufmann, Colonialwaaren-, Tabak- und\n    Cigarren-Handlung.\n  Billeter-Apel, Moritz, Faktor, von Hainichen (Sachsen).\n  Billeter, Anna, Damenschneiderin, von Hainichen (Sachsen).\n27. † Stephani-Winkler, August, Kaufmaun, Magazin.\n28. † Derselbe. Waschhaus.\n29. * Reist, Gottlieb, Metzger, von Aarau, in Aigle.\n  Schmid-Maurer, Mathilde, Negotiantin von Möriken.\n  Maurer, Louise, Part.\n  Stephani geb. Heckmann, Wilhelmine, Wittwe, Part.\n30.  Müller-Hürner, Eduard, Schirmmacher, Schirmhandlung.\n31.  Stapfer-Fessenmeier, Johann, Schuhmachermeister, von Sarmenstorf,\n    Schuhhandlung.\n32.  Dubs-Walther, Karl, Metzger und Speisewirth, von Küttigen.\n\nKronengasse.\n\n33.  Erny-Faßler, Emil, Kaufmann, Mercerie-, Bonneterie-, Lingerie-\n    und Quincaillerie-Waarenhandlung.\n  Agentur der Allgem. Lebensversicherungs-Gesellschaft in Paris.\n    „    „  Basler Feuerversicherung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6675,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2305,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:45:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p011",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p011.jpeg",
+      "bytes": 231409,
+      "sha256": "7a6e10edf358f1a06dfbbcb8d3a8d5735424152f9d0a19eb2b3c35fcc178fb84",
+      "sha256_of": "original",
+      "working_copy": "1892_p011.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:34+00:00"
+  }
+}

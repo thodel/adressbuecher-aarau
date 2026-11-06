@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p160",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p160.jpeg",
+    "bytes": 281639,
+    "sha256": "2ffe22951ecb2ced86e53da0792897d3b072d44d0f160f3168800b8e895f9343",
+    "sha256_of": "original",
+    "working_copy": "1888_p160.jpeg"
+  },
+  "text": "142\n\nRoth, Friedrich, Rain 825 b.\nSiegrist, Adolf, Halden 290.\nSiegrist, Johann, obere Vorstadt 922.\nStapfer, Johann, Rathhausgasse 31.\nVogt, Johann, obere Vorstadt 911.\nWandfluh, Johann, Hammer 190.\nWernli, Andreas, Rathhausgasse 44.\n\nSchwammhandlungen.\nAngst, Gottlieb, hinter dem Platz 214.\nKaiser, Sigmund, Kronengasse 35.\nMorath, Johann, Rathhausgasse 2,\n  sowie sämmtliche Coiffeurs\n  Seite 127.\n\nSeiler.\nBrunnhofer, Verena, Wittwe, Golatten-\n  mattgasse 235.\nRychner, Konrad, Pelzgasse 123.\n  Dieselben handeln auch mit\n  Seilerwaaren.\n\nSeidenbandfabrikation.\nBieber-Niggli Theodor, Hammer 193.\nFrey-Feer & Cie., Bahnhofstraße 1016.\nGasser u. Hunziker, Laurenzenvorstadt 377.\n\nSiegriste.\nGränicher, Jakob, Kirchplatz 192, für die\n  reformirte Kirche.\nLerf, Moritz, hintere Vorstadt 694, für\n  die römisch-katholische Kirche.\nWaßmer, Gallus, Pelzgasse 133, für die\n  christ-katholische Kirche.\n\nSiegellackfabrikation.\nGebrüder Schmuziger, Rain 834.\n\nSpengler.\nHuber-Renz, Wittwe obere Vorstadt 941.\nKull, Philipp, Milchgasse 146.\nRämisperger, Gottfried, Halden 275.\nRämisperger, Hermann, Milchgasse 148.\nRichner, Friedrich, Kirchgasse 10.\nSuter, Rudolf, Ziegelrain 704.\nWeber, Friedrich, Ziegelrain 710.\n\nSpezereihandlungen.\nBell, J. A., Pelzgasse 130.\nBertschinger-Wild, G., hintere Vorst. 624.\nBrunner, Jakob, obere Vorstadt 928.\n\n[spalte 2]\nEggen, Eduard, Laurenzenthorgasse 119 b.\nFriker-Wirz, Fr., vordere Vorstadt 669.\nGloor-Siebenmann, J., Kronengasse 38.\nGränicher, Jakob, Kirchhof 162.\nHaßler-Wanger, E., Laurenzenthorg. 349.\nHenz, Jakob, vordere Vorstadt 678.\nHerzog, Gottlieb, Zollrain 89.\nHeuberger-Wernli, Wittwe, Casinostr. 658.\nHoch, Gustav, Metzgergasse 61.\nHirsbrunner, Jakob, Halden 255.\nHitz, Otto, Rain 875.\nHofer, Gottlieb, Rathhausgasse 43.\nMaurer, Emil, jenseits der Aare 298.\nNadler-Häuptli, Wittwe, Bahnhofstr. 647.\nRohr-Hässig, Emma, Wittwe, Laurenzen-\n  thorgasse 119 a.\nRüetschi-Wenger, Gottfried, Adelbändli 81.\nSchmid = Maurer, Mathilde, Rathhaus-\n  gasse 29.\nSchmidt, Robert, z. Bären, Zollrain 177.\nSchmuziger, Gottlieb, Ziegelrain 703.\nSiegrist, Johann, obere Vorstadt 922.\nStephani, August, Rathhausgasse 26.\nWaßmer, Emil, z. Adler, Pelzgasse 137.\nWidmer, Samuel, Bahnhofstraße 1024.\nWittmer, Elise, Rain 823.\nWüthrich, Samuel, Laurenzenthorg. 117.\n\nSpiegellager.\nKaiser, Sigmund, Kronengasse 35.\nMorath, Johann, Rathhausgasse 2.\nStrub, Leonhard, Milchgasse 71.\nStrub, Emanuel, hintere Vorstadt 696.\n\nSteinhauereigeschäfte.\nAusterholz u. Freihofer, Bildhauer, Rain-\n  straße 886.\nZschokke & Cie., Baugeschäft, Rohrer-\n  straße 473.\n\nStellenvermittler.\nSpeirer-Heß, Sophie, Hammer 185.\nZähner-Brunnhofer, Halden 246.\n\nStickerei- und Wollwaarenhand-\nlungen.\nCoradi-Stahl, Emma, Rathhausgasse 20.\nHagenbuch-Hagenbuch, Verena, Rathhaus-\n  gasse 5.\nHelm-Bonary, Elise, Zollrain 52.\nKull-Müller, Anna, Milchgasse 144.\nTheodor-Hagnauer, hintere Vorstadt 1236.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9699,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2892,
+    "lines": 94,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 29.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:42:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p160",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p160.jpeg",
+      "bytes": 281639,
+      "sha256": "2ffe22951ecb2ced86e53da0792897d3b072d44d0f160f3168800b8e895f9343",
+      "sha256_of": "original",
+      "working_copy": "1888_p160.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:42:48+00:00"
+  }
+}

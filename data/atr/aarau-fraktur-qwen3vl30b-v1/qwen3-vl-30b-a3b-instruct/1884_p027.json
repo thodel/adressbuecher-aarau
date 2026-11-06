@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p027",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p027.jpeg",
+    "bytes": 306718,
+    "sha256": "00c0968c2eb185e48f8957ee0c00a3b47bfd95fe794795ac2348d4a8d4604ae3",
+    "sha256_of": "original",
+    "working_copy": "1884_p027.jpeg"
+  },
+  "text": "Gertifer-Andres, Marie, Wittwe, Damenschneiderin, von Münchweiler,\nvordere Vorstadt 676.\nGidemann, Konrad, Partik., von Ehrenstetten, Rainstraße 848.\nGiger-Sommerhalber, Jakob, Polizeikorporal, von Contenschwyl, hintere\nVorstadt 693.\n— =Märki, Jakob, Schreiner, von Contenschwyl Rainstraße 1091.\n— =Witbi, Rosina, Maler's Wittwe, Partik., von Kirchheim (Württemberg),\nobere Vorstadt 937.\n— =Nünlist, Peter Eugen, Kondukteur, von Nd.-Gösgen (Solothurn),\nhinter dem Bahnhof 1072.\n*Ging-Weizhaupt, Johann Jakob, Wagner, Casinostraße 571.\n*Ginsberg-Amman, Friedrich, Partik., Bahnhofstraße 1026.\n*Gifi-Amman, Traugott, Lehrer, jenseits der Aare 342.\n* — Anna, Ladengebültin, vordere Vorstadt 895.\n— David, gewef. Postkondukteur, von Suhr, obere Vorstadt 927.\n* — =Siebenmann, Otto, Photograph, Fabrikation von Reißzeugen, Optiker,\nvordere Vorstadt 895.\n* — =Studler, Arnold, Mechaniker, vordere Vorstadt 695.\n* — =Büchli, Emil, Mechaniker, neues Quartier 978.\n* — =Anderegg, Emil, Maler, obere Vorstadt 942.\n* — =Fischer, Friedrich, Schlosser, hintere Vorstadt 645.\n— von-Arr, Viktor, Kaufmann, Tuchbldg., v. Nd.-Gösgen, Holzmarkt 664.\n— =Schmid, Johann Jakob, Rechnungsrevisor, von Birc, Rain 822.\nGisler-Landolt, Hermine, Haushälterin, von Unterlangenegg (Bern), Kirch-\nplatz 165b.\nGladbach, Philipp, Professor, v. Oppenheim (Hessen), obere Vorstadt 948.\nGloor-Siebenmann, Friedrich, Negt., Colonialwaaren- und Delikatessenbldg.,\nvon Schöftland, Kronengasse 38.\n— =Hörlacher, Ferdinand, Holzpalter, von Birc, Kirchgasse 10b.\n— =Lüscher, Marie, Wittwe, Wäscherin, von Birc, Halben 281.\n— Wilhelmine, Taglöhnerin, von Dürrenäsch, Rathausgasse 3.\n— =Rufli, Daniel Büchsenmacher, von Birc, Halben 286.\n— =Amsler, Friedrich, Taglöhner, von Dürrenäsch, im Hammer 188.\n— =Frei, Susanna, Partik., von Birc, Igelweid 635.\n— Verena, Fabrikarbeiterin, von Birc, Igelweid 635.\n— =Lehmann, Wilhelm, Wirth, von Kulm, Rathausgasse 4.\nGnehm-Bögelì, Jak., Schriftgieker, v Bärentsweil (Zürich), Bachstraße 1055.\nGonzenbach-Gonzenbach, Georg, Ingenieur, Stadtrath, von St. Gallen\nRainstraße 828.\nGood, Theodor, Kürschner und Hutbandlung, von Wels (St. Gallen),\nLaurenzenthorngasse 1118.\n*Gottschall, Amalie, Modistin, Modewaarengeschäft, Pelzgasse 67.\n* — Marie, Modistin, Pelzgasse 67.\nGraf-Morath, Richard, Kaufmann, von Tablat (St. Gallen), Tuch- und\nModewaarenhandlung, Confectionsgeschäft, Oberthor 140.\n— =Wolferter, Katharina, Schriftgieker's Wittwe, Partik., von Ulm\n(Württemberg), Abelbändli 175.\n— =Lüthy, Jakob, Knecht, von Rüttigen, Weinberg 332.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5511,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2538,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:11:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p027",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p027.jpeg",
+      "bytes": 306718,
+      "sha256": "00c0968c2eb185e48f8957ee0c00a3b47bfd95fe794795ac2348d4a8d4604ae3",
+      "sha256_of": "original",
+      "working_copy": "1884_p027.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:31+00:00"
+  }
+}

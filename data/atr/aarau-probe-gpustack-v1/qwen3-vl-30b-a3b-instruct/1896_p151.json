@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p151",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p151.jpeg",
+    "bytes": 276495,
+    "sha256": "4a0ed4ef92affae2716977071f78805858f35658ae1ee0141896d123cad60c5f",
+    "sha256_of": "original",
+    "working_copy": "1896_p151.jpeg"
+  },
+  "text": "Alphabetisches Verzeichnis.\n113\nMüri, Johann, Dr. jur., Regierungsrat, Bahnhofstraße 1447.\n— Paul, Fürsprech, Gerichtspräsident, Laurenzenvorstadt 547.\nMürset, Gottlieb, Wirt und Fuhrmann, Schachen 733.\n— Marie, Coiffeuse, Kirchgasse 13\nN\nNäf, Edwin, Lokomotivführer, obere Vorstadt 940.\n— Emil, Kantonsstatistiker, Bahnhofstraße 658.\n— Urs, Joseph, Taglöhner, Golattenmattgasse 230.\nNägelin, Arnold, Hôtelier, (Wildenmann) Vordere Vorstadt 1262.\nNägeli, Joh. Jak., Schriftsetzer, Rain 880.\nNadig, Klära, Part., Rain 860.\nNadler geb. Häuptli, Anna, Witwe, Spezereihdlg., Bahnhofstraße 1026.\nNeeser, Samuel, Taglöhner, Adelbändli 86 a.\nNiederhauser geb. Schenk, Marie, Spetterin, Halden 274.\n— Theodor, Buchbinderei-Chef, hint. dem Bahnhof 502.\nNiggli, Arnold, Fürsprech, Stadtschreiber obere Vorstadt 948.\n— Elise, Weißnäherin, Kirchhof 80.\nNünlist geb. Müller, Katharina, Taglöhnerin, Halden 268.\nNüsperli, Friedrich, Sattler, Zoltrain 53.\n— Friedrich, Postcommis, Zoltrain 53.\n— Karl, Postcommis, Zoltrain 53.\n— Maria Anna, Schneiders, Part., Halden 241.\n— geb. Richner, Julie, Part., Pelzgasse 124.\nNussbaum, Anna, Johanna, Gemüsehändlerin, Pelzgasse (Färbergässchen) 125.\n— geb. Finkbohner, Trinette, Witwe, Ziegelrain 751.\n— Frida, Aufseherin, Ziegelrain 751.\nNussbaum, Hanna, Kleinkinderlehrerin, Ziegelrain 751.\nNussberger, Sam., Taglöhner, Hammer 188.\nOberli, Richard, Part., Ziegelrain 722.\nOboussier, F. & Cie. (F. L. Oboussier und Fritz Oboussier.) Mechanische Baumwollweberei. Bureau Graben 613, Fabrik in Buchs.\n— Friedrich, Fabrikant, Graben 613.\nObrist, Johanna, Speisewirtschaft zur „Telli“, Telli 448.\n— Theodor, Postangestellter, Telli 448.\nOchsner, Marie, Part., Entfelderstr. 983.\nOehler, A. & Cie. (Alfred Oehler u. Oskar Oehler) Maschinenfabrik. Eisengiesserei. Gais 1405.\n— Alfred, Ingenieur, Gais 480.\n— geb. Frey, Bertha, Witwe, Laurenzenvorstadt 415.\n— Oskar, Ingenieur, Laurenzenvorstadt 415.\nOelhafen, Arnold, Sohn, Metzger, hintere Vorstadt 698.\n— Hermann, Bankangestellter, Laurenzenvorstadt 544.\n— geb. Hagnauer, Johanna, Part., Pelzgasse 134.\n— geb. Müller, Elisabeth Luise, Malers Witwe, Halden 256.\n— Rudolf, Metzger, hint. Vorstadt 698.\nOeschger, Klara, Wäscherin, Milchgasse 152.\nOrtlieb geb. Bertschi, Luise, Aufseherin der Gewerbehalle, Halden 290.\nOsterwalder, Rudolf, Zuschneider, Scheibenschachen 314.\nOtt, Anna, Zettlermeisterin, Adelbändli 81.\n— Jakob, Bereiter, Hammer 188.\n— Kaspar, Rentier, Graben 218.\n— geb. Keller, Verena, Part., Bachstraße 1043.\n— Friedr., Buchhalter, Spezerei-, Milch- und Butterhandlung, Salzverkauf, Adelbändli 81.\nOttolini, Jean, Koch, Kronengasse 35.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5877,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2633,
+    "lines": 55,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.89,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:34:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1896_p151",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p151.jpeg",
+      "bytes": 276495,
+      "sha256": "4a0ed4ef92affae2716977071f78805858f35658ae1ee0141896d123cad60c5f",
+      "sha256_of": "original",
+      "working_copy": "1896_p151.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:34:17+00:00"
+  }
+}

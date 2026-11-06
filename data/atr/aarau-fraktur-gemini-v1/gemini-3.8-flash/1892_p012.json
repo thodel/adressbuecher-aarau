@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p012",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p012.jpeg",
+    "bytes": 228902,
+    "sha256": "43eadbbd7966c5acea55a7d9c3336e21541bb4e16150ef7842673c2dc8cde36b",
+    "sha256_of": "original",
+    "working_copy": "1892_p012.jpeg"
+  },
+  "text": "— 4 —\n\nHaus-\nNr.\n    Schmid, Maria, Ladentochter, von Buch bei Weinfelden (Thurgau).\n    Waldmeier-Gautschi, Alfred, Commis (Gamper & Cie.) von Möhlin.\n    Kull-Gerber, Adolf, Postcommis, von Niederlenz.\n34.  Würtemberger-Kaiser, Maria, Coiffeurs Wittwe.\n    Guggenheim-Bollag, Julius, Kaufmann, von Oberendingen, Tuchhandlung\n        „Aarauer Waarenhalle“.\n    Schibler, Fritz, Coiffeur, von Walterswyl (Solothurn), Parfümerie-\n        waarenhandlung.\n    Zürcher-Stutz, Johann, gewesener Turnlehrer, von Thalwyl (Zürich).\n35.  Kaiser, Sigmund, Kaufmann, Quincaillerie-, Glas- und Porzellan-\n        Waaren-Handlung.\n36.  Hinz-Wolf, Anna, Zuckerbäckers Wittwe.\n37.  Bonfelten-Willimann, Franz Joseph, Quincaillerie- und Kinder-\n        spielwaaren-Handlung.\n    Bonfelten-Willimann, Verena, Corsetmacherin.\n    Willimann-Wehrli, Marie, Wittwe, von Oberhof.\n    Mösch-Mösch, Karl, Güterexpedient, von Frick.\n38.  Gloor-Siebenmann, Friedrich, Negotiant, von Schöftland, Colonial-\n        waaren- und Delikatessen-Handlung.\n    Rohr-Gloor, Marie, Privatin.\n    Widmer-Rohner, Franz Xaver, Sekretär (Obergerichtskanzlei), von\n        Schneisingen.\n39.  Mathys-Hafner, Rudolf, Gastwirth zur Krone, von Eriswyl (Bern).\n40.  Wehrli-Schneider, Jakob, Bäcker, von Küttigen.\n    Jungi-Blattner, Johann, Schuhmacher, von Guggisberg (Bern).\n    Jungi-Blattner, Lina, Damenschneiderin, von Guggisberg (Bern).\n    Flückiger-Wüthrich, Rosette, Wittwe, Köchin, von Wynigen (Bern).\n    Zweifel-Gyger, Samuel, Schreinermeister, von Linththal (Glarus).\n41.  Faller geb. Faller, Elise Louise, Wittwe, von Raitenbuch (Großh. Baden).\n        Firma Gebr. Faller, Militärartikel, Eisen- und Quincailleriewaaren-\n        Handlung.\n    Faller, Karl Friedrich, Sohn, Kaufmann, von Raitenbuch (Großh. Baden).\n\nRathhausgasse.\n\n42.  Härdi, Wilhelm, Goldschmied, von Lenzburg, Gold- und Silberwaaren-\n        Handlung.\n    Härdi, Lina, Haushälterin, von Lenzburg.\n    Weber-Molfenter, Emil, von Hausen; Depot für Singer-Nähmaschinen.\n    Kappeler, Anna, Part.\n43.  Hofer-Schaffner, Gottlieb, Kaufmann, Spezerei- und Ellenwaaren-\n        handlung.\n44.  Wernli-Bläuer, Andreas, Schuhmachermeister, von Thalheim. Schuh-\n        handlung.\n    Gottschalk, Amalie, Modistin.\n    Schäfer-Friedl, Karl, Lithograph, von Cannstadt (Würtbg.).\n45.  Fehlmann-Brack, Kaspar, Bäcker.\n    Stigeler-Glätti, Jakob, Zimmermann, von Eglisau (Zürich).\n    Geyer-Schleich, Joseph, Schneider, von Benfeld. (Elsaß.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8483,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2461,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.04,
+    "mean_line_chars": 44.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:45:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p012",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p012.jpeg",
+      "bytes": 228902,
+      "sha256": "43eadbbd7966c5acea55a7d9c3336e21541bb4e16150ef7842673c2dc8cde36b",
+      "sha256_of": "original",
+      "working_copy": "1892_p012.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:43+00:00"
+  }
+}

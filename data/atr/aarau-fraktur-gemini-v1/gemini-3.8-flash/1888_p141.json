@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p141",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p141.jpeg",
+    "bytes": 274832,
+    "sha256": "ad0e4e7529fb9ee7437feda9cc68915122e143b8a9e2bccab4776d74502ed76b",
+    "sha256_of": "original",
+    "working_copy": "1888_p141.jpeg"
+  },
+  "text": "Wydler — Zehnder. 123\n\nWydler-Gubler, Pauline, Wittwe, Part., Rain 862.\nWydler, Konrad, Apotheker, Rathhausgasse 23.\nWydler, Maria, Part., Mezgergasse 55.\nWydler, Lina, id. id. id.\nWydler, Mathilde, Part., Laurenzenvorstadt 364.\nWydler-Wehrli, Heinrich, Sohn, Färber, vor dem Haldenthor 804.\nWyser, Gustav, von Schönenwerd, Korbwaarenfabrikation, Laurenthor-\n  gasse 118.\nWyser-Müller, Alfred, Färbereibesitzer von Gösgen (Solothurn), Bach-\n  straße 1055.\nWyttenbach-Meier, Ludw. Friedrich, Postcommis v. Bern, Wöschnau 1091.\nWyttenbach-de Vigneulle, Arthur, Bahningenieur v. Bern, Gais 1063.\nWoodtli-Huber, J. Diethelm, Speisewirth von Oftringen, Halden 277.\nWohler-Bolliger, Johann Martin, Postcommis von Wohlen, Laurenzen-\n  vorstadt 544.\nWolf-Märki, Anna, Wittwe, Part., hintere Vorstadt 645.\nWolf, Karl, Sohn, Architekt, Adjunkt des Hochbaumeisters, hintere Vor-\n  stadt 645.\nWolfsinger-Mayer, Max, Professor von Mannheim (Großh. Baden), Bach-\n  straße 1137.\nWolfsgruber-Küenze, Gottfried, Photograph von Bonn (Preußen), vor\n  dem Haldenthor 770.\nWullschleger-Blattner, Heinrich, Oekonom, Schachen 741.\nWullschleger, Hans, Knecht von Schloßrued, id. id.\nWüest-Senn, Konrad, Bezirkslehrer von Uffikon (Luzern), Rain 831.\nWürger-Maurer, Heinrich, Gießereibesitzer, von Hausen (Großh. Baden),\n  Laurenzenvorstadt 572.\nWürtemberger-Kaiser, Gottlieb, Coiffeur, Kronengasse 34.\nWüthrich-Lüdi, Samuel, Negot. und Auswanderungsagent von Eggiwyl\n  (Bern), Laurenzenthorgasse 117.\nWüthrich-Dambach, Joh. Jakob, Camioneur von Eggiwyl (Bern), vor\n  dem Haldenthor 762.\nWüthrich, Jak., Zuckerbäcker v. Eggiwyl (Bern), Laurenzenthorgasse 117.\nWüthrich-Stirnemann, Jakob, Camioneur von Eggiwyl (Bern), Rath-\n  hausgasse 45.\n\nZähner-Brunnhofer, Nanette, Part. von Horn (Thurgau), Stellenver-\n  mittlungsbureau des schweiz. Frauenverbandes, Halden 246.\nZaugg, Daniel, Buchhalter von Eriswyl (Bern), Casinostraße 576.\nZaugg-Byland, Susanna, Part., id. id. id. id.\nZebert-Altorfer, Georg, Buchbinder von Bauma (Zürich), Laurenzenthor-\n  gasse 116.\nZehnder, Gottlieb, Oberst, Waffenchef der Cavallerie von Birmenstorf,\n  Graben 615.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7749,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2117,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.5,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:39:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p141",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p141.jpeg",
+      "bytes": 274832,
+      "sha256": "ad0e4e7529fb9ee7437feda9cc68915122e143b8a9e2bccab4776d74502ed76b",
+      "sha256_of": "original",
+      "working_copy": "1888_p141.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:52+00:00"
+  }
+}

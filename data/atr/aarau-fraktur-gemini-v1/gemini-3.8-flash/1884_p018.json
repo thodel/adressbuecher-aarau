@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p018",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p018.jpeg",
+    "bytes": 330443,
+    "sha256": "fc87cc65f42cc314bfcb2de02808760a571a844b5c8f5ba78924f9addaf6fb1b",
+    "sha256_of": "original",
+    "working_copy": "1884_p018.jpeg"
+  },
+  "text": "14                   Bertschi.   —   Bolliger.\n\nBertschi-Vogt, Elis., Schreiners Wittwe, v. Sumiswald (Bern), Stadthof 92b.\n— Lisa, Glätterin, von Sumiswald (Bern), Stadthof 92b.\n— Adolf, Schneider, von Sumiswald (Bern), Stadthof 92b.\n— -Lüscher, Joh., Schuhmachergehülfe, v. Dürrenäsch, Rathhausgasse 18.\nBertschinger - Ryniker, Otto, Wirth zur Militär-Cantine, von Lenzburg,\n      Laurenzenvorstadt 590.\n— -Wild, Gustav, Spezereihändler, von Lenzburg, hintere Vorstadt 624.\nBiberstein - Spycher, Eugen, Spenglergehülfe, von Bözingen (Bern),\n      Golattenmattgasse 236.\nBieber, Gottfr., Kondukteur, v. Stüßlingen (Soloth.), hint. d. Bahnh. 1072.\nBiedermann-Siebenmann, L., Kfm., v. Gösgen (Soloth.), Rathhausgasse 27.\n— Franz Jos., Part., von Gösgen (Solothurn), Weinberg 333.\nBilleter-Abel, Moritz, Faktor, von Heinichen (Sachsen), Rainstraße 875.\n*Billo-Bär, Julius, Kerzenfabrikant, Bahnhofstraße 535.\nBircher-Sasson, Andreas, Kaufmann, von Küttigen, jenseits der Aare 302.\n— Andreas, Vater, Partik., von Küttigen, jenseits der Aare 302.\n— -Krüsi, Friedrich, Notar, von Küttigen, hintere Vorstadt 689.\n* — Ludwig, Schuhmachermeister, hintere Vorstadt 697.\n* — Emil Ludwig, Postcommis, hintere Vorstadt 697.\n— -Kielholz, Julius, Kreisingenieur, von Küttigen, Ziegelrain 713.\n— -Brodbeck, J. J., Buchdrucker, von Küttigen, Ziegelrain 713.\n* — -Schatzmann, Heinrich, Dr. Med., Bachstraße 1098.\n— Maria, Taglöhnerin, von Küttigen, Halden 264.\n— -Kiburz, Anna, Wittwe, Partik., v. Küttigen, hinter d. Bahnhof 497.\nBirchmeier-Brunner, Gottl., Schlosser, v. Würenlingen, Metzgergasse 107.\n— -Kull, August, Malermeister, von Würenlingen, Casinostraße 574.\nBirkhofer-Hagenbuch, Albertine, Damenschneiderin, von Leimbach (Grßhzth.\n      Baden), Rainstraße 821.\nBirmann-Probst, Maria, Wittwe, v. Basel, Weinhdlg., Rathhausgasse 20.\n— -Baldenweg, Albert, Müller, von Basel, hintere Vorstadt 684.\n— Adolf, Müller, Sohn, von Basel, hintere Vorstadt 684.\nBirri-Wülser, Fridolin, Posamenter, von Zeihen, Scheibenschachen 314.\nBlaser-Studer, Anna, Partik., von Langnau (Bern), Pelzgasse 68.\n— Elisabeth, Näherin, von Langnau (Bern), Pelzgasse 68.\n*Blattner-Jäger, Otto, Dr., Fürsprech, obere Vorstadt 948.\n* — Melanie, Partik., Oberrichters, jenseits der Aare 300.\n— -Hemmeler, Jakob, Malermeister, v. Küttigen, Laurenzenvorstadt 376.\n— August, Gerichtskanzlist, von Küttigen, „ 376.\n— Elise, Damenschneiderin, von Küttigen, „ 376.\n— Maria, Weißnäherin, von Küttigen, „ 376.\n— -Hofer, Elisabeth, Wittwe, von Küttigen, Zollrain 178.\n— Lina, Damenschneiderin, von Küttigen, Milchgasse 74.\nBlume-Hirt, Ph., Schreinermstr., v. Sprendlingen (Hessen), Hammer 189.\n— -Hirt, Marie, Feinwascherin u. Glätterin, v. Sprendlingen, „ 189.\n— Anna, Feinwascherin, von Sprendlingen (Hessen), „ 189.\n— Mina, Damenschneiderin, von Sprendlingen (Hessen), „ 189.\nBolens-Richner, Henri, Fabrikant, von Morges (Waadt), Rain 828.\nBolliger-Manger, Gustav, Kaufmann, von Schmiedrued, Pelzgasse 130.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9822,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2961,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 59.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:10:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p018",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p018.jpeg",
+      "bytes": 330443,
+      "sha256": "fc87cc65f42cc314bfcb2de02808760a571a844b5c8f5ba78924f9addaf6fb1b",
+      "sha256_of": "original",
+      "working_copy": "1884_p018.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:10:46+00:00"
+  }
+}

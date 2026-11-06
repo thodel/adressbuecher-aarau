@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p114",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p114.jpeg",
+    "bytes": 247064,
+    "sha256": "9122e93e188af8244249d466ed1772a4deb03c208930dd100f3becb951385e05",
+    "sha256_of": "original",
+    "working_copy": "1892_p114.jpeg"
+  },
+  "text": "98 Häberli — Häusler.\n\nHäberli, Jakob, Müller von Berg-Muren (Thurgau), hint. Vorst. 696.\nHächler-Peter, Gottlieb, Taglöhner von Teufenthal, Kirchgasse 10 b.\n[handschriftlich: X]Häfliger-Hilsiker, Otto, Metzger und Wirth von Oberentfelden, Pelz-\n  gasse 136.\nHäfeli-Fischer, Julie, Expedients Wittwe, Näherin von Seengen,\n  Rain 825 a.\nHäfeli, Joseph, Sattler und Tapezierer von Oberwyl, Kirchgasse 15.\nHäni-Häni, Rudolf, Part. von Kölliken, Kirchgasse 11.\nHäni-Hunziker, Hermann, Sohn, Bäcker von Kölliken, Kirchgasse 11.\nHärdi, Lina, Haushälterin von Lenzburg, Rathhausgasse 42.\n[handschriftlich: X]Härdi, Wilhelm, Goldschmied von Lenzburg, Rathhausgasse 42.\nHärri-Baumann, Arnold, Postcommis von Birrwyl, Rain 877.\n[handschriftlich: X]Härri-Linder, Rudolf, Expeditionschef auf der Staatskanzlei, von Birr-\n  wyl, Pelzgasse 124.\nHäring, Marie, Spetterin von Dettighofen (Baden), Milchgasse 152.\nHässig, Alfred, Sohn, Kupferschmied, Ziegelrein 705.\nHässig-Baumann, Margaritha, Malers, Wittwe, Ziegelrain 705.\n[handschriftlich: X]Hässig-Bühler, Friedrich, Kupferschmied und Trommelfabrikant, Ziegel-\n  rain 705.\nHässig-Dättwyler, Elise, Siegrists Wittwe, Kirchhof 165 a.\nHässig, Emma, Part., In der Gais (Lindenhof) 1210.\nHässig-Fischer, Albert, Werkführer, Halden 256.\nHässig, Hans, Stadtrath, In der Gais (Lindenhof) 1210.\n[handschriftlich: X]Hässig-Hauenstein, Elisabeth, Wittwe, Part., vordere Vorstadt 680.\nHässig, Julius, Oberlieutenant, Instruktor II. Klasse der Infanterie,\n  Milchgasse 162.\n[handschriftlich: X]Hässig-Lienhard, Hermann, Bäcker und Wirth, Rathhausgasse 46.\nHässig-Lüscher, Joh. Conrad, Dienstmann, Antiquar und Gemüsehändler,\n  Oberthor 224.\nHässig, Mina, Glätterin, Hammer 190.\nHässig, Rosette, Bahnhofstraße 1019.\n[handschriftlich: X]Hässig-Sigle, Julius, Speisewirth, Cafe zur Bank, Bahnhofstraße 1317.\nHässig-Siegrist, Julius, Schlosser, Milchgasse 77.\nHässig-Straubhaar, Gottlieb, Feinschleifer, Wohnung Hammer 190 und\n  Werkstätte Hammer 1295.\nHäuptli-Burkhard, Anna Maria, Drechslers Wittwe von Biberstein,\n  Halden 284.\n[handschriftlich: X]Häuptli-Ott, Othmar, Adjunkt des Staatsbuchhalters, Rain 848.\nHäuptli-Schältli, Jakob, Färber von Biberstein, Milchgasse 156.\nHäuptli-Schmid, Emil, Drechsler von Biberstein, Halden 284.\nHäuptli-Suter, Verena, von Biberstein, Halden 290.\nHäusermann-Gertsch, Friedrich, Schneider von Egliswyl, Ziegelrain 709.\nHäusermann-Schmid, Jakob, Holzspalter von Egliswyl, Schmiedgasse 634.\nHäusler-Elmer, Karolina, Part. von Schwaderloch, Rathhausgasse 47.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8003,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2517,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:57:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p114",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p114.jpeg",
+      "bytes": 247064,
+      "sha256": "9122e93e188af8244249d466ed1772a4deb03c208930dd100f3becb951385e05",
+      "sha256_of": "original",
+      "working_copy": "1892_p114.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:57:52+00:00"
+  }
+}

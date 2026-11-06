@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p047",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p047.jpeg",
+    "bytes": 204753,
+    "sha256": "028891f41d25648ac3d842313802a46d794d9989add3e37d206f49ddecff94b3",
+    "sha256_of": "original",
+    "working_copy": "1892_p047.jpeg"
+  },
+  "text": "— 39 —\n\nHaus-\nNr.\n534. † Dieselbe. Abgetragen.\n1116. † „ Bahnwärterhäuschen.\n1239. † „ Abtritt.\n1254. † „ Waschmagazin.\n1300 † Hoch, Gustav, Samenhändler. Magazin.\n1287 Müller & Cie., Lithographische Kunstanstalt und Druckerei.\n535. Billo = Bär, Julius, Part.\n  Dr. Guttentag, Isidor Jul., Professor, von Czenstochau (russ. Polen).\n536. † Derselbe. Nebengebäude.\n537. † „ Scheune und Büreau von J. Spinner, Speditions = und\n  Brennmaterialiengeschäft, und öffentliche Brückenwaage.\n538. † „ Schmiede.\n539. † „ Holzschopf.\n540. † „ Gebäude mit Brückenwaage.\n1336 Brack = Mühlhaupt, Jakob, Kaufmann, von Elfingen.\n  Wehrli-Märk, Karl Emil, Architekt, von Höngg (Zürich).\n  Lüscher geb. Wülser, Lisette, Part., von Aarburg.\n1240 † Derselbe. Magazin.\n541. Rychner = Peter, Joh., Wirth, von Rohr.\n  Bart-Schmid, Johann, Postcommis, von Altenburg.\n  Semmler-Gans, Margaretha, Schuhhändlerin, von Pirmasens (Bayern).\n  Volkemer geb. Mußmann, Barbara, „ „ „\n542. † Derselbe. Holzhaus.\n543. † Spinner = Billo, Johann Jakob, Camioneur. Holzhaus.\n\nLaurenzenvorstadt.\n\n544. Stauffer, Albert, Bankangestellter, von Hallwyl.\n  Delhafen-Bührer, Hermann, Bankbeamter.\n  Wüest=Senn, Konrad, Bezirksschullehrer und Rektor, von Uffikon (Luzern).\n  Senn, Isidor, Lehrer, von Siggenthal.\n545. † Lagerhäuser der Centralschweiz.\n546. † Dieselben. Gebäude mit Dampfkessel.\n547. Steiner = Sennhauser, Samuel, Oekonom. Rößligut.\n  Holzach-Wäffler, Dietrich, Vater, Part.\n548. * Derselbe. Wohnhaus.\n  Winteler-Eckart, Jost, Dr., Professor, von Kerenzen (Glarus).\n1294 Derselbe. Wohnhaus.\n  Hintermann = Keller, Robert, Oberst = Lieutenant, Infanterie = Instruktor\n  I. Klasse.\n  Keller, Lina, Part., von Veltheim.\n  Wüthrich-Hecht, C. A., Kaufmann, Artistisches Institut, von Trub (Bern).\n549. † Derselbe. Scheune mit Einfahrt.\n550. † „ Speicher mit Waschhaus.\n551. † „ Schopf und Schweinescheune.\n1265 † „ Waaghäuschen.\n552. * Feer = Herzog, Karls, Erbschaft (Alte Taubstummenanstalt).\n  Welti-Spühler, Heinrich, Buchdrucker, von Zurzach.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7001,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2012,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:50:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p047",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p047.jpeg",
+      "bytes": 204753,
+      "sha256": "028891f41d25648ac3d842313802a46d794d9989add3e37d206f49ddecff94b3",
+      "sha256_of": "original",
+      "working_copy": "1892_p047.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:15+00:00"
+  }
+}

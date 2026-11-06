@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p066",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p066.jpeg",
+    "bytes": 228477,
+    "sha256": "e7b1c7645a5fc6917d03d2aa9deb62c1061d936aa3fcaaa64dd65655921d9eff",
+    "sha256_of": "original",
+    "working_copy": "1892_p066.jpeg"
+  },
+  "text": "829. Lüscher-Hilfiker, Hans, Notar, von Muhlen. Notariats- und Infassungs-\ngeschäft.\nRennhart-Maier, F. Martin, Professör von Wigoltingen (Thurgau).\nPfleger, Justine, Part.\nPfleger, Louisa, Part.\n830. † Derfelbe. Hinterhaus mit Bureau.\n831. * Wägner-Kummler, Emil, Negt.\nBührer-Gidemann, Anna, Wittwe.\nHürbin-Handerger, Ferdinand, Chef der Militärzanlei, von Wegenfetten.\nStocker-Wirz, Joseph Friedrich, Bankkontrolleur, von Obermumpf.\n1225 † Wägner-Kummler, Emil, Negotiant, Holzhaus.\n1226 † Derfelbe. Gartenhaus.\n832. Ryhner-Hez, Louis, Ingenieur.\nDünner, Sophie, Haushälterin, von Weinfelden (Thurgau).\nGrether, Julie, Erzieherin, von Tannenkirch (Baden).\nMeier-Wehrli, Jakob, von Holzerbank (Bäckerei und Pintenwirthschaft).\nWürki-Schaffner, Jakob, Mühlenbauer, von Mandach.\n1315 † Derfelbe. Holzschopf.\n833. Suter-Röhler Jakob, Schreiner, von Kolliken.\nStrübin-Hochsträger, Karl Gipser, von Viestal.\n834. Schmuziger-Rüetschi, Emil, Fabrikant. (Firma Schmuziger & Comp.\nSiegeilack- und Tintenfabrikation).\nZmhoj, Lina, Part.\n835. † Derfelbe. Fabrikationsgebäude.\n1329 † Derfelbe. Holzschopf.\n836. † Siebenmann, Gottlieb, Gerber. Rindenmagazin.\n837. † Schmuziger-Rüetschi, Emil, Fabrikant. Magazin.\n838. Siebenmann, Gottlieb, Gerber. Wohnhaus. Lederhandlung.\nSchmuziger-Stähti, Adolf, Fabrikant.\nBrad-Fauch, Jakob, Sekretär des Waffencheffs der Artillerie, von Elsingen.\n839. * Widmer, Jakob, in Lenzburg.\nKeller-Buser, Gottfried, Buchdrucker, von Hottwyl. Druck und Verlag\ndes Aargauischen Anzeigers, des Zuhrenthalerboten und des\nSchulblattes.\n840. Wyder-Braft, Albert, Kaufmann, von Oberstraf (Zürich). (Agentur-\nund Kommissionsgeschäft. Hauptagentur der Nordischen Feuer-\nversicherungsgesellschaft in London.)\n841. † Rüetschi-Bopp, Hermann und Westfeld-Spißli, Wilhelm, Glocken-\ngießerei.\n842. † Diefselben. Holzschopf.\n843. \" Wohnhaus.\nRüetschi-Bopp, Hermann, Techniker und Glockengießer.\nWestfeld-Spißli, Wilhelm, Kaufmann, von Unterschüp (Baden).\n(Firma: Glocken- und Geschützgießerei Aarau: Rüetschi & Co.)\nZeidenberg-Konstantinovsky, Simon, Part. von Odesa (Rußland).\nMüller-Eggenchwyler, Johann, Postcommis, von Muri.\nBrown, Sophie, Part., Nordamerika.\n844. † Diefselben. Glockengießerei.\n845. † \" Gießerei mit Schmiede.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4702,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2233,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p066",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p066.jpeg",
+      "bytes": 228477,
+      "sha256": "e7b1c7645a5fc6917d03d2aa9deb62c1061d936aa3fcaaa64dd65655921d9eff",
+      "sha256_of": "original",
+      "working_copy": "1892_p066.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:59+00:00"
+  }
+}

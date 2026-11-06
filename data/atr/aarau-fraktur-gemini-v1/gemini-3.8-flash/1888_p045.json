@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p045",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p045.jpeg",
+    "bytes": 256392,
+    "sha256": "0d29297586ef6bf983ed4c5bfdd986aecaf941ba9e0aafd3888faab6451af5bd",
+    "sha256_of": "original",
+    "working_copy": "1888_p045.jpeg"
+  },
+  "text": "— 35 —\n\nHaus=\nNr.\n1191 Derselbe. Kinderpavillon.\n1192 Derselbe. Hebammen= und Gebäranstalt.\n1193 Derselbe. Küchen=, Wasch= und Kesselhaus.\n1194 Derselbe. Leichenhaus mit Gärtnerwohnung und Magazin.\n484.† Staat Aargau. Pulverhaus.\n1063 * Schäfer=Troller, Adolf, Architekt.\n  Wyttenbach=de Vigneulle, Arthur, Bahningenieur der Schweiz. Central=\n  bahn, von Bern.\n1064 † Schäfer=Troller, Ad., Architekt. Holz= und Waschhaus.\n1065 † Derselbe. Baracke mit Küche.\n1125 † Derselbe. Schreinerwerkstätte.\n1126 † Derselbe. Gartenhaus.\n1139 † Derselbe. Ladenschopf.\n1148 † Derselbe. Büreau mit Magazin.\n1149 † Derselbe. Steinhauerhütte.\n485. Erismann=Sager, Fried., Güterexpedient, von Gontenschwyl.\n1229 † Derselbe. Scheune.\n486. Fischer=Eglinger, Rudolf, Speisewirth, Thierarzt und Viehinspektor,\n  von Fahrwangen.\n  Eglinger, Wilhelmine, Part., von Basel.\n487.* Derselbe.\n  Ryner=Hächler, Joseph, Eisenbahnkondukteur, von Herznach.\n  Spörri, Othmar Florian, Bremser, von Wettingen.\n  Rey=Mattenberger, Viktor, Hauptmann, Instruktor der Infanterie, von\n  Othmarsingen.\n488. Bally=Schmitter, Adeline, Fabrikants Wittwe.\n489.† Dieselbe. Bad= und Waschhaus.\n\nHinter dem Bahnhof.\n\n490.† Bally=Arndt, Eugen, Fabrikgebäude. Fabrikation elastischer Gewebe.\n491.† Derselbe. Kesselhaus.\n492.† Derselbe. Kosthaus.\n493.† Derselbe. Schreiner= und Schlosserwerkstätte.\n494.* Zschokke & Cie.\n  Eckert=Giger, Eduard, Zimmerpolier, von Großräudchen (Preußen).\n  Jäggi=Weber, Hermann, Buchhalter, von Strengelbach.\n  Jäggi=Urech, Sophie, Wittwe, Part., von Strengelbach.\n  Schmid=Baumann, Lud., Schreinermeister, von Watterdingen (Baden).\n  Deubelbeiß=Schaffner, Samuel, Güterschaffner, von Holderbank.\n  Wernli=Wernli, Johann, Magaziner, von Thalheim.\n1072 Gautschi=Maculin, Rud., Wirth z. Frohsinn, von Reinach.\n  Lattmann=Ackermann, Georg Heinrich, Lokomotivheizer, von Sternenberg\n  (Zürich).\n  Bolliger=Hürzeler, Jakob, Lokomotivheizer, von Schloßrued.\n495. Bouvard=Schultheß, Joh., Güterexpedient, von Remetschwyl.\n496.* Käser=Plüß, Rudolf, Postkondukteur, in Buchs.\n  Bolliger=Huggenberger, Jb., Oberwagenwärter, von Buchs.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8462,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2104,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:28:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p045",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p045.jpeg",
+      "bytes": 256392,
+      "sha256": "0d29297586ef6bf983ed4c5bfdd986aecaf941ba9e0aafd3888faab6451af5bd",
+      "sha256_of": "original",
+      "working_copy": "1888_p045.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:03+00:00"
+  }
+}

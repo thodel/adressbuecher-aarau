@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p021",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p021.jpeg",
+    "bytes": 231550,
+    "sha256": "741a1a40286fd25b3bda1d49864ff7938e928249dd1937f285159726d5394295",
+    "sha256_of": "original",
+    "working_copy": "1892_p021.jpeg"
+  },
+  "text": "— 13 —\nHaus-\nNr.\n142.  Gloor-Geißler, Rudolf, von Birrwyl.  Bäckerei.\n  Schaffner-Furrimann, Samuel, Camioneur, von Effingen.\n143. * Derselbe.\n  Wernli-Wernli, Johann, Gab., Taglöhner, von Thalheim.\n  Müller-Müller, Verena, Wittwe, Part. von Unterkulm.\n  Müller, Verena, Spetterin, von Unterkulm.\n  Müller-Bonäsch, Jakob, Buchbinder, von Unterkulm.\n  Kallmann geb. Hausmann, Elise, Fabrikarbeiterin, von Mühlheim (Baden).\n  Kiburz-Wütherich, Barbara, Fabrikarbeiterin von Unterkulm.\n144. * Beer-Schmid, Heinrichs Erbschaft.\n  Walti-Müller, Jakob, Milchverkäufer, von Dürrenäsch (Spezereihandlung)\n  Zurlinden-Walti, Fritz, Spengler, von Zofingen.\n  Salm, Maria, Damenschneiderin, von Veltheim.\n  Salm, Barbara, Haushälterin, von Veltheim.\n145. * Dieselbe.\n  Wernli-Bolliger, Johann, Stadtarbeiter, von Thalheim.\n  Hemmeler, Rosina, Part.\n  Suter, Anna Elisabeth, Spetterin von Suhr.\n  Rohr-Wehrli, Daniel, Stadtarbeiter, von Hunzenschwyl.\n146.  Kull, Philipp, Spenglermeister.  Spenglerwaaren- und Lampenlager.\n  Müller-Schneider, Susanna, Haushälterin von Birr.\n147.  Andres-Meier, Samuel, Schlossermeister.\n  Fäs-Bircher, Maria, Wittwe, Fabrikarbeiterin, von Oberkulm.\n  Graber-Buchmüller, Otto, Färber von Seengen.\n148. * Kull, Philipp. Spenglermeister.  Spenglerwaaren- und Lampenlager\n  Kistler-Treier, Emil, Taglöhner, von Bözen.\n  Bolliger-Häfeli, Gottfried, Schmied von Uerkheim.\n  Cima-Hauri, Johann, Mechaniker, von Aquila (Tessin).\n149.  Drack-Hauser, Hermann, Metallgießer.\n  Furter geb. Rohr, Anna, Taglöhnerin, von Staufen.\n  Blum, Joseph, Polizeidiener, von Wyl.\n150.  Siegrist-Fischer, Jakob, Metzger, von Meisterschwanden.\n  Buchsier-Lüscher, Samuel, Taglöhner, von Schöftland.\n  Rüegger-Holliger, Maria, Wittwe, von Niederwyl.\n151. * Hoffmann, Johann, Schuhmachermeister.\n  Hediger-Born, Wilhelm, Postangestellter, von Reinach.\n  Ruch-Schälkli, Alfred, Schuhmacher, von Mitlödi (Glarus).\n  Belz-Ochsner, Johann, Wagenvisiteur, von Zihlschlacht (Thurgau).\n152.  Wiederkehr-Deschger, Viktoria, Wittwe, von Zell (Luzern). Wäscherei\n  und Glätterei.\n  Deschger, Klara, Wäscherin, von Wyl.\n  Wernle-Wehrli, Maria, Maschinenstickerin, von Thalheim.\n  Holzreuter-Suter, Katharina, Wittwe, Taglöhnerin, von Ueken.\n  Häring, Marie, Spetterin, von Dettighofen (Baden).\n  Plüß-Lehner, Elise, Spetterin, von Vordemwald.\n  Plüß, Elise, Telephonistin, von Vordemwald.\n153. a. * Haßler-Müller, Theodor, Buchbinder.\n  Theez-Amsler, Emilie, Schirmmacherin, von Paris.  Costüm-Lager.\n  Dürr-Wüthrich, Gottlieb, Bauamtsarbeiter.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8398,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2527,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:47:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p021",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p021.jpeg",
+      "bytes": 231550,
+      "sha256": "741a1a40286fd25b3bda1d49864ff7938e928249dd1937f285159726d5394295",
+      "sha256_of": "original",
+      "working_copy": "1892_p021.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:01+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p038",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p038.jpeg",
+    "bytes": 228169,
+    "sha256": "023869a720c3b051f8faa6aa681fd2db3a3caae3d03c9fe70ee665513a688e2b",
+    "sha256_of": "original",
+    "working_copy": "1888_p038.jpeg"
+  },
+  "text": "— 28 —\n\nHaus-\nNr.\nJenseits der Aare.\n\n339.* Zimmermann, Maria, Wittwe, von Döttingen, in Bempflingen (Würt-\n    temberg).\n  Heuberger-Siebenmann, Gottlieb, Sekretär.\n  Rychner-Preisig, Otto, Fabrikant.\n  Schaffner-Zeller, Rudolf, Part.\n1247 † Siebenmann-Hagnauer, Friedrich, Bierbrauer, Wagenschopf und\n    Eiskeller.\n\nWeinberg.\n\n340.† Frey-Frey, K., Stadtrath. Rebhäuschen.\n341.† Kern-Richner, Jakob, Rebhäuschen.\n\nJenseits der Aare.\n\n342. Bauhofer-Keller, Anna, Kaufmanns Wittwe.\n  Tuchschmid, August, Dr. Professor, von Thundorf (Thurgau).\n  Hunziker-Müller, Jakob, Schuhmacher, von Unterkulm.\n343.† Dieselbe. Holzschopf.\n344.† Gemeinde Aarau. Holzmagazin.\n345.† Dieselbe. Werkhaus.\n346. Müller-Rothpletz, Arnold, Architekt, Büreau und Wohnung (altes\n    Schützenhaus).\n348.† Gemeinde Aarau. Badanstalt.\n\nLaurenzenthorgasse.\n\n349. Haßler-Wanger, Emil, Negot., Kolonialwaarenhandlung.\n  Erné-Leblanc, Eduard, Kaufmann, von Leuggern.\n350.† Derselbe. Holzschopf.\n351. Aargauische Kreditanstalt.\n  Pfau-Bleuler, Joh. Jakob, Direktor, von Schaffhausen.\n\nGraben.\n\n352. Dreyfuß-Görtschel, Adolf, Kaufmann, von Endingen. Ellenwaaren-\n    handlung und Damenkonfektion.\n\nLaurenzenvorstadt.\n\n353.* Feer-Zubers Erbschaft. (Schloßgarten.)\n  Neuburger-Imhof, Albert, Part.\n  Rohr-Baumann, Hans, Oberrichter, von Hunzenschwyl.\n354.† Dieselbe. Remise.\n355.† Dieselbe. Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5370,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1365,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0256,
+    "mean_line_chars": 32.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:27:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p038",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p038.jpeg",
+      "bytes": 228169,
+      "sha256": "023869a720c3b051f8faa6aa681fd2db3a3caae3d03c9fe70ee665513a688e2b",
+      "sha256_of": "original",
+      "working_copy": "1888_p038.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:12+00:00"
+  }
+}

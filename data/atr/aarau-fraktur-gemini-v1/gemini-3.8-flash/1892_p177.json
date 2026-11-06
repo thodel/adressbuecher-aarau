@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p177",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p177.jpeg",
+    "bytes": 213920,
+    "sha256": "932715f1e934d91e4d6b8934c086356f9ab8e17b0d1a9fd454e1cdc54d210350",
+    "sha256_of": "original",
+    "working_copy": "1892_p177.jpeg"
+  },
+  "text": "161\n\nVerzeichniß der Behörden, Beamten und Angestellten\nder Stadtgemeinde Aarau.\n\nGemeinderath.\nGde.-Ammann: Schmidt, Max, Für=\n  sprech.\nVice-  \"  Stierli-Brentano, G.\n  L., Fürsprech.\nGde.-Räthe: Frey-Frey, Carl, Kaufmann.\n  Gonzenbach-Gonzenbach, A.,\n  Ingenieur.\n  Häßig, Hans.\n  Schäfer-Troller, Ad., Architekt.\n  Siebenmann, Fritz, Bierbr.\n\nGemeindeschreiber.\nNiggli-Bohnenblust, Arnold, Fürsprech.\nStellvertreter: Frey-Kiefer, Josef, Notar.\n\nFriedensrichter.\nErismann, Abraham, Oekonom.\n\nEinwohner-Rechnungskommission.\nPräsident: Dr. Blattner, Otto, Fürsprech.\nMitglieder: Dambach, J., Postadjunkt.\n  Fleiner, Hans, Fabrikant.\n  Frey-Schmidlin, Vice-Bank=\n  direktor.\n  Gasser, Emanuel, Fabrikt.\n  Kauf, A., Bankbuchhalter.\n  Müller-Haberstich, Kaufmann.\n\nOrtsbürger-Rechnungskommission.\nPräsident: Henz-Plüß, J., Kaufmann.\nMitglieder: Baumann, Carl, Weinhdl.\n  Gysi, Hans, Mechaniker.\n  Herzog, Hans, Staatsarchiv.\n  Kiefer, Robert, Bankbeamter.\n  Rothpletz-Richner, Fabrikant.\n\nSchulpflege.\nPräsident: Dr. Liechti, Paul, Professor.\nVice-  \"  Sauerländer, R.\nAktuar: Fischer, X., Pfarrer.\nMitglieder: Bally, Eugen, Fabrikant.\n  Graf, Ernst, Pfarrer.\n  Keller, G., Redaktor.\n  Kistler, Steuerpräsident.\n\n[spalte 2]\n  Schmidt, Max, Stadtammann.\n  Dr. Stähelin, A.\n  Wernly, Rud., Pfarrer.\n  Zürcher, Arzt.\n\nSteuerkommission.\nPräsident: Heller, H., Rechtsagent.\nVice-  \"  Doser, Leop., Direkt.-Sekretär.\nMitglieder: Frey-Herzog, Aug., Fabrikant.\n  Häßig Hans, Stadtrath.\n  Kern, Heinrich, Mechaniker.\n  Schäfer, A., Stadtrath.\nErsatzmann: Gysi-Studler, A., Mechaniker.\nAktuar: Amsler, Otto, Stadtkassier.\n\nForstkommission.\nPräsident: Schmidt, Max Stadtammann.\nMitglieder: Erismann, A., Friedensrichter.\n  Fahrländer, Eugen.\n  Gonzenbach, A.\n  Häßig-Lienhard.\n  Imhof-Munziger, Emil.\n  Siebenmann, Bernhard.\n  Siebenmann-Brun Brandolf.\n  Siebenmann, Rud.\nBerathend: Meisel, Xav., Forstverwalter.\nAktuar: Niggli, A., Fürsprech u. Ge=\n  meindeschreiber.\n\nForstverwalter.\nMeisel, Xaver.\n\nFondsverwalter.\nAndres, Gottlieb.\n\nBauverwalter.\nSiebenmann-Hürsch, Gottlieb.\n\nCivilstandsbeamter.\nFrey-Kiefer, Josef, Notar.\n\nStadtkassier.\nAmsler, Otto.\n\nBetreibungsbeamter.\nSiebenmann, Emil, Sekretär d. Gemeindek.\n\nGemeindeweibel.\nFischer, Thomas.\n\n11",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8614,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2243,
+    "lines": 85,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 24.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:07:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p177",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p177.jpeg",
+      "bytes": 213920,
+      "sha256": "932715f1e934d91e4d6b8934c086356f9ab8e17b0d1a9fd454e1cdc54d210350",
+      "sha256_of": "original",
+      "working_copy": "1892_p177.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:36+00:00"
+  }
+}

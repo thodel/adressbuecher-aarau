@@ -1,0 +1,1398 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-v1",
+  "model": "kraken-german_print",
+  "engine": "kraken",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p039",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p039.jpeg",
+    "bytes": 264306,
+    "sha256": "5ec764de5d77e5b57a048deabcc8bcae6fb00bac6daec94e68e4348a7f0e640f",
+    "sha256_of": "original",
+    "working_copy": "1888_p039.jpeg"
+  },
+  "text": "\n29\nHaus⸗\nNr.\n356. Hunziker, Emil Guido, Rentier.\nKäſer⸗Kähr, Ulrich, Kutſcher, von Melchnau (Bern).\n357. † Derſelbe. Remiſe.\n358. Derſelbe. Waſchhaus.\n359. † Derſelbe. Sommerhaus.\n360.* Studer⸗Ehrſam, Theodors, Arzts Erbſchaft.\nKurz und Stierli, Advokatur⸗ und Notariatsbüreau (Inhaber E. Kurz,\nFürſprech und Notar und G. L. Stierli, Fürſprech).\nLüſcher⸗Wülſer, Liſette, Part., von Aarburg.\nMärk, Ida, Drs., Part.\nKurz, Erwin, Fürſprech, von Schwamendingen (Zürich).\nWehrli, Karl Emil, Architekt, von Höngg (Zürich).\nKettiger⸗Bertſchinger, Arnold, Procuriſt, von Lieſtal.\n361.* Dieſelbe.\nEtter⸗Hägi, Reinhard, Milchverkäufer, von Langrickenbach (Thurgau).\nWirz⸗Widmer, Adolf, Poſtkondukteur, von Menziken.\n362.* Dieſelbe.\nWernli⸗Reinhard, Kaſpar, Weichenwärter, von Thalheim.\nSchmid, Roſa, Damenſchneiderin, von Gipſ.\n363.“ Dieſelbe.\nFrey⸗Häuptli, Gottlieb, Eiſenbahnkondukteur, von Biberſtein.\n364. Wydler⸗Frey, Med. Drs. Erbſchaft.\nWydler, Mathilde, Partik.\nFrey⸗Hagnauer, Konrad, Dr. Med., praktiſcher Arzt.\n365. u. 366. Dieſelbe. Scheune.\n367.² Schmitter⸗ Schmidlin, Friedrichs, Fabrikants Erbſchaft.\nTanner, Erwin, Fürſprech, (Advokaturbüreau).\nZehnder⸗Siebenmann, Traugott, Part., von Birmenſtorf.\n368.369. u. 370.† Dieſelbe. Oekonomiegebäude.\n371. Hunziker⸗Fleiner, Hermann, Privatier.\nFahrländer⸗Hunziker, Karl, Dr. Jur. Regierungsrath, von Laufenburg.\n372. Derſelbe. Holzhaus und Remiſe.\n373. Hunziker⸗Züſt, Guido, Rentier. Comptoir und Magazin.\n374. u. 375. Derſelbe. Wohngebäude.\n376.* Hunziker⸗Springer's Erbſchaft.\nRuef⸗Zweifel, Wilhelm, Schloſſer, von Rekingen.\nMeher⸗Hägeli, Alois, Taglöhner, von Büron (Luzern).\nFiſcher⸗Roth, Ludwig, Straßenwärter.\nDill⸗Frei, Joh. Ib. Chriſtoph, Schuſter, von Baſel.\nZimmerli⸗Stenz, Eduard, Cementmüller, von Oftringen.\nSuter⸗Arber, Rudolf, Poſamenter, von Gränichen.\nWeber⸗Suter, Joh., Gärtner, von Oberflachs.\nBrunnhofer⸗Bolliger, Liſette, Fabrikarbeiterin.\nSteiner⸗Haller, Heinrich, Taglöhner, von Rein.\nHäuſermann⸗Ruef, Adolf, Taglöhner, von Egliswyl.\nLeu⸗Karrer, Jakob, Taglöhner, von Schloßrued.\nBlattner⸗Hemmeler, Jakob, Maler, von Küttigen.\nBlattner, Auguſt, Gerichtskanzliſt, von Küttigen.\nMüller⸗Suter, Jakob, Poſamenter, von Gränichen.",
+  "lines": [
+    {
+      "order": 0,
+      "baseline": [
+        [
+          526.0,
+          97.0
+        ],
+        [
+          535.0,
+          97.0
+        ]
+      ],
+      "bbox": [
+        526.0,
+        71.0,
+        535.0,
+        108.0
+      ],
+      "boundary": null,
+      "text": "",
+      "confidence": null,
+      "regions": []
+    },
+    {
+      "order": 1,
+      "baseline": [
+        [
+          465.0,
+          98.0
+        ],
+        [
+          502.0,
+          98.0
+        ]
+      ],
+      "bbox": [
+        465.0,
+        81.0,
+        502.0,
+        109.0
+      ],
+      "boundary": null,
+      "text": "29",
+      "confidence": 0.9999547004699707,
+      "regions": []
+    },
+    {
+      "order": 2,
+      "baseline": [
+        [
+          130.0,
+          115.0
+        ],
+        [
+          176.0,
+          113.0
+        ]
+      ],
+      "bbox": [
+        130.0,
+        102.0,
+        176.0,
+        125.0
+      ],
+      "boundary": null,
+      "text": "Haus⸗",
+      "confidence": 0.9971232295036316,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 3,
+      "baseline": [
+        [
+          137.0,
+          130.0
+        ],
+        [
+          166.0,
+          129.0
+        ]
+      ],
+      "bbox": [
+        136.0,
+        119.0,
+        166.0,
+        136.0
+      ],
+      "boundary": null,
+      "text": "Nr.",
+      "confidence": 0.9983294208844503,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 4,
+      "baseline": [
+        [
+          131.0,
+          149.0
+        ],
+        [
+          500.0,
+          150.0
+        ]
+      ],
+      "bbox": [
+        130.0,
+        130.0,
+        500.0,
+        161.0
+      ],
+      "boundary": null,
+      "text": "356. Hunziker, Emil Guido, Rentier.",
+      "confidence": 0.9995733737945557,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 5,
+      "baseline": [
+        [
+          187.0,
+          172.0
+        ],
+        [
+          661.0,
+          173.0
+        ]
+      ],
+      "bbox": [
+        186.0,
+        154.0,
+        661.0,
+        189.0
+      ],
+      "boundary": null,
+      "text": "Käſer⸗Kähr, Ulrich, Kutſcher, von Melchnau (Bern).",
+      "confidence": 0.999429429769516,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 6,
+      "baseline": [
+        [
+          130.0,
+          196.0
+        ],
+        [
+          358.0,
+          196.0
+        ]
+      ],
+      "bbox": [
+        130.0,
+        175.0,
+        358.0,
+        204.0
+      ],
+      "boundary": null,
+      "text": "357. † Derſelbe. Remiſe.",
+      "confidence": 0.9677786231040955,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 7,
+      "baseline": [
+        [
+          130.0,
+          217.0
+        ],
+        [
+          391.0,
+          218.0
+        ]
+      ],
+      "bbox": [
+        130.0,
+        196.0,
+        391.0,
+        228.0
+      ],
+      "boundary": null,
+      "text": "358. Derſelbe. Waſchhaus.",
+      "confidence": 0.9999258422851562,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 8,
+      "baseline": [
+        [
+          130.0,
+          242.0
+        ],
+        [
+          412.0,
+          242.0
+        ]
+      ],
+      "bbox": [
+        130.0,
+        221.0,
+        412.0,
+        252.0
+      ],
+      "boundary": null,
+      "text": "359. † Derſelbe. Sommerhaus.",
+      "confidence": 0.9843039278473172,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 9,
+      "baseline": [
+        [
+          131.0,
+          264.0
+        ],
+        [
+          616.0,
+          264.0
+        ]
+      ],
+      "bbox": [
+        131.0,
+        242.0,
+        616.0,
+        274.0
+      ],
+      "boundary": null,
+      "text": "360.* Studer⸗Ehrſam, Theodors, Arzts Erbſchaft.",
+      "confidence": 0.9878618882057515,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 10,
+      "baseline": [
+        [
+          188.0,
+          286.0
+        ],
+        [
+          720.0,
+          287.0
+        ],
+        [
+          835.0,
+          291.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        266.0,
+        835.0,
+        301.0
+      ],
+      "boundary": null,
+      "text": "Kurz und Stierli, Advokatur⸗ und Notariatsbüreau (Inhaber E. Kurz,",
+      "confidence": 0.9990409603624633,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 11,
+      "baseline": [
+        [
+          245.0,
+          310.0
+        ],
+        [
+          721.0,
+          312.0
+        ]
+      ],
+      "bbox": [
+        244.0,
+        290.0,
+        721.0,
+        325.0
+      ],
+      "boundary": null,
+      "text": "Fürſprech und Notar und G. L. Stierli, Fürſprech).",
+      "confidence": 0.9965741264820099,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 12,
+      "baseline": [
+        [
+          188.0,
+          332.0
+        ],
+        [
+          584.0,
+          335.0
+        ]
+      ],
+      "bbox": [
+        187.0,
+        312.0,
+        584.0,
+        348.0
+      ],
+      "boundary": null,
+      "text": "Lüſcher⸗Wülſer, Liſette, Part., von Aarburg.",
+      "confidence": 0.9979031167247079,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 13,
+      "baseline": [
+        [
+          187.0,
+          354.0
+        ],
+        [
+          409.0,
+          355.0
+        ]
+      ],
+      "bbox": [
+        186.0,
+        334.0,
+        409.0,
+        367.0
+      ],
+      "boundary": null,
+      "text": "Märk, Ida, Drs., Part.",
+      "confidence": 0.9991171224550768,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 14,
+      "baseline": [
+        [
+          188.0,
+          379.0
+        ],
+        [
+          694.0,
+          379.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        356.0,
+        694.0,
+        391.0
+      ],
+      "boundary": null,
+      "text": "Kurz, Erwin, Fürſprech, von Schwamendingen (Zürich).",
+      "confidence": 0.9992665167038257,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 15,
+      "baseline": [
+        [
+          188.0,
+          400.0
+        ],
+        [
+          651.0,
+          403.0
+        ]
+      ],
+      "bbox": [
+        187.0,
+        382.0,
+        651.0,
+        410.0
+      ],
+      "boundary": null,
+      "text": "Wehrli, Karl Emil, Architekt, von Höngg (Zürich).",
+      "confidence": 0.9997623149229555,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 16,
+      "baseline": [
+        [
+          187.0,
+          424.0
+        ],
+        [
+          661.0,
+          425.0
+        ]
+      ],
+      "bbox": [
+        186.0,
+        404.0,
+        661.0,
+        437.0
+      ],
+      "boundary": null,
+      "text": "Kettiger⸗Bertſchinger, Arnold, Procuriſt, von Lieſtal.",
+      "confidence": 0.9999133536109218,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 17,
+      "baseline": [
+        [
+          131.0,
+          448.0
+        ],
+        [
+          266.0,
+          448.0
+        ]
+      ],
+      "bbox": [
+        131.0,
+        425.0,
+        266.0,
+        458.0
+      ],
+      "boundary": null,
+      "text": "361.* Dieſelbe.",
+      "confidence": 0.9762531399726868,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 18,
+      "baseline": [
+        [
+          188.0,
+          470.0
+        ],
+        [
+          809.0,
+          472.0
+        ]
+      ],
+      "bbox": [
+        187.0,
+        447.0,
+        809.0,
+        485.0
+      ],
+      "boundary": null,
+      "text": "Etter⸗Hägi, Reinhard, Milchverkäufer, von Langrickenbach (Thurgau).",
+      "confidence": 0.9994543595100517,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 19,
+      "baseline": [
+        [
+          187.0,
+          493.0
+        ],
+        [
+          661.0,
+          495.0
+        ]
+      ],
+      "bbox": [
+        186.0,
+        474.0,
+        661.0,
+        509.0
+      ],
+      "boundary": null,
+      "text": "Wirz⸗Widmer, Adolf, Poſtkondukteur, von Menziken.",
+      "confidence": 0.9996099338239554,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 20,
+      "baseline": [
+        [
+          131.0,
+          515.0
+        ],
+        [
+          267.0,
+          516.0
+        ]
+      ],
+      "bbox": [
+        130.0,
+        495.0,
+        267.0,
+        524.0
+      ],
+      "boundary": null,
+      "text": "362.* Dieſelbe.",
+      "confidence": 0.9899972756703694,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 21,
+      "baseline": [
+        [
+          187.0,
+          539.0
+        ],
+        [
+          697.0,
+          540.0
+        ]
+      ],
+      "bbox": [
+        186.0,
+        513.0,
+        697.0,
+        551.0
+      ],
+      "boundary": null,
+      "text": "Wernli⸗Reinhard, Kaſpar, Weichenwärter, von Thalheim.",
+      "confidence": 0.9997760709726585,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 22,
+      "baseline": [
+        [
+          187.0,
+          561.0
+        ],
+        [
+          584.0,
+          563.0
+        ]
+      ],
+      "bbox": [
+        186.0,
+        542.0,
+        584.0,
+        577.0
+      ],
+      "boundary": null,
+      "text": "Schmid, Roſa, Damenſchneiderin, von Gipſ.",
+      "confidence": 0.9991220657418414,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 23,
+      "baseline": [
+        [
+          132.0,
+          584.0
+        ],
+        [
+          267.0,
+          586.0
+        ]
+      ],
+      "bbox": [
+        131.0,
+        561.0,
+        267.0,
+        596.0
+      ],
+      "boundary": null,
+      "text": "363.“ Dieſelbe.",
+      "confidence": 0.9543442746003469,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 24,
+      "baseline": [
+        [
+          188.0,
+          609.0
+        ],
+        [
+          729.0,
+          609.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        583.0,
+        729.0,
+        621.0
+      ],
+      "boundary": null,
+      "text": "Frey⸗Häuptli, Gottlieb, Eiſenbahnkondukteur, von Biberſtein.",
+      "confidence": 0.9988116224606832,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 25,
+      "baseline": [
+        [
+          132.0,
+          628.0
+        ],
+        [
+          535.0,
+          631.0
+        ]
+      ],
+      "bbox": [
+        131.0,
+        609.0,
+        535.0,
+        645.0
+      ],
+      "boundary": null,
+      "text": "364. Wydler⸗Frey, Med. Drs. Erbſchaft.",
+      "confidence": 0.9984262522898222,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 26,
+      "baseline": [
+        [
+          189.0,
+          654.0
+        ],
+        [
+          426.0,
+          653.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        633.0,
+        426.0,
+        663.0
+      ],
+      "boundary": null,
+      "text": "Wydler, Mathilde, Partik.",
+      "confidence": 0.9992659568786622,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 27,
+      "baseline": [
+        [
+          188.0,
+          678.0
+        ],
+        [
+          662.0,
+          678.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        656.0,
+        662.0,
+        691.0
+      ],
+      "boundary": null,
+      "text": "Frey⸗Hagnauer, Konrad, Dr. Med., praktiſcher Arzt.",
+      "confidence": 0.9994510209560394,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 28,
+      "baseline": [
+        [
+          132.0,
+          698.0
+        ],
+        [
+          436.0,
+          700.0
+        ]
+      ],
+      "bbox": [
+        131.0,
+        677.0,
+        436.0,
+        709.0
+      ],
+      "boundary": null,
+      "text": "365. u. 366. Dieſelbe. Scheune.",
+      "confidence": 0.9990268964921275,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 29,
+      "baseline": [
+        [
+          132.0,
+          721.0
+        ],
+        [
+          718.0,
+          724.0
+        ]
+      ],
+      "bbox": [
+        132.0,
+        698.0,
+        718.0,
+        737.0
+      ],
+      "boundary": null,
+      "text": "367.² Schmitter⸗ Schmidlin, Friedrichs, Fabrikants Erbſchaft.",
+      "confidence": 0.9873306340858584,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 30,
+      "baseline": [
+        [
+          189.0,
+          747.0
+        ],
+        [
+          607.0,
+          744.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        729.0,
+        607.0,
+        758.0
+      ],
+      "boundary": null,
+      "text": "Tanner, Erwin, Fürſprech, (Advokaturbüreau).",
+      "confidence": 0.9995702288367532,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 31,
+      "baseline": [
+        [
+          189.0,
+          769.0
+        ],
+        [
+          700.0,
+          769.0
+        ]
+      ],
+      "bbox": [
+        189.0,
+        747.0,
+        700.0,
+        779.0
+      ],
+      "boundary": null,
+      "text": "Zehnder⸗Siebenmann, Traugott, Part., von Birmenſtorf.",
+      "confidence": 0.9999076004298229,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 32,
+      "baseline": [
+        [
+          132.0,
+          790.0
+        ],
+        [
+          568.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        131.0,
+        770.0,
+        568.0,
+        803.0
+      ],
+      "boundary": null,
+      "text": "368.369. u. 370.† Dieſelbe. Oekonomiegebäude.",
+      "confidence": 0.9888078014055888,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 33,
+      "baseline": [
+        [
+          132.0,
+          814.0
+        ],
+        [
+          577.0,
+          813.0
+        ]
+      ],
+      "bbox": [
+        131.0,
+        794.0,
+        577.0,
+        827.0
+      ],
+      "boundary": null,
+      "text": "371. Hunziker⸗Fleiner, Hermann, Privatier.",
+      "confidence": 0.9998513304051899,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 34,
+      "baseline": [
+        [
+          190.0,
+          836.0
+        ],
+        [
+          825.0,
+          839.0
+        ]
+      ],
+      "bbox": [
+        189.0,
+        816.0,
+        825.0,
+        854.0
+      ],
+      "boundary": null,
+      "text": "Fahrländer⸗Hunziker, Karl, Dr. Jur. Regierungsrath, von Laufenburg.",
+      "confidence": 0.9991052817942491,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 35,
+      "baseline": [
+        [
+          132.0,
+          859.0
+        ],
+        [
+          492.0,
+          860.0
+        ]
+      ],
+      "bbox": [
+        131.0,
+        841.0,
+        492.0,
+        873.0
+      ],
+      "boundary": null,
+      "text": "372. Derſelbe. Holzhaus und Remiſe.",
+      "confidence": 0.9992689779826573,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 36,
+      "baseline": [
+        [
+          133.0,
+          882.0
+        ],
+        [
+          738.0,
+          884.0
+        ]
+      ],
+      "bbox": [
+        132.0,
+        861.0,
+        738.0,
+        897.0
+      ],
+      "boundary": null,
+      "text": "373. Hunziker⸗Züſt, Guido, Rentier. Comptoir und Magazin.",
+      "confidence": 0.999139430230124,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 37,
+      "baseline": [
+        [
+          132.0,
+          905.0
+        ],
+        [
+          477.0,
+          907.0
+        ]
+      ],
+      "bbox": [
+        131.0,
+        885.0,
+        477.0,
+        919.0
+      ],
+      "boundary": null,
+      "text": "374. u. 375. Derſelbe. Wohngebäude.",
+      "confidence": 0.9977162122726441,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 38,
+      "baseline": [
+        [
+          133.0,
+          927.0
+        ],
+        [
+          513.0,
+          929.0
+        ]
+      ],
+      "bbox": [
+        132.0,
+        909.0,
+        513.0,
+        944.0
+      ],
+      "boundary": null,
+      "text": "376.* Hunziker⸗Springer's Erbſchaft.",
+      "confidence": 0.9840035885572433,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 39,
+      "baseline": [
+        [
+          190.0,
+          952.0
+        ],
+        [
+          626.0,
+          952.0
+        ]
+      ],
+      "bbox": [
+        190.0,
+        931.0,
+        626.0,
+        962.0
+      ],
+      "boundary": null,
+      "text": "Ruef⸗Zweifel, Wilhelm, Schloſſer, von Rekingen.",
+      "confidence": 0.9995273491169544,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 40,
+      "baseline": [
+        [
+          190.0,
+          975.0
+        ],
+        [
+          687.0,
+          975.0
+        ]
+      ],
+      "bbox": [
+        190.0,
+        955.0,
+        687.0,
+        989.0
+      ],
+      "boundary": null,
+      "text": "Meher⸗Hägeli, Alois, Taglöhner, von Büron (Luzern).",
+      "confidence": 0.9907012675322738,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 41,
+      "baseline": [
+        [
+          190.0,
+          998.0
+        ],
+        [
+          529.0,
+          998.0
+        ]
+      ],
+      "bbox": [
+        190.0,
+        979.0,
+        529.0,
+        1007.0
+      ],
+      "boundary": null,
+      "text": "Fiſcher⸗Roth, Ludwig, Straßenwärter.",
+      "confidence": 0.9997712704870436,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 42,
+      "baseline": [
+        [
+          189.0,
+          1020.0
+        ],
+        [
+          659.0,
+          1021.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        999.0,
+        659.0,
+        1034.0
+      ],
+      "boundary": null,
+      "text": "Dill⸗Frei, Joh. Ib. Chriſtoph, Schuſter, von Baſel.",
+      "confidence": 0.9985231792225557,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 43,
+      "baseline": [
+        [
+          190.0,
+          1046.0
+        ],
+        [
+          699.0,
+          1044.0
+        ]
+      ],
+      "bbox": [
+        189.0,
+        1026.0,
+        699.0,
+        1056.0
+      ],
+      "boundary": null,
+      "text": "Zimmerli⸗Stenz, Eduard, Cementmüller, von Oftringen.",
+      "confidence": 0.9992239544024835,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 44,
+      "baseline": [
+        [
+          189.0,
+          1067.0
+        ],
+        [
+          643.0,
+          1066.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        1046.0,
+        643.0,
+        1076.0
+      ],
+      "boundary": null,
+      "text": "Suter⸗Arber, Rudolf, Poſamenter, von Gränichen.",
+      "confidence": 0.9997916690846707,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 45,
+      "baseline": [
+        [
+          189.0,
+          1089.0
+        ],
+        [
+          601.0,
+          1089.0
+        ]
+      ],
+      "bbox": [
+        189.0,
+        1070.0,
+        601.0,
+        1101.0
+      ],
+      "boundary": null,
+      "text": "Weber⸗Suter, Joh., Gärtner, von Oberflachs.",
+      "confidence": 0.9997152339580447,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 46,
+      "baseline": [
+        [
+          188.0,
+          1113.0
+        ],
+        [
+          596.0,
+          1112.0
+        ]
+      ],
+      "bbox": [
+        187.0,
+        1092.0,
+        596.0,
+        1125.0
+      ],
+      "boundary": null,
+      "text": "Brunnhofer⸗Bolliger, Liſette, Fabrikarbeiterin.",
+      "confidence": 0.9998923692297428,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 47,
+      "baseline": [
+        [
+          189.0,
+          1136.0
+        ],
+        [
+          616.0,
+          1136.0
+        ]
+      ],
+      "bbox": [
+        189.0,
+        1116.0,
+        616.0,
+        1148.0
+      ],
+      "boundary": null,
+      "text": "Steiner⸗Haller, Heinrich, Taglöhner, von Rein.",
+      "confidence": 0.9999390568422235,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 48,
+      "baseline": [
+        [
+          189.0,
+          1160.0
+        ],
+        [
+          659.0,
+          1158.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        1138.0,
+        659.0,
+        1173.0
+      ],
+      "boundary": null,
+      "text": "Häuſermann⸗Ruef, Adolf, Taglöhner, von Egliswyl.",
+      "confidence": 0.998625590155522,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 49,
+      "baseline": [
+        [
+          189.0,
+          1183.0
+        ],
+        [
+          623.0,
+          1181.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        1162.0,
+        623.0,
+        1193.0
+      ],
+      "boundary": null,
+      "text": "Leu⸗Karrer, Jakob, Taglöhner, von Schloßrued.",
+      "confidence": 0.9998867909113566,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 50,
+      "baseline": [
+        [
+          189.0,
+          1204.0
+        ],
+        [
+          635.0,
+          1205.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        1185.0,
+        635.0,
+        1215.0
+      ],
+      "boundary": null,
+      "text": "Blattner⸗Hemmeler, Jakob, Maler, von Küttigen.",
+      "confidence": 0.9949824628622636,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 51,
+      "baseline": [
+        [
+          189.0,
+          1228.0
+        ],
+        [
+          627.0,
+          1228.0
+        ]
+      ],
+      "bbox": [
+        189.0,
+        1208.0,
+        627.0,
+        1240.0
+      ],
+      "boundary": null,
+      "text": "Blattner, Auguſt, Gerichtskanzliſt, von Küttigen.",
+      "confidence": 0.9998803686122505,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 52,
+      "baseline": [
+        [
+          189.0,
+          1250.0
+        ],
+        [
+          645.0,
+          1250.0
+        ]
+      ],
+      "bbox": [
+        189.0,
+        1231.0,
+        645.0,
+        1268.0
+      ],
+      "boundary": null,
+      "text": "Müller⸗Suter, Jakob, Poſamenter, von Gränichen.",
+      "confidence": 0.9996646249547918,
+      "regions": [
+        "r0"
+      ]
+    }
+  ],
+  "confidence": 0.9956581363436146,
+  "segmented_by": "kraken-blla",
+  "timing_ms": 13426,
+  "truncated": false,
+  "settings": null,
+  "quality": {
+    "verdict": "ok",
+    "chars": 2196,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": {
+    "engine": "party",
+    "model": "party",
+    "text": "",
+    "lines": [],
+    "confidence": null,
+    "timing_ms": 0,
+    "error": "timed out: no answer within 30s of the primary result"
+  },
+  "gateway_version": "7.0.2",
+  "recognised_at": "2026-11-06T12:01:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-v1",
+    "source": {
+      "key": "1888_p039",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p039.jpeg",
+      "bytes": 264306,
+      "sha256": "5ec764de5d77e5b57a048deabcc8bcae6fb00bac6daec94e68e4348a7f0e640f",
+      "sha256_of": "original",
+      "working_copy": "1888_p039.jpeg"
+    },
+    "model": {
+      "model": "kraken-german_print",
+      "engine": "kraken",
+      "level": "page",
+      "revision": "10.5281/zenodo.10519596",
+      "revision_kind": "zenodo_record",
+      "weights": "10.5281/zenodo.10519596",
+      "base_model": null
+    },
+    "gateway_version": "7.0.2",
+    "segmented_by": "kraken-blla",
+    "recognised_at": "2026-11-06T12:01:19+00:00"
+  }
+}

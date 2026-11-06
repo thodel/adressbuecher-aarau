@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p050",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p050.jpeg",
+    "bytes": 237577,
+    "sha256": "ab46efcd487c7022352fc93dfd62011e8e6a634beadac73a0dc78e8ba417f26e",
+    "sha256_of": "original",
+    "working_copy": "1888_p050.jpeg"
+  },
+  "text": "Haus-\nNr.\n583.† Derfelbe. Remise mit Schweinescheune.\n584. Einwohnergemeinde Aarau. Naturhistorisches Museum.\nWehrli-Häfker, Friedrich, Pedell.\nHäfker, Gottlieb, Färber.\n\nLaurenzenvorstadt.\n585. Gemeinde Aarau. Kantonsschulgebäude.\n586. Fleiner, Alberts Erbschaft.\nFleiner-Schopf, Leontine, Fabrikants Wittwe.\nFleiner, Hans, Fabrikant.\nSchmuziger, Vina, Part.\n587.† Diefelbe. Wasch- und Holzhaus.\n588.† Diefelbe. Holzschopf.\n589. Staat Aargau. Kaserne.\n590. Derfelbe. Cantine.\nBertschinger-Minifer, Anna, Wittwe, von Lenzburg.\n591. Derfelbe. Stallung.\n592. id. Reitbahn.\n593. id. Stallung.\n594. id. Reitbahn.\n595. id. Turnhalle.\n596. id. Zeughaus.\n597. id. Schmiedebewerkstätte und Schopf.\n598. id. Kriegsfuhrwerkschuppen.\n599. id. Wagner- und Sattlerwerkstätte, Magazin und Comptoir.\n600. id. Kriegsfuhrwerkschuppen.\n601. id. Holzschopf.\n602. * Feer-Großmann, Erbschaft.\nStierli-Brentano, Goar Leonz, Fürsprach, Stadtrath, von Arista.\nRässin-Schönecker, Eusebius, Musikklehrer.\nFeer, Adele, Rentiere.\nLutz-Hagnauer, Johann, Kaufmann, von Basel.\nSchmuziger-Roller, Daniel, Baumeister.\n603. Diefelbe. Abgetragen.\n604.† Diefelbe. Holzschopf.\n605.† Diefelbe. Holzschopf.\n606.† Diefelbe. Bad- und Glättezimmer.\n607. * Diefelbe. Wohnhaus mit Scheune.\nHoffmann-Volliger, Jakob, Dekonom, von Unterfulm.\nLabhart-Baur, Hermann Jb., Thierarzt, von Steckborn (Thurgau).\n608. Staat Aargau. (Fabrikgebäude; voraussichtlich Kantonschüler-\nKopfhaus).\n609.† id. Holzschopf mit Schmiede.\n610. id. Magazin.\nFirma F. X. Bäumlin; Colonialwaarengeschäft en gros, Ver-\ntreter E. Erne-Leblanc.\n611. id. Dampfkeselhaus.\n612. id. Holzschopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3724,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1616,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 31.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:22:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p050",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p050.jpeg",
+      "bytes": 237577,
+      "sha256": "ab46efcd487c7022352fc93dfd62011e8e6a634beadac73a0dc78e8ba417f26e",
+      "sha256_of": "original",
+      "working_copy": "1888_p050.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:15+00:00"
+  }
+}

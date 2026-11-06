@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p167",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p167.jpeg",
+    "bytes": 240699,
+    "sha256": "bb5e49c8683d61c300e780babb113babb5ffdc8e5a3871d57ac3c3ffaa55284b",
+    "sha256_of": "original",
+    "working_copy": "1888_p167.jpeg"
+  },
+  "text": "149\n\nVerzeichniß der Telephon-Abonnenten des Netzes Aarau\nund Umgebung.\n\nCentral-Station. Laurenzenvorstadt 113.\nVoller Tagdienst das ganze Jahr.\nOeffentliche Sprechstation:\nLaurenzenthorgasse 117: Wüthrich-Lüdi, Spezereihandlung u. Auswanderungsagentur.\n\nAargauische Bank\tBahnhofstraße 511.\nAargauische Creditanstalt\tLaurenzenthorgasse 351.\nAllgemeine aargauische Ersparnißkasse\tGraben 215.\n\nBally, C. F., Schuhfabrikation, Comptoir in\tSchönenwerd.\n„\t„\tWohnung in\tSchönenwerd.\nBally, Gebrüder, Bandfabrikation\tHammer 386.\n„\t„\tBüreau in\tSchönenwerd.\nBally & Schmitter, Elastiquesabrik, Büreau\tLaurenzenvorstadt 405.\n„\t„\tWohnung\tRohrerstraße 473.\nBäumlin, J. X., Colonialwaarenhandlung en gros\tLaurenzenvorstadt 609.\nBerner, Zahnarzt\tCasinostraße 576.\nBertschinger, zur Cantine\tLaurenzenvorstadt 590.\nBezirksgericht (Obergericht und Kriminalgericht)\tRathhausgasse 176.\nBircher, Chef-Arzt\tKantonsspital.\nBrentano, Max, Zahnarzt\tEntfelderstraße 1075.\n\nDubs, Karl, Metzger und Wirth\tRathhausgasse 32.\n\nEisengießerei und Weichgußfabrik\thinter dem Bahnhof 499.\nExpedition des Aarg. Tagblattes\tOberthor 228 a.\nEggimann, Johann, Wirth\tBahnhofstraße 1025.\n\nFleiner, Albert, Cementfabrik\tErlinsbacherstraße 330.\n„\t„\tWohnung\tLaurenzenvorstadt 586.\nFrey-Bolley, E.\tBachstraße 1062.\nFrey & Cie., chemische Fabrik und Spinnerei\tTelli 431.\nFrey-Feer & Cie., Bandfabrikation\tBahnhofstraße 1016.\nFrey, R. & M., Chokoladenfabrik, Comptoir im\n  Hause Frey-Frey, Stadtrath\tValainenweg 422.\nFrey, R. & M., Zweigstation bei Frey-Herzog\tTelli.\nFrey, Heinrich, Kunstmühle\tSchöftland.\nFrey-Lüscher, Müller\tSchöftland.\nFrey-Ryhiner, Seidenzwirnerei\tGraben 618.\n\nGamper, Adolf, Metzgerei\tMetzgergasse 108.\nGamper & Cie., Confektion\tRathhausgasse 49 u. 50.\nGamper-Andres, Rosette, Wittwe\tJenseits der Aare (Schönau) 307.\nGasfabrik\tVor dem Haldenthor 786.\nGasser & Hunziker, Bandfabrikation\tLaurenzenvorstadt 377.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7812,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1884,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:43:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p167",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p167.jpeg",
+      "bytes": 240699,
+      "sha256": "bb5e49c8683d61c300e780babb113babb5ffdc8e5a3871d57ac3c3ffaa55284b",
+      "sha256_of": "original",
+      "working_copy": "1888_p167.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:52+00:00"
+  }
+}

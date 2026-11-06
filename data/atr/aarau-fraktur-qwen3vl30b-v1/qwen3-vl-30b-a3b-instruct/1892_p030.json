@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p030",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p030.jpeg",
+    "bytes": 241174,
+    "sha256": "6cb5b24e5e8878363e6b55e2af6c032b06f3706a4be7f9fd7f15b0a48ecfa1ff",
+    "sha256_of": "original",
+    "working_copy": "1892_p030.jpeg"
+  },
+  "text": "Haus-\nNr.\n251. Huber=Mont, Jakob, Schneider, von Unterembrach (Zürich).\n252. Bolliger=Mont, Emil, Buchbinder, von Schlokrued.\n253. Strub=Mühlestein, Robert, Schneider, von Rienberg (Solothurn).\nHerzog=Dieter, Konrad, Schneider, von Hornburg (Thurgau).\n254. *Hirsbrunner=Kienert, Jakob, Instrumentenmacher.\n255. Hirsbrunner=Kienert, Jakob, Instrumentenmacher. Spezerei-handlung.\n256. Armgut der Gemeinde Aarau.\nAndres, Jakob, Bahngesellter.\nAndres-Walter, Verena, Metzgers Wittwe.\nDelhafen-Müller, Elisabeth Louise, Malers Wittwe.\nHäffig=Kischer, Albert, Werkführer.\n257. Zimmermann=Wernli, Joh., gew. Bahnvärter, von Kupperswyl.\nSchilling, Kaver, Taglöhner, von Hornussen.\nRoth-Bolliger, Anna Maria, Wittwe, Taglöhnerin, von Erlinsbach.\n258. *Armgut der Gemeinde Aarau.\nBeck-Böll, Gottlieb, Schlosser.\n259. *Camifasca, Franz, Kaufmann.\nPlütz-Ledermaun, Bernhard, Knecht, von Nyfen.\nBachmann-Müller, Rudolf, Maurer, von Bottenwyl.\nSandmeier-Obrecht, Kaspar, Dachdecker, von Gränichen.\nFehlmann, Rudolf, Dachdecker, von Menziken.\n260. a. Keller=Berney, Abraham, Mechaniker.\n260. b.*Häfler, Julie, Modistin.\nBamberger-Schwarz, Anna, Wittwe, Taglöhnerin, von Siglistorf.\nWalter-Bamberger, Marie, Zuchsneiderin, von Rottweil (Baden).\nHochstraker-Roth, Johann, Taglöhner von Usp.\nWelti-Jobrist, Johann, Taglöhner, von Dürrenäsch.\nGloor, Elise, Fabrikarbeiterin, von Seon.\n261. Rauchenstein=Pfleger, Sophie, Professors Wittwe.\nPfleger, Emma, Pfarrers, Privatin.\n262. Abgetragen.\n263. *Hefst=Hunziger, J. P., Schneidermeister, von Schwanden (Glarus).\nPfister-Furrer, Albert, Schneider, von Diibendorf (Zürich).\n264. Wildi=Matt, Jakob, Tapezierer, von Schafisheim.\nWilde, Anna, Damenschneiderin, von Schafisheim.\nHunziger-Hunziger, Heinrich, Holzspalter, von Kirchleerau.\nWeitgenannt-Käser, Verena, Wittwe, Näherin, von Mingsolzheim (Baden).\nKäser, Friedrich, Buchbinder, von Oberflachs.\nEgloff=Spychiger, Johann Georg Friedrich Gärtner, von Tägerweilen (Thurgau).\nKysner-Buhlrein, Maria Elisabeth, Bart.\nKnecht-Bögel, Barbara, Fabrikarbeiterin, von Oberflachs.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4180,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2052,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:35:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p030",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p030.jpeg",
+      "bytes": 241174,
+      "sha256": "6cb5b24e5e8878363e6b55e2af6c032b06f3706a4be7f9fd7f15b0a48ecfa1ff",
+      "sha256_of": "original",
+      "working_copy": "1892_p030.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:47+00:00"
+  }
+}

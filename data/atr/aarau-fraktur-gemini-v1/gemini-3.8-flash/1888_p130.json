@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p130",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p130.jpeg",
+    "bytes": 289097,
+    "sha256": "8c74d76336865b055e2e34046c876a821218f3d5abc57d06fb7af8ed7e6845a5",
+    "sha256_of": "original",
+    "working_copy": "1888_p130.jpeg"
+  },
+  "text": "112        Schmuziger — Schweizer.\n\nSchmuziger-Bühler, Gottlieb, Schneidermeister und Spezereihändler,\n  Ziegelrain 703.\nSchmuziger-Freudiger, Traugott, Malermeister, Entfelderstraße 970.\nSchmuziger-von Grigorsoff, Friedrich, Dr. med., Entfelderstraße 972.\nSchmuziger-Hochstraßer, Marie, Wäscherin, Schachen 734.\nSchmuziger-Jacot, Karl, Rentier, Milchgasse 157.\nSchmuziger, Juliana, Part., Bahnhofstraße 1173.\nSchmuziger-Kern, Ida, Baumeisters Wittwe, jens. der Aare 294.\nSchmuziger-Koller, Daniel, Baumeister, Laurenzenvorstadt 602.\nSchmuziger-Lang, Gottlieb, Schreinermeister, Ziegelrain 708.\nSchmuziger, Lina, Part., Laurenzenvorstadt 586.\nSchmuziger, Otto, Waagmeister, Rathhausgasse 1.\nSchmuziger-Rüetschi, Emil, Fabrikant, Rain 834.\nSchmuziger, Adolf, Fabrikant, Rain 834.\nSchmuziger, Verena, Fabrikarbeiterin, Milchgasse 160.\nSchmuziger, Marie, Vorgängerin, id. id.\nSchmuziger, Susette, Fabrikarbeiterin, id. id.\nSchmuziger-Zulauf, Marie, Part. Adelbändli 86.\nSchmuziger, Emma, Damenschneiderin, id. id.\nSchneider, Adele, Diakonissin von Peterlen (Bern), Bahnhofstraße 1173.\nSchneider-Brucker, Ferdinand, Bankangestellter von Magden, Laurenzen-\n  vorstadt 552.\nSchneider-Hochstraßer, Samuel, Wagenwärter von Thalheim, hinter dem\n  Bahnhof 497.\nSchneider-Läuchli, Ulrich, Schlossermeister, Golattenmattgasse 234.\nSchneider, Anna, Glätterin, Golattenmattgasse 234.\nSchneider, Bertha, Damenschneiderin id. id.\nSchneider-Mösch, Fridolin, Obergerichtspräsident v. Herznach, Rain 871.\nSchneider-Mattenberger, Johann Theodor, Musikdirektor von Würzburg\n  (Baiern), hintere Vorstadt 638.\nSchneider-Ryser, Franz Xaver, Kondukteur v. Herznach, Bahnhofstr. 569.\nSchneider-Wernli, Jakob, Aufseher von Thalheim, Scheibenschachen 313.\nSchoder-Hauser, Wilhelm, Fürsprech, Gerichtspräsident, Gartenstr. 1129.\nSchori-Suter, Friedrich, Mechaniker von Seedorf (Bern), Stadthof 92.\nSchultheß-Müller, Albert, Sekretär von Bübikon (Zürich), Pelzgasse 128.\nSchumacher-Suter, Arnold, Bahnarbeiter von Wangen (Solothurn), vor\n  dem Haldenthor 799.\nSchumann-Ringier, Albert, Professor v. Gotha (Sachsen), Pelzgasse 129.\nSchuppißer, Anna Maria, Spetterin von Rohrdorf, Rainstraße 833.\nSchürch, Adolf, Fabrikant von Büren z. Hof (Bern), Conradstraße 992.\nSchwammberger-Berchtold, Johann, Taglöhner von Auenstein, Binsen-\n  hof 1006.\nSchwammberger-Schmid, Jakob, Färber von Auenstein, Rain 820.\nSchwarb-Dietiker, Anna, Wittwe, Damenschneiderin v. Eiken, Pelzgasse 65.\nSchwarz-Müller, Johann, Pferdewärter v. Kröppen (Baiern), Rain 1185.\nSchweizer-Gubler, Nanette, Staatsarchivars Wittwe v. Dätwyl, Rain 862.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8557,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2585,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:38:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p130",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p130.jpeg",
+      "bytes": 289097,
+      "sha256": "8c74d76336865b055e2e34046c876a821218f3d5abc57d06fb7af8ed7e6845a5",
+      "sha256_of": "original",
+      "working_copy": "1888_p130.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:21+00:00"
+  }
+}

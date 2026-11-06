@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p011",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p011.jpeg",
+    "bytes": 308594,
+    "sha256": "9eb7d4cba5b313a0b91b9b54b8fe28cf4ceb7a79bf98c85a1758cdd7baa08de3",
+    "sha256_of": "original",
+    "working_copy": "1884_p011.jpeg"
+  },
+  "text": "7\n\nAnsprüchen entspricht die Façade und das Innere des neuen Gesellschafts=\nhauses, des Saalbaues, auf dem Schloßplatz, für alle Zeiten ein würdiges\nund ehrendes Beispiel des Gemeinsinns der Bürger und Einwohner der Stadt.\nDie Bürgergemeinde hat an diesen monumentalen Bau Fr. 10,000. —\ndie Einwohnergemeinde . . . . . . . . . . . . . „ 96,930. 85\ndie Einwohnerschaft 2c. . . . . . . . . . . . . . „ 113,280. 30\ndurch Subskription geleistet.\nEin= und angebaut in den alten Thurm und Burgstall der Grafen\nvon Rore, den Freihof von Aarau, ist das städtische Rathhaus\nmit dem Schwurgerichtssaale. In der obern Vorstadt beherrscht den\nweiten und freien Platz das Regierungsgebäude und hinter demselben\nsteht in prächtigen Baumgruppen des wohlgepflegten Rathhausgartens\ndas Großrathsgebäude mit der reichen Kantonsbibliothek und\nden Kunstschätzen der Glasmalereien von Muri. Leider sind\ndie übrigen kantonalen Kunstschätze an guten Oelgemälden in den Commissions=\nzimmern des Regierungsgebäudes zerstreut, auch befindet sich die höchst werth=\nvolle und an Seltenheit reiche antiquarische Sammlung zur Zeit\nnoch im alten Salzhaus, da ein Kunst=Museum der Stadt noch fehlt.\nDie reiche kantonale Münzsammlung und die trefflich geordneten\nund an historischen Schätzen reichen Staatsarchive ruhen im Erd=\ngeschoß des Regierungsgebäudes.\nDas ehemalige Casino beim Kantonsschulgebäude dient gegen=\nwärtig ausschließlich als naturhistorisches Museum, ein Institut,\ndas an Reichhaltigkeit der Sammlungen, Seltenheit einzelner Objekte und\nvortrefflicher Einrichtung ähnlichen Anstalten in größern Städten an die\nSeite gestellt werden darf.\nVor dem Casino liegt auf dem hübschen Casinoplatz mit seinen\nschattigen Ulmen und Linden ein erratischer Block mit Gletscherschliffen vom\nBözberge hergeschafft.\nWer schattige Spaziergänge in der Nähe der Stadt liebt, findet im Rondell\nder Telli eine mächtige Lindenallee und am Valainenweg einen schönen\nAusblick über deren gewaltige Laubmassen, sowie auf die duftigen Höhen\nder Wasser= und Gislistuh, an welcher die weißen Häuser Bibersteins in\nder Sonne glänzen.\nWer die Sorgen des Geschäfts vergessen und Waldeslust und Amsel=\nschlag genießen will, der besucht Bronners Promenade im Ober=\nholz und findet dort immer neue Reize, lauschige Plätzchen und poesievolle\nAusblicke, oder er pilgert über die Aare, läßt seinen Blick vom Alpenzeiger\nauf die ewigen Schneeberge, über das schöne Schweizerland schweifen, ruht im\nTannendunkel, oder grübelt an Meiers Denkmal über die heidnischen",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7476,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2510,
+    "lines": 41,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 60.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:09:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p011",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p011.jpeg",
+      "bytes": 308594,
+      "sha256": "9eb7d4cba5b313a0b91b9b54b8fe28cf4ceb7a79bf98c85a1758cdd7baa08de3",
+      "sha256_of": "original",
+      "working_copy": "1884_p011.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:09:52+00:00"
+  }
+}

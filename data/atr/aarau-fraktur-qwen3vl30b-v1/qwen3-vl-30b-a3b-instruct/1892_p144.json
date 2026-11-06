@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p144",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p144.jpeg",
+    "bytes": 245262,
+    "sha256": "0d24a26b5649a05b3329708e46093b7e11ec7954c3d2fc50fd4780b8d679cdae",
+    "sha256_of": "original",
+    "working_copy": "1892_p144.jpeg"
+  },
+  "text": "128\nStrub — Traine.\nStrub-Mühlstein, Robert, Schneider v. Rienberg (Soloth.), Halden 252.\nStrub-Wildi, Leonhard, Möbelhändler von Läufelfingen (Baselland), Wilchgasse 71.\nStuder-Siegrist, Konrad, Part. von Rickenbach, vor dem Haldenth. 772.\nStudler-Sandmeier, Anna, Schneiders Wittwe, vordere Vorstadt 675.\nSuter, Adolf, Taglöhner von Kolliken, Laurenzenvorstadt 376.\nSuter, Anna Elisabeth, Spetterin von Suhr, Wilchgasse 145.\nSuter, Elisabeth, Taglöhnerin von Gränichen, Bahnhofstrasse 1025.\nSuter-Dürr, Rudolf, Spengler von Hallwyl, Ziegelrain 704.\nSuter-Fehlmann, Anna, Taglöhnerin von Gränichen, v. d. Haldenth. 767.\nSuter-Huber, Johann Rudolf, Fabrikarbeiter von Gränichen, Laurenzen-\nvorstadt 376.\nSuter, Albert, Schneider von Kolliken, Pelzgasse 133.\nSuter, Johann, Commissionär von Kolliken, vordere Vorstadt 666.\nSuter, Jda, Modistin,\n\" \" \"\nSuter-Kohler, Jakob, Schreiner von Kolliken, Rain 833.\nSuter-Käser, Elisabeth, Part. von Rapperswil (Bern), Rain 875.\nSuter-Lüscher, Gabriel, Bandweber von Gränichen, Schmiedgasse 636.\nSuter-Lüscher, Rudolf, Uhrenmacher von Kolliken, Casinostrasse 571.\nSuter-Meier, Kaspar, Pofamenter von Gränichen, Bachstrasse 1031.\nSuter-Müller, Elise, Wittwe, Taglöhnerin von Kolliken, Solattenmattg. 231.\nSuter-Müller, Jakob, Taglöhner von Kolliken, Schachen 729.\nSuter-Rauber, Sufette, Wittwe, Part., in der Gais 1131.\nX Suter-Riederer, Jakob, Profess. Director des Töchterninstituts und\nLehrerinnenfeminars v. Suhr u. Winterthur, Günhardfeldw. 1241.\nSutermeister-Strähl, Gottlieb, Postcommis v. Zofingen, Casinostrasse 577.\nTanner, Armengard, Part., Laurenzenvorstadt 586.\nThalmann, Heinrich. Commis von Bertschikon (Zürich), Hammer 191.\nTheez, Albert, Schuhmacher von Paris, Mezgergasse 107.\nTheez-Amsler, Emilie, Schirmmacherin und Costumiere von Paris, Mezger-\ngasse 107.\nTheiler-Rebmann, Elise, Wittwe, Part. von Wädensweil (Zürich), Lau-\nrenzenvorstadt 415.\nTheodor-Hagnauer, Amadeus, Zugführer v. Pizy (Waadt), h. Vorst. 695.\nTheodor-Hagnauer, Marie, von Pizy (Waadt), Mode- und Wollenwaaren-\nhandlung, hintere Vorstadt 695.\nThom-Hänny, Franz, Trompeterinstructor der Infanterie, von Kirchberg\n(Bern), hinter dem Bahnhof 1352.\nX Thut-Sidemann, Hermann, mech. Ziegelei von Oberentfelden, Rain 863.\nThut-Laufer, Rudolf, Part. von Oberentfelden, Entfelderstrasse 979.\nTraine-Albinger, Eugen, Oberleut., Instruktionsoffizier II. Klasse von\nOberhofen-Ilighausen (Thurgau), Zollrain 89.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6529,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2437,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:46:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p144",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p144.jpeg",
+      "bytes": 245262,
+      "sha256": "0d24a26b5649a05b3329708e46093b7e11ec7954c3d2fc50fd4780b8d679cdae",
+      "sha256_of": "original",
+      "working_copy": "1892_p144.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:10+00:00"
+  }
+}

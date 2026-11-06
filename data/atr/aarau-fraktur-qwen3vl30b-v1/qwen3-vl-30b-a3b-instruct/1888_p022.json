@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p022",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p022.jpeg",
+    "bytes": 268535,
+    "sha256": "48c436a06b4cefdec70410cfb39605c88b3f5ee3dbc8e90d75db406a3d2851d9",
+    "sha256_of": "original",
+    "working_copy": "1888_p022.jpeg"
+  },
+  "text": "Haus-\nNr.\n123. Ryhner=Heß, Konrad, Seiler, Seilerwaaren- und Peitschenlager,\nFettwaaren.\n124. Stirnemann geb. Müller, Louise und *Müller, Arnold, Baumeister.\nStirnemann-Müller, Louise, von Gränichen. Ellenwaaren- und Mercerie-\ngeschäft.\nStirnemann, Lina, Lehrerin, von Gränichen.\nNüsperli-Ryhner, Julie, Weißgerbers Wittwe.\nNüsperli, Emma, Weißgerbers, Part.\nZehnder geb. Kaufmann, Barb., Wittwe, Gemüsehändlerin, von Gränichen.\n125.* Ad am Heß, Anton.\nWalter-Schmuziger, August, von Neumühl (Baden). Nähmaschinen- und\nFourniturenhandlung.\nBächli-Holliger, Gottlieb, Schuhmacher, von Buchs.\nRoth-Bolliger, Anna Maria, Wittwe, Taglöhnerein, von Erlinsbach (Aargau).\nHausmann-Dietiker, Johann, Taglöhnerein, von Schaffheim.\nWehrli-Roth, Jakob, Fabrikarbeiter, von Biberstein.\n126. Hunziker=Baumberger, Rudolf, Lehrer.\nWernli-Wernli, Rudolf, Cementarbeiter, von Thalheim.\n127.* Spengler=Rienhard, Erbschaft.\nRohr-Gloor, Adolf, Metzger und Speisewirth.\nHunziker-Müller, Friedrich, Maschinenmeister.\nLandolt-Hässig, Alexander, Dekonom.\n128. Schulteck-Müller, Albert, von Bubikon (Zürich), Sekretär des eidg.\nKavallerie-Büreau.\nWässler-Stäuble, Heinrich, Turnlehrer, von Basel.\nBruns-Gattiker, Hermann, Schlossermeister, von Bremen.\nBruns-Gattiker, Dorothea, obigen Ehefrau, Fein- und Großwäscherei.\n129.* Derfelbe. Bierhalle Schmidt.\nSchmidt-Henz, Hans, Bierwirthschaft.\nSchumann-Ringier, Albert, Professor, von Gotha (Sachsen).\nMarkwalder=Gamper, Traugott, Major, Kavallerie-Instruktor, von\nWettingen.\n130. Bell-Marti, Joseph Anton, Kaufmann. Pofamenterie-, Mercerie-,\nMaterial- und Spezereiwaaren-Handlung.\n131. Rüetschi, Gottlieb, Väcker und Pintenwirth, von Zuhrt.\n132.* Willimann=Wehrli, Maria, von Oberhof.\nFisch, Elise Karoline, Meggers, Näherin.\nBollmann-Eifert, J. Georg, Steinbruder, von Düdelshheim (Hessen).\nRohr-Blauenstein, Heinrich, Holzpalter, von Hunzenschwyl.\nMayer-Enter, Elise, Wittwe, Weißnäherin, von Raftatt.\n133. Wässmer=Jberg, Gallas, Schneidermeister, von Jungolz (Baden).\nHäfeler geb. Meier, Maria, Part., von Männedorf (Zürich).\n134. Häfeler=Bircher, Paul, Kupfer schnied. Kupferwaarenhandlung.\nDelhasen geb. Hagnauer, Johanna, Wittwe, Part.\nBogel-Strehler, Jakob, Kondukteur, von Kölliken.\n135.* Baumann geb. Müller, Maria, Wittwe.\nSchakmann, Samuel, Buchbinder, von Windisch. Buchbinderei- und\nSchreibmaterialienhandlung.\nGagg-Peter, Konrad, Maurer, von Kreuzlingen (Thurgau).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4804,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2401,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:20:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p022",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p022.jpeg",
+      "bytes": 268535,
+      "sha256": "48c436a06b4cefdec70410cfb39605c88b3f5ee3dbc8e90d75db406a3d2851d9",
+      "sha256_of": "original",
+      "working_copy": "1888_p022.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:18+00:00"
+  }
+}

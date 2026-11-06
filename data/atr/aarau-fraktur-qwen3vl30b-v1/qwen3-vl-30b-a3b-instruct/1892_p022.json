@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p022",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p022.jpeg",
+    "bytes": 230536,
+    "sha256": "b8f4a65773b41f416e6726d34aef67a4d5f0142d98288900f0c406eeb6d2eb88",
+    "sha256_of": "original",
+    "working_copy": "1892_p022.jpeg"
+  },
+  "text": "Haus-\nNr.\n153. b. Häfeler-Müller, Theodor, Buchbinder.\nPfister-Huber, Emil, Kondukteur, Nied.-Erlinsbach (Solothurn).\n154. * Weber-Beck, Gustav, Bezirksarzt, von Menziken.\nEichenberger-Flad, Rudolf, Zimmermann, von Reinach.\nPfenninger-Bayon, Katharina, Seiffelschlechterin, von Stäfa (Zürich).\nWeber-Pfenninger, Ferdinand, Schneider, von Griestorf (Böhmen).\n155. * Bachmann-Riniker, Johann, Küfer.\nFrieden-Kramer, Agatha, Näherin, von Seedorf (Bern).\nGraf-Hunkeler, Marie, Stellenvermittlerin, von Birmwyl.\n156. Beck geb. Fisch, Elise, Wittwe, Part.\nZellweger-Fischer, Jakob, Bischfennacher, von Teufen. (Appenzell.)\nZellweger, Elise, Glätterin, von Teufen (Appenzell).\nHäuptli-Schäffli, Jakob, Färber, von Biberstein.\nWehrli-Fux, Peter, Postfaktor, von Aar.\nBürge-Schmid, Barbara, Part. von Unter-Erlinsbach (Aargau).\nLüscher, Emma, Weißnäherin, von Muhlen.\nSchmuziger-Facot, Karl, Rentier.\n157. Reformirte Kirchgemeinde Aarau. Pfarrhaus.\n158. Wernly-Kraft, Rudolf, Pfarrer von Thalheim.\nKraft geb. Gautschi, Auguste Friedrike, Wittwe, Part. von Brugg.\n159. Bachmann-Riniker, Johann, Küfer.\nRothplex-Hunziker, Gottlieb, Schreiner.\nSchneider-Miser, Franz Xaver, Kondukteur, von Herzach.\nZulauf, Jakob, Postapirant, von Schinznach.\n1279 † Derfelbe. Werkstätte und Brennerei.\n160. Gemeinde Aarau.\nRothplex-Häfeler, Rudolf, Megger.\nFisch-Bogt, Marie, Milchverkäuferin.\n161. Dürren-Schmuziger, Jakob, Schreiner.\nSchmuziger, Sufette, Part.\nSchmuziger-Berena, Part.\nMeier geb. Dtt, Agatha, Schreiners Wittwe, von Gebenstorf.\n\nKirchhof.\n162. Gränicher geb. Richter, Rosa, Wittwe, Part.\nGränicher-Wärtli, Joh. Jakob, Schneider, ref. Siegrist.\nHäffig, Julius, Oberleut., Instruktor II. Klasse der Infanterie.\n163. Bogel-Dubs, Gottfried, Polizeiwachtmeister, von Kölliken.\nHoffmann-Echent, Rudolf, Passtangestellter, von Schottikon (Zürich).\nHek-Wolf, Alexander, Kaufmann von Zillisheim (Elsäss). (Werkstätte\nund Magazin für Bettwaaren.)\n164. Wanger-Häufermann, G. Buchbinder.\nWanger, Rosa, Fabrikarbeiterin.\nWanger, Juli, Part.\nKohlmann-Läuchli, Verena, Wittwe von Daxlanden (Baden). Lithographie\nund Steindruckerei.\nLäuchli, Adolf, Lithograph, von Remigen.\nGampp-Spreuer, Philipp, Aufseher, von Hornussen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4519,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2197,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:35:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p022",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p022.jpeg",
+      "bytes": 230536,
+      "sha256": "b8f4a65773b41f416e6726d34aef67a4d5f0142d98288900f0c406eeb6d2eb88",
+      "sha256_of": "original",
+      "working_copy": "1892_p022.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:12+00:00"
+  }
+}

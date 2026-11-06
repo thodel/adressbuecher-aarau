@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p021",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p021.jpeg",
+    "bytes": 267648,
+    "sha256": "99ce0c7dbe9295a331275f046d5a47f769b54ea1b9d6b2823443460e2ceb0909",
+    "sha256_of": "original",
+    "working_copy": "1888_p021.jpeg"
+  },
+  "text": "— 11 —\n\nHauss-\nNr.\n\nLaurenzenthorgasse.\n\n1114. Abgetragen. An dessen Platz\n1118 Good, Theodor, Privat, von Wels (St. Gallen).\nKüpfer-Rösch, Eduard, von Bern. Pelz- und Hutwaarenhandlung.\nMilitärartikel.\nFrei-Betterli, Achilles, Coiffeur, von Densbüren. Coiffeur- und Par-\nfümeriegeschäft.\nLüthy-Gamper, Samuel, Telegraphist, von Schöftland\n1115. Wettler-Schneider, Adolf, von Rheined (St. Gallen), Gastwirth zum\nDöfen.\n1116. Zebert-Altorfer, Georg, Buchbinder, von Bauma (Zürich). Buch-\nbinderei und Linienanstalt. Schreibmaterialienhandlung.\nBaumann, Emma, von Oberentfelden. Mode- und Weißwaarengeschäft.\n1117. Wüthrich-Lüdi, Samuel zum Storchen, von Eggwyl (Bern).\nSpezerei-, Wein- und Spirituosenhandlung. Agent für Auswanderung.\nTelephon öffentliche Sprechstation.\nWüthrich, Jakob, Confiseur, von Eggwyl.\nGamper-Steffen, Marie, Mezzgers Wittwe.\nSuter-Riederer, Jakob, Professor, Direktor des Töchterinstituts und\nLehrerinnenseminars, von Suhr und Winterthur.\nEgger-Knauer, Otto, Apothekergehilfe, von Weingarten (Württemberg).\nWidmer-Eichenberger, Hermann, Kürfermeister, von Hausen.\nSteiner-Dürr, Jakob, Postkondukteur, von Oberengstringen (Zurich).\nKohler geb. Köhler, Elisabeth, Spetterin, von Berikon.\nClavierdepot von Rässlin und Burgmeier.\n1118. Burkhardt-Bertshinger, Ferdinand, Coiffeur. Coiffeur- und\nParfümeriegeschäft.\nBurkhardt, Eina, Coiffeuse.\nDyma-Breider, Ignaz, Schneider, von Herrmanneister (Böhmen).\nWyser, Gustav, von Schönenwerd. Korbfwaarenfabrikation.\n1119. a. Rohr-Häffig, Emma, Wittwe. Colonialwaarenhandlung. Salzverkauf.\nParfümerie\n1119. b. Egggen-Sulzer, Eduard, Colonialwaarenhandlung.\n120.* Schiefer, F. J. Sohns, Erbschaft.\nFischer-Bonwiller, Adolf, Postbeamter. Cigarren- und Tabathandlung.\nFischer, Louise, Ladentochter.\nKeller-Siebenmann, Daniel, Uhrmacher, von Beltheim. Uhrenhandlung.\n\nPelzgasse.\n\n121.* Schiefer, Gebrüder. Käse- und Butterhandlung.\nSchiefer geb. Süßle, Katharina, Wittwe, Part.\nSchiefer, Margaretha, Part.\nLäubli geb. Kern, Verena, Wittwe, Ladendienerin, von Seengen.\n122. Kienze-Rümmeli, Oswald, Schuhmachermeister, von Uetikon (Zürich).\nHeindl-Plüß, Ludwig, Uhrenmachergehilfe, von Sachsenried.\nHeindl-Plüß, Mathilde, Damen Schneiderin, von Sachsenried.\nPlüß geb. Plüß, Anna Barbara, Lehrers Wittwe, von Ryfen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5042,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2271,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:20:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p021",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p021.jpeg",
+      "bytes": 267648,
+      "sha256": "99ce0c7dbe9295a331275f046d5a47f769b54ea1b9d6b2823443460e2ceb0909",
+      "sha256_of": "original",
+      "working_copy": "1888_p021.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:13+00:00"
+  }
+}

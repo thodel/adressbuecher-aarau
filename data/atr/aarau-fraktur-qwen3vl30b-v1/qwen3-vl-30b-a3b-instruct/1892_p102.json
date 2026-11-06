@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p102",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p102.jpeg",
+    "bytes": 245773,
+    "sha256": "483acab8d949a33f97611004b4b87e2cae4e6c0aade18bd2c5be29717bc099bc",
+    "sha256_of": "original",
+    "working_copy": "1892_p102.jpeg"
+  },
+  "text": "86\nBopp — Brunner.\nBopp-Hänzler, Kaspar, Pflästerer von Nemigen, Rain 884.\nBosfardt, Anna, Fabrikarbeiterin von Effingen, Stadthof 94.\nBosfardt, Elise, Privatlehrerin von Altstätten (Zürich), Bahnhofstraße 1019.\nBosfardt, Jakob, Taglöhner von Birc, Adelbändli 84.\nBosfardt, Marie, Spetterin von Eflingen, Stadthof 94.\nBok, Hans Ernst, Metzger von Melchnau (Bern), Pelzgasse 120.\nBok, geb. Kiefer, Zda Rosina von Melchnau (Bern), Pelzgasse 120.\nBouvard-Schultes, Johann, Güterexpedient von Nemetshwyl, hinter dem\nBahnhof 495.\n*Brack, Abraham, Dekonom, Bachstraße 1061.\nBrack-Erismann, Anna, Witwe, Part.,\n*Brack-Jauch, Jakob, Sekretär des Waffenchefs des Artillerie, v. Eflingen,\nRain 838.\nBrack, Jakob, Part. von Eflingen, Ziegelrain 751.\nBrack-Wühlhaupt, Jakob, Kaufmann von Eflingen, Bahnhofstr. 1336.\n*Brack-Steininger, Gottlieb, Buchhalter von Eflingen, Graben 220.\n*Brack-Uster, Heinrich, Revifor von Eflingen, Schachen 736.\nBrack-Wälchli, Heinrich, Webermeister von Mönthal, vor dem Halden-\nthor 1332.\nBräm, Albert, Sohn, Commis von Bütlach (Zürich), Hammer 191.\n*Bräm-Huber, Heinrich, Kaufmann von Bütlach (Zürich), Hammer 191.\nBrändli-Hug, Jakob, Fabrikarbeiter von Unterööberg, Ziegelrain 711.\nBrändli-Müller, Elisabeth, Taglöhnerin von Unterööberg, vor dem\nHaldenthor 773.\n*Brand-Baumann, Jakob, Väcker und Pintenwirth, vordere Vorstadt 669.\nBraft, Emma, Tochter, Holzmarkt 661.\nBraft-Lienhard, Charlotte, Witwe, Wassenhandlung, Holzmarkt 661.\nBraft-Weier, Johann, Inspektionsbeamter von Leibstadt, Bahnhof 515.\nBraft, Sophie Zda, Holzmarkt 661.\nBrentano-Brugisser, Max, Zahnarzt von Laufenburg, Entfelderstraße 1075.\nBrentano-Zimmermann, Gustav, Staatsanwalt von Laufenburg, Bach-\nstraße 1107.\nBryner, Anna, Modistin von Möriken, Halden 284.\nBrogli-Gautschi, Joseph, Polizeidieners, von Ziffeln, Tellirain 1335.\nBrown, Sophie, Part. aus Nordamerika, Rain 843.\nBrügger-Sommerhalder, Christian, Controleur von Churwalden (Grau-\nbünden), hinter dem Bahnhof 497.\n*Brütel-Constance, Part., vordere Vorstadt 894.\nBruder-Bruder, Jakob, Bahnangestellter von Seengen, Milchgasse 75.\nBrugger-Tschudi, Katharina, Näherin von Hirschthal, Bachstraße 1038.\nBrunner-Abderhalden, Friedrich, Meßerschmied von Brunnerdern, St. Gallen,\nvordere Vorstadt 898.\nBrunner, Auguste, Glätterin,\nBrunner, Gottfried, Part., Bachstraße 1038.\nBrunner-Knecht, Emil, Mechaniker, Halden 287.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5215,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2368,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:41:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p102",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p102.jpeg",
+      "bytes": 245773,
+      "sha256": "483acab8d949a33f97611004b4b87e2cae4e6c0aade18bd2c5be29717bc099bc",
+      "sha256_of": "original",
+      "working_copy": "1892_p102.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:48+00:00"
+  }
+}

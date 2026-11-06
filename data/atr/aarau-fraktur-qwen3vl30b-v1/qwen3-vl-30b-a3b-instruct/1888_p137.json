@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p137",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p137.jpeg",
+    "bytes": 295860,
+    "sha256": "44b595aac1a5f94aeefd8e454848ab7728733593fbd757fbf10aaa1420e844ff",
+    "sha256_of": "original",
+    "working_copy": "1888_p137.jpeg"
+  },
+  "text": "Wälti-Diener, Emil, Bankangestellter von Zurzach, Kronengasse 40.\nWärtli-Grunt, August, Buchbinder, Kirchhof 166.\nWärtli-Nußbaum, Margaretha, Part., Milchgasse 79.\n×Walter-Kunz, Karl, Buchbinder von Zürich, Bachstraße 1156.\nWaldmeier-Gautschi, Alfred, Kaufmann von Mühlin, Kronengasse 33.\n×Waldmeier-Rothpletz, Bertha, Wittwe, Part. von Hellikon, vordere Vorstadt 682.\nWalter-Hamberger, Marie, Zettlerin von Rottweil (Baden), Halden 260 b.\nWalter-Schmuziger, August, Nähmaschinenhändler von Neumühli (Baden), Pelzgasse 125.\n×Walthser-Dubs, Hans, Deonom, Bachstraße 1041.\nWalthser-Watter, Jakob, Deonom, Schachen 739.\n×Walthser-Schägmann, Gottlieb, Deonom, Rain 856.\nWalthser, Sufette, Weißnäherin von Oberentfelden, Zollrain 292.\nWalti-Müller, Jakob, Milchverkäufer von Dürrenäsch, Rain 825.\nWalti-Hächler, Samuel, Taglöhnner von Dürrenäsch, Stadthof 92 a.\nWalti-Zimmermann, Rudolf, Knecht, id. id.\nWalti-Zobrist, Johann, Karten schleifer von Dürrenäsch, Milchgasse 143.\nWandfluh-Sommer, Foh., Schuhmacher v. Frutigen (Bern), Hammer 190.\nWanger-Häusermann, Gottlieb, Buchbinder, Kirchhof 164.\nWanger, Henriette, Milchgasse 147.\nWanger, Lisette, Näherin, Abelbändli 174.\nWanger, Louife, Part., Ziegelrain 713.\n×Wanger-Siebenmann, Hermann, Part., Bahnhofstraße 1020.\n×Wanger-Wanger, Gustav, Kassier der Aarg. Ersparniskasse, Laurenzen vorstadt 394.\n×Wasmser-Bos, Joseph, Bettwarenhändler von Mellingen, Mezgergasse 91.\nWasmser-Zberg, Gallus, Schneidemeister von Jungolz (Baden), Pelzgasse 133.\n×Wasmser-Rummeler, Emil, Kaufmann, Spezerei handlung zum „Adler“, Pelzgasse 137.\nWasmser-Ott, Fidel, Schneider von Jungolz (Baden), vor dem Haldenthor 802.\n×Weber-Bed, Gustav, Bezirksarzt von Menziken, Graben 618.\nWeber-Buchmann, Magdalena, Wittwe von Oberflachs, Rathhausgasse 3.\nWeber, Emil, Reisender (Nähmaschinen depot) von Pfaufen, Zollrain 293.\nWeber-Gloor, Jakob, Dachdecker von Menziken, Erlinsbacherstraße 338.\n×Weber-Hegnauer, Hermann, Speisewirth v. Menziken, Bahnhofstr. 568 a.\nWeber-Käser, Jakob, Bankabwart von Oberflachs, Schachen 741.\n×Weber-Lüscher, Otto, Weinhändler von Menziken, Rathhausgasse 19.\nWeber-Schäfer, Friedrich, Spenglermeister von Bordemwald, Wohnung Milchgasse 155 und Werkstätte, Ziegelrain 707.\nWeber, Stephan, Sekretär von Sulz, Rain 829.\nWeber, Regina, Par., id. id. id.\nWeber-Suter, Johann, Gärtner von Oberflachs, Laurenzenvorstadt 376.\nWeber-Weber, Wilhelm, Milchverkäufer v. Menziken, Erlinsbacherstr. 337.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5317,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2440,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 61.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:28:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p137",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p137.jpeg",
+      "bytes": 295860,
+      "sha256": "44b595aac1a5f94aeefd8e454848ab7728733593fbd757fbf10aaa1420e844ff",
+      "sha256_of": "original",
+      "working_copy": "1888_p137.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:37+00:00"
+  }
+}

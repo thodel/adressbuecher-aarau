@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p057",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p057.jpeg",
+    "bytes": 240024,
+    "sha256": "7e3cc7ee2481591bfbd9fe862c8eb9764e99176c06f92ac51eaf2bc4d9a4e282",
+    "sha256_of": "original",
+    "working_copy": "1884_p057.jpeg"
+  },
+  "text": "Zimmermann. — Bürger.\n53\nZimmermann-Wernli, Joh., gew. Bahnwärter, v. Kupperswyl, Halben 257.\n*Zschokke-Offenhäuser, Emil, Pfarrer, Kirchplatz 169.\n* — =Sauerländer, Olivier, Ingenieur, Gitzhügel 349.\n*Zschokke-Röschlin, Julie, Dr's. Wittwe, Partik., Laurenzenvorstadt 586.\n* — =Bodmer, Hermann, Geschäftsführer und Versicherungs-Agent,\nLaurenzenvorstadt 586.\n* — =Voitel, Margaretha, Wittwe, Partik., Holzmarktplaz 665.\n* — =Schmuziger, Arnold, Dr. Jur, Staatschreiber, neues Quartier 975.\n* — =Zimmerli, Justine, Wittwe, Partik., vordere Vorstadt 893.\n* — =Sauerländer, Guido, Buchhändler, neues Quartier 995.\n*Zuber-Müller, Andreas Hausknecht, Rainstraße 825b.\nZubler-Stirnemann, Elisabeth, Spetterin, von Hunzenschwy, Milchgasse 143.\n*Zulauf-Siebenmann, Leopold, Weinhändler, Bachstraße 1124.\nZurlinden-Richner, Rudolf, Fabrikant, von Zofingen, obere Vorstadt 1117.\nZürcher-Wirz, Alfred, Arzt, von Menzingen (Zug), Laurenzenvorstadt 399.\n— =Stutz, Johann, gew. Turnlehrer, v. Thalweil (Zürich), Kroneng. 34.\n— =Weber, Karoline, Wäscherin, v. Menzingen (Zug), im Hammer 190.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 2556,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1077,
+    "lines": 19,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0028,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:14:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p057",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p057.jpeg",
+      "bytes": 240024,
+      "sha256": "7e3cc7ee2481591bfbd9fe862c8eb9764e99176c06f92ac51eaf2bc4d9a4e282",
+      "sha256_of": "original",
+      "working_copy": "1884_p057.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:14:32+00:00"
+  }
+}

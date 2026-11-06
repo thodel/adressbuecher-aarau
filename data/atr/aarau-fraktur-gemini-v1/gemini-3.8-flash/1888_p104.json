@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p104",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p104.jpeg",
+    "bytes": 288328,
+    "sha256": "ad01b9182717ef0134fc61cdb829805fa6503d5a0a4f4288d00e2377513ee001",
+    "sha256_of": "original",
+    "working_copy": "1888_p104.jpeg"
+  },
+  "text": "86\nFrei — Frey.\n\nFrei-Hintermann, Arnold, Taglöhner v. Mellingen, Laurenzenvorstadt 376.\nFrei-Hofer, Jakob, Lokomotivheizer von Auenstein, hintere Vorstadt 624.\nFrei-Kyburz, Rosina, Weißnäherin von Härkingen (Solothurn), obere\n  Vorstadt 966.\nFrei-Lindenmann, Johann, Taglöhner von Reigoldswyl (Baselland),\n  Milchgasse 75.\nFrei, Maria, Spetterin von Densbüren, vor dem Haldenthor 769.\nFrei-Mösch, Ulrich Wilhelm, Werk- und Brunnenmeister von Zurzach,\n  Rathhausgasse 4.\nFrei-Rauber, Joh. Jakob, Küfer, Part. von Degerfelden, Weinberg 321.\nFrei-Tanner, Johann, Schneider von Densbüren, Milchgasse 74.\nFrei-Wirth, Emil, Kaufmann von Wangen (Solothurn), Bachstraße 1043.\nFrei-Würtemberger, Bertha, Wittwe, Part. von Dresden (Sachsen), Rath-\n  hausgasse 3.\nFrey-Beger, Adolf, Dr. phil., Professor v. Gontenschwyl, Schloßplatz 195.\nFrey-Bolley, Edwin, Kaufmann, Bachstraße 1062.\nFrey, Eugen, Kaufmann, Laurenzenvorstadt 428.\nFrey-Frey, Adolf, Dr. med., Laurenzenvorstadt 428.\nFrey-Frey, Karl, Stadtrath, Laurenzenvorstadt 422.\nFrey-Feer, Bertha, Fabrikants Wittwe, Part., vordere Vorstadt 903.\nFrey-Gamper, Julius, Dr. jur., Vize-Bankdirektor von Möhlin, Lau-\n  renzenvorstadt 399.\nFrey-Häuptli, Gottlieb, Eisenbahnkondukteur von Biberstein, Laurenzen-\n  vorstadt 363.\nFrey-Hagnauer, Konrad, Dr. med., prakt. Arzt, Laurenzenvorstadt 364.\nFrey-Herzog, August, Fabrikant, in der Telli 444.\nFrey-Hotze, Wittwe, Part., Laurenzenvorstadt 403.\nFrey-Kiefer, Joseph, Notar, Stellvertreter des Gemeindeschreibers und\n  Civilstandsbeamter, Laurenzenvorstadt 390.\nFrey-Kumpf, Friedrich, Sekretär von Densbüren, vor d. Haldenthor 810.\nFrey, Friedrich, Sohn, Sekretär,            id.             id.             id.\nFrey, Albert, Uhrenmacher von Densbüren, Wohnung            id.             id.\n  Werkstätte und Laden Rathhausgasse 47.\nFrey-Pfyffer, Maria, Wittwe, Part. von Zurzach, Schachen 737.\nFrey-Rauschenstein, Eduard, Pfarrhelfer, Kirchgasse 6.\nFrey, Robert, Fabrikant, Laurenzenvorstadt 423.\nFrey, Max, Fabrikant,                       id.             id.\nFrey, Rosa, Feinwäscherei und Glätterei von Densbüren, vor dem Halden-\n  thor 810.\nFrey-Rüegg, Oskar, Fabrikant, Igelweid 628.\nFrey-Ryhiner, Arnold, Fabrikant, Graben 618.\nFrey-Schmidlin, Othmar, Fürsprech, Bankkontroleur, Graben 204.\nFrey-Spengler, Elise, Reg.-Raths Wittwe, Part., hintere Vorstadt 694.\nFrey-Springer, Wilhelmine, Wittwe, Rentiere, in der Telli 430.\nFrey-Vetterli, Achilles, Coiffeur von Densbüren, Wohnung Metzgergasse 100\n  und Coiffeurgeschäft Laurenzenthorgasse 1118.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8368,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2538,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:34:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p104",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p104.jpeg",
+      "bytes": 288328,
+      "sha256": "ad01b9182717ef0134fc61cdb829805fa6503d5a0a4f4288d00e2377513ee001",
+      "sha256_of": "original",
+      "working_copy": "1888_p104.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:42+00:00"
+  }
+}

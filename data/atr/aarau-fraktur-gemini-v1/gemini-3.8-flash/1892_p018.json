@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p018",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p018.jpeg",
+    "bytes": 225424,
+    "sha256": "2ff89a573b6c513a7edc231b248dd7b8ae59b48ae72b55913ba0cd2599830a24",
+    "sha256_of": "original",
+    "working_copy": "1892_p018.jpeg"
+  },
+  "text": "— 10 —\n\nHaus-\nNr.\n106. a. † Dieselbe. Holzhaus.\n106. b. Ryniker-Groß, Friedrich, Bierbrauer. Küche und Eßzimmer.\n107. * Bertschi-Schäfer, Gottfried, Schreiner, von Dürrenäsch.\n  Lüthi-Kyburz, Friz, Sattler, von Schöftland.\n  Bertschi geb. Vogt, Elisabeth, Schreiners Wittwe, von Sumiswald\n    (Bern).\n  Rüegger-Bärtschi, Lisa, Feinwäscherei und Glätterin, von Aarburg.\n  Bertschi-Schwammberger, Adolf, Schneider, von Sumiswald.\n  Bertschi-Schwammberger, Marie, Damenschneiderin, von Sumiswald.\n  Ammann-Gränacher, Rudolf, Lithograph, von Roggwyl.\n108. Gamper-Wildi, Adolf, Mezger und Wurster.\n  Gamper-Haßler, Karolina, Bäckers Wittwe.\n109. † Derselbe. Schweinemezg und Waschhaus.\n110. † Derselbe. Mezgerei- und Wurstereilokal.\n111. † Derselbe. Eiskeller.\n1328  † Derselbe. Eiskeller.\n112. * Kühn-Hoffmann, Bernhard, von Tieffurt (Sachsen). (Gasthof zum\n    Rößli.)\n  Meyer-Egli, Albert, von Dürnten (Zürich). Gastwirth zum Rößli.\n  Egli, Heinrich, Part. von Brüttenh (Zürich).\n113. * Gemeinde Aarau. Post- und Telegraphenbureau, Telephon-Central-\n    station, Löschmagazin, Stadtbibliothek und Grütlivereinslokal.\n\nLaurenzenthorgasse.\n\n114. Abgetragen. An dessen Platz\n1118  Good, Albertine, Privat, von Mels (St. Gallen).\n  Blume, Mina, Damenschneiderin, von Sprendlingen (Hessen). (Hand-\n    lung von Damenkonfektion.)\n  Kern, Emilie, Stickerei- und Wollengeschäft.\n  Lüthy-Gamper, Samuel, Telegraphist, von Schöftland.\n115. Wettler-Schneider, Adolf, von Rheineck (St. Gallen), Gastwirth zum\n    Ochsen.\n116. Zebert-Altorfer, Georg, Buchbinder, von Bauma (Zürich). Buch-\n    binderei und Linieranſtalt. Schreibmaterialienhandlung.\n  Frey-Vetterli, Achilles, Coiffeur, von Densbüren. Coiffeur- und Par-\n    fümeriegeschäft.\n117. Wüthrich-Lüdi, Samuel zum Storchen, von Eggiwyl (Bern).\n    Spezerei-, Wein- und Spirituosenhandlung.\n    Telephon öffentliche Sprechstation.\n  Wüthrich, Jakob, Confiseur, von Eggiwyl. (Bern.)\n  Widmer-Eichenberger, Hermann, Küfermeister, von Hausen.\n  Steiner-Dürr, Jakob, Postkondukteur, von Oberengstringen (Zürich).\n  Hunziker-Müller, Friedrich, Maschinenmeister. (Buchdruckerei Sauerländer.)\n  Blattner-Burgunder, August, Sekretär, von Küttigen.\n  Lattmann-Ackermann, Georg Heinrich, Lokomotivheizer, von Sternenberg\n    (Zürich).\n  Burgmeier-Kieser, Joseph, (Klavierdepot).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7725,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2310,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:46:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p018",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p018.jpeg",
+      "bytes": 225424,
+      "sha256": "2ff89a573b6c513a7edc231b248dd7b8ae59b48ae72b55913ba0cd2599830a24",
+      "sha256_of": "original",
+      "working_copy": "1892_p018.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:35+00:00"
+  }
+}

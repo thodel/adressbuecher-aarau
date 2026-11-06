@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p182",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p182.jpeg",
+    "bytes": 220942,
+    "sha256": "885e34d6a55e408de51528bd63c1e7e22c43a12dd210990dc50db0b34ef11b96",
+    "sha256_of": "original",
+    "working_copy": "1892_p182.jpeg"
+  },
+  "text": "166\n\nSammlungen.\n\nKantonale Muster- u. Modellsammlung\n  mit Lesezimmer und Zeichnungsbureau,\n  (Feer’sche Villa an der Bahnhofstraße)\n  geöffnet täglich (mit Ausnahme vom\n  Montag) von 9—12 Uhr und 1—6\n  Uhr, Sonntags 10—12 Uhr, im Winter\n  zudem an zwei Wochenabenden, welche\n  jeweils bestimmt werden.\n    Die Sammlung besteht aus muster-\n  gültigen Objekten für Holz- und Metall-\n  gewerbe, Gipsabgüssen und andern\n  Objekten.\n    Die reichhaltige Bibliothek enthält\n  Vorlagen und Textwerke für alle Er-\n  werbszweige.\n    Sämmtliche Objekte und Bücher\n  können den Gewerbetreibenden des\n  ganzen Kantons zur Benützung aus-\n  geliehen werden.\n    Direktor der Anstalt: J. L. Meyer-\n  Zschokke.\nKantonale Münzsammlung, im Re-\n  gierungsgebäude, Staatsarchiv.\n  (Abwart des Regierungsgebäudes.)\nSammlung der im Regierungs- und\n  Großrathsgebäude zu Aarau aufge-\n  stellten Kunstgegenstände. (Glasgemälde\n  von Muri, Oelgemälde, Kupferstiche\n  Sculpturen 2c.)\n  (Abwart des Regierungsgebäudes.)\nKantonales Antiquarium, Rain 882.\n  (Kanzlei der Erziehungsdirektion.)\nKantonales Naturhistorisches Museum,\n  Casinostraße 584 geöffnet an Sonn-\n  und Festtagen Nachmittags v. 2—4 Uhr.\n  (Abwart: Pedell der Kantonsschule.)\nEthnolog. Gewerbemuseum, Feer’sche\n  Villa an der Bahnhofst. Sekretariats-\n  bureau: Bachstraße 1174. Daselbst be-\n  findet sich die Schweizer. Centralstelle\n  für Adreßbücher und werden Uebersetz-\n  ungen in 22 Sprachen geliefert. Nähere\n  Auskunft ertheilt bereitwilligst der Sek-\n  retär Karl Bührer.\n      Sammlungen:\n  Photographisches Museum.\n  Schweizerisches Werthzeichen-Museum.\n         „          Zeitungs-Museum.\n  Kartographische Sammlung.\n  Siegel-Sammlung.\n  Holzschnitt-Sammlung.\n\n* Die angeführten Sammlungen stehen zur Besichtigung oder Benützung dem Publikum während der\ngenannten Tageszeit offen!\n\nBibliotheken.\n\nAargauische Kantonsbibliothek, Groß-\n  rathsgebäude 908 geöffnet Mittwoch\n  und Samstags, Sommer 2—5 Uhr,\n  Winter 2—4 Uhr. Lesezimmer außer-\n  dem geöffnet Montag 2—5 Uhr.\n  (Bibliothekar: Dr. Hans Herzog,\n  Staatsarchivar.)\nStadtbibliothek mit der ehemaligen\n  Casinobibliothek (altes Kaufhaus 113)\n  geöffnet Mittwoch 1—3 Uhr.\n  (Bibliothekar: Dr. E. Zschokke, Be-\n  zirkslehrer.\nMilitärbibliothek, kantonal. Zeughaus.\n  (Hr. Senn, Zeughausverwalter.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7180,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2306,
+    "lines": 70,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0143,
+    "mean_line_chars": 30.01,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:08:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p182",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p182.jpeg",
+      "bytes": 220942,
+      "sha256": "885e34d6a55e408de51528bd63c1e7e22c43a12dd210990dc50db0b34ef11b96",
+      "sha256_of": "original",
+      "working_copy": "1892_p182.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:08:15+00:00"
+  }
+}

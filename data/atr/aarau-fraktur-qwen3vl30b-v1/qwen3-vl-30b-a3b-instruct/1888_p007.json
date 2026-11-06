@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p007",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p007.jpeg",
+    "bytes": 220714,
+    "sha256": "531fc33987f5a828312462874ad37b6c3a1260f7399f94beb2ca9c3ed0343543",
+    "sha256_of": "original",
+    "working_copy": "1888_p007.jpeg"
+  },
+  "text": "Adreß-Buch\nder\nStadt Aarau.\nDienlich für Jedermann\nnamentlich\nfür Beamte, Fabrikanten, Handels- und Gewerbsleute\nvon\nG. Vogel, Polizei-Wachtmeister.\nIm Verlage des Verfassers.\nAarau, 1888.\nDruck von H. R. Sauerländer.\n[stempel: KANTONS-BIBLIOTHEK\nAARGAU]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 696,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 254,
+    "lines": 13,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 18.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0118,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p007",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p007.jpeg",
+      "bytes": 220714,
+      "sha256": "531fc33987f5a828312462874ad37b6c3a1260f7399f94beb2ca9c3ed0343543",
+      "sha256_of": "original",
+      "working_copy": "1888_p007.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:24+00:00"
+  }
+}

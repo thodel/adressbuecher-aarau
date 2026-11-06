@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p051",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p051.jpeg",
+    "bytes": 255072,
+    "sha256": "ec2287f337e463ccbd0d7c25b7c97d77c4546c3ebdfb6830a1da1c8d05664da8",
+    "sha256_of": "original",
+    "working_copy": "1888_p051.jpeg"
+  },
+  "text": "Haus-\nNr.\n613. Dhouffier=Imhof, Friedrich, Fabrikant.\n614.† Derfelbe. Magazine.\n615. * Wydler-Frey, Elise, Apothekers Wittwe.\nZehnder, Gottlieb, Oberst, von Birmenstorf. Waffenschef der Cavallerie.\nEidg. Cavalleriebureau.\nZeller-Bruggisser, Arthur, Med. Dr., prakt. Arzt, von Wohlen.\n616. † Diefelbe. Echeune mit Schopf.\n617. † Diefelbe. Wäschhaus.\n618. Frey-Rühiner, Arnold, Fabrikant.\nWeber-Bed, Gustav, Bezirksarzt, von Menziken.\nBeck-Rieger, Anna Maria, Kaufmanns Wittwe.\nGäng-Engelberger, Bernhardine, Part. von Laufenburg.\n619. Willimann, Anton, Lohnkutscher. (In der Igelweidstrasse aufgenommen.)\n620. a. Siebenmann=Kohr, Rudolf, Bierbrauer.\n620. b.† Derfelbe. Regelbahn und Rüthlschiff.\n\nGraben.\n621. * Siebenmann=Siebenmann, Rudolf, Partikular.\nPeter geb. Gut, Anna, Fourniturenhändlers Wittwe, von Pfaffnau (Uzern).\nFrismann & Blattner, Weißwaarengeschäft.\nFrismann, Marie, Weißnäherin, von Mühlen.\nBlattner, Marie, Weißnäherin, von Rüttigen.\n622. * Siebenmann=Kohr, Rudolf, Bierbrauer.\nSpühler-Frei, J. S., von Reckingen. Redaktor, Druck und Verlag der\n„Nargauer Nachrichten“ und „Nargauerzeitung“.\n623. Matter=Schönenberg, Samuel, Amtsschreiber, von Oberentfelden.\nSommer, Joh. Ulrich, von Elsau (Zürich), Volksküche.\nSommer, Heinrich, Bart..\n624. Bertschinger=Wild, Gustav, von Lenzburg. Spezereihandlung.\nFrey-Hofer, Jakob, Lokomotivheizer, von Auenstein.\n\nHinter Vorstadt.\n625. Baumann=Hautschi, Samuel, Hufschmied.\nBaumann, Fritz, Sohn, Hufschmied.\nMoog-Gans, Elisabeth, Schuhhändlerin, von Birmajens (Bayern).\nBrack-Wälchli, Heinrich, Webermeister, von Mönthal.\nRicker-Specht, Wilhelm, Werkführer, von Eichelbronn (Württemberg).\nHach-Rössig, Friedrich Ludwig, Schneider, von Nettingen (Bayern).\n626. † Derfelbe. Remise und Wäschküche.\n619 Willimann=Lehmann, Anton, Lohnkutscher.\nSchenker, Gustav, Thierarzt, von Schönenwerd (Solothurn).\nKeller-Käggi, Andreas, Bezirksverwalter. Hauptagentur der schweizerischen\nMobiliarversicherungsgesellschaft.\n627. Abgetragen. An dessen Platz\n1170 Bau = u. Garantiecomite der römisch-kathol. Kirche (römisch-katholische\nPfarrkirche).\n\nIgelweid.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4422,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2097,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:22:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p051",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p051.jpeg",
+      "bytes": 255072,
+      "sha256": "ec2287f337e463ccbd0d7c25b7c97d77c4546c3ebdfb6830a1da1c8d05664da8",
+      "sha256_of": "original",
+      "working_copy": "1888_p051.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:20+00:00"
+  }
+}

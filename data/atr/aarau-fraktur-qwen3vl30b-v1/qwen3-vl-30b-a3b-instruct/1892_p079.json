@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p079.jpeg",
+    "bytes": 226677,
+    "sha256": "0c41da8b0ccd2620579973a1043ab89f78989f3f59add736210ca703ce3c9441",
+    "sha256_of": "original",
+    "working_copy": "1892_p079.jpeg"
+  },
+  "text": "Haus-\nNr.\n1033. Crismann, Samuel, Armenpfleger.\n1034.† Derfelbe. Scheune.\n1035. Imhof=Uman, Ernst, Fabrikant. Farbwaarenfabrikation für Cons-\nbitoreien.\n1036.† Andreas=Bircher, Friedrich, Hafner, Holzhaus.\n1037.† Derfelbe. Hafnerei.\n1038: Brunner, Gottfried, Part.\nBrunner, Auguste, Glätterin.\nPhilipp-Bonarz, Johann, Milchverkäufer, von Rienberg (Solothurn).\nZiegler-Hänki, Karl, Zugführer, von Zittlingen (Baden).\nLetich-Brunner, Albert, Buchbinder, von Neutlingen (Württemberg).\nBrugger-Tschudi, Katharina, Näherin, von Hirschthal.\n1039. Kraft=Kaspar, Maria, Wittwe, von Brugg.\nKaspar-Hunziker, Rudolf, Chef des aargauischen Polizeikorps.\nFrei-Brand, Franz, Karl, Postcommis, von Zurzach.\nDr. Bigler-Wirth, Ulrich, Lehrer, von Oberthal (Bern).\n1073 † Diezelfe. Holzremise.\n1040. Haßler=Oberlin, Margaretha, Wittwe. Fingerieschäft.\nChefsam, Jda, Part.\nMaiers-Ganter, Konrad, Lohnkutscher, von Reisalfingen (Baden).\nWyß, Niklaus, Gerichtskanzlist, von Sulz.\n1107 Stanz=Suter, Louise, Wittwe, Part.\nBennert-Roth, Emilie, Part., von Paris.\nBrentano-Zimmermann, Gustav, Staatsanwalt, von Laufenburg.\nImhof, Louise, Part.\nImhof, Eufette, Part.\n1098 * Bircher=Schachmann, Heinrich, Med. Dr.\nDr. F. H. Berner-Egli, Zahnarzt.\n1099 Derfelbe. Wachshaus.\n1100 Merz=Märk, Sebastian, Notar. (Notariat- und Zufassogeschäft.)\n1101 Bäbler, Johann Jakob, Dr. Professor, von Matt (Glarus).\nGeckner, August, Dr. Professor, von Zürich.\n1124 Zulauf=Siebenmann, Leopold (Weinhandlung).\n1135 † Derfelbe. Weinmagazin.\n1140 † \" Stalling und Remise.\n1196 † \" Remise.\n1137 Wolfinger=Mayr, Max, Professor, von Mannheim (Baden).\n1138 * Schmid=Jenny, Joh. Jakob, Oberst, in Glarus.\nSchmid-Läuchli, Joh. Jb., Ingenieur, Konfodats- und Katastergeo-\nmeter, von Glarus.\n1112 Stephani-Wettler, Albertine, Fabrikants Wittwe.\n1152 † Diezelfe. Holzschopp.\n1113 Adam=Stephani, Hedwig, Wittwe, von Ulschwyll (Baselland).\n1127 † Diezelfe. Stalling und Holzremise.\n1175 Wehrlı= Märt, Emil, Bankkassier, von Rüttigen.\n1174 Bühler=Heusler, Karl, Kaufmann, von Bibern (Schaffhausen).\nWarenagentur-Geschäft.\n1156 Walder=Kunz, Karl, Buchhalter (Aarg. Bank) von Zürich.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4546,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2123,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:40:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p079.jpeg",
+      "bytes": 226677,
+      "sha256": "0c41da8b0ccd2620579973a1043ab89f78989f3f59add736210ca703ce3c9441",
+      "sha256_of": "original",
+      "working_copy": "1892_p079.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:40:32+00:00"
+  }
+}

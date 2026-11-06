@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p072",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p072.jpeg",
+    "bytes": 246453,
+    "sha256": "0f4a3ff55c4d49dde53d3c8c0dd0caa5415f650887b9fe7c9607f47f8584a25b",
+    "sha256_of": "original",
+    "working_copy": "1888_p072.jpeg"
+  },
+  "text": "— 62 —\n\nHaus\nNr.\n972. Schmuziger= von Grigoroff, Friedrich, med. Dr., Arzt.\n1177 †Derfelbe. Bienenhaus.\n973. Schindler=Trümpi, Emma, Fabrikant's Wittwe, von Mollis (Glarus).\nRenhard, J. Martin, Professör, von Wigoltingen (Thurgau).\n1134 †Diefelbe. Holzremije.\n1075 Brentano-Bruggisser, Max, Zahnarzt, von Laufenburg.\nSchopfe-Bodmer, Hermann, Agent.\n\nBischoffestraße.\n\n974. Stern-Jäslin, Alexander, Pfarrer, von Basel, Prediger an der\nEvang. Kapelle.\n975. Ehrsam-Andres, Daniel, Postbeamter.\nBischoffe-Schmuziger, Arnold, Dr. Jur., Staats schreiber.\n976.a. Stern-Jäslin, Alexander, Pfarrer. (Holzhaus).\n976.b. Ehrsam-Andres, Daniel, Postbeamter. (Holzhaus).\n977. Stigeler-Schaub, Joseph, Zeughausdirektor, von Reckingen.\nBullermot-Leblanc, Charles Jean L., Kaufmann, v. Verrieres (Waadt).\n\nGartenstraße.\n\n978. †Ernst= Pfisterer, Bierbrauers Wittwe. Gisckeller.\n1216 †Diefelbe. Gisckeller.\n\nEntfelderstraße.\n\n979. Thut-Laufer, Rudolf, Privat, von Oberentfelden.\nFisch-Thut, Adolf, Weinhändler.\nVüschcr-Thut, Elise, Privatin, von Oberentfelden.\n980.† Derfelbe. Scheune.\n981. Maier-Rychner, Kaspar, Professor, Rektor der Kantonsschule.\nRychner-Henz, Henriette, Part.\n982.† Derfelbe. Holzhaus.\n983. Beck-Braun, Friedrich, Sattler.\nWieland-Wieland, Hermine, Wittwe, Part., von Rheinfelden.\nMühlberg-Amzler, Theodor, Postkontrolleur, von Muri.\n1076 † Derfelbe. Wach- und Holzhaus.\n1195 Rüttiker-Wernli, Hermann, Milchverkäufer, von Hab sburg.\nBart-Schmid, Johann, Postcommis, von Altenburg.\n1203 † Derfelbe. Holz-, Schwein- und Gesittigehaus.\n1147 Vogel-Wäzmer, Rudolf, Kaminsfeger und Dachdecker, von Rölliken,\nLager in Dach- und Randschindeln.\nHufi-Lämmli, Franz Josef, Wagenvisteur, von Wangen (Solothurn).\nKohler, Johann, Taglöhner, von Oberbözberg.\nWirz, Jakob, Schuhmacher, von Muhlen.\n1222 † Derfelbe. Schopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3922,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1809,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.93,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p072",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p072.jpeg",
+      "bytes": 246453,
+      "sha256": "0f4a3ff55c4d49dde53d3c8c0dd0caa5415f650887b9fe7c9607f47f8584a25b",
+      "sha256_of": "original",
+      "working_copy": "1888_p072.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:52+00:00"
+  }
+}

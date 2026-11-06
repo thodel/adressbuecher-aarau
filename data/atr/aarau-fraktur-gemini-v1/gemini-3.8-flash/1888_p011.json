@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p011",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p011.jpeg",
+    "bytes": 244412,
+    "sha256": "a8d24ca9cb7057a18907929b82a088fcbbec138867adb1865841d9857fdebc90",
+    "sha256_of": "original",
+    "working_copy": "1888_p011.jpeg"
+  },
+  "text": "Verzeichniß\nder\nEinwohner, Wohn- und Oekonomie-Gebäude\nzu Aarau.\n\nNeben jeder Nummer ist der Eigenthümer des betreffenden Hauses bemerkt: bewohnt\ner selbst dieses nicht, so ist derselben ein * beigesetzt. Oekonomiegebäude sind mit † be-\nzeichnet. Wo kein Heimatsort beigesetzt ist, sind es Bürger von Aarau.\n\nHaus-\nNr.\nRathhausgasse.\n\n1. * Schmuziger-Koller, Daniel, Baumeister.\n  Schmuziger, Marie, Schreibmaterialien- und Quincailleriehandlung (Firma\n    Daniel Schmuziger-Fisch).\n  Schmuziger, Otto, Wagmeister in der Cementfabrik der HH. Zurlinden & Cie.\n2. Morath-Dilger, Johann, Kaufmann, Quincaillerie-, Glas-, Porzellan-\n    waaren- und Uhrenhandlung.\n  Morath, Johann, Sohn, Kaufmann.\n  Fischer, August, Buchhandlungsgehilfe (Sauerländer), von Kastel b. Mainz.\n  Tzschauzsch, Adolf, Buchhandlungsgehilfe (Wirz), von Züllichau (Preußen).\n  Ackermann, Konrad, Postcommis, von Romanshorn.\n  Holliger, Rudolf, Reisender, von Boniswyl.\n3. Wydler-Fischer, Julius, Notariats-, Inkasso- und Verwaltungsgeschäft.\n    Hauptagentur der franz. Feuerversicherungsgesellschaft „Phönix“.\n    Agentur der schweiz. Hagelversicherungsgesellschaft.\n  Fäs-Bircher, Samuel, Schuhmachermeister, von Oberkulm, Schuhhandlung.\n  Frei geb. Würtemberger, Bertha, Wittwe, Part., von Dresden.\n  Hediger, Susanna, Weißnäherin, von Reinach.\n  Kramer, Jakob, Taglöhner, von Schloßrued.\n  Weber-Schäfer, Friedrich, Spenglermeister, von Vordemwald.\n  Weber geb. Buchmann, Magdalena, Wittwe, Part., von Oberflachs.\n  Spycher, Adele, Modistin, von Köniz (Bern), Robes et Confection.\n4. Siegrist-Riniker, Heinrich, Metzger.\n  Heß-Wolf, Alexander, Kaufmann, (Geschäftsführer), von Zillisheim\n    (Elsaß). Tuch- und Möbelwaarenhandlung, Firma: J. Heß, Fi-\n    liale der Magazine zur Stadt Mühlhausen, Biel und Solothurn.\n\nAdreßbuch der Stadt Aarau 1888. 1",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6563,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1825,
+    "lines": 36,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:23:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p011",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p011.jpeg",
+      "bytes": 244412,
+      "sha256": "a8d24ca9cb7057a18907929b82a088fcbbec138867adb1865841d9857fdebc90",
+      "sha256_of": "original",
+      "working_copy": "1888_p011.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:47+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p096",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p096.jpeg",
+    "bytes": 287950,
+    "sha256": "eba06fa1153c0e79b0b0f053aa04ebdb8b9143ec715915205da6ddcb98d130ae",
+    "sha256_of": "original",
+    "working_copy": "1888_p096.jpeg"
+  },
+  "text": "78\nBlattner — Brand.\n*Blattner-Jäger, Otto, Dr. Fürspruch, Büroe obere Vorstadt 948 und\nWohnung jenf. der Vare 300.\n*Blattner, Anna, Lehrerin, jenf. der Vare 300.\nBlattner, Melanie, Part., Oberrichters, Bollrain 293.\nBlume-Hirt, Philipp, Schreinermeister von Sprendlingen (Hessen),\nHammer 189.\nBlume-Hirt, Marie, Feinwascherin und Glätterin, von Sprendlingen\n(Hessen), Hammer 189.\nBlume, Mina, Damenschneiderin von Sprendlingen (Hessen), Hammer 189.\nBodmer-Roth, Joh. Julius, Fabrikausfesher von Erlinsbach, Erlinsbacher-\nstraße 337.\nBolens-Rychner, Henri, Fabrikant von Morges (Waadt), Gais 479.\nBolliger, Anna, Ladentochter von Gontenschwyl, vordere Vorstadt 889.\nBolliger, Emil, Buchbinder von Schlokrued, Halden 277.\nBolliger, Friedrich, Kistenmacher von Wittwyl, vor dem Haldenthor 1084.\nBolliger-Häfeli, Gottfried, Cementarbeiter, von Uertheim, Hammer 185.\nBolliger-Trösch, Johann, Käfer von Uertheim, Hammer 185 b.\nBolliger-Huggenberger, Jakob, Oberwagenwärter von Buchs, hinter dem\nBahnhof 496.\nBolliger-Hunziker, Heinrich, Bahnangestellter von Schmiedrued, hintere\nVorstadt 693.\nBolliger-Hürzeler, Jakob, Lokomotivheizer von Schlokrued, hinter dem\nBahnhof 1072.\n* Bolliger, Johann, Notar, Gais 1248.\n* Bolliger-Rielholz, Albert, Bankangestellter von Rüttigen, Schachen 729.\nBolliger-Manger, Gustav, Kaufmann, hintere Vorstadt 646.\nBolliger, Melanie, Schneiderin, Schachen 736.\nBolliger-Speck, Hermann, Bahnangestellter von Schmiedrued, Scheiben-\nschachen 316.\nBolliger-Speck, Elise Verena, Wäscherin von Schmiedrued, Halden 277.\nBolliger-Schenker, Samuel, Knecht von Schlokrued, Rain 819.\nBopp-Häusler, Kaspar, Pflästerer von Remigen, Rain 884.\nBoffardt, Elise, Privatlehrerin von Altstätten (Zürich), Halden 264.\nBoffardt, Maria, Spetterin von Effingen, Stadthof 94.\nBouvard-Schulteß, Johann, Güterexpedient von Remetschwyl, hinter dem\nBahnhof 495.\nBrack-Grismann, Anna, Wittwe, Part., Bachstraße 1061.\nBrack, Abraham, Dekonom,\nid. id.\n*Brack-Steininger, Gottlieb, Buchhalter von Effingen, obere Vorstadt 929.\n*Brack-Uster, Heinrich, Revifor von Effingen, Schachen 736.\nBrack-Wälchli, Heinrich, Webermeister von Mönthal, Igelweid 625.\n*Bräm-Thalmann, Heinrich, Kaufmann von Bülach (Zürich), Hammer 191.\nBrändli-Hug, Jakob, Fabrikarbeiter von Unterböckberg, Ziegelrain 711.\nBräutigam-Andres, Margaretha, Wittwe, Schuhhandlung, Mezgergasse 107.\nBrand-Baumann, Jakob, Bäcker und Pintenwirth, vordere Vorstadt 669.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5157,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2420,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:25:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p096",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p096.jpeg",
+      "bytes": 287950,
+      "sha256": "eba06fa1153c0e79b0b0f053aa04ebdb8b9143ec715915205da6ddcb98d130ae",
+      "sha256_of": "original",
+      "working_copy": "1888_p096.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:07+00:00"
+  }
+}

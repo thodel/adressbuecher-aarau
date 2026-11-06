@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p181",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p181.jpeg",
+    "bytes": 199415,
+    "sha256": "1642f5db1896e1acba8cfef74ea7885714bb38686ddaa57da9234f350c74efa5",
+    "sha256_of": "original",
+    "working_copy": "1892_p181.jpeg"
+  },
+  "text": "165\n\nSiebenmann-Rohr, Bierbrauer                   Graben.\nSiebenmann-Siebenmann,                        z. Rosenfels, Gartenstraße 1166.\nSpar- und Kreditkasse                         Schöftland.\nSpinner, J., Camioneur                        Bahnhofstraße 537.\nSpühler, J. J., Redaktor und Verleger der Aarg.\n  Nachrichten                                 Hintere Vorstadt 622.\nStaatsanwaltschaft, Kantonspolizei            Amthaus.\nStaatskanzlei                                 Regierungsgebäude.\nStadtpolizei, Wachtposten                     Rathhausgasse 176.\nStahel & Bräm, Manufakturwaaren               Hammer 191.\n  „   Café Stahel                             Graben 1161.\nStaehelin, Dr. A.                             Kirchgarten 303.\nStadtammannamt                                Rathhaus 176.\nSuhr                                          Gemeinde-Station.\nSchäfer, Birkenhof                            Gais 480.\n\nVidiella & Frey, Weinhandlung                 Kirchgasse 7.\nVogel-Thut, Zapfenfabrik                      Ober-Entfelden.\n\nWächter-Haßler, Kurwirthschaft zum            Alpenzeiger.\nWeber, Bezirksarzt                            Graben 618.\nWeber-Lüscher, Weinhandlung                   Pelzgasse 128.\nWettler, Adolf, Gasthof zum Ochsen            Laurenzenthorgasse 115.\nWillimann, Fuhrhalter                         Schmiedgasse 619.\nWirth-Herzog, Auswanderungsagent              Zollrain 89.\nWitzinger, Dr. med.                           Zeughausstraße 1317.\nWehrli, Handelsgärtner                        Schachen 1272.\nWolfsgruber, Photograph                       Vor dem Haldenthor 770.\nWirz, Emil, Buchhandlung                      Oberthor 139.\nWüthrich, Reclamenbureau                      Bachstraße 1028.\nWüthrich-Lüdi, Spezereihandlung               Laurenzenthorgasse 117.\nWydler, Söhne, Färberei                       Ziegelrain 718.\nWydler, C., Apotheker                         Marktgasse 23.\nWyser & Cie., Färberei                        Bachstraße 1055.\n\nZeughausdirektion                             Altes Zeughaus.\n  „                                           Neues Zeughaus.\n  „             (Bekleidungsmagazin)              „\nZschokke, O., Baugeschäft                     Rohrerstraße 472.\nZschokke, Oberst,                             Blumenhalde 319.\nZschokke, Conradin, Ingenieur                 Buchenhof 1200.\nZurlinden & Co., Portlandcementfabrik         Scheibenschachen 1180.\n  „        „   Wohnung Bahnhofstr. 1013.\n  „        „   Cementfabrik                   Wildegg.\nZürcher, Arzt                                 Laurenzenvorstadt 391.\nZebert-Altorfer, Buchbinderei                 Laurenzenthorstraße 116.\n\nOeffentliche Sprechstation in Aarau:\nLaurenzenthorgasse 117: Wüthrich-Lüdi, Spezereihandlung.\nSuhr: S. Wälti.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7144,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2775,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:08:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p181",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p181.jpeg",
+      "bytes": 199415,
+      "sha256": "1642f5db1896e1acba8cfef74ea7885714bb38686ddaa57da9234f350c74efa5",
+      "sha256_of": "original",
+      "working_copy": "1892_p181.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:08:08+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p015",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p015.jpeg",
+    "bytes": 243474,
+    "sha256": "f3720976dced3c7cb3b2763760e53d36f52de19f8398aebff8588c18bc3fec26",
+    "sha256_of": "original",
+    "working_copy": "1892_p015.jpeg"
+  },
+  "text": "— 7 —\n\nHaus-\nNr.\n73. * Maurer, Louise, Privatin.\n  Müller-Schmocker, Fritz, Coiffeur. Coiffeurgeschäft.\n  Müller-Schmocker, Verena, Modistin, Hut- und Modewaarenhandlung.\n  Maurer-Ernst, Philipp, Gießereiarbeiter.\n74. * Siegrist=Fischer, Jakob, Metzger, von Meisterschwanden.\n  Frey-Tanner, Johann, Schneider, von Densbüren.\n  Siebenmann-Beck, Gottlieb, Färber.\n  Horlacher-Rubin, Heinrich, Schneider, von Umiken.\n75. * Jäggi=Weber, Hermann, Buchhalter, von Strengelbach.\n  Hochstraßer-Fehlmann, Verena, Spetterin, von Fahrwangen.\n  Haller-Attiger, Wilhelm, Schuhmacher, von Reinach.\n  Haller-Attiger, Maria, Glätterin, von Reinach.\n  Bruder-Bruder, Jakob, Güterarbeiter, von Seengen.\n76. Ernst=Lehmann, Samuel, Gasarbeiter, von Holziken.\n  Haller geb. Fehlmann, Verena, Spetterin, von Fahrwangen.\n  Flückiger-Trösch, Gottfried, Pferdewärter, von Auswyl.\n77. Hässig=Siegrist, Julius, Schlossermeister.\n  Ging-Ryser, Wilhelm, Wagner.\n78. Andres=Eichelberger, Otto, Hafnermeister.\n  Iberg-Lüscher, Joh. Jakob, Maschinenmeister, von Küttigen.\n  Singer-Kloter, Georg, Maurer, von Salzstetten (Württemberg).\n79. Wärtli geb. Nußbaum, Marg., Wittwe, Part.\n  Rüedi-Wärtli, Joh. Nepomuck, Staatsweibel, von Sulz.\n  Haberstich-Huber, Gottlieb, Holzspalter, von Oberentfelden.\n  Haberstich, Otto, Sohn, Magazinier, von Oberentfelden.\n  Haberstich, Emil, Sohn, Magazinier, von Oberentfelden.\n  Sommerhalder=Lindenmann, Rudolf, Milchverkäufer, von Schloßrued.\n  Wälchli, Verena, Wäscherin, von Madiswyl (Bern).\n\nKirchhof.\n80. * Schlatter=Bühler, Maria, Marbriers Wittwe.\n  Hagnauer-Kaspar, Joh. Ludwig, Briefträger.\n  Kaspar-Urech, Elisabeth, Wittwe, Part., von Leutwyl.\n  Grütter-Tenger, Gottfried, Eisenbahnkondukteur, von Seeberg.\n81. Rüetschi=Mattli, Gottfried, Obergerichtsweibel.\n  Rüetschi-Wenger, Maria, Wittwe, Milch-, Butter-, Käs- und Spezerei-\n    handlung, Salzverkauf.\n  Ott, Anna, Zettlermeisterin, von Ryken.\n  Rüetschi, Bertha, Haushälterin.\n82. * Morath, Johann, Kaufmann.\n  Frank-Roland, Samuel, Schreiner.\n  Frank, Rudolf, Postpacker.\n  Berberich, Jakob, Schuhmacher, von Oppenweiler (Württemberg).\n  Wittwer-Bolliger, Friedrich, Taglöhner, von Schangnau (Bern).\n  Wittwer, Emma, Weißnäherin, von Schangnau (Bern).\n83. Märk, Louise, Part.\n  Zimmerli, Joh., Holzer, von Unterentfelden.\n84. * Märk, Karl, Part.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 11244,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2315,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:46:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p015",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p015.jpeg",
+      "bytes": 243474,
+      "sha256": "f3720976dced3c7cb3b2763760e53d36f52de19f8398aebff8588c18bc3fec26",
+      "sha256_of": "original",
+      "working_copy": "1892_p015.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:09+00:00"
+  }
+}

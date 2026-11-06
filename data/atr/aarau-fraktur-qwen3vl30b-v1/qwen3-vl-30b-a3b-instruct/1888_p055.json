@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p055",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p055.jpeg",
+    "bytes": 252391,
+    "sha256": "f185ee8a001f868a75340474f1796340e03b3e5a99c470703b5501c77b6d3ffc",
+    "sha256_of": "original",
+    "working_copy": "1888_p055.jpeg"
+  },
+  "text": "Haus-\nNr.\n671. Landolt-Hächler, Gottlieb, Metzger.\nFörderer-Hinden, Anna, Wittwe, Bettwaarenhandlung.\nGrolimund-Gröli, Sigmund, Buchhandlungsangestellter, von Beinwyl\n(Solothurn).\n672. Ernß-Pfisterer, Lina, Wittwe, Part.\nPfisterer, Robert, Bierbrauer.\n673. Siebenmann, Daniel, alt Stadtrath.\nSiebenmann-Ackermann, Bäcker. Restauration.\n674.* Kunz-Heß, Johann Jakob, Zuckerbäcker, von Wald (Zürich).\nKunz, Ernst, Sohn, Zuckerbäcker, von Wald (Zürich).\nZündt geb.Hagenbuch, Elfie Louise, Wittwe, Part., von Altstätten (St. Gallen).\nSernatinger-Enz, Valerian, Hutmacher, von Ludwigshafen (Baden).\n675. Studler-Sandmeier, Anna, Wittwe, Part.\nGysi-Studler, Arnold, Mechaniker.\nTapezierergeschäft der Firma Billeter und Asper in Zürich.\n676. Hagenbuch-Egger, Friedrich, Buchbinderei und Schreibmaterialien-\nhandlung.\nGertier geb. Andres, Maria, Damenschneiderin, von Münchwilen.\nAndres, Mina, Aufseherin.\nAndres, Emma, Fabrikarbeiterin.\n677.+ Derfelbe. Buchbinderwerkstätte.\n678.* Henz-Plüß, Jakob, Kaufmann.\nHenz-von Seuter, Hans, Kaufmann (Firma Jakob Henz, Colonial-\nwaarengeschäft).\n679. Derfelbe. Abgetragen, an dessen Platz\n1169 Henz-Plüß, Jakob, Kaufmann.\nHenz-Märt, Julius, Kaufmann (Firma Jakob Henz, Eisenhandlungs-\ngeschäft).\n680. Schäfer-Denner, Cäsar, Messerschmied.\nMeyer-Groszmann, Anna, Wittwe, Part., von Rheinfelden.\n681. Müller-Schneebeli, Heinrich, von Untertrax (Zürich). Gasthof\nzum Löwen.\n682. Rothplez-Marti, Friedrichs Erbschaft.\nRothplez, Emil, Verwalter.\nWaldmeier geb. Rothplez, Bertha, Wittwe, Part., von Hellikon.\nSenn-Mattner, Karolina, Wittwe, Ausrüsterin, von Densbüren.\nMayer, Thomas, Schuster, von Eigoldingen (Baden).\nStauber, Emil, Bauangestellter, von Jezwyl.\n683. Müller-Schneebeli, Heinrich, Gastwirth. Wohnhaus mit † Stallung,\n† Waschhaus zc.\nSinterc Vorstadt.\n684.* Gemeinde Aarau. Obere Mühle.\nBirmann-Baldeweg, Albert, Müller, von Basel.\nBirmann, Adolf, Sohn, Müller, von Basel.\n685.+ Diefelbe. Holzschopf.\n686.+ Henz-Plüß, Jakob, Kaufmann. Magazin.\n687.+ Derfelbe. Magazin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4157,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2012,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:22:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p055",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p055.jpeg",
+      "bytes": 252391,
+      "sha256": "f185ee8a001f868a75340474f1796340e03b3e5a99c470703b5501c77b6d3ffc",
+      "sha256_of": "original",
+      "working_copy": "1888_p055.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:37+00:00"
+  }
+}

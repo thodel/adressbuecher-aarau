@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p061",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p061.jpeg",
+    "bytes": 217158,
+    "sha256": "d4028f584c1ef387d6da636e122a6030d80ca3e74827412990a56d623df381b5",
+    "sha256_of": "original",
+    "working_copy": "1892_p061.jpeg"
+  },
+  "text": "— 53 —\nHaus-\nNr.\n741.  Wullschleger=Blattner, Heinrich, Küfer.\n  Wullschleger, Hans, Knecht, von Schloßrued.\n  Müri-Frech, Johann Heinrich, Mechaniker, von Schinznach.\n  Schweizer-Siebenmann, Sophie, Wittwe, von Basel. Bettwaarengeschäft.\n  Siebenmann, Gottlieb, Part.\n742. † Fischer, Friedrich, Fuhrmann. Scheune.\n743. † Keller=Berney, Abraham, Mechaniker. Metalldreherei.\n\nZiegelrain.\n744. † Kern & Cie. Holzschopf.\n745. * Dieselben. Wohnhaus.\n  Fricker-Häusermann, Verena, Wittwe, Taglöhnerin, von Veltheim.\n  Siegrist-Plüß, Anna, Wittwe, Spetterin, von Meisterschwanden.\n  Lüscher-Schlatter, Susanna, Taglöhnerin, von Muhen.\n  Wehrli, Jakob, Mechaniker, von Küttigen.\n746. * Dieselben; Wohnhaus.\n  Rüegger-Gysling, Otto, Malermeister, von Wyl (Zürich).\n747. * Dieselben. Fabrikgebäude. Fabrikation mathematischer und geodätischer\n    Instrumente.\n  Hunziker-Wieland, Elise, Wittwe, Part., von Oberkulm.\n  Hunziker-Leuch, Edwin, Commis, von Oberkulm.\n748. † Dieselben. Fabrikgebäude.\n749. †     „     Holzhaus.\n750.  Kuhn=Buser, Alfred. Schlosserei und mechanische Werkstätte.\n751.  Strich=Brack, Julius Wilhelm, von Aachen (Preußen). Halblein-\n    und Halbwollstoff=Fabrikation,\n  Brack, Jakob, Part., von Elsfingen.\n  Nußbaum-Finkbohner, Trinette, Wittwe, von Densbüren.\n  Nußbaum, Hanna, Kleinkinderlehrerin   „         „\n  Müller-Nußbaum, Sara, Part., von Basel.\n  Hauri-Gränicher, Karl, Buchhalter, von Seengen.\n  Renold-Geißmann, Katharina, Maurers.\n1316  † Derselbe. Schopf.\n752. * Holzach, Friedrich, Metzger. Schweinemetzg.\n  Baumann-Frei, Anna, Näherin, von Attelwyl.\n753. † Huber=Bircher, Heinrich, Drechsler. Mechanische Drechslerei.\n754.  Gemeinde Aarau. Gewerbehalle.\n  Brunnhofer-Giezentanner, Verena, Seilers Wittwe. Seilerwaarenverkauf.\n  Rothplez-Haßler, Rudolf, Metzger. Bäckerwaarenverkauf.\n  Theez-Amsler, Emilie, Schirmmacherin. Schirmverkauf.\n\nVor dem Haldenthor.\n755. † Schmidlin-Lutz, Theodor. Chemisches Laboratorium.\n756. † Derselbe. Holzmagazin.\n757. † Riniker=Groß, Friedrich, Bierbrauer. Scheune.\n758.  Merz=Ruh, Margaretha, Wittwe, Part., von Leimbach.\n  Fecht-Ruh, Julius, von Meinwangen (Baden). Weinhandlung.\n  Hummel-Müller, Georg, Lithograph, von Reutesheim (Baden).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7917,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2205,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:51:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p061",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p061.jpeg",
+      "bytes": 217158,
+      "sha256": "d4028f584c1ef387d6da636e122a6030d80ca3e74827412990a56d623df381b5",
+      "sha256_of": "original",
+      "working_copy": "1892_p061.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:51:53+00:00"
+  }
+}

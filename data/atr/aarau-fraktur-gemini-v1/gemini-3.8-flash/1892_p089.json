@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p089",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p089.jpeg",
+    "bytes": 233324,
+    "sha256": "8bf78578142e0324cf55ea4d4da0d9e95e194d51457b26d6b2f84f8aa1634790",
+    "sha256_of": "original",
+    "working_copy": "1892_p089.jpeg"
+  },
+  "text": "— 73 —\n\nHaus-\nNr.   Nach der Nummerirung gebaute Häuser.\n\n1063.  Schäfer-Troller, Adolf, Architekt.  (In der Gais.)\n1064. † Derselbe.  Holzschopf.  (In der Gais.)\n1065. † Abgetragen.\n1066. † Riniker=Groß, Friedrich, Bierbrauer.  Kühlschiff  (Mühlegäßchen).\n1067. † Biedermann-Siebenmann, Leonz, Kaufmann.  Rebhäuschen\n  (Weinberg).\n1068. † Burkard, Ferd., Coiffeur.  Rebhäuschen (Weinberg).\n1069. † Gemeinde Aarau.  Wasengebäude (Scheibenschachen).\n1070. † Abgetragen.\n1071. † Abgetragen.\n1072.  Gautschi, Rudolf, Wirth zum „Frohsinn“.  (Hinter dem Bahnhof.)\n1073. † Krast, Adolf, Notar.  Holzremise (Bachstraße).\n1074. * Spengler=Lienhard, Louise, Wittwe, Part.  (Bahnhofstraße.)\n1075.  Brentano=Bruggisser, Max, Zahnarzt, von Laufenburg. (Ent=\n  felderstraße.)\n1076. † Beck=Braun, Friedrich, Sattler.  Waschhaus.  (Entfelderstraße.)\n1077. † Rychner und Rothpletz, Röhrenfabrik.  (Bahnhofstraße.)\n1078. † Würger=Maurer, H., Eisengießerei.  (Hinterm Bahnhof.)\n1079.  Zschokke, Ol. Baugeschäft. (Rohrerstraße.)\n1080. † Frey=Bolley, Lina Wittwe, Gewächshaus.  (Bachstraße.)\n1081. † Klingelfuß, Johann, Mechaniker. Werkstätte. (Weinberg.)\n1082. † Derselbe.  Holzschopf. (Weinberg.)\n1083. * Amsler=Falger, Wittwe.  Wohnhäuschen.  (Vor dem Haldenthor.)\n1084. * Wehrli=Walser, Rosina.  Wohnhaus. (Vor dem Haldenthor.)\n1085. † Jenny und Weigel, Farbgebäude.  (In der Telli.)\n1086.  Stähelin=Herzog, Alfred, Dr. med.  (Im Kirschgarten.)\n1087. † Derselbe.  Eishaus. (Im Kirschgarten.)\n1088.  Abgetragen.\n1089. † Gasbeleuchtungsgesellschaft.  Schopf (an der Aare).\n1090. † Dieselbe.  Schopf (an der Aare).\n1091. † Märki, Jakob und Haller, Karl, Büreau (Schönenwerderstraße).\n1092. * Wägeler=Vogel, Karl, Dachdecker.  (Vor dem Haldenthor.)\n1093.  Derselbe.  Wohnhaus.  id.  id.\n1094. † Berchthold=Lüscher, Nanette, Fuhrmanns. Scheune.  id.\n1095. † Schützengesellschaft Aarau.  Schützenhaus. (Scheibenschachen.)\n1096. † Dieselbe.  Scheibenstand.  (Scheibenschachen.)\n1097. † Schmidt=Hagnauer.  Rebhäuschen. (Weinberg.)\n1098. * Bircher=Schatzmann, Dr. med.  (Bachstraße.)\n1099. † Derselbe.  Scheune.  id.\n1100.  Merz=Märk, Notar.  id.\n1101.  Bäbler, J. J., Professor.  id.\n1102.  Siebenmann=Bräm, Otto, Kreiskommandant.  (Weinberg.)\n1103.  Hartmann, Rudolf, Fabrikant.  (Gartenstraße.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9872,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2272,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.28,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:54:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p089",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p089.jpeg",
+      "bytes": 233324,
+      "sha256": "8bf78578142e0324cf55ea4d4da0d9e95e194d51457b26d6b2f84f8aa1634790",
+      "sha256_of": "original",
+      "working_copy": "1892_p089.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:54:29+00:00"
+  }
+}

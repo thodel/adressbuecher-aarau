@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p058",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p058.jpeg",
+    "bytes": 255352,
+    "sha256": "32226ce3295e03e4808c905e6eca064e64e32f7835e13f1282dd1f0cb12521ce",
+    "sha256_of": "original",
+    "working_copy": "1888_p058.jpeg"
+  },
+  "text": "Gaus-\nNr.\nFreihofser-Rusterholz, Joh. Jakob, Bildhauer, von Beltheim (Zürich).\nHausmann, Joh. Jakob, Aufseher, von Schaffisheim.\n717. † Derfelbe. Farbmagazin.\n718. Wydler= Bäurlin, Heinrich, Färber.\nWydler, Erwin, Färber.\nWydler, Hans, Commis.\n719. † Derfelbe. Färberei und Heizeinrichtung.\n720. Derfelbe. Abgetragen.\n721. * Derfelbe. Wohnhaus.\nRebmann-Häßiger, Karl Jakob, Maler, von Fellbach (Württemberg).\nSchagmann-Volliger, Friedrich, Agent, von Windisch. Hauptagentur der\nGladbacher Feuerversicherungsgesellschaft. Agentur der Basler\nLebens- und Unfallversicherungsgesellschaft.\n722. * Derfelbe. Wohnhaus.\nRochholz-Schröder, Ernst Ludwig, Prof. Dr., von Ansbach (Bayern).\nRochholz, Mina, Musiklehrerin, von Ansbach (Bayern).\nMeyer-Wydler, Josef, Postcommis, von Hilfikon.\n1172 † Derfelbe. Wagenremise.\n\nSchachen.\n723. * Schmidt=Henz, Hans, Bierwirth.\nHäfeler-Schmidt, Friedrich, Kaufmann.\nBauhofer-Müller, Samuel, Thierarzt, von Reinach.\n1168 † Derfelbe. Holzschopp.\n724. † Gemeinde Karau. Waschhaus.\n725. Müller= von Däniken, Friedrich, Gepäckträger und Dekonom.\nMüller, Johann Jakob, Schriftsetzer.\nReinhard-Müller, Joh. Baptist, Gärtner, von Balsthal (Solothurn).\n726. * Derfelbe. Wohnhaus.\nBachmann-Bogelsang, Susanna, Wittwe, von Bottenwyl.\nBachmann, Maria, Fabrikarbeiterin,\nBachmann, Elise,\n727. * Egloff=Meier, Franz, Postfaktur, von Wettingen. Cantonewirthschaft.\nBrüttischlin geb. Bosfart, Babette, Wirthin, von Sursee (Luzern).\n728. † Derfelbe. Trinkhalle\n729. * Wehrli-Kähr, Jakob, Gipser, von Densbüren.\nBolliger-Rielholz, Albert, Bankangestellter, von Rüttigen.\nBallmer-Egloff, Karl, Bankangestellter, von Laufen (Waefelland).\nGraf-Hunteler, Maria, Part., Wittwe, von Birmwyl.\n730. Kielholz, Leopold, Kantonskriegskommissär.\n731. Egloff=Meier, Franz, Postfaktur, von Wettingen. Speisewirthschaft.\nKaufmann, Otto, Commis (Jenny & Weigel), von Buchs (Kuzern).\nRathe, Karl Johann, Commis, (Siebenmann, March. Tailleur), von\nChur (Graubünden).\n732. * Derfelbe. Wohnhaus.\nSchibli geb. Jäggi, Anna Maria, Wittwe, Part., von Killwangen.\nSchibli, Anna, Damen Schneiderin,\nSchibli, Alfred, Sekretär (Militärkanzlei),",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4429,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2127,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:22:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p058",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p058.jpeg",
+      "bytes": 255352,
+      "sha256": "32226ce3295e03e4808c905e6eca064e64e32f7835e13f1282dd1f0cb12521ce",
+      "sha256_of": "original",
+      "working_copy": "1888_p058.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:51+00:00"
+  }
+}

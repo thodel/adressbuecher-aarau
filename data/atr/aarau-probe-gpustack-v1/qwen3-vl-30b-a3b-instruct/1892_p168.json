@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p168",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p168.jpeg",
+    "bytes": 237887,
+    "sha256": "f2b260e5a03713920635804afe67647fc29dc901882f09eb3de736d912e386c4",
+    "sha256_of": "original",
+    "working_copy": "1892_p168.jpeg"
+  },
+  "text": "152\nBrogli, Joseph, Tellirain 1335.\nFrieder, Joseph, Halden 281.\nRiner, Johann, Rain 1185.\nSchmid, Hermann, vor dem Salenthof 762.\n\nPulververkauf.\nBraft, Geschwister, Holzmarkt 661.\n\nQuincailleriewaren.\nErdin, Albin, Nachfolger von Wwe. Jean Riefer, Rathausgasse 22.\nErny-Fakler, C., Kronengasse 33.\nFaller, Elise Louise, Wwe. (Firma Gebrüder Faller), Kronengasse 41.\nHemmeler-Fakler, A., Mezgergasse 55.\nHemmeler & Cie. (en gros Geschäft), hintere Vorstadt 638.\nHemmeler-Stahl, Jakob, Rathausg. 21.\nRaiser, Sigmund, Kronengasse 35.\nMartly-Bircher, Marie, Casinostraße 1176.\nMorath, Johann, Rathausgasse 2.\nSchmid, Johann, vordere Vorstadt 889.\nSchneeberger-Salvi, Jakob, Rathausgasse 3.\nBonfellen-Willimann, Kronengasse 37.\n\nReizungsfabrikanten.\nGyfi & Cie., vordere Vorstadt 895.\nHommel-Offer, August, Hammer 188.\nKern & Cie., Ziegelrain 747.\n\nSägenfeiler.\nHäuptli, Emil, Drechsler, Halden 284.\nGunziger, Heinrich, Holzer, Halden 264.\nBernli, Samuel, Holzer Hammer 185 c,\nund die Holzpalter Seite 145.\n\nKaltauswäger.\nGänslen, Louise, obere Vorstadt 913.\nMaurer, Emil, jenseits der Nare 1303 a.\nKohr-Hägig, Emil, Laurenzenthorg. 119.\nRietschi-Wenger, Maria, Adelbändli 81.\nWibli, Fanny, hintere Vorstadt 699.\nBürger-Maurer, Heinrich, Laurenzenvorstadt 552.\n\nSamanhandlungen.\nGroschmann, Otto, Graben 205.\nHenz, Jakob, vordere Vorstadt 679.\nHoch, Gustav, Mezgergasse 61.\nSattler.\nBeck, Friedrich, Zeughausattler, Entfelderstraße 983.\nBircher, Eduard, Halden 279.\nHäfeli, Joseph, Kirchgasse 15.\nRiburz, Gotthold, Entfelderstraße 968.\nLüthi, Alexander, Casinostraße 660.\nLüthi, Fritz, Hint. Vorstadt 642.\nNüpperti, Friedrich, Zollrain 53.\nSchmid, Adolf, Bachstraße 1028.\n\nSchirmmacher.\nMüller, Eduard, Rathausgasse 30.\nPfisterer, Emil, vordere Vorstadt 666.\nTheez-Amisler, Wittwe, Oberthor 754.\n\nSchirmhandlungen.\nDreßler, Laurenz, Caminofascad Nachfolger Rain 826.\nHek, Gebr., Rathausgasse 4.\nMüller, Eduard, Rathausgasse 30.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Balerian, vordere Vorstadt 893.\nSteffen, Albert, Bahnhofstraße 1074.\nTheez-Amisler, Wittwe, Oberthor 754.\n\nSchleifer.\nBrunner, Friedrich, Meisserschmied, vordere Vorstadt 898.\nHäfzig, Jul., Feinschleifer, Hammer 1295.\nSchäfer, Caspar, Meisserschmied, 680.\n\nSchloffer.\nAndres, Samuel, Milchgasse 147.\nBeck, Gottlieb, Halden 258.\nGyfi, Friedrich, hintere Vorstadt 645.\nHäfzig, Julius, Milchgasse 77.\nKuhn, Alfred, Ziegelrain 750.\nLäuchli, Friedrich, Hammer 184.\nSchneider, Ulrich, Gollatenmattgasse 234.\n\nSchmiede.\nBaumann, Samuel, Schmiedgasse 625.\nBujer, Heinrich, Graben 217.\nDecker, Julius, Casinostraße 577.\nGing, August, Casinostraße 572.\nKohr, Rudolf, Rainstraße 883.\n\nSchneider.\nBachmann, Josef, Schmiedgasse 633.\nBaumann, Gottlieb, Oberthor 140.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6207,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2729,
+    "lines": 82,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0366,
+    "mean_line_chars": 32.15,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:34:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1892_p168",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p168.jpeg",
+      "bytes": 237887,
+      "sha256": "f2b260e5a03713920635804afe67647fc29dc901882f09eb3de736d912e386c4",
+      "sha256_of": "original",
+      "working_copy": "1892_p168.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:34:00+00:00"
+  }
+}

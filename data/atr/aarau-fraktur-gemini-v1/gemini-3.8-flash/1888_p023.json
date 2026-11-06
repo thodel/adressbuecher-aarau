@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p023",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p023.jpeg",
+    "bytes": 253728,
+    "sha256": "1f59346807a95f0a1ed180018e7ccee4745e1abf451e44f8c037d2b55c9f39f3",
+    "sha256_of": "original",
+    "working_copy": "1888_p023.jpeg"
+  },
+  "text": "— 13 —\n\nHaus=\nNr.\n136. Häfliger=Hilsiker, Otto, Metzger und Wirth, von Oberentfelden.\n137. Waßmer=Kummler, Emil, Kaufmann. Spezereihandlung zum Adler.\n  Kummler geb. Frey, Auguste, Part.\n\nOberthor.\n\n138. Wirz=Christen, Philipp, von Solothurn, Buchhändler. Schreib-\n  materialien-Handlung.\n  Baldinger geb. Wirz, Josephine. Ladenvorsteherin, von Baden.\n139. Derselbe. (Firma J. J. Christen.) Verlagsbuchhandlung und Buchdruckerei.\n  Wirz=Martin, Emil, von Solothurn. Sortiments-Buchhandlung.\n140. Andres=Bircher, Maria, Frau. Metzgerei, Wursterei, Milch- und\n  Butterverkauf.\n  Andres, Otto, Sohn, Metzger.\n  Andres geb. Baumann, Salome, Kupferschmieds Wittwe.\n  Müller=Eggenschweiler, Johann, Postcommis, von Muri.\n\nMilchgasse.\n\n141.* Andres=Bircher, Maria, Frau.\n142. Gloor=Geißler, Rudolf, von Birrwyl. Bäckerei.\n143.* Hässig=Meier, Emil, Bäcker in Wenslingen (Baselland).\n  Hässig=Kyburz, Friedrich, Camioneur.\n  Gysi=Hägele, Friedrich, Färber, von Altenberg (Baden).\n  Kallmann geb. Hausmann, Elise, Fabrikarbeiterin, von Mühlheim\n  (Baden).\n  Walti-Zobrist, Johann, Wollweber, von Dürrenäsch.\n  Niederhäuser geb. Schenk, Maria, Taglöhnerin, von Eriswyl (Bern).\n  Heinzelmann, Johann, Schuhmacher, von Marschalkzimmern (Württemberg).\n144.* Beer-Schmid, Heinrichs Erbschaft.\n  Kull geb. Müller, Anna, von Niederlenz. Mercerie- und Wollwaaren=\n  handlung.\n  Salm, Maria, Damenschneiderin, von Veltheim.\n  Salm, Barbara, Haushälterin, von Veltheim.\n  Seeger=Kurt, Ludwig, Werkmeister, von Pfungstadt (Hessen).\n145.* Dieselbe.\n  Jehle=Weber, Mathäus, Scheibenarbeiter, von Wyl.\n  Suter, Anna Elisabeth, Spetterin, von Suhr.\n  Rüegg=Stephani, Barbara, Wittwe, Part., von Valmen (Zürich).\n[handschriftlich: r]  Hässig, Friedrich, alt Thurmwart.\n  Wächter-Lindenmann, Heinrich, Knecht von Möhnthal.\n146. Kull, Philipp, Spenglermeister. Spenglerwaaren- und Lampenlager.\n147.* Siebenmann=Merz, Emil, Gemeindeweibel.\n  Andres-Meier, Samuel, Schlossermeister.\n  Christen=Kretz, Alois, Mechaniker, von Buochs (Unterwalden).\n  Wanger, Heinriette, Näherin.\n  Meier-Roth, Verena, Taglöhnerin, von Dintikon.\n  Meier, Ed. Erwin, Sekretär, von Dintikon.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9735,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2139,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:25:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p023",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p023.jpeg",
+      "bytes": 253728,
+      "sha256": "1f59346807a95f0a1ed180018e7ccee4745e1abf451e44f8c037d2b55c9f39f3",
+      "sha256_of": "original",
+      "working_copy": "1888_p023.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:22+00:00"
+  }
+}

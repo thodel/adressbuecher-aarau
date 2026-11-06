@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p025",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p025.jpeg",
+    "bytes": 249473,
+    "sha256": "d0a2e9d1d6dded91a64ef79cc5282289c137b5d514b3f2110cddcd7381895ebe",
+    "sha256_of": "original",
+    "working_copy": "1892_p025.jpeg"
+  },
+  "text": "Haus-\nNr.\nDubbs, Johann, Sohn, Müller, von Rüttigen.\nDubbs, Elise, von Rüttigen.\n183. † Diefelbe. Fabrikgebäude.\n184.a. Läuchli=Bircher, Friedrich, Schlosser, von Remigen.\nGerodetti, Virgilius, Marmorsteinfäger.\n1301 * Ryniker=Groß, Friedrich, Vierbrauer.\n    Zürcher-Huber, Friedrich, Taglöhner, von Trub (Bern).\n    Wernli-Schmidli, Kaspar, Taglöhner, von Thalheim.\n184.b. Abgetragen, an dessen Platz.\n1295. Hässig, Gottlieb, Feinschleifer, (Werkstätte.)\n185.a. Hürzeler=Gloor, Jakob, Hadernhändler, von Uerzheim.\n185.b. Erdin-Zumsteg, Siegfried, Kerzenfabrikant, von Ganfingen.\n    Zumsteg geb. Zehle, Ursula, Wittwe, von Mettau.\n    Hausmann-Heuberger, Johann, von Schafisheim.\n185.c. Wernli=Meier, Samuel, Holzer, von Thalheim.\n186. * Hafler=Heberlein, Adolf, Färber.\n187. † Diefelbe. Holzschopf.\n    Hort-Hemmeler, Johann, Zimmermann, von Oberhof. Werkstätte.\n188. Hafler=Heberlein, Adolf, Färber.\n    Frymann-Läffer, Gottfried, Part.\n    Läffer, Bertha, Fergerin (Siebenmann-Brun), von Wiliberg.\n    Müller-Stirnemann, Rudolf, Bremser, von Niederbipp.\n    Zubler geb. Stirnemann, Elisabeth, Spetterin, von Hunzenschwyl.\n    Felber-Gruber, Georg, Laternenputzer, von Oberbözberg.\n    Felber, Marie, Damen Schneiderin, von Oberbözberg.\n    Fenner-Hofig, Johann, Bahngesellter, von Küsnacht (Zürich).\n    Frank, Louise, Corfetschneiderin.\n    Sennhauser geb. Schnorf, Elise, Wittwe, Priv., von Herrliberg (Zürich).\n    Sennhauser, Elise, Tochter, von Herrliberg (Zürich).\n    Morgenthaler, Elisabeth, Spetterin, von Madiswyl (Bern).\n    Fahrländer geb. Müller, Berena, Part.\n    Niggli, Barbara Elise, Weißnäherin, von Aarburg.\n    Kloter-Rohler, Edmund, Packer, von Lengnau.\n    Müller-Lüthi, Friedrich, Taglöhner und Dachdecker, von Niederwyl.\n    Müller-Lang, Margaritha, von Niederwyl.\n    Bolliger-Frei, Johann, Taglöhner (Holzer), von Rüttigen.\n    Fischер-Haller, Jakob, Zimmermann, Bauamtsarbeiter, von Tennwyl.\n    Firma Hommel-Effer, F., Reizzeugfabrikation u. f. w.\n189. * Hafler=Heberlein, Adolf, Färber.\n    Blume-Hirt, Philipp, Schreinermeister und mechanische Holzdrechslerei\n    von Sprendlingen (Hessen).\n    Blume-Hirt, Maria, Feinwäscheri und Glätterei, von Sprendlingen.\n    Blume, Mina, Damen Schneiderin, von Sprendlingen (Hessen).\n190. * Hafler=Heberlein, Adolf, Färber.\n    Zellweger, Oskar, Part., von Hauptweil (Thurgau).\n    Väubli-Häfeli, Jakob, Fabrikausfeger, von Seengen.\n    Hässig-Straubhaar, Gottlieb, Feinschleifer.\n    Hässig, Mina, Glätterin.\nAdressbuch der Stadt Aarau 1892.\n2",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5075,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2518,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:35:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p025",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p025.jpeg",
+      "bytes": 249473,
+      "sha256": "d0a2e9d1d6dded91a64ef79cc5282289c137b5d514b3f2110cddcd7381895ebe",
+      "sha256_of": "original",
+      "working_copy": "1892_p025.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:25+00:00"
+  }
+}

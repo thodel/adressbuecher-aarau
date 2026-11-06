@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p023",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p023.jpeg",
+    "bytes": 212872,
+    "sha256": "367f4d6aa3db924d9e16c028ba00bbaf0d290f26d6b561d2e5739876c0312d96",
+    "sha256_of": "original",
+    "working_copy": "1892_p023.jpeg"
+  },
+  "text": "Haus-\nNr.\n165. a. Hässig geb. Dätwyler, Elise, Wittwe.\nDätwyler, Maria, Privatin, von Ostringen.\nMüller-Nitzles, Jakob, Ausläufer von Unterentfelden.\nHübscher-König, Anna, Wittwe, Spetterin von Dottikon\n165. b. *Lenzin, Sophie, Lehrerin.\nBäurlin-Siebenmann, Rosa, Wittwe, Auffeherin der Gewerbehalle, von Baden.\nBäurlin, Hermann, Elektrotechniker, von Baden.\n166. Wärtli-Ernst, August, Buchbinder.\nKrügel-Zenker, Karl, Lithograph, von Saalfeld (Sachsen).\nMeier-Roth, Verena, Taglöhnerin, von Dintikon.\nMeier, Eduard Erwin, Commis, von Dintikon.\n167. a. Derfelbe.\n167. b. Abgetragen.\n168. Gemeinde Aarau, Kirche.\n169. Diefelbe. Pfarrhaus.\nGraf-Fäyh, Ernst, von Winterthur, ref. Pfarrer.\n\nAdelbändli.\n170. Matter-Hagnauer, Jakob, Schneidermeister, von Kölliken, Kleider-\nfabrikation.\nMatter-Thommen, Maria, Wittwe, Wäscherin, von Kölliken.\nSchmidt-Graf, Rudolf, Taglöhner.\nSpörri-Räfer, Elise, Schneiderin, von Bäretschwyl.\n171. Siebenmann-Frey, Ludwig, Sohn, Schuster.\nDürr-Siebenmann, Karolina, Registrators Wittwe.\nDürr, Emil, Sohn, Sekretär.\nGloor, Wilhelmine, Taglöhnerin, von Dürrenäsch.\nGloor, Bertha, Damenschneiderin, von Dürrenäsch.\nScheibler, Alfred, Sattler und Tapezierer, von Unterentfelden.\n172. *Wehrli-Häfker, Friedrich, Pedell.\nHäfker, Sophie, Glätterin.\nHäfker, Julie, Modistin.\nHäfker, Remigius, Stumme.\nFischer, Louise, Meßerschmieds, Damenschneiderin.\nKrähenbühl-Bühler, Sophie, Corsetmacherin von Trubschachen (Bern).\nBächli, Jakob, Part. von Buchs.\nBächli, Verena, Spetterin von Buchs.\nHunziker, Gottlieb, Schneider von Oberfultum.\nWaßmer, Samuel, Ausläufer von Suhr.\n173. *Hunziker, F., Stabsfourniers Erbschaft.\nSchaffner-Meier, Jakob, Bahnwärter, von Effingen.\nSchaffner-Meier, Margaretha, Näherin von Effingen.\nErnst-Dühnel, Robert, Briesträger.\nHerzig-Weber, Friedrich, Dachdecker und Kaminfeger von Oberstedholz\n(Bern).\nGunsch-Furter, Johann, Maurer von Matsch (Tivoli).\nSenn, Lina, Glätterin, von Uster. (Zürich.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4062,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1942,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:35:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p023",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p023.jpeg",
+      "bytes": 212872,
+      "sha256": "367f4d6aa3db924d9e16c028ba00bbaf0d290f26d6b561d2e5739876c0312d96",
+      "sha256_of": "original",
+      "working_copy": "1892_p023.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:16+00:00"
+  }
+}

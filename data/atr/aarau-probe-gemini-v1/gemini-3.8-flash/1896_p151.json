@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p151",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p151.jpeg",
+    "bytes": 276495,
+    "sha256": "4a0ed4ef92affae2716977071f78805858f35658ae1ee0141896d123cad60c5f",
+    "sha256_of": "original",
+    "working_copy": "1896_p151.jpeg"
+  },
+  "text": "Alphabetisches Verzeichnis.\n113\n\nMüri, Johann, Dr. jur., Regierungsrat,\n  Bahnhofstraße 1447.\n— Paul, Fürsprech, Gerichtspräsident,\n  Laurenzenvorstadt 547.\nMürset, Gottlieb, Wirt und Fuhrmann,\n  Schachen 733.\n— Marie, Coiffeuse, Kirchgasse 13\n\nNäf, Edwin, Lokomotivführer, obere\n  Vorstadt 940.\n— Emil, Kantonsstatistiker, Bahnhof-\n  straße 658.\n— Urs. Joseph, Taglöhner, Golattenmatt-\n  gasse 230.\nNägelin, Arnold, Hotelier, (Wildenmann)\n  Vordere Vorstadt 1262.\nNägeli, Joh. Jak., Schriftsetzer, Rain 880.\nNadig, Klara, Part., Rain 860.\nNadler geb. Häuptli, Anna, Witwe,\n  Spezereihdlg., Bahnhofstraße 1026.\nNeeser, Samuel, Taglöhner, Adelbändli\n  86 a.\nNiederhauser geb. Schenk, Marie,\n  Spetterin, Halden 274.\n— Theodor, Buchbinderei-Chef, hint.\n  dem Bahnhof 502.\nNiggli, Arnold, Fürsprech, Stadtschreiber\n  obere Vorstadt 948.\n— Elise, Weißnäherin, Kirchhof 80.\nNünlist geb. Müller, Katharina, Tag-\n  löhnerin, Halden 268.\nNüsperli, Friedrich, Sattler, Zollrain 53.\n— Friedrich, Postcommis, Zollrain 53.\n— Karl, Postcommis, Zollrain 53.\n— Maria Anna, Schneiders, Part., Halden\n  241.\n— geb. Richner, Julie, Part., Pelzgasse\n  124.\nNussbaum, Anna, Johanna, Gemüse-\n  händlerin, Pelzgasse (Färbergässchen)\n  125.\n— geb. Finkbohner, Trinette, Witwe,\n  Ziegelrain 751.\n— Frida, Aufseherin, Ziegelrain 751.\n[spalte 2]\nNussbaum, Hanna, Kleinkinderlehrerin,\n  Ziegelrain 751.\nNussberger, Sam., Taglöhner, Hammer\n  188.\n\nOberli, Richard, Part., Ziegelrain 722.\nOboussier, F. & Cie. [tel] (F. L. Oboussier\n  und Fritz Oboussier.) Mechanische\n  Baumwollweberei. Bureau Graben 613,\n  Fabrik in Buchs.\n— Friedrich, Fabrikant, Graben 613.\nObrist, Johanna, Speisewirtschaft zur\n  „Telli“, Telli 448.\n— Theodor, Postangestellter, Telli 448.\nOchsner, Marie, Part., Entfelderstr. 983.\nOehler, A. & Cie. [tel] (Alfred Oehler u.\n  Oskar Oehler) Maschinenfabrik. Eisen-\n  giesserei. Gais 1405.\n— Alfred, Ingenieur, [tel] Gais 480.\n— geb. Frey, Bertha, Witwe, Laurenzen-\n  vorstadt 415.\n— Oskar, Ingenieur, Laurenzenvorstadt\n  415.\nOelhafen, Arnold, Sohn, Metzger, hintere\n  Vorstadt 698.\n— Hermann, Bankangestellter, Lauren-\n  zenvorstadt 544.\n— geb. Hagnauer, Johanna, Part., Pelz-\n  gasse 134.\n— geb. Müller, Elisabeth Luise, Malers\n  Witwe, Halden 256.\n— Rudolf, Metzger, hint. Vorstadt 698.\nOeschger, Klara, Wäscherin, Milchgasse\n  152.\nOrtlieb geb. Bertschi, Luise, Aufseherin\n  der Gewerbehalle, Halden 290.\nOsterwalder, Rudolf, Zuschneider, Schei-\n  benschachen 314.\nOtt, Anna, Zettlermeisterin, Adelbändli 81.\n— Jakob, Bereiter, Hammer 188.\n— Kaspar, Rentier, Graben 218.\n— geb. Keller, Verena, Part., Bachstraße\n  1043.\n— Friedr., Buchhalter, Spezerei-, Milch-\n  und Butterhandlung, Salzverkauf, Adel-\n  bändli 81.\nOttolini, Jean, Koch, Kronengasse 35.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8689,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2748,
+    "lines": 92,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0109,
+    "mean_line_chars": 28.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+  "recognised_at": "2026-11-06T12:04:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gemini-v1",
+    "source": {
+      "key": "1896_p151",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p151.jpeg",
+      "bytes": 276495,
+      "sha256": "4a0ed4ef92affae2716977071f78805858f35658ae1ee0141896d123cad60c5f",
+      "sha256_of": "original",
+      "working_copy": "1896_p151.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:04:24+00:00"
+  }
+}

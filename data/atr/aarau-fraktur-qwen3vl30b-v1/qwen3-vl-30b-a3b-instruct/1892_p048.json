@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p048",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p048.jpeg",
+    "bytes": 208532,
+    "sha256": "1fea059891e44346fe67b0163642982080b54746743b24cb777204084c0dcc86",
+    "sha256_of": "original",
+    "working_copy": "1892_p048.jpeg"
+  },
+  "text": "Haus-\nNr.\nWürger-Maurer, Heinrich, Viehereibesitzer, von Haufen (Baden). Spe-\nzerei handlung und Salzverkauf.\nWernli-Lienhard, Maria Anna, Wittwe, Spetterin, von Thalheim.\nSchneider-Brucker, Ferd., Bankangestellter.\nDroz, Lucien August, Bankangestellter, von Chaux-de-Fonds.\nMadon-Laufer, Viktor, Lokomotivführer, von Untersträf (Zürich.)\n1214\n1215\n1322\n1327\nBahnhofstraße.\n553. * Einwohnergemeinde Aarau. Gewerbemuseum.\nKantonale Muster- und Modellsammlung.\nMeyer-Jschopke, J. G., Architekt, Direktor.\n554. * Diezelfe. Portierhaus.\nRäser-Zmhofer, Hans Rudolf, Gärtner, von Biberstein. Portier.\n555. † Diezelfe. Defonomiegebäude mit Waichhaus und Remise.\n556. † \" Defonomiegebäude mit Stallung.\n557. † \" Remise und Geflügelhaus.\n558. † † Treibhaus.\nFeerstraße.\n1337 Hunziker-Fleiner, Hermann, Privatier.\n1307 Widmer-Gamper, Fried., Postcommis, von Safenwyl.\nMühlberg-Amster, Theodor, Postkontroleur, von Muri.\n1308 Meier-Lüthy, Johann Jakob, Lehrer.\nSengherr-Hiltbrunner, August, Lehrer, von Affoltern bei Zöngg (Zürich).\nLaube, Karl, Rechnungsrevisor, von Bübikon.\nBahnhofstraße.\n559. Kern-Rychner, Emil, Mechaniker.\nKern-Hunziker, Emil, Fabrikant.\n560. * Derfelfe. Wohnhaus mit Remise.\nDietiker-Schluep, Jakob, Postfaktor, von Thalheim.\nAmmann, Maria, Ladentochter, von Nyfen.\n1317 Hässig-Sigle, Julius, Café zur Bank.\nDr. med. Wisinger-Lenthe, Moritz, prakt. Arzt, von Unterhallau\n(Schaffhausen).\nConrad-Lüthi, Peter, Fürsprech, Regierungsrath von Aum.\n1318 † Derfelfe. Waich- und Holzhaus.\n1160 Wolfsgriiber-Kienze, Gottfried, Photograph von Bonn (Preußen).\nBöninger-Meyer, Adam, Bahnhof-Adjunkt, von Rüdurn (Glarus).\nDöpfkel, Mina, Klavierlehrerin, von Seon.\n561. † Rothpleg & Rychner. Thonröhren-Fabrikation. Cementbausteine\nund Cementbodenplatten für Corridore, Veranden, Küchen,\nSchulhäuser und Kirchen zc. Verkauf von Cementröhren und\nBaumaterialien.\n562. † Diezelfen. Holzhaus.\n1077 † \" Röhrenfabrik.\n1270 † \" \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4166,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1921,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.02,
+    "mean_line_chars": 37.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:37:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p048",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p048.jpeg",
+      "bytes": 208532,
+      "sha256": "1fea059891e44346fe67b0163642982080b54746743b24cb777204084c0dcc86",
+      "sha256_of": "original",
+      "working_copy": "1892_p048.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:41+00:00"
+  }
+}

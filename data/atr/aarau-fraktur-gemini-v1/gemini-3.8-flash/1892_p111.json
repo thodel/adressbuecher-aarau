@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p111",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p111.jpeg",
+    "bytes": 237558,
+    "sha256": "fc8124232c376fa0b221b95e9a872817df425480e459da2fce35ceec59c5d404",
+    "sha256_of": "original",
+    "working_copy": "1892_p111.jpeg"
+  },
+  "text": "Frieden — Gautschi. 95\n\nFrieden, Gottlieb Friedrich, Cementarbeiter von Seedorf, Scheiben-\n  schachen 312.\nFrieden-Kramer, Agatha, Näherin von Seedorf (Bern), Milchgasse 155.\nFriker-Wirz, Friedrich, Spezereihandlung, von Hunzenschwyl, vordere\n  Vorstadt 669.\nFrikker-Siebenmann, Othmar, Sekretär des Waffenchefs der Artillerie,\n  von Frick, Rathhausgasse 22.\nFröhlich, Elise, Part. von Brugg, Zollrain 89.\nFröhlich-Fröhlich, Sophie, Oberrichters-Wittwe, Part. v. Brugg, Zollrain 89.\nFröhlich-Stelzer, Franz, Dr. Professor von Brugg, Gais 1267.\nFrymann-Lässer, Gottfried, Part., im Hammer 188.\nFuchs-Sommerhalder, Franz Joseph, Posamenter von Hornussen, Scheiben-\n  schachen 313.\nFurrer-Notter, Erhard, Schneider von Volken (Solothurn), Bahnhof-\n  straße 569.\nFurter-Furter, Abraham, Kondukteur von Staufen, Gönhardfeldweg 1145.\nFurter-Haller, Hans, Gepäckexpedient von Lenzburg, Bahnhofstraße 519.\nFurter-Rohr, Anna, Wittwe, Taglöhnerin von Staufen, Milchgasse 149.\nFurter-Rüegger, Friedrich, Bahnangestellter von Staufen, Rain 823.\n\nGänslen-Koch, Louise, Wirthin zur Herberge von Starrkirch (Soloth).,\n  obere Vorstadt 912.\nGänslen-Landolt, Karl, Fabrikant, Firma: Landolt u. Cie., Fabrikation\n  feiner Wagen-, Bau- und Dekorationslacke, obere Vorstadt 949.\nGärtler-Tschan, Bernhard, Gießermeister von Oberwinterthur, hinter dem\n  Bahnhof 1172.\nGamper-Baumann, Emil, March. Tailleur (zur Schönau), jenseits der\n  Aare 307.\nGamper-Haßler, Karolina, Bäckers Wittwe, Metzgergasse 108.\nGamper-Wildi, Adolf, Metzger, Metzgergasse 108.\nGamper-Zürcher, Hermann, Kaufmann, Wohnung Zollrain 293.\nGampp-Spreuer, Philipp, Aufseher von Hornussen, Kirchhof 164.\nGanser, Georg, Schneider von Landshut (Tyrol), hintere Vorstadt 621.\nGanter-Schilling, Heinrich Professor von Neustadt (Großh. Baden), Bahn-\n  hofstraße 608.\nGantner-Fuchs, Elise, Näherin von Grabs (St. Gallen), Kirchgasse 8 a.\nGantner, Hermann, Oekonom, Schloßplatz 197\nGantner-Richner, Marie, Oekonoms Wittwe, Schloßplatz 197.\nGaronne-Pfleger, Anna, Pfarrers Wittwe, Bachstraße 1047.\nGasser-Fendrich, Emanuel, Fabrikant von Hallau (Schaffhausen), Rohrer-\n  straße 478.\nGautschi-Hintermann, Jakob, Zimmermann von Reinach, Rain 1185.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7310,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2183,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:57:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p111",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p111.jpeg",
+      "bytes": 237558,
+      "sha256": "fc8124232c376fa0b221b95e9a872817df425480e459da2fce35ceec59c5d404",
+      "sha256_of": "original",
+      "working_copy": "1892_p111.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:57:25+00:00"
+  }
+}

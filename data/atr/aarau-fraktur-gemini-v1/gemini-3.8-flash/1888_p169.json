@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p169",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p169.jpeg",
+    "bytes": 187452,
+    "sha256": "cf2b83b3fd31c1f2e6049b9d4963d7b1b719445bd73ce28a1eb39c838cd2eeff",
+    "sha256_of": "original",
+    "working_copy": "1888_p169.jpeg"
+  },
+  "text": "151\n\nStahel, Bräm & Meyer Manufakturwaaren\tHammer 191.\nCafé Stahel\tGraben 1161.\nStaehelin, Dr. A.\tKirschgarten 303.\n\nVidiella, Manuel, Weinhandlung\tKirchgasse 7.\n\nWächter-Haßler, Kurwirthschaft zum Alpenzeiger\nWeber, Bezirksarzt\tGraben 618.\nWettler, Adolf, Gasthof zum Ochsen\tLaurenzenthorgasse 115.\nWirth-Herzog, Auswanderungsagent\tZollrain 89.\nWolfsgruber, Photograph\tvor dem Haldenthor 770.\nWyser & Cie., Färberei\tBachstraße 1055.\n\nZeughausdirektion\tAltes Zeughaus.\n  „\tNeues Zeughaus.\nZimmermann, Abr., Handelsgärtnerei\tKüttigerstraße.\n  „  „  Ablage\tGraben 205.\nZschokke & Cie., Baugeschäft\tRohrerstraße 472.\nZurlinden & Cie., Portland-Cementfabrik\tScheibenschachen 1180.\n  „  „  Wohnung\tBahnhofstraße 1013.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4455,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 712,
+    "lines": 18,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0028,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:44:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p169",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p169.jpeg",
+      "bytes": 187452,
+      "sha256": "cf2b83b3fd31c1f2e6049b9d4963d7b1b719445bd73ce28a1eb39c838cd2eeff",
+      "sha256_of": "original",
+      "working_copy": "1888_p169.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:04+00:00"
+  }
+}

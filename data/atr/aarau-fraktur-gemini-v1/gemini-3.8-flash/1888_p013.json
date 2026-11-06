@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p013",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p013.jpeg",
+    "bytes": 265259,
+    "sha256": "f6c5e7fcd8b7d14eaa27b267ff614310eca494a05d248022d33be7957d3afcda",
+    "sha256_of": "original",
+    "working_copy": "1888_p013.jpeg"
+  },
+  "text": "— 3 —\n\nHaus-\nNr.\nRathhausgasse.\n\n16. Lindt-Meißner, Otto, Dr. phil., Apotheker, von Bern.\n17. Faller-Unwin, Friedrich, Kaufmann, von Bräunlingen, Großh. Baden,\n  Eisenwaarenhandlung.\n18. Graf-Tröndli, Ludwig, Bäcker und Pintenwirth, von Worblingen,\n  Großh. Baden.\n  Lüscher-Herzig, Elisabeth, Wittwe, Part. von Muhen.\n  Bertschi-Lüscher, Johann, Schuhmachergehilfe, von Dürrenäsch.\n  Hoffmann, Geschwister Nanette und Karolina, Weißnäherinnen, von\n  Zell (Zürich).\n19. Dürr, Geschwister Heinrich und Johanna.\n  Dürr, Karl August, Sohn, Kaufmann.\n  Leutwyler, Verena, Weißwaarenhandlung.\n  Weber-Lüscher, Otto, Weinhandlung, von Menziken.\n20. * Adam-Stephani, Paul, Fabrikant, von Allschwyl.\n  Coradi-Stahl, Adam, Bezirksschullehrer, von Oberneunforn (Thurgau).\n  Coradi-Stahl, Emma, Stickerei- und Wollengeschäft, von Oberneunforn\n  (Thurgau).\n  Birmann-Probst, Maria, Wittwe, von Basel, Weinhandlung.\n  Probst geb. Benkert, Maria, Wittwe, Part. von Arberg (Bern).\n  Kern, Otto, Mechaniker, Part.\n  Lauber, Joseph Anton, Postcommis, von Oeschgen.\n  Brodbeck, Eduard, Buchhalter (Lagerhaus), von Liestal.\n21. Hemmeler-Stahl, Jakob, Uhrenmacher, Quincailleriewaarenhandlung,\n  Firma R. Ritter-Stahl.\n  Ritter, Susette, Ladentochter, von Uster (Zürich).\n  Haßler-Stampfli, Emma, Wittwe, Modistin.\n22. * Girod-Wyß, Louis, Kaufmann, von Romont (Freiburg), Firma Wittwe\n  Jean Kiefer & Cie., Mercerie, Lingerie, Passementerie, Ganterie,\n  Nouveautés.\n  Erdin, Albin, Kaufmann, von Gansingen.\n  Frikker-Siebenmann, Othmar, Sekretär (Artilleriebüreau), von Frick.\n  Siebenmann-Hunziker, Emma, Wittwe, Part.\n  Kneubühler, Karl, Commis (Landolt & Cie.), von Willisau (Luzern).\n  Vogt, Adolf, Zahnarzt, von Bürglen (Thurgau).\n23. Wydler, Konrad, Apotheker.\n  Haßler-Stampfli, Emma, Wittwe, Modewaarengeschäft.\n  Fischer-Niggli, Heinrich, Postbeamter, von Reinach.\n  Gallati, Karl Josef, Apothekergehilfe, von Glarus.\n24. * Hemmeler-Stahl, Jakob, Uhrenmacher, Uhrenhandlung.\n  Lüscher, Elise, Glätterin.\n  Delhasen-Müller, Elisabeth Louise, Malers Wittwe.\n25. Läuchli-Bürgi, Anna, Wittwe, von Remigen, Pintenwirthschaft.\n  Läuchli, Hans, Sohn, Buchhalter (Zurlinden & Cie.), von Remigen.\n  Stohler-Zobrist, Jakob, Schneider, von Arboldswyl (Baselland).\n26. Stephani-Winkler, August, Kaufmann, Colonialwaaren-, Tabak- und\n  Cigarren-Handlung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8067,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2330,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:24:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p013",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p013.jpeg",
+      "bytes": 265259,
+      "sha256": "f6c5e7fcd8b7d14eaa27b267ff614310eca494a05d248022d33be7957d3afcda",
+      "sha256_of": "original",
+      "working_copy": "1888_p013.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:05+00:00"
+  }
+}

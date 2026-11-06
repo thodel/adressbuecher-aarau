@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p041",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p041.jpeg",
+    "bytes": 250713,
+    "sha256": "b278536ae5c16c43bbdb7823d8e524d66105e60d56adcc81578e0846293c0d11",
+    "sha256_of": "original",
+    "working_copy": "1888_p041.jpeg"
+  },
+  "text": "Haus-\nNr.\n399. Imhof=Herzog, Emma, Med. Drs. Wittwe.\nFrey-Gamper, Julius, Dr. Jur., Vize-Bankdirektor, von Mühlin.\n400.† Diefelsbe. Holzhaus.\n401. Roth=Schmuziger, Alfred, Oberstlieutenant der Artillerie, von Büttler\n(Appenzell).\nHöhn=Ochsner, Gottlieb, Kassier der Güterexpedition, von Hütten (Zürich).\n402.† Derfelbe. Holzschopp.\n403. Frey=Hoge, Jda, Wittwe, Part.\nRauch=Valdechwyler, Bertha, Part., von Mülhausen (Elsass).\nBaldechwyler, Mathilde, Part., von Laufenburg.\n404.† Derfelbe. Holzhaus.\n405.† Bally=Arndt, Eugen, Fabrikant. Fabrikgebäude mit Comptoir.\n406.† Derfelbe. Nebengebäude.\n407.† Derfelbe. Holzschopp.\n408.* Ringier=Müller, Staatschreibers Wittwe, Erbschaft.\nRingier-Tschudi, Adolf, Lagerhausdirektor.\nSiebenmann-Hürich, Gottlieb, Bauverwalter.\n409.† Diefelsbe. Holzhaus.\n410. Hommel=Stein, August, Mechaniker.\nHintermann-Keller, Robert, Major, Insf.-Instruktor I. Kl., von Beinwil.\nKüpfer=Rösch, Ch., Gutmacher, von Bern.\nKeller, Verena, Part., von Beltheim.\nKeller, Lina, Part., von Beltheim.\n411.† Derfelbe. Holzschopp.\n412.* Richner=Siebenmann, Adolf, Fabrikant, in Bern.\nErnst-Steiner, Gustav, Sekretär.\nSteiner geb. Weber, Barbara, Wittwe, Part., von Winterthur (Zürich).\nBrüttel, Constance, Part.\nStäbli, Henriette Adele, Part., von Brugg.\n413. Haberstich=Steimer, Joh, Fürsprech.\n414.† Derfelbe. Holzschopp.\n415. Dehler-Frey, August, Part.\nDehler-Theiler, Oskar, Ingenieur.\nTheiler geb. Rebmann, Elise, Part., von Wädenswil (Zürich).\n416.† Derfelbe. Wasch- und Holzhaus.\n417.† Derfelbe. Deconomiegebäude.\n418. Sauerländer-Frey, Remigius.\nCuster-Sauerländer, Mathilde, Wittwe, Part.\nSauerländer-Custer, Emma, Wittwe, Part.\nSauerländer, H. R., Verlagsbuchhandlung:\nAmtsblatt des Kantons Aargau.\nAargauischer Polizeianzeiger. (Fahndungsblatt).\nVienenzeitung, Schweizerische.\nIllustrierte schweizerische Jugendblätter. Monatschrift.\nVom Fura zum Schwarzwald. Vierteljahresschrift.\n419.† Derfelbe. Deconomiegebäude.\n420.† Derfelbe. Buchdruckerei.\n421.† Derfelbe. Abgetragen.\n1184 † Derfelbe. Buchbinderei.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4329,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2039,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p041",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p041.jpeg",
+      "bytes": 250713,
+      "sha256": "b278536ae5c16c43bbdb7823d8e524d66105e60d56adcc81578e0846293c0d11",
+      "sha256_of": "original",
+      "working_copy": "1888_p041.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:38+00:00"
+  }
+}

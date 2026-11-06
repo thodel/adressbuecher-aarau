@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p146",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p146.jpeg",
+    "bytes": 238419,
+    "sha256": "d33cf27a3e27f68297e44b308c8a379ea241219f211bc8e59e58edefad2554cb",
+    "sha256_of": "original",
+    "working_copy": "1892_p146.jpeg"
+  },
+  "text": "130\nVogt — Walther.\n\n* Vogt, Adolf, Zahnarzt von Bürglen (Thurgau), hintere Vorstadt 622.\nVogt-Keller, Marie, Hebamme von Villigen, Schachen 734.\nVogt-Kohler, Johann, Schuhmachermeister, Schuhhandlung, obere Vor-\n  stadt 911.\nVogt-Siegrist, Samuel, Wirth von Schinznach, Graben 222.\nVokurka-Diße, Wenzl, Schneider von Radnitz (Böhmen), vor dem Halden-\n  thor 809.\nVolkemer-Mußmann, Barbara, von Pirmasens (Baiern), Bahnhofstr. 541.\nVollmann-Eifert, J. Georg, Steindrucker von Düdelsheim (Hessen),\n  Gais 487.\n* Vonarx, Carolina, Wirthin von Olten, Zollrain 52.\nVon Brockdorf, Emilie, Comtesse von Kiel (Holstein), Gartenstr. 1129.\nVonfelten-Willimann, Franz Josef, Quincaillerie- und Kinderspielwaaren-\n  handlung, Kronengasse 37.\nVonfelten-Willimann, Verena, Corsettschneiderin, Kronengasse 37.\n* Vonwiller, Emilie, Klavierlehrerin von St. Gallen, Rain 888.\n* Vuillermot-Leblanc, Charles Jean L., Kaufmann von Verrieres (Frank-\n  reich), vordere Vorstadt 903.\n\n* Wächter-Haßler, Hans, Kurwirth zum „Alpenzeiger“ von Remigen,\n  Gißhügel 317.\nWächter-Lindenmann, Heinrich, Knecht von Mönthal, Bahnhofstr. 1023.\nWächter-Lindenmann, Louise, Taglöhnerin v. Mönthal, hint. Vorstadt 641.\nWächter, Marie, Hebamme von Mönthal, Bahnhofstraße 1022 b.\n* Wäffler-Stäuble, Heinrich, Turnlehrer von Basel, Pelzgasse 128.\nWägeler-Vogel, Karl, Dachdecker und Kaminfeger von Waldshut (Großh.\n  Baden), vor dem Haldenthor 1306.\nWälchli, Verena, Wäscherin von Madiswyl (Bern), Milchgasse 79.\nWälti-Maurer, Rudolf, Schneider von Unterkulm, obere Vorstadt 937.\nWärtli-Ernst, August, Buchbinder, Kirchhof 166.\nWärtli-Nußbaum, Margaretha, Part., Milchgasse 79.\nWärtli-Vogel, Christian, Bahnangestellter, Bahnhofstr. 515.\n* Walder-Kunz, Karl, Bankbuchhalter von Zürich, Bachstraße 1156.\nWaldmeier-Gautschi, Alfred, Kaufmann von Möhlin, Kronengasse 33.\n* Waldmeier-Rothpletz, Bertha, Wittwe, Part. von Hellikon, vordere Vor-\n  stadt 682.\nWalser-Bamberger, Marie, Zettlerin von Rottweil (Baden), Halden 260 b.\n* Walter-Schmuziger, August, Nähmaschinenhändler von Neumühl (Baden),\n  Pelzgasse 125.\n* Walther-Dubs, Hans, Oekonom, Bachstraße 1041.\nWalther-Matter, Jakob, Oekonom, Schachen 739.\n* Walther-Schatzmann, Gottlieb, Oekonom, Rain 856.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7036,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2215,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.07,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:02:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p146",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p146.jpeg",
+      "bytes": 238419,
+      "sha256": "d33cf27a3e27f68297e44b308c8a379ea241219f211bc8e59e58edefad2554cb",
+      "sha256_of": "original",
+      "working_copy": "1892_p146.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:02:22+00:00"
+  }
+}

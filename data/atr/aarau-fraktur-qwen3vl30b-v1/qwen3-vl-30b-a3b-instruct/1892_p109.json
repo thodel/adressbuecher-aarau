@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p109",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p109.jpeg",
+    "bytes": 258341,
+    "sha256": "d7915aa64beeb359545c55696a13676a9b769f6d7b12c186e3ea5ad64d1b6db8",
+    "sha256_of": "original",
+    "working_copy": "1892_p109.jpeg"
+  },
+  "text": "Fischer – Frei.\n93\nFischer-Kern, Adolf, Part., von Reinach, Ziegelrain 723.\nFischer, Louisa, Ladentochter, Laurenzenthorgasse 120.\nFischer, Louisa, Mefferschmieds, Damenschneiderin, Adelbündli 172.\nFischer, Max, Postangestellter von Reinach, Ziegelrain 723.\nFischer-Niggli, Lina, Wittwe, Part. von Reinach, obere Vorstadt 923.\nFischer-Peter, Thomas, Gemeindeweibel, Rathausgasse 176.\nFischer-Roth, Ludwig, Straßenwärter, Laurenzenvorstadt 376.\nFischer-Roth, Maria, Straßenwärterin, Scheibenschachen 312.\nFischer-Schmidlin, Bertha, Part., Zschoffekstrasse 996.\nFischer, Thomas, Bierbrauer, „zur Kettenbrücke“, Zollrain 179.\nFischer-Bontwiler, Adolf, Postbeamter, Tabak- und Cigarrenhandlung,\nLaurenzenthorgasse 120.\nFischer-Widmer, Johann, Postkondukteur, Halden 290.\nFischer-Wybler, Ernestine, Wittwe, Taglößnerin, Adelbündli 174.\nKleiner, Hans, Fabrikant, Laurenzenvorstadt 586.\nKleiner-Zschopfe, Leonine, Fabrikants Wittwe, Laurenzenvorstadt 586.\nFleury-Adam, Joseph, Kaufmann von Laufen (Bern), Gais 1286.\nFlühmann, Elise, Lehrerin von Aeichi (Bern), Rain 860.\nFlückiger-Trösch, Gottfried, Pferdewärter von Auswyl (Bern), Milchgasse 76.\nFlückiger-Wüthrich, Rosette, Wittwe, Köchin v. Winigen (Bern), Kroneng. 40.\nFörderer-Hinden, Anna, Wittwe, Rathausgasse 20.\nFörderer, Geschwister, Anna, Elise u. Pauline, Tapifferie- u. Broderiegeschäft, Rathausgasse 20.\nFörderer-Schwammberger, Alois, Schneider von Ziegelbach (Württemberg), vordere Vorstadt 670.\nFranz, Louisa, Corjetschneiderin, Hammer 188.\nFranz-Roland, Samuel, Schreiner, Adelbündli 82.\nFranz, Rudolf, Postpacker, Adelbündli 82.\nFrei-Amsler, Bernhard Friedrich, Küfer von Auenstein, Stadthof 92 e.\nFrei-Bolliger, Gottlieb, Gepäckträger v. Contenschwyl, hintere Vorstadt 643.\nFrei-Brand, Franz Karl, Postcommiss von Zurzach, Bachstrasse 1039.\nFrei-Dürr, Gottfried, Taglößner von Trachselwald (Bern), Halden 279.\nFrei, Gottlieb, Schriftsetzer von Biberstein, Zollrain 53.\nFrei-Haller, Johann, Gärtner von Auenstein, Hammer 190.\nFrei-Häuptli, Gottlieb, Taglößner von Biberstein, Zollrain 53.\nFrei-Hintermann, Arnold, Taglößner v. Wellingen, Laurenzenvorstadt 376.\nFrei-Hochuli, Rudolf, Commis (Schieker) von Contenschwyl, obere Vorstadt 929.\nFrei-Hofer, Jakob, Lokomotivheizer von Auenstein, Rain 884.\nFrei-Lindenmann, Anna, Wäscherin von Reigoldswyl, hintere Vorstadt 641.\nFrei-Lindenmann, Johann, Taglößner von Reigoldswyl (Baselland), Golattenmattegasse 236.\nFrei, Maria Magdalena, Ladentochter von Zurzach, Pelzgasse 121.\nFrei, Maria, Spetterin von Densbüren, vor dem Haldenthor 769.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5318,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2545,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 59.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:42:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p109",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p109.jpeg",
+      "bytes": 258341,
+      "sha256": "d7915aa64beeb359545c55696a13676a9b769f6d7b12c186e3ea5ad64d1b6db8",
+      "sha256_of": "original",
+      "working_copy": "1892_p109.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:42:22+00:00"
+  }
+}

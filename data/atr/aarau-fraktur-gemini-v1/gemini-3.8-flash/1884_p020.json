@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p020",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p020.jpeg",
+    "bytes": 323567,
+    "sha256": "32b62e3cd10a8832584a5d597731a894421edfd05644298e6ef083635cb88cfa",
+    "sha256_of": "original",
+    "working_copy": "1884_p020.jpeg"
+  },
+  "text": "16\tBrunner.\t—\tCamisasca.\n\nBrunner-Nußbaum, Elise, Kaffewirthin, von Dürrenäsch, Igelweid 634.\n  — =Abderhalden, Friedrich, Messerschmied, v. Brunnadern (St. Gallen),\n  vordere Vorstadt 898.\n  — =Rieder, Kath., Wittwe, Part., v. Balsthal (Soloth.), Metzgergasse 107.\n*Brunnhofer-Eggimann, Herm., Dr., Kantonsbibliothekar, obere Vorstadt 938.\n* — =Meder, August, Speisewirth, Halden 277.\n* — =Hunziker, Albert, Schreiner, Halden 248.\n* — Rudolf, Messerschmied, Halden 258.\n* — =Bachmann, Hieronimus, Messerschmied, Halden 256.\n* — =Giezendanner, Daniel, Schuhmachermeister, Halden 247.\n* — =Bryner, Hermann, Taglöhner, Halden 282.\n* — =Giezendanner, Verena, Seilers Wittwe, Golattenmattgasse 235.\n* — =Schmidt, Magdalena, Mechanikers, Wittwe, Halden 253.\n* — Lisette, Lehrers, Part., Halden 246.\n* — Elise, Näherin, Rainstraße 875.\nBruns-Gattiker, Hermann, Schlossermeister, Bremen, Hammer 188.\nBrügger-Sommerhalder, Ch., Control., v. Churwalden (Graub.), Ziegelr. 751.\n*Brütel-Strähl, Marie, Wittwe, Partik., Bahnhofstraße 658.\n* — Constantin, Partik., Bahnhofstraße 658.\nBucher-Wirz, M., Fabrikarb. Wittwe, v. Niederweningen (Zürich), Telli 440.\n  — =Bolliger, Joh., Fabrikarbeiter, „ „ „ 440.\n  — =Rohr, Gottlieb, Fabrikarbeiter, „ „ „ 440.\nBuchmann-Waßmer, Jb., Schneidermstr., v. Veltheim, Golattenmattg. 236.\n  — =Waßmer, Verena, Hebamme, von Veltheim, Golattenmattgasse 236.\nBuchser-Lüscher, Samuel, Taglöhner, von Schöftland, Hammer 190.\n  — =Hunziker, Samuel, Güter-Expedient, v. Schöftland, Bachstraße 1038.\n*Burgmeier-Kieser, Josef, Gesanglehrer, Graben 209.\n*Burkhardt, Friedrich, Coiffeur, Metzgergasse 100.\n* — =Bertschinger, Ferdinand, Coiffeur, Laurenzenthorgasse 118.\n*Buser-Bräutigam, Gottlieb, Bäckermeister, Metzgergasse 57.\n* — =Müller, Heinrich, Hufschmied, Graben 217.\n* — =Ott, Jakob, Buchbinder, Rain 881.\n* — Friedrich, Kaufmann, vordere Vorstadt 890.\n* — =Gränicher, Friedrich, Notar, obere Vorstadt 930.\nBußlinger-Wirz, Siegfried, Postcommis, von Dätwyl, Metzgergasse 55.\n*Büchli-Kohler, Rudolf, Partik., neues Quartier 998.\nBüchler-Michel, Elise, Spetterin, v. Steinbach (Hessen), ob. Vorstadt 919.\nBühler-Widmer, Gottfried, Kupferschmied, von Rietheim, Igelweid 632.\nBührer-Gubler, Jakob, Kaufmann, v. Bibern (Schaffhausen), Rain 862.\n  — Karl, Sohn, Kaufmann, von Bibern (Schaffhausen), Rain 862.\n  — =Giedemann, Anna, Kaufmanns Wittwe, Partik., Rain 848.\nBünzli, Hans Ulrich, Schuhmacher, von Maur (Zürich), Milchgasse 149.\nBürgi-Fricker, Josef, Hutmacher, v. Olten (Soloth.), vord. Vorstadt 900.\n  — Anna, Spetterin, von Erlinsbach, obere Vorstadt 936.\n\nCajacob-Fallet, Louise, Wittwe, v. Somvix (Graubünden), Hammer 191.\n  — =Schmid, Peter, Kaufmann, v. Somvix (Graubünden), Kirchgasse 13.\n*Camisasca-Bossard, Franz, Kaufmann, Rathhausgasse 4.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9651,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2775,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 56.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:11:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p020",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p020.jpeg",
+      "bytes": 323567,
+      "sha256": "32b62e3cd10a8832584a5d597731a894421edfd05644298e6ef083635cb88cfa",
+      "sha256_of": "original",
+      "working_copy": "1884_p020.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:04+00:00"
+  }
+}

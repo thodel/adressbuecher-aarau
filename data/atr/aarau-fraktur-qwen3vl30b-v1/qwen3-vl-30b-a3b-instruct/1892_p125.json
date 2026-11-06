@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p125",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p125.jpeg",
+    "bytes": 249006,
+    "sha256": "2d11422bb67ce22018de0333dcbebe95026a0c3d3f0767c507c2b804a3856d97",
+    "sha256_of": "original",
+    "working_copy": "1892_p125.jpeg"
+  },
+  "text": "Läuchli, Adolf, Lithograph von Remigen, Kirchhof 164.\nLäuchli-Bürgi, Anna, Wittwe, Wirthin von Remigen, Rathhausgasse 25.\nLäuchli-Coradi, Hans, Buchhalter von Remigen, Rain 888.\nLäuchli-Hösli, Jakob, Polizeidien er von Remigen, Casinostraße 577.\nLäuchli, Johann, Commis, hinter dem Bahnhof 496.\nLäuchli, Lina, Glätterin, hinter dem Bahnhof 496.\nLandolt-Frant, Johann, Schuhmachermeister, Golattenmattgasse 233.\nLandolt-Hächler, Gottlieb, Metzger, vordere Vorstadt 671.\nLandolt-Hässig, Lina, Wittwe, Rain 828.\nLandolt-Häuptli, Marie, Wittwe, Damenschneiderin, Halden 284.\nLandolt-Hartmann, Karl, Fabrikant, Firma: Landolt u. Cie. Fabrikation\n  seiner Wagen-, Bau- und Dekorationslacke, obere Vorstadt, 949.\nLattmann-Ackermann, Georg Heinrich, Lokomotivheizer von Sternenberg\n  (Zürich), Laurenzenthor gasse 117.\nLaube, Karl, Rechnungsrevisor von Böbikon, Feerstraße 1308.\nLauber, Joseph Anton, Postcommiss von Dechingen, Bahnhofstraße 513.\nLauber-Wolfsenter, Abraham, Prediger von Frutigen (Bern), vor dem\n  Haldenthor 772.\nLehmann-Delhafen, J. von Zofingen, Manufakturwaaren- und Mercerie-\n  geschäft, vordere Vorstadt 900.\nLehner-Bertschi, Rudolf, Milchverkäufer von Gränichen, Kirchg. 15.\nLeimgruber, Eduard, Portier (Krankenanstalt) v. Herzach, Gais 1186.\nLenzi-Fischer, Albert, Kontrolleur der Aarg. Ersparniskasse von Zuzgen,\n  Pelzgasse 129.\nLenzi, Xaver, Taglöhner, von Oberhof, vor dem Haldenthor 796.\nLenzi-Weber, Jakob, Korbflechter von Wölflinswyl, vordere Vorstadt 675.\nLenzin, Sophie, Lehrerin, Pelzgasse 124.\nLetsch-Brunner, Albert, Buchbinder, von Neutlingen (Württemberg),\n  Bachstraße 1038.\nLeu-Karrer, Jakob, Taglöhner von Schlofrued, Laurenzenvorstadt 376.\nLeu-Zimmermann, Jakob, Obergerichtskanzlist von Birrenlauf, obere\n  Vorstadt 930.\nLeutwyler-Berchthold, Melchior, Taglöhner von Reinach, Ziegelrain 708.\nLeutwyler-Hofer, Clife, Strickerin von Reinach, Ziegelrain 713.\nLeutwyler-Mangold, Friedrich, Polizeiwachtmeister von Luppig, h. Vorst. 641.\nLiechti-Steinegger, Paul, Dr. phil., Profess or von Murten (Freiburg),\n  vor dem Haldenthor 1243.\nLienberger-Weber, Kaspar, Schuhmacher von Spreitenbach, Kirchgasse 8 b.\nLienhardt, Albert, Prediger von Bözingen (Bern), Ziegelrain 713.\nLinacher-Riggli, Riffau, Schuhmachermeister von Schüpfheim (Kuzern),\n  Rathhausgasse 24.\nLindenmann-We y, Maria, Wittwe, Part. von Fahrwangen, Casinost. 576.\nLindenmann, Ida, Telegraphistin,\n  \"    \"    \"\nLindenmann, Emma, Haushälterin,\n  \"    \"    \"\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6658,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2466,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 51.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:44:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p125",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p125.jpeg",
+      "bytes": 249006,
+      "sha256": "2d11422bb67ce22018de0333dcbebe95026a0c3d3f0767c507c2b804a3856d97",
+      "sha256_of": "original",
+      "working_copy": "1892_p125.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:06+00:00"
+  }
+}

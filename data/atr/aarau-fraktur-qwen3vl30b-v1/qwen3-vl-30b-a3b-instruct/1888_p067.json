@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p067",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p067.jpeg",
+    "bytes": 244043,
+    "sha256": "9979471987e74fc27be71193119c4ff1c55d6735356539a9e7bdcd97bb739110",
+    "sha256_of": "original",
+    "working_copy": "1888_p067.jpeg"
+  },
+  "text": "Haus-\nNr.\nGyfi, David, Part., von Suhr.\nMartin geb. Hoffmann, Babet, Part.\n886.+ Diefselben. Magazin.\n887.+ Diefselben. Bildhauerei-Atelier\n888.+ Reusch-Diebold, Joseph Karl, Apotheker, von Boswyl. Scheune\nund Remife.\nBordere Vorstadt.\n889. Sayer-Pfleger, Ludwig, Kaufmann.\nSayer, Elife, Partif.\nDreifuß-Bloch, Karl, Kaufmann. Manufakturwaarenhandlung.\nSchmid-Suter, Johann, in Zofingen. Parifer-Bazar.\nBolliger, Anna, Ladentochter, von Gontenshwyl.\nTrieb-Müller, August, Lithographiebefitzer, von Dübendorf (Zürich).\n890.* Buser, Friedrich, Kleiderhändler.\nAdermann-Buser, Albert, Kaufmann, von Ammrisweil (Thurgau). Herren-\nund Knabenkleider-Magazin.\n891. Buser, Friedrich, Kleiderhandlung.\n892. Dolder, Suette, von Hauptwyl (Thurgau). Mercerie-, Bonneterie-\nund Modewaarenhandlung.\nSchmidt, Jenny, Modistin.\nSchmid, Lisette, Goldschmieds, Part.\n893. Zimmerli-Nußbaum, Karolina, Wittwe, Part.\nWidmer, Karolina, Modistin, von Freienwyl.\nWidmer, Marie, Modistin, von Freienwyl.\nZschopfe-Zimmerli, Justina, Wittwe, Part.\nRumpf, Bertha, Privatin, von Basel.\nZimmerli, Karl, Techniker\n894. Reusch-Diebold, Jos. Karl, Apotheker, von Boswyl.\nDiebold-Müller, Sophie, Wittwe, Part., von Baden.\nMüller-Suter, Jakob, Lithographiebefitzer, von Lenzburg.\nSuter geb. Rauber, Suette, Wittwe, Part.\nImhof-Lingenkörfer, Louiſe, Pfarrers Wittwe, Part.\nImhof, Louiſe, Part.\nImhof, Suette, Part.\n895. Gyfi, Gebrüder. Firma: Friedrich Gyfi, mechanisches und optisches\nGeschäft.\nGyfi-Siebenmann, Otto, Photograph.\nGyfi, Anna, Buchhalterin.\n896.+ Diefselben. Photograph. Atelier.\n897.+ Diefselben. Holzſchopp.\n898. Brunner-Abderhalden, Friedrich, Mefferschmied, von Brunnadern\n(St. Gallen).\n899.+ Derfelbe. Werkstätte.\n900. Bürgi-Friker, Joseph, Part., von Olten.\nSernatinger-Enz, Balerian, von Ludwigschafen (Baden). Hut-, Mücken-\nund Pelzwaarengeschäft. Kautschoucartikel und Filzwaaren.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3864,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1879,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p067",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p067.jpeg",
+      "bytes": 244043,
+      "sha256": "9979471987e74fc27be71193119c4ff1c55d6735356539a9e7bdcd97bb739110",
+      "sha256_of": "original",
+      "working_copy": "1888_p067.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:30+00:00"
+  }
+}

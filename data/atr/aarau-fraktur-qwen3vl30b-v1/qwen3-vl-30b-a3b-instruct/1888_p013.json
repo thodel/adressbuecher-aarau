@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p013",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p013.jpeg",
+    "bytes": 265259,
+    "sha256": "f6c5e7fcd8b7d14eaa27b267ff614310eca494a05d248022d33be7957d3afcda",
+    "sha256_of": "original",
+    "working_copy": "1888_p013.jpeg"
+  },
+  "text": "3\nHaus-\nNr.\nRathhausgasse.\n16. Lindt=Meißner, Otto, Dr. phil., Apotheker, von Bern.\n17. Faller=Unwin, Friedrich, Kaufmann, von Bräunlingen, Großh. Baden,\nEisenwaarenhandlung.\n18. Graf=Tröndli, Ludwig, Bäcker und Pintenwirth, von Worblingen,\nGroßh. Baden.\nLüscher-Herzig, Elisabeth, Wittwe, Part. von Muhlen.\nBertschi-Lüscher, Johann, Schuhmachergehilfe, von Dürrenäsch.\nHoffmann, Geschwister Nanette und Karolina, Weißnäherinnen, von\nZell (Zürich).\n19. Dürr, Geschwister Heinrich und Johanna.\nDürr, Karl August, Sohn, Kaufmann.\nLeutwyler, Verena, Weißwaarenhandlung.\nWeber-Lüscher, Otto, Weinhandlung, von Menziken.\n20. * Adam=Stephani, Paul, Fabrikant, von Altschwyl.\nCoradi-Stahl, Adam, Bezirksschullehrer, von Oberneunforn (Thurgau).\nCoradi-Stahl, Emma, Städerei- und Wollengeschäft, von Oberneunforn\n(Thurgau).\nBirmann-Probst, Maria, Wittwe, von Basel, Weinhandlung.\nProbst geb. Benfert, Maria, Wittwe, Part. von Arberg (Bern).\nKern, Otto, Mechaniker, Part.\nLauber, Joseph Anton, Postcommis, von Dechingen.\nBrobbeck, Eduard, Buchhalter (Lagerhaus), von Lieftal.\n21. Hemmeler=Stahl, Jakob, Uhrenmacher, Quincailleriewaarenhandlung,\nFirma R. Ritter-Stahl.\nRitter, Susette, Ladentochter, von Uster (Zürich).\nHäfner=Stampfli, Emma, Wittwe, Modistin.\n22. * Giroud=Wyß, Louis, Kaufmann, von Romont (Freiburg), Firma Wittwe\nJean Riefer & Cie., Mercerie, Vingerie, Passementerie, Ganterie,\nNouveautés.\nErdin, Albin, Kaufmann, von Ganfingen.\nFritter=Siebenmann, Othmar, Sekretär (Artilleriebüro), von Frid.\nSiebenmann-Hunziker, Emma, Wittwe, Part.\nKneubühler, Karl, Commis (Vandolt & Cie.), von Willisau (Kuzern).\nVogt, Adolf, Zahnarzt, von Bürglen (Thurgau).\n23. Wydler, Konrad, Apotheker.\nHäfner=Stampfli, Emma, Wittwe, Modewaarengeschäft.\nFischer=Niggli, Heinrich, Postbeamter, von Reinach.\nGallati, Karl Josef, Apothekergehilfe, von Glarus.\n24. * Hemmeler=Stahl, Jakob, Uhrenmacher, Uhrenhandlung.\nLüscher, Elise, Glätterin.\nDelhasen-Müller, Elisabeth Louise, Malers Wittwe.\n25. Läuchli=Bürgi, Anna, Wittwe, von Remigen, Pintenwirthschaft.\nLäuchli, Hans, Sohn, Buchhalter (Zurlinden & Cie.), von Remigen.\nStohler=Zobrist, Jakob, Schneider, von Arboldswyl (Baselland).\n26. Stephani=Winfler, August, Kaufmann, Colonialwaaren-, Tabak- und\nCigarren-Handlung.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4595,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2264,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p013",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p013.jpeg",
+      "bytes": 265259,
+      "sha256": "f6c5e7fcd8b7d14eaa27b267ff614310eca494a05d248022d33be7957d3afcda",
+      "sha256_of": "original",
+      "working_copy": "1888_p013.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:39+00:00"
+  }
+}

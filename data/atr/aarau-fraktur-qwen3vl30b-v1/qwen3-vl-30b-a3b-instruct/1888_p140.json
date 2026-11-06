@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p140",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p140.jpeg",
+    "bytes": 302147,
+    "sha256": "f68d9195f878d4b8368654adf864e7d58a471063a08735df3705892dd4a57bb8",
+    "sha256_of": "original",
+    "working_copy": "1888_p140.jpeg"
+  },
+  "text": "122\nWildi — Wydler.\nWildi, Karl, Bart., obere Vorstadt 940.\nWildi-Läker, Samuel, Schneider von Schafisheim, Ziegelrain 716.\nWildi-Leuthard, Verena, Schneiders Wittwe v. Beltheim, Bahnhofstr. 1022.\nWildi-Matt, Jakob, Tapezierer von Schafisheim, Halden 285.\nWildi-Pfliß, Maria, Wittwe, Salzverkäuferin, hintere Vorstadt 699.\nWildi-Schneider, Jakob, Mechniker von Suhr, Tafinostraße 1176.\nWildi-Schneider, Anna, Hebamme von Suhr, id. id.\nWildi-Wesp, Adele, Wittwe von Beltheim, Coiffeurgeschäft, Bahnhofstraße 1022 und Wohnung, obere Vorstadt 930.\nWilhelm-Rafpar, Gottlieb, Färber von Safenwyl, Halden 284.\nWillimann-Lehmann, Anton, Lohnkutscher, Zgelweid 619.\nWillimann-Wehrli, Maria, Wittwe von Oberhof, Kronengasse 37.\n×Winteler-Eckart, Joft, Dr. Profeflor von Kerenzen (Glarus), Rain 823.\nWinz, Johann, Part. von Stein (Schaffhausen), Zollrain 89.\nWipf-Wernli, Margaretha, Borgängerin v. Egliswyl, hintere Vorstadt 643.\nWirth, Emma, von Hägglingen, Wirthin zum Affentafken, hintere Vorstadt 692.\n×Wirth-Herzog, Jakob, Generalagentur für Auswanderung, Zollrain 89.\nWirth-Uebinger, Barbara, Wittwe von Hägglingen, hintere Vorstadt 692.\nWirth-Zuber, Fried. Wilhelm, Schlosser von Hägglingen, Rain 877.\n×Wirz-Christen, Philipp, Buchhändler von Solothurn, Oberthor 138.\nWirz, Elisabeth, Spetterin von Schmiedrued, Rain 875.\nWirz-Elsasser, Rudolf, Krankenwärter von Schlofkrüed, Halden 279.\nWirz-Huber, Franz, Wagenvisiteur von Starrkirch (Solothurn), Scheibenschachen 315.\nWirz, Jakob, Schuhmacher von Muhlen, Entfelderstraße 1147.\n×Wirz-Martin, Emil, Sohn, Buchhändler v. Solothurn, obere Vorstadt 1117.\nWirz-Widmer, Adolf, Postfondukteur von Menziken, Laurenzenvorstadt 361.\nWittmer, Elfie, von Erlinsbach (Solothurn), Spezereihandlung, Rain 823.\nWittmer, Julius, Lithographiebesitzer v. Erlinsbach (Solothurn), id. id.\nWittmer-Schuhmacher, Elfie, Lithographs Wittwe, von Erlinsbach (Solothurn) Rain 823.\nWittmer-Hoffmann, Salome, Fabrikarbeiterin von Erlinsbach (Solothurn), hintere Vorstadt 643.\nWittmer, Marie, Taglöshnerin, von Erlinsbach (Solothurn), Stadthof 92.\nWittmer-Reimann, Joseph, Musiklehrer von Erlinsbach (Solothurn), Tafinostraße 573.\nWittwer-Bolliger, Fried., Taglöshner v. Schangnau (Bern), Adelbündli 82.\n×Wisinger-Lenthe, Moritz, Dr. med., von Unterhalla (Schaffhausen), Banftrasse 1141.\nWyder-Braft, Albert, Agentur und Commissionsgeschäft, von Oberstraf (Zürich), Rain 840.\nWydler-Bäuerlin, Heinrich, Färber, Ziegelrain 718.\n×Wydler-Fischer, Julius, Notar, Rathausgasse 3.\n×Wydler-Fischer, Heinrich, Bezirkslehrer von Affoltern (Zürich), Zschoffestraße 996.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6783,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2578,
+    "lines": 39,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 65.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:28:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p140",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p140.jpeg",
+      "bytes": 302147,
+      "sha256": "f68d9195f878d4b8368654adf864e7d58a471063a08735df3705892dd4a57bb8",
+      "sha256_of": "original",
+      "working_copy": "1888_p140.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:56+00:00"
+  }
+}

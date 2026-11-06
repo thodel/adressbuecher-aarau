@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p176",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p176.jpeg",
+    "bytes": 277343,
+    "sha256": "cc8165919016d7e3b9e92dd51e2526a0107565f2c7ffb58db8f69a87cf995a07",
+    "sha256_of": "original",
+    "working_copy": "1896_p176.jpeg"
+  },
+  "text": "138\nGeschäfts- und Gewerbetreibende.\nBrunner, Anguste, Bachstraße 1038.\nBruns-Gattiker, Dorothea, Rain 883.\nDietiker, Anna, Golattenmattgasse 237b.\nFrey, Rosa, vor dem Haldenthor 810.\nHässig, Mina, Zollrain 181.\nHäusler, Julie, vor d. Haldenthor 762.\nHaller-Attiger, Maria, vor dem Haldenthor 1092.\nHaßler, Sophie, Adelbändli 172.\nHort-Hemmler, Elise, Halden 279.\nHuber-Kern, Margaritha, Schmiedgasse 636.\nHuber-Müller, Bertha, Hammer 190.\nKäser-Leder, Nanette, Entfelderstraße 1285.\nKeller, Ida, Rain 1185.\nKüng-Rüedi, Anna, Milchgasse 144.\nKyburz, Elise, Stadthof 92.\nLäuchli, Lina, Pelzgasse 132.\nLienhard-Baumann, Emilie, Rain 880.\nLüscher, Elise, hintere Vorstadt 647.\nMerz-Dürr, Emma, Halden 286.\nMüller, Elise, obere Vorstadt 921.\nPeyer-Roos, Wilhelmine, Rain 825.\nPeyer, Sophie, Rain 825.\nPortmann-Peyer, Luise, Pelzgasse 132.\nSchatzmann-Häring, Elisabeth, vor dem Haldenthor 1399.\nSchmid, Anna und Jenny, v. d. Haldenthor 1332.\nSennhauser, Rosa und Amalia, vor dem Haldenthor 758.\nSiegenthaler-Hirt, Elise, Hammer 189.\nSuter, Rosa, Ziegelrain 711.\nWeber, Anna, Waltersburg 856.\nWiederkehr-Oeschger, Viktoria, Milchgasse 152.\nZellweger, Elise, Milchgasse 153.\nGlashandlungen.\nHagenbuch, Karl, * Kronengasse 35.\nRies-Buhlrein, Emil, Ziegelrain 702.\nGlaswarenhandlungen.\nHagenbuch, Karl, * Kronengasse 35.\nHemmler-Stahl, J., * Rathausg. 21.\nMorath, J. W., * Rathausgasse 2.\nSchmidt-Lanz, * Adolf, ob. Vorstadt 935.\nVereinigte Schweizerbazars, Filiale, obere Vorstadt 925. (S. Inserat S. 12.)\nGlasurmühle.\nSchmidt-Lanz, Adolf, * ob. Vorst. 936.\nGlockengiesserei.\nRüetschi & Cie., * Rainstraße 844.\n(Siehe Inserat Seite 13.)\nGoldleistenhandlungen.\nHagenbuch, Friedrich, Buchbinder, * vord. Vorstadt 676.\nRies-Buhlrein, Emanuel, Ziegelrain 702.\nSchatzmann, Samuel, Buchbinder, Pelzgasse 135. (Siehe Inserat S. 2.)\nWärtli, August, Buchbinder, Kirchhof 166.\nZebert, Georg, Buchbinder, * Laurenzenthorgasse 116.\nGold- und Silberwaren.\nFischer, Jonathan, vord. Vorstadt 1260.\nHärdy, Wilhelm, Rathausgasse 42.\nHirschy, J. R., * vordere Vorstadt 668.\n(Siehe Inserat Seite 16.)\nGoldschmiede.\nFischer, Jonathan, Holzmarkt 1260.\nHärdy, Wilhelm, * Rathausgasse 42.\nGrabsteinlager.\nRusterholz & Freihofer, * Rain 885.\n(Siehe Inserat Seite 5.)\nGraveur.\nChristen, Andreas, Schmiedgasse 619.\nRohr, Hans, Wirt, Holzmarkt 662.\nHadernhändler.\nHürzeler, Jakob, Hammer 185.\nHaargeflechte.\nHauri, Jean, Coiffeur, Pelzgasse 65.\nHaferhandlungen.\nBirmann, Adolf, * hintere Vorstadt 689.\nKeller-Steiner, Karl, Rain 878.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5872,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2509,
+    "lines": 75,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0133,
+    "mean_line_chars": 32.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:34:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1896_p176",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p176.jpeg",
+      "bytes": 277343,
+      "sha256": "cc8165919016d7e3b9e92dd51e2526a0107565f2c7ffb58db8f69a87cf995a07",
+      "sha256_of": "original",
+      "working_copy": "1896_p176.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:34:23+00:00"
+  }
+}

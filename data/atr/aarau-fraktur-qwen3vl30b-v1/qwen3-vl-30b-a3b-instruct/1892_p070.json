@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p070",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p070.jpeg",
+    "bytes": 207118,
+    "sha256": "d611aab9ccc1214bad3d3c21df340e017636aea4c37386e311e567a02f3548e0",
+    "sha256_of": "original",
+    "working_copy": "1892_p070.jpeg"
+  },
+  "text": "Haus\nNr.\nGyfi, Hans, Sohn, Mechaniker.\nGyfi, Otto, Sohn, Photograph.\nGyfi, Anna, Buchhalterin.\n896. † Diefselben. Photograph. Atelier.\n897. † Diefselben. Holzschopf.\n898. Brunner=Abderhalden, Friedrich, Messerschmied, von Brunnadern (St. Gallen).\n899. † Derfelve. Werkftätte.\n900. Bürgi=Fricker, Joseph, Hutmacher, von Olten.\nZimmerli, Johann Jakob, Part., von Niederwyl.\nLehmann-Delhafen, J., von Jofingen. Manufakturwaaren- und Merceriehandlung.\n901. † Derfelve. Werkftätte.\n902. * Siebenmann=Bräm, Otto, Kreiskommandant.\nSiebenmann-Siebenmann, Arnold, Tapezierer und Decorateur.\nSiebenmann-Blum, Elife, Wittwe, Spetterin.\nHagnauer, Hedwig, Lehrerin.\nGuggisberg-Hagenbuch, Bertha, Part., von Belp (Bern).\n903. Henz=Gautschi, Emil, Eisenwaarenhandlung.\nVuillermot-Leblanc, Charles Jean E., Kaufmann, von Verrieres (Franfreich).\n904. † Staat Aargau. Alte Postremife.\n905. Derfelve. Regierungsgebäude.\nRäfer-Schütz, Jakob, Rathausabwart, von Biberstein.\n906. † Derfelve. Holzhaus.\n907. † id. id.\n908. id. Grossrathshgebäude. Kantonsbibliothek.\n\nObere Vorstadt.\n909. Werntli=Meier, Jakob, Schreinermeister.\n910. † Derfelve. Werkftätte.\n911. Vogt=Kohler, Johann, Schuhmacher. Schuhhandlung.\n912. Gänflen=Koch, Regina Louise, von Starrkirch (Solothurn). Gasthaus zur Herberge.\n913. * Diefselbe. Verkaufsladen.\n914. * Diefselbe. Wohnhaus mit Bäckerei.\n915. * Diefselbe. Hinterhaus.\nBlattner, Karl, Maler, von Rüttigen.\n916. Andres=Bircher, Friedrich, Hafnermeister.\nBircher, Fanny, Part.\nStierli-Andres, Elife, Buchdruckers Wittwe.\n917. † Derfelve. Denmagazin und Geschirrhandlung.\n918. † id. Waschhaus.\n919. * Hemmeler=Schleibler, Hafners Wittwe.\nHemmeler-Schmidt, Wilhelm, Hafnermeister. Geschirrhandlung.\n920. † Diefselbe. Holzschopf.\n921. Hemmeler=Koth, Wilhelm, Kanzlift.\nMüller-Riniker, Elife, Part., von Biberstein.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4012,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1828,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p070",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p070.jpeg",
+      "bytes": 207118,
+      "sha256": "d611aab9ccc1214bad3d3c21df340e017636aea4c37386e311e567a02f3548e0",
+      "sha256_of": "original",
+      "working_copy": "1892_p070.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:16+00:00"
+  }
+}

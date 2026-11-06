@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p144",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p144.jpeg",
+    "bytes": 245262,
+    "sha256": "0d24a26b5649a05b3329708e46093b7e11ec7954c3d2fc50fd4780b8d679cdae",
+    "sha256_of": "original",
+    "working_copy": "1892_p144.jpeg"
+  },
+  "text": "128       Strub — Traine.\n\nStrub-Mühlestein, Robert, Schneider v. Kienberg (Soloth.), Halden 252.\nStrub-Wildi, Leonhard, Möbelhändler von Läufelfingen (Baselland),\n  Milchgasse 71.\nStuder-Siegrist, Konrad, Part. von Rickenbach, vor dem Haldenth. 772.\nStudler-Sandmeier, Anna, Schneiders Wittwe, vordere Vorstadt 675.\nSuter, Adolf, Taglöhner von Kölliken, Laurenzenvorstadt 376.\nSuter, Anna Elisabeth, Spetterin von Suhr, Milchgasse 145.\nSuter, Elisabeth, Taglöhnerin von Gränichen, Bahnhofstraße 1025.\nSuter-Dürr, Rudolf, Spengler von Hallwyl, Ziegelrain 704.\nSuter-Fehlmann, Anna, Taglöhnerin von Gränichen, v. d. Haldenth. 767.\nSuter-Huber, Johann Rudolf, Fabrikarbeiter von Gränichen, Laurenzen=\n  vorstadt 376.\nSuter Iberg, Albert, Schneider von Kölliken, Pelzgasse 133.\nSuter, Johann, Commissionär von Kölliken, vordere Vorstadt 666.\nSuter, Ida, Modistin, „ „ „\nSuter, Rosa, Damenschneiderin, „ „ „\nSuter-Kohler, Jakob, Schreiner von Kölliken, Rain 833.\nSuter-Kähr, Elisabeth, Part. von Kapperswyl (Bern), Rain 875.\nSuter-Lüscher, Gabriel, Bandweber von Gränichen, Schmiedgasse 636.\nSuter-Lüscher, Rudolf, Uhrenmacher von Kölliken, Casinostraße 571.\nSuter-Meier, Kaspar, Posamenter von Gränichen, Bachstraße 1031.\nSuter-Müller, Elise, Wittwe, Taglöhnerin von Kölliken, Golattenmattg. 231.\nSuter-Müller, Jakob, Taglöhner von Kölliken, Schachen 729.\nSuter-Rauber, Susette, Wittwe, Part., in der Gais 1131.\n*Suter-Riederer, Jakob, Professor, Direktor des Töchterinstituts und\n  Lehrerinnenseminars v. Suhr u. Winterthur, Gönhardfeldw. 1241.\nSutermeister-Strähl, Gottlieb, Postcommis v. Zofingen, Casinostraße 577.\n\nTanner, Irmengard, Part., Laurenzenvorstadt 586.\nThalmann, Heinrich, Commis von Bertschikon (Zürich), Hammer 191.\nTheez, Albert, Schuhmacher von Paris, Metzgergasse 107.\nTheez-Amsler, Emilie, Schirmmacherin und Costumiere von Paris, Metzger=\n  gasse 107.\nTheiler-Rebmann, Elise, Wittwe, Part. von Wädensweil (Zürich), Lau=\n  renzenvorstadt 415.\nTheodor-Hagnauer, Amadeus, Zugführer v. Pizy (Waadt), h. Vorst. 695.\nTheodor-Hagnauer, Marie, von Pizy (Waadt), Mode- und Wollenwaaren=\n  handlung, hintere Vorstadt 695.\nThom-Hänny, Franz, Trompeterinstruktor der Infanterie, von Kirchberg\n  (Bern), hinter dem Bahnhof 1352.\n*Thut-Gidemann, Hermann, mech. Ziegelei von Oberentfelden, Rain 863.\nThut-Laufer, Rudolf, Part. von Oberentfelden, Entfelderstraße 979.\nTraine-Aldinger, Eugen, Oberlieut., Instruktionsoffizier II. Klasse von\n  Oberhofen-Illighausen (Thurgau), Zollrain 89.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8857,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2491,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:02:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p144",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p144.jpeg",
+      "bytes": 245262,
+      "sha256": "0d24a26b5649a05b3329708e46093b7e11ec7954c3d2fc50fd4780b8d679cdae",
+      "sha256_of": "original",
+      "working_copy": "1892_p144.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:02:05+00:00"
+  }
+}

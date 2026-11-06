@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p178",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p178.jpeg",
+    "bytes": 191137,
+    "sha256": "6c6a5342403c0b616e406e0d79010e226b4da055bb2f1446f4e5baed27c277ae",
+    "sha256_of": "original",
+    "working_copy": "1892_p178.jpeg"
+  },
+  "text": "162\nVerzeichniss der Telephon-Abonnenten des Kreises Aarau\nund Umgebumg.\n\nCentral-Station. Mezgergasse 113.\nDirect verbunden mit Basel, Langenthal, Lenzburg, Olten, Zofingen und Zürich.\nDienstzeit der Centralstation:\nApril—Oktober von 7 Uhr Morgens bis 9 Uhr Abends.\nNovember—März von 8 Uhr Morgens bis 9 Uhr Abends.\n\nTagen für 3 Minuten lange interurbane Gespräche:\nAblisweil 30 Cts. Olten 30 Cts.\nAßfoltcrn 30 \" Ragaz 75 \"\nBaden 30 \" Rütti (Zürich) 50 \"\nBasel 30 \" Rheinfelden 30 \"\nBern 50 \" St. Gallen 50 \"\nBülach 30 \" Solothurn 30 \"\nDelsberg 50 \" Thalweil 30 \"\nGlarus 50 \" Uster 50 \"\nHorgen 30 \" Winterthur 50 \"\nLangenthal 30 \" Zofingen 30 \"\nLenzburg 30 \" (mit Aarburg, Murgenthal\nLiestal 30 \" und Säfienwil)\nLuzern 30 \" Zürich 30 \"\nMännedorf 50 \" Zug 30 \"\n\nAargauische Bank\nAargauische Creditanstalt\nAllgemeine aarg. Ersparniskasse\nBally, C. F. Schuhfabrik\n\" \" \" (Comptoir)\n\" \" \" Wohnung (Bally-Rhysner)\nBally, Gebrüder, Bandfabrik\nComptoir in\nBally C., Elastiquefabrik\nWohnung\nErne & Cie., Colonialwaaren\nBaumann, Gebr., Weinhändlung zum Freihof\nBaumann-Gysi, Debonom\nBerner, Dr., Zahnarzt\nBertschinger, zur Cantine\nBezirksgericht\nBieber-Niggli, Seidenbandfabrik u. Nähmaschinen-\nhandlung.\nBieber-Niggli, Wohnung\nBahnhofstraße 511.\nLaurenzentorgasse 351.\nGraben 215.\nSchüftland.\nSchönenwerd\nSchönenwerd.\nHammer 386.\nSchönenwerd.\nLaurenzenvorstadt 405.\nHohrerstraße 473.\nLaurenzenvorstadt 609.\nLaurenzenvorstadt 390.\nobere Vorstadt 958.\nBankstraße 1098.\nLaurenzenvorstadt 590.\nRathhausgasse 176.\nHammer 386.\nBibersteinerstraße.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4568,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1532,
+    "lines": 60,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0333,
+    "mean_line_chars": 24.5,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:50:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p178",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p178.jpeg",
+      "bytes": 191137,
+      "sha256": "6c6a5342403c0b616e406e0d79010e226b4da055bb2f1446f4e5baed27c277ae",
+      "sha256_of": "original",
+      "working_copy": "1892_p178.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:15+00:00"
+  }
+}

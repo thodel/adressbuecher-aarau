@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p024",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p024.jpeg",
+    "bytes": 270889,
+    "sha256": "021a6c06850b140c95fa5fb0bd9f5308e9fa300e2ceeb8c1c2fc11b1be35fbde",
+    "sha256_of": "original",
+    "working_copy": "1888_p024.jpeg"
+  },
+  "text": "Haus-\nNr.\n148. * Andres-Baumann, Salome, Kupferschmieds Wittwe.\nRämisperger-Schäfli, Hermann, Spenglermeister.\nHäuptli-Schäfli, Jakob, Färber, von Biberstein.\n149. Drack-Hauser, Hermann, Metallgießer.\nFurter geb. Rohr, Anna, Taglöhnerin, von Staufen.\n150. * Siebenmann, Gottlieb, Gerber.\nSiegrist-Fischer, Jakob, Metzger, von Meisterschwanden.\nBildi-Hiltiker, Gottfried, Pierriste, von Schafisheim.\nBucher-Lüscher, Samuel, Taglöhner, von Schöftland.\n151. * Hoffmann, Johann, Schuhmachermeister.\nHediger geb. Brändli, Elisabeth, Instruktor's Wittwe, von Reinach.\nHediger-Born, Wilhelm, Postangestellter, von Reinach.\nHediger, Maria, Haushälterin, von Reinach.\nRuch-Schäfli, Alfred, Schuhmacher, von Witschi (Sfarrus).\nBelz-Dächser, Johann, Wagenvisiteur, von Zihlschlacht (Thurgau).\n152. Wiederkehr-Deschger, Viktoria, Wittwe, von Zell (Luzern). Wäscherei\nund Glätterei.\nDeschger, Klara, Wäscherin, von Wyl.\nSchäfer, Karolina, Corfetschneiderin.\nSchäfer geb. Funk, Elise, Part.\nRull-Lehmann, Johann, Schneider, von Niederlenz.\nHolzreuter-Suter, Karl, Taglöhner, von Ueken.\n153.a. * Hafler-Müller, Theodor, Buchbinder.\nTheez-Amsler, Emilie, Schirmmacherin, von Paris. Costüm-Lager.\nDürr-Wüthrich, Gottlieb, Bauamtsarbeiter.\n153.b. Hafler-Müller, Theodor, Buchbinder.\nBächli, Jakob, Gasarbeiter, von Buchs.\nRiener-Tschopp, Margaretha, Näherin, von Zegzwyl.\nPlüg-Lehner, Elise, Spetterin, von Vordemwald.\nBläz, Elise, Telefonistin,\n154. * Beck geb. Rieger, Anna, Kaufmanns Wittwe.\nEichenberger-Flad, Rudolf, Zimmermann, von Reinach.\nPfenniger-Bayon, Katharina, Tesselflechterin, von Stäfa (Zürich).\nHunspurger-Löffel, Karl, Maler, von Bitigen (Bern).\n155. * Bachmann-Kiniker, Johann, Küfer.\n156. Beck geb. Fisch, Elise, Wittwe, Part.\nFisch-Vogt, Albert, Milch- und Butterhandlung.\nWellenberg-Schaffner, Albertine, Revisors Wittwe, von Schöftland.\nWehrli-Fux, Peter, Postfaktur, von Atp.\n157. Schmuziger-Jacot, Karl, Rentier.\nPfleger, Justine, Part.\nPfleger, Louise, Part.\n158. Reformierte Kirchgemeinde Aarau. Pfarrhaus.\nWernly-Kraft, Rudolf, Pfarrer, von Thalheim.\nKraft, geb. Gautschi, Auguste Friederike, Wittwe, Part. von Brugg.\nHuber, Katharina, Lehrerin, von Befenbüren.\n159. Bachmann-Kiniker, Johann, Küfer.\nGrütter-Graber, Friedrich, Magazinier, von Seeberg (Bern).\nStaub-Kübeler, Hans Jakob, Taglöhner, von Dübendorf (Zürich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4820,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2331,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:20:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p024",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p024.jpeg",
+      "bytes": 270889,
+      "sha256": "021a6c06850b140c95fa5fb0bd9f5308e9fa300e2ceeb8c1c2fc11b1be35fbde",
+      "sha256_of": "original",
+      "working_copy": "1888_p024.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:27+00:00"
+  }
+}

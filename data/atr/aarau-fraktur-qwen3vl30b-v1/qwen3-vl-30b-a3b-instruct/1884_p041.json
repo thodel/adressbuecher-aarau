@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p041",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p041.jpeg",
+    "bytes": 306983,
+    "sha256": "f1deaa075e13be743a69a9f3dc540f2aec64f0ba7c5a0c617d86938a3d9198b1",
+    "sha256_of": "original",
+    "working_copy": "1884_p041.jpeg"
+  },
+  "text": "Müller. — Peier. 37\nMüller-Hürni, Marie, Wittwe, Partif. obere Vorstadt 936.\nMürrset-Hauptli, Friedrich, Gärtner, v. Dieke (Bern), Laurenzenvorst. 554.\n— Hediger, Marie, Wittwe, Partif., von Dieke (Bern), Milchgasse 144.\n— Marie, Goisseufe, von Dieke (Bern), Milchgasse 144.\nMader-Hauptli, August, Gepäckträger, von Biberstein, Ziegelrain 705.\nKater, Marie, Weißnäherin, von Berzdorf (Solothurn), Kirchgasse 14.\nNäf-Bidmer, Urs Josef, Taglöhner, von Wyfen (Soloth.), Kirchgasse 10.\nKeefer-Hilfiker, Samuel, Taglöhner, von Schlokrued, Bahnhofstrasse 1025.\n*Neuburger-Jmhof, Albert, Apotheker, Partif., Graben 215.\nNiederhauser-Gifi, Theodor, Buchbinder, von Basellaugst (Baselland) in\nder Gais 487.\n— Schenf, Maria, Taglöhnerin, v. Eriswyl (Bern), v. d. Halbenth. 809.\nNieding, Heinr., Zimmermeister, v. Märstetten (Thurgau), n. Quartier 970.\nNiggli, Friedrich, Lehrer, Partif., von Aarburg, Graben 221.\n* — Bohnenblust, Arnold, Stadtschreiber, Rainstrasse 872.\n— Niggli, Elise, Weißnäherin, von Aarburg, Casinostasse 580.\n— Elise, Weißnäherin, von Aarburg, Casinostasse 580.\nRuzbaum-Finkbohner, Trinette, Wittwe, v. Densbühren, im Hammer 188.\n— Anna Johanna, Epetterin, von Birrwyll, vordere Vorstadt 902.\n*Küpperli-Wik, Eduard, Fabrikinspektor, Laurenzenvorstadt 410.\n* — Ruzbaum, Friedrich, Zattler, Zollrain 53.\n* — Karl, Postcommis, Zollrain 53.\n* — Richner, Julie, Partif., Pelzgasse 124.\n* — Johanna, Partif., Halben 279.\n* — Louise, Partif., Halben 279.\n* — Karoline, Partif., Halben 279.\n*Schouffier-Jmhof, Friedrich, Fabrikant, Graben 613.\nObrist-Diener, Theodor, Postangestellter, von Magden, in der Telli 448.\n*Delcr-Frey, August, Fabrikant, Laurenzenvorstadt 415.\n* — Theiler, Oskar, Ingenieur, Laurenzenvorstadt 415.\n*Delhasen-Rusti, Rudolf, Meckger, hintere Vorstadt 698.\n* — Hagnauer, Johanna, Partif., Pelzgasse 134.\n* — Hermann, Bankangestellter, Pelzgasse 134.\n* — Maria, Näherin, Rainstrasse 875.\nSechger-von Felten, Remigius, Straßenwärter, von Wyl, Weinberg 322.\n— Klara, Glätterin, von Wyl, Milchgasse 152.\nDppliger, Otto, Bankangestellter, von Aarburg, Rathhausgasse 2.\nDtt, Kaspar, Rentier, von Zürich Graben 218.\n— Schär, Rudolf, Kaminfeger, von Biberstein, Abelbändli 173.\n— Anna, Zettlermeisterin, von Wyfen, Halben 249.\n— Keller, Verena, Partif., von Aarburg, neues Quartier 1145.\nPauli, Maria Susanna, Partif., von Billnachern, Mezgergasse 105.\n— Maria, Taglöhnerin, von Billnachern, Igelweid 637.\nPeier-Fisch, Anna, Wittwe, Partif., von Bergdietikon, Mezgergasse 58.\n— Anna, Lehrerin, von Bergdietikon, Mezgergasse 58.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5670,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2548,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:12:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p041",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p041.jpeg",
+      "bytes": 306983,
+      "sha256": "f1deaa075e13be743a69a9f3dc540f2aec64f0ba7c5a0c617d86938a3d9198b1",
+      "sha256_of": "original",
+      "working_copy": "1884_p041.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:12:56+00:00"
+  }
+}

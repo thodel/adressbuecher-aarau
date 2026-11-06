@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p131",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p131.jpeg",
+    "bytes": 241707,
+    "sha256": "02b84dece1d2488fb757fc35fd250baf35b6dd588e8a5944c08bf65a2a7113b3",
+    "sha256_of": "original",
+    "working_copy": "1892_p131.jpeg"
+  },
+  "text": "Nadler-Häuptli, Anna, Gepäckträgers Wittwe von Biberstein, Confumhalle\nBahnhoftstraße 1026.\nReefer-Hilfiker Samuel, Taglöhner von Schlokrued, vor dem Halden-\nthor 1084.\n× Neuburger-Zimhof, Albert, Apotheker, Part., Laurenzenvorstadt 353.\nNiederhauser-Gisin, Theodor, Buchbinder von Baselland (Baselland),\nhinter dem Bahnhof 502.\nNiederhauser-Schenk, Marie, Taglöhnerin von Eriswyl (Bern), Lau-\nrenzenvorstadt 376.\n† Niggli-Bohnenblust, Arnold, Zürfsprech, Stadtschreiber, obere Vorstadt 948.\nNiggli, Elise, Weißnäherin von Aarburg, Kirchhof 80.\n† Niggli, Friedrich, gewef. Lehrer, Part., von Aarburg, Graben 221.\nNünlift-Müller, Katharina, Taglöhnerin von Niedererlinsbach (Solothurn),\nHalden 287.\nNüsperli, Emma, Weißgerbers, Part., Pelzgasse 124.\nNüsperli, Friedrich, Postcommis, Zollrain 53.\nNüsperli, Maria Anna, Schneiders, Part., Kirchgasse 12.\nNüsperli-Nußbaum, Friedrich, Sattler, Zollrain 53.\nNüsperli, Karl, Postcommis,\n  id. id.\nNüsperli-Richner, Julie, Part., Pelzgasse 124.\n× Nüsperli-Witz, Jda, Wittwe, Schloßplaz 195.\nNussbaum, Anna Johanna, Spetterin von Birmwyl, Rain 881.\nNussbaum-Finkböhner, Trinette, Wittwe von Densbūren, Ziegelrain 751.\nNussbaum, Hanna, Kleinkinderlehrerin von Densbūren, Ziegelrain 751.\nNussberger, Samuel, Fabrikarbeiter von Seengen, Hammer 190.\n× Douffier-Schäfer, Friedrich, Fabrikant, Graben 613.\nObrist-Diener, Theodor, Postangestellter von Magden, Telli 448.\nOchsner, Marie, Part. von Uster (Zürich), Entfelderstraße 983.\n† Odinga-Brändli, Theodor, Dr. phil.. Bezirksschullehrer, Rektor der\nMädchenschulen, von Uster (Zürich), Günhardsfeldweg 1150.\n† Dehler-Frey, Bertha, Fabrikants Wittwe, Laurenzenvorstadt 415.\n† Dehler-Theiler, Oskar, Ingenieur, Laurenzenvorstadt 415.\nDelhafen, Arnold, Sohn, Metzger, hintere Vorstadt 698.\n† Delhafen-Bührer, Hermann, Bankangestellter, Laurenzenvorstadt 544.\n† Delhafen-Hagnauer, Johanna, Part., Pelzgasse 134.\nDelhafen-Müller, Elizabeth Louise, Malers Wittwe, Halden 256.\nDelhafen-Rufl, Rudolf, Metzger, hintere Vorstadt 698.\nDeschger-von Felten, Anna Marie, Wittwe von Wyl, Weinberg 322.\nDeschger, Klara, Glätterin von Wyl, Milchgasse 152.\n† Dschwald, Walther, Kriminalgerichtschreiber von Lenzburg, Rain 828.\nOsterwalder-Bonary, Rudolf, Zuschneider, von Stettfurt (Thurgau),\nZiegelrain 722.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6252,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2288,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:44:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p131",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p131.jpeg",
+      "bytes": 241707,
+      "sha256": "02b84dece1d2488fb757fc35fd250baf35b6dd588e8a5944c08bf65a2a7113b3",
+      "sha256_of": "original",
+      "working_copy": "1892_p131.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:44+00:00"
+  }
+}

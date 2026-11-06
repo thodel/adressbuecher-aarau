@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p031",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p031.jpeg",
+    "bytes": 269011,
+    "sha256": "d73c4da94e64dc9bff56311149d9fe330bc4daec422be0bc52bc6f821ab2dc6c",
+    "sha256_of": "original",
+    "working_copy": "1888_p031.jpeg"
+  },
+  "text": "— 21 —\nHaus-\nNr.\n237. a. Fäs=Huber, Jakob, Posamenter, von Oberkulm.\n  Zimmerli, Joh., Holzer, von Unterentfelden.\n237. b. Dietiker, Geschwister, Emma und Adolf, von Thalheim.\n  Dietiker, Emma, Wäscherin, von Thalheim.\n  Dietiker, Adolf, Briefträger, „ „\n  Dietiker, Joh. Jakob, Taglöhner, von Thalheim.\n237. c. Morgenthaler=Fehlmann, David, Dienstmann, von Staffelbach.\n238. † Fäs=Huber, Jakob, Posamenter (Holzschopf).\n239. Döhnel, August, Schuhmacher, von Badenweiler (Baden).\n\nHalden.\n\n240. Ernst=Dürr, Hermann, Schuhmacher.\n  Biechlin=Schär, Xaver, Maler, von Schweighausen (Elsaß).\n  Kühn=Morach, Hermann Theodor, Drucker, von Chemnitz (Sachsen).\n241. Armengut der Gemeinde Aarau. Armenhaus.\n  Müller=Woodtli, Jakob, Armenhausvorsteher.\n242. † Dasselbe. Holz- und Spritzenhaus.\n243. † Dasselbe. Absonderungshaus.\n244. Abgetragen.\n245. a. u. b. Abgetragen.\n246. * Brunnhofer, El., Lehrers Erbschaft.\n  Zähner=Brunnhofer, Nanette, von Horn (Thurgau). Stellenvermittlungs-\n    bureau des schweiz. Frauenverbandes.\n  Brunnhofer, Lisette, Lehrers, Part.\n  Holliger=Berner, Gottfried, Taglöhner, von Boniswyl.\n  Krauer=Kaufmann, Heinrich, Schneider, von Bärentschweil (Zürich).\n247. Brunnhofer=Giezentanner, Ursula, Wittwe.\n  Fricker, Joseph, Commis, von Oberhof.\n  Fricker, Franziska, Haushälterin, von Oberhof.\n  Fischer, Friedrich, Weibels, Schreiner.\n248. Haßler=Brunnhofer, Eduard, Kaminfeger.\n  Umiker=Steiner, Samuel, Pferdewärter, von Thalheim.\n  Bertschi=Holzreuter, Rudolf, Holzer, von Dürrenäsch.\n  Bertschi, Wilhelm, gew. Camioneur, von Dürrenäsch.\n249. Hauri=Graber, Rudolf, Fuhrmann, von Reitnau.\n  Horlacher=Iberg, Samuel, Mechaniker, von Umiken.\n  Ruef=Joho, Johann, Taglöhner, von Rekingen.\n250. Wehrli=Bircher, Hans, Gipsermeister.\n  Vonarx, Simon, Schlosser, von Stüßlingen (Solothurn).\n  Vonarx, Hedwig, Fabrikarbeiterin, von Stüßlingen.\n251. Ment=Wehrli, Anna, Mechanikers Wittwe, von Densbüren.\n  Huber=Ment, Jakob, Schneider, von Unterembrach (Zürich).\n  Germann=Müller, Johann, Schneider, von Graltshausen (Thurgau).\n252. Strub=Mühlestein, Robert, Schneider, von Kienberg (Solothurn).\n  Herzog=Dietiker, Konrad, Schneider, von Homburg (Thurgau).\n253. Brunnhofer=Schmid, Magdalena, Mechanikers Wittwe.\n  Bächli, Joseph, Staatsweibel, von Würenlingen.\n  Kyburz, Lina, Fabrikarbeiterin, von Erlinsbach (Solothurn).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8630,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2335,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:26:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p031",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p031.jpeg",
+      "bytes": 269011,
+      "sha256": "d73c4da94e64dc9bff56311149d9fe330bc4daec422be0bc52bc6f821ab2dc6c",
+      "sha256_of": "original",
+      "working_copy": "1888_p031.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:24+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p039",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p039.jpeg",
+    "bytes": 213584,
+    "sha256": "1aa051ea783a846c5338fb61a645f34ddef363c68878dd53b89cc77a22548275",
+    "sha256_of": "original",
+    "working_copy": "1892_p039.jpeg"
+  },
+  "text": "— 31 —\n\nHaus=\nNr.\n    Müller-Suter, Jakob, Posamenter, von Gränichen.\n    Müller, Jakob, Bahnarbeiter, von Gränichen.\n    Suter, Adolf, Taglöhner, von Kölliken.\n    Dietiker-Wernli, Samuel, Schuhmacher, von Thalheim.\n    Schumacher-Bachmann, Arnold, Bahnarbeiter, von Wangen (Solothurn).\n    Siegenthaler-Hirt, Hermann, Uhrenmacher, von Trueb (Bern).\n    Siegenthaler-Hirt, Elise, Glätterin, von Trueb (Bern).\n    Heiz-Neeser, Cornelius, Zimmermann, von Menziken.\n    Frei-Hintermann, Arnold, Taglöhner, von Mellingen.\n    Müller-Müller, Hs. Jakob, Taglöhner, von Unterkulm.\n    Gloor-Werder, Heinrich, Zimmermann, von Birr.\n    Moser-Schneeberger, Johann, Handlanger, von Inkwyl (Bern).\n    Niederhäuser geb. Schenk, Maria, Spetterin, von Eriswyl (Bern).\n    Suter-Huber, Joh. Rudolf, Fabrikarbeiter, von Gränichen.\n377. † Hunziker-Züst, Guido, Rentier. (Fabrikgebäude).\n    Gasser & Hunziker, Seidenbandfabrikation.\n378 † Derselbe. Maschinenhaus und Werkstatt.\n379. † Derselbe. Scheune und Remise.\n380. † Derselbe.\n381. † Derselbe.\n382. † Derselbe. Seitenbau mit Holzschopf.\n383. † Derselbe. Waschhaus.\n384. † Fahrländer-Hunziker, Karl. Treibhaus.\n385. † Hunziker-Züst, Guido, Geflügelhaus.\n1114. * Wernli-Adel, Jakob, Gärtner, von Thalheim.\n    Faßler, Johann, Taglöhner, von Densbüren.\n    Amsler-Faßler, Georg, Färbereiarbeiter, von Asp.\n\nIm Hammer.\n\n386. † Hegnauer-Renold, Rudolf, Fabrikationsgebäude.\n    Gebrüder Bally, Bandfabrikation.\n    Gasser u. Hunziker, Seidenbandfabrikation.\n387. † Derselbe. Kesselhaus.\n388. † Derselbe. Holzhaus.\n389. † Haßler-Heberlein, Adolf. Remise.\n\nLaurenzenvorstadt.\n\n390. Baumann, Karl und * Eugen. Firma: Gebr. Baumann, Weinhandlung.\n    Baumann-Hemmann, Karl, Kaufmann.\n    Baumann-Baumann, Heinrich, Wirth zum Freihof, von Stilli.\n    Zimmerli geb. Suter, Louise, Wittwe, Part., von Aarburg.\n391. † Dieselben. Weinkeller und Brennerei.\n392.a.† Dieselben. Trinkhalle.\n392.b.* Dieselben. Coiffeurgeschäft: Burkhardt, Ferdinand, Sohn, Coiffeur.\n393. † Dieselben. Gartenhaus.\n1257. † Dieselben. Faßremise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7521,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2047,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:49:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p039",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p039.jpeg",
+      "bytes": 213584,
+      "sha256": "1aa051ea783a846c5338fb61a645f34ddef363c68878dd53b89cc77a22548275",
+      "sha256_of": "original",
+      "working_copy": "1892_p039.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:18+00:00"
+  }
+}

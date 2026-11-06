@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p101",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p101.jpeg",
+    "bytes": 247623,
+    "sha256": "803280cfae7883b638924573f235ea2e5a794e51e68bf748475ffa13ebf27741",
+    "sha256_of": "original",
+    "working_copy": "1892_p101.jpeg"
+  },
+  "text": "Birmann — Bolliger. 85\n\nBirmann-Baldenweg, Albert, Müller von Basel, hintere Vorstadt 684.\nBirmann, Adolf, Müller, Sohn von Basel, hintere Vorstadt 684.\nBirri-Aekli, Wilhelm, Bremser von Zeihen, Rathhausgasse 45.\nBirri, Emma, Damenschneiderin von Zeihen, Scheibenschachen 314.\nBirri-Wülser, Fridolin, Posamenter von Zeihen, Scheibenschachen 314.\nBlaser-Studer, Anna, Part. von Langnau (Bern), Pelzgasse 68.\nBlattner, Anna, Lehrerin, jens. der Aare 300.\nBlattner-Bircher, Hans Rudolf, Landwirth von Küttigen, Erlinsbacher=\n  straße 1246.\nBlattner-Burgunder, August, Sekretär v. Küttigen, Laurenzenthorgasse 117.\nBlattner-Hofer, Elisabeth, Wittwe von Küttigen, Entfelderstraße 983.\nBlattner, Karl, Maler von Küttigen, obere Vorstadt 915.\nBlattner, Marie, Weißnäherin von Küttigen, hintere Vorstadt 621.\nBlattner-Jäger, Otto, Dr. Fürsprech und Notar, Advokaturbureau obere\n  Vorstadt 948 und Wohnung jens. der Aare 300.\nBlum, Joseph, Polizeidiener von Wyl, Milchgasse 149.\nBlume-Hirt, Philipp, Schreinermstr. v. Sprendlingen (Hessen), Hammer 189.\nBlume-Hirt, Marie, Feinwascherin und Glätterin, von Sprendlingen\n  (Hessen), Hammer 189.\nBlume, Mina, Damenschneiderin von Sprendlingen (Hessen), Laurenzen=\n  thorgasse 1118.\nBöhmert-Comte, Richard, Kaufmann von Dresden, Entfelderstraße 983.\nBönninger-Meier Adam, Bahnhofadjunkt von Mitfurn (Glarus), Bahn=\n  hofstraße 1160.\nBodmer-Roth, Joh. Julius, Fabrikaufseher von Erlinsbach, Erlinsbacher=\n  straße 1298.\nBolens-Rychner, Selma, Wittwe von Morges (Waadt), Graben 205.\nBolliger, Armin, Ferger, von Schloßrued, Hammer 190.\nBolliger-Frei, Johann, Taglöhner von Küttigen, Hammer 188.\nBolliger, Friedrich, Magaziner von Schloßrued, Hammer 190.\nBolliger-Häfeli, Gottfried, Schmied, von Uerkheim, Milchgasse 148.\nBolliger, Heinrich, Sekretär (Krankenanstalt) von Küttigen,, Gais 1196.\nBolliger, Hermann, Bahnangestellter von Schmiedrued, Hammer 190.\nBolliger-Huggenberger, Jakob, Oberwagenwärter von Buchs, obere Vor=\n  stadt 942.\nBolliger, Johann, Notar, Gais 1248.\nBolliger-Manger, Gustav, Kaufmann, Weißwaarengeschäft, hintere Vor=\n  stadt 646.\nBolliger, Melanie, Damenschneiderin, Ziegelrain 713.\nBolliger-Ment, Emil, Buchbinder von Schloßrued, Halden 251.\nBolliger-Schädelin, Julia, Part. v. Schloßrued, vor dem Haldenthor 804.\nBolliger-Schenker, Samuel, Bedienter, von Schloßrued, Laurenzen=\n  vorstadt 362.\nBolliger-Thut, Rudolf, Pächter von Egliswyl (Sommerwirthschaft)\n  Roggenhausen 851.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9564,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2439,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:56:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p101",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p101.jpeg",
+      "bytes": 247623,
+      "sha256": "803280cfae7883b638924573f235ea2e5a794e51e68bf748475ffa13ebf27741",
+      "sha256_of": "original",
+      "working_copy": "1892_p101.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:56:06+00:00"
+  }
+}

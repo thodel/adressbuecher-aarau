@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p136",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p136.jpeg",
+    "bytes": 284036,
+    "sha256": "32e9adae05888fd4212fcc5dd1b6d5ba38b2a3aa3d3539c8ad6e8faa254499e5",
+    "sha256_of": "original",
+    "working_copy": "1888_p136.jpeg"
+  },
+  "text": "118\nUmiker — Wägeler.\n\nUmiker-Steiner, Samuel, Pferdewärter von Thalheim, Halden 248.\nUmiker-Wernli, Elisabeth, Part. von Thalheim, obere Vorstadt 928.\n*Urech-Sunhof, Friedrich, Pfarrhelfer, Graben 218.\nUrban-Nußbaum, Schreiner von Signitz (Schlesien), Ziegelrain 707.\nUrspung-Meier, Genovefa, Weinhändler's Wittwe von Nußbaum, Ziegelrain 751.\nUrspung, Louise, Damenschneiderin von Nußbaum, Ziegelrain 751.\nUster-Thut, Verena, Part. von Feuerthalen (Zürich), Schachen 736.\n\nVidiella, Manuel, Weinhändler von Sitges (Spanien), Zollrain 89.\nVogel-Dubs, Gottfried, Polizeiwachtmeister v. Kölliken, Kronengasse 40.\nVogel, Elise, Glätterin von Kölliken, Kronengasse 40.\nVogel-Ernst, Johann, Taglöhner von Thalheim (Preußen), Scheibenschachen 313.\nVogel-Thomas, Johann, Säger von Flühlie (Uzern), Halden 268.\nVogel-Wägmer, Rudolf, Kaminfeger und Dachdecker, von Kölliken, Entfelderstraße 1147.\n*Vogt, Adolf, Zahnarzt von Bürglen (Thurgau), hint. Vorstadt 622.\nVogt-Keller, Marie, Hebamme von Billigen, Schachen 734.\nVogt-Kohler, Johann, Schuhmachermeister v. Remigen, ob. Vorstadt 911.\nVogt-Ayburz, Anna Maria, Wittwe, Vorgängerin von Mandach, vor dem Haldenthor 1109.\n*Vogt-Siegrist, Samuel, Wirth von Schinznach, Graben 222.\nVollkemer-Muskmann, Barbara von Pirmafens (Baiern), Bahnhofstr. 541.\nVollmann-Gisert, J. Georg, Steindrucker von Düdelshheim (Hessen), Pelzgasse 132.\nBonarz, Carolina, Wirthin von Olten, Zollrain 52.\nBonarz, Hedwig, Fabrikarbeiterin b. Stühlingen (Solothurn), Halden 250.\nVon Brockdorff, Emilie, Contesse von Kiel (Holfstein), Gartenstr. 1103.\nVonfelten-Willimann, Franz Josef, Webermeister, Kronengasse 37.\nVonfelten-Willimann, Verena, Corfettschneiderin, id. id.\nVon Roten, Albert, Assistenzarzt v. Sitten (Wallis), Kantonspsital 1186.\n*Bonwiller, Emilie, Klavierlehrerin von St. Gallen, Rathausgasse 42.\n*Buillermot-Leblanc, Charles Jean L., Kaufmann von Verrieres (Waadt), Zschokkestrasse 977.\n\nWächter-Haßler, Hans, Kurwirth zum „Alpenzeiger“ von Remigen, Gisshügel 317.\nWächter-Lindenmann, Heinrich, Knecht von Münthal, Milchgasse 145.\nWässler-Stäuble, Heinrich, Turnlehrer von Basel, Pelzgasse 128.\nWägeler-Vogel, Karl, Dachdecker von Waldshut (Großh. Baden), vor dem Haldenthor 1092.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4861,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2212,
+    "lines": 34,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 64.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:28:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p136",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p136.jpeg",
+      "bytes": 284036,
+      "sha256": "32e9adae05888fd4212fcc5dd1b6d5ba38b2a3aa3d3539c8ad6e8faa254499e5",
+      "sha256_of": "original",
+      "working_copy": "1888_p136.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:32+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p079.jpeg",
+    "bytes": 279241,
+    "sha256": "5a7fb56d2f7a11a6d7f6ae2a030b4f13ffcd3eee5d348ea06a3ceaae9c65d075",
+    "sha256_of": "original",
+    "working_copy": "1888_p079.jpeg"
+  },
+  "text": "Haus-\nNr.\n1092. Wägeler=Vogel, Karl, Dachdecker. (Vor dem Haldenthor.)\n1093. Derfelbe. Hintergebäude, Werkstätte u. Wohnhaus. id. id.\n1094.+ Berchtold=Lüscher, Fuhrmann. Scheune. id. id.\n1095.+ Schützengesellschaft Narau. Schützenhaus (Scheibenschachen).\n1096.+ Diefelbe. Scheibenstand (Scheibenschachen).\n1097.+ Schmid=Hagnauer. Nebhäusern (Weinberg)\n1098.* Bircher=Schazmann, Med. Dr. (Bachstraße.)\n1099.+ Derfelbe. Scheune id.\n1100. Merz=Märt, Notar. id.\n1101. Bäbler, J. J., Professior. id.\n1102. Siebenmann-Bräm, Otto, KreisKommandant. (Weinberg.)\n1103. Perusset-Laurent, A., Bezirkslehrer. (Gartenstraße.)\n1104.+ Gemeinde Narau. Schuppen (jenseits der Aare).\n1105.+ Kurz, H., Architekt. Werkstätte und Bureau (in der Gais).\n1106.+ Derfelbe. Barake (in der Gais).\n1107. Stänz=Stuter, Wittwe. (Bachstraße.)\n1108.+ Wehrli=Walser, Rosina. Gewächshaus (vor dem Haldenthor).\n1109. Egloff, G., Gärtner. (Vor dem Haldenthor.)\n1110.+ Siebenmann, Jakob, Schneider. Gartenhaus (vor d. Haldenthor).\n1111.+ Landolt=Thommen, Karl. Magazin (obere Vorstadt).\n1112. Stephani-Wettler, Albertine. (Bachstraße.)\n1113. Adam=Stephani, Paul. id.\n1114.* Wernli=Adel, Jak., Gärtner. (Laurenzenvorstadt, Philosophenweg.)\n1115. Abgetragen.\n1116.+ Schweiz. Nordostbahn. Wärterhäuschen (Bahnhof).\n1117. Richner=Renzi, Wittwe. (Obere Vorstadt.)\n1118. Good, Theodor, Kürschner. (Laurenzenthorstraße.)\n1119. Abgetragen.\n1120.+ Staat Nargau. Kaserne (Zeughausstraße).\n1121.+ Derfelbe. Stallungen. id.\n1122.+ Perusset-Laurent, Bezirkslehrer. Waschhaus (Gartenstraße).\n1123.+ Gemeinde Narau. Materialschuppen (Friedhof).\n1124. Zulauf=Siebenmann. Weinhändler. (Bachstraße.)\n1125.+ Schäfer=Troller, Architekt. Werkstätte (in der Gais).\n1126.+ Derfelbe. Gartenhaus (in der Gais).\n1127.+ Adam=Stephani, Paul. Scheune (Bachstraße).\n1128.+ Dboussier, Friedrich, Fabrikant. Waschhaus (Grabenstraße).\n1129. Schöder, Wilhelm, Gerichtspräsident. (Gartenstraße.)\n1130. Dürr=Hermann, Maler. (Kasinostraße.)\n1131. Kurz, Heinrich, Baumeister. (In der Gais.)\n1132.+ Zschokke & Cie. Schuppen (Rohrerstraße).\n1133.+ Juchof=Ernst, Fabrikant. Fabrikationsgebäude (Telli).\n1134.+ Schindler=Trümpy, Emma. Holzremise (Entfelderstraße).\n1135.+ Zulauf=Siebenmann, Weinhändler. Weinmagazin (Bachstraße).\n1136.+ Kanalbauconfortium. Schirmhäuschen am Kanal (Erlinsbacher-\nstraße).\n1137. Wolfinger, Max, Professior. (Bachstraße.)\n1138.* Schmid=Jenny, Oberst, in Glarus. (Bachstraße.)\n1139.+ Schäfer=Troller, Ad., Architekt. Magazin (in der Gais).\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5558,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2500,
+    "lines": 52,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p079.jpeg",
+      "bytes": 279241,
+      "sha256": "5a7fb56d2f7a11a6d7f6ae2a030b4f13ffcd3eee5d348ea06a3ceaae9c65d075",
+      "sha256_of": "original",
+      "working_copy": "1888_p079.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:23+00:00"
+  }
+}

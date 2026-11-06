@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p124",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p124.jpeg",
+    "bytes": 269032,
+    "sha256": "874395b749486134d0f25f4f8b050a57ee2e9791be1c9a678e6af4a6da25a352",
+    "sha256_of": "original",
+    "working_copy": "1888_p124.jpeg"
+  },
+  "text": "106\nPfister — Reimann.\nPfister-Furrer, Albert, Schneider von Dübendorf (Zürich), vor dem Halden-\nthor 1084.\n*Pfisterer-Marti, Josephtine, Wittwe, vordere Vorstadt 666.\n*Pfisterer-Tschudi, Emil, Kürschnerei, id. id. id.\n*Pfisterer, Robert, Bierbrauer, vordere Vorstadt 672.\nPhilipp-von Arz, Johann, Milchverkäufer von Kienberg (Solothurn),\nBahnhofstraße 1025.\nPfleger, Louise, Part., Milchgasse 157.\nPfleger, Justine, Part., id. id.\nPfleger, Emma, Part., Halden 261.\nPlüss-Haller, Maria, Wittwe, Bettmacherin von Niedermwy, Golattenmatt-\ngasse 232.\nPlüss-Ledermaun, Bernhard, Knecht von Ryfen, Stadthof 93.\nPlüss-Lehner, Elise, Spetterin von Bordemwald, Milchgasse 153.\nPlüss, Elise, Telephonistin von Bordemwald, id. id.\nPlüss-Plüss, Anna Barbara, Lehrers Wittwe von Ryfen, Pelzgasse 122.\nPlüss-Plüss, Maria, Wittwe, Part., hintere Vorstadt 688.\n*Plüss, Louise, Lehrerin, id. id. id.\nPlüss, Anna, Damen Schneiderin, hintere Vorstadt 688.\nPlüss, Rosina, Weißnäherin von Ryfen, hintere Vorstadt 699.\nPlüss-Stephani, Mary, Buchhalterin, hintere Vorstadt 1236.\nPlüss, Verena, Part. von Bordemwald, Halden 264.\nPlüss-Zimmerli, Jakob, Färber von Brittnau, Kronengasse 40.\nPlüss-Zimmerli, Marie, Gebamme von Brittnau, id. id.\nPrantl-Wildi, Alois, Maurer von Strengen (Tyrol), Ziegelrain 704.\n*Prior-Dettmer, Helena, Part. von Dissen (Hannover), Gartenstraße 1103.\nProbst-Benfert, Maria, Part. von Aarburg, Rathausgasse 20.\n\nRämisperger-Berner, Marie, Gürtlers Wittwe, Golattenmattgasse 231 b.\nRämisperger-Hemmeler, Gottfried, Spengler, Halden 275.\nRämisperger-Hunkeler, Hermann, Spengler, Milchgasse 148.\nRämisperger-Studler, Gottlieb, Spengler, Rain 881.\nRampfauer-Hächler, Anna, Wittwe, Part. von Herisau (Appenzell),\nPelzgasse 69.\n*Randegger-Wirth, Conrad, Wirth zur bayrischen Bierhalle, von Öffingen\n(Zürich), obere Vorstadt 926.\nRathe, Karl Johann, Commis von Chur (Graubünden), Schachen 731.\nRauch-Baldeschwylcr, Bertha, Wittwe von Mühlhausen (Elfa), Laurencn-\nvorstadt 403.\n*Rauchenstein-Pfleger, Friedrich, Professur von Brugg, Halden 261.\nRebmann-Häfllger, Karl Jakob, Maler von Fellbach (Württemberg),\nZiegelrain 721.\n*Reimann-Reichli, Gustav, Kriminalgerichtsschreiber von Wölflinswy,\nWeinberg 321.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4711,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2203,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p124",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p124.jpeg",
+      "bytes": 269032,
+      "sha256": "874395b749486134d0f25f4f8b050a57ee2e9791be1c9a678e6af4a6da25a352",
+      "sha256_of": "original",
+      "working_copy": "1888_p124.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:30+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p081",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p081.jpeg",
+    "bytes": 276344,
+    "sha256": "3ca094ddff3c2a5a0ab0e691c8ec33051ce27f9661e1b5192e91bc7768a0dcaa",
+    "sha256_of": "original",
+    "working_copy": "1888_p081.jpeg"
+  },
+  "text": "Haus-\nNr.\n1195. Riniker=Wernli, Hermann. (Entfelderstraße.)\n1196.† Zulauf=Siebenmann, Weinhändler. Remise. (Bachstraße.)\n1197. Pfarrhaus zur röm.-kath. Kirche. (Igelweid.)\n1198.† Schöffe=Sauerländer, Guido. Bienenhaus (Schöffestraße).\n1199. Ernst=Pfisterer, Wittwe. Schopf (Gartenstraße).\n1200.* Schöffe, Conradin, Ingenieur. (Entfelderstraße.)\n1201.† Frey=Rumpf, Fried. Waschhaus (vor dem Halbenthor).\n1202.† Schöffe, Conradin, Ingenieur. Dekonomiegebäude (Entfelderstraße).\n1203.† Riniker, Herm., Rüter. Holzmagazin (Entfelderstraße).\n1204.† Wächter, Johann, Wirth. Holzhaus und Stallung (Alpenzeiger).\n1205.† Schöffe, Conradin, Ingenieur. Holz- und Hühnerhaus (Entfelder-\nstraße).\n1206.† Wächter, Johann, Wirth. Trinthal (Alpenzeiger).\n1207.† Schmidt, Adolf, Sattler. Werkstätte (Bachstraße).\n1208.† Diakonissenstation Aarau. Wasch- und Glättehaus (Bahnhof-\nstraße).\n1209.† Fischer, Thomas, Bierbrauer. Eisteller (Rohrerstraße).\n1210.* Schäfer, Adolf, Architekt. (Lindenhof, Gais.)\n1211.† Zurlinden & Cie. Brennöfenhaus (Scheibenschachen).\n1212.† Diefelben. Cementmagazin. id.\n1213.† Diefelben. Materialschuppen. id.\n1214.† Holzach=Siebenmann, Dietrich, Bierbrauer. Eishaus (Bahnhof-\nstraße).\n1215.† Derselbe. Wasch- und Holzhaus (Bahnhofstraße).\n1216.† Ernst=Pfisterer, Wittwe. Eisteller (Gartenstraße).\n1217.* Schäfer, Adolf, Architekt. (Lindenhof, Gais.)\n1218.† Siegrist, Heinrich, Metzger. Stallung (vor dem Halbenthor).\n1219.† Kull, Philipp, Spengler. Magazin id.\n1220.† Kern-Sayer, Adolf. Bienenhaus id.\n1221.† Zurlinden-Richner, Rud., Fabrifant. Holzremise (Bahnhofstraße).\n1222.† Bogel, Rudolf, Dachdecker. Schopf (Entfelderstraße).\n1223. Abgetragen.\n1224.† Hediger, Hermann, Gärtner. Gemächshaus (Friedhof).\n1225.† Wägmer=Kummler, Emil. Holzhaus (Main).\n1226.† Derselbe. Gartenhaus (Main).\n1227.† Andres, Jakob, Schreiner. Schopf (jenseits der Aare).\n1228.† Andres, Gottlieb, Fondverwalter. Schopf id.\n1229.† Erismann, Friedrich, Güterexpedient. Stallung (in der Gais).\n1230.† Zurlinden & Cie. Schopf (Scheibenschachen).\n1231. Riniker, Friedrich, Bierbrauer. Wohnhaus und Eisteller (Laurenzen-\nthorgasse).\n1232. Lüscher=Greminger, Daniel, Schlosser. (Igelweid.)\n1233.† Landolt=Thommen, Karl, Fabrifant. Magazine (obere Vorstadt).\n1234.† Siebenmann, Rud., Part. Holzhaus (Baukstraße).\n1235.† Landolt, Alexander, Vater. Wagenremise (hintere Vorstadt).\n1236.* Hirshy, Rudolf, Uhrenmacher. Wohnhaus id.\n1237. Dürv, Gabriel, Gemüsehändler. Wohnhaus (am Graben).\n1238.† Fleiner, Alberts Erbschaft. Thurm mit Transmission (jenseits der\nAare).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5583,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2547,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0392,
+    "mean_line_chars": 48.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p081",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p081.jpeg",
+      "bytes": 276344,
+      "sha256": "3ca094ddff3c2a5a0ab0e691c8ec33051ce27f9661e1b5192e91bc7768a0dcaa",
+      "sha256_of": "original",
+      "working_copy": "1888_p081.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:34+00:00"
+  }
+}

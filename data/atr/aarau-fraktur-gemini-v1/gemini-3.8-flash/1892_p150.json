@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p150",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p150.jpeg",
+    "bytes": 256663,
+    "sha256": "2276fa3ca4d6ee646e87a53e894f5acd87da5898acc6060d4589e0c6a2b0e539",
+    "sha256_of": "original",
+    "working_copy": "1892_p150.jpeg"
+  },
+  "text": "134 — Wildi — Witzinger.\n\nWildi, Adolf, Part. von Veltheim, obere Vorstadt 937.\nWildi, Anna, Damenschneiderin von Schafisheim, Halden 264.\nWildi-Aeschbach, Emil, Schreiner von Suhr, hinter dem Platz 210.\nWildi, Fanny, Salzverkauf, hintere Vorstadt 699.\nWildi-Gantner, Jakob, Mechaniker, von Suhr, Casinostraße 660.\nWildi-Hegnauer, Friedrich, Postbeamter von Reinach, obere Vorstadt 925.\nWildi-Hilsiker, Gottfried, Heizer von Schafisheim, Golattenmattgasse 235.\nWildi, Karl, Part., obere Vorstadt 940.\nWildi-Läßser, Samuel, Schreiner von Schafisheim, Sarglager, Ziegelr. 713.\nWildi-Leuthard, Verena, Schneiders Wittwe von Veltheim, Bahnhof-\n  straße 1022 b.\nWildi-Matt, Jakob, Tapezierer von Schafisheim, Halden 264.\nWildi-Wespi, Adele, Wittwe von Veltheim, obere Vorstadt 930.\nWilhelm-Kaspar, Gottlieb, Färber von Safenwyl, Halden 284.\nWilli-Blattner, August, Metzger von Lostorf (Solothurn), Speisewirthschaft,\n  Pelzgasse 127.\nWillimann-Lehmann, Anton, Lohnkutscher, Schmiedgasse 619.\nWillimann-Wehrli, Marie, Wittwe von Oberhof, Kronengasse 37.\nWindisch-Kohler, Samuel, von Densbüren. Generalagentur der schwei-\n  zerischen Rentenanstalt in Zürich, Laurenzenvorstadt 410.\n[handschriftlich: ✕]Winteler-Eckart, Jost, Dr. Professor von Kerenzen (Glarus), Laurenzen-\n  vorstadt 548.\nWipf, Jakob, Schneider, von Egliswyl, Pelzgasse 122.\nWipf-Wernli, Margaretha, Vorgängerin v. Egliswyl, Pelzgasse 122.\n[handschriftlich: ✕]Wirth-Herzog, Jakob, Generalagentur für Auswanderung, Zollrain 89.\n[handschriftlich: ✕]Wirz-Christen, Karoline, Wittwe, von Solothurn, Schreibmaterialien-\n  handlung, Oberthor 138.\nWirz, Elisabeth, von Schmiedrued, Bahnhofstraße 1019.\nWirz-Huber, Franz, Wagenvisiteur von Starrkirch (Solothurn), Scheiben-\n  schachen 315.\n[handschriftlich: ✕]Wirz-Martin, Emil, von Solothurn, Wohnung Gartenstr. 998, Verlags-\n  buchhandlung Oberthor 139 und Buchdruckerei Oberthor 225.\nWirz-Widmer, Adolf, Postkondukteur von Menziken, Laurenzenvorst. 361.\nWittmer, Elise, von Erlinsbach (Soloth.), Spezereihandlung, Rain 823.\nWittmer, Emma, Klavierlehrerin, Casinostraße 573.\nWittmer, Julius, Lithographiebesitzer v. Erlinsbach (Soloth.), Rain 823.\nWittmer-Schuhmacher, Elise, Lithographs Wittwe von Erlinsbach (Solo-\n  thurn), Rain 823.\nWittmer-Hoffmann, Salome, Fabrikarbeiterin von Erlinsbach (Soloth.),\n  hintere Vorstadt 643.\nWittmer, Marie, Taglöhnerin von Erlinsbach (Soloth.), Halden 279.\n[handschriftlich: ✕]Wittmer-Reimann, Joseph, Musiklehrer, Casinostraße 573.\nWittwer-Bolliger, Fried., Taglöhner v. Schangnau (Bern), Adelbändli 82.\nWittwer, Emma, Weißnäherin von Schangnau (Bern), Adelbändli 82.\nWitzinger-Lenthe, Moritz, Dr. med. von Unterhallau (Schaffhausen),\n  Bahnhofstraße 1317.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9084,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2700,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 56.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:02:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p150",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p150.jpeg",
+      "bytes": 256663,
+      "sha256": "2276fa3ca4d6ee646e87a53e894f5acd87da5898acc6060d4589e0c6a2b0e539",
+      "sha256_of": "original",
+      "working_copy": "1892_p150.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:02:55+00:00"
+  }
+}

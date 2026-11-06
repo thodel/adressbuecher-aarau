@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p131",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p131.jpeg",
+    "bytes": 241707,
+    "sha256": "02b84dece1d2488fb757fc35fd250baf35b6dd588e8a5944c08bf65a2a7113b3",
+    "sha256_of": "original",
+    "working_copy": "1892_p131.jpeg"
+  },
+  "text": "Nadler — Osterwalder. 115\n\nNadler-Häuptli, Anna, Gepäckträgers Wittwe von Biberstein, Consumhalle\n  Bahnhofstraße 1026.\nNeeser-Hilfiker Samuel, Taglöhner von Schloßrued, vor dem Halden-\n  thor 1084.\nNeuburger-Imhof, Albert, Apotheker, Part., Laurenzenvorstadt 353.\nNiederhauser-Gisin, Theodor, Buchbinder von Baselaugst (Baselland),\n  hinter dem Bahnhof 502.\nNiederhauser-Schenk, Marie, Taglöhnerin von Eriswyl (Bern), Lau-\n  renzenvorstadt 376.\nNiggli-Bohnenblust, Arnold, Fürsprech, Stadtschreiber, obere Vorstadt 948.\nNiggli, Elise, Weißnäherin von Aarburg, Kirchhof 80.\nNiggli, Friedrich, gewes. Lehrer, Part., von Aarburg, Graben 221.\nNünlist-Müller, Katharina, Taglöhnerin von Niedererlinsbach (Solothurn),\n  Halden 287.\nNüsperli, Emma, Weißgerbers, Part., Pelzgasse 124.\nNüsperli, Friedrich, Postcommis, Zollrain 53.\nNüsperli, Maria Anna, Schneiders, Part., Kirchgasse 12.\nNüsperli-Nußbaum, Friedrich, Sattler, Zollrain 53.\nNüsperli, Karl, Postcommis, id. id.\nNüsperli-Richner, Julie, Part., Pelzgasse 124.\nNüsperli-Wiz, Ida, Wittwe, Schloßplatz 195.\nNußbaum, Anna Johanna, Spetterin von Birrwyl, Rain 881.\nNußbaum-Finkbohner, Trinette, Wittwe von Densbüren, Ziegelrain 751.\nNußbaum, Hanna, Kleinkinderlehrerin von Densbüren, Ziegelrain 751.\nNußberger, Samuel, Fabrikarbeiter von Seengen, Hammer 190.\n\nOboussier-Schäfer, Friedrich, Fabrikant, Graben 613.\nObrist-Diener, Theodor, Postangestellter von Magden, Telli 448.\nOchsner, Marie, Part. von Uster (Zürich), Entfelderstraße 983.\nOdinga-Brändli, Theodor, Dr. phil.. Bezirksschullehrer, Rektor der\n  Mädchenschulen, von Uster (Zürich), Gönhardfeldweg 1150.\nOehler-Frey, Bertha, Fabrikants Wittwe, Laurenzenvorstadt 415.\nOehler-Theiler, Oskar, Ingenieur, Laurenzenvorstadt 415.\nOelhafen, Arnold, Sohn, Metzger, hintere Vorstadt 698.\nOelhafen-Bührer, Hermann, Bankangestellter, Laurenzenvorstadt 544.\nOelhafen-Hagnauer, Johanna, Part., Pelzgasse 134.\nOelhafen-Müller, Elisabeth Louise, Malers Wittwe, Halden 256.\nOelhafen-Rufli, Rudolf, Metzger, hintere Vorstadt 698.\nOeschger-von Felten, Anna Marie, Wittwe von Wyl, Weinberg 322.\nOeschger, Klara, Glätterin von Wyl, Milchgasse 152.\nOschwald, Walther, Kriminalgerichtsschreiber von Lenzburg, Rain 828.\nOsterwalder-Bonary, Rudolf, Zuschneider, von Stettfört (Thurgau),\n  Ziegelrain 722.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7044,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2291,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.93,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:00:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p131",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p131.jpeg",
+      "bytes": 241707,
+      "sha256": "02b84dece1d2488fb757fc35fd250baf35b6dd588e8a5944c08bf65a2a7113b3",
+      "sha256_of": "original",
+      "working_copy": "1892_p131.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:00:15+00:00"
+  }
+}

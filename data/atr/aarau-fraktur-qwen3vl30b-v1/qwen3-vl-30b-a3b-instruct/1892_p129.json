@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p129",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p129.jpeg",
+    "bytes": 243564,
+    "sha256": "21e1363d2a22b06f875223857ffb27ea1454872f4264d470269c5d44ca4c9c1e",
+    "sha256_of": "original",
+    "working_copy": "1892_p129.jpeg"
+  },
+  "text": "Merz — Müller.\n113\nMerz-Umiker, Jakob, Taglöhner von Beinwil, Adelbändli 174.\nMüchel, Katharina, Spetterin von Olten, hintere Vorstadt 689.\nMüller-Reinle, Ernst August, Büchsenmacher von Zella (Sachsen), Scheibenschachen 316.\nMüsch, Emil, Commis von Frid, Rathausgasse 3.\nMüsch-Gasler, Martin, Registrator von Frid, Bachstraße 1155.\nMüsch-Müsch, Karl, Güterexpedient von Frid, Kronengasse 37.\nMoog-Ganz, Elise, Schuhhändlerin von Pirmasens (Bayern), Schmiedgasse 625.\n*Morath-Dilger, Johann, Kaufmann, Rathausgasse 2.\nMorath, Johann, Sohn, Kaufmann,\nMorgenthaler, David, Dienstmann von Stengelbach, Golattenmattgasse 237 c.\nMorgenthaler, Elisabeth, Spetterin von Madiswil (Bern), Hammer 188.\nMoser-Schneeberger, Johann, Handlanger von Juktwyl (Bern), Laurenzenvorstadt 376.\n* Mühlberg-Amstler, Theodor, Postkontrolleur von Muri, Feerstraße 1307.\n* Mühlberg-Untermeister, Frid, Dr. Professor, Rain 878.\nMüller, Albert, Gärtner (Kouradin Zischoffe) von Flawyl (St. Gallen), obere Vorstadt 940.\nMüller, Albertine, Damenschneiderin von Möttingen (Württemberg) Halden 285.\nMüller-Amstler, Johann Jakob, Schuster von Unterfulm, Scheibenschachen 312.\nMüller-Bolliger, Johann, Postcommis von Uznach (St. Gallen), Gais 1217.\nMüller-EggenSchweiler, Johann, Postcommis von Muri, Rain 843.\nMüller, Elise, Glärtterin, obere Vorstadt 921.\nMüller-Frei, Samuel, Maschinenpuzger von Unterfulm, obere Vorstadt 947.\n* Müller-Camper, Samuel, Part., Holzmarkt 1260.\n* Müller-Haberlich, Friedrich August, Kaufmann, Laurenzenvorstadt 367.\n* Müller-Hürner, Eduard, Schirmmacher, Rathausgasse 30.\nMüller-Hunn, Verena, Part. von Unterfulm, Bachstraße 1038.\nMüller-Hurni, Marie, Wittwe, Part. von Unterfulm, obere Vorstadt 935.\nMüller, Jakob, Bahnarbeiter, von Gränichen, Laurenzenvorstadt 376.\nMüller, Konrad, Part. von Schwanden (Bern), Bahnhofstraße 653.\nMüller-Kramer, Joß, Schneidermeister, Schmiedgasse 636.\nMüller-Lang, Margaritha von Niederwyl, Hammer 188.\nMüller-Lüthi, Friedrich, Taglöhner von Niederwyl, Hammer 188.\nMüller, Maria, Zimmermanns, Part. von Oberbözberg, Pelzgasse 132.\nMüller, Maria, Taglöhnerin von Unterfulm, vor dem Haldenthor 802.\nMüller, Maria Anna, von Hirschthal, Bahnhofstraße 1019.\nMüller-Märki, Jakob, Cementmüller von Schöftland, Scheibenschachen 1339.\nMüller-Müller, Hans Jakob, Taglöhner von Gränichen, Laurenzenvorstadt 376.\nMüller-Müller, Verena, Wittwe, Part. von Unterfulm, Milchgasse 143.\nAdressbuch der Stadt Aarau 1892.\n8\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6595,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2449,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:44:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p129",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p129.jpeg",
+      "bytes": 243564,
+      "sha256": "21e1363d2a22b06f875223857ffb27ea1454872f4264d470269c5d44ca4c9c1e",
+      "sha256_of": "original",
+      "working_copy": "1892_p129.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:32+00:00"
+  }
+}

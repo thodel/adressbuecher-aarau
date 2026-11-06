@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p019",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p019.jpeg",
+    "bytes": 261678,
+    "sha256": "a5038369abad9e12ccd8e9ca2fd073887187a0cfcd01e63f0fd0ee4189963e46",
+    "sha256_of": "original",
+    "working_copy": "1888_p019.jpeg"
+  },
+  "text": "— 9 —\n\nHaus-\nNr.\n    Fröhlich geb. Fröhlich, Sophie, Oberrichters Wittwe, von Brugg.\n    Künzlen-Kranich, Fried., Buchhalter, von Sulzbach (Württemberg).\n    Strebel, Martina, Spetterin, von Mägenwyl.\n    Strebel, Verena, Spetterin, von Mägenwyl.\n    Strebel, Waldburga, Näherin, von Mägenwyl.\n    Feuvrier geb. Hunziker, Elise, Wittwe, Chagemond (Frankreich).\n89. Wirth-Herzog, Jakob, Auswanderungs-Agent. General-Agentur für\n        Auswanderungs-, Lebens- und Unfallversicherung.\n    Herzog-Tschanz, Gottlieb, Kaufmann, von Rekingen. Colonialwaaren-\n        handlung.\n    Fehlmann-Winz, Joh. Friedrich, Güterexpedient, von Unterbözberg.\n    Winz, Johann, Part., von Stein (Schaffhausen).\n    Vidiella, Manuel, von Sitges (Spanien), Weinhandlung.\n90. † Gemeinde Aarau. Schlachthaus.\n91. Waßmer-Voß, Joseph, von Mellingen. Bett- und Möbelwaaren-\n        handlung.\n    Niggli, Elise, Weißnäherin, von Aarburg.\n\nStadthof.\n\n92. a. Dambach-Bossard, Jakob, Schuster, von Oberbözberg.\n    Kyburz-Wüthrich, Samuel, Taglöhner, von Unterkulm.\n    Zubler geb. Stirnemann, Elisabeth, Wittwe, Spetterin, von Hunzenschwyl.\n    Walti-Hächler, Samuel, Taglöhner, von Dürrenäsch.\n92. b. Bertschi geb. Vogt, Elisabeth, Schreiners Wittwe, von Sumiswald\n        (Bern).\n    Bertschi-Waßmer, Jakob, Postpacker, von Sumiswald (Bern).\n    Berner-Martin, Jakob, Schreinermeister. Werkstätte.\n92. c. Rothpletz-Siebenmann, Maria Elisabeth, Schreiners, Wittwe.\n    Wittmer, Marie, Taglöherin, von Erlinsbach (Solothurn).\n92. d. Schmid-Peter, Hans, Postfakteur.\n    Schmid, Ida, Damenschneiderin.\n    Schmid, Elise, Schneiders, Fabrikarbeiterin.\n92. e. * Rothpletz-Siebenmann, Maria Elisabeth, Schreiners, Wittwe.\n    Schori-Suter, Friedrich, Mechaniker, von Seedorf (Bern).\n    Dätwyler, Wilhelm, Taglöhner, von Wittwyl.\n92. f. † Waßmer-Voß, Jakob, Magazin.\n93. * Rothpletz-Siebenmann, Maria Elisabeth, Schreiners, Wittwe.\n    Berner-Martin, Jakob, Schreinermeister, von Rupperswyl.\n    Plüß-Ledermann, Bernhard, Knecht, von Ryken.\n94. Bossard, Geschwister, von Effingen.\n    Schmid-Bossard, Anna, Näherin.\n    Bossard, Maria, Wagenputzerin, von Effingen.\n    Walti-Zimmermann, Rudolf, Taglöhner, von Dürrenäsch.\n95. Meili-Sulzer, Jakob, von Elgg. Handelsmüllerei.\n96. † Derselbe. Transmission.\n97. Abgetragen. Ryniker, Fr., Bierbrauer.\n98. † Abgetragen an dessen Platz\n    Meili-Sulzer, Jakob, Müller, von Elgg. Stallung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6845,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2397,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.02,
+    "mean_line_chars": 44.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:24:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p019",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p019.jpeg",
+      "bytes": 261678,
+      "sha256": "a5038369abad9e12ccd8e9ca2fd073887187a0cfcd01e63f0fd0ee4189963e46",
+      "sha256_of": "original",
+      "working_copy": "1888_p019.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:50+00:00"
+  }
+}

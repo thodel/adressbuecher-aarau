@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p025",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p025.jpeg",
+    "bytes": 245280,
+    "sha256": "a4949676b8e1252730d1169f1ec711c9b04765c09a06e7d0412f77cac053cab9",
+    "sha256_of": "original",
+    "working_copy": "1888_p025.jpeg"
+  },
+  "text": "— 15 —\n\nHaus-\nNr.\n  Kleinkinderschule. Fräulein Heß.\n160. Gemeinde Aarau.\n  Rothpletz-Haßler, Rudolf, Kuttler.\n  Schmuziger, Maria, Vorgängerin.\n  Schmuziger, Susette, Haushälterin.\n  Schmuziger, Verena, Fabrikarbeiterin.\n161. Dürr, Isaak, Schreiner.\n  Fehlmann-Buß, Johann, Gärtner, von Seon.\n  Widmer, Verena, Spetterin, von Gränichen.\n  Hemmeler, Rosina, Pflästerers, Näherin.\n  Meier geb. Ott, Agatha, Schreiners Wittwe, von Gebenstorf.\n\nKirchhof.\n\n162. Gränicher geb. Richner, Rosa, Wittwe, Part.\n  Gränicher-Wärtli, Joh. Jakob, Schneider, ref. Siegrist.\n163. Martin, F. G., Buchdrucker.\n  Graf geb. Martin, Sophie, Part., von Horgen (Zürich).\n164. Wanger-Häusermann, G., Buchbinder.\n  Kohlmann-Läuchli, Gabriel, von Daxlanden (Baden), Lithographie und\n    Steindruckerei.\n  Fritsch-Dürrer, Franz, Schneider, von Gaggenau (Baden).\n165. a. Hässig geb. Dätwyler, Elise, Wittwe.\n  Dätwyler, Maria, Privatin, von Oftringen.\n  Jungi-Blattner, Johann, Schuhmachermeister, von Guggisberg (Bern).\n    (Werkstätte).\n  Kähr, Maria, Näherin, von Rüderswyl.\n165. b. Lenzin, Sophie, Lehrerin.\n  Gißler-Landolt, Hermine, Haushälterin, von Unterlangenegg (Bern).\n166. Wärtli-Ernst, August, Buchbinder.\n  Zellweger-Fischer, Jakob, Büchsenmacher, von Teufen (Appenzell).\n  Pfister-Matter, Heinrich, Hafnergehilfe, von Egg (Zürich).\n167. a. Derselbe.\n167. b. Abgetragen.\n168. Gemeinde Aarau, Kirche.\n169. Dieselbe. Pfarrhaus.\n  Graf-Fäs, Ernst, von Winterthur, ref. Pfarrer.\n\nAdelbändli.\n\n170. Matter-Hagnauer, Jakob, Schneidermeister, von Kölliken, Kleider=\n    fabrikation.\n  Hagnauer-Kaspar, Joh. Ludwig, Briefträger.\n  Schmidt-Graf, Rudolf, Taglöhner.\n  Müller, Marie, Zimmermanns, Part., von Oberbözberg.\n171. Siebenmann, Ludw., Vater, Part.\n* Siebenmann-Frei, Ludwig, Sohn, Schuster.\n  Dürr-Siebenmann, Karolina, Registrators Wittwe.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7047,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1826,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:25:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p025",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p025.jpeg",
+      "bytes": 245280,
+      "sha256": "a4949676b8e1252730d1169f1ec711c9b04765c09a06e7d0412f77cac053cab9",
+      "sha256_of": "original",
+      "working_copy": "1888_p025.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:38+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p017",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p017.jpeg",
+    "bytes": 215822,
+    "sha256": "ef9f755b65c46844fa96b3d201c709905dd5fcb956f62782497811804832077a",
+    "sha256_of": "original",
+    "working_copy": "1892_p017.jpeg"
+  },
+  "text": "9\nHaus-\nNr.\n92. e. *Rothpleß-Siebenmann, Maria, Elisabeth, Schreiners Wittwe.\nFrey-Amsler, Bernhard Fried., Küfer, von Auenstein.\nGing-Hug, August, Schmied.\n92. f.†Gundel-Waßmer, Joh. Josob, Bierbrauer, von Langenaltheim.\nMagazin.\n93. *Rothpleß-Siebenmann, Maria, Elisabeth, Schreiners, Wittwe.\nBächli-Holliger, Gottlieb, Schuhmacher, von Buchs.\nMattenberger-Gehrig, Johann, Taglöhner, von Birc.\n94. Bozard, Geschwister, von Eßlingen.\nBozard, Maria, Wagenpuzgerin, von Eßlingen.\nWalti-Zimmermann, Rosa, Wittwe, Taglöhnerin, von Dürrenäsch.\n95. Meili-Sulzer, Emma, Wittwe, von Elgg, Handelsmülerei.\nKaufmann, Julius, Commis, von Luzern.\n96. †Dießelbe. Kunstmithe, Transmiiission.\n97. Abgetragen. (Rynifer, Fr., Bierbrauer.)\n1256 †Abgetragen an dessen Plaz\n†Meili-Sulzer, Emma, Wittwe, von Elgg. (Stallung.)\nLaurenzenthorgasse.\n1231 99. An dessen Plaz\n*Rynifer-Groß, Fried, Bierbrauer. Eißeller.\nFrey-Betterli, Achiles, Coiffeur, von Densbüren.\nWezgergasse.\n100. Hefti-Hunziker, Joh. Peter, Schneidermeister, von Schwanden\n(Glarus). Tuch- und Kleiderhandlung.\nSteger-Bolliger, Melchior, von Ettiswyl (Luzern). Bäckerei.\nBertschinger-Neßbach, Maria Elise, Wittwe, Part., von Lenzburg.\nRochholz-Schröder, Ernst Ludwig, Dr. Prof., von Ansbach (Bayern).\nRochholz, Mina, Musikslehrerin, von Ansbach (Bayern).\nHunziker-Suter, Maria, Wittwe, von Kirchleerau.\nWernli-Wulfschleger, Maria, Holzers Wittwe, von Thalheim.\n101. *Cantu-Hübscher, Joseph, Maurermeister, von Bico-Morcote (Tessin).\nMäder, Henriette, Modistin, von Köln.\nKieber-Thoma, Friedolin, Schneider, von Winterlingen (Württemberg).\n102. Rynifer-Groß, Friedrich, Bierbrauer.\nRynifer, Karl, Sohn, Bierbrauer.\nRynifer, Arnold, Sohn, Commis.\n103. *Derfelbe.\nRynifer-Bed, Nanette, Wittwe, Part.\nSchlatter, August, Part.\n104. †Derfelbe. Brauereigebäude.\n1066. †Derfelbe. Rühlschiff.\n105. Pauli, Suzette, Privatin, von Bünachern.\nScheurmann, Emilie, Privatin.\nHering-Leuenberg, Lisette, von Arisforf (Möbel- und Bettwaaren-\nhandlung).\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4268,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1992,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p017",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p017.jpeg",
+      "bytes": 215822,
+      "sha256": "ef9f755b65c46844fa96b3d201c709905dd5fcb956f62782497811804832077a",
+      "sha256_of": "original",
+      "working_copy": "1892_p017.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:49+00:00"
+  }
+}

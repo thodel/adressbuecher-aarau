@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p028",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p028.jpeg",
+    "bytes": 215261,
+    "sha256": "d2294483dba420bcfd603e1d25cada351da51305f5564605537b6485c7a2922c",
+    "sha256_of": "original",
+    "working_copy": "1892_p028.jpeg"
+  },
+  "text": "— 20 —\n\nHaus-\nNr.\n219.  Dolder-Saxer, Jakob Friedrich, Kaufmann, von Hauptweil (Thurgau).\n          Weißwaarengeschäft und Agenturen.\n220.* Zschokke-Sauerländer, Guido, Buchhändler. Firma: H. R. Sauer-\n          länders Sortimentsbuchhandlung.\n      Brack-Steininger, Gottlieb, Buchhalter, Effingen.\n221.  Hunziker-Thommen, H., Fabrikant.\n      Hunziker, Hermann, Sohn, Kaufmann.\n      Niggli, Friedrich, gew. Lehrer, Part., von Aarburg.\n      Lässer, Anna, Haushälterin, von Wiliberg.\n222.  Vogt-Siegrist, Samuel, von Schinznach. Restauration.\n      Fischer, August, Buchhandlungsgehilfe, von Castel (Preußen).\n      Bargezi, Oswald, Ingenieur, von Solothurn.\n\nOberthor.\n223. † Gemeinde Aarau. Spritzenhaus Nr. 4.\n224. * Dieselbe. Oberthurm.\n      Hässig-Lüscher, Joh. Konrad, Dienstmann, Antiquar und Gemüsehändler.\n      Schäfer-Morlock, Wilhelm, Dienstmann.\n225.  Wirz-Martin, Emil, von Solothurn. Buchdruckerei.\n226.  Siebenmann, Otto und Gustav, March. Tailleur.\n      Siebenmann-Hemmeler, Gustav, March. Tailleur.\n227.  Dieselben.\n      Siebenmann-Walther, Otto, March, Tailleur.\n228.a. Aktiengesellschaft des Aargauischen Tagblattes. (Vertreter\n          Stierli, Fürsprech.)\n      Stierli, Sophie, Damenschneiderin, von Aristau.\n      Stierli, Marie, Ladentochter,         „      „\n      Stierli, Elise, Part.,                „      „\n      Stierli, Cäcilie,    „                „      „\n      Keßler-Läuchli, Hans, Faktor, von Schiers (Graubünden).\n228.b. Buchdruckerei des Aargauischen Tagblattes.\n\nGollattenmattgasse.\n229.  Hemmeler, Ida, Privatlehrerin.\n      Rüeger-Gysling, Otto, Malermeister, von Wyl (Zürich). Büreau.\n230. * Brunner, Gottfried, Part.\n      Näf-Widmer, Urs Joseph, Taglöhner, von Wyßen (Solothurn).\n      Umiker, Samuel, Straßenwärter, von Thalheim.\n      Müller-Oeschger, Samuel, Obsthändler, von Fahrwangen.\n231. a. Spengler, Bertha, Part.\n      Baumann, Barbara, Part., von Stilli.\n      Keller, Maria, Part., von Veltheim.\n231. b. Rämisperger geb. Berner, Marie, Gürtlers Wittwe.\n      Hermann, Elisabeth, Spetterin, von Rohrbach.\n      Suter-Müller, Elise, Wittwe, Taglöhnerin, von Kölliken.\n232.  Plüß-Haller, Marie Anna, Bettmacherin, von Niederwyl.\n      Krähenbühl, Louise, Näherin, von Altishofen (Luzern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7548,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2249,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:47:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p028",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p028.jpeg",
+      "bytes": 215261,
+      "sha256": "d2294483dba420bcfd603e1d25cada351da51305f5564605537b6485c7a2922c",
+      "sha256_of": "original",
+      "working_copy": "1892_p028.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:56+00:00"
+  }
+}

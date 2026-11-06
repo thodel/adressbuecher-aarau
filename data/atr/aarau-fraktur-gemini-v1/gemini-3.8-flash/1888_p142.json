@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p142",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p142.jpeg",
+    "bytes": 276765,
+    "sha256": "445f7a53c7d247ddb51bc8fed9933929cd3a51ce41de482e7eafe8e781b3f3ac",
+    "sha256_of": "original",
+    "working_copy": "1888_p142.jpeg"
+  },
+  "text": "124 Zehnder — Zurlinden.\n\nZehnder-Kaufmann, Barbara, Wittwe, Gemüsehändlerin von Gränichen,\n  Färbergäßchen 124.\n*Zehnder-Siebenmann, Traugott, Part. von Birmenstorf, Laurenzen-\n  vorstadt 367.\nZellweger-Fischer, Jakob, Büchsenmacher von Teufen (Appenzell), Kirch-\n  hof 166.\nZellweger, Oskar, Part. von Hauptweil (Thurgau), Hammer 190.\nZiegler-Linsi, Lina, Wittwe, Part. von Winterthur (Zürich), vor dem\n  Haldenthor 767.\nZiegler-Erismann, Samuel, Camioneur von Veltheim, Rain 884.\nZiegler-Hänki, Karl, Condukteur von Ittlingen (Baden), Rain 822.\nZimmerli, Joh. Jakob, gew. Portier von Niederwyl, vordere Vorstadt 900.\nZimmerli, Johann, Holzer von Unterentfelden, Golattenmattgasse 237 a.\nZimmerli, Karl, Techniker, vordere Vorstadt 893.\nZimmerli-Nußbaum, Karoline, Obersts Wittwe, Part., vordere Vorst. 893.\nZimmerli-Stenz, Eduard, Cementarbeiter v. Oftringen, Laurenvorstadt 376.\nZimmerli-Suter, Louise, Part. von Aarburg, Rain 848.\n*Zimmermann-Hartmann, Johann, Lehrer von Kempfhof, Erlinsbacher-\n  straße 333.\nZimmermann-Siebenmann, August, Part., Bachstraße 1107.\nZimmermann-Wernli, Johann, gewesener Bahnwärter von Rupperswyl,\n  Halden 257.\n*Zschokke-Bodmer, Hermann, Versicherungsagent, Büreau Entfelder-\n  straße 1200 und Wohnung Entfelderstraße 1075.\n*Zschokke-Faure, Conradin, Ingenieur, Entfelderstraße 1200.\n*Zschokke-Offenhäuser, Emil, Pfarrer, Rain 831.\n*Zschokke-Sauerländer, Guido, Buchhändler, Zschokkestraße 995.\n*Zschokke-Sauerländer, Olivier, Ingenieur, zur „Blumenhalde“ jenseits der\n  Aare 319.\n*Zschokke-Schmuziger, Arnold, Dr. jur., Staatsschreiber, Entfelderstr. 975.\nZschokke-Boitel, Margaretha, Wittwe, Part., Graben 217.\nZschokke-Zimmerli, Justine, Wittwe, Part., vordere Vorstadt 893.\nZuber-Müller, Andreas, Hausknecht, Rain 825 b.\nZubler-Stirnemann, Elisabeth, Spetterin v. Hunzenschwyl, Stadthof 92 a.\n*Zulauf-Siebenmann, Leopold, Weinhändler, Bachstraße 1124.\n*Zündt-Hagenbuch, Elise Louise, Wittwe, Part. von Altstätten (St. Gallen),\n  vordere Vorstadt 674.\n*Zürcher-Stutz, Johann, gew. Turnlehrer von Thalweil (Zürich), Kronen-\n  gasse 34.\n*Zürcher-Wirz, Alfred, Arzt, Laurenzenvorstadt 899.\n*Zurlinden-Rychner, Rudolf, Fabrikant von Zofingen, Bahnhofstraße 1013.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8118,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2198,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:40:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p142",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p142.jpeg",
+      "bytes": 276765,
+      "sha256": "445f7a53c7d247ddb51bc8fed9933929cd3a51ce41de482e7eafe8e781b3f3ac",
+      "sha256_of": "original",
+      "working_copy": "1888_p142.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:40:01+00:00"
+  }
+}

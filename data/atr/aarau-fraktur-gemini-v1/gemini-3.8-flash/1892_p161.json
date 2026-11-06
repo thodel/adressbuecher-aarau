@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p161",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p161.jpeg",
+    "bytes": 233282,
+    "sha256": "192654ba7a59aa70cbfe6482768e3aff33680697c7103771b31ec5451d502348",
+    "sha256_of": "original",
+    "working_copy": "1892_p161.jpeg"
+  },
+  "text": "145\n\nSchatzmann, Samuel, Buchbinder, Pelz-\n  gasse 135.\nWärtli, August, Buchbinder, Kirchhof 166.\nZebert, Georg, Buchbinder, Laurenzen-\n  thorgasse 116.\n\nGold- und Silberwaaren.\nFischer, Jonathan, vordere Vorstadt 1260.\nHärdy, Wilhelm, Rathhausgasse 42.\nHirschy, J. R., vordere Vorstadt 608.\n\nGoldschmiede.\nFischer, Jonathan, Holzmarkt 1260.\nHärdi, Wilhelm, Rathhausgasse 42.\nSchneider, Joseph, v. d. Haldenthor 1092.\n\nGrabsteinlager.\nRusterholz u. Freihofer, Rain 885.\n\nHaargeflechte.\nSommerhalder, J., Coiffeur, Pelzgasse 65.\n\nHafner.\nAndres, Friedrich, obere Vorstadt 916.\nHemmeler, Wilhelm, obere Vorstadt 944.\nWespi, Karl, Entfelderstraße [...].\n\nHafnereien.\nAndres, Friedrich, Ba[...] 1036.\nAndres, Otto, Milchga[...] 78.\nHemmeler, Wilhelm, obere Vorstadt 919.\n\nHalbwollenstofffabrikation.\nGuyer, Oskar, in der Telli 456.\nStrich, Julius, Ziegelrain 751.\n\nHaushaltungsartikel.\nFaller, Elise Louise (Firma Gebrüder\n  Faller), Kronengasse 41.\nFaller, Friedrich, Rathhausgasse 17.\nHemmeler-Haßler, August, Mezgergasse 55.\nHemmeler-Stahl, Jakob, Rathhausg. 21.\nHenz-Gautschi, Emil, vordere Vorstadt 903.\nSchmid, Joh., vordere Vorstadt 889.\n\nHebammen.\nBrunner-Knecht, Verena, Halden 287.\nPlüß-Zimmerli, Marie, Rathhausgasse 47.\nVogt-Keller, Marie, Schachen 734.\nWächter, Maria, Bahnhofstraße 1022.\n\n[spalte 2]\nHemdenfabrikation.\nBolliger-Manger, Gustav, hintere Vor-\n  stadt 646.\nDolder, J., Graben 219.\nErismann u. Blattner, hintere Vorst. 621.\nHaßler-Hunziker, Karl, Bahnhofstr. 1020.\n\nHolzhandlungen.\nHaußmann, Johann, Färbergäßchen 125.\nHitz, Otto, Rainstraße 875.\nStirnemann, Jakob, Zollrain 91.\nWidmer, Samuel, Halden 276.\n\nHolzspalter.\nBertschi, Rudolf, Halden 248.\nDätwyler, Johann, Halden 280.\nGloor, Ferdinand, Adelbändli 86.\nHaberstich, Gottlieb, Milchgasse 79.\nHäusermann, Jakob, Schmiedgasse 634.\nHunziker, Heinrich, Halden 264.\nNeeser, Samuel, vor dem Haldenthor 1084.\nWernli, Samuel, Hammer 185 c.\nZimmerli, Joh., Adelbändli 83.\n\nHutmacher.\nBürgi, Joseph, vordere Vorstadt 900.\nGerodetti, Virgil, hinter dem Bahn-\n  hof 1268.\nSernatinger, Valerian, vordere Vorst. 893.\n\nHuthandlungen.\nAckermann-Buser, Albert, vordere Vor-\n  stadt 890.\nBürgi, Joseph, vordere Vorstadt 900.\nDreßler, Laurenz, Rain 826.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vordere Vorst. 893.\n\nIngenieure.\nBaur, Adolf, Laurenzenvorstadt 602.\nBargetzi, Oswald, Graben 222.\nBircher, Julius, Ziegelrain 713.\nFährländer, Eugen, Rainstraße 869.\nGautschi, Samuel, hintere Vorstadt 646.\nGonzenbach, August, Rain 828.\nOehler, Oskar, Laurenzenvorstadt 415.\nRychner-Heß, Louis, Rain 832.\nSchmid, Johann Jakob, Bachstraße 1138.\nWhyttenbach, Arthur, Bachstraße 1054.\nZschokke, Conradin, Entfelderstraße 1200.\nZschokke, Olivier, zur Blumenhalde, Gis-\n  hügel 319.\nZuchelli, Giovanni, Entfelderstraße 981.\n10",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10415,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2799,
+    "lines": 92,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0217,
+    "mean_line_chars": 29.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:04:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p161",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p161.jpeg",
+      "bytes": 233282,
+      "sha256": "192654ba7a59aa70cbfe6482768e3aff33680697c7103771b31ec5451d502348",
+      "sha256_of": "original",
+      "working_copy": "1892_p161.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:04:30+00:00"
+  }
+}

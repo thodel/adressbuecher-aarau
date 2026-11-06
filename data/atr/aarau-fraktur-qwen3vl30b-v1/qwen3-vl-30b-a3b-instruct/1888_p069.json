@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p069",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p069.jpeg",
+    "bytes": 252674,
+    "sha256": "11616aa2ede4cb41e14160a908a4c1c33a9e6005e07e980480a414664d3c7b4b",
+    "sha256_of": "original",
+    "working_copy": "1888_p069.jpeg"
+  },
+  "text": "Hans-\nNr.\n923. Ernst-Käfer, Friedrich, Röhrenfabrikant.\nMorlet-Favrat, Joh. Franz August, Reisender, von Neuenstadt (Bern).\n924.† Derfelbe. Magazin.\n925.* Siebenmann, Gottlieb, Gerber. (Alte Post.)\nBührer-Gubler, Joh. Jak., Kaufmann. Agentur- und Commissionsgeschäft\n(Büreau).\nKistler-Kull, Jakob, Steuerpräsident, von Büzen.\nWilde-Hegnauer, Fried., Postbeamter, von Reinach.\n926. Randegger-Wirth, Conrad, von Dfssingen (Zürich). Bayrische Bierhalle.\nBallmer, Marie, Wäscherin und Glätterin, von Laufen (Baselland).\nBallmer, Karolina, Wäscherin und Glätterin, von Laufen (Baselland).\nHäuptli-Dtt, Othmar, Adjunkt des Staatsbuchhalters, von Biberstein.\n927. Widmer-Rychner, Rudolf, Bäcker, von Gränichen. Pintenwirthschaft.\nStauber-Pagan, Jakob, Amtsrevisor, von Zegwyl.\n928. Brunner-Umiker, Jakob, Negt.\nUmiker-Wernli, Elisabeth, Part., von Thalheim.\n929.* Derfelbe. Wohnhaus.\nHenz geb. Siebenmann, Adele, Wittwe, Part.\nRüetschi-Christen, Jakob, Sieger.\nBrack-Steininger, Gottlieb, Buchhalter, Efssingen.\n930.* Ernst-Merian, Augustus, Parts., Erbschaft.\nWilde-Wepfi, Adele, Wittwe, von Beltheim.\nMarfurt, Franz Xaver, Coiffeur, von Langnau (Luzern).\n931. Abgetragen, an dessen Platz\nRichner-Renz, Rosa, Part.\nRothpleg-Richner, Friedrich, Fabrikant.\nSpengler-Thönnen, Maria Magdalena, Wittwe, Part.\nWirz-Martin, Emil, Buchhändler, von Solothurn.\nRichner, Fritz, Pianist.\n932. Abgetragen.\n\nBachstraße.\n933. Firma: Friedrich Gygi, Reizungsfabrik. Ethnologisches Gewerbemuseum\nder mittelschweizerischen geographisch-commerciellen Gesellschaft.\n934.† Gemeinde Aarau. Spritzenhaus.\n\nObere Vorstadt.\n935. Schmidt-Lanz, Adolf, Kaufmann. Inspecteur de la Cie. d'assurances\nsur la Vie contre les Accidents „La Providence“ à Paris.\nGeschirr- und Glaswaarenhandlung.\nMüller-Hurni, Marie, Wittwe, Part.\nBürgi-Burkhard, Anna, Wittwe, Part., von Erlinsbach.\n936.† Derfelbe. Gläurmmühlen.\n937. Fischer, Margaretha, Messerschmieds Part.\nWilde, Adolf, Part., von Beltheim.\nWilde, Julie, Part, \" \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3922,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1978,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p069",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p069.jpeg",
+      "bytes": 252674,
+      "sha256": "11616aa2ede4cb41e14160a908a4c1c33a9e6005e07e980480a414664d3c7b4b",
+      "sha256_of": "original",
+      "working_copy": "1888_p069.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:39+00:00"
+  }
+}

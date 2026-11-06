@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p033",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p033.jpeg",
+    "bytes": 208257,
+    "sha256": "6d5157fc589b6900d7940aa410b80dafd5634e545814cd09c2c23bf19bf3535c",
+    "sha256_of": "original",
+    "working_copy": "1892_p033.jpeg"
+  },
+  "text": "— 25 —\n\nHaus-\nNr.\n  Beilharz, Lina, Weißnäherin, von Untermußbach (Württemberg).\n  Nünlist-Müller, Katharina, Taglöhnerin, von N.-Erlinsbach (Solothurn).\n  Spirgi-Spirgi, Friedrich, Posamenter, von Unter-Kulm.\n288 † Derselbe. Waschhaus.\n289. * Derselbe. Hinterhaus.\n  Schaub, Wilhelm, Taglöhner, von Tenniken (Baselland).\n290. Elsaßer-Kyburz, Gottlieb, Küfermeister, von Unterkulm.\n  Fischer-Widmer, Johann Heinrich, Postkondukteur.\n  Graf-Häuptli, Jakob, Taglöhner, von Birrwyl.\n  Häuptli-Suter, Verena, Dienstmanns, von Biberstein.\n291. † Derselbe. Remise.\n\nZollrain.\n\n292. Keller-Läuchli, Paul, Zuckerbäcker und Kaffeewirthschaft.\n  Helm-Schmid, Emil, Tapezierer von Oerlikon (Zürich).\n  Schmidt, Jenny, Modistin.\n293. * Firma Baumann-Streuli, in Horgen (Zürich).\n  Schäppi-Honegger, Bertha, Wittwe, von Horgen. Handlung in Seiden-\n    waaren.\n  Schäppi, Anna, Arbeitslehrerin, von Horgen.\n  Schäppi, Bertha, Büreauangestellte, „ „\n  Gamper-Zürcher, Hermann, Kaufmann.\n  Rumm-Weitmann, Heinrich, Lithograph, von New-York.\n  Rohr, Samuel, Gerichtssubstitut.\n  Schmuziger-Lackenbauer, Arnold, Fabrikant.\n\nJenseits der Aare.\n\n294. Schmuziger-Kern, Ida, Baumeisters Wittwe, Part.\n  Schmuziger, Johann, Sohn, Architekt.\n  Ringier-Schwarz, Karl Arnold, Reg.-Rath, von Zofingen.\n  Siegfried-Leupold, Friedrich, Staatsbuchhalter, von Zofingen.\n295. * Dieselbe.\n  Billo-Bohrer, Feodor, Kaufmann.\n296. † Dieselbe. Waschhaus.\n297. a. Siebenmann-Hagnauer, Friedrich, Bierbrauer, Stadtrath.\n  Rychner-Grözinger, Johann Heinrich, Procurist (Gewehrfabrik Rychner).\n297. b. Derselbe. Wasch- und Holzhaus.\n298. a. An dessen Platz\n1303. a. Maurer-Peter, Emil, Gastwirth und Negotiant, zum Kreuz.\n    Salzbütte und Spritverkauf.\n298. b. An dessen Platz\n1303. b. * Derselbe. Magazin.\n  Gysi-Ammann, Traugott, Lehrer.\n  Meier-Zobrist, Jakob, Part., von Othmarsingen.\n298. c. An dessen Platz\n1303. c. † Derselbe. Kegelbahn.\n299. a. Andres-Schmid, Jakob, Schreinermeister.\n1227. † Derselbe. Holzschopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7756,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1982,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:48:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p033",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p033.jpeg",
+      "bytes": 208257,
+      "sha256": "6d5157fc589b6900d7940aa410b80dafd5634e545814cd09c2c23bf19bf3535c",
+      "sha256_of": "original",
+      "working_copy": "1892_p033.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:34+00:00"
+  }
+}

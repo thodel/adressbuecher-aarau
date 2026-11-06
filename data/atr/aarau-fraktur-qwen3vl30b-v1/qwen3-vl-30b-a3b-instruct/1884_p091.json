@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p091",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p091.jpeg",
+    "bytes": 226776,
+    "sha256": "473603cb89a7f692dfd23454630897e688b65b1092d5e038f6c44faec3d3b946",
+    "sha256_of": "original",
+    "working_copy": "1884_p091.jpeg"
+  },
+  "text": "Druck und Verlag von Martin, F. G.\nAargauer Nachrichten, 6 Mal wöchentl.\nPreis Fr. 9 für Aarau, franco auswärts Fr. 11.\nAargauer Zeitung, 2 Mal wöchentl.\nPreis Fr. 6 für Aarau u. auswärts.\nDruck und Verlag v. Sauerländer, G. R.\nAmtsblatt des Kantons Aargau, 1 Mal\nwöchentl. Preis Fr. 6. 50 für Aarau,\nfranco auswärts Fr. 7. 50.\nAarg. Polizei-Anzeiger (Fahndungsbl.)\nIllustrierte schweizerische Jugendblätter,\n1 Mal monatl. Preis Fr. 5.\nVom Jura zum Schwarzwald, viertel-\njahrswiese per Jahrgang Fr. 6.\nDruck und Verlag von Stierli, Karl.\nAargauer Tagblatt, 6 Mal wöchentl.\nPreis Fr. 9 für Aarau, franco auswärts Fr. 10.\nAargauer Volksfreund, 3 Mal wöchentl.\nPreis für Aarau und auswärts Fr. 6.\nZiegelfabrikanten.\nHauri-Siegenthaler, Karl, Rainstr. 866.\nThut-Gidemann, H., Rainstraße 863.\nZimmermeister.\nFichenberger, Rudolf, Milchgasse 154.\nHemmeler, G., vor dem Haldenthor 767.\nRieding, Erch., neues Quartier 970.\nZinngießer.\nWehrli, Friedrich, Adelbändli 172.\n87",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 2297,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 964,
+    "lines": 29,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.28,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0021,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:18:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p091",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p091.jpeg",
+      "bytes": 226776,
+      "sha256": "473603cb89a7f692dfd23454630897e688b65b1092d5e038f6c44faec3d3b946",
+      "sha256_of": "original",
+      "working_copy": "1884_p091.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:18:17+00:00"
+  }
+}

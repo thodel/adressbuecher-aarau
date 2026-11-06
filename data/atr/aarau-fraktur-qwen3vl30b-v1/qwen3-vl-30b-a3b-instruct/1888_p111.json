@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p111",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p111.jpeg",
+    "bytes": 282472,
+    "sha256": "a028c9751f15bc0aef82e1735f55c0b346f710fd0e37bcadc75d22f33045ead2",
+    "sha256_of": "original",
+    "working_copy": "1888_p111.jpeg"
+  },
+  "text": "Heller — Herzog.\n93\nHeller-Roth, Anna, Wittwe, Part. von Erlinsbach, Schachen 741.\nHelm-von Arx, Elise, Wittwe, Wollwaarenhandlung von Derlifon (Zürich), Zollrain 52.\nHelm, Emil, Brieftträger von Derlifon (Zürich), Zollrain 52.\nHelm, Fanny, Modistin von Derlifon (Zürich), Zollrain 52.\nHemmeler-Fecht, Gottlieb, Zimmermeister, vor dem Halbenthof 767.\nXHemmeler-Frey, Friedrich, Kaufmann, Stadtrath, Weinhandlung, hintere Vorstadt 638.\nXHemmeler-Häfeler, August, Kaufmann, Quincaillerie- und Kinderpielwaarenhandlung, Mezgergasse 55.\nHemmeler, Jda, Privatehreerin, Golattenmattgasse 229.\nHemmeler, Meta, Part., id. id.\nHemmeler, Marie, Gürtlers, Kirchgasse 14.\nHemmeler-Pfister, Friedrich, Postcommis, Ziegelrain 751.\nHemmeler, Rosina, Näherin, Wilchgasse 161.\nHemmeler-Roth, Wilhelm, Sekretär, obere Vorstadt 921.\nHemmeler-Scheibler, Verena, Hafners Wittwe, obere Vorstadt 944.\nHemmeler-Schmidt, Wilhelm, Hafner, obere Vorstadt 919.\nHemmeler-Stahl, Jakob, Uhrenmacher, Rathausgasse 24.\nXHemmeler-Stahl, Jda (Firma Ritter-Stahl), Quincailleriewaarenhandlung, Rathausgasse 21.\nXHemmeler-Türler, Emil, Kaufmann, Mercerie-, Garn- und Ellenwaarenhandlung, Mezgergasse 59.\nXHengherr-Hiltbrunner, August, Lehrer von Affoltern bei Höngg (Zürich), Cafinostrasse 570.\nHensler, Anna, Corfetschneiderin, von Richterswyl (Zürich), Golattenmattgasse 231.\nHenz-Flügel, Julie, Part., Rain 829.\nXHenz-Gautschi, Emil, Kaufmann, Eisenwaarenhandlung, vordere Vorst. 903.\nHenz-Märk, Julius, Kaufmann, vordere Vorstadt 679.\nXHenz-Plüß, Jakob, Kaufmann, vordere Vorstadt 1169.\nXHenz-Siebenmann, Adele, Hafners Wittwe, obere Vorstadt 929.\nXHenz-von Genter, Hans, Kaufmann, vordere Vorstadt 678.\nHerrmann, Elisabeth, Spetterin von Rohrbach (Bern), Adelbändli 172.\nHertsfelder-Bär, Marie, Wittwe, Part., Kirchgasse 13.\nHerzig-Hauri, Friedrich, Schneidermeister von Wynau (Bern), hintere Vorstadt 644.\nHerzig-Weber, Friedrich, Dachdecker- und Kaminfegergehülfe von Obersteckholz (Bern), Wilchgasse 76.\nHerzog-Dietiker, Konrad, Schneider von Homburg (Thurgau), Halden 252.\nXHerzog-Hagnauer, Heinrich, Lehrer von Kefingen, Rain 843.\nXHerzog, Hans, Dr. phil., Staatsarchivar, Bachstrasse 1047.\nHerzog, Jakob, Part., Bachstrasse 1045.\nHerzog-von Jenner, Theodor, Deconom, Bachstrasse 1045.\nHerzog-Tschanz, Gottlieb, Kaufmann von Kefingen, Colonialwaarenhandlung Zollrain 89.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4985,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2354,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 59.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:26:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p111",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p111.jpeg",
+      "bytes": 282472,
+      "sha256": "a028c9751f15bc0aef82e1735f55c0b346f710fd0e37bcadc75d22f33045ead2",
+      "sha256_of": "original",
+      "working_copy": "1888_p111.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:23+00:00"
+  }
+}

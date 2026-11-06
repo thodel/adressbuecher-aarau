@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p117",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p117.jpeg",
+    "bytes": 282302,
+    "sha256": "d0b92f01a6e06ec21472812232734849eb616f2d7f739ec6316a0f8021e043d3",
+    "sha256_of": "original",
+    "working_copy": "1888_p117.jpeg"
+  },
+  "text": "Kramer — Landolt.\n99\nKramer-Müller, Jakob, Anekt von Jezwyl, Tell 440.\nKrauer-Raufmann, Heinrich, Schneider v. Bärentschwyl (Zürich), Halden 246.\nKrähenbühl, Louise, Näherin von Altishofen (Zuzern), Halder 264.\nKuhn-Buser, Alfred, Schlosser und Mechaniker von Wangen (Zürich),\nZiegelrain 750.\nKuhn-Stadtmann, Rosa, Fabrikausseherin von Flunau (Zürich), obere\nVorstadt 948.\nKull, Adolf, Postcommis von Niederlenz, Bahnhofstraße 513.\nKull-Hartmann, Friedrich, Drucker v. Fluntern (Zürich), Adelbändli 173.\nKull-Lehmann, Johann, Schneider von Niederlenz, Milchgasse 152.\nKull-Müller, Anna, von Niederlenz, Wollenwaarenhdlg., Milchgasse 144.\nKull, Philipp, Spengler, Milchgasse 146.\nKummer-Frey, Auguste, Wittwe, Part., Pelzgasse 137.\nKunz-Graf, Ernst, Zuckerbäcker von Wald (Zürich), vord. Vorstadt 674.\nKunz-Hek, Johann Jakob, Zuckerbäcker, Confiserie en gros von Wald,\n(Zürich), Bankstraße 1141.\nKunz, Nanette, Näherin von Mönchaltorf (Zürich), Rain 832.\nKurz, Erwin, Fürsprach und Notar von Schwamendingen (Zürich), Lau-\nrenzenvorstadt 360.\nKurz-Hässiger, Heinrich, Baumeister von Schwamendingen (Zürich),\nGais 1131.\nKübler-Kuhn, Johann, Bahnhofinspektor, Bahnhofstraße 515.\nKühn-Hoffmann, Bernhard, Gastwirth z. Köpfl, von Tiefurt (Sachsen),\nMietzgasse 112.\nKühn-Morach, Hermann, Drucker von Chemnitz (Sachsen), Halder 240.\nKümmelri-Matter, Johann, Abwart und Ausläufer von Rölliken, Schloß-\nplatz 1161.\nKünzi-Kümmeli, Oswald, Schuhmachermeister v. Uetikon a. Albis (Zürich),\nPelzgasse 122.\nKünzlen-Kranich, Friedrich, Buchhalter von Sulzbach (Württemberg),\nZollrain 88.\nLabbart-Baur, Hermann Jakob, Thierarzt von Steckborn (Thurgau),\nLaurenzenvorstadt 607.\nLäubli-Häfeli, Jakob, Fabrikausseher von Seengen, Hammer 194.\nLäubli-Kern, Verena, Mezgers Wittwe von Seengen, Pelzgasse 121.\nLäubli-Bircher, Friedrich, Schlosser von Remigen, Hammer 184.\nLäuchli-Bürgi, Anna, Wittwe, Wirthin von Remigen, Rathausgasse 25.\nLäuchli, Hans, Sohn, Buchhalter, von Remigen,\nid. id.\nLäuchli-Waßmer, Johann, Part., Weinberg 1102.\nLandolt-Frank, Johann, Schuhmachermeister, Golattenmattgasse 233.\nLandolt-Hächler, Gottlieb, Mezger, vordere Vorstadt 671.\nLandolt-Hässig, Alexander, Dekonom, Pelzgasse 128.\nLandolt-Häuptli, Marie, Wittwe, Damenschneiderin, Halder 284.\nLandolt-Hartmann, Karl, Sohn, Fabrikant, hintere Vorstadt 638.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5037,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2312,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.21,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:26:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p117",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p117.jpeg",
+      "bytes": 282302,
+      "sha256": "d0b92f01a6e06ec21472812232734849eb616f2d7f739ec6316a0f8021e043d3",
+      "sha256_of": "original",
+      "working_copy": "1888_p117.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:55+00:00"
+  }
+}

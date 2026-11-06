@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p111",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p111.jpeg",
+    "bytes": 282472,
+    "sha256": "a028c9751f15bc0aef82e1735f55c0b346f710fd0e37bcadc75d22f33045ead2",
+    "sha256_of": "original",
+    "working_copy": "1888_p111.jpeg"
+  },
+  "text": "Heller — Herzog. 93\n\nHeller-Roth, Anna, Wittwe, Part. von Erlinsbach, Schachen 741.\nHelm-von Arx, Elise, Wittwe, Wollwaarenhandlung von Oerlikon (Zürich),\n  Zollrain 52.\nHelm, Emil, Briefträger von Oerlikon (Zürich), Zollrain 52.\nHelm, Fanny, Modistin von Oerlikon (Zürich), Zollrain 52.\nHemmeler-Fecht, Gottlieb, Zimmermeister, vor dem Haldenthor 767.\n[handschriftlich: X]Hemmeler-Frey, Friedrich, Kaufmann, Stadtrath, Weinhandlung, hintere\n  Vorstadt 638.\n[handschriftlich: X]Hemmeler-Haßler, August, Kaufmann, Quincaillerie- und Kinderspiel-\n  waarenhandlung, Metzgergasse 55.\nHemmeler, Ida, Privatlehrerin, Golattenmattgasse 229.\nHemmeler, Meta, Part., id. id.\nHemmeler, Marie, Gürtlers, Kirchgasse 14.\nHemmeler-Pfister, Friedrich, Postcommis, Ziegelrain 751.\nHemmeler, Rosina, Näherin, Milchgasse 161.\nHemmeler-Roth, Wilhelm, Sekretär, obere Vorstadt 921.\nHemmeler-Scheibler, Verena, Hafners Wittwe, obere Vorstadt 944.\nHemmeler-Schmidt, Wilhelm, Hafner, obere Vorstadt 919.\nHemmeler-Stahl, Jakob, Uhrenmacher, Rathhausgasse 24.\n[handschriftlich: X]Hemmeler-Stahl, Ida (Firma Ritter-Stahl), Quincailleriewaarenhand-\n  lung, Rathhausgasse 21.\n[handschriftlich: X]Hemmeler-Türler, Emil, Kaufmann, Mercerie-, Garn- und Ellenwaaren-\n  handlung, Metzgergasse 59.\n[handschriftlich: X]Hengherr-Hiltbrunner, August, Lehrer von Affoltern bei Höngg (Zürich),\n  Casinostraße 570.\nHensler, Anna, Corsetschneiderin, von Richterswyl (Zürich), Golatten-\n  mattgasse 231.\nHenz-Flügel, Julie, Part., Rain 829.\n[handschriftlich: X]Henz-Gautschi, Emil, Kaufmann, Eisenwaarenhandlung, vordere Vorst. 903.\nHenz-Märk, Julius, Kaufmann, vordere Vorstadt 679.\n[handschriftlich: X]Henz-Plüß, Jakob, Kaufmann, vordere Vorstadt 1169.\nHenz-Siebenmann, Adele, Hafners Wittwe, obere Vorstadt 929.\n[handschriftlich: X]Henz-von Seuter, Hans, Kaufmann, vordere Vorstadt 678.\nHerrmann, Elisabeth, Spetterin von Rohrbach (Bern), Adelbändli 172.\nHertfelder-Bär, Marie, Wittwe, Part., Kirchgasse 13.\nHerzig-Hauri, Friedrich, Schneidermeister von Wynau (Bern), hintere\n  Vorstadt 644.\nHerzig-Weber, Friedrich, Dachdecker- und Kaminfegergehülfe von Ober-\n  steckholz (Bern), Milchgasse 76.\nHerzog-Dietiker, Konrad, Schneider von Homburg (Thurgau), Halden 252.\n[handschriftlich: X]Herzog-Hagnauer, Heinrich, Lehrer von Rekingen, Rain 843.\n[handschriftlich: X]Herzog, Hans, Dr. phil., Staatsarchivar, Bachstraße 1047.\nHerzog, Jakob, Part., Bachstraße 1045.\nHerzog-von Jenner, Theodor, Oekonom, Bachstraße 1045.\nHerzog-Tschanz, Gottlieb, Kaufmann von Rekingen, Colonialwaarenhand-\n  lung Zollrain 89.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8299,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2563,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:35:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p111",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p111.jpeg",
+      "bytes": 282472,
+      "sha256": "a028c9751f15bc0aef82e1735f55c0b346f710fd0e37bcadc75d22f33045ead2",
+      "sha256_of": "original",
+      "working_copy": "1888_p111.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:41+00:00"
+  }
+}

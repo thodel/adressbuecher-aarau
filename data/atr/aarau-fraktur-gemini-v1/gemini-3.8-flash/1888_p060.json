@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p060",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p060.jpeg",
+    "bytes": 268452,
+    "sha256": "a7b8f712e0698c5816b3fde04575d2300e979b7b6b31fc93dec717532b5578b8",
+    "sha256_of": "original",
+    "working_copy": "1888_p060.jpeg"
+  },
+  "text": "— 50 —\n\nHaus=\nNr.\n  Brack, Jakob, Part., von Elfingen.\n  Giger-Märki, Jakob, Schreiner, von Gontenschwyl.\n  Meier-Müller, Paul, Schneider, von Stetten (Baden).\n  Ursprung-Meier, Genovefa, Wittwe, Part., von Nußbaumen.\n  Ursprung, Louise, Damenschneiderin, von Nußbaumen.\n  Hemmeler-Pfister, Friedrich, Postcommis.\n752.* Holzach, Friedrich, Metzger. Schweinemetzglokal.\n  Baumann-Frei, Anna, Näherin, von Attelwhl.\n753.† Kern & Cie., Mechaniker. Alte Cementmühle.\n754. Gemeinde Aarau. Gewerbehalle.\n  Brunnhofer-Giezentanner, Verena, Seilers Wittwe. (Seilerwaarenverkauf.)\n  Rothplez-Haßler, Rudolf, Metzger. (Bäckerwaarenverkauf.)\n  Theez-Amsler, Emilie, Schirmmacherin. (Schirmverkauf.)\n\nVor dem Haldenthor.\n\n755.† Schmidlin=Lutz, Theodor. Chemisches Laboratorium.\n756.† Derselbe. Holzmagazin.\n757.† Riniker=Groß, Friedrich, Bierbrauer. Scheune.\n758. Merz=Ruh, Margaretha, Wittwe, Part., von Leimbach.\n  Fecht-Ruh, Julius, von Meinwangen (Baden). Weinhandlung.\n  Lenzi-Fischer, Albert, Controleur auf der Aarg. Ersparnißkasse, von Zuzgen.\n759.† Hauri=Graber, Rudolf, Fuhrmann. Scheune.\n760.† Brunnhofer=Schmid, Magdalena, Wittwe. Scheune.\n761.† Haßler=Ernst, August, Färber. Magazin.\n762. Häusler=Schmid, Angelus, Maler, von Schwaderloch.\n  Wüthrich-Dambach, Joh. Jakob, Camioneur, von Eggiwyl (Bern).\n763.† Gamper=Wildi, Adolf, Metzger. Scheune.\n764.† Haßler=Ernst, August, Färber. Farbgebäude.\n765.† Marti, Rosina's, Partik.'s Erbschaft. Gartenhaus.\n766.† Fischer, Thomas, Bierbrauer. Magazin.\n767. Hemmeler=Fecht, Gottlieb, Zimmermann.\n  Ziegler-Linsi, Lina, Wittwe, Part., von Winterthur.\n768.* Derselbe. Wohngebäude mit Werkstätte.\n  Fricker-Leder, Jakob, Bankabwart, von Oberflachs.\n769.* Schmidlin, Elise, Part., Kleinkinderschule.\n  Schaub, Marie, Lehrerin, von Eptingen (Baselland).\n  Frei, Maria, Spetterin, von Densbüren.\n770. Wolfsgruber=Küenze, Gottfried, Photograph, von Koblenz (Preußen).\n  Sieß-Brechenmacher, Hans, Bauführer (Zschokke & Cie.), von Griens (Tyrol).\n771.† Derselbe. Photograph. Atelier.\n772.* Siegenthaler=Waßmer, Elisabeths Erbschaft.\n  Hediger-Fischer, Hans, Telegraphist, von Reinach.\n  Wietlisbach-Walther, Joseph Burkard, Postcommis, von Wohlen.\n773.* Dieselbe. Anbau.\n  Berchtold, Jakob, Schuhmacher, von Schmiedrued.\n  Bruder-Bruder, Jakob, Gepäckträger, von Seengen.\n774.† Dieselbe. Holzmagazin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7948,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2335,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:29:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p060",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p060.jpeg",
+      "bytes": 268452,
+      "sha256": "a7b8f712e0698c5816b3fde04575d2300e979b7b6b31fc93dec717532b5578b8",
+      "sha256_of": "original",
+      "working_copy": "1888_p060.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:57+00:00"
+  }
+}

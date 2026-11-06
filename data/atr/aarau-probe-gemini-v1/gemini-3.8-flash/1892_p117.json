@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p117",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p117.jpeg",
+    "bytes": 232746,
+    "sha256": "f55e260a368aba5378203bef2b3732805918637dc2e85df409822b106e446889",
+    "sha256_of": "original",
+    "working_copy": "1892_p117.jpeg"
+  },
+  "text": "Helm — Herzog. 101\n\nHelm-von Arx, Elise, Wittwe von Oerlikon (Zürich), Zollrain 52.\nHemmeler-Biedermann, August, Kaufmann, Metzgergasse 55.\nHemmeler, Emil, Sohn, Kaufmann, Metzgergasse 58.\nHemmeler-Fecht, Gottlieb, Zimmermeister, vor dem Haldenthor 767.\nHemmeler-Frey, Friedrich, Kaufmann, alt Stadtrath, h. Vorst. 638.\nHemmeler-Haßler, August, Kaufmann, Quincallerie- und Kinderspiel-\n  waaren, Metzgergasse 55.\nHemmeler, Ida, Privatlehrerin, Golattenmattgasse 229.\nHemmeler, Marie, Gürtlers, Ladentochter, Zollrain 177.\nHemmeler-Pfister, Friedrich, Postcommis, Casinostraße 1130.\nHemmeler, Rosa, Gürtlers, Ladentochter, Rathhausgasse 47.\nHemmeler, Rosina, Part., Milchgasse 145.\nHemmeler-Roth, Wilhelm, Sekretär, obere Vorstadt 921.\nHemmeler-Scheibler, Verena, Hafners Wittwe, Geschirr- und Glas-\n  waarenhandlung, obere Vorstadt 944.\nHemmeler-Schmidt, Wilhelm, Hafnermeister, Geschirrhandl., ob. Vorst. 919.\nHemmeler-Stahl, Jakob, Uhrenmacher, Rathhausgasse 23.\nHemmeler-Stahl, Ida (Firma Ritter-Stahl), Quincailleriewaarenhand-\n  lung, Rathhausgasse 21.\nHemmeler-Türler, Emil, Kaufmann, Mercerie-, Garn- und Ellenwaaren-\n  handlung, Metzgergasse 58.\nHengherr-Hiltbrunner, August, Lehrer von Affoltern bei Höngg (Zürich),\n  Feerstraße 1308.\nHenz-Gautschi, Emil, Kaufmann, Eisenwaarenhandlung, vordere Vor-\n  stadt 903.\nHenz-Märk, Julius, Kaufmann, vordere Vorstadt 1169.\nHenz-Plüß, Jakob, Kaufmann, vordere Vorstadt 1169.\nHenz-Siebenmann, Adele, Hafners Wittwe, Hintere Vorstadt 688.\nHenz-von Seuter, Hans, Kaufmann, vordere Vorstadt 678.\nHering-Leuenberger, Johann, Lehrer von Aristorf, Wohnung Zollrain 181,\n  Bettwaaren- und Möbelhandlung, Metzgergasse 105.\nHermann, Elisabeth, Spetterin von Rohrbach (Bern), Golattenmatt-\n  gasse 231 b.\nHertfelder-Bär, Marie, Wittwe, Part., Kirchgasse 13.\nHerzig-Hauri, Friedrich, March. Tailleur von Wynau (Bern), hintere\n  Vorstadt 644.\nHerzig-Weber, Friedrich, Dachdecker- und Kaminfeger von Obersteckholz\n  (Bern), Adelbändli 173.\nHerzog-Dietiker, Konrad, Schneider vom Homburg (Thurgau), Halden 252.\nHerzog-Hagnauer, Heinrich, Lehrer von Rekingen, hinter dem Bahn-\n  hof 1268.\nHerzog, Hans, Dr. phil., Staatsarchivar, Bachstraße 1047.\nHerzog, Jakob, Part., Bachstraße 1045.\nHerzog-von Jenner, Lina, Wittwe, Bachstraße 1045.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7901,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2269,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.93,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+  "recognised_at": "2026-11-06T12:03:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gemini-v1",
+    "source": {
+      "key": "1892_p117",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p117.jpeg",
+      "bytes": 232746,
+      "sha256": "f55e260a368aba5378203bef2b3732805918637dc2e85df409822b106e446889",
+      "sha256_of": "original",
+      "working_copy": "1892_p117.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:03:07+00:00"
+  }
+}

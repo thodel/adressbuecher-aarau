@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p050",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p050.jpeg",
+    "bytes": 237577,
+    "sha256": "ab46efcd487c7022352fc93dfd62011e8e6a634beadac73a0dc78e8ba417f26e",
+    "sha256_of": "original",
+    "working_copy": "1888_p050.jpeg"
+  },
+  "text": "— 40 —\n\nHaus=\nNr.\n583. † Derselbe. Remise mit Schweinescheune.\n584. Einwohnergemeinde Aarau. Naturhistorisches Museum.\n  Wehrli-Haßler, Friedrich, Pedell.\n  Haßler, Gottlieb, Färber.\n\nLaurenzenvorstadt.\n\n585. Gemeinde Aarau. Kantonsschulgebäude.\n586. Fleiner, Alberts Erbschaft.\n  Fleiner-Zschokke, Leontine, Fabrikants Wittwe.\n  Fleiner, Hans, Fabrikant.\n  Schmuziger, Lina, Part.\n587. † Dieselbe. Wasch= und Holzhaus.\n588. † Dieselbe. Holzschopf.\n589. Staat Aargau. Kaserne.\n590. Derselbe. Cantine.\n  Bertschinger-Riniker, Anna, Wittwe, von Lenzburg.\n591. Derselbe. Stallung.\n592. id. Reitbahn.\n593. id. Stallung.\n594. id. Reitbahn.\n595. id. Turnhalle.\n596. id. Zeughaus.\n597. id. Schmiedewerkstätte und Schopf.\n598. id. Kriegsfuhrwerkschuppen.\n599. id. Wagner= und Sattlerwerkstätte, Magazin und Comptoir.\n600. id. Kriegsfuhrwerkschuppen.\n601. id. Holzschopf.\n602. * Feer=Großmann, Erbschaft.\n  Stierli-Brentano, Goar Leonz, Fürsprech, Stadtrath, von Aristau.\n  Käslin-Schönecker, Eusebius, Musiklehrer.\n  Feer, Adele, Rentiere.\n  Lutz-Hagnauer, Johann, Kaufmann, von Basel.\n  Schmuziger-Koller, Daniel, Baumeister.\n603. Dieselbe. Abgetragen.\n604. † Dieselbe. Holzschopf.\n605. † Dieselbe. Holzschopf.\n606. † Dieselbe. Bad= und Glättezimmer.\n607. * Dieselbe. Wohnhaus mit Scheune.\n  Hoffmann-Bolliger, Jakob, Oekonom, von Unterkulm.\n  Labhart-Baur, Hermann Jb., Thierarzt, von Steckborn (Thurgau).\n608. Staat Aargau. (Fabrikgebäude; voraussichtlich Kantonsschüler=\n  Kosthaus).\n609. † id. Holzschopf mit Schmiede.\n610. id. Magazin.\n  Firma F. X. Bäumlin; Colonialwaarengeschäft en gros, Ver=\n  treter E. Erne-Leblanc.\n611. id. Dampfkesselhaus.\n612. id. Holzschopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6227,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1666,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 31.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:28:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p050",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p050.jpeg",
+      "bytes": 237577,
+      "sha256": "ab46efcd487c7022352fc93dfd62011e8e6a634beadac73a0dc78e8ba417f26e",
+      "sha256_of": "original",
+      "working_copy": "1888_p050.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:39+00:00"
+  }
+}

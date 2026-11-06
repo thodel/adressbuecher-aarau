@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p110",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p110.jpeg",
+    "bytes": 284014,
+    "sha256": "9a2b240ec40504d3ad1358418e34dbf39bb6ed8057450956aab3c642b8aa0bda",
+    "sha256_of": "original",
+    "working_copy": "1888_p110.jpeg"
+  },
+  "text": "92\tHässig — Heller.\n\n*Hässig-Hauenstein, Elisabeth, Wittwe, Part., Ziegelrain 705.\nHässig-Kyburz, Friedrich, Camioneur, Milchgasse 143.\n*Hässig-Lienhard, Hermann, Bäcker und Wirth, Rathhausgasse 46.\nHässig-Lüscher, Joh. Conrad, Schuhmacher, Antiquar und Gemüsehändler,\n  Oberthor 224.\nHässig, Rosette, Glätterin, Rathhausgasse 47.\nHässig, Elise, Glätterin,\tid.\tid.\nHässig-Sigle, Julius, Speisewirth zum rothen Haus, Bahnhofstraße 1160.\nHässig-Siegrist, Julius, Schlosser, Milchgasse 77.\nHässig-Straubhaar, Gottlieb, Feinschleifer, Wohnung Rathhausgasse 47\n  und Werkstätte Hammer 184 b.\nHäuptli-Schälkli, Jakob, Färber von Biberstein, Milchgasse 148.\nHäuptli-Burkhardt, Anna Maria, Drechslers Wittwe von Biberstein,\n  Halden 284.\nHäuptli, Emil, Sohn, Drechsler von Biberstein, Halden 284.\n*Häuptli-Ott, Othmar, Adjunkt des Staatsbuchhalters, von Biberstein,\n  obere Vorstadt 926.\nHäusermann-Schmid, Jakob, Holzspalter von Egliswyl, Ziegelrain 745.\nHäusermann-Rues, Adolf, Knecht von Egliswyl, Laurenzenvorstadt 376.\nHäusler-Schmid, Angelus, Maler von Schwaderloch, vor dem Halden-\n  thor 762.\nHäusler-Elmer, Karolina, Part. von Schwaderloch, obere Vorstadt 915.\nHediger-Fischer, Hans, Telegraphist von Reinach, vor dem Haldenthor 772.\nHediger-Brändli, Elisabeth, Instruktors Wittwe von Reinach, Milch-\n  gasse 151.\nHediger, Maria, Haushälterin von Reinach, Milchgasse 151.\nHediger-Born, Wilhelm, Postangestellter von Reinach, Milchgasse 151.\nHediger-Sommerhalder, Samuel, Dachdecker und Kaminfeger von Reinach,\n  Adelbändli 85 a.\nHediger-Buchmüller, Samuel, Gärtner von Reinach, Kirchgasse 8.\nHediger-Kull, Hermann, Stadt- und Friedhofgärtner von Rupperswyl,\n  Entfelderstraße 960.\nHediger, Jakob, Privat von Rupperswyl, Entfelderstraße 960.\nHediger, Susette, Näherin von Reinach, Rathhausgasse 3.\nHefti-Hunziker, Johann Peter, Schneidermeister von Schwanden (Glarus),\n  Metzgergasse 100.\n*Hegnauer-Renold, Rudolf, Fabrikant von Seengen, Hammer 194.\nHegnauer-Fischer, Rudolf, Buchhalter von Seengen, Hammer 188.\nHeindl-Plüß, Ludwig, Uhrenmachergehülfe von Sachsenried (Bayern),\n  Pelzgasse 122.\nHeinzelmann, Johann, Schuhmacher von Marschalkzimmern (Württem- *\n  berg), Milchgasse 143.\nHeitz-Neeser, Kornelius, Zimmermann von Menziken, Laurenzenvorstadt 376.\nHelbling-Hort, Konrad, Schriftsetzer von Jona (St. Gallen), obere\n  Vorstadt 919.\nHeller-Erb, Heinrich, Rechtsagent, Inkasso- u. Geschäftsbüreau, Zollrain 54.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8004,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2417,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.91,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:35:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p110",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p110.jpeg",
+      "bytes": 284014,
+      "sha256": "9a2b240ec40504d3ad1358418e34dbf39bb6ed8057450956aab3c642b8aa0bda",
+      "sha256_of": "original",
+      "working_copy": "1888_p110.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:33+00:00"
+  }
+}

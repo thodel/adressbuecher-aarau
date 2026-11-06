@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p180",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p180.jpeg",
+    "bytes": 211640,
+    "sha256": "e91e5c833dcfb1ba023c2f595aa754d0894e41a2b143abb0ea9e2993cd4c8d86",
+    "sha256_of": "original",
+    "working_copy": "1892_p180.jpeg"
+  },
+  "text": "164\n\nJäcker-Haller, Comestibles\nJenny & Weigel, Färberei\n    \"         Wohnung\nJurablick (Bally-Prior)\nKantonsspital.\nKarbacher, Bierbrauerei\nKern-von Arandt\nKern & Comp., Mechaniker\n    \"         \"\nKern-Rychner\nKühn, Bahnhofrestauration\nKuhn-Buser, Schlosser und Mechaniker\nLagerhäuser der Zentralschweiz\nLandolt & Co., Firnißfabrik\nLandolt-Hächler, Mezger\nLüthy, Hermann, Kaufmann\nLüthy-Lüscher, Fabrikant\nMaier, Fuhrhalter\nMärky & Haller, Mühlebau\nMatter, R. & D. Fabrik\n    \"       Comptoir und Färberei\nMaurer zum Kreuz\nMeili, mittlere Mühle\nMeister, Bäcker und Wirth\nMerz, S., Notar\nMilitärkanzlei\nMüller & Co., Lithographie\nMüller, Gasthof zum Löwen\nOboussier & Comp. Büreau und Wohnung.\n    \"       Baumwollweberei, Fabrik\nPrior-Dettmer, Frau Pastorin\nReiners Nachfolger, Elastiquefabrik\nRohr, zum wilden Mann\nRichner und Rothplez, Thon- und Steinzeug-\n    röhrenfabrik, Comptoir\nRichner & Rothplez, Cementsteinfabrik\nRichner & Rothplez, Wohnung (Rothplez-Richner)\nRyniker, Fr., Bierbrauerei\nSauerländer, H. R., Buchdruckerei\n    \"       \"   Buchhandlung\n    \"       \"       \"     (Zschokke-Sauerl.)\nSchenker, Dr. med.\nSchießer, Hermann, Käsehandlung\n    \"       \"     Wohnung\nSchmidt-Hagnauer, G., Tuchwaaren\nSchmuziger, Dr. med.\nSchmuziger & Cie., Siegellack- u. Tintenfabrik\nSernatinger, B., Hut- und Pelzwaaren\nSiebenmann-Brun, Co. mech. Tricotfabrik\n    \"         \"    Wohnung\nSiebenmann, Gebr., Marchand-Tailleur\nSiebenmann, Fr., Bierbrauerei Weinberg\n    \"       \"   Bierkeller\n    \"       \"   Wohnung\n\n[spalte 2]\nHintere Vorstadt 926.\nTelli 449.\n  \"   449.\nSchönenwerd.\n\nSchönenwerd.\nGartenstraße 1129.\nZiegelrain.\nSuhr.\nBahnhofstraße 559.\nBahnhof.\nZiegelrain 750.\nBahnhofstraße 545.\nObere Vorstadt 949.\nVordere Vorstadt 671.\nSchöftland.\nSchöftland.\nBachstraße 1040.\nWöschnau.\nObermuhen.\nKölliken.\nJenseits der Aare.\nStadthof 95.\nGraben 216.\nBachstraße 1100.\nRegierungsgebäude.\nBahnhofstraße 1287.\nVordere Vorstadt 681.\nGraben 613.\nBuchs.\nGartenstraße 1103.\nBachstraße 1048.\nVordere Vorstadt.\n\nBahnhofstraße 560.\nWöschnau.\nGönhardfeldweg 1309.\nMezgergasse 102.\nLaurenzenvorstadt.\nGraben 220.\nZschokkestraße 995.\nBahnhofstraße 1289.\nPelzgasse 121.\nGraben 206.\nGraben 202.\nEntfelderstraße 972.\nRain 834.\nVordere Vorstadt 674.\nSchönenwerd.\nSchönenwerd.\nOberthor 226.\nWeinberg 321.\nObere Vorstadt.\nJenseits der Aare 297.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8503,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2332,
+    "lines": 108,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0463,
+    "mean_line_chars": 20.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:08:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p180",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p180.jpeg",
+      "bytes": 211640,
+      "sha256": "e91e5c833dcfb1ba023c2f595aa754d0894e41a2b143abb0ea9e2993cd4c8d86",
+      "sha256_of": "original",
+      "working_copy": "1892_p180.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:08:01+00:00"
+  }
+}

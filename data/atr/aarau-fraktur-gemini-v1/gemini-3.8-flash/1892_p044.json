@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p044",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p044.jpeg",
+    "bytes": 209773,
+    "sha256": "4e3a04407916072e615630d3cf1b91bc99bb395d0cf0095cc44b33f23b25db28",
+    "sha256_of": "original",
+    "working_copy": "1892_p044.jpeg"
+  },
+  "text": "— 36 —\n\nHaus=\nNr.\n1353.  † Ernst=Käser, Friedrich, Fabrikant. Röhrenfabrik.\n1186.  Staat Aargau. Kantonale Krankenanstalt. Verwaltungsgebäude.\n  Bircher = Schatzmann, Heinrich, Dr. med., administrativer Direktor und\n    Oberarzt der chirurgischen Abtheilung.\n  Kalt = Läubli, Alfred August, von Koblenz, Oberarzt der medizinischen\n    Abtheilung und der Gebäranstalt.\n  Meyer=Brunner, Emil, Verwalter, von Rheinfelden, in Buchs wohnhaft.\n  Bolliger, Heinrich, Sekretär, von Küttigen.\n  Leimgruber, Eduard, Portier, von Herznach.\n  Bauer, Friedrich, Ausläufer, von Nagold.\n1187.  Derselbe. Medizinisch=chirurgischer Pavillon.\n1188.    „           „            „\n1189.    „   Baracke für Infektionskranke.\n1190.    „       „      „          „\n1191.    „   Kinderpavillon.\n1192.    „   Hebammen= und Gebäranstalt.\n1193.    „   Küchen=, Wasch= und Kesselhaus.\n1194.    „   Leichenhaus mit Gärtnerwohnung und Magazin.\n1323.    „   Spritzenhaus mit Kohlenschuppen.\n  484. † Staat Aargau. Pulverhaus.\n1286.  Fleury=Adam, Joseph, Kaufmann, von Laufen (Bern).\n  Dr. A. Hirzel, Bezirkslehrer, von Lenzburg.\n1063.  Schäfer=Troller, Adolf, Architekt.\n1064.  † Derselbe. Holz= und Waschhaus.\n1065.  †   „     Baracke mit Küche.\n1125.  †   „     Schreinerwerkstätte.\n1126.  †   „     Gartenhaus.\n1139.  †   „     Ladenschopf.\n1148.  †   „     Büreau mit Magazin.\n1149.  †   „     Steinhauerhütte.\n  485.  Erismann=Sager, Fried., Güterexpedient, von Gontenschwyl.\n1229  † Derselbe. Scheune.\n  486.  Fischer=Eglinger, Rudolf, Speisewirth, Thierarzt und Viehinspektor,\n    von Fahrwangen.\n  Eglinger, Wilhelmine, Part., von Basel.\n  487. * Derselbe. Wohnhaus.\n  Bollmann-Eifert, Johann Georg, Steindrucker, von Dudelsheim (Hessen).\n  Martin=Haus, Emil, Lithograph, von Füllinsdorf (Baselland).\n  488.  Bally=Schmitter, Adeline, Fabrikants Wittwe.\n  489. † Dieselbe. Bad= und Waschhaus.\n\nHinter dem Bahnhof.\n\n  490. † Bally=Arndt, Eugen, Fabrikgebäude. Fabrikation elastischer Gewebe.\n  491. † Derselbe. Kesselhaus.\n  492. †   „     Kosthaus.\n  493. †   „     Schreiner= und Schlosserwerkstätte.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7170,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2077,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.15,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:49:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p044",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p044.jpeg",
+      "bytes": 209773,
+      "sha256": "4e3a04407916072e615630d3cf1b91bc99bb395d0cf0095cc44b33f23b25db28",
+      "sha256_of": "original",
+      "working_copy": "1892_p044.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:53+00:00"
+  }
+}

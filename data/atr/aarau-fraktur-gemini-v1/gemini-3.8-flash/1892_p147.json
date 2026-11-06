@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p147",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p147.jpeg",
+    "bytes": 260076,
+    "sha256": "034ff6c01a6d1f66768837aa1f6c2833251269f565ed02bc1049eb28b7eaa7a7",
+    "sha256_of": "original",
+    "working_copy": "1892_p147.jpeg"
+  },
+  "text": "Walti — Wehrli. 131\n\nWalti-Hächler, Samuel, Taglöhner von Dürrenäsch, Stadthof 91.\nWalti-Müller, Jakob, Milchverkäufer und Konsumhalter von Dürrenäsch,\n  Milchgasse 144.\nWalti-Zimmermann, Rosa, Taglöhnerin von Dürrenäsch, Stadthof 94.\nWalti-Zobrist, Johann, Kartenschleifer von Dürrenäsch, Halden 260 b.\nWandfluh-Sommer, Joh., Schuhmacher von Frutigen (Bern), Halden 286.\nWanger-Häusermann, Gottlieb, Buchbinder, Kirchhof 164.\nWanger, Henriette, Adelbändli 174.\nWanger, Julie, Part., Kirchhof 164.\nWanger, Louise, Part., Casinostraße 1176.\nWanger, Marie, Kaufmanns, Part., Laurenzenvorstadt 394.\nWanger, Rosa, Fabrikarbeiterin (Schuhfabrik), Kirchhof 164.\nWanger-Siebenmann, Hermann, Part., Rain 823.\nWanger, Sophie, Kassiers, Part., Laurenzenvorstadt 394.\nWanger-Wanger, Gustav, Kassier der Aarg. Ersparnißkasse, Laurenzen-\n  vorstadt 394.\nWanner, Jakob, Buchhalter von Schleitheim (Schaffhausen), Rathhaus-\n  gasse 20.\nWaßmer, Anna, Ladentochter von Mellingen, Rathhausgasse 1.\nWaßmer-Voß, Rosette, Wittwe von Mellingen, Metzgergasse 91.\nWaßmer-Kummler, Emil, Kaufmann, Spezereihandlung zum „Adler\",\n  Pelzgasse 137.\nWaßmer-Ott, Fidel, Schneider von Jungholz (Baden), Pelzgasse 63.\nWaßmer, Samuel, Ausläufer von Suhr, Adelbändli 172.\nWeber-Beck, Gustav, Bezirksarzt von Menziken, Graben 618.\nWeber-Buchmann, Magdalena, Wittwe von Oberflachs, Rathhausgasse 3.\nWeber-Molfenter, Emil, Nähmaschinenhandlung von Hausen, Rathhaus-\n  gasse 42.\nWeber, Jakob, Dachdecker von Menziken, Erlinsbacherstraße 338.\nWeber-Hegnauer, Hermann, Speisewirth v. Menziken, Bahnhofstr. 568 a.\nWeber-Hunziker, Anna, von Erlinsbach, Bahnhofstraße 1023.\nWeber-Käser, Jakob, Bankabwart v. Oberflachs, v. d. Haldenthor 1109.\nWeber-Lüscher, Otto, Weinhändler von Menziken, Pelzgasse 128.\nWeber-Pfenninger, Ferdinand, Schneider von Griestorf (Böhmen), Milch-\n  gasse 154.\nWeber, Friedrich, Spenglermeister von Vordemwald, Ziegelrain 707.\nWeber, Stephan, Sekretär (Staatsanwaltschaft) von Sulz, Hammer 191.\nWeber, Regina, Part., id. \" id.\nWeber-Weber, Wilhelm, Milchverkäufer v. Menziken, Erlinsbacherstr. 337.\nWeder, Andreas, Dr. jur. von Balgach (St. Gallen), Redaktor des Aarg.\n  Tagblattes, Pelzgasse 128.\nWehrli, Andreas, Zimmermann von Küttigen, Ziegelrain 705.\nWehrli-Bircher, Hans, Gypsermeister, Halden 250.\nWehrli-Bolliger, Karl, Gasmeister von Küttigen, Zollrain 87.\nWehrli-Blattner, Adolf, Cementarbeiter von Küttigen, Erlinsbacherstr. 335.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7423,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2422,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:02:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p147",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p147.jpeg",
+      "bytes": 260076,
+      "sha256": "034ff6c01a6d1f66768837aa1f6c2833251269f565ed02bc1049eb28b7eaa7a7",
+      "sha256_of": "original",
+      "working_copy": "1892_p147.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:02:29+00:00"
+  }
+}

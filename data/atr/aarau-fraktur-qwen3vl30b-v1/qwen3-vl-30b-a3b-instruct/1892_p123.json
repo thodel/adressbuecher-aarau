@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p123",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p123.jpeg",
+    "bytes": 249651,
+    "sha256": "57beb4d1b9094cee4e958f32f1e0c2a137762f107c5176310fabbada34b9aab4",
+    "sha256_of": "original",
+    "working_copy": "1892_p123.jpeg"
+  },
+  "text": "Keller — Kohler.\n107\nKeller-Siebenmann, Daniel, Uhrenmacher, Uhrenhandlung, von Veltheim, Laurenzenthorgasse 129.\nKeller-Sommerhalder, Erwin, Gießerarbeiter von Maisprach, Abel-\nhändli 85 b.\nKeller-Spereisen, Gottlieb, Wirth z. neuen Bund von Wöschau (Soloth.), Rain 822.\nKeller-Steiner, Karl, Hafer- und Weinhändlung, Rain 878.\nKeller, Verena und Lina, Part. von Veltheim, Laurenzenvorstadt 1294.\nKern, Emilie, Stickerei- und Wollengeschäft, Laurenzenthorgasse 1118.\nKern-Hunziker, Emil, Fabrikant, Bahnhofstrasse 559.\nKern-Rychner, Emil, Mechaniker, Bahnhofstrasse 559.\nKern-Saxer, Adolf, Part., Rain 872.\nKern-von Arand, Heinrich, Mechaniker, Gartenstrasse 1129.\nKessler-Läuchli, Hans, Faktor von Schiers (Graubünden), Oberthor 228 b.\nKettiger-Bertschinger, Arnold, Prokurist von Liectal, Laurenzenvorstadt 360.\nKneupf-Diebold, Joseph Carl, Apotheker von Boswyl, vor. Vorstadt 894.\nKiburg-Häfliger, Gotthold, Sattler und Tapezierer von Oberentfelden, Entfelderstrasse 968.\nKiburg, Lina, Fabrikarbeiterin von Erlinsbach (Solothurn), Halden 253.\nKiburg-Wüthrich, Barbara, Fabrikarbeiterin von Unterkulm, Milchgasse 143.\nKielholz-Liechbach, Gottlieb, Postbeamter von Mettau, hinter dem Bahnhof 501.\nKielholz-Brogli, Franz, Bahngangestellter von Mettau, Halden 276.\nKielholz, Karolina, Haushälterin von Mettau, Schachen 730.\nKielholz, Leopold, Part., Schachen 730.\nKiener-Tschopp, Margaretha, Näherin von Bezswyl, Bahnhofstrasse 1173.\nKiefer-Dambach, Robert, Bankbeamter, hinter dem Bahnhof 503.\nKiefer-Haßler, Samuel, Postkassier, Graben 209.\nKiefer-Leypraz, Fanny, Mezgers Wittwe, Part., Zoltrain 87.\nKiefer-Kilchenmann, Wilhelm, Mezger und Wirth, Zoltrain 87.\nKirchhofer-Obriß, Maria, Wittwe von Luenstein, Casinofstrasse 570.\nKirchhofer-Schlatter, Maria, Küfers Wittwe v. Schaffhausen, Halden 248.\nKirchhofer-Vonwiler, Fda, Modistin von Meersburg (Sachsen), Graben 207.\nKistler-Kull, Jakob, Steuerpräsident von Bözen, obere Vorstadt 925.\nKistler-Treier, Emil, Taglöhner von Bözen, Milchgasse 148.\nKlingelsfuß, Alfred Jakob, Sohn, Mechaniker von Basel, Weinberg 321 c.\nKlingelsfuß, Joh. Fried., Mechaniker und Eichmeister von Basel, Weinberg 321 c.\nKloter-Kohler, Edmund, Packer von Lengnau, Hammer 188.\nKnecht-Bügeli, Barbara, Fabrikarbeiterin von Oberflachs, Halden 264.\nKönig-Steininger, Anna, Küfers Wittwe von Bottenwyl, Pelzgasse 63.\nKohlmann-Läuchli, Verena, Wittwe, Lithographiegesellschaft von Daxlanden (Baden), Kirchhof 164.\nKoller-Kohler, Elisabeth, Spetterin von Berikon, Mezgergasse 60.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7160,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2502,
+    "lines": 40,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 61.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:43:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p123",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p123.jpeg",
+      "bytes": 249651,
+      "sha256": "57beb4d1b9094cee4e958f32f1e0c2a137762f107c5176310fabbada34b9aab4",
+      "sha256_of": "original",
+      "working_copy": "1892_p123.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:53+00:00"
+  }
+}

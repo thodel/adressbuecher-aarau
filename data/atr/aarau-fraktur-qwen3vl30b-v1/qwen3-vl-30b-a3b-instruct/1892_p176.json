@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p176",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p176.jpeg",
+    "bytes": 225468,
+    "sha256": "ccf0ec29b91147e454dd91e1ed1c9d2bb136d3fe7a38c8b79f1b5e7bd45e1a98",
+    "sha256_of": "original",
+    "working_copy": "1892_p176.jpeg"
+  },
+  "text": "160\nVerzeichniss der gemeinnützigen u. wohlthätigen Anstalten.\n\nAarg. Bibelgesellschaft,\nderen Niederlage von Bibeln bei G., Angst\nPräsident: Merz, Pfarrer in Suhr.\nVizepräsident: Niggli, alt Lehrer, Aarau.\nKassier: Frymann, G., Aarau.\nAktuar: Frey, Pfarrhelfer Aarau.\n\nArmen-Erziehungsanstalt Kasteln.\nPräsident: Henz, Julius, Aarau.\nVizepräsident: Dr. A. Schöffe, Staats-\nschreiber.\nKassier: Guyer, Oskar.\nAktuar: Frey, Gb., Pfarrhelfer.\nMitglieder: Dr. Schmuziger, Fried., Arzt.\nHäffig, Hans, Stadtrath.\nWigemann, A., Hausvater.\n\nArmenversicherungsverein des Bezirks\nAarau.\nPräsident: Graf, Pfarrer in Aarau.\nVizepräsident: Frismann, Armenpfleger\nin Aarau.\nKassier: Geller, Bezirksrichter.\nMitglieder: Neuburger-Smhof, Aarau.\nHunziker, Lehrer, \"\nBernaly, Pfarrer, \"\nHäffig, Stadtrath, \"\nRüetschi, Bezirksrichter, Suhr.\nBasler, alt Gemeindeschreiber,\nRüttigen.\nMüri, Pfarrer Oberentfelden.\n\nBlindenaufsfond.\n(Verwaltet vom Einwohnerverein.)\nPräsident: Fischer, Pfarrer\nVizepräsident: Rüseler, Steuerpräsident.\nKassier: Wehrli, Kassier der Aarg. Bank.\nAktuar: Schibli, Sekretär der Justizdir.\nMitglied: Häffig, Hans, Stadtrath.\n\nDiakonissenstation Aarau.\nPräsidentin: Frä. Feer, Idele.\nKassier: Gyfi-Büchli.\nMitglieder: Frau Sauerländer-Custer.\n\" C. Hagauer, Emma\n\" Urech, Pfarrers.\n\" Rauchenstein, Prof.\n\" Ringier-Schudi.\nFrä. Schmuziger, Gina.\n\nTaubstummenanstalt von Aarau auf\nLandenhof.\nPräsident: Henz, Julius.\nVizepräsident: Guyer-Blattner, August.\nKassier: Gifi-Bonarz, B.\nAktuar: Bernaly, Pfarrer.\nInspektor: Fischer, Pfarrer.\nMitglieder: Weber, G., Bezirksarzt.\nSchmidt, M., Stadttamman.\n\nAnstalt für schwadysstnige Kinder auf\nSchloss Biberstein (Rechtssitz in Aarau).\nGegründet 1889.\nDirektion:\nDr. med. G. Schenker, Präsident.\nHans Häffig, Stadtrath, Vicepräsident\nund Aktuar.\nR. Sauerländer, Kassier.\nA. Gonzenbach, Stadtrath.\nR. Bernaly, Pfarrer.\nFr. Siegfried-Leupold.\nH. Kern-von Arandt.\nP. Oberhänslü-Wärtli, Hausvater.\n\nKantonale Krankenanstalt in Aarau.\nBircher-Schaymann, Heinrich, Dr. med,\nadministrativer Direktor und Ober-\narzt der chirurgischen Abtheilung.\nRalt-Läubli, Alfred August, Dr. med.,\nOberarzt der medizinischen Abthei-\nlung.\nMeyer-Brunner, Emil, Verwalter.\nVolliger, Heinrich, Sekretär.\nLeimgruber, Eduard, Portier.\n\nHilfsgeellschaft.\nVorstand:\nPfarrer Bernaly, Präsident.\n\" Graf, Vicepräsident.\n\" Fischer, Sekretär.\nBaumann-Gyfi, Kassier.\nAngst, R., Kaufmann.\nGyfi-Studler.\nHäffig, Stadtrath.\nDr. Lindt, Apotheker.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6867,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2450,
+    "lines": 89,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 26.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:50:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p176",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p176.jpeg",
+      "bytes": 225468,
+      "sha256": "ccf0ec29b91147e454dd91e1ed1c9d2bb136d3fe7a38c8b79f1b5e7bd45e1a98",
+      "sha256_of": "original",
+      "working_copy": "1892_p176.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:05+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p031",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p031.jpeg",
+    "bytes": 223198,
+    "sha256": "4bf2ce045ed9ac26eb643d13498ff99599f178c82c03d81a136a609b3cf13d93",
+    "sha256_of": "original",
+    "working_copy": "1892_p031.jpeg"
+  },
+  "text": "Haus-\nNr.\n265. Haßler=Ernst, August, Färber.\nHaßler, Maria, Part.\n266. a. Wehrli=Häfzig, Hans, Zimmermann.\n266. b. Hagnauer, Gottlieb, Metzger.\nHofettler=Hagnauer, Niklaus, Schuhmacher, von Guggisberg.\nBircher=Wächter, Jakob, Schlosser, von Rüttigen.\nMeigner=Süß, Johann, Schneider, von Geroldschofen.\n267. Siebenmann=Martti, Rosinaß Erbschaft.\nStrebel=Siebenmann, Karl, Sekretär.\nMartti-Siebenmann, Jda, Arbeitslehrerin.\nDöhnel, Emma, Spetterin, von Badenweiler (Baden).\nStrebel geb. Brunner, Marie, Part. von Büblikon.\n268. Merz=Dürr, Jb., Heizer.\nSchmid-Unger, Rudolf, Weichenmärter, von Erlinsbach.\nEngesser-Brunner, Joseph, Schneider von Durchhausen (Württemberg).\n269. * Keller=Läuchli, Paul, Zuckerbäcker.\nRüser-Leder, Joh. Rudolf, Steinhauser von Biberstein.\nMärti-Amstler, Jakob, Küfer von Mandach.\n270. † Derfelbe.\nHelm, Emil, Tapezierer (Werkstätte).\n271. Fisch=Dürr, Elise, Schuhmachermeisters Wittwe.\nDürr, Gottfried, Schuhmacher.\nDürr, Karolina, Glaser.\n272. * Häfzig=Dätwyler, Siegrists Erbschaft.\nWehrli=Steiner, Johann, Färber, von Atp.\nSteiner=Haller, Maria, Part. von Gontenschwyl.\nSteiner, Hermann, Bahngestellter, von Gontenschwyl.\nWernle=Treier, Samuel, Taglöshner, von Thalheim.\n273. Keller=Bauhofer, Daniel, Färber, von Billigen.\nFehlmann-Hinden, Margaritha, Näherin, von Remigen.\n274. Vertschi, Geschwister, Jakob, Adolf, Gottlieb und Emma, von Dürrenäsch.\nBertschi-Emma, Haushälterin, von Dürrenäsch.\nAdrion-Stauff, Andres, Hasner, von Alprisbach (Württemberg).\nFischer, Friedrich, Fuhrmann.\nFischer, Adelina, Haushälterin.\n275. * Armengut der Gemeinde Aarau.\nSchäfer-Scheller, Otto, Tapezierer.\nRämijsperger-Hemmeler, Gottfried, Spengler.\nWernli-Wernli, Rudolf, Taglöshner von Thalheim.\n276. * Widmer=Behnder, Samuel, Wirth von Saenewyl, Holz- und Kohlen-\nhandlung.\nMerz=Horlacher, Traugott, Telefonarbeiter, von Beinwyl.\nRiehholz-Brogli, Franz, Bahngestellter, von Wettau.\n277. Widmer=Behnder, Samuel, von Saenewyl (Haldenrestauration).\nHuber= Müller, Johann, Schneider, von Freistach.\nBerner, Maria Anna, Spetterin, von Kulm.\nBerner, Verena, Fabrikarbeiterin von Kulm.\n278. † Riefer=Leypraz, Fanny, Metzgers Wittwe, Schweinemegg.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4642,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2169,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:35:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p031",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p031.jpeg",
+      "bytes": 223198,
+      "sha256": "4bf2ce045ed9ac26eb643d13498ff99599f178c82c03d81a136a609b3cf13d93",
+      "sha256_of": "original",
+      "working_copy": "1892_p031.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:52+00:00"
+  }
+}

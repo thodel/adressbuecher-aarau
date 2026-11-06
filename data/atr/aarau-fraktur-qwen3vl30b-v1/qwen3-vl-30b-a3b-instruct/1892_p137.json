@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p137",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p137.jpeg",
+    "bytes": 250213,
+    "sha256": "914b9d858dfef080cad8366592f9dc27320e38864bb35d53c8d5b49c0efd87a9",
+    "sha256_of": "original",
+    "working_copy": "1892_p137.jpeg"
+  },
+  "text": "Schäfer–Frei, Emil, Zeughausarbeiter, Stadthof 92 c.\nSchäfer geb. Funf, Elise, Part., hintere Vorstadt 623.\nSchäfer, Jda, Part., Conradstraße 992.\nSchäfer–Meier, Friedrich, Einnehmer der Nordostbahn, Bahnhofst. 515.\nSchäfer–Morlok, Wilhelm, Dienstmann, Oberthor 224.\nSchäfer–Scheller, Otto, Tapezierer, Halden 275.\n*Schäfer–Troller, Adolf, Architekt, Stadtrath, Gais 1063.\nSchäppi, Anna, Arbeitslehrerin von Horgen (Zürich) Zollrain 293.\nSchäppi, Bertha, Büreanangestellte (K. & W. Frey) von Horgen (Zürich), Zollrain 293.\nSchäppi–Honegger, Bertha, Wittwe von Horgen (Zürich), Zollrain 293.\nSchärli–Hilfiker, Johann, Flöker von Biberstein, vor dem Haldenthor 1093.\nSchaffner–Fehlmann, Elisabeth, Wittwe von Gränichen, Weinberg 326.\nSchaffner–Furrimann, Samuel, Camioneur von Effingen, Milchgasse 142.\nSchaffner, Friedrich, Wagner, Bahnhofstraße 649.\nSchaffner–Meier, Jakob, Bahnmärter von Effingen, Adelbändli 173.\nSchaffner–Meier, Margaretha, Näherin von Effingen, Adelbändli 173.\nSchaffner–Zeller, Rudolf, Part., Pelzgasse 121.\nSchazmann–Bolliger, Friedrich, Agent von Windisch, Rain 819.\nSchazmann–Häring, Jakob, Abwart von Windisch, Schloßplatz 1183.\nSchazmann–Häring, Elisabeth, Leinen- und Wollwascherei, vor dem Haldenthor 1299.\nSchazmann–Läuchli, Samuel, Buchbinder von Windisch, Pelzgasse 135\nSchaub–Blauenstein, Adelbert, Gipser v. Ettingen (Basell.), Ziegeler. 704.\nSchaub, Marie, Lehrerin von Ettingen (Baselland), v. d. Haldenthor 769.\nSchaub, Wilhelm, Taglöhner von Tenniken (Baselland), Halden 289.\nScheidegger–Roth, Joh. Ulrich, Käser von Urjenbach (Bern), Milch-, Butter- und Käsehandlung, Holzmarkt 663.\nScheibler, Alfred, Sattler- und Tapezierer von Unterentfelden, Adelbändli 171.\nSchenk–Habegger, Johann, Schuhmacher von Langnau (Bern), Erlinsbacherstraße 335.\nSchenkel–Meili, Bertha, Wittwe, Vorsteherin von Auferstihl (Zürich), Bahnhofstraße 1019.\n*Schener, Gustav, Bezirksstierarzt von Schönenwerd (Solothurn), Schmiedgasse 619.\nSchener–Müller, Johann, Knecht von Rotbacher, Bahnhofstraße 1023.\n*Schener–Siebenmann, Gottlieb, Dr. med., Bahnhofstraße 1289.\nScheuermann, Emilie, Part., Mezgergasse 105.\nSchieler, Fritz, Coiffeur von Walterswil (Solothurn), Kronengasse 34.\n*Schibler–Meister, Oskar, Fürsprech, Direktionssekretär u. Handelsregisterführer, Rain 848.\nSchibler–Sinniger, Rudolf, Aufseher v. Walterswil (Solothurn), Telli 445.\nSchibli, Anna, Damenschneiderin v. Killwangen, Schachen 732.\nSchibli–Jäggi, Anna Maria, Wittwe, Part. \" \" \" \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7185,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2470,
+    "lines": 37,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 65.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:45:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p137",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p137.jpeg",
+      "bytes": 250213,
+      "sha256": "914b9d858dfef080cad8366592f9dc27320e38864bb35d53c8d5b49c0efd87a9",
+      "sha256_of": "original",
+      "working_copy": "1892_p137.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:23+00:00"
+  }
+}

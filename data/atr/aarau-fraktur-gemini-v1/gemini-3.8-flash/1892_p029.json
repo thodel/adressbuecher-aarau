@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p029",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p029.jpeg",
+    "bytes": 221236,
+    "sha256": "10ded999697e29e388c9f37fcd2c48890f8d8ffc93ec1903a7eeecb091cc5199",
+    "sha256_of": "original",
+    "working_copy": "1892_p029.jpeg"
+  },
+  "text": "— 21 —\n\nHaus-\nNr.\n233.  Landolt-Frank, Joh., Schuhmacher.\n  Amsler, Verena, Fabrikarbeiterin, von Bözen.\n  Amsler, Elise,       „       „     „\n234.  Schneider-Läuchli, Ulrich, Schlosser.\n  Jost-Moser, August, Schneider, von Langnau (Bern).\n235.* Haßler-Brunnhofer, Elise, Wittwe.\n  Brunnhofer-Giezentanner, Verena, Seilers Wittwe.\n  Jörg, Jakob, Seiler, von Affoltern (Bern).\n  Giezentanner, Elisabeth, Part., von Kappel (St. Gallen).\n  Wildi-Hilfiker, Gottfried, Heizer, von Schafisheim.\n236.* Trefzger-Schöndli, Gustav.\n  Isliker, Ulrich, Schuhmacher, von Andelfingen (Zürich).\n  Brunner-Senn, Heinrich, Fuhrmann, von Schmiedrued.\n237. a. Fäs-Huber, Jakob, Posamenter, von Oberkulm.\n  Erismann-Lehner, Hermann, Hafner, von Gontenschwyl.\n237. b. Dietiker-Staub, Adolf, Briefträger, von Thalheim.\n  Dietiker, Emma, Wäscherin, von Thalheim.\n237. c. Morgenthaler-Fehlmann, David, Dienstmann, von Staffelbach.\n238. † Fäs-Huber, Jakob, Posamenter. Holzschopf.\n239.  Döhnel-Kyburz, August, Schuhmacher von Badenweiler (Baden).\n\nHalden.\n240.  Ernst-Dürr, Hermann, Schuhmacher.\n  Dätwyler-Wernle, Wilhelm, Taglöhner, von Wittwyl.\n  Hunziker-Süberli, Marie, Taglöhnerin, von Gontenschwyl.\n241.  Armengut der Gemeinde Aarau. Armenhaus.\n  Müller-Woodtli, Jakob, Armenhausvorsteher.\n242. † Dasselbe. Holz- und Spritzenhaus.\n243. † Dasselbe. Absonderungshaus.\n244.  Abgetragen.\n245. a. u. b. Abgetragen.\n246.* Brunnhofer, El., Lehrers Erbschaft.\n  Zähner-Brunnhofer, Nanette, von Horn (Thurgau). Stellenvermittlungs-\n    bureau des schweiz. Frauenverbandes.\n  Brunnhofer, Lisette, Lehrers, Part.\n  Holliger-Berner, Gottfried, Taglöhner, von Boniswyl.\n  Wellenberg-Schaffner, Albertine, Wittwe, von Schöftland.\n247.  Brunnhofer-Giezentanner, Ursula, Wittwe.\n  Ruef-Joho, Johann, Taglöhner, von Rekingen.\n  Fischer, Friedrich, Weibels, Schreiner.\n248.  Haßler-Brunnhofer, Elise, Kaminfegers Wittwe.\n  Kirchhofer-Schlatter, Marie, Privatin, von Schaffhausen.\n  Bertschi-Holzreuter, Rudolf, Holzer, von Dürrenäsch.\n249.  Hauri-Graber, Rudolf, Fuhrmann, von Reitnau.\n  Horlacher-Iberg, Samuel, Mechaniker, von Umiken.\n  Buchmann-Spycher, Adele, Wittwe, Damenschneiderin, von Veltheim.\n250.  Wehrli-Bircher, Hans, Gipsermeister.\n  Schmid, Jakob, Bahnarbeiter, von Seon.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7583,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2252,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:48:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p029",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p029.jpeg",
+      "bytes": 221236,
+      "sha256": "10ded999697e29e388c9f37fcd2c48890f8d8ffc93ec1903a7eeecb091cc5199",
+      "sha256_of": "original",
+      "working_copy": "1892_p029.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:03+00:00"
+  }
+}

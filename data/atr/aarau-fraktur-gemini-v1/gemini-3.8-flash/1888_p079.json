@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p079.jpeg",
+    "bytes": 279241,
+    "sha256": "5a7fb56d2f7a11a6d7f6ae2a030b4f13ffcd3eee5d348ea06a3ceaae9c65d075",
+    "sha256_of": "original",
+    "working_copy": "1888_p079.jpeg"
+  },
+  "text": "— 69 —\n\nHaus=\nNr.\n1092. Wägeler=Vogel, Karl, Dachdecker. (Vor dem Haldenthor.)\n1093. Derselbe. Hintergebäude, Werkstätte u. Wohnhaus. id. id.\n1094.†Berchthold=Lüscher, Fuhrmann. Scheune. id. id.\n1095.†Schützengesellschaft Aarau. Schützenhaus (Scheibenschachen).\n1096.†Dieselbe. Scheibenstand (Scheibenschachen).\n1097.†Schmidt=Hagnauer. Rebhäuschen (Weinberg)\n1098.*Bircher=Schazmann, Med. Dr. (Bachstraße.)\n1099.†Derselbe. Scheune id.\n1100. Merz=Märk, Notar. id.\n1101. Bäbler, J. J., Professor. id.\n1102. Siebenmann=Bräm, Otto, Kreiskommandant. (Weinberg.)\n1103. Perusset=Laurent, A., Bezirkslehrer. (Gartenstraße.)\n1104.†Gemeinde Aarau. Schuppen (jenseits der Aare).\n1105.†Kurz, H., Architekt. Werkstätte und Büreau (in der Gais).\n1106.†Derselbe. Baracke (in der Gais).\n1107. Stänz=Suter, Wittwe. (Bachstraße.)\n1108.†Wehrli=Walser, Rosina. Gewächshaus (vor dem Haldenthor).\n1109. Egloff, G., Gärtner. (Vor dem Haldenthor.)\n1110.†Siebenmann, Jakob, Schneider. Gartenhaus (vor d. Haldenthor).\n1111.†Landolt=Thommen, Karl. Magazin (obere Vorstadt).\n1112. Stephani=Wettler, Albertine. (Bachstraße.)\n1113. Adam=Stephani, Paul. id.\n1114.*Wernli=Adel, Jak., Gärtner. (Laurenzenvorstadt, Philosophenweg.)\n1115. Abgetragen.\n1116.†Schweiz. Nordostbahn. Wärterhäuschen (Bahnhof).\n1117. Richner=Renz, Wittwe. (Obere Vorstadt.)\n1118. Good, Theodor, Kürschner. (Laurenzenthorstraße.)\n1119. Abgetragen.\n1120.†Staat Aargau. Kaserne (Zeughausstraße).\n1121.†Derselbe. Stallungen. id.\n1122.†Perusset=Laurent, Bezirkslehrer. Waschhaus (Gartenstraße).\n1123.†Gemeinde Aarau. Materialschuppen (Friedhof).\n1124. Zulauf=Siebenmann. Weinhändler. (Bachstraße.)\n1125.†Schäfer=Troller, Architekt. Werkstätte (in der Gais).\n1126.†Derselbe. Gartenhaus (in der Gais).\n1127.†Adam=Stephani, Paul. Scheune (Bachstraße).\n1128.†Oboussier, Friedrich, Fabrikant. Waschhaus (Grabenstraße).\n1129. Schoder, Wilhelm, Gerichtspräsident. (Gartenstraße.)\n1130. Dürr=Hermann, Maler. (Kasinostraße.)\n1131. Kurz, Heinrich, Baumeister. (In der Gais.)\n1132.†Zschokke & Cie. Schuppen (Rohrerstraße).\n1133.†Jmhof=Ernst, Fabrikant. Fabrikationsgebäude (Telli).\n1134.†Schindler=Trümphy, Emma. Holzremise (Entfelderstraße).\n1135.†Zulauf=Siebenmann, Weinhändler. Weinmagazin (Bachstraße).\n1136.†Kanalbauconsortium. Schirmhäuschen am Kanal (Erlinsbacher=\n  straße).\n1137. Wolfinger, Max, Professor. (Bachstraße.)\n1138.*Schmid=Jenny, Oberst, in Glarus. (Bachstraße.)\n1139.†Schäfer=Troller, Ad., Architekt. Magazin (in der Gais).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9196,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2470,
+    "lines": 52,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:32:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p079.jpeg",
+      "bytes": 279241,
+      "sha256": "5a7fb56d2f7a11a6d7f6ae2a030b4f13ffcd3eee5d348ea06a3ceaae9c65d075",
+      "sha256_of": "original",
+      "working_copy": "1888_p079.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:26+00:00"
+  }
+}

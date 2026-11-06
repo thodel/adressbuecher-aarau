@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p120",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p120.jpeg",
+    "bytes": 246435,
+    "sha256": "ecddec613f8539cd629628e91f51339f4cf874e2d5fd86f0be7a3671e033beea",
+    "sha256_of": "original",
+    "working_copy": "1892_p120.jpeg"
+  },
+  "text": "104\nHugi — Iberg.\n\nHugi, Maria, Coiffeuse von Selzach (Solothurn), Graben 207.\nHummel-Müller, Georg, Lithograph, vor dem Haldenthor 758.\nHunn-Zehlmann, Verena, Taglöhnerin von Egliswil, v. d. Haldenthor 773.\nHunn-Gell, Katharina, Witwe von Egliswil, Rain 880.\nHunziker-Baumberger, Rudolf, Lehrer, Pelzgasse 126.\nHunziker, Emil Guido, Rentier, Laurenzenvorstadt 356.\nHunziker-Kleiner, Hermann, Part., Feerstraße 1337.\nHunziker-Gall, Magdalena, Part., Halden 282.\nHunziker, Gottlieb, Schneider von Oberfuml, Adelbändli 172.\nHunziker, Hermann, Sohn, Kaufmann, Graben 221.\nHunziker-Hunziker, Heinrich, Holzpalter von Kirchlerau, Halden 264.\nHunziker, Raipar Emil, Lokomotivheizer von Leimbach, Ziegelrain 704.\nHunziker-Leuch, Edwin, Commis von Oberfuml, Ziegelrain 747.\nHunziker-Müller, Friedrich, Maschinenmeister, Laurenzenthorgasse 117.\nHunziker-Müller, Maria Anna, Schumachers Witwe von Unterfuml, jenseits der Aare 342.\nHunziker-Schär, Emanuel, Schmied von Mooslerau, vor dem Haldenthor 802.\nHunziker-Sandmeier, Fritz, Drechsler, obere Vorstadt 921.\nHunziker-Schürch, Maria, Schriftsetzers Witwe, Bahnhofstrasse 1022 a.\nHunziker-Säuberli, Marie, Witwe, Taglöhnerin von Gontenschwil, Halden 240.\nHunziker-Siegrist, Rudolf, Kostgeber und Kaffeewirth von Oberfuml, Bahnhofstrasse 1023.\nHunziker-Suter, Marie, Witwe von Kirchlerau, Metzgergasse 100.\nHunziker-Thommen, Hermann, Fabrikant, Graben 221.\nHunziker-Ischopp, Gottlieb, Schneider von Unterfuml, Adelbändli 84.\nHunziker-Widmer, Fritz, Kaufmann von Brittnau, Milchgasse 142.\nHunziker-Wieland, Elise, Witwe von Unterfuml, Ziegelrain 747.\nHunziker-Wydler, Paulina, Part., Laurenzenvorstadt 364.\nHunziker-Zütt, Guido, Rentier, Laurenzenvorstadt 374.\nHufi-Lämmli, Franz Josef, Bahngaststeller von Wangen (Solothurn), Tellirain 1335.\n\nLäcker-Haller, Joseph, Comeptibleshändler von Lachapelle (Franfreich), hintere Vorstadt 696.\nJäger-Häffig, Johann, Maurer von Auserstihl (Zürich), Bahnhofstr. 1022.\nJäggi-Weber, Hermann, Geschäftsführer (Baugeschäft D. Zschotte), hinter dem Bahnhof 494.\nJäggi, Wilhelmine, Lehrerin, hintere Vorstadt 646.\nIberg-Lüscher, Johann Jakob, Maschinenmeister v. Rüttigen, Milchgasse 78.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6190,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2161,
+    "lines": 35,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 60.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:43:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p120",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p120.jpeg",
+      "bytes": 246435,
+      "sha256": "ecddec613f8539cd629628e91f51339f4cf874e2d5fd86f0be7a3671e033beea",
+      "sha256_of": "original",
+      "working_copy": "1892_p120.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:33+00:00"
+  }
+}

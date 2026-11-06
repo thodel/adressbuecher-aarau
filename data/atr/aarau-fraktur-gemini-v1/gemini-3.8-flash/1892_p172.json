@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p172",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p172.jpeg",
+    "bytes": 237325,
+    "sha256": "54b1962a5f9cbb317776309dcad2961ef9a5d284a04d7dd6c5846d853a02f12f",
+    "sha256_of": "original",
+    "working_copy": "1892_p172.jpeg"
+  },
+  "text": "156\n\nUhrenhandlungen.\nFischer, Jonathan, Holzmarkt 1260.\nFrey, Albert, Rain 821.\nHemmeler, Jakob, Rathhausgasse 23.\nHirschy, Joh. Rud., vordere Vorstadt 668.\nKeller, Daniel, Laurenzenthorgasse 120.\nMorath, Johann, Rathhausgasse 2.\nSuter, Rudolf, Casinostraße 571.\n\nWaagen (öffentliche).\nFleiner (Cementbrennerei), Erlinsbacher=\n  straße.\nSchlachthaus (Viehwaage).\nSpinner, J. J., Bahnhof (Güterschuppen).\nSteiner, Samuel, Laurenzenvorstadt.\n\nWachsfabrikanten.\nMaurer, Emil, zum Kreuz, jenseits der\n  Aare 1303.\n\nWaffenhandlungen.\nBrast, Geschwister, Holzmarkt 661.\nRychner, Heinrich, Schloßplatz 196.\n\nWagner.\nBertschi, Adolf, Rain 877.\nGing, Wilhelm, Casinostraße 572.\nSchaffner, Friedrich, Bahnhofstraße 649.\n\nWascherinnen.\nBalmer, Marie und Karoline, obere Vor=\n  stadt 926.\nBlume-Hirt, Marie, Hammer 189.\nBruns-Gattiker, Dorothea, Pelzgasse 127.\nBühler-Widmer, Anna, Schmiedgasse 632.\nDietiker, Emma, Golattenmattg. 237. b.\nFrey, Rosa, vor dem Haldenthor 810.\nKäser-Leder, Nanette, Halden 269.\nMatter-Thommann, Maria, Wittwe, Adel=\n  bändli 170.\nRüegger-Bertschi, Lina, Metzgergasse 107.\nSchatzmann - Häring, Elisabeth, (Woll=\n  wäscherei), vor dem Haldenthor 1299.\nSchmidt, Anna und Jenni, vor dem\n  Haldenthor 1332.\nWiederkehr = Oeschger, Viktoria, Milch=\n  gasse 152.\n\nWaschanstalten.\nTrefzger, Gustav, Färbergäßchen 213.\n\nWasserwaagenfabrikation.\nKlingelfuß, Joh. Friedr., Mechaniker, im\n  Weinberg 321.\n\n[spalte 2]\nWeinhandlungen.\nBaumann, Carl und Eugen, Laurenzen=\n  vorstadt 390.\nBirmann-Probst, Marie, Wittwe, Rath=\n  hausgasse 20.\nBrügger-Sommerhalder, Christian, hinter\n  dem Bahnhof 497 (Veltlinerweine).\nBührer-Häusler (feine Flaschenweine),\n  Bachstraße 1174.\nEgloff, Franz, Schachen 731.\nFecht, Julius, vor dem Haldenthor 758.\nKeller, Karl, Rain 878.\nSchmid, Robert, Zollrain 177.\nBidiella, Manuel und Frey, Friedrich,\n  obere Vorstadt 930.\nWeber-Lüscher, Otto, Pelzgasse 128.\nWüthrich-Lüdi, Laurenzenthorgasse 117.\nZulauf, Leopold, Bachstraße 1124.\n\nWeißnäherinnen.\nBeck, Carolina, Adelbändli 174.\nBlattner, Maria, hintere Vorstadt 621.\nErismann, Maria, hintere Vorstadt 621.\nGünthard-Hauri, Marie, Schachen 739.\nHaßler = Oberlin, Margaretha, Bach=\n  straße 1040.\nHoffmann, Nanette und Carolina, obere\n  Vorstadt 948.\nNiggli, Elise, Kirchplatz 80.\nPlüß, Rosina, hintere Vorstadt 699.\nWittwer, Emma, Adelbändli 82.\n\nWeißwaarenhandlungen.\nBolliger, Gustav, hintere Vorstadt 646.\nDolder, J., Graben 219.\nErdin, Albin, Nachfolger von Wwe. Jean\n  Kiefer, Rathhausgasse 22.\nErismann & Blattner, hintere Vorstadt 621.\nErny-Faßler, Emil, Kronengasse 33.\nFehlmann-Blattner, Anna, Bahnhof=\n  straße 648.\nHaßler-Hunziker Karl, Bahnhofstr. 1020.\nHeß, Gebr., „zur Stadt Mühlhausen“,\n  Rathhausgasse 4.\nMeisel-Leutwyler, Verena, Rathhaus=\n  gasse 19.\n\nWirthschaften.\nGasthöfe.\nKrone: Mathys, Rudolf, Kronengasse 39.\nLöwen: Müller, Heinrich, vordere Vor=\n  stadt 681.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9894,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2872,
+    "lines": 98,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 27.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:06:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p172",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p172.jpeg",
+      "bytes": 237325,
+      "sha256": "54b1962a5f9cbb317776309dcad2961ef9a5d284a04d7dd6c5846d853a02f12f",
+      "sha256_of": "original",
+      "working_copy": "1892_p172.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:06:55+00:00"
+  }
+}

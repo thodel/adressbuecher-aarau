@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p075.jpeg",
+    "bytes": 259775,
+    "sha256": "805c4539951363e69f6c9c1a7a3aac7bc733339a4241108544de74735299be75",
+    "sha256_of": "original",
+    "working_copy": "1888_p075.jpeg"
+  },
+  "text": "Haus-\nNr.\n1015. Evangelischer Verein. Kapelle.\n1016.† Frey=Feer, Bertha, Fabrikants Wittwe. Fabrikgebäude.\n(Firma: Z. Frey-Feer & Cie. Seidenbandfabrikation.)\n1017.† Dießelbe. Maschinenhaus.\n1018.* Dießelbe. Wohnhaus mit Holzremise.\nTanner-Wehrli, Emil, Posamenter, von Dintikon.\nWehrli, Jakob, Mechaniker, von Rüttigen.\n1173 Diakonissenstation Aarau.\nBerchten, Susanna, Diakonissin, von St. Stephan (Bern).\nSchneider, Adele, Diakonissin, von Pisterlen (Bern).\nGeiser, Elise, Diakonissin, von Langenthal (Bern).\nSiebenmann, Rosa, Tapezierers, Part.\nSchmuziger, Juliana, Part.\nStierli, Anna, Part., von Gebenstorf.\n1208 † Diakonissenstation Aarau. Waischhaus.\n1019. Schenker=Siebenmann, Gottlieb, Dr. Med., Arzt.\n1020. Häßler=Hunziker, Karl, Kaufmann. Hemdenfabrikation. Weiß-\nmaaren- und Tapetenlager.\nWanger=Siebenmann, Hermann, Part.\nBilleter=Apel, Moriz, Faktor, von Hainichen (Sachsen).\n1021.† Derfelbe. Hintergebäude.\nRychner=Hunziker, Elise, Malers Wittwe, Part.\n1022.a. Jäger=Häffig, Johann, Maurer, von Auferfihl (Zürich).\nHunziker=Schürch, Marie, Schriftsetzers Wittwe, Part.\nSiebenmann=Hartmann, Margaretha, Wittwe, Part.\nMeier, Johann, Lehrer, von Arisflau.\n1022.b. Wildi=Leuthard, Serena, Wittwe, Part., von Beltheim.\nWildi=Weipi, Adele, von Beltheim. Coiffeurgeschäft.\nMarfurt, Xaver, Coiffeurghilfe, von Langnau (Kuzern).\nBhend, Elisabeth, Damenschneiderin, von Unterseen (Bern).\nBaumann, Barbara, Part., von Stilli.\n1023. Siebenmann=Seiler, Catharina, Wittwe, Part.\nWidmer=Zehnder, Samuel, Negt., von Safenwyl. Kaffeeewirthschaft.\nKnell-Suter, Jakob, Vieker, von Tös (Zürich).\n1024. Abgetragen, an dessen Platz\n1074 * Spengler=Lienhard, Louise, Wittwe, Part.\nWidmer=Zehnder, Samuel, Confundepothalter, von Safenwyl.\nGamper=Baumann, Emil, March. Tailleur.\nDambach=Wild, Jakob, Kreispofladjunkt, von Brugg.\n1025. Eggimann=Jöß, Johann, von Sumiswald (Bern). Restauration.\nPhilipp-Bonarz, Johann, Milchverkäufer, von Rienberg (Solothurn).\nSiegenthaler-Hirt, Hermann, Uhrenmacher, von Truob (Bern).\nSiegenthaler-Hirt, Elise, Glätterin, von Truob (Bern).\n1026.* Gemeinde Aarau. Wohnhaus.\nPeduzzi, Franzesko, von Schignano (Italien). Südfrüchtenhandlung.\nGinsberg-Amman, Friedrich, Part.\nAdreßbuch der Stadt Aarau 1888.\n5",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4654,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2229,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p075.jpeg",
+      "bytes": 259775,
+      "sha256": "805c4539951363e69f6c9c1a7a3aac7bc733339a4241108544de74735299be75",
+      "sha256_of": "original",
+      "working_copy": "1888_p075.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:04+00:00"
+  }
+}

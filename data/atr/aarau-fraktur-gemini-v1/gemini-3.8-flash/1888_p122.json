@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p122",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p122.jpeg",
+    "bytes": 273313,
+    "sha256": "acb7e6629c5211145dd1c50e695e172820d61fde08e654783fb5e95b7a828818",
+    "sha256_of": "original",
+    "working_copy": "1888_p122.jpeg"
+  },
+  "text": "104 Müller — Nußbaum.\n\nMüller-Suter, Jakob, Lithographiebesitzer von Lenzburg, vordere Vor-\n  stadt 894.\nMüller-Suter, Jakob, Posamenter von Gränichen, Laurenzenvorstadt 376.\nMüller-Bonäsch, Jakob, Buchbinder von Unterkulm, hintere Vorstadt 642.\nMüller-von Däniken, Friedrich, Gepäckträger u. Oekonom, Schachen 725.\nMüller-Walti, Jakob, Taglöhner von Bözberg, Igelweid 635.\nMüller-Woodtli, Jakob, Armenhausvorsteher, Halden 241.\nMüller-Wildi, Karolina, Wittwe, Part. von Möttlingen (Württemberg),\n  Halden 285.\nMüller, Albertine, Damenschneiderin von Möttlingen (Württemberg),\n  Halden 285.\nMüller, Otto, Commis von Möttlingen (Württemberg), Halden 285.\nMüller-Zellweger, Dorothea, Wittwe, Part. von Roggwyl (Thurgau),\n  Igelweid 1232.\nMüri-Frech, Joh. Heinrich, Mechaniker von Schinznach, vor dem Halden-\n  thor 809.\nMüri, Paul, Fürsprech, Controleur der Creditanstalt, von Schinznach,\n  Rain 869.\nMürset-Hediger, Marie, Wittwe, Part. von Dieße (Bern), Kirchgasse 13.\nMürset, Marie, Coiffeuse von Dieße (Bern), Kirchgasse 13.\nMürset, Karl Friedrich, Apothekergehilfe von Dieße (Bern), Rathhaus-\n  gasse 5.\n\nNabholz-Siebenmann, Johanna, Part. von Zürich, Gais 480.\nNabholz, Hermann Hans, Kaufmann von Zürich, id. id.\nNadler-Häuptli, Anna, Gepäckträgers Wittwe von Biberstein, Consum-\n  halle, hintere Vorstadt 647.\nNäf-Ludwig, Emil, Kantonsstatistiker von Aarburg, Kronengasse 36.\nNäf-Widmer, Urs Joseph, Taglöhner von Wysen (Solothurn), Golatten-\n  mattgasse 230.\nNeeser-Hilfiker, Samuel, Taglöhner von Schloßrued, vor dem Halden-\n  thor 1084.\nNeuburger-Imhof, Albert, Apotheker, Part., Laurenzenvorstadt 353.\nNiederhauser-Gysin, Theodor, Buchbinder v. Baselaugst (Baselland), hin-\n  ter dem Bahnhof 502.\nNiederhauser-Schenk, Marie, Taglöhnerin von Eriswyl (Bern), Milch-\n  gasse 143.\nNieding, Heinrich, Zimmermeister von Märstetten (Thurgau), Entfelder-\n  straße 970.\nNiggli-Bohnenblust, Arnold, Fürsprech, Stadtschreiber, obere Vorstadt 948.\nNiggli, Elise, Weißnäherin von Aarburg, Zollrain 91.\nNiggli, Friedrich, Lehrer, Part., von Aarburg, Graben 221.\nNöthiger-Müller, Gottlieb, Zugführer von Uerkheim, Rain 883.\nNußbaum, Anna Johanna, Spetterin von Birrwyl, Rain 881.\nNußbaum-Finkbohner, Trinette, Wittwe von Densbüren, im Hammer 188.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9098,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2240,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0222,
+    "mean_line_chars": 48.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:37:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p122",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p122.jpeg",
+      "bytes": 273313,
+      "sha256": "acb7e6629c5211145dd1c50e695e172820d61fde08e654783fb5e95b7a828818",
+      "sha256_of": "original",
+      "working_copy": "1888_p122.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:17+00:00"
+  }
+}

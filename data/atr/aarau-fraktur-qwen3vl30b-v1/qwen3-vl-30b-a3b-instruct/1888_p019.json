@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p019",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p019.jpeg",
+    "bytes": 261678,
+    "sha256": "a5038369abad9e12ccd8e9ca2fd073887187a0cfcd01e63f0fd0ee4189963e46",
+    "sha256_of": "original",
+    "working_copy": "1888_p019.jpeg"
+  },
+  "text": "Haus-\nNr.\nFröhlich geb. Fröhlich, Sophie, Oberrichters Wittwe, von Brugg.\nKünzlen-Kranich, Fried., Buchhalter, von Sulzbach (Württemberg).\nStrebel, Martina, Spetterin, von Mägenwyl.\nStrebel, Serena, Spetterin, von Mägenwyl.\nStrebel, Waldburga, Näherin, von Mägenwyl.\nFeuervier geb. Hunziker, Elise, Wittwe, Chagemond (Frankreich).\n89. Wirth-Herzog, Jakob, Auswanderungs-Agent. General-Agentur für\nAuswanderungs-, Lebens- und Unfallversicherung.\nHerzog-Tschanz, Gottlieb, Kaufmann, von Rekingen. Colonialwaaren-\nhandlung.\nFehlmann-Wing, Joh. Friedrich, Güterexpedient, von Unterböbberg.\nWing, Johann, Part., von Stein (Schaffhausen).\nBidiella, Manuel, von Sitges (Spanien), Weinhändlung.\n90. † Gemeinde Aarau. Schlachthaus.\n91. Wazmer-Bosz, Joseph, von Mellingen. Bett- und Möbelwaaren-\nhandlung.\nRiggli, Elise, Weißnäherin, von Aarburg.\n\nStadthof.\n92. a. Dambach-Boszard, Jakob, Schuster, von Oberböbberg.\nKyburz-Withrich, Samuel, Taglöhner, von Unterkulm.\nZubler geb. Stirnemann, Elisabeth, Wittwe, Spetterin, von Hunzenschwyl.\nWalti-Hächler, Samuel, Taglöhner, von Dürrenäsch.\n92. b. Bertschi geb. Vogt, Elisabeth, Schreiners Wittwe, von Sumiswald\n(Bern).\nBertschi-Wazmer, Jakob, Postpacker, von Sumiswald (Bern).\nBerner-Martin, Jakob, Schreinermeister. Werkstätte.\n92. c. Rothplez-Siebenmann, Maria Elisabeth, Schreiners, Wittwe.\nWittmer, Marie, Taglöhnerin, von Erlinsbach (Solothurn).\n92. d. Schmid-Peter, Hans, Postfakteur.\nSchmid, Ida, Damenschneiderin.\nSchmid, Elise, Schneiders, Fabrikarbeiterin.\n92. e.* Rothplez-Siebenmann, Maria Elisabeth, Schreiners, Wittwe.\nSchori-Suter, Friedrich, Mechaniker, von Seedorf (Bern).\nDämsler, Wilhelm, Taglöhner, von Wittwyl.\n92. f. † Wazmer-Bosz, Jakob, Magazin.\n93. * Rothplez-Siebenmann, Maria Elisabeth, Schreiners, Wittwe.\nBerner-Martin, Jakob, Schreinermeister, von Rupperswyl.\nPliiss-Ledermann, Bernhard, Knecht, von Asten.\n94. Boszard, Geschwister, von Effingen.\nSchmid-Boszard, Anna, Näherin.\nBoszard, Maria, Wagenputzerin, von Effingen.\nWalti-Zimmermann, Rudolf, Taglöhner, von Dürrenäsch.\n95. Meili-Sulzer, Jakob, von Elgg. Handelsmüllerei.\n96. † Derselbe. Transmmission.\n97. Abgetragen. Ryniker, Fr., Bierbrauer.\n98. † Abgetragen an dessen Platz\n1256 Meili-Sulzer, Jakob, Müller, von Elgg. Stallung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4577,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2256,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 45.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:20:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p019",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p019.jpeg",
+      "bytes": 261678,
+      "sha256": "a5038369abad9e12ccd8e9ca2fd073887187a0cfcd01e63f0fd0ee4189963e46",
+      "sha256_of": "original",
+      "working_copy": "1888_p019.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:04+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p019",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p019.jpeg",
+    "bytes": 227174,
+    "sha256": "c247a5a9ce85eeb5621aae219619396ca402c0351dadc952c0690359b15127ce",
+    "sha256_of": "original",
+    "working_copy": "1892_p019.jpeg"
+  },
+  "text": "— 11 —\n\n118. Burkhardt=Vertschinger, Ferdinand, Coiffeur. Coiffeur= und\nParfümeriegeschäft.\nBurkhardt, Ferdinand, Sohn, Coiffeur.\nBurkhardt, Lina, Coiffeuse.\n\n119.a. Rohr=Häffig, Emma, Wittwe. Colonialwaarenhandlung. Salzverkauf.\n119.b. Eggen=Salzer, Eduard, Colonialwaarenhandlung.\n120. * Schiefer, F. J. Sohnz, Erbschaft.\nSchiefer-Bonwiller, Adolf, Postbeamter. Cigarren- und Tabakhandlung.\nSchiefer, Louise, Ladentochter.\nKeller-Siebenmann, Daniel, Uhrmacher, von Veltheim. Uhrenhandlung\n\nBelzgasse.\n\n121. * Schiefer, Hermann, Käse- und Butterhandlung.\nSchiefer, Margaretha, Part.\nSchaffner=Zeller, Rudolf, Part.\nFrei, Maria Magdalena, Ladendienerein, von Zurzach.\n122. Küenz= Rümmerli, Oswald, Schuhmachermeister, von Uetikon (Zürich).\nSchuhhandlung.\nWipf geb. Wernli, Margaretha, Wittwe, Borgängerin, von Egliswyl.\nWipf, Jakob, Schneider, von Egliswyl.\nTrog, Gottlieb, Schuhmacher.\n123. Ryhner=Hef, Konrad, Seiler, Seilerwaaren- und Peitschenlager,\nFettwaaren.\n124. Stirnemann geb. Müller, Louise und * Müller, Arnold, Baumeister.\nStirnemann-Müller, Louise, von Gränichen. Ellenwaaren- und Mercerie-\ngeschäft.\nStirnemann, Emma, Lehrerin, von Gränichen.\nMüsperli-Ryhner, Julie, Weißgerbers Wittwe.\nMüsperli, Emma, Weißgerbers, Part.\nZehnder geb. Kaufmann, Barb., Wittwe, Gemüsehändlerin, von Gränichen.\nLenzin, Sophie, Lehrerin.\nHärrli-Linder, Rudolf, Direktionssekretär, von Birtwyl.\n125. Adam=Hef, Anton, Part., von Ufshwyl.\nWalter-Schmuziger, August, von Neumühl (Baden). Nähmaschinen- und\nFourniturenhandlung.\nEdnauer-Reimann, Joseph, Emil, Handlanger, von Herzgnach.\nHausmann-Dietiker, Johann, Taglöhner, von Schafisheim. Holzhändler.\nHunziker=Baumberger, Rudolf, Lehrer.\nGygi-Bächi, Adolf, Tapezierer, von Buchs. Möbelhandlung.\n127. Willi=Blattner, August, Metzger, von Losdorf (Solothurn), Speise-\nwirthschaft.\nBruns-Gattiker, Hermann, Schlosser, von Bremen.\nBruns-Gattiker, Dorothea, obigen Ehefrau, Fein- und Großwäscherei.\n128. Weber-Lüscher, Otto, Weinhändlung, von Menziken.\nLüscher-Herzig, Elisabeth, Wittwe, Part., von Mühlen.\nStacher-Brunner, Gustav, Seminarlehrer, von Egnach (Thurgau).\nWeder, Andreas, Dr. jur., von Valsgach (St. Gallen). (Redaktor des\nAargauer Tagblattes.)\nWäffler-Stäuble, Heinrich, Turnlehrer von Basel.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4532,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2244,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p019",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p019.jpeg",
+      "bytes": 227174,
+      "sha256": "c247a5a9ce85eeb5621aae219619396ca402c0351dadc952c0690359b15127ce",
+      "sha256_of": "original",
+      "working_copy": "1892_p019.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:58+00:00"
+  }
+}

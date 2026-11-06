@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p067",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p067.jpeg",
+    "bytes": 190167,
+    "sha256": "6fc35a6538aa4a5456623ce6ee918c27fcaaa8c609c9556329b4533dc9a5cf13",
+    "sha256_of": "original",
+    "working_copy": "1892_p067.jpeg"
+  },
+  "text": "Haus-\nNr.\n846. † Diefselben. Kohlenraum.\n847. † „ Gartenhaus.\n848. Schibler-Meister, Oskar, Fürsprech, Direktionssekretär. Handels-\nregistratorherr.\nHauptli-Dit, Othmar, Adjunkt des Staatsbuchhalters.\n849. † Siebenmann-Rohr, Rudolf, Bierbrauer, Holzhaus.\n850. Abgetragen, an dessen Platz\n1185 Keller, Ida, Glätterin, von Oberendingen.\nKeller-Schweri, Verena, Part., \"\nKeller-Pfister, Fritz, Bedienter, \"\nRiner-Obriß, Johann, Polizeidiener, von Herznach.\nGautschi-Hintermann, Jakob, Zimmermann, von Reinach.\n1350 † Diefselbe. Schopf.\nSchönenwerderstraße (Wöschau).\n* Märki, Jakob und Haller, Karl, Mühlenbaugeschäft, Bureau.\n1091 Märki-Haller, Gottlieb, Mühlebauer, von Mandach.\nRoggenhausen.\n851. * Gemeinde Aarau. Pächterhaus.\nBolliger-Thut, Rudolf, Pächter, von Egliswyl. Sommerwirthschaft.\nOberholz.\n852. † Staat Aargau. Pulverhaus.\nWalthersburg.\n853. † Walther-Schazmann, Gottlieb, Dekonom. Waschhaus.\n854. † Derfelbe. Echeune und Remise.\n855. † \" Echeune.\n856. \" Wohnhaus.\nRain.\n857. a. Strebel-Rüetschi, Eduard, Schreiner, von Büblisfon.\nFrei-Rues, Gottfried, Schneider, von Bözen.\n857. b.† Derfelbe. Schopfanbau.\n858. Haberstich-Stöckli, Jakob, Zinsrodolverwalter, von Oberentfelden.\nBuilleret-Gérard, Marie, Part., von Romont (Waadt).\n859. * Schweiz. Centralbahn. Bahnwärterhäuschen.\nGruber-Lang, Meinrad, Bahnwärter, von Schönenwerd.\n860. Schweizer-Siebenmann, Fried, Ferd., Partif., von Dättwyl.\nRadig, Clara, Part., von Davos (Graubünden).\nStübmann, Elisabeth, Seminarlehrerin, von Sazeten (Bern).\n861. † Derfelbe. Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3371,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1535,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p067",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p067.jpeg",
+      "bytes": 190167,
+      "sha256": "6fc35a6538aa4a5456623ce6ee918c27fcaaa8c609c9556329b4533dc9a5cf13",
+      "sha256_of": "original",
+      "working_copy": "1892_p067.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:03+00:00"
+  }
+}

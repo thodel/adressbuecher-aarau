@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p098",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p098.jpeg",
+    "bytes": 254304,
+    "sha256": "2744e9dd8dc98d922c00ef13985a86dac110b1fc6ea01aa73e54f2d116c48351",
+    "sha256_of": "original",
+    "working_copy": "1892_p098.jpeg"
+  },
+  "text": "82 — Bachmann — Baur.\n\nBachmann-Moser, Kaspar, Taglöhner von Bottenwyl, Adelbändli 86.\nBachmann-Müller, Rudolf, Maurer von Bottenwyl, Halden 259.\nBachmann-Riniker, Johann, Küfer, Milchgasse 159.\nBaldeschwyler, Mathilde, Part. von Laufenburg, obere Vorstadt 966.\nBaldinger-Wirz, Josephine, Ladenvorsteherin von Baden, Oberthor 138.\nBallmer-Egloff, Karl, Bankangestellter v. Lausen (Baselland), Schachen 729.\nBallmer, Marie und Carolina, Wäscherinnen und Glätterinnen v. Lausen\n  (Baselland), obere Vorstadt 926.\nBally-Arndt, Eugen, Fabrikant, Rohrerstraße 473.\nBally-Schmitter, Adeline, Fabrikants Wittwe, in der Gais 488.\nBally, C. F., von Schönenwerd, Schuhfabrik, jenseits der Aare 309.\nBally, Gebrüder, Bandfabrikation, Hammer 386.\nBargezi, Oswald, Ingenieur von Solothurn, Graben 222.\nBart-Schmid, Postcommis von Altenburg, Bahnhofstraße 541.\nBauer, Friedrich, Ausläufer, Krankenanstalt, von Nagold, Gais 1186.\nBauhofer-Keller, Anna, Kaufmanns Wittwe, Part., jens. der Aare 342.\nBauhofer, Maria, Lehrerin in Erlinsbach, jenseits der Aare 342.\nBauhofer-Müller, Samuel, Thierarzt von Reinach, Rain 875.\nBaumann, Barbara, Part. von Stilli, Golattenmattgasse 231.\nBaumann-Baumann, Heinrich, Wirth z. Freihof, von Stilli, Laurenzen-\n  vorstadt 390.\nBaumann-Bhend, Gottlieb, Schneider von Schafisheim, Oberthor 140.\nBaumann-Bhend, Elise, Damenschneiderin, von Schafisheim, Ober-\n  thor 140.\nBaumann, Emma, Modistin von Oberentfelden, Pelzgasse 64.\nBaumann-Frei, Anna Näherin, von Attelwyl, Ziegelrain 752.\nBaumann, Fritz, Sohn, Hufschmied, Schmiedgasse 625.\nBaumann-Gautschi, Samuel, Hufschmied, Schmiedgasse 625.\nBaumann-Gysi, Heinrich, Oekonom, obere Vorstadt 958.\nBaumann-Hemmann, Karl, Kaufmann, Weinhdlg., Laurenzenvorstadt 390.\nBaumann-Käser, Heinrich, Polizeifeldweibel, hintere Vorstadt 642.\nBaumann, Karl, Bäcker und Wirth von Schafisheim, vordere Vorstadt 673.\nBaumann-Leutwyler, Johann, Taglöhner von Bottenwyl, Rain 880.\nBaumann-Wacker, Eugen, Kaufmann, Weinhändler, obere Vorstadt 958.\nBaumann geb. Wacker, Susanna, Haushälterin von Bürglen (Thurgau),\n  hintere Vorstadt 622.\nBaumann-Wälti, Kaspar, Milchverkäufer v. Bottenwyl, Kaffeewirthschaft,\n  hintere Vorstadt 623.\nBaumberger-Schwarz, Anna, Wittwe, Taglöhnerin v. Siglistorf, Halden\n  260 b.\nBaumgartner, Adolf, Commis von Oensingen (Solothurn), Rathhaus-\n  gasse 4.\nBaur, Adolf, Ingenieur, Adjunkt des Kantonsingenieurs, von Sarmen-\n  storf, Laurenzenvorstadt 602.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8040,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2432,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:55:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p098",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p098.jpeg",
+      "bytes": 254304,
+      "sha256": "2744e9dd8dc98d922c00ef13985a86dac110b1fc6ea01aa73e54f2d116c48351",
+      "sha256_of": "original",
+      "working_copy": "1892_p098.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:55:41+00:00"
+  }
+}

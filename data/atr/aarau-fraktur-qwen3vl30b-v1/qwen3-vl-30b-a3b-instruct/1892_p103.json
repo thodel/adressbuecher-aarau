@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p103",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p103.jpeg",
+    "bytes": 250356,
+    "sha256": "2dde7b888b321a2962cc7df27539fd9ab91dff68a3252a488b41d29719331334",
+    "sha256_of": "original",
+    "working_copy": "1892_p103.jpeg"
+  },
+  "text": "Brunner — Buser.\n87\nBrunner-Anecht, Verena, Hebamme, Halden 287.\nBrunner-Künzli, Heinrich, Bahnangestellter, vor dem Haldenthor 800.\nBrunner-Küpperli, Jakob, Seifenrieder, Halden 287.\nBrunner-Senn, Heinrich, Fuhrmann von Schmiedrued, Golattenmattgasse 236.\nBrunner-Umiker, Jakob, Spezereihändler, obere Vorstadt 928.\nBrunnerhofer-Bryner, Hermann, Stadtarbeiter, Halden 282.\nBrunnerhofer, Elise, Schneiderin, Rain 875.\nBrunnerhofer-Giezentanner, Ursula, Daniels Wittwe, Halden 247.\nBrunnerhofer-Giezentanner, Verena, Seilers Wittwe, Golattenmattgasse 235.\nBrunnerhofer-Hunziker, Albert, Tambourinfraktor, Halden 282.\nBrunnerhofer, Lisette, Lehrers, Part., Halden 246.\nBrunnerhofer-Weder, August, Speisewirth u. Siqueurfabrikant, Zollrain 178.\nBrunnerhofer-Schmidt, Magdalena, Mechanikers Wittwe, Halden 253.\nBruns-Gattiker, Hermann, Schlosser, Pelzgasse 127.\nBruns-Gattiker, Dorethea, obigen Chefrau, Fein- und Großwascherei, Pelzgasse 127.\nBüchle, Johann Rudolf, Part., Gartenstrasse 998.\nBühler-Widmer, Gottlieb, Kupferschmied von Rietheim, Schmiedgasse 632.\nBühler-Gidemann, Anna, Kaufmanns Wittwe, Part., Rain 831.\nBühler-Gubler, Jakob, Kaufmann von Bibern (Schaffhausen), Rain 862.\nBühler-Heusler, Karl, Kaufmann von Bibern (Schaffhausen), Waarenagentur-Geschäft, Bachstrasse 1174.\nBürgi-Burkhardt, Anna, Wittwe, Part. von Erlinsbach, obere Vorstadt 935.\nBürgi-Fricke, Joseph, Hutmacher, von Olten (Solothurn) vordere Vorstadt 900.\nBürgi-Schmid, Barbara, Part. von Untererlinsbach (Margau), Milchgasse 156.\nBürki, Ida, Gesellschafterin von Bümplig (Bern), Bachstrasse 1154.\nBucher-Bolliger, Johann, Fabrikarbeiter von Niederweningen (Zürich), Telli 440.\nBucher-Rohr, Gottlieb, Fabrikarbeiter von Niederweningen (Zürich), Telli 440.\nBucher-Wirz, Marie, Wittwe, Part. von Niederweningen (Zürich), Telli 440.\nBuchmann-Spycher, Adele, Damenschneiderin von Veltheim, Halden 249.\nBucher-Lüscher, Samuel, Taglöchner von Schöftland, Milchgasse 150.\nBuhleim, Friedrich, Part., Bahnhofstrasse 1022.\nBurger, Johann, Gerichtsschreiber von Freienwil, Zollrain 52.\nBurgmeier-Riefer, Joseph, Gesanglehrer, Graben 209.\nBurhardt-Bertschinger, Ferdinand, Coiffeur, Laurenzenvorstadt 118.\nBurhardt, Ferdinand, Sohn, Coiffeur,\nBurhardt, Iina, Coiffeuse,\nBuser-Bräutigam, Rosina, Part., Mezgerrgasse 58.\nBuser-Buser, Emil, Güterschaffner von Untererlinsbach (Solothurn), hintere Vorstadt 641.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5041,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2375,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 59.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:41:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p103",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p103.jpeg",
+      "bytes": 250356,
+      "sha256": "2dde7b888b321a2962cc7df27539fd9ab91dff68a3252a488b41d29719331334",
+      "sha256_of": "original",
+      "working_copy": "1892_p103.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:53+00:00"
+  }
+}

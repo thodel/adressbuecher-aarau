@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p095",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p095.jpeg",
+    "bytes": 240339,
+    "sha256": "1d8c36d201421f97af67d7357656e09bb7291f69c4e92239dcf97d5bebacd31f",
+    "sha256_of": "original",
+    "working_copy": "1892_p095.jpeg"
+  },
+  "text": "— 79 —\n\nHaus=\nNr.\n1312. Hilfiker, Jakob, gewes. Bäcker, Wohnhaus. (Vor dem Haldenthor.)\n1313. † Zurlinden & Comp. Kohlenschuppen. (Scheibenschachen.)\n1314. † Hürzeler, Jakob, Hadernhändler. Schopf. id.\n1315. † Rychner, Louis, Ingenieur. Holzschopf. (Rain.)\n1316. † Strich, Julius Wilhelm, Fabrikant. Schopf. (Ziegelrain.)\n1317. Hässig-Siegle, Julius. Wirthschaft. (Bahnhofstraße.)\n1318. † Derselbe. Wasch= und Badhaus. (Bahnhofstraße.)\n1319. † Staat Aargau. Holzremise. (Bahnhofstraße.)\n1320. † Derselbe. Magazin mit Stallung. (Bahnhofstraß.)\n1321. † Zürcher, Alfred, Arzt. Holzremise. (Laurenzenvorstadt.)\n1322. † Holzach, Dietrich, Bierbrauer. Trinkhalle und Kegelbahn. (Bahn=\n  hofstraße.)\n1323 † Staat Aargau. Spritzenremise mit Kohlenschuppen. (Thorfeld.)\n1324 † Siegrist-Riniker, Heinrich, Metzger. Eiskeller. (Vor dem Haldenthor.)\n1325. † Wehrli-Kähr, Jakob, Gypser. Holzschopf (Schachen.)\n1326. † Zürcher, Alfred, Arzt. Waschhaus. (Laurenzenvorstadt.)\n1327. † Holzach, Dietrich, Bierbrauer. Eiskeller. (Bahnhofstraße.)\n1328. † Gamper, Adolf, Metzger, Eiskeller. (Mühlegäßchen.)\n1329. † Schmuziger, Emil, Siegellackfabrikant. Schopf. (Rain.)\n1330. † Siegrist-Riniker, H. Metzger. Bienenhaus. (Vor dem Haldenthor.)\n1331. † Müller, Friedrich, Landwirth. Scheune. (Schachen.)\n1332. Schmid, Joh. Albert und Samuel. Wohnhaus. (Vor dem Haldenthor.)\n1333. Einwohnergemeinde Aarau. Baracke I. (Schachen.)\n1334. Dieselbe. id. II. id.\n1335. Brogle, Joseph, Polizeidiener. Wohnhaus (Tellirain.)\n1336. Brack, J. Kaufmann. id. (Bahnhofstraße.)\n1337. Hunziker-Fleiner, Hermann. id. (Feerstraße.)\n1338. † Bally-Arndt, Eugen. Wasch= und Holzhaus. (Rohrerstraße.)\n1339. Vogel, Johann, Cementmüller. Wohnhaus. (Scheibenschachen.)\n1340. Aktiengesellschaft der Creditanstalt. (Schloßgarten.)\n1341. † Schmid, Joh. Albert und Samuel. Waschhaus. (Vor dem Haldenthor.)\n1342 † Wernli-Häfliger, Jakob, Gärtner. Treibhaus. (Vor dem Haldenthor.)\n1343. Evangelischer Verein. Vereinshaus. (Bahnhofstraße.)\n1344. Lagerhausgesellschaft. Büreau. (Rohrerstraße.)\n1345. † Zschokke, O. Baugeschäft. Fraismaschine. id.\n1346. † Gysi-Büchli, Emil, Holzremise. (Gartenstraße.)\n1347. † Egloff, Georg, Gärtner. Gartenhaus. (Casinostraße.)\n1348. † Derselbe. Schopf mit Magazin. id.\n1349. † Derselbe. Treibhaus. id.\n1350. † Keller, Ida, Glätterin. Schopf. (Rain.)\n1351. * Schäfer, Adolf, Architekt. Wohnhaus. (Hinter dem Bahnhof.)\n1352. * Derselbe. id. id.\n1353. † Ernst-Käser, Friedrich. Röhrenfabrik. (In der Gais.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8114,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2480,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:55:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p095",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p095.jpeg",
+      "bytes": 240339,
+      "sha256": "1d8c36d201421f97af67d7357656e09bb7291f69c4e92239dcf97d5bebacd31f",
+      "sha256_of": "original",
+      "working_copy": "1892_p095.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:55:17+00:00"
+  }
+}

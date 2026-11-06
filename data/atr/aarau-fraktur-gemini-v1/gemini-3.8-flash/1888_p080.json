@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p080",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p080.jpeg",
+    "bytes": 274841,
+    "sha256": "421a440defa5e14f840cdefd7f15bd28930c9e5869e55b63dcf7ef554e8c6408",
+    "sha256_of": "original",
+    "working_copy": "1888_p080.jpeg"
+  },
+  "text": "— 70 —\n\nHaus=\nNr.\n1140.† Zulauf=Siebenmann, Weinhändler. Stallung (Bachstraße).\n1141. Kunz=Heß, Joh., Conditor. (Bankstraße.)\n1142.† Custer, Herm., Chemiker. Schopf (Bahnhofstraße).\n1143.† Wehrli=Walser, Rosina, Gärtners. Gewächshaus (vor dem Haldenthor).\n1144.† Dieselbe. Gewächshaus (vor dem Haldenthor).\n1145. Keller, Johann, Oekonom. (Gönhardfeldweg.)\n1146. Lüscher=Umiker, H., Mechaniker. (Bankstraße.)\n1147. Vogel=Waßmer, R., Kaminfeger. (Entfelderstraße.)\n1148.† Schäfer=Troller, A., Architekt. Magazin (in der Gais).\n1149.† Derselbe. Materialschuppen. id.\n1150. Umiker=Hürlimann, S., Ausläufer. (Gönhardfeldweg.)\n1151.† Fleiner, Alberts Erbschaft. Wagenremise (Erlinsbacherstraße).\n1152.† Stephani=Wettler, Albertine. Holzschopf (Bachstraße).\n1153.† Frey=Volley, Edwin. Holzhaus (Bachstraße).\n1154.* Schäfer=Troller, Ad., Architekt. id.\n1155. Mösch=Gaßler, Martin, Registrator. id.\n1156. Walder=Kunz, Karl, Bankbuchhalter. id.\n1157.† Landolt=Thommen, Karl. Remise (obere Vorstadt).\n1158.† Jenny und Weigel, Fabrikgebäude (Telli).\n1159.† Gautschi, Rudolf, Oekonom. Waschhaus id.\n1160. Hässig=Sigle, Jul., Wirth. (Bahnhofstraße.)\n1161. Stahel=Ernst, J., Café. (Graben.)\n1162. Abgetragen.\n1163.† Fleiner, Albert, Fabrikants Erbschaft. Cementmühle (Erlinsbacher=\n  straße).\n1164.† Dieselbe. Magazin (Erlinsbacherstraße).\n1165.† Dieselbe. Turbinenhaus. id.\n1166. Siebenmann=Siebenmann, Gottl., Part. (Gartenstraße.)\n1167.† Derselbe. Wasch= und Holzhaus. id.\n1168.† Schmidt=Henz, Hans, Wirth. Gartenhaus (Schachen).\n1169. Henz=Plüß, Jakob, Kaufmann. (Vordere Vorstadt.)\n1170. Römisch-katholische Kirche. (Casinostraße.)\n1171.† Siebenmann, Friedrich, Bierbrauer. Eiskeller (Entfelderstraße).\n1172. Wydler=Bäuerlin, Hrch., Färber. (Ziegelrain.)\n1173. Diakonissen=Station. (Bahnhofstraße.)\n1174. Bührer=Heusler, Karl, Kaufmann. (Bachstraße.)\n1175. Wehrli=Märk, Emil, Kassier. id.\n1176. Heuberger=Wernli, Wittwe und Mithafte. (Casinostraße.)\n1177.† Med. Dr. Schmuziger. Bienenhaus (Entfelderstraße).\n1178.† Zurlinden & Cie. Portlandcementfabrik. (Scheibenschachen.)\n1179.† Dieselben. Turbinenhaus. (Scheibenschachen.)\n1180. id. Comptoir. id.\n1181.† id. Schuppen. id.\n1182.† Seiler=Hanhart, A., Bäcker. Holzhaus (vor dem Haldenthor).\n1183. Einwohnergemeinde Aarau. Saalbau (Schloßplatz).\n1184.† Sauerländer=Frey, Remig. Buchbinderei (Laurenzenvorstadt).\n1185. Keller, Wilhelm, Oekonom. (Rain.)\n1186 bis 1194. Staat Aargau. Kantonsspital. (Gais.) (Siehe Seite\n  34 und 35.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8419,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2469,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:32:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p080",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p080.jpeg",
+      "bytes": 274841,
+      "sha256": "421a440defa5e14f840cdefd7f15bd28930c9e5869e55b63dcf7ef554e8c6408",
+      "sha256_of": "original",
+      "working_copy": "1888_p080.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:34+00:00"
+  }
+}

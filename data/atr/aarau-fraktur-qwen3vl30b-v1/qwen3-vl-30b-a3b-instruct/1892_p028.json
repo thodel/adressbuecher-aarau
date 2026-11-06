@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p028",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p028.jpeg",
+    "bytes": 215261,
+    "sha256": "d2294483dba420bcfd603e1d25cada351da51305f5564605537b6485c7a2922c",
+    "sha256_of": "original",
+    "working_copy": "1892_p028.jpeg"
+  },
+  "text": "Haus-\nNr.\n219. Dolder-Sager, Jakob Friedrich, Kaufmann, von Hauptweil (Thurgau).\n220. * Zschokke-Sauerländer, Guido, Buchhändler. Firma: H. R. Sauer-\n    länders Sortimentsbuchhandlung.\n    Brad-Steininger, Gottlieb, Buchhalter, Eßlingen.\n221. Hunziler-Thommen, H., Fabrikant.\n    Hunziler, Hermann, Sohn, Kaufmann.\n    Niggli, Friedrich, gew. Lehrer, Part., von Aarburg.\n    Lässer, Anna, Haushälterin, von Wiliberg.\n222. Bogt-Siegrist, Samuel, von Schinznach. Restauration.\n    Fischer, August, Buchhandlungshilfe, von Cafel (Preußen).\n    Bargeki, Oswald, Ingenieur, von Solothurn.\n\nOberthor.\n223. † Gemeinde Aarau. Spritzenhaus Nr. 4.\n224. * Dielelbe. Oberthurm.\n    Hässig-Lüscher, Joh. Konrad, Dienstmann, Antiquar und Gemüsehändler.\n    Schäfer-Morlok, Wilhelm, Dienstmann.\n225. Wirz-Martin, Emil, von Solothurn. Buchdruckerei.\n226. Siebenmann, Otto und Gustav, March. Tailleur.\n    Siebenmann-Hemmeler, Gustav, March. Tailleur.\n227. Dielelben.\n    Siebenmann-Walther, Otto, March, Tailleur.\n228.a. Aktiengesellschaft des Aargauischen Tagblattes. (Vertreter\n    Stierli, Fürstprech.)\n    Stierli, Sophie, Damenschneiderin, von Krietsau.\n    Stierli, Marie, Ladentochter,    \"\n    Stierli, Elise, Part.,           \"\n    Stierli, Cäcilie,                \"\n    Repler-Läuchli, Hans, Faktor, von Schiers (Graubünden).\n228.b. Buchdruckerei des Aargauischen Tagblattes.\n\nGollattenmattgasse.\n229. Hemmeler, Ida, Privatlehrerin.\n    Rüeger-Gysling, Otto, Malermeister, von Wyl (Zürich). Bureau.\n230. * Brunner, Gottfried, Part.\n    Näf-Widmer, Urs Josef, Taglöhner, von Wynen (Solothurn).\n    Umiker, Samuel, Straßenwärter, von Thalheim.\n    Müller-Deschger, Samuel, Obsthändler, von Fahrwangen.\n231.a. Spengler, Bertha, Part.\n    Baumann, Barbara, Part., von Stilli.\n    Keller, Maria, Part., von Veltheim.\n231.b. Rämisperger geb. Berner, Marie, Gürtlers Wittwe.\n    Hermann, Elisabeth, Spetterin, von Rohrbach.\n    Suter-Müller, Elise, Wittwe, Taglöhnerin, von Kölliken.\n232. Blüg-Haller, Marie Anna, Bettmacherin, von Niederwyl.\n    Krähenbühl, Louise, Näherin, von Altishofen (Luzern).\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4183,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2099,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:35:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p028",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p028.jpeg",
+      "bytes": 215261,
+      "sha256": "d2294483dba420bcfd603e1d25cada351da51305f5564605537b6485c7a2922c",
+      "sha256_of": "original",
+      "working_copy": "1892_p028.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:38+00:00"
+  }
+}

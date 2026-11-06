@@ -1,0 +1,1269 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-v1",
+  "model": "kraken-german_print",
+  "engine": "kraken",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p120",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p120.jpeg",
+    "bytes": 279458,
+    "sha256": "866076ecb38071e3a87ff51d0944756d7615f34dfa7c4ff8ccde17ef6bee1704",
+    "sha256_of": "original",
+    "working_copy": "1899_p120.jpeg"
+  },
+  "text": "18\nGunsch, Johann, Maurer, Adelbändli 170.\nGuyer, August, Part., Erlinsbacherstraße 336.\n— Oskar, Sohn, Fabrikant, Telli 456.\nGuyot, Maria, Damenschneiderin, Rain 875.\nIlachler, Gottlieb, Bauamtsarbeiter, Kirchgasse 15.\n Jakob, Part., Ziegelrain 751.\n— Luise, Glätterin, Kirchgasse 15.\nHäfliger, Otto, Metager, e Pelzgasse 136.\nHäfeſi, Jos., Sattler, Kasinostrale 660.\n— geb. Fischer, Julie, Näherin, Bahnhofstraße 541.\nHäni geb. Häni, Marie, Bäckers Witwe, Kirchgasse 11.\n— Hermann, Sohn, Bäcker, Kirchgasse 11.\n— Rudolf, Leder- und Fourniturenhandlung, es Bahnhofstraße 656.\nHärdi, Lina, Haushälterin, Rathhausgasse 42.\n= Wilhelm, Goldschmied, Rathausgasse 42.\nHärri, Arnold, Postcommis, Bahnhofstraße 54l.\n— Rudolf, Expeditionschef auf der Staatskanzlei, Pelzgasse 124.\nHäslin, Emil, Maler, Rathausgasse 21.\nHässig, Albert, Werkführer, Halden 256.\n— geb. Baumann, Margarita, Witwe, Kasinostraße 1556.\n= Alfred, Sohn, Kupferschmied, Ziegelrain 705.\n— Emma, Part., in der Gais (zum Lindenhof) 1210.\n= Emil, Tapezierer, Milchgasse 73.\n— Friedrich, Kupferschmied, Ziegelrain 705.\n— Fritz, Bäcker und Wirt, Rathausgasse 46.\n— Gottlieb, Feinschleifer, Wohnung, Zollrain 181; Werkstätte\nHammer 1295.\n— Gottlieb, Postcommis, Schachen 1261.\n= Hans, Stadtrat, in der Gais (zum Lindenhof) 1210.\n geb. Hauenstein, Elisabeth, Wwe., Part., vordere Vorstadt 680.\n— Hermann, Bäcker, Part., Rathausgasse 46.\n= Johann Konrad, Dienstmann, Rain 881.\n— Julius, Restaurant Bellevue, o Rain 1564.\n Julius, Schlosser, Milchgasse 77.\n— Rosine, Part., Zollrain 181.\nHäuptli geb. Burkhard, Anna Maria, Witwe, Halden 284.\n Emil, Drechsler, Halden 284.\n= Jakob, Färber, Milchgasse 156.\n— Othmar, Adjunkt des'Staatsbuchhalters, v. d. Haldenthor 1272.\nHäusermann, Adolf, Taglöhner, Halden 284.\n— Friedrich, Sehneider, Rain 857.\n geb. Sehmid Elisabeth, Halden 253.\nHäusler, Angelus, Maler, vor dem Haldenthor 762.\n— Emil, Sohn, Maler, vor dem Haldenthor 762.\n— Joseph, Heizer, Milchgasse 71.\n— Julie, (lätterin, vor dem Haldenthor 762.\n— Karl, Schriftsetzer, vor dem Haldenthor 762.",
+  "lines": [
+    {
+      "order": 0,
+      "baseline": [
+        [
+          198.0,
+          130.0
+        ],
+        [
+          226.0,
+          131.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        110.0,
+        226.0,
+        154.0
+      ],
+      "boundary": null,
+      "text": "18",
+      "confidence": 0.9762763679027557,
+      "regions": []
+    },
+    {
+      "order": 1,
+      "baseline": [
+        [
+          196.0,
+          185.0
+        ],
+        [
+          615.0,
+          183.0
+        ]
+      ],
+      "bbox": [
+        195.0,
+        161.0,
+        615.0,
+        193.0
+      ],
+      "boundary": null,
+      "text": "Gunsch, Johann, Maurer, Adelbändli 170.",
+      "confidence": 0.9994605091901926,
+      "regions": []
+    },
+    {
+      "order": 2,
+      "baseline": [
+        [
+          196.0,
+          207.0
+        ],
+        [
+          656.0,
+          204.0
+        ]
+      ],
+      "bbox": [
+        195.0,
+        184.0,
+        656.0,
+        218.0
+      ],
+      "boundary": null,
+      "text": "Guyer, August, Part., Erlinsbacherstraße 336.",
+      "confidence": 0.9993661946720547,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 3,
+      "baseline": [
+        [
+          198.0,
+          226.0
+        ],
+        [
+          580.0,
+          227.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        207.0,
+        580.0,
+        239.0
+      ],
+      "boundary": null,
+      "text": "— Oskar, Sohn, Fabrikant, Telli 456.",
+      "confidence": 0.9918776204188665,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 4,
+      "baseline": [
+        [
+          195.0,
+          251.0
+        ],
+        [
+          622.0,
+          249.0
+        ]
+      ],
+      "bbox": [
+        194.0,
+        228.0,
+        622.0,
+        265.0
+      ],
+      "boundary": null,
+      "text": "Guyot, Maria, Damenschneiderin, Rain 875.",
+      "confidence": 0.9987493462678863,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 5,
+      "baseline": [
+        [
+          198.0,
+          317.0
+        ],
+        [
+          728.0,
+          315.0
+        ]
+      ],
+      "bbox": [
+        198.0,
+        287.0,
+        728.0,
+        332.0
+      ],
+      "boundary": null,
+      "text": "Ilachler, Gottlieb, Bauamtsarbeiter, Kirchgasse 15.",
+      "confidence": 0.961071057062523,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 6,
+      "baseline": [
+        [
+          196.0,
+          336.0
+        ],
+        [
+          522.0,
+          338.0
+        ]
+      ],
+      "bbox": [
+        195.0,
+        318.0,
+        522.0,
+        348.0
+      ],
+      "boundary": null,
+      "text": " Jakob, Part., Ziegelrain 751.",
+      "confidence": 0.999793537457784,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 7,
+      "baseline": [
+        [
+          195.0,
+          359.0
+        ],
+        [
+          554.0,
+          361.0
+        ]
+      ],
+      "bbox": [
+        194.0,
+        340.0,
+        554.0,
+        372.0
+      ],
+      "boundary": null,
+      "text": "— Luise, Glätterin, Kirchgasse 15.",
+      "confidence": 0.9957710977862863,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 8,
+      "baseline": [
+        [
+          194.0,
+          384.0
+        ],
+        [
+          625.0,
+          381.0
+        ]
+      ],
+      "bbox": [
+        194.0,
+        361.0,
+        625.0,
+        395.0
+      ],
+      "boundary": null,
+      "text": "Häfliger, Otto, Metager, e Pelzgasse 136.",
+      "confidence": 0.9753856767968434,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 9,
+      "baseline": [
+        [
+          194.0,
+          406.0
+        ],
+        [
+          589.0,
+          403.0
+        ]
+      ],
+      "bbox": [
+        194.0,
+        384.0,
+        589.0,
+        414.0
+      ],
+      "boundary": null,
+      "text": "Häfeſi, Jos., Sattler, Kasinostrale 660.",
+      "confidence": 0.9880868375301362,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 10,
+      "baseline": [
+        [
+          197.0,
+          426.0
+        ],
+        [
+          718.0,
+          427.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        406.0,
+        718.0,
+        438.0
+      ],
+      "boundary": null,
+      "text": "— geb. Fischer, Julie, Näherin, Bahnhofstraße 541.",
+      "confidence": 0.9916094505786895,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 11,
+      "baseline": [
+        [
+          194.0,
+          451.0
+        ],
+        [
+          751.0,
+          448.0
+        ]
+      ],
+      "bbox": [
+        194.0,
+        430.0,
+        751.0,
+        463.0
+      ],
+      "boundary": null,
+      "text": "Häni geb. Häni, Marie, Bäckers Witwe, Kirchgasse 11.",
+      "confidence": 0.9985777380374762,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 12,
+      "baseline": [
+        [
+          196.0,
+          469.0
+        ],
+        [
+          636.0,
+          470.0
+        ]
+      ],
+      "bbox": [
+        195.0,
+        451.0,
+        636.0,
+        483.0
+      ],
+      "boundary": null,
+      "text": "— Hermann, Sohn, Bäcker, Kirchgasse 11.",
+      "confidence": 0.9987728794415792,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 13,
+      "baseline": [
+        [
+          197.0,
+          492.0
+        ],
+        [
+          867.0,
+          493.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        472.0,
+        867.0,
+        507.0
+      ],
+      "boundary": null,
+      "text": "— Rudolf, Leder- und Fourniturenhandlung, es Bahnhofstraße 656.",
+      "confidence": 0.9868273044389392,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 14,
+      "baseline": [
+        [
+          195.0,
+          516.0
+        ],
+        [
+          656.0,
+          516.0
+        ]
+      ],
+      "bbox": [
+        195.0,
+        496.0,
+        656.0,
+        525.0
+      ],
+      "boundary": null,
+      "text": "Härdi, Lina, Haushälterin, Rathhausgasse 42.",
+      "confidence": 0.9991951300339266,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 15,
+      "baseline": [
+        [
+          197.0,
+          536.0
+        ],
+        [
+          642.0,
+          538.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        521.0,
+        642.0,
+        545.0
+      ],
+      "boundary": null,
+      "text": "= Wilhelm, Goldschmied, Rathausgasse 42.",
+      "confidence": 0.9935465842485428,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 16,
+      "baseline": [
+        [
+          195.0,
+          561.0
+        ],
+        [
+          674.0,
+          559.0
+        ]
+      ],
+      "bbox": [
+        194.0,
+        538.0,
+        674.0,
+        568.0
+      ],
+      "boundary": null,
+      "text": "Härri, Arnold, Postcommis, Bahnhofstraße 54l.",
+      "confidence": 0.9706666337119209,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 17,
+      "baseline": [
+        [
+          197.0,
+          579.0
+        ],
+        [
+          845.0,
+          582.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        564.0,
+        845.0,
+        595.0
+      ],
+      "boundary": null,
+      "text": "— Rudolf, Expeditionschef auf der Staatskanzlei, Pelzgasse 124.",
+      "confidence": 0.9979543279087733,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 18,
+      "baseline": [
+        [
+          196.0,
+          605.0
+        ],
+        [
+          581.0,
+          605.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        585.0,
+        581.0,
+        612.0
+      ],
+      "boundary": null,
+      "text": "Häslin, Emil, Maler, Rathausgasse 21.",
+      "confidence": 0.999655133969075,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 19,
+      "baseline": [
+        [
+          196.0,
+          627.0
+        ],
+        [
+          610.0,
+          625.0
+        ]
+      ],
+      "bbox": [
+        195.0,
+        607.0,
+        610.0,
+        636.0
+      ],
+      "boundary": null,
+      "text": "Hässig, Albert, Werkführer, Halden 256.",
+      "confidence": 0.9994705594502963,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 20,
+      "baseline": [
+        [
+          198.0,
+          646.0
+        ],
+        [
+          768.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        626.0,
+        768.0,
+        660.0
+      ],
+      "boundary": null,
+      "text": "— geb. Baumann, Margarita, Witwe, Kasinostraße 1556.",
+      "confidence": 0.9897489914527307,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 21,
+      "baseline": [
+        [
+          196.0,
+          668.0
+        ],
+        [
+          686.0,
+          670.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        650.0,
+        686.0,
+        679.0
+      ],
+      "boundary": null,
+      "text": "= Alfred, Sohn, Kupferschmied, Ziegelrain 705.",
+      "confidence": 0.988230798555457,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 22,
+      "baseline": [
+        [
+          198.0,
+          690.0
+        ],
+        [
+          724.0,
+          692.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        672.0,
+        724.0,
+        702.0
+      ],
+      "boundary": null,
+      "text": "— Emma, Part., in der Gais (zum Lindenhof) 1210.",
+      "confidence": 0.9954313673079014,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 23,
+      "baseline": [
+        [
+          197.0,
+          713.0
+        ],
+        [
+          560.0,
+          713.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        695.0,
+        560.0,
+        721.0
+      ],
+      "boundary": null,
+      "text": "= Emil, Tapezierer, Milchgasse 73.",
+      "confidence": 0.9882433607297785,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 24,
+      "baseline": [
+        [
+          197.0,
+          736.0
+        ],
+        [
+          650.0,
+          736.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        714.0,
+        650.0,
+        743.0
+      ],
+      "boundary": null,
+      "text": "— Friedrich, Kupferschmied, Ziegelrain 705.",
+      "confidence": 0.9905086464660112,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 25,
+      "baseline": [
+        [
+          197.0,
+          758.0
+        ],
+        [
+          659.0,
+          758.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        739.0,
+        659.0,
+        769.0
+      ],
+      "boundary": null,
+      "text": "— Fritz, Bäcker und Wirt, Rathausgasse 46.",
+      "confidence": 0.9937284276598976,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 26,
+      "baseline": [
+        [
+          196.0,
+          778.0
+        ],
+        [
+          868.0,
+          781.0
+        ]
+      ],
+      "bbox": [
+        195.0,
+        761.0,
+        868.0,
+        795.0
+      ],
+      "boundary": null,
+      "text": "— Gottlieb, Feinschleifer, Wohnung, Zollrain 181; Werkstätte",
+      "confidence": 0.9955838948488236,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 27,
+      "baseline": [
+        [
+          251.0,
+          803.0
+        ],
+        [
+          401.0,
+          803.0
+        ]
+      ],
+      "bbox": [
+        251.0,
+        784.0,
+        401.0,
+        813.0
+      ],
+      "boundary": null,
+      "text": "Hammer 1295.",
+      "confidence": 0.999906986951828,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 28,
+      "baseline": [
+        [
+          197.0,
+          822.0
+        ],
+        [
+          613.0,
+          825.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        800.0,
+        613.0,
+        835.0
+      ],
+      "boundary": null,
+      "text": "— Gottlieb, Postcommis, Schachen 1261.",
+      "confidence": 0.9899482538825587,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 29,
+      "baseline": [
+        [
+          198.0,
+          845.0
+        ],
+        [
+          745.0,
+          847.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        825.0,
+        745.0,
+        858.0
+      ],
+      "boundary": null,
+      "text": "= Hans, Stadtrat, in der Gais (zum Lindenhof) 1210.",
+      "confidence": 0.9890164183635338,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 30,
+      "baseline": [
+        [
+          198.0,
+          867.0
+        ],
+        [
+          867.0,
+          869.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        848.0,
+        867.0,
+        882.0
+      ],
+      "boundary": null,
+      "text": " geb. Hauenstein, Elisabeth, Wwe., Part., vordere Vorstadt 680.",
+      "confidence": 0.9994583886767191,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 31,
+      "baseline": [
+        [
+          198.0,
+          889.0
+        ],
+        [
+          657.0,
+          890.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        873.0,
+        657.0,
+        901.0
+      ],
+      "boundary": null,
+      "text": "— Hermann, Bäcker, Part., Rathausgasse 46.",
+      "confidence": 0.9995792096569425,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 32,
+      "baseline": [
+        [
+          198.0,
+          911.0
+        ],
+        [
+          630.0,
+          913.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        893.0,
+        630.0,
+        921.0
+      ],
+      "boundary": null,
+      "text": "= Johann Konrad, Dienstmann, Rain 881.",
+      "confidence": 0.9987151167894665,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 33,
+      "baseline": [
+        [
+          197.0,
+          933.0
+        ],
+        [
+          663.0,
+          934.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        913.0,
+        663.0,
+        946.0
+      ],
+      "boundary": null,
+      "text": "— Julius, Restaurant Bellevue, o Rain 1564.",
+      "confidence": 0.9750459533791209,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 34,
+      "baseline": [
+        [
+          198.0,
+          955.0
+        ],
+        [
+          561.0,
+          956.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        936.0,
+        561.0,
+        967.0
+      ],
+      "boundary": null,
+      "text": " Julius, Schlosser, Milchgasse 77.",
+      "confidence": 0.9991135772536782,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 35,
+      "baseline": [
+        [
+          198.0,
+          976.0
+        ],
+        [
+          507.0,
+          979.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        958.0,
+        507.0,
+        987.0
+      ],
+      "boundary": null,
+      "text": "— Rosine, Part., Zollrain 181.",
+      "confidence": 0.9995758096377055,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 36,
+      "baseline": [
+        [
+          194.0,
+          999.0
+        ],
+        [
+          770.0,
+          1001.0
+        ]
+      ],
+      "bbox": [
+        194.0,
+        979.0,
+        770.0,
+        1016.0
+      ],
+      "boundary": null,
+      "text": "Häuptli geb. Burkhard, Anna Maria, Witwe, Halden 284.",
+      "confidence": 0.9993695268091166,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 37,
+      "baseline": [
+        [
+          198.0,
+          1020.0
+        ],
+        [
+          526.0,
+          1023.0
+        ]
+      ],
+      "bbox": [
+        198.0,
+        1003.0,
+        526.0,
+        1032.0
+      ],
+      "boundary": null,
+      "text": " Emil, Drechsler, Halden 284.",
+      "confidence": 0.9981226366141747,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 38,
+      "baseline": [
+        [
+          197.0,
+          1043.0
+        ],
+        [
+          546.0,
+          1046.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        1023.0,
+        546.0,
+        1057.0
+      ],
+      "boundary": null,
+      "text": "= Jakob, Färber, Milchgasse 156.",
+      "confidence": 0.9711428736336529,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 39,
+      "baseline": [
+        [
+          197.0,
+          1065.0
+        ],
+        [
+          865.0,
+          1067.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        1045.0,
+        865.0,
+        1078.0
+      ],
+      "boundary": null,
+      "text": "— Othmar, Adjunkt des'Staatsbuchhalters, v. d. Haldenthor 1272.",
+      "confidence": 0.9922370872800312,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 40,
+      "baseline": [
+        [
+          194.0,
+          1087.0
+        ],
+        [
+          641.0,
+          1089.0
+        ]
+      ],
+      "bbox": [
+        194.0,
+        1069.0,
+        641.0,
+        1102.0
+      ],
+      "boundary": null,
+      "text": "Häusermann, Adolf, Taglöhner, Halden 284.",
+      "confidence": 0.9993836298221495,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 41,
+      "baseline": [
+        [
+          198.0,
+          1109.0
+        ],
+        [
+          547.0,
+          1111.0
+        ]
+      ],
+      "bbox": [
+        198.0,
+        1091.0,
+        547.0,
+        1121.0
+      ],
+      "boundary": null,
+      "text": "— Friedrich, Sehneider, Rain 857.",
+      "confidence": 0.9885782978751443,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 42,
+      "baseline": [
+        [
+          203.0,
+          1132.0
+        ],
+        [
+          591.0,
+          1133.0
+        ]
+      ],
+      "bbox": [
+        202.0,
+        1112.0,
+        591.0,
+        1144.0
+      ],
+      "boundary": null,
+      "text": " geb. Sehmid Elisabeth, Halden 253.",
+      "confidence": 0.9988344311714172,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 43,
+      "baseline": [
+        [
+          196.0,
+          1155.0
+        ],
+        [
+          711.0,
+          1155.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        1135.0,
+        711.0,
+        1166.0
+      ],
+      "boundary": null,
+      "text": "Häusler, Angelus, Maler, vor dem Haldenthor 762.",
+      "confidence": 0.9992219855388006,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 44,
+      "baseline": [
+        [
+          198.0,
+          1175.0
+        ],
+        [
+          685.0,
+          1177.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        1156.0,
+        685.0,
+        1190.0
+      ],
+      "boundary": null,
+      "text": "— Emil, Sohn, Maler, vor dem Haldenthor 762.",
+      "confidence": 0.9890191189267419,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 45,
+      "baseline": [
+        [
+          198.0,
+          1198.0
+        ],
+        [
+          539.0,
+          1199.0
+        ]
+      ],
+      "bbox": [
+        198.0,
+        1179.0,
+        539.0,
+        1207.0
+      ],
+      "boundary": null,
+      "text": "— Joseph, Heizer, Milchgasse 71.",
+      "confidence": 0.9983673822134733,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 46,
+      "baseline": [
+        [
+          198.0,
+          1219.0
+        ],
+        [
+          651.0,
+          1221.0
+        ]
+      ],
+      "bbox": [
+        198.0,
+        1199.0,
+        651.0,
+        1232.0
+      ],
+      "boundary": null,
+      "text": "— Julie, (lätterin, vor dem Haldenthor 762.",
+      "confidence": 0.9863946326943331,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 47,
+      "baseline": [
+        [
+          198.0,
+          1241.0
+        ],
+        [
+          680.0,
+          1244.0
+        ]
+      ],
+      "bbox": [
+        198.0,
+        1221.0,
+        680.0,
+        1260.0
+      ],
+      "boundary": null,
+      "text": "— Karl, Schriftsetzer, vor dem Haldenthor 762.",
+      "confidence": 0.9929551274880118,
+      "regions": [
+        "r0"
+      ]
+    }
+  ],
+  "confidence": 0.9922411649704946,
+  "segmented_by": "kraken-blla",
+  "timing_ms": 13412,
+  "truncated": false,
+  "settings": null,
+  "quality": {
+    "verdict": "ok",
+    "chars": 2053,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": {
+    "engine": "party",
+    "model": "party",
+    "text": "",
+    "lines": [],
+    "confidence": null,
+    "timing_ms": 0,
+    "error": "timed out: no answer within 30s of the primary result"
+  },
+  "gateway_version": "7.0.2",
+  "recognised_at": "2026-11-06T12:11:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-v1",
+    "source": {
+      "key": "1899_p120",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p120.jpeg",
+      "bytes": 279458,
+      "sha256": "866076ecb38071e3a87ff51d0944756d7615f34dfa7c4ff8ccde17ef6bee1704",
+      "sha256_of": "original",
+      "working_copy": "1899_p120.jpeg"
+    },
+    "model": {
+      "model": "kraken-german_print",
+      "engine": "kraken",
+      "level": "page",
+      "revision": "10.5281/zenodo.10519596",
+      "revision_kind": "zenodo_record",
+      "weights": "10.5281/zenodo.10519596",
+      "base_model": null
+    },
+    "gateway_version": "7.0.2",
+    "segmented_by": "kraken-blla",
+    "recognised_at": "2026-11-06T12:11:10+00:00"
+  }
+}

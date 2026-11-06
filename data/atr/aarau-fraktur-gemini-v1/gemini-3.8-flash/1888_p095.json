@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p095",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p095.jpeg",
+    "bytes": 293494,
+    "sha256": "0b83322e31eb48a321d6e56f4a8aee47b44d10a5136d857e8891eb240207c633",
+    "sha256_of": "original",
+    "working_copy": "1888_p095.jpeg"
+  },
+  "text": "Bertschinger — Blattner. 77\n\nBertschinger-Aeschbach, Marie Elise, Wittwe, Part. von Lenzburg, Casino-\n  straße 570.\nBertschinger-Riniker, Anna, Wittwe, Wirthin zur Militärcantine, von\n  Lenzburg, Laurenzenvorstadt 590.\nBertschinger-Wild, Gustav, Spezereihändler von Lenzburg, hintere Vor-\n  stadt 624.\nBhend, Elise, Damenschneiderin von Unterseen (Bern), Bahnhofstr. 1022.\nBiberstein-Spycher, Eugen, Spenglergehülfe, von Bözingen (Bern),\n  Golattenmattgasse 236.\nBieber-Maritz, Gottfried, Kondukteur von Stüßlingen (Solothurn), obere\n  Vorstadt 921.\nBiechlin-Schär, Xaver, Maler von Schweighausen (Elsaß), Halden 240.\nBiedermann-Siebenmann, Leonz, Kaufmann von Gösgen (Solothurn),\n  Rathhausgasse 26.\nBilleter-Apel, Moritz, Faktor von Hainichen (Sachsen), Bahnhofstr. 1020.\nBillo-Bär, Julius, Kerzenfabrikant, Bahnhofstraße 535.\nBillo-Billo, Marie, Kaufmanns, Part., Ziegelrain 713.\nBircher, Andreas, Vater, Part. von Küttigen, jens. d. Aare 302.\nBircher-Sasson, Andreas, Kaufmann von Küttigen, jens. d. Aare 302.\nBircher-Brodbeck, Marie, Wittwe von Küttigen, Ziegelrain 713.\nBircher-Kielholz, Julius, Kreisingenieur von Küttigen, Ziegelrain 713.\nBircher, Emil Ludwig, Postcommis, hintere Vorstadt 697.\nBircher, Ludwig, Part., hintere Vorstadt 697.\nBircher-Kyburz, Anna, Wittwe, Part. von Küttigen, hint. d. Bahnhof 497.\nBircher, Maria, Taglöhnerin, Halden 264.\nBircher-Schatzmann, Heinrich, Dr. med., administrativer Direktor des\n  Kantonsspitals und Chefarzt der chirurg. Abtheilung, i. d. Gais 1186.\nBirchmeier-Brunner, Gottlieb, Schlosser v. Würenlingen, Metzgergasse 107.\nBirchmeier-Kull, August, Malermeister von Würenlingen, Casinostr. 574.\nBirkhofer-Hagenbuch, Albertine, Damenschneiderin, Rainstraße 821.\nBirmann-Probst, Maria, Wittwe, von Basel, Weinhandlung, Rathhaus-\n  gasse 20.\nBirmann-Baldenweg, Albert, Müller von Basel, hintere Vorstadt 684.\nBirmann, Adolf, Müller, Sohn von Basel, hintere Vorstadt 684.\nBirri-Wülser, Fridolin, Posamenter von Zeihen, Scheibenschachen 314.\nBißegger-Geiger, Joh. Konrad, Inspektionsbeamter von Affeltrangen\n  (Thurgau), Bahnhof 515.\nBlaser-Studer, Anna, Part., von Langnau (Bern), Pelzgasse 68.\nBlattner-Bircher, Hans Rudolf, Landwirth von Küttigen, Erlinsbacher-\n  straße 1246.\nBlattner-Bolliger, Gottlieb, Sekretär von Küttigen, Metzgergasse 60.\nBlattner-Herzog, Hans, Sekretär von Küttigen, Zollrain 53.\nBlattner-Hemmeler, Jakob, Malermeister v. Küttigen, Laurenzenvorst. 376.\nBlattner, August, Gerichtskanzlist von Küttigen, Laurenzenvorstadt 376.\nBlattner-Hofer, Elisabeth, Wittwe von Küttigen, Zollrain 178.\nBlattner, Maria, Weißnäherin von Küttigen, hintere Vorstadt 621.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8847,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2627,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:33:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p095",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p095.jpeg",
+      "bytes": 293494,
+      "sha256": "0b83322e31eb48a321d6e56f4a8aee47b44d10a5136d857e8891eb240207c633",
+      "sha256_of": "original",
+      "working_copy": "1888_p095.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:33:28+00:00"
+  }
+}

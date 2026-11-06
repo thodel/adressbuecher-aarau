@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p118",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p118.jpeg",
+    "bytes": 285598,
+    "sha256": "583748f19b6f4597c7df10fd2eb8671c10f33c195c6af01836fc2c40a9a7f2fb",
+    "sha256_of": "original",
+    "working_copy": "1888_p118.jpeg"
+  },
+  "text": "100\nLandolt — Lüscher.\n* Landolt-Thommen, Karl, Fabrikation seiner Wagen-, Bau- und Deformationslacke, obere Vorstadt 949.\nLattmann-Ackermann, Georg Heinrich, Lokomotivheizer von Sternenberg (Zürich), hinter dem Bahnhof 1072.\nLaube, Karl, Rechnungsrevisor von Böbiton, Rain 848.\nLauber, Joseph Anton, Postcommiss von Dejshgen, Rathausgasse 20.\nLeibundgut-Geiser, Rosina, Taglöhnerin von Melchnau (Bern), Adelbändli 83.\n* Lenzi-Lüscher, Albert, Kontrolleur der Aarg. Ersparniskasse, von Zuzgen, vor dem Haldenthor 758.\n* Lenzi, Sophie, Lehrerin, Kirchhof 165 b.\nLenzi-Treier, Xaver, Taglöhner von Oberhof, vor dem Haldenthor 796.\nLerf-Kirchhofer, Moritz, Schneider von Leibstatt, Jgelweid 635.\nLen, Jakob, Postfondukteur von Birnenstorf, Rain 877.\nLen-Rarrer, Jakob, Taglöhner von Schlokrued, Laurensenvorstadt 376.\nLeubin-Rienberger, Albert, Postcommiss von Fried, obere Vorstadt 967.\n* Leupold, Dr. Eduard, Fürsprech, Redaktor des „Aarg. Tagblattes“, Gartenstrasse 998.\nLeutwyler-Hofer, Elise, Strickerin von Reinach, Schachen 736.\nLeutwyler, Verena, Weißwaarenhandlung, Rathausgasse 19.\n* Liechti-Steinegger, Paul, Dr. phil., Professor von Mürten (Freiburg), vor dem Haldenthor 1243.\nLiechti-Strebel, Karolina, Part., Wittwe von Wittnau, Rain 857.\nLienberger-Weber, Kaspar, Schuhmacher von Spreitenbach, Kirchgasse 8 b.\nLienhardt, Maria Anna, Spetterin, Halden 260 b.\nLimacher-Niggli, Niklaus, Schuhmachermeister von Schüpfheim (Luzern), Pelzgasse 69.\nLindenmann-Wey, Maria, Wittwe, Part., von Fahrwangen, Zollrain 177.\nLindenmann, Ida, Telegraphistin,\n  id.  id.  id.\nLindenmann, Emma, Privatlehrerin,\n  id.  id.  id.\nLindegger-Ryburz, Gottfried, Güterexpedient von Oberentfelden, hintere Vorstadt 693.\n* Lindt-Elías, Karolina, Pfarrers Wittwe von Bern, Bahnhofstrasse 651.\n* Lindt-Weiskner, Otto, Dr. phil., Apotheker von Bern, Rathausgasse 16.\nLips-Sager, Kaspar, Postfondukteur v. Urdorf (Zürich), Entfelderstr. 967.\nLochbrunner-Geiger, Adolf, Lokomotivführer von Laufenburg, Rain 885.\nLocher-Häuptli, Elise, Friedrich's Ehefrau, Modistin v. Dietikon (Zürich), Kirchhof 166.\nLocher-Willi, Jakob, Postfondukteur von Ems (Graubünden), Gais 1249.\n* Lorenz-Jsaaf, Joseph, Arzt von Klingnau, Graben 216.\nLüscher, Elise, Glätterin, Rathausgasse 24.\n* Lüscher-Breminger, Daniel, Schlosser von Oberentfelden, Jgelweid 1232.\nLüscher-Herzig, Elisabeth, Bäckers Wwe., Part. v. Muhlen, Rathausg. 18.\n* Lüscher-Hilfiker, Hans, Notar von Muhlen, Rain 829.\nLüscher, Jakob, Schuhmachermeister, hintere Vorstadt 647.\nLüscher, Louise, Part., hintere Vorstadt 647.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5385,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2551,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0244,
+    "mean_line_chars": 61.15,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p118",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p118.jpeg",
+      "bytes": 285598,
+      "sha256": "583748f19b6f4597c7df10fd2eb8671c10f33c195c6af01836fc2c40a9a7f2fb",
+      "sha256_of": "original",
+      "working_copy": "1888_p118.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:01+00:00"
+  }
+}

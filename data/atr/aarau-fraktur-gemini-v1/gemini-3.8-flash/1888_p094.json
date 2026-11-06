@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p094",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p094.jpeg",
+    "bytes": 293113,
+    "sha256": "7ec5c1fd618d458cc61e1a78cfa2763b2464758825c06d7cb3a6585f0863e9a9",
+    "sha256_of": "original",
+    "working_copy": "1888_p094.jpeg"
+  },
+  "text": "76 — Beck — Bertschi.\n\nBeck, Louise, Part., in der Gais 1249.\nBeck-Merz, Susanna, Zeugschmieds Wittwe, Taglöhnerin, Adelbändli 174.\nBeck-Rieger, Anna Maria, Kaufmanns Wittwe, Graben 618.\nBeck-Roth, Albrecht, Sattler, Igelweid 633.\nBeilharz, Lina, Weißnäherin von Untermußbach (Württemberg), Halden 287.\nBelart, Julie, Lehrerin von Brugg, Bachstraße 1040.\nBelart, Marie, Part. von Brugg, Bachstraße 1040.\nBell-Marti, Jos. Anton, Mercerie- und Posamenteriewaarenhandlung,\n  Pelzgasse 130.\nBelz-Ochsner, Johann, Wagenvisiteur von Zihlschlacht (Thurgau), Milch-\n  gasse 151.\nBennert-Roth, Emilie, Part. von Paris, in der Gais 1131.\nBerchten, Susanna, Diakonissin von St. Stephan (Bern), Bahnhofstr. 1173.\nBerchtold, Jakob, Schuhmacher von Rued, v. d. Haldenthor 773.\nBerchtold-Lüscher, Samuel, Fuhrmann von Rued, v. d. Haldenthor 796.\nBerner, Anna, Glätterin von Rupperswyl, Halden 266 a.\nBerner-Egli, Dr. F. Herrmann, Zahnarzt, Casinostraße 576.\nBerner, Gottlieb, Dienstmann von Unterkulm, Kirchhof 80.\nBerner, Maria Anna, Spetterin von Kulm, Igelweid 636.\nBerner-Martin, Jakob, Schreinermeister von Rupperswyl, Stadthof 93.\nBerner-Mauch, Rudolf, Zahnarzt, Part., Kirchgasse 14.\nBerner, Verena, Fabrikarbeiterin von Kulm, Igelweid 636.\nBerner-Zürcher, Rudolf, Buchhalter von Schafisheim, Hammer 190.\nBertschi, Adolf, Wagner von Dürrenäsch, Wohnung Halden 274 und\n  Werkstätte Rain 877.\nBertschi, Anna, Damenschneiderin v. Sumiswald (Bern), Milchgasse 70.\nBertschi-Bircher, Julius, Zugführer v. Sumiswald (Bern), Milchgasse 70.\nBertschi, Fritz, Sohn, Malergehülfe von Dürrenäsch, Casinostraße 574.\nBertschi-Holzreuter, Rudolf, Holzspalter von Dürrenäsch, Halden 248.\nBertschi-Jakob, Jakob, Sekretär von Dürrenäsch, obere Vorstadt 947.\nBertschi, Jakob, Postangestellter von Dürrenäsch, Halden 274.\nBertschi, Jb. August, Sohn, Sekretär von Dürrenäsch, Halden 274.\nBertschi-Lüscher, Joh, Schuhmachergehülfe von Dürrenäsch, Rathhaus-\n  gasse 18.\nBertschi-Schäfer, Gottfried, Schreiner von Dürrenäsch, Halden 286.\nBertschi-Schwammberger, Adolf, Schneider von Sumiswald (Bern),\n  Metzgergasse 107.\nBertschi-Schwammberger, Marie, Damenschneiderin, obigen Ehefrau,\n  Metzgergasse 107.\nBertschi-Storkenmeier, Emil, Schneider von Sumiswald (Bern), Rain 821.\nBertschi-Vogt, Elise, Schreiners Wittwe von Sumiswald (Bern), Stadt-\n  hof 92 b.\nBertschi-Waßmer, Jakob, Postangestellter von Sumiswald (Bern), Stadt-\n  hof 92 b.\nBertschi-Wächter, Maria, Wäscherin von Dürrenäsch, v. d. Haldenthor 809.\nBertschi, Wilhelm, gewes. Camioneur, von Dürrenäsch, Halden 248.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8010,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2544,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0426,
+    "mean_line_chars": 52.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:33:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p094",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p094.jpeg",
+      "bytes": 293113,
+      "sha256": "7ec5c1fd618d458cc61e1a78cfa2763b2464758825c06d7cb3a6585f0863e9a9",
+      "sha256_of": "original",
+      "working_copy": "1888_p094.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:33:20+00:00"
+  }
+}

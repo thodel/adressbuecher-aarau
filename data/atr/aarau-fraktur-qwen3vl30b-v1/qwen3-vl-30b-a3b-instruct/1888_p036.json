@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p036",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p036.jpeg",
+    "bytes": 236242,
+    "sha256": "a083fdd20c09d519c5baf778769bbac1ed7799d3b2d91dc5bd48f91406427052",
+    "sha256_of": "original",
+    "working_copy": "1888_p036.jpeg"
+  },
+  "text": "Haus-\nNr.\n307. Camper=Andres, Rosette, Kaufmanns Witwe, Part., (zur Schönau).\n308.+ Diefelbe. Holzhaus.\n309.* Bally, C. F., Fabrikant, in Schönenwerd, Schuhfabrik.\n310. a.+ Derfelbe. Dampffesselhaus.\n310. b.+ Derfelbe. Maschinenhaus.\n311.+ Derfelbe. Pumphaus und Druckwasserleitung.\n\nScheibenjachen.\n312.* Feer=Zubers Erbschaft.\nGampp=Spreuer, Philipp, Auffeher, von Hornussen.\nRoth=Zaugg, Friedrich, Obergerichtskanzlist.\n313.* Diefelbe.\nSchneider=Wernli, Jakob, Auffeher, von Thalheim (Aargau).\nVogel=Ernst, Johann, Obermüller, von Thalheim (Preußen).\n314.* Diefelbe.\nBirri=Wülser, Fridolin, Posamenter, von Zeihen.\nGloor=Umsler, Fried., Küfer, von Dürrenäsch.\n315.* Diefelbe.\nWirz=Huber, Franz, Wagenvisiteur, von Starrkirch (Solothurn).\nSchmid=Pauli, Daniel, Gärtner, von Erlinsbach.\n316.* Diefelbe.\nBolliger=Spec, Rud. Hermann, Bahngangesteller, von Schloßrued.\nMöller=Reinle, Ernst August, Büchsenmacher, von Zella (Sachsen).\n1178 + Firma Zurlinden & Cie. Portlandcementfabrik.\n1179 + Diefelben. Turbinenhaus.\n1180 + Diefelben. Comptoir.\n1181 + Diefelben. Schuppen.\n1211 + Diefelben. Brennofenhaus.\n1212 + Diefelben. Cementmagazin.\n1230 + Diefelben. Schopp.\n\nGishügel.\n317. Wächter=Hasler, Hans, Wirth zum „Alpenzeiger“, von Remigen.\nKurhaus.\n318. Abgetragen. In dessen Platz:\n1204 + Derfelbe. Holzhaus und Stallung.\n1206 + Derfelbe. Trinkhalle.\n319. Zschokke=Sauerländer, Olivier, Ingenieur, zur Blumenhalde.\nFisch=Zschokke, Karl, Dr., Professor.\n320.+ Waschhaus und Holzschopp.\n\nWeinberg.\n321. a. Siebenmann=Hagnauer, Friedrich, Bierbrauer und Wirth.\n321. b.* Deschger=Von Felten, Remigius, von Wyl.\nFrey=Raubер, Joh. Jakob, Part., von Degerfelden.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3608,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1656,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p036",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p036.jpeg",
+      "bytes": 236242,
+      "sha256": "a083fdd20c09d519c5baf778769bbac1ed7799d3b2d91dc5bd48f91406427052",
+      "sha256_of": "original",
+      "working_copy": "1888_p036.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:18+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p165",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p165.jpeg",
+    "bytes": 278012,
+    "sha256": "2ff405681936a8d8debf01e81312b1d4424f4affd6979368aa5fc1369c92503d",
+    "sha256_of": "original",
+    "working_copy": "1888_p165.jpeg"
+  },
+  "text": "147\n\nVerzeichniß der Gesellschaften und Vereine.\n\nI. Wohlthätigkeits-Gesellschaften.\nA. Armenvereine.\nArmenerziehungsverein des Bez. Aarau.\nDeutscher Hilfsverein.\nFrauen-Arbeitsverein Aarau.\nFröbel'scher Kindergarten.\nHilfsverein Aarau.\nKleinkinderpflege in der Halden.\nKleinkinderschule in der Milchgasse.\nSchwesternverein der Loge zur „Bruder-\n  treue“ in Aarau.\nStädtischer Fünfrappenverein Aarau.\nVerein gegen Hausbettel.\n\nB. Krankenvereine, Unterstützungskassen.\nBuchdrucker-Krankenkasse.\nGroße Gesellenlade für Handwerker.\nGrütliverein-Krankenkasse.\nHeizer- und Maschinistenverein von Aarau\n  und Umgebung.\nKrankensuppe-Anstalt.\nKrankenunterstützungs-Gesellschaft für\n  Frauen und Töchter.\nMänner-Krankenunterstützungs-Verein\n  Aarau.\nSamariter-Verein.\nStädtischer Lehrerpensionsverein in Aarau.\n\nII. Vereine und Gesellschaften\nmit künstlerischen, wissenschaftlichen und\ngewerblichen Tendenzen.\nAargauischer Kunstverein.\nAargauischer Thierschutzverein.\nAarg. Ingenieur- und Architekten-Verein.\nBibelgesellschaft.\nChristlicher Jünglingsverein.\nDramatischer Verein.\nEinwohnerverein der Stadt Aarau.\nFreimaurerloge.\nGartenbauverein.\nGewerbehalle und Vorschußkasse.\nGrütliverein Aarau.\nHandwerker- und Gewerbeverein.\nHistorische Gesellschaft.\nKaufmännische Abendgesellschaft.\nKulturgesellschaft des Bezirks Aarau.\nLesegesellschaft.\nMittelschweiz. Geographisch-Commercielle\n  Gesellschaft in Aarau.\n\n[spalte 2]\nNaturforschende Gesellschaft.\nSchneider-Fachverein Aarau.\nSchuhmacherverein Aarau.\nSonntags- und Handwerkerschule.\nStenographenverein.\nTarifverein Aarau.\nTypographenverein.\nVerein junger Kaufleute.\nVerein schweizerischer Geschäftsreisender,\n  Sektion Aarau.\n\nIII. Gesangvereine.\nCäcilienverein Aarau.\nGesangssektion des Grütlivereins.\nSängerbund Aarau.\nTöchterchor Aarau.\n\nIV. Musikvereine.\nStadtmusikgesellschaft Aarau.\nZither-Club Aarau.\n\nV. Militärische Vereinigungen.\nArtillerieverein Aarau.\nMilitär-Sanitätsverein von Aarau und\n  Umgebung.\nOffiziers-Gesellschaft Aarau.\nUnteroffiziersverein Aarau.\nWasserfahrverein Aarau.\n\nVI. Schützengesellschaften.\nFreier Schießverein Aarau.\nSchützengesellschaft Aarau.\nSchützengesellschaft des Grütlivereins.\n\nVII. Turnvereine.\nBürgerturnverein Aarau.\nTurnverein, Alte Sektion.\n\nVIII. Verschiedene Gesellschaften\nund Vereine.\nAargauischer Taubstummenverein.\nAltersgenossenverein Aarau.\nDeutscher Arbeiterverein.\nDonnerstags-Kegelgesellschaft im Kreuz.\nDreizehner-Jahrgängerverein.\nFitzenverein Aarau.\nJakobenverein Aarau.\nMäßigkeitsverein des blauen Kreuzes.\nTugendbund Aarau.\nVelo-Club.\nZweiundzwanziger-Jahrgängerverein.\n\nVerzeichniß der gemeinnützigen u. wohlthätigen Anstalten.\nArmen-Erziehungsanstalt Kasteln.\nBlindenasylfond.\nDiakonissen-Anstalt in Aarau.\n\n[spalte 2]\nKantonale Kranken-Anstalt in Aarau.\nTaubstummen-Anstalt von Aarau auf\n  Landenhof.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7670,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2810,
+    "lines": 103,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0097,
+    "mean_line_chars": 26.01,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:43:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p165",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p165.jpeg",
+      "bytes": 278012,
+      "sha256": "2ff405681936a8d8debf01e81312b1d4424f4affd6979368aa5fc1369c92503d",
+      "sha256_of": "original",
+      "working_copy": "1888_p165.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:31+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p091",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p091.jpeg",
+    "bytes": 253169,
+    "sha256": "0968009866602f52fe94db9c556368eddd3698df5eac7f04077f25910d3ced7f",
+    "sha256_of": "original",
+    "working_copy": "1888_p091.jpeg"
+  },
+  "text": "Alphabetisches Verzeichniß\nder\nBürger & Einwohner der Stadt Aarau.\n\nWo kein Heimathsort beigesetzt ist, sind es Bürger von Aarau.\n\n[handschriftlich: ✕] Ackermann-Buser, Albert, Kaufmann von Amriswyl (Thurgau), vordere\n  Vorstadt 890.\nAckermann, Konrad, Postcommis von Romanshorn (Thurgau), Rathhaus-\n  gasse 2.\n[handschriftlich: ✕] Adam-Stephani, Paul, Fabrikant von Allschwyl (Baselland), Bachstr. 1113.\nAdrion-Stauß, Andreas, Hafnergehülfe von Alpirsbach (Württemberg),\n  Halden 276.\nAebi-Spillmann, Joseph, Sattler und Tapezirer von Sursee (Luzern),\n  Hammer 188.\nAeschbach-Goldenberger, Friedrich, Schriftsetzer von Oltingen (Baselland),\n  obere Vorstadt 946.\nAeschbach, Marie, Modistin von Mühlethal, Kirchgasse 12.\nAeschbach-Steiner, Rudolf, Steinhauer von Hendschiken, Kirchgasse 10.\nAkeret, Jakob, Krankenwärter von Nußbaumen, Graben 218.\n[handschriftlich: ✕] Ammann-Strähl, Robert, Hochbaumeister von Menziken, Entfelderstr. 970.\nAmmann-Wälchli, Johann, Wirth von Madiswyl (Bern), Schachen 734.\nAmmann, Marie, Ladentochter von Ryken, Bahnhofstraße 560.\nAmsler-Büchli, Marie, Privatin von Bözen, Halden 272.\nAmsler-Falger, Marie, Wittwe von Kaisten, vor dem Haldenthor 804.\nAmsler, August, Postangestellter von Kaisten, v. d. Haldenthor 804.\nAmsler, Ida, Damenschneiderin von Kaisten, v. d. Haldenthor 804.\n[handschriftlich: ✕] Amsler, Otto, Stadtkassier und Sektionschef v. Kaisten, v. d. Haldenthor 804.\n[handschriftlich: ✕] Amsler-Harsch, Emil, Oberrichter von Schinznach, Conradstraße 989.\n[handschriftlich: ✕] Amsler, Heinrich, Fabrikaufseher von Densbüren, in der Telli 437.\n[handschriftlich: ✕] Amsler-Matter, Jakob, Kreispostdirektor von Bözen, Bahnhofstraße 513.\nAmsler-Morgenthaler, Emil, Buchbinder von Kaisten, Wohnung Holz-\n  markt 663 und Werkstätte Golattenmattgasse 229.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6948,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1794,
+    "lines": 31,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 56.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:32:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p091",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p091.jpeg",
+      "bytes": 253169,
+      "sha256": "0968009866602f52fe94db9c556368eddd3698df5eac7f04077f25910d3ced7f",
+      "sha256_of": "original",
+      "working_copy": "1888_p091.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:54+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p013",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p013.jpeg",
+    "bytes": 283248,
+    "sha256": "0ffbfc9e138dbf0e7ec5dbab3597882c10022d955826e7bdf868dda7905ac7e6",
+    "sha256_of": "original",
+    "working_copy": "1884_p013.jpeg"
+  },
+  "text": "die hier von Vater Heinrich Zschokke 1810 gegründete Kulturgesell-\nschaft, haben sich seither ihrer viele über alle Kantone der Schweiz aus-\ngedehnt, während andere unter ihnen z. B. die Historische, die Natur-\nforschende Gesellschaft, jetzt als Vorort eines gleichnamigen kanton.\nCentralvereins gelten. Die Taubstummenanstalt am Landenhof,\nder Blindenafylfond, das Kranken- und Absonderungshaus\nsind weitere neue Einzelheiten einer hierorts alten werktätigen Nächstenliebe.\nFür die Heranbildung der Jugend wurde schon im Anfang dieses Jahr-\nhunderts die Kantonschule aus hiesigen Bürgerbeiträgen gegründet.\nSie besteht aus Progymnasium, humanistischem Gymnasium\nund einer Gewerbeschule. Das Corps der normal armirten und\nmilitärisch unterrichteten Schulkadetten ist 132 Mann stark. Die Gemeinde-\nschüler in je 5 Klassen zählen 992 Köpfe, die Knaben- und die Mädchen-\nBezirksschule zusammen 330 Köpfe. Gegen die modernen „Schulkrankheiten“\nwird von allen Schulen beider Geschlechter in der neu gebauten Turnhalle,\nin der betonirten Schwimmmschule und auf der Eisbahn obligatorisch ange-\nkämpft : Mittel, welche andernwärts noch neu erscheinen, hier aber schon durch\nehemalige Jäger aus dem Lützow’schen Freikorps eingeführt worden sind.\nEs bestehen außerdem ein Lehrerinnen-Seminar, eine weibliche\nArbeitschule, eine Handwerkerschule, 4 Kleinkinderschulen\nmit einem Fröbelgarten. Die Lehrer-Pensionskasse besitzt rund Fr. 37,000. —\nDer Neubau des städtischen Gesammtschulhauses kostete Fr. 747,042. 93.\nDas Schulbudget beträgt Fr. 114,100. — Noch weiter reichende Bildungs-\nmittel für Lehrer und Lernende gewähren die am Orte aufgestellten großen\nStaatsfammlungen. Die Kantonsbibliothek zählt 80,000 Bände,\n1,500 Handschriften und macht dieselben durch einen gedruckten Fachkatalog\nfür Jedermann zugänglich und benutzbar.\nAarau ist Sitz der Bezirks- und kantonalen Oberbehörden, der\nRegierung, des Obergerichts und der Staatsanwaltschaft.\nAls eidgen. Waffenplatz erhält es die Militärshulen für Infanterie,\nCavallerie und Train. Aarau ist die Wiege des Schweizerischen Schützen-\nfestes, des eidgen. Turnfestes, der Kadettencorps und der aarg. Kultur-\nGesellschaften.\n\nDer Verfasser.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3926,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2182,
+    "lines": 34,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 63.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:10:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p013",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p013.jpeg",
+      "bytes": 283248,
+      "sha256": "0ffbfc9e138dbf0e7ec5dbab3597882c10022d955826e7bdf868dda7905ac7e6",
+      "sha256_of": "original",
+      "working_copy": "1884_p013.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:10:11+00:00"
+  }
+}

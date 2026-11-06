@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p181",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p181.jpeg",
+    "bytes": 199415,
+    "sha256": "1642f5db1896e1acba8cfef74ea7885714bb38686ddaa57da9234f350c74efa5",
+    "sha256_of": "original",
+    "working_copy": "1892_p181.jpeg"
+  },
+  "text": "Siebenmann-Rohr, Bierbrauer\nSiebenmann-Siebenmann,\nSpar- und Kreditkasse\nSpinner, J., Camioneur\nSpühler, J. J., Redaktor und Verleger der Aarg.\nNachrichten\nStaatsanwaltschaft, Kantonspolizei\nStaatskanzlei\nStadtpolizei, Wachtposten\nStabel & Bräm, Manufakturwaren\n\" Café Stabel\nStachelin, Dr. U.\nStadtammannamt\nSuhr\nSchäfer, Birkenhof\nWidiella & Frey, Weinhandlung\nVogel-Thut, Zapfenfabrik\nWächter-Häfner, Kurwirthschaft zum\nWeber, Bezirksarzt\nWeber-Lüscher, Weinhandlung\nWettler, Adolf, Gasthof zum Döfien\nWillmann, Zuhthalter\nWirth-Herzog, Auswanderungsagent\nWizinger, Dr. med.\nWehrli, Sandelsgärtner\nWolfsgruber, Photograph\nBirz, Emil, Buchhandlung\nWüthrich, Reclamenbureau\nWüthrich-Lüdi, Spezereihandlung\nWydler, Söhne, Färberei\nWydler, C., Apotheker\nWyfer & Cie., Färberei\nZeughausdirektion\n\" (Befleidungsmagazin)\nZschöffe, D., Baugeschäft\nZschöffe, Oberst,\nZschöffe, Conradin, Ingenieur\nZurlinden & Co., Portlandcementfabrik\n\" \" Wohnung Bahnhofstr. 1013.\n\" \" Cementfabrik\nZürcher, Arzt\nZebert-Altorfer, Buchbinderei\nGraben.\n3. Rosenfeld, Gartenstraße 1166.\nSchöfliand.\nBahnhofstraße 537.\nHintere Vorstadt 622.\nAmtshaus.\nRegierungsgebäude.\nRathausgasse 176.\nHammer 191.\nGraben 1161.\nKirchgarten 303.\nRathaus 176.\nGemeinde-Station.\nGais 480.\nKirchgasse 7.\nOber-Entfelden.\nAlpenzeiger.\nGraben 618.\nPelzgasse 128.\nLaurenzenthorgasse 115.\nSchmiedgasse 619.\nZollrain 89.\nZeughausstraße 1317.\nSchachen 1272.\nVor dem Salenthof 770.\nOberthor 189.\nBachstraße 1028.\nLaurenzenthorgasse 117.\nZiegelrain 718.\nMarktgasse 23.\nBachstraße 1055.\nAltes Zeughaus.\nNeues Zeughaus.\n\"Rohrerstraße\" 472.\nBlumenhalde 319.\nBuchenhof 1200.\nScheibenschachen 1180.\nWilbegg.\nLaurenzenvorstadt 391.\nLaurenzenthorstraße 116.\nÖffentliche Sprechstation in Aarau:\nLaurenzenthorgasse 117: Wüthrich-Lüdi, Spezereihandlung.\nSuhr: S. Wälti.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5865,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1804,
+    "lines": 85,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 20.24,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:50:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p181",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p181.jpeg",
+      "bytes": 199415,
+      "sha256": "1642f5db1896e1acba8cfef74ea7885714bb38686ddaa57da9234f350c74efa5",
+      "sha256_of": "original",
+      "working_copy": "1892_p181.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:35+00:00"
+  }
+}

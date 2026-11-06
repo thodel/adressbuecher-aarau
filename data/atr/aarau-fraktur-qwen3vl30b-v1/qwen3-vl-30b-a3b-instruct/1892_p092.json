@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p092",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p092.jpeg",
+    "bytes": 239226,
+    "sha256": "5ef21dc37662bc09de48fba76b9c5a1bdac9b5c9663edfda5da1b7f9683c8b51",
+    "sha256_of": "original",
+    "working_copy": "1892_p092.jpeg"
+  },
+  "text": "Haus-\nNr\n1196. † Zulauf=Siebenmann, Weinhändler. Remise. (Bachstraße.)\n1197. † Pfarrhaus zur röm.-Kirche. (Schmiedgasse.)\n1198. † Zschokke=Sauerländer, Guido. Bienenhaus. (Zschokkestraße.)\n1199. † Pfisterer=Kohr, Robert, Bierbrauer. Schopf. (Gartenstraße.)\n1200. * Zschokke, Conradin, Ingenieur. (Entfelderstraße.)\n1201. † Frey-Rumpf, Fried. Waschhaus. (Vor dem Haldenthor.)\n1202. † Zschokke, Conradin, Ingenieur. Deonomiegebäude. (Entfelderstraße.)\n1203. † Riniker, Herm., Rither. Holzmagazin. (Entfelderstraße.)\n1204. † Wächter, Johann, Wirth. Holzhaus und Stallung. (Alpenzeiger.)\n1205. † Zschokke, Conradin, Ingenieur. Holz- und Hühnerhaus. (Entfelder-\nstraße.)\n1206. † Wächter, Johann, Wirth. Trinkhalle. (Alpenzeiger.)\n1207. † Schmidt, Adolf, Sattler. Werkstätte. (Bachstraße.)\n1208. † Diakonissenstation Aarau. Wasch- und Glättehaus. (Bahnhof-\nstraße.)\n1209. † Fischer, Thomas, Bierbrauer. Eißeller. (Rohrerstraße.)\n1210. * Schäfer, Adolf, Architekt. (Lindenhof, Gais.)\n1211. † Zurlinden & Cie. Brennöfenhaus. (Scheibenschachen.\n1212. † Dieselben. Cementmagazin. id.\n1213. † Dieselben. Materialshuppen. id.\n1214. † Holzach=Siebenmann, Dietrich, Bierbrauer. Eißhaus. (Bahnhof-\nstraße).\n1215. † Derfelbe. Wasch- und Holzhaus. (Bahnhofstraße).\n1216. † Pfisterer=Kohr, Robert, Bierbrauer. Eißeller. (Gartenstraße.)\n1217. Bolliger, Johann, Notar. (Lindenhof, Gais.)\n1218. † Siegrift, Heinrich, Metzger. Stallung. (Vor dem Haldenthor).\n1219. † Kull, Philipp, Spengler. Magazin. id.\n1220. † Kern=Sayer, Adolf. Bienenhaus. id.\n1221. † Abgetragen.\n1222. † Bogel, Rudolf, Dachdecker. Schopf. (Entfelderstraße.)\n1223. Abgetragen.\n1224. † Gemeinde Aarau. Gemächshaus. (Friedhof.)\n1225. † Wässmer=Kummler, Emil. Holzhaus. (Rain.)\n1226. † Derfelbe. Gartenhaus. (Rain.)\n1227. † Andres, Jakob, Schreiner. Schopf. (Fenstets der Aare.)\n1228. † Andres, Gottlieb, Fondverwalter. Schopf. id.\n1229. † Crismann, Friedrich, Güterexpedient. Stallung. (In der Gais.)\n1230. † Zurlinden & Cie. Schopf. (Scheibenschachen.)\n1231. Riniker, Friedrich, Bierbrauer. Wohnhaus und Eißeller. (Laurenzen-\nthorgasse.)\n1232. * Matter, Samuel, Amtsschreiber. (Schmiedgasse.)\n1233. † Landolt=Hartmann, Karl, Fabrikant und Gänzlen=Landolt,\nKarl. Magazine. (Obere Vorstadt.)\n1234. † Siebenmann, Rud., Part. Holzhaus. (Bankstraße.)\n1235. † Landolt, Gottlieb, Metzger. Wagenremise. (Hintere Vorstadt.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5442,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2362,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 49.28,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:40:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p092",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p092.jpeg",
+      "bytes": 239226,
+      "sha256": "5ef21dc37662bc09de48fba76b9c5a1bdac9b5c9663edfda5da1b7f9683c8b51",
+      "sha256_of": "original",
+      "working_copy": "1892_p092.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:40:57+00:00"
+  }
+}

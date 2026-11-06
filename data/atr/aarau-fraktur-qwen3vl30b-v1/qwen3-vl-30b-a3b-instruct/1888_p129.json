@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p129",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p129.jpeg",
+    "bytes": 282022,
+    "sha256": "b974a0eff55e997f1bd6f7867dac175a25451a4425cc2120654dec5ba9df7d8f",
+    "sha256_of": "original",
+    "working_copy": "1888_p129.jpeg"
+  },
+  "text": "Schlapach — Schmuziger.\n111\nSchlapach-Ruhn, Johann, Ziegler von Belp (Bern), Halden 280.\nSchlatter-Bühler, Anna Maria, Mabriers Wittwe, Kirchhof 80.\nSchlatter, August, Part., Mezgergasse 103.\nSchmid-Baumann, Ludwig, Schreiner von Watterdingen (Baden), hinter\ndem Bahnhof 494.\nSchmid-Boscardt, Anna, Näherin, Stadthof 94.\nSchmid-Fischer, Heinrich, Kaufmann von Wittnau, hintere Vorstadt 689.\nSchmid-Graf, Rudolf, Taglöhner, Abelbändli 170.\nXSchmid-Ländli, Jakob, Ingenieur und Konfödatsgeometer von Glarus,\nBachstraße 1138.\nSchmid, Marie, Ladendienerin von Buch bei Weinfelden (Thurgau),\nKronengasse 33.\nSchmid-Maurer, Mathilde, Negotiantin von Möriken, Rathausgasse 29.\nSchmid-Pauli, Daniel, Gärtner von Erlinsbach, Scheidenjschachen 315.\nSchmid-Peter, Hans, Postfaktur, Stadthof 92 a.\nSchmid, Elise, Fabrikarbeiterin id. 92.\nSchmid, Ida, Damenschneiderin id. 92.\nSchmid, Rosa, Damenschneiderin von Gipf, Laurenzenvorstadt 362.\nSchmid-Suter, Johann, in Zofingen, „Pariser Bazar“, vord. Vorst. 889.\nSchmid-Unger, Rudolf, Bahnmärter von Erlinsbach, Halden 279.\nSchmid, Marie, Damenschneiderin id. id.\nSchmid, Wilhelm Rudolf, Sekretär des Waffenchefs der Artillerie, von\nBern, Gais 482.\nSchmid-Willi, Josef, Anton, Polizeikorporal u. Fischereiagent von Wittnau,\nobere Vorstadt 940.\nXSchmid-Wolf, Peter, Sekretär u. Kassier der Sparkasse der Stadt Aarau\nund Umgebung, hintere Vorstadt 645.\nSchmidlin, Elise, Part., Zschokkestraße 996.\nXSchmidlin-Lug, Theodor, Fabrikant chemischer Produkte, Graben 204.\nSchmidt, Albert, Schriftseker, Halden 256.\nXSchmidt-Corredevon, Robert, Negt., Zollrain 177.\nSchmidt-Hänsler, Verena, Gärtners Wittwe, Spetterin, Halden 256.\nXSchmidt-Hagnauer, Gustav, Kaufmann, Graben 202.\nXSchmidt-Halbritter, Max, Fürspruch, Direktionssekretär, Graben 202.\nXSchmidt-Henz, Hans, Bierwirth, Pelzgasse 129.\nSchmidt-Jenny, Modistin, vordere Vorstadt 892.\nSchmidt, Lisette, Goldschmieds, Part., vordere Vorstadt 892.\nSchmidt-Lanz, Adolf, Kaufmann u. Versicherungsagent, ob. Vorstadt 935.\nSchmidt-Siebenmann, Adolf, Sattlermeister, Bachstraße 1028.\nSchmidt-Rieleder, Robert, Malermeister, id. id.\nSchmitter-L'huiller, Adele, Fabrikants Wittwe, Part. Zollrain 293.\nSchmoker, Verena, Modistin von Ringgenberg (Bern), Hut- und Mode-\nwaarenhandlung, Milchgasse 73.\nSchmuz-Weber, Anna, Spetterin v. Eptingen (Wäjelland), Milchgasse 73.\nXSchmuziger, Marie, Schreibmaterialien- u. Quincatilleriewarenhandlung,\nRathausgasse 1.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5027,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2430,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p129",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p129.jpeg",
+      "bytes": 282022,
+      "sha256": "b974a0eff55e997f1bd6f7867dac175a25451a4425cc2120654dec5ba9df7d8f",
+      "sha256_of": "original",
+      "working_copy": "1888_p129.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:56+00:00"
+  }
+}

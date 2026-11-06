@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p028",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p028.jpeg",
+    "bytes": 313661,
+    "sha256": "7e153c4ba0ad54d1c927cfec577db7669ae36504f58f5725f313bad2858daf60",
+    "sha256_of": "original",
+    "working_copy": "1884_p028.jpeg"
+  },
+  "text": "24\tGraf.\t—\tHagnauer.\n\nGraf, Susanna, Spetterin, von Rohr, Rainstraße 875.\nGramer, Johann August, Commis, von Weitingen (Würtemberg), Rath-\n  hausgasse 22.\n*Gränicher-Richner, Rosa, Briefträger's Wittwe, Partik., Kirchplatz 162.\n* — =Wärtli, Jakob, Schneidermeister, Kirchplatz 162.\n* — =Rüetschi, Marie, Wittwe, Partik., obere Vorstadt 929.\n* — Benjamin, Sattler, Bachstraße 1038.\nGrether, Maria, Damenschneiderin, von Tannenkirch (Großh. Baden),\n  Rainstraße 832.\n— Katharina, Damenschneiderin, von Tannenkirch (Großh. Baden),\n  Rainstraße 832.\n— Julie, Erzieherin, von Tannenkirch (Großh. Baden), Rainstraße 832.\nGrolimund-Gröbli, Sigmund, Buchhandlungs-Angestellter, von Beinwyl\n  (Solothurn), Kronengasse 33.\nGroß, Ludwig, Karl, Buchhändlergehülfe von Ludwigsburg (Würtemberg),\n  Zollrain 87.\nGröner-Dreifuß, Jakob, Kaufmann von Endingen, Igelweid 619.\nGruber-Lang, Meinrad, Bahnwärter v. Schönenwerd (Soloth.), Rain 859.\nGuggenheim-Bollag, Julius, Kaufmann von Ober-Endingen, Tuchhdlg.,\n  Kronengasse 34.\n— =Guggenheim, Rosa, Wittwe, Partik., von Lengnau, Rathhausgasse 45.\n— Fanny, Damenschneiderin von Lengnau, Rathhausgasse 45.\nGuggisberg-Beck, Emil, Bäckermeister, v. Vevey (Waadt), Bahnhofstraße 569.\nGutentag, Isidor Jul., Prof., v. Chensstockau (Preußen), Bahnhofstr. 535.\n*Guyer-Waßmer, August, Fabrikant, in der Telli 456.\n* — =Gunkel, Oskar, Sohn, Fabrikant, in der Telli 456.\nGünthard-Hauri, Marie, Wittwe, Weißnäherin von Hedingen (Zürich),\n  Schachen 739.\n\n*Haas, Emil, Ferger, von Waldenburg (Baselland), Rathhausgasse 46.\nHaberstich-Fleiner, Johann, Fürsprech, Laurenzenvorstadt 413.\n* — =Scheuermann, Samuel, Schulinspektor, obere Vorstadt 938.\n— =Stöckli, Jakob, Zinsrodelverwalter, v. Ober-Entfelden, Rainstraße 858.\n*Hagenbuch-Hagenbuch, August, Sekretär, Rathhausgasse 46.\n* — =Hagenbuch, Verena, Wollenwaarenhandlung, Rathhausgasse 5.\n* — =Egger, Friedrich, Buchbinder, vordere Vorstadt 676.\n* — =Groß, Karl, Coiffeur, Rainstraße 819.\n* — Jakob, Buchhalter, Rainstraße 821.\n* — =Rämisperger, Rosina, Glaser's Wittwe, Pelzgasse 63.\n* — =Ernst, Marie, Schneider's Wittwe, vordere Vorstadt 902b.\n* — Adele, Musiklehrerin, Kronengasse 33.\n*Hagnauer-Dätwyler, Friedrich, Bürstenmacher, Pelzgasse 68.\n* — Gottlieb, Metzger, Halden 266b.\n* — =Wildberger, Barbara, Wittwe, Partik., neues Quartier 988.\n* — Hedwig, Lehrerin, im Weinberg 1102.\n* — =Kaspar, Johann Ludwig, Briefträger, Adelbändli 170.\n* — Louise, Pfarrer's, Partik., hinter dem Platz 214.\n* — =Zimmermann, Albert, Kaufmann, Bachstraße 1137.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8567,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2522,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0208,
+    "mean_line_chars": 51.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:12:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p028",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p028.jpeg",
+      "bytes": 313661,
+      "sha256": "7e153c4ba0ad54d1c927cfec577db7669ae36504f58f5725f313bad2858daf60",
+      "sha256_of": "original",
+      "working_copy": "1884_p028.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:12:17+00:00"
+  }
+}

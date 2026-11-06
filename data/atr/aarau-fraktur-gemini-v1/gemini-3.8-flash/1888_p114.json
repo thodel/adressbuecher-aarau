@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p114",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p114.jpeg",
+    "bytes": 279756,
+    "sha256": "65865eeb8e041b0ccba465e4e24b7d43ec6715539725c5d24322dfc6d39ef0a5",
+    "sha256_of": "original",
+    "working_copy": "1888_p114.jpeg"
+  },
+  "text": "96 — Hunziker — Käppeli.\n\nHunziker-Tschopp, Gottlieb, Schneider von Unterkulm, Adelbändli 82.\nHunziker-Wieland, Elise, Wittwe von Unterkulm, Ziegelrain 747.\nHunziker-Züst, Guido, Rentier, Laurenzenvorstadt 374.\nHusi-Lämmli, Franz Josef, Bahnangestellter von Wangen (Solothurn),\n  Entfelderstraße 1147.\n\nJäcker, Joseph, Comestibleshändler von Lachapelle (Frankreich), hintere\n  Vorstadt 696.\nJäger-Hässig, Johann, Maurer von Außersihl (Zürich), Bahnhofstr. 1022.\nJäggi-Weber, Hermann, Buchhalter von Strengelbach, hinter dem\n  Bahnhof 494.\nJäggi-Urech, Sophie, Wittwe, Part. von Strengelbach, h. d. Bahnhof 494.\nJäggi, Wilhelmine, Lehrerin von Strengelbach, Laurenzenvorstadt 552.\nJeggli-Hässig, Robert, Bäcker, Zollrain 88.\nJeggli-Widmer, Karolina, Wittwe, Part., Adelbändli 175.\nJehle-Weber, Mathäus, Scheibenarbeiter von Wyl, Milchgasse 145.\nJenny-Kunz, Adolf, Kaufmann von Iffweil (Bern), Telli 449.\nJmhof-Aman, Ernst, Fabrikant, Bachstraße 1035.\nJmhof-Herzog, Emma, Med. Drs. Wittwe, Part., Laurenzenvorstadt 399.\nJmhof-Lingenstorfer, Louise, Pfarrers Wittwe, Part., vord. Botstadt 894.\nJmhof, Louise, Part., vordere Vorstadt 894.\nJmhof, Susette, id. id. id.\nJmhof-Munzinger, Emil, Vice-Stadtammann, Graben 215.\nJmhof-Schmid, Carolina, Wittwe, Part., obere Vorstadt 940.\nJoho-Bryner, Samuel, Färber von Auenstein, Halden 282.\nJos-Scheibler, Anna Elisabeth, Wittwe, Part. von Gallmannsweil (Baden),\n  obere Vorstadt 944.\nJörg-Künzli, Peter, Schuhmachermeister von Langenselbold (Preußen),\n  Rain 820.\nJörg-Hächler, Samuel, Schreiner von Affoltern (Bern), Halden 289.\nJörg, Jakob, Seilergehülfe von Affoltern (Bern), Golattenmattgasse 235.\nJsler-Brugisser, Arthur, Dr. med. von Wohlen, Graben 615.\nJsliker, Ulrich, Schuhmachermeister von Andelfingen (Zürich), Golatten-\n  mattgasse 230.\nJungi-Blattner, Johann, Schuhmachermeister von Guggisberg (Bern),\n  Wohnung Milchgasse 79, Werkstätte Kirchhof 165 a.\nJungi-Blattner, Lina, Damenschneiderin von Guggisberg, Milchgasse 79.\n\nKägi-Frei, Alfred, Schneider von Steig (Zürich), Halden 286.\nKähr, Maria, Näherin von Rüderswyl (Bern), Kirchplatz 165.\nKäppeli-Müller, Gottlieb, Dr. jur., Reg.-Rath von Merenschwand,\n  Entfelderstraße 969.\nKäppeli-König, Johann, Zugführer von Merenschwand, Bahnhofstr. 568.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7842,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2252,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:36:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p114",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p114.jpeg",
+      "bytes": 279756,
+      "sha256": "65865eeb8e041b0ccba465e4e24b7d43ec6715539725c5d24322dfc6d39ef0a5",
+      "sha256_of": "original",
+      "working_copy": "1888_p114.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:07+00:00"
+  }
+}

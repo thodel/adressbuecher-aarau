@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p029",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p029.jpeg",
+    "bytes": 258322,
+    "sha256": "9bae3b4d08704044a552ef5e995b4ac98a70356137ae37d37713c79e02d3779a",
+    "sha256_of": "original",
+    "working_copy": "1888_p029.jpeg"
+  },
+  "text": "— 19 —\nHaus-\nNr.\n  Steiner-Schürch, Jakob, Kondukteur, von Dürrenäsch.\n  Meisel, Xaver, Stadtförster.\n206. Schießer-Hässig, Hermann, Kaufmann. Käsehandlung en gros.\n  Meyer, Jakob Ludwig, Architekt, von Zürich. Direktor der Handwerkerschule.\n207.* Markwalder = Gamper, Traugott, Major, Kavallerie = Instruktor,\n    von Wettingen.\n208. Abgetragen, an dessen Platz\n1237   Dürr = Lüscher, Gabriel, Gemüsehändler. Restauration.\n  Riniker-Lutz, Adolf, Kaufmann.\n  Lutz, Ulrich, Klaviermacher, von Thal (St. Gallen).\n209. Kieser = Haßler, Samuel, Postkassier.\n  Burgmeier-Kieser, Joseph, Gesanglehrer.\n\nHinter dem Platz.\n210. Wildi = Aeschbach, Emil, Schreiner, von Suhr.\n  Sommerhalder, Anna, Spetterin, von Gontenschwyl.\n211.† Gemeinde Aarau. Spritzenhaus Nr. 8.\n212.* Siebenmann = Brun, Brandolf, Fabrikant in Schönenwerd.\n  Firma: Siebenmann-Brun & Comp., mechanische Tricotfabrik.\n213. Trefzger = Schöndli, Gustav, Dampf- Wasch- und Badanstalt.\n214.* Siebenmann, Jakob, Schneider.\n  Angst-Hässig, Gottlieb, Negt., von Eglisau (Zürich). Aarg. Bibeldepot\n    und Niederlage technischer und chemischer Produkte.\n  Faßler, Maria, Privatin, von Densbüren.\n  Heß, Karolina, Lehrerin, von Wald (Zürich).\n\nGraben.\n215. Allgemeine aargauische Ersparnißkasse.\n  Imhof-Munzinger, Emil, Vize-Stadtammann.\n  Welti-Siebenmann, Andreas, Partik.\n216. Meister = Gisi, Georg, Bäcker u. Pintenwirth, von Matzendorf (Solothurn).\n  Lorenz-Isaak, Joseph, Arzt, von Klingnau.\n217. Buser = Müller, Heinrich, Hufschmied.\n  Zschokke-Boitel, Margaretha, Wittwe, Part.\n218. Urech = Imhof, Fried., Pfarrhelfer.\n  Ott, Kaspar, Rentier, von Zürich.\n  Akeret, Jakob, Krankenwärter, von Nußbaumen.\n219. Dolder = Saxer, Jakob, Kaufmann, von Hauptweil (Thurgau). Hemden-\n    fabrikation, Weißwaarengeschäft.\n220.* [handschriftlich: ]Zschokke = Sauerländer, Guido, Buchhändler. Firma: H. R. Sauer-\n    länders Sortiments-Buchhandlung.\n  Stacher-Brunner, Gustav, Seminarlehrer, von Egnach (Thurgau).\n221. Hunziker = Thommen, H., Fabrikant.\n  Meyer, J. L., Architekt. Direktor der Handwerkerschule (Bureau).\n  [handschriftlich: ]Lutz, Ulrich, Klaviermacher. Klavierdepot.\n  Niggli, Friedrich, gew. Lehrer, Part., von Aarburg.\n222. Vogt = Siegrist, Samuel, von Schinznach. Restauration.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7464,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2246,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:26:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p029",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p029.jpeg",
+      "bytes": 258322,
+      "sha256": "9bae3b4d08704044a552ef5e995b4ac98a70356137ae37d37713c79e02d3779a",
+      "sha256_of": "original",
+      "working_copy": "1888_p029.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:08+00:00"
+  }
+}

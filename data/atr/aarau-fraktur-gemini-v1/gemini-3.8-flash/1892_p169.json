@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p169",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p169.jpeg",
+    "bytes": 252569,
+    "sha256": "5666e8960ed11d3c9e50eb8349027808cf17824a1aed67aef703e7fd8a17bca7",
+    "sha256_of": "original",
+    "working_copy": "1892_p169.jpeg"
+  },
+  "text": "153\n\nBertschi, Adolf, Mezgergasse 107.\nBertschi, Emil, Holzmarkt 663.\nDyma, Ignaz, Kirchgasse 10.\nEhrsam, Daniel, Ziegelrain 707 b.\nEger, Theophil, Milchgasse 71.\nEngesser, Joseph, Halden 268.\nFischer, Franz, Halden 285.\nFrey, Johann, Milchgasse 74.\nGamper, Emil, Marchand Tailleur,\n  Rathhausgasse 49.\nGanser, Georg, hintere Vorstadt 621.\nGerber, Gustav, Marchand Tailleur,\n  vordere Vorstadt 670.\nGränicher, Jakob, Kirchplatz 162.\nHefti, Joh. Peter, Mezgergasse 100.\nHerzig, Friedrich, March. Tailleur, hint.\n  Vorstadt 644.\nHerzog, Konrad, Halden 252.\nHorlacher, Heinrich, Milchgasse 74.\nHuber, Jakob, Halden 251.\nHunziker, Gottlieb, Adelbändli 84.\nJost, August, Golattenmattgasse 234.\nMatter, Jakob, Adelbändli 170.\nMeier, Joseph, vor dem Haldenthor 1109.\nMeier-Müller, Paul, Rathhausgasse 18.\nMüller, Jost, Schmiedgasse 636.\nSchmuziger, Gottlieb, Ziegelrain 703.\nSiebenmann, Gustav & Otto, Marchand\n  Tailleur, Oberthor 226.\nSuter, Albert, Pelzgasse 133.\nStrub, Robert, Halden 252.\nWaßmer, Fidel, Pelzgasse 63.\nWälti, Rudolf, obere Vorstadt 937.\nWipf, Jakob, Pelzgasse 122.\n\nSchneiderinnen.\nAmsler, Ida, vor dem Haldenthor 804.\nBaumann, Elise, Oberthor 140.\nBeck, Louise, Adelbändli 174.\nBertschi-Anna, Milchgasse 70.\nBertschi-Schwammberger, Marie, Mezger-\n  gasse 107.\nBilleter, Anna, Rathhausgasse 26.\nBirkhofer-Hagenbuch, Albertine, Rain 821.\nBirri, Emma, Scheibenschachen 314.\nBlume, Mina, Laurenzenthorgasse 1118.\nBolliger, Melanie, Schachen 713.\nBrunnhofer, Elise, Rain 875.\nBuchmann, Adele, Halden 249.\nFelber, Marie, Hammer 188.\nFischer, Louise, Adelbändli 172.\nGloor, Bertha, Adelbändli 171.\nHochstraßer, Marie, Schachen 734.\nJungi-Blattner, Lina, Kronengasse 40.\nLandolt-Häuptli, Marie, Halden 284.\nMarti, Lina, Pelzgasse 130.\n\n[spalte 2]\n\nMüller, Albertine, Halden 285.\nPlüß, Anna, hintere Vorstadt 688.\nPfister-Sandmeier, Emma, v. d. Halden-\n  thor 1084.\nRüetschi, Bertha, Pelzgasse 131.\nSalm, Marie, Milchgasse 144.\nSandmeier, Marie und Margaretha, ob.\n  Vorstadt 955.\nSchibli, Anna, Schachen 731.\nSchmid, Emma, Stadthof 92.\nSchmid, Rosa, Laurenzenvorstadt 362.\nSchmuziger, Lucie, Ziegelrain 703.\nSpörri-Käser, Elise, Adelbändli 170.\nStierli, Sophie, Oberthor 228 a.\nSuter, Rosa, vordere Vorstadt 666.\nTschanz, Ida, Zollrain 177.\nWildi, Anna, Halden 264.\n\nSchreiner.\nAndres, Jakob, jenseits der Aare 299.\nBär, Rudolf, obere Vorstadt 964.\nBerner, Rudolf, Rain 888.\nBertschi, Gottfried, Halden 286.\nBlume, Philipp, Hammer 189.\nDürr, Isaak, Milchgasse 161.\nGysi, Samuel, Stadthof 92 b.\nJörg, Samuel, Bachstraße 1032.\nKotter, Johann, Bahnhofstraße 653.\nStrebel, Eduard, Rain 857.\nWernli, Jakob, obere Vorstadt 909.\nWildi, Emil, hinter dem Platz 210.\nWild, Samuel, Ziegelrain 713.\nZweifel, Samuel, Rain 877.\n\nSchuhfabrikation.\nC. F. Bally, jenseits der Aare 309.\n\nSchuhmacher-Fournituren.\nHaßler, Hans, Gerber, Bahnhofstraße 656.\n\nSchuhwaarenhandlungen.\nDreßler, Laurenz (Camisasca's Nach-\n  folger), Rain 826.\nHagmann, Adolf, hintere Vorstadt 1262.\nHoffmann, Johann, Milchgasse 72.\nJörg, Peter, Rain 820.\nKünze, Oswald, Pelzgasse 122.\nLimacher, Niklaus, Rathhausgasse 24.\nMayer, Thomas, hintere Vorstadt 697.\nSchneeberger-Salvi, Jakob, Rathhaus-\n  gasse 3.\nStapfer, Johann, Rathhausgasse 31.\nVogt, Johann, obere Vorstadt 911.\nWernli, Andreas, Rathhausgasse 44.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10825,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 3274,
+    "lines": 107,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 29.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:06:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p169",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p169.jpeg",
+      "bytes": 252569,
+      "sha256": "5666e8960ed11d3c9e50eb8349027808cf17824a1aed67aef703e7fd8a17bca7",
+      "sha256_of": "original",
+      "working_copy": "1892_p169.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:06:26+00:00"
+  }
+}

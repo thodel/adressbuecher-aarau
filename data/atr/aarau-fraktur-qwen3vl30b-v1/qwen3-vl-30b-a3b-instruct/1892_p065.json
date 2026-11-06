@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p065",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p065.jpeg",
+    "bytes": 229298,
+    "sha256": "0377ea2d6fce6202d54957d2332980c0e40be0a78f77816a25c599f47e6633b1",
+    "sha256_of": "original",
+    "working_copy": "1892_p065.jpeg"
+  },
+  "text": "Haus-\nNr.\n813. † Staat Aargau. Laboratorium.\n814. † Derfelbe. Munitionsmagazin.\n815. † \" Abtritte.\n816. † Rychner, Heinrich, Gewehrfabrikant. Schießstand.\n817. † Derfelbe. Scheibenstand.\n818. † Reformirte Kirchgemeinde Aarau. Gartenhaus.\n\nMain.\n819. Hagenbuch-Gros, Karl, Coiffeur, Chirurg und Leichenbeschauer.\nSpiegelglasversicherungs-Agentur.\nSchachmann-Bolliger, Friedrich, Agent, von Windisch.\n820. Jörg-Künzli, Peter, Schuhmachermeister. Schuhhandlung.\nSchwammberger-Schmid, Jakob, Färber, von Auenstein.\nGertiser-Andres, Maria, Wittwe, Part., von Münchwilen.\nAndres, Emma, Fabrikarbeiterin.\n821. Birkhofer-Hagenbuch, Albertine, Damenschneiderin.\nFrey, Albert, Uhrenmacher, von Densbüren.\nMeier, Joseph, Bütreauchef (Lagerhaus), von Ehrendingen.\nAmmann, Gottfried, Commis, von Thun (Bern).\n822. Keller-Speereisen, Gottlieb, von Wösch nau (Solothurn). Speise-\nwirthschaft zum Neuen Bund.\nMatter-Egli, Jakob, Privat., von Kölliken.\n823. Wittmer-Schumacher, Elise, Wittwe, Part., von Erlinsbach\n(Solothurn).\nWittmer, Elise, von Erlinsbach (Solothurn). Spezereiwaarenhandlung.\nWittmer, Julius, Lithographische Anstalt und Druckerei, von Erlins-\nbach (Solothurn).\nFurter-Nüegger, Friedrich, Bahnmeister, von Staufen.\nWanger-Siebenmann, Hermann, Part.\n824. † Diefelbe. Lithographische Anstalt.\n825. a Etter-Hägi, Rheinhard, Milchverkäufer, von Langrickenbach (Thurgau).\nPeyer-Ros, Wilhelmine, Wäscherin und Glätterin, von Lofstorf (Solothurn).\nPeyer, Sophie, Glätterin, von Lofstorf (Solothurn).\nHäfeli-Fischer, Julie, Expedients Wittwe, Näherin von Seengen.\n825. b. Zuber-Müller, Andreas, Hausknecht.\nRoth-Widmer, Verena, Wäscherin, von Mühlethal.\nRoth-Gautschi, Friedrich, Schuhmachermeister, von Mühlethal.\n826. * Dreßler-Hofmann, Laurenz, Kaufmann, von Belfort (Frankreich).\n(Camisäcas Nachfolger). Zum hohen Haus. Bett-, Möbel- und\nTuchwaarenhandlung; fertige Kleider, Schuhwaaren und Hüte,\nReiseartikel, Mercerie-, Quincaillerie- und Bijouteriewaarenhandlung.\nKal-Dreßler, Marie, Geschäftsführerin, von Karlsruhe (Großherzogth. Baden).\nHaupt-Ginsberg, Hermann, Oberkellner, von Regensberg (Zürich).\n827. † Rohr, Samuel, Gastwirth Scheune.\n828. Rüchner-Siebenmann, Elise, Bandfabrikants Wittwe.\nLandolt-Häffig, Lina, Wittwe, Part.\nGonzenbach-Gonzenbach, August, Ingenieur, Stadtrath, von St. Gallen.\nSchwalt, Walther, Kriminalgerichtsschreiber, von Lenzburg.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4724,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2363,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p065",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p065.jpeg",
+      "bytes": 229298,
+      "sha256": "0377ea2d6fce6202d54957d2332980c0e40be0a78f77816a25c599f47e6633b1",
+      "sha256_of": "original",
+      "working_copy": "1892_p065.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:55+00:00"
+  }
+}

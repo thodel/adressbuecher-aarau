@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p106",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p106.jpeg",
+    "bytes": 302327,
+    "sha256": "1273c738fd2cdacaeb9889e4a4e61d6bd816a2624fd4ba91164d7cb3600f3e31",
+    "sha256_of": "original",
+    "working_copy": "1888_p106.jpeg"
+  },
+  "text": "88\nGautschi — Gyfi.\nGautschi-Lenengerger, Rudolf, Deſonom von Reinach, Tellı 460.\nGautschi-Maculin, Rudolf, Wirth zum „Frohsinn“, von Reinach, hinter\ndem Bahnhof 1072.\nXGautschi-Siebenmann, Samuel, Kantons-Ingenieur, Bachstraße 1039.\nGavillet, Louis, Commis von Fenny (Waadt), Ziegelrain 704.\nGeiger, Lorenz, Feilenhauer von Weilertatt (Württemberg), Hammer 188.\nGeiser, Elise, Diakonissin von Langenthal (Bern), Bahnhofstraße 1173.\nGeisfmann, Kaver, Sekretär von Hägglingen, Kirchhof 80.\nGennert-Müller, Eduard, Schneider von Czubec (Preußen), Halden 269.\nXGerber-Haßler, Louise Elisabeth, Wittwe, Kleider- und Tuchhandlung,\nvordere Vorstadt 670.\nGerber-Seiler, Gustav, March. Tailleur, vordere Vorstadt 670.\nGerber, Robert, Commis, vordere Vorstadt 670.\nXGerodetti-Habermacher, Virgilius, Hutmacher von Sagliano (Italien),\nZiegelrain 713.\nGermann-Müller, Johann, Schneider von Graltshausen (Thurgau),\nHalden 251.\nGertiser-Andres, Maria, Wittwe, Damenschneiderin von Münchwylen,\nvordere Vorstadt 676.\nGiger, Lina, Damenschneiderin von Gontenschwyl, hintere Vorstadt 690.\nGiger-Märki, Jakob, Schreiner von Gontenschwyl, Ziegelrain 751.\nGiger-Niinlift, Peter Eugen, Eisenbahnkondukteur von Niedergösgen (Solv-\nthurm), Casinostraße 570.\nGiger-Sommerhalder, Jakob, Polizeikorporal und Gefangenwart von\nGontenschwyl, hintere Vorstadt 690.\nGiger-Wildi, Rosina, Malers Wittwe, Part. von Alzheim (Württemberg),\nobere Vorstadt 937.\nGing-Weixhaupt, Joh. Jakob, Part., Casinostraße 571.\nGing, Wilhelm, Wagner,\nid. id.\nGing, August, Schmied,\nid. id.\nGinsberg-Ammann, Friedrich, Part., Bahnhofstraße 1026.\nGirod-Wyss, Louis, Kaufmann von Romont (Waadt), Rathausgasse 22.\nGisler-Landolt, Hermine, Haushälterin von Unterlangeneg (Bern), Kirch-\nplatz 165 b.\nXGisi-von Arx, Viktor, Kaufmann, Tuchhandlung, von Niedergösgen (Solv-\nthurm), Holzmarkt 664.\nXGisi-Bächli, Adolf, Tapezierer von Buchs, Bahnhofstraße 658.\nGisi, David, gew. Postkondukteur von Suhr, Rain 885.\nGisi-Hägele, Friedrich, Färber von Altenberg (Baden), Milchgasse 143.\nGisi-Schmid, Joh. Jakob, Rechnungsrevisor von Birs, hintere Vorstadt 641.\nXGyfi-Ammann, Traugott, Lehrer, jenseits der Aare 321 o.\nGyfi, Anna, Buchhalterin, vordere Vorstadt 895.\nXGyfi-Anderegg, Emil, Maler, obere Vorstadt 942.\nXGyfi-Büchli, Emil, Mechaniker, Gartenstraße 978.\nGyfi-Fischer, Friedrich, Schlosser, hintere Vorstadt 645.\nGyfi, Lisette, Modellstechers, Part., Rathausgasse 44.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5137,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2412,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.02,
+    "mean_line_chars": 47.26,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:25:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p106",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p106.jpeg",
+      "bytes": 302327,
+      "sha256": "1273c738fd2cdacaeb9889e4a4e61d6bd816a2624fd4ba91164d7cb3600f3e31",
+      "sha256_of": "original",
+      "working_copy": "1888_p106.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:58+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p055",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p055.jpeg",
+    "bytes": 198653,
+    "sha256": "1d03dfec530143a648e18354225322f6dcb944151aabcaf04952f9b4e9c0901f",
+    "sha256_of": "original",
+    "working_copy": "1892_p055.jpeg"
+  },
+  "text": "— 47 —\n\nHaus-\nNr.\n653. * Derselbe. Fabrikgebäude mit Wohnung.\n  Rotter-Baumgartner, Joh., Schreinermeister, von Wermsdorf (Oesterreich).\n  Müller, Konrad, Part. von Schwanden (Bern).\n654. † Derselbe. Holzschopf.\n655. †    „          „\n1142   †    „          „\n1289     Schenker-Siebenmann, Gottlieb, Dr. med. prak Arzt.\n1304   † Derselbe. Wasch- und Holzhaus.\n656. Haßler-Stampfli, Hans, Leder- und Fourniturenhandlung.\n  Haßler-Schmid, Hans, Sohn.\n657. † Derselbe. Holzschopf.\n658. Heuberger-Wernli, Elisabeth, Wittwe, Heuberger-Rychner, Karl,\n    Coiffeur und Heuberger Hermine.\n  Heuberger-Rychner, Karl, Coiffeurgeschäft.\n  Näf-Ludwig, Emil, Statistiker, von Aarburg.\n  Rödelberger-Popp, Valentin, Franz, Musiklehrer, von Würzburg (Baiern).\n  Widmer, Karoline, Modistin, Modegeschäft.\n  Widmer, Marie, Modistin,           „\n\nCasinostraße.\n\n1176   * Dieselben. Wohnhaus.\n  Andres-Bircher, Heinrich, Buchbinder.\n  Maritz-Bircher, Marie, Wittwe, von Burgdorf (Quincailleriewaaren=\n    handlung).\n  Bircher-Brodbeck, Marie, Wittwe, von Küttigen.\n  Maritz, Julius, Sekretär, von Burgdorf.\n  Maritz, Emil, Schriftsetzer, von Burgdorf.\n  Wanger, Louise, Part.\n659. † Dieselben. Holzschopf.\n660. Lüthi-Simmen, Alexander, Sattler, von Schöftland.\n  Urben-Flückiger, Johann, von Niederlenz. Milch-, Käse- und Butter=\n    handlung.\n  Wildi-Gantner, Jakob, Mechaniker, von Suhr.\n1130   Dürr-Seiler, Hermann, Malermeister.\n  Hemmeler-Pfister, Friedrich, Postcommis.\n  Haßler-Meier, Marie, Wittwe, Part., von Männedorf (Zürich).\n\nHolzmarkt.\n\n661. Brast, Sophie Ida, und Brast, Rosina Emma, Waffenhandlung.\n  Brast-Lienhard, Charlotte, Wittwe:\n  Brast, Emma.\n  Brast, Sophie Ida.\n662. Rohr-Holliger, Joh., von Buchs. Speisewirthschaft.\n663. Scheidegger-Roth, Johann Ulrich, Käser, von Ursenbach (Bern). Milch=\n    Butter- und Käsehandlung.\n  Bertschi-Storkenmeier, Emil, Schneider, von Sumiswald (Bern).\n  Wehrli-Marti, Jakob, Schreiner von Küttigen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6521,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1939,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:51:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p055",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p055.jpeg",
+      "bytes": 198653,
+      "sha256": "1d03dfec530143a648e18354225322f6dcb944151aabcaf04952f9b4e9c0901f",
+      "sha256_of": "original",
+      "working_copy": "1892_p055.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:51:09+00:00"
+  }
+}

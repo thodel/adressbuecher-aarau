@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p052",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p052.jpeg",
+    "bytes": 325371,
+    "sha256": "4a56dff6ba9572f1e9d81a36dce178223a72ab079275a4b8a64355ed3348ac16",
+    "sha256_of": "original",
+    "working_copy": "1884_p052.jpeg"
+  },
+  "text": "48\tVidiella. — Waßmer.\n\nVidiella, Emanuel, Wirth, von Reuss (Spanien), Kirchgasse 7.\nVogel-Waßmer, R., Kaminfeger u. Dachdecker, v. Kölliken, Entfelderstr. 1147.\n  — =Dubs, Gottf. Polizeiwachtmeister, von Kölliken, im Hammer 185b.\n  — =Thomann, Joh., Sager, v. Flühlie (Entlibuch), vor d. Haldenth. 762.\n  — =Ernst, Joh., Taglöhner, v. Thalheim (Preußen), Scheibenschachen 313.\n  — =Hafner, Josepha, Partik., v. Thalheim (Preußen), v. d. Haldenth. 1092.\nVogt-Kohler, Joh., Schuhmachermeister, v. Remigen, obere Vorstadt 911.\n  — =Hunziker, Heinrich, Schneidermeister, von Mandach, Milchgasse 71.\n  — =Keller, Jakob, Schreiner, von Villigen, Ziegelrain 709.\n  — =Keller, Marie, Hebamme, von Villigen, Ziegelrain 709.\nVollmann-Eifert, J. Georg, Steindrucker, v. Düdelsheim (Hessen), Pelzg. 65.\nVonarx, Karoline, Wirthin, von Olten, Zollrain 52.\n  — Amalie, Fabrikaufseherin, von Erlinsbach (Solothurn), Graben 216.\nVonbüren-Merz, Emma, Partik., v. Flumenthal (Soloth.), Bachstr. 1100.\nVon Essen-Löliger, Max, Kaufmann, Wein- u. Produktenhandlung Mül-\n      hausen, Metzgergasse 56.\n*Vonfelten-Willimann, Franz Jos., Webermeister, Pelzgasse 132.\n* — =Willimann, Verena, Corsetschneiderin, Pelzgasse 132.\n  — Elise, Weißnäherin, von Erlinsbach (Solothurn), Kirchgasse 10a.\n\nWalder-Kunz, Karl, Bankbuchhalter, von Zürich, Bachstraße 1156.\nWaldmeier, Alfred, Commis, von Möhlin, Rathhausgasse 2.\n* — =Rothpletz, Bertha, Wittwe, Partik., vordere Vorstadt 682.\nWalser-Bamberger, Marie, Zettlerin, v. Rottweil (Grßh. Baden), Hald. 260b.\nWalther-Schmuziger, August, Nähmaschinenhändler, von Neumühl (Grßh.\n      Baden), Pelzgasse 125.\n  — =Schmuziger, Louise, Placirungsbureau, v. Neumühl (Grßh. Baden),\n      Pelzgasse 125.\n* — =Matter, Jakob, Oekonom, Schachen 739.\n* — =Schatzmann, Gottlieb, Oekonom, Rainstraße 856.\nWalti-Zobrist, Joh., Kartenschleifer, von Dürrenäsch, in der Telli 440.\n  — =Müller, Jakob, Polizeidiener, von Dürrenäsch, Schachen 725.\n  — =Hächler, Samuel, Posamenter, v. Dürrenäsch, vor d. Haldenth. 802.\n  — =Zimmermann, Rudolf, Taglöhner, v. Dürrenäsch, Bachstraße 1052.\nWandfluh-Sommer, Joh., Schuhmacher, v. Fruttigen (Bern), Halden 281.\n*Wanger-Häusermann, Gottlieb, Buchbinder, Kirchplatz 164.\n* — Lisette, Näherin, Adelbändli 174.\n* — =Wanger, Gustav, Cassier d. aarg. Ersparnißkasse, Laurenzenvorstadt 394.\n* — =Rieder, Maria, Wittwe, Partik., Laurenzenvorstadt 394.\n* — Louise, Partik., Oberthor 140.\nWartmann, Heinrich, Commis, von Bauma (Zürich), Bahnhofstraße 1023.\n*Waßmer-Anstein, Gottlieb, Kaufmann und Stadtrath, Spezereihandlung\n      Pelzgasse 137.\n* — Emil, Sohn, Kaufmann, Pelzgasse 137.\n  — =Boß, Joseph, Bettwaarenhändler, von Mellingen, Metzgergasse 91.\n  — =Iberg, Gallus, Schneidermeister, von Jungholz (Grßh. Baden), Pelz-\n      gasse 126.\n  — =Ott, Fidel, Schneider, v. Jungholz (Grßh. Baden), vor d. Haldenth. 802.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9776,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2855,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.17,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:16:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p052",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p052.jpeg",
+      "bytes": 325371,
+      "sha256": "4a56dff6ba9572f1e9d81a36dce178223a72ab079275a4b8a64355ed3348ac16",
+      "sha256_of": "original",
+      "working_copy": "1884_p052.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:16:04+00:00"
+  }
+}

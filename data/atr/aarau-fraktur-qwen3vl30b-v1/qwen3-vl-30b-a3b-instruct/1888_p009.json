@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p009",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p009.jpeg",
+    "bytes": 189659,
+    "sha256": "df1f50730263262e22bfa16f9162c1d27218f8ef93b72833647f1c72b2429044",
+    "sha256_of": "original",
+    "working_copy": "1888_p009.jpeg"
+  },
+  "text": "Vorwort.\n\nDurch den ständigen Wechsel der Einwohner ist das letzte Adressbuch\nder Stadt Aarau vom Jahre 1884 zum größten Theil un-\nbrauchbar geworden. Es hat daher der Unterzeichnete, dem ge-\nfühlten Bedürfniss Rechnung tragend, die Ausarbeitung eines\nneuen Adressbuches unternommen.\n\nBei der mühevollen und zeitraubenden Arbeit wurde mir von Seite\nhiesiger Beamten und Geschäftsleute in bereitwilligster Weise jede ver-\nlangte Auskunft und Hilfe geleistet, wofür ich hiermit meinen wärmsten\nDank ausspreche.\n\nMöge das Werk allseitig gute Aufnahme und weite Verbreitung,\nsowie eine günstige Beurtheilung finden.\n\nAarau, im Juli 1888.\n\nDer Verfasser.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 1186,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 649,
+    "lines": 14,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.07,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0046,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p009",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p009.jpeg",
+      "bytes": 189659,
+      "sha256": "df1f50730263262e22bfa16f9162c1d27218f8ef93b72833647f1c72b2429044",
+      "sha256_of": "original",
+      "working_copy": "1888_p009.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:25+00:00"
+  }
+}

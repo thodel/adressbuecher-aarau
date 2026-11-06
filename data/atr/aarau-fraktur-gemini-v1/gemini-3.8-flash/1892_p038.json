@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p038",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p038.jpeg",
+    "bytes": 217342,
+    "sha256": "dc47bddde22c900fb94a1815b6803e91badedb87ee2c73da5587351233efaf80",
+    "sha256_of": "original",
+    "working_copy": "1892_p038.jpeg"
+  },
+  "text": "— 30 —\n\n  Haus-\n  Nr.\nLaurenzenvorstadt.\n\n1340.  Aktiengesellschaft der Aargauischen Kreditanstalt.\n  Pfau-Bleuler, Joh. Jakob, Direktor, von Schaffhausen.\n353.* Aktiengesellschaft der Kreditanstalt (Schloßgarten).\n  Neuburger-Imhof, Albert, Part.\n  Rohr-Baumann, Hans, Oberrichter, von Hunzenschwyl.\n354.† Dieselbe. Remise.\n355.† Dieselbe. Waschhaus.\n356.  Hunziker, Emil Guido, Rentier.\n  Käser-Kähr, Ulrich, Kutscher, von Melchnau (Bern).\n  Hofer geb. Herzog, Maria Elise, Haushälterin, von Rothrist.\n357.† Derselbe. Remise.\n358.† Derselbe. Waschhaus.\n359.† Derselbe. Sommerhaus.\n360.  Studer-Billo, Theodors, Arzts Erbschaft.\n  Kurz-Korthaus, Erwin, Fürsprech, Advokatur- und Notariatsbureau.\n  Billo-Billo, Maria, Kaufmanns, Part.\n  Kettiger-Bertschinger, Arnold, Prokurist, von Liestal.\n361.* Dieselbe.\n  Wirz-Widmer, Adolf, Postkondukteur, von Menziken.\n  Siebenmann-Schaffner, Otto, Koch.\n362.* Dieselbe.\n  Bolliger-Schenker, Samuel, Bedienter, von Schloßrued.\n  Schmid, Rosa, Damenschneiderin, von Gipf.\n  Hubacher, Gustav, Zeichner, von Bern.\n363.* Dieselbe.\n  Wernli-Reinhard, Kaspar, Weichenwärter von Thalheim.\n364.* Wydler-Frey, Med. Drs. Erbschaft.\n  Wydler, Mathilde, Partik.\n  Wydler-Doussier, Hans Ferdinand, Fabrikant.\n  Hunziker-Wydler, Paulina, Part.\n365. u. 366.† Dieselbe. Scheune.\n367.  Müller-Haberstich, Fried. August, Kaufmann.\n368. u. 369.† Derselbe. Oekonomiegebäude.\n370.† Abgetragen.\n371.  Fahrländer-Hunziker, Karl, Dr. Jur. Regierungsrath, von Laufenburg.\n  Siebelist geb. Fahrländer, Anna, Part. von Berlin.\n372.† Derselbe. Holzhaus und Remise.\n373.† Hunziker-Züst, Guido, Rentier. Comptoir und Magazin.\n374. u. 375. Derselbe. Wohngebäude.\n376.* Hunziker-Züst, Guido, Rentier.\n  Siegrist-Schmid, Adolf, Schuhmacher, von Meisterschwanden.\n  Meyer-Hägeli, Alois, Taglöhner, von Büron (Luzern).\n  Fischer-Roth, Ludwig, Straßenwärter.\n  Stirnemann, Maria, Fabrikarbeiterin, von Gränichen.\n  Dill-Frei, Joh. Jb. Christoph, Schuster, von Basel.\n  Steiner-Haller, Mina, Wittwe, Taglöhnerin, von Rein.\n  Leu-Karrer, Jakob, Taglöhner, von Schloßrued.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8090,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2075,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:49:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p038",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p038.jpeg",
+      "bytes": 217342,
+      "sha256": "dc47bddde22c900fb94a1815b6803e91badedb87ee2c73da5587351233efaf80",
+      "sha256_of": "original",
+      "working_copy": "1892_p038.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:10+00:00"
+  }
+}

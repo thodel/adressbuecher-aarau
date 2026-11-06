@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p015",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p015.jpeg",
+    "bytes": 302980,
+    "sha256": "6338e686845efac78f072cd200d4d1f3d77ccb659dbdb020a3dc34c83ae6c258",
+    "sha256_of": "original",
+    "working_copy": "1884_p015.jpeg"
+  },
+  "text": "Alphabetisches Verzeichniß\nder\nBürger und Einwohner der Stadt Aarau.\nBürger sind Diejenigen, die mit einem * bezeichnet sind.\n\nAbel, Rosina, Partik., von Zernitz (Preußen), Rainstraße 875.\nAckermann-Buser, Albert, Kaufmann, von Amriswyl (Thurgau), vordere\n  Vorstadt 890.\nAdam-Stephani, Paul, Fabrikant, v. Allschwyl (Baselland), Bachstraße 1113.\nAdrion-Stauß, Andr., Hafnergehülfe, v. Alpirsbach (Würtemb.), Halden 276.\nAeschbach, Marie, Modistin, von Mühlethal, Metzgergasse 100.\n— -Steiner, Rudolf, Steinhauer, von Hendschiken, Bachstraße 1028.\n— -Goldenberger, Fr., Schriftsetzer, v. Oltingen (Baselld.), ob. Vorstadt 946.\nAffeltranger-Brauder, Ferdinand, Maurerpolier, von Kempten (Zürich),\n  obere Vorstadt 938.\nAichele, Reinh., Buchbindergehülfe, v. Brackenheim (Würtemb.), i. d. Gais 487.\nAkeret, Jakob, Krankenwärter, von Nußbaumen, Graben 218.\nAlder, Jakob, Schneider, von Fahrwangen, neues Quartier 1147.\nAmmann, Robert, Architekt, von Menziken, Adjunkt des Hochbaumeisters,\n  Schachen 732.\n— -Deutschmann, Jb., Colorist, von Thalheim (Zürich), obere Vorstadt 947.\n— -Wälchli, Johann, Wirth, von Madiswyl (Bern), Schachen 734.\nAmsler-Harsch, Emil, Oberrichter, von Schinznach, Neues Quartier 989.\n— -Matter, Jakob, Postdirektor, von Bözen, Bahnhofstraße 513.\n— -Falger, Frid., Rechn.-Revisor, von Kaisten, vor dem Haldenthor 804.\n— Emil, Buchbinder, von Kaisten, Golattenmattgasse 229.\n— Ida, Damenschneiderin, von Kaisten, vor dem Haldenthor 804.\n— Otto, Stadtkassier und Sektionschef, v. Kaisten, vor dem Haldenthor 804.\n— Heinrich, Chemiker, von Densbüren, in der Telli 430.\n*Andres, Gottlieb, Fondsverwalter, jenseits der Aare 299.\n* — -Schmid, Jakob, Schreiner, jenseits der Aare 299.\n* — -Meier, Samuel, Schlosser, Milchgasse 78.\n* — -Heinzmann, Maria, Becks Wittwe, jenseits der Aare 299.\n* — -Staudemann, Otto, Hafner, Milchgasse 78.\n* — -Bircher, Heinrich, Buchbinder, Bahnhofstraße 658.\n* — -Weber, Friedrich, Buchhalter, Ziegelrain 709\n* — -Ramseier, Jakob, Gipser, Ziegelrain 751.\n* — -Bircher, Friedrich, Hafner, obere Vorstadt 916.\n* — -Hunziker, Jakob, Bahnangestellter, Halden 282.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7593,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2108,
+    "lines": 38,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.32,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:10:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p015",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p015.jpeg",
+      "bytes": 302980,
+      "sha256": "6338e686845efac78f072cd200d4d1f3d77ccb659dbdb020a3dc34c83ae6c258",
+      "sha256_of": "original",
+      "working_copy": "1884_p015.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:10:17+00:00"
+  }
+}

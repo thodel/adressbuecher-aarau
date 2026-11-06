@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p120",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p120.jpeg",
+    "bytes": 284390,
+    "sha256": "11c2cc32981cacb9bf4dc29bedbee018155113e21e126a78d85c3faa6b7157b4",
+    "sha256_of": "original",
+    "working_copy": "1888_p120.jpeg"
+  },
+  "text": "102\tMatt — Merz.\n\nMatt-Rothpletz, Wilh. Friedrich, Schriftsetzer von Wittlensweiler (Würt-\n  temberg), Halden 276.\nMattenberger-Gehrig, Johann, Taglöhner von Birr, Milchgasse 78.\n*Matter-Schönenberg, Samuel, Amtsschreiber von Oberentfelden, hintere\n  Vorstadt 623.\n*Matter-Hagnauer, Jakob, Schneidermeister von Kölliken, Adelbändli 170.\nMatter-Thommann, Marie, Wittwe, Wäscherin von Kölliken, Kirchgasse 12.\n*Mauch-Humm, Samuel, Kaufmann von Teufenthal, obere Vorstadt 938.\n*Maurer-Peter, Emil, Negotiant und Wirth zum „Kreuz“ jenseits der\n  Aare 298.\nMaurer-Ernst, Philipp, Gießereiarbeiter, Milchgasse 73.\nMaurer, Louise, Part., Rathhausgasse 29.\nMaurer, Gustav Alfred, Kaufmann, Rathhausgasse 29.\nMaurer-Lehmann, Friedrich, Kutscher von Schmiedrued, Milchgasse 76.\nMeier-Bucher, August, Direktionssekretär von Obersiggenthal, Rain 874.\nMeier, Eduard Erwin, Sekretär von Dintikon, Milchgasse 147.\nMeier-Roth, Verena, Taglöhnerin von Dintiken, id. id.\nMeier, Ferdinand, Kaufmann von Büren z. Hof (Bern), hintere Vor-\n  stadt 1236.\nMeier-Großmann, Anna, Wittwe, Part. von Rheinfelden, vordere Vor-\n  stadt 680.\nMeier-Hägeli, Alois, Taglöhner v. Büron (Luzern), Laurenzenvorstadt 376.\n*Meier, Jakob Ludwig, Architekt von Zürich, Graben 206.\nMeier, Johann, Lehrer von Aristau, Bahnhofstraße 1022.\nMeier, Joseph, Commis (Lagerhaus) v. Ehrendingen, Laurenzenvorst. 361.\n*Meier-Lüthy, Johann Jakob, Lehrer, Weinberg 321 c.\nMeier-Matter, Jakob, Zimmermann von Dintiken, obere Vorstadt 940.\nMeier-Müller, Paul, Schneider v. Stetten (Großh. Baden), Ziegelrain 751.\nMeier, Nothburga, Posamenterin von Erlinsbach (Solothurn), obere\n  Vorstadt 913.\nMeier-Ott, Agatha, Schreiners Wittwe, Taglöhnerin von Gebenstorf,\n  Milchgasse 161.\nMeili-Sulzer, Jakob, Müller von Elgg (Zürich), Stadthof 95.\nMeisel, Xaver, Forstverwalter, Graben 205.\nMeisner-Baumgardt, Karl, Steindrucker v. Großglogau (Schlesien), Rath-\n  hausgasse 47.\nMeister-Gisi, Georg, Bäcker und Wirth von Matzendorf (Solothurn),\n  Graben 216.\nMeyer-Brunner, Emil, von Rheinfelden, Verwalter des Kantonsspitals,\n  Bachstraße 1051.\nMeyer-Wydler, Joseph, Postcommis von Hilsikon, Ziegelrain 722.\nMeynadier, Lina, Damenschneiderin v. Perigue (Frankreich), Weinberg 322.\nMent-Wehrli, Anna, Wittwe, Taglöhnerin von Densbüren, Halden 251.\nMerk-Stirnemann, Adolf, Handelsreisender von Horn (Großh. Baden),\n  Casinostraße 1176.\nMerz-Dürr, Jakob, Taglöhner, Halden 268.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7284,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2408,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:36:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p120",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p120.jpeg",
+      "bytes": 284390,
+      "sha256": "11c2cc32981cacb9bf4dc29bedbee018155113e21e126a78d85c3faa6b7157b4",
+      "sha256_of": "original",
+      "working_copy": "1888_p120.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:59+00:00"
+  }
+}

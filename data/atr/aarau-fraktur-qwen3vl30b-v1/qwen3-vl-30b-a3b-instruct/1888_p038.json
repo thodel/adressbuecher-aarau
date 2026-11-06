@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p038",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p038.jpeg",
+    "bytes": 228169,
+    "sha256": "023869a720c3b051f8faa6aa681fd2db3a3caae3d03c9fe70ee665513a688e2b",
+    "sha256_of": "original",
+    "working_copy": "1888_p038.jpeg"
+  },
+  "text": "— 28 —\n\nHaus-\nNr.\nJenseits der Aare.\n339.* Zimmermann, Maria, Wittwe, von Döttingen, in Bempflingen (Württemberg).\nHeuberger-Siebenmann, Gottlieb, Sekretär.\nRychner-Preisig, Otto, Fabrikant.\nSchaffner-Zeller, Rudolf, Part.\n1247 + Siebenmann-Hagnauer, Friedrich, Bierbrauer, Wagenschopf und Gissteller.\n\nWeinberg.\n340.+ Frey-Frey, R., Stadtrath, Rebhäuschen.\n341.+ Kern-Richner, Jakob, Rebhäuschen.\n\nJenseits der Aare.\n342. Bauhofer-Keller, Anna, Kaufmanns Wittwe.\nTuchschmid, August, Dr. Professor, von Thundorf (Thurgau).\nHunziker-Müller, Jakob, Schuhmacher, von Unterfult.\n343.+ Diefelbe. Holzschopf.\n344.+ Gemeinde Aarau. Holzmagazin.\n345.+ Diefelbe. Werkhaus.\n346. Müller-Rothplez, Arnold, Architekt, Bureau und Wohnung (altes Schützenhaus).\n348.+ Gemeinde Aarau. Badanftalt.\n\nLaurenzenthorgasse.\n349. Häfeler-Wanger, Emil, Negot., Kolonialwaarenhandlung.\nErnö-Leblanc, Eduard, Kaufmann, von Leuggern.\n350.+ Derfelbe. Holzschopf.\n351. Arganische Creditanstalt.\nPfau-Bleuler, Joh. Jakob, Direktor, von Schaffhaufen.\n\nGraben.\n352. Dreyfus-Görttschel, Adolf, Kaufmann, von Endingen. Ellenwaaren-Handlung und Damentkonfektion.\n\nLaurenzenvorstadt.\n353.* Feer-Zubers Erbschaft. (Schloßgarten.)\nNeuburger-Junkhof, Albert, Part.\nRohr-Baumann, Hans, Oberichter, von Hunzenschwil.\n354.+ Diefelbe. Remise.\n355.+ Diefelbe. Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 2807,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1325,
+    "lines": 35,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0286,
+    "mean_line_chars": 36.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p038",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p038.jpeg",
+      "bytes": 228169,
+      "sha256": "023869a720c3b051f8faa6aa681fd2db3a3caae3d03c9fe70ee665513a688e2b",
+      "sha256_of": "original",
+      "working_copy": "1888_p038.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:25+00:00"
+  }
+}

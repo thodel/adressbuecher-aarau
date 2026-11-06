@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p035.jpeg",
+    "bytes": 206110,
+    "sha256": "e41ce79f0d6254235c0ffe0555f05c848c663e0c157681cc0a444488081ccdec",
+    "sha256_of": "original",
+    "working_copy": "1892_p035.jpeg"
+  },
+  "text": "— 27 —\n\n  Haus-\n  Nr.\n1284.   Schneider-Wernli, Verena, Aufsehers, von Thalheim.\n  Schneider-Wernli, Jakob, Aufseher, von Thalheim.\n1004.   † Ryniker, Friedrich, Bierbrauer. Faßremise.\n1339.   Vogel-Ernst, Johann, Obermüller, Cementfabrik, von Thalheim\n  (Preußen).\n  Müller-Märki, Jakob, Cementmüller, von Schöftland.\n1278.   Schmid-Pauli, Daniel, Gärtner, von Erlinsbach.\n  Pauli-Müri, Katharina, Wittwe, von Villnachern.\n1095.   † Schützengesellschaft Aarau. Schützenhaus.\n1096.   † Dieselbe. Scheibenstand.\n1178.   † Firma Zurlinden & Cie. Portlandcementfabrik.\n1179.   † Dieselben. Turbinenhaus.\n1180.   †    „    Comptoir.\n1181.   †    „    Schuppen.\n1211.   †    „    Brennofenhaus.\n1212.   †    „    Cementmagazin.\n1213.   †    „    Materialschuppen.\n1230.   †    „    Schopf.\n1274.   †    „    Steinschuppen.\n1275.   †    „    Waaghaus.\n1276.   †    „    Scheune und Stallung.\n1277.   †    „    Abort.\n1313.   †    „    Kohlenschuppen.\n1069.   † Gemeinde Aarau. Wasenhaus\n1314.   † Hürzeler, Jakob, Hadernhändler. Schopf.\n\nGishügel.\n\n317.   Wächter-Hasler, Hans, Wirth zum „Alpenzeiger“, von Remigen.\n  Kurhaus.\n318.   Abgetragen; an dessen Platz\n1204.   † Derselbe. Holzhaus und Stallung.\n1206.   †    „    Trinkhalle.\n319.   Zschokke-Sauerländer, Olivier, Ingenieur, zur Blumenhalde.\n  Fisch-Zschokke, Karl, Major, Instruktor I. Klasse der Infanterie.\n320. † Derselbe. Waschhaus und Holzschopf.\n\nWeinberg.\n\n321.a. *Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wirthschaft\n  und Bierbrauerei zum Weinberg.\n  Bärtschi-Minder, Jakob, Wirth, zum Weinberg, von Lützelflüh (Bern).\n321.b. *Oeschger-Von Felten, Anna Maria, Wittwe, von Wyl.\n  Frei-Rauber, Johann Jakob, Part., von Degerfelden.\n  Hofer-Gehri, Jakob, Notar, von Rothrist.\n  Adler-Andres, Johann Bapt., Knecht, von Flünnau (Württemberg).\n321.c. Klingelfuß, Johann Friedrich, Mechaniker und Eichmeister, von\n  Basel. Spezialfabrikation von Wasserwaagen, Lager in allen\n  Sorten Waagen und Gewichten.\n  Klingelfuß, Alfred Jakob, Sohn, Mechaniker, von Basel.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6757,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2021,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.51,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:48:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p035.jpeg",
+      "bytes": 206110,
+      "sha256": "e41ce79f0d6254235c0ffe0555f05c848c663e0c157681cc0a444488081ccdec",
+      "sha256_of": "original",
+      "working_copy": "1892_p035.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:49+00:00"
+  }
+}

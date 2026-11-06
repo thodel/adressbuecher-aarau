@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p039",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p039.jpeg",
+    "bytes": 264306,
+    "sha256": "5ec764de5d77e5b57a048deabcc8bcae6fb00bac6daec94e68e4348a7f0e640f",
+    "sha256_of": "original",
+    "working_copy": "1888_p039.jpeg"
+  },
+  "text": "Hans-\nNr.\n— 29 —\n356. Hunziger, Emil Guido, Rentier.\n  Käfer-Käfer, Ulrich, Kutscher, von Melchnau (Bern).\n357.+ Derselbe. Remise.\n358.+ Derselbe. Waschhaus.\n359.+ Derselbe. Sommerhaus.\n360.* Studer-Schierl, Theodor's, Arzts Erbschaft.\n  Kurz und Stierli, Advokatur- und Notariatsbureau (Inhaber C. Kurz,\n  Fürsprecher und Notar und G. L. Stierli, Fürsprecher).\n  Fischer-Wülser, Lisette, Part., von Aarburg.\n  Märzl, Ida, Drs., Part.\n  Kurz, Erwin, Fürsprecher, von Schwamendingen (Zürich).\n  Behrli, Karl Emil, Architekt, von Höngg (Zürich).\n  Rettiger-Bertschinger, Arnold, Procureist, von Liestal.\n361.* Dieselbe.\n  Steiner-Hägi, Reinhard, Milchverkäufer, von Langrickenbach (Thurgau).\n  Birz-Bibmer, Adolf, Postkondukteur, von Wetzikon.\n362.* Dieselbe.\n  Wernli-Reinhard, Kaspar, Weichenwärter, von Thalheim.\n  Schmid, Rosa, Damenschneiderin, von Gipf.\n363.* Dieselbe.\n  Frey-Häuptli, Gottlieb, Eisenbahnkondekteur, von Biberstein.\n364.* Wyder-Frey, Med. Drs. Erbschaft.\n  Wyder, Mathilde, Partif.\n  Frey-Haguenau, Konrad, Dr. Med., praktischer Arzt.\n365. u. 366. + Dieselbe. Scheune.\n367.* Schmitter-Schmidlin, Friedrichs, Fabrikants Erbschaft.\n  Tanner, Erwin, Fürsprecher, (Advokaturbureau).\n  Schneider-Siebenmann, Tragott, Part., von Birmenstorf.\n368. 369. u. 370. + Dieselbe. Oeconomiegebäude.\n371. Hunziger-Fleiner, Hermann, Privatier.\n  Fahrlander-Hunziger, Karl, Dr. Jur. Regierungsrath, von Laufenburg.\n372.+ Derselbe. Hofhaus und Remise.\n373.+ Hunziger-Süss, Guido, Rentier. Comptoir und Magazin.\n374. u. 375. Derselbe. Wohngebäude.\n376.* Hunziger-Springer's Erbschaft.\n  Ruesch-Weifel, Wilhelm, Schlosser, von Rekingen.\n  Meyer-Hägli, Alois, Taglöhner, von Büron (Luzern).\n  Fischer-Roth, Ludwig, Straßenwärter.\n  Till-Frei, Joh. Joh. Christoph, Schuster, von Basel.\n  Zimmerli-Stenz, Eduard, Cementmüller, von Oftringen.\n  Suter-Arber, Rudolf, Rosamenter, von Gränichen.\n  Weber-Suter, Joh., Gärtner, von Oberflachs.\n  Brunnhöfer-Bolliger, Lisette, Fabrikarbeiterrin.\n  Steiner-Haller, Heinrich, Taglöhner, von Bein.\n  Häuslermann-Ruesch, Adolf, Taglöhner, von Egliswil.\n  Leu-Karrer, Jakob, Taglöhner, von Schloßnau.\n  Blatner-Henneler, Jakob, Maler, von Rütten.\n  Blatner, August, Gerichtskanzlist, von Rütten.\n  Müller-Suter, Jakob, Rosamenter, von Gränichen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 123006,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2280,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:15:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1888_p039",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p039.jpeg",
+      "bytes": 264306,
+      "sha256": "5ec764de5d77e5b57a048deabcc8bcae6fb00bac6daec94e68e4348a7f0e640f",
+      "sha256_of": "original",
+      "working_copy": "1888_p039.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:15:39+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p119",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p119.jpeg",
+    "bytes": 272864,
+    "sha256": "b257f56e88aa701d63a243b8df81d1613552b785a720f64e1aea08f0841030ab",
+    "sha256_of": "original",
+    "working_copy": "1888_p119.jpeg"
+  },
+  "text": "Lüscher — Mathys. 101\n\nLüscher-Lüscher, Jakob, Commis von Moosleerau, Halden 254.\nLüscher-Thut, Elise, Part. von Oberentfelden, Entfelderstraße 979.\n[handschriftlich: X]Lüscher-Umiker, Hermann, Mechaniker, Bankstraße 1146.\nLüscher-Umiker, Marie, Damenschneiderin, id. id.\nLüscher-Wülser, Lisette, Part. von Aarburg, Laurenzenvorstadt 360.\nLutz-Hagnauer, Johann, Kaufmann von Basel, Laurenzenvorstadt 602.\nLutz, Ulrich, Klaviermacher von Thal (St. Gallen), Graben 1237.\n[handschriftlich: X]Lüthi-Gamper, Samuel, Telegraphist von Schöftland, Laurenzenthor-\n  gasse 1118.\nLüthi-Kneubühler, Eduard, Sattler und Tapezierer von Bleienbach (Bern),\n  Kirchgasse 15.\nLüthi-Simmen, Alexander, Sattler von Schöftland, Casinostraße 660.\n\nMaag-Wildi, Jakob, Hafner von Neunkirch (Schaffhausen), Ham-\n  mer 188.\nMadon-Laufer, Viktor, Lokomotivführer von Unterstraß (Zürich), Laurenzen-\n  vorstadt 552.\nMäder, Henriette, Modistin von Köln, Kirchgasse 12.\nMärk-Hofer, Karl, alt Armenhausverwalter, Zollrain 178.\n[handschriftlich: X]Märk, Marie, Lehrerin, Zollrain 178.\nMärk, Ida, Drs., Part., Laurenzenvorstadt 360.\nMärk, Louise, Glätterin, Adelbändli 83.\nMärki, Marie, Damenschneiderin von Mandach, obere Vorstadt 966.\nMärki-Haller, Gottlieb, Mühlenbauer von Mandach, vor dem Halden-\n  thor 1093.\nMärki-Schmidli, Johann, Küfermeister von Mandach, Bachstraße 1031.\n[handschriftlich: X]Maier-Richner, Kaspar, Professor von Baden, Entfelderstraße 981.\nMaier-Ganter, Konrad, Lohnkutscher von Reisalfingen (Großh. Baden),\n  Bachstraße 1038.\nMayer-Suter, Elise, Wittwe, Weißnäherin von Rastatt (Großh. Baden),\n  Pelzgasse 132.\nMayer, Thomas, Schuhmachermeister von Eigoldingen (Groß. Baden),\n  Wohnung vordere Vorstadt 682, Werkstätte hintere Vorstadt 697.\nMarfurt, Franz Xaver, Coiffeurgehilfe von Langnau (Luzern), obere\n  Vorstadt 930.\n[handschriftlich: X]Markwalder-Gamper, Traugott, Stabsmajor, Cavallerie-Instruktor von\n  Wettingen, Pelzgasse 129.\n[handschriftlich: X]Martin, Franz Gabriel, Buchdrucker, Kirchplatz 163.\nMartin-Hagenbuch, Maria, Part., Bankstraße 1141.\nMartin-Hoffmann, Babette, Part., Rain 885.\nMartin-Kull, Susanna, Wittwe, Part., Ziegelrain 711.\nMartin-Siebenmann, Ida, Arbeitslehrerin, Halden 267.\nMathys-Hafner, Rudolf, Gastwirth zur „Krone“ von Eriswyl (Bern),\n  Kronengasse 39.\nMathys-Matter, Wilhelm, Feilenhauer von Kölliken, obere Vorstadt 921.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9782,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2355,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:36:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p119",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p119.jpeg",
+      "bytes": 272864,
+      "sha256": "b257f56e88aa701d63a243b8df81d1613552b785a720f64e1aea08f0841030ab",
+      "sha256_of": "original",
+      "working_copy": "1888_p119.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:51+00:00"
+  }
+}

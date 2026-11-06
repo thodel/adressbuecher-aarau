@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p037.jpeg",
+    "bytes": 321677,
+    "sha256": "0c92a7ae50eae08899027835abc0ec36197ff9153fc95ad1ec960e080755bed2",
+    "sha256_of": "original",
+    "working_copy": "1884_p037.jpeg"
+  },
+  "text": "Rühn. — Leutwyler.\n33\nRühn-Hoffmann, Bernhard, Gastwirth zum Rösli, von Tiefurt (Sachsen), Mezgergasse 112.\nKümmerli-Matter, Johann, Ausläufer, von Kölliken, Wilchgasse 70.\nRüng-Felder, Katharina, Wittwe, von Geltwil, Mezgergasse 56.\n— Franz, Kaver, von Geltwil, Mezgergasse 56.\nKünze-Renold, Oswald, Schuhmachermeister, von Uetikon am Albis (Zürich), Pelzgasse 122.\nKünzlen-Kranich, Friedrich, Buchhalter, von Sulzbach (Wibg.), ob. Vorst. 916.\nLadharbt-Bauer, Jakob Hermann, Thierarzt, von Steckborn (Thurgau), Laurenzenvorstadt 607.\n*Landolt, Karl, Stadtrath, Fabrikation seiner Wagen-, Bau- u. Dekorations-\nLacke, obere Vorstadt 949\n* — Häzig, Alexander, Dekonom, Pelzgasse 128.\n* — Hächler, Gottlieb, Mezger, vordere Vorstadt 671.\n* — Frank, Johann, Schuhmachermeister, Golattenmattgasse 233.\n* — Hunziker, Emilie, Wittwe, Partik., Pelzgasse 129.\n* — Häuptli, Maria, Wittwe, Damenschneiderin, Halben 284.\nLanz-Hurter, Adolf, Kaufmann, von Huttwyl (Bern), obere Vorstadt 913.\nLanz-Hurter, Alwine, Damenschneiderin, v. Huttwyl (Bern), ob. Vorstadt 913.\nLattmann-Ackermann, Georg Heinrich, Lokomotivheizer, von Sternenberg (Zürich), Rathausgasse 44.\nLaube, Karl, Kanzlist, von Böbikon, Schachen 732.\nLäubin-Kienberger, Albert, Postcommis, von Fridt, obere Vorstadt 967.\nLäubli-Kern, Jakob, Mezger, von Seengen, Zollrain 50.\n— Rudolf, Sohn, Mezger, von Seengen, Zollrain 50.\n— Häfeli, Jakob, Fabrikkaufseher, von Seengen, im Hammer 194.\n*Läuchli-Wägmer, Johann, Wirth, Zollrain 178.\n— Bürgi, Anna, Wittwe, Wirthin, von Remigen, Rathausgasse 25.\n— Bircher, Friedrich, Schlosser, von Remigen, Laurenzenvorstadt 376.\nLeder, Samuel, Knecht von Oberflachs, Adelbändli 82.\n— Maria Anna, Partik., von Oberflachs, Adelbändli 82.\nLehner-Leiver, Bernhard, Alt-Gisenhändler, von Gränichen, Rainstraße 850.\nLeibundgut-Geiser, Rosina Taglößnerin, v. Melchnau (Bern), Adelbändli 83.\nLeimbacher-Bützler, Josef, Taglößner, von Meienberg, Wilchgasse 147.\nLenzin-Fischer, Albert, Controleur der aarg. Ersparnißkasse, von Zuzgen, Casinostraße 1176.\n— Sophie, Lehrerin, von Wölflinswyl, Kirchplatz 165b.\nLeonhard, Wilhelm, Kaufmann, von Oberburg (Bern), Schloßplatz 193.\nLerz-Kirchhofer, Moritz, Schneider von Leibstadt, Bahnhofstraße 1023.\nLetsch, Albert, Buchbindergehülfe, von Neutlingen (Württemb.), in d. Gais 487.\nLeu, Jakob, Postcondukteur, von Birrenstorf, Casinostraße 577.\n— Karrer, Jakob, Taglößner, von Schloßrued, Laurenzenvorstadt 376\n*Leupold, Rudolf, Fürisprech und Gerichtsschreiber, Laurenzenvorstadt 410.\nLeuthard-Runz, Sebastian, Heizer, von Muri, Scheibenschachen 313.\n— Leufel, Johann, Gärtnergehülfe, von Basel, Rathausgasse 25.\n*Leutwyler-Hug, Verena, Wittwe, Weizwaarenhandlung, Rathausgasse 29.\n— Hofer, Elise, Strickerin, von Reinach, Schachen 737.\n3",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6076,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2757,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 60.29,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:12:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p037.jpeg",
+      "bytes": 321677,
+      "sha256": "0c92a7ae50eae08899027835abc0ec36197ff9153fc95ad1ec960e080755bed2",
+      "sha256_of": "original",
+      "working_copy": "1884_p037.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:12:32+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p054",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p054.jpeg",
+    "bytes": 254253,
+    "sha256": "eb8c8aefa1a5c5867c7ff5e759b331090bc1ca89212772b5c7e72a8f3779a7e8",
+    "sha256_of": "original",
+    "working_copy": "1888_p054.jpeg"
+  },
+  "text": "— 44 —\n\n  Haus=\n  Nr.\nCasinostraße.\n1176 * Dieselben. Wohnhaus.\n  Andres-Bircher, Heinrich, Buchbinder.\n  Merk-Stirnemann, Adolf, Handelsreisender, von Horn (Baden).\n  Wildi-Schneider, Jakob, Mechaniker, von Suhr.\n  Wildi-Schneider, Anna, Hebamme, von Suhr.\n  659. † Dieselben. Holzschopf.\n  660. Lüthi-Simmen, Alexander, Sattler, von Schöftland.\n  Baumann-Wälti, Kasp., Milchverkäufer, von Bottenwyl. Kaffeewirthschaft.\n  Bausch-Siegrist, Arnold, Schlosser, von Wynau (Bern).\n1130 Dürr-Seiler, Hermann, Malermeister.\n  Furter-Rüegger, Friedrich, Bahnmeister, von Staufen.\n\nHolzmarkt.\n  661. Brast, Sophie Ida, und Brast, Rosina Emma. Waffenhandlung.\n  Brast-Lienhard, Charlotte, Wittwe.\n  Brast, Emma.\n  Brast, Sophie Ida.\n  662. Rohr-Holliger, Joh., von Buchs. Speisewirthschaft.\n  663. Schär-Roth, Fritz, von Walterswyl (Bern.) Milch-, Käse- und\n    Butterhandlung.\n  Amsler-Morgenthaler, Emil, Buchbinder, von Kaisten.\n  Siebenmann, Louise, Part.\n  Meier, Joseph, Commis (Lagerhaus), von Ehrendingen.\n  664. Gisi-von Arx, Viktor, Kaufmann, von Niedergösgen (Solothurn).\n    Lager in Herren- und Damenkleiderstoffen. Damenkonfektion.\n  665. Müller-Gamper, Samuel, Regt. (Im Aufbau begriffen.)\n\nVordere Vorstadt.\n  666. Pfisterer-Marti, Josephine, Wittwe, Part.\n  Pfisterer-Tschudi, Emil, Kürschner. Hut- und Pelzwaarenlager und\n    Militärartikel.\n  Suter, Ida, Modistin, von Kölliken.\n  Suter, Rosa, Schneiderin, von Kölliken.\n  Suter, Johann, Commissionär, von Kölliken.\n  667 a. u. b. Rohr-Schindler, Samuel, Gastwirth zum Wildenmann. (Im\n    Aufbau begriffen.)\n  668. Hirschy-Merz, Johann Rudolf, Uhrenmacher. Bijouteriewaaren-\n    und Uhrenhandlung.\n  669. Brand-Baumann, Jakob, Bäckerei und Pintenwirthschaft.\n  Friker-Wirz, Friedrich, Kaufmann, von Hunzenschwyl. Spezereihandlung.\n  670. Gerber-Häßler, Louise Elisabeth, March. Tailleurs Wittwe.\n  Gerber-Seiler, Gustav, Marchand Tailleur. Lager in Herren- und\n    Knabenkleiderkonfektion. Anfertigung von Herrenkleidern nach Maß.\n  Gerber, Robert, Commis.\n  Forderer-Schwammberger, Alois, Zuschneider, von Ziegelbach (Württemberg).\n  Forderer-Schwammberger, Elise, Damenschneiderin, von Ziegelbach\n    (Württemberg).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6980,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2177,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:29:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p054",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p054.jpeg",
+      "bytes": 254253,
+      "sha256": "eb8c8aefa1a5c5867c7ff5e759b331090bc1ca89212772b5c7e72a8f3779a7e8",
+      "sha256_of": "original",
+      "working_copy": "1888_p054.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:11+00:00"
+  }
+}

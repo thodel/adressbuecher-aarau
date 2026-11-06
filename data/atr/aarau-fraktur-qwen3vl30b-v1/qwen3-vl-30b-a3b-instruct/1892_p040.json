@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p040.jpeg",
+    "bytes": 249192,
+    "sha256": "af49023ff363322ae510856cc035eb4586014ba40ee52437536da94b2ade80fa",
+    "sha256_of": "original",
+    "working_copy": "1892_p040.jpeg"
+  },
+  "text": "Haus-\nNr.\n394. Sauerländer=Benz, Elise, Wittwe.\nWanger-Wanger, Gustav, Kassier der Varg. Ersparniskasse.\nWanger, Marie, Kaufmanns, Part.\nWanger, Sophie, Kassiers.\nWietlisbach-Frey, Sophie, Wittwe, Part., von Bremgarten.\n395. +Diefelbe. Hintergebäude.\n396. +Diefelbe. Wasch- und Holzhaus.\n397. Zürcher=Wirz, Alfred, Arzt.\n398. +Derfelbe. Holzhaus.\n1321. +Derfelbe. Remise.\n1326. +Derfelbe. Waschhaus.\n399. Imhof=Herzog, Emma, Med. Drs. Wittwe.\nFrey-Riefer, Joseph, Notar, Civilstandsbeamter und Stellvertreter des\nGemeindeschreibers.\nKurz, Sophie, Part, von Schwammendingen (Zürich).\n400. +Diefelbe. Holzhaus.\n401. *Roth-Schmuziger, Alfred, Oberst, von Büttler (Appenzell).\nHöhn-Öchsner, Gottlieb, Kassier der Güterexpedition, von Hütten (Zürich).\n402. +Derfelbe. Holzschopf.\n403. Frey=Hoke, Ida, Wittwe, Part.\nStäuble, Rittlaus, Direktionssekretär, von Sulz.\n404. +Diefelbe. Holzhaus.\n405. +Bally=Arndt, Eugen, Fabritant. Fabrikgebäude mit Comptoir.\n406. +Derfelbe. Nebengebäude.\n407. +Derfelbe. Holzschopf.\n408. *Ringier=Müller, Staatschreibers Wittwe, Erbschaft.\nRingier-Tschudi, Adolf, Lagerhausdirektor.\n409. +Diefelbe. Holzhaus.\n410. Hommel=Stein, August, Mechaniker.\nLindt geb. Elias, Karolina, Pfarrers Wittwe, von Bern.\nWindisch-Köhler, Samuel, von Densbüren, Generalagentur der schweiz.\nRentenanstalt in Zürich.\n411. +Derfelbe. Holzschopf.\n412. *Richner=Siebenmann, Adolf, Fabrikants Erbschaft.\nErnst-Steiner, Gustav, Sekretär.\nSteiner geb. Weber, Barbara, Wittwe, Part., von Winterthur. (Zürich).\nStäuble, Henriette Adele, Part., von Brugg.\nFelber=Obrist, Johann, Postkondukteur, von Oberbötzberg.\n413. Haberstich, Johann, Fürsprech Erbschaft.\nJäger, Emil, Fürsprech und Notar, von Wohlen, Advokatur- und Notariats-\nbureau.\nJäger-Troller, Maria, Part., von Wohlen.\nHaberstich, Rosa, Part.\nDr. Emil Haberstich, Part.\n414. +Diefelbe. Holzschopf.\n415. Dehler=Frey, Bertha, Wittwe.\nDehler-Theiler, Oskar, Ingenieur.\nTheiler, geb. Rebmann, Elise, Part., von Wädenswyl (Zürich).\n416. +Diefelbe. Wasch- und Holzhaus.\n417. +Diefelbe. Deconomiegebäude.\n[spalte 2]\n1184\n1264\n1292\n129\n133",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4585,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2087,
+    "lines": 58,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:36:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p040.jpeg",
+      "bytes": 249192,
+      "sha256": "af49023ff363322ae510856cc035eb4586014ba40ee52437536da94b2ade80fa",
+      "sha256_of": "original",
+      "working_copy": "1892_p040.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:29+00:00"
+  }
+}

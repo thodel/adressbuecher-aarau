@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p064",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p064.jpeg",
+    "bytes": 223353,
+    "sha256": "0fff8254ed086077420edf89cbceba0528abff2eab0f30f9b9f1c04397b9b2ed",
+    "sha256_of": "original",
+    "working_copy": "1892_p064.jpeg"
+  },
+  "text": "— 56 —\n\n  Haus-\n  Nr.\n      Schmidt, Albert, Schriftsetzer.\n      Schmidt, Samuel, Commis.\n      Brack-Wälchli, Heinrich, Webermeister, von Mönthal.\n1341     † Dieselben. Waschhaus.\n     800.  Brunner=Künzli, Heinrich, Bahnarbeiter.\n      Steiner-Künzli, Erwin, Steindrucker, von Gontenschwyl.\n1271     † Derselbe. Scheune.\n     801. † Reformirte Kirchgemeinde Aarau. Gartenhaus.\n     802. * Waßmer=Ott, Fidel, Schneider, von Jungholz (Baden).\n      Hunziker-Schär, Emanuel, Schmied, von Mooslerau.\n      Müller, Maria, Taglöhnerin, von Unterkulm.\n      Schmid-Burkhalter, Johann Friedrich, Schneider, von Zurzach.\n     803.  Siegrist=Heuberger, Jakob, Schriftsetzer, von Elfingen.\n      Steiger-Oetterli, Gottlieb, Kaminfeger, von Bleienbach (Bern).\n     804.  Amsler=Falger, Friedolin, Revisor, von Kaisten; dessen Erbschaft.\n      Amsler geb. Falger, Maria, Wittwe, Part., „ „\n      Amsler, Otto, Notar, Stadtkassier u. Sektionschef, von Kaisten.\n      Amsler, Ida, Damenschneiderin, „ „\n      Bolliger-Schädelin, Julia, Part., von Schloßrued.\n      Schädelin geb. Giezentanner, Barbara, Part., von Moosleerau.\n1083     * Dieselbe. Wohnhäuschen.\n1109       Weber=Käser, Jakob, Bankabwart, von Oberflachs.\n      Meier-Appenzeller, Joseph, Schneider, von Wohlen.\n     805. † Derselbe. Remise.\n     806. †   „     Holzschopf.\n1243       Liechti=Steinegger, Paul, Dr. phil., Prof., von Murten (Freiburg).\n1252     † Derselbe. Bienenhaus.\n     807. †   „     Gartenhaus.\n1242     † Dubs=Walther, Karl, Metzger. Scheune.\n1218     † Siegrist=Riniker, Heinrich, Metzger. Scheune.\n1324     † Derselbe. Eiskeller.\n1330     †   „     Bienenhaus.\n1219     † Kull, Philipp, Spengler. Gartenhaus und Magazin.\n     808.  Wernli=Schweri, Maria, Wittwe, Gärtners, von Thalheim.\n     809.  Wernli=Adel, Jakob, Gärtner.\n      Schneider-Frei, Samuel, Taglöhner, von Buchholterberg (Bern).\n      Stirnemann-Huber, Johann, Taglöhner, von Unterkulm.\n      Vokurka-Ditze, Wenzl, Schneider, von Radnitz (Böhmen).\n     810.  Frey=Kumpf, Friedrich, Kanzleisekretär und Musiklehrer, von\n            Densbüren.\n      Frey, Friedrich, Sohn, Weinhändler (in Firma Bidiella & Frey), von\n            Densbüren.\n      Frey, Albert, Sohn, Uhrenmacher, von Densbüren.\n      Frey, Rosa, Feinwäscherei und Glätterei, von Densbüren.\n     811. † Derselbe. Holzhaus.\n1201     †   „     Waschhaus.\n     812.  Abgetragen.\n1110     † Siebenmann=Walther, Schneider. Gartenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8545,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2435,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0196,
+    "mean_line_chars": 42.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:52:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p064",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p064.jpeg",
+      "bytes": 223353,
+      "sha256": "0fff8254ed086077420edf89cbceba0528abff2eab0f30f9b9f1c04397b9b2ed",
+      "sha256_of": "original",
+      "working_copy": "1892_p064.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:52:19+00:00"
+  }
+}

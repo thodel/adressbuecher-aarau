@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p070",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p070.jpeg",
+    "bytes": 265712,
+    "sha256": "e1b86c2eb9e55864cb23aa206f3b5692aa9e95eb7b117a410e7ff67557362301",
+    "sha256_of": "original",
+    "working_copy": "1888_p070.jpeg"
+  },
+  "text": "Haus-\nNr.\nGyger geb. Wildi, Rosina, Malers Wittwe, Part., von Aarheim\n(Württemberg).\nSager-Klauenbösch, Jakob, Posamenter, von Gränichen.\n938.* Siebenmann, Friedrich, Bierbrauer und Wirthaft. Wohnhaus.\nMauch-Humm, Samuel, Kaufmann, von Teufenthal. Agentur und\nCommissioin in Manufakturwaaren.\nDr. Brunnhofer-Eggimann, Hermann, Kantonsbibliothekar.\nHaberlisch-Scheurmann, Samuel, Schulinspektor. Hauptagentur der\nSchweiz. Rentenanstalt (Lebensversicherung) für den Kanton Aargau.\n939.* Diefelben. Wohnhaus.\nMauch-Humm, Samuel, Kaufmann. Waarenmagazin.\n940. Wildi, Karl, Part.\nMeier-Matter, Jakob, Zimmermann, von Dintikon.\nSchmid-Willi, Jos. Ant., Polizeiorporal und Fischereiagent, von Wittnau.\nImhof-Schmid, Karolina, Wittwe, Part.\n941. Huber-Renz, Thüsnelda, Spenglers Wittwe, von Wöschau. Spengler-\nund Metallwaarenhandlung.\n942. Gisi-Anderegg, Emil, Malermeister.\n943 † Derselbe. Werkstätte.\n944. Hemmeler-Scheibler, Verena, Hafners Wittwe. Geschirr- und\nGlaswaarenhandlung.\nZoos geb. Scheibler, Anna Elisabeth, Wittwe, Part., von Gallmanns-\nmeil (Baden).\nWernli-Siegrist, Ulrich, Part., von Thalheim.\n945 † Ernst-Käfer, Friedrich. Röhrenfabrikation und Strangfalzziegelei.\n946. Aeschbach-Goldenberger, Fried., Schriftsetzer, von Oltigen (Waefelland).\nBehrli-Wehrli, Rudolf, Maschinenmeister, von Küttingen.\n947.* Derselbe. Wohnhaus.\nMüller-Frei, Samuel, Maschinenpuzer, von Unterfulm.\nMüller, Gottlieb, Sekretär, von Unterfulm.\nBertschi-Jakob, Jakob, Sekretär, von Dürrenäsch.\nSager-Wildi, Jakob, Brenner, von Gränichen.\n948. Dr. Blattner-Jäger, Otto, Fürsprech. (Advokatur-Büreau.)\nRiggli-Bohnenbluff, Arnold, Fürsprech und Stadtschreiber.\nHolzinger-Snell, Christina, Professors Wittwe, von Baselagst.\nHolzinger, Bertha, Postcommis, von Baselagst.\nHolzinger, Mina, Klavierlehrerin, von Baselagst.\nGladbach, Philipp, Professör, von Oppenheim (Hessen).\nKuhn-Stadtmann, Roja, Fabrikausfcherin, von Ilnau (Zürich).\n949. Landolt-Thommen, Carl, Fabrikant. Fabrikation seiner Wagen-,\nBau- und Dekorationslacke. Leinölfabrik.\nGänslen-Landolt, Karl, Kaufmann, von Biberstein.\n950. Derselbe. Abgetragen.\n951.† id. Maler- und Spenglerwerkstätte und Stallung.\n952.† id. Magazin.\n953.† id. Magazin.\n954 † id. Firnifsfabrik.\n1111 † id. Chemisches Laboratorium.\n1157 † id. Remise und Waschhaus.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4749,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2296,
+    "lines": 52,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.17,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p070",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p070.jpeg",
+      "bytes": 265712,
+      "sha256": "e1b86c2eb9e55864cb23aa206f3b5692aa9e95eb7b117a410e7ff67557362301",
+      "sha256_of": "original",
+      "working_copy": "1888_p070.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:43+00:00"
+  }
+}

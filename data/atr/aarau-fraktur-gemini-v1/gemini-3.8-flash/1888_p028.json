@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p028",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p028.jpeg",
+    "bytes": 258731,
+    "sha256": "3814938eb2e3920fbdbdf9b1c31bebeaf6c2336980a1b9436a7c1fea98cc22b9",
+    "sha256_of": "original",
+    "working_copy": "1888_p028.jpeg"
+  },
+  "text": "— 18 —\nHaus-\nNr.\n  Berner-Zürcher, Rudolf, Buchhalter, von Schafisheim.\n  Wandfluh-Sommer, Joh., Schuhmacher, von Fruttigen (Bern).\n  Rothwyler-Hupfer, Anton, Büchsenmacher, von Dürrheim (Baden).\n  Rothwyler-Hupfer, Sophie, Wäscherei und Glätterei.\n  Renold-Geißmann, Katharina, Wäscherin.\n191.* Cajacob, Franz Anton, in Compadiels.\n  Manufakturwaarenhandlung en gros von Stahel, Bräm und Meyer.\n  Bräm-Thalmann, Heinrich, Kaufmann, von Bülach (Zürich).\n  Bräm, Heinrich, Sohn, Commis, von Bülach (Zürich).\n  Bräm, Albert, Sohn, Commis, von Bülach (Zürich).\n  Sennhauser-Schnorf, Elise, Part., von Herrliberg (Zürich).\n192.† Feer-Zubers Erbschaft. Holzmagazin.\n193.* Dieselbe. Fabrikgebäude.\n  Firma: Richner-Siebenmann, Fr., Struppenfabrikation und Bänder in\n    Leinen, Baumwolle und Glanzfaden.\n  Hegnauer-Renold, Rudolf, Fabrikation und Export von Geflechten in\n    Stroh, Roßhaar, Manillahanf und Baumwolle.\n  Biber-Niggli,Theodor,Fabrikation von Seidenband u. Nähmaschinenhandlung.\n194.* Dieselbe.\n  Hegnauer-Renold, Rudolf, Fabrikant, von Seengen.\n  Renold-Wildi, Maria, Privatin.\n  Läubli-Häfeli, Jakob, Fabrikaufseher, von Seengen.\n\nSchloßplatz.\n\n195.* Rothpletz-Wydler, E., Oberstdivisionär, z. Schlößli, in Zürich.\n  Nüsperli-Witz, Edmund, Fabrikinspektor.\n  Frey-Veger, Adolf, Dr. phil., Professor, von Gontenschwyl.\n196. Rychner-Renold, Heinrich, Gewehrfabrikant.\n197. Gantner-Rychner, Mathias, Oekonom.\n198. u. 199. Alte Kaserne; abgetragen; an dessen Platz\n1183    (Saalbau).\n  Kümmerli-Matter, Johann, Abwart, von Kölliken.\n200.† Einwohnergemeinde Aarau. (Alte Storchenscheune.)\n201.† Wettler-Schneider, A., Scheune des Gasthofs zum Ochsen.\n\nGraben.\n\n202. Schmidt-Hagnauer, Gustav, Kaufmann. Teppich-, Wachstuch- und\n    Manufakturwaaren-Handlung.\n  Schmidt-Halbritter, Max, Fürsprech. Direktionssekretär der Justizkanzlei\n    (Handelsregisterführer).\n203. Abgetragen, an dessen Platz\n1161    Stahel-Ernst, Johann, Kaufmann und Wirth.\n204. Schmidlin-Lutz, Theodor, Fabrikant chemischer Produkte.\n  Frey-Schmidlin, Othmar, Fürsprech. Bankkontrolleur.\n205.* Rohr-Härdi, Erbschaft.\n  Firma: Zimmermann, Abraham (Großmann), Handelsgärtnerei und\n    Samenhandlung. Blumenbazar.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7330,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2188,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:26:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p028",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p028.jpeg",
+      "bytes": 258731,
+      "sha256": "3814938eb2e3920fbdbdf9b1c31bebeaf6c2336980a1b9436a7c1fea98cc22b9",
+      "sha256_of": "original",
+      "working_copy": "1888_p028.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:00+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p072",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p072.jpeg",
+    "bytes": 225205,
+    "sha256": "01194a7b615cf4acf9f6aab11acfefef1c7200bbd7872be699151d4942cb6e0f",
+    "sha256_of": "original",
+    "working_copy": "1892_p072.jpeg"
+  },
+  "text": "— 64 —\n\nHaus-\nNr.\nObere Vorstadt.\n\n935. Schmidt-Lanz, Adolf, Kaufmann. Inspektor der französischen\n    Lebensversicherungsgesellschaft „Le Soleil“ Paris. Geschirr- und\n    Glaswaarenhandlung.\n  Müller-Hurni, Marie, Wittwe, Part.\n  Bürgi-Burkhard, Anna, Wittwe, Part., von Erlinsbach.\n936. † Derselbe. Glasurmühlen.\n937. Berchtold-Glaus, Jakob, Schuhmacher, von Schmiedrued. Schuhhandlung.\n  Wälti-Maurer, Rudolf, Schneider, von Unterkulm.\n  Wildi, Adolf, Part., von Veltheim.\n  Gyger geb. Wildi, Rosina, Malers Wittwe, Part., von Aixheim\n    (Würtemberg).\n  Haller-Meyer, Gottlieb, Bäcker, von Reinach.\n  Berner, Gottlieb, Dienstmann, von Unterkulm.\n938. * Siebenmann, Friedrich, Bierbrauer, in Aarau und Gysi, Gottlieb,\n    Bezirksrichters Erbschaft, in Buchs.\n  Haberstich-Scheurmann, Bertha, Schulinspektors Wittwe.\n  Haberstich, Lina, Lehrerin.\n939. * Dieselben. Wohnhaus.\n940. Wildi, Karl, Part.\n  Meier-Matter, Jakob, Zimmermann, von Dintikon.\n  Imhof-Schmid, Karolina, Wittwe, Part.\n  Näf-Eichenberger, Edwin, Lokomotivführer, von Meilen (Zürich).\n  Müller, Albert, Gärtner (Zschokke, Konradin), von Flawyl (St. Gallen).\n941. Huber-Renz, Thusnelda, Spenglers Wittwe. Spengler- u. Metall-\n    waarenhandlung.\n  Spillmann, Joh. Jakob, Geschäftsführer, von Hedingen (Zürich).\n942. Gysi-Anderegg, Emil, Malermeister.\n  Gysi, Otto Robert, Postcommis.\n943. † Derselbe. Werkstätte.\n944. Hemmeler-Scheibler, Verena, Hafners Wittwe. Geschirr- und\n    Glaswaarenhandlung.\n  Joos geb. Scheibler, Anna Elisabeth, Wittwe, Part., von Gallmanns-\n    weil (Baden).\n  Wernli-Siegrist, Anna, Wittwe, Part., von Thalheim.\n945. † Ernst-Käser, Friedrich.\n946. Aeschbach, Fried., Schriftsetzer, von Oltingen (Baselland).\n  Umiker, Jakob, Part., von Thalheim.\n  Umiker-Steiner, Samuel, Knecht, von Thalheim.\n947. * Derselbe. Wohnhaus.\n  Müller-Frei, Samuel, Maschinenputzer, von Unterkulm.\n  Bertschi-Jakob, Jakob, Sekretär, von Dürrenäsch.\n  Sager-Wildi, Jakob, Brenner, von Gränichen.\n  Güntert, Leo, Bremser, von Mumpf.\n948. Dr. Blattner-Jäger, Otto, Fürsprech und Notar. (Advokatur- und\n    Notariats-Büreau).\n  Niggli-Bohnenblust, Arnold, Fürsprech und Stadtschreiber.\n  Holzinger-Snell, Christina, Professors Wittwe, von Baselaugst.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8804,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2222,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0196,
+    "mean_line_chars": 40.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:53:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p072",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p072.jpeg",
+      "bytes": 225205,
+      "sha256": "01194a7b615cf4acf9f6aab11acfefef1c7200bbd7872be699151d4942cb6e0f",
+      "sha256_of": "original",
+      "working_copy": "1892_p072.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:53:22+00:00"
+  }
+}

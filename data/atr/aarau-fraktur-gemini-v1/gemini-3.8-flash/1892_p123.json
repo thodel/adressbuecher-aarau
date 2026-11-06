@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p123",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p123.jpeg",
+    "bytes": 249651,
+    "sha256": "57beb4d1b9094cee4e958f32f1e0c2a137762f107c5176310fabbada34b9aab4",
+    "sha256_of": "original",
+    "working_copy": "1892_p123.jpeg"
+  },
+  "text": "Keller — Kohler. 107\n\nKeller-Siebenmann, Daniel, Uhrenmacher, Uhrenhandlung, von Veltheim,\n  Laurenzenthorgasse 129.\nKeller-Sommerhalder, Erwin, Gießerarbeiter von Maisprach, Adel-\n  bändli 85 b.\nKeller-Spereisen, Gottlieb, Wirth z. neuen Bund von Wöschnau (Soloth.),\n  Rain 822.\nKeller-Steiner, Karl, Hafer- und Weinhandlung, Rain 878.\nKeller, Verena und Lina, Part. von Veltheim, Laurenzenvorstadt 1294.\nKern, Emilie, Stickerei- und Wollengeschäft, Laurenzenthorgasse 1118.\nKern-Hunziker, Emil, Fabrikant, Bahnhofstraße 559.\nKern-Rychner, Emil, Mechaniker, Bahnhofstraße 559.\nKern-Saxer, Adolf. Part., Rain 872.\nKern-von Arand, Heinrich, Mechaniker, Gartenstraße 1129.\nKeßler-Läuchli, Hans, Faktor von Schiers (Graubünden), Oberthor 228 b.\nKettiger-Bertschinger, Arnold, Prokurist von Liestal, Laurenzenvorstadt 360.\nKeusch-Diebold, Joseph Carl, Apotheker von Boswyl, vord. Vorstadt 894.\nKiburz-Häfliger, Gotthold, Sattler und Tapezierer von Oberentfelden,\n  Entfelderstraße 968.\nKiburz, Lina, Fabrikarbeiterin von Erlinsbach (Solothurn), Halden 253.\nKiburz-Wüthrich, Barbara, Fabrikarbeiterin von Unterkulm, Milchgasse 143.\nKielholz-Aeschbach, Gottlieb, Postbeamter von Mettau, hinter dem Bahn-\n  hof 501.\nKielholz-Brogli, Franz, Bahnangestellter von Mettau, Halden 276.\nKielholz, Karolina. Haushälterin von Mettau. Schachen 730.\nKielholz, Leopold, Part., Schachen 730.\nKiener-Tschopp, Margaretha, Näherin von Zezwyl, Bahnhofstraße 1173.\nKieser-Dambach, Robert, Bankbeamter, hinter dem Bahnhof 503.\nKieser-Haßler, Samuel, Postkassier, Graben 209.\nKieser-Leyvraz, Fanny, Metzgers Wittwe, Part., Zollrain 87.\nKieser-Kilchenmann, Wilhelm, Metzger und Wirth, Zollrain 87.\nKirchhofer-Obrist, Maria, Wittwe von Auenstein, Casinostraße 570.\nKirchhofer-Schlatter, Maria, Küfers Wittwe v. Schaffhausen, Halden 248.\nKirchner-Vonwiller, Ida, Modistin von Meersburg (Sachsen), Graben 207.\nKistler-Kull, Jakob, Steuerpräsident von Bözen, obere Vorstadt 925.\nKistler-Treier, Emil, Taglöhner von Bözen, Milchgasse 148.\nKlingelfuß, Alfred Jakob, Sohn, Mechaniker von Basel, Weinberg 321 c.\nKlingelfuß, Joh. Fried., Mechaniker und Eichmeister von Basel, Wein-\n  berg 321 c.\nKloter-Kohler, Edmund, Packer von Lengnau, Hammer 188.\nKnecht-Bögeli, Barbara, Fabrikarbeiterin von Oberflachs, Halden 264.\nKönig-Steininger, Anna, Küfers Wittwe von Bottenwyl, Pelzgasse 63.\nKohlmann-Läuchli, Verena, Wittwe, Lithographiegeschäft von Daxlanden\n  (Baden), Kirchhof 164.\nKoller-Kohler, Elisabeth, Spetterin von Berikon, Metzgergasse 60.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8923,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2510,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:59:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p123",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p123.jpeg",
+      "bytes": 249651,
+      "sha256": "57beb4d1b9094cee4e958f32f1e0c2a137762f107c5176310fabbada34b9aab4",
+      "sha256_of": "original",
+      "working_copy": "1892_p123.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:59:06+00:00"
+  }
+}

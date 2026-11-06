@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p014",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p014.jpeg",
+    "bytes": 265868,
+    "sha256": "d56c5e4a40a025e9f473074d0582ee9fcf0384b9280da2286bbe8e7ebc19774c",
+    "sha256_of": "original",
+    "working_copy": "1888_p014.jpeg"
+  },
+  "text": "4\nGans-\nNr.\nBiedermann-Siebenmann, Leonz, Kaufmann (Bally & Schmitter), von\nGözgen (Solothurn).\n27. † Stephani-Winkler, August, Kaufmann, Magazin.\n28. † Derfelke. Wachshaus.\n29. * Reisf, Gottlieb, Megger, von Aarau, in Äigle.\nSchmid-Maurer, Mathilde, Negotiantin, von Möriken.\nMaurer, Louise, Part.\nMaurer, Gustav Alfred, Kaufmann.\nStephani geb. Heckmann, Wilhelmine, Wittwe, Part.\n30. Müller-Hürner, Eduard, Schirmmacher, Schirmhandlung.\n31. Stapfer-Jessenmeier, Johann, Schuhmachermeister, von Sarmenstorf,\nSchuhhandlung.\n32. Dubb-Walther, Karl, Megger und Speisewirth, von Rüttigen.\n\nKronengasse.\n33. Erny-Faßler, Emil, Kaufmann, Mercerie-, Bonneterie-, Vingerie- und\nQuincaillerie-Warenhandlung.\nAgentur der Allgem. Lebensversicherungs-Gesellschaft.\nBasler Feuer-Versicherung.\nSchmid, Maria, Ladentochter, von Buch bei Weinfelden (Thurgau).\nTittel-Meisel, Fried. Wilhelm Moritz, Lithograph (Müller & Cie.), von\nZwicky (Sachsen).\nWaldmeier-Gautschi, Alfred, Commis (Camper & Cie), von Möhlin.\n34. Württemberger-Kaiser, Johann Gottlieb, Coiffeur.\nSuggenheim-Vollag, Julius, Kaufmann, von Oberendingen, Tuchhand-\nlung „Narauer Waarenhalle“.\nSuggenheim, Samuel, Sohn, Kaufmann, von Oberendingen.\nZürcher-Stug, Johann, gewesener Turnlehrer, von Thalwyl (Zürich).\n35. Kaiser, Sigmund, Kaufmann, Quincaillerie-, Glas- und Porzellan-\nWaaren-Handlung.\nHärrli-Baumann, Arnold, Postangestellter, von Birmwyl.\n36. Hinz-Wolf, Gottfried, Zuckerbäcker, von Merklingen (Württemberg).\nRäf-Ludwig, Emil, Statistiker, von Aarburg.\n37. Bonfelsen-Willimann, Franz Joseph, Webermeister (Reiners\nNachfolger), Quincaillerie- und Kinderspielwaaren-Handlung.\nBonfelsen-Willimann, Verena, Corsettmacherin.\nWillimann-Wehrli, Marie, Wittwe, von Oberhof.\n38. Gloor-Siebenmann, Friedrich, Negotiant, von Schöftland, Colonial-\nwaaren- und Delikatessen-Handlung.\nWidmer-Rohner, Franz Xaver, Sekretär (Obergerichtskanzlei), von\nSchneisingen.\n39. Mathys-Hafner, Rudolf, Gastwirth zur Krone, von Erizwyl (Bern).\n40. Hilfiker-Wilhelm, Jakob, Bäcker, von Muhlen.\nWälti-Diener, Emil, Commis (Aarg. Bank), von Zurzach.\nBogel-Dubs, Gottfried, Polizeiwachtmeister, von Rölliken.\nBogel, Elise, Glätterin, von Rölliken.\nPlüsz-Zimmerli, Jakob, Färber, von Brittnau.\nPlüsz-Zimmerli, Marie, Gesamme, von Brittnau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4524,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2270,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p014",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p014.jpeg",
+      "bytes": 265868,
+      "sha256": "d56c5e4a40a025e9f473074d0582ee9fcf0384b9280da2286bbe8e7ebc19774c",
+      "sha256_of": "original",
+      "working_copy": "1888_p014.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:43+00:00"
+  }
+}

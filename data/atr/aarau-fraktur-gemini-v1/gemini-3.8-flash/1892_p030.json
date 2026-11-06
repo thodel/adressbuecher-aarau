@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p030",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p030.jpeg",
+    "bytes": 241174,
+    "sha256": "6cb5b24e5e8878363e6b55e2af6c032b06f3706a4be7f9fd7f15b0a48ecfa1ff",
+    "sha256_of": "original",
+    "working_copy": "1892_p030.jpeg"
+  },
+  "text": "— 22 —\n\nHaus-\nNr.\n251. Huber-Ment, Jakob, Schneider, von Unterembrach (Zürich).\n  Bolliger-Ment, Emil, Buchbinder, von Schloßrued.\n252. Strub-Mühlestein, Robert, Schneider, von Kienberg (Solothurn).\n  Herzog-Dietiker, Konrad, Schneider, von Homburg (Thurgau).\n253. Brunnhofer-Schmid, Magdalena, Mechanikers Wittwe.\n  Kyburz, Lina, Fabrikarbeiterin, von Erlinsbach (Solothurn).\n  Werich-Dippert, Ferdinand, Drucker, von Böhm.-Aicha (Böhmen).\n254.*Hirsbrunner-Kiener, Jakob, Instrumentenmacher.\n  Schmutz, geb. Weber, Anna, Wittwe, Spetterin, von Eptingen (Baselland).\n  Schmocker, Gottlieb, Postpacker, von Ringgenberg (Bern).\n  Schnellmann-Widmer, Heinrich, Maurer, von Rapperswyl (Zürich).\n255. Hirsbrunner-Kiener, Jakob, Instrumentenmacher. Spezereihandlung.\n  Hirsbrunner, Gottfried, Sohn, Instrumentenmacher.\n256. Armengut der Gemeinde Aarau.\n  Andres, Jakob, Bahnangestellter.\n  Andres-Walter, Verena, Metzgers Wittwe.\n  Delhafen-Müller, Elisabeth Louise, Malers Wittwe.\n  Hässig-Fischer, Albert, Werkführer.\n257. Zimmermann-Wernli, Joh., gew. Bahnwärter, von Rupperswyl.\n  Schilling, Xaver, Taglöhner, von Hornussen.\n  Roth-Bolliger, Anna Maria, Wittwe, Taglöhnerin, von Erlinsbach.\n258.*Armengut der Gemeinde Aarau.\n  Beck-Böll, Gottlieb, Schlosser.\n259.*Camisasca, Franz, Kaufmann.\n  Plüß-Ledermann, Bernhard, Knecht, von Ryken.\n  Bachmann-Müller, Rudolf, Maurer, von Bottenwyl.\n  Sandmeier-Obrecht, Kaspar, Dachdecker, von Gränichen.\n  Fehlmann, Rudolf, Dachdecker, von Menziken.\n260. a. Keller-Berney, Abraham, Mechaniker.\n260. b.*Haßler, Julie, Modistin.\n  Bamberger-Schwarz, Anna, Wittwe, Taglöhnerin, von Siglistorf.\n  Walser-Bamberger, Marie, Zuschneiderin, von Rottweil (Baden).\n  Hochstrasser-Roth, Johann, Taglöhner von Asp.\n  Welti-Zobrist, Johann, Taglöhner, von Dürrenäsch.\n  Gloor, Elise, Fabrikarbeiterin, von Seon.\n261. Rauchenstein-Pfleger, Sophie, Professors Wittwe.\n  Pfleger, Emma, Pfarrers, Privatin.\n262. Abgetragen.\n263.*Hefti-Hunziker, J. P., Schneidermeister, von Schwanden (Glarus).\n  Pfister-Furrer, Albert, Schneider, von Dübendorf (Zürich).\n264. Wildi-Matt, Jakob, Tapezierer, von Schafisheim.\n  Wildi, Anna, Damenschneiderin, von Schafisheim.\n  Hunziker-Hunziker, Heinrich, Holzspalter, von Kirchleerau.\n  Weißgenannt-Käser, Verena, Wittwe, Näherin, von Mingolsheim (Baden).\n  Käser, Friedrich, Buchbinder, von Oberflachs.\n  Egloff = Spychiger, Johann Georg Friedrich Gärtner, von Tägerweilen\n    (Thurgau).\n  Rychner-Buhlrein, Maria Elisabeth, Part.\n  Knecht-Vögeli, Barbara, Fabrikarbeiterin, von Oberflachs.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7223,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2547,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:48:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p030",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p030.jpeg",
+      "bytes": 241174,
+      "sha256": "6cb5b24e5e8878363e6b55e2af6c032b06f3706a4be7f9fd7f15b0a48ecfa1ff",
+      "sha256_of": "original",
+      "working_copy": "1892_p030.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:10+00:00"
+  }
+}

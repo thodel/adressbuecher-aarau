@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p035.jpeg",
+    "bytes": 317464,
+    "sha256": "e062decae5812ced79e08991638468fbf75db13dc5bde7ec042a91fbb1c82b25",
+    "sha256_of": "original",
+    "working_copy": "1884_p035.jpeg"
+  },
+  "text": "Käfer-Möri, Jakob, Taglöhner, von Oberflachs, Pelzgasse 133.\n— Hartmann, Samuel, Zimmermann, von Biberstein, Abelbändli 85.\n— Fischer, Jakob, Küfer, v. Ob.-Erlinsbach (Soloth.), Weinberg 332.\n— Stänz, Xaver, Fabrikkaufseher, v. Erlinsbach (Soloth.), in d. Teili 440.\n— Kramer, Anton, Bedienter von Deslingen (Baden), obere Vorstadt 937.\n— Laurent, Emil, Gärtner von Oberflachs, Schachen 739.\n— Maria Anna, Fabrikarbeiterin, v. Erlinsbach (Soloth.), Jgelweid 637.\n— Kähr, Ulrich, Kutscher, von Melchnau (Bern), Halden 268.\n— Leder, Johann Rudolf, Steinhauer von Biberstein, Halden 281.\nKäslin-Schönegger, Eufebius, Musiflehrer, von Bekenried (Unterwalben), Laurenenzvorstadt 602.\nKehrer-Hausheer, Jakob, Bäckermeister, von Bözen, Pelzgasse 62.\n*Keller-Franke, Joseph, Obergerichtsschreiber, Zollrain 179.\n* — Berney, Abraham, Mechaniker, Halden 260a.\n* — Bauhofer, Daniel, Färber, von Villigen, Halden 273.\n* — Hemmeler, Julie, Wittwe, Kaffewirthschaft, Zollrain 292.\n* — Paul, Sohn, Zuckerbäcker, Zollrain 292.\n— Georg, Bahnmeister, von Endingen, hinter dem Bahnhof 501.\n— Käppeli, Heinrich, Lokomotivführer, v. Regenstorf (Zürich), Laurenenz-Vorstadt 552.\n— Anna, Damenschneiderin, von Mandach, vordere Vorstadt 682.\n— Fehlmann, Johann, Dekonom, von Hottwyl, neues Quartier 1145.\n— Siebenmann, Daniel, Uhrenmacher, v. Beltheim, Laurenenzthorg. 120.\n* — Jäggi, Andreas, Bezirksverwalter, Jgelweid 619.\n— Buser, Gottfried, Buchdrucker, von Hottwyl, Rainstraße 839.\n— Hauri, Wilhelm, Dekonom, von Oberendingen, Rainstraße 850.\n— Pfister, Fritz, Bedienter, von Oberendingen, Rainstraße 850.\n— Schweri, Verena, Wittwe, Partik., v. Oberendingen, Rainstraße 850.\n— Hauri, Joseph, Pferdewärter, von Oberendingen, Halden 249.\n* — Zimmermann, Johann, Lohnkutscher, Cafinostraße 580.\n* — Steiner, Karl, Sohn, Lohnkutscher, Cafinostraße 580.\n— Stauffer, Jakob, Rektor, von Bözberg, Laurenenzvorstadt 544.\n— Belliger, Heinrich, Professor, von Küdlingen (Schaffhausen), neues Quartier 974.\n— Spreisen, Gottlieb, Wirth, von Wöschau (Soloth.), Rainstraße 822.\n— Jakob, Taglöhner, von Hottwyl, Ziegelrain 708.\n— Leuenberger, Lisette, Bettmacherin, von Kallern, Kirchplatz 164.\n— Katharina, von Swattingen, (Großh. Baden), Ellenwaarenhandlung, Cafinostraße 571.\nKempf, Elise, Weiznäherin, von Windisch, Kirchplatz 165b.\n*Kern-Rychner, Emil, Mechaniker, Bahnhofstraße 559.\n* — Adolf, Mechaniker, Ziegelrain 747.\n* — Otto, Mechaniker, Partik., Rathausgasse 20.\nKettiger-Bertschinger, Arno, Kaufmann, v. Lieftal, Laurenenzvorstadt 360.\nRiburz-Wirthrich, Samuel, Taglöhner, von Unterkulm, Stadthof 92a.\n— Bohnenblust, Kath., Weiznäherin, v. Erlinsbach (Soloth.), Jgelw. 625.\n*Kielholz-Schütz, Leopold, Kant.-Kriegskommissär, Schachen 730.\n— Caroline, Haushälterin, von Mettau, Schachen 730.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6162,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2769,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 61.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:12:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p035.jpeg",
+      "bytes": 317464,
+      "sha256": "e062decae5812ced79e08991638468fbf75db13dc5bde7ec042a91fbb1c82b25",
+      "sha256_of": "original",
+      "working_copy": "1884_p035.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:12:19+00:00"
+  }
+}

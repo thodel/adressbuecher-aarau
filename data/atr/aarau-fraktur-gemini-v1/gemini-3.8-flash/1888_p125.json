@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p125",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p125.jpeg",
+    "bytes": 279489,
+    "sha256": "a0ef4aceb4b58e4a420c126828d1e50fd5d44d9e5c3549eb40399273e529b5b5",
+    "sha256_of": "original",
+    "working_copy": "1888_p125.jpeg"
+  },
+  "text": "Reimann — Riniker. 107\n\nReimann-Rüegger, Verena, Part. von Wölflinswyl, Casinostraße 573.\nReimann, Friedrich, Postcommis von Wölflinswyl, Casinostraße 573.\nReiner-Scheuermann, Elise, Fabrikants Wittwe, Bachstraße 1054.\nReinhardt-Müller, Johann Baptist, Gärtner von Balsthal (Solothurn),\n  Schachen 725.\nRenold-Geißmann, Katharina, Wäscherin, Hammer 190.\nRenold-Hinden, Daniel, Wirth, Schachen 733.\nRenold-Wildi, Maria, Wittwe, Part., Hammer 194.\nRennhard, J. Martin, Professor von Wigoltingen (Thurgau), Entfelder=\n  straße 973.\nRey-Mattenberger, Viktor, Instruktor der Infanterie, von Othmarsingen,\n  Gais 487.\nRey-Ringger, Jakob, Rektor der Bezirksschule, vor dem Haldenthor 777.\nRichard-Schmid, Ida, Metzgers Wittwe, Part., Ziegelrain 700.\nRichner-Peter, Johann, Wirth, von Rohr, Bahnhofstraße 541.\nRychner-Thommann, Friedrich, Spenglermeister, Kirchgasse 10.\nRychner-Grözinger, Joh. Heinrich, Buchhalter, jenseits der Aare 295.\nRychner-Henz, Henriette, Part., Entfelderstraße 981.\nRychner-Heß, Konrad, Seiler, Pelzgasse 123.\nRychner-Heß, Louis, Ingenieur, Rain 832.\nRychner-Hunziker, Elise, Malers Wittwe, Part., Bahnhofstraße 1020.\nRychner, Karl Christian, Fabrikant, Bahnhofstraße 561.\nRychner-Preisig, Otto, Fabrikant, jenseits der Aare 339.\nRychner-Renold, Heinrich, Gewehrfabrikant, Schloßplatz 196.\nRychner-Renz, Rosa, Part., obere Vorstadt 1117.\nRychner, Fritz, Pianist, id. id. id.\nRychner, Samuel, Pfister, Part., Rain 832.\nRychner-Schleuniger, Marie, Hafners Wittwe, Igelweid 637.\nRychner-Siebenmann, Elise, Bandfabrikants Wittwe, Part., Rain 828.\nRies-Buhlrein, Emmanuel, Farb- u. Glaswaarenhandlung, Ziegelrain 702.\nRifer-Specht, Wilhelm, Werkführer von Oeschelbronn (Württemberg),\n  Igelweid 625.\nRilliet, Eduard, Ingenieur von Genf, Gartenstraße 998.\nRiner-Hächler, Joseph, Kondukteur von Herznach, in der Gais 487.\nRiner-Obrist, Johann, Polizeidiener von Herznach, Ziegelrain 705.\nRingier-Tschudi, Adolf, Lagerhausdirektor von Zofingen, Laurenzen=\n  vorstadt 408.\nRingier-Schwarz, Karl Arnold, Reg.-Rath von Zofingen, jenseits der\n  Aare 303.\nRiniker-Beck, Nanette, Wittwe, Part., Metzgergasse 103.\nRiniker-Groß, Friedrich, Bierbrauer, Metzgergasse 102.\nRiniker, Friedrich, Sohn, Bierbrauer, id. id.\nRiniker, Jakob, Oekonom von Habsburg, Binsenhof 1005.\nRiniker-Läuchli, Jakob, Oekonom, Binsenhof 1005.\nRiniker-Lutz, Adolf, Commis, Graben 1237.\nRiniker-Schilplin, Hans, Reg.-Rath von Habsburg, Gartenstraße 999.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8643,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2430,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:37:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p125",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p125.jpeg",
+      "bytes": 279489,
+      "sha256": "a0ef4aceb4b58e4a420c126828d1e50fd5d44d9e5c3549eb40399273e529b5b5",
+      "sha256_of": "original",
+      "working_copy": "1888_p125.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:42+00:00"
+  }
+}

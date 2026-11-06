@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p072",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p072.jpeg",
+    "bytes": 246453,
+    "sha256": "0f4a3ff55c4d49dde53d3c8c0dd0caa5415f650887b9fe7c9607f47f8584a25b",
+    "sha256_of": "original",
+    "working_copy": "1888_p072.jpeg"
+  },
+  "text": "— 62 —\n\nHaus=\nNr.\n972. Schmuziger=von Grigoroff, Friedrich, med. Dr., Arzt.\n1177  †Derselbe. Bienenhaus.\n973. Schindler=Trümpi, Emma, Fabrikants Wittwe, von Mollis (Glarus).\n  Rennhard, J. Martin, Professor, von Wigoltingen (Thurgau).\n1134  †Dieselbe. Holzremise.\n1075  Brentano=Bruggisser, Max, Zahnarzt, von Laufenburg.\n  Zschokke=Bodmer, Hermann, Agent.\n\nZschokkestraße.\n\n974. Stern=Zäslin, Alexander, Pfarrer, von Basel, Prediger an der\n    Evangel. Kapelle.\n975. Ehrsam=Andres, Daniel, Postbeamter.\n  Zschokke=Schmuziger, Arnold, Dr. Jur., Staatsschreiber.\n976.a. Stern=Zäslin, Alexander, Pfarrer. (Holzhaus).\n976.b. Ehrsam=Andres, Daniel, Postbeamter. (Holzhaus).\n977. Stigeler=Schaub, Joseph, Zeughausdirektor, von Reckingen.\n  Vuillermot-Leblanc, Charles Jean L., Kaufmann, v. Verrieres (Waadt).\n\nGartenstraße.\n\n978.†Ernst=Pfisterer, Bierbrauers Wittwe. Eiskeller.\n1216  †Dieselbe. Eiskeller.\n\nEntfelderstraße.\n\n979. Thut=Laufer, Rudolf, Privat, von Oberentfelden.\n  Fisch=Thut, Adolf, Weinhändler.\n  Lüscher=Thut, Elise, Privatin, von Oberentfelden.\n980.†Derselbe. Scheune.\n981. Maier=Rychner, Kaspar, Professor, Rektor der Kantonsschule.\n  Rychner=Henz, Henriette, Part.\n982.†Derselbe. Holzhaus.\n983. Beck=Braun, Friedrich, Sattler.\n  Wieland=Wieland, Hermine, Wittwe, Part., von Rheinfelden.\n  Mühlberg=Amsler, Theodor, Postkontroleur, von Muri.\n1076  †Derselbe. Wasch= und Holzhaus.\n1195  Riniker=Wernli, Hermann, Milchverkäufer, von Habsburg.\n  Bart=Schmid, Johann, Postcommis, von Altenburg.\n1203  †Derselbe. Holz=, Schwein= und Geflügelhaus.\n1147  Vogel=Waßmer, Rudolf, Kaminfeger und Dachdecker, von Kölliken,\n    Lager in Dach= und Randschindeln.\n  Husi=Lämmli, Franz Josef, Wagenvisiteur, von Wangen (Solothurn).\n  Kohler, Johann, Taglöhner, von Oberbözberg.\n  Wirz, Jakob, Schuhmacher, von Muhen.\n1222  †Derselbe. Schopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6358,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1840,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:31:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p072",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p072.jpeg",
+      "bytes": 246453,
+      "sha256": "0f4a3ff55c4d49dde53d3c8c0dd0caa5415f650887b9fe7c9607f47f8584a25b",
+      "sha256_of": "original",
+      "working_copy": "1888_p072.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:31:28+00:00"
+  }
+}

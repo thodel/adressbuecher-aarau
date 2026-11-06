@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p108",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p108.jpeg",
+    "bytes": 275321,
+    "sha256": "4e9567329bc9daadba881d089653ca4aebf91ac825d74fcf370079215a37ecca",
+    "sha256_of": "original",
+    "working_copy": "1888_p108.jpeg"
+  },
+  "text": "90\nGuttentag — Haßler.\n\nGuttentag, Isidor, Dr. Professor von Ezentochau (Polen), Bahnhofstraße 535.\n* Guyer, August, Fabrikant, Telli 456.\n* Guyer-Guntel, Oskar, Sohn Fabrikant, Telli 456.\nGünthard-Hauri, Marie, Wittwe, Weißnäherin von Hedingen (Zürich), Schachen 739.\n\nHaberstich-Huber, Gottlieb, Part. von Oberentfelden, Kirchgasse 10 a.\n* Haberstich-Steiner, Johann, Fürsprach, Laurenenvorstadt 413.\n* Haberstich-Schenermann, Samuel, Schulinspektor, obere Vorstadt 938.\n* Haberstich-Stöckli, Fabio, Zinsrodelverwalter von Oberentfelden, Rain 858.\n* Hagenbuch-Egger, Friedrich, Buchbinder, vordere Vorstadt 676.\nHagenbuch-Ernst, Marie, Schneiders Wittwe, vordere Vorstadt 902 b.\n* Hagenbuch-Gros, Karl, Coiffeur, Rain 819.\n* Hagenbuch-Hagenbuch, August, Sekretär, Rathausgasse 46.\nHagenbuch-Hagenbuch, Verena, Stickerei- und Wollwaarenhandlung, Rathausgasse 5.\nHagnauer, Emma, Part., Conradstraße 989.\nHagnauer, Nanette, id. id. id.\nHagnauer, Mathilde, id. id. id.\nHagnauer, Friedrich, Bürstenmacher, Pelzgasse 68.\nHagnauer, Gottlieb, Metzger, Halden 266 b.\nHagnauer, Hedwig, Lehrerin, hintere Vorstadt 688.\nHagnauer, Hermann, Sohn, Kaufmann, Pelzgasse 68.\nHagnauer-Raspar, Joh. Ludwig, Briefträger, Adelbündli 170.\nHagnauer-Peters, Friedrich, Sohn, Bürstenmacher, Pelzgasse 68.\n* Hagnauer-Wildberger, Barbara, Wittwe, Part., Conradstraße 989.\n* Hagnauer-Zimmermann, Albert, Kaufmann, Conradstraße 1255.\nHaller-Jehlmann, Susette, Wittwe, Wäscherin von Reinach, Milchgasse 74.\nHaller-Ottiger, Wilhelm, Schuhmacher von Reinach, Halden 282.\nHaller-Ottiger, Marie, Glätterin von Reinach, Halden 282.\nHaller-Ringier, Emilie, Fürsprachs Wittwe von Zofingen, jenseits der Aare 294.\nHangartner-Alber, Ferdinand, Lithograph von Buchthalen (Schaffhausen), Bachstraße 1048.\n* Hartmann-Götte, Rudolf, Fabrikant von Ebnat (St. Gallen), Bachstraße 1098.\nHartmann, Johann Friedrich, Part. von Mügglingen (Württemberg), Weinberg 321.\nHaßler, Arnold, Buchhalter, Telli 456.\n* Haßler-Bircher, Paul, Kupferschmied, Pelzgasse 134.\n* Haßler-Brunnhöfer, Eduard, Kaminsfeger, Halden 248.\n* Haßler-Ernst, August, Färber, Halden 265.\nHaßler, Marie, Part., Halden 265.\nHaßler, Gottlieb, Färber, Casinostraße 584.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4652,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2188,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:26:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p108",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p108.jpeg",
+      "bytes": 275321,
+      "sha256": "4e9567329bc9daadba881d089653ca4aebf91ac825d74fcf370079215a37ecca",
+      "sha256_of": "original",
+      "working_copy": "1888_p108.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:08+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p119",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p119.jpeg",
+    "bytes": 272864,
+    "sha256": "b257f56e88aa701d63a243b8df81d1613552b785a720f64e1aea08f0841030ab",
+    "sha256_of": "original",
+    "working_copy": "1888_p119.jpeg"
+  },
+  "text": "Lüscher — Mathys.\n101\nLüscher-Lüscher, Jakob, Commis von Moosleerau, Halden 254.\nLüscher-Thut, Elise, Part. von Oberentfelden, Entfelderstrasse 979.\nX Lüscher-Umiker, Hermann, Mechaniker, Bankstrasse 1146.\nLüscher-Umiker, Marie, Damenschneiderin, id. id.\nLüscher-Wülser, Lisette, Part. von Aarburg, Laurenzenvorstadt 360.\nLuz-Hagnauer, Johann, Kaufmann von Basel, Laurenzenvorstadt 602.\nLuz, Ulrich, Klaviermacher von Thal (St. Gallen), Graben 1237.\nX Lüthi-Gamper, Samuel, Telegraphist von Schöftland, Laurenzenthor-\ngasse 1118.\nLüthi-Kneubühler, Eduard, Sattler und Tapezierer von Bleienbach (Bern),\nKirchgasse 15.\nLüthi-Simmen, Alexander, Sattler von Schöftland, Casinostasse 660.\n\nMaag-Wildi, Jakob, Hafner von Neunkirch (Schaffhausen), Ham-\nmer 188.\nMädon-Laufer, Viktor, Lokomotivführer von Unterstrass (Zürich), Laurenzen-\nvorstadt 552.\nMäder, Henriette, Modistin von Köln, Kirchgasse 12.\nMärt-Hofer, Karl, alt Armenhausverwalter, Zollrain 178.\nX Märt, Marie, Lehrerin, Zollrain 178.\nMärt, Jda, Drs., Part., Laurenzenvorstadt 360.\nMärt, Louise, Glätterin, Abelbändli 83.\nMärti, Marie, Damenschneiderin von Mandach, obere Vorstadt 966.\nMärti-Haller, Gottlieb, Mühlensbauer von Mandach, vor dem Halden-\nthor 1093.\nMärti-Schmidli, Johann, Küfermeister von Mandach, Bachstrasse 1031.\nX Maier-Richner, Kaspar, Professor von Baden, Entfelderstrasse 981.\nMaier-Ganter, Konrad, Lohnkutscher von Reisalfingen (Großh. Baden),\nBachstrasse 1038.\nMayer-Enter, Elise, Wittwe, Weißnäherin von Raftatt (Großh. Baden),\nPelzgasse 132.\nMayer, Thomas, Schuhmachermeister von Gigoldingen (Groß. Baden),\nWohnung vordere Vorstadt 682, Werkstätte hintere Vorstadt 697.\nMarfurt, Franz Xaver, Coiffeurgehilfe von Langnau (Kuzern), obere\nVorstadt 930.\nX Markwald-er-Gamper, Traugott, Stabsmajor, Cavallerie-Instruktor von\nWettingen, Pelzgasse 129.\nX Martin, Franz Gabriel, Buchdrucker, Kirchplatz 163.\nMartin-Hagenbuch, Maria, Part., Bankstrasse 1141.\nMartin-Hoffmann, Babette, Part., Rain 885.\nMartin-Kull, Susanna, Wittwe, Part., Ziegelrain 711.\nMartin-Siebenmann, Jda, Arbeitslehrerin, Halden 267.\nMathys-Hafner, Rudolf, Gastwirth zur „Krone“ von Criswyl (Bern),\nKronengasse 39.\nMathys-Matter, Wilhelm, Feilenhauer von Kölliken, obere Vorstadt 921.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4748,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2231,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.5,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p119",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p119.jpeg",
+      "bytes": 272864,
+      "sha256": "b257f56e88aa701d63a243b8df81d1613552b785a720f64e1aea08f0841030ab",
+      "sha256_of": "original",
+      "working_copy": "1888_p119.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:06+00:00"
+  }
+}

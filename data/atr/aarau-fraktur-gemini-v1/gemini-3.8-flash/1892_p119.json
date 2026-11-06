@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p119",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p119.jpeg",
+    "bytes": 258156,
+    "sha256": "ede4b21c2a7750a62b5a65ac3c2890e1d9b7e523cdcc01f161505428300945d2",
+    "sha256_of": "original",
+    "working_copy": "1892_p119.jpeg"
+  },
+  "text": "Hoffmann — Huber. 103\n\nHoffmann-Gamper, Emil von Zell (Zürich), Cassier der Creditanstalt,\n  Rain 878.\nHoffmann, Gottlieb, Taglöhner von Rued, Halden 282.\nHoffmann, Jakob, Part. von Zell, Casinostraße 577.\nHoffmann-Käser, Johann, Schuhmachermeister, Milchgasse 72.\nHoffmann, Nanette und Karolina, Weißnäherinnen von Zell (Zürich),\n  obere Vorstadt 948.\nHoffmann-Suter, Christoph, Coiffeur von Schwabach (Baiern), Wohnung\n  Kirchgasse 15 und Geschäft Kirchgasse 8 a.\nHoffmann-Schenk, Rudolf, Postangestellter von Schottikon (Zürich), Kirch-\n  platz 163.\nHoler, Lydia, Part. von Zuzgen, vordere Vorstadt 674.\nHolliger-Berner, Gottfried, Taglöhner von Boniswyl, Halden 246.\nHolzach-Schmidt, Fritz, Metzger und Wirth, Ziegelrain 700.\nHolzach-Siebenmann, Dietrich, Bierbrauer, Bahnhofstraße 563.\nHolzach-Wäffler, Dietrich, Part., Laurenvorstadt 547.\nHolzinger, Bertha, Postcommise von Basel-Augst, obere Vorstadt 948.\nHolzinger, Mina, Klavierlehrerin „ „ „\nHolzinger-Snell, Christiana, Professors Wittwe von Basel-Augst, obere\n  Vorstadt 948.\nHolzreuter-Suter, Katharina, Wittwe, Taglöhnerin von Ueken, Milch-\n  gasse 152.\nHommel-Stein, August, Mechaniker, Laurenzenvorstadt 410.\nHorlacher-Iberg, Samuel, Mechaniker von Umiken, Halden 249.\nHorlacher-Rubin, Heinrich, Schneider von Umiken, Milchgasse 74.\nHorlacher, Wilhelm, Kaufmann von Umiken, Graben 205.\nHort-Hemmeler, Hans, Zimmermeister von Oberhof, Hammer 190.\nHort-Hemmeler, Elise, Glätterin „ „ „\nHostettler-Hagnauer, Niklaus, Schuhmacher von Guggisberg (Bern),\n  Wohnung Halden 266 b, Werkstätte Milchgasse 70.\nHübscher-König, Anna, Wittwe, Taglöhnerin von Dottikon, Kirchhof 165 a.\nHürbin-Heuberger, Ferdinand, Chef der Militärkanzlei, von Wegenstetten,\n  Rain 831.\nHürzeler-Gloor, Jakob Handernhändler, von Uerkheim, Hammer 185 a.\nHürzeler-Widmer, Marie, Haushälterin, von Seon, vor dem Halden-\n  thor 1299.\nHüßer-Müller, Otto, Bremser von Remetschwyl, Schmiedgasse 625.\nHubacher, Gustav, Zeichner von Bern, Laurenzenvorstadt 362.\nHuber, Anna, Privatin von Kyken-Illnau (Zürich), vor dem Halden-\n  thor 1092.\nHuber-Bircher, Heinrich, Drechsler, Ziegelrain 710.\nHuber, Corina, Lehrerin von Besenbüren, Schloßplatz 195.\nHuber-Ment, Jakob, Schneider von Unter-Embrach (Zürich), Halden 251.\nHuber-Müller, Johann, Schneider von Freistadt (Oesterreich), Halden 277.\nHuber-Renz, Thusnelda, Spenglerwaarenhandlung, obere Vorstadt 941.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8178,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2382,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:58:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p119",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p119.jpeg",
+      "bytes": 258156,
+      "sha256": "ede4b21c2a7750a62b5a65ac3c2890e1d9b7e523cdcc01f161505428300945d2",
+      "sha256_of": "original",
+      "working_copy": "1892_p119.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:58:34+00:00"
+  }
+}

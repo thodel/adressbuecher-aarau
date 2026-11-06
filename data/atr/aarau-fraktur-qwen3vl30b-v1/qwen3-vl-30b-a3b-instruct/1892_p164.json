@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p164",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p164.jpeg",
+    "bytes": 227388,
+    "sha256": "7666ebcc56a4c61633cb74882a1a0a461069e903e166bf5901b7be2c28b5edfd",
+    "sha256_of": "original",
+    "working_copy": "1892_p164.jpeg"
+  },
+  "text": "148\nDr. Prof. Liechti, für Naturkunde.\nMaier, Prof., für Französisch.\nNödelberger für Musik.\nStacher, Gustav, für Naturgeschichte,\nMathematik, Physik, Chemie und\nSchreibunterricht.\nSuter, J. J., Rektor, für Deutsch,\nPädagogik und Religion.\nWolfsinger, Max, für den Zeichnungs-\nunterricht.\nC. Bezirksschulen.\n1. Knabenbezirksschule.\nDr. Bigler, Bezirkslehrer.\nDöbeli, Samuel, \"\nDr. A. Hirzel, \"\nPerusset, A., \"\nRey, J., \"\nWüest, C., \" (Rektor).\nDr. Schöffe, Ernst, Bezirkslehrer.\n2. Mädchenschule.\nDr. Odinga, Rektor.\nWydler, H., Bezirkslehrer.\nHagnauer, Hedwig, Bezirkslehrerin.\nHuber, Corinna, \"\nGilsflehrer.\nBurgmeier, J., Gefangglehrer.\nRennhart, Prof., Lehrer für Italienisch.\nStörfelin, O., Zeichnungslehrer.\nWäffler, H., Turnlehrer.\nD. Gemeindeschulen.\n1. Knabengemeindeschule.\nOyfi, Traugott, Lehrer.\nHauenstein, Friedrich, \"\nHengherr, August, \"\nHerzog, Heinrich, \"\nHunziker, Rudolf, \"\nMeyer, Jakob, \"\nSenn, Fridor, \"\nZimmermann, Johann, \"\n2. Mädchengemeindeschule.\nBelart, Julie, Lehrerin.\nBlattner, Anna, \"\nHaberfisch, Tina, \"\nLenzi, Sophie, \"\nMüller-Gürner, Frau, \"\nPlüß, Louise, \"\nRöhner-Märk, Marie, \"\nStirnemann, Emma, Lehrerin.\nBär, Marie, Arbeitslehrerin.\nMartti-Siebenmann, Jda, \"\nMeier-Lüthy, Frau, Arbeitslehrerin.\nSchäppi, Anna, \"\nHaßler, Pedell.\nWüest, Hausrektor.\nE. Kleinkinderschulen.\nFisch, Mina, Rain 875.\nRupfbaum, Hanna, Bahnhofstrasse 1343.\nSchaub, Marie, v. d. Salenthof 769.\nF. Privatlehrer.\nBurgmeier, J., Musiklehrer, Graben 209.\nDösekel, Mina, Klavierlehrerin, Bahnhofstrasse 1160.\nFrey-Rumpf, Fr., Musiklehrer, Schachen 810.\nGemmel, Jda, Klavierlehrerin, Solatten-mattgasse 229.\nHolzinger, Mina, Klavierlehrerin, obere Vorstadt 948.\nRutschera, Eugen, Musiklehrer, Bachstrasse 1043.\nNödelberger, Franz, Musiklehrer, Bahnhofstrasse 658.\nRychner, Fritz, Pianist, obere Vorst. 1117.\nRochholz, Marie, Klavierlehrerin, Meggergasse 100.\nSchneider, Theo., Musiklehrer, Casinostasse 570.\nSiebenmann, Emmy, Klavierlehrerin, obere Vorstadt 923.\nThom, Franz, Musiklehrer, hinter dem Bahnhof 1352.\nWittmer, J., Musiklehrer, Casinostasse 573.\nWittmer, Emma, Klavierlehrerin, Casinostasse 573.\nBonwiller, Emilie, Klavierlehrerin, Rain 888.\nLeichenbegleiter.\nFehlmann, Johann, Bachstraße 1028.\nMerz, Jakob, Halten 268.\nSchäfer, Wilhelm, Oberthor 224.\nSiegrist, Adolf, Laurenzenvorstadt 376.\nLingeriewaren.\nBolliger-Manger, Gustav, hintere Vorstadt 646.\nDolber, J., Graben 219.\nErdin, Albin, Nachfolger von Wwe. Jean Kiefer, Rathausgasse 22.\nEriszmann & Blattner, hintere Vorstadt 621.\nErny-Zakler, Kronengasse 33.\nFehlmann-Blattner, Anna, Bahnhofstrasse 648.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7519,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2576,
+    "lines": 87,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 28.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:48:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p164",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p164.jpeg",
+      "bytes": 227388,
+      "sha256": "7666ebcc56a4c61633cb74882a1a0a461069e903e166bf5901b7be2c28b5edfd",
+      "sha256_of": "original",
+      "working_copy": "1892_p164.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:28+00:00"
+  }
+}

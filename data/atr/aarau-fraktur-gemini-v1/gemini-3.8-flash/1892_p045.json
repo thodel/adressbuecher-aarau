@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p045",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p045.jpeg",
+    "bytes": 216558,
+    "sha256": "684da0de657bfd926173d8d9c036e1d50560c305aeb1d54678709c49130de5ec",
+    "sha256_of": "original",
+    "working_copy": "1892_p045.jpeg"
+  },
+  "text": "— 37 —\n\nHaus-\nNr.\n494. * Zschokke, O., Baugeschäft.\n  Eckert-Giger, Eduard, Zimmerpolier, von Großräudchen (Preußen).\n  Jäggi-Weber, Hermann, Geschäftsführer (Zschokke, O., Baugeschäft).\n  Schmid-Baumann, Katharina, Wittwe, von Watterdingen (Baden).\n  Schmid, Frida, Weißnäherin, von Watterdingen (Baden).\n  Schmid, Anna,          \"             \"                 \"\n  Deubelbeiß-Schaffner, Samuel, Güterschaffner, von Holderbank.\n  Wernli-Hug, Johann, Magaziner, von Thalheim.\n  Wernli-Wernli, Elisabeth, Wittwe., Part., von Thalheim.\n1072.    Gautschi-Maculin, Rud., Wirth z. Frohsinn, von Reinach.\n  Gärtler-Tschan, Bernhard, Gießermeister, von Oberwinterthur.\n495.   Bouvard-Schultheß, Joh. Güterexpedient, von Remetschwyl.\n496.   Käser-Plüß, Rudolf, Postkondukteur.\n  Kretz, Jakob, Part., von Unterentfelden.\n497.   Brügger-Sommerhalder, Christian, Kontrolleur, von Churwalden\n    (Graubünden).\n  Bircher-Kyburz, Anna, Wittwe, Part., von Küttigen.\n  Maurer-Lehmann, Friedrich, Heizer, von Schmidrued.\n498. † Würger-Maurer, Heinrich, von Hausen (Baden). Eisengießerei und\n    Weichgußfabrik.\n499. † Derselbe. Büreau.\n500. †    \"    Mechanische Sandmühle.\n1078.    †    \"    Eisengießerei.\n1293.    † Billo-Bär, Julius, Fabrikant. Holzhaus.\n1302.    † Schmidt, Gustav, Dr., Chemiker, Buttersiederei.\n501.   Fricker-Hiltpold, Samuel, Bahnmeister, von Veltheim.\n  Kielholz-Aeschbach, Gottlieb, Postbeamter, von Mettau.\n502.   Freimaurerloge zur Brudertreue.\n  Niederhauser-Gysin, Theodor, Buchbinder, von Baselaugst (Baselland).\n1351.    * Schäfer-Troller, Adolf, Architekt, Wohnhaus.\n1352.    * Derselbe.             \"             \"\n  Thom-Hänni, Franz, Trompeterinstruktor der Infanterie von Kirchberg\n    (Bern).\n503. * Schmuziger-Koller, Daniel, Baumeister, in Zürich.\n  Kieser-Dambach, Robert, Bankbeamter.\n  Soya, Anton, Kunstmaler, von Bologna (Italien). (Atelier.)\n504. † Derselbe. Holzschopf.\n505. †    \"    Magazin.\n506. †    \"    Ladenschopf.\n507. †    \"    Baracke.\n  Müller, Arnold, Baumeister. Fabrikation und Lager in Cementröhren ꝛc.\n1268.    Gerodetti-Habermacher, Virgilius, Hutmacher, von Sagliano\n    (Italien). Hutwaaren- und Marmorsteingeschäft.\n  Herzog-Hagnauer, Heinrich, Lehrer, von Rekingen.\n  Soya, Anton, Kunstmaler, von Bologna (Italien).\n508. † Saxer-Pfleger, Ludwig, Kaufmann. Gartenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6870,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2319,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:50:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p045",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p045.jpeg",
+      "bytes": 216558,
+      "sha256": "684da0de657bfd926173d8d9c036e1d50560c305aeb1d54678709c49130de5ec",
+      "sha256_of": "original",
+      "working_copy": "1892_p045.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:00+00:00"
+  }
+}

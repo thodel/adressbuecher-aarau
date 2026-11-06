@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p065",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p065.jpeg",
+    "bytes": 240075,
+    "sha256": "3e9f6e9b8c14103077d49b5e583a08ed0e3b84aafe46f75b6c662be6f117d9cd",
+    "sha256_of": "original",
+    "working_copy": "1888_p065.jpeg"
+  },
+  "text": "— 55 —\n\nHaus-\nNr.\n\nRoggenhausen.\n851.* Gemeinde Aarau. Pächterhaus.\nFehlmann-Müller, Joh. Jakob, Pächter, von Münthal. Sommerwirthschaft.\nFehlmann-Schmidlin, Joh. Jakob, Landwirth, von Münthal.\n\nOberholz.\n852.+ Staat Aargau. Pulverhaus.\n\nWalthersburg.\n853.+ Walther=Schazmann, Gottlieb, Dekonom. Wachshaus.\n854.+ Derselbe. Escheune und Remije.\n855.+ Derselbe. Escheune.\n856. Derselbe. Wohnhaus.\n\nRain.\n857. a. Strebel=Küettschi, Eduard, Schreiner, von Büblikon.\nStrebel, Eduard, Vater, Schreinermeister, \"\nLieschti-Strebel, Karolina, Part., Wittwe, von Wittnau.\nWidmer, Justina, Part., von Tägerig.\n857. b.+ Derselbe. Schopfanbau.\n858. Haberfisch=Stöckli, Jakob, Zinsrodelverwalter, von Oberentfelden.\nHürbin-Heuberger, Ferdinand, Chef der Militärkanzlei, von Wegenstetten.\n859.* Schweiz. Centralbahn. Bahnwärterhaus.\nGruber-Lang, Meinrad, Bahnwärter, von Schönenwerd.\n860. Schweizer=Siebenmann, Fried. Ferd., Partik., von Dättwyl.\nSiebenmann, Friedrich, Weinhändlung.\nConrad-Vüthi, Peter, Fürspruch, Regierungsrath, von Auw.\n861.+ Derselbe. Holzhaus.\n862.* Schweizer=Siebenmann, Fried. Ferd., Part., von Dättwyl.\nSchweizer-Gubler, Nanette, Staatsarchivars Wittwe, von Dättwyl.\nWybler-Gubler, Paulina, Wittwe, Part.\nBührer-Gubler, Jakob, Kaufmann, von Bibern (Schaffhausen).\nDavid-Hunziker, Julie, Wittwe, Part., von Basel.\n863. Thut=Gidemann, Hermann, Ziegler, von Oberentfelden, mechanische\nZiegelei und Kalkbrennerei.\n864.+ Derselbe. Ziegelhütte.\n865.+ Gemeinde Aarau. Holzmagazin.\n866. Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\n867.+ Derselbe. Schopf.\n868.+ Derselbe. Schopf.\n869. Fahrländer-Siebenmann, Maria, Med. Drs. Wittwe.\nFahrländer-Johannes, Eugen, Ingenieur.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3691,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1688,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p065",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p065.jpeg",
+      "bytes": 240075,
+      "sha256": "3e9f6e9b8c14103077d49b5e583a08ed0e3b84aafe46f75b6c662be6f117d9cd",
+      "sha256_of": "original",
+      "working_copy": "1888_p065.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:22+00:00"
+  }
+}

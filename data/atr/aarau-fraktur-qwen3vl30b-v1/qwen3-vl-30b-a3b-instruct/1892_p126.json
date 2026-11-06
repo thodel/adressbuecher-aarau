@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p126",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p126.jpeg",
+    "bytes": 245976,
+    "sha256": "eeb39d24f57c50e0ab6cd844876f3e633abce30e47c7461e6ba218c4944ba75a",
+    "sha256_of": "original",
+    "working_copy": "1892_p126.jpeg"
+  },
+  "text": "110\nLindegger-Ayburz, Gottfried, Güterexpedient von Oberentfelden, Rain 880.\nLindt-Glas, Karol., Pfarrers Wittwe von Bern, Laurenzenvorstadt 410.\nLindt, Otto, Dr. phil., Apotheker von Bern, Rathausgasse 16.\nLips-Eger, Kaspar, Postkondutteur, v. Urdorf (Zürich), Entfelderstr. 967.\nLöschbrunner-Seiger, Adolf, Lokomotivführer von Laufenburg, Rain 885.\nLocher-Willi, Josef, Postkondutteur von Em's (Graubünden), Gais 1249.\nLorenz-Jaak, Joseph, Arzt von Klingnau, Graben 216.\nLüscher, Emma, Weißnäherin von Muhlen, Milchgasse 156.\nLüscher-Herzig, Elisabeth, Bäckers Wittwe, Part. v. Muhlen, Pelzg. 128.\nLüscher-Hilfster, Hans, Notar von Muhlen, Rain 829.\nLüscher, Jakob, Notar von Muhlen (Geschäftsbüro), Mezgergasse 56.\nLüscher, Louise, Part., hintere Vorstadt 647.\nLüscher-Lüscher, Jakob, Commis von Moosleerau, Zieglerain 715.\nLüscher-Schlatter, Susanna, Taglöhnerin von Muhlen, Schachen 745.\nLüscher-Umiker, Hermann, Mechaniker, Nähmaschinenhandlung, Bank-\nstraße 1146.\nLüscher-Wilser, Lisette, Part. von Aarburg, Bahnhofstrasse 1336.\nLüthi-Gamper, Samuel, Telegraphist, von Schöftland, Laurenzenthor-\ngasse 1118.\nLüthi-Ryburz, Frid, Sattler von Schöftland, Mezgergasse 117.\nLüthi-Kneubühler, Anna von Bieienbach (Bern), (Plazierungsbureau für\nweibliche Dienstboten), Kirchgasse 15.\nLüthi-Simmen, Alexander, Sattler von Schöftland, Tafinostraße 660.\nLüthi-Weibel, Jakob, Gerichtskanzlist von Holziken, Wirth zur Zunft-\nstube, Pelzgasse 129.\nLutz-Hagnauer, Johann, Kaufmann von Basel, Laurenzenvorstadt 602.\nMäder, Henriette, Modistin von Köln, Mezgergasse 101.\nMärk-Hofer, Karl, alt Armenhausverwalter, Entfelderstraße 983.\nMärk, Louise, Part. Adelbändli, 83.\nMärki-Umsler, Jakob, Küfer von Mandach, Milchgasse 161.\nMärki-Haller, Gottlieb, Mühlcnbauer von Mandach, Schönenwerder-\nstraße 1091.\nMärki-Schaffner, Jakob, Mühlcnbauer von Mandach, Rain 832.\nMaag-Wildi, Jakob, Hafner von Neunkirch (Schaffhausen), Pelzg. 134.\nMadon-Laufser, Viktor, Lokomotivführer von Unterstrak (Zürich), Laurenzen-\nvorstadt 552.\nMaier-Rychner, Kaspar, Professor, Entfelderstraße 981.\nMaier-Ganter, Konrad, Lohnkutscher, von Reisalpfingen (Großh. Baden),\nBachstraße 1040.\nMaier-Vogel, Thomas, Schuhmachermeister von Eigoldingen (Großh. Baden),\nSchuhhandlung, hintere Vorstadt 697.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6766,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2260,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:44:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p126",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p126.jpeg",
+      "bytes": 245976,
+      "sha256": "eeb39d24f57c50e0ab6cd844876f3e633abce30e47c7461e6ba218c4944ba75a",
+      "sha256_of": "original",
+      "working_copy": "1892_p126.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:13+00:00"
+  }
+}

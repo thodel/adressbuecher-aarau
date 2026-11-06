@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p139",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p139.jpeg",
+    "bytes": 289008,
+    "sha256": "3c35c85d749d207454d287e53bd3ed325d4301f568042ebda25820ad9af75132",
+    "sha256_of": "original",
+    "working_copy": "1888_p139.jpeg"
+  },
+  "text": "Wernli — Wildi. 121\n\nWernli-Siegrist, Ulrich, gewesener Maschinenputzer von Thalheim, obere\n  Vorstadt 944.\nWernli-Wächter, Johann, Bahnangestellter von Thalheim, Schachen 739.\nWernli-Wernli, Joh., Magaziner von Thalheim, hinter dem Bahnhof 494.\nWernli-Wernli, Joh. Gabriel, Taglöhner von Thalheim, Halden 284.\nWernli-Wernli, Rudolf, Cementarbeiter von Thalheim, Pelzgasse 126.\nWernli-Wullschleger, Ulrich, Holzspalter von Thalheim, Halden 264.\nWespi-Zurlinden, Karl, Hafnermeister, obere Vorstadt 966.\nWestfeld-Spizli, Wilhelm, Kaufmann von Unterschüpf (Baden), Rain 843.\nWettler-Schneider, Adolf, von Rheineck (St. Gallen), Gastwirth z. Ochsen,\n  Laurenzenthorgasse 115.\nWidmer-Eichenberger, Hermann, Küfer von Hausen, Laurenzenthorgasse 117.\nWidmer, Elisabeth, Spetterin von Gränichen, Rain 875.\nWidmer-Frühauf, Balthasar, Mechaniker von Bergdietikon, Halden 260.\nWidmer-Gamper, Fried., Postcommis v. Safenwyl, Gönhardsfeldweg 1241.\nWidmer, Jakob, Kutscher von Gränichen, Ziegelrain 703.\nWidmer, Justine, Partikular von Büblikon, Rain 857.\nWidmer, Karolina, Modistin von Freienwyl, vordere Vorstadt 893.\nWidmer, Marie, Modistin, id. id. id. id.\nWidmer-Peyer, Heinrich, Versicherungsagent v. Bergdietikon, Pelzgasse 63.\nWidmer-Rogg, Xaver, Knecht von Freienwyl, Pelzgasse 64.\nWidmer-Rohner, Franz Xaver, Obergerichtskanzlist von Schneisingen,\n  Kronengasse 38.\nWidmer-Rychner, Rudolf, Bäcker und Wirth, obere Vorstadt 927.\nWidmer-Schäfer, Camilla, Wittwe, Part. von Oberuzwyl (St. Gallen).\n  Rain 871.\nWidmer-Schaffner, Gustav, Gärtner von Hausen, Ziegelrain 700.\nWidmer, Verena, Taglöhnerin von Gränichen, Milchgasse 161.\nWidmer-Wütherich, Jakob, Webermeister, von Gränichen, Golattenmatt-\n  gasse 234.\nWidmer-Zehnder, Verena, Wittwe, Wäscherin v. Freienwyl, Igelweid 632.\nWidmer-Zehnder, Samuel, Negotiant und Kaffeewirth von Safenwyl,\n  Bahnhofstraße 1023.\nWiederkehr-Oschger, Viktoria, Wittwe, Wäscherin uud Glätterin von Zell\n  (Luzern), Milchgasse 152.\nWieland-Wieland, Hermine, Wittwe, Part., von Rheinfelden, Entfelder-\n  straße 983.\nWietlisbach-Frey, Sophie, Oberförsters Wittwe von Bremgarten, Lauren-\n  zenvorstadt 394.\nWietlisbach-Walther, Joseph, Burkardt, Postcommis von Wohlen, vor\n  dem Haldenthor 772.\nWildi-Aschbach, Emil, Schreiner von Suhr, hinter dem Platz 210.\nWildi, Adolf, Part., von Veltheim, obere Vorstadt 937.\nWildi, Julie, Part., id. id. id. id.\nWildi-Hegnauer, Friedrich, Postcommis von Reinach, obere Vorstadt 925.\nWildi-Hilsiker, Gottfried, Pierriste von Schafisheim, Milchgasse 150.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9294,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2517,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:39:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p139",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p139.jpeg",
+      "bytes": 289008,
+      "sha256": "3c35c85d749d207454d287e53bd3ed325d4301f568042ebda25820ad9af75132",
+      "sha256_of": "original",
+      "working_copy": "1888_p139.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:36+00:00"
+  }
+}

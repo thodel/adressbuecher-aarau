@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p073",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p073.jpeg",
+    "bytes": 232415,
+    "sha256": "1a5b818d7c9063414ef1774f145b87c85f213716420e0ba79301c858a31af884",
+    "sha256_of": "original",
+    "working_copy": "1888_p073.jpeg"
+  },
+  "text": "— 63 —\n\nHaus-\nNr.\nGönhardſeldweg.\n\n1145 Keller-Fehlmann, Johann, Oekonom, von Hottwyl.\n  Ott geb. Keller, Verena, Wittwe, Part., von Aarburg.\n  Kern-Hofer, Johann, Sekretär des Eidgen. Waffenchefs der Cavallerie,\n    von Kölliken.\n1150 Umiker-Hürlimann, Samuel, Ausläufer, von Thalheim.\n  Bußlinger-Kienberger, Siegfried, Postcommis, von Dätwyl.\n1241 Widmer-Gamper, Friedrich, Postcommis, von Safenwyl.\n  Christoffel-Martin, Huldreich, Bezirksschullehrer, von Scheid (Graubünden).\n\nHohlweg.\n\n984.† Gemeinde Aarau. Brunnenhaus.\n\nEntfelderstraße.\n\n985.† Nieding, Heinrich, Zimmermeister, von Märstetten. Schopf.\n986. Abgetragen, an dessen Platz\n1171 † Siebenmann, Friedrich, Bierbrauer. Bierkeller.\n987.† Gemeinde Aarau. Brunnenhaus.\n\nConradstraße.\n\n988. Abgetragen, an dessen Platz\n1255 Hagnauer-Zimmermann, Albert, Kaufmann.\n989. Hagnauer-Wildberger, Barbara, Wittwe, Part.\n  Amsler-Harsch, Emil, Oberrichter, von Schinznach.\n990. Rothpletz-Waldkirch, Julius, Malermeister.\n991.† Derselbe. Holzhaus.\n992. Schäfer, Ida, Postkontroleurs, Part.\n  Schürch, Adolf, Fabrikant, von Büren zum Hof (Bern).\n993. Wehrli-Herzog, Rudolf, Geschäftsführer der Allg. Aarg. Ersparniß-\n    kasse, von Küttigen.\n  Rohr-Reiner, Hans, Staatsanwaltssubstitut, von Lenzburg.\n994.† Derselbe. Gartenhaus.\n\nZschokkestraße.\n\n995. Zschokke-Sauerländer, Guido, Buchhändler. Meteorologische Station.\n1198 † Derselbe. Bienenhaus.\n996. Fischer-Schmidlin, Bertha, Part.\n  Schmidlin, Elise, Part.\n  Wydler-Fischer, Heinrich, Bezirkslehrer, von Affoltern a./A. (Zürich).\n997.† Dieselbe. Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6719,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1561,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:31:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p073",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p073.jpeg",
+      "bytes": 232415,
+      "sha256": "1a5b818d7c9063414ef1774f145b87c85f213716420e0ba79301c858a31af884",
+      "sha256_of": "original",
+      "working_copy": "1888_p073.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:31:35+00:00"
+  }
+}

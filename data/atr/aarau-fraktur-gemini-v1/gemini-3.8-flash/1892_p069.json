@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p069",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p069.jpeg",
+    "bytes": 226818,
+    "sha256": "9d21eaf5598983b612d9f82fe800007e69c946e7a4a70ea2e05a6beb2c11514c",
+    "sha256_of": "original",
+    "working_copy": "1892_p069.jpeg"
+  },
+  "text": "— 61 —\n\nHaus=\nNr.\n879. * Derselbe. Hinterhaus.\n  Steininger, geb. Urech, Agnes, Wittwe, Part.\n880. Lindegger-Kyburz, Gottfried, Bahnbeamter, von Oberentfelden.\n  Baumann-Leutwyler, Johann, Taglöhner, von Bottenwyl.\n  Hunn-Gfell, Katharina, Wittwe, von Egliswyl.\n881. * Armengut der Gemeinde Aarau. Wohnhaus.\n  Buser, Johann Jakob, Buchbinder.\n  Kämisperger-Studler, Gottlieb, Spengler.\n  Nußbaum, Anna Johanna, Haushälterin, von Birrwyl.\n882. † Staat Aargau. Antiquarium.\n883. Rohr-Hochstraßer, Rudolf, Schmied.\n  Freihofer-Rusterholz, Jakob, Bildhauer, von Veltheim (Zürich).\n884. Bopp-Häusler, Kaspar, Pflästerer, von Remigen.\n  Frey-Hofer, Jakob, Lokomotivheizer, von Auenstein.\n  Seiler-Otonnie, Albin, Gepäckträger, von Mägenwyl.\n885. Rusterholz und *Freihofer, Bildhauerei und Grabsteinlager.\n  Rusterholz-Schäppi, Albert, Bildhauer, von Wädenswyl (Zürich).\n  Sennhauser-Gossewisch, Amalie, Modistin, von Herrliberg (Zürich).\n  Rebmann-Häfliger, Karl Jakob, Maler, von Fellbach (Württemberg).\n  Lochbrunner-Geiger, Adolf, Lokomotivführer, von Laufenburg.\n886. † Dieselben. Magazin.\n887. †  „  Bildhauerei-Atelier.\n888. Berner-Marti, Jakob, Schreinermeister von Rupperswyl.\n  Läuchli-Coradi, Hans, Buchhalter, von Remigen.\n  Vonwiller, Emilie, Klavierlehrerin, von St. Gallen.\n\nVordere Vorstadt.\n\n889. Saxer-Pfleger, Ludwig, Part.\n  Saxer, Elise, Partik.\n  Dreifuß-Bloch, Karl, Kaufmann. Manufakturwaarenhandlung.\n  Schmid-Suter, Johann, in Zofingen. (Pariser Bazar.)\n  Trüeb-Müller, August, Lithographiebesitzer, von Dübendorf (Zürich).\n890 * Buser, Friedrich, Parts. Erbschaft.\n  Ackermann-Buser, Albert, Kaufmann, von Amrisweil (Thurgau). Herren-\n    und Knabenkleider-Magazin.\n891. * Buser, Friedrich, Parts. Erbschaft.\n892. Dolder, Susette, von Hauptweil (Thurgau). Mercerie-, Bonneterie-\n    und Modewaarenhandlung.\n893. Sernatinger-Enz, Valerian, von Ludwigshafen (Baden). Hut-,\n    Mützen- und Pelzwaarengeschäft. Kautschoucartikel und Filzwaaren.\n  Camisasca, Franz, Kaufmann, Part.\n894. Keusch-Diebold, Jos. Karl, Apotheker, von Boswyl.\n  Brütel, Constance, Part.\n  Widmer, Karolina, Modistin, von Freienwyl.\n  Widmer, Marie. Modistin, von Freienwyl.\n1288  † Derselbe. Schopf.\n895. Gysi & Co. (Otto Gysi-Siebenmann und Hans Gysi) mechanisches\n    und optisches Geschäft, Photographieanstalt.\n  Gysi-Siebenmann, Otto, Photograph.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7879,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2343,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:52:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p069",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p069.jpeg",
+      "bytes": 226818,
+      "sha256": "9d21eaf5598983b612d9f82fe800007e69c946e7a4a70ea2e05a6beb2c11514c",
+      "sha256_of": "original",
+      "working_copy": "1892_p069.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:52:56+00:00"
+  }
+}

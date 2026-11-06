@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p074",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p074.jpeg",
+    "bytes": 205575,
+    "sha256": "8fe1b421038fc9ef209e42dc47363fce23afc431a25604789d8b04e74742b8c3",
+    "sha256_of": "original",
+    "working_copy": "1892_p074.jpeg"
+  },
+  "text": "— 66 —\n\nHaus-\nNr.\n966. Wespi-Zurlinden, Karl, Hafner.\n  Rauch-Baldeschwyler, Bertha, Part., von Mülhausen (Elsaß).\n  Baldeschwyler, Mathilde, Part., von Laufenburg.\n1281 † Derselbe. Materialschuppen.\n967. Lips-Sager, Kaspar, Postkondukteur, von Urdorf (Zürich).\n  Strähl-Wiser, Emilie, Pfarrers Wittwe, von Zofingen.\n968. Kyburz-Häfliger, Gotthold, Sattler und Tapezierer, von Entfelden.\n969. Käppeli-Müller, Gottlieb, Dr. jur., Reg.-Rath.\n970. Schmuziger-Freudiger, Traugott, Maler.\n  Ammann-Strähl, Robert, Hochbaumeister, von Menziken.\n  Bertschi, Jakob August, Sekretär, von Dürrenäsch.\n971. † Derselbe. Werkstätte.\n972. Schmuziger-von Grigoroff, Friedrich, med. Dr., Arzt.\n1177 † Derselbe. Bienenhaus.\n973. Schindler-Trümpi, Emma, Fabrikants Wittwe, von Mollis (Glarus).\n1134 † Dieselbe. Holzremise.\n1075 Brentano-Bruggisser, Max, Zahnarzt, von Laufenburg.\n  Zschokke-Bodmer, Hermann, Agent.\n\nZschokkestraße.\n\n974. Stern-Zäslin, Alexander, Pfarrer, von Basel, Prediger an der\n    Evangel. Kapelle.\n  Meyer, Egeria, Part., von Baden.\n975. Ehrsam-Andres, Daniel, Postbeamter.\n  Zschokke-Schmuziger, Arnold, Dr. Jur., Staatsschreiber.\n976. a. Stern-Zäslin, Alexander, Pfarrer. (Holzhaus.)\n976. b. Ehrsam-Andres, Daniel, Postbeamter. (Holzhaus.)\n977. Stigeler-Schaub, Joseph, Zeughausdirektor, von Reckingen.\n  Frey-Schindler, Max, Chokoladefabrikant.\n\nGartenstraße.\n\n978. † Pfisterer-Rohr, Robert, Bierbrauer. Eiskeller.\n1199 † Derselbe. Schopf.\n1216 † „ Eiskeller.\n\nEntfelderstraße.\n\n979. Thut-Lauser, Rudolf, Privat, von Oberentfelden.\n  Fisch-Thut, Adolf, Weinhändler.\n980. † Derselbe. Scheune.\n981. Maier-Rychner, Kaspar, Professor an der Kantonsschule.\n  Rychner-Henz, Henriette, Part.\n  Zucchelli, Giovanni, Ingenieur, von Rom.\n982. † Derselbe. Holz- und Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6394,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1773,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:53:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p074",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p074.jpeg",
+      "bytes": 205575,
+      "sha256": "8fe1b421038fc9ef209e42dc47363fce23afc431a25604789d8b04e74742b8c3",
+      "sha256_of": "original",
+      "working_copy": "1892_p074.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:53:36+00:00"
+  }
+}

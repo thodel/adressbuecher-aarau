@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p142",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p142.jpeg",
+    "bytes": 259813,
+    "sha256": "d6de1b2c30d4d0389b2224c4a0645e12c511a66d8581dc92bc697ef1719c961f",
+    "sha256_of": "original",
+    "working_copy": "1892_p142.jpeg"
+  },
+  "text": "126 Spengler — Steiner.\nSpengler-Lienhard, Louise, Meckers Wittwe, Bahnhofstrasse 563.\n*Spengler-Thönnen, Maria Magdalena, Wittwe, Part., ob. Vorstadt 1116.\nSpillmann, Johann Jakob, Spengler, von Hebingen (Zürich), obere\nVorstadt 941.\n*Spinner-Billo, Johann Jakob, Caminoneur, Wohnung Bachstrasse 1154,\nBureau Bahnhofstrasse 537.\nSpirgi-Hochstraker, Samuel, von Unterfultum, Rohrerstrasse 463.\nSpirgi-Kramer, Rudolf, Fabrikarbeiter von Unterfultum, Telli 440.\nSpirgi-Spirgi, Friedrich, Posamenter von Unterfultum, Halden 287.\nSpörrri-Räser, Elise, Schneiderin von Bäretschwil, Abelbändli 170.\nSpühler-Frey, Johann Jakob, Verleger und Redaktor der „Aargauer\nNachrichten“ von Neckingen, hintere Vorstadt 622.\nStäbli, Gottlieb Wilhelm, Part., Gais 482.\nStäbli, Henriette Adele, Privatin von Brugg, Laurenenzvorstadt 412.\nStäbli, Jda, Haushälterin von Brugg, hintere Vorstadt 620.\n*Stäbli, Sophie, Part., Dr's. von Brugg, Gais 482.\nStäheli-Grenacher, Jakob, Fabrikarbeiter von Egliswyl, Telli 440.\n*Stähelin-Herzog, Alfred, Dr. med. von Basel, j. d. A. (Kirchg.) 1086.\n*Stänz-Suter, Louise, Ingenieurs Wittwe, Bachstrasse 1107.\n*Stäubli, Niklaus, Direktionssekretär von Sulz, Laurenenzvorstadt 403.\n*Stacher-Brunner, Gustav, Seminarlehrer v. Egnach (Thurgau), Pelzg. 128.\n*Stahel-Crufz, Johann, Kaufmann und Wirth, Graben 1161.\nStapfer-Jefenmeier, Johann, Schuhmachermeister von Sarmenstorf, Rath-\nhausgasse 31.\nStaub, Jakob Bernhard, Wagenkontroleur v. Dübendorf, Bahnhofst. 607.\nStaub, Johann, Maschinenreiniger v. Dübendorf (Zürich) Bahnhofst. 607.\nStaub-Kübler, Hans Jakob, Nachtwächter (Bahnhof) von Dübendorf (Zürich),\nBahnhofstrasse 607.\nStauber, Emil, Bankangestellter von Bezwill, vordere Vorstadt 682.\nStauber-Pagan, Jakob, Notar und Amtsrevisor, obere Vorstadt 927.\nStauffer, Albert, Bankangestellter von Hallwyl, Laurenenzvorstadt 544.\nSteffen, Albert, Kordmacher von Kloten, Korb- Bürsten- und Schirm-\nhandlung, Bahnhofstrasse 1074.\nSteger-Bolliger, Melchior, Väcker von Ettiswyl (Luzern), Mezgergasse 100.\nSteiger-Detterli, Gottlieb, Kaminfeger von Bleienbach (Bern), vor dem\nHaldenthor 803.\nSteiner-Dürr, Jakob, Postkondukteur von Oberengstringen (Zürich), Lau-\nrenzenthorgasse 117.\nSteiner-Haller, Johann, Taglöhnervon Schmiedrued, v. d. Haldenth. 1084.\nSteiner-Haller, Mina, Wittwe, Taglöhnern von Rein, Laurenenzvorst. 376.\nSteiner-Haller, Marie, Taglöhnern von Gontenschyl, Halden 272.\nSteiner, Hermann, Bahngangestellter von Gontenschyl, Halden 272.\nSteiner, Johann, Part. Rain 878.\nSteiner-Künzi, Erwin, Steindrucker v. Gontenschyl, v. d. Haldenth. 800.\nSteiner-Lindenmann, Susanna, Wittwe, Part., Rain 878.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7122,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2624,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 56.07,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:45:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p142",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p142.jpeg",
+      "bytes": 259813,
+      "sha256": "d6de1b2c30d4d0389b2224c4a0645e12c511a66d8581dc92bc697ef1719c961f",
+      "sha256_of": "original",
+      "working_copy": "1892_p142.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:56+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p020",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p020.jpeg",
+    "bytes": 218795,
+    "sha256": "9e14bd05e5bdb79b88d4ebba382d54f7dd116277c305c1bb3356b19f81c9fb63",
+    "sha256_of": "original",
+    "working_copy": "1892_p020.jpeg"
+  },
+  "text": "— 12 —\nHaus=\nNr.\n129. * Siebenmann = Hagnauer, Friedrich, Bierbrauer, Stadtrath (Wirth=\n    schaft zur Zunftstube).\n  Lüthi-Weibel, Jakob, Gerichtskanzlist von Holziken (Wirth zur Zunftstube).\n  Lenzi-Fischer, Albert, Kontroleur auf der Arg. Ersparnißkasse, von Zuzgen.\n  Stutz-Rothenfluh, Johanna, Wittwe, Part., von Schongau. (Luzern.)\n130.  Bell = Marti, Joseph Anton, Kaufmann, Passementerie=, Mercerie=,\n    Droguen= und Spezereiwaaren-Handlung.\n  Marti geb. Kull, Susanna, Wittwe, Part.\n  Marti, Lina, Damenschneiderin.\n  Geißmann, Xaver, Kanzlist, von Hägglingen.\n131. * Rüetschi, Gottlieb, Part., in Suhr.\n  Rüetschi-Schneider, Max, Bäckermeister.\n  Rüetschi-Nüsperli, Fried., Buchhalter.\n  Rüetschi, Bertha, Damenschneiderin.\n132. * Willimann = Wehrli, Maria, von Oberhof.\n  Dürr-Hofer, Emil, Gemüsehändler.\n  Rohr-Blauenstein, Maria Anna, Wittwe, von Hunzenschwyl.\n  Müller, Marie, Zimmermanns, Part., von Oberbozberg.\n133.  Suter = Iberg, Albert, Schneidermeister, von Kölliken.\n134.  Haßler = Bircher, Paul, Kupferschmied. Kupferwaarenhandlung.\n  Bircher, Jakob, Part., von Küttigen.\n  Delhasen geb. Hagnauer, Johanna, Wittwe, Part.\n  Maag-Wildi, Jakob, Hafner von Neunkirch (Schaffhausen).\n135.  Schatzmann = Läuchli, Samuel, Buchbinder, von Windisch. Buchbinderei\n    und Schreibmaterialienhandlung.\n  Häfeli-Fischer, Julie, Expedients Wittwe, Näherin, von Seengen.\n136.  Häfliger = Hilsiker, Otto, Metzger und Wirth, von Oberentfelden.\n  Wüthrich, Gottlieb, Zuckerbeckgehilfe (Chokoladesabrik), von Eggiwyl (Bern).\n137.  Waßmer = Kummler, Emil, Kaufmann, Spezereihandlung zum Adler.\n  Kummler geb. Frey, Auguste, Part.\n  Kummler, Hermann, Elektrotechniker.\n\nOberthor.\n\n138.  Wirz = Christen, Karoline, Wittwe, von Solothurn, Schreibmaterialien=\n    Handlung.\n  Baldinger geb. Wirz, Josephine, Ladenvorsteherin, von Baden.\n139.  Wirz = Martin, Emil, von Solothurn. (Vormals J. J. Christen.)\n    Sortimentsbuchhandlung, Verlagsbuchhandlung, Buchdruckerei und\n    Buchbinderei.\n140.  Mattenberger = Walther, Jakob, Metzger, von Birr. Metzgerei und\n    Wursterei.\n  Baumann-Bhend, Gottlieb, Schneider, von Schafisheim.\n\nMilchgasse.\n\n141. * Mattenberger = Walther, Jakob, Metzger von Birr.\n  Rüetschi, Karl, Coiffeur (Coiffeurgeschäft).\n  Rüetschi, Ludwig, Kanzlist.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8916,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2276,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.81,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:46:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p020",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p020.jpeg",
+      "bytes": 218795,
+      "sha256": "9e14bd05e5bdb79b88d4ebba382d54f7dd116277c305c1bb3356b19f81c9fb63",
+      "sha256_of": "original",
+      "working_copy": "1892_p020.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:53+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p071",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p071.jpeg",
+    "bytes": 215046,
+    "sha256": "c6606ff07375c3cbd695dc33506e75895635c465d03f05a0750040a278bc696a",
+    "sha256_of": "original",
+    "working_copy": "1892_p071.jpeg"
+  },
+  "text": "Haus-\nNr.\nMüller, Elise, Glätterin, von Biberstein.\nHunziker-Sandmeier, Frig., Drechsler.\nWerder-Müller, Emil, Eisenbahnpfandhauer, von Endingen.\n922. Siegrist-Lindemann, Johann, Schuhmacher, von Meisterschwanden.\nColonialwaarenhandlung.\nWithrich-Bartlome, Alexander, Küfer, von Trub (Bern).\n923. Ernst-Käfer, Friedrich, Röhrenfabrikant.\nFischer-Niggli, Eina, Wittwe, Part., von Reinach.\nSiebenmann, Emmy, Klavierlehrerin.\n924. † Derfelbe. Magazin.\n925. † Siebenmann, Gottlieb, Gerber. (Alte Post.)\nKistler-Kull, Jakob, Steuerpräsident, von Bözen.\nWidli-Hegnauer, Fried., Postbeamter, von Reinach.\nEthnologisches Gewerbemuseum der mittelschweizerischen geographisch-\ncommerciellen Gesellschaft.\n926. Randegger-Wirth, Josephtine, Wittwe, von Ossingen (Zürich). Bazy-\nrische Bierhalle.\nBallmer, Marie, Wäscherin und Glätterin, von Laufen (Baselland).\nBallmer, Karolina, Wäscherin und Glätterin, von Laufen (Baselland).\n927. Widmer-Rychner, Rudolf, Väder, von Gränichen. Pintenwirthschaft.\nStauber-Pagan, Jakob, Notar, Amtsrevijor.\n928. Brunner-Umiker, Jakob, Regt.\nUmiker-Wernli, Elisabeth, Part., von Thalheim.\n929. * Derfelbe. Wohnhaus.\nFrei-Hochuli, Rudolf, Commis (Schiefer) von Gontenschwyl.\nNüetschi-Christen, Elise, Wittwe, Part.\nAeichmann, Johann, Conditor, (Chocoladfabrik) von Altstetten (Zürich).\nStreit-Hegnauer, Mina, Part., von Zimmerwald, (Bern).\n930. * Ernst-Merian, Augusts, Parts., Erbschaft.\nWidli-Welpi, Adele, Wittwe, von Beltheim.\nMarfurt, Franz Xaver, Coiffeur, von Langnau (Luzern).\nLeu-Zimmermann, Jakob, Obergerichtskanzlist, von Birrenlauf.\nBidiella Manuel & Frey, Friedrich, Weinhandlung. (Bureau.)\n931. Abgetragen, an dessen Platz\nRychner-Renz, Rosa, Part.\nRychner-Carli, Carl Christian, Röhrenfabrikant.\nRychner-Spengler, Ferdinand, Cementfabrikant.\nRychner, Frig., Pianist.\nSchneider-Rychner, Gustav, Dr. Fürisprech, Oberrichter.\nSpengler-Thönnen, Maria Magdalena, Wittwe, Part.\n932. Abgetragen.\n1117\nBachstraße.\n933. † Gyfi & Co. (Otto Gyfi-Siebenmann und Hans Gyfi.) (Fabrik-\ngebäude.)\n934. † Gemeinde Aarau. Springenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4156,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2053,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p071",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p071.jpeg",
+      "bytes": 215046,
+      "sha256": "c6606ff07375c3cbd695dc33506e75895635c465d03f05a0750040a278bc696a",
+      "sha256_of": "original",
+      "working_copy": "1892_p071.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:20+00:00"
+  }
+}

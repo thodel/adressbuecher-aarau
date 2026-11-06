@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p015",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p015.jpeg",
+    "bytes": 252824,
+    "sha256": "816cd5abbb588c1fb339051566b5fefe162598469ce3bb4742d1bbe48df23d4b",
+    "sha256_of": "original",
+    "working_copy": "1888_p015.jpeg"
+  },
+  "text": "— 5 —\n\nHaus=\nNr.\n41.  Faller geb. Faller, Elise Louise, Wittwe, von Raitenbuch, Großh. Baden,\n        Firma Gebr. Faller, Militärartikel, Eisen= und Quincailleriewaaren=\n        Handlung.\n  Faller, Karl Friedrich, Sohn, Kaufmann, von Raitenbuch, Großh. Baden.\n\nRathhausgasse.\n\n42.  Härdi, Wilhelm, Goldschmied, von Lenzburg, Gold= und Silberwaaren=\n        Handlung.\n  Kirchner=Vonwiller, Ida, Modistin, von Merseburg (Preußen), Mode=\n        waarengeschäft.\n  Hugi, Maria, Coiffeuse, von Selzach (Solothurn).\n  Vonwiller, Emilie, Klavierlehrerin, von St. Gallen.\n43.  Hofer=Schaffner, Gottlieb, Kaufmann, Spezerei= und Ellenwaaren=\n        handlung.\n44.  Wernli=Blauer, Andreas, Schuhmachermeister, von Thalheim. Schuh=\n        handlung.\n  Eisi, Lisette, Modelstechers, Part.\n  Gottschalk, Amalie, Modistin.\n45.  Fehlmann=Brack, Kaspar, Bäcker.\n  Mösch=Mösch, Karl, Güterexpedient, von Frick.\n  Guggenheim=Guggenheim, Rosa, Wittwe, Part., von Lengnau.\n  Guggenheim, Fanny, Schneiderin, von Lengnau.\n  Stigeler=Glätti, Jakob, Zimmermann, von Eglisau (Zürich).\n  Hirt geb. Wehrli, Elisabeth, Wittwe, Spetterin, von Zezwyl.\n  Wütherich=Stirnemann, Jakob, Camioneur, von Eggiwyl (Bern).\n  Roth=Sahli, Samuel, Hausknecht, von Zezwyl.\n46.  Hässig=Lienhard, Hermann, Bäcker und Pintenwirth.\n  Hagenbuch=Hagenbuch, August, Sekretär.\n47. * Hässig=Lienhard, Hermann, Bäcker und Pintenwirth.\n  Frei, Albert, von Densbüren, Uhrenmachereigeschäft.\n  Meißner=Baumgardt, Karl, Steindrucker, von Großglogau (Schlesien).\n  Hässig, Elise und Rosette, Glätterinnen.\n  Hässig=Straubhaar, Gottlieb, Feinschleifer.\n48.  Seiler=Hanhart, Andreas, Bäckermeister.\n49. * Gamper & Cie. (Antheilhaber: Müller=Haberstich, Fr., Gamper=Zürcher,\n        Hermann, und Gamper=Baumann, Emil.) Lager in Herren= und\n        Damen=Kleiderstoffen, Damen=Confection, Anfertigung von Herren=\n        kleidern nach Maß.\n\nZollrain.\n\n50. * Dieselben. Magazin.\n51.  Ehrsam=Landolt, Jakobs, Part’s. Erbschaft.\n  Ehrsam, Johanna, Jakobs, Bäckers sel. Wittwe, Part.\n  Rohner, Emil, Bäcker und Pintenwirth.\n  Rohner geb. Ehrsam, Elise, Arzts Wittwe, Part.\n  Wehrli=Bolliger, Karl, Gasmeister, von Küttigen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8239,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2157,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0426,
+    "mean_line_chars": 42.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:24:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p015",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p015.jpeg",
+      "bytes": 252824,
+      "sha256": "816cd5abbb588c1fb339051566b5fefe162598469ce3bb4742d1bbe48df23d4b",
+      "sha256_of": "original",
+      "working_copy": "1888_p015.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:21+00:00"
+  }
+}

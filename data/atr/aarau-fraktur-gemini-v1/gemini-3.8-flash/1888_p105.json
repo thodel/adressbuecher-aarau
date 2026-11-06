@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p105",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p105.jpeg",
+    "bytes": 294648,
+    "sha256": "d3e06f29fe87333efe3f71d90e15b4060d891dafda059457086f7c15325a6fd9",
+    "sha256_of": "original",
+    "working_copy": "1888_p105.jpeg"
+  },
+  "text": "Freihofer — Gautschi. 87\n\n* Freihofer-Rusterholz, Jak., Bildhauer v. Veltheim (Zürich), Ziegelrain 716.\n  Fricker, Franziska, Haushälterin von Oberhof, Halden 247.\n  Fricker-Häusermann, Rudolf, Wagner von Veltheim, Ziegelrain 745.\n  Fricker-Hiltpold, Samuel, Bahnmeister v. Veltheim, hinter d. Bahnhof 501.\n  Fricker, Joseph, Commis von Oberhof, Halden 247.\n  Fricker-Kienberger, Johann, Postbeamter, Rain 838.\n  Fricker-Leder, Jakob, Bankabwart von Obersflachs, vor dem Haldenthor 768.\n  Fricker-Reimann, Joseph, Polizeidiener von Wölflinswyl, Halden 281.\n  Frieden-Kramer, Agatha, Näherin von Seedorf (Bern), Halden 264.\n* Friker-Wirz, Friedrich, Spezereihandlung, von Hunzenschwyl, vordere\n    Vorstadt 669.\n* Frikker-Siebenmann, Othmar, Sekretär von Frick, Rathhausgasse 22.\n  Fritsch-Durrer, Franz, Schneider von Gaggenau (Baden), Kirchhof 164.\n* Fröhlich-Fröhlich, Sophie, Oberrichters Wittwe, Part. von Brugg, Zoll-\n    rain 88.\n* Fröhlich-Stelzer, Franz, Dr., Professor von Brugg, Rain 831.\n* Frymann-Käser, Gottfried, Part., im Hammer 188.\n  Fuchs, Maria, Part. von Remigen, Kirchgasse 8 a.\n  Furrer-Notter, Erhard, Schneider von Bolken (Solothurn), Rathhaus-\n    gasse 4.\n  Furter-Haller, Hans, Gepäckexpedient von Lenzburg, Bahnhofstraße 519.\n  Furter-Rohr, Anna, Wittwe, Taglöhnerin von Staufen, Milchgasse 149.\n  Furter-Rüegger, Fried., Bahnmeister von Staufen, Casinostraße 1130.\n\nGäng-Engelberger, Bernhardine, Part. von Laufenburg, Graben 618.\n  Gänslen-Koch, Louise, Wirthin von Starrkirch (Solothurn), obere\n    Vorstadt 912.\n* Gänslen-Landolt, Karl, Buchhalter von Biberstein, obere Vorstadt 949.\n  Gänslen-Meier, Adolf, Bäcker von Biberstein, obere Vorstadt 913.\n  Gagg-Peter, Konrad, Maurer v. Kreuzlingen (Thurgau), Pelzgasse 135.\n  Gamper-Andres, Rosina, Kaufmanns Wittwe, Part., jenseits d. Aare 307.\n* Gamper-Baumann, Emil, March. Tailleur, Wohnung Bahnhofstraße 1074.\n  Gamper-Haßler, Karolina, Bäckers Wittwe, Metzgergasse 108.\n  Gamper-Steffen, Marie, Metzgers Wittwe, Laurenzenthorgasse 117.\n* Gamper-Wildi, Adolf, Metzger, Metzgergasse 108.\n* Gamper-Zürcher, Hermann, Kaufmann, Wohnung Zollrain 293.\n  Gampp-Spreuer, Philipp, Aufseher v. Hornussen, Scheibenschachen 312.\n* Ganter-Schilling, Heinrich, Professor von Neustadt (Großh. Baden),\n    Erlinsbacherstraße 336.\n  Gantner-Fuchs, Elise, Näherin von Grabs (St. Gallen), Kirchgasse 8 a.\n  Gantner-Richner, Mathias, Oekonom, Schloßplatz 197.\n* Garonne-Pfleger, Anna, Pfarrers Wittwe, Bachstraße 1047.\n* Gasser-Fendrich, Emanuel, Fabrikant von Hallau (Schaffhausen), jen-\n    seits der Aare 294.\n  Gautschi-Hauri, Johann, Taglöhner von Reinach, Halden 281.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8485,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2637,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:34:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p105",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p105.jpeg",
+      "bytes": 294648,
+      "sha256": "d3e06f29fe87333efe3f71d90e15b4060d891dafda059457086f7c15325a6fd9",
+      "sha256_of": "original",
+      "working_copy": "1888_p105.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:51+00:00"
+  }
+}

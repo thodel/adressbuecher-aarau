@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p072",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p072.jpeg",
+    "bytes": 225205,
+    "sha256": "01194a7b615cf4acf9f6aab11acfefef1c7200bbd7872be699151d4942cb6e0f",
+    "sha256_of": "original",
+    "working_copy": "1892_p072.jpeg"
+  },
+  "text": "64\nHaus-\nNr.\nObere Vorstadt.\n935. Schmidt-Lanz, Adolf, Kaufmann. Inspektor der französischen\nLebensversicherungsgesellschaft „Le Soleil“ Paris. Geschirr- und\nGlaswaarenhandlung.\nMüller-Hurni, Marie, Wittwe, Part.\nBürgi-Burkhard, Anna, Wittwe, Part., von Erlinsbach.\n936. † Derselbe. Glasmirrthlen.\n937. Berchtold-Glaus, Jakob, Schuhmacher, von Schmiedrued. Schuhhandlung.\nWälti-Maurer, Rudolf, Schneider, von Unterkulm.\nWildi, Adolf, Part., von Veltheim.\nGyger geb. Wildi, Rosina, Malers' Wittwe, Part., von Aichheim\n(Württemberg).\nHaller-Meyer, Gottlieb, Bäder, von Reinach.\nBerner, Gottlieb, Dienstmann, von Unterkulm.\n938. * Siebenmann, Friedrich, Bierbrauer, in Yarau und Gyji, Gottlieb,\nBezirksrichters Erschaft, in Buchs.\nHaberlich-Schuurmann, Bertha, Schulinspektor's Wittwe.\nHaberlich, Eina, Lehrerin.\n939. * Dießen, Wohnhaus.\n940. Wildi, Karl, Part.\nMeier-Matter, Jakob, Zimmermann, von Dintiken.\nImhof-Schmid, Karolina, Wittwe, Part.\nRäf-Eichenberger, Edwin, Lokomotivführer, von Meilen (Zürich).\nMüller, Albert, Gärtner (Zschokke, Konradin), von Flawyl (St. Gallen).\n941. Huber-Renz, Thuznelda, Spenglers Wittwe. Spengler- u. Metall-\nwaarenhandlung.\nSpillmann, Joh. Jakob, Geschäftsführer, von Hedingen (Zürich).\n942. Gyfi-Anderegg, Emil, Malermeister.\nGyfi, Otto Robert, Postcommis.\n943. † Derselbe. Werkstätte.\n944. Hemmeler-Scheibler, Verena, Haufners Wittwe. Geschirr- und\nGlaswaarenhandlung.\nJoos geb. Scheibler, Anna Elisabeth, Wittwe, Part., von Gallmanns-\nweil (Baden).\nWernli-Siegrist, Anna, Wittwe, Part., von Thalheim.\n945. † Ernst-Käfer, Friedrich.\n946. Aeschbach, Fried., Schriftsetzer, von Oltingen (Baselland).\nUmiker, Jakob, Part., von Thalheim.\nUmiker-Steiner, Samuel, Knecht, von Thalheim.\n947. * Derselbe. Wohnhaus.\nMüller-Frei, Samuel, Maschinenpuger, von Unterkulm.\nBertschi-Jakob, Jakob, Sekretär, von Dürrenäsch.\nSager-Wildi, Jakob, Brenner, von Gränichen.\nGüntert, Leo, Bremser, von Mumpf.\n948. Dr. Blattner-Jäger, Otto, Fürsprech und Notar. (Advokatur- und\nNotariats-Bureau).\nNiggli-Wohnenblust, Arnold, Fürsprech und Stadtschreiber.\nHolzinger-Snell, Christina, Professors Wittwe, von Baselaugst.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4622,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2132,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0196,
+    "mean_line_chars": 40.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p072",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p072.jpeg",
+      "bytes": 225205,
+      "sha256": "01194a7b615cf4acf9f6aab11acfefef1c7200bbd7872be699151d4942cb6e0f",
+      "sha256_of": "original",
+      "working_copy": "1892_p072.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:25+00:00"
+  }
+}

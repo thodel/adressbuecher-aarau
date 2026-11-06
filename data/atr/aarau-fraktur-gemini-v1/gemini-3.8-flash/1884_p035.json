@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p035.jpeg",
+    "bytes": 317464,
+    "sha256": "e062decae5812ced79e08991638468fbf75db13dc5bde7ec042a91fbb1c82b25",
+    "sha256_of": "original",
+    "working_copy": "1884_p035.jpeg"
+  },
+  "text": "Käser. — Kielholz. 31\n\nKäser-Möri, Jakob, Taglöhner, von Oberflachs, Pelzgasse 133.\n— -Hartmann, Samuel, Zimmermann, von Biberstein, Adelbändli 85.\n— -Fischer, Jakob, Küfer, v. Ob.-Erlinsbach (Soloth.), Weinberg 332.\n— -Stänz, Xaver, Fabrikaufseher, v. Erlinsbach (Soloth.), in d. Telli 440.\n— -Kramer, Anton, Bedienter von Oeflingen (Baden), obere Vorstadt 937.\n— -Laurent, Emil, Gärtner von Oberflachs, Schachen 739.\n— Maria Anna, Fabrikarbeiterin, v. Erlinsbach (Soloth.), Igelweid 637.\n— -Kähr, Ulrich, Kutscher, von Melchnau (Bern), Halden 268.\n— -Leder, Johann Rudolf, Steinhauer von Biberstein, Halden 281.\nKäslin-Schönegger, Eusebius, Musiklehrer, von Beckenried (Unterwalden),\n  Laurenzenvorstadt 602.\nKehrer-Hausheer, Jakob, Bäckermeister, von Bözen, Pelzgasse 62.\n*Keller-Franke, Joseph, Obergerichtsschreiber, Zollrain 179.\n* — -Verney, Abraham, Mechaniker, Halden 260a.\n— -Bauhofer, Daniel, Färber, von Villigen, Halden 273.\n* — -Hemmeler, Julie, Wittwe, Kaffewirthschaft, Zollrain 292.\n* — Paul, Sohn, Zuckerbäcker, Zollrain 292.\n— Georg, Bahnmeister, von Endingen, hinter dem Bahnhof 501.\n— Käppeli, Heinrich, Lokomotivführer, v. Regenstorf (Zürich), Laurenzen-\n  vorstadt 552.\n— Anna, Damenschneiderin, von Mandach, vordere Vorstadt 682.\n— -Fehlmann, Johann, Oekonom, von Hottwyl, neues Quartier 1145.\n— -Siebenmann, Daniel, Uhrenmacher, v. Veltheim, Laurenzenthorg. 120.\n* — -Jäggi, Andreas, Bezirksverwalter, Igelweid 619.\n— Buser, Gottfried, Buchdrucker, von Hottwyl, Rainstraße 839.\n— -Hauri, Wilhelm, Oekonom, von Oberendingen, Rainstraße 850.\n— -Pfister, Fritz, Bedienter, von Oberendingen, Rainstraße 850.\n— -Schweri, Verena, Wittwe, Partik., v. Oberendingen, Rainstraße 850.\n— -Hauri, Joseph, Pferdewärter, von Oberendingen, Halden 249.\n* — -Zimmermann, Johann, Lohnkutscher, Casinostraße 580.\n* — -Steiner, Karl, Sohn, Lohnkutscher, Casinostraße 580.\n— -Stauffer, Jakob, Rektor, von Bözberg, Laurenzenvorstadt 544.\n— -Belliger, Heinrich, Professor, von Rüdlingen (Schaffhausen), neues\n  Quartier 974.\n— -Spereisen, Gottlieb, Wirth, von Wöschnau (Soloth.), Rainstraße 822.\n— Jakob, Taglöhner, von Hottwyl, Ziegelrain 708.\n— -Leuenberger, Lisette, Bettmacherin, von Kallern, Kirchplatz 164.\n— Katharina, von Ewatingen, (Großh. Baden), Ellenwaarenhandlung,\n  Casinostraße 571.\nKempf, Elise, Weißnäherin, von Windisch, Kirchplatz 165b.\n*Kern-Nychner, Emil, Mechaniker, Bahnhofstraße 559.\n* — Adolf, Mechaniker, Ziegelrain 747.\n*. — Otto, Mechaniker, Partik., Rathhausgasse 20.\nKettiger-Bertschinger, Arn., Kaufmann, v. Liestal, Laurenzenvorstadt 360.\nKiburz-Wüthrich, Samuel, Taglöhner, von Unterkulm, Stadthof 92a.\n— -Bohnenblust, Kath., Weißnäherin, v. Erlinsbach (Soloth.), Igelw. 625.\n*Kielholz-Schütz, Leopold, Kant.-Kriegskommissär, Schachen 730.\n— Karoline, Haushälterin, von Mettau, Schachen 730.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10904,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2825,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 56.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:13:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p035.jpeg",
+      "bytes": 317464,
+      "sha256": "e062decae5812ced79e08991638468fbf75db13dc5bde7ec042a91fbb1c82b25",
+      "sha256_of": "original",
+      "working_copy": "1884_p035.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:13:22+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p042",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p042.jpeg",
+    "bytes": 247896,
+    "sha256": "586363f3d96a184bd47e470f9ed256bddbbaf86b89bb7f4d171e88b1d56b7aa0",
+    "sha256_of": "original",
+    "working_copy": "1888_p042.jpeg"
+  },
+  "text": "Haus-\nNr.\n422. Frey=Frey, Karl, Stadtrath.\nTanner, Erwin, Fürsprach, Stadtammann.\nTanner, Irmengarde, Privatin.\n423. Frey, Robert und Frey, Max.\nChocoladefabrikation N. u. M. Frey.\nFischer, Adolf, Oberst, alt Reg.-Rath, von Reinach.\nStäbli, Ida, Haushälterin, von Brugg.\n424.+ Frey=Frey, Karl, Stadtrath, Wachshaus.\n425.+ Derfelbe. Scheune und Schopf.\n426.+ id. Holzhaus.\n427.+ id. Geflügelhaus.\n428. Frey=Frey, Adolf, Med. Dr.\nFrey, Eugen, Part.\n429.+ Derfelbe. Scheune und Remise.\n430.+ id. Treib-, Wach- und Holzhaus.\n\nIn der Teili.\n431.* Frey=Herzog, August, Fabrikant.\nFrey-Springer, Wilhelmine, Wittwe, Rentiere.\nBüreau der Firma Frey & Cie.\n432.+ Frey=Herzog, August, Scheune.\n433.+ Derfelbe. Holzmagazin.\n434.+ id. Bleifammergebäude und Dampfkesfel.\n435. a.+ id. Laboratorium, Magazin.\n435. b.+ id. Laboratorium chemischer Produkte und photogr. Utensilien.\n436.+ id. Chemisches Laboratorium.\n437.* id. Schreinereigebäude mit Arbeiterwohnung.\n438.+ Derfelbe. Magazin.\n439.+ id. Schopf und Magazin.\n440.* Frey=Herzog, August, (Roßhaus).\nRäfer-Stänz, Xaver, Auffeher, von Erlinsbach (Solothurn).\nWernli-Hächler, Jakob, Fabrikarbeiter, von Thalheim.\nStäehli-Grenacher, Jakob, Fabrikarbeiter, von Egliswyl.\nKramer-Müller, Jakob, Knecht, von Zegwyl.\nBucher-Bolliger, Joh., Fabrikarbeiter, von Niederweningen (Zürich).\nBucher-Rohr, Gottlieb,\nSandmeier, Melchior, Part., \"von Seengen.\"\n441.+ Derfelbe. Wach- und Holzhaus.\n442.+ Derfelbe. Baumwollspinneret.\n443.+ Wafferrad und Transnission.\n1245 + Frey=Frey, Karl, Stadtrath, Maschinenhäuschen.\n444. a. Frey=Herzog, August, Fabrikant, Wohngebäude.\n444. b.+ Derfelbe. Schreinerwerkstätte.\n445.* Derfelbe.\nSchibler-Sinniger, Rudolf, Auffeher, von Walterswil (Solothurn).\n446.+ Derfelbe. Gebäude mit Wasserstellfallen.\n447.+ Derfelbe. Magazingebäude.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3933,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1797,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p042",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p042.jpeg",
+      "bytes": 247896,
+      "sha256": "586363f3d96a184bd47e470f9ed256bddbbaf86b89bb7f4d171e88b1d56b7aa0",
+      "sha256_of": "original",
+      "working_copy": "1888_p042.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:42+00:00"
+  }
+}

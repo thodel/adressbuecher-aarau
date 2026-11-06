@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p075.jpeg",
+    "bytes": 203848,
+    "sha256": "4bde6d79ccc79a921ad5efe78c76d7d9bd245ccc23ff85081dec21fc2c1fac35",
+    "sha256_of": "original",
+    "working_copy": "1892_p075.jpeg"
+  },
+  "text": "Saus-\nNr.\n983. Bed=Braun, Friedrich, Sattler.\nDösner, Marie, Part., von Uster (Zürich).\nMärk-Hofer, Karl, alt Armenhausverwalter, Part.\nRohner-Märk, Marie, Lehrerin.\nBlattner-Hofer, Elisabeth, Part., von Rüttigen.\nBühmert-Comte, Richard, Kaufmann, von Dresden.\n1076 † Derfelbe. Wasch- und Holzhaus.\n1285 Mathys-Matter, Wilhelm, Feilenhauer, von Kölliken.\nHegetschmyle-Horlacher, August, Eisenbahnfondkutteur, v. Ottenbach (Zürich).\nRhyner-Hächler, Joseph, Eisenbahnfondkutteur, von Herzach.\n1195 Riniker-Wernli, Hermann, Milchverkäufer, von Habsburg.\nFeer-Widmer, Johann, Bantkbeamter, von Kölliken.\n1203 † Derfelbe. Holz-, Schwein- und Geflügelhaus.\n1147 Vogel-Wägner, Rudolf, Kaminfeger und Dachdecker, von Kölliken,\nLager in Dach- und Randschindeln.\n1222 Kuhn-Andermatt, Johann, Bahnmeister, von Dottikon (Aargau).\n† Derfelbe. Schopf.\nGönhardsfeldweg.\n1145 Keller-Fehlmann, Johann, Dekonom, von Hottwyl.\nOtt geb. Keller, Verena, Wittwe, Part., von Aarburg.\nFurter-Furter, Abraham, Eisenbahnfondkutteur, von Stauffen.\n1309 Rothplez-Richner, Friedrich, Fabrikant.\n1150 Umifer-Hürlimann, Samuel, von Thalheim.\nHofer, Marie, Näherin, von Niedermyl\nBuzlinger-Kienberger, Siegfried, Postcommis, von Dättwyl.\nOdinga-Brändli, Theodor, Dr. phil., Rektor der Mädchenchulen, von\nUster (Zürich).\n1241 Suter-Niederer, Jakob, Professor, Direktor des Töchterinstituts\nund Lehrerinnenseminars von Suhr und Winterthur.\nSohlweg.\n984. † Gemeinde Aarau. Brunnenhaus.\nEntfelderstraße.\n985. † Siebenmann, Friedrich, Bierbrauer, Stadtrath.\nBelfer, Gottlieb, Bauunternehmer in Gözgen. (Baumaterialienschopf.)\n986. Abgetragen, an dessen Platz\n1171 Siebenmann, Friedrich, Bierbrauer, Stadtrath. Bierfeller.\n987. † Gemeinde Aarau. Brunnenhaus.\nConradstraße.\n988. Abgetragen, an dessen Platz\n1255 Hagnauer-Zimmermann, Albert, Kaufmann.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3771,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1810,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p075.jpeg",
+      "bytes": 203848,
+      "sha256": "4bde6d79ccc79a921ad5efe78c76d7d9bd245ccc23ff85081dec21fc2c1fac35",
+      "sha256_of": "original",
+      "working_copy": "1892_p075.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:37+00:00"
+  }
+}

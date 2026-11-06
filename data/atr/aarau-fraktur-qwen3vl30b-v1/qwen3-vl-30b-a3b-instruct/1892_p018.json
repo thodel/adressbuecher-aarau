@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p018",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p018.jpeg",
+    "bytes": 225424,
+    "sha256": "2ff89a573b6c513a7edc231b248dd7b8ae59b48ae72b55913ba0cd2599830a24",
+    "sha256_of": "original",
+    "working_copy": "1892_p018.jpeg"
+  },
+  "text": "Haus-\nNr.\n106. a. + Dießelbe. Holzhaus.\n106. b. Rynifer=Groß, Friedrich, Bierbrauer. Küche und Eßzimmer.\n107. * Bertſchi=Schäfer, Gottfried, Schreiner, von Dürrenäsch.\nLüthi-Ryburz, Fritz, Sattler, von Schöftland.\nBertſchi geb. Vogt, Elisabeth, Schreiners Wittwe, von Sumiswald\n(Bern).\nRüegger-Värtſchi, Lisa, Feinwaſcherei und Glätterin, von Aarburg.\nBertſchi-Schwanmberger, Adolf, Schneider, von Sumiswald.\nBertſchi-Schwanmberger, Marie, Damenschneiderin, von Sumiswald.\nAmmann-Gränacher, Rudolf, Lithograph, von Roggwyl.\n108. Camper=Wildi, Adolf, Mezger und Wurſter.\nCamper-Haßler, Karolina, Bäckers Wittwe.\n109. + Derfelbe. Schweinemezg und Waſchhaus.\n110. + Derfelbe. Mezgerei- und Wurſtereiſlokal.\n111. + Derfelbe. Eiſteller.\n1328 + Derfelbe.\n112. * Rühn=Hoffmann, Bernhard, von Tiefurt (Sachsen). (Gasthof zum\nRößli.)\nMeyer-Egli, Albert, von Dürnten (Zürich). Gastwirth zum Rößli.\nEgli, Heinrich, Part. von Brütten (Zürich).\n113. * Gemeinde Aarau. Post- und Telegraphenbureau, Telephon-Central-\nstation, Vößchmagazin, Stadtbibliothek und Grütllivereinslokal.\n\nLaurenzenthor gaffe.\n114. Abgetragen. An deſſen Platz\n1118 Good, Albertine, Privat, von Mels (St. Gallen).\nBlume, Mina, Damenschneiderin, von Sprendlingen (Hessen). (Hand-\nlung von Damenkonfektion.)\nKern, Emilie, Stickerei- und Wollengeschäft.\nLüthy-Camper, Samuel, Telegraphist, von Schöftland.\n115. Wettler-Schneider, Adolf, von Rheineck (St. Gallen), Gastwirth zum\nOchſen.\n116. Zebert-Uttofer, Georg, Buchbinder, von Bauma (Zürich). Buch-\nbinderei und Linieranſtalt. Schreibmaterialienhandlung.\nFrey-Betterli, Achiles, Coiffeur, von Densbüren. Coiffeur- und Par-\nfümeriegeschäft.\n117. Wüthrich-Lüdi, Samuel zum Storchen, von Eggiwyl (Bern).\nSpezerei-, Wein- und Spirituosenhandlung.\nTelephon öffentliche Sprechſtation.\nWüthrich, Jakob, Confiseur, von Eggiwyl. (Bern.)\nWidmer-Eichenberger, Hermann, Küfermeiſter, von Hausen.\nSteiner-Dürre, Jakob, Postſtondukteur, von Oberengstringen (Zürich).\nHunziker-Müller, Friedrich, Waſchinenmeiſter. (Buchdruckerei Sauerländer.)\nBlattner-Burgunder, August, Sekretär, von Rüttigen.\nLattmann-Ackermann, Georg Heinrich, Lokomotivheizer, von Sternenberg\n(Zürich).\nBurgmeier-Riefer, Joseph, (Klavierdepot).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4614,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2210,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p018",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p018.jpeg",
+      "bytes": 225424,
+      "sha256": "2ff89a573b6c513a7edc231b248dd7b8ae59b48ae72b55913ba0cd2599830a24",
+      "sha256_of": "original",
+      "working_copy": "1892_p018.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:54+00:00"
+  }
+}

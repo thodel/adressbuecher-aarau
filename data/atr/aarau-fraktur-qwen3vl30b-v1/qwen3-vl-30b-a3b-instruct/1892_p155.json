@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p155",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p155.jpeg",
+    "bytes": 239742,
+    "sha256": "2f3b05566957f54a3e98467ad1015f27f7f083e8934ed1b2a189728ff277bf5d",
+    "sha256_of": "original",
+    "working_copy": "1892_p155.jpeg"
+  },
+  "text": "Hagenbuch, Charles, Rain 819.\nHauptagentur der Mannheimer Spiegelglasversicherungsgesellschaft.\nKeller, Andreas, Schmiedgasse 619.\nHauptagentur der schweiz. Mobiliarversicherung und der Unfallversicherungsgesellschaft „Zürich“.\nLüscher, Jakob, Rotar, Meckgergasse 56.\nHauptagentur der Leipziger Lebensversicherungsgesellschaft.\nMatter, Samuel, Schachen 1261.\nHauptagentur der Lebensversicherungsbank für Deutschland in Gotha.\nSchaymann, Fried., Rain 819.\nAgentur der Basler Unfall- und Lebensversicherungsgesellschaft.\nSchmidt-Lanz, Adolf, obere Vorstadt 935.\nInspektor der französischen Lebensversicherungsgesellschaft Le Soleil Paris.\nWindisch, Samuel, Laurentenvorstadt 410.\nGeneralagentur der schweiz. Rentenanstalt in Zürich.\nWirth-Herzog, Jakob, Zollrain 89.\nGeneralagentur für Auswanderung.\nGeneralagentur d. Lebensversicherungsgesellschaft „La Suisse“ in Lausanne.\nGeneralagentur der schweiz. Unfallversicherungsgesellschaft in Winterthur.\nWyder-Kraft, A., Rain 840.\nHauptagentur der Northern Feuerversicherungsgesellschaft in London.\nAnnoncen-Expedition für Rudolf Mosse in Zürich.\nGeneralagentur der Union „Suisse“ Glas- und Wasserversicherung.\nWydler, Jul., Rotar, Rathausgasse 3.\nHauptagentur der franz. Feuerversicherungsgesellschaft „Phönix“.\nHauptagentur der Lebensversicherungsgesellschaft „La National“ in Paris.\nAgentur der schweiz. Hagelversicherungsgesellschaft in Zürich.\nZschoppe, Hermann, Entfelderstraße 960.\nGeneralagentur der Basler Feuer-, Lebens-, Unfall- und Transportversicherungsgesellschaften.\n\nAntiquare.\nHägig, Joh. Conrad, Oberthor 224.\n\nArchitekten.\n* Ummann, Robert, Entfelderstraße 970.\n* Meyer, Jakob Ludwig, jenseits der Aare 307.\nMüller, Arnold, jenseits der Aare 346.\nRothpleg, Karl, Bahnhofstraße 651.\nSchäfer, Adolf, Gais 1063.\nSchmuziger, Johann, jenseits der Aare 294.\nSiebenmann, Gottlieb, Stadt-Bauverwalter, Bahnhofstraße 1074.\nWolf, Karl, vor dem Galdenthör 770.\n\nAsphaltgeschäfte.\nMehrli, Johann, Halden 250.\nZschoppe, D., Baugeschäft, Rohrerstraße 465.\n\nAusrüster von Steigerungen.\nFischer, Thomas, Gemeindeweibel, Rathausgasse 176.\n\nBadanfalten.\nBad; Binsenhof, Besitzer Riniker, Friedrich 1010.\nFlußbadanfalt Aarau, jenseits der Aare 348.\nTrefzger, Gustav, Färbergässchen 213.\n\nUmliegende Bäder.\n* Bad St. Laurentzen in Erlinsbach.\n* Bad in Gränichen.\n* Bad in Oberentfelden.\n* Bad in Schinznach.\n\nBäcker.\nBaumann, Karl, vordere Vorstadt 673.\nBrand, Jakob, vordere Vorstadt 669.\nBujer, Emil, Meckgergasse 57.\nFehlmann, Kaspar, Rathausgasse 45.\nFrey-Rohner, Robert, Zollrain 51.\nGloor, Rudolf, Milchgasse 142.\nGraf, Ludwig, Rathausgasse 18.\nGuggisberg, Emil, Bahnhofstraße 598 b.\nHänny, Hermann, Kirchgasse 11.\nHäsig, Hermann, Rathausgasse 46.\nHeh, Wilhelm, Pelzgasse 66.\nJeggli, Robert, Zollrain 88.\nRehrer, Jakob, Pelzgasse 62.\nMatter, Adolf, Schmiedgasse 1232.\nMeister, Georg, Graben 216.\nRüetschi, Max, Pelzgasse 131.\nSeiler, Andreas, Rathausgasse 48.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7631,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2908,
+    "lines": 71,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:47:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p155",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p155.jpeg",
+      "bytes": 239742,
+      "sha256": "2f3b05566957f54a3e98467ad1015f27f7f083e8934ed1b2a189728ff277bf5d",
+      "sha256_of": "original",
+      "working_copy": "1892_p155.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:19+00:00"
+  }
+}

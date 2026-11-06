@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p022",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p022.jpeg",
+    "bytes": 230536,
+    "sha256": "b8f4a65773b41f416e6726d34aef67a4d5f0142d98288900f0c406eeb6d2eb88",
+    "sha256_of": "original",
+    "working_copy": "1892_p022.jpeg"
+  },
+  "text": "— 14 —\nHaus=\nNr.\n153. b. Haßler-Müller, Theodor, Buchbinder.\n  Pfister-Huber, Emil, Kondukteur, Nied.-Erlinsbach (Solothurn).\n154. * Weber-Beck, Gustav, Bezirksarzt, von Menziken.\n  Eichenberger-Flad, Rudolf, Zimmermann, von Reinach.\n  Pfenninger-Bayon, Katharina, Sesselflechterin, von Stäfa (Zürich).\n  Weber-Pfenninger, Ferdinand, Schneider, von Griesdorf (Böhmen).\n155. * Bachmann-Riniker, Johann, Küfer.\n  Frieden-Kramer, Agatha. Näherin, von Seedorf (Bern).\n  Graf-Hunkeler, Marie, Stellenvermittlerin, von Birrwyl.\n156. Beck geb. Fisch, Elise, Wittwe, Part.\n  Zellweger-Fischer, Jakob, Büchsenmacher, von Teufen. (Appenzell.)\n  Zellweger, Elise, Glätterin, von Teufen (Appenzell).\n  Häuptli-Schältli, Jakob, Färber, von Biberstein.\n  Wehrli-Fuß, Peter, Postfakteur, von Asp.\n  Bürge-Schmid, Barbara, Part. von Unter-Erlinsbach (Aargau).\n  Lüscher, Emma, Weißnäherin, von Muhen.\n157. Schmuziger-Jacot, Karl, Rentier.\n158. Reformirte Kirchgemeinde Aarau. Pfarrhaus.\n  Wernly-Kraft, Rudolf, Pfarrer von Thalheim.\n  Kraft geb. Gautschi, Auguste Friedrike, Wittwe, Part. von Brugg.\n159. Bachmann-Riniker, Johann, Küfer.\n  Rothpletz-Hunziker, Gottlieb, Schreiner.\n  Schneider-Riser, Franz Xaver, Kondukteur, von Herznach.\n  Zulauf, Jakob, Postaspirant, von Schinznach.\n1279 † Derselbe. Werkstätte und Brennerei.\n160. Gemeinde Aarau.\n  Rothpletz-Haßler, Rudolf, Metzger.\n  Fisch-Vogt, Marie, Milchverkäuferin.\n161. Dürr-Schmuziger, Isaak, Schreiner.\n  Schmuziger, Susette, Part.\n  Schmuziger-Verena, Part.\n  Meier geb. Ott, Agatha, Schreiners Wittwe, von Gebenstorf.\n\nKirchhof.\n\n162. Gränicher geb. Richner, Rosa, Wittwe, Part.\n  Gränicher-Wärtli, Joh. Jakob, Schneider, ref. Siegrist.\n  Hässig, Julius, Oberlieut., Instruktor II. Klasse der Infanterie.\n163. Vogel-Dubs, Gottfried, Polizeiwachtmeister, von Kölliken.\n  Hoffmann-Schenk, Rudolf, Postangestellter, von Schottikon (Zürich).\n  Heß-Wolf, Alexander, Kaufmann von Zillisheim (Elsaß). (Werkstätte\n    und Magazin für Bettwaaren.)\n164. Wanger-Häusermann, G. Buchbinder.\n  Wanger, Rosa, Fabrikarbeiterin.\n  Wanger, Juli, Part.\n  Kohlmann-Läuchli, Verena, Wittwe von Daxlanden (Baden). Lithographie\n    und Steindruckerei.\n  Läuchli, Adolf, Lithograph, von Remigen.\n  Gampp-Spreuer, Philipp, Aufseher, von Hornussen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7373,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2271,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:47:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p022",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p022.jpeg",
+      "bytes": 230536,
+      "sha256": "b8f4a65773b41f416e6726d34aef67a4d5f0142d98288900f0c406eeb6d2eb88",
+      "sha256_of": "original",
+      "working_copy": "1892_p022.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:09+00:00"
+  }
+}

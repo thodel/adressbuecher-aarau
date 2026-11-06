@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p059",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p059.jpeg",
+    "bytes": 211263,
+    "sha256": "e82b3e1fddd3d10f8e3c120286c33cd27a7057cd096da31a82976986866f04a4",
+    "sha256_of": "original",
+    "working_copy": "1892_p059.jpeg"
+  },
+  "text": "Haus-\nNr.\n708. * Armengut der Gemeinde Aarau.\nSchmuziger-Lang, Elise, Schreiners Wittwe.\nLeutwyler-Berchtold, Melchior, Taglöhner, von Reinach.\n709. Andres-Weber, Friedrich, Buchhalter. Ellenwaarenhandlung.\nHäufelmann-Vertisch, Friedrich, Schneider, von Egliswyl.\n710. Huber-Bircher, Heinrich, Drechsler.\n711. * Holzach-Schmidt, Friedrich, Wegger.\nBrändli-Hug, Jakob, Fabritarbeiter, von Unterbötzberg.\nBertschi-Wächter, Maria, Wäscherin, von Dürrenäsch.\nMeier-Vertisch, Jakob, Schlosser, von Hausen.\n712. † Bullschleger-Blattner, Heinrich, Rüther. Scheune.\n713. Bircher-Rielholz, Julius, Kreisingenieur, von Rüttigen.\nWidli-Läker, Samuel, Schreinermeister, von Schafisheim. Sargmagazin.\nWehli-Roth, Jakob, Fabritarbeiter, von Biberstein.\nLeutwyler-Hofer, Elise, Maschinenfriederin, von Menziken.\nBolliger, Melanie, Damen Schneiderin.\nHofer, Marie, Part., von Lützelflüh.\nBaumann, Elise, Damen Schneiderin, von Schafisheim.\nLienhardt, Albert, Prediger, von Bözingen (Bern).\n714. † Wydler-Wehrli, Heinrich; Wydler-Wernli, Erwin, und Wydler,\nHans, Färber. Schwefelkammer.\n715. * Diefselben.\nZimmerli-Stenz, Eduard, Cementmüller, von Ostringen.\nLüscher-Lüscher, Jakob, Commis, von Moosleerau.\nLüscher, Bertha, Fabritarbeiterin, von Muhlen.\n716. † Diefselben. Färbereigebäude. Magazin.\n717. †\n\" Farbmagazin.\n718. \"\nWohnhaus.\nWydler-Wehrli, Heinrich, Färber.\nWydler-Wernli, Erwin,\n\" \"\n719. † Diefselben. Färberei und Heizeinrichtung.\n720. \"\nAbgetragen.\n721. *\n\" Wohnhaus.\nWydler-Bäurlin, Emilie, Wittwe.\nWydler, Emilie, Tochter.\nHanggartner-Hage, Kaspar, Camioneur, von Wangen (Großhth. Baden).\n722. * Diefselben. Wohnhaus.\nOsterwalder-von Arx, Rudolf, Zuschneider, von Stettfurt (Thurgau).\n1172 † Diefselben. Wagenremise.\n\nSchachen.\n723. Schmidt-Henz, Hans, Part.\nFischer-Kern, Adolf, Part., von Reinach.\nFischer, Max, Postangestellter, von Reinach.\n1168 † Derfselbe. Holzschopf.\n1333 724. † Gemeinde Aarau. Waschhaus.\n1334 † Diefselbe. Militärbaracke I.\n1259 * Waltner-Matter, Jakob, Dekonom.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4300,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1989,
+    "lines": 54,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p059",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p059.jpeg",
+      "bytes": 211263,
+      "sha256": "e82b3e1fddd3d10f8e3c120286c33cd27a7057cd096da31a82976986866f04a4",
+      "sha256_of": "original",
+      "working_copy": "1892_p059.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:27+00:00"
+  }
+}

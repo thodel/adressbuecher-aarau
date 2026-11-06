@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p042",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p042.jpeg",
+    "bytes": 247896,
+    "sha256": "586363f3d96a184bd47e470f9ed256bddbbaf86b89bb7f4d171e88b1d56b7aa0",
+    "sha256_of": "original",
+    "working_copy": "1888_p042.jpeg"
+  },
+  "text": "— 32 —\nHaus=\nNr.\n422.  Frey-Frey, Karl, Stadtrath.\n      Tanner, Erwin, Fürsprech, Stadtammann.\n      Tanner, Irmengarde, Privatin.\n423.  Frey, Robert und Frey, Max.\n      Chocoladefabrikation R. u. M. Frey.\n      Fischer, Adolf, Oberst, alt Reg.-Rath, von Reinach.\n      Stäbli, Ida, Haushälterin, von Brugg.\n424.† Frey-Frey, Karl, Stadtrath, Waschhaus.\n425.† Derselbe.  Scheune und Schopf.\n426.†   id.     Holzhaus.\n427.†   id.     Geflügelhaus.\n428.  Frey-Frey, Adolf, Med. Dr.\n      Frey, Eugen, Part.\n429.† Derselbe.  Scheune und Remise.\n430.†   id.     Treib=, Wasch= und Holzhaus.\n\nIn der Telli.\n\n431.* Frey-Herzog, August, Fabrikant.\n      Frey-Springer, Wilhelmine, Wittwe, Rentiere.\n      Büreau der Firma Frey & Cie.\n432.† Frey-Herzog, August, Scheune.\n433.† Derselbe.  Holzmagazin.\n434.†   id.     Bleikammergebäude und Dampfkessel.\n435. a.† id.    Laboratorium, Magazin.\n435. b.† id.    Laboratorium chemischer Produkte und photogr. Utensilien.\n436.†   id.     Chemisches Laboratorium.\n437.*   id.     Schreinereigebäude mit Arbeiterwohnung.\n      Amsler, Heinrich, Fabrikaufseher, von Densbüren.\n438.† Derselbe.  Magazin.\n439.†   id.     Schopf und Magazin.\n440.* Frey-Herzog, August, (Kosthaus).\n      Käser-Stänz, Xaver, Aufseher, von Erlinsbach (Solothurn).\n      Wernli-Hächler, Jakob, Fabrikarbeiter, von Thalheim.\n      Stäheli-Grenacher, Jakob, Fabrikarbeiter, von Egliswyl.\n      Kramer-Müller, Jakob, Knecht, von Sezwyl.\n      Bucher-Bolliger, Joh., Fabrikarbeiter, von Niederweningen (Zürich).\n      Bucher-Rohr, Gottlieb,        „          „        „\n      Sandmeier, Melchior, Part., von Seengen.\n441.† Derselbe.  Wasch= und Holzhaus.\n442.† Derselbe.  Baumwollspinnerei.\n443.† Wasserrad und Transmission.\n1245  † Frey-Frey, Karl, Stadtrath, Maschinenhäuschen.\n444. a. Frey-Herzog, August, Fabrikant, Wohngebäude.\n444. b.† Derselbe.  Schreinerwerkstätte.\n445.* Derselbe.\n      Schibler-Sinniger, Rudolf, Aufseher, von Walterswyl (Solothurn).\n446.† Derselbe.  Gebäude mit Wasserstellfallen.\n447.† Derselbe.  Magazingebäude.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7298,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2047,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:27:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p042",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p042.jpeg",
+      "bytes": 247896,
+      "sha256": "586363f3d96a184bd47e470f9ed256bddbbaf86b89bb7f4d171e88b1d56b7aa0",
+      "sha256_of": "original",
+      "working_copy": "1888_p042.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:40+00:00"
+  }
+}

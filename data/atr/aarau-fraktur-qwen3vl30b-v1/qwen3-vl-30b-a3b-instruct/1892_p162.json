@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p162",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p162.jpeg",
+    "bytes": 232898,
+    "sha256": "927c7b08f19a298e8d0d532da5b88851adc69a2a810fbbcc70ac916fa9a6e5d3",
+    "sha256_of": "original",
+    "working_copy": "1892_p162.jpeg"
+  },
+  "text": "146\nInstrumentmacher.\nHirsbrunner, Jakob, Halden 255.\nHirsbrunner, Gottfried, Halden 255.\n\nKappenmacher.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Balerian, vordere Vorst. 893.\n\nKastanienverkäufer.\nDürr, Gabriel, Graben 1237.\n\nKaminfeger.\nHäpfer, Eduards, Wittwe, Haldea 248.\nVogel, Rudolf, Entfelderstraße 1147.\nWägeler, Karl, vor dem Haldenthor 1306.\n\nKäsehandlungen.\nBaumann, Kaspar, hintere Vorstadt 623.\nEtter, Reinhard, Rain 825.\nMarig, Arnold, Halden 281.\nRüetschi, Marie, Halbändli 81.\nScheidegger, Joh. Ulrich, Holzmarkt 663.\nSchiefer, Hermann (en gros et en détail),\nBelzgasse 121.\nStirnemann, Jakob, Zollrain 91.\nUrben, Johann, Cäsinofstraße 660.\n\nKalkfabrikanten.\nFleiner, Albert, Fabrik von schwerem\nhydraulischem Kalk, Erlinsbacher-\nstraße 327.\nHauri-Siegenthaler, Karl, Rain 866.\nThut-Gidemann, Hermann, Rain 863.\n\nHerzenfabrikanten.\nErdin, Siegfried, Hammer 185 b.\nMaurer, Emil, zum Kreuz, jenseits der\nAare 1303 a.\n\nKinderwagen.\nHäfeli, Joseph, Sattler, Kirchgasse 15.\nKyburz, Gotthold, Sattler, Entfelder-\nstraße 968.\nLüthi, Alexander, Sattler, Cäsinofstr. 660.\nSchmid, Wolf, Sattler, Bachstraße 1028.\n\nKinderspielwaaren.\nHemmeler-Häfle, August, Mezgergasse 55.\nHemmeler & Cie., hintere Vorstadt 638.\n(en gros).\nHemmeler-Stahl, Jakob, Rathhausgasse 21.\n\nMorath, Johann, Rathhausgasse 2.\nSchmid, Joh. (Pariser Bazar), vordere\nVorstadt 889.\nSchmuziger, Marie (vormals Firma:\nSchmuziger-Fisch), Rathhausgasse 1.\nBonfellen-Willimann, Franz, Josepf,\nKronengasse 37.\n\nKlavierhandlung.\nBurgmeier, Joseph, Laurenzenthor 117.\n\nKleiderhandlungen.\nAßermann-Buser, Albert, vordere Vor-\nstadt 890.\nDresler, Laurenz (Camisascas Nach-\nfolger), Rain 826.\nCamper & Cie., Rathhausgasse 49—50.\nGerber, Gustav, vordere Vorstadt 670.\nGifi-von Arx, Viktor, Holzmarkt 664.\nHefti, Peter, Mezgergasse 100.\nHofer, Gottlieb, Rathhausgasse 43.\nMatter, Jakob, Halbändli 170.\nSchneeberger-Salvi, Jakob, Rathhaus-\ngasse 3.\nSiebenmann, Gebr., March. Tailleur,\nOberthor 226.\n\nKleiderreiniger.\nGunsifer, Gottlieb, Halbändli 84.\n\nKleiderfärberei.\nWyser, Alfred, Bachstraße 1055.\n\nKohlen-, Brikettes- und Coaks-\nhandlungen.\nGasfabrik Lavaux, Zollrain 786.\nSik-Lanz, Otto, Rain 875.\nLagerhäuser der Centralschweiz, Laurenzen-\nvorstadt 545.\nRohr-Häffig, Emma, Laurenzenthor 119.\nSchmidlin-Lux, Theodore, vor dem Halden-\nthor 755.\nSpinner-Billo, J. J., Bahnhofstraße 535.\nTrefzger, Gustav, Färbergässchen 213.\nWidmer, Samuel, Halden 276.\n\nKorbwaaren.\nHemmeler-Stahl, Jakob, Rathhausg. 21.\nLenzi, Jakob, vordere Vorstadt 675.\nSchmidt, Robert, 3. Bären, Zollrain 177.\nSteffen, Albert, Bahnhofstraße 1074.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7491,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2591,
+    "lines": 89,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 27.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:48:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p162",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p162.jpeg",
+      "bytes": 232898,
+      "sha256": "927c7b08f19a298e8d0d532da5b88851adc69a2a810fbbcc70ac916fa9a6e5d3",
+      "sha256_of": "original",
+      "working_copy": "1892_p162.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:14+00:00"
+  }
+}

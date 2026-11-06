@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p145",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p145.jpeg",
+    "bytes": 228191,
+    "sha256": "8f49ded45ccb7b502b88b08b13aa4de57a2ee73e9cc1ef663f5162773321f9d3",
+    "sha256_of": "original",
+    "working_copy": "1892_p145.jpeg"
+  },
+  "text": "Trefzger — Vogler.\n129\nTrefzger-Schöndli, Gustav, Dampfwascherei und Badanstalt, Färbergässchen 231.\nTrinfler-Meier, Karolina, Wittwe, Part. von Bözberg, vor dem Haldenthor 784.\nTrog, Gottlieb, Schuhmacher, Pelzgasse 122.\n*Trüeb-Müller, August, Lithographiebesitzer von Dübendorf (Zürich), vordere Vorstadt 889.\nTschanz-Beck, Sophie, Wittwe, Part., Zoltrrain 177.\nTschanz, Ida, Damen Schneiderin, Zoltrrain 177.\nTschopp-Schaad, Jakob, Taglöhner von Waldenburg (Baselland), Adelbändli 84.\n*Tuchschmid, August, Dr., Professor von Thundorf (Thurgau), jenseits der Aare 342.\n\nUmiker-Hürlimann, Samuel von Thalheim, Günhardfeldweg 1150.\nUmiker, Jakob, Part. von Thalheim, obere Vorstadt 946.\nUmiker-Marti, Maria, Wittwe von Thalheim, hintere Vorstadt 643.\nUmiker, Samuel, Straßenwärter von Thalheim, Golattenmattgasse 230.\nUmiker-Steiner, Samuel, Knecht von Thalheim, obere Vorstadt 946.\nUmiker-Wernli, Elisabeth, Part. von Thalheim, obere Vorstadt 928.\nUrban-Nußbaum, Ernst, Schreiner von Signis (Schleifen), Zieglerain 707.\nUrben-Flückiger, Johann, von Jukwyl (Bern), Milch-, Butter- und Käsehandlung, Casinofstrasse 660.\n*Urech-Jmhof, Friedrich, Part., Graben 218.\nUster, Heinrich, Maler von Feuerthalen (Zürich), Schachen 736.\nUster-Thut, Verena, Part. von Feuerthalen (Zürich), Schachen 736.\n\nVidella-Tarats, Manuel, Weinhändler von Sitges (Spanien), Spanische-Weinhalle, Kirchgasse 7.\nVinaffa-von Salis, Friedrich, Kaufmann von St. Gallen, Zeughausstrasse 1310.\nVogel-Dubs, Gottfried, Polizeiwachtmeister von Kölliken, Kirchplatz 163.\nVogel-Ernst, Johann, Obermüller von Thalheim (Preußen), Schetbenschachen 1339.\nVogel, Louise, Weinküherin von Flühli (Luzern), Halden 285.\nVogel-Strähler, Jakob, Wagenkontrolleur von Kölliken, Rain 877.\nVogel-Thomann, Johann, Säger von Flühli (Luzern), Halden 285.\nVogel-Waßmer, Rudolf, Kaminfeger und Dachdecker, von Kölliken, Entfelderstrasse 1147.\nVogler-Baumann, Julius, Stadt- und Friedhofsgärtner von Ober-Rohrdorf, Schmiedgasse 1232.\nAdressbuch der Stadt Aarau 1892.\n9",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5540,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2011,
+    "lines": 32,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 61.81,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:46:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p145",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p145.jpeg",
+      "bytes": 228191,
+      "sha256": "8f49ded45ccb7b502b88b08b13aa4de57a2ee73e9cc1ef663f5162773321f9d3",
+      "sha256_of": "original",
+      "working_copy": "1892_p145.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:15+00:00"
+  }
+}

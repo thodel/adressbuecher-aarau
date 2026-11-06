@@ -1,0 +1,1746 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-v1",
+  "model": "kraken-catmus_print_large",
+  "engine": "kraken",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p045",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p045.jpeg",
+    "bytes": 262664,
+    "sha256": "55b81fc89e7b57a512c5282e69330710c13058caf830a7ecea9c0649752f0236",
+    "sha256_of": "original",
+    "working_copy": "1899_p045.jpeg"
+  },
+  "text": "37\nHaus¬\nNr.\n451 † Dieselben. Fabrikgebäude.\n452-\n453f\n1085\n1158\n1565†\nFärberei.\nDruckerei.\nFarbgebäude.\nFabrikgebäude.\nMagazingebäude.\n454 * Krippendort-Müller, Herm., Prof. Dr. phil., in Dresden.\nRothpletz-Bürgi, Maria, Pfarrers Witwe.\n— Heinrich, Forster.\nHassler-Weisser, Arnold, Commis.\n455* Derselbe.\n1133f\n456\nKüng-Furrer, Anton, Sekretär, von Birri.\nImhof-Aman, Ernst (Fabrikationsgebäude).\nGuyer-Gunkel, Oskar, Kaufmann ». Halbleinfabrikation.\n457 † Derselbe. Fabrikationsgebäude.\n458\n4594\n460\n11594\n4\nScheune.\nTuchwalke.\nGautschi-Roth, Rudolf und Gautschi, Friedr., Okonom, von\nReinach.\n— —Wernti, Rudolf, Okonom, von Reinach.\n— -Roth, Rudolf, Sohn, Okonom, von Reinach.\n— Friedrich. Sohn, Okonom, von Reinach.\nDieselben. Stall.\n461 † Baumann, Gebr., Weinhandlung (Weinkeller).\n12091\nDieselben. Eiskeller.\n462 t Staat Aargau. Turnhaus.\n1479*\n1507f\n1560\n18627\nRohrerstrasse.\nBaumann, Gebr., Weinhändler, Speisewirtschaft zum, Jura\".\nLeube-Kienberger, Adele, von Frick, » Wirtin zum Café\n\"Jura\".\nZogg-Moos, Osw. Martin, Kaufmann, von Wallenstadt.\nValli-Eggspühler, August,» Ubernehmer von Erdarbeiten,\nvon Modgliano, Italien.\nGünther-Sollefer, Eugen, Instruktor der Infanterie, von Rhein-\nfelden.\nLeu-Zimmermann, Jakob, Kanzlist, von Birrenlauf.\nDerselbe. Magazin.\nKaspar-Häuptli, Eduard, Ferger, von Zezwyl.\nWernli-Häuptli, Julius, Lagerhaus-Kassier, von Thalheim.\nKäser-Plüss, Rudolf, Postkondukteur.\nJura-Cementfabriken, Schuppen fur die Seilbahn.\nFischer & Schmuziger. Bureau.\nAngerer, Joseph, Schneidermeister, von Stilfs (Tirol).\n463 * Spirgi-Hochstrasser, Elise, Witwes (Erbschaft).\n464 † Lagerhäuser der Centralschweiz. Petroleum-Keller (Alkohol¬\ndépôt).\n1536",
+  "lines": [
+    {
+      "order": 0,
+      "baseline": [
+        [
+          790.0,
+          124.0
+        ],
+        [
+          814.0,
+          124.0
+        ]
+      ],
+      "bbox": [
+        790.0,
+        108.0,
+        814.0,
+        139.0
+      ],
+      "boundary": null,
+      "text": "37",
+      "confidence": 0.9877473711967468,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 1,
+      "baseline": [
+        [
+          148.0,
+          167.0
+        ],
+        [
+          200.0,
+          168.0
+        ]
+      ],
+      "bbox": [
+        147.0,
+        154.0,
+        200.0,
+        179.0
+      ],
+      "boundary": null,
+      "text": "Haus¬",
+      "confidence": 0.9515881896018982,
+      "regions": []
+    },
+    {
+      "order": 2,
+      "baseline": [
+        [
+          157.0,
+          186.0
+        ],
+        [
+          186.0,
+          184.0
+        ]
+      ],
+      "bbox": [
+        156.0,
+        169.0,
+        186.0,
+        195.0
+      ],
+      "boundary": null,
+      "text": "Nr.",
+      "confidence": 0.9963869055112203,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 3,
+      "baseline": [
+        [
+          159.0,
+          205.0
+        ],
+        [
+          488.0,
+          205.0
+        ]
+      ],
+      "bbox": [
+        159.0,
+        183.0,
+        488.0,
+        220.0
+      ],
+      "boundary": null,
+      "text": "451 † Dieselben. Fabrikgebäude.",
+      "confidence": 0.9891191814094782,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 4,
+      "baseline": [
+        [
+          159.0,
+          227.0
+        ],
+        [
+          205.0,
+          226.0
+        ]
+      ],
+      "bbox": [
+        158.0,
+        206.0,
+        205.0,
+        235.0
+      ],
+      "boundary": null,
+      "text": "452-",
+      "confidence": 0.8404936641454697,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 5,
+      "baseline": [
+        [
+          159.0,
+          249.0
+        ],
+        [
+          213.0,
+          248.0
+        ]
+      ],
+      "bbox": [
+        158.0,
+        228.0,
+        213.0,
+        263.0
+      ],
+      "boundary": null,
+      "text": "453f",
+      "confidence": 0.787042073905468,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 6,
+      "baseline": [
+        [
+          115.0,
+          271.0
+        ],
+        [
+          166.0,
+          270.0
+        ]
+      ],
+      "bbox": [
+        114.0,
+        247.0,
+        166.0,
+        281.0
+      ],
+      "boundary": null,
+      "text": "1085",
+      "confidence": 0.9994501620531082,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 7,
+      "baseline": [
+        [
+          115.0,
+          294.0
+        ],
+        [
+          167.0,
+          292.0
+        ]
+      ],
+      "bbox": [
+        114.0,
+        274.0,
+        167.0,
+        302.0
+      ],
+      "boundary": null,
+      "text": "1158",
+      "confidence": 0.9999144971370697,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 8,
+      "baseline": [
+        [
+          115.0,
+          316.0
+        ],
+        [
+          181.0,
+          314.0
+        ]
+      ],
+      "bbox": [
+        114.0,
+        296.0,
+        181.0,
+        324.0
+      ],
+      "boundary": null,
+      "text": "1565†",
+      "confidence": 0.999521803855896,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 9,
+      "baseline": [
+        [
+          338.0,
+          227.0
+        ],
+        [
+          431.0,
+          227.0
+        ]
+      ],
+      "bbox": [
+        338.0,
+        207.0,
+        431.0,
+        235.0
+      ],
+      "boundary": null,
+      "text": "Färberei.",
+      "confidence": 0.9980829358100891,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 10,
+      "baseline": [
+        [
+          337.0,
+          249.0
+        ],
+        [
+          445.0,
+          249.0
+        ]
+      ],
+      "bbox": [
+        337.0,
+        230.0,
+        445.0,
+        260.0
+      ],
+      "boundary": null,
+      "text": "Druckerei.",
+      "confidence": 0.9996766269207,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 11,
+      "baseline": [
+        [
+          340.0,
+          271.0
+        ],
+        [
+          473.0,
+          271.0
+        ]
+      ],
+      "bbox": [
+        340.0,
+        251.0,
+        473.0,
+        281.0
+      ],
+      "boundary": null,
+      "text": "Farbgebäude.",
+      "confidence": 0.9982075278575604,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 12,
+      "baseline": [
+        [
+          339.0,
+          293.0
+        ],
+        [
+          490.0,
+          291.0
+        ]
+      ],
+      "bbox": [
+        338.0,
+        272.0,
+        490.0,
+        303.0
+      ],
+      "boundary": null,
+      "text": "Fabrikgebäude.",
+      "confidence": 0.9976675271987915,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 13,
+      "baseline": [
+        [
+          338.0,
+          314.0
+        ],
+        [
+          503.0,
+          316.0
+        ]
+      ],
+      "bbox": [
+        337.0,
+        296.0,
+        503.0,
+        324.0
+      ],
+      "boundary": null,
+      "text": "Magazingebäude.",
+      "confidence": 0.9966234974563122,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 14,
+      "baseline": [
+        [
+          159.0,
+          337.0
+        ],
+        [
+          769.0,
+          337.0
+        ]
+      ],
+      "bbox": [
+        159.0,
+        315.0,
+        769.0,
+        351.0
+      ],
+      "boundary": null,
+      "text": "454 * Krippendort-Müller, Herm., Prof. Dr. phil., in Dresden.",
+      "confidence": 0.9967376657070652,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 15,
+      "baseline": [
+        [
+          213.0,
+          360.0
+        ],
+        [
+          613.0,
+          360.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        340.0,
+        613.0,
+        373.0
+      ],
+      "boundary": null,
+      "text": "Rothpletz-Bürgi, Maria, Pfarrers Witwe.",
+      "confidence": 0.9994545340538025,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 16,
+      "baseline": [
+        [
+          219.0,
+          381.0
+        ],
+        [
+          430.0,
+          382.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        362.0,
+        430.0,
+        393.0
+      ],
+      "boundary": null,
+      "text": "— Heinrich, Forster.",
+      "confidence": 0.9998065620660782,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 17,
+      "baseline": [
+        [
+          213.0,
+          404.0
+        ],
+        [
+          555.0,
+          404.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        384.0,
+        555.0,
+        418.0
+      ],
+      "boundary": null,
+      "text": "Hassler-Weisser, Arnold, Commis.",
+      "confidence": 0.9998372066766024,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 18,
+      "baseline": [
+        [
+          160.0,
+          426.0
+        ],
+        [
+          307.0,
+          426.0
+        ]
+      ],
+      "bbox": [
+        160.0,
+        405.0,
+        307.0,
+        437.0
+      ],
+      "boundary": null,
+      "text": "455* Derselbe.",
+      "confidence": 0.961018768804414,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 19,
+      "baseline": [
+        [
+          115.0,
+          470.0
+        ],
+        [
+          183.0,
+          470.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        446.0,
+        183.0,
+        486.0
+      ],
+      "boundary": null,
+      "text": "1133f",
+      "confidence": 0.819515585899353,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 20,
+      "baseline": [
+        [
+          158.0,
+          492.0
+        ],
+        [
+          200.0,
+          492.0
+        ]
+      ],
+      "bbox": [
+        158.0,
+        472.0,
+        200.0,
+        500.0
+      ],
+      "boundary": null,
+      "text": "456",
+      "confidence": 0.9999056458473206,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 21,
+      "baseline": [
+        [
+          214.0,
+          447.0
+        ],
+        [
+          625.0,
+          448.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        424.0,
+        625.0,
+        456.0
+      ],
+      "boundary": null,
+      "text": "Küng-Furrer, Anton, Sekretär, von Birri.",
+      "confidence": 0.9980444553352538,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 22,
+      "baseline": [
+        [
+          213.0,
+          470.0
+        ],
+        [
+          633.0,
+          469.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        451.0,
+        633.0,
+        480.0
+      ],
+      "boundary": null,
+      "text": "Imhof-Aman, Ernst (Fabrikationsgebäude).",
+      "confidence": 0.9942160117916945,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 23,
+      "baseline": [
+        [
+          215.0,
+          493.0
+        ],
+        [
+          786.0,
+          491.0
+        ]
+      ],
+      "bbox": [
+        214.0,
+        471.0,
+        786.0,
+        507.0
+      ],
+      "boundary": null,
+      "text": "Guyer-Gunkel, Oskar, Kaufmann ». Halbleinfabrikation.",
+      "confidence": 0.9874673958094615,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 24,
+      "baseline": [
+        [
+          159.0,
+          514.0
+        ],
+        [
+          535.0,
+          513.0
+        ]
+      ],
+      "bbox": [
+        158.0,
+        494.0,
+        535.0,
+        527.0
+      ],
+      "boundary": null,
+      "text": "457 † Derselbe. Fabrikationsgebäude.",
+      "confidence": 0.9981103523357494,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 25,
+      "baseline": [
+        [
+          159.0,
+          536.0
+        ],
+        [
+          202.0,
+          536.0
+        ]
+      ],
+      "bbox": [
+        159.0,
+        516.0,
+        202.0,
+        545.0
+      ],
+      "boundary": null,
+      "text": "458",
+      "confidence": 0.9998888373374939,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 26,
+      "baseline": [
+        [
+          159.0,
+          557.0
+        ],
+        [
+          211.0,
+          557.0
+        ]
+      ],
+      "bbox": [
+        159.0,
+        539.0,
+        211.0,
+        570.0
+      ],
+      "boundary": null,
+      "text": "4594",
+      "confidence": 0.9233672171831131,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 27,
+      "baseline": [
+        [
+          160.0,
+          580.0
+        ],
+        [
+          201.0,
+          580.0
+        ]
+      ],
+      "bbox": [
+        160.0,
+        561.0,
+        201.0,
+        597.0
+      ],
+      "boundary": null,
+      "text": "460",
+      "confidence": 0.9994373122851054,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 28,
+      "baseline": [
+        [
+          116.0,
+          692.0
+        ],
+        [
+          194.0,
+          691.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        670.0,
+        194.0,
+        702.0
+      ],
+      "boundary": null,
+      "text": "11594",
+      "confidence": 0.8844229340553283,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 29,
+      "baseline": [
+        [
+          262.0,
+          540.0
+        ],
+        [
+          267.0,
+          538.0
+        ]
+      ],
+      "bbox": [
+        258.0,
+        526.0,
+        269.0,
+        548.0
+      ],
+      "boundary": null,
+      "text": "4",
+      "confidence": 0.27252650260925293,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 30,
+      "baseline": [
+        [
+          326.0,
+          537.0
+        ],
+        [
+          415.0,
+          535.0
+        ]
+      ],
+      "bbox": [
+        325.0,
+        517.0,
+        415.0,
+        547.0
+      ],
+      "boundary": null,
+      "text": "Scheune.",
+      "confidence": 0.9997747987508774,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 31,
+      "baseline": [
+        [
+          325.0,
+          558.0
+        ],
+        [
+          443.0,
+          558.0
+        ]
+      ],
+      "bbox": [
+        325.0,
+        541.0,
+        443.0,
+        568.0
+      ],
+      "boundary": null,
+      "text": "Tuchwalke.",
+      "confidence": 0.999703973531723,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 32,
+      "baseline": [
+        [
+          214.0,
+          582.0
+        ],
+        [
+          816.0,
+          579.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        556.0,
+        816.0,
+        598.0
+      ],
+      "boundary": null,
+      "text": "Gautschi-Roth, Rudolf und Gautschi, Friedr., Okonom, von",
+      "confidence": 0.9986056387424469,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 33,
+      "baseline": [
+        [
+          235.0,
+          603.0
+        ],
+        [
+          325.0,
+          603.0
+        ]
+      ],
+      "bbox": [
+        235.0,
+        583.0,
+        325.0,
+        613.0
+      ],
+      "boundary": null,
+      "text": "Reinach.",
+      "confidence": 0.99990114569664,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 34,
+      "baseline": [
+        [
+          218.0,
+          623.0
+        ],
+        [
+          646.0,
+          625.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        599.0,
+        646.0,
+        633.0
+      ],
+      "boundary": null,
+      "text": "— —Wernti, Rudolf, Okonom, von Reinach.",
+      "confidence": 0.9746817763035114,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 35,
+      "baseline": [
+        [
+          219.0,
+          646.0
+        ],
+        [
+          689.0,
+          646.0
+        ]
+      ],
+      "bbox": [
+        219.0,
+        627.0,
+        689.0,
+        659.0
+      ],
+      "boundary": null,
+      "text": "— -Roth, Rudolf, Sohn, Okonom, von Reinach.",
+      "confidence": 0.995959622915401,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 36,
+      "baseline": [
+        [
+          219.0,
+          668.0
+        ],
+        [
+          647.0,
+          669.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        649.0,
+        647.0,
+        683.0
+      ],
+      "boundary": null,
+      "text": "— Friedrich. Sohn, Okonom, von Reinach.",
+      "confidence": 0.9995764157710931,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 37,
+      "baseline": [
+        [
+          213.0,
+          691.0
+        ],
+        [
+          392.0,
+          690.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        669.0,
+        392.0,
+        703.0
+      ],
+      "boundary": null,
+      "text": "Dieselben. Stall.",
+      "confidence": 0.9998799527392668,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 38,
+      "baseline": [
+        [
+          157.0,
+          713.0
+        ],
+        [
+          671.0,
+          713.0
+        ]
+      ],
+      "bbox": [
+        157.0,
+        689.0,
+        671.0,
+        728.0
+      ],
+      "boundary": null,
+      "text": "461 † Baumann, Gebr., Weinhandlung (Weinkeller).",
+      "confidence": 0.9936927780508995,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 39,
+      "baseline": [
+        [
+          115.0,
+          736.0
+        ],
+        [
+          194.0,
+          736.0
+        ]
+      ],
+      "bbox": [
+        114.0,
+        714.0,
+        194.0,
+        749.0
+      ],
+      "boundary": null,
+      "text": "12091",
+      "confidence": 0.9010687351226807,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 40,
+      "baseline": [
+        [
+          213.0,
+          735.0
+        ],
+        [
+          432.0,
+          734.0
+        ]
+      ],
+      "bbox": [
+        212.0,
+        715.0,
+        432.0,
+        743.0
+      ],
+      "boundary": null,
+      "text": "Dieselben. Eiskeller.",
+      "confidence": 0.9997525215148926,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 41,
+      "baseline": [
+        [
+          159.0,
+          755.0
+        ],
+        [
+          478.0,
+          757.0
+        ]
+      ],
+      "bbox": [
+        158.0,
+        736.0,
+        478.0,
+        777.0
+      ],
+      "boundary": null,
+      "text": "462 t Staat Aargau. Turnhaus.",
+      "confidence": 0.9832610364617973,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 42,
+      "baseline": [
+        [
+          114.0,
+          840.0
+        ],
+        [
+          179.0,
+          839.0
+        ]
+      ],
+      "bbox": [
+        114.0,
+        817.0,
+        179.0,
+        861.0
+      ],
+      "boundary": null,
+      "text": "1479*",
+      "confidence": 0.9894916653633118,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 43,
+      "baseline": [
+        [
+          115.0,
+          1038.0
+        ],
+        [
+          186.0,
+          1038.0
+        ]
+      ],
+      "bbox": [
+        114.0,
+        1019.0,
+        186.0,
+        1052.0
+      ],
+      "boundary": null,
+      "text": "1507f",
+      "confidence": 0.869116735458374,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 44,
+      "baseline": [
+        [
+          116.0,
+          1059.0
+        ],
+        [
+          168.0,
+          1061.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        1039.0,
+        168.0,
+        1076.0
+      ],
+      "boundary": null,
+      "text": "1560",
+      "confidence": 0.998105064034462,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 45,
+      "baseline": [
+        [
+          115.0,
+          1126.0
+        ],
+        [
+          186.0,
+          1126.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        1102.0,
+        186.0,
+        1153.0
+      ],
+      "boundary": null,
+      "text": "18627",
+      "confidence": 0.8848795890808105,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 46,
+      "baseline": [
+        [
+          389.0,
+          811.0
+        ],
+        [
+          577.0,
+          811.0
+        ]
+      ],
+      "bbox": [
+        389.0,
+        783.0,
+        577.0,
+        820.0
+      ],
+      "boundary": null,
+      "text": "Rohrerstrasse.",
+      "confidence": 0.9995881361620766,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 47,
+      "baseline": [
+        [
+          210.0,
+          840.0
+        ],
+        [
+          814.0,
+          839.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        817.0,
+        814.0,
+        848.0
+      ],
+      "boundary": null,
+      "text": "Baumann, Gebr., Weinhändler, Speisewirtschaft zum, Jura\".",
+      "confidence": 0.9861026971504606,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 48,
+      "baseline": [
+        [
+          212.0,
+          863.0
+        ],
+        [
+          817.0,
+          860.0
+        ]
+      ],
+      "bbox": [
+        211.0,
+        841.0,
+        817.0,
+        878.0
+      ],
+      "boundary": null,
+      "text": "Leube-Kienberger, Adele, von Frick, » Wirtin zum Café",
+      "confidence": 0.9859608422826838,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 49,
+      "baseline": [
+        [
+          236.0,
+          885.0
+        ],
+        [
+          311.0,
+          883.0
+        ]
+      ],
+      "bbox": [
+        235.0,
+        865.0,
+        311.0,
+        894.0
+      ],
+      "boundary": null,
+      "text": "\"Jura\".",
+      "confidence": 0.9043169702802386,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 50,
+      "baseline": [
+        [
+          213.0,
+          906.0
+        ],
+        [
+          760.0,
+          906.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        884.0,
+        760.0,
+        914.0
+      ],
+      "boundary": null,
+      "text": "Zogg-Moos, Osw. Martin, Kaufmann, von Wallenstadt.",
+      "confidence": 0.9983081555366516,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 51,
+      "baseline": [
+        [
+          214.0,
+          929.0
+        ],
+        [
+          815.0,
+          927.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        908.0,
+        815.0,
+        940.0
+      ],
+      "boundary": null,
+      "text": "Valli-Eggspühler, August,» Ubernehmer von Erdarbeiten,",
+      "confidence": 0.9924313686110756,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 52,
+      "baseline": [
+        [
+          236.0,
+          949.0
+        ],
+        [
+          471.0,
+          950.0
+        ]
+      ],
+      "bbox": [
+        235.0,
+        931.0,
+        471.0,
+        957.0
+      ],
+      "boundary": null,
+      "text": "von Modgliano, Italien.",
+      "confidence": 0.9997990027717922,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 53,
+      "baseline": [
+        [
+          213.0,
+          973.0
+        ],
+        [
+          816.0,
+          971.0
+        ]
+      ],
+      "bbox": [
+        212.0,
+        950.0,
+        816.0,
+        988.0
+      ],
+      "boundary": null,
+      "text": "Günther-Sollefer, Eugen, Instruktor der Infanterie, von Rhein-",
+      "confidence": 0.9938879571263752,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 54,
+      "baseline": [
+        [
+          235.0,
+          994.0
+        ],
+        [
+          303.0,
+          994.0
+        ]
+      ],
+      "bbox": [
+        235.0,
+        976.0,
+        303.0,
+        1004.0
+      ],
+      "boundary": null,
+      "text": "felden.",
+      "confidence": 0.9997888462884086,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 55,
+      "baseline": [
+        [
+          213.0,
+          1017.0
+        ],
+        [
+          722.0,
+          1015.0
+        ]
+      ],
+      "bbox": [
+        212.0,
+        990.0,
+        722.0,
+        1030.0
+      ],
+      "boundary": null,
+      "text": "Leu-Zimmermann, Jakob, Kanzlist, von Birrenlauf.",
+      "confidence": 0.9994364927212397,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 56,
+      "baseline": [
+        [
+          214.0,
+          1038.0
+        ],
+        [
+          418.0,
+          1038.0
+        ]
+      ],
+      "bbox": [
+        214.0,
+        1020.0,
+        418.0,
+        1046.0
+      ],
+      "boundary": null,
+      "text": "Derselbe. Magazin.",
+      "confidence": 0.999388853708903,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 57,
+      "baseline": [
+        [
+          212.0,
+          1061.0
+        ],
+        [
+          666.0,
+          1059.0
+        ]
+      ],
+      "bbox": [
+        211.0,
+        1038.0,
+        666.0,
+        1071.0
+      ],
+      "boundary": null,
+      "text": "Kaspar-Häuptli, Eduard, Ferger, von Zezwyl.",
+      "confidence": 0.9991691938855431,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 58,
+      "baseline": [
+        [
+          213.0,
+          1083.0
+        ],
+        [
+          782.0,
+          1081.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        1061.0,
+        782.0,
+        1096.0
+      ],
+      "boundary": null,
+      "text": "Wernli-Häuptli, Julius, Lagerhaus-Kassier, von Thalheim.",
+      "confidence": 0.9987071668892576,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 59,
+      "baseline": [
+        [
+          209.0,
+          1104.0
+        ],
+        [
+          591.0,
+          1104.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        1085.0,
+        591.0,
+        1113.0
+      ],
+      "boundary": null,
+      "text": "Käser-Plüss, Rudolf, Postkondukteur.",
+      "confidence": 0.9924246684501046,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 60,
+      "baseline": [
+        [
+          212.0,
+          1127.0
+        ],
+        [
+          700.0,
+          1125.0
+        ]
+      ],
+      "bbox": [
+        211.0,
+        1106.0,
+        700.0,
+        1140.0
+      ],
+      "boundary": null,
+      "text": "Jura-Cementfabriken, Schuppen fur die Seilbahn.",
+      "confidence": 0.9992594186295854,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 61,
+      "baseline": [
+        [
+          213.0,
+          1150.0
+        ],
+        [
+          576.0,
+          1147.0
+        ]
+      ],
+      "bbox": [
+        212.0,
+        1128.0,
+        576.0,
+        1160.0
+      ],
+      "boundary": null,
+      "text": "Fischer & Schmuziger. Bureau.",
+      "confidence": 0.99909730615287,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 62,
+      "baseline": [
+        [
+          213.0,
+          1170.0
+        ],
+        [
+          752.0,
+          1170.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        1149.0,
+        752.0,
+        1181.0
+      ],
+      "boundary": null,
+      "text": "Angerer, Joseph, Schneidermeister, von Stilfs (Tirol).",
+      "confidence": 0.9994935691356659,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 63,
+      "baseline": [
+        [
+          157.0,
+          1192.0
+        ],
+        [
+          689.0,
+          1192.0
+        ]
+      ],
+      "bbox": [
+        157.0,
+        1173.0,
+        689.0,
+        1202.0
+      ],
+      "boundary": null,
+      "text": "463 * Spirgi-Hochstrasser, Elise, Witwes (Erbschaft).",
+      "confidence": 0.9872120854989538,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 64,
+      "baseline": [
+        [
+          157.0,
+          1214.0
+        ],
+        [
+          815.0,
+          1214.0
+        ]
+      ],
+      "bbox": [
+        157.0,
+        1197.0,
+        815.0,
+        1233.0
+      ],
+      "boundary": null,
+      "text": "464 † Lagerhäuser der Centralschweiz. Petroleum-Keller (Alkohol¬",
+      "confidence": 0.9920478536532475,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 65,
+      "baseline": [
+        [
+          235.0,
+          1236.0
+        ],
+        [
+          307.0,
+          1236.0
+        ]
+      ],
+      "bbox": [
+        235.0,
+        1218.0,
+        307.0,
+        1258.0
+      ],
+      "boundary": null,
+      "text": "dépôt).",
+      "confidence": 0.9986371331744723,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 66,
+      "baseline": [
+        [
+          115.0,
+          929.0
+        ],
+        [
+          166.0,
+          927.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        908.0,
+        166.0,
+        942.0
+      ],
+      "boundary": null,
+      "text": "1536",
+      "confidence": 0.9956428706645966,
+      "regions": [
+        "r0"
+      ]
+    }
+  ],
+  "confidence": 0.966916880450288,
+  "segmented_by": "kraken-blla",
+  "timing_ms": 13694,
+  "truncated": false,
+  "settings": null,
+  "quality": {
+    "verdict": "ok",
+    "chars": 1697,
+    "lines": 67,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 24.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": {
+    "engine": "party",
+    "model": "party",
+    "text": "",
+    "lines": [],
+    "confidence": null,
+    "timing_ms": 0,
+    "error": "timed out: no answer within 30s of the primary result"
+  },
+  "gateway_version": "7.0.2",
+  "recognised_at": "2026-11-06T12:40:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-v1",
+    "source": {
+      "key": "1899_p045",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p045.jpeg",
+      "bytes": 262664,
+      "sha256": "55b81fc89e7b57a512c5282e69330710c13058caf830a7ecea9c0649752f0236",
+      "sha256_of": "original",
+      "working_copy": "1899_p045.jpeg"
+    },
+    "model": {
+      "model": "kraken-catmus_print_large",
+      "engine": "kraken",
+      "level": "page",
+      "revision": "10.5281/zenodo.10592716",
+      "revision_kind": "zenodo_record",
+      "weights": "10.5281/zenodo.10592716",
+      "base_model": null
+    },
+    "gateway_version": "7.0.2",
+    "segmented_by": "kraken-blla",
+    "recognised_at": "2026-11-06T12:40:50+00:00"
+  }
+}

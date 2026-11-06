@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p048",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p048.jpeg",
+    "bytes": 308272,
+    "sha256": "e85991675c16ff5e96b0babfaf725288cc240109dc2bc65eef3349a7a660d5e6",
+    "sha256_of": "original",
+    "working_copy": "1884_p048.jpeg"
+  },
+  "text": "44 Schwammberger. — Siebenmann.\nSchwammberger-Schmid, Jakob, Färber, von Altenstein, Rain 820.\n— Elise, Damenschneiderin, von Altenstein, vordere Vorstadt 670.\n— Marie, Damenschneiderin, von Altenstein, vordere Vorstadt 670.\nSchwarz-Dietiker, Anna, Wittwe, Damenschneiderin, v. Eifen, Ziegeler 711.\nSchwarz-Müller, Joh., Pferdewärter, v. Kröppen (Bayern), ob. Vorft. 915.\nSchweizer-Gubler, Friedrich, Staatsarchivar, von Dätwyll, Rain 862.\nSeger-Schri ten, Fr., Hafner, v. Engen (Gryh. Baden), Laurenzenvorft. 376.\nSeiberlich-Jber, Frz. Kav., Schneider, v. Merzsch (Gryh. Baden), Adelb. 86.\n*Seiler-Hanhardt, Andreas, Bäcker, Rathausgasse 48.\nSemmler-Ganz, Margaretha, Schuhhändlerin, von Pirmafsen (Bayern), Bahnhofstraße 541.\nSenn-Zuber, Johann, Küfermeister, von Hottwyl, Bachstraße 1031.\n— -Furter, Anna, Spetterin, von Uster (Zürich), Rain 822.\n— -Blattner, Karol, Wittwe, Nusrüsterin, v. Densbüren, vord. Vorft. 682.\nSennhauser-Goskewisch, A., Wob., v. Hervliberg (Zürich), Adelbändli. 170.\n*Siebenmann-Hunziker, Emma, Wittwe, Wirthin, Megzergasse 60.\n* — Adolf, Wetzger, Megzergasse 60.\n* — Beck, Gottlieb, Färber, Milchgasse 74.\n* — Schmidt, Karl, Kaufmann, Bett- u. Ellenwaarenhblg., Zollrain 181.\n* — Richner, Nanette, Partik., Pelzgasse 137.\n* — Blum, Elise, Spetterin, Milchgasse 156.\n* — Elise, Damenschneiderin, Milchgasse 156.\n* — Fritz, Commis, Milchgasse 156.\n* — Ludwig, Schuhmacher, Adelbändli 171.\n* — Frei, Ludwig, Sohn, Schuhmacher, Adelbändli 171.\n* — Jakob, gew. Marchd.-Tailleur, Partik., Oberthor 226.\n* — Gustav, Marchd.-Tailleur, Oberthor 226.\n* — Adolf, Sekretär, Oberthor 226.\n* — Walter, Otto, Marchd.-Tailleur, Golattenmattgasse 227.\n* — Marti, Rosina, Arbeitslehrerin, Halden 267.\n* — Hagnauer, Friedrich, Bierbrauer im Weinberg 321.\n* — Preifig, Katharina, Becks Wittwe, im Weinberg 333.\n* — Friedrich, Sohn, im Weinberg 333.\n* — Siebenmann, Rudolf, Bierbrauer, Graben 620.\n* — Hürsch, Gottlieb, Bauverwalter, Laurenzenvorstadt 397.\n* — Henzel, Karl, Lokomotivführer, Zgelweid 625.\n* — Ackermann, Bernhard, Bäcker und Wirth, vordere Vorstadt 673.\n* — Daniel, Rentier, vordere Vorstadt 673.\n* — Sager, Anna, Wittwe, Partik., Zieglerain 707a.\n* — Bertha, Tochter, Partik., Zieglerain 707a.\n* — Gottlieb, Holzhändler, Schachen 737.\n* — Richner, Mina, Wittwe, Partik., Rainstraße 832.\n* — Gottlieb, Gerber, Rainstraße 834.\n* — Friedrich, Weinhändler, Rainstraße 860.\n* — Kraus, Anna, Wirthin, obere Vorstadt 926.\n* — Sprüngli, J. Arnold, Agent, Schachen 729.\n* — Julie, Damenschneiderin, Schachen 729.\n* — Steiner, Jakob, Dekonom, Golbern 1001.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5818,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2585,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:13:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p048",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p048.jpeg",
+      "bytes": 308272,
+      "sha256": "e85991675c16ff5e96b0babfaf725288cc240109dc2bc65eef3349a7a660d5e6",
+      "sha256_of": "original",
+      "working_copy": "1884_p048.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:13:38+00:00"
+  }
+}

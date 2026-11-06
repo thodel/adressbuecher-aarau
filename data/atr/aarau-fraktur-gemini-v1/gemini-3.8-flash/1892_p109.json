@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p109",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p109.jpeg",
+    "bytes": 258341,
+    "sha256": "d7915aa64beeb359545c55696a13676a9b769f6d7b12c186e3ea5ad64d1b6db8",
+    "sha256_of": "original",
+    "working_copy": "1892_p109.jpeg"
+  },
+  "text": "Fischer — Frei. 93\n\nFischer-Kern, Adolf, Part., von Reinach, Ziegelrain 723.\nFischer, Louise, Ladentochter, Laurenzenthorgasse 120.\nFischer, Louise, Messerschmieds, Damenschneiderin, Adelbändli 172.\nFischer, Max, Postangestellter von Reinach, Ziegelrain 723.\nFischer-Niggli. Lina, Wittwe, Part. von Reinach, obere Vorstadt 923.\nFischer-Peter, Thomas, Gemeindeweibel, Rathhausgasse 176.\nFischer-Roth, Ludwig, Straßenwärter, Laurenzenvorstadt 376.\nFischer-Roth, Maria, Straßenwärters, Scheibenschachen 312.\nFischer-Schmidlin, Bertha, Part., Zschokkestraße 996.\nFischer, Thomas, Bierbrauer, „zur Kettenbrücke“, Zollrain 179.\nFischer-Vonwiller, Adolf, Postbeamter, Tabak- und Cigarrenhandlung,\n  Laurenzenthorgasse 120.\nFischer-Widmer, Johann, Postkondukteur, Halden 290.\nFischer-Wydler, Ernestine, Wittwe, Taglöhnerin, Adelbändli 174.\nFleiner, Hans, Fabrikant, Laurenzenvorstadt 586.\nFleiner-Zschokke, Leontine, Fabrikants Wittwe, Laurenzenvorstadt 586.\nFleury-Adam, Joseph, Kaufmann von Laufen (Bern), Gais 1286.\nFlühmann, Elise, Lehrerin von Aeschi (Bern), Rain 860.\nFlückiger-Trösch, Gottfried, Pferdewärter von Auswyl (Bern), Milch-\n  gasse 76.\nFlückiger-Wüthrich, Rosette, Wittwe, Köchin v. Winigen (Bern). Kroneng. 40.\nFörderer-Hinden, Anna, Wittwe, Rathhausgasse 20.\nFörderer, Geschwister, Anna, Elise u. Pauline, Tapisserie- u. Broderie-\n  geschäft, Rathhausgasse 20.\nForderer-Schwammberger, Alois, Schneider von Ziegelbach (Württemberg),\n  vordere Vorstadt 670.\nFrank, Louise, Corsetschneiderin, Hammer 188.\nFrank-Roland, Samuel, Schreiner, Adelbändli 82.\nFrank, Rudolf, Postpacker, Adelbändli 82.\nFrei-Amsler, Bernhard Friedrich, Küfer von Auenstein, Stadthof 92 e.\nFrei-Bolliger, Gottlieb, Gepäckträger v. Gontenschwyl, hintere Vorstadt 643.\nFrei-Brand, Franz Karl, Postcommis von Zurzach, Bachstraße 1039.\nFrei-Dürr, Gottfried, Taglöhner von Trachselwald (Bern), Halden 279.\nFrei, Gottlieb, Schriftsetzer von Biberstein, Zollrain 53.\nFrei-Haller, Johann, Gärtner von Auenstein, Hammer 190.\nFrei-Häuptli, Gottlieb, Taglöhner von Biberstein, Zollrain 53.\nFrei-Hintermann, Arnold, Taglöhner v. Mellingen, Laurenzenvorstadt 376.\nFrei-Hochuli, Rudolf, Commis (Schießer) von Gontenschwyl, obere Vor-\n  stadt 929.\nFrei-Hofer, Jakob, Lokomotivheizer von Auenstein, Rain 884.\nFrei-Lindenmann, Anna, Wäscherin von Reigoldswyl, hintere Vorstadt 641.\nFrei-Lindenmann, Johann, Taglöhner von Reigoldswyl (Baselland),\n  Golattenmattgasse 236.\nFrei, Maria Magdelena, Ladentochter von Zurzach, Pelzgasse 121.\nFrei, Maria, Spetterin von Densbüren, vor dem Haldenthor 769.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9011,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2562,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:57:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p109",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p109.jpeg",
+      "bytes": 258341,
+      "sha256": "d7915aa64beeb359545c55696a13676a9b769f6d7b12c186e3ea5ad64d1b6db8",
+      "sha256_of": "original",
+      "working_copy": "1892_p109.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:57:10+00:00"
+  }
+}

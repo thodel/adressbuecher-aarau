@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p112",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p112.jpeg",
+    "bytes": 295814,
+    "sha256": "b91a5342158e982c18e01d0f9f93507dc2362c8b31eb182499d8fa7f5895d293",
+    "sha256_of": "original",
+    "working_copy": "1888_p112.jpeg"
+  },
+  "text": "94 Herzog — Hoffmann.\n*Herzog-Zobel, Hans, General, Bachstraße 1047.\n*Hef, Carolina, Lehrerin von Wald (Zürich), hinterm Platz 214.\n*Hef, Robert, Part., Pelzgasse 66.\n*Hef-Wolf, Alexander, Kaufmann, Geschäftsführer von Zillisheim (Elsäss)\n(Firma F. Hef), Filiale der Magazine zur Stadt Mühlhausen,\nBiel, Solothurn, Rathhausgasse 4.\n*Hef-Zürcher, Wilhelm, Bäcker und Wirth, Pelzgasse 66.\n*Heuberger-Fischer, Jakob, Rechnungsrevisor von Böckberg, Zollrain 179.\nHeuberger-Richner, Karl, Coiffeur, Bahnhofstraße 658.\n*Heuberger-Siebenmann, Gottlieb, Sekretär, jenseits der Aare 339.\nHeuberger-Wernli, Elisabeth, Wittwe, Spezerei-handlung, Bahnhofstraße 658.\nHeudfenkamp-Eisenhmid, Karolina, Wittwe, Part. von Niederlamig\n(Bayern), Laurenzenvorstadt 552.\nHeusler, Cesar Emanuel, Kaufmann von Biel (Bern), obere Vorstadt 913.\n*Hilfster-Wilhelm, Jakob, Bäcker von Mühlen, Kronengasse 40.\n*Hintermann-Keller, Robert, Major, Infanterie-Instruktor I. Klasse von\nBeinwil, Laurenzenvorstadt 410.\n*Hinz-Wolf, Gottfried, Conditor v. Merkingen (Württbg), Kronengasse 36.\n*Hirschp-Merz, Joh. Rud., Uhrenmacher, vordere Vorstadt 668.\n*Hirschbrunner-Riener, Jakob, Instrumentmacher und Spezerei-handlung,\nHalden 255.\nHirschbrunner, Gottfried, Sohn, Instrumentmacher, Halden 255.\nHirt, Verena, Part. von BezwyI, Halden 280.\nHirt-Wehrli, Elisabeth, Wittwe, Taglöhnerin von BezwyI, Rathhausgasse 45.\nHitz, Bertha, Part. von Hausen (Zürich), Rain 875.\nHitz-Lang, Otto, Regt., Spezerei- und Brennmaterialienhdlg., Rain 875.\n*Hoch-Enst, Gustav, von Zollikon (Zürich), Samen- und Spezerei-handlg.,\nMekkergasse 61.\nHochstraker-Jehlmann, Verena, Spetterin von Fahrwangen, Milchgasse 75.\nHochstraker, Marie, Damenschneiderin von Auenstein, Schachen 734.\n*Höhn-Ochsnr, Gottlieb, Kassier der Güterexpedition von Hütten (Zürich),\nLaurenzenvorstadt 401.\nHofer, Albert, Sekretär von Niederwil, Bankstraße 1146.\nHofer, Marie, Part., Vitzkelfuh (Bern), Schachen 736.\n*Hofer-Schaffner, Gottlieb, Regt., Rathhausgasse 43.\n*Hoffmann-Bolliger, Jakob, Dekonom von Unterkulm. Laurenzenvorstadt 607.\n*Hoffmann-Gamper, Emil, von Zell (Zürich), Cassier der Creditanstalt,\nRain 878.\nHoffmann, Gottlieb, Taglöhner von Rued, Halden 282.\nHoffmann-Krez, Joseph, Maschinist von Wäggis (Luzern), Ziegelrain 705.\nHoffmann-Weier, Johann, Schuhmachermeister von Weiningen (Thurgau),\nMilchgasse 72.\nHoffmann, Nanette und Karolina, Weißnäherinnen von Zell (Zürich),\nRathhausgasse 18.\nHoffmann-Suter, Christoph, Coiffeur von Schwabach (Bayern), Wohnung\nKirchgasse 15 und Geschäft Kirchgasse 8 a.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5493,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2538,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:26:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p112",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p112.jpeg",
+      "bytes": 295814,
+      "sha256": "b91a5342158e982c18e01d0f9f93507dc2362c8b31eb182499d8fa7f5895d293",
+      "sha256_of": "original",
+      "working_copy": "1888_p112.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:29+00:00"
+  }
+}

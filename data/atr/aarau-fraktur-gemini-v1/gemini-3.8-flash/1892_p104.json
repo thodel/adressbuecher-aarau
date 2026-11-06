@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p104",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p104.jpeg",
+    "bytes": 221517,
+    "sha256": "5c625cacfc34812959c908424eb1b942986747b8b89f68bb6175199c1cc29206",
+    "sha256_of": "original",
+    "working_copy": "1892_p104.jpeg"
+  },
+  "text": "88 — Buser — Diethelm.\n\nBuser, Gottlieb, Kaufmann, Mezgergasse 58.\nBuser, Johann Jakob, Buchbinder, Rain 881.\nBuser-Müller, Heinrich, Hufschmied, Graben 217.\n[handschriftlich: X] Buser-Wildi, Emil, Bäcker, Mezgergasse 57.\nBußlinger-Kienberger, Siegfried, Postcommis von Dätwyl, Gönhardsfeld-\n  weg 1150.\n\n[handschriftlich: X] Camisasca, Franz, Kaufmann, Vordere Vorstadt 893.\nCantu-Hübscher, Joseph, Maurermeister von Vico-Morcote (Tessin),\n  Mezgergasse 101.\nCaviezel-Biveroni, Elise, Part. von Chur, hintere Vorstadt 638.\nChristoffel, Johann Martin, Bauführer von Sils (Graubünden), Rohrer-\n  straße 472.\nCima-Hauri, Johann, Mechaniker von Aquila (Tessin), Milchgasse 148.\n[handschriftlich: X] Conrad-Lüthi, Peter, Regierungsrath von Auw und Turgi, Bahnhof-\n  straße 1317.\nConsulat (Agentur) der Vereinigten Staaten von Nordamerika, Laurenzen-\n  vorstadt 418.\n[handschriftlich: X] Custer-Fueter, Hermann, Dr. phil., Fabrikant von Rheineck (St. Gallen),\n  Bahnhofstraße 651.\n[handschriftlich: X] Custer, Hermann Emil, Chemiker und Fabrikant, von Rheineck (St. Gallen),\n  Bahnhofstraße 651.\n[handschriftlich: X] Custer-Sauerländer, Mathilde, Wittwe, Part. von Rheineck (St. Gallen),\n  Laurenzenvorstadt 418.\n\nDätwyler, Johann, Holzspalter von Wittwyl, Halden 280.\nDätwyler, Marie, Privatin von Oftringen, Kirchhof 165 a.\nDätwyler-Meier, Johann, Taglöhner von Wittwyl, Ziegelrain 707.\nDätwyler-Merz, Susanne, Notars Wittwe, Mezgergasse 56.\nDätwyler-Wernle, Wilhelm, Taglöhner von Wittwyl, Halden 240.\nDambach-Heiniger, Johann Jakob Postangestellter von Oberbözberg,\n  Halden 92 a.\n[handschriftlich: X] Dambach-Wild, Jakob, Kreispostadjunkt von Brugg, Bahnhofstr. 1074.\nDavid-Hunziker, Julie, Wittwe, Part. von Basel, Rain 862.\nDecker, Elise, Part., Casinostraße 577.\nDecker-Hoffmann, Julius, Hufschmied, Casinostraße 577.\nDeubelbeiß-Schaffner, Samuel, Part. von Holderbank, hinter dem\n  Bahnhof 494.\nDiethelm-Kalanquin, Reinhard, Zugführer von Hefenhofen (Thurgau),\n  hintere Vorstadt 1236.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6764,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1989,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0256,
+    "mean_line_chars": 49.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:56:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p104",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p104.jpeg",
+      "bytes": 221517,
+      "sha256": "5c625cacfc34812959c908424eb1b942986747b8b89f68bb6175199c1cc29206",
+      "sha256_of": "original",
+      "working_copy": "1892_p104.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:56:28+00:00"
+  }
+}

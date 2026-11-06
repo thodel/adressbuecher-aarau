@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p136",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p136.jpeg",
+    "bytes": 284036,
+    "sha256": "32e9adae05888fd4212fcc5dd1b6d5ba38b2a3aa3d3539c8ad6e8faa254499e5",
+    "sha256_of": "original",
+    "working_copy": "1888_p136.jpeg"
+  },
+  "text": "118 Umiker — Wägeler.\n\nUmiker-Steiner, Samuel, Pferdewärter von Thalheim, Halden 248.\nUmiker-Wernli, Elisabeth, Part. von Thalheim, obere Vorstadt 928.\n[handschriftlich: ✗]Urech-Imhof, Friedrich, Pfarrhelfer, Graben 218.\nUrban-Nußbaum, Schreiner von Signitz (Schlesien), Ziegelrain 707.\nUrsprung-Meier, Genovefa, Weinhändler’s Wittwe von Nußbaumen,\n  Ziegelrain 751.\nUrsprung, Louise, Damenschneiderin von Nußbaumen, Ziegelrain 751.\nUster-Thut, Verena, Part. von Feuerthalen (Zürich), Schachen 736.\n\nVidiella, Manuel, Weinhändler von Sitges (Spanien), Zollrain 89.\n  Vogel-Dubs, Gottfried, Polizeiwachtmeister v Kölliken, Kronengasse 40.\nVogel, Elise, Glätterin von Kölliken, Kronengasse 40.\nVogel-Ernst, Johann, Taglöhner von Thalheim (Preußen), Scheiben-\n  schachen 313.\nVogel-Thomann, Johann, Säger von Flühlie (Luzern), Halden 268.\nVogel-Waßmer, Rudolf, Kaminfeger und Dachdecker, von Kölliken,\n  Entfelderstraße 1147.\n[handschriftlich: ✗]Vogt, Adolf, Zahnarzt von Bürglen (Thurgau), hint. Vorstadt 622.\nVogt-Keller, Marie, Hebamme von Villigen, Schachen 734.\nVogt-Kohler, Johann, Schuhmachermeister v. Remigen, ob. Vorstadt 911.\nVogt-Kyburz, Anna Maria, Wittwe, Vorgängerin von Mandach, vor dem\n  Haldenthor 1109.\n[handschriftlich: ✗]Vogt-Siegrist, Samuel, Wirth von Schinznach, Graben 222.\nVolkemer-Mußmann, Barbara von Pirmasens (Baiern), Bahnhofstr. 541.\nVollmann-Eifert, J. Georg, Steindrucker von Düdelsheim (Hessen), Pelz-\n  gasse 132.\nVonarx, Carolina, Wirthin von Olten, Zollrain 52.\nVonarx, Hedwig, Fabrikarbeiterin v. Stüßlingen (Solothurn), Halden 250.\nVon Brockdorff, Emilie, Comtesse von Kiel (Holstein), Gartenstr. 1103.\nVonfelten-Willimann, Franz Josef, Webermeister, Kronengasse 37.\nVonfelten-Willimann, Verena, Corsettschneiderin, id. id.\nVon Roten, Albert, Assistenzarzt v. Sitten (Wallis), Kantonsspital 1186. [handschriftlich: ✗]\n[handschriftlich: ✗]Vonwiller, Emilie, Klavierlehrerin von St. Gallen, Rathhausgasse 42.\n[handschriftlich: ✗]Vuillermot-Leblanc, Charles Jean L., Kaufmann von Verrieres (Waadt),\n  Zschokkestraße 977.\n  [handschriftlich: ✗]\n\nWächter-Haßler, Hans, Kurwirth zum „Alpenzeiger“ von Remigen,\n  Gißhügel 317.\nWächter-Lindenmann, Heinrich, Knecht von Mönthal, Milchgasse 145.\nWäffler-Stäuble, Heinrich, Turnlehrer von Basel, Pelzgasse 128.\nWägeler-Vogel, Karl, Dachdecker von Waldshut (Großh. Baden), vor dem\n  Haldenthor 1092.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8845,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2374,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:39:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p136",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p136.jpeg",
+      "bytes": 284036,
+      "sha256": "32e9adae05888fd4212fcc5dd1b6d5ba38b2a3aa3d3539c8ad6e8faa254499e5",
+      "sha256_of": "original",
+      "working_copy": "1888_p136.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:10+00:00"
+  }
+}

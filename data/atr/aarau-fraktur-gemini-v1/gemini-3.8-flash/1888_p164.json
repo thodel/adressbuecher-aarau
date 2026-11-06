@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p164",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p164.jpeg",
+    "bytes": 229481,
+    "sha256": "8f851edd202de8b0ac0db8adc293d70eae8c4ec9eb5cd383443ba61770ab529f",
+    "sha256_of": "original",
+    "working_copy": "1888_p164.jpeg"
+  },
+  "text": "146\n\nDruck und Verlag von Firma J. J. Christen,\n  Oberthor 139:\nSchweizerische landwirthschaftliche Zeit-\n  schrift, 1 Mal monatlich. Preis Fr. 6\n  für Aarau, franko auswärts Fr. 7. 50.\nAlpwirthschaftliche Monatsblätter, 1 Mal\n  per Monat. Preis Fr. 3.\nMittheilungen für Land-, Haus- und\n  Forstwirthschaft, 1 Mal wöchentlich.\n  Preis Fr. 4.\n\nDruck und Verlag von Keller, Gottfried,\n  Rain 839:\nAargauischer Anzeiger, 2 Mal wöchentlich.\n  Preis Fr. 5 für Aarau, franko für\n  auswärts Fr. 5. 20.\nSuhrenthaler-Bote, 2 Mal wöchentlich.\n  Preis Fr. 5 für Aarau, franko für\n  auswärts Fr. 5. 20.\nAargauisches Schulblatt, 2 Mal monat-\n  lich. Preis für Aarau und auswärts\n  Fr. 2. 50.\n\nDruck und Verlag von H. R. Sauerländer,\n  Laurenzenvorstadt 418:\nVom Jura zum Schwarzwald, viertel-\n  jahrsweise, per Jahrgang Fr. 6.\nIllustrirte schweizerische Jugendblätter,\n  1 Mal monatlich. Preis Fr. 5.\n\n[spalte 2]\nBienenzeitung, schweizerische, 1 Mal\n  monatlich.\nAmtsblatt des Kantons Aargau, 1 Mal\n  wöchentlich. Preis Fr. 6. 50 für Aarau,\n  franko auswärts Fr. 7. 50.\nAarg. Polizei-Anzeiger (Fahndungsblatt).\n\nDruck und Verlag von J. J. Spühler,\n  Redaktor, hintere Vorstadt 622:\nAargauer Nachrichten. 6 Mal wöchentlich.\n  Preis Fr. 9 für Aarau, franko aus-\n  wärts Fr. 11.\nAargauer Zeitung, 2 Mal wöchentlich.\n  Preis Fr. 6 für Aarau und auswärts.\n\nZiegelfabrikanten.\n\nErnst-Käser, Friedrich (Strangfalzziegelei),\n  obere Vorstadt 945.\nHauri-Siegenthaler, Karl, Rain 866.\nThut-Gidemann Hermann, Rain 863.\n\nZimmermeister.\n\nEichenberger, Rudolf, Milchgasse 154.\nHemmeler, Gottlieb, vor dem Halden-\n  thor 767.\nHort, Hans, Halden 254.\nNieding, Heinrich, Entfelderstraße 970.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6979,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1661,
+    "lines": 53,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0377,
+    "mean_line_chars": 29.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:43:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p164",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p164.jpeg",
+      "bytes": 229481,
+      "sha256": "8f851edd202de8b0ac0db8adc293d70eae8c4ec9eb5cd383443ba61770ab529f",
+      "sha256_of": "original",
+      "working_copy": "1888_p164.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:24+00:00"
+  }
+}

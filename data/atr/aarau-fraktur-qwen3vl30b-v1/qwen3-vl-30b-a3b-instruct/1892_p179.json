@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p179",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p179.jpeg",
+    "bytes": 225562,
+    "sha256": "f16b857e74c5cc2e8dd59eb109b5c6272beccac3d2f58442877ef8a831a9bc5d",
+    "sha256_of": "original",
+    "working_copy": "1892_p179.jpeg"
+  },
+  "text": "Bircher, Dr. Chef-Arzt\nBircher, Gebrüder, Cementfabrif\nBircher zur Eintracht\nBircher, Posthalter und Spezerei-handlung\nBlattner zum Kreuz\nBrentano, Max, Zahnarzt\nBührer-Heusler, Agentur\n\"Ethnologisches Gewerbemuseum\nBäurlin & Kummler, Elektrizitätswerk\nDed, Dr. med.\nDubs, Mezger und Wirth\nDreßler, Mercerie und Möbelhandlung\nEggimann, Wirth\nEgloff-Meier, Wirth\nEifengießerei und Weidgusfabrif\nErzinger, L., Chemiker\nExpedition des Aarg. Tagblattes\nErnst-Räfer, Röhrenfabrif\nFischer-Eglinger, Wirth\nFleiner, Albert, Cementfabrif\n\" Wohnung\nFörderer, Geschwister, Tapiserie und Wollwaaren\nFrey-Volley, C.\nFrey & Co., Chem. Fabrif und Spinnerei\nFrey-Zeer & Cie., Bandfabrif\nFrey, R. & M., Chocoladefabrif\n\" \"Heinrich\", Kunstmüehle\nFrey-Lüscher, Müller\nFrey-Ryhiner, Seidenzwirnerei\nFrey, Dr. med.\nFritter-Siebenmann, Vice-Command. d. Feuerwehr\nGamper, Adolf, Mezger\nGamper-Baumann, Schönaü\nGamper & Co., Konfektion\n\" Wohnung (Müller-Haberstich),\nGasfabrif\nGasser & Cie., Bandfabrif\nGerber, J., Marchand-Tailleur\nGloor-Siebenmann, Colonialwaaren u. Delicateffen\nGroßmann, Otto, Handelsgärtner\n\" Ablage\nGüterexpedition\nGyfi & Co., Mechaniker und Photograph\n\" Werkstätte\nHagnauer, A. & Cie., Lederhandlung\nHäfner, Hans, Teppich- und Lederhandlung\nHäfziger, Otto, Speisewirth und Mezger\nHäfzig-Sigle, Wirth\nHenx, Karl, Eisenwaaren\nHenx, Jakob, Eisenwaaren\nHöch, Gustav, Samenhandlung\nBiteurau\nHölzach, \"Dietrich, Bierbrauerei\nHölzach, Fritz, Mezger und Wirth\nHegnauer-Renold, Strohgelechtfabrifant\nKantonspsital.\nErflinsbach.\nErflinsbach.\nRüttigen.\nRüttigen.\nEntfelderstraße 1075.\nBachstraße 1174.\nObere Vorstadt 925.\nhinterm Platz 212.\nRüllinen.\nRathausgasse 32.\nRain 826.\nBahnhofstraße 1025.\nSchachen 731.\nHintere Bahnhofstraße 499.\nSchönenwerd.\nOberthor 228 a.\nObere Vorstadt 92.\nGais 486.\nWeinberg.\nLaurenzenvorstadt 586.\nRathausgasse 20.\nBachstraße 1062.\nTelli 431.\nBahnhofstraße 1016.\nBalaïnenweg.\nTelli.\nSchößland.\nSchößland.\nGraben 618.\nGraben 352.\nRathausgasse 22.\nMezgergasse 108.\nJenjeits der Are 307.\nRathausgasse 49—50.\nLaurenzenvorstadt 367.\nVor dem Salenthof 786.\nLaurenzenvorstadt 377.\nBordere Vorstadt 670.\nKronengasse 38.\nRüttingerstraße.\nGraben 205.\nBahnhofstraße 519.\nBordere Vorstadt 895.\nBachstraße 933.\nConradstraße 1255.\nBahnhofstraße 656.\nPetzgasse 136.\nBahnhofstraße 1317.\nBordere Vorstadt 903.\nBordere Vorstadt 678.\nMezgergasse 61.\nMezgergasse 113.\nBahnhofstraße 563.\nZiegelrain 700.\nHammer 194.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7219,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2426,
+    "lines": 112,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0268,
+    "mean_line_chars": 20.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:50:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p179",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p179.jpeg",
+      "bytes": 225562,
+      "sha256": "f16b857e74c5cc2e8dd59eb109b5c6272beccac3d2f58442877ef8a831a9bc5d",
+      "sha256_of": "original",
+      "working_copy": "1892_p179.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:23+00:00"
+  }
+}

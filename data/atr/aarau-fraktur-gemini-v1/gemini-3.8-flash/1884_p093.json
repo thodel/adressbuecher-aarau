@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p093",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p093.jpeg",
+    "bytes": 266015,
+    "sha256": "07ff99532b54143ee435c9efe2cb47680a40e85e2f5308dc877b69cae6792e1f",
+    "sha256_of": "original",
+    "working_copy": "1884_p093.jpeg"
+  },
+  "text": "89\n\nVerzeichniß der Behörden, Beamten und\nAngestellten\nder Stadtgemeinde Aarau.\n\nAmmann.\nTanner, Erwin, Fürsprech.\nVice-Ammann.\nWaßmer-Anstein, G., Kfm., z. Adler.\nGemeinderäthe.\nFrei-Frei, Karl, Kaufmann.\nGonzenbach-Gonzenbach, A., Ingenieur.\nHemmeler-Frei, Friedr., Kaufmann.\nLandolt, Karl, Fabrikant.\nStähelin-Herzog, Alfred, Med. Dr.\nGemeindeschreiber.\nNiggli-Bohnenblust, Arnold, Fürsprech.\nFriedensrichter.\nErismann, Samuel, Oekonom.\nSchulkommission.\nPräsident: Liechti, Professor.\nVice-Präsid.: Sauerländer, Remigius.\nMitglieder: Baumann-Gisi, Weinhdlr.\nFischer, Pfarrer.\nGonzenbach, Stadtrath.\nKurz, Fürsprech.\nSchäfer, Architekt.\nDr. Stähelin.\nTuchschmid, Professor.\nWernli, Pfarrer.\nZschokke, Pfarrer.\nAktuar: Frey, Sekretär.\nSteuerkommission.\nPräsident: Kraft, A., Notar.\nVice-Präsid.: Frey-Frey, Stadtrath.\nMitglieder: Doser, L., Dir.-Sekretär.\nFrey-Herzog, Aug., Oberst.\nHenz, H., Oberstlieut.\nSchäfer, Architekt u. Grfr.\nSchmidt-Hagnauer.\nStephani-Wettler.\nAktuar: Amsler, Stadtkassier.\nEinwohner-Rechnungskommission.\nPräsident: Dolder-Sayer, Kaufmann.\nMitglieder: Keller, alt Bez.-Amtmann.\nMerz-Ehrsam.\n[spalte 2]\nMitglieder: Stänz, Ingenieur.\nStierli, Fürsprech.\nZschokke-Frey.\nZurlinden-Rychner.\nOrtsbürger-Rechnungskommission.\nPräsident: Stierli, Buchdrucker.\nMitglieder: Henz, H., Oberstlieut.\nMüller-Haberstich.\nRothpletz, E., Verwalter.\nSchäfer, Ad., Architekt.\nSiebenmann, O., Kreis-\nkommandant.\nZschokke-Sauerländer.\nForstkommission.\nPräsident: Tanner, Stadtammann.\nVice-Präsid.: Gonzenbach, Stadtrath.\nMitglieder: Fahrländer, E., Ingenr.\nHäßig-Lienhard.\nLandolt, Stadtrath.\nSiebenmann, Bernhard.\nSiebenmann-Brun, B.\nSiebenmann, R., Bierbr.\nWaßmer, G., Stadtrath.\nZimmermann, Aug.\nBerathend: Meisel, Forstverwalter.\nAktuar: Niggli, A., Fürsprech.\nForstverwalter.\nMeisel, Xaver.\nFondsverwalter.\nAndres, Gottlieb.\nBauverwalter.\nSiebenmann-Hürsch, Gottlieb.\nCivilstandsbeamter.\nFrei-Kieser, Josef, Notar.\nStadt-Kassier.\nAmsler, Otto.\nGemeindeweibel.\nMüller, Jakob.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7738,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1984,
+    "lines": 84,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 22.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:22:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p093",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p093.jpeg",
+      "bytes": 266015,
+      "sha256": "07ff99532b54143ee435c9efe2cb47680a40e85e2f5308dc877b69cae6792e1f",
+      "sha256_of": "original",
+      "working_copy": "1884_p093.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:45+00:00"
+  }
+}

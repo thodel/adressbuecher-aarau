@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p033",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p033.jpeg",
+    "bytes": 262115,
+    "sha256": "f70830a1732bc95143590a9f2b7c1cc2214ea7a4e920939699023810509f7e7d",
+    "sha256_of": "original",
+    "working_copy": "1888_p033.jpeg"
+  },
+  "text": "Hauts-\nNr.\n267. Siebenmann-Marti, Rosina, Privatin.\nStrebel-Siebenmann, Karl, Sekretär.\nMarti-Siebenmann, Ida, Arbeitslehrerin.\nDöhnel, Emma, Spetterin, von Badenweiler (Baden).\n268. Merz-Dürr, Ida, Heizer.\nBogel-Thommen, Joh., Säger, von Flühli (Kuzern).\nFrank-Roland, Samuel, Schreiner.\n269.* Keller-Läuchli, Paul, Zuckerbäcker.\nWeitgenannt-Käser, Verena, Wittwe, Näherin, von Mingsolsheim (Baden).\nKäser, Friedrich, Buchbinder, von Oberflachs.\nGennert-Müller, Eduard, Schneider, von Ezubel (Breuken).\n270.† Derselbe.\n271. Fisch-Dürr, Samuel, Schuhmachermeister.\nDürr, Karolina, Glaserz.\nFisch, Maria, Fabrikarbeiterin.\n272.* Häffig-Dätwyler, Siegrißs Erbschaft.\nWehrli-Steiner, Joh., Knecht, von Usp.\nSteiner-Haller, Maria, Part, von Gontenschwyl.\nAmsler-Büchli, Maria, Privatin, von Bözen.\n273. Keller-Baushofer, Daniel, Färber, von Villigen.\nMüller, Roja, Vorgängerin, von Unterkulm.\n274. Berttschi, Jakob, Postangestellter, von Dürrenäsch.\nBerttschi, Ida, August, Sekretär, von Dürrenäsch.\nBerttschi, Adolf, Wagner, von Dürrenäsch.\nGünth-Furter, Joh., Maurer, von Mattsch (Tyrol).\nFischer, Friedrich, Fuhrmann.\nFischer, Adelina, Hausälterin.\n275.* Armengut der Gemeinde Aarau.\nSchäfer-Echeller, Otto, Tapezierer.\nRämisperger-Hemmeler, Gottfried, Spengler.\nSchäfer-Frei, Emil, Zeughausarbeiter.\n276.* Rothpleg-Roth, Schreiners Erbschaft.\nAdrion-Stauff, Andres, Hafner, von Alpirsbach (Württemberg).\nStauff, Sabina, Damenschneiderin, von Weilheim (Hohenzollern).\nMatt-Rothpleg, Wilhelm Friedrich, Schriftsetzer, von Wittlensweiler (Württemberg).\n277. Woodtli-Huber, J. Diethelm, von Ofringen. Restauration.\nBolliger-Spect, Elisabeth, Part., von Schloßrued.\nBolliger, Emil, Buchbinder, von Schloßrued.\n278.† Kiefer-Leypraz, Fanny, Meggers Wittwe, Schweinemetzg.\n279.* Baumberger, Emanuel, in Väsel.\nSchmid-Unger, Rudolf, Weichenvärter, von Erlinsbach.\nSchmid, Marie, Damenschneiderin, von Erlinsbach.\nFrei-Dürr, Gottfried, Taglöhner, von Trachselwald (Bern).\nNütperli, Johanna, Weizgerberz, Partiz.\nWirz-Elsäfer, Rudolf, Wärter (Kant. Krankenanstalt), von Schloßrued.\n280. a. Pfeil-Schacher, Joseph, Maurer, von Paffau (Bayern).\nSchlapbach-Ruhn, Joh., Ziegler, von Belp (Bern).\nBachmann-Müller, Rudolf, Maurer, von Bottenwyl.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4643,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2228,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p033",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p033.jpeg",
+      "bytes": 262115,
+      "sha256": "f70830a1732bc95143590a9f2b7c1cc2214ea7a4e920939699023810509f7e7d",
+      "sha256_of": "original",
+      "working_copy": "1888_p033.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:06+00:00"
+  }
+}

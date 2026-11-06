@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p010",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p010.jpeg",
+    "bytes": 327756,
+    "sha256": "87dae37a69780f1e8a4e8dd42bc42bb6f36843ad7d4e7731efe760e523fd7157",
+    "sha256_of": "original",
+    "working_copy": "1884_p010.jpeg"
+  },
+  "text": "6\n\nDank dieser günstigen Lage gehört Aarau zu denjenigen Ortschaften\nder Schweiz, welche in Bezug auf Leichtigkeit des Verkehrs und Bequemlichkeit\nder Verbindungen vielen größern städtischen Anlagen überlegen sind.\nEinen alt bestehenden und in der Natur ihrer Lage begründeten Uebel-\nstand hat die Stadt in den letzten Jahren in gründlicher Weise beseitigt.\nDieselbe ist gegenwärtig durch eine erweiterte Wasserversorgung aus\ndem Gönhard mit gutem Trinkwasser reichlich versehen. 42 öffentliche und\n248 Privatbrunnen sprudeln beständig oder nach Wunsch einen klaren, frischen\nTrunk, zahlreiche Springbrunnen verschönern die Privatanlagen und 43\nHydranten leisten Hilfe bei Feuersgefahr.\nSchon zu der Zeit, als Aarau einige Aussicht hatte, helvetische Haupt-\nstadt zu werden, fühlte es sich in seinem Röcklein zu enge; die regelmäßigen\nHäuserviertel der Altstadt genügten nicht mehr, und es entstand die Zeile\nder stattlichen Häuser der Laurenzenvorstadt. Das Aufblühen schweizerischer\nIndustrie rief mächtigen Fabrikanlagen am Fuße des alten festen\nSchlößlithurms und in der Telli und schuf hübsche Privatsitze mit weit-\nläufigen Parkanlagen an der Rohrerstraße.\nIn den letzten Jahrzehnten entstanden eben dort die groß angelegten\nWerkstätten, welche heute eidgenössisches und kantonales Kriegsmaterial bergen.\nDie oben erwähnte günstige Lage des Ortes veranlaßte den Bau der ge-\nräumigen Lagerhäuser der Centralschweiz; der moderne Zug, den\nengen Geschäftsräumen gedrängter Häuserviertel zu entfliehen, veranlaßte die\nEntstehung des neuen Quartiers an der Entfelderstraße, wo die Bauherren sich\nmehr nach eigener Lust und Bequemlichkeit, als nach den strengen Regeln\neines städtischen Bauplanes richteten, der sich erst in jüngster Zeit in den\nNeubauten am Stadtbach Geltung verschaffte, sowie ein wohl durchdachtes\nSystem neuer Anlagen und Straßen gegen Rohr, Suhr und den Gönhard\nvorsieht, wo gegenwärtig den neuen Bauten der kantonalen Kranken-\nanstalt das einsame alte Pulverhaus einstweilen noch Gesellschaft leistet.\nSo strebt die Stadt nach außen und reckt sich. Neben bescheidenen\nBürgerwohnungen entstehen hübsche Villen und erwachsen schattige Parke;\naber auch im Innern kommt der Architekt und die Kunst zu neuem Rechte.\nAn den Eisenweg der Gegenwart pflanzten sich die eidgenössische\nPost, die aarg. Bank, das große städtische Schulhaus, die ge-\nräumigen Kasernen. Neben dem trotzigen Oberthurm mit seinem\nhochragenden Eisenhelme und den Thurmzierden der Stadtkirche strebt\nlustig die schlanke romanische Thurmspitze der neuen katholischen Kirche\nin das Blau des Himmels; die evangelische Kapelle an der Bahnhof-\nstraße und die Loge der Freimaurer hinter dem Bahnhof haben sich\ndagegen mit einer einfachen und bescheidenen Architektur begnügt. Größern",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7382,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2764,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 66.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:09:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p010",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p010.jpeg",
+      "bytes": 327756,
+      "sha256": "87dae37a69780f1e8a4e8dd42bc42bb6f36843ad7d4e7731efe760e523fd7157",
+      "sha256_of": "original",
+      "working_copy": "1884_p010.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:09:45+00:00"
+  }
+}

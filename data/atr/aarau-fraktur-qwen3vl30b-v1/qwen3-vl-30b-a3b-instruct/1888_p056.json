@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p056",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p056.jpeg",
+    "bytes": 258822,
+    "sha256": "2f1edd3b69b26e5f6096aa64a72ef19d398696f3b7ba9e79ac05cb20c105ad15",
+    "sha256_of": "original",
+    "working_copy": "1888_p056.jpeg"
+  },
+  "text": "Haus-\nNr.\n688.* Derfelbe. Wohnhaus.\n  Plüß geb. Plüß, Maria, Part.\n  Plüß, Louise, Lehrerin.\n  Plüß, Anna, Damenschneiderin.\n  Hagnauer, Hedwig, Lehrerin.\n  Arndt, Martha, Ladentochter, von Porris (Brenzen).\n689.* Bircher, Johann Jakob, Trämer und Posthalter in Rüttigen.\n  Schmid-Fischer, Heinrich, Kaufmann, von Wittnau.\n  Fischer-Brunnhoser, Margaretha, Schreiners Witwe.\n  Frey, Heinrich, Notar, von Contenschwyl. Notariats- und Inkassogeschäft.\n  (Büreau.)\n690.* Gemeinde Aarau. Amtshaus.\n  Bezirksamt und Staatsanwaltschaft.\n  Kantonaler Polizeiposten und Bezirksgefängnisse.\n  Giger-Sommerhalter, Jakob, Polizeikorporal und Gefangenwart, von\n  Contenschwyl.\n  Giger, Lina, Damenschneiderin, von Contenschwyl.\n691.* Ernst=Psisterer, Lina, Wittwe, Part. Bierbrauerei.\n692.* Diefelbe. Bierwirthschaft.\n  Wirth, Emma, von Hägglingen. Wirthschafts inhaberin.\n  Wirth geb. Liebinger, Barbara, Wittwe, Part., von Hägglingen.\n693.* Landolt-Hächler, Gottlieb, Mezger.\n  Lindegger-Riburg, Gottfried, Bahnbeamter, von Oberentfelden.\n  Bolliger-Hunziker, Heinrich, Bahnangestellter, von Schmiedrued.\n694.* Siebenmann-Brunnhoser, Otto, Schlosser.\n  Rüetschi-Küpperli, Sophie, Wittwe, Part.\n  Frey=Spengler, Elise, Reg.-Raths Witwe, von Zurzach.\n  Ebner-Zimmermann, Joseph, Schriftsetzer, von Birkingen (Großherzog-\n  thum Baden).\n695. Abgetragen. In dessen Plaz\n1236  * Hirsch=Merz, Jakob, Uhrenmacher.\n  Theodor-Hagnauer, Amadeus, Eisenbahnkondukteur, von Pizy (Waadt).\n  Theodor-Hagnauer, Maria, von Pizy. Wollwaaren-, Mercerie- und\n  Korbmwaarengeschäft.\n  Meier, Ferdinand, Kaufmann, von Büren zum Hof (Bern).\n  Plüß-Stephani, Mary, Buchhalters.\n696. Rohr-Schindler, Samuel, Gastwirth z. Wildenmann.\n  Jäder, Joseph, Comestibleshändler, von Lachapelle-sous-Rougemont\n  (Franreich).\n  Strub-Uttinger, Emanuel, Tapezierer, von Läufelsingen (Baselland).\n  Möbel-, Tapeten- und Spiegellager.\n697. Bircher, Ludwig, Part.\n  Bircher, Ludwig Emil, Postcommis.\n  Mayer, Thomas, Schuhmachermeister, von Eigoldingen (Baden). (Werk-\n  stätte).\n698. Delhafen-Kufli, Rudolf, Metzgermeister.\n  Delhafen, Arnold, Mezger, Sohn.\n699. Bildi-Plüß, Maria, Wittwe, Salzbütte.\n  Plüß, Rosina, Weiznäherin, von Nyfen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4468,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2191,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:22:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p056",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p056.jpeg",
+      "bytes": 258822,
+      "sha256": "2f1edd3b69b26e5f6096aa64a72ef19d398696f3b7ba9e79ac05cb20c105ad15",
+      "sha256_of": "original",
+      "working_copy": "1888_p056.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:42+00:00"
+  }
+}

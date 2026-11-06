@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p150",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p150.jpeg",
+    "bytes": 278563,
+    "sha256": "5dc8684dae65b9aff84983a38b7662b7a52882ec2dffed0e3b5871fdc693ed32",
+    "sha256_of": "original",
+    "working_copy": "1888_p150.jpeg"
+  },
+  "text": "132\n\nBalmer, Karoline, obere Vorstadt 924.\nBerner, Anna, Halden 266.\nBlume-Hirt, Marie, Hammer 189.\nBlume, Anna, Hammer 189.\nBrunner, Auguste, Bachstraße 1038.\nBruns-Gattiker, Dorothea, Pelzgasse 128.\nDietiker, Emma, Golattenmattgasse 237.\nFisch-Dürr, Elise, Halden 271.\nFrey, Rosa, vor dem Haldenthor 810.\nHässig, Elise, Rathhausgasse 47.\nHässig, Rosette, Rathhausgasse 47.\nHaller-Ottiger, Maria, Halden 282.\nHaßler, Sophie, Adelbändli 172.\nHaßler, Margaretha, Halden 264.\nHort-Hemmeler, Elise, Halden 276.\nKnobloch geb. Voigt, Louise Anna, Hal-\n  den 284.\nLüthi-Kneubühler, Anna, Kirchgasse 15.\nLüscher, Elise, Rathhausgasse 24.\nMerz-Dürr, Emma, Halden 286.\nPeyer-Voß, Wilhelmine, Kirchgasse 11.\nSchatzmann-Häring, Elisabeth, Halden 290.\nSchneider, Anna, Golattenmattgasse 234.\nSiegenthaler-Hirt, Elise, Bahnhofstr. 1025.\nVogel, Elise, Kronengasse 40.\nWeber-Schäfer, Lina, Milchgasse 155.\nWiederkehr = Oeschger, Viktoria, Milch-\n  gasse 152.\n\nGlashandlungen.\nKaiser, Sigmund, Kronengasse 35.\nRies-Buhlrein, El., Ziegelrain 702.\n\nGlaswaarenhandlungen.\nHemmeler-Stahl, Ida (Firma: Ritter-\n  Stahl), Rathhausgasse 21.\nKaiser, Sigmund, Kronengasse 35.\nMorath, Johann, Rathhausgasse 2.\nSchmidt-Lanz, Adolf, obere Vorstadt 936.\n\nGlasurmühle.\nSchmidt-Lanz, Adolf, obere Vorstadt 935.\n\nGlockengießerei.\nRüetschi & Cie., Rainstraße 844.\n\nGrabsteinlager.\nRusterholz u. Freihofer, Rain 885.\n\nHaargeflechte.\nSommerhalder, J., Coiffeur, Pelzgasse 65.\n\n[spalte 2]\nHafner.\nAndres, Otto, Milchgasse 78.\nAndres, Friedrich, obere Vorstadt 916.\nHemmeler, Wilhelm, obere Vorstadt 944.\nWespi, Karl, Entfelderstraße 966.\n\nHafnereien.\nAndres, Friedrich, Bachstraße 1036.\nHemmeler, Wilhelm, obere Vorstadt 919.\n\nHalbwollenstofffabrikation.\nGuye, Oskar, in der Telli 456.\nStrich, Julius, Ziegelrain 751.\n\nHaushaltungsartikel.\nFaller, Elise Louise (Firma Gebrüder\n  Faller), Kronengasse 41.\nFaller, Friedrich, Rathhausgasse 17.\nHemmeler-Haßler, August, Metzgergasse 55.\nHenz-Gautschi, Emil, vordere Vorstadt 903.\nSchmid, Joh., vordere Vorstadt 889.\n\nHebammen.\nBrunner-Knecht, Verena, Halden 287.\nPlüß-Zimmerli, Marie, Kronengasse 40.\nVogt-Keller, Marie, Schachen 734.\nWildi-Schneider, Anna, Casinostraße 1176.\n\nHemdenfabrikation.\nBolliger-Manger, Gustav, hintere Vor-\n  stadt 646.\nDolder, Jakob, Graben 219.\nErißmann u. Blattner, hintere Vorst. 621.\nHaßler-Hunziker, Karl, Bahnhofstr. 1020.\n\nHolzhandlungen.\nHausmann, Johann, Färbergäßchen 125.\nHitz, Otto, Rainstraße 875.\n\nHolzspalter.\nBertschi, Rudolf, Halden 248.\nDätwyler, Johann, Halden 266 b.\nErißmann, Samuel, Kirchgasse 10.\nHäusermann, Jakob, Ziegelrain 745.\nHübscher, Anton, Adelbändli 84.\nHunziker, Heinrich, Halden 263.\nNeeser, Samuel, vor dem Haldenthor 1084.\nRohr, Heinrich, Pelzgasse 132.\nWernli, Samuel, Hammer 185 c.\nZimmerli, Joh., Golattenmattgasse 237 a.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9076,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2799,
+    "lines": 90,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0111,
+    "mean_line_chars": 29.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:41:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p150",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p150.jpeg",
+      "bytes": 278563,
+      "sha256": "5dc8684dae65b9aff84983a38b7662b7a52882ec2dffed0e3b5871fdc693ed32",
+      "sha256_of": "original",
+      "working_copy": "1888_p150.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:14+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p081",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p081.jpeg",
+    "bytes": 276344,
+    "sha256": "3ca094ddff3c2a5a0ab0e691c8ec33051ce27f9661e1b5192e91bc7768a0dcaa",
+    "sha256_of": "original",
+    "working_copy": "1888_p081.jpeg"
+  },
+  "text": "— 71 —\n\nHaus=\nNr.\n1195. Riniker=Wernli, Hermann. (Entfelderstraße.)\n1196.† Zulauf=Siebenmann, Weinhändler. Remise. (Bachstraße.)\n1197. Pfarrhaus zur röm.-kath. Kirche. (Igelweid.)\n1198.† Zschokke=Sauerländer, Guido. Bienenhaus (Zschokkestraße).\n1199. Ernst=Pfisterer, Wittwe. Schopf (Gartenstraße).\n1200.* Zschokke, Conradin, Ingenieur. (Entfelderstraße.)\n1201.† Frey=Kumpf, Fried. Waschhaus (vor dem Haldenthor).\n1202.† Zschokke, Conradin, Ingenieur. Oekonomiegebäude (Entfelderstraße).\n1203.† Riniker, Herm., Küfer. Holzmagazin (Entfelderstraße).\n1204.† Wächter, Johann, Wirth. Holzhaus und Stallung (Alpenzeiger).\n1205.† Zschokke, Conradin, Ingenieur. Holz= und Hühnerhaus (Entfelder=\n  straße).\n1206.† Wächter, Johann, Wirth. Trinkhalle (Alpenzeiger).\n1207.† Schmidt, Adolf, Sattler. Werkstätte (Bachstraße).\n1208.† Diakonissenstation Aarau. Wasch= und Glättehaus (Bahnhof=\n  straße).\n1209.† Fischer, Thomas, Bierbrauer Eiskeller (Rohrerstraße).\n1210.* Schäfer, Adolf, Architekt. (Lindenhof, Gais.)\n1211.† Zurlinden & Cie. Brennofenhaus (Scheibenschachen).\n1212.† Dieselben. Cementmagazin. id.\n1213.† Dieselben. Materialschuppen. id.\n1214.† Holzach=Siebenmann, Dietrich, Bierbrauer. Eishaus (Bahnhof=\n  straße).\n1215.† Derselbe. Wasch= und Holzhaus (Bahnhofstraße).\n1216.† Ernst=Pfisterer, Wittwe. Eiskeller (Gartenstraße).\n1217.* Schäfer, Adolf, Architekt. (Lindenhof, Gais.)\n1218.† Siegrist, Heinrich, Metzger. Stallung (vor dem Haldenthor).\n1219.† Kull, Philipp, Spengler. Magazin id.\n1220.† Kern=Saxer, Adolf. Bienenhaus id.\n1221.† Zurlinden=Richner, Rud., Fabrikant. Holzremise (Bahnhofstraße).\n1222.† Vogel, Rudolf, Dachdecker. Schopf (Entfelderstraße).\n1223. Abgetragen.\n1224.† Hediger, Hermann, Gärtner. Gewächshaus (Friedhof).\n1225.† Waßmer=Kummler, Emil. Holzhaus (Rain).\n1226.† Derselbe. Gartenhaus (Rain).\n1227.† Andres, Jakob, Schreiner. Schopf (jenseits der Aare).\n1228.† Andres, Gottlieb, Fondverwalter. Schopf id.\n1229.† Erismann, Friedrich, Güterexpedient. Stallung (in der Gais).\n1230.† Zurlinden & Cie. Schopf (Scheibenschachen).\n1231. Riniker, Friedrich, Bierbrauer. Wohnhaus und Eiskeller (Laurenzen=\n  thorgasse).\n1232. Lüscher=Greminger, Daniel, Schlosser. (Igelweid.)\n1233.† Landolt=Thommen, Karl, Fabrikant. Magazine (obere Vorstadt).\n1234.† Siebenmann, Rud., Part. Holzhaus (Bankstraße).\n1235.† Landolt, Alexander, Vater. Wagenremise (hintere Vorstadt).\n1236.* Hirschy, Rudolf, Uhrenmacher. Wohnhaus id.\n1237. Dürr, Gabriel, Gemüsehändler. Wohnhaus (am Graben).\n1238.† Fleiner, Alberts Erbschaft. Thurm mit Transmission (jenseits der\n  Aare).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7801,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2572,
+    "lines": 52,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0385,
+    "mean_line_chars": 48.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:32:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p081",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p081.jpeg",
+      "bytes": 276344,
+      "sha256": "3ca094ddff3c2a5a0ab0e691c8ec33051ce27f9661e1b5192e91bc7768a0dcaa",
+      "sha256_of": "original",
+      "working_copy": "1888_p081.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:42+00:00"
+  }
+}

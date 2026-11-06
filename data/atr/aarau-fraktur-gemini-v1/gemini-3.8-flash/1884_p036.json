@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p036",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p036.jpeg",
+    "bytes": 342958,
+    "sha256": "b36bfbcc606ea6d8b62929e6ad97b74392ab867c39724df6cf4349a34f427c7f",
+    "sha256_of": "original",
+    "working_copy": "1884_p036.jpeg"
+  },
+  "text": "32\tKielholz.\t—\tKurz.\n\nKielholz-Aeschbach, Gottlieb, Postbeamter, von Mettau, Bachstraße 1040.\n*Kiefer-Haßler, Samuel, Postkassier, Graben 209.\n*\t—\t=Schmuziger, Robert, Bankbeamter, hinter dem Bahnhof 503.\n*\t—\t=Leyvraz, Fanny, Metzgers Wittwe, Wirthin, Zollrain 87.\n*\t—\tWilhelm, Sohn, Metzger, Zollrain 87.\nKirchhofer-Obrist, Fried., Kaufmann, von Auenstein, Bahnhofstraße 1024.\n\t—\t=Schlatter, Maria, Küfers Wittwe, v. Schaffhausen, Golattenmtg. 235.\nKirchner-Bonwiller, Ida, Modistin, v. Meersburg (Sachsen), Rathhg. 42.\nKlauenbösch, Jb., Buchbindergehülfe, von Hirschthal, Adelbändli 172.\nKlauser-Fäs, Jakob, Aufseher, von Schmiedrued, Milchgasse 152.\nKlingelfuß-Wieseler, Joh. Friedr., Mechaniker u. Eichmeister, von Basel,\n\t\tWeinberg 326.\n\t—\t=Scheffer, Fritz, Sohn, Mechaniker, von Basel, Weinberg 321.\nKnecht-Bögeli, Barbara, Spetterin, von Leuggern, Halden 264.\nKnoch-Weiland, Musik-Instruktor, von Erfurt (Preußen), Rainstr. 838.\nKohler-Egli, Joh., Taglöhner, v. Oberbözberg, vor dem Haldenthor 767.\n\t—\t=Felber, Verena, Partik., von Unterbözberg, Adelbändli 85.\n\t—\tJohann, Commis, von Unterbözberg, Ziegelrain 700.\nKohlmann-Läuchli, Gabr., Lithograph, v. Daxlanden (Baden), Milchgasse 78.\nKönig-Steininger, Friedrich, Küfer, von Bottenwyl, Rainstraße 877.\nKraft-Kaspar, Adolf, Notar, von Brugg, neues Quartier 977.\n\t—\t=Gautschi, Auguste Friedrike, Wittwe, Partik., v. Brugg, Milchg. 158.\n\t—\t=Stäbli, Lisette, Partik., von Brugg, obere Vorstadt 966.\n\t—\t=Siegrist, Bertha, Partik., von Brugg, Rainstraße 874.\nKramer, Jakob, Taglöhner, von Rued, Rathhausgasse 3.\n\t—\t=Müller, Jakob, Knecht, von Zezwyl, in der Telli 440.\nKrähenbühl, Louise, Näherin, von Altishofen (Luzern), Halden 264.\nKubli, Felix, Güterexpedient, von Netstall (Glarus), Casinostraße 1176.\nKuhn-Buser, Alfred, Schlosser, von Wangen (Zürich), Ziegelrain 750.\n\t—\t=Stadtmann, Rosa, Fabrikaufseherin, v. Jllnau (Zürich), Pelzg. 122.\n\t—\tJosef, Posamenter, von Schönenwerd (Solothurn), Ziegelrain 703.\n*Kull, Philipp, Spengler, Milchgasse 146.\n\t—\t=Hartmann, Friedr., Drucker, v. Fluntern (Zürich), Adelbändli 174.\n\t—\t=Müller, Anna, von Niederlenz, Wollenwaarenhdlg., Milchgasse 144.\n\t—\t=Kyburz, Karoline, Wäscherin, von Niederlenz, Rainstraße 833.\n\t—\tAdolf, Postbeamter, von Niederlenz, Rathhausgasse 20.\nKummler-Frei, Auguste, Wittwe, Partik., Bachstraße 1174.\nKunz-Heß, Joh. Jakob, Zuckerbäcker, von Wald (Zürich), Bachstraße 1141.\n\t—\t=Vollenweider, Hans Heinrich, Heizer, von Mönchaltorf (Zürich),\n\t\tMilchgasse 75.\n\t—\tNanette, Näherin, von Mönchaltorf (Zürich), hintere Vorstadt 643.\nKurz, Erwin, Fürsprech, v. Schwammendingen (Zürich), Laurenzenvorst. 360.\n\t—\t=Amsler, Barbara, Professors Wittwe, Partik., v. Schwammendingen\n\t\t(Zürich), Laurenzenvorstadt 360.\n\t—\t=Häfliger, Heinrich, Baumeister, von Schwammendingen (Zürich), in\n\t\tder Gais 1131.\n\t—\t=Schmidt, Lisa, Wittwe, Partik., von Schwammendingen (Zürich),\n\t\tPelzgasse 129.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9975,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2897,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:13:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p036",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p036.jpeg",
+      "bytes": 342958,
+      "sha256": "b36bfbcc606ea6d8b62929e6ad97b74392ab867c39724df6cf4349a34f427c7f",
+      "sha256_of": "original",
+      "working_copy": "1884_p036.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:13:32+00:00"
+  }
+}

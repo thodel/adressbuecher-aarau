@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p042",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p042.jpeg",
+    "bytes": 210144,
+    "sha256": "67c8b62782b648f63ef448f68cfe7e727a6a8708d3170698c2621fa0b27896db",
+    "sha256_of": "original",
+    "working_copy": "1892_p042.jpeg"
+  },
+  "text": "— 34 —\n\nHaus-\nNr.\n  Bucher-Rohr, Gottlieb, Fabrikarbeiter, von Niederweningen (Zürich).\n  Bucher-Wirz, Marie, Wittwe, Part., \" \" \"\n  Sandmeier, Melchior, Part., von Seengen.\n  Rodel-Sandmeier, Anna, Wittwe, Fabrikarbeiterin, von Staufen.\n441. † Derselbe. Wasch- und Holzhaus.\n442. † \" Baumwollspinnerei.\n443. † \" Wasserrad und Transmission.\n1245. † Frey, Robert und Max, Chokoladefabrikanten. Maschinenhäuschen.\n444. a. Frey-Herzog, August, Fabrikant. Wohngebäude.\n444. b. † Derselbe. Schreinerwerkstätte.\n445. * Derselbe.\n  Schibler-Sinniger, Rudolf, Aufseher, von Walterswyl (Solothurn).\n446. † Derselbe. Gebäude mit Wasserstellfallen.\n447. † \" Magazingebäude.\n448. Obrist-Diener, Theodor, Postpacker, von Magden.\n449. Jenny & Weigel. Färberei- und Druckereigeschäft.\n  Jenny-Kunz, Adolf, Kaufmann, von Iffwil (Bern).\n  Weigel-Imbach, Johann, Färber, von Glauchau (Sachsen).\n450. † Dieselben. Scheune und Tröcknehaus.\n451. † \" Fabrikgebäude.\n452. † \" Färberei.\n453. † \" Druckerei.\n1085. † \" Farbgebäude.\n1158. † \" Fabrikgebäude.\n454. * Krippendorf-Müller, Herm., Prof. Dr. phil., in Dresden.\n  Rothpletz-Bürgi, Maria, Pfarrers Wittwe.\n  Haßler-Weisser, Arnold, Commis.\n455. * Derselbe.\n  Weisse-Meinj, Karl, Färbermeister, von Glauchau (Sachsen).\n1133. † Imhof-Aman, Ernst, Fabrikationsgebäude.\n456. Guyer-Gunkel, Oskar, Halbleinfabrikant.\n457. † Derselbe. Fabrikationsgebäude.\n458. † \" Scheune.\n459. † \" Tuchwalke.\n460. Gautschi-Leuenberger, Rudolf, Oekonom, von Reinach.\n  Gautschi-Roth, Rudolf, Sohn, Oekonom, von Reinach.\n1159. † Derselbe. Waschhaus.\n461. † Fischer, Thomas, Bierbrauer. Bierkeller.\n1209. † Derselbe. Eiskeller.\n462. † Staat Aargau. Turnhaus.\n\nRohrerstraße.\n\n463. Spirgi-Hochstraßer, Samuel, Landwirth, von Unterkulm.\n464. † Lagerhäuser der Centralschweiz. Petrol.-Keller (Alkoholdepot).\n  Amsler, Ludwig, Abwart, von Densbüren.\n1344. † Lagerhausgesellschaft. Büreau.\n1253. † Keller-Steiner, Karl, Heuschuppen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5372,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1932,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:49:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p042",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p042.jpeg",
+      "bytes": 210144,
+      "sha256": "67c8b62782b648f63ef448f68cfe7e727a6a8708d3170698c2621fa0b27896db",
+      "sha256_of": "original",
+      "working_copy": "1892_p042.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:37+00:00"
+  }
+}

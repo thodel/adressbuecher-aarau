@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p068",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p068.jpeg",
+    "bytes": 224820,
+    "sha256": "3e4b7842c2f2274d0aba140d2839c686163163b6f22f553a4e35e54fdf7dcecb",
+    "sha256_of": "original",
+    "working_copy": "1892_p068.jpeg"
+  },
+  "text": "Haus\nNr.\n862. * Schweizer-Siebenmann, Fried. Ferd., Part., von Dättwyl.\nSchweizer-Gubler, Nanette, Staatsarchivars Wittwe, von Dättwyl.\nWydler-Gubler, Paulina, Wittwe, Part.\nBührer-Gubler, Jakob, Kaufmann, von Bibern (Schaffhausen).\nDavid-Hunziker, Julie, Wittwe, Part., von Bafel.\n863. Thut-Gidemann, Hermann, Ziegler, von Oberentfelden, mechanische\nZiegelei.\n864. † Derfelbe. Ziegelhütte.\n865. † Gemeinde Aarau. Holzmagazin\n866. Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\n867. † Derfelbe. Schopf.\n868. †\n869. \"Fahrländer\"Siebenmann, Maria, Med. Drs. Wittwe.\nFahrländer-Johannes, Eugen, Ingenieur.\nSiebenmann-Hodel, Fritz, Commis.\nHodel, Josepha, Part., von Rheinfelden.\nWitt, Paul, Fürsprech, Gerichtspräsident, von Schinznach.\n870. † Dietelbe. Holzhaus.\n871. Schneider-Wösch, Fridolin, Oberrichter, von Herznach.\nZischotte-Zimmerli, Justina, Wittwe, Part.\n872. Kern-Saxer, Adolf Partik.\nSaxer geb. Truog, Anna, Wittwe, Haushälterin.\n873. † Derfelbe. Holzhaus.\n874. Siegrist-Hunzifer, Emil, Kaufmann, Beamter des Niederlagshauses\nin Aarau.\nMeier-Bucher, August, Direktionssekretär, von Oberfiggenthal.\nRebmann-Häfiger, Karl Jakob, Maler, von Fellbach (Württemberg).\n(Malerwerkstätte.)\n875. Hitz-Lanz, Otto, Regt., Spezerei- und Brennmaterialienhandlung.\nHitz, Bertha, Part., von Hauen am Albis (Zürich).\nBauhofer-Müller, Samuel, Thierarzt, von Reinach.\nSchumann-Ringier, Albert, Professor, von Gotha (Thachsen).\nDietiker, Susanna, Spetterin, von Thalheim.\nBrunnhofer, Elise, Damenschneiderin.\nFisch, Mina (Kleindinderschule).\nSuter-Kähr, Elisabeth, Part., von Rapperswyl (Bern).\n876. † Hitz-Lanz, Otto, Regt. Scheune.\n877. Wehrli-Kähr, Jakob, Part., von Densbüren.\nBertschi, Adolf, Wagner, von Dürrenäsch.\nKähr, Marie Anna, Part., von Rüderswyl (Bern).\nSommerhalder-König, Jakob, Hausknecht, von Contenswyl.\nHärrli-Baumann, Arnold, Postcommis, von Birmwil.\nVogel-Strähler, Jakob, Wagenkontrolleur, von Külliken.\nZweifel, Samuel, Schreiner, von Linthal (Glarus). Schreinerwerkstätte.\n878. Keller-Steiner, Karl, Hafer- und Weinhändlung.\nSteiner, Johann, Part.\nSteiner-Lindenmann, Susanne, Wittwe, Part.\nMüthberg-Sutermeister, Fritz, Dr. Professor.\nHoffmann-Gamper, Emil, Kassier.\n[spalte 2]\n128",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4564,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2199,
+    "lines": 53,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.51,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p068",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p068.jpeg",
+      "bytes": 224820,
+      "sha256": "3e4b7842c2f2274d0aba140d2839c686163163b6f22f553a4e35e54fdf7dcecb",
+      "sha256_of": "original",
+      "working_copy": "1892_p068.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:07+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p071",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p071.jpeg",
+    "bytes": 215046,
+    "sha256": "c6606ff07375c3cbd695dc33506e75895635c465d03f05a0750040a278bc696a",
+    "sha256_of": "original",
+    "working_copy": "1892_p071.jpeg"
+  },
+  "text": "— 63 —\n\nHaus-\nNr.\n  Müller, Elise, Glätterin, von Biberstein.\n  Hunziker-Sandmeier, Fritz, Drechsler.\n  Werder-Müller, Emil, Eisenbahnkondukteur, von Endingen.\n922. Siegrist-Lindenmann, Johann, Schuhmacher, von Meisterschwanden.\n    Colonialwaarenhandlung.\n  Wüthrich-Bartlome, Alexander, Küfer, von Trub (Bern).\n923. Ernst-Käser, Friedrich, Röhrenfabrikant.\n  Fischer-Niggli, Lina, Wittwe, Part., von Reinach.\n  Siebenmann, Emmy, Klavierlehrerin.\n924. †Derselbe. Magazin.\n925. †Siebenmann, Gottlieb, Gerber. (Alte Post.)\n  Kistler-Kull, Jakob, Steuerpräsident, von Bözen.\n  Wildi-Hegnauer, Fried., Postbeamter, von Reinach.\n  Ethnologisches Gewerbemuseum der mittelschweizerischen geographisch-\n    commerciellen Gesellschaft.\n926. Randegger-Wirth, Josephine, Wittwe, von Ossingen (Zürich). Bay-\n    rische Bierhalle.\n  Ballmer, Marie, Wäscherin und Glätterin, von Lausen (Baselland).\n  Ballmer, Karolina, Wäscherin und Glätterin, von Lausen (Baselland).\n927. Widmer-Rychner, Rudolf, Bäcker, von Gränichen. Pintenwirthschaft.\n  Stauber-Pagan, Jakob, Notar, Amtsrevisor.\n928. Brunner-Umiker, Jakob, Negt.\n  Umiker-Wernli, Elisabeth, Part., von Thalheim.\n929. *Derselbe. Wohnhaus.\n  Frei-Hochuli, Rudolf, Commis (Schießer) von Gontenschwyl.\n  Rüetschi-Christen, Elise, Wittwe, Part.\n  Aeschmann, Johann, Conditor, (Chocoladfabrik) von Altstetten (Zürich).\n  Streit-Hegnauer, Mina, Part., von Zimmerwald, (Bern).\n930. *Ernst-Merian, Augusts, Parts., Erbschaft.\n  Wildi-Wespi, Adele, Wittwe, von Veltheim.\n  Marfurt, Franz Xaver, Coiffeur, von Langnau (Luzern).\n  Leu-Zimmermann, Jakob, Obergerichtskanzlist, von Birrenlauf.\n  Bidiella Manuel & Frey, Friedrich, Weinhandlung. (Büreau.)\n931. Abgetragen, an dessen Platz\n1117  Rychner-Renz, Rosa, Part.\n  Rychner-Carli, Carl Christian, Röhrenfabrikant.\n  Rychner-Spengler, Ferdinand, Cementfabrikant.\n  Rychner, Fritz, Pianist.\n  Schneider-Rychner, Gustav, Dr. Fürsprech, Oberrichter.\n  Spengler-Thönnen, Maria Magdalena, Wittwe, Part.\n932. Abgetragen.\n\nBachstraße.\n\n933. †Gysi & Co. (Otto Gysi-Siebenmann und Hans Gysi.) (Fabrik-\n    gebäude.)\n934. †Gemeinde Aarau. Spritzenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10321,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2125,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.81,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:53:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p071",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p071.jpeg",
+      "bytes": 215046,
+      "sha256": "c6606ff07375c3cbd695dc33506e75895635c465d03f05a0750040a278bc696a",
+      "sha256_of": "original",
+      "working_copy": "1892_p071.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:53:13+00:00"
+  }
+}

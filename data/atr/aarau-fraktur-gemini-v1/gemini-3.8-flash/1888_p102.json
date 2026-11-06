@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p102",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p102.jpeg",
+    "bytes": 277821,
+    "sha256": "84f23591602917e2acf63eb8a0eb46e42ec4803fa3d9ea81fe43d233e68ddb01",
+    "sha256_of": "original",
+    "working_copy": "1888_p102.jpeg"
+  },
+  "text": "84 Faller — Fisch.\n\n[handschriftlich: ✗]Faller-Faller, Elise Louise, Wittwe von Reitenbuch (Großh. Baden), Firma\n  Gebrüder Faller, Eisen- und Quincailleriewaarenhandlung, Kronen-\n  gasse 41.\nFaller, Karl Friedrich, Sohn, Kaufmann von Reitenbuch (Großh. Ba-\n  den), Kronengasse 41.\nFaßler, Maria, Haushälterin von Densbüren, hinter dem Platz 214.\nFaßler-Wehrli, Johann, Gemüsehändler von Densbüren, Laurenzenvor-\n  stadt 1114.\n[handschriftlich: ✗]Feer, Adele, Rentiere, Laurenzenvorstadt 602.\nFeer-Herzog, Karolina, Wittwe, Rentiere, Bahnhofstraße 553.\n[handschriftlich: ✗]Feer, Karl, Bahnhofstraße 553.\nFeer, James, id. id.\nFeer, Sophie, id. id.\nFecht-Ruh, Julius, von Meinwangen (Großh. Baden), Weinhandlung,\n  vor dem Haldenthor 758.\nFehlmann-Baumann, Salomon, gew. Bahnwärter von Mönthal, Golat-\n  tenmattgasse 231.\n[handschriftlich: ✗]Fehlmann-Blattner, Rudolf, Aufseher, Bahnhofstraße 648.\nFehlmann-Blattner, Anna, Mercerie- u. Lingeriegeschäft, Bahnhofstr. 648.\n[handschriftlich: ✗]Fehlmann-Brack, Kaspar, Bäcker, Rathhausgasse 45.\nFehlmann-Buß, Johann, Gärtner von Seon, Milchgasse 161.\nFehlmann-Hinden, Margaretha, Küfers, Taglöhnerin von Remigen,\n  Halden 273.\nFehlmann-Holzreuter, Christoph, Taglöhner von Seon, Milchgasse 75.\nFehlmann-Müller, Johann Jakob, Pächter von Mönthal, Sommerwirth-\n  schaft, Roggenhausen 851.\nFehlmann-Schmidli, Johann Jakob, Landwirth von Mönthal, Roggen-\n  hausen 851.\nFehlmann-Sandmeier, Jakob, Dachdecker und Kaminfeger von Menziken,\n  Halden 259.\nFehlmann-Winz, Johann Friedrich, Güterexpedient von Unterbözberg,\n  Zollrain 89.\nFelber-Gruber, Georg, Gasarbeiter von Oberbözberg, Hammer 188.\nFelber, Marie, Damenschneiderin von Oberbözberg, Hammer 188.\nFelber, Johann, Postkondukteur von Oberbözberg, Igelweid 632. [handschriftlich: ✗]\nFenner-Hosig, Johann, Güterexpedient von Küßnacht (Zürich), vor dem\n  Haldenthor 784.\nFerrazzi-Lüscher, Giuseppe, Maurer von Cardano (Italien), vor dem\n  Haldenthor 809.\nFeuvrier-Hunziker, Elise, Wittwe von Chagemont (Frankreich), Zollrain 88.\nFisch-Dürr, Samuel, Schuhmachermeister, Halden 271.\nFisch, Maria, Fabrikarbeiterin, Halden 271.\nFisch, Elise Karoline, Metzgers, Näherin, Pelzgasse 133.\nFisch, Josephina, Part., Ziegelrain 703.\nFisch, Karolina, Arzts, Bachstraße 1107.\n[handschriftlich: ✗]Fisch, Mina, Kleinkinderlehrerin, Halden 264.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7957,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2322,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:34:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p102",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p102.jpeg",
+      "bytes": 277821,
+      "sha256": "84f23591602917e2acf63eb8a0eb46e42ec4803fa3d9ea81fe43d233e68ddb01",
+      "sha256_of": "original",
+      "working_copy": "1888_p102.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:23+00:00"
+  }
+}

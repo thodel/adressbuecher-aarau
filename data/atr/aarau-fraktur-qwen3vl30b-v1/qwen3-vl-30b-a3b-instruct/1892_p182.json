@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p182",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p182.jpeg",
+    "bytes": 220942,
+    "sha256": "885e34d6a55e408de51528bd63c1e7e22c43a12dd210990dc50db0b34ef11b96",
+    "sha256_of": "original",
+    "working_copy": "1892_p182.jpeg"
+  },
+  "text": "166\nSammlungen.\nKantonalen Muster- u. Modellsammlung mit Seifezimmer und Zeichnungsbureau, (Feer'sche Villa an der Bahnhofstrasse) geöffnet täglich (mit Ausnahme vom Montag) von 9—12 Uhr und 1—6 Uhr, Sonntags 10—12 Uhr, im Winter zudem an zwei Wochenabenden, welche jeweils bestimmt werden.\nDie Sammlung besteht aus muskelgültigen Objecten für Holz- und Metallgewerbe, Gipsabgüssen und andern Objecten.\nDie reichhaltige Bibliothek enthält Vorlagen und Textwerke für alle Gewerbszweige.\nSämtliche Objecte und Bücher können den Gewerbetreibenden des ganzen Kantons zur Benützung ausgeliehen werden.\nDirecteur der Anstalt: J. L. Meyer-Zschoppe.\nKantonale Münzsammlung, im Regierungsgebäude, Staatsarchiv.\n(Abwart des Regierungsgebäudes.)\nSammlung der im Regierungs- und Großrathsgbäude zu Aarau aufge-\nstellten Kunstgegenstände. (Glasgemälde von Muri, Delgemälde, Kupferische Sculpturen u.)\n(Abwart des Regierungsgebäudes.)\nKantonales Antiquarium, Rain 882.\n(Ranzlei der Erziehungsdirektion.)\nKantonales Naturhistorisches Museum, Cafinostrasse 584 geöffnet an Sonn- und Festtagen Nachmittags v. 2—4 Uhr.\n(Abwart: Rebell der Kantonsschule.)\nEthnolog. Gewerbemuseum, Feer'sche Villa an der Bahnhofstr. Sekretariats- bureau: Bachstraße 1174. Dafelbst befindet sich die Schweizer. Centralstelle für Adreßbücher und werden Uebersetzungen in 22 Sprachen geliefert. Nähere Auskunft ertheilt bereitwilligst der Sekretär Karl Bührer.\nSammlungen:\nPhotographisches Museum.\nSchweizerisches Werkzeichen-Museum.\n\" Zeitungs-Museum.\nKartographische Sammlung.\nSiegel-Sammlung.\nHolzschnitt-Sammlung.\n* Die angeführten Sammlungen stehen zur Besichtigung oder Benützung dem Publikum während der genannten Tageszeit offen!\nBibliotheken.\nVarganische Kantonsbibliothek, Grossrathsgbäude 908 geöffnet Mittwoch und Samstags, Sommer 2—5 Uhr, Winter 2—4 Uhr. Seifezimmer außerdem geöffnet Montag 2—5 Uhr.\n(Bibliothekar: Dr. Hans Herzog, Staatsarchivar.)\nStadtbibliothek mit der ehemaligen Cafinobibliothek (altes Kaufhaus 113) geöffnet Mittwoch 1—3 Uhr.\n(Bibliothekar: Dr. G. Zschoppe, Bezirkslehrer.\nMilitärbibliothek, kantonal, Zeughaus.\n(Dr. Senn, Zeughausverwalter.)\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5157,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2151,
+    "lines": 33,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0303,
+    "mean_line_chars": 64.21,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:50:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p182",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p182.jpeg",
+      "bytes": 220942,
+      "sha256": "885e34d6a55e408de51528bd63c1e7e22c43a12dd210990dc50db0b34ef11b96",
+      "sha256_of": "original",
+      "working_copy": "1892_p182.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:40+00:00"
+  }
+}

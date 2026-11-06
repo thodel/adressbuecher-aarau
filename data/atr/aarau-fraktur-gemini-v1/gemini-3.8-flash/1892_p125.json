@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p125",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p125.jpeg",
+    "bytes": 249006,
+    "sha256": "2d11422bb67ce22018de0333dcbebe95026a0c3d3f0767c507c2b804a3856d97",
+    "sha256_of": "original",
+    "working_copy": "1892_p125.jpeg"
+  },
+  "text": "Läuchli — Lindenmann. 109\n\nLäuchli, Adolf, Lithograph von Remigen, Kirchhof 164.\nLäuchli-Bircher, Friedrich, Schlosser von Remigen, Hammer 184.\nLäuchli-Bürgi, Anna, Wittwe, Wirthin von Remigen, Rathhausgasse 25.\nLäuchli-Coradi, Hans, Buchhalter von Remigen, Rain 888.\nLäuchli-Hofli, Jakob, Polizeidiener von Remigen, Casinostraße 577.\nLäuchli, Johann, Commis, hinter dem Bahnhof 496.\nLäuchli, Lina, Glätterin, hinter dem Bahnhof 496.\nLandolt-Frank, Johann, Schuhmachermeister, Golattenmattgasse 233.\nLandolt-Hächler, Gottlieb, Metzger, vordere Vorstadt 671.\nLandolt-Hässig, Lina, Wittwe, Rain 828.\nLandolt-Häuptli, Marie, Wittwe, Damenschneiderin, Halden 284.\nLandolt-Hartmann, Karl, Fabrikant, Firma: Landolt u. Cie. Fabrikation\n  feiner Wagen-, Bau- und Dekorationslacke, obere Vorstadt, 949.\nLattmann-Ackermann, Georg Heinrich, Lokomotivheizer von Sternenberg\n  (Zürich), Laurenzenthorgasse 117.\nLaube, Karl, Rechnungsrevisor von Böbikon, Feerstraße 1308.\nLauber, Joseph Anton, Postcommis von Oeschgen, Bahnhofstraße 513.\nLauber-Molfenter, Abraham, Prediger von Frutigen (Bern), vor dem\n  Haldenthor 772.\nLehmann-Delhafen, J. von Zofingen, Manufakturwaaren- und Mercerie-\n  geschäft, vordere Vorstadt 900.\nLehner-Bertschi, Rudolf, Milchverkäufer von Gränichen, Kirchg. 15.\nLeimgruber, Eduard, Portier, (Krankenanstalt) v. Herznach, Gais 1186.\nLenzi-Fischer, Albert, Kontroleur der Aarg. Ersparnißkasse von Zuzgen,\n  Pelzgasse 129.\nLenzi, Xaver, Taglöhner, von Oberhof, vor dem Haldenthor 796.\nLenzi-Weber, Jakob, Korbflechter von Wölflinswyl, vordere Vorstadt 675.\nLenzin, Sophie, Lehrerin, Pelzgasse 124.\nLetsch-Brunner, Albert, Buchbinder, von Reutlingen (Württemberg),\n  Bachstraße 1038.\nLeu-Karrer, Jakob, Taglöhner von Schloßrued, Laurenzenvorstadt 376.\nLeu-Zimmermann, Jakob, Obergerichtskanzlist von Birrenlauf, obere\n  Vorstadt 930.\nLeutwyler-Berchthold, Melchior, Taglöhner von Reinach, Ziegelrain 708.\nLeutwyler-Hoser, Elise, Strickerin von Reinach, Ziegelrein 713.\nLeutwyler-Mangold, Friedrich, Polizeiwachtmeister von Lupfig, h. Vorst. 641.\nLiechti-Steinegger, Paul, Dr. phil., Professor von Murten (Freiburg),\n  vor dem Haldenthor 1243.\nLienberger-Weber, Kaspar, Schuhmacher von Spreitenbach, Kirchgasse 8 b.\nLienhardt, Albert, Prediger von Bötzingen (Bern), Ziegelrain 713.\nLimacher-Niggli, Niklaus, Schuhmachermeister von Schüpfheim (Luzern),\n  Rathhausgasse 24.\nLindenmann-Wey, Maria, Wittwe, Part. von Fahrwangen, Casinostr. 576.\nLindenmann, Ida, Telegraphistin, „ „ „\nLindenmann, Emma, Haushälterin, „ „ „",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8667,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2526,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.52,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:59:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p125",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p125.jpeg",
+      "bytes": 249006,
+      "sha256": "2d11422bb67ce22018de0333dcbebe95026a0c3d3f0767c507c2b804a3856d97",
+      "sha256_of": "original",
+      "working_copy": "1892_p125.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:59:22+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p105",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p105.jpeg",
+    "bytes": 254242,
+    "sha256": "041a3b9b70297c489b92fd7b320340fb48c51ce44fb2216e00a81dac7d3586bd",
+    "sha256_of": "original",
+    "working_copy": "1892_p105.jpeg"
+  },
+  "text": "Dietiker — Dubs. 89\n\nDietiker, Emma, Wäscherin, von Thalheim, Golattenmattgasse 237 b.\nDietiker-Häfliger, Hans, Briefträger v. Thalheim, vor d. Haldenthor 1299.\nDietiker-Staub, Adolf, Briefträger von Thalheim, Golattenmattgasse 237 b.\nDietiker, Susanna, Spetterin von Thalheim, Rain 875.\nDietiker-Schluep, Jakob, Postfaktor, von Thalheim, Bahnhofstraße 560.\nDietiker-Wernli, Samuel, Schuhmacher v. Thalheim, Laurenzenvorst. 376.\nDietliker, Alfred, Bautechniker von Wetzikon (Zürich), Rathhausgasse 21.\nDill-Frey, Johann Jakob, Schuster von Basel, Laurenzenvorstadt 376.\nDöbeli-Binder, Samuel, Bezirksschullehrer von Seon, jens. der Aare 339.\nDöbeli-Richli, Babette, Wirthin von Seon, Schachen 727.\nDöhnel-Kyburz, August, Schuhmachermeister von Badenweiler (Großh.\n  Baden), Golattenmattgasse 239.\nDöhnel, Emma, Spetterin von Badenweiler (Großh. Baden), Halden 267.\nDössekel, Mina, Klavierlehrerin von Seon, Bahnhofstraße 1160.\nDolder-Sayer, Jakob Friedrich, Kaufmann von Hauptwyl (Thurgau),\n  Weißwaarengeschäft und Agenturen, Graben 219.\nDolder, Susette, Merceriehandlung, von Hauptwyl (Thurgau), vordere\n  Vorstadt 892.\nDolleschal-Keller, Joseph Emil, Kunstmaler von Trebihoscht (Böhmen),\n  Weinberg 1102.\nDoser-Schröder, Leopold, Direktionssekretär von Rheinfelden, Entfelder-\n  straße 960.\nDreßler-Hofmann, Laurenz, Kaufmann v. Belfort (Frankreich), (Nachfolger\n  v. Camisasca Franz), Möbel- und Tuchwaarenhandlg. Rain. 826.\nDrack-Hauser, Hermann, Metallgießer, Milchgasse 149.\nDreifuß-Bloch, Karl, Kaufmann von Endingen, Laden vord. Vorstadt 889,\n  Wohnung hintere Vorstadt 692.\nDreyfuß, Max Emil, Sohn, Kaufmann von Endingen, Graben 352.\nDroz Lucien, August, Bankangestellter von Chaux-de-fonds, Laurenzen-\n  vorstadt 552.\nDüner, Sophie, Haushälterin von Weinfelden (Thurgau), Rain 832.\nDürr, Emil, Sohn, Sekretär, Adelbändli 171.\nDürr, Gottfried, Schuhmacher, Halden 271.\nDürr-Graden, Hieronimus, Straßenwärter, Adelbändli 174.\nDürr, Heinrich, Pfarrer, Privat., Rathhausgasse 19.\nDürr-Hofer, Emil, Gemüsehändler, Pelzgasse 132.\nDürr, Johanna, Privat., Rathhausgasse 19.\nDürr, Karl August, Kaufmann, Rathhausgasse 19.\nDürr, Karolina, Glasers, Halden 271.\nDürr-Lüscher, Gabriel, Gemüsehändler und Wirth, Graben 1237.\nDürr-Schmuziger, Isaak, Schreinermeister, Milchgasse 161.\nDürr-Seiler, Hermann, Malermeister, Casinostraße 1130.\nDürr-Siebenmann, Karolina, Registrators Wittwe, Adelbändli 171.\nDürr-Wüthrich, Gottlieb, Stadtarbeiter, Milchgasse 153 a.\nDubs, Elise, Müller’s von Küttigen, Hammer 182.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8382,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2504,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.09,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:56:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p105",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p105.jpeg",
+      "bytes": 254242,
+      "sha256": "041a3b9b70297c489b92fd7b320340fb48c51ce44fb2216e00a81dac7d3586bd",
+      "sha256_of": "original",
+      "working_copy": "1892_p105.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:56:36+00:00"
+  }
+}

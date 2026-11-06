@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p057",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p057.jpeg",
+    "bytes": 269442,
+    "sha256": "62c1efb3e3c1b3a95d569daff722bcc970489c7f20d754ffdcf94ba67748a332",
+    "sha256_of": "original",
+    "working_copy": "1888_p057.jpeg"
+  },
+  "text": "Haus-\nNr.\n700. Holzach-Schmidt, Fritz, Metzger und Speisewirth.\nRichard-Schmid, Jda, Wittwe, Part.\n701. Derfelbe. Wohnhaus und Verkaufsladen.\n702. Riesz-Buhlrein, Emmanuel. Glas- und Farbwaarenhandlung.\nWidmer-Schaffner, Gustav, Gärtner, von Haufen.\nBuhlrein, Friedrich, Part.\n703. Schmuziger-Bühler, Gottlieb, Schneider und Negotiant.\nFisch, Josephtne, Part.\nWidmer, Jakob, Kutscher, von Gränichen.\n704. Entler-Dürr, Rudolf, Spengler, von Niederhallwyl.\nWehrli-Marti, Jakob, Schreiner, von Rüttigen.\nFrantl-Wildi, Alois, Maurer, von Strengen (Tyrol).\nGavillet, Louis, Commis, (Frey & Cie. Zelli), von Fenev (Waadt)\n705. Hässig-Bühler, Friedrich, Kupferschmied.\nHässig-Hauenstein, Elizabeth, Wittwe, Part.\nHoffmann-Kreß, Joseph, Maschinist, von Wäggis (Luzern).\nRiner-Obriß, Johann, Polizeidiener, von Herznach.\n706.† Derfelbe. Werkstätte.\n707.a. Siebenmann-Saager, Anna. Part.\nSiebenmann, Bertha, Part.\nDätwyler-Meyer, Johann, Taglöhner, von Wittwyl.\n707.b. * Andres-Weier, Samuel, Schlosser.\nWeber-Schäfer, Friedrich, Spengler. (Werkstätte).\nEhrsam-Wehrli, Alfred, Schneider.\nUrban-Nutzbaum, Ernst, Schreiner, von Liegnitz (Schlesien).\n708. * Armentgut der Gemeinde Aarau.\nSchmuziger-Lang, Gottlieb, Schreinermeister.\nSandmeier-Obrecht, Kaspar, Dachdecker, von Gränichen.\n709. Andres-Weber, Friedrich, Buchhalter. Ellenwaarenhandlung.\nAndres-Ramseier, Rosina, Wittwe, Part.\n710. Huber-Bircher, Heinrich, Drechsler.\nHuber, Bertha und Jda, Damenschneiderinnen.\n711. * Holzach-Schmidt, Friedrich, Metzger.\nBrändli-Hug, Jakob, Fabrikarbeiter, von Unterhötzberg.\nMarti geb. Kull, Zufanna, Wittwe, Part.\n712. † Bullschleger-Blattner, Heinrich, Küher. Scheune.\n713. Bircher-Rielholz, Julius, Kreisingenieur, von Rüttigen.\nGerodetti-Habermacher, Virg., Hutmacher, von Sagliano (Italien). Hut-\nwaaren- und Warmorfleingeschäft.\nBircher-Brodbeck, Maria, Wittwe, Part., von Rüttigen.\nWanger, Louise, Helfers, Part.\nBillo-Billo, Marie, Kaufmanns, Part.\n714. † Wydler-Bäurlin, Heinrich, Färber. Schwefelkammer.\n715. † Derfelbe. (Werkstätte).\nRebmann-Häßiger, Karl Jakob, Maler. (Malerwerkstätte).\n716. * Derfelbe. Wohnhaus.\nWildi-Läfer, Samuel, Schreinermeister, von Schafisheim. Sargmagazin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4534,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2180,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.51,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:22:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p057",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p057.jpeg",
+      "bytes": 269442,
+      "sha256": "62c1efb3e3c1b3a95d569daff722bcc970489c7f20d754ffdcf94ba67748a332",
+      "sha256_of": "original",
+      "working_copy": "1888_p057.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:46+00:00"
+  }
+}

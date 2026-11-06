@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p183",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p183.jpeg",
+    "bytes": 182864,
+    "sha256": "591c0b5eb85be2a397aed18d82595a036dd97eb699318ca8448bd6e9c66bcfa2",
+    "sha256_of": "original",
+    "working_copy": "1892_p183.jpeg"
+  },
+  "text": "Verzeichniss der Straßen und Plätze\nim Stadtbezirk Aarau.\n\nAbelbändli.\nBachstraße.\nBahnhofstraße.\nBanstraße.\nBalainenweg.\nBinnenhof.\nBrunner'sche Promenade (Oberholz).\nBuchserstraße.\nBudeligäßli.\nCafernenplatz.\nCafinoplatz.\nCafinostraße.\nConradstraße.\nEntfelderstraße (Diftelbergstraße).\nErinsbacherstraße.\nFärbergäßli.\nFeerstraße.\nFlopplatz.\nGartenstraße.\nGießhügel.\nGolattenmattgasse.\nGoldern.\nGönharbfeldweg.\nGrabenstraße (und Allee).\nHalden.\nHerzogsträßchen.\nHinter dem Bahnhof.\nHinter dem Damm.\nHinter dem Platz.\nHintere Vorstadt.\nHohlweg.\nHolzmarktplatz.\nHungerberggäßli.\nHungerbergstraße.\nJenseits der Aare.\nIm Hammer.\nIm Weinberg.\nIn der Gais.\nIn der Telli.\nKirchgasse.\nKirchhof.\nKronengasse.\nRüttigerstraße.\nLaurenzenvorstadt.\nLaurenzenthorgasse.\nMeyer'sche Promenade (Hungerberg).\nMehrgasse.\nMilchgasse.\nOberholzstraße.\nOberthor.\nObere Vorstadt.\nPhilosophenweg.\nPelzgasse.\nRainstraße.\nRathausgasse.\nRathausplatz (und Rathausgarten).\nRoggenhauerstraße.\nRoggenhausen.\nRohrerstraße.\nSchachenstraße.\nSchänze.\nSchanzmättli.\nSchanzrain.\nSchleiden-Schachenstraße.\nSchiffände.\nSchlopplatz.\nSchmiedgasse.\nSchönenwerderstraße.\nSchulhausplatz.\nStadthof.\nStorchengäschcn.\nStrittengäschcn.\nSpitalgäßli.\nTellplatz (Turnplatz).\nTelltstraße.\nBiehmarktplatz (Schachen).\nVor dem Haldenthor.\nVordere Vorstadt.\nWaltersburg.\nZelglistraße.\nZeughausstraße.\nZiegelrain.\nZollrain.\nZschoffestraße.\n\n167",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3275,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1386,
+    "lines": 87,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 14.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:50:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p183",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p183.jpeg",
+      "bytes": 182864,
+      "sha256": "591c0b5eb85be2a397aed18d82595a036dd97eb699318ca8448bd6e9c66bcfa2",
+      "sha256_of": "original",
+      "working_copy": "1892_p183.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:43+00:00"
+  }
+}

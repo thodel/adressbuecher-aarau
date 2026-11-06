@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p034",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p034.jpeg",
+    "bytes": 211404,
+    "sha256": "7826e98399e98d1153a0a27a407c8a188fcadc2e3df1041df0943076cb389a25",
+    "sha256_of": "original",
+    "working_copy": "1892_p034.jpeg"
+  },
+  "text": "Haus-\nNr.\n299. b. Andres, Gottlieb, Fondverwalter.\nAndres, Celine, Haushälterin.\n1228. † Derfelbe. Holzschopf.\n300. Blattner=Jäger, Dr. jur., Otto, Fürsprch und Notar; Advokatur-\nbureau: Obere Vorstadt 948.\nBlattner, Anna, Lehrerin.\n301. † Derfelbe. Holzschopf.\n302. a. Bircher=Saffon, Andreas, Kaufmann, von Rüttigen und Cairo.\nBircher, Andreas, Part., von Rüttigen.\n302. b.+Derfelbe. Scheune.\n302c.+Derfelbe. Hintergebäude.\n303. * Stähelin=Herzog, Alfred, Dr. med., von Basel.\n1086. Stähelin-Herzog, Alfred, Dr. med., Rentier, von Basel. Villa zum\nKirchgarten.\n304. + Derfelbe. Scheune und Remise.\n305. + Derfelbe. Treibhaus.\n306. + Derfelbe. Holz- und Waschhaus.\n1087. Derfelbe. Eiseller.\n307. Camper=Bau mann, Emil, March. Tailleur. (Zur Schönau.)\nMeyer=Zschokke, Jakob Ludwig Architekt, von Zürich, Direktor der Hand-\nwerkerschule.\n308. † Derfelbe. Holzhaus.\n309. * Bally Söhne, C. F., Fabritbesitzer in Schönenwerd. Schuhfabrik.\n310. a.+Derfelbe. Dampffesselhaus.\n310. b.+Derfelbe. Maschinenhaus.\n311. † Derfelbe. Pumphaus und Druckwasserleitung.\n\nScheibenschachen.\n312. * Feer=Zubers Erb schaft.\nMüller-Amstler, Joh. Jakob, Schuster, von Unterfultum.\nFischer geb. Roth, Maria, Strassenwärterin.\nFrieden, Gottlieb Friedrich, Cementarbeiter, von Seedorf (Bern).\nWernli-Wehrli, Bernhard, Gärtner, von Thalheim.\n313. * Diefelbe.\nFuchs-Sommerhalder, Franz Joseph, Pofamenter, von Hornussen.\nManz-Busch, Philipp, Aufseher, von Ramjen (Bayern).\n314. * Diefelbe.\nBirri-Wülser, Fridolin, Pofamenter, von Zeihen.\nBirri, Emma, Dament Schneiderin, von Zeihen.\nMeißner-Baumgardt, Karl, Steindrucker, von Großglogau (Schlesien).\n315. * Diefelbe.\nWirz-Huber, Franz, Wagenvisiteur, von Starrkirch (Solothurn).\nGloor-Widmer, Heinrich, Bandweber, von Oberfultum.\n316. * Diefelbe.\nMüller-Reinle, Ernst August, Büchsenmacher, von Zella (Sachsen).\nHosler-Hämmerli, Friedrich, Schneider, von Rothrist.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4025,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1886,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:36:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p034",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p034.jpeg",
+      "bytes": 211404,
+      "sha256": "7826e98399e98d1153a0a27a407c8a188fcadc2e3df1041df0943076cb389a25",
+      "sha256_of": "original",
+      "working_copy": "1892_p034.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:05+00:00"
+  }
+}

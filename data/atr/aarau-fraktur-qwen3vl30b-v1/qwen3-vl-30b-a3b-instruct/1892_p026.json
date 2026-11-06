@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p026",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p026.jpeg",
+    "bytes": 229877,
+    "sha256": "16df74d9bad58dbb5544055bd8a2f1b68cb3551295961a264990856ecfd9fa08",
+    "sha256_of": "original",
+    "working_copy": "1892_p026.jpeg"
+  },
+  "text": "Haus-\nNr.\nHort-Hemmeler, Johann, Zimmermeister, von Oberhof\nHort-Hemmeler, Elise, Glätterin, von Oberhof.\nFrei-Haller, Johann, Gärtner, von Auenstein.\nBolliger, Rud. Hermann, Bahnangestellter, von Schloßrued.\nNussberger, Samuel, Fabrikarbeiter, von Steegen.\nRägi-Frei, Alfred, Heizer, von Hossletten (Zürich).\nBolliger, Friedrich, Magazinier (Randolt), von Schloßrued.\nBolliger, Armin, Fergter (Reiners Nachfolger), von Schloßrued.\n191. Stahel=Ernst, Johann, Kaufmann.\nStahel & Bräm, Manufakturwaaren-Handlung en gros.\nBräm-Huber, Heinrich, Kaufmann, von Bütlach (Zürich).\nBräm, Albert, Sohn, Commis, von Bütlach (Zürich).\nThalmann, Heinrich, Commis (Frey-Feer & Cie., Seidenfabrik), von\nBertschikon (Zürich).\nWeber, Stephan, Sekretär (Staatsanwaltschaft), von Sulz.\nWeber, Regina, Part., von Sulz.\n192. †Hegnauer=Renold, Rudolf, Fabrikant. Holzmagazin.\n193. *Derselbe. Fabritgebäude. Fabritation und Export von Geflechten in\nStroh, Roßhaar, Manillahanf und Baumwolle.\nBiber-Riggli, Theodor, Fabrikation von Seidenband und Nähmaschinen-\nHandlung.\n194. Hegnauer=Renold, Rudolf, Fabrikant. Wohnhaus.\nEggmann-Gloor, Heinrich, Aufseher, von Uttweil (Thurgau).\nWidmer, Rosette, Fergerin, von Othmarfingen.\nSchloßplatz.\n195. *Rothplek=Wydler, C., Oberst, zum Schloßli (in Zürich).\nNüsperli-Witz, Ida, Fabrikinspectors Wittwe.\nFrey-Beger, Adolf, Dr. phil., Professor, von Contenschwyl.\nHuber, Corinna, Lehrerin, von Befenbüren.\n196. Rychner=Renold, Heinrich, Gewehrfabrikant.\n197. Gantner=Rychner, Maria, Dekonoms Wittwe.\nGantner, Hermann, Dekonom.\nBerner, Emma, Ladentochter, von Rupperswyl.\n198. u. 199. Abgetragen. An dessen Platz\n1183. Gemeinde Aarau (Saalbau).\nSchämann-Häring, Jakob, Abwart, von Windisch.\n200. †Einwohnergemeinde Aarau (Alte Storchenscheune).\n201. †Wettler=Schneider, Adolf. Scheune des Gasthofs zum Ochsen.\nGraben.\n202. Schmidt=Hagnauer, Gustav, Kaufmann. Teppich-, Wachstuch-\nund Manufakturwaaren-Handlung.\nFischer-Brunnhöfer, Margaretha, Schreiners-Wittwe, Part.\nSchmid-Fischer, Heinrich, Kaufmann, von Wittnau.\n203. Abgetragen; an dessen Platz\n1161. Stahel=Ernst, Johann, Kaufmann und Wirth.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4379,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2111,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:35:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p026",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p026.jpeg",
+      "bytes": 229877,
+      "sha256": "16df74d9bad58dbb5544055bd8a2f1b68cb3551295961a264990856ecfd9fa08",
+      "sha256_of": "original",
+      "working_copy": "1892_p026.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:30+00:00"
+  }
+}

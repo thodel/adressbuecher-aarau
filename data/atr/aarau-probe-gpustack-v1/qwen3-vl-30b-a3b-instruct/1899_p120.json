@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p120",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p120.jpeg",
+    "bytes": 279458,
+    "sha256": "866076ecb38071e3a87ff51d0944756d7615f34dfa7c4ff8ccde17ef6bee1704",
+    "sha256_of": "original",
+    "working_copy": "1899_p120.jpeg"
+  },
+  "text": "16\nGunsch, Johann, Maurer, Adelbändli 170.\nGuyer, August, Part., Erlinsbacherstraße 336.\n— Oskar, Sohn, Fabrikant, Telli 456.\nGuyot, Maria, Damenschneiderin, Rain 875.\nHächler, Gottlieb, Bauamtsarbeiter, Kirchgasse 15.\n— Jakob, Part., Ziegelrain 751.\n— Luise, Glätterin, Kirchgasse 15.\nHäfliger, Otto, Metzger, ⚡ Pelzgasse 136.\nHäfeli, Jos., Sattler, Kasinostraße 660.\n— geb. Fischer, Julie, Näherin, Bahnhofstraße 541.\nHäni geb. Päni, Marie, Bäckers Witwe, Kirchgasse 11.\n— Hermann, Sohn, Bäcker, Kirchgasse 11.\n— Rudolf, Leder- und Fourniturenhandlung, ⚡ Bahnhofstraße 656.\nHärdi, Lina, Haushälterin, Rathausgasse 42.\n— Wilhelm, Goldschmied, Rathausgasse 42.\nHärrri, Arnold, Postcommis, Bahnhofstraße 541.\n— Rudolf, Expeditionchef auf der Staatskanzlei, Pelzgasse 124.\nHässig, Emil, Maler, Rathausgasse 21.\nHässig, Albert, Werkführer, Halden 256.\n— geb. Baumann, Margarita, Witwe, Kasinostraße 1556.\n— Alfred, Sohn, Kupferschmied, Ziegelrain 705.\n— Emma, Part., in der Gais (zum Lindenhof) 1210.\n— Emil, Tapezierer, Milchgasse 73.\n— Friedrich, Kupferschmied, Ziegelrain 705.\n— Fritz, Bäcker und Wirt, Rathausgasse 46.\n— Gottlieb, Feinschleifer, Wohnung, Zollrain 181; Werkstätte Hammer 1295.\n— Gottlieb, Postcommis, Schachen 1261.\n— Hans, Stadtrat, in der Gais (zum Lindenhof) 1210.\n— geb. Hauenstein, Elisabeth, Wwe., Part., vordere Vorstadt 680.\n— Hermann, Bäcker, Part., Rathausgasse 46.\n— Johann Konrad, Dienstmann, Rain 881.\n— Julius, Restaurant Bellevue, ⚡ Rain 1564.\n— Julius, Schlosser, Milchgasse 77.\n— Rosine, Part., Zollrain 181.\nHäuptli geb. Burkhard, Anna Maria, Witwe, Halden 284.\n— Emil, Drechsler, Halden 284.\n— Jakob, Färber, Milchgasse 156.\n— Othmar, Adjunkt des Staatsbuchhalters, v. d. Haldenthor 1272.\nHäusermann, Adolf, Taglöhner, Halden 284.\n— Friedrich, Schneider, Rain 857.\n— geb. Schmid Elisabeth, Halden 253.\nHäusler, Angelus, Maler, vor dem Haldenthor 762.\n— Emil, Sohn, Maler, vor dem Haldenthor 762.\n— Joseph, Heizer, Milchgasse 71.\n— Julie, Glätterin, vor dem Haldenthor 762.\n— Karl, Schriftsetzer, vor dem Haldenthor 762.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4707,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2055,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:34:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1899_p120",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p120.jpeg",
+      "bytes": 279458,
+      "sha256": "866076ecb38071e3a87ff51d0944756d7615f34dfa7c4ff8ccde17ef6bee1704",
+      "sha256_of": "original",
+      "working_copy": "1899_p120.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:34:31+00:00"
+  }
+}

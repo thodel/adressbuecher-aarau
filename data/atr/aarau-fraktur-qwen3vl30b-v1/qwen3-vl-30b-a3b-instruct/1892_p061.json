@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p061",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p061.jpeg",
+    "bytes": 217158,
+    "sha256": "d4028f584c1ef387d6da636e122a6030d80ca3e74827412990a56d623df381b5",
+    "sha256_of": "original",
+    "working_copy": "1892_p061.jpeg"
+  },
+  "text": "Haus-\nNr.\n741.  Bullschleger=Blattner, Heinrich, Küher.\nBullschleger, Hans, Knecht, von Schloßrued.\nMüri-Frech, Johann Heinrich, Mechaniker, von Schinznach.\nSchweizer=Siebenmann, Sophie, Wittwe, von Basel. Bettwaarengeschäft.\nSiebenmann, Gottlieb, Part.\n742. † Fischer, Friedrich, Fuhrmann. Scheune.\n743. † Keller=Berney, Abraham, Mechaniker. Metallbreherei.\n\nZiegelrain.\n744. † Kern & Cie. Holzschopf.\n745. * Diefelben. Wohnhaus.\nFrieder-Häufermann, Verena, Wittwe, Taglöhnerin, von Beltheim.\nSiegrist-Plüß, Anna, Wittwe, Spetterin, von Meisterschwanden.\nLücher-Schlatter, Zufanna, Taglöhnerin, von Muhlen.\nWehrli, Jakob, Mechaniker, von Rüttigen.\n746. * Diefelben; Wohnhaus.\nRüegger-Gysling, Otto, Malermeister, von Wyl (Zürich).\n747. * Diefelben. Fabrikgebäude. Fabrikation mathematischer und geodätischer Instrumente.\nHunziker-Wieland, Elise, Wittwe, Part., von Oberkulm.\nHunziker-Leuch, Edwin, Commis, von Oberkulm.\n748. † Diefelben. Fabrikgebäude.\n749. † Holzhaus.\n750.  Kuhn = Buser, Alfred. Schlosserei und mechanische Werkstätte.\n751.  Strich=Brack, Julius Wilhelm, von Aachen (Preussen). Halblein- und Halbwollstoff-Fabrikation,\nBrack, Jakob, Part., von Elsingen.\nNuzbaum=Finckböhner, Trinette, Wittwe, von Densbühren.\nNuzbaum, Hanna, Kleinkinderlehrerin\nMüller=Nuzbaum, Sara, Part., von Basel.\nHauri-Gränicher, Karl, Buchhalter, von Seengen.\nRenold-Geikmann, Katharina, Maurerz.\n1316  † Derfelbe. Schopf.\n752. * Holzach, Friedrich, Metzger. Schweinemezzg.\nBaumann-Frei, Anna, Näherin, von Uttelwyl.\n753. † Huber=Bircher, Heinrich, Drechsler. Mechanische Drechslerei.\n754.  Gemeinde Aarau. Gewerbehalle.\nBrunnhofer-Siegentanner, Verena, Seilers Wittwe. Seilerwaarenverkauf.\nRothpleg-Haßler, Rudolf, Metzger. Bäckerwaarenverkauf.\nTheez-Amsler, Emilie, Schirmmacherin. Schirmverkauf.\n\nVor dem Salenthof.\n755. † Schmidlin-Luz, Theodor. Chemisches Laboratorium.\n756. † Derfelbe. Holzmagazin.\n757. † Riniker=Gros, Friedrich, Bierbrauer. Scheune.\n758.  Merz-Ruh, Margaretha, Wittwe, Part., von Leimbach.\nFecht-Ruh, Julius, von Weinfangen (Baden). Weinhandlung.\nHummel-Müller, Georg, Lithograph, von Reutesheim (Baden).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4429,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2122,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p061",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p061.jpeg",
+      "bytes": 217158,
+      "sha256": "d4028f584c1ef387d6da636e122a6030d80ca3e74827412990a56d623df381b5",
+      "sha256_of": "original",
+      "working_copy": "1892_p061.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:36+00:00"
+  }
+}

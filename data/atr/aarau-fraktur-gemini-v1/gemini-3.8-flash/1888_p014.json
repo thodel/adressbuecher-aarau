@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p014",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p014.jpeg",
+    "bytes": 265868,
+    "sha256": "d56c5e4a40a025e9f473074d0582ee9fcf0384b9280da2286bbe8e7ebc19774c",
+    "sha256_of": "original",
+    "working_copy": "1888_p014.jpeg"
+  },
+  "text": "— 4 —\n\nHaus-\nNr.\n    Biedermann - Siebenmann, Leonz, Kaufmann (Bally & Schmitter), von\n        Gösgen (Solothurn).\n27. † Stephani = Winkler, August, Kaufmann, Magazin.\n28. † Derselbe. Waschhaus.\n29. * Reist, Gottlieb, Metzger, von Aarau, in Aigle.\n    Schmid = Maurer, Mathilde, Negotiantin, von Möriken.\n    Maurer, Louise, Part.\n    Maurer, Gustav Alfred, Kaufmann.\n    Stephani geb. Heckmann, Wilhelmine, Wittwe, Part.\n30.  Müller = Hürner, Eduard, Schirmmacher, Schirmhandlung.\n31.  Stapfer = Fessenmeier, Johann, Schuhmachermeister, von Sarmenstorf,\n        Schuhhandlung.\n32.  Dubs = Walther, Karl, Metzger und Speisewirth, von Küttigen.\n\nKronengasse.\n\n33.  Erny = Faßler, Emil, Kaufmann, Mercerie-, Bonneterie-, Lingerie- und\n        Quincaillerie-Waarenhandlung.\n        Agentur der Allgem. Lebensversicherungs-Gesellschaft.\n           „ „ Basler Feuer-Versicherung.\n    Schmid, Maria, Ladentochter, von Buch bei Weinfelden (Thurgau).\n    Tittel = Meisel, Fried. Wilhelm Moritz, Lithograph (Müller & Cie.), von\n        Zwickau (Sachsen).\n    Waldmeier = Gautschi, Alfred, Commis (Gamper & Cie.), von Möhlin.\n34.  Würtemberger = Kaiser, Johann Gottlieb, Coiffeur.\n    Guggenheim = Bollag, Julius, Kaufmann, von Oberendingen, Tuchhand-\n        lung „Aarauer Waarenhalle“.\n    Guggenheim, Samuel, Sohn, Kaufmann, von Oberendingen.\n    Zürcher = Stutz, Johann, gewesener Turnlehrer, von Thalwyl (Zürich).\n35.  Kaiser, Sigmund, Kaufmann, Quincaillerie-, Glas- und Porzellan-\n        Waaren-Handlung.\n    Härri = Baumann, Arnold, Postangestellter, von Birrwyl.\n36.  Hinz = Wolf, Gottfried, Zuckerbäcker, von Merklingen (Würtemberg).\n    Näf = Ludwig, Emil, Statistiker, von Aarburg.\n37.  Vonfelten = Willimann, Franz Joseph, Webermeister (Reiners\n        Nachfolger), Quincaillerie- und Kinderspielwaaren-Handlung.\n    Vonfelten = Willimann, Verena, Corsettmacherin.\n    Willimann = Wehrli, Marie, Wittwe, von Oberhof.\n38.  Gloor = Siebenmann, Friedrich, Negotiant, von Schöftland, Colonial-\n        waaren- und Delikatessen-Handlung.\n    Widmer = Rohner, Franz Xaver, Sekretär (Obergerichtskanzlei), von\n        Schneisingen.\n39.  Mathys = Hafner, Rudolf, Gastwirth zur Krone, von Eriswyl (Bern).\n40.  Hilfiker = Wilhelm, Jakob, Bäcker, von Muhen.\n    Wälti = Diener, Emil, Commis (Aarg. Bank), von Zurzach.\n    Vogel = Dubs, Gottfried, Polizeiwachtmeister, von Kölliken.\n    Vogel, Elise, Glätterin, von Kölliken.\n    Plüß = Zimmerli, Jakob, Färber, von Brittnau.\n    Plüß = Zimmerli, Marie, Hebamme, von Brittnau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8059,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2518,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:24:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p014",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p014.jpeg",
+      "bytes": 265868,
+      "sha256": "d56c5e4a40a025e9f473074d0582ee9fcf0384b9280da2286bbe8e7ebc19774c",
+      "sha256_of": "original",
+      "working_copy": "1888_p014.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:13+00:00"
+  }
+}

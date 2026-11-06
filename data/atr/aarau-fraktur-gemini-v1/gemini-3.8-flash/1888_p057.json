@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p057",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p057.jpeg",
+    "bytes": 269442,
+    "sha256": "62c1efb3e3c1b3a95d569daff722bcc970489c7f20d754ffdcf94ba67748a332",
+    "sha256_of": "original",
+    "working_copy": "1888_p057.jpeg"
+  },
+  "text": "— 47 —\n\nHaus-\nNr.\nZiegelrain.\n\n700. Holzach-Schmidt, Fritz, Metzger und Speisewirth.\n  Richard-Schmid, Ida, Wittwe, Part.\n701. Derselbe. Wohnhaus und Verkaufsladen.\n702. Ries-Buhlrein, Emmanuel. Glas- und Farbwaarenhandlung.\n  Widmer-Schaffner, Gustav, Gärtner, von Hausen.\n  Buhlrein, Friedrich, Part.\n703. Schmuziger-Bühler, Gottlieb, Schneider und Negotiant.\n  Fisch, Josephine, Part.\n  Widmer, Jakob, Kutscher, von Gränichen.\n704. Suter-Dürr, Rudolf, Spengler, von Niederhallwyl.\n  Wehrli-Marti, Jakob, Schreiner, von Küttigen.\n  Prantl-Wildi, Alois, Maurer, von Strengen (Tyrol).\n  Gavillet, Louis, Commis, (Frey & Cie. Telli), von Feney (Waadt)\n705. Hässig-Bühler, Friedrich, Kupferschmied.\n  Hässig-Hauenstein, Elisabeth, Wittwe, Part.\n  Hoffmann-Kretz, Joseph, Maschinist, von Wäggis (Luzern).\n  Riner-Obrist, Johann, Polizeidiener, von Herznach.\n706.† Derselbe. Werkstätte.\n707. a. Siebenmann-Saager, Anna. Part.\n  Siebenmann, Bertha, Part.\n  Dätwyler-Meyer, Johann, Taglöhner, von Wittwyl.\n707. b.* Andres-Meier, Samuel, Schlosser.\n  Weber-Schäfer, Friedrich, Spengler. (Werkstätte).\n  Ehrsam-Wehrli, Alfred, Schneider.\n  Urban-Nußbaum, Ernst, Schreiner, von Liegnitz (Schlesien).\n708.* Armengut der Gemeinde Aarau.\n  Schmuziger-Lang, Gottlieb, Schreinermeister.\n  Sandmeier-Obrecht, Kaspar, Dachdecker, von Gränichen.\n709. Andres-Weber, Friedrich, Buchhalter. Ellenwaarenhandlung.\n  Andres-Ramseier, Rosina, Wittwe, Part.\n710. Huber-Bircher, Heinrich, Drechsler.\n  Huber, Bertha und Ida, Damenschneiderinnen.\n711.* Holzach-Schmidt, Friedrich, Metzger.\n  Brändli-Hug, Jakob, Fabrikarbeiter, von Unterbözberg.\n  Marti geb. Kull, Susanna, Wittwe, Part.\n712.† Wullschleger-Blattner, Heinrich, Küfer. Scheune.\n713. Bircher-Kielholz, Julius, Kreisingenieur, von Küttigen.\n  Gerodetti-Habermacher, Virg., Hutmacher, von Sagliano (Italien). Hut-\n    waaren- und Marmorsteingeschäft.\n  Bircher-Brodbeck, Maria, Wittwe, Part., von Küttigen.\n  Wanger, Louise, Helfers, Part.\n  Billo-Billo, Marie, Kaufmanns, Part.\n714.† Wydler-Bäurlin, Heinrich, Färber. Schwefelkammer.\n715.† Derselbe. (Werkstätte).\n  Rebmann-Häfliger, Karl Jakob, Maler. (Malerwerkstätte).\n716.* Derselbe. Wohnhaus.\n  Wildi-Lässer, Samuel, Schreinermeister, von Schafisheim. Sargmagazin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8126,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2255,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:29:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p057",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p057.jpeg",
+      "bytes": 269442,
+      "sha256": "62c1efb3e3c1b3a95d569daff722bcc970489c7f20d754ffdcf94ba67748a332",
+      "sha256_of": "original",
+      "working_copy": "1888_p057.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:35+00:00"
+  }
+}

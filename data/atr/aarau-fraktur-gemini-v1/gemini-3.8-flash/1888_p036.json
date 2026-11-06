@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p036",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p036.jpeg",
+    "bytes": 236242,
+    "sha256": "a083fdd20c09d519c5baf778769bbac1ed7799d3b2d91dc5bd48f91406427052",
+    "sha256_of": "original",
+    "working_copy": "1888_p036.jpeg"
+  },
+  "text": "— 26 —\nHaus-\nNr.\n307. Gamper-Andres, Rosette, Kaufmanns Wittwe, Part., (zur Schönau).\n308.† Dieselbe. Holzhaus.\n309.* Bally, C. F., Fabrikant, in Schönenwerd, Schuhfabrik.\n310. a. † Derselbe. Dampfkesselhaus.\n310. b. † Derselbe. Maschinenhaus.\n311.† Derselbe. Pumphaus und Druckwasserleitung.\n\nScheibenschachen.\n\n312.* Feer-Zubers Erbschaft.\n  Gampp-Spreuer, Philipp, Aufseher, von Hornussen.\n  Roth-Zaugg, Friedrich, Obergerichtskanzlist.\n313.* Dieselbe.\n  Schneider-Wernli, Jakob, Aufseher, von Thalheim (Aargau).\n  Vogel-Ernst, Johann, Obermüller, von Thalheim (Preußen).\n314.* Dieselbe.\n  Birri-Wülser, Fridolin, Posamenter, von Zeihen.\n  Gloor-Amsler, Fried., Küfer, von Dürrenäsch.\n315.* Dieselbe.\n  Wirz-Huber, Franz, Wagenvisiteur, von Starrkirch (Solothurn).\n  Schmid-Pauli, Daniel, Gärtner, von Erlinsbach.\n316.* Dieselbe.\n  Bolliger-Speck, Rud. Hermann, Bahnangestellter, von Schloßrued.\n  Möller-Reinle, Ernst August, Büchsenmacher, von Zella (Sachsen).\n1178 † Firma Zurlinden & Cie. Portlandcementfabrik.\n1179 † Dieselben. Turbinenhaus.\n1180 † Dieselben. Comptoir.\n1181 † Dieselben. Schuppen.\n1211 † Dieselben. Brennofenhaus.\n1212 † Dieselben. Cementmagazin.\n1230 † Dieselben. Schopf.\n\nGishügel.\n\n317. Wächter-Hasler, Hans, Wirth zum „Alpenzeiger“, von Remigen.\n  Kurhaus.\n318. Abgetragen. An dessen Platz:\n1204 † Derselbe. Holzhaus und Stallung.\n1206 † Derselbe. Trinkhalle.\n319. Zschokke-Sauerländer, Olivier, Ingenieur, zur Blumenhalde.\n  Fisch-Zschokke, Karl, Dr., Professor.\n320.† Waschhaus und Holzschopf.\n\nWeinberg.\n\n321. a. Siebenmann-Hagnauer, Friedrich, Bierbrauer und Wirth.\n321. b.* Oeschger-Von Felten, Remigius, von Wyl.\n  Frey-Rauber, Joh. Jakob, Part., von Oegerfelden.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5963,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1698,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:27:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p036",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p036.jpeg",
+      "bytes": 236242,
+      "sha256": "a083fdd20c09d519c5baf778769bbac1ed7799d3b2d91dc5bd48f91406427052",
+      "sha256_of": "original",
+      "working_copy": "1888_p036.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:00+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p116",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p116.jpeg",
+    "bytes": 244804,
+    "sha256": "f15b3b1cc16eb413c4c80c36639c4510b62f4d1bfb7e1747b9aee79a9c8caab5",
+    "sha256_of": "original",
+    "working_copy": "1892_p116.jpeg"
+  },
+  "text": "100\nHaßler — Helm.\n\nHaßler, Gottlieb, Färber, Casinostraße 584.\n[handschriftlich: x]Haßler-Heberlin, Adolf, Färber, im Hammer 188.\nHaßler-Hunziker, Karl, Kaufmann, Hemdenfabrikation, Weißwaaren- und\n  Tapetenlager, Bahnhofstraße 1020.\nHaßler, Julie, Modistin, Adelbändli 122.\nHaßler-Märki, Barbara, Schreiners Wittwe, obere Vorstadt 966.\nHaßler, Marie, Part., Halden 265.\nHaßler, Margaretha, Glasers, Graben 209.\nHaßler-Meier, Marie, Part. von Männedorf (Zürich), Casinostraße 1130.\nHaßler-Müller, Theodor, Buchbinder, Milchgasse 153 b.\nHaßler-Oberlin, Margaretha, Lingeriegeschäft, Bachstraße 1040.\nHaßler, Remigius, Stumme, Adelbändli 172.\n[handschriftlich: x]Haßler-Schmid, Hans, Sohn, Lederhandlung, Bahnhofstraße 656.\nHaßler, Sophie, Glätterin, Adelbändli 172.\n[handschriftlich: x]Haßler-Stampfli, Hans, Gerber, Leder- und Fourniturenhandlung, Bahn-\n  hofstraße 656.\n[handschriftlich: /]Haßler-Wanger, Emil, Kolonialwaarenhandlung, Laurenzenthorgasse 349.\nHaßler-Weißer, Arnold, Buchhalter, Telli 454.\n[handschriftlich: x]Hauenstein-Hollinger, Alois Friedrich, Lehrer von Degerfelden, Metzger-\n  gasse 56.\nHaupt-Ginsberg, Hermann, Oberkellner von Regensberg, Rain 826.\nHauri-Gränicher, Karl, Buchhalter von Seengen, Ziegelrain 751.\nHauri-Graber, Rudolf, Fuhrmann von Reitnau, Halden 249.\nHauri-Kyburz, Samuel, Briefträger von Seengen, Schachen 734.\nHauri-Siegenthaler, Karl, Ziegler, Rain 866.\nHausmann-Dietiker, Johann, Taglöhner von Schafisheim, Färbergäßchen\n  Hinterhaus von 125 Pelzgasse.\nHausmann-Heuberger, Johann, Taglöhner v. Schafisheim, Hammer 185 b.\nHausmann-Rüetschi, Gottlieb, Wagenwärter von Schafisheim, vor dem\n  Haldenthor 1084.\nHediger-Born, Wilhelm, Postangestellter von Reinach, Milchgasse 151.\nHediger, Susette, Näherin von Reinach, Rathhausgasse 20.\nHefti-Hunziker, Johann Peter, Schneidermeister von Schwanden (Glarus),\n  Metzgergasse 100.\nHegetschwyler-Horlacher, August, Kondukteur von Ottenbach (Zürich),\n  Entfelderstraße 1285.\nHegnauer-Fischer, Rudolf, Buchhalter von Seengen, Schachen 729.\n[handschriftlich: x]Hegnauer-Renold, Rudolf, Fabrikant, Hammer 194.\nHeinzelmann, Johann, Schuhmacher v. Marschalkzimmern (Württemberg),\n  Kirchgasse 12.\nHeitz-Neeser, Kornelius, Zimmermann v. Menziken, Laurenzenvorstadt 376.\n[handschriftlich: x]Heller-Erb, Heinrich, Rechtsagent, Inkasso- u. Geschäftsbüreau, Zollrain 54.\nHelm, Fanny, Modistin von Oerlikon (Zürich), Zollrain 52.\nHelm-Schmid, Emil, Tapezierer von Oerlikon (Zürich), Wohnung Zoll-\n  rain 292, Werkstätte Halden 270.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10216,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2506,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:58:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p116",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p116.jpeg",
+      "bytes": 244804,
+      "sha256": "f15b3b1cc16eb413c4c80c36639c4510b62f4d1bfb7e1747b9aee79a9c8caab5",
+      "sha256_of": "original",
+      "working_copy": "1892_p116.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:58:09+00:00"
+  }
+}

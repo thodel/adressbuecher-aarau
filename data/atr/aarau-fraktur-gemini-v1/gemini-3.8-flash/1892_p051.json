@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p051",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p051.jpeg",
+    "bytes": 184717,
+    "sha256": "08b698d0a8222cc1b4f1e1c4d301df834afe941ee6529b50b47aa6b80f2a8996",
+    "sha256_of": "original",
+    "working_copy": "1892_p051.jpeg"
+  },
+  "text": "— 43 —\n\nHaus-\nNr.\n597. Derselbe. Schmiedewerkstätte und Schopf.\n598.  \"  Kriegsfuhrwerkschuppen.\n599.  \"  Wagner- und Sattlerwerkstätte, Magazin und Comptoir.\n600.  \"  Kriegsfuhrwerkschuppen.\n601.  \"  Holzschopf.\n\nLaurenzenvorstadt.\n\n602.* Feer-Großmann, Erbschaft.\n  Stierli-Brentano, Goar Leonz, Fürsprech und Notar, Vize-Stadtammann,\n    von Aristau.\n  Käslin-Schönecker, Lina, Musiklehrers Wittwe.\n  Lutz-Hagnauer, Johann, Kaufmann, von Basel.\n  Feer, Adele, Part.\n  Feer, Karl. \\\n  Feer, Henri, / Privatiers.\n  Feer, Sophie, Part.\n  Baur, Adolf, Adjunkt des Kantonsingenieurs, von Sarmenstorf.\n603. Dieselbe. Abgetragen.\n604.†  \"  Holzschopf.\n605.†  \"  \"\n606.†  \"  Bad- und Glättezimmer.\n\nBahnhofstraße.\n\n607.* Feer-Großmann, Erbschaft. Wohnhaus mit Scheune.\n  Hoffmann-Volliger, Jakob, Oekonom, von Unterkulm.\n  Staub-Kübler, Hans Jakob, Nachtwächter (Bahnhof), von Dübendorf.\n  Staub, Jakob Bernhard, Wagencontroleur, von Dübendorf.\n  Staub, Johann, Maschinenreiniger, von Dübendorf.\n608. Staat Aargau. Kantonsschüler-Kosthaus.\n  Ganter-Schilling, Heinrich, Professor, von Neustadt (Baden).\n609.† Derselbe. Abgetragen.\n610.  \"  Firma Erne & Cie., Nachfolger von F. X. Bäumlin. Colonial-\n    waarengeschäft en gros. Magazin.\n1319  \"  Holzremise.\n1320  \"  Magazin & Stallung (Erne & Cie.).\n  611.  \"  Abgetragen.\n  612.  \"    \"\n\nGraben.\n\n613.* Oboussier-Imhof, Friedrich, Part., in Riesbach-Zürich.\n  Firma F. Oboussier & Cie. Baumwolltuchfabrikation.\n  Oboussier-Schäfer, Friedrich, Fabrikant.\n614.† Derselbe. Magazine.\n1128  †  \"  Waschhaus.\n615.* Wydler-Frey, Elise, Apothekers Wittwe.\n  Zehnder, Gottlieb, Part., von Birmenstorf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6570,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1638,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.52,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:50:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p051",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p051.jpeg",
+      "bytes": 184717,
+      "sha256": "08b698d0a8222cc1b4f1e1c4d301df834afe941ee6529b50b47aa6b80f2a8996",
+      "sha256_of": "original",
+      "working_copy": "1892_p051.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:43+00:00"
+  }
+}

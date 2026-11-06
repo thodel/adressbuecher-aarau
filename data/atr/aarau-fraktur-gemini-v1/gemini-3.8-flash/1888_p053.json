@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p053",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p053.jpeg",
+    "bytes": 259645,
+    "sha256": "2d8f58042ad481875e8f7119b13f17de0ede7a0a3fd49ae2899e3d3c46ec1404",
+    "sha256_of": "original",
+    "working_copy": "1888_p053.jpeg"
+  },
+  "text": "— 43 —\nHaus=\nNr.\n  Wittmer geb. Hoffmann, Salome, Wittwe, Fabrikarbeiterin, von Erlins-\n    bach (Solothurn).\n644. Herzig-Hauri, Fried., Schneidermeister, von Wynau (Bern).\n645. Wolf-Märki, Anna, Wittwe.\n  Wolf, Friedrich, Architekt, Adjunkt des Hochbaumeisters.\n  Schmid-Wolf, Peter, Kassier der Sparkasse Aarau und Umgebung.\n  Gysi-Fischer, Friedrich, Schlossermeister.\n646.*Henz-Gautschi, Emil, Eisenhandlung.\n  Bolliger-Manger, Gustav, Kaufmann. Hemden-, Schürzen- und Knaben-\n    kleider-Anfertigungsgeschäft.\n  Tschanz geb. Beck, Sophie, Wittwe, Part.\n  Tschanz, Louise, Ladentochter.\n  Feuter, Michael, Buchhalter, von Buhlbronn (Württemberg).\n647. Lüscher, Geschwister, Jakob, * Elise und Louise.\n  Lüscher, Jakob, Schuhmacher.\n  Lüscher, Louise, Part.\n  Nadler geb. Häuptli, Anna, Wittwe, von Biberstein, Spezereiwaaren-\n    handlung.\n\nBahnhofstraße.\n\n648. Fehlmann-Blattner, Rudolf, Aufseher.\n  Fehlmann-Blattner, Anna. Mercerie- und Lingeriegeschäft.\n  Häfeli-Fischer, Julie, Expedients Wittwe, Näherin, von Seengen.\n649. Schaffner-Lindenmann, Friedrich, Wagner.\n  Schaffner, Friedrich, Sohn, Wagner.\n650.† Müller-Schnebeli, Heinrich, Wirth z. Löwen, Scheune, Remise und\n    Schopf.\n651. Custer-Fueter, Hermann, Dr. phil., Fabrikant, von Rheineck (St. Gallen).\n  Custer, Emil, Chemiker, Fabrikant, von Rheineck (St. Gallen). Fabrikation\n    von Mineralwasser und Kellerei-Artikel (Firma D. H. Custer).\n  Rothplez, Karl, Architekt.\n  Lindt geb. Elias, Karolina, Pfarrers Wittwe, von Bern.\n652.† Custer-Fueter, Hermann, Dr. phil., von Rheineck (St. Gallen).\n    Fabrikationsgebäude.\n653.*Derselbe. Fabrikgebäude mit Wohnung.\n  Rotter-Baumgartner, Joh., Schreinermeister, von Wermsdorf (Oesterreich).\n654.† Derselbe. Holzschopf.\n655.† Derselbe. id.\n1142   † Derselbe. id.\n656. Haßler-Stampfli, Hans, Leder- und Fourniturenhandlung.\n  Müller-Haberstich, Fried. August, Kaufmann.\n657.† Derselbe. Holzschopf.\n658. Heuberger-Wernli, Elisabeth, Wittwe. Heuberger-Rychner, Karl,\n    Coiffeur und Heuberger, Hermine.\n  Heuberger-Rychner, Karl, Coiffeurgeschäft.\n  Heuberger geb. Wernli, Wittwe, Spezereihandlung.\n  Gysi-Bächli, Adolf, Tapezierer, von Buchs. Möbelhandlung.\n  Weyersmüller geb. Moser, Sophie, Reg.-Raths Wittwe, Part.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7645,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2233,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:29:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p053",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p053.jpeg",
+      "bytes": 259645,
+      "sha256": "2d8f58042ad481875e8f7119b13f17de0ede7a0a3fd49ae2899e3d3c46ec1404",
+      "sha256_of": "original",
+      "working_copy": "1888_p053.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:04+00:00"
+  }
+}

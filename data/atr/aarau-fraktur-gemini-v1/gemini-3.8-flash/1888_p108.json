@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p108",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p108.jpeg",
+    "bytes": 275321,
+    "sha256": "4e9567329bc9daadba881d089653ca4aebf91ac825d74fcf370079215a37ecca",
+    "sha256_of": "original",
+    "working_copy": "1888_p108.jpeg"
+  },
+  "text": "90        Guttentag — Haßler.\n\nGuttentag, Isidor, Dr. Professor von Czenstochau (Polen), Bahnhof=\n  straße 535.\nGuyer, August, Fabrikant, Telli 456.\nGuyer-Gunkel, Oskar, Sohn. Fabrikant, Telli 456.\nGünthard-Hauri, Marie, Wittwe, Weißnäherin von Hedingen (Zürich),\n  Schachen 739.\n\nHaberstich-Huber, Gottlieb, Part. von Oberentfelden, Kirchgasse 10 a.\nHaberstich-Steimer, Johann, Fürsprech, Laurenzenvorstadt 413.\nHaberstich-Scheuermann, Samuel, Schulinspektor, obere Vorstadt 938.\nHaberstich-Stöckli, Jakob, Zinsrodelverwalter von Oberentfelden, Rain 858.\nHagenbuch-Egger, Friedrich, Buchbinder, vordere Vorstadt 676.\nHagenbuch-Ernst, Marie, Schneiders Wittwe, vordere Vorstadt 902 b.\nHagenbuch-Groß, Karl, Coiffeur, Rain 819.\nHagenbuch-Hagenbuch, August, Sekretär, Rathhausgasse 46.\nHagenbuch-Hagenbuch, Verena, Stickerei- und Wollwaarenhandlung, Rath=\n  hausgasse 5.\nHagnauer, Emma, Part., Conradstraße 989.\nHagnauer, Nanette, id.        id.        id.\nHagnauer, Mathilde, id.        id.        id.\nHagnauer, Friedrich, Bürstenmacher, Pelzgasse 68.\nHagnauer, Gottlieb, Metzger, Halden 266 b.\nHagnauer, Hedwig, Lehrerin, hintere Vorstadt 688.\nHagnauer, Hermann, Sohn, Kaufmann, Pelzgasse 68.\nHagnauer-Kaspar, Joh. Ludwig, Briefträger, Adelbändli 170.\nHagnauer-Peters, Friedrich, Sohn, Bürstenmacher, Pelzgasse 68.\nHagnauer-Wildberger, Barbara, Wittwe, Part., Conradstraße 989.\nHagnauer-Zimmermann, Albert, Kaufmann, Conradstraße 1255.\nHaller-Fehlmann, Susette, Wittwe, Wäscherin von Reinach, Milchgasse 74.\nHaller-Ottiger, Wilhelm, Schuhmacher von Reinach, Halden 282.\nHaller-Ottiger, Marie, Glätterin von Reinach, Halden 282.\nHaller-Ringier, Emilie, Fürsprechs Wittwe von Zofingen, jenseits der\n  Aare 294.\nHangartner-Alder, Ferdinand, Lithograph von Buchthalen (Schaffhausen),\n  Bachstraße 1048.\nHartmann-Götte, Rudolf, Fabrikant von Ebnat (St. Gallen), Bach=\n  straße 1098.\nHartmann, Johann Friedrich, Part. von Mügglingen (Württemberg),\n  Weinberg 321.\nHaßler, Arnold, Buchhalter, Telli 456.\nHaßler-Bircher, Paul, Kupferschmied, Pelzgasse 134.\nHaßler-Brunnhofer, Eduard, Kaminfeger, Halden 248.\nHaßler-Ernst, August, Färber, Halden 265.\nHaßler, Marie, Part., Halden 265.\nHaßler, Gottlieb, Färber, Casinostraße 584.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7901,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2219,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:35:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p108",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p108.jpeg",
+      "bytes": 275321,
+      "sha256": "4e9567329bc9daadba881d089653ca4aebf91ac825d74fcf370079215a37ecca",
+      "sha256_of": "original",
+      "working_copy": "1888_p108.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:15+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p176",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p176.jpeg",
+    "bytes": 277343,
+    "sha256": "cc8165919016d7e3b9e92dd51e2526a0107565f2c7ffb58db8f69a87cf995a07",
+    "sha256_of": "original",
+    "working_copy": "1896_p176.jpeg"
+  },
+  "text": "",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 164156,
+  "truncated": true,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "empty",
+    "chars": 0,
+    "lines": 0,
+    "longest_char_run": 0,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 0.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:31:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1896_p176",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p176.jpeg",
+      "bytes": 277343,
+      "sha256": "cc8165919016d7e3b9e92dd51e2526a0107565f2c7ffb58db8f69a87cf995a07",
+      "sha256_of": "original",
+      "working_copy": "1896_p176.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:31:41+00:00"
+  }
+}

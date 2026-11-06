@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p106",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p106.jpeg",
+    "bytes": 236525,
+    "sha256": "d96b74717f2033edb552142a051b7a5e550f55e834d233dfc69786f941012879",
+    "sha256_of": "original",
+    "working_copy": "1892_p106.jpeg"
+  },
+  "text": "90\nDubs — Erismann.\nDubs, Jakob, Müller von Rüttigen, Hammer 182.\nDubs, Johann,\nDubs-Schärli, Elisabeth, \"Müller's Wittwe\" von Rüttigen, Hammer 182.\nDubs-Walther, Karl, Metzger und Speisewirth von Rüttigen, Rathhaus-\ngasse 32.\nDyma-Brieder, Ignaz, Schneider v. Hermannsester, (Bühmen), Kirchg. 10 b.\n\nEhner-Zimmermann, Joseph, Schriftsetzer von Birkingen (Großh. Baden),\nZoltrain 178.\nEckert-Giger, Eduard, Zimmerpolier von Grossräudchen (Preußen), hinter\ndem Bahnhof 494.\nEcknauer-Reimann, Josef Emil, Handlanger von Herznach, Pelzgasse 125.\nEger-Ehner, Theophil, Schneider von Kiehen (Basel), Milchgasse 71.\nEggen-Sulzer, Eduard, Kaufmann, Colonialwaarenhandlung, Laurenen-\nthorgasse 119 b.\nEggimann-Jos, Johann, Speisewirth von Sumiswald (Bern), Bahnhof-\nstraße 1025.\nEggmann-Gloor, Heinrich, Ausseher von Uttwil (Thurgau), Hammer 194.\nEgli, Heinrich, Part. von Brütten (Zürich), Weggergasse 112.\nEglinger, Wilhelmina, Privatin von Basel, in der Gais 486.\nEgloff, Johann Ernst, Buchbinder von Tägerweilen (Thurgau), Bach-\nstraße 1028.\nEgloff-Meier, Franz Adam, Postangestellter von Wettingen, Speisewirth-\nschaft, Schachen 731.\nEgloff-Spychiger, Georg, Gärtner von Tägerweilen (Thurgau), Wohnung\nHalden 264, Gärtnerrei an der Casinostraße 1347.\nX Ehrsam-Andres, Daniel, Postbeamter, Zschottestraße 975.\nEhrsam, Jda, Part. Bachstraße 1040.\nEhrsam-Wehrli, Alfred, Schneidermeister, Ziegelrain 707.\nEich, Gottlieb, Schuhmacher, von Östringen, Pelzgasse 69.\nEichenberger-Fischer, Gottlieb, Schreiner von Beinwil, Bahnhofstraße 1018.\nEichenberger-Flad, Rudolf, Zimmermann von Reinach, Milchgasse 154.\nEichenberger-Joho, Rudolf, Schuhmacher von Reinach, Schmiedgasse 636.\nElsässer-Kiburg, Gottlieb, Küfermeister von Unterfultum, Halden 290.\nEngesser-Brunner, Joseph, Schneider von Durchhausen (Württemberg),\nHalden 268.\nX Erdin-Dbrecht, Albin, Kaufmann von Ganfingen, Nachfolger von Wittwe\nJean Riefer u. Cie., Mercerie-, Lingerie- und Bonneteriewaren-\nhandlung, Rathhausgasse 22.\nErdin-Zumsteg, Siegfried, Kerzenfabrikant von Ganfingen, Hammer 156 b.\nErismann-Hüffi, Anna, Wittwe, von Schloßrued, Kirchgasse 19 a.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4434,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2111,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.26,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:42:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p106",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p106.jpeg",
+      "bytes": 236525,
+      "sha256": "d96b74717f2033edb552142a051b7a5e550f55e834d233dfc69786f941012879",
+      "sha256_of": "original",
+      "working_copy": "1892_p106.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:42:07+00:00"
+  }
+}

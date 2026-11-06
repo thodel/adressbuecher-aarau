@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p151",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p151.jpeg",
+    "bytes": 265575,
+    "sha256": "744b5321ab0048af1573548ca7c9a74b687bd168f23820e4a5e50f21e37f15ac",
+    "sha256_of": "original",
+    "working_copy": "1888_p151.jpeg"
+  },
+  "text": "133\n\nHutmacher.\nGerodetti, Virgil, Ziegelrain 713.\nSernatinger, Valerian, vordere Vorst. 900.\n\nHuthandlungen.\nAckermann-Buser, Albert, vordere Vor=\n  stadt 890.\nCamisasca, Franz, Rain 826.\nKüpfer, Eduard, Laurenzenthorgasse 1118.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vordere Vorst. 900.\n\nIngenieure.\nBaur, Adolf, Laurenzenvorstadt 602.\nBircher, Julius, Ziegelrain 713.\nFahrländer, Eugen, Rainstraße 869.\nGautschi, Samuel, Bachstraße 1039.\nGonzenbach, August, Rain 828.\nOehler, Oskar, Laurenzenvorstadt 415.\nRychner-Heß, Louis, Rain 832.\nRilliet, Eduard, Gartenstraße 998.\nSchmid, Johann Jakob, Bachstraße 1138.\nWyttenbach, Arthur, Gais 1063.\nZschokke, Olivier, Geißhügel 319.\nZschokke, Conradin, Entfelderstraße 960.\n\nInstrumentmacher.\nHirsbrunner, Jakob, Halden 255.\n\nKappenmacher.\nKüpfer, Eduard, Laurenzenthorgasse 1118.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vordere Vorst. 900.\n\nKastanienverkäufer.\nDürr, Gabriel, Graben 1237.\nPeduzzi, Franz, Bahnhofstraße 1026.\n\nKaminfeger.\nHaßler, Eduard, Halden 248.\nVogel, Rudolf, Entfelderstraße 1147.\n\nKäsehandlungen.\nBaumann, Kaspar, Casinostraße 660.\nObrist, Emil, Metzgergasse 100.\nRüetschi, Gottfried Adelbändli 81.\nSchär, Friedrich, Holzmarkt 663.\nSchießer, Hermann (en gros et en detail),\n  Pelzgasse 121.\nWidmer, Samuel, Bahnhofstraße 1074.\n\n[spalte 2]\nKalkfabrikanten.\nFleiner, Albert, Fabrik von schwerem\n  hydraulischen Kalk, Erlinsbacher=\n  straße 327.\nHauri-Siegenthaler, Karl, Rain 866.\nThut-Gidemann, Hermann, Rain 863.\n\nKerzenfabrikanten.\nBillo-Bär, Julius, Bahnhofstraße 535.\nMaurer, Emil, zum Kreuz, jenseits der\n  Aare 298.\n\nKinderwagen.\nLüthi, Alexander, Sattler, Casinostr. 660.\nLüthi, Eduard, Sattler, Kirchgasse 15.\nSchmidt, Adolf, Sattler. Bachstraße 1028.\n\nKinderspielwaaren.\nHemmeler-Haßler, August, Metzgergasse 55.\nHemmeler & Cie., hintere Vorstadt 638\n  (en gros).\nHemmeler = Stahl, Ida (Firma Ritter=\n  Stahl), Rathhausgasse 24.\nMorath, Johann, Rathhausgasse 2.\nSchmid, Joh. (Pariser Bazar), vordere\n  Vorstadt 889.\nSchmuziger, Marie (Firma: Schmuziger=\n  Fisch), Rathhausgasse 1.\nVonfelten-Willimann, Verena, Kronen=\n  gasse 37.\n\nKlaviermacher.\nLutz, Ulrich, Graben 1237.\n\nKlavierhandlungen.\nKäslin u. Burgmeier, Laurenzenthorg. 117.\nLutz, Ulrich, hinterm Platz 221.\n\nKlavierstimmer.\nLutz, Ulrich, Graben 1237.\n\nKleiderhandlungen.\nAckermann-Buser, Albert, vordere Vor=\n  stadt 890.\nBuser, Friedrich, vordere Vorstadt 890.\nCamisasca, Franz, Rain 826.\nGamper & Cie., Rathhausgasse 49.\nGerber, Gustav, vordere Vorstadt 670.\nGisi-von Arx, Viktor, Holzmarkt 664.\nHefti, Peter, Metzgergasse 100.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9289,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2612,
+    "lines": 88,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0909,
+    "mean_line_chars": 28.26,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:41:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p151",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p151.jpeg",
+      "bytes": 265575,
+      "sha256": "744b5321ab0048af1573548ca7c9a74b687bd168f23820e4a5e50f21e37f15ac",
+      "sha256_of": "original",
+      "working_copy": "1888_p151.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:24+00:00"
+  }
+}

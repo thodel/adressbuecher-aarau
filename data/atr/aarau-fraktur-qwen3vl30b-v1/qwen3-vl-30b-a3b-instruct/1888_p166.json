@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p166",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p166.jpeg",
+    "bytes": 260523,
+    "sha256": "e7fa573e5b17248791d863c084b646ff442a6e710dede30604438b6e70d49bc0",
+    "sha256_of": "original",
+    "working_copy": "1888_p166.jpeg"
+  },
+  "text": "148\nVerzeichnis der Behörden, Beamten und Angestellten\nder Stadtgemeinde Aarau.\n\nGemeinderath.\nGde.-Ammann: Tanner, Erwin, Fürsprach.\nVice: \" Imhof-Munzinger, Emil, Ingenieur.\nGde.-Räthe: Hemmeler-Frey, Fried., Kaufmann.\nGonzenbach-Gonzenbach, A., Ingenieur.\nFrey-Frey, Carl, Kaufmann.\nStierli-Brentano, G. E., Fürsprach.\nSchäfer-Troller, Ab., Architekt.\nGemeindeschreiber.\nNiggli-Bohnenblust, Arnold, Fürsprach.\nStellvertreter: Frey-Kiefer, Josef, Notar.\nFriedensrichter.\nGrismann, Samuel, Dekonom.\nSchulkommisssion.\nPräsident: Dr. Liechti, Paul, Professor.\nVice: \" Sauерländer, Remigius.\nMitgl. d. Aussch.: Gonzenbach, A., Stadtrath.\nMitglieder: Bally, Eugen, Fabrikant.\nFischer, Xaver, Pfarrer.\nSchäfer, Ab., Architekt.\nDr. med. Schmuziger, Fried., Arzt.\nDr. Stähelin, A.\nDr. Tuchschmid, Aug., Prof.\nBernli, Rud., Pfarrer.\nAktuar: Frey, J., Notar u. Stellvertreter des Gemeindeschreibers.\nSteuerkommission.\nPräsident: Frey-Frey, Carl, Gde.-Rath.\nVice: \" Schmidt-Hagnauer, Gustav, Kaufmann.\nMitglieder: Schäfer, A., Gde.-Rath.\nHeller, Sch., Rechtsagent.\nDofer, Leop., Direkt.-Sekretär.\nHenz-von Seutter, S., Kaufm.\nFrey-Herzog, Aug., Fabrikant.\nErfahmann: Rychner, Conrad, Seiler.\nAktuar: Amsler, Otto, Stadtkassier.\nEinwohner-Rednungskommisssion.\nPräsident: Dr. Blattner, Otto, Fürsprach.\nMitglieder: Dr. Frey, Julius, Vice-Bankdirektor.\nSchiefer-Häfzig, Hrm., Kaufm.\nSchäfer-Holzach, Carl, Bankangestellter.\nGyfi-Studler, A., Mechaniker.\nNeuburger, Albert, Apotheker.\nDr. Cufner, Hrm., Fabrikant.\nOrtsbürger-Rednungskommisssion.\nPräsident: Feer, Carl, Rentier.\nMitglieder: Hässig-Lienhard, Hrm., Bäcker.\nErny-Fässler, Emil, Kaufm.\nErnst-Käfer, Fr., Röhrenfabr.\nImhof, Ernst, Fabrikant.\nHunziker-Thommen, Hermann, Fabrikant.\nMüller-Rothplez, A., Architekt.\nForstkommission.\nPräsident: Tanner, C., Gde.-Ammann.\nMitglieder: Imhof-Munzinger, Emil.\nGonzenbach, A.\nSiebenmann-Brun, Brandolf.\nHässig-Lienhard.\nSiebenmann, Rud.\nFahrländer, Eugen.\nZimmermann, August.\nSiebenmann, Bernhard.\nBerathend: Meifel, Kas., Forstverwalter.\nAktuar: Niggli, A., Fürsprach u. Gemeindeschreiber.\nForstverwalter.\nMeifel, Xaver.\nFondsverwalter.\nAndres, Gottlieb.\nBauverwalter.\nSiebenmann-Hürsch, Gottlieb.\nCivillandsbeamter.\nFrey-Kiefer, Josef, Notar.\nStadtkassier.\nAmsler, Otto.\nGemeindeweibel.\nSiebenmann-Merz, Emil.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4699,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2309,
+    "lines": 79,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 28.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:32:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p166",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p166.jpeg",
+      "bytes": 260523,
+      "sha256": "e7fa573e5b17248791d863c084b646ff442a6e710dede30604438b6e70d49bc0",
+      "sha256_of": "original",
+      "working_copy": "1888_p166.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:09+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p042",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p042.jpeg",
+    "bytes": 322453,
+    "sha256": "5db609b1281fbc7f10dc50424766e94e8a721ae93b8b43e28a44c57143d6d682",
+    "sha256_of": "original",
+    "working_copy": "1884_p042.jpeg"
+  },
+  "text": "38\nBeruffet-Laurent, Daniel, Lehrer, v. Grandson (Waadt), n. Quartier 1103.\nBefehl-Schacher, Josef Martin, Maurer, v. Passau (Bayern), Halden 280a.\nPeter-Gut, Josef, Fourniturenhändler, v. Pfaffnau (Luzern), v. Vorst. 902b.\n— =Wernli, Anna, Partif., von Biberstein, Kirchgasse 12.\n— =Elise, Fabrikarbeiterin, \" \" \" 12.\n— Anna, \" \" \" 12.\nPfau-Bleuler, Johann Jakob, Direktor der aarg. Creditanstalt, von Schaffhausen, Laurenzenvorstadt 351.\nPfenninger-Baion, Catharina, Seifelsflechterin, v. Stäfa (Zürich), Milchg. 154.\nPfister, Josef, Köchin, von Altishofen (Luzern), Milchgasse 145.\n*Pfisterer-Marti, Rudolf, Kürschner, vordere Vorstadt 666.\n* — =Tschudi, Emil, Sohn, Kürschner, vordere Vorstadt 666.\n* — Robert, Bierbrauer, vordere Vorstadt 672.\n*Philipp-von Arr, Joh., Knecht, von Rienberg (Soloth.), Rathhausgasse 3.\n*Pfleger, Louise, Partif., Milchgasse 157.\n* — Jusfine, Partif., Milchgasse 157.\n* — Emma, Partif., Halden 261.\nPlüü, Hermann, Tapezierer, von Ryken, vordere Vorstadt 675.\n— =Haller, Maria, Wittwe, Bettmacherin, v. Niederwyl, Golattenmattgasse 232.\n* — =Plüü, Wittwe, Partif., hintere Vorstadt 688.\n* — Louise, Lehrerin, hintere Vorstadt 688.\n* — Anna, Damenschneiderin, hintere Vorstadt 688.\n— Verena, Partif., von Vordenwald, Halden 264.\n— =Lehner, Elise, Spetterin, von Vordenwald, hintere Vorstadt 643.\n— =Plüü, Anna Barbara, Lehrers Wittwe, von Ryken, Rainstraße 819c.\n— Hermine, Damenschneiderin, von Ryken, Rainstraße 819.\n— Mathilde, Damenschneiderin, von Ryken, Rainstraße 819.\n* — =Stephany, Albert, Buchhalter, Rainstraße 872.\nPrantl-Wildi, Alois, Maurer, von Strengen (Tyrol), Ziegelrain 704.\nPrior-Dettmer, Helene, Partif., v. Dissen (Hanover), neues Quartier 1103.\nProbst-Benfert, Maria, Partif., von Aarburg, Rathhausgasse 20.\n— Adolf, Commis, von Balsthal (Solothurn), Bachstraße 1038.\nPuenzieu, Hartmann, Anna Maria, Partif., von Villeneuve (Freiburg), Milchgasse 75.\nPuricelli, Giovanna, von Sala-Comacina (Italien), Geflügelhändler, Milchgasse 149.\nRamsauer-Hächler, Johann, Knecht, von Herisau (Appenzell), Pelzg. 69.\nRandegger-Wirth, Conrad, Lithograph und Wirth, von Dffingen (Zürich), hintere Vorstadt 692.\nRaths-Halder, Eduard, Fabrikant, von Stäfa (Zürich), Bachstraße 1043.\nRauch-Baldechwyler, Bertha, Wittwe, von Mühlhausen, in der Gais 487.\nRauschenstein-Pfleger, Friedrich, Professor, von Brugg, Halden 261.\n*Kämisperger-Berner, Benjamin, Gürtler, Golattenmattgasse 231b.\n* — =Hemmeler, Gottfried, Spengler, Halden 275.\n* — Hermann, Sohn, Spengler, Halden 275.\n* — =Studler, Gottlieb, Spengler, Halden 287.\nReimann-Teichli, Gustav, Kriminal-Gerichtsschreiber, von Wölflinswil, Weinberg 321.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5856,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2641,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 59.05,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:13:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p042",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p042.jpeg",
+      "bytes": 322453,
+      "sha256": "5db609b1281fbc7f10dc50424766e94e8a721ae93b8b43e28a44c57143d6d682",
+      "sha256_of": "original",
+      "working_copy": "1884_p042.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:13:02+00:00"
+  }
+}

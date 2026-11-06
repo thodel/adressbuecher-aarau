@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p030",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p030.jpeg",
+    "bytes": 311440,
+    "sha256": "ec2ae0e01d01b9388c15eb31d45c9e70b168903dd33f5b164fcf82854508382e",
+    "sha256_of": "original",
+    "working_copy": "1884_p030.jpeg"
+  },
+  "text": "26\nHänsler. — Heiz.\nHänsler, Anna, Damenschneiderin, v. Richterswyl (Zürich), Hammer 185b.\nHärbi, Wilhelm, Goldschmied, von Lenzburg, Rathausgasse 42.\nHäring, Maria, Spetterin, von Dettighofen (Baden), Bachstrasse 1031.\nHärrli-Vinder, Rudolf, Direktionssekretär, von Birmwyl, Rathausgasse 5.\n— Waffer, Zuzanna, Fabrikarbeiterin, v. Birmwyl, Laurenzenvorst 376.\n— Baumann, Arnold, Postcommis, von Birmwyl, Kronengasse 35.\n*Hägig-Vienhardt, Hermann, Bäcker und Wirth, Rathausgasse 46.\n* — Siegrist, Julius, Schlosser, Milchgasse 77.\n* — Fischer, Albert, Buchbinder, Milchgasse 76.\n* — Hauenstein, Samuel, Partik., Ziegelrain 705.\n* — Bühler, Friedrich, Kupferschmied, Ziegelrain 705.\n* — Samuel, Maler, obere Vorstadt 968.\n* — Straubhaar, Gottlieb, Feinschleifer, im Hammer 190.\n* — Baumann, Julius, Schleifer, im Hammer 184.\n* — Rosette, Glätterin, im Hammer 184.\n* — Elise, Glätterin, im Hammer 184.\n* — Dätwyler, Arn., Schuhmacher u. Siegrist der ref. Kirche, Kirchpl. 165a.\n* — Riburz, Friedrich, Camionneur, Milchgasse 143.\n* — Friedrich, alt Thurmwart, Auskäuf er, Milchgasse 145.\n* — Lischer, Joh. Konr., Schuhmacher und Antiquar, Oberthor 224.\n* — Berner, Friedrich, Straßenreiniger, Halben 266a.\n* — Emma, Rentiere, Graben 202.\n* — Sigle, Julius, Speisewirth, obere Vorstadt 912.\nHauptli-Schälli, Jakob, Färber, von Biberstein, Milchgasse 148.\n— Burkhardt, A. Mar., Drechslers Wittwe, v. Biberstein, Halben 284.\n— Emil, Sohn, Drechsler, von Biberstein, Halben 284.\n— Großenbacher, Barbara, Näherin, von Biberstein, Halben 290.\n— Elise, Fabrikarbeiterin, von Biberstein, Halben 290.\n— Ott, Othmar, Buchhalter, von Biberstein, obere Vorstadt 926.\nHäuf ermann-Schmid, Jakob, Holzspalter, von Egliswyl, Rainstraße 881.\n— Schmid, Elisabeth, Taglöhnerin, von Egliswyl, Rainstraße 881.\n— — Rues, Adolf, Knecht, von Egliswyl, in der Gais 1166.\nHäusler-Schmid, Angelus, Maler, Schwaderloch, Rainstraße 885.\nHebiger-Fischer, Hans, Telegraphist, von Reinach, vor dem Halbenthor 767.\n— Brändli, Samuel, gewes. Instruktor, von Reinach, Milchgasse 151.\n— Sommerhalber, Samuel, Kaminfeger von Reinach, Abelbündli 85a.\n— Buchmüller, Samuel, Gärtner, von Reinach, Milchgasse 145.\n— Kull, Hermann, Stadt- und Friedhof-Gärtner, von Kupperswyl, obere Vorstadt 960.\n— Wilhelm, Postangestellter, von Reinach, Milchgasse 151.\n— Lisette, Näherin, von Reinach, Ziegelrain 709.\nHefti-Hunziker, Johann Peter, Schneidermeister, v. Schwanden (Glarus), Weggergasse 107.\nHegnauer-Renold, Rudolf, Fabrikant, von Seengen, im Hammer 194.\nHeinzelmann, Johann, Schuhmacher, v. Marschallzimmern (Württemberg), Halben 281.\nHeitz-Neef er, Konrad, Zimmermann, v. Menziken, Laurenzenvorstadt 376.\n— Ott, Elisabeth, Wittwe, Partik., von Bözberg, Ziegelrain 752.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5918,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2726,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:11:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p030",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p030.jpeg",
+      "bytes": 311440,
+      "sha256": "ec2ae0e01d01b9388c15eb31d45c9e70b168903dd33f5b164fcf82854508382e",
+      "sha256_of": "original",
+      "working_copy": "1884_p030.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:49+00:00"
+  }
+}

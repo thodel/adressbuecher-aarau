@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p073",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p073.jpeg",
+    "bytes": 203684,
+    "sha256": "e21b6b3dd6041f45dc9b4feffefbc8abe68167107b7f2a097e1412d2dd334e2b",
+    "sha256_of": "original",
+    "working_copy": "1892_p073.jpeg"
+  },
+  "text": "Haus\nNr.\nHolzinger, Bertha, Postcommisje, von Baselaugst.\nHolzinger, Mina, Klavierlehrerin, von Baselaugst.\nHoffmann, Geschwister Nanette und Karolina, Weißnäherinnen, von Zell\n(Bürich).\n949. Firma: Landolt & Co. Fabrikation seiner Wagen-, Bau- und\nDeformationslacke. Leinölfabrik.\nLandolt-Hartmann, Karl, Fabrikant.\nGänslen-Landolt, Karl, Fabrikant.\n950. Diefelbe. Abgetragen.\n951. † id. Maler- und Spenglerwerkstätte und Stellung.\n952. † id. Magazin.\n953. † id. Magazin.\n954. † id. Firnissfabrik.\n1111 † id. Chemisches Laboratorium.\n1157 † id. Remise und Waschhaus.\n1233 † id. Magazine.\n955. Sandmeier-Rohr, Suette, Wittwe, Part.\nSandmeier, Gottlieb, Buchbinder.\nSandmeier, Marie, Damenschneiderin.\nSandmeier, Margaretha, Damenschneiderin.\nRäser-Müller, Anna Barbara, Part., von Oberflach.\n956. Fischer-Keller, Albert, Sekretär.\n957. † Gemeinde Aarau. Gebethalle.\n1123 † Diefelbe. Materialschuppen.\n1224 † \" Gewächshaus.\n958. Baumann-Gyfi, Heinrich, Deconom.\nBaumann-Wäder, Eugen, Weinhändler.\n959. † Derfelbe. Scheune.\n\nEntfelderstraße.\n960. * Zschokke-Faure, Conradin, Ingenieur.\nDoser-Schröder, Leopold, Direktionssekretär, von Rheinfelden.\nZschokke-Godmer, Hermann (Bureau), Generalagentur der Basler Feuer-\nlebens-, Unfall- und Transportversicherungs Gesellschaften.\nZschokke-Offenhäuser, Elise, Pfarrers Wittwe.\n961. † Derfelbe. Waschhaus.\n962. † Derfelbe. Abgetragen.\n1200 Zschokke-Faure, Conradin, Ingenieur. Technisches Bureau.\n1202 † Derfelbe. Deconomiegebäude.\n1205 † \" Holz- und Gestügelhaus.\n963. † Siebenmann, Friedrich, Bierbrauer, Stadtrath. Werkshoff.\nMüller, Sigmund, Zimmermann, von Erlinsbach (Solothurn). (Zimmer-\nmanns-Werkstätte.)\n964. Bär, Rudolf, Schreinermeisters Kinder.\nBär, Rudolf, Schreiner.\nBär, Marie, Arbeitslehrerin.\nBär, geb. Frei, Johanna, Wittwe, Part.\n965. † Diefelben. Holzhaus.\nAdreßbuch der Stadt Aarau 1892.\n5",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3950,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1853,
+    "lines": 51,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0022,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p073",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p073.jpeg",
+      "bytes": 203684,
+      "sha256": "e21b6b3dd6041f45dc9b4feffefbc8abe68167107b7f2a097e1412d2dd334e2b",
+      "sha256_of": "original",
+      "working_copy": "1892_p073.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:29+00:00"
+  }
+}

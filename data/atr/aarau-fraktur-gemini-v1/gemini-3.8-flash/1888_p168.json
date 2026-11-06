@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p168",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p168.jpeg",
+    "bytes": 253137,
+    "sha256": "5f31f610fc397c5589b1fd48231c2c16a21b265b4fe1803d30317527c04289c6",
+    "sha256_of": "original",
+    "working_copy": "1888_p168.jpeg"
+  },
+  "text": "150\n\nGerber, J., March. Tailleur\tVordere Vorstadt 670.\nGloor-Siebenmann, Colonialwaaren- und Deli-\n  katessenhandlung\tKronengasse 38.\nGysi, Mechaniker und Photograph\tVordere Vorstadt 895.\nHäfliger, Otto, Speisewirthschaft und Metzgerei\tPelzgasse 136.\nHenz, Karl, Eisenwaarenhandlung\tVordere Vorstadt 903.\nHenz, Jakob, Eisenhandlung\tVordere Vorstadt 678.\nHolzach, Dietrich, Bierbrauerei\tBahnhofstraße 563.\nHolzach, Fritz, Metzger und Wirth\tZiegelrain 700.\n\nJenny & Weigel, Färberei\tTelli 449.\n\nKantonsspital\nKuhn-Buser, Schlosser und Mechaniker\tZiegelrain 750.\n\nLagerhäuser der Centralschweiz\tBahnhofstraße 545.\nLandolt & Cie., Firnisfabrikation\tObere Vorstadt 949.\nLandolt-Hächler, Metzger\tVordere Vorstadt 671.\nLüthy, Hermann, Kaufmann\tSchöftland.\nLüthy-Lüscher, Fabrikant\tSchöftland.\n\nMärki & Haller, Mühlebauer\tWöschnau.\nMatter, R. & D., Fabrik\tObermuhen.\n  „ „ Comptoir und Färberei\tKölliken.\nMerz, S., Notar\tBachstraße 1100.\nMilitärkanzlei\tRegierungsgebäude.\nMüller & Cie., Lithographie und Druckerei\tIgelweid 628.\nMüller, Gasthof zum Löwen\tVordere Vorstadt 681.\nMüller-Haberstich, F. In Firma: Gamper & Cie.\tBahnhofstraße 656.\n\nOboussier, F., Baumwollweberei, Fabrik in\tBuchs.\n  „ „ Büreau und Wohnung\tGraben 613.\n\nReiners Nachfolger, Elastiquefabrik\tBachstraße 1054.\nRohr, zum wilden Mann\tVordere Vorstadt 667.\n  „ Laurenzenbad\tObererlinsbach.\nRychner & Rothpletz, Thon- u. Steinzeugröhrenfabrik\tBahnhofstraße 560.\nRyniker, Fried., Bierbrauerei\tMetzgergasse 102.\n\nSauerländer, H. R., Buchdruckerei\tLaurenzenvorstadt 418.\nSchenker, Dr. med.\tBahnhofstraße 1019.\nSchmidt-Hagnauer, G., Tuchwaarenhandlung\tGraben 202.\nSchmuziger, F., Dr. med.\tEntfelderstraße 972.\nSchmuziger, Gebr., Siegellack- und Tintenfabrik\tRain 834.\nSchmuziger-Koller, Baumeister\tLaurenzenvorstadt 602.\nSiebenmann-Brun, mech. Tricotfabrik\tFärbergäßchen 212.\n  „ Wohnung\tSchönenwerd.\nSiebenmann, J., Marchand Tailleur\tOberthor 226.\nSiebenmann, Fritz, Bierbrauerei zum Weinberg\tWeinberg 321.\n  „ Bierkeller\tObere Vorstadt.\nSpar- und Kreditkasse\tSchöftland.\nSpinner, J., Camioneur\tBahnhofstraße 537.\nStaatsanwaltschaft, Kantonspolizei\tAmthaus.\nStaatskanzlei\tRegierungsgebäude.\nStadtpolizei, Wachtposten\tRathhausgasse 176.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7788,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2192,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:44:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p168",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p168.jpeg",
+      "bytes": 253137,
+      "sha256": "5f31f610fc397c5589b1fd48231c2c16a21b265b4fe1803d30317527c04289c6",
+      "sha256_of": "original",
+      "working_copy": "1888_p168.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:00+00:00"
+  }
+}

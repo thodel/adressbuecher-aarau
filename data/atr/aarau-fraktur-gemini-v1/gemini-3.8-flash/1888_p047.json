@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p047",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p047.jpeg",
+    "bytes": 238296,
+    "sha256": "3a536e95fdb1382861ef92f1d6aabdfd7c44af5d671856d42b032b8b3883a090",
+    "sha256_of": "original",
+    "working_copy": "1888_p047.jpeg"
+  },
+  "text": "— 37 —\n\nHaus=\nNr.\n515. Schweizerische Nordostbahn. Bahnhofgebäude.\n  Kübler-Kuhn, Joh., Bahnhofinspektor.\n  Brast-Meyer, Joh., Inspektionsbeamter, von Leibstatt.\n  Schäfer-Meier, Friedrich, Einnehmer der Nordostbahn.\n  Bissegger-Geiger, Joh. Konrad, Inspektionsbeamter, von Affeltrangen\n    (Thurgau).\n516.† Schweizerische Nordostbahn. Einsteigehalle.\n517.† Dieselbe. Wagenremise.\n518.† Dieselbe. Wärterhaus.\n519.* Dieselbe. Güterschopf mit Wohnungen.\n  Furter-Haller, Hans, Gepäckexpedient, von Lenzburg.\n  Spühler-Bühler, Friedrich, Portier, von Wasterkingen (Zürich).\n520.† Dieselbe. Waschhaus und Abtritte.\n521.† id. Maschinenremise.\n522.† id. Wasserstationsgebäude.\n523.† id. Güterschopf. (Fruchtschuppen.)\n524 † id. Wagenremise.\n525.† id. Bahnwärterhäuschen.\n526.† id. Abtrittgebäude.\n527.† id. Bahnwärterhäuschen.\n528.† id. id.\n529.† id. id.\n530.† id. id.\n531.† id. id.\n532.† id. id.\n533.† id. id.\n534.† id. Abgetragen.\n1116 † id. Bahnwärterhäuschen.\n1239 † id. Abtritt.\n1254 † id. Waschmagazin.\n535. Billo-Bär, Julius, Kerzenfabrikant.\n  Dr. Guttentag, Isidor Jul., Professor, von Czenstochau (russ. Polen).\n536.† Derselbe. Kerzenfabrikationgebäude.\n537.† Derselbe. Scheune und Büreau von J. Spinner, Speditions- und\n    Brennmaterialgeschäft und öffentliche Brückenwaage.\n538.† Derselbe. Schmiede.\n539.† Derselbe. Holzschopf.\n540.† Derselbe. Gebäude mit Brückenwaage.\n1240 † Ernst-Käser, Friedrich, Röhrenfabrikant. Magazin.\n541. Rychner-Peter, Joh., Wirth, von Rohr.\n  Keller-Steiner, Karl, Part.\n  Steiner, Joh, Part.\n  Steiner-Lindenmann, Susanna, Wittwe, Part.\n  Semmler-Gans, Margaretha, Schuhhändlerin, von Pirmasens (Bayern).\n  Volkemer geb. Mußmann, Barbara, Schuhhändlerin, von Pirmasens\n    (Bayern).\n542.† Derselbe. Holzhaus.\n543.† Siebenmann, Daniel, Rentier. Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7143,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1790,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:28:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p047",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p047.jpeg",
+      "bytes": 238296,
+      "sha256": "3a536e95fdb1382861ef92f1d6aabdfd7c44af5d671856d42b032b8b3883a090",
+      "sha256_of": "original",
+      "working_copy": "1888_p047.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:17+00:00"
+  }
+}

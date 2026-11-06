@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p045",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p045.jpeg",
+    "bytes": 256392,
+    "sha256": "0d29297586ef6bf983ed4c5bfdd986aecaf941ba9e0aafd3888faab6451af5bd",
+    "sha256_of": "original",
+    "working_copy": "1888_p045.jpeg"
+  },
+  "text": "Haus\nNr.\n1191 Derselbe. Kinderpavillon.\n1192 Derselbe. Hebammen- und Gebäranstalt.\n1193 Derselbe. Küchen-, Wasch- und Kesselfhaus.\n1194 Derselbe. Leichenhaus mit Gärtnerwohnung und Magazin.\n484.† Staat Aargau. Pulverhaus.\n1063 * Schäfer=Troller, Adolf, Architekt.\nWytenbach-de Vigneulle, Arthur, Bahningenieur der Schweiz. Central-\nbahn, von Bern.\n1064 † Schäfer=Troller, Ad., Architekt. Holz- und Waschhaus.\n1065 † Derselbe. Baracke mit Küche.\n1125 † Derselbe. Schreinerwerkstätte.\n1126 † Derselbe. Gartenhaus.\n1139 † Derselbe. Ladenshopf.\n1148 † Derselbe. Bureau mit Magazin.\n1149 † Derselbe. Steinhauerhütte.\n485. Crismann=Sager, Fried., Güterexpedient, von Gontenschwyl.\n1229 † Derselbe. Scheune.\n486. Fischer=Eglinger, Rudolf, Speisewirth, Thierarzt und Viehinspektor,\nvon Fahrwangen.\nEglinger, Wilhelmine, Part., von Basel.\n487.* Derselbe.\nRyner-Hächler, Joseph, Eisenbahnkondukteur, von Herzgnach.\nSpörrl, Othmar Florian, Bremser, von Wettingen.\nRey-Mattenberger, Viktor, Hauptmann, Instruktor der Infanterie, von\nOthmarfingen.\n488. Bally=Schmitter, Adeline, Fabrikant's Wittwe.\n489.† Diefelbe. Bad- und Waschhaus.\n\nHinter dem Bahnhof.\n490.† Bally=Arndt, Eugen, Fabrikgebäude. Fabrication elastischer Gewebe.\n491.† Derselbe. Kesselfhaus.\n492.† Derselbe. Kosthaus.\n493.† Derselbe. Schreiner- und Schlosserwerkstätte.\n494.* Zschötte & Cie.\nExert-Giger, Eduard, Zimmerpolier, von Grossräudchen (Preußen).\nJäggi-Weber, Hermann, Buchhalter, von Strengelbach.\nJäggi-Urech, Sophie, Wittwe, Part., von Strengelbach.\nSchmid-Baumann, Lud., Schreinermeister, von Watterdingen (Baden).\nDeubelbeiz-Schaffner, Samuel, Güterschaffner, von Holderbank.\nWernli-Wernli, Johann, Magaziner, von Thalheim.\n1072 Gautschi-Maculin, Rud., Wirth z. Frohfsinn, von Reinach.\nLattmann-Aufermann, Georg Heinrich, Lokomotivheizer, von Sternenberg\n(Zürich).\nBolliger-Hürzeler, Jakob, Lokomotivheizer, von Schlozrued.\n495. Bovard=Schultheß, Joh., Güterexpedient, von Remetschwyl.\n496.* Räser=Plüß, Rudolf, Postkondukteur, in Buchs.\nBolliger=Huggenberger, Joh., Oberwagenwärter, von Buchs.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4496,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2061,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p045",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p045.jpeg",
+      "bytes": 256392,
+      "sha256": "0d29297586ef6bf983ed4c5bfdd986aecaf941ba9e0aafd3888faab6451af5bd",
+      "sha256_of": "original",
+      "working_copy": "1888_p045.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:55+00:00"
+  }
+}

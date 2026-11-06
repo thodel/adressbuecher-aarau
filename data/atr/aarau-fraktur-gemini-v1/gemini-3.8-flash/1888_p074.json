@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p074",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p074.jpeg",
+    "bytes": 234854,
+    "sha256": "f8c0ec7167ab0e4da3452ed839d0a3b8b5212a4a9c442554603372986f8b0afa",
+    "sha256_of": "original",
+    "working_copy": "1888_p074.jpeg"
+  },
+  "text": "— 64 —\n\nHaus-\nNr.\nGartenstraße.\n\n998. Gysi-Büchli, Emil, Mechaniker.\nSchachtler, Johann Joseph, Bezirksschullehrer, von Altstätten, St. Gallen.\n  Rektor der Mädchenbezirksschule.\nDr. Leupold, Eduard, Fürsprech, Redaktor des Aarg. Tagblattes.\nBüchli, Johann Rudolf, Privat.\nRilliet, Eduard, Ingenieur, von Genf.\n999. Riniker-Schilplin, Hans, Regierungsrath, von Habsburg.\n1000.†Derselbe. Wasch- und Holzhaus.\n1103   Perusset-Laurent, Alfred, Bezirksschullehrer, von Grandson (Waadt).\nPrior-Dettmer, Helena, Part., von Dissen (Hannover).\nv. Brockdorff, Emilie, Comtesse, von Kiel (Holstein).\n1122  †Derselbe. Waschhaus.\n1129   Schoder-Hauser, Wilhelm, Fürsprech, Gerichtspräsident.\nSchäfer-Holzach, Carl, Correspondent der Aarg. Creditanstalt.\n1166   Siebenmann-Siebenmann, Gottlieb, Part.\n1167  †Derselbe. Waschhaus.\n\nGoldern.\n\n1001. Siebenmann-Steiner, Jakob, Oekonom.\nSteiner-Lindenmann, Susanna, Wittwe, Part., von Dürrenäsch.\n1002.†Derselbe. Wagenschopf.\n1003.†Derselbe. Waschhaus.\n\nBinsenhof.\n\n1004.†Riniker-Groß, Friedrich, Bierbrauer. Faßremise.\n1005. Riniker-Läuchli, Jakob, Oekonom.\nRiniker, Jakob, Part., von Habsburg.\n1006.*Derselbe. Wohnhaus.\nSchwammberger-Berchtold, Johann, Taglöhner, von Auenstein.\n1007.†Derselbe. Scheune.\n1008.†Derselbe. Holzschopf.\n1009.†Derselbe. Werkstätte und Waschhaus.\n1010. Riniker-Temperli, Friedrich, Badwirth, von Schinznach. Sommer-\n  wirthschaft.\n1011.†Derselbe. Holzhaus.\n1012.†Derselbe. Trinkhalle.\n\nBahnhofstraße.\n\n1013. Zurlinden-Richner, Rudolf, Fabrikant, von Zofingen.\n1014.†Derselbe. Wasch- und Holzhaus.\n1221   †Derselbe. Holzremise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6255,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1587,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.52,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:31:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p074",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p074.jpeg",
+      "bytes": 234854,
+      "sha256": "f8c0ec7167ab0e4da3452ed839d0a3b8b5212a4a9c442554603372986f8b0afa",
+      "sha256_of": "original",
+      "working_copy": "1888_p074.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:31:41+00:00"
+  }
+}

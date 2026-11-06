@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p066",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p066.jpeg",
+    "bytes": 228477,
+    "sha256": "e7b1c7645a5fc6917d03d2aa9deb62c1061d936aa3fcaaa64dd65655921d9eff",
+    "sha256_of": "original",
+    "working_copy": "1892_p066.jpeg"
+  },
+  "text": "— 58 —\n\n  Haus-\n  Nr.\n  829.  Lüscher-Hilsiker, Hans, Notar, von Muhen. Notariats- und Inkasso-\n          geschäft.\n        Rennhart-Maier, J. Martin, Professor von Wigoltingen (Thurgau).\n        Pfleger, Justine, Part.\n        Pfleger, Louise, Part.\n  830. †Derselbe. Hinterhaus mit Büreau.\n  831. *Waßmer-Kummler, Emil, Negt.\n        Bührer-Gidemann, Anna, Wittwe.\n        Hürbin-Heuberger, Ferdinand, Chef der Militärkanzlei, von Wegenstetten.\n        Stocker-Wirz, Joseph Friedrich, Bankkontroleur, von Obermumpf.\n 1225   †Waßmer-Kummler, Emil, Negotiant, Holzhaus.\n 1226   †Derselbe. Gartenhaus.\n  832.  Rychner-Heß, Louis, Ingenieur.\n        Dünner, Sophie, Haushälterin, von Weinfelden (Thurgau).\n        Grether, Julie, Erzieherin, von Tannenkirch (Baden).\n        Meier-Wehrli, Jakob, von Holderbank (Bäckerei und Pintenwirthschaft).\n        Märki-Schaffner, Jakob, Mühlenbauer, von Mandach.\n 1315   †Derselbe. Holzschopf.\n  833.  Suter-Kohler Jakob, Schreiner, von Kölliken.\n        Strübin-Hochstraßer, Karl Gipser, von Liestal.\n  834.  Schmuziger-Rüetschi, Emil, Fabrikant. (Firma Schmuziger & Comp.\n          Siegellack- und Tintenfabrikation).\n        Imhof, Lina, Part.\n  835. †Derselbe. Fabrikationsgebäude.\n 1329   †Derselbe. Holzschopf.\n  836. †Siebenmann, Gottlieb, Gerber. Rindenmagazin.\n  837. †Schmuziger-Rüetschi, Emil, Fabrikant. Magazin.\n  838.  Siebenmann, Gottlieb, Gerber. Wohnhaus. Lederhandlung.\n        Schmuziger-Stähli, Adolf, Fabrikant.\n        Brack-Jauch, Jakob, Sekretär des Waffenchefs der Artillerie, von Elfingen.\n  839. *Widmer, Jakob, in Lenzburg.\n        Keller-Buser, Gottfried, Buchdrucker, von Hottwyl. Druck und Verlag\n          des Aargauischen Anzeigers, des Suhrenthalerboten und des\n          Schulblattes.\n  840.  Wyder-Brast, Albert, Kaufmann, von Oberstraß (Zürich). (Agentur-\n          und Kommissionsgeschäft. Hauptagentur der Nordischen Feuer-\n          versicherungsgesellschaft in London.)\n  841. †Rüetschi-Bopp, Hermann und Westfeld-Spitzli, Wilhelm, Glocken-\n          gießerei. Scheune.\n  842. †Dieselben. Holzschopf.\n  843.    „     Wohnhaus.\n        Rüetschi-Bopp, Hermann, Techniker und Glockengießer.\n        Westfeld-Spitzli, Wilhelm, Kaufmann, von Unterschüpf (Baden).\n        (Firma: Glocken- und Geschützgießerei Aarau: Rüetschi & Co.)\n        Seidenberg-Konstantinoosky, Simon, Part. von Odessa (Rußland).\n        Müller-Eggenschwyler, Johann, Postcommis, von Muri.\n        Brown, Sophie, Part., Nordamerika.\n  844. †Dieselben. Glockengießerei.\n  845. †  „       Gießerei mit Schmiede.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8476,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2556,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:52:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p066",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p066.jpeg",
+      "bytes": 228477,
+      "sha256": "e7b1c7645a5fc6917d03d2aa9deb62c1061d936aa3fcaaa64dd65655921d9eff",
+      "sha256_of": "original",
+      "working_copy": "1892_p066.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:52:35+00:00"
+  }
+}

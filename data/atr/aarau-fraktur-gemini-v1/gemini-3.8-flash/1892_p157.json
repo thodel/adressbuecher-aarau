@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p157",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p157.jpeg",
+    "bytes": 240381,
+    "sha256": "8922746b0dc298be59aa1c5bef7cb1b85ef92595a38f23ffc29d720eaad6d7dc",
+    "sha256_of": "original",
+    "working_copy": "1892_p157.jpeg"
+  },
+  "text": "141\n\nMüller, Jakob, hintere Vorstadt 642.\nSandmeier, Gottlieb, obere Vorstadt 955.\nSauerländer, H. R., Buchbinderei en gros,\n  Laurenzenvorstadt 1184.\nSchazmann, Samuel, Pelzgasse 135.\nWärtli, August, Kirchplatz 166.\nWirz, Emil, Oberthor 139.\nZebert, Georg, Laurenzenthorgasse 116.\n\nBuchdruckereien.\n\nAktiengesellschaft des Aarg. Tagblattes.\n  Oberthor 288.\nKeller, Gottfried, Rainstraße 839.\nSauerländer, H. R., Laurenzenvorstadt 420.\nSpühler, J. J., hintere Vorstadt 622.\nWirz, Emil, Oberthor 139.\n\nBuchhandlungen.\n\nAngst, Gottlieb, (Bibeldepot), hinter dem\n  Platz 214.\nSauerländer, H. R., Graben 220.\nWirz, Emil, Oberthor 139.\n\nButterverkäufer.\n\nEtter, Reinhardt, Rain 825.\nJäker, Joseph, hintere Vorstadt 696.\nMaritz, Arnold, Halden 281.\nRüetschi, Maria, Adelbändli 81.\nScheidegger, Joh. Ulrich, Holzmarkt 663.\nSchießer, Hermann, Pelzgasse 121 (en\n  gros et en detail).\nSchmid-Maurer, Mathilde, Rathhaus-\n  gasse 29.\nSchmidt, Robert zum Bären, Zollrain 177.\nSeiler, Andreas, Rathhausgasse 48.\nStirnemann, Jakob, Zollrain 91.\nUrben, Johann, Casinostraße 660.\nWehrli, Jakob, Bäcker, Kronengasse 40.\n\nBüchsenmacher.\n\nRychner, Heinrich, Schloßplatz 196.\n\nBürstenhändler.\n\nFaller geb. Faller, Firma Gebrüder\n  Faller, Kronengasse 41.\nHagnauer, Friedrich, Pelzgasse 68.\nMorath, Johann, Rathhausgasse 2.\nRies-Buhlrein, Emil, Ziegelrain 702.\nSteffen, Albert, Bahnhofstraße 1074.\n\nBürstenfabrikanten.\n\nHagnauer, Friedrich, Pelzgasse 68.\n\n[spalte 2]\n\nCamioneure.\n\nHangartner, Kaspar, Ziegelrain 721.\nSchaffner, Samuel, Milchgasse 142.\nSpinner-Billo, J. J., Bahnhofstraße 537.\n\nCautschouc-Artikel für Kranken-\npflege.\n\nAngst, Gottlieb, hinter dem Platz 214.\nPfisterer, Emil, vordere Vorstadt 666.\n\nCement-Fabrikation.\n\nFleiner, Albert, Cementfabrik und Büreau,\n  Erlinsbacherstraße 327.\nZurlinden & Cie., im Scheibenschachen\n  1180 (Portlandcement).\n\nCigarren- und Tabak-Handlungen.\n\nFischer, Adolf, Laurenzenthorgasse 120.\nGuggisberg, Emil, Bahnhofstraße 568 b.\nferner alle Spezereihandlungen.\n\nChemisch-technische Präparate.\n\nAngst, Gottlieb, hinter dem Platz 214.\n\nChemische Produkte.\n\nCuster-Fueter, Firma: E. Custer & Cie.\n  Mineralwasserfabrikation, Bahnhof-\n  straße 551.\nFrey & Cie., in der Telli 431.\nLandolt & Co., obere Vorstadt 949.\nSchmidlin-Lutz, Theodor, Büreau Graben\n  204 und Fabrik v d. Haldenthor 755.\n\nCoiffeurs.\n\nBurkhardt, Ferd., Laurenzenthorgasse 118.\nBurkhardt, Ferd., Sohn, Laurenzenvor-\n  stadt 392 b.\nFrey, Achilles, Zeughausstraße 1310.\nHagenbuch, Karl, Rainstraße 819.\nHeuberger, Karl, Bahnhofstraße 658.\nHoffmann, Christoph, Kirchgasse 8 a.\nMarfurt, Franz Xaver, Bahnhofstraße\n  1022.\nMüller, Fritz, Milchgasse 73.\nRüetschi, Karl, Milchgasse 141.\nSchibler, Fritz, Kronengasse 34.\nSommerhalder, Jakob, Pelzgasse 65.\nDieselben handeln auch mit Par-\n  fümeriewaaren.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8597,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2789,
+    "lines": 91,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.044,
+    "mean_line_chars": 29.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:03:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p157",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p157.jpeg",
+      "bytes": 240381,
+      "sha256": "8922746b0dc298be59aa1c5bef7cb1b85ef92595a38f23ffc29d720eaad6d7dc",
+      "sha256_of": "original",
+      "working_copy": "1892_p157.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:50+00:00"
+  }
+}

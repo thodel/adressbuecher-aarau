@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p043",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p043.jpeg",
+    "bytes": 245545,
+    "sha256": "aef7e35e9472968689fa27595823519b0965ff2e17f3d29cb1e01ecd46f7282b",
+    "sha256_of": "original",
+    "working_copy": "1888_p043.jpeg"
+  },
+  "text": "— 33 —\n  Haus=\n  Nr.\n448.* Bickmeier-Müller, Dietr., Schreiner, in Amerika.\n  Müller-Hächler, Barbara, Wittwe, Part., von Unterkulm.\n  Obrist-Diener, Theodor, Postpacker, von Magden.\n449. Jenny und Weigel. Färberei- und Druckereigeschäft.\n  Jenny-Kunz, Adolf, Kaufmann, von Iffweil (Bern).\n  Weigel-Imbach, Johann, Färber, von Glauchau (Sachsen).\n  Stäubli-Bokk, Niklaus, Direktionssekretär, von Sulz.\n450. † Dieselben. Scheune und Tröcknehaus.\n451. † Dieselben. Fabrikationsgebäude.\n452. † Dieselben. Färberei.\n453. † Dieselben. Druckerei.\n454.* Krippendorff-Müller, Herm., Prof. Dr. phil., in Zürich.\n  Rothpletz-Bürgi, Maria, Pfarrers Wittwe.\n455.* Derselbe.\n  Weiße-Meinj, Karl, Färbermeister, von Glauchau (Sachsen).\n1133 † Imhof-Aman, Ernst, Fabrikationsgebäude.\n456. Guyer-Gunkel, Oskar, Halbleinfabrikant.\n  Guyer, August, Fabrikant.\n  Haßler, Arnold, Commis.\n457. † Derselbe. Fabrikationsgebäude.\n458. † Derselbe. Scheune.\n459. † Derselbe. Tuchwalke.\n460. Gautschi-Leuenberger, Rudolf, Oekonom, von Reinach.\n  Passera-Gloor, Johann, Cementarbeiter, von Segonzano (Südtyrol).\n  Gloor-Lüscher, Maria, Wittwe, Wäscherin, von Birr.\n461. † Fischer, Thomas, Bierbrauer. Bierkeller.\n  † Derselbe. Eiskeller.\n462. † Staat Aargau. Turnhaus.\n\nRohrerstraße.\n\n463. Spirgi-Hochstrasser, Samuel, Landwirth, von Unterkulm.\n464. † Lagerhäuser der Centralschweiz. Petrol.-Keller.\n1253 † Keller-Steiner, Karl, Heuschuppen.\n465. † Zschokke & Cie. Baugeschäft. Magazin.\n466. † Dieselben. Schreinerwerkstätte und Magazin.\n467. † id. Maschinensaal und Parquetterie.\n468. † id. Transmission mit Säge.\n469. † id. Dampfmaschine und Dampfkessel.\n470. † id. Transmission.\n471. † id. Büreau, Werkstätte und Stallung.\n472. † id. Büreau.\n473.* id.\n  Bally-Arndt, Eugen, Fabrikant.\n474. a. b. c. † Schweizerische Eidgenossenschaft. Zeughäuser.\n474. d. † Staat Aargau. Zeughaus.\n  Adressbuch der Stadt Aarau 1888. 3",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7478,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1892,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:27:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p043",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p043.jpeg",
+      "bytes": 245545,
+      "sha256": "aef7e35e9472968689fa27595823519b0965ff2e17f3d29cb1e01ecd46f7282b",
+      "sha256_of": "original",
+      "working_copy": "1888_p043.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:48+00:00"
+  }
+}

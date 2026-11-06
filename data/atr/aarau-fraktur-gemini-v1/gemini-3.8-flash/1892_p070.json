@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p070",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p070.jpeg",
+    "bytes": 207118,
+    "sha256": "d611aab9ccc1214bad3d3c21df340e017636aea4c37386e311e567a02f3548e0",
+    "sha256_of": "original",
+    "working_copy": "1892_p070.jpeg"
+  },
+  "text": "— 62 —\n\nHaus-\nNr.\n  Gysi, Hans, Sohn, Mechaniker.\n  Gysi, Otto, Sohn, Photograph.\n  Gysi, Anna, Buchhalterin.\n896. † Dieselben. Photograph. Atelier.\n897. † Dieselben. Holzschopf.\n898. Brunner-Abderhalden, Friedrich, Messerschmied, von Brunnadern\n    (St. Gallen).\n899. † Derselbe. Werkstätte.\n900. Bürgi-Fricker, Joseph, Hutmacher, von Olten.\n  Zimmerli, Johann Jakob, Part., von Niederwyl.\n  Lehmann-Oelhafen, J., von Zofingen. Manufakturwaaren- und Mer-\n    ceriehandlung.\n901. † Derselbe. Werkstätte.\n902. * Siebenmann-Bräm, Otto, Kreiskommandant.\n  Siebenmann-Siebenmann, Arnold, Tapezierer und Dekorateur.\n  Siebenmann-Blum, Elise, Wittwe, Spetterin.\n  Hagnauer, Hedwig, Lehrerin.\n  Guggisberg-Hagenbuch, Bertha, Part., von Belp (Bern).\n903. Henz-Gautschi, Emil, Eisenwaarenhandlung.\n  Buillermot-Leblanc, Charles Jean L., Kaufmann, von Verrieres (Frankreich).\n904. † Staat Aargau. Alte Postremise.\n905. Derselbe. Regierungsgebäude.\n  Käser-Schütz, Jakob, Rathhausabwart, von Biberstein.\n906. † Derselbe. Holzhaus.\n907. † id. id.\n908. id. Großrathsgebäude. Kantonsbibliothek.\n\nObere Vorstadt.\n\n909. Wernli-Meier, Jakob, Schreinermeister.\n910. † Derselbe. Werkstätte.\n911. Vogt-Kohler, Johann, Schuhmacher. Schuhhandlung.\n912. Gänslen-Koch, Regina Louise, von Starrkirch (Solothurn). Gasthaus\n    zur Herberge.\n913. * Dieselbe. Verkaufsladen.\n914. * Dieselbe. Wohnhaus mit Bäckerei.\n915. * Dieselbe. Hinterhaus.\n  Blattner, Karl, Maler, von Küttigen.\n916. Andres-Bircher, Friedrich, Hafnermeister.\n  Bircher, Fanny, Part.\n  Stierli-Andres, Elise, Buchdruckers Wittwe.\n917. † Derselbe. Ofenmagazin und Geschirrhandlung.\n918. † id. Waschhaus.\n919. * Hemmeler-Scheibler, Hafners Wittwe.\n  Hemmeler-Schmidt, Wilhelm, Hafnermeister. Geschirrhandlung.\n920. † Dieselbe. Holzschopf.\n921. Hemmeler-Roth, Wilhelm, Kanzlist.\n  Müller-Riniker, Elise, Part., von Biberstein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6368,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1865,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:53:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p070",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p070.jpeg",
+      "bytes": 207118,
+      "sha256": "d611aab9ccc1214bad3d3c21df340e017636aea4c37386e311e567a02f3548e0",
+      "sha256_of": "original",
+      "working_copy": "1892_p070.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:53:02+00:00"
+  }
+}

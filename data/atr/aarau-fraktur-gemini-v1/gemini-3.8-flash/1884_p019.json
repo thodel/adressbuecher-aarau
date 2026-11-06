@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p019",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p019.jpeg",
+    "bytes": 330960,
+    "sha256": "cff48df7ac734449e6230f91dad8d80c91769af8bac3e0feccf08e1c5304c03e",
+    "sha256_of": "original",
+    "working_copy": "1884_p019.jpeg"
+  },
+  "text": "Bolliger. — Brunner. 15\n\n*Bolliger, Johann, Photograph und Wirth, Casinostraße 570.\n— =Speck, Hermann, Bahnangestellter, von Rued, Scheibenschachen 316.\n— =Huggenberger, Jb., Wagenwärter, v. Buchs, hinter d. Bahnhof 496.\n— =Hunziker, Hrch., Bahnangestellter, v. Schmiedrued, obere Vorstadt 921.\n— =Speck, Elise Verena, Wäscherin, von Schmiedrued, Halden 260b.\n— =Schenker, Samuel, Knecht, v. Schloßrued, hinter dem Bahnhof 1072.\n— =Bircher, Jakob, Schuhmacher, v. Wittwyl, vor dem Haldenthor 758.\n— =Jent, Friedr., Lumpensammler, v. Wittwyl, vor dem Haldenthor 1093.\nBossardt, Maria, Spetterin, von Effingen, Stadthof 94.\n— Anna Maria, Fabrikarbeiterin, von Effingen, Stadthof 94.\n— Marie, von Othmarsingen, Consumdepot, Pelzgasse 133.\n— Elise, Privatlehrerin, von Altstetten (Zürich), Halden 264.\nBöhmen, Wilh., Apothekergehülfe, v. Schöneken (Preußen), Rathhausg. 5.\nBrack, Jakob, Förster, von Effingen, Bachstraße 1101.\n— Heinrich, Sekretär, von Effingen, Ziegelrein 751.\n— =Steininger, Gottlieb, Buchhalter, von Effingen, Rain 871.\n— =Rauber, Johann, Fabrikarbeiter, von Mönthal, in der Telli 440.\n— =Fiechter, Anna, Maurers Wittwe, von Mönthal, Milchgasse 79.\n— Emma, Damenschneiderin, von Mönthal, Milchgasse 79.\n— =Erismann, Anna, Wittwe, Partik., v. Gallenkirch, Bachstraße 1061.\n— Abraham, Oekonom, von Gallenkirch, Bachstraße 1061.\nBrand-Baumann, Jakob, Bäcker und Pintenwirth, von Dorn-Dürkheim\n  (Grßhzth. Baden), vordere Vorstadt 669.\n*Brast-Lienhardt, Charlotte, Wittwe, Waffenhandlung, Holzmarkt 661.\n* — Emma, Tochter, Holzmarkt 661.\nBrawand-Brunner, Jb., Camionneur, v. Grindelwald (Bern), ob. Vorst. 964.\nBräm-Thalmann, Hrch., Kfm., v. Bülach (Zürich), Laurenzenthorgasse 120.\nBrändli-Müller, Jb., Taglöhner, von Unterbözberg, Scheibenschachen 312.\n— =Hug, Jakob, Fabrikarbeiter, von Unterbözberg, obere Vorstadt 921.\n— Joh. Jb., Gärtner, von Unterbözberg, Scheibenschachen 312.\n*Bräutigam-Andres, Marg., Wittwe, Schuhhandlung, Metzgergasse 107.\nBreitschmid-Schüppach, Jakob, Postbeamter, von Wohlen, Rainstraße 877.\nBrentano-Brentano, Karl, Reg.-Rath, von Laufenburg, Rainstraße 860.\n— =Zimmermann, G., Staatsanw.-Substit., v. Laufenburg, Bachstr. 1107.\n— =Bruggisser, Max, Zahnarzt, von Laufenburg, neues Quartier 1075.\nBriner-Schmid, A. Maria, Modelstechers Wittwe, v. Möriken, Halden 284.\n— Anna, Modistin, von Möriken, Halden 284.\nBruder-Bruder, Jakob, Bahnangestellter, von Seengen, Milchgasse 77.\n*Brunner-Nüsperli, Jakob, Seifensieder, Halden 287.\n* — =Knecht, Emil, Mechaniker, Halden 287.\n* — =Knecht, Verena, Hebamme, Halden 287.\n* — =Künzli, Heinrich, Bahnangestellter, vor dem Haldenthor 800.\n* — =Umiker, Jakob, Spezereihändler, obere Vorstadt 928.\n* — Gottfried, Partik., Bachstraße 1038.\n* — Auguste, Glätterin, Bachstraße 1038.\n* — Gottlieb, Tapezierer, Bachstraße 1038.\n— =Senn, Heinrich, Pferdewärter, von Schmiedrued, Kronengasse 40.\n— =Spirgi, Susanna, Wittwe, von Dürrenäsch, hintere Vorstadt 693.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8541,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2937,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 58.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:10:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p019",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p019.jpeg",
+      "bytes": 330960,
+      "sha256": "cff48df7ac734449e6230f91dad8d80c91769af8bac3e0feccf08e1c5304c03e",
+      "sha256_of": "original",
+      "working_copy": "1884_p019.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:10:54+00:00"
+  }
+}

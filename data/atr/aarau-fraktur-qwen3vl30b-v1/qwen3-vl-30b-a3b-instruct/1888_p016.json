@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p016",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p016.jpeg",
+    "bytes": 255082,
+    "sha256": "5d3b860ed964bd55b117065f687f1d1a529d78b19769e6f13a3269843ba9c301",
+    "sha256_of": "original",
+    "working_copy": "1888_p016.jpeg"
+  },
+  "text": "Haus-\nNr.\n52. Bonary, Karoline, Pintenwirthin, von Olten.\nHelm=Bonary, Elise, Wittwe, von Derlikon (Zürich).\nHelm, Fanny, Modistin,\nHelm, Emil, Briefträger,\nBurger, Johann, Gerichtsschreiber, von Freienwyl.\n53. Nüsperli=Kuzbaum, Friedrich, Sattler.\nNüsperli, Karl, Postcommis.\nWollenwaarenhandlung von Frau Wittwe Helm geb. Bonary, Elise.\nModistin- und Modewaarengeschäft von Helm, Fanny.\nBlattner-Herzog, Hans, Sekretär, von Rüttigen.\n54. Heller=Erb, Heinrich, Rechtsagent, Infassungsgeschäft.\n\nMekzergasse.\n\n55. Hemmeler=Häfeler, August, Kaufmann, Quincaillerie- und Kinderpiel-\nwaaren-Handlung.\nWydler, Maria, Part.\nWydler, Lina, Part.\n56. Dätwyler=Merz, Johann, Notar, von Unterentfelden, Sekretär der Ge-\nmeindefanzelei.\nStirnemann, Jakob, Notar, von Gränichen. Notariats- und Infasso-\ngeschäft.\nFischer-Widmer, Johann Heinrich, Postkondukteur.\nHauenstein-Hollinger, Alois Fried., Lehrer, von Degerfelden.\nFrei, Heinrich, Notar von Gontenschwyl.\n57. Buser, Emil, Sohn, Bäckermeister.\nBuser-Bräutigam, Gottlieb, Vater, Part.\n58. Hemmeler-Türler, Emil, Kaufmann. Mercerie-, Garn- und Ellen-\nwaarenhandlung.\nPeyer geb. Fisch, Anna, Wittwe, Part., von Bergdietikon.\nPeyer, Anna, Lehrerin, von Bergdietikon.\n59. + Derfelbe. Magazine.\n60. Siebenmann=Schaffner, Otto, Patisserie. Restauration zum Vis-à-Vis.\nBlattner-Bolliger, Gottlieb, Sekretär, von Rüttigen.\n61. Hoch=Ernst, Gustav, Kaufmann, von Zollikon (Zürich). Samenhandlung.\nLandwirtschaftliche Gemüse- und Blumenfamereien. Lager in Hopfen\nund Brauerharz.\n\nPelzgasse.\n\n62. Rehrer=Hauscherr, Jakob, Bäcker, von Bögen.\n63. Strebel geb. Brunner, Marie, Part., von Büblislon.\nWidmer-Peyer, Heinrich, von Bergdietikon. Hauptagentur der Hamburger\nund Bremer Feuerversicherung. Volagent der Badischen Pferde-\nversicherungsgesellschaft.\n64. Widmer-Rogg, Xaver, Hausknecht, von Freienwyl.\n65. Sommerhalder=Buser, Jakob, Zahnarzt und Coiffeur. Parfümerie-\nwaarenhandlung und Haarflechgeschäft.\nSchwarc geb. Dietiker, Anna, Wittwe, Damenschneiderin, von Eiken.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3978,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2005,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p016",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p016.jpeg",
+      "bytes": 255082,
+      "sha256": "5d3b860ed964bd55b117065f687f1d1a529d78b19769e6f13a3269843ba9c301",
+      "sha256_of": "original",
+      "working_copy": "1888_p016.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:51+00:00"
+  }
+}

@@ -1,0 +1,1117 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-v1",
+  "model": "kraken-austrian_fraktur",
+  "engine": "kraken",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p037.jpeg",
+    "bytes": 191796,
+    "sha256": "63969212e4905ea0c3b3e786b456b17e83e1cbef62d445c88ee141249e3a7302",
+    "sha256_of": "original",
+    "working_copy": "1892_p037.jpeg"
+  },
+  "text": "29\nHaus⸗\nnr.\n99 T. Weber⸗Weberz, Witchelm, Miichnertaufer, von Menziten.\nWehrli⸗Graf, Jatob, Handlanger, von Küttigen.\n3a8. Weber, Jetot, Dachdecker, von Menziten.\nJenſeits der Aare.\n9s9.  Zimmermann, Maria., Wittwe, Erbſchaft.\nHeuberger⸗Siebenmann, Gottlieb, Sekretär.\nDöbeli⸗Binder Samuel, Bezirtsſchullehrer, von Seon.\nMerz⸗Siegriſt, Anna, Wittwe, von Beinwyl.\n1247  Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wagenſchopf und\nEisteller.\nWeinberg.\n940.* Freh⸗Freh, &., Stadtraihz, Rebhanschen.\n541.t Kern⸗Rychner, Enit. Rebhauschen.\nJenſeits der Aare.\n542. Bauhofer⸗Keiter, Anna Knufmanns Wiuine.\nBauhofer, Maria, Lehrerin in Erlinsbach.\nTuchſchmis, Anguſt, Dr. Profeſſor, von Thundorf (Thurgau).\nMüller, Roſa, Haushälterin, von UUnterkulm.\nHunziter⸗Müller, Marie Anna, Schuhmachers Wittwe, von UUnter⸗Kulm.\n343.1 Dieſelbe. Holzſchopf.\n344. Gemeinde Narau. Holzmagezin.\n345.1 Dieſelbe. Werthaus.\n1280.\n1 Gemeinde Aatau, Sprigenhaus.\n346. Mätler⸗Rothpletz, Arnold, Architelt und Baumeiſter.\n347.+ Abgetragen.\n948.   Geme inde Aarau. Badanſtalt.\n1104.\n* Dieſelbe. Schuppen für Kriegefühenerte.\nLaurenzenthorgaſſe.\n949. Hahler⸗Wanger, Einil, Neget., Kolontalwaarenhandlung.\nErné⸗Leblane, Eduard, Kaufmann, von Leuggern.\n350.* Derſelbe. Holzſchopf.\n331. Aktiengeſellſchaft der Creditanſtalt.\nGraben.\n982.- Dreyfuß⸗Gotſchel, Abolt, Kaufmaun, von Endingen, in Baſel.\nDreifüß, Mar Eiil, Sohn, Kaufmann, von Endingen. Franzöſiſche\nWaarenhalle. Ellenwaarenhandlung und Damentonfektion.\nDreſeHaonaner, Kenrad, Dr. Med protaſcher Anſt.",
+  "lines": [
+    {
+      "order": 0,
+      "baseline": [
+        [
+          460.0,
+          98.0
+        ],
+        [
+          488.0,
+          96.0
+        ]
+      ],
+      "bbox": [
+        458.0,
+        76.0,
+        488.0,
+        109.0
+      ],
+      "boundary": null,
+      "text": "29",
+      "confidence": 0.9279910326004028,
+      "regions": []
+    },
+    {
+      "order": 1,
+      "baseline": [
+        [
+          142.0,
+          115.0
+        ],
+        [
+          187.0,
+          114.0
+        ]
+      ],
+      "bbox": [
+        142.0,
+        100.0,
+        187.0,
+        127.0
+      ],
+      "boundary": null,
+      "text": "Haus⸗",
+      "confidence": 0.9082073926925659,
+      "regions": []
+    },
+    {
+      "order": 2,
+      "baseline": [
+        [
+          161.0,
+          128.0
+        ],
+        [
+          179.0,
+          128.0
+        ]
+      ],
+      "bbox": [
+        161.0,
+        116.0,
+        179.0,
+        138.0
+      ],
+      "boundary": null,
+      "text": "nr.",
+      "confidence": 0.761011670033137,
+      "regions": []
+    },
+    {
+      "order": 3,
+      "baseline": [
+        [
+          133.0,
+          148.0
+        ],
+        [
+          666.0,
+          147.0
+        ]
+      ],
+      "bbox": [
+        132.0,
+        123.0,
+        666.0,
+        160.0
+      ],
+      "boundary": null,
+      "text": "99 T. Weber⸗Weberz, Witchelm, Miichnertaufer, von Menziten.",
+      "confidence": 0.9143580516516152,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 4,
+      "baseline": [
+        [
+          190.0,
+          168.0
+        ],
+        [
+          606.0,
+          171.0
+        ]
+      ],
+      "bbox": [
+        190.0,
+        148.0,
+        606.0,
+        180.0
+      ],
+      "boundary": null,
+      "text": "Wehrli⸗Graf, Jatob, Handlanger, von Küttigen.",
+      "confidence": 0.995063931412167,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 5,
+      "baseline": [
+        [
+          133.0,
+          190.0
+        ],
+        [
+          570.0,
+          192.0
+        ]
+      ],
+      "bbox": [
+        133.0,
+        171.0,
+        570.0,
+        207.0
+      ],
+      "boundary": null,
+      "text": "3a8. Weber, Jetot, Dachdecker, von Menziten.",
+      "confidence": 0.9289019656452265,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 6,
+      "baseline": [
+        [
+          343.0,
+          256.0
+        ],
+        [
+          606.0,
+          253.0
+        ]
+      ],
+      "bbox": [
+        342.0,
+        224.0,
+        606.0,
+        266.0
+      ],
+      "boundary": null,
+      "text": "Jenſeits der Aare.",
+      "confidence": 0.9928087956375546,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 7,
+      "baseline": [
+        [
+          135.0,
+          294.0
+        ],
+        [
+          602.0,
+          295.0
+        ]
+      ],
+      "bbox": [
+        134.0,
+        272.0,
+        602.0,
+        307.0
+      ],
+      "boundary": null,
+      "text": "9s9.  Zimmermann, Maria., Wittwe, Erbſchaft.",
+      "confidence": 0.9081187986514785,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 8,
+      "baseline": [
+        [
+          193.0,
+          315.0
+        ],
+        [
+          565.0,
+          316.0
+        ]
+      ],
+      "bbox": [
+        192.0,
+        300.0,
+        565.0,
+        323.0
+      ],
+      "boundary": null,
+      "text": "Heuberger⸗Siebenmann, Gottlieb, Sekretär.",
+      "confidence": 0.9996476071636852,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 9,
+      "baseline": [
+        [
+          193.0,
+          338.0
+        ],
+        [
+          665.0,
+          339.0
+        ]
+      ],
+      "bbox": [
+        193.0,
+        318.0,
+        665.0,
+        349.0
+      ],
+      "boundary": null,
+      "text": "Döbeli⸗Binder Samuel, Bezirtsſchullehrer, von Seon.",
+      "confidence": 0.9940110468396953,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 10,
+      "baseline": [
+        [
+          193.0,
+          360.0
+        ],
+        [
+          578.0,
+          361.0
+        ]
+      ],
+      "bbox": [
+        192.0,
+        340.0,
+        578.0,
+        368.0
+      ],
+      "boundary": null,
+      "text": "Merz⸗Siegriſt, Anna, Wittwe, von Beinwyl.",
+      "confidence": 0.9899131553929027,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 11,
+      "baseline": [
+        [
+          85.0,
+          380.0
+        ],
+        [
+          814.0,
+          383.0
+        ]
+      ],
+      "bbox": [
+        85.0,
+        360.0,
+        814.0,
+        399.0
+      ],
+      "boundary": null,
+      "text": "1247  Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wagenſchopf und",
+      "confidence": 0.9816761191074664,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 12,
+      "baseline": [
+        [
+          266.0,
+          403.0
+        ],
+        [
+          349.0,
+          405.0
+        ]
+      ],
+      "bbox": [
+        265.0,
+        385.0,
+        349.0,
+        419.0
+      ],
+      "boundary": null,
+      "text": "Eisteller.",
+      "confidence": 0.9900901079177856,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 13,
+      "baseline": [
+        [
+          402.0,
+          463.0
+        ],
+        [
+          550.0,
+          462.0
+        ]
+      ],
+      "bbox": [
+        401.0,
+        434.0,
+        550.0,
+        477.0
+      ],
+      "boundary": null,
+      "text": "Weinberg.",
+      "confidence": 0.9999865690867106,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 14,
+      "baseline": [
+        [
+          137.0,
+          498.0
+        ],
+        [
+          590.0,
+          498.0
+        ]
+      ],
+      "bbox": [
+        137.0,
+        474.0,
+        590.0,
+        509.0
+      ],
+      "boundary": null,
+      "text": "940.* Freh⸗Freh, &., Stadtraihz, Rebhanschen.",
+      "confidence": 0.9155473801824782,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 15,
+      "baseline": [
+        [
+          137.0,
+          519.0
+        ],
+        [
+          554.0,
+          521.0
+        ]
+      ],
+      "bbox": [
+        136.0,
+        500.0,
+        554.0,
+        539.0
+      ],
+      "boundary": null,
+      "text": "541.t Kern⸗Rychner, Enit. Rebhauschen.",
+      "confidence": 0.902811282559445,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 16,
+      "baseline": [
+        [
+          351.0,
+          582.0
+        ],
+        [
+          612.0,
+          579.0
+        ]
+      ],
+      "bbox": [
+        350.0,
+        551.0,
+        612.0,
+        596.0
+      ],
+      "boundary": null,
+      "text": "Jenſeits der Aare.",
+      "confidence": 0.9995143512884775,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 17,
+      "baseline": [
+        [
+          138.0,
+          614.0
+        ],
+        [
+          637.0,
+          617.0
+        ]
+      ],
+      "bbox": [
+        137.0,
+        592.0,
+        637.0,
+        629.0
+      ],
+      "boundary": null,
+      "text": "542. Bauhofer⸗Keiter, Anna Knufmanns Wiuine.",
+      "confidence": 0.8920335844159126,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 18,
+      "baseline": [
+        [
+          196.0,
+          638.0
+        ],
+        [
+          565.0,
+          638.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        619.0,
+        565.0,
+        650.0
+      ],
+      "boundary": null,
+      "text": "Bauhofer, Maria, Lehrerin in Erlinsbach.",
+      "confidence": 0.9994916975498199,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 19,
+      "baseline": [
+        [
+          197.0,
+          659.0
+        ],
+        [
+          738.0,
+          661.0
+        ]
+      ],
+      "bbox": [
+        196.0,
+        639.0,
+        738.0,
+        674.0
+      ],
+      "boundary": null,
+      "text": "Tuchſchmis, Anguſt, Dr. Profeſſor, von Thundorf (Thurgau).",
+      "confidence": 0.9794234366252504,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 20,
+      "baseline": [
+        [
+          198.0,
+          680.0
+        ],
+        [
+          587.0,
+          682.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        662.0,
+        587.0,
+        689.0
+      ],
+      "boundary": null,
+      "text": "Müller, Roſa, Haushälterin, von UUnterkulm.",
+      "confidence": 0.9960631686587667,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 21,
+      "baseline": [
+        [
+          197.0,
+          705.0
+        ],
+        [
+          810.0,
+          705.0
+        ]
+      ],
+      "bbox": [
+        197.0,
+        684.0,
+        810.0,
+        718.0
+      ],
+      "boundary": null,
+      "text": "Hunziter⸗Müller, Marie Anna, Schuhmachers Wittwe, von UUnter⸗Kulm.",
+      "confidence": 0.9729492131507758,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 22,
+      "baseline": [
+        [
+          139.0,
+          725.0
+        ],
+        [
+          387.0,
+          728.0
+        ]
+      ],
+      "bbox": [
+        138.0,
+        704.0,
+        387.0,
+        739.0
+      ],
+      "boundary": null,
+      "text": "343.1 Dieſelbe. Holzſchopf.",
+      "confidence": 0.926675608864537,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 23,
+      "baseline": [
+        [
+          139.0,
+          747.0
+        ],
+        [
+          523.0,
+          748.0
+        ]
+      ],
+      "bbox": [
+        139.0,
+        728.0,
+        523.0,
+        762.0
+      ],
+      "boundary": null,
+      "text": "344. Gemeinde Narau. Holzmagezin.",
+      "confidence": 0.9771070823524938,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 24,
+      "baseline": [
+        [
+          141.0,
+          769.0
+        ],
+        [
+          386.0,
+          771.0
+        ]
+      ],
+      "bbox": [
+        140.0,
+        750.0,
+        386.0,
+        782.0
+      ],
+      "boundary": null,
+      "text": "345.1 Dieſelbe. Werthaus.",
+      "confidence": 0.9596869301795959,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 25,
+      "baseline": [
+        [
+          88.0,
+          786.0
+        ],
+        [
+          142.0,
+          788.0
+        ]
+      ],
+      "bbox": [
+        88.0,
+        767.0,
+        142.0,
+        801.0
+      ],
+      "boundary": null,
+      "text": "1280.",
+      "confidence": 0.9821607828140259,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 26,
+      "baseline": [
+        [
+          185.0,
+          792.0
+        ],
+        [
+          514.0,
+          791.0
+        ]
+      ],
+      "bbox": [
+        184.0,
+        769.0,
+        514.0,
+        803.0
+      ],
+      "boundary": null,
+      "text": "1 Gemeinde Aatau, Sprigenhaus.",
+      "confidence": 0.9510691513617834,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 27,
+      "baseline": [
+        [
+          139.0,
+          814.0
+        ],
+        [
+          697.0,
+          812.0
+        ]
+      ],
+      "bbox": [
+        139.0,
+        792.0,
+        697.0,
+        830.0
+      ],
+      "boundary": null,
+      "text": "346. Mätler⸗Rothpletz, Arnold, Architelt und Baumeiſter.",
+      "confidence": 0.9552935468299049,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 28,
+      "baseline": [
+        [
+          140.0,
+          836.0
+        ],
+        [
+          302.0,
+          837.0
+        ]
+      ],
+      "bbox": [
+        139.0,
+        816.0,
+        302.0,
+        847.0
+      ],
+      "boundary": null,
+      "text": "347.+ Abgetragen.",
+      "confidence": 0.9530847861486322,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 29,
+      "baseline": [
+        [
+          142.0,
+          858.0
+        ],
+        [
+          511.0,
+          858.0
+        ]
+      ],
+      "bbox": [
+        142.0,
+        835.0,
+        511.0,
+        866.0
+      ],
+      "boundary": null,
+      "text": "948.   Geme inde Aarau. Badanſtalt.",
+      "confidence": 0.9421927132776805,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 30,
+      "baseline": [
+        [
+          89.0,
+          896.0
+        ],
+        [
+          147.0,
+          894.0
+        ]
+      ],
+      "bbox": [
+        88.0,
+        871.0,
+        147.0,
+        921.0
+      ],
+      "boundary": null,
+      "text": "1104.",
+      "confidence": 0.6057448089122772,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 31,
+      "baseline": [
+        [
+          187.0,
+          881.0
+        ],
+        [
+          562.0,
+          878.0
+        ]
+      ],
+      "bbox": [
+        186.0,
+        858.0,
+        562.0,
+        897.0
+      ],
+      "boundary": null,
+      "text": "* Dieſelbe. Schuppen für Kriegefühenerte.",
+      "confidence": 0.9369516481713551,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 32,
+      "baseline": [
+        [
+          347.0,
+          929.0
+        ],
+        [
+          616.0,
+          929.0
+        ]
+      ],
+      "bbox": [
+        347.0,
+        905.0,
+        616.0,
+        946.0
+      ],
+      "boundary": null,
+      "text": "Laurenzenthorgaſſe.",
+      "confidence": 0.9997124075889587,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 33,
+      "baseline": [
+        [
+          142.0,
+          969.0
+        ],
+        [
+          729.0,
+          968.0
+        ]
+      ],
+      "bbox": [
+        141.0,
+        943.0,
+        729.0,
+        981.0
+      ],
+      "boundary": null,
+      "text": "949. Hahler⸗Wanger, Einil, Neget., Kolontalwaarenhandlung.",
+      "confidence": 0.9332056148298855,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 34,
+      "baseline": [
+        [
+          203.0,
+          991.0
+        ],
+        [
+          628.0,
+          989.0
+        ]
+      ],
+      "bbox": [
+        202.0,
+        972.0,
+        628.0,
+        1005.0
+      ],
+      "boundary": null,
+      "text": "Erné⸗Leblane, Eduard, Kaufmann, von Leuggern.",
+      "confidence": 0.982345457871755,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 35,
+      "baseline": [
+        [
+          143.0,
+          1013.0
+        ],
+        [
+          380.0,
+          1013.0
+        ]
+      ],
+      "bbox": [
+        143.0,
+        993.0,
+        380.0,
+        1025.0
+      ],
+      "boundary": null,
+      "text": "350.* Derſelbe. Holzſchopf.",
+      "confidence": 0.9644620573079145,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 36,
+      "baseline": [
+        [
+          143.0,
+          1035.0
+        ],
+        [
+          584.0,
+          1033.0
+        ]
+      ],
+      "bbox": [
+        142.0,
+        1012.0,
+        584.0,
+        1052.0
+      ],
+      "boundary": null,
+      "text": "331. Aktiengeſellſchaft der Creditanſtalt.",
+      "confidence": 0.9770242926620302,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 37,
+      "baseline": [
+        [
+          424.0,
+          1088.0
+        ],
+        [
+          546.0,
+          1088.0
+        ]
+      ],
+      "bbox": [
+        424.0,
+        1058.0,
+        546.0,
+        1102.0
+      ],
+      "boundary": null,
+      "text": "Graben.",
+      "confidence": 0.9992507525852748,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 38,
+      "baseline": [
+        [
+          145.0,
+          1124.0
+        ],
+        [
+          784.0,
+          1122.0
+        ]
+      ],
+      "bbox": [
+        145.0,
+        1097.0,
+        784.0,
+        1136.0
+      ],
+      "boundary": null,
+      "text": "982.- Dreyfuß⸗Gotſchel, Abolt, Kaufmaun, von Endingen, in Baſel.",
+      "confidence": 0.9388792077079415,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 39,
+      "baseline": [
+        [
+          205.0,
+          1146.0
+        ],
+        [
+          822.0,
+          1143.0
+        ]
+      ],
+      "bbox": [
+        204.0,
+        1124.0,
+        822.0,
+        1159.0
+      ],
+      "boundary": null,
+      "text": "Dreifüß, Mar Eiil, Sohn, Kaufmann, von Endingen. Franzöſiſche",
+      "confidence": 0.9831859000393601,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 40,
+      "baseline": [
+        [
+          254.0,
+          1167.0
+        ],
+        [
+          744.0,
+          1165.0
+        ]
+      ],
+      "bbox": [
+        253.0,
+        1147.0,
+        744.0,
+        1180.0
+      ],
+      "boundary": null,
+      "text": "Waarenhalle. Ellenwaarenhandlung und Damentonfektion.",
+      "confidence": 0.9967540603763653,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 41,
+      "baseline": [
+        [
+          200.0,
+          1190.0
+        ],
+        [
+          653.0,
+          1188.0
+        ]
+      ],
+      "bbox": [
+        200.0,
+        1169.0,
+        653.0,
+        1211.0
+      ],
+      "boundary": null,
+      "text": "DreſeHaonaner, Kenrad, Dr. Med protaſcher Anſt.",
+      "confidence": 0.8452603588712976,
+      "regions": [
+        "r0"
+      ]
+    }
+  ],
+  "confidence": 0.9466587506432473,
+  "segmented_by": "kraken-blla",
+  "timing_ms": 12461,
+  "truncated": false,
+  "settings": null,
+  "quality": {
+    "verdict": "ok",
+    "chars": 1527,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0238,
+    "mean_line_chars": 35.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": {
+    "engine": "party",
+    "model": "party",
+    "text": "",
+    "lines": [],
+    "confidence": null,
+    "timing_ms": 0,
+    "error": "timed out: no answer within 30s of the primary result"
+  },
+  "gateway_version": "7.0.2",
+  "recognised_at": "2026-11-06T12:19:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-v1",
+    "source": {
+      "key": "1892_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p037.jpeg",
+      "bytes": 191796,
+      "sha256": "63969212e4905ea0c3b3e786b456b17e83e1cbef62d445c88ee141249e3a7302",
+      "sha256_of": "original",
+      "working_copy": "1892_p037.jpeg"
+    },
+    "model": {
+      "model": "kraken-austrian_fraktur",
+      "engine": "kraken",
+      "level": "page",
+      "revision": "10.5281/zenodo.7933402",
+      "revision_kind": "zenodo_record",
+      "weights": "10.5281/zenodo.7933402",
+      "base_model": null
+    },
+    "gateway_version": "7.0.2",
+    "segmented_by": "kraken-blla",
+    "recognised_at": "2026-11-06T12:19:41+00:00"
+  }
+}

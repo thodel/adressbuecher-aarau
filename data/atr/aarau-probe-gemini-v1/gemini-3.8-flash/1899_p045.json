@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p045",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p045.jpeg",
+    "bytes": 262664,
+    "sha256": "55b81fc89e7b57a512c5282e69330710c13058caf830a7ecea9c0649752f0236",
+    "sha256_of": "original",
+    "working_copy": "1899_p045.jpeg"
+  },
+  "text": "37\n\nHaus-\nNr.\n  451 † Dieselben. Fabrikgebäude.\n  452 †     „     Färberei.\n  453 †     „     Druckerei.\n1085 †     „     Farbgebäude.\n1158 †     „     Fabrikgebäude.\n1565 †     „     Magazingebäude.\n  454 * Krippendorf-Müller, Herm., Prof. Dr. phil., in Dresden.\n        Rothpletz-Bürgi, Maria, Pfarrers Witwe.\n        — Heinrich, Förster.\n        Hassler-Weisser, Arnold, Commis.\n  455 * Derselbe.\n        Küng-Furrer, Anton, Sekretär, von Birri.\n1133 †   Imhof-Aman, Ernst (Fabrikationsgebäude).\n  456   Guyer-Gunkel, Oskar, Kaufmann [tel]. Halbleinfabrikation.\n  457 † Derselbe. Fabrikationsgebäude.\n  458 †     „     Scheune.\n  459 †     „     Tuchwalke.\n  460   Gautschi-Roth, Rudolf und Gautschi, Friedr., Ökonom, von\n          Reinach.\n        — -Wernli, Rudolf, Ökonom, von Reinach.\n        — -Roth, Rudolf, Sohn, Ökonom, von Reinach.\n        — Friedrich. Sohn, Ökonom, von Reinach.\n1159 †   Dieselben. Stall.\n  461 † Baumann, Gebr., Weinhandlung (Weinkeller).\n1209 †   Dieselben. Eiskeller.\n  462 † Staat Aargau. Turnhaus.\n\nRohrerstrasse.\n\n1479 *   Baumann, Gebr., Weinhändler, Speisewirtschaft zum „Jura“.\n        Leube-Kienberger, Adele, von Frick, [tel] Wirtin zum Café\n          „Jura“.\n        Zogg-Moos, Osw. Martin, Kaufmann, von Wallenstadt.\n1536     Valli-Eggspühler, August, [tel] Übernehmer von Erdarbeiten,\n          von Modgliano, Italien.\n        Günther-Sollefer, Eugen, Instruktor der Infanterie, von Rhein-\n          felden.\n        Leu-Zimmermann, Jakob, Kanzlist, von Birrenlauf.\n1507 †   Derselbe. Magazin.\n1560     Kaspar-Häuptli, Eduard, Ferger, von Zezwyl.\n        Wernli-Häuptli, Julius, Lagerhaus-Kassier, von Thalheim.\n      * Käser-Plüss, Rudolf, Postkondukteur.\n1362 †   Jura-Cementfabriken, Schuppen für die Seilbahn.\n        Fischer & Schmuziger. Bureau. [tel]\n        Angerer, Joseph, Schneidermeister, von Stilfs (Tirol).\n  463 * Spirgi-Hochstrasser, Elise, Witwes (Erbschaft).\n  464 † Lagerhäuser der Centralschweiz. Petroleum-Keller (Alkohol-\n          dépôt).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7618,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2004,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+  "recognised_at": "2026-11-06T12:04:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gemini-v1",
+    "source": {
+      "key": "1899_p045",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p045.jpeg",
+      "bytes": 262664,
+      "sha256": "55b81fc89e7b57a512c5282e69330710c13058caf830a7ecea9c0649752f0236",
+      "sha256_of": "original",
+      "working_copy": "1899_p045.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:04:42+00:00"
+  }
+}

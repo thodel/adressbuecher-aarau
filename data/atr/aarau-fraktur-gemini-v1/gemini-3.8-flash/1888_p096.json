@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p096",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p096.jpeg",
+    "bytes": 287950,
+    "sha256": "eba06fa1153c0e79b0b0f053aa04ebdb8b9143ec715915205da6ddcb98d130ae",
+    "sha256_of": "original",
+    "working_copy": "1888_p096.jpeg"
+  },
+  "text": "78 Blattner — Brand.\n\n*Blattner-Jäger, Otto, Dr. Fürsprech, Büreau obere Vorstadt 948 und\n  Wohnung jens. der Aare 300.\nBlattner, Anna, Lehrerin, jens. der Aare 300.\nBlattner, Melanie, Part., Oberrichters, Zollrain 293.\nBlume-Hirt, Philipp, Schreinermeister von Sprendlingen (Hessen),\n  Hammer 189.\nBlume-Hirt, Marie, Feinwascherin und Glätterin, von Sprendlingen\n  (Hessen), Hammer 189.\nBlume, Mina, Damenschneiderin von Sprendlingen (Hessen), Hammer 189.\nBodmer-Roth, Joh. Julius, Fabrikaufseher von Erlinsbach, Erlinsbacher-\n  straße 337.\nBolens-Rychner, Henri, Fabrikant von Morges (Waadt), Gais 479.\nBolliger, Anna, Ladentochter von Gontenschwyl, vordere Vorstadt 889.\nBolliger, Emil, Buchbinder von Schloßrued, Halden 277.\nBolliger, Friedrich, Kistenmacher von Wittwyl, vor dem Haldenthor 1084.\nBolliger-Häfeli, Gottfried, Cementarbeiter, von Uerkheim, Hammer 185.\nBolliger-Trösch, Johann, Küfer von Uerkheim, Hammer 185 b.\nBolliger-Huggenberger, Jakob, Oberwagenwärter von Buchs, hinter dem\n  Bahnhof 496.\nBolliger-Hunziker, Heinrich, Bahnangestellter von Schmiedrued, hintere\n  Vorstadt 693.\nBolliger-Hürzeler, Jakob, Lokomotivheizer von Schloßrued, hinter dem\n  Bahnhof 1072.\nBolliger, Johann, Notar, Gais 1248.\nBolliger-Kielholz, Albert, Bankangestellter von Küttigen, Schachen 729.\nBolliger-Manger, Gustav, Kaufmann, hintere Vorstadt 646.\nBolliger, Melanie, Schneiderin, Schachen 736.\nBolliger-Speck, Hermann, Bahnangestellter von Schmiedrued, Scheiben-\n  schachen 316.\nBolliger-Speck, Elise Verena, Wäscherin von Schmiedrued, Halden 277.\nBolliger-Schenker, Samuel, Knecht von Schloßrued, Rain 819.\nBopp-Häusler, Kaspar, Pflästerer von Remigen, Rain 884.\nBossardt, Elise, Privatlehrerin von Altstätten (Zürich), Halden 264.\nBossardt, Maria, Spetterin von Effingen, Stadthof 94.\nBouvard-Schulteß, Johann, Güterexpedient von Remetschwyl, hinter dem\n  Bahnhof 495.\nBrack-Erismann, Anna, Wittwe, Part., Bachstraße 1061.\nBrack, Abraham, Oekonom,           id.      id.\nBrack, Jakob, Part. von Elfingen, Ziegelrain 751.\nBrack-Steininger, Gottlieb, Buchhalter von Effingen, obere Vorstadt 929.\nBrack-Uster, Heinrich, Revisor von Effingen, Schachen 736.\nBrack-Wälchli, Heinrich, Webermeister von Mönthal, Igelweid 625.\nBräm-Thalmann, Heinrich, Kaufmann von Bülach (Zürich), Hammer 191.\nBrändli-Hug, Jakob, Fabrikarbeiter von Unterbözberg, Ziegelrain 711.\nBräutigam-Andres, Margaretha, Wittwe, Schuhhandlung, Metzgergasse 107.\nBrand-Baumann, Jakob, Bäcker und Pintenwirth, vordere Vorstadt 669.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8169,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2496,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.72,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:33:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p096",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p096.jpeg",
+      "bytes": 287950,
+      "sha256": "eba06fa1153c0e79b0b0f053aa04ebdb8b9143ec715915205da6ddcb98d130ae",
+      "sha256_of": "original",
+      "working_copy": "1888_p096.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:33:37+00:00"
+  }
+}

@@ -1,0 +1,1491 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-v1",
+  "model": "qwen3vl-german-xix-v2",
+  "engine": "vllm",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p040.jpeg",
+    "bytes": 311475,
+    "sha256": "0429c1083e53188617285b276dfab4b83b3ca0cb820fb512accc822784c9e3a4",
+    "sha256_of": "original",
+    "working_copy": "1884_p040.jpeg"
+  },
+  "text": "Müller.\ns¬\nMorgenthaler, Maria, Damenschneiderin, von Ermelbach, Golattenmatt-\ngasse 237c.\nElise, Spetterin, von Madiswyl (Bern), im Hammer 184.\nMösch-Gakler, Martin, Ranzleisefretär, von Fried, Bachstrafe 1155.\nRanz, Franz, Rutscher, von Fries, Laurenzenvorstadt 552.\nMühlberg-Codognari, Fritz, Professor, Mainstrafe 878.\n— Ausler, Theodor, Postkontrolleur, von Wuri, neues Quartier 983.\nMüller-Rocher, Wilhelm, Kaufmann, Schloßplatz 195.\n* Haberstich, Friedrich August, Kaufmann, Bahnhofträge 656.\n* = Gampfer, Samuel, Spezereihändler, Holzmacht 665.\nWodtle, Jakob, Gemeindeweibel, Rathhausgasse 176.\nHüner, Eduard, Schirmacher, Rathausgasse 30.\nUrech, Küfers Wittwe, Partei, Halden 286.\ns¬\nJulius, Partei, Schachen 723.\n* Theodor, Partei, Schachen 723.\ns¬\nCäsar, Regt., Schachen 723.\n* Emma, Hauschälterin, Schachen 723.\n* von Dänisen, Friedrich, Gepläckträger und Dekonom, Schachen 725.\n* = Rothpletz, Arnold, Baummeister, Pelzgasse 124.\nSuter, Jakob, Lithograph, von Lenzburg, vordere Vorstadt 894.\n— Kramer, Zoft, Schneidermeister, von Büren (Luzern), Hgelweid 636.\nBonnäch, Zasob, Buchbinder, von Unterlulm, hintere Vorstadt 642.\nEggenschwyler, Johann, Postcommis, von Muri, Rathausgasse 47.\nBalmers, Alfred, Schriftseker, v. Weinfelden (Thurgau), Wilchg. 79.\nSamuel, Maschinenpulver, von Unterulm, im Weinberg 335.\nHofer, Johann, Aufseher von Hirschthal, Ziegelrain 7076.\nRauher, Jakob, Taglöhner, von Bötzberg, obere Vorstadt 964.\nBerner, Anna Maria, Taglöhnerin von Kulm, Kirchplatz 167a.\nWildi, Karoline, Wittwe, Partei, von Wettlingen (Würtemberg),\nHalden 285.\n— = Alberine, Damenfneiderin, von Wöttlingen (Würtemberg),\nHalden 285.\n– Otto, Commis, von Wölflingen (Würtemberg), Halden 285.\nAnna, Fabrikarbeiterin, von Unterhulm, Lausenzenvorsitz 376.\nHächler, Barbara, Wittwe, Partei, von Rulm, Telli 448.\nMaria, Spetterin, von Bötzberg, Ziegelrain 702.\nMaria, Näherin, von Hirschthal, Rainstraße 875.\nRinifer, Elfse, Staatsweibel Wittwe, von Biberstein, vordere Vor¬\nftadt 905.\n— Elise, Glätterin, von Biberstein, vordere Vorstadt 905.\nJohann, Ingénieur, von Linn, Pelzgasse 129.\n— Vogler, Heinrich, Buchbinder, von Unterlulm, im Weinberg 321.\nEichenberger, Johann, Schreinermeister, von Oberulm, Halden 290.\nWidmer, Gottlieb, Schuhmacher, von Unterfalm, Wildgasse 143.\nKarl, Reiseprediger, von Binzen (Großh. Baden), h. d. Platz 214.\nSchneider, Eufanna, Hauskälterin, von Birr, Wildgasse 146.\n— Hrn, Verena, Partei, von Unterhulm, Wildgasse 152.\nMaria, Taglöhnerin, von Unterfalm, vor dem Haldenthor 802.\nMorgenthaler.\ns¬",
+  "lines": [
+    {
+      "order": 0,
+      "baseline": [
+        [
+          583.0,
+          97.0
+        ],
+        [
+          664.0,
+          95.0
+        ]
+      ],
+      "bbox": [
+        582.0,
+        78.0,
+        664.0,
+        107.0
+      ],
+      "boundary": null,
+      "text": "Müller.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 1,
+      "baseline": [
+        [
+          122.0,
+          94.0
+        ],
+        [
+          153.0,
+          94.0
+        ]
+      ],
+      "bbox": [
+        122.0,
+        76.0,
+        153.0,
+        108.0
+      ],
+      "boundary": null,
+      "text": "s¬",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 2,
+      "baseline": [
+        [
+          136.0,
+          148.0
+        ],
+        [
+          887.0,
+          152.0
+        ]
+      ],
+      "bbox": [
+        136.0,
+        124.0,
+        887.0,
+        168.0
+      ],
+      "boundary": null,
+      "text": "Morgenthaler, Maria, Damenschneiderin, von Ermelbach, Golattenmatt-",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 3,
+      "baseline": [
+        [
+          223.0,
+          176.0
+        ],
+        [
+          343.0,
+          174.0
+        ]
+      ],
+      "bbox": [
+        222.0,
+        152.0,
+        343.0,
+        187.0
+      ],
+      "boundary": null,
+      "text": "gasse 237c.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 4,
+      "baseline": [
+        [
+          150.0,
+          199.0
+        ],
+        [
+          794.0,
+          202.0
+        ]
+      ],
+      "bbox": [
+        149.0,
+        176.0,
+        794.0,
+        214.0
+      ],
+      "boundary": null,
+      "text": "Elise, Spetterin, von Madiswyl (Bern), im Hammer 184.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 5,
+      "baseline": [
+        [
+          134.0,
+          225.0
+        ],
+        [
+          834.0,
+          229.0
+        ]
+      ],
+      "bbox": [
+        133.0,
+        201.0,
+        834.0,
+        239.0
+      ],
+      "boundary": null,
+      "text": "Mösch-Gakler, Martin, Ranzleisefretär, von Fried, Bachstrafe 1155.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 6,
+      "baseline": [
+        [
+          148.0,
+          249.0
+        ],
+        [
+          789.0,
+          254.0
+        ]
+      ],
+      "bbox": [
+        147.0,
+        229.0,
+        789.0,
+        265.0
+      ],
+      "boundary": null,
+      "text": "Ranz, Franz, Rutscher, von Fries, Laurenzenvorstadt 552.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 7,
+      "baseline": [
+        [
+          126.0,
+          275.0
+        ],
+        [
+          698.0,
+          279.0
+        ]
+      ],
+      "bbox": [
+        125.0,
+        253.0,
+        698.0,
+        289.0
+      ],
+      "boundary": null,
+      "text": "Mühlberg-Codognari, Fritz, Professor, Mainstrafe 878.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 8,
+      "baseline": [
+        [
+          147.0,
+          300.0
+        ],
+        [
+          858.0,
+          304.0
+        ]
+      ],
+      "bbox": [
+        146.0,
+        279.0,
+        858.0,
+        315.0
+      ],
+      "boundary": null,
+      "text": "— Ausler, Theodor, Postkontrolleur, von Wuri, neues Quartier 983.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 9,
+      "baseline": [
+        [
+          129.0,
+          327.0
+        ],
+        [
+          680.0,
+          329.0
+        ]
+      ],
+      "bbox": [
+        128.0,
+        304.0,
+        680.0,
+        341.0
+      ],
+      "boundary": null,
+      "text": "Müller-Rocher, Wilhelm, Kaufmann, Schloßplatz 195.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 10,
+      "baseline": [
+        [
+          124.0,
+          348.0
+        ],
+        [
+          231.0,
+          354.0
+        ],
+        [
+          813.0,
+          355.0
+        ]
+      ],
+      "bbox": [
+        124.0,
+        330.0,
+        813.0,
+        368.0
+      ],
+      "boundary": null,
+      "text": "* Haberstich, Friedrich August, Kaufmann, Bahnhofträge 656.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 11,
+      "baseline": [
+        [
+          126.0,
+          371.0
+        ],
+        [
+          158.0,
+          378.0
+        ],
+        [
+          217.0,
+          379.0
+        ],
+        [
+          716.0,
+          380.0
+        ]
+      ],
+      "bbox": [
+        125.0,
+        357.0,
+        716.0,
+        392.0
+      ],
+      "boundary": null,
+      "text": "* = Gampfer, Samuel, Spezereihändler, Holzmacht 665.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 12,
+      "baseline": [
+        [
+          126.0,
+          393.0
+        ],
+        [
+          148.0,
+          402.0
+        ],
+        [
+          213.0,
+          405.0
+        ],
+        [
+          738.0,
+          406.0
+        ]
+      ],
+      "bbox": [
+        125.0,
+        380.0,
+        738.0,
+        419.0
+      ],
+      "boundary": null,
+      "text": "Wodtle, Jakob, Gemeindeweibel, Rathhausgasse 176.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 13,
+      "baseline": [
+        [
+          129.0,
+          420.0
+        ],
+        [
+          149.0,
+          428.0
+        ],
+        [
+          182.0,
+          430.0
+        ],
+        [
+          714.0,
+          430.0
+        ]
+      ],
+      "bbox": [
+        129.0,
+        407.0,
+        714.0,
+        444.0
+      ],
+      "boundary": null,
+      "text": "Hüner, Eduard, Schirmacher, Rathausgasse 30.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 14,
+      "baseline": [
+        [
+          128.0,
+          443.0
+        ],
+        [
+          130.0,
+          448.0
+        ],
+        [
+          148.0,
+          453.0
+        ],
+        [
+          188.0,
+          456.0
+        ],
+        [
+          649.0,
+          457.0
+        ]
+      ],
+      "bbox": [
+        127.0,
+        433.0,
+        649.0,
+        469.0
+      ],
+      "boundary": null,
+      "text": "Urech, Küfers Wittwe, Partei, Halden 286.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 15,
+      "baseline": [
+        [
+          127.0,
+          468.0
+        ],
+        [
+          137.0,
+          474.0
+        ]
+      ],
+      "bbox": [
+        110.0,
+        456.0,
+        142.0,
+        505.0
+      ],
+      "boundary": null,
+      "text": "s¬",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 16,
+      "baseline": [
+        [
+          145.0,
+          477.0
+        ],
+        [
+          197.0,
+          482.0
+        ],
+        [
+          502.0,
+          480.0
+        ]
+      ],
+      "bbox": [
+        144.0,
+        458.0,
+        502.0,
+        494.0
+      ],
+      "boundary": null,
+      "text": "Julius, Partei, Schachen 723.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 17,
+      "baseline": [
+        [
+          124.0,
+          499.0
+        ],
+        [
+          175.0,
+          507.0
+        ],
+        [
+          514.0,
+          507.0
+        ]
+      ],
+      "bbox": [
+        123.0,
+        484.0,
+        514.0,
+        519.0
+      ],
+      "boundary": null,
+      "text": "* Theodor, Partei, Schachen 723.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 18,
+      "baseline": [
+        [
+          126.0,
+          525.0
+        ],
+        [
+          130.0,
+          521.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        507.0,
+        137.0,
+        531.0
+      ],
+      "boundary": null,
+      "text": "s¬",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 19,
+      "baseline": [
+        [
+          129.0,
+          523.0
+        ],
+        [
+          151.0,
+          530.0
+        ],
+        [
+          193.0,
+          533.0
+        ],
+        [
+          474.0,
+          532.0
+        ]
+      ],
+      "bbox": [
+        128.0,
+        508.0,
+        474.0,
+        545.0
+      ],
+      "boundary": null,
+      "text": "Cäsar, Regt., Schachen 723.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 20,
+      "baseline": [
+        [
+          124.0,
+          551.0
+        ],
+        [
+          177.0,
+          558.0
+        ],
+        [
+          558.0,
+          558.0
+        ]
+      ],
+      "bbox": [
+        123.0,
+        534.0,
+        558.0,
+        569.0
+      ],
+      "boundary": null,
+      "text": "* Emma, Hauschälterin, Schachen 723.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 21,
+      "baseline": [
+        [
+          122.0,
+          578.0
+        ],
+        [
+          211.0,
+          584.0
+        ],
+        [
+          870.0,
+          586.0
+        ]
+      ],
+      "bbox": [
+        121.0,
+        560.0,
+        870.0,
+        598.0
+      ],
+      "boundary": null,
+      "text": "* von Dänisen, Friedrich, Gepläckträger und Dekonom, Schachen 725.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 22,
+      "baseline": [
+        [
+          122.0,
+          603.0
+        ],
+        [
+          245.0,
+          609.0
+        ],
+        [
+          657.0,
+          610.0
+        ]
+      ],
+      "bbox": [
+        121.0,
+        585.0,
+        657.0,
+        622.0
+      ],
+      "boundary": null,
+      "text": "* = Rothpletz, Arnold, Baummeister, Pelzgasse 124.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 23,
+      "baseline": [
+        [
+          146.0,
+          633.0
+        ],
+        [
+          846.0,
+          636.0
+        ]
+      ],
+      "bbox": [
+        145.0,
+        610.0,
+        846.0,
+        648.0
+      ],
+      "boundary": null,
+      "text": "Suter, Jakob, Lithograph, von Lenzburg, vordere Vorstadt 894.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 24,
+      "baseline": [
+        [
+          146.0,
+          658.0
+        ],
+        [
+          881.0,
+          660.0
+        ]
+      ],
+      "bbox": [
+        146.0,
+        636.0,
+        881.0,
+        671.0
+      ],
+      "boundary": null,
+      "text": "— Kramer, Zoft, Schneidermeister, von Büren (Luzern), Hgelweid 636.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 25,
+      "baseline": [
+        [
+          146.0,
+          684.0
+        ],
+        [
+          881.0,
+          688.0
+        ]
+      ],
+      "bbox": [
+        145.0,
+        663.0,
+        881.0,
+        699.0
+      ],
+      "boundary": null,
+      "text": "Bonnäch, Zasob, Buchbinder, von Unterlulm, hintere Vorstadt 642.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 26,
+      "baseline": [
+        [
+          146.0,
+          710.0
+        ],
+        [
+          881.0,
+          711.0
+        ]
+      ],
+      "bbox": [
+        145.0,
+        688.0,
+        881.0,
+        724.0
+      ],
+      "boundary": null,
+      "text": "Eggenschwyler, Johann, Postcommis, von Muri, Rathausgasse 47.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 27,
+      "baseline": [
+        [
+          146.0,
+          735.0
+        ],
+        [
+          881.0,
+          738.0
+        ]
+      ],
+      "bbox": [
+        145.0,
+        714.0,
+        881.0,
+        750.0
+      ],
+      "boundary": null,
+      "text": "Balmers, Alfred, Schriftseker, v. Weinfelden (Thurgau), Wilchg. 79.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 28,
+      "baseline": [
+        [
+          146.0,
+          760.0
+        ],
+        [
+          810.0,
+          761.0
+        ]
+      ],
+      "bbox": [
+        145.0,
+        739.0,
+        810.0,
+        774.0
+      ],
+      "boundary": null,
+      "text": "Samuel, Maschinenpulver, von Unterulm, im Weinberg 335.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 29,
+      "baseline": [
+        [
+          146.0,
+          785.0
+        ],
+        [
+          790.0,
+          787.0
+        ]
+      ],
+      "bbox": [
+        146.0,
+        764.0,
+        790.0,
+        801.0
+      ],
+      "boundary": null,
+      "text": "Hofer, Johann, Aufseher von Hirschthal, Ziegelrain 7076.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 30,
+      "baseline": [
+        [
+          146.0,
+          812.0
+        ],
+        [
+          826.0,
+          813.0
+        ]
+      ],
+      "bbox": [
+        146.0,
+        789.0,
+        826.0,
+        824.0
+      ],
+      "boundary": null,
+      "text": "Rauher, Jakob, Taglöhner, von Bötzberg, obere Vorstadt 964.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 31,
+      "baseline": [
+        [
+          146.0,
+          836.0
+        ],
+        [
+          848.0,
+          839.0
+        ]
+      ],
+      "bbox": [
+        145.0,
+        815.0,
+        848.0,
+        849.0
+      ],
+      "boundary": null,
+      "text": "Berner, Anna Maria, Taglöhnerin von Kulm, Kirchplatz 167a.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 32,
+      "baseline": [
+        [
+          145.0,
+          863.0
+        ],
+        [
+          879.0,
+          865.0
+        ]
+      ],
+      "bbox": [
+        144.0,
+        840.0,
+        879.0,
+        880.0
+      ],
+      "boundary": null,
+      "text": "Wildi, Karoline, Wittwe, Partei, von Wettlingen (Würtemberg),",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 33,
+      "baseline": [
+        [
+          221.0,
+          891.0
+        ],
+        [
+          351.0,
+          889.0
+        ]
+      ],
+      "bbox": [
+        220.0,
+        868.0,
+        351.0,
+        901.0
+      ],
+      "boundary": null,
+      "text": "Halden 285.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 34,
+      "baseline": [
+        [
+          144.0,
+          913.0
+        ],
+        [
+          829.0,
+          917.0
+        ]
+      ],
+      "bbox": [
+        143.0,
+        887.0,
+        829.0,
+        929.0
+      ],
+      "boundary": null,
+      "text": "— = Alberine, Damenfneiderin, von Wöttlingen (Würtemberg),",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 35,
+      "baseline": [
+        [
+          221.0,
+          942.0
+        ],
+        [
+          352.0,
+          940.0
+        ]
+      ],
+      "bbox": [
+        220.0,
+        919.0,
+        352.0,
+        949.0
+      ],
+      "boundary": null,
+      "text": "Halden 285.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 36,
+      "baseline": [
+        [
+          145.0,
+          966.0
+        ],
+        [
+          801.0,
+          966.0
+        ]
+      ],
+      "bbox": [
+        145.0,
+        940.0,
+        801.0,
+        979.0
+      ],
+      "boundary": null,
+      "text": "– Otto, Commis, von Wölflingen (Würtemberg), Halden 285.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 37,
+      "baseline": [
+        [
+          145.0,
+          991.0
+        ],
+        [
+          828.0,
+          989.0
+        ]
+      ],
+      "bbox": [
+        144.0,
+        968.0,
+        828.0,
+        1004.0
+      ],
+      "boundary": null,
+      "text": "Anna, Fabrikarbeiterin, von Unterhulm, Lausenzenvorsitz 376.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 38,
+      "baseline": [
+        [
+          144.0,
+          1016.0
+        ],
+        [
+          785.0,
+          1016.0
+        ]
+      ],
+      "bbox": [
+        144.0,
+        994.0,
+        785.0,
+        1026.0
+      ],
+      "boundary": null,
+      "text": "Hächler, Barbara, Wittwe, Partei, von Rulm, Telli 448.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 39,
+      "baseline": [
+        [
+          145.0,
+          1042.0
+        ],
+        [
+          682.0,
+          1042.0
+        ]
+      ],
+      "bbox": [
+        145.0,
+        1020.0,
+        682.0,
+        1055.0
+      ],
+      "boundary": null,
+      "text": "Maria, Spetterin, von Bötzberg, Ziegelrain 702.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 40,
+      "baseline": [
+        [
+          143.0,
+          1066.0
+        ],
+        [
+          692.0,
+          1067.0
+        ]
+      ],
+      "bbox": [
+        142.0,
+        1043.0,
+        692.0,
+        1079.0
+      ],
+      "boundary": null,
+      "text": "Maria, Näherin, von Hirschthal, Rainstraße 875.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 41,
+      "baseline": [
+        [
+          144.0,
+          1092.0
+        ],
+        [
+          880.0,
+          1092.0
+        ]
+      ],
+      "bbox": [
+        144.0,
+        1070.0,
+        880.0,
+        1109.0
+      ],
+      "boundary": null,
+      "text": "Rinifer, Elfse, Staatsweibel Wittwe, von Biberstein, vordere Vor¬",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 42,
+      "baseline": [
+        [
+          218.0,
+          1119.0
+        ],
+        [
+          327.0,
+          1117.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        1095.0,
+        327.0,
+        1129.0
+      ],
+      "boundary": null,
+      "text": "ftadt 905.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 43,
+      "baseline": [
+        [
+          144.0,
+          1144.0
+        ],
+        [
+          744.0,
+          1142.0
+        ]
+      ],
+      "bbox": [
+        143.0,
+        1118.0,
+        744.0,
+        1157.0
+      ],
+      "boundary": null,
+      "text": "— Elise, Glätterin, von Biberstein, vordere Vorstadt 905.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 44,
+      "baseline": [
+        [
+          143.0,
+          1167.0
+        ],
+        [
+          652.0,
+          1169.0
+        ]
+      ],
+      "bbox": [
+        142.0,
+        1145.0,
+        652.0,
+        1182.0
+      ],
+      "boundary": null,
+      "text": "Johann, Ingénieur, von Linn, Pelzgasse 129.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 45,
+      "baseline": [
+        [
+          142.0,
+          1195.0
+        ],
+        [
+          858.0,
+          1192.0
+        ]
+      ],
+      "bbox": [
+        141.0,
+        1169.0,
+        858.0,
+        1205.0
+      ],
+      "boundary": null,
+      "text": "— Vogler, Heinrich, Buchbinder, von Unterlulm, im Weinberg 321.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 46,
+      "baseline": [
+        [
+          143.0,
+          1219.0
+        ],
+        [
+          877.0,
+          1218.0
+        ]
+      ],
+      "bbox": [
+        142.0,
+        1196.0,
+        877.0,
+        1229.0
+      ],
+      "boundary": null,
+      "text": "Eichenberger, Johann, Schreinermeister, von Oberulm, Halden 290.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 47,
+      "baseline": [
+        [
+          142.0,
+          1245.0
+        ],
+        [
+          858.0,
+          1245.0
+        ]
+      ],
+      "bbox": [
+        142.0,
+        1222.0,
+        858.0,
+        1258.0
+      ],
+      "boundary": null,
+      "text": "Widmer, Gottlieb, Schuhmacher, von Unterfalm, Wildgasse 143.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 48,
+      "baseline": [
+        [
+          143.0,
+          1270.0
+        ],
+        [
+          876.0,
+          1270.0
+        ]
+      ],
+      "bbox": [
+        143.0,
+        1247.0,
+        876.0,
+        1281.0
+      ],
+      "boundary": null,
+      "text": "Karl, Reiseprediger, von Binzen (Großh. Baden), h. d. Platz 214.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 49,
+      "baseline": [
+        [
+          143.0,
+          1294.0
+        ],
+        [
+          819.0,
+          1296.0
+        ]
+      ],
+      "bbox": [
+        142.0,
+        1272.0,
+        819.0,
+        1308.0
+      ],
+      "boundary": null,
+      "text": "Schneider, Eufanna, Hauskälterin, von Birr, Wildgasse 146.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 50,
+      "baseline": [
+        [
+          143.0,
+          1320.0
+        ],
+        [
+          768.0,
+          1319.0
+        ]
+      ],
+      "bbox": [
+        142.0,
+        1298.0,
+        768.0,
+        1330.0
+      ],
+      "boundary": null,
+      "text": "— Hrn, Verena, Partei, von Unterhulm, Wildgasse 152.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 51,
+      "baseline": [
+        [
+          142.0,
+          1345.0
+        ],
+        [
+          830.0,
+          1345.0
+        ]
+      ],
+      "bbox": [
+        142.0,
+        1324.0,
+        830.0,
+        1366.0
+      ],
+      "boundary": null,
+      "text": "Maria, Taglöhnerin, von Unterfalm, vor dem Haldenthor 802.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 52,
+      "baseline": [
+        [
+          357.0,
+          95.0
+        ],
+        [
+          510.0,
+          95.0
+        ]
+      ],
+      "bbox": [
+        357.0,
+        73.0,
+        510.0,
+        112.0
+      ],
+      "boundary": null,
+      "text": "Morgenthaler.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 53,
+      "baseline": [
+        [
+          532.0,
+          96.0
+        ],
+        [
+          563.0,
+          96.0
+        ]
+      ],
+      "bbox": [
+        532.0,
+        79.0,
+        563.0,
+        101.0
+      ],
+      "boundary": null,
+      "text": "s¬",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    }
+  ],
+  "confidence": 0.0,
+  "segmented_by": "kraken-blla+Riksarkivet/yolov9-regions-1",
+  "timing_ms": 18306,
+  "truncated": false,
+  "settings": null,
+  "quality": {
+    "verdict": "ok",
+    "chars": 2534,
+    "lines": 54,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0741,
+    "mean_line_chars": 45.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": {
+    "engine": "party",
+    "model": "party",
+    "text": "",
+    "lines": [],
+    "confidence": null,
+    "timing_ms": 0,
+    "error": "timed out: no answer within 30s of the primary result"
+  },
+  "gateway_version": "0.1.0",
+  "recognised_at": "2026-11-06T12:46:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-v1",
+    "source": {
+      "key": "1884_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p040.jpeg",
+      "bytes": 311475,
+      "sha256": "0429c1083e53188617285b276dfab4b83b3ca0cb820fb512accc822784c9e3a4",
+      "sha256_of": "original",
+      "working_copy": "1884_p040.jpeg"
+    },
+    "model": {
+      "model": "qwen3vl-german-xix-v2",
+      "engine": "vllm",
+      "level": "line",
+      "revision": null,
+      "revision_kind": "unversioned_repo",
+      "weights": "dh-unibe/qwen3vl-german-xix-v2",
+      "base_model": "Qwen/Qwen3-VL-4B-Instruct"
+    },
+    "gateway_version": "0.1.0",
+    "segmented_by": "kraken-blla+Riksarkivet/yolov9-regions-1",
+    "recognised_at": "2026-11-06T12:46:07+00:00"
+  }
+}

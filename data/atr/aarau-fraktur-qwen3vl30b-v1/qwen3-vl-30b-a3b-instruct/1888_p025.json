@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p025",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p025.jpeg",
+    "bytes": 245280,
+    "sha256": "a4949676b8e1252730d1169f1ec711c9b04765c09a06e7d0412f77cac053cab9",
+    "sha256_of": "original",
+    "working_copy": "1888_p025.jpeg"
+  },
+  "text": "Haus-\nNr.\n160. Kleinfinderschule. Fräulein Heß.\nRothplex-Häfler, Rudolf, Kuttler.\nSchmuziger, Maria, Borgängerin.\nSchmuziger, Sufette, Haushälterin.\nSchmuziger, Verena, Fabrikarbeiterin.\n161. Dür r, Jaaß, Schreiner.\nFehlmann-Buß, Johann, Gärtner, von Seon.\nWidmer, Verena, Spetterin, von Gränichen.\nHemmeler, Rosina, Pflästerers, Näherin.\nMeier geb. Ott, Agatha, Schreiners Wittwe, von Gebenstorf.\n\nKirchhof.\n162. Gränicher geb. Richner, Rosa, Wittwe, Part.\nGränicher-Wärtli, Joh. Jakob, Schneider, ref. Siegrist.\n163. Martin, F. G., Buchdrucker.\nGraf geb. Martin, Sophie, Part., von Jorggen (Zürich).\n164. Vanger-Häuf ermann, G., Buchbinder.\nRohlmann-Läuschli, Gabriel, von Daarlanden (Baden), Lithographie und\nSteindruckerei.\nFritsch-Dür rer, Franz, Schneider, von Gaggenau (Baden).\n165.a. Hässig geb. Dätw hler, Elise, Wittwe.\nDätwhler, Maria, Privatin, von Ostringen.\nJungi-Blattner, Johann, Schuhmachermeister, von Guggisberg (Bern).\n(Werkstätte)\nKähr, Maria, Näherin, von Rüderswyl.\n165.b. Lenzin, Sophie, Lehrerin.\nGisler-Landolt, Hermine, Haushälterin, von Unterlangenegg (Bern).\n166. Wärtli-Enst, August, Buchbinder.\nZellweger-Fischer, Jakob, Büchsenmacher, von Teufen (Appenzell).\nPfister-Matter, Heinrich, Hafnergehilfe, von Egg (Zürich).\n167.a. Derjelbe.\n167.b. Abgetragen.\n168. Gemeinde Aarau, Kirche.\n169. Dieselbe. Pfarrhaus.\nGraf-Fäs, Ernst, von Winterthur, ref. Pfarrer.\n\nAdelbändli.\n170. Matter-Hagnauer, Jakob, Schneidermeister, von Kölliken, Kleider-\nfabrification.\nHagnauer-Raipar, Joh. Ludwig, Briesträger.\nSchmidt-Graf, Rudolf, Taglöhner.\nMüller, Marie, Zimmermanns, Part., von Oberbötzberg.\n171. Siebenmann, Ludwig, Vater, Part.\nSiebenmann-Frei, Ludwig, Sohn, Schuster.\nDür r-Siebenmann, Karolina, Registrators Wittwe.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3647,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1742,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:20:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p025",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p025.jpeg",
+      "bytes": 245280,
+      "sha256": "a4949676b8e1252730d1169f1ec711c9b04765c09a06e7d0412f77cac053cab9",
+      "sha256_of": "original",
+      "working_copy": "1888_p025.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:30+00:00"
+  }
+}

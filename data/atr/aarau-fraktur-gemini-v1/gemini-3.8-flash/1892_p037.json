@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p037.jpeg",
+    "bytes": 191796,
+    "sha256": "63969212e4905ea0c3b3e786b456b17e83e1cbef62d445c88ee141249e3a7302",
+    "sha256_of": "original",
+    "working_copy": "1892_p037.jpeg"
+  },
+  "text": "— 29 —\n\nHaus=\nNr.\n337. Weber-Weber, Wilhelm, Milchverkäufer, von Menziken.\n  Wehrli-Graf, Jakob, Handlanger, von Küttigen.\n338. Weber, Jakob, Dachdecker, von Menziken.\n\nJenseits der Aare.\n\n339.* Zimmermann, Maria, Wittwe, Erbschaft.\n  Heuberger-Siebenmann, Gottlieb, Sekretär.\n  Döbeli-Binder Samuel, Bezirksschullehrer, von Seon.\n  Merz-Siegrist, Anna, Wittwe, von Beinwyl.\n1247. † Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wagenschopf und\n    Eiskeller.\n\nWeinberg.\n\n340. † Frey-Frey, K., Stadtrath. Rebhäuschen.\n341. † Kern-Rychner, Emil. Rebhäuschen.\n\nJenseits der Aare.\n\n342. Bauhofer-Keller, Anna Kaufmanns Wittwe.\n  Bauhofer, Maria, Lehrerin in Erlinsbach.\n  Tuchschmid, August, Dr. Professor, von Thundorf (Thurgau).\n  Müller, Rosa, Haushälterin, von Unterkulm.\n  Hunziker-Müller, Marie Anna, Schuhmachers Wittwe, von Unter-Kulm.\n343. † Dieselbe. Holzschopf.\n344. † Gemeinde Aarau. Holzmagazin.\n345. † Dieselbe. Werkhaus.\n1280. † Gemeinde Aarau. Spritzenhaus.\n346. Müller-Rothpletz, Arnold, Architekt und Baumeister.\n347. † Abgetragen.\n348. † Gemeinde Aarau. Badanstalt.\n  † Dieselbe. Schuppen für Kriegsfuhrwerke.\n1104.\n\nLaurenzenthorgasse.\n\n349. Haßler-Wanger, Emil, Negot., Kolonialwaarenhandlung.\n  Erné-Leblanc, Eduard, Kaufmann, von Leuggern.\n350. † Derselbe. Holzschopf.\n351. Aktiengesellschaft der Creditanstalt.\n\nGraben.\n\n352. * Dreyfuß-Götschel, Adolf, Kaufmann, von Endingen, in Basel.\n  Dreifuß, Max Emil, Sohn, Kaufmann, von Endingen. Französische\n    Waarenhalle. Ellenwaarenhandlung und Damenkonfektion.\n  Frey-Hagnauer, Konrad, Dr. Med., praktischer Arzt.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5546,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1580,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0244,
+    "mean_line_chars": 36.51,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:49:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p037.jpeg",
+      "bytes": 191796,
+      "sha256": "63969212e4905ea0c3b3e786b456b17e83e1cbef62d445c88ee141249e3a7302",
+      "sha256_of": "original",
+      "working_copy": "1892_p037.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:02+00:00"
+  }
+}

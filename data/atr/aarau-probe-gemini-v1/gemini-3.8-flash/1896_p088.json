@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p088",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p088.jpeg",
+    "bytes": 277708,
+    "sha256": "620740ca6a942cf422ef858d830557b9e4effcc4249543667eda13c9e6f7fd97",
+    "sha256_of": "original",
+    "working_copy": "1896_p088.jpeg"
+  },
+  "text": "66\tVerzeichnis der Gebäude und ihrer Bewohner.\n\nHaus-\nNr.\n871\tSchneider-Mösch, Fridolin, Oberrichter, von Herznach.\n\tZschokke-Zimmerli, Justina, Witwe, Part.\n\tMösch-Mösch, Aloisa, Witwe, von Frick.\n872\tKern-Saxer, Adolf, Part.\n\tSaxer geb. Truog, Anna, Witwe, Haushälterin.\n873 †\tDerselbe. Holzhaus.\n874\tSiegrist-Hunziker, Emil, Kaufmann, Beamter des Niederlagshauses\n\t  in Aarau.\n\tMeier-Bucher, August, Direktionssekretär, von Obersiggenthal.\n\tRebmann-Häfliger, Karl Jakob, Maler, v. Fellbach (Württemb.),\n\t  (Malerwerkstätte).\n875\tHitz-Lanz, Otto, Negt., Spezerei-, Kohlen- und Holzhandlung.\n\tHitz, Bertha, Part., von Hausen am Albis (Zürich).\n\tGuyot, Maria, Damenschneiderin, von Lyon.\n\tSchumann-Ringier, Albert, Professor, von Gotha (Sachsen).\n\tDietiker, Susanna, Spetterin, von Thalheim.\n\tBrunnhofer, Elise, Damenschneiderin.\n\tFisch, Mina (Kleinkinderschule).\n\tBräm-Huber, Anna, Witwe, Part., von Bülach (Zürich).\n\tBräm, Albert, Kaufmann, von Bülach (Zürich).\n876 †\tDerselbe. Scheune.\n877 a\tWehrli-Kähr, Jakob, Part.\n\tSprenger-Thöni, Wilhelm, Schreiner, von Rheinfelden.\n\tGallauer-Lüscher, Anton, Taglöhner, von Ursendorf (Württembg.).\n\tWassmer, Jakob, Wagner, von Suhr (Wagnerwerkstätte.)\n\tSommerhalder-König, Jakob, Hausknecht i. Löwen, v. Gontenschwyl.\n877 b\tScheibler-Zingg, Fritz, Küfermeister, von Unterentfelden.\n\tKaiser, Friedrich, Kondukteur S. C. B., von Bibern (Solothurn).\n\tBächi, Margarita, Spetterin, von Bertschikon (Zürich).\n878\tKeller-Steiner, Karl, Hafer- und Weinhandlung.\n\tSteiner, Johann, Part.\n\tSteiner-Lindenmann, Susanne, Witwe, Part.\n\tMühlberg-Sutermeister, Fritz, Dr. phil. Professor.\n\tVon Steiger-Marthaler, William, Techniker, von Bern.\n\tSteffen-Meier, Anna, Witwe, von Seebach (Zürich.\n879 *\tDerselbe. Hinterhaus.\n\tSemmler-Gans, Margareta, Schuhhändlerin, v. Pirmasens (Bayern).\n\tVolkmer-Mussmann, Barbara, Schuhhändlerin, v. Pirmasens (Bayern).\n880\tNägeli-Keller, Joh. Jakob, Schriftsetzer, von Bülach (Zürich).\n\tBenninger-Jung, Jak., Bahnarbeiter, von Jeuss (Freiburg).\n\tLienhard-Baumann, Emilie, Wwe, v. Buchs, Wäscherei u. Glätterei.\n881 *\tArmengut der Gemeinde Aarau. Wohnhaus.\n\tHässig-Lüscher, Johann, Dienstmann. Antiquar u. Gemüsehändler.\n\tRämisperger-Studler, Verena, Spenglers Witwe, Taglöhnerin.\n882 †\tStaat Aargau. Altes Antiquarium.\n883\tRohr-Hochstrasser, Rudolf, Schmied.\n\tBruns-Gattiker, Hermann, Schlosser, von Bremen.\n\tBruns-Gattiker, Dorotea, Glätterei und Galanterie, von Bremen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 48309,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2431,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+  "recognised_at": "2026-11-06T12:04:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gemini-v1",
+    "source": {
+      "key": "1896_p088",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p088.jpeg",
+      "bytes": 277708,
+      "sha256": "620740ca6a942cf422ef858d830557b9e4effcc4249543667eda13c9e6f7fd97",
+      "sha256_of": "original",
+      "working_copy": "1896_p088.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:04:05+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p032",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p032.jpeg",
+    "bytes": 261030,
+    "sha256": "126fcc01e516dca0220fa1b2bde141d765ba49082b4452f7c57c32293a5a4b31",
+    "sha256_of": "original",
+    "working_copy": "1888_p032.jpeg"
+  },
+  "text": "— 22 —\n\nHaus-\nNr.\n254.* Hirsbrunner-Kiener, Jakob, Instrumentmacher.\n  Bechter, Ludwig, Schuhmacher, von Bregenz (Oesterreich).\n  Angst-Kirchhofer, Jakob, Gipser, von Wyl (Zürich).\n  Lüscher-Lüscher, Jakob, Commis, von Moosleerau.\n255. Hirsbrunner-Kiener, Jakob, Instrumentmacher. Spezereihandlung.\n  Hirsbrunner, Gottfried, Sohn, Instrumentmacher.\n256. Armengut der Gemeinde Aarau.\n  Andres, Jakob, Bahnangestellter.\n  Andres-Walter, Verena, Metzgers Wittwe.\n  Beck-Böll, Gottlieb, Schlosser.\n  Schmidt-Häusler, Verena, Gärtners Wittwe.\n  Schmidt, Albert, Schriftsetzer.\n257. Zimmermann-Wernli, Joh, gew. Bahnwärter, von Rupperswyl.\n  Schilling, Xaver, Taglöhner, von Hornussen.\n258.* Armengut der Gemeinde Aarau.\n259. Fehlmann-Sandmeier, Jakob, Kaminfeger, von Menziken.\n  Suter-Lüscher, Gabriel, Bandweber, von Gränichen.\n  Hunziker-Süberli, Rudolf, Holzspalter, von Gontenschwyl.\n260. a. Keller-Berney, Abraham, Mechaniker.\n260. b.* Haßler, Julie, Modistin.\n  Bamberger-Schwarz, Anna, Wittwe, Taglöhnerin, von Siglistorf.\n  Walser-Bamberger, Maria, Zuschneiderin, von Rottweil (Baden).\n  Widmer-Frühauf, Balthasar, Mechaniker, von Bergdietikon.\n  Lienhard, Maria Anna, Polizeidieners, Part.\n261. Rauchenstein-Pfleger, Friedrich, Professor.\n  Pfleger, Emma, Pfarrers, Privatin.\n262. Abgetragen.\n263.* Hesti-Hunziker, F. P., Schneidermeister, von Schwanden (Glarus).\n  Hunziker-Hunziker, Heinrich, Holzspalter, von Kirchleerau.\n264. Marti, Rosina's, Priv., Erbschaft.\n  Fisch, Mina, Kleinkinderlehrerin.\n  Haßler, Margaretha, Glasers, Part.\n  Bossard, Elise, Part., von Altstätten (Zürich).\n  Krähenbühl, Louise, Näherin, von Altishofen (Luzern).\n  Plüß, Verena, Part., von Vordemwald.\n  Bircher, Maria, Taglöhnerin, von Küttigen.\n  Wernli-Wullschleger, Ulrich, Privat, von Thalheim.\n  Frieden-Kramer, Agatha, Näherin, von Seedorf (Bern).\n  Erdin-Zumsteg, Siegfried, Taglöhner, von Gansingen.\n265. Haßler-Ernst, August, Färber.\n  Haßler, Maria, Part.\n266. a. Hässig-Berner, Friedrich, Straßenwärters Erbschaft.\n  Hässig, Friedrich, Abwart.\n  Hässig, Elise, Schneiderin.\n  Berner, Anna, Glätterin, von Rupperswyl.\n266. b. Hagnauer, Gottlieb, Metzger.\n  Hostettler-Hagnauer, Niklaus, Schuhmacher, von Guggisberg.\n  Dätwyler-Biedermann, Joh., Holzspalter, von Wittwyl.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7985,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2267,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:26:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p032",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p032.jpeg",
+      "bytes": 261030,
+      "sha256": "126fcc01e516dca0220fa1b2bde141d765ba49082b4452f7c57c32293a5a4b31",
+      "sha256_of": "original",
+      "working_copy": "1888_p032.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:32+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p014",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p014.jpeg",
+    "bytes": 227400,
+    "sha256": "d3aaed0274794f47016ada4df8db8fa2138affa08fe12b84e81916f9a5a94791",
+    "sha256_of": "original",
+    "working_copy": "1892_p014.jpeg"
+  },
+  "text": "Haus-\nNr.\nReichert-Suter, Wilhelm, Koch, (Wildenmann) von Vörrach (Baden).\n57. Hauenstein-Hollinger, Alois Fried., Lehrer, von Degerfelden.\n58. Buser=Wildi, Emil, Bäckermeister.\nHemmerler=Türler, Emil, Kaufmann, Mercerie-, Garn- und Ellen-\nwarenhandlung.\nHemmerler, Emil, Kaufmann, Sohn.\nBuser-Bräutigam, Rosine, Bäders Wittwe.\nBuser, Gottlieb, Sohn, Kaufmann.\n59. † Derfelbe. Magazine.\n60. Strübin-Frey, August, von Basel, Speisewirthschaft zum vis à vis.\nKoller-Kohler, Elisabeth, Spetterin, von Berikon.\n61. Hoch-Ernst, Gustav, Kaufmann, von Zollikon (Zürich). Samenhandlung.\nLandwirthschaftliche Gemüse- und Blumenfamereien. Lager in Hopfen\nund Brauerharz.\n\nBelzgasse.\n62. Rehrer-Hausherr, Jakob, Bäcker, von Böken.\n63. Wägmer=Ott, Fidel, Schneidermeister, von Jungsholz (Baden).\nWernli-Reinhard, Kaspar, Weidenwärter, von Thalheim.\nKönig-Steininger, Anna, Küfers Wittwe, von Bottenwyl.\n64. Widmer=Kogg, Xaver, Hausknecht, von Freienwyl.\nWidmer, Karl, Sekretär (Artilleriebüreau), von Freienwyl.\nBaumann, Emma, Modistin, von Oberentfelden. Modegeschäft.\n65. Sommerhalder-Buser, Jakob, Zahnarzt und Coiffeur. Parfümerie-\nwarenhandlung und Haarleuchtgeschäft.\nBertschi-Lüscher, Johann, Schuhmacher, von Dürrenäsch.\n66. Heß=Zürcher, Wilhelm, Bäckermeister und Pintenwirth.\n67. Fäss=Gall, Rudolf, Kajernier von Schöftland.\nFäss, Marie, Modistin, von Schöftland. Modegeschäft.\n68. Hagnauer, Friedrich, Bürstenfabrikant. Bürstenwarenhandlung.\nHagnauer, Hermann, Sohn, Kaufmann.\nHagnauer-Peters, Augusta, Wittwe.\n69. Ramsauer geb. Häfeler, Anna, Wittwe, Part., von Herisau\n(Appenzell).\nEich, Gottlieb, Schuhmachermeister, von Ostringen.\n\nMilchgasse.\n70. Bertschi-Bircher, Julius, Zugführer, von Sumiswald (Bern).\nBertschi, Anna, Damenschneiderin, von Sumiswald (Bern).\nHofstetter=Hagnauer, Nikolaus, Schuhmacher, von Guggisberg (Bern).\nWerkstätte.\n71. * Schmid, Jakob, Postpäcker, von Sumiswald (Bern).\nStrub-Wildi, Leonhard, von Läufelfingen, Möbelhandlung.\nEger-Ebner, Theophil, Schneider, von Riehen (Basel).\n72. Hoffmann-Käfer, Joh., Schuhmachermeister. Schuhwarenhandlung\nKäfer-Käfer, Maria, Part., von Biberstein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4288,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2116,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p014",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p014.jpeg",
+      "bytes": 227400,
+      "sha256": "d3aaed0274794f47016ada4df8db8fa2138affa08fe12b84e81916f9a5a94791",
+      "sha256_of": "original",
+      "working_copy": "1892_p014.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:36+00:00"
+  }
+}

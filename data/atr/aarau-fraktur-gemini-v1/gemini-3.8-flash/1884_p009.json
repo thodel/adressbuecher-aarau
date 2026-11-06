@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p009",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p009.jpeg",
+    "bytes": 292277,
+    "sha256": "f64ef9b57364e1cdd24e9f4a6f6901e2bfbe76ec3f93d8a504412ca5496fd11d",
+    "sha256_of": "original",
+    "working_copy": "1884_p009.jpeg"
+  },
+  "text": "Kurze Beschreibung der Stadt Aarau\nmit ihren\nSehenswürdigkeiten und Vorzügen.\n\nDa, wo sich der Jurarücken, welcher von Aarburg her das südliche\nUfer der Aare begleitet, im Moränenschutt des aarg. Hügellandes verliert,\nseine letzten Felsschichten als steile Terrasse ins weite Thal vorschiebt\nund die Aare an die sonnigen Hänge des Kettenjura drängt, erhebt sich\nauf dieser natürlichen und seit Alters durch feste Thürme bewehrten Thal-\nsperre die Stadt Aarau. Altberühmte und vielbegangene Völkerwege, die\nJurapässe der Staffelegg, Benken und Schafmatt fanden hier ihren natür-\nlichen Ausgangspunkt und strebten beim Thurm von Rore über die Aare.\nDie Neuzeit hat im Jahre 1850 den Aarübergang den Launen des Ge-\nwässers entrissen und den imposanten Bau der Kettenbrücke geschaffen,\nwelche sich hoch über den bemeisterten Strom vom rechten nach dem linken\nUfer schwingt.\nAm Absteig der Fels = Terrasse und auf ihrer äußersten Fläche breiten\nsich die Häusergruppen der alten Stadt.\nDie neuen, in diesem Jahrhundert entstandenen baulichen Anlagen\nstreben südöstlich thalabwärts, auf die Geschiebebenen hinaus, durch welche Suhr\nund Wyna ihre Wasser der Aare zusenden. Jenseits der Aare haben sich\nam Fuß und den Hängen des Hungerberges einzelne Häuser und Landsitze,\ndarunter Heinrich Zschokkes Blumenhalde als vorstädtische Brückenwacht\ngelagert.\nDas rechtseitige Aarufer verläuft von Aarau abwärts in ein weites\nAckerbaugebiet, das der Stadt zunächst ihre Bedürfnisse deckt. Die Hügel-\nzüge welche von beiden Seiten auf die Stadt blicken, sind mit Schwarzwald\nund Buchenbeständen gekrönt, die sonnigen Lehnen der linksseitigen Jura-\nzüge versprechen der Stadt in guten Jahrgängen einen ordentlichen Wein\nund da haben sich in nächster Nähe die Einwohner ihre lustigen Rebhäuschen\nin den Weingärten gegen Erlinsbach angelegt.\nWährend die alten Einfallsthore auf den Höhen des Jura und die alten\nHeerstraßen im Thale vereinsamten, hat die Neuzeit die Thalsperre bei\nAarau durchbohrt und streckt ihre Schienenstränge von hier in die West-\nund Centralschweiz, an den Rhein und Bodensee.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5873,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2080,
+    "lines": 34,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 60.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:09:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p009",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p009.jpeg",
+      "bytes": 292277,
+      "sha256": "f64ef9b57364e1cdd24e9f4a6f6901e2bfbe76ec3f93d8a504412ca5496fd11d",
+      "sha256_of": "original",
+      "working_copy": "1884_p009.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:09:37+00:00"
+  }
+}

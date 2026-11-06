@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p152",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p152.jpeg",
+    "bytes": 254257,
+    "sha256": "056a783aa1cac3b50579ade13923e14b33afbfa72c917cbe2bcf2788f77d2d75",
+    "sha256_of": "original",
+    "working_copy": "1892_p152.jpeg"
+  },
+  "text": "136\tZähner — Zulauf.\n\nBähner-Brunnhofer, Nanette, Part. von Horn (Thurgau), Stellenver=\n  mittlungsbüreau des schweiz. Frauenverbandes, Halden 246.\nZaugg, Daniel, Buchhalter von Eriswyl (Bern), Casinostraße 576.\nZaugg-Byland, Susanna, Part., „ „ „\nZebert-Altorfer, Georg, Buchbinder, Schreibmaterialienhandlung v. Bauma\n  (Zürich), Laurenzenthorgasse 116.\nZehnder-Fischer, Anna Maria, Wittwe, Part. von Kölliken, Gais 1266.\nZehnder, Gottlieb, Part. von Birmenstorf, Graben 615.\nZehnder-Kaufmann, Barbara, Wittwe, Gemüsehändlerin von Gränichen,\n  Färbergäßchen 124.\nZellweger, Elise, Glätterin von Teufen (Appenzell), Milchgasse 153 a.\nZellweger-Fischer, Jakob, Büchsenmacher von Teufen (Appenzell), Milch=\n  gasse 153 a.\nZellweger, Oskar, Part. von Hauptweil (Thurgau), Hammer 190.\nZiegler-Linse, Lina, Wittwe, Part. von Winterthur (Zürich), vor dem\n  Haldenthor 767.\nZiegler-Erismann, Marie, von Veltheim, hintere Vorstadt 621.\nZiegler-Hänki, Karl, Zugführer von Ittlingen (Baden), Bachstraße 1038.\nZimmerli, Joh. Jakob, Part. von Niederwyl, vordere Vorstadt 900.\nZimmerli, Johann, Holzer von Unterentfelden, Adelbändli 83.\nZimmerli-Stenz, Eduard, Cementarbeiter von Oftringen, Ziegelrain 715.\nZimmerli-Suter, Louise, Part. von Aarburg, Laurenzenvorstadt 390.\nZimmermann-Hartmann, Joh., Lehrer von Kempfhof, hintere Vorstadt 688.\nZimmermann-Hochstraßer, Samuel, Taglöhner von Oberflachs, Binsen=\n  hof 1006.\nZimmermann-Wernli, Johann, gewesener Bahnwärter von Rupperswyl,\n  Halden 257.\nZschokke, Arthur, Part., Laurenzenvorstadt 586.\nZschokke, Hermann, Versicherungsagent, Büreau Entfelderstraße 960\n  und Wohnung Entfelderstraße 1075.\nZschokke, Ernst, Dr. Bezirksschullehrer, Zschokkestraße 995.\nZschokke-Faure, Conradin, Ingenieur, Entfelderstraße 1200.\nZschokke-Offenhäuser, Elise, Pfarrers Wittwe, Entfelderstraße 960.\nZschokke-Sauerländer, Guido, Buchhändler, Wohnung Zschokkestraße 995,\n  Buchhandlung Graben 220.\nZschokke-Sauerländer, Olivier, Ingenieur, zur „Blumenhalde“ jenseits\n  der Aare 319.\nZschokke-Schmuziger, Arnold, Dr. jur., Staatsschreiber, Entfelderstr. 975.\nZschokke-Boitel, Margaritha, Wittwe, Part., Graben 217.\nZschokke-Zimmerli, Justine, Wittwe, Part, vordere Vorstadt 871.\nZuber-Müller, Andreas, Hausknecht (Wildenmann), Rain 825 b.\nZubler-Stirnemann, Elisabeth, Spetterin von Hunzenschwyl, Hammer 188.\nZucchelli, Giovanni, Ingenieur von Rom, Entfelderstraße 981.\nZulauf, Jakob, Postcommis von Schinznach, Milchgasse 159.\nZulauf-Siebenmann, Leopold, Weinhändler, Bachstraße 1124.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9812,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2507,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.07,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:03:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p152",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p152.jpeg",
+      "bytes": 254257,
+      "sha256": "056a783aa1cac3b50579ade13923e14b33afbfa72c917cbe2bcf2788f77d2d75",
+      "sha256_of": "original",
+      "working_copy": "1892_p152.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:13+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p042",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p042.jpeg",
+    "bytes": 322453,
+    "sha256": "5db609b1281fbc7f10dc50424766e94e8a721ae93b8b43e28a44c57143d6d682",
+    "sha256_of": "original",
+    "working_copy": "1884_p042.jpeg"
+  },
+  "text": "38                      Peruffet.  —  Reimann.\n\nPeruffet-Laurent, Daniel, Lehrer, v. Grandson (Waadt), n. Quartier 1103.\nPeschl-Schacher, Josef Martin, Maurer, v. Passau (Bayern), Halden 280a.\nPeter-Gut, Josef, Fourniturenhändler, v. Pfaffnau (Luzern), v. Vorst. 902b.\n  — =Wernli, Anna, Partik., von Biberstein, Kirchgasse 12.\n  — Elise, Fabrikarbeiterin,         „       „          12.\n  — Anna,               „            „       „          12.\nPfau-Bleuler, Johann Jakob, Direktor der aarg. Creditanstalt, von Schaff=\n      hausen, Laurenzenvorstadt 351.\nPfenninger-Baion, Catharina, Sesselflechterin, v. Stäfa (Zürich), Milchg. 154.\nPfister, Josefa, Köchin, von Altishofen (Luzern), Milchgasse 145.\n*Pfisterer-Marti, Rudolf, Kürschner, vordere Vorstadt 666.\n*  — =Tschudi, Emil, Sohn, Kürschner, vordere Vorstadt 666.\n*  — Robert, Bierbrauer, vordere Vorstadt 672.\nPhilipp-von Arx, Joh., Knecht, von Kienberg (Soloth.), Rathhausgasse 3.\n*Pfleger, Louise, Partik., Milchgasse 157.\n*  — Justine, Partik., Milchgasse 157.\n*  — Emma, Partik., Halden 261.\nPlüß, Hermann, Tapezierer, von Ryken, vordere Vorstadt 675.\n  — =Haller, Maria, Wittwe, Bettmacherin, v. Niederwyl, Golattenmatt=\n      gasse 232.\n*  — =Plüß, Wittwe, Partik., hintere Vorstadt 688.\n*  — Louise, Lehrerin, hintere Vorstadt 688.\n*  — Anna, Damenschneiderin, hintere Vorstadt 688.\n  — Verena, Partik., von Vordemwald, Halden 264.\n  — =Lehner, Elise, Spetterin, von Vordemwald, hintere Vorstadt 643.\n  — =Plüß, Anna Barbara, Lehrers Wittwe, von Ryken, Rainstraße 819c.\n  — Hermine, Damenschneiderin, von Ryken, Rainstraße 819.\n  — Mathilde, Damenschneiderin, von Ryken, Rainstraße 819.\n*  — =Stephany, Albert, Buchhalter, Rainstraße 872.\nPrantl-Wildi, Alois, Maurer, von Strengen (Tyrol), Ziegelrain 704.\nPrior-Dettmer, Helene, Partik., v. Dissen (Hanover), neues Quartier 1103.\nProbst-Benkert, Maria, Partik., von Aarburg, Rathhausgasse 20.\n  — Adolf, Commis, von Balsthal (Solothurn), Bachstraße 1038.\nPuenzieux, Hartmann, Anna Maria, Partik., von Villeneuve (Freiburg),\n      Milchgasse 75.\nPuricelli, Giovanna, von Sala-Comacina (Italien), Geflügelhändler,\n      Milchgasse 149.\nRamsauer-Hächler, Johann, Knecht, von Herisau (Appenzell), Pelzg. 69.\nRandegger-Wirth, Conrad, Lithograph und Wirth, von Ossingen (Zürich),\n      hintere Vorstadt 692.\nRaths-Halder, Eduard, Fabrikant, von Stäfa (Zürich), Bachstraße 1043.\nRauch-Baldeschwyler, Bertha, Wittwe, von Mülhausen, in der Gais 487.\nRauchenstein-Pfleger, Friedrich, Professor, von Brugg, Halden 261.\n*Rämisperger-Berner, Benjamin, Gürtler, Golattenmattgasse 231b.\n*  — =Hemmeler, Gottfried, Spengler, Halden 275.\n*  — Hermann, Sohn, Spengler, Halden 275.\n*  — =Studler, Gottlieb, Spengler, Halden 287.\nReimann-Reichli, Gustav, Kriminal-Gerichtsschreiber, von Wölflinswyl,\n      Weinberg 321.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8854,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2816,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:14:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p042",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p042.jpeg",
+      "bytes": 322453,
+      "sha256": "5db609b1281fbc7f10dc50424766e94e8a721ae93b8b43e28a44c57143d6d682",
+      "sha256_of": "original",
+      "working_copy": "1884_p042.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:14:26+00:00"
+  }
+}

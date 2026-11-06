@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p148",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p148.jpeg",
+    "bytes": 260564,
+    "sha256": "3bc770fe05adb0ff57075ba903e1d8d019b411806c8edcefc19a79c405f3eca2",
+    "sha256_of": "original",
+    "working_copy": "1892_p148.jpeg"
+  },
+  "text": "132 Wehrli — Wernli\n\nWehrli-Dubs, Jean, Gärtner v. Küttigen, vor dem Haldenthor 1272.\nWehrli-Fuß, Peter, Postfakteur von Asp, Milchgasse 156.\nWehrli-Graf, Jakob, Handlanger von Küttigen, Erlinsbacherstraße 337.\nWehrli-Hässig, Hans, Zimmermann, Halden 266 a.\nWehrli-Haßler, Friedrich, Pedell, Casinostraße 584.\nWehrli-Peyer, Rudolf, Geschäftsführer der Aarg. Ersparnißkasse von\n  Küttigen, Conradstraße 993.\nWehrli, Jakob, Mechaniker von Küttigen, Ziegelrain 745.\nWehrli-Kähr, Jakob, Part. von Densbüren, Rain 877.\nWehrli-Märk, Karl Emil, Architekt von Höngg (Zürich), Bahnhofstr. 1336.\nWehrli-Märk, Bankkassier von Küttigen, Bachstraße 1175.\nWehrli, Maria, Spetterin von Küttigen, Ziegelrain 705.\nWehrli-Marti, Jakob, Schreiner von Küttigen, Holzmarkt 663.\nWehrli-Roth, Jakob, Fabrikarbeiter von Biberstein, Ziegelrain 713.\nWehrli-Schneider, Jakob, Bäcker von Küttigen, Kronengasse 40.\nWehrli-Steiner, Johann, Färber von Asp, Halden 272.\nWehrli-Walser, Rosina, Gärtners Wittwe von Küttigen, vor dem Halden-\n  thor 1272.\nWeibezahl, Leonhard, Apotheker von Gotha, Rathhausgasse 5.\nWeidmann-Albrecht, Albert, Tapezierer von Bachs (Zürich), Kirchgasse 12.\nWeigel-Imbach, Joh., Färbereibesitzer v. Glauchau (Sachsen), Telli 449.\nWeißgenannt-Käser, Verena, Näherin von Mingolsheim (Großh. Baden),\n  Halden 264.\nWeiß, Niklaus, Gerichtskanzlist von Sulz, Bachstraße 1040.\nWeiße-Meiny, Karl, Färbermeister von Glauchau (Sachsen), Telli 454.\nWellenberg-Schaffner, Albertine, Revisors Wittwe v. Schöftland, Halden 246.\nWelti, Lisa, Part., Graben 215\nWelti-Siebenmann, Henriette, Part., Graben 215.\nWelti-Spühler, Heinrich, Buchdrucker von Zurzach, Laurenzenvorstadt 552.\nWengi-Kalt, Adolf, Postbeamter, Zollrain 178.\nWerder-Müller, Emil, Eisenbahnkondukteur v. Endingen, obere Vorstadt 921.\nWerich-Dippert, Ferdinand, Drucker v. Böhm-Aicha (Böhmen), Halden 253.\nWernli-Adel, Jakob, Gärtner, vor dem Haldenthor 809.\nWernli-Bolliger, Johann, Stadtarbeiter von Thalheim, Milchgasse 145.\nWernli-Bläuer, Andreas, Schuhmachermeister v. Thalheim, Rathhausg. 44.\nWernli-Hächler, Jakob, Fabrikarbeiter von Thalheim, Telli 440.\nWernli-Häfliger, Jakob, Gärtner von Thalheim, vor dem Haldenthor 799.\nWernli-Hug, Joh., Magaziner von Thalheim, hinter dem Bahnhof 494.\nWernli-Vogt, Jakob, Taglöhner von Thalheim, vor dem Halden-\n  thor 1093.\nWernli-Kraft, Rudolf, Pfarrer von Thalheim, Milchgasse 158.\nWernli-Lienhard, Maria Anna, Spetterin von Thalheim, Laurenzen-\n  vorstadt 552.\nWernli-Meier, Samuel, Holzspalter von Thalheim, Hammer 185 c.\nWernli-Meier, Jakob, Schreinermeister, obere Vorstadt 909.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8453,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2576,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:02:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p148",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p148.jpeg",
+      "bytes": 260564,
+      "sha256": "3bc770fe05adb0ff57075ba903e1d8d019b411806c8edcefc19a79c405f3eca2",
+      "sha256_of": "original",
+      "working_copy": "1892_p148.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:02:37+00:00"
+  }
+}

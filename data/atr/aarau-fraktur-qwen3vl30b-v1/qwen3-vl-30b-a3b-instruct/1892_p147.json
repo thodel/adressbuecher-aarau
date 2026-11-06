@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p147",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p147.jpeg",
+    "bytes": 260076,
+    "sha256": "034ff6c01a6d1f66768837aa1f6c2833251269f565ed02bc1049eb28b7eaa7a7",
+    "sha256_of": "original",
+    "working_copy": "1892_p147.jpeg"
+  },
+  "text": "Walti — Wehrli.\n131\nWalti-Hächler, Samuel, Taglöhner von Dürrenäsch, Stadthof 91.\nWalti-Müller, Jakob, Milchverkäufer und Konsumhalter von Dürrenäsch,\nMilchgasse 144.\nWalti-Zimmermann, Rosa, Taglöhnerin von Dürrenäsch, Stadthof 94.\nWalti-Zobrist, Johann, Kartenschleifer von Dürrenäsch, Halden 260 b.\nWandfluh-Sommer, Joh., Schuhmacher von Frutigen (Bern), Halden 286.\nWanger-Häuermann, Gottlieb, Buchbinder, Kirchhof 164.\nWanger, Henriette, Adelbändli 174.\nWanger, Julie, Part., Kirchhof 164.\nWanger, Louise, Part., Casinostraße 1176.\nWanger, Marie, Kaufmanns, Part., Laurentzenvorstadt 394.\nWanger, Rosa, Fabrikarbeiterin (Schuhfabrik), Kirchhof 164.\n× Wanger-Siebenmann, Hermann, Part., Rain 823.\nWanger, Sophie, Raiffers, Part., Laurentzenvorstadt 394.\n× Wanger-Wanger, Gustav, Kassier der Aarg. Ersparniskasse, Laurentzen-\nvorstadt 394.\nWanner, Jakob, Buchhalter von Schleitheim (Schaffhausen), Rathaus-\ngasse 20.\nWaßmer, Anna, Ladentochter von Mellingen, Rathausgasse 1.\nWaßmer-Bos, Rosette, Wittwe von Mellingen, Mezgergasse 91.\n× Waßmer-Rummeler, Emil, Kaufmann, Spezerei handlung zum „Adler“,\nPelzgasse 137.\nWaßmer-Dtt, Fidel, Schneider von Jungolz (Baden), Pelzgasse 63.\nWaßmer, Samuel, Ausläufer von Suhr, Adelbändli 172.\n× Weber-Beck, Gustav, Bezirksarzt von Menziken, Graben 618.\nWeber-Buchmann, Magdalena, Wittwe von Oberflachs, Rathausgasse 3.\nWeber-Molfenter, Emil, Nähmaschinenhandlung von Hauzen, Rathaus-\ngasse 42.\nWeber, Jakob, Dachdecker von Menziken, Erlinsbacherstraße 338.\nWeber-Hegnauer, Hermann, Speisewirth v. Menziken, Bahnhofstr. 568 a.\nWeber-Hunziker, Anna, von Erlinsbach, Bahnhofstraße 1023.\nWeber-Käser, Jakob, Bankabwart v. Oberflachs, v. d. Haldenthor 1109.\n× Weber-Lütscher, Otto, Weinhändler von Menziken, Pelzgasse 128.\nWeber-Pfenninger, Ferdinand, Schneider von Griefstorf (Böhmen), Milch-\ngasse 154.\nWeber, Friedrich, Spenglermeister von Bordemwald, Ziegelrain 707.\nWeber, Stephan, Sekretär (Staatsanwaltschaft) von Sulz, Hammer 191.\nWeber, Regina, Part., id. id.\nWeber-Weber, Wilhelm, Milchverkäufer v. Menziken, Erlinsbacherstr. 337.\nWeber, Andreas, Dr. jur. von Balgach (St. Gallen), Redaktor des Aarg.\nTagblattes, Pelzgasse 128.\nWehrli, Andreas, Zimmermann von Rüttigen, Ziegelrain 705.\nWehrli-Bircher, Hans, Gypermeister, Halden 250.\n× Wehrli-Bolliger, Karl, Gasmeister von Rüttigen, Zollrain 87.\nWehrli-Blattner, Adolf, Cementarbeiter von Rüttigen, Erlinsbacherstr. 335.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6718,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2416,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:46:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p147",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p147.jpeg",
+      "bytes": 260076,
+      "sha256": "034ff6c01a6d1f66768837aa1f6c2833251269f565ed02bc1049eb28b7eaa7a7",
+      "sha256_of": "original",
+      "working_copy": "1892_p147.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:28+00:00"
+  }
+}

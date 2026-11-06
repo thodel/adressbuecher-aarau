@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p091",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p091.jpeg",
+    "bytes": 253169,
+    "sha256": "0968009866602f52fe94db9c556368eddd3698df5eac7f04077f25910d3ced7f",
+    "sha256_of": "original",
+    "working_copy": "1888_p091.jpeg"
+  },
+  "text": "Alphabetisches Verzeichnis\nder\nBürger & Einwohner der Stadt Aarau.\nWo kein Heimathsort beigesetzt ist, find es Bürger von Aarau.\n\nA\nAdermann-Buser, Albert, Kaufmann von Amriswyl (Thurgau), vordere\nBorstadt 890.\nAdermann, Conrad, Postcommiss von Romanshorn (Thurgau), Rathhaus-\ngasse 2.\nX Adam-Stephani, Paul, Fabrikant von Altschwyl (Waefelland), Bachstr. 1113.\nAdrion-Stauff, Andreas, Hafnergehülfe von Alpirsbach (Württemberg),\nHalden 276.\nAebi-Spillmann, Joseph, Sattler und Tapezierer von Sursee (Kuzern),\nHammer 188.\nAefschbach-Goldenberger, Friedrich, Schriftsetzer von Oltingen (Waefelland),\nobere Borstadt 946.\nAefschbach, Marie, Modistin von Mühlthal, Kirchgasse 12.\nAefschbach-Steiner, Rudolf, Steinhauser von Hendschiken, Kirchgasse 10.\nAferet, Jakob, Krankenwärter von Nußbaumen, Graben 218.\nX Ammann-Strähl, Robert, Hochbaumeister von Menziken, Entfelderstr. 970.\nAmmann-Wäschli, Johann, Wirth von Madiswyl (Bern), Schachen 734.\nAmmann, Marie, Ladentochter von Ryken, Bahnhofstrasse 560.\nAmsler-Büchli, Marie, Privatin von Bözen, Halden 272.\nAmsler-Falger, Marie, Wittwe von Raiffen, vor dem Haldenthor 804.\nAmsler, August, Postangestellter von Raiffen, v. d. Haldenthor 804.\nAmsler, Jda, Damenschneiderin von Raiffen, v. d. Haldenthor 804.\nX Amsler, Otto, Stadtkassier und Sektionschef v. Raiffen, v. d. Haldenthor 804.\nX Amsler-Harsch, Emil, Oberrichter von Schinznach, Conradstrasse 989.\nX Amsler, Heinrich, Fabrikausfuehrer von Densburen, in der Teili 437.\nX Amsler-Matter, Jakob, Kreispoftdirektor von Bözen, Bahnhofstrasse 513.\nAmsler-Morgenthaler, Emil, Buchbinder von Raiffen, Wohnung Polz-\nmarkt 663 und Werkstätte Golattenmattgasse 229.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3538,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1659,
+    "lines": 32,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p091",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p091.jpeg",
+      "bytes": 253169,
+      "sha256": "0968009866602f52fe94db9c556368eddd3698df5eac7f04077f25910d3ced7f",
+      "sha256_of": "original",
+      "working_copy": "1888_p091.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:41+00:00"
+  }
+}

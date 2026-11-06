@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p109",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p109.jpeg",
+    "bytes": 286922,
+    "sha256": "d7ea21f01706f275390581718a608f83b09e413fa2c59c8e762afd3bb57ec66a",
+    "sha256_of": "original",
+    "working_copy": "1888_p109.jpeg"
+  },
+  "text": "Haßler — Hässig. 91\n\n[handschriftlich: ✗]Haßler-Häberlin, Adolf, Färber, im Hammer 188.\n[handschriftlich: ✗]Haßler-Hunziker, Karl, Kaufmann, Hemdenfabrikation, Weißwaaren- und\n  Tapetenlager, Bahnhofstraße 1020.\nHaßler, Julie, Modistin, Adelbändli 172.\nHaßler-Märki, Barbara, Schreiners Wittwe, obere Vorstadt 966.\nHaßler, Margaretha, Glätterin, Halden 264.\nHaßler-Meier, Marie, Part. von Männedorf (Zürich), Pelzgasse 133.\nHaßler-Müller, Theodor, Buchbinder, Milchgasse 153 b.\nHaßler-Oberlin, Margaretha, Lingeriegeschäft, Bachstraße 1040.\n[handschriftlich: ✗]Haßler-Schmidt, Friedrich, Kaufmann, Schachen 723.\nHaßler, Sophie, Glätterin, Adelbändli 172.\n[handschriftlich: ✗]Haßler-Stampfli, Hans, Gerber, Lederhandlung, Bahnhofstraße 656.\n[handschriftlich: ✗]Haßler-Stampfli, Emma, Wittwe, Modistin, Rathhausgasse Wohnung 21\n  und Laden 23.\n[handschriftlich: ✗]Haßler-Wanger, Emil, Kolonialwaarenhandlung, Laurenzenthorgasse 349.\nHauenschild-Wittmann, Hans, Direktor der Cementfabrik Fleiner von\n  Berlin (Preußen), Erlinsbacherstraße 335.\n[handschriftlich: ✗]Hauenstein-Hollinger, Alois Friedrich, Lehrer von Degerfelden, Metzger=\n  gasse 56.\nHauri-Graber, Rudolf, Fuhrmann von Reitnau, Halden 249.\n[handschriftlich: ✗]Hauri-Siegenthaler, Karl, Ziegler, Rain 866.\nHauri-Kyburz, Samuel, Briefträger von Seengen, Schachen 734.\nHausmann-Dietiker, Johann, Taglöhner von Schafisheim, Färber=\n  gäßchen Hinterhaus von 125 Pelzgasse.\nHausmann, Jakob, Aufseher von Schafisheim, Ziegelrain 716.\nHächler-Peter, Gottlieb, Taglöhner von Teufenthal, Kirchgasse 10 b.\n[handschriftlich: ✗]Häfliger-Hilfiger, Otto, Metzger und Wirth von Oberentfelden, Pelz=\n  gasse 136.\nHäfeli-Fischer, Julie, Expedients Wittwe, Näherin von Seengen, Bahn=\n  hofstraße 648.\nHäni-Häni, Rudolf, Part. von Kölliken, Kirchgasse 11.\nHäni, Hermann, Sohn, Bäcker von Kölliken, Kirchgasse 11.\n[handschriftlich: ✗]Härdi, Wilhelm, Goldschmied von Lenzburg, Rathhausgasse 42.\nHäring, Marie, Spetterin von Dettighofen (Baden), Bachstraße 1031.\nHärri-Baumann, Arnold, Postcommis von Birrwyl, Kronengasse 35.\n[handschriftlich: ✗]Härri-Linder, Rudolf, Expeditionschef auf der Staatskanzlei, von Birr=\n  wyl, Rathhausgasse 5.\nHässig-Baumann, Samuel, Maler, obere Vorstadt 968.\n[handschriftlich: ✗]Hässig-Bühler, Friedrich, Kupferschmied, Ziegelrain 705.\nHässig-Dätwyler, Elise, Siegrists Wittwe, Kirchhof 165 a.\nHässig, Elise, Schneiderin, Halden 266 a.\nHässig-Fischer, Albert, Werkführer, vor dem Haldenthor 802.\nHässig, Friedrich, alt Thurmwart, Milchgasse 145.\nHässig, Friedrich, Abwart der Creditanstalt, Halden 266 a.\nHässig, Hans, Part., Rohrerstraße (Lindenhof) 1210.\nHässig, Emma, Part., Rohrerstraße (Lindenhof) 1210.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9964,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2679,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.66,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:35:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p109",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p109.jpeg",
+      "bytes": 286922,
+      "sha256": "d7ea21f01706f275390581718a608f83b09e413fa2c59c8e762afd3bb57ec66a",
+      "sha256_of": "original",
+      "working_copy": "1888_p109.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:25+00:00"
+  }
+}

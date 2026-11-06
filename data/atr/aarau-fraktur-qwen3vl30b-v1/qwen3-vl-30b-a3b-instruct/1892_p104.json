@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p104",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p104.jpeg",
+    "bytes": 221517,
+    "sha256": "5c625cacfc34812959c908424eb1b942986747b8b89f68bb6175199c1cc29206",
+    "sha256_of": "original",
+    "working_copy": "1892_p104.jpeg"
+  },
+  "text": "88\nBuser — Diethelm.\nBuser, Gottlieb, Kaufmann, Mezgergasse 58.\nBuser, Johann Jakob, Buchbinder, Rain 881.\nBuser-Wüllner, Heinrich, Hufschmied, Graben 217.\n× Buser-Wildi, Emil, Bäcker, Mezgergasse 57.\nBuxkinger-Rienberger, Siegfried, Postcommis von Dättwyl, Günhardfeld-\nweg 1150.\n\n× Camisasca, Franz, Kaufmann, Vordere Vorstadt 893.\nCantu-Hübscher, Joseph, Maurermeister von Vico-Morcote (Tessin),\nMezgergasse 101.\nCaviezel-Viveroni, Elise, Part. von Chur, hintere Vorstadt 638.\nChristoffel, Johann Martin, Bauführer von Sils (Graubünden), Rohrer-\nstraße 472.\nCima-Hauri, Johann, Mechaniker von Aquila (Tessin), Milchgasse 148.\n× Conrad-Lüthi, Peter, Regierungsrath von Luzn und Turgi, Bahnhof-\nstraße 1317.\nConjulat (Agentur) der Vereinigten Staaten von Nordamerika, Laurenzen-\nvorstadt 418.\n× Custer-Fueter, Hermann, Dr. phil., Fabrikant von Rheineck (St. Gallen),\nBahnhofstraße 651.\n× Custer, Hermann Emil, Chemiker und Fabrikant, von Rheineck (St. Gallen),\nBahnhofstraße 651.\n× Custer-Sauerländer, Mathilde, Wittwe, Part. von Rheineck (St. Gallen),\nLaurenzenvorstadt 418.\n\nDättwyl, Johann, Holzspalter von Wittwyl, Halden 280.\nDättwyl, Marie, Privatin von Ostringen, Kirchhof 165 a.\nDättwyl-Meier, Johann, Taglöhner von Wittwyl, Ziegelrain 707.\nDättwyl-Merz, Susanne, Notars Wittwe, Mezgergasse 56.\nDättwyl-Wernle, Wilhelm, Taglöhner von Wittwyl, Halden 240.\nDambach-Heiniger, Johann Jakob Postangestellter von Oberböckberg,\nHalden 92 a.\n× Dambach-Wild, Jakob, Kreispostadjunkt von Brugg, Bahnhofstr. 1074.\nDavid-Hunziker, Julie, Wittwe, Part. von Basel, Rain 862.\nDecker, Elise, Part., Casinostraße 577.\nDecker-Hoffmann, Julius, Hufschmied, Casinostraße 577.\nDeubelbeiß-Schaffner, Samuel, Part. von Holderbank, hinter dem\nBahnhof 494.\nDiethelm-Kalanguin, Reinhard, Zugführer von Hefenhofen (Thurgan),\nhintere Vorstadt 1236.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3917,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1829,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.025,
+    "mean_line_chars": 44.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:41:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p104",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p104.jpeg",
+      "bytes": 221517,
+      "sha256": "5c625cacfc34812959c908424eb1b942986747b8b89f68bb6175199c1cc29206",
+      "sha256_of": "original",
+      "working_copy": "1892_p104.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:57+00:00"
+  }
+}

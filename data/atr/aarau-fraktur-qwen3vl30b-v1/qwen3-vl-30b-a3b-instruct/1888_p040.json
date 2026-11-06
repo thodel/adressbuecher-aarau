@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p040.jpeg",
+    "bytes": 245355,
+    "sha256": "246df11df981ae0d94a2f83e1581e2ca78cef9413bb3707ffaf3336c44c87581",
+    "sha256_of": "original",
+    "working_copy": "1888_p040.jpeg"
+  },
+  "text": "Haus-\nNr.\nEuter, Adolf, Taglöhner, von Kölliken.\nMüller-Amsler, Joh. Jakob, Schuster, von Unterfulm.\nRaufmann-Bäni, Albrecht, Posamenter, von Gränichen.\nHeiz-Neijer, Cornelius, Zimmermann, von Menziken.\nFrei-Hintermann, Arnold, Taglöhner, von Wellingen.\n377.† Hunzifer=Springer, Hermann, Rentier. Fabrikgebäude.\nGasser & Hunzifer, Seidenbandfabrikation.\n378.† Derfelbe. Maschinenhaus und Werkstatt.\n379.† Hunzifer=Züpf, Guido, Rentier. Scheune und Remise.\n380.† Derfelbe.\n381.† Derfelbe.\n382.† Hunzifer=Springer, Hermann. Holzschopf.\n383.† Hunzifer=Züpf, Guido. Waschhaus.\n384.† Hunzifer=Kleiner, Hermann. Treibhaus.\n385.† Hunzifer=Züpf, Guido, Gesittgelhaus.\n1114  * Wernli=Adel, Jakob, Gärtner, von Thalheim.\n       Fässler-Wehrli, Johann, Gemüsehändler, von Densbüren.\n       Rüttshi-Schilling, Anna, Fabrikarbeiterin, von Schlieren (Zürich).\n\nIm Hammer.\n386.† Feer=Zuber's Erbschaft. Fabrikationsgebäude.\n       Gebrüder Vally, Bandfabrikation.\n       Hegnauer, Rudolf (Büreau).\n387.† Diefelbe. Kesselhaus.\n388.† Diefelbe. Holzhaus.\n389.† Fässler-Häberlin, Adolf. Remise.\n\nLaurenzenvorstadt.\n390. Baumann, Karl und * Eugen. Firma: H. Baumann, Weinhandlung.\n       Baumann-Hennmann, Karl, Kaufmann.\n       Baumann-Baumann, Heinrich, Wirth zum Freihof, von Stilli.\n       Frey-Riefer, Josef, Notar, Civilstandsbeamter und Stellvertreter des\n       Gemeindeschreibers.\n391.† Diefelben. Weinfeller und Brennerei.\n392. a.† Diefelben. Trinkhalle.\n392. b.* Diefelben. Coiffeurgeschäft: Burkhardt, Ferdinand, Sohn, Coiffeur.\n393.† Diefelben. Gartenhaus.\n1257   † Diefelben. Fäkremise.\n1258   † Diefelben. Holzhaus.\n394. Sauerländer=Benz, Elise, Wittwe.\n       Wanger-Wanger, Gustav, Kassier der Karg. Ersparniskasse.\n       Wietlisbach-Frey, Sophie, Wittwe, Part., von Bremgarten.\n395.† Diefelbe. Hintergebäude.\n396.† Diefelbe. Wasch- und Holzhaus.\n397. Zürcher=Wirz, Alfred, Arzt.\n398.† Derfelbe. Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4103,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1903,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p040.jpeg",
+      "bytes": 245355,
+      "sha256": "246df11df981ae0d94a2f83e1581e2ca78cef9413bb3707ffaf3336c44c87581",
+      "sha256_of": "original",
+      "working_copy": "1888_p040.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:34+00:00"
+  }
+}

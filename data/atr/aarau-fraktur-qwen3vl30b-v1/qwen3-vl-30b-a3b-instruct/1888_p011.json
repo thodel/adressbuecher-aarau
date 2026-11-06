@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p011",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p011.jpeg",
+    "bytes": 244412,
+    "sha256": "a8d24ca9cb7057a18907929b82a088fcbbec138867adb1865841d9857fdebc90",
+    "sha256_of": "original",
+    "working_copy": "1888_p011.jpeg"
+  },
+  "text": "Verzeichniß\nder\nEinwohner, Wohn- und Oekonomie-Gebäude\nzu Aarau.\n\nNeben jeder Nummer ist der Eigenthümer des betreffenden Hauses bemerkt: bewohnt\ner selbst dieses nicht, so ist derselben ein * beigefügt. Oekonomiegebäude sind mit † be-\nzeichnet. Wo kein Heimatsort beigefügt ist, sind es Bürger von Aarau.\n\nHaus-\nNr.\n\nNathhausgasse.\n\n1. * Schmuziger-Roller, Daniel, Baumeister.\nSchmuziger, Marie, Schreibmaterialien- und Quincailieriehandlung (Firma\nDaniel Schmuziger-Fisch).\nSchmuziger, Otto, Wagmeister in der Cementfabrik der H.H. Jurlinden & Cie.\n2. Morath-Dilger, Johann, Kaufmann, Quincailerie-, Glas-, Porzellan-\nwaren- und Uhrenhandlung.\nMorath, Johann, Sohn, Kaufmann.\nFischer, August, Buchhandlungsgesellschaft (Sauerländer), von Kastel b. Mainz.\nTzschauzsch, Adolf, Buchhandlungsgesellschaft (Wirz), von Züllighau (Preußen).\nAdermann, Konrad, Postcommis, von Romanshorn.\nHolliger, Rudolf, Reisender, von Boniswyl.\n3. Wydler=Fischer, Julius, Notariats-, Intaffo- und Verwaltungsgeschäft.\nHauptagentur der franz. Zenuerver sicherungsgesellschaft „Phönix“.\nAgentur der schweiz. Hagelversicherungsgesellschaft.\nFäss-Bircher, Samuel, Schuhmachermeister, von Oberkulm, Schuhhandlung.\nFrei geb. Württemberger, Bertha, Wittwe, Part., von Dresden.\nHediger, Susanna, Weißnäherin, von Reinach.\nKramer, Jakob, Taglöhner, von Schloßrued.\nWeber-Schäfer, Friedrich, Spenglermeister, von Bordenwald.\nWeber geb. Buchmann, Magdalena, Wittwe, Part., von Oberflachs.\nEppacher, Adele, Modistin, von Köniz (Bern), Robes et Confection.\nSiegriß-Riniker, Heinrich, Metzger.\n4. Hek-Wolf, Alexander, Kaufmann, (Geschäftsführer), von Zillisheim\n(Elsass). Tuch- und Möbelwarenhandlung, Firma: J. Hek, Fi-\nliale der Magazine zur Stadt Mühlhausen, Biel und Solothurn.\n\nAdressbuch der Stadt Aarau 1888.\n1",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3399,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1783,
+    "lines": 37,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p011",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p011.jpeg",
+      "bytes": 244412,
+      "sha256": "a8d24ca9cb7057a18907929b82a088fcbbec138867adb1865841d9857fdebc90",
+      "sha256_of": "original",
+      "working_copy": "1888_p011.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:29+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p024",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p024.jpeg",
+    "bytes": 316021,
+    "sha256": "fa4f1151537a6c2cf57527644ff5e73f8ec743a47ad221730a2524e07cd32f18",
+    "sha256_of": "original",
+    "working_copy": "1884_p024.jpeg"
+  },
+  "text": "20 Fehlmann. — Fischer.\n\nFehlmann-Maurer, Christian, Schuster, von Seon, Milchgasse 76.\nFeist-Armbrust, Wendol., Steinbr., v. Kinzigthal (Baden), Igelweid 637.\nFelber-Gruber, Georg, Fabrikarbeiter, von Oberbözberg, Hammer 188.\nFellhauer-Fricker, Max, Schuhmacher, v. Oestringenu (Baden), ob. Vorst. 942.\nFerrazzi-Lüscher, Giuseppe, Maurer, Cardano (Italien), Halden 259.\n*Fisch-Zschokke, Karl, Professor, Gishübel 319.\n* — -Thut, Adolf, Weinhändler, neues Quartier 979.\n* — -Vogt, Albert, Kaufmann, hinter dem Platz 210.\n* — -Dürr, Samuel, Schuhmachermeister, Halden 271.\n* —- Otto, Metzger, Rainstraße 825a.\n* — Ida, Weißnäherin, Rainstraße 825a.\n* — -Frei, Elise, Spanners Wittwe, Partik., Milchgasse 156.\n* — -Keller, Katharina, Postoffiziants Wittwe, Partik., Halden 264.\n* — -Siebenmann, Karoline, Arzts Wittwe, Partik., Bachstraße 1038.\n* — Josephine, Partik., Rainstraße 877.\n* — Mina, Kleinkinderlehrerin, Halden 264.\nFischer-Keller, Xav., christkath. Pfarrer, v. Triengen (Luz.), Adelbändli 175.\n* — Thomas, Bierbrauer, Zollrain 179.\n* — Thomas, Bierbrauer, Sohn, Zollrain 179.\n* — -Bonwiller, Adolf, Postbeamter, Tabak- und Cigarren-Handlung,\n  Laurenzenthorgasse 120.\n* — Louise, Ladentochter, Laurenzenthorgasse 120.\n— -Niggli, Heinrich, Postbeamter, von Reinach, Rathhausgasse 23.\n— -Eglinger, Rudolf, Speisewirthschaft, von Fahrwangen, Gais 486.\n— Adolf, Reg.-Rath, von Reinach, Laurenzenvorstadt 422.\n* — -Keller, Albert, Rechnungsrevisor, obere Vorstadt 956.\n* — Daniel, Metzger, Milchgasse 150.\n* — Friedrich, Fuhrmann, Halden, 274.\n* — Daniel, Fuhrmann, Halden 258.\n* — Emanuel, Fuhrmann, Halden 258.\n* — -Häfeli, Friedrich, Schreiner, Halden 272.\n* — Franz, Schneider, Halden 285.\n* — Friedrich, Montirungsabwart, Laurenzenvorstadt 548.\n* — Friedrich, Schreiner, Sohn, hintere Vorstadt 642.\n* — -Widmer, Johann, Postkondukteur, hintere Vorstadt 641.\n* — -Schmidlin, Bertha, Partik., neues Quartier 996.\n* — -Brunnhofer, Marg., Schreiners Wittwe, Partik, hintere Vorst. 642.\n* — -Wydler, Ernestine, Wittwe, Taglöhnerin, Adelbändli 174.\n* — Elise, Arbeitslehrerin, Zollrain 53.\n* — -Roth, Maria, Wittwe, Taglöhnerin, Halden 275.\n* — Emilie, Näherin, Laurenzenvorstadt 548.\n* — Louise, Damenschneiderin, Adelbändli 172.\n* — Maria, Partik., obere Vorstadt 937.\n* — Margaritha, Partik., obere Vorstadt 937.\n* — -Stotz, Agnes, Lithographs Wittwe, Partik., Rathhausgasse 3.\n— -Haller, Jakob, Zimmermann, von Tennwyl, Halden 281.\n— Josef, Kondukteur, von Baden, hinter dem Bahnhof 501.\n— -Stirnemann, Gottlieb, Metzger, v. Gränichen, Bahnhofstraße 1026.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8309,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2564,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.29,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:11:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p024",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p024.jpeg",
+      "bytes": 316021,
+      "sha256": "fa4f1151537a6c2cf57527644ff5e73f8ec743a47ad221730a2524e07cd32f18",
+      "sha256_of": "original",
+      "working_copy": "1884_p024.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:41+00:00"
+  }
+}

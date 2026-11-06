@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p088",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p088.jpeg",
+    "bytes": 277708,
+    "sha256": "620740ca6a942cf422ef858d830557b9e4effcc4249543667eda13c9e6f7fd97",
+    "sha256_of": "original",
+    "working_copy": "1896_p088.jpeg"
+  },
+  "text": "66\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n871 Schneider-Mösch, Fridolin, Oberrichter, von Herznach.\nZschokke-Zimmerli, Justina, Witwe, Part.\nMösch-Mösch, Aloisa, Witwe, von Frick.\n872 Kern-Saxer, Adolf, Part.\nSaxer geb. Truog, Anna, Witwe, Haushälterin.\n873 † Derselbe. Holzhaus.\n874 Siegrist-Hunziker, Emil, Kaufmann, Beamter des Niederlagshauses\nin Aarau.\nMeier-Bucher, August, Direktionssekretär, von Obersiggenthal.\nRebmann-Häfliger, Karl Jakob, Maler, v. Fellbach (Württemb.), \n(Malerwerkstätte).\n875 Hitz-Lanz, Otto, Negt., Spezerei-, Kohlen- und Holzhandlung.\nHitz, Bertha, Part., von Hausen am Albis (Zürich).\nGuyot, Maria, Damenschneiderin, von Lyon.\nSchumann-Ringier, Albert, Professor, von Gotha (Sachsen).\nDietiker, Susanna, Spetterin, von Thalheim.\nBrunnhofer, Elise, Damenschneiderin.\nFisch, Mina (Kleinkinderschule).\nBräm-Huber, Anna, Witwe, Part., von Bülach (Zürich).\nBräm, Albert, Kaufmann, von Bülach (Zürich).\n876 † Derselbe. Scheune.\n877 a Wehrli-Kähr, Jakob, Part.\nSprenger-Thöni, Wilhelm, Schreiner, von Rheinfelden.\nGallauer-Lüscher, Anton, Taglöhner, von Ursendorf (Württembg.).\nWassmer, Jakob, Wagner, von Suhr (Wagnerwerkstätte).\nSommerhalder-Köng, Jakob, Hausknecht i. Löwen, v. Gontenschwyl.\n877 b Scheibler-Zingg, Fritz, Küfermeister, von Unterentfelden.\nKaiser, Friedrich, Kondukteur S. C. B., von Bibern (Solothurn).\nBächi, Margarita, Spetterin, von Bertschikon (Zürich).\n878 Keller-Steiner, Karl, Hafer- und Weinhandlung.\nSteiner, Johann, Part.\nSteiner-Lindenmann, Susanne, Witwe, Part.\nMühlberg-Sutermeister, Fritz, Dr. phil. Professor.\nVon Steiger-Marthaler, William, Techniker, von Bern.\nSteffen-Meier, Anna, Witwe, von Seebach (Zürich.\n879 * Derselbe. Hinterhaus.\nSemmler-Gans, Margareta, Schuhhändlerin, v. Pirmasens (Bayern).\nVolkmer-Mussmann, Barbara, Schuhhändlerin, v. Pirmasens (Bayern).\n880 Nägeli-Keller, Joh. Jakob, Schriftsetzer, von Bülach (Zürich).\nBenninger-Jung, Jak., Bahnarbeiter, von Jeuss (Freiburg).\nLienhard-Baumann, Emilie, Wwe., v. Buchs, Wäscherei u. Glätterei.\n881 * Armengut der Gemeinde Aarau. Wohnhaus.\nHässig-Lüscher, Johann, Dienstmann. Antiquar u. Gemüsehändler.\nRämisperger-Studler, Verena, Spenglers Witwe, Taglöhnerin.\n882 † Staat Aargau. Altes Antiquarium.\n883 Rohr-Hochstrasser, Rudolf, Schmied.\nBruns-Gattiker, Hermann, Schlosser, von Bremen.\nBruns-Gattiker, Dorotea, Glätterei und Galanterie, von Bremen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4894,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2393,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:34:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1896_p088",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p088.jpeg",
+      "bytes": 277708,
+      "sha256": "620740ca6a942cf422ef858d830557b9e4effcc4249543667eda13c9e6f7fd97",
+      "sha256_of": "original",
+      "working_copy": "1896_p088.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:34:04+00:00"
+  }
+}

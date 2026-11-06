@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p065",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p065.jpeg",
+    "bytes": 240075,
+    "sha256": "3e9f6e9b8c14103077d49b5e583a08ed0e3b84aafe46f75b6c662be6f117d9cd",
+    "sha256_of": "original",
+    "working_copy": "1888_p065.jpeg"
+  },
+  "text": "— 55 —\n\nHaus=\nNr.\nRoggenhausen.\n\n851.* Gemeinde Aarau. Pächterhaus.\n  Fehlmann=Müller, Joh. Jakob, Pächter, von Mönthal. Sommerwirthschaft.\n  Fehlmann=Schmidlin, Joh. Jakob, Landwirth, von Mönthal.\n\nOberholz.\n\n852.† Staat Aargau. Pulverhaus.\n\nWalthersburg.\n\n853.† Walther=Schatzmann, Gottlieb, Oekonom. Waschhaus.\n854.† Derselbe. Scheune und Remise.\n855.† Derselbe. Scheune.\n856. Derselbe. Wohnhaus.\n\nRain.\n\n857. a. Strebel=Rüetschi, Eduard, Schreiner, von Büblikon.\n  Strebel, Eduard, Vater, Schreinermeister,  „      „\n  Liechti=Strebel, Karolina, Part., Wittwe, von Wittnau.\n  Widmer, Justina, Part., von Tägerig.\n857. b.† Derselbe. Schopfanbau.\n858. Haberstich=Stöckli, Jakob, Zinsrodelverwalter, von Oberentfelden.\n  Hürbin=Heuberger, Ferdinand, Chef der Militärkanzlei, von Wegenstetten.\n859.* Schweiz. Centralbahn. Bahnwärterhaus.\n  Gruber=Lang, Meinrad, Bahnwärter, von Schönenwerd.\n860. Schweizer=Siebenmann, Fried. Ferd., Partik., von Dätwyl.\n  Siebenmann, Friedrich, Weinhandlung.\n  Conrad=Lüthi, Peter, Fürsprech, Regierungsrath, von Auw.\n861.† Derselbe. Holzhaus.\n862.* Schweizer=Siebenmann, Fried. Ferd., Part., von Dätwyl.\n  Schweizer=Gubler, Nanette, Staatsarchivars Wittwe, von Dätwyl.\n  Wydler=Gubler, Paulina, Wittwe, Part.\n  Bührer=Gubler, Jakob, Kaufmann, von Bibern (Schaffhausen).\n  David=Hunziker, Julie, Wittwe, Part., von Basel.\n863. Thut=Gidemann, Hermann, Ziegler, von Oberentfelden, mechanische\n    Ziegelei und Kalkbrennerei.\n864.† Derselbe. Ziegelhütte.\n865.† Gemeinde Aarau. Holzmagazin.\n866. Hauri=Siegenthaler, Karl, Ziegler, von Seengen.\n867.† Derselbe. Schopf.\n868.† Derselbe. Schopf.\n869. Fahrländer=Siebenmann, Maria, Med. Drs. Wittwe.\n  Fahrländer=Johannes, Eugen, Ingenieur.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5889,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1714,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:30:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p065",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p065.jpeg",
+      "bytes": 240075,
+      "sha256": "3e9f6e9b8c14103077d49b5e583a08ed0e3b84aafe46f75b6c662be6f117d9cd",
+      "sha256_of": "original",
+      "working_copy": "1888_p065.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:30:36+00:00"
+  }
+}

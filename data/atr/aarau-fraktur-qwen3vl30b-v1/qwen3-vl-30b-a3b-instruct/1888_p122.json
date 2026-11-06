@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p122",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p122.jpeg",
+    "bytes": 273313,
+    "sha256": "acb7e6629c5211145dd1c50e695e172820d61fde08e654783fb5e95b7a828818",
+    "sha256_of": "original",
+    "working_copy": "1888_p122.jpeg"
+  },
+  "text": "104\nMüller — Nußbaum.\nX Müller-Suter, Jakob, Lithographiebesitzer von Lenzburg, vordere Vorstadt 894.\nMüller-Suter, Jakob, Pofamenter von Gränichen, Laurenzenvorstadt 376.\nMüller-Bonäsch, Jakob, Buchbinder von Unterkulm, hintere Vorstadt 642.\nMüller- von Düniken, Friedrich, Gepäckträger u. Defonom, Schachen 725.\nMüller-Walti, Jakob, Taglöhner von Böckberg, Zgelweid 635.\nMüller-Woodli, Jakob, Armenhausvorsteher, Halden 241.\nMüller-Wildi, Karolina, Wittwe, Part. von Möttlingen (Württemberg), Halden 285.\nMüller, Albertine, Damenschneiderin von Möttlingen (Württemberg), Halden 285.\nX Müller, Otto, Commis von Möttlingen (Württemberg), Halden 285.\nMüller-Zellweger, Dorothea, Wittwe, Part. von Roggwyl (Thurgau), Zgelweid 1232.\nMüri-Frech, Joh. Heinrich, Mechaniker von Schinznach, vor dem Haldenthor 809.\nX Müri, Paul, Fürspruch, Controleur der Creditanstalt, von Schinznach, Rain 869.\nMürfet-Hebiger, Marie, Wittwe, Part. von Dieze (Bern), Kirchgasse 13.\nMürfet, Marie, Coiffeuse von Dieze (Bern), Kirchgasse 13.\nMürfet, Karl Friedrich, Apothekergehilfe von Dieze (Bern), Rathausgasse 5.\nNabholz-Siebenmann, Johanna, Part. von Zürich, Gais 480.\nNabholz, Hermann Hans, Kaufmann von Zürich, id. id.\nNadler-Häuptli, Anna, Gepäckträgers Wittwe von Biberstein, Conzumhalle, hintere Vorstadt 647.\nX Näf-Ludwig, Emil, Kantonsstatistiker von Aarburg, Kronengasse 36.\nNäf-Widmer, Urs Joseph, Taglöhner von Wyfen (Solothurn), Golattenmattgasse 230.\nReefer-Hilfster, Samuel, Taglöhner von Schlokrued, vor dem Haldenthor 1084.\nX Neuburger-Junhofer, Albert, Apotheker, Part., Laurenzenvorstadt 353.\nNiederhauser-Gyfin, Theodor, Buchbinder v. Baselaugst (Wafelland), hinter dem Bahnhof 502.\nNiederhauser-Schent, Marie, Taglöhnerin von Eriswyl (Bern), Milchgasse 143.\nNieding, Heinrich, Zimmermeister von Würfetten (Thurgau), Gutselferstrasse 970.\nX Niggli-Bohnenblust, Arnold, Fürspruch, Stadtschreiber, obere Vorstadt 948.\nNiggli, Elise, Weißnäherin von Aarburg, Zollrain 91.\nNiggli, Friedrich, Lehrer, Part., von Aarburg, Graben 221.\nNöthiger-Müller, Gottlieb, Zugführer von Uerzheim, Rain 883.\nNußbaum, Anna Johanna, Spetterin von Birmwyl, Rain 881.\nNußbaum-Finkböhner, Trinette, Wittwe von Densbüren, im Hammer 188.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4791,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2220,
+    "lines": 34,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 64.32,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p122",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p122.jpeg",
+      "bytes": 273313,
+      "sha256": "acb7e6629c5211145dd1c50e695e172820d61fde08e654783fb5e95b7a828818",
+      "sha256_of": "original",
+      "working_copy": "1888_p122.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:21+00:00"
+  }
+}

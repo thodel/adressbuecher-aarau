@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p128",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p128.jpeg",
+    "bytes": 290799,
+    "sha256": "6aef5404492ac0a8497b756cb4cb04c90ad3911572547b5f4732ebf02eab2bbf",
+    "sha256_of": "original",
+    "working_copy": "1888_p128.jpeg"
+  },
+  "text": "110 Schachtler — Schindler.\n\nSchachtler, Johann Jos, Bezirksschullehrer, von Altstätten (St. Gallen), Rektor der Mädchenbezirksschule, Gartenstrasse 998.\nSchäfer-Denler, Cäsar, Mesferrschmid, vordere Vorstadt 680.\n× Schäfer-Holzach, Karl, Correspondent der Aarg. Creditanstalt, Gartenstrasse 1129.\nSchäfer, Jda, Part., Couradstrasse 992.\nSchäfer, Ludwig, Pedell, Bahnhofstrasse 567.\nSchäfer-Meier, Friedrich, Einnehmer der Nordostbahn, Bahnhofstrasse 515.\nSchäfer-Morlach, Wilhelm, Ausläufer, Oberthor 224.\nSchäfer-Scheller, Otto, Tapezierer, Halden 275.\nSchäfer-Frei, Emil, Zeughausarbeiter, Halden 275.\nSchäfer geb. Funt, Elise, Part., Milchgasse 152\nSchäfer, Karolina, Corfettschneiderin, Milchgasse 152.\n× Schäfer-Troller, Adolf, Architekt, Stadtrath, Rohrerstrasse, Lindenhof 478.\nSchäppi-Honegger, Bertha, Wittwe von Horgen (Zürich), Zollrain 203.\nSchär-Notb, Friedrich, Milchverkäufer von Walterswil (Bern), Holzmarkt 663.\nSchaffner-Furrirnann, Samuel, Knecht von Effingen, Megzergasse 101.\n× Schaffner-Lindemann, Friedrich, Wagnermeister, Bahnhofstrasse 649.\n× Schaffner, Friedrich, Sohn, Wagner, Bahnhofstrasse 649.\nSchaffner-Meier, Jakob, Bahnhofwärter von Effingen, Adelbündli 173.\nSchaffner-Zeller, Rudolf, Part., jenseits der Aare 339.\nSchazmann-Volliger, Friedrich, Agent von Windisch, Ziegelrain 721.\nSchazmann-Häring, Jakob, Polizeidienener von Windisch, Halden 290.\nSchazmann-Häring, Elisabeth, Leinen- u. Wollwascherei, id. id.\nSchazmann, Samuel, Buchbinder von Windisch, Pelzgasse 135.\nSchaub-Mauenstein, Adelbert, Gipser von Ettingen (Waefelland), Megzergasse 100.\nSchaub, Marie, Lehrerin v. Eptingen (Waefelland), v. d. Haldenthor 769.\nSchaufelberger-Märk, Jakob, geweß. Zugführer von Zischenthal (Thurgau), hinter dem Bahnhof 501.\nScheibler, Alfred, Sattler u. Tapezierer v. Unterentfelden, Stadthof 92 a.\nSchenker, Gustav, Thierarzt von Schönenwerd (Solothurn), Igeltweid 619.\nSchenker-Siebenmann, Gottlieb, Dr. med., Bahnhofstrasse 1019.\nScheuermann, Emilie, Part., Megzergasse 105.\nScheuermann, Jakob, Polizeidienener von Safenwyl, Pelzgasse 136.\nSchiebler-Sinniger, Rudolf, Auffeher v. Walterswil (Solothurn), Telli 445.\nSchiebli-Jäggi, Anna Maria, Wittwe, Part. v. Killwangen, Schachen 732.\nSchiebli, Alfred, Sekretär von Killwangen, Schachen 732.\nSchiebli, Anna, Damenschneiderin id. id. id.\n× Schieker-Häfing, Hermann, Kaufmann, Graben 206.\n× Schieker-Stükle, Katharina, Wittwe, Part., Pelzgasse 121.\n× Schieker, Margaretha, Part., Pelzgasse 121.\nSchilling, Xaver, Taglöshner von Hornussen, Halden 257.\n× Schindler-Trümpi, Emma, Fabrikants Wittwe von Mollis (Glarus), Entfelderstrasse 973.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5591,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2618,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 62.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p128",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p128.jpeg",
+      "bytes": 290799,
+      "sha256": "6aef5404492ac0a8497b756cb4cb04c90ad3911572547b5f4732ebf02eab2bbf",
+      "sha256_of": "original",
+      "working_copy": "1888_p128.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:51+00:00"
+  }
+}

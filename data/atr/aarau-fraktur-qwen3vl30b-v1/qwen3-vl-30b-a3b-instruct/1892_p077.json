@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p077",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p077.jpeg",
+    "bytes": 196445,
+    "sha256": "aeb7c4c3d3dfde5df008b450b8d684e01b6574622fb51b1ce9ecf30888c2a1c1",
+    "sha256_of": "original",
+    "working_copy": "1892_p077.jpeg"
+  },
+  "text": "Hans-\nNr.\n1004. † Rüiniker-Groß, Friedrich, Bierbrauer. Fäkremise.\n\nScheibenjachsen.\n\n1005. Rüiniker-Läuchli, Jakob, Dekonom.\n1006. * Derfelbe. Wohnhaus.\n    Rennhard-Stirnemann, Joseph, Knecht, von Böttstein.\n    Zimmermann-Hochsträker, Samuel, Taglöhner, von Oberflach.\n1007. † Derfelbe. Scheune.\n1008. † Derfelbe. Holzschopf.\n1009. † Derfelbe. Werkstätte und Waschhaus.\n1010. Rüiniker-Temperli, Friedrich, Badwirth, von Schinzach. Bad-\n    wirthschaft.\n1011. † Derfelbe. Holzhaus.\n1012. † Derfelbe. Trinkhalle.\n\nBinnenhof.\n\n1013. Zurlinden-Richner, Rudolf, Fabrikant, von Jofingen.\n1014. † Derfelbe. Wasch- und Holzhaus.\n    † Derfelbe. Holzremise.\n1221 1015. Evang. Verein. Kapelle.\n1343    Derfelbe. Vereinshaus. Kinderschule.\n    Kull-Hartmann, Friedrich, Abwart, von Fluntern.\n1016. † Frey-Feer, Fabrikants Erbschaft. Fabrikgebäude.\n    (Firma: J. Frey-Feer & Cie. Seidenbandfabrikation.)\n1017. † Diefelbe. Maschinenhaus.\n1018. * Diefelbe. Wohnhaus mit Holzremise.\n1173    Eichenberger-Fischer Gottlieb, Schreiner, von Beinwyl.\n    Diakonissenstation Narau.\n    Berchten, Susanna, Diakonissin, von St. Stephan (Bern).\n    Kunz, Nanette, Näherin, von Mönchaltorf (Zürich).\n    Kiener geb. Tschopp, Näherin, von Jezwyl.\n    Krenger, Anna, von Riggisberg.\n    Hirt, Louise, von Schmiedrued.\n1208    † Diakonissenstation Narau. Waschhaus.\n1019. * Evang. Verein.\n    Echenkel-Melki, Bertha, Wittwe, von Uckerfihl (Zürich), Vorsteherin.\n    Bokard, Elise, von Altstätten (Zürich).\n    Häffig, Rosette.\n    Fisch, Caroline, Arzt's.\n    Müller, Marie Anna, von Hirischthal.\n    Wirtz, Elisabeth, von Schmiedrued.\n1020. Häfller-Hunzifer, Karl, Kaufmann. Hemdenfabrikation. Weiß-\n    maaren- und Tapetenlager.\n    Siebenmann-Schmidt, Karl, Kaufmann.\n\nBahnhofstraße.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3840,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1762,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.29,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p077",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p077.jpeg",
+      "bytes": 196445,
+      "sha256": "aeb7c4c3d3dfde5df008b450b8d684e01b6574622fb51b1ce9ecf30888c2a1c1",
+      "sha256_of": "original",
+      "working_copy": "1892_p077.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:44+00:00"
+  }
+}

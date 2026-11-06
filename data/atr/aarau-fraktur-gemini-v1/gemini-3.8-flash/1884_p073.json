@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p073",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p073.jpeg",
+    "bytes": 226918,
+    "sha256": "e7d45d5e7291a33f6598d1302483911248e70235fc8dfc7408a33cbe391dd544",
+    "sha256_of": "original",
+    "working_copy": "1884_p073.jpeg"
+  },
+  "text": "69\n\nVerzeichniß der Straßen und Plätze\nim Stadtbezirk Aarau.\n\nAdelbändli.\nBachstraße.\nBahnhofstraße.\nBalainenweg.\nBinsenhof.\nBrunner'sche Promenade (Oberholz).\nBuchserstraße.\nBuckeligäßli.\nCasernenplatz.\nCasinoplatz.\nCasinostraße.\nEisenbahnwegli.\nEntfelderstraße (Distelbergstraße).\nErlinsbacherstraße.\nFärbergäßli.\nFloßplatz.\nGießhügel.\nGolattenmattgasse.\nGoldern.\nGönhardsfeldweg.\nGrabenstraße (und Allee).\nHalden.\nHerzogsträßchen.\nHinter dem Bahnhof.\nHinter dem Damm.\nHinter dem Platz.\nHintere Vorstadt.\nHolzmarktplatz.\nHungerberggäßli.\nHungerbergstraße.\nJenseits der Aare.\nIgelweid.\nIm Hammer.\nIm Weinberg.\nIn der Geiß.\nIn der Telli.\nKirchgasse.\nKirchplatz.\nKronengasse.\nKüttigerstraße.\n[spalte 2]\nLaurenzenthorgasse.\nLaurenzenvorstadt.\nMeier'sche Promenade (Hungerberg).\nMetzgergasse.\nMilchgasse.\nNeues Quartier.\nOberholzstraße.\nOberthor.\nObere Vorstadt.\nPhylosophenweg.\nPelzgasse.\nRainstraße.\nRathhausgasse.\nRathhausplatz (u. Rathhausgarten).\nRoggenhauserstraße.\nRoggenhausen.\nRohrerstraße.\nSchachenstraße.\nSchanze.\nSchanzmättli.\nSchanzrain.\nScheibenschachenstraße.\nSchifflände.\nSchloßplatz.\nSchönenwerderstraße.\nSchulhausplatz.\nStadthof.\nStorchengäßchen.\nStrittengäßchen.\nSpitalgäßli.\nTelliplatz (Turnplatz).\nTellistraße.\nViehmarktplatz (Schachen).\nVor dem Haldenthor.\nVordere Vorstadt.\nWaltersburg.\nZelglistraße.\nZeughausstraße.\nZiegelrain.\nZollrain.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5301,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1358,
+    "lines": 84,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 15.15,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:19:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p073",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p073.jpeg",
+      "bytes": 226918,
+      "sha256": "e7d45d5e7291a33f6598d1302483911248e70235fc8dfc7408a33cbe391dd544",
+      "sha256_of": "original",
+      "working_copy": "1884_p073.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:26+00:00"
+  }
+}

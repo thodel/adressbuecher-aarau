@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p174",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p174.jpeg",
+    "bytes": 182846,
+    "sha256": "0bdb0160caf59c30580d2a8a271bdd1f76368fb8303c4b57ac691406164af3fb",
+    "sha256_of": "original",
+    "working_copy": "1892_p174.jpeg"
+  },
+  "text": "158\nDruck und Verlag von H. R. Sauerländer,\nLaurenzenvorstadt 418:\nVom Jura zum Schwarzwald, viertel-\njahrsweise, per Jahrgang Fr. 6.\nFlußvirte schweizerische Jugendblätter,\n1 Mal monatlich. Preis Fr. 5.\nBienenzeitung, schweizerische, 1 Mal\nmonatlich.\nAmtsblatt des Kantons Aargau, 1 Mal\nwöchentlich. Preis Fr. 6. 50 für Aarau,\nfranko auswärts Fr. 7. 50.\nAarg. Polizei-Anzeiger (Fahndungsblatt).\nDruck und Verlag von J. J. Spühler,\nRedaktor, hintere Vorstadt 622.\nAargauer Nachrichten, 6 Mal wöchentlich.\nPreis Fr. 9 für Aarau, franko aus-\nwärts Fr. 11.\nAargauer Zeitung, 2 Mal wöchentlich.\nPreis Fr. 6 für Aarau und auswärts.\nDruck und Verlag von Emil Witz, vorm.\nFirma J. J. Christen, Oberthor 139.\nSchweizerische landwirthschaftliche Zeit-\nschrift, 1 Mal wöchentlich. Preis Fr. 5\nfür Aarau, franko auswärts Fr. 7. 50,\nMittheilungen für Land-,\nHaus- und\nForstwirthschaft, 1 Mal wöchentlich.\nPreis Fr. 4.\nThierfreund, Organ der deutsch-schwei-\nzerischen Thierschutzvereine, erscheint\n6 Mal per Jahr. Preis für Mitglieder\nFr. — 50 Cts. Nichtmitglieder Preis\nFr. 1. —.\nVerkehrs-Organ der Mittelschweizerischen,\nGeograph. Kommerziellen Gesellschaft\nin Aarau. Erscheint 4 Mal per Jahr.\nWird an die Mitglieder gratis abge-\ngeben.\nBiegelfabrikanten.\nErnst-Räfer, Friedrich (Strangfälzziegelei),\nin der Gais 1353.\nHauri-Siegenthaler, Karl, Rain 866.\nThut-Gidemann, Hermann, Rain 863.\nZimmermeister.\nEichenberger, Rudolf, Milchgasse 154.\nHemmeler, Gottlieb, vor dem Halden-\nthor 767.\nHort, Hans, Hammer 187.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4261,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1500,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 29.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:49:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p174",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p174.jpeg",
+      "bytes": 182846,
+      "sha256": "0bdb0160caf59c30580d2a8a271bdd1f76368fb8303c4b57ac691406164af3fb",
+      "sha256_of": "original",
+      "working_copy": "1892_p174.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:52+00:00"
+  }
+}

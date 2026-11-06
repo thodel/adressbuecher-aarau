@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p076",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p076.jpeg",
+    "bytes": 195182,
+    "sha256": "5dc86e2880601bc6a7824638fdfa1b2397cf1c7ab03f49d13e08e36f6a425948",
+    "sha256_of": "original",
+    "working_copy": "1892_p076.jpeg"
+  },
+  "text": "Haus-\nNr.\n989. Hagnauer-Wildberger, Barbara, Wittwe, Part.\nHagnauer, Emma, Part.\nHagnauer, Nanette, Part.\nHagnauer, Mathilde, Part.\nAmsler-Harsch, Emil, Fürspruch u. Notar, von Schinznach. Advokaturbüreau.\n990. Rothpleg-Waldfisch, Julius, Malermeister.\n991. Derfelbe. Holzhaus.\n992. Schäfer, Ida, Postkontrolleur, Part.\nSchürch, Adolf, Fabrikant, von Büren zum Hof (Bern).\n993. Wehrli-Beier, Rudolf, Geschäftsführer der Allg. Aarg. Ersparniß-\nkasse, von Rüttigen.\n994. † Derfelbe. Gartenhaus.\n\nZschofflestraße.\n995. Zschoffle-Sauerländer, Guido, Buchhändler. Meteorologische Station.\nDr. Zschoffle, Ernst, Bezirksschullehrer.\n1198 † Derfelbe. Bienenhaus.\n996. Fischer-Schmidlin, Bertha, Part.\nWydler-Fischer, Heinrich, Bezirkslehrer, von Affoltern a./A. (Zürich).\n997. † Diefelbe. Holzhaus.\n\nGartenstraße.\n998. Gygi-Büchle, Emil, Part.\nBüchle, Johann Rudolf, Part.\nRohr-Reiner, Hans, Staatsanwaltschaftsmitut, von Lenzburg.\nWirz-Martin, Emil, Buchhändler, von Solothurn.\n1346 † Derfelbe. Holzremise.\n999. Riniker, Hans, Regierungsrath, von Habsburg.\n1000. † Derfelbe. Waß- und Holzhaus.\n1103 Hartmann-Götte, Rudolf, Fabrikant von Ebnat (St. Gallen).\n1122 † Derfelbe. Waßhaus.\n1129 * Bally-Prior, Eduard, Fabrikant in Schönenwerd.\nPrior-Dettmer, Helena, Part., von Dissen (Hannover).\nv. Brokdorff, Emilie, Comtesse, von Kiel (Holftein).\nKern-von Arand, Heinrich, Mechaniker.\n1166 Siebenmann-Siebenmann, Gottlieb, Part.\n1167 † Derfelbe. Waßhaus.\n\nGoldern.\n1001. Siebenmann-Steiner, Jakob, Dekonom.\nSteiner-Lindenmann, Susanna, Wittwe, Part., von Dürrenäsch.\n1002. † Derfelbe. Wagenhöpf.\n1003. † Derfelbe. Waßhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3556,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1611,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p076",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p076.jpeg",
+      "bytes": 195182,
+      "sha256": "5dc86e2880601bc6a7824638fdfa1b2397cf1c7ab03f49d13e08e36f6a425948",
+      "sha256_of": "original",
+      "working_copy": "1892_p076.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:40+00:00"
+  }
+}

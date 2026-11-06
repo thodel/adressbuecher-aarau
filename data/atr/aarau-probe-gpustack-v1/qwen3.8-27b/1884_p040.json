@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p040.jpeg",
+    "bytes": 311475,
+    "sha256": "0429c1083e53188617285b276dfab4b83b3ca0cb820fb512accc822784c9e3a4",
+    "sha256_of": "original",
+    "working_copy": "1884_p040.jpeg"
+  },
+  "text": "36 Morgenthaler. — Müller.\nMorgenthaler, Maria, Damenschneiderin, von Strengelbach, Colatten matt=\n  gasse 237c.\n— Elise, Spettlerin, von Radiswyl (Bern), im Hammer 184.\nMösch-Gasler, Martin, Kanzleisecretär, von Frick, Bachgasse 1155.\n— Franz, Kutcher, von Frick, Laurenzenvorstadt 552.\n*Mühlbrog-Sobognari, Fritz, Professor, Rainstraße 878.\n— Umsler, Theodor, Postcontrolleur, von Muri, neues Quartier 983.\n*Müller-Locher, Wilhelm, Kaufmann, Schloßplatz 195.\n* — Haberstrich, Friedrich August, Kaufmann, Bahnhoffstraße 656.\n* — Camper, Samuel, Spezereihändler, Holgmarkt 665.\n* — Woodtle, Jakob, Gemeindeweibel, Rathhausgasse 176.\n* — Hürrner, Eduard, Schuhmacher, Rathhausgasse 30.\n* — Wred, Käfers Wittwe, Partik., Halben 286.\n— Julius, Partik., Schachen 723.\n* — Theodor, Partik., Schachen 723.\n* — Cäsar, Regin, Schachen 723.\n* — Emma, Haushälterin, Schachen 723.\n* — von Däniken, Friedrich, Gepäckträger und Dèkonom, Schachen 725.\n* — Rothpletz, Arnold, Baumeister, Feldgasse 124.\n— Euter, Jakob, Lithograph, von Lenzburg, vordere Vorstadt 894.\n— Kramer, Josef, Schneidermeister, von Biron (Luzern), Ziegelweid 636.\n— Bonäsch, Jakob, Buchbinder, von Unterfulm, hintere Vorstadt 642.\n— Eggenchwiler, Johann, Postcommis, von Muri, Rathhausgasse 47.\n— Palmer, Alfred, Schriftseßer, v. Weinfelden (Thurgau), Milchg. 79.\nSamuel, Maschinenputzer, von Unterfulm, im Weinberg 335.\n— Hofer, Johann, Ausseher von Hirshthal, Ziegelmatt 707b.\n— Rauber, Jakob, Taglöhner, von Bötzingen, obere Vorstadt 964.\n— Berner, Anna Maria, Taglöhnerin von Rüm, Kirchplatz 167a.\n— Wilki, Karoline, Wittwe, Partik., von Möttlingen (Württemberg),\n  Halben 285.\n— Albertine, Damenschneiderin, von Möttlingen (Württemberg),\n  Halben 285.\n— Otto, Commis, von Möttlingen (Württemberg), Halben 285.\n— Anna, Fabrikarbeiterin, von Unterfulm, Laurenzenvorstadt 376.\n— Hächler, Barbara, Wittwe, Partik., von Rüm, Zelt 448.\n— Maria, Spettlerin, von Bötzingen, Ziegelmatt 702.\n— Maria, Näherin, von Hirshthal, Rainstraße 875.\n— Riniser, Elise, Staatsweibels Wittwe, von Biberstein, vordere Vor=\n  stadt 905.\n— Elise, Glätterin, von Biberstein, vordere Vorstadt 905.\n— Johann, Ingenieur, von Lenz, Feldgasse 129.\n— Vogler, Heinrich, Buchbinder, von Unterfulm, im Weinberg 321.\n— Eichenberger, Johann, Schneidermeister, von Oberfulm, Halben 290.\n— Widmer, Gottlieb, Schuhmacher, von Unterfulm, Milchgasse 143.\n— Karl, Keisprediger, von Binzen (Grosz. Baden), h. d. Plaz 214.\n— Schnider, Susanna, Haushälterin, von Birr, Milchgasse 146.\n— Hunn, Verena, Partik., von Unterfulm, Milchgasse 152.\n— Maria, Taglöhnerin, von Unterfulm, vor dem Halden thor 802.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28073,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2620,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 52.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:10:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1884_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p040.jpeg",
+      "bytes": 311475,
+      "sha256": "0429c1083e53188617285b276dfab4b83b3ca0cb820fb512accc822784c9e3a4",
+      "sha256_of": "original",
+      "working_copy": "1884_p040.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:10:06+00:00"
+  }
+}

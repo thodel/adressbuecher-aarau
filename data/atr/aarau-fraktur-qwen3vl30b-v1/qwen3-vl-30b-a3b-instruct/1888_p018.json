@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p018",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p018.jpeg",
+    "bytes": 240321,
+    "sha256": "014edc882ab8b62f983cc28e3ec28a02a10ceffa71e7a22c40bb867144674616",
+    "sha256_of": "original",
+    "working_copy": "1888_p018.jpeg"
+  },
+  "text": "— 8 —\n\nHaus-\nNr.\nEhner-Furter, Hermann, Schriftsetzer, von Wyden.\nWattenberger-Gehrig, Johannes, Taglöhner, von Birt.\n79. Wärtli geb. Nuzbaurn, Marg., Wittwe, Part.\nRüedi-Wärtli, Joh. Nepomuck, Staatsweibel, von Sulz.\nBrogli-Gautschi, Joseph, Polizeidieners, von Siffeln.\nJungi-Blattner, Johann, Schuhmachermeister, von Guggisberg (Bern).\nJungi-Blattner, Lina, Damenschneiderin, von Guggisberg (Bern).\n\nKirchhof.\n\n80. Schletter-Bühler, Maria, Marbriers Wittwe.\nWeli-Spühler, Heinrich, Buchdrucker, von Zurzach.\nGeißmann, Xaver, Sekretär, von Hägglingen.\n\nAdelbändli.\n\n81. Rüetschi-Mattli, Gottfried, Obergerichtsweibel.\nRüetschi-Wenger, Gottfried. Milch-, Butter-, Käse- und Spezerei-handlung.\nSalzverkauf.\nDtt, Anna, Zettlermeisterin, von Kyfen.\nChristmann, Maria, Fabrikarbeiterin, von Contenshweyl.\n82. * Morath, Johann, Kaufmann.\nHunziker-Tschopp, Gottlieb, Schneider, von Unterfultn.\nRäser-Möri, Jakob, Taglöhner, von Oberflachs.\nWittwer-Bolliger, Friedrich, Taglöhner, von Schangnau (Bern).\n83. Märk, Geschwister*, August und Louise.\nMärk, Louise, Glätterin.\nLeibundgut-Geiser, Rosina, Taglöhnerin, von Melchnau.\n84. * Märk, Karl und Rappeler geb. Märk, Elise, Damenschneiderin.\nRappeler-Märk, Elise, Damenschneiderin.\nHübscher-König, Anton, Taglöhner, von Dottikon.\n85.a.* Bär-Frei, Sattlers, Wittwe.\nSuter-Kohler, Jakob, Schreiner, von Rölliken.\nTreier-Frey, Johann Baptis, Schreiner, von Oberhof.\n85.b. Hediger-Sommerhalder, Samuel, Dachdecker und Kaminfeger, von Reinach.\n86.a. Schmuziger-Zulauf, Marie, Part.\nSchmuziger, Emma, Damenschneiderin.\n86.b. Diezelfbe.\nWernli-Bolliger, Johann, Ziegeleiarbeiter, von Thalheim.\n\nZollrain.\n\n87. Riefer-Leypraz, Fanny, Wittwe. Speisewirthschaft.\nRiefer, Wilhelm, Sohn, Wexger.\n88. Jeggli-Häffig, Robert, Bäckermeister.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3696,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1768,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p018",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p018.jpeg",
+      "bytes": 240321,
+      "sha256": "014edc882ab8b62f983cc28e3ec28a02a10ceffa71e7a22c40bb867144674616",
+      "sha256_of": "original",
+      "working_copy": "1888_p018.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:59+00:00"
+  }
+}

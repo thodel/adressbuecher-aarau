@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p056",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p056.jpeg",
+    "bytes": 219866,
+    "sha256": "d1643137662e3853d9360b13e149776f73cd9de699143078595ae73e33856e74",
+    "sha256_of": "original",
+    "working_copy": "1892_p056.jpeg"
+  },
+  "text": "664. Gisi=von Arx, Bittor, Kaufmann von Niedergösgen (Solothurn)\nLager in Herren- und Damenkleiderstoffen. Damenkonfektion.\n665. Abgetragen an dessen Platz\n1260 Müller=Gamper, Samuel, Part.\nFischer-Burger, Jonathan, Goldschmied, von Reinach. Bijouteriemaaren-\nund Uhrenhandlung.\nBordere Vorstadt.\n666. Pfisterer= Marti, Josephine, Wittwe, Part.\nPfisterer-Tschudi, Emil, Kürscher. Hut- und Pelzwaarenlager und\nMilitärartikel.\nSuter, Ida, Modistin, von Rölliken.\nSuter, Roja, Schneiderin, von Rölliken.\nSuter, Johann, Commissionär, von Rölliken.\n667a.u.d. Abgetragen an dessen Platz\n1262 Rohr, Samuel, Gastwirth zum Wiltenmann.\n668. Hirsch=Merz, Johann Rudolf, Uhrenmacher. Bijouteriemaaren-\nund Uhrenhandlung.\n669. Brand=Baumann, Jakob, Bäckerei und Bittenwirthschaft.\nFritscher-Witz, Friedrich, Kaufmann, von Hunzenschwyll. Spezereihandlung.\n670. Gerber-Hafler, Louise Elisabeth, March. Tailleurs Wittwe.\nGerber-Seiler, Gustav, Marchand Tailleur. Lager in Herren- und\nAnabentkleiderfunktion. Anfertigung von Herrenkleidern nach Maß.\nGerber, Robert, Commis.\nForderer-Schwammberger, Alois, Zuchneider, von Ziegelbach (Württemberg).\n671. Landolt-Häfner, Gottlieb, Metzger.\nFritscher-Rienberger, Johann, Postbeamter.\nGrolimund-Grölli, Sigmund, Buchhandlungsangestellter, von Beinwyl\n(Solothurn).\n672. Abgetragen an dessen Platz\n1263 Pfisterer-Rohr, Robert, Bierbrauer. Bierbrauerei zum Affenfassen.\nErnst-Pfisterer, Lina, Wittwe, Part.\n673. Baumann, Karl, Bäcker, von Schafisheim. Speisewirthschaft.\nSiebenmann-Ackermann, Bernhard, Part.\n674. Kunz=Graf, Ernst, Zuckerbäcker, von Wald (Zürich).\nJüngst geb. Hagenbuch, Elise Louise, Wittwe, Part., von Altstätten\n(St. Gallen).\nHohler, Lydia, Part.\n675. Studler=Sandmeier, Anna, Wittwe, Part.\nGysi-Studler, Arnold, Mechaniker.\nLenzi-Weber, Jakob, Korbflechter, von Wölflinswyl. Korbmarenhandlung.\n676. Hagenbuch=Egger, Friedrich, Buchbinderei und Schreibmaterialien-\nhandlung.\n677. *Derselbe. Buchbinderwerkstätte.\n678. Henz=Plüg, Jakob, Kaufmann.\nHenz=von Seuter, Hans, Kaufmann (Firma Jakob Henz, Colonial-\nwaarengeschäft).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4160,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2068,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0217,
+    "mean_line_chars": 43.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p056",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p056.jpeg",
+      "bytes": 219866,
+      "sha256": "d1643137662e3853d9360b13e149776f73cd9de699143078595ae73e33856e74",
+      "sha256_of": "original",
+      "working_copy": "1892_p056.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:14+00:00"
+  }
+}

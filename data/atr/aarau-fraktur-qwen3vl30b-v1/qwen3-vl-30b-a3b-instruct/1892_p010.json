@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p010",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p010.jpeg",
+    "bytes": 246560,
+    "sha256": "e5a944bace26c14629c3e803b74939d0823a39f1951ec08af0acf623f3a851ac",
+    "sha256_of": "original",
+    "working_copy": "1892_p010.jpeg"
+  },
+  "text": "8. a. Gantner geb. Fuchs, Elise, Schneiderin, von Grabs (St. Gallen).\nHoffmann-Suter, Christoph, von Schwabach (Baierm), Coiffeurgeschäft.\nDtt, Maria, Näherin, von Biberstein.\n8. b. Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\nLienberger-Weber, Kaspar, Schuhmachermeister, von Spreitenbach.\n9. a.+Gemeinde Aarau. Feuerlöschmagazin. Leiter Nr. I.\n9. b. Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n10. a. Rychner-Thommen, Friedrich, Spenglermeister, Spenglerwaaren-\nhandlung.\nHächler-Peter, Gottlieb, Bauamtsarbeiter von Teufenthal.\nFrischmann-Hüfti, Anna, Wittwe, von Schloßrued.\nAeschbach-Steiner, Rudolf, Steinbauer, von Hendrichson.\nFrischmann, Rudolf Taglöchner, von Kirchrued.\n10. b. Rychner-Thommen, Friedrich, Spenglermeister.\nDyma-Breider, Ignaz, Schneider, von Hermannester (Böhmen).\nGist, Lisette, Modellstechers, Part.\n11. Hänny-Hänny, Rudolf, Part, von Rölliken.\nHänny-Hunziker, Hermann, Sohn, Bäcker, von Rölliken.\nRoth, Friedrich, Ausläufer (Margauer Nachrichten), von Mühllethal.\n12. Weidmann-Albrecht, Albert, Tapezierer, von Bachs (Zürich).\nHeinzelmann, Johann, Schuhmacher, von Marschaltzimmern (Württemberg).\nSiebenmann-Sprüngli, Sophie, Wittwe.\nNüpperli, Maria Anna, Schneiders, Part.\nBartlome, Maria, Damenschneiderin, von Münchenbuchsee. (Bern.)\nBartlome, Rosa, Damenschneiderin, von Münchenbuchsee.\n13. * Berner-Egli, Herrmann, Zahnarzt.\nHertfelder geb. Bär, Maria, Wittwe, Part.\nMürset geb. Hediger, Maria, Wittwe, Part., von Dieffe (Bern).\nMürset, Maria, Coiffeuse, von Dieffe (Bern).\n14. Berner-Mauch, Rudolf, Part.\n15. * Faller-Unwin, Friedrich, Kaufmann.\nLütthi-Kneubühler, Anna, von Bleienbach (Bern). (Plazierungs büreau).\nHoffmann-Suter, Christoph, Coiffeur, von Schwabach (Baierm).\nLehner-Bertschi, Rudolf, Milchverkäufer, von Gränichen.\nHäfeli, Joseph, Sattler und Tapezierer, von Oberwyl.\nKathhausgasse.\n16. Lindt, Otto, Dr. phil., Apotheker, von Bern.\n17. Faller-Unwin, Friedrich, Kaufmann, von Bräunlingen, Grosh. Baden,\nEisenwaarenhandlung.\n18. Graf-Tröndli, Ludwig, Bäcker und Pintenwirth, von Worblingen\n(Grosh. Baden.)\nMarti-Keller, Oskar, Commis, von Wengi (Bern.)\nMeier-Müller, Paul, Schneider, von Stetten (Grosh. Baden).\n19. Dürr, Geschwister, Heinrich und Johanna.\nDürr, Heinrich, Pfarrer, Privat.\nDürr, Karl August, Sohn, Kaufmann.\nDürr, Johanna, Part.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4628,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2332,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p010",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p010.jpeg",
+      "bytes": 246560,
+      "sha256": "e5a944bace26c14629c3e803b74939d0823a39f1951ec08af0acf623f3a851ac",
+      "sha256_of": "original",
+      "working_copy": "1892_p010.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:19+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p090",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p090.jpeg",
+    "bytes": 235070,
+    "sha256": "9168b89230ed76c65b9c2550524985fa198df324a2d983fe23d4e3e66bb03209",
+    "sha256_of": "original",
+    "working_copy": "1892_p090.jpeg"
+  },
+  "text": "— 74 —\n\nHaus-\nNr.\n1104. † Gemeinde Aarau. Schuppen. (Jenseits der Aare.)\n1105. † Aeschbach, Friedrich, Mechaniker. Werkstätte und Büreau (in der Gais).\n1106.  Derselbe. Baracke. (In der Gais.)\n1107.  Stänz-Suter. Wittwe. (Bachstraße.)\n1108. † Wehrli-Walser, Rosina. Gewächshaus. (Vor dem Haldenthor).\n1109.  Weber, Johann Jakob, Bankabwart. (Vor dem Haldenthor.)\n1110. † Siebenmann-Walther, Otto, Schneider. Gartenhaus. (Vor dem\n  Haldenthor.)\n1111. † Landolt-Hartmann, Karl und Gänslen-Landolt, Karl. Magazin.\n  (Obere Vorstadt.)\n1112.  Stephani-Wettler, Albertine, Wittwe. (Bachstraße.)\n1113.  Adam-Stephani, Hedwig, Wittwe. id.\n1114. * Wernli-Adel, Jak., Gärtner. (Laurenzenvorstadt, Philosophenweg.)\n1115.  Abgetragen.\n1116. † Schweiz. Nordostbahn. Wärterhäuschen. (Bahnhof.)\n1117.  Richner-Renz, Wittwe. (Obere Vorstadt.)\n1118.  Good, Albertine. (Laurenzenthorstraße.)\n1119.  Abgetragen.\n1120. † Staat Aargau. Cavallerie-Kaserne. (Zeughausstraße.)\n1121. † Derselbe. Stallungen. id.\n1122. † Hartmann, Rudolf, Fabrikant. Waschhaus. (Gartenstraße).\n1123. † Gemeinde Aarau. Materialschuppen. (Friedhof.)\n1124.  Zulauf-Siebenmann, Weinhändler. (Bachstraße.)\n1125. † Schäfer-Troller, Architekt. Werkstätte. (In der Gais.)\n1126. † Derselbe. Gartenhaus. (In der Gais.)\n1127. † Adam-Stephani, Scheune. (Bachstraße.)\n1128. † Oboussier, Friedrich, Fabrikant. Waschhaus. (Grabenstraße.)\n1129. * Bally-Prior, Eduard in Schönenwerd. (Gartenstraße.)\n1130. † Dürr-Hermann, Maler. (Kasinostraße.)\n1131.  Müller-Suter, Jakob, Lithograph. (In der Gais.)\n1132. † Zschokke, O., Baugeschäft, Schuppen. (Rohrerstraße.)\n1133. † Imhof-Ernst, Fabrikant. Fabrikationsgebäude. (Telli.)\n1134. † Schindler-Trümpy, Emma. Holzremise. (Entfelderstraße.)\n1135. † Zulauf-Siebenmann, Weinhändler. Weinkeller. (Bachstraße.)\n1136. † Fleiner Alberts Erben. Schirmhäuschen am Kanal. (Erlinsbacher-\n  straße.)\n1137.  Wolfinger, Max, Professor. (Bachstraße.)\n1138. * Schmid-Jenny, Oberst, in Glarus. (Bachstraße.)\n1139. † Schäfer-Troller, Ad., Architekt. Magazin. (In der Gais.)\n1140. † Zulauf-Siebenmann, Weinhändler. Stallung. (Bachstraße).\n1141.  Kunz-Heß, Joh., Conditor. (Bankstraße.)\n1142. † Custer, Herm., Chemiker. Schopf. (Bahnhofstraße.)\n1143. † Wehrli-Walser, Rosina, Gärtners. Gewächshaus. (Vor dem Halden-\n  thor.)\n1144. † Dieselbe. Gewächshaus. (Vor dem Haldenthor.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7295,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2343,
+    "lines": 48,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:54:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p090",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p090.jpeg",
+      "bytes": 235070,
+      "sha256": "9168b89230ed76c65b9c2550524985fa198df324a2d983fe23d4e3e66bb03209",
+      "sha256_of": "original",
+      "working_copy": "1892_p090.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:54:36+00:00"
+  }
+}

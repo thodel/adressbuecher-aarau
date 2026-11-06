@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p024",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p024.jpeg",
+    "bytes": 270889,
+    "sha256": "021a6c06850b140c95fa5fb0bd9f5308e9fa300e2ceeb8c1c2fc11b1be35fbde",
+    "sha256_of": "original",
+    "working_copy": "1888_p024.jpeg"
+  },
+  "text": "— 14 —\n\nHaus=\nNr.\n148.* Andres = Baumann, Salome, Kupferschmieds Wittwe.\n  Rämisperger-Hunkeler, Hermann, Spenglermeister.\n  Häuptli-Schälfli, Jakob, Färber, von Biberstein.\n149. Dack=Hauser, Hermann, Metallgießer.\n  Furter geb. Rohr, Anna, Taglöhnerin, von Staufen.\n150.* Siebenmann, Gottlieb, Gerber.\n  Siegrist-Fischer, Jakob, Metzger, von Meisterschwanden.\n  Wildi-Hilsiker, Gottfried, Pierriste, von Schafisheim.\n  Buchser-Lüscher, Samuel, Taglöhner, von Schöftland.\n151.* Hoffmann, Johann, Schuhmachermeister.\n  Hediger geb. Brändli, Elisabeth, Instruktors Wittwe, von Reinach.\n  Hediger-Born, Wilhelm, Postangestellter, von Reinach.\n  Hediger, Maria, Haushälterin, von Reinach.\n  Ruch-Schälkli, Alfred, Schuhmacher, von Mitlödi (Glarus).\n  Belz-Ochsner, Johann, Wagenvisiteur, von Zihlschlacht (Thurgau).\n152. Wiederkehr=Oeschger, Viktoria, Wittwe, von Zell (Luzern). Wäscherei\n  und Glätterei.\n  Oeschger, Klara, Wäscherin, von Wyl.\n  Schäfer, Karolina, Corsetschneiderin.\n  Schäfer geb. Funk, Elise, Part.\n  Kull-Lehmann, Johann, Schneider, von Niederlenz.\n  Holzreuter-Suter, Karl, Taglöhner, von Ueken.\n153.a.* Haßler=Müller, Theodor, Buchbinder.\n  Theez-Amsler, Emilie, Schirmmacherin, von Paris. Costüm-Lager.\n  Dürr-Wüthrich, Gottlieb, Bauamtsarbeiter.\n153.b.Haßler=Müller, Theodor, Buchbinder.\n  Bächli, Jakob, Gasarbeiter, von Buchs.\n  Kiener-Tschopp, Margaretha, Näherin, von Zezwyl.\n  Plüß-Lehner, Elise, Spetterin, von Vordemwald.\n  Plüß, Elise, Telephonistin,        „          „\n154.* Beck geb. Rieger, Anna, Kaufmanns Wittwe.\n  Eichenberger-Flad, Rudolf, Zimmermann, von Reinach.\n  Pfenniger-Banyon, Katharina, Sesselflechterin, von Stäfa (Zürich).\n  Hunsperger-Löffel, Karl, Maler, von Bikigen (Bern).\n155.* Bachmann=Riniker, Johann, Küfer.\n156. Beck geb. Fisch, Elise, Wittwe, Part.\n  Fisch-Vogt, Albert, Milch- und Butterhandlung.\n  Wellenberg-Schaffner, Albertine, Revisors Wittwe, von Schöftland.\n  Wehrli-Fuß, Peter, Postfakteur, von Asp.\n157. Schmuziger=Jacot, Karl, Rentier.\n  Pfleger, Justine, Part.\n  Pfleger, Louise, Part.\n158. Reformirte Kirchgemeinde Aarau. Pfarrhaus.\n  Wernly-Kraft, Rudolf, Pfarrer, von Thalheim.\n  Kraft, geb. Gautschi, Auguste Friederike, Wittwe, Part. von Brugg.\n  Huber, Katharina, Lehrerin, von Besenbüren.\n159. Bachmann=Riniker, Johann, Küfer.\n  Grütter-Graber, Friedrich, Magazinier, von Seeberg (Bern).\n  Staub-Kübler, Hans Jakob, Taglöhner, von Dübendorf (Zürich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8370,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2427,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.29,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:25:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p024",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p024.jpeg",
+      "bytes": 270889,
+      "sha256": "021a6c06850b140c95fa5fb0bd9f5308e9fa300e2ceeb8c1c2fc11b1be35fbde",
+      "sha256_of": "original",
+      "working_copy": "1888_p024.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:31+00:00"
+  }
+}

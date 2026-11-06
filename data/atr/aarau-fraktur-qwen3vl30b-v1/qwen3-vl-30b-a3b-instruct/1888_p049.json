@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p049",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p049.jpeg",
+    "bytes": 260087,
+    "sha256": "163c051f7a15d43aa41c4e59d851ad1f67b15d3b66dd9f241b9dbed862d71c4e",
+    "sha256_of": "original",
+    "working_copy": "1888_p049.jpeg"
+  },
+  "text": "Haus\nNr.\n563. Holzach=Siebenmann, Dietrich, Bierbrauer.\nSpengler=Rienhard, Louise, Wittwe, Part.\n564.+ Derfelbe. Regelbahn.\n565.+ id. Bierbrauerei.\n566.+ id. Gissteller.\n1214 + id. Fisshaus und Bierkeller.\n1215 + id. Wasch- und Holzhaus.\n567. Gemeinde Aarau. Schulhaus.\nSchäfer, Ludwig, Pedell.\n568.a. Weber=Hegnauer, Hermann, von Menziken. Restauration.\n568.b. Guggisberg=Beck, Emil, Bäcker und Conditor, von Vevey (Waadt).\nKäppeli-Rönig, Joh., Zugführer, von Merenschwand.\n569.* Derfelbe. Wohnhaus.\nSchneider-Ryser, Franz Xaver, Kondukteur, von Herzgnach.\n\nCasinostrasse.\n570.* Hirschbrunner=Riener, Jakob, Instrumentmacher.\nSträbin-Frey, August, von Basel. Restauration.\nBertschinger-Aeschbach, Maria Elise, Wittwe, Part., von Lenzburg.\nGyger-Müllist, Peter Eugen, Kondukteur, von Nieder-Güssgen.\nHengher-Hiltbrunner, Aug., Lehrer, von Affoltern bei Höng (Zürich).\nSutermeister=Strähl, Gottlieb, Postcommis, von Zofingen.\n571. Ging=Weishaupt, Joh. Jakob, Part.\nGing, Wilhelm, Wagner.\nGing, August, Schmied.\nKeller, Katharina, von Ewatingen (Baden). Ellenwaarenhandlung.\nRietzsch-Müpperli, Fried., Buchhalter.\n572.+ Derfelbe. Schmiede- und Wagnererei-Werkstätte.\n573. Wittmer=Reimann, Franz J., Musiklehrer, von Erlinsbach (Solothurn).\nReimann geb. Rüegger, Serena, Part., von Wölflinswyl.\nReimann, Friedrich, Postcommis, von Wölflinswyl.\n574. Birchmeier=Rull, August, Maler, von Würenlingen.\nBertschi, Fritz, Malergehilfe, von Dürrenäsch.\n575.+ Derfelbe. Holzschopf.\n576.* Imhof, Alexis, Negotiant in Zürich.\nDr. F. H. Berner-Egli, Zahnarzt.\nHolzach-Wässler, Dietrich, Bater, Part.\nZaugg-Bylund, Susanna, von Erizwyl (Bern).\nZaugg, Daniel, Buchhalter, von Erizwyl (Bern).\n577. Decker=Hoffmann, Julius, Huf- und Wagenschmied.\nKirchhofer=Obrist, Maria, von Auenstein. Tricoteriewarenfabrikation (Strickwaaren).\n578.+ Kleiner=Schöffe, Alberts Erbschaft. Magazin und Scheune.\n579.+ Derfelbe. Remise.\n580. Keller=Zimmermann, Johann, Lohnkutscher.\nEng-Guldimann, Heinrich, Schuhmacher, von Stützlingen (Solothurn).\n581.+ Derfelbe. Scheune und Remise.\n582.+ Derfelbe. Remise.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4357,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2082,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:22:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p049",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p049.jpeg",
+      "bytes": 260087,
+      "sha256": "163c051f7a15d43aa41c4e59d851ad1f67b15d3b66dd9f241b9dbed862d71c4e",
+      "sha256_of": "original",
+      "working_copy": "1888_p049.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:11+00:00"
+  }
+}

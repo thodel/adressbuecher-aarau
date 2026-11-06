@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p138",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p138.jpeg",
+    "bytes": 243902,
+    "sha256": "b8ed29911a69e7f9490114baa69503fa8d2e33ee9571277f8425d96c2285b710",
+    "sha256_of": "original",
+    "working_copy": "1892_p138.jpeg"
+  },
+  "text": "122\nSchiefer — Schmidt.\nXSchiefer-Häsig, Hermann, Kaufmann, Wohnung Graben 206, Räsehandlung, Pelzgasse 121.\nXSchiefer, Margaretha, Part., Pelzgasse 121.\nSchilling, Xaver, Taglöhner von Hornussen, Halden 257.\nXSchindler-Trümpi, Emma, Fabrikants Wittwe von Wollis (Glarus), Entfelderstraße 973.\nSchlatter, August, Part, Mezgergasse 103.\nSchmid-Baumann, Katharina, Schreiners Wittwe, von Watterdingen (Baden), hinter dem Bahnhof 494.\nSchmid-Burkhalter, Johann Friedr., Schneider von Zurzach, vor dem Haldenthor 802.\nSchmid, Elise, Fabrikarbeiterin, Stadthof 92 d.\nSchmid, Emma, Damenschneiderin,\nSchmid-Eng, Peter, Posamenter von Herzach, Adelbündli 86.\nSchmid-Fischer, Heinrich, Kaufmann von Wittnau, Graben 202.\nSchmid, Frieda und Anna, Weißnäherinnen von Watterdingen (Baden), hinter dem Bahnhof 494.\nSchmid-Graf, Rudolf, Taglöhner, Adelbündli 170.\nSchmid, Hans, Postfaktor, Stadthof 92 d.\nSchmid-Jakober, Hermann, Polizeidieners von Zuzgen, v. d. Haldenth. 762.\nSchmid-Läuchli, Jakob, Ingenieur und Konkordatsgeometer von Glarus, Bachstraße 1138.\nSchmid, Marie, Ladendienerin von Buch bei Weinfelden (Thurgau), Cronengasse 33.\nSchmid-Maurer, Mathilde, Negotiantin von Möriken, Rathausgasse 29.\nSchmid-Pauli, Daniel, Gärtner von Erlinsbach, Scheibenjächen 1278.\nSchmid-Peter, Elisabeth, Postfaktors Wittwe, Stadthof 92 d.\nSchmid, Rosa, Damenschneiderin von Gipf, Laurenzenvorstadt 362.\nSchmid-Suter, Johann in Zofingen, „Pariser Bazar“, vord. Vorft. 889.\nSchmid-Unger, Rudolf, Bahnwärter von Erlinsbach, Halden 268.\nSchmid-Willi, Jos. Anton, Polizeikorporal und Fischereiagent von Wittnau, hintere Vorstadt 621.\nSchmid-Wolf, Peter, Sekretär u. Kassier der Sparkasse der Stadt Aarau und Umgebung, hintere Vorstadt 645.\nSchmidlin, Theodor, Fabrikant chemischer Produkte, Graben 204.\nSchmidt, Albert, Schriftfeger, vor dem Haldenthor 1332.\nSchmidt, Anna und Jenni, Wäscherei und Glätterei, vor dem Haldenthor 1332.\nSchmidt-Correvon, Robert, Negt. zum Bären, Zollrain 177.\nSchmidt-Häusler, Verena, Gärtners Wittwe, vor dem Haldenthor 1332.\nSchmidt-Hagnauer, Gustav, Kaufmann, Teppich-, Wachstuch- und Manufakturwaarenhandlung, Graben 202.\nSchmidt-Halbritter, Max, Fürsprech und Notar, Stadtammann, Casinofstraße 576.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5883,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2213,
+    "lines": 34,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 64.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:45:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p138",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p138.jpeg",
+      "bytes": 243902,
+      "sha256": "b8ed29911a69e7f9490114baa69503fa8d2e33ee9571277f8425d96c2285b710",
+      "sha256_of": "original",
+      "working_copy": "1892_p138.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:29+00:00"
+  }
+}

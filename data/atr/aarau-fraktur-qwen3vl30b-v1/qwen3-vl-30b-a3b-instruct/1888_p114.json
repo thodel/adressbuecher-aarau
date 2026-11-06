@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p114",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p114.jpeg",
+    "bytes": 279756,
+    "sha256": "65865eeb8e041b0ccba465e4e24b7d43ec6715539725c5d24322dfc6d39ef0a5",
+    "sha256_of": "original",
+    "working_copy": "1888_p114.jpeg"
+  },
+  "text": "96\nHunziker — Häppeli.\nHunziker-Schopp, Gottlieb, Schneider von Unterfulm, Adelbändli 82.\nHunziker-Wieland, Elise, Wittwe von Unterfulm, Ziegelrain 747.\nHunziker-Züst, Guido, Rentier, Laurenenvorstadt 374.\nHufi-Lämmli, Franz Josef, Bahngestellter von Wangen (Solothurn),\nEntfelderstrasse 1147.\n\nLäcker, Josep̄, Comestibleshändler von Lachapelle (Franckreich), hintere\nVorstadt 696.\nJäger-Häffig, Johann, Maurer von Aukersihl (Zürich), Bahnhofstr. 1022.\nJäggi-Weber, Hermann, Buchhalter von Strengelbach, hinter dem\nBahnhof 494.\nJäggi-Urech, Sophie, Wittwe, Part. von Strengelbach, h. d. Bahnhof 494.\nJäggi, Wilhelmine, Lehrerin von Strengelbach, Laurenenvorstadt 552.\nJeggli-Häffig, Robert, Bäcker, Zollrain 88.\nJeggli-Widmer, Carolina, Wittwe, Part., Adelbändli 175.\nJehle-Weber, Mathäus, Scheibenarbeiter von Wyl, Milchgasse 145.\nJenny-Kunz, Adolf, Kaufmann von Jfsweil (Bern), Telli 449.\nJmhof-Alman, Ernst, Fabrikant, Bachstrasse 1035.\nJmhof-Herzog, Emma, Med. Drs. Wittwe, Part., Laurenenvorstadt 399.\nJmhof-Eingenstorfer, Louise, Pfarrers Wittwe, Part., vord. Vorstadt 894.\nJmhof, Louise, Part., vordere Vorstadt 894.\nJmhof, Sufette, id. id. id. id.\nJmhof-Münzinger, Emil, Vice-Stadtammann, Graben 215.\nJmhof-Schmid, Carolina, Wittwe, Part., obere Vorstadt 940.\nJoho-Bryner, Samuel, Färber von Auenstein, Halden 282.\nJos-Scheibler, Anna Elisabeth, Wittwe, Part. von Gallmannsweil (Baden),\nobere Vorstadt 944.\nJörg-Rinzel, Peter, Schuhmachermeister von Langenfelsbold (Preußen),\nMain 820.\nJörg-Hächler, Samuel, Schreiner von Affoltern (Bern), Halden 289.\nJörg, Jakob, Seilergehülfe von Affoltern (Bern), Golattenmattgasse 235.\nJäster-Brugisser, Arthur, Dr. med. von Wohlen, Graben 615.\nJäster, Ulrich, Schuhmachermeister von Andelfingen (Zürich), Golatten-\nmattgasse 230.\nJungi-Blattner, Johann, Schuhmachermeister von Guggisberg (Bern),\nWohnung Milchgasse 79, Werkstätte Kirchhof 165 a.\nJungi-Blattner, Eina, Damenschneiderin von Guggisberg, Milchgasse 79.\n\nRägi-Frei, Alfred, Schneider von Steig (Zürich), Halden 286.\nRähr, Maria, Näherin von Rüderswyl (Bern), Kirchplatz 165.\nRäppeli-Müller, Gottlieb, Dr. jur., Reg.-Rath von Merenschwand,\nEntfelderstrasse 969.\nRäppeli-Rönnig, Johann, Zugführer von Merenschwand, Bahnhofstr. 568.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4931,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2238,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:26:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p114",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p114.jpeg",
+      "bytes": 279756,
+      "sha256": "65865eeb8e041b0ccba465e4e24b7d43ec6715539725c5d24322dfc6d39ef0a5",
+      "sha256_of": "original",
+      "working_copy": "1888_p114.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:40+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p029",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p029.jpeg",
+    "bytes": 381255,
+    "sha256": "681e1c5f6d0ab89c9e06201c9d92634186a6c698e400c6570e3ba191e7303f6f",
+    "sha256_of": "original",
+    "working_copy": "1884_p029.jpeg"
+  },
+  "text": "Halbeis-Höhn, Felix, Maurer, von Fließ (Tyrol), Golattenmattgasse 231.\nHaller-Diriwächter, Johann, Taglöhner, von Reinach, Milchgasse 145.\n— =Diriwächter, Elisabeth, Spetterin, von Reinach, Milchgasse 145.\n— =Dittiger, Wilhelm, Schuhmacher, von Reinach, Halben 282.\n— =Dittiger, Marie, Glätterin, von Reinach, Halben 282.\n— =Fehlmann, Jakob, Knecht, von Reinach, Abelbändli 170.\n— =Volliger, Elisabeth, Partik., von Reinach, obere Vorstadt 964.\nHandl-Fleisch, Ciprian, Hausführer v. Grienz (Tyrol), h. d. Bahnhof 496.\nHanhard, Ulrich, Partik., von Steckborn (Thurgau), Rathausgasse 48.\nHartmann, Johann Friedrich, Partik., von Mügglingen (Württemberg),\nim Weinberg 321.\n— =Götz, Rudolf, Fabrikant, von Ebnat (St. Gallen), Bachstraße 1138.\n*Häfker-Hunziker, Karl, Kaufmann, Bahnhofstraße 1020.\n* — =Wanger, Emil, Kolonialwaarenhandlung, Laurenzenvorstadt 349.\n* — =Häberlin, Adolf, Färber, im Hammer 188.\n* — =Ernst, August, Färber, Halben 265.\n* — =Marie, Partik., Halben 265.\n* — =Bircher, Paul, Kupferschmied, Pelzgasse 134.\n* — =Brunnhöfer, Eduard, Kaminfeger, Halben 248.\n* — =Müller, Theodor, Buchbinder, Milchgasse 153b.\n* — =Frik, Buchhalter, Bachstraße 1146.\n* — =Arnold, Buchhalter, Tell 456.\n* — =Stampfli, Hans, Gerber, Lederhandlung, Bahnhofstraße 656.\n* — =Stampfli, Emma, Wittwe, Modistin, Rathausgasse 21.\n* — =Julie, Modistin, Abelbändli 172.\n* — =Sophie, Glätterin, Abelbändli 172.\n* — =Meier, Maria, Partik., von Männedorf (Zürich), Pelzgasse 134.\n* — =Märkt, Barbara, Schreiners Wittwe, Abelbändli 170.\n* — =Margaretha, Glätterin, Halben 264.\n* — =Oberlin, Margaretha, Postadjunkts Wittwe, Bachstraße 1040.\nHauri-Graber, Fuhrmann, von Bottenwyl, Halben 249.\n* — =Siegenthaler, Karl, Ziegler, Rainstraße 866.\n— =Ryburz, Samuel, Briefträger, von Seengen, v. d. Halbenthör 809.\n— =Emil, Schuhmacher, von Reinach, Igelweid 637.\n— =Margaretha, Spetterin, von Reinach, Igelweid 637.\nHaufer von-Lumm, Henriette, Partik., von Krefeld (Preußen), neues\nQuartier 999.\nHausmann, Jakob, Auffeher, von Schafisheim, Ziegelrein 716.\n— =Dietiker, Johann, Taglöhner, von Schafisheim, Färbergässchen 125.\nHächler-Peter, Gottlieb, Taglöhner, von Leufenthal, Kirchgasse 10h.\n— =Roth, Rudolf, Pofamenter, von Gränichen, v. d. Halbenthör 803.\n— =Lüscher, Jakob, Fabrikarbeiter, von Leufenthal, Halben 287.\n— =Elise, Fabrikarbeiterin, von Rohr, Laurenzenvorstadt 376.\nHäfeli-Fitscher, Julie, Expedients Wittwe, Nähterin, v. Seengen, Abel-\nbändli 174.\nHäni-Häni, Rudolf, Partik., von Kölliken, Kirchgasse 11.\n— =Hermann, Sohn, Bäcker, von Kölliken, Kirchgasse 11.\nHänsler-Dubs, Eug., Partik., von Richterswyl (Zürich), Hammer 185b.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6034,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2625,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:11:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p029",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p029.jpeg",
+      "bytes": 381255,
+      "sha256": "681e1c5f6d0ab89c9e06201c9d92634186a6c698e400c6570e3ba191e7303f6f",
+      "sha256_of": "original",
+      "working_copy": "1884_p029.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:43+00:00"
+  }
+}

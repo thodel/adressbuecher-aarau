@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p115",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p115.jpeg",
+    "bytes": 242160,
+    "sha256": "7cd4ced6d42ca1328397efc225310820b350d4bc5e068e54784aaa323ff3c2f0",
+    "sha256_of": "original",
+    "working_copy": "1892_p115.jpeg"
+  },
+  "text": "Häusler, Jakob, römischkatholischer Siegrist von Schwaderloch, vor dem\nHaldenthor 773.\nHäusler-Schmid, Angelus, Maler von Schwaderloch, vor dem Halden-\nthor 762.\nHaberstich, Emil, Dr., Part., Laurenzenvorstadt 413.\nHaberstich, Emil, Magaziner von Oberentfelden, Milchgasse 79.\nHaberstich-Huber, Gottlieb, Holzspalter von Oberentfelden, Milchgasse 79.\nHaberstich, Ina, Lehrerin, obere Vorstadt 938.\nHaberstich, Otto, Magaziner von Oberentfelden, Milchgasse 79.\nHaberstich-Scheuermann, Bertha, Schulinspektors Wittwe, obere Vor-\nstadt 938.\nHaberstich-Stöckli, Jakob, Zinsrodeldverwalter von Oberentfelden, Rain 858.\nHagenbuch-Egger, Friedrich, Buchbinder, vordere Vorstadt 676.\nHagenbuch-Gros, Karl, Coiffeur, Chirurg und Leichenbeschauer, Coiffeur-\ngeschäft und Parfümeriehandlung, Rain 819.\nHagenbuch-Hagenbuch, August, Sekretär, Rathausgasse 46.\nHagenbuch-Hagenbuch, Verena, Stickerei- und Wollwarenhandlung,\nRathausgasse 5.\nHagmann-Stolz, Adolf von Schönenwerd, Schuhhandlung, hintere Vor-\nstadt 1262.\nHagnauer, Emma, Part., Conradstraße 989.\nHagnauer, Fried, Bürstenmacher, Pelzgasse 68.\nHagnauer, Gottlieb, Metzger, Halden 266 b.\nHagnauer, Hedwig, Lehrerin, vordere Vorstadt 902.\nHagnauer, Hermann, Sohn, Kaufmann, Pelzgasse 68.\nHagnauer-Raipar, Joh. Ludwig, Briesträger, Kirchhof 80.\nHagnauer, Mathilde, Part., Conradstraße 989.\nHagnauer, Nanette,\nHagnauer-Peters, Augusta, Wittwe, Part., Pelzgasse 68.\nHagnauer-Wildberger, Barbara, Wittwe, Part., Conradstraße 989.\nHagnauer-Zimmermann, Albert, Kaufmann, Conradstraße 1255.\nHaller-Attiger, Wilhelm, Schuhmacher von Reinach, Milchgasse 75.\nHaller-Attiger, Marie, Glätterin von Reinach, Milchgasse 75.\nHaller-Fehlmann, Sujette, Wittwe, Wäscherin von Reinach, Milchgasse 76.\nHaller-Meier, Gottlieb, Bäcker von Reinach, Laden hintere Vorstadt 647,\nWohnung obere Vorstadt 937.\nHangartner-Alber, Ferdinand, Lithograph von Buchthalen (Schaffhausen),\nBachstraße 1048.\nHangartner-Hage, Raipar, Camioneur von Wangen (Grosch. Baden),\nZiegelrain 721.\nHartmann-Göite, Rudolf, Fabrikant von Ebnat (St. Gallen).\nHäskler-Bircher, Paul, Kupferschmied, Pelzgasse 134.\nHäskler-Brunnhofer, Elise, Kaminfegers Wittwe, Halden 258.\nHäskler-Brunnhofer, Johann, Schulhausabwart, Bahnhofstraße 567.\nHäskler-Ernst, August, Färber, Halden 265.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6058,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2270,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:43:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p115",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p115.jpeg",
+      "bytes": 242160,
+      "sha256": "7cd4ced6d42ca1328397efc225310820b350d4bc5e068e54784aaa323ff3c2f0",
+      "sha256_of": "original",
+      "working_copy": "1892_p115.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:00+00:00"
+  }
+}

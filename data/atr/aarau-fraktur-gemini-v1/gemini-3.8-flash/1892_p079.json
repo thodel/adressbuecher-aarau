@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p079.jpeg",
+    "bytes": 226677,
+    "sha256": "0c41da8b0ccd2620579973a1043ab89f78989f3f59add736210ca703ce3c9441",
+    "sha256_of": "original",
+    "working_copy": "1892_p079.jpeg"
+  },
+  "text": "— 71 —\n\nHaus=\nNr.\n1033.  Erismann, Samuel, Armenpfleger.\n       Erismann-Indermauer, Abraham, Friedensrichter, Oekonom.\n1034.† Derselbe.  Scheune.\n1035.  Imhof-Aman, Ernst, Fabrikant.  Farbwaarenfabrikation für Con-\n         ditoreien.\n1036.† Andres-Bircher, Friedrich, Hafner, Holzhaus.\n1037.† Derselbe.  Hafnerei.\n1038.  Brunner, Gottfried, Part.\n       Brunner, Auguste, Glätterin.\n       Philipp-Bonarx, Johann, Milchverkäufer, von Kienberg (Solothurn).\n       Ziegler-Hänki, Karl, Zugführer, von Ittlingen (Baden).\n       Letsch-Brunner, Albert, Buchbinder, von Reutlingen (Württemberg).\n       Brugger-Tschudi, Katharina, Näherin, von Hirschthal.\n1039.  Kraft-Kaspar, Maria, Wittwe, von Brugg.\n       Kaspar-Hunziker, Rudolf, Chef des aargauischen Polizeikorps.\n       Frei-Brand, Franz, Karl, Postcommis, von Zurzach.\n       Dr. Bigler-Wirth, Ulrich, Lehrer, von Oberthal (Bern).\n1073   † Dieselbe.  Holzremise.\n1040.  Haßler-Oberlin, Margaretha, Wittwe.  Lingeriegeschäft.\n       Ehrsam, Ida, Part.\n       Maier-Ganter, Konrad, Lohnkutscher, von Reisalfingen (Baden).\n       Wyß, Niklaus, Gerichtskanzlist, von Sulz.\n1107   Stänz-Suter, Louise, Wittwe, Part.\n       Bennert-Roth, Emilie, Part., von Paris.\n       Brentano-Zimmermann, Gustav, Staatsanwalt, von Laufenburg.\n       Imhof, Louise, Part.\n       Imhof, Susette, Part.\n1098   *Bircher-Schaßmann, Heinrich, Med. Dr.\n       Dr. F. H. Berner-Egli, Zahnarzt.\n1099   Derselbe.  Waschhaus.\n1100   Merz-Märk, Sebastian, Notar.  (Notariats- und Inkassogeschäft.)\n1101   Bäbler, Johann Jakob, Dr. Professor, von Matt (Glarus).\n       Geßner, August, Dr. Professor, von Zürich.\n1124   Zulauf-Siebenmann, Leopold (Weinhandlung).\n1135 † Derselbe.  Weinmagazin.\n1140 †   „      Stallung und Remise.\n1196 †   „      Remise.\n1137   Wolfinger-Mayer, Max, Professor, von Mannheim (Baden).\n1138 * Schmid-Jenny, Joh. Jakob, Oberst, in Glarus.\n       Schmid-Läuchli, Joh. Jb., Ingenieur, Konkordats- und Katastergeo-\n         meter, von Glarus.\n1112   Stephani-Wettler, Albertine, Fabrikants Wittwe.\n1152 † Dieselbe.  Holzschopf.\n1113   Adam-Stephani, Hedwig, Wittwe, von Allschwyl (Baselland).\n1127 † Dieselbe.  Stallung und Holzremise.\n1175   Wehrli-Märk, Emil, Bankkassier, von Küttigen.\n1174   Bührer-Heusler, Karl, Kaufmann, von Bibern (Schaffhausen).\n         Waarenagentur-Geschäft.\n1156   Walder-Kunz, Karl, Buchhalter (Aarg. Bank) von Zürich.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7773,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2399,
+    "lines": 52,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:54:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p079.jpeg",
+      "bytes": 226677,
+      "sha256": "0c41da8b0ccd2620579973a1043ab89f78989f3f59add736210ca703ce3c9441",
+      "sha256_of": "original",
+      "working_copy": "1892_p079.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:54:11+00:00"
+  }
+}

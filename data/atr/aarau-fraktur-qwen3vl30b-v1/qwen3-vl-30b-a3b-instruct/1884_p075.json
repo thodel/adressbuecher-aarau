@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p075.jpeg",
+    "bytes": 303203,
+    "sha256": "99c394c99d31e51181b256f622a9050e18cb152c5455eab512d01538f2dbb08b",
+    "sha256_of": "original",
+    "working_copy": "1884_p075.jpeg"
+  },
+  "text": "Verzeichniß\nder\nEinwohner nach ihrem Berufe, Geschäfte und\nGewerbe.\n\n7 Y\nAerzte.\nBircher, Heinrich, zugleich Spitalarzt,\nBachstraße 1098.\nFässler, Arthur, hintere Vorstadt 638.\nLorenz, Josef, Graben 216.\nSchenker, Gottlieb, Rainstraße 831.\nSchmuziger, Friedr., vorder Vorst. 903.\nWeber, Gust., Bezirksarzt, Graben 618.\nZürcher, Alfr., Adjunkt des Bezirksarzts,\nLaurenzenvorstadt 399.\n(Sämtliche Aerzte haben ihre Sprech-\nstunden Vormittags von 8–9 Uhr\nund Nachmittags von 1–2 Uhr).\n\nThierärzte.\nBauhofer, Samuel, obere Vorstadt 930.\nFischer-Eglinger, R., in der Gais 486.\nLabhard, Jakob, Laurenzenvorstadt 607.\nThut, Friedrich, Schachen 736.\n\nZahnärzte.\nBerner, Hermann, Casinostraße 576.\nBrentano, Max, neues Quartier 1075.\n\nApotheker.\nLindt, Otto, Rathausgasse 16.\nWeibezahl, Leonhard, Rathausgasse 5.\nWybler, Konrad, Rathausgasse 23.\nZiegler, Otto, vordere Vorstadt 894.\n\nAgenturen.\nDolber, Johann, Graben 219.\nHauptagentur der allgem. Versicherungs-\nGesellschaft der „Helvetia“ in St.\nGallen.\nHauptagentur der „Helvetia“, schweiz.\nFeuerversicherungs= Gesellschaft in\nSt. Gallen.\nHauptagentur der London „Union“,\nLebensversicherungs-Gesellschaft.\nHaberlich= Scheuermann, St., obere\nVorstadt 938.\nHauptagentur der schweiz. Rentenanstalt\nin Zürich.\nKeller, Andreas, Jagelweid 619.\nHauptagentur der schweiz. Mobiliar-\nVersicherung.\nMartin, Rudolf, Halden 267.\nGeneralagent, der Lebensversicherungs-\nGesellschaft La Fonciere in Paris.\nVertreter der Reichs-Versicherungsbank\nin Bremen.\nMathys, A., 3. Krone, Kronengasse 39.\nHauptagentur der Lebensversicherungs-\nGesellschaft „L’Aigle“ in Paris.\nMatter, Samuel, Amtschreiber, hintere\nVorstadt 623.\nHauptagentur der Lebensversicherungs-\nbank für Deutschland, in Gotha.\nSchmid-Lanz, A., obere Vorstadt 935.\nInspecteur de la Providence, Compagnie\nd'Assurances sur la vie à Paris.\nStrebel, Josef, Bahnhofstraße 1160.\nGeneralagentur der Basler Transport-\nversicherungs= Gesellschaft.\nGeneralagentur d. Lebensversicherungs-\nGesellschaft Caisse générale des familles\nin Paris.\nHauptagentur der Unfall-Versicherungs-\nActien-Gesellschaft in Zürich.\nWirth-Herzog, Jakob, Zollrain 89.\nGeneralagentur für Auswanderung für\ndie ganze Schweiz. Cautionirt\nFr. 40,000 beim h. Bundesrathe.\n\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4407,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2230,
+    "lines": 76,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0132,
+    "mean_line_chars": 28.28,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:16:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p075.jpeg",
+      "bytes": 303203,
+      "sha256": "99c394c99d31e51181b256f622a9050e18cb152c5455eab512d01538f2dbb08b",
+      "sha256_of": "original",
+      "working_copy": "1884_p075.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:16:22+00:00"
+  }
+}

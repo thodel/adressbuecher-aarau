@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p071",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p071.jpeg",
+    "bytes": 265652,
+    "sha256": "ce82b9065aaa9436a8f04604acca6e5f58abf7e54474aa1c11980991e3c468b3",
+    "sha256_of": "original",
+    "working_copy": "1888_p071.jpeg"
+  },
+  "text": "— 61 —\nHaus=\nNr.\n955. Sandmeier-Rohr, Susette, Wittwe, Part.\n  Sandmeier, Gottlieb, Buchbinder.\n  Sandmeier, Marie, Ladentochter.\n  Sandmeier, Marie, Damenschneiderin.\n  Sandmeier, Margaretha, Damenschneiderin.\n  Sommerhalder-Lindenmann, Rudolf, Milchverkäufer, von Schloßrued.\n956. Fischer-Keller, Albert, Sekretär.\n957 † Gemeinde Aarau. Gebethalle.\n1224 † Hediger, Hermann, Stadtgärtner. Gewächshaus.\n958. Baumann-Gysi, Heinrich, Oekonom.\n  Baumann-Wacker, Eugen, Weinhändler.\n959.† Derselbe. Scheune.\n\nEntfelderstraße.\n960.* Zschokke-Faure, Conradin, Ingenieur.\n  Doser-Schröder, Leopold, Direktionssekretär, von Rheinfelden.\n  Hediger-Kull, Hermann, Stadt- und Friedhofgärtner, von Rupperswyl.\n  Hediger, Jakob, Part, von Rupperswyl.\n961.† Derselbe. Waschhaus.\n962. Derselbe. Abgetragen.\n1200 Derselbe. Wohnhaus.\n  Zschokke-Bodmer, Hermann, (Bureau), Generalagentur der Basler\n    Feuerversicherungsgesellschaft. Generalagentur der Basler Lebens=\n    versicherungsgesellschaft.\n1202 † Derselbe. Oekonomiegebäude.\n1205 † Derselbe. Holz- und Geflügelhaus.\n963.† Nieding, Heinrich, Zimmermeister, von Märstetten (Thurgau). Werkstätte.\n964. Bär, Rudolf, Schreinermeister.\n  Bär, Marie, Arbeitslehrerin.\n  Bär, Louis, Commis.\n  Bär geb. Frei, Johanna, Wittwe, Part.\n965.† Derselbe. Holzhaus.\n966. Wespi-Zurlinden, Karl, Hafner.\n  Frey-Kyburz, Rosina, Weißnäherin, von Härkingen (Solothurn).\n  Kyburz-Bohnenblust, Katharina, Part., von Erlinsbach.\n  Haßler-Märki, Barbara, Wittwe, Part.\n  Märki, Marie, Damenschneiderin, von Mandach.\n  Hunziker-Sandmeier, Fritz, Drechsler.\n967. Lips-Sager, Kaspar, Postkondukteur, von Urdorf (Zürich).\n  Leubin-Kienberger, Albert, Postcommis, von Frick.\n968. Hässig-Baumann, Samuel, Malermeister.\n  Baumann, Johann, Part., von Niederlenz.\n969. Käppeli-Müller, Gottlieb, Dr. jur., Reg.-Rath, von Merenschwand.\n970. Schmuziger-Freudiger, Traugott, Maler.\n  Ammann-Strähl, Robert, Hochbaumeister, von Menziken.\n  Nieding, Heinrich, Zimmermeister, von Märstetten (Thurgau).\n971.† Derselbe. Werkstätte.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6515,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2029,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:31:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p071",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p071.jpeg",
+      "bytes": 265652,
+      "sha256": "ce82b9065aaa9436a8f04604acca6e5f58abf7e54474aa1c11980991e3c468b3",
+      "sha256_of": "original",
+      "working_copy": "1888_p071.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:31:22+00:00"
+  }
+}

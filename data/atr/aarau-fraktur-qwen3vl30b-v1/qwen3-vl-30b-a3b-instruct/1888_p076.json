@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p076",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p076.jpeg",
+    "bytes": 250069,
+    "sha256": "3225eacf5f598dee3d5a379256b1a72b9cab0d48ce9cae6f5d749ca2cc139dd2",
+    "sha256_of": "original",
+    "working_copy": "1888_p076.jpeg"
+  },
+  "text": "— 66 —\n\nHaus-\nNr.\n\nBachstraße.\n\n1027.† Gemeinde Aarau. Mühlen scheune.\n1028. Schmidt-Siebenmann, Adolf, Sattlermeister.\nSchmidt-Rieleder, Robert, Malermeister.\n1029.† Derfelbe. Sattlerwerkstätte.\n1207 † id. Malerwerkstätte.\n1030.† Gemeinde Aarau. Schuppen.\n1031. Senn-Zubler, Adelheid, Rüfers Wittwe, von Hottwyl.\nDiefenbacher-Senn, Jakob, Hafner, von Eppingen (Baden).\nHäring, Marie, Spetterin, von Dettikofen (Baden).\nMärki-Schmidli, Johann, Rüfermeister, von Mandach.\n1032. Siebenmann-Brunnhöfer, Otto, Schlossermeister.\n1033. Grismann, Samuel, Friedensrichter und Armenpfleger.\nGrismann-Andermauer, Abraham, Deconom.\n1034.† Derfelbe. Scheune.\n1035. Imhof=Amann, Ernst, Fabrikant. Farbwaarenfabrikation für\nConditoireien.\n1036.† Andres-Bircher, Friedrich, Hafner. Holzhaus.\n1037.† Derfelbe. Hafnerel.\n1038. Brunner, Gottfried, Part.\nBrunner, Gottlieb, Tapezierer.\nBrunner, Auguste, Glätterin.\nBuchser-Hunziker, Anna Marie, Wittwe, Part., von Schöftland.\nSiebenmann-Schmidt, Karl, Kaufmann.\nStoffel, Lisa, Ladentochter, von Lindau (Bayern).\nMaier-Ganter, Konrad, Lohnfutscher, von Reisalpfingen (Baden).\nZuter-Kleinert, Johann, Buchhalter, von Seon.\nGränicher, Benjamin, Sattler.\nMüller-Humm, Verena, Part., von Unterfultm.\n1039.* Kraft-Kaspar, Adolf, Bankdirektor, in Zofingen.\nKaspar-Hunziker, Rudolf, Chef des aarg. Polizeikorps.\nHunold-Berger, Marie, Part., von Basel.\nGautschi-Siebenmann, Samuel, Kantonsingenieur.\n1040. Hafner=Oberlin, Margaretha, Wittwe. Vingeriegeschäft.\nEhrsam, Ida, Part.\nBelart, Julie, Lehrerin, von Brugg.\nBelart, Marie, Part., von Brugg.\nStänz-Zuter, Louise, Wittwe, Part.\n1107 Zimmermann-Siebenmann, August, Part.\nBrentano-Zimmermann, Gustav, Staatsanwalt, von Laufenburg.\nFisch, Karolina, Arzt's, Part.\n* Bircher-Schazmann, Heinrich, Med. Dr.\n1098 Hartmann-Götti, Rudolf, Fabrikant, von Ebnat (St. Gallen).\n† Derfelbe. Waschhaus und Stalling.\n1099 Merz-Märk, Sebastian, Notar. (Notariats- und Inkassogeschäft.)\n1100 Bäbler, Johann Jakob, Dr. Professor, von Matt (Glarus).\n1101\n\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4240,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2022,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p076",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p076.jpeg",
+      "bytes": 250069,
+      "sha256": "3225eacf5f598dee3d5a379256b1a72b9cab0d48ce9cae6f5d749ca2cc139dd2",
+      "sha256_of": "original",
+      "working_copy": "1888_p076.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:08+00:00"
+  }
+}

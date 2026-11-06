@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p169",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p169.jpeg",
+    "bytes": 187452,
+    "sha256": "cf2b83b3fd31c1f2e6049b9d4963d7b1b719445bd73ce28a1eb39c838cd2eeff",
+    "sha256_of": "original",
+    "working_copy": "1888_p169.jpeg"
+  },
+  "text": "Stahel, Bräm & Meyer Manufakturwaaren\nCafé Stahel\nStachelin, Dr. A.\nWidella, Manuel, Weinhändlung\nWächter-Häfner, Kurwirthschaft zum Alpenzeiger\nWeber, Bezirksarzt\nBettler, Adolf, Gasthof zum Ochsen\nWirth-Herzog, Auswanderungsagent\nWolfsgruber, Photograph\nWyser & Cie., Färberei\nZeughausdirektion\nZimmermann, Abr., Handelsgärtnerei\n„ „ Ablage\nZschokke & Cie., Baugeschüt\nZurlinden & Cie., Portland-Cementfabrik\n„ „ Wohnung\nHammer 191.\nGraben 1161.\nKirchgarten 303.\nKirchgasse 7.\nGraben 618.\nLaurenzenthorgasse 115.\nZollrain 89.\nvor dem Halbenthor 770.\nBachstraße 1055.\nAltes Zeughaus.\nNeues Zeughaus.\nKüttigerstraße.\nGraben 205.\nRohrerstraße 472.\nScheibenschachen 1180.\nBahnhofstraße 1013.\n151",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 1690,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 693,
+    "lines": 33,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 20.03,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0029,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:32:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p169",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p169.jpeg",
+      "bytes": 187452,
+      "sha256": "cf2b83b3fd31c1f2e6049b9d4963d7b1b719445bd73ce28a1eb39c838cd2eeff",
+      "sha256_of": "original",
+      "working_copy": "1888_p169.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:20+00:00"
+  }
+}

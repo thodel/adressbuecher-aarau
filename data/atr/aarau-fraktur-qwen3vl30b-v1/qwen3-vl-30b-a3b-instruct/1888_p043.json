@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p043",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p043.jpeg",
+    "bytes": 245545,
+    "sha256": "aef7e35e9472968689fa27595823519b0965ff2e17f3d29cb1e01ecd46f7282b",
+    "sha256_of": "original",
+    "working_copy": "1888_p043.jpeg"
+  },
+  "text": "Haus-\nNr.\n448.* Biedmeier-Müller, Dietr., Schreiner, in Amerika.\nMüller-Hächler, Barbara, Wittwe, Part., von Unterfultm.\nDbrift-Diener, Theodor, Postpacer, von Magden.\n449. Jenny und Weigel, Färberei und Druckereigeschäft.\nJenny-Kunz, Adolf, Kaufmann, von Jfweil (Vern).\nWeigel-Imbach, Johann, Färber, von Glauchau (Sachsen).\nStäubli-Bott, Rittlaus, Direktionssekretär, von Sulz.\n450.† Diefelben. Scheune und Tröcknehaus.\n451.† Diefelben. Fabrikationsgebäude.\n452.† Diefelben. Färberei.\n453.† Diefelben. Druckerei.\n454.* Krippendorff-Müller, Herm., Prof. Dr. phil., in Zürich.\nRothplez-Bürgi, Maria, Pfarrers Wittwe.\n455.* Derfelbe.\nWeisse-Meini, Karl, Färbermeister, von Glauchau (Sachsen).\n1133 † Imhof-Uman, Ernst, Fabrikationsgebäude.\n456. Guyer-Gunkel, Oskar, Halbleinfabrikant.\nGuyer, August, Fabrikant.\nHäfker, Arnold, Commis.\n457.† Derfelbe. Fabrikationsgebäude.\n458.† Derfelbe. Scheune.\n459.† Derfelbe. Tuchwaffe.\n460. Gautschi-Leuenberger, Rudolf, Dekonom, von Reinach.\nPaffera-Gloor, Johann, Cementarbeiter, von Segonzano (Südtirol).\nGloor-Litscher, Maria, Wittwe, Wäschcrin, von Birc.\n461.† Fischer, Thomas, Bierbrauer. Bierkeller.\n† Derfelbe. Gistkeller.\n462.† Staat Aargau. Turnhaus.\n\nHohrerstraße.\n463. Spirgi-Hochsträfer, Samuel, Landwirth, von Unterfultm.\n464.† Lagerhäuser der Central Schweiz. Petrol.-Keller.\n1253 † Keller-Steiner, Karl, Heufsuppen.\n465.† Zschokke & Cie. Baugeschäft. Magazin.\n466.† Diefelben. Schreinerwerkstätte und Magazin.\n467.† id. Maschinenjaal und Parquetterie.\n468.† id. Transmiffion mit Säge.\n469.† id. Dampfmaschine und Dampfkeffel.\n470.† id. Transmiffion.\n471.† id. Bureau, Werkstätte und Stallung.\n472.† id. Bureau.\n473.* Bally-Arndt, Eugen, Fabrikant.\n474. a. b. c.† Schweizerische Eidgenossenschaft. Zeughäuser.\n474. d.† Staat Aargau. Zeughaus.\nAdreßbuch der Stadt Aarau 1888.\n3",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4086,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1828,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.89,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p043",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p043.jpeg",
+      "bytes": 245545,
+      "sha256": "aef7e35e9472968689fa27595823519b0965ff2e17f3d29cb1e01ecd46f7282b",
+      "sha256_of": "original",
+      "working_copy": "1888_p043.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:46+00:00"
+  }
+}

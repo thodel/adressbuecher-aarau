@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p050",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p050.jpeg",
+    "bytes": 188525,
+    "sha256": "0ed9b9a725fe17461daf4fae62229777c3351208942946178cca6d98045132f6",
+    "sha256_of": "original",
+    "working_copy": "1892_p050.jpeg"
+  },
+  "text": "— 42 —\nHaus=\nNr.\n577.  Decker=Hoffmann, Julius, Huf- und Wagenschmied.\n  Hoffmann, Jakob, Part., von Zell.\n  Läuchli-Hohlz, Jakob, Polizeidiener, von Remigen.\n  Sutermeister-Strähl, Gottlieb, Postcommis, von Zofingen.\n  Decker, Elise, Part.\n578. † Fleiner=Zschokke, Alberts, Erbschaft. Magazin und Scheune.\n579. † Dieselbe. Remise.\n1347  † Egloff=Schnychiger, Joh. Georg, Handelsgärtner, von Tägerweilen\n    (Thurgau). Gartenhaus.\n1348  † Derselbe. Schopf mit Magazin.\n1349  †    „    Treibhaus.\n580.  Keller, Johann, Lohnkutscher.\n  Keller, Katharina, Part.\n  Gisiger-Fehr, Johann, Gärtner, von Kienberg (Solothurn).\n581. † Derselbe. Scheune und Remise.\n582. †    „    Remise.\n583. †    „    Remise mit Schweinescheune.\n584.  Einwohnergemeinde Aarau. Naturhistorisches Museum.\n  Wehrli-Haßler, Friedrich, Pedell.\n  Haßler, Gottlieb, Färber.\n  Fisch, Marie, Fabrikarbeiterin.\n\nLaurenzenvorstadt.\n585.  Gemeinde Aarau. Kantonsschulgebäude.\n586.  Fleiner, Alberts, Erbschaft.\n  Fleiner-Zschokke, Leontine, Fabrikants Wittwe.\n  Fleiner, Hans, Fabrikant.\n  Zschokke, Arthur, Part.\n  Schmuziger, Lina, Part.\n  Tanner, Irmengard, Part.\n587. † Dieselbe. Wasch- und Holzhaus.\n588. †    „    Holzschopf.\n589.  Staat Aargau. Infanterie-Kaserne.\n590.  Derselbe. Cantine.\n  Bertschinger-Riniker, Anna, Wittwe, von Lenzburg. Cantinewirthin.\n\nZeughausstraße.\n591.  Staat Aargau. Kasernen-Stallung.\n592.  Derselbe. Reitbahn.\n593.     „     Stallung.\n594.     „     Reitbahn.\n595.     „     Turnhalle.\n1310   Richard-Schmid, Ida, Metzgers Wittwe, Part.\n  Vinassa-von Salis, Friedrich, Kaufmann, von St. Gallen.\n1120  † Staat Aargau. Cavallerie-Kaserne.\n1121  † Derselbe. Stallungen.\n596.     „     Zeughaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7187,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1691,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:50:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p050",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p050.jpeg",
+      "bytes": 188525,
+      "sha256": "0ed9b9a725fe17461daf4fae62229777c3351208942946178cca6d98045132f6",
+      "sha256_of": "original",
+      "working_copy": "1892_p050.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:36+00:00"
+  }
+}

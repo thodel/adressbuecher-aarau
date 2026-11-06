@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p133",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p133.jpeg",
+    "bytes": 232411,
+    "sha256": "ee3c9501db044d289eb8db8145355e5a459ba67de9cf1efbfbdb18037e8225f7",
+    "sha256_of": "original",
+    "working_copy": "1892_p133.jpeg"
+  },
+  "text": "Plüß, Rosina, Weißnäherin von Ryken, hintere Vorstadt 699.\nPlüß-Stephanie, Marie, Buchhalterz, hintere Vorstadt 1236.\nPlüß, Verena, Part. von Bordemwab, Halden 264.\nPlüß-Zimmerli, Jakob, Fürber von Brittnau, Rathausgasse 47.\nPlüß-Zimmerli, Marie, Hebamme von Brittnau, id. id.\nPöll-Widmer, Johann, Maurerpolier von Gmar (Tirol) Ziegelrain 704.\nPrantl-Wildi, Alois, Maurer von Strengen (Tirol), vor dem Halden-\nthor 784.\nX Prior-Dettmer, Helena, Part., von Dissen (Hannover), Gartenstraße 1129.\nProbst-Benert, Maria, Part. von Aarburg, Rathausgasse 20.\n\nQuernheim-Groß, Helene, Häusirerin von Zrmttraut (Preußen),\nhintere Vorstadt 645.\n\nRämisperger-Berner, Marie, GürtlersWittwe, Golattenmattgasse 231 b.\nRämisperger-Hemmeler, Gottfried, Spengler, Halden 275.\nRämisperger-Hunkeler, Hermann, Spengler, Adelbündli 174.\nRämisperger-Stubler, Gottlieb, Spengler, Rain 881.\nRamfauer-Hächler, Anna, Wittwe, Part. von Herisau (Appenzell), Pelz-\ngasse 69.\nX Randegger-Wirth, Josephtine, Wittwe, Wirthin zur bayrischen Bierhalle,\nvon Dffingen (Zürich), obere Vorstadt 926.\nRauch-BaldeSchwyler, Bertha, Wittwe von Mühlhausen (Elfaß), obere\nVorstadt 966.\nX Rauschenstein-Pfleger, Professors Wittwe, von Brugg, Halden 261.\nRebmann-Häfliger, Karl Jakob, Maler von Fellbach (Württemberg),\nWohnung Rain 885. Malerwerkstätte Rain 874.\nReichert-Unter, Wilhelm, Koch (Wildenmann), von Vörrach (Baden),\nMetzgergasse 56.\nX Reimann-Reichl, Gustav, Obergerichtsschreiber von Wölflinswyl, Gra-\nben 618.\nReimann-Rüegger, Verena, Part. von Wölflinswyl, Casinofstraße 573.\nReimann, Friedrich, Postcommis von Wölflinswyl, id. id.\nReinhardt-Müller, Johann Baptist, Gärtner von Balsthal (Solothurn),\nSchachen 725.\nRenold-Geißmann, Katharina, Part., Ziegelrain 751.\nRenold-Hinden, Maria, Wittwe, Wirthin, Schachen 733.\nRenold-Wildi, Maria, Wittwe, Part., Zollrain 88.\nX Renhard-Maier, F. Martin, Professior von Wigoltingen (Thurgau),\nRain 829.\nRenhardt-Stiremann, Joseph, Knecht von Böttstein, Binenhof 1006.\nX Rey-Ringger, Jakob, Lehrer der Bezirksschule, vor dem Haldenthor 777.\nX Richard-Schmid, Jda, Metzgers Wittwe, Part., Zeughausstraße 1310.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5859,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2127,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:44:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p133",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p133.jpeg",
+      "bytes": 232411,
+      "sha256": "ee3c9501db044d289eb8db8145355e5a459ba67de9cf1efbfbdb18037e8225f7",
+      "sha256_of": "original",
+      "working_copy": "1892_p133.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:56+00:00"
+  }
+}

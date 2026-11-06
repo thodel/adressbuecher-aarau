@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p112",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p112.jpeg",
+    "bytes": 255796,
+    "sha256": "194b859400fedba2e70a6d7b527a22c8f6c8a08706cf50ad5b944084db613237",
+    "sha256_of": "original",
+    "working_copy": "1892_p112.jpeg"
+  },
+  "text": "96 Gautschi — Gloor.\n\nGautschi-Leuenberger, Rudolf, Oekonom von Reinach, Telli 460.\nGautschi-Maculin, Rudolf, Wirth zum „Frohsinn“, von Reinach, hinter\n  dem Bahnhof 1172.\nGautschi-Roth, Rudolf, Sohn, Oekonom von Reinach, Telli 460.\nGautschi-Siebenmann, Samuel, Kantons-Ingenieur, hintere Vorstadt 646.\nGeißmann, Xaver, Sekretär von Hägglingen, Pelzgasse 130.\nGeyer-Schleich, Joseph, Schneider von Benfeld (Elsaß), Rathhausgasse 45.\nGerber-Haßler, Louise Elisabeth, Wittwe, Part., vordere Vorstadt 670.\nGerber-Seiler, Gustav, March. Tailleur. Kleider- und Tuchhandlung,\n  vordere Vorstadt 670.\nGerber, Robert, Commis, vordere Vorstadt 670.\nGerodetti-Habermacher, Virgilus, Hutmacher und Handlung von Marmor-\n  steinen von Sagliano (Italien), hinter dem Bahnhof 1268.\nGertiser-Andres, Maria, Wittwe, Part. von Münchwylen, Rain 820.\nGeßner, August, Dr. Professor von Zürich, Bachstraße 1101.\nGiesch-Caviezel, Adolf, Kaufmann von Chur, hintere Vorstadt 638.\nGiezentanner, Elisabeth, Part. von Kappel (St. Gallen), Golattenmatt-\n  gasse 235.\nGiger-Märki, Jakob, Schreiner von Gontenschwyl, Halden 286.\nGiger-Wildi, Rosina, Malers Wittwe, Part. von Rixheim (Württemberg),\n  obere Vorstadt 937.\nGing-Hug, August, Schmied, Stadthof 92 e, Werkstätte Casinostraße 572.\nGing, Johann Jakob, Part., Casinostraße 571.\nGing-Ryfer, Wilhelm, Wagner, Milchgasse 77, Werkstätte Casinostraße 572.\nGinsberg-Ammann, Elisabeth, Wittwe, Part., Bahnhofstraße 1026.\nGisi-von Arx, Viktor, Kaufmann, Tuchhandlung von Niedergösgen (Solo-\n  thurn), Holzmarkt 664.\nGisi-Bächli, Adolf, Tapezierer von Buchs, Pelzgasse 126.\nGisi-Wernli, Samuel, Schreinermeister von Möriken, Stadthof 92 b.\nGisiger-Feer, Johann, Gärtner v. Kienberg (Solothurn), Casinostr. 580.\nGysi-Ammann, Traugott, Lehrer, jenseits der Aare 1303 b.\nGysi, Anna, Buchhalterin, vordere Vorstadt 895.\nGysi-Anderegg, Emil, Maler, obere Vorstadt 942.\nGysi-Büchle, Emil, Part., Gartenstraße 978.\nGysi-Fischer, Friedrich, Schlosser, hintere Vorstadt 645.\nGysi, Hans, Sohn, Mechaniker, vordere Vorstadt 895.\nGysi, Lisette, Modelstechers, Part., Kirchgasse 10.\nGysi, Otto, Sohn, Photograph, vordere Vorstadt 895.\nGysi, Otto Robert, Postcommis, obere Vorstadt 942.\nGysi-Siebenmann, Otto, Photograph, vordere Vorstadt 895.\nGysi-Studler, Arnold, Mechaniker, vordere Vorstadt 675.\nGladbach-Renold, Professor von Oppenheim (Hessen), Casinostraße 576.\nGloor, Bertha, Damenschneiderin von Dürrenäsch, Adelbändli 171.\nGloor, Elise, Fabrikarbeiterin, von Seon, Halden 260.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9117,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2490,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.07,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+  "recognised_at": "2026-11-06T12:02:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gemini-v1",
+    "source": {
+      "key": "1892_p112",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p112.jpeg",
+      "bytes": 255796,
+      "sha256": "194b859400fedba2e70a6d7b527a22c8f6c8a08706cf50ad5b944084db613237",
+      "sha256_of": "original",
+      "working_copy": "1892_p112.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:02:59+00:00"
+  }
+}

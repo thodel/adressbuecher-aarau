@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p054",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p054.jpeg",
+    "bytes": 331365,
+    "sha256": "ca2fd92c63bf5e4285934359a9b8486fafec7c6f21d75ef4c9273450742b017e",
+    "sha256_of": "original",
+    "working_copy": "1884_p054.jpeg"
+  },
+  "text": "50\tWernli. — Widmer.\n\nWernli-Kraft, Rudolf, Pfarrer, von Thalheim, Milchgasse 158.\n— -Blauer, Andreas, Schuhmachermeister, von Thalheim, Rathhausg. 44.\n— -Senn, Friedrich, Gärtner, von Thalheim, Milchgasse 154.\n— -Hediger, Samuel, Holzspalter, von Thalheim, Hammer 185c.\n— -Wullschleger, Ulrich, Holzspalter, von Thalheim, Halden 252.\n— -Reinhart, Kaspar, Weichenwärter, v. Thalheim, Laurenzenvorstadt 362.\n— -Lienhard, Maria Anna, Wittwe, Spetterin, v. Thalheim, Laurenzen-\n  vorstadt 552.\n— -Wächter, Johann, Bahnangestellter, von Thalheim, Schachen 739.\n— -Häfliger, Jakob, Gärtner, von Thalheim, vor dem Haldenthor 799.\n— -Hächler, Jakob, Fabrikarbeiter, von Thalheim, vor d. Haldenth. 796.\n— -Hug, Samuel, Landarbeiter, von Thalheim, vor d. Haldenth. 803.\n— -Wildi, Rudolf, Partik., von Thalheim, neues Quartier 1145.\n— -Schweri, Johann, Gärtner, von Thalheim, vor dem Haldenthor 808.\n— -Meier, Jakob, Schreinermeister, von Thalheim, obere Vorstadt 909.\n— -Adel, Jakob, Wegknecht u. Laternenanzünder, Laurenzenvorstadt 1124.\n— -Siegrist, Ulrich, Maschinenputzer, von Thalheim, obere Vorstadt 944.\n— Maria, Taglöhnerin, von Thalheim, Halden 257.\n— -Wernli, Johann, Taglöhner, von Thalheim, hinter d. Bahnhof 496.\n— -Wernli, Johann Gabriel Taglöhner, v. Thalheim, v. d. Haldenth. 772.\n— -Nußbaum, Jakob, Knecht, von Thalheim, Schachen 729.\nWespi-Zurlinden, Karl, Hafnermeister, v. Ossingen (Zürich), ob. Vorst. 966.\nWestfeld-Spitzli, Wilhelm, Kaufmann, von Unterschüpf (Grßhzth. Baden),\n  Rainstraße 843.\nWettler-Schneider, Adolf, von Rheineck (St. Gallen), Gastwirth z. Ochsen,\n  Laurenzenvorstadt 115.\nWettler, Konrad, Vater, Partik., von Rheineck (St. Gallen), Bachstr. 1112.\nWidmer-Rogg, Xaver, Knecht, von Freienwil, Pelzgasse 64.\n— -Stirnemann, Anna, Wittwe, Spetterin, von Gränichen, Halden 284.\n— -Zehnder, Verena, Wittwe, Wäscherin, von Freienwyl, Igelweid 632.\n— -Hochstraßer, Gottl., Posamenter, von Gränichen, Pelzgasse 125.\n— Karoline, Modistin, von Freienwyl, vordere Vorstadt 893.\n— Marie, Modistin, von Freienwyl, vordere Vorstadt 893.\n— -Zubler, Rudolf, Fabrikaufseher, von Gränichen, im Rebberg 1102.\n— -Gamper, Friedrich, Postcommis, von Safenwyl, Pelzgasse 134.\n— -Zehnder, Samuel, Lagerhausarbeiter, v. Safenwyl, Bachstraße 1031.\n— Franz Xaver, Kanzlist, von Schneisingen, Rathhausgasse 22.\n— -Frühauf, Baltasar, Mechaniker, von Bergdietikon, Milchgasse 73.\n— Maria, Taglöhnerin, von Erlinsbach (Solothurn), Milchgasse 153.\n— Jakob, Taglöhner, von Gränichen, Rainstraße 884.\n— Justine, Partik., von Büblikon, Rainstraße 857.\n— -Müller, Maria, Taglöhnerin, von Oftringen, Schachen 736.\n— Jakob, Kutscher, von Gränichen, Holzmarktplatz 662.\n— Elisabeth, Spetterin, von Gränichen, Igelweid 635.\n— Verena, Taglöhnerin, von Gränichen, Golattenmattgasse 237.\n— -Hoffmann, Salome, Fabrikarbeiterin, von Erlinsbach (Solothurn),\n  hintere Vorstadt 643.\n— -Wüthrich, Jakob, Webermeister, von Gränichen, Rainstraße 826.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9217,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2932,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 58.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:16:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p054",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p054.jpeg",
+      "bytes": 331365,
+      "sha256": "ca2fd92c63bf5e4285934359a9b8486fafec7c6f21d75ef4c9273450742b017e",
+      "sha256_of": "original",
+      "working_copy": "1884_p054.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:16:23+00:00"
+  }
+}

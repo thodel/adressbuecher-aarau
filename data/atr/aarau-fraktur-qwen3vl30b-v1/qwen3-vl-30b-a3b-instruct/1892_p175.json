@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p175",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p175.jpeg",
+    "bytes": 226380,
+    "sha256": "cf1591bcbed304a1ccfb278592c8dc643da9f3b39ce14fa338a2c8c578d41b75",
+    "sha256_of": "original",
+    "working_copy": "1892_p175.jpeg"
+  },
+  "text": "159\nVerzeichniß der Gesellschaften und Vereine.\n\nI. Wohltätigkeits-Gesellschaften.\nA. Armenvereine.\nArmenersitzungsverein des Bez. Aarau.\nDeutscher Hilfsverein.\nFrauenarbeitsverein Aarau.\nHilfsverein Aarau.\nKleinfinderpflege in der Halben.\nKleinfinder schule Bahnhofstraße.\nSchwesterverein der Loge zur „Brudertreue“ in Aarau.\nStädtischer Zünfrappenverein Aarau.\nBerein gegen Hausbettel.\nB. Krankenvereine, Unterstützungskassen.\nBuchdrucker-Krankenkasse.\nGroße Gesellenlade für Handwerker.\nGrütlibverein-Krankenkasse.\nHeizer- und Maschinistenverein von Aarau\nund Umgebung.\nKrankenjuppe-Anstalt.\nKrankenunterstützungs-Gesellschaft für\nFrauen und Töchter.\nMänner-Krankenunterstützungs-Berein\nAarau.\nSamariterverein.\nStädtischer Lehrerpensionsverein in Aarau.\nII. Vereine und Gesellschaften\nmit künstlerischen, wissenschaftlichen und\ngewerblichen Tendenzen.\nAargauischer Kunstverein.\nAargauischer Thierschutzverein.\nAarg. Ingenieur- und Architekten-Berein.\nBibelgesellschaft.\nChristlicher Jünglingsverein.\nEinwohnerverein der Stadt Aarau.\nFreimaurerloge.\nGartenbauverein.\nGewerbe halle und Vorschutzkasse.\nGrütlibverein Aarau.\nHandwerker- und Gewerbeverein.\nHistorische Gesellschaft.\nKaufmännische Abendgesellschaft.\nKulturgeellschaft des Bezirks Aarau.\nLesegesellschaft.\nMittelschweiz. Geographisch Commercietle\nGesellschaft in Aarau.\nNaturforschende Gesellschaft.\nSchneider-Jachverein Aarau.\nSchuhmacherverein Aarau.\nSonntags- und Handwerker schule.\nStenographenverein.\nTarifverein Aarau.\nTypographenverein.\nVerein junger Kaufleute.\nVerein schweizerischer Geschäftsreisender,\nSection Aarau.\nIII. Gesangvereine.\nCäcilienverein Aarau.\nGesangsssection des Grütlibereins.\nSängerbund Aarau.\nDichterchor „Melodia“ Aarau.\nIV, Musikvereine.\nOrchester verein.\nStadtmusikgesellschaft Aarau.\nZither-Club Aarau.\nV. Militärische Vereinigungen.\nArtillerieverein Aarau.\nMilitär-Sanitätsverein von Aarau und\nUmgebung.\nOffiziers-Gesellschaft Aarau.\nUnteroffiziersverein Aarau.\nWasserfahrtverein Aarau.\nVI. Schützengesellschaften.\nFreier Schießverein Aarau.\nSchützengesellschaft Aarau.\nSchützengesellschaft des Grütlibereins.\nVII. Turnvereine.\nBürgerturnverein Aarau.\nTurnverein Alte Section.\nTurnverein Section des Grütlibereins.\nVIII. Verschiedene Gesellschaften\nund Vereine.\nAargauischer Taubkummenverein.\nAltersgenossenverein Aarau.\nDeutscher Arbeiterverein.\nFritzkenverein Aarau.\nJahobenverein Aarau.\nMäßigkeit sverein des blauen Kreuzes.\nVelo-Club.\nZweundzwanziger-Jahrgängerverein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5928,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2469,
+    "lines": 90,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 26.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:49:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p175",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p175.jpeg",
+      "bytes": 226380,
+      "sha256": "cf1591bcbed304a1ccfb278592c8dc643da9f3b39ce14fa338a2c8c578d41b75",
+      "sha256_of": "original",
+      "working_copy": "1892_p175.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:58+00:00"
+  }
+}

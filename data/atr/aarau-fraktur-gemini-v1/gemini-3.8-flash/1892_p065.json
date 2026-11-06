@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p065",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p065.jpeg",
+    "bytes": 229298,
+    "sha256": "0377ea2d6fce6202d54957d2332980c0e40be0a78f77816a25c599f47e6633b1",
+    "sha256_of": "original",
+    "working_copy": "1892_p065.jpeg"
+  },
+  "text": "— 57 —\n\nHaus-\nNr.\n813. † Staat Aargau. Laboratorium.\n814. † Derselbe. Munitionsmagazin.\n815. †     „     Abtritte.\n816. † Rychner, Heinrich, Gewehrfabrikant. Schießstand.\n817. † Derselbe. Scheibenstand.\n818. † Reformirte Kirchgemeinde Aarau. Gartenhaus.\n\nRain.\n\n819.  Hagenbuch-Groß, Karl, Coiffeur, Chirurg und Leichenbeschauer.\n        Spiegelglasversicherungs-Agentur.\n      Schatzmann-Bolliger, Friedrich, Agent, von Windisch.\n820.  Jörg-Künzli, Peter, Schuhmachermeister. Schuhhandlung.\n      Schwammberger-Schmid, Jakob, Färber, von Auenstein.\n      Gertiser-Andres, Maria, Wittwe, Part., von Münchwylen.\n      Andres, Emma, Fabrikarbeiterin.\n821.  Birkhofer-Hagenbuch, Albertine, Damenschneiderin.\n      Frey, Albert, Uhrenmacher, von Densbüren.\n      Meier, Joseph, Büreauchef (Lagerhaus), von Ehrendingen.\n      Ammann, Gottfried, Commis, von Thun (Bern).\n822.  Keller-Speereisen, Gottlieb, von Wöschnau (Solothurn). Speise-\n        wirthschaft zum Neuen Bund.\n      Matter-Egli, Jakob, Privat., von Kölliken.\n823.  Wittmer-Schumacher, Elise, Wittwe, Part., von Erlinsbach\n        (Solothurn).\n      Wittmer, Elise, von Erlinsbach (Solothurn). Spezereiwaarenhandlung.\n      Wittmer, Julius, Lithographische Anstalt und Druckerei, von Erlins-\n        bach (Solothurn).\n      Furter-Rüegger, Friedrich, Bahnmeister, von Staufen.\n      Wanger-Siebenmann, Hermann, Part.\n824. † Dieselbe. Lithographische Anstalt.\n825. a Etter-Hägi, Rheinhard, Milchverkäufer, von Langrickenbach (Thurgau).\n      Peyer-Roß, Wilhelmine, Wäscherin und Glätterin, von Lostorf (Solothurn).\n      Peyer, Sophie, Glätterin, von Lostorf (Solothurn).\n      Häfeli-Fischer, Julie, Expedients Wittwe, Näherin von Seengen.\n825. b. Zuber-Müller, Andreas, Hausknecht.\n      Roth-Widmer, Verena, Wäscherin, von Mühlethal.\n      Roth-Gautschi, Friedrich, Schuhmachermeister, von Mühlethal.\n826. * Dreßler-Hofmann, Laurenz, Kaufmann, von Belfort (Frankreich).\n        (Camisascas Nachfolger). Zum hohen Haus. Bett-, Möbel- und\n        Tuchwaarenhandlung; fertige Kleider, Schuhwaaren und Hüte,\n        Reiseartikel, Mercerie-, Quincaillerie- und Bijouteriewaarenhandlung.\n      Aal-Dreßler, Marie,Geschäftsführerin, vonKarlsruhe (Großherzogth. Baden).\n      Haupt-Ginsberg, Hermann, Oberkellner, von Regensberg (Zürich).\n827. † Rohr, Samuel, Gastwirth Scheune.\n828.  Richner-Siebenmann, Elise, Bandfabrikants Wittwe.\n      Landolt-Hässig, Lina, Wittwe, Part.\n      Gonzenbach-Gonzenbach, August, Ingenieur, Stadtrath, von St. Gallen.\n      Oschwald, Walther, Kriminalgerichtsschreiber, von Lenzburg.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7361,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2570,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:52:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p065",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p065.jpeg",
+      "bytes": 229298,
+      "sha256": "0377ea2d6fce6202d54957d2332980c0e40be0a78f77816a25c599f47e6633b1",
+      "sha256_of": "original",
+      "working_copy": "1892_p065.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:52:26+00:00"
+  }
+}

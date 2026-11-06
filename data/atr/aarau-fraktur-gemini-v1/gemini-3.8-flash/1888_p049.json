@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p049",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p049.jpeg",
+    "bytes": 260087,
+    "sha256": "163c051f7a15d43aa41c4e59d851ad1f67b15d3b66dd9f241b9dbed862d71c4e",
+    "sha256_of": "original",
+    "working_copy": "1888_p049.jpeg"
+  },
+  "text": "— 39 —\n\nHaus=\nNr.\n563. Holzach=Siebenmann, Dietrich, Bierbrauer.\n  Spengler=Lienhard, Louise, Wittwe, Part.\n564.† Derselbe. Kegelbahn.\n565.† id. Bierbrauerei.\n566.† id. Eiskeller.\n1214   † id. Eishaus und Bierkeller.\n1215   † id. Wasch= und Holzhaus.\n567. Gemeinde Aarau. Schulhaus.\n  Schäfer, Ludwig, Pedell.\n568. a. Weber=Hegnauer, Hermann, von Menziken. Restauration.\n568. b. Guggisberg=Beck, Emil, Bäcker und Conditor, von Vevey (Waadt).\n  Käppeli=König, Joh., Zugführer, von Merenschwand.\n569.* Derselbe. Wohnhaus.\n  Schneider=Ryser, Franz Xaver, Kondukteur, von Herznach.\n\nCasinostraße.\n\n570.* Hirsbrunner=Kiener, Jakob, Instrumentmacher.\n  Strübin=Frey, August, von Basel. Restauration.\n  Bertschinger=Aeschbach, Maria Elise, Wittwe, Part., von Lenzburg.\n  Gyger=Nünlist, Peter Eugen, Kondukteur, von Nieder=Gösgen.\n  Hengherr=Hiltbrunner, Aug., Lehrer, von Affoltern bei Höng (Zürich).\n  Sutermeister=Strähl, Gottlieb, Postcommis, von Zofingen.\n571. Ging=Weißhaupt, Joh. Jakob, Part.\n  Ging, Wilhelm, Wagner.\n  Ging, August, Schmied.\n  Keller, Katharina, von Ewatingen (Baden). Ellenwaarenhandlung.\n  Rüetschi=Nüsperli, Fried., Buchhalter.\n572.† Derselbe. Schmiede= und Wagnerei=Werkstätte.\n573. Wittmer=Reimann, Franz J., Musiklehrer, von Erlinsbach (Solothurn).\n  Reimann geb. Rüegger, Berena, Part., von Wölflinswyl.\n  Reimann, Friedrich, Postcommis, von Wölflinswyl.\n574. Birchmeier=Kull, August, Maler, von Würenlingen.\n  Bertschi, Fritz, Malergehilfe, von Dürrenäsch.\n575.† Derselbe. Holzschopf.\n576.* Imhof, Alexis, Negotiant in Zürich.\n  Dr. F. H. Berner=Egli, Zahnarzt.\n  Holzach=Wäffler, Dietrich, Vater, Part.\n  Zaugg=Byland, Susanna, von Eriswyl (Bern).\n  Zaugg, Daniel, Buchhalter, von Eriswyl (Bern).\n577. Decker=Hoffmann, Julius, Huf= und Wagenschmied.\n  Kirchhofer=Obrist, Maria, von Auenstein. Tricoteriewaarenfabrikation\n    (Strickwaaren).\n578.† Fleiner=Zschokke, Alberts Erbschaft. Magazin und Scheune.\n579.† Dieselbe. Remise.\n580. Keller=Zimmermann, Johann, Lohnkutscher.\n  Eng=Guldimann, Heinrich, Schuhmacher, von Stüßlingen (Solothurn).\n581.† Derselbe. Scheune und Remise.\n582.† Derselbe. Remise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7958,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2128,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:28:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p049",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p049.jpeg",
+      "bytes": 260087,
+      "sha256": "163c051f7a15d43aa41c4e59d851ad1f67b15d3b66dd9f241b9dbed862d71c4e",
+      "sha256_of": "original",
+      "working_copy": "1888_p049.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:32+00:00"
+  }
+}

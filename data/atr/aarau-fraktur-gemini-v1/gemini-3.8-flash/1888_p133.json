@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p133",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p133.jpeg",
+    "bytes": 306856,
+    "sha256": "1ec96b9da926b996c1db21c011e7e6dc0c392551a7cc674ce1a1e0564998f889",
+    "sha256_of": "original",
+    "working_copy": "1888_p133.jpeg"
+  },
+  "text": "Stäbli — Stierli. 115\n\nStäbli, Henriette Adele, Privatin von Brugg, Laurenzenvorstadt 412.\nStäbli, Ida, Haushälterin von Brugg, Laurenzenvorstadt 422.\nStäbli-Schultheß, Sophie, Arzt’s Wittwe von Brugg, Gais 482.\nStäbli, Sophie, Part., Dr’s. von Brugg, Gais 482.\nStäbli, Gottlieb Wilhelm, Part. id. id. id.\nStäheli-Grenacher, Jakob, Fabrikarbeiter von Egliswyl, Telli 440.\nStäheli-Herzog, Alfred, Dr. med. von Basel, jenseits der Aare (Kirsch-\n  garten) 1086.\nStänz-Suter, Louise, Ingenieurs Wittwe, Bachstraße 1107.\nStäubli-Bock, Niklaus, Direktionssekretär von Sulz, Telli 449.\nStahel-Ernst, Johann, Kaufmann und Wirth, Graben 1161.\nStapfer-Fesenmeier, Johann, Schuhmachermeister v. Sarmenstorf, Rath-\n  hausgasse 31.\nStaub-Kübler, Hans Jakob, Taglöhner von Dübendorf, Milchgasse 159.\nStauber, Arnold, Sekretär von Zezwyl, Rathhausgasse 2.\nStauber, Emil, Bankangestellter von Zezwyl, vordere Vorstadt 682.\nStauber-Pagan, Jakob, Notar und Amtsrevisor von Zezwyl, obere Vor-\n  stadt 927.\nStauffer, Albert, Bankangestellter von Hallwyl, Laurenzenvorstadt 544.\nStauß, Sabina, Damenschneiderin von Weilheim (Hohenzollern), Hal-\n  den 276.\nSteiner-Dürr, Jakob, Postkondukteur von Oberengstringen (Zürich), Lau-\n  renzenthorgasse 117.\nSteiner-Haller, Heinrich, Taglöhner von Rein, Laurenzenvorstadt 376.\nSteiner-Haller, Johann, Taglöhner von Schmiedrued, vor dem Halden-\n  thor 1084.\nSteiner, Johann, Part., Bahnhofstraße 541.\nSteiner-Haller, Marie, Taglöhnerin von Gontenschwyl, Halden 272.\nSteiner-Lindenmann, Susanna, Wittwe, Part. Bahnhofstraße 541.\nSteiner-Lindenmann, Susanna, Wittwe, Part. v. Dürrenäsch, Goldern 1001.\nSteiner-Mathys, Joh. Jakob, Erdarbeiter v. Dürrenäsch, Hammer 185 b.\nSteiner-Schürch, Jakob, Kondukteur von Dürrenäsch, Graben 205.\nSteiner-Sennhauser, Samuel, Oekonom, Laurenzenvorstadt 547.\nSteiner-Weber, Barbara, Wittwe, Part. von Winterthur (Zürich), Lau-\n  renzenvorstadt 412.\nSteininger-Urech, Karolina, Wittwe, Part., Rain 879.\nStephani-Heckmann, Wilhelmine, Wittwe, Part., Rathhausgasse 29.\nStephani-Wettler, Albertine, Fabrikants Wittwe, Bachstraße 1112.\nStephani-Winkler, August, Kaufmann, Rathhausgasse 26.\nStern-Zäslin, Alexander, Prediger an der evang. Kapelle, von Basel,\n  Zschokkestraße 974.\nStierli-Andres, Elise, Buchdruckers Wittwe, obere Vorstadt 916.\nStierli-Brentano, Goar Leonz, Fürsprech und Stadtrath von Aristau,\n  Laurenzenvorstadt 602.\nStierli, Cäcilia, Part. von Aristau, obere Vorstadt 916.\nStierli, Sophie, Damenschneiderin von Aristau, Oberthor 228 a.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7979,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2503,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:38:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p133",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p133.jpeg",
+      "bytes": 306856,
+      "sha256": "1ec96b9da926b996c1db21c011e7e6dc0c392551a7cc674ce1a1e0564998f889",
+      "sha256_of": "original",
+      "working_copy": "1888_p133.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:46+00:00"
+  }
+}

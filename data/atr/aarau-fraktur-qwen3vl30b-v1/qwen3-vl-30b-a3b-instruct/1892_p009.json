@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p009",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p009.jpeg",
+    "bytes": 211200,
+    "sha256": "8080e83f06a3c389b973b9ac82808e722cb7342f9117b3199dec8ba540b5a76f",
+    "sha256_of": "original",
+    "working_copy": "1892_p009.jpeg"
+  },
+  "text": "Verzeichniß\nder\nEinwohner, Wohn- und Oekonomie-Gebäude\nzu Aarau.\n\nNeben jeder Nummer ist der Eigenthümer des betreffenden Hauses bemerkt; bewohnt\ner selbst dieses nicht, so ist ein * beigesetzt. Oekonomiegebäude find mit † bezeichnet.\nWo kein Heimatsort beigesetzt ist, find es Bürger von Aarau.\n\nHaus-\nNr.\n\nNathausgasse.\n1. * Schmuziger-Roller, Daniel, Baumeister.\nSchmuziger, Marie, Schreibmaterialien- und Kinderpielwaarenhandlung.\n(Vormals Firma Daniel Schmuziger-Fisch.)\nWägmer, Anna, Ladentöchter, von Mellingen.\n2. Morath-Dilger, Johann, Kaufmann, Quincaillerie-, Glas-, Porzellan-\nmaaren-, Uhren- und Kinderpielwaarenhandlung.\nMorath, Johann, Sohn, Kaufmann.\n3. Wydler-Fischer, Julius, Notariats-, Insasso- und Verwaltungsgeschäft.\nHauptagentur der franz. Feuerver sicherungsgesellschaft \"Phönix\".\nHauptagent der Lebensversicherungsgesellschaft \"La National\" in Paris.\nAgentur der schweiz. Hagelversicherungsgesellschaft.\nSchneeberger-Salvi, Jakob, von Vordemwald (Italienische Waarenhalle).\nFrei geb. Württemberger, Bertha, Wittwe, Part., von Dresden.\nKramer, Jakob. Taglöhner, von Schlokrned.\nWeber geb. Buchmann, Magdalena, Wittwe, Part., von Oberflachs.\nFrei-Wösch, Ulrich Wilhelm, Werk- und Brunnenmeister, von Zurzach.\nMösch, Emil, Commis von Fried.\n4. Siegrist-Riniker, Heinrich, Metzger.\nHek-Wolf, Alexander, Kaufmann, von Zillisheim (Elsas). Tuch- und\nMöbelwaarenhandlung, Firma: Gebrüder Hek, Filiale der Maga-\nzine zur Stadt Mülhausen, Biel und Solothurn.\nBaumgartner, Adolf, Commis, von Denfingen (Solothurn).\n5. Weibezahl, Leonhardt, Apotheker von Gotha.\nHagenbuch-Hagenbuch, Verena, Stickeri- und Wollenwaarenhandlung.\n\nKirchgasse.\n6. * Staats Aargau. Pfarrhelfergebäude.\nFrey-Nauchenstein, Eduard, Pfarrhelfer für den Helferkreis Aarau.\n7. Bidiella-Tarats, Manuel, von Sitges (Spanien), Spanische Wein-\nhalle. Weinhändlung.\n\nAdreßbuch der Stadt Aarau 1892.\n1",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3514,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1881,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p009",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p009.jpeg",
+      "bytes": 211200,
+      "sha256": "8080e83f06a3c389b973b9ac82808e722cb7342f9117b3199dec8ba540b5a76f",
+      "sha256_of": "original",
+      "working_copy": "1892_p009.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:14+00:00"
+  }
+}

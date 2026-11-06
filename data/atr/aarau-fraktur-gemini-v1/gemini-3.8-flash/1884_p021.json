@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p021",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p021.jpeg",
+    "bytes": 338765,
+    "sha256": "69a2960962cf86a361700f338b982854394fe21f87d638f2dbc5861218f38506",
+    "sha256_of": "original",
+    "working_copy": "1884_p021.jpeg"
+  },
+  "text": "Cantu.  —  Düpont.  17\n\nCantu, Josef, Maurermeister, von Vico-Morcote (Tessin), Stadthof 92a.\nChristen-Kretz, Alois, Mechaniker, v. Buochs (Unterwald.), Milchgasse 147.\nChristoffel, Huldr., Bezirkslehrer, v. Scheid (Graubünden), Rainstr. 875.\n*Codognari-Müller, Marie, Wittwe, Partik., hintere Vorstadt 688.\nCoradi-Stahl, Adam, Bez.-Lehrer, v. Oberneunforn (Thurg.), Rathhausg. 20.\n  —  -Stahl, Emma, Stickerei- und Wollen-Geschäft, von Oberneunforn\n      (Thurgau), Rathhausgasse 20.\nCours-Decker, Franz, Wirth, v. Maßmünster (Elsaß), Bahnhofstraße 568.\n*Custer-Sauerländer, Mathilde, Wittwe, Partik., Laurenzenvorstadt 418.\n* —  -Fueter, Hermann, Dr. Phil., Fabrikant, Bahnhofstraße 651.\n\nDambach-Bossardt, Jb, Schuhmachermeister, von Bözberg, Stadthof 92a.\n  —  -Wild, Jakob, Postadjunkt, von Brugg, Bahnhofstraße 1074.\nDavid-Hunziker, Julie, Wittwe, Partik., von Basel, Rathhausgasse 18.\nDäniker, Frida, Lehrerin, von Zürich, vor dem Haldenthor 769.\nDätwyler-Merz, Johann, Sekretär, von Unterentfelden, Metzgergasse 56.\n  —  -Lüscher, Johann, Holzspalter, von Wittwyl, Halden 266b.\n  —  -Meier, Johann, Taglöhner, von Wittwyl, Ziegelrain 707.\n*Decker, Julius, Hufschmied, Casinostraße 577.\n* —  Julius, Schmied, Sohn, Casinostraße 577.\nDeppeler-Werder, Anna, Sekretärs Wittwe, v. Tegerfelden, vord. Vorst. 669.\nDeubelbeiß-Schaffner, Johann, Güterschaffner, von Holderbank, hinter dem\n      Bahnhof 494.\nDietiker-Bircher, Joh. Jb., Taglöhner, v. Thalheim, Golattenmattg. 237b.\n  —  Emma, Wäscherin, von Thalheim, Golattenmattgasse 237b.\n  —  -Schluep, Johann, Postfakteur, von Thalheim, Bahnhofstraße 560.\n*Dolder-Saxer, Joh. Friedr., Kaufmann, Weißwaarengeschäft, Graben 219.\n  —  Susette, Mercerie-Handlung, v. Hauptweil (Thurg.), vord. Vorst. 891.\nDoser-Schröder, Leopold, Dir.-Sekretär, v. Rheinfelden, obere Vorst. 960.\nDöbeli-Döbeli, Jakob, Wirth, von Fahrwangen, Casinostraße 1176.\nDöhnel, August, Schuhmachermeister, von Badenweiler (Grßhzth. Baden),\n      Golattenmattgasse 239.\n  -- Emma, Spetterin, von Badenweiler (Grßhzth. Baden), Halden 267.\nDößekel, Eduard, Oberrichter, von Seon, Bahnhofstraße 1160.\n  —  -Dößekel, Louise, Partik., von Seon, Rainstraße 877.\n  —  Maria, Lehrerin, von Seon, obere Vorstadt 1117.\nDrack-Renold, Hermann, Gießer, von Nußbaumen, Milchgasse 149.\nDreifuß-Wyler, Karl, Viehhändler, von Endingen, jenseits der Aare 297.\n  —  -Guggenheim, Sl., Viehhändler, v. Endingen, jenseits der Aare 297.\n  —  -Görtschel, Adolf, Kaufmann, von Endingen, Laurenzenvorstadt 352.\nDrossel-Wyß, Otto, Ingenieur, von Frankfurt, Rohrerstraße 473.\n  —  -Schwarzmann, Rob., Ingenieur, v. Karlsruhe, Laurenzenvorst. 408.\nDubs-Schärli, Jakob, Müller, von Küttigen, im Hammer 182.\n  --  -Walther, Karl, Metzger u. Speisewirth, v. Küttigen, Rathhausg. 32.\nDüner, Sophie, Haushälterin, v. Weinfelden (Thurg.), Rainstraße 882.\nDünki-Kuhn, Hrch., Expedient, v. Ossingen (Zürich), Laurenzenvorst. 552.\nDüpont-Andermatt, Ludw., Hafner, v. Müllheim (Thurg.), ob. Vorst. 947.\n  —  -Altherr, Wilhelm, Hafner, v. Müllheim (Thurg.), ob. Vorstadt 947.\n2",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10540,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 3058,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 60.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:11:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p021",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p021.jpeg",
+      "bytes": 338765,
+      "sha256": "69a2960962cf86a361700f338b982854394fe21f87d638f2dbc5861218f38506",
+      "sha256_of": "original",
+      "working_copy": "1884_p021.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:14+00:00"
+  }
+}

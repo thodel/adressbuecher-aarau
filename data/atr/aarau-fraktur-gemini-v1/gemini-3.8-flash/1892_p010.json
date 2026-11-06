@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p010",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p010.jpeg",
+    "bytes": 246560,
+    "sha256": "e5a944bace26c14629c3e803b74939d0823a39f1951ec08af0acf623f3a851ac",
+    "sha256_of": "original",
+    "working_copy": "1892_p010.jpeg"
+  },
+  "text": "— 2 —\n\nHaus=\nNr.\n8. a. Gantner geb. Fuchs, Elise, Schneiderin, von Grabs (St. Gallen).\n  Hoffmann-Suter, Christoph, von Schwabach (Baiern), Coiffeurgeschäft.\n  Ott, Maria, Näherin, von Biberstein.\n8. b. Lienberger=Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n  Lienberger=Weber, Kaspar, Schuhmachermeister, von Spreitenbach.\n9. a. † Gemeinde Aarau. Feuerlöschmagazin. Leiter Nr. I.\n9. b. Lienberger=Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n10. a. Rychner=Thommen, Friedrich, Spenglermeister, Spenglerwaaren=\n  handlung.\n  Hächler-Peter, Gottlieb, Bauamtsarbeiter von Teufenthal.\n  Erismann-Hüßi, Anna, Wittwe, von Schloßrued.\n  Aeschbach-Steiner, Rudolf, Steinhauer, von Hendschikon.\n  Erismann, Rudolf Taglöhner, von Kirchrued.\n10. b. Rychner=Thommen, Friedrich, Spenglermeister.\n  Dyma-Breider, Ignaz, Schneider, von Hermannester (Böhmen).\n  Gisi, Lisette, Modelstechers, Part.\n11. Häny=Häny, Rudolf, Part., von Kölliken.\n  Häny-Hunziker, Hermann, Sohn, Bäcker, von Kölliken.\n  Roth, Friedrich, Ausläufer (Aargauer Nachrichten), von Mühlethal.\n12. Weidmann=Albrecht, Albert, Tapezierer, von Bachs (Zürich).\n  Heinzelmann, Johann, Schuhmacher, von Marschalkzimmern (Württemberg).\n  Siebenmann-Sprüngli, Sophie, Wittwe.\n  Nüsperli, Maria Anna, Schneiders, Part.\n  Bartlome, Maria, Damenschneiderin, von Münchenbuchsee. (Bern.)\n  Bartlome, Rosa, Damenschneiderin, von Münchenbuchsee.   „\n13. * Berner=Egli, Herrmann, Zahnarzt.\n  Hertfelder geb. Bär, Maria, Wittwe, Part.\n  Mürset geb. Hediger, Maria, Wittwe, Part., von Diesse (Bern).\n  Mürset, Maria, Coiffeuse, von Diesse (Bern).\n14. Berner=Mauch, Rudolf, Part.\n15. * Faller=Unwin, Friedrich, Kaufmann.\n  Lüthi-Kneubühler, Anna, von Bleienbach (Bern). (Plazierungsbureau).\n  Hoffmann-Suter, Christoph, Coiffeur, von Schwabach (Baiern).\n  Lehner=Bertschi, Rudolf, Milchverkäufer, von Gränichen.\n  Häfeli, Joseph, Sattler und Tapezierer, von Oberwyl.\n\nRathhausgasse.\n\n16. Lindt, Otto, Dr. phil., Apotheker, von Bern.\n17. Faller=Unwin, Friedrich, Kaufmann, von Bräunlingen, Großh. Baden,\n  Eisenwaarenhandlung.\n18. Graf=Tröndli, Ludwig, Bäcker und Pintenwirth, von Worblingen\n  (Großh. Baden.)\n  Marti-Keller, Oskar, Commis, von Wengi (Bern.)\n  Meier-Müller, Paul, Schneider, von Stetten (Großh. Baden).\n19. Dürr, Geschwister, Heinrich und Johanna.\n  Dürr, Heinrich, Pfarrer, Privat.\n  Dürr, Karl August, Sohn, Kaufmann.\n  Dürr, Johanna, Part.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7554,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2407,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:45:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p010",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p010.jpeg",
+      "bytes": 246560,
+      "sha256": "e5a944bace26c14629c3e803b74939d0823a39f1951ec08af0acf623f3a851ac",
+      "sha256_of": "original",
+      "working_copy": "1892_p010.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:27+00:00"
+  }
+}

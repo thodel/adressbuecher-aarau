@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p128",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p128.jpeg",
+    "bytes": 234434,
+    "sha256": "6fbac2b7f64441a1cc09f752ae1bb226efe4350b4a3dd8fa8a67f62ca418b104",
+    "sha256_of": "original",
+    "working_copy": "1892_p128.jpeg"
+  },
+  "text": "112\nMeier — Merz.\nMeier-Bos, Sophie, Wittwe, Part. von Paris, Zolkrain 91.\n* Meier-Bucher, August, Direktionssekretär von Oberfiggenthal, Rain 874.\nMeier, Eduard Erwin, Commis von Dintiken, Kirchhof 166.\n* Meier-Fischer, F. Baptist, Bankangestellter von Gedenstorf, vor dem\n  Haldenthor 1299.\nMeier-Grosmann, Anna, Wittwe, Part. von Rheinfelden, vordere Vor-\n  stadt 680.\nMeier-Hügeli, Alois, Taglöhner von Büron (Luzern), Laurenzenvorstadt 376.\nMeier, Joseph, Bureauchef (Lagerhaus) von Ehrendingen, Rain 821.\n* Meier-Lüthi, Johann Jakob, Lehrer, Feerstraße 1308.\nMeier-Matter, Jakob, Zimmermann von Dintiken, obere Vorstadt 940\nMeier-Müller, Paul, Schneider von Stetten (Großh. Baden) Rathaus-\n  gasse 18.\nMeier, Rothburga, Pofamenterin von Erlinsbach (Solothurn), Bach-\n  straße 1031.\nMeier-Ott, Agatha, Schreiners Wittwe, Taglöhnerin von Gedenstorf,\n  Mühlgasse 161.\nMeier-Roth, Verena, Taglöhnerin von Dintiken, Kirchhof 166.\nMeier-Wehrli, Jakob, Bäcker von Holderbank, Bäckerei und Pinten-\n  wirthschaft, Rain 832.\nMeier-Zobrist, Jakob, Part. von Othmarjingen, jenseits der Aare 1303 b.\nMeyer-Egli, Albert, von Dürnten (Zürich), Wirth zum Köstli, Mezger-\n  gasse 112.\nMeyer, Egeria, Part. von Baden, Zschoffestraße 974.\nMeyer-Wyder, Joseph, Postcommiss von Hilfikon, Schachen 1259.\n* Meyer-Zschoffe, J. L., Architekt, Director der Handwerkerschule, Wohnung\n  jenseits der Aare 307, Bureau, Bahnhofstraße 553. Gewerbe-\n  museum.\n* Meiti-Sulzer, Emma, Wittwe von Egg (Zürich), Stadthof 95. Handels-\n  mülleirei.\n* Meijel-Leutwyler, Xaver, Forstverwalter, Rathausgasse 19.\nMeijel-Leutwyler, Verena, Weißwarenhandlung, Rathausgasse 19.\nMeißner-Baumgardt, Karl, Steindrucker von Grossglogau (Schlesien),\n  Scheibenshachen 314.\nMeißner-Siib, Johann, Schneider von Gevoldshofen, Halden 266 b.\n* Meister-Gifi, Georg, Bäcker und Wirth von Magendorf (Solothurn),\n  Graben 216.\nMerz-Dürr, Jakob, Taglöhner, Halden 268.\nMerz-Horlacher, Traugott, Telefonarbeiter von Beinwyl, Halden 276.\n* Merz-Märk, Sebastian, Notar, Bachstraße 1100.\nMerz-Ruh, Margaretha, Wittwe, Part. von Leimbach, vor dem Halden-\n  thor 758.\nMerz-Siegrist, Anna, Wittwe von Beinwyl, jenseits der Aare 339.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6114,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2181,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:44:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p128",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p128.jpeg",
+      "bytes": 234434,
+      "sha256": "6fbac2b7f64441a1cc09f752ae1bb226efe4350b4a3dd8fa8a67f62ca418b104",
+      "sha256_of": "original",
+      "working_copy": "1892_p128.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:25+00:00"
+  }
+}

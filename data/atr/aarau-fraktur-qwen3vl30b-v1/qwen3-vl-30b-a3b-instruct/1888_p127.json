@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p127",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p127.jpeg",
+    "bytes": 273882,
+    "sha256": "d0670cc4772923122be1c453a9afe2310bdcf9162ff380e69a2b5ccb4da1d2de",
+    "sha256_of": "original",
+    "working_copy": "1888_p127.jpeg"
+  },
+  "text": "Rothwyler-Hupfer, Anton, Büchsenmacher von Dürrheim (Großh. Baden), Hammer 190.\nRuch-Schälli, Alfred, Schuhmacher von Mittlödi (Starus) Milchgasse 151.\nRuef-Joho, Johann, Taglöhner, von Rechingen, Halden 249.\nRuef-Zweifel, Wilhelm, Schlosser, Neitingen, Laurenzenvorstadt 376.\nRuefli, Johann, Taglöhner, von Seengen, Igelweid 637.\nRüedi-Wärtli, Johann, Staatsweibel von Sulz, Milchgasse 79.\nRüegg-Stephani, Barbara, Postkondutteurs Wittwe von Balmen (Zürich), Milchgasse 145.\nRüegger-Gysling, Otto, Malermeister von Wyl (Zürich), Zieglerain 746.\nRüegger-Holliger, Maria, Wittwe, Taglöhnerin von Niederwyl, vor dem Haldenthor 1083.\nRüetschi-Hopp, Hermann, Techniker und Glockengießer, Rainstraße 843.\nRüetschi-Christen, Jakob, Glockengießer, obere Vorstadt 929.\nRüetschi, Gottlieb, Bäcker und Wirth von Suhr, Pelzgasse 131.\nRüetschi-Henberger, Ludwig, Kanzleisekretär, Rain 825.\nRüetschi-Mattli, Gottfried, Obergerichtsweibel, Adelbündli 81.\nRüetschi-Nüpperli, Friedrich, Buchhalter, Casinostraße 571.\nRüetschi-Nüpperli, Sophie, Part., Wittwe, hintere Vorstadt 694.\nRüetschi-Wenger, Gottfried, Milchverkäufer, Spezereihandlung und Salzverkauf, Adelbündli 81.\nRüetschi-Schilling, Anna, Fabrikarbeiterin von Schlieren (Zürich), Laurenzenvorstadt 1114.\nRumpf, Bertha, Part. von Basel, vordere Vorstadt 893.\nRusterholz-Schäppi, Albert, Bildhauer von Wädenswil, Rain 885.\nSager-Klauenbüsch, Jakob, Pofamenter von Gränichen, obere Vorstadt 937.\nSager-Wildi, Jakob, Taglöhner von Gränichen, obere Vorstadt 947.\nSalm, Marie, Damenschneiderin von Veltheim, Milchgasse 144.\nSalm, Barbara, Haushälterin id. id. id.\nSandmeier, Melchior, Part. von Seengen, in der Telli 440.\nSandmeier-Rohr, Sufette, Wittwe, Part., obere Vorstadt 955.\nSandmeier, Gottlieb, Buchbinder, id. id. id.\nSandmeier, Marie, Ladentochter, id. id. id.\nSandmeier, Marie, Damenschneiderin id. id. id.\nSandmeier, Margaretha, Damenschneiderin id. id. id.\nSandmeier-Ohrecht, Dachdeckergefelle, Zieglerain 708.\nSauerländer-Benz, Elise, Wittwe, Part., Laurenzenvorstadt 394.\nSauerländer-Euster, Emma, Part., Laurenzenvorstadt 418.\nSauerländer-Frey, Remigius, Buchdruckereibesitzer, Laurenzenvorstadt 418.\nSazer, Elise, Part., vordere Vorstadt 889.\nSazer-Pfleger, Ludwig, Kaufmann, vordere Vorstadt 889.\nSazer-Truog, Anna, Wittwe, Haushälterin, Rain 872.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5007,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2304,
+    "lines": 37,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 61.3,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p127",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p127.jpeg",
+      "bytes": 273882,
+      "sha256": "d0670cc4772923122be1c453a9afe2310bdcf9162ff380e69a2b5ccb4da1d2de",
+      "sha256_of": "original",
+      "working_copy": "1888_p127.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:46+00:00"
+  }
+}

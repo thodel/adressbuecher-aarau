@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p151",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p151.jpeg",
+    "bytes": 240372,
+    "sha256": "1c4102ae1eb1c621d8d1c55eff39a609fc379187d68f8f494e31d8addeef60dc",
+    "sha256_of": "original",
+    "working_copy": "1892_p151.jpeg"
+  },
+  "text": "Wyder — Wüthrich. 135\n\nWyder-Brast, Albert, Agentur- und Commissionsgeschäft, von Oberstraß\n  (Zürich), Rain 840.\nWydler-Bäurlin, Emilie, Färbers Wittwe, Ziegelrain 721.\nWydler, Emilie, Färbers, Ziegelrain 721.\n*Wydler-Fischer, Julius, Notar, Rathhausgasse 3.\nWydler-Fischer, Heinrich, Bezirkslehrer von Affoltern (Zürich), Zschokke-\n  straße 996.\nWydler-Gubler, Pauline, Wittwe, Part., Rain 862.\nWydler, Konrad, Apotheker, Rathhausgasse 23.\nWydler, Lina, Part., Mezgergasse 55.\nWydler, Mathilde, Part., Laurenzenvorstadt 364.\nWydler-Oboussier, Hans Ferdinand, Kaufmann, Laurenzenvorstadt 364.\nWydler-Wehrli, Heinrich, Färber, Ziegelrain 718.\nWydler-Wernli, Erwin, Färber, Ziegelrain 718.\nWyser-Müller, Alfred, Färbereibesitzer, Bachstraße 1055.\nWyttenbach-de Vigneulle, Arthur, Bahningenieur von Bern, Südbahn-\n  büreau, Bachstraße 1054.\nWohler-Bolliger, Johann Martin, Postcommis von Wohlen, Gais 1248.\nWolf-Märki, Anna, Wittwe, Part., hintere Vorstadt 645.\nWolf-Allemann, Karl, Architekt, Adjunkt des Hochbaumeisters, vor dem\n  Haldenthor 770.\nWolfinger-Mayer, Max, Professor von Mannheim (Großh. Baden),\n  Bachstraße 1137.\nWolfsgruber-Küenze, Gottfried, Photograph von Bonn (Preußen), Bahn-\n  hofstraße 1160.\nWullschleger-Blattner, Heinrich, Oekonom, Schachen 741.\nWullschleger, Hans, Knecht von Schloßrued, Schachen 741.\nWüest-Senn, Konrad, Bezirkslehrer, Rektor von Uffikon (Luzern), Bahn-\n  hofstraße 544.\nWuilleret-Gérard, Marie, Part. von Romont, Rain 858.\nWürger-Maurer, Heinrich, Gießereibesitzer, Spezereihandlung und Salz-\n  verkauf von Hausen (Großh. Baden), Laurenzenvorstadt 552.\nWürtemberger-Kaiser, Marie, Coiffeurs Wittwe, Kronengasse 34.\nWüthrich-Bartlome, Alexander, Küfer von Trub (Bern), obere Vorstadt 922.\nWüthrich-Dambach, Joh. Jakob, Taglöhner von Eggiwyl (Bern),\n  Halden 279.\nWüthrich, Gottlieb, Zuckerbäcker (Chocoladefabrik) von Eggiwyl (Bern),\n  Pelzgasse 136.\nWüthrich-Hecht, E. A., Kaufmann von Trub (Bern), Wohnung Laurenzen-\n  vorstadt 1294, artistisches Institut Bachstraße 1028.\nWüthrich, Jak., Zuckerbäcker v. Eggiwyl (Bern), Laurenzenthorgasse 117.\nWüthrich-Lüdi, Samuel, Negot. und Pintenwirth von Eggiwyl (Bern),\n  Laurenzenthorgasse 117.\nWüthrich-Stirnemann, Jakob, Camioneur von Eggiwyl (Bern), Rath-\n  hausgasse 45.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7708,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2260,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:03:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p151",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p151.jpeg",
+      "bytes": 240372,
+      "sha256": "1c4102ae1eb1c621d8d1c55eff39a609fc379187d68f8f494e31d8addeef60dc",
+      "sha256_of": "original",
+      "working_copy": "1892_p151.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:03+00:00"
+  }
+}

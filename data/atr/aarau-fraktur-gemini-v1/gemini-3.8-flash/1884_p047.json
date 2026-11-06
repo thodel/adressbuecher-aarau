@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p047",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p047.jpeg",
+    "bytes": 322825,
+    "sha256": "38448bf5d4835350eb7650128a369e8445c988f8df8be00261afedc0e792b541",
+    "sha256_of": "original",
+    "working_copy": "1884_p047.jpeg"
+  },
+  "text": "Schmidt. — Schürch. 43\n\n*Schmidt-Hagnauer, Gustav, Kaufmann, Graben 202.\n* — Jenny, Modistin, Rathhausgasse 44.\n* — -Häusler, Verena, Gärtners Wittwe, Spetterin, Halden 256.\n* — -Siebenmann, Adolf, Sattlermeister, Bahnhofstraße 648.\n* — Robert, Malermeister, Bahnhofstraße 648.\n* — -Lanz, Adolf, Kaufmann u. Versicherungsagent, obere Vorstadt 935.\n*Schmitter-L'huiller, Adele, Fabrikants Wittwe, Partik., in der Gais 480.\nSchmutz-Weber, Anna, Spetterin, von Eptingen (Baselland), Halden 284.\n*Schmuziger, Marie, Schreibmaterialien- und Quincailleriewaarenhandlung,\n  Rathhausgasse 1.\n* — -Jacot, Karl, Rentier, Milchgasse 157.\n* — -Zulauf, Marie, Partik., Adelbändli 86.\n* — Rosa, Damenschneiderin, Adelbändli 86.\n* — Verena, Fabrikarbeiterin, Milchgasse 160.\n* — Susette, Fabrikarbeiterin, Milchgasse 160.\n* — -Kern, Johann, Baumeister, jenseits der Aare 294.\n* — -Müller, Emma, Wittwe, Partik., Laurenzenvorstadt 401.\n* — -Koller, Daniel, Baumeister, hinter dem Bahnhof 503.\n* — -Rüetschi, Emil, Pedell, Casinostraße 584.\n* — Mina, Modistin, Casinostraße 584.\n* — -Bühler, Gottlieb, Schneidermeister u. Spezereihändler, Ziegelrain 703.\n* — -Hochstraßer, Maria, Wäscherin, Schachen 734.\n* — Lina, Partik., Rainstraße 829.\n* — -Zeller, Tabitha, Partik., Rainstraße 831.\n* — -von Grigoriew, Friedrich, Arzt, Dr. med., vordere Vorstadt 903.\n* — Sophie, Partik., Kirchgasse 12.\n* — Traugott, Malermeister, neues Quartier 970.\n* — -Lang, Gottlieb, Schreinermeister, Schachen 729.\n* — Juliane, Partik., Bahnhofstraße 1173.\n* — Otto, Spengler, vor dem Haldenthor 767.\n*Schneider-Läuchli, Ulrich, Schlossermeister, Golattenmattgasse 234.\n— -Bruker, Ferd., Bankangestellter, von Magden, Laurenzenvorstadt 552.\n— -Mösch, Fridolin, Oberrichter, von Herznach. Rainstraße 871.\n— Gustav, Schuhmacher u. Feilträger, von Zürich, Metzgergasse 100.\n— -Mattenberger, Johann Theodor, Musikdirektor, von Untergleichfeld\n  (Bayern), Casinostraße 660.\n— -Ryser, Franz Xaver, Kondukteur, von Herznach, obere Vorstadt 946.\n*Schoder-Hauser, Wilhelm, Gerichtspräsident, neues Quartier 1129.\nSchori-Suter, Fried., Mechaniker, v. Seedorf (Bern), vor d. Haldenth 1084.\n*Schöchli-Kyburz, Louis, Partik., Rathhausgasse 23.\nSchönenberg-Häuselmann, Jb., Bäcker, von Unterkulm, Milchgasse 142.\nSchreier-Wehrli, Gustav, Commis, von Biberist (Soloth.), Milchgasse 153.\nSchumacher-Schaffner, Arn., Bahnarbeiter, v. Wangen (Soloth.), Igelw. 635.\nSchumann-Ringier, Albert, Prof., von Gotha (Sachsen), Rainstraße 878.\n— Ernestine, Partik., von Gotha (Sachsen), Rainstraße 878.\nSchürch-Müller, Ad., Buchhalter, von Othmarsingen, jenseits der Aare 339.\n— Adolf, Commis, von Worb (Bern), Zollrain 88.\n— Adolf, Fabrikant, von Büren z. Hof (Bern), neues Quartier 992.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8847,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2722,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:15:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p047",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p047.jpeg",
+      "bytes": 322825,
+      "sha256": "38448bf5d4835350eb7650128a369e8445c988f8df8be00261afedc0e792b541",
+      "sha256_of": "original",
+      "working_copy": "1884_p047.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:15:14+00:00"
+  }
+}

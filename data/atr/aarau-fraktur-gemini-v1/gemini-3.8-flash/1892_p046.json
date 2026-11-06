@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p046",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p046.jpeg",
+    "bytes": 195537,
+    "sha256": "cd305e282a44e40eb14df9055308f1610e98e084e934862dfc478a8649397ec8",
+    "sha256_of": "original",
+    "working_copy": "1892_p046.jpeg"
+  },
+  "text": "— 38 —\n\nHaus=\nNr.\n\nBankstraße.\n\n509.  Kauf-Gattiker, Heinrich, gew. Lokomotivführer, von Wellhausen (Thurg.).\n  Kauf, Alfred, Buchhalter der Aarg. Creditanstalt, von Wellhausen.\n510.  Siebenmann-Siebenmann, Rudolf, Part.\n1234  † Derselbe. Holzhaus.\n1141  Kunz, Johann, Jakob, von Wald (Zürich), Confiserie en gros.\n  Markwalder-Gamper, Traugott, Oberst-Lieut., Cavallerie-Instruktor I. Kl.\n  Martin-Hagenbuch, Marie, Part.\n1251  † Derselbe. Holz- und Waschhaus.\n1146  Lüscher-Umiker, Hermann, Mechaniker. Nähmaschinenhandlung.\n  Pfleger-Größer, Marie, Part.\n\nBahnhofstraße.\n\n511. * Aargauische Bank.\n  Rothpletz-Brütel, Alfred, Bankdirektor.\n512. † Dieselbe. Holzhaus.\n513. * Näf & Zschokke. Kreispostgebäude.\n  Amsler, Jakob, Kreispostdirektor, von Bözen.\n  Lauber, Joseph Anton, Postcommis, von Oeschgen.\n514. † Dieselben. Postremise.\n515.  Schweizerische Nordostbahn. Bahnhofgebäude.\n  Kübler-Kuhn, Johann, Bahnhofinspektor.\n  Brast-Meyer, Joh., Inspektionsbeamter, von Leibstatt.\n  Schäfer-Meier, Friedrich, Einnehmer der Nordostbahn.\n  Wärtli-Vogel, Christian, Bahnangestellter.\n  Kühn-Hofmann, Bernhard, Restaurateur, von Tiefurt (Sachsen).\n516. † Schweizerische Nordostbahn. Einsteigehalle.\n517. † Dieselbe. Wagenremise.\n518. †      „      Wärterhaus.\n519. †      „      Güterschopf mit Wohnungen.\n  Furter-Haller, Hans, Gepäckexpedient, von Lenzburg.\n  Rippstein-Küng, Joseph, Portier, von Kienberg (Solothurn).\n520. † Dieselbe. Waschhaus und Abtritte.\n521. †      „      Maschinenremise.\n522. †      „      Wasserstationsgebäude.\n523. †      „      Güterschopf (Fruchtschuppen).\n524. †      „      Wagenremise.\n525. †      „      Bahnwärterhäuschen.\n526. †      „      Abtrittgebäude.\n527. †      „      Bahnwärterhäuschen.\n528. †      „            „\n529. †      „            „\n530. †      „            „\n531. †      „            „\n532. †      „            „\n533. †      „            „",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7513,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1894,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:50:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p046",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p046.jpeg",
+      "bytes": 195537,
+      "sha256": "cd305e282a44e40eb14df9055308f1610e98e084e934862dfc478a8649397ec8",
+      "sha256_of": "original",
+      "working_copy": "1892_p046.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:08+00:00"
+  }
+}

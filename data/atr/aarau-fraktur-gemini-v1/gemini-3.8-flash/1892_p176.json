@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p176",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p176.jpeg",
+    "bytes": 225468,
+    "sha256": "ccf0ec29b91147e454dd91e1ed1c9d2bb136d3fe7a38c8b79f1b5e7bd45e1a98",
+    "sha256_of": "original",
+    "working_copy": "1892_p176.jpeg"
+  },
+  "text": "160\n\nVerzeichniß der gemeinnützigen u. wohlthätigen Anstalten.\n\nAarg. Bibelgesellschaft,\nderen Niederlage von Bibeln bei G., Angst\nPräsident: Merz, Pfarrer in Suhr.\nVizepräsident: Niggli, alt Lehrer, Aarau.\nKassier: Frymann, G., Aarau.\nAktuar: Frey, Pfarrhelfer Aarau.\n\nArmen-Erziehungsanstalt Kasteln.\nPräsident: Henz, Julius, Aarau.\nVizepräsident: Dr. A. Zschokke, Staats-\n  schreiber.\nKassier: Guyer, Oskar.\nAktuar: Frey, Ed., Pfarrhelfer.\nMitglieder: Dr. Schmuziger, Fried., Arzt.\n  Hässig, Hans, Stadtrath.\n  Wizemann, A., Hausvater.\n\nArmenerziehungsverein des Bezirks\nAarau.\nPräsident: Graf, Pfarrer in Aarau.\nVizepräsident: Erismann, Armenpfleger\n  in Aarau.\nKassier: Heller, Bezirksrichter.\nMitglieder: Neuburger-Imhof, Aarau.\n  Hunziker, Lehrer, „\n  Wernly, Pfarrer, „\n  Hässig, Stadtrath, „\n  Rüetschi, Bezirksrichter, Suhr.\n  Basler, alt Gemeindeschreiber,\n    Küttigen.\n  Müri, Pfarrer Oberentfelden.\n\nBlindenasylfond.\n(Verwaltet vom Einwohnerverein.)\nPräsident: Fischer, Pfarrer\nVizepräsident: Kistler, Steuerpräsident.\nKassier: Wehrli, Kassier der Aarg. Bank.\nAktuar: Schibler, Sekretär der Justizdir.\nMitglied: Hässig, Hans, Stadtrath.\n\nDiakonissenstation Aarau.\nPräsidentin: Frl. Feer, Adele.\nKassier: Gysi-Büchli.\nMitglieder: Frau Sauerländer-Custer.\n  „ C. Hagnauer, Emma\n  „ Urech, Pfarrers.\n  „ Rauchenstein, Prof.\n  „ Ringier-Tschudi.\n  Frl. Schmuziger, Lina.\n\n[spalte 2]\nTaubstummenanstalt von Aarau auf\nLandenhof.\n\nPräsident: Henz, Julius.\nVizepräsident: Guyer-Blattner, August.\nKassier: Gisi-Vonarx, B.\nAktuar: Wernly, Pfarrer.\nInspektor: Fischer, Pfarrer.\nMitglieder: Weber, E., Bezirksarzt.\n  Schmidt, R., Stadtammann.\n\nAnstalt für schwachsinnige Kinder auf\nSchloß Biberstein (Rechtssitz in Aarau).\nGegründet 1889.\nDirektion:\nDr. med. G. Schenker, Präsident.\nHans Hässig, Stadtrath, Vicepräsident\n  und Aktuar.\nR. Sauerländer, Kassier.\nA. Gonzenbach, Stadtrath.\nR. Wernly, Pfarrer.\nFr. Siegfried-Leupold.\nH. Kern-von Arandt.\nP. Oberhänsli-Wärtli, Hausvater.\n\nKantonale Krankenanstalt in Aarau.\nBircher-Schazmann, Heinrich, Dr. med,\n  administrativer Direktor und Ober-\n  arzt der chirurgischen Abtheilung.\nKalt-Läubli, Alfred August, Dr. med.,\n  Oberarzt der medizinischen Abthei-\n  lung.\nMeyer-Brunner, Emil, Verwalter.\nBolliger, Heinrich, Sekretär.\nLeimgruber, Eduard, Portier.\n\nHülfsgesellschaft.\nVorstand:\nPfarrer Wernly, Präsident.\n„ Graf, Vicepräsident.\n„ Fischer, Sekretär.\nBaumann-Gysi, Kassier.\nAngst, R., Kaufmann.\nGysi-Studler.\nHässig, Stadtrath.\nDr. Lindt, Apotheker.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7778,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2505,
+    "lines": 90,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 26.21,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:07:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p176",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p176.jpeg",
+      "bytes": 225468,
+      "sha256": "ccf0ec29b91147e454dd91e1ed1c9d2bb136d3fe7a38c8b79f1b5e7bd45e1a98",
+      "sha256_of": "original",
+      "working_copy": "1892_p176.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:27+00:00"
+  }
+}

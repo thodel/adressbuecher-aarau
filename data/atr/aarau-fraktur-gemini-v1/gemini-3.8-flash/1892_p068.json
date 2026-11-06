@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p068",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p068.jpeg",
+    "bytes": 224820,
+    "sha256": "3e4b7842c2f2274d0aba140d2839c686163163b6f22f553a4e35e54fdf7dcecb",
+    "sha256_of": "original",
+    "working_copy": "1892_p068.jpeg"
+  },
+  "text": "— 60 —\nHaus-\nNr.\n862. * Schweizer-Siebenmann, Fried. Ferd., Part., von Dätwyl.\n  Schweizer-Gubler, Nanette, Staatsarchivars Wittwe, von Dätwyl.\n  Wydler-Gubler, Paulina, Wittwe, Part.\n  Bührer-Gubler, Jakob, Kaufmann, von Bibern (Schaffhausen).\n  David-Hunziker, Julie, Wittwe, Part., von Basel.\n863. Thut-Gidemann, Hermann, Ziegler, von Oberentfelden, mechanische\n  Ziegelei.\n864. † Derselbe. Ziegelhütte.\n865. † Gemeinde Aarau. Holzmagazin\n866. Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\n867. † Derselbe. Schopf.\n868. †    \"\n869. Fahrländer-Siebenmann, Maria, Med. Drs. Wittwe.\n  Fahrländer-Johannes, Eugen, Ingenieur.\n  Siebenmann-Hodel, Fritz, Commis.\n  Hodel, Josepha, Part., von Rheinfelden.\n  Müri, Paul, Fürsprech, Gerichtspräsident, von Schinznach.\n870. † Dieselbe. Holzhaus.\n871. Schneider-Mösch, Fridolin, Oberrichter, von Herznach.\n  Zschokke-Zimmerli, Justina, Wittwe, Part.\n872. Kern-Saxer, Adolf Partik.\n  Saxer geb. Truog, Anna, Wittwe, Haushälterin.\n873. † Derselbe. Holzhaus.\n874. Siegrist-Hunziker, Emil, Kaufmann, Beamter des Niederlagshauses\n  in Aarau.\n  Meier-Bucher, August, Direktionssekretär, von Obersiggenthal.\n  Rebmann-Häfliger, Karl Jakob, Maler, von Fellbach (Württemberg).\n  (Malerwerkstätte.)\n875. Hitz-Lanz, Otto, Negt., Spezerei- und Brennmaterialienhandlung.\n  Hitz, Bertha, Part., von Hausen am Albis (Zürich).\n  Bauhofer-Müller, Samuel, Thierarzt, von Reinach.\n  Schumann-Ringier, Albert, Professor, von Gotha (Sachsen).\n  Dietiker, Susanna, Spetterin, von Thalheim.\n  Brunnhofer, Elise, Damenschneiderin.\n  Fisch, Mina (Kleinkinderschule).\n  Suter-Kähr, Elisabeth, Part., von Rapperswyl (Bern).\n876. † Hitz-Lanz, Otto, Negt. Scheune.\n877. Wehrli-Kähr, Jakob, Part., von Densbüren.\n  Bertschi, Adolf, Wagner, von Dürrenäsch.\n  Kähr, Marie Anna, Part., von Rüderswyl (Bern).\n  Sommerhalder-König, Jakob, Hausknecht, von Gontenschwyl.\n  Härri-Baumann, Arnold, Postcommis, von Birrwyl.\n  Vogel-Strähler, Jakob, Wagenkontroleur, von Kölliken.\n  Zweifel, Samuel, Schreiner, von Linthal (Glarus). Schreinerwerkstätte.\n878. Keller-Steiner, Karl. Hafer- und Weinhandlung.\n  Steiner, Johann, Part.\n  Steiner-Lindenmann, Susanne, Wittwe, Part.\n  Mühlberg-Sutermeister, Fritz, Dr. Professor.\n  Hoffmann-Gamper, Emil, Kassier.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7196,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2258,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.21,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:52:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p068",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p068.jpeg",
+      "bytes": 224820,
+      "sha256": "3e4b7842c2f2274d0aba140d2839c686163163b6f22f553a4e35e54fdf7dcecb",
+      "sha256_of": "original",
+      "working_copy": "1892_p068.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:52:48+00:00"
+  }
+}

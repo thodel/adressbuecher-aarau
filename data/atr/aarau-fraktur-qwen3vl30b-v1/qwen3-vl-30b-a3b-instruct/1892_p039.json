@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p039",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p039.jpeg",
+    "bytes": 213584,
+    "sha256": "1aa051ea783a846c5338fb61a645f34ddef363c68878dd53b89cc77a22548275",
+    "sha256_of": "original",
+    "working_copy": "1892_p039.jpeg"
+  },
+  "text": "Haus-\nNr.\nMüller-Suter, Jakob, Pofamenter, von Gränichen.\nMüller, Jakob, Bahnarbeiter, von Gränichen.\nSuter, Adolf, Taglöhner, von Rölliken.\nDietiker-Wernli, Samuel, Schuhmacher, von Thalheim.\nSchumacher-Bachmann, Arnold, Bahnarbeiter, von Wangen (Solothurn).\nSiegenthaler-Hirt, Hermann, Uhrenmacher, von Trued (Bern).\nSiegenthaler-Hirt, Elise, Glätterin, von Trued (Bern).\nHeiz-Reefer, Cornelius, Zimmermann, von Menziken.\nFrei-Hintermann, Arnold, Taglöhner, von Wellingen.\nMüller-Müller, Hs. Jakob, Taglöhner, von Unterfultm.\nGloor-Werder, Heinrich, Zimmermann, von Birc.\nMoser-Schneeberger, Johann, Handlanger, von Jukwyl (Bern).\nNiederhäuer geb. Schent, Maria, Spetterin, von Eriswyl (Bern).\nSuter-Huber, Joh. Rudolf, Fabrikarbeiter, von Gränichen.\n377. † Hunziker=Züft, Guido, Rentier. (Fabrikgebäude).\nGasser & Hunziker, Seidenbandfabrikation.\n378 † Derfelbe. Maschinenhaus und Werkstatt.\n379. † Derfelbe. Scheune und Remise.\n380. † Derfelbe.\n381. † Derfelbe.\n382. † Derfelbe. Seitenbau mit Holzschopf.\n383. † Derfelbe. Waschhaus.\n384. † Fahrländer-Hunziker, Karl, Treibhaus.\n385. † Hunziker=Züft, Guido, Gestügelhaus.\n1114. * Wernli=Abel, Jakob, Gärtner, von Thalheim.\nFässler, Johann, Taglöhner, von Densbüren.\nAmstler-Fässler, Georg, Färbereiarbeiter, von App.\nIm Hammer.\n386. † Hegnauer=Renold, Rudolf, Fabrikationsgebäude.\nGebrüder Bally, Bandfabrikation.\nGasser u. Hunziker, Seidenbandfabrikation.\n387. † Derfelbe. Kesselhaus.\n388. † Derfelbe. Holzhaus.\n389. † Fässler=Heberlein, Adolf. Remise.\nLaurenzenvorstadt.\n390. Baumann, Karl und *Cugen. Firma: Gebr. Baumann, Weinhandlung.\nBaumann-Hemmann, Karl, Kaufmann.\nBaumann-Baumann, Heinrich, Wirth zum Freihof, von Stilli.\nZimmerli geb. Suter, Louije, Wittwe, Part., von Aarburg.\n391. † Diefelben. Weinfeller und Brennerei.\n392.a.†Diefelben. Trinkhalle.\n392.b.*Diefelben. Coiffeurgeschäft: Burkhardt, Ferdinand, Sohn, Coiffeur.\n393. † Diefelben. Gartenhaus.\n1257. † Diefelben. Fäkremise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4172,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1948,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:36:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p039",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p039.jpeg",
+      "bytes": 213584,
+      "sha256": "1aa051ea783a846c5338fb61a645f34ddef363c68878dd53b89cc77a22548275",
+      "sha256_of": "original",
+      "working_copy": "1892_p039.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:25+00:00"
+  }
+}

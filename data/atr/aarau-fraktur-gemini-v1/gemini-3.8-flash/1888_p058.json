@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p058",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p058.jpeg",
+    "bytes": 255352,
+    "sha256": "32226ce3295e03e4808c905e6eca064e64e32f7835e13f1282dd1f0cb12521ce",
+    "sha256_of": "original",
+    "working_copy": "1888_p058.jpeg"
+  },
+  "text": "— 48 —\n\nHaus=\nNr.\n  Freihofer-Rusterholz, Joh. Jakob, Bildhauer, von Veltheim (Zürich).\n  Hausmann, Joh. Jakob, Aufseher, von Schafisheim.\n717. † Derselbe. Farbmagazin.\n718. Wydler-Bäurlin, Heinrich, Färber.\n  Wydler, Erwin, Färber.\n  Wydler, Hans, Commis.\n719. † Derselbe. Färberei und Heizeinrichtung.\n720. Derselbe. Abgetragen.\n721. * Derselbe. Wohnhaus.\n  Rebmann-Häfliger, Karl Jakob, Maler, von Fellbach (Württemberg).\n  Schatzmann-Bolliger, Friedrich, Agent, von Windisch. Hauptagentur der\n    Gladbacher Feuerversicherungsgesellschaft. Agentur der Basler\n    Lebens- und Unfallsversicherungsgesellschaft.\n722. * Derselbe. Wohnhaus.\n  Rochholz-Schröder, Ernst Ludwig, Prof. Dr., von Ansbach (Bayern).\n  Rochholz, Mina, Musiklehrerin, von Ansbach (Bayern).\n  Meyer-Wydler, Joseph, Postcommis, von Hilfikon.\n1172 † Derselbe. Wagenremise.\n\nSchachen.\n\n723. * Schmidt-Henz, Hans, Bierwirth.\n  Haßler-Schmidt, Friedrich, Kaufmann.\n  Bauhofer-Müller, Samuel, Thierarzt, von Reinach.\n1168 † Derselbe. Holzschopf.\n724. † Gemeinde Aarau. Waschhaus.\n725. Müller-von Däniken, Friedrich, Gepäckträger und Oekonom.\n  Müller, Johann Jakob, Schriftsetzer.\n  Reinhard-Müller, Joh. Baptist, Gärtner, von Balsthal (Solothurn).\n726. * Derselbe. Wohnhaus.\n  Bachmann-Vogelsang, Susanna, Wittwe, von Bottenwyl.\n  Bachmann, Maria, Fabrikarbeiterin, \" \"\n  Bachmann, Elise, \" \" \"\n727. * Egloff-Meier, Franz, Postfakteur, von Wettingen. Cantinewirthschaft.\n  Brütschlin geb. Bossart, Babette, Wirthin, von Sursee (Luzern).\n728. † Derselbe. Trinkhalle\n729. * Wehrli-Kähr, Jakob, Gipser, von Densbüren.\n  Bolliger-Kielholz, Albert, Bankangestellter, von Küttigen.\n  Ballmer-Egloff, Karl, Bankangestellter, von Lausen (Baselland).\n  Graf-Hunkeler, Maria, Part., Wittwe, von Birrwyl.\n730. Kielholz, Leopold, Kantonskriegskommissär.\n731. Egloff-Meier, Franz, Postfakteur, von Wettingen. Speisewirthschaft.\n  Kaufmann, Otto, Commis (Jenny & Weigel), von Buchs (Luzern).\n  Rathe, Karl Johann, Commis, (Siebenmann, March. Tailleur), von\n    Chur (Graubünden).\n732. * Derselbe. Wohnhaus.\n  Schibli geb. Jäggi, Anna Maria, Wittwe, Part., von Killwangen.\n  Schibli, Anna, Damenschneiderin, \" \"\n  Schibli, Alfred, Sekretär (Militärkanzlei), \" \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7235,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2213,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:29:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p058",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p058.jpeg",
+      "bytes": 255352,
+      "sha256": "32226ce3295e03e4808c905e6eca064e64e32f7835e13f1282dd1f0cb12521ce",
+      "sha256_of": "original",
+      "working_copy": "1888_p058.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:42+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p044",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p044.jpeg",
+    "bytes": 255760,
+    "sha256": "ce4d74443d9655f22c8491f2248d7872f31a2a1f4947c5eaf62293e5e06305a0",
+    "sha256_of": "original",
+    "working_copy": "1888_p044.jpeg"
+  },
+  "text": "Haus-\nNr.\n475. † Schweizerische Eidgenossenschaft und Staat Aargau. Zeughaus.\n476. † Diefselben. Abtrittgebäude.\n477. † Diefselben. Abgetragen.\n478. Schäfer-Troller, Adolf, Architekt und Stadtrath 3. Lindenhof.\n1210 *Derfelbe.\n  Häffig, Hans, Privat.\n  Häffig, Emma, Privatin.\n\nIn der Gais.\n479. * Schäfer-Troller, Adolf, Architekt und Stadtrath zum Lindenhof.\n  Bolens-Richner, Henri, Fabrikant, von Morges (Waadt).\n1217 *Derfelbe.\n  Thom-Hänni, Franz, Trompeterinfruktor der Infanterie, von Kirchberg (Bern).\n1248 *Derfelbe.\n  Locher-Willi, Jakob, Postkondutcur, von Emz (Graubünden).\n  Bed, Louise, Buchdruckers, Part.\n1249 *Derfelbe.\n  Bolliger, Johann, Notar.\n  Müller-Bolliger, Johann Albert, Postcommis, von Schmerikon (St. Gallen).\n480. Schäfer, Emil, Kaufmann.\n  Rabholz-Siebenmann, Johanna, Part., von Zürich.\n  Rabholz, Hermann Hans, Kaufmann, von Zürich.\n481. † Derfelbe. Hühnerhaus.\n482. Stäbli-Schultheß, Sophie, Med. Drs. Wittme, von Brugg.\n  Stäbli, Sophie, Part., Drs., von Brugg.\n  Stäbli, Gottlieb Wilhelm, Part., von Brugg.\n483. † Diefselbe. Scheune.\n1131 Kurz-Häßliger, Heinrich, Baumeister, von Schwamendingen (Zürich).\n  Rielholz-Nesbach, Gottlieb, Postbeamter, von Mettau.\n  Bennert-Roth, Emilie, Privatin, von Paris.\n1105 † Derfelbe. Schreinerwerkstätte mit Büro.\n1106 † Derfelbe. Zimmerschopf und Mauerverade.\n1186 Staat Aargau. Kantonale Krankenanstalt. Verwaltungsgebäude.\n  Bircher-Schagmann, Heinrich, Dr. Med., administrativer Direktor und Oberarzt der chirurgischen Abtheilung.\n  Ralt-Läubli, Alfred August, von Koblenz, Oberarzt der medizinischen Abtheilung und der Gebäranstalt.\n  von Roten, Albert, von Sitten (Wallis), Assiftenzarzt der chirurgischen Abtheilung.\n  Meyer-Brunner, Verwalter, von Rheinfelden.\n  Bolliger, Heinrich, Kanzlist, von Rüttigen.\n  Ernst-Suter, Jakob, Portier, von Holziken.\n  Schäfer-Morlock, Wilhelm, Ausläufer.\n1187 Derfelbe. Medizinisch-chirurgischer Pavillon.\n1188 Derfelbe. Medizinisch-chirurgischer Pavillon.\n1189 Derfelbe. Barade für Infektionskranke.\n1190 Derfelbe. Barade für Infektionskranke.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4233,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2063,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.91,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p044",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p044.jpeg",
+      "bytes": 255760,
+      "sha256": "ce4d74443d9655f22c8491f2248d7872f31a2a1f4947c5eaf62293e5e06305a0",
+      "sha256_of": "original",
+      "working_copy": "1888_p044.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:51+00:00"
+  }
+}

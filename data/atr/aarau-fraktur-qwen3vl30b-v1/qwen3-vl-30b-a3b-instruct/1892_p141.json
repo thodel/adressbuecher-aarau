@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p141",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p141.jpeg",
+    "bytes": 248637,
+    "sha256": "6db1b62fd179ff8ccee44a8459b0e6b4e3ad64f1f0bc75fa80ba568981030e13",
+    "sha256_of": "original",
+    "working_copy": "1892_p141.jpeg"
+  },
+  "text": "Siebenmann-Hodel, Friz, Commis, Rain 869.\nSiebenmann-Hürch, Gottlieb, Architekt, Stadt-Bauverwalter 1074.\nSiebenmann-Hunziker, Emma, Wittwe, Part., Rathausgasse 22.\nSiebenmann, Louife, Part., Bahnhofstraße 648.\nSiebenmann-Werz, Emil, Sekretär und Betreibungsbeamter, Schachen 737.\nXSiebenmann-Preifig, Katharina, Becks Wittwe, Erlinsbacherstraße 333.\nSiebenmann, Friedrich, Sohn, Erlinsbacherstraße 333.\nXSiebenmann-Rohr, Rudolf, Bierbrauer, Graben 620.\nSiebenmann-Schaffner, Otto, Koch, Laurenzenvorstadt 361.\nSiebenmann-Schmidt, Karl, Kaufmann, Bahnhofstraße 1020.\nSiebenmann-Seiler, Katharina, Benedikts Wittwe, Part, Bahnhofstr. 1023.\nXSiebenmann-Siebenmann, Rudolf, Part., Banfstraße 510.\nSiebenmann-Siebenmann, Arnold, Tapezierer, vordere Vorstadt 902.\nXSiebenmann-Siebenmann, Gottlieb, Part., Gartenstraße 1166.\nSiebenmann-Sprüngli, Sophie, Wittwe, Kirchgasse 12.\nXSiebenmann-Steiner, Jakob, Deonom, Goldern 1001.\nXSiebenmann-Walther, Otto, March. Tailleur, Oberthor 227.\nSiegenthaler-Hirt, Hermann, Uhrenmacher von Trueb (Bern), Laurenzen-\nvorstadt 376.\nSiegenthaler-Hirt, Elife, Glätterin, obigen Chefrau, Laurenzenvorstadt 376.\nXSiegfried-Leupold, Friedrich, Staatsbuchhalter von Zofingen, j. d. A. 294.\nSiegrist, Albert, Bäcker, von Meisterschwanden, Zollrain 51.\nSiegrist-Kischer, Jakob, Metzger von Meisterschwanden, Milchgasse 150.\nSiegrist-Hauri, Maria, Wäscherin von Seengen, Halden 282.\nSiegrist-Heuberger, Jakob, Schriftfekger von Elsingen, v. d. Haldenthor 803.\nXSiegrist-Hunziker, Emil, Beamter des Niederlagshaufes, Rain 874.\nSiegrist-Folliet, Wilhelm, Postkommis von Seengen, Casinoftrake 570.\nSiegrist-Folliet, Marie Louife, Speisewirthin 3. National von Seengen,\nCasinostraße 570.\nSiegrist-Lindenmann, Johann, Schuhmachermeister u. Regt. von Meister-\nschwanden, obere Vorstadt 922.\nSiegrist-Plüf, Anna, Haushälterin von Meisterschwanden, Ziegelrain 745.\nSiegrist-Minifer, Heinrich, Metzger, Rathausgasse 4.\nSiegrist-Schmid, Adolf, Schumacher von Meisterschwanden, Laurenzen-\nvorstadt 376.\nSimmen-Freundiger, Jakob, Küfermeister von Schinznach, hintere Vor-\nstadt 693.\nSinger-Kloter, Georg, Maurer von Salzstetten (Württemb.), Milchgasse 78.\nSommerhalder-Bufer, Jakob, Coiffeur und Zahnarzt, Pelzgasse 65.\nSommerhalder-König, Jakob, Knecht von Contenschwyl, Rain 877.\nSommerhalder-Lindenmann, Rudolf, Milchverkäufer von Schloßrued,\nMilchgasse 79.\nSoya, Anton, Kunstmaler von Bologna (Italien), Atelier hinter dem\nBahnhof 503, Wohnung 1268.\nSpengler, Bertha, Näherin, Golattenmattgasse 231 a.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6724,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2514,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0222,
+    "mean_line_chars": 54.89,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:45:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p141",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p141.jpeg",
+      "bytes": 248637,
+      "sha256": "6db1b62fd179ff8ccee44a8459b0e6b4e3ad64f1f0bc75fa80ba568981030e13",
+      "sha256_of": "original",
+      "working_copy": "1892_p141.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:49+00:00"
+  }
+}

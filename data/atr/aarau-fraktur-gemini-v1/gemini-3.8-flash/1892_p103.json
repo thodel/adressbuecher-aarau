@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p103",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p103.jpeg",
+    "bytes": 250356,
+    "sha256": "2dde7b888b321a2962cc7df27539fd9ab91dff68a3252a488b41d29719331334",
+    "sha256_of": "original",
+    "working_copy": "1892_p103.jpeg"
+  },
+  "text": "Brunner — Buser. 87\n\nBrunner-Knecht, Verena, Hebamme, Halden 287.\nBrunner-Künzli, Heinrich, Bahnangestellter, vor dem Haldenthor 800.\nBrunner-Nüsperli, Jakob, Seifensieder, Halden 287.\nBrunner-Senn, Heinrich, Fuhrmann von Schmiedrued, Golattenmatt-\n  gasse 236.\nBrunner-Umiker, Jakob, Spezereihändler, obere Vorstadt 928.\nBrunnhofer-Bryner, Hermann, Stadtarbeiter, Halden 282.\nBrunnhofer, Elise, Schneiderin, Rain 875.\nBrunnhofer-Giezentanner, Ursula, Daniels Wittwe, Halden 247.\nBrunnhofer-Giezentanner, Verena, Seilers Wittwe, Golattenmattgasse 235.\nBrunnhofer-Hunziker, Albert, Tambourinstruktor, Halden 282.\nBrunnhofer, Lisette, Lehrers, Part., Halden 246.\nBrunnhofer-Meder, August, Speisewirth u. Liqueurfabrikant, Zollrain 178.\nBrunnhofer-Schmidt, Magdalena, Mechanikers Wittwe, Halden 253.\nBruns-Gattiker, Hermann, Schlosser, Pelzgasse 127.\nBruns-Gattiker, Dorethea, obigen Ehefrau, Fein- und Großwascherei,\n  Pelzgasse 127.\nBüchle, Johann Rudolf, Part., Gartenstraße 998.\nBühler-Widmer, Gottlieb, Kupferschmied von Rietheim, Schmiedgasse 632.\nBührer-Gidemann, Anna, Kaufmanns Wittwe, Part., Rain 831.\nBührer-Gubler, Jakob, Kaufmann von Bibern (Schaffhausen), Rain 862.\nBührer-Heusler, Karl, Kaufmann von Bibern (Schaffhausen), Waaren-\n  agentur-Geschäft, Bachstraße 1174.\nBürgi-Burkhardt, Anna, Wittwe, Part. von Erlinsbach, obere Vorstadt 935.\nBürgi-Fricker, Joseph, Hutmacher, von Olten (Solothurn) vordere Vor-\n  statt 900.\nBürgi-Schmid, Barbara, Part. von Untererlinsbach (Aargau), Milch-\n  gasse 156.\nBürki, Ida, Gesellschafterin von Bümplitz (Bern), Bachstraße 1154.\nBucher-Bolliger, Johann, Fabrikarbeiter von Niederweningen (Zürich),\n  Telli 440.\nBucher-Rohr, Gottlieb, Fabrikarbeiter von Niederweningen (Zürich),\n  Telli 440.\nBucher-Wirz, Marie, Wittwe, Part. von Niederweningen (Zürich), Telli 440.\nBuchmann-Spycher, Adele, Damenschneiderin von Veltheim, Halden 249.\nBuchser-Lüscher, Samuel, Taglöhner von Schöftland, Milchgasse 150.\nBuhlrein, Friedrich, Part., Bahnhofstraße 1022.\nBurger, Johann, Gerichtsschreiber von Freienwyl, Zollrain 52.\nBurgmeier-Kieser, Joseph, Gesanglehrer, Graben 209.\nBurkhardt-Bertschinger, Ferdinand, Coiffeur, Laurenzenvorstadt 118.\nBurkhardt, Ferdinand, Sohn, Coiffeur, \" \"\nBurkhardt, Lina, Coiffeuse, \" \"\nBuser-Bräutigam, Rosina, Part., Metzgergasse 58.\nBuser-Buser, Emil, Güterschaffner von Untererlinsbach (Solothurn), hintere\n  Vorstadt 641.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7095,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2395,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0217,
+    "mean_line_chars": 50.72,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:56:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p103",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p103.jpeg",
+      "bytes": 250356,
+      "sha256": "2dde7b888b321a2962cc7df27539fd9ab91dff68a3252a488b41d29719331334",
+      "sha256_of": "original",
+      "working_copy": "1892_p103.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:56:21+00:00"
+  }
+}

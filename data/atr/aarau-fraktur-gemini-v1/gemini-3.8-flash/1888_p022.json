@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p022",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p022.jpeg",
+    "bytes": 268535,
+    "sha256": "48c436a06b4cefdec70410cfb39605c88b3f5ee3dbc8e90d75db406a3d2851d9",
+    "sha256_of": "original",
+    "working_copy": "1888_p022.jpeg"
+  },
+  "text": "— 12 —\n\nHaus-\nNr.\n123. Rychner = Heß, Konrad, Seiler, Seilerwaaren= und Peitschenlager,\n    Fettwaaren.\n124. Stirnemann geb. Müller, Louise und * Müller, Arnold, Baumeister.\n  Stirnemann-Müller, Louise, von Gränichen. Ellenwaaren- und Mercerie-\n    geschäft.\n  Stirnemann, Lina, Lehrerin, von Gränichen.\n  Nüsperli-Rychner, Julie, Weißgerbers Wittwe.\n  Nüsperli, Emma, Weißgerbers, Part.\n  Zehnder geb. Kaufmann, Barb., Wittwe, Gemüsehändlerin, von Gränichen.\n125.* Adam = Heß, Anton.\n  Walter-Schmuziger, August, von Neumühl (Baden). Nähmaschinen- und\n    Fourniturenhandlung.\n  Bächli-Holliger, Gottlieb, Schuhmacher, von Buchs.\n  Roth-Bolliger, Anna Maria, Wittwe, Taglöhnerin, von Erlinsbach (Aargau).\n  Hausmann-Dietiker, Johann, Taglöhner, von Schafisheim.\n  Wehrli-Roth, Jakob, Fabrikarbeiter, von Biberstein.\n126. Hunziker-Baumberger, Rudolf, Lehrer.\n  Wernli-Wernli, Rudolf, Cementarbeiter, von Thalheim.\n127.* Spengler-Lienhard, Erbschaft.\n  Rohr-Gloor, Adolf, Metzger und Speisewirth.\n  Hunziker-Müller, Friedrich, Maschinenmeister.\n128. Landolt-Hässig, Alexander, Oekonom.\n  Schultheß-Müller, Albert, von Bubikon (Zürich), Sekretär des eidg.\n    Kavallerie-Büreau.\n  Wäffler-Stäuble, Heinrich, Turnlehrer, von Basel.\n  Bruns-Gattiker, Hermann, Schlossermeister, von Bremen.\n  Bruns-Gattiker, Dorothea, obigen Ehefrau, Fein- und Großwäscherei.\n129.* Derselbe. Bierhalle Schmidt.\n  Schmidt-Henz, Hans, Bierwirthschaft.\n  Schumann-Ringier, Albert, Professor, von Gotha (Sachsen).\n  Markwalder = Gamper, Traugott, Major, Kavallerie = Instruktor, von\n    Wettingen.\n130. Bell-Marti, Joseph Anton, Kaufmann. Posamenterie-, Mercerie-,\n    Material- und Spezereiwaaren-Handlung.\n131. Rüetschi, Gottlieb, Bäcker und Pintenwirth, von Suhr.\n132.* Willimann-Wehrli, Maria, von Oberhof.\n  Fisch, Elise Karoline, Metzgers, Näherin.\n  Bollmann-Eifert, J. Georg, Steindrucker, von Düdelsheim (Hessen).\n  Rohr-Blauenstein, Heinrich, Holzspalter, von Hunzenschwyl.\n  Mayer-Suter, Elise, Wittwe, Weißnäherin, von Rastatt.\n133. Waßmer-Iberg, Gallus, Schneidermeister, von Jungholz (Baden).\n  Haßler geb. Meier, Maria, Part., von Männedorf (Zürich).\n134. Haßler-Bircher, Paul, Kupferschmied. Kupferwaarenhandlung.\n  Oelhafen geb. Hagnauer, Johanna, Wittwe, Part.\n  Vogel-Strehler, Jakob, Kondukteur, von Kölliken.\n135.* Baumann geb. Müller, Maria, Wittwe.\n  Schatzmann, Samuel, Buchbinder, von Windisch. Buchbinderei- und\n    Schreibmaterialienhandlung.\n  Gagg-Peter, Konrad, Maurer, von Kreuzlingen (Thurgau).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7576,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2501,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:25:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p022",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p022.jpeg",
+      "bytes": 268535,
+      "sha256": "48c436a06b4cefdec70410cfb39605c88b3f5ee3dbc8e90d75db406a3d2851d9",
+      "sha256_of": "original",
+      "working_copy": "1888_p022.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:12+00:00"
+  }
+}

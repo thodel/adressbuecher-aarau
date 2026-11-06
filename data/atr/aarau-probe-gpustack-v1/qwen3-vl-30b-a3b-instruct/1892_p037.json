@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p037.jpeg",
+    "bytes": 191796,
+    "sha256": "63969212e4905ea0c3b3e786b456b17e83e1cbef62d445c88ee141249e3a7302",
+    "sha256_of": "original",
+    "working_copy": "1892_p037.jpeg"
+  },
+  "text": "Haus-\nNr.\n337. Weber-Weber, Wilhelm, Milchverkäufer, von Menziten.\n338. Wehrlí-Graf, Jakob, Handlanger, von Rüttigen.\n339. * Zimmermann, Maria, Wittwe, Erbschaft.\nHeuberger-Siebenmann, Gottlieb, Sekretär.\nDöbeli-Binder Samuel, Bezirksschullehrer, von Seon.\n1247. † Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wagenshopf und\nGiskeller.\nWeinberg.\n340. † Frey-Frey, R., Stadtrath. Rebhäuschen.\n341. † Kern-Rychner, Emil. Rebhäuschen.\nJenjeits der Aare.\n342. Bauhofer-Keller, Anna Kaufmanns Wittwe.\nBauhofer, Maria, Lehrerin in Erlinsbach.\nTuchschmid, August, Dr. Professor, von Thundorf (Thurgau).\nMüller, Rosa, Haushälterin, von Unterkulm.\nHunziker-Müller, Marie Anna, Schuhmachers Wittwe, von Unter-Kulm.\n343. † Diefelbe. Holzschopf.\n344. † Gemeinde Aarau. Holzmagazin.\n345. † Diefelbe. Werthaus.\n1280. † Gemeinde Aarau. Spritzenhaus.\n346. Müller-Rothpletz, Arnold, Architekt und Baumeister.\n347. † Abgetragen.\n348. † Gemeinde Aarau. Badanstalt.\n† Diefelbe. Schuppen für Kriegsfuhrwerke.\n1104.\nLaurenzentorgasse.\n349. Häfker-Wanger, Emil, Negot., Kolonialwaarenhandlung.\nErné-Leblanc, Eduard, Kaufmann, von Leuggern.\n350. † Derfelbe. Holzschopf.\n351. Aktiengesellschaft der Creditanstalt.\nGraben.\n352. * Dreysuf-Götschel, Adolf, Kaufmann, von Endingen, in Basel.\nDreisuf, Max Emil, Sohn, Kaufmann, von Endingen. Französische\nWaarenhalle. Ellenwaarenhandlung und Damenkonfektion.\nFrey-Hagnauer, Konrad, Dr. Med., praktischer Arzt.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3082,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1428,
+    "lines": 37,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:33:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1892_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p037.jpeg",
+      "bytes": 191796,
+      "sha256": "63969212e4905ea0c3b3e786b456b17e83e1cbef62d445c88ee141249e3a7302",
+      "sha256_of": "original",
+      "working_copy": "1892_p037.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:33:43+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p017",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p017.jpeg",
+    "bytes": 265346,
+    "sha256": "73652e0e67664f43859f12022fca23aecb38b4b3c1387028762f5270aae0a8dc",
+    "sha256_of": "original",
+    "working_copy": "1888_p017.jpeg"
+  },
+  "text": "— 7 —\n\nHaus-\nNr.\n66.  Heß-Zürcher, Wilhelm, Bäckermeister und Pintenwirth.\n  Heß, Robert, Part.\n67.  Fäs-Gall, Rudolf, Kasernier, von Schöftland.\n  Fäs, Marie, Modistin, Modewaarenhandlung.\n  Baumann-Müller, Maria, Privatin, Buchbinders Wittwe.\n68.  Hagnauer, Friedrich, Bürstenfabrikant. Bürstenwaarenhandlung.\n  Hagnauer, Hermann, Sohn, Kaufmann.\n  Hagnauer-Peters, Friedrich, Bürstenmacher.\n  Blaser geb. Studer, Anna, Wittwe, Part., von Langnau (Bern).\n  Nüsperli, Marie Anna, Schneiders, Part.\n69.  Ramsauer geb. Hächler, Anna, Wittwe, Part., von Herisau\n    (Appenzell).\n  Limacher-Niggli, Niklaus, Schuhmachermeister, von Schüpfheim (Luzern).\n\nMilchgasse.\n\n70.  Bertschi-Bircher, Julius, Zugführer, von Sumiswald (Bern).\n  Bertschi, Anna, Damenschneiderin, von Sumiswald (Bern).\n  Hostettler-Hagnauer, Niklaus, Schuhmacher, von Guggisberg (Bern).\n    Werkstätte.\n  Engesser-Brunner, Joseph, Schneider, von Durchhausen (Württemberg).\n71.* Schmid, Jakob, alt Bankabwart, von Erlinsbach, in Basel.\n  Strub-Wildi, Leonhard, von Läufelfingen, Möbelhandlung.\n  Eger-Ebner, Theophil, Schneider, von Riehen (Basel).\n72.  Hoffmann-Meyer, Joh., Schuhmachermeister, von Weiningen (Thurgau),\n    Schuhwaarenhandlung.\n73.* Maurer, Louise, Privatin.\n  Schmocker, Verena, Modistin, von Ringgenberg (Bern). Hut- und\n    Modewaarenhandlung.\n  Schmutz geb. Weber, Anna, Wittwe, Spetterin, von Eptingen (Baselland).\n  Maurer-Ernst, Philipp, Gießereiarbeiter.\n74.* Siegrist-Fischer, Jakob, Metzger, von Meisterschwanden.\n  Frey-Tanner, Joh., Schneider, von Densbüren.\n  Haller geb. Fehlmann, Susette, Wittwe, Wäscherin, von Reinach.\n  Siebenmann-Beck, Gottlieb, Färber.\n75.* Jäggi-Weber, Hermann, Buchhalter, von Strengelbach.\n  Hochstraßer-Fehlmann, Verena, Spetterin, von Fahrwangen.\n  Fehlmann-Holzreuter, Christoph, Bedienter, von Seon.\n  Frei-Lindenmann, Johann, Taglöhner, von Reigoldswyl (Baselland).\n76.  Ernst-Lehmann, Samuel, Gasarbeiter, von Holziken.\n  Maurer-Lehmann, Friedrich, Kutscher, von Schmiedrued.\n  Herzig-Weber, Friedrich, Dachdecker und Kaminfeger, von Obersteckholz\n    (Bern).\n77.  Hässig-Siegrist, Julius, Schlossermeister.\n78.  Andres-Eichelberger, Otto, Hafnermeister.\n  Burren-Hirsbrunner, Friedrich, Pferdewärter, von Köniz (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7522,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2249,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.32,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:24:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p017",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p017.jpeg",
+      "bytes": 265346,
+      "sha256": "73652e0e67664f43859f12022fca23aecb38b4b3c1387028762f5270aae0a8dc",
+      "sha256_of": "original",
+      "working_copy": "1888_p017.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:37+00:00"
+  }
+}

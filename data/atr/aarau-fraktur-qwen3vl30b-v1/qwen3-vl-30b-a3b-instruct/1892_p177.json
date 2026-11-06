@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p177",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p177.jpeg",
+    "bytes": 213920,
+    "sha256": "932715f1e934d91e4d6b8934c086356f9ab8e17b0d1a9fd454e1cdc54d210350",
+    "sha256_of": "original",
+    "working_copy": "1892_p177.jpeg"
+  },
+  "text": "Verzeichniss der Behörden, Beamten und Angestellten\nder Stadtgemeinde Aarau.\n\nGemeinderath.\nGde.-Ammann: Schmidt, Max, Für-\nsprech.\nVice: Stierli-Brentano, G.\nL., Fürsprech.\nGde.-Räthe: Frey-Frey, Carl, Kaufmann.\nGonzenbach-Gonzenbach, A.,\nIngenieur.\nHäfzig, Hans.\nSchäfer-Troller, Ad., Architekt.\nSiebenmann, Fritz, Bierdr.\n\nGemeindeschreiber.\nRiggli-Bohnenblust, Arnold, Fürsprech.\nStellvertreter: Frey-Kiefer, Josef, Notar.\n\nFriedensrichter.\nGrismann, Abraham, Deconom.\n\nEinwohner-Rechnungskommission.\nPräsident: Dr. Blattner, Otto, Fürsprech.\nMitglieder: Dambach, J., Postadjuukt.\nKleiner, Hans, Fabrikant.\nFrey-Schmidlin, Vice-Bank-\ndirektor.\nGasser, Emanuel, Fabritt.\nKauf, A., Bankbuchhalter.\nMüller-Haberlich, Kaufmann.\n\nOrtsbürger-Rechnungskommission.\nPräsident: Henz-Plüsch, J., Kaufmann.\nMitglieder: Baumann, Carl, Weinbbl.\nGyfi, Hans, Mechaniker.\nHerzog, Hans, Staatsarchiv.\nKiefer, Robert, Bankbeamter.\nNothplex-Richner, Fabrikant.\n\nSchulpflege.\nPräsident: Dr. Liechti, Paul, Professor.\nVice: Sauerländer, R.\nAktuar: Fischer, A., Pfarrer.\nMitglieder: Bally, Eugen, Fabrikant.\nGraf, Ernst, Pfarrer.\nKeller, G., Redaktor.\nRistler, Steuerpräsident.\n\nSchmidt, Max, Stadtammann.\nDr. Stähelin, A.,\nWernly, Rud., Pfarrer.\nZürcher, Arzt.\n\nSteuerkommission.\nPräsident: Heller, S., Rechtsagent.\nVice: Dojer, Leop., Direct.-Sekretär.\nMitglieder: Frey-Herzog, Aug., Fabrikant.\nHäfzig, Hans, Stadtrath.\nKern, Heinrich, Mechaniker.\nSchäfer, A., Stadtrath.\nErskamann: Gyfi-Studler, A., Mechaniker.\nAktuar: Amsler, Otto, Stadtkassier.\n\nForstkommission.\nPräsident: Schmidt, Max, Stadtammann.\nMitglieder: Grismann, A., Friedensrichter.\nFahrlander, Eugen.\nGonzenbach, A.\nHäfzig-Lienhard.\nZmhoif-Munziger, Emil.\nSiebenmann, Bernhard.\nSiebenmann-Brun, Brandolf.\nSiebenmann, Rud.\nBerathend: Meisel, Kav., Forstverwalter.\nAktuar: Riggli, A., Fürsprech u. Ge-\nmeindeschreiber.\n\nForstverwalter.\nMeisel, Kaver.\n\nFondsverwalter.\nAndres, Gottlieb.\n\nBauverwalter.\nSiebenmann-Hürsch, Gottlieb.\n\nCivillandsbeamter.\nFrey-Kiefer, Josef, Notar.\n\nStadtkassier.\nAmsler, Otto.\n\nBetreibungsbeamter.\nSiebenmann, Emil, Sekretär d. Gemeindeb.\nGemeindeweibel.\nFischer, Thomas.\n\n[spalte 2]\n161\n11",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5940,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2166,
+    "lines": 85,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 24.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:50:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p177",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p177.jpeg",
+      "bytes": 213920,
+      "sha256": "932715f1e934d91e4d6b8934c086356f9ab8e17b0d1a9fd454e1cdc54d210350",
+      "sha256_of": "original",
+      "working_copy": "1892_p177.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:11+00:00"
+  }
+}

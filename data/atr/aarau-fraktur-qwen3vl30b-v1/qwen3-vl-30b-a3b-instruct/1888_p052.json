@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p052",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p052.jpeg",
+    "bytes": 271263,
+    "sha256": "f76e2625e1e84eb39e97d05e092ded425e52fcee55a1a3f53ad62d83bf5a8931",
+    "sha256_of": "original",
+    "working_copy": "1888_p052.jpeg"
+  },
+  "text": "Haus-\nNr.\n1197 Bau- u. Garantiecomite der römisch-kathol. Kirche (Pfarrhaus).\nStöckli, Stephan, römisch-katholischer Pfarrer, von Muri.\nStöckli, Elisabeth, Haushälterin, von Muri.\n628. * Frey=Feer, Bertha, Fabrikants Wittwe.\nFrey-Rüegg, Oskar, Fabrikant.\nMüller & Cie., Lith. Kunstanstalt und Druckerei.\n629. † Dieselbe. Fabrikgebäude.\n630. † Siebenmann=Kohr, Rudolf, Bierbrauer. Remise, Bier- u. Eiskeller.\n631. Abgetragen, an dessen Platz\n1232 Litscher-Breminger, Daniel, Schlosser, von Oberentfelden.\nZuter-Lüscher, Rudolf, Uhrenmacher, von Kölliken.\nMüller-Zellweger, Dorothea, Wittwe, Part., von Roggwyl (Thurgau).\n1244 † Dieselbe. Schlosserwerkstätte.\n632. Büttler= Widmer, Gottlieb, Kupferschmied, von Rietheim.\nWidmer-Zehnder, Berena, Wittwe, Wäscherin, von Freienwyl.\nFelber, Johann, Postfondukteur, von Oberbötzberg.\n633. Beck=Roth, Albrecht, Sattler und Tapezierer.\nBeck-Hunziker, Emil, Sattler und Tapezierer.\nRoth-Bürgi, Anna, Part., von Erlinsbach.\n634. Brunner-Nußbaum, Elise, Wittwe, von Dürrenäsch, Kaffeeiwirthschaft und\nSamenhandlung.\n635. * Müller=Bondäniken, Friedrich, Gepäckträger.\nLerf-Kirchhofer, Moriz, Schneider, von Leibstatt, römisch-kathol. Siegrist.\nGruber-Stalder, Engelbert, Maurer, von Naffarein (Throl).\nMüller-Walti, Jakob, Taglöhner, von Bözberg.\n636. Müller-Kramer, Joſt, Schneider, von Büron (Luzern).\nEichenberger-Joho, Rudolf, Schuhmacher, von Reinach.\nBerner, Maria Anna, Spetterin, von Kulm.\nBerner, Berena, Haushälterin, von Kulm.\n637. Ryhner=Schleuniger, Maria, Hausfrau Wittwe.\nErni-Wanderli, Lorenz, Taglöhner, von Stühlingen (Solothurn).\nSiegrist-Hochuli, Arnold, Schreiner, von Riedertswyl (Baselland).\n\nSinterer Vorstadt.\n638. Hemmeler-Frey, Friedrich, Kaufmann, Stadtrath. Weinhandlung.\nSchneider-Wattenberger, Joh. Theod., Musikdirector, v. Würzburg (Bayern).\nLandolt-Hartmann, Karl, Fabrikant.\nHemmeler & Cie., Quincaillerie- und Spielwaarengeschäft en gros. Sparz,\nLeih- und Diskontkasse.\n639. † Dieselbe. Magazin.\n640. † Landolt=Hägig, Alexander, Metzger. Scheune mit Remise.\n1235 † Dieselbe. Wagenshopf und Remise.\n641. * Dieselbe. Wohnhaus.\nGisi-Schmid, Johann Jakob, Rechnungsrevisor, von Birs.\n642. Baumann=Räfer, Heinrich, Polizeifeldweibel.\nMüller-Vonäsch, Jakob, Buchbinder, von Unterkulm.\n643. Umiker-Marti, Marie, Wittwe, Part., von Thalheim.\nWipf geb. Wernli, Margaretha, Wittwe, Vorgängerin, von Egliswyl.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4953,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2371,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:22:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p052",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p052.jpeg",
+      "bytes": 271263,
+      "sha256": "f76e2625e1e84eb39e97d05e092ded425e52fcee55a1a3f53ad62d83bf5a8931",
+      "sha256_of": "original",
+      "working_copy": "1888_p052.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:25+00:00"
+  }
+}

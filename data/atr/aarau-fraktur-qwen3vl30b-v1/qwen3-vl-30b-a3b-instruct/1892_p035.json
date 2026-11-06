@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p035.jpeg",
+    "bytes": 206110,
+    "sha256": "e41ce79f0d6254235c0ffe0555f05c848c663e0c157681cc0a444488081ccdec",
+    "sha256_of": "original",
+    "working_copy": "1892_p035.jpeg"
+  },
+  "text": "Haus-\nNr.\n1284. Schneider-Wernli, Verena, Auffseher, von Thalheim.\n1004. + Rhniker, Friedrich, Bierbrauer. Fäkremife.\n1339. Bogel-Ernst, Johann, Obermüller, Cementfabrik, von Thalheim\n(Preußen).\n1278. Müller-Würki, Jakob, Cementmüller, von Schöftland.\nSchmid-Pauli, Daniel, Gärtner, von Erlenbach.\nPauli-Würki, Katharina, Wittwe, von Villnachern.\n1095. + Schüzengesellschaft Aarau. Schüzenghaus.\n1096. + Diefelbe. Scheibenstand.\n1178. + Firma Zurlinden & Cie. Portlandcementfabrik.\n1179. + Diefelben. Turbinenhaus.\n1180. + \" Comptoir.\n1181. + \" Schuppen.\n1211. + \" Brennsofenhaus.\n1212. + \" Cementmagazin.\n1213. + \" Materialschuppen.\n1230. + \" Schopf.\n1274. + \" Steinschuppen.\n1275. + \" Waaghaus.\n1276. + \" Scheune und Stallung.\n1277. + \" Abort.\n1313. + \" Kohlenschuppen.\n1069. + Gemeinde Aarau. Wafenhaus\n1314. + Hürzeler, Jakob, Hadernhändler. Schopf.\n\nGishügel.\n317. Wächter-Hazler, Hans, Wirth zum „Alpenzeiger“, von Remigen.\nKurhaus.\n318. Abgetragen; an dessen Plaz\n1204. + Derfelbe. Holzhaus und Stallung.\n1206. + \" Trinkhalle.\n319. Zschotte-Sauerländer, Olivier, Ingenieur, zur Blumenhalde.\nFisch-Zschotte, Karl, Major, Instruktor I. Klasse der Infanterie.\n320.+ Derfelbe. Waschhaus und Holzschopf.\n\nWeinberg.\n321.a.*Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wirthschaft\nund Bierbrauerei zum Weinberg.\nBärtschi-Winder, Jakob, Wirth, zum Weinberg, von Lützelflüh (Bern).\n321.b.*Deschger-Von Felten, Anna Maria, Wittwe, von Wyl.\nFrei-Rauber, Johann Jakob, Kart., von Degerfelden.\nHofer-Gehri, Jakob, Notar, von Rothrist.\nAbler-Andres, Johann Bapt., Knecht, von Flünnau (Württemberg).\n321.c.Klingelfuß, Johann Friedrich, Mechaniker und Eichmeister, von\nBasel. Spezialfabrikation von Wasserwaagen, Lager in allen\nSorten Waagen und Gewichten.\nKlingelfuß, Alfred Jakob, Sohn, Mechaniker, von Basel.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3872,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1801,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.3,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:36:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p035.jpeg",
+      "bytes": 206110,
+      "sha256": "e41ce79f0d6254235c0ffe0555f05c848c663e0c157681cc0a444488081ccdec",
+      "sha256_of": "original",
+      "working_copy": "1892_p035.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:09+00:00"
+  }
+}

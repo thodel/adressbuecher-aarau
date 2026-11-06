@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p068",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p068.jpeg",
+    "bytes": 255640,
+    "sha256": "fb91c32bb0ece40a82edd38c1f2f37e5adb2118ad76ebbbb462175eba44dea28",
+    "sha256_of": "original",
+    "working_copy": "1888_p068.jpeg"
+  },
+  "text": "Haus-\nNr.\nZimmerli, Johann Jakob, Part., von Niederwyl.\nBaumgartner-Erni, Heinrich, Telefonarbeiter, von Weyach (Zürich).\n901.† Derfelbe. Werkstätte.\n902.* Siebenmann-Bräm, Otto, Kreiskommandant.\nSiebenmann, Arnold, Tapezierer und Dekorateur.\nHagenbuch-Ernst, Marie, Schneiders Wittwe.\n903. Henz-Gautschi, Emil, Eisenwarenhandlung.\nFrey-Feer, Bertha, Fabrikants Wittwe.\n904.† Staat Aargau. Alte Postremise.\n905. Derfelbe. Regierungsgebäude.\nRäser-Schüür, Jakob, Rathausabwart, von Biberstein.\n906.† Derfelbe. Holzhaus.\n907.† id. id.\n908. id. Grokrathsgbäude. Kantonsbibliothek.\n\nObere Vorstadt.\n\n909. Wernli-Meier, Jakob, Schreinermeister.\n910.† Derfelbe. Werkstätte.\n911. Vogt-Kohler, Johann, Schuster, von Remigen. Schuhhandlung.\n912. Gänslcn-Roch, Regina Louise, von Starrkirch (Solothurn). Gasthaus zur Herberge.\n913. Gänslcn-Meier, Adolf, Bäcker, von Biberstein. Klein- und Großbäckerei.\nKraft-Siegrist, Bertha, Part., von Brugg.\nMeier, Notsburga, Pofamenterin, von Erlinsbach (Solothurn).\nHeusler, Emanuel, Kaufmann, von Biel (Bern).\n914.† Derfelbe. Bäckerei.\n915.* Derfelbe. Hinterhaus.\nHäusler geb. Elmer, Karolina, Part., von Schwaderloch.\nCadonau-Hunziker, Elisabeth, Epetterin, von Waltensburg (Graubünden).\n916. Andres-Bircher, Friedrich, Hafnermeister.\nMüller-Schulteß, Franz Otto, Schriftseker, von Riedholz (Solothurn).\nStierli-Andres, Elise, Buchdruckers Wittwe.\nStierli, Cäcilie, Part., von Arista.\n917.† Derfelbe. Offenmagazin und Geschirrhandlung.\n918.† id. Waschhaus.\n919.* Hemmeler-Scheibler, Hafners Wittwe.\nHemmeler-Schmidt, Wilhelm, Hafnermeister.\nHelfbling-Sport, Conrad, Schriftseker, von Zona (St. Gallen).\n920.† Diefelbe. Holzschopf.\n921. Hemmeler-Roth, Wilhelm, Kanzlist.\nMüller-Riniker, Elise, Part., von Biberstein.\nMathys-Matter, Wilhelm, Feilenhauer, von Rölliken.\nBieber-Mariz, Gottfried, Kondukteur, von Stühlingen (Solothurn).\n922. Siegrist-Lindenmann, Johann, Schuhmacher, von Meisterschwanden.\nColonial- und Lederwarenhandlung.\nSiegrist, Albert, Bäcker, von Meisterschwanden.\nSiebenmann-Sprüngli, Jakob Arnold, Agent.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4308,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2055,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p068",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p068.jpeg",
+      "bytes": 255640,
+      "sha256": "fb91c32bb0ece40a82edd38c1f2f37e5adb2118ad76ebbbb462175eba44dea28",
+      "sha256_of": "original",
+      "working_copy": "1888_p068.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:35+00:00"
+  }
+}

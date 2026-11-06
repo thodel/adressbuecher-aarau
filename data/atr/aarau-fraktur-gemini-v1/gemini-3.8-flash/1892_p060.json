@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p060",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p060.jpeg",
+    "bytes": 232590,
+    "sha256": "a42542659c695886e36583aeff9c7a57ebc0f984735c955c591ce2a328abae03",
+    "sha256_of": "original",
+    "working_copy": "1892_p060.jpeg"
+  },
+  "text": "— 52 —\nHaus-\nNr.\n  Wietlisbach-Walther, Joseph Burkard, Postcommis.\n  Meier-Wydler, Joseph, Postcommis, von Hilfikon.\n  Sauter, Theresia, Vorgängerin, von Balgheim (Württemberg).\n  Fischer, Ferdinand, Telegraphist.\n725.  Müller-von Däniken, Friedrich, Oekonom.\n  Reinhard-Müller, Joh. Baptist, Gärtner, von Balsthal (Solothurn).\n726.* Derselbe. Wohnhaus.\n  Bachmann, Maria, Fabrikarbeiterin, von Bottenwyl.\n  Bachmann, Elise,            \"            \"       \"\n1331  † Derselbe. Scheune.\n727.* Egloff-Meier, Franz, Postfakteur, von Wettingen. Cantinenwirthschaft.\n  Döbeli-Richli, Babette, Wirthin, von Seon.\n728. † Derselbe. Trinkhalle.\n729.* Wehrli-Kähr, Jakob, Part., von Densbüren.\n  Hegnauer-Fischer, Rudolf, Buchhalter, von Seengen.\n  Vollmer-Egloff, Karl, Bankangestellter, von Lausen (Baselland).\n  Suter-Müller, Jakob, Taglöhner, von Kölliken.\n1325  † Derselbe. Holzschopf.\n1261  Matter-Schönenberg, Samuel, Amtsschreiber, von Oberentfelden.\n  Siebenmann, Adolf, Sekretär.\n  Siebenmann, Fanny, Part.\n730.  Kielholz, Leopold, Part.\n  Kielholz, Karoline, Haushälterin, von Mettau.\n731.  Egloff-Meier, Franz, Postfakteur, von Wettingen. Speisewirthschaft.\n732.* Derselbe. Wohnhaus.\n  Schibli geb. Jäggi, Anna Maria, Wittwe, Part., von Killwangen.\n  Schibli, Anna, Damenschneiderin, von Killwangen.\n733.* Schmuziger, J. G. E., Kaufmann in Winterthur. Speisewirthschaft.\n  Schmuziger-Bisel, Max, Speisewirth.\n  Renold-Hinden, Maria, Wittwe, Part.\n734.  Hochstraßer, Marie, Damenschneiderin, von Auenstein.\n  Schmuziger-Hochstraßer, Marie, Part.\n  Ammann-Wälchli, Johann, von Madiswyl (Bern), Speisewirthschaft.\n  Hauri-Kyburz, Samuel, Briefträger, von Seengen.\n  Vogt-Keller, Marie, Hebamme, von Villigen.\n  Bircher, Maria, Taglöhnerin, von Küttigen.\n735. † Uster geb. Thut, Verena, Wittwe, von Feuerthalen (Zürich).\n  Uster Heinrich, Malermeister, von Feuerthalen (Zürich). (Malerwerkstätte.)\n736.  Dieselbe.\n  Uster, Heinrich, Malermeister, von Feuerthalen (Zürich).\n  Brack-Uster, Heinrich, Revisor.\n737.  Siebenmann-Merz, Emil, Sekretär und Betreibungsbeamter.\n  Frey-Pfiffer, Maria, Wittwe, Part., von Zurzach.\n  Bircher-Burger, Emil Ludwig, Postcommis.\n738. † Walther-Matter, Jakob, Oekonom. Scheune.\n739.  Derselbe.\n  Wernli-Wächter, Johann, Weichenwärter, von Thalheim.\n  Günthard-Hauri, Marie, Wittwe, Weißnäherin, von Hedingen (Zürich).\n  Käser-Laurent, Emil, Gärtner, von Oberflachs.\n740. † Derselbe. Schopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7879,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2422,
+    "lines": 53,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:51:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p060",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p060.jpeg",
+      "bytes": 232590,
+      "sha256": "a42542659c695886e36583aeff9c7a57ebc0f984735c955c591ce2a328abae03",
+      "sha256_of": "original",
+      "working_copy": "1892_p060.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:51:45+00:00"
+  }
+}

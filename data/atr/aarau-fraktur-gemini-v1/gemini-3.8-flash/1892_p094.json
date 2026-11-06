@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p094",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p094.jpeg",
+    "bytes": 238938,
+    "sha256": "ae85db867ddcfb6197d07e1d959c6c1824e5b563000c8c517ae7ad3cc13b2577",
+    "sha256_of": "original",
+    "working_copy": "1892_p094.jpeg"
+  },
+  "text": "— 78 —\n\nHaus-\nNr.\n1274. † Zurlinden & Cie. Cementfabr. Steinschuppen. (Scheibenschachen.)\n1275. † Dieselben. Waghaus. id.\n1276. † Dieselben. Scheune und Stallung id.\n1277. † Dieselben. Abort id.\n1278. Schmid, Daniel, Gärtner. Wohnhaus. id.\n1279. † Bachmann, Johann, Küfer. Küferwerkstätte. (Milchgasse.)\n1280. † Gemeinde Aarau. Spritzenhaus. (Jenseits der Aare.)\n1281. † Wespi, Karl, Hafner. Materialschuppen. (Obere Vorstadt.)\n1282. † Fleiner, Alberts, Erbschaft. Brennofen und Trockenpresse. (Jenseits\n  der Aare.)\n1283. † Bertschi, Gottlieb, Schreiner. Werkstätte. (Halden.)\n1284. Schneider geb. Wernli, Verena, Aufsehers. Wohnhaus. (Scheiben=\n  schachen.)\n1285. Mathis, Wilhelm, Feilenhauer. Wohnhaus. (Entfelderstraße.)\n1286. Fleury-Adam, Josef, Kaufmann. (In der Gais.)\n1287. Müller & Comp. Lithogr. Anstalt. (Bahnhofstraße.)\n1288. † Keusch, Karl, Apotheker. Schopf. (Vordere Vorstadt.)\n1289. Schenker, Gottlieb, Dr. med. Wohnhaus. (Bahnhofstraße.)\n1290. † Zschokke, O. Baugeschäft. Schmiedgebäude. (Rohrerstraße.)\n1291. † Frey-Frey, Karl, Stadtrath. Gewächshaus. (Valainenweg.)\n1292. † Frey, Robert, und Max. Chokoladefabrikanten. Maschinenhaus.\n  (Valainenweg.)\n1293. † Billo-Bär, Fabrikant. Holzhaus. (Hinter dem Bahnhof.)\n1294. * Steiner-Sennhauser, Samuel, Oekonom. Wohnhaus. (Laurenzen=\n  vorstadt.)\n1295. † Hässig, Gottlieb, Schleifer. Feinschleiferei. (Hammer.)\n1296. † Fleiner, Alberts, Erbschaft. Stein- und Kohlenschuppen. (Jenseits\n  der Aare.)\n1297. † Dieselben. Steinschuppen. (Jenseits der Aare.)\n1298. Roth, Johann, Aufseher. Wohnhaus. (Jenseits der Aare.)\n1299. * Schatzmann, Jakob, Abwart. Wohnhaus. (Vor dem Haldenthor.)\n1300. † Hoch, Gustav, Samenhändler. Magazin. (Bahnhofstraße.)\n1301. * Läuchli, Friedrich, Schlosser. Wohnhaus. (Hammer.)\n1302. † Schmidt, Gustav, Dr. chem. Buttersiederei. Erbschaft. (H. d. Bahnhof.)\n1303. † Maurer, Emil. z. Kreuz. a. Gasthaus, b. Magazin, c. Kegel=\n  bahn. (Jenseits der Aare).\n1304. † Schenker, Gottlieb, Dr. med. Wasch- und Holzhaus. (Bahnhof=\n  straße.)\n1305. † Keller, Joseph, Pferdewärter. Scheune. (Halden.)\n1306. Wägeler-Vogel, Karl, Dachdecker. Wohnhaus. (Schifflände.)\n1307. Widmer-Gamper, Postcommis. Wohnhaus. (Feerstraße.)\n1308. Meier-Lüthy, Jakob, Lehrer. id. id.\n1309. Rothpletz-Rychner, Friedrich. id. (Gönhardfeldweg.)\n1310. Richard geb. Schmid, Ida Wittwe. id. (Zeughausstraße.)\n1311. † Schatzmann, Jakob, Abwart. Schopf. (Vor dem Haldenthor.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8072,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2424,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0208,
+    "mean_line_chars": 49.21,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:55:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p094",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p094.jpeg",
+      "bytes": 238938,
+      "sha256": "ae85db867ddcfb6197d07e1d959c6c1824e5b563000c8c517ae7ad3cc13b2577",
+      "sha256_of": "original",
+      "working_copy": "1892_p094.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:55:09+00:00"
+  }
+}

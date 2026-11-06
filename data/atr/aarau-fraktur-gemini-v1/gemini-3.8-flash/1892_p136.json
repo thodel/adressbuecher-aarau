@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p136",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p136.jpeg",
+    "bytes": 246823,
+    "sha256": "f5b6a05672d3ca0f2a4084ace0f6778be1fa7eb83b464815a294dde7de297f03",
+    "sha256_of": "original",
+    "working_copy": "1892_p136.jpeg"
+  },
+  "text": "120 — Ruef, — Schäfer.\n\nRuef-Joho, Johann, Taglöhner von Refingen, Halden 247.\nRüedi-Wärtli, Johann, Staatsweibel von Sulz, Milchgasse 79.\nRüegger-Bertschi, Lisa, von Aarburg, Feinwäscherei und Glätterei, Metz-\n  gergasse 107.\nRüegger-Gysling, Otto, Malermeister von Wyl (Zürich), Ziegelrain 746.\nRüegger-Holliger, Maria, Wittwe, Taglöhnerin von Niederwyl, Milch-\n  gasse 150.\nRüetschi, Bertha, Haushälterin, Adelbändli 81.\nRüetschi, Bertha, Damenschneiderin, Pelzgasse 131.\nRüetschi-Bopp, Hermann, Techniker und Glockengießer, Rainstraße 843.\nRüetschi-Christen, Elise, Wittwe, obere Vorstadt 929.\nRüetschi, Karl, Coiffeur, Milchgasse 141.\nRüetschi, Ludwig, Kanzleisekretär, Milchgasse 141.\nRüetschi-Mattli, Gottfried, Obergerichtsweibel, Adelbändli 81.\nRüetschi-Nüsperli, Friedrich, Buchhalter, Pelzgasse 131.\nRüetschi-Nüsperli, Sophie, Part., Wittwe, hintere Vorstadt 624.\nRüetschi-Schneider, Max, Bäcker, Pelzgasse 131.\nRüetschi-Wenger, Marie, Wittwe, Milchverkäuferin, Spezereihandlung und\n  Salzverkauf, Adelbändli 81.\nRumm-Weitmann, Heinrich, Lithograph, von New-York, Zollrain 293.\nRusterholz-Schäppi, Albert, Bildhauer von Wädensweil, Rain 885.\n\nSager-Wildi, Jakob, Taglöhner von Gränichen, obere Vorstadt 947.\nSalm, Barbara, Haushälterin, von Veltheim, Milchgasse 144.\nSalm, Marie, Damenschneiderin „ „ „\nSandmeyer, Gottlieb, Buchbinder obere Vorstadt 955.\nSandmeier, Margaretha, Damenschneiderin „ „ „\nSandmeier, Marie, Damenschneiderin „ „ „\nSandmeier, Melchior, Part. von Seengen, in der Telli 440.\nSandmeyer-Obrecht, Kaspar, Dachdeckergeselle von Gränichen, Halden 259.\nSandmeier-Rohr, Susette, Wittwe, Part., obere Vorstadt 955.\nSauerländer-Benz, Elise, Wittwe, Part., Laurenzenvorstadt 394.\nSauerländer-Custer, Emma, Part., Laurenzenvorstadt 418.\nSauerländer-Frey- Remigius, Buchdruckereibesitzer, Laurenzenvorstadt 418.\nSauter, Theresia, Vorgängerin von Valgheim, Schachen 1259.\nSaxer, Elise, Part., vordere Vorstadt 889.\nSaxer-Pfleger, Ludwig, Kaufmann, vordere Vorstadt 889.\nSaxer-Truog, Anna, Wittwe, Haushälterin, Rain 872.\nSchädelin geb. Giezentanner, Barbara, Part., von Moosleerau, vor dem\n  Haldenthor 804.\nSchäfer-Dennler, Cäsar, Messerschmied, vordere Vorstadt 680.\nSchäfer, Emil, Kaufmann, zum Birkenhof, in der Gais 480.\nSchäfer-Friedl, Karl, Lithograph, von Kannstadt (Württemberg), Rath-\n  hausgasse 44.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9402,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2333,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:00:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p136",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p136.jpeg",
+      "bytes": 246823,
+      "sha256": "f5b6a05672d3ca0f2a4084ace0f6778be1fa7eb83b464815a294dde7de297f03",
+      "sha256_of": "original",
+      "working_copy": "1892_p136.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:00:57+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p049",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p049.jpeg",
+    "bytes": 199067,
+    "sha256": "de1dafb247148f3d12abb68c18f9a9b733e14e49fc469c42ab7954c75ed0be08",
+    "sha256_of": "original",
+    "working_copy": "1892_p049.jpeg"
+  },
+  "text": "Haus-\nNr.\n563. Holzach-Siebenmann, Dietrich, Bierbrauer.\nSpengler-Vienhard, Louije, Wittwe, Part.\n564. † Derfelbe. Regelbahn.\n565. † \" Bierbrauerei.\n566. † \" Gisfeller.\n1214 † \" Gishaus und Bierfeller.\n1215 † \" Waich- und Holzhaus.\n1322 † \" Trinkhalle und Regelbahn.\n1327 † \" Gisfeller.\n567. Gemeinde Aarau. Schulhaus.\nHäfeler-Brunnhöfer, Johann, Schulhausabwart.\n568. a Weber-Hegnauer, Hermann, von Menziken. Restauration.\n568. b Guggisberg=Beck, Emil, Bäder und Conditor, Tabak- und\nCigarrenhandlung, von Bevey (Waadt).\nFurrer-Notter, Erhardt, Schneider, von Bolfen (Solothurn).\n569. * Derfelbe. Wohnhauß.\nKäppeli-König, Johann, Zugführer von Merenschwand.\n\nCasinostrasse.\n570. * Hirschbrunner=Kien er, Jakob, Instrumentenmacher (Café Na-\ntional).\nSiegrist-Jolliet, Wilhelrn, Postcommis, von Seengen.\nSiegrist-Jolliet, Marie Louise, Speisewirthin, von Seengen.\nSchneider-Mattenberger, Johann Theodor, Musikdirektor, von Würz-\nburg (Bayern).\nKirchhofer=Obrist, Maria, von Auenstein. Tricoteriewarenfabrikation\n(Stridwaaren).\n571. Ging, Johann Jakob, Part.\nSuter-Lüscher, Rudolf, Uhrenmacher, von Kölliken.\nStierli-Häny, Samuel, Kondukteur, von Gebenstorf.\n572. † Derfelbe. Schmiede- und Wagnerei-Werkstätte.\nGing, Wilhelm, Wagner.\nGing, August, Schmied.\n573. Wittmer-Reimann, Franz J., Musiklehrer.\nWittmer, Emma, Klavierlehrerin.\nReimann geb. Rüegger, Berena, Part., von Wölflinswyl.\nReimann, Friedrich, Postcommis, von Wölflinswyl.\n574. Birchmeier-Kull, August, Maler, von Würenlingen.\n575. † Derfelbe. Holzschopf.\n576. * Jmhof, Alexis, Negottiant in Zürich.\nSchmidt-Halbritter, Max, Fürsprech und Notar, Stadtaamann.\nLindenmann-Wey, Marie, Wittwe, von Fahrwangen.\nLindenmann, Jda, Telegraphistin, \"\nLindenmann, Emma, Lehrerin, \"\nGladbach-Renold, Philipp, Professor, von Oppenheinn (Hessen).\nZaugg-Bhland, Susanna, von Criswyl (Bern).\nZaugg, Daniel, Prokurist, \" \" \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3969,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1869,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:37:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p049",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p049.jpeg",
+      "bytes": 199067,
+      "sha256": "de1dafb247148f3d12abb68c18f9a9b733e14e49fc469c42ab7954c75ed0be08",
+      "sha256_of": "original",
+      "working_copy": "1892_p049.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:45+00:00"
+  }
+}

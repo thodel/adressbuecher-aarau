@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p007",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p007.jpeg",
+    "bytes": 220714,
+    "sha256": "531fc33987f5a828312462874ad37b6c3a1260f7399f94beb2ca9c3ed0343543",
+    "sha256_of": "original",
+    "working_copy": "1888_p007.jpeg"
+  },
+  "text": "[handschriftlich: v]\nAdreß = Buch\nder\nStadt Aarau.\nDienlich für Jedermann\nnamentlich\nfür Beamte, Fabrikanten, Handels- und Gewerbsleute\nvon\n[handschriftlich: (Fr.)]\nG. Vogel, Polizei-Wachtmeister.\n[handschriftlich: //]\nIm Verlage des Verfassers.\n[stempel: KANTONSBIBLIOTHEK * AARGAU *]\nAarau, 1888.\nDruck von H. R. Sauerländer.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5053,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 327,
+    "lines": 15,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 20.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0092,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:23:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p007",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p007.jpeg",
+      "bytes": 220714,
+      "sha256": "531fc33987f5a828312462874ad37b6c3a1260f7399f94beb2ca9c3ed0343543",
+      "sha256_of": "original",
+      "working_copy": "1888_p007.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:34+00:00"
+  }
+}

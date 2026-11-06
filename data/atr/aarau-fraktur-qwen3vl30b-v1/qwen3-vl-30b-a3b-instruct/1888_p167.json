@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p167",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p167.jpeg",
+    "bytes": 240699,
+    "sha256": "bb5e49c8683d61c300e780babb113babb5ffdc8e5a3871d57ac3c3ffaa55284b",
+    "sha256_of": "original",
+    "working_copy": "1888_p167.jpeg"
+  },
+  "text": "Verzeichniss der Telephon-Abonnenten des Kreises Aarau\nund Umgebung.\n\nCentral-Station. Laurenzenvorstadt 113.\nBoller Tagdienst das ganze Jahr.\n\nDefentliche Sprechstation:\nLaurenzenthorgasse 117: Wüthrich-Lüdi, Spezereihandlung u. Auswanderungsagentur.\nAargauische Bank                           Bahnhofstrasse 511.\nAargauische Creditanstalt                 Laurenzenthorgasse 351.\nAllgemeine aargauische Ersparniskasse     Graben 215.\n\nBally, C. F., Schuhfabrikation, Comptoir in   Schönenwerd.\nBally, \"Gebrüder, Bandfabrikation           Schönenwerd.\nBally, \"Gebrüder, Bandfabrikation           Hammer 386.\nBally & Schmitter, Glaskiquefabrik, Bureau   Schönenwerd.\nBäumlin, F. K., Colonialwaarenhandlung en gros   Laurenzenvorstadt 405.\nBerner, Zahnarzt                            Rohrerstrasse 473.\nBertschinger, zur Cantine                    Laurenzenvorstadt 609.\nBezirksgericht (Obergericht und Kriminalgericht)   Cafinosstrasse 576.\nBircher, Chef-Arzt                          Laurenzenvorstadt 590.\nBrentano, Max, Zahnarzt                     Rathhausgasse 176.\n                                            Kantonsspital.\n                                            Entfelderstrasse 1075.\n\nDubs, Karl, Metzger und Wirth               Rathhausgasse 32.\n\nEifengiekerrei und Weichgusfabrik           Hinter dem Bahnhof 499.\nExpedition des Aarg. Tagblattes             Oberthor 228 a.\nEggimann, Johann, Wirth                     Bahnhofstrasse 1025.\n\nFleiner, Albert, Cementfabrik               Erlinbacherstrasse 330.\nFrey \"Bolle, \"C.                         Laurenzenvorstadt 586.\nFrey & Cie., chemische Fabrik und Spinnerei   Bachstrasse 1062.\nFrey-Feer & Cie., Bandfabrikation           Telli 431.\nFrey, R. & M., Chokoladenfabrik, Comptoir im   Bahnhofstrasse 1016.\nFrey, R. & M., Zweigstation bei Frey-Herzog   Balainenweg 422.\nFrey, Heinrich, Kunstmiühle                 Telli.\nFrey-Lüscher, Müller                        Schöftland.\nFrey-Ryhiner, Seidenzwirnerei               Schöftland.\n                                            Graben 618.\n\nGamper, Adolf, Metzgerei                    Meggergasse 108.\nGamper & Cie., Confection                   Rathhausgasse 49 u. 50.\nGamper-Andres, Rosette, Wittive             Jenfeits der Aare (Schöna) 307.\nGasfabrik                                   Vor dem Haldenthor 786.\nGasser & Hunziker, Bandfabrikation          Laurenzenvorstadt 377.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4022,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2395,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.42,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:32:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p167",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p167.jpeg",
+      "bytes": 240699,
+      "sha256": "bb5e49c8683d61c300e780babb113babb5ffdc8e5a3871d57ac3c3ffaa55284b",
+      "sha256_of": "original",
+      "working_copy": "1888_p167.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:13+00:00"
+  }
+}

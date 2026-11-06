@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p059",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p059.jpeg",
+    "bytes": 303851,
+    "sha256": "45a87dd5418dd9fbf1a62706a5e29fa285252ab9f88c54fa74350ba3672fe5d9",
+    "sha256_of": "original",
+    "working_copy": "1884_p059.jpeg"
+  },
+  "text": "Verzeichniß\nder\nWohn- und Oekonomie-Gebäude zu Aarau.\n\nDie mit * bezeichneten N° werden vom Eigenthümer nicht selbst bewohnt.\n\nHaus-\nNr. Rathhausgasse.\n1*Schmuziger-Oberlin, Dl., Baumstr.\n2 Morath=Dilgen, Joh., Kaufmann, von Falknau (Grkh. Baden).\n3 Wydler, Julius, Notar.\n4 Siegrist=Kintner, Hrch, Megger.\n5 Weibezahl, Leonh., Apoth., v. Gotth.\nKirchgasse.\n6*Staat Aargau, Helfereigebäude.\n7 Vidiella, Gl., von Reus (Spanien), Spanische Weinhalle.\n8a Fuchs, Schweft., Jatobea u. Marie, Part., von Remigen.\n8b Lienberger-Weber, Glf., Schusters, von Spreitenbach.\n9 Gemeinde Aarau (Feuerlöschmagaz.)\n10a Richner=Thomann, F., Spenglermstr.\n10b*Derfelbe.\n11 Hänni=Häni, R., Partit., v. Völliken.\n12 Weidmann-Albrecht, A., Tapezierer, von Bachs (Zürich).\n13*Berner=Egli, Herm., Zahnarzt.\n14 Berner=Mauch, Rudolf, Partit.\n15 Hemmeler, Friedrich, Gürtler.\nRathhausgasse.\n16 Lindt=Meißner, Otto, v. Bern, Apoth.\n17 Faller=Unwin, Friedr., Kaufmann, von Bräunlingen (Grkh. Baden).\n18 Lüscher-Herzig, Jb., Bäcker u. Wirth, von Muhlen.\n19*Dürr, Geschwister, Heinrich und Johanna, in Kued.\n20*Adam=Stephani, Paul, Fabrikant, von Ulfschwil.\n21 Ritter=Stahl, Jda, Wittwe.\n22 Bell=Martí, J. A., Kaufmann.\n23 Wydler, Conrad, Apotheker.\nHaus-\nNr.\n24 Hemmeler, Jb., Uhrenmacher.\n25 Läuchli-Bürgi, Anna, Wirthin, von Remigen.\n26 Stephani=Winfler, August, Regt.\n27*Derfelbe.\n28 Derfelbe, Waschhaus.\n29*Reiff, Gottl., Megger, in Aigle.\n30 Müller-Hürner, Gd., Schirmmacher.\n31 Stapfer=Hessenmeier, Joh., Schuh-\nmachermeister, von Sarmenstorf.\n32 Dubs=Walthier, Carl, Megger und Speisewirth, von Rüttigen.\nKronengasse.\n33 Erni=Faßler, Emil, Negt.\n34 Württemberger-Kaifer, G., Coiffeur.\n35 Kaifer, Sigmund, Kaufmann.\n36 Hinz=Wolf, Gottfried, Zuckerbäcker, von Merkingen (Württemberg).\n37*Kaifer, Sigmund, Kaufmann.\n38 Gloor=Siebenmann, Friedr., Negt., von Schöftland.\n39 Mathys=Faßner, Rudolf, Gastwirth, von Erizwyl.\n40 Hilfiker=Wilhelm, J., Bef. v. Muhlen.\n41 Faller=Faller, Elise, Wittwe, von Reitenbuch (Grkh. Baden), Eisen-\nHandlung.\nRathhausgasse.\n42 Hürbi, Wilhelm, Goldschmied, von Lenzburg.\n43 Hofer=Schaffner, Gottl., Negt.\n44 Bernli=Blauer, Andr., Schuhmacher-\nmeister, von Thalheim.\n45 Fehlmann=Brack, Kaspar, Bäcker.\n46 Häzigg=Lienhard, H., Bäcker u. Wirth.\n47*Derfelbe.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4986,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2259,
+    "lines": 64,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0312,
+    "mean_line_chars": 34.28,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:14:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p059",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p059.jpeg",
+      "bytes": 303851,
+      "sha256": "45a87dd5418dd9fbf1a62706a5e29fa285252ab9f88c54fa74350ba3672fe5d9",
+      "sha256_of": "original",
+      "working_copy": "1884_p059.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:14:37+00:00"
+  }
+}

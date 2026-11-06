@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p113",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p113.jpeg",
+    "bytes": 298146,
+    "sha256": "a3d25e4a05883b056b717b305c5b66d6474bd7e23d2c109843b088160ad02b8a",
+    "sha256_of": "original",
+    "working_copy": "1888_p113.jpeg"
+  },
+  "text": "Hoffmann — Hunziker.\n95\nHoffmann-Schenk, Rudolf, Schuhmacher von Schottikon (Zürich), Halden 287.\nHoler, Lydia, Part. von Zuzgen, Rain 833.\nHolliger-Berner, Gottfried, Taglöhner von Boniswyl, Halden 246.\nHolliger, Rudolf, Reisender von Boniswyl, Rathausgasse 2.\n×Holzach-Schmidt, Fritz, Metzger und Wirth, Ziegelrain 700.\n×Holzach-Siebenmann, Dietrich, Bierbrauer, Bahnhofstraße 563.\n×Holzach-Wässler, Dietrich, Part., Casinostraße 576.\nHolzinger, Bertha, Postcommissie von Basel-Augst, obere Vorstadt 948.\nHolzinger, Wilna, Klavierlehrerin id. id. id.\nHolzinger-Snell, Christiana, Professors Witwe von Basel-Augst, obere Vorstadt 948.\nHolzreuter-Suter, Karl, Taglöhner von Ueken, Milchgasse 152.\n×Hommel-Stein, August, Mechaniker, Laurenzenvorstadt 410.\n×Horlacher-Jberg, Samuel, Mechaniker von Umlen, Halden 249.\n×Horlacher, Wilhelm, Kaufmann von Umlen, Graben 205.\nHort-Visiger, Magdalena, Taglöhnerin von Oberhof, obere Vorstadt 919.\nHort-Hemmerler, Hans, Zimmermann von Oberhof, Halden 284.\nHort-Hemmerler, Elise, Glätterin id. id. id.\n×Hofettler-Hagnauer, Niklaus, Schuhmacher von Guggisberg (Bern), Halden 266 b.\nHuber, Anna, Privatin von Nyfen-Jlnau (Zürich), v. d. Haldenthor 1092.\nHuber-Bircher, Heinrich, Drechsler, Ziegelrain 710.\nHuber, Bertha und Jda, Damenschneiderinnen, Ziegelrain 710.\nHuber, Julius, Güterexpedient von Mägenwyl, hinter dem Bahnhof 501.\n×Huber, Katharina, Lehrerin von Befenburen, Milchgasse 158.\nHuber-Ment, Jakob, Schneider von Unter-Embrach (Zürich), Halden 251.\nHuber-Renz, Thasnelda, Spenglers Witwe von Wöschau (Solothurn), obere Vorstadt 941.\nHübscher-Röntig, Anton, Taglöhner von Dottikon, Adelbündli 84.\n×Hürbin-Heuberger, Ferdinand, Chef der Militäranzlei von Wegenstetten, Rain 858.\nHugi, Maria, Coiffeuse von Selzach (Solothurn), Rathausgasse 42.\nHunold-Berger, Marie, Witwe, Part. von Basel, Bachstraße 1039.\nHunzperger-Vössler, Karl, Maler von Biedigen (Bern), Milchgasse 154.\n×Hunzifer-Baumberger, Rudolf, Lehrer, Pelzgasse 126.\nHunzifer, Edwin, Commis von Unterkulm, Ziegelrain 747.\n×Hunzifer, Emil Guido, Rentier, Laurenzenvorstadt 356.\n×Hunzifer-Kleiner, Hermann, Part., Laurenzenvorstadt 371.\nHunzifer-Gall, Magdalena, Part., Halden 282.\nHunzifer-Hunzifer, Heinrich, Holzspalter von Kirchleerau, Halden 263.\nHunzifer-Müller, Friedrich, Maschinenmeister, Pelzgasse 127.\nHunzifer-Müller, Jakob, Schuhmacher von Unterkulm, jenf. d. Aare 342.\nHunzifer-Schürch, Maria, Schriftsetzers Witwe, Bahnhofstraße 1022 a.\nHunzifer-Säuberli, Rudolf, Holzspalter von Gontenschwil, Halden 259.\nHunzifer-Sandmeier, Fritz, Drechsler, obere Vorstadt 966.\n×Hunzifer-Thommen, Hermann, Fabrikant, Graben 221.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5736,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2638,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 58.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:26:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p113",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p113.jpeg",
+      "bytes": 298146,
+      "sha256": "a3d25e4a05883b056b717b305c5b66d6474bd7e23d2c109843b088160ad02b8a",
+      "sha256_of": "original",
+      "working_copy": "1888_p113.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:35+00:00"
+  }
+}

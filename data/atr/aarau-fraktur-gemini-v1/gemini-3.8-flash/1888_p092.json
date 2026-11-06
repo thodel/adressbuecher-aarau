@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p092",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p092.jpeg",
+    "bytes": 274428,
+    "sha256": "f97678f5ad605c542f8b594f3128544edc0508b0933acd2411bf8e1099334559",
+    "sha256_of": "original",
+    "working_copy": "1888_p092.jpeg"
+  },
+  "text": "74\t\tAndres — Baldeschwyler.\n\nAndres-Baumann, Salome, Wittwe, Milchgasse 140.\n[handschriftlich: X] Andres-Bircher, Friedrich, Hafner, obere Vorstadt 916.\nAndres-Bircher, Heinrich, Buchbinder, Casinostraße 1176.\nAndres-Bircher, Maria, Metzgerei und Milchverkauf, Milchgasse 140.\nAndres-Eichelberger, Otto, Hafner, Milchgasse 78.\nAndres, Emma, Fabrikarbeiterin, vordere Vorstadt 676.\n[handschriftlich: X] Andres, Gottlieb, Fondsverwalter, jenseits der Aare 299 b.\n[handschriftlich: X] Andres-Schmid, Jakob, Schreiner, jenseits der Aare 299 a.\nAndres-Heinzmann, Maria, Becks Wittwe, jenseits der Aare 299.\nAndres, Jakob, Bahnangestellter, Halden 256.\nAndres-Meier, Samuel, Schlosser, Milchgasse 147.\nAndres, Mina, Aufseherin, vordere Vorstadt 676.\nAndres, Otto, Sohn, Metzger, Milchgasse 140.\nAndres-Ramseier, Rosina, Gipsers Wittwe, Ziegelrain 709.\n[handschriftlich: X] Andres-Weber, Friedrich, Buchhalter, Ziegelrain 709.\nAndres-Walter, Berena, Metzgers Wittwe, Halden 256.\n[handschriftlich: X] Angst-Hässig, Gottlieb, Negt. von Eglisau, Bibel-Depot und Niederlage\n  technischer und chemischer Produkte, hinter dem Platz 214.\nAngst-Kirchhofer, Jakob, Gipser von Wyl (Zürich), Halden 254.\nAppenzeller-Meier, Marie, Weißnäherin von Höngg (Zürich), Golatten-\n  mattgasse 233.\nAsper, Emil, Tapezierer v. Wollishofen (Zürich), Logis vord. Vorstadt 669,\n  Werkstätte vordere Vorstadt 675.\n\nBachmann, Elise, Fabrikarbeiterin von Bottenwyl, Schachen 726.\nBachmann, Marie, Fabrikarbeiterin von Bottenwyl, Schachen 726.\nBachmann-Müller, Rudolf, Maurer von Bottenwyl, Halden 280 b.\nBachmann-Rickart, Bernhard, Schneider von Bottenwyl, v. d. Halden-\n  thor 779.\nBachmann-Riniker, Johann, Küfer, Milchgasse 159.\nBachmann-Vogelsang, Susanna, Wittwe von Bottenwyl, Schachen 726.\n[handschriftlich: X] Bäbler, Johann Jakob, Dr. Professor von Matt (Glarus), Bach-\n  straße 1101.\nBächli-Holliger, Gottlieb, Schuhmacher von Buchs, Pelzgasse 125.\nBächli, Jakob, Gasarbeiter von Buchs, Milchgasse 153.\nBächli, Joseph, Staatsweibel von Würenlingen, Halden 253.\nBär, Rudolf, Schreiner, obere Vorstadt 964.\nBär, Louis, Commis  id.  id.\n[handschriftlich: X] Bär, Marie, Arbeitslehrerin  id.  id.\nBär-Frei, Johanna, Wittwe, Part., obere Vorstadt 964.\nBäuerlin-Siebenmann, Rosa, Wittwe, Aufseherin der Gewerbehalle, von\n  Baden, Schachen 737.\nBaldeschwyler, Mathilde, Part. von Laufenburg, Laurenzenvorstadt 403.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7941,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2382,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.09,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:33:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p092",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p092.jpeg",
+      "bytes": 274428,
+      "sha256": "f97678f5ad605c542f8b594f3128544edc0508b0933acd2411bf8e1099334559",
+      "sha256_of": "original",
+      "working_copy": "1888_p092.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:33:02+00:00"
+  }
+}

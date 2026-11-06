@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p045",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p045.jpeg",
+    "bytes": 216558,
+    "sha256": "684da0de657bfd926173d8d9c036e1d50560c305aeb1d54678709c49130de5ec",
+    "sha256_of": "original",
+    "working_copy": "1892_p045.jpeg"
+  },
+  "text": "Haus-\nNr.\n494. * Schotte, D., Baugehäft.\nEckert-Giger, Eduard, Zimmerpolier, von Grossräudchen (Breußen).\nJäggi-Weber, Hermann, Geschäftsführer (Schotte, D., Baugehäft).\nSchmid-Baumann, Katharina, Wittwe, von Watterdingen (Baden).\nSchmid, Frida, Weißnäherin, von Watterdingen (Baden).\nSchmid, Anna,\nDeubelbeiß-Schaffner, \"Samuel, \"Güterhaffner, von Holdebank.\nWernli-Hug, Johann, Magaziner, von Thalheim.\nWernli-Wernli, Elisabeth, Wittwe, Part., von Thalheim.\n1072. Gautschi-Maculin, Rud., Wirth 3. Frohsinn, von Reinach.\nGärtler-Afchan, Bernhard, Gießermeister, von Oberwinterthur.\n495. Bouvard-Schultheß, Joh. Güterexpedient, von Remetschwil.\n496. Räser-Plüß, Rudolf, Postfondukteur.\nKrez, Jakob, Part., von Unterentfelden.\n497. Brügger-Sommerhalder, Christian, Kontrolleur, von Churwalden\n(Graubünden).\nBircher-Hyburz, Anna, Wittwe, Part., von Rüttigen.\nMaurer-Lehmann, Friedrich, Heizer, von Schmidrued.\n498. † Würger-Maurer, Heinrich, von Haufen (Baden). Tifengieferei und\nWeidhufgfabrif.\n499. † Derjelbe. Bureau.\n500. † \" Mechanifche Sandmühle.\n1078. † \" Tifengieferei.\n1293. † Billo-Bär, Julius, Fabrikant. Holzhaus.\n1302. † Schmidt, Gustav, Dr., Chemiker, Butterfiederei.\n501. Frider-Hiltbold, Samuel, Bahnmeifter, von Veltheim.\nRiehholz-Nejchbach, Gottlieb, Poftbeamter, von Mettau.\n502. Freimaurerloge zur Brudertreu.\nNiederhaufer-Hyfin, Theodor, Buchbinder, von Baselaugft (Baselland).\n1351. * Schäfer-Troller, Adolf, Architekt, Wohnhaus.\n1352. * Derjelbe.\nThom-Hänni, Franz, Trompeterinfttruktor der Infanterie von Kirchberg\n(Bern).\n503. * Schmuziger-Roller, Daniel, Baumeifter, in Zürich.\nKiefer-Dambach, Robert, Bantbeamter.\nSoha, Anton, Kunftmaler, von Bologna (Italien). (Atelier.)\n504. † Derjelbe. Holzjchopf.\n505. † \" Magazin.\n506. † \" Ladenjchopf.\n507. † \" Baraße.\nMüller, Arnold, Baumeifter. Fabrikation und Lager in Cementdröhen u.\n1268. Gerodetti-Habermacher, Virgilius, Hutmacher, von Sagliano\n(Italien). Hutwaaren- und Marmorfleingefchäft.\nHerzog-Hagnauer, Heinrich, Lehrer, von Reffingen.\nSoha, Anton, Kunftmaler, von Bologna (Italien).\n508. † Sager-Pfleger, Ludwig, Kaufmann. Gartenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4641,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2113,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:37:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p045",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p045.jpeg",
+      "bytes": 216558,
+      "sha256": "684da0de657bfd926173d8d9c036e1d50560c305aeb1d54678709c49130de5ec",
+      "sha256_of": "original",
+      "working_copy": "1892_p045.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:29+00:00"
+  }
+}

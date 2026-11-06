@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p126",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p126.jpeg",
+    "bytes": 285364,
+    "sha256": "6100ecece02c1b7ae428bb85d15698cdb7e94470205e95f10041f63e1ed817a0",
+    "sha256_of": "original",
+    "working_copy": "1888_p126.jpeg"
+  },
+  "text": "108\nRiniker — Rothplek.\nRiniker-Temperli, Friedrich, Badwirth von Habsburg, Binsenhof 1010.\nRiniker-Wernli, Hermann, Milchverkäufer von Habsburg, Entfelderstraße 1195.\nRitter, Sufette, Ladentochter von Uster (Zürich), Rathausgasse 21.\nRochholz-Schröder, Ernst Ludwig, Professör Dr. von Ansbach (Bayern), Ziegelrain 722.\nRochholz, Wina, Klavierlehrerin von Ansbach (Bayern), Ziegelrain 722.\nRohner-Ehrjam, Elfie, Ärzt's Wittwe, Part., Zollrain 51.\nRohner, Emil, Bäcker und Wirth, id. id.\n* Rohr-Baumann, Hans, Oberrichter von Hunzenschwil, Laurenzenvorstadt 353.\nRohr-Blauenstein, Heinrich, Holzpalter von Hunzenschwil, Pelzgasse 132.\nRohr-Gloor, Adolf, Meckger und Wirth, Pelzgasse 127.\n* Rohr-Hässig, Emma, Wittwe, Colonialwaarenhandlung, Laurenzenthor-gasse 119 a.\nRohr-Hochsträker, Rudolf, Schmied, Rainstraße 883.\nRohr-Holltiger, Johann, Wirth von Buchs, Holzmarkt 662.\n* Rohr-Reiner, Hans, Staatsanwalts substitut von Lenzburg, Conradstraße 993.\nRohr, Samuel, Gerichts substitut, Zollrain 293.\nRohr-Schindler, Samuel, Gastwirth, hintere Vorstadt 696.\nRohr-Wehrli, Daniel, Bauamtsarbeiter v. Hunzenschwil, Rathausgasse 3.\nRotter-Baumgartner, Johann, Schreiner von Wermsdorf (Westferrich), Bahnhofstraße 653.\nRoth-Bolliger, Anna Maria, Wittwe, Taglöhnnerin von Erlinsbach, Pelzgasse 125.\nRoth-Bürgi, Anna, Part. von Erlinsbach, Igelweid 633.\nRoth, Friedrich, Schuhmacher von Mühlethal, Rainstraße 825 b.\nRoth-Widmer, Verena, Spetteterin von Mühlethal, id. id.\nRoth-Ryburz, Joh., Auffseher von Obererlinsbach, Erlinsbacherstraße 337.\nRoth-Tahli, Samuel, Hausknecht von Jezwyl, Rathausgasse 45.\n* Roth-Schmuziger, Alfred, Oberstlieut. der Artillerie, Art.-Schießinstructor von Bühlser (Appenzell A.-Rh.), Laurenzenvorstadt 401.\nRoth-Zaugg, Friedrich, Obergerichtskanzlist, Scheibensachsen 312.\nRothplek-Brittel, Alfred, Bankdirektor, Bahnhofstraße 511.\nRothplek-Bürgi, Maria, Pfarrers Wittwe, in der Tell 454.\n* Rothplek, Emil, Verwalter, obere Vorstadt 682.\nRothplek-Pakler, Rudolf, Meckger, Milchgasse 160.\nRothplek, Heinrich, Buchbinder, Stadthof 92 c.\nRothplek-Hunziker, Gottlieb, Schreiner, Rainstraße 880.\n* Rothplek-Imhof, Louise, Stadtraths Wittwe, Erlinsbacherstraße 336.\n* Rothplek, Karl, Architekt, Bahnhofstraße 651.\n* Rothplek-Rychner, Friedrich, Fabrikant, obere Vorstadt 1117.\nRothplek-Siebenmann, Marie Elisabeth, Schreiners Wittwe, Part., Stadthof 92 c.\nRothplek-Waldkirch, Julius, Malermeister, Conradstraße 990.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5193,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2431,
+    "lines": 39,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 61.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p126",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p126.jpeg",
+      "bytes": 285364,
+      "sha256": "6100ecece02c1b7ae428bb85d15698cdb7e94470205e95f10041f63e1ed817a0",
+      "sha256_of": "original",
+      "working_copy": "1888_p126.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:41+00:00"
+  }
+}

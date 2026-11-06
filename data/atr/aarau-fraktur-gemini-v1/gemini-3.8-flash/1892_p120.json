@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p120",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p120.jpeg",
+    "bytes": 246435,
+    "sha256": "ecddec613f8539cd629628e91f51339f4cf874e2d5fd86f0be7a3671e033beea",
+    "sha256_of": "original",
+    "working_copy": "1892_p120.jpeg"
+  },
+  "text": "104                    Hugi — Iberg.\n\nHugi, Maria, Coiffeuse von Selzach (Solothurn), Graben 207.\nHummel-Müller, Georg, Lithograph, vor dem Haldenthor 758.\nHunn-Fehlmann, Verena, Taglöhnerin von Egliswyl, v. d. Haldenthor 773.\nHunn-Gsell, Katharina, Wittwe von Egliswyl, Rain 880.\n[handschriftlich: ✗]Hunziker-Baumberger, Rudolf, Lehrer, Pelzgasse 126.\nHunziker, Emil Guido, Rentier, Laurenzenvorstadt 356.\n[handschriftlich: (]Hunziker-Fleiner, Hermann, Part., Feerstraße 1337.\nHunziker-Gall, Magdalena, Part., Halden 282.\nHunziker, Gottlieb, Schneider von Oberkulm, Adelbändli 172.\nHunziker, Hermann, Sohn, Kaufmann, Graben 221.\nHunziker-Hunziker, Heinrich, Holzspalter von Kirchlerau, Halden 264.\nHunziker, Kaspar Emil, Lokomotivheizer von Leimbach, Ziegelrain 704.\nHunziker-Leuch, Edwin, Commis von Oberkulm, Ziegelrain 747.\nHunziker-Müller, Friedrich, Maschinenmeister, Laurenzenthorgasse 117.\nHunziker-Müller, Maria Anna, Schumachers Wittwe von Unterkulm,\n  jenseits der Aare 342.\nHunziker-Schär, Emanuel, Schmied von Mooslerau, vor dem Halden-\n  thor 802.\nHunziker-Sandmeier, Fritz, Drechsler, obere Vorstadt 921.\nHunziker-Schürch, Maria, Schriftsetzers Wittwe, Bahnhofstraße 1022 a.\nHunziker-Säuberli, Marie, Wittwe, Taglöhnerin von Gontenschwyl,\n  Halden 240.\nHunziker-Siegrist, Rudolf, Kostgeber und Kaffeewirth von Oberkulm,\n  Bahnhofstraße 1023.\nHunziker-Suter, Marie, Wittwe von Kirchleerau, Metzgergasse 100.\n[handschriftlich: ✗]Hunziker-Thommen, Hermann, Fabrikant, Graben 221.\nHunziker-Tschopp, Gottlieb, Schneider von Unterkulm, Adelbändli 84.\nHunziker-Widmer, Fritz, Kaufmann von Brittnau, Milchgasse 142.\nHunziker-Wieland, Elise, Wittwe von Unterkulm, Ziegelrain 747.\n[handschriftlich: ✗]Hunziker-Wydler, Paulina, Part., Laurenzenvorstadt 364.\n[handschriftlich: ✗]Hunziker-Züst, Guido, Rentier, Laurenzenvorstadt 374.\nHusi-Lämmli, Franz Josef, Bahnangestellter von Wangen (Solothurn),\n  Tellirain 1335.\n\nJäcker-Haller, Joseph, Comestibleshändler von Lachapelle (Frankreich),\n  hintere Vorstadt 696.\nJäger-Hässig, Johann, Maurer von Außersihl (Zürich), Bahnhofstr. 1022.\nJäggi-Weber, Hermann, Geschäftsführer (Baugeschäft O. Zschokke),\n  hinter dem Bahnhof 494.\n+Jäggi, Wilhelmine, Lehrerin, hintere Vorstadt 646.\nIberg-Lüscher, Johann Jakob, Maschinenmeister v. Küttigen, Milchgasse 78.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7425,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2304,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:58:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p120",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p120.jpeg",
+      "bytes": 246435,
+      "sha256": "ecddec613f8539cd629628e91f51339f4cf874e2d5fd86f0be7a3671e033beea",
+      "sha256_of": "original",
+      "working_copy": "1892_p120.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:58:41+00:00"
+  }
+}

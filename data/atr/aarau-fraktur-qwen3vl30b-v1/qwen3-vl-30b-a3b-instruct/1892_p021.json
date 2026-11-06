@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p021",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p021.jpeg",
+    "bytes": 231550,
+    "sha256": "741a1a40286fd25b3bda1d49864ff7938e928249dd1937f285159726d5394295",
+    "sha256_of": "original",
+    "working_copy": "1892_p021.jpeg"
+  },
+  "text": "Haus-\nNr.\n142.  Gloor=Geißler, Rudolf, von Birmwil. Bäckerei.\n     Schaffner-Furrimann, Samuel, Camioneur, von Effingen.\n143. * Derfelbe.\n     Wernli-Wernli, Johann, Gab., Taglöhner, von Thalheim.\n     Müller-Müller, Berena, Wittwe, Part. von Unterfultm.\n     Müller, Berena, Spetterin, von Unterfultm.\n     Müller-Gonäsch, Jakob, Buchbinder, von Unterfultm.\n     Hallmann geb. Hausmann, Elife, Fabrikarbeiterin, von Mülhheim (Baden).\n     Riburg-Wütherich, Barbara, Fabrikarbeiterin von Unterfultm.\n144. * Beer-Schmid, Heinrichs Erbschaft.\n     Walti-Müller, Jakob, Milchverkäufer, von Dürrenäsch (Spezerei-handlung)\n     Zurlinden-Walti, Fritz, Spengler, von Jofingen.\n     Salm, Maria, Damen Schneiderin, von Beltheim.\n     Salm, Barbara, Haushälterin, von Beltheim.\n145. * Diefelbe.\n     Wernli-Bolliger, Johann, Stadtarbeiter, von Thalheim.\n     Hemmeler, Rosina, Part.\n     Suter, Anna Elizabeth, Spetterin von Suh.\n     Kohr-Wehrli, Daniel, Stadtarbeiter, von Hunzenschwyl.\n146.  Kull, Philipp, Spenglermeister. Spenglerwaaren- und Lampenlager.\n     Müller-Schneider, Susanna, Haushälterin von Birc.\n147.  Andres-Meier, Samuel, Schlossermeister.\n     Fäss-Bircher, Maria, Wittwe, Fabrikarbeiterin, von Oberfultm.\n     Graber-Buchmüller, Otto, Färber von Seengen.\n148. * Kull, Philipp. Spenglermeister. Spenglerwaaren- und Lampenlager\n     Rissler-Treier, Emil, Taglöhner, von Böken.\n     Bolliger-Häfeli, Gottfried, Schmied von Verkheim.\n     Cima-Hauri, Johann, Mechaniker, von Aquila (Tessin).\n149.  Drack-Hauser, Hermann, Metallgießer.\n     Furrer geb. Kohr, Anna, Taglöhnerin, von Staufen.\n     Blum, Joseph, Polizeidiener, von Wyl.\n150.  Siegrist-Fischer, Jakob, Megger, von Meisterschwanden.\n     Buchjer-Lüscher, Samuel, Taglöhner, von Schöftland.\n     Rüeggger-Holliger, Maria, Wittwe, von Niederwyl.\n151. * Hoffmann, Johann, Schuhmachermeister.\n     Hediger-Born, Wilhelm, Postangestellter, von Reinach.\n     Kuch-Schälkli, Alfred, Schuhmacher, von Miltöbbi (Glarus).\n     Belz-Dötscher, Johann, Wagenvisiteur, von Zihlschlacht (Thurgau).\n152.  Wiederkehr-Deschger, Viktoria, Wittwe, von Zell (Luzern). Bäckerei\n     und Glätterei.\n     Deschger, Klara, Bäckerin, von Wyl.\n     Wernle-Wehrli, Maria, Maschinenfickerin, von Thalheim.\n     Holzreuter-Suter, Katharina, Wittwe, Taglöhnerin, von Ueken.\n     Häring, Marie, Spetterin, von Dettiglofen (Baden).\n     Plüss-Lehner, Elife, Spetterin, von Bordemwald.\n     Plüss, Elife, Telephonistin, von Bordemwald.\n153.a.*Häfle r-Müller, Theodor, Buchbinder.\n     Theez-Amsler, Emilie, Schirmmacherin, von Paris. Costüm-Lager.\n     Durr-Wütherich, Gottlieb, Bauamtsarbeiter.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5189,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2644,
+    "lines": 52,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:35:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p021",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p021.jpeg",
+      "bytes": 231550,
+      "sha256": "741a1a40286fd25b3bda1d49864ff7938e928249dd1937f285159726d5394295",
+      "sha256_of": "original",
+      "working_copy": "1892_p021.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:08+00:00"
+  }
+}

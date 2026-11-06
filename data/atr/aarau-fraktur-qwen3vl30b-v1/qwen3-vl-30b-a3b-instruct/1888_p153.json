@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p153",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p153.jpeg",
+    "bytes": 266684,
+    "sha256": "87520a5f57923801ffb5fed0fa1795e43a96656ea9136814c227714ee4a16b13",
+    "sha256_of": "original",
+    "working_copy": "1888_p153.jpeg"
+  },
+  "text": "Hunziker, für Französisch am Gymnasium,\nProgymnasium und Gewerbeschule,\nDr. Liechti, für Chemie, sowie für Natur-\nlehre am Progymnasium.\nMaier, Rektor, für Französisch am Pro-\ngymnasium und an der Gewerbe-\nschule und für Italienisch am Gym-\nnasium.\nMeier, J., für Schön schreiben.\nMühlberg, für Naturgeschichte und Aus-\nhilfe in Mathematik am Gymnasium.\nRennhart, für Englisch am Gymnasium\nund an der Gewerbeschule, für\nItalienisch an der Gewerbeschule.\nRoth, Oberstlieutenant, für Militärunter-\nricht.\nSchumann, für Geschichte an der Ge-\nwerbeschule und für Geographie.\nDr. Tuchschmid, für Mathematik und Physik\nam Gymnasium und an der Gewerbe-\nschule.\nWässler, für Turnunterricht.\nWernly, Pfarrer, für Gebräuch.\nWidmer, Pfarrer in Gränichen, für Re-\nligionsunterricht.\nDr. Winteler, für Geschichte am Pro-\ngymnasium und Gymnasium und\nalte Sprachen.\nWolfsinger, für Kunstzeichnen.\nAn der Musikschule.\nRäslin, Direktor, für Violine und Piano-\nforte.\nSchneider, für Violine und Pianoforte.\n\nB. Lehrerinnenseminar.\nSuter, J. J., Professor, für Deutsch,\nPädagogik und Religion.\nJäggi, Wilhelmine, für französische und\nenglische Sprache und Litteratur.\nStacher, Gustav, für Naturgeschichte,\nMathematik, Physik, Chemie und\nSchreibunterricht.\nFlühmann, Elisabeth, für Geschichte,\nGeographie, Italienisch und Turnen.\nBurgmeier, J., für den Gesangunterricht.\nWolfsinger, Max, für den Zeichnungs-\nunterricht.\n\nC. Bezirkschulen.\n1. Knabengebirgsschule.\nRey, J., Bezirkslehrer, (Rektor).\nChristoffel, H., \"\nPerusset, A., \"\nWyssler, H., \"\nWüest, C., \"\n\n2. Mädchenbezirksschule.\nSchachtler, Joh., Bezirkslehrer, (Rektor).\nCoradi, A., \"\nHagnauer, Hedwig, Bezirkslehrerin.\nHuber, Katharina, \"\nHilfslehrer.\nBurgmeier, J., Gesanglehrer.\nRennhart, Prof., Lehrer für Italienisch.\nStöcklin, H., Zeichnungslehrer.\nWässler, H. Turnlehrer.\n\nD. Gemeindeschulen.\n1. Knabengemeindeschule.\nGyfi, Traugott, Lehrer.\nHauenstein, Friedrich \"\nHengher, August, \"\nHerzog, Heinrich, \"\nHunziker, Rudolf, \"\nMeyer, Johann, \"\nMeyer, Jakob, \"\nZimmermann, Johann, \"\n\n2. Mädchengemeindeschule.\nBelart, Julie, Lehrerin.\nBlattner, Anna, \"\nLenzi, Sophie, \"\nMärtz, Marie, \"\nMüller-Sürner, Frau, \"\nPeyer, Anna, \"\nPlüß, Louise, \"\nStirnemann, Lina, \"\nBär, Maria, Arbeitslehrerin.\nMarti-Siebenmann, Frau, \"\nMeyer-Lüthy, Frau, \"\nSchäfer, L., Bedell.\nSchachtler, Hausrektor.\n\nE. Kleinkinderschulen.\nFisch, Mina.\nHeß, Karolina.\nSchaub, Marie.\n\nF. Privatlehrer.\nBurgmeier, J., Musiklehrer, Graben 209.\nDösekel, Marie, Klavierlehrerin, Bahn-\nhofstrasse 1160.\nFrey-Kumpf, Fr., Musiklehrer, Schachen 310.\nHolzinger, Mina, Klavierlehrerin, obere\nBorstadt 948.\nRäslin, Eusebius, Musiklehrer, Laurenzen-\nvorstadt 602.\nSindenmann, Emma, Klavierlehrerin,\nZolkrain 177.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6885,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2717,
+    "lines": 103,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 25.32,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:30:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p153",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p153.jpeg",
+      "bytes": 266684,
+      "sha256": "87520a5f57923801ffb5fed0fa1795e43a96656ea9136814c227714ee4a16b13",
+      "sha256_of": "original",
+      "working_copy": "1888_p153.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:30:28+00:00"
+  }
+}

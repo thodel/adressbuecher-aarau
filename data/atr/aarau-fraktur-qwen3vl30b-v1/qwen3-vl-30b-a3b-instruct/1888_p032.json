@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p032",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p032.jpeg",
+    "bytes": 261030,
+    "sha256": "126fcc01e516dca0220fa1b2bde141d765ba49082b4452f7c57c32293a5a4b31",
+    "sha256_of": "original",
+    "working_copy": "1888_p032.jpeg"
+  },
+  "text": "Haus-\nNr.\n254.* Hirschbrunner=Kien, Jakob, Instrumentmacher.\nBechter, Ludwig, Schuhmacher, von Bregenz (Vesterreich).\nAngst-Kirchhofer, Jakob, Gipser, von Wyl (Zürich).\nLüscher-Lüscher, Jakob, Commis, von Mösleerau.\n255. Hirschbrunner=Kien, Jakob, Instrumentmacher. Spezerei-handlung.\nHirschbrunner, Gottfried, Sohn, Instrumentmacher.\n256. Armengut der Gemeinde Aarau.\nAndres, Jakob, Bahnangestellter.\nAndres-Walter, Verena, Metgers Wittwe.\nBed-Böll, Gottlieb, Schlosser.\nSchmidt-Häusler, Verena, Gärtner's Wittwe.\nSchmidt, Albert, Schriftsetzer.\n257. Zimmermann=Wernli, Joh, gew. Bahnwärter, von Rupperswyl.\nSchilling, Xaver, Taglöhner, von Hornussen.\n258.* Armengut der Gemeinde Aarau.\n259. Fehlmann=Sandmeier, Jakob, Kaminsfeger, von Menziken.\nSuter-Lüscher, Gabriel, Bandweber, von Gränichen.\nHunziker=Stüberli, Rudolf, Holzspalter, von Gontenschwyl.\n260.a. Keller=Berney, Abraham, Mechaniker.\n260.b.* Häßler, Julie, Modistin.\nBamberger=Schwarz, Anna, Wittwe, Taglöhnerin, von Siglistorf.\nWalter-Bamberger, Maria, Zuschneiderin, von Rottweil (Baden).\nWidmer-Frithauf, Balthasar, Mechaniker, von Bergdietikon.\nViehhard, Maria Anna, Polizeidienerin, Part.\n261. Rauchenstein=Pfleger, Friedrich, Professor.\nPfleger, Emma, Pfarrers, Privatin.\n262. Abgetragen.\n263.* Hesti=Hunziker, J. P., Schneidermeister, von Schwanden (Glarus).\nHunziker-Hunziker, Heinrich, Holzspalter, von Kirchleerau.\n264. Marti, Rosina's, Priv., Erbschaft.\nFisch, Mina, Kleinfinderlehrerin.\nHäßler, Margaretha, Gläsern, Part.\nHoffard, Elise, Part., von Altstätten (Zürich).\nKrähenbühl, Louise, Näherin, von Altishofen (Luzern).\nPlüsch, Verena, Part., von Bordenwald.\nBircher, Maria, Taglöhnerin, von Rüttigen.\nWernli-Wullschleger, Ulrich, Privat, von Thalheim.\nFrieden-Kramer, Agatha, Näherin, von Seedorf (Bern).\nErdin-Zumsteg, Siegfried, Taglöhner, von Ganfingen.\n265. Häßler=Ernst, August, Färber.\nHäßler, Maria, Part.\n266.a. Hässig=Berner, Friedrich, Straßenwärters Erbschaft.\nHässig, Friedrich, Abwart.\nHässig, Elise, Schneiderin.\nBerner, Anna, Glätterin, von Rupperswyl.\n266.b. Hagnauer, Gottlieb, Metzger.\nHofstetter-Hagnauer, Niklaus, Schuhmacher, von Guggisberg.\nDätwyler=Viedermann, Joh., Holzspalter, von Wittwyl.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4522,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2196,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p032",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p032.jpeg",
+      "bytes": 261030,
+      "sha256": "126fcc01e516dca0220fa1b2bde141d765ba49082b4452f7c57c32293a5a4b31",
+      "sha256_of": "original",
+      "working_copy": "1888_p032.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:01+00:00"
+  }
+}

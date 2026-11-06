@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p013",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p013.jpeg",
+    "bytes": 214574,
+    "sha256": "2917f36ef9c09b5551c0f2297abf6489e6bd3bcd8d1e62917d2b5e2697ea4179",
+    "sha256_of": "original",
+    "working_copy": "1892_p013.jpeg"
+  },
+  "text": "— 5 —\n\nHaus-\nNr.\n  Hirt geb. Wehrli, Elisabeth, Wittwe, Spetterin, von Zezwyl.\n  Hirt, Verena, Part., von Zezwyl.\n  Wütherich-Stirnemann, Jakob, Camioneur, von Eggiwyl (Bern).\n  Roth-Sahli, Samuel, Hausknecht, von Zezwyl.\n  Birri-Ackli, Wilhelm, Bremser, von Zeihen.\n46.  Hässig-Lienhard, Hermann, Bäcker und Pintenwirth.\n  Hagenbuch-Hagenbuch, August, Sekretär.\n47 * Hässig-Lienhard, Hermann, Bäcker und Pintenwirth.\n  Plüß-Zimmerli, Jakob, Taglöhner, von Brittnau.\n  Plüß-Zimmerli, Marie, Hebamme, von Brittnau.\n  Heusler, Emanuel, Kaufmann, von Biel (Bern).\n  Häusler geb. Elmer, Karolina, Part., von Schwaderloch.\n  Rohr-Graf, Rudolf, Weichenwärter, von Hunzenschwyl.\n  Hemmeler, Rosa, Ladentochter.\n48.  Seiler-Hanhart, Andreas, Bäckermeister.\n49. * Gamper & Cie. (Antheilhaber: Müller-Haberstich, Fr., Gamper-Zürcher,\n    Hermann und Gamper-Baumann, Emil.) Lager in Herren- und\n    Damen-Kleiderstoffen, Herren- und Damen-Konfektion, Anfertigung\n    von Herrenkleidern nach Maß.\n\nZollrain.\n\n50. * Gamper & Cie. Magazin.\n51.  Frei-Rohner, Robert, Bäcker und Pintenwirth von Zurzach.\n  Rohner geb. Ehrsam, Elise, Arzts Wittwe, Part.\n  Kümmerli-Matter, Elise, Abwarts Wittwe, von Kölliken.\n  Kümmerli, Rosa, Chemikerin (Zurlinden), von Kölliken.\n  Iten, Albertine, Comptoiristin (Bally & Schmitter), von Unterägeri (Zug).\n  Siegrist, Albert, Bäcker, von Meisterschwanden.\n52.  Vonarx, Karoline, Pintenwirthin, von Olten.\n  Helm-Vonarx, Elise, Wittwe, von Oerlikon (Zürich).\n  Helm, Fanny, Modistin, „ „ „\n  Burger, Johann, Gerichtsschreiber, von Freienwyl.\n53.  Nüsperli-Nußbaum, Friedrich, Sattler.\n  Nüsperli, Karl, Postcommis.\n  Nüsperli, Friedrich, Postcommis.\n  Frey-Häuptli, Gottlieb, Taglöhner, von Biberstein.\n  Frey, Gottlieb, Sohn, Schriftsetzer, von Biberstein.\n54.  Heller-Erb, Heinrich, Rechtsagent, Inkassogeschäft.\n\nMetzgergasse.\n\n55.  Hemmeler-Haßler, August, Kaufmann, Quincaillerie- und Kinderspiel-\n    waaren-Handlung.\n  Hemmeler-Biedermann, August, Kaufmann.\n  Wydler, Maria, Part.\n  Wydler, Lina, Part.\n56.  Dätwyler-Merz, Susanna, Notars Wittwe, Part.\n  Lüscher, Jakob, Notar, von Muhen, Inkassogeschäft (Büreau).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7929,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2139,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:45:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p013",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p013.jpeg",
+      "bytes": 214574,
+      "sha256": "2917f36ef9c09b5551c0f2297abf6489e6bd3bcd8d1e62917d2b5e2697ea4179",
+      "sha256_of": "original",
+      "working_copy": "1892_p013.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:50+00:00"
+  }
+}

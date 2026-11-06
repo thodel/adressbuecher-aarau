@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p039",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p039.jpeg",
+    "bytes": 264306,
+    "sha256": "5ec764de5d77e5b57a048deabcc8bcae6fb00bac6daec94e68e4348a7f0e640f",
+    "sha256_of": "original",
+    "working_copy": "1888_p039.jpeg"
+  },
+  "text": "Haus-\nNr.\n356. Hunziker, Emil Guido, Rentier.\nRäfer-Rühr, Ulrich, Kutscher, von Melchnau (Bern).\n357.+ Derfelbe. Remife.\n358.+ Derfelbe. Waschhaus.\n359.+ Derfelbe. Sommerhaus.\n360.* Studer=Schram, Theodors, Arzts Erbschaft.\nKurz und Stierli, Advokatur= und Notariatsbüreau (Inhaber C. Kurz,\nFürsprch und Notar und G. L. Stierli, Fürsprch).\nLüscher-Wülser, Lisette, Part., von Aarburg.\nMürtz, Jda, Drs., Part.\nKurz, Erwin, Fürsprch, von Schwamendingen (Zürich).\nWehrli, Karl Emil, Architekt, von Hönng (Zürich).\nRettiger-Bertschinger, Arnold, Procurist, von Liestal.\n361.* Diefelbe.\nEtter-Hägi, Reinhard, Milchverkäufer, von Langridentbach (Thurgau).\nWirz-Widmer, Adolf, Postkondukteur, von Menziken.\n362.* Diefelbe.\nWernli-Reinhard, Kaspar, Weichenwärter, von Thalheim.\nSchmid, Rosa, Damenschneiderin, von Gipf.\n363.* Diefelbe.\nFrey-Häuptli, Gottlieb, Eisenbahnkondukteur, von Biberstein.\n364.* Wydler-Frey, Med. Drs. Erbschaft.\nWydler, Mathilde, Partif.\nFrey-Hagnauer, Konrad, Dr. Med., praktischer Arzt.\n365. u. 366. + Diefelbe. Scheune.\n367.* Schmitter-Schmidlin, Friedrich, Fabrikants Erbschaft.\nTanner, Erwin, Fürsprch, (Advokaturbureau).\nZehnder-Siebenmann, Traugott, Part., von Birrmenstorf.\n368. 369. 370. + Diefelbe. Deconomiegebäude.\n371. Hunziker-Fleiner, Hermann, Privatier.\nFahrländer-Hunziker, Karl, Dr. Jur. Regierungsrath, von Laufenburg.\n372.+ Derfelbe. Holzhaus und Remife.\n373.+ Hunziker-Züst, Guido, Rentier. Comptoir und Magazin.\n374. u. 375. Derfelbe. Wohngebäude.\n376.* Hunziker-Springer's Erbschaft.\nRuef-Zweifel, Wilhelm, Schlosser, von Rekingen.\nMeyer-Hägeli, Alois, Taglöhner, von Büron (Luzern).\nFischer-Roth, Ludwig, Straßenwärter.\nDill-Frei, Joh. Fr. Christoph, Schuster, von Basel.\nZimmerli-Stenz, Eduard, Cementmüller, von Ofringen.\nSuter-Arber, Rudolf, Pofamenter, von Gränichen.\nWeber-Suter, Joh., Gärtner, von Oberflachs.\nBrunnerhofer-Bolliger, Lisette, Fabrikarbeiterin.\nSteiner-Haller, Heinrich, Taglöhner, von Rein.\nHäufemann-Ruef, Adolf, Taglöhner, von Egliswyl.\nLeu-Karrer, Jakob, Taglöhner, von Schlokrued.\nBlattner-Hemmeler, Jakob, Maler, von Rüttigen.\nBlattner, August, Gerichtskanzlist, von Rüttigen.\nMüller-Suter, Jakob, Pofamenter, von Gränichen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4682,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2192,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:33:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1888_p039",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p039.jpeg",
+      "bytes": 264306,
+      "sha256": "5ec764de5d77e5b57a048deabcc8bcae6fb00bac6daec94e68e4348a7f0e640f",
+      "sha256_of": "original",
+      "working_copy": "1888_p039.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:33:23+00:00"
+  }
+}

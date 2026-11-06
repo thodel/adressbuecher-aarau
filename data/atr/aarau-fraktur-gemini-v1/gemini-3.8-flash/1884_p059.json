@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p059",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p059.jpeg",
+    "bytes": 303851,
+    "sha256": "45a87dd5418dd9fbf1a62706a5e29fa285252ab9f88c54fa74350ba3672fe5d9",
+    "sha256_of": "original",
+    "working_copy": "1884_p059.jpeg"
+  },
+  "text": "Verzeichniß\nder\nWohn- und Oekonomie-Gebäude zu Aarau.\n\nDie mit * bezeichneten No. werden vom Eigenthümer nicht selbst bewohnt.\n\nHaus-\nNr.\tRathhausgasse.\n1*Schmuziger-Oberlin, Ol., Baumstr.\n2 Morath-Dilgen, Joh., Kaufmann,\n  von Falknau (Grßh. Baden).\n3 Wydler, Julius, Notar.\n4 Siegrist-Riniker, Hrch., Metzger.\n5 Weibezahl, Leonh., Apoth., v. Gotha.\nKirchgasse.\n6*Staat Aargau, Helfereigebäude.\n7 Vidiella, El., von Reus (Spanien),\n  Spanische Weinhalle.\n8a Fuchs, Schwest., Jakobea u. Marie,\n  Part., von Remigen.\n8b Lienberger-Weber, Elis., Schusters,\n  von Spreitenbach.\n9 Gemeinde Aarau (Feuerlöschmagaz.)\n10a Richner-Thomann, F., Spenglermstr.\n10b*Derselbe.\n11 Häni-Häni, R., Partik., v. Kölliken.\n12 Weidmann-Albrecht, A., Tapezierer,\n  von Bachs (Zürich).\n13*Berner-Egli, Herm., Zahnarzt.\n14 Berner-Mauch, Rudolf, Partik.\n15 Hemmeler, Friedrich, Gürtler.\nRathhausgasse.\n16 Lindt-Meißner, Otto, v. Bern, Apoth.\n17 Faller-Unwin, Friedr., Kaufmann,\n  von Bräunlingen (Grßh. Baden).\n18 Lüscher-Herzig, Jb., Bäcker u. Wirth,\n  von Muhen.\n19*Dürr, Geschwister, Heinrich und\n  Johanna, in Rued.\n20*Adam-Stephani, Paul, Fabrikant,\n  von Allschwyl.\n21 Ritter-Stahl, Ida, Wittwe.\n22 Bell-Marti, J. A., Kaufmann.\n23 Wydler, Conrad, Apotheker.\n[spalte 2]\nHaus-\nNr.\n24 Hemmeler, Jb., Uhrenmacher.\n25 Läuchli-Bürgi, Anna, Wirthin, von\n  Remigen.\n26 Stephani-Winkler, August, Negt.\n27*Derselbe.\n28 Derselbe, Waschhaus.\n29*Reist, Gottl., Metzger, in Aigle.\n30 Müller-Hürner, Ed., Schirmmacher.\n31 Stapfer-Fessenmeier, Joh., Schuh-\n  machermeister, von Sarmenstorf.\n32 Dubs-Walther, Carl, Metzger und\n  Speisewirth, von Küttigen.\nKronengasse.\n33 Erni-Fäßler, Emil, Negt.\n34 Würtemberger-Kaiser, G., Coiffeur.\n35 Kaiser, Sigmund, Kaufmann.\n36 Hinz-Wolf, Gottfried, Zuckerbäcker,\n  von Merkingen (Würtemberg).\n37*Kaiser, Sigmund, Kaufmann.\n38 Gloor-Siebenmann, Friedr., Negt.,\n  von Schöftland.\n39 Mathys-Hafner, Rudolf, Gastwirth,\n  von Eriswyl.\n40 Hilsiker-Wilhelm, J., Beck, v. Muhen.\n41 Faller-Faller, Elise, Wittwe, von\n  Reitenbuch (Gßh. Baden), Eisen-\n  Handlung.\nRathhausgasse.\n42 Härdi, Wilhelm, Goldschmied, von\n  Lenzburg.\n43 Hofer-Schaffner, Gottl., Negt.\n44 Wernli-Blauer, Andr., Schuhmacher-\n  meister, von Thalheim.\n45 Fehlmann-Brack, Kaspar, Bäcker.\n46 Häßig-Lienhard, H., Bäcker u. Wirth.\n47*Derselbe.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8228,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2307,
+    "lines": 81,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0247,
+    "mean_line_chars": 27.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:16:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p059",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p059.jpeg",
+      "bytes": 303851,
+      "sha256": "45a87dd5418dd9fbf1a62706a5e29fa285252ab9f88c54fa74350ba3672fe5d9",
+      "sha256_of": "original",
+      "working_copy": "1884_p059.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:16:56+00:00"
+  }
+}

@@ -1,0 +1,1548 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-v1",
+  "model": "qwen3vl-german-xix-v2",
+  "engine": "vllm",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p127",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p127.jpeg",
+    "bytes": 273882,
+    "sha256": "d0670cc4772923122be1c453a9afe2310bdcf9162ff380e69a2b5ccb4da1d2de",
+    "sha256_of": "original",
+    "working_copy": "1888_p127.jpeg"
+  },
+  "text": "Rothwyler – Pazer.\nNothwiler-Hupfer, Anton, Buchsenmacher von Dürreheim (Großh. Baden),\nHammer 190.\nRuch-Schälflis, Alfred, Schuhmacher von Wittödi (Glarus) Wildgasse 151.\nRuef-Schoh, Johann, Taglöhner, von Rehingen, Halden 249.\nRueß-Zweifel, Wilhelm, Schlosser, Rehlingen, Laurentenenvorstalt 376.\nRueßli, Johann, Taglöhner, von Teengen, Igelweid 633.\nRüedi-Wärtli, Johann, Staatsweibel von Sulz, Milchgasse 79.\nRüegg-Stephani, Barbara, Postkonteure Wittwe von Balmen (Zürich),\nMitschasse 145.\nRüegger-Eyßling, Otto, Malermeister von Wyl (Zürich), Ziegelrain 746.\nRüegger-Holliger, Maria, Wittwe, Taglöhnerin von Niederwyl, vor dem\nHaldenthor 1083.\nRüetschi-Hopp, Hermann, Techniker und Glosengieser, Raintrafe 843.\nRüetschi-Chriften, Jakob, Gloßengieser, obere Vorstadt 929.\nRüetschi, Gottlieb, Bächer und Wirth von Euh, Pelzgasse 131.\nMüetschi-Heuberger, Ludwig, Kanzleisefretär, Rain 825.\nRüetschi-Mattli, Gottfried, Obergerichtsweibel, Adelbündli 81.\nRüetschi-Müllerli, Friedrich, Buchhalter, Cajinostrafe 571.\nRüetschi-Rüpperli, Sophie, Part., Wittwe, hintere Vorstadt 694.\nRüetschi-Wenger, Gottfried, Milchverfäuer, Spezereihandlung und Salz-\nverfaut, Adelhändli 81.\nRütschi-Schilling, Anna, Fabrikarbeiterin von Schlieren (Zürich), Lan-\nrenzenvorsstadt 1114.\nRumpf, Bertha, Part. von Basel, vordere Vorstadt 893.\nRusterholz-Schäppi, Albert, Bilschauer von Wädenswyl, Rain 885.\n109.\nGager=Klaubenböch, Jakob, Posamenter von Gränichen, obere Vor=\nstadt 937.\nEager-Wildi, Jakob, Taglöhner von Gränichen, obere Vorstadt 947.\nCalm, Marie, Damentchneiderin von Veltheim, Wildgasse 144.\nCalm, Barbara, Hauschälterin\n1848\nid.\nid.\nid.\nSandmeier, Melchior, Part. von Seengen, in der Telli 440.\nSandmeier-Rohr, Tufette, Wittwe, Part., ohne Vorstadt 955.\nSandmeier, Gottlieb, Buchbinder,\nSandmeier, Marie, Radentochter,\nid.\nid.\nSandmeier, Marie, Dauenfscheiderin id.\nSandmeier, Margaretha, Dameschneiderin id.\nid.\nid.\nid.\nid.\nSandmeier-Obrecht, Dachdeckergeselle, Ziegelrain 708.\nid.\nid.\nid.\nid.\nTauerländer-Benz, Elise, Wittwe, Part., Laurenzenvorsitzt 394.\nGauerländer-Cufer, Emma, Part., Vauenzenvorsitzt 418.\nTauerländer-Frey, Remigius, Buchdruckereiheßiger, Laurenzenvorstadt 418.\nEaker, Elise, Part., vordere Vorstadt 889.\nGaver-Bleger, Ludwig, Kaufmann, vordere Vorstadt 889.\nGazer-Truvog, Anna, Wittwe, Hauschälterin, Rain 872.",
+  "lines": [
+    {
+      "order": 0,
+      "baseline": [
+        [
+          345.0,
+          99.0
+        ],
+        [
+          597.0,
+          101.0
+        ]
+      ],
+      "bbox": [
+        345.0,
+        77.0,
+        597.0,
+        117.0
+      ],
+      "boundary": null,
+      "text": "Rothwyler – Pazer.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 1,
+      "baseline": [
+        [
+          116.0,
+          145.0
+        ],
+        [
+          818.0,
+          147.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        119.0,
+        818.0,
+        162.0
+      ],
+      "boundary": null,
+      "text": "Nothwiler-Hupfer, Anton, Buchsenmacher von Dürreheim (Großh. Baden),",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 2,
+      "baseline": [
+        [
+          189.0,
+          172.0
+        ],
+        [
+          330.0,
+          170.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        150.0,
+        330.0,
+        182.0
+      ],
+      "boundary": null,
+      "text": "Hammer 190.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 3,
+      "baseline": [
+        [
+          116.0,
+          196.0
+        ],
+        [
+          819.0,
+          196.0
+        ]
+      ],
+      "bbox": [
+        116.0,
+        170.0,
+        819.0,
+        204.0
+      ],
+      "boundary": null,
+      "text": "Ruch-Schälflis, Alfred, Schuhmacher von Wittödi (Glarus) Wildgasse 151.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 4,
+      "baseline": [
+        [
+          116.0,
+          220.0
+        ],
+        [
+          714.0,
+          220.0
+        ]
+      ],
+      "bbox": [
+        116.0,
+        199.0,
+        714.0,
+        231.0
+      ],
+      "boundary": null,
+      "text": "Ruef-Schoh, Johann, Taglöhner, von Rehingen, Halden 249.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 5,
+      "baseline": [
+        [
+          115.0,
+          245.0
+        ],
+        [
+          784.0,
+          243.0
+        ]
+      ],
+      "bbox": [
+        114.0,
+        222.0,
+        784.0,
+        256.0
+      ],
+      "boundary": null,
+      "text": "Rueß-Zweifel, Wilhelm, Schlosser, Rehlingen, Laurentenenvorstalt 376.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 6,
+      "baseline": [
+        [
+          115.0,
+          270.0
+        ],
+        [
+          685.0,
+          268.0
+        ]
+      ],
+      "bbox": [
+        114.0,
+        248.0,
+        685.0,
+        280.0
+      ],
+      "boundary": null,
+      "text": "Rueßli, Johann, Taglöhner, von Teengen, Igelweid 633.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 7,
+      "baseline": [
+        [
+          116.0,
+          294.0
+        ],
+        [
+          743.0,
+          294.0
+        ]
+      ],
+      "bbox": [
+        116.0,
+        273.0,
+        743.0,
+        303.0
+      ],
+      "boundary": null,
+      "text": "Rüedi-Wärtli, Johann, Staatsweibel von Sulz, Milchgasse 79.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 8,
+      "baseline": [
+        [
+          116.0,
+          319.0
+        ],
+        [
+          817.0,
+          319.0
+        ]
+      ],
+      "bbox": [
+        116.0,
+        297.0,
+        817.0,
+        334.0
+      ],
+      "boundary": null,
+      "text": "Rüegg-Stephani, Barbara, Postkonteure Wittwe von Balmen (Zürich),",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 9,
+      "baseline": [
+        [
+          188.0,
+          342.0
+        ],
+        [
+          347.0,
+          342.0
+        ]
+      ],
+      "bbox": [
+        188.0,
+        323.0,
+        347.0,
+        354.0
+      ],
+      "boundary": null,
+      "text": "Mitschasse 145.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 10,
+      "baseline": [
+        [
+          116.0,
+          367.0
+        ],
+        [
+          819.0,
+          365.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        346.0,
+        819.0,
+        379.0
+      ],
+      "boundary": null,
+      "text": "Rüegger-Eyßling, Otto, Malermeister von Wyl (Zürich), Ziegelrain 746.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 11,
+      "baseline": [
+        [
+          116.0,
+          392.0
+        ],
+        [
+          820.0,
+          392.0
+        ]
+      ],
+      "bbox": [
+        116.0,
+        372.0,
+        820.0,
+        406.0
+      ],
+      "boundary": null,
+      "text": "Rüegger-Holliger, Maria, Wittwe, Taglöhnerin von Niederwyl, vor dem",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 12,
+      "baseline": [
+        [
+          188.0,
+          417.0
+        ],
+        [
+          365.0,
+          415.0
+        ]
+      ],
+      "bbox": [
+        187.0,
+        394.0,
+        365.0,
+        428.0
+      ],
+      "boundary": null,
+      "text": "Haldenthor 1083.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 13,
+      "baseline": [
+        [
+          115.0,
+          441.0
+        ],
+        [
+          818.0,
+          441.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        417.0,
+        818.0,
+        450.0
+      ],
+      "boundary": null,
+      "text": "Rüetschi-Hopp, Hermann, Techniker und Glosengieser, Raintrafe 843.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 14,
+      "baseline": [
+        [
+          114.0,
+          467.0
+        ],
+        [
+          704.0,
+          465.0
+        ]
+      ],
+      "bbox": [
+        113.0,
+        446.0,
+        704.0,
+        475.0
+      ],
+      "boundary": null,
+      "text": "Rüetschi-Chriften, Jakob, Gloßengieser, obere Vorstadt 929.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 15,
+      "baseline": [
+        [
+          102.0,
+          491.0
+        ],
+        [
+          746.0,
+          489.0
+        ]
+      ],
+      "bbox": [
+        102.0,
+        471.0,
+        746.0,
+        505.0
+      ],
+      "boundary": null,
+      "text": "Rüetschi, Gottlieb, Bächer und Wirth von Euh, Pelzgasse 131.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 16,
+      "baseline": [
+        [
+          114.0,
+          516.0
+        ],
+        [
+          654.0,
+          514.0
+        ]
+      ],
+      "bbox": [
+        113.0,
+        495.0,
+        654.0,
+        523.0
+      ],
+      "boundary": null,
+      "text": "Müetschi-Heuberger, Ludwig, Kanzleisefretär, Rain 825.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 17,
+      "baseline": [
+        [
+          115.0,
+          538.0
+        ],
+        [
+          722.0,
+          540.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        516.0,
+        722.0,
+        550.0
+      ],
+      "boundary": null,
+      "text": "Rüetschi-Mattli, Gottfried, Obergerichtsweibel, Adelbündli 81.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 18,
+      "baseline": [
+        [
+          115.0,
+          564.0
+        ],
+        [
+          687.0,
+          562.0
+        ]
+      ],
+      "bbox": [
+        114.0,
+        544.0,
+        687.0,
+        575.0
+      ],
+      "boundary": null,
+      "text": "Rüetschi-Müllerli, Friedrich, Buchhalter, Cajinostrafe 571.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 19,
+      "baseline": [
+        [
+          115.0,
+          589.0
+        ],
+        [
+          745.0,
+          587.0
+        ]
+      ],
+      "bbox": [
+        114.0,
+        569.0,
+        745.0,
+        600.0
+      ],
+      "boundary": null,
+      "text": "Rüetschi-Rüpperli, Sophie, Part., Wittwe, hintere Vorstadt 694.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 20,
+      "baseline": [
+        [
+          115.0,
+          613.0
+        ],
+        [
+          817.0,
+          613.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        594.0,
+        817.0,
+        628.0
+      ],
+      "boundary": null,
+      "text": "Rüetschi-Wenger, Gottfried, Milchverfäuer, Spezereihandlung und Salz-",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 21,
+      "baseline": [
+        [
+          188.0,
+          636.0
+        ],
+        [
+          417.0,
+          639.0
+        ]
+      ],
+      "bbox": [
+        187.0,
+        615.0,
+        417.0,
+        649.0
+      ],
+      "boundary": null,
+      "text": "verfaut, Adelhändli 81.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 22,
+      "baseline": [
+        [
+          114.0,
+          663.0
+        ],
+        [
+          817.0,
+          660.0
+        ]
+      ],
+      "bbox": [
+        113.0,
+        639.0,
+        817.0,
+        678.0
+      ],
+      "boundary": null,
+      "text": "Rütschi-Schilling, Anna, Fabrikarbeiterin von Schlieren (Zürich), Lan-",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 23,
+      "baseline": [
+        [
+          186.0,
+          688.0
+        ],
+        [
+          392.0,
+          686.0
+        ]
+      ],
+      "bbox": [
+        186.0,
+        666.0,
+        392.0,
+        698.0
+      ],
+      "boundary": null,
+      "text": "renzenvorsstadt 1114.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 24,
+      "baseline": [
+        [
+          113.0,
+          712.0
+        ],
+        [
+          676.0,
+          712.0
+        ]
+      ],
+      "bbox": [
+        113.0,
+        688.0,
+        676.0,
+        721.0
+      ],
+      "boundary": null,
+      "text": "Rumpf, Bertha, Part. von Basel, vordere Vorstadt 893.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 25,
+      "baseline": [
+        [
+          105.0,
+          737.0
+        ],
+        [
+          771.0,
+          734.0
+        ]
+      ],
+      "bbox": [
+        104.0,
+        714.0,
+        771.0,
+        755.0
+      ],
+      "boundary": null,
+      "text": "Rusterholz-Schäppi, Albert, Bilschauer von Wädenswyl, Rain 885.",
+      "confidence": null,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 26,
+      "baseline": [
+        [
+          779.0,
+          99.0
+        ],
+        [
+          821.0,
+          98.0
+        ]
+      ],
+      "bbox": [
+        778.0,
+        80.0,
+        821.0,
+        112.0
+      ],
+      "boundary": null,
+      "text": "109.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 27,
+      "baseline": [
+        [
+          119.0,
+          834.0
+        ],
+        [
+          816.0,
+          832.0
+        ]
+      ],
+      "bbox": [
+        118.0,
+        807.0,
+        816.0,
+        852.0
+      ],
+      "boundary": null,
+      "text": "Gager=Klaubenböch, Jakob, Posamenter von Gränichen, obere Vor=",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 28,
+      "baseline": [
+        [
+          186.0,
+          860.0
+        ],
+        [
+          290.0,
+          860.0
+        ]
+      ],
+      "bbox": [
+        186.0,
+        837.0,
+        290.0,
+        868.0
+      ],
+      "boundary": null,
+      "text": "stadt 937.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 29,
+      "baseline": [
+        [
+          114.0,
+          884.0
+        ],
+        [
+          784.0,
+          881.0
+        ]
+      ],
+      "bbox": [
+        113.0,
+        856.0,
+        784.0,
+        893.0
+      ],
+      "boundary": null,
+      "text": "Eager-Wildi, Jakob, Taglöhner von Gränichen, obere Vorstadt 947.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 30,
+      "baseline": [
+        [
+          114.0,
+          909.0
+        ],
+        [
+          738.0,
+          905.0
+        ]
+      ],
+      "bbox": [
+        113.0,
+        884.0,
+        738.0,
+        920.0
+      ],
+      "boundary": null,
+      "text": "Calm, Marie, Damentchneiderin von Veltheim, Wildgasse 144.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 31,
+      "baseline": [
+        [
+          113.0,
+          933.0
+        ],
+        [
+          426.0,
+          933.0
+        ]
+      ],
+      "bbox": [
+        113.0,
+        912.0,
+        426.0,
+        945.0
+      ],
+      "boundary": null,
+      "text": "Calm, Barbara, Hauschälterin",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 32,
+      "baseline": [
+        [
+          469.0,
+          933.0
+        ],
+        [
+          473.0,
+          933.0
+        ]
+      ],
+      "bbox": [
+        469.0,
+        923.0,
+        473.0,
+        938.0
+      ],
+      "boundary": null,
+      "text": "1848",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 33,
+      "baseline": [
+        [
+          482.0,
+          933.0
+        ],
+        [
+          534.0,
+          933.0
+        ]
+      ],
+      "bbox": [
+        482.0,
+        913.0,
+        534.0,
+        942.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 34,
+      "baseline": [
+        [
+          612.0,
+          933.0
+        ],
+        [
+          681.0,
+          932.0
+        ]
+      ],
+      "bbox": [
+        612.0,
+        914.0,
+        681.0,
+        940.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 35,
+      "baseline": [
+        [
+          690.0,
+          932.0
+        ],
+        [
+          724.0,
+          931.0
+        ]
+      ],
+      "bbox": [
+        690.0,
+        912.0,
+        724.0,
+        939.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 36,
+      "baseline": [
+        [
+          113.0,
+          958.0
+        ],
+        [
+          713.0,
+          955.0
+        ]
+      ],
+      "bbox": [
+        112.0,
+        934.0,
+        713.0,
+        969.0
+      ],
+      "boundary": null,
+      "text": "Sandmeier, Melchior, Part. von Seengen, in der Telli 440.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 37,
+      "baseline": [
+        [
+          113.0,
+          982.0
+        ],
+        [
+          722.0,
+          979.0
+        ]
+      ],
+      "bbox": [
+        112.0,
+        958.0,
+        722.0,
+        994.0
+      ],
+      "boundary": null,
+      "text": "Sandmeier-Rohr, Tufette, Wittwe, Part., ohne Vorstadt 955.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 38,
+      "baseline": [
+        [
+          113.0,
+          1005.0
+        ],
+        [
+          454.0,
+          1007.0
+        ]
+      ],
+      "bbox": [
+        112.0,
+        984.0,
+        454.0,
+        1018.0
+      ],
+      "boundary": null,
+      "text": "Sandmeier, Gottlieb, Buchbinder,",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 39,
+      "baseline": [
+        [
+          116.0,
+          1030.0
+        ],
+        [
+          447.0,
+          1031.0
+        ]
+      ],
+      "bbox": [
+        115.0,
+        1010.0,
+        447.0,
+        1038.0
+      ],
+      "boundary": null,
+      "text": "Sandmeier, Marie, Radentochter,",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 40,
+      "baseline": [
+        [
+          534.0,
+          1006.0
+        ],
+        [
+          579.0,
+          1006.0
+        ]
+      ],
+      "bbox": [
+        534.0,
+        986.0,
+        579.0,
+        1021.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 41,
+      "baseline": [
+        [
+          534.0,
+          1031.0
+        ],
+        [
+          576.0,
+          1030.0
+        ]
+      ],
+      "bbox": [
+        533.0,
+        1010.0,
+        576.0,
+        1041.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 42,
+      "baseline": [
+        [
+          113.0,
+          1053.0
+        ],
+        [
+          577.0,
+          1056.0
+        ]
+      ],
+      "bbox": [
+        112.0,
+        1033.0,
+        577.0,
+        1067.0
+      ],
+      "boundary": null,
+      "text": "Sandmeier, Marie, Dauenfscheiderin id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 43,
+      "baseline": [
+        [
+          113.0,
+          1080.0
+        ],
+        [
+          584.0,
+          1080.0
+        ]
+      ],
+      "bbox": [
+        113.0,
+        1058.0,
+        584.0,
+        1092.0
+      ],
+      "boundary": null,
+      "text": "Sandmeier, Margaretha, Dameschneiderin id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 44,
+      "baseline": [
+        [
+          613.0,
+          1006.0
+        ],
+        [
+          669.0,
+          1006.0
+        ]
+      ],
+      "bbox": [
+        613.0,
+        988.0,
+        669.0,
+        1017.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 45,
+      "baseline": [
+        [
+          615.0,
+          1031.0
+        ],
+        [
+          669.0,
+          1030.0
+        ]
+      ],
+      "bbox": [
+        614.0,
+        1010.0,
+        669.0,
+        1035.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 46,
+      "baseline": [
+        [
+          615.0,
+          1055.0
+        ],
+        [
+          665.0,
+          1055.0
+        ]
+      ],
+      "bbox": [
+        615.0,
+        1035.0,
+        665.0,
+        1066.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 47,
+      "baseline": [
+        [
+          609.0,
+          1080.0
+        ],
+        [
+          656.0,
+          1080.0
+        ]
+      ],
+      "bbox": [
+        609.0,
+        1059.0,
+        656.0,
+        1092.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 48,
+      "baseline": [
+        [
+          112.0,
+          1104.0
+        ],
+        [
+          639.0,
+          1104.0
+        ]
+      ],
+      "bbox": [
+        112.0,
+        1083.0,
+        639.0,
+        1113.0
+      ],
+      "boundary": null,
+      "text": "Sandmeier-Obrecht, Dachdeckergeselle, Ziegelrain 708.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 49,
+      "baseline": [
+        [
+          686.0,
+          1006.0
+        ],
+        [
+          720.0,
+          1006.0
+        ]
+      ],
+      "bbox": [
+        686.0,
+        986.0,
+        720.0,
+        1014.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 50,
+      "baseline": [
+        [
+          685.0,
+          1030.0
+        ],
+        [
+          719.0,
+          1030.0
+        ]
+      ],
+      "bbox": [
+        685.0,
+        1007.0,
+        719.0,
+        1041.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 51,
+      "baseline": [
+        [
+          687.0,
+          1055.0
+        ],
+        [
+          719.0,
+          1055.0
+        ]
+      ],
+      "bbox": [
+        687.0,
+        1036.0,
+        719.0,
+        1064.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 52,
+      "baseline": [
+        [
+          687.0,
+          1080.0
+        ],
+        [
+          720.0,
+          1080.0
+        ]
+      ],
+      "bbox": [
+        687.0,
+        1056.0,
+        720.0,
+        1094.0
+      ],
+      "boundary": null,
+      "text": "id.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 53,
+      "baseline": [
+        [
+          94.0,
+          1128.0
+        ],
+        [
+          740.0,
+          1128.0
+        ]
+      ],
+      "bbox": [
+        94.0,
+        1107.0,
+        740.0,
+        1141.0
+      ],
+      "boundary": null,
+      "text": "Tauerländer-Benz, Elise, Wittwe, Part., Laurenzenvorsitzt 394.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 54,
+      "baseline": [
+        [
+          98.0,
+          1155.0
+        ],
+        [
+          682.0,
+          1151.0
+        ]
+      ],
+      "bbox": [
+        98.0,
+        1131.0,
+        682.0,
+        1165.0
+      ],
+      "boundary": null,
+      "text": "Gauerländer-Cufer, Emma, Part., Vauenzenvorsitzt 418.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 55,
+      "baseline": [
+        [
+          112.0,
+          1178.0
+        ],
+        [
+          815.0,
+          1176.0
+        ]
+      ],
+      "bbox": [
+        111.0,
+        1155.0,
+        815.0,
+        1193.0
+      ],
+      "boundary": null,
+      "text": "Tauerländer-Frey, Remigius, Buchdruckereiheßiger, Laurenzenvorstadt 418.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 56,
+      "baseline": [
+        [
+          112.0,
+          1201.0
+        ],
+        [
+          534.0,
+          1203.0
+        ]
+      ],
+      "bbox": [
+        111.0,
+        1181.0,
+        534.0,
+        1210.0
+      ],
+      "boundary": null,
+      "text": "Eaker, Elise, Part., vordere Vorstadt 889.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 57,
+      "baseline": [
+        [
+          97.0,
+          1227.0
+        ],
+        [
+          676.0,
+          1227.0
+        ]
+      ],
+      "bbox": [
+        97.0,
+        1204.0,
+        676.0,
+        1239.0
+      ],
+      "boundary": null,
+      "text": "Gaver-Bleger, Ludwig, Kaufmann, vordere Vorstadt 889.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 58,
+      "baseline": [
+        [
+          111.0,
+          1251.0
+        ],
+        [
+          654.0,
+          1251.0
+        ]
+      ],
+      "bbox": [
+        111.0,
+        1230.0,
+        654.0,
+        1270.0
+      ],
+      "boundary": null,
+      "text": "Gazer-Truvog, Anna, Wittwe, Hauschälterin, Rain 872.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    }
+  ],
+  "confidence": 0.0,
+  "segmented_by": "kraken-blla+Riksarkivet/yolov9-regions-1",
+  "timing_ms": 17209,
+  "truncated": false,
+  "settings": null,
+  "quality": {
+    "verdict": "ok",
+    "chars": 2331,
+    "lines": 59,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.2034,
+    "mean_line_chars": 38.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": {
+    "engine": "party",
+    "model": "party",
+    "text": "",
+    "lines": [],
+    "confidence": null,
+    "timing_ms": 0,
+    "error": "timed out: no answer within 30s of the primary result"
+  },
+  "gateway_version": "0.1.0",
+  "recognised_at": "2026-11-06T12:51:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-v1",
+    "source": {
+      "key": "1888_p127",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p127.jpeg",
+      "bytes": 273882,
+      "sha256": "d0670cc4772923122be1c453a9afe2310bdcf9162ff380e69a2b5ccb4da1d2de",
+      "sha256_of": "original",
+      "working_copy": "1888_p127.jpeg"
+    },
+    "model": {
+      "model": "qwen3vl-german-xix-v2",
+      "engine": "vllm",
+      "level": "line",
+      "revision": null,
+      "revision_kind": "unversioned_repo",
+      "weights": "dh-unibe/qwen3vl-german-xix-v2",
+      "base_model": "Qwen/Qwen3-VL-4B-Instruct"
+    },
+    "gateway_version": "0.1.0",
+    "segmented_by": "kraken-blla+Riksarkivet/yolov9-regions-1",
+    "recognised_at": "2026-11-06T12:51:54+00:00"
+  }
+}

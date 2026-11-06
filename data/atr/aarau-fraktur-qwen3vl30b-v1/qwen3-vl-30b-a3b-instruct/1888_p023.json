@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p023",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p023.jpeg",
+    "bytes": 253728,
+    "sha256": "1f59346807a95f0a1ed180018e7ccee4745e1abf451e44f8c037d2b55c9f39f3",
+    "sha256_of": "original",
+    "working_copy": "1888_p023.jpeg"
+  },
+  "text": "Haus-\nNr.\n136. Häfliger-Hilfiker, Otto, Metzger und Wirth, von Oberentfelden.\n137. Wägmer-Kummler, Emil, Kaufmann. Spezereihandlung zum Adler.\nKummler geb. Frey, Auguste, Part.\n\nOberthor.\n138. Wirz-Christen, Philipp, von Solothurn, Buchhändler. Schreib-\nmaterialien-Handlung.\nBaldinger geb. Wirz, Josefine, Ladenvorsteherin, von Baden.\n139. Derselbe. (Firma J. J. Christen.) Verlagsbuchhandlung und Buchdruckerei.\nWirz-Martin, Emil, von Solothurn. Sortiments-Buchhandlung.\n140. Andres-Bircher, Maria, Frau. Metzgerei, Wursterei, Milch- und\nButterverkauf.\nAndres, Otto, Sohn, Metzger.\nAndres geb. Baumann, Salome, Kupferschmieds Wittwe.\nMüller-Eggen schweiler, Johann, Postcommis, von Muri.\n\nMilchgasse.\n141. * Andres-Bircher, Maria, Frau.\n142. Gloor-Geißler, Rudolf, von Birmwyl. Bäckerei.\n143. * Hässig-Meier, Emil, Bäcker in Wenslingen (Baselland).\nHässig-Ryburz, Friedrich, Camioneur.\nGygi-Hägele, Friedrich, Färber, von Altenberg (Baden).\nKallmann geb. Hausmann, Elise, Fabrikarbeiterin, von Mülhheim\n(Baden).\nWalti-Zobrist, Johann, Wollweber, von Dürrenäsch.\nNiederhäuser geb. Schenk, Maria, Taglöhnerin, von Eriswyl (Bern).\nHeinzelmann, Johann, Schuhmacher, von Marschallzimmern (Württemberg).\n144. * Beer-Schmid, Heinrichs Erbschaft.\nKull geb. Müller, Anna, von Niederlenz. Mercerie- und Wollwaaren-\nhandlung.\nSalm, Maria, Damenschneiderin, von Beltheim.\nSalm, Barbara, Haushälterin, von Beltheim.\nSeeger-Kurt, Ludwig, Werkmeister, von Pfungstadt (Hessen).\n145. * Diefelbe.\nSchle-Weber, Mathäus, Scheibenarbeiter, von Wyl.\nSuter, Anna Elisabeth, Spetterin, von Suhr.\nRüegg-Stephani, Barbara, Wittwe, Part., von Balmen (Zürich).\nHässig, Friedrich, alt Thurmwart.\nWächter-Lindenmann, Heinrich, Knecht von Mönthal.\n146. Kull, Philipp, Spenglermeister. Spenglerwaaren- und Lampenlager.\n147. * Siebenmann-Merz, Emil, Gemeindeweibel.\nAndres-Meier, Samuel, Schlossermeister.\nChristen-Krek, Alois, Mechaniker, von Buochs (Unterwalden).\nWanger, Henriette, Näherin.\nMeier-Koth, Verena, Taglöhnerin, von Dintikon.\nMeier, Ed. Erwin, Sekretär, von Dintikon.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4154,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2051,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:20:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p023",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p023.jpeg",
+      "bytes": 253728,
+      "sha256": "1f59346807a95f0a1ed180018e7ccee4745e1abf451e44f8c037d2b55c9f39f3",
+      "sha256_of": "original",
+      "working_copy": "1888_p023.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:22+00:00"
+  }
+}

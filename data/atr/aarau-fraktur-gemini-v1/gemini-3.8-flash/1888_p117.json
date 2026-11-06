@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p117",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p117.jpeg",
+    "bytes": 282302,
+    "sha256": "d0b92f01a6e06ec21472812232734849eb616f2d7f739ec6316a0f8021e043d3",
+    "sha256_of": "original",
+    "working_copy": "1888_p117.jpeg"
+  },
+  "text": "Kramer — Landolt. 99\n\nKramer-Müller, Jakob, Knecht von Zezwyl, Telli 440.\nKrauer-Kaufmann, Heinrich, Schneider v. Bärentschwyl (Zürich), Halden 246.\nKrähenbühl, Louise, Näherin von Altishofen (Luzern), Halden 264.\nKuhn-Buser, Alfred, Schlosser und Mechaniker von Wangen (Zürich),\n  Ziegelrain 750.\nKuhn-Stadtmann, Rosa, Fabrikaufseherin von Illnau (Zürich), obere\n  Vorstadt 948.\nKull, Adolf, Postcommis von Niederlenz, Bahnhofstraße 513.\nKull-Hartmann, Friedrich, Drucker v. Fluntern (Zürich), Adelbändli 173.\nKull-Lehmann, Johann, Schneider von Niederlenz, Milchgasse 152.\nKull-Müller, Anna, von Niederlenz, Wollenwaarenhdlg., Milchgasse 144.\nKull, Philipp, Spengler, Milchgasse 146.\nKummler-Frey, Auguste, Wittwe, Part., Pelzgasse 137.\nKunz-Graf, Ernst, Zuckerbäcker von Wald (Zürich), vord. Vorstadt 674.\nKunz-Heß, Johann Jakob, Zuckerbäcker, Confiserie en gros von Wald,\n  (Zürich), Bankstraße 1141.\nKunz, Nanette, Näherin von Mönchaltorf (Zürich), Rain 832.\nKurz, Erwin, Fürsprech und Notar von Schwamendingen (Zürich), Lau-\n  renzenvorstadt 360.\nKurz-Häfliger, Heinrich, Baumeister von Schwamendingen (Zürich),\n  Gais 1131.\nKübler-Kuhn, Johann, Bahnhofinspektor, Bahnhofstraße 515.\nKühn-Hoffmann, Bernhard, Gastwirth z. Rößli, von Tieffurt (Sachsen),\n  Metzgergasse 112.\nKühn-Morach, Hermann, Drucker von Chemnitz (Sachsen), Halden 240.\nKümmerli-Matter, Johann, Abwart und Ausläufer von Kölliken, Schloß-\n  platz 1161.\nKünzi-Rümmeli, Oswald, Schuhmachermeister v. Uetikon a. Albis (Zürich),\n  Pelzgasse 122.\nKünzlen-Kranich, Friedrich, Buchhalter von Sulzbach (Württemberg),\n  Zollrain 88.\n\nLabhart-Baur, Hermann Jakob, Thierarzt von Steckborn (Thurgau),\n  Laurenzenvorstadt 607.\nLäubli-Häfeli, Jakob, Fabrikaufseher von Seengen, Hammer 194.\nLäubli-Kern, Verena, Metzgers Wittwe von Seengen, Pelzgasse 121.\nLäuchli-Bircher, Friedrich, Schlosser von Remigen, Hammer 184.\nLäuchli-Bürgi, Anna, Wittwe, Wirthin von Remigen, Rathhausgasse 25.\nLäuchli, Hans, Sohn, Buchhalter, von Remigen, id. id.\nLäuchli-Waßmer, Johann, Part., Weinberg 1102.\nLandolt-Frank, Johann, Schuhmachermeister, Golattenmattgasse 233.\nLandolt-Hächler, Gottlieb, Metzger, vordere Vorstadt 671.\nLandolt-Hässig, Alexander, Oekonom, Pelzgasse 128.\nLandolt-Häuptli, Marie, Wittwe, Damenschneiderin, Halden 284.\nLandolt-Hartmann, Karl, Sohn, Fabrikant, hintere Vorstadt 638.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7969,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2344,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:36:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p117",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p117.jpeg",
+      "bytes": 282302,
+      "sha256": "d0b92f01a6e06ec21472812232734849eb616f2d7f739ec6316a0f8021e043d3",
+      "sha256_of": "original",
+      "working_copy": "1888_p117.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:32+00:00"
+  }
+}

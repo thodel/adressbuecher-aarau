@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p168",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p168.jpeg",
+    "bytes": 237887,
+    "sha256": "f2b260e5a03713920635804afe67647fc29dc901882f09eb3de736d912e386c4",
+    "sha256_of": "original",
+    "working_copy": "1892_p168.jpeg"
+  },
+  "text": "152\n\nBrogli, Joseph, Tellirain 1335.\nFricker, Joseph, Halden 281.\nRiner, Johann, Rain 1185.\nSchmid, Hermann, vor dem Haldenthor\n  762.\n\nPulververkauf.\nBrast, Geschwister, Holzmarkt 661.\n\nQuincailleriewaaren.\nErdin, Albin, Nachfolger von Wwe. Jean\n  Kiefer, Rathhausgasse 22.\nErny-Faßler, E., Kronengasse 33.\nFaller, Elise Louise, Wwe. (Firma Ge-\n  brüder Faller), Kronengasse 41.\nHemmeler-Haßler, A., Metzgergasse 55.\nHemmeler & Cie. (en gros Geschäft),\n  hintere Vorstadt 638.\nHemmeler-Stahl, Jakob, Rathhausg. 21.\nKaiser, Sigmund, Kronengasse 35.\nMaritz-Bircher, Marie, Casinostraße 1176.\nMorath, Johann, Rathhausgasse 2.\nSchmid, Johann, vordere Vorstadt 889.\nSchneeberger-Salvi, Jakob, Rathhaus-\n  gasse 3.\nVonfelten-Willimann, Kronengasse 37.\n\nReißzeugfabrikanten.\nGysi & Cie., vordere Vorstadt 895.\nHommel-Esser, August, Hammer 188.\nKern & Cie., Ziegelrain 747.\n\nSägenseiler.\nHäuptli, Emil, Drechsler, Halden 284.\nHunziker, Heinrich, Holzer, Halden 264.\nWernli, Samuel, Holzer Hammer 185 c,\nund die Holzspalter Seite 145.\n\nSalzauswäger.\nGänslen, Louise, obere Vorstadt 913.\nMaurer, Emil, jenseits der Aare 1303 a.\nRohr-Häfig, Emil, Laurenzenthorg. 119.\nRüetschi-Wenger, Maria, Adelbändli 81.\nWildi, Fanny, hintere Vorstadt 699.\nWürger-Maurer, Heinrich, Laurenzenvor-\n  stadt 552.\n\nSamenhandlungen.\nGroßmann, Otto, Graben 205.\nHenz, Jakob, vordere Vorstadt 679.\nHoch, Gustav, Metzgergasse 61.\n\n[spalte 2]\n\nSattler.\nBeck, Friedrich, Zeughaussattler, Entfelder-\n  straße 983.\nBircher, Eduard, Halden 279.\nHäfeli, Joseph, Kirchgasse 15.\nKiburz, Gotthold, Entfelderstraße 968.\nLüthi, Alexander, Casinostraße 660.\nLüthi, Fritz, hint. Vorstadt 642.\nNüsperli, Friedrich, Zollrain 53.\nSchmid, Adolf, Bachstraße 1028.\n\nSchirmmacher.\nMüller, Eduard, Rathhausgasse 30.\nPfisterer, Emil, vordere Vorstadt 666.\nTheez-Amsler, Wittwe, Oberthor 754.\n\nSchirmhandlungen.\nDreßler, Laurenz, Camisascas Nachfolger\n  Rain 826.\nHeß, Gebr., Rathhausgasse 4.\nMüller, Eduard, Rathhausgasse 30.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vordere Vorstadt\n  893.\nSteffen, Albert, Bahnhofstraße 1074.\nTheez-Amsler, Wittwe, Oberthor 754.\n\nSchleifer.\nBrunner, Friedrich, Messerschmied, vordere\n  Vorstadt 898.\nHäßig, Jul., Feinschleifer, Hammer 1295.\nSchäfer, Cäsar, Messerschmied, 680.\n\nSchlosser.\nAndres, Samuel, Milchgasse 147.\nBeck, Gottlieb, Halden 258.\nGysi, Friedrich, hintere Vorstadt 645.\nHäßig, Julius, Milchgasse 77.\nKuhn, Alfred, Ziegelrain 750.\nLäuchli, Friedrich, Hammer 184.\nSchneider, Ulrich, Golattenmattgasse 234.\n\nSchmiede.\nBaumann, Samuel, Schmiedgasse 625.\nBuser, Heinrich, Graben 217.\nDecker, Julius, Casinostraße 577.\nGing, August, Casinostraße 572.\nRohr, Rudolf, Rainstraße 883.\n\nSchneider.\nBachmann, Josef, Schmiedgasse 633.\nBaumann, Gottlieb, Oberthor 140.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8165,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2773,
+    "lines": 93,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0323,
+    "mean_line_chars": 28.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:06:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p168",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p168.jpeg",
+      "bytes": 237887,
+      "sha256": "f2b260e5a03713920635804afe67647fc29dc901882f09eb3de736d912e386c4",
+      "sha256_of": "original",
+      "working_copy": "1892_p168.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:06:15+00:00"
+  }
+}

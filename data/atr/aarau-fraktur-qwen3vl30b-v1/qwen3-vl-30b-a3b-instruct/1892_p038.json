@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p038",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p038.jpeg",
+    "bytes": 217342,
+    "sha256": "dc47bddde22c900fb94a1815b6803e91badedb87ee2c73da5587351233efaf80",
+    "sha256_of": "original",
+    "working_copy": "1892_p038.jpeg"
+  },
+  "text": "Haus-\nNr.\n1340. Aktiengesellschaft der Aargauischen Kreditanstalt.\nVau-Bleuler, Joh. Jakob, Direktor, von Schaffhausen.\n353. * Aktiengesellschaft der Kreditanstalt (Schloßgarten).\nNeuburger-Imhof, Albert, Part.\nRohr-Baumann, Hans, Oberrichter, von Hunzenschwy.\n354. † Diefelbe. Remife.\n355. † Diefelbe. Waschhaus.\n356. Hunziker, Emil Guido, Rentier.\nRäser-Kähr, Ulrich, Kutscher, von Melchnau (Bern).\nHofer geb. Herzog, Maria Elise, Haushälterin, von Rothrist.\n357. † Derfelbe. Remife.\n358. † Derfelbe. Waschhaus.\n359. † Derfelbe. Sommerhaus.\n360. Studer-Billo, Theodors, Arzts Erbschaft.\nKurz-Korthaus, Erwin, Fürsprech, Advokatur- und Notariatsbüreau.\nBillo-Billo, Maria, Kaufmanns, Part.\nKettiger-Vertschinger, Arnold, Prokurist, von Liestal.\n361. * Diefelbe.\nWirtz-Widmer, Adolf, Postkondukteur, von Menziken.\nSiebenmann-Schaffner, Otto, Koch.\n362. * Diefelbe.\nBolliger-Schenker, Samuel, Bedienter, von Schloßrued.\nSchmid, Rosa, Damen Schneiderin, von Gipf.\nHubacher, Gustav, Zeichner, von Bern.\n363. * Diefelbe.\nWernli-Reinhard, Kaspar, Weichenwärter von Thalheim.\n364. * Wydler-Frey, Med. Drs. Erbschaft.\nWydler, Mathilde, Partif.\nWydler-Obouffier, Hans Ferdinand, Fabrikant.\nHunziker-Wydler, Paulina, Part.\n365. u. 366. † Diefelbe. Scheune.\n367. Müller-Haberlich, Fried. August, Kaufmann.\n368. u. 369. † Derfelbe. Deponomiegebäude.\n370. † Abgetragen.\n371. Fahrländer-Hunziker, Karl, Dr. Jur. Regierungsrath von Laufenburg.\nSiebelist geb. Fahrländer, Anna, Part. von Berlin.\n372. † Derfelbe. Holzhaus und Remife.\n373. † Hunziker-Züsti, Guido, Rentier. Comptoir und Magazin.\n374. u. 375. Derfelbe. Wohngebäude.\n376. * Hunziker-Züsti, Guido, Rentier.\nSiegrist-Schmid, Adolf, Schuhmacher, von Meisterschwanden.\nMeyer-Hägeli, Alois, Taglöhner, von Büron (Luzern).\nFischer-Roth, Ludwig, Straßenwärter.\nStirnemann, Maria, Fabrikarbeiterin, von Gränichen.\nDill-Frei, Joh. Jb. Christoph, Schuster, von Basel.\nSteiner-Haller, Mina, Wittwe, Taglöhnerin, von Rein.\nLeu-Karrer, Jakob, Taglöhner, von Schloßrued.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4327,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2016,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:36:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p038",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p038.jpeg",
+      "bytes": 217342,
+      "sha256": "dc47bddde22c900fb94a1815b6803e91badedb87ee2c73da5587351233efaf80",
+      "sha256_of": "original",
+      "working_copy": "1892_p038.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:36:20+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p030",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p030.jpeg",
+    "bytes": 311440,
+    "sha256": "ec2ae0e01d01b9388c15eb31d45c9e70b168903dd33f5b164fcf82854508382e",
+    "sha256_of": "original",
+    "working_copy": "1884_p030.jpeg"
+  },
+  "text": "26\tHänsler.\t—\tHeitz.\n\nHänsler, Anna, Damenschneiderin, v. Richterswyl (Zürich), Hammer 185b.\nHärdi, Wilhelm, Goldschmied, von Lenzburg, Rathhausgasse 42.\nHäring, Maria, Spetterin, von Dettighofen (Baden), Bachstraße 1031.\nHärri-Linder, Rudolf, Direktionssekretär, von Birrwyl, Rathhausgasse 5.\n—\t=Waffer, Susanna, Fabrikarbeiterin, v. Birrwyl, Laurenzenvorst. 376.\n—\t=Baumann, Arnold, Postcommis, von Birrwyl, Kronengasse 35.\n*Häzig-Lienhardt, Hermann, Bäcker und Wirth, Rathhausgasse 46.\n*\t—\t=Siegrist, Julius, Schlosser, Milchgasse 77.\n*\t—\t=Fischer, Albert, Buchbinder, Milchgasse 76.\n*\t—\t=Hauenstein, Samuel, Partik., Ziegelrain 705.\n*\t—\t=Bühler, Friedrich, Kupferschmied, Ziegelrain 705.\n*\t—\tSamuel, Maler, obere Vorstadt 968.\n*\t—\t=Straubhaar, Gottlieb, Feinschleifer, im Hammer 190.\n*\t—\t=Baumann, Julius, Schleifer, im Hammer 184.\n*\t—\tRosette, Glätterin, im Hammer 184.\n*\t—\tElise, Glätterin, im Hammer 184.\n*\t—\t=Dätwyler, Arn., Schuhmacher u. Siegrist der ref. Kirche, Kirchplz. 165a.\n*\t—\t=Kiburz, Friedrich, Camionneur, Milchgasse 143.\n*\t—\tFriedrich, alt Thurmwart, Ausläufer, Milchgasse 145.\n*\t—\t=Lüscher, Joh. Konr., Schuhmacher und Antiquar, Oberthor 224.\n*\t—\t=Berner, Friedrich, Straßenreiniger, Halden 266a.\n*\t—\tEmma, Rentière, Graben 202.\n*\t—\t=Sigle, Julius, Speisewirth, obere Vorstadt 912.\nHäuptli-Schälkli, Jakob, Färber, von Biberstein, Milchgasse 148.\n—\t=Burkhardt, A. Mar., Drechslers Wittwe, v. Biberstein, Halden 284.\n—\tEmil, Sohn, Drechsler, von Biberstein, Halden 284.\n—\t=Großenbacher, Barbara, Näherin, von Biberstein, Halden 290.\n—\tElise, Fabrikarbeiterin, von Biberstein, Halden 290.\n—\t=Ott, Othmar, Buchhalter, von Biberstein, obere Vorstadt 926.\nHäusermann-Schmid, Jakob, Holzspalter, von Egliswyl, Rainstraße 881.\n—\t=Schmid, Elisabeth, Taglöhnerin, von Egliswyl, Rainstraße 881.\n—\t=Ruef, Adolf, Knecht, von Egliswyl, in der Gais 1166.\nHäusler-Schmid, Angelus, Maler, Schwaderloch, Rainstraße 885.\nHediger-Fischer, Hans, Telegraphist, von Reinach, vor dem Haldenthor 767.\n—\t=Brändli, Samuel, gewes. Instruktor, von Reinach, Milchgasse 151.\n—\t=Sommerhalder, Samuel, Kaminfeger von Reinach, Adelbändli 85a.\n—\t=Buchmüller, Samuel, Gärtner, von Reinach, Milchgasse 145.\n—\t=Kull, Hermann, Stadt- und Friedhof = Gärtner, von Rupperswyl,\n  obere Vorstadt 960.\n—\tWilhelm, Postangestellter, von Reinach, Milchgasse 151.\n—\tLisette, Näherin, von Reinach, Ziegelrain 709.\nHefti-Hunziker, Johann Peter, Schneidermeister, v. Schwanden (Glarus),\n  Metzgergasse 107.\nHegnauer-Renold, Rudolf, Fabrikant, von Seengen, im Hammer 194.\nHeinzelmann, Johann, Schuhmacher, v. Marschalkzimmern (Würtemberg),\n  Halden 281.\nHeitz-Neeser, Kornel., Zimmermann, v. Menziken, Laurenzenvorstadt 376.\n—\t=Ott, Elisabeth, Wittwe, Partik., von Bözberg, Ziegelrain 752.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8738,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2759,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:12:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p030",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p030.jpeg",
+      "bytes": 311440,
+      "sha256": "ec2ae0e01d01b9388c15eb31d45c9e70b168903dd33f5b164fcf82854508382e",
+      "sha256_of": "original",
+      "working_copy": "1884_p030.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:12:35+00:00"
+  }
+}

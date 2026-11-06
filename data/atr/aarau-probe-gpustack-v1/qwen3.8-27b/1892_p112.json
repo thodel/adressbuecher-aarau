@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p112",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p112.jpeg",
+    "bytes": 255796,
+    "sha256": "194b859400fedba2e70a6d7b527a22c8f6c8a08706cf50ad5b944084db613237",
+    "sha256_of": "original",
+    "working_copy": "1892_p112.jpeg"
+  },
+  "text": "96 Gautschi — Gloor.\nGautschi-Neuenberger, Rudolf, Oekonom von Reinach, Telsi 460.\nGautschi-Maculin, Rudolf, Wirth zum \"Krohkrinn\", von Reinach, hinter\n  dem Bahnhof 1172.\nGautschi-Roth, Rudolf, Sohn, Oekonom von Reinach, Telsi 460.\n*Gautschi-Siebenmann, Samuel, Kantons-Ingenieur, hintere Vorstadt 646.\nGeismann, Kaver, Sekretär von Häggingen, Belzgasse 130.\nGeyer-Schleich, Joseph, Schneider von Benfeld (Elsas), Kathhausgasse 45.\nGerber-Hafler, Louise Elisabeth, Wittwe, Part., vordere Vorstadt 670.\n*Gerber-Seiler, Gustav, March. Tailleur. Kleider- und Tuchhandlung,\n  vordere Vorstadt 670.\nGerber, Robert, Commis, vordere Vorstadt 670.\nGerodetti-Dabermacher, Virgilius, Cuttmacher und Handlung von Marmor-\n  steinen von Cagliari (Sizilien), hinter dem Bahnhof 1268.\nGertiser-Andres, Maria, Wittwe, Part. von Münchwylern, Rain 820.\n*Gschner, August, Dr. Professor von Zürich, Bachstraße 1101.\nGirsch-Gaviezer, Adolf, Kaufmann von Chur, hintere Vorstadt 638.\nGiegentanner, Elisabeth, Part. von Rappel (St. Gallen), Golattenmatt-\n  gasse 235.\nGiger-Märki, Jakob, Schreiner von Gontenschwyß, Halden 286.\nGiger-Wildi, Rosina, Malers Wittwe, Part. von Aichheim (Württemberg),\n  obere Vorstadt 937.\nGing-Hug, August, Schmied, Stadthof 92 e, Werkstätte Casinostraße 572.\nGing, Johann Jakob, Part., Casinostraße 571.\nGing-Ryser, Wilhelm, Wagner, Milchgasse 77, Werkstätte Casinostraße 572.\nGinsberg-Ammann, Elisabeth, Wittwe, Part., Bahnhofstraße 1026.\n*Gissi-von Arx, Viktor, Kaufmann, Tuchhandlung von Niederbürgen (Solo-\n  thurn), Holzmarkt 664.\n*Gissi-Bächli, Adolf, Tapezierer von Buchs, Belzgasse 126.\nGissi-Wernli, Samuel, Schreinermeister von Möriken, Stadthof 92 b.\nGisiger-Feer, Johann, Gärtner v. Riemberg (Solothurn), Casinoftr. 580.\n*Gygi-Ammann, Traugott, Lehrer, jenseits der Aare 1303 b.\nGygi, Anna, Buchhalterin, vordere Vorstadt 895.\nGygi-Anderegg, Emil, Maler, obere Vorstadt 942.\n*Gygi-Bächle, Emil, Part., Gartenstraße 978.\nGygi-Fischer, Friedrich, Schlosser, hintere Vorstadt 645.\nGygi, Hans, Sohn, Mechaniker, vordere Vorstadt 895.\nGygi, Hettte, Modeistherin, Part., Kirchgasse 10.\nGygi, Otto, Sohn, Photograph, vordere Vorstadt 895.\nGygi, Otto Robert, Postcommis, obere Vorstadt 942.\n*Gygi-Siebenmann, Otto, Photograph, vordere Vorstadt 895.\n*Gygi-Studer, Arnold, Mechaniker, vordere Vorstadt 675.\nGladbach-Menold, Professor von Oppenheim (Hessen), Casinostraße 576.\nGloor, Bertha, Damenschneiderin von Dürrenäsch, Aedebändli 171.\nGloor, Elise, Fabrikarbeiterin, von Seon, Halden 260.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 86591,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2504,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:24:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1892_p112",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p112.jpeg",
+      "bytes": 255796,
+      "sha256": "194b859400fedba2e70a6d7b527a22c8f6c8a08706cf50ad5b944084db613237",
+      "sha256_of": "original",
+      "working_copy": "1892_p112.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:24:24+00:00"
+  }
+}

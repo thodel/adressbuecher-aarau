@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p050",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p050.jpeg",
+    "bytes": 188525,
+    "sha256": "0ed9b9a725fe17461daf4fae62229777c3351208942946178cca6d98045132f6",
+    "sha256_of": "original",
+    "working_copy": "1892_p050.jpeg"
+  },
+  "text": "Haus-\nNr.\n577. Decker-Hoffmann, Julius, Huf- und Wagenschmied.\nHoffmann, Jakob, Part., von Zell.\nLäuchli-Höpfl, Jakob, Polizeidiener, von Remigen.\nSutermeister-Strähl, Gottlieb, Postcommis, von Jossingen.\nDecker, Elise, Part.\n578. † Kleiner-Bischoffe, Alberts, Erbschaft. Magazin und Scheune.\n579. † Dieselbe. Remije.\n1347 † Egloff-Schöchiger, Joh. Georg, Handelsgärtner, von Tägerweilen\n(Thurgau). Gartenhaus.\n1348 † Derfelbe. Schopf mit Magazin.\n1349 † \" Treibhaus.\n580. Keller, Johann, Lohnkutscher.\nKeller, Katharina, Part.\nGisiger-Fehr, Johann, Gärtner, von Rienberg (Solothurn).\n581. † Derfelbe. Scheune und Remije.\n582. † \" Remije.\n583. † \" Remije mit Schweinescheune.\n584. Einwohnergemeinde Aarau. Naturhistorisches Museum.\nWehrli-Häfker, Friedrich, Pedell.\nHäfker, Gottlieb, Färber.\nFisch, Marie, Fabrikarbeiterin.\n\nLaurenzenvorstadt.\n585. Gemeinde Aarau. Kantonschulgebäude.\n586. Kleiner, Alberts, Erbschaft.\nKleiner-Bischoffe, Leontine, Fabrikants Wittwe.\nKleiner, Hans, Fabrikant.\nBischoffe, Arthur, Part.\nSchmuziger, Lina, Part.\nTanner, Irmengard, Part.\n587. † Dieselbe. Wasch- und Holzhaus.\n588. † \" Holzschopf.\n589. † Staat Aargau. Infanterie-Kaserne.\n590. Derfelbe. Cantine.\nBertschinger-Knifer, Anna, Wittwe, von Lenzburg. Cantinewirthin.\n\nZeughausstraße.\n591. Staat Aargau. Kaserne-Stallung.\n592. Derfelbe. Reitbahn.\n593. \" Stallung.\n594. \" Reitbahn.\n595. \" Turnhalle.\n1310 Richard-Schmid, Jda, Metzgers Wittwe, Part.\nBinaffa-von Salis, Friedrich, Kaufmann, von St. Gallen.\n1120 † Staat Aargau. Cavallerie-Kaserne.\n1121 † Derfelbe. Stallungen.\n596. \" Zeughaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3640,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1578,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:37:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p050",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p050.jpeg",
+      "bytes": 188525,
+      "sha256": "0ed9b9a725fe17461daf4fae62229777c3351208942946178cca6d98045132f6",
+      "sha256_of": "original",
+      "working_copy": "1892_p050.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:49+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p129",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p129.jpeg",
+    "bytes": 243564,
+    "sha256": "21e1363d2a22b06f875223857ffb27ea1454872f4264d470269c5d44ca4c9c1e",
+    "sha256_of": "original",
+    "working_copy": "1892_p129.jpeg"
+  },
+  "text": "Merz — Müller. 113\n\nMerz-Umiker, Jakob, Taglöhner von Beinwyl, Adelbändli 174.\nMichel, Katharina, Spetterin von Olten, hintere Vorstadt 689.\nMöller-Reinle, Ernst August, Büchsenmacher von Zella (Sachsen), Scheiben-\n  schachen 316.\nMösch, Emil, Commis von Frick, Rathhausgasse 3.\nMösch-Gaßler, Martin, Registrator von Frick, Bachstraße 1155.\nMösch-Mösch, Karl, Güterexpedient von Frick, Kronengasse 37.\nMoog-Ganß, Elise, Schuhhändlerin von Pirmasens (Bayern), Schmied-\n  gasse 625.\nMorath-Dilger, Johann, Kaufmann, Rathhausgasse 2.\nMorath, Johann, Sohn, Kaufmann, „ „\nMorgenthaler, David, Dienstmann von Strengelbach, Golattenmatt-\n  gasse 237 c.\nMorgenthaler, Elisabeth, Spetterin von Madiswyl (Bern), Hammer 188.\nMoser-Schneeberger, Johann, Handlanger von Jnkwyl (Bern), Lauren-\n  zenvorstadt 376.\nMühlberg-Amsler, Theodor, Postkontroleur von Muri, Feerstraße 1307.\nMühlberg-Sutermeister, Fritz, Dr. Professor, Rain 878.\nMüller, Albert, Gärtner (Konradin Zschokke) von Flawyl (St. Gallen),\n  obere Vorstadt 940.\nMüller, Albertine, Damenschneiderin von Möttlingen (Württemberg)\n  Halden 285.\nMüller-Amsler, Johann Jakob, Schuster von Unterkulm, Scheiben-\n  schachen 312.\nMüller-Bolliger, Johann, Postcommis von Uznach (St. Gallen), Gais 1217.\nMüller-Eggenschweiler, Johann, Postcommis von Muri, Rain 843.\nMüller, Elise, Glätterin, obere Vorstadt 921.\nMüller-Frei, Samuel, Maschinenputzer von Unterkulm, obere Vorstadt 947.\nMüller-Gamper, Samuel, Part., Holzmarkt 1260.\nMüller-Haberstich, Friedrich August, Kaufmann, Laurenzenvorstadt 367.\nMüller-Hürner, Eduard, Schirmmacher, Rathhausgasse 30.\nMüller-Hunn, Verena, Part. von Unterkulm, Bachstraße 1038.\nMüller-Hurni, Marie, Wittwe, Part, obere Vorstadt 935.\nMüller, Jakob, Bahnarbeiter, von Gränichen, Laurenzenvorstadt 376.\nMüller, Konrad, Part. von Schwanden (Bern), Bahnhofstraße 653.\nMüller-Kramer, Jost, Schneidermeister, Schmiedgasse 636.\nMüller-Lang, Margaritha von Niederwyl, Hammer 188.\nMüller-Lüthi, Friedrich, Taglöhner von Niederwyl, Hammer 188.\nMüller, Maria, Zimmermanns, Part. von Oberbözberg, Pelzgasse 132.\nMüller, Maria, Taglöhnerin von Unterkulm, vor dem Haldenthor 802.\nMüller, Maria Anna, von Hirschthal, Bahnhofstraße 1019.\nMüller-Märki, Jakob, Cementmüller von Schöftland, Scheibenschachen 1339.\nMüller-Müller, Hans Jakob, Taglöhner von Gränichen, Laurenzen-\n  vorstadt 376.\nMüller-Müller, Verena, Wittwe, Part. von Unterkulm, Milchgasse 143.\n  Adreßbuch der Stadt Aarau 1892. 8",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 11376,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2451,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:00:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p129",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p129.jpeg",
+      "bytes": 243564,
+      "sha256": "21e1363d2a22b06f875223857ffb27ea1454872f4264d470269c5d44ca4c9c1e",
+      "sha256_of": "original",
+      "working_copy": "1892_p129.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:00:00+00:00"
+  }
+}

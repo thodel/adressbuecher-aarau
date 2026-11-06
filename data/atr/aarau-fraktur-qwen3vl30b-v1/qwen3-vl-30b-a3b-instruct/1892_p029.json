@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p029",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p029.jpeg",
+    "bytes": 221236,
+    "sha256": "10ded999697e29e388c9f37fcd2c48890f8d8ffc93ec1903a7eeecb091cc5199",
+    "sha256_of": "original",
+    "working_copy": "1892_p029.jpeg"
+  },
+  "text": "Haus-\nNr.\n233. Landolt=Franz, Joh., Schuhmacher.\nAmsler, Berena, Fabritarbeiterin, von Bözen.\nAmsler, Elife,\n234. Schneider=Läuchli, Ulrich, \"Schlofer.\"\nJost-Wofer, August, Schneider, von Langnau (Bern).\n235. * Hafler=Brunnhofer, Elife, Wittwe.\nBrunnhofer=Giagentanner, Berena, Seilers Wittwe.\nJörg, Jakob, Seiler, von Affoltern (Bern).\nGiagentanner, Elizabeth, Part., von Kappel (St. Gallen).\nBildi-Hilfifer, Gottfried, Heizer, von Schafisheim.\n236. * Trefzger=Schöndli, Gustav.\nJäkler, Ulrich, Schuhmacher, von Andelfingen (Zürich).\nBrunner=enn, Heinrich, Fuhrmann, von Schmiedrued.\n237.a. Fäss=Huber, Jakob, Posamenter, von Oberkulm.\nCrismann-Lehner, Hermann, Hafner, von Contenschwyl.\n237.b. Dietifer=Staub, Adolf, Brieferäger, von Thalheim.\nDietfer, Emma, Wäjcherin, von Thalheim.\n237.c. Morgenthaler=Fehlmann, David, Dienstmann, von Staffelbach.\n238. † Fäss=Huber, Jakob, Posamenter. Holzschopf.\n239. Döhnle=Ryburz, August, Schuhmacher von Badenweiler (Baden).\n\nHalden.\n240. Ernst=Dürr, Hermann, Schuhmacher.\nDätwyler-Wernle, Wilhelm, Taglöhner, von Wittwyl.\nHunziker-Süberli, Marie, Taglöhnerin, von Contenschwyl.\n241. Armengut der Gemeinde Aarau. Armenhaus.\nMüller-Woodtli, Jakob, Armenhausvorsteher.\n242. † Dasjelbe. Holz=und Sprikenhaus.\n243. † Dasjelbe. Abfonderungshaus.\n244. Abgetragen.\n245.a. u. b. Abgetragen,\n246. * Brunnhofer, Gl., Lehrers Erbschaft.\nJähner-Brunnhofer, Nanette, von Horn (Thurgau). Stellenvermittlungs-\nbureau des schweiz. Frauenverbandes.\nBrunnhofer, Vijette, Lehrers, Part.\nHolliger-Berner, Gottfried, Taglöhner, von Boniswyl.\nWellenberg-Schaffner, Albertine, Wittwe, von Schöfisland.\n247. Brunnhofer=Giagentanner, Ursula, Wittwe.\nKuef-Joho, Johann, Taglöhner, von Reitingen.\nFischer, Friedrich, Weibels, Schreiner.\n248. Hafler=Brunnhofer, Elife, Kaminfegers Wittwe.\nKirchhofer-Schlatier, Marie, Privatin, von Schaffhausen.\nBertfchi-Holzreuter, Rudolf, Holzer, von Dürrenäsch.\n249. Hauri=Graber, Rudolf, Fuhrmann, von Reitnau.\nHorlacher-Jberg, Samuel, Mechaniker, von Umiken.\nBuchmann-Spycher, Adele, Wittwe, Damenschneiderin, von Veltheim.\n250. Wehrli=Bircher, Hans, Gipfermeister.\nSchmid, Jakob, Bahnarbeiter, von Seon.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4619,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2157,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:35:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p029",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p029.jpeg",
+      "bytes": 221236,
+      "sha256": "10ded999697e29e388c9f37fcd2c48890f8d8ffc93ec1903a7eeecb091cc5199",
+      "sha256_of": "original",
+      "working_copy": "1892_p029.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:43+00:00"
+  }
+}

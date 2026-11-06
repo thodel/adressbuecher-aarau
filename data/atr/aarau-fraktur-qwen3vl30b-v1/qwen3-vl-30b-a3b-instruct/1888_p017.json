@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p017",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p017.jpeg",
+    "bytes": 265346,
+    "sha256": "73652e0e67664f43859f12022fca23aecb38b4b3c1387028762f5270aae0a8dc",
+    "sha256_of": "original",
+    "working_copy": "1888_p017.jpeg"
+  },
+  "text": "Haus-\nNr.\n66. Heß-Zürcher, Wilhelm, Bäckermeister und Pintenwirth.\nHeß, Robert, Part.\n67. Fäss-Gall, Rudolf, Kaserntier, von Schöftland.\nFäss, Marie, Modistin, Modewarenhandlung.\nBaumann-Müller, Maria, Privatin, Buchbinders Wittwe.\n68. Hagnauer, Friedrich, Bürstenfabrikant. Bürstenwarenhandlung.\nHagnauer, Hermann, Sohn, Kaufmann.\nHagnauer-Peters, Friedrich, Bürstenmacher.\nBlaser geb. Studer, Anna, Wittwe, Part., von Langnau (Bern).\nNüspeleri, Marie Anna, Schneiders, Part.\n69. Ramfauer geb. Hässler, Anna, Wittwe, Part., von Herisau\n(Uppenzell).\nLimacher-Niggli, Niklaus, Schuhmachermeister, von Schüpfheim (Uzern).\n\nMilchgasse.\n\n70. Berttschi-Bircher, Julius, Zugführer, von Sumiswald (Bern).\nBerttschi, Anna, Damenschneiderin, von Sumiswald (Bern).\nHofettler-Hagnauer, Niklaus, Schuhmacher, von Guggisberg (Bern).\nWerkstätte.\nEngesser-Brunner, Joseph, Schneider, von Durchhausen (Württemberg).\n71. * Schmid, Jakob, alt Bankabwart, von Erlinsbach, in Basel.\nStrub-Wildi, Leonhard, von Läufelfingen, Möbelhandlung.\nEger-Ebner, Theophil, Schneider, von Riehen (Basel).\n72. Hoffmann-Meyer, Joh., Schuhmachermeister, von Weiningen (Thurgau),\nSchuhwarenhandlung.\n73. * Maurer, Louise, Privatin.\nSchmocker, Verena, Modistin, von Ringgenberg (Bern). Hut- und\nModewarenhandlung.\nSchmuz geb. Weber, Anna, Wittwe, Spetterin, von Eptingen (Baselland).\nMaurer-Ernst, Philipp, Giechereiarbeiter.\n74. * Siegrift-Fischer, Jakob, Mezger, von Meisterschwanden.\nFrey-Tanner, Joh., Schneider, von Densbüren.\nHaller geb. Fehlmann, Suzette, Wittwe, Wäscherin, von Reinach.\nSiebenmann-Beck, Gottlieb, Färber.\n75. * Jäggi-Weber, Hermann, Buchhalter, von Stengelbach.\nHochsträger-Fehlmann, Verena, Spetterin, von Fahrwangen.\nFehlmann-Holzreuter, Christoph, Bedienter, von Seon.\nFrei-Lindemann, Johann, Taglöhner, von Reigoldswyl (Baselland).\n76. Ernst-Lehmann, Samuel, Gasarbeiter, von Holziken.\nMaurer-Lehmann, Friedrich, Kutscher, von Schmiedrued.\nHerzig-Weber, Friedrich, Dachdecker und Kaminfeger, von Oberstedholz\n(Bern).\n77. Hässig-Siegrift, Julius, Schlossermeister.\n78. Andres-Eichelberger, Otto, Fasnermeister.\nBurren-Hirsbrunner, Friedrich, Pferdewärter, von Köniz (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4232,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2163,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p017",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p017.jpeg",
+      "bytes": 265346,
+      "sha256": "73652e0e67664f43859f12022fca23aecb38b4b3c1387028762f5270aae0a8dc",
+      "sha256_of": "original",
+      "working_copy": "1888_p017.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:56+00:00"
+  }
+}

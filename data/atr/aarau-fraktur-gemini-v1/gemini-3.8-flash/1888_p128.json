@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p128",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p128.jpeg",
+    "bytes": 290799,
+    "sha256": "6aef5404492ac0a8497b756cb4cb04c90ad3911572547b5f4732ebf02eab2bbf",
+    "sha256_of": "original",
+    "working_copy": "1888_p128.jpeg"
+  },
+  "text": "110                 Schachtler — Schindler.\n\nSchachtler, Johann Jos., Bezirksschullehrer, von Altstätten (St. Gallen),\n    Rektor der Mädchenbezirksschule, Gartenstraße 998.\nSchäfer-Dennler, Cäsar, Messerschmid, vordere Vorstadt 680.\nSchäfer-Holzach, Karl, Correspondent der Aarg. Creditanstalt, Garten-\n    straße 1129.\nSchäfer, Ida, Part., Conradstraße 992.\nSchäfer, Ludwig, Pedell, Bahnhofstraße 567.\nSchäfer-Meier, Friedrich, Einnehmer der Nordostbahn, Bahnhofstraße 515.\nSchäfer-Morlack, Wilhelm, Ausläufer, Oberthor 224.\nSchäfer-Scheller, Otto, Tapezierer, Halden 275.\nSchäfer-Frei, Emil, Zeughausarbeiter, Halden 275.\nSchäfer geb. Funk, Elise, Part., Milchgasse 152.\nSchäfer, Karolina, Corsettschneiderin, Milchgasse 152.\nSchäfer-Troller, Adolf, Architekt, Stadtrath, Rohrerstraße, Lindenhof 478.\nSchäppi-Honegger, Bertha, Wittwe von Horgen (Zürich), Zollrain 203.\nSchär-Roth, Friedrich, Milchverkäufer von Walterswyl (Bern), Holz-\n    markt 663.\nSchaffner-Furrimann, Samuel, Knecht von Effingen, Metzgergasse 101.\nSchaffner-Lindenmann, Friedrich, Wagnermeister, Bahnhofstraße 649.\nSchaffner, Friedrich, Sohn, Wagner, Bahnhofstraße 649.\nSchaffner-Meier, Jakob, Bahnwärter von Effingen, Adelbändli 173.\nSchaffner-Zeller, Rudolf, Part., jenseits der Aare 339.\nSchatzmann-Bolliger, Friedrich, Agent von Windisch, Ziegelrain 721.\nSchatzmann-Häring, Jakob, Polizeidiener von Windisch, Halden 290.\nSchatzmann-Häring, Elisabeth, Leinen- u. Wollwascherei, id. id.\nSchatzmann, Samuel, Buchbinder von Windisch, Pelzgasse 135.\nSchaub-Blauenstein, Adelbert, Gipser von Ettingen (Baselland), Metzger-\n    gasse 100.\nSchaub, Marie, Lehrerin v. Eptingen (Baselland), v. d. Haldenthor 769.\nSchaufelberger-Märk, Jakob, gewes. Zugführer von Fischenthal (Thurgau),\n    hinter dem Bahnhof 501.\nScheibler, Alfred, Sattler u. Tapezierer v. Unterentfelden, Stadthof 92 a.\nSchenker, Gustav, Thierarzt von Schönenwerd (Solothurn), Igelweid 619.\nSchenker-Siebenmann, Gottlieb, Dr. med., Bahnhofstraße 1019.\nScheuermann, Emilie, Part., Metzgergasse 105.\nScheuermann, Jakob, Polizeidiener von Safenwyl, Pelzgasse 136.\nSchibler-Sinniger, Rudolf, Aufseher v. Walterswyl (Solothurn), Telli 445.\nSchibli-Jäggi, Anna Maria, Wittwe, Part. v. Killwangen, Schachen 732.\nSchibli, Alfred, Sekretär von Killwangen, Schachen 732.\nSchibli, Anna, Damenschneiderin     id.       id.       id.\nSchießer-Häßig, Hermann, Kaufmann, Graben 206.\nSchießer-Süßle, Katharina, Wittwe, Part., Pelzgasse 121.\nSchießer, Margaretha, Part., Pelzgasse 121.\nSchilling, Xaver, Taglöhner von Hornussen, Halden 257.\nSchindler-Trümpi, Emma, Fabrikants Wittwe von Mollis (Glarus),\n    Entfelderstraße 973.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8066,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2647,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.81,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:38:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p128",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p128.jpeg",
+      "bytes": 290799,
+      "sha256": "6aef5404492ac0a8497b756cb4cb04c90ad3911572547b5f4732ebf02eab2bbf",
+      "sha256_of": "original",
+      "working_copy": "1888_p128.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:05+00:00"
+  }
+}

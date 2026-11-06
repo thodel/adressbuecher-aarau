@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p144",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p144.jpeg",
+    "bytes": 285454,
+    "sha256": "30d85d4d7efa4436bc0ba7736e8a17c9cb8617b96aabe9e0340a477e0a558de2",
+    "sha256_of": "original",
+    "working_copy": "1888_p144.jpeg"
+  },
+  "text": "126\nHagenbuch, Charles, Rain 819.\nHauptagentur der Mannheimer Spiegel-\nglasversicherungsgesellschaft.\nKeller, Andreas, Iggelweid 619.\nHauptagentur der schweiz. Mobiliar-\nversicherung.\nMatter, Samuel, hintere Vorstadt 613.\nHauptagentur der Lebensversicherungs-\nbank für Deutschland in Gotha.\nMerz, Friedrich, Rain 822.\nHauptagentur der Feuerversicherungs-\ngesellschaft „Union“ in Paris.\nHauptagentur der Lebensversicherungs-\ngesellschaft „Caisse Paternelle“ in\nParis.\nHauptagentur der Unfallversicherungs-\ngesellschaft „Athenania“ in Köln.\nSchazmann, Friedr., Ziegelrain 721.\nHauptagentur der „Gladbacher“ Feuer-\nversicherungsgesellschaft.\nAgentur der Basler Unfall- und Lebens-\nversicherungsgesellschaft.\nHauptagentur des Krs. Aargau der\nBrandenburger Spiegelglasversicherungs-\ngesellschaft.\nSchmidt-Lanz, Adolf, obere Vorstadt 935.\nInspecteur de la Providence, Compag-\nnie d'Assurances sur la vie à Paris.\nStirnemann, Jakob, Notar, Meggerg. 56.\nHauptagentur der Lebensversicherungs-\ngesellschaft „Germania“ in Stettin.\nWidmer, Heinrich, Pelzgasse 63.\nHauptagentur der „Hamburg-Bremer“\nFeuerversicherungsgesellschaft.\nAgentur der Badischen Pferdeversicherungs-\ngesellschaft.\nWirth-Herzog, Jakob, Zollrain 89.\nGeneralagentur für Auswanderung.\nGeneralagentur d. Lebensversicherungs-\ngesellschaft „La Suisse“ in Lausanne.\nGeneralagentur der schweiz. Unfall-\nversicherungsgesellschaft in Winter-\nthur.\nWüthrich, Samuel, Laurenzenthor-\ngasse 117.\nVertreter der Generalagentur für Aus-\nwanderung A. Zwischenbart in Basel.\nWyber-Braut, A., Rain 840.\nHauptagentur der Northern Feuer-\nversicherungsgesellschaft in London.\nHauptagentur der New-Yorker Lebens-\nversicherungsgesellschaft.\nAgentur der Unfallversicherungsgesell-\nschaft Zürich.\nAnnoncen-Expedition für Rudolf Mosse\nin Zürich.\nWyder, Jul., Notar, Rathausgasse 3.\nHauptagentur der franz. Feuerver-\nsicherungsgesellschaft „Phönix“.\nHauptagent der Lebensversicherungs-\ngesellschaft „La National“ in Paris.\nAgentur der schweiz. Hagelversicherungs-\ngesellschaft in Zürich.\nZschoppe, Hermann, Entfelderstraße 1200.\nGeneralagentur der Basler Feuer-\nversicherungsgesellschaft.\nGeneralagentur der Basler Lebens-\nversicherungsgesellschaft.\nAntiquare.\nHäfig, Joh., Conrad, Oberthor 224.\nArchitekten.\nAmmann, Robert, Entfelderstraße 970.\nMeyer, Jakob Ludwig, Graben 106 u. 221.\nMüller, Arnold, Jenfeits der Aare 346.\nRothpley, Karl, Bahnhofstrasse 651.\nSchäfer, Adolf, Hoherverstrasse 478.\nWolf, Karl, hintere Vorstadt 645.\nZimmerli, Karl, vordere Vorstadt 893.\nAsphaltgeschäfte.\nWehrli, Johann, Halden 250.\nWehrli, Jakob, Rain 877.\nZschoppe & Cie., Baugeschüt, Hohrer-\nstrasse 465.\nAusrüfer von Steigerungen.\nSiebenmann, Emil, Gemeindeweidel,\nRathausgasse 176.\nBadanfalten.\nBad Binsenhof, Besitzer Minifer, Fried-\nrich 1010.\nFlußbadanfalt Aarau, jenseits der\nAare 348.\nTreszger, Gustav, Färbegäbschen 213.\nUmliegende Bäder.\nBad St. Laurenzen in Erlinsbach.\nBad in Gränichen.\nBad in Oberentfelden.\nBad in Schinzach.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7016,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2965,
+    "lines": 99,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0707,
+    "mean_line_chars": 28.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:29:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p144",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p144.jpeg",
+      "bytes": 285454,
+      "sha256": "30d85d4d7efa4436bc0ba7736e8a17c9cb8617b96aabe9e0340a477e0a558de2",
+      "sha256_of": "original",
+      "working_copy": "1888_p144.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:20+00:00"
+  }
+}

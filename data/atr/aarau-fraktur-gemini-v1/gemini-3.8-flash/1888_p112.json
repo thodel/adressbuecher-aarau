@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p112",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p112.jpeg",
+    "bytes": 295814,
+    "sha256": "b91a5342158e982c18e01d0f9f93507dc2362c8b31eb182499d8fa7f5895d293",
+    "sha256_of": "original",
+    "working_copy": "1888_p112.jpeg"
+  },
+  "text": "94 — Herzog — Hoffmann.\n\nHerzog-Zobel, Hans, General, Bachstraße 1047.\nHeß, Carolina, Lehrerin von Wald (Zürich), hinterm Platz 214.\nHeß, Robert, Part., Pelzgasse 66.\nHeß-Wolf, Alexander, Kaufmann, Geschäftsführer von Zillisheim (Elsaß)\n  (Firma J. Heß), Filiale der Magazine zur Stadt Mülhausen,\n  Biel, Solothurn, Rathhausgasse 4.\nHeß-Zürcher, Wilhelm, Bäcker und Wirth, Pelzgasse 66.\nHeuberger-Fischer, Jakob, Rechnungsrevisor von Bözberg, Zollrain 179.\nHeuberger-Richner, Karl, Coiffeur, Bahnhofstraße 658.\nHeuberger-Siebenmann, Gottlieb, Sekretär, jenseits der Aare 339.\nHeuberger-Wernli, Elisabeth, Wittwe, Spezereihandlung, Bahnhofstraße 658.\nHeuckenkamp-Eisenschmied, Karolina, Wittwe, Part. von Niederlamitz\n  (Bayern), Laurenzenvorstadt 552.\nHeusler, Cesar Emanuel, Kaufmann von Biel (Bern), obere Vorstadt 913.\nHilsiker-Wilhelm, Jakob, Bäcker von Muhen, Kronengasse 40.\nHintermann-Keller, Robert, Major, Infanterie-Instruktor I. Klasse von\n  Beinwyl, Laurenzenvorstadt 410.\nHinz-Wolf, Gottfried, Conditor v. Merkingen (Württbg), Kronengasse 36.\nHirschy-Merz, Joh. Rud., Uhrenmacher, vordere Vorstadt 668.\nHirsbrunner-Kiener, Jakob, Instrumentmacher und Spezereihandlung,\n  Halden 255.\nHirsbrunner, Gottfried, Sohn, Instrumentmacher, Halden 255.\nHirt, Verena, Part. von Zezwyl, Halden 280.\nHirt-Wehrli, Elisabeth, Wittwe, Taglöhnerin von Zezwyl, Rathhausgasse 45.\nHitz, Bertha, Part. von Hausen (Zürich), Rain 875.\nHitz-Lanz, Otto, Negt., Spezerei- und Brennmaterialienhdlg., Rain 875.\nHoch-Ernst, Gustav, von Zollikon (Zürich), Samen- und Spezereihandlg.,\n  Metzgergasse 61.\nHochstraßer-Fehlmann, Verena, Spetterin von Fahrwangen, Milchgasse 75.\nHochstraßer, Marie, Damenschneiderin von Auenstein, Schachen 734.\nHöhn-Ochsner, Gottlieb, Kassier der Güterexpedition von Hütten (Zürich),\n  Laurenzenvorstadt 401.\nHofer, Albert, Sekretär von Niederwyl, Bankstraße 1146.\nHofer, Marie, Part., Lützelfluh (Bern), Schachen 736.\nHofer-Schaffner, Gottlieb, Negt., Rathhausgasse 43.\nHoffmann-Bolliger, Jakob, Oekonom von Unterkulm. Laurenzenvorstadt 607.\nHoffmann-Gamper, Emil, von Zell (Zürich), Cassier der Creditanstalt,\n  Rain 878.\nHoffmann, Gottlieb, Taglöhner von Rued, Halden 282.\nHoffmann-Kretz, Joseph, Maschinist von Wäggis (Luzern), Ziegelrain 705.\nHoffmann-Meier, Johann, Schuhmachermeister von Weiningen (Thurgau),\n  Milchgasse 72.\nHoffmann, Nanette und Karolina, Weißnäherinnen von Zell (Zürich),\n  Rathhausgasse 18.\nHoffmann-Suter, Christoph, Coiffeur von Schwabach (Bayern), Wohnung\n  Kirchgasse 15 und Geschäft Kirchgasse 8 a.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8794,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2543,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:35:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p112",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p112.jpeg",
+      "bytes": 295814,
+      "sha256": "b91a5342158e982c18e01d0f9f93507dc2362c8b31eb182499d8fa7f5895d293",
+      "sha256_of": "original",
+      "working_copy": "1888_p112.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:50+00:00"
+  }
+}

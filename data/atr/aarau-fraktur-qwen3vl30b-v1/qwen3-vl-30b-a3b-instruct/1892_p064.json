@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p064",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p064.jpeg",
+    "bytes": 223353,
+    "sha256": "0fff8254ed086077420edf89cbceba0528abff2eab0f30f9b9f1c04397b9b2ed",
+    "sha256_of": "original",
+    "working_copy": "1892_p064.jpeg"
+  },
+  "text": "Haus-\nNr.\nSchmidt, Albert, Schriftsetzer.\nSchmidt, Samuel, Commis.\nBrach-Wälchli, Heinrich, Webermeister, von Mönthal.\n1341 †Diefelben. Wachshaus.\n800. Brunner-Künzli, Heinrich, Bahnarbeiter.\nSteiner-Künzli, Erwin, Steindrucker, von Gontenschwyl.\n1271 †Derfelbe. Echeune.\n801. †Reformirte Kirchgemeinde Aarau. Gartenhaus.\n802. *Wasmser-Dtt, Fidel, Schneider, von Jungolz (Waden).\nSünziger-Schär, Emanuel, Schmied, von Mooslerau.\nMüller, Maria, Taglöhnerin, von Unterfultm.\nSchmid-Burkholter, Johann Friedrich, Schneider, von Zurzach.\n803. Siegrist-Heuberger, Jakob, Schriftsetzer, von Efsingen.\nSteiger-Detterli, Gottlieb, Kaminsfeger, von Bleienbach (Bern);\n804. Amsler-Falger, Friedolin, Revifor, von Raiffen; dessen Erbschaft.\nAmsler geb. Falger, Maria, Wittwe, Part., \"\nAmsler, Otto, Notar, Stadtkassier u. Sektionschef, von Raiffen.\nAmsler, Ida, Damenschneiderin,\nBolliger-Schädelin, Julia, Part., von Schloßrued.\nSchädelin geb. Siegentanner, Barbara, Part., von Moosleerau.\n1083 *Diefelbe. Wohnhäuschen.\n1109 Weber-Käfer, Jakob, Bankabwart, von Oberflachs.\nMeier-Appenzeller, Joseph, Schneider, von Wohlen.\n805. †Derfelbe. Remife.\n806. † \" Holzschopf.\n1243 Liechti-Steinegger, Paul, Dr. phil., Prof., von Murten (Freiburg).\n1252 †Derfelbe. Bienenhaus.\n807. † \" Gartenhaus.\n1242 †Dubs-Walther, Karl, Metzger. Echeune.\n1218 †Siegrist-Riniker, Heinrich, Metzger. Echeune.\n1324 †Derfelbe. Eisteller.\n1330 † \" Bienenhaus.\n1219 †Kull, Philipp, Spengler. Gartenhaus und Magazin.\n808. Wernli-Schweri, Maria, Wittwe, Gärtners, von Thalheim.\n809. Wernli-Adel, Jakob, Gärtner.\nSchneider-Frei, Samuel, Taglöhner, von Buchholterberg (Bern).\nStirnemann-Huber, Johann, Taglöhner, von Unterfultm.\nBofurka-Diße, Wenzl, Schneider, von Radnig (Böhmen).\n810. Frey-Kumpf, Friedrich, Kanzleisekretär und Musiklehrer, von\nFrey, Friedrich, Sohn, Weinhändler (in Firma Bidiella & Frey), von\nFrey, Albert, Sohn, Uhrenmacher, von Densbürren.\nFrey, Roja, Feinwäschierei und Glätterei, von Densbürren.\n811. †Derfelbe. Holzhaus.\n1201 † \" Wachshaus.\n812. †Abgetragen.\n1110 †Siebenmann-Walther, Schneider. Gartenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4578,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2091,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p064",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p064.jpeg",
+      "bytes": 223353,
+      "sha256": "0fff8254ed086077420edf89cbceba0528abff2eab0f30f9b9f1c04397b9b2ed",
+      "sha256_of": "original",
+      "working_copy": "1892_p064.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:50+00:00"
+  }
+}

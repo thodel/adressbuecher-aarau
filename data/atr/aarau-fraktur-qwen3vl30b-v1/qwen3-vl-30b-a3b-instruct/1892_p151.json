@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p151",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p151.jpeg",
+    "bytes": 240372,
+    "sha256": "1c4102ae1eb1c621d8d1c55eff39a609fc379187d68f8f494e31d8addeef60dc",
+    "sha256_of": "original",
+    "working_copy": "1892_p151.jpeg"
+  },
+  "text": "Wyder — Wülhrich.                                                                 135\nWyder-Braft, Albert, Agentur- und Commissionsgeschäft, von Oberstraz\n(Zürich), Rain 840.\nWyder-Bäurlin, Emilie, Färbers Wittwe, Ziegelrain 721.\nWyder, Emilie, Färbers, Ziegelrain 721.\n*Wyder-Fischer, Julius, Notar, Rathausgasse 3.\n✓Wyder-Fischer, Heinrich, Bezirkslehrer von Affoltern (Zürich), Zschoffe-\nstraße 996.\nWyder-Gubler, Pauline, Wittwe, Part., Rain 862.\n✓Wyder, Konrad, Apotheker, Rathausgasse 23.\nWyder, Lina, Part., Mezgargasse 55.\n✓Wyder, Mathilde, Part., Laurenzenvorstadt 364.\n✓Wyder-Dbouffier, Hans Ferdinand, Kaufmann, Laurenzenvorstadt 364.\n✓Wyder-Wehrli, Heinrich, Färber, Ziegelrain 718.\nWyder-Wernli, Erwin, Färber, Ziegelrain 718.\nWyjer-Müller, Alfred, Färbereibesitzer, Bachstraße 1055.\n✓Wytttenbach-de Vigneulle, Arthur, Bahningenieur von Bern, Südbahn-\nbureau, Bachstraße 1054.\nWohler-Bolliger, Johann Martin, Postcommis von Wohlen, Gais 1248.\nWolf-Märki, Anna, Wittwe, Part., hintere Vorstadt 645.\n✓Wolf-Allemann, Karl, Architekt, Adjunkt des Hochbaumeisters, vor dem\nHaldenthor 770.\n✗Wolsinger-Mayer, Max, Professior von Mannheim (Großh. Baden), \nBachstraße 1137.\n✓Wolfsgruber-Kienze, Gottfried, Photograph von Bonn (Preußen), Bahn-\nhoffstraße 1160.\nWullschleger-Blattner, Heinrich, Dekonom, Schachen 741.\nWullschleger, Hans, Knecht von Schloßrueb, Schachen 741.\n✓Wüest-Senn, Konrad, Bezirkslehrer, Rektor von Uffikon (Luzern), Bahn-\nhoffstraße 544.\nWuilleret-Gérard, Marie, Part. von Romont, Rain 858.\n✓Würger-Maurer, Heinrich, Gießereibesitzer, Spezerei-handlung und Salz-\nverkauf von Haufen (Großh. Baden), Laurenzenvorstadt 552.\nWürttemberger-Kaifer, Marie, Coiffeurs Wittwe, Kronengasse 34.\nWüthrich-Bartlome, Alexander, Käufer von Trub (Bern), obere Vorstadt 922.\nWüthrich-Dambach, Joh. Jakob, Taglöhner von Eggiwyl (Bern), \nHalden 279.\nWüthrich, Gottlieb, Zuckerbäcker (Chocoladefabrik) von Eggiwyl (Bern), \nPelzgasse 136.\nWüthrich-Hecht, C. A., Kaufmann von Trub (Bern), Wohnung Laurenzen-\nvorstadt 1294, artistisches Institut Bachstraße 1028.\nWüthrich, Jak., Zuckerbäcker v. Eggiwyl (Bern), Laurenzenthorgasse 117.\n✓Wüthrich-Lüdi, Samuel, Negot. und Pintenwirth von Eggiwyl (Bern), \nLaurenzenthorgasse 117.\nWüthrich-Stirnemann, Jakob, Camioneur von Eggiwyl (Bern), Rath-\nhausgasse 45.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6202,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2307,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.09,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:46:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p151",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p151.jpeg",
+      "bytes": 240372,
+      "sha256": "1c4102ae1eb1c621d8d1c55eff39a609fc379187d68f8f494e31d8addeef60dc",
+      "sha256_of": "original",
+      "working_copy": "1892_p151.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:56+00:00"
+  }
+}

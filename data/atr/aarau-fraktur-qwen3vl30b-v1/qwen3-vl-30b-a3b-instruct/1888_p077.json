@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p077",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p077.jpeg",
+    "bytes": 267595,
+    "sha256": "be1199ea3d827b1f2256f85a1b39036b4f3af144800c395df409be110bdc4265",
+    "sha256_of": "original",
+    "working_copy": "1888_p077.jpeg"
+  },
+  "text": "Haus-\nNr.\n1124 Zulauf=Siebenmann, Leopold (Weinhandlung).\n1135 † Derfelbe. Weinnagazin.\n1140 † id. Stalling und Remise.\n1137 Wolfsinger=Maier, Max, Professör, von Mannheim (Baden).\n1138 * Schmid=Jenny, Joh. Jakob, Oberst, in Glarus.\nSchmid-Läuchli, Joh. Jb., Ingenieur und Konfordatsgeometer, von Glarus.\nStephani-Wettler, Albertina, Fabrikants Wittwe.\n1112 Diefelbe. Holzschopf.\n1152 † Diefelbe.\n1113 Adam=Stephani, Paul, Fabrikant, von Allschwil (Baselland).\n1127 † Derfelbe. Stalling und Holzremise.\n1175 Wehli=Märk, Emil, Bankkassier, von Rüttigen.\n1174 Bühler=Heusler, Karl, Kaufmann, von Bibern (Schaffhausen).\n1156 Walder=Kunz, Karl, Buchhalter (Larg. Bank) von Zürich.\n1155 Mösch=Gaßler, Martin, Registrator, von Frid.\n1154 * Schäfer=Troller, Adolf, Architekt.\nSpinner=Billo, Joh. Jb., Camioneur, von Neugst (Zürich).\n1041. Herzog, Theodor, Jakob und Anna. Wohnhaus.\nWaltherr=Dubs, Hans, Deconom\n1042.a.b.† Diefelben. Scheune und Remise.\n1043.* Diefelben. Wohnhaus.\nSenn-Gisli, Hans, Zeughausverwalter, von Zofingen.\nPieckler=Anderson, Hugo, Hauptmann, eidg. Infruktor II. Klasse der\nKavallerie, von Luzern.\nFrei-Wirth, Emil, Kaufmann, von Wangen (Solothurn).\n1044.† Diefelben. Holzremise und Hühnerhaus.\n1045. Diefelben. Wohnhaus.\nHerzog-von Jenner, Theodor, Deconom.\nHerzog, Jakob, Part.\n1046.† Herzog=Zobel, Hans, General. Scheune.\n1047. Herzog=Zobel, Hans, General. (Eidgenössisches Artilleriebureau).\nHerzog, Hans, Dr. Phil., Staatsarchivar.\nGaronne-Pfleger, Anna, Pfarrers Wittwe, Part.\n1048.* Herzog, Theodor, Jakob und Anna. Wohnhaus mit Magazin und\nComptoir. W. Reiner's Nachfolger. (Geschäftsinhaber: R. Hart-\nmann und A. Schürch). Fabrikation elastischer Gewebe.\nHanggartner-Alber, Ferdinand, Lithograph, von Buchthalen (Schaffhausen).\nDauner-Stahel, Christian, Mechaniker, von Zunikon (Zürich).\n1049.† Diefelben. Fabritgebäude.\n1050.† id. id.\n1051. Wyser=Müller, Alfred, Seidenfärber, von Göszen (Solothurn).\nFirma: Wyser & Cie., Seidenfärberei.\nMeyer-Brunner, Emil, von Rheinfelden; Verwalter der Kantonalen\nKrankenanstalt.\nBrunner geb. Trümpler, Anna, Wittwe, Part., von Hirslanden (Zürich).\n1052.* Derfelbe. Wohnhaus mit Werkstätte.\nKeller-Baumann, Rudolf, Färbermeister, von Turbenthal (Zürich).\n1053.† Herzog, Theodor und Wirthaft. Holzschopf.\n1054. Reiner-Scheuermann, Elise, Fabrikants Wittwe, Part.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4876,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2326,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p077",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p077.jpeg",
+      "bytes": 267595,
+      "sha256": "be1199ea3d827b1f2256f85a1b39036b4f3af144800c395df409be110bdc4265",
+      "sha256_of": "original",
+      "working_copy": "1888_p077.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:13+00:00"
+  }
+}

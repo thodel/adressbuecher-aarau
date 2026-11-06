@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p024",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p024.jpeg",
+    "bytes": 214497,
+    "sha256": "d9b1ad48899dd0ebdc934dc7eab8dd03c2a3597e837fb2488fc77fd06a5460bd",
+    "sha256_of": "original",
+    "working_copy": "1892_p024.jpeg"
+  },
+  "text": "— 16 —\nHaus-\nNr.\n174. * Fisch=Buser, Wittwes Erbschaft.\n  Rämisperger-Hunkeler, Hermann, Spenglermeister.\n  Merz-Umiker, Jakob, Taglöhner, von Beinwyl.\n  Beck, Karoline, Weißnäherin.\n  Beck, Louise, Damenschneiderin.\n  Dürr-Graden, Hieron., Straßenwärter.\n  Wanger, Henriette, Buchbinders Part.\n  Fischer-Widler, Ernestine, Wittwe, Taglöhnerin.\n  Fischer-Kaufmann, Friedrich, Taglöhner.\n175. Staat Aargau. Kathol. Pfarrhaus.\n  Fischer-Keller, Xaver, christkathol. Pfarrer von Triengen.\n  Jäggli-Widmer, Karolina, Wittwe, Part.\n\nRathhausgasse.\n176. * Gemeinde Aarau. Rathhaus. Städtische Polizeiwache, Zahlkasse,\n  Fremdenbureau und Sektionschef. Sitz der Jury, des Obergerichts,\n  des Bezirksgerichts und des Gemeinderathes, Gemeindekanzlei und\n  Bureau des Bauverwalters, des Fondsverwalters und Forstver-\n  walters.\n  Fischer-Peter, Thomas, Gemeindeweibel und Rathhausabwart.\n\nZollrain.\n177. Schmidt-Correvon, Robert, Negotiant, zum Bären, Spezerei-,\n  Korb- und Tapetenhandlung.\n  Hemmeler, Maria, Ladentochter.\n  Tschanz-Beck, Sophie, Wittwe, Part.\n  Tschanz, Louise, Ladentochter.\n  Tschanz, Ida, Damenschneiderin.\n  Rigassi-Franzetti, Kaspar, Geschäftsreisender, von Landarenca (Graubünden).\n178. Brunnhofer-Meder, August, Restaurateur und Liqueurfabrikant.\n  Wengi-Kalt, Adolf, Postbeamter.\n  Ebner-Zimmermann, Josef, Schriftsetzer, von Birkingen (Baden).\n  Beck, Emil, Sekretär der Gemeindekanzlei.\n179. Fischer, Thomas, Bierbrauer.\n  Heuberger-Fischer, Jakob, Rechnungsrevisor, von Bözberg.\n  Keller-Franke, Mina, Obergerichtsschreibers Wittwe.\n  Heß-Wolf, Alexander, Kaufmann, von Zillisheim (Elsaß), Möbelmagazin.\n180. † Derselbe. Scheune.\n181. * Dubs-Schärli, Elisabeth, Müllers Wittwe, von Küttigen.\n  Hering-Leuenberg, Johann, Lehrer, von Aristorf.\n  Hering-Leuenberg, Lisette, Bettmacherin, von Aristorf. Bettwaarengeschäft.\n\nIm Hammer.\n182. Dubs-Schärli, Elisabeth, Müllers Wittwe, von Küttigen. Untere\n  Mühle.\n  Dubs, Jakob, Sohn, Müller, von Küttigen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6374,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1970,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:47:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p024",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p024.jpeg",
+      "bytes": 214497,
+      "sha256": "d9b1ad48899dd0ebdc934dc7eab8dd03c2a3597e837fb2488fc77fd06a5460bd",
+      "sha256_of": "original",
+      "working_copy": "1892_p024.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:23+00:00"
+  }
+}

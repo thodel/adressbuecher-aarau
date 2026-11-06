@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p174",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p174.jpeg",
+    "bytes": 182846,
+    "sha256": "0bdb0160caf59c30580d2a8a271bdd1f76368fb8303c4b57ac691406164af3fb",
+    "sha256_of": "original",
+    "working_copy": "1892_p174.jpeg"
+  },
+  "text": "158\n\n* Druck und Verlag von H. R. Sauerländer,\n    Laurenzenvorstadt 418:\n  Vom Jura zum Schwarzwald, viertel-\n    jahrsweise, per Jahrgang Fr. 6.\n  Illustrirte schweizerische Jugendblätter,\n    1 Mal monatlich. Preis Fr. 5.\n  Bienenzeitung, schweizerische, 1 Mal\n    monatlich.\n  Amtsblatt des Kantons Aargau, 1 Mal\n    wöchentlich. Preis Fr. 6. 50 für Aarau,\n    franko auswärts Fr. 7. 50.\n  Aarg. Polizei-Anzeiger (Fahndungsblatt).\n  Druck und Verlag von J. J. Spühler,\n    Redaktor, hintere Vorstadt 622:\n* Aargauer Nachrichten, 6 Mal wöchentlich.\n    Preis Fr. 9 für Aarau, franko aus-\n    wärts Fr. 11.\n  Aargauer Zeitung, 2 Mal wöchentlich.\n    Preis Fr. 6 für Aarau und auswärts.\n* Druck und Verlag von Emil Wirz, vorm.\n    Firma J. J. Christen, Oberthor 139.\n  Schweizerische landwirthschaftliche Zeit-\n    schrift, 1 Mal wöchentlich. Preis Fr. 5\n    für Aarau, franko auswärts Fr. 7. 50.\n  Mittheilungen für Land-, Haus- und\n    Forstwirthschaft, 1 Mal wöchentlich.\n    Preis Fr. 4.\n\n[spalte 2]\n\nThierfreund, Organ der deutsch-schwei-\n  zerischen Thierschutzvereine, erscheint\n  6 Mal per Jahr. Preis für Mitglieder\n  Fr. — 50 Cts. Nichtmitglieder Preis\n  Fr. 1. —.\nVerkehrs-Organ der Mittelschweizerischen,\n  Geograph. Kommerziellen Gesellschaft\n  in Aarau. Erscheint 4 Mal per Jahr.\n  Wird an die Mitglieder gratis abge-\n  geben.\n\nZiegelfabrikanten.\n\nErnst-Käser, Friedrich (Strangfalzziegelei),\n  in der Gais 1353.\nHauri-Siegenthaler, Karl, Rain 866.\nThut-Gidemann, Hermann, Rain 863.\n\nZimmermeister.\n\nEichenberger, Rudolf, Milchgasse 154.\nHemmeler, Gottlieb, vor dem Halden-\n  thor 767.\nHort, Hans, Hammer 187.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5224,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1624,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 30.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:07:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p174",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p174.jpeg",
+      "bytes": 182846,
+      "sha256": "0bdb0160caf59c30580d2a8a271bdd1f76368fb8303c4b57ac691406164af3fb",
+      "sha256_of": "original",
+      "working_copy": "1892_p174.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:12+00:00"
+  }
+}

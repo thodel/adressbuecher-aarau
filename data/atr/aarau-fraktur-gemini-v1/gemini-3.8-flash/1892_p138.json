@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p138",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p138.jpeg",
+    "bytes": 243902,
+    "sha256": "b8ed29911a69e7f9490114baa69503fa8d2e33ee9571277f8425d96c2285b710",
+    "sha256_of": "original",
+    "working_copy": "1892_p138.jpeg"
+  },
+  "text": "122\nSchießer — Schmidt.\n\n[handschriftlich: ✗]Schießer-Häßig, Hermann, Kaufmann, Wohnung Graben 206, Käsehand-\n  lung, Pelzgasse 121.\n[handschriftlich: ✗]Schießer, Margaretha, Part., Pelzgasse 121.\nSchilling, Xaver, Taglöhner von Hornussen, Halden 257.\n[handschriftlich: ✗]Schindler-Trümpi, Emma, Fabrikants Wittwe von Mollis (Glarus),\n  Entfelderstraße 973.\nSchlatter, August, Part, Metzgergasse 103.\nSchmid-Baumann, Katharina, Schreiners Wittwe, von Watterdingen\n  (Baden), hinter dem Bahnhof 494.\nSchmid-Burkhalter, Johann Friedr., Schneider von Zurzach, vor dem\n  Haldenthor 802.\nSchmid, Elise, Fabrikarbeiterin, Stadthof 92 d.\nSchmid, Emma, Damenschneiderin, „ „ „\nSchmid-Eng, Peter, Posamenter von Herznach, Adelbändli 86.\nSchmid-Fischer, Heinrich, Kaufmann von Wittnau, Graben 202.\nSchmid, Frieda und Anna, Weißnäherinnen von Watterdingen (Baden),\n  hinter dem Bahnhof 494.\nSchmid-Graf, Rudolf, Taglöhner, Adelbändli 170.\n[handschriftlich: ✗]Schmid, Hans, Postfakteur, Stadthof 92 d.\nSchmid-Jakober, Hermann, Polizeidiener von Zuzgen, v. d. Haldenth. 762.\nSchmid-Läuchli, Jakob, Ingenieur und Konkordatsgeometer von Glarus,\n  Bachstraße 1138.\nSchmid, Marie, Ladendienerin von Buch bei Weinfelden (Thurgau),\n  Kronengasse 33.\nSchmid-Maurer, Mathilde, Negotiantin von Möriken, Rathhausgasse 29.\nSchmid-Pauli, Daniel, Gärtner von Erlinsbach, Scheibenschachen 1278.\nSchmid-Peter, Elisabeth, Postfakteurs Wittwe, Stadthof 92 d.\nSchmid, Rosa, Damenschneiderin von Gips, Laurenzenvorstadt 362.\nSchmid-Suter, Johann in Zofingen, „Pariser Bazar“, vord. Vorst. 889.\nSchmid-Unger, Rudolf, Bahnwärter von Erlinsbach, Halden 268.\nSchmid-Willi, Jos. Anton, Polizeikorporal und Fischereiagent von Witt-\n  nau, hintere Vorstadt 621.\n[handschriftlich: ✗]Schmid-Wolf, Peter, Sekretär u. Kassier der Sparkasse der Stadt Aarau\n  und Umgebung, hintere Vorstadt 645.\n[handschriftlich: ✗]Schmidlin, Theodor, Fabrikant chemischer Produkte, Graben 204.\nSchmidt, Albert, Schriftsetzer, vor dem Haldenthor 1332.\nSchmidt, Anna und Jenni, Wäscherei und Glätterei, vor dem Halden-\n  thor 1332.\n[handschriftlich: ✗]Schmidt-Correvon, Robert, Negt. zum Bären, Zollrain 177.\nSchmidt-Häusler, Verena, Gärtners Wittwe, vor dem Haldenthor 1332.\n[handschriftlich: ✗]Schmidt-Hagnauer, Gustav, Kaufmann, Teppich-, Wachstuch- und Ma-\n  nufakturwaarenhandlung, Graben 202.\n[handschriftlich: ✗]Schmidt-Halbritter, Max, Fürsprech und Notar, Stadtammann, Casino-\n  straße 576.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7950,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2437,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:01:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p138",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p138.jpeg",
+      "bytes": 243902,
+      "sha256": "b8ed29911a69e7f9490114baa69503fa8d2e33ee9571277f8425d96c2285b710",
+      "sha256_of": "original",
+      "working_copy": "1892_p138.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:01:12+00:00"
+  }
+}

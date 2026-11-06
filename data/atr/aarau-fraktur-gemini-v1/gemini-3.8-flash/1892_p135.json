@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p135",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p135.jpeg",
+    "bytes": 257870,
+    "sha256": "3f8177255a4f00b65458a1ebac9451a7bcb6800ac0f93dbdfca66364eec3f16d",
+    "sha256_of": "original",
+    "working_copy": "1892_p135.jpeg"
+  },
+  "text": "Kochholz — Ruch. 119\n\nKochholz, Mina, Klavierlehrerin von Ansbach (Bayern), Metzgargasse 100.\nRodel-Sandmeier, Anna, Wittwe, Fabrikarbeiterin von Staufen, Telli 440.\nRohner-Ehrsam, Elise, Arzts Wittwe, Part., Zollrain 51.\nRohner-Märk, Marie, Wittwe, Lehrerin, Entfelderstraße 983.\nRohr-Baumann, Hans, Oberrichter von Hunzenschwyl, Laurenzen=\n  vorstadt 353.\nRohr-Blauenstein, Marie Anna, Wittwe von Hunzenschwyl, Pelzgasse 132.\nRohr-Gloor, Marie, Part., Kronengasse 38.\nRohr-Graf, Rudolf, Weichenwärter von Hunzenschwyl, Rathhausgasse 47.\nRohr-Hässig, Emma, Wittwe, Colonialwaarenhandlung, Laurenzenthor=\n  gasse 119 a.\nRohr-Hochstraßer, Rudolf, Schmid, Rainstraße 883.\nRohr-Holliger, Johann, Wirth von Buchs, Holzmarkt 662.\nRohr-Reiner, Hans, Fürsp., Staatsanwaltssubst. v. Lenzburg, Gartenst. 998.\nRohr, Samuel, Gerichtssubstitut, Zollrain 293.\nRohr, Samuel, Gastwirth zum Wildenmann, vordere Vorstadt 1262.\nRohr-Wehrli, Daniel, Bauamtsarbeiter v. Hunzenschwyl, Milchgasse 145.\nRoth-Bolliger, Anna Marie, Wittwe, Taglöhnerin von Erlinsbach,\n  Halden 257.\nRoth, Friedrich, Ausläufer von Mühlethal, Kirchgasse 11.\nRoth-Gautschi, Friedrich, Schuhmachermeister von Mühlethal, Rainst. 825 b.\nRoth, Joh., Aufseher, von Obererlinsbach, Erlinsbacherstraße 1298.\nRoth-Sahli, Samuel, Hausknecht von Zezwyl, Rathhausgasse 45.\nRoth-Schmutziger, Alfred, Oberst von Bühler (Appenzell A.-Rh.), Lau=\n  renzenvorstadt 401.\nRoth-Weber, Rudolf, von Erlinsbach (Aargau), Wohnung Bahnhof=\n  straße 1025, Spezereihandlung Bahnhofstraße 1074.\nRoth-Widmer, Verena, Wittwe, Spetterin von Mühlethal, Rain 825 b.\nRoth-Zaugg, Friedrich, Obergerichtskanzlist, Scheibenschachen 335.\nRothpletz-Brütel, Alfred Bankdirektor, Bahnhofstraße 511.\nRothpletz-Bürgi, Maria, Pfarrers Wittwe, in der Telli 454.\nRothpletz, Emil, Verwalter, obere Vorstadt 682.\nRothpletz-Haßler, Rudolf, Metzger, Milchgasse 160.\nRothpletz-Hunziker, Gottlieb, Schreiner, Milchgasse 159.\nRothpletz-Imhof, Louise, Stadtraths Wittwe, Erlinsbacherstraße 336.\nRothpletz, Karl, Architekt, Bahnhofstraße 651.\nRothpletz-Rychner, Friedrich, Fabrikant, Gönhardsfeldweg 1309.\nRothpletz-Siebenmann, Marie Elisabeth, Schreiners Wittwe, Part.\n  Stadthof 92 c.\nRothpletz-Waldkirch, Julius, Malermeister, Conradstraße 990.\nRotter-Baumgartner, Johann, Schreiner von Wermsdorf (Oesterreich),\n  Bahnhofstraße 653.\nRubli-Schwarz, Johann Jakob, Gefangenwart, von Effingen, hinter Vor=\n  stadt 690.\nRuch-Schläckli, Alfred, Schuhmacher von Mitlödi (Glarus), Milchg. 151.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9519,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2488,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:00:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p135",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p135.jpeg",
+      "bytes": 257870,
+      "sha256": "3f8177255a4f00b65458a1ebac9451a7bcb6800ac0f93dbdfca66364eec3f16d",
+      "sha256_of": "original",
+      "working_copy": "1892_p135.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:00:47+00:00"
+  }
+}

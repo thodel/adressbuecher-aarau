@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p113",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p113.jpeg",
+    "bytes": 250355,
+    "sha256": "11f7d10ed29bfb01514529eb159fb17a8eabc16511693a298ad13e56bcd257ac",
+    "sha256_of": "original",
+    "working_copy": "1892_p113.jpeg"
+  },
+  "text": "Gloor — Guyer.\n97\nGloor-Geißler, Rudolf, Bäcker von Birrwyl, Milchgasse 142.\nGloor-Horlacher, Ferdinand, Holzspalter von Birt, Adelbändli 86.\nGloor-Lücher, Marie, Wittwe, Wäscherin von Birt, Halden 282.\nX Gloor-Siebenmann, Friedrich, Negot., Colonial- und Delikatessenhandlung,\nvon Schöftland, Kronengasse 38.\nGloor-Werder, Heinrich, Zimmermann von Birt, Laurentzenvorstadt 376.\nGloor-Widmer, Heinrich, Bandweber von Oberfulm, Scheibenjachsen 315.\nGloor, Wilhelmine, Taglöhnerin von Dürrenäsch, Adelbändli 171.\nX Gonzenbach-Gonzenbach, August, Ingenieur, Stadtrath, von St. Gallen,\nRain 828.\nGood, Albertine, Part. von Wels (St. Gallen), Laurentzenthorgasse 1118.\nGottschalk, Amalie, Modistin, Rathhausgasse 44.\nGränicher-Richner, Rosa, Briesträgers Wittwe, Part., Kirchhof 162.\nGränicher-Wärtli, Jakob, Schneidermeister und reform. Siegriff, Kirch-\nplatz 162.\nGraber-Buchmüller, Otto, Färber von Seengen, Milchgasse 147.\nX Graf-Jäfry, Ernst, Pfarrer von Winterthur (Zürich), Kirchhof 169.\nGraf-Häuptli, Jakob, Taglöhner von Birrwyl, Halden 290.\nGraf-Hunkeler, Marie, Wittwe, Stellenvermittlerin, von Birrwyl, Milch-\ngasse 155.\nGraf-Lüthy, Jakob, Knecht von Rüttigen, Erlinsbacherstrasse 332.\nGraf-Tröndli, Ludwig, Bäcker und Wirth von Worblingen (Großh. Ba-\nden), Rathausgasse 18.\nGrether, Julie, Erzieherin von Tannenkirch (Großh. Baden), Rain 832.\nGrolimund-Grölli, Sigmund, Buchhandlungsangestellter von Beinwyl\n(Solothurn), vordere Vorstadt 671.\nGrütter-Graber, Friedrich, Magaziner von Seeberg (Bern), Halden 284.\nGrütter-Tenger, Gottfried, Eisenbahnfunktuere von Seeberg (Bern),\nKirchhof 80.\nGruber-Lang, Meinrad, Bahnwärter v. Schönenwerd (Soloth.), Rain 859.\nGruber-Stalder, Engelbert, Maurer von Nafferein (Tyrol), Schmied-\ngasse 635.\nGüntert, Leo, Bremser von Mumpf, obere Vorstadt 947.\nGünthard-Hauri, Marie, Wittwe, Weißnäherin von Hebigen (Zürich),\nSchachen 739.\nGuggenheim-Vollag, Julius, Kaufmann von Oberendingen, Tuchhand-\nlung, Kronengasse 34.\nX Guggisberg-Beck, Emil, Bäcker und Conditor von Bevey (Waadt), Bahn-\nhofstrasse 568 b.\nX Guggisberg-Hagenbuch, Bertha, Part. v. Belp (Bern), vordere Vorst. 902.\nGunisch-Furter, Johann, Maurer von Matsch (Tyrol), Adelbändli 173.\nGuttenTag, Isidor, Dr. Professor von Czenstochau (Polen), Bahnhof-\nstrasse 535.\nX Guyer-Blattner, August, Part. von Fehraltorf, Erlinsbacherstrasse 336.\nX Guyer-Hunkel, Oskar, Sohn, Fabrikant, Tell 456.\nAdressbuch der Stadt Aarau 1892.\n7",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7010,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2429,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:42:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p113",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p113.jpeg",
+      "bytes": 250355,
+      "sha256": "11f7d10ed29bfb01514529eb159fb17a8eabc16511693a298ad13e56bcd257ac",
+      "sha256_of": "original",
+      "working_copy": "1892_p113.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:42:47+00:00"
+  }
+}

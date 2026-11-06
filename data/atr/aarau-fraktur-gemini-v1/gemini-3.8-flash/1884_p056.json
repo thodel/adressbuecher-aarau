@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p056",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p056.jpeg",
+    "bytes": 342298,
+    "sha256": "a7afc94cb5ea263f09a692261524b27f470d61b2e45cb16f076ebdabeaf61b35",
+    "sha256_of": "original",
+    "working_copy": "1884_p056.jpeg"
+  },
+  "text": "52\tWydler.\t—\tZimmermann.\n\n*Wydler-Bäuerlin, Heinrich, Färber, Ziegelrain 718.\n*  —  -Wehrli, Heinrich, Sohn, Färber, Ziegelrain 722.\n  —  -Fischer, Hrch., Bezirkslehrer, v. Affoltern (Zürich), neues Quart. 996.\nWysard-Giger, Emil, Lagerhausdirektor, von Biel, jenseits der Aare 339.\nWyser-Müller, Alfred, Färber, v. Gösgen (Solothurn), Bachstraße 1055.\nWohler, Alois, Feilträger, von Wohlen, Metzergasse 100.\n*Wolf-Märki, Leonhard, Schlosser, Partik., hintere Vorstadt 645.\n*  —  Karl, Sohn, Architekt, hintere Vorstadt 645.\n  Wolfinger-Mayer, Max, Prof., v. Mannheim (Baden), neues Quart. 1129.\n  Wolfsgruber, Gottfr., Photograph, v. Bonn (Preußen), vor d. Haldenth. 770.\n  Wörzer-Georg, Joh., Gipser, von Tannheim (Tyrol), hintere Vorst. 647.\n  Wuffli, Mina, Diakonissin, von Niederwyl, Bahnhofstraße 1173.\n*Wullschleger-Blattner, Heinrich, Oekonom, Schachen 741.\n  —  Hans, Knecht, von Schloßrued, Schachen 741.\n  Wüest-Senn, Konrad, Bezirkslehrer, v. Uffikon (Luzern), Kronengasse 36\n  Würger-Maurer, Hrch., Gießer, v. Hausen (Grsh. Baden), Rebberg 1102.\n*Würtemberger-Kaiser, Gottlieb, Coiffeur, Kronengasse 34.\n  Würzer-Frei, Jb., Versich.-Agent, von Heiden (Appenzell), ob. Vorst. 955.\n  Wüthrich-Lüdi, Samuel, Regt. und Auswanderungs-Agent, von Eggiwyl\n      (Bern), Laurenzenthorgasse 117.\n  —  Jb., Zuckerbäcker, von Eggiwyl (Bern), Laurenzenthorgasse 118.\n  —  Verena, Haushälterin, von Eggiwyl (Bern), Laurenzenthorgasse 118.\n  —  -Stirnemann, Jakob, Knecht, von Eggiwyl (Bern), Stadthof 92c.\n  —  -Stirnemann, Friedr., Postcommis, v. Trueb (Bern), Rainstr. 834.\n\nZaugg, Daniel, Buchhalter, von Eriswyl (Bern), Casinostraße 576.\n  Zähner-Brunnhofer, Nanette, Partik., von Horn (Thurgau), Halden 246.\n  Zebert-Altorfer, G., Buchbinder v. Bauma (Zürich), Laurenzenthorg. 116.\n  Zehnder-Siebenmann, Traugott, Partik., von Birmenstorf (Aargau),\n      Laurenzenvorstadt 367.\n*  —  Gottlieb, Oberst, Waffenchef der Cavallerie, Graben 615.\n  —  -Fischer, Anna Margaritha, Wittwe, Partik., von Kölliken, hinter\n      dem Bahnhof 510.\n  —  -Kaufmann, Joh., Gemüsehändler, v. Gränichen, Färbergäßchen 124.\n  —  Katharina, Spuhlerin, von Suhr, Ziegelrain 707.\n  Zellweger-Fischer, Jak., Büchsenmacher, v. Teufen (Appenzell), Milchg. 151.\n  —  Oskar, Partik., von Hauptweil (Thurgau), im Hammer 120.\n  Zerweck, Eduard, Architekt, von Herrenberg (Würtemberg), Graben 222.\n  Ziegler-Linsi, Lina, Wittwe, Kunstmühle, von Winterthur, Stadthof 95.\n  —  -Fäsi, Otto, Apotheker, von Zuchwil (Solothurn), v. Vorstadt 894.\n  —  -Erismann, Samuel, Lagerhausarbeiter, v. Veltheim, Rohrerstr. 478.\n  —  -Hänki, Karl, Kondukteur, von Jttlingen, Ziegelrain 703.\n*Zimmerli-Nußbaum, Karoline, Obersts Wittwe, Partik., v. Vorstadt. 893.\n  —  Johann Jakob, Portier, von Niederwyl, vordere Vorstadt 900.\n  —  Johann, Holzer, von Unterentfelden, Pelzgasse 126.\n  —  -Künzli, Elise, Partik., von Niederwyl, obere Vorstadt 929.\n*Zimmermann-Siebenmann, August, Handelsgärtner, Bachstraße 1107.\n  —  Emma, Lehrerin, von Bischoffszell (Thurgau), Bachstraße 1107.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10063,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 3037,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 60.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:16:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p056",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p056.jpeg",
+      "bytes": 342298,
+      "sha256": "a7afc94cb5ea263f09a692261524b27f470d61b2e45cb16f076ebdabeaf61b35",
+      "sha256_of": "original",
+      "working_copy": "1884_p056.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:16:43+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p035.jpeg",
+    "bytes": 251463,
+    "sha256": "27f03ae1a72316e62bdb454bfb0918d4b62bd61d884e96f3315798fff511b2fc",
+    "sha256_of": "original",
+    "working_copy": "1888_p035.jpeg"
+  },
+  "text": "— 25 —\n\nHaus=\nNr.\nZollrain.\n292. Keller-Läuchli, Paul, Zuckerbäcker und Kaffeewirthschaft.\n  Keller, Geschwister Lina, Emma und Hedwig.\n  Walther, Susette, Weißnäherin, von Oberentfelden.\n293.* Firma Baumann-Streuli, in Horgen (Zürich).\n  Schäppi-Honegger, Bertha, Wittwe, von Horgen, Handlung in Seiden=\n    waaren.\n  Schmitter-Lhuiller, Adele, Fabrikants Wittwe, Part.\n  Blattner, Melanie, Oberrichters, Part.\n  Gamper-Zürcher, Hermann, Kaufmann.\n  Graf-Molfenter, Katharina, Wittwe, Part., von Ulm (Württemberg).\n  Weber, Emil, Reisender, von Hausen; Depot für Singer-Nähmaschinen.\n  Rohr, Samuel, Gerichtssubstitut.\n\nJenseits der Aare.\n294. Schmuziger-Kern, Ida, Baumeisters Wittwe, Part.\n  Gasser-Fendrich, Emmanuel, Fabrikant, von Hallau (Schaffhausen).\n  Haller-Ringier, Emilie, Fürsprechs Wittwe, von Zofingen.\n295.* Dieselbe.\n  Rychner-Grözinger, Joh. Hrch., Buchhalter.\n296.† Dieselbe. Waschhaus.\n297. a. Dreifuß, Karl und Samuel, Viehhändler, von Endingen.\n  Dreifuß-Wyler, Karl,                     \"        \"      \"\n  Dreifuß-Guggenheim, Samuel,              \"        \"      \"\n297. b. Dieselben. Wasch= und Holzhaus.\n298. a. Maurer-Peter, Emil, Gastwirth und Negotiant, zum Kreuz. Salz=\n    bütte und Spritverkauf.\n298. b.† Derselbe. Scheune und Schopf.\n298. c.† Derselbe. Kegelbahn.\n299. a. Andres-Schmid, Jakob, Schreinermeister.\n1237    † Derselbe. Holzschopf.\n299. b. Andres, Gottlieb, Fondverwalter.\n  Andres-Heinzmann, Maria, Becks Wittwe.\n1228    † Derselbe. Holzschopf.\n300. Blattner-Jäger, Dr. jur., Otto, Fürsprech; Advokaturbüreau Obere=\n    vorstadt 948.\n301.† Derselbe. Holzschopf.\n302. a. Bircher-Sasson, Andreas, Kaufmann, von Küttigen.\n  Bircher, Andreas, Part., von Küttigen.\n302. b.† Derselbe. Scheune.\n302. c.† Derselbe. Hintergebäude.\n303.* Stähelin-Herzog, Alfred, Dr. med., von Basel.\n  Ringier-Schwarz, Karl Arnold, Reg.-Rath, von Zofingen.\n1086    Stähelin-Herzog, Alfred, Dr. med., von Basel. Villa z. Kirschgarten.\n304.† Derselbe. Scheune und Remise.\n305.† Derselbe. Treibhaus.\n306.† Derselbe. Holz- und Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7207,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2053,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:26:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p035.jpeg",
+      "bytes": 251463,
+      "sha256": "27f03ae1a72316e62bdb454bfb0918d4b62bd61d884e96f3315798fff511b2fc",
+      "sha256_of": "original",
+      "working_copy": "1888_p035.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:54+00:00"
+  }
+}

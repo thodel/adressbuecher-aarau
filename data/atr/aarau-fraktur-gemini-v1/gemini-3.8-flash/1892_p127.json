@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p127",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p127.jpeg",
+    "bytes": 246218,
+    "sha256": "a98f89eaa0b1d66f87e12b1db3b2d36dfe9917d3444ca48f0891c99c2378a0fa",
+    "sha256_of": "original",
+    "working_copy": "1892_p127.jpeg"
+  },
+  "text": "Manger — Meier. 111\n\nManger, Jakob, Part. von Pisy (Bern), Bahnhofstraße 1020.\nMangold-Wolser, Susanna, Spetterin von Hemmikon (Baselland), hintere\n  Vorstadt 641.\nMarsurt, Franz Xaver, Coiffeur von Langnau (Luzern), Wohnung obere\n  Vorstadt 930, Coiffeurgeschäft Bahnhofstraße 1022.\nMarini-Buricelli, Dominiko, Südfrüchtenhändler von Pognona (Italien),\n  Schmiedgasse 634.\nMarkwalder-Gamper, Traugott, Oberstlieut., Cavallerie-Instruktor I.\n  Klasse, Bankstraße 1141.\nMaritz-Bircher, Marie, Wittwe von Burgdorf (Bern), Quincaillerie-\n  waarenhandlung, Casinostraße 1176.\nMaritz, Emil, Schriftsetzer von Burgdorf (Bern), Casinostraße 1176.\nMaritz, Julius, Sekretär „ „ „ „ „\nMaritz-Keller, Arnold, Schuhfabrikarbeiter, von Lostorf (Solothurn),\n  Milch-, Käse- und Butterhandlung, Halden 281.\nMarti-Kull, Susanna, Wittwe, Part., Pelzgasse 130.\nMarti, Lina, Damenschneiderin, Pelzgasse 130.\nMarti-Keller, Oskar, Commis von Wengi (Bern), Rathhausgasse 18.\nMarti-Siebenmann, Ida, Arbeitslehrerin, Halden 267.\nMartin-Hagenbuch, Maria, Part., Bankstraße 1141..\nMartin-Haus, Emil, Lithograph von Füllinsdorf (Baselland), Gais 487.\nMathys-Hafner, Rudolf, Gastwirth zur „Krone“ von Eriswyl (Bern),\n  Kronengasse 39.\nMathys-Matter, Wilhelm, Feilenhauer von Kölliken, Entfelderstraße 1285.\nMattenberger-Gehrig, Johann, Taglöhner von Birr, Stadthof 93.\nMattenberger-Walther, Jakob, Metzger von Birr, Oberthor 140.\nMatter, Adolf, Bäcker von Oberentfelden, Schmiedgasse 1232.\nMatter-Egli, Jakob, Part., von Kölliken, Rain 822.\nMatter-Hagnauer, Jakob, Schneidermeister von Kölliken, Adelbändli 170.\nMatter-Lüscher, Johann, Part., von Kölliken, in der Gais 479.\nMatter-Schönenberg, Samuel, Amtsschreiber von Oberentfelden, Schachen\n  1261.\nMatter-Thomann, Marie, Wittwe, Wäscherin von Kölliken, Adelbändli 170.\nMauch-Zimmerli, Rudolf, Bankabwart, von Teufenthal, Schmiedgasse 619.\nMaurer-Ernst, Philipp, Gießereiarbeiter, Milchgasse 73.\nMaurer-Lehmann, Friedrich, Heizer von Schmiedrued, h. d. Bahnhof 497.\nMaurer, Louise, Part., Rathhausgasse 29.\nMaurer-Nußberger, Samuel, Taglöhner von Schmidrued, vor dem Hal-\n  denthor 799.\nMaurer-Peter, Emil, Negotiant und Wirth zum „Kreuz“ jenseits der\n  Aare 1303 a.\nManz-Busch, Philipp, Aufseher von Ramsen (Baiern), Scheiben-\n  schachen 313.\nMeier-Bertschi, Jakob, Schlosser von Hausen, Ziegelrain 711.\nMeier-Appenzeller, Joseph, Schneidervon Wohlen, v. dem Haldenthor 1109.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7355,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2401,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.72,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:59:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p127",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p127.jpeg",
+      "bytes": 246218,
+      "sha256": "a98f89eaa0b1d66f87e12b1db3b2d36dfe9917d3444ca48f0891c99c2378a0fa",
+      "sha256_of": "original",
+      "working_copy": "1892_p127.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:59:39+00:00"
+  }
+}

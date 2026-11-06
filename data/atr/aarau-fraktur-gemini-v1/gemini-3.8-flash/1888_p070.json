@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p070",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p070.jpeg",
+    "bytes": 265712,
+    "sha256": "e1b86c2eb9e55864cb23aa206f3b5692aa9e95eb7b117a410e7ff67557362301",
+    "sha256_of": "original",
+    "working_copy": "1888_p070.jpeg"
+  },
+  "text": "— 60 —\n\nHaus-\nNr.\n\n  Gyger geb. Wildi, Rosina, Malers Wittwe, Part., von Aixheim\n      (Württemberg).\n  Sager-Klauenbösch, Jakob, Posamenter, von Gränichen.\n938.* Siebenmann, Friedrich, Bierbrauer und Mithafte. Wohnhaus.\n  Mauch-Humm, Samuel, Kaufmann, von Teufenthal. Agentur und\n      Commission in Manufakturwaaren.\n  Dr. Brunnhofer-Eggimann, Hermann, Kantonsbibliothekar.\n  Haberstich-Scheurmann, Samuel, Schulinspektor. Hauptagentur der\n      Schweiz. Rentenanstalt (Lebensversicherung) für den Kanton Aargau.\n939.* Dieselben. Wohnhaus.\n  Mauch-Humm, Samuel, Kaufmann. Waarenmagazin.\n940. Wildi, Karl, Part.\n  Meier-Matter, Jakob, Zimmermann, von Dintikon.\n  Schmid-Willi, Jos. Ant., Polizeikorporal und Fischereiagent, von Wittnau.\n  Imhof-Schmid, Karolina, Wittwe, Part.\n941. Huber-Renz, Thusnelda, Spenglers Wittwe, von Wöschnau. Spengler-\n      und Metallwaarenhandlung.\n942. Gisi-Anderegg, Emil, Malermeister.\n943†Derselbe. Werkstätte.\n944. Hemmeler-Scheibler, Verena, Hafners Wittwe. Geschirr- und\n      Glaswaarenhandlung.\n  Joos geb. Scheibler, Anna Elisabeth, Wittwe, Part., von Gallmanns-\n      weil (Baden).\n  Wernli-Siegrist, Ulrich, Part., von Thalheim.\n945†Ernst-Käser, Friedrich. Röhrenfabrikation und Strangfalzziegelei.\n946. Aeschbach-Goldenberger, Fried., Schriftsetzer, von Oltigen (Baselland).\n  Wehrli-Wehrli, Rudolf, Maschinenmeister, von Küttigen.\n947.* Derselbe. Wohnhaus.\n  Müller-Frei, Samuel, Maschinenputzer, von Unterkulm.\n  Müller, Gottlieb, Sekretär, von Unterkulm.\n  Bertschi-Jakob, Jakob, Sekretär, von Dürrenäsch.\n  Sager-Wildi, Jakob, Brenner, von Gränichen.\n948. Dr. Blattner-Jäger, Otto, Fürsprech. (Advokatur-Büreau.)\n  Niggli-Bohnenblust, Arnold, Fürsprech und Stadtschreiber.\n  Holzinger-Snell, Christina, Professors Wittwe, von Baselaugst.\n  Holzinger, Bertha, Postcommise, von Baselaugst.\n  Holzinger, Mina, Klavierlehrerin, von Baselaugst.\n  Gladbach, Philipp, Professor, von Oppenheim (Hessen).\n  Kuhn-Stadtmann, Rosa, Fabrikaufseherin, von Illnau (Zürich).\n949. Landolt-Thommen, Carl, Fabrikant. Fabrikation feiner Wagen-,\n      Bau- und Dekorationslacke. Leinölfabrik.\n  Gänslen-Landolt, Karl, Kaufmann, von Biberstein.\n950. Derselbe. Abgetragen.\n951.† id. Maler- und Spenglerwerkstätte und Stallung.\n952.† id. Magazin.\n953.† id. Magazin.\n954† id Firnissfabrik.\n1111 † id. Chemisches Laboratorium.\n1157 † id. Remise und Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7576,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2381,
+    "lines": 52,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:31:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p070",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p070.jpeg",
+      "bytes": 265712,
+      "sha256": "e1b86c2eb9e55864cb23aa206f3b5692aa9e95eb7b117a410e7ff67557362301",
+      "sha256_of": "original",
+      "working_copy": "1888_p070.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:31:15+00:00"
+  }
+}

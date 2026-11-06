@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p132",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p132.jpeg",
+    "bytes": 303723,
+    "sha256": "5d2ce6819996aba001e139292380cfdac1e73be7f527f510839e33d6163e524d",
+    "sha256_of": "original",
+    "working_copy": "1888_p132.jpeg"
+  },
+  "text": "114 Siebenmann — Stacher.\n\nSiebenmann-Sager, Anna, Wittwe, Part., Ziegelrain 707 a.\nSiebenmann, Bertha, Tochter, Part., id. id.\nSiebenmann-Schaffner, Otto, Wirth zum vis à vis, Mezgergasse 60.\nSiebenmann-Schmidt, Karl, Kaufmann, Bachstraße 1038.\nSiebenmann-Teiler, Katharina, Benedikts Wittwe, Part., Bahnhofstr. 1023.\nX Siebenmann-Siebenmann, Rudolf, Part., Bankstraße 510.\nX Siebenmann-Siebenmann, Gottlieb, Part., Gartenstraße 1166.\nSiebenmann-Springli, J. Arnold, Agent, obere Vorstadt 922.\nSiebenmann-Stirnemann, Gottlieb, Holzhändler, Schachen 737.\nSiebenmann-Steiner, Jakob, Debonom, Goldern 1001.\nSiegenthaler-Hirt, Hermann, Uhrenmacher von Trueb (Bern), Bahnhofstraße 1025.\nSiegenthaler-Hirt, Elise, Glätterin, obigen Ehefrau, Bahnhofstr. 1025.\nSiegrist-Fischer, Jakob, Mezger von Meisterschwanden, Wilchgasse 150.\nSiegrist-Heuberger Jakob, Schriftsetzer v. Eisingen, v. d. Haldenthor 803.\nSiegrist-Hunziker, Emil, Kassier im Lagerhaus, von Bözberg, Rain 874.\nSiegrist-Lindenmann, Johann, Schuhmachermeister u. Regt. von Meisterschwanden, obere Vorstadt 922.\nSiegrist-Pfliß, Anna, Haushälterin von Meisterschwanden, Ziegelrain 745.\nSiegrist-Riniker, Heinrich, Mezger, Rathausgasse 4.\nSiegrist-Schmid, Adolf, Schuhmacher von Meisterschwanden, Halde 290.\nSieb-Brechenmacher, Hans, Bauführer von Griens (Tyrol), v. d. Halden-thor 770.\nSommer, Heinrich, Part. von Elsau (Zürich), hintere Vorstadt 623.\nSommer, Joh. Ulrich v. Elsau (Zürich), „Volksküche“, hint. Vorst. 623.\nSommerhalder, Anna, Spetterin von Contenschwyl, hinterm Platz 210.\nX Sommerhalder-Buser, Jakob, Coiffeur und Zahnarzt, Pelzgasse 65.\nSommerhalder-König, Jakob, Knecht von Contenschwyl, Rain 877.\nSommerhalder-Lindenmann, Rudolf, Milchverkäufer von Schlokrueb, obere Vorstadt 955.\nSpeier-Hek, Sophie, Küfers Wittwe v. Raftatt (Baden), Hammer 185 a.\nSpengler, Bertha, Näherin, Golattenmattgasse 231 a.\nSpengler-Lienhard, Louise, Mezgers Wittwe, Bahnhofstraße 563.\nSpengler-Thönnen, Maria Magdalena, Wittwe, Part., ob. Vorstadt 1117.\nX Spinner-Billo, Johann Jakob, Camioneur v. Aengst (Zürich), Wohnung Bachstraße 1154, Bureau Bahnhofstraße 537.\nSpirgi-Hochsträker, Samuel, Knecht von Unterkulm, Rohrerstraße 463.\nSpörrl, Othmar Florian, Bremer von Wettingen, Gais 487.\nSpühler-Bühler, Fried., Bahnhofsportier von Wasterkingen (Zürich), Bahnhof 519.\nX Spühler-Frey, Johann Jakob, Verleger und Redaktor der „Margauer Nachrichten“ von Reckingen, hintere Vorstadt 622.\nSpycher, Adele, Damenschneiderin von Köniz (Bern), Rathausgasse 3.\nSpycher, Niklaus, Büchsenmacher von Köniz (Bern), Adelbündli 174.\nX Stacher-Brunner, Gustav, Seminarlehrer von Egnach (Thurgau), Graben 220.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5518,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2647,
+    "lines": 39,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 66.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:28:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p132",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p132.jpeg",
+      "bytes": 303723,
+      "sha256": "5d2ce6819996aba001e139292380cfdac1e73be7f527f510839e33d6163e524d",
+      "sha256_of": "original",
+      "working_copy": "1888_p132.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:12+00:00"
+  }
+}

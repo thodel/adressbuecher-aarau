@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p130",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p130.jpeg",
+    "bytes": 289097,
+    "sha256": "8c74d76336865b055e2e34046c876a821218f3d5abc57d06fb7af8ed7e6845a5",
+    "sha256_of": "original",
+    "working_copy": "1888_p130.jpeg"
+  },
+  "text": "112\nSchmuziger — Schweizer.\nSchmuziger-Bühler, Gottlieb, Schneidermeister und Spezereihändler,\nZiegelrain 703.\nSchmuziger-Freudiger, Traugott, Malermeister, Entfelderstraße 970.\nSchmuziger-von Grigoroff, Friedrich, Dr. med., Entfelderstraße 972.\nSchmuziger-Hochsträker, Marie, Wäscherin, Schachen 734.\n*Schmuziger-Jacot, Karl, Rentier, Milchgasse 157.\nSchmuziger, Juliana, Part., Bahnhofstraße 1173.\nSchmuziger-Kern, Jda, Baumeisters Wittwe, jenf. der Nare 294.\nSchmuziger-Roller, Daniel, Baumeister, Laurenzenvorstadt 602.\nSchmuziger-Lang, Gottlieb, Schreinermeister, Ziegelrain 708.\n*Schmuziger, Lina, Part., Laurenzenvorstadt 586.\nSchmuziger, Otto, Waagmeister, Mathhausgasse 1.\n*Schmuziger-Rüetschi, Emil, Fabrikant, Rain 834.\n*Schmuziger, Adolf, Fabrikant, Rain 834.\nSchmuziger, Verena, Fabrikarbeiterin, Milchgasse 160.\nSchmuziger, Marie, Vorgängerin, id. id.\nSchmuziger, Eufette, Fabrikarbeiterin, id. id.\nSchmuziger-Zulauf, Marie, Part. Adelbändli 86.\nSchmuziger, Emma, Damenschneiderin, id. id.\nSchneider, Adele, Diafonistin von Peterlen (Bern), Bahnhofstraße 1173.\nSchneider-Brucker, Ferdinand, Bankangestellter von Magden, Laurenzen-\nvorstadt 552.\nSchneider-Hochsträker, Samuel, Wagenwärter von Thalheim, hinter dem\nBahnhof 497.\nSchneider-Läuchli, Ulrich, Schlossermeister, Golattenmattgasse 234.\nSchneider, Anna, Glätterin, Golattenmattgasse 234.\nSchneider, Bertha, Damenschneiderin id. id.\nSchneider-Wösch, Fridolin, Obergerichtspräsident v. Herzschach, Rain 871.\nSchneider-Mattenberger, Johann Theodor, Musikdirektor von Würzburg\n(Baiern), hintere Vorstadt 638.\nSchneider-Ryser, Franz Xaver, Kondukteur v. Herzschach, Bahnhofstr. 569.\nSchneider-Wernli, Jakob, Auffeher von Thalheim, Echeibenschachen 313.\nSchoder-Hauser, Wilhelm, Fürspruch, Gerichtspräsident, Gartenstr. 1129.\nSchori-Suter, Friedrich, Mechaniker von Seedorf (Bern), Stadthof 92.\nSchultheß-Müller, Albert, Sekretär von Bübikon (Zürich), Pelzgasse 128.\nSchumacher-Suter, Arnold, Bahnarbeiter von Wangen (Solothurn), vor\ndem Halbenthor 799.\n*Schumann-Ringier, Albert, Professor v. Gotha (Sachsen), Pelzgasse 129.\nSchuppiker, Anna Maria, Spetterin von Rohrdorf, Rainstraße 833.\n*Schürch, Adolf, Fabrikant von Büren z. Hof (Bern), Conradsstraße 992.\nSchwammberger-Verschold, Johann, Taglöchner von Auenstein, Binsen-\nhof 1006.\nSchwammberger-Schmid, Jakob, Färber von Auenstein, Rain 820.\nSchwab-Dietiker, Anna, Wittwe, Damenschneiderin v. Eifen, Pelzgasse 65.\nSchwarz-Müller, Johann, Pferdewärter v. Kröppen (Baiern), Rain 1185.\nSchweizer-Gubler, Nanette, Staatsarchivars Wittwe v. DätwyI, Rain 862.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5320,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2575,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:28:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p130",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p130.jpeg",
+      "bytes": 289097,
+      "sha256": "8c74d76336865b055e2e34046c876a821218f3d5abc57d06fb7af8ed7e6845a5",
+      "sha256_of": "original",
+      "working_copy": "1888_p130.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:02+00:00"
+  }
+}

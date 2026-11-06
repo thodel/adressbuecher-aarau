@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p147",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p147.jpeg",
+    "bytes": 276692,
+    "sha256": "7b3bf69c3d2834fc36b7507cfe89e1fc5d82d60db5b8b993fae44689c0807b35",
+    "sha256_of": "original",
+    "working_copy": "1888_p147.jpeg"
+  },
+  "text": "129\n\nCement-Fabrikation.\nFleiner, Albert, Cementfabrik und Büreau,\n  Erlinsbacherstraße 327.\nZurlinden & Cie., im Scheibenschachen\n  1117 (Portlandcement).\n\nCigarren- und Tabak-Handlungen.\nFischer, Adolf, Laurenzenthorgasse 120,\n  ferner alle Spezereihandlungen.\n\nChemisch-technische Präparate.\nAngst, Gottlieb, hinter dem Platz 214.\n\nChemische Produkte.\nCuster-Fueter, Firma: D. H. Custer,\n  Mineralwasserfabrikation, Bahnhof-\n  straße 551.\nFrey & Cie., in der Telli 444.\nLandolt-Thommen, Karl, obere Vorst. 949.\nSchmidlin-Lutz, Theodor, Büreau Graben\n  204 und Fabrik v. d. Haldenthor 755.\n\nCoiffeusen.\nBurkhardt, Lina, Laurenzenthorgasse 118.\nHugi, Maria, Rathhausgasse 42.\nMürset, Marie, Kirchgasse 13.\n\nColonialwaarenhandlungen.\nFirma F. X. Bäumlin (en gros), Lauren-\n  zenvorstadt 610.\nBertschinger-Wild, hintere Vorstadt 624.\nEggen, Eduard, Laurenzenthorgasse 119 b.\nGloor-Siebenmann, J., Kronengasse 38.\nHaßler-Wanger, E., Laurenzenthorg. 349.\nHenz, Jakob, vordere Vorstadt 678.\nHerzog, Gottlieb, Zollrain 89.\nHirsbrunner, Jakob, Halden 255.\nHitz, Otto, Rain 875.\nHoch, Gustav, Metzgergasse 61.\nRohr-Hässig, Emma, Wittwe, Laurenzen-\n  thorgasse 119 a.\nSchmidt, Robert, z. Bären, Zollrain 177.\nStephani-Winkler, Aug., Rathhausg. 26.\nWaßmer, E., z. Adler, Pelzgasse 137.\nWidmer, Samuel, Bahnhofstraße 1074.\n\nCommissions- u. Agenturgeschäfte.\nBührer, Jakob, obere Vorstadt 925.\nHorlacher, Wilhelm, Graben 205.\nWyder-Brast, Albert, Rain 840.\n\n[spalte 2]\nConditoren (Confiseurs).\nGänslen, Adolf, obere Vorstadt 913.\nGuggisberg, Emil, Bahnhofstraße 569.\nHinz, Gottfried, Kronengasse 36.\nKeller, Paul, Zollrain 292.\nKunz, Ernst, vordere Vorstadt 674.\nKunz, Joh. Jakob, Confiserie en gros,\n  Bankstraße 1141.\nWüthrich, Jakob, Laurenzenthorgasse 117.\n\nConfektionsgeschäfte.\nAckermann-Buser, vordere Vorstadt 890.\nDreifuß, Adolf, Graben 352.\nFirma Gamper & Cie., Rathhausgasse 49\n  und 50.\nGerber, Gustav, vordere Vorstadt 670.\nGisi-von Arx, Holzmarkt 664.\nFirma Siebenmann, Jakob, Oberthor 226.\n\nCorsetschneiderinnen.\nFrank, Louise, Laurenzenthorgasse 1231.\nHäusler, Anna, Golattenmattgasse 231.\nSchäfer, Karolina, Milchgasse 152.\nVonfelten-Willimann, B., Kronengasse 37.\n\nChocolade-Fabrikation.\nFrey, R. & M., Laurenzenvorstadt 423.\n\nDachdecker.\nHediger, Samuel, Adelbändli 85.\nVogel, Rudolf, Entfelderstraße 1147.\nWägeler, Karl, vor dem Haldenthor 1092.\nWeber, Jakob, Erlinsbacherstraße 338.\n\nDamast- und Leinenhandlung.\nSchmidt-Hagnauer, G., Graben 202.\n\nDampfsäge.\nZschokke & Cie., Rohrerstraße 466.\n\nDelikatessenhandlungen.\nGloor-Siebenmann, Fr., Kronengasse 38.\nJäker, Joseph, hintere Vorstadt 696.\nObrist, Emil, Metzgergasse 100.\n\nDienstmänner.\nBerner, Gottlieb, Kirchhof 80.\nHässig, Joh. Conrad, Oberthor 234.\nMorgenthaler, David, Golattenmattg. 237.\n\n9\nAdreßbuch der Stadt Aarau 1888.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8730,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2792,
+    "lines": 89,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 29.97,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:40:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p147",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p147.jpeg",
+      "bytes": 276692,
+      "sha256": "7b3bf69c3d2834fc36b7507cfe89e1fc5d82d60db5b8b993fae44689c0807b35",
+      "sha256_of": "original",
+      "working_copy": "1888_p147.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:40:45+00:00"
+  }
+}

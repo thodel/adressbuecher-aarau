@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p096",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p096.jpeg",
+    "bytes": 207280,
+    "sha256": "775bd6fe01898dc74e28093754c8339403f33d7f50fafb91acba72a7e164ee72",
+    "sha256_of": "original",
+    "working_copy": "1892_p096.jpeg"
+  },
+  "text": "Alphabetisches Verzeichniß\nder\nBürger & Einwohner der Stadt Aarau.\n\nWo kein Heimatort beigesetzt ist, sind es Bürger von Aarau.\n\nAal-Dreßler, Marie, von Karlsruhe (Großherzogth. Baden), Rain 826.\nAckermann-Buser, Albert, Kaufmann von Amriswyl (Thurgau), Kleider=\n  handlung, vordere Vorstadt 890.\nAckli-Frei, Johann Baptist, Wagenwärter von Ueken, Zollrain 88.\nAdam-Heß, Anton, Part. von Allschwyl (Baselland), Pelzgasse 125.\n[handschriftlich: X] Adam-Stephani, Hedwig, Fabrikants Wittwe von Allschwyl (Baselland),\n  Bachstraße 1113.\nAdler-Andres, Johann Baptist, Knecht von Flünnau (Württemberg),\n  Weinberg 321 b.\nAdrion-Stauß, Andreas, Hafnergehilfe von Alpirsbach (Württemberg),\n  Halden 274.\nAeschbach, Friedrich, Mechaniker von Reinach, in der Gais 1105.\nAeschbach, Friedrich, Schriftsetzer von Oltingen (Baselland), obere Vor=\n  stadt 946.\nAeschbach-Steiner, Rudolf, Steinhauer von Hendschiken, Kirchgasse 10.\nAeschmann, Johann, Konditor (Chocoladenfabrik) von Altstätten (Zürich),\n  obere Vorstadt 929.\nAkeret, Jakob, Krankenwärter von Nußbaumen, Graben 218.\nAmmann, Gottfried, Commis von Thun (Bern), Rain 821.\nAmmann-Gränacher, Rudolf, Lithograph von Roggwyl (Bern) Metzger=\n  gasse 107.\n[handschriftlich: X] Ammann-Strähl, Robert, Hochbaumeister von Menziken, Entfelderstr. 970.\nAmmann-Wälchli, Johann, Wirth von Madiswyl (Bern), Schachen 734.\nAmmann, Marie, Ladentochter von Ryken, Bahnhofstraße 560.\nAmsler-Büchli, Marie, Privatin von Bözen, Halden 272.\nAmsler, Elise, Fabrikarbeiterin von Bözen, Golattenmattgasse 233.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6120,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1532,
+    "lines": 30,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:55:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p096",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p096.jpeg",
+      "bytes": 207280,
+      "sha256": "775bd6fe01898dc74e28093754c8339403f33d7f50fafb91acba72a7e164ee72",
+      "sha256_of": "original",
+      "working_copy": "1892_p096.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:55:23+00:00"
+  }
+}

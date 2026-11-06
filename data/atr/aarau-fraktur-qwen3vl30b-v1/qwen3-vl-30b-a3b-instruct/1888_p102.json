@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p102",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p102.jpeg",
+    "bytes": 277821,
+    "sha256": "84f23591602917e2acf63eb8a0eb46e42ec4803fa3d9ea81fe43d233e68ddb01",
+    "sha256_of": "original",
+    "working_copy": "1888_p102.jpeg"
+  },
+  "text": "84\nFaller — Fisch.\n\nFaller-Faller, Elise Louise, Wittwe von Reitenbuch (Großh. Baden), Firma\nGebrüder Faller, Eisen- und Quincaillieriewarenhandlung, Kronen-\ngasse 41.\nFaller, Karl Friedrich, Sohn, Kaufmann von Reitenbuch (Großh. Ba-\nden), Kronengasse 41.\nFasler, Maria, Haushälterin von Densbüren, hinter dem Platz 214.\nFasler-Wehrli, Johann, Gemüsehändler von Densbüren, Laurenzenvor-\nstadt 1114.\nFeer, Adele, Rentiere, Laurenzenvorstadt 602.\nFeer-Herzog, Karolina, Wittwe, Rentiere, Bahnhofstraße 553.\nFeer, Karl, Bahnhofstraße 553.\nFeer, James, id. id.\nFeer, Sophie, id. id.\nFecht-Ruh, Julius, von Weingangcn (Großh. Baden), Weinhändlung,\nvor dem Halbenthor 758.\nFehlmann-Baumann, Salomon, gew. Bahnwärter von Mönthal, Golat-\ntenmattgasse 231.\nFehlmann-Blattner, Rudolf, Auffeher, Bahnhofstraße 648.\nFehlmann-Blattner, Anna, Mercerie- u. Lingeriegeschäft, Bahnhofstr. 648.\nFehlmann-Brack, Kaspar, Bäcker, Rathausgasse 45.\nFehlmann-Buh, Johann, Gärtner von Seon, Milchgasse 161.\nFehlmann-Hinden, Margaretha, Küferin, Taglöhnerin von Remigen,\nHalden 273.\nFehlmann-Holzreuter, Christoph, Taglöhner von Seon, Milchgasse 75.\nFehlmann-Müller, Johann Jakob, Pächter von Mönthal, Sommerwirth-\nschaft, Roggenhausen 851.\nFehlmann-Schmidli, Johann Jakob, Landwirth von Mönthal, Roggen-\nhausen 851.\nFehlmann-Sandmeier, Jakob, Dachdecker und Kaminfeger von Menziken,\nHalden 259.\nFehlmann-Winz, Johann Friedrich, Güterexpedient von Unterbötzberg,\nZollrain 89.\nFelber-Gruber, Georg, Gasarbeiter von Oberbötzberg, Hammer 188.\nFelber, Marie, Damen Schneiderin von Oberbötzberg, Hammer 188.\nFelber, Johann, Postkontofteur von Oberbötzberg, Igelweid 632.\nFenner-Hosig, Johann, Güterexpedient von Küknacht (Zürich), vor dem\nHalbenthor 784.\nFerrazzi-Lüscher, Giuseppe, Maurer von Cardano (Italien), vor dem\nHalbenthor 809.\nFeuvrier-Hunziker, Elise, Wittwe von Chagemont (Frankreich), Zollrain 88.\nFisch-Dürr, Samuel, Schuhmachermeister, Halden 271.\nFisch, Maria, Fabrikarbeiterin, Halden 271.\nFisch, Elise Karoline, Metzgers, Näherin, Pelzgasse 133.\nFisch, Josepchina, Part., Ziegelrain 703.\nFisch, Karolina, Arzts, Bachstraße 1107.\nFisch, Mina, Kleinkinderlehrerin, Halden 264.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4683,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2172,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:25:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p102",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p102.jpeg",
+      "bytes": 277821,
+      "sha256": "84f23591602917e2acf63eb8a0eb46e42ec4803fa3d9ea81fe43d233e68ddb01",
+      "sha256_of": "original",
+      "working_copy": "1888_p102.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:37+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p062",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p062.jpeg",
+    "bytes": 233252,
+    "sha256": "f1055b77f8cba4d7bbf405c9676c15735fc1f7fa126edc65d4651ea46318fd71",
+    "sha256_of": "original",
+    "working_copy": "1892_p062.jpeg"
+  },
+  "text": "— 54 —\nHaus-\nNr.\n759. † Hauri-Graber, Rudolf, Fuhrmann. Scheune.\n760. Abgetragen; an dessen Platz\n1299 * Schatzmann-Häring, Jakob, Saalbauabwart, von Windisch.\n  Schatzmann-Häring, Elisabeth, Leinen- und Wollwascherei, von Windisch.\n  Meier-Fischer, Joh. Baptist, Bankangestellter, von Gebenstorf.\n  Hürzeler-Widmer, Maria, Haushälterin, von Seon.\n  Dietiker-Häfliger, Hans, Briefträger, von Thalheim.\n1311 † Derselbe. Schopf.\n761. † Haßler-Ernst, August, Färber. Magazin.\n762. Häusler-Schmid, Angelus, Maler, von Schwaderloch.\n  Schmidt-Jakober, Hermann, Polizeidiener, von Zuzgen.\n763. † Gamper-Wildi, Adolf, Metzger. Scheune.\n764. † Haßler-Ernst, August, Färber. Farbgebäude.\n765. † Wildi-Matt, Jakob, Tapezierer, von Schafisheim. Gartenhaus.\n766. † Fischer, Thomas, Bierbrauer. Magazin.\n767. Hemmeler-Fecht, Gottlieb, Zimmermann.\n  Ziegler-Linsi, Lina, Wittwe, Part., von Winterthur.\n  Suter geb. Fehlmann, Anna, Taglöhnerin, von Gränichen.\n768. * Derselbe. Wohngebäude mit Werkstätte.\n  Biberstein-Spicher, Eugen, Spengler, von Bözingen (Bern).\n769. * Schmidlin, Elise, Part., Kleinkinderschule.\n  Schaub, Marie, Lehrerin, von Eptingen (Baselland).\n  Frei, Maria, Spetterin, von Densbüren.\n770. * Wolfsgruber-Küenze, Gottfried, Photograph, von Koblenz (Preußen).\n  Wolf-Allemann, Karl Friedrich, Adjunkt des Hochbaumeisters.\n771. † Derselbe. Photographisches Atelier.\n772. * Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\n  Fricker-Amsler, Joseph, Commis, von Oberhof.\n  Lauber-Molfender, Abraham, Prediger, von Frutigen (Bern).\n  Studer-Siegrist, Konrad, Privat., von Rickenbach.\n773. * Derselbe. Anbau.\n  Häusler, Jakob, römisch-kathol. Siegrist, von Schwaderloch.\n  Hunn-Fehlmann, Verena, Taglöhnerin, von Egliswyl.\n  Brändli-Müller, Elisabeth, „ „ Unterbözberg.\n774. † Derselbe. Holzmagazin.\n775. † „ Scheune.\n776. † „ Holzmagazin.\n777. Rey-Ringger, Jakob, Lehrer der Bezirksschule.\n778. † Derselbe. Holzhaus.\n779. * Wehrli-Dubs, Johann, Sohn, Gärtner, von Küttigen. (Gartenhaus).\n780. Abgetragen; an dessen Platz\n1272 Wehrli-Walser, Rosina, Gärtners Frau, von Küttigen.\n  Wehrli-Dubs, Johann, Sohn, Gärtner, von Küttigen.\n781. Abgetragen; an dessen Platz\n1084 * Dieselbe. Wohnhaus.\n  Neeser-Hilfiker, Samuel, Taglöhner, von Schloßrued.\n  Hausmann-Rüetschi, Gottlieb, Wagenwärter, von Schafisheim.\n  Steiner-Haller, Johann, Taglöhner, von Schmiedrued.\n\n[spalte 2]\n1108\n1143\n1144\n1182\n1092\n1093\n1306\n1273\n1089\n1090\n1312\n1220\n1094\n1341\n1337",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9885,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2448,
+    "lines": 67,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.91,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:52:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p062",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p062.jpeg",
+      "bytes": 233252,
+      "sha256": "f1055b77f8cba4d7bbf405c9676c15735fc1f7fa126edc65d4651ea46318fd71",
+      "sha256_of": "original",
+      "working_copy": "1892_p062.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:52:03+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p044",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p044.jpeg",
+    "bytes": 322194,
+    "sha256": "c1843b395d54f616e9d9ac8220d3b55bae15c35ee57fc0b7166f1f81c0db4699",
+    "sha256_of": "original",
+    "working_copy": "1884_p044.jpeg"
+  },
+  "text": "40 Rohr. — Rüetschi.\n\n  Rohr, Samuel, Gerichtssubstitut, von Hunzenschwyl, Pelzgasse 63.\n* — =Hochstrasser, Rudolf, Schmied, Rainstraße 883.\n* — =Schindler, Samuel, Gastwirth, vordere Vorstadt 667.\n  — =Holliger, Johann, Wirth, von Buchs, Holzmarktplatz 662.\n  — =Wehrli, Daniel, Taglöhner, von Hunzenschwyl, Rathhausgasse 4.\n  — =Blauenstein, Heinrich, Holzspalter, v. Hunzenschwyl, Ziegelrain 745.\n* — =Härdin, Maria, Regts. Wittwe, Partik., Graben 205.\n* — =Häßig, Emma, Wittwe, Colonialwaarenhdlg., Laurenzenthorgasse 119a.\n  Roth-Schmuziger, Alfred, Oberstlieutenant, von Bühler (Appenzell a. Rh.),\n      Art.-Schießinstruktor, Laurenzenvorstadt 401.\n  — =Kyburz, Johann, Aufseher, von Obererlinsbach, im Weinberg 337.\n  — Friedrich, Schuhmacher, von Mühlethal, Rainstraße 884.\n  — =Widmer, Verena, Spetterin, von Mühlethal, Rainstraße 884.\n  — =Zaugg, Fr., Kanzlist, v. Oberlangenegg (Bern), Scheibenschachen 312.\n  — =Bürgi, Anna, Partik., von Erlinsbach, Igelweid 633.\n  — =Friedli, Wilhelm, Posamenter, von Zezwyl, Halden 254.\n*Rothpletz-Ritz, Karl, Hochbaumeister, Rainstraße 869.\n* — =Brütel, Alfred, Bankdirektor, Bahnhofstraße 511.\n* — Emil, Verwalter, obere Vorstadt 682.\n* — =Waldkirch, Julius, Malermeister, neues Quartier 990.\n* — =Haßler, Rudolf, Metzger, Milchgasse 150.\n* — =Roth, Gottlieb, Schreiner, Halden 276.\n* — =Hunziker, Gottlieb, Schreiner, Rainstraße 880.\n* — Karl, Architekt, Bahnhofstraße 568.\n* — Friedrich, Kaufmann, Bahnhofstraße 561.\n* — Anna, Bettmacherin, Stadthof 93.\n* — Heinrich, Buchbinder, Stadthof 92c.\n* — =Imhof, Louise, Stadtraths Wittwe, im Weinberg 336.\n* — =Richner, Elise, Bahnhofinspektors Wittwe, Rainstraße 875.\n* — August, Direktionssekretär, Rainstraße 875.\n* — =Bürgi, Maria, Pfarrers Wittwe, in der Telli 454.\n  Rothwyler-Hupfer, Anton, Büchsenmacher, v. Dürrheim (Grsh. Baden),\n      Hammer 190.\n  Rösch-Riede, Friedr., Fabrikarbeiter, v. Wülflingen (Zürich), Halden 254.\n  Ruch-Schälkli, Alfr., Schuhmacher, von Mitlödi (Glarus), Milchgasse 147.\n  Rudolf, Maria Elisabeth, Privatin, von Zurzach, Bahnhofstraße 515.\n  Ruef-Joho, Johann, Taglöhner, von Rekingen, Halden 249.\n  — =Zweifel, Wilhelm, Schlosser, von Rekingen, Halden 290.\n  Ruefli, Johann, Taglöhner, von Seengen, Milchgasse 153.\n  Rutishauser-Schrämli, Julius, Waschermeister, von Brüschweil (Thurgau),\n      Milchgasse 152.\n  Rüedi-Wärtli, Johann, Staatsweibel, von Sulz, Milchgasse 79.\n  Rüegg-Stephani, Jakob, Postkondukteur, v. Balmen (Zürich), Milchg. 145.\n  Rüegger-Gysling, Otto, Malermstr., v. Wetzikon (Zürich), Ziegelrain 746.\n  — =Holliger, Marie, Wittwe, Taglöhn., v. Niederwyl, vor d. Haldenth. 802.\n*Rüetschi-Mattli, Gottfr., Buchbinder u. Obergerichtsweibel, Adelbändli 81.\n* — =Wenger, Gottfried, Milchverkäufer, Adelbändli 81.\n* — =Heuberger, Ludwig, Kanzleisekretär, Schloßplatz 1183.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9991,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2824,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:14:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p044",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p044.jpeg",
+      "bytes": 322194,
+      "sha256": "c1843b395d54f616e9d9ac8220d3b55bae15c35ee57fc0b7166f1f81c0db4699",
+      "sha256_of": "original",
+      "working_copy": "1884_p044.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:14:45+00:00"
+  }
+}

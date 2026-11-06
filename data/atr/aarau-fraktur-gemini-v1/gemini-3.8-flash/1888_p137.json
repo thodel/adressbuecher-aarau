@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p137",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p137.jpeg",
+    "bytes": 295860,
+    "sha256": "44b595aac1a5f94aeefd8e454848ab7728733593fbd757fbf10aaa1420e844ff",
+    "sha256_of": "original",
+    "working_copy": "1888_p137.jpeg"
+  },
+  "text": "Wälti — Weber. 119\n\nWälti-Diener, Emil, Bankangestellter von Zurzach, Kronengasse 40.\nWärtli-Ernst, August, Buchbinder, Kirchhof 166.\nWärtli-Nußbaum, Margaretha, Part., Milchgasse 79.\n*Walder-Kunz, Karl, Bankbuchhalter von Zürich, Bachstraße 1156.\nWaldmeier-Gautschi, Alfred, Kaufmann von Möhlin, Kronengasse 33.\n*Waldmeier-Rothpletz, Bertha, Wittwe, Part. von Hellikon, vordere Vor=\n  stadt 682.\nWalser-Bamberger, Marie, Zettlerin von Rottweil (Baden), Halden 260 b.\nWalter-Schmuziger, August, Nähmaschinenhändler von Neumühl (Baden),\n  Pelzgasse 125.\n*Walther-Dubs, Hans, Oekonom, Bachstraße 1041.\nWalther-Matter, Jakob, Oekonom, Schachen 739.\n*Walther-Schatzmann, Gottlieb, Oekonom, Rain 856.\nWalther, Susette, Weißnäherin von Oberentfelden, Zollrain 292.\nWalti-Müller, Jakob, Milchverkäufer von Dürrenäsch, Rain 825.\nWalti-Hächler, Samuel, Taglöhner von Dürrenäsch, Stadthof 92 a.\nWalti-Zimmermann, Rudolf, Knecht, id. id. id.\nWalti-Zobrist, Johann, Kartenschleifer von Dürrenäsch, Milchgasse 143.\nWandfluh-Sommer, Joh., Schuhmacher v. Frutigen (Bern), Hammer 190.\nWanger-Häusermann, Gottlieb, Buchbinder, Kirchhof 164.\nWanger, Henriete, Milchgasse 147.\nWanger, Lisette, Näherin, Adelbändli 174.\nWanger, Louise, Part., Ziegelrain 713.\n*Wanger-Siebenmann, Hermann, Part., Bahnhofstraße 1020.\n*Wanger-Wanger, Gustav, Kassier der Aarg. Ersparnißkasse, Laurenzen=\n  vorstadt 394.\nWaßmer-Boß, Joseph, Bettwaarenhändler von Mellingen, Metzgergasse 91.\nWaßmer-Iberg, Gallus, Schneidermeister von Jungholz (Baden), Pelz=\n  gasse 133.\n*Waßmer-Kummler, Emil, Kaufmann, Spezereihandlung zum „Adler“,\n  Pelzgasse 137.\nWaßmer-Ott, Fidel, Schneider von Jungholz (Baden), vor dem Halden=\n  thor 802.\n*Weber-Beck, Gustav, Bezirksarzt von Menziken, Graben 618.\nWeber-Buchmann, Magdalena, Wittwe von Oberflachs, Rathhausgasse 3.\nWeber, Emil, Reisender (Nähmaschinendepot) von Hausen, Zollrain 293.\nWeber-Gloor, Jakob, Dachdecker von Menziken, Erlinsbacherstraße 338.\n*Weber-Hegnauer, Hermann, Speisewirth v. Menziken, Bahnhofstr. 568 a.\nWeber-Käser, Jakob, Bankabwart von Oberflachs, Schachen 741.\n*Weber-Lüscher, Otto, Weinhändler von Menziken, Rathhausgasse 19.\nWeber-Schäfer, Friedrich, Spenglermeister von Vordemwald, Wohnung\n  Milchgasse 155 und Werkstätte, Ziegelrain 707.\nWeber, Stephan, Sekretär von Sulz, Rain 829.\nWeber, Regina, Par., id. id. id.\nWeber-Suter, Johann, Gärtner von Oberflachs, Laurenzenvorstadt 376.\nWeber-Weber, Wilhelm, Milchverkäufer v. Menziken, Erlinsbacherstr. 337.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8077,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2482,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.51,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:39:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p137",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p137.jpeg",
+      "bytes": 295860,
+      "sha256": "44b595aac1a5f94aeefd8e454848ab7728733593fbd757fbf10aaa1420e844ff",
+      "sha256_of": "original",
+      "working_copy": "1888_p137.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:18+00:00"
+  }
+}

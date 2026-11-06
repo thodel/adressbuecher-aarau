@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p017",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p017.jpeg",
+    "bytes": 215822,
+    "sha256": "ef9f755b65c46844fa96b3d201c709905dd5fcb956f62782497811804832077a",
+    "sha256_of": "original",
+    "working_copy": "1892_p017.jpeg"
+  },
+  "text": "— 9 —\nHaus-\nNr.\n92. e. *Rothpletz-Siebenmann, Maria, Elisabeth, Schreiners Wittwe.\n  Frey-Amsler, Bernhard Fried., Küfer, von Auenstein.\n  Ging-Hug, August, Schmied.\n92. f. †Gundel-Waßmer, Joh. Jakob, Bierbrauer, von Langenaltheim.\n  Magazin.\n93. * Rothpletz-Siebenmann, Maria, Elisabeth, Schreiners, Wittwe.\n  Bächli-Holliger, Gottlieb, Schuhmacher, von Buchs.\n  Mattenberger-Gehrig, Johann, Taglöhner, von Birr.\n94.  Boßard, Geschwister, von Effingen.\n  Boßard, Maria, Wagenputzerin, von Effingen.\n  Walti-Zimmermann, Rosa, Wittwe, Taglöhnerin, von Dürrenäsch.\n95.  Meili-Sulzer, Emma, Wittwe, von Elgg, Handelsmüllerei.\n  Kaufmann, Julius, Commis, von Luzern.\n96. † Dieselbe. Kunstmühle, Transmission.\n97.  Abgetragen. (Ryniker, Fr., Bierbrauer.)\n98  † Abgetragen an dessen Platz\n1256\n  † Meili-Sulzer, Emma, Wittwe, von Elgg. (Stallung.)\n\nLaurenzenthorgasse.\n\n99.  An dessen Platz\n1231\n  * Ryniker-Groß, Fried, Bierbrauer. Eiskeller.\n  Frey-Vetterli, Achilles, Coiffeur, von Densbüren.\n\nMetzgergasse.\n\n100.  Hefti-Hunziker, Joh. Peter, Schneidermeister, von Schwanden\n  (Glarus). Tuch- und Kleiderhandlung.\n  Steger-Bolliger, Melchior, von Ettiswyl (Luzern). Bäckerei.\n  Bertschinger-Aeschbach, Maria Elise, Wittwe, Part., von Lenzburg.\n  Rochholz-Schröder, Ernst Ludwig, Dr. Prof., von Ansbach (Bayern).\n  Rochholz, Mina, Musiklehrerin, von Ansbach (Bayern).\n  Hunziker-Suter, Maria, Wittwe, von Kirchleerau.\n  Wernli-Wullschleger, Maria, Holzers Wittwe, von Thalheim.\n101. * Derselbe.\n  Cantu-Hübscher, Joseph, Maurermeister, von Vico-Morcote (Tessin).\n  Mäder, Henriette, Modistin, von Köln.\n  Rieber-Thoma, Friedolin, Schneider, von Winterlingen (Württemberg).\n102.  Ryniker-Groß, Friedrich, Bierbrauer.\n  Ryniker, Karl, Sohn, Bierbrauer.\n  Ryniker, Arnold, Sohn, Commis.\n103. * Derselbe.\n  Ryniker-Beck, Nanette, Wittwe, Part.\n  Schlatter, August, Part.\n104. † Derselbe. Brauereigebäude.\n1066.\n  † Derselbe. Kühlschiff.\n105.  Pauli, Susette, Privatin, von Villnachern.\n  Scheurmann, Emilie, Privatin.\n  Hering-Leuenberg, Lisette, von Aristorf (Möbel- und Bettwaaren-\n  handlung).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7915,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2088,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:46:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p017",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p017.jpeg",
+      "bytes": 215822,
+      "sha256": "ef9f755b65c46844fa96b3d201c709905dd5fcb956f62782497811804832077a",
+      "sha256_of": "original",
+      "working_copy": "1892_p017.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:27+00:00"
+  }
+}

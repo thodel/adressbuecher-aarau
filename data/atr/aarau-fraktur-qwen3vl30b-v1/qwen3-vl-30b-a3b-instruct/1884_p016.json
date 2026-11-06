@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p016",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p016.jpeg",
+    "bytes": 327765,
+    "sha256": "a69f8809553b16775c9e59a9cd9ad898be86219967d9f0c88b7e48f82efed836",
+    "sha256_of": "original",
+    "working_copy": "1884_p016.jpeg"
+  },
+  "text": "12\nAndres. — Bächli.\n*Andres-Baumann, Salome, Kupferschmieds Wittwe, Milchgasse 148.\n* — =Bircher, Maria, Milch- und Käse-Handlung, Milchgasse 148.\n* — =Walter, Verena, Metzgers Wittwe, Milchgasse 154.\n* — Emma, Fabrikarbeiterin, Ziegelrain 704.\nAngst-Häfig, Gottlieb, Negt., von Eglisau, Bibel-Depot und Niederlage technischer und chemischer Produkte, hinter dem Platz 214.\nAppenzeller-Meier, W., Weißnäherin, v. Hönig (Zürich), Golattenmattg.233.\nArber, Hans Jakob, Pofamenter, von Gränichen, Rainstraße 826.\n*Bachmann=Minfer, Johann, Küfer, Milchgasse 155.\n— =Vogelsang, Euf., Zeughausarbeiter's Wittwe, v. Bottenwyl, Halben 240.\n— Marie, Fabrikarbeiterin, von Bottenwyl, Halben 240.\n— Elise, Fabrikarbeiterin, von Bottenwyl, Halben 240.\n— Müller, Rudolf, Maurer, von Bottenwyl, Halben 280b.\n— Kaspar, Dachdecker, von Bottenwyl, Rainstraße 884.\n— =Rickart, Bernhard, Schneider, v. Bottenwyl, vor dem Halbenthof 779.\nBader-Seiler, Emil, Schuhmacher, v. Holdebank (Soloth.), Pelzgasse 132.\nBalbeschwiler, Mathilde, Partik., von Laufenburg, in der Gais 487.\nBaldinger-Wirz, Josephtine, Laden dienerin, von Baden, Oberthor 139.\n*Bally-Arndt, Eugen, Fabrikant, Laurenzenvorstadt 353.\n* — =Schmitter, Adeline, Fabrikants Wittwe, in der Gais 488.\n* — =Scholer, Elisabeth, Wittwe, Partik., Bahnhofstraße 559.\nBalmer-Grieder, Anna, Privatin, v. Laufen (Baselland), obere Vorstadt 929.\n— Karl, Bankangestellter, von Laufen (Baselland), obere Vorstadt 929.\nBamberger-Schwarz, Anna, Wittwe, Taglöhnervin, v. Siglistorf, Halben 260b.\nBart-Schmid, Johann, Postcommis, von Altenburg, neues Quartier 1195.\n*Bauhofer-Keller, Anna, Kaufmanns Wittwe, Partik., jenseits der Aare 342.\nBauhofer-Müller, Samuel, Thierarzt, von Reinach, obere Vorstadt 930.\nBaumann-Müller, Bernhard, Taglöhner, von Ober-Muhen, Stadthof 92a.\n* — =Hennmann, Karl, Kaufmann, Weinhandlung, Laurenzenvorstadt 390.\n— =Baumann, Heinrich, Wirth z. Freihof, v. Stilli, Laurenzenvorst. 390.\n* — Eugen, Kaufmann, Weinhandlung, obere Vorstadt 958.\n— =Müller, Gottlieb, Buchbinder, von Lenzburg, Luftfeuerwerk- und Schreibmaterialien-Handlung, Pelzgasse 135.\n* — =Gifi, Heinrich, Weinhandlung, obere Vorstadt 958.\n— =Eberhard, Hermann, Zugführer, von Muhen, Casinostraße 1176.\n— =Käser, Heinrich, Polizeifeldweibel und Gefangenwart, von Villigen, hintere Vorstadt 690.\n— Josef, Part., von Niederlenz, im Hammer 184.\n— =Frei, Melchior, Schneider, von Ut telwyl, Stadthof 92c.\n— =Wälti, Kaspar, Milchverkäufer, von Bottenwyl, Kaffee wirthschaft, Casinostraße 660.\n* — =Gautschi, Samuel, Hufschmied, Zgelweid 625.\n* — Marie, Damenschneiderin, Zgelweid 625.\n— Kaufmann, Kaspar, Schriftfekker, von Oberentfelsen, in der Telli 455.\n— Zürcher, Ch. Alex., Puffeher, von Zürich, Weinberg 335.\nBähler, Joh. Ch., Dr., Professor, von Matt (Glarus), neues Quartier 970.\nBächli-Merz, Jakob, Gaslaternenanzünder, von Buchs, Milchgasse 153.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6250,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2873,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 62.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:10:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p016",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p016.jpeg",
+      "bytes": 327765,
+      "sha256": "a69f8809553b16775c9e59a9cd9ad898be86219967d9f0c88b7e48f82efed836",
+      "sha256_of": "original",
+      "working_copy": "1884_p016.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:10:23+00:00"
+  }
+}

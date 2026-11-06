@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p163",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p163.jpeg",
+    "bytes": 235000,
+    "sha256": "2f696d0bee3098cd489133156c0cad596135d5c2ac337fe46409b88f8a0f03bf",
+    "sha256_of": "original",
+    "working_copy": "1892_p163.jpeg"
+  },
+  "text": "Lenzi, Jakob, vordere Vorstadt 675.\nSteffen, Albert, Bahnhofstrasse 1074.\n\nKunstmaler.\nDollefschel, Josef, Emil, Weinberg 1102.\nRothpley, Julius, Conradstrasse 990.\nSoha, Anton, hinter dem Bahnhof 503.\n\nKupferschmiede.\nBühler, Gottlieb, Schmiedgasse 632.\nHäfeler, Paul, Belzgasse 134.\nHäfzig, Friedrich, Ziegelrain 705.\nDieselben handeln auch mit Kupferschmiedwaaren.\n\nKuranstalten.\nWächter, Hans, zum Alpenzeiger 317.\n\nRüfer.\nBachmann, Johann, Milchgasse 159.\nElsasser, Gottlieb, Halden 290.\nSimmen, Jakob, hintere Vorstadt 693.\nWidmer, Hermann, Laurengenthorgr. 117.\n\nKürschner.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vord. Vorst. 893.\n\nLackfabrikanten.\nFirma Landolt & Cie., obere Vorst. 949.\n\nLagerungs-, Speditions-, Kommis-\nsions- u. Belehnungsgeschäfte.\nLagerhäuser der Central schweiz in Aarau\nund Olten, mit eidg. Niederlagshaus\nin Aarau. Laurenvorstadt 545.\nDirektor: Ringier, Adolf.\nBureauchef: Meyer, Joseph.\nBeamter des Niederlagshauses: Siegrist,\nEmil.\n\nLederhandlungen.\nHäfeler, Hans, Bahnhofstrasse 656.\nStiebenmann, Gottlieb, Rain 838.\n\nLehrer.\nA. Professoren n. Lehrer a. d. Kantonschule.\nDr. Bühler, für Geschichte sowie einen\nTheil des Deutschen a. d. Gewerbe-\nschule.\nBurgmeier, für Gesang.\n\nDr. Frey, Stellvertreter des Rektors,\nfür deutsche Sprache und Litteratur\nam Gymnasium und den beiden\nobern Klassen der Gewerbeschule.\nDr. Fröhlich, für alte Sprachen.\nDr. Ganter, für Mathematik am Gym-\nnasium und an der Gewerbeschule.\nDr. Geßner, für alte Sprachen.\nGladbach, für technisches Zeichnen, deskrip-\ntive und praktische Geometrie und\nfür Geographie am Gymnasium und\nan der Gewerbeschule.\nGunzifer, für Französisch am Gymnasium\nund Gewerbeschule.\nDr. Riechti, für Chemie.\nMaier, für Französisch an der Gewerbe-\nschule und für Italienisch am Gym-\nnasium.\nDr. Mühlberg, für Naturgeschichte und\nAushilfe in Mathematik am Gym-\nnasium.\nRennhart, für Englisch am Gymnasium\nund an der Gewerbeschule, für Sta-\ntistik an der Gewerbeschule.\nRoth, Oberst, für Militärunterricht der\nArtillerie.\nDr. Tuchschmid, Rektor, für Mathematik\nan der Gewerbeschule und Physik\nam Gymnasium und a. d. Gewerbe-\nschule.\nWässler, für Turnunterricht.\nWernli, Pfarrer, für Hebräisch.\nWidmer, Pfarrer in Grünichen, für Re-\nligionsunterricht.\nDr. Winteler, für Geschichte am Gym-\nnasium und alte Sprachen.\nWolfsinger, für Kunstzeichnen.\nZimmermann, für Schreiben und Steno-\ngraphie.\n\nAn der Musikschule.\nRödelberger, Direktor, für Violine und\nPianoforte.\nSchneider, für Violine und Pianoforte.\n\nB. Lehrerinnenfeminar.\nBurgmeier, J., für den Gesangunterricht.\nFliihmann, Elisabeth, für Geschichte,\nGeographie, Italienisch und Turnen.\nJäggi, Wilhelmine, für französische und\nenglische Sprache und Litteratur.\nRutschera für Klavier.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6878,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2745,
+    "lines": 91,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.022,
+    "mean_line_chars": 29.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:48:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p163",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p163.jpeg",
+      "bytes": 235000,
+      "sha256": "2f696d0bee3098cd489133156c0cad596135d5c2ac337fe46409b88f8a0f03bf",
+      "sha256_of": "original",
+      "working_copy": "1892_p163.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:20+00:00"
+  }
+}

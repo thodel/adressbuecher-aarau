@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p062",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p062.jpeg",
+    "bytes": 233252,
+    "sha256": "f1055b77f8cba4d7bbf405c9676c15735fc1f7fa126edc65d4651ea46318fd71",
+    "sha256_of": "original",
+    "working_copy": "1892_p062.jpeg"
+  },
+  "text": "Haus-\nNr.\n759. † Hauri-Graber, Rudolf, Fuhrmann. Scheune.\n760. Abgetragen; an dessen Platz\n1299  * Schazmann-Häring, Jakob, Saalbauabwart, von Windisch.\n     Schazmann-Häring, Elisabeth, Leinen- und Wollwascherei, von Windisch.\n     Meier-Fischer, Joh. Baptist, Bankangestellter, von Gebenstorf.\n     Hürzeler-Widmer, Maria, Haushälterin, von Zeon.\n     Dietiker-Hüssiger, Hans, Briefträger, von Thalheim.\n1311  † Derfelbe. Schopf.\n761. † Haßler-Ernst, August, Färber. Magazin.\n762. Häusler-Schmid, Angelus, Maler, von Schwaderloch.\n     Schmidt-Jakober, Hermann, Polizeidiener, von Zuzgen.\n763. † Camper-Wildi, Adolf, Metzger. Scheune.\n764. † Haßler-Ernst, August, Färber. Farbgebäude.\n765. † Wildi-Matt, Jakob, Tapezierer, von Schafisheim. Gartenhaus.\n766. † Fischer, Thomas, Bierbrauer. Magazin.\n767. Hemmeler-Fecht, Gottlieb, Zimmermann.\n     Ziegler-Linsi, Lina, Wittwe, Part., von Winterthur.\n     Suter geb. Fehlmann, Anna, Taglöhnerin, von Gränichen.\n768. * Derfelbe. Wohngebäude mit Werkstätte.\n769. * Schmidlin, Elise, Part., Kleinfinderschule.\n     Schaub, Marie, Lehrerin, von Eptingen (Baselland).\n     Frei, Maria, Spetterin, von Densbüren.\n770. * Wolfsgruber-Rüenze, Gottfried, Photograph, von Koblenz (Preussen).\n     Wolf-Allemann, Karl Friedrich, Adjunct des Hochbaumeisters.\n771. † Derfelbe. Photographisches Atelier.\n772. * Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\n     Fricker-Amsler, Joseph, Commis, von Oberhof.\n     Lauber-Wolfender, Abraham, Prediger, von Frutigen (Bern).\n     Studer-Siegrist, Konrad, Privat., von Rickenbach.\n773. * Derfelbe. Anbau.\n     Häusler, Jakob, römisch-kathol. Siegrist, von Schwaderloch.\n     Hunn-Fehlmann, Berena, Taglöhnerin, von Egliswil.\n     Brändli-Müller, Elisabeth, \" \" Unterötzberg.\n774. † Derfelbe. Holzmagazin.\n775. † \" Scheune.\n776. † \" Holzmagazin.\n777. Rey-Ringger, Jakob, Lehrer der Bezirksschule.\n778. † Derfelbe. Holzhaus.\n779. * Wehrli-Dubs, Johann, Sohn, Gärtner, von Rüttigen. (Gartenhaus).\n780. Abgetragen; an dessen Platz\n1272  Wehrli-Walser, Rosina, Gärtners Frau, von Rüttigen.\n     Wehrli-Dubs, Johann, Sohn, Gärtner, von Rüttigen.\n781. Abgetragen; an dessen Platz\n1084  * Diefelbe. Wohnhaus.\n     Reefer-Hilfiker, Samuel, Taglöhner, von Schlozrued.\n     Hausmann-Rüetschi, Gottlieb, Wagenwärter, von Schafisheim.\n     Steiner-Haller, Johann, Taglöhner, von Schmiedrued.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4933,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2357,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p062",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p062.jpeg",
+      "bytes": 233252,
+      "sha256": "f1055b77f8cba4d7bbf405c9676c15735fc1f7fa126edc65d4651ea46318fd71",
+      "sha256_of": "original",
+      "working_copy": "1892_p062.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:41+00:00"
+  }
+}

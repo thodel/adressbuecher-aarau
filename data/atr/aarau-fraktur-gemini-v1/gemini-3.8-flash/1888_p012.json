@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p012",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p012.jpeg",
+    "bytes": 270337,
+    "sha256": "de76ec8477678417eb669a4cfc1b5778c250f7322486c81aa850e770bc23be33",
+    "sha256_of": "original",
+    "working_copy": "1888_p012.jpeg"
+  },
+  "text": "— 2 —\nHaus-\nNr.\n  Baumgartner, Adolf, Commis, von Oensingen (Solothurn).\n  Frei-Mösch, Ulrich Wilhelm, Werk- und Brunnenmeister, von Zurzach.\n  Rohr-Wehrli, Daniel, Bauamtsarbeiter, von Hunzenschwyl.\n  Furrer-Notter, Erhardt, Schneider, von Volken (Solothurn).\n5.  Weibezahl, Leonhardt, Apotheker, von Gotha.\n  Mürset, Karl Friedrich, Apothekergehilfe, von Diesse (Bern).\n  Hagenbuch-Hagenbuch, Verena, Stickerei- und Wollenwaarenhandlung.\n  Härri-Linder, Rudolf, Direktionssekretär, von Birrwyl.\n\nKirchgasse.\n\n6.* Staat Aargau. Pfarrhelfergebäude.\n  Frei-Rauchenstein, Eduard, Pfarrhelfer.\n7.* Bidiella, Manuel, Sohn, von Sitges (Spanien), Spanische Weinhalle.\n    Weinhandlung.\n  Godall, Joseph, Kellner, von Bonastre (Spanien).\n8. a. Fuchs, Maria, Part., von Remigen.\n  Gantner geb. Fuchs, Elise, Schneiderin, von Grabs (St. Gallen).\n  Hoffmann-Suter, Christoph, von Schwabach (Baiern), Coiffeurgeschäft.\n  Hediger-Buchmüller, Samuel, Gärtner, von Reinach.\n8. b. Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n  Lienberger-Weber, Kaspar, Schuhmachermeister, von Spreitenbach.\n9. a. † Gemeinde Aarau. Feuerlöschmagazin.\n9. b. Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n10. a. Rychner-Thommen, Friedrich, Spenglermeister, Spenglerwaaren-\n    handlung.\n  Haberstich-Huber, Gottlieb, Part., von Oberentfelden.\n  Hächler-Peter, Gottlieb, Bauamtsarbeiter, von Teufenthal.\n  Erismann-Hüßi, Samuel, Holzspalter, von Schloßrued.\n  Aeschbach-Steiner, Rudolf, Steinhauer, von Hendschikon.\n  Erismann, Rudolf, Taglöhner, von Kirchrued.\n10. b. Rychner-Thommen, Friedrich, Spenglermeister.\n11.  Häny-Häny, Rudolf, Part., von Kölliken.\n  Häny, Hermann, Sohn, Bäcker, von Kölliken.\n  Peyer-Voß, Wilhelmine, Wäscherin u. Glätterin, von Lostorf (Solothurn).\n12.  Weidmann-Albrecht, Albert, Tapezierer, von Bachs (Zürich).\n  Aeschbach, Maria, Modistin, von Mühlethal.\n  Mäder, Henriette, Modistin, von Köln.\n  Matter-Thomann, Maria, Wittwe, Wäscherin, von Kölliken.\n13.* Berner-Egli, Hermann, Zahnarzt.\n  Hertfelder geb. Bär, Maria, Wittwe, Part.\n  Mürset geb. Hediger, Maria, Wittwe, Part., von Diesse (Bern).\n  Mürset, Maria, Coiffeuse, von Diesse (Bern).\n14.  Berner-Mauch, Rudolf, Part.\n15.  Lüthi-Kneubühler, Eduard, Sattler und Tapezierer, von Bleienbach\n    (Bern).\n  Hoffmann-Suter, Christoph, Coiffeur, von Schwabach (Baiern).\n  Baltisberger-Wullschleger, Arnold, Polizeidiener, von Oftringen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9801,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2420,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:23:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p012",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p012.jpeg",
+      "bytes": 270337,
+      "sha256": "de76ec8477678417eb669a4cfc1b5778c250f7322486c81aa850e770bc23be33",
+      "sha256_of": "original",
+      "working_copy": "1888_p012.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:57+00:00"
+  }
+}

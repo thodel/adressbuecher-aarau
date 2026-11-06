@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p131",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p131.jpeg",
+    "bytes": 289386,
+    "sha256": "a8d31ec82e385203ac6a39669dea350132f2ae4387ae6675f2e8571a1e2e5ddb",
+    "sha256_of": "original",
+    "working_copy": "1888_p131.jpeg"
+  },
+  "text": "Schweizer — Siebenmann.\n113\nA Schweizer-Siebenmann, Fried. Ferd., Part., von Dättwyl, Rain 860.\nSchweizer-Siebenmann, Sophie, Wittwe, Part. von Bafel, Schachen 737.\nSeger-Kurt, Ludwig, Werkmeister v. Pfungstadt (Hessen), Milchgasse 144.\nX Seiler-Hanhardt, Andreas, Bäcker, Rathausgasse 48.\nSeiler, Mina und Mathilde, Damenschneiderinnen v. Lenzburg, Meckergasse 103.\nSemmler-Gans, Margaretha, Schuhhändlerin von Pirmasens (Baiern), Bahnhofstraße 541.\nSenn-Blattner, Carolina, Wittwe, Ausrüsterin von Densbüren, vordere Vorstadt 682.\nX Senn-Gyfi, Hans, Zeughausverwalter von Zofingen, Bachstraße 1043.\nSenn-Zuber, Adelheid, Küfers Wittwe von Hottwyl, Bachstraße 1031.\nSennhauser-Gossenwisch, Anna, Modistin v. Herrliberg (Zürich), Rain 825.\nSennhauser-Schwarz, Elise, Part. v. Herrliberg (Zürich), Hammer 191.\nSernatinger-Enz, Valerian, Putzmacher von Ludwigshafen (Baden), Wohnung vordere Vorstadt 674 und Verkaufsladen vordere Vorstadt 900.\nX Siebenmann-Ackermann, Bernhard, Bäcker u. Wirth, vord. Vorstadt 673.\nSiebenmann, Daniel, Rentier, vordere Vorstadt 673.\nSiebenmann, Arnold, Tapezire, vordere Vorstadt 902.\nSiebenmann-Bed, Gottlieb, Färber, Milchgasse 74.\nSiebenmann-Blum, Elise, Spetterin, Rain 838.\nSiebenmann, Elise, Damenschneiderin id. id.\nSiebenmann, Fritz, Commis, id. id.\nSiebenmann-Bräm, Otto, Kreiskommandant, Weinberg 1102.\nSiebenmann-Brumhofer, Otto, Schlosser, Bachstraße 1032.\nSiebenmann-Frei, Ludwig, Schuhmacher, Adelbändli 171.\nSiebenmann, Ludwig, Part., Adelbändli 171.\nSiebenmann, Friedrich, Weinhändler, Rain 860.\nX Siebenmann, Gottlieb, Gerber, Rain 834.\nX Siebenmann-Hagnauer, Friedrich, Bierbrauer, Weinberg 321 a.\nSiebenmann-Hartmann, Margaretha, Wittwe, Part., Bahnhofstraße 1022.\nSiebenmann-Hürsch, Gottlieb, Bauverwalter, Laurenzenvorstadt 408.\nSiebenmann-Hunziker, Emma, Wittwe, Part., Rathgasse 22.\nSiebenmann, Jakob, gewes. March. Tailleur, Part., Oberthor 226.\nX Siebenmann-Hemmeler, Gustav, March. Tailleur, id. id.\nSiebenmann, Adolf, Sekretär, Oberthor 226.\nX Siebenmann-Walther, Otto, March. Tailleur, Oberthor 227.\nSiebenmann, Louise, Part., Holzmarkt 663.\nSiebenmann-Marti, Rosina, Part. Halden 267.\nSiebenmann-Werz, Emil, Gemeindeweiβel und Rathausabwart, Rathausgasse 176.\nX Siebenmann-Freijig, Katharina, Becks Wittwe, Erlinsbacherstraße 333.\nSiebenmann, Friedrich, Sohn, Erlinsbacherstraße 333.\nX Siebenmann-Kohr, Rudolf, Bierbrauer, Graben 620.\nSiebenmann, Rosa, Tapezierers, Part., Bahnhofstraße 1173.\nAdressbuch der Stadt Aarau 1888.\n8\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5259,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2498,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:28:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p131",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p131.jpeg",
+      "bytes": 289386,
+      "sha256": "a8d31ec82e385203ac6a39669dea350132f2ae4387ae6675f2e8571a1e2e5ddb",
+      "sha256_of": "original",
+      "working_copy": "1888_p131.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:07+00:00"
+  }
+}

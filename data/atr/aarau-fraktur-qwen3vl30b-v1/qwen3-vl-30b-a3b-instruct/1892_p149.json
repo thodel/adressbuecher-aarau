@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p149",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p149.jpeg",
+    "bytes": 255603,
+    "sha256": "a440e00229f16129b345f90d04cda9c6107c98808e760eb8576b93f18c99ecf2",
+    "sha256_of": "original",
+    "working_copy": "1892_p149.jpeg"
+  },
+  "text": "Wernli — Wietlisbach.\n133\nWernli-Neefser, Kaspar, Postkondutteur von Thalheim, Schmiedgasse 625.\nWernli-Reinhart, Kaspar, Weidenwärter v. Thalheim, Laurenzenvorst. 363.\nWernli-Schmidli, Kaspar, Taglöhner von Thalheim, Hammer 1301.\nWernli-Schweri, Marie, Gärtners Wittwe von Thalheim, vor dem\nHaldenthor 808.\nWernli-Siegrift, Anna, Wittwe, Part. von Thalheim, obere Vorstadt 944.\nWernli-Treier, Samuel, Taglöhner von Thalheim, Halden 272.\nWernli-Wächter, Johann, Bahngestellter von Thalheim, Schachen 739.\nWernli-Wehrli, Bernhard, Gärtner von Thalheim, Scheibenschachen 312.\nWernli-Wehrli, Maria, Maschinenfickerin, von Thalheim, Milchgasse 152.\nWernli-Wernli, Elisabeth, Wittwe, Part. von Thalheim, hinter dem\nBahnhof 494.\nWernli-Wernli, Joh. Gabriel, Taglöhner von Thalheim, Milchgasse 143.\nWernli-Wernli, Rudolf, Taglöhner von Thalheim, Halden 275.\nWernli-Wullschleger, Maria, Wittwe, von Thalheim, Metzgergasse 100.\n*Weipi-Zurlinden, Karl, Hafnermeister, obere Vorstadt 966.\n*Weitfeld-Spitzli, Wilhelm, Kaufmann von Unterschüpf (Baden), Rain 843.\n*Wettler-Schneider, Adolf, von Rheineck (St. Gallen), Gastwirth z. Ochsen,\nLaurenzenthorngasse 115.\nWidmer-Eichenberger, Hermann, Rüfer von Haufen, Laurenzenthorngasse 117.\nWidmer-Gamper, Fried., Postcommis von Safenwyl, Feerstrake 1307.\nWidmer-Iten, Maria Magdalena, Wittwe, Part. von Eschenbach (Cuzern),\nZiegelrain 704.\nWidmer, Karl, Sekretär (Artilleriebureau) von Freienwyl, Pelzgasse 64.\nWidmer, Karolina und Maria, Modistinnen von Freienwyl, Wohnung\nvordere Vorstadt 894, Modegeschäft Bahnhofstrake 658.\nWidmer, Kaver, Hausknecht (Ochsen), von Freienwyl, Pelzgasse 64.\nWidmer-Kohner, Franz Kaver, Obergerichtskanzlist von Schneisingen,\nKronengasse 38.\nWidmer, Rosette, Fegerin von Othmarstingen, Hammer 194.\nWidmer-Rychner, Rudolf, Bäcker und Bittenwirth, obere Vorstadt 927.\n× Widmer-Schäfer, Camilla, Wittwe, Part. von Oberuzwyl (St. Gallen),\nin der Gais 480.\nWidmer, Verena, Taglöhnerin von Gränichen, Milchgasse 161.\nWidmer-Wütherich, Jakob, Webermeister von Gränichen, Schmiedg. 637.\nWidmer-Zehnder, Verena, Wittwe, Wäscherin v. Freienwyl, Schmiedg. 632.\nWidmer-Zehnder, Samuel, Wirth und Holzhändler von Safenwyl,\nHalden 277.\nWiederkehr, Adolf, Notar von Gontenschwil, hintere Vorstadt 694.\nWiederkehr-Deichger, Viktoria, Wittwe, Wäscherin und Glätterin von Zell\n(Cuzern), Milchgasse 152.\nWieland-Wieland, Hermine, Wittwe, Part. von Rheinfelden, Ziegelrain 705.\n× Wietlisbach-Frey, Sophie, Oberförsters Wittwe von Bremgarten, Lau-\nrenzenvorstadt 394.\nWietlisbach-Walther, Josef Burkardt, Postcommis, Schachen 1259.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7383,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2577,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:46:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p149",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p149.jpeg",
+      "bytes": 255603,
+      "sha256": "a440e00229f16129b345f90d04cda9c6107c98808e760eb8576b93f18c99ecf2",
+      "sha256_of": "original",
+      "working_copy": "1892_p149.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:43+00:00"
+  }
+}

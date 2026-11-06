@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p031",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p031.jpeg",
+    "bytes": 269011,
+    "sha256": "d73c4da94e64dc9bff56311149d9fe330bc4daec422be0bc52bc6f821ab2dc6c",
+    "sha256_of": "original",
+    "working_copy": "1888_p031.jpeg"
+  },
+  "text": "Haus-\nNr.\n237. a. Fäss-Huber, Jakob, Posamenter, von Oberfultm.\n237. b. Zimmerli, Joh., Holzer, von Unterentfelsen.\nDietiker, Geschwister, Emma und Adolf, von Thalheim.\nDietiker, Emma, Wäscherin, von Thalheim.\nDietiker, Adolf, Brieftträger, „\nDietiker, Joh. Jakob, Taglöhner, von Thalheim.\n237. c. Morgenthaler=Fehlmann, David, Dienstmann, von Staffelbach.\n238. † Fäss-Huber, Jakob, Posamenter (Holzschopf).\n239. Döhnel, August, Schuhmacher, von Badenweiler (Baden).\n\nSalden.\n240. Ernst-Dürr, Hermann, Schuhmacher.\nBiedlin-Schär, Kaver, Maler, von Schweighaufen (Elsäß).\nRüthn-Morach, Hermann Theodor, Drucker, von Chemnitz (Sachsen).\n241. Armen gut der Gemeinde Aarau. Armenhaus.\nMüller-Woodtli, Jakob, Armenhausvorsteher.\n242. † Dasfelbe. Holz- und Spri genhaus.\n243. † Dasfelbe. Absonderungshaus.\n244. Abgetragen.\n245. a. u. b. Abgetragen.\n246. * Brunnhofer, Gl., Lehrers Erbschaft.\nJähner-Brunnhofer, Nanette, von Horn (Thurgau). Stellenvermittlungs-\nbureau des schweiz. Frauenverbandes.\nBrunnhofer, Lisette, Lehrers, Part.\nHolliger-Berner, Gottfried, Taglöhner, von Boniswyl.\nKrauer-Raufmann, Heinrich, Schneider, von Bärentschweil (Zürich).\n247. Brunnhofer-Giezentanner, Ursula, Wittwe.\nFricke, Joseph, Commis, von Oberhof.\nFricke, Franziska, Haushälterin, von Oberhof.\nFischer, Friedrich, Weibels, Schreiner.\n248. Haßler-Brunnhofer, Eduard, Kaminsfeger.\nUmiker-Steiner, Samuel, Pferdewärter, von Thalheim.\nBertsch-Holzreuter, Rudolf, Holzer, von Dürrenäsch.\nBertsch, Wilhelm, gew. Camioneur, von Dürrenäsch.\n249. Hauri-Graber, Rudolf, Fuhrmann, von Reitnau.\nHörlacher-Äberg, Samuel, Mechaniker, von Umiken.\nRues-Joho, Johann, Taglöhner, von Ketingen.\n250. Wehrli-Bircher, Hans, Gipfermeister.\nBonary, Simon, Schlosser, von Stützlingen (Solothurn).\nBonary, Hedwig, Fabrikarbeiterin, von Stützlingen.\n251. Ment-Wehrli, Anna, Mechanikers Wittwe, von Densbüren.\nHuber-Ment, Jakob, Schneider, von Unterembrach (Zürich).\nGermann-Müller, Johann, Schneider, von Graltshausen (Thurgau).\n252. Strub-Mühlestein, Robert, Schneider, von Rienberg (Solothurn).\nHerzog-Dietiker, Konrad, Schneider, von Homburg (Thurgau).\n253. Brunnhofer-Schmid, Magdalena, Mechanikers Wittwe.\nBächli, Joseph, Staatsweibel, von Wärenlingen.\nNyburz, Lina, Fabrikarbeiterin, von Erlinsbach (Solothurn).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4716,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2273,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:20:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p031",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p031.jpeg",
+      "bytes": 269011,
+      "sha256": "d73c4da94e64dc9bff56311149d9fe330bc4daec422be0bc52bc6f821ab2dc6c",
+      "sha256_of": "original",
+      "working_copy": "1888_p031.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:57+00:00"
+  }
+}

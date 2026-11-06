@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p068",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p068.jpeg",
+    "bytes": 255640,
+    "sha256": "fb91c32bb0ece40a82edd38c1f2f37e5adb2118ad76ebbbb462175eba44dea28",
+    "sha256_of": "original",
+    "working_copy": "1888_p068.jpeg"
+  },
+  "text": "— 58 —\nHaus=\nNr.\n  Zimmerli, Johann Jakob, Part., von Niederwyl.\n  Baumgartner-Erni, Heinrich, Telephonarbeiter, von Weyach (Zürich).\n901.† Derselbe. Werkstätte.\n902.* Siebenmann-Bräm, Otto, Kreiskommandant.\n  Siebenmann, Arnold, Tapezierer und Dekorateur.\n  Hagenbuch-Ernst, Marie, Schneiders Wittwe.\n903. Henz-Gautschi, Emil, Eisenwaarenhandlung.\n  Frey-Feer, Bertha, Fabrikants Wittwe.\n904.† Staat Aargau. Alte Postremise.\n905. Derselbe. Regierungsgebäude.\n  Käser-Schütz, Jakob, Rathhausabwart, von Biberstein.\n906.† Derselbe. Holzhaus.\n907.†   id.   id.\n908.   id.   Großrathsgebäude. Kantonsbibliothek.\n\nObere Vorstadt.\n\n909. Wernli-Meier, Jakob, Schreinermeister.\n910.† Derselbe. Werkstätte.\n911. Vogt-Kohler, Johann, Schuster, von Remigen. Schuhhandlung.\n912. Gänslen-Koch, Regina Louise, von Starrkirch (Solothurn). Gasthaus\n    zur Herberge.\n913. Gänslen-Meier, Adolf, Bäcker, von Biberstein. Klein= und Großbäckerei.\n  Kraft-Siegrist, Bertha, Part., von Brugg.\n  Meier, Nothburga, Posamenterin, von Erlinsbach (Solothurn).\n  Heusler, Emanuel, Kaufmann, von Biel (Bern).\n914.† Derselbe. Bäckerei.\n915.* Derselbe. Hinterhaus.\n  Häusler geb. Elmer, Karolina, Part., von Schwaderloch.\n  Cadonau-Hunziker, Elisabeth, Spetterin, von Waltensburg (Graubünden).\n916. Andres-Bircher, Friedrich, Hafnermeister.\n  Müller-Schultheß, Franz Otto, Schriftsetzer, von Riedholz (Solothurn).\n  Stierli-Andres, Elise, Buchdruckers Wittwe.\n  Stierli, Cäcilie, Part., von Aristau.\n917.† Derselbe. Ofenmagazin und Geschirrhandlung.\n918.†   id.   Waschhaus.\n919.* Hemmeler-Scheibler, Hafners Wittwe.\n  Hemmeler-Schmidt, Wilhelm, Hafnermeister.\n  Helbling-Hort, Conrad, Schriftsetzer, von Jona (St. Gallen).\n920.† Dieselbe. Holzschopf.\n921. Hemmeler-Roth, Wilhelm, Kanzlist.\n  Müller-Riniker, Elise, Part., von Biberstein.\n  Mathys-Matter, Wilhelm, Feilenhauer, von Kölliken.\n  Bieber-Maritz, Gottfried, Kondukteur, von Stüßlingen (Solothurn).\n922. Siegrist-Lindenmann, Johann, Schuhmacher, von Meisterschwanden.\n    Colonial= und Lederwaarenhandlung.\n  Siegrist, Albert, Bäcker, von Meisterschwanden.\n  Siebenmann-Sprüngli, Jakob Arnold, Agent.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8122,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2131,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:31:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p068",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p068.jpeg",
+      "bytes": 255640,
+      "sha256": "fb91c32bb0ece40a82edd38c1f2f37e5adb2118ad76ebbbb462175eba44dea28",
+      "sha256_of": "original",
+      "working_copy": "1888_p068.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:31:00+00:00"
+  }
+}

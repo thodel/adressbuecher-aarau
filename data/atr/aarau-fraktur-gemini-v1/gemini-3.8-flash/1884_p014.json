@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p014",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p014.jpeg",
+    "bytes": 195281,
+    "sha256": "ff4672b04476f977005d05dfcd6e26dd1e71ae810475d7d57fae987c1bdf2e1c",
+    "sha256_of": "original",
+    "working_copy": "1884_p014.jpeg"
+  },
+  "text": "10\n\nWochen-, Jahr- und Vieh-Märkte.\n\nIn der Stadt Aarau werden abgehalten:\na. Die Wochenmärkte an den Samstagen.\nb. Die Jahr- und Viehmärkte je den dritten Mittwoch des Monats\n  in den Monaten Februar, April, Mai, Juli, August, Oktober,\n  November und Dezember.\nc. Die Viehmärkte je den dritten Mittwoch des Monats in den\n  Monaten Januar, März, Juni und September.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3095,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 365,
+    "lines": 9,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0055,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:10:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p014",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p014.jpeg",
+      "bytes": 195281,
+      "sha256": "ff4672b04476f977005d05dfcd6e26dd1e71ae810475d7d57fae987c1bdf2e1c",
+      "sha256_of": "original",
+      "working_copy": "1884_p014.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:10:09+00:00"
+  }
+}

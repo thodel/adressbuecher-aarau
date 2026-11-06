@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p038",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p038.jpeg",
+    "bytes": 333246,
+    "sha256": "a597c38e8a49ae1a550aa891363968eb8ab095abf63d2255fbc5adfe351ee148",
+    "sha256_of": "original",
+    "working_copy": "1884_p038.jpeg"
+  },
+  "text": "34 Liechti. — Martin.\n\nLiechti-Steinegger, Paul, Dr. Phil., Professor, von Murten (Freiburg),\n  Graben 618.\nLienberger-Weber, Kaspar, Schuhmachermeister, v. Spreitenbach, Kirchg. 8b.\n*Lienhardt, Maria Anna, Spetterin, vordere Vorstadt 891.\n— =Merz, Anna, Lumpensammlerin, von Buchs, v. d. Haldenthor 809.\nLimmacher-Niggli, Nikl., Schuhmacherm., v. Schüpfheim (Luzern), Pelzg. 69.\nLindenmann-Wey, Maria, Wittwe, Partik., v. Fahrwangen, Zollrain 177.\n— Jda, Telegraphistin, von Fahrwangen, Zollrain 177.\nLindt-Meißner, Otto, Dr. med, Apotheker, von Bern, Rathhausgasse 16.\n— =Elias, Karoline, Pfarrers Wittwe, von Bern, Bahnhofstraße 651.\nLinsenmaier-Schreiber, Gottlieb, Kaufmann, von Stuttgart (Würtemb.),\n  Bachstraße 1043.\nLips-Sager, Kaspar, Postkondukteur, von Urdorf (Zürich), ob. Vorst. 967.\n— =Sandmeier, Rud., Erdarbeiter, v. Schlieren (Zür.) Golattenmattg. 231.\nLocher-Willi, Jakob, Postkondukteur, v. Ems (Graub.), Metzgergasse 100.\nLorenz-Isak, Josef, Arzt, von Klingnau, Graben 216.\n— Otto, Oberrichter, von Klingnau, Graben 206.\nLudwig-Maurer, Germ., Fabrikaufseher, v. Merdingen (Baden), Pelzg. 122.\nLutenauer-Schacher, Barb., Wittwe, Partik., v. Ruswyl (Luz.), Ziegelr. 702.\nLutz-Vetterli, Ulrich, Klaviermacher, von Thal (St. Gallen), Pelzgasse 127.\n— =Hagnauer, Joh., Kaufmann, von Basel, neues Quartier 969.\nLüscher-Herzig, Jakob, Bäcker u. Wirth, von Muhen, Rathhausgasse 18.\n* — Jakob, Schuhmachermeister, Bahnhofstraße 647.\n* — Elise, Glätterin, Bahnhofstraße 647.\n* — Louise, Glätterin, Bahnhofstraße 647.\n— =Hilsiker, Hans, Notar, von Muhen, hintere Vorstadt 694.\n* — =Zahler, Rudolf, Notar, Bahnhofstraße 1013.\n* — =Umiker, Hermann, Mechaniker, Bachstraße 1146.\n— =Umiker, Marie, Damenschneiderin, Bachstraße 1146.\n— Charlotte, Modistin, von Muhen, Halden 279.\n— Emma, Weißnäherin, von Muhen, Kirchplatz 166.\n— =Wülser, Lisette, Partik., von Aarburg, Laurenzenvorstadt 360.\n— =Schlatter, Johann, Steinhauer, von Muhen, Schachen 729.\n— =Gloor, Lisette, Partik., von Muhen, Schachen 734.\n— =Thut, Elise, Partik., von Oberentfelden, neues Quartier 979.\nLüthi-Gamper, Sl., Telegraphist, v. Schöftland, Laurenzenthorgasse 1118.\n— =Simmen, Alexander, Sattler, von Schöftland, Casinostraße 660.\n— Kath., Näherin, von Winterthur (Zürich), hintere Vorstadt 645.\n— Jakob, Reisender, von Rohrbach (Bern), Zollrain 52.\n— =Riniker, Rudolf, Geometer, von Holziken, Casinostraße 571.\nLütolf, Jakob, Schreiner, von Triengen (Luzern), Stadthof 93.\nMadon-Lauser, Vikt., Lokomotivführer, v. Unterstr. (Zürich), Bahnhofst. 569.\nMaier-Richner, Kaspar, Professor, von Baden, neues Quartier 981.\nMarfurt, Xaver, Coiffeurgehülfe, v. Langnau (Bern), Bahnhofstraße 1022.\nMarkwalder-Gamper, Traugott, Stabshauptmann, Cavallerie = Instruktor,\n  von Wettingen, Casinostraße 573.\n*Martin, Franz Gabriel, Buchdrucker, Kirchplatz 163.\n* — =Hagenbuch, Marie, Partik., Bachstraße 1141.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9279,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2875,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:13:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p038",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p038.jpeg",
+      "bytes": 333246,
+      "sha256": "a597c38e8a49ae1a550aa891363968eb8ab095abf63d2255fbc5adfe351ee148",
+      "sha256_of": "original",
+      "working_copy": "1884_p038.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:13:50+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p058",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p058.jpeg",
+    "bytes": 225633,
+    "sha256": "3ec34e290a629fc7edee6b233228af7f0ec4f00f4c795fa225a8a6aceecdb3c0",
+    "sha256_of": "original",
+    "working_copy": "1892_p058.jpeg"
+  },
+  "text": "Hans\nNr.\nTheodor-Hagnauer, Amadeus, Zugführer, von Pizy (Waadt).\nTheodor-Hagnauer, Maria, von Pizy. Wollwaaren- und Mercerie-\nwaarengeschäft.\nDiethelm-Kalanquin, Reinhard, Zugführer, von Hessenhofen (Thurgau).\nPlüss-Stephani, Mary, Buchhalters.\nRohr, Samuel, Gastwirth zum Wilden Mann.\nHagmann-Stolz, Adolf, in Schönenwerd. Schuhhandlung (Filiale).\n696. * Derfelbe.\nJäcker-Haller, Joseph, Comestibles-Händler, von Lachapelle-sous-\nRougemont (Franfreich).\n697. Mayer-Vogel, Thomas, Schuhmachermeister, von Eigoldingen (Baden).\nSchuhhandlung.\n698. Delhasen-Kusli, Rudolf, Metzgermeister.\nDelhasen, Arnold, Metzger, Sohn.\n699. Bildi, Fanny (Salzverkauf).\nPlüss, Rosina, Weißnäherin, von Ryfen.\n\nZiegelrain.\n700. Holzach-Schmidt, Fritz, Metzger und Speisewirth.\nMüller-Riederer, Lorenz, Maschinenmeister, von Unter-Isberg (Schwyz).\n701. Derfelbe. Wohnhaus und Verkaufsladen.\n702. Ries-Buhlein, Emanuel. Glas-, Farbwaaren- und Droguen-\nhandlung.\n703. Schmuziger-Bühler, Gottlieb, Schneidemeister.\nSchmuziger, Gebr., Fritz und Karl. Brod- und Zuckerbäckerei.\nSchmuziger, Lucie, Damenschneiderin.\nFisch, Josephine, Part.\n704. Suter-Dürr, Rudolf, Spengler, von Niederhallwyl. Spengler-\nwaaren und Lampenlager.\nSchaub-Blauenstein, Adelbert, Gipler, von Ettingen (Baselland).\nHunziker-Raspar, Emil, Lokomotivheizer, von Leimbach.\nBöll-Widmer, Johann, Maurerpoler, von Osmar (Tirol).\nBidmer-Fien, Maria Magdalena, Wittwe, Part., von Eschenbach (Luzern).\n705. Hässig-Bühler, Friedrich, Kupferschmied. Fabrikation von Trommeln.\nHässig, Alfred, Sohn, Kupferschmied.\nFailer, Georg, Schriftsetzer, von Harthaußen (Preußen).\nBehrli, Andreas, Zimmermann, von Rüttigen.\nBehrli, Maria, Spetterin, von Rüttigen.\nHässig-Baumann, Margaritha, Malers Wittwe.\nWieland-Wieland, Hermine, Wittwe, Part., von Rheinfelden.\n706. † Derfelbe. Werkstätte.\n707. a. Siebenmann, Bertha, Part.\nDätwyler-Meyer, Johann, Taglöhner, von Wittwyl.\n707. b. * Andres-Weier, Samuel, Schlosser.\nWeber, Friedrich, Spengler, von Bordenwald.\nChryam-Wehrli, Alfred, Schneider.\nUrban-Kuzbäum, Ernst, Schreiner, von Liegnitz (Schlesien).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4258,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2082,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p058",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p058.jpeg",
+      "bytes": 225633,
+      "sha256": "3ec34e290a629fc7edee6b233228af7f0ec4f00f4c795fa225a8a6aceecdb3c0",
+      "sha256_of": "original",
+      "working_copy": "1892_p058.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:23+00:00"
+  }
+}

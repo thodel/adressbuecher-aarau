@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p117",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p117.jpeg",
+    "bytes": 232746,
+    "sha256": "f55e260a368aba5378203bef2b3732805918637dc2e85df409822b106e446889",
+    "sha256_of": "original",
+    "working_copy": "1892_p117.jpeg"
+  },
+  "text": "Helml — Herzog. 101\nHelml-von Arx, Eliſe, Wittwe von Nerliſon (Zürich), Zollrain 52.\nHemmeler-Biedermann, Auguſt, Kaufmann, Meggergaſſe 55.\nHemmeler, Emil, Sohn, Kaufmann, Meggergaſſe 58.\nHemmeler-Fecht, Gottlieb, Zimmermeiſter, vor dem Haldenthor 767.\n✗Hemmeler-Frey, Friedrich, Kaufmann, alt Stadtrath, h. Vorſt. 638.\n✗Hemmeler-Hähler, Auguſt, Kaufmann, Lingerie- und Kinderſpiel=\n  waren, Meggergaſſe 55.\nHemmeler, Ida, Privatlehrerin, Solattenmattgaſſe 229.\nHemmeler, Marie, Gürklers, Ladentochter, Zollrain 177.\nHemmeler-Pfiſter, Friedrich, Poſtkommis, Caſinoſtraſſe 1130.\nHemmeler, Roſa, Gürklers, Ladentochter, Rathausgaſſe 47.\nHemmeler, Roſina, Part., Milchgaſſe 145.\nHemmeler-Roth, Wilhelm, Sekretär, obere Vorſtadt 921.\nHemmeler-Scheibler, Berena, Hafners Wittwe, Geſchir= und Glas=\n  warenhandlung, obere Vorſtadt 944.\nHemmeler-Schmidt, Wilhelm, Hafnermeiſter, Geſchirhandl., ob. Vorſt. 919.\n✗Hemmeler-Stahl, Jakob, Uhrenmacher, Rathausgaſſe 23.\n✗Hemmeler-Stahl, Ida (Firma Ritter-Stahl), Lingeriehand=\n  lung, Rathausgaſſe 21.\n✗Hemmeler-Türler, Emil, Kaufmann, Mercerie-, Garn- und Ellenwaren=\n  handlung, Meggergaſſe 58.\n✗Hengherr-Hitzbrunner, Auguſt, Lehrer von Affoltern bei Hönig (Zürich),\n  Seenſtraſſe 1308.\n✗Henz-Gautſchi, Emil, Kaufmann, Eiſenwarenhandlung, vordere Vor=\n  ſtadt 903.\n✗Henz-Märk, Julius, Kaufmann, vordere Vorſtadt 1169.\n✗Henz-Pflüg, Jakob, Kaufmann, vordere Vorſtadt 1169.\nHenz-Siebenmann, Adele, Hafners Wittwe, hintere Vorſtadt 688.\n✗Henz-von Seuter, Hans, Kaufmann, vordere Vorſtadt 678.\nHering-Leuenberger, Johann, Lehrer von Arniſorf, Wohnung Zollrain 181,\n  Bettwaren- und Möbelhandlung, Meggergaſſe 105.\nHermann, Eliſabeth, Spetterin von Rohrbach (Bern), Solattenmatt=\n  gaſſe 231 b.\nHertsfelder-Bär, Marie, Wittwe, Part., Kirchgaſſe 13.\nHerzig-Hauri, Friedrich, March. Tailleur von Wynau (Bern), hintere\n  Vorſtadt 644.\nHerzig-Weber, Friedrich, Dachdecker- und Kaminiſetzer von Oberſtechsholz\n  (Bern), Aelſebändli 173.\nHerzog-Dietter, Konrad, Schneider vom Homburg (Thurgau), Halden 252.\n✗Herzog-Hagner, Heinrich, Lehrer von Kefingen, hinter dem Bahn=\n  hoſ 1268.\n✗Herzog, Hans, Dr. phil., Staatsarchivar, Bachſtraſſe 1047.\nHerzog, Jakob, Part., Bachſtraſſe 1048.\nHerzog-von Jenner, Lina, Wittwe, Bachſtraſſe 1045.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 20174,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2260,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:24:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1892_p117",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p117.jpeg",
+      "bytes": 232746,
+      "sha256": "f55e260a368aba5378203bef2b3732805918637dc2e85df409822b106e446889",
+      "sha256_of": "original",
+      "working_copy": "1892_p117.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:24:44+00:00"
+  }
+}

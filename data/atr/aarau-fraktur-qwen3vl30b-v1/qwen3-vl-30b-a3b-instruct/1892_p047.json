@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p047",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p047.jpeg",
+    "bytes": 204753,
+    "sha256": "028891f41d25648ac3d842313802a46d794d9989add3e37d206f49ddecff94b3",
+    "sha256_of": "original",
+    "working_copy": "1892_p047.jpeg"
+  },
+  "text": "Haus-\nNr.\n534. † Dießelbe. Abgetragen.\n1116. † \" Bahnwärterhäuschen.\n1239. † \" Abtritt.\n1254. † \" Waschmagazin.\n1300 † Hoch, Gustav, Samenhändler. Magazin.\n1287 Müller & Cie., Lithographische Kunstanstalt und Druckerei.\n535. Billo = Bär, Julius, Part.\nDr. Guttentag, Isidor Jul., Professor, von Czentochau (ruff. Polen).\n536. † Derfelbe. Nebengebäude.\n537. † \" Scheune und Bureau von J. Spinner, Speditions- und\nBrennmaterialiengeschäft, und öffentliche Brückenwaage.\n538. † \" Schmiede.\n539. † \" Holzschopf.\n540. † \" Gebäude mit Brückenwaage.\n1336 Brack = Mühlhaupt, Jakob, Kaufmann, von Elsingen.\nWehrli-Märk, Karl Emil, Architekt, von Höngg (Zürich).\nLüscher geb. Wülser, Lisette, Part., von Aarburg.\n1240 † Derfelbe. Magazin.\n541. Rychner = Peter, Joh., Wirth, von Rohr.\nBart-Schmid, Johann, Postcommis, von Altenburg.\nSemmler-Gans, Margaretha, Schuhhändlerin, von Birmens (Bayern).\nVolfemer geb. Muskmann, Barbara, \" \" \" \" \"\n542. † Derfelbe. Holzhaus.\n543. † Spinner = Billo, Johann Jakob, Camioneur. Holzhaus.\n\nLaurenzenvorstadt.\n544. Stauffer, Albert, Bankangestellter, von Hallwyl.\nDelhasen-Bührer, Hermann, Bankbeamter.\nWiest-Senn, Konrad, Bezirksschullehrer und Rektor, von Uffikon (Luzern).\nSenn, Isidor, Lehrer, von Siggenthal.\n545. † Lagerhäuser der Central Schweiz.\n546. † Dießelben. Gebäude mit Dampfsteffel.\n547. Steiner = Sennhauser, Samuel, Dekonom. Nößligut.\nHolzach-Wässler, Dietrich, Vater, Part.\n548. * Derfelbe. Wohnhaus.\nWinteler-Edart, Joß, Dr., Professor, von Kerenzen (Glarus).\nDerfelbe. Wohnhaus.\n1294 Hintermann = Keller, Robert, Oberst = Lieutenant, Infanterie-Inftruktor\nI. Klasse.\nKeller, Lina, Part., von Veltheim.\nWüthrich-Hecht, C. A., Kaufmann, Artistisches Institut, von Trub (Bern).\n549. † Derfelbe. Scheune mit Einfahrt.\n550. † \" Speicher mit Waschhaus.\n551. † \" Schopf und Schweine scheune.\n1265 † \" Waaghäuschen.\n552. * Feer = Herzog, Karls, Erbschaft (Alte Taubstummenanstalt).\nWelti-Spühler, Heinrich, Buchdrucker, von Zurzach.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4267,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1969,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:37:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p047",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p047.jpeg",
+      "bytes": 204753,
+      "sha256": "028891f41d25648ac3d842313802a46d794d9989add3e37d206f49ddecff94b3",
+      "sha256_of": "original",
+      "working_copy": "1892_p047.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:37+00:00"
+  }
+}

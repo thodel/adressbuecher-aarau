@@ -1,0 +1,1546 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-v1",
+  "model": "kraken-german_print",
+  "engine": "kraken",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p088",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p088.jpeg",
+    "bytes": 277708,
+    "sha256": "620740ca6a942cf422ef858d830557b9e4effcc4249543667eda13c9e6f7fd97",
+    "sha256_of": "original",
+    "working_copy": "1896_p088.jpeg"
+  },
+  "text": "66\nVerzeichnis der Gebäude und ihrer Bewohner.\nHaus-\nNr.\n871\n872\nSchneider-Mösch, Fridolin, Oberrichter, von Herznach.\nZschokke-Zimmerli, Justina, Witwe, Part.\nMösch-Mösch, Aloisa, Witwe, von Frick.\nKern-Saxer, Adolf, Part.\nSaxer geb. Truog, Anna, Witwe, Haushälterin.\n873 † Derselbe. Holzhaus.\n874\n875\nSiegrist-Hunziker, Emil, Kaufmann, Beamter des Niederlagshauses\nin Aarau.\nMeier-Bucher, August, Direktionssekretär, von Obersiggenthal.\nRebmann-Häfliger, Karl Jakob, Maler, v. Fellbach (Wurttemb.),\n(Malerwerkstätte).\nHitz-Lanz, Otto, Negt., Spezerei-, Kohlen- und Holzhandlung.\nHitz, Bertha, Part., von Hausen am Albis (Zürich).\nGuyot, Maria, Damenschneiderin, von Lyon.\nSchumann-Ringier, Albert, Professor, von Gotha (Sachsen).\nDietiker, Susanna, Spetterin, von Thalheim.\nBrunnhofer, Elise, Damenschneiderin.\nEisch, Mina (Kleinkinderschule).\nBräm-Huber, Anna, Witwe, Part., von Bülach (Zürich)!\nBräm, Albert, Kaufmann, von Bülach (Zürich).\n876 † Derselbe. Scheune.\n877 a Wehrli-Kähr, Jakob, Part.\nSprenger-Thöni, Wilhelm, Schreiner, von Rheinfelden.\nGallauer-Lüscher, Anton, Taglöhner, von Ursendorf (Württembg.).\nWassmer, Jakob, Wagner, von Suhr (Wagnerwerkstätte.)\nSommerhalder-König, Jakob, Hausknecht i. Löwen, V. Gontenschwyl.\n877 b Scheibler-Zingg, Fritz, Küfermeister, von Unterentfelden.\n878\nKaiser, Friedrich, Kondukteur S. C. B., von Bibern (Solothurn).\nBächi, Margarita, Spetterin, von Bertschikon (Zürich).\nKeller-Steiner, Karl, Hafer- und Weinhandlung.\nSteiner, Johann, Part.\nSteiner-Lindenmann, Susanne, Witwe, Part.\nMühlberg-Sutermeister, Fritz, Dr. phil. Professor.\nVon Steiger-Marthaler, William, Techniker, von Bern.\nSteffen-Meier, Anna, Witwe, von Seebach (Zürich.\n879 * Derselbe. Hinterhaus.\n880\nSemmler-Gans, Margareta, Schuhhändlerin, y. Pirmasens (Bayern).\nVolkmer-Mussmann, Barbara, Schuhhändlerin, v. Pirmasens (Bayern).\nNägeli-Keller, Joh. Jakob, Schriftsetzer, von Bülach (Zürich).\nBenninger-Jung, Jak., Bahnarbeiter, von Jeuss (Freiburg).\nLienhard-Baumann, Emilie, Wwe; v. Buchs, Wäscherei u. Glätterei.\n881 * Armengut der Gemeinde Aarau. Wohnhaus.\nHässig-Lüscher, Johann, Dienstmann. Antiquar u. Gemüsehändler.\nRämisperger Studier, Verena, Spenglers Witwe, Taglöhnerin.\n882  Staat Aargau. Altes Antiquarium.\n883\nRohr-Hochstrasser, Rudolf, Schmied.\nBruns-Gattiker, Hermann, Schlosser, von Bremen.\nBruns Gattiker, Dorotea, Glätterei und Galanterie, von Bremen!",
+  "lines": [
+    {
+      "order": 0,
+      "baseline": [
+        [
+          180.0,
+          108.0
+        ],
+        [
+          206.0,
+          106.0
+        ]
+      ],
+      "bbox": [
+        178.0,
+        87.0,
+        206.0,
+        124.0
+      ],
+      "boundary": null,
+      "text": "66",
+      "confidence": 0.8016239404678345,
+      "regions": []
+    },
+    {
+      "order": 1,
+      "baseline": [
+        [
+          341.0,
+          107.0
+        ],
+        [
+          754.0,
+          107.0
+        ]
+      ],
+      "bbox": [
+        341.0,
+        92.0,
+        754.0,
+        123.0
+      ],
+      "boundary": null,
+      "text": "Verzeichnis der Gebäude und ihrer Bewohner.",
+      "confidence": 0.9993207371512125,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 2,
+      "baseline": [
+        [
+          215.0,
+          127.0
+        ],
+        [
+          263.0,
+          126.0
+        ]
+      ],
+      "bbox": [
+        214.0,
+        111.0,
+        263.0,
+        140.0
+      ],
+      "boundary": null,
+      "text": "Haus-",
+      "confidence": 0.9378382205963135,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 3,
+      "baseline": [
+        [
+          230.0,
+          141.0
+        ],
+        [
+          253.0,
+          141.0
+        ]
+      ],
+      "bbox": [
+        230.0,
+        129.0,
+        253.0,
+        151.0
+      ],
+      "boundary": null,
+      "text": "Nr.",
+      "confidence": 0.9981454213460287,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 4,
+      "baseline": [
+        [
+          234.0,
+          162.0
+        ],
+        [
+          275.0,
+          160.0
+        ]
+      ],
+      "bbox": [
+        233.0,
+        137.0,
+        275.0,
+        171.0
+      ],
+      "boundary": null,
+      "text": "871",
+      "confidence": 0.9985624551773071,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 5,
+      "baseline": [
+        [
+          235.0,
+          228.0
+        ],
+        [
+          277.0,
+          229.0
+        ]
+      ],
+      "bbox": [
+        234.0,
+        206.0,
+        277.0,
+        248.0
+      ],
+      "boundary": null,
+      "text": "872",
+      "confidence": 0.9983527660369873,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 6,
+      "baseline": [
+        [
+          299.0,
+          162.0
+        ],
+        [
+          813.0,
+          159.0
+        ]
+      ],
+      "bbox": [
+        299.0,
+        139.0,
+        813.0,
+        174.0
+      ],
+      "boundary": null,
+      "text": "Schneider-Mösch, Fridolin, Oberrichter, von Herznach.",
+      "confidence": 0.9992604862968877,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 7,
+      "baseline": [
+        [
+          301.0,
+          184.0
+        ],
+        [
+          707.0,
+          184.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        165.0,
+        707.0,
+        195.0
+      ],
+      "boundary": null,
+      "text": "Zschokke-Zimmerli, Justina, Witwe, Part.",
+      "confidence": 0.9959272295236588,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 8,
+      "baseline": [
+        [
+          303.0,
+          206.0
+        ],
+        [
+          696.0,
+          206.0
+        ]
+      ],
+      "bbox": [
+        303.0,
+        187.0,
+        696.0,
+        220.0
+      ],
+      "boundary": null,
+      "text": "Mösch-Mösch, Aloisa, Witwe, von Frick.",
+      "confidence": 0.9996987079319201,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 9,
+      "baseline": [
+        [
+          302.0,
+          229.0
+        ],
+        [
+          539.0,
+          229.0
+        ]
+      ],
+      "bbox": [
+        302.0,
+        211.0,
+        539.0,
+        237.0
+      ],
+      "boundary": null,
+      "text": "Kern-Saxer, Adolf, Part.",
+      "confidence": 0.9833955143888792,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 10,
+      "baseline": [
+        [
+          301.0,
+          252.0
+        ],
+        [
+          727.0,
+          251.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        231.0,
+        727.0,
+        263.0
+      ],
+      "boundary": null,
+      "text": "Saxer geb. Truog, Anna, Witwe, Haushälterin.",
+      "confidence": 0.9993076080625708,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 11,
+      "baseline": [
+        [
+          235.0,
+          273.0
+        ],
+        [
+          488.0,
+          275.0
+        ]
+      ],
+      "bbox": [
+        234.0,
+        254.0,
+        488.0,
+        285.0
+      ],
+      "boundary": null,
+      "text": "873 † Derselbe. Holzhaus.",
+      "confidence": 0.9995229935646057,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 12,
+      "baseline": [
+        [
+          236.0,
+          295.0
+        ],
+        [
+          276.0,
+          297.0
+        ]
+      ],
+      "bbox": [
+        235.0,
+        278.0,
+        276.0,
+        306.0
+      ],
+      "boundary": null,
+      "text": "874",
+      "confidence": 0.9996955593427023,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 13,
+      "baseline": [
+        [
+          235.0,
+          411.0
+        ],
+        [
+          279.0,
+          411.0
+        ]
+      ],
+      "bbox": [
+        235.0,
+        391.0,
+        279.0,
+        434.0
+      ],
+      "boundary": null,
+      "text": "875",
+      "confidence": 0.9974895517031351,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 14,
+      "baseline": [
+        [
+          301.0,
+          298.0
+        ],
+        [
+          908.0,
+          296.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        275.0,
+        908.0,
+        310.0
+      ],
+      "boundary": null,
+      "text": "Siegrist-Hunziker, Emil, Kaufmann, Beamter des Niederlagshauses",
+      "confidence": 0.9980585669714307,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 15,
+      "baseline": [
+        [
+          300.0,
+          320.0
+        ],
+        [
+          390.0,
+          320.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        303.0,
+        390.0,
+        328.0
+      ],
+      "boundary": null,
+      "text": "in Aarau.",
+      "confidence": 0.999298009607527,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 16,
+      "baseline": [
+        [
+          302.0,
+          343.0
+        ],
+        [
+          874.0,
+          343.0
+        ]
+      ],
+      "bbox": [
+        302.0,
+        321.0,
+        874.0,
+        352.0
+      ],
+      "boundary": null,
+      "text": "Meier-Bucher, August, Direktionssekretär, von Obersiggenthal.",
+      "confidence": 0.9996103957051137,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 17,
+      "baseline": [
+        [
+          301.0,
+          364.0
+        ],
+        [
+          906.0,
+          366.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        347.0,
+        906.0,
+        383.0
+      ],
+      "boundary": null,
+      "text": "Rebmann-Häfliger, Karl Jakob, Maler, v. Fellbach (Wurttemb.),",
+      "confidence": 0.9816457902798887,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 18,
+      "baseline": [
+        [
+          301.0,
+          388.0
+        ],
+        [
+          459.0,
+          388.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        372.0,
+        459.0,
+        399.0
+      ],
+      "boundary": null,
+      "text": "(Malerwerkstätte).",
+      "confidence": 0.9926554991139306,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 19,
+      "baseline": [
+        [
+          301.0,
+          411.0
+        ],
+        [
+          865.0,
+          410.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        389.0,
+        865.0,
+        422.0
+      ],
+      "boundary": null,
+      "text": "Hitz-Lanz, Otto, Negt., Spezerei-, Kohlen- und Holzhandlung.",
+      "confidence": 0.9922392398118973,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 20,
+      "baseline": [
+        [
+          300.0,
+          434.0
+        ],
+        [
+          768.0,
+          434.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        414.0,
+        768.0,
+        445.0
+      ],
+      "boundary": null,
+      "text": "Hitz, Bertha, Part., von Hausen am Albis (Zürich).",
+      "confidence": 0.9991951787471771,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 21,
+      "baseline": [
+        [
+          300.0,
+          457.0
+        ],
+        [
+          700.0,
+          456.0
+        ]
+      ],
+      "bbox": [
+        299.0,
+        437.0,
+        700.0,
+        466.0
+      ],
+      "boundary": null,
+      "text": "Guyot, Maria, Damenschneiderin, von Lyon.",
+      "confidence": 0.9997734994423099,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 22,
+      "baseline": [
+        [
+          301.0,
+          479.0
+        ],
+        [
+          857.0,
+          479.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        459.0,
+        857.0,
+        493.0
+      ],
+      "boundary": null,
+      "text": "Schumann-Ringier, Albert, Professor, von Gotha (Sachsen).",
+      "confidence": 0.9983044235329879,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 23,
+      "baseline": [
+        [
+          301.0,
+          500.0
+        ],
+        [
+          700.0,
+          503.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        482.0,
+        700.0,
+        515.0
+      ],
+      "boundary": null,
+      "text": "Dietiker, Susanna, Spetterin, von Thalheim.",
+      "confidence": 0.999223763166472,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 24,
+      "baseline": [
+        [
+          301.0,
+          525.0
+        ],
+        [
+          651.0,
+          523.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        507.0,
+        651.0,
+        534.0
+      ],
+      "boundary": null,
+      "text": "Brunnhofer, Elise, Damenschneiderin.",
+      "confidence": 0.9998529503742853,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 25,
+      "baseline": [
+        [
+          301.0,
+          546.0
+        ],
+        [
+          599.0,
+          548.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        531.0,
+        599.0,
+        556.0
+      ],
+      "boundary": null,
+      "text": "Eisch, Mina (Kleinkinderschule).",
+      "confidence": 0.9990105535835028,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 26,
+      "baseline": [
+        [
+          302.0,
+          570.0
+        ],
+        [
+          821.0,
+          570.0
+        ]
+      ],
+      "bbox": [
+        302.0,
+        550.0,
+        821.0,
+        581.0
+      ],
+      "boundary": null,
+      "text": "Bräm-Huber, Anna, Witwe, Part., von Bülach (Zürich)!",
+      "confidence": 0.993026757469544,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 27,
+      "baseline": [
+        [
+          302.0,
+          594.0
+        ],
+        [
+          731.0,
+          592.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        576.0,
+        731.0,
+        608.0
+      ],
+      "boundary": null,
+      "text": "Bräm, Albert, Kaufmann, von Bülach (Zürich).",
+      "confidence": 0.9978285133838654,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 28,
+      "baseline": [
+        [
+          235.0,
+          615.0
+        ],
+        [
+          481.0,
+          616.0
+        ]
+      ],
+      "bbox": [
+        234.0,
+        594.0,
+        481.0,
+        629.0
+      ],
+      "boundary": null,
+      "text": "876 † Derselbe. Scheune.",
+      "confidence": 0.998574915031592,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 29,
+      "baseline": [
+        [
+          235.0,
+          642.0
+        ],
+        [
+          554.0,
+          643.0
+        ]
+      ],
+      "bbox": [
+        234.0,
+        624.0,
+        554.0,
+        656.0
+      ],
+      "boundary": null,
+      "text": "877 a Wehrli-Kähr, Jakob, Part.",
+      "confidence": 0.9984233513955147,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 30,
+      "baseline": [
+        [
+          300.0,
+          667.0
+        ],
+        [
+          805.0,
+          665.0
+        ]
+      ],
+      "bbox": [
+        299.0,
+        643.0,
+        805.0,
+        678.0
+      ],
+      "boundary": null,
+      "text": "Sprenger-Thöni, Wilhelm, Schreiner, von Rheinfelden.",
+      "confidence": 0.9946124278582059,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 31,
+      "baseline": [
+        [
+          300.0,
+          690.0
+        ],
+        [
+          906.0,
+          688.0
+        ]
+      ],
+      "bbox": [
+        299.0,
+        672.0,
+        906.0,
+        701.0
+      ],
+      "boundary": null,
+      "text": "Gallauer-Lüscher, Anton, Taglöhner, von Ursendorf (Württembg.).",
+      "confidence": 0.9988904207471817,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 32,
+      "baseline": [
+        [
+          301.0,
+          711.0
+        ],
+        [
+          824.0,
+          709.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        692.0,
+        824.0,
+        720.0
+      ],
+      "boundary": null,
+      "text": "Wassmer, Jakob, Wagner, von Suhr (Wagnerwerkstätte.)",
+      "confidence": 0.9998195068194315,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 33,
+      "baseline": [
+        [
+          301.0,
+          734.0
+        ],
+        [
+          906.0,
+          734.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        716.0,
+        906.0,
+        746.0
+      ],
+      "boundary": null,
+      "text": "Sommerhalder-König, Jakob, Hausknecht i. Löwen, V. Gontenschwyl.",
+      "confidence": 0.985752783715725,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 34,
+      "baseline": [
+        [
+          235.0,
+          756.0
+        ],
+        [
+          834.0,
+          756.0
+        ]
+      ],
+      "bbox": [
+        235.0,
+        738.0,
+        834.0,
+        765.0
+      ],
+      "boundary": null,
+      "text": "877 b Scheibler-Zingg, Fritz, Küfermeister, von Unterentfelden.",
+      "confidence": 0.9987189221003699,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 35,
+      "baseline": [
+        [
+          235.0,
+          825.0
+        ],
+        [
+          279.0,
+          825.0
+        ]
+      ],
+      "bbox": [
+        235.0,
+        803.0,
+        279.0,
+        838.0
+      ],
+      "boundary": null,
+      "text": "878",
+      "confidence": 0.9998039603233337,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 36,
+      "baseline": [
+        [
+          302.0,
+          780.0
+        ],
+        [
+          884.0,
+          779.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        762.0,
+        884.0,
+        793.0
+      ],
+      "boundary": null,
+      "text": "Kaiser, Friedrich, Kondukteur S. C. B., von Bibern (Solothurn).",
+      "confidence": 0.9987747375927274,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 37,
+      "baseline": [
+        [
+          302.0,
+          803.0
+        ],
+        [
+          793.0,
+          801.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        782.0,
+        793.0,
+        814.0
+      ],
+      "boundary": null,
+      "text": "Bächi, Margarita, Spetterin, von Bertschikon (Zürich).",
+      "confidence": 0.9995189838939242,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 38,
+      "baseline": [
+        [
+          303.0,
+          826.0
+        ],
+        [
+          747.0,
+          824.0
+        ]
+      ],
+      "bbox": [
+        303.0,
+        810.0,
+        747.0,
+        838.0
+      ],
+      "boundary": null,
+      "text": "Keller-Steiner, Karl, Hafer- und Weinhandlung.",
+      "confidence": 0.996169996002446,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 39,
+      "baseline": [
+        [
+          301.0,
+          849.0
+        ],
+        [
+          513.0,
+          847.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        828.0,
+        513.0,
+        859.0
+      ],
+      "boundary": null,
+      "text": "Steiner, Johann, Part.",
+      "confidence": 0.9824061041528528,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 40,
+      "baseline": [
+        [
+          301.0,
+          869.0
+        ],
+        [
+          729.0,
+          871.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        851.0,
+        729.0,
+        880.0
+      ],
+      "boundary": null,
+      "text": "Steiner-Lindenmann, Susanne, Witwe, Part.",
+      "confidence": 0.9998210377809478,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 41,
+      "baseline": [
+        [
+          301.0,
+          893.0
+        ],
+        [
+          781.0,
+          893.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        874.0,
+        781.0,
+        902.0
+      ],
+      "boundary": null,
+      "text": "Mühlberg-Sutermeister, Fritz, Dr. phil. Professor.",
+      "confidence": 0.9996540355682373,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 42,
+      "baseline": [
+        [
+          302.0,
+          916.0
+        ],
+        [
+          816.0,
+          916.0
+        ]
+      ],
+      "bbox": [
+        302.0,
+        897.0,
+        816.0,
+        925.0
+      ],
+      "boundary": null,
+      "text": "Von Steiger-Marthaler, William, Techniker, von Bern.",
+      "confidence": 0.9998255372047424,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 43,
+      "baseline": [
+        [
+          301.0,
+          939.0
+        ],
+        [
+          772.0,
+          939.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        919.0,
+        772.0,
+        949.0
+      ],
+      "boundary": null,
+      "text": "Steffen-Meier, Anna, Witwe, von Seebach (Zürich.",
+      "confidence": 0.9978851738075415,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 44,
+      "baseline": [
+        [
+          235.0,
+          960.0
+        ],
+        [
+          503.0,
+          961.0
+        ]
+      ],
+      "bbox": [
+        234.0,
+        942.0,
+        503.0,
+        970.0
+      ],
+      "boundary": null,
+      "text": "879 * Derselbe. Hinterhaus.",
+      "confidence": 0.9829157436335528,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 45,
+      "baseline": [
+        [
+          237.0,
+          1029.0
+        ],
+        [
+          279.0,
+          1029.0
+        ]
+      ],
+      "bbox": [
+        237.0,
+        1007.0,
+        279.0,
+        1046.0
+      ],
+      "boundary": null,
+      "text": "880",
+      "confidence": 0.9993454217910767,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 46,
+      "baseline": [
+        [
+          301.0,
+          985.0
+        ],
+        [
+          907.0,
+          983.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        962.0,
+        907.0,
+        996.0
+      ],
+      "boundary": null,
+      "text": "Semmler-Gans, Margareta, Schuhhändlerin, y. Pirmasens (Bayern).",
+      "confidence": 0.9902132673869057,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 47,
+      "baseline": [
+        [
+          302.0,
+          1007.0
+        ],
+        [
+          907.0,
+          1007.0
+        ]
+      ],
+      "bbox": [
+        302.0,
+        988.0,
+        907.0,
+        1019.0
+      ],
+      "boundary": null,
+      "text": "Volkmer-Mussmann, Barbara, Schuhhändlerin, v. Pirmasens (Bayern).",
+      "confidence": 0.9965134859085083,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 48,
+      "baseline": [
+        [
+          302.0,
+          1030.0
+        ],
+        [
+          867.0,
+          1028.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        1010.0,
+        867.0,
+        1039.0
+      ],
+      "boundary": null,
+      "text": "Nägeli-Keller, Joh. Jakob, Schriftsetzer, von Bülach (Zürich).",
+      "confidence": 0.9996017631023161,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 49,
+      "baseline": [
+        [
+          301.0,
+          1052.0
+        ],
+        [
+          848.0,
+          1052.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        1033.0,
+        848.0,
+        1062.0
+      ],
+      "boundary": null,
+      "text": "Benninger-Jung, Jak., Bahnarbeiter, von Jeuss (Freiburg).",
+      "confidence": 0.9991171475042376,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 50,
+      "baseline": [
+        [
+          301.0,
+          1075.0
+        ],
+        [
+          908.0,
+          1075.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        1057.0,
+        908.0,
+        1083.0
+      ],
+      "boundary": null,
+      "text": "Lienhard-Baumann, Emilie, Wwe; v. Buchs, Wäscherei u. Glätterei.",
+      "confidence": 0.9927585087716579,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 51,
+      "baseline": [
+        [
+          237.0,
+          1096.0
+        ],
+        [
+          750.0,
+          1097.0
+        ]
+      ],
+      "bbox": [
+        237.0,
+        1079.0,
+        750.0,
+        1110.0
+      ],
+      "boundary": null,
+      "text": "881 * Armengut der Gemeinde Aarau. Wohnhaus.",
+      "confidence": 0.9976924129507758,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 52,
+      "baseline": [
+        [
+          300.0,
+          1121.0
+        ],
+        [
+          908.0,
+          1118.0
+        ]
+      ],
+      "bbox": [
+        299.0,
+        1099.0,
+        908.0,
+        1134.0
+      ],
+      "boundary": null,
+      "text": "Hässig-Lüscher, Johann, Dienstmann. Antiquar u. Gemüsehändler.",
+      "confidence": 0.9873294224662166,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 53,
+      "baseline": [
+        [
+          300.0,
+          1144.0
+        ],
+        [
+          867.0,
+          1142.0
+        ]
+      ],
+      "bbox": [
+        299.0,
+        1124.0,
+        867.0,
+        1159.0
+      ],
+      "boundary": null,
+      "text": "Rämisperger Studier, Verena, Spenglers Witwe, Taglöhnerin.",
+      "confidence": 0.9924268496447596,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 54,
+      "baseline": [
+        [
+          237.0,
+          1166.0
+        ],
+        [
+          630.0,
+          1164.0
+        ]
+      ],
+      "bbox": [
+        237.0,
+        1146.0,
+        630.0,
+        1175.0
+      ],
+      "boundary": null,
+      "text": "882  Staat Aargau. Altes Antiquarium.",
+      "confidence": 0.9973162026018709,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 55,
+      "baseline": [
+        [
+          237.0,
+          1187.0
+        ],
+        [
+          278.0,
+          1189.0
+        ]
+      ],
+      "bbox": [
+        237.0,
+        1167.0,
+        278.0,
+        1213.0
+      ],
+      "boundary": null,
+      "text": "883",
+      "confidence": 0.8821369409561157,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 56,
+      "baseline": [
+        [
+          302.0,
+          1188.0
+        ],
+        [
+          659.0,
+          1188.0
+        ]
+      ],
+      "bbox": [
+        302.0,
+        1169.0,
+        659.0,
+        1196.0
+      ],
+      "boundary": null,
+      "text": "Rohr-Hochstrasser, Rudolf, Schmied.",
+      "confidence": 0.9976477043969291,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 57,
+      "baseline": [
+        [
+          301.0,
+          1211.0
+        ],
+        [
+          762.0,
+          1209.0
+        ]
+      ],
+      "bbox": [
+        300.0,
+        1191.0,
+        762.0,
+        1221.0
+      ],
+      "boundary": null,
+      "text": "Bruns-Gattiker, Hermann, Schlosser, von Bremen.",
+      "confidence": 0.9985250970150562,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 58,
+      "baseline": [
+        [
+          301.0,
+          1233.0
+        ],
+        [
+          884.0,
+          1233.0
+        ]
+      ],
+      "bbox": [
+        301.0,
+        1218.0,
+        884.0,
+        1252.0
+      ],
+      "boundary": null,
+      "text": "Bruns Gattiker, Dorotea, Glätterei und Galanterie, von Bremen!",
+      "confidence": 0.9790811774230772,
+      "regions": [
+        "r0"
+      ]
+    }
+  ],
+  "confidence": 0.989815887666573,
+  "segmented_by": "kraken-blla",
+  "timing_ms": 14413,
+  "truncated": false,
+  "settings": null,
+  "quality": {
+    "verdict": "ok",
+    "chars": 2391,
+    "lines": 59,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.54,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": true
+  },
+  "second_opinion": {
+    "engine": "party",
+    "model": "party",
+    "text": "",
+    "lines": [],
+    "confidence": null,
+    "timing_ms": 0,
+    "error": "timed out: no answer within 30s of the primary result"
+  },
+  "gateway_version": "7.0.2",
+  "recognised_at": "2026-11-06T12:07:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-v1",
+    "source": {
+      "key": "1896_p088",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p088.jpeg",
+      "bytes": 277708,
+      "sha256": "620740ca6a942cf422ef858d830557b9e4effcc4249543667eda13c9e6f7fd97",
+      "sha256_of": "original",
+      "working_copy": "1896_p088.jpeg"
+    },
+    "model": {
+      "model": "kraken-german_print",
+      "engine": "kraken",
+      "level": "page",
+      "revision": "10.5281/zenodo.10519596",
+      "revision_kind": "zenodo_record",
+      "weights": "10.5281/zenodo.10519596",
+      "base_model": null
+    },
+    "gateway_version": "7.0.2",
+    "segmented_by": "kraken-blla",
+    "recognised_at": "2026-11-06T12:07:26+00:00"
+  }
+}

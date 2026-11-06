@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p053",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p053.jpeg",
+    "bytes": 218371,
+    "sha256": "b226066e36e5d93d3dc83870fffbfdacb46155dceca540ebe443093cb27ddcb3",
+    "sha256_of": "original",
+    "working_copy": "1892_p053.jpeg"
+  },
+  "text": "Haus-\nNr.\nKeller-Jäggi, Andreas, Hauptagentur der schweiz. Mobiliarversicherung\nund der Unfallversicherungsgesellschaft „Zürich“.\nMauch-Zimmerli, Rudolf, Bankfabwart, von Teufenthal.\n627. Abgetragen; an dessen Platz\n1170 Bau- und Garantie-Comite der römisch-katholischen Kirche (römisch-\nkatholische Pfarrkirche).\n1197 Dasjelbe. Pfarrhaus.\nEtschli, Stephan, römisch-katholischer Pfarrer, von Muri.\nEtschli, Elisabeth, Haushälterin, von Muri.\n628. Fren-Feer, Fabrikants Erbschaft.\nFren-Rüegg, Oskar, Fabrikant.\n629. † Diejelbe. Remise.\n1269 † Siebenmann-Rohr, Rudolf, Bierbrauer. Brauereigebäude.\n630. † Derfelbe. Remise, Bier- und Eiskeller.\n631. Abgetragen, an dessen Platz\n1232 *Matter-Schönenberg, Samuel, Amts schreiber von Oberentfelden.\nMatter, Adolf, Bäcker, von Oberentfelden.\nFren-Spengler, Elise, Reg.-Rath's Wittwe, von Zurzach.\nBogler-Baumann, Julius, Stadtgärtner, von Oberrohrdorf.\n1244 † Derfelbe. Hintergebäude. Klein- und Großbäckerei.\n632. Bühler-Widmer, Gottlieb, Kupferschmied, von Rietheim.\nWidmer-Zehender, Verena, Wittwe, Wäscherin, von Freienwyl.\n633. *Bertschinger-Wild, Gustav, Spezereihändler, von Lenzburg.\nEichenberger-Joho, Rudolf, Schuhmacher, von Reinach.\nBachmann-Rümin, Joseph, Schneider, von Wollerau.\n634. *Camijascia, Franz, Kaufmann.\nMarini-Buricelli, Dominico, Süßfrüchten- und Geflügelhändler, von\nPognona (Italien).\nHäuf ermann-Schmid, Jakob, Holzspalter, von Egliswyl.\n635. *Müller-Vondäniken, Friedrich, Dekonom.\nGruber-Stalder, Engelbert, Maurer, von Naffarein (Tyrol).\nMüller-Zhut, Johann Jakob, Schriftseker.\nMüller-Walti, Maria, Weißnäherin, von Gözberg.\n636. Müller-Kramer, Joß, Schneider.\nZuter-Lüscher, Gabriel, Posamenter, von Gränichen.\n637. Rychner-Schleuniger, Maria, Hafners Wittwe.\nErni-Mauberti, Lorenz, Taglöhner, von Stühlingen (Solothurn).\nWidmer-Wütherich, Jakob, Webermeister, von Gränichen.\nPauli, Maria, Spetterin, von Billnachern.\n\nHintere Vorstadt.\n638. Hemmeler-Frey, Friedrich, Kaufmann, alt Stadtrath.\nHemmeler & Cie., Quincaillerie- und Spielwaarengeschäft en gros. Spar-,\nLeih- und Diskontokasse.\nGiesch-Caviezel, Adolf, Kaufmann, von Chur.\nCaviezel-Biveroni, Elise, Part., von Chur.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4489,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2154,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p053",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p053.jpeg",
+      "bytes": 218371,
+      "sha256": "b226066e36e5d93d3dc83870fffbfdacb46155dceca540ebe443093cb27ddcb3",
+      "sha256_of": "original",
+      "working_copy": "1892_p053.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:02+00:00"
+  }
+}

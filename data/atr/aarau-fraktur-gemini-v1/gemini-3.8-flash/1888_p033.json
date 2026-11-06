@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p033",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p033.jpeg",
+    "bytes": 262115,
+    "sha256": "f70830a1732bc95143590a9f2b7c1cc2214ea7a4e920939699023810509f7e7d",
+    "sha256_of": "original",
+    "working_copy": "1888_p033.jpeg"
+  },
+  "text": "— 23 —\n\nHaus=\nNr.\n267.  Siebenmann-Marti, Rosina, Privatin.\n  Strebel-Siebenmann, Karl, Sekretär.\n  Marti-Siebenmann, Ida, Arbeitslehrerin.\n  Döhnel, Emma, Spetterin, von Badenweiler (Baden).\n268.  Merz-Dürr, Jb., Heizer.\n  Vogel-Thommen, Joh., Säger, von Flühli (Luzern).\n  Frank-Roland, Samuel, Schreiner.\n269.* Keller-Läuchli, Paul, Zuckerbäcker.\n  Weikgenannt-Käser, Verena, Wittwe, Näherin, von Mingolsheim (Baden).\n  Käser, Friedrich, Buchbinder, von Oberflachs.\n  Gennert-Müller, Eduard, Schneider, von Czubeck (Preußen).\n270.† Derselbe.\n271.  Fisch-Dürr, Samuel, Schuhmachermeister.\n  Dürr, Karolina, Glasers.\n  Fisch, Maria, Fabrikarbeiterin.\n272.* Hässig-Dätwyler, Siegrists Erbschaft.\n  Wehrli-Steiner, Joh., Knecht, von Asp.\n  Steiner-Haller, Maria, Part., von Gontenschwyl.\n  Amsler-Büchli, Maria, Privatin, von Bözen.\n273.  Keller-Bauhofer, Daniel, Färber, von Villigen.\n  Müller, Rosa, Vorgängerin, von Unterkulm.\n274.  Bertschi, Jakob, Postangestellter, von Dürrenäsch.\n  Bertschi, Jak. August, Sekretär, von Dürrenäsch.\n  Bertschi, Adolf, Wagner, von Dürrenäsch.\n  Guntsch-Furter, Joh., Maurer, von Matsch (Tyrol).\n  Fischer, Friedrich, Fuhrmann.\n  Fischer, Adelina, Haushälterin.\n275.* Armengut der Gemeinde Aarau.\n  Schäfer-Scheller, Otto, Tapezierer.\n  Rämisperger-Hemmeler, Gottfried, Spengler.\n  Schäfer-Frei, Emil, Zeughausarbeiter.\n276.* Rothplez-Roth, Schreiners Erbschaft.\n  Adrion-Stauß, Andres, Hafner, von Alpirsbach (Württemberg).\n  Stauß, Sabina, Damenschneiderin, von Weilheim (Hohenzollern).\n  Matt-Rothplez, Wilhelm Friedrich, Schriftsetzer, von Wittlensweiler\n      (Württemberg).\n277.  Woodtli-Huber, J. Diethelm, von Oftringen. Restauration.\n  Bolliger-Speck, Elisabeth, Part., von Schloßrued.\n  Bolliger, Emil, Buchbinder, von Schloßrued.\n278.† Kieser-Leyvraz, Fanny, Metzgers Wittwe, Schweinemetzg.\n279.* Baumberger, Emanuel, in Basel.\n  Schmid-Unger, Rudolf, Weichenwärter, von Erlinsbach.\n  Schmid, Marie, Damenschneiderin, von Erlinsbach.\n  Frei-Dürr, Gottfried, Taglöhner, von Trachselwald (Bern).\n  Nüsperli, Johanna, Weißgerbers, Partik.\n  Wirz-Elsasser, Rudolf, Wärter (Kant. Krankenanstalt), von Schloßrued.\n280. a. Peschl-Schacher, Joseph, Maurer, von Passau (Bayern).\n  Schlapbach-Kuhn, Joh., Ziegler, von Belp (Bern).\n  Bachmann-Müller, Rudolf, Maurer, von Bottenwyl.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7263,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2317,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:26:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p033",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p033.jpeg",
+      "bytes": 262115,
+      "sha256": "f70830a1732bc95143590a9f2b7c1cc2214ea7a4e920939699023810509f7e7d",
+      "sha256_of": "original",
+      "working_copy": "1888_p033.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:39+00:00"
+  }
+}

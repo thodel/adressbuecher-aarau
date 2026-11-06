@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p146",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p146.jpeg",
+    "bytes": 266511,
+    "sha256": "f07a0cdf6d3334c4bde35ea924a036cb183c28b754898ed64344b1e1c212fda7",
+    "sha256_of": "original",
+    "working_copy": "1888_p146.jpeg"
+  },
+  "text": "128\nBierbrauereien.\nErnst-Bistferer (zum Affenfaffen), vordere\nVorstadt 672.\nFischer, Thomas, Zollrain 179.\nHolzach, Dietrich, Bahnhofstrafe 563.\nKüniker, Friedrich, Meggergasse 102.\nSiebenmann, Friedrich, Weinberg 324.\nSiebenmann, Rudolf, Graben 620.\nBierpressionen-Fabrikation.\nKeller, Abr., Mechanifer, Halben 260.\nBildhauer.\nRusterholz & Freihofer, Rainstrafe 886.\nBonneterie-(Unterkleider) chemische\nTricot-Fabrikation.\nSiebenmann-Brun & Sie., hinter dem\nPlaz 212.\nBriesträger.\nDietiker, Adolf, Solattenmattgasse 237 b.\nErnst, Robert, Adelbändli 173.\nHagnauer, Joh. Ludwig, Adelbändli 170.\nHauri, Samuel, Schachen 734.\nHelm, Emil, Zollrain 52.\nBraunenmeister.\nFrei, Ulrich Wilh., Rathhausgasse 4.\nBuchbinder.\nAmsler, Emil, Solattenmattgasse 229.\nAndres, Heinrich, Casinostraße 1176.\nBuser, Jakob, Rainstrafe 881.\nHagenbuch, Friedrich, vordere Vorstadt 676.\nHäfner, Theodor, Milchgasse 153.\nMüller, Jakob, hintere Vorstadt 642.\nRothplex, Heinrich, Stadthof 92 c.\nSandmeier, Gottlieb, obere Vorstadt 955.\nSauerländer, J. R., Buchbinderei en gros,\nLaurenzenvorstadt 1184.\nSchaymann, Samuel, Pelzgasse 135.\nWanger, Gottlieb, Kirchplatz 164.\nWärtli, August, Kirchplatz 166.\nZebert, Georg, Laurenzenthorgasse 116.\nBuchdruckereien.\nAktiengesellschaft des Karg. Tagblattes,\nOberthor 228.\nKeller, Gottfried, Rainstrafe 839.\nSauerländer, J. R., Laurenzenvorstadt 420.\nSpühler, J. J., hintere Vorstadt 622.\nWirz, Emil, (Firma: Christen, J. J.),\nOberthor 139.\nBuchhandlungen.\nAngst, Gottlieb (Bibelsdepot), hinter dem\nPlatz 214.\nWirz, Emil (Firma J. J. Christen),\nOberthor 139.\nSauerländer, J. R., Graben 220.\nButterverkäufer.\nAndres-Bircher, Maria, Oberthor 140.\nJäfer, Joseph, hintere Vorstadt 696.\nObrist, Emil, Meggergasse 100.\nRüetschi, Gottfried, Adelbändli 81.\nSchär, Friedrich, Holzmarktplatz 663.\nSchiefer, Hermann, Pelzgasse 121 (en\ngros et en detail).\nSchmid-Maurer, Mathilde, Rathhaus-\ngasse 29.\nSeiler, Andreas, Rathhausgasse 48.\nBüchsenmacher.\nRyghner, Heinrich, Schloßplatz 196.\nSpycher, Niklaus, Adelbändli 174.\nBürstenhändler.\nFaller geb. Faller, Firma: Gebrüder\nFaller, Kronengasse 41.\nHagnauer, Friedrich, Pelzgasse 68.\nMorath, Johann, Rathhausgasse 2.\nBürstenfabrikanten.\nHagnauer, Friedrich, Pelzgasse 68.\nCamionneure.\nSpinner-Billo, J. J., Bahnhofstrafe 537.\nWüthrich, Jakob und Joh. Jakob, Rath-\nhausgasse 45.\nZiegler, Samuel, Rainstrafe 884.\nCautschouc-Artikel für Kranken-\npflege.\nAngst, Gottlieb, hinter dem Platz 214.\nPfisterer, Emil, vordere Vorstadt 666.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7303,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2476,
+    "lines": 84,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0238,
+    "mean_line_chars": 28.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:29:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p146",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p146.jpeg",
+      "bytes": 266511,
+      "sha256": "f07a0cdf6d3334c4bde35ea924a036cb183c28b754898ed64344b1e1c212fda7",
+      "sha256_of": "original",
+      "working_copy": "1888_p146.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:35+00:00"
+  }
+}

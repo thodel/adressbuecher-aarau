@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p052",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p052.jpeg",
+    "bytes": 215496,
+    "sha256": "8748dd5434a6f16c4c6f41dfe2f432da1e1b57194166676d9626a97717bdd5aa",
+    "sha256_of": "original",
+    "working_copy": "1892_p052.jpeg"
+  },
+  "text": "Haus-\nNr.\nJäger-Bruggisser, Arthur, Dr. med., prakt. Arzt, von Wohlen.\nStierli = Brentano, Ooar Leonz, Fürsprach und Notar, Vize-Stadttam-\nmann, von Arisfau (Advofatur- und Notariats-Bureau).\n616. † Diefelfe. Schene mit Schopf.\n617. †\nWajchhaus.\n618. Frey=Reyhiner, Julie, Fabrikant8 Wittwe,\nWeber-Becf, Gustav, Bezirksarzt, von Menzifcn.\nReimann-Reichli, Gustav, Obergerichtsſchreiber, von Wölflinwyl.\n619. Willimann, Anton, Lohnfutcher (an der Schmiedgaffe aufgenommen).\n620.a. Siebenmann-Rohr, Rudolf, Bierbrauer, Wirthschaft zum Hirfchen.\nFischer, Adolf, Oberft, alt Reg.-Rath, von Reinach.\nStäbli, Ida, Haushälterin, von Brugg.\nKaufmann, Otto, Commis, von Buchs (Luzern).\n620.b.†Derfelbe. Regelbahn und Kühlfchiff.\n117\n119\n126\n123\n124\nHinterc Vorſtadt.\n621. * Siebenmann=Siebenmann, Rudolf, Partikular.\nErismann & Blattner, Weißwaarengeschäft.\nErismann, Marie, Weißnäherin, von Muhlen.\nBlattner, Marie, Weißnäherin, von Rüttigen.\nZiegler-Erismann, Marie, von Veltheim.\nSchmid-Willi, Jof. Ant., Polizeicorporal und Fischereiagent, von Wittnau.\nGanfer, Georg, Schneider, von Lands hut (Tirof).\n622. * Siebenmann-Rohr, Rudolf, Bierbrauer.\nEpihler-Frey, J. J., von Redingen. Redaktor, Druck und Verlag der\n„Aargauer Nachrichten“ und „Aargauerzeitung“.\nBogt, Adolf, Zahnarzt, von Bürglen (Thurgau).\nBaumann geb. Wäder, Suzanna, Haushälterin von Bürglen (Thurgau).\n623. Baumann=Wälti, Kaspar, Milchverkäufer, von Bottenwyl.\nKaffeewirthschaft.\nSchäfer-Funk, Elise, Wittwe.\n624. Bertschinger-Wild, Gustav, von Lenzburg. Spezereihandlung.\nRüetschi-Müperli, Sophie, Wittwe, Part.\nStoffer-Meyer, Emil, Zuschneider, von Mägenwyl.\nSchmiedgaffe.\n625. Baumann-Gautschi, Samuel, Hufschmied.\nBaumann, Fritz, Tohn, Hufschmied.\nMooq-Ganf, Elizabeth, Schuhhändlerin, von Kirmasenf (Bayern).\nWernli-Neefcr, Kaspar, Postkondukteur, von Thalheim.\nAmsler-Baumann, Heinrich, Fabrikaußfcher, von Densbūren.\nHüffer-Müller, Otto, Bremjer, von RemetschwyI.\n626. † Derfelbe. Remife und Waſchftiche.\n619. Willimann-Lehmann, Anton, Lohnfutcher.\nSchefter, Gustav, Bezirksthierarzt, von Schönenwerd (Solothurn).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4604,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2082,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:37:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p052",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p052.jpeg",
+      "bytes": 215496,
+      "sha256": "8748dd5434a6f16c4c6f41dfe2f432da1e1b57194166676d9626a97717bdd5aa",
+      "sha256_of": "original",
+      "working_copy": "1892_p052.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:57+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p037.jpeg",
+    "bytes": 248472,
+    "sha256": "8184f610a2c7625efc279656095ba4e5c42dff8db430f852073498019d8b960c",
+    "sha256_of": "original",
+    "working_copy": "1888_p037.jpeg"
+  },
+  "text": "— 27 —\nHaus=\nNr.\n   Reimann-Reichli, Gustav, Krim.-Gerichtsschreiber, von Wölflinswyl.\n   Hartmann, Joh. Fried., Part., von Mügglingen (Württemberg).\n   Merz-Horlacher, Traugott, Telephonarbeiter, von Beinwyl.\n321. c. Gisi, Lehrers, Erbschaft.\n   Gisi-Ammann, Traugott, Lehrer.\n   Meyer-Lüthi, Jakob, Lehrer.\n322. Oeschger-von Felten, Remigius, von Wyl.\n323.† Derselbe. Schopf.\n324.† Siebenmann-Hagnauer, Friedrich, Brauereigebäude.\n325.† Derselbe. Kegelbahn.\n326. Klingelfuß-Wieseler, Joh. Friedrich, Mechaniker und Eichmeister,\n      von Basel, Spezialfabrikation von Wasserwaagen, Lager in allen\n      Sorten Waagen und Gewichten.\n1102  Siebenmann-Bräm, Otto, Kreiskommandant.\n   Läuchli-Waßmer, Johann, Part.\n\nErlinsbacherstraße.\n\n327.† Fleiner, Alberts, Erbschaft. Cementbrennerei, Fabrik von schwerem\n      hydraulischem Kalk.\n328.† Dieselbe. Kalkofenschopf.\n329.† Dieselbe. Schopf mit Stallung.\n330.† Dieselbe. Büreau mit Steinschopf.\n331.† Dieselbe. Waaghaus.\n1238  † Dieselbe. Thurm mit Transmission.\n332.* Dieselbe. Trotte.\n   Graf-Lüthi, Jakob, Cementarbeiter, von Küttigen.\n   Käser-Fischer, Jakob, Küfer, von Erlinsbach (Solothurn).\n1151  † Dieselbe. Wagenremise.\n333. Siebenmann-Preissig, Katharina, Becks Wittwe.\n   Siebenmann, Fried., Sohn, Part.\n   Zimmermann-Hartmann, Johann, Lehrer, von Kempfhof.\n334.† Dieselbe. Holzschopf.\n335.* Kanalbaukonsortium  Vertreter: Feer, Karl.\n   Hauenschild-Wittmann, Hans, von Berlin (Preußen), Direktor der Cement=\n      fabrik Fleiner.\n1136  † Dasselbe. Schirmhäuschen.\n336. Rothplez-Imhof, Louise, Stadtraths Wittwe.\n   Ganter-Schilling, Heinrich, Professor, von Neustadt (Baden).\n1246  Blattner-Bircher, Hs. Rudolf, Landwirth, von Küttigen.\n337. Kanalbaukonsortium.  Vertreter: Feer, Karl.\n   Weber-Weber, Wilhelm, Milchverkäufer, von Menziken.\n   Roth-Kyburz, Johann, Aufseher, von Obererlinsbach\n   Bodmer-Roth, Johann Julius, Fabrikaufseher, von Erlinsbach (Aargau).\n338. Weber-Gloor, Jb., Dachdecker, von Menziken.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6877,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1974,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:27:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p037.jpeg",
+      "bytes": 248472,
+      "sha256": "8184f610a2c7625efc279656095ba4e5c42dff8db430f852073498019d8b960c",
+      "sha256_of": "original",
+      "working_copy": "1888_p037.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:07+00:00"
+  }
+}

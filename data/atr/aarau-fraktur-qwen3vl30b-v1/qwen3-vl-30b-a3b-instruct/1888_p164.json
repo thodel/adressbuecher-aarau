@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p164",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p164.jpeg",
+    "bytes": 229481,
+    "sha256": "8f851edd202de8b0ac0db8adc293d70eae8c4ec9eb5cd383443ba61770ab529f",
+    "sha256_of": "original",
+    "working_copy": "1888_p164.jpeg"
+  },
+  "text": "146\nDruck und Verlag von Firma J. J. Christen,\nOberthor 139:\nSchweizerische landwirthschaftliche Zeitschrift, 1 Mal monatlich. Preis Fr. 6\nfür Aarau, franco auswärts Fr. 7. 50.\nAlpwirthschaftliche Monatsblätter, 1 Mal\nper Monat. Preis Fr. 3.\nMittheilungen für Land-, Haus- und\nForstwirthschaft, 1 Mal wöchentlich.\nPreis Fr. 4.\n\nDruck und Verlag von Keller, Gottfried,\nRain 839:\nAargauischer Anzeiger, 2 Mal wöchentlich.\nPreis Fr. 5 für Aarau, franco für\nauswärts Fr. 5. 20.\nSuhrenthaler-Bote, 2 Mal wöchentlich.\nPreis Fr. 5 für Aarau, franco für\nauswärts Fr. 5. 20.\nAargauisches Schulblatt, 2 Mal monat-\nlich. Preis für Aarau und auswärts\nFr. 2. 50.\n\nDruck und Verlag von S. R. Sauerländer,\nLaurenzenvorstadt 418:\nBom Zura zum Schwarzwald, viertel-\njahrsweise, per Jahrgang Fr. 6.\nIllustrierte schweizerische Jugendblätter,\n1 Mal monatlich. Preis Fr. 5.\nBienenzeitung, schweizerische, 1 Mal\nmonatlich.\nAmtsblatt des Kantons Aargau, 1 Mal\nwöchentlich. Preis Fr. 6. 50 für Aarau,\nfranco auswärts Fr. 7. 50.\nAarg. Polizei-Anzeiger (Fahndungsblatt).\nDruck und Verlag von J. J. Spühler,\nRedaktor, hintere Vorstadt 622:\nAargauer Nachrichten. 6 Mal wöchentlich.\nPreis Fr. 9 für Aarau, franco aus-\nwärts Fr. 11.\nAargauer Zeitung, 2 Mal wöchentlich.\nPreis Fr. 6 für Aarau und auswärts.\n\nZiegelfabrikanten.\nErnst-Räfer, Friedrich (Strangfalszgiegelei),\nobere Vorstadt 945.\nHauri-Siegenthaler, Karl, Rain 866.\nThut-Sidemann Hermann, Rain 863.\n\nZimmermeister.\nEichenberger, Rudolf, Milchgasse 154.\nHemmeler, Gottlieb, vor dem Halden-\nthor 767.\nHort, Hans, Halben 254.\nNieding, Heinrich, Entfelderstraße 970.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4215,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1595,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0392,
+    "mean_line_chars": 30.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:31:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p164",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p164.jpeg",
+      "bytes": 229481,
+      "sha256": "8f851edd202de8b0ac0db8adc293d70eae8c4ec9eb5cd383443ba61770ab529f",
+      "sha256_of": "original",
+      "working_copy": "1888_p164.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:31:59+00:00"
+  }
+}

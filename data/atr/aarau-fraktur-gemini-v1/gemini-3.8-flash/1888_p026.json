@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p026",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p026.jpeg",
+    "bytes": 258206,
+    "sha256": "3f768499bccb2dd430f1e5f2cb6e5fae266ebf5c16a4fc174f8f73dbe2efe3e5",
+    "sha256_of": "original",
+    "working_copy": "1888_p026.jpeg"
+  },
+  "text": "— 16 —\nHaus-\nNr.\n  Dürr, Emil, Sohn, Sekretär.\n  Gloor, Wilhelmine, Taglöhnerin, von Dürrenäsch.\n  Gloor, Bertha, Damenschneiderin, von Dürrenäsch.\n172.* Wehrli-Haßler, Friedrich, Pedell.\n  Haßler, Sophie, Glätterin.\n  Haßler, Julie, Modistin.\n  Fischer, Louise, Messerschmieds, Damenschneiderin.\n  Weilemann-Schurter, Joh. Heinrich, Werkführer, von Birmenstorf\n    (Zürich).\n  Hermann, Elisabeth, Taglöhnerin, von Rohrbach (Bern).\n  Michel, Katharina, Spetterin, von Olten.\n173.* Hunziker, F., Stabsfouriers Erbschaft.\n  Schaffner-Meier, Jakob, Bahnwärter, von Effingen.\n  Kull-Hartmann, Fried., Drucker, von Fluntern (Zürich).\n  Ernst-Döhnel, Robert, Briefträger.\n  Ott geb. Schär, Marie, Taglöhnerin, von Biberstein.\n174.* Fisch-Buser, Wittwe’s Erbschaft.\n  Spycher, Niklaus, Büchsenmacher, von Köniz (Bern).\n  Merz-Umiker, Jakob, Taglöhner, von Beinwyl.\n  Beck-Merz, Susanna, Wittwe.\n  Beck, Karoline, Weißnäherin.\n  Dürr-Graden, Hieron., Straßenwärter.\n  Wanger, Lisette, Buchbinders, Part.\n  Fischer-Widler, Ernestine, Wittwe, Taglöhnerin.\n  Fischer, Hedwig, Damenschneiderin.\n175. Staat Aargau. Kathol. Pfarrhaus.\n  Fischer-Keller, Xaver, christkathol. Pfarrer, von Triengen.\n  Jeggli-Widmer, Karolina, Wittwe, Part.\n  Flühmann, Elise, Seminarlehrerin, von Aeschi (Bern).\n\nRathhausgasse.\n\n176.* Gemeinde Aarau. Rathhaus. Städtische Polizeiwache, Zahlkasse,\n    Fremdenbureau und Sektionschef. Sitz der Jury, des Obergerichts,\n    des Bezirksgerichts und des Gemeinderathes, Gemeindekanzlei und\n    Bureau des Bauverwalters, des Fondsverwalters und Forstver-\n    walters.\n  Siebenmann-Merz, Emil, Gemeindeweibel und Rathhausabwart.\n\nZollrain.\n\n177. Schmidt-Correvon, Robert, Negotiant, z. Bären, Spezerei-, Korb-\n    und Tapetenhandlung.\n  Wengi-Kalt, Adolf, Postbeamter.\n  Lindenmann-Wey, Marie, Wittwe, von Fahrwangen.\n  Lindenmann, Jda, Telegraphistin, von Fahrwangen.\n  Lindenmann, Emma, Privatlehrerin, von Fahrwangen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7181,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1929,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.09,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:25:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p026",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p026.jpeg",
+      "bytes": 258206,
+      "sha256": "3f768499bccb2dd430f1e5f2cb6e5fae266ebf5c16a4fc174f8f73dbe2efe3e5",
+      "sha256_of": "original",
+      "working_copy": "1888_p026.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:45+00:00"
+  }
+}

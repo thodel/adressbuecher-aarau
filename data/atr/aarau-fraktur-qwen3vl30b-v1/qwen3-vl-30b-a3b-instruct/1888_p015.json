@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p015",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p015.jpeg",
+    "bytes": 252824,
+    "sha256": "816cd5abbb588c1fb339051566b5fefe162598469ce3bb4742d1bbe48df23d4b",
+    "sha256_of": "original",
+    "working_copy": "1888_p015.jpeg"
+  },
+  "text": "Haus-\nNr.\n41. Faller geb. Faller, Elise Louise, Wittwe, von Raitenbuch, Grosh. Baden,\nFirma Gebr. Faller, Militärartikel, Eisen- und Quincailleriewaren-\nHandlung.\nFaller, Karl Friedrich, Sohn, Kaufmann, von Raitenbuch, Grosh. Baden.\n\nRathhausgasse.\n42. Härbi, Wilhelm, Goldschmied, von Lenzburg, Gold- und Silberwaren-\nHandlung.\nKirchner-Bonwiller, Jda, Modistin, von Merseburg (Preußen), Mode-\nwaarengeschäft.\nHugi, Maria, Coiffeuse, von Selzach (Solothurn).\nBonwiller, Emilie, Klavierlehrerin, von St. Gallen.\n43. Hofer-Schaffner, Gottlieb, Kaufmann, Spezerei- und Ellenwaaren-\nhandlung.\n44. Wernli-Blauer, Andreas, Schuhmachermeister, von Thalheim. Schuh-\nhandlung.\nGisi, Lisette, Modelltecherz, Part.\nGottschall, Amalie, Modistin.\n45. Fehlmann-Bräc, Kaspar, Bäcker.\nMösch-Mösch, Karl, Güterexpedient, von Frid.\nGuggenheim-Guggenheim, Rosa, Wittwe, Part., von Lengnau.\nGuggenheim, Fanny, Schneiderin, von Lengnau.\nStigeler-Glätti, Jakob, Zimmermann, von Eglisau (Zürich).\nHirt geb. Wehrli, Elisabeth, Wittwe, Spetterin, von Zegzwyl.\nWütherich-Stirnemann, Jakob, Camioneur, von Eggwyl (Bern).\nRoth-Eahli, Samuel, Hausknecht, von Zegzwyl.\n46. Hässig-Lienhard, Hermann, Bäcker und Pintenwirth.\nHagenbuch-Hagenbuch, August, Sekretär.\n47. * Hässig-Lienhard, Hermann, Bäcker und Pintenwirth.\nFrei, Albert, von Densbüren, Uhrenmachereigeschäft.\nMeißner-Baumgardt, Karl, Steindrucker, von Grosglogau (Schlesien).\nHässig, Elise und Rosette, Glätterinnen.\nHässig-Straubhaar, Gottlieb, Feinschleifer.\n48. Seiler-Hanhart, Andreas, Bäckermeister.\n49. * Camper & Cie. (Anteilshaber: Müller-Haberich, Fr., Camper-Zürcher,\nHermann, und Camper-Baumann, Emil.) Lager in Herren- und\nDamen-Kleiderstoffen, Damen-Confection, Anfertigung von Herren-\nkleidern nach Maß.\n\nZollrain.\n50. * Dieselben. Magazin.\n51. Ehrsam-Landolt, Jakobs, Part's. Erbschaft.\nEhrsam, Johanna, Jakobs, Bäckers sel. Wittwe, Part.\nRohner, Emil, Bäcker und Pintenwirth.\nRohner geb. Ehrsam, Elise, Arzts Wittwe, Part.\nWehrli-Bolliger, Karl, Gasmeister, von Rüttigen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4152,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2019,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0435,
+    "mean_line_chars": 42.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p015",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p015.jpeg",
+      "bytes": 252824,
+      "sha256": "816cd5abbb588c1fb339051566b5fefe162598469ce3bb4742d1bbe48df23d4b",
+      "sha256_of": "original",
+      "working_copy": "1888_p015.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:47+00:00"
+  }
+}

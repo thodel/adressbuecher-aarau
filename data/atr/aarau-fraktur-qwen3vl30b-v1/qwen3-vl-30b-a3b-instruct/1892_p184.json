@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p184",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p184.jpeg",
+    "bytes": 166918,
+    "sha256": "cc157a7c3e6beafe0b9f191b6b7bed82198c6c03b567ac55ff6f7e05ffeaea94",
+    "sha256_of": "original",
+    "working_copy": "1892_p184.jpeg"
+  },
+  "text": "168\nNachtrag und Berichtigungen.\nErne, Jakob, Schuster von Bütstein, Milchgasse 153.\nHerzog-Tschanz, Gottlieb, Kaufmann von Reckingen, obere Vorstadt 926.\nHäusler-Müri, Joseph, Heizer von Schwaderloch (Aargau), hinter dem Bahnhof 1072.\nHurni-Bütcher, Adolf, Schneider von Gurbrü (Bern), Milchgasse 147.\nJäggi, Wilhelmine, Lehrerin auf Seite 46 ist angegeben von Strengelbach. Dieselbe ist von Aarau.\nLäuchli, Johann, Commis und Lina, Glätterin wohnen h. d. Bahnh. 496.\nMarti-Aeschbach, Elise von Eytzton (Solothurn), Gais 1106.\nMeier-Schait, Jakob, Gärtner von Dintiken, Gais 1105.\nMettauer-Schaub, Joseph, Bahnarbeiter von Gipf, Golattenmattg. 233.\nSchneider-Rychner, Gustav, Dr. Zürfprech, Oberrichter auf Seite 63 ist angegeben von Aarau. Derselbe ist von Zürich.\nBogel, Paul, Alaviermacher und Stimmer, Nachfolger von u. Lutz, von Zürich, obere Vorstadt 948.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 2688,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 873,
+    "lines": 14,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 61.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0023,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:50:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p184",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p184.jpeg",
+      "bytes": 166918,
+      "sha256": "cc157a7c3e6beafe0b9f191b6b7bed82198c6c03b567ac55ff6f7e05ffeaea94",
+      "sha256_of": "original",
+      "working_copy": "1892_p184.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:46+00:00"
+  }
+}

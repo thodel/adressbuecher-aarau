@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p162",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p162.jpeg",
+    "bytes": 232898,
+    "sha256": "927c7b08f19a298e8d0d532da5b88851adc69a2a810fbbcc70ac916fa9a6e5d3",
+    "sha256_of": "original",
+    "working_copy": "1892_p162.jpeg"
+  },
+  "text": "146\n\nInstrumentmacher.\nHirsbrunner, Jakob, Halden 255.\nHirsbrunner, Gottfried, Halden 255.\n\nKappenmacher.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vordere Vorst. 893.\n\nKastanienverkäufer.\nDürr, Gabriel, Graben 1237.\n\nKaminfeger.\nHaßler, Eduards, Wittwe, Halden 248.\nVogel, Rudolf, Entfelderstraße 1147.\nWägeler, Karl, vor dem Haldenthor 1306.\n\nKäsehandlungen.\nBaumann, Kaspar, hintere Vorstadt 623.\nEtter, Reinhard, Rain 825.\nMarti, Arnold, Halden 281.\nRüetschi, Marie, Adelbändli 81.\nScheidegger, Joh. Ulrich, Holzmarkt 663.\nSchießer, Hermann (en gros et en détail),\n  Pelzgasse 121.\nStirnemann, Jakob, Zollrain 91.\nUrben, Johann, Casinostraße 660.\n\nKalkfabrikanten.\nFleiner, Albert, Fabrik von schwerem\n  hydraulischem Kalk, Erlinsbacher-\n  straße 327.\nHauri-Siegenthaler, Karl, Rain 866.\nThut-Gidemann, Hermann, Rain 863.\n\nKerzenfabrikanten.\nErdin, Siegfried, Hammer 185 b.\nMaurer, Emil, zum Kreuz, jenseits der\n  Aare 1303 a.\n\nKinderwagen.\nHäfeli, Joseph, Sattler, Kirchgasse 15.\nKyburz, Gotthold, Sattler, Entfelder-\n  straße 968.\nLüthi, Alexander, Sattler, Casinostr. 660.\nSchmid, Adolf, Sattler, Bachstraße 1028.\n\nKinderspielwaaren.\nHemmeler-Haßler, August, Mezgergasse 55.\nHemmeler & Cie., hintere Vorstadt 638.\n  (en gros).\nHemmeler-Stahl, Jakob, Rathhausgasse 21.\n\n[spalte 2]\nMorath, Johann, Rathhausgasse 2.\nSchmid, Joh. (Pariser Bazar), vordere\n  Vorstadt 889.\nSchmuziger, Marie (vormals Firma:\n  Schmuziger-Fisch), Rathhausgasse 1.\nVonfelten-Willimann, Franz Joseph,\n  Kronengasse 37.\n\nKlavierhandlung.\nBurgmeier, Joseph, Laurenzenthorg. 117.\n\nKleiderhandlungen.\nAckermann-Buser, Albert, vordere Vor-\n  stadt 890.\nDreßler, Laurenz (Camisasca's Nach-\n  folger), Rain 826.\nGamper & Cie., Rathhausgasse 49—50.\nGerber, Gustav, vordere Vorstadt 670.\nGisi-von Arx, Viktor, Holzmarkt 664.\nHefti, Peter, Mezgergasse 100.\nHofer, Gottlieb, Rathhausgasse 43.\nMatter, Jakob, Adelbändli 170.\nSchneeberger-Salvi, Jakob, Rathhaus-\n  gasse 3.\nSiebenmann, Gebr., March. Tailleur,\n  Oberthor 226.\n\nKleiderreiniger.\nHunziker, Gottlieb, Adelbändli 84.\n\nKleiderfärberei.\nWyßer, Alfred, Bachstraße 1055.\n\nKohlen-, Briquettes- und Coaks-\nhandlungen.\nGasfabrik Aarau, Zollrain 786.\nHitz-Lanz, Otto, Rain 875.\nLagerhäuser derCentralschweiz, Laurenzen-\n  vorstadt 545.\nRohr-Hässig, Emma, Laurenzenthorg. 119.\nSchmidlin-Lutz, Theodor, vor dem Halden-\n  thor 755.\nSpinner-Billo, F. J., Bahnhofstraße 535.\nTrefzger, Gustav, Färbergäßchen 213.\nWidmer, Samuel, Halden 276.\n\nKorbwaaren.\nHemmeler-Stahl, Jakob, Rathhausg. 21.\nLenzi, Jakob, vordere Vorstadt 675.\nSchmidt, Robert, z. Bären, Zollrain 177.\nSteffen, Albert, Bahnhofstraße 1074.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8455,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2640,
+    "lines": 90,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 27.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:04:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p162",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p162.jpeg",
+      "bytes": 232898,
+      "sha256": "927c7b08f19a298e8d0d532da5b88851adc69a2a810fbbcc70ac916fa9a6e5d3",
+      "sha256_of": "original",
+      "working_copy": "1892_p162.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:04:39+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p028",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p028.jpeg",
+    "bytes": 313661,
+    "sha256": "7e153c4ba0ad54d1c927cfec577db7669ae36504f58f5725f313bad2858daf60",
+    "sha256_of": "original",
+    "working_copy": "1884_p028.jpeg"
+  },
+  "text": "24\nGraf. — Hagnauer.\nGraf, Susanna, Spetterin, von Rohr, Rainstraße 875.\nGramer, Johann August, Commis, von Weitingen (Württemberg), Rath-\nhausgasse 22.\n*Gränicher-Kichner, Rosa, Briefträger's Wittwe, Partif., Kirchplatz 162.\n* — Wärtli, Jakob, Schneidermeister, Kirchplatz 162.\n* — Müttschi, Marie, Wittwe, Partif., obere Vorstadt 929.\n* — Benjamin, Sattler, Bachstraße 1038.\nGrether, Maria, Damenschneiderin, von Tannenkirch (Großh. Baden),\nRainstraße 832.\n— Katharina, Damenschneiderin, von Tannenkirch (Großh. Baden),\nRainstraße 832.\n— Julie, Erzieherin, von Tannenkirch (Großh. Baden), Rainstraße 832.\nGrolimund-Gröbli, Sigmund, Buchhandlungs-Angestellter, von Beinwyl\n(Solothurn), Kronengasse 33.\nGroß, Ludwig, Karl, Buchhändlergeschülfe von Ludwigsburg (Württemberg),\nZollrain 87.\nGröner-Dreifus, Jakob, Kaufmann von Endingen, Igelweid 619.\nGruber-Lang, Weinrad, Bahnvärter v. Schönenwerd (Soloth.), Rain 859.\nGuggenheim-Bollag, Julius, Kaufmann von Ober-Endingen, Tuchhdlg.,\nKronengasse 34.\n— Guggenheim, Rosa, Wittwe, Partif., von Lengnau, Rathhausgasse 45.\n— Fanny, Damenschneiderin von Lengnau, Rathhausgasse 45.\nGuggisberg-Beck, Emil, Bäckermeister, v. Verøy (Waadt), Bahnhofstraße 569.\nGutentag, Xyldor Jul., Prof., v. Chenskoftau (Preußen), Bahnhofstr. 535.\n*Güter-Wagner, August, Fabrikant, in der Zelli 456.\n* — Gunzel, Oskar, Sohn, Fabrikant, in der Zelli 456.\nGünthard-Hauri, Marie, Wittwe, Weißnäherin von Hedingen (Zürich),\nSchachen 739.\n*Haas, Emil, Fergar, von Waldenburg (Baselland), Rathhausgasse 46.\nHaberstich-Fleiner, Johann, Fürsprach, Laurenzenvorstadt 413.\n* — Scheuermann, Samuel, Schulinspektor, obere Vorstadt 938.\n* — Stöckli, Jakob, Zinsrodelverwalter, v. Ober-Entfelsen, Rainstraße 858.\n*Hagenbuch-Hagenbuch, August, Sekretär, Rathhausgasse 46.\n* — Hagenbuch, Verena, Wollenwaarenhandlung, Rathhausgasse 5.\n* — Egger, Friedrich, Buchbinder, vordere Vorstadt 676.\n* — Groß, Karl, Coiffeur, Rainstraße 819.\n* — Jakob, Buchhalter, Rainstraße 821.\n* — Rämisperger, Rosina, Glaser's Wittwe, Pelzgasse 63.\n* — Ernst, Marie, Schneider's Wittwe, vordere Vorstadt 902b.\n* — Abele, Musiklehrerin, Kronengasse 33.\n*Hagnauer-Dätwyler, Friedrich, Bürstenmacher, Pelzgasse 68.\n* — Gottlieb, Meßger, Halben 266b.\n* — Wildberger, Barbara, Wittwe, Partif., neues Quartier 988.\n* — Hedwig, Lehrerin, im Weinberg 1102.\n* — Rapar, Johann Ludwig, Briefträger, Adelbändli 170.\n* — Louise, Pfarer's, Partif., hinter dem Platz 214.\n* — Zimmermann, Albert, Kaufmann, Bachstraße 1137.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5381,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2494,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 49.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:11:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p028",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p028.jpeg",
+      "bytes": 313661,
+      "sha256": "7e153c4ba0ad54d1c927cfec577db7669ae36504f58f5725f313bad2858daf60",
+      "sha256_of": "original",
+      "working_copy": "1884_p028.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:37+00:00"
+  }
+}

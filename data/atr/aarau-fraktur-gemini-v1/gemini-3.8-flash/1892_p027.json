@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p027",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p027.jpeg",
+    "bytes": 223943,
+    "sha256": "0f377103382c0b0a4751bf340943cbe87a917181c3bf0752b67f0709244c5f49",
+    "sha256_of": "original",
+    "working_copy": "1892_p027.jpeg"
+  },
+  "text": "— 19 —\n\n  Haus-\n  Nr.\n204. Schmidlin, Theodor, Fabrikant chemischer Produkte.\n  Frey-Schmidlin, Othmar, Fürsprech, Vice-Bankdirektor.\n205. *Rohr-Härdi, Erbschaft.\n  Firma: Großmann, Otto, Handelsgärtnerei und Samenhandlung.\n    Blumenbazar.\n  Steiner-Schürch, Anna, Part., von Dürrenäsch.\n  Bolens-Richner, Selma, Part., von Morges (Waadt).\n  Horlacher, Wilhelm, Kaufmann, von Umiken.\n206. Schießer-Hässig, Hermann, Kaufmann. Käsehandlung en gros.\n  Pfau, Johann Jakob, Bankangestellter, von Schaffhausen.\n207. *Markwalder-Gamper, Traugott, Oberstlieutenant, Kavallerie-\n    Instruktor I. Klasse.\n  Kirchner-Bonwiller, Ida, Modistin, von Merseburg (Preußen). Mode-\n    waaren-Geschäft.\n  Hugi, Marie, Coiffeuse, von Selzach (Solothurn).\n208. Abgetragen; an dessen Platz\n1237. Dürr-Lüscher, Gabriel, Gemüsehändler. Restauration.\n  Riniker-Luz, Adolf, Kaufmann.\n  Riehl-Dürr, Charles, Koch, von Obernai (Elsaß).\n209. Kieser-Haßler, Samuel, Postkassier.\n  Burgmeier-Kieser, Joseph, Gesanglehrer.\n  Haßler, Margaretha, Glasers, Part.\n\nHinter dem Platz.\n210. Wildi-Aeschbach, Emil, Schreiner, von Suhr.\n211. †Gemeinde Aarau. Spritzenhaus Nr. 8.\n212. *Bäuerlin & Kummler, Elektricitätswerk Aarau. Fabrikgebäude.\n213. Trefzger-Schöndli, Gustav, Dampf-Wasch- und Badanstalt.\n214. *Siebenmann, Adolf und Fanny.\n  Angst-Hässig, Gottlieb, Negotiant, von Eglisau (Zürich).\n  Angst, Robert, Sohn, Kaufmann, von Eglisau (Zürich).\n    Buchhandlung für christliche Literatur und Depot der aarg. Bibel-\n    gesellschaft. Artikel für Krankenpflege. Depot der internationalen\n    Verbandstoff-Fabrik Schaffhausen. Chemisch-technische Präparate,\n    Schwämme und chinesischer Thee.\n  Faßler, Marie, Priv., von Densbüren.\n\nGraben.\n215. Allgemeine aargauische Ersparnißkasse.\n  Imhof-Munzinger, Emil, Part.\n  Welti-Siebenmann, Henriette, Part.\n  Welti, Lisa, Part.\n216. Meister-Gisi, Georg, Bäcker u. Pintenwirth, von Matzendorf (Solothurn).\n  Lorenz-Isaak, Joseph, Arzt, von Klingnau.\n217. Buser-Müller, Heinrich, Hufschmied.\n  Zschokke-Voitel, Margaretha, Wittwe, Part.\n218. Urech-Imhof, Fried., Part.\n  Ott, Kaspar, Rentier, von Zürich.\n  Akeret, Jakob, Krankenwärter, von Nußbaumen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9297,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2164,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.72,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:47:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p027",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p027.jpeg",
+      "bytes": 223943,
+      "sha256": "0f377103382c0b0a4751bf340943cbe87a917181c3bf0752b67f0709244c5f49",
+      "sha256_of": "original",
+      "working_copy": "1892_p027.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:48+00:00"
+  }
+}

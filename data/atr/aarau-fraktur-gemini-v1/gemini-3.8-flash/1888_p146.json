@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p146",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p146.jpeg",
+    "bytes": 266511,
+    "sha256": "f07a0cdf6d3334c4bde35ea924a036cb183c28b754898ed64344b1e1c212fda7",
+    "sha256_of": "original",
+    "working_copy": "1888_p146.jpeg"
+  },
+  "text": "128\n\nBierbrauereien.\nErnst-Pfisterer (zum Affenkasten), vordere\n  Vorstadt 672.\nFischer, Thomas, Zollrain 179.\nHolzach, Dietrich, Bahnhofstraße 563.\nRiniker, Friedrich, Metzgergasse 102.\nSiebenmann, Friedrich, Weinberg 324.\nSiebenmann, Rudolf, Graben 620.\n\nBierpresssionen-Fabrikation.\nKeller, Abr., Mechaniker, Halden 260.\n\nBildhauer.\nRusterholz & Freihofer, Rainstraße 886.\n\nBonneterie- (Unterkleider) chemische\nTricot-Fabrikation.\nSiebenmann-Brun & Cie., hinter dem\n  Platz 212.\n\nBriefträger.\nDietiker, Adolf, Golattenmattgasse 237 b.\nErnst, Robert, Adelbändli 173.\nHagnauer, Joh. Ludwig, Adelbändli 170.\nHauri, Samuel, Schachen 734.\nHelm, Emil, Zollrain 52.\n\nBrunnenmeister.\nFrei, Ulrich Wilh., Rathhausgasse 4.\n\nBuchbinder.\nAmsler, Emil, Golattenmattgasse 229.\nAndres, Heinrich, Casinostraße 1176.\nBuser, Jakob, Rainstraße 881.\nHagenbuch, Friedrich, vordere Vorstadt 676.\nHaßler, Theodor, Milchgasse 153.\nMüller, Jakob, hintere Vorstadt 642.\nRothpletz, Heinrich, Stadthof 92 c.\nSandmeier, Gottlieb, obere Vorstadt 955.\nSauerländer, H. R., Buchbinderei en gros,\n  Laurenzenvorstadt 1184.\nSchatzmann, Samuel, Pelzgasse 135.\nWanger, Gottlieb, Kirchplatz 164.\nWärtli, August, Kirchplatz 166.\nZebert, Georg, Laurenzenthorgasse 116.\n\nBuchdruckereien.\nAktiengesellschaft des Aarg. Tagblattes,\n  Oberthor 228.\nKeller, Gottfried, Rainstraße 839.\n[spalte 2]\nSauerländer, H. R., Laurenzenvorstadt 420.\nSpühler, J. J., hintere Vorstadt 622.\nWirz, Emil, (Firma: Christen, J. J.),\n  Oberthor 139.\n\nBuchhandlungen.\nAngst, Gottlieb (Bibeldepot), hinter dem\n  Platz 214.\nWirz, Emil (Firma J. J. Christen),\n  Oberthor 139.\nSauerländer, H. R., Graben 220.\n\nButterverkäufer.\nAndres-Bircher, Maria, Oberthor 140.\nJäker, Joseph, hintere Vorstadt 696.\nObrist, Emil, Metzgergasse 100.\nRüetschi, Gottfried, Adelbändli 81.\nSchär, Friedrich, Holzmarktplatz 663.\nSchießer, Hermann, Pelzgasse 121 (en\n  gros et en detail).\nSchmid-Maurer, Mathilde, Rathhaus-\n  gasse 29.\nSeiler, Andreas, Rathhausgasse 48.\n\nBüchsenmacher.\nRychner, Heinrich, Schloßplatz 196.\nSpycher, Niklaus, Adelbändli 174.\n\nBürstenhändler.\nFaller geb. Faller, Firma: Gebrüder\n  Faller, Kronengasse 41.\nHagnauer, Friedrich, Pelzgasse 68.\nMorath, Johann, Rathhausgasse 2.\n\nBürstenfabrikanten.\nHagnauer, Friedrich, Pelzgasse 68.\n\nCamioneure.\nSpinner-Billo, J. J., Bahnhofstraße 537.\nWüthrich, Jakob und Joh. Jakob, Rath-\n  hausgasse 45.\nZiegler, Samuel, Rainstraße 884.\n\nCaoutchouc-Artikel für Kranken-\npflege.\nAngst, Gottlieb, hinter dem Platz 214.\nPfisterer, Emil, vordere Vorstadt 666.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8725,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2529,
+    "lines": 85,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0235,
+    "mean_line_chars": 28.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:40:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p146",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p146.jpeg",
+      "bytes": 266511,
+      "sha256": "f07a0cdf6d3334c4bde35ea924a036cb183c28b754898ed64344b1e1c212fda7",
+      "sha256_of": "original",
+      "working_copy": "1888_p146.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:40:36+00:00"
+  }
+}

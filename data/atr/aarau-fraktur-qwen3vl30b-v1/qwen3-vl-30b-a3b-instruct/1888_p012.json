@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p012",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p012.jpeg",
+    "bytes": 270337,
+    "sha256": "de76ec8477678417eb669a4cfc1b5778c250f7322486c81aa850e770bc23be33",
+    "sha256_of": "original",
+    "working_copy": "1888_p012.jpeg"
+  },
+  "text": "Hauss\nNr.\nBaumgartner, Adolf, Commis, von Denfingen (Solothurn).\nFrei-Mösch, Ulrich Wilhelm, Werk- und Brunnenmeister, von Zurzach.\nKohr-Wehrli, Daniel, Bauamtsarbeiter, von Hunzenschwyll.\nFurrer-Motter, Erhardt, Schneider, von Volkten (Solothurn).\n5. Weibe zahl, Leonhardt, Apotheker, von Gotha.\nMürset, Karl Friedrich, Apothekergehilfe, von Diess (Bern).\nHagenbuch-Hagenbuch, Verena, Stickeri- und Wollenwaarenhandlung.\nHärrri-Linder, Rudolf, Direktionssekretär, von Birmwil.\nKirchgasse.\n6. * Staats Aargau, Pfarrhelfergebäude.\nFrei-Rauchenstein, Eduard, Pfarrhelfer.\n7. * Bidella, Manuel, Sohn, von Sitges (Spanien), Spanische Weinhalle.\nWeinhandlung.\nGoball, Josef, Kellner, von Bonastre (Spanien).\n8. a. Fuchs, Maria, Part., von Remigen.\nGantner geb. Fuchs, Elise, Schneiderin, von Grabs (St. Gallen).\nHoffmann-Suter, Christoph, von Schwabach (Baiern), Coiffeurgeschäft.\nHediger-Buchmüller, Samuel, Gärtner, von Reinach.\n8. b. Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\nLienberger-Weber, Kaspar, Schuhmachermeister, von Spreitenbach.\n9. a.+ Gemeinde Aarau, Feuerlöschmagazin.\n9. b. Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n10. a. Rychner-Thommen, Friedrich, Spenglermeister, Spenglerwaaren\nhandlung.\nHaberstich-Huber, Gottlieb, Part., von Oberentfelden.\nHächler-Peter, Gottlieb, Bauamtsarbeiter, von Teufenthal.\nCrismann-Hübi, Samuel, Holzspalter, von Schlozrued.\nAeschbach-Steiner, Rudolf, Steinhauer, von Hendshifon.\nCrismann, Rudolf, Taglöhner, von Kirchrued.\n10. b. Rychner-Thommen, Friedrich, Spenglermeister.\n11. Hány-Hány, Rudolf, Part., von Kölliken.\nHäny, Hermann, Sohn, Bäcker, von Kölliken.\nBeyer-Böß, Wilhelmine, Wäscherin u. Glätterin, von Lostorf (Solothurn).\n12. Weidmann-Albrecht, Albert, Tapezierer, von Bachs (Zürich).\nAeschbach, Maria, Modistin, von Mühlthal.\nMäder, Henriette, Modistin, von Köln.\nMatter-Thomann, Maria, Wittwe, Wäscherin, von Kölliken.\n13. * Berner-Egli, Hermann, Zahnarzt.\nHertfelder geb. Bär, Maria, Wittwe, Part.\nMürset geb. Hediger, Maria, Wittwe, Part., von Diess (Bern).\nMürset, Maria, Coiffeuse, von Diess (Bern).\n14. Berner-Mauch, Rudolf, Part.\n15. Lüthi-Kneubühler, Eduard, Sattler und Tapezierer, von Bleienbach\n(Bern).\nHoffmann-Suter, Christoph, Coiffeur, von Schwabach (Baiern).\nBaltisberger-Wullschleger, Arnold, Polizeidienner, von Ostringen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4630,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2338,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p012",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p012.jpeg",
+      "bytes": 270337,
+      "sha256": "de76ec8477678417eb669a4cfc1b5778c250f7322486c81aa850e770bc23be33",
+      "sha256_of": "original",
+      "working_copy": "1888_p012.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:34+00:00"
+  }
+}

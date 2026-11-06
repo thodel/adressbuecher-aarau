@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p047",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p047.jpeg",
+    "bytes": 322825,
+    "sha256": "38448bf5d4835350eb7650128a369e8445c988f8df8be00261afedc0e792b541",
+    "sha256_of": "original",
+    "working_copy": "1884_p047.jpeg"
+  },
+  "text": "Schmidt. — Schürch.\n43\n*Schmidt-Hagnauer, Gustav, Kaufmann, Graben 202.\n* — Jenny, Modistin, Rathausgasse 44.\n* — =Häusler, Verena, Gärtners Wittwe, Spetterin, Halden 256.\n* — =Siebenmann, Adolf, Sattlermeister, Bahnhofstrake 648.\n* — Robert, Malermeister, Bahnhofstrake 648.\n* — =Lanz, Adolf, Kaufmann u. Versicherungsagent, obere Vorstadt 935.\n*Schmitter-L’huiller, Adele, Fabrikants Wittwe, Partik., in der Gais 480.\nSchmuz-Weber, Anna, Spetterin, von Eptingen (Baselland), Halben 284.\n*Schmuziger, Marie, Schreibmaterialien- und Quincailieriewarenhandlung,\nRathausgasse 1.\n* — =Jacot, Karl, Rentier, Milchgasse 157.\n* — =Zulauf, Marie, Partik., Abelbändli 86.\n* — Rosa, Damenschneiderin, Abelbändli 86.\n* — Verena, Fabrikarbeiterin, Milchgasse 160.\n* — Sufette, Fabrikarbeiterin, Milchgasse 160.\n* — =Kern, Johann, Baumeister, jenseits der Vare 294.\n* — =Müller, Emma, Wittwe, Partik., Laurenzenvorstadt 401.\n* — =Koller, Daniel, Baumeister, hinter dem Bahnhof 503.\n* — =Rüetschi, Emil, Pedell, Cafinostrake 584.\n* — Mina, Modistin, Cafinostrake 584.\n* — =Bühler, Gottlieb, Schneidermeister u. Spezereihändler, Ziegelrain 703.\n* — =Hochstraker, Maria, Wäscherin, Schachen 734.\n* — Lina, Partik., Rainstrake 829.\n* — =Zeller, Tabitha, Partik., Rainstrake 831.\n* — =von Grigoriow, Friedrich, Arzt, Dr. med., vordere Vorstadt 903.\n* — Sophie, Partik., Kirchgasse 12.\n* — Traugott, Malermeister, neues Quartier 970.\n* — =Lang, Gottlieb, Schreinermeister, Schachen 729.\n* — Juliane, Partik., Bahnhofstrake 1173.\n* — Otto, Spengler, vor dem Halbenthor 767.\n*Schneider-Läuchli, Ulrich, Schlossermeister, Golattenmattgasse 234.\n— =Brufer, Ferd., Bankangestellter, von Magden, Laurenzenvorstadt 552.\n— =Mösch, Fridolin, Oberrichter, von Herznach. Rainstrake 871.\n— Gustav, Schuhmacher u. Zeitträger, von Zürich, Mezgergasse 100.\n— =Mattenberger, Johann Theodor, Musikdirektor, von Untergleichfeld\n(Bayern), Cafinostrake 660.\n— =Kyfer, Franz Xaver, Kondukteur, von Herznach, obere Vorstadt 946.\n*Schoder-Hauser, Wilhelm, Gerichtspräsident, neues Quartier 1129.\nSchori-Suter, Fried., Mechaniker, v. Seedorf (Bern), vor d. Halbenth 1084.\n*Schöchli-Ryburz, Louis, Partik., Rathausgasse 23.\nSchönenberg-Häufelmann, Jh., Bäcker, von Unterkulm, Milchgasse 142.\nSchreier-Wehrli, Gustav, Commis, von Biberist (Soloth.), Milchgasse 153.\nSchumacher-Schaffner, Arn., Bahnarbeiter, v. Wangen (Soloth.), Zgelm. 635.\nSchumann-Kingier, Albert, Prof., von Gotha (Sachsen), Rainstrake 878.\n— Ernestine, Partik., von Gotha (Sachsen), Rainstrake 878.\nSchürch-Müller, Ad., Buchhalter, von Othmarzingen, jenseits der Vare 339.\n— Adolf, Commis, von Worb (Bern), Zollrain 88.\n— Adolf, Fabrikant, von Bären z. Hof (Bern), neues Quartier 992.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5888,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2711,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.24,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:13:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p047",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p047.jpeg",
+      "bytes": 322825,
+      "sha256": "38448bf5d4835350eb7650128a369e8445c988f8df8be00261afedc0e792b541",
+      "sha256_of": "original",
+      "working_copy": "1884_p047.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:13:32+00:00"
+  }
+}

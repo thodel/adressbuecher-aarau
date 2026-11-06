@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p046",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p046.jpeg",
+    "bytes": 265031,
+    "sha256": "2b3f05fe1846ebdb1b652d7a15df604881e994acff1ff120eab85d889f93443d",
+    "sha256_of": "original",
+    "working_copy": "1888_p046.jpeg"
+  },
+  "text": "— 36 —\n\nHaus=\nNr.\n497. Brügger=Sommerhalder, Christian, Controlleur, von Churwalden\n  (Graubünden). Spezialität: Verkauf von alten und neuen Velt-\n  linerweinen und luftgedörrtem Bündner Rind- und Ochsenfleisch.\n  Bircher-Kyburz, Anna, Wittwe, Part., von Küttigen.\n  Gloor-Bachmann, Rud., Lagerhausarbeiter, von Birrwyl.\n  Schneider-Hochstraßer, Samuel, Wagenwärter, von Thalheim.\n498.† Würger=Maurer, Heinrich, von Hausen (Baden). Eisengießerei und\n  Weichgußfabrik.\n499.† Derselbe. Büreau.\n500.† Derselbe. Mechanische Sandmühle.\n501. Fricker=Hiltpold, Samuel, Bahnmeister, von Veltheim.\n  Huber, Julius, Güterexpedient, von Mägenwyl.\n  Schaufelberger=Märk, Jb., gew. Zugführer, von Fischenthal (Thurgau).\n502. Freimaurerloge zur Brudertreue.\n  Niederhauser=Gysin, Theodor, Buchbinder, von Baselaugst (Baselland).\n503.* Schmuziger=Koller, Daniel, Baumeister.\n  Kieser, Robert, Bankbeamter.\n504.† Derselbe. Holzschopf.\n505.† Derselbe. Magazin.\n506.† Derselbe. Ladenschopf.\n507.† Derselbe. Baracke.\n  Müller, Arnold, Baumeister. Fabrikation und Lager in Cementröhren ꝛc.\n508.† Saxer=Pfleger, Ludwig, Kaufmann. Gartenhaus.\n\nBankstraße.\n\n509. Kauf=Gattiker, Heinrich, gew. Lokomotivführer, von Wellhausen (Thurgau).\n  Kauf, Alfred, Buchhalter der Aarg. Creditanstalt, von Wellhausen.\n510. Siebenmann=Siebenmann, Rudolf, Part.\n1234 † Derselbe. Holzhaus.\n1141 Kunz=Heß, Johann Jakob, von Wald (Zürich), Confiserie en gros.\n  Dr. Med. Witzinger-Lenthe, Moritz, prakt. Arzt, von Unterhallau\n  (Schaffhausen).\n  Martin-Hagenbuch, Marie, Part.\n1251 † Derselbe. Holz- und Waschhaus.\n1146 Lüscher=Umiker, Hermann, Mechaniker. Nähmaschinenhandlung.\n  Lüscher=Umiker, Marie, Damenschneiderin.\n  Hofer, Albert, von Niederwyl, Sekretär auf der Allg. Aarg. Ersparnißkasse.\n\nBahnhofstraße.\n\n511.* Aargauische Bank.\n  Rothpletz-Brütel, Alfred, Bankdirektor.\n512.† Dieselbe. Holzhaus.\n513.* Näf & Zschokke. Kreispostgebäude.\n  Amsler-Matter, Jakob, Kreispostdirektor, von Bözen.\n  Kull, Adolf, Postcommis, von Niederlenz.\n514.† Dieselben. Postremise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6967,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2031,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.28,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:28:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p046",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p046.jpeg",
+      "bytes": 265031,
+      "sha256": "2b3f05fe1846ebdb1b652d7a15df604881e994acff1ff120eab85d889f93443d",
+      "sha256_of": "original",
+      "working_copy": "1888_p046.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:10+00:00"
+  }
+}

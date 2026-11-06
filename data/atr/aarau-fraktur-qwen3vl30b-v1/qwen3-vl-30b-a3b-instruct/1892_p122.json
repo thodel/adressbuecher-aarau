@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p122",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p122.jpeg",
+    "bytes": 252342,
+    "sha256": "f0c27ea4df6a039f3f27c45242aeeb025606d0da217d85be596f4ea2bcb118dd",
+    "sha256_of": "original",
+    "working_copy": "1892_p122.jpeg"
+  },
+  "text": "106\nKäfer-Laurent, Emil, Gärtner von Oberflachs, Schachen 739.\nKäfer-Leder, Johann Rudolf, Steinhauer von Biberstein, Halben 269.\nKäfer-Leder, Nanette, Wäscherin und Glätterin, Halben 269.\nKäfer-Möri, Taglöhner von Oberflachs, Adelbündli 82.\nKäfer-Müller, Anna Barbara, Part. von Oberflachs, obere Vorstadt 955.\nKäfer-Plüü, Rudolf, Postkondutteur, hinter dem Bahnhof 496.\nKäfer-Schüg, Jakob, Rathausabwart von Biberstein, vord. Vorstadt 905.\nKäfer-Stäng, Xaver, Fabriktaufischer von Erlinsbach (Solothurn),\nTelli 440.\nKäslin-Schöneder, Lina, Musikt Lehrers Wittwe, Laurenzenvorstadt 602.\n*Kaifer, Sigmund, Kaufmann, Glas- und Quincailieriewarenhandlung,\nKronengasse 35.\nKallmann-Hausmann, Elise, Fabrikarbeiterin, von Mühlheim (Baden),\nMichgasse 143.\n*Kalt-Läubli, Alfred August, Oberarzt der med. Abtheilung am Kantonss-\npital von Koblenz, Gais 1186.\nKamber-Baumann, Eduard, Parquetschreiner von Gunzgen (Solothurn),\nHalben 281.\nKappeler, Anna, Part., Rathhausgasse 42.\nKaspar-Urech, Elisabeth, Wittwe, Part. von Leutwyl, Kirchhof 80.\n* Kaspar-Hunziker, Rudolf, Chef des aarg. Polizeikorps, Bachstraße 1039.\nKauf-Gattiker, Heinrich, geweß. Lokomotivführer von Wellhausen, (Thurgau),\nBantstraße 509.\n*Kauf, Alfred, Buchhalter der Aarg. Creditanstalt, von Wellhausen (Thurgau),\nBantstraße 509.\nKaufmann, Julius, Commis von Luzern, Stadthof 95.\nKaufmann-Müller, Rudolf, Taglöhner von Gränichen, Bahnhofstr. 1023.\nKaufmann, Otto, Commis von Buchs (Luzern), Graben 620.\n*Kebrer-Hausheer, Jakob, Bäckermeister von Büzen, Pelzgasse 62.\n*Keller-Bauhofer, Bertha, Färbers, Wittwe von Villigen, Halben 273.\n*Keller-Berney, Abraham, Mechaniker, Halben 260 a.\n*Keller-Bufer, Gottfried, Buchdrucker von Hottwyl, Druck und Verlag des\n„Argauischen Anzeigers“, Rain 839.\nKeller-Fehlmann, Johann, Debonom von Hottwyl, Günhardsfeldweg 1145.\n*Keller-Frante, Mina, Wittwe, Zollrain 179.\nKeller-Hauri, Joseph, Pferdewärter von Oberendingen, Halben 280 b.\n* Keller-Jäggi, Andreas, Hauptagent der schweizerischen Mobiliar- und\nder Unfallversicherungsgesellschaft „Zürich“, Schmiedgasse 619.\nKeller, Jda, Glätterin von Oberendingen, Rain 1185.\n*Keller, Johann, Lohnkutscher, Casinostraße 580.\nKeller, Katharina, Fuhrhalterin, Casinostraße 580.\n*Keller-Läuchli, Paul, Zuckerbäcker, Caffewirthschaft, Zollrain 292.\nKeller, Maria, Part. von Veltheim, Solattenmattgasse 231.\nKeller-Pfister, Fritz, Bedienter von Oberendingen, Rain 1185.\nKeller-Schweri, Verena, Wittwe, Part. von Oberendingen, Rain 1185.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6741,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2476,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0217,
+    "mean_line_chars": 52.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:43:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p122",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p122.jpeg",
+      "bytes": 252342,
+      "sha256": "f0c27ea4df6a039f3f27c45242aeeb025606d0da217d85be596f4ea2bcb118dd",
+      "sha256_of": "original",
+      "working_copy": "1892_p122.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:46+00:00"
+  }
+}

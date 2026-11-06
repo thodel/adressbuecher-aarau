@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p046",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p046.jpeg",
+    "bytes": 323994,
+    "sha256": "9a20b309b7e7f95021e3056d6e903e7674258ccc113a26ce48929377abe106f0",
+    "sha256_of": "original",
+    "working_copy": "1884_p046.jpeg"
+  },
+  "text": "42\nSchäfer. — Schmidt.\n*Schäfer, Elise, Tochter, Partik., Rainstraße 820.\n* — Jda, Partik., neues Quartier 992.\n* — Karoline, Näherin, Rathausgasse 29.\n* — Veronika, Partik., Milchgasse 74.\nSchäfli-Gisi, Hans, Gasarbeiter, von Ursprung, Halben 266b.\nSchäppi-Honegger, Karl, Fabrikant, von Horgen (Zürich), Zollrain 293.\nSchär-Roth, Fr., Milchverkäufer, v. Walterswyl (Bern), Holzmarktpl. 663.\nScheibler, Alfred, Sattler u. Tapezierer, von Unterentfelden, Stadthof 92a.\nSchentler-Siebenmann, Gottl., Arzt, Med. Dr., von Däniken (Solothurn), Rainstraße 831.\n  — Richard, Buchbindergehilfe, von Treplin (Preußen), in der Gais 487.\n  — Urs, Fabrikausf.cher, von Däniken (Solothurn), Rainstraße 840.\n*Schuermann, Emilie, Partik., vordere Vorstadt 674.\nSchibler-Sininger, Rud., Ausf.cher, von Walterswyl (Soloth.), Telli 445.\nSchibl-Jäggi, A. Mar., Wittwe, Partik., von Killwangen, Schachen 731.\n  — Anna, Damenschneiderin, von Killwangen, Schachen 731.\n*Schieber-Häsig, Hermann, Kaufmann, Graben 206.\n* — Züfle, Katharina, Wittwe, Partik., Pelzgasse 121.\n* — Margaritha, Partik., Pelzgasse 121.\nSchiffmann, Anna, Buchhalterin, von Luzern, Rathausgasse 1.\nSchilling-Gschwind, Xaver, Taglöhner, von Hornuken, Milchgasse 153.\nSchindler-Trümpi, Emma, Fabrikants Wittwe, von Mollis (Glarus), neues Quartier 973.\n*Schlatter-Bühler, Friedrich, Marbrier, Kirchplatz 80.\n* — August, Postoffiziant, Mezgergasse 103.\nSchmid-Läuchli, Jakob, Ingenieur, von Glarus, Zollrain 89.\n* — Graf, Rudolf, Taglöhner, Milchgasse 78.\n* — Boffardt, Anna, Spenglergeschäft, Stadthof 94.\n  — Unger, Rudolf, Bahnwärter, von Erlinsbach, Halben 279.\n  — Marie, Damenschneiderin, von Erlinsbach, Halben 279.\n  — Clemens, Commis, von Ingenbohl (Schwyz), Zollrain 293.\n  — Paulti, Daniel, Gärtner, von Erlinsbach, Scheibenschachen 315.\n  — Rosa, Damenschneiderin, von Gipf, Laurenzenvorstadt 362.\n  — Baumann, Ludwig, Schreiner, von Watterdingen (Großhzh. Baden), hinter dem Bahnhof 795.\n* — Peter, Hans, Postfaktor und Abwart der Freimaurerloge, hinter dem Bahnhof 502.\n  — Wolf, Peter, Kanzleisekretär und Kassier der Sparkasse der Stadt Aarau, dor Zeining, hintere Vorstadt 645.\n  — Willi, Jof. Ant., Polizeikorporal, von Wittnau, obere Vorstadt 940.\n  — Zischler, Heinrich, Kaufmann, von Wittnau, Cafinostraße 577.\n  — Maurer, Mathilde, Negotiantin, von Möriken, Ziegelrain 700.\n  — Rosalie, Kleinkinderlehrerin, von St. Gallen, Rathausgasse 21.\n  — Kunz, Hugo, von Herznach, Pariser-Bazar, vordere Vorstadt 889.\n*Schmidlin-Lutz, Theodor, Fabrikant chemischer Produkte, Graben 204.\n* — Elise, Partik., neues Quartier 996.\n*Schmidt-Correvon, Robert, Regt., Zollrain 177.\n* — Henz, Hans, Bierwirth, Pelzgasse 129.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5765,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2676,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:13:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p046",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p046.jpeg",
+      "bytes": 323994,
+      "sha256": "9a20b309b7e7f95021e3056d6e903e7674258ccc113a26ce48929377abe106f0",
+      "sha256_of": "original",
+      "working_copy": "1884_p046.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:13:26+00:00"
+  }
+}

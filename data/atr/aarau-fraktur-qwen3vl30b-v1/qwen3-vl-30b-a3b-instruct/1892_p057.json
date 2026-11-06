@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p057",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p057.jpeg",
+    "bytes": 215591,
+    "sha256": "8d7a9a8e959410b3dc5879ef2a57940ce7a4bf3d52a29f6033001abcd00547b6",
+    "sha256_of": "original",
+    "working_copy": "1892_p057.jpeg"
+  },
+  "text": "Haus-\nNr.\n679. Abgetragen; an dessen Platz\n1169 Henz=Plüß, Jakob, Kaufmann.\nHenz=Märt, Julius, Kaufmann (Firma Jakob Henz, Eisenhandlungs-\ngeschäft).\n680. Schäfer=Denner, Cäsar, Messerschmied.\nMeier-Großmann, Anna, Wittwe, Part., von Rheinfelden.\nHäffig-Hauenstein, Elisabeth, Wittwe, Part.\n681. Müller=Schneebeli, Heinrich, von Unterfrak (Zürich.) Gasthof\nzum Löwen.\n682. Rothpleg= Marti, Friedrichs Erbschaft.\nRothpleg, Emil, Verwalter.\nWaldmeier geb. Rothpleg, Bertha, Wittwe, Part., von Hellikon.\nSenn-Blattner, Karolina, Wittwe, Ausrüsterin, von Densburen.\nStauber, Emil, Bankangestellter, von Bezwyl.\n683. Müller=Schneebeli, Heinrich, Gastwirth. Wohnhaus mit † Stallung\n† Waschhaus 2c.\n\nHinterer Vorstadt.\n684. * Gemeinde Aarau. Obere Mühl.\nBirrmann-Baldenweg, Albert, Müller, von Basel.\nBirrmann, Adolf, Sohn,\n685. † Diejelbe. Holzschopf,\n686. † Henz=Plüß, Jakob, Kaufmann, Magazin.\n687. † Derjelbe. Magazin.\n688. * Wohnhaus.\nPlüß geb. Plüß, Maria, Part.\nPlüß, Louije, Lehrerin.\nPlüß, Anna, Damenschneiderin.\nHenz-Siebenmann, Adele, Haüners Wittwe.\n689. * Bircher, Johann Jakob, Krämer und Posthalter in Rüttigen.\nZimmermann-Hartmann, Johann, Lehrer, von Kempshof.\nFrey=Steiner, Heinrich, Notar, von Gontenschwyl. Notariats- und\nIntaffogeichäft,\n690. * Gemeinde Aarau. Amthaus.\nBezirksamt und Staatsanwaltschaft.\nKantonaler Polizeiposten und Bezirksgesängnisse.\nPubli-Schwarz, Joh. Jakob, Gefangenantw. von Eßingen.\n691. * Pfisterer=Kohr, Robert, Bierbrauer. Brauerei.\n692. * Derjelbe. Bierwirthschaft.\nDreifus-Bloch, Karl, Kaufmann, von Endingen.\n693. * Landolt-Hächler, Gottlieb, Metzger.\nSimmen-Freudiger, Jakob, Küfermeister, von Schinznach.\n694. Siebenmann-Brunnhöfer, Dito, Schloßer.\nMüller-Wägmer, Jakob, Oberaufseher (bei Bally, E.), von Saenwyl.\nWiederkehr, Adolf, Notar, von Gontenschwyl.\nFisch, Elise Karolina, Metzgers, Näherin.\n695. Abgetragen; an dessen Platz\n1236 * Hirsch-Merz, Joh. Rudolf, Uhrenmacher.\nAdreßbuch der Stadt Aarau 1892. 4",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4308,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1960,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p057",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p057.jpeg",
+      "bytes": 215591,
+      "sha256": "8d7a9a8e959410b3dc5879ef2a57940ce7a4bf3d52a29f6033001abcd00547b6",
+      "sha256_of": "original",
+      "working_copy": "1892_p057.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:18+00:00"
+  }
+}

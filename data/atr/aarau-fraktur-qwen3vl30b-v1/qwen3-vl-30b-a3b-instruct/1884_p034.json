@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p034",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p034.jpeg",
+    "bytes": 317711,
+    "sha256": "84422a6fd54fb312b18dde3ed80520b9b5481b7544460d2c836e0e82f2f290cf",
+    "sha256_of": "original",
+    "working_copy": "1884_p034.jpeg"
+  },
+  "text": "30\nJäggi. — Räppeli.\nJäggi-Weber, Herm., Buchhalter, von Strengelbach, h. d. Bahnhof 1072.\n— Ulreich, Sophie, Wittwe, Partik., v. Strengelbach, v. d. Haldenthor 772.\n— Wilhelmine, Lehrerin, von Strengelbach, vor dem Haldenthor 772.\n— Peter, Otto, Chemiker, von Bern, vor dem Haldenthor 770.\n*Jägglis-Häfia, Robert, Bäcker, Zollrain 88.\n* — Widmer, Karoline, Wittwe, Partik., Kronengasse 33.\nSchle-Weber, Matthäus, Polizeidieners, von Wyl, Scheibenshachen 314.\nJenny-Kunz, Adolf, Färber, von Jfswell (Bern), in der Telli 449.\nJensen, Niels, Dekorationsmaler, von Hurruch (Dänemark), Zieglerain 721.\nJent, Marie, Spetterin, von Safenwyl, Stadthof 92c.\n*Imhof-Munzinger, Emil, Regierungsrath, jenseits der Nare 294.\n* — Alman, Ernst, Fabrikant, Bachstraße 1035.\n* — Schmid, Karoline, Wittwe, Partik., obere Vorstadt 940.\n* — Herzog, Emma, Med. Dr.'s. Wittwe, Partik., Laurenzenvorstadt 399.\n* — Klingenstorfer, Louise, Pfarrers Wittwe, Partik., Laurenzenvorstadt 552.\n* — Anna, Privatlehrerin, Laurenzenvorstadt 552.\n— Albert, Commis, von Freienwyl, Zieglerain 700.\nJoho-Bryner, Samuel, Färber, von Uuenstein, Halden 282.\nJörg-Künzli, Peter, Schuhmachermeister, von Langenfelsold (Preußen), hintere Vorstadt 623.\n— Jakob, Seilergehülfe, von Affoltern (Bern), Golottenmattgasse 235.\nJäger, Peter, Oberstl., von Kaltenbach (Thurgau), Infanterie-Instruktor, Laurenzenvorstadt 394.\n— Brugisser, Arthur, Med. Dr., von Wohlen, hintere Vorstadt 638.\n— Arthur, Commis, von Wohlen, Zollrain 178.\nJägler, Ulrich, Schuhmachermeister, v. Alten (Zürich), Golattenmattg. 230.\n*Raifer, Siegmund, Kaufmann, Glas- und Quincalleriewarenhandlung, Kronengasse 35.\nKallmann-Hausmann, Elise, Fabrikarbeiterin v. Mühlheim (Großh. Baden), Golattenmattgasse 231b.\nKalt-Suter, Engelbert, Zimmermann, von Gippingen, Schachen 726.\n— Bräutigam, Jda Mathilde, Wittwe, v. Leibstadt, Mezgergasse 107.\n*Kappeler-Märk, Elise, Wittwe, Damenschneiderin, Ahelbändli 84.\nKarrer-Suter, Ludwig, Regierungsrath, von Teufenthal, Rohrerstr. 478.\nKaspar-Hunziker, Rudolf, Chef des aarg. Polizeikorps, Zollrain 88.\nKastorf-Wuhrmann, Barbara, Partik., von Mecklenburg-Schwerin, obere Vorstadt 913.\nKauf-Gattiker, Heinrich, Lokomotivführer, v. Wellhausen (Thurgau), hinter dem Bahnhof 509.\n— Alfred, Buchhalter, von Wellhausen (Thurgau), h. d. Bahnhof 509.\nKaufmann-Weizenberger, August, Gärtner, von Lyon (Franfreich), hinter dem Bahnhof 1072.\n— Otto, Commis von Buchs (Luzern), Rathhausgasse 2.\n— Widmer, Susanna, Partik., von Gränichen, Rainstraße 884.\nKähr-Rohr, Jb., Bäcker u. Wirth, v. Rüderswyl (Bern), ob. Vorstadt 927.\n— Maria, Näherin, von Rüderswyl (Bern), Kirchplatz 165.\nRäppeli, Gottl., Dr. Jur., Reg. Rath, v. Meerenenschwand, Laurenzenvorst. 547.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5942,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2712,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 63.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:12:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p034",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p034.jpeg",
+      "bytes": 317711,
+      "sha256": "84422a6fd54fb312b18dde3ed80520b9b5481b7544460d2c836e0e82f2f290cf",
+      "sha256_of": "original",
+      "working_copy": "1884_p034.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:12:13+00:00"
+  }
+}

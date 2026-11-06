@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p029",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p029.jpeg",
+    "bytes": 381255,
+    "sha256": "681e1c5f6d0ab89c9e06201c9d92634186a6c698e400c6570e3ba191e7303f6f",
+    "sha256_of": "original",
+    "working_copy": "1884_p029.jpeg"
+  },
+  "text": "Halbeis. — Hänsler. 25\n\nHalbeis-Höhn, Felix, Maurer, von Fließ (Tyrol), Golattenmattgasse 231.\nHaller-Diriwächter, Johann, Taglöhner, von Reinach, Milchgasse 145.\n— -Diriwächter, Elisabeth, Spetterin, von Reinach, Milchgasse 145.\n— -Ottiger, Wilhelm, Schuhmacher, von Reinach, Halden 282.\n— -Ottiger, Marie, Glätterin, von Reinach, Halden 282.\n— -Fehlmann, Jakob, Knecht, von Reinach, Adelbändli 170.\n— -Bolliger, Elisabeth, Partik., von Reinach, obere Vorstadt 964.\nHandl-Fleisch, Ciprian, Bauführer v. Griens (Tyrol), h. d. Bahnhof 496.\nHanhard, Ulrich, Partik., von Steckborn (Thurgau), Rathhausgasse 48.\nHartmann, Johann Friedrich, Partik., von Mügglingen (Würtemberg),\n  im Weinberg 321.\n— -Göte, Rudolf, Fabrikant, von Ebnat (St. Gallen), Bachstraße 1138.\n*Haßler-Hunziker, Karl, Kaufmann, Bahnhofstraße 1020.\n* — -Wanger, Emil, Kolonialwaarenhandlung, Laurenzenvorstadt 349.\n* — -Häberlin, Adolf, Färber, im Hammer 188.\n* — -Ernst, August, Färber, Halden 265.\n* — Marie, Partik., Halden 265.\n* — -Bircher, Paul, Kupferschmied, Pelzgasse 134.\n* — -Brunnhofer, Eduard, Kaminfeger, Halden 248.\n* — -Müller, Theodor, Buchbinder, Milchgasse 153b.\n* — Fritz, Buchhalter, Bachstraße 1146.\n* — Arnold, Buchhalter, Telli 456.\n* — -Stampfli, Hans, Gerber, Lederhandlung, Bahnhofstraße 656.\n* — -Stampfli, Emma, Wittwe, Modistin, Rathhausgasse 21.\n* — Julie, Modistin, Adelbändli 172.\n* — Sophie, Glätterin, Adelbändli 172.\n— -Meier, Maria, Partik, von Männedorf (Zürich), Pelzgasse 134.\n* — -Märki, Barbara, Schreiners Wittwe, Adelbändli 170.\n* — Margaretha, Glätterin, Halden 264.\n* — -Oberlin, Margaretha, Postadjunkts Wittwe, Bachstraße 1040.\nHauri-Graber, Fuhrmann, von Bottenwyl, Halden 249.\n* — -Siegenthaler, Karl, Ziegler, Rainstraße 866.\n— -Kyburz, Samuel, Briefträger, von Seengen, v. d. Haldenthor 809.\n— Emil, Schuhmacher, von Reinach, Igelweid 637.\n— Margaretha, Spetterin, von Reinach, Igelweid 637.\nHauser von-Lumm, Henriette, Partik., von Krefeld (Preußen), neues\n  Quartier 999.\nHausmann, Jakob, Aufseher, von Schafisheim, Ziegelrein 716.\n— -Dietiker, Johann, Taglöhner, von Schafisheim, Färbergäßchen 125.\nHächler-Peter, Gottlieb, Taglöhner, von Teufenthal, Kirchgasse 10b.\n— -Roth, Rudolf, Posamenter, von Gränichen, v. d. Haldenthor 803.\n— -Lüscher, Jakob, Fabrikarbeiter, von Teufenthal, Halden 287.\n— Elise, Fabrikarbeiterin, von Rohr, Laurenzenvorstadt 376.\nHäfeli-Fischer, Julie, Expedients Wittwe, Nähterin, v. Seengen, Adel-\n  bändli 174.\nHäni-Häni, Rudolf, Partik., von Kölliken, Kirchgasse 11.\n— Hermann, Sohn, Bäcker, von Kölliken, Kirchgasse 11.\nHänsler-Dubs, Sus., Partik., von Richterswyl (Zürich), Hammer 185b.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8987,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2640,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:12:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p029",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p029.jpeg",
+      "bytes": 381255,
+      "sha256": "681e1c5f6d0ab89c9e06201c9d92634186a6c698e400c6570e3ba191e7303f6f",
+      "sha256_of": "original",
+      "working_copy": "1884_p029.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:12:26+00:00"
+  }
+}

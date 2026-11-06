@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p134",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p134.jpeg",
+    "bytes": 290449,
+    "sha256": "b6e1d3324591d75a2cc14e3f3b4eb79435189d8b09b05c4dd7f5c151d78436b9",
+    "sha256_of": "original",
+    "working_copy": "1888_p134.jpeg"
+  },
+  "text": "116\nStierli — Suter.\n\nStierli, Marie, Ladentochter von Aristau, Oberthor 228 a.\nStierli, Elise, Part. id. id. id.\nStigeler-Glätti, Joh. Jak., Zimmermann von Eglisau (Zürich), Rath-\nhausgasse 45.\nStigeler-Schaub, Joseph, Zeughausdirektor v. Rekingen, Zschoffestra. 977.\nStirnemann-Huber, Johann, Taglöhner von Gränichen, Halden 290.\nStirnemann, Jakob, Notar von Gränichen, Notariats- u. Zutassgeschäft,\nWeggergasse 56.\nStirnemann, Louise, Lehrerin von Gränichen, Pelzgasse 124.\nStirnemann-Müller, Louise von Gränichen, Ellenwaarenhandlung, Pelz-\ngasse 124.\nStöckli, Stephan, römisch-kath. Pfarrer von Muri, Igelweid 1179.\nStöckli, Elisabeth, Haushälterin von Muri, id. id.\nStoffel, Lisa, Ladentochter von Lindau (Baiern), Bachstraße 1038.\nStohler-Zobrist, Jakob, Schneider von Arboldswyl (Baselland), Rath-\nhausgasse 25.\nStrebel-Brunner, Marie, Part. von Büblikon, Pelzgasse 63.\nStrebel, Eduard, Schreiner von Büblikon, Rain 857.\nStrebel-Rüetschi, Eduard, Schreiner von Büblikon, Rain 857.\nStrebel, Martina, Spetterin von Mägenwyl, Zollrain 88.\nStrebel, Waldburga, Näherin von Mägenwyl, id. id.\nStrebel, Verena, Spetterin von Mägenwyl id. id.\nStrebel-Siebenmann, Karl, Sekretär, Halden 267.\nStrich-Brack, Julius Wilhelm, Halbleinfabrikant von Aachen (Preussen),\nZiegelrain 751.\nStrub-Mühlstein, Robert, Schneider v. Rienberg (Soloth.), Halden 252.\nStrub-Uttinger, Emanuel, Tapezierer von Läufelfingen (Baselland), hint.\nVorstadt 696.\nStrub-Wildi, Leonhard, Möbelhändler von Läufelfingen (Baselland),\nMiltchgasse 71.\nStrübin-Frey, August, Wirth von Basel, Restauration, Casinostraße 570.\nStudler-Sandmeier, Anna, Schneiders Wittwe, vordere Vorstadt 675.\nSuter, Adolf, Taglöhner von Kölliken, Laurenzenvorstadt 376.\nSuter, Anna Elisabeth, Spetterin von Suhr, Miltchgasse 145.\nSuter-Arber, Rudolf, Pofamenter von Gränichen, Laurenzenvorstadt 376.\nSuter-Dürr, Rudolf, Spengler von Hallwyl, Ziegelrain 704.\nSuter, Johann, Commissionär, von Kölliken, vordere Vorstadt 666.\nSuter, Rosa, Damenschneiderin, id. id. id. id.\nSuter, Jda, Modistin, id. id. id. id.\nSuter-Kleinert, Johann, Buchhalter von Seon, Bachstraße 1038.\nSuter-Rohler, Jakob, Schreiner von Kölliken, Adelbündli 85 b.\nSuter-Lüscher, Gabriel, Bandweber von Gränichen, Halden 259.\nSuter-Lüscher, Rudolf, Uhrenmacher von Kölliken, Igelweid 1232.\nSuter-Müller, Elise, Wittwe, Taglöhnerin von Kölliken, Golattenmatt-\ngasse 231.\nSuter-Rauber, Suette, Wittwe, Part., vordere Vorstadt 894.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5216,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2438,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:28:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p134",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p134.jpeg",
+      "bytes": 290449,
+      "sha256": "b6e1d3324591d75a2cc14e3f3b4eb79435189d8b09b05c4dd7f5c151d78436b9",
+      "sha256_of": "original",
+      "working_copy": "1888_p134.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:23+00:00"
+  }
+}

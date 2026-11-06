@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p023",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p023.jpeg",
+    "bytes": 312583,
+    "sha256": "a672d51c4c84382d71e0209d72a16ff9636360da14406e6021baa32e94c06749",
+    "sha256_of": "original",
+    "working_copy": "1884_p023.jpeg"
+  },
+  "text": "Erißmann. — Fehlmann. 19\n\nErißmann, Maria, Wärterin, von Muhen, Rohrerstraße 478.\n— Rudolf, Handlanger, von Kirchrued, Milchgasse 143.\n— Elise, Spetterin, von Kirchrued, Milchgasse 143.\nErne, Eduard, Kaufmann, von Leuggern, Laurenzenvorstadt 602.\n*Erni-Faßler, Emil, Kaufmann, Mercerie- und Ellenwaaren = Handlung,\n  Kronengasse 33.\n* Ernst-Merian, August, Partik., Graben 203.\n* — =Käser, Friedrich, Röhrenfabrikant, obere Vorstadt 923.\n* — =Fehlmann, Anna, Hafners Wittwe, Partik., obere Vorstadt 923.\n* — =Döhnel, Robert, Briefträger, Bachstraße 1031.\n* — =Dürr, Hermann, Schuhmacher, Halden 240.\n— =Lehmann, Samuel, Packer, von Holziken, Milchgasse 76.\n* — =Steiner, Gustav, Sekretär, Zollrain 89.\n* — =Pfisterer, Lina, Bierbrauers Wittwe, vordere Vorstadt 672.\nEssig-Weibel, Jakob, Gießer, von Mettau, hinter dem Bahnhof 496.\nEtter-Hägi, Reinhard, Milchverkäufer, von Langrickenbach (Thurgau),\n  Laurenzenvorstadt 361.\n\nFahrländer = Hunziker, Karl, Dr. Jur, Staatsanwalt, von Laufenburg,\n  Laurenzenvorstadt 371.\n* — =Johann, Eugen, Ingenieur, Rainstraße 869.\n* — =Siebenmann, Wilhelmine, Med. Drs. Wittwe, Partik., Rainstr. 869.\n* — =Müller, Verena, Partik., Bachstraße 1038.\nFailer-Rohr, Georg, Schriftsetzer, v. Harthausen (Preußen), Rainstr. 885.\nFaller-Unwin, Fried., Kaufmann (Eisenwaarenhandlung), v. Bräunlingen\n  (Großhzth. Baden), Rathhausgasse 17.\n— =Fehrenbach, Katharina, Wittwe, Partik., von Bräunlingen (Grßhzth.\n  Baden), Rathhausgasse 17.\n— =Faller, Elise Louise, Wittwe, von Reitenbuch (Baden), Firma Gebr.\n  Faller, Eisen- u. Quincailleriewaarenhandlung, Kronengasse 41.\nFaßler, Maria, Haushälterin, von Densbüren, hinter dem Platz 214.\nFäs=Gall, Rudolf, Kasernier, von Schöftland, Laurenzenvorstadt 361.\n— =Bircher, Sl., Schuhmachermstr., v. Oberkulm, Schuhhandlung, Rthg. 3.\n— =Huber, Jakob, Posamenter, von Oberkulm, Halden 259.\n*Feer-Herzog, Karoline, Wittwe, Rentière, Laurenzenvorstadt 553.\n* — Karl, Rentier, Laurenzenvorstadt 553.\n* — James, Rentier, Laurenzenvorstadt 553.\n* — Adele, Rentière, Laurenzenvorstadt 602.\n*Fehlmann-Brack, Kaspar, Bäcker, Rathhausgasse 45.\n— =Spreng, Rud., Dachdecker u. Kaminfeger, v. Menziken, Rainstr. 884.\n— =Sandmeier, Jb., Dachdecker u. Kaminfeger, v. Menziken, Halden 259.\n— =Müller, Johann Jakob, Pächter, von Mönthal, Pintenwirthschaft,\n  Roggenhausen 851.\n— =Hinden, Marg., Küfers, Taglöhnerin, v. Remigen, Halden 273.\n— =Schödler, Christoph, Taglöhner, von Seon, Rathhausgasse 47.\n-- =Blauer, Salomon, Bahnwärter, von Mönthal, Ziegelrain 710.\n-- =Blattner, Rudolf, Aufseher, von Mönthal, Bahnhofstraße 1025.\n-- =Blattner, Anna, von Mönthal, Mercerie- und Lingerie = Geschäft,\n  Bahnhofstraße 1074.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9090,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2669,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:11:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p023",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p023.jpeg",
+      "bytes": 312583,
+      "sha256": "a672d51c4c84382d71e0209d72a16ff9636360da14406e6021baa32e94c06749",
+      "sha256_of": "original",
+      "working_copy": "1884_p023.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:33+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p027",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p027.jpeg",
+    "bytes": 267400,
+    "sha256": "6e505920fd6068ec57152d3abf776ea12cce020187872541de4424d04db1ab6e",
+    "sha256_of": "original",
+    "working_copy": "1888_p027.jpeg"
+  },
+  "text": "— 17 —\nHaus-\nNr.\n178.  Brunnhofer-Meder, August, Restaurateur und Liqueurfabrikant.\n  Blattner-Hofer, Elisabeth, Wittwe, von Küttigen.\n  Märk-Hofer, Karl, Privat.\n  Märk, Maria, Lehrerin.\n179.  Fischer, Thomas, Bierbrauer.\n  Heuberger-Fischer, Jakob, Rechnungsrevisor, von Bözberg.\n  Keller-Franke, Joseph, Obergerichtsschreiber.\n180.† Derselbe.  Scheune.\n181.* Dubs-Schärli, Jakob, Müller, von Küttigen.\n  Keller-Leuenberger, Lisette, Bettmacherin, von Kallern, Ellenwaaren-\n    handlung.\n\nIm Hammer.\n\n182.  Dubs-Schärli, Jakob, Müller, von Küttigen.  Untere Mühle.\n183.† Derselbe.  Fabrikgebäude.\n184. a. Läuchli-Bircher, Friedrich, Schlosser, von Remigen.\n184. b. Hässig, Gottlieb, Feinschleifer.  Werkstätte.\n185. a. Speirer-Heß, Sophie, Küfers Wittwe, von Rastatt. Stellenvermittlerin.\n  Lüscher-Schlatter, Johann, Steinhauer, von Muhen.\n185. b.* Fischer, Jakob, Telegraphists Erbschaft.\n  Bolliger-Trösch, Johann, Küfer, von Uerkheim.\n  Bolliger-Häfeli, Gottfried, Cement-Arbeiter, von Uerkheim.\n185. c. Wernli-Hediger, Samuel, Holzer, von Thalheim.\n186.* Haßler-Häberlin, Adolf, Färber.\n  Firma Buser, Hans, Schlosser und Mechaniker.  Mechanische Werkstätte.\n    Spezialität: Mühlenbau.\n187.† Derselbe.  Holzschopf.\n188.  Haßler-Häberlin, Adolf, Färber.\n  Nußbaum-Finkbohner, Trinette, Wittwe, von Densbüren.\n  Aebi-Spillmann, Joseph, Sattler und Tapezierer, von Sursee (Luzern).\n    Wäscherei und Glätterei.\n  Frymann-Lässer, Gottfried, Part.\n  Maag-Wildi, Jakob, Hafner, von Neunkirch, Schaffhausen.\n  Felber-Gruber, Georg, Gasfabrikarbeiter, von Oberbözberg.\n  Felber, Marie, Damenschneiderin, von Oberbözberg.\n  Hegnauer-Fischer, Rudolf, Buchhalter, von Seengen.\n  Geiger, Lorenz, von Weilderstatt, Württemberg, Feilenhauer und Schleiferei.\n  Müller-Lüthy, Friedrich, Taglöhner, von Niederwyl.\n  Fischer-Haller, Jakob, Zimmermann, von Tennwyl.\n  Firma Hommel-Esser, F., Reißzeugfabrikation, u. s. w.\n  Thoma-Oberli, Joseph, Theodor, Schreiner, von Augsburg (Baiern).\n189.* Haßler-Häberlin, Adolf, Färber.\n  Blume-Hirt, Philipp, Schreinermeister, von Sprendlingen, Hessen.\n  Blume-Hirt, Maria, Feinwäscherei und Glätterei, von Sprendlingen (Hessen).\n  Blume, Mina, Damenschneiderin, von Sprendlingen (Hessen).\n190.* Haßler-Häberlin, Adolf, Färber.\n  Zellweger, Oskar, Part., von Hauptweil (Thurgau).\n  Adressbuch der Stadt Aarau 1888.  2",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8263,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2347,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:25:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p027",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p027.jpeg",
+      "bytes": 267400,
+      "sha256": "6e505920fd6068ec57152d3abf776ea12cce020187872541de4424d04db1ab6e",
+      "sha256_of": "original",
+      "working_copy": "1888_p027.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:53+00:00"
+  }
+}

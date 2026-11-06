@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p040.jpeg",
+    "bytes": 311475,
+    "sha256": "0429c1083e53188617285b276dfab4b83b3ca0cb820fb512accc822784c9e3a4",
+    "sha256_of": "original",
+    "working_copy": "1884_p040.jpeg"
+  },
+  "text": "36\nMorgenthaler. — Müller.\n\nMorgenthaler, Maria, Damenschneiderin, von Strengelbach, Golattenmatt=\n  gasse 237c.\n— Elise, Spetterin, von Madiswyl (Bern), im Hammer 184.\nMösch-Gaßler, Martin, Kanzleisekretär, von Frick, Bachstraße 1155.\n— -Ranz, Franz, Kutscher, von Frick, Laurenzenvorstadt 552.\n*Mühlberg-Codognari, Fritz, Professor, Rainstraße 878.\n— -Amsler, Theodor, Postkontroleur, von Muri, neues Quartier 983.\n*Müller-Locher, Wilhelm, Kaufmann, Schloßplatz 195.\n* — -Haberstich, Friedrich August, Kaufmann, Bahnhofstraße 656.\n* — -Gamper, Samuel, Spezereihändler, Holzmarkt 665.\n* — -Woodtli, Jakob, Gemeindeweibel, Rathhausgasse 176.\n* — -Hürner, Eduard, Schirmmacher, Rathhausgasse 30.\n* — -Urech, Küfers Wittwe, Partik., Halden 286.\n* — Julius, Partik., Schachen 723.\n* — Theodor, Partik., Schachen 723.\n* — Cäsar, Regt., Schachen 723.\n* — Emma, Haushälterin, Schachen 723.\n* — -von Däniken, Friedrich, Gepäckträger und Oekonom, Schachen 725.\n* — -Rothpletz, Arnold, Baumeister, Pelzgasse 124.\n— -Suter, Jakob, Lithograph, von Lenzburg, vordere Vorstadt 894.\n— -Kramer, Jost, Schneidermeister, von Büron (Luzern), Igelweid 636.\n— -Bonäsch, Jakob, Buchbinder, von Unterkulm, hintere Vorstadt 642.\n— -Eggenschwyler, Johann, Postcommis, von Muri, Rathhausgasse 47.\n— -Balmer, Alfred, Schriftsetzer, v. Weinfelden (Thurgau), Milchg. 79.\n— Samuel, Maschinenputzer, von Unterkulm, im Weinberg 335.\n— -Hofer, Johann, Aufseher von Hirschthal, Ziegelrain 707b.\n— -Rauber, Jakob, Taglöhner, von Bözberg, obere Vorstadt 964.\n— -Berner, Anna Maria, Taglöhnerin von Kulm, Kirchplatz 167a.\n— -Wildi, Karoline, Wittwe, Partik., von Möttlingen (Würtemberg),\n  Halden 285.\n— -Albertine, Damenschneiderin, von Möttlingen (Würtemberg),\n  Halden 285.\n— Otto, Commis, von Möttlingen (Würtemberg), Halden 285.\n— Anna, Fabrikarbeiterin, von Unterkulm, Laurenzenvorstadt 376.\n— -Hächler, Barbara, Wittwe, Partik., von Kulm, Telli 448.\n— Maria, Spetterin, von Bözberg, Ziegelrain 702.\n— Maria, Näherin, von Hirschthal, Rainstraße 875.\n— -Riniker, Elise, Staatsweibels Wittwe, von Biberstein, vordere Vor=\n  stadt 905.\n— Elise, Glätterin, von Biberstein, vordere Vorstadt 905.\n— Johann, Ingenieur, von Linn, Pelzgasse 129.\n— -Vogler, Heinrich, Buchbinder, von Unterkulm, im Weinberg 321.\n— -Eichenberger, Johann, Schreinermeister, von Oberkulm, Halden 290.\n— -Widmer, Gottlieb, Schuhmacher, von Unterkulm, Milchgasse 143.\n— Karl, Reiseprediger, von Binzen (Großh. Baden), h. d. Platz 214.\n— -Schnider, Susanna, Haushälterin, von Birr, Milchgasse 146.\n— -Hunn, Verena, Partik., von Unterkulm, Milchgasse 152.\n— Maria, Taglöhnerin, von Unterkulm, vor dem Haldenthor 802.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8277,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2652,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.02,
+    "mean_line_chars": 51.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+  "recognised_at": "2026-11-06T12:01:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gemini-v1",
+    "source": {
+      "key": "1884_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p040.jpeg",
+      "bytes": 311475,
+      "sha256": "0429c1083e53188617285b276dfab4b83b3ca0cb820fb512accc822784c9e3a4",
+      "sha256_of": "original",
+      "working_copy": "1884_p040.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:01:43+00:00"
+  }
+}

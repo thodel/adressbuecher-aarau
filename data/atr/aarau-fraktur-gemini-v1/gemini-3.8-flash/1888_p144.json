@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p144",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p144.jpeg",
+    "bytes": 285454,
+    "sha256": "30d85d4d7efa4436bc0ba7736e8a17c9cb8617b96aabe9e0340a477e0a558de2",
+    "sha256_of": "original",
+    "working_copy": "1888_p144.jpeg"
+  },
+  "text": "126\n\nHagenbuch, Charles, Rain 819.\n  Hauptagentur der Mannheimer Spiegel=\n    glasversicherungsgesellschaft.\nKeller, Andreas, Igelweid 619.\n  Hauptagentur der schweiz. Mobiliar=\n    versicherung.\nMatter, Samuel, hintere Vorstadt 613.\n  Hauptagentur der Lebensversicherungs=\n    bank für Deutschland in Gotha.\nMerz, Friedrich, Rain 822.\n  Hauptagentur der Feuerversicherungs=\n    gesellschaft „Union“ in Paris.\n  Hauptagentur der Lebensversicherungs=\n    gesellschaft „Caisse Paternelle“ in\n    Paris.\n  Hauptagentur der Unfallversicherungs=\n    gesellschaft „Rhenania“ in Köln.\nSchatzmann, Friedr., Ziegelrain 721.\n  Hauptagentur der „Gladbacher“ Feuer=\n    versicherungsgesellschaft.\n  Agentur der Basler Unfall= und Lebens=\n    versicherungsgesellschaft.\n  Hauptagentur des Kts. Aargau der\n  Brandenburger Spiegelglasversichergs.=\n    gesellschaft.\nSchmidt-Lanz, Adolf, obere Vorstadt 935.\n  Inspecteur de la Providence, Compag-\n    nie d’Assurances sur la vie à Paris.\nStirnemann, Jakob, Notar, Mezgerg. 56.\n  Hauptagentur der Lebensversicherungs=\n    gesellschaft „Germania“ in Stettin.\nWidmer, Heinrich, Pelzgasse 63.\n  Hauptagentur der „Hamburg-Bremer“\n    Feuerversicherungsgesellschaft.\n  Agentur der Badischen Pferdeversichergs.=\n    gesellschaft.\nWirth-Herzog, Jakob, Zollrain 89.\n  Generalagentur für Auswanderung.\n  Generalagentur d. Lebensversicherungs=\n    gesellschaft „La Suisse“ in Lausanne.\n  Generalagentur der schweiz. Unfall=\n    versicherungsgesellschaft in Winter=\n    thur.\nWüthrich, Samuel, Laurenzenthor=\n    gasse 117.\n  Vertreter der Generalagentur für Aus=\n    wanderung A. Zwilchenbart in Basel.\nWyder-Brast, A., Rain 840.\n  Hauptagentur der Northern Feuer=\n    versicherungsgesellschaft in London.\n  Hauptagentur der New-Yorker Lebens=\n    versicherungsgesellschaft.\n  Agentur der Unfallversicherungsgesell=\n    schaft Zürich.\n  Annoncen-Expedition für Rudolf Mosse\n    in Zürich.\n[spalte 2]\nWydler, Jul., Notar, Rathhausgasse 3.\n  Hauptagentur der franz. Feuerver=\n    sicherungsgesellschaft „Phönix“.\n  Hauptagent der Lebensversicherungs=\n    gesellschaft „La National“ in Paris.\n  Agentur der schweiz. Hagelversicherungs=\n    gesellschaft in Zürich.\nZschokke, Hermann, Entfelderstraße 1200.\n  Generalagentur der Basler Feuer=\n    versicherungsgesellschaft.\n  Generalagentur der Basler Lebens=\n    versicherungsgesellschaft.\n\nAntiquare.\n\nHäßig, Joh., Conrad, Oberthor 224.\n\nArchitekten.\n\nAmmann, Robert, Entfelderstraße 970.\nMeyer, Jakob Ludwig, Graben 106 u. 221.\nMüller, Arnold, Jenseits der Aare 346.\nRothpletz, Karl, Bahnhofstraße 651.\nSchäfer, Adolf, Rohrerstraße 478.\nWolf, Karl, hintere Vorstadt 645.\nZimmerli, Karl, vordere Vorstadt 893.\n\nAsphaltgeschäfte.\n\nWehrli, Johann, Halden 250.\nWehrli, Jakob, Rain 877.\nZschokke & Cie., Baugeschäft, Rohrer=\n  straße 465.\n\nAusrufer von Steigerungen.\n\nSiebenmann, Emil, Gemeindeweibel,\n  Rathhausgasse 176.\n\nBadeanstalten.\n\nBad Binsenhof, Besitzer Riniker, Fried=\n  rich 1010.\nFlußbadeanstalt Aarau, jenseits der\n  Aare 348.\nTrefzger, Gustav, Färbergäßchen 213.\n\nUmliegende Bäder.\n\nBad St. Laurenzen in Erlinsbach.\nBad in Gränichen.\nBad in Oberentfelden.\nBad in Schinznach.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8875,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 3154,
+    "lines": 99,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0707,
+    "mean_line_chars": 28.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0006,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:40:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p144",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p144.jpeg",
+      "bytes": 285454,
+      "sha256": "30d85d4d7efa4436bc0ba7736e8a17c9cb8617b96aabe9e0340a477e0a558de2",
+      "sha256_of": "original",
+      "working_copy": "1888_p144.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:40:18+00:00"
+  }
+}

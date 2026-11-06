@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p092",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p092.jpeg",
+    "bytes": 305636,
+    "sha256": "cebe4db0d5a61fb8df3f7c9f7fc433d18db3bf0355a5c6209200303389d435b6",
+    "sha256_of": "original",
+    "working_copy": "1884_p092.jpeg"
+  },
+  "text": "88\n\nVerzeichniß der Gesellschaften und Vereine.\n\nI. Wohlthätigkeits = Gesellschaften.\nA. Armenvereine.\n[handschriftlich: 10] Armenerziehungsverein des Bez. Aarau.\nDeutscher Hülfsverein.\nFrauen-Arbeitsverein Aarau.\nFröbel’scher Kindergarten.\nHülfsverein Aarau.\nKleinkinderpflege in der Halden.\nKleinkinderschule in der Milchgasse.\nSchwesternverein der Loge z. „Bruder=\ntreue“ in Aarau.\nStädtischer Fünfrappenverein Aarau.\nVerein gegen Hausbettel.\n[handschriftlich: 9] B. Krankenvereine, Unterstützungskassen.\nBuchdrucker = Krankenkasse.\nGroße Gesellenlade für Handwerker.\nGrütliverein = Krankenkasse.\nHeizer = und Maschinistenverein von\nAarau und Umgebung.\nKleine Gesellenlade für Schuster und\nSchneider.\nKrankensuppe = Anstalt.\nKrankenunterstützungs = Gesellschaft für\nFrauen und Töchter.\nMänner = Krankenunterstützungs = Verein\nAarau.\nStädtischer Lehrerpensions = Verein in\nAarau.\n[handschriftlich: 25] II. Vereine und Gesellschaften\nmit künstlerischen, wissenschaftlichen und\ngewerblichen Tendenzen.\nAargauischer Kunstverein.\nAargauischer Thierschutzverein.\nBibelgesellschaft.\nChristlicher Jünglingsverein.\nDramatischer Verein.\nEinwohnerverein der Stadt Aarau.\nFreimaurerloge.\nGartenbauverein.\nGewerbehalle und Vorschußkasse.\nGrütliverein Aarau.\nHandwerker- und Gewerbeverein.\nHistorische Gesellschaft.\nKaufmännische Abendgesellschaft.\nKulturgesellschaft des Bezirks Aarau.\nLandwirthschaftl. Bezirksverein Aarau.\nLesegesellschaft.\n[spalte 2]\nMittelschweiz. Geograph.-Commerzielle\nGesellschaft in Aarau.\nNaturforschende Gesellschaft.\nSchuhmacherverein Aarau.\nSonntags- und Handwerkerschule.\nStenographenverein.\nTarifverein Aarau.\nTypographenverein.\nVerein junger Kaufleute.\nVerein schweizerischer Geschäftsreisender,\nSektion Aarau.\n[handschriftlich: 4] III. Gesangvereine.\nCäcilienverein Aarau.\nGesangssektion des Grütlivereins.\nSängerbund Aarau.\nTöchternchor Aarau.\n[handschriftlich: 4] IV. Musikvereine.\nFeuerwehr = Musik.\nKleine Blechmusik-Gesellschaft.\nStadtmusik = Gesellschaft Aarau.\nZither = Club Aarau.\n[handschriftlich: 5] V. Militärische Vereinigungen.\nArtillerieverein Aarau.\nMilitär=Sanitätsverein von Aarau und\nUmgebung.\nOffiziers = Gesellschaft Aarau.\nUnteroffiziersverein Aarau.\nWasserfahrverein Aarau.\n[handschriftlich: 3] VI. Schützen = Gesellschaften.\nFreier Schießverein Aarau.\nSchützen = Gesellschaft Aarau.\nSchützen=Gesellschaft des Grütlivereins.\n[handschriftlich: 2] VII. Turnvereine.\nBürgerturnverein Aarau.\nTurnverein, Alte Sektion.\nVIII. Verschiedene Gesellschaften\nund Vereine.\nAargauischer Taubstummenverein.\nAltersgenossenverein Aarau.\nDeutscher Arbeiterverein.\nDonnerstags-Kegelgesellschaft im Kreuz.\nDreizehner = Jahrgängerverein.\nFrizzenverein Aarau.\nJakobenverein Aarau.\nVelo = Club.\nZweiundzwanziger-Jahrgängerverein.\n[handschriftlich: Total]\n\nVerzeichniß der gemeinnützigen und wohlthätigen Anstalten.\n\nArmen-Erziehungsanstalt Kasteln.\nBlindenasylfond.\nBürgerspital (Krankenanstalt).\n[spalte 2]\nDiakonissen = Anstalt in Aarau.\nTaubstummen = Anstalt von Aarau, auf\nLandenhof.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 11015,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 3010,
+    "lines": 105,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.019,
+    "mean_line_chars": 27.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:22:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p092",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p092.jpeg",
+      "bytes": 305636,
+      "sha256": "cebe4db0d5a61fb8df3f7c9f7fc433d18db3bf0355a5c6209200303389d435b6",
+      "sha256_of": "original",
+      "working_copy": "1884_p092.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:38+00:00"
+  }
+}

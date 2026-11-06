@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p148",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p148.jpeg",
+    "bytes": 273512,
+    "sha256": "cd80fc680b128837a2fc43e9cdb89a684a559ba194e68396a05e9f46ecd14e72",
+    "sha256_of": "original",
+    "working_copy": "1888_p148.jpeg"
+  },
+  "text": "130\n\nDrechsler.\nHäuptli, Emil, Halden 284.\nHuber, Heinrich, Ziegelrain 710.\nHunziker, Fritz, Entfelderstraße 966.\n\nDroguenhandlungen.\nBell, J. A., Pelzgasse 130.\nRies-Buhlrein, E., Ziegelrain 702.\n\nEichmeister.\nKlingelfuß, Joh. Friedrich, Mechaniker,\n  Weinberg 326.\n\nEisengießerei.\nWürger, Heinrich, hinter dem Bahnhof 498\n  (Eisen-, Stahl-, Weich- und Metall-\n  gießerei).\n\nEisenhandlung.\nHenz, Jakob, vordere Vorstadt 679.\n\nEisen-, Messing- u. Stahlwaaren.\nFaller, Friedrich, Rathhausgasse 17.\nFaller, Elise Louise, Wittwe, Firma:\n  Gebrüder Faller, Kronengasse 41.\nHenz-Gautschi, Emil, vordere Vorstadt 903.\nHenz, Jakob, vordere Vorstadt 678.\n\nElastische Gewebe-Fabriken.\nBally-Arndt, Eugen, hinter dem Bahn-\n  hof 490.\nW. Reiners Nachfolger (R. Hartmann u.\n  A. Schürch), Bachstraße 1048.\n\nErsparnißkassen.\nAllg. aarg. Ersparnißkasse, Graben 215.\n  Kassastunden 9—12 und 2—4 Uhr.\n  Geschäftsführer: Wehrli, Rudolf.\n  Zinsrodelverwalter: Haberstich, Jakob.\n  Kassier: Wanger, Gustav.\n  Controlleur: Lenzi, Albert.\nSparkasse von Aarau und Umgebung,\n  hintere Vorstadt 645.\n  Kassastunden 12—2 Uhr Mittags.\n  Präsident des Vorstandes: Schneider,\n  Fridolin, Oberrichter.\n  Kassier: Schmid, Peter.\nSpar-, Leih- und Diskontokasse, hintere\n  Vorstadt 638.\n  Kassastunden 9—12 und 2—5 Uhr.\n  Präsident des Vorstandes: Schmuziger-\n  Jacot.\n  Verwalter: Gebrüder Hemmeler.\n\n[spalte 2]\n\nFarbwaarenfabrikation.\nImhof, Ernst, Bachstraße 1035.\nLandolt, Karl (Firma Landolt & Cie.),\n  obere Vorstadt 949.\n\nFarbwaarenhandlungen.\nImhof, Ernst, Bachstraße 1035.\nLandolt, Karl (Firma Landolt & Cie.),\n  obere Vorstadt 949.\nRies-Buhlrein, E., Ziegelrain 702,\n  und die Maler Seite 138.\n\nFärbereien.\nHaßler-Häberlin, Adolf, Hammer 188.\nHaßler-Ernst, August, Halden 265.\nJenny u. Weigel, in der Telli 449.\nKeller, Daniel, Halden 273.\nWydler-Bäuerlin, Hrch., Ziegelrain 718.\nWyser & Cie., Bachstraße 1055.\n\nFeilenhauer.\nGeiger, Lorenz, Hammer 188.\nMathys, Wilhelm, Bachstraße 933.\n\nFeinschleifer.\nHässig, Gottlieb, Hammer 184 b.\n\nFuhrhalter.\nBerchtold, Samuel, vor dem Haldenthor 796.\nBrunner, Heinrich, Halden 286.\nFischer, Friedrich, Halden 274.\nHauri, Rudolf, Halden 249.\nKeller, Johann (Lohnkutscher), Casino-\n  straße 580.\nSpinner-Billo, Bahnhofstraße 537.\nMaier, Konrad (Lohnkutscher), Bach-\n  straße 1038.\nWidmer, Jakob, Schachen 736.\nWillimann, Anton (Lohnkutscher), Igel-\n  weid 619.\nWullschleger, Heinrich, Schachen 741.\n\nFourniturenhandlungen.\nPeter-Gut, Anna, Wittwe, hintere Vor-\n  stadt 621.\n\nFürsprecher.\nDr. Blattner, Otto, obere Vorstadt 948.\nHaberstich, Johann, Laurenzenvorstadt 413.\nKurz, Erwin, Laurenzenvorstadt 360.\nStierli, Goar Leonz, Laurenzenvorstadt 360.\nTanner, Erwin, Laurenzenvorstadt 367.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9715,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2703,
+    "lines": 93,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0323,
+    "mean_line_chars": 27.29,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:40:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p148",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p148.jpeg",
+      "bytes": 273512,
+      "sha256": "cd80fc680b128837a2fc43e9cdb89a684a559ba194e68396a05e9f46ecd14e72",
+      "sha256_of": "original",
+      "working_copy": "1888_p148.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:40:54+00:00"
+  }
+}

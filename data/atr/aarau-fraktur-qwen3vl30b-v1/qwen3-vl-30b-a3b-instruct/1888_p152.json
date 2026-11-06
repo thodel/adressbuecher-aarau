@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p152",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p152.jpeg",
+    "bytes": 266984,
+    "sha256": "7bd246ef63bcf952608c3a74df446d7f24ddddfcbad5930b51b2f719c9514041",
+    "sha256_of": "original",
+    "working_copy": "1888_p152.jpeg"
+  },
+  "text": "134\nHöfer, Gottlieb, Rathausgasse 43.\nMatter, Jakob, Adelbändli 170.\nSiebenmann, Gebr., March. Tailleur,\nFirma: Siebenmann, Jakob, Ober-\nthor 226.\n\nKleiderreiniger.\nGunzifer, Gottlieb, Adelbändli 32.\n\nKleiderfärbereien.\nKeller, Daniel, Halben 273.\nWyser, Alfred, Bachstraße 1055.\n\nKohlen-, Briquettes- und Coaks-\nhandlungen.\nGasfabrik Aarau, Zollrain 786.\nSitz-Lanz, Otto, Rain 875.\nLagerhäuser der Central Schweiz.\nKohrs-Häffig, Emma, Laurenzenthorg. 119.\nSchmidlin-Lug, Theodor, vor dem Halben-\nthor 755.\nSpinner-Billo, J. J., Bahnhofstraße 535.\nTrefzger, Gustav, Färbergässchen 213.\nWidmer, Samuel, z. Consum, Bahnhof-\nstraße 1074.\n\nKorbwaaren.\nHemmeler-Stahl, Jda (Firma Ritter-\nStahl), Rathausgasse 24.\nSchmidt, Robert, z. Bären, Zollrain 177.\nTheodor-Hagnauer, A., hintere Vor-\nstadt 1236.\nWyser, Gustav, Laurenzenthorgasse 118.\n\nKorbflechter.\nWyser, Gustav, Laurenzenthorgasse 118.\n\nKunstmaler.\nRothpley, Julius, Conradstraße 990.\n\nKupferschmiede.\nBühler, Gottlieb, Zgelweid 632.\nHäfner, Paul, Pelzgasse 134.\nHäffig, Friedrich, Ziegelrain 705.\nDie selben handeln auch mit\nKupferschmiedwaaren.\n\nKurantalten.\nWächter, Hans, zum Alpenzeiger 317.\nHüfer.\nBachmann, Johann, Wilchgasse 159.\nBolliger, Johann, Hammer 185 b.\nElsasser, Gottlieb, Halben 290.\nKönig, Friedrich, Rain 878.\nMärki, Johann, Bachstraße 1031.\nWidmer, Hermann, Laurenzenthorg. 117.\n\nHürtshner.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vordere Vorst. 900.\n\nLackfabrikanten.\nLandolt, Karl (Firma Landolt & Sie.), \nobere Vorstadt 949.\n\nLagerungs-, Kommissions- und\nBelehnungsgeschäfte.\nLagerhäuser der Central Schweiz in Aarau\nund Olten. (Größtmögliche Vorschüsse\nauf Waaren aller Art, namentlich\nauf Getreide und andere Landes-\nprodukte). Bahnhofstraße 545.\nDirektor: Ringier, Adolf.\nKassier: Siegrist, Emil.\nBuchhalter: Brodbeck, Eduard.\n\nLederhandlungen.\nHäfner, Hans, Bahnhofstraße 656.\nSiebenmann, Gottlieb, Rain 838.\nSiegrist, Johann, obere Vorstadt 922.\n\nLehrer.\nA. Professoren und Lehrer an der Kantonsschule.\nDr. Bäbler, für deutsche Sprache und\nLitteratur an Gewerbeschule und\nProgymnasium.\nBurgmeister, für Gesang.\nFisch, für alte Sprachen.\nDr. Frey, für deutsche Sprache und\nLitteratur sowie für Griechisch am\nGymnasium.\nDr. Fröhlich, Stellvertreter des Rektors,\nfür alte Sprachen.\nDr. Ganter, für Mathematik am Gym-\nnasium und an der Gewerbeschule.\nGlabach, für Mathematik, technisches\nZeichnen, deskriptive und praktische\nGeometrie.\nDr. Guttentag, für alte Sprachen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6783,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2469,
+    "lines": 87,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0115,
+    "mean_line_chars": 27.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:30:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p152",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p152.jpeg",
+      "bytes": 266984,
+      "sha256": "7bd246ef63bcf952608c3a74df446d7f24ddddfcbad5930b51b2f719c9514041",
+      "sha256_of": "original",
+      "working_copy": "1888_p152.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:30:21+00:00"
+  }
+}

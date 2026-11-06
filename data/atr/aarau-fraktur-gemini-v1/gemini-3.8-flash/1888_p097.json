@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p097",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p097.jpeg",
+    "bytes": 283831,
+    "sha256": "24a604786b82300f293dc736c2ae8328541beb105cf1c643d3ffda097460844e",
+    "sha256_of": "original",
+    "working_copy": "1888_p097.jpeg"
+  },
+  "text": "Brast — Bruns. 79\n\nBrast, Sophie Ida, Holzmarkt 661.\nBrast, Emma, Tochter, Holzmarkt 661.\nBrast-Lienhard, Charlotte, Wittwe, Waffenhandlung, Holzmarkt 661.\nBrast-Meier, Johann, Inspektionsbeamter von Leibstatt, Bahnhof 515.\nBreitschmid-Schüppach, Jakob, Postbeamter von Wohlen, Rain 875.\nBrentano-Brugisser, Max, Zahnarzt von Laufenburg, Entfelderstraße 1075.\nBrentano-Zimmermann, Gustav, Staatsanwalt von Laufenburg, Bach=\n  straße 1107.\nBryner, Anna, Modistin von Möriken, Halden 284.\nBrodbeck, Eduard, Buchhalter von Liestal, Rathhausgasse 20.\nBrogli-Gautschi, Joseph, Polizeidiener, von Sisseln, Milchgasse 79.\nBruder-Bruder, Jakob, Bahnangestellter von Seengen, vor dem Halden=\n  thor 773.\nBrügger-Sommerhalder, Christian, Controleur von Churwalden (Grau=\n  bünden), hinter dem Bahnhof 497.\nBrütel-Constance, Part., Laurenzenvorstadt 412.\nBrütschlin-Boßard, Babette, Wirthin von Sursee (Luzern), Schachen 727.\nBrunner-Abderhalden, Friedrich, Messerschmied von Brunnadern, St. Gallen,\n  vordere Vorstadt 898.\nBrunner, Gottfried, Part., Bachstraße 1038.\nBrunner, Auguste, Glätterin, id. id.\nBrunner, Gottlieb, Tapezierer, id. id.\nBrunner-Knecht, Emil, Mechaniker, Halden 287.\nBrunner-Knecht, Verena, Hebamme, Halden 287.\nBrunner-Nüsperli, Jakob, Seifensieder, Halden 287.\nBrunner-Künzli, Heinrich, Bahnangestellter, vor dem Haldenthor 800.\nBrunner-Nußbaum, Elise, Kaffeewirthin von Dürrenäsch, Igelweid 634.\nBrunner-Senn, Heinrich, Fuhrmann von Schmiedrued, Halden 286.\nBrunner-Trümpler, Anna, Wittwe, Part. von Hirslanden (Zürich), Bach=\n  straße 1051.\nBrunner-Umiker, Jakob, Spezereihändler, obere Vorstadt 928.\nBrunnhofer-Volliger, Lisette, Messerschmieds Wittwe, Laurenzenvorstadt 376.\nBrunnhofer-Bryner, Hermann, Stadtarbeiter, Halden 282.\nBrunnhofer-Eggimann, Dr. Hermann, Kantonsbibliothekar, obere Vor=\n  stadt 938.\nBrunnhofer, Elise, Schneiderin, Rain 875.\nBrunnhofer-Giezentanner, Ursula, Daniels Wittwe, Halden 247.\nBrunnhofer-Giezentanner, Verena, Seilers Wittwe, Golattenmattgasse 235.\nBrunnhofer-Hunziker, Albert, Tambourinstruktor, Halden 248.\nBrunnhofer, Lisette, Lehrers, Part., Halden 246.\nBrunnhofer-Meder, August, Speisewirth u. Liqueurfabrikant, Zollrain 178.\nBrunnhofer-Schmidt, Magdalena, Mechanikers Wittwe, Halden 253.\nBruns-Gattiker, Hermann, Schlossermeister, Werkstätte Hammer 188\n  und Wohnung Pelzgasse 128.\nBruns-Gattiker, Dorothea, obigen Ehefrau, Fein- und Großwäscherei,\n  Pelzgasse 128.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8805,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2424,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:33:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p097",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p097.jpeg",
+      "bytes": 283831,
+      "sha256": "24a604786b82300f293dc736c2ae8328541beb105cf1c643d3ffda097460844e",
+      "sha256_of": "original",
+      "working_copy": "1888_p097.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:33:45+00:00"
+  }
+}

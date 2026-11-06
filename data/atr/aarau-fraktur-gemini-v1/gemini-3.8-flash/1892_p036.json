@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p036",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p036.jpeg",
+    "bytes": 208170,
+    "sha256": "b45ce9f2fc275a1fc45e7a3b689578879061d1c8352edc57e9c4eb8d7c19a09a",
+    "sha256_of": "original",
+    "working_copy": "1892_p036.jpeg"
+  },
+  "text": "— 28 —\n\nHaus-\nNr.\n322. Oeschger-Von Felten, Anna Maria, Wittwe, von Wyl.\n323. † Dieselbe. Schopf.\n324. † Siebenmann-Hagnauer, Friedrich. Brauerei-Gebäude.\n325. † Derselbe. Kegelbahn.\n326. * Klingelfuß, Johann Friedrich, Mechaniker und Eichmeister von Basel.\nSchaffner-Fehlmann, Elisabeth, Wittwe, von Gränichen.\n1081. † Derselbe. Fabrikgebäude.\n1082. † Derselbe. Holzschopf.\n1097. † Schmidt-Hagnauer. Rebhäuschen.\n1102. Siebenmann-Bräm, Otto, Kreiskommandant.\nDolleſchal-Keller, Josef Emil, Kunstmaler, von Trebihoscht (Böhmen).\n1174. † Derselbe. Bienenhaus.\n\nErlinsbacherstraße.\n327. † Fleiner, Alberts, Erbschaft. Cementbrennerei, Fabrikation von\nschwerem hydraulischem Kalk.\n1163. † Dieselbe. Cementmühle.\n1164. † „ Magazin.\n1165. † „ Turbinenhaus.\n328. † „ Kalkofenschopf.\n329. † „ Schopf mit Stallung.\n330. † „ Büreau mit Steinschopf.\n331. † „ Waaghaus.\n1238. † „ Thurm mit Transmission.\n1282. † „ Brennofen. Trockenpresse.\n1296. † „ Stein- u. Kohlenschuppen.\n1297. † „ Steinschuppen.\n332. * „ Trotte.\nGraf-Lüthi, Jakob, Cementarbeiter, von Küttigen.\nKäser-Fischer, Jakob, Küfer, von Erlinsbach (Solothurn).\n1151. † Wagen-Remise.\n1067. † Biedermann-Siebenmann, Lorenz. Rebhäuschen.\n1068. † Burkhard, Ferd., Coiffeur. Rebhäuschen.\n333. Siebenmann-Preisig, Katharina, Becks Wittwe.\nSiebenmann, Fried., Sohn, Part.\n334. † Dieselbe. Holzschopf.\n1298. Roth, Johann, Aufseher, von Obererlinsbach.\nBodmer-Roth, Johann Julius, Fabrikaufseher, von Erlinsbach (Aargau).\n335. * Fleiner, Alberts, Erbschaft.\nRoth-Zaugg, Friedrich, Obergerichtskanzlist.\nSchenk-Habegger, Johann, Schuhmacher, von Langnau (Bern).\nWehrli-Blattner, Adolf, Cementarbeiter, von Küttigen.\n1136. † Dieselbe. Schirmhäuschen.\n336. Rothpletz-Imhof, Louise, Stadtraths Wittwe.\nGuyer-Blattner, August, Part., von Fehraltdorf.\n1246. Blattner-Bircher, Hans Rudolf, Landwirth, von Küttigen.\nBircher-Wehrli, Karl, Büchsenschmied, von Küttigen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8014,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1902,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:48:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p036",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p036.jpeg",
+      "bytes": 208170,
+      "sha256": "b45ce9f2fc275a1fc45e7a3b689578879061d1c8352edc57e9c4eb8d7c19a09a",
+      "sha256_of": "original",
+      "working_copy": "1892_p036.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:57+00:00"
+  }
+}

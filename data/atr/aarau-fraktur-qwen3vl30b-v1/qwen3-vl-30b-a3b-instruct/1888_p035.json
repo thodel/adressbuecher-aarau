@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p035.jpeg",
+    "bytes": 251463,
+    "sha256": "27f03ae1a72316e62bdb454bfb0918d4b62bd61d884e96f3315798fff511b2fc",
+    "sha256_of": "original",
+    "working_copy": "1888_p035.jpeg"
+  },
+  "text": "Haus-\nNr.\n292. Keller-Läuchli, Paul, Zuckerbäcker und Kaffeeiwirthschaft.\nKeller, Geschwister Lina, Emma und Hedwig.\nWaltser, Susette, Weißnäherin, von Oberentfelden.\n293.* Firma Baumann-Streuli, in Horgen (Zürich).\nSchäppi-Honegger, Bertha, Wittwe, von Horgen, Handlung in Seiden-\nwaaren.\nSchmitter-Shuiller, Adele, Fabrikant's Wittwe, Part.\nBlattner, Melanie, Obrerichters, Part.\nGamper-Zürcher, Hermann, Kaufmann.\nGraf-Wolfenter, Katharina, Wittwe, Part., von Ulm (Württemberg).\nWeber, Emil, Reisender, von Haufen; Depot für Singer-Nähmaschinen.\nRohr, Samuel, Gerichtsstitut.\n\nZenseits der Aare.\n294. Schmuziger-Kern, Jda, Baumeisters Wittwe, Part.\nGasser-Fendrich, Emmanuel, Fabrikant, von Hallau (Schaffhausen).\nHaller-Ringier, Emilie, Fürsprach Wittwe, von Zofingen.\n295. * Diefelbe.\nAychner-Gröginger, Joh. Hrch., Buchhalter.\n296. † Diefelbe. Waschhaus.\n297. a. Dreifus, Karl und Samuel, Viehhändler, von Endingen.\nDreifus-Wyler, Karl,\nDreifus-Guggenheim, Samuel, \" \"\n297. b. Diefelben. Wasch- und Holzhaus.\n298. a. Maurer-Peter, Emil, Gastwirth und Negotiant, zum Kreuz. Salz-\nbütte und Spritverkauf.\n298. b. † Derfelbe. Scheune und Schopf.\n298. c. † Derfelbe. Regelbahn.\n299. a. Andreas-Schmid, Jakob, Schreinermeister.\n1237 † Derfelbe. Holzschopf.\n299. b. Andres, Gottlieb, Fondverwalter.\nAndres-Heinzmann, Maria, Becks Wittwe.\n1228 † Derfelbe. Holzschopf.\n300. Blattner-Jäger, Dr. jur., Otto, Fürsprach; Advotaturbureau Obere-\nvorstadt 948.\n301. † Derfelbe. Holzschopf.\n302. a. Bircher-Saßon, Andreas, Kaufmann, von Rüttigen.\nBircher, Andreas, Part., von Rüttigen.\n302. b. † Derfelbe. Scheune.\n302. c. † Derfelbe. Hintergebäude.\n303. * Stähelin-Herzog, Alfred, Dr. med., von Basel.\nRingier-Schwarz, Karl Arnold, Reg.-Rath, von Zofingen.\n1086 Stähelin-Herzog, Alfred, Dr. med., von Basel. Villa 3. Kirchgarten.\n304. † Derfelbe. Scheune und Remise.\n305. † Derfelbe. Treibhaus.\n306. † Derfelbe. Holz- und Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4180,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1923,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.91,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p035.jpeg",
+      "bytes": 251463,
+      "sha256": "27f03ae1a72316e62bdb454bfb0918d4b62bd61d884e96f3315798fff511b2fc",
+      "sha256_of": "original",
+      "working_copy": "1888_p035.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:15+00:00"
+  }
+}

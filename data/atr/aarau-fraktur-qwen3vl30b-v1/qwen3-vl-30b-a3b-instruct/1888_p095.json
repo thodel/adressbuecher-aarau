@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p095",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p095.jpeg",
+    "bytes": 293494,
+    "sha256": "0b83322e31eb48a321d6e56f4a8aee47b44d10a5136d857e8891eb240207c633",
+    "sha256_of": "original",
+    "working_copy": "1888_p095.jpeg"
+  },
+  "text": "Bertschinger — Blattner.\n77\nBertschinger-Aeschbach, Marie Elise, Wittwe, Part. von Lenzburg, Casinostraße 570.\nX Bertschinger-Muiker, Anna, Wittwe, Wirthin zur Militärcantine, von\nLenzburg, Laurenzenvorstadt 590.\nX Bertschinger-Wild, Gustav, Spezereihändler von Lenzburg, hintere Vor-\nstadt 624.\nBhend, Elise, Damenschneiderin von Unterseen (Bern), Bahnhofstr. 1022.\nBiberstein-Spycher, Eugen, Spenglergehilfe, von Bözingen (Bern),\nGolattenmattgasse 236.\nBieber-Maritz, Gottfried, Kondukteur von Stüsslingen (Solothurn), obere\nVorstadt 921.\nBiechlin-Schär, Xaver, Maler von Schweighaufen (Elfaß), Halden 240.\nBiedermann-Siebenmann, Leonz, Kaufmann von Gösgen (Solothurn),\nRathausgasse 26.\nBilleter-Apel, Moritz, Faktor von Hainichen (Sachsen), Bahnhofstr. 1020.\nX Billo-Bür, Julius, Kerzenfabrikant, Bahnhofstraße 535.\nBillo-Billo, Marie, Kaufmanns, Part., Ziegelrain 713.\nBircher, Andreas, Vater, Part. von Rüttigen, jenf. d. Aare 302.\nX Bircher-Saffon, Andreas, Kaufmann von Rüttigen, jenf. d. Aare 302.\nBircher-Brodbek, Marie, Wittwe von Rüttigen, Ziegelrain 713.\nX Bircher-Rielholz, Julius, Kreisingenieur von Rüttigen, Ziegelrain 713.\nBircher, Emil Ludwig, Postcommis, hintere Vorstadt 697.\nBircher, Ludwig, Part., hintere Vorstadt 697.\nBircher-Ryburg, Anna, Wittwe, Part. von Rüttigen, hint. d. Bahnhof 497.\nBircher, Maria, Taglöhnerin, Halden 264.\nX Bircher-Schagmann, Heinrich, Dr. med., administrativer Direktor des\nKantonsspitals und Chefarzt der chirurg. Abtheilung, i. d. Gais 1186.\nBirchmeier-Brunner, Gottlieb, Schlosser v. Würenlingen, Mezgergasse 107.\nBirchmeier-Rull, August, Malermeister von Würenlingen, Casinofstr. 574.\nBirchöfer-Hagenbuch, Albertine, Damenschneiderin, Rainstraße 821.\nX Birrmann-Probst, Maria, Wittwe, von Basel, Weinhändlung, Rathhaus-\ngasse 20.\nX Birrmann-Baldenweg, Albert, Müller von Basel, hintere Vorstadt 684.\nBirrmann, Adolf, Müller, Sohn von Basel, hintere Vorstadt 684.\nBirri-Wilser, Fridolin, Postamenter von Zeihen, Scheibenschachen 314.\nBisegger-Geiger, Joh. Konrad, Inspektionsbeamter von Uffeltrangen\n(Thurgau), Bahnhof 515.\nBlaser-Studer, Anna, Part., von Langnau (Bern), Pelzgasse 68.\nBlattner-Bircher, Hans Rudolf, Landwirth von Rüttigen, Erlinsbacher-\nstraße 1246.\nBlattner-Bolliger, Gottlieb, Sekretär von Rüttigen, Mezgergasse 60.\nX Blattner-Herzog, Hans, Sekretär von Rüttigen, Zollrain 53.\nBlattner-Hemmeler, Jakob, Malermeister v. Rüttigen, Laurenzenvorst. 376.\nBlattner, August, Gerichtskanzlist von Rüttigen, Laurenzenvorstadt 376.\nX Blattner-Hofer, Elisabeth, Wittwe von Rüttigen, Zollrain 178.\nBlattner, Maria, Weißnäherin von Rüttigen, hintere Vorstadt 621.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5536,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2624,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:25:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p095",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p095.jpeg",
+      "bytes": 293494,
+      "sha256": "0b83322e31eb48a321d6e56f4a8aee47b44d10a5136d857e8891eb240207c633",
+      "sha256_of": "original",
+      "working_copy": "1888_p095.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:02+00:00"
+  }
+}

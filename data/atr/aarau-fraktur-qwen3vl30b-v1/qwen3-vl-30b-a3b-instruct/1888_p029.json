@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p029",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p029.jpeg",
+    "bytes": 258322,
+    "sha256": "9bae3b4d08704044a552ef5e995b4ac98a70356137ae37d37713c79e02d3779a",
+    "sha256_of": "original",
+    "working_copy": "1888_p029.jpeg"
+  },
+  "text": "Haus-\nNr.\nSteiner-Schürch, Jakob, Kondukteur, von Dürrenäsch.\nMeijel, Kader, Stadtförster.\n206. Schieber-Hässig, Hermann, Kaufmann. Käsehandlung en gros.\nMeyer, Jakob Ludwig, Architekt, von Zürich. Direktor der Handwerkerschule.\n207.* Markwalder-Gamper, Traugott, Major, Kavallerie-Instruktor,\nvon Wettingen.\n208. Abgetragen, an dessen Platz\n1237 Dürrenläscher, Gabriel, Gemüsehändler. Restauration.\nRiniker-Lutz, Adolf, Kaufmann.\nLutz, Ulrich, Klaviermacher, von Thal (St. Gallen).\n209. Riefer-Haßler, Samuel, Postkassier.\nBurgmeier-Riefer, Joseph, Gesanglehrer.\n\nHinter dem Blak.\n\n210. Bildi-Nejchbach, Emil, Schreiner, von Suhr.\nSommerhalder, Anna, Spetterin, von Contenshwyll.\n211.* Gemeinde Larau. Sprigenhaus Nr. 8.\n212.* Siebenmann-Brun, Brandolf, Fabrikant in Schönenwerd.\nFirma: Siebenmann-Brun & Comp., mechanische Tricotfabrik.\n213. Trefzger-Schöndli, Gustav, Dampf-Wasch- und Badanstalt.\n214.* Siebenmann, Jakob, Schneider.\nAngst-Hässig, Gottlieb, Regt., von Eglisau (Zürich). Larg. Bibeldepot\nund Niederlage technischer und chemischer Produkte.\nFässler, Maria, Privatin, von Densbüren.\nHep, Karolina, Lehrerin, von Wald (Zürich).\n\nGraben.\n\n215. Allgemeine aargauische Ersparniskasse.\nImhof-Munzinger, Emil, Vize-Stadtammann.\nWelti-Siebenmann, Andreas, Partit.\n216. Meister-Gisi, Georg, Bäckeru, Rintenwirth, von Maagendorf (Solothurn).\nLorenz-Skaat, Joseph, Arzt, von Klingnau.\n217. Buser-Müller, Heinrich, Hufschmied.\nZschokke-Boitel, Margaretha, Wittwe, Part.\n218. Urech-Imhof, Fried., Pfarrhelfer.\nDtt, Kaspar, Rentier, von Zürich.\nAkeret, Jakob, Krankenwärter, von Nußbaumen.\n219. Dolder-Saxer, Jakob, Kaufmann, von Hauptweil (Thurgau). Hemden-\nfabrikation, Weißwaarengeschäft.\n220.* Zschokke-Sauerländer, Guido, Buchhändler. Firma: H. R. Sauer-\nländers Sortiments-Buchhandlung.\nStacher-Brunner, Gustav, Seminarlehrer, von Egnach (Thurgau).\n221. Hunziker-Thommen, H., Fabrikant.\nMeyer, J. E., Architekt. Direktor der Handwerkerschule (Büreau).\nLutz, Ulrich, Klaviermacher. Klavierdepot.\nMiggli, Friedrich, gem. Lehrer, Part., von Aarburg.\n222. Vogt-Siegrist, Samuel, von Schinznach. Restauration.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4440,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2124,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:20:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p029",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p029.jpeg",
+      "bytes": 258322,
+      "sha256": "9bae3b4d08704044a552ef5e995b4ac98a70356137ae37d37713c79e02d3779a",
+      "sha256_of": "original",
+      "working_copy": "1888_p029.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:48+00:00"
+  }
+}

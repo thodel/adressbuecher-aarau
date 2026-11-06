@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p079.jpeg",
+    "bytes": 333710,
+    "sha256": "42a1b7dc13c29956443b397e292cb098becc0f733b1fcb90f0930f2b807d483b",
+    "sha256_of": "original",
+    "working_copy": "1884_p079.jpeg"
+  },
+  "text": "Farbwaarenfabrikation.\nImhof, Ernst, Bachstraße 1035.\nLandolt, Karl (Firma Landolt u. Cie.), obere Vorstadt 949.\nFarbwaarenhandlungen.\nImhof, Ernst, Bachstraße 1035.\nLandolt, Karl (Firma Landolt u. Cie.), obere Vorstadt 949.\nRies = Buhlrein, Gl., Ziegelrain 702.\nund die Maler Seite 79.\nFärbereien.\nHäfker-Hüberlin, Ad., im Hammer 188.\nHäfker-Ernst, August, Halben 265.\nJenny u. Weigel, in der Telli 449.\nKeller, Daniel, Halben 273.\nWyder-Bäuerlin, Sch., Ziegelrain 718.\nWyser, Alfred, Bachstraße 1055.\nFeilträgergeschäft.\nWohler, Alois, Meggergasse 100.\nFeinschleifer.\nHäsig, Gottlieb, im Hammer 190.\nFeuerwerker-Artikel.\nBaumann, G., Buchbinder, Kelzg. 135.\nBufer, Jb., Buchbinder, Rainstr. 881.\nFuhrhalter.\nBerchtold, Gl., vor dem Halbenthör 796.\nFischer, Friedr., Halben 274.\nHauri, Rudolf, Halben 249.\nKeller, Johann (Lohnkutscher), Casinostraße 580.\nWillimann, Anton (Lohnkutscher), Sgellweid 619.\nFourniturenhändler.\nPeter, Josef, vordere Vorstadt 902.\nFürsprecher.\nDr. Blattner, Otto, obere Vorstadt 948.\nHaberstich, F., Laurenzenvorstadt 413.\nKurz, Erwin, Laurenzenvorstadt 360.\nStierli, Leonz, Laurenzenvorstadt 602.\nTanner, Erwin, Laurenzenthorngasse 117.\nGarnhandlungen.\nHemmeler-Türler, G., Meggergasse 59.\nGasanstalt.\nGasfabrik Aarau, Zollrain 786.\nDirektor: vacat.\nGasmeister: Wehrli, Karl.\nGärtner.\nEgloff, G., vor dem Halbenthör 1009.\nHediger, H., Stadt- u. Friedhofsgärtner, obere Vorstadt 960.\nHediger, Samuel, Milchgasse 145.\nHaufmann, L., hinter d. Bahnhof 1072.\nRäser, Emil, Schachen 739.\nWeber, Joh., Golattenmattgasse 237.\nWehrli, Jakob, Halben 290.\nWehrli, Gl., vor dem Halbenthör 780.\nWernli, Friedrich, Milchgasse 154.\nWernli, Jb., vor dem Halbenthör 799.\nWernli, Joh., vor dem Halbenthör 808.\nGeometer.\nLüthi, Rudolf, Casinostraße 571.\nGerbereien.\nSiebenmann, Gottl., Rainstraße 834.\nGeschirrhandlungen.\nFrei, Emil, Zollrain 89.\nHemmeler, Verena, Wittwe, obere Vorstadt 944.\nKaiser, Sigmund, Kronengasse 35.\nMorath, Johann, Rathhausgasse 2.\nRitter-Stahl, Jba, Wittwe, Rathausgasse 21.\nSchmidt-Lanz, Ad., obere Vorstadt 935.\nGewehrfabrikation.\nRichner, Heinrich, Schloßplatz 196.\nGipfermeister.\nSchneider, Wilhelm, Hammer 188.\nWehrli, Jakob, Golattenmattgasse 230.\nWehrli, Hans, Halben 250.\nGoldleistenhandlung.\nRies = Buhlrein, Gl., Ziegelrain 702.\nGoldschmiede.\nHärbi, Wilhelm, Rathhausgasse 42.\nGold- und Silberwaaren.\nHärbi, Wilhelm, Rathhausgasse 42.\nHirsch, J. R., vordere Vorstadt 668.\nGeistliche.\nFischer, Xaver, Pfarrer, der christkathol. Gemeinde, Adelbändli 175.\nFrei, Eduard, Pfarrhelfer der reform. Kirchgemeinde, Kirchgasse 6.\nStern, Alexander, Pfarrer der evangel. Kapelle, Bahnhofstraße 1019.\nStöckli, Stephan, Pfarrer der römisch-kathol. Kirche, Casinostraße 1130.\nUrech, Friedr., geweiht. Pfarrhelfer der reform. Kirchgemeinde, Graben 218.\nWernli, Rudolf, Pfarrer der reform. Kirchgemeinde, Milchgasse 158.\nZischke, Emil, Pfarrer der reformirten Kirchgemeinde, Kirchplatz 169.\nGemüsehändler.\nDürr, Gabriel, Rainstraße 825.\nZächert, Josef, hintere Vorstadt 667 b.\nZehnder, Johann, Färbergäbschen 124.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6892,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 3044,
+    "lines": 90,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0444,
+    "mean_line_chars": 32.83,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:16:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p079.jpeg",
+      "bytes": 333710,
+      "sha256": "42a1b7dc13c29956443b397e292cb098becc0f733b1fcb90f0930f2b807d483b",
+      "sha256_of": "original",
+      "working_copy": "1884_p079.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:16:51+00:00"
+  }
+}

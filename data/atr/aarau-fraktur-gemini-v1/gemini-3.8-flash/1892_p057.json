@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p057",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p057.jpeg",
+    "bytes": 215591,
+    "sha256": "8d7a9a8e959410b3dc5879ef2a57940ce7a4bf3d52a29f6033001abcd00547b6",
+    "sha256_of": "original",
+    "working_copy": "1892_p057.jpeg"
+  },
+  "text": "— 49 —\n\nHaus=\nNr.\n\n679.  Abgetragen; an dessen Platz\n1169        Henz=Plüß, Jakob, Kaufmann.\n        Henz=Märk, Julius, Kaufmann (Firma Jakob Henz, Eisenhandlungs=\n          geschäft).\n680.  Schäfer=Dennler, Cäsar, Messerschmied.\n        Meier=Großmann, Anna, Wittwe, Part., von Rheinfelden.\n        Hässig=Hauenstein, Elisabeth, Wittwe, Part.\n681.  Müller=Schneebeli, Heinrich, von Unterstraß (Zürich.) Gasthof\n          zum Löwen.\n682.  Rothpletz=Marti, Friedrichs Erbschaft.\n        Rothpletz, Emil, Verwalter.\n        Waldmeier geb. Rothpletz, Bertha, Wittwe, Part., von Hellikon.\n        Senn=Blattner, Karolina, Wittwe, Ausrüsterin, von Densbüren.\n        Stauber, Emil, Bankangestellter, von Zetzwyl.\n683.  Müller=Schneebeli, Heinrich, Gastwirth. Wohnhaus mit † Stallung\n          † Waschhaus 2c.\n\nHintere Vorstadt.\n\n684.* Gemeinde Aarau. Obere Mühle.\n        Birmann=Baldenweg, Albert, Müller, von Basel.\n        Birmann, Adolf, Sohn,        „      „     „\n685. † Dieselbe. Holzschopf.\n686. † Henz=Plüß, Jakob, Kaufmann, Magazin.\n687. † Derselbe. Magazin.\n688.*      „      Wohnhaus.\n        Plüß geb. Plüß, Maria, Part.\n        Plüß, Louise, Lehrerin.\n        Plüß, Anna, Damenschneiderin.\n        Henz=Siebenmann, Adele, Hafners Wittwe.\n689.* Bircher, Johann Jakob, Krämer und Posthalter in Küttigen.\n        Zimmermann=Hartmann, Johann, Lehrer, von Kempfhof.\n        Frey=Steiner, Heinrich, Notar, von Gontenschwyl. Notariats= und\n          Inkassogeschäft.\n        Michel, Katharina, Spetterin, von Olten.\n690.* Gemeinde Aarau. Amthaus.\n        Bezirksamt und Staatsanwaltschaft.\n        Kantonaler Polizeiposten und Bezirksgefängnisse.\n        Rubli=Schwarz, Joh. Jakob, Gefangenwart, von Effingen.\n691.* Pfisterer=Rohr, Robert, Bierbrauer. Brauerei.\n692.* Derselbe. Bierwirthschaft.\n        Dreifuß=Bloch, Karl, Kaufmann, von Endingen.\n693.* Landolt=Hächler, Gottlieb, Metzger.\n        Simmen=Freudiger, Jakob, Küfermeister, von Schinznach.\n694.  Siebenmann=Brunnhofer, Otto, Schlosser.\n        Müller=Waßmer, Jakob, Oberaufseher (bei Bally, E.), von Safenwyl.\n        Wiederkehr, Adolf, Notar, von Gontenschwyl.\n        Fisch, Elise Karolina, Metzgers, Näherin.\n695.  Abgetragen; an dessen Platz\n1236        * Hirschy=Merz, Joh. Rudolf, Uhrenmacher.\n\nAdreßbuch der Stadt Aarau 1892.      4",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7642,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2304,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:51:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p057",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p057.jpeg",
+      "bytes": 215591,
+      "sha256": "8d7a9a8e959410b3dc5879ef2a57940ce7a4bf3d52a29f6033001abcd00547b6",
+      "sha256_of": "original",
+      "working_copy": "1892_p057.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:51:23+00:00"
+  }
+}

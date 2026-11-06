@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p013",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p013.jpeg",
+    "bytes": 214574,
+    "sha256": "2917f36ef9c09b5551c0f2297abf6489e6bd3bcd8d1e62917d2b5e2697ea4179",
+    "sha256_of": "original",
+    "working_copy": "1892_p013.jpeg"
+  },
+  "text": "Haus-\nNr.\nHirt geb. Wehrli, Elisabeth, Wittwe, Spetterin, von Bezwyll.\nHirt, Verena, Part., von Bezwyll.\nWütherich-Stirnemann, Jakob, Camioneur, von Eggwyl (Bern).\nRoth-Sahli, Samuel, Hausfnecht, von Bezwyll.\nBirri-Akti, Wilhelm, Bremser, von Zeihen.\n46. Hässig-Lienhard, Hermann, Bäcker und Pintenwirth.\nHagenbuch-Hagenbuch, August, Sekretär.\n47 * Hässig-Lienhard, Hermann, Bäcker und Pintenwirth.\nBlüt-Zimmerli, Jakob, Taglöhner, von Brittnau.\nPlütz-Zimmerli, Marie, Hebamm, von Brittnau.\nHeusler, Emanuel, Kaufmann, von Biel (Bern).\nHäusler geb. Elmer, Karolina, Part., von Schwaderloch.\nRohr-Graf, Rudolf, Weichenwärter, von Hunzenschwyl.\nHemmeler, Rosa, Ladentochter.\n48. Seiler-Hanhart, Andreas, Bäckermeister.\n49. * Camper & Cie. (Anteilhaber: Müller-Haberli, Fr., Camper-Zürcher,\nHermann und Camper-Baumann, Emil.) Lager in Herren- und\nDamen-Kleiderstoffen, Herren- und Damen-Konfektion, Anfertigung\nvon Herrenkleidern nach Maß.\n\nZollrain.\n50. * Camper & Cie. Magazin.\n51. Frei-Rohner, Robert, Bäcker und Pintenwirth von Zurzach.\nRohner geb. Ehrsam, Elise, Ärztin Wittwe, Part.\nKümmerli-Matter, Elise, Abwärts Wittwe, von Kölliken.\nKümmerli, Rosa, Chemikerin (Zurilinden), von Kölliken.\nSten, Albertine, Comptoiristin (Bally & Schmitter), von Unterägeri (Zug).\nSiegfrist, Albert, Bäcker, von Weisserschwanden.\n52. Bonary, Karoline, Pintenwirthin, von Olten.\nHelm-Bonary, Elise, Wittwe, von Derlison (Zürich).\nHelm, Fanny, Modistin,\nBurger, Johann, Gerichtsschreiber, von \"Freienwyl\".\n53. Nüsperli-Nußbaum, Friedrich, Sattler.\nNüsperli, Karl, Postcommis.\nNüsperli, Friedrich, Postcommis.\nFrey-Häuptli, Gottlieb, Taglöhner, von Biberstein.\nFrey, Gottlieb, Sohn, Schriftseker, von Biberstein.\n54. Heller-Erb, Heinrich, Rechtsagent, Intaffogeschäft.\n\nMekgergasse.\n55. Hemmeler-Haßler, August, Kaufmann, Quincaillerie- und Kinderpiel-\nwaaren-Handlung.\nHemmeler-Biedermann, August, Kaufmann.\nWyhler, Maria, Part.\nWyhler, Lina, Part.\n56. Dätwyler-Merz, Susanna, Notars Wittwe, Part.\nLüscher, Jakob, Notar, von Mühlen, Intaffogeschäft (Bureau).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4203,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2044,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p013",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p013.jpeg",
+      "bytes": 214574,
+      "sha256": "2917f36ef9c09b5551c0f2297abf6489e6bd3bcd8d1e62917d2b5e2697ea4179",
+      "sha256_of": "original",
+      "working_copy": "1892_p013.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:32+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p075.jpeg",
+    "bytes": 259775,
+    "sha256": "805c4539951363e69f6c9c1a7a3aac7bc733339a4241108544de74735299be75",
+    "sha256_of": "original",
+    "working_copy": "1888_p075.jpeg"
+  },
+  "text": "— 65 —\nHaus-\nNr.\n1015. Evangelischer Verein. Kapelle.\n1016.† Frey-Feer, Bertha, Fabrikants Wittwe. Fabrikgebäude.\n  (Firma: F. Frey-Feer & Cie. Seidenbandfabrikation.)\n1017.† Dieselbe. Maschinenhaus.\n1018.* Dieselbe. Wohnhaus mit Holzremise.\n  Tanner-Wehrli, Emil, Posamenter, von Dintiken.\n  Wehrli, Jakob, Mechaniker, von Küttigen.\n1173  Diakonissenstation Aarau.\n  Berchten, Susanna, Diakonissin, von St. Stephan (Bern).\n  Schneider, Adele, Diakonissin, von Pieterlen (Bern).\n  Geiser, Elise, Diakonissin, von Langenthal (Bern).\n  Siebenmann, Rosa, Tapezierers, Part.\n  Schmuziger, Juliana, Part.\n  Stierli, Anna, Part., von Gebenstorf.\n1208  † Diakonissenstation Aarau. Waschhaus.\n1019. Schenker-Siebenmann, Gottlieb, Dr. Med., Arzt.\n1020. Haßler-Hunziker, Karl, Kaufmann. Hemdenfabrikation. Weiß-\n  waaren- und Tapetenlager.\n  Wanger-Siebenmann, Hermann, Part.\n  Billeter-Apel, Moritz, Faktor, von Hainichen (Sachsen).\n1021.† Derselbe. Hintergebäude.\n  Rychener-Hunziker, Elise, Malers Wittwe, Part.\n1022.a. Jäger-Hässig, Johann, Maurer, von Außersihl (Zürich).\n  Hunziker-Schürch, Marie, Schriftsetzers Wittwe, Part.\n  Siebenmann-Hartmann, Margaretha, Wittwe, Part.\n  Meier, Johann, Lehrer, von Aristau.\n1022.b. Wildi-Leuthard, Verena, Wittwe, Part., von Veltheim.\n  Wildi-Wespi, Adele, von Veltheim. Coiffeurgeschäft.\n  Marfurt, Xaver, Coiffeurgehilfe, von Langnau (Luzern).\n  Bhend, Elisabeth, Damenschneiderin, von Unterseen (Bern).\n  Baumann, Barbara, Part., von Stilli.\n1023. Siebenmann-Seiler, Catharina, Wittwe, Part.\n  Widmer-Zehnder, Samuel, Negt., von Safenwyl. Kaffeewirthschaft.\n  Knell-Suter, Jakob, Gießer, von Töß (Zürich).\n1024. Abgetragen, an dessen Platz\n1074  * Spengler-Lienhard, Louise, Wittwe, Part.\n  Widmer-Zehnder, Samuel, Consumdepothalter, von Safenwyl.\n  Gamper-Baumann, Emil, March. Tailleur.\n  Dambach-Wild, Jakob, Kreispostadjunkt, von Brugg.\n1025. Eggimann-Joß, Johann, von Sumiswald (Bern). Restauration.\n  Philipp-Vonarx, Johann, Milchverkäufer, von Kienberg (Solothurn).\n  Siegenthaler-Hirt, Hermann, Uhrenmacher, von Trueb (Bern).\n  Siegenthaler-Hirt, Elise, Glätterin, von Trueb (Bern).\n1026.* Gemeinde Aarau. Wohnhaus.\n  Peduzzi, Franzesko, von Schignano (Italien). Südfrüchtenhandlung.\n  Ginsberg-Ammann, Friedrich, Part.\n  Adressbuch der Stadt Aarau 1888. 5",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8679,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2303,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:31:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p075.jpeg",
+      "bytes": 259775,
+      "sha256": "805c4539951363e69f6c9c1a7a3aac7bc733339a4241108544de74735299be75",
+      "sha256_of": "original",
+      "working_copy": "1888_p075.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:31:50+00:00"
+  }
+}

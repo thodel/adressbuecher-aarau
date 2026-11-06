@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p073",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p073.jpeg",
+    "bytes": 232415,
+    "sha256": "1a5b818d7c9063414ef1774f145b87c85f213716420e0ba79301c858a31af884",
+    "sha256_of": "original",
+    "working_copy": "1888_p073.jpeg"
+  },
+  "text": "— 63 —\n\nHaus-\nNr.\nGönhardsfeldweg.\n1145 Keller=Fehlmann, Johann, Dekonom, von Hottwyl.\nDtt geb. Keller, Verena, Wittwe, Part., von Aarburg.\nKern-Hofer, Johann, Sekretär des Eidgen. Waffenchefs der Cavallerie,\nvon Kölliken.\n1150 Umiker-Hürlimann, Samuel, Ausläufer, von Thalheim.\nBüsklinger-Rienberger, Siegfried, Postcommis, von Dättwyl.\n1241 Widmer=Gamper, Friedrich, Postcommis, von Safenwyl.\nChristoffel-Martin, Huldreich, Bezirksschullehrer, von Scheid (Graubünden).\n\nSohlweg.\n984.† Gemeinde Aarau. Brunnenhaus.\n\nEntfelderstraße.\n985.† Nieding, Heinrich, Zimmermeister, von Märketten. Schopf.\n986. Abgetragen, an dessen Platz\n1171 † Siebenmann, Friedrich, Bierbrauer. Biereller.\n987.† Gemeinde Aarau. Brunnenhaus.\n\nConradstraße.\n988. Abgetragen, an dessen Platz\n1255 Hagnauer=Zimmermann, Albert, Kaufmann.\n989. Hagnauer=Wildberger, Barbara, Wittwe, Part.\nAusler-Harsch, Emil, Oberrichter, von Schinznach.\n990. Rothpleß-Waldkirch, Julius, Malermeister.\n991.† Derselbe. Holzhaus.\n992. Schäfer, Ida, Postkontroleurs, Part.\nSchürch, Adolf, Fabrikant, von Büren zum Hof (Bern).\n993. Wehrli-Herzog, Rudolf, Geschäftsführer der Allg. Aarg. Ersparnis-\nkasse, von Rüttigen.\nRohr-Reiner, Hans, Staatsanwaltschaftstitut, von Lenzburg.\n994.† Derselbe. Gartenhaus.\n\nZischoffestraße.\n995. Zischoffe=Sauerländer, Guido, Buchhändler. Meteorologische Station.\n1198 † Derselbe. Bienenhaus.\n996. Fischer=Schmidlin, Bertha, Part.\nSchmidlin, Elise, Part.\nWyhler-Fischer, Heinrich, Bezirkslehrer, von Affoltern a./A. (Zürich).\n997.† Derselbe. Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3268,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1534,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p073",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p073.jpeg",
+      "bytes": 232415,
+      "sha256": "1a5b818d7c9063414ef1774f145b87c85f213716420e0ba79301c858a31af884",
+      "sha256_of": "original",
+      "working_copy": "1888_p073.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:55+00:00"
+  }
+}

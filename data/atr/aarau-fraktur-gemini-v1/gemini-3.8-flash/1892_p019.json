@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p019",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p019.jpeg",
+    "bytes": 227174,
+    "sha256": "c247a5a9ce85eeb5621aae219619396ca402c0351dadc952c0690359b15127ce",
+    "sha256_of": "original",
+    "working_copy": "1892_p019.jpeg"
+  },
+  "text": "— 11 —\nHaus=\nNr.\n118. Burkhardt=Bertschinger, Ferdinand, Coiffeur. Coiffeur= und\n    Parfümeriegeschäft.\n  Burkhardt, Ferdinand, Sohn, Coiffeur.\n  Burkhardt, Lina, Coiffeuse.\n119.a. Rohr=Hässig, Emma, Wittwe. Colonialwaarenhandlung. Salzverkauf.\n119.b. Eggen=Sulzer, Eduard, Colonialwaarenhandlung.\n120. * Schießer, J. J. Sohns, Erbschaft.\n  Fischer-Bonwiller, Adolf, Postbeamter. Cigarren= und Tabakhandlung.\n  Fischer, Louise, Ladentochter.\n  Keller-Siebenmann, Daniel, Uhrmacher, von Veltheim. Uhrenhandlung\nPelzgasse.\n121. * Schießer, Hermann, Käse= und Butterhandlung.\n  Schießer, Margaretha, Part.\n  Schaffner-Zeller, Rudolf, Part.\n  Frei, Maria Magdalena, Ladendienerin, von Zurzach.\n122. Küenze=Kümmeli, Oswald, Schuhmachermeister, von Uetikon (Zürich).\n    Schuhhandlung.\n  Wipf geb. Wernli, Margaretha, Wittwe, Vorgängerin, von Egliswyl.\n  Wipf, Jakob, Schneider, von Egliswyl.\n  Trog, Gottlieb, Schuhmacher.\n123. Rychner=Heß, Konrad, Seiler, Seilerwaaren= und Peitschenlager,\n    Fettwaaren.\n124. Stirnemann geb. Müller, Louise und * Müller, Arnold, Baumeister.\n  Stirnemann=Müller, Louise, von Gränichen. Ellenwaaren= und Mercerie=\n    geschäft.\n  Stirnemann, Emma, Lehrerin, von Gränichen.\n  Nüsperli-Rychner, Julie, Weißgerbers Wittwe.\n  Nüsperli, Emma, Weißgerbers, Part.\n  Zehnder geb. Kaufmann, Barb., Wittwe, Gemüsehändlerin, von Gränichen.\n  Lenzin, Sophie, Lehrerin.\n  Härri-Linder, Rudolf, Direktionssekretär, von Birrwyl.\n125. Adam=Heß, Anton, Part., von Allschwyl.\n  Walter-Schmuziger, August, von Neumühl (Baden). Nähmaschinen= und\n    Fourniturenhandlung.\n  Ecknauer-Reimann, Joseph, Emil, Handlanger, von Herznach.\n  Hausmann-Dietiker, Johann, Taglöhner, von Schafisheim. Holzhändler.\n126. Hunziker=Baumberger, Rudolf, Lehrer.\n  Gysi-Bächli, Adolf, Tapezierer, von Buchs. Möbelhandlung.\n127. Willi=Blattner, August, Metzger, von Lostorf (Solothurn), Speise=\n    wirthschaft.\n  Bruns-Gattiker, Hermann, Schlosser, von Bremen.\n  Bruns-Gattiker, Dorothea, obigen Ehefrau, Fein- und Großwäscherei.\n128. Weber=Lüscher, Otto, Weinhandlung, von Menziken.\n  Lüscher-Herzig, Elisabeth, Wittwe, Part., von Muhen.\n  Stacher-Brunner, Gustav, Seminarlehrer, von Egnach (Thurgau).\n  Weder, Andreas, Dr. jur., von Balgach (St. Gallen). (Redaktor des\n    Aargauer Tagblattes.)\n  Wäffler-Stäuble, Heinrich, Turnlehrer von Basel.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8880,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2337,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:46:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p019",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p019.jpeg",
+      "bytes": 227174,
+      "sha256": "c247a5a9ce85eeb5621aae219619396ca402c0351dadc952c0690359b15127ce",
+      "sha256_of": "original",
+      "working_copy": "1892_p019.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:46:44+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p168",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p168.jpeg",
+    "bytes": 253137,
+    "sha256": "5f31f610fc397c5589b1fd48231c2c16a21b265b4fe1803d30317527c04289c6",
+    "sha256_of": "original",
+    "working_copy": "1888_p168.jpeg"
+  },
+  "text": "150\nGerber, J., March. Tailleur\nGloor-Siebenmann, Colonialwaaren- und Deli-\nkateessenhandlung\nGyfi, Mechaniker und Photograph\nHäfliger, Otto, Speisewirthschaft und Meßgerei\nHenz, Karl, Eisenwaarenhandlung\nHenz, Jakob, Eisenhandlung\nHolzach, Dietrich, Bierbrauerei\nHolzach, Fritz, Meßger und Wirth\nBordere Vorstadt 670.\nKronengasse 38.\nBordere Vorstadt 895.\nPelzgasse 136.\nBordere Vorstadt 903.\nBordere Vorstadt 678.\nBahnhofstrasse 563.\nZiegelrain 700.\nFenny & Weigel, Färberei\nTell 449.\nKantonsSpital\nRuhn-Buser, Schlosser und Mechaniker\nZiegelrain 750.\nLagerhäuser der Central Schweiz\nLandolt & Cie., Kinnikffabrikation\nLandolt-Hächler, Meßger\nLüthy, Hermann, Kaufmann\nLüthy-Lütscher, Fabrikant\nBahnhofstrasse 545.\nObere Vorstadt 949.\nBordere Vorstadt 671.\nSchößtland.\nSchößtland.\nMärki & Haller, Mühlbauer\nMatter, H. & D., Fabrik\nMerz, S., Notar\nMilitärkanzlei\nMüller & Cie., Lithographie und Druckerei\nMüller, Gasthof zum Löwen\nMüller-Haberlich, F. In Firma: Camper & Cie.\nWöschau.\nObermuhlen.\nRössli.\nBachstraße 1100.\nRegierungsgebäude.\nIgelweid 628.\nBordere Vorstadt 681.\nBahnhofstrasse 656.\nObouffier, F., Baumwollweberei, Fabrik in\n\" Bureau und Wohnung\nBuchs.\nGraben 613.\nReiners Nachfolger, Elastiquefabrik\nRohr, zum wilden Mann\n\" Laurenzenbad\nRychner & Rothpletz, Thon- u. Steinzeugröhrnfabrik\nRyniter, Fried., Bierbrauerei\nBachstraße 1054.\nBordere Vorstadt 667.\nObererlinsbach.\nBahnhofstrasse 560.\nMekgass 102.\nSauerländer, H. R., Buchdruckerei\nSchentfer, Dr. med.\nSchmidt-Sagnauer, G., Zuchwaarenhandlung\nSchmuziger, F., Dr. med.\nSchmuziger, Gebr., Siegellack- und Tintenfabrik\nSchmuziger-Roller, Baumeister\nSiebenmann-Brun, mech. Tricotsfabrik\n\" Wohnung\nSiebenmann, J., Marchand Tailleur\nSiebenmann, Fritz, Bierbrauerei zum Weinberg\n\" Biereller\nSpar- und Kreditkasse\nSpinner, J., Camioneur\nStaatsanwaltschaft, Kantonspolizei\nStaatskanzlei\nStadtpolizei, Wachtposten\nLaurenzenvorstadt 418.\nBahnhofstrasse 1019.\nGraben 202.\nEntfelderstrasse 972.\nRain 834.\nLaurenzenvorstadt 602.\nFärbergässchen 212.\nSchönenwerd.\nOberthor 226.\nWeinberg 321.\nObere Vorstadt.\nSchößtland.\nBahnhofstrasse 537.\nAmtshaus.\nRegierungsgebäude.\nRathausgasse 176.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4853,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2143,
+    "lines": 94,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0319,
+    "mean_line_chars": 21.81,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:32:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p168",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p168.jpeg",
+      "bytes": 253137,
+      "sha256": "5f31f610fc397c5589b1fd48231c2c16a21b265b4fe1803d30317527c04289c6",
+      "sha256_of": "original",
+      "working_copy": "1888_p168.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:18+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p102",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p102.jpeg",
+    "bytes": 245773,
+    "sha256": "483acab8d949a33f97611004b4b87e2cae4e6c0aade18bd2c5be29717bc099bc",
+    "sha256_of": "original",
+    "working_copy": "1892_p102.jpeg"
+  },
+  "text": "86 — Bopp — Brunner.\n\nBopp-Häusler, Kaspar, Pflästerer von Remigen, Rain 884.\nBossardt, Anna, Fabrikarbeiterin von Effingen, Stadthof 94.\nBossardt, Elise, Privatlehrerin von Altstätten (Zürich), Bahnhofstraße 1019.\nBossardt, Jakob, Taglöhner von Birr, Adelbändli 84.\nBossardt, Marie, Spetterin von Effingen, Stadthof 94.\nBotz, Hans Ernst, Metzger von Melchnau (Bern), Pelzgasse 120.\nBotz, geb. Kieser, Ida Rosina von Melchnau (Bern), Pelzgasse 120.\nBouvard-Schulteß, Johann, Güterexpedient von Remetschwyl, hinter dem\n  Bahnhof 495.\nBrack, Abraham, Oekonom, Bachstraße 1061.\nBrack-Erismann, Anna, Wittwe, Part., Bachstraße 1061. [handschriftlich: \" \"]\nBrack-Jauch, Jakob, Sekretär des Waffenchefs des Artillerie, v. Effingen,\n  Rain 838.\nBrack, Jakob, Part. von Elfingen, Ziegelrain 751.\nBrack-Mühlhaupt, Jakob, Kaufmann von Effingen, Bahnhofstr. 1336.\nBrack-Steininger, Gottlieb, Buchhalter von Effingen, Graben 220.\nBrack-Uster, Heinrich, Revisor von Effingen, Schachen 736.\nBrack-Wälchli, Heinrich, Webermeister von Mönthal, vor dem Halden-\n  thor 1332.\nBräm, Albert, Sohn, Commis von Bülach (Zürich), Hammer 191.\nBräm-Huber, Heinrich, Kaufmann van Bülach (Zürich), Hammer 191.\nBrändli-Hug, Jakob, Fabrikarbeiter von Unterbözberg, Ziegelrain 711.\nBrändli-Müller, Elisabeth, Taglöhnerin von Unterbözberg, vor dem\n  Haldenthor 773.\nBrand-Baumann, Jakob, Bäcker und Pintenwirth, vordere Vorstadt 669.\nBrast, Emma, Tochter, Holzmarkt 661.\nBrast-Lienhard, Charlotte, Wittwe, Waffenhandlung, Holzmarkt 661.\nBrast-Meier, Johann, Inspektionsbeamter von Leibstatt, Bahnhof 515.\nBrast, Sophie Ida, Holzmarkt 661.\nBrentano-Brugisser, Max, Zahnarzt von Laufenburg, Entfelderstraße 1075.\nBrentano-Zimmermann, Gustav, Staatsanwalt von Laufenburg, Bach-\n  straße 1107.\nBryner, Anna, Modistin von Möriken, Halden 284.\nBrogli-Gautschi, Joseph, Polizeidiener, von Sisseln, Tellirain 1335.\nBrown, Sophie, Part. aus Nordamerika, Rain 843.\nBrügger-Sommerhalder, Christian, Controleur von Churwalden (Grau-\n  bünden), hinter dem Bahnhof 497.\nBrütel-Constance, Part., vordere Vorstadt 894.\nBruder-Bruder, Jakob, Bahnangestellter von Seengen, Milchgasse 75.\nBrugger-Tschudi, Katharina, Näherin von Hirschthal, Bachstraße 1038.\nBrunner-Abderhalden, Friedrich, Messerschmied von Brunnadern, St. Gallen,\n  vordere Vorstadt 898.\nBrunner, Auguste, Glätterin, vordere Vorstadt 898. [handschriftlich: \" \"]\nBrunner, Gottfried, Part., Bachstraße 1038.\nBrunner-Knecht, Emil, Mechaniker, Halden 287.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7294,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2467,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:56:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p102",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p102.jpeg",
+      "bytes": 245773,
+      "sha256": "483acab8d949a33f97611004b4b87e2cae4e6c0aade18bd2c5be29717bc099bc",
+      "sha256_of": "original",
+      "working_copy": "1892_p102.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:56:14+00:00"
+  }
+}

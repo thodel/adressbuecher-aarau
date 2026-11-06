@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p005",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p005.jpeg",
+    "bytes": 325440,
+    "sha256": "c911d37240e597786a5ddd35a10c989ef02dc1fbe487325f71e032b89e545dfd",
+    "sha256_of": "original",
+    "working_copy": "1888_p005.jpeg"
+  },
+  "text": "Cont.\n40\n1888\n1888\nAdreß-Buch\nder\nStadt Aarau\nDienlich für Jedermann\nnamentlich für\nBeamte, Fabrikanten, Handels- u. Gewerbsleute\nvon\nG. Vogel, Polizeiwachtmeister.\nDruck von G. R. Sauerländer.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 604,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 193,
+    "lines": 13,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0769,
+    "mean_line_chars": 13.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0155,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p005",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p005.jpeg",
+      "bytes": 325440,
+      "sha256": "c911d37240e597786a5ddd35a10c989ef02dc1fbe487325f71e032b89e545dfd",
+      "sha256_of": "original",
+      "working_copy": "1888_p005.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:23+00:00"
+  }
+}

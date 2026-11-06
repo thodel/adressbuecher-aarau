@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p063",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p063.jpeg",
+    "bytes": 270338,
+    "sha256": "94b8ff85a10decc337e2e920c6dbb813b3b1502d7b49957e3b9925478d4795a9",
+    "sha256_of": "original",
+    "working_copy": "1888_p063.jpeg"
+  },
+  "text": "— 53 —\n\nHaus-\nNr.\n821. Birthofer-Hagenbuch, Albertine, Damenschneiderin.\nBertschi-Storfenmeier, Emil, Schneider, von Sumiswald (Bern).\n822. Keller-Speereisen, Gottlieb, von Wöschau (Solothurn), Speise-\nwirthschaft zum neuen Bund.\nMerz-Siegrist, Friedrich, Agent, von Beinwyl. Agentur von Caisse\nPaternelle, Lebensversicherung in Paris. Union, Feuerver sicherung\nParis.\nZiegler-Hänki, Karl, Kondukteur, von Zittingen (Baden).\n823. Wittmer-Schumacher, Elise, Wittwe, Part., von Erlinsbach\n(Solothurn).\nWittmer, Elise, von Erlinsbach (Solothurn). Spezereiwaarenhandlung.\nWittmer, Julius, Lith. Anstalt und Druckerei, von Erlinsbach (Solothurn).\nDr. Winteler-Eschart, Joft, Profeflor, von Kerenzen (Glarus).\nDreifuß-Bloch, Karl, Kaufmann, von Endingen.\n824.† Diejelbe. Lith. Anstalt.\n825. a.* Camifasca-Boffard, Franz, Kaufmann. Wohnhaus.\nSennhauser-Goffewich, Amalie, Modifin, von Herrliberg (Zürich).\nWalti-Müller, Jakob, Milchverkäufer, von Dürrenäsch.\nRüetschi-Heuberger, Ludwig, Kanzleifekretär.\n825. b. Zuber-Müller, Andreas, Hausknecht.\nRoth-Widmer, Berena, Wäschcrin, von Mühlethal.\nRoth, Friedrich, Schuhmacher, von Mühlethal.\nGrüebler, Hans, Haupthirer (Schöffe & Cie.), von Veltheim (Zürich).\n826. Camifasca-Boffard, Franz, Kaufmann. Zum hohen Haus. Bett-, Möbel-\nund Tuchwaarenhandlung; fertige Kleider, Schuhwaaren und Hütte,\nReiseartikel, Mercerie-, Quincaillerie- und Bijouteriewaarenhandlung.\n827.† Rohr-Schindler, Samuel, Gastwirth. Scheune.\n828. Richner-Siebenmann, Elise, Bandfabrikantz Wittwe.\nKern-von Arand, Heinrich, Mechaniker.\nGonzenbach-Gonzenbach, August, Ingenieur, Stadtrath, von St. Gallen.\n829. Lüscher-Hilfiker, Hans, Notar, von Muhen. Notariats- und In-\nkaffgechäft.\nHenz-Hlügel, Julie, Wittwe, Part.\nWeber, Stephan, Sekretär, von Sulz.\nWeber, Regina, Part.,\n830.† Derfelbe. Hinterhaus mit Bureau.\"\n831.* Wäzmer-Kummier, Emil, Regt.\nWüefit-Senn, Konrad, Bezirksschullehrer, von Uffikon (Luzern).\nSchöffe-Offenhäuser, Emil, Pfarrer.\nDr. Fröhlich-Stelzer, Franz, Profeflor, von Brugg.\n1225 † Wäzmer-Kummier, Emil, Regt. Holzhaus.\n1226 † Derfelbe. Gartenhaus.\n832. Richner, Samuel, Pfister.\nSteger-Bolliger, Melchior, von Ettiswyl (Luzern). Bäckerei und Pinten-\nwirthschaft.\nRichner-Heß, Louis, Ingenieur.\nDünner, Sophie, Haushälterin, von Weinfelden (Thurgau).\nGrether, Julie, Erzieherin, von Tannentirch (Baden).\nKunz, Nanette, Näherin, von Mönchaltorf (Zürich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4944,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2390,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p063",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p063.jpeg",
+      "bytes": 270338,
+      "sha256": "94b8ff85a10decc337e2e920c6dbb813b3b1502d7b49957e3b9925478d4795a9",
+      "sha256_of": "original",
+      "working_copy": "1888_p063.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:14+00:00"
+  }
+}

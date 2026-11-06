@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p141",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p141.jpeg",
+    "bytes": 248637,
+    "sha256": "6db1b62fd179ff8ccee44a8459b0e6b4e3ad64f1f0bc75fa80ba568981030e13",
+    "sha256_of": "original",
+    "working_copy": "1892_p141.jpeg"
+  },
+  "text": "Siebenmann — Spengler. 125\n\nSiebenmann-Hodel, Fritz, Commis, Rain 869.\nSiebenmann-Hürsch, Gottlieb, Architekt, Stadt-Bauverwalter 1074.\nSiebenmann-Hunziker, Emma, Wittwe, Part., Rathhausgasse 22.\nSiebenmann, Louise, Part., Bahnhofstraße 648.\nSiebenmann-Merz, Emil, Sekretär und Betreibungsbeamter, Schachen 737.\nSiebenmann-Preisig, Katharina, Becks Wittwe, Erlinsbacherstraße 333.\nSiebenmann, Friedrich, Sohn, Erlinsbacherstraße 333.\nSiebenmann-Rohr, Rudolf, Bierbrauer, Graben 620.\nSiebenmann-Schaffner, Otto, Koch, Laurenzenvorstadt 361.\nSiebenmann-Schmidt, Karl, Kaufmann, Bahnhofstraße 1020.\nSiebenmann-Seiler, Katharina, Benedikts Wittwe, Part., Bahnhofstr. 1023.\nSiebenmann-Siebenmann, Rudolf, Part., Bankstraße 510.\nSiebenmann-Siebenmann, Arnold, Tapezierer, vordere Vorstadt 902.\nSiebenmann-Siebenmann, Gottlieb, Part., Gartenstraße 1166.\nSiebenmann-Sprüngli, Sophie, Wittwe, Kirchgasse 12.\nSiebenmann-Steiner, Jakob, Oekonom, Goldern 1001.\nSiebenmann-Walther, Otto, March. Tailleur, Oberthor 227.\nSiegenthaler-Hirt, Hermann, Uhrenmacher von Trueb (Bern), Laurenzen-\n  vorstadt 376.\nSiegenthaler-Hirt, Elise, Glätterin, obigen Ehefrau, Laurenzenvorstadt 376.\nSiegfried-Leupold, Friedrich, Staatsbuchhalter von Zofingen, j. d. A. 294.\nSiegrist, Albert, Bäcker, von Meisterschwanden, Zollrain 51.\nSiegrist-Fischer, Jakob, Metzger von Meisterschwanden, Milchgasse 150.\nSiegrist-Hauri, Maria, Wäscherin von Seengen, Halden 282.\nSiegrist-Heuberger, Jakob, Schriftsetzer von Elfingen, v. d. Haldenthor 803.\nSiegrist-Hunziker, Emil, Beamter des Niederlagshauses, Rain 874.\nSiegrist-Folliet, Wilhelm, Postkommis von Seengen, Casinostraße 570.\nSiegrist-Folliet, Marie Louise, Speisewirthin z. National von Seengen,\n  Casinostraße 570.\nSiegrist-Lindenmann, Johann, Schuhmachermeister u. Regt. von Meister-\n  schwanden, obere Vorstadt 922.\nSiegrist-Plüß, Anna, Haushälterin von Meisterschwanden, Ziegelrain 745.\nSiegrist-Riniker, Heinrich, Metzger, Rathhausgasse 4.\nSiegrist-Schmid, Adolf, Schumacher von Meisterschwanden, Laurenzen-\n  vorstadt 376.\nSimmen-Freudiger, Jakob, Küfermeister von Schinznach, hintere Vor-\n  stadt 693.\nSinger-Kloter, Georg, Maurer von Salzstetten (Württemb.), Milchgasse 78.\nSommerhalder-Buser, Jakob, Coiffeur und Zahnarzt, Pelzgasse 65.\nSommerhalder-König, Jakob, Knecht von Gontenschwyl, Rain 877.\nSommerhalder-Lindenmann, Rudolf, Milchverkäufer von Schloßrued,\n  Milchgasse 79.\nSoya, Anton, Kunstmaler von Bologne (Italien), Atelier hinter dem\n  Bahnhof 503, Wohnung 1268.\nSpengler, Bertha, Näherin, Golattenmattgasse 231 a.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9378,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2553,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0217,
+    "mean_line_chars": 54.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:01:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p141",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p141.jpeg",
+      "bytes": 248637,
+      "sha256": "6db1b62fd179ff8ccee44a8459b0e6b4e3ad64f1f0bc75fa80ba568981030e13",
+      "sha256_of": "original",
+      "working_copy": "1892_p141.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:01:37+00:00"
+  }
+}

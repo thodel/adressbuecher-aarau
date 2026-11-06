@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p054",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p054.jpeg",
+    "bytes": 213449,
+    "sha256": "c7b0c097f54eb0b83bff8306a27730840d76fcbfaef781fed9cfb10a8afb68db",
+    "sha256_of": "original",
+    "working_copy": "1892_p054.jpeg"
+  },
+  "text": "— 46 —\n\nHaus-\nNr.\n639. † Derselbe. Magazin.\n640. † Landolt-Hächler, Gottlieb, Metzger. Scheune mit Remise.\n1235 † Derselbe. Wagenschopf und Remise.\n641.* Derselbe. Wohnhaus.\n  Buser-Buser, Emil, Güterschaffner von Unter-Erlinsbach (Solothurn).\n  Leutwyler-Mangold, Friedrich, Polizeiwachtmeister von Lupfig.\n  Mangold-Welfen, Susanne, von Hennikon.\n  Wächter-Lindenmann, Louise, Taglöhnerin, von Mönthal.\n  Frei-Lindenmann, Anna, Wäscherin, von Reigoldswyl.\n642. Baumann-Käser, Heinrich, Polizeifeldweibel.\n  Müller-Vonäsch, Jakob, Buchbinder, von Unterkulm.\n643. Umiker-Marti, Marie, Wittwe, Part., von Thalheim.\n  Wittmer geb. Hoffmann, Salome, Wittwe, Fabrikarbeiterin, von Erlins-\n    bach (Solothurn),\n  Frei-Bolliger, Gottlieb, Gepäckträger, von Gontenschwyl.\n644. Herzig-Hauri, Friedrich, Schneidermeister, von Wynau (Bern).\n645. Wolf-Märti, Anna, Schlossers Wittwe.\n  Schmid-Wolf, Peter, Sekretär und Kassier der Sparkasse Aarau und\n    Umgebung.\n  Gysi-Fischer, Friedrich, Schlossermeister.\n  Quernheim-Groß, Helene, Hausirerin, von Irrentraut (Preußen).\n646.* Henz-Gautschi, Emil, Eisenhandlung.\n  Bolliger-Manger, Gustav, Kaufmann. Hemden-, Schürzen- und Knaben-\n    kleider-Anfertigungsgeschäft.\n  Gautschi-Siebenmann, Sl., Kantonsingenieur.\n  Jäggi, Wilhelmine, Lehrerin, von Strengelbach.\n647. Lüscher, Geschwister, Elise und Louise.\n  Lüscher, Louise, Part.\n  Lüscher, Elise, Glätterin.\n  Haller-Meyer, Gottlieb, Bäcker, von Reinach.\n  Hilfiker, Jakob, Schuhmacher, von Safenwyl.\n  Hilfiker-Alchenberger, Elisabeth, von Safenwyl.\n\nBahnhofstraße.\n\n648. Fehlmann-Blattner, Rudolf, Aufseher.\n  Fehlmann-Blattner, Anna. Mercerie- und Lingeriegeschäft.\n  Siebenmann, Louise, Part.\n649. Schaffner, Friedrich, Sohn, Wagner.\n650. † Müller-Schnebeli, Heinrich, Wirth z. Löwen, Scheune, Remise\n    und Schopf.\n651. Custer-Fueter, Hermann, Dr. phil., Fabrikant, von Rheineck\n    (St. Gallen).\n  Custer-Roth Emil, Chemiker, Fabrikant, von Rheineck (St. Gallen). Fa-\n    brikation von Mineralwasser und Kellerei-Artikel (Firma E. Custer &\n    Comp.).\n  Rothpletz, Karl, Architekt.\n652. † Derselbe. Fabrikationsgebäude.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7371,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2120,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:51:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p054",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p054.jpeg",
+      "bytes": 213449,
+      "sha256": "c7b0c097f54eb0b83bff8306a27730840d76fcbfaef781fed9cfb10a8afb68db",
+      "sha256_of": "original",
+      "working_copy": "1892_p054.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:51:03+00:00"
+  }
+}

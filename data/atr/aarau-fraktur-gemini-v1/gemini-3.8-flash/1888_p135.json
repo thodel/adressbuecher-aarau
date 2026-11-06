@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p135",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p135.jpeg",
+    "bytes": 263547,
+    "sha256": "6c6a724e3bb633529d8f2dc1b0799983c854b80c28a8d874767c88323132e2eb",
+    "sha256_of": "original",
+    "working_copy": "1888_p135.jpeg"
+  },
+  "text": "Suter — Umiker. 117\n\nSuter-Riederer, Jakob, Professor, Direktor des Töchterinstituts und\n  Lehrerinnenseminars von Suhr und Winterthur, Laurenzenthor-\n  gasse 117.\nSutermeister-Strähl, Gottlieb, Postcommis v. Zofingen, Casinostraße 570.\n\nTanner, Erwin, Fürsprech, Stadtammann, Advokatenbüreau Laurenzen-\n  vorstadt 367, Wohnung Laurenzenvorstadt 422.\nTanner, Irmengarde, Part., Laurenzenvorstadt 422.\nTanner-Wehrli, Emil, Posamenter von Dintiken, Bahnhofstraße 1018.\nTheez, Albert, Schuhmacher von Paris, Milchgasse 153 a.\nTheez-Amsler, Emilie, Schirmacherin und Costumiere von Paris, Milch-\n  gasse 153 a.\nTheiler-Rebmann, Elise, Wittwe, Part. von Wädensweil (Zürich), Lau-\n  renzenvorstadt 415.\nTheodor-Hagnauer, Amadeus, Kondukteur von Pizy (Waadt), hintere\n  Vorstadt 695.\nTheodor-Hagnauer, Marie, von Pizy (Waadt), Mode- und Wollewaaren-\n  handlung, hintere Vorstadt 695.\nThom-Hänny, Franz, Trompeterinstruktor der Infanterie, von Kirchberg\n  (Bern), Gais 1217.\nThoma-Oberli, Joseph, Schreiner von Augsburg (Baiern), Hammer 188.\nThut-Gidemann, Hermann, Ziegler von Oberentfelden, Rain 863.\nThut-Lauser, Rudolf, Part. von Oberentfelden, Entfelderstraße 979.\nTittel-Meisel, Fried. Wilhelm Moritz, Lithograph von Zwickau (Sachsen),\n  Kronengasse 33.\nTrefzger-Schöndli, Gustav, Dampfwascherei und Badanstalt, Färber-\n  gäßchen 213.\nTreier-Frei, Johann, Schreiner von Oberhof, Adelbändli 85 a.\nTrinkler-Meier, Carolina, Wittwe, Part. von Bözberg, vor dem Halden-\n  thor 784.\nTrüeb-Müller, August, Lithographiebesitzer von Dübendorf (Zürich), vord.\n  Vorstadt 889.\nTschanz-Beck, Sophie, Wittwe, Part., hintere Vorstadt 646.\nTuchschmid, August, Professor von Thundorf (Thurgau), jenseits der\n  Aare 342.\nTzschautsch, Adolf, Buchhandlungsgehilfe von Züllichau (Preußen), Rath-\n  hausgasse 2.\n\nUmiker-Hürlimann, Samuel, Ausläufer von Thalheim, Gönhard-\n  feldweg 1150.\nUmiker-Marti, Maria, Wittwe von Thalheim, hintere Vorstadt 643.\nUmiker, Samuel, Straßenwärter von Thalheim, Golattenmattgasse 230.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8181,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1995,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:39:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p135",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p135.jpeg",
+      "bytes": 263547,
+      "sha256": "6c6a724e3bb633529d8f2dc1b0799983c854b80c28a8d874767c88323132e2eb",
+      "sha256_of": "original",
+      "working_copy": "1888_p135.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:01+00:00"
+  }
+}

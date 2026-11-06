@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p066",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p066.jpeg",
+    "bytes": 266700,
+    "sha256": "83da88fe4a3e5fa1064e5f1b43ee326e31505bf69ba5b9a56f1c93ca82b125cd",
+    "sha256_of": "original",
+    "working_copy": "1888_p066.jpeg"
+  },
+  "text": "Haus-\nNr.\nFrey-Brand, Franz Karl, Postcommis, von Zurzach.\nMüri, Paul, Fürspreeh, Controleur (Aarg. Creditanstalt), von Schinznach.\n870.† Dielelbe. Holzhaus.\n871. Schneider=Wösch, Fridolin, Oberrichter, von Herznach.\nWidmer geb. Schäfer, Camilla, Wittwe, Part., von Oberuzwyl (St. Gallen).\n872. Kern-Saxer, Adolf, Partif.\nSaxer geb. Truog, Anna, Wittwe, Haushälterin.\n873.† Derfelbe. Holzhaus.\n874. Siegrist=Hunziker, Emil, Kaufmann.\nMeier-Bucher, August, Direktionssekretär, von Oberfiggenthal.\n875. Hitz-Lanz, Otto, Negt., Spezerei- und Brennmaterialienhandlung.\nHitz, Bertha, Part., von Haufen am Albis (Zürich).\nBühler-Gidemann, Anna, Wittwe.\nBreitschmid-Schüppach, Jakob, Postbeamter, von Wohlen.\nWirtz, Elise, Spetterin, von Schlozrued.\nBrunnerhofer, Elise, Damenschneiderin.\nWidmer, Elise, Spetterin, von Gränichen.\nKleinkinderschule (von Mina Fisch).\n876.† Hitz-Lanz, Otto, Negt. Scheune.\n877. Wehrli=Rühr, Jakob, Gipfermeister, von Densbiren.\nLen, Jakob, Postfondukteur, von Birrnenstorf.\nSommerhalder-König. Jakob, Hausknecht, von Contenschwyl.\nWirth-Zuber, Fried, Wilh., Schlosser, von Hägglingen.\nBertschi, Adolf, Wagner, von Dürrenäsch. (Werkstätte.)\n878.* Steininger-Urech, Friedrichs Erbschaft.\nKönig-Steininger, Friedrich, Küfermeister, von Bottenwyl.\nMüllberg-Sutermeister, Fritz, Professor.\nHoffmann-Gamper, Emil, Kassier, von Zell (Zürich).\n879. Dielelbe. Hinterhaus.\nSteininger geb. Urech, Agnes, Wittwe, Part.\n880. Rothplek-Hunziker, Gottlieb, Schreiner.\nEichenberger-Fischer, Gottlieb, Schreiner, von Beinwyl.\n881.* Armengut der Gemeinde Aarau. Wohnhaus.\nBuser, Johann Jakob, Buchbinder.\nRämsperger-Studler, Gottlieb, Spengler.\nKupfbaum, Anna Johanna, Haushälterin, von Birrweyl.\n882. Staat Aargau. Antiquarium.\n883. Rohr-Hochsträser, Rudolf, Schmied.\nNöthiger-Müller, Gottlieb, Zugführer, von Uerzheim.\n884. Bopp=Häusler, Kaspar, Pflästerer, von Remigen.\nZiegler-Erismann, Samuel, Camioneur, von Beltheim.\nGloor-Horlacher, Ferdinand, Taglöhner, von Birr.\n885. Rusterholz und * Freihofer, Bildhauerei und Grabsteinlager.\nRusterholz=Schäppi, Albert, Bildhauer, von Wädenswyl (Zürich).\nFäiler-Rohr, Georg, Schriftzeiger, von Harthausen (Breuzen).\nLochbrunner-Geiger, Adolf, Lokomotivführer, von Laufenburg.\nWehrli, Andreas, Zimmermann, von Rüttigen.\nWehrli, Maria, Spetterin,\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4846,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2306,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.24,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p066",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p066.jpeg",
+      "bytes": 266700,
+      "sha256": "83da88fe4a3e5fa1064e5f1b43ee326e31505bf69ba5b9a56f1c93ca82b125cd",
+      "sha256_of": "original",
+      "working_copy": "1888_p066.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:27+00:00"
+  }
+}

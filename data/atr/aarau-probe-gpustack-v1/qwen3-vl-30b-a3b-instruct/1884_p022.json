@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p022",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p022.jpeg",
+    "bytes": 318731,
+    "sha256": "220686e8adaac913e0bd5076666426a55a71799fffcec5eeeae2f7a393a1084e",
+    "sha256_of": "original",
+    "working_copy": "1884_p022.jpeg"
+  },
+  "text": "18\n*Dürr, Karl August, Sohn, Kaufmann, Rathhausgasse 19.\n* — =Graden, Hieronimus, Schlosser, Abelbändli 174.\n* — =Wüthrich, Gottlieb, Taglöhner, Stadthof 92d.\n* — Johann, Schneidermeister, Halben 274.\n* — =Siebenmann, Karolina, Registrator's Wittwe, Abelbändli 171.\n* — Emil, Sohn, Partik., Abelbändli 171.\n* — Gottfried, Schuhmachergehülfe, Halben 271.\n* — =Lüscher, Gabriel, Gemisehändler, Rainstraße 825.\n* — =Seiler, Hermann, Malermeister, Casinostraße 1130.\n* — =Haaf, Schreinermeister, Milchgasse 161.\n* — =Haaf, Partik., Ziegelrain 704.\n* — =Bürgi, Elisabeth, Wittwe, Ziegelrain 704.\n* — =Ackermann, Katharina, Schreiners Wittwe, Milchgasse 161.\n* — Lisette, Zettlerin, Halben 279.\nEhner-Furter, Hermann, Schriftsetzer, von Wyden, Pelzgasse 65.\n— =Brändli, Elis., Wittwe, Fabrikarb., v. Birkingen (Baden), Isthg. 3.\n— Josef, Schriftsetzer, von Birkingen (Baden), Rathausgasse 3.\nEger-Ehner, Theophil, Schneider, von Riehen (Basel), Rainstraße 834.\n*Eggen-Sulzer, Ed., Kaufmann, Colonialwaarenhdlg., Laurentzentborg. 119b.\nEggimann-Job, Joh., Wirth, v. Sumiswald (Bern), Bahnhofstraße 1025.\nEglt-Lehmann, Heinrich, Partik., von Wald (Zürich), Zollrain 178.\nEglinger, Mina, Privatin, von Basel, in der Gais 486.\nEgloff-Weier, Fr., Postangestellt., v. Wettingen, Speisewirthsch., Schach. 731.\n— Georg, Gärtner, von Tägerweilen (Thurg.), vor dem Halbenthör 1009.\n— =Allenpach, Maria Magdalena, Wittwe, Partik., von Tägerweilen (Thurgau), vor dem Halbenthör 1109.\n*Ehrsam-Landolt, Jakob, Bäckermeister, Zollrain 51.\n* — =Wehrli, Alfred, Schneidermeister, Igelweid 631.\n* — =Andres, Daniel, Postoffiziant, neues Quartier 975.\n* — Jda, Partik., Bachstraße 1040.\n* — Emilie, Partik., Bachstraße 1040.\nEichenberger, Maria Anna, Taglöhnerin, von Reinach, Kirchgasse 10.b.\n— =Flad, Rudolf, Zimmermann, von Reinach, Milchgasse 154.\n— =Fischer, Gottlieb, Schreiner, von Beinwyl, obere Vorstadt 921.\n— =Joho, Rudolf, Schuhmacher, von Reinach, Kirchplatz 167b.\nElsasser-Riburg, Gottlieb, Küfermeister, von Unterkulm, Halben 286.\n— Ludwig, Postamenter, von Unterkulm, Igelweid 632.\nEng-Käser, Heinrich, Schuhmacher in der Schuhfabrik, von Stüttlingen (Soloth.), Milchgasse 152.\nEngel, Karl, Bergolder, von Schwörstadt (Sachsen), Hammer 188.\nEngesser-Brunner, Jos., Schneider, v. Durchhausen (Wrtmb.), Rathg. 45.\nErdin-Zumsteg, Siegfr., Taglöhner, v. Ganjingen, hintere Vorstadt 693.\n*Eriszmann, Samuel, Friedensrichter und Armenpfleger, Bachstraße 1033.\n* — =Zndermayer Abraham, Dekonom, Bachstraße 1033.\n— =Sager, Samuel, Güterexpedient, von Gontenschwyl, in der Gais 485.\n— =Leutwyler, Samuel, Taglöhner, von Gontenschwyl, in der Gais 485.\n— =Hügi, Samuel, Holzpalter, von Schlozrued, Kirchgasse 10.a.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5970,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2694,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:32:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1884_p022",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p022.jpeg",
+      "bytes": 318731,
+      "sha256": "220686e8adaac913e0bd5076666426a55a71799fffcec5eeeae2f7a393a1084e",
+      "sha256_of": "original",
+      "working_copy": "1884_p022.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:32:57+00:00"
+  }
+}

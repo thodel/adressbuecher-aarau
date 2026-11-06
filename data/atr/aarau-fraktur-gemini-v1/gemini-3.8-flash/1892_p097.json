@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p097",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p097.jpeg",
+    "bytes": 248361,
+    "sha256": "bc1c3b1207fbe44ccdd2371de96bce41af8a96e0cd7103ef02aa7c1469a360c0",
+    "sha256_of": "original",
+    "working_copy": "1892_p097.jpeg"
+  },
+  "text": "Amsler — Bachmann. 81\n\nAmsler-Falger, Marie, Wittwe von Kaisten, vor dem Haldenthor 804.\nAmsler-Faßler, Georg, Färbereiarbeiter von Asp, Laurenzenvorstadt 1114.\nAmsler, Ida, Damenschneiderin von Kaisten, v. d. Haldenthor 804.\nAmsler, Ludwig, von Densbüren, Abwart des Alkoholdepot, Rohrerstr. 464.\n[handschriftlich: x] Amsler, Otto, Notar, Stadtkassier und Sektionschef v. Kaisten, vor dem\n  Haldenthor 804.\n[handschriftlich: x] Amsler-Harsch, Emil, Fürsprech und Notar v. Schinznach. Advokaturbüreau,\n  Conradstraße 989.\nAmsler-Baumann, Heinrich, Fabrikaufseher v. Densbüren, Schmiedg. 625.\n[handschriftlich: x] Amsler, Jakob, Kreispostdirektor von Bözen, Bahnhofstraße 513.\nAmsler, Verena, Fabrikarbeiterin von Bözen, Golattenmattgasse 233.\n[handschriftlich: x] Andres-Bircher, Friedrich, Hafner, obere Vorstadt 916.\nAndres-Bircher, Heinrich, Buchbinder, Casinostraße 1176.\nAndres-Eichelberger, Otto, Hafner, Milchgasse 78.\nAndres, Emma, Fabrikarbeiterin, Rain 820.\n[handschriftlich: x] Andres, Gottlieb, Fondsverwalter, jenseits der Aare 299 b.\nAndres, Jakob, Bahnangestellter, Halden 256.\nAndres-Meier, Samuel, Schlosser, Milchgasse 147.\nAndres, Seline, Haushälterin, jenseits der Aare 299 b.\nAndres-Schmid, Jakob, Schreiner, jenseits der Aare 299 a.\nAndres-Walter, Verena, Metzgers Wittwe, Halden 256.\n[handschriftlich: x] Andres-Weber, Friedrich, Buchhalter, Ziegelrain 709.\nAngliker-Dätwyler, Abraham, Heizer von Niederlenz, Adelbändli 85.\n[handschriftlich: x] Angst-Hässig, Gottlieb, Regt. von Eglisau (Zürich), Hinter dem Platz 214.\nAngst, Robert, Sohn, Kaufmann von Eglisau (Zürich), Hinter dem\n  Platz 214.\n\n[handschriftlich: x] Bäbler, Johann Jakob, Dr. Professor v. Matt (Glarus), Bachstr. 1101.\nBächli-Holliger, Gottlieb, Schuhmacher von Buchs, Stadthof 93.\nBächli, Jakob, Part. von Buchs, Adelbändli 172.\nBächli, Verena, Spetterin von Buchs, Adelbändli 172.\n[handschriftlich: x] Bär-Haßler, Louis, Sekretär der Militärkanzlei, Bahnhofstraße 1020.\nBär, Rudolf, Schreiner, obere Vorstadt 964.\nBär, Marie, Arbeitslehrerin, obere Vorstadt 964.\nBär-Frei, Johanna, Wittwe, Part., obere Vorstadt 964.\nBärtschi-Minder, Jakob, Wirth zum Weinberg, von Lützelflüh (Bern),\n  Weinberg 321.\nBäurlin, Hermann, Elektrotechniker von Baden, Wohnung Kirchhof 165 b.\n  Elektrizitätswerk Hinter dem Platz 212.\nBäurlin-Siebenmann, Rosa, Wittwe, Aufseherin, v. Baden, Kirchhof 165 b.\nBachmann, Elise, Fabrikarbeiterin von Bottenwyl, Schachen 726.\nBachmann-Kümin, Joseph, Schneider, von Wollerau, Schmiedgasse 633.\nBachmann, Marie, Fabrikarbeiterin von Bottenwyl, Schachen 726.\n  Adreßbuch der Stadt Aarau 1892. 6",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9831,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2604,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.89,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:55:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p097",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p097.jpeg",
+      "bytes": 248361,
+      "sha256": "bc1c3b1207fbe44ccdd2371de96bce41af8a96e0cd7103ef02aa7c1469a360c0",
+      "sha256_of": "original",
+      "working_copy": "1892_p097.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:55:33+00:00"
+  }
+}

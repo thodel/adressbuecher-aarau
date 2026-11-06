@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p034",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p034.jpeg",
+    "bytes": 211404,
+    "sha256": "7826e98399e98d1153a0a27a407c8a188fcadc2e3df1041df0943076cb389a25",
+    "sha256_of": "original",
+    "working_copy": "1892_p034.jpeg"
+  },
+  "text": "— 26 —\n\nHaus=\nNr.\n299. b. Andres, Gottlieb, Fondverwalter.\n  Andres, Seline, Haushälterin.\n1228.   † Derselbe. Holzschopf.\n300. Blattner-Jäger, Dr. jur., Otto, Fürsprech und Notar; Advokatur=\n    bureau: Obere Vorstadt 948.\n  Blattner, Anna, Lehrerin.\n301. † Derselbe. Holzschopf.\n302. a. Bircher-Sasson, Andreas, Kaufmann, von Küttigen und Cairo.\n  Bircher, Andreas, Part., von Küttigen.\n  Heuberger-Weigand, Jakob, Fürsprech, Oberrichter, von Bözen.\n302. b. † Derselbe. Scheune.\n302 c. † Derselbe. Hintergebäude.\n303. * Stähelin-Herzog, Alfred, Dr. med., von Basel.\n1086.   Stähelin-Herzog, Alfred, Dr. med., Rentier, von Basel. Villa zum\n    Kirschgarten.\n304. † Derselbe. Scheune und Remise.\n305. † Derselbe. Treibhaus.\n306. † Derselbe. Holz- und Waschhaus.\n1087.   Derselbe. Eiskeller.\n307. Gamper-Baumann, Emil, March. Tailleur. (Zur Schönau.)\n  Meyer-Zschokke, Jakob Ludwig Architekt, von Zürich, Direktor der Hand=\n    werkerschule.\n308. † Derselbe. Holzhaus.\n309. * Bally Söhne, C. F., Fabrikbesitzer in Schönenwerd. Schuhfabrik.\n310. a. † Derselbe. Dampfkesselhaus.\n310. b. † Derselbe. Maschinenhaus.\n311. † Derselbe. Pumphaus und Druckwasserleitung.\n\nScheibenschachen.\n\n312. * Feer-Zubers Erbschaft.\n  Müller-Amsler, Joh. Jakob, Schuster, von Unterkulm.\n  Fischer geb. Roth, Maria, Straßenwärters.\n  Frieden, Gottlieb Friedrich, Cementarbeiter, von Seedorf (Bern).\n  Wernli-Wehrli, Bernhard, Gärtner, von Thalheim.\n313. * Dieselbe.\n  Fuchs-Sommerhalder, Franz Joseph, Posamenter, von Hornussen.\n  Manz-Busch, Philipp, Aufseher, von Ramsen (Bayern).\n314. * Dieselbe.\n  Birri-Wülser, Fridolin, Posamenter, von Zeihen.\n  Birri, Emma, Damenschneiderin, von Zeihen.\n  Meißner-Baumgardt, Karl, Steindrucker, von Großglogau (Schlesien).\n315. * Dieselbe.\n  Wirz-Huber, Franz, Wagenvisiteur, von Starrkirch (Solothurn).\n  Gloor-Widmer, Heinrich, Bandweber, von Oberkulm.\n316. * Dieselbe.\n  Möller-Reinle, Ernst August, Büchsenmacher, von Zella (Sachsen).\n  Hofer-Hämmerli, Friedrich, Schneider, von Rothrist.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7402,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2010,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:48:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p034",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p034.jpeg",
+      "bytes": 211404,
+      "sha256": "7826e98399e98d1153a0a27a407c8a188fcadc2e3df1041df0943076cb389a25",
+      "sha256_of": "original",
+      "working_copy": "1892_p034.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:42+00:00"
+  }
+}

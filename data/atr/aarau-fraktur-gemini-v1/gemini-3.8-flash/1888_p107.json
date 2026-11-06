@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p107",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p107.jpeg",
+    "bytes": 286715,
+    "sha256": "def8b8547458feb19bca861b156457bb696f4b2caa915e5eef02b7c8e2ed98fa",
+    "sha256_of": "original",
+    "working_copy": "1888_p107.jpeg"
+  },
+  "text": "Gysi — Gunsch. 89\n\nGysi, Robert, Kaufmann, Milchgasse 152.\n[handschriftlich: X]Gysi-Siebenmann, Otto, Photograph, vordere Vorstadt 895.\n[handschriftlich: X]Gysi-Studler, Arnold, Mechaniker, vordere Vorstadt 675.\n[handschriftlich: X]Gladbach, Philipp, Professor von Oppenheim (Hessen), obere Vorst. 948.\nGloor-Amsler, Friedrich, Küfer von Dürrenäsch, Scheibenschachen 314.\nGloor-Bachmann, Rudolf, Lagerhausarbeiter von Birrwyl, hinter dem\n  Bahnhof 497.\nGloor-Geißler, Rudolf, Bäcker von Birrwyl, Milchgasse 142.\nGloor-Horlacher, Ferdinand, Holzspalter von Birr, Rain 884.\nGloor-Lüscher, Marie, Wittwe, Wäscherin von Birr, Telli 460.\n[handschriftlich: X]Gloor-Siebenmann, Friedrich, Negot., Colonial- und Delikatessenhandlung,\n  von Schöftland, Kronengasse 38.\nGloor, Wilhelmine, Taglöhnerin von Dürrenäsch, Adelbändli 171.\nGonzenbach-Gonzenbach, August, Ingenieur, Stadtrath, von St. Gallen,\n  Rain 828.\nGood, Theodor, Part. von Mels (St. Gallen), Laurenzenthorgasse 1118.\nGodall, Joseph, Kellner von Bonastre (Spanien), Kirchgasse 7.\nGottschalk, Amalie, Modistin, Rathhausgasse 44.\n[handschriftlich: X]Graf-Fäs, Ernst, Pfarrer von Winterthur (Zürich), Kirchhof 169.\nGraf-Hunkeler, Marie, Part., Wittwe von Birrwyl, Schachen 729.\nGraf-Lüthy, Jakob, Knecht von Küttigen, Erlinsbacherstraße 332.\nGraf-Martin, Sophie, Part. von Horgen (Zürich), Kirchhof 163.\nGraf-Molfenter, Katharina, Schriftsetzers Wittwe, Part. von Ulm (Würt-\n  temberg), Zollrain 293.\nGraf-Tröndli, Ludwig, Bäcker und Wirth von Worblingen (Großh. Ba-\n  den), Rathhausgasse 18.\nGränicher, Benjamin, Sattler, Bachstraße 1038.\nGränicher-Richner, Rosa, Briefträgers Wittwe, Part., Kirchhof 162.\n[handschriftlich: X]Gränicher-Wärtli, Jakob, Schneidermeister und reform. Siegrist, Kirch-\n  platz 162.\nGrether, Julie, Erzieherin von Tannenkirch (Großh. Baden), Rain 832.\nGrolimund-Gröli, Sigmund, Buchhandlungsangestellter von Beinwyl (So-\n  lothurn), vordere Vorstadt 671.\nGruber-Lang, Meinrad, Bahnwärter von Schönenwerd (Solothurn),\n  Rain 859.\nGruber-Stalder, Engelbert, Maurer von Nasserein (Tyrol), Igelweid 635.\nGrüebler, Hans, Bauführer von Veltheim (Zürich), Rain 825.\nGrütter-Graber, Friedrich, Magazinier von Seeberg (Bern), Milch-\n  gasse 159.\nGuggenheim-Bollag, Julius, Kaufmann von Oberendingen, Tuchhand-\n  lung, Kronengasse 34.\nGuggenheim-Guggenheim, Rosa, Wittwe von Lengnau, Rathhausgasse 45.\nGuggenheim, Fanny, Damenschneiderin, id. id. id.\n[handschriftlich: X]Guggisberg-Beck, Emil, Bäcker und Conditor von Vevey (Waadt), Bahn-\n  hofstraße 568 b.\nGunsch-Furter, Johann, Maurer von Matsch (Tyrol), Halden 274.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8257,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2589,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:35:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p107",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p107.jpeg",
+      "bytes": 286715,
+      "sha256": "def8b8547458feb19bca861b156457bb696f4b2caa915e5eef02b7c8e2ed98fa",
+      "sha256_of": "original",
+      "working_copy": "1888_p107.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:07+00:00"
+  }
+}

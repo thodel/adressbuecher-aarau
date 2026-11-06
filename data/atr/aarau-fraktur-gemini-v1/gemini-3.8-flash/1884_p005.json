@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p005",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p005.jpeg",
+    "bytes": 200087,
+    "sha256": "2f0a643a0b52b8d7807ac6e7cc7307a6404ea9b240bd7b66e867209ed2f84b10",
+    "sha256_of": "original",
+    "working_copy": "1884_p005.jpeg"
+  },
+  "text": "[handschriftlich: 9.]\nAdreß-Buch\nder\nStadt Aarau.\n\nDienlich für Jedermann\nnamentlich\nfür Beamte, Fabrikanten, Handels- und Gewerbsleute\nvon\nG. Vogel, Polizei = Wachtmeister.\n\nIm Verlage des Verfassers.\n\n[stempel: KANTONSBIBLIOTHEK AARGAU]\n\nAarau 1884.\nBuchdruckerei von K. Stierli.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 2370,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 281,
+    "lines": 13,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 20.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0071,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:09:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p005",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p005.jpeg",
+      "bytes": 200087,
+      "sha256": "2f0a643a0b52b8d7807ac6e7cc7307a6404ea9b240bd7b66e867209ed2f84b10",
+      "sha256_of": "original",
+      "working_copy": "1884_p005.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:09:28+00:00"
+  }
+}

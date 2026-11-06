@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p179",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p179.jpeg",
+    "bytes": 225562,
+    "sha256": "f16b857e74c5cc2e8dd59eb109b5c6272beccac3d2f58442877ef8a831a9bc5d",
+    "sha256_of": "original",
+    "working_copy": "1892_p179.jpeg"
+  },
+  "text": "163\n\nBircher, Dr. Chef-Arzt                                  Kantonsspital.\nBircher, Gebrüder, Cementfabrik                         Erlinsbach.\nBircher zur Eintracht                                   Erlinsbach.\nBircher, Posthalter und Spezereihandlung                Küttigen.\nBlattner zum Kreuz                                      Küttigen.\nBrentano, Max, Zahnarzt                                 Entfelderstraße 1075.\nBührer-Heußler, Agentur                                 Bachstraße 1174.\n   „       „    Ethnologisches Gewerbemuseum            Obere Vorstadt 925.\nBäurlin & Kummler, Elektrizitätswerk                    hinterm Platz 212.\nDeck, Dr. med.                                          Kölliken.\nDubs, Metzger und Wirth                                 Rathhausgasse 32.\nDreßler, Mercerie und Möbelhandlung                     Rain 826.\nEggimann, Wirth                                         Bahnhofstraße 1025.\nEgloff-Meier, Wirth                                     Schachen 731.\nEisengießerei und Weichgußfabrik                        Hintere Bahnhofstraße 499.\nErzinger, L., Chemiker                                  Schönenwerd.\nExpedition des Aarg. Tagblattes                         Oberthor 228 a.\nErnst-Käser, Röhrenfabrik                               Obere Vorstadt 92.\nFischer-Eglinger, Wirth                                 Gais 486.\nFleiner, Albert, Cementfabrik                           Weinberg.\n   „       „     Wohnung                                Laurenzenvorstadt 586.\nFörderer Gebrüder, Tapisserie und Wollwaaren            Rathhausgasse 20.\nFrey-Volley, E.                                         Bachstraße 1062.\nFrey & Co., Chem. Fabrik und Spinnerei                  Telli 431.\nFrey-Feer & Cie., Bandfabrik                            Bahnhofstraße 1016.\nFrey, R. & M., Chocoladefabrik                          Balainenweg.\n   „                                                    Telli.\nFrey, Heinrich, Kunstmühle                              Schöftland.\nFrey-Lüscher, Müller                                    Schöftland.\nFrey-Ryhiner, Seidenzwirnerei                           Graben 618.\nFrey, Dr. med.                                          Graben 352.\nFritter-Siebenmann, Vice-Command. d. Feuerwehr          Rathhausgasse 22.\nGamper, Adolf, Metzger                                  Metzgergasse 108.\nGamper-Baumann, Schönau                                 Jenseits der Aare 307.\nGamper & Co., Konfektion                                Rathhausgasse 49—50.\n   „       „   Wohnung (Müller-Haberstich),             Laurenzenvorstadt 367.\nGasfabrik                                               Vor dem Haldenthor 786.\nGasser & Cie., Bandfabrik                               Laurenzenvorstadt 377.\nGerber, J., Marchand-Tailleur                           Vordere Vorstadt 670.\nGloor-Siebenmann, Colonialwaaren u. Delicatessen        Kronengasse 38.\nGroßmann, Otto, Handelsgärtner                          Küttigerstraße.\n   „       „    Ablage                                  Graben 205.\nGüterexpedition                                         Bahnhofstraße 519.\nGysi & Co., Mechaniker und Photograph                   Vordere Vorstadt 895.\n   „    „    Werkstätte                                 Bachstraße 933.\nHagnauer, A. & Cie., Lederhandlung                      Conradstraße 1255.\nHaßler, Hans, Teppich- und Lederhandlung                Bahnhofstraße 656.\nHäfliger, Otto, Speisewirth und Metzger                 Pelzgasse 136.\nHässig-Sigle, Wirth                                     Bahnhofstraße 1317.\nHenz, Karl, Eisenwaaren                                 Vordere Vorstadt 903.\nHenz, Jakob, Eisenwaaren                                Vordere Vorstadt 678.\nHoch, Gustav, Samenhandlung                             Metzgergasse 61.\n   „       „  Büreau                                    Metzgergasse 113.\nHolzach, Dietrich, Bierbrauerei                         Bahnhofstraße 563.\nHolzach, Fritz, Metzger und Wirth                       Ziegelrain 700.\nHegnauer-Renold, Strohgeflechtfabrik                    Hammer 194.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10920,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 4073,
+    "lines": 57,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 70.09,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0005,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:07:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p179",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p179.jpeg",
+      "bytes": 225562,
+      "sha256": "f16b857e74c5cc2e8dd59eb109b5c6272beccac3d2f58442877ef8a831a9bc5d",
+      "sha256_of": "original",
+      "working_copy": "1892_p179.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:52+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p124",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p124.jpeg",
+    "bytes": 269032,
+    "sha256": "874395b749486134d0f25f4f8b050a57ee2e9791be1c9a678e6af4a6da25a352",
+    "sha256_of": "original",
+    "working_copy": "1888_p124.jpeg"
+  },
+  "text": "106 — Pfister — Reimann.\n\nPfister-Furrer, Albert, Schneider von Dübendorf (Zürich), vor dem Halden-\n  thor 1084.\n[handschriftlich: X]Pfisterer-Marti, Josephine, Wittwe, vordere Vorstadt 666.\n[handschriftlich: X]Pfisterer-Tschudi, Emil, Kürschner, id. id. id.\n[handschriftlich: X]Pfisterer, Robert, Bierbrauer, vordere Vorstadt 672.\nPhilipp-von Arx, Johann, Milchverkäufer von Kienberg (Solothurn),\n  Bahnhofstraße 1025.\nPfleger, Louise, Part., Milchgasse 157.\nPfleger, Justine, Part., id. id.\nPfleger, Emma, Part., Halden 261.\nPlüß-Haller, Maria, Wittwe, Bettmacherin von Niederwyl, Golattenmatt-\n  gasse 232.\nPlüß-Ledermann, Bernhard, Knecht von Ryken, Stadthof 93.\nPlüß-Lehner, Elise, Spetterin von Vordemwald, Milchgasse 153.\nPlüß, Elise, Telephonistin von Vordemwald, id. id.\nPlüß-Plüß, Anna Barbara, Lehrers Wittwe von Ryken, Pelzgasse 122.\nPlüß-Plüß, Maria, Wittwe, Part., hintere Vorstadt 688.\n[handschriftlich: X]Plüß, Louise, Lehrerin, id. id. id.\nPlüß, Anna, Damenschneiderin, hintere Vorstadt 688.\nPlüß, Rosina, Weißnäherin von Ryken, hintere Vorstadt 699.\nPlüß-Stephani, Mary, Buchhalters, hintere Vorstadt 1236.\nPlüß, Verena, Part. von Vordemwald, Halden 264.\nPlüß-Zimmerli, Jakob, Färber von Brittnau, Kronengasse 40.\nPlüß-Zimmerli, Marie, Hebamme von Brittnau, id. id.\nPrantl-Wildi, Alois, Maurer von Strengen (Tyrol), Ziegelrain 704.\n*Prior-Dettmer, Helena, Part. von Dissen (Hannover), Gartenstraße 1103.\nProbst-Benkert, Maria, Part. von Aarburg, Rathhausgasse 20.\n\nRämisperger-Berner, Marie, Gürtlers Wittwe, Golattenmattgasse 231 b.\n  Rämisperger-Hemmeler, Gottfried, Spengler, Halden 275.\nRämisperger-Hunkeler, Hermann, Spengler, Milchgasse 148.\nRämisperger-Studler, Gottlieb, Spengler, Rain 881.\nRamsauer-Hächler, Anna, Wittwe, Part. von Herisau (Appenzell),\n  Pelzgasse 69.\n[handschriftlich: X] Randegger-Wirth, Conrad, Wirth zur bayrischen Bierhalle, von Ossingen\n  (Zürich), obere Vorstadt 926.\nRathe, Karl Johann, Commis von Chur (Graubünden), Schachen 731.\nRauch-Baldeschwyler, Bertha, Wittwe von Mühlhausen (Elsaß), Laurenzen-\n  vorstadt 403.\n[handschriftlich: X]Rauchenstein-Pfleger, Friedrich, Professor von Brugg, Halden 261.\nRebmann-Häfliger, Karl Jakob, Maler von Fellbach (Württemberg),\n  Ziegelrain 721.\n[handschriftlich: X] Reimann-Reichli, Gustav, Kriminalgerichtsschreiber von Wölflinswyl,\n  Weinberg 321.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7783,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2342,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:37:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p124",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p124.jpeg",
+      "bytes": 269032,
+      "sha256": "874395b749486134d0f25f4f8b050a57ee2e9791be1c9a678e6af4a6da25a352",
+      "sha256_of": "original",
+      "working_copy": "1888_p124.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:33+00:00"
+  }
+}

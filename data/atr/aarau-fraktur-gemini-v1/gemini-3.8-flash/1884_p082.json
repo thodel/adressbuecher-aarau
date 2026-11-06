@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p082",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p082.jpeg",
+    "bytes": 334183,
+    "sha256": "108b454e0920a0974f6b60e162a43ff79e5c23166e6318cfb789cf39ea8836fc",
+    "sha256_of": "original",
+    "working_copy": "1884_p082.jpeg"
+  },
+  "text": "78\n\nLederhandlungen.\nHaßler, Hans, Bahnhofstraße 656.\nSiebenmann, Gottl., Rainstraße 834.\nSiegrist, J., Schuhmacher, ob. Vorst. 922.\n\nLehrer.\n\nA. Professoren und Lehrer an der\nKantonsschule.\nDr. Bäbler, für deutsche Sprache und\n  Literatur, an Gewerbeschule und\n  Progymnasium.\nBurgmeier, für Gesang.\nDr. Fisch, für alte Sprachen.\nDr. Frey für deutsche Sprache und Litera-\n  tur sowie f. Griechisch am Progymn.\nDr. Fröhlich, Stellvertreter des Rektors,\n  für alte Sprachen.\nGladbach, für Mathematik, technisches\n  Zeichnen, Descriptive und praktische\n  Geometrie.\nDr. Guttentag, für alte Sprachen.\nHunziker, f. Französisch am Gymnasium,\n  Progymnasium u. Gewerbeschule.\nKäslin, Musikdirektor, Leiter des Instru-\n  mentalmusikunterrichts.\nKeller, für Englisch am Gymnasium u.\n  Gewerbeschule, für Italienisch an\n  der Gewerbeschule.\nDr. Liechti, für Chemie, sowie für\n  Naturlehre am Progymnasium.\nMaier, Rektor, für Französisch am Pro-\n  gymnasium und Gewerbeschule und\n  für Italienisch am Gymnasium.\nMeier, J., für Schönschreiben.\nMühlberg, für Naturgeschichte und Aus-\n  hülfe in Mathematik am Gymnas.\nRoth, Oberstlt., für Militärunterricht.\nSchuhmann, für Geschichte an der Ge-\n  werbeschule und für Geographie.\nDr. Suter, für Mathematik am Gymnas.\n  und Gewerbeschule.\nDr. Tuchschmid, für Mathematik und\n  Physik am Gymnasium und an der\n  Gewerbeschule.\nWäffler, für Turnunterricht.\nWernli, Pfarrer, für Hebräisch.\nWidmer, Pfr., für Religionsunterricht.\nWolfinger, für Kunstzeichnen.\n\nB. Lehrerinnen-Seminar.\nKeller, J., Prof., für Deutsch, Pädag.\n  und Religion, Rektor.\nJäggi, Wilhelmine, für französische und\n  englische Sprache und Literatur.\nStacher, Gustav, für Naturgeschichte,\n  Mathematik, Physik, Chemie und\n  Schreibunterricht.\nFlühmann, Elisabeth, für Geschichte,\n  Geographie, Italienisch und Turnen.\n\n[spalte 2]\nBurgmeier, J., für Gesangunterricht.\nWolfinger, Max, für den Zeichnungs-\n  unterricht.\n\nC. Bezirksschulen.\n1) Knaben-Bezirksschule.\nNey, J., Bezirkslehrer (Rektor).\nWüst, K., Bezirkslehrer \"\nWydler, H., Bezirkslehrer \"\nChristoffel, H., Bezirkslehrer \"\nPerusset, A., Bezirkslehrer \"\n2) Mädchen-Bezirksschule.\nSchachtler, Rektor.\nCoradi, A., Bezirkslehrer.\nHagnauer, Hedwig, Bezirkslehrerin.\nHuber, Corinna, Bezirkslehrerin \"\n\nHülfslehrer.\nStörchlin, H., Zeichnungslehrer.\nBurgmeier, J., Gesanglehrer.\nWäffler, Turnlehrer.\nKeller, H., Prof., Lehrer des Italienisch.\n\nD. Gemeindeschulen.\n1) Knaben-Gemeindeschule.\nMeyer, Jb., Lehrer I.\nMeyer, Joh., Lehrer \" II.\nGysi, Traug., Lehrer \"\nHunziker, Rud., Lehrer \"\nHengherr, Aug., Lehrer \"\nHerzog, H., Lehrer \"\n2) Mädchen-Gemeindeschule.\nMüller-Hürner, Frau, Lehrerin.\nPeyer, Anna, Lehrerin \"\nLenzi, Sophie, Lehrerin \"\nVelart, Julie, Lehrerin \"\nPlüß, Louise, Lehrerin \"\nMarti-Siebenmann, Frau, Arbeitslehr.\nSiebenmann-Marti, Wittwe, Hülfs-\n  Arbeitslehrerin.\nBär, Marie, Arbeitslehrerin.\nFischer, Elise, Arbeitslehrerin \"\nSchachtler, Hausrektor.\nSchäfer, Ludwig, Pedell.\n\nE. Kleinkinderschulen.\nDäniker, Frida, vor d. Haldenthor 769.\nFisch, Mina, Rainstraße 875.\nSchmidt, Rosalie, Bahnhofstraße 653.\nZimmermann, Emma, Milchgasse 159.\n\nF. Privatlehrer.\nBurgmeier, J., Musiklehrer, Graben 209.\nKäslin, Eus., Musiklehrer, Laurenzen-\n  vorstadt 602.\nSchneider, J, Musiklehrer, Casinostr. 660.\nWidmer, J., Musiklehrer, Casinostr. 573.\nDößekel, Marie, Klavierlehrerin, obere\n  Vorstadt 1117.\nHagenbuch, Adele, Klavierlehrerin,\n  Kronengasse 33.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9074,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 3411,
+    "lines": 115,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 28.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:20:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p082",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p082.jpeg",
+      "bytes": 334183,
+      "sha256": "108b454e0920a0974f6b60e162a43ff79e5c23166e6318cfb789cf39ea8836fc",
+      "sha256_of": "original",
+      "working_copy": "1884_p082.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:51+00:00"
+  }
+}

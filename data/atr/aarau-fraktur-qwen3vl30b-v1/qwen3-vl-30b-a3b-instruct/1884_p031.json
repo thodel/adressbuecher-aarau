@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p031",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p031.jpeg",
+    "bytes": 301801,
+    "sha256": "8293dc59cfee6d84d05c6efb4902cfd5a7e8616129e98653b6962576bce52da6",
+    "sha256_of": "original",
+    "working_copy": "1884_p031.jpeg"
+  },
+  "text": "Heller. — Herzog. 27\n*Heller-Grb, Hrch., Rechtsagent, Inkasso- u. Geschäfts bureau, Zollrain 54.\n— Gottfr., Reitknecht, von Klein-Neckbach (Würtemb.), Adelbändli 86.\n— Roth, Anna, Wittwe, Partik., von Erlinsbach, Schachen 737.\n— Anna, Näherin, von Erlinsbach, Schachen 737.\n— Jda, Damenschneiderin, von Erlinsbach, Schachen 737.\nHelm-von Arr, Elise, Wittwe, Wollenwaarenhdlg., von Derlison (Zürich), Zollrain 52.\n— Fanny, Modistin, von Derlison (Zürich), Zollrain 52.\n— Emil, Briefträger, von Derlison (Zürich), Zollrain 52.\nHemmann-Raspar, Theod., Major, Instruktor der Cavallerie, v. Lenzburg Bahnhofstraße 1161.\n*Hemmeler, Friedrich, Gürtler, Kirchgasse 15.\n* — Jakob, Uhrenmacher, Rathausgasse 24.\n* — =Monhardt, Eugen, Telegraphist, Kronengasse 40.\n* — =Monhardt, Louise, Damenschneiderin, Kronengasse 40.\n* — =Häfler, August, Kaufmann, Quincaillerie- und Kinderpielwaren- handlung, Mezgergasse 55.\n* — =Türler, Emil, Kaufmann, Mercerie-, Garn- und Ellenwaarenhdlg., Mezgergasse 59.\n* — =Gifi, Jda, Buchbinders Wittwe, Partik., Golattenmattgasse 229.\n* — Meta, Lehrerin, Golattenmattgasse 229.\n* — =Wernli, Rudolf, Buchhalter, jenseits der Aare 307.\n* — =Frey, Friedr., Kfm., Weindhdlg. u. Stadtrath, hintere Vorstadt 638.\n* — =Büsster, Friedrich, Postcommiss., Ziegelrain 751.\n* — =Fecht, Gottlieb, Zimmermeister, vor dem Halbenthör 767.\n* — Roth, Wilhelm, Sekretär, obere Vorstadt 921.\n* — =Schibler, Verena, Hafners Wittwe, obere Vorstadt 944.\n* — Wilhelm, Hafner, obere Vorstadt 944.\n* — Rosine, Näherin, hintere Vorstadt 641.\nHengheer, Aug., Lehrer, v. Zizzenhausen (Grszhth. Baden), Pelzgasse 129.\nHenri, Gabr. Alb., Commis, von Vuillerens (Waadt), obere Vorstadt 913.\n*Henz-Märk, Julius, Kaufmann, vordere Vorstadt 679.\n* — =von Seuter, Hans, Kaufmann, vordere Vorstadt 678.\n* — =Blüg, Jakob, Kaufmann, vordere Vorstadt 678.\n* — =Flügel, Julie, Partik., Rain 831.\n* — =Gautschi, Emil, Kaufmann, Eisenwaarenhdlg., hintere Vorstadt 646.\n* — =Siebenmann, Karl, Hafner, hintere Vorstadt 621.\n* — Gottlieb, Mefferschmied, Partik., Graben 202.\nHermann-Ziegler, Georg Jakob, Samenhändler, von Gönningen (Würtmb.), Mezgergasse 100.\n— Elisabeth, Spetterin, von Rohrbach (Bern), Tafinostraße 571.\n*Herosée-Hegetschwiler, Dorothea, Wittwe, Rentière, Laurenenvorstadt 397.\n*Hertfelder-Bär, Maria, Wittwe, Partik., vor dem Halbenthör 784.\nHerzig-Hauri, Fried., Schneidermftr., v. Wynau (Bern), hint. Vorstadt 644.\n*Herzog-Zobel, Hans, General, Bachstraße 1047.\n* — Hans, Dr. Phil., Bachstraße 1047.\n* — =von Jenner, Theodor, Dekonom, Bachstraße 1045.\n* — Jakob, Partik., Bachstraße 1045.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5635,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2586,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 57.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:11:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p031",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p031.jpeg",
+      "bytes": 301801,
+      "sha256": "8293dc59cfee6d84d05c6efb4902cfd5a7e8616129e98653b6962576bce52da6",
+      "sha256_of": "original",
+      "working_copy": "1884_p031.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:54+00:00"
+  }
+}

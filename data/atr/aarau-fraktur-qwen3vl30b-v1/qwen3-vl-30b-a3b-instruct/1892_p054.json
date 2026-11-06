@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p054",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p054.jpeg",
+    "bytes": 213449,
+    "sha256": "c7b0c097f54eb0b83bff8306a27730840d76fcbfaef781fed9cfb10a8afb68db",
+    "sha256_of": "original",
+    "working_copy": "1892_p054.jpeg"
+  },
+  "text": "Haus-\nNr.\n639. † Derfelbe. Magazin.\n640. † Landolt=Hächler, Gottlieb, Megger. Scheune mit Remise.\n1235 † Derfelbe. Wagenschopf und Remise.\n641. * Derfelbe. Wohnhaus.\nBuser-Buser, Emil, Güterschaffner von Unter-Erlinsbach (Solothurn).\nLeutwylner-Mangold, Friedrich, Polizeimachtmeister von Lupsig.\nMangold-Welfen, Zufanne, von Jennifon.\nWächter-Lindenmann, Louise, Taglöhnerin, von Mönthal.\nFrei-Lindenmann, Anna, Wäscherin, von Reigoldswwyl.\n642. Baumann-Käfer, Heinrich, Polizeifeldweibel.\nMüller-Bonäsch, Jakob, Buchbinder, von Unterkulm.\n643. Umler-Marti, Marie, Wittwe, Part., von Thalheim.\nWittmer geb. Hoffmann, Salome, Wittwe, Fabrikarbeiterin, von Erlins-\nbach (Solothurn).\nFrei-Bolliger, Gottlieb, Gepäckträger, von Gontenschwyl.\n644. Herzig-Hauri, Friedrich, Schneidermeister, von Wynau (Bern).\n645. Wolf-Märki, Anna, Schlossers Wittwe.\nSchmid-Wolf, Peter, Sekretär und Kassier der Sparkasse Aarau und\nUmgebung.\nGyfi-Kischer, Friedrich, Schlossermeister.\nDuernheim-Groß, Helene, Hausfrerin, von Vrenttraut (Freusen).\n646. * Henz-Gautschi, Emil, Eisenhandlung.\nBolliger-Manger, Gustav, Kaufmann. Hemden-, Schürzen- und Knaben-\nkleider-Anfertigungsgeschäft.\nGautschi-Siebenmann, St., Kantonsingenieur.\nZäggi, Wilhelmine, Lehrerin, von Strengelbach.\n647. Lüscher, Geschwister, Elise und Louise.\nLüscher, Louise, Part.\nLüscher, Elise, Glätterin.\nHaller-Meyer, Gottlieb, Bäcker, von Reinach.\nHilfker, Jakob, Schuhmacher, von Safenwyl.\nHilfker-Alchenberger, Elisabeth, von Safenwyl.\n\nBahnhofstraße.\n648. Fehlmann-Blattner, Rudolf, Ausseher.\nFehlmann-Blattner, Anna. Mercerie- und Lingeriegeschäft.\nSiebenmann, Louise, Part.\n649. Schaffner, Friedrich, Sohn, Wagner.\n650. † Müller-Schnebeli, Heinrich, Wirth z. Löwen, Scheune, Remise\nund Schopf.\n651. Cufser-Fueter, Hermann, Dr. phil., Fabrikant, von Rheineck\n(St. Gallen).\nCufser-Roth Emil, Chemiker, Fabrikant, von Rheineck (St. Gallen). Fa-\nbrikation von Mineralwasser und Kellerei-Artikel (Firma C. Cufser &\nComp.).\nNothplez, Karl, Architekt.\n652. † Derfelbe. Fabrikationsgebäude.\n[spalte 2]\n1142\n1289\n1302\n117",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4305,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2066,
+    "lines": 53,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:38:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p054",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p054.jpeg",
+      "bytes": 213449,
+      "sha256": "c7b0c097f54eb0b83bff8306a27730840d76fcbfaef781fed9cfb10a8afb68db",
+      "sha256_of": "original",
+      "working_copy": "1892_p054.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:06+00:00"
+  }
+}

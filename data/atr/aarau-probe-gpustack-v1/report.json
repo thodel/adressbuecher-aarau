@@ -1,0 +1,104 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "pages": 20,
+  "started_at": "2026-11-06T12:08:33+00:00",
+  "elapsed_s": 1566.6,
+  "rebuilt": false,
+  "skipped_files": [],
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": "/home/dh/agentic_historian/agentic_historian/data/nextcloud/adressbuecher-aarau/probe",
+    "gateway": "http://130.92.59.240:8200",
+    "runner": {
+      "name": "agentic-historian",
+      "version": "0.1.0",
+      "commit": "3613c56d2e5304ce267ed93a7410f60ab003161a",
+      "commit_source": "git"
+    },
+    "started_at": "2026-11-06T12:08:33+00:00",
+    "ended_at": "2026-11-06T12:34:39+00:00",
+    "models": [
+      {
+        "model": "qwen3.8-27b",
+        "engine": null,
+        "level": null,
+        "revision": null,
+        "revision_kind": "unreported",
+        "weights": null,
+        "base_model": null
+      },
+      {
+        "model": "qwen3-vl-30b-a3b-instruct",
+        "engine": null,
+        "level": null,
+        "revision": null,
+        "revision_kind": "unreported",
+        "weights": null,
+        "base_model": null
+      }
+    ]
+  },
+  "models": [
+    {
+      "model": "qwen3.8-27b",
+      "done": 20,
+      "skipped": 0,
+      "failed": 0,
+      "chars": 47087,
+      "lines": 0,
+      "truncated": 1,
+      "truncated_keys": [
+        "1896_p176"
+      ],
+      "empty": 1,
+      "empty_keys": [
+        "1896_p176"
+      ],
+      "repetitive": 0,
+      "repetitive_keys": [],
+      "deliberated": 0,
+      "deliberation_keys": [],
+      "verdicts": {
+        "ok": 19,
+        "empty": 1
+      },
+      "recognition_ms": 1457872,
+      "elapsed_s": 1458.0,
+      "aborted": "",
+      "source_errors": 0,
+      "source_missing": 0,
+      "source_missing_keys": [],
+      "errors": [],
+      "energy": null
+    },
+    {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "done": 20,
+      "skipped": 0,
+      "failed": 0,
+      "chars": 48570,
+      "lines": 0,
+      "truncated": 0,
+      "truncated_keys": [],
+      "empty": 0,
+      "empty_keys": [],
+      "repetitive": 0,
+      "repetitive_keys": [],
+      "deliberated": 0,
+      "deliberation_keys": [],
+      "verdicts": {
+        "ok": 20
+      },
+      "recognition_ms": 108485,
+      "elapsed_s": 108.6,
+      "aborted": "",
+      "source_errors": 0,
+      "source_missing": 0,
+      "source_missing_keys": [],
+      "errors": [],
+      "energy": null
+    }
+  ]
+}

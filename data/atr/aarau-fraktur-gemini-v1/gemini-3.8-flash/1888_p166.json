@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p166",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p166.jpeg",
+    "bytes": 260523,
+    "sha256": "e7fa573e5b17248791d863c084b646ff442a6e710dede30604438b6e70d49bc0",
+    "sha256_of": "original",
+    "working_copy": "1888_p166.jpeg"
+  },
+  "text": "148\n\nVerzeichniß der Behörden, Beamten und Angestellten\nder Stadtgemeinde Aarau.\n\nGemeinderath.\nGde.-Ammann: Tanner, Erwin, Fürsprech.\nVice-    \"    Imhof-Munzinger, Emil,\n            Ingenieur.\nGde.-Räthe: Hemmeler-Frey, Fried., Kauf-\n            mann.\n            Gonzenbach-Gonzenbach, A.,\n            Ingenieur.\n            Frey-Frey, Carl, Kaufmann.\n            Stierli-Brentano, G. L., Für-\n            sprech.\n            Schäfer-Troller, Ad., Architekt.\n\nGemeindeschreiber.\nNiggli-Bohnenblust, Arnold, Fürsprech.\nStellvertreter: Frey-Kieser, Josef, Notar.\n\nFriedensrichter.\nErißmann, Samuel, Oekonom.\n\nSchulkommission.\nPräsident: Dr. Liechti, Paul, Professor.\nVice-   \"   Sauerländer, Remigius.\nMitgl. d. Aussch.: Gonzenbach, A., Stadt-\n            rath.\nMitglieder: Bally, Eugen, Fabrikant.\n            Fischer, Xaver, Pfarrer.\n            Schäfer, Ad., Architekt.\n            Dr. med. Schmuziger, Fried.,\n            Arzt.\n            Dr. Stähelin, A.\n            Dr. Tuchschmid, Aug., Prof.\n            Wernly, Rud., Pfarrer.\nAktuar:     Frey, J., Notar u. Stellver-\n            treter des Gemeindeschreibers.\n\nSteuerkommission.\nPräsident: Frey-Frey, Carl, Gde.-Rath.\nVice-   \"   Schmidt-Hagnauer, Gustav,\n            Kaufmann.\nMitglieder: Schäfer, A., Gde.-Rath.\n            Heller, Hch., Rechtsagent.\n            Doser, Leop., Direkt.-Sekretär.\n            Henz-von Seutter, H., Kaufm.\n            Frey-Herzog, Aug., Fabrikant.\nErsatzmann: Rychner, Conrad, Seiler.\nAktuar:     Amsler, Otto, Stadtkassier.\n\n[spalte 2]\nEinwohner-Rechnungskommission.\nPräsident: Dr. Blattner, Otto, Fürsprech.\nMitglieder: Dr. Frey, Julius, Vice-Bank-\n            direktor.\n            Schießer-Häßig, Hrm., Kaufm.\n            Schäfer-Holzach, Carl, Bank-\n            angestellter.\n            Gysi-Studler, A., Mechaniker.\n            Neuburger, Albert, Apotheker.\n            Dr. Custer, Hrm., Fabrikant.\n\nOrtsbürger-Rechnungskommission.\nPräsident: Feer, Carl, Rentier.\nMitglieder: Häßig-Lienhard, Hrm., Bäcker.\n            Erny-Faßler, Emil, Kaufm.\n            Ernst-Käser, Fr., Röhrenfabr.\n            Imhof, Ernst, Fabrikant.\n            Hunziker-Thommen, Hermann,\n            Fabrikant.\n            Müller-Rothpletz, A., Architekt.\n\nForstkommission.\nPräsident: Tanner, E., Gde.-Ammann.\nMitglieder: Imhof-Munzinger, Emil.\n            Gonzenbach, A.\n            Siebenmann-Brun, Brandolf.\n            Häßig-Lienhard.\n            Siebenmann, Rud.\n            Fahrländer, Eugen.\n            Zimmermann, August.\n            Siebenmann, Bernhard.\nBerathend: Meisel, Xav., Forstverwalter.\nAktuar:     Niggli, A., Fürsprech u. Ge-\n            meindeschreiber.\n\nForstverwalter.\nMeisel, Xaver.\n\nFondsverwalter.\nAndres, Gottlieb.\n\nBauverwalter.\nSiebenmann-Hürsch, Gottlieb.\n\nCivilstandsbeamter.\nFrey-Kieser, Josef, Notar.\n\nStadtkassier.\nAmsler, Otto.\n\nGemeindeweibel.\nSiebenmann-Merz, Emil.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 12795,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2877,
+    "lines": 91,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.011,
+    "mean_line_chars": 24.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:43:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p166",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p166.jpeg",
+      "bytes": 260523,
+      "sha256": "e7fa573e5b17248791d863c084b646ff442a6e710dede30604438b6e70d49bc0",
+      "sha256_of": "original",
+      "working_copy": "1888_p166.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:44+00:00"
+  }
+}

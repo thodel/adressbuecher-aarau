@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p055",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p055.jpeg",
+    "bytes": 252391,
+    "sha256": "f185ee8a001f868a75340474f1796340e03b3e5a99c470703b5501c77b6d3ffc",
+    "sha256_of": "original",
+    "working_copy": "1888_p055.jpeg"
+  },
+  "text": "— 45 —\n\nHaus=\nNr.\n671. Landolt-Hächler, Gottlieb, Metzger.\n  Förderer-Hinden, Anna, Wittwe, Bettwaarenhandlung.\n  Grolimund-Gröli, Sigmund, Buchhandlungsangestellter, von Beinwyl\n    (Solothurn).\n672. Ernst-Pfisterer, Lina, Wittwe, Part.\n  Pfisterer, Robert, Bierbrauer.\n673. Siebenmann, Daniel, alt Stadtrath.\n  Siebenmann-Ackermann, Bäcker. Restauration.\n674.* Kunz-Heß, Johann Jakob, Zuckerbäcker, von Wald (Zürich).\n  Kunz, Ernst, Sohn, Zuckerbäcker, von Wald (Zürich).\n  Zündt geb. Hagenbuch, Elise Louise, Wittwe, Part., von Altstätten (St. Gallen).\n  Sernatinger-Enz, Valerian, Hutmacher, von Ludwigshafen (Baden).\n675. Studler-Sandmeier, Anna, Wittwe, Part.\n  Gysi-Studler, Arnold, Mechaniker.\n  Tapezierergeschäft der Firma Billeter und Asper in Zürich.\n676. Hagenbuch-Egger, Friedrich, Buchbinderei und Schreibmaterialien=\n    handlung.\n  Gertiser geb. Andres, Maria, Damenschneiderin, von Münchwylen.\n  Andres, Mina, Aufseherin.\n  Andres, Emma, Fabrikarbeiterin.\n677.† Derselbe. Buchbinderwerkstätte.\n678.* Henz-Plüß, Jakob, Kaufmann.\n  Henz-von Seuter, Hans, Kaufmann (Firma Jakob Henz, Colonial=\n    waarengeschäft).\n679. Derselbe. Abgetragen, an dessen Platz\n1169   Henz-Plüß, Jakob, Kaufmann.\n  Henz-Märk, Julius, Kaufmann (Firma Jakob Henz, Eisenhandlungs=\n    geschäft.\n680. Schäfer-Dennler, Cäsar, Messerschmied.\n  Meyer-Großmann, Anna, Wittwe, Part., von Rheinfelden.\n681. Müller-Schneebeli, Heinrich, von Unterstraß (Zürich). Gasthof\n    zum Löwen.\n682. Rothpletz-Marti, Friedrichs Erbschaft.\n  Rothpletz, Emil, Verwalter.\n  Waldmeier geb. Rothpletz, Bertha, Wittwe, Part., von Hellikon.\n  Senn-Blattner, Karolina, Wittwe, Ausrüsterin, von Densbüren.\n  Mayer, Thomas, Schuster, von Eigoldingen (Baden).\n  Stauber, Emil, Bankangestellter, von Zezwyl.\n683. Müller-Schneebeli, Heinrich, Gastwirth. Wohnhaus mit † Stallung,\n    † Waschhaus 2c.\n\nHintere Vorstadt.\n\n684.* Gemeinde Aarau. Obere Mühle.\n  Birmann-Baldeweg, Albert, Müller, von Basel.\n  Birmann, Adolf, Sohn, Müller, von Basel.\n685.† Dieselbe. Holzschopf.\n686.† Henz-Plüß, Jakob, Kaufmann. Magazin.\n687.† Derselbe. Magazin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6818,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2100,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:29:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p055",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p055.jpeg",
+      "bytes": 252391,
+      "sha256": "f185ee8a001f868a75340474f1796340e03b3e5a99c470703b5501c77b6d3ffc",
+      "sha256_of": "original",
+      "working_copy": "1888_p055.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:18+00:00"
+  }
+}

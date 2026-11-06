@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p124",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p124.jpeg",
+    "bytes": 230502,
+    "sha256": "abd9db8e8942255f33c7f14f36fb1e2449ef49b3a38c045cb3f8394c87582a7d",
+    "sha256_of": "original",
+    "working_copy": "1892_p124.jpeg"
+  },
+  "text": "108 Krähenbühl — Läubli.\n\nKrähenbühl, Louise, Näherin v. Altishofen (Luzern), Golattenmattg. 232.\nKrähenbühl, Sophie, Corsetmacherin von Trubschachen (Bern), Adel-\n  bändli 172.\nKraft-Gautschi, Auguste Friedrike, Wittwe, Part. von Brugg, Milchg. 158.\nKraft-Kaspar, Maria, Wittwe von Brugg, Bachstraße 1039.\nKramer, Jakob, Taglöhner von Schloßrued, Rathhausgasse 3.\nKramer-Müller, Jakob, Knecht von Zezwyl, Telli 440.\nKrenger, Anna von Riggisberg, Bahnhofstraße 1173.\nKretz, Jakob, Part. von Unterentfelden, hinter dem Bahnhof 496.\nKrügel-Zenker, Lithograph von Saalfeld (Sachsen), Kirchhof 166.\n[handschriftlich: X]Kübler-Kuhn, Johann, Bahnhofinspektor, Bahnhofstraße 515.\nKühn-Hoffmann, Bernhard, Wirth zur Bahnhofrestaurantion, von Tieffurt\n  (Sachsen), Bahnhofstraße 515.\nKümmerli-Matter, Elise, Abwarts Wittwe von Kölliken, Zollrain 51.\nKümmerli, Rosa, Chemikerin (Zurlinden) von Kölliken, Zollrain 51.\nKünze-Rümmeli, Oswald, Schuhmachermeister v. Uetikon a. Albis (Zürich),\n  Pelzgasse 122.\nKünzlen-Kranich, Friedrich, Buchhalter, von Sulzbach (Württemberg),\n  Zollrain 88.\n[handschriftlich: X]Kuhn-Buser, Alfred, Schlosser und Mechaniker von Wangen (Zürich),\n  Ziegelrain 750.\nKuhn-Andermatt, Johann, Bahnmeister von Dottikon (Aargau), Ent-\n  felderstraße 1147.\nKull-Gerber, Adolf, Postcommis von Niederlenz, Kronengasse 33.\nKull-Hartmann, Friedrich, Abwart von Fluntern (Zürich), Bahnhof-\n  straße 1343.\nKull, Philipp, Spengler, Milchgasse 146.\nKummler, Frey, Auguste, Wittwe, Part., Pelzgasse 137.\n[handschriftlich: X] Kummler, Hermann, Elektrotechniker, Pelzgasse 137.\nKunz-Graf, Ernst, Zuckerbäcker von Wald (Zürich), vord. Vorstadt 674.\n[handschriftlich: X]Kunz, Johann Jakob, Zuckerbäcker, Confiserie en gros von Wald (Zürich),\n  Bankstraße 1141.\nKunz, Nanette, Näherin von Mönchaltorf, (Zürich), Bahnhofstr. 1173.\n[handschriftlich: X]Kurz-Korthaus, Erwin, Fürsprech und Notar von Schwamendingen\n  (Zürich), Laurenzenvorstadt 360.\nKurz, Sophie, Part. v. Schwamendingen (Zürich), Laurenzenvorstadt 399.\nKutschera-Kießner, Eugen, Musik- und Gesangdirektor von Brünn (Mähren),\n  Bachstraße 1043.\n\nLässer, Anna, Haushälterin von Wiliberg, Graben 221.\nLässer, Bertha, Fergerin von Williberg, Hammer 188.\nLäubli-Häfeli, Jakob, Fabrikaufseher von Seengen, Hammer 190.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7388,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2272,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:59:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p124",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p124.jpeg",
+      "bytes": 230502,
+      "sha256": "abd9db8e8942255f33c7f14f36fb1e2449ef49b3a38c045cb3f8394c87582a7d",
+      "sha256_of": "original",
+      "working_copy": "1892_p124.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:59:13+00:00"
+  }
+}

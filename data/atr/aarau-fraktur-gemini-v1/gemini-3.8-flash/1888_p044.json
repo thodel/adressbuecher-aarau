@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p044",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p044.jpeg",
+    "bytes": 255760,
+    "sha256": "ce4d74443d9655f22c8491f2248d7872f31a2a1f4947c5eaf62293e5e06305a0",
+    "sha256_of": "original",
+    "working_copy": "1888_p044.jpeg"
+  },
+  "text": "— 34 —\n\nHaus-\nNr.\n475. † Schweizerische Eidgenossenschaft und Staat Aargau. Zeughaus.\n476. † Dieselben. Abtrittgebäude.\n477. † Dieselben. Abgetragen.\n478. Schäfer-Troller, Adolf, Architekt und Stadtrath z. Lindenhof.\n1210 * Derselbe.\n  Hässig, Hans, Privat.\n  Hässig, Emma, Privatin.\n\nIn der Gais.\n\n479. * Schäfer-Troller, Adolf, Architekt und Stadtrath zum Lindenhof.\n  Bolens-Richner, Henri, Fabrikant, von Morges (Waadt).\n1217 * Derselbe.\n  Thom-Hänni, Franz, Trompeterinstruktor der Infanterie, von Kirchberg\n    (Bern).\n1248 * Derselbe.\n  Locher-Willi, Jakob, Postkondukteur, von Ems (Graubünden).\n  Beck, Louise, Buchdruckers, Part.\n1249 * Derselbe.\n  Bolliger, Johann, Notar.\n  Müller-Bolliger, Johann Albert, Postcommis, von Schmerikon (St. Gallen).\n480. Schäfer, Emil, Kaufmann.\n  Nabholz-Siebenmann, Johanna, Part., von Zürich.\n  Nabholz, Hermann Hans, Kaufmann, von Zürich.\n481. † Derselbe. Hühnerhaus.\n482. Stäbli-Schultheß, Sophie, Med. Drs. Wittwe, von Brugg.\n  Stäbli, Sophie, Part., Drs., von Brugg.\n  Stäbli, Gottlieb Wilhelm, Part., von Brugg.\n483. † Dieselbe. Scheune.\n1131 Kurz-Häfliger, Heinrich, Baumeister, von Schwamendingen (Zürich).\n  Kielholz-Aeschbach, Gottlieb, Postbeamter, von Mettau.\n  Bennert-Roth, Emilie, Privatin, von Paris.\n1105 † Derselbe. Schreinerwerkstätte mit Büreau.\n1106 † Derselbe. Zimmerschopf und Maurerbaracke.\n1186 Staat Aargau. Kantonale Krankenanstalt. Verwaltungsgebäude.\n  Bircher-Schatzmann, Heinrich, Dr. Med., administrativer Direktor und\n    Oberarzt der chirurgischen Abtheilung.\n  Kalt-Läubli, Alfred August, von Koblenz, Oberarzt der medizinischen\n    Abtheilung und der Gebäranstalt.\n  von Roten, Albert, von Sitten (Wallis), Assistenzarzt der chirurgischen\n    Abtheilung.\n  Meyer-Brunner, Verwalter, von Rheinfelden.\n  Bolliger, Heinrich, Kanzlist, von Küttigen.\n  Ernst-Suter, Jakob, Portier, von Holziken.\n  Schäfer-Morlock, Wilhelm, Ausläufer.\n1187 Derselbe. Medizinisch-chirurgischer Pavillon.\n1188 Derselbe. Medizinisch-chirurgischer Pavillon.\n1189 Derselbe. Baracke für Infektionskranke.\n1190 Derselbe. Baracke für Infektionskranke.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6696,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2101,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:27:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p044",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p044.jpeg",
+      "bytes": 255760,
+      "sha256": "ce4d74443d9655f22c8491f2248d7872f31a2a1f4947c5eaf62293e5e06305a0",
+      "sha256_of": "original",
+      "working_copy": "1888_p044.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:54+00:00"
+  }
+}

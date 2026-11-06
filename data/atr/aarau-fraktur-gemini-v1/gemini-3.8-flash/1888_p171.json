@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p171",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p171.jpeg",
+    "bytes": 262207,
+    "sha256": "54d2390e4dd3424a9848dc37e062fd2a6bc1c3ee4f9a57fac5477eaf2b9d4459",
+    "sha256_of": "original",
+    "working_copy": "1888_p171.jpeg"
+  },
+  "text": "Nachtrag und Berichtigungen.\n\nAsper, Emil, Tapezierer, von Wollishofen (Zürich), Wohnung vordere\n  Vorstadt 669, Werkstätte vordere Vorstadt 675.\nBaumann, Emma, Modistin, von Oberentfelden, Pelzgasse 66 statt\n  Laurenzenthorgasse 116.\nBucher-Gloor, Johann, Färber, von Wauwyl (Luzern), Halden 279.\nEichenberger-Fischer, Gottlieb, Schreiner, von Beinwyl, Halden 284 statt\n  Rain 880.\nFischer-Delapraz, Friedrich, Mechaniker, Laurenzenvorstadt 548.\nFischer-Delapraz, Julie, obigen Ehefrau, Gätterin, Laurenzenvorstadt 548.\nFrey-Vetterli, Achilles, von Densbüren, Coiffeurgeschäft Laurenzenthor=\n  gasse 116 statt 1118.\nGloor-Horlacher, Ferdinand, Taglöhner, von Birr, Kirchgasse 10 statt\n  Rain 884.\nHort-Hemmeler, Johann, Zimmermann, von Oberhof, Halden 276\n  statt 284.\nHunn-Fehlmann, Verena, Taglöhnerin, von Egliswyl, Halden 264.\nHunn, Anna, Damenschneiderin, von Egliswyl, Halden 264.\nKäser-Plüß, Rudolf, Postkondukteur, von Biberstein, hinter dem Bahn=\n  hof 496.\nKunz, Nanette, Näherin, von Mönchaltorf (Zürich), Rain 834 statt 832.\nLenzi-Treier, Xaver, Taglöhner, von Oberhof, vor dem Haldenthor 796.\nLocher-Häuptli, Elise, Friedrichs Ehefrau, Modistin, von Dietikon\n  (Zürich), Kirchhof 166.\nMeier, Jakob Ludwig, Architekt, von Zürich, Direktor der Handwerker=\n  schule, jenseits der Aare 307 „zur Schönau“ statt Graben 206.\nMüller-Bolliger, Johann, Postcommis, von Uznach (St. Gallen),\n  Gais 1248 statt 1249.\nMüller-Riederer, Lorenz, Lithograph, von Weilbach (Preußen), Kronen=\n  gasse 37.\nSager-Klauenbösch, Jakob, Posamenter, von Gränichen, Rain 880 statt\n  obere Vorstadt 937.\nStauber, Arnold, Sekretär (Allgem. Aarg. Ersparnißkasse) von Zezwyl,\n  Rathhausgasse 2.\nWeber-Schäfer, Friedrich, Spengler, von Vordemwald, Milchgasse 155\n  statt Rathhausgasse 3.\nWittwer, Emma, Weißnäherin, von Schangnau (Bern), Adelbändli 82.\n\n10*",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6958,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1838,
+    "lines": 38,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:44:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p171",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p171.jpeg",
+      "bytes": 262207,
+      "sha256": "54d2390e4dd3424a9848dc37e062fd2a6bc1c3ee4f9a57fac5477eaf2b9d4459",
+      "sha256_of": "original",
+      "working_copy": "1888_p171.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:17+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p037.jpeg",
+    "bytes": 248472,
+    "sha256": "8184f610a2c7625efc279656095ba4e5c42dff8db430f852073498019d8b960c",
+    "sha256_of": "original",
+    "working_copy": "1888_p037.jpeg"
+  },
+  "text": "Haus-\nNr.\nReimann-Reichli, Gustav, Krim.-Gerichtsschreiber, von Wölflinswyl.\nHartmann, Joh. Fried., Part., von Mügglingen (Württemberg).\nMerz-Horlacher, Traugott, Telefonarbeiter, von Beinwyl.\n321.c. Gisi, Lehrerz, Erbschaft.\nGisi-Ummann, Traugott, Lehrer.\nMeyer-Lüthi, Jakob, Lehrer.\n322. Diefger-von Felten, Remigius, von Wyl.\n323.+ Derfelbe. Schopf.\n324.+ Siebenmann-Hagnauer, Friedrich, Brauereigebäude.\n325.+ Derfelbe. Regelsbahn.\n326. Klingelsfuß-Wiefeler, Joh. Friedrich, Mechaniker und Eichmeister,\nvon Basel, Spezialfabrikation von Wasserwaagen, Lager in allen\nSorten Waagen und Gewichten.\n1102 Siebenmann-Bräm, Otto, Kreiskommandant.\nLäuchli-Wakmer, Johann, Part.\nErlinsbacherstraße.\n327.+ Fleiner, Alberts, Erbschaft. Cementbrennerei, Fabrik von schwerem\nhydraulischem Kalk.\n328.+ Diefelbe. Kaltofenschopf.\n329.+ Diefelbe. Schopf mit Stellung.\n330.+ Diefelbe. Bureau mit Steinschopf.\n331.+ Diefelbe. Waaghaus.\n1238 + Diefelbe. Thurm mit Transmmission.\n332.* Diefelbe. Trotte.\nGraf-Lüthi, Jakob, Cementarbeiter, von Rüttigen.\nRüfer-Fischer, Jakob, Rüfer, von Erlinsbach (Solothurn).\n1151 † Diefelbe. Wagenremise.\n333. Siebenmann-Freisig, Katharina, Becks Wittwe.\nSiebenmann, Fried., Tohn, Part.\nZimmermann-Hartmann, Johann, Lehrer, von Kempshof.\n334.+ Diefelbe. Holzschopf.\n335.* Kanalbaukonsortium Vertreter: Feer, Karl.\nHauenschild-Wittmann, Hans, von Berlin (Preussen), Direktor der Cement-\nfabrik Fleiner.\n1136 † Dasfelbe. Schirmhäuschen.\n336. Rothplek-Frühof, Louise, Stadtrath3 Wittwe.\nGanter-Schilling, Heinrich, Professor, von Neustadt (Baden).\n1246 Blattner-Bircher, Hs. Rudolf, Landwirth, von Rüttigen.\n337. Kanalbaukonsortium Vertreter: Feer, Karl.\nWeber-Weber, Wilhelm, Milchverkäufer, von Menziken.\nRoth-Hyburz, Johann, Aufseher, von Obererlinsbach\nBodmer-Roth, Johann Julius, Fabrikausseher, von Erlinsbach (Aargau).\n338. Weber-Gloor, Jb., Dachdecker, von Menziken.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3946,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1889,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p037.jpeg",
+      "bytes": 248472,
+      "sha256": "8184f610a2c7625efc279656095ba4e5c42dff8db430f852073498019d8b960c",
+      "sha256_of": "original",
+      "working_copy": "1888_p037.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:22+00:00"
+  }
+}

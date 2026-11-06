@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p154",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p154.jpeg",
+    "bytes": 272297,
+    "sha256": "a428d21ad63a477beb1d8cc312f9ec1628d088c6965e3b0ed2ea5684d4d8a4a9",
+    "sha256_of": "original",
+    "working_copy": "1888_p154.jpeg"
+  },
+  "text": "136\n\nRychner, Friz, Pianist, obere Vorst. 1117.\nRochholz, Marie, Klavierlehrerin, Ziegel-\n  rain 722.\nSchneider, Theo., Musiklehrer, hintere\n  Vorstadt 638.\nSchaufelberger-Märk, Frau, Klavier-\n  lehrerin, hinter dem Bahnhof 501.\nWittmer, J., Musiklehrer, Casinostr. 573.\n\nLeichenbegleiter.\nFisch, Samuel, Halden 271.\nHagnauer, Gottlieb, Halden 255.\nKümmerli, Johann, Schloßplatz 1183.\nMerz, Jakob, Halden 268.\n\nLingeriewaaren.\nBolliger-Manger, Gustav, hintere Vor-\n  stadt 646.\nCamisasca, Franz, Rain 826.\nDolder, Jakob, Graben 219.\nErismann & Blattner, hintere Vor-\n  stadt 621.\nErny-Faßler, Kronengasse 33.\nFehlmann = Blattner, Anna, Bahnhof-\n  straße 648.\nHaßler-Hunziker, Karl, Bahnhofstr. 1020.\nHaßler-Oberli, Margaretha, Bachstr. 1040.\nHeß, Isaak, zur Stadt Mülhausen,\n  Rathhausgasse 4.\nFirma Jean Kiefer, Wwe. Rathhaus-\n  gasse 22.\nLeutwyler, Verena, Rathhausgasse 19.\n\nLiniranstalt.\nZebert, Georg, Laurenzenthorgasse 116.\n\nLiteratur (Schriftsteller).\nRochholz, Ernst Ludwig, Professor, Dr.,\n  Ziegelrain 722.\n\nLithographische Anstalten.\nKohlmann, Gabriel, Kirchgasse 164.\nMüller & Cie., Igelweid 628.\nWittmer, Julius, Rain 823.\n\nLiqueurfabrikanten.\nBrunnhofer-Meder, August, Zollrain 178.\n\nMaler.\nBirchmeier, August, Casinostraße 574.\nBlattner, Jakob, Laurenzenvorstadt 376.\nDürr, Hermann, Casinostraße 1130.\n[spalte 2]\nGysi, Emil, obere Vorstadt 942.\nHässig, Samuel, Entfelderstraße 968.\nHäusler, Angelus, v. dem Haldenthor 762.\nRebmann, Karl, Ziegelrain 721.\nRothplez, Julius, Conradstraße 990.\nRüegger, Otto, Ziegelrain 746.\nSchmidt, Robert, Bachstraße 1028.\nSchmuziger, Traugott, Entfelderstraße\n  970.\n\nManufakturwaarengeschäfte.\nMauch-Humm, Samuel, ob. Vorst. 938.\nStahel, Bräm & Meyer (en gros), Schloß-\n  platz 191.\nSchmidt-Hagnauer, G., Graben 202.\n\nMathematische Instrumente.\nFirma Kern & Cie., Ziegelrain 747.\nGysi, Friedrich, vordere Vorstadt 889.\nHommel, August, Hammer 188.\n\nMatratzenmacher.\nBrunner, Gottlieb, Bachstraße 1038.\nKeller-Leuenberger, Lisette, Zollrain 181.\nPlüß-Haller, Maria, Golattenmatt-\n  gasse 232.\nSchäfer, Otto, Halden 275.\nScheibler, Alfred, Stadthof 92.\nWaßmer-Voß, Josef, Metzgergasse 91.\n\nMaurermeister.\nCantu, Joseph, Metzgergasse 100.\nSchmid, Jakob, vor dem Haldenthor 760.\nWernli, Jakob, Rainstraße 866.\n\nMechaniker.\nKeller, Abraham, Halden 260.\nKlingelfuß, F. F., im Weinberg 326.\nKuhn, Alfred, Ziegelrain 750.\nLüscher-Umiker, Hermann, Bankstr. 1146.\n\nMehlhandlungen.\nBirmann, Albert, hintere Vorstadt 684.\nDubs, Jakob, Hammer 182.\nMeili, Jakob, Stadthof 95.\nSiehe auch die Bäcker Seite 127.\n\nMerceriewaarenhandlungen.\nBell, J. A., Pelzgasse 130.\nCamisasca, Franz, Rain 826.\nDolder, Susette, vordere Vorstadt 891.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9046,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2665,
+    "lines": 91,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.011,
+    "mean_line_chars": 27.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:41:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p154",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p154.jpeg",
+      "bytes": 272297,
+      "sha256": "a428d21ad63a477beb1d8cc312f9ec1628d088c6965e3b0ed2ea5684d4d8a4a9",
+      "sha256_of": "original",
+      "working_copy": "1888_p154.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:49+00:00"
+  }
+}

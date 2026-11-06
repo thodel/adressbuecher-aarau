@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p032",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p032.jpeg",
+    "bytes": 264524,
+    "sha256": "4682afe8d8127645572f0935d46d8ac2f1bb0a007a55f1eff946cf78f1c0df46",
+    "sha256_of": "original",
+    "working_copy": "1892_p032.jpeg"
+  },
+  "text": "— 24 —\n\nHaus-\nNr.\n279. * Baumberger, Emanuel, in Basel.\n  Frei-Dürr, Gottfried, Taglöhner, von Trachselwald (Bern).\n  Wüthrich-Dambach, Joh. Jakob, Taglöhner, von Eggiwyl (Bern).\n  Bircher-Suter, Eduard, Sattler und Tapezierer von Küttigen.\n  Fehle-Weber, Mathäus, Scheibenarbeiter von Wyl.\n  Wittmer, Marie, Taglöhnerin, von Erlinsbach (Solothurn).\n280. a. Peschl-Schacher, Joseph, Maurer, von Passau (Bayern).\n  Strübin-Hochstraßer, Karl, Gipser, von Liestal.\n  Dätwyler, Johann, Holzspalter von Wittwyl.\n280. b. Keller-Hauri, Joseph, Pferdewärter, von Oberendingen.\n1305.   † Derselbe. Scheune (Hinter der Halde).\n281.   Derselbe. Wohnhaus.\n  Fricker-Reimann, Joseph, Polizeidiener, von Wölflinswyl.\n  Kamber-Baumann, Edmund, Parquetschreiner, von Gunzgen (Solothurn).\n  Maritz-Keller, Arnold, Schuhfabrikarbeiter, von Lostorf (Solothurn.)\n    Milch-, Käs- und Butterhandlung.\n  Stirnemann-Gisi, Jakob, Zimmermann, von Gränichen.\n282. * Familienkiste Meyer.\n  Gloor-Lüscher, Maria, Wittwe, Wäscherin von Birr.\n  Hoffmann, Gottlieb, Taglöhner, von Schloßrued.\n  Brunnhofer-Hunziker, Albert, Tambourinstruktor.\n  Hunziker-Gall, Magdalena, Schuhmachers Wittwe.\n  Brunnhofer-Bryner, Hermann, Taglöhner.\n  Joho-Bryner, Samuel, Färber, von Auenstein.\n  Siegrist-Hauri, Maria, Wäscherin, von Seengen.\n283. † Gemeinde Aarau. Holzschopf.\n284.   Häuptli-Burkardt, Anna Maria, Drechslers Wittwe, von Biberstein.\n  Häuptli-Schmid, Emil, Sohn, Drechsler, von Biberstein.\n  Landolt-Häuptli, Maria, Wittwe, Damenschneiderin.\n  Bryner, Anna, Modistin, von Möriken.\n  Wilhelm-Kaspar, Gottlieb, Färber, von Safenwyl.\n  Grütter-Graber, Fritz, Taglöhner, von Seeberg.\n  Beringer-Meier, Johann, Gärtner, von Cassel.\n285.   Müller-Wildi, Karolina, Schreiners Wittwe, von Möttlingen (Würt-\n  Müller, Otto, Commis, von Möttlingen (Württemberg). [temberg).\n  Müller, Albertine, Damenschneiderin, von Möttlingen (Württemberg).\n  Fischer, Franz, Schneider.\n  Vogel-Thommen, Joh., Säger, von Flühli (Luzern).\n  Vogel, Louise, Weißnäherin, von Flühli (Luzern).\n286.   Bertschi-Schäfer, Gottfried, Schreiner, von Dürrenäsch.\n  Schneider-Hochstraßer, Samuel, Taglöhner, von Thalheim.\n  Giger-Märki, Jakob, Schreiner, von Gontenschwyl.\n  Wandfluh-Sommer, Johann, Schuhmacher von Frutigen (Bern).\n1283.   † Derselbe. Schreinerwerkstätte.\n287.   Brunner-Nüsperli, Jakob, Seifensieder.\n  Brunner-Knecht, Emil, Büchsenmacher.\n  Brunner-Knecht, Verena, Hebamme.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7959,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2427,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:48:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p032",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p032.jpeg",
+      "bytes": 264524,
+      "sha256": "4682afe8d8127645572f0935d46d8ac2f1bb0a007a55f1eff946cf78f1c0df46",
+      "sha256_of": "original",
+      "working_copy": "1892_p032.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:27+00:00"
+  }
+}

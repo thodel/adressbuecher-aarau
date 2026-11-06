@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p059",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p059.jpeg",
+    "bytes": 260471,
+    "sha256": "731a731d8f382134d0f76b96d630dfc21415bbaca2b0d2107ce18b3650fcf608",
+    "sha256_of": "original",
+    "working_copy": "1888_p059.jpeg"
+  },
+  "text": "— 49 —\n\nHaus=\nNr.\n733.* Schmuziger, J. G. E., Kaufmann in Winterthur. Speisewirthschaft.\n  Renold-Hinden, Daniel, Speisewirth.\n734. Hochstraßer, Marie, Damenschneiderin, von Auenstein.\n  Schmuziger-Hochstraßer, Maria, Part.\n  Ammann-Wälchli, Johann, von Madiswyl (Bern). Speisewirthschaft.\n  Hauri-Kyburz, Samuel, Briefträger, von Seengen.\n  Vogt-Keller, Marie, Hebamme, von Villigen.\n735.† Uster geb. Thut, Verena, Wittwe, von Feuerthalen (Zürich). Scheune.\n736. Uster geb. Thut, Verena, Wittwe, Part., von Feuerthalen (Zürich).\n  Brack-Uster, Heinrich, Revisor, von Effingen.\n  Leutwyler-Hofer, Elise, Strickerin, von Menziken.\n  Bolliger, Melanie, Damenschneiderin.\n  Hofer, Maria, Part., von Lützelflüh (Bern).\n737. Siebenmann-Stirnemann, Gottlieb, Part.\n  Bäurlin-Siebenmann, Rosa, Wittwe, Part, von Brugg.\n  Schweizer-Siebenmann, Sophie, Wittwe, Part., von Basel.\n  Frey-Pfyffer, Maria, Part, von Zurzach.\n738.† Walther-Matter, Jakob, Oekonom. Scheune.\n739. Walther-Matter, Jakob, Oekonom.\n  Wernli-Wächter, Johann, Weichenwärter, von Thalheim.\n  Günthard-Hauri, Marie, Wittwe, Weißnäherin, von Hedingen (Zürich).\n  Käser-Laurent, Emil, Gärtner, von Oberflachs.\n740.† Derselbe. Schopf.\n741. Wullschleger-Blattner, Heinrich, Küfer.\n  Heller geb. Roth, Anna, Wittwe, Part., von Erlinsbach (Aargau).\n  Weber-Käser, Jakob, Bankabwart, von Oberflachs.\n742.† Fischer, Friedrich, Fuhrmann. Scheune.\n743.† Keller-Berney, Abraham, Mechaniker. Metalldreherei.\n\nZiegelrain.\n\n744.† Kern & Cie., Mechaniker. Holzschopf.\n475.* Dieselben. Wohnhaus.\n  Fricker-Häusermann, Rudolf, Wagner, von Veltheim.\n  Häusermann-Schmid, Jakob, Holzspalter, von Egliswyl.\n  Siegrist-Plüß, Anna, Wittwe, Spetterin, von Meisterschwanden.\n746.* Dieselben. Wohnhaus.\n  Rüeger-Gysling, Otto, Malermeister, von Whl (Zürich).\n747.* Dieselben. Fabrikgebäude. Fabrikation mathematischer und geodätischer\n    Instrumente.\n  Hunziker-Wieland, Elise, Wittwe, Part., von Oberkulm.\n748.† Dieselben. Fabrikgebäude.\n749.† Dieselben. Holzhaus.\n750. Kuhn-Buser, Alfred, von Wangen (Zürich). Schlosserei und mechanische\n    Werkstätte.\n751. Strich-Brack, Julius Wilhelm, von Aachen (Preußen). Halblein- und\n    Halbwollstoff-Fabrikation.\n\n  Adreßbuch der Stadt Aarau 1888.      4",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7564,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2235,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:29:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p059",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p059.jpeg",
+      "bytes": 260471,
+      "sha256": "731a731d8f382134d0f76b96d630dfc21415bbaca2b0d2107ce18b3650fcf608",
+      "sha256_of": "original",
+      "working_copy": "1888_p059.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:49+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p100",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p100.jpeg",
+    "bytes": 246731,
+    "sha256": "05f6c132523dfd5b3ace463e03780667e560d7edbb7fdbe37461478e0f0d0ace",
+    "sha256_of": "original",
+    "working_copy": "1892_p100.jpeg"
+  },
+  "text": "84\nBertschi — Birmann.\nBertschi-Storckenmeier, Emil, Schneider von Sumiswald (Bern), Holz-\nmarkt 663.\nBertschi-Vogt, Elise, Schreiners Wittwe von Sumiswald (Bern), Mezger-\ngasse 107.\nBertschi-Wahmer, Jakob, Postangestellter von Sumiswald (Bern), Milch-\ngasse 70.\nBertschi-Wächter, Marie, Wäscherin von Dürrenäsch, Zieglerain 711.\nBertschi, Wilhelm, gewesener Camioneur von Dürrenäsch, Halden 248.\n×Bertschinger-Aeschbach, Marie Elise, Wittwe, Part. von Lenzburg, Mezger-\ngasse 100.\n×Bertschinger-Riniker, Anna, Wittwe, Wirthin zur Militärcantine, von\nLenzburg, Laurenzenvorstadt 590.\n×Bertschinger-Wild, Gustav, Spezereihändler von Lenzburg, hintere Vor-\nstadt 624.\nBeugger, Johann Alexander, Buchhalter v. Winterthur, Rathhausgasse 20.\n×Biber-Riggli, Theodor, Fabrikation von Seidenband und Nähmaschinen-\nhandlung, Hammer 193.\nBiberstein-Spycher, Eugen, Spenglergehilfe, von Bözingen (Bern), vor\ndem Haldenthor 768.\n×Bigler-Wirth, Ulrich, Dr. Lehrer von Oberthal (Bern), Bachstasse 1039.\nBilleter-Apel, Moritz, Faktor von Hainichen (Sachsen), Rathhausgasse 26.\nBilleter, Anna, Damenschneiderin von Hainichen (Sachsen), Rathhaus-\ngasse 26.\n×Billo-Bär, Julius, Part., Bahnhofstrasse 535.\n×Billo-Behrer, Theodor, Kaufmann, jenseits der Aare 295.\nBillo-Billo, Marie, Kaufmanns, Part., Laurenzenvorstadt 360.\nBircher, Andreas, Bater, Part. von Rüttigen, jenseits der Aare 302.\nBircher-Brodbeck, Marie, Wittwe von Rüttigen, Casinostasse 1176.\n×Bircher-Burger, Emil Ludwig, Postcommis, Schachen 737.\nBircher, Fanny, Part., obere Vorstadt 916.\nBircher, Jakob, Part. von Rüttigen, Pelzgasse 134.\n×Bircher-Rieholz, Julius, Kreisingenieur von Rüttigen, Zieglerain 713.\nBircher-Ryburz, Anna, Wittwe, Part. v. Rüttigen, hint. d. Bahnhof 497.\nBircher, Marie, Taglöhnerin, Schachen 734.\n×Bircher-Saﬀon, Andreas, Kaufmann von Rüttigen und Cairo, jenseits\nder Aare 302.\n×Bircher-Schäckmann, Heinrich, Dr. med., administrativer Direktor des\nKantonsspitals u. Chefarzt der chirurg. Abtheilung, i. d. Gais 1186.\nBircher-Suter, Eduard, Sattler und Tapezierer v. Rüttigen, Halden 279.\nBircher-Wächter, Jakob, Schlosser von Rüttigen, Halden 266 b.\nBircher-Wehrli, Karl, Büchsenmacher von Rüttigen, Erlinsbacherst. 1246.\nBirchmeier-Kull, August, Malermeister von Würenlingen, Casinostasse 574.\nBirchhofer-Hagenbuch, Albertine, Damenschneiderin, Rainstrasse 821.\nBirmann-Probst, Marie, Wittwe von Basel, Weinhandlung, Rathhaus-\ngasse 20.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5087,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2413,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:41:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p100",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p100.jpeg",
+      "bytes": 246731,
+      "sha256": "05f6c132523dfd5b3ace463e03780667e560d7edbb7fdbe37461478e0f0d0ace",
+      "sha256_of": "original",
+      "working_copy": "1892_p100.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:38+00:00"
+  }
+}

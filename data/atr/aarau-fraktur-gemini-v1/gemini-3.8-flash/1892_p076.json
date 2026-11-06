@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p076",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p076.jpeg",
+    "bytes": 195182,
+    "sha256": "5dc86e2880601bc6a7824638fdfa1b2397cf1c7ab03f49d13e08e36f6a425948",
+    "sha256_of": "original",
+    "working_copy": "1892_p076.jpeg"
+  },
+  "text": "— 68 —\n\nHaus-\nNr.\n989. Hagnauer-Wildberger, Barbara, Wittwe, Part.\n  Hagnauer, Emma, Part.\n  Hagnauer, Nanette, Part.\n  Hagnauer, Mathilde, Part.\n  Amsler-Harsch, Emil, Fürsprech u. Notar, von Schinznach. Advokaturbüreau.\n990. Rothpletz-Waldkirch, Julius, Malermeister.\n991. Derselbe. Holzhaus.\n992. Schäfer, Ida, Postkontroleurs, Part.\n  Schürch, Adolf, Fabrikant, von Büren zum Hof (Bern).\n993. Wehrli-Peier, Rudolf, Geschäftsführer der Allg. Aarg. Ersparniß-\n    kasse, von Küttigen.\n994. † Derselbe. Gartenhaus.\n\nZschokkestraße.\n\n995. Zschokke-Sauerländer, Guido, Buchhändler. Meteorologische Station.\n  Dr. Zschokke, Ernst, Bezirksschullehrer.\n1198  † Derselbe. Bienenhaus.\n996. Fischer-Schmidlin, Bertha, Part.\n  Wydler-Fischer, Heinrich, Bezirkslehrer, von Affoltern a./A. (Zürich).\n997. † Dieselbe. Holzhaus.\n\nGartenstraße.\n\n998. Gysi-Büchle, Emil, Part.\n  Büchle, Johann Rudolf, Part.\n  Rohr-Reiner, Hans, Staatsanwaltssubstitut, von Lenzburg.\n  Wirz-Martin, Emil, Buchhändler, von Solothurn.\n1346  † Derselbe. Holzremise.\n999. Riniker, Hans, Regierungsrath, von Habsburg.\n1000. † Derselbe. Wasch- und Holzhaus.\n1103  Hartmann-Götte, Rudolf, Fabrikant von Ebnat (St. Gallen).\n1122  † Derselbe. Waschhaus.\n1129  * Bally-Prior, Eduard, Fabrikant in Schönenwerd.\n  Prior-Dettmer, Helena, Part., von Dissen (Hannover).\n  v. Brockdorff, Emilie, Comtesse, von Kiel (Holstein).\n  Kern-von Arxnd, Heinrich, Mechaniker.\n1166  Siebenmann-Siebenmann, Gottlieb, Part.\n1167  † Derselbe. Waschhaus.\n\nGoldern.\n\n1001. Siebenmann-Steiner, Jakob, Oekonom.\n  Steiner-Lindenmann, Susanna, Wittwe, Part., von Dürrenäsch.\n1002. † Derselbe. Wagenschopf.\n1003. † Derselbe. Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6058,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1668,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.91,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:53:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p076",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p076.jpeg",
+      "bytes": 195182,
+      "sha256": "5dc86e2880601bc6a7824638fdfa1b2397cf1c7ab03f49d13e08e36f6a425948",
+      "sha256_of": "original",
+      "working_copy": "1892_p076.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:53:48+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p045",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p045.jpeg",
+    "bytes": 262664,
+    "sha256": "55b81fc89e7b57a512c5282e69330710c13058caf830a7ecea9c0649752f0236",
+    "sha256_of": "original",
+    "working_copy": "1899_p045.jpeg"
+  },
+  "text": "37\nHaus-\nNr.\n451 † Dieselben. Fabrikgebäude.\n452 † \" Färberei.\n453 † \" Druckerei.\n1085 † \" Farbgebäude.\n1158 † \" Fabrikgebäude.\n1565 † \" Magazingebäude.\n454 * Krippendorf-Müller, Herm., Prof. Dr. phil., in Dresden.\nRothpletz-Bürgi, Maria, Pfarrers Witwe.\n— Heinrich, Förster.\nHassler-Weisser, Arnold, Commis.\n455 * Derselbe.\nKüng-Furrer, Anton, Sekretär, von Birri.\n1133 † Imhof-Aman, Ernst (Fabrikationsgebäude).\n456 Guyer-Gunkel, Oskar, Kaufmann ⚧ Halbleinfabrikation.\n457 † Derselbe. Fabrikationsgebäude.\n458 † \" Scheune.\n459 † \" Tuchwalke.\n460 Gautschi-Roth, Rudolf und Gautschi, Friedr., Ökonom, von\nReinach.\n— -Wernli, Rudolf, Ökonom, von Reinach.\n— -Roth, Rudolf, Sohn, Ökonom, von Reinach.\n— Friedrich, Sohn, Ökonom, von Reinach.\n1159 † Dieselben. Stall.\n461 † Baumann, Gebr., Weinhandlung (Weinkeller).\n1209 † Dieselben. Eiskeller.\n462 † Staat Aargau. Turnhaus.\n\nRohrerstrasse.\n1479 * Baumann, Gebr., Weinhändler, Speisewirthschaft zum \"Jura\".\nLeube-Kienberger, Adele, von Frick, ⚧ Wirtin zum Café\n„Jura“.\nZogg-Moos, Osw. Martin, Kaufmann, von Wallenstadt.\n1536 Valli-Eggspühler, August, ⚧ Unternehmer von Erdarbeiten,\nvon Modgliano, Italien.\nGünther-Sollefer, Eugen, Instruktor der Infanterie, von Rhein-\nfelden.\nLeu-Zimmermann, Jakob, Kanzlist, von Birrenlauf.\n1507 † Derselbe. Magazin.\n1560 Kaspar-Häuptli, Eduard, Färger, von Lezwyl.\nWernli-Häuptli, Julius, Lagerhaus-Kassier, von Thalheim.\n— * Käser-Plüss, Rudolf, Postkondukteur.\n1362 † Jura-Cementfabriken, Schuppen für die Seilbahn.\nFischer & Schmuziger. Bureau. ⚧\nAngerer, Joseph, Schneidermeister, von Stils (Tirol).\n463 * Spürgi-Hochstrasser, Elise, Witwen (Erschaft).\n464 † Lagerhäuser der Centralschweiz. Petroleum-Keller (Alkohol-\ndépôt).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14640,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1711,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:31:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1899_p045",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p045.jpeg",
+      "bytes": 262664,
+      "sha256": "55b81fc89e7b57a512c5282e69330710c13058caf830a7ecea9c0649752f0236",
+      "sha256_of": "original",
+      "working_copy": "1899_p045.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:31:56+00:00"
+  }
+}

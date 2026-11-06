@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p052",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p052.jpeg",
+    "bytes": 271263,
+    "sha256": "f76e2625e1e84eb39e97d05e092ded425e52fcee55a1a3f53ad62d83bf5a8931",
+    "sha256_of": "original",
+    "working_copy": "1888_p052.jpeg"
+  },
+  "text": "— 42 —\n\nHaus-\nNr.\n1197 Bau- u. Garantiecomite der römisch-kathol. Kirche (Pfarrhaus).\n  Stöckli, Stephan, römisch-katholischer Pfarrer, von Muri.\n  Stöckli, Elisabeth, Haushälterin, von Muri.\n628.* Frey-Feer, Bertha, Fabrikants Wittwe.\n  Frey-Rüegg, Oskar, Fabrikant.\n  Müller & Cie., Lith. Kunstanstalt und Druckerei.\n629.† Dieselbe. Fabrikgebäude.\n630.† Siebenmann-Rohr, Rudolf, Bierbrauer. Remise, Bier- u. Eiskeller.\n631. Abgetragen, an dessen Platz\n1232 Lüscher-Greminger, Daniel, Schlosser, von Oberentfelden.\n  Suter-Lüscher, Rudolf, Uhrenmacher, von Kölliken.\n  Müller-Zellweger, Dorothea, Wittwe, Part., von Roggwyl (Thurgau).\n1244 † Derselbe. Schlosserwerkstätte.\n632. Bühler-Widmer, Gottlieb, Kupferschmied, von Rietheim.\n  Widmer-Zehnder, Verena, Wittwe, Wäscherin, von Freienwyl.\n  Felber, Johann, Postkondukteur, von Oberbözberg.\n633. Beck-Roth, Albrecht, Sattler und Tapezierer.\n  Beck-Hunziker, Emil, Sattler und Tapezierer.\n  Roth-Bürgi, Anna, Part., von Erlinsbach.\n634. Brunner-Nußbaum, Elise, Wittwe, von Dürrenäsch, Kaffeewirthschaft und\n    Samenhandlung.\n635.* Müller-Bondäniken, Friedrich, Gepäckträger.\n  Lerf-Kirchhofer, Moritz, Schneider, von Leibstatt, römisch-kathol. Siegrist.\n  Gruber-Stalder, Engelbert, Maurer, von Nassarein (Tyrol).\n  Müller-Walti, Jakob, Taglöhner, von Bözberg.\n636. Müller-Kramer, Jost, Schneider, von Büron (Luzern).\n  Eichenberger-Joho, Rudolf, Schuhmacher, von Reinach.\n  Berner, Maria Anna, Spetterin, von Kulm.\n  Berner, Verena, Haushälterin, von Kulm.\n637. Rychner-Schleuniger, Maria, Hafners Wittwe.\n  Erni-Mauderli, Lorenz, Taglöhner, von Stüßlingen (Solothurn).\n  Siegrist-Hochuli, Arnold, Schreiner, von Liedertswyl (Baselland).\n\nHintere Vorstadt.\n\n638. Hemmeler-Frey, Friedrich, Kaufmann, Stadtrath. Weinhandlung.\n  Schneider-Mattenberger, Joh. Theod., Musikdirektor, v. Würzburg (Bayern).\n  Landolt-Hartmann, Karl, Fabrikant.\n  Hemmeler & Cie., Quincaillerie- und Spielwaarengeschäft en gros. Spar-,\n    Leih- und Diskontokasse.\n639.† Derselbe. Magazin.\n640.† Landolt-Häßig, Alexander, Metzger. Scheune mit Remise.\n1235 † Derselbe. Wagenschopf und Remise.\n641.* Derselbe. Wohnhaus.\n  Gisi-Schmid, Johann Jakob, Rechnungsrevisor, von Birr.\n642. Baumann-Käser, Heinrich, Polizeifeldweibel.\n  Müller-Bonäsch, Jakob, Buchbinder, von Unterkulm.\n643. Umiker-Marti, Marie, Wittwe, Part., von Thalheim.\n  Wipf geb. Wernli, Margaretha, Wittwe, Vorgängerin, von Egliswyl.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8020,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2426,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:28:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p052",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p052.jpeg",
+      "bytes": 271263,
+      "sha256": "f76e2625e1e84eb39e97d05e092ded425e52fcee55a1a3f53ad62d83bf5a8931",
+      "sha256_of": "original",
+      "working_copy": "1888_p052.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:56+00:00"
+  }
+}

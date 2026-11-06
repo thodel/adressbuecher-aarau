@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p066",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p066.jpeg",
+    "bytes": 266700,
+    "sha256": "83da88fe4a3e5fa1064e5f1b43ee326e31505bf69ba5b9a56f1c93ca82b125cd",
+    "sha256_of": "original",
+    "working_copy": "1888_p066.jpeg"
+  },
+  "text": "— 56 —\nHaus=\nNr.\n  Frey-Brand, Franz Karl, Postcommis, von Zurzach.\n  Müri, Paul, Fürsprech, Controleur (Aarg. Creditanstalt), von Schinznach.\n870.† Dieselbe. Holzhaus.\n871. Schneider-Mösch, Fridolin, Oberrichter, von Herznach.\n  Widmer geb. Schäfer, Camilla, Wittwe, Part., von Oberuzwyl (St. Gallen).\n872. Kern-Saxer, Adolf, Partik.\n  Saxer geb. Truog, Anna, Wittwe, Haushälterin.\n873.† Derselbe. Holzhaus.\n874. Siegrist-Hunziker, Emil, Kaufmann.\n  Meier-Bucher, August, Direktionssekretär, von Obersiggenthal.\n875. Hitz-Lanz, Otto, Negt., Spezerei= und Brennmaterialienhandlung.\n  Hitz, Bertha, Part., von Hausen am Albis (Zürich).\n  Bührer-Gidemann, Anna, Wittwe.\n  Breitschmid-Schüpach, Jakob, Postbeamter, von Wohlen.\n  Wirz, Elise, Spetterin, von Schloßrued.\n  Brunnhofer, Elise, Damenschneiderin.\n  Widmer, Elise, Spetterin, von Gränichen.\n  Kleinkinderschule (von Mina Fisch).\n876.† Hitz-Lanz, Otto, Negt. Scheune.\n877. Wehrli-Kähr, Jakob, Gipsermeister, von Densbüren.\n  Leu, Jakob, Postkondukteur, von Birmenstorf.\n  Sommerhalder-König, Jakob, Hausknecht, von Gontenschwyl.\n  Wirth-Zuber, Fried. Wilh., Schlosser, von Hägglingen.\n  Bertschi, Adolf, Wagner, von Dürrenäsch. (Werkstätte.)\n878.* Steininger-Urech, Friedrichs Erbschaft.\n  König-Steininger, Friedrich, Küfermeister, von Bottenwyl.\n  Mühlberg-Sutermeister, Fritz, Professor.\n  Hoffmann-Gamper, Emil, Kassier, von Zell (Zürich).\n879. Dieselbe. Hinterhaus.\n  Steininger geb. Urech, Agnes, Wittwe, Part.\n880. Rothpletz-Hunziker, Gottlieb, Schreiner.\n  Eichenberger-Fischer, Gottlieb, Schreiner, von Beinwyl.\n881.* Armengut der Gemeinde Aarau. Wohnhaus.\n  Buser, Johann Jakob, Buchbinder.\n  Rämisperger-Studler, Gottlieb, Spengler.\n  Nußbaum, Anna Johanna, Haushälterin, von Birrwyl.\n882. Staat Aargau. Antiquarium.\n883. Rohr-Hochstraßer, Rudolf, Schmied.\n  Nöthiger-Müller, Gottlieb, Zugführer, von Uerkheim.\n884. Bopp-Häusler, Kaspar, Pflästerer, von Remigen.\n  Ziegler-Erismann, Samuel, Camioneur, von Veltheim.\n  Gloor-Horlacher, Ferdinand, Taglöhner, von Birr.\n885. Rusterholz und * Freihofer, Bildhauerei und Grabsteinlager.\n  Rusterholz-Schäppi, Albert, Bildhauer, von Wädenswyl (Zürich).\n  Failer-Rohr, Georg, Schriftsetzer, von Harthausen (Preußen).\n  Lochbrunner-Geiger, Adolf, Lokomotivführer, von Laufenburg.\n  Wehrli, Andreas, Zimmermann, von Küttigen.\n  Wehrli, Maria, Spetterin,   „   „",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8869,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2369,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:30:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p066",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p066.jpeg",
+      "bytes": 266700,
+      "sha256": "83da88fe4a3e5fa1064e5f1b43ee326e31505bf69ba5b9a56f1c93ca82b125cd",
+      "sha256_of": "original",
+      "working_copy": "1888_p066.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:30:45+00:00"
+  }
+}

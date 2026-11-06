@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p153",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p153.jpeg",
+    "bytes": 266684,
+    "sha256": "87520a5f57923801ffb5fed0fa1795e43a96656ea9136814c227714ee4a16b13",
+    "sha256_of": "original",
+    "working_copy": "1888_p153.jpeg"
+  },
+  "text": "135\n\nHunziker, für Französisch am Gymnasium,\n  Progymnasium und Gewerbeschule.\nDr. Liechti, für Chemie, sowie für Natur-\n  lehre am Progymnasium.\nMaier, Rektor, für Französisch am Pro-\n  gymnasium und an der Gewerbe-\n  schule und für Italienisch am Gym-\n  nasium.\nMeier, J., für Schönschreiben.\nMühlberg, für Naturgeschichte und Aus-\n  hülfe in Mathematik am Gymnasium.\nRennhart, für Englisch am Gymnasium\n  und an der Gewerbeschule, für\n  Italienisch an der Gewerbeschule.\nRoth, Oberstlieutenant, für Militärunter-\n  richt.\nSchumann, für Geschichte an der Ge-\n  werbeschule und für Geographie.\nDr. Tuchschmid, für Mathematik und Physik\n  am Gymnasium und an der Gewerbe-\n  schule.\nWäffler, für Turnunterricht.\nWernly, Pfarrer, für Hebräisch.\nWidmer, Pfarrer in Gränichen, für Re-\n  ligionsunterricht.\nDr. Winteler, für Geschichte am Pro-\n  gymnasium und Gymnasium und\n  alte Sprachen.\nWolfinger, für Kunstzeichnen.\n\nAn der Musikschule.\nKäslin, Direktor, für Violine und Piano-\n  forte.\nSchneider, für Violine und Pianoforte.\n\nB. Lehrerinnenseminar.\nSuter, J. J., Professor, für Deutsch,\n  Pädagogik und Religion.\nJäggi, Wilhelmine, für französische und\n  englische Sprache und Litteratur.\nStacher, Gustav, für Naturgeschichte,\n  Mathematik=Physik, Chemie und\n  Schreibunterricht.\nFlühmann, Elisabeth, für Geschichte,\n  Geographie, Italienisch und Turnen.\nBurgmeier, J., für den Gesangunterricht.\nWolfinger, Max, für den Zeichnungs-\n  unterricht.\n\nC. Bezirksschulen.\n1. Knabenbezirksschule.\nRey, J., Bezirkslehrer, (Rektor).\nChristoffel, H., \"\nPerusset, A., \"\nWydler, H., \"\nWüest, C., \"\n\n[spalte 2]\n\n2. Mädchenbezirksschule.\nSchachtler, Joh., Bezirkslehrer, (Rektor).\nCoradi, A., \"\nHagnauer, Hedwig, Bezirkslehrerin.\nHuber, Katharina, \"\n\nHülfslehrer.\nBurgmeier, J., Gesanglehrer.\nRennhart, Prof., Lehrer für Italienisch.\nStörchlin, H., Zeichnungslehrer.\nWäffler, H. Turnlehrer.\n\nD. Gemeindeschulen.\n1. Knabengemeindeschule.\nGysi, Traugott, Lehrer.\nHauenstein, Friedrich \"\nHengherr, August, \"\nHerzog, Heinrich, \"\nHunziker, Rudolf, \"\nMeyer, Johann, \"\nMeyer, Jakob, \"\nZimmermann, Johann, \"\n\n2. Mädchengemeindeschule.\nBelart, Julie, Lehrerin.\nBlattner, Anna, \"\nLenzi, Sophie, \"\nMärk, Marie, \"\nMüller-Hürner, Frau, \"\nPeyer, Anna, \"\nPlüß, Louise, \"\nStirnemann, Lina, \"\nBär, Maria, Arbeitslehrerin.\nMarti-Siebenmann, Frau, \"\nMeyer-Lüthy, Frau \"\nSchäfer, L, Pedell.\nSchachtler, Hausrektor.\n\nE. Kleinkinderschulen.\nFisch, Mina.\nHeß, Karolina.\nSchaub, Marie.\n\nF. Privatlehrer.\nBurgmeier, J., Musiklehrer, Graben 209.\nDössekel, Marie, Klavierlehrerin, Bahn-\n  hofstraße 1160.\nFrey-Kumpf, Fr., Musiklehrer, Schachen 810.\nHolzinger, Mina, Klavierlehrerin, obere\n  Vorstadt 948.\nKäslin, Eusebius, Musiklehrer, Laurenzen-\n  vorstadt 602.\nLindenmann, Emma, Klavierlehrerin,\n  Zollrain 177.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7870,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2773,
+    "lines": 104,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 25.07,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:41:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p153",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p153.jpeg",
+      "bytes": 266684,
+      "sha256": "87520a5f57923801ffb5fed0fa1795e43a96656ea9136814c227714ee4a16b13",
+      "sha256_of": "original",
+      "working_copy": "1888_p153.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:40+00:00"
+  }
+}

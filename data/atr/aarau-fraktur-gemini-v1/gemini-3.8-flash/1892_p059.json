@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p059",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p059.jpeg",
+    "bytes": 211263,
+    "sha256": "e82b3e1fddd3d10f8e3c120286c33cd27a7057cd096da31a82976986866f04a4",
+    "sha256_of": "original",
+    "working_copy": "1892_p059.jpeg"
+  },
+  "text": "— 51 —\nHaus=\nNr.\n708. * Armengut der Gemeinde Aarau.\n  Schmuziger-Lang, Elise, Schreiners Wittwe.\n  Leutwyler-Berchtold, Melchior, Taglöhner, von Reinach.\n709. Andres-Weber, Friedrich, Buchhalter. Ellenwaarenhandlung.\n  Häusermann-Gertsch, Friedrich, Schneider, von Egliswyl.\n710. Huber-Bircher, Heinrich, Drechsler.\n711. * Holzach-Schmidt, Friedrich, Metzger.\n  Brändli-Hug, Jakob, Fabrikarbeiter, von Unterbötzberg.\n  Bertschi-Wächter, Maria, Wäscherin, von Dürrenäsch.\n  Meier-Bertschi, Jakob, Schlosser, von Hausen.\n712. † Wullschleger-Blattner, Heinrich, Küfer. Scheune.\n713. Bircher-Kielholz, Julius, Kreisingenieur, von Küttigen.\n  Wildi-Lässer, Samuel, Schreinermeister, von Schafisheim. Sargmagazin.\n  Wehrli-Roth, Jakob, Fabrikarbeiter, von Biberstein.\n  Leutwyler-Hoser, Elise, Maschinenstrickerin, von Menziken.\n  Bolliger, Melanie, Damenschneiderin.\n  Hofer, Marie, Part., von Lützelfluh.\n  Baumann, Elise, Damenschneiderin, von Schafisheim.\n  Lienhardt, Albert, Prediger, von Bözingen (Bern).\n714. † Wydler-Wehrli, Heinrich; Wydler-Wernli, Erwin, und Wydler,\n  Hans, Färber. Schwefelkammer.\n715. * Dieselben.\n  Zimmerli-Stenz, Eduard, Cementmüller, von Oftringen.\n  Lüscher-Lüscher, Jakob, Commis, von Moosleerau.\n  Lüscher, Bertha, Fabrikarbeiterin, von Muhen.\n716. † Dieselben. Färbereigebäude. Magazin.\n717. † \" Farbmagazin.\n718. \" Wohnhaus.\n  Wydler-Wehrli, Heinrich, Färber.\n  Wydler-Wernli, Erwin, \"\n719. † Dieselben. Färberei und Heizeinrichtung.\n720. \" Abgetragen.\n721. * \" Wohnhaus.\n  Wydler-Bäurlin, Emilie, Wittwe.\n  Wydler, Emilie, Tochter.\n  Hanggartner-Hage, Kaspar, Camioneur, von Wangen (Großhth. Baden).\n722. * Dieselben. Wohnhaus.\n  Osterwalder-von Arx, Rudolf, Zuschneider, von Stettfurt (Thurgau).\n1172 † Dieselben. Wagenremise.\nSchachen.\n723. Schmidt-Henz, Hans, Part.\n  Fischer-Kern, Adolf, Part., von Reinach.\n  Fischer, Max, Postangestellter, von Reinach.\n1168 † Derselbe. Holzschopf.\n724. † Gemeinde Aarau. Waschhaus.\n1333 † Dieselbe. Militärbaracke I.\n1334 † Dieselbe. Militärbaracke II.\n1259 * Walther-Matter, Jakob, Oekonom.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7050,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2066,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:51:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p059",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p059.jpeg",
+      "bytes": 211263,
+      "sha256": "e82b3e1fddd3d10f8e3c120286c33cd27a7057cd096da31a82976986866f04a4",
+      "sha256_of": "original",
+      "working_copy": "1892_p059.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:51:37+00:00"
+  }
+}

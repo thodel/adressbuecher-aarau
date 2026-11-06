@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p007",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p007.jpeg",
+    "bytes": 215810,
+    "sha256": "cbfc6f6ee872ece5723d09673505b27aae69c71e0886911c0431e831bdf18655",
+    "sha256_of": "original",
+    "working_copy": "1884_p007.jpeg"
+  },
+  "text": "Vorwort.\n\n  Veranlaßt durch das längst gefühlte Bedürfniß eines vollkommenen und\nzuverlässigen Adreßbuch der Stadt Aarau hat der Unterzeichnete die Ausarbei=\ntung eines solchen unternommen. Dasselbe unterscheidet sich wesentlich von\nseinem Vorgänger, dem frühern „Einwohnerverzeichniß“, welches in manig=\nfacher Hinsicht durchaus ungenügend war.\n  Im Gegensatz hiezu soll das gegenwärtige „Adreßbuch“ durch verbesserte\nEinrichtung, namentlich durch Aufnahme einer umfassenden Zusammen=\nstellung über sämmtliche in Aarau bestehenden Geschäfte allen Anforderungen\nentsprechen, die man an ein derartiges Werk stellen kann und dadurch nicht\nnur dem hiesigen Publikum, sondern auch auswärtigen Geschäftsleuten\ndienlich sein.\n  Bei der mühevollen und zeitraubenden Arbeit wurde mir von Seite\nhiesiger Beamten und Geschäftsleuten in bereitwilligster Weise jede verlangte\nAuskunft und Hülfe geleistet, wofür ich hiemit meinen wärmsten Dank\nausspreche.\n  Möge das Werk allseitig gute Aufnahme und weite Verbreitung, sowie\neine günstige Beurtheilung finden.\n  Aarau, im Mai 1884.\n\nDer Verfasser.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3727,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1085,
+    "lines": 20,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:09:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p007",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p007.jpeg",
+      "bytes": 215810,
+      "sha256": "cbfc6f6ee872ece5723d09673505b27aae69c71e0886911c0431e831bdf18655",
+      "sha256_of": "original",
+      "working_copy": "1884_p007.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:09:32+00:00"
+  }
+}

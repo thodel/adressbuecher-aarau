@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p043",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p043.jpeg",
+    "bytes": 203644,
+    "sha256": "3597d11302d028b1d67a130d5b26ae169fa90a91827be37e1bbd85b8792195ef",
+    "sha256_of": "original",
+    "working_copy": "1892_p043.jpeg"
+  },
+  "text": "— 35 —\n\nHaus-\nNr.\n465. † Zschokke, O., Baugeschäft. Magazin.\n466. † Derselbe. Schreinerwerkstätte und Magazin.\n467. †  „  Maschinensaal und Parquetterie.\n468. †  „  Transmission mit Säge.\n469. †  „  Dampfmaschine und Dampfkessel.\n470. †  „  Transmission.\n471. †  „  Büreau, Werkstätte und Stallung\n472. †  „  Büreau.\n  Christoffel, Joh. Martin, Bauführer, von Sils (Graubünden).\n1079.  † Derselbe. Imprägniranstalt.\n1132.  †  „  Schuppen.\n1290.  †  „  Schmiedegebäude.\n1345.  †  „  Fraismaschine.\n473. Bally-Arndt, Eugen, Fabrikant.\n1338.  † Derselbe. Wasch- und Holzhaus.\n474. a. b. c. † Schweizerische Eidgenossenschaft. Zeughäuser.\n474. d. † Staat Aargau. Zeughaus.\n475. † Schweizerische Eidgenossenschaft und Staat Aargau. Zeughaus.\n476. † Dieselben. Abtrittgebäude.\n477. †  „  Abgetragen.\n478. Gasser-Fendrich, Emmanuel, Fabrikant, von Hallau (Schaffhausen).\n  Zum Lindenhof.\n\nIn der Gais.\n1210.  *Schäfer-Troller, Adolf, Architekt und Stadtrath.\n  Hässig, Hans, Stadtrath.\n  Hässig, Emma, Privatin.\n479. * Derselbe.\n  Matter-Lüscher, Johann, Part., von Kölliken.\n1217.  * Bolliger, Johann, Notar.\n  Müller-Bolliger, Joh. Albert, Postcommis, von Schmerikon (St. Gallen).\n1248.  Bolliger, Johann, Notar.\n  Wohler-Bolliger, Johann Martin, Postbeamter, von Wohlen.\n1249.  Locher-Willi, Jakob, Postkondukteur, von Ems (Graubünden).\n  Beck, Louise, Buchdruckers, Part.\n1266.  *Schäfer-Troller, Adolf, Architekt und Stadtrath. Zum Lindenhof.\n  Zehnder-Fischer, Anna Maria, Wittwe, Part.\n1267.  Fröhlich-Stelzer, Franz, Dr., Professor, von Brugg.\n480. Schäfer, Emil, Kaufmann.\n  Widmer geb. Schäfer, Camilla, Wittwe, Part., von Oberuzwyl (St. Gallen).\n481. † Derselbe. Hühnerhaus.\n482. Stäblin, Sophie, Part., Dr's., von Brugg.\n  Stäblin, Gottlieb Wilhelm, Part., von Brugg.\n483. † Dieselbe. Scheune.\n1131.  Müller-Suter, Jakob, Lithographiebesitzer, von Lenzburg.\n  Suter geb. Rauber, Susette, Wittwe, Part.\n1105.  Aeschbach, Friedrich, Mechaniker, von Reinach.\n1106.  † Derselbe. Werkstätte.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9102,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1991,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.32,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:49:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p043",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p043.jpeg",
+      "bytes": 203644,
+      "sha256": "3597d11302d028b1d67a130d5b26ae169fa90a91827be37e1bbd85b8792195ef",
+      "sha256_of": "original",
+      "working_copy": "1892_p043.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:46+00:00"
+  }
+}

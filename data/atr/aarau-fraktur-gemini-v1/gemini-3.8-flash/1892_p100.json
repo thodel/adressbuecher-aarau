@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p100",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p100.jpeg",
+    "bytes": 246731,
+    "sha256": "05f6c132523dfd5b3ace463e03780667e560d7edbb7fdbe37461478e0f0d0ace",
+    "sha256_of": "original",
+    "working_copy": "1892_p100.jpeg"
+  },
+  "text": "84                    Bertschi — Birmann.\n\nBertschi-Storkenmeier, Emil, Schneider von Sumiswald (Bern), Holz-\n    markt 663.\nBertschi-Vogt, Elise, Schreiners Wittwe von Sumiswald (Bern), Mezger-\n    gasse 107.\nBertschi-Waßmer, Jakob, Postangestellter von Sumiswald (Bern), Milch-\n    gasse 70.\nBertschi-Wächter, Marie, Wäscherin von Dürrenäsch, Ziegelrain 711.\nBertschi, Wilhelm, gewesener Camioneur von Dürrenäsch, Halden 248.\n[handschriftlich: ✗]Bertschinger-Aeschbach, Marie Elise, Wittwe, Part. von Lenzburg, Mezger-\n    gasse 100.\n[handschriftlich: ✗]Bertschinger-Riniker, Anna, Wittwe, Wirthin zur Militärcantine, von\n    Lenzburg, Laurenzenvorstadt 590.\n[handschriftlich: ✗]Bertschinger-Wild, Gustav, Spezereihändler von Lenzburg, hintere Vor-\n    stadt 624.\nBeugger, Johann Alexander, Buchhalter v. Winterthur, Rathhausgasse 20.\n[handschriftlich: ✗]Biber-Niggli, Theodor, Fabrikation von Seidenband und Nähmaschinen-\n    handlung, Hammer 193.\nBiberstein-Spycher, Eugen, Spenglergehilfe, von Bözingen (Bern), vor\n    dem Haldenthor 768.\n[handschriftlich: ✗]Bigler-Wirth, Ulrich, Dr. Lehrer von Oberthal (Bern), Bachstaße 1039.\nBilleter-Apel, Moritz, Faktor von Hainichen (Sachsen), Rathhausgasse 26.\nBilleter, Anna, Damenschneiderin von Hainichen (Sachsen), Rathhaus-\n    gasse 26.\n[handschriftlich: ✗]Billo-Bär, Julius, Part., Bahnhofstraße 535.\n[handschriftlich: ✗]Billo-Behrer, Feodor, Kaufmann, jenseits der Aare 295.\nBillo-Billo, Marie, Kaufmanns, Part., Laurenzenvorstadt 360.\nBircher, Andreas, Vater, Part. von Küttigen, jenseits der Aare 302.\nBircher-Brodbeck, Marie, Wittwe von Küttigen, Casinostraße 1176.\n[handschriftlich: ✗]Bircher-Burger, Emil Ludwig, Postcommis, Schachen 737.\nBircher, Fanny, Part., obere Vorstadt 916.\nBircher, Jakob, Part. von Küttigen, Pelzgasse 134.\n[handschriftlich: ✗]Bircher-Kielholz, Julius, Kreisingenieur von Küttigen, Ziegelrain 713.\nBircher-Kyburz, Anna, Wittwe, Part. v. Küttigen, hint. d. Bahnhof 497.\nBircher, Marie, Taglöhnerin, Schachen 734.\n[handschriftlich: ✗]Bircher-Sasson, Andreas, Kaufmann von Küttigen und Cairo, jenseits\n    der Aare 302.\n[handschriftlich: ✗]Bircher-Schatzmann, Heinrich, Dr. med., administrativer Direktor des\n    Kantonsspitals u. Chefarzt der chirurg. Abtheilung, i. d. Gais 1186.\nBircher-Suter, Eduard, Sattler und Tapezierer v. Küttigen, Halden 279.\nBircher-Wächter, Jakob, Schlosser von Küttigen, Halden 266 b.\nBircher-Wehrli, Karl, Büchsenmacher von Küttigen, Erlinsbacherstr. 1246.\nBirchmeier-Kull, August, Malermeister von Würenlingen, Casinostr. 574.\nBirkhofer-Hagenbuch, Albertine, Damenschneiderin, Rainstraße 821.\nBirmann-Probst, Marie, Wittwe von Basel, Weinhandlung, Rathhaus-\n    gasse 20.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8188,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2685,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 56.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:55:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p100",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p100.jpeg",
+      "bytes": 246731,
+      "sha256": "05f6c132523dfd5b3ace463e03780667e560d7edbb7fdbe37461478e0f0d0ace",
+      "sha256_of": "original",
+      "working_copy": "1892_p100.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:55:57+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p095",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p095.jpeg",
+    "bytes": 240339,
+    "sha256": "1d8c36d201421f97af67d7357656e09bb7291f69c4e92239dcf97d5bebacd31f",
+    "sha256_of": "original",
+    "working_copy": "1892_p095.jpeg"
+  },
+  "text": "Haus-\nNr.\n1312. Hilfiker, Jakob, gewef. Bäcker, Wohnhaus. (Vor dem Salenthof.)\n1313. † Zurlinden & Comp. Kohlenschuppen. (Scheibenschachen.)\n1314. † Hürzeler, Jakob, Padernhändler. Schopf. id.\n1315. † Ryhner, Louis, Ingenieur. Holzschopf. (Rain.)\n1316. † Strich, Julius Wilhelm, Fabrikant. Schopf. (Ziegelsrain.)\n1317. Hässig=Siegler, Julius. Wirthschaft. (Bahnhofstraße.)\n1318. † Derfelbe. Wasch- und Badhaus. (Bahnhofstraße.)\n1319. † Staat Aargau. Holzremise. (Bahnhofstraße.)\n1320. † Derfelbe. Magazin mit Stallung. (Bahnhofstraße.)\n1321. † Zürcher, Alfred, Arzt. Holzremise. (Laurenzenvorstadt.)\n1322. † Holzach, Dietrich, Bierbrauer. Trinkhalle und Regelbahn. (Bahnhofstraße.)\n1323 † Staat Aargau. Sprikenremise mit Kohlenschuppen. (Thorsfeld.)\n1324 † Siegrist=Kiniker, Heinrich, Megger. Eisteller. (Vor dem Salenthof.)\n1325. † Wehrli=Käfr, Jakob, Gypser. Holzschopf (Schachen.)\n1326. † Zürcher, Alfred, Arzt. Waschhaus. (Laurenzenvorstadt.)\n1327. † Holzach, Dietrich, Bierbrauer. Eisteller. (Bahnhofstraße.)\n1328. † Gamper, Adolf, Megger, Eisteller. (Mühlegässchen.)\n1329. † Schmuziger, Emil, Siegellackfabrikant. Schopf. (Rain.)\n1330. † Siegrist=Kiniker, H. Megger. Bienenhaus. (Vor dem Salenthof.)\n1331. † Müller, Friedrich, Landwirth. Scheune. (Schachen.)\n1332. † Schmid, Joh. Albert und Samuel. Wohnhaus. (Vor dem Salenthof.)\n1333. Einwohnergemeinde Aarau. Baracke I. (Schachen.)\n1334. Diefelbe. id. II. id.\n1335. Brogle, Joseph, Polizeidiener. Wohnhaus (Tellirain.)\n1336. Brad, J. Kaufmann. id. (Bahnhofstraße.)\n1337. Hunziker=Kleiner, Hermann. id. (Feerstraße.)\n1338. † Bally=Arndt, Eugen. Wasch- und Holzhaus. (Rohrerstraße.)\n1339. Vogel, Johann, Cementmiller. Wohnhaus. (Scheibenschachen,)\n1340. Aktiengesellschaft der Creditanstalt. (Schlosgarten.)\n1341. † Schmid, Joh. Albert und Samuel. Waschhaus. (Vor dem Salenthof.)\n1342 † Wernli=Häfliger, Jakob, Gärtner. Treibhaus. (Vor dem Salenthof.)\n1343. Evangelischer Verein. Vereinshaus. (Bahnhofstraße.)\n1344. Lagerhausgesellschaft. Büro. (Rohrerstraße.)\n1345. † Schöffe, D. Baugeschäft. Fraismaschine. id.\n1346. † Gysi=Büchli, Emil, Holzremise. (Gartenstraße.)\n1347. † Egloff, Georg, Gärtner. Gartenhaus. (Casinostraße.)\n1348. † Derfelbe. Schopf mit Magazin. id.\n1349. † Derfelbe. Treibhaus. id.\n1350. † Keller, Jda, Glätterin. Schopf. (Rain.)\n1351. * Schäfer, Adolf, Architekt. Wohnhaus. (Hinter dem Bahnhof.)\n1352. * Derfelbe. id. id.\n1353. † Ernst=Käfer, Friedrich. Röhrenfabrik. (In der Gais.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5635,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2460,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.93,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:41:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p095",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p095.jpeg",
+      "bytes": 240339,
+      "sha256": "1d8c36d201421f97af67d7357656e09bb7291f69c4e92239dcf97d5bebacd31f",
+      "sha256_of": "original",
+      "working_copy": "1892_p095.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:14+00:00"
+  }
+}

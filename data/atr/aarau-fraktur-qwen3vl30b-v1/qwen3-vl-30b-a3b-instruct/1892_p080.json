@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p080",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p080.jpeg",
+    "bytes": 226660,
+    "sha256": "93568cb87cc37f67fd4cd1f8b35d6e2d3302a57790d5e1679e660321ecb0e177",
+    "sha256_of": "original",
+    "working_copy": "1892_p080.jpeg"
+  },
+  "text": "Haus-\nNr.\n1155 Mösch=Gaßler, Martin, Registrator, von Frick.\n1154 Spinner=Bill, Joh. Jb., Camioneur.\nBürki, Jda, Gesellschafterin, von Bümpliz (Bern).\n1041. * Herzog=von Jenner, Lina, Wittwe und Herzog, Jakob und\nAnna. Wohnhaus.\nWalter-Dubs, Hans, Deconom.\n1042. a. b.+Diefselben. Scheune und Remise.\n1043. * Diefselben. Wohnhaus.\nSenn=Gift, Hans, Zeughausverwalter, von Zofingen.\nBerauffet-Laurent, Alfred, Bezirksschullehrer, von Grandson (Waadt).\nRutschera-Riebner, Eugen, Musik- und Gesangdirecteur von Brünn (Mähren).\n1044. † Diefselben. Holzremise und Säthnerhaus.\n1045. Diefselben. Wohnhaus.\nHerzog, Jakob, Part.\n1046. † Herzog=Zobel, Hans, General. Scheune.\n1047. Herzog=Zobel, Hans, General. (Eidgenössisches Artilleriebureau).\nHerzog, Hans, Dr. Phil., Staatsarchivar.\nGaronne-Pfleger, Anna, Pfarrers Wittwe, Part.\n1048. * Herzog=von Jenner, Lina, Herzog, Jakob und Anna. Wohn-\nhaus mit Magazin und Comptoir. W. Reiners Nachfolger.\n(Geschäftsinhaber: R. Hartmann und A. Schürch.) Fabrikation\nelastischer Gewebe.\nHanggartner-Alber, Ferdinand, Lithograph, von Buchthalen (Schaffhausen).\n1049. † Diefselben Fabrikgebäude.\n1050. †\n1051. † Wyser=Müller, Alfred, Seidenfärberei. Firma: Alfred Wyser,\nSeidenfärberei.\n1052. Derfelbe. Wohnhaus mit Werkstätte.\nBelart, Julie, Lehrerin von Brugg.\nBelart, Marie, Part., von Brugg.\n1053. † Herzog=von Jenner, Lina und Mitgaste. Holzschopf.\n1054. * Reiner-Scheuermann, Elise, Fabrikants Erbschaft.\nWytttenbach-de Vignoulle, Arthur, Bahningenieure von Bern (Südbahn-\nbureau).\n1055. * Wyser=Müller, Alfred, Seidenfärberei. Wohnhaus und Färberei.\nRichter-Wyser, Albert, Färber, von Elberfeld (Preußen).\n1056. † Derfelbe. Färberei.\n1057. †\n\" Seidenfärberei und Druckerei.\n1058. a.† \"\nWachhaus.\n1058. b.† \"\nFärberei.\n1059. Abgetragen.\n1060. † Frey=Volley, Lina, Wittwe. Scheune.\n1061. Brack, Abraham, Deconom.\nBrack-Grismann, Anna, Wittwe, Part.\n1062. Frey=Volley, Lina Wittwe. (Villa Olinda).\n1080 † Diefselbe. Gewächshaus.\n1153 † Diefselbe. Holzschopf und Gesügelhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4427,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2010,
+    "lines": 52,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:40:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p080",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p080.jpeg",
+      "bytes": 226660,
+      "sha256": "93568cb87cc37f67fd4cd1f8b35d6e2d3302a57790d5e1679e660321ecb0e177",
+      "sha256_of": "original",
+      "working_copy": "1892_p080.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:40:36+00:00"
+  }
+}

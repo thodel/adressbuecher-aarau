@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p051",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p051.jpeg",
+    "bytes": 255072,
+    "sha256": "ec2287f337e463ccbd0d7c25b7c97d77c4546c3ebdfb6830a1da1c8d05664da8",
+    "sha256_of": "original",
+    "working_copy": "1888_p051.jpeg"
+  },
+  "text": "— 41 —\n\nHaus=\nNr.\nGraben.\n613. Dhoussier-Imhof, Friedrich, Fabrikant.\n614. † Derselbe. Magazine.\n615.* Wydler-Frey, Elise, Apothekers Wittwe.\n  Zehnder, Gottlieb, Oberst, von Birmenstorf. Waffenchef der Cavallerie.\n    Eidg. Cavalleriebureau.\n  Isler-Bruggisser, Arthur, Med. Dr., prakt. Arzt, von Wohlen.\n616. † Dieselbe. Scheune mit Schopf.\n617. † Dieselbe. Waschhaus.\n618. Frey-Ryhiner, Arnold, Fabrikant.\n  Weber-Beck, Gustav, Bezirksarzt, von Menziken.\n  Beck-Rieger, Anna Maria, Kaufmanns Wittwe.\n  Gäng-Engelberger, Bernhardine, Part. von Laufenburg.\n619. Willimann, Anton, Lohnkutscher. (An der Igelweidstraße aufgenommen.)\n620. a. Siebenmann-Rohr, Rudolf, Bierbrauer.\n620. b. † Derselbe. Kegelbahn und Kühlschiff.\n\nHintere Vorstadt.\n621.* Siebenmann-Siebenmann, Rudolf, Partikular.\n  Peter geb. Gut, Anna, Fourniturenhändlers Wittwe, von Pfaffnau (Luzern).\n  Erismann & Blattner, Weißwaarengeschäft.\n  Erismann, Marie, Weißnäherin, von Muhen.\n  Blattner, Marie, Weißnäherin, von Küttigen.\n622.* Siebenmann-Rohr, Rudolf, Bierbrauer.\n  Spühler-Frei, J. J., von Reckingen. Redaktor, Druck und Verlag der\n    „Aargauer Nachrichten“ und „Aargauerzeitung“.\n623. Matter-Schönenberg, Samuel, Amtsschreiber, von Oberentfelden.\n  Sommer, Joh. Ulrich, von Elsau (Zürich), Volksküche.\n  Sommer, Heinrich, Part.,        „        „\n624. Bertschinger-Wild, Gustav, von Lenzburg. Spezereihandlung.\n  Frey-Hofer, Jakob, Lokomotivheizer, von Auenstein.\n\nIgelweid.\n625. Baumann-Gautschi, Samuel, Hufschmied.\n  Baumann, Fritz, Sohn, Hufschmied.\n  Moog-Ganz, Elisabeth, Schuhhändlerin, von Pirmasens (Bayern).\n  Brack-Wälchli, Heinrich, Webermeister, von Mönthal.\n  Ricker-Specht, Wilhelm, Werkführer, von Eschelbronn (Würtemberg).\n  Hach-Rössig, Friedrich Ludwig, Schneider, von Oettingen (Bayern).\n626. † Derselbe. Remise und Waschküche.\n619    Willimann-Lehmann, Anton, Lohnkutscher.\n  Schenker, Gustav, Thierarzt, von Schönenwerd (Solothurn).\n  Keller-Jäggi, Andreas, Bezirksverwalter. Hauptagentur der schweizerischen\n    Mobiliarversicherungsgesellschaft.\n627. Abgetragen. An dessen Platz\n1170   Bau- u. Garantiecomite der römisch-kathol. Kirche (römisch-katholische\n    Pfarrkirche).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9747,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2178,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.17,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:28:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p051",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p051.jpeg",
+      "bytes": 255072,
+      "sha256": "ec2287f337e463ccbd0d7c25b7c97d77c4546c3ebdfb6830a1da1c8d05664da8",
+      "sha256_of": "original",
+      "working_copy": "1888_p051.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:28:48+00:00"
+  }
+}

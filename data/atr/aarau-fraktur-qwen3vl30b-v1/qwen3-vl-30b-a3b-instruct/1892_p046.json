@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p046",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p046.jpeg",
+    "bytes": 195537,
+    "sha256": "cd305e282a44e40eb14df9055308f1610e98e084e934862dfc478a8649397ec8",
+    "sha256_of": "original",
+    "working_copy": "1892_p046.jpeg"
+  },
+  "text": "— 38 —\n\nHaus-\nNr.\n\nBahnstraße.\n\n509. Kauf=Gattifer, Heinrich, gew. Lokomotivführer, von Wellhausen (Thurg.).\nKauf, Alfred, Buchhalter der Aarg. Creditanstalt, von Wellhausen.\n\n510. Siebenmann=Siebenmann, Rudolf, Part.\n\n1234 + Derfelbe. Holzhaus.\n\n1141 Kunz, Johann, Jakob, von Wald (Zürich), Confiserie en gros.\nMarkwalder-Gamper, Traugott, Oberst-Leut., Cavallerie=Instructur I. Kl.\nMartin-Hagenbuch, Marie, Part.\n\n1251 + Derfelbe. Holz- und Waschhaus.\n\n1146 Lüscher-Umfer, Hermann, Mechaniker. Nähmaschinenhandlung.\nPfleger-Gröger, Marie, Part.\n\nBahnhoﬀstraße.\n\n511. * Aargauische Bank.\nRothplex-Brüttel, Alfred, Bankdirektor.\n\n512. + Diefelbe. Holzhaus.\n\n513. * Näf & Zschokke. Kreispofgebäude.\nAmzler, Jakob, Kreispofdirektor, von Bözen.\nLauber, Joseph Anton, Postcommis, von Deschgen.\n\n514. + Diefelben. Postremise.\n\n515. Schweizerische Nordostbahn. Bahnhofgebäude.\nKübler-Kuhn, Johann, Bahnhofinspektor.\nBrafft-Meyer, Joh., Inspektionsbeamter, von Leibstatt.\nSchäfer-Meier, Friedrich, Einnehmer der Nordostbahn.\nWärtli-Vogel, Christian, Bahnangestellter.\nKühn-Hofmann, Bernhard, Restaurateur, von Tiefurt (Sachsen).\n\n516. + Schweizerische Nordostbahn. Einsteigehalle.\n\n517. + Diefelbe. Wagenremise.\n\n518. + \" Wärterhaus.\n\n519. + \" Güterschopf mit Wohnungen.\nFurter-Haller, Hans, Gepäckexpedient, von Lenzburg.\nRippstein-Rüng, Joseph, Portier, von Rienberg (Solothurn).\n\n520. + Diefelbe. Waschhaus und Abtritte.\n\n521. + \" Maschinenremise.\n\n522. + \" Wasserstationsgebäude.\n\n523. + \" Güterschopf (Fruchtschuppen).\n\n524. + \" Wagenremise.\n\n525. + \" Bahnwärterhäuschen.\n\n526. + \" Abtrittgebäude.\n\n527. + \" Bahnwärterhäuschen.\n\n528. + \" \"\n\n529. + \" \"\n\n530. + \" \"\n\n531. + \" \"\n\n532. + \" \"\n\n533. + \" \"\n\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3676,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1709,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:37:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p046",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p046.jpeg",
+      "bytes": 195537,
+      "sha256": "cd305e282a44e40eb14df9055308f1610e98e084e934862dfc478a8649397ec8",
+      "sha256_of": "original",
+      "working_copy": "1892_p046.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:33+00:00"
+  }
+}

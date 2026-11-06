@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p063",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p063.jpeg",
+    "bytes": 270338,
+    "sha256": "94b8ff85a10decc337e2e920c6dbb813b3b1502d7b49957e3b9925478d4795a9",
+    "sha256_of": "original",
+    "working_copy": "1888_p063.jpeg"
+  },
+  "text": "— 53 —\n\n  Haus=\n  Nr.\n821.  Birkhofer-Hagenbuch, Albertine, Damenschneiderin.\n  Bertschi-Storkenmeier, Emil, Schneider, von Sumiswald (Bern).\n822.  Keller-Speereisen, Gottlieb, von Wöschnau (Solothurn), Speise-\n  wirthschaft zum neuen Bund.\n  Merz-Siegrist, Friedrich, Agent, von Beinwyl. Agentur von Caisse\n  Paternelle, Lebensversicherung in Paris. Union, Feuerversicherung\n  Paris.\n  Ziegler-Hänki, Karl, Kondukteur, von Ittlingen (Baden).\n823.  Wittmer-Schumacher, Elise, Wittwe, Part., von Erlinsbach\n  (Solothurn).\n  Wittmer, Elise, von Erlinsbach (Solothurn). Spezereiwaarenhandlung.\n  Wittmer, Julius, Lith. Anstalt und Druckerei, von Erlinsbach (Solothurn).\n  Dr. Winteler-Eckart, Jost, Professor, von Kerenzen (Glarus).\n  Dreifuß-Bloch, Karl, Kaufmann, von Endingen.\n824.† Dieselbe. Lith. Anstalt.\n825. a.* Camisasca-Bossard, Franz, Kaufmann. Wohnhaus.\n  Sennhauser-Gossewisch, Amalie, Modistin, von Herrliberg (Zürich).\n  Walti-Müller, Jakob, Milchverkäufer, von Dürrenäsch.\n  Rüetschi-Heuberger, Ludwig, Kanzleisekretär.\n825. b. Zubler-Müller, Andreas, Hausknecht.\n  Roth-Widmer, Verena, Wäscherin, von Mühlethal.\n  Roth, Friedrich, Schuhmacher, von Mühlethal.\n  Grüebler, Hans, Bauführer (Zschokke & Cie.), von Veltheim (Zürich).\n826.  Camisasca-Bossard, Franz, Kaufmann. Zum hohen Haus. Bett-, Möbel-\n  und Tuchwaarenhandlung; fertige Kleider, Schuhwaaren und Hüte,\n  Reiseartikel, Mercerie-, Quincaillerie- und Bijouteriewaarenhandlung.\n827.† Rohr-Schindler, Samuel, Gastwirth. Scheune.\n828.  Richner-Siebenmann, Elise, Bandfabrikants Wittwe.\n  Kern-von Arand, Heinrich, Mechaniker.\n  Gonzenbach-Gonzenbach, August, Ingenieur, Stadtrath, von St. Gallen.\n829.  Lüscher-Hilsiker, Hans, Notar, von Muhen. Notariats- und In-\n  kassogeschäft.\n  Henz-Flügel, Julie, Wittwe, Part.\n  Weber, Stephan, Sekretär, von Sulz.\n  Weber, Regina, Part., \" \"\n830.† Derselbe. Hinterhaus mit Büreau.\n831.* Waßmer-Kummler, Emil, Negt.\n  Wüest-Senn, Konrad, Bezirksschullehrer, von Uffikon (Luzern).\n  Zschokke-Offenhäuser, Emil, Pfarrer.\n  Dr. Fröhlich-Stelzer, Franz, Professor, von Brugg.\n1225  † Waßmer-Kummler, Emil, Negt. Holzhaus.\n1226  † Derselbe. Gartenhaus.\n832.  Richner, Samuel, Pfister.\n  Steger-Bolliger, Melchior, von Ettiswyl (Luzern). Bäckerei und Pinten-\n  wirthschaft.\n  Richner-Heß, Louis, Ingenieur.\n  Dünner, Sophie, Haushälterin, von Weinfelden (Thurgau).\n  Grether, Julie, Erzieherin, von Tannenkirch (Baden).\n  Kunz, Nanette, Näherin, von Mönchaltorf (Zürich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 11522,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2477,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:30:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p063",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p063.jpeg",
+      "bytes": 270338,
+      "sha256": "94b8ff85a10decc337e2e920c6dbb813b3b1502d7b49957e3b9925478d4795a9",
+      "sha256_of": "original",
+      "working_copy": "1888_p063.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:30:23+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p049",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p049.jpeg",
+    "bytes": 199067,
+    "sha256": "de1dafb247148f3d12abb68c18f9a9b733e14e49fc469c42ab7954c75ed0be08",
+    "sha256_of": "original",
+    "working_copy": "1892_p049.jpeg"
+  },
+  "text": "— 41 —\n\n  Haus-\n  Nr.\n  563. Holzach-Siebenmann, Dietrich, Bierbrauer.\n  Spengler-Lienhard, Louise, Wittwe, Part.\n  564. † Derselbe. Kegelbahn.\n  565. † „ Bierbrauerei.\n  566. † „ Eiskeller.\n1214 † „ Eishaus und Bierkeller.\n1215 † „ Wasch- und Holzhaus.\n1322 † „ Trinkhalle und Kegelbahn.\n1327 † „ Eiskeller.\n  567. Gemeinde Aarau. Schulhaus.\n  Haßler-Brunnhofer, Johann, Schulhausabwart.\n  568. a. Weber-Hegnauer, Hermann, von Menziken. Restauration.\n  568. b. Guggisberg-Beck, Emil, Bäcker und Conditor, Tabak- und\n  Cigarrenhandlung, von Vevey (Waadt).\n  Furrer-Notter, Erhardt, Schneider, von Bolken (Solothurn).\n  569. * Derselbe. Wohnhaus.\n  Käppeli-König, Johann, Zugführer von Merenschwand.\n\nCasinostraße.\n\n  570. * Hirsbrunner-Kiener, Jakob, Instrumentenmacher (Café Na-\n  tional).\n  Siegrist-Folliet, Wilhelm, Postcommis, von Seengen.\n  Siegrist-Folliet, Marie Louise, Speisewirthin, von Seengen.\n  Schneider - Mattenberger, Johann Theodor, Musikdirektor, von Würz-\n  burg (Bayern).\n  Kirchhofer-Obrist, Maria, von Auenstein. Tricoteriewaarenfabrikation\n  (Strickwaaren).\n  571. Ging, Johann Jakob, Part.\n  Suter-Lüscher, Rudolf, Uhrenmacher, von Kölliken.\n  Stierli-Häny, Samuel, Kondukteur, von Gebenstorf.\n  572. † Derselbe. Schmiede- und Wagnerei-Werkstätte.\n  Ging, Wilhelm, Wagner.\n  Ging, August, Schmied.\n  573. Wittmer-Reimann, Franz J., Musiklehrer.\n  Wittmer, Emma, Klavierlehrerin.\n  Reimann geb. Rüegger, Verena, Part., von Wölflinswyl.\n  Reimann, Friedrich, Postcommis, von Wölflinswyl.\n  574. Birchmeier-Kull, August, Maler, von Würenlingen.\n  575. † Derselbe. Holzschopf.\n  576. * Imhof, Alexis, Negotiant in Zürich.\n  Schmidt-Halbritter, Max, Fürsprech und Notar. Stadtammann.\n  Lindenmann-Wey, Marie, Wittwe, von Fahrwangen.\n  Lindenmann, Jda, Telegraphistin, „ „\n  Lindenmann, Emma, Lehrerin, „ „\n  Gladbach-Renold, Philipp, Professor, von Oppenheim (Hessen).\n  Zaugg-Byland, Susanna, von Eriswyl (Bern).\n  Zaugg, Daniel, Prokurist, „ „ „",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6852,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1967,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:50:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p049",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p049.jpeg",
+      "bytes": 199067,
+      "sha256": "de1dafb247148f3d12abb68c18f9a9b733e14e49fc469c42ab7954c75ed0be08",
+      "sha256_of": "original",
+      "working_copy": "1892_p049.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:29+00:00"
+  }
+}

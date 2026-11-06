@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p133",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p133.jpeg",
+    "bytes": 232411,
+    "sha256": "ee3c9501db044d289eb8db8145355e5a459ba67de9cf1efbfbdb18037e8225f7",
+    "sha256_of": "original",
+    "working_copy": "1892_p133.jpeg"
+  },
+  "text": "Plüß — Richard. 117\n\nPlüß, Rosina, Weißnäherin von Ryken, hintere Vorstadt 699.\nPlüß-Stephanie, Marie, Buchhalters, hintere Vorstadt 1236.\nPlüß, Verena, Part. von Vordemwald, Halden 264.\nPlüß-Zimmerli, Jakob, Färber von Brittnau, Rathhausgasse 47.\nPlüß-Zimmerli, Marie, Hebamme von Brittnau, id. id.\nPöll-Widmer, Johann, Maurerpolier von Gmar (Tirol) Ziegelrain 704.\nPrantl-Wildi, Alois, Maurer von Strengen (Tirol), vor dem Halden-\n  thor 784.\n[handschriftlich: X] Prior-Dettmer, Helena, Part., von Dissen (Hannover), Gartenstraße 1129.\nProbst-Benkert, Maria, Part. von Aarburg, Rathhausgasse 20.\n\nQuernheim-Groß, Helene, Hausirerin von Irrmtraut (Preußen),\n  hintere Vorstadt 645.\n\nRämisperger-Berner, Marie, Gürtlers-Wittwe, Golattenmattgasse 231 b.\nRämisperger-Hemmeler, Gottfried, Spengler, Halden 275.\nRämisperger-Hunkeler, Hermann, Spengler, Adelbändli 174.\nRämisperger-Studler, Gottlieb, Spengler, Rain 881.\nRamsauer-Hächler, Anna, Wittwe, Part. von Herisau (Appenzell), Pelz-\n  gasse 69.\n[handschriftlich: X] Randegger-Wirth, Josephine, Wittwe, Wirthin zur bayrischen Bierhalle,\n  von Ossingen (Zürich), obere Vorstadt 926.\nRauch-Baldeschwyler, Bertha, Wittwe von Mülhausen (Elsaß), obere\n  Vorstadt 966.\n[handschriftlich: X] Rauchenstein-Pfleger, Professors Wittwe, von Brugg, Halden 261.\nRebmann-Häfliger, Karl Jakob, Maler von Fellbach (Württemberg),\n  Wohnung Rain 885. Malerwerkstätte Rain 874.\nReichert-Suter, Wilhelm, Koch (Wildenmann), von Lörrach (Baden),\n  Metzgergasse 56.\n[handschriftlich: X] Reimann-Reichli, Gustav, Obergerichtsschreiber von Wölflinswyl, Gra-\n  ben 618.\nReimann-Rüegger, Verena, Part. von Wölflinswyl, Casinostraße 573.\nReimann, Friedrich, Postcommis von Wölflinswyl, id. id.\nReinhardt-Müller, Johann Baptist, Gärtner von Balsthal (Solothurn),\n  Schachen 725.\nRenold-Geißmann, Katharina, Part., Ziegelrain 751.\nRenold-Hinden, Maria, Wittwe, Wirthin, Schachen 733.\nRenold-Wildi, Maria, Wittwe, Part., Zollrain 88.\n[handschriftlich: X] Rennhard-Maier, J. Martin, Professor von Wigoltingen (Thurgau),\n  Rain 829.\nRennhardt-Stiremann, Joseph, Knecht von Böttstein, Binsenhof 1006.\n[handschriftlich: X] Rey-Ringger, Jakob, Lehrer der Bezirksschule, vor dem Haldenthor 777.\n[handschriftlich: X] Richard-Schmid, Ida, Metzgers Wittwe, Part., Zeughausstraße 1310.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7570,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2294,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:00:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p133",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p133.jpeg",
+      "bytes": 232411,
+      "sha256": "ee3c9501db044d289eb8db8145355e5a459ba67de9cf1efbfbdb18037e8225f7",
+      "sha256_of": "original",
+      "working_copy": "1892_p133.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:00:30+00:00"
+  }
+}

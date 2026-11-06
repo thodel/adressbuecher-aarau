@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p023",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p023.jpeg",
+    "bytes": 212872,
+    "sha256": "367f4d6aa3db924d9e16c028ba00bbaf0d290f26d6b561d2e5739876c0312d96",
+    "sha256_of": "original",
+    "working_copy": "1892_p023.jpeg"
+  },
+  "text": "— 15 —\n\nHaus=\nNr.\n165. a. Hässig geb. Dätwyler, Elise, Wittwe.\n  Dätwyler, Maria, Privatin, von Oftringen.\n  Müller-Nikles, Jakob, Ausläufer von Unterentfelden.\n  Hübscher-König, Anna, Wittwe, Spetterin von Dottikon\n165. b. *Lenzin, Sophie, Lehrerin.\n  Bäurlin-Siebenmann, Rosa, Wittwe, Aufseherin der Gewerbehalle, von\n    Baden.\n  Bäurlin, Hermann, Elektrotechniker, von Baden.\n166.  Wärtli-Ernst, August, Buchbinder.\n  Krügel-Zenker, Karl, Lithograph, von Saalfeld (Sachsen).\n  Meier-Roth, Verena, Taglöhnerin, von Dintiken.\n  Meier, Eduard Erwin, Commis, von Dintiken.\n167. a. Derselbe.\n167. b. Abgetragen.\n168.  Gemeinde Aarau, Kirche.\n169.  Dieselbe. Pfarrhaus.\n  Graf-Fäsy, Ernst, von Winterthur, ref. Pfarrer.\n\nAdelbändli.\n\n170.  Matter-Hagnauer, Jakob, Schneidermeister, von Kölliken, Kleider=\n    fabrikation.\n  Matter-Thommen, Maria, Wittwe, Wäscherin, von Kölliken.\n  Schmidt-Graf, Rudolf, Taglöhner.\n  Spörri-Käser, Elise, Schneiderin, von Bäretschwyl.\n171.  Siebenmann-Frey, Ludwig, Sohn, Schuster.\n  Dürr-Siebenmann, Karolina, Registrators Wittwe.\n  Dürr, Emil, Sohn, Sekretär.\n  Gloor, Wilhelmine, Taglöhnerin, von Dürrenäsch.\n  Gloor, Bertha, Damenschneiderin, von Dürrenäsch.\n  Scheibler, Alfred, Sattler und Tapezierer, von Unterentfelden.\n172. *Wehrli-Haßler, Friedrich, Pedell.\n  Haßler, Sophie, Glätterin.\n  Haßler, Julie, Modistin.\n  Haßler, Remigius, Stumme.\n  Fischer, Louise, Messerschmieds, Damenschneiderin.\n  Krähenbühl-Bühler, Sophie, Corsetmacherin von Trubschachen (Bern)..\n  Bächli, Jakob, Part. von Buchs.\n  Bächli, Verena, Spetterin von Buchs.\n  Hunziker, Gottlieb, Schneider von Oberkulm.\n  Watzmer, Samuel, Ausläufer von Suhr.\n173. *Hunziker, F., Stabsfouriers Erbschaft.\n  Schaffner-Meier, Jakob, Bahnwärter, von Effingen.\n  Schaffner-Meier, Margaretha, Näherin von Effingen.\n  Ernst-Döhnel, Robert, Briefträger.\n  Herzig-Weber, Friedrich, Dachdecker und Kaminfeger von Obersteckholz\n    (Bern).\n  Gunsch-Furter, Johann, Maurer von Matsch (Tirol).\n  Senn, Lina, Glätterin, von Uster. (Zürich.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7779,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2031,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:47:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p023",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p023.jpeg",
+      "bytes": 212872,
+      "sha256": "367f4d6aa3db924d9e16c028ba00bbaf0d290f26d6b561d2e5739876c0312d96",
+      "sha256_of": "original",
+      "working_copy": "1892_p023.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:16+00:00"
+  }
+}

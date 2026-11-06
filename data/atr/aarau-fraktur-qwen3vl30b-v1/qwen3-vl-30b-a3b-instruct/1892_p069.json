@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p069",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p069.jpeg",
+    "bytes": 226818,
+    "sha256": "9d21eaf5598983b612d9f82fe800007e69c946e7a4a70ea2e05a6beb2c11514c",
+    "sha256_of": "original",
+    "working_copy": "1892_p069.jpeg"
+  },
+  "text": "Haus-\nNr.\n879. * Derfelbe. Hinterhaus.\nSteininger, geb. Urech, Agnes, Wittwe, Part.\n880. Lindegger=Kyburz, Gottfried, Bahnbeamter, von Oberentfelden.\nBaumann-Lentwyler, Johann, Taglöhner, von Gottenwyl.\nHunn-Gsell, Katharina, Wittwe, von Egliswyl.\n881. * Armengut der Gemeinde Aarau. Wohnhaus.\nBuser, Johann Jakob, Buchbinder.\nRämisperger-Studler, Gottlieb, Spengler.\nRuzbbaum, Anna Johanna, Haushälterin, von Birmwyl.\n882. † Staat Aargau. Antiquarium.\n883. Rohr=Hochsträger, Rudolf, Schmied.\nFreihofen-Rusterholz, Jakob, Bildhauer, von Veltheim (Zürich).\n884. Bopp-Häusler, Kaspar, Pflästerer, von Remigen.\nFrey-Höfer, Jakob, Lokomotivheizer, von Auenstein.\nSeiler-Stonnie, Albin, Gepäckträger, von Mägenwyl.\n885. Rusterholz und *Freihofen, Bildhauerei und Grabsteinlager.\nRusterholz-Schäppi, Albert, Bildhauer, von Wädenswyl (Zürich).\nSennhauser-Gosiewich, Amalie, Modistin, von Herrliberg (Zürich).\nRebmann-Häfliger, Karl Jakob, Maler, von Fellbach (Württemberg).\nLochbrunner-Geiger, Adolf, Lokomotivführer, von Laufenburg.\n886. † Dieselben. Magazin.\n887. † \" Bildhauerei-Atelier.\n888. Berner=Martl, Jakob, Schreinermeister von Rupperswyl.\nLäuchli-Corabi, Hans, Buchhalter, von Remigen.\nBonwiller, Emilie, Klavierlehrerin, von St. Gallen.\nBordere Vorstadt.\n889. Sazer=Pfleger, Ludwig, Part.\nSazer, Elise, Partisf.\nDreifus=Bloch, Karl, Kaufmann. Manufakturwaarenhandlung.\nSchmid=Suter, Johann, in Zofingen. (Pariser Bazar.)\nEriks= Müller, August, Lithographiebesitzer, von Dübendorf (Zürich).\n890 * Buser, Friedrich, Pariz. Erbschaft.\nAckermaun-Buser, Albert, Kaufmann, von Amriswiel (Thurgau). Herren-\nund Knabenkleider-Magazin.\n891. * Buser, Friedrich, Paris. Erbschaft.\n892. Dolder, Suette, von Hauptweil (Thurgau). Mercerie-, Bonneterie-\nund Modewarenhandlung.\n893. Sernatinger=Enz, Valerian, von Ludwigshafen (Baden). Hut-\n, Mützen- und Pelzwaarengeschäft. Kautschoucartikel und Filzwaaren.\nCamiñasca, Franz, Kaufmann, Part.\n894. Feus=Diebold, Jof. Karl, Apotheker, von Boswyl.\nBrüttel, Constance, Part.\nWidmer, Karolina, Modistin, von Freienwyl.\nWidmer, Marie, Modistin, von Freienwyl.\n1288 † Derfelbe. Schopf.\n895. Gyfi & Co. (Otto Gyfi-Siebenmann und Hans Gyfi) mechanisches\nund optisches Geschäft, Photographieanstalt.\nGyfi-Siebenmann, Otto, Photograph.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4795,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2275,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:39:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p069",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p069.jpeg",
+      "bytes": 226818,
+      "sha256": "9d21eaf5598983b612d9f82fe800007e69c946e7a4a70ea2e05a6beb2c11514c",
+      "sha256_of": "original",
+      "working_copy": "1892_p069.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:39:12+00:00"
+  }
+}

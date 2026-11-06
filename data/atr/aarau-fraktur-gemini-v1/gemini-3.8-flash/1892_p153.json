@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p153",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p153.jpeg",
+    "bytes": 148057,
+    "sha256": "64af129de0c9afb13190cdb14fcbf8398245a82f9811b3c4639d23fb443db4af",
+    "sha256_of": "original",
+    "working_copy": "1892_p153.jpeg"
+  },
+  "text": "Zumsteg — Zweifel. 137\n\nZumsteg-Jehle, Ursula, Wittwe, von Mettau, Hammer 185 b.\n[handschriftlich: ✕]Zündt-Hagenbuch, Elise Louise, Wittwe, Part. von Altstätten (St. Gallen),\n  vordere Vorstadt 674.\nZürcher-Huber, Friedrich, Taglöhner von Trub (Bern), Hammer 1301.\nZürcher-Stutz, Johann, gewesener Turnlehrer von Thalweil (Zürich),\n  Kronengasse 34.\n*Zürcher-Wirz, Alfred, Arzt, Laurenzenvorstadt 397.\n[handschriftlich: ✕]Zurlinden-Rychner, Rudolf, Fabrikant von Zofingen, Bahnhofstraße 1013.\nZurlinden-Walti, Fritz, Spengler von Zofingen, Milchgasse 144.\nZweifel-Gyger, Samuel, Schreinermeister von Lintthal (Glarus), Woh-\n  nung Kronengasse 40, Werkstätte Rain 877.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3877,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 667,
+    "lines": 12,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.003,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:03:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p153",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p153.jpeg",
+      "bytes": 148057,
+      "sha256": "64af129de0c9afb13190cdb14fcbf8398245a82f9811b3c4639d23fb443db4af",
+      "sha256_of": "original",
+      "working_copy": "1892_p153.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:17+00:00"
+  }
+}

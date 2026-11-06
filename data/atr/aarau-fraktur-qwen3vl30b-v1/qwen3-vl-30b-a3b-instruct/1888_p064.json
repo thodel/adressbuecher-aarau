@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p064",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p064.jpeg",
+    "bytes": 257392,
+    "sha256": "38f8946a107d2ad72b488cb987e6055c9d26ec4e982f77c08d6441cba5cf466f",
+    "sha256_of": "original",
+    "working_copy": "1888_p064.jpeg"
+  },
+  "text": "Haus-\nNr.\n833. Holer, Lydia, Part., von Zuggen.\nSchuppisser, Anna Maria, Spetterin, von Rohrdorf.\n834. Schmuziger=Rüetschi, Emil, Fabrikant.\nSchmuziger, Adolf, Fabrikant.\n(Firma Gebrüder Schmuziger, Siegellack- und Tintenfabrikation.)\n835.† Diefselbe. Fabrikationsgebäude.\n836.† Siebenmann, Gottlieb, Gerber. Rindenmagazin.\n837.† Schmuziger=Rüetschi, Emil, Fabrikant. Magazin.\n838. Siebenmann, Gottlieb, Gerber. Wohnhaus. Lederhandlung.\nFrieder-Kienberger, Joh., Postbeamter.\nSiebenmann-Blum, Elise, Part.\nSiebenmann, Fritz, Commis.\nSiebenmann, Elise, Damen Schneiderin.\n839.* Widmer, Jakob, in Lenzburg.\nKeller-Buser, Gottfried, Buchdrucker, von Hottwyl. Druck und Verlag\ndes Vargauischen Anzeigers, des Suhrenthalerboten und des\nSchulblattes.\n840. Wyder-Brafft, Albert, Kaufmann, von Obersträss (Zürich). Agentur-\nund Kommissionsgeschäft. Hauptagentur der Nordischen Feuer-\nversicherungsgesellschaft in London. Agentur der Unfallversicherungs-\ngesellschaft Zürich. Hauptagentur der New-Yorker Lebensver-\nsicherungsgesellschaft 2c.\n841.† Rüetschi-Bopp, Hermann und Westfeld, Wilhelm, Glockengießerei.\nScheune.\n842.† Diefselben. Holzschopf.\n843. Diefselben. Wohnhaus.\nRüetschi-Bopp, Hermann, Techniker und Glockengießer.\nWestfeld-Spißli, Wilhelm, Kaufmann, von Unterschüpf (Baden).\n(Firma: Glocken- und Geschützgießerei Aarau: Rüetschi & Cie.)\nHerzog-Hagnauer, Heinrich, Lehrer, von Rekingen.\n844.† Diefselben. Glockengießerei.\n845.† Diefselben. Gießerei mit Schmiede.\n846.† Diefselben. Kohlenraum.\n847.† Diefselben. Gartenhaus.\n848. Zimmerli geb. Suter, Louise, Wittwe, Part., von Aarburg.\nLaube, Karl, Rechnungskrevisor, von Bübikon.\n849.† Siebenmann-Kohr, Rudolf, Bierbrauer. Holzhaus.\n850. Abgetragen, an dessen Platz\n1185 Keller-Hauri, Wilhelm, Deonom, von Oberendingen.\nKeller-Schweri, Verena, Part., \"\nKeller-Pfister, Fritz, Bedienter, \"\nSchwarz-Müller, Joh., Pferdewärter, von Kröppen (Bayern).\nSchönenwerderstraße (Wösch nau).\n1091 * Märky, Haller & Cie., Mühlenbaugeschäft. Bureau.\nWytttenbach-Meier, Ludwig Friedrich, Postcommis, von Bern.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4167,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2050,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p064",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p064.jpeg",
+      "bytes": 257392,
+      "sha256": "38f8946a107d2ad72b488cb987e6055c9d26ec4e982f77c08d6441cba5cf466f",
+      "sha256_of": "original",
+      "working_copy": "1888_p064.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:18+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p110",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p110.jpeg",
+    "bytes": 284014,
+    "sha256": "9a2b240ec40504d3ad1358418e34dbf39bb6ed8057450956aab3c642b8aa0bda",
+    "sha256_of": "original",
+    "working_copy": "1888_p110.jpeg"
+  },
+  "text": "92\nHäffig — Heller.\n\n*Häffig-Hauenstein, Elisabeth, Wittwe, Bart., Ziegelrain 705.\nHäffig-Ryburz, Friedrich, Camioneur, Milchgasse 143.\n*Häffig-Lienhard, Hermann, Bäcker und Wirth, Rathausgasse 46.\nHäffig-Lüsher, Joh. Conrad, Schuhmacher, Antiquar und Gemüsehändler,\nOberthor 224.\nHäffig, Rojette, Glätterin, Rathausgasse 47.\nHäffig, Elise, Glätterin, id. id.\nHäffig-Sigle, Julius, Speisewirth zum rothen Haus, Bahnhofstrake 1160.\nHäffig-Siegrist, Julius, Schlosser, Milchgasse 77.\nHäffig-Straubhaar, Gottlieb, Feinschleifer, Wohnung Rathausgasse 47\nund Werkstätte Hammer 184 b.\nHäuptli-Schälli, Jakob, Färber von Biberstein, Milchgasse 148.\nHäuptli-Burkhart, Anna Maria, Drechslers Wittwe von Biberstein,\nHalden 284.\nHäuptli, Emil, Sohn, Drechsler von Biberstein, Halden 284.\n*Häuptli-Ött, Othmar, Adjunkt des Staatsbuchhalters, von Biberstein,\nobere Vorstadt 926.\nHäufermann-Schmid, Jakob, Holzpalter von Egliswyl, Ziegelrain 745.\nHäufermann-Kuef, Adolf, Knecht von Egliswyl, Laurenzenvorstadt 376.\nHäusler-Schmid, Angelus, Maler von Schwaderloch, vor dem Halden-\nthor 762.\nHäusler-Elmer, Karolina, Bart. von Schwaderloch, obere Vorstadt 915.\nHediger-Fischer, Hans, Telegraphist von Reinach, vor dem Haldenthor 772.\nHediger-Brändli, Elisabeth, Instruktor's Wittwe von Reinach, Milch-\ngasse 151.\nHediger, Maria, Haushälterin von Reinach, Milchgasse 151.\nHediger-Born, Wilhelm, Postangestellter von Reinach, Milchgasse 151.\nHediger-Sommerhalder, Samuel, Dachdecker und Kaminfeger von Reinach,\nAbelbändli 85 a.\nHediger-Buchmüller, Samuel, Gärtner von Reinach, Kirchgasse 8.\nHediger-Kull, Hermann, Stadt- und Friedhofsgärtner von Kupperswyl,\nEntfelderstrake 960.\nHediger, Jakob, Privat von Kupperswyl, Entfelderstrake 960.\nHediger, Suzette, Näherin von Reinach, Rathausgasse 3.\nHefli-Hunziker, Johann Peter, Schneidemeister von Schwanden (Glarus),\nMekgargasse 100.\n*Hegnauer-Renold, Rudolf, Fabrikant von Seengen, Hammer 194.\nHegnauer-Fischer, Rudolf, Buchhalter von Seengen, Hammer 188.\nHeindl-Plitz, Ludwig, Uhrenmachergehülfe von Sachsenried (Bayern),\nPelzgasse 122.\nHeinzelmann, Johann, Schuhmacher von Marschaltzimmern (Württem-\nberg), Milchgasse 143.\nHeitz-Reefer, Cornelius, Zimmermann von Menziken, Laurenzenvorstadt 376.\nHelbling-Hort, Konrad, Schriftseker von Zona (St. Gallen), obere\nVorstadt 919.\nHeller-Erb, Heinrich, Rechtsagent, Infass= u. Geschäftsbiureau, Zollrain 54.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5128,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2383,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:26:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p110",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p110.jpeg",
+      "bytes": 284014,
+      "sha256": "9a2b240ec40504d3ad1358418e34dbf39bb6ed8057450956aab3c642b8aa0bda",
+      "sha256_of": "original",
+      "working_copy": "1888_p110.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:18+00:00"
+  }
+}

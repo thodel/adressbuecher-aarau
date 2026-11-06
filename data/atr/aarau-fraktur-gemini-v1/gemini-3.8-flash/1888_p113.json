@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p113",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p113.jpeg",
+    "bytes": 298146,
+    "sha256": "a3d25e4a05883b056b717b305c5b66d6474bd7e23d2c109843b088160ad02b8a",
+    "sha256_of": "original",
+    "working_copy": "1888_p113.jpeg"
+  },
+  "text": "Hoffmann — Hunziker. 95\n\nHoffmann-Schenk, Rudolf, Schuhmacher von Schottikon (Zürich), Halden 287.\nHoler, Lydia, Part. von Zuzgen, Rain 833.\nHolliger-Berner, Gottfried, Taglöhner von Boniswyl, Halden 246.\nHolliger, Rudolf, Reisender von Boniswyl, Rathhausgasse 2.\nHolzach-Schmidt, Fritz, Metzger und Wirth, Ziegelrain 700.\nHolzach-Siebenmann, Dietrich, Bierbrauer, Bahnhofstraße 563.\nHolzach-Wäffler, Dietrich, Part., Casinostraße 576.\nHolzinger, Bertha, Postcommise von Basel-Augst, obere Vorstadt 948.\nHolzinger, Mina, Klavierlehrerin id. id. id.\nHolzinger-Snell, Christiana, Professors Wittwe von Basel-Augst, obere\n  Vorstadt 948.\nHolzreuter-Suter, Karl, Taglöhner von Ueken, Milchgasse 152.\nHommel-Stein, August, Mechaniker, Laurenzenvorstadt 410.\nHorlacher-Iberg, Samuel, Mechaniker von Umiken, Halden 249.\nHorlacher, Wilhelm, Kaufmann von Umiken, Graben 205.\nHort-Gisiger, Magdalena, Taglöhnerin von Oberhof, obere Vorstadt 919.\nHort-Hemmeler, Hans, Zimmermann von Oberhof, Halden 284.\nHort-Hemmeler, Elise, Glätterin id. id. id.\nHostettler-Hagnauer, Niklaus, Schuhmacher von Guggisberg (Bern),\n  Halden 266 b.\nHuber, Anna, Privatin von Ryken-Illnau (Zürich), v. d. Haldenthor 1092.\nHuber-Bircher, Heinrich, Drechsler, Ziegelrain 710.\nHuber, Bertha und Ida, Damenschneiderinnen, Ziegelrain 710.\nHuber, Julius, Güterexpedient von Mägenwyl, hinter dem Bahnhof 501.\nHuber, Katharina, Lehrerin von Besenbüren, Milchgasse 158.\nHuber-Ment, Jakob, Schneider von Unter-Embrach (Zürich), Halden 251.\nHuber-Renz, Thusnelda, Spenglers Wittwe von Wöschnau (Solothurn),\n  obere Vorstadt 941.\nHübscher-König, Anton, Taglöhner von Dottikon, Adelbändli 84.\nHürbin-Heuberger, Ferdinand, Chef der Militärkanzlei von Wegenstetten,\n  Rain 858.\nHugi, Maria, Coiffeuse von Selzach (Solothurn), Rathhausgasse 42.\nHunold-Berger, Marie, Wittwe, Part. von Basel, Bachstraße 1039.\nHunsperger-Löffel, Karl, Maler von Bickigen (Bern), Milchgasse 154.\nHunziker-Baumberger, Rudolf, Lehrer, Pelzgasse 126.\nHunziker, Edwin, Commis von Unterkulm, Ziegelrain 747.\nHunziker, Emil Guido, Rentier, Laurenzenvorstadt 356.\nHunziker-Fleiner, Hermann, Part., Laurenzenvorstadt 371.\nHunziker-Gall, Magdalena, Part., Halden 282.\nHunziker-Hunziker, Heinrich, Holzspalter von Kirchleerau, Halden 263.\nHunziker-Müller, Friedrich, Maschinenmeister, Pelzgasse 127.\nHunziker-Müller, Jakob, Schuhmacher von Unterkulm, jens. d. Aare 342.\nHunziker-Schürch, Maria, Schriftsetzers Wittwe, Bahnhofstraße 1022 a.\nHunziker-Säuberli, Rudolf, Holzspalter von Gontenschwyl, Halden 259.\nHunziker-Sandmeier, Fritz, Drechsler, obere Vorstadt 966.\nHunziker-Thommen, Hermann, Fabrikant, Graben 221.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9017,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2639,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:35:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p113",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p113.jpeg",
+      "bytes": 298146,
+      "sha256": "a3d25e4a05883b056b717b305c5b66d6474bd7e23d2c109843b088160ad02b8a",
+      "sha256_of": "original",
+      "working_copy": "1888_p113.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:59+00:00"
+  }
+}

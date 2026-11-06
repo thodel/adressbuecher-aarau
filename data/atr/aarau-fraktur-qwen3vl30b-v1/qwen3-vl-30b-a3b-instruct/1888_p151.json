@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p151",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p151.jpeg",
+    "bytes": 265575,
+    "sha256": "744b5321ab0048af1573548ca7c9a74b687bd168f23820e4a5e50f21e37f15ac",
+    "sha256_of": "original",
+    "working_copy": "1888_p151.jpeg"
+  },
+  "text": "Hutmacher.\nGerobetti, Virgil, Ziegelrain 713.\nSernatinger, Valerian, vordere Vorst. 900.\n\nHut handlungen.\nAcker mann-Bufer, Albert, vordere Vor-\nstadt 890.\nCamifasca, Franz, Rain 826.\nRüpfer, Eduard, Laurenzenthor gaffe 1118.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vordere Vorst. 900.\n\nJugendleure.\nBaur, Adolf, Laurenzenvorstadt 602.\nBircher, Julius, Ziegelrain 713.\nFahrländer, Eugen, Mainstraße 869.\nGautschi, Samuel, Bachstraße 1039.\nGonzenbach, August, Rain 828.\nDehler, Oskar, Laurenzenvorstadt 415.\nRichner-Geß, Louis, Rain 832.\nRilliet, Eduard, Gartenstraße 998.\nSchmid, Johann Jakob, Bachstraße 1138.\nWittenbach, Arthur, Gais 1063.\nZschoppe, Olivier, Geißhügel 319.\nZschoppe, Conradin, Entfelderstraße 960.\n\nInstrumentmacher.\nHirsbrunner, Jakob, Halden 255.\n\nKappenmacher.\nRüpfer, Eduard, Laurenzenthor gaffe 1118.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vordere Vorst. 900.\n\nKastanienverkäufer.\nDürr, Gabriel, Graben 1237.\nPebuzzi, Franz, Bahnhofstraße 1026.\n\nKaminfeger.\nHäfner, Eduard, Halden 248.\nBogel, Rudolf, Entfelderstraße 1147.\n\nKäsehandlungen.\nBaumann, Kaspar, Casinofstr. 660.\nObrist, Emil, Meggergasse 100.\nRüetschi, Gottfried Adelbändli 81.\nSchär, Friedrich, Holzmarkt 663.\nSchieker, Hermann (en gros et en detail),\nKellgasse 121.\nWidmer, Samuel, Bahnhofstraße 1074.\n\nKalkfabrikanten.\nFleiner, Albert, Fabrik von schwerem\nhydraulischen Kalk, Erlinsbacher-\nstraße 327.\nHauri-Siegenthaler, Karl, Rain 866.\nThut-Sidemann, Hermann, Rain 863.\n\nKerzenfabrikanten.\nBillo-Bär, Julius, Bahnhofstraße 535.\nMaurer, Emil, zum Kreuz, jenseits der\nAare 298.\n\nKinderwagen.\nLüthi, Alexander, Sattler, Casinofstr. 660.\nLüthi, Eduard, Sattler, Kirchgasse 15.\nSchmidt, Adolf, Sattler, Bachstraße 1028.\n\nKinderspielwaren.\nHem meler-Haßler, August, Meggergasse 55.\nHem meler & Cie., hintere Vorstadt 638\n(en gros).\nHem meler-Stahl, Jda (Firma Ritter-\nStahl), Rathhausgasse 24.\nMorath, Johann, Rathhausgasse 2.\nSchmid, Joh. (Pariser Bazar), vordere\nVorstadt 889.\nSchmuziger, Marie (Firma: Schmuziger-\nFisch), Rathhausgasse 1.\nBonfelsen-Willimann, Verena, Kronen-\ngasse 37.\n\nKlaviermacher.\nLuz, Ulrich, Graben 1237.\n\nKlavierhandlungen.\nRässlin u. Burgmeier, Laurenzenthor g. 117.\nLuz, Ulrich, hinterm Platz 221.\n\nKlavierstimmer.\nLuz, Ulrich, Graben 1237.\n\nKleiderhandlungen.\nAcker mann-Bufer, Albert, vordere Vor-\nstadt 890.\nBufer, Friedrich, vordere Vorstadt 890.\nCamifasca, Franz, Rain 826.\nCamper & Cie., Rathhausgasse 49.\nGerber, Gustav, vordere Vorstadt 670.\nGisi-von Arx, Viktor, Holzmarkt 664.\nJost, Peter, Meggergasse 100.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7972,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2586,
+    "lines": 87,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.092,
+    "mean_line_chars": 28.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:30:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p151",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p151.jpeg",
+      "bytes": 265575,
+      "sha256": "744b5321ab0048af1573548ca7c9a74b687bd168f23820e4a5e50f21e37f15ac",
+      "sha256_of": "original",
+      "working_copy": "1888_p151.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:30:14+00:00"
+  }
+}

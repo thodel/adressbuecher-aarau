@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p152",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p152.jpeg",
+    "bytes": 277023,
+    "sha256": "81c56770b1aea931bf4072528013e9f2efb983ab99ee57990bd9afbb5848ea1e",
+    "sha256_of": "original",
+    "working_copy": "1899_p152.jpeg"
+  },
+  "text": "48\nWullschleger, Hans, Knecht, Bahnhofstraße 1023.\n— Heinrich, BaumtSarbeiter, Kaffeewirtschaft, Bahnhofstraße 1023.\nWyder, Albert, Agentur- und Kommissionsgeschäft, Rain 840.\nWydler geb. Bärülin, Emilie, Färbers Witwe, Ziegelrain 721.\n— Emilie, Färbers, Ziegelrain 721.\n— Erwin, Färber, Ziegelrain 718.\n— Eugen, Färber, Ziegelrain 721.\n— H., Söhne, (Heinrich Wydler, Erwin Wydler und Hans Wydler),\nFärberei, [tel] Ziegelrain 718.\n— Hans, Kaufmann, Ziegelrain 717.\n— Heinrich, Bezirkslehrer, Zschokkestraße 996.\n— Heinrich, Färber, Ziegelrain 718.\n— Julius, Notar, Rathausgasse 3.\n— Konrad, Apotheker, [tel] Rathausgasse 23.\n— Lina, Part., vordere Vorstadt 894.\n— Robert, Ausläufer, Hammer 188.\nWyler, Raphael, Kaufmann, vordere Vorstadt 902.\nWyser, Alfred, Färbereibesitzer, [tel] Bachstraße 1055.\n— Gustav, Korbmacher, Milchgasse 146.\nZähner geb. Brunnhoffer, Nanette, Part., Stellenvermittlungsbureau\ndes schweiz. Frauenverbandes, Halden 246.\n— Louise, Ladentochter, Halden 246.\nZanger, Johann, Taglöhner, Rathausgasse 18.\nZebert, Georg, Buchbinder, [tel] Bahnhofstraße 1360. Filiale Lau-\nrenzennthorgasse 116.\nZeender, Louis, Schriftsetzer, Gais 1563.\nZehnder, Gottlieb, Part., Graben 615.\n— geb. Kaufmann, Barbara, Wwe., Gemüsehändlerin, Kirchhof 165 a.\n— Otto, Kantonsingenieur, Jurastraße 1458.\nZeller, Lina, Lehrerin, vor dem Haldenthor 769.\nZellweger, Elise, Glätterin, Milchgasse 153 a.\n— Jakob, Schlosser, Milchgasse 153 a.\n— Oskar, Part., Hammer 190.\nZeughäuser, Rohrerstraße 474.\nZimmerli, Eduard, Cementarbeiter, Halden 264.\n— Gottlieb, Kreiskommandant, Laurenzenvorstadt 364.\n— Johann, Holzer, Adelbändli 83.\nZimmermann, Johann, Lehrer, Laurenzenvorstadt 1379.\nZingg geb. Fisch, Hermine, Spezereihandlung, in der Gais 1517.\n— Jakob, Zugführer, in der Gais 1517.\nZöbrist, Friedr., Schneider, Scheibensachen 1486.\n— Jakob, Bahnmeister, Hammer 1505.\nZogg, Oswald Martin, Kaufmann, Rohrerstraße 1479.\nZschokke, Arnold, Dr. jur., Staatsschreiber, Entfelderstraße 975.\n— Arthur, Part., Laurenzenvorstadt 586.\n— & Cie. (Jakob Bächli in Buchs), Eisenbahn- und Wasserbauten,\nBureau [tel] Jurastraße 1458.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 24508,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2110,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:32:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1899_p152",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p152.jpeg",
+      "bytes": 277023,
+      "sha256": "81c56770b1aea931bf4072528013e9f2efb983ab99ee57990bd9afbb5848ea1e",
+      "sha256_of": "original",
+      "working_copy": "1899_p152.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:32:38+00:00"
+  }
+}

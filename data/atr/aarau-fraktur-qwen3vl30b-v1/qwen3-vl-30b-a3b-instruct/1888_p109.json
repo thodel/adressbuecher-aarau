@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p109",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p109.jpeg",
+    "bytes": 286922,
+    "sha256": "d7ea21f01706f275390581718a608f83b09e413fa2c59c8e762afd3bb57ec66a",
+    "sha256_of": "original",
+    "working_copy": "1888_p109.jpeg"
+  },
+  "text": "Häfßler — Häfßig.\n91\n*Häfßler-Hüberlin, Adolf, Färber, im Hammer 188.\n*Häfßler-Hunziker, Karl, Kaufmann, Hemdenfabrikation, Weißwaaren- und\n  Tapetenlager, Bahnhofstraße 1020.\nHäfßler, Julie, Modistin, Adelbändli 172.\nHäfßler-Märki, Barbara, Schreiners Witwe, obere Vorstadt 966.\nHäfßler, Margaretha, Glätterin, Halden 264.\nHäfßler-Meier, Marie, Part. von Münnedorf (Zürich), Pelzgasse 133.\nHäfßler-Müller, Theodor, Buchbinder, Milchgasse 153 b.\nHäfßler-Oberlin, Margaretha, Zingeriegeschäft, Bachstraße 1040.\n*Häfßler-Schmidt, Friedrich, Kaufmann, Schachen 723.\nHäfßler, Sophie, Glätterin, Adelbändli 172.\n*Häfßler-Stampfli, Hans, Gerber, Lederhandlung, Bahnhofstraße 656.\n*Häfßler-Stampfli, Emma, Wittwe, Modistin, Rathausgasse Wohnung 21\n  und Laden 23.\n*Häfßler-Wanger, Emil, Kolonialwaarenhandlung, Laurenzenthorngasse 349.\n  Hauenschild-Wittmann, Hans, Direktor der Cementfabrik Kleiner von\n  Berlin (Breuken), Erlinsbacherstraße 335.\n*Hauenstein-Hollinger, Alois Friederich, Lehrer von Degerfelden, Megger-\n  gasse 56.\nHauri-Graber, Rudolf, Fuhrmann von Reitnau, Halden 249.\n*X Hauri-Siegenthaler, Karl, Ziegler, Rain 866.\nHauri-Ryburz, Samuel, Briefträger von Seengen, Schachen 734.\nHausmann-Dietiker, Johann, Taglöhner von Schafisheim, Färber-\n  gässchen Hinterhaus von 125 Pelzgasse.\nHausmann, Jakob, Auffeher von Schafisheim, Ziegelrain 716.\nHächler-Peter, Gottlieb, Taglöhner von Tenzenthal, Kirchgasse 10 b.\n*Häffiger-Hilfiger, Otto, Megger und Wirth von Oberentfelden, Pelz-\n  gasse 136.\nHäfeli-Hüfner, Julie, Expedients Wittwe, Näherin von Seengen, Bahn-\n  hofstraße 648.\nHäni-Häni, Rudolf, Part. von Kölliken, Kirchgasse 11.\nHäni, Hermann, Sohn, Bäcker von Kölliken, Kirchgasse 11.\n*Härdi, Wilhelm, Goldschmied von Lenzburg, Rathausgasse 42.\nHäring, Marie, Spetterin von Dettigkofen (Baden), Bachstraße 1031.\nHärrl-Baumann, Arnold, Postcommis von Birrwyl, Kronengasse 35.\n*Härrl-Kindler, Rudolf, Expeditionschef auf der Staatskanzlei, von Birr-\n  wyl, Rathausgasse 5.\nHäffig-Baumann, Samuel, Maler, obere Vorstadt 968.\n*X Häffig-Bühler, Friedrich, Kupferschmied, Ziegelrain 705.\nHäffig-Düttwyl, Elise, Siegrißts Wittwe, Kirchhof 165 a.\nHäffig, Elise, Schneiderin, Halden 266 a.\nHäffig-Hüfner, Albert, Werksführer, vor dem Haldenthor 802.\nHäffig, Friedrich, alt Thurnwart, Milchgasse 145.\nHäffig, Friedrich, Abwart der Creditanstalt, Halden 266 a.\nHäffig, Hans, Part., Rohrerstraße (Lindenhof) 1210.\nHäffig, Emma, Part., Rohrerstraße (Lindenhof) 1210.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5601,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2466,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:26:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p109",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p109.jpeg",
+      "bytes": 286922,
+      "sha256": "d7ea21f01706f275390581718a608f83b09e413fa2c59c8e762afd3bb57ec66a",
+      "sha256_of": "original",
+      "working_copy": "1888_p109.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:13+00:00"
+  }
+}

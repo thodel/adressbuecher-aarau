@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p080",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p080.jpeg",
+    "bytes": 226660,
+    "sha256": "93568cb87cc37f67fd4cd1f8b35d6e2d3302a57790d5e1679e660321ecb0e177",
+    "sha256_of": "original",
+    "working_copy": "1892_p080.jpeg"
+  },
+  "text": "— 72 —\n\nHaus=\nNr.\n1155 Mösch=Gäßler, Martin, Registrator, von Frick.\n1154 Spinner=Billo, Joh. Jb., Camioneur.\n  Bürki, Jda, Gesellschafterin, von Bümpliz (Bern).\n1041. * Herzog=von Jenner, Lina, Wittwe und Herzog, Jakob und\n  Anna. Wohnhaus.\n  Walther=Dubs, Hans, Oekonom.\n1042. a. b. † Dieselben. Scheune und Remise.\n1043. * Dieselben. Wohnhaus.\n  Senn=Gisi, Hans, Zeughausverwalter, von Zofingen.\n  Perusset=Laurent, Alfred, Bezirksschullehrer, von Grandson (Waadt).\n  Kutschera=Kießner, Eugen, Musik= und Gesangdirektor von Brünn (Mähren).\n1044. † Dieselben. Holzremise und Hühnerhaus.\n1045. Dieselben. Wohnhaus.\n  Herzog=von Jenner, Lina, Oekonoms Wittwe.\n  Herzog, Jakob, Part.\n1046. † Herzog=Zobel, Hans, General. Scheune.\n1047. Herzog=Zobel, Hans, General. (Eidgenössisches Artilleriebüreau).\n  Herzog, Hans, Dr. Phil., Staatsarchivar.\n  Garonne=Pfleger, Anna, Pfarrers Wittwe, Part.\n1048. * Herzog=von Jenner, Lina, Herzog, Jakob und Anna. Wohn=\n  haus mit Magazin und Comptoir. W. Reiners Nachfolger.\n  (Geschäftsinhaber: R. Hartmann und A. Schürch.) Fabrikation\n  elastischer Gewebe.\n  Hanggartner=Alder, Ferdinand, Lithograph, von Buchthalen (Schaffhausen).\n1049. † Dieselben Fabrikgebäude.\n1050. † „ „\n1051. † Wyser=Müller, Alfred, Seidenfärber. Firma: Alfred Wyser,\n  Seidenfärberei.\n1052. Derselbe. Wohnhaus mit Werkstätte.\n  Belart, Julie, Lehrerin von Brugg.\n  Belart, Marie, Part., von Brugg.\n1053. † Herzog=von Jenner, Lina und Mithafte. Holzschopf.\n1054. * Reiner=Scheuermann, Elise, Fabrikants Erbschaft.\n  Wyttenbach=de Vigneulle, Arthur, Bahningenieur von Bern (Südbahn=\n  büreau).\n1055. * Wyser=Müller, Alfred, Seidenfärber. Wohnhaus und Färberei.\n  Richter=Wyser, Albert, Färber, von Elberfeld (Preußen).\n1056. † Derselbe. Färberei.\n1057. † „ Seidenfärberei und Druckerei.\n1058. a. † „ Waschhaus.\n1058. b. † „ Färberei.\n1059. Abgetragen.\n1060. † Frey=Volley, Lina, Wittwe. Scheune.\n1061. Brack, Abraham, Oekonom.\n  Brack=Erismann, Anna, Wittwe, Part.\n1062. Frey=Volley, Lina Wittwe. (Villa Olinda).\n1080 † Dieselbe. Gewächshaus.\n1153 † Dieselbe. Holzschopf und Geflügelhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7973,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2098,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:54:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p080",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p080.jpeg",
+      "bytes": 226660,
+      "sha256": "93568cb87cc37f67fd4cd1f8b35d6e2d3302a57790d5e1679e660321ecb0e177",
+      "sha256_of": "original",
+      "working_copy": "1892_p080.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:54:19+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p100",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p100.jpeg",
+    "bytes": 272495,
+    "sha256": "a5fc976d16e749bf2a0682391a4d5bea6cedb7759791cd52940966a1c40a6ea9",
+    "sha256_of": "original",
+    "working_copy": "1888_p100.jpeg"
+  },
+  "text": "82\tDreifuß — Ehrsam.\n\nDreifuß-Görtschel, Adolf, Kaufmann von Endingen, Graben 352.\nDreifuß-Guggenheim, Samuel, Viehhändler von Endingen, jenseits der\n  Aare 297.\nDreifuß-Wyler, Karl, Viehhändler, von Endingen, jenseits der Aare 297.\nDubs-Schärli, Jakob, Müller von Küttigen, Hammer 182.\nDubs-Walther, Karl, Metzger und Speisewirth von Küttigen, Rathhaus-\n  gasse 32.\nDüner, Sophie, Haushälterin, von Weinfelden (Thurgau), Rain 832.\nDürr-Bürgi, Elisabeth, Wittwe, Ziegelrain 704.\nDürr-Graden, Hieronimus, Straßenwärter, Adelbändli 174.\nDürr, Heinrich, Pfarrer, Privat., Rathhausgasse 19.\nDürr, Johanna, Privat.,\tid.\tid.\nDürr, Karl August, Kaufmann,\tid.\tid.\nDürr, Isaak, Schreinermeister, Milchgasse 161.\nDürr, Lisette, Zettlerin, Halden 279.\nDürr-Lüscher, Gabriel, Gemüsehändler und Wirth, Graben 1237.\nDürr-Seiler, Hermann, Malermeister, Casinostraße 1130.\nDürr-Siebenmann, Karolina, Registrators Wittwe, Adelbändli 171.\nDürr, Emil, Sohn, Sekretär, Adelbändli 171.\nDürr-Wüthrich, Gottlieb, Stadtarbeiter, Milchgasse 153 a.\nDyma-Brieder, Ignaz, Schneider von Hermannester (Böhmen), Laurenzen-\n  thorgasse 118.\n\nEbner-Furter, Hermann, Schriftsetzer von Wyden, Milchgasse 78.\nEbner-Zimmermann, Joseph, Schriftsetzer von Birkingen (Großh.\n  Baden), hintere Vorstadt 694.\nEckert-Giger, Eduard, Zimmerpolier von Großräudchen (Preußen), hinter\n  dem Bahnhof 494.\nEger-Ebner, Theophil, Schneider von Riehen (Basel), Milchgasse 71.\nEgger-Knauer, Otto, Apothekergehilfe von Weingarten (Württemberg),\n  Laurenzenvorstadt 117.\nEggen-Sulzer, Eduard, Kaufmann, Colonialwaarenhandlung, Laurenzen-\n  thorgasse 119 b.\nEggimann-Joß, Johann, Speisewirth von Sumiswald (Bern), Bahnhof-\n  straße 1025.\nEglinger, Mina, Privatin von Basel, in der Gais 486.\nEgloff-Meier, Franz Adam, Postangestellter von Wettingen, Speisewirth-\n  schaft, Schachen 731.\nEgloff-Spychiger, Georg, Gärtner von Tägerweilen (Thurgau), vor dem\n  Haldenthor 1109.\nEhrsam-Andres, Daniel, Postoffiziant, Zschokkestraße 975.\nEhrsam, Ida, Part., Bachstraße 1040.\nEhrsam-Landolt, Johanna, Bäckers Wittwe, Part., Zollrain 51.\nEhrsam-Wehrli, Alfred, Schneidermeister, Ziegelrain 707.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7229,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2128,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.89,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:34:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p100",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p100.jpeg",
+      "bytes": 272495,
+      "sha256": "a5fc976d16e749bf2a0682391a4d5bea6cedb7759791cd52940966a1c40a6ea9",
+      "sha256_of": "original",
+      "working_copy": "1888_p100.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:08+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gpustack-v1",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p037.jpeg",
+    "bytes": 191796,
+    "sha256": "63969212e4905ea0c3b3e786b456b17e83e1cbef62d445c88ee141249e3a7302",
+    "sha256_of": "original",
+    "working_copy": "1892_p037.jpeg"
+  },
+  "text": "— 29 —\nHaus-\nNr.\n337. Weber-Weber, Wilhelm, Milchverkäufer, von Menziken.\nWehrli-Graf, Jakob, Handlanger, von Rüttenen.\n338. Weber, Jakob, Dachdecker, von Menziken.\n\nJenseits der Aare.\n\n339.* Zimmermann, Maria, Wittwe, Erbschaft.\nHeuberger-Siebenmann, Gottlieb, Sekretär.\nDöbeli-Binder Samuel, Bezirksschullehrer, von Seon.\nMerz-Siegfried, Anna, Wittwe, von Beinwil.\n1247. † Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wagenschopf und\nTiskeller.\n\nWeinberg.\n\n340. † Frey=Frey, A., Stadtrath. Rebhäuschen.\n341. † Kern=Rychner, Emil. Rebhäuschen.\n\nJenseits der Aare.\n\n342. Bauhofer-Keller, Anna Kaufmanns Wittwe.\nBauhofer, Maria, Lehrerin in Grülinsbad.\nZuchschmid, August, Dr. Professor, von Thundorf (Thurgau).\nMüller, Rosa, Haushälterinn, von Unterfuls.\nGunziter-Müller, Marie Anna, Schuhmachers Wittwe, von Unter-Kulm.\n343. † Dieselbe. Holzschoff.\n344. † Gemeinde Aarau. Holzmagazin.\n345. † Dieselbe. Werthaus.\n1280. † Gemeinde Aarau. Spritzenhaus.\n346. Müller-Rothpletz, Arnold, Architekt und Baumeister.\n347. † Abgetragen.\n348. † Gemeinde Aarau. Badanstalt.\n† Dieselbe. Schuppen für Kriegsfahrwerke.\n1104.\n\nLaurenzenthorgasse.\n\n349. Haffner=Wanger, Emil, Negot., Colonialwaarenhandlung.\nErné-Leblanc, Eduard, Kaufmann, von Neugern.\n350. † Dieselbe. Holzschoff.\n351. Aktiengesellschaft der Creditanstalt.\n\nGraben.\n\n352.* Dreifuß=Götzschel, Adolf, Kaufmann, von Endingen, in Basel.\nDreifuß, Max Emil, Sohn, Kaufmann, von Endingen. Französische\nWaarenhalle. Ellenwaarenhandlung und Damentonfektion.\nFrey-Hagnauer, Konrad, Dr. Med., praktischer Arzt.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 30129,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1549,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0244,
+    "mean_line_chars": 36.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+  "recognised_at": "2026-11-06T12:22:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gpustack-v1",
+    "source": {
+      "key": "1892_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p037.jpeg",
+      "bytes": 191796,
+      "sha256": "63969212e4905ea0c3b3e786b456b17e83e1cbef62d445c88ee141249e3a7302",
+      "sha256_of": "original",
+      "working_copy": "1892_p037.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-48d0eac8",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:22:57+00:00"
+  }
+}

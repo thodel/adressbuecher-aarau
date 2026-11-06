@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p114",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p114.jpeg",
+    "bytes": 247064,
+    "sha256": "9122e93e188af8244249d466ed1772a4deb03c208930dd100f3becb951385e05",
+    "sha256_of": "original",
+    "working_copy": "1892_p114.jpeg"
+  },
+  "text": "98 Häberli — Häusler.\n\nHäberli, Jakob, Müller von Berg-Muren (Thurgau), hint. Vorst. 696.\nHächler-Peter, Gottlieb, Taglöhner von Teufenthal, Kirchgasse 10 b.\n*Häfsliger-Hilfser, Otto, Megger und Wirth von Oberentfelden, Pelz-\ngasse 136.\nHäfeli-Fischer, Julie, Expedients Wittwe, Näherin von Seengen,\nRain 825 a.\nHäfeli, Joseph, Sattler und Tapezierer von Oberwyl, Kirchgasse 15.\nHäni-Häni, Rudolf, Part. von Külliken, Kirchgasse 11.\nHäni-Hunziker, Hermann, Sohn, Väcker von Külliken, Kirchgasse 11.\nHärdi, Lina, Haushälterin von Lenzburg, Rathausgasse 42.\n*Härdi, Wilhelm, Goldschmied von Lenzburg, Rathausgasse 42.\nHärrl-Baumann, Arnold, Postcommiss von Birmwyl, Rain 877.\n*Härrl-Under, Rudolf, Expeditionschef auf der Staatskanzlei, von Birm-\nwyl, Pelzgasse 124.\nHäving, Marie, Spettlerin von Dettigkofen (Baden), Milchgasse 152.\nHässig, Alfred, Sohn, Kupferschmied, Ziegelrein 705.\nHässig-Baumann, Margaritha, Malers, Wittwe, Ziegelrain 705.\n*Hässig-Bühler, Friedrich, Kupferschmied und Trommelfabrikant, Ziegel-\nrain 705.\nHässig-Dättwyl, Elfie, Ziegriffs Wittwe, Kirchhof 165 a.\nHässig, Emma, Part., In der Gais (Eindenhof) 1210.\nHässig-Fischer, Albert, Werksführer, Halden 256.\nHässig, Hans, Stadtrath, In der Gais (Eindenhof) 1210.\n*Hässig-Hauenstein, Elisabeth, Wittwe, Part., vordere Vorstadt 680.\nHässig, Julius, Oberlieutenant, Instruktor II. Klasse der Infanterie,\nMilchgasse 162.\n*Hässig-Lienhard, Hermann, Väcker und Wirth, Rathausgasse 46.\nHässig-Lüscher, Joh. Conrad, Dienstmann, Antiquar und Gemüsehändler,\nOberthor 224.\nHässig, Mina, Glätterin, Hammer 190.\nHässig, Rosette, Bahnhofstraße 1019.\n*Hässig-Sigle, Julius, Speisewirth, Cafe zur Bank, Bahnhofstraße 1317.\nHässig-Siegrist, Julius, Schlosser, Milchgasse 77.\nHässig-Straubhaar, Gottlieb, Feinschleifer, Wohnung Hammer 190 und\nWerkstätte Hammer 1295.\nHäuptli-Burkhard, Anna Maria, Drechsler's Wittwe von Biberstein,\nHalden 284.\n*Häuptli-Dt., Othmar, Adjunkt des Staatsbuchhalters, Rain 848.\nHäuptli-Schälkli, Jakob, Färber von Biberstein, Milchgasse 156.\nHäuptli-Schmid, Emil, Drechsler von Biberstein, Halden 284.\nHäuptli-Suter, Verena, von Biberstein, Halden 290.\nHäusermann-Gertsch, Friedrich, Schneider von Egliswyl, Ziegelrain 709.\nHäusermann-Schmid, Jakob, Holzpalter von Egliswyl, Schmiedgasse 634.\nHäusler-Elmer, Karolina, Part. von Schwaderloh, Rathausgasse 47.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6778,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2343,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.07,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:42:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p114",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p114.jpeg",
+      "bytes": 247064,
+      "sha256": "9122e93e188af8244249d466ed1772a4deb03c208930dd100f3becb951385e05",
+      "sha256_of": "original",
+      "working_copy": "1892_p114.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:42:54+00:00"
+  }
+}

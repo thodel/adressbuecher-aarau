@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p099",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p099.jpeg",
+    "bytes": 282093,
+    "sha256": "70b30eea9a9974d2dcf87c2e90b6c198ad6b2e7995e1d9beaa0a6daa5a344c22",
+    "sha256_of": "original",
+    "working_copy": "1888_p099.jpeg"
+  },
+  "text": "Coradi — Dreifus.\nCoradi-Stahl, Adam, Bezirkslehrer von Oberneunforn (Thurgau), Rathausgasse 20.\nCoradi-Stahl, Emma, Stickerei- und Wollengeschäft, von Oberneunforn (Thurgau), Rathhausgasse 20.\n*Cufter-Fueter, Hermann, Dr. phil., Fabrikant von Rheineck (St. Gallen), Bahnhofstrasse 651.\n*Cufter, Hermann Emil, Chemiker und Fabrikant von Rheineck (St. Gallen), Bahnhofstrasse 651.\n*Cufter-Sauerländer, Mathilde, Wittwe, Part. von Rheineck (St. Gallen), Laurenzenvorstadt 418.\nDätwyler-Biedermann, Johann, Holzspalter von Wittwyl, Halde 266 b.\nDätwyler, Marie, Privatin von Ostringen, Kirchhof 165 a.\nDätwyler-Meier, Johann, Taglöhner von Wittwyl, Ziegelrain 707.\nDätwyler-Merz, Johann, Notar, Sekretär auf der Gemeindekanzlei, von Unterenztfelden, Metzgergasse 56.\nDätwyler, Wilhelm, Taglöhner von Wittwyl, Stadthof 92 c.\nDambach, Jakob, Schuhmachermeister von Böckberg, Stadthof 92 a.\nDambach-Wild, Jakob, Kreispostadjuunkt von Brugg, Bahnhofstr. 1074.\nDanner-Stahel, Christian, Mechaniker v. Zumikon (Zürich) Bachstr. 1048.\nDavid-Hunziker, Julie, Wittwe, Part. von Basel, Rain 862.\n*Decker-Hoffmann, Julius, Hufschmied, Casinostraße 577.\nDeubelbeiz-Schaffner, Johann, Güterschaffner von Holderbank, hinter dem Bahnhof 494.\nDiebold-Müller, Sophie, Wittwe, Part. von Baden, vordere Vorstadt 894.\nDiefenbacher-Senn, Jakob, Hafner von Eppingen (Baden), Bachstr. 1031.\nDietiker, Joh. Jakob, Taglöhner von Thalheim, Golattenmattgasse 237 b.\nDietiker, Adolf, Briesträger, id. id. id. id.\nDietiker, Emma, Wäscherin, id. id. id. id.\nDietiker-Schlupe, Jakob, Postfaktor, von Thalheim, Bahnhofstrasse 560.\nDill-Frey, Johann Jakob, Schuster von Basel, Laurenzenvorstadt 376.\nDöhnel, August, Schuhmachermeister von Badenweiler (Großh. Baden), Golattenmattgasse 239.\nDöhnel, Emma, Spetterin von Badenweiler (Großh. Baden), Halde 267.\nDöpfel, Eduard, Oberrichter von Seon, Bahnhofstrasse 1160.\nDöpfel, Minna, Klavierlehrerin von Seon, id. id.\n*Dolder-Sayer, Jakob Friedrich, Kaufmann von Hauptwyl (Thurgau), Weizwaarengeschäft, Graben 219.\nDolder, Sufette, Merceriehandlung, von Hauptwyl (Thurgau), vordere Vorstadt 891.\nDoser-Schröder, Leopold, Direktionssekretär von Rheinfelden, Entfelderstrasse 960.\nDrack-Hauser, Hermann, Metallgießer, Milchgasse 149.\nDreifus-Bloch, Karl, Kaufmann von Eudingen, Laden vord. Vorstadt 889, Wohnung Rain 823.\nAdressbuch der Stadt Aarau 1888. 6",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5048,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2365,
+    "lines": 34,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 68.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:25:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p099",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p099.jpeg",
+      "bytes": 282093,
+      "sha256": "70b30eea9a9974d2dcf87c2e90b6c198ad6b2e7995e1d9beaa0a6daa5a344c22",
+      "sha256_of": "original",
+      "working_copy": "1888_p099.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:22+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p139",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p139.jpeg",
+    "bytes": 251022,
+    "sha256": "6d89dd99081748b54eaec071156a874a1523296124bf26fd61e26def6c9af3b8",
+    "sha256_of": "original",
+    "working_copy": "1892_p139.jpeg"
+  },
+  "text": "Schmidt — Schneider.\n123\nSchmidt-Henz, Hans, Part., Schachen 723.\nSchmidt, Jenny, Modistin, Zollrain 292.\nSchmidt-Vanz, Adolf, Kaufmann, Geschirr- und Glaswaarenhandlung,\nobere Vorstadt 935.\nSchmidt, Samuel, Commis, vor dem Haldenthor 1332.\nSchmidt-Siebenmann, Alois, Sattlermeister, Bachstraße 1028.\nSchmocker, Gottlieb, Postpacker von Ringgenberg (Bern) Halden 254.\nSchmuz-Weber, Anna, Spetterin von Eptingen (Baselland) Halden 254.\nSchmuziger, Marie, Schreibmaterialien- und Kinderpielwaarenhandlung,\nRathhausgasse 1.\nSchmuziger-Bühler, Gottlieb, Schneidermeister, Ziegelrain 703.\nSchmuziger-Freudiger, Traugott, Malermeister, Entfelderstraße 970.\nSchmuziger, Fritz und Karl, Brod- und Zuckerbäckerei, Ziegelrain 703.\nSchmuziger-Hochsträger, Marie, Part., Schachen 734.\nSchmuziger-Jacot, Karl, Rentier, Milchgasse 157.\nSchmuziger, Johann, Architekt, jenseits der Nare 294.\nSchmuziger-Kern, Fda, Baumeisters Wittwe, jenseits der Nare 294.\nSchmuziger-Lackenbauer, Arnold, Fabrikant, Zollrain 293.\nSchmuziger-Lang, Elise, Schreiners Wittwe, Ziegelrain 708.\nSchmuziger, Lina, Part., Laurenzenvorstadt 586.\nSchmuziger, Lucie, Damenschneiderin, Ziegelrain 703.\nSchmuziger-Klietsch, Emil, Fabrikant, Firma: Schmuziger & Cie., Siegel-\nlack- und Tintenfabrikation, Rain 834.\nSchmuziger-Stächi, Adolf, Fabrikant, Firma: Schmuziger & Cie., Sie-\ngellack- und Tintenfabrikation, Rain 834.\nSchmuziger, Sufette, Part., Milchgasse 161.\nSchmuziger-Verena, Part., Milchgasse 161.\nSchmuziger-Vögel, Max, Speisewirth, Schachen 733.\nSchmuziger-von Grigorioff, Friedrich, Dr. med., Entfelderstraße 972.\nSchmuziger-Zulauf, Marie, Part., Adelsbändli 86.\nSchneeberger-Salvi, Jakob, Handelsmann von Bordemwald, Rathaus-\ngasse 3.\nSchneider-Brücker, Ferdinand, Bankangestellter, Laurenzenvorstadt 552.\nSchneider-Hoch, Josef, Goldschmied, von Rapperswyl, vor dem Halden-\nthor 1092.\nSchneider-Hochsträger, Samuel, Taglöchner von Thalheim, Halden 286.\nSchneider-Frei, Samuel, Taglöchner von Buchholterberg (Bern), vor dem\nHaldenthor 809.\nSchneider-Läuchli, Ulrich, Schlossermeister, Golattenmattgasse 234.\nSchneider-Mattenberger, Johann Theodor, Musikdirektor von Würzburg\n(Bayern), Casinostraße 570.\nSchneider-Mösch, Fridolin, Oberrichter von Herznach, Rain 871.\nSchneider-Rychner, Gustav, Dr. Fürspruch, Oberrichter von Zürich,\nObere Vorstadt 1117.\nSchneider-Ryser, Franz Xaver, Kondukteur v. Herznach, Milchgasse 159.\n- P -",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6406,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2398,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:45:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p139",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p139.jpeg",
+      "bytes": 251022,
+      "sha256": "6d89dd99081748b54eaec071156a874a1523296124bf26fd61e26def6c9af3b8",
+      "sha256_of": "original",
+      "working_copy": "1892_p139.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:35+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p011",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p011.jpeg",
+    "bytes": 231409,
+    "sha256": "7a6e10edf358f1a06dfbbcb8d3a8d5735424152f9d0a19eb2b3c35fcc178fb84",
+    "sha256_of": "original",
+    "working_copy": "1892_p011.jpeg"
+  },
+  "text": "Haus-\nNr.\nMeisel-Leutwyler, Xaver, Forstverwalter.\nWeisel-Leutwyler, Verena, Weißwaarenhandlung.\n20. * Adam: Stephani, Paul, Fabrikants. (Erbschaft.)\nFörderer-Ginden, Anna, Wittwe.\nFörderer, Geschwister, Anna, Elise und Pauline, Tapisserie- und Broderie-\ngeschäft.\nBirmann-Probst, Maria, Wittwe, von Basel, Weinhandlung.\nProbst geb. Benfert, Maria, Part. von Aarberg (Bern).\nBeügger, Johann Alexander, Buchhalter, von Winterthur.\nWanner, Jakob, Buchhalter von Schleitheim.\nHediger, Süfette, Näherin, von Reinach.\n21. Hemmeler-Stahl, Jakob, Uhrenmacher, Quincaillerie- und Kinder-\nspielwaarenhandlung.\nDietlifer, Alfred, Bautechniker von Wejxton.\n22. * Girod-Wyß, Louis, Kaufmann, von Nommont (Freiburg).\nErbin-Obrecht, Albin, Kaufmann, von Ganfingen. Nachfolger von\nWittwe Jean Kiefer & Cie., Mercerie-, Quincaillerie-, Fingerie-,\nPassementerie- und Bonneterie-Waarenhandlung.\nFricker-Siebenmann, Othmar, Sekretär (Artilleriebüro), von Frid.\nSiebenmann-Hunziker, Emma, Wittwe, Part.\n23. Wydler, Konrad, Apotheker.\n24. * Hemmeler-Stahl, Jakob, Uhrenmacher, Uhrenhandlung.\nLimaacher-Niggli, Niklaus, Schuhmachermeister, von Schüpfheim (Luzern).\nFehlmann-Holzreuter, Christoph, Bedienter, von Seon.\n25. Läuchli-Bürgi, Anna, Wittwe, von Remigen, Pintenwirthschaft.\nLäuchli, Lina, Glätterin.\nLäuchli, Johann, Commis.\n26. Stephani-Winkler, August, Kaufmann, Colonialwaaren-, Tabak- und\nCigarren-Handlung.\nBilleter-Apel, Moriz, Faktor, von Hainichen (Sachsen).\nBilleter, Anna, Damenschneiderin, von Hainichen (Sachsen).\n27. † Stephani-Winkler, August, Kaufmann, Magazin.\n28. † Derfelbe. Wachshaus.\n29. * Reift, Gottlieb, Metzger, von Aarau, in Äigle.\nSchmid-Maurer, Mathilde, Negotiantin von Möriken.\nMaurer, Louise, Part.\nStephani geb. Hedmann, Wilhelmine, Wittwe, Part.\n30. Müller-Hürner, Eduard, Schirmmacher, Schirmhandlung.\n31. Stapfer-Jessenmeier, Johann, Schuhmachermeister, von Sarmenstorf,\nSchuhhandlung.\n32. Dubbs-Walther, Karl, Metzger und Speisewirth, von Rüttigen.\nKronengasse.\n33. Erny-Fazler, Emil, Kaufmann, Mercerie-, Bonneterie-, Fingerie-\nund Quincaillerie-Waarenhandlung.\nAgentur der Allgem. Lebensversicherungs-Gesellschaft in Paris.\n\" \" Basler Feuerversicherung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4291,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2177,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p011",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p011.jpeg",
+      "bytes": 231409,
+      "sha256": "7a6e10edf358f1a06dfbbcb8d3a8d5735424152f9d0a19eb2b3c35fcc178fb84",
+      "sha256_of": "original",
+      "working_copy": "1892_p011.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:23+00:00"
+  }
+}

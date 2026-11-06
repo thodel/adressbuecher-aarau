@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p135",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p135.jpeg",
+    "bytes": 257870,
+    "sha256": "3f8177255a4f00b65458a1ebac9451a7bcb6800ac0f93dbdfca66364eec3f16d",
+    "sha256_of": "original",
+    "working_copy": "1892_p135.jpeg"
+  },
+  "text": "Rochholz — Ruch. 119\nRochholz, Mina, Klavierlehrerin von Ansbach (Bayern), Megzergasse 100.\nRodel-Sandmeier, Anna, Wittwe, Fabrikarbeiterin von Staufen, Teili 440.\n* Rohn-er-Gryam, Elise, Arzts Wittwe, Part., Zollrain 51.\n* Rohn-er-Märk, Marie, Wittwe, Lehrerin, Entfelderstrasse 983.\n* Rohn-Baumann, Hans, Oberrichter von Hunzenschwy, Laurenzen-\nvorstadt 353.\nRohn-Blauenstein, Marie Anna, Wittwe von Hunzenschwy, Pelzgasse 132.\nRohn-Gloor, Marie, Part., Kronengasse 38.\nRohn-Graf, Rudolf, Weichenwärter von Hunzenschwy, Rathausgasse 47.\n* Rohn-Hässig, Emma, Wittwe, Colonialwarenhandlung, Laurenzenthor-\ngasse 119 a.\nRohn-Hochsträser, Rudolf, Schmid, Rainstraße 883.\nRohn-Holtiger, Johann, Wirth von Buchs, Holzmarkt 662.\n* Rohn-Heiner, Hans, Fürst., Staatsanwaltsjubst.v.Lenzburg, Gartenst. 998.\nRohn, Samuel, Gerichtssubstitut, Zollrain 293.\n* Rohn, Samuel, Gastwirth zum Wildenmann, vordere Vorstadt 1262.\nRohn-Wehrli, Daniel, Bauamtsarbeiter v. Hunzenschwy, Wilchgasse 145.\nRoth-Holliger, Anna Marie, Wittwe, Taglöhnerin von Erlinsbach,\nGalden 257.\nRoth, Friedrich, Ausläufer von Mühllethal, Kirchgasse 11.\nRoth-Gautschi, Friedrich, Schuhmachermeister von Mühllethal, Rainst. 825 b.\nRoth, Joh., Luffeber, von Obererlinsbach, Erlinsbacherstrasse 1298.\nRoth-Sahli, Samuel, Hausknecht von Bezwy, Rathausgasse 45.\nRoth-Schmuziger, Alfred, Oberst von Bühler (Appenzell A.-Rh.), Bau-\nrenzenvorstadt 401.\nRoth-Weber, Rudolf, von Erlinsbach (Aargau), Wohnung Bahnhof-\nstrasse 1025, Spezereihandlung Bahnhofstrasse 1074.\nRoth-Widmer, Verena, Wittwe, Spetterin von Mühllethal, Rain 825 b.\nRoth-Zaugg, Friedrich, Obergerichtskanzlist, Scheibenschachen 335.\n* Rothplex-Brütel, Alfred Bantdirector, Bahnhofstrasse 511.\nRothplex-Bürge, Maria, Pfarrers Wittwe, in der Teili 454.\n* Rothplex, Emil, Verwalter, obere Vorstadt 682.\nRothplex-Häfeler, Rudolf, Mezger, Wilchgasse 160.\nRothplex-Hunziker, Gottlieb, Schreiner, Wilchgasse 159.\n* Rothplex-Junkof, Lonije, Stadtraths Wittwe, Erlinsbacherstrasse 336.\n* Rothplex, Karl, Architekt, Bahnhofstrasse 651.\n* Rothplex-Rychner, Friedrich, Fabrikant, Günhardsfeldweg 1309.\nRothplex-Siebenmann, Marie Elisabeth, Schreiners Wittwe, Part.\nStadthof 92 c.\n* Rothplex-Waldfisch, Julius, Malermeister, Conradstrasse 990.\nRotter-Baumgartner, Johann, Schreiner von Wermsdorf (Deisterreich),\nBahnhofstrasse 653.\nRudli-Schwarz, Johann Jakob, Gefangengwart, von Essingen, hinter Vor-\nstadt 690.\nRuch-Schlägli, Alfred, Schuhmacher von Mittlödi (Glarus), Milchg. 151.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6928,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2489,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:45:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p135",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p135.jpeg",
+      "bytes": 257870,
+      "sha256": "3f8177255a4f00b65458a1ebac9451a7bcb6800ac0f93dbdfca66364eec3f16d",
+      "sha256_of": "original",
+      "working_copy": "1892_p135.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:09+00:00"
+  }
+}

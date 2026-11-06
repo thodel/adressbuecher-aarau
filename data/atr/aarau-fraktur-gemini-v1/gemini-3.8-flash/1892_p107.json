@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p107",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p107.jpeg",
+    "bytes": 242460,
+    "sha256": "83d9ba20fbdee54ea1513a0db84da7bf0edcf5483608e0136cefc37f010dafb6",
+    "sha256_of": "original",
+    "working_copy": "1892_p107.jpeg"
+  },
+  "text": "Erismann — Faßler. 91\n\nErismann-Indermauer, Abraham, Oekonom, Friedensrichter, Bach-\n  straße 1033.\nErismann-Lehner, Hermann, Hafner v. Gontenschwyl, Golattenmattg. 237.\nErismann, Marie, Weißnäherin von Muhen, hintere Vorstadt 621.\nErismann, Rudolf, Taglöhner von Kirchrued, Kirchgasse 10.\nErismann-Sager, Gottlieb, Güterexpedient von Gontenschwyl, Gais 485. [handschriftlich: Samuel]\nErismann, Samuel, Armenpfleger, Bachstraße 1033. [handschriftlich: Abraham]\nErne-Leblanc, Eduard, Kaufmann von Leuggern, Wohnung Laurenzen-\n  thorgasse 349, Colonialwaarengeschäft en gros, Firma Erne und\n  Cie., Bahnhofstraße 610.\nErni-Mauderli, Lorenz, Taglöhner von Stüßlingen, Schmiedgasse 637.\nErny-Faßler, Emil, Kaufmann, Mercerie- und Ellenwaaren-Handlung,\n  Kronengasse 33.\nErnst-Döhnel, Robert, Briefträger Adelbändli 173.\nErnst-Dürr, Hermann, Schuhmacher, Halden 240.\nErnst-Käser, Friedrich, Röhrenfabrikant, Wohnung obere Vorstadt 923,\n  Fabrik in der Gais 1353.\nErnst-Lehmann, Samuel, Gasarbeiter von Holziken, Milchgasse 76.\nErnst-Pfisterer, Lina, Bierbrauers Wittwe, vordere Vorstadt 1263.\nErnst-Steiner, Gustav, Sekretär, Laurenzenvorstadt 412.\nEtter-Hägi, Reinhard, Milchverkäufer von Langrickenbach (Thurgau),\n  Rain 825.\n\nFäs-Bircher, Maria, Wittwe von Oberkulm, Milchgasse 147.\nFäs-Gall, Rudolf, Kasernier von Schöftland, Pelzgasse 67.\nFäs-Huber, Jakob, Posamenter von Oberkulm, Golattenmattgasse 237 a.\nFäs, Marie, Modistin, Modewaarenhandlung v. Schöftland, Pelzgasse 67.\nFahrländer-Hunziker, Karl, Dr. jur., Regierungsrath von Laufenburg,\n  Laurenzenvorstadt 371.\nFahrländer-Johannes, Eugen, Ingenieur, Rainstraße 869.\nFahrländer-Siebenmann, Wilhelmine, Med. Drs. Wittwe, Part., Rain 869.\nFahrländer-Müller, Verena, Part., Hammer 188.\nFailer, Georg, Schriftsetzer von Harthausen (Preußen), Ziegelrain 705.\nFaller-Unwin, Friedrich, Kaufmann, Eisenhandlung von Bräunlingen\n  (Großh. Baden), Rathhausgasse 17.\nFaller-Faller, Elise Louise, Wittwe von Reitenbuch (Großh. Baden), Firma\n  Gebrüder Faller, Eisen- und Quincailleriewaarenhandlung, Kronen-\n  gasse 41.\nFaller, Karl Friedrich, Sohn, Kaufmann von Reitenbuch (Großh. Baden),\n  Kronengasse 41.\nFaßler, Maria, Part. von Densbüren, hinter dem Platz 214.\nFaßler-Wehrli, Johann, Taglöhner, von Densbüren, Laurenzenvorstadt,\n  (Philosophenweg) 1114.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8209,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2303,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:56:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p107",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p107.jpeg",
+      "bytes": 242460,
+      "sha256": "83d9ba20fbdee54ea1513a0db84da7bf0edcf5483608e0136cefc37f010dafb6",
+      "sha256_of": "original",
+      "working_copy": "1892_p107.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:56:52+00:00"
+  }
+}

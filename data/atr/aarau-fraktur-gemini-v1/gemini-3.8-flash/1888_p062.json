@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p062",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p062.jpeg",
+    "bytes": 254659,
+    "sha256": "d147a0b75c33821d6097aac19996f1d3733286b6642b69e9aa1a84dbd0df64d5",
+    "sha256_of": "original",
+    "working_copy": "1888_p062.jpeg"
+  },
+  "text": "— 52 —\n\nHaus-\nNr.\n802. Waßmer-Ott, Fidel, Schneider, von Jungholz (Baden).\n  Hässig-Fischer, Albert, Werkführer.\n  Wernli-Nußbaum, Jakob, Taglöhner, von Thalheim.\n  Müller, Maria, Taglöhnerin, von Unterkulm.\n803. Siegrist-Heuberger, Jakob, Schriftsetzer, von Elfingen.\n804. Amsler geb. Falger, Maria, Wittwe, Part., von Kaisten.\n  Amsler, Otto, Stadtkassier und Sektionschef, „ „\n  Amsler, August, Postangestellter, „ „\n  Amsler, Ida, Damenschneiderin, „ „\n  Wydler-Wehrli, Heinrich, Färber.\n1083 * Dieselbe.\n  Rüegger-Holliger, Marie, Wittwe, Taglöhnerin, von Niederwyl.\n1109 Egloff-Spychiger, Joh. Georg Fried., Gärtner, von Tägerweilen\n    (Thurgau).\n  Vogt-Kyburz, Anna Maria, Schneiders Wittwe, von Mandach.\n805.† Derselbe. Gewächshaus.\n806. Abgetragen.\n1243 Liechti-Steinegger, Paul, Dr. phil., Professor, von Murten (Freiburg).\n1252 † Derselbe. Bienenhaus.\n807.† Derselbe. Gartenhaus.\n1242 † Dubs-Walther, Karl, Metzger. Scheune.\n1218 † Siegrist-Riniker, Heinrich, Metzger. Scheune.\n1219 † Kull, Philipp, Spengler. Gartenhaus und Magazin.\n808. Wernli-Schweri, Maria, Wittwe, Gärtners, von Thalheim.\n809. Wernli-Adel, Jakob, Gärtner.\n  Bertschi-Wächter, Maria, Wäscherin, von Dürrenäsch.\n  Müri-Frech, Joh. Hrch., Mechaniker, von Schinznach.\n  Ferrazzi-Lüscher, Joseph, Cementsabrikarbeiter, von Cardano (Italien).\n810. Frey-Kumpf, Friedrich, Kanzleisekretär, von Densbüren.\n  Frey, Friedrich, Sohn, Sekretär, „ „\n  Frey, Albert, Sohn, Uhrenmacher, „ „\n  Frey, Rosa, Feinwäscherei und Glätterei, „ „\n811.† Derselbe. Holzhaus.\n1201 † Derselbe. Waschhaus.\n812. Abgetragen.\n813.† Staat Aargau. Laboratorium.\n814.† Derselbe. Munitionsmagazin.\n815.† Derselbe. Abtritte.\n816.† Rychner, Heinrich, Gewehrfabrikant. Schießstand.\n817.† Derselbe. Scheibenstand.\n818.† Reformirte Kirchgemeinde Aarau. Gartenhaus.\n\nRain.\n\n819. Hagenbuch-Groß, Karl, Coiffeur u. Chirurg. Spiegelglasversich.-Agentur.\n  Bolliger-Schenker, Samuel, Bedienter, von Schloßrued.\n820. Jörg-Künzli, Peter, Schuhmachermeister, von Langenselbold (Preußen),\n    Schuhhandlung.\n  Schwammberger-Schmid, Jakob, Färber, von Auenstein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6749,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2094,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:30:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p062",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p062.jpeg",
+      "bytes": 254659,
+      "sha256": "d147a0b75c33821d6097aac19996f1d3733286b6642b69e9aa1a84dbd0df64d5",
+      "sha256_of": "original",
+      "working_copy": "1888_p062.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:30:12+00:00"
+  }
+}

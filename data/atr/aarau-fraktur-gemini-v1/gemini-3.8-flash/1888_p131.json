@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p131",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p131.jpeg",
+    "bytes": 289386,
+    "sha256": "a8d31ec82e385203ac6a39669dea350132f2ae4387ae6675f2e8571a1e2e5ddb",
+    "sha256_of": "original",
+    "working_copy": "1888_p131.jpeg"
+  },
+  "text": "Schweizer — Siebenmann. 113\n\nSchweizer-Siebenmann, Fried. Ferd., Part., von Dätwyl, Rain 860.\nSchweizer-Siebenmann, Sophie, Wittwe, Part. von Basel, Schachen 737.\nSeger-Kurt, Ludwig, Werkmeister v. Pfungstadt (Hessen), Milchgasse 144.\nSeiler-Hanhardt, Andreas, Bäcker, Rathhausgasse 48.\nSeiler, Mina und Mathilde, Damenschneiderinnen v. Lenzburg, Metzger=\n  gasse 103.\nSemmler-Ganß, Margaretha, Schuhhändlerin von Pirmasens (Baiern),\n  Bahnhofstraße 541.\nSenn-Blattner, Karolina, Wittwe, Ausrüsterin von Densbüren, vordere\n  Vorstadt 682.\nSenn-Gysi, Hans, Zeughausverwalter von Zofingen, Bachstraße 1043.\nSenn-Zuber, Adelheid, Küfers Wittwe von Hottwyl, Bachstraße 1031.\nSennhauser-Gossewisch, Anna, Modistin v. Herrliberg (Zürich), Rain 825.\nSennhauser-Schnorf, Elise, Part. v. Herrliberg (Zürich), Hammer 191.\nSernatinger-Enz, Valerian, Hutmacher von Ludwigshafen (Baden),\n  Wohnung vordere Vorstadt 674 und Verkaufsladen vordere Vor=\n  stadt 900.\nSiebenmann-Ackermann, Bernhard, Bäcker u. Wirth, vord. Vorstadt 673.\nSiebenmann, Daniel, Rentier, vordere Vorstadt 673.\nSiebenmann, Arnold, Tapezirer, vordere Vorstadt 902.\nSiebenmann-Beck, Gottlieb, Färber, Milchgasse 74.\nSiebenmann-Blum, Elise, Spetterin, Rain 838.\nSiebenmann, Elise, Damenschneiderin id. id.\nSiebenmann, Fritz, Commis, id. id.\nSiebenmann-Bräm, Otto, Kreiskommandant, Weinberg 1102.\nSiebenmann-Brunnhofer, Otto, Schlosser, Bachstraße 1032.\nSiebenmann-Frei, Ludwig, Schuhmacher, Adelbändli 171.\nSiebenmann, Ludwig, Part., Adelbändli 171.\nSiebenmann, Friedrich, Weinhändler, Rain 860.\nSiebenmann, Gottlieb, Gerber, Rain 834.\nSiebenmann-Hagnauer, Friedrich, Bierbrauer, Weinberg 321 a.\nSiebenmann-Hartmann, Margaretha, Wittwe, Part., Bahnhofstraße 1022.\nSiebenmann-Hürsch, Gottlieb, Bauverwalter, Laurenzenvorstadt 408.\nSiebenmann-Hunziker, Emma, Wittwe, Part., Rathhgasse 22.\nSiebenmann, Jakob, gewes. March. Tailleur, Part., Oberthor 226.\nSiebenmann-Hemmeler, Gustav, March. Tailleur, id. id.\nSiebenmann, Adolf, Sekretär, Oberthor 226.\nSiebenmann-Walther, Otto, March. Tailleur, Oberthor 227.\nSiebenmann, Louise, Part., Holzmarkt 663.\nSiebenmann-Marti, Rosina, Part. Halden 267.\nSiebenmann-Merz, Emil, Gemeindeweibel und Rathhausabwart, Rath=\n  hausgasse 176.\nSiebenmann-Preisig, Katharina, Becks Wittwe, Erlinsbacherstraße 333.\nSiebenmann, Friedrich, Sohn, Erlinsbacherstraße 333.\nSiebenmann-Rohr, Rudolf, Bierbrauer, Graben 620.\nSiebenmann, Rosa, Tapezierers, Part., Bahnhofstraße 1173.\n\n  Adreßbuch der Stadt Aarau 1888. 8",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8228,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2493,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:38:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p131",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p131.jpeg",
+      "bytes": 289386,
+      "sha256": "a8d31ec82e385203ac6a39669dea350132f2ae4387ae6675f2e8571a1e2e5ddb",
+      "sha256_of": "original",
+      "working_copy": "1888_p131.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:38:29+00:00"
+  }
+}

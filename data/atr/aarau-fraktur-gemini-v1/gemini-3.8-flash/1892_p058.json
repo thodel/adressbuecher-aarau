@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p058",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p058.jpeg",
+    "bytes": 225633,
+    "sha256": "3ec34e290a629fc7edee6b233228af7f0ec4f00f4c795fa225a8a6aceecdb3c0",
+    "sha256_of": "original",
+    "working_copy": "1892_p058.jpeg"
+  },
+  "text": "— 50 —\n\nHaus-\nNr.\n\n  Theodor-Hagnauer, Amadeus, Zugführer, von Bizy (Waadt).\n  Theodor = Hagnauer, Maria, von Bizy. Wollwaaren- und Mercerie-\n      waarengeschäft.\n  Diethelm-Kalanquin, Reinhard, Zugführer, von Hessenhofen (Thurgau).\n  Plüß-Stephani, Mary, Buchhalters.\n1262  Rohr, Samuel, Gastwirth zum Wilden Mann.\n  Hagmann-Stolz, Adolf, in Schönenwerd. Schuhhandlung (Filiale).\n696.* Derselbe.\n  Jäcker = Haller, Joseph, Comestibles = Händler, von Lachapelle-sous-\n      Rougemont (Frankreich).\n  Häberli-Tanner, Jakob, Obermüller, von Berg-Muren (Thurgau).\n697. Mayer = Vogel, Thomas, Schuhmachermeister, von Eigoldingen (Baden).\n      Schuhhandlung.\n698. Delhafen = Rufli, Rudolf, Metzgermeister.\n  Delhafen, Arnold, Metzger, Sohn.\n699. Wildi, Fanny (Salzverkauf).\n  Plüß, Rosina, Weißnäherin, von Ryken.\n\nZiegelrain.\n\n700. Holzach = Schmidt, Fritz, Metzger und Speisewirth.\n  Müller-Riederer, Lorenz, Maschinenmeister, von Unter-Iberg (Schwyz).\n701. Derselbe. Wohnhaus und Verkaufsladen.\n702. Ries = Buhlrein, Emanuel. Glas-, Farbwaaren- und Droguen-\n      handlung.\n703. Schmuziger = Bühler, Gottlieb, Schneidermeister.\n  Schmuziger, Gebr., Fritz und Karl. Brod- und Zuckerbäckerei.\n  Schmuziger, Lucie, Damenschneiderin.\n  Fisch, Josephine, Part.\n704. Suter = Dürr, Rudolf, Spengler, von Niederhallwyl. Spengler-\n      waaren und Lampenlager.\n  Schaub-Blauenstein, Adelbert, Gipser, von Ettingen (Baselland).\n  Hunziker-Kaspar, Emil, Lokomotivheizer, von Leimbach.\n  Pöll-Widmer, Johann, Maurerpolier, von Gmar (Tirol).\n  Widmer-Jien, Maria Magdalena, Wittwe, Part., von Eschenbach (Luzern).\n705. Hässig = Bühler, Friedrich, Kupferschmied. Fabrikation von Trommeln.\n  Hässig, Alfred, Sohn, Kupferschmied.\n  Failer, Georg, Schriftsetzer, von Harthausen (Preußen).\n  Wehrli, Andreas, Zimmermann, von Küttigen.\n  Wehrli, Maria, Spetterin, von Küttigen.\n  Hässig-Baumann, Margaritha, Malers Wittwe.\n  Wieland-Wieland, Hermine, Wittwe, Part., von Rheinfelden.\n706.† Derselbe. Werkstätte.\n707. a. Siebenmann, Bertha, Part.\n  Dätwyler-Meyer, Johann, Taglöhner, von Wittwyl.\n707. b.* Andres = Meier, Samuel, Schlosser.\n  Weber, Friedrich, Spengler, von Vordemwald.\n  Ehrsam-Wehrli, Alfred, Schneider.\n  Urban-Nußbaum, Ernst, Schreiner, von Liegnitz (Schlesien).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7007,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2262,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.5,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:51:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p058",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p058.jpeg",
+      "bytes": 225633,
+      "sha256": "3ec34e290a629fc7edee6b233228af7f0ec4f00f4c795fa225a8a6aceecdb3c0",
+      "sha256_of": "original",
+      "working_copy": "1892_p058.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:51:30+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p061",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p061.jpeg",
+    "bytes": 254499,
+    "sha256": "35b201c055a7fd2dee184d16275269b8f33b853c770b786b9901c4aff5447ee8",
+    "sha256_of": "original",
+    "working_copy": "1888_p061.jpeg"
+  },
+  "text": "— 51 —\nHaus=\nNr.\n775.† Dieselbe. Scheune.\n776.† Dieselbe. Holzmagazin.\n777. Rey=Ringger, Jakob, Rektor der Bezirksschule.\n778 † Derselbe. Holzhaus.\n779. Bachmann=Rikart, Bernhard, Schneider, von Bottenwyl.\n780. Wehrli=Walser, Rosina, Gärtners Frau, von Küttigen.\n  Wehrli=Walser, Samuel, Gärtner, von Küttigen.\n  Wehrli, Jean, Sohn, Gärtner, von Küttigen.\n781. Abgetragen, an dessen Platz\n1084 * Dieselbe. Wohnhaus.\n  Neeser=Hilsiker, Samuel, Taglöhner, von Schloßrued.\n  Bolliger, Friedrich, Kistenmacher, von Wittwyl.\n  Pfister=Furrer, Albert, Schneider, von Dübendorf (Zürich).\n  Steiner=Haller, Johann, Taglöhner, von Schmiedrued.\n782.† Dieselbe. Scheune und Holzhaus.\n1108 † Dieselbe. Gewächshaus.\n1143 † id. Gewächshaus.\n1144 † id. Gewächshaus.\n783 † Ehrsam=Landolt, Jakobs, Bäckers Erbschaft. Holzschopf.\n784. Trinkler=Meier, Karolina, Instruktors Wittwe, von Bözen.\n  Fenner=Hosig, Johann, Bahnangestellter, von Küßnacht (Zürich).\n785 Dieselbe. Waschhaus.\n1182 † Seiler=Hanhart, Andreas, Bäcker. Holzhaus.\n1092 Wägeler=Vogel, Karl, Dachdecker, von Waldshut (Baden).\n  Huber, Anna, Privatin, von Rykon-Illnau (Zürich).\n1093 * Derselbe.\n  Märki-Haller, Gottlieb, Mühlebauer, von Mandach.\n786.* Gasbeleuchtungsgesellschaft. Wohnhaus.\n  Bechstein= von Fettmar, Wilhelm, von Meiningen (Sachsen). Direktor\n    der Gasbeleuchtungsgesellschaft.\n787.† Dieselbe. Gasfabrik.\n788.† id. Reinigungshaus.\n789.† id. Steinkohlenschopf.\n790.† id. Schopf.\n791.† id. Waschhaus.\n792.† Häfliger=Hilsiker, Otto, Metzger. (Scheune.)\n793.† Derselbe. Gartenhaus.\n794 † Kern, Adolf, Mechaniker. Remise.\n795.† Derselbe. Scheune.\n1220 † Derselbe. Bienenhaus.\n796. Berchtold=Lüscher, Nanette, Fuhrmanns Frau, von Schmiedrued.\n  Berchtold-Lüscher, Samuel, Fuhrmann, von Schmiedrued.\n797.† Dieselbe. Remise.\n798.† Dieselbe. Gewächshaus.\n1094 † Dieselbe. Scheune.\n799. Wernli=Häfliger, Jakob, Gärtner, von Thalheim.\n  Schumacher=Suter, Arnold, Bahnarbeiter, von Wangen (Solothurn).\n800. Brunner=Künzli, Heinrich, Bahnarbeiter.\n801.† Reformirte Kirchgemeinde Aarau. Gartenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7551,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2051,
+    "lines": 52,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:30:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p061",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p061.jpeg",
+      "bytes": 254499,
+      "sha256": "35b201c055a7fd2dee184d16275269b8f33b853c770b786b9901c4aff5447ee8",
+      "sha256_of": "original",
+      "working_copy": "1888_p061.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:30:05+00:00"
+  }
+}

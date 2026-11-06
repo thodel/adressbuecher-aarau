@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p021",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p021.jpeg",
+    "bytes": 267648,
+    "sha256": "99ce0c7dbe9295a331275f046d5a47f769b54ea1b9d6b2823443460e2ceb0909",
+    "sha256_of": "original",
+    "working_copy": "1888_p021.jpeg"
+  },
+  "text": "— 11 —\n\nHaus-\nNr.\nLaurenzenthorgasse.\n\n114.  Abgetragen.  An dessen Platz\nGood, Theodor, Privat, von Mels (St. Gallen).\nKüpfer-Rösch, Eduard, von Bern.  Pelz- und Hutwaarenhandlung.\n  Militärartikel.\nFrei-Vetterli, Achilles, Coiffeur, von Densbüren.  Coiffeur- und Par-\n  fümeriegeschäft.\nLüthy-Gamper, Samuel, Telegraphist, von Schöftland\n115.  Wettler-Schneider, Adolf, von Rheineck (St. Gallen), Gastwirth zum\n  Ochsen.\n116.  Zebert-Altorfer, Georg, Buchbinder, von Bauma (Zürich).  Buch-\n  binderei und Linieranſtalt.  Schreibmaterialienhandlung.\nBaumann, Emma, von Oberentfelden.  Mode- und Weißwaarengeschäft.\n117.  Wüthrich-Lüdi, Samuel zum Storchen, von Eggiwyl (Bern).\n  Spezerei-, Wein- und Spirituosenhandlung. Agent für Auswanderung.\n  Telephon öffentliche Sprechstation.\nWüthrich, Jakob, Confiseur, von Eggiwyl.\nGamper-Steffen, Marie, Metzgers Wittwe.\nSuter-Riederer, Jakob, Professor, Direktor des Töchterinstituts und\n  Lehrerinnenseminars, von Suhr und Winterthur.\nEgger-Knauer, Otto, Apothekergehilfe, von Weingarten (Württemberg).\nWidmer-Eichenberger, Hermann, Küfermeister, von Hausen.\nSteiner-Dürr, Jakob, Postkondukteur, von Oberengstringen (Zürich).\nKohler geb. Kohler, Elisabeth, Spetterin, von Berikon.\nKlavierdepot von Käslin und Burgmeier.\n118.  Burkhardt = Bertschinger, Ferdinand, Coiffeur.  Coiffeur- und\n  Parfümeriegeschäft.\nBurkhardt, Lina, Coiffeuse.\nDyma-Breider, Ignaz, Schneider, von Herrmanneſter (Böhmen).\nWyser, Gustav, von Schönenwerd.  Korbwaarenfabrikation.\n119. a. Rohr-Hässig, Emma, Wittwe. Colonialwaarenhandlung. Salzverkauf.\n  Parfümerie\n119. b. Eggen-Sulzer, Eduard, Colonialwaarenhandlung.\n120.* Schießer, J. J. Sohns, Erbschaft.\nFischer-Bonwiller, Adolf, Postbeamter.  Cigarren- und Tabakhandlung.\nFischer, Louise, Ladentochter.\nKeller-Siebenmann, Daniel, Uhrmacher, von Veltheim.  Uhrenhandlung.\n\nPelzgasse.\n\n121.* Schießer, Gebrüder.  Käse- und Butterhandlung.\nSchießer geb. Süßle, Katharina, Wittwe, Part.\nSchießer, Margaretha, Part.\nLäubli geb. Kern, Verena, Wittwe, Ladendienerin, von Seengen.\n122.  Küenze-Rümmeli, Oswald, Schuhmachermeister, von Uetikon (Zürich).\nHeindl-Plüß, Ludwig, Uhrenmachergehilfe, von Sachsenried.\nHeindl-Plüß, Mathilde, Damenschneiderin, von Sachsenried.\nPlüß geb. Plüß, Anna Barbara, Lehrers Wittwe, von Ryken.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8147,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2293,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:25:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p021",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p021.jpeg",
+      "bytes": 267648,
+      "sha256": "99ce0c7dbe9295a331275f046d5a47f769b54ea1b9d6b2823443460e2ceb0909",
+      "sha256_of": "original",
+      "working_copy": "1888_p021.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:05+00:00"
+  }
+}

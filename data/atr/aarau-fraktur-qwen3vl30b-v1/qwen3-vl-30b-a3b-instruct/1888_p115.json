@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p115",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p115.jpeg",
+    "bytes": 286718,
+    "sha256": "14dfd9064b879c785d8ccf6e0c60b3258997dc3f8e7a16332ba2bbef1114f428",
+    "sha256_of": "original",
+    "working_copy": "1888_p115.jpeg"
+  },
+  "text": "Käfer — Keller.\n97\nKäfer-Kischer, Jakob, Küfer von Oberlinsbach (Solothurn), Erlinsbacher-\nstraße 332.\nKäfer, Friedrich, Buchbinder von Oberflachs, Halden 269.\nKäfer-Rühr, Ulrich, Amtscher von Welschnau (Bern), Laurenzenvorstadt 356.\nKäfer-Laurent, Emil, Gärtner von Oberflachs, Schachen 739.\nKäfer-Leder, Johann Rudolf, Steinhauer von Biberstein, Halden 281.\nKäfer-Möri, Jakob, Taglöhner von Oberflachs, Adelbündli 82.\nKäfer-Schütz, Jakob, Rathausabwart von Biberstein, vor d. Vorstadt 509.\nKäfer-Stänz, Xaver, Fabrikkaufseher von Erlinsbach (Solothurn), Telli 440.\nKäslin-Schönecker, Eusebius, Musikklehrer, Laurenzenvorstadt 602.\nKaiser, Sigmund, Kaufmann, Glas- und Quincailleriewarenhandlung,\nKronengasse 35.\nKallmann-Hausmann, Elise, Fabrikarbeiterin von Mühlheim (Baden),\nMilchgasse 143.\nKalt-Läubli, Alfred August, Oberarzt der med. Abtheilung am Kantons-\nspital, von Koblenz, Gais 1186.\nKalt-Bräutigam, Jda Mathilde, Wittwe von Leibstadt, Meggergasse 107.\nKamber-Baumann, Eduard, Parquetschreiner von Gunzgen (Solothurn),\nHalden 281.\nKappeler-Märk, Elise, Wittwe, Damenschneiderin, Adelbündli 84.\nKaspar-Gunziker, Rudolf, Chef des aarg. Polizei forps, Bachstraße 1039.\nKauf-Gattiker, Heinrich, gewes. Lokomotivführer von Wellhausen (Thurgau),\nBankstraße 509.\nKauf, Alfred, Buchhalter der Aarg. Kreditanstalt von Wellhausen (Thurgau),\nBankstraße 509.\nKaufmann, Otto, Commis von Buchs (Luzern), Schachen 731.\nRehrer-Hausheer, Jakob, Bäckermeister von Bözen, Pelzgasse 62.\nKeller-Bauhofer, Daniel, Förster von Villigen, Halden 273.\nKeller-Baumann, Rudolf, Färbermeister von Turbenthal (Zürich), Bach-\nstraße 1052.\nKeller-Berney, Abraham, Mechaniker, Halden 260 a.\nKeller-Bufer, Gottfried, Buchdrucker von Hottwyl, Rain 839.\nKeller-Kehlmann, Johann, Dekonom von Hottwyl, Günhardfeldweg 1145.\nKeller-Franke, Joseph, Obergerichtsschreiber, Zollrain 179.\nKeller-Hauri, Joseph, Pferdewärter von Oberendingen, Halden 280 b.\nKeller-Hauri, Wilhelm, Dekonom von Oberendingen, Rain 1185.\nKeller-Kißter, Fritz, Bedienter von Oberendingen, id. id.\nKeller-Schweri, Verena, Wittwe, Part. von Oberendingen, Rain 1185.\nKeller-Jäggi, Andreas, Bezirksverwalter, Igelweid 619.\nKeller-Rappeler, Heinrich, Lokomotivführer von Regenstorf (Zürich), Lau-\nrenzenvorstadt 552.\nKeller, Katharina, von Ewatingen (Baden), Ellenwaarenhandlung, Casino-\nstraße 571.\nKeller-Läuchli, Paul, Zuckerbäcker, Zollrain 292.\nKeller, Geschwister Lina, Emma und Hedwig, Zollrain 292.\nKeller-Leuenberger, Lisette, Bettmacherin von Kallern, Zollrain 181.\nAdreßbuch der Stadt Aarau 1888.\n7",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5391,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2549,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.02,
+    "mean_line_chars": 50.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:26:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p115",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p115.jpeg",
+      "bytes": 286718,
+      "sha256": "14dfd9064b879c785d8ccf6e0c60b3258997dc3f8e7a16332ba2bbef1114f428",
+      "sha256_of": "original",
+      "working_copy": "1888_p115.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:45+00:00"
+  }
+}

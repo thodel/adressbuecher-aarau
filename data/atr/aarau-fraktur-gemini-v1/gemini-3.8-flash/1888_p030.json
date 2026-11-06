@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p030",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p030.jpeg",
+    "bytes": 256685,
+    "sha256": "54099d2d7969ab40da4ed3f659c23f244a40c6b573a755c130ae13d6f160fbc3",
+    "sha256_of": "original",
+    "working_copy": "1888_p030.jpeg"
+  },
+  "text": "— 20 —\n\nHaus=\nNr.\nOberthor.\n\n223. Gemeinde Aarau. Spritzenhaus Nr. 4.\n224.* Dieselbe. Oberthurm.\n  Hässig-Lüscher, Joh. Konrad, Dienstmann und Antiquar.\n  Schäfer-Morlock, Wilhelm, Ausläufer der Kantonalen Krankenanstalt.\n225. Wirz-Christen, Philipp, Buchhändler, von Solothurn. Buchdruckerei.\n226. Siebenmann, Jakob, Part.\n  Siebenmann, Adolf, Sekretär.\n227. Siebenmann, Otto und Gustav, March. Tailleur.\n  Siebenmann-Walther, Otto, March. Tailleur.\n228. a. Aktiengesellschaft des Aargauischen Tagblattes. (Vertreter\n    Stierli, Fürsprech).\n  Stierli, Sophie, Damenschneiderin, von Aristau.\n  Stierli, Marie, Ladentochter, von Aristau.\n  Stierli, Elise, Part., von Aristau.\n  Stierli, Cäcilie, Part., von Aristau.\n  Keßler, Hans, Faktor, von Schiers (Graubünden).\n228. b. Buchdruckerei des Aarg. Tagblattes.\n\nGolattenmattgasse.\n\n229. Hemmeler, Ida, Privatlehrerin.\n  Hemmeler, Meta, Partik.\n  Amsler-Morgenthaler, Emil, Buchbinder, von Kaisten. Buchbinderwerkstätte.\n230. Brunner, Gottfried, Part.\n  Isliker, Ulrich, Schuhmacher, von Andelfingen (Zürich).\n  Näf-Widmer, Urs Joseph, Taglöhner, von Wyßen (Solothurn).\n  Umiker, Samuel, Straßenwärter, von Thalheim.\n231. a. Spengler, Bertha, Part.\n  Hensler, Anna, Corsetschneiderin, von Richterswyl.\n  Fischer, Verena, Corsetschneiderin, von Tennwyl.\n231. b. Kämisperger geb. Berner, Marie, Gürtlers Wittwe.\n  Fehlmann-Baumann, Salomon, Part., von Mönthal.\n  Suter-Müller, Elise, Wittwe, Taglöhnerin, von Kölliken.\n232. Plüß-Haller, Marie Anna, Bettmacherin, von Niederwyl.\n233. Landolt-Frank, Joh., Schuhmacher.\n  Appenzeller-Meyer, Maria, Weißnäherin, von Höngg (Zürich).\n234. Schneider-Läuchli, Ulrich, Schlosser.\n  Schneider, Anna, Glätterin.\n  Schneider, Bertha, Damenschneiderin.\n  Widmer-Wüthrich, Jakob, Webermeister, von Gränichen.\n235. Brunnhofer-Giezentanner, Verena, Seilers Wittwe.\n  Jörg, Jakob, Seiler, von Affoltern (Bern).\n  Kirchhofer-Schlatter, Marie, Privatin, von Schaffhausen.\n236. Buchmann, Jakob, Schneider, von Veltheim.\n  Biberstein-Spycher, Eugen, Spengler, von Bözingen (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7560,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2055,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.51,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:26:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p030",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p030.jpeg",
+      "bytes": 256685,
+      "sha256": "54099d2d7969ab40da4ed3f659c23f244a40c6b573a755c130ae13d6f160fbc3",
+      "sha256_of": "original",
+      "working_copy": "1888_p030.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:26:15+00:00"
+  }
+}

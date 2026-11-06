@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p060",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p060.jpeg",
+    "bytes": 268452,
+    "sha256": "a7b8f712e0698c5816b3fde04575d2300e979b7b6b31fc93dec717532b5578b8",
+    "sha256_of": "original",
+    "working_copy": "1888_p060.jpeg"
+  },
+  "text": "Haus-\nNr.\nBrac, Jakob, Part., von Elsingen.\nGiger-Märki, Jakob, Schreiner, von Contenschwyl.\nMeier-Müller, Paul, Schneider, von Stetten (Waden).\nUrsprung-Meier, Genovefa, Wittwe, Part., von Ruzbaumen.\nUrsprung, Louise, Damen Schneiderin, von Ruzbaumen.\nHemmeler-Pfister, Friedrich, Postcommis.\n752.* Holzach, Friedrich, Megger. Schweinemetzglokal.\n753.+ Kern & Cie., Mechaniker. Alte Cementmühle.\n754. Gemeinde Aarau. Gewerbehalle.\nBrunnerhofer-Giegentanner, Verena, Seilers Wittwe. (Seilerwaarenverkauf.)\nRothpley-Hafler, Rudolf, Megger. (Bäckerwaarenverkauf.)\nTheez-Amisler, Emilie, Schirmmacherin. (Schirmverkauf.)\n\nVor dem Saldenthor.\n755.+ Schmidlin-Lug, Theodor. Chemisches Laboratorium.\n756.+ Derselbe. Holzmagazin.\n757.+ Riniker-Gros, Friedrich, Bierbrauer. Scheune.\n758. Merz-Ruh, Margaretha, Wittwe, Part., von Leimbach.\nFecht-Ruh, Julius, von Meinwangen (Baden). Weinhandlung.\nLenzi-Fischer, Albert, Controleur auf der Aarg. Ersparniskasse, von Zuggen.\n759.+ Hauri-Graber, Rudolf, Fuhrmann. Scheune.\n760.+ Brunnerhofer-Schmid, Magdalena, Wittwe. Scheune.\n761.+ Hafler-Ernst, August, Färber. Magazin.\n762. Häusler-Schmid, Angelus, Maler, von Schwaderloch.\nWüthrich-Dambach, Joh. Jakob, Camioneur, von Eggwyl (Bern).\n763.+ Gamper-Wildi, Adolf, Megger. Scheune.\n764.+ Hafler-Ernst, August, Färber. Farbgebäude.\n765.+ Marti, Rosina's, Partik.'s Erbschaft. Gartenhaus.\n766.+ Fischer, Thomas, Bierbrauer. Magazin.\n767. Hemmeler-Fecht, Gottlieb, Zimmermann.\nZiegler-Linsi, Lina, Wittwe, Part., von Winterthur.\n768.* Derselbe. Wohngebäude mit Werkstätte.\nFricke-Leder, Jakob, Bankabwart, von Oberflachs.\n769.* Schmidlin, Elise, Part., Kleinkinderschule.\nSchaub, Marie, Lehrerin, von Eptingen (Baselland).\nFrei, Maria, Spetterin, von Denzbüren.\n770. Wolfsgruber-Rüenze, Gottfried, Photograph, von Koblenz (Preußen).\nSieck-Brechennacher, Hans, Bauführer (Bischoffe & Cie.), von Griens (Throl).\n771.+ Derselbe. Photograph. Atelier.\n772.* Siegenthaler-Wägner, Elisabeths Erbschaft.\nHediger-Fischer, Hans, Telegraphist, von Reinach.\nWietlisbach-Walther, Joseph Burkard, Postcommis, von Wohlen.\n773.* Derselbe. Anbau.\nVerschold, Jakob, Schuhmacher, von Schmiedrued.\nBruder-Bruder, Jakob, Gepäckträger, von Seengen.\n774.+ Derselbe. Holzmagazin.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4645,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2251,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p060",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p060.jpeg",
+      "bytes": 268452,
+      "sha256": "a7b8f712e0698c5816b3fde04575d2300e979b7b6b31fc93dec717532b5578b8",
+      "sha256_of": "original",
+      "working_copy": "1888_p060.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:00+00:00"
+  }
+}

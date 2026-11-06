@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p071",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p071.jpeg",
+    "bytes": 265652,
+    "sha256": "ce82b9065aaa9436a8f04604acca6e5f58abf7e54474aa1c11980991e3c468b3",
+    "sha256_of": "original",
+    "working_copy": "1888_p071.jpeg"
+  },
+  "text": "Haus-\nNr.\n955. Sandmeier=Kohr, Susette, Wittwe, Part.\nSandmeier, Gottlieb, Buchbinder.\nSandmeier, Marie, Ladentochter.\nSandmeier, Marie, Damenschneiderin.\nSandmeier, Margaretha, Damenschneiderin.\nSommerhalber-Lindemann, Rudolf, Milchverkäufer, von Schlozrued.\n956. Füsher-Keller, Albert, Sekretär.\n957.+ Gemeinde Aarau, Gebethalle.\n1224 + Hediger, Hermann, Stadtgärtner. Gewächshaus.\n958. Baumann=Gyfi, Heinrich, Deconom.\nBaumann-Wafer, Eugen, Weinhändler.\n959.+ Derfelbe. Scheune.\n\nEntfelderstraße.\n960.* Schotte=Faure, Conradin, Ingenieur.\nDofer-Schröder, Leopold, Direktionssekretär, von Rheinfelden.\nHediger-Kull, Hermann, Stadt- und Friedhofsgärtner, von Kupperswyl.\nHediger, Jakob, Part, von Kupperswyl.\n961.+ Derfelbe. Waschhaus.\n962. Derfelbe. Abgetragen.\n1200 Derfelbe. Wohnhaus.\n963.+ Nieding, Heinrich, Zimmermeister, von Märfetten (Thurgau). Werkstätte.\n964. Bär, Rudolf, Schreinermeister.\nBär, Marie, Arbeitslehrerin.\nBär, Louis, Commis.\nBär geb. Frei, Johanna, Wittwe, Part.\n965.+ Derfelbe. Holzhaus.\n966. Weipi=Zurlinden, Karl, Hafner.\nFrey-Ryburz, Rosina, Weißnäherin, von Härfingen (Solothurn).\nRyburz-Bohnenblust, Katharina, Part., von Erlinsbach.\nHäfker-Märki, Barbara, Wittwe, Part.\nMärki, Marie, Damenschneiderin, von Mandach.\nHunziker-Sandmeier, Fritz, Drechsler.\n967. Lips=Sager, Kaspar, Postkondukteur, von Urdorf (Zürich).\nLeubin-Rienberger, Albert, Postcommis, von Frid.\n968. Hässig=Baumann, Samuel, Malermeister.\nBaumann, Johann, Part., von Niederlenz.\n969. Käppeli=Müller, Gottlieb, Dr. jur., Reg.-Rath, von Merenschwand.\n970. Schmuziger=Freudiger, Traugott, Maler.\nAmmann-Eträh, Robert, Hochbaumeister, von Menziken.\nNieding, Heinrich, Zimmermeister, von Märfetten (Thurgau).\n971.+ Derfelbe. Werkstätte.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4329,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1743,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:23:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p071",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p071.jpeg",
+      "bytes": 265652,
+      "sha256": "ce82b9065aaa9436a8f04604acca6e5f58abf7e54474aa1c11980991e3c468b3",
+      "sha256_of": "original",
+      "working_copy": "1888_p071.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:23:48+00:00"
+  }
+}

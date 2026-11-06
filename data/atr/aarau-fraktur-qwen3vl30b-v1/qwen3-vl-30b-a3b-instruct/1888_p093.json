@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p093",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p093.jpeg",
+    "bytes": 288135,
+    "sha256": "09f9fd3a4f1e898c3c1f64ff6096738b5a111732f01c583f04cb595a1fc22f3e",
+    "sha256_of": "original",
+    "working_copy": "1888_p093.jpeg"
+  },
+  "text": "Baldinger — Bem.\n75\nBaldinger-Wirz, Josephpine, Ladenvorsteherin von Baden, Oberthor 139.\nBallmer-Egloff, Karl, Bankangestellter v. Laufen (Baselland), Schachen 729.\nBallmer, Marie und Carolina, Wäscherinnen und Glätterinnen von Laufen\n(Baselland), obere Vorstadt 926.\n* Bally-Arndt, Eugen, Fabrikant, Kohrerstraße 473.\n* Bally-Schmitter, Adeline, Fabrikants Wittwe, in der Gais 488.\n* Bally-Scholer, Elisabeth, Wittwe, Part., Bahnhofstraße 559.\nBally, E. F., von Schönenwerd, Schuhfabrik, jenseits der Aare 309.\nBally, Gebrüder, Bandfabrikaton, Hammer, 386.\nBaltisberger-Wullschleger, Arnold, Polizeidiener v. Östringen, Kirchgasse 15.\nBamberger-Schwarz, Anna, Wittwe, Taglößnerin von Siglistorf, Halden\n260 b.\n* Bart-Schmid, Johann, Postcommiss von Altenburg, Entfelderstraße 1195.\nBauhofer-Keller, Anna, Kaufmanns Wittwe, Part., jenf. der Aare 342.\nBauhofer-Müller, Samuel, Thierarzt von Reinach, Schachen 723.\nBaumann, Barbara, Part. von Stilli, Bahnhofstraße 1022.\n* Baumann-Baumann, Heinrich, Wirth z. Freihof, von Stilli, Laurenzen-\nvorstadt 390.\nBaumann, Emma, Modistin von Oberentfelden, Laurenzenthorngasse 116.\nBaumann-Frei, Anna, Näherin von Nettelwyl, Ziegelrain 752.\nBaumann, Fritz, Sohn, Hufschmied, Jgelweid 625.\n* Baumann-Gautschi, Samuel, Hufschmied, Jgelweid 625.\n* Baumann-Gygi, Heinrich, Dekonom, obere Vorstadt 958.\n* Baumann-Hemmann, Karl, Kaufmann, Weinhdg., Laurenzenvorstadt 390.\nBaumann, Johann, Part. von Niederlenz, obere Vorstadt 968.\nBaumann-Käfer, Heinrich, Polizeifeldweibel, hintere Vorstadt 642.\nBaumann geb. Müller, Marie, Wittwe von Lenzburg, Pelzgasse 67.\n* Baumann-Wäcker, Eugen, Kaufmann, obere Vorstadt 958.\nBaumann-Wälti, Raipar, Milchverkäufer von Bottenwyl, Kaffeeewirthschaft,\nCasinostraße 660.\nBaumgartner, Adolf, Commis von Denfingen (Solothurn), Rathhaus-\ngasse 4.\nBaumgartner-Erni, Heinrich, Telefonarbeiter von Weyach (Zürich),\nvordere Vorstadt 900.\nBaur, Adolf, Ingenieur, Adjunkt des Rantonsingenieurs von Sarmen-\nstorf, Laurenzenvorstadt 602.\nBausch-Siegrist, Arnold, Schlosser von Wynau (Bern), hinter dem Bahn-\nhof 496.\n* Bechter-Bürchler, Ludwig, Schuhmacher v. Bregenz (Vestreich), Halden 254.\n* Beckstein-von Jettmar, Wilhelm, von Meiningen (Sachsen), Direktor der\nGassfabrik, v. d. Haldenthor 786.\nBeck-Böll, Gottlieb, Schlosser, Halden 256.\nBeck-Braun, Friedrich, Tattler, Entfelderstraße 983.\nBeck, Carolina, Weißnäherin, Adelbändli 174.\nBeck-Fisch, Elise, Güterexpedients Wittwe, Part., Milchgasse 156.\nBeck-Hunziker, Emil, Tattler, Jgelweid 633.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5267,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2508,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p093",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p093.jpeg",
+      "bytes": 288135,
+      "sha256": "09f9fd3a4f1e898c3c1f64ff6096738b5a111732f01c583f04cb595a1fc22f3e",
+      "sha256_of": "original",
+      "working_copy": "1888_p093.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:51+00:00"
+  }
+}

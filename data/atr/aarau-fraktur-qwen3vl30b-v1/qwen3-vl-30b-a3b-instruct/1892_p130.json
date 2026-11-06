@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p130",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p130.jpeg",
+    "bytes": 245445,
+    "sha256": "77195e289d3ae65e0c9111560de211d8c58b51af135020fddd82157e283648d3",
+    "sha256_of": "original",
+    "working_copy": "1892_p130.jpeg"
+  },
+  "text": "114 Müller – Nadig.\nMüller-Riffes, Jakob, Ausläufer von Unterentfelden, Kirchhof 165 a.\nMüller-Rufbaum, Sara, Part. von Basel, Ziegelrain 751.\nMüller-Deschger, Samuel, Obsthändler, von Fahrwangen. Golatten-\nmattgasse 230.\nMüller, Otto, Commis von Müttingen (Württemberg), Halden 285.\nMüller-Riederer, Lorenz, Lithograph v. Unt.-Zberg (Schwyz), Ziegler.700.\nMüller-Rinifer, Elise, Staatsweibels Wittwe von Hiberstein, obere Vor-\nstadt 921.\n Müllер-Rothpleg, Arnold, Baumeister, jenseits der Nare 346.\nMüller, Rosa, Haushälterin, von Unterfelm, jenseits der Nare 342.\nMüller-Schmocker, Fritz, Coiffeur, Milchgasse 73.\nMüller-Schmocker, Berena Modistin, Milchgasse 73.\n Müllер-Schneebeli, Heinrich, Gastwirth z. Löwen von Unterstrak (Zürich),\nvordere Vorstadt 681.\nMüller-Schnyder, Suanna, Haushälterin von Birr, Milchgasse 146.\nMüller, Sigmund, Zimmermeister in Erlinsbach, (Zimmerschopf) Ent-\nfelderstraße 963.\n Müllер-Suter, Jakob, Lithographiebesitzer von Lenzburg, Wohnung in\nder Gais 1131, Lithographie-Anstalt Bahnhofstraße 1287.\nMüller-Stirnemann, Rudolf, Bremser von Niederbipp, Hammer 188.\nMüller-Thut, Johann Jakob, Schriftsetzer, Schmiedgasse 635.\nMüller, Verena, Spetterin von Unterfelm, Milchgasse 143.\nMüller-Vonäsch, Jakob, Buchbinder von Unterfelm, hintere Vorstadt 642.\nMüller-von Däniken, Friedrich, Dekonom, Schachen 725.\nMüller-Walti, Marie, Weiznäherin von Bözberg, Schmiedgasse 635.\nMüller-Waßmer, Jakob, Oberaufseher (Bally & Schmitter) von Safen-\nwyl, hintere Vorstadt 694.\nMüller-Wildi, Karolina, Wittwe, Part. von Müttingen (Württemberg),\nHalden 285.\nMüller-Woodtli, Jakob, Armenhausvorsteher, Halden 241.\nMüri-Frech, Joh. Heinrich, Mechaniker von Schinzach, Schachen 741.\n Müri, Paul, Fürsprach, Gerichtspräsident von Schinzach, Rain 869.\nMürset-Hediger, Marie, Wittwe, Part. von Dieke (Bern), Kirchgasse 13.\nMürset, Marie, Coiffeuse von Dieke (Bern), Kirchgasse 13.\n\nNäf-Eichenberger, Edwin, Lokomotivführer von Meilen, obere Vor-\nstadt 940.\n Näf-Ludwig, Emil, Kantonsstatistiker von Aarburg, Bahnhofstraße 658.\nNäf-Widmer, Urs. Joseph, Taglöhner von Wylen (Solothurn), Golatten-\nmattgasse 230.\nNadig, Clara, Part. von Davos (Graubünden), Rain 860.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5919,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2174,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0244,
+    "mean_line_chars": 51.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:44:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p130",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p130.jpeg",
+      "bytes": 245445,
+      "sha256": "77195e289d3ae65e0c9111560de211d8c58b51af135020fddd82157e283648d3",
+      "sha256_of": "original",
+      "working_copy": "1892_p130.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:38+00:00"
+  }
+}

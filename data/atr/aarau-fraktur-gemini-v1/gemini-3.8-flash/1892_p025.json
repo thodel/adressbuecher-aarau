@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p025",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p025.jpeg",
+    "bytes": 249473,
+    "sha256": "d0a2e9d1d6dded91a64ef79cc5282289c137b5d514b3f2110cddcd7381895ebe",
+    "sha256_of": "original",
+    "working_copy": "1892_p025.jpeg"
+  },
+  "text": "— 17 —\nHaus-\nNr.\n  Dubs, Johann, Sohn, Müller, von Küttigen.\n  Dubs, Elise, von Küttigen.\n183. † Dieselbe. Fabrikgebäude.\n  Schwarb-Maurer, Verena, Sesselflechterin, von Töß (Zürich).\n184.a. Läuchli-Bircher, Friedrich, Schlosser, von Remigen.\n  Gerodetti, Virgilius, Marmorsteinsäge.\n1301 * Ryniker Groß, Friedrich, Bierbrauer.\n  Zürcher-Huber, Friedrich, Taglöhner, von Trub (Bern).\n  Wernli-Schmidli, Kaspar, Taglöhner, von Thalheim.\n184 b. Abgetragen, an dessen Platz.\n1295. Hässig, Gottlieb, Feinschleifer, (Werkstätte.)\n185.a. Hürzeler-Gloor, Jakob, Hadernhändler, von Uerkheim.\n185.b. Erdin-Zumsteg, Siegfried, Kerzenfabrikant, von Gansingen.\n  Zumsteg geb. Jehle, Ursula, Wittwe, von Mettau.\n  Hausmann-Heuberger, Johann, von Schafisheim.\n185.c. Wernli-Meier, Samuel, Holzer, von Thalheim.\n186. * Haßler-Heberlein, Adolf, Färber.\n187. † Derselbe. Holzschopf.\n  Hort-Hemmeler, Johann, Zimmermann, von Oberhof. Werkstätte.\n188. Haßler-Heberlein, Adolf, Färber.\n  Frymann-Lässer, Gottfried, Part.\n  Lässer, Bertha, Fergerin (Siebenmann-Brun), von Wiliberg.\n  Müller-Stirnemann, Rudolf, Bremser, von Niederbipp.\n  Zubler geb. Stirnemann, Elisabeth, Spetterin, von Hunzenschwyl.\n  Felber-Gruber, Georg, Laternenputzer, von Oberbözberg.\n  Felber, Marie, Damenschneiderin, von Oberbözberg.\n  Fenner-Hosig, Johann, Bahnangestellter, von Küßnacht (Zürich).\n  Frank, Louise, Corsetschneiderin.\n  Sennhauser geb. Schnorf, Elise, Wittwe, Priv., von Herrliberg (Zürich).\n  Sennhauser, Elise, Tochter, von Herrliberg (Zürich).\n  Morgenthaler, Elisabeth, Spetterin, von Madiswyl (Bern).\n  Fahrländer geb. Müller, Verena, Part.\n  Niggli, Barbara Elise, Weißnäherin, von Aarburg.\n  Kloter-Kohler, Edmund, Packer, von Lengnau.\n  Müller-Lüthi, Friedrich, Taglöhner und Dachdecker, von Niederwyl.\n  Müller-Lang, Margaritha, von Niederwyl.\n  Bolliger-Frei, Johann, Taglöhner (Holzer), von Küttigen.\n  Fischer-Haller, Jakob, Zimmermann, Bauamtsarbeiter, von Tennwyl.\n  Firma Hommel-Esser, F., Reißzeugfabrikation u. s w.\n189. * Haßler-Heberlein, Adolf, Färber.\n  Blume-Hirt, Philipp, Schreinermeister und mechanische Holzdrechslerei\n    von Sprendlingen (Hessen).\n  Blume-Hirt, Maria, Feinwäscherei und Glätterei, von Sprendlingen.\n  Blume, Mina, Damenschneiderin, von Sprendlingen (Hessen).\n190. * Haßler-Heberlein, Adolf, Färber.\n  Zellweger, Oskar, Part., von Hauptweil (Thurgau).\n  Läubli-Häfeli, Jakob, Fabrikaufseher, von Seengen.\n  Hässig-Straubhaar, Gottlieb, Feinschleifer.\n  Hässig, Mina, Glätterin.\n  Adressbuch der Stadt Aarau 1892.\n2",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9124,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2531,
+    "lines": 54,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:47:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p025",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p025.jpeg",
+      "bytes": 249473,
+      "sha256": "d0a2e9d1d6dded91a64ef79cc5282289c137b5d514b3f2110cddcd7381895ebe",
+      "sha256_of": "original",
+      "working_copy": "1892_p025.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:32+00:00"
+  }
+}

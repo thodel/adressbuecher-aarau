@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p041",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p041.jpeg",
+    "bytes": 203589,
+    "sha256": "787abee77cff81a89155ced267db222e0cadec5ae49d7046b058b0b4625fd82a",
+    "sha256_of": "original",
+    "working_copy": "1892_p041.jpeg"
+  },
+  "text": "— 33 —\n  Haus-\n   Nr.\n  418. Sauerländer-Frey, Remigius. Konsular-Agentur der Ver-\n        einigten Staaten Nordamerika’s.\n      Custer-Sauerländer, Mathilde, Wittwe, Part.\n      Sauerländer-Custer, Emma, Wittwe, Part.\n      Sauerländer, H. R., Verlagsbuchhandlung:\n        Amtsblatt des Kantons Aargau.\n        Aargauischer Polizei-Anzeiger (Fahndungsblatt).\n        Bienenzeitung, Schweizerische.\n        Illustrirte schweizerische Jugendblätter. Monatsschrift.\n        Vom Jura zum Schwarzwald. Vierteljahresschrift.\n  419. † Derselbe. Oekonomiegebäude.\n  420. †   „   Buchdruckerei.\n  421. †   „   Abgetragen; an dessen Platz\n 1184.   † „   Buchbinderei.\n  422. Frey-Frey, Karl, Stadtrath.\n  423. Frey, Robert, und Frey, Max. Chokoladefabrikation R. & M. Frey.\n 1264.   † Dieselben. Fabrikgebäude.\n 1292.   †     „     Maschinenhaus.\n  424. † Frey-Frey, Karl, Stadtrath. Waschhaus.\n  425. † Derselbe. Scheune und Schopf.\n  426. †   „   Holzhaus.\n  427. †   „   Geflügelhaus.\n 1291.     „   Gewächshaus.\n  428. Frey-Frey, Adolf, Dr. med.\n      Frey, Eugen, Part.\n  429. † Derselbe. Scheune und Remise.\n  430. †   „   Treib-, Wasch- und Holzhaus.\n\nIn der Telli.\n\n 1335.   Brogli-Gautschi, Josef, Polizeidiener, von Sisseln.\n      Husi-Lämmli, Franz Josef, Bahnangestellter von Wangen (Solothurn).\n  431. * Frey-Herzog, August, Fabrikant. Büreau der Firma Frey & Cie.\n  432. † Derselbe. Scheune.\n  433. †   „   Holzmagazin.\n  434. †   „   Bleikammergebäude und Dampfkessel.\n  435. a. † „  Laboratorium, Magazin.\n  435. b. † „  Laboratorium chemischer Produkte und photogr. Utensilien.\n  436. †   „   Chemisches Laboratorium.\n  437. *   „   Schreinereigebäude mit Arbeiterwohnung.\n  438. †   „   Magazin.\n  439. †   „   Schopf und Magazin.\n  440. *   „   Kosthaus.\n      Käser-Stänz, Xaver, Aufseher, von Erlinsbach (Solothurn).\n      Wernli-Hächler, Jakob, Fabrikarbeiter, von Thalheim.\n      Stäheli-Grenacher, Jakob, Fabrikarbeiter, von Egliswyl.\n      Kramer-Müller, Jakob, Knecht, von Zezwyl.\n      Bucher-Bolliger, Johann, Fabrikarbeiter, von Niederweningen (Zürich).\nAdressbuch der Stadt Aarau 1892.  3",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7746,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2109,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:49:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p041",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p041.jpeg",
+      "bytes": 203589,
+      "sha256": "787abee77cff81a89155ced267db222e0cadec5ae49d7046b058b0b4625fd82a",
+      "sha256_of": "original",
+      "working_copy": "1892_p041.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:32+00:00"
+  }
+}

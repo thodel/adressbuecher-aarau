@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p098",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p098.jpeg",
+    "bytes": 276505,
+    "sha256": "fc63a2a82adf985992ac144e3b26278a67fadae337bddfeb36fa171cc0ef5b0c",
+    "sha256_of": "original",
+    "working_copy": "1888_p098.jpeg"
+  },
+  "text": "80 — Bucher — Conrad.\n\nBucher-Bolliger, Johann, Fabrikarbeiter von Niederweningen (Zürich),\n  Telli 440.\nBucher-Rohr, Gottlieb, Fabrikarbeiter von Niederweningen (Zürich),\n  Telli 440.\nBuchmann, Jakob, Schneidermeister von Veltheim, Golattenmattgasse 236.\nBuchser-Hunziker, Anna Maria, Wittwe von Schöftland, Bachstraße 1038.\nBuchser-Lüscher, Samuel, Taglöhner von Schöftland, Milchgasse 150.\nBüchli, Johann Rudolf, Part., Gartenstraße 998.\nBühler-Widmer, Gottlieb, Kupferschmied von Rietheim, Igelweid 632.\n[handschriftlich: X]Bührer-Gidemann, Anna, Kaufmann’s, Wittwe, Part., Rain 875.\nBührer-Gubler, Jakob, Kaufmann von Bibern (Schaffhausen), Wohnung\n  Rain 862 und Büreau obere Vorstadt 925.\n[handschriftlich: X]Bührer-Heusler, Karl, Kaufmann von Bibern (Schaffhausen), Bach-\n  straße 1174.\nBürgi-Burkhardt, Anna, Wittwe, Part. von Erlinsbach, obere Vorstadt 936.\nBürgi-Fricker, Joseph, Part. von Olten (Solothurn), vordere Vorstadt 900.\nBuhlrein, Friedrich, Part., Ziegelrain 700.\nBurger, Johann, Gerichtsschreiber von Freienwyl, Zollrain 52.\n[handschriftlich: X]Burgmeier-Kieser, Joseph, Gesanglehrer, Graben 209.\nBurren-Hirsbrunner, Friedrich, Pferdewärter von Köniz (Bern), Milch-\n  gasse 78.\nBurkhardt-Bertschinger, Ferdinand, Coiffeur, Laurenzenvorstadt 118.\nBurkhardt, Ferdinand, Sohn, Coiffeur, id. id.\nBurkhardt, Lina, Coiffeuse, id. id.\n[handschriftlich: X]Buser-Bräutigam, Gottlieb, Part., Metzgergasse 57.\n[handschriftlich: X]Buser, Emil, Sohn, Bäcker, id. id.\nBuser, Friedrich, Kaufmann, vordere Vorstadt 890.\nBuser, Jakob, Buchbinder, Rain 881.\nBuser-Müller, Heinrich, Hufschmied, Graben 217.\nBußlinger-Kienberger, Siegried, Postcommis von Dätwyl, Gönhardfeld-\n  weg 1150.\n\nCadonau-Hunziker, Elisabeth, Wascherin und Glätterin von Waltens-\n  burg (Graubünden), obere Vorstadt 915.\nCajacob-Fallet, Louise, Wittwe von Somvix (Graubünden), Laurenzen-\n  vorstadt 547.\n[handschriftlich: X]Camisasca-Bossard, Franz, Kaufmann, Rain 826.\nCantu-Hübscher, Joseph, Maurermeister von Vico-Morcote (Tessin),\n  Metzgergasse 101.\nChristen-Kretz, Alois, Mechaniker v. Buochs (Unterwalden), Milchgasse 147.\nChristoffel-Martin, Huldreich, Bezirkslehrer von Scheid (Graubünden),\n  Gönhardsfeldweg 1241.\nCima-Hauri, Johann, Mechaniker von Aquila (Tessin), Milchgasse 148.\n[handschriftlich: X]Conrad-Lüthi, Peter, Regierungsrath von Auw und Turgi, Rain 860.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7800,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2354,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0227,
+    "mean_line_chars": 52.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:33:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p098",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p098.jpeg",
+      "bytes": 276505,
+      "sha256": "fc63a2a82adf985992ac144e3b26278a67fadae337bddfeb36fa171cc0ef5b0c",
+      "sha256_of": "original",
+      "working_copy": "1888_p098.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:33:53+00:00"
+  }
+}

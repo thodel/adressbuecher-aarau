@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p034",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p034.jpeg",
+    "bytes": 317711,
+    "sha256": "84422a6fd54fb312b18dde3ed80520b9b5481b7544460d2c836e0e82f2f290cf",
+    "sha256_of": "original",
+    "working_copy": "1884_p034.jpeg"
+  },
+  "text": "30\tJäggi.\t—\tKäppeli.\n\nJäggi-Weber, Herm., Buchhalter, von Strengelbach, h. d. Bahnhof 1072.\n— =Urech, Sophie, Wittwe, Partik., v. Strengelbach, v. d. Haldenthor 772.\n— Wilhelmine, Lehrerin, von Strengelbach, vor dem Haldenthor 772.\n— =Peier, Otto, Chemiker, von Bern, vor dem Haldenthor 770.\n*Jäggli-Häßig, Robert, Bäcker, Zollrain 88.\n* — =Widmer, Karoline, Wittwe, Partik., Kronengasse 33.\nJehle-Weber, Mathäus, Polizeidiener, von Wyl, Scheibenschachen 314.\nJenny-Kunz, Adolf, Färber, von Iffweil (Bern), in der Telli 449.\nJensen, Niels, Dekorationsmaler, von Hurruch (Dänemark), Ziegelrain 721.\nJent, Marie, Spetterin, von Safenwyl, Stadthof 92c.\n*Imhof-Munzinger, Emil, Regierungsrath, jenseits der Aare 294.\n* — =Aman, Ernst, Fabrikant, Bachstraße 1035.\n* — =Schmid, Karoline, Wittwe, Partik., obere Vorstadt 940.\n* — =Herzog, Emma, Med. Dr's. Wittwe, Partik., Laurenzenvorstadt 399.\n* — =Lingenstorfer, Louise, Pfarrers Wittwe, Partik., Laurenzenvorstadt 552.\n* — Anna, Privatlehrerin, Laurenzenvorstadt 552.\n— Albert, Commis, von Freienwyl, Ziegelrain 700.\nJoho-Bryner, Samuel, Färber, von Auenstein, Halden 282.\nJörg-Künzli, Peter, Schuhmachermeister, von Langenselbold (Preußen),\n  hintere Vorstadt 623.\n— Jakob, Seilergehülfe, von Affoltern (Bern), Golottenmattgasse 235.\nIsler, Peter, Oberstl., von Kaltenbach (Thurgau), Infanterie-Instruktor,\n  Laurenzenvorstadt 394.\n— =Brugisser, Arthur, Med. Dr., von Wohlen, hintere Vorstadt 638.\n— Arthur, Commis, von Wohlen, Zollrain 178.\nIsliker, Ulrich, Schuhmachermeister, v. Alten (Zürich), Golattenmattg. 230.\n\n*Kaiser, Siegmund, Kaufmann, Glas- und Quincailleriewaarenhandlung,\n  Kronengasse 35.\nKallmann-Hausmann, Elise, Fabrikarbeiterin v. Mühlheim (Großh. Baden),\n  Golattenmattgasse 231b.\nKalt-Suter, Engelbert, Zimmermann, von Gippingen, Schachen 726.\n— =Bräutigam, Ida Mathilde, Wittwe, v. Leibstadt, Metzgergasse 107.\n*Kappeler-Märk, Elise, Wittwe, Damenschneiderin, Adelbändli 84.\nKarrer-Suter, Ludwig, Regierungsrath, von Teufenthal, Rohrerstr. 478.\nKaspar-Hunziker, Rudolf, Chef des aarg. Polizeikorps, Zollrain 88.\nKastorf-Wuhrmann, Barbara, Partik., von Meklenburg-Schwerin, obere\n  Vorstadt 913.\nKauf-Gattiker, Heinrich, Lokomotivführer, v. Wellhausen (Thurgau), hinter\n  dem Bahnhof 509.\n— Alfred, Buchhalter, von Wellhausen (Thurgau), h. d. Bahnhof 509.\nKaufmann-Weißenberger, August, Gärtner, von Lyon (Frankreich), hinter\n  dem Bahnhof 1072.\n— Otto, Commis von Buchs (Luzern), Rathhausgasse 2.\n— =Widmer, Susanna, Partik., von Gränichen, Rainstraße 884.\nKähr-Rohr, Jb., Bäcker u. Wirth, v. Rüderswyl (Bern), ob. Vorstadt 927.\n— Maria, Näherin, von Rüderswyl (Bern), Kirchplatz 165.\nKäppeli, Gottl., Dr. Jur., Reg.Rath, v. Meerenschwand, Laurenzenvorst. 547.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9024,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2731,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:13:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p034",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p034.jpeg",
+      "bytes": 317711,
+      "sha256": "84422a6fd54fb312b18dde3ed80520b9b5481b7544460d2c836e0e82f2f290cf",
+      "sha256_of": "original",
+      "working_copy": "1884_p034.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:13:11+00:00"
+  }
+}

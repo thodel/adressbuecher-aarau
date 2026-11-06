@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p041",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p041.jpeg",
+    "bytes": 250713,
+    "sha256": "b278536ae5c16c43bbdb7823d8e524d66105e60d56adcc81578e0846293c0d11",
+    "sha256_of": "original",
+    "working_copy": "1888_p041.jpeg"
+  },
+  "text": "— 31 —\nHaus-\nNr.\n399. Imhof-Herzog, Emma, Med. Drs. Wittwe.\n  Frey-Gamper, Julius, Dr. Jur., Vize-Bankdirektor, von Möhlin.\n400.† Dieselbe. Holzhaus.\n401. Roth-Schmuziger, Alfred, Oberstlieutenant der Artillerie, von Bühler\n  (Appenzell).\n  Höhn-Ochsner, Gottlieb, Kassier der Güterexpedition, von Hütten (Zürich).\n402.† Derselbe. Holzschopf.\n403. Frey-Hotze, Ida, Wittwe, Part.\n  Rauch-Baldeschwyler, Bertha, Part., von Mülhausen (Elsaß).\n  Baldeschwyler, Mathilde, Part., von Laufenburg.\n404.† Dieselbe. Holzhaus.\n405.† Bally-Arndt, Eugen, Fabrikant. Fabrikgebäude mit Comptoir.\n406.† Derselbe. Nebengebäude.\n407.† Derselbe. Holzschopf.\n408.* Ringier-Müller, Staatsschreibers Wittwe, Erbschaft.\n  Ringier-Tschudi, Adolf, Lagerhausdirektor.\n  Siebenmann-Hürsch, Gottlieb, Bauverwalter.\n409.† Dieselbe. Holzhaus.\n410. Hommel-Stein, August, Mechaniker.\n  Hintermann-Keller, Robert, Major, Inf.-Instruktor I. Kl., von Beinwyl.\n  Küpser-Rösch, Ed., Hutmacher, von Bern.\n  Keller, Verena, Part., von Veltheim.\n  Keller, Lina, Part., von Veltheim.\n411.† Derselbe. Holzschopf.\n412.* Richner-Siebenmann, Adolf, Fabrikant, in Bern.\n  Ernst-Steiner, Gustav, Sekretär.\n  Steiner geb. Weber, Barbara, Wittwe, Part., von Winterthur (Zürich).\n  Brütel, Constance, Part.\n  Stäbli, Henriette Adele, Part., von Brugg.\n413. Haberstich-Steimer, Joh, Fürsprech.\n414.† Derselbe. Holzschopf.\n415. Oehler-Frey, August, Part.\n  Oehler-Theiler, Oskar, Ingenieur.\n  Theiler geb. Rebmann, Elise, Part., von Wädenswyl (Zürich).\n416.† Derselbe. Wasch- und Holzhaus.\n417.† Derselbe. Oekonomiegebäude.\n418. Sauerländer-Frey, Remigius.\n  Custer-Sauerländer, Mathilde, Wittwe, Part.\n  Sauerländer-Custer, Emma, Wittwe, Part.\n  Sauerländer, H. R., Verlagsbuchhandlung:\n    Amtsblatt des Kantons Aargau.\n    Aargauischer Polizeianzeiger. (Fahndungsblatt).\n    Bienenzeitung, Schweizerische.\n    Illustrirte schweizerische Jugendblätter. Monatsschrift.\n    Vom Jura zum Schwarzwald. Vierteljahresschrift.\n419.† Derselbe. Oekonomiegebäude.\n420.† Derselbe. Buchdruckerei.\n421.† Derselbe. Abgetragen.\n1184   † Derselbe. Buchbinderei.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7191,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2095,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.15,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:27:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p041",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p041.jpeg",
+      "bytes": 250713,
+      "sha256": "b278536ae5c16c43bbdb7823d8e524d66105e60d56adcc81578e0846293c0d11",
+      "sha256_of": "original",
+      "working_copy": "1888_p041.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:33+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p105",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p105.jpeg",
+    "bytes": 294648,
+    "sha256": "d3e06f29fe87333efe3f71d90e15b4060d891dafda059457086f7c15325a6fd9",
+    "sha256_of": "original",
+    "working_copy": "1888_p105.jpeg"
+  },
+  "text": "Freihofser — Gautschi.\n*Freihofser-Rusterholz, Jak., Bildhauer v. Beltheim (Zürich), Ziegelrain 716.\nFricke, Franziska, Haushälterin von Oberhof, Halden 247.\nFricke-Häufermann, Rudolf, Wagner von Beltheim, Ziegelrain 745.\nFricke-Hiltpold, Samuel, Bahnmeister v. Beltheim, hinter d. Bahnhof 501.\nFricke, Joseph, Commis von Oberhof, Halden 247.\nFricke-Rienberger, Johann, Postbeamter, Rain 838.\nFricke-Leder, Jakob, Bankabwart von Oberflachs, vor dem Halbenthor 768.\nFricke-Reimann, Joseph, Polizeidiener von Wölflinswyl, Halden 281.\nFrieden-Kramer, Agatha, Näherin von Seedorf (Bern), Halden 264.\n*Fricke-Wirz, Friedrich, Spezerei-handlung, von Hunzenschwil, vordere Vorstadt 669.\n*Fritter-Siebenmann, Othmar, Sekretär von Fricke, Rathausgasse 22.\nFritsch-Durrer, Franz, Schneider von Gaggenau (Baden), Kirchhof 164.\n*Fröhlich-Fröhlich, Sophie, Oberrichters Witwe, Part. von Brugg, Zollrain 88.\n*Fröhlich-Etzelger, Franz, Dr., Professor von Brugg, Rain 831.\n*Frymann-Läker, Gottfried, Part., im Hammer 188.\nFuchs, Maria, Part. von Remigen, Kirchgasse 8 a.\nFurrer-Notter, Erhard, Schneider von Volfen (Solothurn), Rathhausgasse 4.\nFurter-Haller, Hans, Gepäckexpedient von Lenzburg, Bahnhofstrasse 519.\nFurter-Rohr, Anna, Witwe, Taglöhnerin von Staufen, Wiltzgasse 149.\nFurter-Rüegger, Fried., Bahnmeister von Staufen, Casinostrosse 1130.\n\nGäng-Engelberger, Bernhardine, Part. von Laufenburg, Graben 618.\nGänslen-Roch, Louise, Wirthin von Startrich (Solothurn), obere Vorstadt 912.\n*Gänslen-Landolt, Karl, Buchhalter von Biberstein, obere Vorstadt 949.\nGänslen-Meier, Adolf, Bäcker von Biberstein, obere Vorstadt 913.\nGagg-Peter, Konrad, Maurer v. Kreuzlingen (Thurgau), Pelzgasse 135.\nGamper-Andres, Rosina, Kaufmanns Witwe, Part., jenseits d. Aare 307.\n*Gamper-Baumann, Emil, March. Tailleur, Wohnung Bahnhofstrasse 1074.\nGamper-Haßler, Karolina, Bäckers Witwe, Mezgergasse 108.\nGamper-Steffen, Marie, Mezgers Witwe, Laurenzenthorgasse 117.\n*Gamper-Wildi, Adolf, Mezger, Mezgergasse 108.\n*Gamper-Zürcher, Hermann, Kaufmann, Wohnung Zollrain 293.\nGampp-Spreuer, Philipp, Aufseher v. Hornussen, Scheibenschachen 312.\n*Ganter-Schilling, Heinrich, Professor von Neustadt (Großh. Baden), Erlinsbacherstrasse 336.\nGantner-Fuchs, Elise, Näherin von Grabs (St. Gallen), Kirchgasse 8 a.\nGantner-Richter, Mathias, Dekonom, Schloßplatz 197.\n*Garonne-Pfleger, Anna, Pfarrers Witwe, Bachstrasse 1047.\n*Gasser-Fendrich, Emanuel, Fabrikant von Hallau (Schaffhausen), jenseits der Aare 294.\nGautschi-Hauri, Johann, Taglöhner von Reinach, Halden 281.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5430,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2543,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 62.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:25:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p105",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p105.jpeg",
+      "bytes": 294648,
+      "sha256": "d3e06f29fe87333efe3f71d90e15b4060d891dafda059457086f7c15325a6fd9",
+      "sha256_of": "original",
+      "working_copy": "1888_p105.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:53+00:00"
+  }
+}

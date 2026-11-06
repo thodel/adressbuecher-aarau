@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p101",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p101.jpeg",
+    "bytes": 247623,
+    "sha256": "803280cfae7883b638924573f235ea2e5a794e51e68bf748475ffa13ebf27741",
+    "sha256_of": "original",
+    "working_copy": "1892_p101.jpeg"
+  },
+  "text": "Birrmann — Bolliger.\n85\nBirrmann-Baldenweg, Albert, Müller von Basel, hintere Vorstadt 684.\nBirrmann, Adolf, Müller, Sohn von Basel, hintere Vorstadt 684.\nBirri-Adli, Wilhelm, Bremsfer von Zeihen, Kathhausgasse 45.\nBirri, Emma, Damenschneiderin von Zeihen, Scheibenschachen 314.\nBirri-Wülser, Fridolin, Posamenter von Zeihen, Scheibenschachen 314.\nBlaser-Studer, Anna, Part. von Langnau (Bern), Pelzgasse 68.\nBlattner, Anna, Lehrerin, jenf. der Are 300.\nBlattner-Bircher, Hans Rudolf, Landwirth von Rüttigen, Erlinsbacher-\nstraße 1246.\nBlattner-Burgunder, August, Sekretär v. Rüttigen, Laurenzenthorgasse 117.\nBlattner-Hofer, Elisabeth, Witwe von Rüttigen, Entfelderstraße 983.\nBlattner, Karl, Maler von Rüttigen, obere Vorstadt 915.\nBlattner, Marie, Weißnäherin von Rüttigen, hintere Vorstadt 621.\nXBlattner-Jäger, Otto, Dr. Fürspruch und Notar, Advokaturbüro obere\nVorstadt 948 und Wohnung jenf. der Are 300.\nBlum, Joseph, Polizeidieners von Wyl, Milchgasse 149.\nBlume-Hirt, Philipp, Schreinermftr. v. Sprendlingen (Heffen), Hammer 189.\nBlume-Hirt, Marie, Feinwascherin und Glätterin, von Sprendlingen\n(Heffen), Hammer 189.\nBlume, Mina, Damenschneiderin von Sprendlingen (Heffen), Laurenzen-\nthorgasse 1118.\nBöhmert-Comte, Richard, Kaufmann von Dresden, Entfelderstraße 983.\nBönninger-Meier Adam, Bahnhofadjunkt von Ritturn (Glarus), Bahn-\nhofstraße 1160.\nBodmer-Roth, Joh. Julius, Fabrikausseher von Erlinsbach, Erlinsbacher-\nstraße 1298.\nXVolens-Rychner, Selma, Witwe von Morges (Waadt), Graben 205.\nBolliger, Armin, Ferge, von Schlokrued, Hammer 190.\nBolliger-Frei, Johann, Taglöhner von Rüttigen, Hammer 188.\nBolliger, Friedrich, Magaziner von Schlokrued, Hammer 190.\nBolliger-Häfeli, Gottfried, Schmied, von Uerkheim, Milchgasse 148.\nBolliger, Heinrich, Sekretär (Krankenanstalt) von Rüttigen,, Gais 1196.\nBolliger, Hermann, Bahnangestellter von Schmiedrued, Hammer 190.\nBolliger-Huggenberger, Jakob, Oberwagenwärter von Buchs, obere Vor-\nstadt 942.\nBolliger, Johann, Notar, Gais 1248.\nBolliger-Wanger, Gustav, Kaufmann, Weißwaarengeschäft, hintere Vor-\nstadt 646.\nBolliger, Melanie, Damenschneiderin, Ziegelrain 713.\nBolliger-Ment, Emil, Buchbinder von Schlokrued, Halden 251.\nBolliger-Schädelin, Julia, Part. v. Schlokrued, vor dem Halbenthor 804.\nBolliger-Schenker, Samuel, Bedienter, von Schlokrued, Laurenzen-\nvorstadt 362.\nBolliger-Thut, Rudolf, Pächter von Egliswyl (Sommerwirthschaft)\nRoggenhaufen 851.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5108,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2417,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:41:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p101",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p101.jpeg",
+      "bytes": 247623,
+      "sha256": "803280cfae7883b638924573f235ea2e5a794e51e68bf748475ffa13ebf27741",
+      "sha256_of": "original",
+      "working_copy": "1892_p101.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:43+00:00"
+  }
+}

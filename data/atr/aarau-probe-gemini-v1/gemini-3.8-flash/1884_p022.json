@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p022",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p022.jpeg",
+    "bytes": 318731,
+    "sha256": "220686e8adaac913e0bd5076666426a55a71799fffcec5eeeae2f7a393a1084e",
+    "sha256_of": "original",
+    "working_copy": "1884_p022.jpeg"
+  },
+  "text": "18\tDürr.\t—\tErismann.\n\n*Dürr, Karl August, Sohn, Kaufmann, Rathhausgasse 19.\n*\t— =Graden, Hieronimus, Schlosser, Adelbändli 174.\n*\t— =Wüthrich, Gottlieb, Taglöhner, Stadthof 92d.\n*\t— Johann, Schneidermeister, Halden 274.\n*\t— =Siebenmann, Karolina, Registrators Wittwe, Adelbändli 171.\n*\t— Emil, Sohn, Partik., Adelbändli 171.\n*\t— Gottfried, Schuhmachergehülfe, Halden 271.\n*\t— =Lüscher, Gabriel, Gemüsehändler, Rainstraße 825.\n*\t— =Seiler, Hermann, Malermeister, Casinostraße 1130.\n*\t— Isaak, Schreinermeister, Milchgasse 161.\n*\t— Isaak, Partik., Ziegelrain 704.\n*\t— =Bürgi, Elisabeth, Wittwe, Ziegelrain 704.\n*\t— =Ackermann, Katharina, Schreiners Wittwe, Milchgasse 161.\n*\t— Lisette, Zettlerin, Halden 279.\n\nEbner-Furter, Hermann, Schriftsetzer, von Wyden, Pelzgasse 65.\n\t— =Brändli, Elis., Wittwe, Fabrikarb., v. Birkingen (Baden), Rthg. 3.\n\t— Josef, Schriftsetzer, von Birkingen (Baden), Rathhausgasse 3.\nEger-Ebner, Theophil, Schneider, von Riehen (Basel), Rainstraße 834.\n*Eggen-Sulzer, Ed., Kaufmann, Colonialwaarenhdlg., Laurenzenthorg. 119b.\nEggimann-Joß, Joh., Wirth, v. Sumiswald (Bern), Bahnhofstraße 1025.\nEgli-Lehmann, Heinrich, Partik., von Wald (Zürich), Zollrain 178.\nEglinger, Mina, Privatin, von Basel, in der Gais 486.\nEgloff-Meier, Fr., Postangestellt., v. Wettingen, Speisewirthsch., Schach. 731.\n\t— Georg, Gärtner, von Tägerweilen (Thurg.), vor dem Haldenthor 1009.\n\t— =Allenspach, Maria Magdalena, Wittwe, Partik., von Tägerweilen\n\t\t(Thurgau), vor dem Haldenthor 1109.\n*Ehrsam-Landolt, Jakob, Bäckermeister, Zollrain 51.\n*\t— =Wehrli, Alfred, Schneidermeister, Igelweid 631.\n*\t— =Andres, Daniel, Postoffiziant, neues Quartier 975.\n*\t— Ida, Partik., Bachstraße 1040.\n*\t— Emilie, Partik., Bachstraße 1040.\nEichenberger, Maria Anna, Taglöhnerin, von Reinach, Kirchgasse 10.b.\n\t— =Flad, Rudolf, Zimmermann, von Reinach, Milchgasse 154.\n\t— =Fischer, Gottlieb, Schreiner, von Beinwyl, obere Vorstadt 921.\n\t— =Joho, Rudolf, Schuhmacher, von Reinach, Kirchplatz 167b.\nElsassser-Kiburz, Gottlieb, Küfermeister, von Unterkulm, Halden 286.\n\t— Ludwig, Posamenter, von Unterkulm, Igelweid 632.\nEng-Käser, Heinrich, Schuhmacher in der Schuhfabrik, von Stüßlingen\n\t\t(Soloth.), Milchgasse 152.\nEngel, Karl, Vergolder, von Schwörstadt (Sachsen), Hammer 188.\nEngesser-Brunner, Jos., Schneider, v. Durchhausen (Wrtmb.), Rathg. 45.\nErdin-Zumsteg, Siegfr., Taglöhner, v. Gansingen, hintere Vorstadt 893.\n*Erismann, Samuel, Friedensrichter und Armenpfleger, Bachstraße 1033.\n*\t— =Indermauer, Abraham, Oekonom, Bachstraße 1033.\n[handschriftlich: Ferdinand]\t— =Sager, [handschriftlich: Friedr] Samuel, Güterexpedient, von Gontenschwyl, in der Gais 485.\n\t— Leutwyler, Samuel, Taglöhner, von Gontenschwyl, in der Gais 485.\n\t— =Hüßi, Samuel, Holzspalter, von Schloßrued, Kirchgasse 10.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8978,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2779,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 56.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+  "recognised_at": "2026-11-06T12:01:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gemini-v1",
+    "source": {
+      "key": "1884_p022",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p022.jpeg",
+      "bytes": 318731,
+      "sha256": "220686e8adaac913e0bd5076666426a55a71799fffcec5eeeae2f7a393a1084e",
+      "sha256_of": "original",
+      "working_copy": "1884_p022.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:01:35+00:00"
+  }
+}

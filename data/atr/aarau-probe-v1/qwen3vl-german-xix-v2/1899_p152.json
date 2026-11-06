@@ -1,0 +1,1271 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-v1",
+  "model": "qwen3vl-german-xix-v2",
+  "engine": "vllm",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p152",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p152.jpeg",
+    "bytes": 277023,
+    "sha256": "81c56770b1aea931bf4072528013e9f2efb983ab99ee57990bd9afbb5848ea1e",
+    "sha256_of": "original",
+    "working_copy": "1899_p152.jpeg"
+  },
+  "text": "s¬\nWulschleger, Hans, Knecht, Bahnhofstraße 1023.\nHeinrich, Bauamtsarbeiter, Kaffeewirthschaft, Bahnhofstraße 1023.\nWyder, Albert, Agentur- und Kommissionsgeschäft, Rain 840.\nWydler geb. Bärlin, Emilie, Färbers Witwe, Ziegelrain 721.\n— Emilie, Färbers, Ziegelrain 721.\n— Erwin, Färber, Ziegelrain 718.\n– Eugen, Färber, Ziegelrain 721.\n- H. Söhne, Heinrich Wydler, Erwin Wydler und Hans Wydler,\nFärberei, Ziegelrain 718.\nHans, Kaufmann, Ziegelrain 717.\nHeinrich, Bezirkslehrer, Zschokkestraße 996.\nHeinrich, Färber, Ziegelrain 718.\nJulius, Notar, Rathausgasse 3.\nKonrad, Apotheker, Rathausgasse 23.\n— Lima, Part., vordere Vorstadt 894.\n— Robert, Ausläufer, Hammer 188.\nWyler, Raphael, Kaufmann, vordere Vorstadt 902.\nWyser, Alfred, Färberesitzer, in Bachstraße 1055.\n— Gustav, Korbmacher, Milchgasse 146.\nZähner geb. Brunhofer, Nanette, Part., Stellenvermittlungsburau\ndes schweiz. Frauenverbandes, Halden 246.\nLouise, Ladentochter, Halden 246.\nZanger, Johann, Taglöhner, Rathausgasse 18.\nZeberl, Georg, Buchbinder, Bahnhofstraße 1360. Filiale Lau=\nrenzenthorgasse 116.\nZeender, Louis, Schriftsetzer, Gais 1563.\nZehnder, Gottlieb, Part., Graben 615.\n— geb. Kaufmann, Barbara, Wee, Gemüsehändlerin, Kirchhof 165 a.\nOtto, Kantonssingenieur, Jurastraße 1458.\nZeller, Lina, Lehrerin, vor dem Haldenthor 769.\nZellweger, Elise, Glätterin, Milchgasse 153 a.\n— Jakob, Schlosser, Milchgasse 153 a.\n— Oskar, Part., Hammer 190.\nZeughäuser, Rohrerstraße 474.\nZimmerli, Eduard, Cementarbeiter, Halden 264.\nGottlieb, Kreiskommandant, Laurenzenvorstadt 364.\nJohann, Holzer, Adelbändli 83.\nZimmermann, Johann, Lehrer, Laurenzenvorstadt 1379.\nZingg geb. Fisch, Hermine, Spezereihandlung, in der Gais 1517.\n— Jakob, Zugführer, in der Gais 1517.\nZobrist, Friedr., Schneider, Scheibenschachen 1486.\n— Jakob, Bahnmester, Hammer 1505.\nZogg, Oswald Martin, Kaufmann, Rohrerstraße 1479.\nZschokke, Arnold, Dr. jur., Staatsschreiber, Entfelderstrafe 975.\n— Arthur, Part., Laurenzenvorstadt 586.\n— & Cie. (Jakob Bächli in Buchs, Eisenbahn- und Wasserbauten,\nBureau de Jurastraße 1458.",
+  "lines": [
+    {
+      "order": 0,
+      "baseline": [
+        [
+          207.0,
+          130.0
+        ],
+        [
+          236.0,
+          130.0
+        ]
+      ],
+      "bbox": [
+        207.0,
+        110.0,
+        236.0,
+        142.0
+      ],
+      "boundary": null,
+      "text": "s¬",
+      "confidence": null,
+      "regions": []
+    },
+    {
+      "order": 1,
+      "baseline": [
+        [
+          206.0,
+          183.0
+        ],
+        [
+          705.0,
+          182.0
+        ]
+      ],
+      "bbox": [
+        205.0,
+        160.0,
+        705.0,
+        190.0
+      ],
+      "boundary": null,
+      "text": "Wulschleger, Hans, Knecht, Bahnhofstraße 1023.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 2,
+      "baseline": [
+        [
+          209.0,
+          205.0
+        ],
+        [
+          878.0,
+          205.0
+        ]
+      ],
+      "bbox": [
+        208.0,
+        184.0,
+        878.0,
+        216.0
+      ],
+      "boundary": null,
+      "text": "Heinrich, Bauamtsarbeiter, Kaffeewirthschaft, Bahnhofstraße 1023.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 3,
+      "baseline": [
+        [
+          206.0,
+          227.0
+        ],
+        [
+          824.0,
+          226.0
+        ]
+      ],
+      "bbox": [
+        205.0,
+        207.0,
+        824.0,
+        235.0
+      ],
+      "boundary": null,
+      "text": "Wyder, Albert, Agentur- und Kommissionsgeschäft, Rain 840.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 4,
+      "baseline": [
+        [
+          206.0,
+          250.0
+        ],
+        [
+          816.0,
+          250.0
+        ]
+      ],
+      "bbox": [
+        206.0,
+        229.0,
+        816.0,
+        262.0
+      ],
+      "boundary": null,
+      "text": "Wydler geb. Bärlin, Emilie, Färbers Witwe, Ziegelrain 721.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 5,
+      "baseline": [
+        [
+          209.0,
+          271.0
+        ],
+        [
+          562.0,
+          271.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        251.0,
+        562.0,
+        280.0
+      ],
+      "boundary": null,
+      "text": "— Emilie, Färbers, Ziegelrain 721.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 6,
+      "baseline": [
+        [
+          206.0,
+          293.0
+        ],
+        [
+          548.0,
+          291.0
+        ]
+      ],
+      "bbox": [
+        205.0,
+        273.0,
+        548.0,
+        301.0
+      ],
+      "boundary": null,
+      "text": "— Erwin, Färber, Ziegelrain 718.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 7,
+      "baseline": [
+        [
+          205.0,
+          313.0
+        ],
+        [
+          552.0,
+          315.0
+        ]
+      ],
+      "bbox": [
+        205.0,
+        295.0,
+        552.0,
+        327.0
+      ],
+      "boundary": null,
+      "text": "– Eugen, Färber, Ziegelrain 721.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 8,
+      "baseline": [
+        [
+          205.0,
+          337.0
+        ],
+        [
+          877.0,
+          339.0
+        ]
+      ],
+      "bbox": [
+        205.0,
+        312.0,
+        877.0,
+        357.0
+      ],
+      "boundary": null,
+      "text": "- H. Söhne, Heinrich Wydler, Erwin Wydler und Hans Wydler,",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 9,
+      "baseline": [
+        [
+          239.0,
+          359.0
+        ],
+        [
+          523.0,
+          359.0
+        ]
+      ],
+      "bbox": [
+        239.0,
+        340.0,
+        523.0,
+        370.0
+      ],
+      "boundary": null,
+      "text": "Färberei, Ziegelrain 718.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 10,
+      "baseline": [
+        [
+          207.0,
+          381.0
+        ],
+        [
+          575.0,
+          381.0
+        ]
+      ],
+      "bbox": [
+        207.0,
+        362.0,
+        575.0,
+        392.0
+      ],
+      "boundary": null,
+      "text": "Hans, Kaufmann, Ziegelrain 717.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 11,
+      "baseline": [
+        [
+          207.0,
+          403.0
+        ],
+        [
+          687.0,
+          403.0
+        ]
+      ],
+      "bbox": [
+        207.0,
+        383.0,
+        687.0,
+        417.0
+      ],
+      "boundary": null,
+      "text": "Heinrich, Bezirkslehrer, Zschokkestraße 996.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 12,
+      "baseline": [
+        [
+          208.0,
+          424.0
+        ],
+        [
+          572.0,
+          426.0
+        ]
+      ],
+      "bbox": [
+        207.0,
+        405.0,
+        572.0,
+        437.0
+      ],
+      "boundary": null,
+      "text": "Heinrich, Färber, Ziegelrain 718.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 13,
+      "baseline": [
+        [
+          208.0,
+          446.0
+        ],
+        [
+          548.0,
+          448.0
+        ]
+      ],
+      "bbox": [
+        207.0,
+        428.0,
+        548.0,
+        459.0
+      ],
+      "boundary": null,
+      "text": "Julius, Notar, Rathausgasse 3.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 14,
+      "baseline": [
+        [
+          209.0,
+          468.0
+        ],
+        [
+          653.0,
+          470.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        448.0,
+        653.0,
+        483.0
+      ],
+      "boundary": null,
+      "text": "Konrad, Apotheker, Rathausgasse 23.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 15,
+      "baseline": [
+        [
+          208.0,
+          492.0
+        ],
+        [
+          589.0,
+          492.0
+        ]
+      ],
+      "bbox": [
+        208.0,
+        473.0,
+        589.0,
+        503.0
+      ],
+      "boundary": null,
+      "text": "— Lima, Part., vordere Vorstadt 894.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 16,
+      "baseline": [
+        [
+          210.0,
+          512.0
+        ],
+        [
+          570.0,
+          514.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        493.0,
+        570.0,
+        524.0
+      ],
+      "boundary": null,
+      "text": "— Robert, Ausläufer, Hammer 188.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 17,
+      "baseline": [
+        [
+          209.0,
+          538.0
+        ],
+        [
+          712.0,
+          535.0
+        ]
+      ],
+      "bbox": [
+        208.0,
+        515.0,
+        712.0,
+        546.0
+      ],
+      "boundary": null,
+      "text": "Wyler, Raphael, Kaufmann, vordere Vorstadt 902.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 18,
+      "baseline": [
+        [
+          209.0,
+          560.0
+        ],
+        [
+          739.0,
+          557.0
+        ]
+      ],
+      "bbox": [
+        208.0,
+        538.0,
+        739.0,
+        571.0
+      ],
+      "boundary": null,
+      "text": "Wyser, Alfred, Färberesitzer, in Bachstraße 1055.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 19,
+      "baseline": [
+        [
+          210.0,
+          580.0
+        ],
+        [
+          621.0,
+          580.0
+        ]
+      ],
+      "bbox": [
+        210.0,
+        561.0,
+        621.0,
+        597.0
+      ],
+      "boundary": null,
+      "text": "— Gustav, Korbmacher, Milchgasse 146.",
+      "confidence": null,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 20,
+      "baseline": [
+        [
+          211.0,
+          651.0
+        ],
+        [
+          880.0,
+          649.0
+        ]
+      ],
+      "bbox": [
+        210.0,
+        622.0,
+        880.0,
+        663.0
+      ],
+      "boundary": null,
+      "text": "Zähner geb. Brunhofer, Nanette, Part., Stellenvermittlungsburau",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 21,
+      "baseline": [
+        [
+          241.0,
+          672.0
+        ],
+        [
+          677.0,
+          670.0
+        ]
+      ],
+      "bbox": [
+        240.0,
+        652.0,
+        677.0,
+        680.0
+      ],
+      "boundary": null,
+      "text": "des schweiz. Frauenverbandes, Halden 246.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 22,
+      "baseline": [
+        [
+          212.0,
+          694.0
+        ],
+        [
+          590.0,
+          694.0
+        ]
+      ],
+      "bbox": [
+        212.0,
+        674.0,
+        590.0,
+        704.0
+      ],
+      "boundary": null,
+      "text": "Louise, Ladentochter, Halden 246.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 23,
+      "baseline": [
+        [
+          209.0,
+          717.0
+        ],
+        [
+          669.0,
+          714.0
+        ]
+      ],
+      "bbox": [
+        208.0,
+        695.0,
+        669.0,
+        727.0
+      ],
+      "boundary": null,
+      "text": "Zanger, Johann, Taglöhner, Rathausgasse 18.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 24,
+      "baseline": [
+        [
+          209.0,
+          739.0
+        ],
+        [
+          881.0,
+          737.0
+        ]
+      ],
+      "bbox": [
+        208.0,
+        717.0,
+        881.0,
+        753.0
+      ],
+      "boundary": null,
+      "text": "Zeberl, Georg, Buchbinder, Bahnhofstraße 1360. Filiale Lau=",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 25,
+      "baseline": [
+        [
+          240.0,
+          760.0
+        ],
+        [
+          450.0,
+          758.0
+        ]
+      ],
+      "bbox": [
+        239.0,
+        743.0,
+        450.0,
+        770.0
+      ],
+      "boundary": null,
+      "text": "renzenthorgasse 116.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 26,
+      "baseline": [
+        [
+          209.0,
+          782.0
+        ],
+        [
+          621.0,
+          781.0
+        ]
+      ],
+      "bbox": [
+        208.0,
+        760.0,
+        621.0,
+        794.0
+      ],
+      "boundary": null,
+      "text": "Zeender, Louis, Schriftsetzer, Gais 1563.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 27,
+      "baseline": [
+        [
+          209.0,
+          804.0
+        ],
+        [
+          588.0,
+          803.0
+        ]
+      ],
+      "bbox": [
+        208.0,
+        784.0,
+        588.0,
+        816.0
+      ],
+      "boundary": null,
+      "text": "Zehnder, Gottlieb, Part., Graben 615.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 28,
+      "baseline": [
+        [
+          213.0,
+          825.0
+        ],
+        [
+          880.0,
+          826.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        803.0,
+        880.0,
+        837.0
+      ],
+      "boundary": null,
+      "text": "— geb. Kaufmann, Barbara, Wee, Gemüsehändlerin, Kirchhof 165 a.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 29,
+      "baseline": [
+        [
+          211.0,
+          847.0
+        ],
+        [
+          652.0,
+          848.0
+        ]
+      ],
+      "bbox": [
+        210.0,
+        829.0,
+        652.0,
+        859.0
+      ],
+      "boundary": null,
+      "text": "Otto, Kantonssingenieur, Jurastraße 1458.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 30,
+      "baseline": [
+        [
+          209.0,
+          870.0
+        ],
+        [
+          702.0,
+          870.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        850.0,
+        702.0,
+        881.0
+      ],
+      "boundary": null,
+      "text": "Zeller, Lina, Lehrerin, vor dem Haldenthor 769.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 31,
+      "baseline": [
+        [
+          209.0,
+          893.0
+        ],
+        [
+          665.0,
+          893.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        873.0,
+        665.0,
+        905.0
+      ],
+      "boundary": null,
+      "text": "Zellweger, Elise, Glätterin, Milchgasse 153 a.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 32,
+      "baseline": [
+        [
+          213.0,
+          915.0
+        ],
+        [
+          598.0,
+          915.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        895.0,
+        598.0,
+        922.0
+      ],
+      "boundary": null,
+      "text": "— Jakob, Schlosser, Milchgasse 153 a.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 33,
+      "baseline": [
+        [
+          211.0,
+          935.0
+        ],
+        [
+          520.0,
+          937.0
+        ]
+      ],
+      "bbox": [
+        210.0,
+        917.0,
+        520.0,
+        948.0
+      ],
+      "boundary": null,
+      "text": "— Oskar, Part., Hammer 190.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 34,
+      "baseline": [
+        [
+          209.0,
+          959.0
+        ],
+        [
+          531.0,
+          957.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        939.0,
+        531.0,
+        971.0
+      ],
+      "boundary": null,
+      "text": "Zeughäuser, Rohrerstraße 474.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 35,
+      "baseline": [
+        [
+          209.0,
+          981.0
+        ],
+        [
+          686.0,
+          981.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        960.0,
+        686.0,
+        992.0
+      ],
+      "boundary": null,
+      "text": "Zimmerli, Eduard, Cementarbeiter, Halden 264.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 36,
+      "baseline": [
+        [
+          213.0,
+          1001.0
+        ],
+        [
+          763.0,
+          1003.0
+        ]
+      ],
+      "bbox": [
+        212.0,
+        982.0,
+        763.0,
+        1013.0
+      ],
+      "boundary": null,
+      "text": "Gottlieb, Kreiskommandant, Laurenzenvorstadt 364.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 37,
+      "baseline": [
+        [
+          213.0,
+          1024.0
+        ],
+        [
+          560.0,
+          1024.0
+        ]
+      ],
+      "bbox": [
+        213.0,
+        1005.0,
+        560.0,
+        1037.0
+      ],
+      "boundary": null,
+      "text": "Johann, Holzer, Adelbändli 83.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 38,
+      "baseline": [
+        [
+          210.0,
+          1046.0
+        ],
+        [
+          765.0,
+          1046.0
+        ]
+      ],
+      "bbox": [
+        210.0,
+        1023.0,
+        765.0,
+        1057.0
+      ],
+      "boundary": null,
+      "text": "Zimmermann, Johann, Lehrer, Laurenzenvorstadt 1379.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 39,
+      "baseline": [
+        [
+          210.0,
+          1068.0
+        ],
+        [
+          853.0,
+          1068.0
+        ]
+      ],
+      "bbox": [
+        210.0,
+        1049.0,
+        853.0,
+        1083.0
+      ],
+      "boundary": null,
+      "text": "Zingg geb. Fisch, Hermine, Spezereihandlung, in der Gais 1517.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 40,
+      "baseline": [
+        [
+          212.0,
+          1089.0
+        ],
+        [
+          610.0,
+          1091.0
+        ]
+      ],
+      "bbox": [
+        211.0,
+        1071.0,
+        610.0,
+        1098.0
+      ],
+      "boundary": null,
+      "text": "— Jakob, Zugführer, in der Gais 1517.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 41,
+      "baseline": [
+        [
+          210.0,
+          1113.0
+        ],
+        [
+          725.0,
+          1112.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        1091.0,
+        725.0,
+        1125.0
+      ],
+      "boundary": null,
+      "text": "Zobrist, Friedr., Schneider, Scheibenschachen 1486.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 42,
+      "baseline": [
+        [
+          212.0,
+          1134.0
+        ],
+        [
+          599.0,
+          1133.0
+        ]
+      ],
+      "bbox": [
+        211.0,
+        1116.0,
+        599.0,
+        1143.0
+      ],
+      "boundary": null,
+      "text": "— Jakob, Bahnmester, Hammer 1505.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 43,
+      "baseline": [
+        [
+          210.0,
+          1158.0
+        ],
+        [
+          741.0,
+          1156.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        1137.0,
+        741.0,
+        1167.0
+      ],
+      "boundary": null,
+      "text": "Zogg, Oswald Martin, Kaufmann, Rohrerstraße 1479.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 44,
+      "baseline": [
+        [
+          210.0,
+          1180.0
+        ],
+        [
+          858.0,
+          1178.0
+        ]
+      ],
+      "bbox": [
+        209.0,
+        1161.0,
+        858.0,
+        1190.0
+      ],
+      "boundary": null,
+      "text": "Zschokke, Arnold, Dr. jur., Staatsschreiber, Entfelderstrafe 975.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 45,
+      "baseline": [
+        [
+          212.0,
+          1200.0
+        ],
+        [
+          625.0,
+          1200.0
+        ]
+      ],
+      "bbox": [
+        212.0,
+        1181.0,
+        625.0,
+        1212.0
+      ],
+      "boundary": null,
+      "text": "— Arthur, Part., Laurenzenvorstadt 586.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 46,
+      "baseline": [
+        [
+          212.0,
+          1221.0
+        ],
+        [
+          882.0,
+          1222.0
+        ]
+      ],
+      "bbox": [
+        212.0,
+        1201.0,
+        882.0,
+        1239.0
+      ],
+      "boundary": null,
+      "text": "— & Cie. (Jakob Bächli in Buchs, Eisenbahn- und Wasserbauten,",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    },
+    {
+      "order": 47,
+      "baseline": [
+        [
+          246.0,
+          1244.0
+        ],
+        [
+          525.0,
+          1245.0
+        ]
+      ],
+      "bbox": [
+        245.0,
+        1225.0,
+        525.0,
+        1267.0
+      ],
+      "boundary": null,
+      "text": "Bureau de Jurastraße 1458.",
+      "confidence": null,
+      "regions": [
+        "r2"
+      ]
+    }
+  ],
+  "confidence": 0.0,
+  "segmented_by": "kraken-blla+Riksarkivet/yolov9-regions-1",
+  "timing_ms": 20098,
+  "truncated": false,
+  "settings": null,
+  "quality": {
+    "verdict": "ok",
+    "chars": 2056,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": {
+    "engine": "party",
+    "model": "party",
+    "text": "",
+    "lines": [],
+    "confidence": null,
+    "timing_ms": 0,
+    "error": "timed out: no answer within 30s of the primary result"
+  },
+  "gateway_version": "0.1.0",
+  "recognised_at": "2026-11-06T13:01:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-v1",
+    "source": {
+      "key": "1899_p152",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p152.jpeg",
+      "bytes": 277023,
+      "sha256": "81c56770b1aea931bf4072528013e9f2efb983ab99ee57990bd9afbb5848ea1e",
+      "sha256_of": "original",
+      "working_copy": "1899_p152.jpeg"
+    },
+    "model": {
+      "model": "qwen3vl-german-xix-v2",
+      "engine": "vllm",
+      "level": "line",
+      "revision": null,
+      "revision_kind": "unversioned_repo",
+      "weights": "dh-unibe/qwen3vl-german-xix-v2",
+      "base_model": "Qwen/Qwen3-VL-4B-Instruct"
+    },
+    "gateway_version": "0.1.0",
+    "segmented_by": "kraken-blla+Riksarkivet/yolov9-regions-1",
+    "recognised_at": "2026-11-06T13:01:57+00:00"
+  }
+}

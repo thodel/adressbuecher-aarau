@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p175",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p175.jpeg",
+    "bytes": 226380,
+    "sha256": "cf1591bcbed304a1ccfb278592c8dc643da9f3b39ce14fa338a2c8c578d41b75",
+    "sha256_of": "original",
+    "working_copy": "1892_p175.jpeg"
+  },
+  "text": "159\n\nVerzeichniß der Gesellschaften und Vereine.\n\nI. Wohlthätigkeits-Gesellschaften.\nA. Armenvereine.\nArmenerziehungsverein des Bez. Aarau.\nDeutscher Hilfsverein.\nFrauenarbeitsverein Aarau.\nHilfsverein Aarau.\nKleinkinderpflege in der Halden.\nKleinkinderschule Bahnhofstraße.\nSchwesternverein der Loge zur „Bruder-\n  treue“ in Aarau.\nStädtischer Fünfrappenverein Aarau.\nVerein gegen Hausbettel.\n\nB. Krankenvereine, Unterstützungskassen.\nBuchdrucker-Krankenkasse.\nGroße Gesellenlade für Handwerker.\nGrütliverein-Krankenkasse.\nHeizer- und Maschinistenverein von Aarau\n  und Umgebung.\nKrankensuppe-Anstalt.\nKrankenunterstützungs-Gesellschaft für\n  Frauen und Töchter.\nMänner - Krankenunterstützungs - Verein\n  Aarau.\nSamariterverein.\nStädtischerLehrerpensionsverein in Aarau.\n\nII. Vereine und Gesellschaften\nmit künstlerischen, wissenschaftlichen und\ngewerblichen Tendenzen.\nAargauischer Kunstverein.\nAargauischer Thierschutzverein.\nAarg. Ingenieur- und Architekten-Verein.\nBibelgesellschaft.\nChristlicher Jünglingsverein.\nEinwohnerverein der Stadt Aarau.\nFreimaurerloge.\nGartenbauverein.\nGewerbehalle und Vorschußkasse.\nGrütliverein Aarau.\nHandwerker- und Gewerbeverein.\nHistorische Gesellschaft.\nKaufmännische Abendgesellschaft.\nKulturgesellschaft des Bezirks Aarau.\nLesegesellschaft.\nMittelschweiz. Geographisch Commercielle\n  Gesellschaft in Aarau.\nNaturforschende Gesellschaft.\nSchneider-Fachverein Aarau.\n\n[spalte 2]\nSchuhmacherverein Aarau.\nSonntags- und Handwerkerschule.\nStenographenverein.\nTarifverein Aarau.\nTypographenverein.\nVerein junger Kaufleute.\nVerein schweizerischer Geschäftsreisender,\n  Sektion Aarau.\n\nIII. Gesangvereine.\nCäcilienverein Aarau.\nGesangssektion des Grütlivereins.\nSängerbund Aarau.\nTöchterchor „Melodia“ Aarau.\n\nIV. Musikvereine.\nOrchesterverein.\nStadtmusikgesellschaft Aarau.\nZither-Club Aarau.\n\nV. Militärische Vereinigungen.\nArtillerieverein Aarau.\nMilitär-Sanitätsverein von Aarau und\n  Umgebung.\nOffiziers-Gesellschaft Aarau.\nUnteroffiziersverein Aarau.\nWasserfahrverein Aarau.\n\nVI. Schützengesellschaften.\nFreier Schießverein Aarau.\nSchützengesellschaft Aarau.\nSchützengesellschaft des Grütlivereins.\n\nVII. Turnvereine.\nBürgerturnverein Aarau.\nTurnverein Alte Sektion.\nTurnverein Sektion des Grütlivereins.\n\nVIII. Verschiedene Gesellschaften\nund Vereine.\nAargauischer Taubstummenverein.\nAltersgenossenverein Aarau.\nDeutscher Arbeiterverein.\nFitzenverein Aarau.\nJakobenverein Aarau.\nMäßigkeitsverein des blauen Kreuzes.\nVelo-Club.\nZweiundzwanziger-Jahrgängerverein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7176,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2502,
+    "lines": 92,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 25.93,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:07:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p175",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p175.jpeg",
+      "bytes": 226380,
+      "sha256": "cf1591bcbed304a1ccfb278592c8dc643da9f3b39ce14fa338a2c8c578d41b75",
+      "sha256_of": "original",
+      "working_copy": "1892_p175.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:07:19+00:00"
+  }
+}

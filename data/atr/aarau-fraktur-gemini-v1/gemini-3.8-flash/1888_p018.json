@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p018",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p018.jpeg",
+    "bytes": 240321,
+    "sha256": "014edc882ab8b62f983cc28e3ec28a02a10ceffa71e7a22c40bb867144674616",
+    "sha256_of": "original",
+    "working_copy": "1888_p018.jpeg"
+  },
+  "text": "— 8 —\n\nHaus=\nNr.\n  Ebner-Furter, Hermann, Schriftsetzer, von Wyden.\n  Mattenberger-Gehrig, Johannes, Taglöhner, von Birr.\n79.  Wärtli geb. Nußbaum, Marg., Wittwe, Part.\n  Rüedi-Wärtli, Joh. Nepomuck, Staatsweibel, von Sulz.\n  Brogli-Gautschi, Joseph, Polizeidiener, von Sisseln.\n  Jungi-Blattner, Johann, Schuhmachermeister, von Guggisberg (Bern).\n  Jungi-Blattner, Lina, Damenschneiderin, von Guggisberg (Bern.)\n\nKirchhof.\n\n80.  Schlatter-Bühler, Maria, Marbriers Wittwe.\n  Welti-Spühler, Heinrich, Buchdrucker, von Zurzach.\n  Geißmann, Xaver, Sekretär, von Hägglingen.\n\nAdelbändli.\n\n81.  Rüetschi-Mattli, Gottfried, Obergerichtsweibel.\n  Rüetschi-Wenger, Gottfried. Milch-, Butter-, Käs- und Spezereihandlung.\n    Salzverkauf.\n  Ott, Anna, Zettlermeisterin, von Ryken.\n  Chrismann, Maria, Fabrikarbeiterin, von Gontenschwyl.\n82. * Morath, Johann, Kaufmann.\n  Hunziker-Tschopp, Gottlieb, Schneider, von Unterkulm.\n  Käser-Möri, Jakob, Taglöhner, von Oberflachs.\n  Wittwer-Bolliger, Friedrich, Taglöhner, von Schangnau (Bern).\n83.  Märk, Geschwister*, August und Louise.\n  Märk, Louise, Glätterin.\n  Leibundgut-Geiser, Rosina, Taglöhnerin, von Melchnau.\n84. * Märk, Karl und Kappeler geb. Märk, Elise, Damenschneiderin.\n  Kappeler-Märk, Elise, Damenschneiderin.\n  Hübscher-König, Anton, Taglöhner, von Dottikon.\n85. a.* Bär-Frei, Sattlers, Wittwe.\n  Suter-Kohler, Jakob, Schreiner, von Kölliken.\n  Treier-Frey, Johann Baptist, Schreiner, von Oberhof.\n85. b. Hediger-Sommerhalder, Samuel, Dachdecker und Kaminfeger, von\n    Reinach.\n86. a. Schmuziger-Zulauf, Marie, Part.\n  Schmuziger, Emma, Damenschneiderin.\n86. b. Dieselbe.\n  Wernli-Bolliger, Johann, Ziegeleiarbeiter, von Thalheim.\n\nZollrain.\n\n87.  Kiefer-Leyvraz, Fanny, Wittwe. Speisewirthschaft.\n  Kiefer, Wilhelm, Sohn, Metzger.\n88.  Jeggli-Hässig, Robert, Bäckermeister.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6482,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1828,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:24:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p018",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p018.jpeg",
+      "bytes": 240321,
+      "sha256": "014edc882ab8b62f983cc28e3ec28a02a10ceffa71e7a22c40bb867144674616",
+      "sha256_of": "original",
+      "working_copy": "1888_p018.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:43+00:00"
+  }
+}

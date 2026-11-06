@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p078",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p078.jpeg",
+    "bytes": 260259,
+    "sha256": "124fad7079ef4b39ea507300ae43e0bd75a7da3a85251593b3620dc8cf1e0666",
+    "sha256_of": "original",
+    "working_copy": "1888_p078.jpeg"
+  },
+  "text": "— 68 —\n\nHaus-\nNr.\n1055. Wyser-Müller, Alfred, Seidenfärber. Wohnhaus und Färberei.\n1056.† Derselbe. Färberei.\n1057.† Derselbe. Seidenfärberei und Druckerei.\n1058. a.† Derselbe. Waschhaus.\n1058. b.† Derselbe. Färberei.\n1059.* Frey-Volley, Edwin, Kaufmann. Wohnhaus.\n1060.† Derselbe. Scheune.\n1061.† Brack, Abraham, Oekonom.\n  Brack-Erismann, Anna, Wittwe, Part.\n  Fahrländer-Müller, Verena, Wittwe, Part.\n1062. Frey-Volley, Edwin, Kaufmann. (Villa Olinda.)\n1080 † Derselbe. Gewächshaus.\n1153 † Derselbe. Holzschopf und Geflügelhaus.\n\nNach der Nummerirung gebaute Häuser.\n\n1063.* Schäfer-Troller, Adolf, Architekt. (In der Gais.) (Südbahnbüreau.)\n1064.† Derselbe. Holzschopf. (In der Gais.)\n1065.† Derselbe. Baracke. (In der Gais.)\n1066.† Riniker-Groß, Friedrich, Bierbrauer. Kühlschiff (Mühlegäßchen).\n1067.† Biedermann-Siebenmann, Leonz, Kaufmann. Rebhäuschen\n  (Weinberg).\n1068.† Burkard, Ferd., Coiffeur. Rebhäuschen (Weinberg).\n1069.† Gemeinde Aarau. Wasengebäude (Scheibenschachen).\n1070.† Abgetragen.\n1071.† Abgetragen.\n1072. Gautschi, Rudolf, Wirth zum „Frohsinn“. (Hinter dem Bahnhof.)\n1073.† Kraft, Adolf, Notar. Holzremise (Bachstraße).\n1074.* Spengler-Lienhard, Louise, Wittwe, Part. (Bahnhofstraße.)\n1075. Brentano-Bruggisser, Max, Zahnarzt, von Laufenburg. (Entfelder-\n  straße.)\n1076. Beck-Braun, Friedrich, Sattler. (Entfelderstraße.)\n1077.† Rychner und Rothpletz, Röhrenfabrik. (Bahnhofstraße.)\n1078.† Würger-Maurer, H., Eisengießerei. (Hinterm Bahnhof.)\n1079. Zschokke & Cie. (Rohrerstraße.)\n1080.† Frey-Volley, Edwin. Gewächshaus (Bachstraße).\n1081.† Klingelfuß, Johann, Mechaniker. Werkstätte (Weinberg).\n1082.† Derselbe. Holzschopf (Weinberg).\n1083.* Amsler-Falger, Wittwe. Wohnhäuschen (vor dem Haldenthor).\n1084.* Wehrli-Walser, Rosina. Wohnhaus (vor dem Haldenthor).\n1085.† Jenny und Weigel, Farbgebäude. (In der Telli.)\n1086. Stähelin-Herzog, Alfred, Dr. med. (Im Kirschgarten.)\n1087.† Derselbe. Eishaus (im Kirschgarten).\n1088. Abgetragen.\n1089.† Gasbeleuchtungsgesellschaft. Schopf (an der Aare).\n1090.† Dieselbe. Schopf (an der Aare).\n1091.† Märky, Haller & Cie. Büreau. (Wöschnau.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7441,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2108,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:32:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p078",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p078.jpeg",
+      "bytes": 260259,
+      "sha256": "124fad7079ef4b39ea507300ae43e0bd75a7da3a85251593b3620dc8cf1e0666",
+      "sha256_of": "original",
+      "working_copy": "1888_p078.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:32:17+00:00"
+  }
+}

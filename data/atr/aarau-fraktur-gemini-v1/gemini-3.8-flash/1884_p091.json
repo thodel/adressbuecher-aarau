@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p091",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p091.jpeg",
+    "bytes": 226776,
+    "sha256": "473603cb89a7f692dfd23454630897e688b65b1092d5e038f6c44faec3d3b946",
+    "sha256_of": "original",
+    "working_copy": "1884_p091.jpeg"
+  },
+  "text": "87\nDruck und Verlag von Martin, F. G.\nAargauer Nachrichten, 6 Mal wöchentl.\n  Preis Fr. 9 für Aarau, franko aus-\n  wärts Fr. 11.\nAargauer Zeitung, 2 Mal wöchentlich.\n  Preis Fr. 6 für Aarau u. auswärts.\nDruck und Verlag v. Sauerländer, H. R.\nAmtsblatt des Kantons Aargau, 1 Mal\n  wöchentl. Preis Fr. 6. 50 für Aarau,\n  franko auswärts Fr. 7. 50.\nAarg. Polizei-Anzeiger (Fahndungsbl.)\nIllustrirte schweizerische Jugendblätter,\n  1 Mal monatl. Preis Fr. 5.\nVom Jura zum Schwarzwald, viertel-\n  jahrsweise per Jahrgang Fr. 6.\n[spalte 2]\nDruck und Verlag von Stierli, Karl.\nAargauer Tagblatt, 6 Mal wöchentlich.\n  Preis Fr. 9 für Aarau, franko aus-\n  wärts Fr. 10.\nAargauer Volksfreund, 3 Mal wöchentl.\n  Preis für Aarau und auswärts Fr. 6.\nZiegelfabrikanten.\nHauri-Siegenthaler, Karl, Rainstr. 866.\nThut-Gidemann, H., Rainstraße 863.\nZimmermeister.\nEichenberger, Rudolf, Milchgasse 154.\nHemmeler, G., vor dem Haldenthor 767.\nNieding, Hrch., neues Quartier 970.\nZinngießer.\nWehrli, Friedrich, Adelbändli 172.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5993,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1004,
+    "lines": 32,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0312,
+    "mean_line_chars": 29.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:22:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p091",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p091.jpeg",
+      "bytes": 226776,
+      "sha256": "473603cb89a7f692dfd23454630897e688b65b1092d5e038f6c44faec3d3b946",
+      "sha256_of": "original",
+      "working_copy": "1884_p091.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:26+00:00"
+  }
+}

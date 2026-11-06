@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p094",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p094.jpeg",
+    "bytes": 287816,
+    "sha256": "e5c242b82398cff1c4c67eabc04a99e2a807707a9a446e8e8c98c7c08a108e8f",
+    "sha256_of": "original",
+    "working_copy": "1884_p094.jpeg"
+  },
+  "text": "Inhalts-Verzeichniß.\n\nI. Kurze Beschreibung der Stadt Aarau\nSeite 5—9.\nII. Abhaltung der Wochen- u. Jahrmärkte\nSeite 10.\nIII. Alphabetisches Verzeichniß der Bürger\nund Einwohner.\nA Seite 11—12, B 12—16, C 16—17,\nD 17—18, E 18—19, F 19—22,\nG 22—24, H 24—29, I 29—30,\nK 30—33, L 33—34, M 34—37,\nN 37, O 37, P 37—38, R 38—41,\nS 41—47, T 47, U 47, V 48,\nW 48—52, Z 52—53.\nIV. Verzeichniß der Wohn- u. Ökonomie-\ngebäude im Stadtbezirk Aarau\nin fortlaufenden Nro.\nHaus Nro.    1 — 47    Seite 55\n\"    \"    48 — 118    \"    56\n\"    \"    119 — 194    \"    57\n\"    \"    195 — 270    \"    58\n\"    \"    271 — 352    \"    59\n\"    \"    353 — 487    \"    60\n\"    \"    488 — 620    \"    61\n\"    \"    621 — 699    \"    62\n\"    \"    700 — 795    \"    63\n\"    \"    796 — 884    \"    64\n\"    \"    885 — 976    \"    65\n\"    \"    977—1068    \"    66\n\"    \"    1069 —1135    \"    67\n\"    \"    1136 —1203    \"    68\nV. Verzeichniß der Straßen und Plätze\nim Stadtbezirk Aarau\nSeite 69.\nVI. Alphabet. Verzeichniß der Einwohner\nnach ihren Geschäften u. Gewerben.\nSeite.\nÄrzte    71\nApotheker    71\nAgenturen    71\nAntiquare    71\nArchitekten    72\nAsphaltgeschäfte    72\nAusrüfer    72\nBadanstalten    72\nBäcker    72\nBandfabrikanten    72\nBankgeschäfte    72\nBaumeister    72\nBarbiere    72\nBaumwolltuchfabrikanten    72\nBaumwollspinnerei    73\nBaumwolltuchhandlungen (en gros)    73\nBazars    73\nBettwarenhändler    73\nBijouteriewaren    73\nBierbrauereien    73\nBierpressionen = Fabrikanten    73\nBildhauer    73\nBonnetteriefabrikation    73\nBrunnenmeister    73\nBuchbinder    73\nBuchdruckereien    73\nBuchhandlungen    73\nButterverkäufer    73\nBüchsenmacher    73\nBürstenmacher    73\nBürstenhändler    73\nCannioneure    73\nGautschut=Artikel    73\nCementfabrikanten    73\nChemisch-technische Präparate    73\nCigarrenhandlungen    73\nChemische Produkte    74\nGöfsceufen    74\nColonialwarenhandlungen    74\nCommissions- und Agenturgeschäfte    74\nConditoren    74\nConfectionsgeschäfte    74\nCorfetfschneiderinnen    74\nDachdecker    74\nDamasz- und Leinenhandlungen    74\nDampffäge    74\nDelikatessenhandlungen    74\nDienstmänner    74\nDrechsler    74\nDroguenhandlungen    74\nEichmeister    74\nEifengießerei    74\nEifenhändlungen    74\nEifen-, Messing- u. Stahlwaaren    74\nElastische Gewebe=Fabriken    74\nEilenwarenhandlungen    74\nErsparniskassen    74\nFarbwarenfabrication    75\nFarbwarenhandlungen    75\nFärberien    75\nFeilträgergeschäft    75\nFeinschleifer    75\nFeuerwerk=Artikel    75\nFuhrhalter    75\nFourniturenhändler    75\nFürspracher    75\nGarnhandlungen    75\nGasanstalt    75\nGärtner    75\nGeometer    75\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7018,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2604,
+    "lines": 108,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 23.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:18:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p094",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p094.jpeg",
+      "bytes": 287816,
+      "sha256": "e5c242b82398cff1c4c67eabc04a99e2a807707a9a446e8e8c98c7c08a108e8f",
+      "sha256_of": "original",
+      "working_copy": "1884_p094.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:18:33+00:00"
+  }
+}

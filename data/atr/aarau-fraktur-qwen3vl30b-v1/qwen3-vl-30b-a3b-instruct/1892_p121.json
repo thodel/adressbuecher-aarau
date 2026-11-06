@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p121",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p121.jpeg",
+    "bytes": 232212,
+    "sha256": "85c8cb51e8afbb748a972055e8431c9a47ecc88ba3bbd8a9fef967cd2edd36b7",
+    "sha256_of": "original",
+    "working_copy": "1892_p121.jpeg"
+  },
+  "text": "Jeggli – Häffig, Robert, Bäcker, Zoltrain 88.\nJeggli-Widmer, Karolina, Wittwe, Part., Adelbündli 175.\nJehle-Weber, Mathäus, Scheibenarbeiter von Wyl, Halden 279.\n* Jenny-Kunz, Adolf, Kaufmann von Jfifweil (Bern), Zärberer- und\n  Druckereigeschäft, Zelli 449.\n* Imhof-Uman, Ernst, Fabrikant, Bachstraße 1035.\n* Imhof-Herzog, Emma Med. Drs. Wittwe, Part., Laurenenvorstadt 399.\n* Imhof, Lina, Part., Rain 834.\n* Imhof, Louise, Part., Bachstraße 1107.\n* Imhof, Suzette, Bachstraße 1107.\n* Imhof-Munzinger, Emil, Part., Graben 215.\nImhof-Schmid, Carolina, Wittwe Part., obere Vorstadt 940.\nJörg-Künzli, Peter, Schuhmermeister, Schuhhandlung, Rain 820.\nJörg-Hächler, Samuel, Schreiner von Afloltern (Bern), Bachstraße 1032.\nJörg, Jakob, Seilergehilfe von Afloltern (Bern), Golattenmattgasse 234.\nJoho-Bryner, Samuel, Zärber von Auenstein, Halden 282.\nJos-Scheibler, Anna Elisabeth, Wittwe, Part. von Gallmannsweil\n  (Baden), obere Vorstadt 944.\nJost-Mozer, August, Schneider v. Benfeld (Elsaf), Golattenmattgasse 235.\n* Jäler-Bruggisser, Arthur, Dr. med. von Wohlen, Graben 615.\n* Jäler, Emil, Fürsprech und Notar von Wohlen, Advokaturbureau,\n  Laurenenvorstadt 413.\nJäler, Maria, Part. von Wohlen, Laurenenvorstadt 413.\nJästiker, Ulrich, Schuhmachermeister von Andelfingen (Zürich), Golatten-\n  mattgasse 230.\nJten, Albertine, Comptoiristin (Bally und Schmitter), von Unterägeri,\n  (Zug), Zoltrain 51.\nJungi-Blattner, Johann, Schuhmacher von Guggisberg (Bern), Kronen-\n  gasse 40.\nJungi-Blattner, Lina, Damen Schneiderin von Guggisberg, Kronengasse 40.\n\nKägi-Frei, Alfred, Heizer von Hoftetten (Zürich), Hammer 190.\nKähr, Marie, Näherin von Rüderswyl (Bern), Rain 877.\n* Käppeli-Müller, Gottlieb, Dr. jur., Regierungsrath, Entfelderstraße 969.\nKäppeli-König, Johann, Zugführer von Merenschwand, Bahnhofstraße 569.\nKäser-Fischer, Jakob, Zärber von Obererlinsbach (Solothurn), Erlins-\n  bacherstraße 332.\nKäser, Friedrich, Buchbinder von Oberflachs, Halden 264.\n* Käser-Imhof, Hans Rudolf, Gärtner von Biberstein, Portier, Bahn-\n  hofstraße 554.\nKäser-Kähr, Ulrich, Kutscher von Welschnau (Bern), Laurenenvorst. 356.\nKäser-Käser, Marie, Part. von Biberstein, Witschgasse 72.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6406,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2168,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:43:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p121",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p121.jpeg",
+      "bytes": 232212,
+      "sha256": "85c8cb51e8afbb748a972055e8431c9a47ecc88ba3bbd8a9fef967cd2edd36b7",
+      "sha256_of": "original",
+      "working_copy": "1892_p121.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:39+00:00"
+  }
+}

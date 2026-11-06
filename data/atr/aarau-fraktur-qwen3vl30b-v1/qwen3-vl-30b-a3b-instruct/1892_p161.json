@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p161",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p161.jpeg",
+    "bytes": 233282,
+    "sha256": "192654ba7a59aa70cbfe6482768e3aff33680697c7103771b31ec5451d502348",
+    "sha256_of": "original",
+    "working_copy": "1892_p161.jpeg"
+  },
+  "text": "Schachmann, Samuel, Buchbinder, Pelzgasse 135.\nWärtli, August, Buchbinder, Kirchhof 166.\nZebert, Georg, Buchbinder, Laurentzenthorgasse 116.\n\nGold- und Silberwaaren.\nFischer, Jonathan, vordere Vorstadt 1260.\nHärdi, Wilhelm, Rathausgasse 42.\nHirsch, J. R., vordere Vorstadt 608.\n\nGoldschmiede.\nFischer, Jonathan, Holzmarkt 1260.\nHärdi, Wilhelm, Rathausgasse 42.\nSchneider, Joseph, v. d. Haldenthör 1092.\n\nGrabsteinlager.\nRusterholz u. Freihofer, Rain 885.\n\nHaargeflechte.\nSommerhalder, J., Coiffeur, Pelzgasse 65.\n\nHafner.\nAndres, Friedrich, obere Vorstadt 916.\nHemmeler, Wilhelm, obere Vorstadt 944.\nWespi, Karl, Entfelderstrasse 1010.\n\nHafnereien.\nAndres, Friedrich, Ba 1036.\nAndres, Otto, Milchgasse 18.\nHemmeler, Wilhelm, obere Vorstadt 919.\n\nHalkwollenstofffabrikation.\nGuger, Oskar, in der Teili 456.\nStrich, Julius, Zieglerain 751.\n\nHaushaltungsartikel.\nFaller, Elise Louise (Firma Gebrüder Faller), Kronengasse 41.\nFaller, Friedrich, Rathausgasse 17.\nHemmeler-Haßler, August, Rezbergasse 55.\nHemmeler-Stahl, Jakob, Rathausg. 21.\nHenz-Sautsch, Emil, vordere Vorstadt 903.\nSchmid, Joh., vordere Vorstadt 889.\n\nHebammen.\nBrunner-Knecht, Verena, Halben 287.\nPlüss-Zimmerli, Marie, Rathausgasse 47.\nBogt-Keller, Marie, Schachen 734.\nWächter, Maria, Bahnhofstrasse 1022.\nHemdenfabrikation.\nBolliger-Manger, Gustav, hintere Vorstadt 646.\nDolder, J., Graben 219.\nErismann u. Stattner, hintere Vorst. 621.\nHafner-Hunziker, Karl, Bahnhofstr. 1020.\n\nHolzhandlungen.\nHausmann, Johann, Färbergässchen 125.\nHitz, Otto, Rainstraße 875.\nStirnemann, Jakob, Zollrain 91.\nWidmer, Samuel, Halben 276.\n\nHolzpalter.\nBertschi, Rudolf, Halben 248.\nDättwylar, Johann, Halben 280.\nGloor, Ferdinand, Abelbändli 86.\nHaberstich, Gottlieb, Milchgasse 79.\nHäusermann, Jakob, Schmiedgasse 634.\nHunziker, Heinrich, Halben 264.\nNeefer, Samuel, vor dem Haldenthör 1084.\nBernli, Samuel, Hammer 185 c.\nZimmerli, Joh., Abelbändli 83.\n\nHutmacher.\nBürgi, Joseph, vordere Vorstadt 900.\nGerodetti, Virgil, hinter dem Bahnhof 1263.\nSernatinger, Valerian, vordere Vorst. 893.\n\nHuthandlungen.\nAckermaun-Buser, Albert, vordere Vorstadt 890.\nBürgi, Joseph, vordere Vorstadt 900.\nDreßler, Laurenz, Rain 826.\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vordere Vorst. 893.\n\nIngenieure.\nBaur, Adolf, Laurenzenvorstadt 602.\nBargeki, Oswald, Graben 222.\nBircher, Julius, Ziegelrain 713.\nFährländer, Eugen, Rainstraße 869.\nGautschi, Samuel, hintere Vorstadt 646.\nGonzenbach, August, Rain 828.\nDehler, Oskar, Laurenzenvorstadt 415.\nRychner-Heß, Louis, Rain 832.\nSchmid, Johann Jakob, Bachstraße 1138.\nWytenbach, Arthur, Bachstraße 1054.\nZschokke, Conradin, Entfelderstraße 1200.\nZschokke, Olivier, zur Blumenhalde, Gisshügel 319.\nZuchelli, Giovanni, Entfelderstraße 981.\n145\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7929,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2756,
+    "lines": 84,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0357,
+    "mean_line_chars": 31.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:48:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p161",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p161.jpeg",
+      "bytes": 233282,
+      "sha256": "192654ba7a59aa70cbfe6482768e3aff33680697c7103771b31ec5451d502348",
+      "sha256_of": "original",
+      "working_copy": "1892_p161.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:48:06+00:00"
+  }
+}

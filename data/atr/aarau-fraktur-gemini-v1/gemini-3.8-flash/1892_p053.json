@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p053",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p053.jpeg",
+    "bytes": 218371,
+    "sha256": "b226066e36e5d93d3dc83870fffbfdacb46155dceca540ebe443093cb27ddcb3",
+    "sha256_of": "original",
+    "working_copy": "1892_p053.jpeg"
+  },
+  "text": "— 45 —\n\nHaus-\nNr.\n  Keller-Jäggi, Andreas, Hauptagentur der schweiz. Mobiliarversicherung\n    und der Unfallversicherungsgesellschaft „Zürich“.\n  Mauch-Zimmerli, Rudolf, Bankabwart, von Teufenthal.\n627. Abgetragen; an dessen Platz\n1170   Bau- und Garantie-Comite der römisch-katholischen Kirche (römisch-\n    katholische Pfarrkirche).\n1197   Dasselbe. Pfarrhaus.\n  Stöckli, Stephan, römisch-katholischer Pfarrer, von Muri.\n  Stöckli, Elisabeth, Haushälterin, von Muri.\n628. Frey-Feer, Fabrikants Erbschaft.\n  Frey-Rüegg, Oskar, Fabrikant.\n629. † Dieselbe. Remise.\n1269   † Siebenmann-Rohr, Rudolf, Bierbrauer. Brauereigebäude.\n630. † Derselbe. Remise, Bier- und Eiskeller.\n631. Abgetragen, an dessen Platz\n1232   * Matter-Schönenberg, Samuel, Amtsschreiber von Oberentfelden.\n  Matter, Adolf, Bäcker, von Oberentfelden.\n  Frey-Spengler, Elise, Reg.-Raths Wittwe, von Zurzach.\n  Vogler-Baumann, Julius, Stadtgärtner, von Oberrohrdorf.\n1244   † Derselbe. Hintergebäude. Klein- und Großbäckerei.\n632. Bühler-Widmer, Gottlieb, Kupferschmied, von Rietheim.\n  Widmer-Zehender, Verena, Wittwe, Wäscherin, von Freienwyl.\n633. * Bertschinger-Wild, Gustav, Spezereihändler, von Lenzburg.\n  Eichenberger-Joho, Rudolf, Schuhmacher, von Reinach.\n  Bachmann-Kümin, Joseph, Schneider, von Wollerau.\n634. * Camisasca, Franz, Kaufmann.\n  Marini-Buricelli, Dominico, Südfrüchten- und Geflügelhändler, von\n    Pognona (Italien).\n  Häusermann-Schmid, Jakob, Holzspalter, von Egliswyl.\n635. * Müller-Bondäniken, Friedrich, Oekonom.\n  Gruber-Stalder, Engelbert, Maurer, von Nassarein (Tyrol).\n  Müller-Thut, Johann Jakob, Schriftsetzer.\n  Müller-Walti, Maria, Weißnäherin, von Bözberg.\n636. Müller-Kramer, Jost, Schneider.\n  Suter-Lüscher, Gabriel, Posamenter, von Gränichen.\n637. Rychner-Schleuniger, Maria, Hafners Wittwe.\n  Erni-Mauderli, Lorenz, Taglöhner, von Stüßlingen (Solothurn).\n  Widmer-Wütherich, Jakob, Webermeister, von Gränichen.\n  Pauli, Maria, Spetterin, von Villnachern.\n\nHintere Vorstadt.\n\n638. Hemmeler-Frey, Friedrich, Kaufmann, alt Stadtrath.\n  Hemmeler & Cie., Quincaillerie- und Spielwaarengeschäft en gros. Spar-,\n    Leih- und Diskontokasse.\n  Giesch-Caviezel, Adolf, Kaufmann, von Chur.\n  Caviezel-Biveroni, Elise, Part., von Chur.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5824,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2236,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:50:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p053",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p053.jpeg",
+      "bytes": 218371,
+      "sha256": "b226066e36e5d93d3dc83870fffbfdacb46155dceca540ebe443093cb27ddcb3",
+      "sha256_of": "original",
+      "working_copy": "1892_p053.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:55+00:00"
+  }
+}

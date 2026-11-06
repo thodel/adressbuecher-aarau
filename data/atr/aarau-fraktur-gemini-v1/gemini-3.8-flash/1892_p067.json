@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p067",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p067.jpeg",
+    "bytes": 190167,
+    "sha256": "6fc35a6538aa4a5456623ce6ee918c27fcaaa8c609c9556329b4533dc9a5cf13",
+    "sha256_of": "original",
+    "working_copy": "1892_p067.jpeg"
+  },
+  "text": "— 59 —\n\nHaus=\nNr.\n846. † Dieselben. Kohlenraum.\n847. †    „    Gartenhaus.\n848. Schibler=Meister, Oskar, Fürsprech, Direktionssekretär. Handels=\n        registerführer.\n      Häuptli-Ott, Othmar, Adjunkt des Staatsbuchhalters.\n849. † Siebenmann=Rohr, Rudolf, Bierbrauer, Holzhaus.\n850. Abgetragen, an dessen Platz\nKeller, Ida, Glätterin,    von Oberendingen.\nKeller-Schweri, Verena, Part.    „       „\nKeller-Pfister, Fritz, Bedienter,  „       „\nRiner-Obrist, Johann, Polizeidiener, von Herznach.\nGautschi-Hintermann, Jakob, Zimmermann, von Reinach.\n1350  † Dieselbe. Schopf.\n\nSchönenwerderstraße (Wöschnau).\n* Märki, Jakob und Haller, Karl, Mühlenbaugeschäft, Büreau.\n1091  Märki-Haller, Gottlieb, Mühlebauer, von Mandach.\n\nRoggenhausen.\n851. * Gemeinde Aarau. Pächterhaus.\n      Bolliger-Thut, Rudolf, Pächter, von Egliswyl. Sommerwirthschaft.\n\nOberholz.\n852. † Staat Aargau. Pulverhaus.\n\nWalthersburg.\n853. † Walther=Schatzmann, Gottlieb, Oekonom. Waschhaus.\n854. † Derselbe. Scheune und Remise.\n855. †    „    Scheune.\n856.     „    Wohnhaus.\n\nRain.\n857. a. Strebel=Rüetschi, Eduard, Schreiner, von Büblikon.\n      Frei-Ruef, Gottfried, Schneider, von Bözen.\n857. b. † Derselbe. Schopfanbau.\n858. Haberstich=Stöckli, Jakob, Zinsrodelverwalter, von Oberentfelden.\n      Builleret-Gérard, Marie, Part., von Romont (Waadt).\n859. * Schweiz. Centralbahn. Bahnwärterhäuschen.\n      Gruber-Lang, Meinrad, Bahnwärter, von Schönenwerd.\n860. Schweizer=Siebenmann, Fried. Ferd., Partik., von Dätwyl.\n      Nadig, Clara, Part., von Davos (Graubünden).\n      Flühmann, Elisabeth, Seminarlehrerin, von Saxeten (Bern).\n861. † Derselbe. Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6078,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1635,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.54,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:52:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p067",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p067.jpeg",
+      "bytes": 190167,
+      "sha256": "6fc35a6538aa4a5456623ce6ee918c27fcaaa8c609c9556329b4533dc9a5cf13",
+      "sha256_of": "original",
+      "working_copy": "1892_p067.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:52:41+00:00"
+  }
+}

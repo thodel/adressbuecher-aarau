@@ -1,0 +1,68 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "pages": 427,
+  "started_at": "2026-11-06T13:09:22+00:00",
+  "elapsed_s": 3587.4,
+  "rebuilt": false,
+  "skipped_files": [],
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": "/home/dh/agentic_historian/agentic_historian/data/nextcloud/adressbuecher-aarau/fraktur",
+    "gateway": "http://130.92.59.240:8200",
+    "runner": {
+      "name": "agentic-historian",
+      "version": "0.1.0",
+      "commit": "fa9e130746122e0e888d23d9d5825a5bdd068631",
+      "commit_source": "git"
+    },
+    "started_at": "2026-11-06T13:09:22+00:00",
+    "ended_at": "2026-11-06T14:09:10+00:00",
+    "models": [
+      {
+        "model": "gemini-3.8-flash",
+        "engine": null,
+        "level": null,
+        "revision": null,
+        "revision_kind": "unreported",
+        "weights": null,
+        "base_model": null
+      }
+    ]
+  },
+  "models": [
+    {
+      "model": "gemini-3.8-flash",
+      "done": 427,
+      "skipped": 0,
+      "failed": 0,
+      "chars": 1018084,
+      "lines": 0,
+      "truncated": 0,
+      "truncated_keys": [],
+      "empty": 3,
+      "empty_keys": [
+        "1884_p001",
+        "1888_p001",
+        "1892_p001"
+      ],
+      "repetitive": 0,
+      "repetitive_keys": [],
+      "deliberated": 0,
+      "deliberation_keys": [],
+      "verdicts": {
+        "empty": 3,
+        "ok": 424
+      },
+      "recognition_ms": 3585125,
+      "elapsed_s": 3587.4,
+      "aborted": "",
+      "source_errors": 0,
+      "source_missing": 0,
+      "source_missing_keys": [],
+      "errors": [],
+      "energy": null
+    }
+  ]
+}

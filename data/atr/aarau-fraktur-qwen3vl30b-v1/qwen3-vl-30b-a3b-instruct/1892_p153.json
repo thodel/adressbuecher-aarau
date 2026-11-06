@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p153",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p153.jpeg",
+    "bytes": 148057,
+    "sha256": "64af129de0c9afb13190cdb14fcbf8398245a82f9811b3c4639d23fb443db4af",
+    "sha256_of": "original",
+    "working_copy": "1892_p153.jpeg"
+  },
+  "text": "Zumsteg-Jehle, Urjula, Wittwe, von Mettau, Hammer 185 b.\n*Zündt-Hagenbuch, Elise Louise, Wittwe, Part. von Altstätten (St. Gallen), vordere Vorstadt 674.\nZürcher-Huber, Friedrich, Taglöhner von Trub (Bern), Hammer 1301.\nZürcher-Stutz, Johann, gewesener Turnlehrer von Thalweil (Zürich), Kronengasse 34.\n*Zürcher-Wirz, Alfred, Arzt, Laurenzenvorstadt 397.\n*Zurlinden-Rychner, Rudolf, Fabrikant von Zofingen, Bahnhofstrasse 1013.\nZurlinden-Walti, Fritz, Spengler von Zofingen, Milchgasse 144.\nZweifel-Gyger, Samuel, Schreinermeister von Lintthal (Glarus), Wohnung Kronengasse 40, Werkstätte Rain 877.\n\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 1674,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 610,
+    "lines": 9,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 66.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0033,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:47:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p153",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p153.jpeg",
+      "bytes": 148057,
+      "sha256": "64af129de0c9afb13190cdb14fcbf8398245a82f9811b3c4639d23fb443db4af",
+      "sha256_of": "original",
+      "working_copy": "1892_p153.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:05+00:00"
+  }
+}

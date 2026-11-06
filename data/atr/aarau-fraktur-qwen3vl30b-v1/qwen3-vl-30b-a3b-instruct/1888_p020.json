@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p020",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p020.jpeg",
+    "bytes": 263585,
+    "sha256": "819e57054532ddfd1d0d99e7045af3f558dc1fb3c05262c94cab10535f351b30",
+    "sha256_of": "original",
+    "working_copy": "1888_p020.jpeg"
+  },
+  "text": "10\nHaus-\nNr.\nLaurenzenthorgasse.\n99. * An dessen Platz\n1231 Ryniker-Gros, Fried., Bierbrauer. Gissteller.\nFranz, Louise, Corfetschneiderin.\n\nWetzgergasse.\n100. Hefti-Hunziker, Joh. Peter, Schneidemeister, von Schwanden\n(Glarus). Tuch- und Kleiderhandlung.\nObrist-Meuli, Emil, Comestibleshändler, von Brugg\nBolliger-Gloor, Rudolf, Bankbeamter, von Schmiedrued.\nFrei-Betterli, Achiles, Coiffeur, von Densbüren.\n101. * Derselbe.\nSchaub-Blauenstein, Adelbert, Gipser, von Ettingen (Baselland).\nCantu-Hübscher, Joseph, Maurermeister, von Bico-Morcote (Tessin).\nSchaffner-Furimann, Samuel, Knecht, von Effingen.\nFlückiger-Trösch, Gottfried, Taglöhner, von Auswyl (Bern).\n102. Ryniker-Gros. Friedrich, Bierbrauer.\nRyniker, Friedrich, Sohn, Bierbrauer.\n103. * Derselbe.\nRyniker-Best, Nanette, Wittwe, Bart.\nSeiler, Mina, Damenschneiderin, von Lenzburg.\nSeiler, Mathilde, Damenschneiderin, von Lenzburg.\nSchlatter, August, Bart.\n104. † Derselbe. Brauereigebäude.\n105. Pauli, Susette, Privatin, von Billnachern.\nScheurmann, Emilie, Privatin.\n106. a.† Derselbe. Holzhaus.\n106. b. Ryniker-Gros, Friedrich, Bierbrauer. Küche und Eckzimmer.\n107. Bräutigam-Andres, Marg., Wittwe, Schuhwaarenhandlung.\nKalt geb. Bräutigam, Ida Mathilde, Wittwe, von Leibstadt.\nBirchmeier-Brummer, Gottfried, Schlosser, von Würenlingen.\nVertsch-Schwammberger, Adolf, Schneider, von Sumiswald.\nVertsch-Schwammberger, Marie, Damenschneiderin, von Sumiswald.\n108. Gamper-Wildi, Adolf, Megger und Wurster.\nGamper-Häfeler, Karolina, Väckers Wittwe.\n109 † Derselbe. Schweinemegg und Waschhaus.\n110. † Derselbe. Metzgerei- und Wurstereilokal.\n111. † Derselbe. Gissteller.\n112. Rühn-Hoffmann, Bernhard, Gastwirth zum Köpfl, von Tiefurt\n(Sachsen). Restauration zum Bahnhof. Sommerwirthschaft zum\nKösligarten.\n113. * Gemeinde Aarau. Post- und Telegraphenbüreau, Telefon-Central-\nstation, Eßchmagazin, Stadtbibliothek und Grütlivereinslokal.\n[spalte 2]\n111",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3998,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1911,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.66,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:20:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p020",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p020.jpeg",
+      "bytes": 263585,
+      "sha256": "819e57054532ddfd1d0d99e7045af3f558dc1fb3c05262c94cab10535f351b30",
+      "sha256_of": "original",
+      "working_copy": "1888_p020.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:20:08+00:00"
+  }
+}

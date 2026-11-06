@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p134",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p134.jpeg",
+    "bytes": 248420,
+    "sha256": "8d4608a058bc8235143d3403dde2bf198f8007ba108bacfc4fca01243430e5b7",
+    "sha256_of": "original",
+    "working_copy": "1892_p134.jpeg"
+  },
+  "text": "118\tRichner — Rochholz.\n\nRichner-Peter, Johann, Wirth von Rohr, Bahnhofstraße 541.\nRichter-Wyser, Albert, Färber von Elberfeld, Bachstraße 1055.\nRigassi-Franzetti, Kaspar, Geschäftsreisender von Landarenca (Grau-\n  bünden), Zollrain 179.\nRieber-Thoma, Fridolin, Schneider von Winterlingen (Württemberg),\n  Metzgergasse 101.\nRiehl-Dürr, Karl, Koch von Obernai (Elsaß), Graben 1237.\nRies-Buhlrein, Emanuel, Farb- und Glaswaarenhandlung, Drogerie,\n  Ziegelrain 702.\nRiner-Hächler, Joseph, Kondukteur von Herznach, Entfelderstraße 1285.\nRiner-Obrist, Johann, Polizeidiener von Herznach, Rain 1185.\nRingier-Tschudi, Adolf, Lagerhausdirektor von Zofingen, Laurenzen-\n  vorstadt 408.\nRingier-Schwarz, Karl Arnold, Reg.-Rath von Zofingen, jenseits der\n  Aare 294.\nRiniker, Arnold, Sohn, Commis, Metzgergasse 102.\nRiniker-Beck, Nanette, Wittwe, Part., Metzgergasse 103.\nRiniker-Groß, Friedrich, Bierbrauer, Bierwirthschaft, Metzgergasse 102.\nRiniker, Hans, Regierungsrath von Habsburg, Gartenstraße 999.\nRiniker, Karl, Sohn, Bierbrauer, Metzgergasse 102.\nRiniker-Läuchli, Jakob, Oekonom, Binsenhof 1005.\nRiniker-Lutz, Adolf, Kaufmann, Graben 1237.\nRiniker-Temperli, Friedrich, Badwirth von Habsburg, Binsenhof 1010.\nRiniker-Wernli, Hermann, Milchverkäufer von Habsburg, Entfelder-\n  straße 1195.\nRippstein-Küng, Joseph, Bahnhofportier von Kienberg (Solothurn),\n  Bahnhofstraße 519.\nRychner-Buhlrein, Maria Elisabeth, Part., Halden 264.\nRychner-Carli, Karl Christian, Röhren-Fabrikant, obere Vorstadt 1117.\nRychner, Fritz, Pianist, obere Vorstadt 1117.\nRychner-Grözinger, Joh. Heinrich, Buchhalter, jenseits der Aare 297 a.\nRychner-Henz, Henriette, Part., Entfelderstraße 981.\nRychner-Heß, Konrad, Seiler, Pelzgasse 123.\nRychner-Heß, Louis, Ingenieur, Rain 832.\nRychner-Hunziker, Elise, Malers Wittwe, Part., Bahnhofstraße 1020.\nRychner-Renold, Heinrich, Gewehrfabrikant, Schloßplatz 196.\nRychner-Renz, Rosa, Part., obere Vorstadt 1117.\nRychner-Schleuniger, Marie, Hafners Wittwe, Schmiedgasse 637.\nRychner-Siebenmann, Elise, Bandfabrikants Wittwe, Part, Rain 828.\nRychner-Spengler, Ferdinand, Cementfabrikant, obere Vorstadt 1117.\nRychner-Thomann, Friedrich, Spenglermeister, Kirchgasse 10.\nRödelberger-Bopp, Franz, Musiklehrer von Würzburg (Baiern), Bahn-\n  hofstraße 658.\nRochholz-Schröder, Ernst Ludwig, Dr. Professor von Ansbach (Bayern),\n  Metzgergasse 100.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8191,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2353,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:00:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p134",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p134.jpeg",
+      "bytes": 248420,
+      "sha256": "8d4608a058bc8235143d3403dde2bf198f8007ba108bacfc4fca01243430e5b7",
+      "sha256_of": "original",
+      "working_copy": "1892_p134.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:00:38+00:00"
+  }
+}

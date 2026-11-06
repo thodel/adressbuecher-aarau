@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p143",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p143.jpeg",
+    "bytes": 256225,
+    "sha256": "fed123caeca3d45d4db6f9e5aab9bc5eec037809c2f32135356b62fc5e0a5e32",
+    "sha256_of": "original",
+    "working_copy": "1892_p143.jpeg"
+  },
+  "text": "Steiner — Strübin. 127\n\nSteiner-Lindenmann, Susanna, Wittwe, Part. v. Dürrenäsch, Goldern 1001.\nSteiner-Schürch, Anna, Wittwe von Dürrenäsch, Graben 205.\nSteiner-Sennhauser, Samuel, Oekonom zum Rößligut, Laurenzenvorst. 547.\nSteiner-Weber, Barbara, Wittwe, Part. von Winterthur (Zürich), Lau-\n  renzenvorstadt 412.\nSteininger-Urech, Karolina, Wittwe, Part., Rain 879.\nStephani-Heckmann, Wilhelmine, Wittwe, Part., Rathhausgasse 29.\nStephani-Wettler, Albertine, Fabrikants Wittwe, Bachstraße 1112.\nStephani-Winkler, Aug., Kaufmann, Spezereiwaarenhandl., Rathhausg. 26.\nStern-Zäslin, Alexander, Prediger an der evang. Kapelle, von Basel,\n  Zschokkestraße 974.\nStierli-Andres, Elise, Buchdruckers Wittwe, obere Vorstadt 916.\nStierli-Brentano, Goar Leonz, Fürsp. u. Notar, Vice-Stadtammann v. Ari-\n  stau, Wohnung Laurenzenvorst. 602, Advokaturbüreau Graben 615\nStierli, Cäcilia, Part. von Aristau, obere Vorstadt 916.\nStierli-Hänny, Samuel, Kondukteur von Gebenstorf, Casinostraße 571.\nStierli, Sophie, Damenschneiderin von Aristau, Oberthor 228 a.\nStierli, Marie, Ladentochter „ „ „ „\nStierli, Elise, Part. „ „ „ „\nStigeler-Glätti, Joh. Jak. von Eglisau (Zürich), Rathhausgasse 45.\nStigeler-Schaub, Joseph, Zeughausdirektor v. Rellingen, Zschokkest. 977.\nStirnemann, Emma, Lehrerin von Gränichen, Pelzgasse 124.\nStirnemann-Gisi, Jakob, Zimmermann von Gränichen, Halden 281.\nStirnemann-Huber, Johann, Taglöhner von Gränichen, v. d. Haldenth. 809\nStirnemann-Henzmann, Jakob von Gränichen, Holz- Käse- und Butter-\n  handlung, Zollrain 91.\nStirnemann, Marie, Fabrikarbeiterin von Gränichen, Laurenzenvorst. 376.\nStirnemann-Müller, Louise, von Gränichen, Ellenwaarenhandlung, Pelz-\n  gasse 124.\nSträhl-Wiser, Emilie, Pfarrers Wittwe von Zofingen, Entfelderst. 967.\nStöckli, Stephan, römisch-kath. Pfarrer von Muri, Schmiedgasse 1179.\nStöckli, Elisabeth, Haushälterin von Muri, „ „\nStocker-Wirz, F. Fried., Dr. jur., Bankkontroleur v. Obermumpf, Rain 831.\nStoffer-Meier, Emil, Zuschneider von Mägenwyl, hintere Vorstadt 624.\nStrebel-Brunner, Marie, Part. von Büblikon, Halden 267.\nStrebel-Rüetschi, Eduard, Schreiner von Büblikon, Rain 857.\nStrebel, Martina, Spetterin von Mägenwyl, Zollrain 88.\nStrebel, Verena, Spetterin von Mägenwyl, „ „\nStrebel, Waldburga, Näherin von Mägenwyl, „ „\nStrebel-Siebenmann, Karl, Sekretär, Halden 267.\nStrich-Brack, Julius Wilhelm, Halbleinfabrikant von Aachen (Preußen),\n  Ziegelrain 751.\nStreit-Hegnauer, Mina, Part. von Zimmerwald (Bern), ob. Vorst. 929.\nStrübin-Frey, August, Wirth von Basel, Restauration zum vis-a-vis,\n  Metzgergasse 60.\nStrübin-Hochstraßer, Karl, Gipser von Liestal, Rain 833.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9136,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2625,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 54.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:01:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p143",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p143.jpeg",
+      "bytes": 256225,
+      "sha256": "fed123caeca3d45d4db6f9e5aab9bc5eec037809c2f32135356b62fc5e0a5e32",
+      "sha256_of": "original",
+      "working_copy": "1892_p143.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:01:56+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p015",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p015.jpeg",
+    "bytes": 243474,
+    "sha256": "f3720976dced3c7cb3b2763760e53d36f52de19f8398aebff8588c18bc3fec26",
+    "sha256_of": "original",
+    "working_copy": "1892_p015.jpeg"
+  },
+  "text": "Haus-\nNr.\n73. * Maurer, Louise, Privatin.\n    Müller-Schmocker, Fritz, Coiffeur. Coiffeurgeschäft.\n    Müller-Schmocker, Serena, Modistin, Hut- und Modemarenhandlung.\n    Maurer-Ernst, Philipp, Gießereiarbeiter.\n74. * Siegrist-Fischer, Jakob, Metzger, von Meisterschwanden.\n    Frey-Tanner, Johann, Schneider, von Denzbüren.\n    Siebenmann-Bed, Gottlieb, Färber.\n    Horlacher-Rubin, Heinrich, Schneider, von Umlen.\n75. * Fäggi-Weber, Hermann, Buchhalter, von Strengelbach.\n    Hochsträker-Fehlmann, Serena, Spetterin, von Fahrwangen.\n    Haller-Attiger, Wilhelm, Schuhmacher, von Reinach.\n    Haller-Attiger, Maria, Glätterin, von Reinach.\n    Bruder-Bruder, Jakob, Güterarbeiter, von Seengen.\n76. Ernst-Lehmann, Samuel, Gasarbeiter, von Holziken.\n    Haller geb. Fehlmann, Serena, Spetterin, von Fahrwangen.\n    Flüdiger-Trösch, Gottfried, Pferdewärter, von Auswyl.\n77. Hässig=Siegrist, Julius, Schlossermeister.\n    Ging-Ryser, Wilhelm, Wagner.\n78. Andreas-Eichelberger, Otto, Hafnermeister.\n    Zberg-Lüscher, Joh. Jakob, Maschinenmeister, von Rüttigen.\n    Singer-Kloter, Georg, Maurer, von Salzstetten (Württemberg).\n79. Wärtli geb. Ruzbaum, Marg., Wittwe, Part.\n    Rüedi-Wärtli, Joh. Nepomuk, Staatsweibel, von Sulz.\n    Haberliich-Huber, Gottlieb, Holzpalter, von Oberentfelden.\n    Haberliich, Otto, Sohn, Magazinier, von Oberentfelden.\n    Haberliich, Emil, Sohn, Magazinier, von Oberentfelden.\n    Sommerhalter-Lindenmann, Rudolf, Milchverkäufer, von Schloßrued.\n    Wälschli, Serena, Wäscherin, von Madiswyl (Bern).\nKirchhof.\n80. * Schlatter-Bühler, Maria, Marbriers Wittwe.\n    Hagnauer-Raapar, Joh. Ludwig, Briesträger.\n    Raapar-Urech, Elisabeth, Wittwe, Part., von Leutwyl.\n    Grütter-Tenger, Gottfried, Eisenbahnkondukteur, von Seeberg.\n81. Rüetschi=Mattli, Gottfried, Obergerichtsweibel.\n    Rüetschi-Wenger, Maria, Wittwe, Milch-, Butter-, Käs- und Spezerei-\n    handlung, Salzverkauf.\n    Ott, Anna, Zettlermeisterin, von Ryfen.\n    Rüetschi, Bertha, Haushälterin.\n82. * Morath, Johann, Kaufmann.\n    Frank-Roland, Samuel, Schreiner.\n    Frant, Rudolf, Postpader.\n    Verberich, Jakob, Schuhmacher, von Oppenweiler (Württemberg).\n    Wittwer-Bolliger, Friedrich, Taglöchner, von Schangnau (Bern).\n    Wittwer, Emma, Weißnäherin, von Schangnau (Bern).\n83. Märk, Louise, Part.\n    Zimmerli, Joh., Holzer, von Unterentfelden.\n84. * Märk, Karl, Part.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4657,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2380,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p015",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p015.jpeg",
+      "bytes": 243474,
+      "sha256": "f3720976dced3c7cb3b2763760e53d36f52de19f8398aebff8588c18bc3fec26",
+      "sha256_of": "original",
+      "working_copy": "1892_p015.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:41+00:00"
+  }
+}

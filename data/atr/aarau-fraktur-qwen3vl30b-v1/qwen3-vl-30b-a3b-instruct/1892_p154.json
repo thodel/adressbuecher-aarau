@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p154",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p154.jpeg",
+    "bytes": 204136,
+    "sha256": "f5245cd4950c8dc42fbbb1871dc741cf689cb4ca7624f11c3b6db0d5eb08e981",
+    "sha256_of": "original",
+    "working_copy": "1892_p154.jpeg"
+  },
+  "text": "Verzeichniß\nder\nEinwohner nach ihrem Berufe, Geschäfte\nund Gewerbe.\n\nÄrzte.\nDr. med. Bircher, Heinrich, Oberarzt der\nchirurg. Abtheilung an der kanto-\nnalen Krankenanstalt. Nr. 1186.\nSprechstunden 10 bis 11 Uhr Vor-\nmittags; Sonntag ausgenommen.\nDr. med. Frey, Konrad, Graben 352.\nDr. med. Jäger, Arthur, Graben 615.\nKalt, Alfred, Oberarzt der medizinischen\nAbtheilung und der Gebäranstalt an\nder kantonalen Krankenanstalt 1186.\nSprechstunden 1/2 bis 2 1/2 Uhr\nNachm., Sonntag ausgenommen.\nLorenz, Josef, Graben 216.\nDr. med. Schenker, Gottlieb, Bahnhof-\nstraße 1289.\nDr. med. Schmuziger, Friedrich, Ent-\nfelderstraße 972.\nWeber, Gustav, Bezirksarzt, Graben 618.\nDr. med. Witzinger, Moritz, Bahnhof-\nstraße 1317.\nZürcher, Alfred, Abjunkt des Bezirksarztes,\nLaurenzenvorstadt 397.\n(Sämtliche Ärzte [mit Ausnahme der\nSpitalärzte] haben ihre Sprech-\nstunden Vormittags von 8—9 Uhr\nund Nachmittag von 1—2 Uhr.\n\nThierärzte.\nBauhofer, Samuel, Rain 875.\nFischer-Cylinger, Rudolf, Viehinspektor,\nGais 486.\nSchenker, Gustav, Bezirksthierarzt,\nSchmiedgasse 619.\n\nZahnärzte.\nDr. Berner, Hermann, Bachstraße 1098.\nBrentano, Max, Entfelderstraße 1075.\nSommerhalder, Jakob, Pelzgasse 65.\nVogt, Adolf, hintere Vorstadt 622.\n\nApotheker.\nReusch, Jos. Karl, vordere Vorstadt 894.\nDr. phil. Lindt, Otto, Rathhausgasse 16.\nWeibezaehl, Leonhard, Rathhausgasse 5.\nWydler, Konrad, Rathhausgasse 23.\n\nAgenturen.\nDolder, J. Graben 219.\nHauptagentur der allgemeinen Ver-\nsicherungsgesellschaft der „Helvetia“\nin St. Gallen.\nHauptagentur der „Helvetia“ Schweiz.\nFeuerversicherungsgesellschaft in\nSt. Gallen.\nErny-Fässler, Emil, Kronengasse 33.\nAgentur der allgemeinen Lebens-\nversicherungsgesellschaft in Paris.\nAgentur d. Basler Feuerversicherungs-\ngesellschaft.\nFurter, Friedrich, Rain 823.\nHauptagentur der Germania, Lebens-\nversicherungs-Actiengesellschaft zu\nStettin.\nFrey, Heinrich, Notar, hintere Vor-\nstadt 689.\nVertreter der Generalagentur für\nAuswanderung A. Zwilchenbart in\nBasel.\n\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5877,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1976,
+    "lines": 70,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 27.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:47:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p154",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p154.jpeg",
+      "bytes": 204136,
+      "sha256": "f5245cd4950c8dc42fbbb1871dc741cf689cb4ca7624f11c3b6db0d5eb08e981",
+      "sha256_of": "original",
+      "working_copy": "1892_p154.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:11+00:00"
+  }
+}

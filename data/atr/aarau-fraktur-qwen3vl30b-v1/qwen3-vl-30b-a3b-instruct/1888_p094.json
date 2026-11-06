@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p094",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p094.jpeg",
+    "bytes": 293113,
+    "sha256": "7ec5c1fd618d458cc61e1a78cfa2763b2464758825c06d7cb3a6585f0863e9a9",
+    "sha256_of": "original",
+    "working_copy": "1888_p094.jpeg"
+  },
+  "text": "76\nBeck — Bertschl.\n\nBeck, Louise, Part., in der Gais 1249.\nBeck-Werz, Zuzanna, Zengschmieds Wittwe, Taglöhnerin, Adelbündli 174.\nBeck-Kieger, Anna Maria, Kaufmanns Wittwe, Graben 618.\nBeck-Roth, Albrecht, Sattler, Zgelweid 633.\nBeilharz, Lina, Weißnäherin von Untermuhbach (Württemberg), Halden 287.\nX Belart, Julie, Lehrerin von Brugg, Bachstraße 1040.\nBelart, Marie, Part. von Brugg, Bachstraße 1040.\nX Bell-Marti, Jos. Anton, Mercerie- und Posamenteriewarenhandlung, Pelzgasse 130.\nBelz-Ochsner, Johann, Wagenvisiteur von Zihlschlacht (Thurgau), Milchgasse 151.\nBennert-Roth, Emilie, Part. von Paris, in der Gais 1131.\nBerchten, Zuzanna, Diakonissin von St. Stephan (Bern), Bahnhofstr. 1173.\nBerchtold, Jakob, Schuhmacher von Kued, v. d. Haldenthor 773.\nBerchtold-Lüscher, Samuel, Fuhrmann von Kued, v. d. Haldenthor 796.\nBerner, Anna, Glätterin von Rupperswyl, Halden 266 a.\nX Berner-Egli, Dr. F. Herrmann, Zahnarzt, Casinofstrasse 576.\nBerner, Gottlieb, Dienstmann von Unterfulm, Kirchhof 80.\nBerner, Maria Anna, Spetterin von Kulm, Zgelweid 636.\nX Berner-Martin, Jakob, Schreinermeister von Rupperswyl, Stadthof 93.\nBerner-Mauch, Rudolf, Zahnarzt, Part., Kirchgasse 14.\nBerner, Verena, Fabrikarbeiterin von Kulm, Zgelweid 636.\nBerner-Zürcher, Rudolf, Buchhalter von Schafisheim, Hammer 190.\nBertschi, Adolf, Wagner von Dürrenäsch, Wohnung Halden 274 und Werkstätte Rain 877.\nBertschi, Anna, Damenschneiderin v. Sumiswald (Bern), Milchgasse 70.\nBertschi-Bircher, Julius, Zugführer v. Sumiswald (Bern), Milchgasse 70.\nBertschi, Frik, Sohn, Malergehilfe von Dürrenäsch, Casinofstrasse 574.\nBertschi-Holzreuter, Rudolf, Holzspalter von Dürrenäsch, Halden 248.\nBertschi-Jakob, Jakob, Sekretär von Dürrenäsch, obere Vorstadt 947.\nBertschi, Jakob, Postangestellter von Dürrenäsch, Halden 274.\nBertschi, Jb. August, Sohn, Sekretär von Dürrenäsch, Halden 274.\nBertschi-Lüscher, Jos, Schuhmachergehülfe von Dürrenäsch, Rathausgasse 18.\nBertschi-Schäfer, Gottfried, Schreiner von Dürrenäsch, Halden 286.\nBertschi-Schwammberger, Adolf, Schneider von Sumiswald (Bern), Mezgergasse 107.\nBertschi-Schwammberger, Marie, Damenschneiderin, obigen Ehefrau, Mezgergasse 107.\nBertschi-Storkenmeier, Emil, Schneider von Sumiswald (Bern), Rain 821.\nBertschi-Bogt, Elise, Schreiners Wittwe von Sumiswald (Bern), Stadthof 92 b.\nBertschi-Wässmer, Jakob, Postangestellter von Sumiswald (Bern), Stadthof 92 b.\nBertschi-Wächter, Maria, Wäscherin von Dürrenäsch, v. d. Haldenthor 809.\nBertschi, Wilhelm, geweiht. Camioneur, von Dürrenäsch, Halden 248.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5608,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2528,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 62.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p094",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p094.jpeg",
+      "bytes": 293113,
+      "sha256": "7ec5c1fd618d458cc61e1a78cfa2763b2464758825c06d7cb3a6585f0863e9a9",
+      "sha256_of": "original",
+      "working_copy": "1888_p094.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:56+00:00"
+  }
+}

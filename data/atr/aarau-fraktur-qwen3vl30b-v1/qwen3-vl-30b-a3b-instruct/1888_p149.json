@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p149",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p149.jpeg",
+    "bytes": 275134,
+    "sha256": "19cd755d003d10368b08bb265edd7a511c3cd7dc1b3c61534dea0fac8d137817",
+    "sha256_of": "original",
+    "working_copy": "1888_p149.jpeg"
+  },
+  "text": "Garnhandlungen.\nTamifasca, Franz, Rain 826.\nErny-Jakler, Kronengasse 33.\nHagenbuch-Hagenbuch, Verena, Rathausgasse 5.\nHemmeter-Türtler, C., Mezgergasse 59.\nFirma Jaaß Heß, Rathausgasse 4.\nHofer, Gottlieb, Rathausgasse 43.\nKiefer, Jean, Wittwe, Rathausgasse 22.\nRull-Müller, Anna, Milchgasse 144.\n\nGasanstalt.\nGasfabrik Aarau, Zollrain 786.\nDirektor: Bechstein, Wilhelm.\nGasmeister: Wehrli, Karl.\n\nGärtner.\nEgloff, Georg, Schachen 1109.\nFehlmann, Johann, Milchgasse 161.\nHediger, Hermann, Stadt- und Friedhofsgärtner, obere Vorstadt 960.\nHediger, Samuel, Kirchgasse 8.\nKäfer, Emil, Schachen 789.\nWehrli, Samuel, vor dem Galdenthor 780.\nBernli, Jakob, vor dem Galdenthor 799.\n\nGeometer.\nSchmid, Johann Jakob, Bachstraße 1138.\n\nGeschirrhandlungen.\nAndres, Friedrich, obere Vorstadt 917.\nHemmeter-Stahl, Jda (Firma Mitter-Stahl), Rathausgasse 21.\nHemmeter, Wilhelm, obere Vorstadt 919.\nHemmeter, Verena, Wittwe, obere Vorstadt 944.\nHerzog, Gottlieb, Zollrain 89.\nRaifer, Sigmund, Kronengasse 35.\nMorath, Johann, Rathausgasse 2.\nSchmidt-Lanz, Ad., obere Vorstadt 935.\n\nGewehrfabrikation.\nRychner, Heinrich, Schloßplatz 196.\n\nGipfermeister.\nAngst, Jakob, Galden 254.\nWehrli, Hans, Halden 250.\nWehrli, Jakob, Rain 877.\nGipferarbeiten besorgen auch alle Baumeister.\n\nGoldleistenhandlungen.\nHagenbuch, Friedrich, Buchbinder, vordere Vorstadt 676.\nRiez-Buchlein, Cl., Ziegelrain 702.\nStrub, Emanuel, hintere Vorstadt 696.\nWärtli, August, Buchbinder, Kirchhof 166.\nZebert, Georg, Buchbinder, Laurenzen-thorgasse 116.\n\nGoldschmiede.\nHärdi, Wilhelm, Rathausgasse 42.\n\nGold- und Silberwaaren.\nFrey, Albert, Rathausgasse 47.\nHärdi, Wilhelm, Rathausgasse 42.\nFiesch, J. R., vordere Vorstadt 668.\n\nGeistliche.\nFischer, Xaver, Pfarrer der chriſt-kathol. Kirchgemeinde, Adelbändli 175.\nFrey, Eduard, Pfarrhelfer der reformirten Kirchgemeinde, Kirchgasse 6.\nGraf, Ernst, Pfarrer der reformirten Kirchgemeinde, Kirchhof 169.\nStern, Alexander, Pfarrer der evangel. Kapelle, Zschoffenstraße 974.\nStödli, Stephan, Pfarrer der römisch-katholischen Kirche, Casinotstraße 1130.\nWernli, Rudolf, Pfarrer der reformirten Kirchgemeinde, Milchgasse 158.\n\nGemeißhändler.\nDürr, Gabriel, Graben 1237.\nFässler, Johann, Laurenzendorfstraße 1114.\nHäffig, Conrad, Oberthor 224.\nJäger, Joseph, hintere Vorstadt 696.\nZehnder, Barbara, Färbergässchen 124.\n\nGeschäftslente.\n(Geld-, Betreibungs- u. Inkassogeschäfte).\nFrey, Heinrich, Notar, hintere Vorstadt 689.\nHeller, Heinrich, Rechtsagent, Zollrain 54.\nLütscher, Hans, Notar, Rain 829.\nMerz-Märk, Sebastian, Notar, Bachstraße 1100.\nStirnemann, Jakob, Notar, Mezgergasse 56.\nWybler, Julius, Notar, Rathausgasse 3.\n\nGläserinnen.\nCadonau-Hunziker, Elisabeth, obere Vorstadt 915.\nBalmer, Marie, obere Vorstadt 924.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7513,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2720,
+    "lines": 75,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0133,
+    "mean_line_chars": 35.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:29:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p149",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p149.jpeg",
+      "bytes": 275134,
+      "sha256": "19cd755d003d10368b08bb265edd7a511c3cd7dc1b3c61534dea0fac8d137817",
+      "sha256_of": "original",
+      "working_copy": "1888_p149.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:29:58+00:00"
+  }
+}

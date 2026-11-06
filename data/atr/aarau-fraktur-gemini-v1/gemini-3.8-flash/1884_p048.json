@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p048",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p048.jpeg",
+    "bytes": 308272,
+    "sha256": "e85991675c16ff5e96b0babfaf725288cc240109dc2bc65eef3349a7a660d5e6",
+    "sha256_of": "original",
+    "working_copy": "1884_p048.jpeg"
+  },
+  "text": "44\tSchwammberger.\t—\tSiebenmann.\n\nSchwammberger-Schmid, Jakob, Färber, von Auenstein, Rain 820.\n— Elise, Damenschneiderin, von Auenstein, vordere Vorstadt 670.\n— Marie, Damenschneiderin, von Auenstein, vordere Vorstadt 670.\nSchwarb-Dietiker, Anna, Wittwe, Damenschneiderin, v. Eiken, Ziegelr. 711.\nSchwarz-Müller, Joh., Pferdewärter, v. Kröppen (Bayern), ob. Vorst. 915.\nSchweizer-Gubler, Friedrich, Staatsarchivar, von Dätwyl, Rain 862.\nSeger-Christen, Fr., Hafner, v. Engen (Grzh. Baden), Laurenzenvorst. 376.\nSeiberlich-Iber, Frz. Xav., Schneider, v. Mersch (Grzh. Baden), Adelb. 86.\n*Seiler-Hanhardt, Andreas, Bäcker, Rathhausgasse 48.\nSemmler-Ganz, Margaretha, Schuhhändlerin, von Pirmasens (Bayern),\n  Bahnhofstraße 541.\nSenn-Zuber, Johann, Küfermeister, von Hottwyl, Bachstraße 1031.\n— =Furter, Anna, Spetterin, von Uster (Zürich), Rain 822.\n— =Blattner, Karol., Wittwe, Ausrüsterin, v. Densbüren, vord. Vorst. 682.\nSennhauser-Goszewisch, A., Mod., v. Herrliberg (Zürich), Adelbändli. 170.\n*Siebenmann-Hunziker, Emma, Wittwe, Wirthin, Metzgergasse 60.\n* — Adolf, Metzger, Metzgergasse 60.\n* — =Beck, Gottlieb, Färber, Milchgasse 74.\n* — =Schmidt, Karl, Kaufmann, Bett- u. Ellenwaarenhdlg., Zollrain 181.\n* — =Richner, Nanette, Partik., Pelzgasse 137.\n* — =Blum, Elise, Spetterin, Milchgasse 156.\n* — Elise, Damenschneiderin, Milchgasse 156.\n* — Fritz, Commis, Milchgasse 156.\n* — Ludwig, Schuhmacher, Adelbändli 171.\n* — =Frei, Ludwig, Sohn, Schuhmacher, Adelbändli 171.\n* — Jakob, gew. Marchd.-Tailleur, Partik., Oberthor 226.\n* — Gustav, Marchd.-Tailleur, Oberthor 226.\n* — Adolf, Sekretär, Oberthor 226.\n* — =Walter, Otto, Marchd.-Tailleur, Golattenmattgasse 227.\n* — =Marti, Rosina, Arbeitslehrerin, Halden 267.\n* — =Hagnauer, Friedrich, Bierbrauer im Weinberg 321.\n* — =Preisig, Katharina, Becks Wittwe, im Weinberg 333.\n* — Friedrich, Sohn, im Weinberg 333.\n* — =Siebenmann, Rudolf, Bierbrauer, Graben 620.\n* — =Hürsch, Gottlieb, Bauverwalter, Laurenzenvorstadt 397.\n* — =Hensel, Karl, Lokomotivführer, Igelweid 625.\n* — =Ackermann, Bernhard, Bäcker und Wirth, vordere Vorstadt 673.\n* — Daniel, Rentier, vordere Vorstadt 673.\n* — =Sager, Anna, Wittwe, Partik., Ziegelrain 707a.\n* — Bertha, Tochter, Partik., Ziegelrain 707a.\n* — Gottlieb, Holzhändler, Schachen 737.\n* — =Richner, Mina, Wittwe, Partik., Rainstraße 832.\n* — Gottlieb, Gerber, Rainstraße 834.\n* — Friedrich, Weinhändler, Rainstraße 860.\n* — =Kraus, Anna, Wirthin, obere Vorstadt 926.\n* — =Sprüngli, J. Arnold, Agent, Schachen 729.\n* — Julie, Damenschneiderin, Schachen 729.\n* — =Steiner, Jakob, Oekonom, Goldern 1001.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8101,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2593,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:15:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p048",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p048.jpeg",
+      "bytes": 308272,
+      "sha256": "e85991675c16ff5e96b0babfaf725288cc240109dc2bc65eef3349a7a660d5e6",
+      "sha256_of": "original",
+      "working_copy": "1884_p048.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:15:22+00:00"
+  }
+}

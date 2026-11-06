@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p092",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p092.jpeg",
+    "bytes": 305636,
+    "sha256": "cebe4db0d5a61fb8df3f7c9f7fc433d18db3bf0355a5c6209200303389d435b6",
+    "sha256_of": "original",
+    "working_copy": "1884_p092.jpeg"
+  },
+  "text": "88\nVerzeichnis der Gesellschaften und Vereine.\n\nI. Wohltätigkeits = Gesellschaften.\nA. Armenbereine.\nArmenerziehungsverein des Bez. Aarau.\nDeutscher Hilfsverein.\nFrauen-Arbeitsverein Aarau.\nFröbel'scher Kindergarten.\nHilfsverein Aarau.\nKleinkinderpflege in der Halden.\nKleinkinderschule in der Milchgasse.\nSchweizerverein der Loge z. „Brudertreu“ in Aarau.\nStädtischer Hilfsfrappenverein Aarau.\nVerein gegen Hausbettel.\nB. Krankenbereine, Unterstützungsstatten.\nBuchdrucker-Krankenaffe.\nGroße Gesellenlade für Handwerker.\nGrüttiverein-Krankenaffe.\nGeizer- und Maschinenverein von\nAarau und Umgebung.\nKleine Gesellenlade für Schuster und\nSchneider.\nKrankenjuppe = Anstalt.\nKrankenunterstützungs = Gesellschaft für\nFrauen und Töchter.\nMänner-Krankenunterstützungs = Verein\nAarau.\nStädtischer Lehrerpensions = Verein in\nAarau.\nII. Vereine und Gesellschaften\nmit künstlerischen, wissenschaftlichen und\ngewerblichen Tendenzen.\nNargauischer Kunstverein.\nNargauischer Thierschutzverein.\nBibelgesellschaft.\nChristlicher Jünglingsverein.\nDramatischer Verein.\nEinwohnerverein der Stadt Aarau.\nFreimaurerloge.\nGartenbauverein.\nGewerbehalle und Vorschutzkasse.\nGrüttiverein Aarau.\nHandwerker- und Gewerbeverein.\nHistorische Gesellschaft.\nKaufmännische Abendgesellschaft.\nKulturgesellschaft des Bezirks Aarau.\nLandwirthschaftl. Bezirksverein Aarau.\nSejegesellschaft.\nMittelschweiz. Geograph.-Commerzielle\nGesellschaft in Aarau.\nNaturforschende Gesellschaft.\nSchuhmacherverein Aarau.\nSonntags- und Handwerkerschule.\nStenographenverein.\nTarifverein Aarau.\nTypographenverein.\nVerein junger Kaufleute.\nVerein schweizerischer Geschäftsreisender,\nSection Aarau.\nIII. Gefangvereine.\nGäcklienverein Aarau.\nGefangsjektion des Grüttivereins.\nSängerbund Aarau.\nTöchternchor Aarau.\nIV. Musikvereine.\nFeuerwehr-Musik.\nKleine Blechmusik-Gesellschaft.\nStadtmusik-Gesellschaft Aarau.\nBither-Club Aarau.\nV. Militärische Bereinigungen.\nArtillerieverein Aarau.\nMilitär-Sanitätsverein von Aarau und\nUmgebung.\nOffiziers-Gesellschaft Aarau.\nUnteroffiziersverein Aarau.\nWasserfahrverein Aarau.\nVI. Schützen = Gesellschaften.\nFreier Schützverein Aarau.\nSchützen = Gesellschaft Aarau.\nSchützen-Gesellschaft des Grüttivereins.\nVII. Turnvereine.\nBürgerturnverein Aarau.\nTurnverein, Alte Section.\nVIII. Verschiedene Gesellschaften\nund Vereine.\nNargauischer Tauchstummenverein.\nAltersgenossenverein Aarau.\nDeutscher Arbeiterverein.\nDonnerstags-Kegelgesellschaft im Kreuz.\nDreizehner-Fahrgängerverein.\nFricenverein Aarau.\nJahobenverein Aarau.\nBelo = Club.\nZweiundzwanziger-Fahrgängerverein.\nVerzeichnis der gemeinnützigen und wohltätigen Anstalten.\nArmen-Grziehungsanstalt Kasteln.\nBlindenajhlfond.\nBürgerpital (Krankenanstalt).\nDiatonissen = Anstalt in Aarau.\nTaubstummen-Anstalt von Aarau, auf\nLandenhof.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5223,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2763,
+    "lines": 101,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0099,
+    "mean_line_chars": 26.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:18:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p092",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p092.jpeg",
+      "bytes": 305636,
+      "sha256": "cebe4db0d5a61fb8df3f7c9f7fc433d18db3bf0355a5c6209200303389d435b6",
+      "sha256_of": "original",
+      "working_copy": "1884_p092.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:18:22+00:00"
+  }
+}

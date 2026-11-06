@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p047",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p047.jpeg",
+    "bytes": 238296,
+    "sha256": "3a536e95fdb1382861ef92f1d6aabdfd7c44af5d671856d42b032b8b3883a090",
+    "sha256_of": "original",
+    "working_copy": "1888_p047.jpeg"
+  },
+  "text": "Gaus=\nNr.\n515. Schweizerische Nordostbahn. Bahnhofsgebäude.\nKübler-Ruhn, Joh., Bahnhofinspektor.\nBraft-Meyer, Joh., Inspektionsbeamter, von Leibstatt.\nSchäfer-Meier, Friedrich, Einnehmer der Nordostbahn.\nBissegger-Geiger, Joh. Konrad, Inspektionsbeamter, von Affeltrangen\n(Thurgau).\n516.† Schweizerische Nordostbahn. Einsteigehalle.\n517.† Diefelbe. Wagenremise.\n518.† Diefelbe. Wärterhaus.\n519.* Diefelbe. Güterschopf mit Wohnungen.\nFurter-Haller, Hans, Gepäckdepdient, von Lenzburg.\nSpühler-Bühler, Friedrich, Portier, von Wasterfingen (Zürich).\n520.† Diefelbe. Wachshaus und Abtritte.\n521.† id. Maschinenremise.\n522.† id. Wasserstationsgebäude.\n523.† id. Güterschopf. (Fruchtschuppen.)\n524 † id. Wagenremise.\n525.† id. Bahnwärterhäuschen.\n526.† id. Abtrittgebäude.\n527.† id. Bahnwärterhäuschen.\n528.† id. id.\n529.† id. id.\n530.† id. id.\n531.† id. id.\n532.† id. id.\n533.† id. id.\n534.† id. Abgetragen.\n1116 † id. Bahnwärterhäuschen.\n1239 † id. Abtritt.\n1254 † id. Wachsmagazin.\n535. Billo-Bär, Julius, Kerzenfabrikant.\nDr. Guttentag, Isidor Jul., Professor, von Czenstochau (russ. Polen).\n536.† Derfelbe. Kerzenfabrikationsgebäude.\n537.† Derfelbe. Schenne und Bütreau von J. Spinner, Speditions- und\nBrennmaterialgeschäft und öffentliche Brückenwaage.\n538.† Derfelbe. Schmiede.\n539.† Derfelbe. Holzschopf.\n540.† Derfelbe. Gebäude mit Brückenwaage.\n1240 † Ernst-Räfer, Friedrich, Köhrenfabrikant. Magazin.\n541. Rychner-Peter, Joh., Wirth, von Rohr.\nKeller-Steiner, Karl, Part.\nSteiner, Joh., Part.\nSteiner-Lindemann, Sujanna, Wittwe, Part.\nSemmler-Gans, Margaretha, Schuhhändlerin, von Pirmajens (Bayern).\nBoltemer geb. Muggmann, Barbara, Schuhhändlerin, von Pirmajens\n(Bayern).\n542.† Derfelbe. Holzhaus.\n543.† Siebenmann, Daniel, Rentier. Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3979,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1749,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:22:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p047",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p047.jpeg",
+      "bytes": 238296,
+      "sha256": "3a536e95fdb1382861ef92f1d6aabdfd7c44af5d671856d42b032b8b3883a090",
+      "sha256_of": "original",
+      "working_copy": "1888_p047.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:03+00:00"
+  }
+}

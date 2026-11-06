@@ -1,0 +1,1169 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-v1",
+  "model": "kraken-catmus_print_large",
+  "engine": "kraken",
+  "doc_id": "",
+  "source": {
+    "key": "1899_p168",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1899_p168.jpeg",
+    "bytes": 254130,
+    "sha256": "854f99bfa3bada0e31e75d624a471420a1fc5ac4216cbe67cc1f05dd936d0f0f",
+    "sha256_of": "original",
+    "working_copy": "1899_p168.jpeg"
+  },
+  "text": "64\nGemüsehändler.\nDürr, Emil, Milchgasse 143.\nFlückiger-Wüthrich, R., Witwe, Pelzgasse (Färbergäßchen), 125.\nHässig, Konrad, Rain 881.\nJäcker-Haller, Joseph, * Laurenzenthorgasse 119 a.\nMarini, Dominico, Schmiedgasse 634.\nRiehl-Dürr, Graben 1237.\nZehnder, Barbara, Kirchhof 165.\nGeschäftsagenten.\n(Siehe Incassogeschäfte.)\nGeschirrhandlungen.\nAndres, Friedrich, * obere Vorstadt 917.\nHagenbuch, Karl, \" Kronengasse 35.\nHemmeler-Stahl, Ida, * Rathausgasse 21.\n— Wilhelm, * obere Vorstadt 919.\n— Scheibler, Verena, Witwe, obere Vorstadt 914.\nMorath, J. W., * Rathausgasse 2.\nGipsermeister.\nFaßler, Friedrich Georg, Zollrain 88.\nSchaub, Adelbert, Pelzgasse 69.\nWehrli, Hans, Halden 250.\n(Im weitern siche die Baumeister.)\nGlätterinnen.\nBalmer, Marie und Karoline, Laurenzenthorgasse 117.\nBruns-Gattiker, Dorothea, Schmiedgasse 625.\nDietiker, Anna, Adelbändli 170.\nFlach-Buser, Anna, obere Vorstadt 930.\nGmünder-Läuchli, Lina, Pelzgasse 132.\nHächler, Louise, Kirchgasse 15.\nHäusler, Julie, vor dem Haldenthor 762.\nHaller-Attiger, Maria, Milchgasse 145.\nHaßler, Sophie, Adelbändli 172.\nHuber-Müller, Bertha, Hammer 190.\nKäser-Leder, Nanette, Entfelderstraße 1285.\nKeller, Ida, Rain 1185.\nKüng-Rüedi, Anna, Hammer 1496.\nLienhard-Hürzeler, Marie, obere Vorstadt 944.\nLüscher, Elise, hintere Vorstadt 647.\nMüller, Emma, Halden 241.\n— Elise, obere Vorstadt 921.\nPeyer-Roos, Wilhelmine, Kirchhof 166.\n\nR",
+  "lines": [
+    {
+      "order": 0,
+      "baseline": [
+        [
+          218.0,
+          113.0
+        ],
+        [
+          247.0,
+          113.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        96.0,
+        247.0,
+        130.0
+      ],
+      "boundary": null,
+      "text": "64",
+      "confidence": 0.9998924434185028,
+      "regions": [
+        "r1"
+      ]
+    },
+    {
+      "order": 1,
+      "baseline": [
+        [
+          452.0,
+          173.0
+        ],
+        [
+          655.0,
+          171.0
+        ]
+      ],
+      "bbox": [
+        451.0,
+        148.0,
+        655.0,
+        187.0
+      ],
+      "boundary": null,
+      "text": "Gemüsehändler.",
+      "confidence": 0.9981388971209526,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 2,
+      "baseline": [
+        [
+          218.0,
+          205.0
+        ],
+        [
+          504.0,
+          206.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        183.0,
+        504.0,
+        215.0
+      ],
+      "boundary": null,
+      "text": "Dürr, Emil, Milchgasse 143.",
+      "confidence": 0.9967454097100666,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 3,
+      "baseline": [
+        [
+          219.0,
+          227.0
+        ],
+        [
+          868.0,
+          228.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        205.0,
+        868.0,
+        247.0
+      ],
+      "boundary": null,
+      "text": "Flückiger-Wüthrich, R., Witwe, Pelzgasse (Färbergäßchen), 125.",
+      "confidence": 0.9900551510579658,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 4,
+      "baseline": [
+        [
+          219.0,
+          248.0
+        ],
+        [
+          487.0,
+          250.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        229.0,
+        487.0,
+        258.0
+      ],
+      "boundary": null,
+      "text": "Hässig, Konrad, Rain 881.",
+      "confidence": 0.9980188172597152,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 5,
+      "baseline": [
+        [
+          218.0,
+          271.0
+        ],
+        [
+          737.0,
+          272.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        250.0,
+        737.0,
+        282.0
+      ],
+      "boundary": null,
+      "text": "Jäcker-Haller, Joseph, * Laurenzenthorgasse 119 a.",
+      "confidence": 0.99821685108484,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 6,
+      "baseline": [
+        [
+          219.0,
+          293.0
+        ],
+        [
+          588.0,
+          295.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        276.0,
+        588.0,
+        308.0
+      ],
+      "boundary": null,
+      "text": "Marini, Dominico, Schmiedgasse 634.",
+      "confidence": 0.9998474325452532,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 7,
+      "baseline": [
+        [
+          218.0,
+          315.0
+        ],
+        [
+          475.0,
+          317.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        295.0,
+        475.0,
+        323.0
+      ],
+      "boundary": null,
+      "text": "Riehl-Dürr, Graben 1237.",
+      "confidence": 0.9919027495384216,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 8,
+      "baseline": [
+        [
+          217.0,
+          336.0
+        ],
+        [
+          547.0,
+          339.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        317.0,
+        547.0,
+        353.0
+      ],
+      "boundary": null,
+      "text": "Zehnder, Barbara, Kirchhof 165.",
+      "confidence": 0.9995397867694977,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 9,
+      "baseline": [
+        [
+          440.0,
+          387.0
+        ],
+        [
+          669.0,
+          388.0
+        ]
+      ],
+      "bbox": [
+        439.0,
+        360.0,
+        669.0,
+        401.0
+      ],
+      "boundary": null,
+      "text": "Geschäftsagenten.",
+      "confidence": 0.9795467555522919,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 10,
+      "baseline": [
+        [
+          431.0,
+          417.0
+        ],
+        [
+          680.0,
+          417.0
+        ]
+      ],
+      "bbox": [
+        431.0,
+        395.0,
+        680.0,
+        429.0
+      ],
+      "boundary": null,
+      "text": "(Siehe Incassogeschäfte.)",
+      "confidence": 0.9968125453362098,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 11,
+      "baseline": [
+        [
+          423.0,
+          467.0
+        ],
+        [
+          683.0,
+          465.0
+        ]
+      ],
+      "bbox": [
+        422.0,
+        438.0,
+        683.0,
+        480.0
+      ],
+      "boundary": null,
+      "text": "Geschirrhandlungen.",
+      "confidence": 0.9998318364745692,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 12,
+      "baseline": [
+        [
+          218.0,
+          500.0
+        ],
+        [
+          633.0,
+          500.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        477.0,
+        633.0,
+        511.0
+      ],
+      "boundary": null,
+      "text": "Andres, Friedrich, * obere Vorstadt 917.",
+      "confidence": 0.9987086027860641,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 13,
+      "baseline": [
+        [
+          217.0,
+          521.0
+        ],
+        [
+          589.0,
+          523.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        502.0,
+        589.0,
+        534.0
+      ],
+      "boundary": null,
+      "text": "Hagenbuch, Karl, \" Kronengasse 35.",
+      "confidence": 0.988426024422926,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 14,
+      "baseline": [
+        [
+          218.0,
+          543.0
+        ],
+        [
+          634.0,
+          545.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        522.0,
+        634.0,
+        553.0
+      ],
+      "boundary": null,
+      "text": "Hemmeler-Stahl, Ida, * Rathausgasse 21.",
+      "confidence": 0.9982123298522754,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 15,
+      "baseline": [
+        [
+          219.0,
+          564.0
+        ],
+        [
+          575.0,
+          568.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        545.0,
+        575.0,
+        579.0
+      ],
+      "boundary": null,
+      "text": "— Wilhelm, * obere Vorstadt 919.",
+      "confidence": 0.9833506271243095,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 16,
+      "baseline": [
+        [
+          221.0,
+          587.0
+        ],
+        [
+          730.0,
+          589.0
+        ]
+      ],
+      "bbox": [
+        220.0,
+        567.0,
+        730.0,
+        601.0
+      ],
+      "boundary": null,
+      "text": "— Scheibler, Verena, Witwe, obere Vorstadt 914.",
+      "confidence": 0.9896590595549726,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 17,
+      "baseline": [
+        [
+          219.0,
+          611.0
+        ],
+        [
+          562.0,
+          611.0
+        ]
+      ],
+      "bbox": [
+        219.0,
+        591.0,
+        562.0,
+        627.0
+      ],
+      "boundary": null,
+      "text": "Morath, J. W., * Rathausgasse 2.",
+      "confidence": 0.9989566076546907,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 18,
+      "baseline": [
+        [
+          460.0,
+          668.0
+        ],
+        [
+          649.0,
+          666.0
+        ]
+      ],
+      "bbox": [
+        459.0,
+        641.0,
+        649.0,
+        683.0
+      ],
+      "boundary": null,
+      "text": "Gipsermeister.",
+      "confidence": 0.9998303736959185,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 19,
+      "baseline": [
+        [
+          218.0,
+          700.0
+        ],
+        [
+          595.0,
+          700.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        677.0,
+        595.0,
+        709.0
+      ],
+      "boundary": null,
+      "text": "Faßler, Friedrich Georg, Zollrain 88.",
+      "confidence": 0.9956795798765646,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 20,
+      "baseline": [
+        [
+          220.0,
+          722.0
+        ],
+        [
+          540.0,
+          722.0
+        ]
+      ],
+      "bbox": [
+        220.0,
+        702.0,
+        540.0,
+        734.0
+      ],
+      "boundary": null,
+      "text": "Schaub, Adelbert, Pelzgasse 69.",
+      "confidence": 0.9995779606603807,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 21,
+      "baseline": [
+        [
+          221.0,
+          744.0
+        ],
+        [
+          494.0,
+          744.0
+        ]
+      ],
+      "bbox": [
+        221.0,
+        725.0,
+        494.0,
+        758.0
+      ],
+      "boundary": null,
+      "text": "Wehrli, Hans, Halden 250.",
+      "confidence": 0.9997890639305115,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 22,
+      "baseline": [
+        [
+          376.0,
+          773.0
+        ],
+        [
+          729.0,
+          770.0
+        ]
+      ],
+      "bbox": [
+        375.0,
+        749.0,
+        729.0,
+        788.0
+      ],
+      "boundary": null,
+      "text": "(Im weitern siche die Baumeister.)",
+      "confidence": 0.9989816055578344,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 23,
+      "baseline": [
+        [
+          467.0,
+          829.0
+        ],
+        [
+          640.0,
+          827.0
+        ]
+      ],
+      "bbox": [
+        466.0,
+        802.0,
+        640.0,
+        840.0
+      ],
+      "boundary": null,
+      "text": "Glätterinnen.",
+      "confidence": 0.9980302112443107,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 24,
+      "baseline": [
+        [
+          217.0,
+          858.0
+        ],
+        [
+          760.0,
+          855.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        833.0,
+        760.0,
+        870.0
+      ],
+      "boundary": null,
+      "text": "Balmer, Marie und Karoline, Laurenzenthorgasse 117.",
+      "confidence": 0.9996902498544431,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 25,
+      "baseline": [
+        [
+          218.0,
+          880.0
+        ],
+        [
+          670.0,
+          878.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        859.0,
+        670.0,
+        892.0
+      ],
+      "boundary": null,
+      "text": "Bruns-Gattiker, Dorothea, Schmiedgasse 625.",
+      "confidence": 0.9998582670854967,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 26,
+      "baseline": [
+        [
+          218.0,
+          902.0
+        ],
+        [
+          539.0,
+          900.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        884.0,
+        539.0,
+        909.0
+      ],
+      "boundary": null,
+      "text": "Dietiker, Anna, Adelbändli 170.",
+      "confidence": 0.9971094969660044,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 27,
+      "baseline": [
+        [
+          218.0,
+          924.0
+        ],
+        [
+          622.0,
+          922.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        901.0,
+        622.0,
+        933.0
+      ],
+      "boundary": null,
+      "text": "Flach-Buser, Anna, obere Vorstadt 930.",
+      "confidence": 0.9994091862126401,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 28,
+      "baseline": [
+        [
+          219.0,
+          945.0
+        ],
+        [
+          612.0,
+          945.0
+        ]
+      ],
+      "bbox": [
+        219.0,
+        926.0,
+        612.0,
+        958.0
+      ],
+      "boundary": null,
+      "text": "Gmünder-Läuchli, Lina, Pelzgasse 132.",
+      "confidence": 0.9987391493259332,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 29,
+      "baseline": [
+        [
+          218.0,
+          968.0
+        ],
+        [
+          541.0,
+          967.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        947.0,
+        541.0,
+        975.0
+      ],
+      "boundary": null,
+      "text": "Hächler, Louise, Kirchgasse 15.",
+      "confidence": 0.9992675613611937,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 30,
+      "baseline": [
+        [
+          218.0,
+          990.0
+        ],
+        [
+          627.0,
+          989.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        967.0,
+        627.0,
+        998.0
+      ],
+      "boundary": null,
+      "text": "Häusler, Julie, vor dem Haldenthor 762.",
+      "confidence": 0.9994631856679916,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 31,
+      "baseline": [
+        [
+          218.0,
+          1012.0
+        ],
+        [
+          605.0,
+          1010.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        990.0,
+        605.0,
+        1020.0
+      ],
+      "boundary": null,
+      "text": "Haller-Attiger, Maria, Milchgasse 145.",
+      "confidence": 0.9997395637788271,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 32,
+      "baseline": [
+        [
+          218.0,
+          1035.0
+        ],
+        [
+          541.0,
+          1033.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        1015.0,
+        541.0,
+        1041.0
+      ],
+      "boundary": null,
+      "text": "Haßler, Sophie, Adelbändli 172.",
+      "confidence": 0.9974275920540094,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 33,
+      "baseline": [
+        [
+          218.0,
+          1056.0
+        ],
+        [
+          585.0,
+          1054.0
+        ]
+      ],
+      "bbox": [
+        217.0,
+        1035.0,
+        585.0,
+        1064.0
+      ],
+      "boundary": null,
+      "text": "Huber-Müller, Bertha, Hammer 190.",
+      "confidence": 0.9994121264008915,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 34,
+      "baseline": [
+        [
+          219.0,
+          1078.0
+        ],
+        [
+          659.0,
+          1078.0
+        ]
+      ],
+      "bbox": [
+        219.0,
+        1058.0,
+        659.0,
+        1092.0
+      ],
+      "boundary": null,
+      "text": "Käser-Leder, Nanette, Entfelderstraße 1285.",
+      "confidence": 0.9966660399328579,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 35,
+      "baseline": [
+        [
+          219.0,
+          1100.0
+        ],
+        [
+          453.0,
+          1098.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        1081.0,
+        453.0,
+        1109.0
+      ],
+      "boundary": null,
+      "text": "Keller, Ida, Rain 1185.",
+      "confidence": 0.9996513827987339,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 36,
+      "baseline": [
+        [
+          219.0,
+          1122.0
+        ],
+        [
+          569.0,
+          1121.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        1102.0,
+        569.0,
+        1130.0
+      ],
+      "boundary": null,
+      "text": "Küng-Rüedi, Anna, Hammer 1496.",
+      "confidence": 0.9987713135778904,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 37,
+      "baseline": [
+        [
+          219.0,
+          1144.0
+        ],
+        [
+          685.0,
+          1143.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        1121.0,
+        685.0,
+        1154.0
+      ],
+      "boundary": null,
+      "text": "Lienhard-Hürzeler, Marie, obere Vorstadt 944.",
+      "confidence": 0.9996961134931316,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 38,
+      "baseline": [
+        [
+          219.0,
+          1166.0
+        ],
+        [
+          597.0,
+          1165.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        1146.0,
+        597.0,
+        1178.0
+      ],
+      "boundary": null,
+      "text": "Lüscher, Elise, hintere Vorstadt 647.",
+      "confidence": 0.9997717596982655,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 39,
+      "baseline": [
+        [
+          219.0,
+          1188.0
+        ],
+        [
+          502.0,
+          1188.0
+        ]
+      ],
+      "bbox": [
+        219.0,
+        1168.0,
+        502.0,
+        1199.0
+      ],
+      "boundary": null,
+      "text": "Müller, Emma, Halden 241.",
+      "confidence": 0.9986555301226102,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 40,
+      "baseline": [
+        [
+          221.0,
+          1208.0
+        ],
+        [
+          520.0,
+          1210.0
+        ]
+      ],
+      "bbox": [
+        220.0,
+        1189.0,
+        520.0,
+        1219.0
+      ],
+      "boundary": null,
+      "text": "— Elise, obere Vorstadt 921.",
+      "confidence": 0.9995824481759753,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 41,
+      "baseline": [
+        [
+          219.0,
+          1233.0
+        ],
+        [
+          616.0,
+          1231.0
+        ]
+      ],
+      "bbox": [
+        218.0,
+        1210.0,
+        616.0,
+        1248.0
+      ],
+      "boundary": null,
+      "text": "Peyer-Roos, Wilhelmine, Kirchhof 166.",
+      "confidence": 0.9996816983094087,
+      "regions": [
+        "r0"
+      ]
+    },
+    {
+      "order": 42,
+      "baseline": [
+        [
+          984.0,
+          1147.0
+        ],
+        [
+          988.0,
+          1147.0
+        ]
+      ],
+      "bbox": [
+        984.0,
+        1117.0,
+        988.0,
+        1156.0
+      ],
+      "boundary": null,
+      "text": "",
+      "confidence": null,
+      "regions": []
+    },
+    {
+      "order": 43,
+      "baseline": [
+        [
+          981.0,
+          1242.0
+        ],
+        [
+          992.0,
+          1242.0
+        ]
+      ],
+      "bbox": [
+        981.0,
+        1218.0,
+        992.0,
+        1251.0
+      ],
+      "boundary": null,
+      "text": "R",
+      "confidence": 0.9980535507202148,
+      "regions": []
+    }
+  ],
+  "confidence": 0.9971720218085015,
+  "segmented_by": "kraken-blla",
+  "timing_ms": 14489,
+  "truncated": false,
+  "settings": null,
+  "quality": {
+    "verdict": "ok",
+    "chars": 1419,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": {
+    "engine": "party",
+    "model": "party",
+    "text": "",
+    "lines": [],
+    "confidence": null,
+    "timing_ms": 0,
+    "error": "timed out: no answer within 30s of the primary result"
+  },
+  "gateway_version": "7.0.2",
+  "recognised_at": "2026-11-06T12:43:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-v1",
+    "source": {
+      "key": "1899_p168",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1899_p168.jpeg",
+      "bytes": 254130,
+      "sha256": "854f99bfa3bada0e31e75d624a471420a1fc5ac4216cbe67cc1f05dd936d0f0f",
+      "sha256_of": "original",
+      "working_copy": "1899_p168.jpeg"
+    },
+    "model": {
+      "model": "kraken-catmus_print_large",
+      "engine": "kraken",
+      "level": "page",
+      "revision": "10.5281/zenodo.10592716",
+      "revision_kind": "zenodo_record",
+      "weights": "10.5281/zenodo.10592716",
+      "base_model": null
+    },
+    "gateway_version": "7.0.2",
+    "segmented_by": "kraken-blla",
+    "recognised_at": "2026-11-06T12:43:07+00:00"
+  }
+}

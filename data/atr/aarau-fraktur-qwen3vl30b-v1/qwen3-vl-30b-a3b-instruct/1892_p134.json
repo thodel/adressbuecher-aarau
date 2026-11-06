@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p134",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p134.jpeg",
+    "bytes": 248420,
+    "sha256": "8d4608a058bc8235143d3403dde2bf198f8007ba108bacfc4fca01243430e5b7",
+    "sha256_of": "original",
+    "working_copy": "1892_p134.jpeg"
+  },
+  "text": "118\nRichner-Peter, Johann, Wirth von Rohr, Bahnhofstrasse 541.\nRichter-Wyser, Albert, Färber von Elberfeld, Bachstrasse 1055.\nRigaffi-Franzetti, Kaspar, Geschäftsreisender von Landarenca (Graubünden), Zollrain 179.\nRieber-Thoma, Fridolin, Schneider von Winterlingen (Württemberg), Meggergasse 101.\nRiehl-Dürr, Karl, Koch von Obernai (Elzas), Graben 1237.\nRies-Buhlein, Emanuel, Farb- und Glaswaarenhandlung, Drogerie, Ziegelrain 702.\nRiner-Hächler, Joseph, Kondukteur von Herzgnach, Entfelderstrasse 1285.\nRiner-Dbrift, Johann, Polizeidiener von Herzgnach, Rain 1185.\nX Ringier-Tschudi, Adolf, Lagerhausdirektor von Zofingen, Laurenzenvorstadt 408.\n/ Ringier-Schwarz, Karl Arnold, Reg.-Rath von Zofingen, jenseits der Aare 294.\nRiniker, Arnold, Sohn, Commis, Meggergasse 102.\nRiniker-Beck, Nanette, Wittwe, Part., Meggergasse 103.\nX Riniker-Gros, Friedrich, Bierbrauer, Bierwirthschaft, Meggergasse 102.\nX Riniker, Hans, Regierungsrath von Habsburg, Gartenstrasse 999.\nRiniker, Karl, Sohn, Bierbrauer, Meggergasse 102.\nRiniker-Läuchli, Jakob, Dekonom, Bingenhof 1005.\nRiniker-Lutz, Adolf, Kaufmann, Graben 1237.\nRiniker-Temperli, Friedrich, Badwirth von Habsburg, Bingenhof 1010.\nRiniker-Wernli, Hermann, Milchverkäufer von Habsburg, Entfelderstrasse 1195.\nRippstein-King, Joseph, Bahnhofsportier von Rienberg (Solothurn), Bahnhofstrasse 519.\nRychner-Buhlein, Maria Elisabeth, Part., Halden 264.\nX Rychner-Carli, Karl Christian, Röhren-Fabrikant, obere Vorstadt 1117.\nRychner, Fritz, Pianist, obere Vorstadt 1117.\nRychner-Gröginger, Job. Heinrich, Buchhalter, jenseits der Aare 297 a.\nX Rychner-Henz, Henriette, Part., Entfelderstrasse 981.\nX Rychner-Heß, Konrad, Seiler, Pelzgasse 123.\nRychner-Heß, Louis, Ingenieur, Rain 832.\nRychner-Hunziker, Elise, Malers Wittwe, Part., Bahnhofstrasse 1020.\nX Rychner-Renold, Heinrich, Gewehrfabrikant, Schloßplatz 196.\nX Rychner-Renz, Rosa, Part., obere Vorstadt 1117.\nRychner-Schleuniger, Marie, Hafners Wittwe, Schmiedgasse 637.\nX Rychner-Siebenmann, Elise, Bandfabrikants Wittwe, Part., Rain 828.\nRychner-Spengler, Ferdinand, Cementfabrikant, obere Vorstadt 1117.\nRychner-Thomann, Friedrich, Spenglermeister, Kirchgasse 10.\nRödelberger-Bopp, Franz, Musikklehrer von Würzburg (Baiern), Bahnhofstrasse 658.\nRochholz-Schröder, Ernst Ludwig, Dr. Professor von Ansbach (Bayern), Meggergasse 100.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6408,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2343,
+    "lines": 38,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 60.68,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:45:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p134",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p134.jpeg",
+      "bytes": 248420,
+      "sha256": "8d4608a058bc8235143d3403dde2bf198f8007ba108bacfc4fca01243430e5b7",
+      "sha256_of": "original",
+      "working_copy": "1892_p134.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:02+00:00"
+  }
+}

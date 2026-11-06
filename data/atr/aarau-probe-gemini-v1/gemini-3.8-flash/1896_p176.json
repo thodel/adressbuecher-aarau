@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-probe-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1896_p176",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1896_p176.jpeg",
+    "bytes": 277343,
+    "sha256": "cc8165919016d7e3b9e92dd51e2526a0107565f2c7ffb58db8f69a87cf995a07",
+    "sha256_of": "original",
+    "working_copy": "1896_p176.jpeg"
+  },
+  "text": "138 Geschäfts- und Gewerbetreibende.\n\nBrunner, Auguste, Bachstraße 1038.\nBruns-Gattiker, Dorothea, Rain 883.\nDietiker, Anna, Golattenmattgasse 237b.\nFrey, Rosa, vor dem Haldenthor 810.\nHässig, Mina, Zollrain 181.\nHäusler, Julie, vor d. Haldenthor 762.\nHaller-Attiger, Maria, vor dem Halden-\n  thor 1092.\nHaßler, Sophie, Adelbändli 172.\nHort-Hemmeler, Elise, Halden 279.\nHuber-Kern, Margaritha, Schmiedgasse\n  636.\nHuber-Müller, Bertha, Hammer 190.\nKäser-Leder, Nanette, Entfelderstraße\n  1285.\nKeller, Ida, Rain 1185.\nKüng-Rüedi, Anna, Milchgasse 144.\nKyburz, Elise, Stadthof 92.\nLäuchli, Lina, Pelzgasse 132.\nLienhard-Baumann, Emilie, Rain 880.\nLüscher, Elise, hintere Vorstadt 647.\nMerz-Dürr, Emma, Halden 286.\nMüller, Elise, obere Vorstadt 921.\nPeyer-Roos, Wilhelmine, Rain 825.\nPeyer, Sophie, Rain 825.\nPortmann-Peyer, Luise, Pelzgasse 132.\nSchatzmann-Häring, Elisabeth, vor dem\n  Haldenthor 1399.\nSchmid, Anna und Jenny, v. d. Halden-\n  thor 1332.\nSennhauser, Rosa und Amalia, vor dem\n  Haldenthor 758.\nSiegenthaler-Hirt, Elise, Hammer 189.\nSuter. Rosa, Ziegelrain 711.\nWeber, Anna, Waltersburg 856.\nWiederkehr-Oeschger, Viktoria, Milch-\n  gasse 152.\nZellweger, Elise, Milchgasse 153.\n\nGlashandlungen.\nHagenbuch, Karl, * Kronengasse 35.\nRies-Buhlrein, Eml., Ziegelrain 702.\n\nGlaswarenhandlungen.\nHagenbuch, Karl, * Kronengasse 35.\nHemmeler-Stahl, J., * Rathausg. 21.\nMorath, J. W., * Rathausgasse 2.\nSchmidt-Lanz, * Adolf, ob. Vorstadt 935.\n[spalte 2]\nVereinigte Schweizerbazars, Filiale, obere\n  Vorstadt 925. (S. Inserat S. 12.)\n\nGlasurmühle.\nSchmidt-Lanz, Adolf, * ob. Vorst. 936.\n\nGlockengiesserei.\nRüetschi & Cie., * Rainstraße 844.\n  (Siehe Inserat Seite 13.)\n\nGoldleistenhandlungen.\nHagenbuch, Friedrich, Buchbinder, * vord.\n  Vorstadt 676.\nRies-Buhlrein, Emanuel, Ziegelrain 702.\nSchatzmann, Samuel, Buchbinder, Pelz-\n  gasse 135. (Siehe Inserat S. 2.)\nWärtli, August, Buchbinder, Kirchhof 166.\nZebert, Georg, Buchbinder, * Laurenzen-\n  thorgasse 116.\n\nGold- und Silberwaren.\nFischer, Jonathan, vord. Vorstadt 1260.\nHärdy, Wilhelm, Rathausgasse 42.\nHirschy, J. R., * vordere Vorstadt 668.\n  (Siehe Inserat Seite 16.)\n\nGoldschmiede.\nFischer, Jonathan, Holzmarkt 1260.\nHärdy, Wilhelm, * Rathausgasse 42.\n\nGrabsteinlager.\nRusterholz & Freihofer, * Rain 885.\n  (Siehe Inserat Seite 5.)\n\nGraveur.\nChristen, Andreas, Schmiedgasse 619.\nRohr, Hans, Wirt, Holzmarkt 662.\n\nHadernhändler.\nHürzeler, Jakob, Hammer 185.\n\nHaargeflechte.\nHauri, Jean, Coiffeur, Pelzgasse 65.\n\nHaferhandlungen.\nBirmann, Adolf, * hintere Vorstadt 689.\nKeller-Steiner, Karl, Rain 878.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10408,
+  "truncated": false,
+  "settings": "prompt-48d0eac8+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2562,
+    "lines": 85,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0118,
+    "mean_line_chars": 28.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+  "recognised_at": "2026-11-06T12:04:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-probe-gemini-v1",
+    "source": {
+      "key": "1896_p176",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1896_p176.jpeg",
+      "bytes": 277343,
+      "sha256": "cc8165919016d7e3b9e92dd51e2526a0107565f2c7ffb58db8f69a87cf995a07",
+      "sha256_of": "original",
+      "working_copy": "1896_p176.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-48d0eac8+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T12:04:34+00:00"
+  }
+}

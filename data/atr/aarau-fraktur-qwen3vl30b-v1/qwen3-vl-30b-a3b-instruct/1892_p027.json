@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p027",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p027.jpeg",
+    "bytes": 223943,
+    "sha256": "0f377103382c0b0a4751bf340943cbe87a917181c3bf0752b67f0709244c5f49",
+    "sha256_of": "original",
+    "working_copy": "1892_p027.jpeg"
+  },
+  "text": "Haus-\nNr.\n204. Schmidlin, Theodor, Fabrikant chemischer Produkte.\nFrey-Schmidlin, Othmar, Fürsprach, Vice-Bankdirektor.\n205. * Rohr-Šärbi, Erbschaft.\nFirma: Großmann, Otto, Handelsgärtnerrei und Samenhandlung.\nBlumenbazar.\nSteiner-Schürch, Anna, Part., von Dürrenäsch.\nBolenz-Richner, Selma, Part., von Morges (Waadt).\nHorlacher, Wilhelm, Kaufmann, von Umlen.\n206. Schieker-Hässig, Hermann, Kaufmann. Käsehandlung en gros.\nPfau, Johann Jakob, Bankangestellter, von Schaffhausen.\n207. * Marxwalder-Gamper, Traugott, Oberstlieutenant, Kavallerie-\nInstructor I. Klasse.\nKirchner-Vonwiller, Ida, Modistin, von Merseburg (Preussen). Mode-\nwaaren-Geschäft.\nHugi, Marie, Coiffeuse, von Selzach (Solothurn).\n208. Abgetragen; an dessen Platz\n1237. Dürrenlücher, Gabriel, Gemüsehändler. Restauration.\nKünzler-Lug, Adolf, Kaufmann.\nRiech-Dürr, Charles, Koch, von Dberndi (Elsass).\n209. Riefer-Haßler, Samuel, Postkassier.\nBurgmeier-Riefer, Joseph, Gesanglehrer.\nHaßler, Margaretha, Glasers, Part.\nHinter dem Blak.\n210. Bildi-Neschbach, Emil, Schreiner, von Zübr.\n211. † Gemeinde Aarau, Spritzenhaus Nr. 8.\n212. * Bäuerlin & Kummeler, Elektricitätswerk Aarau. Fabrikgebäude.\n213. Treszger-Schöndli, Gustav, Dampf-Wasch- und Badanfalt.\n214. * Siebenmann, Adolf und Fanny.\nAngst-Hässig, Gottlieb, Negotiant, von Eglisau (Zürich).\nAngst, Robert, Eohn, Kaufmann, von Eglisau (Zürich).\nBuchhandlung für christliche Literatur und Depot der aarg. Bibel-\ngesellschaft. Artikel für Krankenpflege. Depot der internationalen\nVerbandstoff-Fabrik Schaffhausen. Chemisch-technische Präparate,\nSchwämme und chinesischer Thee.\nFazler, Marie, Priv., von Densbüren.\nGraben.\n215. Allgemeine aargauische Ersparnisklasse.\nImhof-Munzinger, Emil, Part.\nWelti-Siebenmann, Henriette, Part.\nWelti, Lisa, Part.\n216. Meister-Gifi, Georg, Bäcker u. Bintenwirth, von Magendorf (Solothurn).\nLorenz-Jaaf, Joseph, Arzt, von Klingnau.\n217. Buser-Müller, Heinrich, Hufschmied.\nScholte-Voitel, Margaretha, Wittwe, Part.\n218. Urech-Imhof, Fried., Part.\nDitt, Kaspar, Rentier, von Zürich.\nAkeret, Jakob, Krankenwärter, von Nusbaumen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4297,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2083,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:35:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p027",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p027.jpeg",
+      "bytes": 223943,
+      "sha256": "0f377103382c0b0a4751bf340943cbe87a917181c3bf0752b67f0709244c5f49",
+      "sha256_of": "original",
+      "working_copy": "1892_p027.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:35:34+00:00"
+  }
+}

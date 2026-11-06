@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p120",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p120.jpeg",
+    "bytes": 284390,
+    "sha256": "11c2cc32981cacb9bf4dc29bedbee018155113e21e126a78d85c3faa6b7157b4",
+    "sha256_of": "original",
+    "working_copy": "1888_p120.jpeg"
+  },
+  "text": "102\nMatt — Merz.\nMatt-Rothpleß, Wilh. Friedrich, Schriftseker von Wittlensweiler (Württemberg), Halden 276.\nMattenger-Schönberg, Samuel, Amtsschreiber von Oberentfelden, hintere Vorstadt 623.\n* Matter-Hagnauer, Jakob, Schneidermeister von Kölliken, Adelbündli 170.\nMatter-Thommann, Marie, Wittwe, Wäscherin von Kölliken, Kirchgasse 12.\n* Mauch-Humm, Samuel, Kaufmann von Teufenthal, obere Vorstadt 938.\n* Maurer-Peter, Emil, Negociant und Wirth zum „Creuz“ jenseits der Aare 298.\nMaurer-Ernst, Philipp, Gießereiarbeiter, Milchgasse 73.\nMaurer, Louise, Part., Rathhausgasse 29.\nMaurer, Gustav Alfred, Kaufmann, Rathhausgasse 29.\nMaurer-Lehmann, Friedrich, Kutscher von Schmiedrued, Milchgasse 76.\nMeier-Bucher, August, Direktionssekretär von Oberjiggenthal, Rain 874.\nMeier, Eduard Erwin, Sekretär von Dintikon, Milchgasse 147.\nMeier-Roth, Serena, Taglöhnerin von Dintiken, id. id.\nMeier, Ferdinand, Kaufmann von Büren z. Hof (Bern), hintere Vorstadt 1236.\nMeier-Groszmann, Anna, Wittwe, Part. von Rheinfelden, vordere Vorstadt 680.\nMeier-Hägeli, Alois, Taglöhner v. Büron (Fuzern), Laurenzenvorstadt 376.\n* Meier, Jakob Ludwig, Architekt von Zürich, Graben 206.\nMeier, Johann, Lehrer von Aris tau, Bahnhofstraße 1022.\nMeier, Joseph, Commis (Lagerhaus) v. Ehrendingen, Laurenzenvorft. 361.\n* Meier-Lüthy, Johann Jakob, Lehrer, Weinberg 321 c.\nMeier-Matter, Jakob, Zimmermann von Dintiken, obere Vorstadt 940.\nMeier-Müller, Paul, Schneider v. Stetten (Großh. Baden), Zieglerain 751.\nMeier, Nothburga, Pofamenterin von Erlinsbach (Solothurn), obere Vorstadt 913.\nMeier-Ott, Agatha, Schreiners Wittwe, Taglöhnerin von Gebenstorf, Milchgasse 161.\n/ Meiti-Sulzer, Jakob, Müller von Elgg (Zürich), Stadthof 95.\nMeijel, Xaver, Forstverwalter, Graben 205.\nMeißner-Baumgardt, Karl, Steindrucker v. Großglogau (Schlesien), Rathausgasse 47.\n/ Meister-Gisi, Georg, Bäcker und Wirth von Maigendorf (Solothurn), Graben 216.\nMeyer-Brunner, Emil, von Rheinfelden, Verwalter des Kantonsspitals, Bachstraße 1051.\nMeyer-Wydler, Joseph, Postcommis von Hilfikon, Zieglerain 722.\nMeynadier, Lina, Damenschneiderin v. Perigue (Franckreich), Weinberg 322.\nMent-Wehrli, Anna, Wittwe, Taglöhnerin von Densbüren, Halden 251.\nMerk-Stirnemann, Adolf, Handelsreisender von Horn (Großh. Baden), Casinostraße 1176.\nMerz-Dürr, Jakob, Taglöhner, Halden 268.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4871,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2322,
+    "lines": 36,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 63.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p120",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p120.jpeg",
+      "bytes": 284390,
+      "sha256": "11c2cc32981cacb9bf4dc29bedbee018155113e21e126a78d85c3faa6b7157b4",
+      "sha256_of": "original",
+      "working_copy": "1888_p120.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:11+00:00"
+  }
+}

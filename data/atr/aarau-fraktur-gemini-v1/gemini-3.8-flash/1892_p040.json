@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p040.jpeg",
+    "bytes": 249192,
+    "sha256": "af49023ff363322ae510856cc035eb4586014ba40ee52437536da94b2ade80fa",
+    "sha256_of": "original",
+    "working_copy": "1892_p040.jpeg"
+  },
+  "text": "— 32 —\n\nHaus=\nNr.\n394.  Sauerländer=Benz, Elise, Wittwe.\n  Wanger=Wanger, Gustav, Kassier der Aarg. Ersparnißkasse.\n  Wanger, Marie, Kaufmanns, Part.\n  Wanger, Sophie, Kassiers.\n  Wietlisbach=Frey, Sophie, Wittwe, Part., von Bremgarten.\n395. † Dieselbe. Hintergebäude.\n396. † Dieselbe. Wasch= und Holzhaus.\n397.  Zürcher=Wirz, Alfred, Arzt.\n398. † Derselbe. Holzhaus.\n1321.   † Derselbe. Remise.\n1326.   † Derselbe. Waschhaus.\n399.  Imhof=Herzog, Emma, Med. Drs. Wittwe.\n  Frey=Kieser, Joseph, Notar, Civilstandsbeamter und Stellvertreter des\n    Gemeindeschreibers.\n  Kurz, Sophie, Part, von Schwammendingen (Zürich).\n400. † Dieselbe. Holzhaus.\n401. * Roth=Schmuziger, Alfred, Oberst, von Bühler (Appenzell).\n  Höhn=Ochsner, Gottlieb, Kassier der Güterexpedition, von Hütten (Zürich).\n402. † Derselbe. Holzschopf.\n403.  Frey=Hotz, Ida, Wittwe, Part.\n  Stäuble, Niklaus, Direktionssekretär, von Sulz.\n404. † Dieselbe. Holzhaus.\n405. † Bally=Arndt, Eugen, Fabrikant. Fabrikgebäude mit Comptoir.\n406. † Derselbe. Nebengebäude.\n407. † Derselbe. Holzschopf.\n408. * Ringier=Müller, Staatsschreibers Wittwe, Erbschaft.\n  Ringier=Tschudi, Adolf, Lagerhausdirektor.\n409. † Dieselbe. Holzhaus.\n410.  Hommel=Stein, August, Mechaniker.\n  Lindt geb. Elias, Karolina, Pfarrers Wittwe, von Bern.\n  Windisch=Kohler, Samuel, von Densbüren, Generalagentur der schweiz.\n    Rentenanstalt in Zürich.\n411. † Derselbe. Holzschopf.\n412. * Richner=Siebenmann, Adolf, Fabrikants Erbschaft.\n  Ernst=Steiner, Gustav, Sekretär.\n  Steiner geb. Weber, Barbara, Wittwe, Part., von Winterthur. (Zürich).\n  Stäbli, Henriette Adele, Part., von Brugg.\n  Felber=Obrist, Johann, Postkondukteur, von Oberbözberg.\n413.  Haberstich, Johann, Fürsprechs Erbschaft.\n  Isler, Emil, Fürsprech und Notar, von Wohlen, Advokatur= und Notariats=\n    bureau.\n  Isler=Troller, Maria, Part., von Wohlen.\n  Haberstich, Rosa, Part.\n  Dr. Emil Haberstich, Part.\n414. † Dieselbe. Holzschopf.\n415.  Oehler=Frey, Bertha, Wittwe.\n  Oehler=Theiler, Oskar, Ingenieur.\n  Theiler, geb. Rebmann, Elise, Part., von Wädenswyl (Zürich).\n416. † Dieselbe. Wasch= und Holzhaus.\n417. † Dieselbe. Oekonomiegebäude.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6057,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2143,
+    "lines": 53,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.42,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:49:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p040.jpeg",
+      "bytes": 249192,
+      "sha256": "af49023ff363322ae510856cc035eb4586014ba40ee52437536da94b2ade80fa",
+      "sha256_of": "original",
+      "working_copy": "1892_p040.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:24+00:00"
+  }
+}

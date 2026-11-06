@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p152",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p152.jpeg",
+    "bytes": 254257,
+    "sha256": "056a783aa1cac3b50579ade13923e14b33afbfa72c917cbe2bcf2788f77d2d75",
+    "sha256_of": "original",
+    "working_copy": "1892_p152.jpeg"
+  },
+  "text": "136\nBähner-Brunnhofer, Nanette, Part. von Horn (Thurgau), Stellenvermittlungsbüreau des schweiz. Frauenverbandes, Halden 246.\n*Zaugg, Daniel, Buchhalter von Criswyl (Bern), Casinostraße 576.\nZaugg-Byland, Zujanna, Part.,\n*Zebert-Altorfer, Georg, Buchbinder, Schreibmaterialienhandlung v. Bauma (Zürich), Laurenzentorgasse 116.\n#Zehnder-Fischer, Anna Maria, Wittwe, Part. von Kölliken, Gais 1266.\n*Xehnder, Gottlieb, Part. von Birmenstorf, Graben 615.\nZehnder-Kaufmann, Barbara, Wittwe, Gemüsehändlerin von Gränichen, Färbergässchen 124.\nZellweger, Elise, Glätterin von Teufen (Appenzell), Milchgasse 153 a.\nZellweger-Fischer, Jakob, Büchsenmacher von Teufen (Appenzell), Milchgasse 153 a.\nZellweger, Oskar, Part. von Hauptweil (Thurgau), Hammer 190.\nZiegler-Linsi, Lina, Wittwe, Part. von Winterthur (Zürich), vor dem Haldenthor 767.\nZiegler-Crismann, Marie, von Veltheim, hintere Vorstadt 621.\nZiegler-Hänti, Karl, Zugführer von Zittingen (Baden), Bachstraße 1038.\n*Zimmerli, Joh. Jakob, Part. von Niedernwyl, vordere Vorstadt 900.\nZimmerli, Johann, Holzer von Unterentfelden, Adelbündli 83.\nZimmerli-Stenz, Eduard, Cementarbeiter von Östringen, Ziegelrain 715.\nZimmerli-Suter, Louije, Part. von Aarburg, Laurenzenvorstadt 390.\n*Ximmermann-Hartmann, Joh., Lehrer von Kempshof, hintere Vorstadt 688.\nZimmermann-Hochsträfer, Samuel, Taglöhnner von Oberflachs, Winfenhof 1006.\nZimmermann-Wernli, Johann, gewesener Bahnwärter von Kupperswyl, Halden 257.\nZschöffe, Arthur, Part., Laurenzenvorstadt 586.\n*Xschöffe, Hermann, Versicherungsagent, Bureau Entfelderstraße 960 und Wohnung Entfelderstraße 1075.\nZschöffe, Ernst, Dr. Bezirkschullehrer, Zschöffestraße 995.\n*Xschöffe-Faure, Conradin, Ingenieur, Entfelderstraße 1200.\n*Xschöffe-Offenhäuser, Elise, Pfarrers Wittwe, Entfelderstraße 960.\n*Xschöffe-Sauerländer, Guido, Buchhändler, Wohnung Zschöffestraße 995, Buchhandlung Graben 220.\n*Xschöffe-Sauerländer, Olivier, Ingenieur, zur „Blumenhalde“ jenseits der Aare 319.\n*Xschöffe-Schmuziger, Arnold, Dr. jur., Staats Schreiber, Entfelderstr. 975.\nZschöffe-Voitel, Margaritha, Wittwe, Part., Graben 217.\nZschöffe-Zimmerli, Justine, Wittwe, Part., vordere Vorstadt 871.\nZuber-Müller, Andreas, Hausknecht (Wildenmann), Rain 825 b.\nZubler-Stirnemann, Elisabeth, Spetterin von Hunzenschwyl, Hammer 188.\nZuchelli, Giovanni, Ingenieur von Rom, Entfelderstraße 981.\nZulauf, Jakob, Postcommis von Schinznach, Milchgasse 159.\n*X Zulauf-Siebenmann, Leopold, Weinhändler, Bachstraße 1124.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7039,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2485,
+    "lines": 37,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 66.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:47:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p152",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p152.jpeg",
+      "bytes": 254257,
+      "sha256": "056a783aa1cac3b50579ade13923e14b33afbfa72c917cbe2bcf2788f77d2d75",
+      "sha256_of": "original",
+      "working_copy": "1892_p152.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:03+00:00"
+  }
+}

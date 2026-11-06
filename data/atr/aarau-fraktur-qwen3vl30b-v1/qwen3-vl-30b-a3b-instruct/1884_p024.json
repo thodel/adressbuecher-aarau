@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p024",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p024.jpeg",
+    "bytes": 316021,
+    "sha256": "fa4f1151537a6c2cf57527644ff5e73f8ec743a47ad221730a2524e07cd32f18",
+    "sha256_of": "original",
+    "working_copy": "1884_p024.jpeg"
+  },
+  "text": "20\nFehlmann. — Fisch.\nFehlmann-Maurer, Christian, Schuster, von Seon, Milchgasse 76.\nFeist-Armbrust, Wendol., Steinbr., v. Kinzigthal (Baden), Igelweid 637.\nFelber-Gruber, Georg, Fabrikarbeiter, von Oberbötzberg, Hammer 188.\nFellhauer-Fricke, Max, Schuhmacher, v. Deftingen (Baden), ob. Vorst. 942.\nFerrazzi-Lüscher, Giuseppe, Maurer, Gardano (Italien), Halben 259.\n*Fisch-Zischke, Karl, Professor, Gitschübel 319.\n* — =Thut, Adolf, Weinhändler, neues Quartier 979.\n* — =Bogt, Albert, Kaufmann, hinter dem Platz 210.\n* — =Dürr, Samuel, Schuhmachermeister, Halben 271.\n* — =Otto, Metzger, Rainstraße 825a.\n* — =Jda, Weißnäherin, Rainstraße 825a.\n* — =Frei, Elise, Spanners Wittwe, Partif., Milchgasse 156.\n* — =Keller, Katharina, Postoffiziant's Wittwe, Partif., Halben 264.\n* — =Siebenmann, Karoline, Ärzt's Wittwe, Partif., Bachstraße 1038.\n* — =Josephine, Partif., Rainstraße 877.\n* — =Mina, Kleinkinderlehrerin, Halben 264.\nFischer-Keller, Karl, christlath. Pfarrer, v. Triengen (Luz.), Abelbändli 175.\n* — =Thomas, Bierbrauer, Zollrain 179.\n* — =Thomas, Bierbrauer, Sohn, Zollrain 179.\n* — =Bonwiller, Adolf, Postbeamter, Tabak- und Cigarren-Handlung, Laurenzenthorngasse 120.\n* — =Louise, Ladentochter, Laurenzenthorngasse 120.\n* — =Niggli, Heinrich, Postbeamter, von Reinach, Rathausgasse 23.\n* — =Eglinger, Rudolf, Speisewirthschaft, von Fahrwangen, Gais 486.\n* — =Wolff, Reg.-Math. von Reinach, Laurenzenvorstadt 422.\n* — =Keller, Albert, Rechnungsrevisor, obere Vorstadt 956.\n* — =Daniel, Metzger, Milchgasse 150.\n* — =Friedrich, Fuhrmann, Halben, 274.\n* — =Daniel, Fuhrmann, Halben 258.\n* — =Emanuel, Fuhrmann, Halben 258.\n* — =Häfeli, Friedrich, Schreiner, Halben 272.\n* — =Kranz, Schneider, Halben 285.\n* — =Friedrich, Montirungsabwart, Laurenzenvorstadt 548.\n* — =Friedrich, Schreiner, Sohn, hintere Vorstadt 642.\n* — =Widmer, Johann, Postkondukteur, hintere Vorstadt 641.\n* — =Schmidlin, Bertha, Partif., neues Quartier 996.\n* — =Brunnhöfer, Marg., Schreiners Wittwe, Partif., hintere Vorst. 642.\n* — =Wybler, Ernestine, Wittwe, Taglöhnerin, Abelbändli 174.\n* — =Elise, Arbeitslehrerin, Zollrain 53.\n* — =Roth, Maria, Wittwe, Taglöhnerin, Halben 275.\n* — =Emilie, Näherin, Laurenzenvorstadt 548.\n* — =Louise, Damenschneiderin, Abelbändli 172.\n* — =Maria, Partif., obere Vorstadt 937.\n* — =Margaritha, Partif., obere Vorstadt 937.\n* — =Stok, Agnes, Lithographs Wittwe, Partif., Rathausgasse 3.\n* — =Haller, Jakob, Zimmermann, von Tännwyl, Halben 281.\n* — =Josef, Kondukteur, von Baden, hinter dem Bahnhof 501.\n* — =Stirnemann, Gottlieb, Metzger, v. Gränichen, Bahnhofstraße 1026.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5929,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2603,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:11:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p024",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p024.jpeg",
+      "bytes": 316021,
+      "sha256": "fa4f1151537a6c2cf57527644ff5e73f8ec743a47ad221730a2524e07cd32f18",
+      "sha256_of": "original",
+      "working_copy": "1884_p024.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:13+00:00"
+  }
+}

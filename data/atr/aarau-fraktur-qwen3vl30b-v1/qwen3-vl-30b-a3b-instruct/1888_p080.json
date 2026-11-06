@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p080",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p080.jpeg",
+    "bytes": 274841,
+    "sha256": "421a440defa5e14f840cdefd7f15bd28930c9e5869e55b63dcf7ef554e8c6408",
+    "sha256_of": "original",
+    "working_copy": "1888_p080.jpeg"
+  },
+  "text": "Gaus-\nNr.\n1140.† Zulauf=Siebenmann, Weinhändler. Stallung (Bachstraße).\n1141. Kunz=Heß, Joh., Conditor. (Bankstraße.)\n1142.† Custer, Herm., Chemiker. Schopf (Bahnhofstraße).\n1143.† Wehrli=Walser, Rosina, Gärtners. Gewächshaus (vor dem Haldenthor).\n1144.† Dießelbe. Gewächshaus (vor dem Haldenthor).\n1145. Keller, Johann, Dekonom. (Gönhardsfeldweg.)\n1146. Lüscher=Umiker, H., Mechaniker. (Bankstraße.)\n1147. Vogel=Wägmer, R., Raminfeger. (Entfelderstraße.)\n1148.† Schäfer=Troller, A., Architekt. Magazin (in der Gais).\n1149.† Derfelbe. Materialschuppen. id.\n1150. Umiker=Hürlimann, S., Ausläufer. (Gönhardsfeldweg.)\n1151.† Fleiner, Alberts Erbschaft. Wagenremise (Erlinsbacherstraße).\n1152.† Stephani=Wettler, Albertine. Holzschopf (Bachstraße).\n1153.† Frey=Bolley, Edwin, Holzhaus (Bachstraße).\n1154.* Schäfer=Troller, Ad., Architekt. id.\n1155. Mösch=Gaßler, Martin, Registrator. id.\n1156. Walder=Kunz, Karl, Bankbuchhalter. id.\n1157.† Landolt=Thommen, Karl, Remise (obere Vorstadt).\n1158.† Jenny und Weigel, Fabrikgebäude (Telli).\n1159.† Gautschi, Rudolf, Dekonom. Waschhaus id.\n1160. Hässig=Sigle, Jul., Wirth. (Bahnhofstraße.)\n1161. Stahel=Ernst, J., Café. (Graben.)\n1162. Abgetragen.\n1163.† Kleiner, Albert, Fabrikants Erbschaft. Cementmühle (Erlinsbacher-\nstraße).\n1164.† Dießelbe. Magazin (Erlinsbacherstraße).\n1165.† Dießelbe. Turbinenhaus. id.\n1166. Siebenmann=Siebenmann, Gottl., Part. (Gartenstraße.)\n1167.† Derfelbe. Wasch- und Holzhaus. id.\n1168.† Schmidt=Henz, Hans, Wirth. Gartenhaus (Schachen).\n1169. Henz=Blüch, Jakob, Kaufmann. (Vordere Vorstadt.)\n1170. Römisch-katholische Kirche. (Casinostraße.)\n1171.† Siebenmann, Friedrich, Bierbrauer. Gissteller (Entfelderstraße).\n1172. Wydler=Bäuerlin, Hr., Färber. (Ziegelrain.)\n1173. Diakonissen=Station. (Bahnhofstraße.)\n1174. Bührer=Heusler, Karl, Kaufmann. (Bachstraße.)\n1175. Wehrli=Wärt, Emil, Kassier. id.\n1176. Heuberger=Bernli, Witwe und Wirthsfe. (Casinostraße.)\n1177.† Med. Dr. Schmuziger. (Entfelderstraße).\n1178.† Zurlinden & Cie. Portlandcementfabrik. (Scheibenschachen.)\n1179.† Dießelben. Turbinenhaus. (Scheibenschachen.)\n1180. id. Comptoir. id.\n1181.† id. Schuppen. id.\n1182.† Seiler=Hanhart, A., Bäcker. Holzhaus (vor dem Haldenthor).\n1183. Einwohnergemeinde Aarau. Saalbau (Schloßplatz).\n1184.† Sauerländer-Frey, Remig. Buchbinderei (Laurenzenvorstadt).\n1185. Keller, Wilhelm, Dekonom. (Rain.)\n1186 bis 1194. Staat Aargau. Kantonspital. (Gais.) (Siehe Seite\n34 und 35.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5611,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2446,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p080",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p080.jpeg",
+      "bytes": 274841,
+      "sha256": "421a440defa5e14f840cdefd7f15bd28930c9e5869e55b63dcf7ef554e8c6408",
+      "sha256_of": "original",
+      "working_copy": "1888_p080.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:29+00:00"
+  }
+}

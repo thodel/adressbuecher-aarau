@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p097",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p097.jpeg",
+    "bytes": 283831,
+    "sha256": "24a604786b82300f293dc736c2ae8328541beb105cf1c643d3ffda097460844e",
+    "sha256_of": "original",
+    "working_copy": "1888_p097.jpeg"
+  },
+  "text": "Braff, Sophie Ida, Holzmarkt 661.\nBraff, Emma, Tochter, Holzmarkt 661.\nBraff-Rienhard, Charlotte, Wittwe, Waffenhandlung, Holzmarkt 661.\nBraff-Meier, Johann, Inspektionsbeamter von Leibstatt, Bahnhof 515.\nBreitschmid-Schüppach, Jakob, Postbeamter von Wohlen, Rain 875.\nX Brentano-Brugisser, Max, Zahnarzt von Laufenburg, Entfelderstrasse 1075.\nX Brentano-Zimmermann, Gustav, Staatsanwalt von Laufenburg, Bachstrasse 1107.\nBryner, Anna, Modistin von Möriken, Halden 284.\nBrodbeck, Eduard, Buchhalter von Liebtal, Rathausgasse 20.\nBrogli-Gautschi, Joseph, Polizeidiener, von Siffeln, Wilschgasse 79.\nBruder-Bruder, Jakob, Bahngaststeller von Seengen, vor dem Haldenthor 773.\nBrügger-Sommerhalder, Christian, Controleur von Churwalden (Graubünden), hinter dem Bahnhof 497.\ny Brüttel-Constance, Part., Laurenzenvorstadt 412.\nBrütschlin-Boskard, Babette, Wirthin von Sursee (Luzern), Schachen 727.\nX Brunner-Abderhalden, Friedrich, Weberschmied von Brunnadern, St. Gallen, vordere Vorstadt 898.\nBrunner, Gottfried, Part., Bachstrasse 1038.\nBrunner, Auguste, Glätterin, id. id.\nBrunner, Gottlieb, Tapezierer, id. id.\nBrunner-Knecht, Emil, Mechaniker, Halden 287.\nBrunner-Knecht, Verena, Hebammme, Halden 287.\nBrunner-Nüsserli, Jakob, Seifensieder, Halden 287.\nBrunner-Rinzi, Heinrich, Bahnangestellter, vor dem Haldenthor 800.\nBrunner-Nussbaum, Elise, Kaffeewirthin von Dürrenäsch, Igelweid 634.\nBrunner-Senn, Heinrich, Fuhrmann von Schmiedrued, Halden 286.\nBrunner-Trümpler, Anna, Wittwe, Part. von Hirslanden (Zürich), Bachstrasse 1051.\nX Brunner-Umiker, Jakob, Spezereihändler, obere Vorstadt 928.\nBrunnhoser-Volliger, Lisette, Weberschmieds Wittwe, Laurenzenvorstadt 376.\nBrunnhoser-Bryner, Hermann, Stadtarbeiter, Halden 282.\nBrunnhoser-Eggimann, Dr. Hermann, Kantonsbibliothekar, obere Vorstadt 938.\nBrunnhoser, Elise, Schneiderin, Rain 875.\nBrunnhoser-Giegentanner, Ursula, Daniels Wittwe, Halden 247.\nBrunnhoser-Giegentanner, Verena, Seilers Wittwe, Golattenmattgasse 235.\nBrunnhoser-Hunziker, Albert, Tambourinfraktor, Halden 248.\nBrunnhoser, Lisette, Lehrers, Part., Halden 246.\nBrunnhoser-Meder, August, Speisewirth u. Liqueursfabrikant, Zollrain 178.\nBrunnhoser-Schmidt, Magdalena, Mechanikers Wittwe, Halden 253.\nBruns-Gattiker, Hermann, Schlossermeister, Werkstätte Hammer 188 und Wohnung Pelzgasse 128.\nBruns-Gattiker, Dorothea, obigen Ehefrau, Fein- und Grosswascherei, Pelzgasse 128.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5116,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2405,
+    "lines": 39,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 60.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:25:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p097",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p097.jpeg",
+      "bytes": 283831,
+      "sha256": "24a604786b82300f293dc736c2ae8328541beb105cf1c643d3ffda097460844e",
+      "sha256_of": "original",
+      "working_copy": "1888_p097.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:25:12+00:00"
+  }
+}

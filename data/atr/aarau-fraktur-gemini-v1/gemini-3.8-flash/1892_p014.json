@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p014",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p014.jpeg",
+    "bytes": 227400,
+    "sha256": "d3aaed0274794f47016ada4df8db8fa2138affa08fe12b84e81916f9a5a94791",
+    "sha256_of": "original",
+    "working_copy": "1892_p014.jpeg"
+  },
+  "text": "— 6 —\n\nHaus-\nNr.\n      Reichert-Suter, Wilhelm, Koch, (Wildenmann) von Lörrach (Baden).\n      Hauenstein-Hollinger, Alois Fried., Lehrer, von Oegerfelden.\n57.   Buser-Wildi, Emil, Bäckermeister.\n58.   Hemmeler-Türler, Emil, Kaufmann, Mercerie-, Garn- und Ellen-\n          waarenhandlung.\n      Hemmeler, Emil, Kaufmann, Sohn.\n      Buser-Bräutigam, Rosine, Bäckers Wittwe.\n      Buser, Gottlieb, Sohn, Kaufmann.\n59. † Derselbe. Magazine.\n60.   Strübin-Frey, August, von Basel, Speisewirthschaft zum vis à vis.\n      Koller-Kohler, Elisabeth, Spetterin, von Berikon.\n61.   Hoch-Ernst, Gustav, Kaufmann, von Zollikon (Zürich). Samenhandlung.\n          Landwirthschaftliche Gemüse- und Blumensämereien. Lager in Hopfen\n          und Brauerharz.\n\nPelzgasse.\n\n62.   Kehrer-Hausherr, Jakob, Bäcker, von Bötzen.\n63.   Waßmer-Ott, Fidel, Schneidermeister, von Jungholz (Baden).\n      Wernli-Reinhard, Kaspar, Weichenwärter, von Thalheim.\n      König-Steininger, Anna, Küfers Wittwe, von Bottenwyl.\n64.   Widmer-Rogg, Xaver, Hausknecht, von Freienwyl.\n      Widmer, Karl, Sekretär (Artilleriebüreau), von Freienwyl.\n      Baumann, Emma, Modistin, von Oberentfelden. Modegeschäft.\n65.   Sommerhalder-Buser, Jakob, Zahnarzt und Coiffeur. Parfümerie-\n          waarenhandlung und Haarflechtgeschäft.\n      Bertschi-Lüscher, Johann, Schuhmacher, von Dürrenäsch.\n66.   Heß-Zürcher, Wilhelm, Bäckermeister und Pintenwirth.\n67.   Fäs-Gall, Rudolf, Kasernier von Schöftland.\n      Fäs, Marie, Modistin, von Schöftland. Modegeschäft.\n68.   Hagnauer, Friedrich, Bürstenfabrikant. Bürstenwaarenhandlung.\n      Hagnauer, Hermann, Sohn, Kaufmann.\n      Hagnauer-Peters, Augusta, Wittwe.\n69.   Ramsauer geb. Hächler, Anna, Wittwe, Part., von Herisau\n          (Appenzell).\n      Eich, Gottlieb, Schuhmachermeister, von Oftringen.\n\nMilchgasse.\n\n70.   Bertschi-Bircher, Julius, Zugführer, von Sumiswald (Bern).\n      Bertschi, Anna, Damenschneiderin, von Sumiswald (Bern).\n      Hostettler-Hagnauer, Nikolaus, Schuhmacher, von Guggisberg (Bern).\n          Werkstätte.\n      Bertschi-Waßmer, Jakob, Postpacker, von Sumiswald (Bern).\n71. * Schmid, Jakob, alt Bankabwart, von Erlinsbach, in Basel.\n      Strub-Wildi, Leonhard, von Läufelfingen, Möbelhandlung.\n      Eger-Ebner, Theophil, Schneider, von Riehen (Basel).\n72.   Hoffmann-Käser, Joh., Schuhmachermeister. Schuhwaarenhandlung\n      Käser-Käser, Maria, Part., von Biberstein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7718,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2407,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:45:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p014",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p014.jpeg",
+      "bytes": 227400,
+      "sha256": "d3aaed0274794f47016ada4df8db8fa2138affa08fe12b84e81916f9a5a94791",
+      "sha256_of": "original",
+      "working_copy": "1892_p014.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:45:58+00:00"
+  }
+}

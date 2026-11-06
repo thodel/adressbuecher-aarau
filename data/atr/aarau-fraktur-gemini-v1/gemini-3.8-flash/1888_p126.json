@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p126",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p126.jpeg",
+    "bytes": 285364,
+    "sha256": "6100ecece02c1b7ae428bb85d15698cdb7e94470205e95f10041f63e1ed817a0",
+    "sha256_of": "original",
+    "working_copy": "1888_p126.jpeg"
+  },
+  "text": "108\tRiniker — Rothpletz.\n\nRiniker-Temperli, Friedrich, Badwirth von Habsburg, Binsenhof 1010.\nRiniker-Wernli, Hermann, Milchverkäufer von Habsburg, Entfelder=\n  straße 1195.\nRitter, Susette, Ladentochter von Uster (Zürich), Rathhausgasse 21.\nRochholz-Schröder, Ernst Ludwig, Professor Dr. von Ansbach (Bayern),\n  Ziegelrain 722.\nRochholz, Mina, Klavierlehrerin von Ansbach (Bayern), Ziegelrain 722.\nRohner-Ehrsam, Elise, Arzts Wittwe, Part., Zollrain 51.\nRohner, Emil, Bäcker und Wirth, id. id.\nRohr-Baumann, Hans, Oberrichter von Hunzenschwyl, Laurenzen=\n  vorstadt 353.\nRohr-Blauenstein, Heinrich, Holzspalter von Hunzenschwyl, Pelzgasse 132.\nRohr-Gloor, Adolf, Metzger und Wirth, Pelzgasse 127.\nRohr-Hässig, Emma, Wittwe, Colonialwaarenhandlung, Laurenzenthor=\n  gasse 119 a.\nRohr-Hochstraßer, Rudolf, Schmied, Rainstraße 883.\nRohr-Holliger, Johann, Wirth von Buchs, Holzmarkt 662.\nRohr-Reiner, Hans, Staatsanwaltssubstitut von Lenzburg, Conrad=\n  straße 993.\nRohr, Samuel, Gerichtssubstitut, Zollrain 293.\nRohr-Schindler, Samuel, Gastwirth, hintere Vorstadt 696.\nRohr-Wehrli, Daniel, Bauamtsarbeiter v. Hunzenschwyl, Rathhausgasse 3.\nRotter-Baumgartner, Johann, Schreiner von Wermsdorf (Oesterreich),\n  Bahnhofstraße 653.\nRoth-Bolliger, Anna Maria, Wittwe, Taglöhnerin von Erlinsbach, Pelz=\n  gasse 125.\nRoth-Bürgi, Anna, Part. von Erlinsbach, Igelweid 633.\nRoth, Friedrich, Schuhmacher von Mühlethal, Rainstraße 825 b.\nRoth-Widmer, Verena, Spetterin von Mühlethal, id. id.\nRoth-Kyburz, Joh., Aufseher von Obererlinsbach, Erlinsbacherstraße 337.\nRoth-Sahli, Samuel, Hausknecht von Zezwyl, Rathhausgasse 45.\nRoth-Schmutziger, Alfred, Oberstlieut. der Artillerie, Art.-Schießinstruktor\n  von Bühler (Appenzell A.-Rh.), Laurenzenvorstadt 401.\nRoth-Zaugg, Friedrich, Obergerichtskanzlist, Scheibenschachen 312.\nRothpletz-Brütel, Alfred, Bankdirektor, Bahnhofstraße 511.\nRothpletz-Bürgi, Maria, Pfarrers Wittwe, in der Telli 454.\nRothpletz, Emil, Verwalter, obere Vorstadt 682.\nRothpletz-Haßler, Rudolf, Metzger, Milchgasse 160.\nRothpletz, Heinrich, Buchbinder, Stadthof 92 c.\nRothpletz-Hunziker, Gottlieb, Schreiner, Rainstraße 880.\nRothpletz-Imhof, Louise, Stadtraths Wittwe, Erlinsbacherstraße 336.\nRothpletz, Karl, Architekt, Bahnhofstraße 651.\nRothpletz-Rychner, Friedrich, Fabrikant, obere Vorstadt 1117.\nRothpletz-Siebenmann, Marie Elisabeth, Schreiners Wittwe, Part.,\n  Stadthof 92 c.\nRothpletz-Waldkirch, Julius, Malermeister, Conradstraße 990.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7975,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2452,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:37:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p126",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p126.jpeg",
+      "bytes": 285364,
+      "sha256": "6100ecece02c1b7ae428bb85d15698cdb7e94470205e95f10041f63e1ed817a0",
+      "sha256_of": "original",
+      "working_copy": "1888_p126.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:37:50+00:00"
+  }
+}

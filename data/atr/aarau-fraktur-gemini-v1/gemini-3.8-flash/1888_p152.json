@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p152",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p152.jpeg",
+    "bytes": 266984,
+    "sha256": "7bd246ef63bcf952608c3a74df446d7f24ddddfcbad5930b51b2f719c9514041",
+    "sha256_of": "original",
+    "working_copy": "1888_p152.jpeg"
+  },
+  "text": "134\n\nHofer, Gottlieb, Rathhausgasse 43.\nMatter, Jakob, Adelbändli 170.\nSiebenmann, Gebr., March. Tailleur,\n  Firma: Siebenmann, Jakob, Ober=\n  thor 226.\n\nKleiderreiniger.\n\nHunziker, Gottlieb, Adelbändli 82.\n\nKleiderfärbereien.\n\nKeller, Daniel, Halden 273.\nWyser, Alfred, Bachstraße 1055.\n\nKohlen-, Briquettes- und Coaks-\nhandlungen.\n\nGasfabrik Aarau, Zollrain 786.\nHitz-Lanz, Otto, Rain 875.\nLagerhäuser der Centralschweiz.\nRohr-Hässig, Emma, Laurenzenthypothekar. 119.[?]\nSchmidlin-Lutz, Theodor, vor dem Halden=\n  thor 755.\nSpinner-Billo, J. J., Bahnhofstraße 535.\nTrefzger, Gustav, Färbergäßchen 213.\nWidmer, Samuel, z. Consum, Bahnhof=\n  straße 1074.\n\nKorbwaaren.\n\nHemmeler-Stahl, Ida (Firma Ritter=\n  Stahl), Rathhausgasse 24.\nSchmidt, Robert, z. Bären, Zollrain 177.\nTheodor-Hagnauer, A., hintere Vor=\n  stadt 1236.\nWyser, Gustav, Laurenzenthorgasse 118.\n\nKorbflechter.\n\nWyser, Gustav, Laurenzenthorgasse 118.\n\nKunstmaler.\n\nRothpletz, Julius, Conradstraße 990.\n\nKupferschmiede.\n\nBühler, Gottlieb, Igelweid 632.\nHaßler, Paul, Pelzgasse 134.\nHässig, Friedrich, Ziegelrain 705.\nDieselben handeln auch mit\nKupferschmiedwaaren.\n\nKuranstalten.\n\nWächter, Hans, zum Alpenzeiger 317.\n\n[spalte 2]\n\nKüfer.\n\nBachmann, Johann, Milchgasse 159.\nBolliger, Johann, Hammer 185 b.\nElsasser, Gottlieb, Halden 290.\nKönig, Friedrich, Rain 878.\nMärki, Johann, Bachstraße 1031.\nWidmer, Hermann, Laurenzenthorg. 117.\n\nKürschner.\n\nPfisterer, Emil, vordere Vorstadt 666.\nSernatinger, Valerian, vordere Vorst. 900.\n\nLackfabrikanten.\n\nLandolt, Karl (Firma Landolt & Cie.),\n  obere Vorstadt 949.\n\nLagerungs-, Kommissions- und\nBelehnungsgeschäfte.\n\nLagerhäuser der Centralschweiz in Aarau\n  und Olten. (Größtmögliche Vorschüsse\n  auf Waaren aller Art, namentlich\n  auf Getreide und andere Landes=\n  produkte). Bahnhofstraße 545.\n  Direktor: Ringier, Adolf.\n  Kassier: Siegrist, Emil.\n  Buchhalter: Brodbeck, Eduard.\n\nLederhandlungen.\n\nHaßler, Hans, Bahnhofstraße 656.\nSiebenmann, Gottlieb, Rain 838.\nSiegrist, Johann, obere Vorstadt 922.\n\nLehrer.\n\nA. Professoren und Lehrer an der Kantonsschule.\n\nDr. Bäbler, für deutsche Sprache und\n  Litteratur an Gewerbeschule und\n  Progymnasium.\nBurgmeier, für Gesang.\nFisch, für alte Sprachen.\nDr. Frey, für deutsche Sprache und\n  Litteratur sowie für Griechisch am\n  Gymnasium.\nDr. Fröhlich, Stellvertreter des Rektors,\n  für alte Sprachen.\nDr. Ganter, für Mathematik am Gym=\n  nasium und an der Gewerbeschule.\nGladbach, für Mathematik, technisches\n  Zeichnen, deskriptive und praktische\n  Geometrie.\nDr. Guttentag, für alte Sprachen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8171,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2549,
+    "lines": 88,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0114,
+    "mean_line_chars": 27.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:41:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p152",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p152.jpeg",
+      "bytes": 266984,
+      "sha256": "7bd246ef63bcf952608c3a74df446d7f24ddddfcbad5930b51b2f719c9514041",
+      "sha256_of": "original",
+      "working_copy": "1888_p152.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:32+00:00"
+  }
+}

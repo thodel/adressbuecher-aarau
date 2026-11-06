@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p010",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p010.jpeg",
+    "bytes": 176772,
+    "sha256": "ee23cff3c9d763371dcbd057f5d83e72be1031058d8c4efa7057b5b3144f773e",
+    "sha256_of": "original",
+    "working_copy": "1888_p010.jpeg"
+  },
+  "text": "Wochen-, Jahr- und Vieh-Märkte.\n\nIn der Stadt Aarau werden abgehalten:\na. Die Wochenmärkte an den Samstagen.\nb. Die Jahr- und Viehmärkte je den dritten Mittwoch des Monats in den Monaten Februar, April, Mai, Juli, August, Oktober, November und Dezember.\nc. Die Viehmärkte je den dritten Mittwoch des Monats in den Monaten Januar, März, Juni und September.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 771,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 355,
+    "lines": 5,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 70.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0056,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:19:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p010",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p010.jpeg",
+      "bytes": 176772,
+      "sha256": "ee23cff3c9d763371dcbd057f5d83e72be1031058d8c4efa7057b5b3144f773e",
+      "sha256_of": "original",
+      "working_copy": "1888_p010.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:26+00:00"
+  }
+}

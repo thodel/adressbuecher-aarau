@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p110",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p110.jpeg",
+    "bytes": 253726,
+    "sha256": "440cb571f49f4543c98bc2b100ffdfbe5c8cf5b2224c7721d0e5136dcf4955ee",
+    "sha256_of": "original",
+    "working_copy": "1892_p110.jpeg"
+  },
+  "text": "94\nFrei — Fricker.\nFrei-Mösch, Ulrich Wilhelm, Werk- und Brunnemeister von Zurzach, Rathausgasse 3.\nFrei-Rauber, Johann Jakob, Part. von Tegerfelden, Weinberg 321.\nFrei-Rohner, Robert, Bäcker, Zollrain 51.\nFrei-Rues, Gottfried, Schneider von Bözen, Rain 857 a.\nFrei-Steiner, Heinrich, Notar von Gontenschwil, Notariats- u. Jukaff- geschäft, hintere Vorstadt 689.\nFrei-Tanner, Johann, Schneider von Densbüren, Milchgasse 74.\nFrei-Würtenberger, Bertha, Wittwe, Part. von Dresden (Sachsen), Rath- hausgasse 3.\n*Freihofer-Rusterholz, Jakob, Bildhauer von Veltheim (Zürich), Rain 883.\nFrey, Albert, Uhrmacher von Densbüren, Wohnung vor dem Haldenthor 810, Werkstätte und Laden Rain 821.\n*Frey-Beger, Adolf, Dr. phil., Professor von Gontenschwil, Schloßplatz 195.\n*Frey-Bolley, Lina, Wittwe, Part., Bachstraße 1062.\nFrey, Eugen, Kaufmann, Laurenzenvorstadt 428.\n*Frey-Frey, Adolf, Dr. med., Laurenzenvorstadt 428.\n*Frey-Frey, Karl, Stadtrath, Laurenzenvorstadt 422.\nFrey, Friedrich, Sohn von Densbüren, Weinhandlung, Wohnung vor dem Haldenthor 810, Bureau obere Vorstadt 930.\n*Frey-Hagnauer, Konrad, Dr. med., praef. Arzt, Graben 352.\n*Frey-Herzog, August, Fabrikant, in der Telli 444.\n*Frey-Höke, Wittwe, Part., Laurenzenvorstadt 403.\n*Frey-Kiefer, Joseph, Notar, Stellvertreter des Gemeindeschreibers und Civilstandsbeamter, Laurenzenvorstadt 399.\nFrey-Kumpf, Friedrich, Sekretär und Musiklehrer von Densbüren, vor dem Haldenthor 810.\nFrey-Pfiffer, Maria, Wittwe, Part. von Zurzach, Schachen 737.\n*Frey-Rauchenstein, Eduard, Pfarrhelfer, f.d. Helferkreis Narau, Kirchgasse 6.\nFrey, Robert, Fabrikant, Laurenzenvorstadt 423.\nFrey, Rosa, Feinwascherei und Glätterei v. Densbüren, vor d. Halden- thor 810.\n*Frey-Rüegg, Oskar, Fabrikant, Schmiedgasse 628.\nFrey-Ryhiner, Julie, Wittwe, Graben 618.\nFrey-Schindler, Max, Fabrikant, Wohnung Schöfflestrasse 977, Chocolade- fabrik 423.\n*Frey-Schmidlin, Othmar, Fürsprach, vice Bankdirektor, Graben 204.\nFrey-Spengler, Elise, Reg.-Maths Wittwe, Part., Schmiedgasse 1232.\nFrey-Vetterli, Achilles, Coiffeur von Densbüren, Zeughausstraße 1310.\nFricker-Häusermann, Verena, Wittwe, von Veltheim, Ziegelrain 745.\nFricker-Hiltbold, Samuel, Bahnmeister von Veltheim, hinter dem Bahn- hof 501.\nFricker-Umsler, Joseph, Commis von Oberhof, vor dem Haldenthor 772.\nFricker-Rienberger, Johann, Postbeamter, vordere Vorstadt 671.\nFricker-Reimann, Joseph, Polizeidiener von Wölflinswyl, Halden 281.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5079,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2419,
+    "lines": 37,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 64.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:42:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p110",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p110.jpeg",
+      "bytes": 253726,
+      "sha256": "440cb571f49f4543c98bc2b100ffdfbe5c8cf5b2224c7721d0e5136dcf4955ee",
+      "sha256_of": "original",
+      "working_copy": "1892_p110.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:42:27+00:00"
+  }
+}

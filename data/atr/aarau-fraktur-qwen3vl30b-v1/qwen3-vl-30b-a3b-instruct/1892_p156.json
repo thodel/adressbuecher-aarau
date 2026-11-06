@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p156",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p156.jpeg",
+    "bytes": 214883,
+    "sha256": "850d09cd6bd6d8801aa5c1880506d6fd3372d4d5e0fda7a2898bf1e52fa3609c",
+    "sha256_of": "original",
+    "working_copy": "1892_p156.jpeg"
+  },
+  "text": "140\nSchmuziger, Gebr. Fritz und Karl, Ziegel-\nrain 703.\nSteger, Melchior, Mezgergasse 100.\nWehrli, Jakob, Kronengasse 40.\nWidmer, Rudolf, obere Vorstadt 927.\n\nBandfabrikanten.\nBally, Gebrüder, Hammer 386.\n\nBankgeschäfte.\n*   Aargauische Bank, Bahnhofstraße 511.\n    Raffastunden 9—12 und 2—5 Uhr.\n    Direktor: Rothpley, Alfred.\n    Vize-Direktor: Frey, Othmar.\n    Kassier: Wehrli, Emil.\n    Buchhalter: Walder, Karl.\n*   Aargauische Creditanstalt, Laurenzenvor-\n    stadt 1340.\n    Raffastunden 9—12 und 2—5 Uhr.\n    Direktor: Pfau, Joh. Sat.\n    Kassier: Hoffmann, Emil.\n    Buchhalter: Kauf, Alfred.\n\nBaumeister.\n*   Müller, Arnold, BaugeSchäft hinter dem\n    Bahnhof 503, und jenseits der\n    Lare 346.\n*   Schäfer, Adolf, BaugeSchäft, Gais 1063.\n*   Zschokke, D., BaugeSchäft, Rohrerstr. 472.\n\nBaumwolltuchfabrikation.\nObouffier & Comp., Graben 613.\nStephani & Adam, Bachstraße 1112 u. 1113\n\nBaumwollspinnerei.\nFrey & Cie., in der Telli 442.\n\nBaumwolltuchhandlungen (en gros).\nObouffier, & Comp., Graben, 613.\n\nBazars.\nHemmeler-Haßler, A., Mezgergasse 55.\nHemmeler-Stahl, Jakob, Rathhausgasse 21.\nSchmid, Johann (Filtale), vordere Vor-\nstadt 889.\nBettwaarenhändler.\nDreßler, Laurenz, Camifascas Nachfolger,\nRain 826.\nFirma Gebr. Seß, Rathhausgasse 4.\nHering-Leuenberg, Lisette, Zollrain 181.\nSchweizer-Siebenmann, Sophie, Schachen\n741.\nStrub, Leonhard, Milchgasse 71.\n\nBijouterie-Waaren.\nFischer, Jonathan, Holzmarkt 1260.\nFrey, Albert, Rain 821.\nGärdi, Wilhelm, Rathhausgasse 42.\nHirsch, Joh. Rud., vordere Vorstadt 668.\n\nBierbrauereien.\nFischer, Thomas, Zollrain 179.\nSolzach, Dietrich, Bahnhofstraße 563.\nPfisterer, Robert (zum Affenfarten), vordere\nVorstadt 1263.\nMinifer, Friedrich, Mezgergasse 102.\nSiebenmann, Friedrich, Weinberg 324.\nSiebenmann, Rudolf, Graben 620.\n\nBierpräffionen-Fabrikation.\nKeller, Abr., Mechaniker, Galben 260.\n\nBildhauer.\nRusterholz & Freihofer, Rainstraße 886.\n\nBrieftträger.\nDietifer, Adolf, Golattenmattgasse 237 b.\nDietifer, Hans, vor dem Saldenthor 1299.\nErnst, Robert, Abelbändli 173.\nHagnauer, Joh. Ludwig, Kirchhof 80.\nHauri, Samuel, Schachen 734.\n\nBrunnenmeister.\nFrei, Ulrich Wilh., Rathhausgasse 3.\n\nBuchbinder.\nAndres, Heinrich, Casinostraße 1176.\nJagenbuch, Friedrich, vordere Vorstadt 676.\nHaßler, Theodor, Milchgasse 153.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6500,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2273,
+    "lines": 76,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0132,
+    "mean_line_chars": 28.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:47:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p156",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p156.jpeg",
+      "bytes": 214883,
+      "sha256": "850d09cd6bd6d8801aa5c1880506d6fd3372d4d5e0fda7a2898bf1e52fa3609c",
+      "sha256_of": "original",
+      "working_copy": "1892_p156.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:47:25+00:00"
+  }
+}

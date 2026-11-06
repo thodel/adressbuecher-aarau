@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p172",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p172.jpeg",
+    "bytes": 237325,
+    "sha256": "54b1962a5f9cbb317776309dcad2961ef9a5d284a04d7dd6c5846d853a02f12f",
+    "sha256_of": "original",
+    "working_copy": "1892_p172.jpeg"
+  },
+  "text": "156\nUlhrenhandlungen.\nFischer, Jonathan, Holzmarkt 1260.\nFrey, Albert, Rain 821.\nHemmel, Jakob, Rathausgasse 23.\nHirsch, Joh. Rud., vordere Vorstadt 668.\nKeller, Daniel, Laurentienthorgasse 120.\nMorath, Johann, Rathausgasse 2.\nSuter, Rudolf, Casinostraße 571.\nWaagen (öffentliche).\nFleiner (Cementbrennerei), Erlinsbacherstraße.\nSchlachthaus (Biehwaage).\nSpinner, J. J., Bahnhof (Güterschuppen).\nSteiner, Samuel, Laurenzenvorstadt.\nWadysfabrikanten.\nMaurer, Emil, zum Kreuz, [jenseits der\nAare 1303.\nWaffenhandlungen.\nBraut, Geschwister, Holzmarkt 661.\nKychner, Heinrich, Schloßplatz 196.\nWagner.\nBertschi, Adolf, Rain 877.\nGing, Wilhelm, Casinostraße 572.\nSchaffner, Friedrich, Bahnhofstraße 649.\nWasherinnen.\nBalmer, Marie und Karoline, obere Vorstadt 926.\nBlume-Hirt, Marie, Hammer 189.\nBruns-Gattiker, Dorothea, Pelzgasse 127.\nBühler-Widmer, Anna, Schmiedgasse 632.\nDietter, Emma, Solattenmatt 237. b.\nFrey, Rosa, vor dem Haldenthor 810.\nRäfer-Leder, Nanette, Halden 269.\nMatter-Thommann, Maria, Wittwe, Adelbändli 170.\nRüegger-Bertschi, Lina, Megzergasse 107.\nSchachmann-Häring, Elisabeth, (Wollwascherei), vor dem Haldenthor 1299.\nSchmidt, Anna und Jenni, vor dem\nHaldenthor 1332.\nWiederkehr-Deschger, Viktoria, Milchgasse 152.\nWasshaukallen.\nTreszger, Gustav, Färbergässchen 213.\nWasserwaagenfabrikation.\nKlingelsuf, Joh. Friedr., Mechaniker, im\nWeinberg 321.\nWeinhandlungen.\nBaumann, Carl und Eugen, Laurenzenvorstadt 390.\nBirmann-Probst, Marie, Wittwe, Rathhausgasse 20.\nBrügger-Sommerhalder, Christian, hinter dem Bahnhof 497 (Beltlinerweine).\nBührer-Häusler (seine Flaschenweine), Bachstraße 1174.\nGlof, Franz, Schachen 731.\nJecht, Julius, vor dem Haldenthor 758.\nKeller, Karl, Rain 878.\nSchmid, Robert, Zollrain 177.\nBidiella, Manuel und Frey, Friedrich, obere Vorstadt 930.\nWeber-Kücher, Otto, Pelzgasse 128.\nWüthrich-Lüdi, Laurenzenthorgasse 117.\nZulauf, Leopold, Bachstraße 1124.\nWeißnäherinnen.\nBeck, Carolina, Adelbändli 174.\nBlattner, Maria, hintere Vorstadt 621.\nErismann, Maria, hintere Vorstadt 621.\nGünthard-Hauri, Marie, Schachen 739.\nHäfker v. Oberlin, Margaretha, Bachstraße 1040.\nHoffmann, Nanette und Carolina, obere Vorstadt 948.\nNiggli, Elise, Kirchplatz 80.\nBlüh, Rosina, hintere Vorstadt 699.\nWittwer, Emma, Adelbändli 82.\nWeißwaarenhandlungen.\nBolliger, Gustav, hintere Vorstadt 646.\nDolder, J., Graben 219.\nErdin, Albin, Nachfolger von Wwe. Jean Kiefer, Rathausgasse 22.\nErismann & Blattner, hintere Vorstadt 621.\nErny-Fässler, Emil, Kronengasse 33.\nFehlmann-Blattner, Anna, Bahnhofstraße 648.\nHäfker-Gunziger Karl, Bahnhofstr. 1020.\nHeb, Gebr., „zur Stadt Mühlhausen“,\nRathausgasse 4.\nMeisel-Leutwyler, Verena, Rathausgasse 19.\nWirthschaften.\nGasthöfe.\nKrone: Mathys, Rudolf, Kronengasse 39.\nLöwen: Müller, Heinrich, vordere Vorstadt 681.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7888,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2772,
+    "lines": 81,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:49:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p172",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p172.jpeg",
+      "bytes": 237325,
+      "sha256": "54b1962a5f9cbb317776309dcad2961ef9a5d284a04d7dd6c5846d853a02f12f",
+      "sha256_of": "original",
+      "working_copy": "1892_p172.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:49:38+00:00"
+  }
+}

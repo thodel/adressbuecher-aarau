@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p091",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p091.jpeg",
+    "bytes": 232034,
+    "sha256": "6350aecbe176ca02615c564fc4d93dac99491c9fa4b6bbbeea16ee0b59e1c58b",
+    "sha256_of": "original",
+    "working_copy": "1892_p091.jpeg"
+  },
+  "text": "— 75 —\n\nHaus-\nNr.\n1145. Keller, Johann, Dekonom. (Günhardfeldweg.)\n1146. Lüscher-Umiker, H., Mechaniker. (Bankstraße.)\n1147. Vogel-Wägner, R., Kaminfeger. (Entfelderstraße.)\n1148. † Schäfer-Troller, A., Architekt. Magazin. (In der Gais.)\n1149. † Dervelbe. Materialschuppen. id.\n1150. Umiker-Hürlimann, S. (Günhardfeldweg.)\n1151. † Fleiner, Alberts Erbschaft. Wagenremise. (Erlinsbacherstraße.)\n1152. † Stephani-Wettler, Albertine. Holzschopf. (Bachstraße.)\n1153. † Frey-Bolley, Lina, Wittwe. Holzhaus. (Bachstraße.)\n1154. Spinner-Billo, Camioneur id.\n1155. Mösch-Gaßler, Martin, Registrator. id.\n1156. Walder-Kunz, Karl, Bankbuchhalter. id.\n1157. † Landolt-Hartmann, Karl und Gänslen-Landolt, Karl. Remise.\n(Obere Vorstadt.)\n1158. † Jenny und Weigel, Fabrikgebäude. (Telli.)\n1159. † Gautschi, Rudolf, Dekonom. Waschhaus. id.\n1160. Wolfsgruber-Rütenze, Gottfried, Photograph. (Bahnhofstraße.)\n1161. Stahel-Ernst, J. Café. (Graben.)\n1162. Abgetragen.\n1163. † Kleiner, Albert, Fabrikants Erbschaft. Cementmühle. (Erlinsbacher-\nstraße.)\n1164. † Diefelbe. Magazin. (Erlinsbacherstraße.)\n1165. † Diefelbe. Turbinenhaus. id.\n1166. Siebenmann=Siebenmann, Gottl., Part. (Gartenstraße.)\n1167. † Dervelbe. Wasch- und Holzhaus. id.\n1168. † Schmidt-Henz, Hans, Wirth. Gartenhaus. (Schachen.)\n1169. Henz-Plüss, Jakob, Kaufmann. (Bordere Vorstadt.)\n1170. Römisch-katholische Kirche. (Casinostraße.)\n1171. † Siebenmann, Friedrich, Bierbrauer. Eiskeller. (Entfelderstraße.)\n1172. Wydler, Hrhz., Färbers Söhne. (Ziegelrain.)\n1173. Diaconissen-Station. (Bahnhofstraße.)\n1174. Bührer-Heusler, Karl, Kaufmann. (Bachstraße.)\n1175. Wehrli-Märk Emil, Kassier. id.\n1176. Heuberger-Wernli, Wittwe und Wirthaft. (Casinostraße.)\n1177. † Siebenmann, Otto, Kreiskommandant. Bienenhaus. (Weinberg.)\n1178. † Zurlinden & Cie. Portlandcementfabrik. (Scheibenschachen.)\n1179. † Diefelben. Turbinenhaus. (Scheibenschachen.)\n1180. id. Comptoir. id.\n1181. † id. Schuppen. id.\n1182. † Seiler-Hanhart, A., Bäcker. Holzhaus. (Vor dem Halbenthor.)\n1183. Einwohnergemeinde Aarau. Saalbau. (Schloßplatz).\n1184. † Sauerländer-Frey, Remig. Buchbinderei. (Lauenzenvorstadt).\n1185. Keller, Ida, Glätterin. (Rain.)\n1186. † bis 1194. Staat Aargau. Kantonsspital. (Gais.)\n1187. † Käfer-Wernli, Hermann. (Entfelderstraße.)\n\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5285,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2282,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:40:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p091",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p091.jpeg",
+      "bytes": 232034,
+      "sha256": "6350aecbe176ca02615c564fc4d93dac99491c9fa4b6bbbeea16ee0b59e1c58b",
+      "sha256_of": "original",
+      "working_copy": "1892_p091.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:40:52+00:00"
+  }
+}

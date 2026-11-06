@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p094",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p094.jpeg",
+    "bytes": 238938,
+    "sha256": "ae85db867ddcfb6197d07e1d959c6c1824e5b563000c8c517ae7ad3cc13b2577",
+    "sha256_of": "original",
+    "working_copy": "1892_p094.jpeg"
+  },
+  "text": "Haus-\nNr.\n1274. † Zurlinden & Cie. Cementfabr. Steinschuppen. (Scheibenschachen.)\n1275. † Diefelben. Waghaus.\n1276. † Diefelben. Scheune und Stalling\n1277. † Diefelben. Abort\n1278. Schmid, Daniel, Gärtner. Wohnhaus.\n1279. † Bachmann, Johann, Küfer. Küferwerkstätte. (Milchgasse.)\n1280. † Gemeinde Aarau. Sprizgenhaus. (Jenseits der Aare.)\n1281. † Wespi, Karl, Hafner. Materialschuppen. (Obere Vorstadt.)\n1282. † Fleiner, Alberts, Erbschaft. Brennofen und Trockenpresse. (Jenseits\nder Aare.)\n1283. † Bertschi, Gottlieb, Schreiner. Werkstätte. (Halden.)\n1284. Schneider geb. Wernli, Verena, Kupfererz. Wohnhaus. (Scheibens\nschachen.)\n1285. Mathis, Wilhelm, Feilenhauer. Wohnhaus. (Entfelderstraße.)\n1286. Fleury-Adam, Josef, Kaufmann. (In der Gais.)\n1287. Müller & Comp. Lithogr. Anstalt. (Bahnhofstraße.)\n1288. † Reusch, Karl, Apotheker. Schopf. (Vordere Vorstadt.)\n1289. Schenker, Gottlieb, Dr. med. Wohnhaus. (Bahnhofstraße.)\n1290. † Zschokke, D. Baugeschäft. Schmiedgebäude. (Rohrerstraße.)\n1291. † Frey-Frey, Karl, Stadtrath. Gewächshaus. (Balaïnenweg.)\n1292. † Frey, Robert, und Max. Chokoladefabrikanten. Maschinenhaus.\n(Balaïnenweg.)\n1293. † Billo-Bär, Fabrikant. Holzhaus. (Hinter dem Bahnhof.)\n1294. * Steiner-Sennhauser, Samuel, Dekonom. Wohnhaus. (Lauenzen-\nvorstadt.)\n1295. † Häffig, Gottlieb, Schleifer. Feinschleiferei. (Hammer.)\n1296. † Fleiner, Alberts, Erbschaft. Stein- und Kohlenschuppen. (Jenseits\nder Aare.)\n1297. † Diefelben. Steinschuppen. (Jenseits der Aare.)\n1298. Roth, Johann, Aufseher. Wohnhaus. (Jenseits der Aare.)\n1299. * Schagmann, Jakob, Abwart. Wohnhaus. (Vor dem Haldenthor.)\n1300. † Hoch, Gustav, Samenhändler. Magazin. (Bahnhofstraße.)\n1301. * Läuchli, Friedrich, Schlosser. Wohnhaus. (Hammer.)\n1302. † Schmidt, Gustav, Dr. chem. Butterfiederei. Erbschaft. (S. d. Bahnhof.)\n1303. † Maurer, Emil, z. Kreuz. a. Gasthaus, b. Magazin, c. Regel-\nbahn. (Jenseits der Aare.)\n1304. † Schenker, Gottlieb, Dr. med. Wasch- und Holzhaus. (Bahnhof-\nstraße.)\n1305. † Keller, Joseph, Pferdewärter. Scheune. (Halden.)\n1306. Wägeler-Vogel, Karl, Dachdecker. Wohnhaus. (Schiffände.)\n1307. Widmer-Gamper, Postcommiss. Wohnhaus. (Feerstraße.)\n1308. Meier-Lüthy, Jakob, Lehrer. id.\n1309. Rothplek-Rychner, Friedrich. id. (Günhardfeldweg.)\n1310. Richard geb. Schmid, Ida Wittwe. id. (Zeughausstraße.)\n1311. † Schagmann, Jakob, Abwart. Schopf. (Vor dem Haldenthor.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5405,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2378,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 49.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:41:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p094",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p094.jpeg",
+      "bytes": 238938,
+      "sha256": "ae85db867ddcfb6197d07e1d959c6c1824e5b563000c8c517ae7ad3cc13b2577",
+      "sha256_of": "original",
+      "working_copy": "1892_p094.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:41:08+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p128",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p128.jpeg",
+    "bytes": 234434,
+    "sha256": "6fbac2b7f64441a1cc09f752ae1bb226efe4350b4a3dd8fa8a67f62ca418b104",
+    "sha256_of": "original",
+    "working_copy": "1892_p128.jpeg"
+  },
+  "text": "112 Meier — Merz.\n\nMeier-Boß, Sophie, Wittwe, Part. von Paris, Zollrain 91.\nMeier-Bucher-August, Direktionssekretär von Obersiggenthal, Rain 874.\nMeier, Eduard Erwin, Commis von Dintiken, Kirchhof 166.\nMeier-Fischer, J. Baptist, Bankangestellter von Gebenstorf, vor dem\n  Haldenthor 1299.\nMeier-Großmann, Anna, Wittwe, Part. von Rheinfelden, vordere Vor=\n  stadt 680.\nMeier-Hägeli, Alois, Taglöhner von Büron (Luzern), Laurenzenvorstadt 376.\nMeier, Joseph, Büreauchef (Lagerhaus) von Ehrendingen, Rain 821.\nMeier-Lüthi, Johann Jakob, Lehrer, Feerstraße 1308.\nMeier-Matter, Jakob, Zimmermann von Dintiken, obere Vorstadt 940\nMeier-Müller, Paul, Schneider von Stetten (Großh. Baden) Rathhaus=\n  gasse 18.\nMeier, Nothburga, Posamenterin von Erlinsbach (Solothurn), Bach=\n  straße 1031.\nMeier-Ott, Agatha, Schreiners Wittwe, Taglöhnerin von Gebenstorf,\n  Milchgasse 161.\nMeier-Roth, Verena, Taglöhnerin von Dintiken, Kirchhof 166.\nMeier-Wehrli, Jakob, Bäcker von Holderbank, Bäckerei und Pinten=\n  wirthschaft, Rain 832.\nMeier-Zobrist, Jakob, Part. von Othmarsingen, jenseits der Aare 1303 b.\nMeyer-Egli, Albert, von Dürnten (Zürich), Wirth zum Rößli, Mezger=\n  gasse 112.\nMeyer, Egeria, Part. von Baden, Zschokkestraße 974.\nMeyer-Wydler, Joseph, Postcommis von Hilsikon, Schachen 1259.\nMeyer-Zschokke, F. L., Architekt, Direktor der Handwerkerschule, Wohnung\n  jenseits der Aare 307, Büreau, Bahnhofstraße 553. Gewerbe=\n  museum.\nMeili-Sulzer, Emma, Wittwe von Elgg (Zürich), Stadthof 95. Handels=\n  müllerei.\nMeisel-Leutwyler, Xaver, Forstverwalter, Rathhausgasse 19.\nMeisel-Leutwyler, Verena, Weißwaarenhandlung, Rathhausgasse 19.\nMeißner-Baumgardt, Karl, Steindrucker von Großglogau (Schlesien),\n  Scheibenschachen 314.\nMeißner-Süß, Johann, Schneider von Gevoldshofen, Halden 266 b.\nMeister-Gisi, Georg, Bäcker und Wirth von Matzendorf (Solothurn),\n  Graben 216.\nMerz-Dürr, Jakob, Taglöhner, Halden 268.\nMerz-Horlacher, Traugott, Telephonarbeiter von Beinwyl, Halden 276.\nMerz-Märk, Sebastian, Notar, Bachstraße 1100.\nMerz-Ruh, Margaretha, Wittwe, Part. von Leimbach, vor dem Halden=\n  thor 758.\nMerz-Siegrist, Anna, Wittwe von Beinwyl, jenseits der Aare 339.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9883,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2159,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:59:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p128",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p128.jpeg",
+      "bytes": 234434,
+      "sha256": "6fbac2b7f64441a1cc09f752ae1bb226efe4350b4a3dd8fa8a67f62ca418b104",
+      "sha256_of": "original",
+      "working_copy": "1892_p128.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:59:49+00:00"
+  }
+}

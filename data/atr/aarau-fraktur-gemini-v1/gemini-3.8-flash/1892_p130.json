@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p130",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p130.jpeg",
+    "bytes": 245445,
+    "sha256": "77195e289d3ae65e0c9111560de211d8c58b51af135020fddd82157e283648d3",
+    "sha256_of": "original",
+    "working_copy": "1892_p130.jpeg"
+  },
+  "text": "114 Müller — Nadig.\n\nMüller-Nikles, Jakob, Ausläufer von Unterentfelden, Kirchhof 165 a.\nMüller-Nußbaum, Sara, Part. von Basel, Ziegelrain 751.\nMüller-Oeschger, Samuel, Obsthändler, von Fahrwangen. Golatten-\n  mattgasse 230.\nMüller, Otto, Commis von Möttlingen (Württemberg), Halden 285.\nMüller-Riederer, Lorenz, Lithograph v. Unt.-Iberg (Schwyz), Ziegelr. 700.\nMüller-Riniker, Elise, Staatsweibels Wittwe von Biberstein, obere Vor-\n  stadt 921.\n[handschriftlich: X] Müller-Rothplez, Arnold, Baumeister, jenseits der Aare 346.\nMüller, Rosa, Haushälterin, von Unterkulm, jenseits der Aare 342.\nMüller-Schmocker, Friz, Coiffeur, Milchgasse 73.\nMüller-Schmocker, Verena Modistin, Milchgasse 73.\n[handschriftlich: X] Müller-Schneebeli, Heinrich, Gastwirth z. Löwen von Unterstraß (Zürich),\n  vordere Vorstadt 681.\nMüller-Schnyder, Susanna, Haushälterin von Birr, Milchgasse 146.\nMüller, Sigmund, Zimmermeister in Erlinsbach, (Zimmerschopf) Ent-\n  felderstraße 963.\n[handschriftlich: X] Müller-Suter, Jakob, Lithographiebesitzer von Lenzburg, Wohnung in\n  der Gais 1131, Lithographie-Anstalt Bahnhofstraße 1287.\nMüller-Suter, Jakob, Posamenter von Gränichen, Laurenzenvorstadt 376.\nMüller-Stirnemann, Rudolf, Bremser von Niederbipp, Hammer 188.\nMüller-Thut, Johann Jakob, Schriftsetzer, Schmiedgasse 635.\nMüller, Verena, Spetterin von Unterkulm, Milchgasse 143.\nMüller-Vonäsch, Jakob, Buchbinder von Unterkulm, hintere Vorstadt 642.\nMüller-von Däniken, Friedrich, Oekonom, Schachen 725.\nMüller-Walti, Marie, Weißnäherin von Bözberg, Schmiedgasse 635.\nMüller-Waßmer, Jakob, Oberaufseher (Bally & Schmitter) von Safen-\n  wyl, hintere Vorstadt 694.\nMüller-Wildi, Karolina, Wittwe, Part. von Möttlingen (Württemberg),\n  Halden 285.\nMüller-Woodtli, Jakob, Armenhausvorsteher, Halden 241.\nMüri-Frech, Joh. Heinrich, Mechaniker von Schinznach, Schachen 741.\n[handschriftlich: X] Müri, Paul, Fürsprech, Gerichtspräsident von Schinznach, Rain 869.\nMürset-Hediger, Marie, Wittwe, Part. von Dieße (Bern), Kirchgasse 13.\nMürset, Marie, Coiffeuse von Dieße (Bern), Kirchgasse 13.\n\nNäf-Eichenberger, Edwin, Lokomotivführer von Meilen, obere Vor-\n  stadt 940.\n[handschriftlich: X] Näf-Ludwig, Emil, Kantonsstatistiker von Aarburg, Bahnhofstraße 658.\nNäf-Widmer, Urs. Joseph, Taglöhner von Wysen (Solothurn), Golatten-\n  mattgasse 230.\nNadig, Clara, Part. von Davos (Graubünden), Rain 860.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7063,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2368,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0238,
+    "mean_line_chars": 54.93,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:00:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p130",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p130.jpeg",
+      "bytes": 245445,
+      "sha256": "77195e289d3ae65e0c9111560de211d8c58b51af135020fddd82157e283648d3",
+      "sha256_of": "original",
+      "working_copy": "1892_p130.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:00:07+00:00"
+  }
+}

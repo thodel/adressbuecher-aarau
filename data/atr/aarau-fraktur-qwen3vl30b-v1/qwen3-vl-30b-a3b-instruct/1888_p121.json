@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p121",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p121.jpeg",
+    "bytes": 289596,
+    "sha256": "f329181c5985086478a1dc6145610c96146a6d80626f1d9b1e472c5ce0288b95",
+    "sha256_of": "original",
+    "working_copy": "1888_p121.jpeg"
+  },
+  "text": "Merz — Müller.\n103\nMerz-Horlacher, Traugott, Telefonarbeiter v. Weinwyl, Weinberg 321.\nMerz-Märk, Sebastian, Notar, Bachstraße 1100.\nMerz-Ruh, Margaretha, Wittwe, Part. v. Leimbach, v. d. Haldenthor 758.\nMerz-Siegrist, Friedrich, Agent von Weinwyl, Rain 822.\nMerz-Umiker, Jakob, Taglöhner von Weinwyl, Adelbändli 174.\nMüchel, Katharina, Spetterin von Olten, Adelbändli 172.\nMüller-Reinle, Ernst Aug., Büchsenmacher von Zella (Sachsen), Scheiben-\nschachen 316.\nMösch-Gasler, Martin, Registrator von Frick, Bachstraße 1155.\nMösch-Mösch, Karl, Güterexpedient von Frick, Rathausgasse 45.\nMösch-Ranz, Franz Melchior, Portier von Frick, Bahnhofstraße 554.\nMoog-Gank, Elise, Schuhhändlerin v. Pirmasens (Bayern), Jgelweid 625.\n× Morath-Dilger, Johann, Kaufmann, Rathausgasse 2.\nMorath, Johann, Sohn, Kaufmann, id. id.\nMorlet-Favrat, Johann Franz Aug., Reisender von Neuenstadt (Bern),\nobere Vorstadt 923.\nMorgenthaler-Zehlmann, David, Dienstmann von Strengelbach, Golatten-\nmattgasse 237 o.\n× Mühlberg-Umsler, Theodor, Postkontroleur von Muri, Entfelderstraße 983.\n× Mühlberg-Sutermeister, Fritz, Professor, Rain 878.\nMüller-Umsler, Johann Jakob, Schuster von Unterfultum, Laurenzen-\nvorstadt 376.\nMüller-Bolliger, Joh., Postcommiss von Uznach (St. Gallen), Gais 1249.\nMüller-Eggen schweiler, Johann, Postcommiss von Muri, Oberthor 140.\nMüller-Frei, Samuel, Maschinenputzer, von Unterfultum, obere Vorstadt 947.\nMüller, Gottlieb, Sekretär von Unterfultum, id. id.\n× Müller-Camper, Samuel, Spezereihändler, Holzmarkt 665.\n× Müller-Haberich, Fried. August, Kaufmann, Bahnhofstraße 656.\n× Müller-Hächler, Barbara, Wittwe, Part. von Kulm, Tellii 448.\n× Müller-Hürner, Eduard, Schirmmacher, Rathausgasse 30.\nMüller-Hunn, Verena, Part. von Unterfultum, Bachstraße 1038.\nMüller-Hurni, Marie, Wittwe, Part., obere Vorstadt 936.\nMüller-Kramer, Josef, Schneidermeister von Büron (Luzern), Jgelweid 636.\nMüller-Lüthi, Friedrich, Taglöhner von Niedermyl, Hammer 188.\nMüller, Maria, Taglöhnerin von Unterfultum, vor dem Haldenthor 802.\nMüller-Müller, Hans Jakob, Taglöhner von Gränichen, Halden 290.\nMüller-Riederer, Lorenz, Lithograph v. Meilbach (Freusen), Kroneng. 37.\nMüller-Riniker, Elise, Staatsweibels Wittwe von Biberstein, obere Vor-\nstadt 921.\n× Müller-Rothplek, Arnold, Baumeister, jenseits der Aare 346.\nMüller, Rosa, Borgängerin, von Unterfultum, Halden 273.\n× Müller-Schneebeli, Heinrich, Gastwirth 3. Löwen von Unterstrass (Zürich),\nvordere Vorstadt 681.\nMüller-Schnyder, Susanna, Haushälterin von Birc, Milchgasse 146.\nMüller-Schulteß, Franz Otto, Schriftsetzer von Riedholz (Solothurn),\nobere Vorstadt 916.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5476,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2603,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:27:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p121",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p121.jpeg",
+      "bytes": 289596,
+      "sha256": "f329181c5985086478a1dc6145610c96146a6d80626f1d9b1e472c5ce0288b95",
+      "sha256_of": "original",
+      "working_copy": "1888_p121.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:16+00:00"
+  }
+}

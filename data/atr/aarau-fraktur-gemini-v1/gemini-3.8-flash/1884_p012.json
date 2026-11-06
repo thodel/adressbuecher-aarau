@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p012",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p012.jpeg",
+    "bytes": 315811,
+    "sha256": "05c440520edae80ec0e2bf9f94841c6401de64c326924161d17fc14323fbf867",
+    "sha256_of": "original",
+    "working_copy": "1884_p012.jpeg"
+  },
+  "text": "8\n\nOpferlöcher im Felsblock nach. Und wenn er nicht vorzieht, sich im Waldes-\nschatten mit seiner Familie bei einem mitgeführten Tröpfchen zu lagern, so\nreicht dem schmachtenden Spaziergänger die Waldschenke im Roggen-\nhauser-Thälchen, der Binsenhof oder die Kuranstalt zum\nAlpenzeiger auf dem Gißhübel die rettende Hand mit einem Glas Wein,\neinem Topf Bier und Kaffee mit Strübli für die zartere Begleitung.\n  Die statistische Rundschau über Aarau, seine Gewerbsthätigkeit, den\nVerkehr, seine Bildungsanstalten u. s. w. ergeben folgendes Bild:\n  Gesammt-Einwohnerzahl 6000. Fabriken in Betrieb sind 22, Bank-\ngeschäfte und Sparkassen 5, Kaufläden 144, Metzger 15, Bäcker 20, Gast-\nhöfe 7, übrige Wirthe 57, Bierbrauer 6, Aerzte 13 (7 Mediziner, 4 Veterinär,\n2 Zahnärzte), Apotheker 4, Handwerker aller Art 295. 1352 Arbeiter aus\nden umliegenden Gemeinden finden täglich in der Stadt Beschäftigung.\n  Zwei Buchhandlungen und 5 Buchdruckereien beschäftigen 73 Arbeiter\nund spediren letztere zwei tägliche, fünf periodische und sechs wöchentlich er-\nscheinende Blätter.\n  Dreizehn Nachbargemeinden liefern der Stadt den täglichen Milchkonsum\nan 4214 Liter. Die Wochenmärkte, 8 Jahr- und 4 Viehmärkte werden\nstets sehr stark besucht.\n  Die Bahn verkaufte im Jahr 1883 an hiesiger Einnehmerstelle 199,396\nPersonenbillets, an Gepäck wurden 574 Tonnen, an Gütern 71,289 Tonnen\nund 4562 Stück Vieh aufgegeben.\n  Der Telegraphenverkehr im Jahr 1883 beträgt an abgehenden und ein-\nlaufenden Depeschen Total 43,430. Die Fahrpost beförderte anno 1883\nan Personen 17,057; die Briefpost 474,396 frankirte, 14,461 unfrankirte\nBriefe; amtliche Korrespondenzen 139,872; Korrespondenzkarten 93,276;\nZeitungen nach dem In- und Auslande 1,139,505 Nummern. Vom In-\nund Ausland gingen ein 247,104 Zeitungen. Das Totalgewicht der durch\nden kantonalen Botenverkehr beförderten Güter betrug 1,273,700 Kilo, ins\nLagerhaus waren Ende 1883 eingegangen 3,128,974 Kilo. Der interne\nGeldanweisungsverkehr mittels ausbezahlter Anweisungen betrug Fr. 3,702,593,\nmittels einbezahlter Fr. 2,217,120.\n  Aarau besitzt allerdings die unverhältnißmäßige Anzahl von 64 Wirth-\nschaften, aber dieser Zahl ist eine bessere und mehrsagende entgegen zu halten,\nindem hier 70 constituirte Vereine bestehen, deren ausgesprochener oder\nauch stiller Zweck es ist, den Bürgersinn zu pflegen und gemeinnützig zu\nwirken, sei’s eidgenössisch, sozial, wissenschaftlich oder künstlerisch. Sie be-\nsitzen meistens ein Sondervermögen nebst Bibliothek und Archiv, erstatten\nihre sachlichen und finanziellen Jahresberichte und arbeiten sich gegenseitig in\ndie Hand. Ursprünglich nur für den Heimathsort in Aussicht genommen, wie",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7559,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2670,
+    "lines": 41,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 63.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:10:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p012",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p012.jpeg",
+      "bytes": 315811,
+      "sha256": "05c440520edae80ec0e2bf9f94841c6401de64c326924161d17fc14323fbf867",
+      "sha256_of": "original",
+      "working_copy": "1884_p012.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:10:00+00:00"
+  }
+}

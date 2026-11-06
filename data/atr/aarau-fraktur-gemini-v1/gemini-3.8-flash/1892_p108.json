@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p108",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p108.jpeg",
+    "bytes": 253947,
+    "sha256": "907e8fb81ea5d6a0f02f6ac96dd123d612b0f4bc6209f67f97e090518702e70c",
+    "sha256_of": "original",
+    "working_copy": "1892_p108.jpeg"
+  },
+  "text": "92 Feer — Fischer.\n\n[handschriftlich: ✗]Feer, Adele, Rentiere, Laurenzenvorstadt 602.\nFeer, Heinrich, Part., Laurenzenvorstadt 602.\n[handschriftlich: ✗]Feer, Karl, Laurenzenvorstadt 602.\nFeer, Sophie, Laurenzenvorstadt 602.\nFeer-Widmer, Johann, Bankbeamter von Kölliken, Entfelderstraße 1195.\nFecht-Ruh, Julius von Meinwangen (Großh. Baden), Weinhandlung,\n  vor dem Haldenthor 758.\n[handschriftlich: ✗]Fehlmann-Blattner, Rudolf, Aufseher, Bahnhofstraße 648.\nFehlmann-Blattner, Anna, Mercerie- u. Lingeriegeschäft, Bahnhofstr. 648.\nFehlmann-Brack, Kaspar, Bäcker, Rathhausgasse 45.\nFehlmann-Buß, Johann, Gärtner von Seon, Bachstraße 1028.\nFehlmann-Hinden, Margaretha, Küfers, Taglöhnerin v. Remigen, Hldn. 273.\nFehlmann-Holzreuter, Christoph, Taglöhner von Seon, Rathhausgasse 24.\nFehlmann, Rudolf, Dachdecker von Menziken, Halden 259.\nFelber-Gruber, Georg, Gasarbeiter von Oberbözberg, Hammer 188.\nFelber, Marie, Damenschneiderin von Oberbözberg, Hammer 188.\nFelber-Obrist, Johann, Postkondukteur v. O.-Bözberg, Laurenzenvorst. 412.\nFenner-Hosig, Johann, Güterexpedient v. Küsnacht (Zürich), Hammer 188.\nFisch-Dürr, Elise, Schuhmachers Wittwe, Halden 271.\nFisch, Elise Karoline, Metzgers, Näherin, hintere Vorstadt 694.\nFisch, Josephina, Part., Ziegelrain 703.\nFisch, Karolina, Arzts, Bahnhofstraße 1019.\nFisch, Marie, Fabrikarbeiterin, Casinostraße 584.\n[handschriftlich: ✗]Fisch, Mina, Kleinkinderlehrerin, Rain 875.\nFisch-Thut, Adolf, Weinhändler, Entfelderstraße 979.\nFisch-Vogt, Marie, Milchverkäuferin, Milchgasse 160.\n[handschriftlich: ✗]Fisch-Zschokke, Karl, Major, Instruktor I. Klasse der Infanterie, zur\n  Blumenhalde, Eishügel 319.\nFischer, Adelina, Haushälterin, Halden 274.\n[handschriftlich: ✗]Fischer, Adolf, Oberst, alt Reg.-Rath von Reinach, hintere Vorstadt 620.\nFischer, August, Buchhandlungsgehilfe von Castel (Preußen), Graben 220.\nFischer-Brunnhofer, Margaretha, Schreiners Wittwe, Part., Graben 202.\n[handschriftlich: ✗]Fischer-Burger, Jonathan, Goldschmied von Reinach, Bijouteriewaaren-\n  und Uhrenhandlung, Holzmarkt 1260.\n[handschriftlich: ✗]Fischer-Eglinger, Rudolf, Thierarzt, Viehinspektor und Speisewirth von\n  Fahrwangen, Gais 486.\nFischer, Ferdinand, Telegraphist, Schachen 1259.\nFischer, Franz, Schneider, Halden 285.\nFischer, Friedrich, Fuhrmann, Halden 274.\nFischer, Friedrich, Schreiner, Weibels, Halden 247.\nFischer-Haller, Jakob, Zimmermann von Tennwyl, Hammer 188.\nFischer-Kaufmann, Friedrich, Taglöhner, Adelbändli 174.\nFischer-Keller, Albert, Sekretär, obere Vorstadt 956.\n[handschriftlich: ✗]Fischer-Keller, Xaver, christkatholischer Pfarrer von Triengen (Luzern),\n  Adelbändli 175.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 9039,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2625,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:57:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p108",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p108.jpeg",
+      "bytes": 253947,
+      "sha256": "907e8fb81ea5d6a0f02f6ac96dd123d612b0f4bc6209f67f97e090518702e70c",
+      "sha256_of": "original",
+      "working_copy": "1892_p108.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:57:01+00:00"
+  }
+}

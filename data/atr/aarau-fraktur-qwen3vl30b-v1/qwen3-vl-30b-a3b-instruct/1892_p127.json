@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p127",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p127.jpeg",
+    "bytes": 246218,
+    "sha256": "a98f89eaa0b1d66f87e12b1db3b2d36dfe9917d3444ca48f0891c99c2378a0fa",
+    "sha256_of": "original",
+    "working_copy": "1892_p127.jpeg"
+  },
+  "text": "Manger, Jakob, Part. von Büy (Bern), Bahnhofstrasse 1020.\nMangold-Wolfer, Susanna, Spetterin von Hemmikon (Bafelland), hintere\n  Vorstadt 641.\n* Marfurt, Franz Xaver, Coiffeur von Langnau (Zugern), Wohnung obere\n  Vorstadt 930, Coiffeurgeschäft Bahnhofstrasse 1022.\nMarini-Buricelli, Dominik, Süßfrüchtenhändler von Poguona (Italien),\n  Schmiedgasse 634.\n* Markwalder-Gamper, Traugott, Oberstlieut., Cavallerie-Instruktor I.\n  Klasse, Bankstrasse 1141.\nMarik-Bircher, Marie, Wittwe von Burgdorf (Bern), Quincaillerie-\n  warenhandlung, Casinostasse 1176.\nMarik, Emil, Schriftseker von Burgdorf (Bern), Casinostasse 1176.\nMarik, Julius, Sekretär\nMarik-Keller, Arnold, \"Schuhfabrikarbeiter,\" von Lofdorf (Solothurn),\n  Milch-, Räse- und Butterhandlung, Halden 281.\nMarti-Kull, Susanna, Wittwe, Part., Pelzgasse 130.\nMarti, Lina, Damen Schneiderin, Pelzgasse 130.\nMarti-Keller, Oskar, Commis von Wengi (Bern), Rathausgasse 18.\nMarti-Siebenmann, Fda, Arbeitslehrerin, Halden 267.\nMartin-Hagenbuch, Maria, Part., Bankstrasse 1141..\nMartin-Haus, Emil, Lithograph von Füllinsdorf (Bafelland), Gais 487.\n* Mathys-Hafner, Rudolf, Gastwirth zur „Krone“ von Eriswyl (Bern),\n  Kronengasse 39.\nMathys-Matter, Wilhelm, Feilenhauer von Kolliken, Entfelderstrasse 1285.\nMattenberger-Gehrig, Johann, Taglöhnner von Biri, Stadthof 93.\n* Mattenberger-Walther, Jakob, Metzger von Biri, Oberthor 140.\nMatter, Adolf, Bäcker von Oberentfelden, Schmiedgasse 1232.\nMatter-Egli, Jakob. Part., von Kolliken, Rain 822.\n* Matter-Hagauer, Jakob, Schneidemeister von Kolliken, Adelbündli 170.\n* Matter-Lüscher, Johann, Part., von Kolliken, in der Gais 479.\n* Matter-Schönenberg, Samuel, Amts schreiber von Oberentfelden, Schachen\n  1261.\nMatter-Thomann, Marie, Wittwe, Wäschcrin von Kolliken, Adelbündli 170.\nMauch-Zimmerli, Rudolf, Bankfahrt, von Teufenthal, Schmiedgasse 619.\nMaurer-Grunt, Philipp, Gießereiarbeiter, Milchgasse 73.\nMaurer-Lehmann, Friedrich, Heizer von Schmiedrued, h. d. Bahnhof 497.\nMaurer, Louise, Part., Rathausgasse 29.\nMaurer-Nußberger, Samuel, Taglöhnner von Schmiedrued, vor dem Hal-\n  denthof 799.\n* Maurer-Peter, Emil, Negotiant und Wirth zum „Kreuz“ jenseits der\n  Aare 1303 a.\nManz-Busch, Philipp, Aufseher von Ramsen (Baiern), Scheiben-\n  schachen 313.\nMeier-Bertschi, Jakob, Schlosser von Hausen, Ziegclrain 711.\nMeier-Uppenzeller, Joseph, Schneidcr von Wohlen, v. dem Haldenthof 1109.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6520,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2397,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:44:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p127",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p127.jpeg",
+      "bytes": 246218,
+      "sha256": "a98f89eaa0b1d66f87e12b1db3b2d36dfe9917d3444ca48f0891c99c2378a0fa",
+      "sha256_of": "original",
+      "working_copy": "1892_p127.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:19+00:00"
+  }
+}

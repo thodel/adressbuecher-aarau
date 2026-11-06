@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p116",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p116.jpeg",
+    "bytes": 244804,
+    "sha256": "f15b3b1cc16eb413c4c80c36639c4510b62f4d1bfb7e1747b9aee79a9c8caab5",
+    "sha256_of": "original",
+    "working_copy": "1892_p116.jpeg"
+  },
+  "text": "100\nHakler — Helm.\n\nHakler, Gottlieb, Färber, Casinostraße 584.\n*Hakler-Heberlin, Adolf, Färber, im Hammer 188.\nHakler-Hunziker, Karl, Kaufmann, Hemdenfabrikation, Weißwaren- und Tapetenlager, Bahnhofstraße 1020.\nHakler, Julie, Modistin, Adelbündli 122.\nHakler-Märki, Barbara, Schreiners Wittwe, obere Vorstadt 966.\nHakler, Marie, Part., Halden 265.\nHakler, Margaretha, Glasers, Graben 209.\nHakler-Meier, Marie, Part. von Männedorf (Zürich), Casinostraße 1130.\nHakler-Müller, Theodor, Buchbinder, Milchgasse 153 b.\nHakler-Oberlin, Margaretha, Lingeriegeschäft, Bachstraße 1040.\nHakler, Remigius, Stumme, Adelbündli 172.\n*Hakler-Schmid, Hans, Sohn, Lederhandlung, Bahnhofstraße 656.\nHakler, Sophie, Glätterin, Adelbündli 172.\n*Hakler-Stamppfli, Hans, Gerber, Leder- und Journiturenhandlung, Bahnhofstraße 656.\n*Hakler-Wanger, Emil, Kolonialwarenhandlung, Laurenzenthorgasse 349.\nHakler-Weißer, Arnold, Buchhalter, Telli 454.\n*Hauenstein-Hollinger, Alois Friedrich, Lehrer von Degerfelden, Metzgergasse 56.\nHaupt-Ginsberg, Hermann, Oberfeldner von Regensberg, Rain 826.\nHauri-Gränicher, Karl, Buchhalter von Sengen, Ziegelrain 751.\nHauri-Graber, Rudolf, Fuhrmann von Reitnau, Halden 249.\nHauri-Ryburz, Samuel, Briesträger von Seengen, Schachen 734.\nHauri-Siegenthaler, Karl, Ziegler, Rain 866.\nHausmann-Dietter, Johann, Taglöhnner von Schafisheim, Färbergässchen Hinterhaus von 125 Belzgasse.\nHausmann-Heuberger, Johann, Taglöhnner v. Schafisheim, Hammer 185 b.\nHausmann-Rüetschi, Gottlieb, Wagenwärter von Schafisheim, vor dem Haldenthor 1084.\nHediger-Born, Wilhelm, Postangestellter von Reinach, Milchgasse 151.\nHediger, Suette, Näherin von Reinach, Rathausgasse 20.\nHefti-Hunziker, Johann Peter, Schneidermeister von Schwanden (Glarus), Metzgergasse 100.\nHegetschwyl-Forlacher, August, Kondukteur von Ottenbach (Zürich), Entfelderstraße 1285.\nHegnauer-Fischer, Rudolf, Buchhalter von Seengen, Schachen 729.\n*Hegnauer-Renold, Rudolf, Fabrikant, Hammer 194.\nHeinzelmann, Johann, Schuhmacher v. Marschallzimmern (Württemberg), Kirchgasse 12.\nHeitz-Neef, Kornelius, Zimmermann v. Menziken, Laurenzenvorstadt 376.\n*Heller-Erb, Heinrich, Rechtsagent, Inkasso-u. Geschäfts bureau, Zollrain 54.\nHelm, Fanny, Modistin von Derlifon (Zürich), Zollrain 52.\nHelm-Schmid, Emil, Tapezierer von Derlifon (Zürich), Wohnung Zollrain 292, Werkstätte Halden 270.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6936,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2343,
+    "lines": 38,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 60.66,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:43:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p116",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p116.jpeg",
+      "bytes": 244804,
+      "sha256": "f15b3b1cc16eb413c4c80c36639c4510b62f4d1bfb7e1747b9aee79a9c8caab5",
+      "sha256_of": "original",
+      "working_copy": "1892_p116.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:43:07+00:00"
+  }
+}

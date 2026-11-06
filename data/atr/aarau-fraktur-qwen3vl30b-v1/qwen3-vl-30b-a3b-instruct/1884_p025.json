@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p025",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p025.jpeg",
+    "bytes": 331761,
+    "sha256": "dec9db12ddfe4551d263c51941d72694074108fd37f86f944cd19da4604ac4e8",
+    "sha256_of": "original",
+    "working_copy": "1884_p025.jpeg"
+  },
+  "text": "*Fleiner-Zschopke, Leontine, Fabrikant's Wittwe, Laurenzenvorstadt 586.\nFlühmann, Elise, Lehrerin, von Aefels (Bern), jenseits der Aare 300.\nFörderer, Alois, Schneider, v. Ziegelbach (Württemberg), Mezgergasse 107.\n*—Hinden, Anna, Wittwe, Bettwarenhandlung, vordere Vorstadt 671.\n*Frant-Roland, Samuel, Schreiner, Halben 281.\n*—Louise, Gorfetschneiderin, Laurenzenthorgasse 99.\n—Simon, Wirth, von Watterdingen (Baden), Bahnhofstraße 1160.\n—Peter, Wirth, von Watterdingen (Baden), Bahnhofstraße 1160.\n*Frei-Rauchenstein, Eduard, Pfarrhelfer, Kirchgasse 6.\n*—Frei, Karl, Kaufmann, Stadtrath, Laurenzenvorstadt 422.\n*—Herzog, August, Fabrikant, in der Telli 444.\n*—Frei, Adolf, Med. Dr., Laurenzenvorstadt 428.\n*—Eugen, Kaufmann, Laurenzenvorstadt 428.\n—Gamper, Jul., Jur. Dr., Vice-Bankdirektor, jenseits der Aare 294.\n*—Schmidlin, Othmar, Zürfsprech, Bankcontrolleur, Graben 204.\n*—Bolley, Edwin, Rentier, Bachstraße 1062.\n—Wirth, Emil, Kaufmann, von Wangen (Solothurn), Spezereihdlg., Zollrain 89.\n—Kiefer, Jos., Notar, Stellvertreter des Gemeindeschreibers und Civilstandsbeamter, von Leuggern, Laurenzenvorstadt 390.\n—Häuptli, Gottl., Eisenbahnkondukt., v. Oberstein, Laurenzenvorst. 363.\n—Stauber, Jakob, Küfer, Partik., von Degerfelden, Weinberg 321.\n—Rumpf, Fr., Kanzleisekretär, v. Densbüren, vor dem Halbenthör 810.\n—Friedr., Sohn, Sekretär, von Densbüren, vor dem Halbenthör 810.\n—Achilles, Coiffeur, von Densbüren, Laurenzentorgasse 1118.\n—Noja, Feinwascherei u. Glätterei, v. Densbüren, v. d. Halbenthör 810.\n—Mösch, Wilh., Werk- u. Brunnenmstr., v. Zurzach, Rathhausgasse 4.\n—Württemberger, Bertha, Wittwe, Partik., v. Dresden, Rathhausgasse 4.\n*—Hoke, Wittwe, Partik., Laurenzenvorstadt 403.\n—Tanner, Johann, Schneider, von Densbüren, Milchgasse 74.\n—Dürr, Gottfr., Taglöhner, v. Trachselwald (Bern), Ziegelrain 711.\n—Haller, Johann, Gärtner, von Aluenstein, Halben 263.\n*—Feer, Bertha, Fabrikants Wittwe, Rentière, Igelweid 628.\n*—Oskar, Kaufmann, Igelweid 628.\n*—Spengler, Elise, Reg.-Maths Wittwe, Partik., hintere Vorstadt 638.\n*—Springer, Wilhelmine, Wittwe, Rentière, in der Telli 430.\n—Pfiffer, Maria, Wittwe, Partik., von Zurzach, Schachen 737.\n—Leder, Elise, Glätterin, von Ehrendingen, Milchgasse 143.\n—Lindenmann, Johann, Taglöhner, von Reigoldswyl, Kirchgasse 8a.\n—Kaver, Buchbinder, von Salen-Neutenen (Thurgau), Pelzgasse 64.\n—Maria, Spetterin, von Densbüren, vor dem Halbenthör 769.\n—Kyburz, Rosina, Weißnäherin, v. Härchingen (Soloth.), Igelweid 625.\n—Beger, Adolf, Dr. Phil., Prof., v. Gontenschwyl, Caffinostrake 576.\n—von Däniken, Meinrad, Wagenwärter, v. Niedererlinsbach (Soloth.), hinter dem Bahnhof 497.\n—Hintermann, Arn., Taglöhner, v. Mellingen, Laurenzenvorstadt 376.\n—Amsler, Bernh. Fr., Küfer u. Bierbrauergch., v. Aluenstein, Abels. 170.\n—Wilhelm, Schriftsetzer, von Gontenschwyl, Halbenthör 256.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6325,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2837,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 62.07,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:11:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p025",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p025.jpeg",
+      "bytes": 331761,
+      "sha256": "dec9db12ddfe4551d263c51941d72694074108fd37f86f944cd19da4604ac4e8",
+      "sha256_of": "original",
+      "working_copy": "1884_p025.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:11:20+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p046",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p046.jpeg",
+    "bytes": 265031,
+    "sha256": "2b3f05fe1846ebdb1b652d7a15df604881e994acff1ff120eab85d889f93443d",
+    "sha256_of": "original",
+    "working_copy": "1888_p046.jpeg"
+  },
+  "text": "Gauz-\n9r.\n497. Brügger=Sommerhalder, Christian, Controleur, von Thurmalden\n(Graubünden). Spezialität: Verkauf von alten und neuen Belt-\nlinerweinen und luftgedörrtem Bündner Rind- und Ochsenfleisch.\nBircher-Ryburz, Anna, Wittwe, Part., von Rüttigen.\nGloor-Bachmann, Rud., Lagerhausarbeiter, von Birmwil.\nSchneider-Hochsträger, Samuel, Wagenwärter, von Thalheim.\n498.+ Würger=Maurer, Heinrich, von Hauen (Baden). Eisengießerei und\nWeidgussfabrik.\n499.+ Derfelbe. Büro.\n500.+ Derfelbe. Mechanische Sandmühle.\n501. Fricker=Hiltbold, Samuel, Bahnmeister, von Beltheim.\nHuber, Julius, Güterexpedient, von Mägenwyl.\nSchaufelberger=Märk, Jb., gew. Zugführer, von Fisichenthal (Thurgau).\n502. Freimaurerloge zur Brudertreue.\n503.* Schmuziger=Roller, Daniel, Baumeister.\nRiefer, Robert, Bankbeamter.\n504.+ Derfelbe. Holzschopf.\n505.+ Derfelbe. Magazin.\n506.+ Derfelbe. Laden schopf.\n507.+ Derfelbe. Barade.\nMüller, Arnold, Baumeister. Fabrikation und Lager in Cementröhren re.\n508.+ Sayer=Pfleger, Ludwig, Kaufmann. Gartenhaus.\n\nBankstraße.\n509. Kauf=Gattiker, Heinrich, gew. Lokomotivführer, von Wellhausen (Thurgau).\nKauf, Alfred, Buchhalter der Aarg. Creditanstalt, von Wellhausen.\n510. Siebenmann=Siebenmann, Rudolf, Part.\n1234 † Derfelbe. Holzhaus.\n1141 Kunz=Hef, Johann Jakob, von Wald (Zürich), Confiserie en gros.\nDr. Med. Wizinger=Lenthe, Moritz, präf. Arzt, von Unterhalla\n(Schaffhausen).\nMartin-Hagenbuch, Marie, Part.\n1251 † Derfelbe. Holz- und Waschhaus.\n1146 Lüscher=Umler, Hermann, Mechaniker. Nähmaschinenhandlung.\nLüscher-Umler, Marie, Damenschneiderin.\nHofer, Albert, von Niederwyl, Sekretär auf der Allg. Aarg. Ersparniskasse.\n\nBahnhofstraße.\n511.* Aargauische Bank.\nRothplez-Brüttel, Alfred, Bankdirektor.\n512.+ Diefelbe. Holzhaus.\n513.* Näf & Bschotte. Kreispostgebäude.\nAmsler-Matter, Jakob, Kreispostdirektor, von Bözen.\nKull, Adolf, Postcommis, von Niederlenz.\n514.+ Diefelben. Postremise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 3945,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1904,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.29,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:21:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p046",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p046.jpeg",
+      "bytes": 265031,
+      "sha256": "2b3f05fe1846ebdb1b652d7a15df604881e994acff1ff120eab85d889f93443d",
+      "sha256_of": "original",
+      "working_copy": "1888_p046.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:21:59+00:00"
+  }
+}

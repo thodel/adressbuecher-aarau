@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p075.jpeg",
+    "bytes": 303203,
+    "sha256": "99c394c99d31e51181b256f622a9050e18cb152c5455eab512d01538f2dbb08b",
+    "sha256_of": "original",
+    "working_copy": "1884_p075.jpeg"
+  },
+  "text": "Verzeichniß\nder\nEinwohner nach ihrem Berufe, Geschäfte und\nGewerbe.\n\nAerzte.\n[handschriftlich: 7 X] Bircher, Heinrich, zugleich Spitalarzt,\n  Bachstraße 1098.\nIsler, Arthur, hintere Vorstadt 638.\nLorenz, Josef, Graben 216.\nSchenker, Gottlieb, Rainstraße 831.\nSchmuziger, Friedr., vorder Vorst. 903.\nWeber, Gust., Bezirksarzt, Graben 618.\nZürcher, Alfr., Adjunkt des Bezirksarzts,\n  Laurenzenvorstadt 399.\n(Sämmtliche Aerzte haben ihre Sprech=\n  stunden Vormittags von 8—9 Uhr\n  und Nachmittags von 1—2 Uhr).\nThierärzte.\n[handschriftlich: 4] Bauhofer, Samuel, obere Vorstadt 930.\nFischer-Eglinger, R., in der Gais 486.\nLabhard, Jakob, Laurenzenvorstadt 607.\nThut, Friedrich, Schachen 736.\nZahnärzte.\n[handschriftlich: 2] Berner, Hermann, Casinostraße 576.\nBrentano, Max, neues Quartier 1075.\nApotheker.\n[handschriftlich: 4] Lindt, Otto, Rathhausgasse 16.\nWeibezahl, Leonhard, Rathhausgasse 5.\nWydler, Konrad, Rathhausgasse 23.\nZiegler, Otto, vordere Vorstadt 894.\nAgenturen.\nDolder, Johann, Graben 219.\nHauptagentur der allgem. Versicherungs=\n  Gesellschaft der „Helvetia“ in St.\n  Gallen.\nHauptagentur der „Helvetia“, schweiz.\n  Feuerversicherungs = Gesellschaft in\n  St. Gallen.\n[spalte 2]\nHauptagentur der London „Union“,\n  Lebensversicherungs-Gesellschaft.\nHaberstich = Scheuermann, Sl., obere\n  Vorstadt 938.\nHauptagentur der schweiz. Rentenanstalt\n  in Zürich.\nKeller, Andreas, Igelweid 619.\nHauptagentur der schweiz. Mobiliar=\n  Versicherung.\nMartin, Rudolf, Halden 267.\nGeneralagent, der Lebensversicherungs=\n  Gesellschaft La Fonciere in Paris.\nVertreter der Reichs-Versicherungsbank\n  in Bremen.\nMathys, R., z. Krone, Kronengasse 39.\nHauptagentur der Lebensversicherungs=\n  Gesellschaft „L'Aigle“ in Paris.\nMatter, Samuel, Amtsſchreiber, hintere\n  Vorstadt 623.\nHauptagentur der Lebensversicherungs=\n  bank für Deutschland, in Gotha.\nSchmid-Lanz, A., obere Vorstadt 935.\nInspecteur de la Providence, Compagnie\n  d'Assurances sur la vie à Paris.\nStrebel, Josef, Bahnhofstraße 1160.\nGeneralagentur der Basler Transport=\n  versicherungs = Gesellschaft.\nGeneralagentur d. Lebensversicherungs=\n  Gesellschaft Caisse générale des familles\n  in Paris.\nHauptagentur der Unfall-Versicherungs=\n  Aktien-Gesellschaft in Zürich.\nWirth-Herzog, Jakob, Zollrain 89.\nGeneralagentur für Auswanderung für\n  die ganze Schweiz. Cautionirt\n  Fr. 40,000 beim h. Bundesrathe.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7876,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2361,
+    "lines": 75,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0133,
+    "mean_line_chars": 29.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:19:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1884_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p075.jpeg",
+      "bytes": 303203,
+      "sha256": "99c394c99d31e51181b256f622a9050e18cb152c5455eab512d01538f2dbb08b",
+      "sha256_of": "original",
+      "working_copy": "1884_p075.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:19:34+00:00"
+  }
+}

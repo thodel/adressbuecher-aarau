@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p039",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p039.jpeg",
+    "bytes": 264306,
+    "sha256": "5ec764de5d77e5b57a048deabcc8bcae6fb00bac6daec94e68e4348a7f0e640f",
+    "sha256_of": "original",
+    "working_copy": "1888_p039.jpeg"
+  },
+  "text": "— 29 —\nHaus-\nNr.\n356. Hunziker, Emil Guido, Rentier.\n  Käser-Kähr, Ulrich, Kutscher, von Melchnau (Bern).\n357.† Derselbe. Remise.\n358.† Derselbe. Waschhaus.\n359.† Derselbe. Sommerhaus.\n360.* Studer-Ehrsam, Theodors, Arzts Erbschaft.\n  Kurz und Stierli, Advokatur- und Notariatsbüreau (Inhaber E. Kurz,\n    Fürsprech und Notar und G. L. Stierli, Fürsprech).\n  Lüscher-Wülser, Lisette, Part., von Aarburg.\n  Märk, Ida, Drs., Part.\n  Kurz, Erwin, Fürsprech, von Schwamendingen (Zürich).\n  Wehrli, Karl Emil, Architekt, von Höngg (Zürich).\n  Kettiger-Bertschinger, Arnold, Procurist, von Liestal.\n361.* Dieselbe.\n  Etter-Hägi, Reinhard, Milchverkäufer, von Langrickenbach (Thurgau).\n  Wirz-Widmer, Adolf, Postkondukteur, von Menziken.\n362.* Dieselbe.\n  Wernli-Reinhard, Kaspar, Weichenwärter, von Thalheim.\n  Schmid, Rosa, Damenschneiderin, von Gips.\n363.* Dieselbe.\n  Frey-Häuptli, Gottlieb, Eisenbahnkondukteur, von Biberstein.\n364.* Wydler-Frey, Med. Drs. Erbschaft.\n  Wydler, Mathilde, Partik.\n  Frey-Hagnauer, Konrad, Dr. Med., praktischer Arzt.\n365. u. 366.† Dieselbe. Scheune.\n367.* Schmitter-Schmidlin, Friedrichs, Fabrikants Erbschaft.\n  Tanner, Erwin, Fürsprech, (Advokaturbüreau).\n  Zehnder-Siebenmann, Traugott, Part., von Birmenstorf.\n368. 369. u. 370.† Dieselbe. Oekonomiegebäude.\n371. Hunziker-Fleiner, Hermann, Privatier.\n  Fahrländer-Hunziker, Karl, Dr. Jur. Regierungsrath, von Laufenburg.\n372.† Derselbe. Holzhaus und Remise.\n373.† Hunziker-Züst, Guido, Rentier. Comptoir und Magazin.\n374. u. 375. Derselbe. Wohngebäude.\n376.* Hunziker-Springer’s Erbschaft.\n  Ruef-Zweifel, Wilhelm, Schlosser, von Rekingen.\n  Meyer-Hägeli, Alois, Taglöhner, von Büron (Luzern).\n  Fischer-Roth, Ludwig, Straßenwärter.\n  Dill-Frei, Joh. Jh. Christoph, Schuster, von Basel.\n  Zimmerli-Stenz, Eduard, Cementmüller, von Oftringen.\n  Suter-Arber, Rudolf, Posamenter, von Gränichen.\n  Weber-Suter, Joh., Gärtner, von Oberflachs.\n  Brunnhofer-Bolliger, Lisette, Fabrikarbeiterin.\n  Steiner-Haller, Heinrich, Taglöhner, von Rein.\n  Häusermann-Ruef, Adolf, Taglöhner, von Egliswyl.\n  Leu-Karrer, Jakob, Taglöhner, von Schloßrued.\n  Blattner-Hemmeler, Jakob, Maler, von Küttigen.\n  Blattner, August, Gerichtskanzlist, von Küttigen.\n  Müller-Suter, Jakob, Posamenter, von Gränichen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7223,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2269,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:27:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p039",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p039.jpeg",
+      "bytes": 264306,
+      "sha256": "5ec764de5d77e5b57a048deabcc8bcae6fb00bac6daec94e68e4348a7f0e640f",
+      "sha256_of": "original",
+      "working_copy": "1888_p039.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:27:19+00:00"
+  }
+}

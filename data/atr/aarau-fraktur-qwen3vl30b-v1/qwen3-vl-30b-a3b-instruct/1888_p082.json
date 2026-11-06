@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p082",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p082.jpeg",
+    "bytes": 217617,
+    "sha256": "598a24a5db22301c9b45eefb9a60d0324b2bb6505e70216b594e5971f787ef50",
+    "sha256_of": "original",
+    "working_copy": "1888_p082.jpeg"
+  },
+  "text": "Haus-\nNr.\n1239.† Schweiz. Nordostbahn. Abtritte (in der Gais).\n1240.† Ernst-Räfer, Fried., Röhrenfabrikant. Magazin (Bahnhofstraße).\n1241. Widmer-Gamper, Fried., Postcommis. (Sönhardtfeldweg.)\n1242.† Dubbs, Karl, Metzger. Scheune (vor dem Haldenthor).\n1243. Dr. Liechti, Paul, Profess. Wohnhaus (vor dem Haldenthor).\n1244. Lüscher, Daniel, Schlosser. Werkstätte (Igelweid).\n1245. Frey-Frey, Karl. Maschinenhäuschen (Telli).\n1246. Blattner, Rud., gew. Nagelschmied. (Erlinsbacherstraße.)\n1247.† Siebenmann, Fried., Bierbrauer. Wagenshopf und Eiseller (jen-\nseits der Aare).\n1248. Bolliger, Johann, Notar (Lindenhof), in der Gais.\n1249. Locher-Willi, Jakob, Postkondutteur (Lindenhof), in der Gais.\n1250.† Birri, Fridolin, Posamenter. Ställchen (Schleibenschachen).\n1251.† Kunz, J. F., Conditor. Holz- und Waschhaus (Vantstraße).\n1252.† Dr. Liechti, Paul, Profess. Bienenhaus (Schachen).\n1253.† Keller-Steiner, Karl. Heusshuppen (Rohrervstraße).\n1254.† Schweiz. Nordostbahn. Waschhaus (Bahnhof).\n1255. Hagnauer-Zimmermann, Albert. Wohnhaus (Conradstraße).\n1256.† Meili, Jakob, Müller. Stallung (Mühlegässchen).\n1257.† Baumann-Gyfi, Heinrich. Fäkremise (Laurenzenvorstadt).\n1258.† Derselbe. Holzhaus.\nid.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 2742,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1201,
+    "lines": 24,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:24:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p082",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p082.jpeg",
+      "bytes": 217617,
+      "sha256": "598a24a5db22301c9b45eefb9a60d0324b2bb6505e70216b594e5971f787ef50",
+      "sha256_of": "original",
+      "working_copy": "1888_p082.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:24:37+00:00"
+  }
+}

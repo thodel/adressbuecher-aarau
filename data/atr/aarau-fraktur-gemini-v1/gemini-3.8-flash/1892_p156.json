@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p156",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p156.jpeg",
+    "bytes": 214883,
+    "sha256": "850d09cd6bd6d8801aa5c1880506d6fd3372d4d5e0fda7a2898bf1e52fa3609c",
+    "sha256_of": "original",
+    "working_copy": "1892_p156.jpeg"
+  },
+  "text": "140\n\nSchmuziger, Gebr. Fritz und Karl, Ziegel=\n  rain 703.\nSteger, Melchior, Metzgergasse 100.\nWehrli, Jakob, Kronengasse 40.\nWidmer, Rudolf, obere Vorstadt 927.\n\nBandfabrikanten.\n\nBally, Gebrüder, Hammer 386.\n\nBankgeschäfte.\n\n* Aargauische Bank, Bahnhofstraße 511.\n  Kassastunden 9—12 und 2—5 Uhr.\n  Direktor: Rothpletz, Alfred.\n  Vize-Direktor: Frey, Othmar.\n  Kassier: Wehrli, Emil.\n  Buchhalter: Walder, Karl.\n* Aargauische Creditanstalt, Laurenzenvor=\n  stadt 1340.\n  Kassastunden 9—12 und 2—5 Uhr.\n  Direktor: Pfau, Joh. Jak.\n  Kassier: Hoffmann, Emil.\n  Buchhalter: Kauf, Alfred.\n\nBaumeister.\n\n* Müller, Arnold, Baugeschäft hinter dem\n  Bahnhof 503, und jenseits der\n  Aare 346.\n* Schäfer, Adolf, Baugeschäft, Gais 1063.\n* Zschokke, O., Baugeschäft, Rohrerstr. 472.\n\nBaumwolltuchfabrikation.\n\nOboussier & Comp., Graben 613.\nStephani & Adam, Bachstraße 1112 u. 1113\n\nBaumwollspinnerei.\n\nFrey & Cie., in der Telli 442.\n\nBaumwolltuchhandlungen (en gros).\n\nOboussier, & Comp., Graben, 613.\n\nBazars.\n\nHemmeler-Haßler, A., Metzgergasse 55.\nHemmeler-Stahl, Jakob, Rathhausgasse 21.\nSchmid, Johann (Filiale), vordere Vor=\n  stadt 889.\n\n[spalte 2]\n\nBettwaarenhändler.\n\nDreßler, Laurenz, Camisascas Nachfolger,\n  Rain 826.\nFirma Gebr. Heß, Rathhausgasse 4.\nHering-Leuenberg, Lisette, Zollrain 181.\nSchweizer-Siebenmann, Sophie, Schachen\n  741.\nStrub, Leonhard, Milchgasse 71.\n\nBijouterie-Waaren.\n\nFischer, Jonathan, Holzmarkt 1260.\nFrey, Albert, Rain 821.\nHärdi, Wilhelm, Rathhausgasse 42.\nHirschy, Joh. Rud., vordere Vorstadt 668.\n\nBierbrauereien.\n\n* Fischer, Thomas, Zollrain 179.\n* Holzach, Dietrich, Bahnhofstraße 563.\n* Pfisterer, Robert (zum Affenkasten), vordere\n  Vorstadt 1263.\n* Riniker, Friedrich, Metzgergasse 102.\n* Siebenmann, Friedrich, Weinberg 324.\n* Siebenmann, Rudolf, Graben 620.\n\nBierpressionen-Fabrikation.\n\nKeller, Abr., Mechaniker, Halden 260.\n\nBildhauer.\n\nRusterholz & Freihofer, Rainstraße 886.\n\nBriefträger.\n\nDietiker, Adolf, Golattenmattgasse 237 b.\nDietiker, Hans, vor dem Haldenthor 1299.\nErnst, Robert, Adelbändli 173.\nHagnauer, Joh. Ludwig, Kirchhof 80.\nHauri, Samuel, Schachen 734.\n\nBrunnenmeister.\n\nFrei, Ulrich Wilh., Rathhausgasse 3.\n\nBuchbinder.\n\nAndres, Heinrich, Casinostraße 1176.\nHagenbuch, Friedrich, vordere Vorstadt 676.\nHaßler, Theodor, Milchgasse 153.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7896,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2294,
+    "lines": 77,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.013,
+    "mean_line_chars": 27.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T14:03:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p156",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p156.jpeg",
+      "bytes": 214883,
+      "sha256": "850d09cd6bd6d8801aa5c1880506d6fd3372d4d5e0fda7a2898bf1e52fa3609c",
+      "sha256_of": "original",
+      "working_copy": "1892_p156.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T14:03:41+00:00"
+  }
+}

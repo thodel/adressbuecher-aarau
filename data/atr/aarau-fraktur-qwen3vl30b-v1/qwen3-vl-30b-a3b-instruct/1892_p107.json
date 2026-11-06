@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p107",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p107.jpeg",
+    "bytes": 242460,
+    "sha256": "83d9ba20fbdee54ea1513a0db84da7bf0edcf5483608e0136cefc37f010dafb6",
+    "sha256_of": "original",
+    "working_copy": "1892_p107.jpeg"
+  },
+  "text": "Grismann – Fasler.\n91\nX Grismann-Jundermauer, Abraham, Dekonom, Friedensrichter, Bachstraße 1033.\nGrismann-Lehner, Hermann, Hafner v. Hontenschwyl, Golattenmattg. 237.\nGrismann, Marie, Weißnäherin von Muhlen, hintere Vorstadt 621.\nGrismann, Rudolf, Taglöhner von Kirchrued, Kirchgasse 10.\nGrismann-Sager, Emil, Güterexpedient von Hontenschwyl, Gais 485.\nGrismann, Eduard, Armenpfleger, Bachstraße 1033.\nX Erne-Leblanc, Eduard, Kaufmann von Leuggern, Wohnung Laurensenthorgasse 349, Colonialwaarengeschäft en gros, Firma Erne und Cie., Bahnhofstraße 610.\nErni-Wauderli, Lorenz, Taglöhner von Stüiklingen, Schmiedgasse 637.\nX Erny-Fasler, Emil, Kaufmann, Mercerie- und Ellenwaaren-Handlung, Kronengasse 33.\nErnst-Döhnel, Robert, Briefträger Adelbündli 173.\nErnst-Dürr, Hermann, Schuhmacher, Halden 240.\nX Ernst-Röser, Friedrich, Möhrenfabrikant, Wohnung obere Vorstadt 923, Fabrik in der Gais 1353.\nErnst-Lehmann, Samuel, Gasarbeiter von Holziken, Milchgasse 76.\nX Ernst-Pfisterer, Lina, Bierbrauers Witwe, vordere Vorstadt 1263.\nX Ernst-Steiner, Gustav, Sekretär, Laurenzenvorstadt 412.\nEtter-Hägi, Reinhard, Milchverkäufer von Langrickenbach (Thurgau), Rain 825.\nFäss-Bircher, Maria, Wittwe von Oberfulm, Milchgasse 147.\nFäss-Gall, Rudolf, Kaser nier von Schöftland, Pelzgasse 67.\nFäss-Huber, Jakob, Bosamenter von Oberfulm, Golattenmattgasse 237 a.\nFäss, Marie, Modistin, Modewaarenhandlung v. Schöftland, Pelzgasse 67.\nX Fahländer-Hunziker, Karl, Dr. jur., Regierungsrath von Laufenburg, Laurenzenvorstadt 371.\nX Fahländer-Johannes, Eugen, Ingenieur, Mainstraße 869.\nFahländer-Siebenmann, Wilhelm, Med. Drs. Wittwe, Part., Rain 869.\nFahländer-Müller, Verena, Part., Hammer 188.\nFailer, Georg, Schriftsetzer von Harthaujen (Preußen), Ziegelrain 705.\nX Faller-Unwin, Friedrich, Kaufmann, Eisenhandlung von Bräunlingen (Großh. Baden), Mathausgasse 17.\nX Faller-Faller, Elise Louise, Wittwe von Reitenbuch (Großh. Baden), Firma Gebrüder Faller, Eisen- und Quincailierewaarenhandlung, Kronengasse 41.\nX Faller, Karl Friedrich, Sohn, Kaufmann von Reitenbuch (Großh. Baden), Kronengasse 41.\nFasler, Maria, Part. von Densbüren, hinter dem Platz 214.\nFasler-Wehrli, Johann, Taglöhner, von Densbüren, Laurenzenvorstadt, (Philosophenweg) 1114.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4697,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2245,
+    "lines": 33,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 67.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:42:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p107",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p107.jpeg",
+      "bytes": 242460,
+      "sha256": "83d9ba20fbdee54ea1513a0db84da7bf0edcf5483608e0136cefc37f010dafb6",
+      "sha256_of": "original",
+      "working_copy": "1892_p107.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:42:12+00:00"
+  }
+}

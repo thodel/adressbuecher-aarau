@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p052",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p052.jpeg",
+    "bytes": 215496,
+    "sha256": "8748dd5434a6f16c4c6f41dfe2f432da1e1b57194166676d9626a97717bdd5aa",
+    "sha256_of": "original",
+    "working_copy": "1892_p052.jpeg"
+  },
+  "text": "— 44 —\n\nHaus-\nNr.\n  Isler-Bruggisser, Arthur, Dr. med., prakt. Arzt, von Wohlen.\n  Stierli = Brentano, Goar Leonz, Fürsprech und Notar, Vize-Stadtam-\n    mann, von Aristau (Advokatur- und Notariats-Büreau).\n616. † Dieselbe. Scheune mit Schopf.\n617. † „ Waschhaus.\n618. Frey-Ryhiner, Julie, Fabrikants Wittwe.\n  Weber-Beck, Gustav, Bezirksarzt, von Menziken.\n  Reimann-Reichli, Gustav, Obergerichtsschreiber, von Wölflinswyl.\n619. Willimann, Anton, Lohnkutscher (an der Schmiedgasse aufgenommen).\n620. a. Siebenmann-Rohr, Rudolf, Bierbrauer. Wirthschaft zum Hirschen.\n  Fischer, Adolf, Oberst, alt Reg.-Rath, von Reinach.\n  Stäbli, Ida, Haushälterin, von Brugg.\n  Kaufmann, Otto, Commis, von Buchs (Luzern).\n620. b. † Derselbe. Kegelbahn und Kühlschiff.\n\nHintere Vorstadt.\n\n621. * Siebenmann-Siebenmann, Rudolf, Partikular.\n  Erismann & Blattner, Weißwaarengeschäft.\n  Erismann, Marie, Weißnäherin, von Muhen.\n  Blattner, Marie, Weißnäherin, von Küttigen.\n  Ziegler-Erismann, Marie, von Veltheim.\n  Schmid-Willi, Jos. Ant., Polizeicorporal und Fischereiagent, von Wittnau.\n  Ganser, Georg, Schneider, von Landshut (Tirol).\n622. * Siebenmann-Rohr, Rudolf, Bierbrauer.\n  Spühler-Frey, J. J., von Reckingen. Redaktor, Druck und Verlag der\n    „Aargauer Nachrichten“ und „Aargauerzeitung“.\n  Vogt, Adolf, Zahnarzt, von Bürglen (Thurgau).\n  Baumann geb. Wacker, Susanna, Haushälterin von Bürglen (Thurgau).\n623. Baumann = Wälti, Kaspar, Milchverkäufer, von Bottenwyl.\n    Kaffeewirthschaft.\n  Schäfer-Funk, Elise, Wittwe.\n624. Bertschinger = Wild, Gustav, von Lenzburg. Spezereihandlung.\n  Rüetschi-Nüsperli, Sophie, Wittwe, Part.\n  Stoffer-Meyer, Emil, Zuschneider, von Mägenwyl.\n\nSchmiedgasse.\n\n625. Baumann = Gautschi, Samuel, Hufschmied.\n  Baumann, Fritz, Sohn, Hufschmied.\n  Moog-Ganß, Elisabeth, Schuhhändlerin, von Pirmasens (Bayern).\n  Wernli-Neeser, Kaspar, Postkondukteur, von Thalheim.\n  Amsler-Baumann, Heinrich, Fabrikaufseher, von Densbüren.\n  Hüsser-Müller, Otto, Bremser, von Remetschwyl.\n626. † Derselbe. Remise und Waschküche.\n619. Willimann = Lehmann, Anton, Lohnkutscher.\n  Schenker, Gustav, Bezirksthierarzt, von Schönenwerd (Solothurn).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 6800,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2152,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:50:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1892_p052",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p052.jpeg",
+      "bytes": 215496,
+      "sha256": "8748dd5434a6f16c4c6f41dfe2f432da1e1b57194166676d9626a97717bdd5aa",
+      "sha256_of": "original",
+      "working_copy": "1892_p052.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:50:50+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p101",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p101.jpeg",
+    "bytes": 300989,
+    "sha256": "bccdb94c8b1319e89c7922d61b1cc8f13bd131686095ffbfbb4b5dec1ec9b60a",
+    "sha256_of": "original",
+    "working_copy": "1888_p101.jpeg"
+  },
+  "text": "Eichenberger — Faller. 83\n\nEichenberger-Fischer, Gottlieb, Schreiner von Beinwyl, Rain 880.\nEichenberger-Flad, Rudolf, Zimmermann von Reinach, Milchgasse 154.\nEichenberger-Joho, Rudolf, Schuhmacher von Reinach, Igelweid 636.\nElsasser-Riburz, Gottlieb, Küfermeister von Unterkulm, Halden 290.\nEng-Guldimann, Heinrich, Schuhmacher (Schuhfabrik) von Stüßlingen\n  (Solothurn), Casinostraße 580.\nEngesser-Brunner, Joseph, Schneider von Durchhausen (Württemberg),\n  Milchgasse 70.\nErdin, Albin, Kaufmann, Geschäftsführer von Gansingen, Rathhausg. 12.\nErdin-Zumsteg, Siegfried, Taglöhner von Gansingen, Halden 264.\nErismann-Hüssi, Samuel, Holzspalter von Schloßrued, Kirchgasse 10 a.\nErismann, Marie, Weißnäherin von Muhen, hintere Vorstadt 621.\nErismann, Marie, Fabrikarbeiterin von Gontenschwyl, Adelbändli 81.\nErismann, Rudolf, Taglöhner von Kirchrued, Kirchgasse 10.\nErismann-Sager, Samuel, Güterexpedient von Gontenschwyl, Gais 485.\nErismann, Samuel, Friedensrichter und Armenpfleger, Bachstraße 1033.\nErismann-Indermauer, Abraham, Oekonom, id. id.\nErne-Leblanc, Eduard, Kaufmann, von Leuggern, Laurenzenthorgasse 349.\nErni-Mauderli, Lorenz, Taglöhner von Stüßlingen, Igelweid 637.\nErny-Faßler, Emil, Kaufmann, Mercerie- und Ellenwaaren-Handlung,\n  Kronengasse 33.\nErnst-Döhnel, Robert, Briefträger, Adelbändli 173.\nErnst-Dürr, Hermann, Schuhmacher, Halden 240.\nErnst-Käser, Friedrich, Röhrenfabrikant, obere Vorstadt 923.\nErnst-Lehmann, Samuel, Gasarbeiter von Holziken, Milchgasse 76.\nErnst-Pfisterer, Lina, Bierbrauers Wittwe, vordere Vorstadt 672.\nErnst-Steiner, Gustav, Sekretär, Laurenzenvorstadt 412.\nErnst-Suter, Jakob, Portier der kantonalen Krankenanstalt 1186.\nEtter-Hägi, Reinhard, Milchverkäufer von Langrickenbach (Thurgau),\n  Laurenvorstadt 361.\n\nFäs-Bircher, Samuel, Schuhmachermeister von Oberkulm, Schuhhand-\n  lung, Rathhausgasse 3.\nFäs-Gall, Rudolf, Kasernier von Schöftland, Pelzgasse 67.\nFäß, Marie, Modistin, Modewaarenhandlung v. Schöftland, Pelzgasse 67.\nFäs-Huber, Jakob, Posamenter von Oberkulm, Golattenmattgasse 237 a.\nFahrländer-Hunziker, Karl, Dr. jur., Regierungsrath von Laufenburg,\n  Laurenzenvorstadt 371.\nFahrländer-Johannes, Eugen, Ingenieur, Rainstraße 869.\nFahrländer-Siebenmann, Wilhelmine, Med. Drs. Wittwe, Part., Rain 869.\nFahrländer-Müller, Verena, Part., Bachstraße 1061.\nFailer-Rohr, Georg, Schriftsetzer von Harthausen (Preußen), Rain 885.\nFaller-Unwin, Friedrich, Kaufmann, Eisenhandlung von Bräunlingen\n  (Großh. Baden), Rathhausgasse 17.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7511,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2485,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 55.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:34:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p101",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p101.jpeg",
+      "bytes": 300989,
+      "sha256": "bccdb94c8b1319e89c7922d61b1cc8f13bd131686095ffbfbb4b5dec1ec9b60a",
+      "sha256_of": "original",
+      "working_copy": "1888_p101.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:15+00:00"
+  }
+}

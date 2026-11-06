@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1884_p007",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1884_p007.jpeg",
+    "bytes": 215810,
+    "sha256": "cbfc6f6ee872ece5723d09673505b27aae69c71e0886911c0431e831bdf18655",
+    "sha256_of": "original",
+    "working_copy": "1884_p007.jpeg"
+  },
+  "text": "Vorwort.\n\nVeranlasst durch das längst gefühlte Bedürfnis eines vollkommenen und\nzuverlässigen Adreßbuch der Stadt Aarau hat der Unterzeichnete die Ausarbei-\ntung eines solchen unternommen. Dasselbe unterscheidet sich wesentlich von\nseinem Vorgänger, dem früheren „Einwohnerverzeichnis“, welches in manig-\nfacher Hinsicht durchaus ungenügend war.\nIm Gegensatz hiezu soll das gegenwärtige „Adreßbuch“ durch verbesserte\nEinrichtung, namentlich durch Aufnahme einer umfassenden Zusammen-\nstellung über sämmtliche in Aarau bestehenden Geschäfte allen Anforderungen\nentsprechen, die man an ein derartiges Werk stellen kann und dadurch nicht\nnur dem hiesigen Publikum, sondern auch auswärtigen Geschäftsleuten\ndienlich sein.\nBei der mühevollen und zeitraubenden Arbeit wurde mir von Seite\nhiesiger Beamten und Geschäftsleuten in bereitwilligster Weise jede verlangte\nAuskunft und Hilfe geleistet, wofür ich hiermit meinen wärmsten Dank\nausspreche.\nMöge das Werk allseitig gute Aufnahme und weite Verbreitung, sowie\neine günstige Beurtheilung finden.\n\nAarau, im Mai 1884.\n\nDer Verfasser.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 2023,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1079,
+    "lines": 20,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:09:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1884_p007",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1884_p007.jpeg",
+      "bytes": 215810,
+      "sha256": "cbfc6f6ee872ece5723d09673505b27aae69c71e0886911c0431e831bdf18655",
+      "sha256_of": "original",
+      "working_copy": "1884_p007.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:09:11+00:00"
+  }
+}

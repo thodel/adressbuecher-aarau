@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p012",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p012.jpeg",
+    "bytes": 228902,
+    "sha256": "43eadbbd7966c5acea55a7d9c3336e21541bb4e16150ef7842673c2dc8cde36b",
+    "sha256_of": "original",
+    "working_copy": "1892_p012.jpeg"
+  },
+  "text": "Haus-\nNr.\nSchmid, Maria, Ladentöchter, von Buch bei Weinfelden (Thurgau).\nWaldmeier-Gautschi, Alfred, Commis (Camper & Cie.) von Möhlin.\nRull-Gerber, Adolf, Postcommis, von Niederlenz.\n34. Württemberger-Raifer, Maria, Coiffeurs Wittwe.\nGuggenheim-Bollag, Julius, Kaufmann, von Oberendingen, Tuchhandlung\n\"Marauer Waarenhalle\".\nSchibler, Fritz, Coiffeur, von Walterswil (Solothurn), Parfümerie-\nwaarenhandlung.\nZürcher-Stug, Johann, gewesener Turnlehrer, von Thalwyl (Zürich).\n35. Raifer, Sigmund, Kaufmann, Quincaillerie-, Glas- und Porzellan-\nWaaren-Handlung.\n36. Hing-Wolf, Anna, Zuckerbäckers Wittwe.\n37. Bonfelsen-Willimann, Franz Joseph, Quincaillerie- und Kinder-\nspielwaaren-Handlung.\nBonfelsen-Willimann, Verena, Corsetmacherin.\nWillimann-Behrli, Marie, Wittwe, von Oberhof.\nMösch-Mösch, Karl, Gitterexpedient, von Fried.\n38. Gloor-Stiebenmann, Friedrich, Negotiant, von Schöfisland, Colonial-\nwaaren- und Delikatessen-Handlung.\nKohr-Gloor, Marie, Privatin.\nWidmer-Rohner, Franz Kaver, Sekretär (Obergerichtskanzlei), von\nSchneisingen.\n39. Mathys-Hafner, Rudolf, Gastwirth zur Krone, von Criswyl (Bern).\n40. Behrli-Schneider, Jakob, Bäcker, von Rüttigen.\nJungi-Blattner, Johann, Schuhmacher, von Guggisberg (Bern).\nJungi-Blattner, Lina, Damen Schneiderin, von Guggisberg (Bern).\nFlückiger-Wüthrich, Rosette, Wittwe, Köchin, von Wynigen (Bern).\nZweifel-Sygger, Samuel, Schreinermeister, von Linththal (Glarus).\n41. Faller geb. Keller, Elise Louise, Wittwe, von Raitenbuch (Grossh. Baden).\nFirma Gebr. Faller, Militärartikel, Eisen- und Quincailleriewaaren-\nHandlung.\nFaller, Karl Friedrich, Sohn, Kaufmann, von Raitenbuch (Grossh. Baden).\n\nRathausgasse.\n42. Härdi, Wilhelm, Goldschmied, von Lenzburg, Gold- und Silberwaaren-\nHandlung.\nHärdi, Lina, Haushälterin, von Lenzburg.\nWeber-Molfenter, Emil, von Haufen; Depot für Singer-Nähmaschinen.\nKappeler, Anna, Part.\n43. Hofer-Schaffner, Gottlieb, Kaufmann, Spezerei- und Elfenwaaren-\nhandlung.\n44. Wernli-Bläuer, Andreas, Schuhmachermeister, von Thalheim. Schuh-\nGottschalt, Amalie, Modistin.\nSchäfer-Friedl, Karl, Lithograph, von Cannstadt (Würtbg.).\n45. Fehlmann-Brack, Kaspar, Bäcker.\nStigeler-Glätti, Jakob, Zimmermann, von Eglisau (Zürich).\nGeber-Schleich, Joseph, Schneider, von Benfeld. (Eglis.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4448,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2257,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0208,
+    "mean_line_chars": 46.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:34:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p012",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p012.jpeg",
+      "bytes": 228902,
+      "sha256": "43eadbbd7966c5acea55a7d9c3336e21541bb4e16150ef7842673c2dc8cde36b",
+      "sha256_of": "original",
+      "working_copy": "1892_p012.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:34:27+00:00"
+  }
+}

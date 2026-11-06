@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p048",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p048.jpeg",
+    "bytes": 254727,
+    "sha256": "11e66de5309e60a96336b39171046e60980a74257fe3cf816ab2630bb229a115",
+    "sha256_of": "original",
+    "working_copy": "1888_p048.jpeg"
+  },
+  "text": "Haus-\nNr.\n544. Stauffer, Albert, Bankangestellter, von Hallwyl.\nDelhasen-Büttner, Hermann, Bankbeamter.\nWohler-Bolliger, Joh. Martin, Postbeamter, von Wohlen.\n545.+ Lagerhäuser der Central Schweiz.\n546.+ Dielselben. Gebäude mit Dampfkessel.\n547. Steiner-Sennhauser, Samuel, Dekonom. Rössligut.\nCajacob-Fallet, Louise, Wittwe, von Somvix (Graubünden).\n548.* Derfelbe. Wohnhaus und Dekonomiegebäude.\nFischer, Emilie, Bezks, Part.\n549.+ Derfelbe. Scheune mit Einfahrt.\n550.+ Derfelbe. Speicher mit Waschhaus.\n551.+ Derfelbe. Schopp und Schweinescheune.\n552.* Feer-Herzog, Karls Erbschaft. (Alte Taubkummenanhalt.)\nWürger-Maurer, Gießereibesitzer, von Haufen (Baden).\nWernli-Lienhard, Maria Anna, Wittwe, Spetterin, von Thalheim.\nSchneider-Brucker, Ferd., Bankangestellter, von Magden.\nKeller-Rappeler, Heinrich, Lokomotivführer, von Regenstorf (Zürich).\nHeuckenkamp-Eisenchmid, Karolina, Part., von Niederlamiz (Bayern).\nMädon-Laufer, Viktor, Lokomotivführer, von Unterfräz (Zürich).\nJäggi, Wilhelmine, Institutslehrerin, von Stengelbach.\n\nLaurenzenvorstadt.\n553. Feer-Herzog, Karls Erbschaft.\nFeer-Herzog, Karolina, Wittwe, Rentiere.\nFeer, Karl.\nFeer, James.\nFeer, Sophie.\n554.* Dielselbe. Portierhaus.\nMösch-Ranz, Franz Melchior, Portier, von Frid.\n555.+ Dielselbe. Dekonomiegebäude mit Waschhaus und Remise.\n556.+ Dielselbe. Dekonomiegebäude mit Stallung.\n557.+ Dielselbe. Remise und Geflügelhaus.\n558.+ Dielselbe. Treibhaus.\n559. Kern-Rychner, Emil, Mechaniker.\nVally-Scholer, Elisabeth, Wittwe, Part.\n560.* Derfelbe. Wohnhaus mit Remise.\nDietiker-Schlep, Jakob, Postfaktor, von Thalheim.\nUmmann, Maria, Ladentochter, von Ryfen.\n1160 Häßig-Sigle, Julius. Restauration zum rothen Haus.\nDöpfel, Eduard, Oberrichter, von Seon.\nDöpfel, Mina, Klavierlehrerin, von Seon.\nKern, Otto, Mechaniker, Part.\n561. Rothplez und Rychner. Thonröhrenfabrikation. Cementbausteine und\nCementbodenplatten für Corridore, Veranden, Küchen, Schulhäuser\nund Kirchen 2c.\nRychner, Karl Christian, Fabrikant.\n562.+ Dielselben. Holzhaus.\n[spalte 2]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 4118,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2020,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:22:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1888_p048",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p048.jpeg",
+      "bytes": 254727,
+      "sha256": "11e66de5309e60a96336b39171046e60980a74257fe3cf816ab2630bb229a115",
+      "sha256_of": "original",
+      "working_copy": "1888_p048.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:22:07+00:00"
+  }
+}

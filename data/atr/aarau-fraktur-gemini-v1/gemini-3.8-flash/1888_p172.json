@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-gemini-v1",
+  "model": "gemini-3.8-flash",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1888_p172",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1888_p172.jpeg",
+    "bytes": 229390,
+    "sha256": "a1a1447b88efb748d6be08cf83937903963815dcd853848900653668f8c22cf1",
+    "sha256_of": "original",
+    "working_copy": "1888_p172.jpeg"
+  },
+  "text": "Inhalts-Verzeichniß.\n\nI. Abhaltung der Wochen-, Jahr- und Vieh-\nmärkte in Aarau.\nSeite 1.\n\nII. Verzeichniß der Wohn- und Oekonomie-\ngebäude im Stadtbezirk Aarau.\nin fortlaufender Nro.\nRathhausgasse:\nHaus Nr. 1—5 Seite 1\n„ „ 16—32 „ 3\n„ „ 42—49 „ 5\n„ „ 176 „ 16\nKirchgasse:\nHaus Nr. 6—15 „ 2\nKronengasse:\nHaus Nr. 33—41 „ 4\nZollrain:\nHaus Nr. 50—54 „ 5\n„ „ 87—91 „ 8\n„ „ 177—181 „ 16\n„ „ 292—293 „ 25\nMetzgergasse:\nHaus Nr. 55—61 „ 6\n„ „ 100—113 „ 10\nPelzgasse:\nHaus Nr. 62—68 „ 6\n„ „ 121—137 „ 11\nMilchgasse:\nHaus Nr. 70—79 „ 7\n„ „ 141—161 „ 13\nKirchhof:\nHaus Nr. 80 „ 8\n„ „ 162—169 „ 15\nAdelbändli:\nHaus Nr. 81—86 „ 8\n„ „ 170—175 „ 15\nStadthof:\nHaus Nr. 92—98 „ 9\nLaurenzenthorgasse:\nHaus Nr. 1231 „ 10\n„ „ 114—120 „ 11\nOberthor:\nHaus Nr. 138—140 „ 13\n„ „ 223—228 „ 20\n[spalte 2]\nIm Hammer:\nHaus Nr. 182—194 Seite 17\n„ „ 386—389 „ 30\nSchloßplatz:\nHaus Nr. 195—201 „ 18\nGraben:\nHaus Nr. 202—209 „ 18\n„ „ 215—222 „ 19\n„ „ 352 „ 28\n„ „ 613—620 „ 41\nHinter dem Platz:\nHaus Nr. 210—214 „ 19\nGolattenmattgasse:\nHaus Nr. 229—239 „ 20\nHalden:\nHaus Nr. 240—291 „ 21\nJenseits der Aare:\nHaus Nr. 294—311 „ 25\n„ „ 339—848 „ 28\nScheibenschachen:\nHaus Nr. 312—316 „ 26\n„ „ 1178—1181 „ 26\n„ „ 1211, 1212 u. 1230 „ 26\nGishügel:\nHaus Nr. 317—320 „ 26\nWeinberg:\nHaus Nr. 321—326 „ 26\n„ „ 240—341 „ 28\nErlinsbacherstraße:\nHaus Nr. 327—338 „ 27\nLaurenzenvorstadt:\nHaus Nr. 353—385 „ 29\n„ „ 390—430 „ 30\n„ „ 544—552 „ 38\n„ „ 585—612 „ 40\nIn der Telli:\nHaus Nr. 431—462 „ 32\nRohrerstraße:\nHaus Nr. 463—478 „ 33\nIn der Gais:\nHaus Nr. 479—489 „ 34\nHinter dem Bahnhof:\nHaus Nr. 490—508 „ 35\nBankstraße:\nHaus Nr. 509—510 „ 36",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 7643,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1600,
+    "lines": 90,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 16.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-06T13:44:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-gemini-v1",
+    "source": {
+      "key": "1888_p172",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1888_p172.jpeg",
+      "bytes": 229390,
+      "sha256": "a1a1447b88efb748d6be08cf83937903963815dcd853848900653668f8c22cf1",
+      "sha256_of": "original",
+      "working_copy": "1888_p172.jpeg"
+    },
+    "model": {
+      "model": "gemini-3.8-flash",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "gemini-3.8-flash@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:44:24+00:00"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-fraktur-qwen3vl30b-v1",
+  "model": "qwen3-vl-30b-a3b-instruct",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1892_p105",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1892_p105.jpeg",
+    "bytes": 254242,
+    "sha256": "041a3b9b70297c489b92fd7b320340fb48c51ce44fb2216e00a81dac7d3586bd",
+    "sha256_of": "original",
+    "working_copy": "1892_p105.jpeg"
+  },
+  "text": "Dietiker — Dubs.\n89\nDietiker, Emma, Wäscherin, von Thalheim, Golattenmattgasse 237 b.\nDietiker-Häfﬂiger, Hans, Brieﬂräger v. Thalheim, vor d. Faldenthor 1299.\nDietiker-Staub, Adolf, Brieﬂräger von Thalheim, Golattenmattgasse 237 b.\nDietiker, Susanna, Spetterin von Thalheim, Rain 875.\nDietiker-Schluep, Jakob, Postfaktor, von Thalheim, Bahnhofstraße 560.\nDietiker-Wernli, Samuel, Schuhmacher v. Thalheim, Laurengenvorort 376.\nDietiker, Alfred, Bautechniker von Wetzikon (Zürich), Rathausgasse 21.\nDill-Frey, Johann Jakob, Schuster von Basel, Laurengenvorstadt 376.\nDöbbeli-Binder, Samuel, Bezirksschullehrer von Seon, jenf. der Aare 339.\nDöbbeli-Richti, Babette, Wirthin von Seon, Schachen 727.\nDöhnel-Ryburz, August, Schuhmachermeister von Badenweiler (Großh. Baden), Golattenmattgasse 239.\nDöhnel, Emma, Spetterin von Badenweiler (Großh. Baden), Halden 267.\nDöﬀetel, Mina, Klavierlehrerin von Seon, Bahnhofstraße 1160.\nDolber-Sayer, Jakob Friedrich, Kaufmann von Hauptwyl (Thurgau), Weißwaarengeschäft und Agenturen, Graben 219.\nDolber, Eufette, Merceriehandlung, von Hauptwyl (Thurgau), vordere Vorstadt 892.\nDollefchal-Keller, Joseph Emil, Kunstmaler von Trebihoſcht (Böhmen), Weinberg 1102.\nDoser-Schröder, Leopold, Direktionssekretär von Rheinfelden, Entfelderstraße 960.\nDreßler-Hofmann, Laurenz, Kaufmann v. Belfort (Frankreich), (Nachfolger v. Camijaſca Franz), Möbel- und Tuchwaarenhandlg. Rain. 826.\nDrack-Hauser, Hermann, Metallgießer, Milchgasse 149.\nDreifuß-Bloch, Karl, Kaufmann von Endingen, Laden vord. Vorstadt 889, Wohnung hintere Vorstadt 692.\nDreyfus, Max Emil, Sohn, Kaufmann von Endingen, Graben 352.\nDroz Lucien, August, Bankangestellter von Chaux-de-fonds, Laurengenvorstadt 552.\nDürer, Sophie, Haushälterin von Weinfelden (Thurgau), Rain 832.\nDürer, Emil, Sohn, Sekretär, Adelbändli 171.\nDürer, Gottfried, Schuhmacher, Halden 271.\nDürer-Graden, Hieronimus, Straßenwärter, Adelbändli 174.\nDürer, Heinrich, Pfarrer, Privat., Rathausgasse 19.\nDürer-Hofer, Emil, Gemüsehändler, Pelzgasse 132.\nDürer, Johanna, Privat., Rathausgasse 19.\nDürer, Karl August, Kaufmann, Rathausgasse 19.\nDürer, Karolina, Glaser, Halden 271.\nDürer-Lüscher, Gabriel, Gemüsehändler und Wirth, Graben 1237.\nDürer-Schmuziger, Jakob, Schreinermeister, Milchgasse 161.\nDürer-Seiler, Hermann, Malermeister, Casinostraße 1130.\nDürer-Siebenmann, Karolina, Registrators Wittwe, Adelbändli 171.\nDürer-Wüthrich, Gottlieb, Stadtarbeiter, Milchgasse 153 a.\nDubs, Elise, Müller’s von Rüttigen, Hammer 182.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 5445,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-default|max8192",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2489,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 62.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+  "recognised_at": "2026-11-06T13:42:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-fraktur-qwen3vl30b-v1",
+    "source": {
+      "key": "1892_p105",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1892_p105.jpeg",
+      "bytes": 254242,
+      "sha256": "041a3b9b70297c489b92fd7b320340fb48c51ce44fb2216e00a81dac7d3586bd",
+      "sha256_of": "original",
+      "working_copy": "1892_p105.jpeg"
+    },
+    "model": {
+      "model": "qwen3-vl-30b-a3b-instruct",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3-vl-30b-a3b-instruct@prompt-3c9d55d7",
+    "segmented_by": null,
+    "recognised_at": "2026-11-06T13:42:03+00:00"
+  }
+}
