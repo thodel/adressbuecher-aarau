@@ -536,3 +536,7 @@ adressbuecher-aarau/
    Kürzel), **Strassen 97 %** der 8 275 Adresszeilen (71 Strassen; Rest sind
    Parserreste und Ditto-Zeichen). Bekannte Fehlzuordnung: «Karlsruh» → Pommern statt
    Karlsruhe. Gebäudegenauigkeit folgt erst mit der Nummernzuordnung (Abschnitt 6, Punkt 6).
+   Jeder Kreis und jeder Name der Rangliste verlinkt auf die Kontrollseite, gefiltert
+   auf die zugehörigen Einträge (Einwohner- und Gebäudeverzeichnis, gewählter Band) über
+   die URL-Parameter `?tab=…&col=origin_norm|street_norm&val=…&vol=…`; die Kontrollseite
+   führt dafür die normierten Spalten «Heimatort (norm.)» und «Strasse (norm.)».
