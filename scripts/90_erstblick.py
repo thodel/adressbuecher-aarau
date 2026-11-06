@@ -109,6 +109,9 @@ body { background: var(--bg); color: var(--fg); font-family: var(--font-body); f
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   padding-block: 16px; display: flex; flex-direction: column; gap: 10px; box-sizing: border-box; margin: 0; }
 header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 20px; }
+.nav { font-size: 0.9rem; color: var(--muted); }
+.nav a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.nav a:hover, .nav a:focus-visible { text-decoration: underline; }
 h1 { font-size: 1.3rem; margin: 0; font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; }
 .sub { color: var(--muted); font-size: 0.88rem; margin: 0; }
 .sub a { color: var(--accent); }
@@ -150,8 +153,9 @@ td.act a { color: var(--muted); font-size: 12px; margin-left: 6px; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 <header>
+  <nav class="nav"><a href="./">Kontrolle</a> · <a href="karte.html">Karte: Einzugsgebiet und Wohnorte</a> · <a href="https://thodel.github.io/adressbuecher-basel/">Adressbücher Basel</a> · <a href="https://github.com/thodel/adressbuecher-aarau">Repo</a></nav>
   <h1>Adressbücher Aarau: Kontrolle der Datensätze</h1>
-  <p class="sub">Stand __DATE__ · Rohdaten aus der ATR-Lesung, regelbasiert geparst, ohne Normalisierung. Fehler hier markieren; die Flags gehen per CSV oder Issue ins Repo. · <a href="karte.html">Karte: Einzugsgebiet und Wohnorte</a></p>
+  <p class="sub">Stand __DATE__ · Rohdaten aus der ATR-Lesung, regelbasiert geparst, ohne Normalisierung. Fehler hier markieren; die Flags gehen per CSV oder Issue ins Repo.</p>
 </header>
 <div class="toolbar">
   <div class="tabs" role="tablist" id="tabs"></div>

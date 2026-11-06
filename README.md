@@ -11,7 +11,11 @@ QLever, MCP) kommt aus [agentic_historian](https://github.com/thodel/agentic_his
 Der Plan mit Befund, Pipeline, CSV-Schema, Mapping und Abnahmekriterien steht in
 [PLAN.md](PLAN.md).
 
-Kontrollseite der Datensätze (Flagging): https://thodel.github.io/adressbuecher-aarau/
+Visualisierungen:
+
+- Kontrollseite der Datensätze mit Flagging und Telefonbuch-Abgleich: https://thodel.github.io/adressbuecher-aarau/
+- Karte Einzugsgebiet und Wohnorte: https://thodel.github.io/adressbuecher-aarau/karte.html
+- Schwesterprojekt Basel 1841/1850/1862: https://thodel.github.io/adressbuecher-basel/ ([Repo](https://github.com/thodel/adressbuecher-basel))
 
 ## Betrieb
 

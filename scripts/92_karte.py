@@ -32,6 +32,9 @@ html, body { height: 100%; margin: 0; }
 body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.4; display: flex; flex-direction: column;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 12px; box-sizing: border-box; gap: 10px; }
 header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; }
+.nav { font-size: 0.9rem; color: var(--muted); }
+.nav a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.nav a:hover, .nav a:focus-visible { text-decoration: underline; }
 h1 { font-size: 1.25rem; margin: 0; font-weight: 700; }
 .sub { color: var(--muted); font-size: 0.88rem; margin: 0; }
 .sub a { color: var(--accent); }
@@ -57,8 +60,9 @@ h1 { font-size: 1.25rem; margin: 0; font-weight: 700; }
 .leaflet-control-zoom-in, .leaflet-control-zoom-out { color: #000 !important; }
 </style>
 <header>
+  <nav class="nav"><a href="./">Kontrolle</a> · <a href="karte.html">Karte: Einzugsgebiet und Wohnorte</a> · <a href="https://thodel.github.io/adressbuecher-basel/">Adressbücher Basel</a> · <a href="https://github.com/thodel/adressbuecher-aarau">Repo</a></nav>
   <h1>Adressbücher Aarau: Einzugsgebiet und Wohnorte</h1>
-  <p class="sub">Stand __DATE__ · Heimatorte und Strassen über OpenStreetMap (Nominatim) verortet, Strassen auf Strassenmitte, Gebäude noch nicht · <a href="./">zur Kontrollseite</a></p>
+  <p class="sub">Stand __DATE__ · Heimatorte und Strassen über OpenStreetMap (Nominatim) verortet, Strassen auf Strassenmitte, Gebäude noch nicht</p>
 </header>
 <div class="main">
   <div class="panel">
