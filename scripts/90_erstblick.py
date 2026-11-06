@@ -41,6 +41,9 @@ TABS = [
     ("berufe", "Berufe", ["04_berufe_fraktur.csv", "04_berufe_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "heading", "surname", "alliance_name", "forename", "occupation_raw",
       "street_raw", "building_no", "origin_raw", "entry_type", "parse_confidence", "residual", "text"]),
+    ("telefon", "Telefon", ["09_ptt_entries.csv"], "ptt_id",
+     ["ptt_id", "ptt_source", "year", "name_raw", "rest", "street_raw", "no", "phone", "numbering",
+      "best_tier", "best_volume", "best_ab_name", "best_ab_address", "best_entry_id", "volumes_matched"]),
 ]
 
 LABELS = {"entry_id": "ID", "building_id": "ID", "volume": "Band", "page": "PDF-S.", "citizen_flag": "Bürger *",
@@ -49,7 +52,10 @@ LABELS = {"entry_id": "ID", "building_id": "ID", "volume": "Band", "page": "PDF-
           "origin_canton": "Kt.", "street_raw": "Strasse", "building_no": "Nr.", "address_role": "Adressrolle",
           "phone_flag": "Tel.", "entry_type": "Typ", "parse_confidence": "Konfidenz", "residual": "Rest/Notiz",
           "text": "ATR-Zeile", "building_nos": "Nr.", "marker": "Marke", "owner_text": "Eigentümer",
-          "building_type": "Gebäudeart", "owner_same_as_prev": "Ditto", "note": "Notiz", "heading": "Rubrik"}
+          "building_type": "Gebäudeart", "owner_same_as_prev": "Ditto", "note": "Notiz", "heading": "Rubrik", "ptt_id": "ID", "ptt_source": "Quelle",
+          "year": "Jahr", "name_raw": "Name (Telefonbuch)", "rest": "Zusatz", "no": "Nr.", "phone": "Telefon",
+          "numbering": "Nummern", "best_tier": "Treffer", "best_volume": "Band", "best_ab_name": "Adressbuch-Name",
+          "best_ab_address": "Adressbuch-Adresse", "best_entry_id": "Eintrag", "volumes_matched": "Bände"}
 
 REASONS = ["ATR-Lesefehler", "Parser: Feld falsch", "Parser: Eintrag falsch getrennt", "Abschnitt/Rubrik falsch",
            "Quelle: Druckfehler", "Dublette", "Anderes"]
@@ -162,7 +168,7 @@ td.act a { color: var(--muted); font-size: 12px; margin-left: 6px; }
   <button class="btn" id="clear">Flags löschen</button>
   <span class="sub">Danach: <code>python scripts/91_merge_flags.py &lt;datei.csv&gt;</code> und committen.</span>
 </div>
-<p class="legend"><b>Bürger *</b> = Stern im Einwohnerverzeichnis (Bürgerrecht Aarau) · <b>Marke</b> im Gebäudeverzeichnis: * Eigentümer wohnt im Haus, † Nebengebäude · <b>Konfidenz</b>: high = Zeile ging vollständig auf, medium = Hinweis in Rest/Notiz, review = nicht zuordenbar · <b>✓</b> = Flag schon im Repo.</p>
+<p class="legend"><b>Bürger *</b> = Stern im Einwohnerverzeichnis (Bürgerrecht Aarau) · <b>Marke</b> im Gebäudeverzeichnis: * Eigentümer wohnt im Haus, † Nebengebäude · <b>Konfidenz</b>: high = Zeile ging vollständig auf, medium = Hinweis in Rest/Notiz, review = nicht zuordenbar · <b>✓</b> = Flag schon im Repo · <b>Telefon</b>: Quelle AB = Abonnentenliste im Adressbuch, A = PTT-Telefonbuch 1889–1910 (OCR), G = PTT-Telefonbuch (Gemini, ca. 1898), B = PTT 1921–1935 (neue Hausnummern); Treffer «adresse» = Name + Strasse + Gebäudenummer, «strasse» = Name + Strasse, «name» = Name + Vorname, «nachname» = nur Familienname.</p>
 <div class="wrap"><table id="t"><thead></thead><tbody></tbody></table><button class="more" id="more" hidden>weitere Zeilen zeigen</button></div>
 <div id="toast" hidden></div>
 <script>

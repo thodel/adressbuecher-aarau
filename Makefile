@@ -47,3 +47,9 @@ geojson:    ## GeoJSON für die Karte aus den CSV
 	$(PY) scripts/10_geo.py geojson
 karte:      ## Kartenseite bauen (OUT=...)
 	$(PY) scripts/92_karte.py --out $(or $(OUT),web/karte.html)
+
+.PHONY: ptt-ingest ptt-link
+ptt-ingest:  ## Aarauer Telefonbuch-Daten aus dem PTT-Bestand (PTT_TSV_DIR) nach data/ext/ptt
+	$(PY) scripts/08_ptt_ingest.py
+ptt-link:    ## Telefon-Einträge mit Adressbuch-Einträgen verknüpfen → 09_ptt_entries.csv
+	$(PY) scripts/09b_link_ptt.py

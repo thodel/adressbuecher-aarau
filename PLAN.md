@@ -489,14 +489,29 @@ adressbuecher-aarau/
 
 ## 7. Agenda — Nachträge der Projektleitung (06.11.2026)
 
-1. **Abgleich mit den historischen Telefonbüchern.** Die Telefon-Abonnentenlisten der
-   Bände 1888 und 1892 (Abschnitt `sonst` in `01_pages.csv`) und das Telefonsymbol ab 1896
-   sind der Anschluss; dazu kommen die externen PTT-Telefonbuchdaten (lokal:
-   `~/Repos/PTT_phonebook_data_tsv`, `~/Repos/unil_ptt-postal-data-processing`,
-   `~/Repos/gemini-phonebook-analysis`). Ziel: je Band die Abonnenten mit den Einträgen
-   des Einwohner- und Berufsregisters verknüpfen (Name + Strasse + Nummer), Deckung
-   messen, und die Telefonbuch-Jahrgänge nach 1899 als Verlängerung der Zeitreihe
-   prüfen (wer bleibt, wer kommt dazu). Gilt ebenso für Basel.
+1. **Abgleich mit den historischen Telefonbüchern** — erster Stand (06.11.2026):
+   `scripts/08_ptt_ingest.py` holt aus dem PTT-Bestand (thodel/PTT_phonebook_data_tsv,
+   lokal) den Aarauer Ausschnitt nach `data/ext/ptt/` (Charge A 1889–1910: 657
+   Seitentexte, OCR mit Spaltenmischung; Charge B 1921–1935: 17 331 Einträge mit Strasse
+   und **neuer** Hausnummer), dazu die mit Gemini gelesene PTT-Liste aus
+   gemini-phonebook-analysis (355 Einträge, Jahr zu bestimmen). `scripts/09b_link_ptt.py`
+   verknüpft vier Quellen über Familienname, Gebäudenummer (nur altes Nummernsystem),
+   Strasse und Vorname mit den Einwohner- und Berufsregistern (`09_ptt_entries.csv`,
+   Reiter «Telefon» der Kontrollseite). Ergebnis mit den Fraktur-Bänden: die
+   **Abonnentenlisten in den Adressbüchern selbst** (1888, 1892; 194 Einträge) treffen
+   zu 46 % bis auf die Gebäudenummer und zu 54 % mindestens auf die Strasse; die
+   Gemini-Liste (201 Aarauer Einträge) zu 16 % auf die Nummer; Charge A nur zu 9 %
+   (OCR-Text schlecht segmentiert); Charge B 1921–1935 zu 21 % über Name + Strasse oder
+   Name + Vorname, nie über die Nummer — Aarau hat bis 1921 auf Strassennummern
+   umgestellt, selbst ein Befund. **Offen: Nutzungsbedingungen der PTT-Rohdaten** —
+   `data/ext/` und die abgeleiteten `09_ptt_*.csv` sind bis zur Klärung vom öffentlichen
+   Repo ausgeschlossen (`.gitignore`); der Reiter «Telefon» ist daher auf GitHub Pages
+   leer und nur im lokalen Bau gefüllt. Nächste Schritte: (a) die PTT-Seiten 1889–1910
+   über die MFK-IIIF-Manifeste mit dem eigenen ATR-Prompt neu lesen (657 Seiten, ~2 h
+   Gemini) statt des OCR-Texts; (b) nach dem Antiqua-Lauf 1896/1899 als zeitlich nähere
+   Partner für Charge B; (c) aus den über Name + Strasse sicheren Paaren eine Konkordanz
+   alte Gebäudenummer ↔ neue Hausnummer ableiten — zugleich der Schlüssel zur
+   Gebäudeebene der Karte (Abschnitt 6, Punkt 6). Gilt ebenso für Basel.
 2. **Wohnortstabilität über die Bände** — Issue
    [#1](https://github.com/thodel/adressbuecher-aarau/issues/1): Anteil der Personen,
    die über die beobachtbaren 15 Jahre am selben Gebäude/derselben Strasse bleiben, die
