@@ -179,8 +179,13 @@ der vier GT-Seiten bleibt offen.
 **Stand Fraktur (06.11.2026, 16 Uhr):** Gemini 427/427 Seiten in 60 min, 8,4 s je
 Seite, 3 leere Seiten (Umschläge), **keine abgeschnitten**; qwen3-vl-30b 427/427 in
 45 min, 9 abgeschnitten, 2 Schleifen (Seiten für den Abgleich markiert). Welle 2 über
-1884/1888/1892 aus der Gemini-Lesung: 5 463 Einwohner-Adresszeilen (1 671 / 1 852 /
-1 940; 97 % «high», 744 mit Bürger-Stern), 3 875 Zeilen im Berufsregister (82 % high;
+1884/1888/1892 aus der Gemini-Lesung (nach dem ersten Flag-Durchgang vom 06.11.2026,
+48 Flags «Eintrag falsch getrennt»/«Feld falsch»: der Parser nahm jeden Einzug als
+Fortsetzung, die Seitenleser rücken aber auch Folgeeinträge ein — jetzt zählt eine
+Zeile nur als Fortsetzung, wenn der Eintrag davor noch keine Adresse hat oder sie
+nicht wie ein Eintragsanfang aussieht; Eintrags-IDs tragen seither die Zeilennummer
+und bleiben über Parserversionen stabil): 5 702 Einwohner-Adresszeilen (97 % «high»,
+2 «review»), 3 519 Zeilen im Berufsregister (87 % high;
 Rest sind Agenturen mit Fliesstext, Rubriken mit Firmennamen, Einträge ohne Nummer
 «ausserhalb des Stadtbezirks»), 4 192 Gebäude (4 ausserhalb der Seitenbereiche des
 Inhaltsverzeichnisses), 2 575 Bewohner, 164 Konkordanzbereiche, 534 Berufsklassen.

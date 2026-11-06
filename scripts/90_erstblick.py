@@ -75,7 +75,8 @@ def load_flags() -> list[dict]:
         return []
     with REVIEW.open(encoding="utf-8") as fh:
         return [{"table": r["table"], "id": r["id"], "reason": r["reason"], "note": r["note"],
-                 "by": r.get("by", ""), "date": r.get("date", "")} for r in csv.DictReader(fh)]
+                 "by": r.get("by", ""), "date": r.get("date", "")}
+                for r in csv.DictReader(fh) if r.get("status", "open") != "fixed"]
 
 
 TEMPLATE = r"""<title>Aarau Adressdaten Kontrolle</title>

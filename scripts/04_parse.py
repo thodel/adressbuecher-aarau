@@ -55,21 +55,39 @@ def prenormalise(text: str) -> str:
     return t
 
 
-def page_to_entries(text: str) -> list[tuple[int, int, str]]:
-    """Zeilen → (line_from, line_to, Eintragstext); Fortsetzungen angehängt."""
-    entries: list[tuple[int, int, str]] = []
+ENTRY_START = re.compile(r"^(\*|—|--|-\s|\[handschriftlich)|^\*?\s*[A-ZÄÖÜ][\w'.-]+(\s+(geb\.|von|de|&|u\.|und)\s+[\w'.-]+)?\s*,")
+COMPLETE_END = re.compile(r"\d+\s?[a-z]?\s*\.?\s*(\[tel\])?\s*$")
+
+
+def page_to_entries(text: str) -> list[tuple[int, int, str, str]]:
+    """Zeilen → (line_from, line_to, Text, Art); Art ∈ «entry», «other».
+
+    Der Einzug allein ist kein verlässliches Zeichen für eine Fortsetzung: die
+    Seitenleser rücken auch Folgeeinträge («— …») und ganze Blöcke ein. Darum gilt:
+    eine Zeile ist Fortsetzung, wenn der vorangehende Eintrag noch keine Adresse hat
+    (nicht auf eine Nummer endet) oder wenn sie nicht wie ein Eintragsanfang aussieht
+    (Stern, Gedankenstrich oder «Name,»). Zeilen, die weder Eintrag noch Fortsetzung
+    sind (Titel, Kopfnoten, Rubriken), kommen als «other» zurück; das Berufsregister
+    nimmt sie als Rubrik, das Einwohnerverzeichnis lässt sie weg."""
+    entries: list[tuple[int, int, str, str]] = []
     for i, raw in enumerate(text.split("\n"), start=1):
-        if not raw.strip() or raw.strip() == "[spalte 2]":
+        s = raw.strip()
+        if not s or s == "[spalte 2]" or RUNNING_HEAD.match(s):
             continue
-        line = raw.rstrip()
-        if RUNNING_HEAD.match(line.strip()):
-            continue
-        if (line.startswith("  ") or line.startswith("\t")) and entries:
-            lf, lt, t = entries[-1]
-            t = (t[:-1] + t[-1].rstrip("-") + line.strip()) if t.endswith("-") else (t + " " + line.strip())
-            entries[-1] = (lf, i, t)
+        prev_entry = entries[-1] if entries and entries[-1][3] == "entry" else None
+        starts = bool(ENTRY_START.match(s))
+        complete = bool(prev_entry and COMPLETE_END.search(prev_entry[2]))
+        if prev_entry and not complete and (not starts or s[:1].islower() or s.startswith("(")):
+            lf, lt, t, k = prev_entry
+            t = (t[:-1] + s) if (t.endswith("-") and s[:1].islower()) else (t + " " + s)
+            entries[-1] = (lf, i, t, k)
+        elif prev_entry and complete and not starts and (raw.startswith("  ") or raw.startswith("\t")) and (s[:1].islower() or s.startswith("(")):
+            lf, lt, t, k = prev_entry
+            entries[-1] = (lf, i, t + " " + s, k)
+        elif starts:
+            entries.append((i, i, s, "entry"))
         else:
-            entries.append((i, i, line.strip()))
+            entries.append((i, i, s, "other"))
     return entries
 
 
@@ -206,7 +224,9 @@ def forename_lexicon(texts: list[str]) -> set[str]:
     """Vornamen aus Einträgen ohne Gedankenstrich (dort ist der Vorname-Slot zuverlässig)."""
     lex: dict[str, int] = {}
     for text in texts:
-        for _, _, t in page_to_entries(prenormalise(text)):
+        for _, _, t, kind in page_to_entries(prenormalise(text)):
+            if kind != "entry":
+                continue
             r = parse_entry(t, "")
             if not r["dash_prefix"] and r["forename"] and r["entry_type"] == "person":
                 for tok in r["forename"].split():
@@ -225,14 +245,16 @@ def parse_page(text: str, volume: str, page: int, section: str = "einwohner",
     Ziffer (z. B. «Hafnereien.») die Rubrik, die jeder folgende Eintrag in `heading`
     trägt; Querverweise «(Siehe …)» werden als Notiz an die Rubrik gehängt."""
     rows, prev, prev_rec = [], prev_surname, None
-    for n, (lf, lt, t) in enumerate(page_to_entries(prenormalise(text)), start=1):
+    for lf, lt, t, kind in page_to_entries(prenormalise(text)):
         if section == "berufe":
             if CROSSREF_RE.match(t):
                 continue
-            if HEADING_RE.match(t) and "," not in t:
+            if kind == "other" or (HEADING_RE.match(t) and "," not in t):
                 heading = t.rstrip(".:").strip()
                 prev = ""
                 continue
+        elif kind == "other":
+            continue                      # Titel, Kopfnoten («Bürger sind Diejenigen …»)
         rec = parse_entry(t, prev, prev_rec, forenames)
         rec["heading"] = heading
         prev = rec["surname"] or prev
@@ -241,7 +263,7 @@ def parse_page(text: str, volume: str, page: int, section: str = "einwohner",
         rec = {k: v for k, v in rec.items() if k != "_addresses"}
         for seq, (role, street, no) in enumerate(addrs, start=1):
             row = dict(rec)
-            row.update({"entry_id": f"{volume}-{section}-{page:03d}-{n:03d}", "volume": volume,
+            row.update({"entry_id": f"{volume}-{section}-{page:03d}-L{lf:03d}", "volume": volume,
                         "page": str(page), "section": section, "line_from": lf, "line_to": lt,
                         "address_seq": seq, "address_role": role, "street_raw": street, "building_no": no})
             rows.append(row)

@@ -14,13 +14,16 @@ from datetime import date
 from pathlib import Path
 
 REVIEW = Path("data/review/flags.csv")
-FIELDS = ["table", "id", "reason", "note", "by", "date"]
+FIELDS = ["table", "id", "reason", "note", "by", "date", "status"]
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("export", type=Path)
     ap.add_argument("--by", default="")
+    ap.add_argument("--status", default="open", choices=["open", "fixed"],
+                    help="«fixed»: die Flags sind erledigt (z. B. nach einem Parser-Fix); die Seite zeigt sie nicht mehr")
+    ap.add_argument("--note", default="", help="Notiz, die an jeden Flag dieses Exports angehängt wird")
     args = ap.parse_args()
 
     existing: dict[tuple[str, str], dict] = {}
@@ -39,6 +42,9 @@ def main() -> None:
             row = {k: r.get(k, "") for k in FIELDS}
             row["by"] = row["by"] or args.by
             row["date"] = row["date"] or date.today().isoformat()
+            row["status"] = args.status
+            if args.note:
+                row["note"] = (row["note"] + " | " if row["note"] else "") + args.note
             if key in existing:
                 updated += 1
             else:
