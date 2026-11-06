@@ -7,3 +7,11 @@ venv:
 
 pages:  ## Seitenbilder extrahieren und 00_volumes.csv / 01_pages.csv anlegen
 	$(PY) scripts/01_render_pages.py --pdf-dir "$(PDF_DIR)" --out data/pages --csv data/csv
+
+RUN ?= aarau-probe-v1
+.PHONY: atr-fetch atr-lines
+atr-fetch:  ## Ergebnisse eines ATR-Laufs von tei holen (RUN=...)
+	$(PY) scripts/02_atr_batch.py fetch --run $(RUN)
+
+atr-lines:  ## 02_lines.csv aus den geholten Läufen bauen (RUN=...)
+	$(PY) scripts/02_atr_batch.py lines --run $(RUN)

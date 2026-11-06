@@ -30,18 +30,25 @@ Geplante Ergänzung von Hand: `title`, `edition`, `editor`, `publisher`, `place`
 | `columns` | Textspalten der Einträge (1 oder 2) |
 | `note` | Zwischentitel, Besonderheiten, woran eine Abschnittsgrenze erkannt wurde |
 
-## 02_lines.csv — eine erkannte Zeile je Zeile (Stufe 2, ATR)
+## 02_lines.csv — eine erkannte Zeile je Leser je Zeile (Stufe 2, ATR, Langformat)
+
+Jeder Leser segmentiert anders, darum liegt je Leser eine eigene Zeilenfolge vor; die
+Wahl der Lesung und die Zusammenführung zu Einträgen passiert in Stufe 3.
 
 | Spalte | Inhalt |
 |---|---|
-| `volume`, `page`, `line` | Seitenschlüssel und Zeilennummer in Leserichtung (Spalte für Spalte) |
-| `column` | Spalte, in der die Zeile steht |
-| `x0`, `y0`, `x1`, `y1` | Begrenzung in Bildpixeln (aus dem kraken-Pfad; leer bei VLM-Lesung ohne Geometrie) |
-| `indent` | `1`, wenn die Zeile eingerückt ist (Fortsetzungszeile) |
-| `text_<reader>` | eine Spalte je Leser, z. B. `text_kraken_german_print`, `text_qwen3vl_german_xix_v2` |
-| `text` | die gewählte Lesung |
-| `chosen_reader` | welcher Leser gewählt wurde und warum (`single`, `agree`, `vote`, `review`) |
-| `run_id` | Name des ATR-Laufs (Verzeichnis unter `data/atr/`) |
+| `volume`, `page`, `key` | Seitenschlüssel; `key` = `<volume>_p<nnn>` wie im ATR-Lauf |
+| `run_id`, `reader`, `engine` | ATR-Lauf (Verzeichnis unter `data/atr/`), Modell-Id, Engine (`kraken`, `vllm`, …) |
+| `line` | Zeilennummer des Lesers (kraken: `order`; Seitenleser: Zeilenumbruch im Text) |
+| `x0`, `y0`, `x1`, `y1` | Begrenzung in Bildpixeln; leer bei Seitenlesern ohne Geometrie |
+| `text` | Zeilentext dieses Lesers |
+| `line_confidence`, `page_confidence` | Konfidenz des Lesers, wo vorhanden |
+| `truncated` | `1`, wenn der Leser am Token-Deckel abgebrochen hat |
+| `quality_verdict` | Urteil von `page_quality` (`ok`, `short`, `empty`, `repetitive`, `deliberation`) |
+| `timing_ms` | Dauer des Aufrufs |
+
+Geplant für Stufe 3: `02b_lines_chosen.csv` mit der gewählten Lesung je Zeile
+(`chosen_reader`, `method` ∈ `single`, `agree`, `vote`, `review`) und `column`/`indent`.
 
 ## 03_entries_raw.csv — ein Eintrag je Zeile (Stufe 3)
 
