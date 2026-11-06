@@ -503,10 +503,9 @@ adressbuecher-aarau/
    Gemini-Liste (201 Aarauer Einträge) zu 16 % auf die Nummer; Charge A nur zu 9 %
    (OCR-Text schlecht segmentiert); Charge B 1921–1935 zu 21 % über Name + Strasse oder
    Name + Vorname, nie über die Nummer — Aarau hat bis 1921 auf Strassennummern
-   umgestellt, selbst ein Befund. **Offen: Nutzungsbedingungen der PTT-Rohdaten** —
-   `data/ext/` und die abgeleiteten `09_ptt_*.csv` sind bis zur Klärung vom öffentlichen
-   Repo ausgeschlossen (`.gitignore`); der Reiter «Telefon» ist daher auf GitHub Pages
-   leer und nur im lokalen Bau gefüllt. Nächste Schritte: (a) die PTT-Seiten 1889–1910
+   umgestellt, selbst ein Befund. Die PTT-Daten sind laut Projektleitung
+   (06.11.2026) frei nutzbar; `data/ext/ptt/` und die abgeleiteten `09_ptt_*.csv` liegen im
+   Repo, der Reiter «Telefon» ist auf GitHub Pages gefüllt. Nächste Schritte: (a) die PTT-Seiten 1889–1910
    über die MFK-IIIF-Manifeste mit dem eigenen ATR-Prompt neu lesen (657 Seiten, ~2 h
    Gemini) statt des OCR-Texts; (b) nach dem Antiqua-Lauf 1896/1899 als zeitlich nähere
    Partner für Charge B; (c) aus den über Name + Strasse sicheren Paaren eine Konkordanz
