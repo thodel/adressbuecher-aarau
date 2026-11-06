@@ -108,7 +108,18 @@ def parse_building_page(text: str, volume: str, page: int, street: str = "", pre
             cur["owner_entry"] = json.dumps({k: e[k] for k in ("surname", "alliance_name", "forename", "occupation_raw", "origin_raw", "civil_status") if e.get(k)}, ensure_ascii=False)
         elif cur is not None and (line.startswith("  ") or s.startswith("—")):
             starts_entry = bool(re.match(r"^(—|\*?\s*[A-ZÄÖÜ][\w'.-]+(\s+(geb\.|&|u\.|und)\s+[\w'.-]+)?\s*,|[A-ZÄÖÜ][\w-]+\s+(Gebr\.|&))", s))
-            if residents and residents[-1]["building_id"] == cur["building_id"] and (line.startswith("    ") or not starts_entry):
+            has_resident = bool(residents) and residents[-1]["building_id"] == cur["building_id"]
+            if not starts_entry and not has_resident:
+                # Fortsetzung der Eigentümerzeile («… Quincaillerie-» / «waaren- und Uhrenhandlung.»)
+                joined = (cur["owner_text"][:-1] + s) if cur["owner_text"].endswith("-") and s[:1].islower() \
+                    else (cur["owner_text"] + ("" if cur["owner_text"].endswith("-") else " ") + s)
+                cur["owner_text"], btype = split_type(joined.strip())
+                cur["building_type"] = btype or cur["building_type"]
+                e = parse_entry(cur["owner_text"], prev.get("owner_surname", "") if cur is not prev else "")
+                cur["owner_surname"] = e["surname"] or cur["owner_surname"]
+                cur["owner_entry"] = json.dumps({k: e[k] for k in ("surname", "alliance_name", "forename", "occupation_raw", "origin_raw", "civil_status") if e.get(k)}, ensure_ascii=False)
+                continue
+            if has_resident and (line.startswith("    ") or not starts_entry):
                 # tiefer eingerückt: Fortsetzung der letzten Bewohnerzeile
                 r = residents[-1]
                 r["text"] = (r["text"][:-1] + s) if r["text"].endswith("-") and s[:1].islower() else (r["text"] + " " + s)
