@@ -15,7 +15,9 @@ from pathlib import Path
 
 GEO_DIR = Path("data/geo")
 
-TEMPLATE = r"""<title>Aarau Einzugsgebiet und Wohnorte</title>
+TEMPLATE = r"""<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aarau Einzugsgebiet und Wohnorte</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap">
 <style>
@@ -108,7 +110,9 @@ function render() {
   $('toptitle').textContent = mode === 'origins' ? 'Grösste Heimatorte' : 'Strassen mit den meisten Einträgen';
   $('top').innerHTML = feats.slice(0, 12).map(f => `<div class="stat"><span>${f.properties.name}${f.properties.canton && f.properties.canton !== 'Aargau' ? ' <small>(' + f.properties.canton + ')</small>' : ''}</span><span>${fmt(count(f))}</span></div>`).join('');
   if (feats.length) {
-    const pts = feats.slice(0, mode === 'origins' ? 80 : feats.length).map(f => [f.geometry.coordinates[1], f.geometry.coordinates[0]]);
+    // Ausschnitt: Mitteleuropa (Ausreisser in Übersee bleiben auf der Karte, bestimmen aber den Ausschnitt nicht)
+    const near = feats.filter(f => f.geometry.coordinates[0] > 4 && f.geometry.coordinates[0] < 13 && f.geometry.coordinates[1] > 44 && f.geometry.coordinates[1] < 52);
+    const pts = (near.length ? near : feats).slice(0, mode === 'origins' ? 120 : feats.length).map(f => [f.geometry.coordinates[1], f.geometry.coordinates[0]]);
     map.fitBounds(L.latLngBounds(pts).pad(0.15), { maxZoom: mode === 'origins' ? 9 : 16 });
   } else { map.setView([47.392, 8.045], 14); }
 }

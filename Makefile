@@ -37,3 +37,13 @@ erstblick:  ## durchsuchbare HTML-Seite aus den Welle-2-CSV (OUT=...)
 
 flags-merge:  ## exportierte Flags einmischen (FILE=...)
 	$(PY) scripts/91_merge_flags.py $(FILE)
+
+.PHONY: normalise geocode geojson karte
+normalise:  ## 06_origins.csv und 06_streets.csv aus den Welle-2-CSV
+	$(PY) scripts/06_normalise.py
+geocode:    ## Nominatim-Geokodierung (1 Anfrage/s, Cache in data/geo)
+	$(PY) scripts/10_geo.py geocode
+geojson:    ## GeoJSON für die Karte aus den CSV
+	$(PY) scripts/10_geo.py geojson
+karte:      ## Kartenseite bauen (OUT=...)
+	$(PY) scripts/92_karte.py --out $(or $(OUT),web/karte.html)

@@ -74,6 +74,10 @@ STREET_RULES = [
     (r"^kroneng\.$", "Kronengasse"), (r"^kirchg\.$", "Kirchgasse"), (r"^kirchpl(z|\.)\.?$", "Kirchplatz"), (r"^schach\.$", "Schachen"),
     (r"^scheibensch\.$", "Scheibenschachen"), (r"^adelb\.$", "Adelbändli"), (r"^hald\.$", "Halden"), (r"^igelw\.$", "Igelweid"),
     (r"^casinostr", "Kasinostr"), (r"^conradstraße$", "Konradstraße"), (r"^gishübel$", "Gishügel"), (r"^zschokkestr", "Zschokkestr"),
+    (r"^gollattenmattgasse$", "Golattenmattgasse"), (r"^gönhards?(f|s)eldweg$", "Gönhardfeldweg"), (r"^ziegelr\.$", "Ziegelrain"),
+    (r"^ziegelrein$", "Ziegelrain"), (r"^laurenzenvorstadt$", "Laurenzenvorstadt"), (r"^laurenvorstadt$", "Laurenzenvorstadt"),
+    (r"^jens\.\s+der\s+aare$", "jenseits der Aare"), (r"^hinter\s+d\.\s+bahnhof$", "hinter dem Bahnhof"), (r"^gißhügel$", "Gishügel"),
+    (r"^bahnhofst\.$", "Bahnhofstraße"), (r"^oberevorstadt$", "obere Vorstadt"), (r"^vorderevorstadt$", "vordere Vorstadt"), (r"^hinterevorstadt$", "hintere Vorstadt"),
     (r"^rain$", "Rain"), (r"^rainstr(aße|\.)$", "Rainstraße"), (r"^bahnhofstr(aße|\.)$", "Bahnhofstraße"),
     (r"^schloßplatz$", "Schlossplatz"), (r"^schloßpl\.$", "Schlossplatz"), (r"^holzmarktpl\.$", "Holzmarktplatz"),
     (r"^jenseits\s+d(er|\.)\s+aare$", "jenseits der Aare"), (r"^hinter dem platz$", "hinter dem Platz"),
@@ -119,6 +123,7 @@ def norm_street(raw: str) -> tuple[str, str]:
         return s, "raw"
     # Parserreste: «von Zürich Graben» → letztes Wort, wenn davor ein Heimatort steht
     low = s.lower()
+    low = re.sub(r"=\s*", "", low)                      # «Vor= Stadt» → «vorstadt» (Trennstrich)
     for pat, rep in STREET_RULES:
         new = re.sub(pat, rep, low, flags=re.I)
         if new != low:

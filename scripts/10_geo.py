@@ -22,6 +22,7 @@ import argparse
 import csv
 import glob
 import json
+import re
 import time
 import urllib.parse
 import urllib.request
@@ -70,11 +71,46 @@ def query(cache: dict, q: str, countrycodes: str = "", viewbox: tuple | None = N
     return data or []
 
 
-def pick(results: list, want_types=("city", "town", "village", "hamlet", "municipality", "suburb", "locality", "administrative", "isolated_dwelling", "neighbourhood")) -> dict | None:
+STATE_ALIASES = {"Basel": ("Basel-Stadt", "Basel-Landschaft"), "Appenzell": ("Appenzell Ausserrhoden", "Appenzell Innerrhoden"),
+                 "Unterwalden": ("Obwalden", "Nidwalden"), "Freiburg": ("Freiburg", "Fribourg"), "Waadt": ("Waadt", "Vaud"),
+                 "Wallis": ("Wallis", "Valais"), "Genf": ("Genf", "Genève"), "Neuenburg": ("Neuenburg", "Neuchâtel"),
+                 "Tessin": ("Tessin", "Ticino"), "Graubünden": ("Graubünden", "Grischun", "Grigioni")}
+
+
+def pick(results: list, canton: str = "") -> dict | None:
+    """Nur Siedlungen und Verwaltungseinheiten (keine Läden, Strassen, Haltestellen);
+    bei bekanntem Kanton nur Treffer in diesem Kanton (address.state)."""
+    ok = []
     for r in results:
-        if r.get("type") in want_types or r.get("class") in ("place", "boundary"):
-            return r
-    return results[0] if results else None
+        if (r.get("category") or r.get("class")) not in ("place", "boundary"):
+            continue
+        if canton:
+            state = (r.get("address") or {}).get("state", "")
+            wanted = STATE_ALIASES.get(canton, (canton,))
+            if not any(w in state for w in wanted):
+                continue
+        ok.append(r)
+    return ok[0] if ok else None
+
+
+ORIGIN_SPECIAL = {"Zezwyl": "Zetzwil", "Ryken": "Riken", "Rued": "Schlossrued", "Oberendingen": "Endingen",
+                  "Unterendingen": "Endingen", "Bözberg": "Bözberg", "Hallwyl": "Seengen", "Schloßrued": "Schlossrued",
+                  "Schmidrued": "Schmiedrued", "Unterkulm": "Unterkulm", "Hirschthal": "Hirschthal", "Möriken": "Möriken-Wildegg"}
+
+
+def modern_origin(o: str) -> list[str]:
+    """Varianten in heutiger Schreibung, in Reihenfolge der Plausibilität."""
+    out = [o]
+    if o in ORIGIN_SPECIAL:
+        out.append(ORIGIN_SPECIAL[o])
+    v = re.sub(r"wyl$", "wil", o)
+    v = v.replace("ß", "ss").replace("Schloß", "Schloss")
+    if v != o:
+        out.append(v)
+    v2 = re.sub(r"y", "i", v)
+    if v2 != v and v2 not in out:
+        out.append(v2)
+    return out
 
 
 def geocode_origins(cache: dict, limit: int | None) -> None:
@@ -89,15 +125,22 @@ def geocode_origins(cache: dict, limit: int | None) -> None:
             break
         o, cn, cc = r["origin_norm"], r["canton_norm"], r["country"].lower()
         hit, conf = None, "none"
-        if cn and cc == "ch":
-            hit = pick(query(cache, f"{o}, {cn}", "ch")); conf = "canton" if hit else conf
-        if not hit and cc == "ch":
-            hit = pick(query(cache, f"{o}, Aargau", "ch")); conf = "aargau-assumed" if hit else conf
-            if not hit:
-                hit = pick(query(cache, o, "ch")); conf = "country" if hit else conf
-        if not hit and cc != "ch":
-            q = f"{o}, {cn}" if cn else o
-            hit = pick(query(cache, q, cc)); conf = "country" if hit else conf
+        for var in modern_origin(o):
+            if cn and cc == "ch":
+                hit = pick(query(cache, f"{var}, {cn}", "ch"), cn); conf = "canton" if hit else conf
+            if not hit and cc == "ch" and not cn:
+                hit = pick(query(cache, f"{var}, Aargau", "ch"), "Aargau"); conf = "aargau-assumed" if hit else conf
+                if not hit:
+                    hit = pick(query(cache, var, "ch")); conf = "country" if hit else conf
+            if not hit and cc != "ch":
+                q = f"{var}, {cn}" if cn else var
+                hit = pick(query(cache, q, cc)); conf = "country" if hit else conf
+            if not hit and len(o) > 3:
+                hit = pick(query(cache, f"{var}, {cn}" if cn else var)); conf = "world" if hit else conf
+            if hit:
+                if var != o:
+                    conf += "/modern"
+                break
         done += 1
         if hit:
             r.update({"lat": hit["lat"], "lon": hit["lon"], "osm_type": hit.get("osm_type", ""), "osm_id": str(hit.get("osm_id", "")),
@@ -111,25 +154,58 @@ def geocode_origins(cache: dict, limit: int | None) -> None:
     print("Heimatorte:", dict(c))
 
 
+MANUAL_STREETS = GEO_DIR / "manual_streets.csv"   # street_norm, query, lat, lon, note
+
+
+def modern_query(n: str) -> str:
+    """historische Schreibung → heutige OSM-Schreibung für die Anfrage"""
+    q = n.replace("straße", "strasse").replace("Straße", "Strasse")
+    q = re.sub(r"thor", "tor", q).replace("Rathhaus", "Rathaus").replace("Casino", "Kasino")
+    return q
+
+
+def load_manual_streets() -> dict[str, dict]:
+    if not MANUAL_STREETS.exists():
+        return {}
+    with MANUAL_STREETS.open(encoding="utf-8") as fh:
+        return {r["street_norm"]: r for r in csv.DictReader(fh)}
+
+
+def in_aarau(hit: dict) -> bool:
+    a = hit.get("address", {})
+    return any(a.get(k) == "Aarau" for k in ("town", "city", "municipality", "village", "suburb", "city_district"))
+
+
 def geocode_streets(cache: dict, limit: int | None) -> None:
     path = CSV_DIR / "06_streets.csv"
     with path.open(encoding="utf-8") as fh:
         rows = list(csv.DictReader(fh)); fields = list(rows[0].keys())
+    manual = load_manual_streets()
     by_norm: dict[str, dict] = {}
     done = 0
     for r in rows:
-        if r["lat"] or r["manual_lat"] or r["norm_method"] != "rule":
+        if r["norm_method"] != "rule":
             continue
         n = r["street_norm"]
+        m = manual.get(n)
+        if m and m.get("lat"):
+            r.update({"lat": m["lat"], "lon": m["lon"], "geo_confidence": "manual", "display_name": m.get("note", ""), "osm_type": "", "osm_id": ""})
+            continue
+        if r["lat"] and r["geo_confidence"] == "osm-aarau":
+            continue
         if n in by_norm:
             r.update(by_norm[n]); continue
         if limit and done >= limit:
             break
-        res = query(cache, f"{n}, Aarau", "ch", AARAU_BOX)
-        hit = next((x for x in res if x.get("class") in ("highway", "place") or x.get("type") in ("residential", "pedestrian", "living_street", "tertiary", "secondary", "primary", "unclassified", "neighbourhood", "quarter", "suburb", "square")), None) or (res[0] if res else None)
+        q = (m.get("query") if m and m.get("query") else modern_query(n))
+        res = [x for x in query(cache, f"{q}, Aarau", "ch", AARAU_BOX) if in_aarau(x)]
+        pref = ("residential", "pedestrian", "living_street", "tertiary", "secondary", "primary", "unclassified",
+                "neighbourhood", "quarter", "suburb", "square", "footway", "service", "locality", "park")
+        hit = next((x for x in res if x.get("type") in pref), None) or (res[0] if res else None)
         done += 1
         upd = {"lat": hit["lat"], "lon": hit["lon"], "osm_type": hit.get("osm_type", ""), "osm_id": str(hit.get("osm_id", "")),
-               "display_name": hit.get("display_name", "")[:120], "geo_confidence": "osm-street"} if hit else {"geo_confidence": "none"}
+               "display_name": hit.get("display_name", "")[:120], "geo_confidence": "osm-aarau"} if hit else \
+              {"lat": "", "lon": "", "osm_type": "", "osm_id": "", "display_name": "", "geo_confidence": "none"}
         r.update(upd); by_norm[n] = upd
         print(f"{done:4d} {n!r:32} → {upd.get('geo_confidence')} {upd.get('display_name', '')[:60]}")
     with path.open("w", newline="", encoding="utf-8") as fh:

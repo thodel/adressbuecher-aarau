@@ -79,7 +79,9 @@ def load_flags() -> list[dict]:
                 for r in csv.DictReader(fh) if r.get("status", "open") != "fixed"]
 
 
-TEMPLATE = r"""<title>Aarau Adressdaten Kontrolle</title>
+TEMPLATE = r"""<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aarau Adressdaten Kontrolle</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Code+Pro:wght@400;600&display=swap">
 <style>
@@ -103,6 +105,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--font-body); f
 header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 20px; }
 h1 { font-size: 1.3rem; margin: 0; font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; }
 .sub { color: var(--muted); font-size: 0.88rem; margin: 0; }
+.sub a { color: var(--accent); }
 .toolbar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
 .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
 button { font: inherit; cursor: pointer; }
@@ -142,7 +145,7 @@ td.act a { color: var(--muted); font-size: 12px; margin-left: 6px; }
 </style>
 <header>
   <h1>Adressbücher Aarau: Kontrolle der Datensätze</h1>
-  <p class="sub">Stand __DATE__ · Rohdaten aus der ATR-Lesung, regelbasiert geparst, ohne Normalisierung. Fehler hier markieren; die Flags gehen per CSV oder Issue ins Repo.</p>
+  <p class="sub">Stand __DATE__ · Rohdaten aus der ATR-Lesung, regelbasiert geparst, ohne Normalisierung. Fehler hier markieren; die Flags gehen per CSV oder Issue ins Repo. · <a href="karte.html">Karte: Einzugsgebiet und Wohnorte</a></p>
 </header>
 <div class="toolbar">
   <div class="tabs" role="tablist" id="tabs"></div>

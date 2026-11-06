@@ -502,7 +502,23 @@ adressbuecher-aarau/
    die über die beobachtbaren 15 Jahre am selben Gebäude/derselben Strasse bleiben, die
    innerhalb Aaraus umziehen, und die aus den Verzeichnissen verschwinden. Setzt die
    Personenidentität (Welle 3) und die Gebäudeidentität über die Bände voraus. Ebenso für Basel.
-3. **Einzugsgebiet und Wohnorte auf der Karte** — in Arbeit: `06_normalise.py`
-   (Heimatorte, Strassen), `10_geo.py` (Nominatim mit Cache, GeoJSON), `92_karte.py`
-   (`web/karte.html`, Leaflet auf OSM). Heimatorte je Band als Kreise, Strassen
-   als Kreise auf Strassenmitte; Gebäudegenauigkeit folgt mit der Nummernzuordnung.
+3. **Einzugsgebiet und Wohnorte auf der Karte** — umgesetzt (06.11.2026):
+   https://thodel.github.io/adressbuecher-aarau/karte.html (`make normalise geocode geojson karte`).
+   `06_normalise.py` normiert 1 238 rohe Heimatort-Schreibungen auf 807 Orte (Punkt,
+   Kantonszusatz in Klammern, «bei»-Zusätze, Kantons-/Landesabkürzungen) und 392
+   Strassen-Schreibungen auf 237 Namen (Abkürzungen, Trennstriche, Artikel).
+   `10_geo.py` geokodiert über Nominatim (1 Anfrage/s, Cache `data/geo/nominatim_cache.json`):
+   Heimatorte mit Kanton → «Ort, Kanton»; ohne Kanton zuerst im Aargau
+   (`aargau-assumed`), dann Schweiz, dann weltweit; historische Schreibungen werden
+   modernisiert (-wyl → -wil, Zezwyl → Zetzwil, Ryken → Riken, Oberendingen →
+   Endingen). Nur Siedlungen/Verwaltungseinheiten zählen, und bei bekanntem Kanton nur
+   Treffer in diesem Kanton. Strassen mit heutiger Schreibung (-strasse, -tor,
+   Rathaus-) und nur innerhalb der Gemeinde Aarau; verschwundene Quartiernamen (vor dem
+   Haldenthor, jenseits der Aare, neues Quartier, hinter dem Bahnhof, Stadthof, Kirchhof,
+   Oberthor, Binsenhof, Weinberg, Gishügel, Hammer, Gais, Telli …) stehen mit
+   **geschätzter Lage** in `data/geo/manual_streets.csv` (Konfidenz `manual`, zu prüfen
+   am historischen Plan). Deckung: **Heimatorte 91 %** der 3 009 Nennungen (613 Orte auf
+   der Karte; Rest: ausländische Orte mit historischen Regionsnamen, Lesefehler,
+   Kürzel), **Strassen 97 %** der 8 275 Adresszeilen (71 Strassen; Rest sind
+   Parserreste und Ditto-Zeichen). Bekannte Fehlzuordnung: «Karlsruh» → Pommern statt
+   Karlsruhe. Gebäudegenauigkeit folgt erst mit der Nummernzuordnung (Abschnitt 6, Punkt 6).
