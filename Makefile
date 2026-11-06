@@ -33,4 +33,7 @@ fullrun-parse:  ## Welle 2: Einwohner-Einträge aus Hauptleser je Satzart → 04
 	$(PY) scripts/05_buildings.py --run aarau-antiqua-qwen38-v1 --reader qwen3.8-27b --out-buildings data/csv/05_buildings_antiqua.csv --out-residents data/csv/05_residents_antiqua.csv
 
 erstblick:  ## durchsuchbare HTML-Seite aus den Welle-2-CSV (OUT=...)
-	$(PY) scripts/90_erstblick.py --out $(or $(OUT),web/erstblick.html)
+	$(PY) scripts/90_erstblick.py --out $(or $(OUT),web/index.html)
+
+flags-merge:  ## exportierte Flags einmischen (FILE=...)
+	$(PY) scripts/91_merge_flags.py $(FILE)

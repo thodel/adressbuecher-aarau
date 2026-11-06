@@ -185,7 +185,21 @@ Rest sind Agenturen mit Fliesstext, Rubriken mit Firmennamen, Einträge ohne Num
 «ausserhalb des Stadtbezirks»), 4 192 Gebäude (4 ausserhalb der Seitenbereiche des
 Inhaltsverzeichnisses), 2 575 Bewohner, 164 Konkordanzbereiche, 534 Berufsklassen.
 Durchsuchbar: [Aarau Adressdaten Erstblick](https://claude.ai/artifact/XtgZetSeQZKgXXhEziKnjo)
-(`make erstblick`). Antiqua läuft: qwen3.8-27b ~50 s je Seite (ca. 6 h), qwen3-vl-30b
+(`make erstblick`).
+
+**Kontrollseite und Flagging (GitHub Pages).** `scripts/90_erstblick.py` baut aus den
+Welle-2-CSV die Seite `web/index.html` (Reiter Einwohner/Gebäude/Bewohner/Berufe,
+Filter nach Band, Konfidenz und Volltext, je Zeile die ATR-Rohzeile). Je Zeile lässt
+sich ein **Flag** setzen (Grund aus fester Liste + Notiz); Flags liegen im Browser,
+werden als CSV exportiert und mit `scripts/91_merge_flags.py` nach
+`data/review/flags.csv` gemischt, worauf die Seite sie beim nächsten Bau als
+«gemeldet» (✓) zeigt. Alternativ öffnet ein Link je Zeile ein vorausgefülltes
+GitHub-Issue (Label `review`). Der Workflow `.github/workflows/pages.yml` baut und
+veröffentlicht die Seite bei jedem Push auf `main`, der `data/csv/`, `data/review/`
+oder den Generator berührt — also nach jedem fertigen Band automatisch. Seitenbilder
+sind nicht auf der Seite (Nachnutzung der Scans ungeklärt, Abschnitt 6); für ATR-Fehler
+braucht es daher das PDF daneben. GitHub Pages setzt bei einem Gratis-Konto ein
+öffentliches Repo voraus. Antiqua läuft: qwen3.8-27b ~50 s je Seite (ca. 6 h), qwen3-vl-30b
 ~6 s je Seite; danach `make fullrun-fetch fullrun-parse erstblick`.
 
 **Welle 2, erster Stand:** `scripts/04_parse.py` (regelbasiert) löst auf den zehn
