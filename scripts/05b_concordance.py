@@ -92,7 +92,7 @@ def flag_ranges(ranges: list[dict]) -> None:
             r["note"] = f"unplausibel lang ({b - a + 1})"
     by_vol: dict[str, list[dict]] = {}
     for r in ranges:
-        if r["street"]:
+        if r["street"] and not r["note"]:          # schon als Lesefehler markierte Bereiche nicht gegenprüfen
             by_vol.setdefault(r["volume"], []).append(r)
     for rows in by_vol.values():
         for i, r in enumerate(rows):
