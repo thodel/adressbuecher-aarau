@@ -54,3 +54,11 @@ ptt-ingest:  ## Aarauer Telefonbuch-Daten aus dem PTT-Bestand (PTT_TSV_DIR) nach
 	$(PY) scripts/08_ptt_ingest.py
 ptt-link:    ## Telefon-Einträge mit Adressbuch-Einträgen verknüpfen → 09_ptt_entries.csv
 	$(PY) scripts/09b_link_ptt.py
+
+.PHONY: authorities
+authorities:  ## Normdaten: Wikidata-Kandidaten, HLS-Köpfe, Abgleich, Metagrid → 10_authority_links.csv
+	$(PY) scripts/11_authorities.py fetch
+	HLS_PAUSE=6 $(PY) scripts/11_authorities.py link
+	HLS_PAUSE=6 $(PY) scripts/11_authorities.py hlscheck
+	$(PY) scripts/11_authorities.py link
+	$(PY) scripts/11_authorities.py metagrid

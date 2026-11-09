@@ -368,6 +368,43 @@ allein. Skalierung: die Kandidatensuche ist je Person ein bis zwei MCP-Aufrufe; 
 ~5 000 Personen über fünf Bände eine Nacht, Ergebnisse gecacht nach `chunk_id`.
 Dasselbe Verfahren gilt später unverändert für die *Argovia* und weitere Läufe des MCP.
 
+### 4c. Normdaten: Wikidata, HLS, Metagrid (09.11.2026)
+
+`scripts/11_authorities.py` (`make authorities`): Kandidaten aus Wikidata über den
+öffentlichen SPARQL-Endpunkt (der Wikidata-MCP war nicht verbunden): alle Personen mit
+HLS-Nummer und alle mit Aarau-Bezug (Geburts-, Sterbe-, Wohn-, Wirkungs- oder Heimatort),
+die 1884–1899 lebten (6 624 Personen, Cache `data/ext/wikidata/`). Abgleich je Eintrag im
+Einwohner- und Gebäudeverzeichnis über Familienname, Vorname (Abkürzungen aufgelöst,
+Initialen nur «möglich»), Lebensdaten (im Bandjahr mindestens 21, Ämter 25) und Belege
+(Aarau-Bezug, Heimatort, Allianzname, Beruf). Ausschlüsse: zweiter Vorname widerspricht,
+Allianzname widerspricht, Heimatort widerspricht allen Normdaten-Orten, Stand widerspricht
+(Taglöhner/Knecht/Schuster ↔ Professor/Politiker/Industrieller), späterer Akademiker im
+Bandjahr unter 26, Eintrag einer Frau ↔ Mann. HLS-Kopfangaben (Lebensdaten mit Orten,
+Heimatort, Aarau erwähnt) werden von hls-dhs-dss.ch gelesen (nur diese Angaben, Cache
+`data/ext/hls/`; die Website drosselt nach ~60 Abrufen, daher 6 s Pause).
+
+**Artikelprüfung.** Alle HLS-Treffer wurden über den HLS-MCP am Artikel geprüft
+(`data/csv/32_hls_check.csv`, Urteil je Person, abweichend je Eintrag): im ersten Durchgang
+nur **45 von 78 bestätigt**, 8 zweifelhaft, 25 falsch (Präzision 58 %). Fehlermuster: «HLS
+nennt Aarau» meist nur wegen der Kantonsschule, Heimatort allein bei häufigen Namen,
+Akademiker gegen Taglöhner, junge HLS-Personen (der Eintrag meint den Vater), zu lockere
+Vornamen, Wegzug während der Bandjahre. Die Regeln oben sind daraus abgeleitet; das Urteil
+geht direkt ein: «falsch» schliesst aus, «zweifelhaft» → möglich, ungeprüfte HLS-Treffer →
+möglich, «bestätigt» hebt die weichen Ausschlüsse auf. Gemessen an den 78 geprüften Personen
+behalten die Regeln allein 32 bestätigte und 7 falsche (Präzision 76 %, Trefferquote 71 %) —
+gemessen an denselben Fällen, aus denen sie abgeleitet sind, also optimistisch.
+
+**Ergebnis.** 255 Einträge zu **63 Personen «wahrscheinlich»**: 44 mit HLS-Artikel (alle am
+Artikel bestätigt) und 19 nur über den Aarau-Bezug in Wikidata (Bigler, Anna Blattner,
+Fröhlich, Hangartner, Holzach, Kutschera, Lindt, Sauerländer, Schumann, Burgmeier,
+Wolfinger, Zschokke u. a.; nicht am Text geprüft — Zweifel: Hermann Hunziker «Landschaftsmaler»
+gegen «Kaufmann», ein zweiter Jakob Heuberger als Oberrichter 1892). 431 weitere Einträge «möglich».
+Metagrid-Konkordanz (`api.metagrid.ch/widget/hls-dhs-dss/person/<id>.json`) für alle HLS-
+Treffer: Dodis, BSG, GND, VIAF, Briefeditionen u. a. Auf der Kontrollseite: Spalte «Normdaten»
+mit Links (Wikidata, HLS, Metagrid-Ziele) bei Einwohnern und Bewohnern, Reiter «Normdaten»
+mit allen Kandidaten zum Prüfen und Flaggen. Der HBLS-MCP war wegen eines Datenbankfehlers
+nicht nutzbar.
+
 ### 4b. Geovisualisierung auf OpenStreetMap
 
 Die Karte ist Teil des Informationssystems (Welle 5) und setzt auf OpenStreetMap:

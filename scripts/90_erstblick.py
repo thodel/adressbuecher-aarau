@@ -31,26 +31,31 @@ TABS = [
     ("einwohner", "Einwohner", ["04_entries_fraktur.csv", "04_entries_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "citizen_flag", "surname", "alliance_name", "maiden_name", "forename",
       "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "origin_norm", "street_raw", "street_norm",
-      "building_no", "origin_place", "street_place", "address_role", "phone_flag", "entry_type", "parse_confidence", "residual", "text"]),
+      "building_no", "origin_place", "street_place", "address_role", "phone_flag", "entry_type", "parse_confidence", "authority", "residual", "text"]),
     ("gebaeude", "Gebäude", ["05_buildings_fraktur.csv", "05_buildings_antiqua.csv"], "building_id",
      ["building_id", "volume", "page", "building_nos", "marker", "street_raw", "owner_text", "building_type",
       "owner_same_as_prev", "phone_flag", "parse_confidence", "note"]),
     ("bewohner", "Bewohner", ["05_residents_fraktur.csv", "05_residents_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "building_no", "surname", "alliance_name", "maiden_name", "forename",
       "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "origin_norm", "street_norm",
-      "parse_confidence", "residual", "text", "origin_place", "street_place"]),
+      "parse_confidence", "authority", "residual", "text", "origin_place", "street_place"]),
     ("berufe", "Berufe", ["04_berufe_fraktur.csv", "04_berufe_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "heading", "surname", "alliance_name", "forename", "occupation_raw",
       "street_raw", "building_no", "origin_raw", "entry_type", "parse_confidence", "residual", "text"]),
     ("telefon", "Telefon", ["09_ptt_entries.csv"], "ptt_id",
      ["ptt_id", "ptt_source", "year", "name_raw", "rest", "street_raw", "no", "phone", "numbering",
       "best_tier", "best_volume", "best_ab_name", "best_ab_address", "best_entry_id", "volumes_matched"]),
+    ("normdaten", "Normdaten", ["10_authority_links.csv"], "entry_id",
+     ["entry_id", "volume", "tier", "surname", "forename", "occupation", "origin", "label", "birth", "death",
+      "evidence", "hls_origins", "hls_head", "wd_description", "qid", "hls_id", "n_candidates"]),
 ]
 
 LABELS = {"entry_id": "ID", "building_id": "ID", "volume": "Band", "page": "PDF-S.", "citizen_flag": "Bürger *",
           "surname": "Name", "alliance_name": "Allianz", "maiden_name": "geb.", "forename": "Vorname",
           "civil_status": "Stand", "relation": "Bezug", "occupation_raw": "Beruf", "origin_raw": "Heimatort",
-          "origin_canton": "Kt.", "origin_norm": "Heimatort (norm.)", "street_norm": "Strasse (norm.)", "origin_place": "Ort-Kennung", "street_place": "Strassen-Kennung", "street_raw": "Strasse", "building_no": "Nr.", "address_role": "Adressrolle",
+          "origin_canton": "Kt.", "origin_norm": "Heimatort (norm.)", "street_norm": "Strasse (norm.)", "origin_place": "Ort-Kennung", "street_place": "Strassen-Kennung", "authority": "Normdaten", "tier": "Stufe",
+          "occupation": "Beruf", "origin": "Heimatort", "label": "Normdaten-Person", "birth": "geb.", "death": "gest.", "evidence": "Belege",
+          "hls_origins": "HLS-Heimatort", "hls_head": "HLS-Kopf", "wd_description": "Wikidata-Beschreibung", "qid": "Wikidata", "hls_id": "HLS", "n_candidates": "Kandidaten", "street_raw": "Strasse", "building_no": "Nr.", "address_role": "Adressrolle",
           "phone_flag": "Tel.", "entry_type": "Typ", "parse_confidence": "Konfidenz", "residual": "Rest/Notiz",
           "text": "ATR-Zeile", "building_nos": "Nr.", "marker": "Marke", "owner_text": "Eigentümer",
           "building_type": "Gebäudeart", "owner_same_as_prev": "Ditto", "note": "Notiz", "heading": "Rubrik", "ptt_id": "ID", "ptt_source": "Quelle",
@@ -93,6 +98,21 @@ def norm_tables() -> tuple[dict, dict]:
 ORIGINS, STREETS = norm_tables()
 
 
+def authority_table() -> dict[str, str]:
+    """entry_id → «QID|HLS|Label|Lebensdaten|Metagrid-JSON» für Treffer «wahrscheinlich»."""
+    out = {}
+    p = CSV_DIR / "10_authority_links.csv"
+    if p.exists():
+        with p.open(encoding="utf-8") as fh:
+            for r in csv.DictReader(fh):
+                if r["tier"] == "wahrscheinlich":
+                    out[r["entry_id"]] = "|".join([r["qid"], r["hls_id"], r["label"], f"{r['birth']}–{r['death']}", r.get("metagrid", "")])
+    return out
+
+
+AUTH = authority_table()
+
+
 def load(files: list[str], cols: list[str]) -> list[list[str]]:
     rows = []
     for f in files:
@@ -104,6 +124,7 @@ def load(files: list[str], cols: list[str]) -> list[list[str]]:
                 on, ok = ORIGINS.get((r.get("origin_raw", ""), r.get("origin_canton", "")), ("", "")) if r.get("origin_raw") else ("", "")
                 sn, sk = STREETS.get(r.get("street_raw", ""), ("", "")) if r.get("street_raw") else ("", "")
                 r["origin_norm"], r["origin_place"], r["street_norm"], r["street_place"] = on, ok, sn, sk
+                r["authority"] = AUTH.get(r.get("entry_id", ""), "")
                 row = [r.get(c, "") for c in cols]
                 if cols[0] == "entry_id" and r.get("address_seq") and r["address_seq"] not in ("", "1"):
                     row[0] = f"{row[0]}#{r['address_seq']}"
@@ -146,6 +167,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--font-body); f
   padding-block: 16px; display: flex; flex-direction: column; gap: 10px; box-sizing: border-box; margin: 0; }
 header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 20px; }
 .nav { font-size: 0.9rem; color: var(--muted); }
+td a { color: var(--accent); }
 .nav a { color: var(--accent); font-weight: 600; text-decoration: none; }
 .nav a:hover, .nav a:focus-visible { text-decoration: underline; }
 h1 { font-size: 1.3rem; margin: 0; font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; }
@@ -244,7 +266,21 @@ function issueUrl(k, r) {
   const body = `Tabelle: ${d.label}\nID: ${id}\nBand ${r[1]}, PDF-Seite ${r[2]}\n\nATR-Zeile:\n${r[d.cols.indexOf('text')] ?? r[d.cols.indexOf('owner_text')] ?? ''}\n\nProblem:\n`;
   return `${REPO}/issues/new?title=${encodeURIComponent('Flag ' + id)}&labels=${encodeURIComponent('review')}&body=${encodeURIComponent(body)}`;
 }
+function authLinks(v) {
+  if (!v) return '';
+  const parts = v.split('|'); const [qid, hls, label, life] = parts; const mg = parts.slice(4).join('|');
+  let html = `<a href="https://www.wikidata.org/wiki/${esc(qid)}" target="_blank" rel="noopener" title="${esc(label)} ${esc(life)}">${esc(label || qid)}</a> <small>${esc(life)}</small>`;
+  if (hls) html += ` · <a href="https://hls-dhs-dss.ch/de/articles/${esc(hls)}/" target="_blank" rel="noopener">HLS</a>`;
+  let links = {}; try { links = mg ? JSON.parse(mg) : {}; } catch (e) { links = {}; }
+  const extra = Object.entries(links).filter(([k]) => !/^(HLS|Wikidata|DHS|DSS)$/i.test(k)).slice(0, 6);
+  if (extra.length) html += ' · <small>Metagrid: ' + extra.map(([k, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(k)}</a>`).join(', ') + '</small>';
+  return html;
+}
 function cell(k, col, v, r) {
+  if (col === 'authority') return `<td class="wide">${authLinks(v)}</td>`;
+  if (col === 'qid' && v) return `<td><a href="https://www.wikidata.org/wiki/${esc(v)}" target="_blank" rel="noopener">${esc(v)}</a></td>`;
+  if (col === 'hls_id' && v) return `<td><a href="https://hls-dhs-dss.ch/de/articles/${esc(v)}/" target="_blank" rel="noopener">${esc(v)}</a></td>`;
+  if (col === 'tier') return `<td><span class="pill ${v === 'wahrscheinlich' ? 'high' : 'medium'}">${esc(v)}</span></td>`;
   if (col === 'parse_confidence') return `<td><span class="pill ${esc(v)}">${esc(v)}</span></td>`;
   if (col === 'citizen_flag' || col === 'phone_flag' || col === 'owner_same_as_prev') return `<td class="num">${v === '1' ? '<span class="star">' + (col === 'citizen_flag' ? '*' : col === 'phone_flag' ? '☏' : '„') + '</span>' : ''}</td>`;
   if (col === 'marker') return `<td class="num star">${esc(v)}</td>`;
