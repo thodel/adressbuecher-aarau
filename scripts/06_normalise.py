@@ -92,6 +92,9 @@ ORIGIN_VARIANTS = {
     "Bötzen": "Bözen",        # 1896/1899; Nominatim fand Bötzen in Sachsen
     "Ellingen": "Elfingen",   # 1899, Lesefehler f→l
     "Refingen": "Rekingen",   # 1888/1892, Lesefehler k→f
+    "Rokingen": "Rekingen",   # Stigeler, Zeughausdirektor: 1884 «Rokingen», 1888 «Reningen», 1892 «Rellingen»
+    "Reningen": "Rekingen",
+    "Rellingen": "Rekingen",
     "Zuggen": "Zuzgen",       # 1896, Lesefehler z→g
 }
 
