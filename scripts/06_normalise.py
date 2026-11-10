@@ -87,6 +87,7 @@ STREET_RULES = [
 # Schreibvarianten desselben Orts (Lesung oder Druck), auf die im Band häufigere Form gebracht
 ORIGIN_VARIANTS = {
     "Üken": "Ueken",          # 1899 «Üken», sonst «Ueken»; heute Herznach-Ueken AG (Nominatim fand Uken in Japan)
+    "Staulen": "Staufen",     # Lesefehler f→l; Staufen AG (Nominatim fand Staulen in Norwegen)
 }
 
 
