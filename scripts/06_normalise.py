@@ -88,6 +88,11 @@ STREET_RULES = [
 ORIGIN_VARIANTS = {
     "Üken": "Ueken",          # 1899 «Üken», sonst «Ueken»; heute Herznach-Ueken AG (Nominatim fand Uken in Japan)
     "Staulen": "Staufen",     # Lesefehler f→l; Staufen AG (Nominatim fand Staulen in Norwegen)
+    "Küttingen": "Küttigen",  # 1896/1899 Gebäudeverzeichnis; Nominatim fand Kuttingen in Lothringen
+    "Bötzen": "Bözen",        # 1896/1899; Nominatim fand Bötzen in Sachsen
+    "Ellingen": "Elfingen",   # 1899, Lesefehler f→l
+    "Refingen": "Rekingen",   # 1888/1892, Lesefehler k→f
+    "Zuggen": "Zuzgen",       # 1896, Lesefehler z→g
 }
 
 
