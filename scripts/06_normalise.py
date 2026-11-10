@@ -84,6 +84,12 @@ STREET_RULES = [
 ]
 
 
+# Schreibvarianten desselben Orts (Lesung oder Druck), auf die im Band häufigere Form gebracht
+ORIGIN_VARIANTS = {
+    "Üken": "Ueken",          # 1899 «Üken», sonst «Ueken»; heute Herznach-Ueken AG (Nominatim fand Uken in Japan)
+}
+
+
 def norm_origin(raw: str, canton_raw: str) -> tuple[str, str, str, str]:
     """→ (origin_norm, canton_norm, country, method)"""
     s = raw.strip()
@@ -98,6 +104,7 @@ def norm_origin(raw: str, canton_raw: str) -> tuple[str, str, str, str]:
         s = m.group("o").strip()
         c = c or m.group("c").strip().strip(".,")
     s = re.sub(r"\s+(b\.|bei)\s+.*$", "", s)                       # «Buch bei Weinfelden» → «Buch»
+    s = ORIGIN_VARIANTS.get(s, s)
     c2 = GRAND_DUCHY.sub("", c).strip()
     key = c2.lower().strip()
     if key in CANTONS:
@@ -163,7 +170,11 @@ def main() -> None:
         o, cn, country, method = norm_origin(raw, canton)
         q = o + (f", {cn}" if cn else "") + f", {COUNTRY_NAME.get(country, country)}"
         rec = {k: "" for k in ORIGIN_FIELDS}
-        rec.update(old.get((raw, canton), {}))
+        prev = old.get((raw, canton), {})
+        if prev and (prev.get("origin_norm"), prev.get("canton_norm")) != (o, cn):
+            # Normform geändert → alte Geokodierung gilt nicht mehr (manuelle Koordinaten bleiben)
+            prev = {k: v for k, v in prev.items() if k not in ("lat", "lon", "osm_type", "osm_id", "display_name", "geo_confidence")}
+        rec.update(prev)
         rec.update({"origin_raw": raw, "origin_canton": canton, "origin_norm": o, "canton_norm": cn, "country": country,
                     "n": str(n), "norm_method": method, "geo_query": q})
         out.append(rec)
