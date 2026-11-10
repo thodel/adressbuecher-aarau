@@ -206,7 +206,7 @@ MANUAL = re.compile(r"taglöhner|knecht|schuster|schuhmacher|dienstmann|postcomm
                     r"gehülfe|geselle|lehrling|kutscher|fuhrmann|heizer|portier|weibel|abwart|wirth\b|wirt\b|metzger", re.I)
 ELITE = re.compile(r"politiker|professor|hochschul|ingenieur|architekt|unternehmer|industrieller|jurist|richter|arzt|"
                    r"mediziner|botaniker|zoologe|chemiker|physiker|historiker|offizier|general|oberst|schriftsteller|"
-                   r"bankier|diplomat|theolog|philolog|nationalrat|ständerat|regierungsrat|fabrikant", re.I)
+                   r"bankier|diplomat|theolog|philolog|nationalrat|ständerat|regierungsrat|fabrikant|landschaftsmaler|kunstmaler|bildhauer|komponist", re.I)
 FEMALE = re.compile(r"witwe|wittwe|wwe\b|frau\b|fräulein|frl\.|tochter", re.I)
 
 
@@ -307,17 +307,27 @@ def link() -> None:
             hf = load_hls(c.get("hls", ""))
             if hf.get("aarau_mentions", 0) > 0 and c.get("aarau_rel") != "1":
                 ev.append("HLS nennt Aarau"); score += 1     # oft nur «Kantonsschule Aarau» → schwach
-            if r["_origin"] and nk(r["_origin"]) in [nk(x) for x in hf.get("origins", [])]:
+            # «Auw und Turgi», «Suhr u. Winterthur»: jeder genannte Ort zählt
+            e_places = [nk(x) for x in re.split(r"\s+(?:und|u\.)\s+", r["_origin"]) if x.strip()] if r["_origin"] else []
+            hls_places = [nk(x) for x in hf.get("origins", [])]
+            if set(e_places) & set(hls_places):
                 ev.append("HLS-Heimatort"); score += 3
-            # Gegenprobe: Heimatort im Adressbuch widerspricht allen Orten der Normdaten
-            known_places = [nk(x) for x in hf.get("origins", [])] + [nk(x) for x in c.get("origins", "").split("|") if x] + [nk(c.get("birthplace", ""))]
-            known_places = [x for x in known_places if x]
-            if r["_origin"] and known_places and nk(r["_origin"]) not in known_places:
+            # Gegenprobe: Heimatort im Adressbuch widerspricht allen Heimatorten der Normdaten. Nur
+            # Heimatorte (HLS, P1321), nicht der Geburtsort; nicht bei am Artikel bestätigten Personen,
+            # denn das Bürgerrecht wechselte (Kurz 1888 «von Schwamendingen», später Aarau).
+            known_places = [x for x in hls_places + [nk(x) for x in c.get("origins", "").split("|") if x] if x]
+            if not confirmed and e_places and known_places and not set(e_places) & set(known_places) \
+                    and nk("Aarau") not in known_places:
                 continue
+            # nur der Geburtsort ist bekannt und weicht ab: kein Ausschluss, aber kein «wahrscheinlich»
+            bp_only = nk(re.sub(r"^Bezirk\s+", "", c.get("birthplace", "")))
+            if (not confirmed and e_places and not known_places and bp_only and bp_only not in e_places
+                    and bp_only != nk("Aarau")):
+                ev.append("Geburtsort weicht ab")
             if c.get("aarau_rel") == "1":
                 ev.append("Aarau-Bezug"); score += 3
-            origin_e = nk(r["_origin"])
-            if origin_e and (origin_e in [nk(x) for x in c.get("origins", "").split("|") if x] or origin_e == nk(c.get("birthplace", ""))):
+            bp = nk(re.sub(r"^Bezirk\s+", "", c.get("birthplace", "")))
+            if e_places and (set(e_places) & {nk(x) for x in c.get("origins", "").split("|") if x} or bp in e_places):
                 ev.append("Heimatort"); score += 3
             if r.get("occupation_raw") and c.get("occupations") and occ_match(r["occupation_raw"], c["occupations"]):
                 ev.append("Beruf"); score += 1
@@ -332,6 +342,8 @@ def link() -> None:
             e = set(sc[1])
             if "HLS-Artikel bestätigt" in e:
                 return True
+            if "Geburtsort weicht ab" in e:
+                return False
             # Aarau-Bezug in Wikidata; oder Heimatort zusammen mit Beruf bzw. Allianzname
             return "Aarau-Bezug" in e or (({"Heimatort", "HLS-Heimatort"} & e) and ({"Beruf", "Allianzname"} & e))
         strong = [s for s in scored if is_strong(s)]

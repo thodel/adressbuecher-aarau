@@ -38,6 +38,11 @@ RELATION = {"Sohn", "Tochter"}
 TITLES = {"Dr.", "Dr. med.", "Dr. phil.", "Dr. jur.", "Prof.", "Regt.", "Pfr."}
 ADDR_RE = re.compile(r"^(?P<street>.+?)\s+(?P<no>\d+\s?[a-z]?\.?(?:\s?[a-z]\.?)?)\.?$")
 ROLE_RE = re.compile(r"^(Wohnung|Werkstätte|Geschäft|Magazin|Bureau|Laden|Comptoir|Atelier)\s*[:,]?\s*", re.I)
+# 1888/1892: Heimatort ohne Komma hinter dem Beruf («Taglöhner von Seon»). Gieriges «occ»,
+# damit bei «Handlung von Marmorsteinen von Sagliano» das letzte «von» gilt.
+OCC_ORIGIN_RE = re.compile(r"^(?P<occ>.+)\s+(?:von|v\.)\s+(?P<place>[A-ZÄÖÜ][^()]*?(?:\s*\([^)]+\))?)\.?$")
+# «Fabrikation von Reißzeugen», «Nachfolger von …»: «von» gehört zur Sache, nicht zur Herkunft
+OCC_NOT_ORIGIN = re.compile(r"(ation|ung|handel|Nachfolger|Niederlage|Depot|Agentur|Vertretung|Verkauf|Lager|Fabrik|Verlag|Druck|Export|Import|:)$")
 ORIGIN_RE = re.compile(r"^(?:von|v\.)\s+(?P<place>.+?)(?:\s*\((?P<canton>[^)]+)\))?$")
 RUNNING_HEAD = re.compile(r"^\d+\s*$|^(\d+\s+(—\s+)?)?[A-ZÄÖÜ][\w-]+\.?\s+—\s+[A-ZÄÖÜ][\w-]+\.?(\s+\d+)?$"
                           r"|^(\d+\s+)?(Alphabetisches Verzeichnis|Geschäfts- und Gewerbetreibende|Verzeichnis der Gebäude[^,]*)\.?(\s+\d+)?$|^—\s*\d+\s*—$")
@@ -190,6 +195,20 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
     # Vorname: erstes Segment, sofern es nicht Status/Beruf ist
     if segs and segs[0] not in STATUS and not ORIGIN_RE.match(segs[0]):
         rec["forename"] = segs.pop(0)
+    if not rec["origin_raw"] and not any(ORIGIN_RE.match(x) for x in segs):
+        for i, x in enumerate(segs):
+            m = OCC_ORIGIN_RE.match(x)
+            if (m and not OCC_NOT_ORIGIN.search(m.group("occ").split()[-1])
+                    and not re.search(r"handlung|Firma|=$", m.group("occ"))           # «… en gros von Stahel, Bräm und Meyer»
+                    and not re.match(r"^[A-Z]\.\s", m.group("place"))          # «von J. Zuberbühler» = Person
+                    and not re.search(r"\s(in|mit|für)\s", m.group("place"))):   # «von Geflechten in Stroh»
+                place = m.group("place").strip()
+                tail = 1
+                if "(" not in place and i + 1 < len(segs) and re.match(r"^\([^)]+\)\.?$", segs[i + 1]):
+                    place += " " + segs[i + 1].rstrip("."); tail = 2      # «Näherin von Mönchaltorf, (Zürich)»
+                segs[i:i + tail] = [m.group("occ").strip(), "von " + place]
+                notes.append("heimatort aus berufsfeld")
+                break
     rest = []
     for s in segs:
         m = ORIGIN_RE.match(s)
