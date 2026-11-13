@@ -31,7 +31,7 @@ TABS = [
     ("einwohner", "Einwohner", ["04_entries_fraktur.csv", "04_entries_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "citizen_flag", "surname", "alliance_name", "maiden_name", "forename",
       "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "origin_norm", "street_raw", "street_norm",
-      "building_no", "origin_place", "street_place", "address_role", "phone_flag", "entry_type", "parse_confidence", "authority", "residual", "text"]),
+      "building_no", "origin_place", "street_place", "address_role", "phone_flag", "telefon", "other_volume", "zeitreise", "entry_type", "parse_confidence", "authority", "residual", "text"]),
     ("gebaeude", "Gebäude", ["05_buildings_fraktur.csv", "05_buildings_antiqua.csv"], "building_id",
      ["building_id", "volume", "page", "building_nos", "marker", "street_raw", "owner_text", "building_type",
       "owner_same_as_prev", "phone_flag", "parse_confidence", "note"]),
@@ -41,7 +41,7 @@ TABS = [
       "parse_confidence", "authority", "residual", "text", "origin_place", "street_place"]),
     ("berufe", "Berufe", ["04_berufe_fraktur.csv", "04_berufe_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "heading", "surname", "alliance_name", "forename", "occupation_raw",
-      "street_raw", "building_no", "origin_raw", "entry_type", "parse_confidence", "residual", "text"]),
+      "street_raw", "building_no", "origin_raw", "entry_type", "parse_confidence", "residual", "other_volume", "zeitreise", "text"]),
     ("telefon", "Telefon", ["09_ptt_entries.csv"], "ptt_id",
      ["ptt_id", "ptt_source", "year", "name_raw", "rest", "street_raw", "no", "phone", "numbering",
       "best_tier", "best_volume", "best_ab_name", "best_ab_address", "best_entry_id", "volumes_matched"]),
@@ -50,7 +50,7 @@ TABS = [
       "evidence", "hls_origins", "hls_head", "wd_description", "qid", "hls_id", "n_candidates"]),
 ]
 
-LABELS = {"entry_id": "ID", "building_id": "ID", "volume": "Band", "page": "PDF-S.", "citizen_flag": "Bürger *",
+LABELS = {"telefon": "Telefonbuch", "other_volume": "Andere Bände", "zeitreise": "Karte damals", "entry_id": "ID", "building_id": "ID", "volume": "Band", "page": "PDF-S.", "citizen_flag": "Bürger *",
           "surname": "Name", "alliance_name": "Allianz", "maiden_name": "geb.", "forename": "Vorname",
           "civil_status": "Stand", "relation": "Bezug", "occupation_raw": "Beruf", "origin_raw": "Heimatort",
           "origin_canton": "Kt.", "origin_norm": "Heimatort (norm.)", "street_norm": "Strasse (norm.)", "origin_place": "Ort-Kennung", "street_place": "Strassen-Kennung", "authority": "Normdaten", "tier": "Stufe",
@@ -113,6 +113,53 @@ def authority_table() -> dict[str, str]:
 AUTH = authority_table()
 
 
+def lv95(lat: float, lon: float) -> tuple[int, int]:
+    """WGS84 → LV95 (Näherung von swisstopo, auf ~1 m genau)."""
+    p, l = (lat * 3600 - 169028.66) / 10000, (lon * 3600 - 26782.5) / 10000
+    e = 2600072.37 + 211455.93 * l - 10938.51 * l * p - 0.36 * l * p * p - 44.54 * l ** 3
+    n = 1200147.07 + 308807.95 * p + 3745.25 * l * l + 76.63 * p * p - 194.56 * l * l * p + 119.79 * p ** 3
+    return round(e), round(n)
+
+
+def load_links() -> tuple[dict, dict]:
+    """web/telefon.csv (80_telefon.py) und web/baende.csv (81_baende.py) → je entry_id ein Zellwert."""
+    phone, other = {}, {}
+    if Path("web/telefon.csv").exists():
+        for r in csv.DictReader(Path("web/telefon.csv").open(encoding="utf-8")):
+            phone[r["entry_id"]] = "|".join(r[k].replace("|", "/") for k in ("how", "ptt_year", "ptt_name", "ptt_street", "ptt_phone", "entity_id", "image"))
+    if Path("web/baende.csv").exists():
+        by = {}
+        for r in csv.DictReader(Path("web/baende.csv").open(encoding="utf-8")):
+            by.setdefault(r["entry_id"], []).append(r)
+        for k, rs in by.items():
+            other[k] = ";;".join("|".join(x[f].replace("|", "/").replace(";;", ";") for f in ("other_volume", "tier", "other_id", "other_text", "evidence"))
+                                 for x in sorted(rs, key=lambda x: x["other_volume"]))
+    return phone, other
+
+
+PHONE, OTHER = load_links()
+
+
+def load_geo() -> dict:
+    """gedruckte Strasse → (E, N) aus data/geo/streets.geojson (Punkt je Strasse mit allen Schreibweisen)."""
+    out = {}
+    p = Path("data/geo/streets.geojson")
+    if p.exists():
+        for f in json.loads(p.read_text(encoding="utf-8"))["features"]:
+            lon, lat = f["geometry"]["coordinates"]
+            for v in [f["properties"]["name"], *f["properties"].get("variants", [])]:
+                out[v.strip(" “„\"")] = lv95(lat, lon)
+    return out
+
+
+GEO = load_geo()
+
+
+def zeitreise(r: dict) -> str:
+    g = GEO.get(r.get("street_raw", "").strip(" “„\"")) or GEO.get(r.get("street_norm", ""))
+    return f"{g[0]},{g[1]},1" if g else "2645400,1249150,0"  # sonst Stadtmitte Aarau
+
+
 def load(files: list[str], cols: list[str]) -> list[list[str]]:
     rows = []
     for f in files:
@@ -125,6 +172,9 @@ def load(files: list[str], cols: list[str]) -> list[list[str]]:
                 sn, sk = STREETS.get(r.get("street_raw", ""), ("", "")) if r.get("street_raw") else ("", "")
                 r["origin_norm"], r["origin_place"], r["street_norm"], r["street_place"] = on, ok, sn, sk
                 r["authority"] = AUTH.get(r.get("entry_id", ""), "")
+                r["telefon"] = PHONE.get(r.get("entry_id", ""), "")
+                r["other_volume"] = OTHER.get(r.get("entry_id", ""), "")
+                r["zeitreise"] = zeitreise(r) if "zeitreise" in cols else ""
                 row = [r.get(c, "") for c in cols]
                 if cols[0] == "entry_id" and r.get("address_seq") and r["address_seq"] not in ("", "1"):
                     row[0] = f"{row[0]}#{r['address_seq']}"
@@ -201,6 +251,8 @@ tr.reported td:first-child::before { content: "✓ "; color: var(--ok); font-wei
 .pill.high { background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
 .pill.medium { background: color-mix(in srgb, var(--warn) 18%, transparent); color: var(--warn); }
 .pill.review { background: color-mix(in srgb, var(--bad) 18%, transparent); color: var(--bad); }
+a.ov { margin-right: 4px; color: var(--muted); }
+a.ov.hi { color: var(--accent); font-weight: 600; }
 .star { color: var(--accent); font-weight: 700; }
 td.act { white-space: nowrap; }
 td.act select, td.act input { font-size: 12.5px; padding: 2px 5px; }
@@ -234,13 +286,14 @@ td.act a { color: var(--muted); font-size: 12px; margin-left: 6px; }
   <button class="btn" id="clear">Flags löschen</button>
   <span class="sub">Danach: <code>python scripts/91_merge_flags.py &lt;datei.csv&gt;</code> und committen.</span>
 </div>
-<p class="legend"><b>Bürger *</b> = Stern im Einwohnerverzeichnis (Bürgerrecht Aarau) · <b>Marke</b> im Gebäudeverzeichnis: * Eigentümer wohnt im Haus, † Nebengebäude · <b>Konfidenz</b>: high = Zeile ging vollständig auf, medium = Hinweis in Rest/Notiz, review = nicht zuordenbar · <b>✓</b> = Flag schon im Repo · <b>Telefon</b>: Quelle AB = Abonnentenliste im Adressbuch, A = PTT-Telefonbuch 1889–1910 (OCR), G = PTT-Telefonbuch (Gemini, ca. 1898), B = PTT 1921–1935 (neue Hausnummern); Treffer «adresse» = Name + Strasse + Gebäudenummer, «strasse» = Name + Strasse, «name» = Name + Vorname, «nachname» = nur Familienname.</p>
+<p class="legend"><b>Bürger *</b> = Stern im Einwohnerverzeichnis (Bürgerrecht Aarau) · <b>Marke</b> im Gebäudeverzeichnis: * Eigentümer wohnt im Haus, † Nebengebäude · <b>Konfidenz</b>: high = Zeile ging vollständig auf, medium = Hinweis in Rest/Notiz, review = nicht zuordenbar · <b>Telefonbuch</b>: Eintrag mit ☏ → passender Eintrag im PTT-Telefonbuch (Link auf die Person bei Vernetzte Schweiz und aufs Seitenbild) · <b>Andere Bände</b>: dieselbe Person in den anderen Bänden (automatisch; fett = sicher) · <b>Karte damals</b>: historische Karte des Jahres bei swisstopo an der Strasse · <b>✓</b> = Flag schon im Repo · <b>Telefon</b>: Quelle AB = Abonnentenliste im Adressbuch, A = PTT-Telefonbuch 1889–1910 (OCR), G = PTT-Telefonbuch (Gemini, ca. 1898), B = PTT 1921–1935 (neue Hausnummern); Treffer «adresse» = Name + Strasse + Gebäudenummer, «strasse» = Name + Strasse, «name» = Name + Vorname, «nachname» = nur Familienname.</p>
 <div class="wrap"><table id="t"><thead></thead><tbody></tbody></table><button class="more" id="more" hidden>weitere Zeilen zeigen</button></div>
 <div id="toast" hidden></div>
 <script>
 const DATA = __DATA__;
 const LABELS = __LABELS__;
 const REASONS = __REASONS__;
+const HOW = {nummer: 'gleiche Telefonnummer und Familienname', sicher: 'Vernetzte Schweiz: sicher', wahrscheinlich: 'Vernetzte Schweiz: wahrscheinlich', möglich: 'Vernetzte Schweiz: möglich (nur Name)', name: 'einzige Person dieses Namens und Vornamens im Telefonbuch'};
 const REPORTED = __REPORTED__;
 const REPO = "__REPO__";
 const PAGE = 300;
@@ -277,6 +330,24 @@ function authLinks(v) {
   return html;
 }
 function cell(k, col, v, r) {
+  if (col === 'telefon') {
+    if (!v) return r[DATA[k].cols.indexOf('phone_flag')] === '1' ? '<td class="sub">nicht gefunden</td>' : '<td></td>';
+    const [how, year, name, st, phone, eid, img] = v.split('|');
+    const tip = `Telefonbuch ${year}: ${name}${st ? ', ' + st : ''}${phone ? ', Nr. ' + phone : ''} · Zuordnung: ${HOW[how] || how}`;
+    const main = eid ? `<a href="https://thodel.github.io/vernetzte-schweiz/#/e/${esc(eid)}" target="_blank" rel="noopener" title="${esc(tip)}">${esc(year)}${phone ? ' · Nr. ' + esc(phone) : ''}</a>` : `<span title="${esc(tip)}">${esc(year)}</span>`;
+    return `<td>${main}${img ? ` · <a href="${esc(img)}" target="_blank" rel="noopener" title="Seite im Telefonbuch (PTT-Archiv)">Bild</a>` : ''} <span class="pill ${how === 'nummer' || how === 'sicher' ? 'high' : 'medium'}" title="${esc(HOW[how] || how)}">${esc(how)}</span></td>`;
+  }
+  if (col === 'other_volume') {
+    if (!v) return '<td></td>';
+    return '<td>' + v.split(';;').map(x => { const [ov, tier, oid, otext, ev] = x.split('|');
+      return `<a href="?tab=einwohner&vol=${esc(ov)}&q=${encodeURIComponent(oid.split('#')[0])}" title="${esc(otext + ' · ' + tier + ' · ' + ev)}" class="ov ${tier === 'sicher' ? 'hi' : ''}">${esc(ov)}</a>`; }).join(' ') + '</td>';
+  }
+  if (col === 'zeitreise') {
+    if (!v) return '<td></td>';
+    const [e, n, prec] = v.split(',');
+    const what = prec === '2' ? 'Haus' : prec === '1' ? 'Strasse' : 'Stadt';
+    return `<td><a href="https://map.geo.admin.ch/#/map?lang=de&center=${e},${n}&z=${prec === '0' ? 9 : 11}&crosshair=marker&bgLayer=void&layers=ch.swisstopo.zeitreihen@year=${esc(r[1])}" target="_blank" rel="noopener" title="${what} auf der historischen Karte um ${esc(r[1])} (swisstopo Zeitreise; vor 1870 Dufourkarte)">${what} ${esc(r[1])} ↗</a></td>`;
+  }
   if (col === 'authority') return `<td class="wide">${authLinks(v)}</td>`;
   if (col === 'qid' && v) return `<td><a href="https://www.wikidata.org/wiki/${esc(v)}" target="_blank" rel="noopener">${esc(v)}</a></td>`;
   if (col === 'hls_id' && v) return `<td><a href="https://hls-dhs-dss.ch/de/articles/${esc(v)}/" target="_blank" rel="noopener">${esc(v)}</a></td>`;
@@ -309,7 +380,7 @@ function render() {
     for (const b of chip.querySelectorAll('.tabhit')) b.onclick = () => { tab = b.dataset.k; shown = PAGE; render(); };
   }
   else { chip.hidden = true; }
-  const rows = d.rows.filter(r => (!v || r[1] === v) && (!c || r[ci] === c) && (!colF || !valF || fi < 0 || r[fi] === valF) && (!onlyflag.checked || flags[tab + '|' + r[0]] || reported[tab + '|' + r[0]]) && (!needle || r.join(' ').toLowerCase().includes(needle)));
+  const rows = d.rows.filter(r => (!v || r[1] === v) && (!c || r[ci] === c) && (!colF || !valF || fi < 0 || r[fi] === valF) && (!onlyflag.checked || flags[tab + '|' + r[0]] || reported[tab + '|' + r[0]]) && (!needle || r.filter((_, i) => d.cols[i] !== 'other_volume').join(' ').toLowerCase().includes(needle)));
   thead.innerHTML = '<tr><th>Flag</th>' + d.cols.map(cc => `<th>${esc(LABELS[cc] || cc)}</th>`).join('') + '</tr>';
   tbody.innerHTML = rows.slice(0, shown).map(r => {
     const key = tab + '|' + r[0];

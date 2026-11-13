@@ -24,3 +24,9 @@ Visualisierungen:
 - `make fullrun-fetch fullrun-parse erstblick` holt fertige Läufe, parst alle Abschnitte und baut
   die Kontrollseite `web/index.html`; GitHub Pages baut dieselbe Seite bei jedem Push.
 - Flags von der Kontrollseite: CSV exportieren, `make flags-merge FILE=…`, committen.
+- Verknüpfungen in `web/`, mit den Skripten erzeugt und eingecheckt (der Pages-Bau braucht kein Netz):
+  - `telefon.csv` (`scripts/80_telefon.py --vs ~/Repos/vernetzte-schweiz`): Einträge mit ☏ → PTT-Telefonbuch
+    (Verknüpfung von Vernetzte Schweiz, sonst einzige Person mit Name und Vorname), mit Link auf die Person und das
+    Seitenbild; Commit in `telefon_source.txt`. Spalte «Telefonbuch» im Reiter Einwohner.
+  - `baende.csv` (`scripts/81_baende.py`): dieselbe Person in den anderen Bänden (Spalte «Andere Bände»).
+- Spalte «Karte damals»: historische Karte des Jahres bei swisstopo (Zeitreise) an der Strasse (data/geo/streets.geojson).
