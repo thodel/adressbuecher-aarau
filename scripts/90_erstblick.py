@@ -22,6 +22,10 @@ import csv
 import json
 from datetime import date
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).parent))
+import site_nav  # noqa: E402  gemeinsame Navigation und Feldsuche aller Adressbuch-Seiten
 
 CSV_DIR = Path("data/csv")
 REVIEW = Path("data/review/flags.csv")
@@ -162,6 +166,14 @@ def zeitreise(r: dict) -> str:
 
 def load(files: list[str], cols: list[str]) -> list[list[str]]:
     rows = []
+    extra = set()
+    for f in files:  # weitere CSV-Spalten: nur für die Feldsuche, in der Tabelle verborgen
+        p = CSV_DIR / f
+        if p.exists():
+            with p.open(encoding="utf-8") as fh:
+                rd = csv.DictReader(fh)
+                extra.update(site_nav.extra_columns(list(rd), rd.fieldnames, cols))
+    cols += sorted(extra)
     for f in files:
         p = CSV_DIR / f
         if not p.exists():
@@ -263,10 +275,12 @@ td.act a { color: var(--muted); font-size: 12px; margin-left: 6px; }
 .legend b { color: var(--fg); }
 #toast { position: fixed; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); right: calc(12px + env(safe-area-inset-right, 0px)); background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 8px; font-size: 0.9rem; }
 @media (max-width: 600px) { body { font-size: 14px; } th, td { max-width: 22ch; } td.act input[type="text"] { width: 9ch; } }
+__NAVCSS__
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
+__CITYBAR__
 <header>
-  <nav class="nav"><a href="./">Kontrolle</a> · <a href="karte.html">Karte: Einzugsgebiet und Wohnorte</a> · <a href="https://thodel.github.io/adressbuecher-basel/">Adressbücher Basel</a> · <a href="https://github.com/thodel/adressbuecher-aarau">Repo</a></nav>
+  __CITYNAV__
   <h1>Adressbücher Aarau: Kontrolle der Datensätze</h1>
   <p class="sub">Stand __DATE__ · Rohdaten aus der ATR-Lesung, regelbasiert geparst, ohne Normalisierung. Fehler hier markieren; die Flags gehen per CSV oder Issue ins Repo.</p>
 </header>
@@ -279,6 +293,7 @@ td.act a { color: var(--muted); font-size: 12px; margin-left: 6px; }
   <input id="q" type="search" placeholder="Suchen: Name, Beruf, Strasse, Heimatort, ID …" aria-label="Suchen">
   <span class="count" id="count"></span>
 </div>
+__FSPANEL__
 <div class="flagbar">
   <span><span class="n" id="nflags">0</span> Flags in diesem Browser · <span id="nreported">0</span> bereits im Repo gemeldet</span>
   <button class="btn primary" id="dl">Flags als CSV herunterladen</button>
@@ -290,6 +305,8 @@ td.act a { color: var(--muted); font-size: 12px; margin-left: 6px; }
 <div class="wrap"><table id="t"><thead></thead><tbody></tbody></table><button class="more" id="more" hidden>weitere Zeilen zeigen</button></div>
 <div id="toast" hidden></div>
 <script>
+__FSJS__
+const FSTX = __FSTX__;
 const DATA = __DATA__;
 const LABELS = __LABELS__;
 const REASONS = __REASONS__;
@@ -365,8 +382,11 @@ function actCell(k, r) {
   const opts = ['<option value="">— Flag —</option>'].concat(REASONS.map(x => `<option value="${esc(x)}" ${f.reason === x ? 'selected' : ''}>${esc(x)}</option>`)).join('');
   return `<td class="act"><select data-key="${esc(key)}" data-f="reason" aria-label="Grund">${opts}</select> <input type="text" data-key="${esc(key)}" data-f="note" placeholder="Notiz" value="${esc(f.note || '')}" aria-label="Notiz"><a href="${issueUrl(k, r)}" target="_blank" rel="noopener">Issue</a></td>`;
 }
+let fsTab = '';
+function fsUrl() { const p = new URLSearchParams(location.search); p.delete('f'); FS.toParams(p); const s = p.toString(); history.replaceState(null, '', location.pathname + (s ? '?' + s : '') + location.hash); }
 function render() {
   for (const b of tabsEl.children) b.setAttribute('aria-selected', b.dataset.k === tab);
+  if (tab !== fsTab) { fsTab = tab; FS.refresh(); }
   const d = DATA[tab], needle = q.value.trim().toLowerCase(), v = vol.value, c = conf.value, ci = d.cols.indexOf('parse_confidence');
   const fi = colF ? d.cols.indexOf(colF) : -1;
   const chip = $('colfilter');
@@ -380,12 +400,12 @@ function render() {
     for (const b of chip.querySelectorAll('.tabhit')) b.onclick = () => { tab = b.dataset.k; shown = PAGE; render(); };
   }
   else { chip.hidden = true; }
-  const rows = d.rows.filter(r => (!v || r[1] === v) && (!c || r[ci] === c) && (!colF || !valF || fi < 0 || r[fi] === valF) && (!onlyflag.checked || flags[tab + '|' + r[0]] || reported[tab + '|' + r[0]]) && (!needle || r.filter((_, i) => d.cols[i] !== 'other_volume').join(' ').toLowerCase().includes(needle)));
-  thead.innerHTML = '<tr><th>Flag</th>' + d.cols.map(cc => `<th>${esc(LABELS[cc] || cc)}</th>`).join('') + '</tr>';
+  const rows = d.rows.filter(r => (!v || r[1] === v) && (!c || r[ci] === c) && (!colF || !valF || fi < 0 || r[fi] === valF) && (!onlyflag.checked || flags[tab + '|' + r[0]] || reported[tab + '|' + r[0]]) && (!needle || r.filter((_, i) => d.cols[i] !== 'other_volume').join(' ').toLowerCase().includes(needle)) && FS.test(r, d.cols));
+  thead.innerHTML = '<tr><th>Flag</th>' + d.cols.filter(cc => !(d.hide || []).includes(cc)).map(cc => `<th>${esc(LABELS[cc] || cc)}</th>`).join('') + '</tr>';
   tbody.innerHTML = rows.slice(0, shown).map(r => {
     const key = tab + '|' + r[0];
     const cls = (flags[key] && flags[key].reason ? 'flagged ' : '') + (reported[key] ? 'reported' : '');
-    return `<tr class="${cls}" title="${reported[key] ? esc('gemeldet: ' + reported[key].reason + ' ' + reported[key].note) : ''}">${actCell(tab, r)}${r.map((vv, i) => cell(tab, d.cols[i], vv, r)).join('')}</tr>`;
+    return `<tr class="${cls}" title="${reported[key] ? esc('gemeldet: ' + reported[key].reason + ' ' + reported[key].note) : ''}">${actCell(tab, r)}${r.map((vv, i) => (d.hide || []).includes(d.cols[i]) ? '' : cell(tab, d.cols[i], vv, r)).join('')}</tr>`;
   }).join('');
   more.hidden = rows.length <= shown;
   count.textContent = `${Math.min(shown, rows.length).toLocaleString('de-CH')} von ${rows.length.toLocaleString('de-CH')} Zeilen`;
@@ -423,6 +443,7 @@ try { const t = localStorage.getItem('aarau.tab'); if (!location.hash && !P.get(
 if (P.get('vol')) vol.value = P.get('vol');
 if (P.get('conf')) conf.value = P.get('conf');
 if (P.get('q')) q.value = P.get('q');
+FS.init({ cols: () => DATA[tab].cols, skip: ['telefon', 'other_volume', 'zeitreise', 'authority'], labels: LABELS, tx: FSTX, first: 'surname', onChange: () => { shown = PAGE; render(); fsUrl(); } });
 render();
 </script>
 """
@@ -432,14 +453,18 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--out", type=Path, required=True)
     args = ap.parse_args()
+    SHOWN = {t[0]: list(t[-1]) for t in TABS}  # vor load(): die gezeigten Spalten
     data = {}
     for key, label, files, _id, cols in TABS:
         rows = load(files, cols)
         if rows:
-            data[key] = {"label": label, "cols": cols, "rows": rows}
+            data[key] = {"label": label, "cols": cols, "rows": rows, "hide": [c for c in cols if c not in SHOWN[key]]}
             print(f"{label}: {len(rows)} Zeilen")
     reported = load_flags()
-    html = (TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False, separators=(",", ":")))
+    html = (TEMPLATE.replace("__CITYBAR__", site_nav.city_bar('aarau')).replace("__CITYNAV__", site_nav.city_nav('Aarau 1884–1899', REPO_URL, "entries", map_label='Karte: Einzugsgebiet und Wohnorte'))
+            .replace("__NAVCSS__", site_nav.CSS).replace("__FSPANEL__", site_nav.search_panel())
+            .replace("__FSJS__", site_nav.FIELD_SEARCH_JS).replace("__FSTX__", json.dumps(site_nav.fs_texts(), ensure_ascii=False))
+            .replace("__DATA__", json.dumps(data, ensure_ascii=False, separators=(",", ":")))
             .replace("__LABELS__", json.dumps(LABELS, ensure_ascii=False))
             .replace("__REASONS__", json.dumps(REASONS, ensure_ascii=False))
             .replace("__REPORTED__", json.dumps(reported, ensure_ascii=False))
