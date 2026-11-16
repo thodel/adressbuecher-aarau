@@ -28,7 +28,9 @@ Regeln:
 - Randstreifen der Nachbarseite, die das Modell trotz Anweisung mitliest («1 C»), fallen weg; das lange s (ſ),
   das Gemini in einigen Seiten als Zeichen ausgibt, wird zu s.
 - «Derselbe/Dieselbe/Dieselben/dto.» als Eigentümer → owner_same_as_prev = 1; die Gebäudeart steht dann in
-  building_type bzw. beim Bewohner in residual («Gebäude: Scheune»), nicht im Beruf.
+  building_type des Gebäudes; die Zeile ist keine weitere Person und fehlt in 05_residents_frueh.csv.
+- Bezug «Vater/Sohn/Tochter/jgr./ält.» aus dem Text in relation; Einrichtungen ohne Familiennamen («Die Stadt
+  Aarau») erhalten den Namen aus dem Text und entry_type «firma».
 - Strasse: die zuletzt gesehene Überschrift gilt über Seitengrenzen weiter; eine Ortsangabe in Klammern am
   Zeilenende («(Igelweid)», «(dto.)») geht für diese Zeile vor.
 - Hausnummer: nennt der Text eine einzelne Nummer innerhalb einer zu weiten Klammer («103.» bei house_no
@@ -127,6 +129,7 @@ def numbers(h: str) -> list[int]:
     return ns
 
 
+RELATION = re.compile(r"\b(Vater|Sohn|Söhne|Tochter|Töchter|jgr\.|jünger|ält\.|älter)\b")
 BRACKET_LOC = re.compile(r"\(([^()]{2,40}?)\.?\)\.?\s*$")
 TEXT_NO = re.compile(r"^\s*[*†]?\s*(\d+\s?[a-z]?)\s*[.,]")
 
@@ -156,6 +159,12 @@ def resident(r: dict, vol: str, page: int, idx: int, b: dict, section: str, stre
         "origin_raw": origin, "street_raw": street or b["street_raw"], "residual": "; ".join(residual),
         "heading": (r.get("heading") or "").strip(), "parse_method": "llm", "parse_confidence": "medium",
         "text": text_of(r)})
+    rel = RELATION.search(t)
+    if rel:  # «Vater», «Sohn», «jgr.»: Gemini lässt das in den Feldern weg, ohne wären Vater und Sohn gleich
+        rec["relation"] = rel.group(1)
+    if not rec["surname"]:  # Einrichtung als Eigentümer: «Die Stadt Aarau. Pfarrhaus.»
+        rec["surname"] = re.split(r"[.,]", body({"text": t}))[0].strip()
+        rec["entry_type"] = "firma"
     m = re.search(r"geb\.\s*([^,]+)", rec["civil_status"] + " " + rec["text"])
     if m:
         rec["maiden_name"] = m.group(1).strip(" .")
@@ -247,6 +256,8 @@ def buildings(pages, vol_filter=None):
                     cur["building_type"] = (r.get("occupation") or r.get("forename") or "").strip()
                 bld.append(cur)
                 last[vol] = cur
+            if DITTO.match((r.get("surname") or "").strip()):
+                continue  # «Derselbe. Scheune.»: nur Gebäude (building_type), keine weitere Person
             res.append(resident(r, vol, page, i, cur, "gebaeude", street))
     return bld, res, reg, sections, nach
 
