@@ -3,6 +3,14 @@
 Auswertung der Adressbücher der Stadt Aarau 1884, 1888, 1892, 1896 und 1899
 (Separat-Auszüge aus dem Handels- und Gewerbe-Adressbuch für den Kanton Aargau).
 
+Dazu die früheren, nach Häusern geordneten Verzeichnisse 1833 (Häuserbesitzer), 1859, 1867, 1877, 1879, 1881
+(«Verzeichniss sämmtlicher Einwohner, Wohn- und Oekonomie-Gebäude»), der Adress-Kalender 1869 (alle Fraktur,
+gelesen mit gemini-3.5-flash) und das Verzeichnis der neuen Hausnumerierung 1900 (Antiqua, gelesen mit qwen3.8).
+Stichprobe vor dem Lauf (16 Seiten, blind am Seitenbild): Fraktur Gemini 95 %, qwen3.8 61 % voll korrekte
+Einträge; 1900 beide 97 %. `make frueh-read frueh-parse` → `data/csv/05_buildings_frueh.csv`,
+`05_residents_frueh.csv`, `05_register_frueh.csv` (Namensregister), `05_nachtraege_frueh.csv`,
+`05_hausnumerierung_1900.csv`; ohne Nachkorrektur.
+
 Ziel ist ein Informationssystem über Personen, Haushalte, Gebäude, Berufe und
 Institutionen Aaraus im späten 19. Jahrhundert, modelliert in CIDOC-CRM 7.1.3 + SDHSS.
 Zwischenresultate sind CSV. Das Tooling (ATR, Vokabular-Register, Graph-Bauer, Prüfung,

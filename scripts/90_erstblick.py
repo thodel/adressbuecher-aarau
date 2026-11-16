@@ -36,16 +36,23 @@ TABS = [
      ["entry_id", "volume", "page", "citizen_flag", "surname", "alliance_name", "maiden_name", "forename",
       "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "origin_norm", "street_raw", "street_norm",
       "building_no", "origin_place", "street_place", "address_role", "phone_flag", "telefon", "other_volume", "zeitreise", "entry_type", "parse_confidence", "authority", "residual", "text"]),
-    ("gebaeude", "Gebäude", ["05_buildings_fraktur.csv", "05_buildings_antiqua.csv"], "building_id",
+    ("gebaeude", "Gebäude", ["05_buildings_frueh.csv", "05_buildings_fraktur.csv", "05_buildings_antiqua.csv"], "building_id",
      ["building_id", "volume", "page", "building_nos", "marker", "street_raw", "owner_text", "building_type",
       "owner_same_as_prev", "phone_flag", "parse_confidence", "note"]),
-    ("bewohner", "Bewohner", ["05_residents_fraktur.csv", "05_residents_antiqua.csv"], "entry_id",
+    ("bewohner", "Bewohner", ["05_residents_frueh.csv", "05_residents_fraktur.csv", "05_residents_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "building_no", "surname", "alliance_name", "maiden_name", "forename",
       "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "origin_norm", "street_norm",
       "parse_confidence", "authority", "residual", "text", "origin_place", "street_place"]),
     ("berufe", "Berufe", ["04_berufe_fraktur.csv", "04_berufe_antiqua.csv"], "entry_id",
      ["entry_id", "volume", "page", "heading", "surname", "alliance_name", "forename", "occupation_raw",
       "street_raw", "building_no", "origin_raw", "entry_type", "parse_confidence", "residual", "other_volume", "zeitreise", "text"]),
+    ("register", "Namensregister 1859–1881", ["05_register_frueh.csv"], "entry_id",
+     ["entry_id", "volume", "page", "surname", "forename", "civil_status", "occupation_raw", "building_no", "text"]),
+    ("nachtraege", "Nachträge", ["05_nachtraege_frueh.csv"], "entry_id",
+     ["entry_id", "volume", "page", "building_no", "surname", "forename", "civil_status", "occupation_raw", "text"]),
+    ("hausnummern", "Hausnummern 1900", ["05_hausnumerierung_1900.csv"], "row_id",
+     ["row_id", "page", "new_no", "surname", "alliance_name", "forename", "civil_status", "occupation_raw",
+      "building_type", "old_no", "heading", "text"]),
     ("telefon", "Telefon", ["09_ptt_entries.csv"], "ptt_id",
      ["ptt_id", "ptt_source", "year", "name_raw", "rest", "street_raw", "no", "phone", "numbering",
       "best_tier", "best_volume", "best_ab_name", "best_ab_address", "best_entry_id", "volumes_matched"]),
@@ -62,7 +69,7 @@ LABELS = {"telefon": "Telefonbuch", "other_volume": "Andere Bände", "zeitreise"
           "hls_origins": "HLS-Heimatort", "hls_head": "HLS-Kopf", "wd_description": "Wikidata-Beschreibung", "qid": "Wikidata", "hls_id": "HLS", "n_candidates": "Kandidaten", "street_raw": "Strasse", "building_no": "Nr.", "address_role": "Adressrolle",
           "phone_flag": "Tel.", "entry_type": "Typ", "parse_confidence": "Konfidenz", "residual": "Rest/Notiz",
           "text": "ATR-Zeile", "building_nos": "Nr.", "marker": "Marke", "owner_text": "Eigentümer",
-          "building_type": "Gebäudeart", "owner_same_as_prev": "Ditto", "note": "Notiz", "heading": "Rubrik", "ptt_id": "ID", "ptt_source": "Quelle",
+          "building_type": "Gebäudeart", "row_id": "ID", "new_no": "neue Nr.", "old_no": "alte Nr.", "owner_same_as_prev": "Ditto", "note": "Notiz", "heading": "Rubrik", "ptt_id": "ID", "ptt_source": "Quelle",
           "year": "Jahr", "name_raw": "Name (Telefonbuch)", "rest": "Zusatz", "no": "Nr.", "phone": "Telefon",
           "numbering": "Nummern", "best_tier": "Treffer", "best_volume": "Band", "best_ab_name": "Adressbuch-Name",
           "best_ab_address": "Adressbuch-Adresse", "best_entry_id": "Eintrag", "volumes_matched": "Bände"}
@@ -461,7 +468,7 @@ def main() -> None:
             data[key] = {"label": label, "cols": cols, "rows": rows, "hide": [c for c in cols if c not in SHOWN[key]]}
             print(f"{label}: {len(rows)} Zeilen")
     reported = load_flags()
-    html = (TEMPLATE.replace("__CITYBAR__", site_nav.city_bar('aarau')).replace("__CITYNAV__", site_nav.city_nav('Aarau 1884–1899', REPO_URL, "entries", map_label='Karte: Einzugsgebiet und Wohnorte'))
+    html = (TEMPLATE.replace("__CITYBAR__", site_nav.city_bar('aarau')).replace("__CITYNAV__", site_nav.city_nav('Aarau 1833–1900', REPO_URL, "entries", map_label='Karte: Einzugsgebiet und Wohnorte'))
             .replace("__NAVCSS__", site_nav.CSS).replace("__FSPANEL__", site_nav.search_panel())
             .replace("__FSJS__", site_nav.FIELD_SEARCH_JS).replace("__FSTX__", json.dumps(site_nav.fs_texts(), ensure_ascii=False))
             .replace("__DATA__", json.dumps(data, ensure_ascii=False, separators=(",", ":")))

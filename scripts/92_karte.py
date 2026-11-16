@@ -157,7 +157,7 @@ def main() -> None:
     args = ap.parse_args()
     o = json.loads((GEO_DIR / "origins.geojson").read_text(encoding="utf-8"))
     s = json.loads((GEO_DIR / "streets.geojson").read_text(encoding="utf-8"))
-    html = (TEMPLATE.replace("__CITYBAR__", site_nav.city_bar('aarau', 'de')).replace("__CITYNAV__", site_nav.city_nav('Aarau 1884–1899', 'https://github.com/thodel/adressbuecher-aarau', "map", 'de', map_label='Karte: Einzugsgebiet und Wohnorte')).replace("__NAVCSS__", site_nav.CSS).replace("__ORIGINS__", json.dumps(o, ensure_ascii=False, separators=(",", ":")))
+    html = (TEMPLATE.replace("__CITYBAR__", site_nav.city_bar('aarau', 'de')).replace("__CITYNAV__", site_nav.city_nav('Aarau 1833–1900', 'https://github.com/thodel/adressbuecher-aarau', "map", 'de', map_label='Karte: Einzugsgebiet und Wohnorte')).replace("__NAVCSS__", site_nav.CSS).replace("__ORIGINS__", json.dumps(o, ensure_ascii=False, separators=(",", ":")))
             .replace("__STREETS__", json.dumps(s, ensure_ascii=False, separators=(",", ":")))
             .replace("__DATE__", date.today().strftime("%d.%m.%Y")))
     args.out.parent.mkdir(parents=True, exist_ok=True)

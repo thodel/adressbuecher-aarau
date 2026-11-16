@@ -33,6 +33,14 @@ fullrun-parse:  ## Welle 2: Einwohner-Einträge aus Hauptleser je Satzart → 04
 	$(PY) scripts/05_buildings.py --run aarau-fraktur-gemini-v1 --reader gemini-3.8-flash --out-buildings data/csv/05_buildings_fraktur.csv --out-residents data/csv/05_residents_fraktur.csv
 	$(PY) scripts/05_buildings.py --run aarau-antiqua-final --reader final --out-buildings data/csv/05_buildings_antiqua.csv --out-residents data/csv/05_residents_antiqua.csv
 
+.PHONY: frueh-read frueh-parse
+frueh-read:  ## frühe Bände lesen: Fraktur 1833–1881 mit Gemini, Hausnumerierung 1900 mit qwen3.8 (VPN, ~/.gpustack.env)
+	uv run -q --with pillow --with google-genai python scripts/02d_llm_pages.py --run gemini-frueh-v1 --reader gemini-3.5-flash --volumes 1833,1859,1867,1869,1877,1879,1881 --workers 6
+	set -a; . $(HOME)/.gpustack.env; set +a; uv run -q --with pillow --with google-genai python scripts/02d_llm_pages.py --run qwen-1900hn-v1 --reader qwen --volumes 1900 --workers 2
+
+frueh-parse:  ## frühe Bände → 05_*_frueh.csv, 05_hausnumerierung_1900.csv, Abschnitte in 01_pages.csv
+	$(PY) scripts/05d_llm_buildings.py --run gemini-frueh-v1 --run-1900 qwen-1900hn-v1
+
 erstblick:  ## durchsuchbare HTML-Seite aus den Welle-2-CSV (OUT=...)
 	$(PY) scripts/90_erstblick.py --out $(or $(OUT),web/index.html)
 
