@@ -27,7 +27,14 @@ Regeln:
   (building_nos = alle Nummern, note = «Klammer zusammengeführt»).
 - Randstreifen der Nachbarseite, die das Modell trotz Anweisung mitliest («1 C»), fallen weg; das lange s (ſ),
   das Gemini in einigen Seiten als Zeichen ausgibt, wird zu s.
-- «Derselbe/Dieselbe/Dieselben/dto.» als Eigentümer → owner_same_as_prev = 1.
+- «Derselbe/Dieselbe/Dieselben/dto.» als Eigentümer → owner_same_as_prev = 1; die Gebäudeart steht dann in
+  building_type bzw. beim Bewohner in residual («Gebäude: Scheune»), nicht im Beruf.
+- Strasse: die zuletzt gesehene Überschrift gilt über Seitengrenzen weiter; eine Ortsangabe in Klammern am
+  Zeilenende («(Igelweid)», «(dto.)») geht für diese Zeile vor.
+- Hausnummer: nennt der Text eine einzelne Nummer innerhalb einer zu weiten Klammer («103.» bei house_no
+  «100–104»), gilt die Nummer aus dem Text.
+- «in Küttigen» ohne «von» ist der Wohnort: residual «wohnt in …», kein Heimatort.
+- 1900: Strassenverzeichnis und Verlagsanzeige am Ende sowie Spaltenköpfe fallen weg.
 """
 from __future__ import annotations
 
@@ -120,9 +127,24 @@ def numbers(h: str) -> list[int]:
     return ns
 
 
-def resident(r: dict, vol: str, page: int, idx: int, b: dict, section: str) -> dict:
+BRACKET_LOC = re.compile(r"\(([^()]{2,40}?)\.?\)\.?\s*$")
+TEXT_NO = re.compile(r"^\s*[*†]?\s*(\d+\s?[a-z]?)\s*[.,]")
+
+
+def resident(r: dict, vol: str, page: int, idx: int, b: dict, section: str, street: str = "") -> dict:
     rec = {k: "" for k in R_FIELDS}
     occ = (r.get("occupation") or "").strip()
+    sur = (r.get("surname") or "").strip()
+    origin = (r.get("origin") or "").strip()
+    residual = []
+    if DITTO.match(sur) and occ:  # «Derselbe. Scheune.»: Gebäudeart, kein Beruf
+        residual.append(f"Gebäude: {occ}")
+        occ = ""
+    t = text_of(r)
+    if origin and re.search(r"\bin\s+" + re.escape(origin), t) and not re.search(
+            r"\b(von|v\.|aus)\s*" + re.escape(origin), t):
+        residual.append(f"wohnt in {origin}")  # «in Küttigen» ist der Wohnort, kein Heimatort
+        origin = ""
     rec.update({
         "building_id": b["building_id"], "building_no": b["building_no"],
         "entry_id": f"{vol}-{section}-{page:03d}-E{idx:03d}", "volume": vol, "page": str(page), "section": section,
@@ -131,7 +153,7 @@ def resident(r: dict, vol: str, page: int, idx: int, b: dict, section: str) -> d
         "surname": (r.get("surname") or "").strip(), "alliance_name": (r.get("alliance_name") or "").strip(),
         "forename": (r.get("forename") or "").strip(), "title": (r.get("title") or "").strip(),
         "civil_status": (r.get("civil_status") or "").strip(), "occupation_raw": occ,
-        "origin_raw": (r.get("origin") or "").strip(), "street_raw": b["street_raw"],
+        "origin_raw": origin, "street_raw": street or b["street_raw"], "residual": "; ".join(residual),
         "heading": (r.get("heading") or "").strip(), "parse_method": "llm", "parse_confidence": "medium",
         "text": text_of(r)})
     m = re.search(r"geb\.\s*([^,]+)", rec["civil_status"] + " " + rec["text"])
@@ -143,6 +165,8 @@ def resident(r: dict, vol: str, page: int, idx: int, b: dict, section: str) -> d
 def buildings(pages, vol_filter=None):
     bld, res, reg, sections, nach = [], [], [], {}, []
     last = {}  # Band → letztes Gebäude (für Fortsetzungszeilen)
+    street_of = {}  # Band → zuletzt gesehene Strassenüberschrift (gilt über Seitengrenzen weiter)
+    loc_of = {}     # Band → letzte Ortsangabe in Klammern (für «(dto.)»)
     top = {}   # Band → höchste Hausnummer des Hauptverzeichnisses
     for vol, page, entries in pages:
         sec = section_of(entries)
@@ -185,7 +209,19 @@ def buildings(pages, vol_filter=None):
         cur = None
         for i, r in enumerate(entries, 1):
             h = str(r.get("house_no") or "").strip()
-            street = (r.get("heading") or "").strip().rstrip(".:")
+            mt = TEXT_NO.match(r.get("text") or "")
+            if mt and len(numbers(h)) > 1 and numbers(mt.group(1))[0] in numbers(h):
+                h = mt.group(1).replace(" ", "")  # Text nennt die einzelne Nummer, house_no eine zu weite Klammer
+            head = (r.get("heading") or "").strip().rstrip(".:")
+            if head and not CHANGES.search(head):
+                street_of[vol] = head
+            street = street_of.get(vol, "")
+            mb = BRACKET_LOC.search(r.get("text") or "")
+            if mb and not re.match(r"^\d", mb.group(1)):  # Ort in Klammern: «(Igelweid)», «(dto.)»
+                loc = mb.group(1).strip()
+                loc = loc_of.get(vol, "") if loc.lower().startswith(("dto", "do.", "detto")) else loc
+                loc_of[vol] = loc or loc_of.get(vol, "")
+                street = loc or street
             if not h:
                 cur = cur or last.get(vol)
                 if cur is None:
@@ -211,7 +247,7 @@ def buildings(pages, vol_filter=None):
                     cur["building_type"] = (r.get("occupation") or r.get("forename") or "").strip()
                 bld.append(cur)
                 last[vol] = cur
-            res.append(resident(r, vol, page, i, cur, "gebaeude"))
+            res.append(resident(r, vol, page, i, cur, "gebaeude", street))
     return bld, res, reg, sections, nach
 
 
@@ -244,12 +280,20 @@ def merge_brackets(bld: list[dict], res: list[dict]) -> int:
     return merged
 
 
+NOT_TABLE = re.compile(r"Verzeichnis der Strassen|Verlag|zu beziehen", re.I)
+
+
 def hausnumerierung(run: str) -> tuple[list[dict], dict]:
     rows, sections = [], {}
     prev = {}
     for vol, page, entries in load(run):
+        if NOT_TABLE.search(HEADERS.get((vol, page), "")):
+            sections[(vol, page)] = "sonst"  # Strassenverzeichnis, Verlagsanzeige
+            continue
         sections[(vol, page)] = "gebaeude" if entries else "leer"
         for i, r in enumerate(entries, 1):
+            if re.search(r"Haus-?Nr|Alte Nr", r.get("text") or "") and not r.get("surname"):
+                continue  # Spaltenkopf
             sur = (r.get("surname") or "").strip()
             rec = {"row_id": f"{vol}-hn-{page:03d}-E{i:03d}", "volume": vol, "page": str(page), "line": str(i),
                    "new_no": str(r.get("new_no") or "").strip(), "surname": sur,
