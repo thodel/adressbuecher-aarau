@@ -7,7 +7,7 @@ Eintrag im PTT-Telefonbuch und schreibt ihn nach web/telefon.csv:
 
 1. **nummer** — die im Adressbuch gedruckte Nummer (aus data/qwen/<Band>/entries.csv, Feld `phone`)
    steht im Telefonbuch derselben Gemeinde, höchstens 5 Jahre entfernt, und der Familienname passt.
-2. sonst die Verknüpfung von «Vernetzte Schweiz» (links/ptt_ab.csv) mit ihrer Stufe
+2. sonst die Verknüpfung von «Vernetzte Schweiz» (links/ptt_ab.csv.gz) mit ihrer Stufe
    **sicher / wahrscheinlich / möglich**; bei mehreren die beste Stufe, dann das nächste Jahr.
 3. sonst **name**: im Telefonbuch der Gemeinde (höchstens 5 Jahre entfernt) steht genau eine Person mit diesem
    Familiennamen und passendem Vornamen (gleich oder Abkürzung).
@@ -46,6 +46,14 @@ IIIF = "https://iiif.ptt-archiv.ch/iiif/3/{ref}_{img:04d}.jp2/full/max/0/default
 
 def git_show(vs: Path, commit: str, path: str) -> bytes:
     return subprocess.run(["git", "-C", str(vs), "show", f"{commit}:{path}"], check=True, capture_output=True).stdout
+
+
+def ptt_ab_links(vs: Path, commit: str) -> str:
+    """links/ptt_ab.csv liegt in Vernetzte Schweiz seit a2071a8 gepackt; ältere Commits haben noch die .csv."""
+    try:
+        return gzip.decompress(git_show(vs, commit, "links/ptt_ab.csv.gz")).decode("utf-8")
+    except subprocess.CalledProcessError:
+        return git_show(vs, commit, "links/ptt_ab.csv").decode("utf-8")
 
 
 def fold(s: str) -> str:
@@ -105,7 +113,7 @@ def main() -> None:
                 if r["entity_type"] == "person":
                     by_name[(r["municipality_1914"], fold(r["surname"] or r["name1"]))].append(r)
     links = defaultdict(list)
-    for r in csv.DictReader(io.StringIO(git_show(args.vs, commit, "links/ptt_ab.csv").decode("utf-8"))):
+    for r in csv.DictReader(io.StringIO(ptt_ab_links(args.vs, commit))):
         if r["city"] == CITY:
             links[r["ab_id"].split(":", 1)[1]].append(r)
     entity = {}
@@ -157,7 +165,7 @@ def main() -> None:
         w.writerows(rows)
     (OUT.parent / "telefon_source.txt").write_text(
         f"web/telefon.csv aus thodel/vernetzte-schweiz @ {commit}\n"
-        "(data/norm/ptt_entries.csv.gz, links/ptt_ab.csv, links/entities.csv.gz) mit scripts/80_telefon.py\n",
+        "(data/norm/ptt_entries.csv.gz, links/ptt_ab.csv.gz, links/entities.csv.gz) mit scripts/80_telefon.py\n",
         encoding="utf-8")
     print(f"{len(entries)} Einträge mit Telefon: " + ", ".join(f"{k} {v}" for k, v in sorted(stats.items())) + f" → {OUT}")
 
