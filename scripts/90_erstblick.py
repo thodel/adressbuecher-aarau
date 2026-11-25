@@ -340,9 +340,18 @@ for (const k in DATA) { const b = document.createElement('button'); b.setAttribu
 function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function save() { try { localStorage.setItem(KEY, JSON.stringify(flags)); } catch (e) {} }
 function toast(msg) { const t = $('toast'); t.textContent = msg; t.hidden = false; setTimeout(() => { t.hidden = true; }, 2500); }
+function issueBody(k, r) {
+  // Felder über den Spaltennamen, nicht über die Stelle: im Telefon-Reiter stehen an Stelle 2 und 3 Quelle und Jahr.
+  const d = DATA[k], c = name => { const i = d.cols.indexOf(name); return i < 0 ? '' : (r[i] ?? ''); };
+  const where = [];
+  if (c('volume')) where.push(`Band ${c('volume')}`);
+  if (c('ptt_source')) where.push(`Telefonbuch ${c('ptt_source')}${c('year') ? ' ' + c('year') : ''}`);
+  if (c('page')) where.push(`PDF-Seite ${c('page')}`);
+  const line = c('text') || c('owner_text') || [c('name_raw'), c('rest'), c('street_raw')].filter(Boolean).join(', ');
+  return `Tabelle: ${d.label}\nID: ${r[0]}\n${where.join(', ')}\n\nATR-Zeile:\n${line}\n\nProblem:\n`;
+}
 function issueUrl(k, r) {
-  const d = DATA[k], id = r[0];
-  const body = `Tabelle: ${d.label}\nID: ${id}\nBand ${r[1]}, PDF-Seite ${r[2]}\n\nATR-Zeile:\n${r[d.cols.indexOf('text')] ?? r[d.cols.indexOf('owner_text')] ?? ''}\n\nProblem:\n`;
+  const id = r[0], body = issueBody(k, r);
   return `${REPO}/issues/new?title=${encodeURIComponent('Flag ' + id)}&labels=${encodeURIComponent('review')}&body=${encodeURIComponent(body)}`;
 }
 function authLinks(v) {
