@@ -37,10 +37,12 @@ class IssueBody(unittest.TestCase):
         self.assertIn("Aargauische Bank, Bahnhofstraße 511", b)
 
     def test_normdaten_ohne_seite(self):
-        data = {"normdaten": {"label": "Normdaten", "cols": ["entry_id", "volume", "tier", "surname"]}}
-        b = body(data, "normdaten", ["1896-einwohner-111-L032", "1896", "verworfen", "Aeschbach"])
+        data = {"normdaten": {"label": "Normdaten", "cols": ["entry_id", "volume", "tier", "surname", "label"]}}
+        b = body(data, "normdaten", ["1896-einwohner-111-L032", "1896", "verworfen", "Aeschbach", "Friedrich Aeschbach"])
         self.assertIn("Band 1896", b)
         self.assertNotIn("PDF-Seite verworfen", b)
+        self.assertIn("Normdaten-Person:\nFriedrich Aeschbach\n", b)
+        self.assertNotIn("ATR-Zeile", b)
 
     def test_einwohner_band_und_seite(self):
         data = {"einwohner": {"label": "Einwohner", "cols": ["entry_id", "volume", "page", "surname", "text"]}}

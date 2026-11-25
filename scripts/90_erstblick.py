@@ -347,8 +347,10 @@ function issueBody(k, r) {
   if (c('volume')) where.push(`Band ${c('volume')}`);
   if (c('ptt_source')) where.push(`Telefonbuch ${c('ptt_source')}${c('year') ? ' ' + c('year') : ''}`);
   if (c('page')) where.push(`PDF-Seite ${c('page')}`);
-  const line = c('text') || c('owner_text') || [c('name_raw'), c('rest'), c('street_raw')].filter(Boolean).join(', ');
-  return `Tabelle: ${d.label}\nID: ${r[0]}\n${where.join(', ')}\n\nATR-Zeile:\n${line}\n\nProblem:\n`;
+  const read = c('text') || c('owner_text') || [c('name_raw'), c('rest'), c('street_raw')].filter(Boolean).join(', ');
+  // Normdaten haben keine gelesene Zeile: dort steht die Normdaten-Person (label), unter ihrem eigenen Namen.
+  const [head, line] = read || !c('label') ? ['ATR-Zeile', read] : ['Normdaten-Person', c('label')];
+  return `Tabelle: ${d.label}\nID: ${r[0]}\n${where.join(', ')}\n\n${head}:\n${line}\n\nProblem:\n`;
 }
 function issueUrl(k, r) {
   const id = r[0], body = issueBody(k, r);
