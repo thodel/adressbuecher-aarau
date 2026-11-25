@@ -52,7 +52,7 @@ TABS = [
     ("nachtraege", "Nachträge", ["05_nachtraege_frueh.csv"], "entry_id",
      ["entry_id", "volume", "page", "building_no", "surname", "forename", "civil_status", "occupation_raw", "text"]),
     ("hausnummern", "Hausnummern 1900", ["05_hausnumerierung_1900.csv"], "row_id",
-     ["row_id", "page", "new_no", "surname", "alliance_name", "forename", "civil_status", "occupation_raw",
+     ["row_id", "volume", "page", "new_no", "surname", "alliance_name", "forename", "civil_status", "occupation_raw",
       "building_type", "old_no", "heading", "text"]),
     ("telefon", "Telefon", ["09_ptt_entries.csv"], "ptt_id",
      ["ptt_id", "ptt_source", "year", "name_raw", "rest", "street_raw", "no", "phone", "numbering",
@@ -333,8 +333,9 @@ const reported = {}; for (const f of REPORTED) reported[f.table + '|' + f.id] = 
 const $ = id => document.getElementById(id);
 const tabsEl = $('tabs'), q = $('q'), vol = $('vol'), conf = $('conf'), onlyflag = $('onlyflag');
 const thead = document.querySelector('#t thead'), tbody = document.querySelector('#t tbody'), more = $('more'), count = $('count');
-const vols = new Set(); for (const k in DATA) for (const r of DATA[k].rows) vols.add(r[1]);
-[...vols].sort().forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = v; vol.appendChild(o); });
+const VOLS = __VOLS__;  // nach Jahr geordnet (volume_order); Reiter ohne Spalte «volume» filtert der Band nicht
+const vi = k => DATA[k].cols.indexOf('volume');
+VOLS.forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = v; vol.appendChild(o); });
 for (const k in DATA) { const b = document.createElement('button'); b.setAttribute('role', 'tab'); b.textContent = `${DATA[k].label} (${DATA[k].rows.length.toLocaleString('de-CH')})`; b.dataset.k = k; b.onclick = () => { tab = k; shown = PAGE; render(); }; tabsEl.appendChild(b); }
 function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function save() { try { localStorage.setItem(KEY, JSON.stringify(flags)); } catch (e) {} }
@@ -399,7 +400,7 @@ function render() {
   const fi = colF ? d.cols.indexOf(colF) : -1;
   const chip = $('colfilter');
   if (colF && valF) {
-    const hits = Object.keys(DATA).map(k => { const j = DATA[k].cols.indexOf(colF); return [k, j < 0 ? 0 : DATA[k].rows.filter(r => r[j] === valF && (!vol.value || r[1] === vol.value)).length]; }).filter(([k, n]) => n > 0);
+    const hits = Object.keys(DATA).map(k => { const j = DATA[k].cols.indexOf(colF); return [k, j < 0 ? 0 : DATA[k].rows.filter(r => r[j] === valF && (!vol.value || vi(k) < 0 || r[vi(k)] === vol.value)).length]; }).filter(([k, n]) => n > 0);
     const shownLabel = labelF || valF;
     const other = hits.filter(([k]) => k !== tab).map(([k, n]) => `<button type="button" class="tabhit" data-k="${k}">${esc(DATA[k].label)}: ${n}</button>`).join('');
     chip.hidden = false;
@@ -408,7 +409,8 @@ function render() {
     for (const b of chip.querySelectorAll('.tabhit')) b.onclick = () => { tab = b.dataset.k; shown = PAGE; render(); };
   }
   else { chip.hidden = true; }
-  const rows = d.rows.filter(r => (!v || r[1] === v) && (!c || r[ci] === c) && (!colF || !valF || fi < 0 || r[fi] === valF) && (!onlyflag.checked || flags[tab + '|' + r[0]] || reported[tab + '|' + r[0]]) && (!needle || r.filter((_, i) => d.cols[i] !== 'other_volume').join(' ').toLowerCase().includes(needle)) && FS.test(r, d.cols));
+  const vc = vi(tab);
+  const rows = d.rows.filter(r => (!v || vc < 0 || r[vc] === v) && (!c || r[ci] === c) && (!colF || !valF || fi < 0 || r[fi] === valF) && (!onlyflag.checked || flags[tab + '|' + r[0]] || reported[tab + '|' + r[0]]) && (!needle || r.filter((_, i) => d.cols[i] !== 'other_volume').join(' ').toLowerCase().includes(needle)) && FS.test(r, d.cols));
   thead.innerHTML = '<tr><th>Flag</th>' + d.cols.filter(cc => !(d.hide || []).includes(cc)).map(cc => `<th>${esc(LABELS[cc] || cc)}</th>`).join('') + '</tr>';
   tbody.innerHTML = rows.slice(0, shown).map(r => {
     const key = tab + '|' + r[0];
@@ -457,6 +459,16 @@ render();
 """
 
 
+def volume_order(data: dict) -> list[str]:
+    """Die Bände für das Auswahlmenü: aus der Spalte «volume» jedes Reiters, nach Jahr geordnet.
+
+    Nicht jeder Reiter hat den Band in der zweiten Spalte (Telefon: Quelle), und als Zeichenkette sortiert stand
+    «10» vor «1833» (bis 25.11.2026 im Menü: Seitenzahlen und Telefonquellen zwischen den Jahren)."""
+    vols = {r[d["cols"].index("volume")] for d in data.values() if "volume" in d["cols"] for r in d["rows"]}
+    vols.discard("")
+    return sorted(vols, key=lambda v: (int(v[:4]) if v[:4].isdigit() else 9999, v))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--out", type=Path, required=True)
@@ -473,6 +485,7 @@ def main() -> None:
             .replace("__NAVCSS__", site_nav.CSS).replace("__FSPANEL__", site_nav.search_panel())
             .replace("__FSJS__", site_nav.FIELD_SEARCH_JS).replace("__FSTX__", json.dumps(site_nav.fs_texts(), ensure_ascii=False))
             .replace("__DATA__", json.dumps(data, ensure_ascii=False, separators=(",", ":")))
+            .replace("__VOLS__", json.dumps(volume_order(data)))
             .replace("__LABELS__", json.dumps(LABELS, ensure_ascii=False))
             .replace("__REASONS__", json.dumps(REASONS, ensure_ascii=False))
             .replace("__REPORTED__", json.dumps(reported, ensure_ascii=False))
