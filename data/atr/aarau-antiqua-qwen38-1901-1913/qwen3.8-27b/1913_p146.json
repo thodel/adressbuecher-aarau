@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p146",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p146.jpeg",
+    "bytes": 972775,
+    "sha256": "428574a18d2a4ed52433e8e3d4cf4611a6bafdbb08ff0a9cd262522668e3d795",
+    "sha256_of": "original",
+    "working_copy": "1913_p146.jpeg"
+  },
+  "text": "— 104 —\nBosshardt, Marie, Effingen. Kasinostraße 655.\nBourquin-Besson, Albert, Kommis, Sonvillier (Bern). Metzg. 81.\nBouvard, Amalia, Bureaulistin, Remetschwil. Hint. Bahnhofstr. 1006.\n— -Schulttheß, Joh., Güterexpedient, Remetschwil. Hintere Bahn-\n  hofstraße 1006.\n— Klara, Ladentochter, Remetschwil. Hintere Bahnhofstr. 1006.\n*Brändli-Erismann, Arnold, Bäckerei und Konitorei [tel]. Garten-\n  straße 1566.\n— Bertha, Fabrikarbeiterin, Unter-Bözberg. Ziegelrain 418.\n— Ernst, Kommis, Unter-Bözberg. Ziegelrain 418.\n— -Hug, Jakob, Fabrikarbeiter, Unter-Bözberg. Ziegelrain 418.\n— Jakob, Kommis, Unter-Bözberg. Ziegelrain 418.\nBracher & Widmer, Architekturbureau, Bahnhofstraße 578b. [tel]\nBrack-Boß, Alfred, Kaufmann. Bahnhofstraße 584.\n*— & Eich, Oele und Fettwaren, Kohlen en gros, mi gros [tel].\n  Bahnhofstraße 584.\n— Elise, Privatin. Bahnhofstraße 584.\n— Gottlieb, Buchhändler, Effingen. Graben 222.\n— Hedwig, Privatin. Bahnhofstraße 584.\n— -Uster, Heinrich, Oberstlt., Zeughausdirektor. Wiesenstraße 1892.\n— -Wälchli, Heinrich, Werkführer und Wirt [tel]. Kurhaus zum\n  Alpenzeiger. Alpenzeiger 1275.\n— Helene. Wiesenstraße 1892.\n— -Müllhaupt, Jakob, Privater. Bahnhofstraße 584.\n— Louise, Bureaulistin. Wiesenstraße 1892.\n— -Fehlmann, Sophie, Oekonoms Witwe. Bachstraße 1115.\n— Walter, Effingen. Graben 222.\nBrand's J. Nachfolger. Cigarrengeschäft. Vordere Vorstadt 326.\nBrand-Baumann, Witwe, Privatin. Vordere Vorstadt 326.\nBrandl-Schmid, Michael, Taglöhner, Sandsbach (Bayern). Halden 277 a.\nBrandenberger-Großenbacher, Hrch., Geometer, Flaach. Flößer-\n  straße 1802.\n*Brast, Geschwister, Emma u. Ida, Waffenhandlung. Holzmarkt 318.\nBreitenstein-Mutter, Johann, Gärtner, Bettwil. Obere Vorstadt 539.\nBrentano, Alice, Modistin, Laufenburg. Graben 216.\n— -Zimmermann, Gustav, Staatsanwalt, Laufenburg. Bachstr. 1070.\n— Sophie, Modistin, Laufenburg. Graben 216.\nBreuninger-Furter, Karl, Buchhändler, Stuttgart [tel]. Entfelder-\n  straße 1563.\nBrod-Strebel, Alfred, Maler. Wiesenstraße 1293.\nBrogie-Gautschi, Josef, Postfaktour, Sisseln. Tellrain 1774.\n— Walter, Aufseher, Sisseln. Tellrain 1774.\nBrogli-Husner, Josef, Taglöhner, Wittnau. Halden 287.\nBromberger-Schmid, Sophie, Privatin, Mellikon. Graben 216.\nBrosy, Elise, Privatin, Mümliswil. Bahnhofstraße 576.\n— -Miéville, Rudolf, Kreispostdirektor, Mümliswil. Bahnhofstr 576.\nBrügger-Sommerhalter, Christian, Werkmeister, Churwalden. Hin-\n  tere Bahnhofstraße 1008.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29866,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2424,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:14:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p146",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p146.jpeg",
+      "bytes": 972775,
+      "sha256": "428574a18d2a4ed52433e8e3d4cf4611a6bafdbb08ff0a9cd262522668e3d795",
+      "sha256_of": "original",
+      "working_copy": "1913_p146.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:14:37+00:00"
+  }
+}

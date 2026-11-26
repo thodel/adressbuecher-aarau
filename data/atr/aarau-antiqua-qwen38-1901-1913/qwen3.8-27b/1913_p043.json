@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p043",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p043.jpeg",
+    "bytes": 958048,
+    "sha256": "bd3b22123fd785263a393af2f5c0dcbc7e67877ac4cbde6902e2c122d15af206",
+    "sha256_of": "original",
+    "working_copy": "1913_p043.jpeg"
+  },
+  "text": "Haus-\nNr.\n— 27 —\n        Eichenberger, Fritz, Stadtarbeiter, Reinach.\n        Urben, Ida Frida, Inkwil.\n300 * Keller-Hauri, Wilhelm, Pferdedwärter, Ober-Endingen.\n        Schenker, Eduard, Handlanger, Däniken (Solothurn).\n        Valsecchi, Carlo, Maurer, Valmadera (Italien).\n        Gilardi-Valsecchi, Luigi, Präparateur, Calolzio (Italien).\n        Nußbaum-Senn, Friedrich, Gasarbeiter, Densbüren.\n        Valsecchi-Nußbaum, Giacomo, Handlanger, Valmaderera (Ital.).\n301 * Keller-Hauri, Wilhelm, Pferdedwärter, Ober-Endingen.\n        — -Perret, Wilhelm, Briefträger,\n302         Brunner-Seiler, Rosa, Taglöhnerin.        \"\n        Wächter-Lindenmann, Louise, Witwe, Wäscherin, Mönthal.\n        Schenker-Weber, Adrian, Stadtarbeiter, Rothacker (Soloth.).\n        — Emil, Stadtarbeiter, Rothacker (Solothurn).\n        Hunziker-Infanger, Emil, Schlosser, Moosleerau.\n304     Spillmann-Buser, Augustin, Schuhfabrikarbeiter, Ober-Gösgen.\n305 * Elsasser-Weickgenannt, Rosa, Witwe, Abwartin z. Bruderloge.\n        Vaccani-Casati, Saverio, Schreiner, Nessò (Italien).\n        Tassinari-Redi, Giuseppe, Handlanger, Premilenore (Italien).\n        Göring-Schlapbach, Karl,        Basel.\n        Heimbürger-Gautschi, Ludwig, \"\n        Gloor-Gloor, Heinrich, Konfiseur, Kolmar.\n        Zimmermann, Birrwil.\n309     Schäfle-Flach, Leo, Bierbrauer, Balgheim (Württemberg).\n        Pasotti-Muratori, Giuseppe, Handlanger, Saludecio (Italien).\n310     Adrion-Stauß, Andreas, Hafner, Alpirsbach (Württemberg).\n        — Hedwig, Alpirsbach (Württemberg).\n        Wasser-Bürgi, Gottlieb, Schuhmacher, Gränichen.\n311 * Adrion-Stauß, Andreas, Hafner.\n        Engelberger-Adrion, Marie Bertha, Witwe, Ladentochter, Stans-\n        stad.\n312     Berchem-Weiß, Peter, Schuhmachermeister, Senningen (Luxem-\n        burg).\n        — Mathilde, Fabrikarbeiterin, Senningen (Luxemburg).\n313     Zezzi-Frei, Eugen, Maurer.\n        Burkhart-Hilfinger, Josef, Taglöhner, Waldshut.\n        Lüscher, Marie, Köchin, Moosleerau.\n        Leri-Kirchhofer, Moritz, Schneidermeister, Leibstadt.\n314 * Ortsbürgergemeinde Aarau.\n        Hemmeler-Lange, Adelheid, Taglöhnerin.\n315     Dietiker, Geschwister, Thalheim.\n        — Elisabeth, Fabrikarbeiterin, Thalheim.\n        — Anna,\n        — Johannes, Schuhmacher,        \"\n        Furter, Rudolf, Maurer, Staufen.        \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 20077,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2332,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:43:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p043",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p043.jpeg",
+      "bytes": 958048,
+      "sha256": "bd3b22123fd785263a393af2f5c0dcbc7e67877ac4cbde6902e2c122d15af206",
+      "sha256_of": "original",
+      "working_copy": "1913_p043.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:43:22+00:00"
+  }
+}

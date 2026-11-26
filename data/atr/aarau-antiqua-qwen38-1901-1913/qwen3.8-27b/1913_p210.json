@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p210",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p210.jpeg",
+    "bytes": 896326,
+    "sha256": "b42598fca9a0f60e933760351929efee6fbe24a35a3da76a427a91caa3ba5e45",
+    "sha256_of": "original",
+    "working_copy": "1913_p210.jpeg"
+  },
+  "text": "— 168 —\nSiebenmann-Merz, Emil, Fondsverwalter der Stadt Aarau. Oberholz-\n  straße 1509.\n— Emilie, Klavierlehrerin. Bachstraße 1062.\n— Emmy. Rain 1565.\n— Fanny, Part. Bachstraße 1089.\n— Fried., Part. Hintere Vorstadt 363.\n*— Fritz und Hans, Adlerbrauerei. Bureau [tel]. Hohlkasse 536.\n*— Fritz, Eisenwarenhandlung [tel]. Rain 436.\n— -Hodel, Fritz, Eisenhändler. Rain 1565.\n— -Meyer, Fritz, Bierbrauer. Mitinhaber der Adlerbrauerei. Obere\n  Vorstadt 545.\n— Gottl., Privatier. Rain 451.\n— -Hemmeler, Gustav, March.-Tailleur. Obertor 241.\n— -Kuhn, Hans, Mitinhaber der Adlerbrauerei [tel]. Jenseits der\n  Aare 1234.\n— Jakob, Privatier. Entfelderstraße 1410.\n— -Siebenmann, Karoline, Part. [tel] Gartenstraße 1433.\n— -Schmidt, Karls Wwe., Privatin. Oberholzstraße 482.\n— Luise, Pfründerin. Halden 261.\n— -Brunnhofe, Marie, Wwe. Hintere Vorstadt 359.\n— Marie, Primarlehrin. \" \" 359.\n— Marie, Modistin. Rain 1565.\n— -Schaffner, Otto, Koch, Spirituosenhändler. Kasinstraße 645.\n— -Walther, Otto, Privatier. Oberholzstraße 468.\n— Rosa, Insaßin. Halden 261.\n— -Hagnauer, Rosa, Bierbrauers Witwe, Part. [tel] Jenseits der\n  Aare 1234.\n— Rud., Part. Bankstraße 1047.\nSiedler-Liecht, Marie, Witwe, Köchin, Küßnacht (Schwyz). Adel-\n  bändli 176.\nSiegfried-Leupold, Fritz, Staatsbuchhalter, Zofingen [tel]. Erlins-\n  bacherstraße 1298.\nSiegrist-Gamp, Adolf, Ausläufer, Meisterschwanden. Rain 506.\n— -Gloor, Adolf, Monteur, Unter-Bözberg. Kronengasse 45.\n— -Müller, Albert, Spezereihandlung, Meisterschwanden. Obere\n  Vorstadt 526.\n— Eichenberger, August, Postbeamter, Vordemwald. Hinteres\n  Zelgli 1736.\n— -Hunziker, Emil, Privatier. Rain 495.\n— -Maier, Emil, Kommis, Meisterschwanden. Bachstraße 1069.\n— Hch., Metzgermeister, Schweinemetzgerei. Rain 431.\n— Hch., Bankbeamter. Rain 431.\n— Hermann, Metzger. Rain 431.\n*— -Holliger, Hermann, Hotelier, Gasthof z. Rößli, Meisterschwan-\n  den [tel]. Metzgergasse 73.\n— Hiob, Handelsangestellter, Netstall (Glarus). Gartenstraße 1435.\n— Jakob, Privatier, Eltngen. Stritengäßchen 1218.\n— -Hug, Jakob, Metzgerm., Meisterschwanden [tel]. Milchgasse 149.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41255,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2080,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 41.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:51:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p210",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p210.jpeg",
+      "bytes": 896326,
+      "sha256": "b42598fca9a0f60e933760351929efee6fbe24a35a3da76a427a91caa3ba5e45",
+      "sha256_of": "original",
+      "working_copy": "1913_p210.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:51:28+00:00"
+  }
+}

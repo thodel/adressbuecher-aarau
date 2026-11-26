@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p109",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p109.jpeg",
+    "bytes": 872615,
+    "sha256": "74a19b68462a243ee695f74a1ccb85bd170531d0c7034eb13560ea91b216eaa8",
+    "sha256_of": "original",
+    "working_copy": "1901_p109.jpeg"
+  },
+  "text": "96\nGamper, geb. Haßler, Bäckers Witwe, Metzgergasse 74.\n— Hermann, Kaufmann, [tel] Feerstraße 697.\nGanser, Georg, Schneider, Rathausgasse 15.\nGanter, Heinrich, Dr., Professor, Bachstraße 1099.\nGantner, Arnold, Sattler, Metzgergasse 75.\n— Gottlieb, Oekonom, Schloßplatz 202.\n— Hermann, Oekonom, Schloßplatz 202.\n— geb. Richner, Oekonom's Witwe, Schloßplatz 202.\nGasfabrik, [tel] Gasstraße (Zollrain) 1173.\nGasser & Cie., [tel] Seidenbandfabrikation, Laurenzenvorstadt 730.\n— Emanuel, Fabrikant, z. „Tanneck\", Rohrerstraße 916.\nGautschi, Friedrich, Commis, Gönhardfeldweg 1440.\n— Friedrich, Sohn, Oekonom, Telli 876.\n— Jakob Gottlieb, Polizeisoldat, Bachstraße 1066.\n— -Maculin, Katharina, Wirtin zum Frohsinn, [tel] hinter dem Bahn-\n  hof 1005.\n— Rudolf, Oekonom, Telli 876.\n— Rudolf, Sohn, Oekonom, Telli 876.\n— Samuel, gewesener Kantonsingenieur, hintere Vorstadt 366.\nGehrig, Adolf, Reisender, Gartenstraße 1429.\n— Karl, Gärtner, Rathausgasse 9.\nGeiger, Karoline, Part., obere Vorstadt 551.\nGeissmann, Xaver, Sekretär, Graben 225.\nGenossenschaft von Landwirten und Milchhändlern von Aarau und\n  Umgebung, Präsident: Abraham Brack, Bachstraße 1115.\nGerber, Emil, Wirt zum Affenkasten, [tel] vordere Vorstadt 329.\n— Gustav, Marchand-Tailleur, [tel] vordere Vorstadt 327. Arbeiter-\n  kleidermagazin hintere Vorstadt 360.\n— Hans, Hôtelier, [tel] Bahnhofstraße 575.\n— geb. Hassler, Luise Elisab., Witwe, Part., vordere Vorstadt 327.\nGerodetti, Virgilius, Marmorgeschäft, [tel] hinter dem Bahnhof 1041.\nGersbach, Sebastian, Zahnarzt, Laurenzenvorstadt 701.\nGerster geb. Rutz, Rosa, Part., Buchserstraße 955.\nGertiser geb. Andres, Maria, Witwe, Rain 430.\nGesellschaft für Vieh- und Pferdezucht im Kanton Aargau. Präsi-\n  dent: J. Plüss-Angst in Brittnau.\nGessner, August, Dr. phil., Professor, Laurenzenvorstadt 701.\nGewerbe-Halle Aarau, Holzmarkt 316.\nGewerbe-Museum, kantonales, Bahnhofstraße 594.\nGfeller, Joh. Gottfried, Müller, Ziegelrain 416.\nGiger, Anna, Part., Tellirain 837.\n— Jakob, Polizei-Wachtmeister, hintere Vorstadt 378.\n— Jakob, Schreiner, Wäscherei, Flößerstraße 1180.\nGing, August, Schmied, Taglöhner, Stadthof 85.\n— geb. Hunziker, Klara, Vorgängerin, Rathausgasse 4.\n— Wilhelm, Wagner, Milchgasse 151.\nGisi, Johann, Taglöhner, Gasstraße 1172.\n— Samuel, Schreinermeister, Stadthof 83a.\n— von Arx, Viktor, Tuchhandlung, Holzmarkt 321.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 37862,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2347,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:39:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p109",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p109.jpeg",
+      "bytes": 872615,
+      "sha256": "74a19b68462a243ee695f74a1ccb85bd170531d0c7034eb13560ea91b216eaa8",
+      "sha256_of": "original",
+      "working_copy": "1901_p109.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:39:10+00:00"
+  }
+}

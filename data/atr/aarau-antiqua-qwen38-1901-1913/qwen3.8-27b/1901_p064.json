@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p064",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p064.jpeg",
+    "bytes": 726070,
+    "sha256": "c0cacf4f484f787cf970352b37347bd136f6a7dfc53f9a78a057f8f7d7fdcac7",
+    "sha256_of": "original",
+    "working_copy": "1901_p064.jpeg"
+  },
+  "text": "53\nHaus-\nNr.\n818 † — Schuppen.\n819 † — Wärterhaus.\n820 † — Weichenstellhaus.\n821 † — Wärterhaus.\n822 † — \"\n823 † — \"\n824 † — Weichenhaus.\n825 † — Abtritt.\n826 † — Wärterhaus.\n827 † — \"\n828 † — \"\n829 † — Weichen-Signal.\n830 † — Abtritt.\n831 † — Remise und Schuppen.\n831a † — Magazinschuppen, westlicher Teil.\n831b † Hoch, Gustav, östlicher Teil. [tel] Warenlager.\n832 † Lagerhäuser der Centralschweiz. [tel] Lagerhaus.\n833 † — Maschinenhaus.\n\nTellirain.\n\n834 Brogli-Gautschi, Josef, Briefträger, von Sisseln.\n  Käser-Knupp, August, Reisender, von Erlinsbach (Solothurn).\n835 * Derselbe.\n  Husi-Lämmlli, Franz J., Wagenvisitur, von Wangen (Soloth.)\n1498 Gamp-Spreuer, Philipp, Aufseher, von Hornussen.\n  Eckert-Fohlenbacher, Clemens, Maschinist, von Dogern (Baden).\n836 Kyburz, Verena, Taglöhnerin, von O.-Entfelden.\n  Schubiger-Stahl, Joseph, Ausläufer, von Uznach (St. Gallen).\n  Grütter-Hochuli, Peter, Heizer, von Gretzenbach (Solothurn).\n837 Ernst-Rey, Gustav, Landwirt.\n  Giger, Anna, Part, von N.-Gössen (Solothurn).\n\nTellii.\n\n838 † Staat Aargau. Turnhäuschen.\n839 † Gemeinde Aarau. Spritzenhaus (Nr. 5).\n840 Frey-Herzog, August, Fabrikat. chemischer Produkte. [tel] Bureau\n  der Firma Frey & Cie.\n841 † Derselbe. Scheune.\n842 † \" Magazin­gebäude.\n843 † \" Magazin und Anbauen.\n844 † \" Fabrikationsgebäude.\n845 † \" Hauptgebäude.\n846 † \" Magazin und Waschhaus.\n847 † \" Magazin.\n848 † \" \"\n849 † \" Schuppen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 84333,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1408,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 28.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:24:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p064",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p064.jpeg",
+      "bytes": 726070,
+      "sha256": "c0cacf4f484f787cf970352b37347bd136f6a7dfc53f9a78a057f8f7d7fdcac7",
+      "sha256_of": "original",
+      "working_copy": "1901_p064.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:24:18+00:00"
+  }
+}

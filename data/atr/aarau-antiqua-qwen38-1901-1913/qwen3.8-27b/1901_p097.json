@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p097",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p097.jpeg",
+    "bytes": 850610,
+    "sha256": "735a55230b8b692199265b31c094753c2a230841aafdb385b17f0c47be346dc6",
+    "sha256_of": "original",
+    "working_copy": "1901_p097.jpeg"
+  },
+  "text": "84\nBachofen, Johann Friedrich, Sekretär, Milchgasse 152.\nBadanstalt, städtische, jenseits der Aare 1235.\nBaldeschwuler, Mathilde, Part., Entfelderstraße 1378.\nBaldinger, Roman, Wirt, Gasthof z. Rögli, Metzgergasse 73.\n— geb. Wirz, Josephine, Ladenvorsteherin, Oberthor 243.\nBallmer, Karl, Bankangestellter, Graben 212.\n— Marie und Karolina, Wäscherinnen und Glätterinnen, Laurenzen-\n  thor gasse 118.\nBally, Eugen, Fabrikant, [tel] Rohrerstraße 910. Bureau Laurenzen-\n  vorstadt 758.\n— geb. Schmitter, Adeline, Fabrikants Witwe, Buchserstraße 987.\n— Söhne, C. F., [tel] Schuhfabrik, Kättigerstraße 1255.\nBamberger geb. Schwarz, Anna, Witwe, Taglöhnerin, Halden 277b.\nBannwart, Wilhelm, Schriftsetzer, Milchgasse 135.\nBanga, Jean, Kaffeewirtschaft, Bahnhofstraße 560.\nBargetzi, Oswald, Ingenieur, Entfelderstraße 1384.\nBasler, Peter, Kantonsgeometer, hinter dem Bahnhof 1033.\n— Johann, Briefträger, Schachen 1124.\nBaugeschäft M. Zschokke. Rohrerstraße 903.\nBauhofer, Emil, Bankbeamter, Feerstraße 692.\n— Maria, Lehrerin, Zeughausstraße 665.\nBaumann, Alfred, Kaufmann, Gasstraße 1171.\n— geb. Baumann, Ida, Witwe, [tel] Wirtin zum Freihof, Laurenzen-\n  vorstadt 745.\n— Elise, Damenschneiderin, Kasinostraße 641.\n— Emma, Modistin, Pelzgasse 91.\n— Emil, Kaufmann, vordere Vorstadt 336.\n— Eugen, Kaufmann, Weinhändler, [tel] obere Vorstadt (Hohl-\n  gasse) 1373.\n— Friedrich, Kaufmann, Strittengäßchen 1151.\n— geb. Frei, Anna, Näherin, Milchgasse 128.\n— Gebr., [tel] Weinhandlung, Laurenzenvorstadt 745.\n— Georg, Kaufmann, Bazar, Graben 215.\n— Gottlieb, Schneider, Kasinostraße 641\n— Johann, Kanzlist, Torfeldstraße 943.\n— Johann, Bauamtarbeiter, Milchgasse 131.\n— Karl, Kaufmann, Weinhändler, Feerstraße 695.\n— geb. Käser, Susanna, Witwe, Rain 507.\n— Marie, Ladentochter, Graben 215.\n— -Wälti, Maria, Milchverkäuferin, Kaffeewirtschaft, hintere Vor-\n  stadt 376.\n— Samuel Johann, Schmied, Entfelderstraße 1404.\n— Simon, Fuhrmann, Halden 268.\nBaumeister, Wendolin, Schneider, Pelzgasse 106.\nBaumgartner, Adolf, Commis, Laurenzenthorgasse 118.\n— Anton, Bäckermeister, Zollrain 56.\n— Emil, Telegraphist, Kronengasse 43.\nBaur, Bernhard, Schneider, Pelzgasse 92.\n— Ludwig, Buchhändler, Bachstraße 1110.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 42051,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2191,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:34:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p097",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p097.jpeg",
+      "bytes": 850610,
+      "sha256": "735a55230b8b692199265b31c094753c2a230841aafdb385b17f0c47be346dc6",
+      "sha256_of": "original",
+      "working_copy": "1901_p097.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:34:02+00:00"
+  }
+}

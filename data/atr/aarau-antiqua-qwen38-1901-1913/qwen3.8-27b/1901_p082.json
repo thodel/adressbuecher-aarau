@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p082",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p082.jpeg",
+    "bytes": 780589,
+    "sha256": "cc2f3c1e7e6f48f94d34602b0fb0755ea362b48a5bd47a988efc0f34236b6e6a",
+    "sha256_of": "original",
+    "working_copy": "1901_p082.jpeg"
+  },
+  "text": "71\nHaus-\nNr.\n  Blattner, Emil Hugo, Dr. jur., Fürsprech und Notar. Advokatur-\n  bureau: Obere Vorstadt 948.\n  — Anna, Seminarlehrerin.\n1259 † Dieselbe. Holzschopf.\n1260 Bircher-Sasson, Andreas, Kaufmann, von Küttigen u. Kairo.\n  — Andreas, Part., von Küttigen.\n  Schmid-Herzog, Albert, Oberstlieutenant, Instr.-Offizier, von\n  Egelskofen-Kreuzlingen.\n  — -Marti, Anna, Haushälterin, von Staufen (Baden).\n1261 Stähelin-Herzog, Alfred, Dr. med., von Basel, [tel] Rentier.\n  „Villa zum Kirschgarten“.\n1262 † Derselbe. Wohn-, Gewächs-, Treib- und Glättehaus.\n1263 †   „  Scheune und Schopf.\n1264 †   „  Holzhaus, Kohlenbehälter und Schweinestall.\n1265 †   „  Hühnerhaus.\n1266 †   „  Gewächshaus.\n1267 †   „  Treibhaus.\n1268 Gamper-Baumann, Emil, March.-Tailleur. [tel] (Zur Schönau).\n  Billo-Bohrer, Feodor, Fabrikant.\n1269 † Derselbe. Treibhaus.\n1270 †   „  Hühnerhaus.\n\n  Gishügel.\n\n1271 Zschokke-Sauerländer, Maria, Witwe [tel], „Zur Blumenhalde“.\n1272 † Dieselbe. Waschhaus und Holzschopf.\n1273 †   „  Hühnerhaus.\n1274 †   „  Pavillon.\n1275 [tel] Brack-Wälchli, Joh. Heinrich, Fabrikaufseher. Wirthschaft\n  z. Alpenzeiger. Kurhaus.\n1276 † Derselbe. Stall und Anbau.\n1277 †   „  Holzhaus.\n\n  Weinberg.\n\n1278 * Siebenmann-Hagnauer, Friedrich, Bierbrauer. [tel] Wirthschaft\n  „zum Weinberg“.\n  Bärtschi-Minder, Jakob, Wirt „zum Weinberg“, von Lützel-\n  flüh (Bern). Speisewirthschaft.\n1279 * Derselbe. Wohnhaus und Kegelbahn.\n  Kraft-Schönberger, Hermann, Steindrucker, von Berlin.\n  Fischer-Kaufmann, Fritz, Maschinist.\n1280 Plüss-Wälchli, Friedrich Rudolf, Landwirt, von Ryken.\n  — — Lea, Hebamme, von Ryken.\n  Linnhof-Gleich, Max, Photograph, von Tuisburg (Preußen).\n  Benninger-Jung, Jakob, Bahnangestellter, von Murten.\n  Mollet-Schmid, Gottfried, Schneider, von Biezwyl (Solothurn).\n  Ulrich, Marie, Weißnäherin, von Sattel (Schwyz).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 37731,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1836,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:30:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p082",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p082.jpeg",
+      "bytes": 780589,
+      "sha256": "cc2f3c1e7e6f48f94d34602b0fb0755ea362b48a5bd47a988efc0f34236b6e6a",
+      "sha256_of": "original",
+      "working_copy": "1901_p082.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:30:17+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p202",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p202.jpeg",
+    "bytes": 760284,
+    "sha256": "5f0335a3ec764d884009a00e2b1acd3d3446249a3c092c8de46e6e6b87206320",
+    "sha256_of": "original",
+    "working_copy": "1901_p202.jpeg"
+  },
+  "text": "189\nd. Kantonale Krankenanstalt.\n  (Buchserstraße.)\nAnstaltsärzte:\n  Oberärzte: Dr. Bircher, Heinrich, für die chirurgische Ab-\n  teilung; zugleich Direktor.\n  Kalt, Alfred, für die medizinische Abteilung mit Gebäranstalt\n  und Hebammenschule.\n        Tarif:\n  (s. Kostenvergütungsdekret vom 10. Juli 1888):\n  Die tägliche Verpflegungstaxe beträgt bei Verpflegung in den\ngewöhnlichen Krankensälen für selbstzahlende Patienten je nach\nihren Vermögens- und Erwerbsverhältnissen\n  wenn sie Kantonsbürger sind 90 Cts. bis Fr. 3.\n  „ „ Nichtkantonsbürger „ Fr. 2 bis Fr. 4.\n  Kantonsangehörige Kinder unter 10 Jahren bezahlen 70 Cts.\nbis Fr. 2. Kantonsfremde Kinder mindestens Fr. 1. 50.\n  Die aargauischen Gemeinden bezahlen für kranke Angehörige\nje nach ihren Steuerverhältnissen 90 Cts. bis Fr. 1. 50, für Kinder\nunter 10 Jahren 70 Cts. bis Fr. 1. 30.\n  Bei Verpflegung in besonders Zimmern beträgt die Taxe für\nKantonsbürger mindestens Fr. 4, für Nichtkantonsbürger mindestens\nFr. 5.\n\ne. Gemeinnützige Geldinstitute.\n  Allgemeine aargauische Ersparniskasse.\nPräsident: Vakat.\nVizepräsident: Dr. Zschokke, Arnold, Staatsschreiber.\nGeschäftsführer: R. Wehrli-Peyer.\n\n  Sparkasse zu Aarau.\nPräsident: Amsler, Emil, Fürsprech.\nGeschäftsführer: P. Schmid-Wolf.\n\nf. Gemeinnützige Anstalten verschiedener Art.\n  Taubstummen-Anstalt Aarau auf Landenhof.\n  Anstalt für schwachsinnige Kinder auf Schloss Biberstein.\n  (Rechtsdomizil Aarau.)\n  Armen-Erziehungsanstalt auf Schloss Kasteln.\n  (Rechtsdomizil Aarau.)\n  Diakonissen-Station.\n  (Bahnhofstraße.)\n  Krankenmobilienmagazin Aarau.\n  (Im städtischen Armenhaus.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 33880,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1605,
+    "lines": 41,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0244,
+    "mean_line_chars": 36.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:16:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p202",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p202.jpeg",
+      "bytes": 760284,
+      "sha256": "5f0335a3ec764d884009a00e2b1acd3d3446249a3c092c8de46e6e6b87206320",
+      "sha256_of": "original",
+      "working_copy": "1901_p202.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:16:20+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p025",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p025.jpeg",
+    "bytes": 969872,
+    "sha256": "16b95d92639dab8ec635394976d129ebbe3d4914715947dc112377177f7d385c",
+    "sha256_of": "original",
+    "working_copy": "1913_p025.jpeg"
+  },
+  "text": "— 11 —\nHaus-\nNr.\n106 Von Däniken-Roth, Emil, Weinhändler, Ober-Erlinsbach.\n  Firma: E. Von Däniken & Cie., Weinhandlung. [tel]\n  Roth, Hedwig, Ladentochter, Ober-Erlinsbach.\n  Walther-Härdi, Adolf, Mechaniker, Nähmaschinenhandlung.\n  Frey, Eduard, Privatier.\n  — August, Jurist.\n  — Johanna, Klavierlehrerin.\n  Reich, Emma Pauline, Privatin, St. Gallen.\n  — Anna Marie, Magd, Freudenstadt.\n  Zimmermann, Emil, Ingenieur, Basel.\n  Wilhelm-Huldi, Frida, Privatin, Merheim.\n106a* Weber-Lüscher, Otto, Privatier.\n  Lüscher-Gloor, Marie, Seidenwarengeschäft, Muhén.\n  — — Karl, Weinhandlung, Muhén. [tel]\n  Gloor-Meier, Adolf, Buchbinder, Birrwil.\n  — — Hedwig, Hebamme,  \"\n  — -Stalder, Christine, Privatin,  \"\n107 Ingold-Fehr, Walter, Metzgermeister, Herzogenbuchsee. [tel]\n108 Hunziker-Baumberger, Rudolf, Primarlehrer.\n  — -Brunnhöfer, Rud., Tapezierermeister. Tapezierergeschäft,\n    Möbel- und Bettwarenhandlung.\n109 * Walther-Härdi, Adolf. [tel] Nähmaschinen-, Velo- und Fourni-\n    turenhandlung, Reparaturwerkstätte.\n  Wernli-Schmidli, Kaspar, Stadtarbeiter, Thalheim.\n  Holliger, Verena, Taglöhnerin, Boniswil.\n  Sommerhalder-Stettler, Otto, Milchrändler.\n110 Gysi-Bächli, Adolf, Tapezierermeister [tel]. Möbelhandlung.\n  — Adolf, Sohn, Tapezierer.\n  Gloor-Wildi, Susanna, Privatin, Rapperswil.\n111 Rychner-Vogt, Anna, Witwe, Seilereigeschäft. Seilerwaren-\n    und Peitschenlager, Fettwaren und Fischereiartikel.\n112 Wahl, Johann, Schuhmachermeister. Reparatur- u. Maßgeschäft.\n113 Fischer-Dietiker, Fritz, Telegrapharbeiter, Tennwil.\n  Anliker-Gloor, Ernst, Käse- und Butterhandlung, Gondiswil\n    (Bern) [tel].\n  Schiesser, Margrit, Privatin.\n\n  Laurenzentorgasse.\n114 Schmid-Fischer, Heinrich, Kaufmann, Manufakturwarenhandlg.\n  Schenkel-Wetter, Peter, Kaufmann, Basel.\n  Schenkel-Wetter, Hedwig, Modegeschäft, Basel.\n  Waßmer-Schmid, Ernst, Schneidermeister.\n115 u. 116. Jäcker-Haller, Josef, Comestibles [tel].\n  Märki-Amsler, Jakob, Küfermeister.\n117 Burkhardt-Graf, Ferd., Coiffeur und Chirurg. Coiffeur- und\n    Toilettengeschäft.\n  Gottmann, Emil, Kleiderfärberei und chem. Waschanstalt, Baden.\n  Schmid-Jakober, Rosa, Zuzgen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 47422,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2140,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:32:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p025",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p025.jpeg",
+      "bytes": 969872,
+      "sha256": "16b95d92639dab8ec635394976d129ebbe3d4914715947dc112377177f7d385c",
+      "sha256_of": "original",
+      "working_copy": "1913_p025.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:32:49+00:00"
+  }
+}

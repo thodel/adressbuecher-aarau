@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p207",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p207.jpeg",
+    "bytes": 928118,
+    "sha256": "f0d0c5f1d22c62e3f498e711235c7d5348ddc04a0f01b1861665e051afe4e1e0",
+    "sha256_of": "original",
+    "working_copy": "1913_p207.jpeg"
+  },
+  "text": "— 165 —\nSchmuziger-Stäheli, Adolf, Tinten- und Siegellackfabrikant [tel].\n  Buchserstraße 1578.\n— Anna, Aufseherin. Hintere Bahnhofstraße 1044.\n— -Lackerbauer, Arnold, Ing. [tel] Laurentzenvorstadt 705.\n*— & Cie., Fabrikation von Tinten, Siegellack, Klebstoffen, Buch-\n  und Steindruckfarben [tel]. Buchserstraße 1578.\n— -Lang, Elisabeth, Wwe., Wäscherin. Zollrain 63.\n— -Kollers Erbschaft. Laurentzenvorstadt 717.\n— Fanny, Bureaulistin. Rain 441.\n— Friedr., Dr. med., Arzt [tel]. Entfelderstraße 1409.\n— -Lüdemann, Hans, Kaufmann. Buchserstraße 981.\n— Helena. Buchserstraße 1578.\n— -Großenbacher, Herm., Malermeister. Rain 501.\n— — Herm., Malerwerkstätte. Rain 441.\n*— Jean, Baumeister [tel]. Aarestraße 1227.\n— -Hünerwadel, Joh., Baumeister. Feerstraße 692.\n— Karl, Packer. Rain 441.\n— Lina, Privatin. Oberholzstraße 479.\n— -Dietrich, Louis, Pfarrer. Bahnhofstraße 561.\n— -Rüetschi, Marie, Part. Hintere Bahnhofstraße 1044.\n— -Zulauf, Marie, Witwe, Privatin. Adelbändli 171.\n— Olga, Ladentochter. Flößerstraße 1193.\n— Othmar, Kaufmann. Rain 441.\n— -Freudiger, Sophie, Wwe. Rain 441.\n— -Visel, Wilhelmine, Witwe. Flößerstraße 1193.\nSchneeberger-Salvi, Jakob, Kaufmann, Vordemwald. Entfelder-\n  straße 1400.\nSchneider, Adolf, Apothekergehilfe, Winterthur. Rathausgasse 7.\n— Albert, Bautechniker, Thalheim. Scheibensehachen 1337.\n— -Krall, Barbara Elise, Witwe. Golattenmattgasse 253.\n— Elise, Bureaulistin, Thalheim. Scheibenschachen 1337.\n— Elsa, Fabrikarbeiterin, Thalheim. Stritengäßchen 1576.\n— Emil, Prof., Seeberg (Bern). Spitalgäßli 1716.\n— Emil, Schreiner, Thalheim. Scheibenschachen 1337.\n— -Zellweger, Emil, Schlossermeister. Mechan. Bauschlosserei.\n  Golattenmattgasse 253.\n— Frieda, Fabrikarbeiterin, Thalheim. Stritengäßchen 1576.\n— -Richner, Gustav, Dr. Fürsprech, alt Oberrichter. Advokatur-\n  und Notariatsbureau [tel]. Obere Vorstadt 548.\n— -Dietiker, Joh., Holz- und Kohlenhändler, Thalheim [tel]. Rohrer-\n  straße 1809.\n— Karl, Architect, Architecturbureau [tel]. Bahnhofstraße 578b.\n— -Basler, Karl, Architect, Thalheim [tel]. \" 578b.\n  — -Bruckner, Lina, Privatin. Bahnhofstraße 591.\n  — Marie, Fabrikarbeiterin, Thalheim. Stritengäßchen 1576.\n  — Markus, Schneider, Waldmössingen (Wttbg.). Obere Vorstadt 547.\n  — -Siegenthaler, Max, Hilfsarbeiter, Ehingen. Milchgasse 150.\n  — Mina, Fabrikarbeiterin, Thalheim. Stritengäßchen 1576.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 57799,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2354,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:49:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p207",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p207.jpeg",
+      "bytes": 928118,
+      "sha256": "f0d0c5f1d22c62e3f498e711235c7d5348ddc04a0f01b1861665e051afe4e1e0",
+      "sha256_of": "original",
+      "working_copy": "1913_p207.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:49:55+00:00"
+  }
+}

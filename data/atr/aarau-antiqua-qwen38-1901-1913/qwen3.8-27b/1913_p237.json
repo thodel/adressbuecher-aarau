@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p237",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p237.jpeg",
+    "bytes": 798993,
+    "sha256": "8d8dfbd53859c426beb2123070278418ab77da78e9b7df63b9b74f87e5ff1e60",
+    "sha256_of": "original",
+    "working_copy": "1913_p237.jpeg"
+  },
+  "text": "— 203 —\nPluß-Amstutz. Hintere Vorstadt 377.\nScheibler, Alfred. Adelbändli 174.\nWerfeli, Mina. Buchserstraße 921.\nBierdepôts.\n*Aktienbrauerei Basel. Schilling-Döbeli [tel]. Zollrain 60.\n*Aktienbrauerei Feldschlößchen Rheinfelden. Pfisterer-Rohr. [tel]\n  Bahnhofstraße 586.\nBijouteriewaren.\n*Dätwiler, Gottfried. Kasinostraße 661.\n*Fischer, Jonathan [tel]. Holzmarkt 322.\nGebel-Wilhem, E. Bahnhofstraße 560.\n*Roschach-Wärtli, A. Rathausgasse 24.\n*Schöni, Ernst [tel]. Vordere Vorstadt 325.\nBildhauer.\n*Freihofer-Rusterholz, Jakob. Rainstraße 506.\n*Gerodetti, Söhne [tel]. Hinter dem Bahnhof 1041.\nBlumenhandlungen.\nBonneck, Max [tel]. Kasinostraße 655.\n*Großmann, Otto [tel]. Graben 221.\nKäser, Emil, Gärtner. Stritengäßchen 1200.\nKistler, Fritz [tel]. Jenseits der Aare 1245.\nVogler, Julius, Stadtgärtner [tel]. Obere Vorstadt 549.\nWehrli, Johann, Gärtner [tel]. Flöserstraße 1148.\nBonneteriewaren.\n*Erwin, A., Witwe [tel]. Rathausgasse 13.\n*Erny-Bauer, C [tel]. Magazine zu den 4 Jahreszeiten Kronengasse 42\n  und Filialmagazine Bahnhofstraße 1812.\nBrauereien.\n*Ryniker-Wirth, Karl [tel]. Brauerei Laurezentorgasse 125. Bureau\n  Metzgergasse 76.\n*Siebenmann, F. und H., Adlerbrauerei [tel]. Hohlgasse 536.\nBroderiewarenhandlungen.\n*Brugg-Gränicher, Henriette, Graben 226.\n*Gräßli-Grob, Anna. Filiale der Firma Zuberbühler & Co., Stickerei,\n  Zurzach. Laurezentorgasse 126.\n*Hauri-Gränicher, Witwe. Hintere Vorstadt 385.\nWidmer, Emma. Pelzgasse 104.\nBüchsenmacher.\nSommerhalder, Hermann. Hintere Vorstadt 368.\nWidmer, Franz. Zollrain 56.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28156,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1536,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.29,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:05:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p237",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p237.jpeg",
+      "bytes": 798993,
+      "sha256": "8d8dfbd53859c426beb2123070278418ab77da78e9b7df63b9b74f87e5ff1e60",
+      "sha256_of": "original",
+      "working_copy": "1913_p237.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:05:49+00:00"
+  }
+}

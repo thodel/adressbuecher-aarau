@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p159",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p159.jpeg",
+    "bytes": 1016905,
+    "sha256": "861ed44d3241742e3bfbf5a735749ed4d4ca40459aa61dcfc93f26b846fa8866",
+    "sha256_of": "original",
+    "working_copy": "1913_p159.jpeg"
+  },
+  "text": "— 117 —\nFrey-Frölich, Karl, Reisender, Densbüren. Wiesenstraße 1735.\n— -Spalinger, Karl, Registrator, Zurzach. Graben 216.\n— -Hagnauer, Konrad, Dr. med., Arzt, Laurenzenvorstadt 706.\n— -Amsler, Louise, Wwe., Auenstein. Wiesenstraße 1291.\n— -von Arx, Maria, Privatin, Gontenschwil. Zollrain 53.\n— -Schindler, Max, Fabrikant, Laurenzenvorstadt 775. [tel]\n*— -Rüegg & Cie., Seidenbandfabrikation, Bahnhofstraße 566. [tel]\n— — Oskar, Seidenbandfabrikant, Schmiedgasse 384.\n— -Amsler, Othmar, Fürsprech, alt Bankdirektor, Graben 211.\n— -Maritz, Otto, Spengler, Auenstein. Wiesenstraße 1291.\n— -Roth, Paul, Werkstätte-Vorarbeiter W. T. B., Glattfelden. Tor-\n  feldstraße 943.\n— -Rohner, Robert, Privatier, Zurzach. Flößerstraße 1802. [tel]\n— Rosa, Ladentochter, Zurzach. Rathausgasse 4.\n— -Hochuli, Rudolf, Käse- und Butterhandlung. Gontenschwil. [tel]\n  Obere Vorstadt 550.\n— -Trautwylee, Sophie, Privatin, Bern. Metzgergasse 81.\n— -Merz, Traug. Aug., Bankbeamter, Wohlen. Hint. Zeggli 1885.\n— -Mösch, Ulrich Wilhelm, Zurzach. Rathausgasse 4.\n— Wilhelm, Schlosser, Zurzach. Rathausgasse 4.\nFreytag-Markwalder, Emil Hugo, Repareteur W. T. B., Zürich. Rat-\n  hausgasse 11.\nFrickart-Wälchli, Hilda, Dr., Privatin, Zofingen. Augustin Keller\n  Straße 1493.\nFrick-Kuhn, August, Postkommiss. Bachstraße 1090.\n— -Frey, Gustav, Magaziner, Wölflinswil. Halden 279.\n— -Wernli, Herm., Stadtpolizist, Veltheim (Aarg.). Mühlematt 1649.\n— Jakob, Schneider, Oberflachs. Halden 289.\n— -Kienberger, Johann, Kreispostkontroleur. Schachen 1138.\n— -Amsler, Josef, Buchhändler, Oberhof. Halden 261.\n— -Reimann, Josef, I. Gemeindeweibel, Wölflinswil. Schachen 1128.\n— -Bär, Karl, Turnlehrer, Wittnau. Feerstraße 695.\n— -Hiltbold, Verena, Bahnmeisters Witwe, Veltheim. Bleichematt-\n  straße 1016.\nFrieden-Wernli, Emma, Seedorf (Bern). Scheibenschachen 1323.\n— -Suter, Jb., Bahnangestellter, Seedorf. Obere Vorstadt 517.\n— -Belsor, Louis, Sekretär, Seedorf. Zeglistraße 1699.\nFriedli, Christian, Schweinezüchter, Rüegsau. Schachen 1155.\nFriedrich, Gustav, Einleger, Zofingen. Schachen 1906.\nFröhlich, Elsa, Brugg. Buchserstraße 923.\n— -Stelzer, Mina, Privatin, Brugg. Buchserstraße 923.\n— Sophie, Brugg. Buchserstraße 923.\nFrösch-Zumstein, Friedr., Maschinenmeister, Zofingen. Westallee\n  Neugut 1497.\nFritz, Max, Architekt, Basel. Bahnhofstraße 578b.\nFüglisaller, Anna, Wärterin, Stilli. Buchserstraße 956.\n— -Burger, Leo, Kommiss, Jonen. Mühlematt 1512.\nFürst-Zeder, Konrad, Bierbrauer, Saulgau (Würtbg.). Schachen 1128.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 24059,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2492,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:21:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p159",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p159.jpeg",
+      "bytes": 1016905,
+      "sha256": "861ed44d3241742e3bfbf5a735749ed4d4ca40459aa61dcfc93f26b846fa8866",
+      "sha256_of": "original",
+      "working_copy": "1913_p159.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:21:56+00:00"
+  }
+}

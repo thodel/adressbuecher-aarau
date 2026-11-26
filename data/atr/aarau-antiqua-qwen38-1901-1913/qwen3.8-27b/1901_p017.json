@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p017",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p017.jpeg",
+    "bytes": 875648,
+    "sha256": "cf942da7ad1e7156fb87c4e25e337acff947251c5bd70335c167c3ebb5ab9b67",
+    "sha256_of": "original",
+    "working_copy": "1901_p017.jpeg"
+  },
+  "text": "6\nHaus-\nNr.\n55 Müller-Schmocker, Friedrich, Coiffeur.\n  — — Verena, Modistin.\nSchmutz-Weber, Anna, von Eptingen (Baselland).\n  — Anna, Damenschneiderin, von Eptingen (Baselland).\n56 Baumgartner-Rohrer, Anton, Bäckermeister, von Giesbach\n  (Großh. Baden).\nMüller, Karl, Schneidermeister, von Birr.\nRoth, Jakob, Schneidermeister, von Birr.\n  (Firma: Müller & Roth, March-Tailleur.)\nMüller-Schneider, Susanna, Witwe, Part., von Birr.\nBlume-Eber, Philipp, Drechsler, von Schwerzenbach (Zürich).\nCantu-Hübscher, Joseph, Maurermeister, v. Vico-Morcote (Tessin).\nStrebel, Martina, Spetterin, von Mägenwyl.\n  — Verena, Spetterin, von Mägenwyl.\n  — Waldburga, Näherin, von Mägenwyl.\n57 Kieser-Kilchmann, Wilhelm, Kaufmann. (Speisewirtschaft.)\nFrei-Hauri, Emil, Metzger und Speisewirt [tel], von Densbüren.\nDäster-Freiermuth, Gottfried, Malermeister, von Balzenwyl.\n58 * Dubs, Geschwister, Jakob, Johann und Elise, von Küttigen.\n  Altes Zollhäuschen.\nHässig-Hug, Gottlieb, Feinschleifer (altes Zollhäuschen).\n59 Schilling-Döbeli, August, Wirt, von Hornussen (Saal u. Stallung).\n60 — — August, Wirt, [tel] von Hornussen. Gasthof zur Ketten-\n  brücke. Bierdepot der Aktienbrauerei Basel.\nFurrer-Blume, Mina, Damenschneiderin, von Kriens (Luzern).\n61 Heller-Erb, Heinrich, Gerichtspräsident.\nHeller-Stockmar, Oskar, Notar. [tel] Notariats- u. Inkassogeschäft.\nStacher-Brunner, Gustav, von Egnach (Thurgau).\n62 Keller-Läuchli, Paul, Zuckerbäcker, Pinten- u. Kaffeewirtschaft. [tel]\nLäuchli-Bürgi, Anna, Witwe, Part., von Remigen.\nFrey, Friedrich, Vater, Registerführer und Musiklehrer, von\n  Densbüren.\nWernli-Wehrli, Marie, Maschinenstrickerin, von Thalheim.\n63 Brunnhofer-Bütler, August, Liqueurfabrikant. Speisewirtschaft.\nDobler-Reinert, Friedrich, Kondukteur, v. Schübelbach (Schwyz).\nFrieden-Suter, Jakob, Bahnarbeiter, von Seedorf (Bern).\nSuter-Fäs, Rudolf, Posamenter, von Gränichen.\n64 Hagenbuch-Hagenbuch, August, Sekretär.\n  — — Verena, Spezerei- und Wollwaren-, Korb- und Tapeten-\n  handlung. [tel] (Nachfolgerin von Schmidt z. Bären.)\n  — Ernst, Mineralwasserfabrikant.\nNussbaum-Finkbohner, Trinette, Part., von Densbüren.\n  — Frida, Aufseherin, von Densbüren.\nSchudel-Bircher, Wilhelm, Lithograph, von Beggingen (Schaff-\n  hausen).\nKümmerli, Rosa, Technikerin der Jura-Cementfabriken, von\n  Kölliken.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41536,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2300,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.42,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:03:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p017",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p017.jpeg",
+      "bytes": 875648,
+      "sha256": "cf942da7ad1e7156fb87c4e25e337acff947251c5bd70335c167c3ebb5ab9b67",
+      "sha256_of": "original",
+      "working_copy": "1901_p017.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:03:11+00:00"
+  }
+}

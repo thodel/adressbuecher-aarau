@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p123",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p123.jpeg",
+    "bytes": 841552,
+    "sha256": "a5269854cfb1153c79bcb72dd34be3757f028292f5f7a9811b925a0afa82124f",
+    "sha256_of": "original",
+    "working_copy": "1901_p123.jpeg"
+  },
+  "text": "110\nLüscher, Jakob, Notar (Bureau), Metzgergasse 66. Wohnung\n  Augustin Kellerstraße 1493.\n— Johann, Marmorist, Halden 305.\n— Karl, Küfer, Pelzgasse 106.\n— Luise, Weißwarengeschäft, Kasinostraße 643.\n— Geschwister: Lisette, Rosette u. Pauline, Weißnäherinnen, Flößer-\n  straße 1192.\n— Rudolf, Ausläufer, Pelzgasse 104.\n— Theodor, Küfer, Milchgasse 137.\n— -Umiker, Marie, Witwe, Part., hinter dem Bahnhof 1045.\nLüthi-Kiburz, Anna, Witwe, hintere Vorstadt 370.\n— Johann, Schlosser, Golattenmattgasse 254.\n— Samuel, Chef des Telegraphenbureau, Laurenzenthorgasse 122.\n— geb. Weibel, Elise, Witwe, Wirtin z. „Zunftstube“, Pelzgasse 105.\nLütolf, Joseph, Seifenfabrikation, Strittengäßchen 1162.\nLudwig, Oskar, Schneider, Ziegelrain 425.\nMärk, Karl, Part., Metzgergasse 65.\nMäcki, Friedrich, Polizeikorporal, vordere Vorstadt 331.\n— Hans, Buchbinder, hintere Vorstadt 369.\n— -Haller, Gottlieb, Mühlenbauer, Rain 461.\n— Heinrich, Magaziner, Milchgasse 150.\n— Jakob, Küfer, Ziegelrain 425.\n— Jakob, Buchbinder, Adelbändli 168.\n— Jakob, Fabrikschuhmacher, Laurenzenvorstadt (Phylosophen-\n  weg) 734.\nMadon, Viktor, Lokomotivführer, Bleichemattstraße 1019.\nMaier, Egina, Part., Entfelderstraße 1401.\n— Konrad, Lohnkutscher, [tel] Bachstraße 1063.\n— geb. Rychner, Bertha, Professors Witwe, Entfelderstraße 1391.\nMayer, Thomas, Schuhmachermeister, hintere Vorstadt 356.\nManz, Philipp, Aufseher, Scheibenschachen 1321.\nMarfurt, Franz Xaver, Coiffeur, Wohnung obere Vorstadt 553,\n  Coiffurgeschäft Bahnhofstraße 559b.\nMarini, Dominiko, Südfrüchtenhändler, Schmiedgasse 391.\nMaritz, Arnold, Fabrikarbeiter, Halden 292.\n— Julius, Sekretär, Rain 451.\nMarquart, Friedrich, Steindruckere, Milchgasse 130.\nMarta haus, Halden 278.\nMarti geb. Aeschbach, Elise, Haushälterin, Torfeldstraße 949.\n— Elisabeth, Ladentochter, Torfeldstraße 949.\n— Emilie, Damenschneiderin, Torfeldstraße 949.\n— Fritz, Bierbrauer, Hammer 188.\n— Hulda Flora, Quincailleriewarenhandlung, Metzgergasse 65.\n— Julie, Bureauangestellte, Torfeldstraße 949.\n— Lina, Damenschneiderin, Halden 284.\n— Oskar, Commis, Rathausgasse 9.\n— geb. Siebenmann, Ida, Arbeitslehrerin, Halden 284.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21240,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2128,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:43:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p123",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p123.jpeg",
+      "bytes": 841552,
+      "sha256": "a5269854cfb1153c79bcb72dd34be3757f028292f5f7a9811b925a0afa82124f",
+      "sha256_of": "original",
+      "working_copy": "1901_p123.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:43:58+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p116",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p116.jpeg",
+    "bytes": 863850,
+    "sha256": "f4ed3b3e85824be3e20454063da128b83ec9a9e01b4b89176f426ef25dd7b312",
+    "sha256_of": "original",
+    "working_copy": "1913_p116.jpeg"
+  },
+  "text": "— 92 —\nHaus-\nNr.\n1258 * Graf, J. R. und Mithafte, alt Gemeindeschreiber in Küttigen.\n  Faller-Unwin, Friedrich, Privatier, Breunlingen (Baden).\n  — Friedrich, Kaufmann, \" \"\n1260 * Koch-von Takats, Ary Jules, Privatier, Zürich.\n  Bircher-Sasson, Andreas, Kaufmann, Küttigen.\n  Lanz, Friedrich, Landwirt, Huttwil.\n1261 Staehelin-Herzog, Dr.'s Witwe, Villa zum Kirschgarten, Basel.\n  — Sophie, Konzertsängerin, Basel.\n  — Paul, Basel. Geflügelzuchterei „Argovia\" [tel].\n1268 Gamper-Baumann, Emil, March.-Tailleur, Villa z. Schöнау [tel].\n  — Alfred, Kaufmann.\n  — Emmy.\n1271 Zschokke-Sauerländer, Maria, Part., zur Blumenhalde [tel].\n  Lang-Zschokke, Maria, Part., Oftringen.\n\nAlpenzeiger.\n1275 Brack-Wälchli, Heinrich, Werkführer und Wirt [tel]. Kurhaus\n  zum Alpenzeiger.\n\nErlinsbacherstrasse.\n1240 Meyer-Wydler, Hans, Postbureauchef, Hilfikon.\n  — Pauline, Hilfikon.\n1283 Lattmann-Ackermann, Heinrich, Part., Sernenberg (Zürich).\n  — Heinrich, Bureaulist, Sernenberg (Zürich).\n  Gladbach-Renold, Philipp, Professor.\n  — Marietta, Bureaulistin.\n1635 Müller-Fischer, Joh. Alfred, Maschinist.\n  Bolliger-Wasser, Gotthold, Lehrer, Schloßrued.\n1294 * Kyburz, Gottlieb und Mithafte, Erlinsbach.\n  Hunziker & Erismann, Seifen- und Fettwarenfabrik.\n1298 Siegfried-Leupold, Fritz, Staatsbuchhalter, Zofingen.\n1300 Einwohnergemeinde, Elektrizitätswerk.\n1302 Stephani-Windisch, Alfred, Versicherungsinspektor.\n  Montandon-Jequier, Paul, Kaufmann, Le Locle (Neuchâtel).\n  Gysel-Losdorf, Emil, Kaufmann, Wilchingen.\n1305 Müller-Märki, Jakob, Taglöhner, Schöftland.\n  Burkolter-Widmer, Rudolf, Heizer, Buchegg (Soloth.).\n  Wernli-Amsler, Emil, Schneider, Thalheim.\n1306 Rothpletz-Imhof, Luise, Part.\n  Guyer-Blattner, Melanie, Part., Fehraltorf (Zürich).\n  Hünerwadel-Oschwald, Richard, Kaufmann, Lenzburg.\n  — Dora, Lenzburg.\n1593 * Einwohnergemeinde Aarau.\n  Hochstraßer-Joho, Jakob, Maschinist, Auenstein.\n  Schmid-Waßmer, Hans, \" Erlinsbach.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29742,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1931,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:08:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p116",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p116.jpeg",
+      "bytes": 863850,
+      "sha256": "f4ed3b3e85824be3e20454063da128b83ec9a9e01b4b89176f426ef25dd7b312",
+      "sha256_of": "original",
+      "working_copy": "1913_p116.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:08:10+00:00"
+  }
+}

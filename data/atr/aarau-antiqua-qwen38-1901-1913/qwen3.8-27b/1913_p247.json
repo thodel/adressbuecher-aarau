@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p247",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p247.jpeg",
+    "bytes": 825276,
+    "sha256": "9bf5ea08e59bcb7222252aac0b4ddebc18a3dc71170a9d4ecaf0011bee890aed",
+    "sha256_of": "original",
+    "working_copy": "1913_p247.jpeg"
+  },
+  "text": "— 213 —\nHaushaltungsartikel.\n*Faller-Faller, Elise Luise.  Kronengasse 50.\n*Goldstein & Co [tel].  Metzgergasse 73.\n*Henz-Gautschi, Emil [tel].  Vordere Vorstadt 339.\n*Magazin zum Globus [tel].  Bahnhofstraße 532.\n  Morath-Stirnemann, W. [tel]  Rathausgasse 3.\n*Schär, Ernst [tel].  Rathausgasse 12.\n*Karl Schnyder & Cie. [tel]  Rathausgasse 8.\n*Siebenmann, Fritz [tel].  Rain 436.\n  Hebammen.\nGloor-Meier, Hedwig.  Pelzgasse 106a.\nPlüß-Zimmerli, Marie.  Hintere Vorstadt 360.\nHolzhandlungen.\nSchneider-Dietiker, Joh. [tel].  Rohrerstraße 1809.\nStirnemann, Theresia, Witwe [tel].  Metzgergasse 79.\nWäger-Giger, Karl [tel].  Gasstraße 1173.\n*Walther-Dubs, Anna. Witwe [tel].  Bachstraße 1111.\n  Holzspalter.\nWanderon-Meier, Bernhard.  Rathausgasse 15.\n  Hutgeflechtfabrik.\n*Hegnauer, Rud., Aktiengesellschaft [tel].  Hammer 196.\n  Huthandlungen.\n*Bruns, Heinrich [tel].  Bahnhofstraße 620.\n*Magazine zum Globus [tel].  Bahnhofstraße 632.\n  Magazine zur Stadt Paris.  Hintere Vorstadt 360.\n*Müller, Eduard.  Rathausgasse 21.\n  — -Schmocker, Fritz.  Zollrain 55.\n*Schmidli, Emma [tel].  Hint. Vorstadt 360.\n*Sperlich, Theodor [tel].  Vordere Vorstadt 323.\n  Informationsgeschäfte.\n*Heller, Oskar, Notar [tel].  Zollrain 61.\n*Lüscher, Jakob, Notar [tel].  Feerstraße 684.\n*Stirnemann & Sandmeier [tel].  Bahnhofstraße 1813.\n*Wehrli, Jakob, Notar [tel].  Bahnhofstraße 578 b.\n  Ingenieure.\nBircher, Julius, Kreisingenieur [tel].  Zieglerain 416.\nBolleter-Keller, Ernst.  Weltistrasse 1591.\nBossard, J. J. [tel]  Bahnhofstraße 578 b.\nDeluermoz-Couttier, Ernest.  Gartenstraße 1435.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 36893,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1575,
+    "lines": 40,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0025,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:08:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p247",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p247.jpeg",
+      "bytes": 825276,
+      "sha256": "9bf5ea08e59bcb7222252aac0b4ddebc18a3dc71170a9d4ecaf0011bee890aed",
+      "sha256_of": "original",
+      "working_copy": "1913_p247.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:08:46+00:00"
+  }
+}

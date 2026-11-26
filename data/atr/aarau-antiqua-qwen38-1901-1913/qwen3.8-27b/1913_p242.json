@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p242",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p242.jpeg",
+    "bytes": 795701,
+    "sha256": "90b2b09fe172a7bf1b6e92528604fb2a0fc2813c11a0d6822c36f410539533d9",
+    "sha256_of": "original",
+    "working_copy": "1913_p242.jpeg"
+  },
+  "text": "— 208 —\nEisenhandlung.\n*Henz, Jakob & Cie. [tel]  Vordere Vorstadt 335.\nEisenwarenhandlungen.\n*Faller-Faller, Elise, Witwe.  Kronengasse 50.\n*Henz-Gautschi, Emil, Kaufmann [tel].  Vordere Vorstadt 339.\n*Henz, Jakob & Cie. [tel]  Vordere Vorstadt 336.\n*Carl Schnyder & Cie. [tel]  Rathausgasse 8.\n*Siebenmann, Fritz [tel].  Rain 436.\nElektrizitätsgeschäfte.\n*Cie. des Lampes à Filament Métallique [tel].  Hint. Bahnhofstr. 1000.\n*Elekt. Glühlampenfabrik A. G. [tel]  Hintere Bahnhofstraße 1000.\n*Glühfadenfabrik Aarau A. G. vormals Gmür & Cie. [tel]  Laurenzen-\n  vorstadt 727.\n*Kummler & Matter A. G. [tel].  Bleichemattstraße 1026.\n*Schärer-Häuptli, Heinrich [tel].  Kasinotstraße 641.\n*Sprecher & Schuh A. G. [tel]  Industriestraße 1508.\n  Städt. Elektrizitätswerk [tel].  Bahnhofstraße 636;\nFarbwarenfabrikation.\n*Gänslen-Landolt & Cie. [tel]  Obere Vorstadt 534.\nFarbwarenhandlungen.\n  Fuchs-Bender, Franz.  Kasinotstraße 642.\n*Gänslen-Landolt & Cie. [tel]  Obere Vorstadt 534.\n*Wirz-Ries & Cie. [tel].  Ziegelrain 427.\n  Und die Maler.\nFärbereien.\n*Jenny, Adolf [tel].  Telli 865 und 866.\n*Lenz-Suter, Otto [tel].  Bachstraße 1104.\n*Ohl, Gustav [tel].  Bachstraße 1101.\nFeilenhauer.\n  Dunkel-Käser, Arnold.  Schachen 1140.\n  Mathys-Matter, Wilhelm.  Entfelderstraße 1400.\nFeinschleifer.\n  Hässig, Gottlieb.  Hammer 180.\n  Schäfer, Bruno.  Vordere Vorstadt 337.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15460,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1365,
+    "lines": 35,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0286,
+    "mean_line_chars": 37.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0022,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:06:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p242",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p242.jpeg",
+      "bytes": 795701,
+      "sha256": "90b2b09fe172a7bf1b6e92528604fb2a0fc2813c11a0d6822c36f410539533d9",
+      "sha256_of": "original",
+      "working_copy": "1913_p242.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:06:43+00:00"
+  }
+}

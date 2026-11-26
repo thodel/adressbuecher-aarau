@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p166",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p166.jpeg",
+    "bytes": 987866,
+    "sha256": "346aa6296ac1d21408992e65311e4fa6fb816fbf2ddef49d28ad3aa069d073da",
+    "sha256_of": "original",
+    "working_copy": "1913_p166.jpeg"
+  },
+  "text": "— 124 —\nGysi-Schmidt, Fritz, Schlossermeister, Hintere Vorstadt 371.\n— — Fritz, Schlosserwerkstätte, Hintere Vorstadt 367.\n— Fritz, Postbeamter, Hammer 179.\n— Helene, Gartenstraße 1431.\n— -Büchli, Ida, Part., Gartenstraße 1429.\n— Jenni, Hintere Vorstadt 371.\n— -Dössekel, Johann, Lupfig Milchgasse 131.\n— -Heß, Otto, Postbeamter, Obere Vorstadt 544.\n— & Co., Optisches Geschäft [tel]. Vordere Vorstadt 345.\n— -Schneider, Otto, Photograph. Optik u. Mechanik. Bachstr. 1054.\n— -Meier, Kunigunde, Wwe., Spuhlerin, N.-Gösgen. Milchgr. 133.\n— -Riniker, Marie, Part. [tel] Gartenstraße 1431.\n— -Wernli, Sam., Schreinermeister, mech. Schreinerei, Hammer 179.\n— -Ammann, Traugott, Lehrer, Küttigerstraße 1247.\n— -Stigeler, Wilma, Part., Zschockestraße 1426.\nHäberlin-Häflliger, Hugo, Prokurist, Illighausen (Thurgau). Hohl-\n  gasse 1835.\nHächler, Emma, Magd, Gränichen. Metzgergasse 65.\n— -Peter, Gottlieb, Stadtarbeiter, Teufenthal. Kirchhof 161a.\n— -Blattner, Jakob, Taglöhner, Rohr. Halden 271.\n— -Keller, Oskar, Schriftsetzer, Teufenthal. Scheibenschachen 1335.\nHäfeli-Frey, Heinrich, Privater, Gontenschwil. Buchserstraße 954.\n— Rudolf, Repareteur, Seengen. Obere Vorstadt 539.\nHäelin-Hächler, Josef, Sattlermeister, Oberwil. Kasinostraße 642.\nHäfliger, Jakob, Bahnamgellter S. B. B., Kulmerau. Schachen 1492.\n— -Müller, Josefa, Privatin, Reiden, Asylstraße 1698.\n— -Bolliker, Otto, Metzgerei und Wirtschaft [tel]. Ziegelrain 428.\n— Hilfiker, Otto, alt Metzgermeister. Stritengäßchen 1196.\nHämmerli, Pauline, Bez.-Lehrerin, Lenzburg. Hinteres Zegli 1849.\nHäny, Adolf Herm., Kommis, Kölliken. Ziegelrain 426.\n— Elise, Spetterin, Kölliken. Kirchhof 160.\n— Heidegger, Hermann, Bäckermeister, Kölliken. Ziegelrain 426.\n*— -Walther, Rud., Leder- und Fourniturenhandlung Kölliken [tel].\n  Bahnhofstraße 623.\nHärry, Adèle, Bureaulistin, Birrwil. Buchserstraße 953.\n— -Rychner, Adolf, Bäckermeister [tel]. Kirchgasse 37.\n— -Baumann, Arnold, Postbeamter, Birrwil. Buchserstraße 953.\n— Arnold, Ingenieur, Birrwil. Buchserstraße 953.\nHäslin-Rümmele, Emil, Malermeister. Mühlematt 1363.\nHässig-Maag, Albert Emil, Taglöhner. Adelbändli 173.\n— -Zimmerli, Alfred, Kupferschmied. Kupferwarenhandlung. Pelz-\n  gasse 100.\n— Bertha. Schönenwerderstraße 1452.\n— Emma, Part. Augustin Keller-Straße 1559.\n— -Bühler, Friedrich, Privater. Ziegelrain 424.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 34887,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2327,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:24:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p166",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p166.jpeg",
+      "bytes": 987866,
+      "sha256": "346aa6296ac1d21408992e65311e4fa6fb816fbf2ddef49d28ad3aa069d073da",
+      "sha256_of": "original",
+      "working_copy": "1913_p166.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:24:25+00:00"
+  }
+}

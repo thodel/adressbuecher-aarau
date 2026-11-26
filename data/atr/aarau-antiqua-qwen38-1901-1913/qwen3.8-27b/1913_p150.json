@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p150",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p150.jpeg",
+    "bytes": 971262,
+    "sha256": "9c403520a510317b912fa5ee3837df415ea6175200a09f43d11dff728771720c",
+    "sha256_of": "original",
+    "working_copy": "1913_p150.jpeg"
+  },
+  "text": "— 108 —\n\nCostet-Lackerbauer, Bertha, Privatin, Paris. Gönhardweg 1440.\nCroci-Brugger, Agostini, Maurermeister, Balerna (Tessin). Obere\n  Vorstadt 546.\nCuster-Roth, Emil, Fabrikant, Rheineck (St. Gallen). Westallee\n  Neugut 1552.\n— Emma, Klavierlehrerin, Rheineck (St. Gallen). Westallee Neu-\n  gut 1552.\n*Custer & Cie. Fabrikation von Kellereiaartikeln u. Champagner [tel].\n  Bahnhofstraße 626.\n— Fanny, Quästorin, Rheineck. Bahnhofstraße 626.\nCuster-Sauerländer, Mathilde, Privatin, Rheineck. Graben 258.\n\nDäster-Freiermuth, Gottfried, Malermeister, Murgenhal [tel]. Spi-\n  talgäßli 1710.\nDätwylec-Meier, Anna, Witwe, Wäscherin, Wittwil. Ziegelrain 422a.\n— Pfister, Fried., Brunnenmeister, U.-Entfelden. Hint. Zelgli 1849.\n*— Gottfr., Uhrmacher, U.-Entfelden. Kasinostraße 661.\n— Brack, Hans, Briefträger, U.-Entfelden. Rohrerstraße 879,\n— Leuthold, Jakob, Bankbeamter, Staffelbach. Buchserstr. 1856.\nD'Agostini-Näf, Rizzieri, Maurer, Polier (Italien). Adelbändli 171.\nDa Col-Hediger, Simon, Knecht, Valli di Cadore (Italien). Bahn-\n  hofstraße 605.\nDalmonte-Tonini, Angelo, Handlanger, Imola (Itl.). Adelbändli 169.\nDambach-Heiniger, Elise, Privatin. Stadthöfli 84a.\n— Drack, Jakob, Postfakteur, Ober-Bözberg. Entfelderstraße 1604.\n— Marta, Privatin, Brugg. Vordere Vorstadt 337.\nDango geb. Nölle, Marie, Fabrikaufseherin, Barmen (Preußen).\n  Laurentzenvorstadt 745.\nDardel, Alice, Buchhalterin, Aarberg. Buchserstraße 956.\nDeck, Hans, Dr. med., Spezialarzt für Ohren-, Nasen- und Hals-\n  krankheiten, Brugg. Herzogstraße 991.\nDecker, Elise, Privatin. Pelzgasse 92.\n— Hoffmann, Melanie, Privatin. Hintere Vorstadt 367.\nDeluchi, Giacomo, Maurer, Vico-Morçote (Tessin). Halden 297.\nDeluernez-Couttier, Ernest, Ingenieur, Genf. Gartenstraße 1435.\nDe Madalena-Müller, Luigi, Maurerpolier, Trevisago (Itl.). Telli 1878.\nDe Marco-Jörg, Maschinist, Castellavazo. Erlinsbacherstraße 1310.\nDengler-Hemmeler, Hermann, Buchdruckereibesitzer [tel]. Spital-\n  gäßli 1778.\nDenz, Helene, Chur. Augustin-Keller-Straße 1442.\n— Borel, Theodor, Oberst, Chur. Augustin Keller-Straße 1442.\nDenzler-Geiger, Hans, Ingenieur, Stadel. Bahnhofstraße 590.\nDeron-Ineichen, Eugen, Ingenieur, Bas-Vuilly (Freiburg). Bach-\n  straße 1827.\n*Derrer-Keller, Jacob, Werkmeister, Oberglatt [tel]. Spezereihandlg.\n  Zollrain 64.\nDeubelbeis, Paul, Chauffeur, Schinznach. Bachstraße 1063.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 32574,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2350,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.51,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:16:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p150",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p150.jpeg",
+      "bytes": 971262,
+      "sha256": "9c403520a510317b912fa5ee3837df415ea6175200a09f43d11dff728771720c",
+      "sha256_of": "original",
+      "working_copy": "1913_p150.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:16:36+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p174",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p174.jpeg",
+    "bytes": 754731,
+    "sha256": "214ce62e26142d85463cb9e97e44684aa7cbc061c94c2b4f4bd7bf71e41ccf94",
+    "sha256_of": "original",
+    "working_copy": "1901_p174.jpeg"
+  },
+  "text": "161\nMöbelhandlungen.\nCodoni-Dreßler, Remigius,* Rain 436.\nGewerbehalle Aarau, Holzmarkt 316.\nGysi, Adolf, Pelzgasse 110.\nHeß, Gebr.,* „z. Stadt Mühllausen“, Rathausgasse 5.\nHering-Leuenberger, Lisette, Milchgasse 128.\nScheibler, Alfred, Adelbändli 174. (Siehe Inserat Seite 23.)\nSchneeberger, Jakob, Rathausgasse 4. (Siehe Inserat Seite 23.)\nMöbelfabrik.\n(Siehe Fabrikationsgeschäfte.)\nMusikalien- und Instrumentenhandlungen.\nBrast, Emma und Ida,* Holzmarkt 318.\nBurgmeier, Joseph,* Graben 216. (Siehe Inserat Seite 16.)\n  Instrumentenlager I. Ranges.\nHirsbrunner, Gottfried,* Kasinogaße 662.\nWidmer, F. J., Kasinogaße 657.\nMühlenbaugeschäft.\nHaller-Märki,* Schönenwerderstraße, Wöschnau 1454.\nMüller.\nEberle, Franz* (mittlere Mühle), Stadthof 86.\nMützenhandlungen.\nMüller, Eduard,* Schirmmacher, Rathausgasse 21.\nSperlich, Theodor, vordere Vorstadt 323.\nNäherinnen.\n(Siehe Weißnäherinnen.)\nNähmaschinenhandlungen.\nBieber, Theodor,* Hammer 193.\nComp. Singer, Torfeldstraße 942.\nLeithe-Weber, Xaver, Laurenzenvorstadt 711.\nWalter-Schmuziger, August,* Pelzgasse 109.\nSchibler-Bieber, Fritz, Kronengasse 43.\nNotare.\nAmsler, Emil, Fürsprech, Feerstraße 683.\n— Otto, vordere Vorstadt 323.\nBlattner, Emil, Dr., Fürsprech, obere Vorstadt 538.\nFrey, Jos., Stellvertreter des Gemeindeschreibers, Rathausgasse 10.\nHeller, Oskar, Sohn,* Zollrain 61. (Siehe Inserat Seite 17.)\nHeuberger-Fischer, Jakob, Direktionssekretär, jens. d. Aare 1231.\n11",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 45168,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1433,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:06:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p174",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p174.jpeg",
+      "bytes": 754731,
+      "sha256": "214ce62e26142d85463cb9e97e44684aa7cbc061c94c2b4f4bd7bf71e41ccf94",
+      "sha256_of": "original",
+      "working_copy": "1901_p174.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:06:01+00:00"
+  }
+}

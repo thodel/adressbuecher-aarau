@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p202",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p202.jpeg",
+    "bytes": 949931,
+    "sha256": "641c9f9596c8750440c4d2236d5b5b75ab1fea3effa0cac2f5a6836c60822f6c",
+    "sha256_of": "original",
+    "working_copy": "1913_p202.jpeg"
+  },
+  "text": "— 160 —\nRyniker, Hermann, Milchhändler. Entfelderstraße 1397.\n*— Wirth, Karl, Bierbrauer (Bureau) [tel]. Metzgergasse 76.\n*— — \" \" Chalet, Gasthof z. Binsenhof [tel]. Binsen-\n  hf 1457.\n— Mathilde. Entfelderstraße 1397.\nRyser, Bertha, Haushälterin, Sumiswald. Kirchhof 165.\n— Elisabeth, \" Walterswil (Bern). Laurenzenvor-\n  stadt 800.\n— Sophie, Fabrikarbeiterin, Sumiswald. Kirchhof 165.\nSäuberli-Wicki, Rudolf, Maschinist, Möriken. Tellstraße 1611.\nSaalbau [tel]. Schloßplatz 204.\nSager-Kronenbitter, Ernst, Koch, Menziken. Bahnhofstraße 603.\n— -Maag, Jakob, Handlanger, Gränichen. Bahnhofstraße 599.\nSalaroli-Wernli, Giuseppe, Stadtarbeiter, Pavia (Ital.). Halden 286.\nSalm, Susanna, Wärterin, Veltheim. Buchserstraße 956.\nSalvisberg-Wyßebach, Friedrich, Monteur der Telegraphenverwal-\n  tung, Mühleberg. Schachen 1620.\nSandmeier-Stahel, Arnold, Gasthaus zum Sternen, Seengen [tel].\n  Obere Vorstadt 515.\n— -Gignont, August, Kaufmann, Seengen. Scheibenschachen 1340.\n— -Frey, Elise, Witwe, Wäscherin und Glätterin, Fahrwangen.\n  Hammer 184.\n— -Rodel, Gottlieb, Taglöhner, Seengen. Telli 871.\n— -Urech, Heinrich, Aufseher, Seengen. Scheibenschachen 1340.\n— -Gautschi, Jakob, Metzger, Fahrwangen. Milchgasse 149.\n— Rosa, Fabrikarbeiterin, Gränichen. Schmiedgasse 379.\n— -Fischer, Rudolf, Stadtarbeiter, Seengen. Adelbändli 173.\nSarbach, Adolf, Maschinentechniker, Adelboden. Buchserstraße 955.\nSartirana-Joß, Celestino, Magaziner, Viovera (Ital.). Stadthöfli 82 a.\nSattler, Jeanne, Bureaulistin, Müsswangen. Oberholzstraße 468.\n*H. R. Sauerländer & Cie., Buchdruckerei, Buchbinderei, Verlag [tel].\n  Laurenzenvorstadt 782.\nSauerländer-Frey, Remigius, Buchdruckereibesitzer [tel]. Laurenzen-\n  vorstadt 782.\n— -Oehler, Remigius, Buchdrucker. Laurenzenvorstadt 782.\nSaurer-Salm, Gottfried, Kondukteur S. B. B., Sigriswil (Bern).\n  Industriestraße 1641.\nSaxer, Lisa, Privatin. Vordere Vorstadt 353.\nScarpin-Guidotti, Pietro, Steinbrecher, Portico (Ital.). Adelbändli 175.\nSchädle-Schurter, Alwin, Lithograph, Konstanz. Rain 433.\nSchäfer-Brugger, Adolf, Architekt [tel]. Buchserstraße 1791.\n— -Troller, Adolf, Bauunternehmer [tel]. Buchserstraße 974.\n— -Engel, Bruno, Messerschmied. Vordere Vorstadt 337.\n*— & Cie., Baugeschäft, Bureau [tel]. Buchserstraße 975.\n— -Waßmer, Emil, Kaufmann [tel]. Feldwachtstraße 1622.\n— -Meier, Friedrich, Privatier. Bahnhofstraße 603.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29280,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2363,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:45:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p202",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p202.jpeg",
+      "bytes": 949931,
+      "sha256": "641c9f9596c8750440c4d2236d5b5b75ab1fea3effa0cac2f5a6836c60822f6c",
+      "sha256_of": "original",
+      "working_copy": "1913_p202.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:45:31+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p055",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p055.jpeg",
+    "bytes": 855326,
+    "sha256": "4471a05cf47fced8e0f63cf3f9a5f20af81edba42c44dd703a70dab1ad9c1157",
+    "sha256_of": "original",
+    "working_copy": "1913_p055.jpeg"
+  },
+  "text": "Haus-\nNr.\n— 37 —\n438 * Richner-Siebenmann, Erbschaft.\nGonzenbach-Gonzenbach, Anna Julie Wwe., Privatin, St. Gallen.\nBrunner, Auguste, Haushälterin, Wetzikon.\nBillwiler, Anna, Zimmermädchen, St. Gallen.\n439 Lüscher, Hans, Notars Kinder.\n— -Hilfiker, Elise Wwe., Privatin, Muhen.\n— Frieda, Bureaulistin, Muhen.\n— Julia, Muhen.\nHaßler-Bircher, Paul, Privatier.\n441 Schmuziger Geschwister.\n— -Großenbacher, Herm., Malerwerkstätte. Wohnung: Rain\nNr. 501.\n— -Freudiger, Sophie Wwe.\n— Karl, Packer.\n— Othmar, Kaufmann.\n— Fanny, Bureaulistin.\n505 Bopp-Häusler, Luise Wwe., Privatin.\nZiegler-Nyffenegger, Anna, Wäscherin, Veltheim.\n— Marie, Fabrikarbeiterin, Veltheim.\n— Jakob, Taglöhner,\nBerchtold, Otto, Spengler, Seegräben (Zürich).\n506 Freihofer-Rusterholz, Jakob, Bildhauer, Veltheim (Zürich).\n— Ottlie, Veltheim (Zürich)\nFlückiger-Wüthrich, Rosette Wwe., Gemüsehändlerin, Auswil.\nEtter-Hägi, Wwe. Privatin, Langrickenbach.\nSchemel, Karl, Schriftsetzer, Arnsberg\nSiegrist-Gamp, Adolf, Ausläufer, Meisterschwanden.\n507 Berner-Marti, Elise Wwe., Privatin, Ruppertswil.\n— Hermine, Ruppertswil.\n— Elsa, Bureaulistin, Ruppertswil.\n— Klara, Ladentochter,\nBaumann-Käser, Susanna Wwe.\n— Adolf, Postbeamter.\n— Karl,\n— Pauline, Bureaulistin.\nHeilsarmee-Lokal.\n444 Rychner-Heß, Louis, Ingenieur, Agenturen [tel].\n— Louise, Bureaulistin.\nZimmermann, Huldreich, Reisender, Trasadingen.\nBrüllmann-Hilfiker, Friedr, Bäckerei und Wirtschaf z. Rain-\nstube, Zihlschlacht [tel].\nHoffmann-Von Arx, Hans, Prokurist.\nVon Arx-Bitterli, Elise, Privatin, Olten.\n446 * Rychner-Heß, Louis, Ingenieur.\nScheidegger-Spillmann, Josef, Taglöhner, Pfaffnau.\nNiggli, Elise, Weißnähcerin, Aarburg.\n447 * Schmuziger & Co.\nTelo, Septimo, Comestibles, Aemane (Italien).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18335,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1727,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:47:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p055",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p055.jpeg",
+      "bytes": 855326,
+      "sha256": "4471a05cf47fced8e0f63cf3f9a5f20af81edba42c44dd703a70dab1ad9c1157",
+      "sha256_of": "original",
+      "working_copy": "1913_p055.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:47:53+00:00"
+  }
+}

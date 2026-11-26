@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p076",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p076.jpeg",
+    "bytes": 864538,
+    "sha256": "f1fb35926cf6b4d0e7f6456a9d4700024339ad7d5061927f49cd7b1f3b833c26",
+    "sha256_of": "original",
+    "working_copy": "1913_p076.jpeg"
+  },
+  "text": "Haus-\nNr.\n— 56 —\nLaurenzenvorstadt.\n700 Aktiengesellschaft der Aarg. Creditanstalt [tel].\n  Blattner-Herzog, Hans, Bankdirektor, Küttigen.\n  Häuptli, Paul, Abwart, Biberstein.\n701 Hegnauer-Renold, R., Fabrikants Erbschaft, zum Schloßgarten [tel].\n  — — Luise, Privatin.\n  — Rudolf, Kaufmann.\n  — Fritz,\n      \"\n  — Rosa.\n  — Marie.\n  — Hanna.\n  — Frieda.\n705 Schmuziger-Lackerbauer, Arnold, Ing. [tel]\n706 Frey-Hagnauer, Konrad, Dr. med., Arzt [tel].\n710 Markwalder-Gamper, Traugott, Oberst.\n  — Gertrud.\n  Keller-Feiß, Dr. G., Fürsprecher, Advokatur- u. Notariatsbureau.\n    (Wohnung: Jurastraße 1477)\n  Wehrli-Steiner, Peter, Kaufmann, Küttigen.\n  Lonstroff-Magnin, Josef, Gummiwarenfabrikant, Listorf (Preußen).\n711 *Markwalder, Traugott, Oberst.\n  Mathys-Ernst, Traugott, Schlosser, Köllike.\n  Kielholz-Brogli, Karoline Wwe., Mettau.\n  Gröflin, Karl, Schneider, Arisdorf (Baselland).\n712 *Markwalder, Traugott, Oberst.\n  Häusler-Müri, Josef, Taglöhner, Schwaderloch.\n  Wernli-Reinhard, Kaspas, Privatier, Thalheim.\n  — Martha, Thalheim.\n  — Bertha,\n      \"\n713 *Markwalder, Traugott, Oberst.\n  Bhend, Adeline, Bureaunistin, Unterseen (Bern).\n  — Marianne, Haushälterin,\n  Widmer, Bertha, Damenschneiderin, Gränichen.\n  Wüthrich, Barbara, Privatin, Riniken.\n714 Wydler-Frey, Dr. med., Erbschaft.\n  Lüthy-Gamper, Samuel, Privatier, Schöftland.\n  Wernli-Wernli, Marie, Haushälterin, Thalheim.\n  Schröder, Paul, Bureaunist, Bremgarten.\n  Weißenbach-Wydler, Placid, alt Generaldirektor der S. B. B.,\n    Bremgarten.\n  Hunziker-Wydler, Pauline, Privatin.\n  — Gertrud.\n717 Schmuziger-Kollers Erbschaft.\n720 Fahrländer-Hunziker, Augusta, Privatin, Laufenburg [tel].\n  Siebelist-Fahrländer, Anna,\n722 *Hunziker-Frey, Julius und Mithafte.\n  Kern-Hunziker, Bianka [tel].",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 35883,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1763,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0385,
+    "mean_line_chars": 31.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:54:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p076",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p076.jpeg",
+      "bytes": 864538,
+      "sha256": "f1fb35926cf6b4d0e7f6456a9d4700024339ad7d5061927f49cd7b1f3b833c26",
+      "sha256_of": "original",
+      "working_copy": "1913_p076.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:54:40+00:00"
+  }
+}

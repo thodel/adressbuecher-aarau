@@ -33,18 +33,18 @@ REVIEW = Path("data/review/flags.csv")
 REPO_URL = "https://github.com/thodel/adressbuecher-aarau"
 
 TABS = [
-    ("einwohner", "Einwohner", ["04_entries_fraktur.csv", "04_entries_antiqua.csv"], "entry_id",
+    ("einwohner", "Einwohner", ["04_entries_fraktur.csv", "04_entries_antiqua.csv", "04_entries_dnb.csv"], "entry_id",
      ["entry_id", "volume", "page", "citizen_flag", "surname", "alliance_name", "maiden_name", "forename",
       "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "origin_norm", "street_raw", "street_norm",
       "building_no", "origin_place", "street_place", "address_role", "phone_flag", "telefon", "other_volume", "zeitreise", "entry_type", "parse_confidence", "authority", "residual", "text"]),
-    ("gebaeude", "Gebäude", ["05_buildings_frueh.csv", "05_buildings_fraktur.csv", "05_buildings_antiqua.csv"], "building_id",
+    ("gebaeude", "Gebäude", ["05_buildings_frueh.csv", "05_buildings_fraktur.csv", "05_buildings_antiqua.csv", "05_buildings_dnb.csv"], "building_id",
      ["building_id", "volume", "page", "building_nos", "marker", "street_raw", "owner_text", "building_type",
       "owner_same_as_prev", "phone_flag", "parse_confidence", "note"]),
-    ("bewohner", "Bewohner", ["05_residents_frueh.csv", "05_residents_fraktur.csv", "05_residents_antiqua.csv"], "entry_id",
+    ("bewohner", "Bewohner", ["05_residents_frueh.csv", "05_residents_fraktur.csv", "05_residents_antiqua.csv", "05_residents_dnb.csv"], "entry_id",
      ["entry_id", "volume", "page", "building_no", "surname", "alliance_name", "maiden_name", "forename",
       "civil_status", "relation", "occupation_raw", "origin_raw", "origin_canton", "origin_norm", "street_norm",
       "parse_confidence", "authority", "residual", "text", "origin_place", "street_place"]),
-    ("berufe", "Berufe", ["04_berufe_fraktur.csv", "04_berufe_antiqua.csv"], "entry_id",
+    ("berufe", "Berufe", ["04_berufe_fraktur.csv", "04_berufe_antiqua.csv", "04_berufe_dnb.csv"], "entry_id",
      ["entry_id", "volume", "page", "heading", "surname", "alliance_name", "forename", "occupation_raw",
       "street_raw", "building_no", "origin_raw", "entry_type", "parse_confidence", "residual", "other_volume", "zeitreise", "text"]),
     ("register", "Namensregister 1859–1881", ["05_register_frueh.csv"], "entry_id",

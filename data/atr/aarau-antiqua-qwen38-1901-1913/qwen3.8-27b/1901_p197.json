@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p197",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p197.jpeg",
+    "bytes": 730033,
+    "sha256": "f04c5c4179aa9724b45b02fb2a7e4a6e583eb383ec82cd88b7a9b2052b23bdd5",
+    "sha256_of": "original",
+    "working_copy": "1901_p197.jpeg"
+  },
+  "text": "184\n\nTöchterinstitut und Lehrerinnen-Seminar Aarau.\nLehrpersonal.\nRektor: Suter, Jakob.\nBirchmeier, A., für Kunstzeichnen.\nBlattner, FrI. A., für Englisch und Französisch.\nBurgmeier, J., für Gesang.\nDr. Dill, O., für Mathematik.\nFlühmann, FrI. E., für Geschichte, Italienisch, Kirchengeschichte und\n  Religionslehre.\nHuber, FrI. C., für Turnen.\nKutschera, E., Musikdirektor, für Klavierspiel am Institut und für\n  Instrumentalmusik am Seminar.\nDr. Schwere, S., für Geographie, Kalligraphie und Naturkunde.\nSuter, J., für Deutsch und Pädagogik.\nDr. Zschokke, E., für Deutsch.\nAktuar der Lehrerkonferenz: Dr. Schwere, S.\nBibliothekar: Suter, J., Rektor.\nUnterrichtsanstalt des kantonalen Gewerbemuseums.\nGewerbe- und Handwerkerschule.\nFachschule für Dekorationsmalerei und kunstgewerbl. Zeichnen.\nFachschule für Bau- und Holztechnik.\nFrauenarbeitsschule.\nDilettantenklasse.\nLehrer.\nDirektor: Meyer-Zschokke, Ludwig.\nAssistent: Bandi, Ernst.\nFachlehrer: Schenker, Adolf, für Bau- und Holztechnik.\nSiegwart, Paul, für Handwerkerschule.\nSteimer, Eugen, für Dekorationsmalerei.\nUhler, Bertha, Frauenarbeitsschule.\nCasparis, Emma,\nHülf slehrer: Birchmeier, Aug.\nEckert, J., Zimmermeister.\nHauenstein, Fritz.\nHunziker, Rud.\nStäubli, J.\nv.-Steiger, M., Masch.-Ingenieur.\nHülf slehrerin: FrI. Spühler, Anna.\nStädtische Schulen.\nA. Bezirksschulen.\n(Vier Klassen.)\nLehrkräfte.\nKnaben-Bezirksschule.\nDöbeli, S., Geographie, Rechnen, Naturgeschichte, Schreiben.\nDr. Hirzel, A., Latein und Griechisch. Rektor bez. Be.-Schulen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 26454,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1511,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 31.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:14:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p197",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p197.jpeg",
+      "bytes": 730033,
+      "sha256": "f04c5c4179aa9724b45b02fb2a7e4a6e583eb383ec82cd88b7a9b2052b23bdd5",
+      "sha256_of": "original",
+      "working_copy": "1901_p197.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:14:16+00:00"
+  }
+}

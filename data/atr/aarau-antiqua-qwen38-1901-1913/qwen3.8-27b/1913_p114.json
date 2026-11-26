@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p114",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p114.jpeg",
+    "bytes": 890748,
+    "sha256": "42e9323fe80f3be0215203fc2f8904221ada7f44d19a2691bd3607ccd559e329",
+    "sha256_of": "original",
+    "working_copy": "1913_p114.jpeg"
+  },
+  "text": "— 90 —\nHaus-\nNr\nMühlematt.\n1360    Brunner, Emil, Stadtarbeiter.\n        Leithe-Weber, Xaver, Schneider, Hörbranz (Oestr.).\n        — — Sophie, Damenkonfektion,        \"        \"\n        Brunner-Eichenberger, Emil, Buchbinder.\n1649    Fricker-Wernli, Herm., Stadtpolizist, Veltheim (Aargau).\n        Züger-Hirschmann, Martin, Lithograph, Vordertbal (Schwyz).\n        — Anna, Lehrerin, Vordertbal (Schwyz).\n        Müller-Küng, Adolf, Bankbeamter, Etzgen.\n1512    Rothpletz, Karl August, Architekt.\n        Füglister-Burger, Leonz, Kommis, Jonen.\n        Burger, Paulina, Freienwil.\n1363    Häslin-Rümmele, Emil, Malermeister.\n        Huthmacher-Buchs, Erich, Geschäftsführer, Düsseldorf.\n        Bachmann-Wernli, Fritz, Knecht, Coblenz (Deutschland).\n1364 *  Läubli-Häfeli, Fabrikaufseher's Erbschaft.\n        Rey-Läubli, Rudolf, Fabrikaufseher, Fahrwangen.\n        Läubli, Otto,                                Seengen.\n        Humbel, Johann, Posamentier, Boniswil.\n        Wehrli-Häni, Julius, Gepäckexpedient S. B. B., Küttigen.\n1365    Bolliger-Häfeli, Gottfried, Schmied, Uerkheim.\n        — Lina, Damenschneiderin,\n        Meier-Schneider, Anna, Privatin, Wohlen.\n        — Anna, Bureaulistin, Wohlen.\n        Lips-Peter, Maria, Näherin, Pfaffnau.\n\nJenseits der Aare.\n1234    Siebenmann-Hagnauer, Rosa, Bierbrauers Witwe, Part.\n        — -Kuhn, Hans, Mitinhaber der Adlerbrauerei.\n1235    Einwohnergemeinde.   Frauen-Badanstalt.\n1236    Dieselbe.   Werkhaus.\n        Vogt-Heiniger, Robert, Bauverwalter der Stadt Aarau,\n            Allschwil (Baselland).\n1244    Buhofer-Graf, Emil, Bankangestellter.\n        Roth-Spirgi, Hans, Briefträger, Zetzwil.\n1245    Kistler-Hauri, Friedrich, Handelsgärtner, Hasle (Bern).\n1246 *  Von Velten-Willimann, Franz, Kaufmann.\n        Widmann-Zürcher, Karl Maria, Architekt, München.\n        Hunziker, Robert, Fachlehrer.\n        Neidhart, Klothilde. Haushälterin, Oberzell (Bayern).\n\nWeinberg.\n1278 *  Siebenmann-Hagnauer, Bierbrauers Witwe, Wirtschatt zum\n            Weinberg.\n        Birchmeier-Felber, Alfred, Lithograph und Wirt, Würen-\n            lingen [tel].",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 65906,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2108,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 38.81,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:07:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p114",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p114.jpeg",
+      "bytes": 890748,
+      "sha256": "42e9323fe80f3be0215203fc2f8904221ada7f44d19a2691bd3607ccd559e329",
+      "sha256_of": "original",
+      "working_copy": "1913_p114.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:07:40+00:00"
+  }
+}

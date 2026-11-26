@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p168",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p168.jpeg",
+    "bytes": 973942,
+    "sha256": "1489e4fcbb75f1041fdc167850c9bbfbaec0eab9b72a0934be8020abae907ceb",
+    "sha256_of": "original",
+    "working_copy": "1913_p168.jpeg"
+  },
+  "text": "— 126 —\n\n*Hagmann-Stolz, Adolf, Schuhhandlung, Filiale. Hint. Vorstadt 357.\nHagnauer, Fritz, Bürstenmacher. Pelzgasse 95.\n* — Hermann, Bürstenfabrikant [tel]. Bürstenhandlg. Pelzgasse 95.\n— -Kaspar, Joh., Schulhausabwart [tel]. Bahnhofstraße 571.\n— Louise, Fabrikaufseherin. Bahnhofstraße 571.\n— -Herzog, Marie. Zelglistraße 1700.\n— Mathilde, Part. Konradstraße 1413.\n— Nanette, Part. Konradstraße 1413.\n— -Zimmermann, Witwe, Fabrikants [tel]. Konradstraße 1412.\nHainfeld-Meytsky, Wilhelm, Tanzlehrer, Darmstadt. Rain 433.\nHaller-Lerch, Albert, Dachdeckernmeister, Reinach. Halden 278.\n— -Geiser, Ernst Dr., Fürsprech u. Notar, Zofingen [tel]. Graben 232.\n— Fritz, Schlosser, Reinach. Flößerstraße 1188.\n— -Vollmer, Georg, Ziegelbrenner, Ravensberg. Oberholzstr. 475.\n— -Fischer, Hans, Kaufmann, Gontenschwil. Laurenzenvorstadt 793.\n— -Attiger, Marie, Witwe, Wäscherin und Glätterin, Reinach.\n  Flößerstraße 1188.\n— Otto, Bankbeamter, Reinach. Bachstraße 1098.\n— Rudolf, Kondukteur W. T. B., Reinach. Zollrain 62.\n— -Fehlmann, Susette, Witwe, Reinach. Bachstraße 1098.\nHandelsgericht [tel]. Städtisches Rathaus\nHandelsregisterbureau [tel]. Regierungsgebäude.\nHandschin-Morf, Elise, Privatin, Amerika [tel]. Jurastraße 1476.\n— — Moritz, Privatier, Amerika. Jurastraße 1476.\n— Lili, Amerika. Jurastraße 1476.\nHangartner, Bertha, Ladentochter, Buchthalen (Schaffhausen). Küt-\n  tigerstraße 1247.\n— Josefine. Ziegelrain 417.\n*— -Götz, Kaspar, Camionneur [tel]. Fuhrhaltereii und Möbeltrans-\n  portgeschäft. Ziegelrain 417.\n— Luise, Ladentochter, Buchthalen (Schaffh.). Küttigerstraße 1247.\n— Margrith, \" \" \" \" 1247.\n— -Alder, Mina, Witwe, \" \" \" \" 1247.\n— Sophie, Ladentochter, \" \" \" \" 1247.\nHanselmann-Caveyn, Paul Alfred, Gasmeister, Güttingen (Thurg.).\n  Gasstraße 1173.\nHartig-Müller, Otto, Ingenieur. Nürnberg. Bahnhofstraße 1813.\nHartmann-Beerle, Adolf, Professor, Schinznach. Gönhardweg 1567.\n— -Herzig, Alfred, Magaziner, Villnachern. Kirchgasse 41.\n— Emma, Korrespondentin. Gartenstraße 1435.\n— -legenstein, Franz, Maschinenzwicker, Schwertberg (Oesterr.).\n  Stritengäßchen 1156.\n— -Götte, Katharina, Privatin. Gartenstraße 1435.\n— -Richner, Wilh., Instr.-Offizier, St. Peterzell. Laurenzenvorst. 790.\nHasler, Max Johann, Insaße, Halden 261.\nHaßler-Weißer, Arnold, Privatier, Kasinosttaße 654.\n— Eduard, Bankbeamter, Hammer 188.\n— -Wanner, Eduard, Tapezierer, Halden 267.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 23247,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2375,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:25:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p168",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p168.jpeg",
+      "bytes": 973942,
+      "sha256": "1489e4fcbb75f1041fdc167850c9bbfbaec0eab9b72a0934be8020abae907ceb",
+      "sha256_of": "original",
+      "working_copy": "1913_p168.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:25:03+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p169",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p169.jpeg",
+    "bytes": 984124,
+    "sha256": "88908f82b8b0c03fc6980b22367567e33ed0ffb365568fe2c8d6e5a0236ef2ec",
+    "sha256_of": "original",
+    "working_copy": "1913_p169.jpeg"
+  },
+  "text": "— 127 —\n\nHaßler-Brunnhofer, Elise, Witwe, Wäscherei u. Glätterei, Halden 267.\n— Erna, Kasinostraße 649.\n— -Schmidt, Fritz, Verwalter des städtischen Elektrizitätswerkes.\n  Feerstraße 693.\n— -Lanz, Gustav, Malermeister, Ziegelrain 416.\n*— & Cie., Hans, Teppichlager, Vertretung und Fabriklager in Li-\n  noleum und Teppichen [tel]. Kasinostraße 649.\n— -Schmid, Hans, Kaufmann, Kasinostraße 649.\n— -Steiner, Hrch., Fürsprech, Direktor des aarg. Versicherungs-\n  amtes [tel]. Spitalgäßli 1816.\n— Ida, Ladentochter, Rathausgasse 17.\n— Julia, Erbschaft, Halden 277 b.\n— Julia Elise, Glätterin, Halden 267.\n— -Brunnhofer, Karolina, Witwe, Privatin, Rathausgasse 17.\n— -Wanger, Lina, Wwe., Spezeroihandlung, Laurenzentorgaße 120.\n— Marguerite, Pfründerin, Halden 261.\n— Marie, Privatin, Rathausgasse 24.\n— Mathilde, Laurenzentorgasse 120.\n— -Bircher, Paul, Privatier, Rain 439.\n— -Müller, Theodor, Buchbindermeister. Buchbinderei, Schreib-\n  materialienhandlung. Milchgasse 146.\n— Wilhelmine, Fabrikarbeiterin, Halden 267.\nHaug, Joh. Heinrich, Buchhalter, Zürich. Zollrain 58.\nHauenstein, Bertha, Telefonistin, Tegerfelden. Bahnhofstraße 591.\n— -Hollinger, Karoline, Privatin, Tegerfelden. Bahnhofstraße 591.\nHaupt, Ernst, Metzger, Regensdorf, Vordere Vorstadt 328.\nHauri, Alice, Coiffeuse, Seengen. Pelzgasse 97.\n— -Blanc, Hans, Coiffeur, Seengen. Pelzgasse 97.\n— -Siegenthaler, Karl, Privatier, Seengen. Schönenwerderstr. 1688.\n*— -Gränicher, Luise, Witwe, Seengen. Hintere Vorstadt 375.\n— Luise, Witwe, Seengen. Tapiserie- und Merceriegeschäft.\n  Hintere Vorstadt 358.\nHausammann-Siegrist, Emil, Schreiner, U.-Stammheim (Zürich).\n  Hintere Vorstadt 378.\nHauser-Mathey, Gottlieb, Asylverwalter, Halden 261.\n— -Dreher, Johann, Geschäftsführer, Boppelsen (Zürich). Ziegel-\n  rain 399.\n— Karl, Abwart, Zürich. Bahnhofstraße 632.\n— Lydia, Magazinierin, Zürich. Bahnhofstraße 632.\n— -Leu, Quirin, Maurerpolier, Flirsch. Obere Vorstadt 551.\n— -Weill, Siegfried, Postbeamter, Siglistorf. Wiesenstraße 1752.\nHausheer, Gustav, Bankangestellter, Rottenschwil. Hint. Zeggli 1849.\nHausmann-Heuberger, Joh., Obst- und Gemüsehandlung, Hintere\n  Vorstadt 354.\n— Johannes, Gemüsehandlung, Schafisheim. Halden 288.\nHauswirth-Straßer, Joh., Prokurist, Oeschgen. Buchserstraße 919.\nHediger-Kuhn, Heinrich, Postbeamter, Reinach. Aarestraße 1227.\n— Mügeli, Heinrich, Wirt, Ruppertswil [tel]. Rohrerstraße 879.\n\n9",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 47324,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2385,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:26:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p169",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p169.jpeg",
+      "bytes": 984124,
+      "sha256": "88908f82b8b0c03fc6980b22367567e33ed0ffb365568fe2c8d6e5a0236ef2ec",
+      "sha256_of": "original",
+      "working_copy": "1913_p169.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:26:37+00:00"
+  }
+}

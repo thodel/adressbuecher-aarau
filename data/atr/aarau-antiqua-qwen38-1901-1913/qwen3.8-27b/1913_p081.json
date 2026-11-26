@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p081",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p081.jpeg",
+    "bytes": 899931,
+    "sha256": "c49545a1e175600cabb6d9a333b9cc20552c49df68b62b9322cc291681d2af44",
+    "sha256_of": "original",
+    "working_copy": "1913_p081.jpeg"
+  },
+  "text": "— 61 —\nHaus-\nNr.\n874 * Guyer-Gunkel, Privatier.\n  Wirth-Bichsel, Samuel, Pächter, Ursenbach.\n1636 Käser-Häfliger, Heinrich, Fab.-Arbeiter, Oberflachs.\n  Wernli-Urech, Joh. Jak., Taglöhner, Thalheim.\n  — Alfred, Färber, Thalheim.\n  — Rosa, Pakerin,\n1878 De Madalena-Müller, Luigi, Maurerpolier, Trevisago (Ital.).\n  Hilfiker-Müller, Rudolf, Schneider, Hendschikon.\n876 Gautschi-Roth, Rudolf, Landwirt.\n  — Martha.\n  — Lina.\n  — Rudolf, Landwirt.\n  Schoch, Johann, Knecht, Sternenberg.\n\nRohrerstrasse.\n878 Wernli-Wernli, Johann, Magaziner, Thalheim.\n  Kull, Anna, Ladentochter, Niederlenz.\n  Müller-Hug, Eugen, Bahnbeamter S. B. B., Affoltern (Zürich).\n879 * Baumann-Wacker, Eugen, Armenpfleger.\n  Hediger-Mügeli, Heinrich, Wirt, Rupperswil [tel].\n  Moser-Ringgeli, Jakob, Reisser, Remigen.\n  Dätwyler-Brack, Hans, Briefträger, U.-Entfelden.\n  Marechaux, Elise, Privatin, Le Lieu (Waadt).\n880 * Derselbe.\n  Hunziker-Wyler, Gottlieb, Schneider, U.-Kulm.\n  — Gottlieb, Bauamtsarbeiter,\n  — Rosa, Fabrikarbeiterin,\n  — Klara,\n  Berger-Wyler, Emma, Fabrikarbeiterin, Langnau.\n881 * Valli, Angelo, Bauunternehmer.\n  Franchini-Cagliari, Arturo, Lithograph, Mailand.\n  Hagenbuch-Gysi, Otto, Lithograph.\n  Bärtschi-Keiser, Karl, Masch.-Meister, Sumiswald.\n882 Valli-Eggspühler, Angelo, Bauunternehmer [tel].\n  — Karl, stud. ing.\n  Wildi-Hegnauer, Friedr., Postbeamter, Reinach.\n  — Anna, Reinach.\n891 Heiz-Hediger, Otto, Souschef, Menziken.\n  Widmer-Grimm, Gottf., Elektrotechniker, Gränichen.\n  Heiz-Neesser, Cornelius, Kontroleur, Menziken.\n892 Meyer-Fäs, Johann, Postbeamter, Dintikon.\n  Beck, Albert, Kleinmechaniker.\n  Michel, Alfred, Postbeamter, Guggisberg.\n  Müller-Schmid, Arnold, Postbeamter, Mettau.\n  Merz, Eugen, Postbeamter, Beinwil.\n  Meyer-Friedrich, Hartmann, Schneider, Dintikon.\n894 * Lagerhäuser der Centralschweiz. Eidg. Alkoholdépot, Bureau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19387,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1853,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:56:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p081",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p081.jpeg",
+      "bytes": 899931,
+      "sha256": "c49545a1e175600cabb6d9a333b9cc20552c49df68b62b9322cc291681d2af44",
+      "sha256_of": "original",
+      "working_copy": "1913_p081.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:56:33+00:00"
+  }
+}

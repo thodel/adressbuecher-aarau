@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p028",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p028.jpeg",
+    "bytes": 994046,
+    "sha256": "fb9aaa1697484ebcfa264f01139188c48d2683fb3321a2ab51dc3d5af432efa7",
+    "sha256_of": "original",
+    "working_copy": "1913_p028.jpeg"
+  },
+  "text": "— 14 —\nHaus-\nNr.\n141 * Reformirte Kirchgemeinde Aarau. Pfarrhaus.\nWernly-Kraft, Rudolf, reform. Stadtpfarrer, Thalheim.\n142 Stäubli-Lutz, J. Heinrich, Chef d. Güterexpedition S. B. B., Horgen.\n143 * Ryniker-Lutz, Adolf und Fisch, Karl Albert, Kaufmann.\nBaumann-Neesser, Otto, Fabrikarbeiter, Bottenwil.\nNeesser-Hilfiker, Marie Wwe., Schloßrued.\nGraf-Häuptli, Jakob, Hülfsmaschinist, Beinwil.\n— Karl, Maschinenmeister, Beinwil.\nGing-Hug, Marie Wwe., Spetterin.\n— August, Briefträger.\nGloor, Karoline, Wäscherin, Birrwil.\n144 Lenzin-Hort, Xaver, Diensmann, Oberhof [tel].\n— Lina, Damenschneiderin, Oberhof.\nTreier, Karl, Ausläufer, Oberhof.\n145 Torchiana-Pertusini, Rinaldo, Gypsermeister, Nesso (Ital.).\nDistanti-Tureli, Celso, Handlanger, Premilcuore (Ital.).\nAndreini-Michelini, Enrico, Handlanger, Saludecio \"\n146 Haßler-Müller, Theodor, Buchbindermeister. Buchbinderei,\n  Schreibmaterialienhandlung.\nSchilling-Engel, Alfred, Schriftsetzer, Seengen.\nHolbein-Zimmerli, Eugen, Schreiner, Steinach (St. Gallen).\nGreuter-Hubmann, Adolf, Schlosser, Oberhofen (Thurgau).\nSuter-Bircher, Elise, Fabrikarbeiterin, Kölliken.\n147 Eichenberger-Fischer, Ernst, Offiziersbedienter, Fahrwangen.\nHunziker-Müller, Heinrich, Telephonarbeiter, O.-Kulm.\nMeier-Mußlin, Ernst, Monteur, Hausen.\nFischer, Julius, Taglöhner, Tennwil.\nJehle-Weber, Agathe Wwe., Spetterin, Wil.\n— Emanuel, Spengler, Wil.\nBrugger, Emil, Fabrikarbeiter, Auenstein.\n148 * Hofmann, Hans, Prokurist.\nBianchi-Müller, Luigi, Handlanger, Meola (Ital.)\nAndres-Schwendimann, Emil, Stadtarbeiter.\nSenn-Lüthy, Gustav, Rangierarbeiter S. B. B , U.-Kulm.\n149 Siegrist-Hug, Jakob, Metzgermeister, Meisterschwanden.\nSandmeier-Gautschi, Jakob, Metzger, Fahrwangen.\n150 * Drack-Rohr, Hermann, Metallgießer.\nSchneider-Siegenthaler, Max, Hülfsarbeiter, Ehringen.\nDrack-Hauser, Elisabeth Wwe., Wäscherin.\nHeindl-Pluß, Mathilde, Damenschneiderin, Murgenthal.\n— Max, Fabrikarbeiter, Murgenthal.\n— Mathilde, Glätterin, Murgenthal.\nUetz, Herm. Adolf, Steindrucker, Hannover.\n151 * Andres, Samuel, Privater.\nVicari-Marinelio, Maria Ww., Fabrikarbeiterin, Val di Cavor (Ital.).\nErni-Wasser, Wilhelm, Cementmüller, Nied.-Gösgen (Soloth.).\nFischer-Haller, Friedr. Emil, Bauschreiner.\n[spalte 2]\nHau\nNr.\n152\n153\n154\n155\n156\n157\n158\n159\n160\n161\n161\n162",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 50511,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2279,
+    "lines": 65,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0308,
+    "mean_line_chars": 34.05,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:35:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p028",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p028.jpeg",
+      "bytes": 994046,
+      "sha256": "fb9aaa1697484ebcfa264f01139188c48d2683fb3321a2ab51dc3d5af432efa7",
+      "sha256_of": "original",
+      "working_copy": "1913_p028.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:35:00+00:00"
+  }
+}

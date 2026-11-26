@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p102",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p102.jpeg",
+    "bytes": 886800,
+    "sha256": "5409558555959890401eac910a3b8e5ee04da48a79862f0798cd1161be54d37b",
+    "sha256_of": "original",
+    "working_copy": "1913_p102.jpeg"
+  },
+  "text": "— 80 —\nHaus-\nNr. 1427 Wydler-Fischer, Wwe., alt Bezirkslehrers, Affoltern.\n— Bertha, Affoltern.\nSchmid-Baumann, Emil, Part.\n\nGartenstrasse.\n\n1424 Ehrsam, Emilie, Part.\n— Frida, Part.\nZschokke-Schmuziger, Arnold, Dr. jur., Part., alt Staats-\n  schreiber.\n1429 Gysi-Böchli, Ida, Part.\n— Anna.\nFlühmänn, Elisabeth, Seminarlehrerin, Saxeln (Bern).\nNadig, Clara, Part., Davos.\nAltorfer-Biehli, Rosa, Privatin, Basel.\n1431 Gysi-Riniker, Marie, Part. [tel]\n— Helene.\nZimmerlin-Weiß, Karl, Redaktor des Aargauer Tagblattes,\n  Vordemwald.\nWenner, Laura, Privatin, St. Gallen.\nFischer, Helene, Bukarest.\n1433 Siebenmann-Siebenmann, Karolina, Part.\nKalb, Jette, Köchin, Mosbach (Baden).\n1435 Hartmann-Götze, Katharina, Privatin.\n— Emma, Korrespondentin.\nKarrer, Rosa, Arbeitslehrerin, Aesch (Baselland).\nCaminada, David, Professor, Savogin (Graubünden).\nSiegrist, Hlob, Handelsangestellter, Netstal (Glarus).\nDeluermoz-Couttier, Ernest, Ingenieur, Genf.\n1437 * Bally-Prior, Fabrikant, Schönenwerd.\nPrior-Prior, Johanna, Part., Baltimore (Amerika) [tel].\n— Auguste, Part., Mazzen.\nBiel, Johanna, Part., Selzach.\nStünzi, Jacques, Ingenieur, Horgen.\n1772 * Brändli-Erismann, Arnold.\nVögeli-Oebersold, Louis, Metzgerei und Wursterie, Herbligen\n  (Zürich) [tel].\nMeyer-Wiehl, Adam, Käse- und Butterhandlung, Zunzgen\n  (Baselland).\nGubler-Zoll, Hermann, Fabrikant, Baden.\nLenzi-Baumann, Gottlieb, Kaufmann, Oberhof.\nMüller-Rüetschi, Otto Edwin, Pfarrer, Birmenstorf.\n1566 Brändli-Erismann, Arnold, Bäckerei und Konditorei [tel].\nBär, Hans, Coiffeur und Posticheur.\nMaurer, Emil z. Kreuz, Spezereihandlung (Filiale).\nAmsler-Hürsch, Emil, Fürsprech und Notar.\nAlbertini-Uibeleisen, Hugo, Hochbaumeister, Chur.\nRingli-Duttli, Barbara, Wäscherin, Döttingen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 26517,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1736,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:03:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p102",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p102.jpeg",
+      "bytes": 886800,
+      "sha256": "5409558555959890401eac910a3b8e5ee04da48a79862f0798cd1161be54d37b",
+      "sha256_of": "original",
+      "working_copy": "1913_p102.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:03:27+00:00"
+  }
+}

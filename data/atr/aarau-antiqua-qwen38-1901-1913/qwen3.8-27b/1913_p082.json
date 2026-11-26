@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p082",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p082.jpeg",
+    "bytes": 894077,
+    "sha256": "8c619bc0863263859a689096e01bb8319ffb17cc36911d360582f32d4c627ba5",
+    "sha256_of": "original",
+    "working_copy": "1913_p082.jpeg"
+  },
+  "text": "— 62 —\nHaus-\nNr.\n895 * Hürzeler-Schenk, Adolf, Hadernhändler, Uerkheim.\n  Zobrist-Vogt, Jakob, Taglöhner, Ruppertswil.\n1809 Schneider-Dietiker, Joh., Holz- u. Kohlenhändler, Thalheim [tel].\n  Günthard-Brandner, Joh. Friedr., Stoffdrucker, Zürich-Enge.\n  — Bruno, Stoffdrucker, Zürich-Enge.\n  — Elise, Fabrikarbeiterin, ” ”\n  — Hedwig, ” ” ”\n  Eichenberger-Stirnemann, Adolf, Fabrikarbeiter, Beinwil.\n  — Marie, Fabrikarbeiterin, Beinwil.\n1807* Schneider, Rudolf, Kasernebedienter, Thalheim.\n  Henzi-Gschwind, Adolf, Werkführer, Günsberg.\n  Brunner-Wälchli, Viktor, Kaufmann, Laupersdorf.\n1690 Dünnner-Schüpbach, Joh., Waschmaschinenfabrikant [tel].\n903 * Zschokke, M., Baugeschäft A. G., Bureau [tel].\n907 * Dasselbe. Kosthaus.\n909 Jäggi-Weber, Hermann, Geschäftsführer [tel].\n  Wild, Constance, Gesellschafterin, Bern.\n910 Schenker-Siebenmann, Gottl., Dr. med., Arzt [tel].\n  — Elsa, Krankenpflegerin.\n  Samariter-Verein, Kinderheim.\n913 Schweiz. Eidgenossenschaft. Zeughaus.\n914 * Staat Aargau. Zeughaus [tel].\n1663 Kalt-Läubli, Alfred, Dr. med., Arzt, Koblenz [tel].\n  — Ida, Koblenz.\n1773* Hösl-Schießer, Markus, Kaufmann.\n  Schweiz. Exportgesellschaft für Emmentalerkäse A. G. Magazine.\n  Sterchi-Berger, E. Joh., Salzer, Vechigen.\n916 Hösl-Schießer, Markus, Kaufmann, Haslen (Glarus).\n  Schweiz. Exportgesellschaft für Emmentalerkäse A. G.\n  Bureau [tel].\n  Berner-Heuberger, Walter, Postbeamter, U. Kulm.\n  — Martha, Bureauangestellte, Elgg.\n  Lenzi-Fischer, Albert. Bankkassier, Zuzgen.\n  — Emma, Privatin, Zuzgen.\n\nBuchserstrasse.\n917 * Gasser, Emanuel, Fabrikant in Säckingen.\n  Vogt-Bossart, Alfred, Dr. med., Augenarzt [tel].\n918 * Evangelische Gemeinschaft der Schweiz.\n  Birchmeier, August, Malermeister, Würenlingen.\n  — Lisa, Bureaulistin, Würenlingen.\n  Schuller-Kunz, Joh. Jb., Prediger, Sundhofen (Elsaß).\n919 Birchmeier-Ottenat, August, Zeichner.\n  Schantz, Friedrich, Ingenieur, Speyer.\n  Streu, Bruno Max, Lithograph, Dresden.\n  Hauswirth-Straßer, Joh., Prokurist, Oeschgen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 20252,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1996,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.42,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:56:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p082",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p082.jpeg",
+      "bytes": 894077,
+      "sha256": "8c619bc0863263859a689096e01bb8319ffb17cc36911d360582f32d4c627ba5",
+      "sha256_of": "original",
+      "working_copy": "1913_p082.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:56:34+00:00"
+  }
+}

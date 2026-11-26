@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p173",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p173.jpeg",
+    "bytes": 785402,
+    "sha256": "fadc6cba2f2749c47015018cb89d7523d2beca4eded8c43771cb046a669a42f0",
+    "sha256_of": "original",
+    "working_copy": "1901_p173.jpeg"
+  },
+  "text": "160\nEris mann, Abraham, Oekonom, Bachstraße 1115.\nEtter, Reinhard, Rain 434.\nGantner, Hermann, Oekonom, Schloßplatz 202.\nGautschi, Rudolf, Oekonom, Telli 876.\nGuyer, Oskar, Fabrikant, Telli 873.\nHofmann, Jakob, Oekonom, Bahnhofstraße 599.\nHunziker, Adolf, obere Vorstadt 549.\nLäuchli, Johann, obere Vorstadt 545.\nLehner, Rudolf, Gönhardfeldweg 1445.\nLüscher, Albert, hintere Vorstadt 357.\nMüller, Friedrich, Oekonom, Schachen 1124.\nOtt-Wenger, Marie, Adelbändli 166.\nPhilipp, Johann, Bachstraße 1094.\nRiniker, Hermann, Entfelderstraße 1397.\n  — Jakob, Binzenhof 1467.\nScheidegger, Joh. Ulrich,* Holzmarkt 320.\nSommerhalder, Rudolf, Kirchgasse 40. (Siehe Inserat Seite 13.)\nSteiner, Samuel, Oekonom, Laurenzenvorstadt 793.\nStirnemann, Jakob, Metzgergasse 79.\nUrban, Johann, Kasinostraße 642.\nWalther, Jakob, Goldern 1472.\n  — Hans, Oekonom, Bachstraße 1111.\n  — Jakob, Schachen 1139.\nWalti, Gebrüder, Milchgasse 155.\nWeber, Wilhelm. Erlinsbacherstraße 1314.\nWyß, Friedrich, Rain (Waltersburg) 475.\n        Fabrikation künstlicher Mineralwasser.\nCuster, E. & Cie.,* Bahnhofstraße 626.\n  Tempenrezgetränke, Schaumwein.\nHagenbuch, Ernst, Zollrain 64.\nSchmid, J., Hammer 179.\n                    Modistinnen.\n            (Modegeschäfte).\nBär, Adele, Kronengasse 24.\nBaumann, Emma, Pelzgasse 91.\nBryner, Anna, Halden 298.\nHaßler, Julie, Adelbändli 175.\nHelm, Fanny, Zollrain 53.\nKirchhofer, Marie, Kasinostraße 641.\nKirchner-Vonwiller, Ida, Graben 209.\nLienhard, Anna, Pelzgasse 94.\nMatter-Fäs, Marie, Schmiedgasse 387.\nMüller-Schmocker, Verena, Zollrain 55.\nSchmidt, Jenny, Bahnhofstraße 559.\nSennhauser-Goszewisch, A., Schachen 1128.\nWeber-Suter, Ida, Laurenzenthor gasse 126.\nWidmer, Karolina und Marie, vordere Vorstadt 323.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 36656,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1722,
+    "lines": 48,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0023,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:04:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p173",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p173.jpeg",
+      "bytes": 785402,
+      "sha256": "fadc6cba2f2749c47015018cb89d7523d2beca4eded8c43771cb046a669a42f0",
+      "sha256_of": "original",
+      "working_copy": "1901_p173.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:04:44+00:00"
+  }
+}

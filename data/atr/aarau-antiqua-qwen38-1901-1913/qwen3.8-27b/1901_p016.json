@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p016",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p016.jpeg",
+    "bytes": 850365,
+    "sha256": "de5fde409f2e14bb3a594dcaea2f02ce25c204ca0783a55844576d73973c5ce7",
+    "sha256_of": "original",
+    "working_copy": "1901_p016.jpeg"
+  },
+  "text": "5\nHaus-\nNr.\n43 * Württemberger-Kaiser, Marie, Coiffeurs Witwe.\nSchibler-Bieber, Fritz, Coiffeur, von Walterswyl (Solothurn).\n  Parfümeriewarenhandlung.\nKlein-Berner, Emma, Wwe., v. Kaisten.  Samen- und Landes-\n  produktenhandlung.\nGänslen-Koch, Regina Louise, Part., von Starrkirch (Solothurn).\nBaumgartner-Geiser, Emil, Telegraphist, von Trub (Bern).\n44 * Hagenbuch, Karl, Kaufmann.  Glas- u. Porzellanwarenhandlg.\n45 Hintz-Wolf, Anna, Witwe.\nHintz-Gysi, Ulrich, von Lehr (Württemberg).  Zuckerbäckerei.\nRady, Hugo, Steindrucker, von Graz (Österreich).\n46 Vonfelten-Willimann, Franz Jos., Corsett- u. Quincailleriegeschäft.\nWillimann-Wehrli, Marie, Witwe, von Oberhof.\nMösch-Gassler, Marie, Witwe, Part., von Frick.\n47 Gloor-Siebenmann, Marie, Witwe, von Schöffland.  Kolonial-\n  waren- und Delikatessenhandlung.\nSenn-Winkler, Julie, Witwe, Part., von Ober-Siggenthal.\n48 * Studer, Heinrich, Bierbrauer in Olten.\nMathys-Hafner, Katharina, Witwe, Wirtin zur „Krone“, von\n  Eriswyl (Bern).\n49 * Erismann-Frischknecht, Fritz, von Moosleerau, in Schönenwerd.\nWidmer-Blaser, Franz, Wirt und Büchsenmacher, von Ettis-\n  wyl (Bern).  Speisewirtschaft.\nHumm-Brunnhofen, Emil, Spengler, von Kirchleerau.\nHemmeler-Monhardt, Eugen, Telegraphist.\nHofmann-Schenk, Anna Marie, Spetterin, von Schottikon (Zürich).\n50 Faller geb. Faller, Elise Louise, Witwe, v. Raitenbuch (Großh.\n  Baden).  Firma Gebr. Faller, Militärartikel, Eisen- und Quin-\n  cailleriewarenhandlung.\n— Karl Friedr., Sohn, Kaufmann, von Raitenbuch (Gr. Baden).\n\nZollrain.\n\n51 * Gamper & Cie.  Magazin.\n52 Frey-Rohner, Robert, Bäcker und Pintenwirt, von Zurzach.\nRohner geb. Ehrsam, Elise, Arzts Witwe, Part.\nKeller, Lisette, Privat., von Zurzach.\nSchmocker-Keller, Gottlieb, Postangestellter, von Ringgenberg\n  (Bern).\n53 Vonarx, Karolina, Pintenwirtin, von Olten.\nHelm-Vonarx, Elise, Witwe, von Oerlikon (Zürich).\nHelm, Fanny, Modistin,\n54 Nüsperli-Nussbaum, Karoline, Witwe.\nJ. Zuberbühler, Filiale, von Zurzach, Lingerie- und Broderie-\n  geschäft.\nSchmocker-Keller, Henriette, von Ringgenberg (Bern), Geschäfts-\n  führerin.\nBuchmann-Spicher, Adele, Damenschneiderin, von Veltheim.\nKäser-Häfliker, Heinrich, Fabrikarbeiter, von Biberstein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 63220,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2196,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.5,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:03:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p016",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p016.jpeg",
+      "bytes": 850365,
+      "sha256": "de5fde409f2e14bb3a594dcaea2f02ce25c204ca0783a55844576d73973c5ce7",
+      "sha256_of": "original",
+      "working_copy": "1901_p016.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:03:33+00:00"
+  }
+}

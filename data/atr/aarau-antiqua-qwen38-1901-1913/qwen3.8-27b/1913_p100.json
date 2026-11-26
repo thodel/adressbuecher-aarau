@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p100",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p100.jpeg",
+    "bytes": 870005,
+    "sha256": "91b656b3db4d31fddf431bdde3db9de96770c64a4a4fca8e8cc97f6c5a5cb238",
+    "sha256_of": "original",
+    "working_copy": "1913_p100.jpeg"
+  },
+  "text": "— 78 —\nHaus-\nNr.\n    Lerch, Gottfried, Klavierlehrer, Winigen (Bern).\n    — Johann, Landarbeiter,\n    Lüthi-Basler, Hans, Schlosser, Rothrist.\n    — Hans, Stadtarbeiter,\n1397    Ryniker, Hermann, Milchhändler.\n    — Mathilde.\n    Steiner, Marie, Weißnäherin, Dürrenäsch.\n    Ott-Häusermann, Herm, Sekretär, Biberstein.\n1398 * Ryniker, Herm.\n    Hemmeler-Kähr, Paul, Weberei-Techniker.\n    Bühler-Schirks, Cäcilie, Part., Davos.\n    — Dora, Davos.\n1400    Mathys-Matter, Wilhelm, Feilenhauer, Spezeriehandlung,\n        Kölliken.\n    Ernst, Jakob, Fab.-Arbeiter, Kölliken.\n    Thut-Wandfluh, Otto, Schneider, Seengen.\n    Lehner-Bertschi, Rudolf, Milchhändler, Gränichen.\n    Kull-Obrist, Eduard, Schriftsetzer, Niederlenz.\n    Schneeberger-Salvi, Jakob, Kaufmann, Vordemwald.\n    Rochholz, Anna, Klavierlehrerin, Ansbach (Bayern).\n1594    Suter-Kopp, Jost, Zuckerwaren-Fabrikant, Münster (Luz).\n    Kopp, Theresia, Haushälterin.\n    Fahländer-Müller, Verena. Part.\n1401    Richner-Karli, Karl, Röhrenfabrikant [tel].\n    Baumann-Volz, Emma, Wwe., Fürsprechs.\n    — Emma.\n1608    Reimann-Schaub, Friedr., Postbeamter, Wölfinswil.\n    Urech-Leuenberger, Wilhelm, Postbeamter, Brunegg.\n1555 * Ammann-Strähl, R., Architekt.\n    Grosjean-von Känel, Sigmund, Ingenieur, Biel.\n1558 * Ammann, Robert, Architekt.\n    Haberstick-Stöckli, Jakob, Privatier, Ob.-Entfelden.\n    — Frieda, Lehrerin,\n    — Hulda, Privatin,\n1402    Landolt-Hechler, Gottlieb, Privatier.\n    — Alphons, Chemiker.\n    Feilner, Wolfgang, Buchhändler, Bayreuth (Bayern).\n    Kuhn, Theodor, Ingenieur, Orpond.\n    Studer-Müller, Otto, Buchhalter, Graben (Bern).\n1404 * Ryniker, Karl, Bierbrauer.\n    Meier-Schwammberger, Fritz, Gärtnermeister, Roggwil (Bern).\n    Nopper-Stirnemann, Verena, Weißnäherin, Gränichen.\n    Studer-Kull, Emil, Pol.-Korporal, Maschwanden.\n1405    Wydler-Zäch, Viktor, Dr. med., Arzt, Affoltern (Zürich) [tel].\n    Müller, Theodor, Professor, Zürich.\n1407    Schindler-Trümpi, Emma, Privatin, Mollis (Glarus).\n    Zschokke-Jordi, Anna, Privatin.\n    — Marie, Bureauangestellte.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17035,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2064,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:03:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p100",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p100.jpeg",
+      "bytes": 870005,
+      "sha256": "91b656b3db4d31fddf431bdde3db9de96770c64a4a4fca8e8cc97f6c5a5cb238",
+      "sha256_of": "original",
+      "working_copy": "1913_p100.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:03:00+00:00"
+  }
+}

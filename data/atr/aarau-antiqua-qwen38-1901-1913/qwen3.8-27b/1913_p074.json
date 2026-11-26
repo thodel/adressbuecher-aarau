@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p074",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p074.jpeg",
+    "bytes": 877386,
+    "sha256": "33277bc5bc4d2c3e553c111b23b76f1fbbee7642f411a81929d29aa9110b8b1d",
+    "sha256_of": "original",
+    "working_copy": "1913_p074.jpeg"
+  },
+  "text": "— 54 —\nHaus-\nNr.\nBossardt, Anna, Effingen.\nUebelmann-Dubs, Anna, Witwe, Küttigen.\nDubs, Louise, Privatin, Küttigen.\nEggen-Sulzer, Margr., Witwe, Privatin.\n  — Lina.\n656 Weibel-Hunn, Gotthold, Wirt, Effingen. Restr. z. Schwizerhüsli.\n657 Bieber-Müller, Germ., Mechaniker. Nähmaschinen- und Velo-\n  handlung [tel].\nRedaktion und Administration des Neuen Freien Aargauer.\nKessler, Emil, Dienstmann, Grafhausen (Baden).\n658 Indermauer-Richner, Hans, Coiffeurgeschäft, Damenfriseursalon\n  und Badanstalt.\nSuter-Richner, David, Privatier, Gränichen.\n  — David, Zeichnungslehrer, Gränichen.\n659 Indermauer, Jakob, Metzgerei und Wursterei [tel].\n  — -Richner, Elise, Witwe.\n  — Lina.\n660 Schatzmann-Weibel, Albert, photograph. Atelier.\nGsell-Adam, Mina, Zihlenschlacht.\n661 Dätwyler, Gottfr., Uhrmacher, Unter-Entfelden.\nMaritz-Müller, Julius, Kanzleichef und Feuerwehrcommandant,\n  Burgdorf [tel].\nSoder-Combes, Walter, Techniker, Rheinfelden.\n662 Hirsbrunner-Baumann, Gottfr., Instrumentenfabrikant.\nGugger-Heß, Samuel, Wirt, Ins (Bern). Speisewirtschaft zum\n  National.\n\nZeughausstrasse.\n\n663 Frey-Seiler, Fritz, Weinhändler. Bezirksrichter.\nCafé-Halle (Kleiner, Susette, Kellnerin, Egliswil).\nTheiler, Albert, Coiffeurgeschäft, Stein (Appenzell).\nHemmeler-Schmidt, Bertha, Witwe, Privatin.\nSchmidt-Henz, Lina,\n665 Roth-Gautsch i, Fritz, Schuhmachermeister, Schuhhandlung,\n  Militärartikel.\nRiniker-Lutz, Adolf, Kaufmann.\n  — Margrit.\nSteiner-Häfliger, Jb., Postkondekteur, Ober-Engstringen.\nAmmann, Marie, Ladentochter, Ryken.\n666 * Ortsgruppe Aarau des schweiz. Bundes abstinenter Frauen.\n  Alkoholfreies Restaurant Helvetia [tel].\nDr. Fahrländer, zahnärztliches Atelier [tel].\nOtt-Ramp, Paul, Zentralheizungsfabrikant, Zell (Zürich).\n  Bureau und Werkstatt Rain 447.\n668 * Staat Aargau. Turnhalle.\n673 * Derselbe. Militärkantine.\nKunz-Gerhard, Adolf, Wirt, Brittnau [tel].",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 51582,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1870,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 36.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:53:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p074",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p074.jpeg",
+      "bytes": 877386,
+      "sha256": "33277bc5bc4d2c3e553c111b23b76f1fbbee7642f411a81929d29aa9110b8b1d",
+      "sha256_of": "original",
+      "working_copy": "1913_p074.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:53:58+00:00"
+  }
+}

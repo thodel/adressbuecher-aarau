@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p129",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p129.jpeg",
+    "bytes": 851617,
+    "sha256": "46f15a3f1ee0e21d58cb0407b9e29a4c9536a8294be7b1c31d6501fe3b28fb5d",
+    "sha256_of": "original",
+    "working_copy": "1901_p129.jpeg"
+  },
+  "text": "116\nPolizeiposten, kantonaler, hintere Vorstadt 362. [tel]\nPostgebäude, Bahnhofstraße 576. Filiale Metzgergasse 72.\nPortmann geb. Emmenegger, Theresia, Fabrikarbeiterin, Gollatten-\n  mattgasse 250.\n— Joseph, Ausläufer, Ziegelrain 422.\nPrantl, Alois, Maurer, Hammer 186.\nPrior geb. Dettmer, Helena, Part., [tel] Gartenstraße 1437.\nProbst, Johann, Schneider, Halden 296.\n\nQuernheim, Magdalena, Hausiererin, Casinistraße 661.\n\nRämisperger geb. Berner, Marie, Gürtlrs Witwe, Gollattenmatt-\n  gasse 250.\n— Hermann, Spenglermeister, Adelsändli 173.\n— geb. Studler, Verena, Rain 502.\nRady, Hugo, Steindruckor, Kronengasse 45.\nRamsauer geb. Hächler, Anna, Witwe, Part., Pelzgasse 96.\nRandegger geb. Wirt, Josephine, Kütigerstraße 1257.\nRautel, Paul, Ingenieur, Mühlematt 1360.\nRebmann, Karl Jakob, Maler, Rain 506. Werkstatt Rain 495.\nReimann, Friedrich, Postcommis, Bahnhofstraße 584.\n— Gottfried, Reisender, Entfelderstraße 1393.\n— Gustav, Obergerichtsschreiber, Bahnhofstraße 621.\nReinhardt, Joh. Baptist, Gärtner, hintere Vorstadt 370.\nRennhardt, Joseph, Küher, Binsenhof 1468.\nRennhart, J. Martin, Professor, Bahnhofstraße 610.\nReutimann, Emil, Techniker, Entfelderstraße 1398.\nRey, Jakob, Bezirksschullehrer, Flößerstraße 1189.\n— Jakob Friedrich, Professor, Bahnhofstraße 598.\nRichter, Albert, Färber, Bachstraße 1105.\nRiehl, Karl, Koch, Gemüsehäudler, Graben 215.\nRies, Emanuel, Part., Ziegelrain 427.\nRiesterer, August, Mechaniker, Pelzgasse 106.\nRiner-Höchler, Anna, Placierungsbureau, hintere Vorstadt 363.\n— Johann, Stadtpolizist, Gassraße 1171.\n— Joseph, Kondukteur, Hintere Vorstadt 363.\nRingeje-Dutle, Barbara, Taglöhnerin, Bachstraße 1066.\nRingier, Adolf, Laurenzenvorstadt 761.\n— Karl Arnold, Regierungsrat, Schloßplatz 199.\n— Karl, Kondukteur, hintere Vorstadt 360.\nRyniker, Adolf, Kaufmann, Zeughausstraße 665.\n— Arnold, Kaufmann, Wirt, Binsenhof 1457 [tel]. Wirtschaft zum\n  Fédebral, Zeughausstraße 666. [tel]\n— Friedrich, Spezeriehandlung, obere Vorstadt 551.\n— Fritz, Bahmangestellter, Bleichenmattstraße 1016.\n— Gebr., (Karl Ryniker u. Arnold Ryniker), Bierbrauerei, [tel] Bureau\n  Metzgergasse 76.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 60161,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2113,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:46:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p129",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p129.jpeg",
+      "bytes": 851617,
+      "sha256": "46f15a3f1ee0e21d58cb0407b9e29a4c9536a8294be7b1c31d6501fe3b28fb5d",
+      "sha256_of": "original",
+      "working_copy": "1901_p129.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:46:39+00:00"
+  }
+}

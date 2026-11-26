@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p200",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p200.jpeg",
+    "bytes": 984174,
+    "sha256": "3641771b84524aefba26fd350958755d1834c892e59d914e1fb556943865a97a",
+    "sha256_of": "original",
+    "working_copy": "1913_p200.jpeg"
+  },
+  "text": "— 158 —\nRömischkatholisches Pfarramt. Schmiedgasse 383.\nRösch-Bossard, Felix, Bierführer, Bonndorf (Wrtbg.). Schmiedg. 394.\nRöslin, Ignaz, Kaufmann, Säckingen (Baden). Laurenzenvorst. 1669.\nRochholz, Anna, Klavierlehrerin, Ansbach (Bayern). Entfelder-\n  straße 1400.\nRodel-Lüscher, Friedrich, Schlosser, Staufen. Schachen 1139.\n— — Jakob, Schneider, Fahrwangen. Hammer 188.\nRohr, Clara, Buchs. Holzmark 319.\n— -Wehrli, Daniel, Stadtarbeiter, Hunzenschwil. Halden 296.\n— -Hässig, Fmma, Privatin. Laurenzenvorstadt 737.\n— -Reiner, Hans, Oberrichter, Lenzburg. Jurastraße 1518.\n*— -Holliger, Hans, Wirt, Buchs. Speisewirthschaft [tel]. Holzmarkt 319.\n— -Heiz, Hermann. Kaufmann, Hunzenschwil. Buchserstraße 955.\n— -Reimann, Jakob, Kaufmann [tel]. Kolonialwarenhandlung und\n  Kaffee Geschäft zum Adler. Pelzgasse 97.\n*— — Jakob, Kaufmann, Kaffeerösterei. Milchgasse 139.\n— Karl, Techniker, Hunzenschwil. Herzogstraße 1805.\n— -Blauenstein, Maria, Spulerin, Hunzenschwil. Zollrain 57.\n— -Hochstraßer, Susanna, Witwe, Privatin. Rain 504.\nRoos, Frida, Bureaulistin, Romoos (Luzern). Schachen 1620.\n— -Studer, Jost, Betriebsdirektor der Suhren- und Wynentalbahn,\n  Schüpfheim (Luzern). Buchserstraße 987.\n— -Hunziker, Xaver, Postbureaudienner, Romoos (Luzern). Scha-\n  chen 1620.\nRorschach, Frieda, Kleinkinderlehrerin, Arbon. Graben 221\nRoschach-Wärtli, Arnold, Goldschmied und Optiker, Bühl (Baden).\n  Rathausgasse 24.\nRoth, Alfred, Obersts Wwe., Thun. Laurenzenvorstadt 754.\n— Arnold, Kaufmann, Erlinsbach (Aargau). Buchserstraße 924.\n— Emma. Laurenzenvorstadt 754.\n— Erwin, Kunstmaler. Schmiedgasse 387.\n— Friedrich, Obergerichtskanzlist. Schmiedgasse 387.\n*— -Gautschi, Fritz, Schuhmachermeister, Schuhhandlung, Militär-\n  artikell. Zeughausstrasse 665.\n— -Wolf, Gottlieb, Aufseher, Erlinsbach. Scheibenschachen 1670.\n— -Richner, Hans, Handlanger, Erlinsbach. Scheibenschachen 1335.\n— -Spirgi, Hans, Briefträger, Zetzwil. Jenseits der Aare 1214.\n— Hedwig, Ladentochter. Ober-Erlinsbach. Pelzgasse 106.\n— -Gronmeyer, Hermann, Sekretär, Erlinsbach. Wiesenstr. 1752.\n— Martha. Laurenzenvorstadt 754.\n— Max, Zetzwil. Pelzgasse 99\n— -Friedrich, Robert. Elektrotechniker, Lenzburg. Zeglistr. 1850.\n— -Sali, Samuel, Kistenmacher, Zetzwil. Pelzgasse 99.\nRothpletz-Vannod, Carl, Vizedirektor der Aarg. Kantonalkank [tel].\n  Oberholzstraße 1598.\n— -Siebenmann, Elisabeth. Witwe, Pfründerin. Halden 261.\n— Emma Frieda, Vorsteherin des Töchterheims. Laurenzenvorst. 746.\n— Frieda, Privatin. Schloßplatz 199.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 98092,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2491,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:45:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p200",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p200.jpeg",
+      "bytes": 984174,
+      "sha256": "3641771b84524aefba26fd350958755d1834c892e59d914e1fb556943865a97a",
+      "sha256_of": "original",
+      "working_copy": "1913_p200.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:45:01+00:00"
+  }
+}

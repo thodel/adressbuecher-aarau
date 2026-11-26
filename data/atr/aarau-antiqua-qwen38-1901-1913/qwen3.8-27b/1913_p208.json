@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p208",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p208.jpeg",
+    "bytes": 1003909,
+    "sha256": "5780d773647d12ea0a3693ecb931320e8ead155e84a0e6d306d1aae289d3fd37",
+    "sha256_of": "original",
+    "working_copy": "1913_p208.jpeg"
+  },
+  "text": "— 166 —\nSchneider, Pauline, Privatin, Obereisesheim. Metzgergasse 81.\n— -Hochstraße, Samuel, Fuhrmann, Thalheim. Stritengäßchen 1576.\n— -Wernli, Verena, Wwe., Thalheim. Scheibenschachen 1337.\nSchnellmann-Widmer, Heinrich, Maurer, Rapperswil (St. Gallen).\n  Hohlgasse 535.\nSchnetz-Kyburz, Fritz, Architekt, Winterthur. Oberholzstr. 1904.\n*Carl Schnyder & Cie., Eisenhandlung [tel]. Rathausgasse 8.\nSchnyder, Carl, Kaufmann, Hasle (Luzern). \" 8.\nSchön-Högg, Frz. Xaver, Steindrucker, Neuheim (Zug). Asylstr. 1146.\nSchönenberg, Emma, Wäscherin, U.-Kulm. Hinteres Zelgli 1885.\n*Schöni-Gugger, Ernst, Uhrenmacher, Bolligen (Bern) [tel]. Bijou-\n  terie-, Gold- und Silberwaren. „Zum Trauring“. Vorderer[?]\n  Vorstadt 325.\n— Paulina, Sumiswald. Spitalgäßli 1734.\n— -Heiniger, Verena, Privatin, Sumiswald. Spitalgässli 1734.\nSchönmann-Obrist, Karl, Wirt, Mainbernheim. Restaur. z. Telli.\n  Telli 857.\nSchoch, Johann, Knecht, Sternenb erg. Telli 876.\nSchondorff-Hopfengärtner, Rob., Installateur, Zürich. Laurenzen-\n  torgasse 120.\nSchopper-Häfliger, Johann, Mechaniker, St. Christoff (Oesterreich).\n  Kronengasse 42.\nSchraner, Otto, Sekretär, Sulz. Oberholzstraße 478.\nSchröder, Lina, Bureaulistin, Heintrop (Preußen). Bachstraße 1063.\n— Paul, Bureaulist, Bremgarten. Laurenzenvorstadt 714.\n— Theodor, Schuhmachermeister, Heintrop (Preußen). Bach-\n  straße 1063.\nSchuh-Kern, Hch, Ingenieur, Iseltwald [tel]. Oberholzstraße 1603.\nSchuhmacher-Frey, Friedrich, Bezirkslehrer, Bern. Metzgergasse 81.\n— -Stäbli, Fritz, alt Kreispostkassier, Brugg. Küttingerstraße 1247.\nSchuller-Kunz, Joh. Jb., Prediger, Sundhofen (Elsaß). Buchser-\n  straße 918.\nSchuppli, Karl Eugen, Kaufmann, Huben. Oberholzstraße 468.\nSchurter, Clara, Eglisau. Rain 433.\n— -Gremminger, Salomon, Lithograph, Eglisau. Rain 433.\nSchwambberger-Weber, Emil, Kaufmann, Auenstein. Buchser-\n  straße 1532.\n*Schwarz & Cie., Weinhandel en gros und en détail. Bureau und\n  Kellerei [tel]. Bahnhofstraße 1833.\n— Emil, Färber, Kröppen (Deutschland). Bahnhofstraße 587.\n— Eugen, Monteur, \" 587.\n— -Müller, Joh., Pferdewärter, Kröppen (Deutschl.) \"Bahnhofstr. 587.\n— Niklaus, Buchbinder, Kröppen (Deutschland). Bahnhofstr. 587.\n— -Suter, Oskar, Magaziner. Stritengäßchen 1533a.\n— Rosalie, Haushälterin, Kröppen (Deutschland). Bahnhofstr. 587.\n— -Gautschi, Theodor, Weinhandlung. Hintere Bahnhofstraße 1623,\nSchweizer, Margrit, Damenschneiderin, Glattfiden (Zürich). Rat-\n  hausgasse 29.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 109110,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2429,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:50:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p208",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p208.jpeg",
+      "bytes": 1003909,
+      "sha256": "5780d773647d12ea0a3693ecb931320e8ead155e84a0e6d306d1aae289d3fd37",
+      "sha256_of": "original",
+      "working_copy": "1913_p208.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:50:46+00:00"
+  }
+}

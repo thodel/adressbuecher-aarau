@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p219",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p219.jpeg",
+    "bytes": 965303,
+    "sha256": "b33d93b76a0712f6a46390736b8be18d11d36186cb2d247537674c9c351ef047",
+    "sha256_of": "original",
+    "working_copy": "1913_p219.jpeg"
+  },
+  "text": "— 177 —\nVogel-Harnisch, Emil, Confiseur, Gurbrü (Bern). Bachstraße 1059.\n— -Salzgeber, Gottfr., Ober-Portier, Kölliken. Rain 448.\n— -Genzler, Jak., Lokom.-Heizer S. B. B., Kölliken. Industrie-\n  straße 1820.\n— -Ernst, Johann, Werkführer in der J. C. F. Scheibenschachen 1340.\n— -Schmid, Johann, Schlosser. Scheibenschachen 1569.\n— -Häusler, Oskar, Spenglerei- und Installationsgeschäft, Gipf-\n  Oberfrick. Schachen 1793.\n— Paul, Kaufmann, Kölliken. Oberholzstraße 1681.\nVogler-Weidmann, Jul., Friedhofgärtner. Blumenhandlung, Blumen-\n  binderei [tel]. Obere Vorstadt 549.\nVogt-Bossart, Alfred, Dr. med., Augenarzt [tel]. Buchserstraße 917.\n— Fr. Ernst, stud. Obere Vorstadt 550.\n— -Kohler, Friederike Wwe., Privatin. Obere Vorstadt 550.\n— -Weber, Gottlieb, Malermeister, Menziken. Hammer 188.\n— Johann, Schuhmacher, Schuhhandlung. Obere Vorstadt 514.\n— -Wacker, Johann, Briefträger, Menziken. Gönhardweg 1891.\n— -Pluß, Johann, Schreiner, Remigen. Halden 291.\n— Olga, Fabrikarbeiterin, Menziken. Hammer 188.\n— -Heiniger, Robert, Bauverwalter der Stadt Aarau, Allschwil\n  (Baselland). Jenseits der Aare 1236.\n— -Siegrist, Samuel, Wirt, Schinznach [tel]. Graben 224.\nVolklesezimmer. Laurenzenvorstadt 802.\nVollmer, Therese, Köchin, Ewatigen (Baden). Augustin-Keller-\n  Straße 1559.\nVon Arx-Bitterli, Elise, Privatin, Olten. Rain 444.\n— -Brosi, Emma, Wwe., Taglönerin, Nieder-Gösgen. Adelbändli 171.\n*Von Däniken E. & Co., Wein- und Faßlager [tel]. Hint. Platz 236.\n  Bureau. Pelzgasse 106.\n— -Roth, Emil, Weinhändler, Ober-Erlinsbach [tel]. Pelzgasse 106.\nVon der Crone, Heinrich, Schriftsetzer, Basel. Hintere Vorstadt 360.\nVon Fellenberg, Albert, Redaktor der Aarg. Nachrichten, Bern.\n  Graben 224.\n*Von Felten, Franz, Kaufmann, Korsett- und Quincailliergeschäft.\n  Kronengasse 46.\n— Jakob, Bezirkslehrer, Winznau (Solothurn). Augustin-Keller-\n  Straße 1561.\n— Rosa. Kronengasse 46.\nVon Känel, Charles, Zahnarzt, Reichenbach. Schmiedgasse 385.\nVon Okolski, Eduard, Bankkassier, Henau (St. Gallen). Jurastr. 1485.\nVon Wartburg-Schlegel, B., Buchhalter, Aarburg. Graben 213.\nVuillermot-Leblanc, Joh., Kaufmann, Verriers (Frankreich). Feer-\n  straße 689.\nWächter-Vogt, Anna, Wäscherin, Mönthal. Entfelderstraße 1396.\n— -Sax, Hans, Taglöner, Mönthal. Halden 297.\n— -Lindenmann, Louise, Witwe, Wäscherin, Mönthal. Halden 302.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 30549,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2319,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:57:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p219",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p219.jpeg",
+      "bytes": 965303,
+      "sha256": "b33d93b76a0712f6a46390736b8be18d11d36186cb2d247537674c9c351ef047",
+      "sha256_of": "original",
+      "working_copy": "1913_p219.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:57:38+00:00"
+  }
+}

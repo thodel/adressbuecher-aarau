@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p209",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p209.jpeg",
+    "bytes": 988362,
+    "sha256": "85ad4660ae2981f18ad72fa52994df3e7ec47af72c8637e2cd03b666a8713a85",
+    "sha256_of": "original",
+    "working_copy": "1913_p209.jpeg"
+  },
+  "text": "— 167 —\nSchweizer-Ziegler, Pauline, Privatin, Stuttgart. Buchserstr. 1856.\n— -Siebenmann, Sophie, Witwe, Privatin, Dättwil. Oberholzstr. 479.\n*Schweizerische Bundesbahnen, Bahnhofgebäude. Bahnhofstr. 803.\nSchweiz. Exportgesellschaft für Emmentalerkäse A. G. Bureau [tel].\n  Rohrerstraße 916.\nSchweiz. Exportgesellschaft für Emmentalerkäse A. G. Magazine.\n  Rohrerstraße 1773.\nSchwendimann-Amsler, Wilh., Kav.-Instr., Pohlern (Bern). Graben 228.\nSchwere-Markwalder, Dr. Siegfried, Seminarlehrer. Augustin-Keller-\n  Straße 1561.\nSchwurgericht. Sitzungslokal: Rathausgasse 1.\nScudeletti-Martini, Giov., Handlanger, Bonate (Ital.). Bahnhofstr. 558.\nSeebacher-Wächter, Camillo, Kernmacher, Mülhausen. Flößer-\n  straße 1188.\nSeemann-Sargel, Oskar, Steindrucker, Berlin. Buchserstraße 1856.\nSenn-Holzer, Daniel, Gärtner, Densbüren. Zieglerain 413.\n— Frida, Fabrikarbeiterin, Densbüren. Gasstraße 1171.\n— -Lüthy, Gustav, Rangierarbeiter S. B. B., U.-Kulm. Milchgasse 148.\n— -Gysi, Hans, Zeughausverwalter, Zofingen. Jurastraße 1484.\n— -Amsler, Johannes, Bureauangestellter, Densbüren. Gasstr. 1171.\n— Louise, Seon. Zelglistraße 1700.\n— Margaretha, Zofingen. Jurastraße 1484.\n— -Siegfried, Max, Forstverwalter der Stadt Aarau, Zofingen.\n  Westallee Neugut 1868.\n— Oskar, Bureauangestellter, Densbüren. Gasstraße 1171.\n— -Schenk, Rudolf, Taglöhner, Densbüren. Zieglerain 396.\n— Walter, Commis, Densbüren. Flößerstraße 1189.\nSennhauser, Amalie, Glätterin, Herrliberg. Oberholzstraße 475.\n— Rosa, Glätterin, Herrliberg. Oberholzstraße 475.\nSeiler-Käser, Albin, Bahnhofportier, Mägenwil. Bahnhofstraße 812.\n— Josef, Bureaulist, Niederwil. Buchserstraße 956.\n— -Haßler, Mina, Witwe, Privatin, Dynhard. Hammer 188.\nSeiffert-Husser, Hch., Schneider, Falkenstein (Sachsen). Ziegel-\n  rain 424.\nSeravin-Campaner, Giuseppe, Handlanger, Possagno (Italien).\n  Schachen 1139.\nSetz-Lüscher, Melchior, Commis, Dintikon. Industriestraße 1508.\nSiebelist-Fahrländer, Anna. Laurenzenvorstadt 720.\nSiebenmann, Adolf, Sekretär. Bachstraße 1089.\n— -Siebenmann, Arnold, Tapezierermeister. Vordere Vorstadt 340.\n— Bertha, Ladentochter. Zieglerain 422 a.\n— Bruno, Reisender. Oberholzstraße 482.\n*— & Cie, March.-Tailleures. Offiziersausrüstungen, Zivil-Maßge-\n  schäft [tel]. Oberthor 241.\n— Elisabeth, Bureaulistin. Vordere Vorstadt 340.\n— -Blum, Elise, Wwe., Privatin. Vordere Vorstadt 340.\n— Emil, Part. Hintere Vorstadt 363.\n— Emil, Sohn. Oberthor 241.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 22275,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2422,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:51:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p209",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p209.jpeg",
+      "bytes": 988362,
+      "sha256": "85ad4660ae2981f18ad72fa52994df3e7ec47af72c8637e2cd03b666a8713a85",
+      "sha256_of": "original",
+      "working_copy": "1913_p209.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:51:09+00:00"
+  }
+}

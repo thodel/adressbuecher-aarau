@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p087",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p087.jpeg",
+    "bytes": 814275,
+    "sha256": "f56fec440c56017f4b3742db17b63d7304b9b141bae3c34567899f3dbee853fb",
+    "sha256_of": "original",
+    "working_copy": "1901_p087.jpeg"
+  },
+  "text": "76\nHaus-\nNr.\n1392 † Dieselben.  Wasch- und Holzhaus.\n1393 * Beck, Friedrich, Sattler.\n  Lenzi-Fischer, Albert, Kontroleur auf der Aarg. Ersparnis-\n  kasse, von Zuzgen.\n  Reimann-Schildt, Gottfr. Herm., Reisender, v. Veltheim (Zch.)\n1394 * Derselbe.  Wirtschafit zum Tivoli.  Trinkhalle und Anbau.\n  Studer-Hofer, Adeline, Wirtin, von Olten.  Speisewirtschaft.\n1395 † Derselbe.  Wasch- und Holzhaus.\n1396  Vogel-Wassmer, Rud., Dachdecker, von Kölliken.\n  Haller-Widmer, Gottfried, Kondukteur, von Kölliken.\n1397  Riniker-Wernli, Hermann, Küher.\n  Hagnauer-Heussler, Jakob Eugen, Pfarrer.\n1398 * Derselbe.\n  Holzinger, Pauline, Part., von Baselaugst.\n  — Bertha, Postangestelle  \"   \"\n  — Mina, Part.,  \"  \"\n  Birchmeier-Felber, Alfred, Lithograph, von Würenlingen.\n  Felber-Gruber, Georg, von Unterbötzberg.\n  Reutimann, Emil, Techniker, von Zürich.\n1399 † Derselbe.  Holzhaus.\n1400  Mathys-Matter, Wilhelm, Feilenhauer, von Kölliken.\n  Käser-Leder, Johann, Steinhauer, von Biberstein.\n  Lenzi-Hofer, Peter, Taglöhner, von Oberhof.\n1401  Richner-Karli, Karl, Röhrenfabrikant. [tel]\n  Maier, Egina, Part.\n  Uhler, Bertha, Hauptlehrerin am Gewerbemuseum, von Utt-\n  weil (Thurgau).\n  Kobelt, Alfred, Buchhalter, von Marbach (St. Gallen).\n1402  Landolt-Hächler, Gottlieb, Landwirt zum „Tannenheim“.\n  Tanner-Vonwiller, Erwin, Fürsprech.\n1403 † Derselbe.  Scheune und Remise.\n1404 * Riniker, Gebr., Bierbrauer.\n  Siebenmann-Schmidt, Karl, Part.\n  Sfoffel, Elisa, Bureauangestellte, von Lindau.\n  Amsler-Baumann, Heinrich, Werkführer.  Meteorologische\n  Station.\n  Späni-Waldmeier, Louise, Weißnäherin, von Karsau (Baden).\n  Baumann, Samuel Johann, Schmied, Part.\n1405  Brentano, M., Zahnarzt, [tel] von Laufenburg.\n  Lang, Leonie Leontine, Haushälterin, von Baden.\n  Zschokke-Bodmer, Hermann, Agentur.\n1406 † Derselbe.  Holzhaus.\n1407  Schindler-Trümpi, Emma, Part., von Mollis (Glarus).\n  Kauf, Alfred, Kassier, Aarg. Kreditanstalt, von Wellhausen\n  (Thurgau).\n1408 † Dieselbe.  Wasch- und Holzhaus.\n1409  Schmuziger, Fried., Dr. med., Arzt. [tel]\n  — -Visel, Wilhelmine, Haushälterin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 43536,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2081,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:31:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p087",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p087.jpeg",
+      "bytes": 814275,
+      "sha256": "f56fec440c56017f4b3742db17b63d7304b9b141bae3c34567899f3dbee853fb",
+      "sha256_of": "original",
+      "working_copy": "1901_p087.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:31:18+00:00"
+  }
+}

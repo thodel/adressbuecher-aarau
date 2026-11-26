@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p113",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p113.jpeg",
+    "bytes": 850879,
+    "sha256": "43abc531ff35158379d508ee44a959f9addb3cda609c281a1cc9fdba29a3d10f",
+    "sha256_of": "original",
+    "working_copy": "1913_p113.jpeg"
+  },
+  "text": "— 89 —\nHaus-\nNr.\n  1188 * Wehrli-Dubs, Johann, Gärtner.\n  Gehrig-Roth, Magdalena, Ammerswil.\n  — Walter, Hilfsmonteur, Ammerswil.\n  Haller-Attiger, Marie, Wwe., Wäscherin und Glätterin, Reinach.\n  — Fritz, Schlosser, Reinach.\n  Seebacher-Wächter, Camillo, Kernmacher, Mülhausen.\n  1189 Wernli-Senn, Gottlieb, Buchhalter, Thalheim.\n  Senn, Walter, Commis, Densbüren.\n  1192 * Etter, Reinhard, Käser, Erbschaft.\n  Frey-Sandmeier, Gottfried, Stadtpolizist, Klingnau.\n  Herzog-Portmann, Frz. Josef, Handlanger, Wölflinswil.\n  Bertschi-Weber, Jakob, Landwirt, Dürenäsch.\n  Fischer-Eggimann, Otto, Versicherungsbeamter, Tennwil.\n  1193 * Camisasca, Franz, Privatier.\n  Müller-Vonäsch, Elisabeth, Wwe., U.-Kulm.\n  — Karl, Commis, U.-Kulm.\n  — Bertha, Ladentochter, U.-Kulm.\n  Völlmi-Stirnemann, Reinhard, Monteur, Basel.\n  Herzig-Camisasca, Karl, Adjunkt des Kreiskommando Brugg,\n    Wynau (Bern).\n  Schmuziger-Visel, Wilhelmine, Witwe.\n  — Olga, Ladentochter.\n  1194 Häusler-Zähner, Emil, Malerwerkstätte, Schwaderloch.\n  — -Schmid, Julie, Wwe., Schwaderloch.\n  — Karl, Schriftsetzer, \"\n  — Julie, Glätterin, \"\n\nGassstrasse.\n  1169 Drack-Rohr, Hermann, Metallgießerei.\n  Stirnemann-Kaufmann, Otto, Chefmonteur, Gränichen [tel].\n  1171 Riner-Obrist, Polizeikorporal, Herznach.\n  — Walter, Schreiner, \"\n  Senn-Amsler, Johannes, Bureauangestellter, Densbüren.\n  — Frida, Fabrikarbeiterin, Densbüren.\n  — Oskar, Bureauangestellter, \"\n  1172 Wägeler-Vogel, Karl, Dachdeckermeister [tel].\n  — -Giger, Karl, Mineralwasserfabrikation u. Kohlenhandlung.\n  Käser-Kappeler, Oswald, Telephonarbeiter, Biberstein.\n  1173 * Gasbeleuchtungsgesellschaft Aarau. Gasfabrik [tel].\n  Grob, Walter, Direktor, Zürich.\n  Stetter, Gisela, Haushälterin, Obernzell (Bayern).\n  Hanselmann-Caveyn, Paul Alfred, Gasmeister, Güttingen\n  (Thurgau).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 53573,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1811,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:07:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p113",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p113.jpeg",
+      "bytes": 850879,
+      "sha256": "43abc531ff35158379d508ee44a959f9addb3cda609c281a1cc9fdba29a3d10f",
+      "sha256_of": "original",
+      "working_copy": "1913_p113.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:07:28+00:00"
+  }
+}

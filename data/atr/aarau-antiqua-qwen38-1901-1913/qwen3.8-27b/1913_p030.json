@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p030",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p030.jpeg",
+    "bytes": 934822,
+    "sha256": "b8acd3a96adaa98d436d4d43ec9bdc3a03429513819295c07f1aa2e8fb1b917f",
+    "sha256_of": "original",
+    "working_copy": "1913_p030.jpeg"
+  },
+  "text": "— 16 —\nHaus-\nNr.\nWärtli, Bertha, Bureauangestellte.\n— Emma, Ladentochter.\nSchmid-Wärtli, Franz, Coiffeur.\nEichhorn, Emanuel, Coiffeur, Höchst.\nZumbühl-Peyer, Alois, Knecht, Büren (Nidwalden).\nPeyer-Roß, Wilhelmine, Witwe, Wäscherin, Lostorf (Soloth.).\n163 † Gemeinde Aarau. Kirche.\n164 * Reformierte Kirchgemeinde. Pfarrhaus.\nGraf, Ernst, reform. Stadtpfarrer, Winterthur.\n— Ernst, Dr. jur., Fürsprech,\nKlein, Hedwig, Hauptlehrerin, Neukirch (Thurgau).\nSchindler, Julie, Haushälterin, Biel.\n165 * Schlatter, August, Pfarrer in Herisau.\nFehlmann-Wernli, Marie, Witwe, Privatine, Seon.\n— Ida, Fergerin, Seon.\n— Max, Kellner,\nRyser, Bertha, Haushälterin, Sumiswald.\n— Sophie, Fabrikarbeiterin,\nSimendinger-Sauter, Eugen, Fuhrknecht, Hirlingen (Württb g.).\n\nAdelbändli.\n\n166 Parolini-Bellini, Saverio, Lezzeno (Italien). Südfrüchten- und\nSpezerei-handlung.\nGardenghi, Armando, Handlanger, Imola (Italien).\nGrandi-Giordani, Enrico, \"\n167 * Morath-Stirnenmann, Wendolin, Kaufmann, Schlagetten.\nLanfranconi-Caprani, Giuseppe, Gipser, Como (Italien).\n168 * Garganigo, Josef, Südfrüchtenhändler, Nesso (Italien).\nLorenzi, Fedele, Schleiferei.\nMenefoglio-Rusconi, Angelo, Gipser, Marzio (Italien).\nFilippetti, Luigi, Handlanger, Saludecio (Italien).\n— -Bizzicari, Ciro, \"\n169 Comolli-De Rocche, Francesco, Marmorist, Breno (Italien).\nDalmonte-Tonini, Angelo, Handlanger, Imola\n170 Taddei-Valli, Antonio, Südfrüchtenhändler, Montegabbione (It.).\nSpezerei-handlung zum billigen Menelik.\nTenti-Michelini, Vittorio, Handlanger, Saludecio (Italien).\nZandi, Giuseppe, Handlanger, Medecina (Italien).\n171 Poetz-Schmuziger, Emma, Privatine.\nD'Agostini-Näf, Rizzeri, Maurer, Polier (Italien).\nSchmuziger-Zulauf, Marie, Witwe, Privatine.\nVon Arx-Brosi, Emma, Witwe, Taglöhnerin, Nieder-Gös gen.\n172 * Staat Aargau. Christkath. Pfarrhaus.\nDr. Fischer-Keller, Xaver, christkath. Pfarrer, Triengen.\nFischer, Irmengard, Triengen.\nSchmidt, Hedwig, Coiffeuse.\nNiggli, Paul Hermann, Postbeamter, Aarburg.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21202,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1977,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:35:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p030",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p030.jpeg",
+      "bytes": 934822,
+      "sha256": "b8acd3a96adaa98d436d4d43ec9bdc3a03429513819295c07f1aa2e8fb1b917f",
+      "sha256_of": "original",
+      "working_copy": "1913_p030.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:35:22+00:00"
+  }
+}

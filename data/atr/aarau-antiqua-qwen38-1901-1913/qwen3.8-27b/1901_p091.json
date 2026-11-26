@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p091",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p091.jpeg",
+    "bytes": 788016,
+    "sha256": "81ce39723e4e529e3b95a6930fd97a7c77f1d10a2752ebb745d6f91706ab2786",
+    "sha256_of": "original",
+    "working_copy": "1901_p091.jpeg"
+  },
+  "text": "80\nHaus-\nNr.\n1477 * Bossart-Bächli, Joh., in Buchs.\n  Hässig, Hans, Stadtrat.\n  — Emma, Part.\n  Stänz, Robert, Ingenieur.\n1478 Müri-Hiltbold, Johann, Regierungsrat, von Schinznach.\n1479 Zehnder-Grossmann, Otto, Kantonsingenieur, von Zofingen.\n1480 Henz-Plüss, Jakob, [tel] Kaufmann, Stadtrat.\n  Würth-Posth, Elise Marie, Haushälterin, von Zürich.\n  Leu-Stalder, Anna Elisabeth, Köchin, von Mattstetten (Bern).\n1481 Fischer-Eglinger, Rudolf, Part., von Fahrwangen. Chalet.\n  Eglinger, Maria, Part., von Basel.\n1482 * Schäfer-Troller, Adolf, Architect.\n  Imhof-Munzinger, Emil, Part.\n1483 Offen gelassen.\n1484 Senn-Gysi, Hans, Zeughausverwalter, von Zofingen.\n  Gysin, Johann Georg, Lithograph, von Basel.\n  Breuninger, Karl, Buchhändler, von Stuttgart.\n1485 * Schäfer-Troller, Adolf, Architect.\n  Fretz-Häusler, Hans, Kaufmann, von Bottenwyl.\n1486 Offen gelassen.\n1487 Springer-Hopf, Herm., Kaufmann, von Isny (Württemberg).\n1488 * Schäfer-Troller, Adolf, Architect.\n  — Ida, Part.\n1489 * Derselbe.\n  Rohr-Reiner, Hans, Oberrichter, von Lenzburg.\n1490 Offen gelassen.\n1491 Schmidt-Halbritter, Max, Fürsprech, Stadtammann. [tel]\n1492 Offen gelassen.\nAugustin Keller-Strasse.\n1493 * Müller, Arnold, Architect.\n  Bürgin-Debertin, Ernst, Kaufmann, von Schopfheim (Baden).\n  Lüscher-Weissbrodt, Jakob, Notar, von Muhen.\n1494 Steiner-Haller, Johann, Postfaktuer, von Schmiedrued.\n  Kropp, Mathilde, Part., von Kaliska (Preußen).\nWeltistrasse.\n1495 Offen gelassen.\n1496 Hemmeler-Wernli, Rudolf, Kaufmann.\nBachstrasse (Neugut).\n1497 Steiner-Haberstich, Gottfried, Kaminfeger, von Oberkulm.\n  Breitenstein-Mutter, Johann, Knecht, von Bettwyl.\nTellirain.\n1498 Gampp-Spreuer, Philipp, Aufseher, von Hornussen.\n  Eckert-Fohlenbacher, Clemens, Maschinist, v. Dogern (Baden).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14937,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1760,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.54,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:32:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p091",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p091.jpeg",
+      "bytes": 788016,
+      "sha256": "81ce39723e4e529e3b95a6930fd97a7c77f1d10a2752ebb745d6f91706ab2786",
+      "sha256_of": "original",
+      "working_copy": "1901_p091.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:32:46+00:00"
+  }
+}

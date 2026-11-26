@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p155",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p155.jpeg",
+    "bytes": 783951,
+    "sha256": "925848e06f91308b2e80b1bf6ee409f6493ebe8667a259bb21be7a0a64991eb4",
+    "sha256_of": "original",
+    "working_copy": "1901_p155.jpeg"
+  },
+  "text": "142\nChampagner.\nCuster, E. & Cie.,* Bahnhofstraße 626.\nVidiella, Manuel,* Kirchgasse 33 und Laurenzenvorstadt 738.\nCementfabrikation.\nFleiner & Cie., Cementfabrik und Bureau,* Erlinsbacherstraße 1291.\n (Siehe Inserat vordere innere Deckelseite.)\nJura-Cementfabriken,* im Scheibenschachen 1346. Portlandcement-\n und hydr. Kalkfabriken in Aarau und Wildeg g. Grösste Fabrik\n der Schweiz.\nChemisch-technische Präparate.\nAngst, Robert,* hinter dem Platz 238. (Siehe Inserat Seite 25.)\nChemische Produkte.\nCuster, E. & Cie.,* Mineralwasserfabrikation, Bahnhofstraße 626.\nFrey & Cie.,* Telli 840. (Siehe Inserat Seite 31.)\nLandolt & Cie.,* obere Vorstadt 534.\nChocolade-Fabrikation.\nFrey, R. & M.,* Laurenzenvorstadt 773. (S. Ins. letzte Deckelseite.)\nCigarren- und Tabakhandlungen.\nBrast, Geschwister, Holzmarkt 318.\nBurgmeier, J.. Graben 216. (Siehe Inserat Seite 16.)\nFischer, Adolf,* Laurenzenthorgasse 114.\nGuggisberg, Emil,* Bahnhofstraße 619.\nZimmerli, Emma, Laurenzenvorstadt 736.\n Ferner alle Spezeriehandlungen.\nCoiffeurs.\nBurkhardt, F., Laurenzenthorgasse 117.\n — Ferd., Sohn, Laurenzenthorgasse 117.\nFrey, Achilles, Zeughausstraße 663.\nGraf, Arnold Eugen, Graben 214.\nHagenbuch, Emil, Rain 429.\nHauri, Jean, Pelzgasse (Oberthor) 97.\nHoffmann, Christoph, Kirchgasse 34a.\nMarfurt, Franz Xaver, Bahnhofstraße 559b.\nMerz, Johann, Bahnhofstraße 621.\nMüller, Fritz, Zollrain 55.\nPache, Louis, hintere Vorstadt 378.\nRüetschi, Karl, Metzgergasse 71.\nSchibler, Fritz, Kronengasse 43.\n Dieselben handeln auch mit Parfümeriewaren.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38595,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1525,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:58:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p155",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p155.jpeg",
+      "bytes": 783951,
+      "sha256": "925848e06f91308b2e80b1bf6ee409f6493ebe8667a259bb21be7a0a64991eb4",
+      "sha256_of": "original",
+      "working_copy": "1901_p155.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:58:17+00:00"
+  }
+}

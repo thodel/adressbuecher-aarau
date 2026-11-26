@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p029",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p029.jpeg",
+    "bytes": 972383,
+    "sha256": "5ca3f991579a46c42c028061345aa89ecdff1cda65fc893e6cdcf20ed86429cb",
+    "sha256_of": "original",
+    "working_copy": "1913_p029.jpeg"
+  },
+  "text": "Haus- — 15 —\nNr.\n152 * Andres-Meier, Samuel, Privatier.\nGloor-Beck, Adolf, Schlossermeister, mechanische Schlosserei.\nHunkeler, Elisabeth, Damenschneiderin, Hergiswil.\n153 Kull-Eugster, Emil, Philipp's, Spenglermeister. Bauspenglerei\n  und Haushaltsartikel.\nWinter, Adolf, Schneider, Kaisten.\n154 * Walti-Sandmeier, Emil, Milch- u. Spezereihändler, Dürrenäsch.\nStilli-Roth, Gottlieb, Taglöhner, Bözen.\nBlaser-Neuenschwander, Magdalena, Witwe, Privatin, Trub-\n  schachen (Bern).\nRiser-Schmid, Fritz, Gasarbeiter, Dürrenäsch.\n155 Walti-Sandmeier, Emil, Milch- und Spezereihandlung.\nSchmid-Eng, Peter, Seidenbandweber, Herznach.\n  — Emilie, Fabrikarbeiterin, Herznach.\n156 * Schär-Knuchel, Hermann, Bäckermeister, Murgenthal.\nVögeli-Bohrer, Marie, Witwe, Spetterin, Leibstadt.\nMüller-Hiltmann, Emma, Witwe, Spetterin, Rüstenschwil.\nSchärer-Jäggi, Leonz, Spengler, Wisen (Solothurn).\nPhilipp-von Arx, Rosina, Witwe, Kienberg (Solothurn).\nStahel, Karolina, Fabrikarbeiterin, Villnachern.\n157 Schär-Knuchel, Herm., Bäckermeister, Murgenthal. Bäckerei. [tel]\nKirchhof.\n158 Gränicher-Wärtli, Marie, Witwe.\n  — Johann, Telegraphenfaktour.\n  — Gottlieb, Sekretär der Bauverwaltung [tel].\nWildi-Rodel, Frida, Witwe, Wäscherin, Schafisheim.\n159 Dubach-Hadorn, Ernst, Spenglermeister, Eggiwil. Bauspenglerei.\nBisutti-Hofmann, Marie, Fabrikarbeiterin, Aarburg.\nHofmann-Herzig, Marie, Witwe, Aarburg.\n160 * Wanger, Buchbinders Erbschaft.\n  — Alfred, Privatier.\n  — Rosa, Privatin.\nMüller-Hauri, Marie, Witwe, Weißnäherin, Biberstein.\nHolzreuter-Suter, Katharina, Witwe, Wäscherin, Ueken.\n  — Lina, Glätterin, Ueken.\nSuter-Stirnemann, Johann, Taglöhner, Ober-Entfelden.\nHintermann-Hohlenweiger, Margaretha, Taglöchnerin, Beinwil.\nHäny, Elise, Spetterin, Kölliken.\nLeutwyler-Flachmüller, August, Stadtarbeiter, Lupfig.\n161a Hächler-Peter, Gottlieb, Stadtarbeiter, Teufenthal.\nFiorentini, Sebastiano, Handlanger, Portico (Italien).\n161b Stierli-Häny, Samuel, Ausläufer.\n  — Bertha, Ladentochter.\n162 Wärtli-Ernst, August, Buchbindermeister, Senior.\n  — -Stacher, A., Buchbinderei (Filiale).\n  — Fritz, Bankangestellter.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 127497,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2101,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:37:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p029",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p029.jpeg",
+      "bytes": 972383,
+      "sha256": "5ca3f991579a46c42c028061345aa89ecdff1cda65fc893e6cdcf20ed86429cb",
+      "sha256_of": "original",
+      "working_copy": "1913_p029.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:37:08+00:00"
+  }
+}

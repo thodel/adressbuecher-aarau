@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p169",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p169.jpeg",
+    "bytes": 745958,
+    "sha256": "42b67bf8f4f24ec2d1643e9b1d3e162335a1c4accd3ec4f5cc0aa8e22ac202ca",
+    "sha256_of": "original",
+    "working_copy": "1901_p169.jpeg"
+  },
+  "text": "156\nKüfer.\nElsaßer, Gottlieb, Halden 305.\nLüscher, Theodor, Milchgasse 137.\nScheibler, Fritz, Rain 498.\nWidmer, Hermann, Schmiedgasse 379.\nLackfabrikanten.\nLandolt & Cie.,* obere Vorstadt 534.\n  (Siehe Fabrikationsgeschäfte.)\nLagerungs-, Speditions-, Kommissions- u. Belehnungs-\n  geschäfte.\nLagerhäuser der Centralschweiz in Aarau und Olten, mit eidgen.\n  Niederlagshaus in Aarau,* Bahnhof 832. (S. Inserat Seite 19.)\n  (Siehe auch Camionneure).\nLebensversicherung.\n  (Siehe Agenturen.)\nLederhandlung.\nHäny, Rudolf, Bahnhofstraße 623.\nLehrer.\nPrivat- und Musiklehrer.\nBurgmeier, J., Musik- und Gesangslehrer, Graben 216.\nBeck-, Emil. Sprachlehrer, Hammer 188.\nDösel, Mina, Klavierlehrerin, Bahnhofstraße 608.\nFehlmann, Samuel, Musiklehrer, Schachen 1126.\nFrey-Kumpf, Fr., Musiklehrer, Zollrain 62.\nHemmerle, Ida, Klavierlehrerin, Goldattenmattgasse 247.\nHolzinger, Mina, Klavierlehrerin, Entfelderstraße 1398.\nKutschera, Eugen, Musik- und Gesangslehrer, Laurenzenvorstadt 701.\nImhof, Lina, Kasinostraße 641.\nRödelberger, Franz, Musiklehrer, Laurenzenvorstadt 790.\nRychner, Fritz, Pianist, obere Vorstadt 548.\nRochholz, Mina, Klavierlehrerin, Kirchgasse 39.\nSiebenmann, Emmy, Klavierlehrerin, Schloßplatz 199.\nSpühler, Anna, Zeichnungslehrerin, Bachstraße 1091.\nThom, Franz, Musiklehrer, Zeughausstraße 663.\nWittmer, J., Musiklehrer, Kasinostraße 657.\n— Emma, Kasinostraße 657.\nLeichenbeschauer.\nHagenbuch, Karl, Coiffeur, Rain 429.\nLeihbibliothek.\nWirz-Christen, Karoline, Oberthor 243.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 27176,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1487,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.05,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:02:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p169",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p169.jpeg",
+      "bytes": 745958,
+      "sha256": "42b67bf8f4f24ec2d1643e9b1d3e162335a1c4accd3ec4f5cc0aa8e22ac202ca",
+      "sha256_of": "original",
+      "working_copy": "1901_p169.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:02:48+00:00"
+  }
+}

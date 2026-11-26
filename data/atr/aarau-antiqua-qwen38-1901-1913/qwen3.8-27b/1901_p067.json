@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p067",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p067.jpeg",
+    "bytes": 869041,
+    "sha256": "b2624f1f9db560fe61ba2a3b7ca8543fa59e52fdcd3a03464950cb1b07376065",
+    "sha256_of": "original",
+    "working_copy": "1901_p067.jpeg"
+  },
+  "text": "56\nHaus-\nNr.\n910 Bally-Arndt, Eugen, Fabrikant [tel].\n911 † Derselbe. Wash- und Gewächshaus.\n912 † ″ Wash- und Holzhaus.\n913 † Schweizerische Eidgenossenschaft. Zeughäuser.\n914 † Staat Aargau. Zeughaus.\n915 † Schweizerische Eidgenossenschaft. Abtrittgebäude.\n916 Gasser-Fendrich, Emanuel, Fabrikant, v. Hallau (Schaffhausen).\n  [tel] (zur Tanneneck).\n  Wietlisbach, Friedrich, Justizsekretär, von Bremgarten.\nBuchserstrasse.\n917 * Gasser-Fendrich, Emanuel, Fabrikant.\n  Traine-Aldinger, Eugen, Major, v. Oberhofen-Illighausen(Thurg.)\n  Instruktions-Offizier.\n918 * Evangelische Gemeinschaft in der Schweiz.\n  Müller-Hilfiker, Samuel, Prediger, von Unterkulm.\n919 Birchmeier-Ottenat, Eduard, Professor, von Würenlingen.\n920 Widmer-Häfeli, Rudolf, Weinhändler, von Gränichen. [tel] Speise-\n  wirthschaft zum Lindenhof.\n921 Locher-Willi, Jakob, Postkondukteur, von Ems (Graubünden).\n922 Adam-Keller, Anton, Fabrikant, von Allschwil (Baselland).\n923 Fröhlich-Stelzer, Franz, Dr. Prof., von Brugg.\n924 * Schäfer, Emil, Sohn, Kaufmann [tel]. Erbschaft.\n  Oehler-Osthuess, Adele, Witwe, Part.\n  Werrenfels-Reiner, Albert, Kaufmann, von Basel.\n925 † Schäfer, Emil. Erbschaft. Geflügelhaus.\n926 Stäbli, Sophie, Jungfrau, Part., Drs., von Brugg.\n  — Gottlieb, Part., Drs., von Brugg.\n  Meissner, Herm. Arthur, Commis, von Reudnitz (Preußen).\n927 † Dieselbe. Scheune.\nIndustriestrasse.\n1508 † Sprecher & Fretz. Fabrikgebäude. Fabrikation elektrischer\n  Apparate.\n928 † Hunziker & Cie. Fabrikgebäude (Möbelfabrik) [tel].\n929 † Oehler & Cie. Wohnhaus.\n  Rothacker-Hunziker, Johann, Nachtwächter, von Blumenstein\n  (Bern).\n  Schmid-Wasser, Johann, Handlanger, von Hendschikon.\n930 † Dieselben. Kohlenschuppen.\n931 † ″ Magazin.\n932 † ″ Fabrikgebäude. Eisengießerei.\n933 † ″ Bureau und Magazin [tel].\n934 † ″ Abtrittgebäude.\n935 † ″ Gießhalle.\n936 † ″ Eisenmagazin.\n1502 † ″ Kohlen-, Metall- und Rohgußschuppen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29090,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1895,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:24:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p067",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p067.jpeg",
+      "bytes": 869041,
+      "sha256": "b2624f1f9db560fe61ba2a3b7ca8543fa59e52fdcd3a03464950cb1b07376065",
+      "sha256_of": "original",
+      "working_copy": "1901_p067.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:24:48+00:00"
+  }
+}

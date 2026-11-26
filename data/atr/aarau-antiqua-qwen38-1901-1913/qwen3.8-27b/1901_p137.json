@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p137",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p137.jpeg",
+    "bytes": 856084,
+    "sha256": "06efbf5d91352cff0a3ade629910b44b8141ca450d7e88a4e956d2f6a283fd6f",
+    "sha256_of": "original",
+    "working_copy": "1901_p137.jpeg"
+  },
+  "text": "124\nSprecher, Karl, Elektrotechniker, Bachstraße 1072. Fabrik Industrie-\n  straße 1508.\nSprenger, Karl, Kondukteur, Gönhardfeldweg 1440.\n— Wilhelm, Schreiner, Rathausgasse 13.\nSpringer, Hermann, Kaufmann, Jurastraße 1487.\nSpühler, Anna, Kunstmalerin, Bachstraße 1091.\n— Joh. Jakob, Sekretär, Bachstraße 1091.\n— Otto, Staatsanwaltssubstitut, Bachstraße 1091.\nStäbli, Henriette Adele, Privatière, Laurenzenvorstadt 746.\n— Ida, Part., Laurenzenvorstadt 746.\n— Gottlieb Wilhelm, Part., Buchserstraße 926.\n— Paul, Ingenieur, Laurenzenvorstadt 789.\n— Sophie, Dr.'s, Part., Buchserstraße 926.\nStähelin, Alfred, Dr. med., [tel] (Kirschgarten), Küttigerstraße 1261.\nStänz-Bircher, Anna Maria, Part., Rain 441.\n— Robert, Ingenieur, Jurastraße 1477.\n— Rud., Schriftsetzer, Graben 225.\n— geb. Suter, Luise, Ingenieurs Witwe, Bachstraße 1070.\nStäubli, Joh. Heinrich, Kassier der Güterexpedition, Rain 440.\n— Niklaus, Direktionssekretär, Weinberg 1288.\nStaatsanwaltschaft, hintere Vorstadt 362. [tel]\nStacher-Brunner, Gustav, Zollrain 61.\nStadtpolizeiposten, Rathausgasse 1. [tel]\nStahel & Cie., Manufakturwarenhandlung en gros, [tel] Schloßplatz 198.\n— Johann, Kaufmann, Schloßplatz 198.\nStalder, Friedrich, Speisewirtschaft z. National, [tel] Kasinstraße 662.\n— Joseph, Gipser, Kirchgasse 41.\n— Katharina, Haushälterin, Kirchgasse 15.\nStapfer, Johann, Schuhmacher, Part., Graben 214.\n— Johann, Sohn, Schuhmachermeister, Rathausgasse 22.\nStaub, Jak. Bernhard, Wagenkontrolleur, Bleichemattstraße 1023.\n— Joh. Jakob, Bahnhofangestellter, Bleichemattstraße 1023.\nStauber, Gottfried, Telegraphist, Schachen 1137.\n— Jakob, Notar und Amtsrevisor, Schachen 1137.\nStauffer, Albert, Bankangestellter, Bahnhofstraße 590.\nSteffen geb. Meier, Anna, Witwe, Rain 499.\nStehle, Albert, Schneider, Schachen 1133.\nSteimer, Eugen, Fachlehrer, Bachstraße 1097.\nSteiner, Bertha, Damenschneiderin, Laurenzenvorstadt 727.\n— Gottfried, Kaminfeger, Bachstraße 1497.\n— geb. Haller, Mina, Witwe, Taglöhnerin, Laurenzenvorstadt 727.\n— Hermann, Knecht, Adelbändli 177.\n— Hermann, Bahnangestellter, Halden 286a.\n— Jakob, Postkondukteur, Laurenzentorgasse 118.\n— Johann, Part., Rain 499.\n— Johann, Postfakteur, Augustin-Keller-Straße 1491.\n— Marie, Ladentochter, Laurenzentorgasse 117.\n— Samuel, Oekonom, Laurenzenvorstadt 793.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 31074,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2284,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:49:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p137",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p137.jpeg",
+      "bytes": 856084,
+      "sha256": "06efbf5d91352cff0a3ade629910b44b8141ca450d7e88a4e956d2f6a283fd6f",
+      "sha256_of": "original",
+      "working_copy": "1901_p137.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:49:38+00:00"
+  }
+}

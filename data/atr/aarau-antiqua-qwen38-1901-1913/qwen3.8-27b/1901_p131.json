@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p131",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p131.jpeg",
+    "bytes": 836086,
+    "sha256": "5e087e7f2199d37a0589c591ea58e3d60e9213ee88ba3aebfbb939d971687756",
+    "sha256_of": "original",
+    "working_copy": "1901_p131.jpeg"
+  },
+  "text": "118\nRüegg geb. Abesser, Pauline, Witwe, Schmiedgasse 384.\n— geb. Wirth, Fanny, Witwe, Part., Zollrain 81.\nRüetschi geb. Christen, Elise, Witwe, Rain 457.\n— Fried., Buchhalter, Pelzgasse 103.\n— Gottfried, alt Obergerichtsweibel, Adelbändli 166.\n— Hermann, Glockengießerei, [tel] Rainstraße 457.\n— Karl, Coiffeur, Metzgergasse 71.\n— Max, Bäckermeister, [tel] Pelzgasse 103.\nRüthi, Hans, Postangestellter, Gasstraße 1169.\n— Vinzenz, Bäcker und Wirt, obere Vorstadt 516.\nRütimann, Eugen, Ingenieur, jenseits der Aare 1227.\nRütti, Viktor, Förster, Rohrerstraße 879.\nRubli, Johann Jakob, Gefangenwart, hintere Vorstadt 362.\nRuch, Alfred, Abwart, Bahnhofstraße 595.\nRudolf-Gross, Maria Hermine, Part., Rain (Oberholzstraße) 470.\nRuef, Anna, Haushälterin, Rain 464.\n— Johann, Taglöhner, Halden 315.\n— -Moore, Maria Elisabeth, Fabrikarbeiterin, Rain 497.\nRupp, Rudolf, Postcommis, Bleichemattstraße 1021.\nRusterholz, Albert, Bildhauer, Rain 506.\nRychner, Fritz, Pianist, obere Vorstadt 548.\n— geb. Heß, Karoline, Witwe, Pelzgasse 111.\n— Karl Christian, Röhrenfabrikant, Entfelderstraße 1401 [tel]. Fabrik\n  und Bureau Bahnhofstraße 613 [tel].\n— Konrad, Seiler, Seilerwaarenhandlung, Pelzgasse 111.\n— Louis, Ingenieur, Stadtrat, Rain 444. [tel]\n— geb. Renz, Rosa, Part., obere Vorstadt 548.\n— geb. Schleuniger, Marie, Hafners Witwe, Schmiedgasse 394.\n— geb. Siebenmann, Elise, Witwe, Part., Rain 438.\n— geb. Thommen, Elise, Witwe, Kirchgasse 36.\nSager, Jakob, Taglöhner, Bachstraße 1059.\nSalm, Barbara, Spetterin, Adelbändli 175.\n— Marie, Damenschneiderin, Adelbändli 175.\nSandmeier, Arnold, Küfer, Kirchhof 165.\n— August, Kaufmann, Bachstraße 1111.\n— Gottlieb, Buchbinder, obere Vorstadt 535.\n— Kaspar, Dachdecker, Golattenmattgasse 256b.\n— geb. Rohr, Susette, Witwe, obere Vorstadt 535.\nSauerländer geb. Custer, Emma, Part., Laurenzenvorstadt 782.\n— H. R. & Cie., [tel] Buchdruckerei, Buchbinderei und Verlagsbuch-\n  handlung, Laurenzenvorstadt 782.\n— Remigius, Buchdruckereibesitzer, Laurenzenvorstadt 785.\nSauter, Theresia, Vorgängerin, Rainstraße 434b.\nSaxer, Friedrich, Part., Rain 433.\n— Lisa, Part., vordere Vorstadt 353.\nSchäfer, Adolf, Architekt, Buchserstraße 974.\n— Cäsar, Messerschmied, vordere Vorstadt 337.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 50517,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2211,
+    "lines": 48,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:47:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p131",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p131.jpeg",
+      "bytes": 836086,
+      "sha256": "5e087e7f2199d37a0589c591ea58e3d60e9213ee88ba3aebfbb939d971687756",
+      "sha256_of": "original",
+      "working_copy": "1901_p131.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:47:30+00:00"
+  }
+}

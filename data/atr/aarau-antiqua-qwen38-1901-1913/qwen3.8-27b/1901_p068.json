@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p068",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p068.jpeg",
+    "bytes": 847205,
+    "sha256": "c48325937685d82cab850b805b431ac4b9de1a45661d8e39fdcb3b1bfa99011e",
+    "sha256_of": "original",
+    "working_copy": "1901_p068.jpeg"
+  },
+  "text": "57\nHaus-\nNr.\n937 † Ernst-Käser, Fried. [tel] Fabrikgebäude. Röhrenfabrikation.\n938 * Derselbe. Wohnhaus\n  Ernst, Friedrich, Sohn, Röhrenfabrikant.\n  Hagenbuch-Ernst, Fritz, Buchbinder.\nBuchserstrasse.\n939 Müller-Suter, Jakob, Lithograph. [tel] Wohnhaus.\n940 † Derselbe, Wasch- und Holzhaus.\nTorfeldstrasse.\n941 Mauch-Zimmerli, Rudolf, Bankabwart, von Teufenthal.\n  Wernle-Senn, Gottlieb, Kanzlist, von Thalheim.\n942 Aeschbach-Urech, Fried., Mechaniker, von Reinach. [tel]\n  — Johann, Mechaniker, von Reinach.\n  Compagnie Singer, Nähmaschinenhandlung und Werkstätte [tel].\n943 Felber-Obrist, Johann, Postkondukteur, von O.-Bözberg.\n  Baumann-Siegrist, Johann, Kanzlist, von Stilli.\n944 † Derselbe. Holzschoß.\n945 Wernli-Neesser, Kaspar, Postkondukteur, von Thalheim.\n  Sudler-Eiberle, Hermann, Küchenchef, von Emmingen (Bdn.)\n946 † Derselbe. Schoß.\n947 Müller-Schatzmann, Samuel, Postfakteur, von U.-Bözberg.\n  Schatzmann, Anna, Part, von Hausen.\n  Hochuli-Zisett, Jakob, Postangestellter, von Reitnau.\n948 † Aeschbach, Friedrich, Mechaniker. Werkstatt.\n849 * Derselbe. Wohnhaus.\n  Aeschbach-Dumas, Otto, Mechaniker (Eichmeister), v. Reinach.\n  Marti, Elise, Haushälterin, von Etzikon (Solothurn).\n  — Emilie, Damenschneiderin, von Etzikon (Solothurn).\n  — Julie, Bureauangestellte, von Etzikon (Solothurn).\n  — Elisabeth, Ladentochter, von Etzikon (Solothurn).\n950 Fisch-Thut, A., Buchhalter.\nBuchserstrasse.\n951 Bertschinger-Ryniker, Anna, Witwe, Part. [tel]\n952 Wüest-Senn, Konrad, Bezirksschullehrer.\n953 Frey-Wirz, Jakob, Schneidermeister, von Gontenschwyl.\n  Gygax-Steiner, Ernst, Kondukteur, von Thunstetten (Bern).\n  Acklin-Jäger, Emil, Verwalter, von Herznach.\n954 Müller-Stöckli, Johann, Postcommis, von Muri.\n  Nägeli, Elisabeth, Part., von Marthalen (Zürich).\n  — Heinrich, Commis, von Marthalen (Zürich).\n  Scherrer-Bühlmann, Johann, Lithograph, von Schaffhausen.\n955 Zingg-Fisch, Jakob, Zugführer, von Rothenhausen (Thurgau).\n  — — Hermine, Spezerei-handlung, von Rothenhausen (Thurgau)\n  Schneider-Ryser, Franz, Zugführer, von Herznach.\n  Locher-Nussbaum, Karl, Prokurist, von Oberegg (Appenzell).\n  Gerster-Rütz, Rosa, Witwe, Part., von Steinhausen (Thurgau).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 39531,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2174,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0208,
+    "mean_line_chars": 43.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:26:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p068",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p068.jpeg",
+      "bytes": 847205,
+      "sha256": "c48325937685d82cab850b805b431ac4b9de1a45661d8e39fdcb3b1bfa99011e",
+      "sha256_of": "original",
+      "working_copy": "1901_p068.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:26:02+00:00"
+  }
+}

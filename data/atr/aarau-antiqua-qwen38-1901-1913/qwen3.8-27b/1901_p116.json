@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p116",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p116.jpeg",
+    "bytes": 840440,
+    "sha256": "2b4f96132b40ce03f8632ada5167276c140ed610f49d847e86880ef6ae079202",
+    "sha256_of": "original",
+    "working_copy": "1901_p116.jpeg"
+  },
+  "text": "103\nHoch, Gustav, Kaufmann, Samen- und Spezereihandlung, [tel] Lau-\n  renzenthorgasse 122.\nHochstrasser, Elise und Mina, Damenschneiderinnen, Milchg. 148.\n— geb. Fehlmann, Verena, Spetterin, Milchgasse 148.\n— (-Merz), Maria, Damenschneiderin, Schachen 1117.\n— Jakob, Maschinist, Erlinsbacherstraße 1300.\n— Rudolf, Sekretär, hintere Vorstadt 369.\nHochuli, Gottlieb, Schuhmacher, Milchgasse 151.\n— Jb., Briefträger, Torfeldstraße 947.\nHodel, Josepha, Part., Rain 489.\nHof, Eduard, Mechaniker, obere Vorstadt 547. [tel]\n— -Müller, Bertha, Butterhandlung, Salzverkauf, obere Vor-\n  stadt 547.\nHofer, Gottlieb, Negt., Tuch- und Spezereiwarenhandlung, Rathaus-\n  gasse 25.\n— Joh. Jakob, Maler, Metzgergasse 75.\nHoffmann, Arnold, Ellenwarenhandlung, vordere Vorstadt 332.\n— Christof, Coiffeur, Kirchgasse 34a.\n— Emil, Kaufmann, Feerstraße 694.\n— geb. Enderli, Elisabeth, Witwe, Metzgergasse 76.\n— Friedrich, Kaserenarbeiter, Ziegelfrain 420.\n— Jakob, Oekonom, Bahnhofstraße 599.\n— Johann, Schuhmacher, Milchgasse 129.\n— geb. Schenk, Maria, Spetterin, Kronengasse 49.\nHohlbein, Eugen, Schreiner, Michgasse 146.\nHohler, Lydia, Part., Entfelderstraße 1377.\nHolliger, Arnold, Schlosser, Flößerstraße 1164.\n— Johann, Lehrer, Entfelderstraße 1391.\nHolzach, Dietrich, Part., Buchserstraße 384.\n— -Siebenmann, Lisa, Witwe, Bierbrauerei [tel] Bahnhofstraße 617.\n— Fritz, Metzger und Wirt, [tel] Ziegelfrain 428.\nHolzinger, Bertha, Postcommise, Entfelderstraße 1398.\n— Mina, Klavierlehrerin, Entfelderstraße 1398.\n— Pauline, Part., Entfelderstraße 1398.\nHolzreuter geb. Suter, Katharina, Witwe, Taglöhnerin, Milch-\n  gasse 135.\nHommel, August, Mechaniker, Laurenzenvorstadt 763.\nHorlacher, Samuel, Mechaniker, Halden 285.\nHostettler, Niklaus, Schuhmacher, Halden 283.\nHürbin, Ferdinand, Wirt z. Kantine, [tel] Zeughausstraße 673.\nHürzeler, Emma, Damenschneiderin, Hammer 183a.\n— Jakob, Hadernhändler, Hammer 183a.\n— Jakob, Monteur, Rohrernstraße 895.\nHubacher, Jakob, Portier, Kasinostraße 612.\nHuber, Albert, Einnehmer am Bahnhof, hintere Vorstadt 358.\n— Emil, Sohn, Drechsler, Ziegelfrain 419.\n— Fritz, Spengler, obere Vorstadt 543.\n— Heinrich, Drechsler, Ziegelfrain 395.\n— Jakob, Schneider, Halden 271.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 40304,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2189,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:42:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p116",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p116.jpeg",
+      "bytes": 840440,
+      "sha256": "2b4f96132b40ce03f8632ada5167276c140ed610f49d847e86880ef6ae079202",
+      "sha256_of": "original",
+      "working_copy": "1901_p116.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:42:34+00:00"
+  }
+}

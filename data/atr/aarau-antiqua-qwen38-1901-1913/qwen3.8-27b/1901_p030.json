@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p030",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p030.jpeg",
+    "bytes": 899901,
+    "sha256": "077202bcebcd4e881fecd6ab4e20607fd635c2f841b348f91ead1973fbcdefb4",
+    "sha256_of": "original",
+    "working_copy": "1901_p030.jpeg"
+  },
+  "text": "19\nHaus-\nNr.\nSchlummerberger-Jakob, Rosette, Wirtin, von Lörrach (Baden).\n  Speisewirtschaft zur Grabenallee.\nBaumann, Georg, Kaufmann, von Reichenbach (Baden), Bazar.\n— Marie, Ladentochter,\nBurgheer-Dürr, Viktor, Schneider, von \"Schmiedrued.\"\nRiehl-Dürr, Charles, Koch, von Obernai (Elsaß).\n216 Burgmeier-Kieser, Joseph, Gesanglehrer. [tel] Großes Klavier-\n  und Harmoniumlager, [tel] Kauf, Tausch und Miete. Musika-\n  lien-, Tabak- und Cigarrenhandlung.\nHassler, Margaretha, Glasers, Part.\n217 Allgemeine Aargauische Ersparniskasse. [tel]\nHaberstich-Stöckli, Jakob, Zinsrodelverwalter, von O.-Entfelden.\n— Frida, Lehrerin.\n218 Meister-Gysi, Georg, Bäckerei und Pintenwirtschaft. [tel]\nThut-Meister, Emil, Ziegler, von Oberentfelden.\n219 * Buser-Müller, Heinrich, Hufschmieds Erbschaft.\n220 Urech-Imhof, Philippine, Witwe, Part.\n221 * Dolder-Saxer, Jakob Friedrich, Kaufmann, v. Hauptweil (Thurg.)\nGrossmann, Otto, Firma, Handelsgärtnerei und Samenhdlg. [tel]\n  Blumenbazar.\n  Vertreterin: Steiner-Schürch, Anna, Part., von Dürrenäsch.\nSchibli-Jäggi, Anna Maria, Witwe, von Killwangen.\n— Alfred, Chef der Militärkanzlei, von Killwangen.\n— Karl, Bauführer, von Killwangen.\n— Anna, Damenschneiderin, von Killwangen.\n222 * Zschocke-Sauerländer, Guido, Buchhändlers Erbschaft.\n  Firma: Kraus & Brack, [tel] Sortimentsbuchhandlung.\nBrack, Gottlieb, von Effingen, Buchhändler.\n223 * Hunziker-Thommen, Maria, Witwe, Part.\nFörderer, Geschwister, Emma, Elise, Pauline. Tapisserie- und\n  Broderiegeschäft. [tel]\n— Hermine, Klavierlehrerin.\nWettler geb. Schneider, Julie, Part.\nBräm-Hofmann, Albert, Kaufmann, von Bülach (Zürich).\n224 Vogt-Siegrist, Samuel, von Schinznach. Restauration. [tel]\nFischer, Otto Johann, Bankkontrollleur, von Merenschwand.\n225 Siebenmann, Rud., Bierbrauer. [tel] Pinten-Wirtshaft zum\n  Hirschen.\nKaufmann, Otto, Commis, von Buchs (Luzern).\nStänz-Wildi, Rudolf, Schriftsetzer, von Küttigen.\nGeissmann, Xaver, Sekretär, von Hägglingen.\nNock, Karl, Angestellter im Elektr.-Werk, von Pfäffikon (Zür.)\n226 * Siebenmann, Rudolf, Bierbräuer.\nBonneck-Tschanz, Max, Gärtnerei und Blumengeschäft [tel],\n  von Danzig (Preußen).\nMüller-Wassmer, Jakob, Oberaufseher, von Safenwyl.\n227 Berner-Egli, Dr., Hermann, Zahnarzt. [tel]\n— -Mauch, Rudolf, Part.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 45850,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2257,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:09:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p030",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p030.jpeg",
+      "bytes": 899901,
+      "sha256": "077202bcebcd4e881fecd6ab4e20607fd635c2f841b348f91ead1973fbcdefb4",
+      "sha256_of": "original",
+      "working_copy": "1901_p030.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:09:10+00:00"
+  }
+}

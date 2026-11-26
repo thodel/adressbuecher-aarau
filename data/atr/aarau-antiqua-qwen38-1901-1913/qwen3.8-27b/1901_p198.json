@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p198",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p198.jpeg",
+    "bytes": 676699,
+    "sha256": "7a40ab1673af1e0c1c7fe36d9917f2b21a8185ebd3a4e375626b0f4f55bb9459",
+    "sha256_of": "original",
+    "working_copy": "1901_p198.jpeg"
+  },
+  "text": "185\nHolliger, H., Rechnen, Geometrie, geometr. Zeichnen.\nRey, J., Deutsch und Religion.\nSuter, Johann, Französisch.\nWüest, C., Naturkunde, Geometrie.\nZimmerli, S., Deutsch, Geschichte.\n          Mädchen-Bezirksschule.\nBlattner, FrI. A., Italienisch an Klasse III u. IV beider Bezirksschulen.\nBurgmeier, Joseph, Gesang an beiden Bezirksschulen und Kl. V\n  Gemeindeschule.\nDöbeli, H., Naturkunde I. A.\nFassnacht, Olga, Französisch und Englisch.\nDr. Helbling, Deutsch, Geschichte, Religion.\nDr. Hirzel, Französisch III. Kl. b.\nHuber, Corinna, Deutsch, Geschichte und Geographie.\nWüfler, H., Turnen an beiden Bezirksschulen und an Klasse V\n  Knaben-Gemeindeschule.\nWeibel, Adolf, Zeichnen an beiden Bezirksschulen.\nWüest, C., Naturkunde an III und IV.\nWyssler, H., Arithmetik, Schreiben, Naturkunde, Buchhaltung.\n              B. Fortbildungsschule.\n              Lehrer.\nHengherr, August.\n              C. Gemeindeschulen.\n              (5 Klassen.)\n              Lehrer.\n              Unterschule.\nBossart, Lina.\nMetzger, Fritz.\nMüller, Ida.\nSiebenmann, Marie.\nStephani, Emma.\nZimmermann, Johann.\n              Knabenschulen.\nGysi, Traugott, Rektor.\nHauenstein, Fritz.\nHunziker, Rudolf.\nMeier, Jakob.\nStiner, Karl.\n              Mädchenschulen.\nBuhofer, Marie.\nGrolimund, Emma.\nHaberstich, Frida.\nHaberstich, Lina.\nLenzin, Sophie.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 24350,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1328,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0222,
+    "mean_line_chars": 25.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0023,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:14:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p198",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p198.jpeg",
+      "bytes": 676699,
+      "sha256": "7a40ab1673af1e0c1c7fe36d9917f2b21a8185ebd3a4e375626b0f4f55bb9459",
+      "sha256_of": "original",
+      "working_copy": "1901_p198.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:14:51+00:00"
+  }
+}

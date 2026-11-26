@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p040.jpeg",
+    "bytes": 831226,
+    "sha256": "3f62f4442f7cde19cf07f890762cddaa8a83bf5848b6a3ec94561cd0767c016c",
+    "sha256_of": "original",
+    "working_copy": "1901_p040.jpeg"
+  },
+  "text": "29\nHaus-\nNr.\n360  Gerber-Seiler, Gust., March.-Tailleur. Arbeiterkleidermagazin.\nFrey, Albert, Uhrenmacher, von Densbüren. Uhrenhandlung.\n  Optiker.\nKull-Gerber, Adolf, Postangestellter.\nRingier-Plüss, Karl Ernst, Kondukteur S. C. B., von Zofingen.\n361 * Aktiengesellschaft Feldschlösschen in Rheinfelden. Bierdépôt u.\n  Bierwirtschaft. Wirt: Gerber-Wüthrich, Emil, z. Affenkasten.\nGraf-Monner, Eugen, Coiffeur, von Birrwyl (Wohnung).\n362 * Gemeinde Aarau. Amthaus.\nBezirksamt [tel] und Staatsanwaltschaft. [tel]\nKantonaler Polizeiposten und Bezirksgefängnisse. [tel]\nRubli-Schwarz, Joh. Jakob, Gefangenenwart.\n363 Weber-Hegnauer, Herm., v. Menziken. Mehlhandlung. (Bureau).\nRiner-Hächler, Joseph, Kondukteur N. O. B.\n  —  —  Anna, Placierungsbureau.\nHächler, Jakob, Part., von Buchs.\nGysi-Frei, Friedrich, Schlosser.\n364 * Henz-Plüss, Jakob, Kaufmann. Wohnhaus und Magazin.\nPlüss, Anna, Damenschneiderin.\nGloor, Wilhelmine, Taglöhnerin, von Dürrenäsch.\n  —  Bertha, Damenschneiderin, von Dürrenäsch.\n365 † Derselbe. Remise und Anbau.\n366 * Henz-Gautschi, Émil.\nBolliger-Manger, Gustav, Kaufmann. Hemen-, Schürzen- und\n  Knabenkleider-Anfertigungsgeschäft.\nGautschi-Siebenmann, Samuel, gewes. Kantonsingenieur.\n367 Schmid-Wolf, Peter, Sekretär, Kassier der Sparkasse Aarau\n  und Umgebung.\nGysi-Frei, Friedrich, Schlossermeister. Werkstätte.\nHerzog-Rauber, Gottlieb, Ingenieur, von Brugg.\nMürset, Maria, Coiffeuse, von Dieße (Bern).\n368 Herzig-Hauri, Elisabeth, Schneidermeisters Witwe, von Wynaü\n  (Bern).\n  —  -Camisasca, Karl, Schneidermeister, von Wynaü (Bern).\n  (Sektionschef Aarau).\n369 Märki-Siegrist, Hans, Buchbinder, von Rüfenach.\nFischer, Otto, Sekretär, von Tennwyl.\nHochstrasser, Rudolf, Sekretär, von Fahrwangen.\n370 Reinhardt-Müller, Bapt., Gärtner, von Balsthal (Soloth.).\nLüthi-Kiburg, Anna, Witwe, von Schöffland.\n371 * Jakob Henz & Cie. Remise und Wohnhaus.\nRoth, Friedrich, Obergerichtskanzlist.\n372 * Jakob Henz & Cie. Magazin.\n373 * Hemmeler-Frey, Frieds. Erben. Wohnhaus, Magazin u. Bureau.\nHemmeler & Cie., Quincellerie und Spielwarengeschäft en gros.\n  Spar-, Leih- und Diskontokasse. [tel]\n374 Dieselben. Wohnhaus.\nHemmeler-Frey, Elise, Witwe, Part.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15736,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2175,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:13:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p040.jpeg",
+      "bytes": 831226,
+      "sha256": "3f62f4442f7cde19cf07f890762cddaa8a83bf5848b6a3ec94561cd0767c016c",
+      "sha256_of": "original",
+      "working_copy": "1901_p040.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:13:15+00:00"
+  }
+}

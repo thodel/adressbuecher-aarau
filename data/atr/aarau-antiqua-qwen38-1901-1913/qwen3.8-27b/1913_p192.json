@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p192",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p192.jpeg",
+    "bytes": 973531,
+    "sha256": "ee58b1b54af2528f8c515fe53c5b38cdf0aa7039e65bd1f6babdab935ff4a38c",
+    "sha256_of": "original",
+    "working_copy": "1913_p192.jpeg"
+  },
+  "text": "— 150 —\nMoser, Louise, Köchin, Hornberg (Preußen). Buchserstraße 926.\nMosimann-Walliser, Gottfried, Bahnarbeiter S. B. B., Signau (Bern).\n  Adelbändli 174.\n— -Kleeb, Johann, Wirt und Pächter, Signau [tel]. Roggen-\n  hausen 1455.\nMühleberg-Sutermeister, Fritz, Dr. Professor. Rain 499.\n— Dr. Max, Geolog. Rain 499.\nMüller-Haussener, Adolf, Küchenchef, Schloßrued. Spitalgässli 1769.\n— -Küng, Adolf, Bankbeamter, Etzgen, Mühlematt 1649.\n— -Roggö, Adolf, Taglöhner, Ober-Kulm. Halden 260.\n— Albertine, Möttligen (Württemberg). Flößerstraße 1165.\n— -Giger, Alfred, Hafner, Unter-Kulm. Rain 437.\n— Alfred, Chauffeur, Unter-Kulm. Rain 437.\n— -Grob, Alfred, Geschäftsführer, Weinfelden. Bahnhofstr. 1814.\n— Anna, Privatin, Weinfelden. Bahnhofstraße 1814.\n— -Haller, Anna, Witwe, Hirschthal. Schachen 1137.\n— Anna, Näherin. Schmiedgasse 393.\n— -Vötsch, Anna, Eierhändlerin, Erlinsbach. Metzgergasse 75.\n— -Jutzeler, Arnold, Architekt. Bankstraße 1050.\n— -Rothpletz, Arnold, Architekt. Weinberg 1279.\n— -Schmid, Arnold, Postbeamter, Mettau. Rohrerstraße 892.\n— Bertha, Ladentochter, Unter-Kulm. Flößerstraße 1193.\n— -Kramer, Dorothea, Witwe. Schmiedgasse 393\n*— -Hürner, Eduard, Schirrfabrikant. Hut- und Mützenhandlung.\n  Berg- und Wintersportartikel. Rathausgasse 21.\n— Elisabeth, Damenschneiderin. Schmiedgasse 392.\n— -Vonäsch, Elisabeth, Witwe, Unter-Kulm. Flößerstraße 1193.\n— -Vondäniken, Elise, Witwe. Schachen 1770.\n— -Hiltmann, Emma, Witwe, Spetterin, Rüstenschwil. Milch-\n  gasse 156.\n— -Nünlist, Emma, Witwe, Walterswil. Rain 429.\n— Emma, Modegeschäft. Zollrain 55.\n— -Hug, Eugen, Bahnbeamter S. B. B., Affoltern (Zürich). Rohrer-\n  straße 878.\n— Frida, Fabrikarbeiterin, Unter-Kulm. Adelbändli 174.\n— Frida, Modistin. Zollrain 55.\n— Friedrich, Magazinier, Nieder-Bipp. Signalstraße 1764.\n— -Schmocker, Fritz, Huthandlung. Zollrain 55.\n— Fritz, Bankangestellter. Zollrain 55.\n— -Bachmann, Hermann, Heizer. Schachen 1770.\n— -Müller, Hermann, Schlosser, Unter-Kulm. Milchgasse 132.\n— Jakob, Taglöhner, Unter-Kulm. Hammer 188.\n— -Märki, Jakob, Taglöhner, Schöftland. Erlinsbacherstraße 1305.\n— -Gygax, Jakob, Sekretär. Torfeldstraße 947.\n— -Nikles, Jakob, Ausläufer, Unter-Entfelden. Kirchgasse 34 a.\n— -Suter, Jakob, Part., Unter-Kulm. Adelbändli 174.\n*— -Waßmer, Jb., Bierhalle zum Hirschen, Safenwil [tel]. Graben 225.\n— -Widmer, Jakob, Bankangestellter, Gränichen. Graben 212.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 58655,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2379,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:40:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p192",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p192.jpeg",
+      "bytes": 973531,
+      "sha256": "ee58b1b54af2528f8c515fe53c5b38cdf0aa7039e65bd1f6babdab935ff4a38c",
+      "sha256_of": "original",
+      "working_copy": "1913_p192.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:40:48+00:00"
+  }
+}

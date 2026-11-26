@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p107",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p107.jpeg",
+    "bytes": 835276,
+    "sha256": "a96687dbd2cbb04eec1f8d83c3e6ace41ab96d7a5f67803a26d37d67eab07651",
+    "sha256_of": "original",
+    "working_copy": "1901_p107.jpeg"
+  },
+  "text": "94\nFörderer, Hermine, Klavierlehrerin, Graben 223.\nForchiana, Rinaldo, Handlanger, Halden 313.\nForderer, Alois, Zuschnneider, Bleichemattstraße 1023.\nForstverwaltung, [tel] Rathausgasse 1.\nForter geb. Märk, Maria, Metzgergasse 65.\nFrank-Roland, Anna, Schreiners Witwe, Adelbändli 167.\nFrank, Rudolf, Postpacker, Milchgasse 136.\nFrauen-Asyl, Rain 431.\nFrei, Bernhard Friedrich, Bauamtsarbeiter, obere Vorstadt 518.\n— Bertha, Glätterin, Metzgergasse 75.\n— Bertha, Schneiderin, Holzmarkt 321.\n— Elise, Taglöhnerin, Flößerstraße 1184.\n— Emil, Metzger und Wirt, [tel] Zollrain 57.\n— Friedrich, Schreiner, Halden 286, Werkstätte Flößerstraße 1164.\n— Gottfried, Stadtpolizist, Bleichemattstraße 1023.\n— Gottfried, Taglöhner, Halden 292.\n— Gottlieb, Schriftsetzer, hinter dem Bahnhof 1005.\n— -Hintermann, Johanna, Witwe, Laurenzenvorstadt 727.\n— Johann, Gipser, Halden 294.\n— -Joho, Elisabeth, Part., Halden 286a.\n— Maria, Spetterin, Flößerstraße 1165.\n— Niklaus, Cementarbeiter, Halden 286a.\n— Rosa, Fabrikarbeiterin, Halden 286a.\n— Rudolf, Commis, Herzogstraße 990.\n— -Tanner, Maria, Witwe, Metzgergasse 75.\n— Ulrich Wilhelm, Wirt, Schachen 1133. Speisewirtschaft. [tel]\nFreihofer, Jakob, Bildhauer, Ziegelrain 416.\nFreimaurerloge z. Brudertreue, [tel] Bleichemattstraße 1017.\nFreivogel, Ernst, Kaufmann, Bahnhofstraße 610.\nFrey, Achilles, Coiffeur, Zeughausstraße 663.\n— Adolf, Dr. med., Laurenzenvorstadt 785.\n— Albert, Uhrenmacher, hintere Vorstadt 360.\n— August, Fabrikant, Telli 840.\n— & Cie., Chemische Fabrik, [tel] Telli 840.\n— Eduard, Pfarrhelper, Kirchgasse 32.\n— Emil, Wirt, Café Bank, Bahnhofstraße 606. [tel]\n— Eugen, Part., Bachstraße 1090.\n— geb. Frey, Mina, Stadtrats Witwe, Laurenzenvorstadt 775.\n— Franz Karl, Postcommis, Bachstraße 1067.\n— Friedrich, Sekretär und Musiklehrer, Zollrain 62.\n— Friedr., Sohn, Weinhändler, Kirchgasse 33, Bureau Laurenzen-\n  vorstadt 738.\n— Jakob, Bankangestellter, Kasinostraße 660.\n— Jakob, Schneidermeister, Buchserstraße 953.\n— Joseph, Notar, Civilstandsbeamter, Konradstraße 1413.\n— Karl, Registrator, vordere Vorstadt 350.\nFrey-Kieser, Johanna, Lingerie-, Mercerie-, Mode- und Strohartikel,\n  Rathausgasse 10.\n— Konrad, Dr. med., prakt. Arzt, [tel] Laurenzenvorstadt 706.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 65680,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2220,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:38:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p107",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p107.jpeg",
+      "bytes": 835276,
+      "sha256": "a96687dbd2cbb04eec1f8d83c3e6ace41ab96d7a5f67803a26d37d67eab07651",
+      "sha256_of": "original",
+      "working_copy": "1901_p107.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:38:32+00:00"
+  }
+}

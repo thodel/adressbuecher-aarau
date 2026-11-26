@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p090",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p090.jpeg",
+    "bytes": 727697,
+    "sha256": "42fa66d0579cfa679053ed895821c71064ff427c4ce9069f39de2b1aef64302d",
+    "sha256_of": "original",
+    "working_copy": "1901_p090.jpeg"
+  },
+  "text": "79\nHaus-\nNr.\n1450 Suter-Riederer, Jakob, Professor, Direktor des Töchterinstituts\n  und Lehrerinnenseminars, von Suhr und Winterthur.\n1451 † Derselbe. Holz- und Waschhaus.\n  Schönenwerderstrasse.\n1452 Hässig-Sigle, Julius. [tel] Speisewirtschaft z. Bellevue.\n  Schifferli-Hässig, Albert, Commis, von Zürich.\n  Buser, Gottlieb, Kaufmann.\n1453 † Derselbe. Scheune.\n1454 Haller-Märki, Karl. Mühlenbaugeschäft. Bureau. [tel]\n  Roggenhausen.\n1455 * Ortsbürgergemeinde Aarau.\n  Bolliger-That, Rudolf, Landwirt, Pächter, von Egliswyl. Pin-\n  tenwirtschaft.\n1456 † Dieselbe. Keller mit Bedachung.\n  Binsenhof.\n1457 Ryniker-Waldis, Arnold, Bierbrauer. Chalet, Speisewirtschaft.\n1458 † Derselbe. Scheune.\n1459 † \" Remise.\n1460 † \" Hühnerhaus.\n1461 † \" \"\n1462 † \" Ziegenstall.\n1463 † \" Kegelbahn.\n1464 † \" Musik-Pavillon.\n1465 † \" Trinkhalle.\n1466 † \" Bienenhaus.\n1467 Ryniker-Läuchli, Jakob, Landwirt.\n1468 * Derselbe. Wohnhaus.\n  Rennhard-Stirnemann, Joseph, Küher, von Böttstein.\n1469 † Derselbe. Scheune mit Anbauen und Einfahrt.\n1470 † \" Remise.\n1471 † \" Speicher.\n  Goldern.\n1472 Walther-Liechti, Jakob, Landwirt, von Oberburg (Bern).\n1473 † Derselbe. Waschhaus und Anbau.\n  Im Zegli.\n1474 † Widmer-Felber, Johann, Gartenhaus.\n  Jurastrasse.\n1475 Bebié, Seline, Part, [tel] von Thalwyl.\n  Bossard, Lina, Lehrerin, von Effingen.\n1476 Hunziker-Thommen, Maria, Witwe, Part.\n  — Hermann, Fabrikant.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 13151,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1389,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 29.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:32:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p090",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p090.jpeg",
+      "bytes": 727697,
+      "sha256": "42fa66d0579cfa679053ed895821c71064ff427c4ce9069f39de2b1aef64302d",
+      "sha256_of": "original",
+      "working_copy": "1901_p090.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:32:45+00:00"
+  }
+}

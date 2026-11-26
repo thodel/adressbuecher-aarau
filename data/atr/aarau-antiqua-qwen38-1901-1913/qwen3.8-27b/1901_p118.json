@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p118",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p118.jpeg",
+    "bytes": 825829,
+    "sha256": "05f2eeb4d4f04020d5724dc7ecf6d2747c2685790d871a67a6c3b747b0ed7720",
+    "sha256_of": "original",
+    "working_copy": "1901_p118.jpeg"
+  },
+  "text": "105\n\nImhof, Emil, Part., Jurastraße 1482.\n— Ernst, Fabrikant, Bachstraße 1063.\n— Lina, Lehrerin, Kasinostraße 641.\n— Luise, Part., hinter dem Bahnhof 1009.\n— Susette, Part., Kasinostraße 641.\nIndermauer, Jakob, Metzger, [tel] Kasinostraße 641.\n— geb. Richner, Elise, Witwe, Spezereihandlung, Kasinonstr. 641.\nJörg, Jakob, Seiler, Halden 266.\n— Emma, Damenschneiderin, Rain 430.\n— Peter, Schuhmachermeister, Rain 430.\n— Samuel, Schreiner, Bachstraße 1060.\nJoho, Anna Maria, Part., hintere Vorstadt 377.\n— Samuel, Färber, Kirchhof 162.\nJoos, Anna, Näherin, Pelzgasse 95.\nJost, Aug., Schneider, Scheibenschachen 1335.\n— Baptist, Taglöhner, Scheibenschachen 1323.\n— -Horlacher, Friedrich, Maschinenmeister, obere Vorstadt 538.\nIseli, Niklaus, Schriftsetzer, Zieglerain 424.\nIsler, Alois Othmar, Kaufmann, Bahnhofstraße 574.\n— Anton, Fabrikarbeiter, Halden 297.\n— Emil, Fürsprech u. Notar, Advokaturbureau, Laurenzenvorst. 766.\n— Emil, Cementarbeiter, Adelbändli 168.\nIsliker, Anna, Damenschneiderin, Zieglerain 422a.\nItte, Wilhelm Heinrich, Schlosser, Metzgergasse 76.\nJung, Ludwig, [tel] Apotheker, Rathausgasse 7.\nJura-Cementfabriken, [tel] Scheibenschachen 1346.\n\nKägi, Jakob, Reisender, hintere Vorstadt 374.\nKäppeli, Gottlieb, Dr. jur., Regierungsrat, Entfelderstraße 1411.\nKäser, Aug., Reisender, Tellirain 834.\n— Bertha, Telephonistin, hinter dem Bahnhof 1007.\n— Emil, Gärtner, Strittengäßchen 1200.\n— Heinrich, Fabrikarbeiter, Zollrain 54.\n— Jakob Friedrich, Buchbinder und Wirt, Rathausgasse 16.\n— Jakob, Küfer, Erlinsbacherstraße 1305.\n— Jakob, Rathausabwart, obere Vorstadt 509.\n— Joh. Rudolf, Steinhauser, Entfelderstraße 1400.\n— Ida, Damenschneiderin, hinter dem Bahnhof 1007.\n— geb. Müller, Anna Barbara, Part, obere Vorstadt 527.\n— Robert, Magaziner, obere Vorstadt 551.\n— Rudolf, Postkondukteur, hinter dem Bahnhof 1007.\n— Xaver, Part., Telli 871.\nKäslin geb. Schönecker, Lina, Musiklehrers Witwe, Laurenzen-\n  vorstadt 796.\nKallmann, Lidia, Fabrikarbeiterin, Pelzgasse 102.\nKält, Alfred August, Oberarzt der med. Abteilung am Kantons-\n  spital, Buchserstraße 956.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 23589,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2076,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:42:57+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p118",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p118.jpeg",
+      "bytes": 825829,
+      "sha256": "05f2eeb4d4f04020d5724dc7ecf6d2747c2685790d871a67a6c3b747b0ed7720",
+      "sha256_of": "original",
+      "working_copy": "1901_p118.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:42:57+00:00"
+  }
+}

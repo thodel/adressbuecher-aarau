@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p019",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p019.jpeg",
+    "bytes": 963827,
+    "sha256": "c815557ac74c5e953d2599a4f308fc28f9cc02dc62492bd88ee9e84b884ba65d",
+    "sha256_of": "original",
+    "working_copy": "1913_p019.jpeg"
+  },
+  "text": "— 5 —\nHaus-\nNr.\n37  Härry-Rychner, Adolf, Bäckermeister.\nBöhm-Volk, Karl, Kartograph, Stuttgart.\nSchmidli-Hoffmann, Albert, Gießer, Dättlikon.\n38  Strebel-Bernauer, Josef, Schuhmachermeister.\nGhia, Luigi, Stadtarbeiter, Montane (Italien).\nSteiner, Klara Frida, Spetterin, Dürrenäsch.\n39  Clemenson-Schenk, Paul Emil, Tapezierermeister, Courraux\n  (Neuenburg).   Aussteuergeschäft.\nNiklaus-Schmid, Gottlieb, Knecht, Zauggenried.\nJost-Hörtensteiner, Gottfried, Steindrucker, Langnau (Bern).\n40  Sommerhalder-Lindenmann, Rudolf, Milch- und Spezeriehandlung.\n  — Ida.\nNigg-Thuner, Edmund, Monteur, Gersau.\n41 * Faller, Friedrich, Kaufmann, Breunlingen (Baden).\nGötter, Emil, Schuhmagazin.   Wohnung: Rathausgasse 25.\nFlückiger-Hug, Marie, Witwe, Spetterin, Auswil (Bern).\n  — Ernst, Abwart, Auswil (Bern).\n  — Hans, Schlosser,\nHartmann-Herzig, Alfred, Magaziner, Villnachern.\nRenggli-Roth, Johann, Schneider, Werthenstein (Luzern).\n\nKronengasse.\n42  Erny-Bauer, C., Kaufmann [tel].   Magazine zu den Jahres-\n  zeiten: Mercerie, Bonneterie, Chemiserie, Nouveautés, Corsets,\n  Handschuhe.   Filiale Bahnhofstraße.\nSchopper-Häfliger, Johann, Mechaniker, St. Christoff (Oesterr.).\n43  Schibler-Fehlmann, Fritz, Coiffeur.   Velo- und Nähmaschinen-\n  handlung.\nErismann-Berner, Paul, Uhrengeschäft, Optiker.\nRickenbach-Kraft, Joh., Steindrucker, Salenstein (Thurgau).\nRenold-Messerli, Joh., Gärtner, Brunegg.\nBortolotti-Bortolotti, G., Lithograph, Bergamo (Italien).\n44  Gantner-Schär, Arnold, Sattlermeister [tel].   Reiseartikel und\n  Kinderwagen.\nFrey-Frey, Karl, Zeichner, Wangen (Solothurn) [tel].\n45  Hintz-Wolf, Anna, Witwe, Privatin.\n  — Alfred, Konditorei und Kaffeewirtschaft [tel].\n  — Alice.\nGloor, Marie, Modegeschäft, Rupperts wil.\nSiegrist-Gloor, Adolf, Monteur, Unter-Bözberg.\nBossardt, Julie, Modistin, Basel.\n46  Von Felten, Franz, Kaufmann, Korsett- und Quincailliergeschäft.\n  — Rosa.\nWillimann-Wehrli, Marie, Witwe, Privatin, Oberhof.\n47  Gloor-Graf, Arnold, Kaufmann, Schöftland [tel].   Delikatessen-\n  handlung.\nHuber-Niederhauser, Emil, Monteur, Wöschnau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 35233,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2070,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 40.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:28:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p019",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p019.jpeg",
+      "bytes": 963827,
+      "sha256": "c815557ac74c5e953d2599a4f308fc28f9cc02dc62492bd88ee9e84b884ba65d",
+      "sha256_of": "original",
+      "working_copy": "1913_p019.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:28:43+00:00"
+  }
+}

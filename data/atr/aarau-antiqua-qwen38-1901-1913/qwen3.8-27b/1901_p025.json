@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p025",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p025.jpeg",
+    "bytes": 883559,
+    "sha256": "7190b4da04a1033467be052ff7bb20bc49054db6b5eef97843eb724a04533737",
+    "sha256_of": "original",
+    "working_copy": "1901_p025.jpeg"
+  },
+  "text": "14\nHaus-\nNr.\n  Wyser-Grob, Gustav, Korbmacher, von Niedergösgen (Soloth.).\n  Korbwarenhandlung.\n154 * Walti-Müller, Marie, Witwe, von Dürrenäsch (Erbschaft).\n  Amsler-Gysi, Jakob, Ziegler, von Densbüren.\n  Suter, Anna Elisabeth, Spetterin, von Suhr.\n  Hiemer-Ruchti, Johann, Schneider, von Altusried (Baiern).\n  Müller-Vonäschi, Jakob, Buchbinder, von U.-Kulm.\n155 * Walti-Müller, Marie, Witwe, von Dürrenäsch. Erbschaft.\n  — Emil und Fritz, Söhne, von Dürrenäsch. (Spezerei- und\n  Milchangehandlung.)\n  Gugel-Diriwächter, Friedrich, Schuhmacher, von Mengen (Gr.\n  Baden).\n156 * Bolliger, Albert, Bäcker, von Ktittingen.\n  Dürr-Hofer, Rosa, Gemüsehändlerin.\n  Minder-Feutz, Fritz, Taglöhner, von Huttwyl (Bern).\n  Roth-Sali, Samuel, Knecht, von Zezwyl.\n  Schärli-Berthran, Emil, Fabrikarbeiter, von Biberstein.\n157 Bolliger, Albert, Bäcker, von Ktittingen.\n  — Louise, Haushälterin, von Ktittingen.\n  Fisch, Lina, Part.\n  Kirchhof.\n158 Gränicher geb. Richner, Rosa, Witwe, Part.\n  — -Wärtli, Marie, Schneiders Witwe, Spezereihandlung.\n  — Johann, Ausläufer Telegraphenbureau.\n159 Vogel-Dubs, Gottfried, Polizei-Lieutenant, von Kölliken.\n  — Wilhelm, Sekretär der Gemeindekanzlei, von Kölliken.\n  Zuber-Müller, Andreas, Part.\n  Hess-Wolf, Alexander, Kaufmann, von Zillisheim (Elsaß).\n  (Werkstätte und Magazin für Bettwaren.)\n160 Wanger, Buchbinders Erbschaft.\n  — Rosa, Part.\n  — Julie, Part.\n  Villiger-Amsler, Joseph Anton, von Meienberg, Buchdruckerei.\n  Nägeli-Fehlmann, Jakob Rudolf, Tapezierer, von Bülach (Zch.).\n  Möbelhandlung.\n  Umiker-Steiner, Samuel, Kutscher, von Thalheim.\n161a Vogt-Keller, Marie, Hebamme, von Villigen.\n  Zehnder-Kaufmann, Barbara, Witwe, Gemüsehändlerin, von\n  Gränichen.\n  Wehrli-Fassler, Elisabeth, Spetterin, von Biberstein.\n161b Stierli-Häny, Samuel, Kondukneur d. N. O. B., v. Gebenstorf.\n  Meier, Emil, Heizer d. N. O. B., von Kallern.\n162 Wärtli-Ernst, August, Buchbinder.\n  Peyer-Boss,Wilhelmine,Wäscherin u. Glätterin,v.Lostorf(Soloth.).\n  Joho-Bryner, Samuel, Färber, von Auenstein.\n  Zumbühl-Peyer, Jos. Anton, Knecht, von Stans (Nidwalden).\n  — — Sophie, Wäscherin und Glätterin, von Stans.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 43595,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2135,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.24,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:06:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p025",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p025.jpeg",
+      "bytes": 883559,
+      "sha256": "7190b4da04a1033467be052ff7bb20bc49054db6b5eef97843eb724a04533737",
+      "sha256_of": "original",
+      "working_copy": "1901_p025.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:06:50+00:00"
+  }
+}

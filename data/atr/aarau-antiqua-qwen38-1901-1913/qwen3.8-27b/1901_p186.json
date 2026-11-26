@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p186",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p186.jpeg",
+    "bytes": 752841,
+    "sha256": "61a7aa3fcfeaa3187b0adfe6c7e1d0df4eb352a8174106131e1fce64a3d2f0c1",
+    "sha256_of": "original",
+    "working_copy": "1901_p186.jpeg"
+  },
+  "text": "173\nGamper & Cie.*, Rathausgasse 31.\nGerber, Gustav,* vordere Vorstadt 327. (Siehe Inserat Seite 3.)\nGisi-von Arx, V., Holzmarkt 321.\nGuyer, Oskar,* Telli 873.\nHemmeler-Türler, Emil,* Metzgergasse 68.\nHeß, Gebr.,\"zur Stadt Mühlhausen\", Rathausgasse 5.\nHefti, Joh. Peter, Metzgergasse 78.\nHerzig, Friedrich, hintere Vorstadt 368.\nHofer, Gottlieb,* Rathausgasse 25.\nOboussier & Cie.*, en gros, Graben 232.\nSchneeberger-Salvi, Jb.*, Rathausgasse 4. (Siehe Inserat Seite 23.)\nSiebenmann, Gebr.*, Oberthor 241.\nStrich, Julius, Ziegelrain 397.\nWaßmer, Fidel, Pelzgasse 90.\nWeber-Suter, Heinrich (Spezialität in Damenkleidern), Laurenzen-\n  thorgasse 126.\n              Uhrenmacher.\nFrey, Albert, hintere Vorstadt 360.\nHemmeler, Jakob,* Rathausgasse 14.\nHirschy, Joh. Rud.*, vordere Vorstadt 325.\nSeiler, Walter, Rathausgasse 29.\nSuter, Rudolf, Kasinostraße 660.\n              Uhrenhandlungen.\nFrey, Albert, hintere Vorstadt 360.\nHemmeler, Jakob,* Rathausgasse 14.\nHirschy, Joh. Rud., vordere Vorstadt 325.\nMorath, Wendolin,* Rathausgasse 3.\nSeiler, Walter, Rathausgasse 29.\nSuter, Rudolf, Kasinostraße 660.\n              Unfallversicherungen.\n              (Siehe Agenturen.)\n              Velohandlungen.\nHof, Eduard, obere Vorstadt 547.\nSchibler, Fritz, Kronengasse 43.\nWalter-Schmuziger, Aug.,* Pelzgasse 109.\n              Vernicklungsanstalten.\nKummier, H. & Cie.,* Bleichemattstraße 1026.\nWalther-Schmuziger, August,* Pelzgasse 108.\n              Verbandstoffhandlung.\nAngst, Robert,* hinter dem Platz 238. (Siehe Inserat Seite 25.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 90345,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1532,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0976,
+    "mean_line_chars": 33.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:11:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p186",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p186.jpeg",
+      "bytes": 752841,
+      "sha256": "61a7aa3fcfeaa3187b0adfe6c7e1d0df4eb352a8174106131e1fce64a3d2f0c1",
+      "sha256_of": "original",
+      "working_copy": "1901_p186.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:11:09+00:00"
+  }
+}

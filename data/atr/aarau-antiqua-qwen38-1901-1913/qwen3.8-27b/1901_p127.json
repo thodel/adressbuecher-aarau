@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p127",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p127.jpeg",
+    "bytes": 813923,
+    "sha256": "8a81cbcc908025d345542ab9962d0850843bf4fa44fbcba73178d633b0a8c919",
+    "sha256_of": "original",
+    "working_copy": "1901_p127.jpeg"
+  },
+  "text": "114\nMüller, Xaver, Schuhmacher, Rain 446.\nMüri, Johann, Dr. jur., Regierungsrat, Jurastrasse 1478.\nMürset, Gottlieb, Fuhrmann, Schachen 1134.\n— Marie, Coiffeuse, hintere Vorstadt 367.\nNäf geb. Eichenberger, Emma, Witwe, Rain 505.\n— Emil, Kantonstatistiker, Bachstrasse 1067.\n— Urs Joseph, Bauamtsarbeiter, Golattenmattgasse 248.\nNägelin, Arnold, Hôtelier (Wildenmann), [tel] vordere Vorstadt 324.\nNägeli, Elisabeth, Part., Buchserstrasse 954.\n— Heinrich, Commis, Buchserstrasse 954.\n— Jakob, Tapezierer, Kirchhof 160.\nNadig, Klara, Part., Gartenstrasse 1431.\nNadler geb. Häuptli, Anna, Witwe, Specereihandlung, Bahnhof-\n  strasse 635. Wohnung obere Vorstadt 545.\nNeesser, Samuel, Postillon, Zieglerain 418.\n— Samuel, Holzsplalter, Milchgasse, 143.\n— Samuel, Schneider, hintere Vorstadt 357.\nNeumayer, Frieda, Damenschneiderin, Pelzgasse 106.\nNiederhauser geb. Schenk, Marie, Spetterin, Stadthof 84a.\n— Theodor, Buchbinderei-Chef. Herzogstrasse 1506.\nNiggli, Arnold, Fürsprech, Stadtschreiber, obere Vorstadt 538.\n— Elise, Weißnäherin, Kasinostrasse 647.\nNock, Karl, Angestellter im Elektrizitätswerk, Graben 225.\nNotter-Steffen, Franziska, Haushälterin, Milchgasse 143.\nNünlist, Adolf, Stadtpolizist, Schachen 1135.\n— geb. Müller, Katharina, Taglöhnerin, Halden 264.\nNüsperli, Friedrich, Postcommis, Rain 461.\n— -Nussbaum, Karoline, Sattlers Witwe, Zollrain 54.\nNussbaum, Anna, Rain 441.\n— geb. Finkbohner, Trinette, Witwe, Zollrain 64.\n— Frida, Aufseherin, Zollrain 64.\n— -Frey, Verena, Spetterin, Schmiedgasse 394.\nNussberger-Leutwyler, Sam., Taglöhner, von Seengen, Hammer 188.\nOberli, Richard, Part., Zieglerain 409.\nOboussier, F. & Cie., [tel] (F. L. Oboussier und Fritz Oboussier).\n  Mech. Baumwollweberei. Bureau Graben 232, Fabrik in Buchs.\n— Friedrich, Kaufmann, Graben 232.\nObriest, Hermann, Bremser, Milchgasse 136.\n— Theodor, Postangestellter, Telli 857.\nOchsner, Johann, Koch, Bahnhofstrasse 619.\nOehler, A. & Cie., [tel] Maschinenfabrik und Eisengiesserei, Industrie-\n  strasse 933.\n— geb. Frey, Bertha, Witwe, Laurenzenvorstadt 768.\n— Oskar, Ingenieur, Laurenzenvorstrdt 768. [tel]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 34677,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2096,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:45:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p127",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p127.jpeg",
+      "bytes": 813923,
+      "sha256": "8a81cbcc908025d345542ab9962d0850843bf4fa44fbcba73178d633b0a8c919",
+      "sha256_of": "original",
+      "working_copy": "1901_p127.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:45:39+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p021",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p021.jpeg",
+    "bytes": 832303,
+    "sha256": "6eb446d303ec33dc3aa0c8d8a7c4228026e617b0644203cdbbbd5b5528e1b5b5",
+    "sha256_of": "original",
+    "working_copy": "1901_p021.jpeg"
+  },
+  "text": "10\nHaus-\n  Nr.\nBaumeister-Schmuziger, Wendolin, Schneider, von Magolds-\n  heim (Würtbg.).\nEberhard, Wilhelm, Reisender, von Amden (St. Gallen).\nZiehli, Gottfried, Reisender, von Wohlen (Bern).\nMeissner-Süss, Elise, von Geroldshofen (Baern).\nNeumayer, Frida, Damenschneiderin, von Steinach (Gr. Baden).\n107 * Gerber, Gebrüder.\nGreub-Bürgi, Ernst, Metzger und Wirt, von Lotzwyl (Bern).\n  Speisewirtschaft. [tel]\n108 Hunziker-Baumberger, Rudolf, Lehrer.\nWalter-Schmuziger, August, von Neumühl (Velolager).\n109 Adam-Hess, Anton, Part., von Allschwyl (Baselland).\nWalter-Schmuziger, August, von Neumühl (Baden). [tel] Näh-\n  maschinen- und Fouriturenhandlung.\nFlückiger-Wüthrich, Rosette, Witwe, Gemüsehändlerin, von\n  Auswyl (Bern). Im Hinterhäuschen (Färbergäßchen).\n110 Gysi-Bächli, Adolf, Tapezierer, von Buchs. Möbelhandlg. [tel]\nHärri, Rudolf, Exped.-Chef auf der Staatskanzlei, v. Birmwyl.\nLenzin, Sophie, Lehrerin.\n111 Rychner-Hess, Karoline, Seilers Witwe; Seilerwaren- und\n  Peitschenlager, Fettwaren.\n— Konrad, Sohn, Seiler.\n112 Künze-Rümmeli, Oswald, Schuhmachermeister, von Uetikon\n  (Zürich). Schuhhandlung.\nWeberus-Probst, Andreas, Gärtner, von Feldstetten (Würtbg.).\n113 * Schiesser-Hässig, Hermann, Käse- und Butterhandlung. [tel]\n— Margaretha, Part.\n\nLaurenzenthorgasse.\n114 * Schiesser-Hässig, Hermann, Kaufmann.\nSchmid-Fischer, Heinrich, Manufacturwarenhdlg.\nFischer-Vonwylar, Ad., Postbeamter. [tel] Cigarren- u. Tabakhdlg.\n— Louise, Ladentochter.\nHauri geb. Kyburz, Elisabeth. Part., von Seengen.\n115 Eggen-Sulzer, Eduard, Colonialwarenhandlung.\n116 Jäger-Haller, Joseph, [tel] von Lachapelle-sous-Rougemont\n  (Frankreich). Comestibleshandlung.\n117 Burkhard-Bertschinger, Ferdinand, Coiffeur.\n— -Graf, Ferdinand, Sohn, Coiffeur und Chirurg. (Coiffeur-\n  und Toilettegeschäft.)\n— Lina, Coiffeuse.\nPletscher, Georg, von Schleitheim in Winterthur. Ablage für\n  chemische Wäscherei und Kleiderfärberei.\nSteiner, Maria, Ladentochter, von Oberthal (Bern).\n118 Wüthrich-Lüdi, Samuel, zum Störchen, [tel] von Eggiwyl (Bern).\n  Pintenwirtschaft, Spezerel-, Wein- u. Spirituosenhandlung,\n  Telephon, öffentliche Sprechstation.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38217,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2133,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:05:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p021",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p021.jpeg",
+      "bytes": 832303,
+      "sha256": "6eb446d303ec33dc3aa0c8d8a7c4228026e617b0644203cdbbbd5b5528e1b5b5",
+      "sha256_of": "original",
+      "working_copy": "1901_p021.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:05:22+00:00"
+  }
+}

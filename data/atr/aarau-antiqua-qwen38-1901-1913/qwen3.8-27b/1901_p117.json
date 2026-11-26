@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p117",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p117.jpeg",
+    "bytes": 831543,
+    "sha256": "6cf2c14fc32bbe24996d7eef235dbfb29b3774956f7eb21a39cda9f2bf287e26",
+    "sha256_of": "original",
+    "working_copy": "1901_p117.jpeg"
+  },
+  "text": "104\nHuber-Bichsel, Pankraz, Ausläufer, von Häglingen, Metzger-\n  gasse 71.\n  — Joseph, Wirt, Speisewirtschaft, Schachen 1134.\n  — Korinna, Lehrerin, Bahnhofstraße 608.\n  — -Müller, Bertha, Glätterin, Hammer 190.\nHubert, Rudolf, Telephonarbeiter, Strittengäßchen 1208.\nHug, Samuel, Bäckermeister und Wirt, [tel] vordere Vorstadt 330.\nHugi, Maria, Coiffeuse, Graben 209.\nHumm, Emil, Spengler, Wohnung Kronengasse 49, Werkstätte Schloß-\n  platz 200.\nHunziker, Adolf, Milchverkäufer, obere Vorstadt 549.\n  — Adolf, Commis, Strittengäßchen 1196.\n  — Alfred, Bauamtsarbeiter, Golattenmattgasse 253.\n  — Alfred, Knecht, Milchgasse 139.\n  — geb. Brunner, Maria, Witwe, Kirchgasse 37.\n  — & Cie., Möbelfabrik, Industriestraße 928. [tel]\n  — Elise, Malerin, Laurenzenvorstadt 763.\n  — Friedrich, Maschinenmeister, Laurenzenthorgasse 118.\n  — Gottlieb, Schneider, Kleiderreiniger, Halden 260.\n  — Gottlieb, Bauamtsarbeiter, Halden 260.\n  — -Häfeli, Emilie, Witwe, Milchgasse 151.\n  — Hrch., Camionneur, Milchgasse 147.\n  — Hermann, Sohn, Kaufmann, Jurastraße 1476.\n  — Hermann, Part., [tel] Feerstraße 698.\n  — Karl Adolf, Lithograph, Rain 432.\n  — geb. Müller, Maria Anna, Schuhmachers Witwe, Milchgasse 145.\n  — Rudolf, Lehrer, Pelzgasse 108.\n  — geb. Säuberli, Marie, Witwe, Taglöhnerin, Strittengäßchen 1196.\n  — geb. Thommen, Maria, Witwe, Jurastraße 1476.\n  — geb. Wieland, Elise, Witwe, Laurenzenvorstadt 763.\n  — geb. Wydler, Paulina, Part., Laurenzenvorstadt 714.\n  — -Züst, Julie, Part., Laurenzenvorstadt 723. [tel]\nHusi, Franz Joseph, Bahnanstellter, Tellrain 835.\n\nJäcker, Joseph, Comestibleshändler, [tel] Laurenzenthorgasse 116.\nJäger, Johann, Maurer, Bahnhofstraße 559a.\nJäggi, Agathokles, Gipser, Halden 309.\n  — Hermann, Geschäftsführer (Baugeschäft M. Zschokke), Rohrer-\n  straße 909. [tel]\nJauslin, Wilhelm, Kaufmann, jenseits der Aare 1246.\nJeck, Frida, Fabrikarbeiterin, Adelbändli 169.\n  — Georg, Bauamtsarbeiter, Halden 293a.\nJehle, Mathäus, Schreiner, Halden 292.\nJenny-Kunz, A., Firma: Färberei, [tel] Telli 859.\n  — Adolf, Kaufmann, Telli 859.\n  — Alfred, Sohn, Chemiker, Telli 859.\n  — Ernst, Sohn, Chemiker, Telli 859.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38561,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2136,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.09,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:42:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p117",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p117.jpeg",
+      "bytes": 831543,
+      "sha256": "6cf2c14fc32bbe24996d7eef235dbfb29b3774956f7eb21a39cda9f2bf287e26",
+      "sha256_of": "original",
+      "working_copy": "1901_p117.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:42:32+00:00"
+  }
+}

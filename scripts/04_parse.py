@@ -36,7 +36,7 @@ STATUS = {"Sohn", "Tochter", "Wittwe", "Witwe", "Wwe.", "Wwe", "Frau", "Fräulei
           "Part.", "Partik.", "Privatin", "Privatier", "Rentier", "Rentierin", "Rentner"}
 RELATION = {"Sohn", "Tochter"}
 TITLES = {"Dr.", "Dr. med.", "Dr. phil.", "Dr. jur.", "Prof.", "Regt.", "Pfr."}
-ADDR_RE = re.compile(r"^(?P<street>.+?)\s+(?P<no>\d+\s?[a-z]?\.?(?:\s?[a-z]\.?)?)\.?$")
+ADDR_RE = re.compile(r"^(?P<street>.+?)(?:\s+|(?<=\.))(?P<no>\d+\s?[a-z]?\.?(?:\s?[a-z]\.?)?)\.?$")
 ROLE_RE = re.compile(r"^(Wohnung|Werkstätte|Geschäft|Magazin|Bureau|Laden|Comptoir|Atelier)\s*[:,]?\s*", re.I)
 # 1888/1892: Heimatort ohne Komma hinter dem Beruf («Taglöhner von Seon»). Gieriges «occ»,
 # damit bei «Handlung von Marmorsteinen von Sagliano» das letzte «von» gilt.
@@ -148,10 +148,12 @@ def split_origin_dot(seg: str, last: bool = False) -> tuple[str, str]:
 
 
 def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
-                forenames: set[str] | None = None, has_address: bool = True, origin_dot: bool = False) -> dict:
+                forenames: set[str] | None = None, has_address: bool = True, origin_dot: bool = False,
+                star_register: bool = False) -> dict:
     """`has_address=False` für Bewohnerzeilen des Gebäudeverzeichnisses: dort ist die
     Adresse das Gebäude, und das letzte Segment ist Beruf oder Heimatort. `origin_dot` für die Bände ab 1913
-    (Heimatort vor dem Punkt, Adresse dahinter)."""
+    (Heimatort vor dem Punkt, Adresse dahinter). `star_register`: «*» heisst «im Handelsregister eingetragen»
+    (Legende 1913), nicht Bürger."""
     t = text.strip()
     rec = {k: "" for k in FIELDS}
     rec["text"] = text
@@ -172,13 +174,20 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
         t = t.replace("[tel]", "").replace("  ", " ")
         t = re.sub(r"\s+([.,])", r"\1", t)                       # «Murgenthal [tel]. Spitalgäßli» → «Murgenthal.»
     if t.startswith("*"):
-        rec["citizen_flag"] = "1"
+        if star_register:
+            notes.append("handelsregister")
+        else:
+            rec["citizen_flag"] = "1"
         t = t[1:].strip()
     if t.startswith("—"):
         rec["dash_prefix"] = "1"
         rec["surname"] = prev_surname
         rec["surname_inherited"] = "1"
         t = t[1:].strip()
+        if t.startswith("—"):                       # «— — Fabrikgebäude, Bureau»: weitere Zeile derselben Firma
+            if prev and prev.get("entry_type") == "firma":
+                rec["entry_type"] = "firma"
+            t = t[1:].strip()
         if t.startswith("-"):                       # — -Graden, … (Allianzname zum geerbten Namen)
             head, _, t = t[1:].partition(",")
             rec["alliance_name"] = head.strip()
@@ -195,7 +204,7 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
         m = re.match(r"^(?P<s>\S+)\s+geb\.\s+(?P<g>.+)$", head)
         if m:
             rec["surname"], rec["maiden_name"] = m.group("s"), m.group("g")
-        elif "-" in head and not head.startswith("-"):
+        elif "-" in head and not head.startswith("-") and not FIRM_RE.search(head):   # nicht «Frey A.-G.»
             rec["surname"], rec["alliance_name"] = head.split("-", 1)
         else:
             rec["surname"] = head
@@ -337,6 +346,13 @@ HEADING_RE = re.compile(r"^(?!—)[A-ZÄÖÜ][^\d,;]{2,70}[.:]?$")
 CROSSREF_RE = re.compile(r"^\(?\s*(Siehe|siehe|Im weitern siehe|Vergl\.|S\.)\b")
 
 
+def is_fragment(t: str) -> bool:
+    """Wortreste vom Rand der Gegenseite (Scans 1913): «— H», «— Ker Keß Keu», «Kalb, Kalt-L». Kurz, ohne
+    Ziffer und ohne Schlusspunkt; echte Einträge ohne Hausnummer enden mit Punkt («Kantonsbibliothek, Großratsgebäude.»)."""
+    t = t.replace("[tel]", "").strip()
+    return len(t) <= 15 and not re.search(r"[\d\"„”]", t) and not t.endswith(".")
+
+
 def parse_page(text: str, volume: str, page: int, section: str = "einwohner",
                prev_surname: str = "", forenames: set[str] | None = None,
                heading: str = "") -> list[dict]:
@@ -356,7 +372,10 @@ def parse_page(text: str, volume: str, page: int, section: str = "einwohner",
             continue                      # Titel, Kopfnoten («Bürger sind Diejenigen …»)
         if section == "berufe" and kind == "other":
             continue                      # Fliesstext von Agenturen, Kopfnoten
-        rec = parse_entry(t, prev, prev_rec, forenames, origin_dot=int(volume[:4]) >= ORIGIN_DOT_FROM)
+        if is_fragment(t):
+            continue
+        new = int(volume[:4]) >= ORIGIN_DOT_FROM
+        rec = parse_entry(t, prev, prev_rec, forenames, origin_dot=new, star_register=new)
         rec["heading"] = heading
         prev = rec["surname"] or prev
         prev_rec = rec

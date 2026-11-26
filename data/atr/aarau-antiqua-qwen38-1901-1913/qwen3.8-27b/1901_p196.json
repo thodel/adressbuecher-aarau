@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p196",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p196.jpeg",
+    "bytes": 769772,
+    "sha256": "475264d5f6fc5f812ff5ea47592759b24521037fbd44a71b2e3af6e431398f9b",
+    "sha256_of": "original",
+    "working_copy": "1901_p196.jpeg"
+  },
+  "text": "183\nÖffentliche Anstalten.\na. Lehranstalten.\nKantonsschule.\nGründung derselben 1802.\nRektor: Dr. Aug. Tuchschmid.\nProfessoren und Lehrer.\nBirchmeier, für Kunstzeichnen.\nBurgmeier, für Gesang.\nCaminada, David, für neuere Sprachen.\nDr. Dill, für Geographie.\nDr. Fröhlich, für alte Sprachen.\nDr. Ganter, für Mathematik am Gymnasium und an der techn.\n  Abteilung.\nDr. Gessner, für alte Sprachen.\nHeuberger, Jak., Oberrichter, für Handels- und Wechselrecht.\nDr. Hunziker, für Französisch am Gymnasium und an der tech-\n  nischen Abteilung.\nDr. Käslin, Hans, für deutsche Sprache und Litteratur am Gym-\n  nasium und den beiden oberen Klassen der technischen Abteilung\n  und der Handelsschule.\nKürschner, Friedrich, für Handelswissenschaften.\nDr. Liechti, für Chemie.\nDr. Mühlberg, für Naturgeschichte.\nDr. Otti, Hans, für technisches Zeichnen und Mathematik an der\n  technischen Abteilung, sowie Algebra und Rechnen (theilweise)\n  an der Handelsschule.\nRennhart, für Englisch an allen drei Abteilungen und Italienisch\n  in einer Klasse der techn. Abteilung.\nRey, Jakob Friedr., für neue Sprachen.\nDr. Tuchschmid, Rektor, für Physik an allen Abteilungen.\nWäffler, für Turnunterricht.\nWernly, Pfarrer, für Hebräisch.\nDr. Winterler, für Geschichte am Gymnasium und alte Sprachen.\nZimmermann, für Schreiben und Stenographie.\nDr. Zschokke, für Geschichte sowie einen Teil des Deutschen an der\n  technischen Abteilung.\nAn der Musikschule.\nRödelberger, Direktor, für Violine und Pianoforte.\nDas Kantonsschülerhaus\nwurde am 1. Mai 1890 eröffnet. Dasselbe hat den Zweck, Kantons-\nschüler, deren Eltern nicht in Aarau wohnen, aufzunehmen und zu\nverpflegen und ihnen während ihrer Studienzeit in Aarau das Eltern-\nhaus zu ersetzen. Es nimmt 38 Schüler auf. Der derzeitige Vor-\nsteher ist: Rey, Jakob Friedrich.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 37011,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1792,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:14:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p196",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p196.jpeg",
+      "bytes": 769772,
+      "sha256": "475264d5f6fc5f812ff5ea47592759b24521037fbd44a71b2e3af6e431398f9b",
+      "sha256_of": "original",
+      "working_copy": "1901_p196.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:14:27+00:00"
+  }
+}

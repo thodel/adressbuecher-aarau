@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p212",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p212.jpeg",
+    "bytes": 963041,
+    "sha256": "41e0bb31799dbbb14fff9caa2b9018012eb972c56e02a4601c4c7a948499efd8",
+    "sha256_of": "original",
+    "working_copy": "1913_p212.jpeg"
+  },
+  "text": "— 170 —\n\nSpillmann, Josef, Fabrikarbeiter, Ober-Gösgen. Bleichemattstr. 1025.\nSpirgi-Kramer, Marie, U.-Kulm. Telli 854.\n— -Wehrlı, Rudolf, Schlosser, U.-Kulm. Telli 854.\n*Sprecher & Schuh A.-G., Fabrication elektrischer Apparate,\n  Bureau [tel]. Industriestraße 1508.\n— -Siegrist, Karl, Ingenieur, Aesch (Baselland) [tel]. Mitinhaber\n  der Firma: Sprecher & Schuh A.-G., Fabrication elektrischer\n  Apparate. Entfelderstraße 1544.\nSpreng-Wullschleger, Karl, Zugführer S. B. B., Wynigen. Signal-\n  straße 1761.\nSpühler, Anna, Kunstmalerin, Rekingen. Bachstraße 1091.\n— -Frey, Gustavine, Witwe, \" \" 1091.\n— Otto, Fürsprech und Notar, \" \" 1091.\n— Bureau. \" \" 1074.\nStäbli, Sophie\", Privatin, Brugg. Buchserstraße \" 926.\nStäblin-Huldi, Paul, Ingenieur, Brugg. Wiesenstraße 1894.\nStädt. Elektrizitätswerk, Bureau und Verkaufsmagazin [tel]. Bahn-\n  hofstraße 636.\n— — Werkstatt und Magazin [tel]. Bahnhofstraße 638.\nStänz, Anna, Klavierlehrerin. Bachstraße 1070.\n— -Suter, Louise, Witwe, Part. \" 1070.\n— Paulina. Bachstraße 1070.\n— -Müller, Robert, Ingenieur. Weltstraße 1592.\nStäuble, Frieda, Sulz. Rain 495.\n— Ida, Sulz. Rain 495.\n— -Vock, Niklaus, Privatier, Sulz. Rain 495.\nStäubli-Lutz, J. Heinrich, Chef der Güterexpedition S. B. B., Horgen.\n  Milchgasse 142.\nStaatsbuchhaltung. Regierungsgebäude.\nStaatskanzlei [tel].\nStaatswirtschafts- und Baudirektion [tel]. Regierungsgebäude.\nStaatsanwaltschaft [tel]. Hintere Vorstadt 362.\nStadelmann-Deiß, Leonhard, Polier, Escholzmatt. Herzogstraße 990.\nStadler, Albert, Schirmhändler, Flawil. Vordere Vorstadt 332.\nStadtammann, Bureau [tel]. Rathausgasse 1.\nStadtkasse [tel]. Rathausgasse 1.\nStadtpolizei [tel]. \" 1.\nStaehele-Herzog, Dr.'s Witwe, Villa zum Kirschgarten, Basel [tel].\n  Küttingerstraße 1261.\n*— Paul, Basel. Geflügelzuchtanstalt „Argovia\" [tel]. Küttingerstr. 1261.\n— Sophie, Konzertsängerin, Basel. Küttingerstraße 1261.\nStahel-Merz, Gottlieb, Heizer, Villnachern. Scheibenschachen 1670.\n— Hans, Kaufmann. Schloßplatz 198.\n— -Hoggenmüller, Karl, Kaminfeger, Villnachern. Pelzgasse 103.\n— Karolina, Fabrikarbeiterin, Villnachern. Milchgasse 156.\n— -Ernst, Marie Wwe., Privatin. Schloßplatz 198.\n— -Schießer, Martha, Part. Augustin-Keller-Straße 1537.\nStalder-Messerli, Fritz, Wirt, Lützelflüh. Pelzgasse 93.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 25156,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2264,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:51:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p212",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p212.jpeg",
+      "bytes": 963041,
+      "sha256": "41e0bb31799dbbb14fff9caa2b9018012eb972c56e02a4601c4c7a948499efd8",
+      "sha256_of": "original",
+      "working_copy": "1913_p212.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:51:53+00:00"
+  }
+}

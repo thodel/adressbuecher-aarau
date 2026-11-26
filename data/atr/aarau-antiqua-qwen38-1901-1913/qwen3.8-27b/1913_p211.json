@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p211",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p211.jpeg",
+    "bytes": 949540,
+    "sha256": "2383b04dff77ffbba704a43a46739f25b257f2281bdb85446d3468eba0dccb66",
+    "sha256_of": "original",
+    "working_copy": "1913_p211.jpeg"
+  },
+  "text": "— 169 —\nSiegrist, Karl, Schneider, Elflingen. Metzgergasse 65.\n— Louise, Meisterschwanden. Obere Vorstadt 526.\n— Luise, Spetterin, Remigen. Pelzgasse 94.\n— -Diebold, Rudolf, Dr., Bez.-Lehrer, Elflingen. Stritengäßchen 1533b.\n— geb. Schlatter, Susette, Privatin, Fährwangen. Tellstraße 1884.\n— Walter, Handlanger, Meisterschwanden. Bachstraße 1069.\n— -Jolliet, Wilhelm, Kreispottkassier, Seengen. Weltistrasse 1444.\nSiegwart-Schuler, Paul, Architekt, Lehrer am Gewerbemuseum,\n  Altorf (Uri) [tel]. Zelglistraße 1861.\nSigel-Weingartmer, Karl, Policeur, Tirol. Stritengäßchen 1205.\nSimendinger-Sauter, Eugen. Fuhrknecht, Hirrlingen (Württemberg).\n  Kirchhof 165.\n*Simmen-Bill, Emil, Wirt, Münchnerbierhalle, Schinznach [tel]. Rat-\n  haussgasse 9.\n— -Bürgi, Johann, Lehrer, Schinznach. Augustin-Keller-Str. 1494.\nSinger, Anna, Fabrikarbeiterin, Horb (Württemberg). Telli 1629.\n— -Kloter, Georg, Maurer, \" \" 1629.\nSinniger-Siegrist, Josef, Schuhfabrikarbeiter, N.-Erlinsbach. Flößer-\n  straße 1166.\nSoder-Combes, Walter, Techniker, Rheinfelden. Kasinostraße 661.\nSolar-Dubs, Albert, Zahntechniker. Küttigerstraße 1257.\nSommerhaller, Fritz, Mechaniker, Gontenschwil. Rain 497.\n— -Aeschbach, Gotthold, Kondukteur W. T. B., Burg. Torfeld-\n  straße 945.\n— -Küng, Heinrich, Bahnmeister W. T. B., Gontenschwil. Wiesen-\n  straße 1293.\n— Herm., Büchsenmacher, Waffenhandslung. Hintere Vorstadt 368.\n— -Häusermann, H., Büchsenmacher, Gontenschwil. Wiesenstr. 1752.\n— Ida. Kirchgasse 40.\n— -König, Louise, Wwe., Wäscherin, Gontenschwil. Rain 497.\n— -Stettler, Otto, Milchhändler. Pelzgasse 109.\n— -Lindenmann, Rudolf, Milch- und Spezeriehandlung. Kirch-\n  gasse 40.\n— -Siegrist, Rudolf, Briefträger. Gönhardweg 1890.\n— Traugott, Wagenführer W. T. B., Gontenschwil. Herzogstr. 990.\nSpaltenstein-Schenkler, Jakob, Knecht, Flaach (Zürich). Bleiche-\n  mattstrasse 1027.\n*Spar-, Leih- und Diskontokasse [tel]. Hintere Vorstadt 374.\nSpengler, Frieda, Bureauangestellte, Buchthalen. Gönhardweg 1870.\n— Karl Jakob. Halden 261.\n— Louise, Weißnäherin, Buchthalen. Gönhardweg 1870.\n— -Bircher, Wilhelm, Gärtner, Buchthalen. Gönhardweg 1870.\nSperlich-Zimmermann, Theodor, Hut- und Pelzwaren [tel]. Vordere\n  Vorstadt 323.\nSpicher, Elise, Köniz (Bern), Pfründerin. Halden 261.\nSpichiger-Thomer, Friedrich, Malermeister [tel]. Bleichemattstr. 1022.\nSpillmann-Buser, Augustin, Schuhfabrikarbeiter, Ober-Göschen.\n  Halden 304.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 123987,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2395,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:53:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p211",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p211.jpeg",
+      "bytes": 949540,
+      "sha256": "2383b04dff77ffbba704a43a46739f25b257f2281bdb85446d3468eba0dccb66",
+      "sha256_of": "original",
+      "working_copy": "1913_p211.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:53:32+00:00"
+  }
+}

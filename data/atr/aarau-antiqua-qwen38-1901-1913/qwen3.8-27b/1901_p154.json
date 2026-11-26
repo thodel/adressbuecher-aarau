@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p154",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p154.jpeg",
+    "bytes": 812159,
+    "sha256": "9b9f7345bd4d07a6f5564d56fcf17d1725bfba2805724946ff038ef0abf84407",
+    "sha256_of": "original",
+    "working_copy": "1901_p154.jpeg"
+  },
+  "text": "141\nBuchdruckereien.\nActiengesellschaft der Aargauer Nachrichten,* hintere Vorstadt 377.\n  (Siehe Inserat Seite 28.)\nActiengesellschaft des Aargauer Tagblattes,* Oberthor 240. (Siehe\n  Inserat Seite 26.)\nKeller, Gottfried,* Rainstraße 452.\nMüller & Trüb,* Bahnhofstraße 578.\nSauerländer, H. R. & Cie.,* Laurenzenvorstadt 782. (Inserat.)\nVilliger, Joseph Anton, Kirchhof 160.\nWirz, Emil,* Oberthor 242. (Siehe Inserat Seite 27.)\nBuchhandlungen.\nAngst, Robert (Bibeldépot),* hinter dem Platz 238. (S. Ins. S. 25.)\nSauerländers Sortimentsbuchhandlung, Nachfolger Krauss & Brack,*\n  Graben 222. (Siehe Inserat Seite 18.)\nSauerländer, H. R. & Cie.,* Verlagsbuchhandlung, Laurenzenvor-\n  stadt 782. (Siehe Inserat.)\nWirz, Emil,* Oberthor 242. (Siehe Inserat Seite 27.)\nButterverkäufer.\nEtter, Reinhard, Rain 434.\nGloor-Siebenmann, Marie,* Kronengasse 47.\nHof-Müller, Bertha, obere Vorstadt 547.\nHunziker, Adolf, obere Vorstadt 549.\nJäcker, Joseph,* Laurenzenthorgasse 116.\nLüscher, Albert, hintere Vorstadt 357.\nOtt-Wenger, Marie, Adelbändli 166.\nScheidegger, J. Ulrich,* Holzmarkt 320.\nSchießer, Hermann,* Pelzgasse 113 (en gros et en détail).\nSchmied-Maurer, Math.*, Rathausgasse 20.\nSommerhalder, Rudolf, Kirchgasse 40. (Siehe Inserat Seite 13.)\nStirnemann, Jakob, Metzgergasse 79.\nUrben, Johann, Kasinostraße 642.\nWalti, Fritz und Emil, Milchgasse 155.\nBürstenhändler.\nFaller geb. Faller, Witwe, Elise,* Kronengasse 50.\nHagnauer, Friedrich, Pelzgasse 95.\nMorath, Wendolin,* Rathausgasse 3.\nBürstenfabrikant.\nHagnauer, Friedrich, Pelzgasse 95.\nCamionneure.\nHangartner, Kaspar, Ziegelrain 417.\nHunziker, Heinrich, Milchgasse 147.\nSiebenmann & Cie.,* Bahnhofstraße 581. (S. Inserat Seite 22)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16336,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1686,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0465,
+    "mean_line_chars": 38.05,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:57:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p154",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p154.jpeg",
+      "bytes": 812159,
+      "sha256": "9b9f7345bd4d07a6f5564d56fcf17d1725bfba2805724946ff038ef0abf84407",
+      "sha256_of": "original",
+      "working_copy": "1901_p154.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:57:55+00:00"
+  }
+}

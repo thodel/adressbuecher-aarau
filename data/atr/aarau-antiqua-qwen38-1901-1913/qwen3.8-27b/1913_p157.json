@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p157",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p157.jpeg",
+    "bytes": 992673,
+    "sha256": "ff0697982e47a84e11621c45f2399f8753dfb11e44bffd54b08dab727850f4c2",
+    "sha256_of": "original",
+    "working_copy": "1913_p157.jpeg"
+  },
+  "text": "— 115 —\nFischer-Koch, Otto, Direktor der Aarg. Kantonalbank, Merenschwand.\n  Westalee Neugut 1647. [tel]\n— Verena, Privatin, Tennwil. Obere Vorstadt 526.\n— -Vonwiller, W., Wwe., Laurenzentorgasse 126.\n— -Keller, Xaver, Dr., christkath. Pfarrer, Triengen. Adelbändli 172.\nFlach-Flückiger, Marie, Witwe, Bonndorf. Hammer 185.\nFleiner, Hans, Privater, Laurenzenvorstadt 800. [tel]\n*Fleisch-Egloff, Karl, Hoteler, Romanshorn. Hotel zum Wilden\n  Mann, Vordere Vorstadt 324. [tel]\nFlückiger, Frnst., Abwart, Auswil (Bern). Kirchgasse 41.\n— -Trösch, Gottfr., Pferdedwärter, Auswil (Bern). Entfelderstr. 1393.\n— Hans, Schlosser, Auswil (Bern). Kirchgasse 41.\n— -Mathis, Jak., Rohrbachgraben. Hammer 185.\n— -Hug, Marie, Witwe, Spetterin, Auswil (Bern). Kirchgasse 41.\n— -Wüthrich, Rosette, Wwe., Gemüsehändl., Auswil (Bern). Rain 506.\nFlühmann, Elisabeth, Seminarlehrerin, Saxeln (Bern). Gartenstr. 1429.\nFluri-Suter, Adolf, Kondukteur S. B. B., Balsthal. Signalstr. 1760.\nFlußkorrektion des Kantons Aargau. Bureau. Bahnhofstr. 606. [tel]\nFöhn-Stalder, Elisabeth, Wwe., Muotathal. Buchserstraße 1746.\n— -Seiler, Leonhard, Heizer, S. B. B., Muotathal. Buchserstr. 1746.\nFörderer, Anna, Lingerie, Buchserstraße 956.\n— Elise, Laurenzenvorstadt 754.\n— Pauline, Laurenzenvorstadt 754.\nFondsverwaltung, Rathausgasse 1. [tel]\nFontanini-Avanzolini, G., Handleranger, Cremona (Italien). Stadthöffli 85.\nForderer-Schwammberger, Alois, Zuschneider, Ziegelbach (Würt.).\n  Rain 451.\nFornerod-Oederlin, Alfred, Ingenieur, Avenches. Bachstraße 1825.\nForrer-Claphan, Richard, Elektrotechniker, Winterthur. Buchser-\n  straße 1758.\nForstverwaltung, Rathausgasse 1. [tel]\n*Fortenbach-Sommerhalder, Ida, Wirtin, Ostwald (Elsaß). Entfelder-\n  straße 1394.\n— — Josef, Ostwald (Elsaß), Handel in Möbeln en gros. Entfelder-\n  straße 1394.\nFranchini-Cagliari, Arturo, Lithograph, Mailand. Rohrerstr. 881.\nFrank-Häuptli, Rudolf, Postfaktuer, Milchgasse 136.\nFranke-Zurlinden, Wilh., Direktor der J. C. F., Entfelderstr. 1535. [tel]\nFranzoni-Vansolini, Carlo, Handlanger, Saludecio (Ital.), Milchg. 138.\n*Frauenasyl Aarau, Zeglistraße 1700.\nFrauen-Badanstalt, Jenseits der Aare 1235.\nFrei, Karl Xaver, Buchbinder, Salen (Thurg.). Hint. Vorstadt 367.\n— Klara, Buchhalterin, Basel. Rathausgasse 14.\nFreiermuth, Johann, Maler, Zeiningen. Spitalgäßli 1710.\n— Johann, Zimmermann, Zeiningen. Spitalgäßli 1710.\n*Freihofer-Rusterholz, Jakob, Bildhauer, Veltheim (Zürich). Rain 506.\nFreimaurerloge z. Brudertreue, Bleichemattstr. 1017.\nFremdenbureau, Rathausgasse 1. [tel]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 69048,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2527,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 50.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:21:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p157",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p157.jpeg",
+      "bytes": 992673,
+      "sha256": "ff0697982e47a84e11621c45f2399f8753dfb11e44bffd54b08dab727850f4c2",
+      "sha256_of": "original",
+      "working_copy": "1913_p157.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:21:27+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p076",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p076.jpeg",
+    "bytes": 857484,
+    "sha256": "350cfa2823e577c493f8eb804a58ebc9f9da01d6a9d4df2fcf2e6d1783a51890",
+    "sha256_of": "original",
+    "working_copy": "1901_p076.jpeg"
+  },
+  "text": "65\nHaus-\nNr.\n1133 * Ryniker, Gebr., Etter, Küher und Fecht, Weinhändler. Speise-\n  wirtschaft.\n  Frei-Mösch, Ulrich Wilhelm, gew. Werkmeister, [tel] Wirt,\n  von Zurzach.\n  Schmid-Jakober, Hermann, II. Gemeindeweibel, von Zuzgen.\n  Stehle-Meissner, Albert, Schneider, v. Rheinstetten (Würtbg.)\n  Kielholz, Louise, Part.\n1134 Mürset-Lüscher, Gottlieb, Fuhrmann, von Diesse (Bern).\n  Speisewirtschaft.\n  Huber-Wehrli, Joseph, Wirt, von Segeten (Baden).\n1135 Brunnhofer-Schenck, Emil, Briefträger.\n  Kempf-Lang, Dominikus, Bierbrauer u. Wirt, von Goggingen\n  (Baden). Speisewirtschaft.\n  Schatzmann-Gruber, Heinrich, Schneider, von Alstädt (Tirol).\n  Nülist-Bürgi, Adolf, Stadtpolizist, von Schönenwerd.\n1136 * Schaub-Blaustein, Adelh., Gipsermeister, v. Ettingen (Basell.)\n  Wehrli-Engeli, J., Sekretär u. Betreibungsbeamter, v. Küttingen.\n  Deppler-Rauer, Friedrich, Prediger, von Tegerfelden.\n  Rösiger-Leibnitz, Max Bruno, Lithograph, v. Leipzig (Sachsen).\n1137 Brack-Uster, Heinrich, Chef des Aarg. Polizeikorps.\n  Stauber-Götti, Jakob, Notar, Amtsrevisor.\n  — Gottfried, Sohn, Telegraphist.\n  Thut, Gottlieb, Part., von Oberentfelden.\n1138 Fricker-Kienberger, Johann, Postbeamter.\n  Frey-Pfiffer, Maria, Witwe, Part., von Zurzach.\n  Merz-Gautschi, Louise, Witwe, Part., von Menziken.\n  — Flora, Postangestellte, von Menziken.\n1139 * Walter-Matter, Verena, Oekonom's Witwe.\n  — -Egger, Jakob, Sohn, Oekonom.\n  Gloor-Sager, Rudolf Emil, Packer, von Birrwyl.\n  Fehlmann-Holzreuter, Christoph, Taglöhner, von Seon.\n  Eismann-Marbet, Jakob, Schuhmacher, von Oberkulm.\n1140 † Dieselbe. Schopf.\nAsylstrasse.\n1141 Gloor, Wilhelm, Fuhrmann, von Leutwyl. Neubau.\n1142 † Siegrist-Fischer, Jb., Metzger, v. Meisterschwanden. Scheune.\n1143 † Keller, Abraham, Mechaniker. Metallldreherei.\n1144 Zuber-Brügger, Jakob, Schmied, von Hunzenschwyl.\n  Laury-Wärren, Jakob, Wagner, von Mühlethal.\n  Hauri-Graber, Anna, Witwe, von Reitnau.\n  Graber, Elise, Part., von Bottenwyl.\n  Knaus, Georg, Maler, von Oberittlingen. Malerwerkstätte.\n1145 † Riniker, Gebr., Bierbrauer. Eiskeller und Anbau.\n1146 Merz-Ruh, Margaritha, Part., von Leimbach.\n  Fecht-Ruh, Julius, Weinhändler. [tel]\n1147 Schatzmann-Härring, Jakob, von Windisch. Chem. Wäscherei.\n  Blattner, Marie, Weißnäherin, von Küttingen.\n5",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18162,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2272,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:28:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p076",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p076.jpeg",
+      "bytes": 857484,
+      "sha256": "350cfa2823e577c493f8eb804a58ebc9f9da01d6a9d4df2fcf2e6d1783a51890",
+      "sha256_of": "original",
+      "working_copy": "1901_p076.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:28:35+00:00"
+  }
+}

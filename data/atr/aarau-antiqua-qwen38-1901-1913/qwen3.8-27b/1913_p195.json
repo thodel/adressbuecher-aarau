@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p195",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p195.jpeg",
+    "bytes": 900148,
+    "sha256": "c8d149797ae10e6cd9edeecbf3cdfeec5cbbfbb18e9c6acb8707f614a0f12c53",
+    "sha256_of": "original",
+    "working_copy": "1913_p195.jpeg"
+  },
+  "text": "— 153 —\nNünlist-Bürgi, Ad., Stadtpolizist, Schönenwerd. Bahnhofstr. 639.\n— Franz, Zementarbeiter, Erlinsbach (Solothurn). Scheiben-\n  schachen 1671.\n— -Mäuli, Hermann, Werkmeister, Erlinsbach (Soloth.) [tel]. Flößer-\n  straße 1634.\n— -Herzog, Robert, Wirt, Schönenwerd. Speisewirtschaft zur\n  Halde [tel]. Halden 291.\nNüsperli-Gysi, Friedrich, Postbeamter. Rain 461.\n— -Witz, Ida, Witwe. Zollrain 61.\nNußbaum-Hagenbuch, Frieda, Arbeitslehrerin, Großhöchstetten. Jura-\n  straße 1488.\n— -Senn, Friedrich, Gasarbeiter, Densbüren. Halden 300.\n— -Tonini, Gottlieb, Fabrikarbeiter, Densbüren. Zollrain 63.\n— Marie, Ladentochter, Densbüren. Vordere Vorstadt 333.\nNußbaumer-Dobler, Edmund, Wirt zum Neuen Bund, Mümliswil.\n  Rain 432.\n— Louise, Mümliswil. Rain 432.\n— Pauline, Lehrerin, Rheinfelden. Oberholzstraße 1680.\nNußberger-Leutwyler, Marie, Witwe, Taglöhnerin, Seengen. Ham-\n  mer 188.\nObergericht [tel]. Rathausgasse 1.\nOberly-Wydler, Richard, Privatier, Mels. Ziegelrain 410.\n*Oboussier A.-G., Weberii [tel]. Graben 232.\n— -Schäfer, Olga, Privatin, Villa Feldegg [tel]. Feldwachstr. 1626.\nObrist-Renold, Hermann, Bremser S. B. B., Riniken. Buchser-\n  straße 981.\n— -Diener, Theodor, Postpacker, Magden. Telli 857.\nOchsner-Bräuner, Jakob, Lok.-Führer S. B. B., Wagenhausen. Indu-\n  striestraße 1820.\n— Jakob, Privatier, Uster. Entfelderstraße 1393.\nOehler-Osthueß, Adele [tel]. Laurenzenvorstadt 768.\n— -Wassmer, Alfred, Ingenieur, Aarau [tel]. Graben 227.\n— & Cie., Maschinenfabrik, Eisengießerei und elektrische Stahl-\n  gießerei [tel]. Industriestraße 932.\n— -Theiler, Elise [tel]. Laurenzenvorstadt 768.\n— Hedwig. Laurenzenvorstadt 768.\nOelhafen-Großmann, Christian, Architect. Bankstraße 1050.\n— -Müller, Elise Luise, Witwe, Taglöhnerin. Halden 276.\n— Helene, Zitherlehrerin. Rain 436.\n— -Bührer, Herm., Prokurist. Bahnhofstraße 623.\nOeschger, Aug., Bahnbeamter, Gansingen. Schloßplatz 198.\nOettli, Karl, Bureauangestellter, Ottoberg. Asylstraße 1145.\nOffiziershaus [tel]. Laurenzenvorstadt 770.\n*Ohl, Fritz, Kaufmann, Mühlethal (Aargau). Entfelderstraße 1618.\n*— Gustav, Fabrikant [tel]. Fabrikgebäude. Band- und Litzenfabrik\n  mit Färbereibetrieb. Bachstraße 1101.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 52216,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2171,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:42:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p195",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p195.jpeg",
+      "bytes": 900148,
+      "sha256": "c8d149797ae10e6cd9edeecbf3cdfeec5cbbfbb18e9c6acb8707f614a0f12c53",
+      "sha256_of": "original",
+      "working_copy": "1913_p195.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:42:20+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p165",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p165.jpeg",
+    "bytes": 1004455,
+    "sha256": "32bee77c78d7db24f596c6a9e4064ea5fb7dc893ac88d34085657c823654346f",
+    "sha256_of": "original",
+    "working_copy": "1913_p165.jpeg"
+  },
+  "text": "— 123 —\nGrünig-Hintermann, Ed. Emil, Kaufmann, Winterthur. Westallee\n  Neugut 1605.\nGrütter-Graber, Fritz, Taglöhner, Seeberg (Bern). Stritengässchen 1152.\nGrundbuchverwaltung [tel]. Laurenzenvorstadt 802.\nGruner-Pichler, Otto, Ingenieur, Manichswalde. Hinteres Zelgli 1693.\nGschwind, Walter, Techniker, Courchavon (Bern). Bahnhofstr. 1814.\nGsell, Armin, Kaufmann, Ob.-Rohrdorf. Flößerstraße 1634.\n*— -Adam, Mina, Lingerie und Kinderartikel. Bahnhofstraße 555.\n*— — Mina, Zihlschlacht. Kasinostraße 660.\nGünthard, Bruno, Stoffdrucker, Zürich-Enge. Rohrerstraße 1809.\n  — Elise, Fabrikarbeiterin, Zürich-Enge. Rohrerstraße 1809.\n  — -Brandner, Joh. Friedrich, Stoffdrucker, Zürich-Enge. Rohrer-\n    straße 1809.\n  — Hedwig, Fabrikarbeiterin, Zürich-Enge. Rohrerstraße 1809.\nGünther-Zschokke, Bertha, Witwe, Privatin, Rheinfelden [tel]. Gön-\n  hardweg 1448.\n  — Martha, Rheinfelden. Gönhardweg 1448.\nGüterexpedition und Bureau [tel]. Bahnhofstraße 812.\nGubler-Gubler, Albert, Schreiner, Kienberg (Sol.). Striteng.1533 a.\n*— Zimmerli & Cie., Bureaumöbelfabrik, mech. Glaserie und Schrei-\n  nerei [tel]. Industriestraße 928.\n  — -Zoll, Hermann, Fabrikant, Baden. Gartenstraße 1772.\n*Gugger-Heß, Samuel, Wirt, Ins (Bern). Speisewirtschaft zum National.\n  Kasinostraße 662.\nGuggisberg-Beck, Emil, Gewerbesekretär, Vevey. Entfelderstr. 1393.\nGuignard-Mathers, Albert, Dr. med., Arzt, Le Lieu (Waadt) [tel].\n  Feerstraße 686.\nGuinand-Spethmann, Caroline, Privatin, Neuchâtel. Bachstr. 1074.\nGunsch-Furter, Josef, Maurer, Golattenmattgasse 251.\nGut-Haberstich, Emil, Aufseher, Wipkingen (Zürich). Scheiben-\n  schachen 1670.\n  — Rudolf, Schuhmacher, Mumpf. Obertor 243.\n  — — Schuhmacher, Schmiedgasse 391.\nGutjahr-Hauri, Jakob, Pferdedwärter, Rohrbach (Bern). Milchg.135.\nGuyer-Blattner, Melanie, Part., Fehraltorf (Zürich). Erlinsbacher-\n  straße 1306.\n  — -Gunkel, Oskar, Privatier [tel]. Telli 873.\nGyger-Märki, Jakob, Schreiner, Gontenschwil. Flößerstraße 1180.\n  — — Marie, Wäscherei. Flößerstraße 1180.\nGygi-Schlatter, Adolf, Direktor der Jurazementfabrik Holderbank,\n  Kappelen (Bern) [tel]. Laurenzenvorstadt 1717.\nGysel-Losdorf, Emil, Kaufmann, Wilchingen. Erlinsbacherstr.1302.\nGysi-Bächli, Adolf, Tapezierermeister [tel]. Möbelhandlg. Pelzg.110.\n  — Adolf, Sohn, Tapezierer, Pelzgasse 110.\n  — Anna, Gartenstraße 1429.\n  — -Anderegg, Emil, Malermeister, Obere Vorstadt 542.\n  — -Fehlmann, Emil, Malermeister, Obere Vorstadt 523.\n  — Emma, Ladentochter, Zofingen. Bahnhofstraße 632.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 49396,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2483,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:24:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p165",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p165.jpeg",
+      "bytes": 1004455,
+      "sha256": "32bee77c78d7db24f596c6a9e4064ea5fb7dc893ac88d34085657c823654346f",
+      "sha256_of": "original",
+      "working_copy": "1913_p165.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:24:40+00:00"
+  }
+}

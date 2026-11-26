@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p181",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p181.jpeg",
+    "bytes": 973190,
+    "sha256": "3a7e2445d0dee457189110acb409421173856b2fa69cb980cf09dcd6a5906555",
+    "sha256_of": "original",
+    "working_copy": "1913_p181.jpeg"
+  },
+  "text": "— 139 —\nKrähenbühl-Hoffmann, August, Lok.-Führer S. B. B., Altishofen\n  (Luzern). Torfeldstraße 945.\n— -Thoma, Hans, Postbeamter, Signau (Bern). Gönhardweg 1870.\n— Luise, Weißnäherin, Altishofen. Halden 279.\nKrämer-Barthel, Richard, Wirt, Weitingen. Speisewirtschaft „Zum\n  Münchner Kindl“. Obertor 245.\nKraft, Dora, Brugg. Bachstraße 1067.\n— -Caspar, Maria, Part., Brugg. Bachstraße 1067.\nKrankenanstalt, kantonale [tel]. Buchserstraße 956.\nKranhals geb. Schmuziger, Nina, Privatin. Entfelderstraße 1409.\n*Krauß & Brack, Sortimentsbuchhandlung [tel]. Graben 222.\n— -Blum, Karl Friedr., Offiziersbedienter, Holziken. Tellrain 836.\n— -Schwarzmann, Max, Buchhändler, Ehingen (Württemberg),\n  in Firma Krauß & Brack. Zollrain 61.\nKreisinstruktor, Bureau [tel]. Infanteriekaserne.\nKreiskommando [tel]. Bankstraße 1051.\n*Kreß-Andersen, Karl, Architekt, Wigoltngen (Thurg.). [tel]. Bach-\n  straße 1097.\nKrieg, Hanna, Pflegerin, Münchenbuchsee. Entfelderstraße 1535.\nKrißler & Stadler, Schirmfabrikation. Vordere Vorstadt 352.\nKröll-Brunner, Johann, Wirtschaft z. Rütli, Edelsbach (Tyrol). Rat-\n  hausgasse 16.\n— Leonhard, Schuhmacher, Edelsbach. Hintere Vorstadt 359.\nKübler, Elise. Bleichemattstraße 1019.\n— Kuhn, Johann, gew. Bahnhofinspektor. Bleichemattstraße 1019.\n— -Schöni, Robert, Prediger, Wilchingen. Spitalgäßli 1734.\n*Küenzlen & Cie., Eisengießerei und Weichgußfabrik. Hintere\n  Bahnhofstraße 1010.\n— -Kranich, Friedrich, Gießereibesitzer, Sulzach (Württemberg).\n  Bahnhofstraße 610.\n— Friedr., Kaufmann, Sulzach (Wrtbg.). Bahnhofstraße 610.\n*Kühn-Hofmann, Bernh., Bahnhofrestaureteur [tel]. Konradstraße 1417.\n— Alb. Walter, Koch. Konradstraße 1417.\nKühne-Heiz, Adolf, Bezirkslehrer, Merseburg [tel]. Feerstraße 682.\n— Hermann, Knecht, Rieden (St. Gallen). Bachstraße 1111.\nKüng-Furrer, Anton, Sekretär. Oberholzstraße 479.\n— -Rüedi, Hans, Faktor, Aristau. Flößerstraße 1164.\nKünzler-Custer, Adolf, Techniker, Wolfhalden. Laurenzenvor-\n  stadt 746.\nKüpper-Wärtli, Klara, Privatin, Solothurn. Pelzgasse 104.\n*Kuhn-Gamper, Alfred, Techniker [tel]. Sanitäre Apparate und An-\n  lagen, Eisenkonstruktionen. Hintere Bahnhofstraße 1853.\n— Hermann Jakob, Bankbeamter, Suhr. Schloßplatz 198.\n— -Frank, Hermann, Ausläufer, Suhr. Adelbändli 175.\n— -Andermatt, Joh., Bahnmeister S. B. B. Vordere Vorstadt 327.\n— -Gall, Karl, Obergärtner, Suhr. Buchserstraße 956.\n— -Buser, Marie, Witwe, Privatin. Augustin Keller-Straße 1495.\n— Theodor, Ingenieur, Orpond. Entfelderstraße 1402.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 49179,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2472,
+    "lines": 49,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:33:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p181",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p181.jpeg",
+      "bytes": 973190,
+      "sha256": "3a7e2445d0dee457189110acb409421173856b2fa69cb980cf09dcd6a5906555",
+      "sha256_of": "original",
+      "working_copy": "1913_p181.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:33:29+00:00"
+  }
+}

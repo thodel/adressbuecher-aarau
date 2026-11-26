@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p188",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p188.jpeg",
+    "bytes": 801209,
+    "sha256": "2d31aa909b398cf5a37616701badea09dcb499962d0654aeb640cfea9291efe0",
+    "sha256_of": "original",
+    "working_copy": "1901_p188.jpeg"
+  },
+  "text": "175\nGerodetti, Virgilius, hinter dem Bahnhof 1141.\nKeller, Karl, Rain 499.\nThut, Gottlieb,* Bachstraße 1076.\nViviella & Frey,* Laurenzenvorstadt 738. (Siehe Inserat Seite 24.)\nWeber-Lüscher, Otto,* Pelzgasse 106.\nWidmer, Rudolf, Wirt, Buchserstraße 920.\nWüthrich-Lüdi,* Laurenzentorgasse 118.\n\nWeissnäherinnen.\n\nBaumann-Frei, Anna, Milchgasse 128.\nBeck, Karolina, Adelbändli 173.\nBeilharz, Katharina, Halden 302.\nBlattner, Maria, Asylstraße 1147.\nBolliger, Frida, Hammer 190.\nBrunner, Maria, Laurenzenvorstadt 727.\nEichenberger, Ida und Elise, Metzgergasse 66.\nErismann, Maria, Asylstraße 1147.\nFrieden-Kramer, Agatha, obere Vorstadt 554.\nHäfeli-Fischer, Julie, Halden 278.\nJoos, Anna, Pelzgasse 95.\nKrähenbühl, Louise, Halden 279.\nLüscher, Emma, vordere Vorstadt 343.\nMüller-Walti, Marie, hintere Vorstadt 376.\nNiggli, Elise, Kasinostrophe 647.\nPfenniger, Marie, Milchgasse 145.\nPfister-Sandmeier, Emma, Halden 305.\nSchaffner-Meier, Margaritha, Adelbändli 175.\nSchmid, Frida und Sophie, hinter dem Bahnhof 1004.\nSpähni-Waldmeier, Luise, Entfelderstraße 1404.\nStrebhel, Waldburga, Zollrain 56.\nTreier-Hort, Rosina, obere Vorstadt 551.\nWernli, Elise, Rain 501.\nWidmer-Felber, Anna, Rain 506.\n\nWirthschaften.\n\nGasthöfe.\nHôtel Gerber: Gerber, Hans,* Bahnhofstraße 575.\nHerberge: Wyser, Gottlieb, obere Vorstadt 515.\nKrone: Studer, Bierbrauer in Olten. Wirtin: Mathys geb. Hafner,\n  Katharina, Kronengasse 48.\nKettenbrücke: Schilling, August, Zollrain 60. (Siehe Inserat Seite 9.)\nKurhaus: Brack, Heinrich, zum Alpenzeiger 1275.\nLöwen: Scherz, Karl,* vordere Vorstadt 338.\nOchsen: Biland, Karl,* Laurenzentorgasse 123.\nRößli: Baldinger, Roman, Metzgergasse 73.\nWildenmann: Nägelin, Arnold,* vordere Vorstadt 324.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 66810,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1708,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:12:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p188",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p188.jpeg",
+      "bytes": 801209,
+      "sha256": "2d31aa909b398cf5a37616701badea09dcb499962d0654aeb640cfea9291efe0",
+      "sha256_of": "original",
+      "working_copy": "1901_p188.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:12:16+00:00"
+  }
+}

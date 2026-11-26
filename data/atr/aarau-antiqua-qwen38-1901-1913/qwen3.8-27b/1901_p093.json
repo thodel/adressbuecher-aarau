@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p093",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p093.jpeg",
+    "bytes": 694982,
+    "sha256": "abebf985e0257310a2484e8175d158baf923a33c941112d4c785a406ac348641",
+    "sha256_of": "original",
+    "working_copy": "1901_p093.jpeg"
+  },
+  "text": "Alphabetisches Verzeichnis\nder\nBürger und Einwohner der Stadt Aarau.\nDie näheren Angaben über Beruf und Heimatort befinden sich im Verzeichnis\n  der Wohngebäude.\n[tel] = Telephon.\nAargauer Nachrichten, [tel] hintere Vorstadt 377.\n  — Tagblatt, [tel] Oberthor 240.\nAargauische Bank, [tel] Bahnhofstraße 572.\n  — Creditanstalt, [tel] Laurenzenvorstadt 700.\n  — Naturforschende Gesellschaft. (Präsident: Prof. Dr. F. Mühlerg)\nAargauischer Tierschutzverein. Präsident: Dr. Fischer, Apotheker\n  in Zofingen. Vice-Präsident: Meisel, Förstverwalter in Aarau.\nAargauisches Versicherungsamt, Bahnhofstraße 606.\nAckermann, Albert, Kaufmann, vordere Vorstadt 352.\n  — Joseph, Part., Strittengäßchen 1151.\nAcklin, Emil, Verwalter der Krankenanstalt, Buchserstraße 953.\nAdam, Anton, Part., Pelzgasse 109.\n  — Anton, Fabrikant, Buchserstraße 922.\n  — & Cie, Bleiche, Färberei und Appretur, Fabrik in Buchs. [tel]\n  — geb. Stephani, Hedwig, Witwe, Bachstraße 1086.\nAdrien, Andreas, Hafner, Halden 310.\n  — Marie, Damenschneiderin, Halden 310.\nAebi-Rohr, Anna, Magd, obere Vorstadt 515.\nAeschbach, Friedrich, Mechaniker, [tel] Torfeldstraße 942.\n  — Friedrich, Part., obere Vorstadt 539.\n  — Johann, Mechaniker, Torfeldstraße 942.\n  — Josephine, Köchin, Halden 278.\n  — Otto, Mechaniker (Eichmeister), Torfeldstraße 949.\n  — Rudolf, Steinhauer, Bachstraße 1066.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 33748,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1345,
+    "lines": 30,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:33:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p093",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p093.jpeg",
+      "bytes": 694982,
+      "sha256": "abebf985e0257310a2484e8175d158baf923a33c941112d4c785a406ac348641",
+      "sha256_of": "original",
+      "working_copy": "1901_p093.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:33:20+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p052",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p052.jpeg",
+    "bytes": 845852,
+    "sha256": "ad68a9d19ee949576cfa8859f20a6a3f72b4583800976176f2bd7ea0e2475027",
+    "sha256_of": "original",
+    "working_copy": "1901_p052.jpeg"
+  },
+  "text": "41\nHans-\nNr.\nBeyeler, Magdalena, Diakonissin, von Wahlen (Bern).\nHirt, Luise, von Schmiedrued.\nFierz, Emma, Männedorf (Zürich).\nWidmer, Lidia, von Fullendorf (Baden).\nSiebenmann, Louise, Part.\nBlattner-Hofer, Elisabeth, Part., von Küttigen.\n563 † Diakonissenstation Aarau. Waschhaus.\n564 † Frey-Rüegg & Cie. Wohnhaus mit Magazin.\nEichenberger-Fischer, Gottlieb, Schreiner, von Beinwyl.\n565 † Dieselben. Kessel- und Maschinenhaus.\n566 † Dieselben. [tel] Fabrik. Seidenbandfabrikation.\n567 † Evangelischer Verein. Kapelle.\n568 * Derselbe. Vereinshaus. Klein-Kinderschule.\nBächli-Holliger, Gottlieb, Schuhmacher, Abwart, von Buchs.\n569 Zur Linden-Rychner, Rudolf, [tel] Fabrikant, von Zofingen.\n570 † Derselbe. Waschhaus.\n571 Einwohnergemeinde Aarau. Gemeindeschulhaus.\nHassler-Brunnhofer, Karoline, Schulhausabwart.\n572 * Aargauische Bank. [tel] Bankgebäude.\n573 † Dieselbe. Holzhaus.\n574 Zebert-Altorfer, Georg, von Bauma (Zürich). Papeterie. [tel]\nIsler-Guyl, Alois Othmar, Kaufmann, von Wohlen.\n575 Gerber-Walther, Hans, Hôtelier [tel] (Hôtel Terminus).\n576 * Näf & Zschokke. Kreispastgebäude. [tel]\nBrosy-Miville, Rudolf, Kreispastdirektor, von Mümliswyl (Sol.)\n577 † Dieselben. Postremise.\n578 Müller & Trüb. [tel] Lithographische Kunstanstalt, Buchdruckerei,\n  Buchbinderei, Zinkographie.\n579 Siebenmann-Steiner, Gottlieb, Camionneur.\n580 * Derselbe. Nebengebäude.\nMaurer-Häfeli, Wilhelm, Fuhrmann, von Schmiedrued.\n581 † Derselbe. [tel] Bureau und Scheune der Firma Siebenmann & Cie.,\n  Camionage, Speditions- und Brennmaterialiengeschäft und\n  öffentliche Brückenwage.\n582 † Derselbe. Schmiede.\n583 † \" Gebäude mit Brückenwage.\n584 Brack-Müllhaupt, Jakob, Kaufmann. [tel]\nReimann-Schaub, Fritz, Postbeamter, von Wölflinswyl.\n585 † Derselbe. Magazin.\nHangartner, Kaspar, Camionneur [tel] (Bureau).\n586 * Aktienbrauerei Feldschlösschen Rheinfelden. Bierdepôt.\nPfisterer-Rohr, Robert, Bierbrauer. [tel]\nWüst-Weider, Hans, Bierführer, von Lupfig.\n587 * Holzach-Siebenmann, Dietrich, Bierbrauer. Pintenwirtschaft.\nMeier-Messerli, Elisabeth, Wirtin, von Laufen-Stadt (Bern).\nHärri-Baumann, Arnold, Postcommis, von Birrwyl.\nHäfeli-Fischer, Julie, Witwe, Nähterin, von Seengen.\nUrech, Joh. Jak., Wagenkontroleur, von Seon.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 43419,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2220,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:17:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p052",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p052.jpeg",
+      "bytes": 845852,
+      "sha256": "ad68a9d19ee949576cfa8859f20a6a3f72b4583800976176f2bd7ea0e2475027",
+      "sha256_of": "original",
+      "working_copy": "1901_p052.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:17:55+00:00"
+  }
+}

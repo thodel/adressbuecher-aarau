@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p244",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p244.jpeg",
+    "bytes": 840770,
+    "sha256": "94783ce19704f85f6cb926ec95e95db0214e4642e30f520e8e69947f1cd07935",
+    "sha256_of": "original",
+    "working_copy": "1913_p244.jpeg"
+  },
+  "text": "— 210 —\nKäser-Laurent. Emil. Stritengäßchen 1753.\n— -Lüscher, Gustav. Stritengäßchen 1200.\nKistler-Hauri, Friedrich [tel]. Jenseits der Aare 1245.\nMeier-Schwammberger, Fritz. Entfelderstraße 1404.\nReinhardt-Müller, Joh. Bapt. Hintere Vorstadt 370.\nSchmid-Pauli, Daniel. Scheibenschachen 1342.\nVogler, Julius, Stadtgärtner [tel]. Obere Vorstadt 549.\nWehrli-Dubs, Johann [tel]. Flößerstraße 1184.\nGasanstalt.\n*Gasbeleuchtungsgesellschaft Aarau. [tel] Gasstraße 1173.\n  Direktor: Grob, Walter.\n  Gasmeister: Hanselmann, Paul.\nGeflügelzuchtanstalt.\n*Stähelin, Paul [tel]. Küttigerstraße 1261.\nGeistliche.\nDucrot, Jos. Beate, Pfarrer der römisch-katholischen Genossenschaft.\n  Schmiedgasse 383 [tel].\nFischer, Xaver, Dr., Pfarrer der christ.-kath. Kirchgemeinde. Adel-\n  bändli 654.\nGraf, Ernst, Pfarrer der reform. Kirchgemeinde. Kirchhof 164.\nRauchenstein, Friedrich, Pfarrhelfer der reformirten Kirchgemeinden\n  für den Helferkreis Aarau. Jurastraße 1485.\nSchmuziger, Louis, Pfarrer der evang. Kapelle. Bahnhofstr. 561.\nWernly, Rudolf, Pfarrer der reform. Kirchgrmeinde. Milchg. 141.\nGemüsehändler.\nDürr-Lüscher, Marie, Wwe. [tel] Graben 215.\nFlückiger-Wüthrich, Rosette, Witwe. Rain 506.\n*Greub-Bürgi, Marie [tel]. Hintere Vorstadt 356.\nHausmann-Heuberger, Joh. Hintere Vorstadt 354.\n  — Johannes. Halden 288.\nKyburz, Verena. Kasinstraße 641.\nMüller-Vötsch, Anna. Metzgergasse 75.\nReinhardt, Martha. Hintere Vorstadt 370.\nRiehl-Dürr, Karl. Graben 215.\nGeometer.\nBasler, Peter, Kantonsgeometer. Hintere Bahnhofstraße 1033.\nBrandenberger-Großenbacher, Hrch. Flößerstraße 1802.\nGertiser, Karl, Münchenwilen. Oberholzstraße 478.\nGofweiler-Gyger, Otto. Buchserstraße 1542.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41233,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1666,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:07:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p244",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p244.jpeg",
+      "bytes": 840770,
+      "sha256": "94783ce19704f85f6cb926ec95e95db0214e4642e30f520e8e69947f1cd07935",
+      "sha256_of": "original",
+      "working_copy": "1913_p244.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:07:39+00:00"
+  }
+}

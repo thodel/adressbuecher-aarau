@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p059",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p059.jpeg",
+    "bytes": 812451,
+    "sha256": "f107c1a226bcdcbe5bafe6daa88e0e94146227d9c04d97119e7e1c4447e257df",
+    "sha256_of": "original",
+    "working_copy": "1901_p059.jpeg"
+  },
+  "text": "48\nHaus-\nNr.\nHeuberger-Weigand, Jakob, Fürsprech, Oberrichter, v. Bötzen.\nBolliger-Schneider, Gottlieb, Güter-Expedit, von Boniswyl.\n711 * Derselbe.\nWernli-Reinhard, Kaspar, Weichenwärter, von Thalheim.\nLeithe-Weber, Xaver, Schneider, Nähmaschinenhandlung, von\n  Horbranz (Vorarlberg).\n712 * Derselbe.\nFischer-Widmer, Marie, Witwe, Part.\nBolliger-Huggenberger, Verena, Dienstmanns Witwe, von\n  Kirchrued.\nBolliger, Pauline, Damenschneiderin, von Kirchrued.\nWildi, Rudolf, Bauamtsarbeiter, von Schafisheim.\nBirrer, Robert, Schriftsetzer, von Tegerfelden.\n713 * Derselbe.\nWeigel-Voigt, Heinrich, Schneider, von Kolberg (Preußen).\nSchäublin, Maria, Damenschneiderin, von Bennwyl (Baselland).\n714 * Wydler-Frey, Med. Drs. Erbschaft.\nZimmerli-Huber, Gottlieb, Kreiskommandant, von Zofingen.\nHunziker-Wydler, Pauline, Part.\nGünther-Zschocke, Bertha Mathilde, Part., von Rheinfelden.\n715 † Derselbe.  Holzhaus.\n716 † Derselbe.  Waschhaus.\n717  Schmuziger-Koller, Daniel, Part.\n718 † Derselbe.  Holzhaus.\n719 † Derselbe.  Waschhaus.\n720  Fahländer-Hunziker, Karl, Dr. jur., Regierungsrat [tel], von\n  Laufenburg.\nSiebelist geb. Fahländer, Anna, Part., von Berlin.\nDavall-Hunziker, Elise, F. W., Witwe, Part., von Vevey.\n721 † Derselbe.  Holzhaus und Remise.\n722 † Hunziker-Züst, Guido, Rentiers Erbschaft. Comptoir u. Magazin.\n723  [tel]  Derselbe.  Wohngebäude.\nHunziker-Züst, Julie, Part.\n724 † Derselbe.  Wohnhaus.\n725 † Derselbe.  Waschhaus.\n726 † Derselbe.  Holzschof.\n727 * Derselbe.  Wohnhaus (alte Fabrik).\nSiegrist-Schmid, Adolf, Schuhmacher, von Meisterschwanden.\n— -Hochuli, Arnold, Stuhlschreiner, von Liedertswyl (Baselld.)\nStirnemann, Maria, Fabrikarbeiterin, von Gränichen.\nSteiner-Haller, Mina, Witwe, Taglöhnerin, von Rein.\n—  Bertha, Damenschneiderin, von Rein.\nSiegrist-Plüss, Anna, Witwe, Speterin, von Meisterschwanden.\nMüller-Suter, Jakob, Posamenter, von Unterkulm.\n— -Huber, Jakob, Bahnarbeiter, von Unterkulm.\nDietiker-Wernli, Samuel, Schuhmacher, von Thalheim.\n—  Rosa, Damenschneiderin, von Thalheim.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38953,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2019,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.28,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:20:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p059",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p059.jpeg",
+      "bytes": 812451,
+      "sha256": "f107c1a226bcdcbe5bafe6daa88e0e94146227d9c04d97119e7e1c4447e257df",
+      "sha256_of": "original",
+      "working_copy": "1901_p059.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:20:14+00:00"
+  }
+}

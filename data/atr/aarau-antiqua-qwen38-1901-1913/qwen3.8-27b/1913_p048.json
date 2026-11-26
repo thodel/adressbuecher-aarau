@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p048",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p048.jpeg",
+    "bytes": 917999,
+    "sha256": "0265e8d64f29ea36f0d61c05fa70a361f9a6247f6b51c3aadeb5569e31adc564",
+    "sha256_of": "original",
+    "working_copy": "1913_p048.jpeg"
+  },
+  "text": "— 32 —\nHaus-\nNr.\nBolliger, Frieda, Lehrerin.\nGautschi-Siebenmann, Karoline Wwe., Privatin.\n367 Schmid-Wolf, Peter, Part.\n  — Leonie, Aarau.\n  — Gertrud, \"\nGysi-Schmidt, Fritz, Schlosserwerkstätte.\nDecker-Hoffmann, Melanie, Privatin.\nFrei, Karl Xaver, Buchhinder, Salen (Thurg.).\n368 Herzig-Hauri, Elisabeth Wwe., Privatin, Wynau (Bern).\n  — Bertha, Lehrerin, Wynau (Bern).\n  — Olga, Ladentochter, \" \"\nBerner, Emma, Ladentochter, Ruppertwil.\nSommehalter, Herm., Büchsenmacher, Waffenhundlung.\n369 Märki, Oskar, Konditor, Rüfenach.\n  — -Vogt, Elisabeth, Wäscherei und Glätterei.\n  — Frieda, Glätterin, Rüfenach.\n  — Emma,\nMeier, Adolf, Elekt.-Arbeiter, Lupfig.\n370 Reinhardt-Müller, Joh. Bapt., Gärtner, Balsthal. Obst- und\n  Gemüsehandlung.\n  — Martha, Verkäuferin, Balsthal.\n  — Fritz, Gärtner, \"\n371 * Henz, Jakob & Cie., Eisenwarenlager.\nGysi-Schmidt, Fritz, Schlossermeister.\n  — Jenni.\n373 * Hemmelen-Stähli, Emil, Kaufmann.\nHemmelen & Cie., Quincailterie- u. Spielwarengeschäft en gros [tel].\nFecht & Cie., Spirituosen- und Weinhandlung [tel].\n374 Hemmelen-Stähli, Emil Kaufmann.\nSpar-, Leih- und Diskontokasse [tel].\nLutz-Suter, Theodor, Mineralwasserfabrikant, Basel [tel].\n375 Bertschinger-Wild, Joh. Gust., Spezereihandlung, Lenzburg.\n  — Elisabeth, Lenzburg.\nHauri-Gränicher, Luise Wwe., Seengen.\n376 * Bertschinger-Wild, Gust., Nept.\nHenle-Näf, Anton, Korbmacher, Rastatt.\n377 Plüß-Amstuz, Joh., Kondukteur, Vordemwald.\n  — — Maria, Möbelhandlung.\nFiechter, Marie, Magd, Hottwil (Bern).\nMantel, Heinrich, Lithograph, Elgg.\n378 * Siebenmann, Rud., Part.\nPfautz-Hopp, Gustav, Coiffeurgeschäft.\nWälti-Maurer, Rud., Schneider, U.-Kulm.\nHausammann-Siegrist, Emil, Schreiner, U.-Stammheim (Zch.).\nGeissler, Elisa, Spetterin, Wilisau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41629,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1738,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:45:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p048",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p048.jpeg",
+      "bytes": 917999,
+      "sha256": "0265e8d64f29ea36f0d61c05fa70a361f9a6247f6b51c3aadeb5569e31adc564",
+      "sha256_of": "original",
+      "working_copy": "1913_p048.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:45:31+00:00"
+  }
+}

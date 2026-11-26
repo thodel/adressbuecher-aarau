@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p045",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p045.jpeg",
+    "bytes": 851802,
+    "sha256": "cdae952261e83530874ee20ebae4cfa2c97e4ff39957414e617f2296063f6268",
+    "sha256_of": "original",
+    "working_copy": "1913_p045.jpeg"
+  },
+  "text": "Haus-    — 29 —\nNr.\nZellweger-Fischer, Jak., Büchsenmacher, Teufen.\n  — Jakob, Kaufmann,\n  — Anna, Lehrerin,\n  — Marie,\nConrad, Emilie, Telephonistin, Anglikon.\n329 * Aktiengesellschaft Feldschlößchen Rheinfelden, Restaurant\n  Affenkasten (Gerber-Wüthrich) [tel].\nGerber-Wüthrich, Emil, Wirt z. Affenkasten.\nMerz, Marie, Kellnerin, Menziken.\nErnst-Pfisterer, Lina, Wwe.\n  — Aug., Bierbrauer.\n  — Fanny.\n  — Emmy.\n330 Hug-Bär, Samuel, Bäcker und Wirt. Restaurant zum Jäger-\n  stübli [tel].\nAeschbach-Kaspar, Adolf, Polizeigefreiter, Leutwil.\nFrey-Häuptli, Joh., Plakatanschläger, Biberstein.\n  — Frieda, Ladentochter,\n331 Kunz-Graf, Ernst, Konditor, Wald (Zürich) [tel].\n  — Ernst,\n  — Bertha, Ladentochter\nEgloff-Marti, Lina, Privatin, Wettingen.\n332 * Hagenbuch, Fritz, Buchbinder.\nLechner-Wirth, Emma, Wwe., Hägglingen. Ablage der chemischen\n  Waschanstalt und Färberei E. Felder-Clement, Luzern.\n  — Emmy, Ladentochter, Hägglingen.\n  — Marta,\n  — Gustav, Chemiker,\nStadler, Albert, Schirmhändler, Flawil.\nErnst, Dr. jur., August, Bez.-Gerichtspräsident.\n333 Hagenbuch-Ernst, Fritz, Buchbindermeister [tel]. Buchbinderei,\n  Papeterie und Einrahmungsgeschäft.\nNußbaum, Marie, Ladentochter, Densbüren.\nBläuer, Lilly, Linn.\n335 * Henz-Pluß, Jakob, Kaufmann.\n  Eisenhandlung: Firma: Jak. Henz & Co. [tel].\n  -von Seutter, Hans Jul., Privatier.\n  — Hermann, Kaufmann.\n336 * Henz-Pluß, Jakob, Kaufmann.\nSchenker-Gaiser, Adolf, Architekt, Däniken.\n337 Schäfer-Engel, Bruno, Messerschmied.\nDambach, Marta, Privatin, Brugg.\n338 Scherz-Mollet, Karl, Hotelier, Köniz [tel]. Hotel zum Goldenen\n  Löwen.\n  — Lydia, Köniz.\n  — Hermine,\n  — Marta,\nFrey, Joh., Hausknecht, Reiselringen (Baden).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 61641,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1680,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.02,
+    "mean_line_chars": 31.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:44:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p045",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p045.jpeg",
+      "bytes": 851802,
+      "sha256": "cdae952261e83530874ee20ebae4cfa2c97e4ff39957414e617f2296063f6268",
+      "sha256_of": "original",
+      "working_copy": "1913_p045.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:44:48+00:00"
+  }
+}

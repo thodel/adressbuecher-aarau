@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p141",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p141.jpeg",
+    "bytes": 1004505,
+    "sha256": "1f100b461fe00c0feb8ee7c54d7b6d2ea64f97035a2534bd21d0e924b71b841d",
+    "sha256_of": "original",
+    "working_copy": "1913_p141.jpeg"
+  },
+  "text": "— 99 —\nBaumann, Emil, Färber, Bottenwil. Scheibenschachen 1322.\n— Emma, Privatin, Ob.-Entfelden. Zeglistraße 1724.\n— Emma, Fabrikarbeiterin, Bottenwil. Halden 268.\n— -Volz, Emma, Wwe., Fürsprechs, Entfelderstr. 1401.\n— Emma, Entfelderstraße 1401.\n— -Wacker, Eugen, Friedensrichter und Armenpfleger.\n  Hohlgasse 1373. [tel]\n— -Hunziker, Friedr., Pferdewärter, Bottenwil. Scheibenschach. 1322.\n— -Gautschi, Fritz, Postpacker, Bottenwil. Gönhardweg 1875.\n— -Wilhelm, Fritz, Färber, Bottenwil. Tellirain 1498.\n— -Leuenberger, Gottlieb, Schneiderm., Schafisheim. Milchg. 130.\n— -Eichenberger, Herm., Färber, Bottenwil. Stritengäßchen 1533a.\n  Ida, Hohlgasse 1373.\n— -Baumann, Ida, Part., Stilli. Laurenzenvorstadt 763.\n— -Beck, Jakob, Grundbuchverwalter, Niederlenz. Buchserstr. 1601.\n— -Leutwyler, Johann, Bauamtsarbeiter, Milchgasse 131.\n  Karl, Postbeamter, Rain 507.\n— -Hemmann, Lina, Wwe., Privatin, Feerstraße 695.\n  Luise, Magd, Oberkulm. Telli 1629.\n— -Wälti, Maria, Wwe., Privatin, Bottenwil. Ziegelrain 425.\n  Marie, Handelsangestellte, Leutwil. Obere Vorstadt 545.\n  Martha, Fabrikarbeiterin, Bottenwil. Scheibenschachen 1322.\n  Martha, Handelsangestellte, Leutwil. Obere Vorstadt 545.\n  Otto, Fabrikarbeiter, Bottenwil. Halden 268.\n— -Neesser, Otto, Fabrikarbeiter, Bottenwil. Milchgasse 143.\n  Pauline, Bureaulistin, Rain 507.\n  Rosa, Fabrikarbeiterin, Bottenwil. Obere Vorstadt 519.\n  Rosa, Schuhfabrikarbeiterin, Bottenwil. Halden 268.\n  Simon, Magaziner, Bottenwil. Halden 268.\n— -Käser, Susanna, Wwe., Rain 507.\n  geb. Krauß, Ursula, Leutwil. Obere Vorstadt 545.\n  Walter, Färber, Bottenwil. Tellirain 1498.\n— & Cie., Weinhandlung, Bureau, Laurenzenvorstadt 744. [tel]\nBaumeister-Poyet, Hugo, Bankbeamter, Zürich. Bahnhofstr. 578b.\n*— -Schmuziger, Wendolin, Maßgeschäft für Zivil und Militär.\n  Bachstraße 1056.\nBaumer-Eich, Hermann, Schneider, Rheinfelden. Pelzgasse 100.\nBaumgartner, Adolf, Commis, Oensingen. Laurenzentorgasse 123.\nBaur-Suter, Bernhard, Schneidermeister, Sarmenstorf. Tuch- und\n  Maßgeschäft. Obere Vorstadt 541.\n— -Glauser, Jb., Lokomotivführer, Brugg. Bahnhofstraße 560.\n— -Suter, Xaver, Zugführer, Sarmenstorf. Obere Vorstadt 554.\nBauverwaltung, Bureau, Rathausgasse 1. [tel]\nBebié, Seline, Part., Thalwil. Jurastraße 1475. [tel]\nBechter, Ludwig, Bregenz. Hammer 190.\nBeck, Albert, Kleinmechaniker, Rohrerstraße 892.\n— -Bill, Elisabeth, Wwe., Wäscherin, Halden 276.\n— -Wenger, Ernst, Schlosser, Halden 264.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 76832,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2441,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:13:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p141",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p141.jpeg",
+      "bytes": 1004505,
+      "sha256": "1f100b461fe00c0feb8ee7c54d7b6d2ea64f97035a2534bd21d0e924b71b841d",
+      "sha256_of": "original",
+      "working_copy": "1913_p141.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:13:14+00:00"
+  }
+}

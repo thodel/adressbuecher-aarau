@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p187",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p187.jpeg",
+    "bytes": 789971,
+    "sha256": "285db8e18465fb3bca1cd6faa137cf688b58489f0a9586ad5c69457c29a3e651",
+    "sha256_of": "original",
+    "working_copy": "1901_p187.jpeg"
+  },
+  "text": "174\nWagen (öffentliche).\nFleiner (Cementbrennerei), Erlinsbacherstraße.\nSchlachthaus (Viehwage).\nSiebenmann & Cie.* Bahnhofstraße.\nSteiner, Samuel, Laurenzenvorstadt.\nWachsfabrikanten.\nMaurer, Emil,* zum Kreuz, jenseits der Aare 1247.\nWaffenhandlung.\nBrast, Emma und Ida,* Holzmarkt 318.\nWagner.\nBertschi, Adolf, Bahnhofstraße 633.\nLaury, Jakob, Asylstraße 1144.\nWassmer, Jakob, Rain 497.\nWäscherinnen.\nBalmer, Marie und Karolina, Laurenzentorgasse 118.\nBertschi-Wächter, Maria, Rathausgasse 29.\nBruder, Verena, Golattenmattgasse 256.\nDietiker, Emma, Adelbändli 177.\nFricker-Häusermann, Verena, Milchgasse 147.\nHächler-Peter, Frau, Kirchgasse 41.\nHäfller-Brunnhofer, Elise, Halden 267.\nKäser-Leder, Nanette, Entfelderstraße 1400.\nLienhard-Baumann, Emilie, hinter dem Bahnhof 1007.\nPeyer-Roos, Wilhelmine, Kirchhof 162.\nSchatzmann-Häring, Elisabeth, chemische Wäscherei, Asylstraße 1147.\nSiegenthaler-Hirt, Elise, Hammer 189.\nSuter, Elise, chemische Wäscherei, Kasinogasse 658.\nWeingärtner-Spiegelberg, Schneiders Frau, Adelbändli 167.\nZumbühl-Peyer, Sophie, Kirchhof 162.\nWaschanstalten.\nTrefzger-Schöndli, Nepomukina, Färbergässchen 237.\nWasserwagenfabrikation.\nKlingelfuß, Joh. Friedr.,* Mechaniker, im Weinberg 1283.\nWeinhandlungen.\nBaumann, Gebr.,* Laurenzenvorstadt 745. (Siehe Inserat Seite 28.)\nBrügger-Sommerhalder, Christian, hinter dem Bahnhof 1008. (Vor-\n  zügliche Veltliner- und Neuenburger-Weine. Prima Referenzen.)\nFecht, Julius,* Asylstraße 1146.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 83450,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1462,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.46,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:11:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p187",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p187.jpeg",
+      "bytes": 789971,
+      "sha256": "285db8e18465fb3bca1cd6faa137cf688b58489f0a9586ad5c69457c29a3e651",
+      "sha256_of": "original",
+      "working_copy": "1901_p187.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:11:02+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p270",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p270.jpeg",
+    "bytes": 788777,
+    "sha256": "4ae42fb5361354108f28a1c7ea6e27010af0ed026c3dcc5a005ee8dfb79bbc15",
+    "sha256_of": "original",
+    "working_copy": "1913_p270.jpeg"
+  },
+  "text": "— 236 —\nWaffenhandlungen.\n*Brast, Emma und Ida. Holzmarkt 318.\n  Sommerhalter, Hermann. Hintere Vorstadt 368.\nWagen (öffentliche).\n*Lagerhäuser der Zentralschweiz [tel] Bahnhofstraße.\n  Schlachthaus (Viehwaqe).\n*Wyentalbahn A. G. [tel] Hintere Bahnhofstraße.\nWagner.\n  Laury, Jakob. Asylstraße 1145.\n  Waßmer, Jakob. Rain 497.\nWarenhäuser.\n* Dreifuß-Guggenheim, Emil. Französische Warenhalle.\n  Graben 207.\n*Globus [tel] Bahnhofstraße 632.\n*Goldstein & Cie. [tel] Metzgergasse 73.\n*Magazine zur Stadt Paris [tel]. Hintere Vorstadt 360.\n  Pruschi & Cie. Vordere Vorstadt 353.\nWaschanstalten.\n  Trefzer-Ziesel, Gustav. Hinter dem Platz 237.\nWaschmaschinenfabriken.\n*Dünner-Schüpbach, Joh. [tel] Rohrerstraße 1690.\nWasserwagenfabrikation.\n*Klingelfuß-Widmer, Joh. Friedr. [tel] Weinberg 1283.\nWeinhandlungen und Spirituosen.\n*Baumann & Cie. [tel] Laurentzenvorstadt 744.\n*Fecht & Cie. [tel] Hintere Vorstadt 373.\n*Frey-Seiler, F. [tel] Laurentzenvorstadt 738.\n  Gerodetti, Virg., Vater. Hintere Bahnhofstraße 1041.\n*Lüscher-Gloor, Karl [tel]. Pelzgasse 106 a.\n  Nadler-Eckert, August [tel]. Bahnhofstraße 555.\n*Schwarz & Cie., en gros u. en détail [tel]. Hintere Bahnhofstr. 1833.\n  Siebenmann-Schaffner, Otto. Kasinostraße 645.\n*Thut-Hilty, Gottlieb [tel]. Bachstraße 1076.\n*Vidiella-Tarrats, Augusta [tel]. Laurentzenvorstadt 738.\n*Von Däniken E. & Co. [tel] Pelzgasse 106.\n*Wüthrich-Zulauf, Otto, z. „Storchen“ [tel]. Laurentzentorgasse 118.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 13720,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1441,
+    "lines": 37,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0021,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:15:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p270",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p270.jpeg",
+      "bytes": 788777,
+      "sha256": "4ae42fb5361354108f28a1c7ea6e27010af0ed026c3dcc5a005ee8dfb79bbc15",
+      "sha256_of": "original",
+      "working_copy": "1913_p270.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:15:04+00:00"
+  }
+}

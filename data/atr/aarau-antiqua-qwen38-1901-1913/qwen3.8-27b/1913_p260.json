@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p260",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p260.jpeg",
+    "bytes": 841148,
+    "sha256": "a50a4c14bbc6313614092ecc82382c52159f77f2dfb4854d1ded10164c5b4700",
+    "sha256_of": "original",
+    "working_copy": "1913_p260.jpeg"
+  },
+  "text": "— 226 —\nPatentanwälte.\n*Dr. Klingler & Geyer [tel]. Bahnhofstraße 578 b.\nPelzwarenfabrikation.\n*Sperlich, Theodor [tel]. Vordere Vorstadt 323.\nPensionen und Kostgebereien.\nBallmer-Egloff, Lina. Laurenzentorgasse 123.\nBuchheim-Lüscher, Maria, Witwe. Ziegelrain 407.\nDösekel, Mina. Bahnhofstraße 608.\nFaccani, Giacinto. Stadthöfli 84 a und 85.\nMauch-Siegrist, Lina, Witwe. Rain 447.\nPension Birkenhof E. G. Buchserstraße 924.\nWüthrich-Dambach, Antoinette, Witwe. Rathausgasse 11.\nPfarrer.\nSiehe Geistliche.\nPferdemetzgerei.\nPferdemetzgerei Ober-Entfelden, Filiale. Pelzgasse 99.\nPflästerer.\nHafner, Eugen. Kasinostraße 662.\nZimmerli, Wilhelm, in U.-Entfelden. Bureau Metzgergasse 79.\nPlakatgesellschaft.\nAllgemeine Plakatgesellschaft. Rathausgasse 1.\nPlazierungsbureaux.\nKantonales aargauisches Arbeitsamt [tel]. Holzmarkt 317.\nRiner-Hächler, Anna [tel]. Hintere Vorstadt 363.\nPost.\n  Das Hauptpostbureau am Bahnhof ist geöffnet an Werktagen\n  vom 1. April bis 1. Oktober, von morgens 7 Uhr bis abends 8 Uhr,\n  und vom 1. Oktober bis 1. April von morgens 1/2 8 Uhr bis abends\n  8 Uhr. An Sonntagen vormittags von 9—11 Uhr.\n  Das Filialbureau in der Stadt, Metzgergasse 72, ist geöffnet\n  an Werktagen vom 1. April bis 1. Oktober von morgens 7 Uhr bis\n  abends 8 Uhr, und vom 1. Oktober bis 1. April von morgens\n  1/2 8 Uhr bis abends 8 Uhr. An Sonntagen vormittags von 9—11 Uhr.\n  (Samstags u. an Vorabenden von staatlichen Feiertagen nur bis 7 Uhr.)\nPulververkauf.\n*Brast, Geschwister. Holzmarkt 318.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28745,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1499,
+    "lines": 37,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.05,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:12:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p260",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p260.jpeg",
+      "bytes": 841148,
+      "sha256": "a50a4c14bbc6313614092ecc82382c52159f77f2dfb4854d1ded10164c5b4700",
+      "sha256_of": "original",
+      "working_copy": "1913_p260.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:12:33+00:00"
+  }
+}

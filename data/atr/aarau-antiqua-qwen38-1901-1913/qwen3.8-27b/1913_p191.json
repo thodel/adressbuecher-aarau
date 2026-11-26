@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p191",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p191.jpeg",
+    "bytes": 931769,
+    "sha256": "44e628850d5ee53c31a8d1622cec00ce2e323815f5416918273020f434033405",
+    "sha256_of": "original",
+    "working_copy": "1913_p191.jpeg"
+  },
+  "text": "— 149 —\nMeyer, Jean, Metzger, Dagmersellen.   Ziegelrain 428.\n— -Fäs, Johann, Postbeamter, Dintikon.   Rohrerstraße 892.\n— Josef, Schneider, Wohlen.   Rain 497.\n— -Märki, Josef, Lagerhausdirektor, Buchs.   Bahnhofstraße 579.\n— Klara, Bureaustin, Rheinfelden.   Buchserstraße 984.\n— -Bergmann, Dr., Otto, Fürsprech und Notar, Rheinfelden [tel].\n  Bahnhofstraße 1812.\n— Pauline, Hilfikon.   Erlinsbacherstraße 1270.\n— -Reist, Rudolf, Kaufmann, Sursee.   Hinteres Zelgli 1869.\n— -Roth, Verena, Part., Dintikon.   Graben 218.\nMichel, Adolf, Kaufmann, Köniz.   Buchserstraße 1547.\n— Alfred, Postbeamter, Guggisberg.   Rohrerstraße 892.\n— -Schöni, Rosina, Ladentochter, Köniz.   Bahnhofstraße 632.\nMichelini-Avanzolini, Gregorio, Handlanger, Saludecio (Italien).\n  Milchgasse 138.\nMiescher-Zimmerli, Walter, Bahnbeamter W. T. B., Walkringen.\n  Torfeldstraße 943.\nMilitärkantine [tel].   Zeughausstraße 673.\nMilitärkanzlei [tel].   Zeughausstraße 678.\nMinder-Feuz, Karoline, Wäscherin, Huttwil.   Pelzgasse 102.\nMöller-Reine, Ernst, Werkzeugmacher, Zella (Sachsen).   Scheiben-\n  schachen 1331.\nMösch-Strebel, Karl, mechan. Kunst- und Bauschlosserei, Frick [tel].\n  Obere Vorstadt 547.\n— -Keller, Karl, Privatier, Frick.   Obere Vorstadt 547.\n— -Gaßler, Marie, Witwe, Privatin, Frick.   Laurenzenvorstadt 791.\nMock-Bünzli, Karl, Kaufmann, Pfäffikon.   Hinteres Zelgli 1837.\nMollet-Urben, Gottfried, Schneider, Biezwil.   Tellstraße 1611.\n— -Fäs, Joh., Schmiedemeister, Huf- und Wagenschmiede, Unter-\n  Ramsern.   Rain 501.\nMontandon-Jequier, Paul, Kaufmann, Le Locle (Neuchâtel).   Erlins-\n  bacherstraße 1302.\nMorach-Müller, Jakob, Werkführer, Rothacker (Soloth.).   Küttiger-\n  straße 1257.\n— Irma, Rothacker (Solothurn).   Küttigerstraße 1257.\n*Morath-Stirnemann, Wendolin, Kaufmann, Schlageten (Baden) [tel].\n  Glas- und Porzellanhandlung.   Rathausgasse 3 und 4.\n— — Wendolin, Kaufmann, Glas- und Porzellanlager, Bureau [tel].\n  Bahnhofstraße 832.\nMorf-Dreher, Johann, Schneider, Bisikon.   Hammer 190.\nMorgenthaler, Adolf, Knecht, Attelwil.   Bleichemattstraße 1728.\nMoritz-Heine, Robert, Lithograph, Halle (Preußen).   Wiesen-\n  straße 1735.\n*Moro-Simon, F., Zürich [tel]   Colonialwaren, zum billigen Laden.\n  Metzgergasse 81.\nMoser, Friedrich, Zeichner, Altstätten.   Kasinostraße 641.\n— -Ringgeli, Jakob, Reisender, Remigen.   Rohrerstraße 879.\n— Gerteis, Johann, Stanzer, Röthenbach.   Wiesenstraße 1292.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 40283,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2408,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:40:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p191",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p191.jpeg",
+      "bytes": 931769,
+      "sha256": "44e628850d5ee53c31a8d1622cec00ce2e323815f5416918273020f434033405",
+      "sha256_of": "original",
+      "working_copy": "1913_p191.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:40:30+00:00"
+  }
+}

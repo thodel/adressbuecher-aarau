@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p224",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p224.jpeg",
+    "bytes": 959787,
+    "sha256": "29c3c5e394507cc28fbf79a717a7e10b9fec9a729f7fef3ef53336b8cee672af",
+    "sha256_of": "original",
+    "working_copy": "1913_p224.jpeg"
+  },
+  "text": "— 182 —\n*Wernli-Mumprecht, Fritz, Schreinermeister, mechan. Möbelschrei-\n  nere[i] [tel]. Obere Vorstadt 513.\n— -Häfeli, Gottfried, Tapeziermeister, Thalheim. Ziegelpain 420.\n— -Senn, Gottlieb, Buchhalter, Thalheim. Flößerstraße 1189.\n— -Dietiker, Jakob, Fabrikarbeiter, Thalheim. Bachstraße 1056.\n  Telli 871.\n— -Hächler, \" \" \"\n— -Marti, Jean, Werkmeister, Thalheim. Buchserstraße 1818.\n— Johann, Privatier, Thalheim. Pelzgasse 105.\n— -Bolliger, Johann, Stadtarbeiter. Flößerstraße 1712.\n— -Käser, Johann, Schreiner, Thalheim. Scheibenschachen 1334.\n— -Urech, Joh. Jak., Taglöhner, Thalheim. Telli 1636.\n— -Wernli, Johann, Magaziner, Thalheim. Rohrerstraße 878.\n— Johannes, Taglöhner, Thalheim. Telli 871.\n— -Wernli, Julius, Lagerhaus-Kassier. Buchserstraße 1542.\n— -Adel, Karolina, Witwe, Privatin, Thalheim. Ziegelpain 424.\n— -Reinhard, Kaspar, Privatier, \" Laurenzen vorst. 712.\n— -Schmidli, \" Stadtarbeiter, \" Zollrain 57.\n— -Lienhard, Maria, Wwe., Thalheim. Bahnhofstraße 591.\n— -Glauer, \" \" \" Holzmarkt 321.\n— -Häflliger, Marie, \" \" Stritengäßchen 1205.\n— Marie, Thalheim. Scheibenschachen 1323.\n— -Wernli, Marie, Haushälterin, Thalheim. Laurenzen vorstadt 714.\n— Martha, Thalheim. Laurenzen vorstadt 712.\n— Oskar, Gießer, Thalheim. Telli 871.\n— Otto, Schriftsetzer, Thalheim. Scheibenschachen 1336.\n— Rosa, Glätterei. Bahnhofstraße 591.\n— Rosa, Packerin, Thalheim. Telli 1636.\n— -Treier, Rosa, Wwe., Taglöhnerin, Thalheim. Flößerstraße 1164,\n— -Bolliger, Sam., Rangierleiter S. B. B. Zelligstraße 1804.\n— -Sommerhalder, Samuel, Schneider, Thalheim. Westallee Neu-\n  gut 1497.\nWernly-Irninger, Fr., Versicherungsinspektor, Turgi. Schönenwerder-\n  straße 1452.\n— Martha, Lehrerin, Turgi. Schönenwerderstraße 1452.\n— -Kraft, Rudolf, reform. Stadtpfarrer, Thalheim. Milchgasse 141.\nWespi-Zurlinden, Anna, Witwe. Entfelderstraße 1378.\n*— Karl, Ofenfabrik, keramische Wand- u. Bodenbeläge. Bureau [tel].\n  Obere Vorstadt 540.\n— Karl, Hafnermeister. Entfelderstraße 1378.\nWidmann-Zürcher, Karl Maria, Architect, München. Jenseits der\n  Aare 1246.\nWidmer-Fischer, Adolf, Monteur, Gränichen. Ziegelpain 409.\n— -Bodmer, Anna, Privatin, Hausen. Schmiedgasse 379.\n— -Nadler, Arnold, Privatithograph, Gränichen. Bachstraße 1595.\n— Bertha, Damenschneiderin, Gränichen. Laurenzen vorstadt 713.\n— Carolina, Privatin, Freienwil. Vordere Vorstadt 323.\n— -Sutter, Emil, Schneider, Brittnau. Pelzgasse 104.\n— -Reimann, Emma, Witwe, Privatin. Bachstraße 1826.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 160875,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2446,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:02:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p224",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p224.jpeg",
+      "bytes": 959787,
+      "sha256": "29c3c5e394507cc28fbf79a717a7e10b9fec9a729f7fef3ef53336b8cee672af",
+      "sha256_of": "original",
+      "working_copy": "1913_p224.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:02:08+00:00"
+  }
+}

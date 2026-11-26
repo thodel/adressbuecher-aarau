@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p196",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p196.jpeg",
+    "bytes": 991949,
+    "sha256": "2195918dca719c0683e47fb646effcd6b414a19ac329b88cec99410918b85baf",
+    "sha256_of": "original",
+    "working_copy": "1913_p196.jpeg"
+  },
+  "text": "— 154 —\n*Ohl-Müller, Gustav, Fabrikant, Barmen (Preußen). Entfelder-\n  straße 1618.\n— Guex, Karl, Kaufmann, Barmen (Preußen). Gönhardweg 1826.\nOrtsgruppe Aarau des schweiz. Bundes abstinenten Frauen. Alkohol-\n  freies Restaurant Helvetia [tel]. Zeughausstraße 666.\nOsterhellweg, Henrik, Zahntechniker, Amsterdam. Pestalozzi-\n  straße 1540.\nOsterwalder, Adolf, Stettfurt. Scheibenschachen 1326.\n— Rudolf, Sohn, Zuschnieder, Stettfurt. Scheibenschachen 1326.\n— -von Arx, Rudolf, Zuschnieder, Stettfurt. Scheibenschachen 1326.\nOtt-Häusermann, Herm., Sekretär, Biberstein. Entfelderstr. 1397.\n*— -Ramp, Paul, Zentralheizungsfabrikant, Zell (Zürich). Zeughaus-\n  straße 666.\n— Paul, Techniker, Zell (Zürich). Zentralheizungsfabrik, Bureau\n  und Werkstatt [tel]. Rain 447.\nOtti-Roth, Dr. Johann, Professor, Oberwil (Bern). Laurenzenvor-\n  stadt 1745.\nPamlitschka-Schlögel, Jakob, Fabrikarbeiter, Wien. Kirchgasse 34a.\nPaneck, Ignaz, Schuhmachermeister, Mähren. Spezial-Schuhmacher-\n  werkstätte. Schloßplatz 198.\nParolini-Bellini, Saverio, Lezzeno (Italien). Südfrüchten- und\n  Spezereihandlung. Adelbändli 166.\nPasotti-Muratori, Giuseppe, Handlanger, Saludecio (Itl.). Halde 309.\nPasquini-Rasi, Adolfo, Handlanger, Diomano (Italien). Golatten-\n  mattgasse 256b.\nPathaux, Numa, Postbeamter, Neuenburg. Zelglistraße 1865.\nPatentbureau kantonales [tel]. Hintere Vorstadt 362.\nPavesio-Theez, Peter, Kostümlager, Fornio (Italien). Laurenzentor-\n  gasse 118.\nPeloli-Castelnovo, Pietro, Wirt, Nessio (Italien). Kronengasse 49.\nPelzmann-Roth, Karl, Schneider, Deutsch Kallenburg. Metzgergasse 75.\nPension Birkenhof A. G. Buchserstraße 924.\nPeter-Gerber, Arthur, Ingenieur, Aarburg. Obere Vorstadt 548.\n— -Glaus, Marie, Bonndorf (Baden). Obere Vorstadt 546.\nPeyer-Roß, Wilhelmine, Witwe, Wäscherin, Lostorf (Solothurn).\n  Kirchhof 162.\nPfähfli, Martha, Buchhalterin, Eggwil. Bahnhofstraße 588.\nPfammatter, Theophil, Kaufm., Eischoll (Wallis). Spitalgäßli 1777.\nPfarrhaus katholisches. Schmiedgasse 383.\nPfau-Bertolf, Joh., Jak., Prokurist, Schaffhausen. Rain 457.\nPfau-Bleuler, Joh. Jb., Privatiér, Schaffhausen. Bahnhofstraße 574.\n— Marie, Privatin, Schaffhausen. Bahnhofstraße 574.\nPfautz-Hopp, Gustav, Coiffeurgeschäft. Hintere Vorstadt 378.\n— — Gustav, Coiffeur, Calw (Württemberg). Milchgasse 139.\nPfeil-Heller, Richard, Coiffeurgeschäft [tel]. Bahnhofstraße 575.\nPfenninger-Baumer, Jos., Dr., Chemiker, Büron [tel]. Bahnhofstr. 610.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 46800,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2424,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:42:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p196",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p196.jpeg",
+      "bytes": 991949,
+      "sha256": "2195918dca719c0683e47fb646effcd6b414a19ac329b88cec99410918b85baf",
+      "sha256_of": "original",
+      "working_copy": "1913_p196.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:42:14+00:00"
+  }
+}

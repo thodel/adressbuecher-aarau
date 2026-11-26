@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p057",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p057.jpeg",
+    "bytes": 920405,
+    "sha256": "953c2bc1435035d34a2c8db59ecf5fb9e45a1941c365efcbd1283f5493602d28",
+    "sha256_of": "original",
+    "working_copy": "1913_p057.jpeg"
+  },
+  "text": "— 39 —\nHaus-\nNr.\n492 Hemmeler-Biedermann, Aug. Fried., Kaufmann.\n  Burkhart, Lina, Coiffeuse.\n491 * Westfeld-Spitзли, Ida Wwe., Erben.\n489 Fahrländer-Johannes, Eug., Ingenieur.\n  Knaus-Schmuziger, Herm., Wagenmaler, Freudenstadt. Maler-\n  werkstatt Ziegelfrain Nr. 406.\n  Hochstraßer, Anna Marie, Damenschneiderin, Auenstein.\n  Fahrländer-Fisch, Hermann, Dr., Zahnarzt. Zahnärztliches\n  Atelier Zeughausstr. 666.\n461 Märki-Haller, Gottlieb, Mühlebauer.\n  — Lina Elise, Damenschneiderin.\n  Nüsperli-Gysi, Friedr., Postbeamter.\n  Wehrli-Frey, Joh., Briefträger, Küttigen.\n463 * Schweiz. Bundesbahnen.\n  Fischer-Wilhelm, Joh., Bahnwärter, Ofringen.\n483 Thut-Meister, Emil, Ziegeleibesitzer [tel].\n  Meister-Gysi, Maria Anna, Wwe.\n  Urech, Rud., Fuhrknecht, Nied.-Hallwil.\n1565 Siebenmann-Hodel, Fritz, Eisenhändler. Ladengeschäft Rain 436.\n  — Emmy.\n  — Marie, Modistin.\n  Waldmeyer-Gautschi, Alfred, Kaufmann, Möhlin.\n\nSchönenwerderstrasse.\n\n464 * Berner, Wwe., Schreiners.\n  Fehlmann-Müller, Paul, Dachdeckermeister, Boniswil.\n  Häusler-Heß, Gottfr., Bedienter, Gondiswil.\n487 † A. Wirz-Ries & Cie. [tel]. Fensterglas-, Farbwaren-, Chemikalien-\n  und Drogenhandlung, Wohnung Ziegelfrain 427.\n466 Pfister-Keller, Eduard, Bahnbeamter, Rorbas.\n  Märki-Ammann, Hans, Schneider, Mandach.\n  Ammann, Elise, Fabrikarbeiterin, Seon\n  Kocher-Keller, Ernst, Portier, Täuffelen.\n  Lüscher, Lisette, Weißnäherin, Muhen.\n  — Rosette, Muhen.\n  Camisasca-Ruf, Franz, Privatier.\n1823 * Suter-Keller, Julius, Spenglermeister.\n  Enz-Suter, Gottfr., Kaufmann, Weinfelden.\n1539 Wietlisbach-Walther, Burkhard, Postbureauchef.\n1452 Hässig-Siegle, Julius, Restaurant zum Bellevue [tel].\n  — Bertha.\n  Wernly-Irniger, Fr., Versicherungsinspektor, Turgi.\n  — Martha, Lehrerin, Turgi.\n1732 Albrecht-Wildberger, Otto, Polizeilieutenant, Hemishofen\n  (Schaffhausen) [tel].\n  Groß-Berditschewsky, Paul, Dr., Kantonsstatistiker, Rietheim.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 31673,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1906,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:48:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p057",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p057.jpeg",
+      "bytes": 920405,
+      "sha256": "953c2bc1435035d34a2c8db59ecf5fb9e45a1941c365efcbd1283f5493602d28",
+      "sha256_of": "original",
+      "working_copy": "1913_p057.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:48:51+00:00"
+  }
+}

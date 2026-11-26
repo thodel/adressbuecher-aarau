@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p204",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p204.jpeg",
+    "bytes": 694666,
+    "sha256": "67f3e1c95701a802127e5cda49fcf295d180203c5336e759c5fc2ff18fd8413c",
+    "sha256_of": "original",
+    "working_copy": "1901_p204.jpeg"
+  },
+  "text": "191\nArbeiter-Krankenkasse.\nSterbe- und Zuschußkasse für Buchdrucker.\nKrankenkasse des Grütlivereins.\nDienstbotenkrankenkasse.\nWohltätige Vereine.\nHülfsgesellschaft in Aarau.\nArmen Erziehungsverein Aarau.\nStädtischer Fünfrappenverein.\nVerein gegen Hausbettel.\nFrauen-Arbeitsverein für Arme.\nDeutscher Hilfsverein Aarau.\nKranken-Suppen-Anstalt.\nMäßigkeitsverein des Blauen Kreuzes, Sektion Aarau.\nAargauischer Taubstummenverein.\nFreimaurerloge zur „Brudertreue“.\nSchwestern-Verein der Loge zur „Brudertreue“.\nReligiöse Vereine.\nChristlicher Jünglings- und Männerverein Aarau.\nVerband der christlichen Jünglings- und Männervereine des Kan-\n  tons Aargau.\nSchweizerische christlich-soziale Vereinigung.\nAargauische Bibelgesellschaft.\nc. Gesellige Vereine.\nMusikalische Vereine.\nCäcilenverein Aarau.\nSängerbund Aarau.\nEvangelischer Gesangverein.\nChristkatholischer Kirchenchor.\nRömisch-katholischer Kirchenchor.\nStadtmusikgesellschaft Aarau.\nMusikgesellschaft Concordia.\nOrchester-Verein.\nMilitärische Vereine.\nOffiziersgesellschaft.\nUnteroffiziersverein.\nArtillerverein.\nMilitär-Sanitäts-Verein von Aarau und Umgebung.\nWasserfahrverein.\nSchützengesellschaften.\nSchützengesellschaft Aarau.\nFreier Schießverein.\nFlobert-Schießverein.\nSchützengesellschaft des Grütlivereins.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 26594,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1267,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 27.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:16:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p204",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p204.jpeg",
+      "bytes": 694666,
+      "sha256": "67f3e1c95701a802127e5cda49fcf295d180203c5336e759c5fc2ff18fd8413c",
+      "sha256_of": "original",
+      "working_copy": "1901_p204.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:16:47+00:00"
+  }
+}

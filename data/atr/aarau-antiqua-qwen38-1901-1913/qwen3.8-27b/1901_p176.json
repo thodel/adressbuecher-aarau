@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p176",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p176.jpeg",
+    "bytes": 768969,
+    "sha256": "a36b158b92098a6eb4a2a326cd1411b0eabd70c732d8320b3a3e6d0f94da4f6c",
+    "sha256_of": "original",
+    "working_copy": "1901_p176.jpeg"
+  },
+  "text": "163\nPianos und Pianofortes.\n(Siehe Klavierhandlungen.)\nPost.\n  Das Hauptpostbureau am Bahnhof ist geöffnet an Werktagen vom 1. April\nbis 1. Oktober, von morgens 7 Uhr bis abends 8 Uhr, und vom 1. Oktober bis\n1. April von morgens halb 8 Uhr bis abends 8 Uhr. An Sonntagen vormittags\nvon 8 bis 10 Uhr und nachmittags von 3 bis 5 Uhr.\n  Das Filialbureau in der Stadt, Metzgergasse 72, ist geöffnet an Werktagen\nvom 1. April bis 1. Oktober von morgens 7 Uhr bis abends 8 Uhr und vom\n1. Oktober bis 1. April von morgens halb 8 Uhr bis abends 8 Uhr. An Sonn-\ntagen vormittags von 10 bis 12 Uhr und nachmittags von 1 bis 3 Uhr.\nPhotographische Anstalten.\nGysi & Cie.,* vordere Vorstadt 345.\nSchatzmann, Albert, Kasinost-raße 644.\nWolfsgruber, Gottfried, Bahnhofstraße 608. (Siehe Inserat Seite 23.)\nPhotographische Bedarfartikel.\nFrey & Co., Tellli 840. (Siehe Inserat Seite 31.)\nPräparateurs.\nZellweger, Oskar, Hammer 190.\nPulververkauf.\nBrast, Geschwister,* Holzmarkt 318.\nQuincailliewaren.\nBaumann, Georg, Graben 215.\nHemmeler & Cie.* (en gros Geschäft), hintere Vorstadt 373.\n— -Stahl, J.,* Rathausgasse 12.\nMarti, Hilda Flora, Metzgergasse 65.\nMorath, Wendolin,* Rathausgasse 3.\nVonfelten-Willimann,* Kronengasse 46.\nWetter & Cie.,* Magazin Globus, obere Vorstadt 554.\nRechtsagenten.\n(Siehe Inkassogesäfte.)\nReisszeugfabrikanten.\nGysi & Co.,* vordere Vorstadt 345.\nHommel, F. A.,* Laurenzenvorstadt 763. (Siehe Inserat Seite 15.)\nKern & Cie.,* Ziegelrain 400.\nRöhrenfabriken.\n(Siehe Fabrikationsgeschäfte.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 33015,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1504,
+    "lines": 38,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.5,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:06:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p176",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p176.jpeg",
+      "bytes": 768969,
+      "sha256": "a36b158b92098a6eb4a2a326cd1411b0eabd70c732d8320b3a3e6d0f94da4f6c",
+      "sha256_of": "original",
+      "working_copy": "1901_p176.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:06:34+00:00"
+  }
+}

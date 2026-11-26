@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p149",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p149.jpeg",
+    "bytes": 889422,
+    "sha256": "1835cfb78638dea3c18efc7eabc4d29038cf466f8d8ca7c78e50d569108e6202",
+    "sha256_of": "original",
+    "working_copy": "1901_p149.jpeg"
+  },
+  "text": "136\nFricker-Wirz, Friedrich, Rain 434a.\n  Hauptagentur der Lebensversicherungsbank für Deutschland in Gotha.\nHagenbuch, Charles, Rain 429.\n  Hauptagentur der Mannheimer Spiegelglasversicherungsgesellschaft.\nHagenbuch-Haywood, Gottlieb, Laurenzenvorstadt 791.\n  Agentur der Feuer- und Lebensversicherungsgesellschaft der „Northern\n  Assurance Company London“. (S. Inserat Seite 4.)\nHaßler, F., Rohrerstraße 882.\n  Vertreter der New-York S. J. Co. (S. Inserat Seite 5.)\nHoffmann-Gamper, Emil, Kaufmann, Feerstraße 694. (S. Inser. S. 14.)\n  Generalagentur d. „Schweiz. Allg. Versicherungaktiengesellschaft in Zürich.\n  Hauptagentur der Zürcher allgem. Unfall- und Haftpflichtversicherungs-\n  Aktiengesellschaft. Agentur der Lebensversicherungs- und Ersparnisbank\n  in Stuttgart. Geschäftsführer der Sektion Aarau des schweizerischen Ver-\n  bandes Kreditreform.\nKeller, Andreas, Bachstraße, Herzoggut 1097.\n  Hauptagentur der schweiz. Mobiliarversicherungsgesellschaft in Bern.\nSchneider-Brucker, Ferd., Bahnhofstraße 591. (S. Inserat S. 4 u. 14.)\n  Haupt-Agentur der „Caisse Paternene“, Lebensversicherungs-Gesellschaft\n  in Paris. — Haupt-Agentur der „l’Union“, Versicherungsgesellschaft gegen\n  Feuerschaden in Paris.\nStephani, Alfred, jenseits der Aare 1246.\n  Generalagentur der Versicherungsgesellschaft „Allianz“ in Berlin. Haupt-\n  Agentur der „Urbaine“ in Paris.\nWildi-König, Rud., vordere Vorstadt 353. (S. Inserat Seite 6.)\n  Generalagentur der Basler Lebens- und Unfallversicherungsgesellschaften.\nWindisch, Sl., Laurenzenvorstadt 765. (Siehe Inserat Seite 12.)\n  Generalagentur der schweiz. Lebensversicherungs- und Rentenanstalt in\n  Zürich.\nWirth, Franz,* Metzgergasse 81. (Siehe Inserat Seite 13 u. 29.)\n  Lebens- und Unfall-versicherung. Auswanderung.\nWyder-Brast, A, Rain 454.\n  Agentur der nordischen Feuersversicherungsgesellschaft in London. An-\n  noncen-Expedition für Rud. Mosse in Zürich. Generalagentur der Union\n  „Suisse“, Glas- und Wasserversicherung.\nWyder, Jul.* Notar, Rathausgasse 4.\n  Hauptagentur der Lebensversicherungsgesellschaft „La National“ in Paris.\n  Agentur der schweiz. Hagelversicherungsgesellschaft in Zürich.\nZschokke, Hermann, Entfelderstraße 1388.\n  Generalagentur der Basler Versicherungsgesellschaft gegen Feuerschaden\n  für die Kantone Aargau, Solothurn und Zug, Generalagentur der Basler\n  Transport-Versicherungsgesellschaften für den Kanton Aargau.\nApotheker.\nKeusch, Jos. Karl,* vordere Vorstadt 348.\nJung, Ludwig,* Rathausgasse 7. (Siehe Inserat Seite 17.)\nWeibezahl, Leonhard,* Rathausgasse 6.\nWyder, Konrad,* Rathausgasse 14.\nArchitekten.\nAlbertini, Christ. Hugo, Hochbaumeister, v. Chur, Gönhardfeldw. 1448.\nAmmann, Robert, Feerstraße 681.\nBuholzer, Julius, Feerstraße 691.\nHaßler, Albert, Stadtbaumeister, Rain 457.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 77033,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2772,
+    "lines": 53,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.26,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:56:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p149",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p149.jpeg",
+      "bytes": 889422,
+      "sha256": "1835cfb78638dea3c18efc7eabc4d29038cf466f8d8ca7c78e50d569108e6202",
+      "sha256_of": "original",
+      "working_copy": "1901_p149.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:56:03+00:00"
+  }
+}

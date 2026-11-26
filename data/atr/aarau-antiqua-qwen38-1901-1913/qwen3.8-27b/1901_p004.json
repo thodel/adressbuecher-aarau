@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p004",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p004.jpeg",
+    "bytes": 595207,
+    "sha256": "d9809c803b6c87af45c622ae77d50accd352fced5659f7c002d306f4ebdaf468",
+    "sha256_of": "original",
+    "working_copy": "1901_p004.jpeg"
+  },
+  "text": "Zentralstelle für deutsche\nPersonen- u. Familien-Geschicht\nLeipzig\nAdressbuch\nder\nStadt Aarau\n1901\nX. Ausgabe.\nBearbeitet\nvon\nG. Vogel,\nPolizeilieutenant in Aarau.\nBern,\nVerlag der Polytechnischen Verlagsanstalt A. G.\nAarau,\nDruck von H. R. Sauerländer & Co.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29219,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 258,
+    "lines": 16,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 15.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0078,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T10:58:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p004",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p004.jpeg",
+      "bytes": 595207,
+      "sha256": "d9809c803b6c87af45c622ae77d50accd352fced5659f7c002d306f4ebdaf468",
+      "sha256_of": "original",
+      "working_copy": "1901_p004.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T10:58:44+00:00"
+  }
+}

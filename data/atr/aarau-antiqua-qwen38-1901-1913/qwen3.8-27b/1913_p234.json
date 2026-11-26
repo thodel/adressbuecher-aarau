@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p234",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p234.jpeg",
+    "bytes": 902685,
+    "sha256": "c788ed9a9776717537b0666f562b30909547a02e03ac3bb1b7c9f721fcfbd4a5",
+    "sha256_of": "original",
+    "working_copy": "1913_p234.jpeg"
+  },
+  "text": "— 200 —\nAgenturen.\n*Gerber, Hans, Hotelier, Agentur des Norddeutschen Lloyd Bremen\n  und der Continental Bodega. [tel] Bahnhofstraße 575.\nGloor-Steiner, Generalagent der Schweiz (La Suisse) [tel].\n  Graben 217.\nHoffmann-Gamper, Emil, Kaufmann, Versicherungsagent [tel]. General-\n  agentur der „Zürich“, Allgemeine Unfall- und Haftpflichtver-\n  sicherungsgesellschaft und Stuttgarter Lebensversicherung. Feer-\n  straße 694.\nKeller-Jäggi, Andreas, Hauptagent der Schweiz. Mobiliarversicher-\n  ungsgesellschaft Bern. [tel]. Bachstraße 1097.\nLauri-Bläuer, Friedrich, Agent. Stritengässchen 1152.\nMerz, J., Coiffeur, Agentur für Auswanderung Compagnie Trans-\n  atlantique Paris-Le Havre-New-York. Bahnhofstraße 621.\n*Ritzmann-Anderhub, Jakob, Generalagent. [tel]. Generalagentur der\n  Helvetica, Versicherungsgesellschaften (Feuer und Transport) in\n  St. Gallen. Oberholzstraße 470.\nStephani-Windisch, Alfred, Versicherungsinspektor. Erlinsbacher-\n  straße 1302.\nWildi-König, Joh. Rud. [tel] Basler Lebensversicherungs- und Unfall-\n  gesellschaften. Vordere Vorstadt 353.\nWindisch-Kohler, Samuel. Generalagentur der schweizerischen\n  Lebensversicherungs- und Rentenanstalt Zürich. Laurenzen-\n  vorstadt 765.\n*Wirth-Voser, Franz, Generalagent. [tel] Basler Unfallversicherungs-\n  gesellschaft gegen Feuerschaden und Unfallversicherungsgesell-\n  schaft Winterthur. Metzgergasse 81.\nAlteisenhandlungen.\nHürzeler-Schenk, Adolf. Hadern-, Metall- und Alteisenhändler.\n  Hammer 183 a.\nApotheker.\n*Göldlin, H., Dr. [tel] Rathausgasse 14.\n*Jung-Stéphani, Ludwig. [tel] Rathausgasse 7.\n*Keusch-Diebold, Karl. [tel]. Vordere Vorstadt 348.\n*Weibezahl, Leonhard [tel]. Rathausgasse 6.\nArchitekten.\nAmmann-Strähl, Robert [tel]. Feerstraße 683.\nBracher & Widmer [tel]. Bahnhofstraße 578 b.\nBucher-Gieße, Andreas. Bachstraße 1827.\nEckert-Vögelin, Walter [tel]. Hintere Bahnhofstraße 1009.\nErnst, Eugen Jb., Weltistrasse 1863.\nFritz, Max. Bahnhofstraße 578 b\n*Kreß-Andersen, Karl [tel]. Bachstraße 1097.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14671,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1981,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.32,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:04:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p234",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p234.jpeg",
+      "bytes": 902685,
+      "sha256": "c788ed9a9776717537b0666f562b30909547a02e03ac3bb1b7c9f721fcfbd4a5",
+      "sha256_of": "original",
+      "working_copy": "1913_p234.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:04:41+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p092",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p092.jpeg",
+    "bytes": 635729,
+    "sha256": "24a894a24c8e650006446a49993038366fa9dc804c51cee05d84dbe6f2287479",
+    "sha256_of": "original",
+    "working_copy": "1901_p092.jpeg"
+  },
+  "text": "81\nHaus-\nNr. Im Zegli.\n1499 Wassmer-Kummler, Hermann, Kaufmann. [tel] „Daheim“.\n1500 † Derselbe. Gartenhaus.\n1501 † Siegrist, Heinrich, Metzger. Scheune.\n\nNach der Numerierung gebaute Häuser.\n1502 † Oehler & Cie. Kohlen-, Metall- und Rohgußschuppen. (In-\n  dustriestraße).\n1503 † Fleiner & Cie. Abort (Erlinsbacherstraße).\n1504 Kissenpfennig, Ernst, Bauführer. Wohnhaus (Gönhardfeldweg).\n1505 † Derselbe. Holzhauß.\n1506 Niederhauser, Theodor, Buchbinder. Wohnhaus (Herzogstr.)\n1507 † Roth, Friedrich, Schuhmacher. Waschhaus mit Werkstatt\n  (Zeughausstraße).\n1508 † Sprecher & Fretz. Elektrot. Fabrik (Industriestraße).\n1509 Siebenmann-Merz, Emil, Stadtkassier. Wohnhaus (Oberholzstr.)\n1510 † Vondäniken, Emil, Wasch- u. Holzhauß (Erlinsbacherstraße).\n1511 † Derselbe. Bienenhaus (Erlinsbacherstraße).\n1512 Rothpletz, Karl, Architect (Mühlematt.)\n\n6",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14617,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 848,
+    "lines": 21,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0024,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:33:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p092",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p092.jpeg",
+      "bytes": 635729,
+      "sha256": "24a894a24c8e650006446a49993038366fa9dc804c51cee05d84dbe6f2287479",
+      "sha256_of": "original",
+      "working_copy": "1901_p092.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:33:01+00:00"
+  }
+}

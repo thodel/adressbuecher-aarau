@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p227",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p227.jpeg",
+    "bytes": 962875,
+    "sha256": "e6cec31b2fbd8df0ce25a0c971d3e301cb5124af861b372924f50677b3d14afe",
+    "sha256_of": "original",
+    "working_copy": "1913_p227.jpeg"
+  },
+  "text": "— 185 —\nWirz, Wilhelmine, Menziken.  Hintere Bahnhofstraße 1044.\nWittmann-Zubler, Heinrich, Fahrknecht, Gaggernau (Baden). Hal-\n  den 292.\nWittmer-Keller, Gottlieb, Telephonarbeiter, Erlinsbach (Solothurn).\n  Schachen 1492.\n*Wolf-Allemann, Fritz, Architekt, Baugeschäft.  Bachstraße 1093.\n  — -Schwarz, Richard, Schneider, Lauterbach (Sachsen).  Hintere\n    Bahnhofstraße 1004.\nWolfinger, Max, alt Professor, Mannheim.  Bachstraße 1081.\nWolfsgruber-Künzli, Johann Gottfried, Photograph [tel].  Handel in\n  photograph. Bedarfartikeln.  Bahnhofstraße 608.\n  — Max, Photograph.  Bahnhofstraße 608.\nWolleb-Vogt, Wilhelm, Packer, Lupfig.  Adelbändli 175.\nWüest-Kull, Albert, Bierführer, Lupfig.  Herzogstraße 990.\n  — Anna, Ladentochter, Büron (Luzern).  Graben 212.\n  — Emma, Fabrikarbeiterin, Gränichen.  Scheibenschachen 1332.\n  — -Senn, Emma, Part.  Wiesenstraße 1752.\n  — Gottlieb, Fabrikarbeiter, Gränichen.  Scheibenschachen 1332.\n  — -Werder, Hans, Bierführer, Lupfig.  Bahnhofstraße 586.\n  — Jakob, Buchdrucker, Gränichen.  Scheibenschachen 1332.\n  — -Bühler, Josef, Taglöhner, Büron (Luzern).  Graben 212.\n  — Josef, Magaziner, Büron (Luzern).  Graben 212.\n  — -Lindemann, Susanna, Witwe, Gränichen.  Scheibenschachen 1332.\nWülser-Schlecht, Samuel, Buchbindermeister, Bözen.  Schanz-\n  mätteli 1889.\n* — — Samuel, Buchbinder, Bözen.  Geschäftsbücherfabrik, Buch-\n  binderei und Linieranstalt, Schreibmaterialienhandlung [tel].\n  Laurenzentorgasse 119.\nWürger, Anna, Kellnerin.  Kütigerstraße 1247.\n  — Heinrich, Ausläufer.  Kütigerstraße 1249.\n  — Lina, Haushälterin.  Kütigerstraße 1249.\nWürmli, Georgine, Bichelsee.  Graben 209.\n  — -Metz, Jakob, Buchhalter, Bichelsee.  Graben 209.\nWürtemberger, Marie, Privatin.  Feerstraße 685.\nWüthrich-Autenheimer, Anna, Privatin, Eggiwil.  Laurenzentor-\n  gasse 118.\n  — -Dambach, Antoinette, Witwe, Herrenpension, Eggiwil (Bern).\n  Rathausgasse 11.\n  — Barbara, Privatin, Riniken.  Laurenzenvorstadt 713.\n  — -Dambach, Joh. Jak., Maschinist, Eggiwil (Bern).  Erlinsbacher-\n  straße 1740.\n  — -Wächter, Marie, Witwe, Eggiwil (Bern).  Bahnhofstraße 603.\n* — -Zulauf, Otto, Kaufmann, Eggiwil.  Spezerei-, Wein- und Spiri-\n  tuosenhandlung [tel].  Öffentliche Sprechstation.  Laurenzentor-\n  gasse 118.\nWullschleger-Senn, Emil, Kaufmann, Gränichen.  Herzogstraße 1844.\n  — Heinrich, Part.  Halden 281.\n  — Heinrich, Schlosser.  Halden 281.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28052,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2382,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 46.29,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:03:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p227",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p227.jpeg",
+      "bytes": 962875,
+      "sha256": "e6cec31b2fbd8df0ce25a0c971d3e301cb5124af861b372924f50677b3d14afe",
+      "sha256_of": "original",
+      "working_copy": "1913_p227.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:03:27+00:00"
+  }
+}

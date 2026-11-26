@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p039",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p039.jpeg",
+    "bytes": 931441,
+    "sha256": "ae6611fdd605a3f808cea96b83e2fd01bf3d5cf270e274bae8b5356b37a65aa2",
+    "sha256_of": "original",
+    "working_copy": "1913_p039.jpeg"
+  },
+  "text": "— 23 —\nHaus-\nNr.\n250 * Rämisperger-Berner, Marie, Witwe, Privatin.\n  Staufer-Amsler, Josef, Schneider, Selzach.\n  Hilfiker, Jakob, Schuhmacher, Safenwil.\n  Maurer-Nußberger, Samuel, Handlanger, Schmiedried.\n251 Gunsch-Furter, Josef, Maurer.\n  Kyburz, Lisette, Spelterin[?], Unter-Kulm.\n252 Stuhle-Meißner, Albert, Schneider, Reinstetten (Württbg.).\n  Barci, Amedeo, Handlanger, Firenze (Ital.).\n253 Schneider-Zellweger, Emil, Schlossermeister.  Mech. Bau-\n  schlösserei.\n  — -Krall, Barbara Elise, Witwe.\n254 * Haßler-Brunnhofer, Elise, Witwe.\n  Läderach-Weibel, Fritz, Zimmermann, Worb (Bern).\n255 Stirnemann-Gysi, Jakob, Zimmermann, Gränichen.\n  Ruf-Portmann, Marie, Witwe, Taglöhnerin, Flühli (Luzern).\n  Portmann, Katharina, Flühli (Luzern).\n256a Beck-Schudel, Hermann, Färber.\n  Piani-Tezza, Antonio, Handlanger, Belluno (Italien).\n256b * Bruder-Bruder, Verenas Erbschaft.\n  — Emmy, Fabrikarbeiterin, Seengen.\n  Pasquini-Rasi, Adolfo, Handlanger, Dicomano (Italien).\n  Costa-Rossi, Luigi, Handlanger, Portico  „\n\nHalden.\n258 † Armengut. Ortsbürgergemeinde.  Gastlokal.\n259 Döhnel-Kyburz, Anna Maria, Witwe, Ober-Erlinsbach.\n260 Ernst-Dürr, Hermann, Schuhmachermeister.\n  Gillaud-Roggo, Mara, Fabrikarbeiterin, Romont.\n  Müller-Roggo, Adolf, Taglöhner, Ober-Kulm.\n261 * Ortsbürgergemeinde Aarau.  Städtisches Altersasyl.\n  Hauser-Mathey, Gottlieb, Asylverwalter.\n  Läser, Luise, Gontenschwil.\n  Fricker-Amsler, Josef, Oberhof, Buchhändler.\n  Rothpletz-Siebenmann, Elisabeth, Witwe, Pfründerin.\n  Müller, Maria, Ober-Bözberg, Pfründerin.\n  Lienberger-Weber, Elisabeth, Witwe, Spreitenbach, Pfründerin.\n  Siebenmann, Rosa, Insaßin.\n  Hässig, Marie, Witwe, Insaßin.\n  Siebenmann, Luise, Pfründerin.\n  Hasler, Max Johann, Insaße.\n  Brunnhofer, Gottlieb,  „\n  Schäfer, Wilhelm,  „\n  Dürr, Gottlieb,  „\n  Spengler, Karl Jakob,  „\n  Fischer, Ludwig,  „\n  Haßler, Marguerite, Pfründerin.\n  Fischer, Luise, Insaßin.\n  Spicher, Elise, Köniz (Bern), Pfründerin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 66651,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1954,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.72,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:41:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p039",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p039.jpeg",
+      "bytes": 931441,
+      "sha256": "ae6611fdd605a3f808cea96b83e2fd01bf3d5cf270e274bae8b5356b37a65aa2",
+      "sha256_of": "original",
+      "working_copy": "1913_p039.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:41:54+00:00"
+  }
+}

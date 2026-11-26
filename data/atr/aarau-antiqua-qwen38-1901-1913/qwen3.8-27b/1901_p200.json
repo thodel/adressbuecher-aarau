@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p200",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p200.jpeg",
+    "bytes": 732421,
+    "sha256": "06c4b11e1e6f7b06a137e18a05e2046d51e05046966b52ff323f8660c4e2ea38",
+    "sha256_of": "original",
+    "working_copy": "1901_p200.jpeg"
+  },
+  "text": "187\n  Bibliothek der historischen Gesellschaft.\n  Dieselbe wurde der Aarg. Kanton sbibliothek einverleibt.\n  Bibliothek der Naturforschenden Gesellschaft.\n  (Im städtischen Schulhaus.)\n  Dieselbe wurde der Aarg. Kanton sbibliothek einverleibt.\n  Bibliothek des Kunstvereins.\n  (Im kant. Gewerbemuseum.)\n  Städtische Lehrerbibliothek.\n  (Im städtischen Schulhaus.)\n  Jahresbeitrag: Jeder Lehrer und Lehrerin Fr. 1. 50.\n  Bibliothekarin: Emma Grolimund.\n  Kantonsschulbibliothek.\n  (Im neuen Kantonsschulgebäude.)\n  Bibliothekar: Prof. Dr. E. Zschokke.\n  Bibliothek des Töchter-Instituts und Lehrerinnen-Seminars.\n  (Im alten Kantonsschulhaus, II. Etage.)\n  Bibliothekstunden: Montag halb 2 bis 3 Uhr und Dienstag\n  11 bis halb 12 Uhr.\n  Jahresabonnement: Fr. 3.\n  Bibliothekar: J. Suter, Rektor.\n  Bezirksschulbibliothek.\n  (Im städtischen Schulhaus.)\n  Bibliothek des Grütlivereins.\n  (Im alten Kaufhaus. Stadtgebäude.)\n  Geöffnet: Alle Abend 8—10 Uhr.\n  Benützung gratis.\n  Evangelische Leihbibliothek.\n  (Im Diakonissenhaus.)\n  Bibliothekstunden: Montag 1—3 Uhr.\n  Jahresabonnement: Fr. 2.\n  Bibliothekarin: Jungfer Nanette Kunz.\n  c. Sammlungen.\n  I. Kantonales Gewerbemuseum.\n  (Bahnhofstraße.)\n  In demselben sind untergebracht:\n  Die gewerbliche Unterrichtsanstalt, bestehend aus: a) allgem.\n  Handwerkerschule; b) Fachschule für Dekorationsmalen und kunst-\n  gewerbliches Zeichnen; c) Fachschule für Bau- und Holztechnik;\n  d) Frauenarbeitsschule; e) Dilettantenabteilung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18706,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1479,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.075,
+    "mean_line_chars": 34.05,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:15:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p200",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p200.jpeg",
+      "bytes": 732421,
+      "sha256": "06c4b11e1e6f7b06a137e18a05e2046d51e05046966b52ff323f8660c4e2ea38",
+      "sha256_of": "original",
+      "working_copy": "1901_p200.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:15:10+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p188",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p188.jpeg",
+    "bytes": 977088,
+    "sha256": "c4040bcd71184131c47c7072f172d4654df74c0c22850d8659b17bbd373e608f",
+    "sha256_of": "original",
+    "working_copy": "1913_p188.jpeg"
+  },
+  "text": "— 146 —\nMarkwalder-Elmer, Heinrich, Bautechniker und Wirt, Würenlos.\n  Buchserstraße 986.\n— -Gretner, Maria, Privatin, Baden.  Augustin Keller-Straße 1561.\n— -Gamper, Traugott, Oberst.  Laurenzenvorstadt 710.\nMarmy-Fasel, Charles, Ingenieur, Estavayer.  Feerstraße 681.\nMarti-Keller, Anna, Witwe, Spetterin, Wengi (Bern). Rathausgasse 9.\n— -Aeschbach, Elise, Haushälterin, Etziken (Solothurn).  Torfeld-\n  straße 942.\n— -Hausreiter, Fritz, Fabrikarbeiter.  Schmiedgasse 379.\n— -Siebenmann, Ida, Witwe, Arbeitslehrerin.  Halden 284.\n— Julie, Bureauangestellte, Etziken (Soloth.).  Torfeldstraße 942.\n— Olga, Bureauangestellte, Wengi (Bern).  Rathausgasse 9.\nMartin-Rothpletz, Friedrich, Part.  Laurenzenvorstadt 737.\nMartinelli-Gatti, Angelo, Maler, Brescia (Italien).  Laurenzenvor-\n  stadt 759.\n— Rosalinda, Brescia (Italien).  Laurenzenvorstadt 759.\nMasaben-Elias, Juan, Wirt, Sabadell (Spanien).  Kirchgasse 33.\nMarschner-Gall, Valentin, Schreiner, Böhmen.  Stritengäßchen 1162.\nMathys-Ernst, Traugott, Schlosser, Kölliken. Laurenzenvorstadt 711.\n— -Matter, Wilhelm, Feilenhauer, Spezereihandlung, Kölliken.\n  Entfelderstraße 1400.\nMattenberger-Walther, Anna, Witwe, Privatin [tel].  Laurenzenvor-\n  stadt 800.\n— Max.  Laurenzenvorstadt 800.\nMatter-Aeschlimann, Adolf, Wirt, Restaurant zum Landhaus [tel].\n  Bahnhofstraße 588.\n— Albert, Postbeamter, Muhen.  Weltistrasse 1443.\n— -Mathys, Julius, Monteur, Kölliken.  Bleichemattstraße 1029.\n— Marie.  Bahnhofstraße 588.\n— Paul Edwin, Kaufmann, Kölliken [tel].  Jurastraße 1490.\n— -Schönenberg, Samuel, Bezirksammann, Ober-Entfelden.\n  Schachen 1130.\nMauch, Hulda, Teufenthal.  Rain 447.\n— -Siegrist, Lina, Witwe, Kostgeberei, Teufenthal.  Rain 447.\n— -Hausmann, Rudolf, Wagner, Teufenthal.  Halden 274.\n— -Zimmerli, Rudolf, Bankangestellter, Teufenthal.  Torfeldstr. 941.\n*Maurer-Peter, Emil, Wirtschafft zum Kreuz [tel].  Kolonialwaren-\n  handlung und Mehlrösterei.  Küttigerstraße 1247.\n*— — Emil, zum Kreuz, Spezereihandlung (Filiale). Gartenstr. 1566.\n*— — Emil, zum Kreuz, Spezerei- und Kolonialwarenhandlung,\n  Filiale [tel].  Herzogstraße 1782.\n— Emil.  Küttigerstraße 1247.\n— Emma, Aushülfe, Moosleerau.  Hintere Vorstadt 357.\n— Eugen, Kunstmaler.  Küttigerstraße 1247.  Atelier: Herzog-\n  straße 1782.\n— -Lehmann, Friedr., Lok.-Heizer S. B. B.  Bachstraße 1059.\n— Friedrich, Kanzlei-Sekretär.  Bachstraße 1059.\n— -Angerer, Fritz, Stadtpolizist, Schmiedrued.  Hint. Vorstadt 358.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 117690,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2439,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:38:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p188",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p188.jpeg",
+      "bytes": 977088,
+      "sha256": "c4040bcd71184131c47c7072f172d4654df74c0c22850d8659b17bbd373e608f",
+      "sha256_of": "original",
+      "working_copy": "1913_p188.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:38:55+00:00"
+  }
+}

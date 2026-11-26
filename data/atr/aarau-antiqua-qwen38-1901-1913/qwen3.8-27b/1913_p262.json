@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p262",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p262.jpeg",
+    "bytes": 760961,
+    "sha256": "7b4b9a54206e5db0eed3e9b1a69a4f37d9ebd8bba1550a548c0e9e36fe71fb5e",
+    "sha256_of": "original",
+    "working_copy": "1913_p262.jpeg"
+  },
+  "text": "— 228 —\n*Müller-Hürner, Eduard. Rathausgasse 21.\n*Sperlich, Theodor [tel]. Vorderer Vorstadt 323.\n  Theez-Hochuli, Albert. Pelzgasse 101.\n\nSchleifer.\n  Hässig, Gottlieb. Hammer 180.\n  Lorenzi-Cesare. Schmiedgasse 394.\n  Schäfer, Bruno. Vorderer Vorstadt 337.\n\nSchlossereien.\n  Fäs, Gottlieb. Obere Vorstadt 527.\n  Gloor-Beck, Adolf. Milchgasse 152.\n  Gysi, Fritz. Hintere Vorstadt 367.\n  Hässig-Siegrist, Julius. Milchgasse 134.\n  Läuchli, Friedrich. Hammer 181.\n  Mösch-Strebel, Karl, Frick [tel]. Obere Vorstadt 547.\n  Schneider-Zellweger, Emil. Golattenmattgasse 253.\n\nSchmiedemeister.\n  Dreier-Walter, Gottlieb. Asylstraße 1144.\n  Erb-Autenheimer, Otto. Bachstraße 1057.\n  Mollet-Fäs, Joh. Rain 501.\n\nSchneidermeister.\n  Baumann-Leuenberger, Gottlieb. Milchgasse 130.\n  Engesser, Josef. Ziegelrain 407.\n  Frey-Wirz, Jakob. Buchserstraße 953.\n  Lerf-Kirchhoffer, Moritz. Halden 313.\n  Staudacher-Bachmann. Bachstraße 1063.\n  Waßmer-Schmid, Ernst. Laurentzentorgasse 114.\n  — -Ott, Fidel. Pelzgasse 90.\n\nSchneiderinnen.\n  Siehe Weisnäherinnen.\n\nSchreibmaterialhandlungen.\n*Hagenbuch, Fritz [tel]. Vorderer Vorstadt 333.\n  Haßler, Theodor. Milchgasse 146.\n  Käser, Samuel. Bahnhofstraße 559 a.\n*Schatzmann, Samuel [tel]. Rathausgasse 10.\n*Wülser, Samuel [tel]. Laurentzentorgasse 119.\n*Wärtli, A. [tel] Vorderer Vorstadt 326.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 34370,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1326,
+    "lines": 37,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0023,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:13:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p262",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p262.jpeg",
+      "bytes": 760961,
+      "sha256": "7b4b9a54206e5db0eed3e9b1a69a4f37d9ebd8bba1550a548c0e9e36fe71fb5e",
+      "sha256_of": "original",
+      "working_copy": "1913_p262.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:13:07+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p097",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p097.jpeg",
+    "bytes": 895535,
+    "sha256": "3e2a4ecbcc402a724c585cad57970fed99aa89acd4a55dca0d915298567a85d1",
+    "sha256_of": "original",
+    "working_copy": "1913_p097.jpeg"
+  },
+  "text": "— 75 —\nHaus-\n  Nr.\n  Schäppi, Anna, Arbeitslehrerin, Horgen.\n  — Bertha, Buchhalterin, \"\n1104 * Lenz-Suter, Otto, Seiden- und Baumwollgarbfärberei, Mer-\n  cerieranstalt.\n  Wyser-Müller, Marie, Witwe, Part.\n1110 Thalmann-Bolliger, Heinrich, Prokurist, Bertschikon (Zürich).\n1648 Kohler-Hilfiker, Hans, Oberstlieutenant, Instruktor d. Infanterie.\n  Hilfiker, Luise, Privatin, Kölliken.\n1111 Walther-Dubs, Hans, Landwirts Erbschaft.\n  — — Anna, Witwe, Holz- und Kohlenhandlung [tel].\n  — — Rosa.\n  — Hans, Landwirt.\n  Kühne, Hermann, Knecht, Rieden (St. Gallen).\n  Blattner-Burgunder, August, Bankbeamter, Küttigen.\n1115 Brack-Fehlmann, Sophie, Oekonoms Witwe.\n  Lang, Konrad, Knecht, Dagmersellen (Luzern).\n\n  Tellstrasse.\n1611 Frey-Bohler, Gottlieb, Tiefbauunternehmer, Gontenschwil [tel].\n  Säuberli-Wicki, Rudolf, Maschinist, Möriken.\n  Mollet-Urben, Gottfried, Schneider, Biezwil.\n1903 Wildi-Bäny, Hans, Ausläufer, Reinach.\n  Dienger-Schaffner, Theodor, Schriftsetzer, Obermigen (Baden).\n1884 Wirz-Siegrist, Albert, Schlosser, Othmarsingen.\n  Siegrist geb. Schlatte, Susette, Privatin, Fahrwangen.\n  Egger-Steinmann, Josef, Bahnmeister, Eggersried (St. Gallen).\n1723 Gautschi-Heiz, Otto, Gärtner, Reinach.\n  Tester-Bachmann, Johann, Monteur, Safien (Graub.).\n\n  Westalle Neugut.\n1552 Custer-Roth, Emil, Fabrikant, Rheineck (St. Gallen).\n  — Emma, Klavierlehrerin, \" \" \"\n1332 Pfleger, Fritz, Zugführer S. B. B.\n1474 Burger-Mathys, Hans, Oberrichter, Freienwil [tel].\n  Altweg, Hans, Ingenieur, Hessenreuti (Thurg.).\n1868 * Eckert, E. und Sohn, Baugeschäft.\n  Senn-Siegfried, Max, Forstverwalter der Stadt Aarau, Zofingen.\n1553 Wietlisbach-Peters, Fritz, Fürsprech und Staatsschreiber,\n  Bremgarten\n1587 Trüb-Hofer, August, Kaufmann.\n1605 Riniker-Hartmann, Jakob, Postbeamter, Schinznach.\n  Grünig-Hintermann, Ed. Emil, Kaufmann, Winterthur.\n1606 Bachhofer-Morath, Fritz, Sekretär, Eiken.\n1637 Heer-Wildi, Emma, Wwe., Part., Zürich.\n  — Ernst, Konsul von Argentinien, Zürich.\n1654 Enderlin-Gut, Otto, Direktor, Niederhasli (Zürich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17715,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2032,
+    "lines": 47,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:02:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p097",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p097.jpeg",
+      "bytes": 895535,
+      "sha256": "3e2a4ecbcc402a724c585cad57970fed99aa89acd4a55dca0d915298567a85d1",
+      "sha256_of": "original",
+      "working_copy": "1913_p097.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:02:32+00:00"
+  }
+}

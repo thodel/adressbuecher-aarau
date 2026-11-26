@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p059",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p059.jpeg",
+    "bytes": 890751,
+    "sha256": "2b3d67e75182cd8e5c91b9c83879b31a7f0feaeb3b4fcf374d71117efe4440c3",
+    "sha256_of": "original",
+    "working_copy": "1913_p059.jpeg"
+  },
+  "text": "— 41 —\nHaus-\nNr.\n470 Ritzmann-Anderhub, Jakob, Generalagent, Flaach (Zürich) [tel].\n  Generalagentur der Helvetia, Versicherungsgesellschaften\n  (Feuer und Transport) in St. Gallen.\n468 Siebenmann-Walther, Otto, Privater.\nSchenk, Heinrich, Kaufmann, Dachsen.\nSchuppli, Karl Eugen, Kaufmann, Huben.\nSattler, Jeanne, Bureaulistin, Müswangen.\n1598 Rothpletz-Vannod, Carl, Vizedirektor der Aarg. Kantonalbank.\nVannod-Gaille, Louise, Witwe, Privatin, Orny (Vaud).\n1680 Tschopp-Brewer, Dr. Albert, Professor, Basel.\nSchirmer-Stephani, Paul, Kunstmalér, Dresden.\nCandrian, Klara, Haushaltslehrerin, Duvio (Graubünden).\nNußbaumer, Pauline, Lehrerin, Rheinfelden.\n1656 Amsler-Tschudy, Otto, Kaufmann.\n1603 Schuh-Kern, Hch., Ingenieur, Iseltwald [tel]\n1851 * — — Hch., Ingenieur\n1704 Wehrli-Wehrli, August, Gärtner, Küttigen.\n1681 Stapfer-Gronmeier, Hans, Privater.\nGasper-Wernli, Adolf, Privater.\nVogel, Paul, Kaufmann, Kölliken.\n1509 Siebenmann-Merz, Emil, Fondsverwalter der Stadt Aarau.\nByland, Henriette, Haushälterin, Othmarsingen.\n\nSchanzmätteli.\nWülser-Schlecht, Samuel, Buchbindermeister, Bözen.\n  Ladengeschäft: Laurenzentorgasse 119.\n\nPestalozzistrasse.\n1739 * Einwohnergemeinde Aarau. Bezirksschulgebäude u. Lehrerinnen-\n  -Seminar.\n1586 * Rüetschi-Rohrschach, Ernst, Schulhausabwart [tel].\nAmmann, Robert, Architect.\nThom, Franz, Trompeteninstruktor, Kirchberg.\n1540 Amsler-Baumann, Heinrich, Werkführer.\n— Max, Kaufmann.\nOsterhellweg, Henrik, Zahntechniker. Amsterdam.\n1585 Suter-Rohr, Robert, Bankdirektor, Seon.\nKant. chem. Laboratorium.\n\nSpitalgässli.\n1896 Bruns-Wagner, Heinrich, Kaufmann.\n1710 Däster-Freiermuth, Gottfried, Malermeister, Murgensthal [tel].\nFreiermuth, Johann, Maler, Zeiningen.\n— Johann, Zimmermann.\nAeschbach-Haberstich, Otto, Postbeamter, Leutwil.\n1652 Heß-Zürcher, Wilhelm, Privater.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 46005,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1812,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.17,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:49:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p059",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p059.jpeg",
+      "bytes": 890751,
+      "sha256": "2b3d67e75182cd8e5c91b9c83879b31a7f0feaeb3b4fcf374d71117efe4440c3",
+      "sha256_of": "original",
+      "working_copy": "1913_p059.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:49:56+00:00"
+  }
+}

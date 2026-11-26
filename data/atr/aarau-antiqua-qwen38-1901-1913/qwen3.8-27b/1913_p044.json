@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p044",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p044.jpeg",
+    "bytes": 882648,
+    "sha256": "90b433dbd2c4d771fe1cf74bf92ea11f23ff726a3c02d06f3ca6f232cd153971",
+    "sha256_of": "original",
+    "working_copy": "1913_p044.jpeg"
+  },
+  "text": "— 28 —\nHaus-\nNr.\nHolzmarkt.\n316 * Ortsbürgergemeinde Aarau.\n  Gewerbehalle.\n  Kantonales Arbeitsamt.\n318 Brast, Geschwister, Emma und Ida, Waffenhandlung.\n319 Rohr-Holliger, Hans, Wirt, Buchs. Speisewirtschaft [tel].\n  — Clara, Buchs.\n  Widmer, Richard, Sekretär, Othmarsingen.\n320 Scheidegger-Roth, Johann Ulrich, Ursenbach (Bern). Milch-,\n  Butter- und Käsehandlung.\n  — Marie Hedwig, Ursenbach.\n  Schär, Martha, Bureaulistin, Walterswil.\n  Lienhard, Marie, Magd, Brittnau.\n  Bachmann-Riniker, Joh., Privatier.\n  — Lina.\n  Elsasser-Bertschi, Lisa, Wwe.\n321 Scheidegger-Roth, Johann Ulrich, Milchhändler.\n  Merkur, Spezial-Kaffeesgeschäft.\n  Wernli-Glauser, Maria, Wwe., Thalheim.\n  — Fritz, Sekretär, Thalheim.\n  Bertschi-Stockmeier, Marie, Haushälterin, Sumiswald.\nVordere Vorstadt.\n322 Fischer-Burger, Jonathan, Goldschmied, „Zum Goldschmied“ [tel].\n  Bijouterie, Gold- und Silberwaren.\n323 * Amsler-Tschudi, Otto, Notar.\n  Sperlich-Zimmermann, Theodor, Hut- und Pelzwaren [tel].\n  Kauffmann, Nina, Modegeschäft.\n  Widmer, Carolina, Privatin, Freienwil.\n  — Marie,\n324 Fleisch-Egloff, Carl, „Hotelier, „Romanshorn [tel]. Hotel zum\n  Wilden Mann.\n325 Schöni-Gugger, Ernst, Uhrenmacher, Bolligen (Bern) [tel]. Bijou-\n  terie-, Gold- und Silberwaren. „Zum Trauring“.\n  Scheck, Dora, Magd, Blaubeuren.\n326 Wärtli, Bureaubedarfgeschäft [tel]. Buchbinderei und Ein-\n  rahmungsschäft.\n  Brand's J. Nachfolger. Cigarrengeschäft.\n  Brand-Baumann, Wwe., Privatin.\n327 Gerber-Seiler, Gustav, March-Tailleur [tel]. Zivil- und Militär-\n  schneiderei.\n  Groß, Appollina, Magd, Gerhausen.\n  Kuhn-Andermatt, Joh., Bahnmeister S. B. B.\n328 Hemmeler-Mathys, Alfred, Metzgermeister [tel]. Metzgerei und\n  Wursterei.\n  Haupt, Ernst, Metzger, Regensdorf.\n  Weber-Bolliger, Louise, Haushälterin, Egliswil.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 44018,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1787,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:43:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p044",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p044.jpeg",
+      "bytes": 882648,
+      "sha256": "90b433dbd2c4d771fe1cf74bf92ea11f23ff726a3c02d06f3ca6f232cd153971",
+      "sha256_of": "original",
+      "working_copy": "1913_p044.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:43:46+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p152",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p152.jpeg",
+    "bytes": 755874,
+    "sha256": "c3c4b57f844b1b58c10fc1c422f4c31e8c66ac518c209946cfde44bd0b8f8eab",
+    "sha256_of": "original",
+    "working_copy": "1901_p152.jpeg"
+  },
+  "text": "139\nBazars.\nBaumann, Georg, Graben 215.\nHemmeler-Stahl, Ida,* Rathausgasse 12.\nMarti, Hilda Flora, Metzgergasse 65.\nWetter & Cie.,\"Magazin z. Globus\", obere Vorstadt 554.\nBettwarenändler.\nCodoni-Dreßler, Laurenz,* Rain 436.\nGewerbehalle, Holzmarkt 316.\nGysi, Adolf, Pelzgasse 110.\nHässig, Emil, Bachstraße 1056.\nHeß, Gebr.,* Rathausgasse 5.\nHering-Leuenberg, Lisette,* Milchgasse 128.\nNägeli, Jakob, Kirchhof 160. (Siehe Inserat Seite 19.)\nPließ-Amstutz, Rain 492.\nScheibler, Alfred, Adelbändli 174. (Siehe Inserat Seite 23.)\nSchneeberger, Jakob,* Rathausgasse 4.\nSiebenmann, Arnold, vordere Vorstadt 340.\nBibeldépôt.\nAngst, Robert,* hinter dem Platz 238. (Siehe Inserat Seite 25.)\nBijouterie-Waren.\nFischer, Jonathan, Holzmarkt 322. (Siehe Inserat Seite 10.)\nFrey, Albert, hintere Vorstadt 360.\nHärdi, Wilhelm,* Rathausgasse 24.\nHirschy, Joh. Rud.,* vordere Vorstadt 325.\nBierbrauereien mit Bierwirtschaften.\nHolzach-Siebenmann, Witwe,* Bahnhofstraße 617.\nRyniker, Gebr.,* Metzgergasse 77.\nSiebenmann, Friedrich,* \"Adlerbrauerei\", Entfelderstraße 1381.\n  (Im weiteren siehe Wirthschaften).\nBierdépôts.\nPfisterer-Rohr, Bahnhofstraße 586. Dépôt der Aktienbrauerei Feld-\n  schlößchen, Rheinfelden.\nSchilling-Döbeli, Zollrain 60. Dépôt der Aktienbrauerei Basel. (Siehe\n  Inserat Seite 9.)\nBierpressionen - Fabrikation.\nKeller, Abr., Mechaniker,* Halden 277a. (Siehe Inserat Seite 18.)\nBildhauer.\nRusterholz & Freihofer,* Rainstraße 506.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 37706,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1433,
+    "lines": 39,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:57:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p152",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p152.jpeg",
+      "bytes": 755874,
+      "sha256": "c3c4b57f844b1b58c10fc1c422f4c31e8c66ac518c209946cfde44bd0b8f8eab",
+      "sha256_of": "original",
+      "working_copy": "1901_p152.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:57:39+00:00"
+  }
+}

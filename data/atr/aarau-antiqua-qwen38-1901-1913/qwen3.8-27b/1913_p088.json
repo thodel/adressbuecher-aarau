@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p088",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p088.jpeg",
+    "bytes": 856486,
+    "sha256": "2b302f7f345c4b2e448f9dd8beb4b1d8e6de1c43a919eb2f2b06b586d681f720",
+    "sha256_of": "original",
+    "working_copy": "1913_p088.jpeg"
+  },
+  "text": "— 66 —\nHaus-\nNr.\nWiesenstrasse.\n1752 * Zingg, J, Zugführer.\n  Wüst-Senn, Emma, Part.\n  Hauser-Weill, Siegfried, Postbeamter, Siglistorf.\n  Heuberger-Siebenmann, Gottl., Sekretär.\n  Faller-Peyer, Arnold, Postbeamter, Genf.\n  Sommerhalker-Häusermann, H., Büchsenmacher, Gontenschwil.\n  Roth-Gronmeyer, Hermann, Sekretär, Erlinsbach.\n  Streiff, Fridolin, Techniker, Diersbach.\n1291 * Zingg, J., Zugführer.\n  Hochuli-Zysset, Jakob, Postfaktuer, Reitnau.\n  Frey-Amsler, Louise, Witwe, Auenstein.\n  — Karl, Bureaulist, Auenstein.\n  — Friedr., Confiseur,    \"\n  — -Maritz, Otto, Spengler, Auenstein.\n  Kyburz, Hermann, Lithograph, Erlinsbach.\n1292 * Bolt-Fisch, Albert, Agent in Olten.\n  Weidauer-Ramp, Kurt, Kaufmann, Chemnitz.\n  Moser-Gerteis, Johann, Stanzer, Röthenbach.\n  Meyer, Jakob, Stanzer, Langdorf.\n1293 * Zingg, Jakob, Zugführer.\n  Sommerhalker-Küng, Hrch., Bahnmeister W. T. B., Gontenschwil.\n  Gilardi, Antonio, Angestellter W. T. B., Mendrisio.\n  Rey-Leyster, Eduard, Wagenkontroleur, Hämikon (Zch.).\n  Brod-Strebel, Alfred, Maler.\n1735   Zingg-Fisch, Jak., Zugführer S. B. B., Rothenhausen (Thurg.).\n  Moritz-Heine, Robert, Lithograph, Halle (Preußen).\n  Frey-Fröhlich, Karl, Reisender, Densbüren.\n1892 * Schäfer & Cie.\n  Brack-Uster, Heinrich, Oberstlt., Zeughausdirektor.\n  — Helene.\n  — Louise, Bureaulistin.\n1893 * Schäfer & Cie.\n  Schibli-Hintz, Karl, Architect, Killwangen.  Teilhaber  der\n    Firma Schäfer & Cie., Baugeschäft [tel].\n1894 * Schäfer & Cie.\n  Stäblin-Huldi, Paul, Ingenieur, Brugg.\n1895 * Schäfer & Cie.\n  Klebert-Krauert, Hildebert, Direktor, Koburg.\n1902   Schmid-Andacher, Ernst, Bahnbeamter W. T. B., Wellhausen\n    (Thurg.).\nTorfeldstrasse.\n951   Gmür-Zehnder, Gottlieb, Direktor der Glühfadenfabrik A. G.,\n    Murg (Glarus) [tel].\n    Zehnder, Flora, Bureauangestellte, Birmensdorf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 50459,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1819,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.42,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:58:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p088",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p088.jpeg",
+      "bytes": 856486,
+      "sha256": "2b302f7f345c4b2e448f9dd8beb4b1d8e6de1c43a919eb2f2b06b586d681f720",
+      "sha256_of": "original",
+      "working_copy": "1913_p088.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:58:11+00:00"
+  }
+}

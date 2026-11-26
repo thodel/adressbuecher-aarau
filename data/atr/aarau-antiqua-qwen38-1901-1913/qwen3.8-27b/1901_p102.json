@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p102",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p102.jpeg",
+    "bytes": 819076,
+    "sha256": "0474aa90b612c272e30c2af5221862ec7f5417a99b7b972940aa8c6e5b88953f",
+    "sha256_of": "original",
+    "working_copy": "1901_p102.jpeg"
+  },
+  "text": "89\nBuholzer, Julius, Architekt, Feerstraße 691.\nBuffetti, Enrico, Kunstmaler, Gönhardfeldweg 1448.\nBuhlein, Friedrich, Part., Bahnhofstraße 559a.\nBurger, Johann, Fürsprech, Kriminal-Gerichtsschreiber, Bachstr. 1098.\n  — Samuel, gew. Wirt, Hammer 186.\n  — -Kielholz, Karoline, Haushälterin, Bleichemattstr. 1016.\nBurgheer, Viktor, Schneider, Graben 215.\nBurgmeier, Joseph, [tel] Gesanglehrer und Musikdirektor. Klavier,\n  Cigaren- und Tabakhandlung, Graben 216.\nBurkhardt, Eugen, Kondukteur, Gönhardfeldweg 1440.\n  — Ferdinand, Coiffeur, Laurenzenthorgasse 117.\n  — Ferdinand, Sohn, Coiffeur, Laurenzenthorgasse 117.\n  — Lina, Coiffeuse, Laurenzenthorgasse 117.\nBurkholter, Rudolf, Taglöhner, Halden 312.\nBuser, Wilhelm, Güterschaffner, obere Vorstadt 526.\n  — Emil, Bäckermeister, [tel] Metzgergasse 67.\n  — Gottlieb, Kaufmann, Schönenwerderstraße 1452.\nBusslinger, Siegfried, Postbeamter, Weltistrasse 1443.\n\nCaminada, David, Professor, jenseits der Aare 1232.\nCamisasca, Franz, Part., Rain 464.\nCantu, Joseph, Maurermeister, Zollrain 56.\nCasparis, Emma, Lehrerin am Gewerbemuseum, Laurenzenvor-\n  stadt 746.\nCima geb. Hauri, Verena, Witwe, Milchgasse 151.\nCompagnie Singer, [tel] Nähmaschinenhandlung, Torfeldstraße 942.\nCodoni, Remigius, Kaufmann, [tel] Rain 436.\nConrad, Peter, Regierungsrat, [tel] Feerstraße 691.\nConsulat der Vereinigten Staaten von Nordamerika, [tel] Laurenzen-\n  vorstadt 737.\nCroci-Brügger, Agostino, Maurer, Metzgergasse 78.\nCuster, E. & Cie., [tel] Mineralwasserfabrikation, Bahnhofstraße 626.\n  — Emil, Chemiker, Bahnhofstraße 626.\n  — Fanny, Lehrerin, Bahnhofstraße 626.\n  — geb. Sauerländer, Mathilde, Witwe, Part., Laurenzenvorst. 782.\n\nDäster, Gottfried, Maler, Zollrain 57. Werkstatt Schloßplatz 200.\nDätwyler, Johann, Taglöhner, Halden 309.\n  — -Meier, Barbara, Part., Ziegelrain 422a.\n  — -Moll, Brigitta, Fabrikarbeiterin, Halden 288.\nDa Col, Simon, Cementarbeiter, Halden 290.\nD'Agostini-Fischer, Federico, Steinbrecher, von Cosio, Italien, Hal-\n  den 296.\nDambach-Heiniger, Elise, Witwe, Stadthof 82a.\n  — Johann Jakob, Postpaker, Milchgasse 150.\n  — geb. Wild, Sophie, Kreispotdirectors Witwe, Rain 444.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19341,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2143,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:36:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p102",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p102.jpeg",
+      "bytes": 819076,
+      "sha256": "0474aa90b612c272e30c2af5221862ec7f5417a99b7b972940aa8c6e5b88953f",
+      "sha256_of": "original",
+      "working_copy": "1901_p102.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:36:13+00:00"
+  }
+}

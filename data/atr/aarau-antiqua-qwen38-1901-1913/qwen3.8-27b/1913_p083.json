@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p083",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p083.jpeg",
+    "bytes": 963537,
+    "sha256": "90032d3f04fd0595e2dd9718e59d0a0288f379a5a00dd0a977607c85a0876349",
+    "sha256_of": "original",
+    "working_copy": "1913_p083.jpeg"
+  },
+  "text": "— 63 —\nHaus-\nNr.\n920* Widmer, Rud., Wirts Kinder Gränichen. Restr. z. Lindenhof.\n  Suter-Gysi, Emil, Wirt und Mechaniker, Kölliken.\n  Henzmann-Henggi, Kresenzia, Privatin, Rohr (Solothurn).\n921 Werfeli-Schütz, Mina, Möbelhändlerin, Bottenwil.\n  — Martha, Coiffeuse, Bottenwil.\n922 Adam-Keller, Anton, Chemiker, Allschwil (Baselland) [tel].\n923 Fröhlich-Stelzer, Dr. Franz, Professors Erben.\n  — — Mina, Privatin, Brugg.\n  — Sophie, Brugg.\n  — Elsa, Brugg.\n924 Iseli, Fritz, Zentralheizungen, Warmwasserbereitzungen [tel].\n  Pension Birkenhof A. G.\n  Rauscher-Eggenberger, Hermann, Techniker, Stein (Schaffh.).\n  Karrer-Lerch, Julie, Privatin, Teufenthal.\n  — Walter, Kantonschüler, Teufenthal.\n  Roth, Arnold, Kaufmann, Erlinsbach (Aargau).\n926 Stábli, Sophie, Privatin, Brugg.\n  Moser, Louise, Köchin, Hornberg (Preußen).\n  Meißner, Arthur, Buchhändler, Hannover.\n939 Wehrli-Engeli, Jak., Notar, Küttigen [tel]. Bureau: Bahnhofstr. 578 b.\n1578* Schmuziger & Cie., Fabrikation von Tinten, Siegellack, Kleb-\n  stoffen, Buch- und Steindruckfarben [tel].\n  Schmuziger-Stäheli, Adolf, Tinten- und Siegellackfabrikant [tel].\n  — Helena.\n1678 Eichstätte des Bezirks Aarau.\n  Aeschbach-Dumas, Otto, Eichmeister des Bezirks Aarau, Reinach.\n  — Leo, Maler, Reinach.\n1746 Scheibler-Kaspar, Jakob, Lok.-Heizer S. B. B., Oftringen.\n  Föhn-Seiler, Leonhard,\n            \"       \"       \"       Muotathal.\n  — -Stalder, Elisabeth, Witwe, Muotathal.\n1750 Lehmann-Lanz, Alfred, Pferlewärter, Langnau.\n  Henchoz-Steiner, Rudolf, Einnehmer der S. B. B., Chateau-d'Oex.\n1758 Gloor-Wengi, Herm., Lok.-Führer S. B. B., Leutwil.\n  Forrer-Claphan, Richard, Elektrotechniker, Winterthur.\n  Wyß-Willener, Eugen, Lok.-Führer S. B. B., Kappel.\n1818 Wernli-Marti, Jean, Werkmeister, Thalheim.\n  Herzog-Marti, Joh, Maler, Salenstein, (Thurgau).\n  Kistler-Barsotti, Walter, Prokurist, Aarberg.\n1856* Burger, J., Ober-Entfelden.\n  Steinweg-Schweizer, Wilhelm, Ingenieur, Essen.\n  Schweizer-Ziegler, Pauline, Privatin, Stuttgart.\n  Dätwyler-Leuthold, Jakob, Bankbeamter, Staffelfbach.\n  Thölen-Keutler, Heinrich, Kommis, Düsseldorf.\n  Seemann-Sargel, Oskar, Steindruckere, Berlin.\n1517* Gundel, J., Bierbrauer, Buchs. Wirtsschaft „Zur Bavaria“. [tel]\n  Wernli, Elisabeth, Wirtin, Thalheim.\n  — -Suter, Adolf, Schlosser, Thalheim.\n  Zenger-Frey, Hans, Maler, Hasleberg (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 45609,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2343,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:57:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p083",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p083.jpeg",
+      "bytes": 963537,
+      "sha256": "90032d3f04fd0595e2dd9718e59d0a0288f379a5a00dd0a977607c85a0876349",
+      "sha256_of": "original",
+      "working_copy": "1913_p083.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:57:20+00:00"
+  }
+}

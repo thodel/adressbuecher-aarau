@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p034",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p034.jpeg",
+    "bytes": 830466,
+    "sha256": "de758a7687023e1a2b8911987a8caf9393996f7370514ba3dbdd9f364ed4b6f6",
+    "sha256_of": "original",
+    "working_copy": "1901_p034.jpeg"
+  },
+  "text": "23\nHaus-\nNr.\n274 * Hirsbrunner-Kiener, Verena, Instrumentenmachers Witwe, Part.\n  Brunner, Auguste, Part.\n  — -Sandmeier, Oskar, Schriftsetzer.\n  Herzog-Dietiker, Konrad, Schneider, von Homberg (Thurgau).\n  Lerf-Kirchhofer, Moritz, Schneider, von Leibstatt.\n  Zezi-Frei, Eugen, Maurer, von Bironico (Tessin).\n275 Hirsbrunner-Kiener, Verena, Instrumentenmachers Witwe, Part.\n  — Elise, Spezeriehandlung.\n276 * Ortsbürgergemeinde Aarau.\n  Hemmeler-Lange, Emil, Taglöhner.\n  Oelhafen-Müller, Elisabeth Louise, Malers Witwe.\n  Hässig-Fischer, Albert, Werkführer.\n277a Keller, Abraham, Mechaniker. [tel]\n277b * Hassler, Julie, Modistin.\n  Bamberger-Schwarz, Anna, Wwe., Taglöhnerin, von Siglistorf.\n  Walser-Bamberger, Marie, Fegerin, von Rottweil (Baden).\n  Müller-Hofer, Johann, Maler, von Hirschthal.\n278 * Rauchenstein, Professors Erbschaft: „Marthahaus“.\n  Aeschbach, Josephine, Köchin, von Luttingen (Gr. Baden).\n  Häfeli-Fischer, Julie, Näherin, von Seengen.\n279 Wildi, Jakob, Tapezierer, von Schafisheim.\n  — Anna, Damenschneiderin, von Schafisheim.\n  Zimmerli-Stänz, Eduard, Cementarbeiter, von Oftringen.\n  Schmid-Burkolter, Friedrich, Schneider, von Zurzach.\n  Alder-Kull, Otto, Schneider, von Schöngengrund.\n  Müller, Albertine, Ladendienerin, von Möttlingen (Whrg.)\n  Krähenbühl, Louise, Näherin, von Altlisofen (Luzern).\n280 † Derselbe. Gartenhaus.\n281 Hassler-Ernst, August, Färber.\n  — Maria, Part.\n282 † Derselbe. Färbereigebäude.\n283 Hostettler-Hagnauer, Nikl., Schuhmacher, v. Guggisberg (Bern).\n  Meissner-Süss, Johann, Schneider, von Geroldshofen (Baiera).\n  Kleeb-Meissner, Joseph, Taglöhner, von Roggliswil (Bern).\n  Spicher, Elise, Spetterin, von Köniz (Bern).\n  Schäfer-Frei, Emil, Bauamtsarbeiter.\n284 Strebel-Siebenmann, Karl, Sekretär.\n  Marti-Siebenmann, Ida, Arbeitslehrerin.\n  — Lina, Damenschneiderin.\n285 Horlacher-Iberg, Samuel, Mechaniker, von Umlken.\n  Läuchli-Vogel, Johann, Hafner, von Remigen.\n  Wildi-Hilfiker, Gottfried, Heizer, von Schafisheim.\n286a * Wärlli-Ernst, August, Buchbinder.\n  Frei-Steiner, Friedrich, Schreinermeister, von Auenstein.\n  — -Joho, Elisabeth, Part., von Auenstein.\n  — Niklaus, Cementarbeiter, von Oberhof.\n  — Rosa, Fabrikarbeiterin, von Oberhof.\n  Steiner, Hermann, Bahangestellter, von Gontenschwyl.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 65555,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2264,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:11:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p034",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p034.jpeg",
+      "bytes": 830466,
+      "sha256": "de758a7687023e1a2b8911987a8caf9393996f7370514ba3dbdd9f364ed4b6f6",
+      "sha256_of": "original",
+      "working_copy": "1901_p034.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:11:32+00:00"
+  }
+}

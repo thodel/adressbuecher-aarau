@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p125",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p125.jpeg",
+    "bytes": 886758,
+    "sha256": "8b80e71332fc564ae633b6d605035547c46240f5d721a4a71dfdfb80c3b75afc",
+    "sha256_of": "original",
+    "working_copy": "1901_p125.jpeg"
+  },
+  "text": "112\nMeissner, Johann, Schneider, Halden 283.\n— geb. Süß, Elise, Pelzgasse 106.\nMeister, Georg, Bäcker und Wirt, [tel] Graben 218.\n— Jakob Emil, Adjunkt, Bahnhof 803.\n— Geschwister, Maria und Emilie, Wirtinnen. Speisewirtschaft zur\n  Telli 857.\nMellert, Heinrich, Lithograph, Bachstraße 1066.\nMerz, Flora, Postangestellte, Schachen 1138.\n— -Gautschi, Luise, Witwe, Schachen 1138.\n— Hermann, Zuckerwaren-Fabrikant, Zeughausstraße 666.\n— Jakob, Part., Schmiedgasse 394.\n— Jakob, Taglöhner, Adelbändli 173.\n— Johann, Coiffeur, Bahnhofstraße 621.\n— Marie, Damenschneiderin, Schachen 1117.\n— geb. Ruh, Margaretha, Witwe, Part., Asylstraße 1146.\n— Sebastian, Notar, [tel] Bachstraße 1074.\n— -Seiler, Anna Maria, Rain 441.\n— & Suter (Hermann Merz und Jost Suter), Zuckerwarenfabrik,\n  Bahnhofstraße 628.\n— Traugott, Telegrapharbeiter, Flößerstraße 1167.\n— Walter, Dr. jur., Ober Richter, Gartenstraße 1429.\nMerzler-Gutjahr, Karoline, Part., Rathausgasse 26.\n— Karoline, Frl., Part., Rathausgasse 26.\nMeteorologische Station, Entfelderstraße 1404.\nMetzger, Friedrich, Lehrer, Rain 451.\nMichel, Katharina, Spetterin, Golattenmattgasse 251.\nMilitärkanzlei, Zeughausstraße 678. [tel]\nMinder, Fritz, Taglöhner, Milchgasse 156.\nMittelschweizerische geogr.-kommerzielle Gesellschaft in Aarau.\n  Präsident: Dr. A. Stähelin, Küttigerstraße 1261.\nMöller, Ernst August, Büchsenmacher, Scheibenschachen 1331.\nMösch geb. Gasser, Maria, Wwe., Part., von Frick, Kroneng. 46.\n— Heinrich, Koch, vordere Vorstadt 341.\n— Karl, Güterexpedient, Rain 441.\nMollett, Gottfried, Schneider, Weinberg 1280.\nMontandon, Paul, Commis, Scheibenschachen 1322.\nMoor, Ernst, Geometer, Buchserstraße 981.\nMorach, Jakob, Fabrikaufseher, Küttigerstraße 1257.\nMorath, Johann, Kaufmann, Part., Pelzgasse 105.\n— -Stirnemann, Wendolin, Kaufmann, Rathausgasse 3. [tel]\nMorf, Jakob, Schneider, Hammer 190.\nMorgan, Henry, nordamerikanischer Konsul, Laurenzenvorstadt 737.\nMoser, Karl, Architekt, Bureau Laurenzenvorstadt 745. [tel]\nMosimann, Gottfried, Bahnangestellter, hinter dem Bahnhof 1008.\n— Johann, Bahnarbeiter, hinter dem Bahnhof 1007.\nMühlberg, Fritz, Dr. phil., Professor, Rain 499.\nMühlhaupt-Fehlmann, Ernst, Zeichner, Rathausgasse 6.\nMüller, Albertine, Ladendienerin, Halden 279.\n— Albert, Ausläufer, Schmiedgasse 393.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 35701,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2279,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:45:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p125",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p125.jpeg",
+      "bytes": 886758,
+      "sha256": "8b80e71332fc564ae633b6d605035547c46240f5d721a4a71dfdfb80c3b75afc",
+      "sha256_of": "original",
+      "working_copy": "1901_p125.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:45:01+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p151",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p151.jpeg",
+    "bytes": 737952,
+    "sha256": "cde1e0faada1ee2f2c165ab4a630727809737da6708e1d1d25fe1e42a05099fc",
+    "sha256_of": "original",
+    "working_copy": "1901_p151.jpeg"
+  },
+  "text": "138\nBaugeschäfte.\nMüller, Arnold,* jenseits der Aare 1236.\n— Sigmund, hinter dem Bahnhof 1039.\nSchäfer, Adolf,* Buchserstraße 794.\nSchmuziger, Johann,* jenseits der Aare 1227.\nZschokke, M.,* Rohrerstraße 903. (Siehe Inserat Seite 30.)\nBaumwolltuchfabrikation.\nOboussier & Comp.,* Graben 232.\nBadanstalten.\na. In Aarau.\nFlußbadanstalt Aarau, jenseits der Aare 1235.\nTrefzger, Gustav, hinter dem Platz (Färbergäßchen) 237.\nb. In der Umgebung.\nSt. Laurenzenbad in Erlinsbach.\nBad in Gränichen.\nBad in Oberentfelden.\nBad in Schinznach.\nBäcker.\nBaumgartner, Anton, Zollrain 56.\nBolli, Jakob, Pelzgasse 89\nBolliger, Albert, Milchgasse 156.\nBuser, Emil, Metzgergasse 67.\nFehlmann, Kaspar, Rathausgasse 27.\nFrey-Rohner, Robert,* Zollrain 52.\nGuggisberg, Emil,* Bahnhofstraße 619.\nHäny, Hermann, Kirchgasse 37.\nHässig, Friedrich, Rathausgasse 28.\nHemmeler, Oskar,* vordere Vorstadt 326.\nHug, Samuel, vordere Vorstadt 330.\nLanz, Otto, Rain 444.\nMatter, Adolf, Schmiedgasse 387.\nMeister, Georg,* Graben 218.\nRüetschi, Max, Pelzgasse 103.\nRüthi, Vinzenz, obere Vorstadt 516.\nSchar, Hermann, Zieglerain 426.\nSeiler, Oskar, Rathausgasse 30.\nSiegrist, Albert, obere Vorstadt 544.\nSimmen, Emil,* Rathausgasse 9.\nSommerhalter, Gottlieb, Metzgergasse 78.\nWidmer, Rudolf,* obere Vorstadt 552.\nBaumwolltuchhandlungen (en gros).\nOboussier & Cie.,* Graben 232.\n(Im weiteren siehe Tuchhandlungen.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 57330,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1374,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 30.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0022,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:57:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p151",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p151.jpeg",
+      "bytes": 737952,
+      "sha256": "cde1e0faada1ee2f2c165ab4a630727809737da6708e1d1d25fe1e42a05099fc",
+      "sha256_of": "original",
+      "working_copy": "1901_p151.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:57:01+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p006",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p006.jpeg",
+    "bytes": 704359,
+    "sha256": "f6f9b09218c5ea087252c760b298c40de718ec355230d35c85b4976c62ae9ec6",
+    "sha256_of": "original",
+    "working_copy": "1901_p006.jpeg"
+  },
+  "text": "Nützliche Adressen auswärtiger Geschäftsfirmen.\n\nSeite\nA.-G. der mech. Strickereien (vorm. Zimmerli & Co.) in Aarburg  32\nAltorfer & Lehmann in Zofingen  16\nBank in Zofingen  6\nEffingerhof, A.-G., Typograph. Kunstanstalt in Brugg  21\nEhrensperger-Wintsch, J., Café-Rest. du Pont in Zürich  7\nEpprecht, E., Buchdruckerei, Brugg  29\nErsparniskassa in Olten  26\nFreudweiler, Emil, Spielwaren, Zürich I, Strehlgasse  10\nHagmann, Adolf, Schuhwarenhandlung, Schönenwerd  3\nHelbling, C., Generalversicherungsagentur, Zürich II  4 u.14\nHuggler, Plüss & Co., Informations- und Inkasso-Bureau\n  „Prudentia“, Zürich I  2\nJäckle-Schneider, Gravir- und Prägeanstalt, Zürich  15\nMagazine zum Wilden Mann in Basel  9\nMeyer, Karl, Buchhandlung in Zofingen  19\nPolytechnische Verlagsanstalt A. G. in Bern  VIII\nSimmen, Traugott, Möbel- und Bettwaren, in Brugg  20\nSommerhalder, J., Zahnarzt in Lenzburg  22\nSpecker's Witwe, H., Gummiwarenfabrik in Zürich  20\nSpielmann, Ed. & Sohn, Bandagisten in Olten  22\n„Tagesanzeiger“ für Stadt und Kanton Zürich in Zürich  1\nWeber, Franz Carl, Spielwaren, in Zürich  12\nWiedemann, A. C., Handelsschule, Basel  hint. innere Deckelseite",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28432,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1156,
+    "lines": 25,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0026,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T10:59:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p006",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p006.jpeg",
+      "bytes": 704359,
+      "sha256": "f6f9b09218c5ea087252c760b298c40de718ec355230d35c85b4976c62ae9ec6",
+      "sha256_of": "original",
+      "working_copy": "1901_p006.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T10:59:13+00:00"
+  }
+}

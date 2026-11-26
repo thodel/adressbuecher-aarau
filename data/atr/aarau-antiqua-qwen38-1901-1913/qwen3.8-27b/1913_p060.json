@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p060",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p060.jpeg",
+    "bytes": 891639,
+    "sha256": "eb3d15fb1fa5a7a3e59b9e37510b8e65e63ec1f468217af7162fe3d16eb02ab5",
+    "sha256_of": "original",
+    "working_copy": "1913_p060.jpeg"
+  },
+  "text": "— 42 —\nHaus-\nNr.\n1499 Geßner-Siegfried, Aug., Professor Dr., Zürich [tel].\n1898 Waßmer-Kummler, Emil, Privatier.\n— Bertha.\n1616 Hemmeler-Heß, Wilhelm, Postbeamter.\nLienhard-Keller, Karl, Postbeamter, Holziken.\nHeß-Rubli, Rob., Privatier, Wald.\n— Elsa, Telephonistin, \"\n1722 * Ammann, Rob., Architect.\nBaumann-Imhof, Anton, Ingenieur, Wasser (Uri).\n1633 Fischer-Peter, Anna Wwe., Privatin.\n1632 Schaffner-Schöler, Jak., Gerichtskassier, Effingen.\n1667 Diebold-Heller, Max, zoolog. Präparatorium, Baden [tel].\n1756 Hoffmann-Fröhlich, Emil Adolf, Musikdirektor.\nKeller, Josephine, Magd, Waldshut.\nGreber, Friedr., Elekt.-Techniker, Reichenbach (Bern).\n1734 Kübler-Schöni, Robert, Prediger, Wilchigen.\nSchöni-Heiniger, Verena, Privatin, Sumiswald.\n— Paulina, Sumiswald.\n1776 * Eckert & Sohn, Baugeschäft.\nTruan-Wullschleger, Eduard, Professor, Vallorbe.\n1777 * Eckert & Sohn, Baugeschäft.\nMellmer-Hurath, Joh., Kaufmann, Mainz.\nHubrath-Altlay, Friederike, Privatin, \"\nPfanmatter, Theophil, Kaufmann, Eischoll (Wallis).\n1778 Dengler-Hemmeler, Herm., Buchdruckereibesitzer [tel].\n1769 Müller-Haussener, Adolf, Küchengef., Schloßrued.\nKonsumverein Aarau, Filiale.\n1716 Meister-Landolt, Hans, Bezirkskatastergemometer, Dachsen.\n— Richard, Geometer, Dachsen.\nSchneider. Emil, Prof., Seeberg (Bern).\n1816 Haßler-Steiner, Hch., Fürsprech, Direktor des aarg. Ver-\nsicherungsamtes [tel].\nZelglistrasse.\n502 Döbeli-Binder, Samuel, Bezirkslehrer, Seon.\n1832 Riniker-Zulauf, Fritz, Bahnbeamter S. B. B., Schinznach.\n1861 Siegwart-Schuler, Paul, Architect, Lehrer am Gewerbemuseum,\nAltorf (Uri).\n1842 Stapfer-Däster, Joh., Privatier.\nLenzin, Sophie, Privatin.\nWiederkehr, Elise, Bureaulistin, Gontenschwil.\n1694 * Baugeschäft M. Zschocke A.-G.\nRiniker-Müri, Gottlieb, Obergerichtskanzlist, Schinznach-Dorf.\nRaab, Alfred, Lithograph, Nürnberg.\nLeist-Frascoli, Ernst, Kaufmann, Oberbipp.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17324,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1868,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:49:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p060",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p060.jpeg",
+      "bytes": 891639,
+      "sha256": "eb3d15fb1fa5a7a3e59b9e37510b8e65e63ec1f468217af7162fe3d16eb02ab5",
+      "sha256_of": "original",
+      "working_copy": "1913_p060.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:49:27+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p214",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p214.jpeg",
+    "bytes": 975087,
+    "sha256": "44fbd0523440a2dc2fa9736265ab5c22108967428da030c0fe54ad7229ba3c86",
+    "sha256_of": "original",
+    "working_copy": "1913_p214.jpeg"
+  },
+  "text": "— 172 —\nStephani, Marie. Ziegelrain 416.\n— -Heckmann, Wilhelmine, Witwe, Privatin. Ziegelrain 416.\nSterchi-Berger, E. Joh., Salzer, Vechigen. Rohrerstraße 1773.\nStetter, Gisela, Haushälterin, Oberzell (Bayern). Gasstraße 1173.\nSteuerverwaltung. [tel] Rathausgasse 1.\nStierli, Bertha, Ladentochter. Kirchhof 161 b.\n— -Brentano, Goar Leonz, Fürsprech und Notar. Laurenzenvor-\n  stadt 796.\n— — Goar Lz., Fürsprech und Notar, Advokatur- und Notariats-\n  bureau. Graben 228.\n— -Häny, Samuel, Ausläufer. Kirchhof 161 b.\n— Xaver, Kommis, Aristau. Bachstraße 1069.\nStierlin-Oboussier, Herm., Ingenieur, Schaffhausen. Feldwacht-\n  straße 1626.\nStigeler-Hammann, Franz, Bureauchef, Rekingen. Zschokkestr. 1426.\n— -Schaub, Margaretha, Rekingen. Zschokkestraße 1426.\nStilli-Roth, Gottlieb, Taglöhner, Bözen. Milchgasse 154.\n— Jakob, Knecht, Bözen. Stritengäßchen 1217.\n— -Lüscher, Johann, Taglöhner, Bözen. Stritengäßchen 1217.\nStiner-Walter, Gottlieb, Maschinist, Unter-Entfelden. Erlinsbacher-\n  straße 1309.\n— -Erisman, Marie, Witwe, Part. Hohlgasse 1373.\nStirnemann-Lanz, Alfred, Fabrikarbeiter, Gränichen. Rain 433.\n— Amalie, Portière, Gränichen [tel]. Buchserstraße 956.\n— Anna, Gränichen. Metzgergasse 79.\n— -Wanner, Friedrich, Abwart, Gränichen. Bahnhofstraße 592.\n— Gotthold, Schreiner, Gränichen. Ziegelrain 405.\n— -Gysi, Jakob, Zimmermann, Gränichen. Golattenmattgasse 255.\n— Jakob, Gränichen. Metzgergasse 79.\n— -Utz, Johann, Schreiner, Gränichen. Halden 283.\n— Marie, Ladentochter, Gränichen. Metzgergasse 79.\n— Otto, Gränichen. Metzgergasse 79.\n*— -Kaufmann, Otto, Chefmonteur, Gränichen [tel]. Gasstraße 1169.\n*— & Sandmeier, Advokatur- und Notariatsbureau [tel]. Bahnhof-\n  straße 1813.\n— -Henzmann, Theresse, Witwe, Gränichen [tel]. Milch-, Holz- und\n  Kohlenhandlung. Metzgergasse 79.\n— Theresse, Gränichen. Metzgergasse 79.\nStöger, Anna, Bureaulistin, Alt Transberg (Bayern). Ziegelrain 416.\nStöckli, Elisabeth, Haushälterin, Muri. Kasinostraße 654.\n— Stephan, Dekan, Muri [tel]. Kasinostraße 654.\nStocker-Feyer, Peter, Werkmeister, Obermumpf. Schachen 1136.\nStoffel, Lisa, Bureaulistin, Lindau (Bayern). Oberholzstraße 482.\nStohler, Marie, Kirchheim (Würtbg.). Zelglistraße 1700.\nStolz-Windisch, Wilhelm, Kaufmann, Eckwil-Mägenwil. Laurenzen-\n  vorstadt 765\nStraßer-Hug, Eduard, Obermüller. Scheibenschachen 1289.\nStrebel, Erwin, Schreiner, Wohlenchwil. Oberholzstraße 476.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 80229,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2381,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:54:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p214",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p214.jpeg",
+      "bytes": 975087,
+      "sha256": "44fbd0523440a2dc2fa9736265ab5c22108967428da030c0fe54ad7229ba3c86",
+      "sha256_of": "original",
+      "working_copy": "1913_p214.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:54:52+00:00"
+  }
+}

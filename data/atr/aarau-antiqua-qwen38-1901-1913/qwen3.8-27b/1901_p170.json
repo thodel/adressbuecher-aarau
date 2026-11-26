@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p170",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p170.jpeg",
+    "bytes": 741850,
+    "sha256": "c8da7f41afb53d4619ae5a4ba191141e20126e7d24350387e8bc90072f9c4b6d",
+    "sha256_of": "original",
+    "working_copy": "1901_p170.jpeg"
+  },
+  "text": "157\nLingeriewaren.\nBolliger-Manger,* hintere Vorstadt 366.\nErдин, Albin,* Rathausgasse 13.\nErismann & Blattner, Asylstraße 1147.\nErny-Faßler & Sohn,* Kronengasse 42. (Siehe Inserat Seite 25.)\nFehlmann-Blattner, Anna, Bahnhofstraße 634.\nGsell-Adam, Mina, Rathausgasse 11.\nFrey-Kieser, Johanna, Rathausgasse 10. (Siehe Inserat Seite 7.)\nHeß, Gebr.*, zur Stadt Mühlhausen, Rathausgasse 5.\nSchmid-Fischer,* Heinrich, Laurenzenthorgasse 114.\nZuberbühler, J., Filiale, Zollrain 54.\nLinieranstalt.\nZebert, Georg,* Laurenzenthorgasse 119.\nLithographische Anstalten.\nKohlmann & Läubli, Bachstraße 1103.\nMüller & Trüb,* Bahnhofstraße 578.\nWittmer, Julius, Rain 433.\nLiqueurfabrikanten.\nBrunnhofer, Aug.*, Zollrain 63.\nMaler.\nBirchmeier, August, Laurenzenvorstadt 793.\nDäster, Gottfried, Schloßplatz 200.\nFuchs, Franz, Golattenmattgasse (Milchgasse) 152.\nGysi, Emil, obere Vorstadt 542.\nHäele, Emil, Rathausgasse 12.\nHäusler, Angelus, Flößerstraße 1194.\nHaßler, Gustav, Casinostraße 659.\nRebmann, Karl, Rain 495.\nSchmuziger, Traugott, Rain 441.\nSpychiger & Schuppli, Bleichemattstraße 1021. (S. Inserat Seite 10.)\nZuberbühler, Johann, Rohrerstraße 881.\nManufakturwarengeschäfte.\nDreifuß, Emil,* Graben 207.\n— Albert,* vordere Vorstadt 353.\nErдин, A., Rathausgasse 13.\nGamper & Cie.,* Rathausgasse 31.\nGisi-von Arx,* Holzmarkt 321.\nHaßler, Walter,* Graben 208.\nHeß, Gebr.,* Rathausgasse 5.\nHoffmann, Arnold, vordere Vorstadt 332.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 79813,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1417,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:04:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p170",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p170.jpeg",
+      "bytes": 741850,
+      "sha256": "c8da7f41afb53d4619ae5a4ba191141e20126e7d24350387e8bc90072f9c4b6d",
+      "sha256_of": "original",
+      "working_copy": "1901_p170.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:04:08+00:00"
+  }
+}

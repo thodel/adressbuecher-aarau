@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p009",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p009.jpeg",
+    "bytes": 821394,
+    "sha256": "81c99e7ba07b9e7451108d894c761f8b98e6d6dcbe41230619b555bb078385ee",
+    "sha256_of": "original",
+    "working_copy": "1913_p009.jpeg"
+  },
+  "text": "— V —\n\nSeite          Haus-Nummern\nSpitalgäßli . . . . . 41 1499, 1616, 1632/33, 1652, 1667, 1710,\n  1716, 1722, 1734, 1756, 1769, 1776/78,\n  1816, 1896, 1898.\nStadthöffli . . . . . . . 9 82 a/88.\nStritengäßchen . . . . 86 1150/52, 1156, 1159, 1162, 1196, 1200,\n  1205, 1208/09, 1213, 1216/20, 1533 a\n  und b, 1576, 1753.\nTelli . . . . . . . . . 40 840/76, 1629, 1636, 1771, 1878.\nTellirain . . . . . . . 59 834/37, 1498, 1554, 1774.\nTellstraße . . . . . . 75 1611, 1723, 1884, 1903.\nTorfeldstraße . . . . 66 941/51, 1609.\nVordere Vorstadt . . 28 322/353.\nWeinberg . . . . . . . 90 1278/84.\nWeltistrasse . . . . . 81 1443/44, 1486, 1590/92, 1612, 1643,\n  1651, 1843, 1863/64.\nWestalee-Neugut . . 75 1332, 1474, 1497, 1552/53, 1587, 1605/6,\n  1625, 1637, 1642, 1647, 1654, 1682,\n  1692, 1696, 1713, 1868.\nWiesenstraße . . . . 66 1291/93, 1735, 1752, 1892/95, 1902.\nZelglistrasse . . . . 42 502, 1523, 1631 a u. b, 1694, 1699, 1700,\n  1718, 1724, 1804, 1832, 1838/42, 1850,\n  1861, 1865.\nZeughausstraße . . . 54 663/680.\nZiegelrain . . . . . . 34 395/428.\nZollrain . . . . . . . 6 51/64.\nZschokkestraße . . . 79 1421, 1423, 1426/27.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 52005,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1130,
+    "lines": 28,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:23:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p009",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p009.jpeg",
+      "bytes": 821394,
+      "sha256": "81c99e7ba07b9e7451108d894c761f8b98e6d6dcbe41230619b555bb078385ee",
+      "sha256_of": "original",
+      "working_copy": "1913_p009.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:23:40+00:00"
+  }
+}

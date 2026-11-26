@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p154",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p154.jpeg",
+    "bytes": 971463,
+    "sha256": "0959624fa99982689202de65a61284fc2bcf6db6747716af92bdf9a775e9d5c5",
+    "sha256_of": "original",
+    "working_copy": "1913_p154.jpeg"
+  },
+  "text": "— 112 —\n*Erne & Cie.  Colonialwarengeschäft en gros, Bureau und Maga-\n  zin [tel]. Feerstraße 690.\n— -Leblanc, Eduard, Kaufmann [tel]. Feerstraße 689.\nErni-Wasser, Wilhelm, Cementmüller, Nieder-Gösgen (Solothurn).\n  Milchgasse 151.\nErnst-Bachhofer, Alfred, Maler.  Metzgergasse 74.\n— Dr. jur., August, Bezirksgerichtspräsident.  Vord. Vorstadt 332.\n— August, Bierbrauer.  Vordere Vorstadt 329.\n— -Lehmann, Elisabeth, Witwe, Privatin.  Milchgasse 133.\n— -Meier, Emil, Klaviermacher, Würenlos.  Hintere Bahnhof-\n  straße 1624.\n— Emmy.  Vordere Vorstadt 329.\n— Eugen Jb., Architekt.  Weltistraße 1863.\n— Fanny.  Vordere Vorstadt 329.\n— -Rey, Gustav, Privater.  Bleichemattstraße 1025.\n— -Dürr, Hermann, Schuhmachermeister.  Halden 260.\n— Jakob, Fabrikarbeiter, Kölliken.  Entfelderstraße 1400.\n— -Pfisterer, Lina, Witwe.  Vordere Vorstadt 329.\n— Marie, Ladentochter, Würenlos.  Hintere Bahnhofstraße 1624.\n*Erny-Bauer, C., Kaufmann [tel].  Magazine zu den vier Jahreszeiten:\n  Mercerie, Bonneterie, Chemiserie, Nouveautés, Corsets, Hand-\n  schuhe.  Filiale Bahnhofstraße.  Kronengasse 42.\n*— — C., Filiale, Magazine zu den vier Jahreszeiten: Chemiserie,\n  Bonneterie, Cravatten, Herrenmodeartikel.  Hauptgeschäft\n  Kronengasse.  Bahnhofstraße 1812.\n— -Vonwiller, Ida, Armenpflegers Witwe [tel].  Jurastraße 1490.\nErziehungsdirektion [tel].  Regierungsgebäude.\nEtter-Hägi, Witwe, Privatin, Langrickenbach.  Rain 506.\n— -Zurfluh, Reinhard, Milch-, Käse- u. Butterhandlg. [tel] Rain 434b.\nEtterlin-Häni, Hermann, Lok.-Heizer S. B. B., Muri.  Hintere Bahn-\n  hofstraße 1034.\nEvangelische Gemeinschaft der Schweiz.  Buchserstraße 918.\nEvangelischer Verein, Kapelle.  Bahnhofstraße 567.\n— — Pfarrhaus.  Bahnhofstraße 561.\n\nFäs-Bircher, Anna, Witwe, Schöftland.  Rathausgasse 28.\n— -Huber, Anna, Witwe, Ober-Kulm.  Rain 501.\n— -Otter, Anna, Witwe, Fadenwinderin, Unt.-Kulm.  Ziegelrain 424.\n— -Lüthi, Gottlieb, mechanische Bauschlosserei, Schöftland.  Obere\n  Vorstadt 527.\n— -Kyburz, Walter, Bureauangestellter, U.-Kulm.  Milchgasse 136.\nFaccani, Giacinto, Kostgeberei, Fortico (Ital.).  Stadthöfli 84a u. 85.\nFahrländer-Hunziker, Augusta, Privatin, Laufenburg [tel].  Laurenzen-\n  vorstadt 720.\n— -Johannes, Eugen, Ingenieur.  Rain 489.\n— -Brügger, Fritz, Instruktionsoffizier.  Bahnhofstraße 632.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 49290,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2289,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.33,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:18:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p154",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p154.jpeg",
+      "bytes": 971463,
+      "sha256": "0959624fa99982689202de65a61284fc2bcf6db6747716af92bdf9a775e9d5c5",
+      "sha256_of": "original",
+      "working_copy": "1913_p154.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:18:15+00:00"
+  }
+}

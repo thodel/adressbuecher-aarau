@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p228",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p228.jpeg",
+    "bytes": 921148,
+    "sha256": "6f69be05f1b40fad124f093e387595a272440dc856431c3a3d18bb42ee89d0d8",
+    "sha256_of": "original",
+    "working_copy": "1913_p228.jpeg"
+  },
+  "text": "— 186 —\nWullschleger-Marti, Otto, Zeughausarbeiter, Vordemwald. Ziegel-\n  rain 397.\nWyder-Brast, Anna, Witwe, Privatin, Zürich. Rain 454.\n— Lina, Zürich. Rain 454.\nWydler, Arthur, Kaufmann. Rathausgasse 4.\n— -Fischer, Witwe, alt Bezirkslehrers, Affoltern. Zschokkestr. 1427.\n— Bertha, Affoltern. Zschokkestraße 1427.\n— Hechinger, Hans, Reisender. Schmiedgasse 385.\n— Ludwig, Schreiner. Rathausgasse 4.\n— -Fischer, Minna, Witwe, Privatin. Rathausgasse 4.\n— -Wehri, Rosa. Flößerstraße 1184.\n— -Zäch, Viktor, Dr. med., Affoltern (Zürich) [tel]. Entfelder-\n  straße 1405.\nWycler, Frieda, Endingen. Buchserstraße 972.\n— Jakob, Kaufmann, Endingen. Buchserstraße 972.\n— Lina, Endingen. Buchserstraße 972.\n— Otto, Kunstmaler, Neu-Endingen. Vordere Vorstadt 350.\n*— -Guggenheim, Raphael, Manufakturwarenhandlung, Neu-\n  Endingen. Vordere Vorstadt 350.\n— -Bollag, Wilhelm, Viehhändler, Endingen [tel]. Buchserstr. 972.\n— Wilhelm, Kaufmann, Neu-Endingen. Vordere Vorstadt 350.\n*Wynentalbahn, A. G. Bureau [tel]. Buchserstraße 987.\n* — — Stationsgebäude [tel]. Bahnhofstraße 831 b.\nWyser, Alfred Otto, Chemiker. Bahnhofstraße 575.\n— -Müller, Marie, Witwe, Part. Bachsraße 1104.\nWyß-Schwaller, Benda, Gießer, Kappel. Industriestraße 929.\n— -Willener, Eugen, Lok.-Führer S. B. B., Kappel. Buchser-\n  straße 1758.\n— -Schenk, Friedrich, Landwirt, Rohrbach. Goldern 1472.\n— -Jäggi, Friedrich, Landwirt, Rohrbach. Goldern 1472.\n\nZähner-Landolt, Emil, Buchhalter, Horn. Bahnhofstraße 603.\n— -Brunnhofen, Nanette, Witwe, Privatin, Hemmiken. Halden 264.\nZährin-Thommen, Elisab., Seidenbandweberin, Diepflingen. Bahn-\n  hofstraße 562.\nZach-Gerhardt, Karl, Schuhmachermeister, Leibnitz (Oesterreich).\n  Vordere Vorstadt 351.\nZandi, Giuseppe, Handlanger, Medecina (Italien). Adelbändli 170.\nZangerl-Portmann, Johann, Maurerpolier, Flirsch (Tirol). Ziegel-\n  rain 426.\nZebert-Altorfer, Elise, Privatin, Bauma [tel]. Bahnhofstraße 574.\n— Rosa, Privatin, Bauma. Bahnhofstraße 574.\nZeender-Schäfer, Louis, Schriftsetzer, Köniz (Bern). Schmied-\n  gasse 385.\nZehnder-Scherer, Bernh, Xaver, Schuhmachermeister, Döttingen.\n  Halden 264.\n— -Lüscher, Bertha, Witwe, Holziken. Rathausgasse 10.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 46249,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2158,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:03:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p228",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p228.jpeg",
+      "bytes": 921148,
+      "sha256": "6f69be05f1b40fad124f093e387595a272440dc856431c3a3d18bb42ee89d0d8",
+      "sha256_of": "original",
+      "working_copy": "1913_p228.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:03:45+00:00"
+  }
+}

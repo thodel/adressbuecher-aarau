@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p161",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p161.jpeg",
+    "bytes": 952530,
+    "sha256": "c1bab0b6cc6429f43f337f2dca91847cfb471ef10fef0422f0b4a152752363e9",
+    "sha256_of": "original",
+    "working_copy": "1913_p161.jpeg"
+  },
+  "text": "— 119 —\nGantner-Lehmann, Gottlieb, Milchhändler.  Schloßplatz 202.\n— -Brack, Hermann, Landwirt.  Zeglistraße 1523.\nGardenghi, Armando, Handlanger, Imola (Ital.).  Adelbändli 166.\nGarganigo-Parolini, Giuseppe, Südfruchthändler, Nesso (Italien).\n  Spezeriehandlung.  Obertor 242.\n— Ido, Nesso (Italien).  Obertor 242.\n— -Caprani, Ubaldo, Gipser, Nesso.  Vordere Vorstadt 342.\n*Gasbeleuchtungsgesellschaft Aarau.  Gasfabrik [tel].  Gasstrasse 1173.\n— — Verkaufslokal [tel].  Graben 216.\nGaß-Bürgin, Jakob, Bierführer, Rothenfluh (Baselland).  Rathaus-\n  gasse 25.\n— -Spieß, Jakob, Gasarbeiter, Oltigen.  Ziegelrain 413.\nGautier-Ernst, Paul, Instruktionsoffizier, Genf [tel].  Laurenzenvor-\n  stadt 768.\nGautschi, Anna, Wirtin, Reinach.  Hintere Bahnhofstrasse 1005.\n— -Hochuli, Arnold, Magaziner, Gontenschwil.  Bahnhofstrasse 626.\n— Gertrud, Bureaulistin.  Buchserstrasse 954.\n— Irma, Haushälterin, Reinach.  Laurenzenvorstadt 800.\n— -Siebenmann, Karoline, Witwe, Privatin.  Hintere Vorstadt 366.\n— Lina.  Telli 876.\n— Marie, Dienstbote, Reinach.  Weinberg 1279.\n— Martha.  Telli 876.\n— -Heiz, Otto, Gärtner, Reinach.  Tellstrasse 1723.\n— -Roth, Rudolf, Landwirt.  Telli 876.\n— Rudolf, Landwirt.  Telli 876.\n— -Siegrist, Dr. Walter, Stadtschreiber, Gontenschwil.  Laurenzen-\n  vorstadt 793.\nGebel-Wilhelm, Eduard, Uhrenhandlung, Rodern (Baden).  Bahnhof-\n  strasse 560.\nGehrig-Roth, Magdalena, Ammerswil.  Flößerstrasse 1188.\n— Walter, Hilfsmonteur, Ammerswil.  Flößerstrasse 1188.\nGeier, Oskar, Ingenieur, Ramsen (Schaffh.) [tel].  Bahnhofstrasse 578 b.\nGeiger-Ernst, Emilie, Witwe, Flirsch (Tirol).  Schachen 1139.\nGeißbühler-Tschumi, Johann, Heizer, Lauperswil.  Scheiben-\n  schachen 1671.\nGeißeler, Elise, Spetterin, Willisau.  Hintere Vorstadt 378.\nGemeindekanzlei [tel].  Rathausgasse 1.\nGemeindeschulhaus [tel].  Bahnhofstrasse 571.\nGentner, Marie, Köchin.  Graben 214.\n*Gerber-Wüthrich, Emil, Bierhalle z. Affenkasten [tel].  Hintere Vor-\n  stadt 361 und Vordere Vorstadt 329.\n*— -Seiler, Gustav, March-Tailleur [tel].  Zivil- u. Militärschneiderei.\n  Vordere Vorstadt 327.\n*— -Walther, Hans, Hotel Gerber Terminus [tel].  Vertretung des\n  Norddeutschen Lloyd Bremen und der Continental Bodega.\n  Bahnhofstrasse 575.\nGerodetti, Angiolina.  Hintere Bahnhofstrasse 1041.\n— -Heuberger, Cecchino, Bildhauer.  Kasinostrasse 641.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 25449,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2329,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:22:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p161",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p161.jpeg",
+      "bytes": 952530,
+      "sha256": "c1bab0b6cc6429f43f337f2dca91847cfb471ef10fef0422f0b4a152752363e9",
+      "sha256_of": "original",
+      "working_copy": "1913_p161.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:22:21+00:00"
+  }
+}

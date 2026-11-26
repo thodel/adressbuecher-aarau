@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p170",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p170.jpeg",
+    "bytes": 1007303,
+    "sha256": "6351f95a584c5f9ad24829dab18655ee8c0a60df52d285164a6c360afb6bc986",
+    "sha256_of": "original",
+    "working_copy": "1913_p170.jpeg"
+  },
+  "text": "— 128 —\nHedinger, Dr., Oskar, Sekretär der Handelskammer, Wilchingen\n  (Schaffhausen).  Jurastraße 1490.\nHeer-Wildi, Emma, Witwe, Part., Zürich.  Westallee Neugut 1637.\n— Ernst, Konsul von Argentinien, Zürich.  \"        \"        1637.\n*\nHefti, Fridolin, Reisender, Ennenda (Glarus).  Laurenzentorg. 120.\nHegnauer, Frieda, Laurenzenvorstadt 701.\n— -Tenscher, Friedrich, Mechaniker, Seengen.  Telli 871.\n— Fritz, Kaufmann, Laurenzenvorstadt 701.\n— Hanna, Laurenzenvorstadt 701.\n— -Renold, Luise, Privatin, Laurenzenvorstadt 701.\n— Marie, Laurenzenvorstadt 701.\n— Rosa, Laurenzenvorstadt 701.\n*— Rud., Aktienges., Aarau.  Hutgeflechtfabrik [tel].  Hammer 196.\n— Rud., Kaufmann, Hohlgasse 1836.\n— -Renold, R., Fabrikants Erbschaft, zum Schloßgarten [tel].  Lau-\n  renzenvorstadt 701.\nHegner-Widmer, Joh., Souschef, Galgenen.  Bahnhofstraße 803.\n  Heilsarmee-Lokal, Rain 507.\n*\nHeimbürger-Gautschi, Ludwig, Konfiseur, Kolmar.  Halden 305.\nHeimgartner-Hauser, Emil, Käse- und Butterhandlung, Fislisbach.\n  Kasinostroße 643.\n*\nHeindi-Pluß, Mathilde, Damenschneiderin, Murgenthal.  Milchg. 150.\n— Mathilde, Glätterin, Murgenthal.  Milchgasse 150.\n— Max, Fabrikarbeiter, Murgenthal.  Milchgasse 150.\nHeiniger-Neuenschwander, Ernst, Turnlehr., Eriswil.  Zelglistr. 1838.\nHeiz-Neesser, Cornelius, Kontrolleur, Menziken.  Rohrerstraße 891.\n— -Hediger, Otto, Souschef, Menziken.  Rohrerstraße 891.\nHelbling, Dr., Alfred, Bez.-Lehrer, Rapperswil.  Schloßplatz 203.\nHellenbroich-Kempf, Wilhelm, Ingenieur, Dülken (Preußen) [tel].\n  Bahnhofstraße 578b.\nHeller, Heinrich, alt Gerichtspräsident, Zollrain 61.\n— Margrit, Lehrerin, Zollrain 61.\n*— Oskar, Notar und Sektionschef [tel].  Notariats- und Inkasso-\n  geschäft.  Annoncen-Expedit. Hasenstein & Vogler.  Zollrain 61.\nHelm, Fanny, Wirtin, Oerlikon.  Zollrain 53.\n— -Schmidt, Ida, Damenschneiderin, Oerlikon.  Rathausgasse 12.\nHelmendorfer-Brechbhübl, Jakob, Schriftsetzer, Weinberg 1279.\nHemmeler-Lange, Adelheid, Taglöhnerin, Halden 314.\n*— -Mathys, Alfred, Metzgermeister [tel].  Metzgerei und Wursterei.\n  Vordere Vorstadt 328.\n— -Biedermann, Aug. Fried., Kaufmann, Rain 492.\n— -Schmidt, Bertha, Witwe, Privatin, Zeughausstraße 663.\n*— & Cie., Quincailletrie- u. Spielwarengeschaft en gros [tel].  Hintere\n  Vorstadt 373.\n— -Stähli, Emil, Kaufmann, Hintere Vorstadt 374.\n— -Monhard, Eugen, Telegraphist, Rain 432.\n— -Stahl, Jakob, Privater, Rathausgasse 12.\n— -Wehrli, Jakob, Postbeamter, Westallee Neugut 1625.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 42996,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2452,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0385,
+    "mean_line_chars": 45.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:26:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p170",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p170.jpeg",
+      "bytes": 1007303,
+      "sha256": "6351f95a584c5f9ad24829dab18655ee8c0a60df52d285164a6c360afb6bc986",
+      "sha256_of": "original",
+      "working_copy": "1913_p170.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:26:33+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p194",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p194.jpeg",
+    "bytes": 937140,
+    "sha256": "06aac11973456a4a13887c2bcf6f394017e5eeface14135a6da5ca4b20fcb419",
+    "sha256_of": "original",
+    "working_copy": "1913_p194.jpeg"
+  },
+  "text": "— 152 —\n*Nägelin-Ramstein, Arnold, Liedertswil (Baselland). Fourage- und\n  Getreidehandlung, Futtermittel u. Landesprodukte [tel]. Herzog-\n  straße 1805.\n— — A., Magazine und Bureau [tel]. Herzogstraße 1786.\n— Hans, Kellner, Liedertswil. Herzogstraße 1805.\n— -Gisiger, Louise, Privat., Liedertswil. Herzogstraße 1805.\nNabholz-Benker, Georg, Ingenieur, Winterthur. Feerstraße 681.\nNadig, Clara, Part., Davos. Gartenstraße 1429.\nNadler-Eckert, August, Kaufmann [tel]. Wein- und Spirituosenhand-\n  lung, Drogerie zum Zentral. Bahnhofstraße 555.\n— Gottlieb, Arbeiter, Biberstein. Buchserstraße 956.\n*Naphaly & Sohn, Kleidermagazin zum Einheitspreis. Bahnhof-\n  straße 574.\nNaturhistorisches Museum. Kasinostraße 645.\nNecker, Paul, Kommis, Augsburg. Buchserstraße 984.\nNeesser, Arthur, Metzgermeister, Schöffland [tel]. Metzgerei und\n  Wursterei. Obertor 244.\n— -Suter, Emil, Depotarbeiter und Wirt, Schöffland. Hintere\n  Bahnhofstraße 1034.\n— -Hilfiker, Marie, Witwe, Schloßrued. Milchgasse 143.\n— Martha, Aushilfe, Schöffland. Obertor 244.\n— -Hochuli, Rudolf. Landwirt, Schloßrued. Tellrain 837.\n— -Schneider, Werner, Stadtpolizist, Schloßrued. Schachen 1620.\nNeidhart, Klöthilde, Haushälterin, Obernzell (Bayern). Jenseits der\n  Aare 1246.\nNeumaier, Frieda, Ladentochter Walbach (Deutschland). Bahnhof-\n  straße 557.\n*Neue Aargauer-Zeitung, Redaktion, Administration und Buch-\n  druckerei [tel]. Ziegelrain 399.\nNeuer Freier Aargauer. Redaktion und Administration. Kasino-\n  straße 657.\nNiederhäuser-Markwalder, Emilie, Wäscherei und Glätterei, Eriswil.\n  Metzgergasse 75.\nNiederhauser-Gysin, Theodor, Geschäftsführer, Baselaugst. Herzog-\n  straße 1506.\nNigg-Thuner, Edmund, Monteur, Gersau. Kirchgasse 40.\nNiggli, Elise, Weißnäherin, Aarburg. Rain 446.\n— Paul Hermann, Postbeamter, Aarburg. Adelbändli 172.\nNiklaus-Schmid, Gottlieb, Knecht, Zauggenried. Kirchgasse 39.\nNissen, Marie, Zahnärztin, Kopenhagen. Telli 873.\n„Nivea“, mech. Wäscherei für Kragen und Manchetten (Fabrik in\n  Montreux), Blanchisserie „Nivea“, rue Vuagnard, Montreux.\n  Rathausgasse 11.\nNöthiger-Rüesch, Fritz, Kondukteur S. B. B., Uerkheim. Signal-\n  straße 1762.\nNobst, Paul Hugo, Commis, Dresden. Stritengäßchen 1213.\nNopper-Stirnemann, Verena, Weißnäherin, Gränichen. Entfelder-\n  straße 1404.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 39602,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2269,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:41:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p194",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p194.jpeg",
+      "bytes": 937140,
+      "sha256": "06aac11973456a4a13887c2bcf6f394017e5eeface14135a6da5ca4b20fcb419",
+      "sha256_of": "original",
+      "working_copy": "1913_p194.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:41:28+00:00"
+  }
+}

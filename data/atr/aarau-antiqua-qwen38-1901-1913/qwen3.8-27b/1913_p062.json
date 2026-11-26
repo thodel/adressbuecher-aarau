@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p062",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p062.jpeg",
+    "bytes": 864396,
+    "sha256": "e3ce882a77ad5e3935203e3238f54550c9ddff783cb057ceb4edb5530ea8ced3",
+    "sha256_of": "original",
+    "working_copy": "1913_p062.jpeg"
+  },
+  "text": "— 44 —\nHaus-\nNr.\n1862 Diem-Eisenmann, Karl, Kaufmann, Herisau.\n1548 Widmer-Felber, Joh., Landwirt, Gränichen.\n  — Ida.\n  Bodmer-Dätwyler, Herm., Bahnangest., Ob.-Entfelden.\n1693 Bruggler-Hartmann, Jakob, Sekretär, Auenstein.\n  — Albert, Lehrer, Auenstein.\n  Gruner-Pichler, Otto, Ingenieur, Manichswalde.\n1736 Siegrist-Eichenberger, August, Postbeamter, Vordemwald.\n  Frey-Hemmeler, Hch., Lehrer, Densbüren.\n1869 Meyer-Reist, Rudolf, Kaufmann, Sursee.\n  Reist-Jäggi, Elise. Privatin, Sumiswald.\n1885 Bircher-Hochstraße, Jakob, Kaufmann, Küttingen.\n  Frey-Merz, Traug. Aug.. Bankbeamter, Wohlen.\n  Schönenberg, Emma, Wäscherin, U.-Kulm.\n1757 Blattner-Bircher, Rud., Landwirt, Küttingen.\n  — -Wehrli, Hans, Landwirt, Küttingen.\n\nSignalstrasse.\n1760 Fluri-Suter, Adolf, Kondukteur S. B. B., Balsthal.\n  LÜthy-Von Gunten, Gottl., Kondukteur S. B. B., Holziken.\n1768 Felber-Obst, Joh., Postkondukteur.\n1765 Werder-Abeglen, J. J., Bremser S. B. B., Ober-Endingen.\n1761 Spreng-Wullschieler, Karl, Zugführer S. B. B., Wynigen.\n1762 Nöthiger-Rüesch, Fritz, Kondukteur S. B. B., Werlheim.\n1766 Furter-Furter, Abraham, Zugführer \" \" \" Staufon.\n1767 * Benz, Josef, Zugführer.\n  Frey-Hunziker, Arthur, Bezirkslehrer, Gontenschwil.\n  — -Gloor, Elise, Witwe, Privatin,\n1764 Müller-Stirnmann, Rud., Bremser S. B. B., Nieder-Bipp.\n  — Friedrich, Magaziner, Nieder-Bipp.\n  — Rosa, Ladentochter,\n1763 Karrer-Haas, Gottfried, Kondukteur S. B. B., Teufenthal.\n\nObere Vorstadt.\n509 * Staat Aargau. Regierungsgebäude.\n  Käser-Schütz, Jakob, Rathausabwart, Biberstein.\n513 Wernli-Mumprecht, Fritz, Schreinermeister, mechan. Möbel-\n    schreinerei [tel].\n514 Vogt, Johann, Schuhmacher, Schuhhandlung.\n  Belser-Wyser, Gottlieb, Fabrikarbeiter, Nieder-Gösgen.\n  — Adele, Einlegerin, Nieder-Gösgen.\n515 Sandmeier-Stahel, Arnold, Gasthaus z. Sternen, Seengen [tel].\n  Hochuli, Ida, Köchin, Reitnau.\n517 * Wernli, Fritz, Schreinermeister.\n  Portenier-Frieden, Marie, Wäscherei u. Glättarei, Reichenbach.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 26718,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1973,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:50:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p062",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p062.jpeg",
+      "bytes": 864396,
+      "sha256": "e3ce882a77ad5e3935203e3238f54550c9ddff783cb057ceb4edb5530ea8ced3",
+      "sha256_of": "original",
+      "working_copy": "1913_p062.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:50:23+00:00"
+  }
+}

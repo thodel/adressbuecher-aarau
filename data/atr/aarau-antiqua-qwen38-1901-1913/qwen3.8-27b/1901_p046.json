@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p046",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p046.jpeg",
+    "bytes": 813809,
+    "sha256": "395b2e20d6b0a04cd07265e6f42dc3d021767bf6a8dee4ab7897591edb30ea06",
+    "sha256_of": "original",
+    "working_copy": "1901_p046.jpeg"
+  },
+  "text": "Haus-\nNr.\n458 Offen gelassen.\n459 Rüetschi, H., Glockengiesser. Giessereigebäude.\n460 Offen gelassen.\n461 Märki-Haller, Gottlieb, Mühlenbauer, von Mönthal.\n  Nüesperli-Gysi, Friedrich, Postkommis.\n  Weber, Regina, Part., von Sulz.\n462 Einwohnergemeinde. Jugendfestküche.\n463 Schweiz. Centralbahn. Bahnhüterhäuschen.\n  Fischer-Wilhelm, Johann, Bahnhüter, von Oftringen.\n464 * Berner, Jakob, Schreiner. Wohnhaus.\n  Camisasca, Franz, Part.\n  Ruf, Anna, Haushälterin, von Oberhof.\n  Leu-Furter, Jakob, Bauamtsarbeiter, von Schloßrued.\n  Egloff, Ernst, Buchbinder, von Tägerweilen (Thurgau). Buch-\n  binderwerkstatt.\n465 † Siebenmann, R., Bierbrauer. Faß-Remise.\n466 Keller-Pfister, Sösette, von Oberendingen.\n  — — Fritz, Part., von Oberendingen.\n  Kasper-Stauffer, Siegwart, Postpacker.\n  Widmer-Keller, Gottlieb, Telephonarbeiter, von N.-Erinsbach\n  (Solothurn).\n  Meier-Keller, Xaver, Schreiner, von Dottikon.\n  Keller, Joseph, Part., von Oberendingen.\n467 † Dieselbe. Waschhaus.\n1509 Siebenmann-Merz, Emil, Stadtkassier und Steuerbezüger.\n468 — Walther, Otto Schneider. [tel] Wohnhaus.\n469a † — Otto, Schneider. Wasch- und Holzhaus.\n469b † Walther-Schatzmann, Barbara, Witwe, Holzhaus.\n470 — — Barbara, Part., Wohnhaus.\n  Rudolf-Gross, Maria Hermine, Part., von Rietheim (Basel).\n471 † Walter-Schatzmanns Erbschaft. Scheune (Waltersburg).\n472 † Dieselbe. Scheune und Anbauten \"\n473 † \" Waschhaus \"\n474 † \" Heuschuppen \"\n475 * \" Wohnhaus \"\n  Wyss-Schenck, Friedrich, Landwirt, Pächter, v. Rorbach (Bern).\n476 † Strebel, Eduard, Schreiner, Schopf.\n477 — Eduard, Schreiner, von Bübliken.\n478 Lips-Sager, Kaspar, Postkondukteur, von Urdorf (Zürich).\n  Ritzmann-Anderhub, Jakob, Kommis, von Flaach (Zürich).\n479 Schweizer-Siebenmann, Sophie, Witwe, Part., von Dätwyl.\n  Schmuziger, Lina, Part.\n  Meyer-Stählin, Joh. Jak., Part., von Zürich.\n480 † Dieselbe. Holzhaus.\n481 † Dieselbe. Waschhaus.\n482 * Schweizer-Siebenmann, Sophie, Witwe, Part., von Dätwyl.\n  David-Hunziker, Julie, Witwe, Part., von Basel.\n  Thilke-Hort, Friedrich, Schneider, von Pölle (Hannover).\n35",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29351,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2062,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:15:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p046",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p046.jpeg",
+      "bytes": 813809,
+      "sha256": "395b2e20d6b0a04cd07265e6f42dc3d021767bf6a8dee4ab7897591edb30ea06",
+      "sha256_of": "original",
+      "working_copy": "1901_p046.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:15:22+00:00"
+  }
+}

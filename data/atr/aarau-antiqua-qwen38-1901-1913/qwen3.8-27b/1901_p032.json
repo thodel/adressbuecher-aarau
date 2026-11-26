@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p032",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p032.jpeg",
+    "bytes": 802884,
+    "sha256": "fa0ff738fb49ad2fed1d69e4c8e7161d652ad81864a70aef9d87921d2158c277",
+    "sha256_of": "original",
+    "working_copy": "1901_p032.jpeg"
+  },
+  "text": "21\nHaus-\nNr.\nGolattenmattgasse\n247 Hemmeler, Ida, Privatehrerin.\n  — Meta, Part.\n248 Näf-Widmer, Urs Jos., Taglöhner, von Wiesen (Solothurn).\nSchmid-Hecht, Rudolf, Bauamt sarbeiter, von Erlinsbach (Aarg.)\n249 Spengler, Bertha, Part.\nHauser-Leu, Guirin, Maurer, von Pians (Tirol).\n250 Rämisperger geb. Berner, Marie, Gürtlers Witwe\nPortmann-Emmenegger, Theresia, Fabrikarbeiterin, von Escholz-\n  matt (Luzern).\nErismann-Lehner, Elisabeth, Witwe, Part., von Gontenschwyl.\n251 Günsch-Furter, Joseph, Maurer.\nSenn, Lina, Glätterin, von Uster.\nMichel, Katharina, Spetterin, von Olten.\n252 Landolt-Frank, Katharina, Schuhmachers Witwe, Part.\nHuber-Bichsel, Pankraz, Ausläufer, von Häggingen.\nDobler-Meissner, Robert, Schneider, von Regensburg (Baiern).\n253 Schneider, Ulrich, Schlossermeister.\nHunziker-Stirnenmann, Alfred, Bauamt sarbeiter, von Moosleerau.\n254 * Hassler-Brunnhof er, Elise, Witwe.\nLüthi-Basler, Johann, Schlosser, von Rothrist.\n255 Stirnenmann, Jakob, Zimmermann, von Gränichen.\nSchneider-Hochstrasser, Samuel. Taglöhner, von Thalheim.\nKühnel-Kneifel, Joh., Werkmeister, v. Hartmannsdorf (Böhmen).\n256a Fäs-Huber, Anna, Witwe, Spetterin, von Oberkulm.\n  — Bertha, Damenschneiderin, von Oberkulm.\n256b Bruder-Bruder, Verena, Witwe, Wäscherin, von Seengen.\n  — Frida, Glätterin, von Seengen.\nSandmeier-Obrecht, Kaspar, Dachdecker, von Gränichen.\nFurter-Rohr, Anna, Part., von Staufen.\n257 † Fäs-Huber, Holzschopf.\nHalden.\n258 † Ortsbürgergemeinde Aarau. Remise. Pfandlokal.\n259 Döhnel-Kyburz, August, Schuhmacher, von Badenweiler\n  (Großh. Baden).\n260 Ernst-Dürr, Hermann, Schuhmacher.\nHunziker, Gottlieb, Schneider, von Unter kulm.\n  — Gottlieb, Bauamt sarbeiter, von Unter kulm.\nWeber-Frei, Louise, Haushälterin, von Niederrick (Bern).\n261 Ortsbürgergemeinde Aarau. Städtisches Alters-Asyl.\nMüller-Woodtli, Jakob, Asyl-Vorsteher.\nMüller, Emma, Glätterin.\n  Asy lbewohner:\nSiebenmann, Julie.\n  — -Bär, Maria.\nSchmid, Rud., gew. Landsasse.\nRothpletz, Heinrich, Buchbinder.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16990,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1982,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:09:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p032",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p032.jpeg",
+      "bytes": 802884,
+      "sha256": "fa0ff738fb49ad2fed1d69e4c8e7161d652ad81864a70aef9d87921d2158c277",
+      "sha256_of": "original",
+      "working_copy": "1901_p032.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:09:27+00:00"
+  }
+}

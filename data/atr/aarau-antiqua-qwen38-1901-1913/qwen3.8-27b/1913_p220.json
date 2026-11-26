@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p220",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p220.jpeg",
+    "bytes": 931003,
+    "sha256": "c3d0f361903da8e48342b06f582dfec8b82b6ed1d2679d78f19107b53a47b67e",
+    "sha256_of": "original",
+    "working_copy": "1913_p220.jpeg"
+  },
+  "text": "— 178 —\nWäffler, Heinrich, alt Turnlehrer, Basel.  Laurenzenvorstadt 751.\nWägeler-Vogel, Karl, Dachdeckermeister [tel].  Gasstraße 1172.\n— -Giger, Karl, Mineralwasserfabrikation und Kohlenhandlung. Gas-\n  straße 1172.\nWälchli, Verena, Spetterin, Madiswil.  Ziegelrain 416.\nWälti-Maurer, Rudolf, Schneider, Unter-Kulm.  Hintere Vor-\n  stadt 378.\nWärtli, Anna, Ladentochter.  Pelzgasse 95.\n*— A., Bureaubedarfsgeschäft [tel].  Buchbinderei und Einrahmungs-\n  geschäft.  Vordere Vorstadt 326.\n— Bertha, Bureauangestellte.  Kirchhof 162.\n— Emma, Ladentochter.  Kirchhof 162.\n— Fritz, Bankangestellter.  Kirchhof 162.\n— -Ernst, Karline, Witwe.  Kirchhof 162.\n— -Vogel, Marie, Witwe, Privatin.  Rathausgasse 24.\nWachsmann-Wernli, Karl, Buchdrucker, Schlegel (Preußen).  Flößer-\n  straße 1712.\nWachter, Josef, Schmied, Mels.  Asylstraße 1144.\nWacker-Moser, Gottlieb, Braumeister, Gröningen (Württemberg).\n  Gönhardweg 1567.\nWahl, Johann, Schuhmachermeister.  Reparatur- und Maßgeschäft.\n  Pelzgasse 112.\nWalder-Gamber, Bertha, Privatin, Hombrechtikon.  Graben 226.\n— -Kunz, Elise, Benken (Zürich).  Bankstraße 1050.\n— Gustav, Schlosser, Hombrechtikon.  Graben 226.\n— Hedwig, Telephonistin, Benken (Zürich).  Bankstraße 1050.\nWaldmeier-Rothpletz, Bertha, Privatin, Hellikon.  Graben 218.\nWaldmeyer-Gautschi, Alfred, Kaufmann, Möhlin.  Rain 1565.\nWalser-Bamberger, Marie, Witwe, Verkäuferin, Rottweil (Baden).\n  Halden 277 b.\n*Walther-Härdi, Adolf [tel].  Nähmaschinen-, Velo- und Fournituren-\n  handlung, Reparaturwerkstätte.  Pelzgasse 109.\n*— -Dubs, Anna, Witwe, Holz- und Kohlenhandlung [tel].  Bach-\n  straße 1111.\n— Bertha, Vorsteherin, Ober-Entfelden [tel].  Obere Vorstadt 519.\n— -Wild, Elisabeth, Privatin, Ob.-Entfelden.  Obere Vorstadt 519.\n— -Egger, Elise, Privatin.  Schachen 1123.\n— -Lanz, Fritz, Landwirt, Oberburg (Bern).  Gönhardweg 1800.\n— Hans, Landwirt.  Bachstraße 1111.\n— -Liecht, Jakob, Privatier, Oberburg (Bern).  Goldern 1607.\n— Rosa.  Bachstraße 1111.\nWalti-Sandmeier, Emil, Milch- und Spezereihandlung.  Milch-\n  gasse 155.\n— Hans, Schreiner, Dürrenäsch.  Hintere Bahnhofstraße 1004.\n— -Wernli, Hermann, Taglöhner, Dürrenäsch.  Bachstraße 1059.\n— -Zimmermann, Rosa, Witwe, Taglöhnerin, Dürrenäsch.  Hintere\n  Bahnhofstraße 1004.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 58960,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2247,
+    "lines": 48,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:58:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p220",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p220.jpeg",
+      "bytes": 931003,
+      "sha256": "c3d0f361903da8e48342b06f582dfec8b82b6ed1d2679d78f19107b53a47b67e",
+      "sha256_of": "original",
+      "working_copy": "1913_p220.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:58:06+00:00"
+  }
+}

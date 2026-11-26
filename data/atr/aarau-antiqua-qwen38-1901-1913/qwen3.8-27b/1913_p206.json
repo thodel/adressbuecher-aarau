@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p206",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p206.jpeg",
+    "bytes": 915417,
+    "sha256": "0cc0c743626fb8a7409e578cfef06e6e2bec4b58b8732ef09de77a542d41c16b",
+    "sha256_of": "original",
+    "working_copy": "1913_p206.jpeg"
+  },
+  "text": "— 164 —\nSchmid-Wernli, Hans, Schuhfabrikarbeiter, Ob.-Erlinsbach. Scheiben-\n  schachen 1336.\n*— -Fischer, Heinrich, Kaufmann, Manufacturwarenhandlung. Lau-\n  renzentorgasse 114.\n— -Pauli, Hermann, Taglöhner, Erlinsbach (Arg.). Graben 208.\n— Huldä, Weißnäherin, Watterdingen (Baden). Hintere Bahnhof-\n  straße 1004.\n— Ida, Weißnäherin, Watterdingen (Baden). Hint. Bahnhofstr. 1004.\n— -Läuchli, Jakob, Ingenieur, Baugeschäft, Glarus [tel]. Bach-\n  straße 1082.\n— -Wasser, Johann, Portier, Hendschiken. Industriestraße 929.\n— -Klenk, Josef, Koch, Frutigen (Bern). Oberthor 245.\n— -Schickler, Josephine, Privatin. Stadthöfli 84b.\n— -Hecht, Karl, Privatier, Ober-Erlinsbach. Obere Vorstadt 525.\n— Leonie. Hintere Vorstadt 367.\n*— -Maurer, Mathilde, Witwe, Delikateessenhandlung, Möriken [tel].\n  Rathausgasse 20.\n— Mathilde, Möriken. Rathausgasse 20.\n— Otto, Buchbinder, Felben (Thurgau). Rathausgasse 11.\n— -Eng, Peter, Seidenbandweber, Herznach, Milchgasse 155.\n— -Wolf, Peter, Part. Hintere Vorstadt 367.\n— -Jakober, Rosa, Zuzgen. Laurententorgasse 117.\n— Louise, Haushälterin, Watterdingen (Baden). Hintere Bahnhof-\n  straße 1004.\n— Sophie, Weißnäherin, Watterdingen (Baden). Hintere Bahn-\n  hofstraße 1004.\n— -Bucher, Ursula, Witwe, Taglöhnerin. Adelbändli 177.\nSchmidli-Hoffmann, Albert, Gießer, Dättlikon. Kirchgasse 37.\n*Schmidlin-Martin, Warenhaus zur Stadt Paris, Villmergen [tel].\n  Hintere Vorstadt 360.\n— Emma, Verkäuferin, Villmergen. Hintere Vorstadt 360.\n— -Bolliger, Joh., Zeughausarbeiter, Thalheim. Schönenwerder-\n  straße 1454.\n— Otto, Fabrikarbeiter, Thalheim. Schönenwerderstraße 1454.\n— Mina, Vorgängerin, Thalheim. Schönenwerderstraße 1454.\nSchmidt, Alice. Jurasträße 1491.\n— -Hagnauer, Auguste, Privatin. Augustin Kellerstraße 1493.\n— Emma. Stritengäßchen 1213.\n— Hedwig, Coiffeuse. Adelbändli 172.\n— Jenny, Privatin. Bahnhofstraße 562.\n— -Kollmar, Karoline, Witwe, Wäscherin. Asylstraße 1145.\n— -Henz, Lina, Witwe, Privatin. Zeughausstraße 663.\n— Martha. Jurasträße 1491.\n— -Halbritter, Max, Regierungsrat. Jurasträße 1491.\n— -Schmidt, Samuel, Prokurist. Stritengäßchen 1213.\nSchmocker-Keller, Sl. Gottlieb, Postbureau-dienner, Ringgenberg.\n  Zollrain 64.\n— — Frau, Weißnäherei, Ringgenberg. Zollrain 64.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 33030,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2225,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0204,
+    "mean_line_chars": 44.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:48:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p206",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p206.jpeg",
+      "bytes": 915417,
+      "sha256": "0cc0c743626fb8a7409e578cfef06e6e2bec4b58b8732ef09de77a542d41c16b",
+      "sha256_of": "original",
+      "working_copy": "1913_p206.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:48:01+00:00"
+  }
+}

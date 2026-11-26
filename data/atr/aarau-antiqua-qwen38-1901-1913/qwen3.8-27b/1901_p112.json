@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p112",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p112.jpeg",
+    "bytes": 848365,
+    "sha256": "fb5835fb3606be191a1600340857267223f4f5dc0055acaefabfc90602b05c3d",
+    "sha256_of": "original",
+    "working_copy": "1901_p112.jpeg"
+  },
+  "text": "99\nHässig, Gottlieb, Feinschleifer, Wohnung Zollrain 58, Werkstätte\n  Hammer 180.\n— Gottlieb, Postcommis, Schachen 1130.\n— Hans, Stadtrat, Jurastraße 1477.\n— geb. Hauenstein, Elisabeth, Witwe, Part., vordere Vorstadt 337.\n— Johann Konrad, Dienstmann, Rain 502.\n— Julius, Restaurant Bellevue, [tel] Schönenwerderstraße 1452.\n— Julius, Schlosser, Milchgasse 134.\n— -Lienhard, Marie, Bäckers Witwe, Rathausgasse 28.\n— Rosine, Part., Zollrain 58.\nHäuptli geb. Burkhard, Anna Maria, Witwe, Halden 297.\n— Emil, Drechsler, Halden 297.\n— Jakob, Färber, Milchgasse 143.\n— Othmar, Adjunkt des Staatsbuchhalters, jenseits der Aare 1246.\n— Rudolf, Taglöhner, Milchgasse 147.\n— -Schärer, Salome, Witwe, Scheibenschachen 1334.\nHäusermann-Ruf, Marie Witwe, Halden 297.\n— Friedrich, Schneider, obere Vorstadt 539.\n— geb. Schmid, Elisabeth, Halden 273.\nHäusler, Angelus, Maler, Flößerstraße 1194.\n— Emil, Sohn, Maler, Flößerstraße 1194.\n— Joseph, Heizer, hinter dem Bahnhof 1004.\n— Julie, Glätterin, Flößerstraße 1194.\nHaase, Eduard Karl, Färber, Kronengasse 42.\nHaberstich, Frida, Lehrerin, Graben 217.\n— Jakob, Zinsrodelverwalter, Graben 217.\n— Lina, Lehrerin, obere Vorstadt 545.\n— geb. Scheuermann, Bertha, Witwe, obere Vorstadt 545.\nHaberbür, Albert, Posamentier, Milchgasse 128.\nHagenbuch, August, Sekretär, Zollrain 64.\n— Emil, Coiffeur, Rain 428.\n— -Ernst, Fritz, Buchbinder, Industriestrasse 938.\n— Ernst, Mineralwasserfabrikant, Zollrain 64. [tel]\n— Friedrich, Buchbinder, vordere Vorstadt 333. [tel]\n— Gottlieb, Kaufmann, Feuer- und Lebensversicherungs-Agentur,\n  Laurenzenvorstadt 781.\n— Karl, Chirurg, Rain 428.\n— Karl, Kaufmann, Glas- und Porzellanwarenhandlung, [tel] Kronen-\n  gasse 44. Wohnung Feerstraße 685.\n— -Hagenbuch, Verena, Spezereihandlung z. Bären, [tel] Zollrain 64.\nHagmann, Adolf, Schuhhandlung (Filiale), hintere Vorstadt 357.\nHagnauer, Albert, Lederfabrikant, [tel] Konradstraße 1413.\n— Emma, Part., Konradstraße 1412.\n— Friedrich, Bürstenmacher, Pelzgasse 95.\n— Hedwig, Lehrerin, Bahnhofstraße 626.\n— Hermann, Sohn, Kaufmann, Pelzgasse 95.\n— Jakob Eugen, alt Pfarrer, Entfelderstraße 1397.\n— Johann Ludwig, Heizer, Strittengäßchen 1152.\n— Louise, Glätterin, Strittengäßchen 1152.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21989,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2195,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:40:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p112",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p112.jpeg",
+      "bytes": 848365,
+      "sha256": "fb5835fb3606be191a1600340857267223f4f5dc0055acaefabfc90602b05c3d",
+      "sha256_of": "original",
+      "working_copy": "1901_p112.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:40:28+00:00"
+  }
+}

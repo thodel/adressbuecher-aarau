@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p072",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p072.jpeg",
+    "bytes": 933294,
+    "sha256": "fa6cfc96ab3ba3c3ea5ef33d1a831bef4ee40d7bcff8ef8f04c49811226a9deb",
+    "sha256_of": "original",
+    "working_copy": "1913_p072.jpeg"
+  },
+  "text": "— 52 —\nHaus-\nNr.\nKistler-Kull, Jakob, Privatier, Bözen.\nZimmermann-Oelschläger, Jakob, Maler, Schenkon.\n620 * Bruns-Wagner, Heinrich, Kaufmann. Spezialmagazin, Knaben-\n  und Arbeiterkleider [tel].\n  — Klara, Glätterin.\nRitz, Robert, Bahnbeamter, Pfäffikon.\n621 Heuberger, Lina, Hedwig und Julius.\n  — Richner, Lina, Privatin.\n  — Hedwig, Modistengeschäft.\nSchmid, Geschwister, Weißwarengeschäft. Wohnung: Hintere\n  Bahnhofstraße 1004.\nMerz-Rodel, Jean, Coiffeurgeschäft, Reinach.\nHolzinger, Pauline, Privatin, Baselaugst.\nPlüß-Lehner, Elisab., „ Vordemwald.\nRichner-Richner, Emma, Privatin, Gränichen.\n623 Häny-Walther, Rud., Leder- u. Fourniturenhandlung, Kölliken [tel].\nOelhafen-Bührer, Herm., Prokurist.\nBührer-Gidemann, Anna, Privatin.\n624 Lüscher, Gottlieb, Dr., Ingenieur, Mooslerau. Bauunternehmung,\n  Technisches Bureau [tel].\nHirt-Steiner, Arthur, Professor, Münchenbuchsee.\n626 * Custer-Roth, Emil, Fabrikant. Fabrication von Kellereiaartikeln\n  und Champagner [tel].\n  — Fanny, Quästorin, Rheineck.\nImhof-Aman, G., Privatin.\nGautsch Hochuli, Arnold, Magaziner, Gontenschwil.\n631 b * Merz & Cie., Konfiseriewarenfabrik [tel].\n632 * Schweiz. Liegenschaftsgenossenschaft.\n  Magazine zum Globus [tel].\nFischer-Richner, Joh., Direktor z. Globus, Meisterschwanden.\nWeber-Hegnauer, Herm., Haferhandlung, Menziken [tel].\n  — Hedwig, Bureauangestellte, Menziken.\n  — Marie, Telephonistin,\nHagenbucher, Joh., Souschef, Ob.-Winterthur.\nMerz, Hermann, Fabrikant, Menziken.\nFahrländer-Brügger, Fritz, Instruktionsoffizier.\nMichel-Schöni, Rosina, Ladentochter, Köniz.\nGysi, Emma, Ladentochter, Zofingen.\nHauser, Karl, Abwart, Zürich.\n  — Lydia, Magazinerin, Zürich.\nRichter, Ernst Eug., Buchhändler, Calv (Wttbrg.).\n634 Fehlmann-Blattner, Hch., Privatier.\nHeß, Lina, Mercerie- und Wollwarengeschäft, Dürrenroth.\n635 Lüscher, Friedr. und Elise, Partikulare, Moosleerau.\nGötze, Emil, Schuhhaus zum Behmen.\nHofer, Ferdinand, Part., Niederwil.\n  — Frieda, Privatin,\n  „",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 34656,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1963,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:53:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p072",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p072.jpeg",
+      "bytes": 933294,
+      "sha256": "fa6cfc96ab3ba3c3ea5ef33d1a831bef4ee40d7bcff8ef8f04c49811226a9deb",
+      "sha256_of": "original",
+      "working_copy": "1913_p072.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:53:02+00:00"
+  }
+}

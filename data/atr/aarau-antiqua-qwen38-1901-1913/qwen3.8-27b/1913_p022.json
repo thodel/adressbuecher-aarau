@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p022",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p022.jpeg",
+    "bytes": 882585,
+    "sha256": "3e3b22f94bf90b1a4f8398b3c8f94bb6ac7196d11d06f08c19b0a610b2de2baa",
+    "sha256_of": "original",
+    "working_copy": "1913_p022.jpeg"
+  },
+  "text": "— 8 —\nHaus-\nNr.\n71 Rüetschi-Reinert, Karl, Coiffeur.\n— — Katharina, Coiffeuse.\n72 * Ortsbürgergemeinde Aarau. Postfiliale, Feuerwehrhauptmagazin.\n  Telegraphenbureau, Telephoncentralstation.\n73 Siegrist-Holliger, Hermann, Hotelier, Gasthof z. Rößli, Meister-\n  schwanden [tel].\n  Goldstein & Cie., Warenhaus.\nGoldstein-Seibel, Eugen, Geschäftsführer, Danzig.\n74 Hagenbuch-Himmelberger, Walter, Metzgermeister [tel].\nErnst-Bachhofer, Alfred, Maler.\n75 Niederhäuser-Markwalder und Mithaofte.\nMerkur, Kaffeesgeschäft.\nNiederhäuser-Markwalder, Emilie, Wäscherei u. Glätterei, Eriswil.\nMarkwalder-Kyburz, Elisab., Wwe., Oetlikon.\n— Anna, Glätterin, Oetlikon.\nMüller-Vötsch, Anna, Eierhändlerin, Erlinsbach.\nVötsch, Verena, Part., Frommen.\nPltzmann-Roth, Karl, Schneider, Deutsch Kallenburg.\nDill-Frei, Jakob, Schuhmacher, Basel.\nKeusch-Kneubühler, Jakob, Müller, Boswil.\nUrech-Flückiger, Jakob, Stadtpolizist, Nied.-Hallwil.\n76 * Ryniker-Wirth, Karl, Bierbrauer (Bureau) [tel].\nKoller-Koller, Elisabeth, Wäscherin, Berikon.\n— Mina, Telephonistin, Berikon.\nScheuermann, Emilie, Privatin.\n77 * Ryniker-Wirth, Karl, Bierbrauerei.\nStrübin-Frey, Louise, Wirtin, Basel [tel].\n— Bertha, Basel.\n— Auguste,\nLehner, Marg. Hedwig, Bureaustin, Baden.\n— A. Agnes, Privatlehrerin, Stilli.\nZimmerli, Emma, Verkäuferin, Brittnau. Ladengeschäft Lau-\n  renzenvorstadt 736.\n78 Ripamonte-Schubiger, Angelo, Kaufmann, Marlon (Ital.).\nBarrillocchi-Amici, Ettore, Coiffeur, Genua.\nCooperativa Italia.\nBertschi-Schwammberger, Ad., Schneider, Sumiswald.\n— — Marie, Damenschneiderin, Sumiswald.\nGiani-Rohr, Domenico, Gipsmeister, Calprimo.\nHerzog-Bürgi, Johann, Fabrikarbeiter, Wittnau.\nZimmermann-Häfliger, Wwe.\n79 Stirnemann-Henzmann, Therese, Wwe., Gränichen [tel]. Milch-,\n  Holz- und Kohlenhandlung.\n— Jakob, Gränichen.\n— Otto,   „\n— Therese,   „\n— Marie, Ladentochter, Gränichen.\n— Anna, Gränichen.\n[spalte 2]\nHa\nN\n80\n81\n82\n83\n84\n85\n86\n88\n89\n90\n91\n92\n93",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 111368,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1928,
+    "lines": 67,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 27.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:30:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p022",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p022.jpeg",
+      "bytes": 882585,
+      "sha256": "3e3b22f94bf90b1a4f8398b3c8f94bb6ac7196d11d06f08c19b0a610b2de2baa",
+      "sha256_of": "original",
+      "working_copy": "1913_p022.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:30:55+00:00"
+  }
+}

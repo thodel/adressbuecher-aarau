@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p041",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p041.jpeg",
+    "bytes": 822898,
+    "sha256": "22e3913125c9636a22b4ef3992ee31fbf4e0a43b8f1b9103365c6634201a5fb0",
+    "sha256_of": "original",
+    "working_copy": "1901_p041.jpeg"
+  },
+  "text": "30\nHaus-\n Nr.\n Angliker-Oelhafen, Emma, Witwe, Part., von Niederlenz.\n Kägi-Hauser, Jakob, Reisender, von Seen (Zürich).\n375 Bertschinger-Wild, Gustav, von Lenzburg, Spezereihandlung.\n Hauri-Gränicher, Karl, Buchhalter, von Seengen.\n376 Baumann-Wälti, Maria, Witwe, von Bottenwyl. Kaffeewirtschaft.\n Walti-Wernli, Hermann, Wagenwärter, von Dürrenäsch.\n Müller-Walti, Maria, Witwe, Weißnäherin, von Bötzingen.\n377 * Aktiengesellschaft: Druck und Verlag der „Aargauer Nach-\n richten“. [tel]\n Kessler-Läuchli, Johann, Verwalter, von Schiers und Klosters\n (Graubünden).\n Joho, Anna Maria, Part., von Auenstein.\n378 * Siebenmann, Rudolf, Bierbrauer.\n Pache, Louis, Coiffeur, von Epalinges (Waadt).\n Giger-Sommerhalder, Jakob, Polizeiwachtmeister, von Gon-\n tenschwyl.\n Wälti-Maurer, Rudolf, Schneider, von Unterkulm.\n\n Schmiedgasse.\n379 Widmer-Eichenberger, Hermann, Küfermeister, von Hausen.\n Schneider, Emil Ed., Magaziner, von Pfäffikon.\n Meier-Hägeli, Karolina, Taglöhnerin, von Büren (Luzern).\n John-Häfeli, Adolf, Polizeisoldat, von Eiken\n380 † Derselbe. Remise und Waschküche.\n381 Willimann-Lehmann, Maria, Lohnkutschers Witwe, Part.\n — Fritz, Sohn, Lohnkutscher. [tel]\n Schenker, Gustav, Bezirkstierarzt, von Schönenwerd (Sol.).\n Fischer-Peter, Anna, Part.\n382 * Bau- und Garantie-Comité der römisch-kath. Kirche (römisch-\n katholische Pfarrkirche).\n383 * Dasselbe. [tel] Pfarrhaus.\n Stöckli, Stephan, römisch-katholischer Pfarrer, von Muri.\n — Elisabeth, Haushälterin, von Muri.\n384 Frey-Rüegg, Oskar, Fabrikant.\n Rüegg-Abesser, Pauline, Witwe, von Bauma (Zürich).\n385 † Siebenmann, Rudolf, Bierbrauer. Brauereigebäude.\n386 † Derselbe. Remise, Bier- und Eiskeller.\n387 * Matter-Schönenberg, Samuel, Amtsschreiber, von O.-Entfelden.\n Matter-Fäs, Adolf, Bäcker, von Oberentfelden.\n — — obigen Ehefrau, Modegeschäft.\n Deubelbeiss-Schaffner, Samuel, Part., von Holderbank.\n Beck, Albert, Uhrenmacher.\n388 † Derselbe. Bäckereigebäude.\n389 Bühler-Haberstich, Gottlieb, Kupferschmied.\n — Maria, Wäscherin und Glätterin.\n390 * Bertschinger-Wild, Gustav, Spezereihändler, von Lenzburg.\n (Magazin.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 44606,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2092,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:13:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p041",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p041.jpeg",
+      "bytes": 822898,
+      "sha256": "22e3913125c9636a22b4ef3992ee31fbf4e0a43b8f1b9103365c6634201a5fb0",
+      "sha256_of": "original",
+      "working_copy": "1901_p041.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:13:44+00:00"
+  }
+}

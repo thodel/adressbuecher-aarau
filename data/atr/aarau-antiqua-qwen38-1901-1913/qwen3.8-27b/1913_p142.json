@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p142",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p142.jpeg",
+    "bytes": 973721,
+    "sha256": "70f014df1dc45733711739cd978cde22ec5328d8c8837772a0c4c7c26cebda10",
+    "sha256_of": "original",
+    "working_copy": "1913_p142.jpeg"
+  },
+  "text": "— 100 —\nBeck-Schudel, Hermann, Färber, Gollattenmattgasse 256a.\n— -Hertenstein, Karl, Schneider, Horb (Würtbg.). Ziegelrain 409.\n— Luise, Damenschneiderin, Halden 289.\n— -Müller, Otto, Handlanger, Horriwil (Solothurn). Halden 285.\nBelser, Adele, Einlegerin, Nieder-Gösgen, Obere Vorstadt 514.\n— -Wyser, Gottlieb, Fabrikarb., Nieder-Gösgen. Ob. Vorstadt 514.\nBelz, Fanny, Haushälterin, Zihlslacht. Rain 432.\n— Hedwig, Fabrikarbeiterin, Zihlslacht. Rain 432.\n— Hulda, Haushälterin, Zihlslacht. Rain 432.\n— Robert, Ausläufer, Zihlslacht. Rain 432.\nBenacci, Battista, Schuhmacherei, Portico (Italien). Halden 293 a.\nBenguerell-Bertschi, Gust., Postbeamter, Fontainemelan.\n  Zeligstraße 1865.\nBenninger-Jung, Jakob, Gepäckarbeiter S. B. B., Jeuss (Freiburg).\n  Halden 273.\nBenz-Frey, Jos., Zugführer S. B. B., Neuenhof. Laurenzenvorstadt 793.\n— Rosa, Neuenhof. Laurenzenvorstadt 793.\nBerchem-Lüscher, Jean, Stadtarbeiter, Senningen (Luxemburg).\n  Halden 294.\n— Mathilde, Fabrikarbeiterin, Senningen (Lux.). Halden 312.\n— -Kißling, Nicolas, Schreiner, Senningen (Lux.). Bahnhofstr.587.\n— -Weiß, Peter, Schuhmachermeister, Senningen (Lux.) Halden 312.\nBerchtold-Glaus, Marie, Wwe., Schuhhandlung, Schmiedrued.\n  Obere Vorstadt 546.\n— Otto, Spengler, Seegräben (Zürich). Rain 505.\nBerger-Wyler, Emma, Fabrikarbeiterin, Langnau. Rohrerstr. 880.\nBernath, Anna, Ladentochter, Thayngen (Schaffhausen)\n  Küttigerstraße 1247.\n— Frida, Ladentochter, Thayngen (Schaffh.). Küttigerstr. 1247.\n— Lina, Ladentochter, Thayngen (Schaffh.) Küttigerstraße 1247.\nBerner, Aline, Graben 227.\n— -Martí, Elise, Wwe., Privatin, Rapperswil. Rain 507.\n— Elsa, Bureaulistin, Rapperswil. Rain 507.\n— Emma, Ladentochter, Rapperswil. Hintere Vorstadt 368.\n— -Egli, Herm., Dr., Zahnarzt, Graben 227. [tel]\n— Hermine, Rapperswil. Rain 507.\n— Klara, Ladentochter, Rapperswil. Rain 507.\n— -Boßard, Marie, Wwe., Rapperswil. Zeligstraße 1700.\n— Martha, Bureauangestellte, Elgg. Rohrerstraße 916.\n— -Heuberger, Walter, Postbeamter, U.-Kulm. Rohrerstr. 916.\nBernet-Neesser, Aug., Ausläufer, Gommiswald (St. Gallen).\n  Schmiedgasse 381.\nBernhard-Buser, Joh., Vorarbeiter, Walkringen. Bahnhofstr. 580.\nBernhardsgrütter, Emma, Damenschneiderin, Rorschacherberg.\n  Laurenzentorgasse 123.\n— -Sommerhalder, Jakob, Schreiner, Rorschacherberg. Laurenzen-\n  torgasse 123.\n— Joh., Sekretär, Rorschacherberg. Laurenzentorgasse 123.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 40332,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2376,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:12:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p142",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p142.jpeg",
+      "bytes": 973721,
+      "sha256": "70f014df1dc45733711739cd978cde22ec5328d8c8837772a0c4c7c26cebda10",
+      "sha256_of": "original",
+      "working_copy": "1913_p142.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:12:37+00:00"
+  }
+}

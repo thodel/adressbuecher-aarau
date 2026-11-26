@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p124",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p124.jpeg",
+    "bytes": 829649,
+    "sha256": "87ca92ca89f83b4148eefb5768f04f38df7e32358e87100e640dad2c95e501aa",
+    "sha256_of": "original",
+    "working_copy": "1901_p124.jpeg"
+  },
+  "text": "111\nMathys geb. Hafner, Katharina, Witwe, Gastwirtin zur „Krone“,\n  Kronengasse 48.\n— T., Schlosser, Kochherdfabrikant, Bachstraße 1057.\n— Wilhelm, Feilenhauer, Entfelderstraße 1400.\nMattenberger, Elise, Rain 441.\n— Jakob, Metzger und Speisewirt, [tel] Oberthor 245.\nMatter, Adolf, Bäcker, Schmiedgasse 387. [tel]\n— -Fäs, Maria, Modistin, Schmiedgasse 387.\n— Samuel, Amtsschreiber, Schachen 1130.\nMauch, Rudolf, Bankabwart, Torfeldstraße 941.\nMaurer, Emil, Negotiant und Wirt zum „Kreuz“, [tel] jenseits der\n  Aare 1247.\n— Friedrich, Heizer, Bachstraße 1059.\n— Fritz, Wirt, [tel] Buchserstraße 986.\n— Gottlieb, Taglöhner, Strittengässchen 1220.\n— Luise, Part., Rathausgasse 20.\n— Philipp, Milchgasse 130.\n— Samuel, Taglöhner, Halden 294.\n— Wilhelm, Fuhrmann, Bahnhofstraße 580.\nMeier, August, Direktionsssekretär, Schachen 1132.\n— -Blum, Elisabeth, Milchgasse 152.\n— Emil, Heizer N. O. B., Kirchhof 161b.\n— Emil, Sekretär des aarg. Versicherungsamtes, Buchserstraße 984.\n— Eduard Erwin, Sekretär, Rain 504.\n— Franz Joseph, Schneider, Halden 268.\n— Friedrich, Schneider, Scheibenschachen 1334.\n— Friedrich, Schreiner, obere Vorstadt 535.\n— -Grossmann, Anna, Witwe, vordere Vorstadt 337.\n— geb. Hägeli, Karolina, Witwe, Taglöhnerin, Schmiedgasse 379.\n— Hans, Postbureauchef, jenseits der Aare 1240.\n— Jakob, Schlosser, Rathausgasse 29.\n— Jakob, Gärtner, obere Vorstadt 549.\n— Jakob, Zimmermann, Bahnhofstraße 591.\n— Jakob, Kaufmann, Bleichemattstraße 1025.\n— Jakob, Postcommis, Feerstraße 692.\n— Jean, Postangestellter, Bleichemattstraße 1029.\n— Joh. Jakob, Lehrer, Feerstraße 692.\n— Joh. Jakob, Part., Rain 479.\n— Joh. Robert, Bahnarbeiter, Halden 270.\n— J. L., Architect, Direktor des Gewerbemuseums, Laurenzen-\n  vorstadt 756.\n— Lina, Krankenpflegerin, Rain 444.\n— Marie, Bureauangestellte, Bleichemattstraße 1025.\n— -Messerli, Elisabeth, Wirtin, Bahnhofstraße 587.\n— geb. Roth, Verena, Part., Rain 504.\n— Xaver, Schreiner, Rain 466.\nMeierhofer, Rudolf, Güterschaffner, Metzgergasse 79.\nMeisel, Xaver, Forstverwalter, Konradstraße 1413.\nMeissner, Hermann Arthur, Buchhändler, Buchserstraße 926.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38411,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2095,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:45:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p124",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p124.jpeg",
+      "bytes": 829649,
+      "sha256": "87ca92ca89f83b4148eefb5768f04f38df7e32358e87100e640dad2c95e501aa",
+      "sha256_of": "original",
+      "working_copy": "1901_p124.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:45:04+00:00"
+  }
+}

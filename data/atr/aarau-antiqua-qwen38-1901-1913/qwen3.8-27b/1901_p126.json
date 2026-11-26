@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p126",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p126.jpeg",
+    "bytes": 822496,
+    "sha256": "345854d4364838f6642d028caabe0f702615a7d1735365ae65212c0d6b849025",
+    "sha256_of": "original",
+    "working_copy": "1901_p126.jpeg"
+  },
+  "text": "113\nMüller, Alfred Friedrich, Geschäftsführer (Aarg. Tagblatt), Ober-\n  thor 240.\n— Alfred, Maschinist, Schmiedgasse 393.\n— Arnold, Baumeister, jenseits der Aare 1236. [tel]\n— Eduard, Schirmmacher, Rathausgasse 21.\n— Eugen, Wagenkontrollleur, Rohrerstraße 878.\n— Elise, Glätterin, Halden 266.\n— Elisabeth, Staatsweibels Witwe, Halden 266.\n— Emma, Glätterin, Halden 261.\n— Fritz, Coiffeur, Zollrain 55.\n— Gottlieb, Ingenieur, Bleichematthofstraße 1018.\n— Hans Jakob, Taglöhner, Laurenzenvorstadt 727.\n— -Hauri, Marie, Witwe, Milchgasse 146.\n— Hermann, Sohn, Oekonom, Schachen 1124.\n— -Hug, Anna, Part., Milchgasse 127.\n— Jakob, Obergerichtskanzlist, Halden 292.\n— Jakob, Bahnarbeiter, Laurenzenvorstadt 727.\n— Jakob, Oberaufseher, Graben 226.\n— Jakob, Ausläufer, hintere Vorstadt 359.\n— Jakob, Lithographiebesitzer, Wohnung Buchserstraße 939. [tel]\n— Jakob, gew. Schriftsetzer, Schmiedgasse 392.\n— Jakob, Posamenter, Laurenzenvorstadt 727.\n— Jakob, Buchbinder, Milchgasse 154.\n— Jakob, Asylvorsteher, Halden 261.\n— Joh. Jakob, Postpacker, Kirchgasse 41.\n— Johann Jakob, Schuhmacher, Kirchgasse 36.\n— Johann, Maler, Halden 277.\n— Johann, Postangestellter, Buchserstraße 954.\n— Jost, Schneider, Schmiedgasse 393.\n— & Trüb (Jakob Müller und August Trüb), [tel] Graphische Kunst-\n  anstalt, Druckerei und Buchbinderei, Bahnhofstraße 578.\n— Karl, Schneider, Zollrain 56.\n— Lidia, Rain 441.\n— Maria, Zimmermanns, Part., Pelzgasse 132.\n— Maria Anna, Fabrikarbeiterin, Adelbändli 175.\n— Oskar, Zahnarzt, Gönhardfeldweg 1446.\n— Otto, Buchhalter, Rohrerstraße 881.\n— Otto, Fabrikarbeiter, Stadthof 88.\n— Rudolf, Bremser, Hammer 188.\n— Samuel, Prediger, Buchserstraße 918.\n— Samuel, Part., Holzmarkt 322.\n— Samuel, Postfaktor, Torfeldstraße 947.\n— Sigmund, Zimmermeister, Mühlematt 1363. Bauplatz hinter dem\n  Bahnhof 1040.\n— geb. Schneider, Susanna, Haushälterin, Zollrain 56.\n— Verena, Modistin, Zollrain 55.\n— -Vötsch, Anna, Gemüsehändlerin, obere Vorstadt 547.\n— -von Däniken, Elisabeth, Witwe, Schachen 1124.\n— geb. Walti, Marie, Weißnäherin, hintere Vorstadt 376.\n8",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17983,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2059,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:45:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p126",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p126.jpeg",
+      "bytes": 822496,
+      "sha256": "345854d4364838f6642d028caabe0f702615a7d1735365ae65212c0d6b849025",
+      "sha256_of": "original",
+      "working_copy": "1901_p126.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:45:22+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p104",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p104.jpeg",
+    "bytes": 832251,
+    "sha256": "9b5c8f2eaa849c3ef8c7c17d64571cdceaef8ad654887ae67cb664f9c20cfd02",
+    "sha256_of": "original",
+    "working_copy": "1901_p104.jpeg"
+  },
+  "text": "91\nDürr, Karolina, Glasers, Halden 289.\n— geb. Lüscher, Maria, Witwe, Gemüsehändlerin, Graben 215. [tel]\nDubs, Elise, Müllers, Hammer 178.\n— Jakob, Müller, Hammer 178.\n— Johann, Müller, Hammer 178.\n— Karl, Metzger, [tel] Rathausgasse 23.\n— Louise, Part., Laurenzenvorstadt 791.\nEberhard, Wilhelm, Reisender, Pelzgasse 106.\nEberli, Franz, Müller, [tel] Stadthof 86.\nEckert, Clemens, Maschinist, Tellrain 1498.\nEckert, Eduard, Zimmerpolier, hinter dem Bahnhof 1009.\n— Elise, Damenschneiderin, hinter dem Bahnhof 1009.\n— Walther, Sohn, Zimmerpolier, hinter dem Bahnhof 1009.\nEdel, Leonida, Kunstmaler, hinter dem Bahnhof 1034.\nEger, Theophil, Schneider, Hammer 190.\nEggen, Eduard, Kaufmann, Laurenzen thor gasse 115.\nEggimann geb. Joß, Rosina, Wirtin, [tel] Bahnhofstraße 556.\nEglinger, Marie, Part., Jurastraße 1481.\nEgloff, Franz Adam, Postangestellter, Pelzgasse 92.\n— Johann Ernst, Buchbinder. Werkstätte Rain 464.\n— -Marti, Lina, Spezer ei hand lung, Pelzgasse 92.\nEhlers-Sauerländer, Julie, Witwe, Laurenzenvorstadt 785.\nEhrsam geb. Andres, Emilie, Witwe, Zsehokkestraße 1424.\n— Ida, Part., Bachstraße 1069.\nEichenberger, Adolf, Taglöhner, Flößerstraße 1188.\n— Christian, Zeughausarbeiter, Metzgergasse 66.\n— Gottlieb, Schreiner, Bahnhofstraße 564.\n— Ida und Elise, Damenschneiderinnen, Metzgergasse 66.\n— Rudolf, Zimmermann, Halden 298.\nEisengießerei und Weichgussfabrik, [tel] hinter dem Bahnhof 1013.\nElastiques-Fabrik (E. Bally) [tel], hinter dem Bahnhof 1000, Comptoir\n  Laurenzenvorstadt 758.\nElektrizitätswerk, städtisches, [tel] Erlinsbacherstraße 1300, Licht-\n  centrale und Bureau, Bahnhofstraße 636.\nElsasser, Gottlieb, Küfermeister, Halden 305.\nEngesser-Brunner, Kresenzia, Taglöhnerin, Bahnhofstraße 558.\nErb, Hermann, Bauamtsarbeiter, Kirchgasse 36.\nErdin, Albin, Kaufmann, Lingerie- und Bonnetterieware handlung,\n  Rathausgasse 13.\n— Rosalia, Damenschneiderin, Hammer 183b.\n— Siegfried, Kerzenfabrikant, Hammer 1-3b.\nErismann, Abraham, Oekonom, Friedensrichter, Bachstraße 1061.\n— & Blattner, Weißnäherinnen, Asylstraße 1147.\n— Friedrich, Güterexpedient, Buchserstraße 981.\n— Jakob, Schuhmacher, Schachen 1139.\nEhrismann-Lehner, Elisabeth, Witwe, Golatten matt gasse 250.\n— Marie, Weißnäherin, Asylstraße 1147.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21209,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2228,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:36:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p104",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p104.jpeg",
+      "bytes": 832251,
+      "sha256": "9b5c8f2eaa849c3ef8c7c17d64571cdceaef8ad654887ae67cb664f9c20cfd02",
+      "sha256_of": "original",
+      "working_copy": "1901_p104.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:36:34+00:00"
+  }
+}

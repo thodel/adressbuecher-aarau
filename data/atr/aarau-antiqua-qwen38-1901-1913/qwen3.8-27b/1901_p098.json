@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p098",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p098.jpeg",
+    "bytes": 827885,
+    "sha256": "932bdd5748c3d6becd4178e6e91023cd6f1c22d61e2437d76533b0c9bd5cefd0",
+    "sha256_of": "original",
+    "working_copy": "1901_p098.jpeg"
+  },
+  "text": "85\nBebié, Seline, Part., Jurastraße 1475 [tel].\nBeck, Albrecht, Uhrmachergeselle, Schmiedgasse 387.\n  — Emil, Sprachlehrer, Hammer 188.\n  — Emil, Sattler, Ziegelrain 421.\n  — Friedrich, Sattler, Bahnhofstraße 619.\n  — Gottlieb, Schlosser, Halden 314.\n  — Karl, Schneider, Ziegelrain 409.\n  — Luise, Damenschneiderin, Adelbändli 173.\n  — Karolina, Weißnäherin, Adelbändli 173.\nBeilharz, Katharina, Weißnäherin, Halden 302.\nBeiler, Magdalena, Diakonissin, Bahnhofstraße 562.\nBelart, Julie, Lehrerin, Bachstraße 1108.\nBelz, Johann, Wagenvisiteur, Bahnhofstraße 591.\nBenninger, Jb., Bahnarbeiter, Weinberg 1280.\nBenz, Joseph, Kondukteur, Laurenzenvorstadt 793.\nBorchem, Nikolaus, Zimmermann, Schmiedgasse 393.\n  — Peter, Schuhmacher, Hammer 188.\nBerchten, Susanna, Diakonissin, Bahnhofstraße 562.\nBerchtold, Jakob, Schuhmacher, obere Vorstadt 546.\nBerner, F. Hermann, Dr., Zahnarzt, [tel] Graben 227.\n  — Jakob, Schreinermeister, Rain 507.\n  — Maria Anna, Adelbändli 170a.\n  — Verena, Adelbändli 170a.\nBernot, Anna, Ladendienerin, jenseits der Aare 1247.\nBertschi, Adolf, Wagner, Bahnhofstraße 633.\n  — Adolf, Schneider, Metzgergasse 78.\n  — Anna, Damenschneiderin, Milchgasse 127.\n  — Bertha, Damenschneiderin, Milchgasse 153.\n  — Emil, Oekonom, Gönnhardfeldweg 1445.\n  — Emil, Schneider, Holzmarkt 320.\n  — Emil, Holzspalter, Adelbändli 168.\n  — Gottlieb, Taglöhner, Bahnhofstraße 558.\n  — Gottlieb, Briefträger, Strittengütschen 1208.\n  — Gottlieb, Magaziner, Bahnhofstraße 599.\n  — Gottlieb, Schneider, Flößerstraße 1167.\n  — Jakob, Sekretär, obere Vorstadt 539.\n  — Jb. August, Sekretär, Entfelderstraße 1410.\n  — Jakob, Postangestellter, obere Vorstadt 554.\n  — Julius, gewesener Zugführer, Milchgasse 127.\n  — geb. Lüscher, Luise, Damenschneiderin, Pelzgasse 89.\n  — -Merz, Elise, Corsettschneiderin, Flößerstraße 1167.\n  — -Schwammberger, Marie, Damenschneiderin, Metzgergasse 78.\n  — geb. Wächter, Marie, Wäscherin, Rathausgasse 29.\n  — geb. Vogt, Elise, Schreiners Witwe, Halden 305.\nBertschinger, Gustav, Spezereihändler, hintere Vorstadt 375.\n  — geb. Riniker, Anna, Witwe, Buchserstraße 951 [tel].\nBethge, Karl, Postpacker, obere Vorstadt 538.\nBetriebsamt, [tel] städtisches Rathaus 1.\nBeutter, Karl, Direktor, Konradstraße 1417.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 91157,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2238,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.54,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:35:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p098",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p098.jpeg",
+      "bytes": 827885,
+      "sha256": "932bdd5748c3d6becd4178e6e91023cd6f1c22d61e2437d76533b0c9bd5cefd0",
+      "sha256_of": "original",
+      "working_copy": "1901_p098.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:35:34+00:00"
+  }
+}

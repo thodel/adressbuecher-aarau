@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p167",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p167.jpeg",
+    "bytes": 749106,
+    "sha256": "4580adf119ecf23e9157b1c830ed1d503c93b619bb630c0735b7defe2160c71a",
+    "sha256_of": "original",
+    "working_copy": "1901_p167.jpeg"
+  },
+  "text": "154\nKinderwagen.\nGantner, Arnold, Sattler, Metzgergasse 75.\nHäflin, Joseph, Sattler, Kasinostraße 642.\nKyburz, Gotthold, Sattler, Entfelderstraße 1376.\nWetter & Cie.,* obere Vorstadt 554.\nKlavierhandlung.\nBurgmeier, Joseph,* Graben 216. (Siehe Inserat Seite 16.)\nKleiderhandlungen.\nAckermann, Albert,* vordere Vorstadt 352.\nBruns, Heinrich, vordere Vorstadt 341.\nCodoni-Dreßler, Remigius,* 436.\nGamper & Cie.,* Rathausgasse 2.\nGerber, Gustav,* vordere Vorstadt 327. (Siehe Inserat Seite 3.)\nGisi-von Arx, Viktor,* Holzmarkt 321.\nHefti, Peter, Metzgergasse 78.\nHofer, Gottlieb,* Rathausgasse 25.\nSchneeberger-Salvi, Jakob,* Rathausgasse 4. (S. Inserat Seite 23.)\nSiebenmann, Gebr.,* March.-Tailleur, Oberthor 241.\nKleiderfärberei.\nWyser, Alfred,* Bachstraße 1005.\nKleiderreiniger.\nHunziker, Gottlieb, Halden 260.\nPletscher, Georg, in Winterthur: Filiale für chemische Wäscherei\n  und Kleiderfärberei, Laurenzenthorgasse 117.\nKohlen-, Briquettes- und Coakshandlungen.\nGasfabrik Aarau,* Gasstraße (Zollrain) 1173.\nHitz-Lanz, Otto,* Rain 496.\nLagerhäuser der Centralschweiz.* Bahnhof 832. (Siehe Inserat\n  Seite 19.)\nSiebenmann & Cie.,* Bahnhofstraße 581. (S. Inserat Seite 22.)\nStirnenmann, Jakob, Metzgergasse 79.\nTrefzger-Schöndli, Nepomukina, (Färbergäßchen) 237.\nWidmer, Samuel,* Halden 291.\nKolonialwarenhandlungen.\nErne & Cie. (en gros),* Feerstraße 690.\n  (Im weiteren siehe Spezereihandlungen.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14982,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1399,
+    "lines": 37,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.68,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:02:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p167",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p167.jpeg",
+      "bytes": 749106,
+      "sha256": "4580adf119ecf23e9157b1c830ed1d503c93b619bb630c0735b7defe2160c71a",
+      "sha256_of": "original",
+      "working_copy": "1901_p167.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:02:08+00:00"
+  }
+}

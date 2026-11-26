@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p133",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p133.jpeg",
+    "bytes": 858831,
+    "sha256": "74134128c50a1b5e837cd6d18d48cd4059ee9b70f28b4dee53f1d845506a405c",
+    "sha256_of": "original",
+    "working_copy": "1901_p133.jpeg"
+  },
+  "text": "120\n\nSchibli, Alfred, Chef der Militärkanzlei, Graben 221.\n— Anna, Damenschneiderin, Graben 221.\n— geb. Jäggi, Anna Maria, Witwe, Part., Graben 221.\n— Karl, Bauführer, Graben 221.\nSchiess, Arnold, Reisender, Scheibenschachen 1322.\nSchisser, Hermann, Kaufmann, [tel] Wohnung Graben 213, Käse-\n  handlung Pelzgasse 113.\n— Heinrich, Kanzleigehilfe der Krankenanstalt, Buchserstraße 956.\nSchifferli, Albert, Commis, Schönenwerderstraße 1452.\nSchilling, August, Wirt, Gasthof z. Kettenbrücke, [tel] Zollrain 60.\nSchindler, Andreas, Kunstmaler, Graben 214.\n— geb. Trümpi, Emma, Entfelderstraße 1407.\nSchlachthaus, Metzgergusse 80.\nSchlatter geb. Bühler, Maria, Witwe, Kirchhof 165.\n— Friedrich, Lokomotivführer, Laurenzenvorstadt 793.\n— -Heinbeck, Margaritha, Part., Graben 208.\nSchlummerberger-Jakob, Rosette, Wirtin, Speisewirtschaft z. „Graben-\n  Allee“, Graben 215.\nSchmid, Albert, Oberstlieut., Instr.-Offizier, Kütigerstraße 1260.\n— Albert, Schriftsetzer, Strittengäßchen 1213.\n— -Baumann, Emil, Part., Zschokkestraße 1427.\n— Bruno, Magaziner, Weinberg 1288.\n— Daniel, Gärtner, Scheibenschachen 1342.\n— Emil, Cementarbeiter, Erlinsbacherstraße 1302.\n— Frida, Anna und Sophie, Weißnäherinnen, h. d. Bahnhof 1004.\n— Hans, Briefträger, Stadthof 84b.\n— -Wassmer, Hans, Maschinist, von Erlinsbach (Aarg.), jenseits\n  der Aare 1300.\n— Heinr., Kaufmann, Manufacturwarenhandlg., Laurenzenthorg. 114.\n— Hermann, II. Gemeindeweibel, Schachen 1133.\n— Jakob, Ingenieur, [tel] Bachstraße 1082.\n— Johann Baptist, Mineralwasserfabrikant, Mühlematt 1360 [tel],\n  Fabrik Hammer 179. [tel]\n— Johann Friedrich, Schneider, Halden 279.\n— Johann, Handlanger, Industriestraße 929.\n— -Marti, Anna, Haushälterin, Kütigerstraße 1260.\n— geb. Maurer, Mathilde, Negotiantin, Comestibleshandlung, Rat-\n  hausgasse 20. [tel]\n— Peter, Sekretär, hintere Vorstadt 367.\n— Peter, Posamenter, Laurenzenvorstadt 727.\n— Rudolf, Bauamtsarbeiter, Golattenmattgasse 248.\n— Samuel, Commis, Strittengäßchen 1213.\n— geb. Unger, Sophie, Bahnwärters Witwe, obere Vorstadt 547.\nSchmidli-Stirnemann, Margaritha, Milchgasse 147.\nSchmidt, Gustav, Kaufmann, Part. [tel] Graben 208.\n— Hans, Part., Zieglerain 428.\n— Hedwig, Coiffeuse, Adelbändli 172.\n— Jenny, Modistin, Bahnhofstraße 559a.\n— Max, Fürsprech und Notar, Stadtammann, [tel] Jurastraße 1491.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18974,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2300,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:47:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p133",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p133.jpeg",
+      "bytes": 858831,
+      "sha256": "74134128c50a1b5e837cd6d18d48cd4059ee9b70f28b4dee53f1d845506a405c",
+      "sha256_of": "original",
+      "working_copy": "1901_p133.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:47:49+00:00"
+  }
+}

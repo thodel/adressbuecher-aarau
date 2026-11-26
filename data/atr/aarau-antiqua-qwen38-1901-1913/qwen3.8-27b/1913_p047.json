@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p047",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p047.jpeg",
+    "bytes": 886379,
+    "sha256": "61a5509dc809c71588a7efff5d694be6fd30807e96ec331a33290f430622e037",
+    "sha256_of": "original",
+    "working_copy": "1913_p047.jpeg"
+  },
+  "text": "Haus-\nNr.\n— 31 —\n358 * Hauri-Gränicher, Luise, Wwe., Seengen. Tapisserie- u. Mercerie-\n  Geschäft.\nBolliger-Schenker, Samuel, Offiz.-Bedienter.\n  — Emma, Telephonistin.\nMaurer-Angerer, Fritz, Stadtpolizist, Schmiedrued.\n359 Siebenmann-Br unnhofer, Marie, Wwe.\n  — Marie, Primarlehrerin.\nKröll, Leonhard, Schuhmacher, Edelsbach.\nSuter, Elise, Glätterei und chem. Wäscherei.\n  — Emma, Glätterin, Gränichen.\nBr unnhofer, Elise, Privatin.\n360 * Gerber-Seiler, Gustav, March-Tailleur.\nSchmidlin-Martin, Warenhaus zur Stadt Paris [tel].\n  — Emma, Verkäuferin, Villmergen [tel].\nPlüß-Zimmerli, Marie, Hebamme.\n  — Marie.\nZimmerli-Lässer, Elisabeth, Privatin, Brittnau.\nEgloff-Wirz, Johann Ernst, Buchbinder, Tägerweilen.\nWegmüller-Nußbaum, Fritz, Ausläufer, Vechigen (Bern).\nVon der Crone, Heinrich, Schriftsetzer, Basel.\n361 * Aktienbrauerei Feldschlösschen in Rheinfelden.\nGerber-Wüthrich, Emil, Bierhalle zum Affenkasten [tel].\nKaspar-Merz, Rudolf, Pol.-Feldweibel, Leutwil.\nAmmann-Kaspar, Rich., Pol.-Korporal, Bünzen.\nKantonales anthropometrisches Bureau.\n362 * Gemeinde Aarau, Amthaus.\nKantonaler Polizeiposten [tel].\nKantonales Patentbureau.\nBezirksamt. [tel]\nBezirksverwaltung.\nStaatsanwaltschaft [tel].\nRubli-Schwarz, J. J., Gefangenenwärter.\nBezirksgefängnis.\n363 Riner-Hächler, Josef Anton, Salzverkauf und Mehlhand-\n  lung [tel].\n  — — Anna, Plazirungsbureau.\nSiebenmann, Emil, Part.\n  — Fried., Part.\n364 * Henz-Plüß, Jakob, Kaufmann.\nGloor, Bertha, Damenschneiderin.\n  — Wilhelmine, Spetterin, Dürrenäsch.\nWirz-Wirz, Emil, Küfer, Sissach.\n366 * Henz-Gautschi, Emil, Kaufmann.\nBolliger-Manger, M., Hemden-, Schürzen- und Knabenkleider-\n  Anfertigungsgeschäft.\n  — Max, Kassier.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 45706,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1683,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:45:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p047",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p047.jpeg",
+      "bytes": 886379,
+      "sha256": "61a5509dc809c71588a7efff5d694be6fd30807e96ec331a33290f430622e037",
+      "sha256_of": "original",
+      "working_copy": "1913_p047.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:45:35+00:00"
+  }
+}

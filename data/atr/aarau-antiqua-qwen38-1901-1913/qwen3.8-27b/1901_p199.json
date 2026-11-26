@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p199",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p199.jpeg",
+    "bytes": 686786,
+    "sha256": "b0498bdcbf451827a3e95c73814104ac616152fa042f10ae6bc35a5a77289deb",
+    "sha256_of": "original",
+    "working_copy": "1901_p199.jpeg"
+  },
+  "text": "186\n\nD. Arbeitsschulen.\nLehrerinnen.\nFurter, Ida.\nMarti-Siebenmann.\nMeyer-Lüthy.\nSchäppi, Anna.\n\nE. Kleinkinderschulen.\nKleinkinderschule auf dem Rain.  Lehrer: Fisch, Mina.\n  \"  an der Flößerstraße.  Lehrerin: Zeller, Lina.\n  \"  an der Bahnhofstraße.  Lehrerin: Fr. Roschach.\n  \"  im alten Kantonschulgebäude.  Lehrerin: Schälle-\n    bomm, Gritte.\n\nb. Bibliotheken.\n\nAargauische Kantonsbibliothek.\n(Im Großratsgebäude.)\nBibliothekstunden: a) Bücherausgabe Mittwoch und Samstag\n2 bis 5 Uhr (vom 1. Oktober bis 1. April von 2 bis 4 Uhr). b) Das\nLesezimmer ist zu den genannten Stunden Mittwochs und Samstags,\nsowie außerdem Montags geöffnet.\nJahresabonnement: Für die im Kanton niedergelassenen Abon-\nnenten Fr. 3, für die außerhalb des Kantons wohnenden Fr. 4.\nBibliothekar: Dr. Hans Herzog.\n\nStadtbibliothek Aarau.\n(Altes Kantonschulgebäude.)\nBibliothekstunden: Mittwoch 1 bis 3 Uhr.\nJahresabonnement: Fr. 4.  Halbjahr 2. 50.\n\nRegierungsbibliothek.\n(Im Regierungsgebäude.)\n\nRatsbibliothek.\n(Im städtischen Rathaus.)\n\nObergerichtsbibliothek.\n(Im Obergerichtssaal.)\n\nMilitärbibliothek.\n(Im Zeughaus.)\n\nBibliothek und Vorbildersammlung des kantonalen\nGewerbemuseums.\n(Siehe dasselbe.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 24548,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1182,
+    "lines": 38,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 29.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:14:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p199",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p199.jpeg",
+      "bytes": 686786,
+      "sha256": "b0498bdcbf451827a3e95c73814104ac616152fa042f10ae6bc35a5a77289deb",
+      "sha256_of": "original",
+      "working_copy": "1901_p199.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:14:51+00:00"
+  }
+}

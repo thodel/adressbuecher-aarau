@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p094",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p094.jpeg",
+    "bytes": 880523,
+    "sha256": "d108f7a4cca64a1437359c99f056b8f90b0628a655142b928c7cd068402ad351",
+    "sha256_of": "original",
+    "working_copy": "1913_p094.jpeg"
+  },
+  "text": "Haus-\nNr.\n1562 Lindt-Amsler, Rolf, Dr. med., Arzt, Bern [tel].\n1050 * Kunz, Joh. Jakobs Erbschaft.\n  Müller-Jutzeler, Arnold, Architekt.\n  Oelhafen-Großmann, Christian, Architekt.\n  Walder-Kunz, Elise, Benken (Zürich).\n  — Hedwig, Telephonistin, Benken (Zürich).\n1051 Joho-Lüthy, Jakob, Kreiskommandant, Auenstein [tel].\n\nBachstrasse.\n1054 * Gysi-Schneider, Otto, Photograph. Optik und Mechanik.\n  * Groß-Hochuli, Friedrich, Spenglerwerkstätte.\n1055 * Weber-Hegnauer , Hermann, Menziken. Haber- und Mais-\n  handlung. Magazin und Bureau [tel].\n1056 * Rychner, Karl, Fabrikant.\n  Baumeister-Schmuziger, Wendolin, Maßgeschäft für Zivil und\n  Militär.\n  Wernli-Dietiker, Jakob, Fabrikarbeiter, Thalheim.\n  Großen-Weber, Hans, Dachdecker, Kandergrund.\n1057 * Rychner, Karl, Fabrikant.\n  * Erb-Autenheimer, Otto, Schmiedewerkstatt.\n1059 Maurer-Lehmann, Friedr., Lokomotivheizer S. B. B.\n  — Friedrich, Kanzlei-Sekretär.\n  — Martha, Telephonistin.\n  Vogel-Harnisch, Emil, Konfiseur, Gurbrü (Bern).\n  Walti-Wernli, Hermann, Taglöhner, Dürrenäsch.\n  Joho, Anna, Part., Auenstein.\n1060 Jörg-Hächler, Samuel, Schreinermeister , Affoltern (Bern).\n  Möbelschreinerei.\n  — Karl, Schreiner, Affoltern (Bern).\n  Theil, Hermann, Schreiner, Eichfeld (Deutschland).\n  Bolliger, Heinrich, Handlanger, Kütigen.\n1061 * Eismann-Indermauer, Abrahams Erbschaft.\n  — — Elise, Part.\n  — Elise.\n  — Pauline.\n  Bläuer-Eismann, Hans, Vize-Steuerpräsident, Linn.\n1062 * Eismann-Indermauer, Abrahams Erbschaft.\n  Siebenmann, Emilie, Klavierlehrerin.\n  Schenk-Müller, Karl, Feinmechaniker, Osnabrück (Preußen).\n1063 * Jörg, Samuel, Schreinermeister.\n  Schröder, Theodor, Schuhmachermeister, Heintrop (Preußen).\n  — Lina, Bureaulistin, Heintrop (Preußen).\n  Staudacher-Bachmann, Hans, Schneidermeister, Köttig (Tirol).\n  Deubelbeis, Paul, Chauffeur, Schinznach.\n  Stauber-Götthe, Jakob, Bezirksverwalter und Notar.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 47065,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1880,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.52,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:01:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p094",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p094.jpeg",
+      "bytes": 880523,
+      "sha256": "d108f7a4cca64a1437359c99f056b8f90b0628a655142b928c7cd068402ad351",
+      "sha256_of": "original",
+      "working_copy": "1913_p094.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:01:45+00:00"
+  }
+}

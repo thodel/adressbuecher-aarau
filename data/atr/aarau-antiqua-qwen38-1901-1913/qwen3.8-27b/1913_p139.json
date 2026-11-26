@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p139",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p139.jpeg",
+    "bytes": 956281,
+    "sha256": "55daad8ef112b55a5ad86661442f681b9b32a8b4ef2999b744ede7d4d5b717cd",
+    "sha256_of": "original",
+    "working_copy": "1913_p139.jpeg"
+  },
+  "text": "— 97 —\nAmsler, Max, Kaufmann, Pestalozzistraße 1540.\n— Tschudy, Otto, Kaufmann, Oberholzstraße 1656.\nAmthaus. Hintere Vorstadt 362.\nAnacker-Huber, Georg, Lithographiebesitzer, Eisenach. Schönen-\n  werderstraße 1529.\nAndermatt-von Däniken, Albert, Malermeister, Baar. Ziegelrain 421.\nAndreini-Michellini, Enrico, Handlanger, Saludecio (Italien). Milch-\n  gasse 145.\nAndres-Schmid, Adele, Schreiners Witwe, Küttigerstraße 1253.\n— -Schwendimann, Emil, Stadtarbeiter, Milchgasse 148.\n— Ernst, Hafner, Bachstraße 1064.\n— -Bircher, Friedrich, Privatier, Obere Vorstadt 520.\n— -Weiß, Fritz, Kaufmann, Obere Vorstadt 520.\n— -Eichelberger, Otto, Hafnermeister [tel]. Bachstraße 1064.\n— -Meyer, Samuel, Schlossermeister. Küttigerstraße 1249.\nAngerer-Baumgartner, Josef, Part., Stils (Tirol). Hintere Bahnhof-\n  straße 1008.\n*Angst, Robert und Fanny, Buchhandlung für christliche Literatur,\n  Sanitäts- u. Verbandsstoffgeschäft etc. Hinterm Platz 238.\nAngwerd, Karl, Schriftsetzer, Steinen (Schwyiz). Asylstraße 1145.\n*Anliker-Gloor, Ernst, Käse- und Butterhandlung, Gondiswil (Bern) [tel].\n  Pelzgasse 113.\nArbeitsamt. kantonales. Holzmarkt 316.\nArgentinisches Konsulat: Westallee 1637 [tel].\nAuerhammer, Karl, Lithograph, Graz. Buchserstraße 984.\nBächli, Frieda, Weißnäherin, Buchs. Bahnhofstraße 568.\n— -Frey, Friedrich, Notar, Buchs. Ziegelrain 395.\n— -Holliger, Gottl., Schuhmacher, Buchs. Bahnhofstraße 568.\n— Verena, Haushälterin, Buchs. Halden 266.\nBäni-Hürzeler, Gottfried, Knecht, Urkheim. Hohlgasse 536.\n— -Widmer, Helena, Part., Urkheim. Hohlgasse 536.\nBäny, Elisabeth, Wärterin, Urkheim. Buchserstraße 956.\n— -Suter, Rudolf, Taglöhner, Urkheim. Milchgasse 135.\nBänziger-Burkhardt, Adolf, Telegraphist, Lutzenberg (Appenzell).\n  Bachstraße 1064.\nBär, H., Gartenstraße 1566.\n— -Haßler, Louis, Militär-Rechnungsrevisor, Bahnhofstraße 560.\n— Maria, a. Arbeitslehrerin, Hintere Bahnhofstraße 1009.\n— -Segesser, Otto, Drechslermeister, Entfelderstraße 1380.\n— Pia, Bahnhofstraße 560.\n— -Suter, Wwe., Fabrikarbeiterin, Vordemwald. Zollrain 56.\nBärtschi, Jakob, Fabrikarbeiter, Eggiwil. Bahnhofstraße 568.\n*— -Minder, Jakob, Wirt, Lützelflüh. Restaurant zur Zunfstub,\n  Pelzgasse 105.\n— -Keiser, Karl, Masch.-Meister, Sumiswald. Rohrerstraße 881.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 45428,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2240,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:11:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p139",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p139.jpeg",
+      "bytes": 956281,
+      "sha256": "55daad8ef112b55a5ad86661442f681b9b32a8b4ef2999b744ede7d4d5b717cd",
+      "sha256_of": "original",
+      "working_copy": "1913_p139.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:11:17+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p182",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p182.jpeg",
+    "bytes": 983943,
+    "sha256": "4e0c2c67d683a83578095a7cfb0fa93ea4826cf6ce152a763021ae8513cf221d",
+    "sha256_of": "original",
+    "working_copy": "1913_p182.jpeg"
+  },
+  "text": "— 140 —\nKull-Gerber, Adolf, Postdienstchef. Bachstraße 1097.\n— Anna, Ladentochter, Niederlenz. Rohrerstraße 878.\n— -Obrist, Eduard, Schriftsetzer, Niederlenz. Entfelderstraße 1400.\n— -Eugster, Emil, Philippss, Spenglermeister. Bauspenglerei und\n  Haushaltsartikel. Milchgasse 153.\n*— -Lerch, Emil, Spenglermeister, Haushaltsartikel, Riniken [tel]\n  Vordere Vorstadt 343.\nKummler-Frey, Auguste, Witwe, Privatin. Herzogstraße 996.\n— -Sauerländer, Herm., Kaufmann [tel]. Herzogstraße 996.\n*— & Matter A. G. Fabrikgebäude und Bureau [tel]. Bleichematt-\n  straße 1026.\n*Kunz-Gerhard, Adolf, Wirt, Brittnau [tel]. Zeughausstraße 673.\n— Bertha, Ladentochter, Wald (Zürich). Vordere Vorstadt 331.\n— -Graf, Ernst, Konditor, Wald (Zürich) [tel]. Vord. Vorstadt. 331.\n— Ernst, Konditor, Wald (Zürich). Vordere Vorstadt 331.\n— -Vöggeli, Ferdinand, Kaminfeger, Baldingen. Ziegelrain 418.\nKurt-Maurer, Fritz, Stadtpolizist, Rüttschelen. Bahnhofstraße 564.\nKyburz-Wüthrich, Barb., Privatin, Unt.-Kulm. Laurentzentorgasse 125.\n— -Zaugg, Gotthold, Sattler und Tapezierer, Ober-Entfelden. Ent-\n  felderstraße 1376.\n— Gottfried, Sattler, Ober-Entfelden. Entfelderstraße 1376.\n— Hermann, Lithograph, Erlinsbach. Wiesenstraße 1291.\n— -Seiler, Lina, Wäscherin, Erlinsbach. Milchgasse 139.\n— Lisette, Spetterin, Unter-Kulm. Golattenmattgasse 251.\n— Marianna, Köchin, Ober-Entfelden. Rain 431.\n— Verena, Gemüsehändlerin, Ober-Entfelden. Kasinostraße 641.\nLäderach-Weibel, Fritz, Zimmermann, Worb (Bern). Golatten-\n  mattgasse 254.\nLäser, Luise, Gontenschwil. Halden 261.\nLässer, Susanna, Packerin, Gontenschwil. Kirchgasse 32.\nLäubli, Otto, Fabrikaufseher, Seengen. Mühlematt 1364.\nLäuchli, Adolf, Lithographiebesitzer, Remigen. Bachstraße 1103.\n— Anna, Fabrikarbeiterin. Hammer 181.\n— Anna. Rathausgasse 1.\n— -Gilgen, Anna. Rathausgasse 29.\n— Arnold, Mechaniker. Hammer 181.\n— -Hagnauer, Emil, Mechaniker. Schloßplatz 202.\n— Ernst, Mechaniker. Hammer 181.\n— -Bircher, Friedrich, Mechaniker. Hammer 181.\n— -Vogel, Hans, Hafnermeister, Remigen. Halden 285. Werk-\n  statt: Rain 495.\n— -Coradi, Hans, Prokurist. Aarestraße 1233.\n— -Hoßli, Jakob, II. Gemeindeweibel und Rathausabwart. Rathaus-\n  gasse 1.\n— Johann, Privatier. Obere Vorstadt 545.\n— Klara, Arbeitslehrerin. Rathausgasse 1.\n[spalte 2]\nLäupp\n— R\n— S\nLaag\n— —\nLack\n— R\n*Lage\nLand\n— H\n— H\n— H\nLanf\nLang\n— M\n— Z\nLanz\nLattr\n— H\nLaur\n— V\nLech\n— F\n— C\n— M\nLede\n— D\n— C\nLede\nLehr\n—\n—\n—\n—\n—\nLehr\n—\n—\n—",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 60248,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2428,
+    "lines": 87,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.1724,
+    "mean_line_chars": 26.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:33:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p182",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p182.jpeg",
+      "bytes": 983943,
+      "sha256": "4e0c2c67d683a83578095a7cfb0fa93ea4826cf6ce152a763021ae8513cf221d",
+      "sha256_of": "original",
+      "working_copy": "1913_p182.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:33:40+00:00"
+  }
+}

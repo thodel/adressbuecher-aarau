@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p267",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p267.jpeg",
+    "bytes": 706757,
+    "sha256": "a43e07db3b3634bc2929c85a79703f5ceafecc7629b747dc5e848713c331b35b",
+    "sha256_of": "original",
+    "working_copy": "1913_p267.jpeg"
+  },
+  "text": "— 233 —\n\nTapissiergeschäfte.\n*Brugger-Gränicher, Henriette.   Graben 226.\n*Hauri-Gränicher, Louise.   Hintere Vorstadt 358.\n\nTechnische Bureaux.\n*Conradin Zschokke A. G. [tel].   Entfelderstraße 1384.\n  Keller-Merz, Martin [tel]   Jurastrasse 1617.\n*Lüscher, Dr. G. [tel]   Bahnhofstraße 624.\n  Schmid, J. J. [tel]   Bachstraße 1082.\n\nTeigwarenhandlungen.\n  Siehe Spezereihandlungen.\n\nTelephon- und Telegraphenbureau.\n  Metzgergasse 72.\n  Chef: Stauber, Gottfried.\n\nTeppichhandlung.\n*Haßler, Hans & Cie. [tel].   Kasinostraße 649.\n\nTiefbauunternehmer.\n*Frey-Bohler, Gottlieb [tel].   Tellstraße 1611.\n\nTinten- und Siegellackfabrikation.\n*Schmuziger & Cie. [tel]   Buchserstraße 1578.\n\nTierarzt.\n  Schenker, Gust., Bezirkstierarzt [tel].   Schmiedgasse 381.\n\nTonröhrenfabrikation.\n*Richner, Karl [tel].   Bahnhofstraße 613.\n\nTotengräber.\n  Vogler, Julius [tel].   Obere Vorstadt 549.\n\nTricotfabriationen (Strickwaren).\n  Böhm-Hoffmann, Marie.   Zollrain 54.\n  *Tricot-Spezialgeschäft Aarau, E. Keller [tel].   Vorderes Vorstadt 340.\n\nTrödlergeschäft.\n  Maurer, Paul.   Golattenmattgasse 249.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 25067,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1090,
+    "lines": 31,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:14:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p267",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p267.jpeg",
+      "bytes": 706757,
+      "sha256": "a43e07db3b3634bc2929c85a79703f5ceafecc7629b747dc5e848713c331b35b",
+      "sha256_of": "original",
+      "working_copy": "1913_p267.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:14:20+00:00"
+  }
+}

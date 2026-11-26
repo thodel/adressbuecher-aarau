@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p230",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p230.jpeg",
+    "bytes": 903431,
+    "sha256": "69d2c96049ca96bbdf4df2b11731bcd64d6cd8d488118d5eea9db57724175220",
+    "sha256_of": "original",
+    "working_copy": "1913_p230.jpeg"
+  },
+  "text": "— 188 —\nZoll, Wilhelm, Buchdrucker, Breslau.  Stritengässchen 1753.\nZschokke-Jordi, Anna, Privatin.  Entfelderstraße 1407.\n— Schmuziger, Arnold, Dr. jur., Part., alt Staatsschreiber. Garten-\n  straße 1424.\n— Arthur, Privatier.  Zollrain 61.\n— Sauerländer, Auguste, Buchhändlers Witwe. Zschokkestr. 1421.\n*Conradin Zschokke A. G.  Technisches Bureau [tel].  Entfelder-\n  straße 1384.\nZschokke-Disqué, Dr. Conradin, Prof., National-Rat, Ingenieur [tel].\n  Entfelderstraße 1389.\n— Bertschinger, Ernst, Dr., Professor.  Zschokkestraße 1421.\n— Sauerländer, Maria, Part., zur Blumenhalde [tel].  Küttiger-\n  straße 1271.\n— Marie, Bureauangestellte.  Entfelderstraße 1407.\n*— M., Baugeschäft A. G., Bureau [tel].  Rohrerstraße 903.\n*— Kosthaus.  Rohrerstraße 907.\nZüger, Anna, Lehrerin, Vorderthal (Schwyz).  Mühlematt 1649.\n— Hirschmann, Martin, Lithograph, Vordertbal (Schwyz).  Mühle-\n  matt 1649.\nZürcher-Wirz, Alfred, Arzt [tel].  Laurenzenvorstadt 748.\n— Bolliger, Friedrich, Straßenwärter, Trub. Stritengässchen 1217.\n— Ida, Musiklehrerin.  Laurenzenvorstadt 748.\nZuber-Baumann, Andreas, Architekt.  Entfelderstraße 1411.\n— Müller, Barbara, Privatin.  \" 1411.\n— Hedwig, Bureauangestellte.  \" 1411.\nZubler, Elisabeth, Part., Hunzenschwil.  Hintere Bahnhofstr. 1008.\n— Gottfried, Bankbeamter,  \"  Vordere Vorstadt 343.\nZulauf-Lehmann, Jakob, Postbeamter.  Westallee Neugut 1692.\nZumbach-Anz, Niklaus, Geometer, Toffen.  Hinteres Zelgli 1837.\nZumbühl-Peyer, Alois, Knecht, Büren (Nidwalden).  Kirchhof 162.\nZurlinden-Waßmer, Ferdinand, Kaufmann [tel].  Feerstraße 1657.\n— Boitel, Fritz, Direktor der Kantonalbank, Zofingen [tel].  Jura-\n  straße 1543.\n— Richner, Rudolf, Fabrikant, Zofingen [tel].  Bahnhofstraße 569.\nZysset-Widmer, Johann, Knecht, Heiligenschwendi.  Telli 868.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 40865,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1775,
+    "lines": 36,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:04:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p230",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p230.jpeg",
+      "bytes": 903431,
+      "sha256": "69d2c96049ca96bbdf4df2b11731bcd64d6cd8d488118d5eea9db57724175220",
+      "sha256_of": "original",
+      "working_copy": "1913_p230.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:04:26+00:00"
+  }
+}

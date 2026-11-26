@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p153",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p153.jpeg",
+    "bytes": 976443,
+    "sha256": "5fad838686a1065b5992da670a707541d74ce590afdafb2b7158a620cdb3e79e",
+    "sha256_of": "original",
+    "working_copy": "1913_p153.jpeg"
+  },
+  "text": "— 111 —\nEichenberger-Stirnemann, Adolf, Fabrikarbeiter, Beinwil.  Rohrer-\n  straße 1809.\n— -Fischer, Ernst, Offiziersbedienter, Fahrwangen.  Milchgasse 147.\n— Fritz, Schreiner, Beinwil.  Halden 278.\n— Fritz, Stadtarbeiter, Reinach.  Halden 298.\n— -Flad, Gertrud, Witwe, Reinach.  Halden 298.\n— -Fischer, Gotth., Schreinermeister, Beinwil.  Stritengäßchen 1533a.\n— -Härdi, Gotth., Obergerichtskanzlist,        1533b.\n— Marie, Fabrikarbeiterin, Beinwil.  Rohrerstraße [tel]1809.\n— -Schwammberger, Rudolf, Fabrikarbeiter, Beinwil.  Telli 871.\nEichhorn, Emanuel, Coiffeur, Höchst.  Kirchhof 162.\nEichstätte des Bezirks Aarau.  Buchserstraße 1678.\nEidg. Alkoholdepot, Bureau.  Rohrerstraße 894.\n*Elek. Glühlampenfabrik A. G.,  Fabrikgebäude [tel].  Hintere Bahn-\n  hofstraße 1000.\nElektrizitätswerk [tel].  Erlinsbacherstraße 1300.  Bureau und La-\n  den Bahnhofstraße 636 [tel].\nElmer-Weber, Josef, Lok.-Führer  S. B. B., Amden (St. Gallen).\n  Bleichematthstraße 1018.\nElsasser-Bertschi, Lisa, Witwe.  Holzmarkt 320.\n— -Weickgenannt, Rosa, Witwe, Abwart [tel].  Bleichematthstraße 1017.\nEnderlin-Gut, Otto, Direktor, Niederhasli (Zürich).  Westallee Neu-\n  gut 1654.\nEngelberger-Adrion, Marie Bertha, Witwe, Stansstad.  Halden 311.\nEngesser-Brunner, Cresc., Taglöhnerin, Turschhausen.  Graben 208.\n— Josef, Schneidermeister, Herrenmaßgeschäft.  Ziegelrain 407.\n— Marie, Glätterin, Turschhausen.  Graben 208.\n— Rosa, Damenschneiderin, Turschhausen.  Graben 208.\nEnz-Suter, Gottfr., Kaufmann, Weinfelden.  Schönenwerderstr. 1823.\nErb-Treier, Elise, Gipf-Oberfrick.  Stritengäßchen 1150.\n— -Rodet, Hermann, Bauamtarbeiter, Wölflinswil.  Milchgasse 139.\n— Mathilde, Wärterin, Wölflinswil.  Buchserstraße 956.\n— -Autenheimer, Otto, Schmiedemeister, Erlinsbach.  Bahnhof-\n  straße 555.\n— — Otto.  Schmiedewerkstatt Bachstraße 1057.\nErbin-Obrecht, Frieda, Witwe, Kaufmanns [tel].  Mercerie-, Bonneterie-,\n  Lingerie- und Passenteriewarenhandlung.  Rathausgasse 13.\n— Joh. Fritz, Maler, Gansingen.  Hammer 183b.\n— Louise, Buchhalterin,        \"        183b.\n— Mina, Ladentochter,        \"        183b.\n— -Zumsteg, Siegfried, Magaziner, Gansingen.  Hammer 183b.\nErismann-Indermauer, Elise, Part.  Bachstraße 1061.\n— Elise.  Bachstraße 1061.\n— -Niggli, Elise, Witwe, Damenschneiderin, Brugg.  Asylstr. 1141.\n— -Sager, Friedrich, Privatier.  Buchserstraße 982.\n— -Berner, Paul, Uhrengeschäft, Optiker.  Kronengasse 43.\n— Pauline.  Bachstraße 1061.\n8",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 76605,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2433,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:18:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p153",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p153.jpeg",
+      "bytes": 976443,
+      "sha256": "5fad838686a1065b5992da670a707541d74ce590afdafb2b7158a620cdb3e79e",
+      "sha256_of": "original",
+      "working_copy": "1913_p153.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:18:43+00:00"
+  }
+}

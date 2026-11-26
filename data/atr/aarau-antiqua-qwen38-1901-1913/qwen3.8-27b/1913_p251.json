@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p251",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p251.jpeg",
+    "bytes": 857080,
+    "sha256": "8b869b810ac70154c8acff0821be25b3af5fa7a74f22d33a6fb8917970ffbc76",
+    "sha256_of": "original",
+    "working_copy": "1913_p251.jpeg"
+  },
+  "text": "— 217 —\nKolonialwarenhandlungen.\n*Erne & Cie., en gros [tel]. Feerstraße 690.\n*Moro-Simon, F., Zürich. Zum billigen Laden [tel]. Metzgergasse 81.\n*Rohr-Reimann, Jakob, zum Adler [tel]. Pelzgasse 97.\n*Stéphani-Winkler, Margrit, Witwe. Rathausgasse 17.\nIm weitern siehe Spezereihandlungen.\nKonditoreien.\n*Ammann, Paul [tel]. Bahnhofstraße 619.\nChristen-Scherrer, Gottfr. [tel] Graben 212.\nFrey, Friedr. Wiesenstraße 1291.\nHintz, Alfred [tel]. Kronengasse 45.\nHintz-Gysi, Ulrich [tel]. Laurenzentorgasse 118.\nKaltenbach-Scheiwiller, Fritz [tel]. Rathausg. 11.\nKeller-Läuchli, Paul [tel]. Zollrain 62.\nKunz-Graf, Ernst [tel]. Vordere Vorstadt 331.\nMärki, Oskar. Hintere Vorstadt 369.\nVogel-Harnisch, Emil. Bachstraße 1059.\nKonfektions- und Massgeschäfte.\n*Ackermann-Buser, Albert. Vordere Vorstadt 352.\n*Baumeister-Schmuziger, Wendolin. Bachstraße 1056.\n*Bruns-Wagner, Heinr. [tel] Bahnhofstraße 620.\n*Dreifuß, Josef. Bahnhofstraße 575.\n*Gamper & Co. [tel] Rathausgasse 2 und 31 und Zollrain 51 u. 52.\n*Gerber, Gustav [tel]. Vordere Vorstadt 327 und hintere Vorstadt 360.\n*Gysi-von Arx & Cie. [tel] Graben 223.\n*Konfektionshaus zum Terminus. Bahnhofstraße 575.\nLeutwyler, Robert, Gérant [tel]. Bahnhofstraße 578 b.\n*Müller, Karl [tel]. Metzgergasse 65.\n*Naphtaly & Sohn. Bahnhofstraße 574.\n*Siebenmann & Cie. [tel] Oberthor 241.\nKorbmacher.\nFreuler-Wiederkehr, Fridolin. Schmiedgasse 379.\nHenle-Näf, Anton. Hintere Vorstadt 376.\nKorbwarenhandlungen.\n*Derrer, Jakob [tel]. Zollrain 64.\nFreuler, Fridolin. Schmiedgasse 379.\nHenle-Näf, A. Hintere Vorstadt 376.\n*Magazin Globus [tel]. Bahnhofstraße 632.\nKostümlager.\nPavesio-Theez, Peter. Laurenzentorgasse 118.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 33439,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1653,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:10:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p251",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p251.jpeg",
+      "bytes": 857080,
+      "sha256": "8b869b810ac70154c8acff0821be25b3af5fa7a74f22d33a6fb8917970ffbc76",
+      "sha256_of": "original",
+      "working_copy": "1913_p251.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:10:06+00:00"
+  }
+}

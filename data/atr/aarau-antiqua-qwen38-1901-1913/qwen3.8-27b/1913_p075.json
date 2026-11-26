@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p075.jpeg",
+    "bytes": 902465,
+    "sha256": "1d07ea759884cc995d073608660eddbc347c32a823742e853a2da5b205f5be7b",
+    "sha256_of": "original",
+    "working_copy": "1913_p075.jpeg"
+  },
+  "text": "— 55 —\nHaus-\nNr.\n678 * Staat Aargau. Zeughausdirektion [tel], Zeughausverwaltung,\n  Militärkanzlei [tel].\n680 * Derselbe. Kavalleriekaserne [tel].\n\nFeerstrasse.\n681 * Ammann, Robert, Architekt.\n  Marmy-Fasel, Charles, Ingenieur, Estavayer.\n  Nabholz-Benker, Georg, Ingenieur, Winterthur.\n682 * Ammann, Robert, Architekt.\n  Tanner, Irmengard, Privatin.\n  Huber, Marie, Köchin, Tuttlingen (Württemberg).\n  Kühne-Heiz, Adolf, Bezirkslehrer, Merseburg [tel].\n683 Ammann-Strähl, Robert, Architekt [tel].\n  Frey-Kieser, Johanna (Mercerie- und Modegeschäft, Rathaus-\n  gasse 18).\n684 Lüscher-Wyssbrot, Jakob, Notar, Muhen. Notariatsbureau [tel].\n1657 Zurlinden-Waßmer, Ferdinand, Kaufmann [tel].\n685 Hagenbuch-Würtemberger, Karl,  \"  [tel].\n  Würtemberger, Marie, Privatin.\n686 * Scheidegger, Dr. E., Arzt in Basel.\n  Guignard-Matthers, Albert, Dr. med., Arzt, Le Lieu (Waadt) [tel].\n689 Erne-Leblanc, Eduard, Kaufmann [tel].\n  Vuillermet-Leblanc, Joh.,  \"  , Verriers (Frankreich).\n  Roullier, Oskar Numa, Handelsreisender, Côte-aux-Fées (Neuen-\n  burg).\n690 * Erne & Cie. Colonialwarengeschäft en gros, Bureau und\n  Magazin [tel].\n691 Conrad-Lüthy, Peter, Regierungsrat Auw [tel]\n  — Sacchi, Peter Jos., Fürsprech und Notar, Auw.\n692 Meyer-Lüthy, Jakob, Lehrer.\n  Schmuziger-Hünerwadel, Joh., Baumeister.\n693 Widmer-Gamper, Fritz, Postbüreauchef.\n  Haßler-Schmidt, Fritz, Verwalter d. städt. Elektrizitätswerkes.\n694 Hoffmann-Gamper, Emil, Kaufmann, Versicherungsagent [tel].\n  Generalagentur der „Zürch“, Allg. Unfall- und Haftpflicht-\n  Versicherungsgesellschaft.\n  Maier, Egeria, Privatin, Baden (Baden).\n  Gamper-Haßler, Karoline, Witwe, Privatin.\n695 Baumann-Hemmann, Lina, Witwe, Privatin.\n  Fricker-Bär, Karl, Turnlehrer, Wittnau.\n696 Groß-Walther, Joh. Otto, Kaufmann, Zurzach.\n  Stanek, Marie, Buchhalterin, Damenice (Böhmen).\n697 Gamper-Zürcher, Maria, Witwe, Privatin.\n698 Hunziker-Fleiner, Martha, Witwe, Privatin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 48838,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1921,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:54:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p075.jpeg",
+      "bytes": 902465,
+      "sha256": "1d07ea759884cc995d073608660eddbc347c32a823742e853a2da5b205f5be7b",
+      "sha256_of": "original",
+      "working_copy": "1913_p075.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:54:53+00:00"
+  }
+}

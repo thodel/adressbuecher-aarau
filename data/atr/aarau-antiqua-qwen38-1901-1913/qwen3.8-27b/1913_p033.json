@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p033",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p033.jpeg",
+    "bytes": 942658,
+    "sha256": "d7d38368e5ffac8166da9a9e34b59b73eb24b309f54bcad0593a54bea2f16062",
+    "sha256_of": "original",
+    "working_copy": "1913_p033.jpeg"
+  },
+  "text": "Haus-\nNr.\n173 * Buser-Stiftung Aarau.\n  Fisch-Reimann, Josefine, Fabrikarbeiterin.\n  Reimann, Stephan, Oberhof.\n  Hässig-Maag, Albert Emil, Taglöhner.\n  Bircher, Verena, Privatin, Küttigen.\n  Hunziker-Märki, Maria, Witwe, Damenschneiderin.\n  Sandmeier-Fischer, Rudolf, Stadtarbeiter, Seengen.\n174  Scheibler-Suter, Atfred, Tapezierermeister, Unter-Entfelden.\n  Aussteuergeschäft und Desinfektionsanstalt.\n  Mosimann-Walliser, Gottfried, Bahnarbeiter S. B. B., Signau\n  (Bern).\n  Mayer, Marie, Bureaulistin, Rastatt (Baden).\n  Meier, Karl, Schriftsetzer, Dällikon.\n  Müller-Suter, Jakob, Part., Unter-Kulm.\n  —  Frida, Fabrikarbeiterin,\n175 * Wehrli-Haßler, Friedrich, Privatier in Küttigen.\n  Schaffner-Meier, Margaretha, Witwe, Näherin, Effingen.\n  Rau, Therese, Part., Mumpf.\n  Wolleb-Vogt, Wilhelm, Packer, Lupfig.\n  Kuhn-Frank, Hermann, Ausläufer, Suhr.\n  Fischer, Louise, Damenschneiderin.\n  Scarpin-Guidotti, Pietro, Steinbrecher, Portico (Italien).\n176 * Siebenmann, Elise Emma.\n  Rämisberger-Studler, Verena, Witwe, Privatin.\n  Siedler-Liechti, Marie, Witwe, Köchin, Küßnacht (Schwyz).\n  Giovanoli-Wenger, Gaudenzio, Schuhmacher, Soglio (Graub.).\n  Brunner-Hürlimann, Gottfried, Maler, Gränichen.\n177  Dietiker-Staub, Adolf, Postmandatsträger, Thalheim.\n  Gamper & Cie., Schneiderwerkstätte.\n  Dietiker-Luenberger, Karl, Taglöhner, Thalheim.\n  —  Emma, Glätterin, Thalheim.\n  Schmid-Bucher, Ursula, Witwe, Taglöhnerin.\n\nHammer.\n178  Dubs, Geschwister, Untere Mühle, Mehlhandlung, Küttigen.\n  —  Jakob, Küttigen.\n  —  Elisabeth, „\n  —  Hans,\n  Widmer-Brudermann, Lina, Haushälterin, Heimiswil.\n179  Gysi-Wernli, Samuel, Schreinermeister, mechan. Schreinerei.\n  —  Fritz, Postbeamter.\n180 † Hässig, Gottlieb, Feinschleifer (Werkstatt).\n181  Läuchli-Bircher, Friedr., Mechaniker.\n  —  Anna, Fabrikarbeiterin.\n  —  Ernst, Mechaniker.\n  —  Arnold,\n       „\n2",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15387,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1861,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.41,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:37:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p033",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p033.jpeg",
+      "bytes": 942658,
+      "sha256": "d7d38368e5ffac8166da9a9e34b59b73eb24b309f54bcad0593a54bea2f16062",
+      "sha256_of": "original",
+      "working_copy": "1913_p033.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:37:23+00:00"
+  }
+}

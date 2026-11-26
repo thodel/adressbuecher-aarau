@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p058",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p058.jpeg",
+    "bytes": 778864,
+    "sha256": "91407411b64643c5185062ac7d485a7bee353031f0e1d2ace006c585c3b4bdbb",
+    "sha256_of": "original",
+    "working_copy": "1901_p058.jpeg"
+  },
+  "text": "Haus-\nNr.\n47\n691 Conrard-Lüthy, Peter, Regierungsrat [tel], von Auw.\nWeibel-Geiger, Adolf, Zeichnungslehrer, von Muri.\nBuholzer, Julius, Architekt, von Kriens (Luzern).\n692 Meier-Lüthy, Johann Jakob, Lehrer.\n— Jakob, Postcommis.\nZulauf-Lehmann, Jakob, Postcommis, von Schinznach.\n— Albert, Bankbeamter, von Schinznach.\nBauhofer, Emil, Bankbeamter.\n693 Widmer-Gamper, Friedr., Postcommis.\nGysi-Siebenmann, Otto, Part.\n694 Hoffmann-Gamper, Emil, Kaufmann.\n  Generalagentur der Schweiz. Transport-Vers.-Gesellschaft in\n  Zürich.\n  Hauptagentur der Allg. Unfall- und Haftpflicht-Versicherungs-\n  Aktiengesellschaft Zürich in Zürich.\nBiedermann-Stydler, Emil, Hauptmann, Instruktor der In-\n  fanterie, von Ins (Bern)\nFrikart-Wälchli, Hilda, Part., von Zofingen.\n695 Baumann-Hemmann, Karl, Weinhändler.\n696 Rohr-Baumann, Hans, Oberrichter, [tel] von Hunzenschwil.\n697 Gamper-Zürcher, Hermann, Kaufmann [tel].\nSchwere, Gottfried, Seminarlehrer, von Leuggern.\n698 Hunziker-Fleiner, Hermann, Part. [tel]\n699 † Derselbe. Gartenhaus.\n\nLaurenzenvorstadt.\n700 * Aktiengesellschaft der Aargauischen Kreditanstalt. [tel]\n  Pfau, Joh. Jakob, Direktor, von Schaffhausen.\n  — Joh. Jak., Sohn, Bankangestellter, von Schaffhausen.\n701 * Vogt, Adolf, Zahnarzt [tel], von Bürglen (Thurg.) Schloßgarten.\n  Konkursmasse.\n  Gessner-Siegfried, August, Professor, von Zürich.\n  Kutschera-Kiessner, Eugen, Musik- und Gesangsdirektor, von\n  Brünn (Mähren).\n  Gersbach-Hossli, Sebastian, Zahnarzt, von Wallbach.\n702 † Derselbe. Remise.\n703 † Derselbe. Remise.\n704 † Derselbe. Waschhaus.\n705 Schmuziger-Lackerbauer, Arnold, Ingenieur.\n706 Frey-Hagnauer, Konrad, Dr. med., prakt. Arzt. [tel]\n707 † Derselbe. Holzhaus.\n708 † Derselbe. Waschhaus.\n709 † Derselbe. Gartenhaus.\n710 * Markwalder-Gamper, Traugott, Oberst, Waffenchef der Ka-\n  vallerie in Bern.\n  Kurz-Korkhaus, Elsbeth, Fürsprechs Witwe.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17952,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1866,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.29,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:19:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p058",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p058.jpeg",
+      "bytes": 778864,
+      "sha256": "91407411b64643c5185062ac7d485a7bee353031f0e1d2ace006c585c3b4bdbb",
+      "sha256_of": "original",
+      "working_copy": "1901_p058.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:19:53+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p084",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p084.jpeg",
+    "bytes": 862380,
+    "sha256": "6cf486da18d2859aaa2622275fde8348142eb45b5d4a6995b0b4607392007443",
+    "sha256_of": "original",
+    "working_copy": "1901_p084.jpeg"
+  },
+  "text": "73\nHaus\nNr.\n1307 † Von Felten-Willimann, Franz Josef. Rebhäuschen.\n1308 † Derselbe. Rebhäuschen.\n1309 Von Däniken-Roth, Emil, Buchhalter, von Erlinsbach (Sol.)\n  — -von Felten, Anna Maria, von Erlinsbach (Solothurn).\n1310 Blattner-Bircher, Hans Rud., Landwirth, von Küttigen.\n  Rüedi-Hufschmid, Anton, Cementarbeiter, von Sulz.\n1311 † Zschokke, Conradin. Rebhäuschen.\n1312 † Derselbe. Rebhäuschen.\n1313 † „ Rebhäuschen.\n1314 Weber-Weber, Wilhelm, Küher, von Menziken.\n  Wehrli-Graf, Jakob, Hafner, von Küttigen.\n1315 † Derselbe. Waschhaus.\n1316 † „ Rebhäuschen.\n1317 Bircher-Wehrli, Karl, Mechaniker, von Küttigen.\n1318 Klingelfuss-Sommerhalder, Emil. [tel] Mechaniker, von Basel.\n1319 † Derselbe. Hühnerhaus.\n1320 † Einwohnergemeinde. Schirmhäuschen am Kanal.\n          Scheibenschachen.\n1321 Manz-Busch, Philipp, Aufseher, von Ransen (Rheinpfalz).\n1322 * Schmuziger-Hünerwadel, J., Baumeister.\n  Schiess-Burkhard, Arnold, Reisender, von Herisau.\n  Montandon-Jequier, Paul, Commis, von Fleurier (Neuenb.)\n1323 Wernli-Wehrli, Maria, Gärtners Witwe, von Thalheim.\n  — Marie, Bureauangestellte, von Thalheim.\n  Wehrli, Friedrich, Gärtner, von Küttigen.\n  Jost, Baptist, Taglöhner, von Knutwil (Luzern).\n1324 Herzog-Wettmann, Joh., Brennmeister, v. Ermatingen (Thurg.)\n1325 Gloor-Widmer, Heinrich, Bandweber, von Oberkulm.\n1326 Osterwalder-von Arx, Rudolf, Zuschneider, v. Stettfurt (Thurg.)\n1327 † Gloor, Heinrich. Holzhauß.\n1328 Birri-Wülser, Fridolin, Posamenter, von Zeihen.\n  Senn-Studer, Siegfried, Maurer, von Strengen (Tirol).\n  Hiltpold-Hans, Friedrich, Schneider, von Schinznach.\n1329 † Derselbe. Stall.\n1330 Wirz-Vetter, Franz, Wagenviſiteur, von Starrkirch (Soloth.)\n1331 Möller-Reinle, Ernst August, Büchſenmacher, v. Zella (Sachs.)\n1332a Wüest-Lindemann, Jakob, Cementarbeiter, von Gränichen.\n1332b Wehrli-Dubs, Hans, Heizer, von Küttigen.\n  — Karl, Lithograph, von Küttigen.\n1333 Offen gelassen.\n1334 Meier-Häuptli, Friedrich, Schneider, von Hausen.\n  Zendel-Sturm, Jakob, Schneider, von Tolgesheim (Hessen).\n  Häuptli-Schärer, Salome, Witwe, von Biberstein.\n1335 Jost-Moser, August, Schneider, von Langnau (Bern).\n1336 Wernli-Wernli, Anna, Cementarbeiters, von Thalheim.\n  — — Samuel, Cementarbeiter, von Thalheim.\n  Vötsch, Lina, Fabrikarbeiterin, von Balingen (Württemberg).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18035,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2289,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:30:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p084",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p084.jpeg",
+      "bytes": 862380,
+      "sha256": "6cf486da18d2859aaa2622275fde8348142eb45b5d4a6995b0b4607392007443",
+      "sha256_of": "original",
+      "working_copy": "1901_p084.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:30:35+00:00"
+  }
+}

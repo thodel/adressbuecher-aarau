@@ -1,6 +1,6 @@
 # adressbuecher-aarau
 
-Auswertung der Adressbücher der Stadt Aarau 1884, 1888, 1892, 1896 und 1899
+Auswertung der Adressbücher der Stadt Aarau 1884, 1888, 1892, 1896, 1899, 1901 und 1913
 (Separat-Auszüge aus dem Handels- und Gewerbe-Adressbuch für den Kanton Aargau).
 
 Dazu die früheren, nach Häusern geordneten Verzeichnisse 1833 (Häuserbesitzer), 1859, 1867, 1877, 1879, 1881
@@ -10,6 +10,16 @@ Stichprobe vor dem Lauf (16 Seiten, blind am Seitenbild): Fraktur Gemini 95 %, q
 Einträge; 1900 beide 97 %. `make frueh-read frueh-parse` → `data/csv/05_buildings_frueh.csv`,
 `05_residents_frueh.csv`, `05_register_frueh.csv` (Namensregister), `05_nachtraege_frueh.csv`,
 `05_hausnumerierung_1900.csv`; ohne Nachkorrektur.
+
+Dazu 1901 (Jg. 10) und 1913 aus der Deutschen Nationalbibliothek (TIFF, kein PDF; Seitenbilder nicht im Repo),
+gelesen mit qwen3.8-27b (Lauf `aarau-antiqua-qwen38-1901-1913`, 438 Seiten, keine Ausfälle) →
+`04_entries_dnb.csv`, `04_berufe_dnb.csv`, `05_buildings_dnb.csv`, `05_residents_dnb.csv`. Seite = Bildnummer der
+DNB-Datei. Ab 1913 steht der Heimatort ohne «von» vor einem Punkt («…, Bottenwil. Asylstraße 1147.»), und «*» heisst
+«im Handelsregister eingetragen» (Hinweis `handelsregister`, kein Bürger-Stern). Die Gemeinden des Bezirks im Band 1913
+(S. 277–297) sind nicht eingebunden. Stichprobe 20 Einwohner-Einträge am Seitenbild
+(`data/review/stichprobe_dnb_1901_1913.csv`): 13 von 19 voll korrekt, ein Randfragment der Gegenseite (inzwischen
+verworfen); Fehler: 4 Parser (Institutionen mit Bindestrich wie in allen Bänden, Firmen-Folgezeile, Berufswort als
+Heimatort), 2 Lesung («Wehrlí», «Überlingen» statt «Ueberlingen»).
 
 Ziel ist ein Informationssystem über Personen, Haushalte, Gebäude, Berufe und
 Institutionen Aaraus im späten 19. Jahrhundert, modelliert in CIDOC-CRM 7.1.3 + SDHSS.

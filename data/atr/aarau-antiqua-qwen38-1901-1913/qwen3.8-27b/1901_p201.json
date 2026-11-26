@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p201",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p201.jpeg",
+    "bytes": 866030,
+    "sha256": "f408495fe6a589a2c5c80c59061236869466a0652a76c6babda87bcd476269db",
+    "sha256_of": "original",
+    "working_copy": "1901_p201.jpeg"
+  },
+  "text": "188\n  Ferner folgende Sammlungen:\n1. Gewerbliche Sammlungen: Kunstgewerbliche Objekte alter\n  und neuer Zeit, mit Versuchsanstalt für Hilfsmaschinen, Werkzeug\n  und Materialien für gewerbl. Zwecke. Temporäre Ausstellung von\n  Produkten aarg. Gewerbetreibender. Gewerbliche Bibliothek mit\n  Vorbildersammlung. Lesezimmer und öffentl. Zeichensaal.\n  Die gewerblichen Sammlungen, die Bibliothek und der öffentl.\n  Zeichnungssaal mit Lesezimmer und Auskunftsbureau sind täglich\n  geöffnet von 9—12 Uhr und von 2—5 Uhr, Sonntags 10—12 Uhr, im\n  Winter nur bis 4 Uhr, dafür Mittwoch und Freitags abends 7—9 Uhr.\n  Die übrigen Sammlungen sind gratis geöffnet vom 1. April bis\n  31. Oktober Mittwoch und Freitag 10—12, 2—4 Uhr. Sonntag\n  10—12 Uhr. Im Winter: Sonntag 10—12 Uhr und 2—4 Uhr. An\n  den nicht benannten Tagen gegen eine Gebühr.\n  Direktor des Gewerbemuseums: J. L. Meyer-Zschocke. Assistant:\n  Bandi.\n2. Das kantonale Antiquarium, zuerst hervorgegangen aus der\n  Sammlung römischer Altertümer von Vindonissa, seit den 60er Jahren\n  in Aarau untergebracht. Objekte aus der prähistorischen, der\n  römischen, der allemannischen Periode und aus dem Mittelalter. Von\n  hervorragendem Wert sind, abgesehen von den herrlichen Glas-\n  malereien der ehemaligen Benediktinerabtei Muri aus dem 16. Jahr-\n  hundert, das Lunkhofener Mosaik, eine antike Thonbüste, die römi-\n  schen Bronzen, Thonlampen und Glaswaren, ferner die ägyptische\n  Sammlung, eine große spätgothische Wettinger Truhe, endlich eine\n  beträchtliche Anzahl römischer Inschriftensteine.\n  Konservator: Prof. Dr. J. Hunziker.\n3. Die Kunstsammlung. Ölgemälde (Böcklin's Muse d. Anakreon),\n  Aquarelle, Sculpturen, Kupferstiche. (Amsler, Burger etc.)\n  Konservator: Carl Feer.\n  (Siehe auch Kunstverein.)\n4. Sammlung der Geographisch-Kommerziellen Gesellschaft.\n  (Siehe auch Vereine.)\n  Die ethnologische Sammlung.\n  Die photographische Sammlung.\n  Das schweizerische Wertzeichenmuseum u. a.\nII. Kantonales naturhistorisches Museum.\n  (Altes Kasino. Kasinostraße.)\n  Dasselbe ist eine der bemerkenswertesten Sehenswürdigkeiten\n  von Aarau. Es besteht aus der Vereinigung der Sammlungen des\n  Staates mit denen der Aargauischen Naturforschenden Gesellschaft.\n  Das Museum ist jeweilen am Mittwoch und Sonntag Nachmittag\n  von 2—4 zu freiem Besuch geöffnet. In der Zwischenzeit öffnet\n  (gegen eine Gebühr) der Abwart. Konservator: Dr. F. Mühlerg.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 54845,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2406,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.76,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:15:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p201",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p201.jpeg",
+      "bytes": 866030,
+      "sha256": "f408495fe6a589a2c5c80c59061236869466a0652a76c6babda87bcd476269db",
+      "sha256_of": "original",
+      "working_copy": "1901_p201.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:15:46+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p118",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p118.jpeg",
+    "bytes": 949736,
+    "sha256": "0b131a3f16184d515292d5042c9647a7a85fd4d9031ae89898d5b747cc45da90",
+    "sha256_of": "original",
+    "working_copy": "1913_p118.jpeg"
+  },
+  "text": "— 94 —\nHaus-\nNr.\n1323 Wernli-Wehrli, Anna Marie, Gätners Witwe, Thalheim.\n  — Marie, Thalheim.\n  Frieden-Wernli, Emma, Seedorf (Bern).\n1324 Herzog, Johann, Brennmeister, Ermatingen.\n  Surber-Herzog, Emil, Schreiner, Atelfingen (Zürich).\n1325 Gloor-Widmer, Heinrich, Bandweber, Ob.-Kulm.\n1326 Osterwalder-von Arx, Rud., Zuschnieder, Stettfurt.\n  — Rudolf, Sohn, Zuschnieder, Stettfurt.\n  — Adolf, Stettfurt.\n1328 Birri-Wülser, Fridolin, Landwirt, Zeihen.\n  — Marie, Meisterin, Zeihen.\n  Maurer-Bachmann, Katharina, Schmiedrued.\n1330 Wirz-Vetter, Franz, gew. Wagenvisiteur, Starrkirch.\n1331 Möller-Reinle, Ernst, Werkzeugmacher, Zella (Sachsen).\n1332 Wüest-Lindemann, Susanna, Wwe., Gränichen.\n  — Jakob, Buchdrucker, Gränichen.\n  — Emma, Fabrikarbeiterin, Gränichen.\n  — Gottlieb, Fabrikarbeiter, Gränichen.\n1333 Käser-Eng, Ferdinand, Telephonarbeiter.\n  Wehrli-Dubs, Joh. Jakob, Heizer, Küttigen.\n1334 Meier-Häuptli, Fritz, Schneider, Hausen.\n  Wernli-Käser, Johann, Schreiner, Thalheim.\n1335 Bertschi-Wey, Gottlieb, Magaziner, Dürrenäsch.\n  Roth-Richner, Hans, Handlanger, Erlinsbach.\n  Hächler-Keller, Oskar, Schriftsetzer, Teufenthal.\n1336 Wernli-Wernli, Anna, Wwe., Thalheim.\n  — Otto, Schriftsetzer, Thalheim.\n  Schmid-Wernli Hans, Schuhfabrikarbeiter, Ob.-Erlinsbach.\n1337 Schneider-Wernli, Verena, Wwe., Thalheim.\n  — Emil, Schreiner, Thalheim.\n  — Albert, Bautechniker, Thalheim.\n  — Elise, Bureaulistin, Thalheim.\n1340 Vogel-Ernst, Johann, Werkführer in der J. C. F.\n  Sandmeier-Gignont, Aug., Kaufmann, Seengen.\n  — -Urech, Heinrich, Aufseher, Seengen.\n1342 Schmid-Pauli, Daniel, Gärtner, Erlinsbach.\n1569 Vogel-Schmid, Johann, Schlosser.\n1346 Jurazementfabriken A. G. Bureau [tel].\n1670 Dieselben.\n  Stahl-Merz, Gottlieb, Heizer, Villnachern,\n  Roth-Wolf, Gottlieb, Aufseher, Erlinsbach.\n  Gut-Haberstich, Emil, Aufseher, Wipkingen (Zürich).\n  Bircher-Müri. Gottlieb, Schlosser, Küttigen.\n1671 Jurazementfabriken A. G., Kosthaus.\n  Willi-Blattner, August, Kosthausverwalter, Lostorf.\n  Nünlst, Franz, Zementarbeiter, Erlinsbach (Solothurn).\n  Geißbühler-Tschumi, Joh., Heizer, Lauperswil.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19537,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2099,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:09:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p118",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p118.jpeg",
+      "bytes": 949736,
+      "sha256": "0b131a3f16184d515292d5042c9647a7a85fd4d9031ae89898d5b747cc45da90",
+      "sha256_of": "original",
+      "working_copy": "1913_p118.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:09:05+00:00"
+  }
+}

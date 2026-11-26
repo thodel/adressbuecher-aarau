@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p056",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p056.jpeg",
+    "bytes": 798478,
+    "sha256": "dcd7ba2c9fda92f0999f8cc89a66713ac19d8aec4d9546bf8709786dede32ad1",
+    "sha256_of": "original",
+    "working_copy": "1901_p056.jpeg"
+  },
+  "text": "45\nHaus-\n   Nr.\n649 Hassler-Schmid, Hans, Kaufmann [tel].\n   Firma: Hans Hassler & Cie., Teppichlager. Vertretung und\n   Fabriklager in engl. Linoleum.\n650 † Derselbe. Holzhaus.\n651 † Derselbe. Waschhaus.\n652 † Hassler, Emil, Dr. med., Gartenhaus.\n653 † Derselbe. Treibhaus.\n654 Decker-Hoffmann, Julius, Huf- und Wagenschmied.\n   — Elise, Part.\n   Schmuziger-Gutjahr, Anna Maria, Witwe, Part.\n   Bigler-Maurer, Hans Emil, Steindrucker, von Worb (Bern).\n655 Lechner-Wirth, Franz Jos., [tel] March-Tailleur, von Wien.\n   Lindemann-Wey, Marie, Witwe, von Fahrwangen.\n   — Ida, Telegraphistin, von Fahrwangen.\n   — Emma, Lehrerin, von Fahrwangen.\n   Gladbach-Renold, Philipp, Professor, von Oppenheim (Hessen).\n656 * Baumann-Baumann, Ida, Witwe, von Stilli.\n   Wehrli, Albert, Wirt, von Küttigen. Wirtschast z. „Schwyzer-\n   hüsli“.\n   — -Marti, Jakob, Wassertechniker, von Küttigen.\n657 Widmer-Reimann, Franz J., Musiklehrer (Musikalienhandlung).\n   Widmer, Emma, Klavierlehrerin.\n658 * Indermauer, Jakob, Metzger, Wohnhäuschen.\n   Suter, Elise, Wäscherin und Glätterin, von Gränichen. (Che-\n   mische Wäscherei.)\n659 † Indermauer, Jakob, Metzger und Suter, Rudolf, Uhrenmacher.\n   Werkstattgebäude.\n660 * Indermauer, Jakob, Metzger. Wohnhaus.\n   Suter-Lüscher, Rudolf, Uhrenmacher, von Kölliken. Uhren-\n   handlung.\n   Frey-Hässig, Jakob, Bankangestellter.\n   Hässig-Baumann, Margaritha, Malers Witwe.\n   Bänzinger-Burkhart, Adolf, Telegraphist, von Lutzenberg (Bern).\n661 * Suter-Lüscher, Rudolf, Uhrenmacher, von Kölliken. (Neubau).\n662 Hirsbrunner-Baumann, Gottfried, [tel] Instrumentenmacher. Musi-\n   kalienhandlung.\n   Stalder-Messerli, Friedrich, Wirt, von Lützelflüh (Bern).\n   Speisewirtschast zum „National“.\n\nZeughausstrasse.\n663 Frey-Vetterli, Achilles, von Densbüren. Coiffur- und Hut-\n   geschäft.\n   Thom-Hänny, Franz, Musik-Instruktor, von Kirchberg (Bern)\n664 † Derselbe. Waschhaus.\n665 Roth-Gautschi, Friedrich, Schuhmacher. Schuhhandlung.\n   Ryniker-Lutz, Adolf, Kaufmann.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14799,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1989,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:19:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p056",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p056.jpeg",
+      "bytes": 798478,
+      "sha256": "dcd7ba2c9fda92f0999f8cc89a66713ac19d8aec4d9546bf8709786dede32ad1",
+      "sha256_of": "original",
+      "working_copy": "1901_p056.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:19:14+00:00"
+  }
+}

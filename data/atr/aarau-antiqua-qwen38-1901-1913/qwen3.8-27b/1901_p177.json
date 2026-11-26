@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p177",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p177.jpeg",
+    "bytes": 745086,
+    "sha256": "b6d445f0837086cd7378537c979b11672ad20e33bc79da8b447d2f98caa799a9",
+    "sha256_of": "original",
+    "working_copy": "1901_p177.jpeg"
+  },
+  "text": "164\nSalzauswäger.\nEgloff-Marti, Lina, Pelzgasse 92.\nHof, Eduard, obere Vorstadt 547.\nMaurer, Emil,* jenseits der Aare 1247.\nOtt-Wenger, Maria, Adelbändli 166.\nWildi-Wespi, Adele, hintere Vorstadt 354.\nSamenhandlungen.\nGroßmann, Otto,* Graben 221.\nHeniz, Jakob,* vordere Vorstadt 335.\nHoch, Gustav & Cie.,* Laurerenzthorgasse 122.\nKlein-Berner, Emma,* Kronengasse 43.\nSarglager.\nWildi, Samuel, Schreiner, Ziegelrain 416.\nSattler.\nBeck, Emil, Ziegelrain 421.\n— Friedrich, Zeughaussattler, Bahnhofstraße 619.\nBircher, Eduard, Halden 292.\nGantner, Arnold, Metzgergasse 75.\nHäfeli, Josef, Kasinost-raße 642.\nKiburg, Gotthold, Entfelderstraße 1376.\nSchirmmacher.\nMüller, Eduard,* Rathausgasse 21.\nTheez, Robert, Holzmarkt 317.\nSchirmhandlungen.\nCodoni-Dreßler, Remigius,* Rain 436.\nHeß, Gebr.,* Rathausgasse 5.\nMüller, Eduard,* Rathausgasse 21.\nSperlich, Theodor, vordere Vorstadt 323.\nTheez, Robert, Holzmarkt 317.\nSchleifer.\nHässig, Gottlieb, Hammer 180.\nSchäfer, Cäsar, vordere Vorstadt 337.\nSchlosser.\nAndres, Samuel, Milchgasse 151.\nBeck, Gottlieb, Halden 314.\nFäs, Gottlieb, Bachstraße 1059.\nGysi, Friedrich, hintere Vorstadt 367.\nHässig, Julius, Milchgasse 134.\nKuhn-Buser, Alfred,* Ziegelrain 399. (Siehe Inserat Seite 17.)\nLäubli, Friedrich, Hammer 181.\nMathys, J., Bachstraße 1057. (Siehe Inserat Seite 29.)\nSchneider, Ulrich, Golattenmattgasse 253.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21762,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1353,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0465,
+    "mean_line_chars": 30.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:06:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p177",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p177.jpeg",
+      "bytes": 745086,
+      "sha256": "b6d445f0837086cd7378537c979b11672ad20e33bc79da8b447d2f98caa799a9",
+      "sha256_of": "original",
+      "working_copy": "1901_p177.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:06:23+00:00"
+  }
+}

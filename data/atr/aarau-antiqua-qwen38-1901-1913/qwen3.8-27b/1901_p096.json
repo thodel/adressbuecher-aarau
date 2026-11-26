@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p096",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p096.jpeg",
+    "bytes": 814350,
+    "sha256": "5d063d9a3850b8ac3bdc6f684c1aab2f1ef97919636b9b07b86743134d536fb7",
+    "sha256_of": "original",
+    "working_copy": "1901_p096.jpeg"
+  },
+  "text": "83\nAlbiez, Gustav, Appreteur, Rain 506.\nAlbrecht, Eduard, Glockengiesser, Rain 457.\nAlder, Otto, Schneider, Halden 279.\n— Rudolf, Instruktions-Offizier, jenseits der Aare 1244.\nAllgemeine Aarg. Ersparniskasse, [tel] Graben 217.\nAllgemeiner Consum-Verein Aarau, Milchgasse 127.\nAmmann, Robert, Architekt, Feerstraße 681. [tel]\n— Rudolf, Steindrucker, Hammer 179.\nAmmer, Marianna, Rain 441.\nAmsler, Bertha, Postdirektors, Entfelderstraße 973.\n— -Brack, Verena, Part., Ziegelrain 407.\n— Emil, Fürsprech, Feerstraße 683.\n— geb. Falger, Marie, Witwe, Strittengäßchen 1219.\n— Heinrich, Werkführer, Entfelderstraße 1404. (Meteorologische\n  Station).\n— Ida, Schneiderin, Strittengäßchen 1219.\n— Jakob, Ziegler, Milchgasse 154.\n— Otto, Notar, Kaufmann, vordere Vorstadt 323.\nAndres, Emil, Bahnarbeiter, Strittengäßchen 1216.\n— Friedrich, Hafner, [tel] obere Vorstadt 519.\n— Gottlieb, Fondsverwalter, Küttigerstraße 1249.\n— Jakob, Bauamtsarbeiter, Strittengäßchen 1216.\n— Jakob, Schreinermeister, Küttigerstraße 1253.\n— Otto, Hafnermeister, Milchgasse 135.\n— Samuel, Schlossermeister, Milchgasse 152.\nAngerer, Joseph, Schmied, Rohrerstraße 885.\nAngliker geb. Oelhafen, Emma, Witwe, hintere Vorstadt 374.\nAngst geb. Hässig, Johanna, Witwe, hinter dem Platz 238.\n— Robert, Sohn, Kaufmann, Hinter dem Platz 238.\nBächli, Gottlieb, Schuhmacher, Bahnhofstraße 568.\n— Verena, Spetterin, Adelbändli 175.\nBäckerverband Aarau. Präsident: Hemmeler, Oskar, Bäcker.\nBähnli, Friedrich, Taglöhner, Halden 315.\nBänzinger, Adolf, Telegraphist, Kasinostraße 660.\nBär, Adele, Modistin, Entfelderstraße 1380. Modegeschäft Rathaus-\n  gasse 24.\n— Louis, Sekretär der Militärkanzlei, Bahnhofstraße 560.\n— Marie, Arbeitslehrerin, Entfelderstraße 1380.\n— Otto, Drechsler, Entfelderstraße 1380.\n— Samuel, Taglöhner, Metzgergasse 78.\nBärtschi, Jakob, Speisewirtschaft, Weinberg 1278. [tel]\nBach, Wilhelm, Schneider, Halden 291.\nBachmann-Dätwyler, Maria Elise, Metzgergasse 78.\n— Johann, Spezereihandlung, Milchgasse 139.\n— Johann, Kasernenarbeiter, Schmiergasse 390.\n— Joseph, Schneider, Bleichemattstraße 1014.\n— Rudolf, Maurer, Halden 313.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 40858,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2104,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.77,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:34:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p096",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p096.jpeg",
+      "bytes": 814350,
+      "sha256": "5d063d9a3850b8ac3bdc6f684c1aab2f1ef97919636b9b07b86743134d536fb7",
+      "sha256_of": "original",
+      "working_copy": "1901_p096.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:34:01+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p011",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p011.jpeg",
+    "bytes": 947245,
+    "sha256": "a56584d0a59b3fa1e9d49e9cbdf769c5095dea1a14e413144e6a8a0a7a1bf53c",
+    "sha256_of": "original",
+    "working_copy": "1913_p011.jpeg"
+  },
+  "text": "— VII —\nSeite\nGlashandlung.\nW. Morath-Stirnemann . . 240\nGrabdenkmäler.\nGerodetti Söhne . . . . 80\nHaushaltungs-Artikel.\nGlobus A. G. . . . . Umschlag\n  W. Morath-Stirnemann . . 240\nHolzhandlung.\nA. Walter-Dubs . . . . 94h\nHotel.\nHotel Gerber, Terminus Umschl.\nHotel Löwen . . . . . . 94c\nHühnerzuchtanstalt.\nPaul Stähelin . . . . . 94m\nHuthandlung.\nMagazine zur Stadt Paris . . 32\nIngenieur-Bureau.\nM. Keller-Merz . . . . . 94o\nJ. J. Schmid . . . . . . 94n\nInstallationen.\nGasbeleuchtungsgesellschaft\n  Aarau . . . . . . . . 262\nAlfred Kuhn . . . . . . 94a\nInstrumenten-Handlung.\nHüni & Cie. . . . . . . 80\nKleider.\nHeinrich Bruns . . . . . 198\nKleiderhalle Aarau . . . 48\nKonfektionhausz. Terminus . . 17\nMagazine zur Stadt Paris . . 32\nKleider-Färberei.\nG. Trefzger-Ziesel . . . . 94d\nKinderwagen.\nA. Gantner-Schär . . . . 81\nJ. Häfele-Hächler . . . . 94k\nEduard Lüthi-Kneubühler . 94m\nKohlenhandlung.\nBrack & Eich . . . . . . 94n\nLagerhäuser der Zentral-\n  schweiz . . . . . . Umschlag\nA. Walter-Dubs . . . . . 94k\nKorbwaren.\nAnt. Henli . . . . . . . . 94a\n[spalte 2]\nSeite\nKücheeinrichtungen.\nA. G. Kummler & Matter . 94a\nKunstschlosserei.\nKarl Mösch . . . . . . . 32\nLagerhäuser.\nLagerhäuser der Zentral-\n  schweiz . . . . . . Umschlag\nLederartikel.\nA. Gantner-Schär . . . . . 81\nLichtspielhaus Aarau . . 198\nMaßgeschäft.\nW. Baumeister-Schmuziger . . 65\nMarmorgeschäft.\nGerodetti Söhne . . . . . 80\nMathemat. u. mech. Instrumente.\nKern & Cie. . . . . . . VII\nMercerie.\nA. Erdins Witwe . . . . . 16\nMöbelhandlung.\nGebrüder Hess A. G. . . . 199\nSamuel Jörg . . . . . . . 17\nMöbelschreinerei.\nGubler, Zimmerli & Cie. . . 64\nSamuel Jörg . . . . . . . 17\nMöbeltransport.\nHangartner K. . . . . . . 94n\nLagerhäuser der Zentral-\n  schweiz . . . . . . Umschlag\nModeartikel.\nM. Lüscher-Gloor . . . . . 81\n[handschriftlich: /]\nModes.\nH. Heuberger . . . . . . . 33\nMusikalienhandlung.\nHüni & Cie. . . . . . . . . 80\nNähmaschinenhandlung.\nE. Bieber-Grabber . . . . . 94g\nOele und Fette.\nBrack & Eich . . . . . . . 94n\nOfenlager.\nKarl Richner . . . . . . . 94l\nOfenfabrik und Tonwaren.\nOtto Andres . . . . . . . 94h\nKarl Wepsi . . . . . . . . 94e\nOptiker.\nE. Gebel . . . . . . . . . 188\nGysi & Cie. . . . . . . . 94c",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 147688,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2208,
+    "lines": 94,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0851,
+    "mean_line_chars": 22.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:26:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p011",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p011.jpeg",
+      "bytes": 947245,
+      "sha256": "a56584d0a59b3fa1e9d49e9cbdf769c5095dea1a14e413144e6a8a0a7a1bf53c",
+      "sha256_of": "original",
+      "working_copy": "1913_p011.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:26:40+00:00"
+  }
+}

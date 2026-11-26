@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p263",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p263.jpeg",
+    "bytes": 823711,
+    "sha256": "c6592551b85a3a49f8aaa6349b68a106ceae586aa7a492d2e96afb70078c1dee",
+    "sha256_of": "original",
+    "working_copy": "1913_p263.jpeg"
+  },
+  "text": "— 229 —\n\nSchreinermeister.\nBlume-Limacher, Rob.  Schloßplatz 200.\nEichenberger-Fischer, Gottl.  Stritengäßchen 1533 a.\nGysi-Wernli, Sam.  Hammer 179.\nJörg-Hächler, Samuel.  Bachstraße 1060.\nLeu-Obrist, Hans.  Rain 504.\nRotter-Baumgartner, Joh.  Bleichenattstr. 1014.\nStrebel, Herm.  Oberholzstraße 476.\n*Wernli-Mumprecht, Fritz [tel].  Obere Vorstadt 513.\nWildi-Aeschbach, Emil.  Hinterm Platz 234.\n— ·Karrer, Albert.  Schloßplatz 202 und 198.\n\nSchuhabriken.\n*Bally, C. F. A. G. [tel]  Küttigerstraße 1255.\n*Fretz, Hans [tel].  Bleichenattstraße 1528, 1560.\n\nSchuhmachereien.\nBächli-Holliger, Gottlieb.  Bahnhofstraße 568.\nBenacci, Battista.  Halden 293 a.\nBerchem-Weiß, Peter.  Halden 312.\nErnst-Dürr, Hermann.  Halden 260.\nHofmann-Bartl, Ernst.  Milchgasse 129.\nHubeli-Nadler, Fritz.  Graben 214.\nLimacher, Niklaus.  Rathausgasse 15.\n*Maier-Kern, Thomas.  Graben 219.\nPaneck, Ignaz.  Schloßplatz 198.\n*Roth-Gautschi, Fritz.  Zeughausstraße 665.\nSchräder, Theodor.  Bachstraße 1063.\nStrebel-Bernauer, Josef.  Kirchgasse 38.\nVogt, Joh.  Obere Vorstadt 514.\nWahl, Johann.  Pelzgasse 112.\nWandfluh-Sommer, Johann.  Ziegelrain 422 b.\nWanieck-Lüscher, Josef.  Schmieggasse 379.\nZach-Gerhardt, Karl.  Vordere Vorstadt 351.\nZehnder-Scherer, Bernh. Xaver.  Halden 264.\n\nSchuhwarehandlungen.\nBerchtbold-Glaus, Marie, Wwe.  Obere Vorstadt 546.\nGötte-Scheidegger, Emil [tel].  Rathausgasse 25.\n— Emil [tel].  Bahnhofstraße 635.\n*Hagmann-Stolz, Adolf.  Hintere Vorstadt 357.\nHoffmann, Ernst.  Milchgasse 129.\n*Maier-Kern, Thomas.  Graben 219.\nMeier-Kloter, M.  Vordere Vorstadt 353.\n*Roth, Friedrich.  Zeughausstraße 665.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 54160,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1610,
+    "lines": 43,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0233,
+    "mean_line_chars": 36.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:13:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p263",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p263.jpeg",
+      "bytes": 823711,
+      "sha256": "c6592551b85a3a49f8aaa6349b68a106ceae586aa7a492d2e96afb70078c1dee",
+      "sha256_of": "original",
+      "working_copy": "1913_p263.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:13:27+00:00"
+  }
+}

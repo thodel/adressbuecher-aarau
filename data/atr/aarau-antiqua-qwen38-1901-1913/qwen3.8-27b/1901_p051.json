@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p051",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p051.jpeg",
+    "bytes": 823804,
+    "sha256": "6472df84be87d49e109d26a5d9c5cc3ed473baf88f3df9d09f47762441e0bade",
+    "sha256_of": "original",
+    "working_copy": "1901_p051.jpeg"
+  },
+  "text": "40\nHaus-\nNr.\n554 * Siegrist, Heinrich, Metzgermeister.\n  Wetter & Cie, Warenhaus Globus Zürich (Filiale Aarau) [tel].\n  Bertschi-Wassmer, Jakob, Postfaktuur, von Sumiswald (Bern).\n  Meyer-Roth, Verena, Part., von Dintiken.\n  — Eduard Erwin, Sekretär, von Dintiken.\n  Frieden-Kramer, Agatha, Näherin, von Seedorf (Bern).\n  — Louis, Angestellter im Elektrizitätswerk, von Seedorf.\n\nBahnhofstrasse.\n555 Siegrist, Heinrich, Metzger.\n  Leuenberger-Friedli, Johann, Wirt, von Rohrbachgraben (Bern).\n    Speisewirtschaft. (Café Central.)\n  Günther-Sollefer, Eugen, Hauptmann, Instruktur der Infanterie,\n    von Rheinfelden.\n556 Eggimann-Joss, Rosina, Witwe, von Sumiswald (Bern). [tel]\n  Speisewirtschaft.\n  Frösch-Müller, Hermann, Kondukteur, von Zofingen.\n  Bolliger-Schenker, Samuel, Bedienter, von Schlossrued.\n  Wittmann-Zubler, Heinrich, Dienstmann, von Gagenau.\n  Hintermann-Lütdlf, Emil, Elektro-Monteur, von Beinwil.\n557 * Spengler-Lienhard, Luise, Witwe, Part.\n  Frey-Kieser, Johanna, Modewarengeschäft.\n  Schwarz-Gautschi, Theodor, Negt., von Gutenstein (Baden).\n    Spezereihandlung.\n  Zuber-Baumann, Andreas, Architekt.\n558 * Siebenmann-Seiler, Katharina. Erbschaft.\n  Bertschi-Steiner, Gottlieb, Taglöhner, von Dünnenäsch.\n  Schmuziger-Lang, Elisa, Schreiners Witwe, Taglöhnerin.\n  Wullschleger, Hch., Kaffeewirtschaft.\n  Engesser-Brunner, Kresenzia, Taglöhnerin, von Turschhausen\n    (Württemberg).\n559a Jäger-Hässig, Johann, Maurer, von Außersihl (Zürich).\n  Buhlrein, Friedrich, gewes. Spengler, Part.\n  Schmidt, Jenny. Modistin.\n559b Wildi-Leuthard, Verena, Witwe, Part., von Veltheim.\n  Marfurt, Franz Xaxer, Coiffeur, v. Langnau (Luzern). Coiffeur-\n    geschäft.\n560 Hassler-Hunziker, Elise, Witwe, Tapetenhandlung.\n  Banga-Lässler, Jean, von Mönchenstein. Kaffeewirtschaft.\n    (Kaffeehalle).\n  Lässler, Anna. Haushälterin, von Wiliberg.\n  Bär-Hassler, Louis, Sekretär.\n561 * Evangelischer Verein.\n  Schmuziger-Dietrich, Louis, Pfarrer.\n  — -Nelson, Sophie, Part., von Seon.\n562 * Diakonissenstation Aarau.\n  Berchten, Susanna, Diakonissin, von St. Stephan (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 34859,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2078,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:16:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p051",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p051.jpeg",
+      "bytes": 823804,
+      "sha256": "6472df84be87d49e109d26a5d9c5cc3ed473baf88f3df9d09f47762441e0bade",
+      "sha256_of": "original",
+      "working_copy": "1901_p051.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:16:46+00:00"
+  }
+}

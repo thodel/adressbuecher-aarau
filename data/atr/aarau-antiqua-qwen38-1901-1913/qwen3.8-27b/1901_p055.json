@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p055",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p055.jpeg",
+    "bytes": 855558,
+    "sha256": "584b55e0da5f29d739d423223416f1e4a9576404147e939d265e69f149230f2f",
+    "sha256_of": "original",
+    "working_copy": "1901_p055.jpeg"
+  },
+  "text": "44\nHaus-\nNr.\n531 † Derselbe. Remise und Schopf.\n632 † Scherz-Mollet, Karl Niklaus, von Köniz (Bern). Wirt z. Löwen.\n  Scheune.\n633 * Hofer-Schaffner, Gottlieb, Neqt.\n  Bertschi-Zehnder, Adolf, Wagner, von Dürrenäsch.\n  Schaffner, Friedrich, Wagnergehilfe.\n634 Fehlmann-Blattner, Heinrich, Aufseher.\n  — — Anna. Mercerie- und Lingeriegeschäft.\n  Brülmann-Oelhafeu, Anna, Part., von Murri.\n  Henchoz, Marg., Damenschneiderin, v. Chateau d'Oex (Waadt).\n635 Lüscher, Fried. Wil. und Elise, Part.\n  — Friedrich Wilhelm, Part.\n  — Elise, Part.\n  Nadler-Häuptli, Anna, Witwe, von Biberstein. Spezereihand-\n    lung und Brodverkauf.\n636 Einwohnergemeinde Aarau. [tel] Elektr. Licht-Centrale.\n637 Offen gelassen.\n638 Einwohnergemeinde Aarau. [tel] Bureau und Pumpstation.\n639 Scherz-Mollet, Karl, Gastwirt, von Köniz (Bern). Wohnhaus\n  und Stallung.\n  Siegwart, Paul, Architekt, von Altorf (Uri).\n640 Derselbe. [tel] Gasthof z. Löwen.\n  Kasinostrasse.\n641 * Heuberger-Richner, Karl, Coiffeur.\n  Indermauer-Richner, Elise, Witwe. Spezereihandlung.\n  — Jakob, Metzger. [tel] Metzgerei und Wursterei.\n  Heuberger-Wernli, Elisabeth, Witwe.\n  Baumann-Bhend, Gottlieb, Schneider, von Schafisheim.\n  — — Elise, Damenschneiderin, von Schafisheim.\n  Kirchhofer-Obnist, Maria, Witwe, Part., von Auenstein.\n  — Maria, Modistin, von Auenstein.\n  Imhof, Lina, Lehrerin.\n  — Susette, Pert.\n642 Häflin-Hächler, Joseph, Sattler, von Oberwyl.\n  Urben-Flückiger, Johann, von Inkwil (Bern). Milch-, Käse- und\n  Butterhandlung.\n  Hubacher-Jakob, Jak., Portier, von Urtenen (Bern).\n643 Dür-Seiler, Hermann, Maler, Part.\n  Lüscher, Louise, von Oberentfelden. Weißwarengeschäft.\n  Schatzmann-Weibel, Alb., Photograph, v. Windisch. (Wohnung).\n644 — — Albert, Photograph, von Windisch. Atelier.\n645 † Einwohnergemeinde Aarau. Naturhistorisches Museum.\n  Siebenmann-Schaffner, Otto, Abwart.\n646 † Keller, Katharina, Fuhrhalterin. Scheune.\n647 — Katharina, Fuhrhaltereigeschäft. [tel]\n  Niggli, Elise, Weißnähterin, von Aarburg.\n648 † Dieselbe. Remise.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15519,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2016,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:18:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p055",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p055.jpeg",
+      "bytes": 855558,
+      "sha256": "584b55e0da5f29d739d423223416f1e4a9576404147e939d265e69f149230f2f",
+      "sha256_of": "original",
+      "working_copy": "1901_p055.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:18:10+00:00"
+  }
+}

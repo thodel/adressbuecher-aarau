@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p145",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p145.jpeg",
+    "bytes": 869615,
+    "sha256": "99def67d3f2ffa294de7103846f5de60b8e6d91105143a55a53c7f95a468fcbc",
+    "sha256_of": "original",
+    "working_copy": "1901_p145.jpeg"
+  },
+  "text": "132\nWirz geb. Christen, Karoline, Witwe, Schreibmaterialienhandlung\n  und Leihbibliothek, Oberthor 243.\n— Emil (vormals J. J. Christen), Sortiments- und Verlagsbuchhand-\nlung, Buchdruckerei und Buchbinderei, [tel] Oberthor 244, Woh-\nnung Bachstraße 1092.\n— Franz, Part., Scheibenschachen 1330.\nWiss, Friedrich, Landwirt, Pächter, Rain 475 (Walters-Burg).\n— Gottlieb, Gipser, Halden 302.\nWismer, Heinrich, Chef der Güterexpedition, Bankstraße 1049.\nWittmer, Julius, Lithograph, Rain 433.\nWittmann, Heinrich, Dienstmann, Bahnhofstraße 556.\nWolf, Karl, Architekt, Baumeister, Bachstraße 1093.\nWolfinger, Max, Prof., Bachstraße 1081.\nWolfsgruber, Gottfried, Photograph, [tel] Bahnhofstraße 608.\nWüest, Hans, Bierführer, Bahnhofstraße 586.\n— Konrad, Bezirksschullehrer, Buchserstraße 952.\nWürger, Heinrich, Küttigerstraße 1249.\nWürttemberg er geb. Kaiser, Marie, Coiffeurs Witwe, Feerstraße 685.\nWürth-Posth, Elise Marie, Haushälterin, Jurastraße 1480.\nWüst, Jakob, Cementfabriksarbeiter, Scheibenschachen 1332a.\nWüthrich, Barbara, Taglöhnerin, Milehgasse 131.\n— Jakob, Zuckerbäcker, Kaffeewirtschaft [tel] Rathausgasse 11.\n— -Stirnemann, Verena, Witwe, Halden 268.\n— Joh. Jakob, Arbeiter im Elektricitätswerk, Rathausgasse 11.\n— Samuel, Negt. und Pintenwirt, [tel] Laurenzen-thorgasse 118.\nWullschleger, Heinrich, Kaffeewirtschaft, Bahnhofstraße 558.\nWyder, Albert, Agentur- und Kommissionsgeschäft, Rain 454.\nWydler geb. Bäurlin, Emilie, Färbers Witwe, Ziegelrain 410.\n— Emilie, Färbers, Ziegelrain 410.\n— Eugen, Färber, Ziegelrain 410.\n— H., Söhne (Heinrich u. Hans Wydler), Färberei, [tel] Ziegelrain 405.\n— Hans, Kaufmann, Ziegelrain 408.\n— Heinrich, Bezirksschullehrer, Zschokkestraße 1427.\n— Heinrich, Färber, Schachen 1117.\n— Julius, Notar, Rathausgasse 4.\n— Konrad, Apotheker, [tel] Rathausgasse 14.\n— Lina, Part., vordere Vorstadt 331.\n— Robert, Ausläufer, Hammer 188.\n— -Wernli, Maria, Witwe, Ziegelrain 407.\nWyler, Raphael, Kaufmann, vordere Vorstadt 350.\nWyser, Alfred, Färbereibesitzer, [tel] Bachstraße 1105.\n— Gustav, Korbmacher, Milchgasse 153.\n— Gottlieb, Wirt z. Herberge, obere Vorstadt 515. [tel]\nZähner geb. Brunnhof er, Nanette, Part., Halden 204.\nZebert, Georg, Buchbinder, [tel] Bahnhofstraße 574. Filiale Lau-\nrenzen-thorgasse 119. [tel]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 69163,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2258,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:53:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p145",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p145.jpeg",
+      "bytes": 869615,
+      "sha256": "99def67d3f2ffa294de7103846f5de60b8e6d91105143a55a53c7f95a468fcbc",
+      "sha256_of": "original",
+      "working_copy": "1901_p145.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:53:40+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p149",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p149.jpeg",
+    "bytes": 996039,
+    "sha256": "f62e8896685f428e49c6799400096b33b4b4341d79ed49d74f8fde2e92ff960f",
+    "sha256_of": "original",
+    "working_copy": "1913_p149.jpeg"
+  },
+  "text": "— 107 —\n\nCämmerer-Ausfeld, Johann, Reisender, Wiesbaden. Bleichen-\n  mattstraße 1662.\nCaltuzzo-Rover, Pietro, Handlanger, Possagno (Italien). Flößer-\n  straße 1167.\nCaminada, David, Professor, Savognin (Graub.). Gartenstr. 1435.\nCamisasca-Ruf, Franz, Privatier. Schönenwerderstraße 466.\nCandrian, Klara, Haushaltslehrerin, Duvio (Graubünden). Ober-\n  holzstraße 1680.\nCantu, Battista, Milchräger, Vico-Morcote (Tessin). Schloßplatz 202.\n— -Hübscher, Jos., Maurermeister, Vico-Morcote. Pelzgasse 100.\n— Maria, Bureaulistin, Vico-Morcote. Pelzgasse 100.\nCaprani-Minotti, Pietro, Maurerpokier, Nesso (Itl.). Milchasse 132.\nCattin-Wärli, Emil, Burealist, Les Bois (Bern). Pelzgasse 92.\nCavalli-Michelini, Christoforo, Zementarbeiter, Saludecio (Italien).\n  Schachen 1852.\nCermak-Maier, Gultav, Schneider, Wiesbaden. Ziegelrain 397.\nChassot-Widmer, Maurice, Postbeamter, Neuenburg. Asylstr. 1145.\n*Chem. Fabrik A.-G., Fabrikgebäude, Bureau. Fabrikation chemisch.\n  Produkte [tel]. Tell 870.\nChem. Laboratorium, Kant. Pestalozzistraße 1907.\n*Chocolat Frey A.-G. [tel]. Tell 850.\n— — Fabrikgebäude, Bureau [tel]. Laurenzenvorstadt 773.\n— — Chocoladefabrik. Tell 52.\nChocoladefabrik Villars (A. Hänggi). Depot. Pelzgasse 94.\nChristen, Babette, Gutenberg. Zelglistraße 1700.\n— -Marti, Emil, Kondukteur S. B. B., Seeberg (Bern). Obere Vor-\n  stadt 523.\n— -Scherrer, Gottfr., Konditorei, Suhr. Graben 212.\n— Martha, Bureauangestellte, Seeberg (Bern). Obere Vorstadt 523.\nChrist-Kath. Pfarramt [tel]. Adelbändli 172.\n*Cie. des Lampes à Filament Métallique [tel]. Hintere Bahnhofstr. 1000.\nCivilstandamt [tel]. Rathausgasse 1.\nClémençon-Schenck, Paul Emil, Tapezierermeister. Courraux (Neuen-\n  burg). Aussteuergeschäft. Kirchgasse 39.\nClini-Guidi, Mariano, Steinbrecher, Montelabate (Ital.). Halden 296.\nCola-Zambra, Domenico, Maurer, Nesso (Italien). Halden 292.\nCologna, Pietro, Limonadenfabrikant, Castelfondo (Tirol). Milch-\n  gasse 139.\n— Pietro, Limonadenfabrikation. Halden 287.\nComolli-De Rocche, Francesco, Marmorist, Breno (Italien). Adel-\n  bändli 169.\nConrad, Emilie, Telephonistin, Anglikon. Vordere Vorstadt 328.\n— -Lüthy, Peter, Regierungsrat, Auw [tel]. Feerstraße 691.\n— -Sacchi, Peter Jos., Fürsprech und Notar, Auw. Feerstr. 691.\nCooperativa Italia. Metzgergasse 78.\nCosta-Rossi, Luigi, Handlanger, Portico (Italien). Gollattenmatt-\n  gasse 256 b.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 35463,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2354,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:16:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p149",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p149.jpeg",
+      "bytes": 996039,
+      "sha256": "f62e8896685f428e49c6799400096b33b4b4341d79ed49d74f8fde2e92ff960f",
+      "sha256_of": "original",
+      "working_copy": "1913_p149.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:16:39+00:00"
+  }
+}

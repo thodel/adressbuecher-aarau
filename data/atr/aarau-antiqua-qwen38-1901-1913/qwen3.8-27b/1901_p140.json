@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p140",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p140.jpeg",
+    "bytes": 849915,
+    "sha256": "3049ec14f4d2f591dd873155d30e306bf6c8cc1c5e4319e4ba2a30fb370b787b",
+    "sha256_of": "original",
+    "working_copy": "1901_p140.jpeg"
+  },
+  "text": "127\nUebelmann geb. Dubs, Anna, Witwe, Part., Laurenzenvorst. 791.\nUebersax, Jakob, Feger, Mülematt 1360.\nUhler, Bertha, Lehrerin am Gewerbemuseum, Entfelderstraße 1401.\nUlrich, Marie, Weißnäherin, Weinberg 1280.\nUmiker, Samuel, Kutscher, Kirchhof 160.\nUnteroffiziersverein Aarau. Präsident: Julius Maritz, Sekretär.\nUrban, Ernst, Schreiner, Ziegelrain 422b.\nUrban, Joh., Küher, Kasinostraße 612.\nUrech, Jakob, Stadtpolizist, Metzgergasse 75.\n— Johann Jakob, Wagenkontrolleur, Bahnhofstraße 587.\n— geb. Imhof, Philippine, Witwe, Part., Graben 220.\n— -Liechti, Elise, Witwe, Mülematt 1364.\n— Traugott, Knecht, Weinberg 1281.\nValli, August, Akkordant, Rohrerstraße 882. [tel]\nVallentin, Emil, Gießer, Milchgasse 137.\nVerein für Briefmarkenkunde Aarau. Präsident: Jakob Henz-Pließ,\n  Jurast-raße 1480. [tel]\nVersicherungsamt, Bahnhofstraße 606.\nVidiella & Frey. [tel] (Manuel Idiella und Fried. Frey), Weinhand-\n  lung, Laurenzenvorstadt 738.\n— Manuel, Spanische Weinhalle, [tel] Kirchgasse 33. Wohnung Lau-\n  renzenvorstadt 737.\nVilliger, Joseph Anton, Buchdruckerei Milchgasse 160, Wohnung\n  Strittengäßchen 1219.\nVieter, Peter Joseph, Steindrucker, Flößerstraße 1166.\nVögelin, Johann, Fabrikmeister, jenseits der Aare 1234.\nVötsch, Lina, Fabrikarbeiterin, Scheibenschachen 1336.\nVogel, Gottfried, Polizeilieutenant, Kirchhof 159.\n— -Grädel, Anna, Witwe, Glätterin, Gasstraße 1172.\n— Johann, Aufseher, Scheibenschachen 1340.\n— Rudolf, Kaminfeger und Dachdecker, Entfelderstraße 1396.\n— Wilhelm, Sekretär, Kirchhof 159.\nVogelwald-Spalinger, Susanna, Part., vordere Vostadt 350.\nVogler, Julius, Stadtgärtner, Bachstraße 1097.\nVogt, Joh., Schuhmacher, obere Vorstadt 514.\n— geb. Keller, Marie, Hebamme, Kirchhof 161a.\n— Samuel, Speisewirt, [tel] Graben 224.\nVolkemer geb. Mußmann, Barbara, Rain 500.\nVonarx, Karolina, Wirtin, Zollrain 53.\nVonau, Valentin, Schreiner, Halden 300.\nvon Brockdorf, Emilie, Komtesse, Gartenstraße 1437.\nVondäniken, Emil, Buchhalter, Erlinsbacherstraße 1309.\n— geb. Vonfelden, Anna Maria, Witwe, Erlinsbacherstraße 1309.\nVonfelden, Franz Jos., Korsett- u. Quincailliergeschäft, Kroneng. 46.\nvon Salis, Adolf, Stadtgenieur, Zschokkeststraße 1423.\nVonsteiger, William, Techniker, Rain 499.\nVonwiller geb. Gautschi, Karol. Friderika, Witwe, Part., Graben 209.\nVuillermot, Charles Jean L., Kaufmann, Feerstraße 689.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 34909,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2333,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:51:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p140",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p140.jpeg",
+      "bytes": 849915,
+      "sha256": "3049ec14f4d2f591dd873155d30e306bf6c8cc1c5e4319e4ba2a30fb370b787b",
+      "sha256_of": "original",
+      "working_copy": "1901_p140.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:51:15+00:00"
+  }
+}

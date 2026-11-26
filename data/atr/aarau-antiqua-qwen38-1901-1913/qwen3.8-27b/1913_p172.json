@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p172",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p172.jpeg",
+    "bytes": 962010,
+    "sha256": "10601211a08ce344bc978193ce119c7af28835f26d0a5344c8cabf39d6206daf",
+    "sha256_of": "original",
+    "working_copy": "1913_p172.jpeg"
+  },
+  "text": "— 130 —\nHerzog-Bürgi, Johann, Fabrikarbeiter, Wittnau. Metzgergasse 78.\n— -Martí, Joh., Maler, Ermatingen. Buchserstraße 1818.\n— -Zobel, Julie, Witwe. Bachstraße 1099.\n*— -Glinz, Karl Otto, Hotelier, Gasthof zum Ochsen, Stein (Aarg.) [tel].\n  Laurenzentorgasse 123.\n— Max, Kaufmann. Bachstraße 1099.\nHeß, Elsa, Telephonistin. Spitalgäßli 1616.\n*— Gebrüder, A. G., Tuch- und Möbelwarenhandlung [tel]. Filiale\n  der Magazine zur Stadt Mühlhausen, Biel, Solothurn, Basel\n  und Olten. Rathausgasse 4 und 5.\n— Lina, Mercerie- und Wollwarengeschäft, Dürrenroth. Bahnhof-\n  straße 634.\n— -Müller, Luise, Witwe, Dürrenroth. Zieglerain 405.\n— -Rubli, Rob., Privadier, Wald. Spitalgäßli 1616.\n— -Weil, Silvan Salomon, Geschäftsführer, Mühlhausen. Rathaus-\n  gasse 5.\n— -Zürcher, Wilhelm, Privadier. Spitalgäßli 1652.\nHesse-Rabe, Joh., Musikdirektor, Sonderhausen. Gönhardweg 1557.\nHeuberger-Siebenmann, Gotth., Sekretär. Wiesenstraße 1752.\n— Hedwig, Modistengeschäft. Bahnhofstraße 621.\n— -Fischer, Jakob, Sekretär der Finanzdirektion, Bözen. Aare-\n  straße 1231.\n— Leonie, Bözen. Aarestraße 1231.\n— -Richner, Lina, Privatin. Bahnhofstraße 621.\n— Julius. Bahnhofstraße 621.\nHildebrand-Eggmann, J., Kreisschätzer, Zürich. Vord. Vorstadt 352.\nHilfiker-Wilhelm, Emilie, Witwe, Privatin, Muhen. Stritengäß-\n  chen 1196.\n— Jakob, Schuhmacher, Safenwil. Golattenmattgasse 250.\n— Luise, Privatin, Kölliken. Bachstraße 1648.\n— -Müller, Rudolf, Schneider, Hendschiken. Telll 1878.\nHiltbrunner-Frick, Gottfr., Buchbinderei, Wyßachen [tel]. Rain 448.\nHinden-Hort, August, Spezereihandlung, Gipf-Oberfrick. Rain 434a.\nHintermann, Elsa. Bahnhofstraße 1811.\n— Gertrud,\n  „ 1811.\n— -Hohlenweger, Margaretha, Taglöhnerin, Beinwil. Kirchhof 160.\n— Marie. Bahnhofstraße 1811.\n— -Keller, Robert, Oberst, Kreisinstruktor. Bahnhofstraße 1811.\nHintz, Alfred, Konditorei und Kaffeewirtschaft [tel]. Kronengasse 45.\n— Alice. Kronengasse 45.\n— -Wolf, Anna, Witwe. Privatin. Kronengasse 45.\n— -Gysi, Ulrich, Konditoreigeschäft, Lahr [tel]. Laurenzentorgasse 118.\n*Hirsbrunner-Baumann, Gottfried, Instrumentenfabrikant. Kasino-\n  straße 662.\nHirt-Steiner, Arthur, Professor, Münchenbuchsee. Küttigerstr. 1258.\nHirzel-Henkell, Arnold, Dr., Bez.-Lehrer, Lenzburg. Bahnhofstr. 1812.\nHitz-Lanz, Otto, Privadier. Rain 496.\nHöchli-Dietiker, Otto, Monteur, Klingnau. Pelzgasse 104.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 43676,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2337,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:27:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p172",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p172.jpeg",
+      "bytes": 962010,
+      "sha256": "10601211a08ce344bc978193ce119c7af28835f26d0a5344c8cabf39d6206daf",
+      "sha256_of": "original",
+      "working_copy": "1913_p172.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:27:21+00:00"
+  }
+}

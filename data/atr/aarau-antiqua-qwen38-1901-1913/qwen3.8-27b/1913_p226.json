@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p226",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p226.jpeg",
+    "bytes": 956055,
+    "sha256": "8d78654edd8bb25c63dc0e187f8ddbe8a2a2f31b704e4f6a079d46c591a29d68",
+    "sha256_of": "original",
+    "working_copy": "1913_p226.jpeg"
+  },
+  "text": "— 184 —\nWildi-Leuthard, Verena, Witwe., Privatin, Veltheim. Bahnhof-\n  straße 559b.\nWildpark Roggenhausen. [tel]\nWilhelm-Matter, Emilie, Bäckerei u. Konditorei, Safenwil. Buchser-\n  straße 1532.\n— -Huldi, Frida, Privatin, Merheim. Pelzgasse 106.\n— -Kaspar, Gottlieb, Färber, Safenwil. Halden 267.\n— Gottlieb, Stadtarbeiter, Safenwil. Halden 267.\nWilli-Blattner, August, Kosthausverwalter, Lostorf. Scheiben-\n  schachen 1671.\nWillimann-Schmid, Emma, Wwe., Part. Schmiedgasse 381.\n*— Marie, Mercerie-, Garn- und Ellenwarenhandlung. Metzger-\n  gasse 68.\n— -Wehrli, Marie, Witwe, Privatin, Oberhof. Kronengasse 46.\n— Martha. Metzgergasse 68.\nWindisch-Kohler, Samuel, Densbüren. Generalagentur der schweiz.\n  Lebensversicherungs- und Rentenanstalt Zürich. Laurenzen-\n  vorstadt 765.\nWinter, Adolf, Schneider, Kaisten. Milchgasse 153.\nWintsch-Näf, August, Platzmeister, Dietlikon. Ziegelrain 425.\nWirth, Bruno, Elektromonteur, Häggligen. Rain 429.\n— -Richter, Elisabeth, Häggligen. Rain 429.\n— -Voser, Franz, General-Agent, zur Rebhalde [tel]. Erlinsbacher-\n  straße 1749.\n*— — Franz, Versicherungsbureau [tel]. Metzgergasse 81.\n— -Herzog, Jakob, Privatier. Binsenhof 1457.\n— -Geiger, Joh. Rud., Privatier, Speicher. Vordere Vorstadt 339.\n— Margaritha, Ladentochter, Häggligen. Rain 429.\n— Paul, Stationsgehülfe W. T. B., Kirchberg. Zollrain 63.\n— -Bichsel, Samuel, Pächter, Ursenbach. Telli 874.\nWirz-Ries, Adolf, Kaufmann, Menziken. Ziegelrain 427.\n*— — & Cie. [tel] Fensterglas-, Farbwaren-, Chemikalien- u. Drogen-\n  handlung. Ziegelrain 427.\n*— — & Cie. [tel]. Bureau und Magazin. Schönenwerderstraße 487.\n— -Widmer, Adolf, Postkondukteur, Menziken. Hintere Bahnhof-\n  straße 1044.\n— -Siegrist, Albert, Schlosser, Othmarsingen. Tellstraße 1884.\n— -Lütolf, Alfred, Lokomotivführer, S. B. B., Starrkirch. Aare-\n  straße 1227.\n— -Martin, Emil, Verlagsbuchhändler, Solothurn [tel]. Bachstr. 1092.\n*— — Emil, Verlagsbuchhandlung [tel]. Oberthor 243.\n— -Schneider, Emil, Steindruckerei, Schloßrued. Stritengäßchen 1162.\n— -Wirz, Emil, Küfer, Sissach. Hintere Vorstadt 364.\n— -Vetter, Franz, gewes. Wagenvisiteur, Starrkirch. Scheiben-\n  schachen 1330.\n— -Staub, Marie, Haushälterin, Hagenschwil (St. Gallen). Milch-\n  gasse 127.\n— -Elsasser, Rudolf, Pferdwärter, Schloßrued. Kirchgasse 32.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 51022,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2282,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:02:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p226",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p226.jpeg",
+      "bytes": 956055,
+      "sha256": "8d78654edd8bb25c63dc0e187f8ddbe8a2a2f31b704e4f6a079d46c591a29d68",
+      "sha256_of": "original",
+      "working_copy": "1913_p226.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:02:59+00:00"
+  }
+}

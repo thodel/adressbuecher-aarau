@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p046",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p046.jpeg",
+    "bytes": 956525,
+    "sha256": "409e4e431a9111c2bfec6ba6f272d8d931eda1fe48c1f758fd1c9d995db4bfba",
+    "sha256_of": "original",
+    "working_copy": "1913_p046.jpeg"
+  },
+  "text": "— 30 —\nHaus-\nNr.\n339 Henz-Gautschi, Emil, Kaufmann. Eisenwarenhandlung [tel].\nWirth-Geiger, Joh. Rud., Privatier, Speicher.\n340 Siebenmann Siebenmann, Arnold, Tapezierermeister.\n— -Blum, Elise, Wwe., Privatin.\n— Elisabeth, Bureaustin.\nKeller, E., Trikotspezialgeschäft.\n341 Feilner-Bürgi, Johann, Mechaniker, Bittendorf (Bayern).\nSchmid-Wärtli, Franz, Coiffeurgeschäft.\nManighetti-Wilhelm, Emilio, Steindrucker, Bergamo.\n342 * Feilner-Bürgi, Johann, Mechaniker, Bittendorf (Bayern).\nGarganigo-Caprani, Ubaldo, Gipser, Nesso.\n343 Kull-Lerch, Emil, Spenglermeister, Riniken [tel].\nZubler, Gottfried, Bankbeamter, Hunzenschwil.\nBucher-Weber, Rosa, Wwe., Privatin, Winterthur,\n— Rudolf, Kommis, Winterthur.\n345 Gysi-Schneider, Otto, Optiker.\nGysi & Co., Optisches Geschäft [tel].\nKohler, Emma, Ladentochter, Bözberg.\nHerger-Großmann, Wilhelm, Photograph. Atelier [tel].\n348 Keusch-Diebold, Karl, Apotheker, Boswil [tel].\nDiebold, Sophie, Pharmazeutin, Baden.\nMeisel-Leutwyler, Verena, Wwe., Privatin.\n350 Wyler-Guggenheim, Raphael, Manufakturwarenhandlung, Neu-\n  Endingen.\n— Wilhelm, Kaufmann, Neu-Endingen.\n— Otto, Kunstmaler,\n351 Zach-Gerhardt, Karl, Schuhmachermeister, Leibnitz (Oestr.).\n352 Ackermann-Buser, Albert, Kaufmann, Amriswil. Konfektions-\n  Magazin.\n— Rosa, Amriswil.\nKrißler & Stadler, Schirnfabrikation.\n353 Saxer, Lisa, Privatin.\nMeier-Kloter, M., Schuhhandlung.\nPruschi & Cie., Warengeschäft.\nWildi-König, Joh. Rud., Agenturen, Suhr [tel].\n— Emma, Bureaustin, Suhr.\nHintere Vorstadt.\n354 * Rohr-Holliger, Hans, Wirt, Buhs.\nHausmann-Heuberger, Joh., Obst- und Gemüsehandlung.\n355 Zimmerli-Lauper, Gottfr., Metzgermeister, U.-Entfelden [tel].\n356 Greub-Bürgi, Marie, Gemüsehändlerin, Lotzwil.\n— — Ernst, Gemüsehändler, Lotzwil [tel].\n357 * Fleisch, Karl, Hotelier, Romanshorn.\nLüscher-Maurer, Albert, Milch-, Butter- und Käsehändlung.\nMaurer, Emma, Aushülfe, Mooslerau.\nLienhard-Sutter, Marie, Wäscherin, Holziken.\nHagmann-Stolz, Adolf, Schuhhandlung, Filiale.\n[spalte 2]\nHaus-\nNr.\n358\n359\n360 *\n361 *\n362 *\n363\n364 *\n366 *",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 62401,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2037,
+    "lines": 61,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0328,
+    "mean_line_chars": 32.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:44:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p046",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p046.jpeg",
+      "bytes": 956525,
+      "sha256": "409e4e431a9111c2bfec6ba6f272d8d931eda1fe48c1f758fd1c9d995db4bfba",
+      "sha256_of": "original",
+      "working_copy": "1913_p046.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:44:49+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p106",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p106.jpeg",
+    "bytes": 875414,
+    "sha256": "c3d10fa1fa996215fc9065d7a1786791aa5e88a40e814faa55712c8022787a7b",
+    "sha256_of": "original",
+    "working_copy": "1913_p106.jpeg"
+  },
+  "text": "— 82 —\nHaus-\nNr.\n1444  Siegrist-Jolliet, Wilhelm, Kreispостkassier, Seengen.\n  Hengherr-Hiltbrunner, August, Rektor der Bezirksschule,\n  Affoltern.\n1651  Müller-Karrer, Oskar, Zahnarzt, Zofingen [tel].\n  Steiner, Anna, Zahnarztgehilfin.\n1592  Stänz-Müller, Robert, Ingenieur.\n1590  Schibler-Meister, Oskar, Regierungsrat [tel].\n1591 * Bоссart, Hans, Instruktor.\n  Bolleter-Keller, Ernst, Ingenieur, Zürich.\n1863  Zimmermann-von Gunten, Jakob, Postdienst-Chef, Oberflachs.\n  Ernst, Eug. Jb., Architekt.\n1864  Schmid-Zulauf, Emil, Postbeamter, Zurzach.\n1486  Rüttimann-Ludwig, Fugen, Bahningenieur, Basadingen (Thurg.).\n1843  Hug-Gloor, Heinrich, Lehrer.\n1612  Fehlmann-Brack, Kaspar, Privatier.\n  Laager-Dürst, Dr., Fritz, Fürsprech und Notar, Mollis [tel].\n    Bureau Bahnhofstraße 610.\n1643  Brunhofer-Schenk, Emil, Briefträger.\n  Ringier, Arnold, Regierungsrat, Zofingen.\n  Bertschinger-Riniker, Anna, Privatin, Lenzburg.\n  — Anna, Lenzburg.\n\nAugustin-Keller-Strasse.\n\n1493 * Bоссart, J., Gemeindeammann, Buchs.\n  Schmidt-Hagnauer, Auguste, Privatin.\n  Frickart-Wälchli, Hulda, Dr., Privatin, Zofingen.\n1494  Steiner-Schneider, Johann, Privatier.\n  Urech, Ernst, Sekretär, Bruneegg.\n  Simmen-Bürgi, Johann, Lehrer, Schinznach.\n1495 * Henz, Jakob, Kaufmann.\n  Kuhn-Buser, Marie, Wwe., Privatin.\n  Aeschlimann-Cramer, Karl, Kaufmann, Langnau.\n1442 * Bolliger-Kielholz, Albert, in Brugg.\n  Denz-Borel, Theodor, Oberst, Chur.\n  — Helene, Chur.\n1559  Hässig, Hans, Stadtammann [tel].\n  — Emma, Part.\n  Vollmer, Therese, Köchin, Ewatingen (Baden).\n1560  Keller-Fisch, Emil, Regierungsrat, Hottwil.\n1561  Schwere-Markwalder, Dr., Siegfried, Seminarlehrer.\n  Von Felten, Jakob, Bezirkslehrer, Winznau (Soloth.).\n  Markwalder-Gretnar, Maria, Privatin, Baden.\n1537  Schiefer-Hässig, Bertha, Part. [tel]\n  Stahel-Schiefer, Martha, „",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38688,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1823,
+    "lines": 46,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:04:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p106",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p106.jpeg",
+      "bytes": 875414,
+      "sha256": "c3d10fa1fa996215fc9065d7a1786791aa5e88a40e814faa55712c8022787a7b",
+      "sha256_of": "original",
+      "working_copy": "1913_p106.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:04:13+00:00"
+  }
+}

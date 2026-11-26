@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p034",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p034.jpeg",
+    "bytes": 933049,
+    "sha256": "3801df1c63f18e7b25ec34560cd975194b437fb1c2d6625484ab334503a1a595",
+    "sha256_of": "original",
+    "working_copy": "1913_p034.jpeg"
+  },
+  "text": "— 18 —\nHaus-\nNr.\n183a Hürzeler-Schenk, Adolf, Uerkeim. Hadern-, Metall- und Alt-\n  Eisenhändler.\n183b Erdin-Zumsteg, Siegfr., Magazinier, Gansingen.\n  — Joh. Fritz, Maler, Gansingen.\n  — Louise, Buchhalterin, \"\n  — Mina, Ladentochter, \"\n184 Sandmeier-Frey, Elise, Witwe, Wäscherin und Glätterin, Fahr-\n  wangen.\n  Schlatter, Elise, Glätterin, Fhrwangen.\n185 * Ryniker, Karl, Bierbrauer.\n  Flach-Flückiger, Marie, Witwe, Bonndorf.\n  Flückiger-Mathis, Jak., Rohrbachgraben.\n186 * Haßler, Adolf, Färbars Erbschaft.\n  Trächsel-Schneeberger, Gottfr., Spenglermeister, Aarburg.\n  Prantl-Wildi, Marie, Witwe, Strengen (Tirol).\n  — Marie, Bureaulistin, Strengen.\n  — Alice, Ladentochter, \"\n  — Rosa, Bureaulistin, \"\n188 Haßler, Adolf, Färbars Erbschaft.\n  Fischer-Haller, Marie, Witwe, Taglöhnerin, Meisterschwanden.\n  Leder, Geschwister, Anna, Herm. Otto, Oberflachs.\n  Nußberger-Leutwyler, Marie, Witwe, Taglöhnerin, Seengen.\n  Haßler, Eduard, Bankbeamter.\n  Seiler-Haßler, Mina, Witwe, Privatin, Dynhard.\n  Bieri-Kneubühler, Wilhelm, Knecht, Escholzmat.\n  Blattner-Salm, Heinrich, Handlanger, Küttigen.\n  Rodel-Lüscher, Jakob, Schneider, Fhrwangen.\n  Rudin, Heinrich, Schneider, Arboldswil.\n  Vogt-Weber, Gottlieb, Malermeister, Menziken.\n  — Olga, Fabrikarbeiterin, Menziken.\n  Bürgin-Näf, Albert, Bedienter, Niedereggenen.\n  Pilgram-Gygax, Karl, Bierbrauer, Schallorf (Bayern).\n  Häusermann-Ruf, Marie, Witwe, Fabrikarbeiterin, Egliswil.\n  Müller, Jakob, Taglöhner, Unter-Kulm.\n  Lüem, Marie, Schinznach.\n  Schröli-Bertram, Emil, Hausknecht, Biberstein.\n189 * Haßler, Adolf, Färbars Erbschaft.\n  Hofmann-Wehrli, Friedr., Kasernenarbeiter, Schloßrued.\n  — — Frau, Wäscherei und Glätterei,\n  Burri-Wehrli, Gottlieb, Stadtarbeiter, Schüpfen (Bern).\n  Wehrli-Roth, Jakob, Taglöhner, Biberstein.\n190 * Haßler, Adolf, Färbars Erbschaft.\n  Acklin, Geschwister, Chemische Wäscherei u. Glätterei, Herznach.\n  — -Jäger, Peter, Posamentor, Herznach.\n  Blesi-Marquart, Jakob, Knecht, Schwanden.\n  Morf-Dreher, Johann, Schneider, Bisikon.\n  Studer-Suter, Alois Jos., Knecht, Wolfwil.\n  Bollliger-Speck, Hermann, Privatier, Schloßrued.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 66619,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2118,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:38:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p034",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p034.jpeg",
+      "bytes": 933049,
+      "sha256": "3801df1c63f18e7b25ec34560cd975194b437fb1c2d6625484ab334503a1a595",
+      "sha256_of": "original",
+      "working_copy": "1913_p034.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:38:15+00:00"
+  }
+}

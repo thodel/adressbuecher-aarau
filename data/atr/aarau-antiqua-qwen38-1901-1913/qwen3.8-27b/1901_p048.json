@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p048",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p048.jpeg",
+    "bytes": 807914,
+    "sha256": "7620d87209165da0eb2acd871130e469f6e90db3b7f6378c166c0e8aa26dcb90",
+    "sha256_of": "original",
+    "working_copy": "1901_p048.jpeg"
+  },
+  "text": "37\nHaus-\nNr.\n501 Wernli-Schmidli, Kaspar, Taglöhner, von Thalheim.\n  — Elise, Weißnäherin, von Thalheim.\n502 * Ortsbürgergemeinde Aarau. Wohnhaus.\n  Hässig-Lüscher, Johann, Dienstmann.\n  Rämisberger-Studler, Verena, Spenglers Witwe, Taglöhnerin.\n503 † Henz-Gautschi, Emil. Magazin.\n504 Rohr-Hochstrasser, Rudolf, Schmid.\n505 * Bopp-Häusler, Pfästerer. Erbschaft.\n  — — Louise, Witwe, Part.\n  Näf-Eichenberger, Emma, Witwe, Part., von Meilen (Zürich).\n  Bolliger-Siebenmann, Fritz, von Schloßrued.\n506 * Rusterholz & Freihofer, Bildhauerei und Grabsteinlager.\n  Rusterholz-Schäppi, Alb., Bildhauer, von Wädenswil (Zür.).\n  Rebmann-Häfliger, Karl Jak., Maler, von Fellbach (Würtbg.).\n  Widmer-Felber, Joh., Fabrikarbeiter, von Gränichen.\n  — — Anna, Weißnäherin, von Gränichen.\n  Albiez-Stiner, Gustav, Appreteur, von Säckingen (Baden).\n507 Berner-Marti, Jakob, Schreinermeister, von Rupperswyl.\n  Baumann-Käser, Susanna, Polizeifeldweibels Witwe.\n508 † Staat Aargau. Alte Postremise.\n\nObere Vorstadt.\n\n509 * Staat Aargau. Rathaus und Anbauten.\n  Käser-Schütz, Jakob, Abwart, von Biberstein.\n510 † — Magazin (Holzhaus).\n511 † — Magazin \"\n512 † — Großrats-Gebäude.\n513 Wernli-Meier, Jakob, Schreinermeister.\n514 Vogt-Kohler, Johann, Schuhmachermeister. Schuhhandlung.\n515 Wyser, Gottlieb, Wirt. [tel] von Niedergösgen (Solothurn).\n  Gasthaus zur Herberge.\n  Aebi-Rohr, Anna, Magd, von Heimiswyl (Bern).\n516 * Fischer, Otto, Müllermeister, in Wildegg.\n  Rüthy-Schenker, Vinzenz, Bäcker und Wirt. von Däniken (So-\n  lothurn). Speisewirtschaft z. Fauburg.\n517 * Derselbe. Wohnhaus mit Bäckerei.\n  Walther-Buss, Franz, Bierbrauer, von Bichihausen (Würtbg.).\n518 * Derselbe Hinterhaus.\n  Frei-Amsler, Bernhard, Bauamtsarbeiter, von Auenstein.\n519 Andres-Bircher, Friedrich, Hafnermeister. [tel]\n  Bircher, Fanny, Part.\n  Stierli-Andres, Elise, Buchdruckers Witwe.\n520 † Derselbe. Ofenmagazin und Geschirrhandlung.\n521 † \" Waschhaus.\n522 † \" Holzschopf.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38646,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1944,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:16:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p048",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p048.jpeg",
+      "bytes": 807914,
+      "sha256": "7620d87209165da0eb2acd871130e469f6e90db3b7f6378c166c0e8aa26dcb90",
+      "sha256_of": "original",
+      "working_copy": "1901_p048.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:16:11+00:00"
+  }
+}

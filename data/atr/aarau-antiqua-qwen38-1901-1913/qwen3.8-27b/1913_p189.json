@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p189",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p189.jpeg",
+    "bytes": 954165,
+    "sha256": "5f0330e604dfca40c050d27da4c92bd9af7bf5d0f82de044702dd145545406ac",
+    "sha256_of": "original",
+    "working_copy": "1913_p189.jpeg"
+  },
+  "text": "— 147 —\nMaurer, Fritz, Fuhrmann, Schmierdried. Flößerstraße 1163.\n— Hilda, Ladentochter, Schmierdried. Flößerstraße 1163.\n— -Bachmann, Katharina, Schmierdried. Scheibenschachen 1328.\n— -Leutwyler, Marie, Wäscherin, Rubigen (Bern). Schmiedgasse 394.\n— Martha, Telephonistin. Bachstraße 1059.\n— Paul, Händler. Milchgasse 130. Trödlergeschäft Golattenmatt-\n  gasse 249.\n— -Ernst, Philipp, Zeughausarbeiter. Milchgasse 130.\n— Robert, Ausräumer. Milchgasse 130.\n— -Nußberger, Samuel, Handlanger, Schmierdried. Golattenmatt-\n  gasse 250.\n— -Häfeli, Wilhelm, Fuhrhaltereigeschäft, Schmierdried. Flößer-\n  straße 1163.\nMayer, Marie, Bureaulistin, Rastatt (Baden). Adelbändli 174.\nMeier, Adolf, Elekt.-Arbeiter, Lupfig. Hintere Vorstadt 369.\n— Anna Marie, Glätterin, Wohlen. Ziegelrain 407.\n— -Großmann, Anna, Witwe, Privatin, Rheinfelden. Rathaus-\n  gasse 30.\n— -Schneider, Anna, Privatin, Wohlen. Mühlematt 1365.\n— Anna, Bureaulistin, Wohlen. Mühlematt 1365.\n— -Bucher, August, Direktionssekretär, Ober-Siggenthal. Scha-\n  chen 1132.\n— -Schuhmacher, Berta, Witwe, Postbeante. Kütigerstraße 1247.\n— Bertha, Haushälterin, Tegerfelden. Laurenzenvorstadt 766.\n— -Mußlin, Ernst, Monteur, Hausen. Milchgasse 147.\n— Frida, Vorsteherin zur Kinderkrippe, Zürich. Halden 278.\n— Fritz, Schreiner, Roggwil (Bern). Entfelderstraße 1380.\n— -Häuptli, Fritz, Schneider, Hausen. Scheibenschachen 1334.\n— -Schwammberger, Fritz, Gärtnermeister, Roggwil (Bern). Ent-\n  felderstraße 1404.\n— -Maurer, Jakob, Vorarbeiter, Hausen. Bahnhofstraße 556.\n— Karl, Schriftsetzer, Dällikon. Adelbändli 174.\n— -Kloter, M., Schuhhandlung. Vordere Vorstadt 353.\n— Melchior, Wärter, Villmergen. Buchserstraße 956.\n— Oberbäcker. Graben 218.\nMeierhofer-Lang, Rud., Bahnbeamter, Weiach. Bahnhofstraße 812.\nMeisel-Leutwyler, Verena, Witwe, Privatin. Vordere Vorstadt 348.\nMeißner, Arthur, Buchhändler, Hannover. Buchserstraße 926.\n*— Arthur Hermann, Kunst- und Buchhandlung [tel]. Bahnhof-\n  straße 1812.\n— -Süß, Elisabeth, Gerolshofen (Bayern). Bahnhofstraße 557.\n— Johann, Schneider, Gerolshofen (Bayern).Halden 283.\nMeister-Koller, Ernst, Heilsarmeeoffizier, Merishausen. Laurenzen-\n  vorstadt 793.\n— -Landolt, Hans, Bezirkstastergeometer, Dachsen [tel]. Spital-\n  gäßli 1716.\n— -Gysi, Maria Anna, Witwe. Rain 483.\n— Richard, Geometer, Dachsen. Spitalgäßli 1716.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21362,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2318,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:39:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p189",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p189.jpeg",
+      "bytes": 954165,
+      "sha256": "5f0330e604dfca40c050d27da4c92bd9af7bf5d0f82de044702dd145545406ac",
+      "sha256_of": "original",
+      "working_copy": "1913_p189.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:39:17+00:00"
+  }
+}

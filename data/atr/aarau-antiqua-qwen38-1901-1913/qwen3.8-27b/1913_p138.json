@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p138",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p138.jpeg",
+    "bytes": 991946,
+    "sha256": "a801b8ca1e7ec69b6bcb044953db5f5bea1107a2b7d75088cc762bcbd1b9cb77",
+    "sha256_of": "original",
+    "working_copy": "1913_p138.jpeg"
+  },
+  "text": "— 96 —\nAeschbach-Urech, Friedrich, Maschinenfabrik und Eisengießerei,\n  Bureau [tel]. Torfeldstraße 942.\n— Jakob, Schlosser, Reinach. Buchserstraße 949.\n— Leo, Maler, Reinach. Buchserstraße 1678.\n— Otto, Lehrer, Staffelbach. Flößerstraße 1634.\n— Otto, Lehrling, Hendschikon. Bachstraße 1066.\n— -Haberstich, Otto, Postbeamter, Leutwil. Spitalgäßli 1710.\n— Dumas, Otto, Eichmeister des Bezirks Aarau, Reinach. Buchser-\n  straße 1678.\n— Sophie, Bureauangestellte, Reinach. Torfeldstraße 942.\n— Sophie, Bureaulistin, Reinach. Buchserstraße 949.\n— -Steiner, Susette, Witwe, Hendschikon. Bachstraße 1066.\nAeschlimann-Cramer, Karl, Kaufmann, Langnau. Augustin Keller-\n  Straße 1495.\nAgnoli-Da Col, Angelo, Maurer, Valle di Cadore (Italien). Halden 286.\n*Aktienbrauerei Feldschlößchen Rheinfelden, Bierdepot. Bahnhofstr.586.\n— — Restr. Affenkasten (Gerber-Wüthrich) [tel]. Vord. Vorstadt 329.\n— — „Bierhalle zur Gais“ [tel]. Buchserstraße 986.\n— — Restaurant zum Bahnhof. Hintere Bahnhofstraße 1034.\n— — Restaurant Feldschlößchen. Graben 209.\nAlbertini-Uibeleisen, Hugo, Hochbaumeister, Chur. Gartenstr. 1566.\nAlbrecht, Eduard, Glockengießer. Rain 457.\n— -Wildberger, Otto, Polizeilieutenant, Hemishofen (Schaffh.). [tel]\n  Schönenwerderstraße 1732.\nAlder, Lydia, Stickerin, Schwellbrunn. Weinberg 1280.\nAllemann-Helbling, Hermann, Redaktor der Neuen Aarg. Zeitung,\n  Welschenrohr. Bahnhofstraße 578b.\n*Allgemeine Aarg. Ersparniskasse [tel]. Bahnhofstraße 1811.\n— Plakatgesellschaft. Rathausgasse 1.\nAltersasyl, städtisches. Halden 261.\nAltorfer-Biehli, Rosa, PrivatIn, Basel. Gartenstraße 1429.\nAltweg, Hans, Ingenieur, Hessenreuti (Thurg.). Westallee-Neugut 1474.\nAmacher, Anni, Modistin, Altorf. Pelzgasse 91.\nAmmann, Elise, Fabrikarbeiterin, Seon. Schönenwerderstraße 466.\n— Ernst, Bureauangestellter, Ermatingen. Asylstraße 1145.\n— -Grenacher, Josefine, Witwe, Näherin, Roggwil. Ziegelrain 425.\n— Marie, Ladentochter, Ryken. Zeughausstraße 665.\n*— -Stoller, Paul, Bäckerei, Konditorei und Kaffeewirtschaft,\n  Brittnau [tel]. Bahnhofstraße 619.\n— -Kaspar, Rich., Polizei-Korporal, Büntzen. Hintere Vorstadt 361.\n— -Ströhl, Robert, Architekt [tel]. Feerstraße 683.\nAmsler, Elise, Weißnäherin, Densbüren. Stritengäßchen 1533b.\n— -Hürsch, Emil, Fürsprech und Notar. Gartenstraße 1566.\n— Hans, Kanzlist, Bahnhofstraße 588.\n— -Baumann, Heinrich, Werkführer. Meteorologische Station.\n  Pestalozzistraße 1540.\n— -Gysi, Jakob, Stadtarbeiter, Densbüren. Halden 297.\n— -Käser, Joh., Buchhalter. Bahnhofstraße 588.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 52390,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2499,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:10:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p138",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p138.jpeg",
+      "bytes": 991946,
+      "sha256": "a801b8ca1e7ec69b6bcb044953db5f5bea1107a2b7d75088cc762bcbd1b9cb77",
+      "sha256_of": "original",
+      "working_copy": "1913_p138.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:10:31+00:00"
+  }
+}

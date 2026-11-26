@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p144",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p144.jpeg",
+    "bytes": 860175,
+    "sha256": "099abd59884d729613b2a52fb376e90f0eeb9d142894399fa9d3ac23a29e36d0",
+    "sha256_of": "original",
+    "working_copy": "1901_p144.jpeg"
+  },
+  "text": "131\nWidmer, Franz J., Musiklehrer, Kasinostraße 657.\n— Franz, Wirt und Büchsenmacher, Kronengasse 49.\n— Franz Xaver, Obergerichtskanzlist, Bahnhofstraße 591.\n— Friedr., Postcommis, Feerstraße 693.\n— Gottlieb, Telephonarbeiter, Rain 466.\n— Herm., Küfer, Schmiedgasse 379.\n— geb. Hoffmann, Salome, Witwe, Laurenzenvorstadt 727.\n— Johann, Landwirt, Hammer 179.\n— Johann, Fabrikarbeiter, Rain 506.\n— Joseph, Taglöhner, Halden 300.\n— Karolina und Maria, Modistinnen, vordere Vorstadt 323.\n— Lidia, Bahnhofstraße 562.\n— Maria, Part., Weinberg 1283.\n— Rudolf, Bäcker und Wirt, obere Vorstadt 552.\n— Rudolf, Weinhändler, Speisewirtschaft z. „Lindenhof“, Buchser-\n  straße 920. [tel]\n— Samuel, Fabrikarbeiter, Halden 300.\n— Samuel, Wirt, [tel] Halden 291.\n— -Wüthrich, Anna, Milchgasse 131.\n— Xaver, Hausknecht (Ochsen), Pelzgasse 91.\nWiederkehr geb. Oeschger, Viktoria, Witwe, Milchgasse 147.\nWieland geb. Wieland, Hermine, Witwe, Part., Rain 440.\nWietlisbach, Friedrich, Justizsekretär, Rohrerstraße 916.\n— Josef Burkardt, Postcommis, Schachen 1123.\nWildi, Anna, Damenschneiderin, Halden 279.\n— Emil, Schreiner, hinter dem Platz 234.\n— Friedr., Postbeamter, Pelzgasse 105.\n— Gottfr., Heizer, Halden 279.\n— Jakob, Tapezierer, Halden 279.\n— geb. Leuthard, Verena, Witwe, Bahnhofstraße 559b.\n— Rudolf, Generalagentur der Basler Lebensversicherungsgesell-\n  schaft, vordere Vorstadt 353.\n— Rudolf, Bauamtsarbeiter, Laurenzenvorstadt 712.\n— Samuel, Schreiner, Ziegelrain 416.\n— geb. Wespi, Adele, Witwe, Salzverkauf hintere Vorstadt 354.\nWilhelm, Gottlieb, Färber, Halden 267.\nWillimann-Lehmann, Maria, Witwe, Schmiedgasse 381.\n— Fritz, Sohn, Lohnkutscher, [tel] Schmiedgasse 381.\n— geb. Wehrli, Marie, Witwe, Kronengasse 46.\nWindisch, Samuel, Generalagentur der schweiz. Lebensversicherungs-\n  und Rentenanstalt in Zürich, Laurenzenvorstadt 765.\nWinteler, Jost, Dr. phil., Professor, Laurenzenvorstadt 790.\nWirth, Franz, Lebens- und Unfallversicherung. Auswanderung. [tel]\n  Metznergasse 81.\n— Jakob, Part., [tel] Zollrain 81.\n— Joh. Rud., Arzt, Part., vordere Vorstadt 339.\nWirz, Adolf, Postkondukteur, Rain 495.\n— Adolf, Commis, Droguenhandlung, Ziegelrain 427.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 78152,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2152,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:53:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p144",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p144.jpeg",
+      "bytes": 860175,
+      "sha256": "099abd59884d729613b2a52fb376e90f0eeb9d142894399fa9d3ac23a29e36d0",
+      "sha256_of": "original",
+      "working_copy": "1901_p144.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:53:49+00:00"
+  }
+}

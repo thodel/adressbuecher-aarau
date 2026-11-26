@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p218",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p218.jpeg",
+    "bytes": 938824,
+    "sha256": "19b48a695e702171740b928554aa253796240d6b21ad6e0a918a5dc1e6d1def8",
+    "sha256_of": "original",
+    "working_copy": "1913_p218.jpeg"
+  },
+  "text": "— 176 —\n*Ulrich-Egli, Pius, Küchenchef, Restaurant zum Feldschlößchen, Sol-\n  bach (Baden) [tel].  Graben 209.\nUmiker-Kyburz, Karl, Schlosser, Thalheim.  Küttigerstraße 1253.\n— Samuel, Taglöhner, Thalheim.  Hammer 190.\nUrban-Wehrlı, Ernst, Schreiner, Liegnitz (Preußen).  Ziegelrain 422 b.\n— -Gütiger, Gustav,  ”  ”  (Schlesien).  Milchgasse 135.\nUrben, Ida Frida, Inkwil.  Halden 298.\n*— Johann, Milchhändler, Inkwil (Bern).  Milch-, Käse- und Butter-\n  handlung.  Milchgasse 127.\nUrech, Ernst. Sekretär, Brunegg.  Augustin-Keller-Straße 1494.\n— -Flückiger, Jakob, Stadtpolizist, Nied.-Hallwil.  Metzgergasse 75.\n— Jakob, Leiternmacher, Seon.  Oberholzstraße 474.\n— -Imhof, Philippine Wwe., Privatin.  Graben 220.\n— Rud., Fuhrknecht, Nied.-Hallwil.  Rain 483.\n— -Leuenberger, Wilhelm.  Postbeamter,  Brunegg.  Entfelder-\n  straße 1608.\nVaccani-Philipp, Domenico, Maurerpilier, Nesso (Itl.) Schachen 1852.\n— -Casati, Saverio, Schreiner, Nesso (Italien).  Halden 305.\nValli-Eggspühler, Angelo, Bauunternehmer [tel].  Rohrerstraße 882.\n— Karl, stud. ing.  Rohrerstraße 882.\nValsecchi, Carlo, Maurer, Valmadera (Italien).  Halden 300.\n— -Nußbaum, Giacomo, Handlanger, Valmadera (Itl.) Halden 300.\nValton-Kuschke, Raymond, Kaufmann, Paris.  Laurenzenvorst. 748.\nVanek-Zahn, Anton, Zuschneider, Oesterreich.  Asylstraße 1145.\nVannod-Gaille, Louise, Witwe, Privatin, Orny (Vaud).  Oberholz-\n  straße 1598.\n*Verein der Freundinnen junger Mädchen, Marthahaus.  Obere Vor-\n  stadt 519.\nVereinshaus und Kleinkinderschule des Evang. Vereins.  Bahnhof-\n  straße 568.\nVersicherungsamt [tel].  Bahnhofstraße 1811.\nVicari-Marinelto, Maria Wwe., Fabrikarbeiterin, Val di Cavor (Ital.).\n  Milchgasse 151.\nVidiella-Tarrats, Augustina, Part.  Laurenzenvorstadt 737.\n*— — Augustina, Weinhandlung. Bureau. [tel] ”  738.\n— Braulio, Kaufmann,  ”  737.\n— Manuel,  ”  737.\n— Manuels Erbschaft [tel].  Spanische Weinhalle. Weinhandlung und\n  Champagner.  Kirchgasse 33.\nVilla-Bernasconi, Giov., Schneider, Como.  Pelzgasse 96.\nVögeli-Oebersold, Louis, Metzgerei  und  Wursterei,  Herbligen\n  (Zürich) [tel].  Gartenstraße 1772.\n— -Bohrer, Marie, Witwe, Spetterin, Leibstadt.  Milchgasse 156.\nVöllmi-Stirnemann, Reinhard, Monteur, Basel.  Flößerstraße 1193.\nVötsch, Verena, Part., Frommen.  Metzgergasse 75.\nVogel-Waßmer, Elisabeth, Wwe., Part., Kölliken.  Entfelderstr. 1396.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 22132,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2349,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:56:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p218",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p218.jpeg",
+      "bytes": 938824,
+      "sha256": "19b48a695e702171740b928554aa253796240d6b21ad6e0a918a5dc1e6d1def8",
+      "sha256_of": "original",
+      "working_copy": "1913_p218.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:56:50+00:00"
+  }
+}

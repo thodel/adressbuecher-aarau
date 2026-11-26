@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p156",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p156.jpeg",
+    "bytes": 943145,
+    "sha256": "d8806e628947152cfb8e516a6c99172a1918a0bd2bfa080439aa7d9ee05ec85d",
+    "sha256_of": "original",
+    "working_copy": "1913_p156.jpeg"
+  },
+  "text": "— 114 —\nFierz, Max, Ingenieur, Winterthur. Bleichemattstraße 1029.\nFilippetti-Bizzicari, Ciro, Handlanger, Saludecio (Italien). Adel-\n  bändli 168.\n— Luigi, Handlanger, Saludecio (Italien). Adelbändli 168.\nFinanzdirektion. Regierungsgebäude.\nFiorentini-Parucci, Giuseppe, Handlanger, Portico (Ital.). Halden 268.\n— Sebastiano, Handlanger, Portico (Italien). Kirchhof 161a.\nFisch-That, Adolf, Privatier. Torfeldstraße 950.\n— Charlotte, Torfeldstraße 950.\n— -Dürr, Elise, Witwe, Glätterin. Halden 289.\n— Esther, Ladentochter. Flößerstraße 1164.\n— Helene, \" \" 1164.\n— Hildegard, Glätterin, \" \" 1164.\n— -Reimann, Josefine, Fabrikarbeiterin. Adelbändli 173.\n— -Vogt, Marie, Witwe, Badmeisterin. Flößerstraße 1164.\n— Mina, Kleinkinderlehrerin. Hintere Bahnhofstraße 1602.\n— Olga, Haushälterin. Flößerstraße 1164.\n— Oskar, Schriftsetzer. Flößerstraße 1164.\nFischer-Beck, Karl Ad., Kaufmann. Firma: A. & W. Fischer, Zi-\n  garren, Zigaretten, Tabake gros, détail. Filiale Bahnhofstr.\n  Laurenzentorgasse 126.\n— -Peter, Anna, Wwe., Privatin, Spitalgäßli 1633.\n*— A. & W., Zigarren- und Tabakhandlung, Bahnhofstraße 1813. [tel]\n— -Haller, Friedr. Emil, Bauschreiner, Milchgasse 151.\n— -Dietiker, Fritz, Telephonarbeiter, Tennwil. Pelzgasse 112.\n— -Kaufmann, Fritz, Schlachthausabwart, Milchgasse 138.\n— -Schmid, Gottlieb, Fortbildungslehrer, Fahrwangen. Hinteres\n  Zelgli 1588.\n— Gottl., Bureauangestellter, Fahrwangen. Hinteres Zelgli 1588.\n— -Müller, Hans, Postfakteur, Schachen 1492.\n— Helene, Bukarest. Gartenstraße 1431.\n— -That, Jakob, Fabrikaufseher, Fahrwangen. Hammer 194.\n— Ida, Modegeschäft, Obere Vorstadt 554.\n— -Richner, Joh., Direktor z. Globus, Meisterschwanden. Bahn-\n  hofstraße 632.\n— -Wilhelm, Joh., Bahnwärter, Oftringen. Rain 463.\n*— -Burger, Jonathan, Goldschmied, „Zum Goldschmied“. Bijouterie,\n  Gold- und Silberwaren. Vordere Vorstadt 322. [tel]\n— Irmengard, Triengen. Adelbändli 172.\n— Julius, Taglöhner, Tennwil. Milchgasse 147.\n— Louise, Damenschneiderin, Adelbändli 175.\n— Ludwig, Halden 261.\n— Luise, Insaßin. Halden 261.\n— Luise, Privatin, Tellirain 1774.\n— -Haller, Marie, Wwe., Taglöhn., Meisterschwanden. Hammer 188.\n— -Widmer, Marie, Privatin, Kasinotrstraße 641.\n— -Christ, Otto, Dr., Bezirkslehrer, Brienzwiler. Hint. Zelgli 1668.\n— -Eggimann, Otto, Versicherungsbeamter, Tennwil. Flößerstr. 1192.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29644,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2324,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.2,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:19:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p156",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p156.jpeg",
+      "bytes": 943145,
+      "sha256": "d8806e628947152cfb8e516a6c99172a1918a0bd2bfa080439aa7d9ee05ec85d",
+      "sha256_of": "original",
+      "working_copy": "1913_p156.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:19:12+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p107",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p107.jpeg",
+    "bytes": 910112,
+    "sha256": "0481e4e721e020c3bbe9aaff1864a90c59fca9e9d685c584768e9493e87b8361",
+    "sha256_of": "original",
+    "working_copy": "1913_p107.jpeg"
+  },
+  "text": "— 83 —\nHaus-    Jurastrasse.\nNr.\n1475 Bebié, Seline, Part., Thalwil [tel].\n1476 Handschin-Morf, Elise, Privatin, Amerika.\n  — — Moritz, Privatier, Amerika.\n  — Lili.\n1477 Keller-Feiß, Gottfried, Dr. jur., Fürsprech und Notar [tel].\n  Bureau Laurenzenvorstadt 710.\n1478* Müri, Johann, Dr., Bundesrichter, Lausanne.\n  Schmid, Fr. Otto, Schriftsteller, Basadingen [tel].\n1479 Zehnder-Gaßmann, Otto, Kantonsingenieur, Zofingen [tel].\n1480 Henz-Pluß, Jakob, Kaufmann [tel].\n  Pluß, Anna, Part.\n1481 Dutli-Sansoni, Hans, Kaufmann, Schöftland.\n  — Julius, Postbeamter,  \"\n  — Wilhelmine, Modistin,  \"\n1482* Schäfer, Alfred, Kaufmann.\n  Werder-Pfisterer, Johann, Dr., Kantonschemiker, St. Gallen.\n1617 Keller-Merz, Mart., Ingenieur, Schleitheim [tel]. Ingenieurbureau.\n1496 Hemmeler-Wernli, Rudolf, Privatier.\n1518 Rohr-Reiner, Hans, Oberrichter, Lenzburg.\n1484 Senn-Gysi, Hans, Zeughausverwalter, Zofingen.\n  — Margaretha, Zofingen.\n1485* Biehli-Troller, Hans, in Bern.\n  Rauchenstein-Biehly, Friedr., Pfarrhelfer, Brugg.\n  von Okolski, Eduard, Bankkassier, Henau (St. Gallen).\n1543 Zurlinden-Boitel, Fritz, Direktor der Kantonal-Bank, Zofingen [tel].\n1487 Merz-Diebold, Walter, Dr. jur., Oberrichter, Menziken.\n1488 Hagenbuch-Egger, Johanna, Part.\n  — Hans, Zeichner.\n  Nußbaum-Hagenbuch, Frieda, Arbeitslehrerin, Großhöchstetten.\n1489* Schäfer-Brugger, Adolf, Architekt\n1490 Lenz-Sutter, Otto, Färbereibesitzer, Schopfheim (Baden).\n  Matter, Paul Edwin, Kaufmann, Kölliken [tel].\n  Erny-Vonwiller, Ida, Armenpflegers Wwe.\n  Hedinger, Dr., Oskar, Sekretär der Handelskammer, Wilchin-\n  gen (Schaffhausen).\n  Wengli, Mathilde, Köchin, Handegg (Baden).\n1491 Schmidt-Halbritter, Max, Regierungsrat.\n  — Alice.\n  — Martha.\n1900* Zschokke, M., A. G., Baugeschäft.\n  Müri, Paul, Oberrichter.\n  — -Bär, Louise, Pfarrers Witwe, Schinznach-Dorf.\n1901* Dieselbe.\n\nSchachen.\n1117 Lienhard-Bleuler, Adolf, Kuttlermeister, Holziken [tel].\n  Lehmann, Julius, Metzger, Zofingen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 58256,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1957,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:05:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p107",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p107.jpeg",
+      "bytes": 910112,
+      "sha256": "0481e4e721e020c3bbe9aaff1864a90c59fca9e9d685c584768e9493e87b8361",
+      "sha256_of": "original",
+      "working_copy": "1913_p107.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:05:11+00:00"
+  }
+}

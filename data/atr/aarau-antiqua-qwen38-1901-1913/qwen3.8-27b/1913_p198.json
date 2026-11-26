@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p198",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p198.jpeg",
+    "bytes": 962555,
+    "sha256": "fb1eaf3c2f8215e441b470a01fad848f7aec2e5c73098aa2c80c08c5cc7d32dc",
+    "sha256_of": "original",
+    "working_copy": "1913_p198.jpeg"
+  },
+  "text": "— 156 —\nQuensel, Ernst, Lithograph, Apolo, Sachsen. Tellstraße 1723.\nRaab, Alfred, Lithograph, Nürnberg. Zelglistraße 1694.\nRämischberger-Studier, Verena, Witwe, Privatin. Adelbändli 176.\nRau, Therese, Part., Mumpf. Adelbändli 175.\nRauchenstein-Biehly, Friedr., Pfarrhelfer, Brugg. Jurastraße 1485.\nRauscher-Eggenberger, Hermann, Techniker, Stein (Schaffhausen).\n  Buchserstraße 924.\nReber-Geißeler, Eduard, Bäckermeister, Sempach (Luzern). Bäckerei,\n  Konditorei, Salzverkauf. Rathausgasse 27.\nRebmann-Rohr, Albert, Bahnarbeiter S. B. B., Kaisten. Hintere\n  Bahnhofstraße 1007.\n  — -Weilmersberger, Christiane, Witwe, Privatin, Kirchberg (Würt-\n  temberg). Kirchgasse 36.\n  — -Häfliger, Emilie, Spetterin, Kulmerau. Kirchgasse 36.\n  — Hermann, Techniker, Kulmerau. Kirchgasse 36.\n  — Karl, Mechaniker, Kulmerau. Kirchgasse 36.\nRechner-Dietschweiler, Adolf, Schuhmacher, Luttingen (Baden).\n  Rathausgasse 15.\nRechsteiner, Josef, Brauereiarbeiter, Frankenhofen (Württemberg).\n  Hohlgasse 536.\nRegenaß-Sterchi, Adolf, Elekt.-Techniker, Basel. Herzogstr. 1513.\nRegierungsgebäude. Obere Vorstadt 509.\nReich, Emma Pauline, Privatin, St. Gallen. Pelzgasse 106.\n  — Anna Marie, Magd, Freudenstadt. Zelglistraße 1842.\nReimann, Friedr. Wilhelm, Bankangestellter, Oeschen. Asylstr. 1698.\n  — -Schaub, Friedr., Postbeamter, Wölfinswil. Entfelderstr. 1608.\n  — -Reichle, Gustav, Obergerichtsschreiber. Laurenzenvorstadt 796.\n  — Dr. Martha. Laurenzenvorstadt 796.\n  — Stephan, Oberhof. Adelbändli 173.\nReinhardt, Fritz, Gärtner, Balsthal. Hintere Vorstadt 370.\n  — -Müller, Joh. Bapt., Gärtner, Balsthal. Obst- und Gemüsehand-\n  lung. Hintere Vorstadt 370.\n  — Martha, Verkäuferin, Balsthal. Hintere Vorstadt 370.\nReinigungsinstitut „Iris“ (J. Willmann). Bureau: Affenkasten.\n  Vordere Vorstadt 329.\nReiser-Mürset, Anna, Colombier, Kaffeewirtschaft. Bahnhofstr. 558.\n  — Louise, Colombier. Bahnhofstraße 558.\nReist-Jäggi, Elise, Privatin, Sumiswald. Hinteres Zegli 1869.\nRektorat der Kantonsschule [tel]. Bahnhofstraße 592.\nRenggli-Roth, Joh., Schneider, Werthenstein (Luzern). Kirchgasse 41.\nRennhardt-Stirnemann, Josef, Küher, Böttstein. Binsenhof 1468.\nRennhart-Maier, Martin, Professor. Entfelderstraße 1391.\nRenold-Messerli, Joh., Gärtner, Bruneegg. Kronengasse 43.\n  — Susette, Haushälterin, Brugg. Bachstraße 1084\nRey-Leyster, Eduard, Wagenkontrolleur, Häikon (Zürich). Wiesen-\n  straße 1293.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 63307,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2387,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:43:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p198",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p198.jpeg",
+      "bytes": 962555,
+      "sha256": "fb1eaf3c2f8215e441b470a01fad848f7aec2e5c73098aa2c80c08c5cc7d32dc",
+      "sha256_of": "original",
+      "working_copy": "1913_p198.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:43:23+00:00"
+  }
+}

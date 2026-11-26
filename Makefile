@@ -32,6 +32,9 @@ fullrun-parse:  ## Welle 2: Einwohner-Einträge aus Hauptleser je Satzart → 04
 	$(PY) scripts/04_parse.py --run aarau-antiqua-final --reader final --section berufe --out data/csv/04_berufe_antiqua.csv
 	$(PY) scripts/05_buildings.py --run aarau-fraktur-gemini-v1 --reader gemini-3.8-flash --out-buildings data/csv/05_buildings_fraktur.csv --out-residents data/csv/05_residents_fraktur.csv
 	$(PY) scripts/05_buildings.py --run aarau-antiqua-final --reader final --out-buildings data/csv/05_buildings_antiqua.csv --out-residents data/csv/05_residents_antiqua.csv
+	$(PY) scripts/04_parse.py --run aarau-antiqua-qwen38-1901-1913 --reader qwen3.8-27b --section einwohner --out data/csv/04_entries_dnb.csv
+	$(PY) scripts/04_parse.py --run aarau-antiqua-qwen38-1901-1913 --reader qwen3.8-27b --section berufe --out data/csv/04_berufe_dnb.csv
+	$(PY) scripts/05_buildings.py --run aarau-antiqua-qwen38-1901-1913 --reader qwen3.8-27b --out-buildings data/csv/05_buildings_dnb.csv --out-residents data/csv/05_residents_dnb.csv
 
 .PHONY: frueh-read frueh-parse
 frueh-read:  ## frühe Bände lesen: Fraktur 1833–1881 mit Gemini, Hausnumerierung 1900 mit qwen3.8 (VPN, ~/.gpustack.env)

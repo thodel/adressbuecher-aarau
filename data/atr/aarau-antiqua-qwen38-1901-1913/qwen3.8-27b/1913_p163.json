@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p163",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p163.jpeg",
+    "bytes": 1031899,
+    "sha256": "6b3bfc16013775557a640ead289b3a1d1d316153cc1a183a83109a013dc9043f",
+    "sha256_of": "original",
+    "working_copy": "1913_p163.jpeg"
+  },
+  "text": "— 121 —\nGloor, Bertha, Damenschneiderin, Hintere Vorstadt 364.\n— -Stalder, Christine, Privatin, Birrwil. Pelzgasse 106a.\n— Emil, Fabrikarbeiter, Leutwil. Halden 281.\n— -Weber, Ferdinand, Saalbauwart, Schloßplatz 204.\n— -Seiler, Friedrich, Kaufmann, Schöffland. Zelglistraße 1724.\n— -Meier, Hedwig, Hebamme, Birrwil. Pelzgasse 106a.\n— Heinrich, Schreiner, Birrwil. Milchgasse 137.\n— -Gloor, Heinrich, Zimmermann, Birrwil. Halden 305.\n— -Widmer, Heinr., Bandweber, Ob.-Kulm. Scheibenschachen 1325.\n— -Bruder, Herm., Elektromonteur, Birr. Weinberg 1284.\n— -Wengi, Herm., Lok.-Fahrer S. B. B., Leutwil. Buchserstr. 1758.\n— Ida, Nieder-Hallwil. Graben 217.\n— Johannes, Fabrikarbeiter, Niederlenz. Laurenzenvorstadt 727.\n— -Klauser, Karl, Bahnangest. S. B. B., Boniswil. Zelglistr. 1631a.\n— Karoline, Wäscherin, Birrwil. Milchgasse 143.\n— Luise, Part., Retterswil, Seon. Bleichenmattstraße 1029.\n— Marie, Modegeschäft, Rupperswil. Kronengasse 45.\n— Max, Bureaulist, Seon. Bahnhofstraße 603.\n— -Giger, Rudolf, Lithograph, Birr. Flößerstraße 1180.\n— -Liechti, Rud., Bankangestellter, Birrwil. Bleichenmattstr. 1021.\n— -Schmid, Rudolf, Zimmermann, Leutwil. Schachen 1133.\n— -Steiner, Generalagent der Schweiz (La Suisse), Nieder-Hallwil.\n  Graben 217.\n— -Wildi, Susanna, Privatin, Rupperswil. Pelzgasse 110.\n— Wilhelmine, Spetterin, Dürrenäsch. Hintere Vorstadt 364.\n*Glühfadenfabrik Aarau A. G. vormalis Gmür & Cie., Laurenzenvor-\n  stadt 727.\n— — Bureau. [tel] Laurenzenvorstadt 729.\n— — Fabrikgebäude. Laurenzenvorstadt 730.\nGlur-Kurt, Friedr., Lokomotivheizer, Roggwil. Bleichenmattstr. 1014.\nGmür-Zehnder, Gottlieb, Direktor der Glühfadenfabrik A. G., Murg\n  (Glarus). [tel] Torfeldstraße 951.\nGöckel-Ernst, Anna, Part., Solothurn. Obere Vorstadt 527.\n*Göldlin-Frei, Heinr. Josef, Apotheker, Luzern und Schwyz. [tel] Rat-\n  hausgasse 14.\nGöring-Schlapbach, Karl, Handlanger, Basel. Halden 305.\nGötze-Scheidegger, Emil, Kaufmann, Wildhaus. Billiges Schuh- und\n  Kleidergeschäft. [tel] Rathausgasse 25.\n— Emil, Schuhhaus zum Behmen. [tel] Bahnhofstraße 635.\nGötz-Müri, Friedrich, Fabriksaufseher, Schachen 1614.\n*Goldstein & Cie., Warenhaus [tel]. Metzgergasse 73.\n— -Seibel, Eugen, Geschäftsführer, Danzig. Metzgergasse 73.\nGonzenbach-Gonzenbach, Anna Julie, Witwe, Privatin, St. Gallen.\n  Rain 438.\nGoßweiler-Gyger, Otto, Geometer, Dübendorf. Buchserstraße 1542.\nGottmann, Emil, Kleiderfärberei und chem. Waschanstalt, Baden.\n  Laurenzentorgasse 117.\nGränicher, Gottlieb, Sekretär der Bauverwaltung [tel]. Kirchhof 158.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 89078,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2515,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:23:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p163",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p163.jpeg",
+      "bytes": 1031899,
+      "sha256": "6b3bfc16013775557a640ead289b3a1d1d316153cc1a183a83109a013dc9043f",
+      "sha256_of": "original",
+      "working_copy": "1913_p163.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:23:50+00:00"
+  }
+}

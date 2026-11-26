@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p073",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p073.jpeg",
+    "bytes": 961684,
+    "sha256": "347e1c62ca9b719a3b42de46f6756124f2bb7fc040a2878e387fa09a7cdaf7cc",
+    "sha256_of": "original",
+    "working_copy": "1913_p073.jpeg"
+  },
+  "text": "— 53 —\nHaus-\n  Nr.\n636 * Einwohnergemeinde Aarau.  Bureau und Verkaufsmagazin des\n  städt. Elektrizitätswerkes [tel].\n638 * Einwohnergemeinde Aarau.  Werkstatt u. Magazin des Elektr.-\n  Werkes.\n639  Scherz-Mollet, Karl, Hotelier.\n  Bieber-Graber, Theodor, Velohandlung u. Reparaturwerkstätte.\n  Wohnung: Ob. Vorstadt Nr. 549.\n  Nünlist-Bürgi, Ad., Stadtpolizist, Schönewerd.\n  Lüscher-Lüscher, Rud., Taglöhner, Moosleerau.\n\nKasinostrasse.\n\n641 * Heuberger, Lina, Hedwig und Julius.\n  Hüni & Cie., Musikalienhandlung [tel].  Stimmungen und Re-\n  paraturen.\n  Schärer, Heinrich, Installationsgeschäft.  Elektr. Apparate [tel].\n  Gallauer-Lüscher, Anton, Taglöhner, UrSENDORF (Württemberg).\n  Gerodetti-Heuberger, Cecchino, Bildhauer.\n  Fischer-Widmer, Marie, Privatin.\n  Moser, Friedrich, Zeichner, Altstätten.\n  Schärer-Häuptli, Hrch., Elektro-Installateur, Biberstein [tel].\n  — Gottlieb, Techniker, Biberstein.\n  Imhof, Lina, Privatin.\n  — Susanna,\n  Kyburz, Verena, \" Gemüsehändlerin, Ober-Entfelden.\n642  Häfelin-Hächler, Josef, Sattlermeister, Oberwil.\n  Weniger, Dietrich, Basel.  Inhaber des Wach- und Schließ-\n  institutes.\n  Fuchs-Bender, Franz, Kaufmann, Hornussen.  Drogenhandlung\n  und Sanitätsgeschäft.\n643  Durr-Seiler, Hermann, Privatier.\n  Heimgartner-Hauser, Emil, Käse- u. Butterhandlung, Fislisbach.\n  Wildi-Gisiger, Max, photograph. Atelier, Suhr.\n645 * Einwohnergemeinde Aarau.  Naturhistorisches Museum.\n  Siebenmann-Schaffner, Otto, Koch, Spirituosenhändler.\n647  Keller-Schmid, Ernst, Lohnkutscherei und Autotaxis [tel].\n649  Haßler-Schmid, Hans, Kaufmann.\n  — Erna.\n  Firma: Hans Haßler & Cie., Teppichlager, Vertretung und\n  Fabriklager in Linoleum und Teppichen [tel].\n654 * Bau- und Garantie-Komitee der röm.-kath. Kirche. Vereinshaus.\n  Stöckli, Stephan, Dekan, Muri.\n  — Elisabeth, Haushälterin, „\n  Haßler-Weißer, Arnold, Privatier.\n  Hunziker, Hans, Postangestellter, Zofingen.\n655  Bonneck-Tschanz, Max, Handelsgärtner, Danzig [tel].\n  Bossardt, Marie, Effingen.\n  — Lina, Lehrerin, Effingen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 57802,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2024,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:54:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p073",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p073.jpeg",
+      "bytes": 961684,
+      "sha256": "347e1c62ca9b719a3b42de46f6756124f2bb7fc040a2878e387fa09a7cdaf7cc",
+      "sha256_of": "original",
+      "working_copy": "1913_p073.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:54:04+00:00"
+  }
+}

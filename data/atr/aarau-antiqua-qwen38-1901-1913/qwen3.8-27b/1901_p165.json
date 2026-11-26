@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p165",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p165.jpeg",
+    "bytes": 757687,
+    "sha256": "3f08a591ae6a86899c30ae1cb4d401a17242148f4a7b38169603dc6654dd7e16",
+    "sha256_of": "original",
+    "working_copy": "1901_p165.jpeg"
+  },
+  "text": "152\nHolzspalter.\nBertschi, Emil, Adelbändli 168.\nNeesser, Samuel, Milchgasse 143.\nWernli, Kaspar, Rain 501.\n— Samuel, Hammer 184.\nZimmerli, Joh., Stadthof 84.\nHuthandlungen.\nCodoni-Dreßler, R.,* Rain 436.\nFrei, Achilles, Coiffeur, Zeughausstraße 663.\nMüller, Eduard,* Schirmmacher, Rathausgasse 21.\nSchneeberger-Salvi, Jakob,* Rathausgasse 4.\nSperlich, Theodor, vordere Vorstadt 323 u. Laurenzentorgasse 118.\nInformationsgeschäfte.\nHeller, Oskar,* Zollrain 61. (Siehe Inserat Seite 17.)\nLüscher, Hans,* Notar, Rain 439.\n— Jakob,* Notar, Metzgergasse 66.\nMerz, Sebastian,* Notar, Bachstraße 1074.\nWydler, Julius,* Notar, Rathausgasse 4.\nIngenieure.\nBargezrzi, Oswald, Entfelderstraße 1384.\nBinz, Gustav, Laurenzenvorstadt 763.\nBircher, Julius, Kreisingenieur, Ziegelrain 416.\nFahrländer, Eugen, Rain 489.\nGautschi, Samuel, hintere Vorstadt 366.\nHerzog, Gottlieb, hintere Vorstadt 367.\nMüller, Heinrich Gottlieb, Bleichemattstraße 1018.\nOehler, Oskar, Laurenzenvorstadt 768.\nRautel, Paul, Mühlematt, 1360.\nRüttemann, Eugen, Jenseits der Aare 1227.\nRychner, Louis, Rain 444.\nSalis, Adolf, Stadtingenieur, Zschokkestraße 1423.\nSchmid, Johann Jakob, Bachstraße 1082.\nSchmuziger, Arnold, Laurenzenvorstadt 705.\nStänz, Robert, Jurastraße 1477.\nZehnder, Otto, Kantonsingenieur, Jurastraße 1479.\nZschokke, Conradin, Entfelderstraße 1384.\nInkassogeschäfte.\nHeller, Oskar,* Notar, Zollrain 61. (Siehe Inserat Seite 17.)\nLüscher, Hans,* Notar, Rain 439.\n— Jakob,* Notar, Metzgergasse 66.\nMerz, Sebastian,* Bachstraße 1074.\nWydler, Julius,* Notar, Rathausgasse 4.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15820,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1550,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0698,
+    "mean_line_chars": 35.07,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:01:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p165",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p165.jpeg",
+      "bytes": 757687,
+      "sha256": "3f08a591ae6a86899c30ae1cb4d401a17242148f4a7b38169603dc6654dd7e16",
+      "sha256_of": "original",
+      "working_copy": "1901_p165.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:01:50+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p108",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p108.jpeg",
+    "bytes": 822520,
+    "sha256": "e772c23a876ad6ba6a0e8dd444a7a0eebda2eb012ad58152372eb9bb8a95956b",
+    "sha256_of": "original",
+    "working_copy": "1901_p108.jpeg"
+  },
+  "text": "95\nFrey, Max, Fabrikant, Laurenzenvorstadt 775.\n— Oskar, Fabrikant, Schmiedgasse 384.\n— Othm., Bankdirektor, Graben 211.\n— geb. Piffner, Maria, Witwe, Schachen 1138.\n— R. & M., Chocoladefabrik, [tel] Laurenzenvorstadt 773.\n— Robert, Fabrikant, Telli 850. [tel]\n— Robert, Bäcker und Wirt, Zollrain 52.\n— Rüegg & Cie., Seidenfabrikation, [tel] Bahnhofstraße 564.\nFretz, Hans, Kaufmann, Jurastraße 1485.\nFrick, Friederika, Part., Laurenzenvorstadt 790.\nFrickart geb. Wälchli, Hulda, Doktors, Feerstraße 694.\nFriker, Friedrich, Spezeriehandlung, Rain 434a.\n— Gustav, Magaziner, Halden 286a.\n— geb. Häusermann, Verena, Witwe, Milchgasse 147.\n— Joh. Jakob, Schneider, Kirchgasse 36.\n— Johann, Postbeamter, Schachen 1138.\n— Joseph, Commis, Flößerstraße 1192.\n— Jos., Gemeindeweibel, Rathausgasse 1.\n— geb. Hiltbold, Verena, Bahnmeisters Witwe, Bleichemattstr. 1016.\nFrieden-Kramer, Agatha, Näherin, obere Vorstadt 554.\n— Jakob, Bahnarbeiter, Zollrain 63.\n— Louis, Angestellter im Elektriziätswerk, obere Vorstadt 554.\nFröhlich geb. Fröhlich, Sophie, Oberrichters Witwe, Part., Zoll-\n  rain 81.\n— Franz, Dr. Professor, Buchserstraße 923.\nFrösch, Herm., Kondukteur, Bahnhofstraße 556.\nFrymann-Lässer, Rosina, Witwe, Hammer 188.\nFuchs, Franz Xaver, Ausläufer, Strittengäßchen 1218.\n— Franz, Maler, Strittengäßchen 1218. Werkstätte Milchgasse 152.\n— Jakob, Schreinermeister, Schloßplatz 200.\nFurrer, Erhard, Schneider, Metzgergasse 78.\n— geb. Blume, Mina, Damenschneiderin, Zollrain 60.\nFurter, Abraham, Zugführer, Buchserstraße 981.\n— Johann, Part., Laurenzenvorstadt 756.\n— Klara, Ladentochter, Bachstraße 1070.\n— Lina, Arbeitslehrerin, Laurenzenvorstadt 756.\n— Reinhard, Knecht, Bleichemattstraße 1027.\n— geb. Rohr, Anna, Witwe, Taglöhnerin, Golattenmattgasse 256b.\nGänslen, Karl, Fabrikant, obere Vorstadt 534.\n— -Koch, Regina Luise, Part., Kronengasse 43.\nGallauer, Anton, Taglöhner, obere Vorstadt 539.\nGamp, Philipp, Aufseher, Tellrain 1498.\nGamper, Adolf, Metzgermeister, [tel] Metzgergasse 74.\n— & Cie., Konfektion in Herren- und Damenkleidern, [tel] Rathaus-\n  gasse 2. Lager in Herren- und Damenkleiderstoffen Rathaus-\n  gasse 31.\nGamper, Emil, March.-Tailleur, [tel] zur Schöna, Küttigerstraße 1268.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19655,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2200,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:38:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p108",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p108.jpeg",
+      "bytes": 822520,
+      "sha256": "e772c23a876ad6ba6a0e8dd444a7a0eebda2eb012ad58152372eb9bb8a95956b",
+      "sha256_of": "original",
+      "working_copy": "1901_p108.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:38:51+00:00"
+  }
+}

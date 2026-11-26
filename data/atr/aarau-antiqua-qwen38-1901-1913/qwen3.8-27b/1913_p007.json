@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p007",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p007.jpeg",
+    "bytes": 896638,
+    "sha256": "bab64d26cd5264c081b272bd2cece5b0201c6895f400839e6c6db346d02af265",
+    "sha256_of": "original",
+    "working_copy": "1913_p007.jpeg"
+  },
+  "text": "Verzeichnis der Strassen und Plätze\nim Stadtbezirk Aarau.†\nSeite            Haus-Nummern\nAarestraße . . . . . 93 1227, 1230/33.\nAdelbändli . . . . . 16 166/177.\nAlpenzeiger . . . . . 92 1275.\nAsylstrasse . . . . . 85 1141, 1144/47, 1698.\nAugustin Keller-Straße . . . 82 1442, 1493/95, 1537, 1559/61.\nBachstrasse . . . . . 72 1054/93, 1097/1115, 1595, 1648, 1825/27.\nBahnhofstrasse . . . . . 47 555/639, 803, 812, 831b, 832, 1811/15.\nBankstrasse . . . . . 71 1046/51, 1562.\nBinsenhof . . . . . 79 1457, 1467/68.\nBleichemattstrasse . . . 68 1014/29, 1528, 1615, 1660, 1662, 1728.\nBuchserstrasse . . . . . 62 917/26, 939, 949, 952/56, 972/75, 981/87,\n  1517, 1532, 1542, 1547, 1578, 1601,\n  1675, 1678, 1746, 1750, 1758, 1791,\n  1818, 1856.\nEntfelderstrasse . . . . . 76 1376/1411, 1535/36, 1544, 1555, 1558,\n  1563/64, 1594, 1608, 1618.\nErilinsbacherstrasse . . . 92 1240, 1288, 1294, 1298, 1300, 1302:\n  1305/06, 1309/10, 1314, 1317/18, 1593\n  1635, 1740, 1749, 1872.\nFeerstrasse . . . . . 55 681/698, 1657.\nFeldwachtstrasse . . . . 65 1622, 1626.\nFlößerstrasse . . . . . 88 1163/67, 1180, 1184, 1188/89, 1192/94,\n  1634.\nGartenstrasse . . . . . 80 1424, 1429, 1431/37, 1566, 1772.\nGasstrasse . . . . . 89 1169/73.\nGolattenmattgasse . . . 22 246/256 b.\nGolder . . . . . 79 1472, 1607.\nGönnhardweg . . . . . 81 1415, 1440, 1446, 1448, 1450, 1504,\n  1556/57, 1567, 1676, 1679, 1800, 1824,\n  1870, 1875, 1890/91.\nGraben . . . . . 19 207/232.\nHalden . . . . . 23 258/315.\nHammer . . . . . 17 178/96.\n* Hinter der Seitenzahl sind die Nummern der an den betrefenden Strassen\nund Plätzen liegenden Häuser angegeben. Voraussichtlich wird bis zur Heraus-\ngabe des nächsten Adressbuches die polzeiliche Häusernnummerierung durch-\ngeführt sein,",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 252170,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1732,
+    "lines": 40,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:22:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p007",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p007.jpeg",
+      "bytes": 896638,
+      "sha256": "bab64d26cd5264c081b272bd2cece5b0201c6895f400839e6c6db346d02af265",
+      "sha256_of": "original",
+      "working_copy": "1913_p007.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:22:48+00:00"
+  }
+}

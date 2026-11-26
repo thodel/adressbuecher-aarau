@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p087",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p087.jpeg",
+    "bytes": 963178,
+    "sha256": "d3699309093ed213dd608ae2a36721be0d9ff2b44d086b15fdcd92d6b731b29f",
+    "sha256_of": "original",
+    "working_copy": "1913_p087.jpeg"
+  },
+  "text": "— 65 —\nHaus-\nNr.\n  Schatzmann, Marie, Wäscherin, Windisch.\n  Bolliger, Heinrich, Beamter, Küttigen.\n  Seiler, Josef, Bureaulist, Niederwil.\n  Nadler, Gottlieb, Arbeiter, Biberstein.\n1532  Wilhelm-Matter, Emilie, Bäckerei und Konditorei, Safenwil.\n  Keller-Wilhelm, Emilie, Niederlenz.\n  Schwammburger-Weber, Emil, Kaufmann, Auenstein.\n972   Wylar-Bollag, Wilhelm, Viehhändler, Endingen.\n  — Jakob, Kaufmann, Endingen.\n  — Lina, Endingen.\n  — Frieda,   \"\n975 * Schäfer & Cie., Baugeschäft, Bureau [tel].\n974   Schäfer-Troller, Adolf, Bauunternehmer [tel].\n  — Julia, Kassierin.\n1675  Welte-Holer, Hermann, Souschef S. B. B., Gipf-Oberfrick.\n  Koller, Josef, Stationsgehülfe S. B. B., Großdietwil (Luzern).\n981   Obrist-Renold, Hermann, Bremser S. B. B., Riniken.\n  Schmuziger-Lüdemann, Hans, Kaufmann.\n  Favre-Frisch, Louis, Bahangestellter S. B. B., Château d'Oex.\n982   Erisman-Sager, Friedrich, Privatier.\n984   Meyer-Brunner, Emil, Buchhalter, Rheinfelden.\n  — Klara, Bureaulistin.\n  Schär-Wyder, Otto, Kommis, Huttwil.\n  Necker, Paul, Kommis, Augsburg.\n  Schatzmann-Moser, Johann, Maschinist, Hausen.\n  Auerhammer, Karl, Lithograph, Graz.\n  Kitsch, Bruno, Steindruckere, Danzig.\n986 * Aktien-Brauerei Feldschlößchen, Rheinfelden. „Bierhalle zur\n        Gais\" [tel].\n  Markwalder-Elmer, Heinr., Bautechniker und Wirt, Würenlos.\n  Holzach-Siebenmann, Lina, Privatin.\n  Schmid, Elise, Büfftdame, Hüttikon (Zürich).\n  Müller, Rudolf, Hausknecht, U.-Kulm.\n987 * Aktiengesellschaft Wynentalbahn.\n  Roos-Studer, Jost, Betriebsdirektor der Suhren- und Wynen-\n  talbahn, Schüpfheim (Luzern).\nFeldwachtstrasse.\n1622 * Wassmer-Oehler, Gottl., Oberst, Kreisinstruktor in Lausanne.\n  Schäfer-Wassmer, Emil, Kaufmann.\n1626  Oboussier-Schäfer, Olga, Privatin, Villa Feldegg [tel].\n  Stierlin-Oboussier, Herm., Ingenieur, Schaffhausen.\n  Keck, Johanna, Dienstbote, Oftringen (Baden).\n5",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 87940,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1873,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:58:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p087",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p087.jpeg",
+      "bytes": 963178,
+      "sha256": "d3699309093ed213dd608ae2a36721be0d9ff2b44d086b15fdcd92d6b731b29f",
+      "sha256_of": "original",
+      "working_copy": "1913_p087.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:58:48+00:00"
+  }
+}

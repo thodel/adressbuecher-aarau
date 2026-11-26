@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p160",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p160.jpeg",
+    "bytes": 948914,
+    "sha256": "3c7c04f7c1481c44334de6512cb354dd5512e8c8b1f734e75cf248dc4d2a22e2",
+    "sha256_of": "original",
+    "working_copy": "1913_p160.jpeg"
+  },
+  "text": "— 118 —\nFuchs-Bender, Franz, Kaufmann, Hornussen. Drogenhandlung und\n  Sanitätsgeschäft. Kasinostraße 642.\n— -Sommerhalder, Franz, Ausläufer, Hornussen. [tel] 871.\n— -Bisig, Martin, Zuzschneider, Einsiedeln. Hint. Bahnhofstr. 1624.\nFurrer-Notter, Erhard, Schneider, Bolken (Solothurn). Zollrain 56.\nFurter-Furter, Ahr., Zugführer S. B. B., Staufen. Signalstraße 1766\n— -Haller, Friederika, Witwe, Lenzburg. Hint. Bahnhofstraße 1602.\n— Geschwister, Tapezierergeschäft. \" \" 1602.\n— Julius, Tapezierer, Lenzburg. \" \" 1602.\n— Lina, Arbeitslehrerin, Lenzburg. \" \" 1602.\n— Rudolf, Maurer, Staufen. Halden 315.\nGänßlen-Landolt, Karl, Fabrikant. Obere Vorstadt 534.\n*— — & Cie., Lack- und Farbfabrik [tel]. Obere Vorstadt 534.\nGabbio-Cologna, Michaeli, Gipser, Riva Valdobbia (Ital.). Schmied-\n  gasse 391.\n— — Virginia, Hausiererin, Riva Valdobbia (Ital.). Schmiedgasse 391.\nGais-Appenzeller, Emma, Wäscherei und Glätterei, Starrkirch.\n  Ziegelrain 407.\n— — Fridolin, Gasarbeiter, Starrkirch. Ziegelrain 407.\nGall-Hunziker, Alfred, Taglöhner, Schöftland. Pelzgasse 102.\nGallauer-Lüscher, Anton, Taglöhner, Ursendorf (Württemherg).\n  Kasinostraße 641.\nGamp, Emilie, Damenschneiderin, Hornussen. Tellirain 1498.\n— Frida, Hornussen. Tellirain 1498.\n— Johann, Schreiner, Hornussen. Tellirain 1498.\n— Josef, Bureauangestellter, Hornussen. Tellirain 1498.\n— Josefine, Haushälterin, Hornussen. Bachstraße 1081.\n— Lina, Ladentochter, Hornussen. Tellirain 1498.\n— -Siegenthaler, Otto, Stations-Vorstand W. T. B., Hornussen.\n  Schmiedgasse 387.\n— -Spreuer, Philipp, Part., Hornussen. Tellirain 1498.\nGamper-Wernli, Adolf, Privatier. Oberholzstraße 1681.\n— Alfred, Kaufmann. Küttigerstraße 1268.\n*— & Co. Lager in Herren- und Damen-Kleidernstossen, Herren-\n  und Damen-Konfektion, Anfertigung von Damen- und Herren-\n  Kleidern nach Maß [tel]. Rathausgasse 2 und 31 und Zoll-\n  rain 51 und 52.\n— -Baumann, Emil, March.-Tailleur, Villa z. Schönaa [tel]. Küttiger-\n  straße 1268.\n— Emmy, Küttigerstraße 1268.\n— -Haßler, Karoline, Witwe, Privilin. Feerstraße 694.\n— -Zürcher, Maria, Witwe, Privilin [tel]. Feerstraße 697.\nGanter-Schilling, Heinr., Professor, Neustadt (Baden). Bachstr. 1099.\nGantlokal. Halden 258.\nGantner-Schär, Arnold, Sattlermeister [tel]. Reiseartikel und Kinder-\n  wagen. Kronengasse 44.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 22437,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2287,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.26,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:21:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p160",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p160.jpeg",
+      "bytes": 948914,
+      "sha256": "3c7c04f7c1481c44334de6512cb354dd5512e8c8b1f734e75cf248dc4d2a22e2",
+      "sha256_of": "original",
+      "working_copy": "1913_p160.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:21:54+00:00"
+  }
+}

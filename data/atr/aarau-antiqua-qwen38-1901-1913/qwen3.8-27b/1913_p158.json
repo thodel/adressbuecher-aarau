@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p158",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p158.jpeg",
+    "bytes": 1033586,
+    "sha256": "739ff6998ec6b1584768005a95729b4097db572756ae6f4679d9aa6279b30a18",
+    "sha256_of": "original",
+    "working_copy": "1913_p158.jpeg"
+  },
+  "text": "— 116 —\nFretz-Häusler, Hans, Schuhfabrikant, Bleichemattstraße 1017.\n*— Hans, Schuhfabrikant. Schuhwarenfabrik, Bureau, Bleichematt-\n  straße 1528, 1560. [tel]\nFreuler-Wiederkehr, Fridolin, Korbmacher, Glarus. Schmiedg. 379.\nFrey-Frey, Albert, Schreiner, Materialverwalter. Flößerstr. 1802. [tel]\n— -Spring, Arnold, Part., Eglisau (Zürich). Buchserstraße 1547.\n— -Hunziker, Arthur, Bezirkslehrer, Gontenschwil. Signalstr. 1767.\n— August, Jurist, Pelzgasse 106.\n— -Dolde, August, Chemiker, Telli 840.\n*— & Cie., chem. Fabrik und photograph. Bedarfartikel, Bureau,\n  Telli 840. [tel]\n— Eduard, Privatier, Pelzgasse 106.\n— -Müller, Eduard, Kaufmann, Basel. Bahnhofstraße 588.\n— -Wilson, Eduard, Seidenfabrikant, Westallee Neugut 1696.\n— -Gloor, Elise, Wwe., Privatin, Gontenschwil. Signalstr. 1767.\n*— -Zimmermann, Emil, Densbüren. Metzgerei und Wirtschaft.\n  Zollrain 57. [tel]\n— -Herzog, Emilie, Privatin, Telli 1629.\n— -Fäs, Emma, Modegeschäft, Brugg. Pelzgasse 91.\n— Ernst, Zeichner, Gontenschwil. Obere Vorstadt 550.\n— -Brand, Franz, Postbureauchef, Zurzach. Bachstraße 1067.\n— Frieda, Ladentochter, Biberstein. Vordere Vorstadt 330.\n— Friedr., Confiseur, Auenstein. Wiesenstr. 1291.\n— -Burkard, Fritz, Bauführer, Basel. Laurenzenvorstadt 745.\n*— -Seiler, F., Weinhandlung, Laurenzenvorstadt 738. [tel]\n— — Fritz, Weinhändler. Bezirksrichter. Zeughausstraße 663.\n— -Sandmeyer, Gottfried, Stadtpolizist, Klingnau. Flößerstr. 1192.\n*— -Bohler, Gottlieb, Tiefbauunternehmer, Gontenschwil. Tell-\n  straße 1611. [tel]\n— -Gautschi, Gottl., Schriftsetzer, Biberstein. Hint. Bahnhofstr. 1005.\n— -Eisenlohr, Guido, Kunstgewerbezeichner, Telli 846.\n— -Riniker, Gustav, Privatier, Laurenzenvorstadt 785. [tel]\n— -Müller, Hans, Postbeamter, Gontenschwil. Gönhardweg 1875.\n— -Hemmeler, Hch., Lehrer, Densbüren. Hinteres Zegli 1736.\n— -Hässig, Jakob, Bankbuchhalter, Herzogstraße 1513.\n— -Wirz, Jakob, Schneidermeister, Tuchhandlung, Buchserstr. 953.\n— Joh., Hausknecht, Reisingen (Baden) Vordere Vorstadt 338.\n— -Bütticaz, Johann, Elektriker, Eglisau (Zürich). Buchserstr. 1547.\n— -Erb, Johann, Fuhrmann, Wyßachern. Hint. Bahnhofstr. 1841.\n— -Häuptli, Joh., Plakatanschläger, Biberstein. Vordere Vorstadt 330.\n— -Opplicher, Johann, Fabrikarbeiter, Densbüren. Halden 294.\n— -Windisch, Johann, Gipser, Densbüren. Halden 294.\n— Johanna, Klavierlehrerin, Pelzgasse 106.\n*— -Kieser, Johanna (Mercerie- und Modegeschäft, Rathausgasse 18),\n  Feerstraße 683.\n— Karl, Bureaulist, Auenstein. Wiesenstraße 1291.\n— -Amsler, Karl Robert, Chocoladefabrikant, Telli 850. [tel]\n— -Frey, Karl, Zeichner, Wangen (Solothurn). Kronengasse 44. [tel]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 73957,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2617,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 52.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:21:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p158",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p158.jpeg",
+      "bytes": 1033586,
+      "sha256": "739ff6998ec6b1584768005a95729b4097db572756ae6f4679d9aa6279b30a18",
+      "sha256_of": "original",
+      "working_copy": "1913_p158.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:21:31+00:00"
+  }
+}

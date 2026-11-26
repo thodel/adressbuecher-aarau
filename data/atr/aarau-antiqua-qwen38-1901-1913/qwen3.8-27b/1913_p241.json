@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p241",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p241.jpeg",
+    "bytes": 811459,
+    "sha256": "d181ca14d7c5e04c863a61fbd7f13a914d63cedee9aab17bda6ea3447392b10e",
+    "sha256_of": "original",
+    "working_copy": "1913_p241.jpeg"
+  },
+  "text": "— 207 —\nHeindl-Pluß, Mathilde. Milchgasse 150.\nHelm-Schmidt, Ida. Rathausgasse 12.\nHochsträsser, Anna Marie. Rain 489.\nHofer-Schmid, Marg. Gassstraße 1176.\nHunkeler, Elisabeth. Milchgasse 152.\nHunziker-Märki, Maria, Witwe. Adelbändli 173.\nJoho, Maria. Zollrain 64,\nJopiti-Eichenberger, Anna. Halden 298.\nKersten, Frieda. Aarestraße 1227.\nKlingelfuß, Elisabeth. Erlinsbacherstraße 1318.\nLandolt-Häuptli, Marie, Witwe. Halden 297.\nLeithe-Weber, Sophie. Mühlematt 1360.\nLenzin, Lina. Milchgasse 144.\nMärki, Lina Elise. Rain 461.\nMüller, Elisabeth. Schmiedgasse 392.\nRüetschi-Marti, Lina. Bleichemattstraße 1662.\nSchibli, Anna. Graben 221.\nSchweizer, Margrit. Rathausgasse 29.\nWäßer, Marie. Pelzgasse 90.\nWeber, Margrit. Bachstraße 1067.\nWernli, Elise. Pelzgasse 112.\nWidmer, Bertha. Laurenzenvorstadt 713.\nZehnder, Bertha. Rathausgasse 10.\nDampfsäge.\n*Zschokke, M., Baugeschäft, A.-G. [tel] Rohrerstraße 903.\nDienstmänner.\nKeßler, Emil. Kasinostraße 657.\nLenzin-Hort, Xaver, Oberhof [tel]. Milchgasse 144.\nDrechslermeister.\nBär-Segesser, Otto. Entfelderstraße 1380.\nHäuptli-Schmid, Emil, Biberstein. Halden 297.\nHuber-Bolliger, Emil [tel]. Ziegelrain 395.\nDroghandlungen.\nFuchs-Bender, Franz, Kaufmann. Kasinostraße 642.\nNadler-Eckert, August [tel]. Bahnhofstraße 555.\n*Wurz-Ries & Cie. [tel] Ziegelrain 427.\nEichstätte des Bezirks Aarau.\nBuchserstraße 1678.\nEisengiessereien.\n*Aeschbach, Friedrich [tel]. Torfeldstraße 948.\n*Küenzlen & Cie. Hintere Bahnhofstraße 1010.\n*Oehler A. & Cie. [tel] Industriestraße 933.\n14",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29950,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1514,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:06:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p241",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p241.jpeg",
+      "bytes": 811459,
+      "sha256": "d181ca14d7c5e04c863a61fbd7f13a914d63cedee9aab17bda6ea3447392b10e",
+      "sha256_of": "original",
+      "working_copy": "1913_p241.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:06:58+00:00"
+  }
+}

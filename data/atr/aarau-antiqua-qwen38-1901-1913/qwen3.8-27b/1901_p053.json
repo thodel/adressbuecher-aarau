@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p053",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p053.jpeg",
+    "bytes": 833235,
+    "sha256": "4c3d8a53a9d805950d334d2b1157fa1297a467faf1fa66339172288cd0981420",
+    "sha256_of": "original",
+    "working_copy": "1901_p053.jpeg"
+  },
+  "text": "42\nHaus-\nNr.\n588 † Holzach-Siebenmann, Dietrich, Bierbrauer.  Holzhaus.\n589 † Siebenmann-Steiner, Gottlieb, Camionneur.  Holzhaus.\n590  Stauffer-Wildi, Albert, Bankangestellter, von Hallwyl.\n  Oelhafen-Bühler, Hermann, Bureau-Chef der Aarg. Bank.\n591 * Feer, Karl und Sophie (alte Taubstummennanstalt).\n  Schneider-Bruckner, Ferdinand, Part.\n  Welti-Spühler, Heinrich, Postpacker.\n  Meier-Matter, Jakob, Zimmermann, von Dintiken.\n  Widmer-Rohner, Xaver, Kanzlist, von Schneisingen.\n  Hauenstein-Hollinger, Alois, Lehrer, von Degerfelden.\n  Belz-Ochsner, Johann, Wagenvisiteur, von Zihlschlacht (Thurg.)\n592  Einwohnergemeinde Aarau.  Neues Kantonsschulgebäude.\n  Wehrli-Hassler, Friedrich, Pedell.\n593 † Staat Aargau.  Remise und Waschhaus.\n594 † Derselbe.  Kantonales Gewerbemuseum.\n595 † Derselbe.\n  Ruch-Schälkli, Alfred, von Mitlödi (Glarus).  Abwart.\n596 † Einwohnergemeinde.  Gewächshaus und Anbau.\n597 † Staat Aargau.  Gärtnerhaus.\n598 † Derselbe.  Kantonsschüler-Kosthaus.\n  Rey-Ranucci, Jakob Friedrich, Professor.  Vorsteher.\n599 * Feer-Grossmann, Erbschaft.  Wohnhaus mit Scheune.\n  Hoffmann-Bolliger, Jakob, Ökonom, von Unterkulm.\n  Bertschi-Wey, Gottlieb, Magaziner, von Dürrenäsch.\n600 † Staat Aargau.  Remise und Stall.\n601 † Derselbe.  Schopf.\n602 † Derselbe.  Magazin.\n603 * Schweizerische Eidgenossenschaft (Postverwaltung).\n604 † Dieselbe.  Gartenhaus.\n605 * Dieselbe.  Wohnhaus mit Remise.\n  Dietiker-Schluép, Jakob, Postfakturer, von Thalheim.\n  — Häfliger, Anna, Witwe, von Thalheim.\n606 * Siebenmann-Hagnauer, Friedr., Bierbrauer, [tel] „Café z. Bank“.\n  Speisewirtschaft.\n  Frey-Richner, Emil, Wirt, von Brugg\n  Dr. Scheidegger-Scheidegger, Edwin Ernst, Arzt [tel], von\n    Sumiswald (Bern).\n  Aarg. Versicherungsamt.  Bureau.\n607 * Derselbe.  Wasch- und Holzhaus.\n608  Wolfsgruber-Küenze, Gottfr., Photograph [tel], von Bonn (Pr.)\n  Künzi, Hermann, Techniker, von Uetikon (Zürich).\n  Dössekel, Mina, Klavierlehrerin, von Seon.\n  Huber, Korinna, Bez.-Lehrerin, von Besenbüren.\n609 † Derselbe.  Waschhaus.\n610  Dolder-Saxer, Jak. Fried., Kaufmann, von Hauptweil (Thurg.)\n  Hauptagentur d. Helvetia. Feuer- u. Transportversicherung.\n  Rennhard-Maier, J. Martin, Professor, von Wigoltingen (Th.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41895,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2216,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:17:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p053",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p053.jpeg",
+      "bytes": 833235,
+      "sha256": "4c3d8a53a9d805950d334d2b1157fa1297a467faf1fa66339172288cd0981420",
+      "sha256_of": "original",
+      "working_copy": "1901_p053.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:17:53+00:00"
+  }
+}

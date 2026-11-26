@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p013",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p013.jpeg",
+    "bytes": 873735,
+    "sha256": "e1c7e0064e263e4f4983454530cab8e35ef94c6caa04462649fe7ebb12952c9d",
+    "sha256_of": "original",
+    "working_copy": "1901_p013.jpeg"
+  },
+  "text": "2\nHaus-\nNr.\n4  Wydler-Fischer, Julius, Notariats-, Inkasso-, Informations- und\n  Verwaltungsgeschäft. — Hauptagentur der Lebensversicherungsge.sell-\n  schaft „La Nationale“ in Paris. — Agentur der schweiz. Hagelver-\n  sicherungsgesellschaft.\n  Schneeberger-Salvi, Jakob, von Vordemwald (Italienische\n  Warenhalle.) [tel]\n  Ging-Hunziker, Klara, Witwe, Vorgängerin.\n5  Hess-Wolf, Alexander, Kaufmann, von Zillisheim (Elsaß). Tuch-\n  u. Möbelwarenhandlung. [tel] Firma Gebrüdrn Hess, Filiale der Maga-\n  zine zur Stadt Mühlausen, Biel und Solothurn.\n6  Weibezaal, Leonhard, Apotheker, [tel] von Gotha.\n  Müllhaupt-Fehlmann, Ernst, Zeichner, von Bergdietikon.\n7  Jung-Stephani, Ludwig, Apotheker, von Großwangen (Luzern). [tel]\n8  Faller-Unwin, Friedrich, Kaufmann, von Bräunlingen (Großh.\n  Baden). Eisenwarenhandlung.\n9  Simmen-Bill, Emil, Bäcker, von Schinznach, Speisewirtschaft. [tel]\n  Marti-Keller, Oskar, Commis, von Wengi (Bern).\n  Gehrig-Innerkirchen, Karl, Gärtner, von Ammerswyi.\n10  Dürr, Geschwister, Heinrich und Johanna.\n  — Heinrich, Pfarrer, Privat.\n  — Karl August, Sohn, Part.\n  — Johanna, Part.\n  Meisel-Leutwyler, Xaver, Forstverwalter.\n  — — Verena, Weißwarenhandlung.\n11  Wüthrich-Dambach, Jakob, Zuckerbäcker [tel], von Eggiwil (Bern).\n  Kaffeewirtschaft.\n  — — Joh. Jakob, Angestellter im Elektrizitätswerk, von Eggi-\n  wil (Bern).\n  Gsell-Adam, Mina, von Zihlslacht, Thurgau. Lingerie-Handlg.\n  Keller, Lina, Part.\n  Hess-Weil, Silvan Salomon, Kaufmann, von Mühlausen.\n  Leuppi-Richner, Rudolf, Commis, von Gränichen.\n  Seilaz-Brunner, Julia, Coiffeuse, von Vuilly-le-Bas (Freiburg).\n12  Hemmeler-Stahl, Jakob, Uhrenmacher.\n  — — Ida, Haushaltsartikel-, Quincailterie- und Kinder-\n  spielwarenhandlung.\n  Häsle-Rümmeli, Emil, Maler, von Haagen (Großh. Baden).\n13  Erdin-Obrecht, Albin, Kaufmann, von Gansingen, Mercerie-,\n  Quincailterie-, Lingerie-, Passementerie- u. Bonneterie-Waren-\n  handlung.\n  Sprenger-Thöni, Wilhelm, Schreinermeister, von Rheinfelden.\n  Bitterli, Sigmund, Elektrotechniker, von Wysen (Solothurn). [tel]\n14  Wydler, Konrad, Apotheker. [tel]\n  Hemmeler-Stahl, Jakob, Uhrenmacher. Uhrenhandlung.\n15  Limmacher, Nikl., Schuhmacherinstr., von Schüpfheim (Luz.)\n  Ganser, Johann, Schneider, von Landshut (Baieru).\n16  Käser-Bircher, Jakob Friedrich, Buchbinder, von Oberflachs,\n  Pintenwirtschaft.\n  Häfeli-Bolliger, Gottfried, Polizist, von Schmiedrued.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 45865,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2398,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.75,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:01:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p013",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p013.jpeg",
+      "bytes": 873735,
+      "sha256": "e1c7e0064e263e4f4983454530cab8e35ef94c6caa04462649fe7ebb12952c9d",
+      "sha256_of": "original",
+      "working_copy": "1901_p013.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:01:28+00:00"
+  }
+}

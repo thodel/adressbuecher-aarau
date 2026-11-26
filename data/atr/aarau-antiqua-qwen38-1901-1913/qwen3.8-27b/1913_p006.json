@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p006",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p006.jpeg",
+    "bytes": 744329,
+    "sha256": "3daeda39d2f3f7a16d68ed70f01443819fb75a542e365305dc6e4d901a44a794",
+    "sha256_of": "original",
+    "working_copy": "1913_p006.jpeg"
+  },
+  "text": "Inhaltsverzeichniss.\nSeite\nVerzeichniss der Gebäude der Stadt Aarau mit ihren Eigen- 1\n  tümern und Bewohnern . . . . . . . . . . . . . . . . . . .\nAlphabetisches Verzeichniss der Bürger und Einwohner der 95\n  Stadt Aarau . . . . . . . . . . . . . . . . . . . . . . . . . . .\nVerzeichniss der Behörden, öffentlichen Anstalten, Vereine und 189\n  Gesellschaften der Stadt Aarau . . . . . . . . . . . . . . . .\nWochen-, Jahr- und Viehmärkte . . . . . . . . . . . . . . . . 198\nVerzeichniss der Straßen von Aarau . . . . . . . . . . . . . III\nDie Geschäfts- und Gewerbetreibenden von Aarau . . . . . . . 199\nDie Behörden und Beamten, sowie die Geschäfts- und Gewerbe- 241\n  treibenden der Gemeinden des Bezirks Aarau . . . . . . . .\n  Biberstein . . . . . . . . . . . . . . . . . . . . . . . . . . . . 241\n  Buchs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 242\n  Densbüren-Asp . . . . . . . . . . . . . . . . . . . . . . . . . . . 244\n  Erlinsbach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 246\n  Gränichen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 248\n  Hirschtal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 250\n  Küttigen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 251\n  Muhen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 253\n  Oberentfelden . . . . . . . . . . . . . . . . . . . . . . . . . . . 255\n  Rohr . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 257\n  Suhr . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 258\n  Unterentfelden . . . . . . . . . . . . . . . . . . . . . . . . . . . 260",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15751,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1622,
+    "lines": 25,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 62.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:17:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p006",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p006.jpeg",
+      "bytes": 744329,
+      "sha256": "3daeda39d2f3f7a16d68ed70f01443819fb75a542e365305dc6e4d901a44a794",
+      "sha256_of": "original",
+      "working_copy": "1913_p006.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:17:44+00:00"
+  }
+}

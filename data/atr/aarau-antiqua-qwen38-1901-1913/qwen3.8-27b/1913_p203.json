@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p203",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p203.jpeg",
+    "bytes": 926411,
+    "sha256": "1fd58279d336a9cec3c048138f248d694abc70593ce29a1d5b5b01aea217d55f",
+    "sha256_of": "original",
+    "working_copy": "1913_p203.jpeg"
+  },
+  "text": "— 161 —\nSchäfer, Ida, Part.   Hintere Bahnhofstraße 1031.\n— Julia, Kassierin.   Buchserstraße 974.\n— Wilhelm.   Halden 261.\nSchäfle-Flach, Leo, Bierbrauer, Balgheim (Würtbg.).   Halden 309.\nSchäppi, Anna, Arbeitslehrerin, Horgen.   Bachstraße 1103.\n— Bertha, Buchhalterin, Horgen.   Bachstraße 1103.\n*Schär-Speck, Ernst, Quincaillerie, Glashandlung und Spielwaren,\n  Walterswil (Bern). [tel]   Rathausgasse 12.\n— -Knuchel, Hermann, Bäckermeister, Murgenthal.   Bäckerei [tel],\n  Milchgasse 157.\n— Marie, Haushälterin, Murgenthal.   Rain 451.\n— Martha, Bureaulistin, Walterswil.   Holzmarkt 320.\n— -Wyder, Otto, Kommis, Huttwil.   Buchserstraße 984.\n— -Bergundthal, Walter, Wirt, Walterswil. Restaur. zum Vis-à-vis.\n  Metzgergasse 70.\nSchärer, Anna, Bureauangestellte, Biberstein.   Hintere Bahnhof-\n  straße 1007.\n— -Peter, Witwe, Biberstein.   Hintere Bahnhofstraße 1007.\n— -Fankhauser, Gottlieb, Buchhalter, Biberstein.   Torfeldstr. 1609.\n— Gottlieb, Techniker, Biberstein.   Kasinostraße 641.\n— Heinrich, Mechaniker, Biberstein.   Halden 281.\n*— -Häuptli, Heinrich, Elektro-Installateur, Biberstein [tel].   Installa-\n  tionsgeschäft.   Kasinostraße 641.\n— -Jäggi, Leonz, Spengler, Wisen (Solothurn).   Milchgasse 156.\nSchärli-Bertram, Emil, Hausknecht, Biberstein.   Hammer 188.\n— -Widmer, Hans, Elektromonteur, Biberstein.   Ziegelrain 421.\nSchaffner, Fritz, Wagner.   Asylstraße 1145.\n— -Schödler, Jakob, Gerichtskassier, Effingen.   Spitalgässlì 1632.\n— -Meier, Margaretha, Witwe, Näherin, Effingen.   Adelbändli 175.\n— Mina.   Stritengässchen 1209.\n— Samuel, Landwirt.   Stritengässchen 1209.\nSchantz, Friedrich, Ingenieur, Seyer.   Buchserstraße 919.\nSchatzmann-Weibel, Albert, Photograph.   Atelier. [tel].   Kasino-\n  straße 660.\n— Emilie, Ladentochter, Windisch.   Rathausgasse 10.\n— Heinrich, Schneider, Altenstadt (Deutschland).   Ob. Vorstadt 517.\n— -Härting, Jakob, chem. Wäscherei, Windisch.   Asylstraße 1147.\n— -Moser, Johann, Maschinist, Haussen.   Buchserstraße 984.\n— Magdalena, Fabrikarbeiterin, Altenstadt (Deutschland).   Obere\n  Vorstadt 517.\n— Marie, Wäscherin, Windisch.   Buchserstraße 956.\n*— -Läuchli, Samuel, Buchbindermeister, Windisch [tel].   Schreib-\n  materialienhandlung   und   Einrahmungsgeschäft.   Rathaus-\n  gasse 10.\nSchaub-Blaenstein, Adelbert, Gipsermeister, Ettingen.   Zollrain 57.\n— -Huiler, Hans, Koch, Ramlinserg.   Rain 437.\n— -Zuber, Josef, Gipser, Ettingen.   Ziegelrain 421.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 87684,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2430,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 49.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:47:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p203",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p203.jpeg",
+      "bytes": 926411,
+      "sha256": "1fd58279d336a9cec3c048138f248d694abc70593ce29a1d5b5b01aea217d55f",
+      "sha256_of": "original",
+      "working_copy": "1913_p203.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:47:28+00:00"
+  }
+}

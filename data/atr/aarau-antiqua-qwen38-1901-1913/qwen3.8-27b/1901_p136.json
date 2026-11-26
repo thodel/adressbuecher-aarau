@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p136",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p136.jpeg",
+    "bytes": 848487,
+    "sha256": "00f4fe6d875470a3176190b62808181dbfdb9641f88df9d58941c6a873f7579c",
+    "sha256_of": "original",
+    "working_copy": "1901_p136.jpeg"
+  },
+  "text": "123\nSiebenmann, Mina, Lehrerin, hintere Vorstadt 359.\n— Otto, March-Tailleur, Rain (Oberholzstraße) 468.\n— Otto, Abwart, Kasinostraße 645.\n— Otto, Schlosser, hintere Vorstadt 359.\n— Rudolf, Bierwirtschaft, [tel] Graben 225.\n— geb. Siebenmann, Marie, Witwe, Bankstraße 1047.\n— geb. Sprüngli, Sophie, Witwe  Milchgasse 146.\nSiegenthaler geb. Hirt, Elise, Wäscherin u. Glätterin, Hammer 189.\nSiegfried, Friedrich, Staatsbuchhalter, Erlinsbacherstraße 1298. [tel]\nSiegrist, Adolf, Schuhmacher, Laurenzenvorstadt 727.\n— Albert, Bäcker, obere Vorstadt 544.\n— Arnold, Stuhlschreiner, Laurenzenvorstadt 727.\n— Emil, Lagerhausbeamter, Rain 495.\n— geb. Hauri, Anna Maria, Wäscherin, Milchgasse 145.\n— Heinrich, Metzger, Bahnhofstraße 555. [tel]\n— Jakob, Metzger, [tel] Milchgasse 149.\n— Jakob, Commis, Ziegelrain 419.\n— Jb., Schriftsetzer, Strittengäßchen 1218.\n— Johann, Negt., obere Vorstadt 526.\n— Johann, Taglöhner, Milchgasse 145.\n— geb. Pliß, Anna, Haushälterin, Laurenzenvorstadt 727.\n— Wilhelm, Postcommis, Weltstraße 1444.\nSiegwart, Paul, Architect, Bahnhofstraße 639.\nSimmen, Emil, Bäcker und Pintenwirt, Rathausgasse 9. [tel]\nSinger, Georg, Maurer, Flößerstraße 1188.\n— & Cie., Nähmaschinendépôt, Torfeldstraße 942.\nSommerhalder, Gottlieb, Bäcker, Metzgergasse 78.\n— Gottlieb, Confiseur, Küttigerstraße 1253.\n— geb. König, Luise, Spetterin, Rain 497.\n— Rudolf, Milch-, Butter- und Käsehandlung, Kirchgasse 40\nSpähne-Waldmeier, Luise, Weißnäherin, Entfelderstraße 1404.\nSparkasse von Aarau. Kassier: Schmid-Wolf, Peter, hintere Vor-\n  stadt 367.\nSpar-, Leih- und Diskontokasse. Verwalter: A. Hemmeler-Haßler\n  und E. Hemmeler-Türler. Hintere Vorstadt 373. [tel]\nSpeck geb. Hochuli, Elsa, Vorgängerin, Bachstraße 1060.\nSpengler, Bertha, Näherin, Golattenmattgasse 249.\n— Gottfried, Kutschner, Laurenzenvorstadt 727.\n— geb. Lienhard, Luise, Witwe, Bahnhofstraße 617.\n— Max, Part., Laurenzenvorstadt 727.\nSperlich, Theodor, Huthandlung, vordere Vorstadt 323. [tel]\nSpicher, Elise, Spetterin, Halden 283.\nSpichiger, Friedr., Dekorationsmaler, Bleichemattstraße 1021. [tel]\nSpillmann, Augustin, Fabrikarbeiter, Strittengäßchen 1217.\nSpirgi, Rudolf, Fabrikaufseher, Telli 854.\n— Wullscheleger, Susanna, Entfelderstraße 1377.\nSpitzli, Joh. Jakob, Kaufmann, Bankstraße 1051.\nSprecher & Fretz, [tel] elektrotechnische Fabrik, Industriestr. 1508.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 44820,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2336,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:49:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p136",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p136.jpeg",
+      "bytes": 848487,
+      "sha256": "00f4fe6d875470a3176190b62808181dbfdb9641f88df9d58941c6a873f7579c",
+      "sha256_of": "original",
+      "working_copy": "1901_p136.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:49:52+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p223",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p223.jpeg",
+    "bytes": 951303,
+    "sha256": "b27cc7315a5aa4244c3a49a974db9346784538423cbc1b45a763237ff5e922be",
+    "sha256_of": "original",
+    "working_copy": "1913_p223.jpeg"
+  },
+  "text": "— 181 —\nWeickgenannt-Käser, Verena, Witwe, Mingolsheim (Baden). Bleiche-\n  mattstraße 1017.\nWeidauer-Ramp, Kurt, Kaufmann, Chemnitz. Wiesenstraße 1292.\nWeigel-Voigt, Heinrich, Schneider, Colberg (Preußen). Obere Vor-\n  stadt 539.\nWeingärtner-Spiegelberg, Anna, Witwe, Wäscherin, Aarburg. Rat-\n  hausgasse 28.\n— Anna, Fabrikarbeiterin, Aarburg. Rathausgasse 28.\n— Ernst, Färber, Aarburg. Rathausgasse 28.\n— Fritz, Packer, Aarburg. Rathausgasse 28.\nWeißenbach-Wydler, Plazid, alt Generaldirektor der S. B. B., Brem-\n  garten [tel]. Laurezenvorstadt 714.\nWelte-Holer, Hermann, Souschef S. B. B., Gipf-Oberfrick. Buchser-\n  straße 1675.\nWelti-Spühler, Heinrich, Postangestellter. Bahnhofstraße 591.\n— Lisa, Privatine. Weltistraße 1443.\nWengle, Mathilde, Köchin, Randegg (Baden). Schloßplatz 199.\n— Mathilde, Köchin, Randegg (Baden). Jurastraße 1490.\nWeniger, Dietrich, Basel. Inhaber des Wach- und Schließinstitutes.\n  Kasinogasse 642.\nWenner, Laura, Privatine, St. Gallen. Gartenstraße 1431.\nWerder-Müller, Elise, Privatine, Birrenlauf. Rathausgasse 16.\n— -Pfisterer, Johann, Dr., Kantonsschemiker, St. Gallen. Jura-\n  straße 1482.\n— -Abegglan, J. J., Bremser S. B. B., Ober-Endingen. Signal-\n  straße 1765.\nWerfeli, Martha, Coiffeuse, Bottenwil. Buchserstraße 921.\n— -Schütz, Mina, Möbelhändlerin, Bottenwil. Buchserstraße 921.\n— -Werder, Otto, Tapezierer, Bottenwil. Rathausgasse 16.\nWerkhaus, städtisches [tel]. Jenseits der Aare 1236.\nWerner-Sourbeck, Heinrich, Gießer, Merishausen (Schaffhausen).\n  Schmiedgasse 393.\n*Wernle-Treier, Anna Wwe., Wirtin, Herznach. Restaurant. „Bayr.\n  Bierhalle“ [tel]. Obere Vorstadt 554.\nWernli-Suter, Adolf, Schlosser, Thalheim. Buchserstraße 1517.\n— Alfred, Färber, Thalheim. Telli 1636.\n— -Wehrli, Anna Marie, Gärtner Witwe, Thalheim. Scheiben-\n  schachen 1323.\n— -Wernli, Anna, Wwe., Thalheim. Scheibenschachen 1336.\n— August, Monteur, Thalheim. Telli 871.\n— Bertha, Thalheim. Laurezenvorstadt 712.\n— Elisabeth, Thalheim, Wirtin. Buchserstraße 1517.\n— -Wernli, Elisabeth, Witwe, Haushälterin, Thalheim. Kirchg. 36.\n— Elise, Damenschneiderin, Thalheim. Pelzgasse 112.\n— -Bolliger, Elise, Taglöhnerin. Golattenmattgasse 249.\n— -Amsler, Emil, Schneider, Thalheim. Erlinsbacherstraße 1305.\n— Emma, Thalheim, Pelzgasse 105.\n— Fritz, Sekretär, Thalheim. Holzmarkt 321.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41390,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2301,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:00:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p223",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p223.jpeg",
+      "bytes": 951303,
+      "sha256": "b27cc7315a5aa4244c3a49a974db9346784538423cbc1b45a763237ff5e922be",
+      "sha256_of": "original",
+      "working_copy": "1913_p223.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:00:08+00:00"
+  }
+}

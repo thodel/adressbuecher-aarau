@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p031",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p031.jpeg",
+    "bytes": 831439,
+    "sha256": "c9ecb8e3f77e8287fae752807287f1351e0102c4b18785ceaccf2fd7e4c796a0",
+    "sha256_of": "original",
+    "working_copy": "1901_p031.jpeg"
+  },
+  "text": "20\nHaus-\nNr.\n228 * Oboussier-Schäfer, Friedrich, Kaufmann.\n  Lang, Franz Theodor, Augenarzt, von Ofteringen.\n  Zehnder, Gottlieb, Part., von Birnenstorf.\n  — Anna, Part., von Birnenstorf.\n  Stierli-Brentano, Goar Leonz, Fürsprech und Notar, Vice-\n  Stadtammann. (Advokatur- und Notariatsbureau).\n229 † Derselbe. Magazin.\n230 † Derselbe. Waschhaus.\n231 † Oboussier-Imhof, Friedrich, in Zürich. Magazin.\n232 * Derselbe. Wohnhaus mit Anbau.\n  Firma F. Oboussier & Cie., [tel] Baumwolltuchfabrikation.\n  Oboussier-Schäfer, Friedrich, Kaufmann.\n233 † Derselbe. Waschhaus.\nHinter dem Platz.\n234 Wildi-Aeschbach, Emil, Schreinermeister, von Suhr.\n235 † Gemeinde Aarau. Spritzenhaus No. 8.\n236 † Weber-Lüscher, Otto, Weinhändler, Wein- und Faßlager.\n237 Trefzer-Schöndli, Nepomukina, Dampf-Wasch- und Badanstalt.\n238 * Siebenmann, Adolf und Fanny.\n  Angst geb. Hässig, Johanna, Witwe, von Eglisau.\n  — Robert, Kaufmann, von Eglisau (Zürich). Buchhandlung\n  für christliche Litteratur und Dépôt der aarg. Bibelgesell-\n  schaft. Artikel für Krankenpflege. Dépôt der internatio-\n  nalen Verbandstofffabrik Schaffhausen. Chemisch-technische\n  Präparate, Schwämme und chinesischer Thee.\n  Fassler, Marie, Priv., von Densbüren.\nOberthor.\n239 * Gemeinde Aarau. Oberturm. Bogen mit Wohnung.\n  Schäfer-Morlock, Wilhelm, Dienstmann.\n240 * Aktiengesellschaft des Aargauer Tagblattes. [tel]\n  Vertreter: Stierli, Fürsprech.\n  Müller-Grob, Alfr. Friedr., Geschäftsführer, von Weinfelden\n241 Siebenmann, Otto und Gustav, March.-Tailleurs. [tel] Offiziers-\n  Ausrüstungen, Civil-Maßgeschäft.\n  — -Hemmeler, Gustav, March.-Tailleur.\n242 * Wirz-Martin, Emil, von Solothurn. Buchdruckerei.\n243 Derselbe. Wohnhaus.\n  Wirz-Christen, Karoline, Witwe, von Solothurn, Schreib-\n  materialienhandlung\n  Baldinger-Wirz, Josephine, Ladenvorsteherin, von Baden.\n244 Derselbe. Wohnhaus mit Anbau. Sortimentsbuchhandlung.\n  Verlagsbuchhandlung. [tel] Buchdruckerei und Buchbinderei.\n245 Mattenberger-Walther, Jakob, Metzger. [tel] Metzgerei und Speise-\n  wirtschaft.\n246 Siebenmann, Otto und Gustav, Schneider. Wohnhaus und\n  Schneiderwerkstätte.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 36104,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2108,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:09:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p031",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p031.jpeg",
+      "bytes": 831439,
+      "sha256": "c9ecb8e3f77e8287fae752807287f1351e0102c4b18785ceaccf2fd7e4c796a0",
+      "sha256_of": "original",
+      "working_copy": "1901_p031.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:09:00+00:00"
+  }
+}

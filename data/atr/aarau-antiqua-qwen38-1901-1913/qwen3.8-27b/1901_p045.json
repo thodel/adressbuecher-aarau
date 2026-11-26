@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p045",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p045.jpeg",
+    "bytes": 813382,
+    "sha256": "3393ecef6d5baa37f60e8576bd27c083df6e1d542a39d22f0a536b2849108f2d",
+    "sha256_of": "original",
+    "working_copy": "1901_p045.jpeg"
+  },
+  "text": "34\n\nHaus-\nNr.\n    Wieland-Wieland, Hermina, Part., von Rheinfelden.\n441 Schmuziger-Freudigen, Traugott, Malermeister.\n    Mösch-Keller, Karl, Bahnangestellter, von Frick.\n    Frauen-Asyl, bestehend aus:\n    Hess, Klara, von St. Gallen, Hausmutter.\n    Stänz-Bircher, Anna Maria, Part., von Küttigen.\n    Mattenberger, Elise, von Birr.\n    Lienhardt, Rosette, von Buchs.\n    Wernli, Elisabeth, von Thalheim.\n    Büchler, Louise, von Luffehr.\n    Ammer, Marianna.\n    Merz geb. Seiler, Anna Maria, von U.-Bözberg.\n    Nussbaum, Anna, von Birrwyl.\n    Müller, Lidia, von Löhningen (Schaffhausen).\n442 † Derselbe. Remise.\n443 † Derselbe. Gartenhaus.\n444 Rychner-Hess, Louis, Ingenieur. Stadtrat. [tel]\n    Dambach geb. Wild, Sophie, Witwe, von Brugg.\n    Lanz-Leu, Otto, Bäcker und Wirt, von Madiswil (Bern). Pin-\n      tenwirtschaft.\n    Meier, Lina, Krankenpflegerin, von Mogelsberg (St. Gallen).\n445 † Derselbe. Holzschoß.\n446 Suter-Kohler, Jakob, Schreiner, von Kölliken.\n    — — Elise, von Kölliken. Placierungsbureau.\n    Müller-Hiltmann, Xaver, Schuhmacher, von Aau.\n447 Firma Schmuziger & Cie., Siegellack- u. Tintenfabrication. [tel]\n    Schmuziger-Rüetschi, Emil, Fabrikant.\n448 † Dieselbe. Kesselhaus.\n449 Dieselbe. Wohnhaus und Magazin.\n    Schmuziger-Stäheli, Adolf, Fabrikant.\n450 † Dieselbe. Magazin.\n451 Siebenmann, Gottlieb, Gerber, Part.\n    Schar, Maria, Haushälterin, von Balzenwyl.\n    Maritz-Müller, Julius, Sekretär, von Burgdorf.\n    Metzger-Thoma, Friedrich, Lehrer, von Möhlin.\n452 Keller-Buser, Gottfried, Buchdrucker, von Hottwyl. Druck\n      und Verlag des Aargauischen Anzeigers, des Suhrentaler-\n      boten und des Schulblattes.\n453 † Derselbe. Waschaus.\n454 Wyder-Brast, Albert, Kaufmann, von Oberstrass (Zürich). Agen-\n      tur- und Kommissionsgeschäft. Agentur der Nordischen\n      Feuerversicherungsgesellschaft in London.\n455 † Rüetschi-Bopp, Hermann, Glockengiesserei. Remisen.\n456 † — — H., Glockengiesser. Wasch- und Hühnerhaus.\n457 — — H., Glocken- und Geschützgiesserei Aarau. [tel]\n    — -Christen, Elise, Witwe, Part.\n    Albrecht, Eduard, Glockengiesser.\n    Hassler-Donat, Viktor Albert, Architect, Stadtbauverwalter.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 50935,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2160,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:14:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p045",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p045.jpeg",
+      "bytes": 813382,
+      "sha256": "3393ecef6d5baa37f60e8576bd27c083df6e1d542a39d22f0a536b2849108f2d",
+      "sha256_of": "original",
+      "working_copy": "1901_p045.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:14:53+00:00"
+  }
+}

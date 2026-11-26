@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p040",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p040.jpeg",
+    "bytes": 940307,
+    "sha256": "e0c97bbac85ba296760a48d5cb4c7a0ed860f920378270ee0f6bf4f859a7075b",
+    "sha256_of": "original",
+    "working_copy": "1913_p040.jpeg"
+  },
+  "text": "— 24 —\nHaus-\nNr.\n264 Brunnhof er, Lisette, Privatin.\nGrau-Schmidt, Josef, Seiler, Oberried (Freiburg).\nZehnder-Scherer, Bernh. Xaver, Schuhmachermeister, Döttingen.\nBeck-Wenger, Ernst, Schlosser.\nZähner-Brunnhoffer, Nanette, Witwe, Privatin, Hemmiken.\n266 Jörg-Meyer, Jakob, Seilermeister, Affoltern (Bern).\nBächli, Verena, Haushälterin, Buchs.\nHug, Frida, Bureaulistin, Seebach (Zürich).\n267 Hafier-Brunnhoffer, Elise, Witwe, Wascherei und Glätterei.\n  — -Wanner, Eduard, Tapezierer.\n  — Julia Elise, Glätterin.\n  — Wilhelmine, Fabrikarbeiterin.\nWilhelm-Kaspar, Gottlieb, Färber, Safenwil.\n  — Gottlieb, Stadtarbeiter, Safenwil.\n268 * Schenk, Rudolf, Lehrer in Seltisberg (Baselland).\nTrevisson-Piani, Luigi, Maurer, Belluno (Italien).\nFiorentini-Parucci, Giuseppe, Handlanger, Portico (Italien).\nBaumann, Simon, Magaziner, Bottenwil.\n  — Emma, Fabrikarbeiterin,    \"\n  — Rosa, Schuhfabrikarbeiterin,    \"\n  — Otto, Fabrikarbeiter,\nTreier-Schenk, Johann, Stadtarbeiter, Wölfinswil.\n270 Wehrli, Hans, Privatier.\n  — -Schatzmann, Fritz, Gipsenmeister, Asphaltgeschäft [tel].\n271 Huber-Ment, Jakob, Schneider von Unter-Embräch.\n  — Martha, Bureaulistin.\nHächler-Blattner, Jakob, Taglöhner, Rohr.\n272 Bolliger-Gautschi, Emil, Buchbinder, Schloßrued.\n  — Fritz, Steindruckser, Schloßrued.\nLüscher-Treier, Emil, Taglöhner, Moosleerau.\n273 Benninger-Jung, Jakob, Gepäckarbeiter S. B. B., Jeuss (Freibg.).\nDobler-Tuzzi, Anton, Buchbinder, Salzburg (Tirol).\n274 * Humm-Brunnhoffer, Emil, Spenglermeister.\nPicchetto-Kyburz, Richard, Ausläufer, Rom.\nMauch-Hausmann, Rudolf, Wagner. Teufenthal.\n275 Humm-Brunnhoffer, Emil, Spenglermeister, Kirchleerau.\nKonsumverein Aarau.  Filiale.\nHerde-Schmid, Emil, Bureauangestellter, Ueken.\n276 * Ortsbürgergemeinde Aarau.\nBeck-Bill, Elisabeth, Witwe, Wäscherin.\nOelhafen-Müller, Elise Luise, Witwe, Taglöhnerin.\nRüetschi-Büchler, Erwin, Stadtarbeiter.\n277a* Schilling, August, Wirt und Mithafte.\n277b Hafier, Julia, Erbschaft.\nWalser-Bamberger, Marie, Wwe., Verkäuferin, Rottweil (Baden).\nLenzin-Lenzin, Hermann. Taglöhner, Wölfinswil.\n  — Viktor Josef, Posamenters, Oberhof.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 68939,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2104,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.66,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:41:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p040",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p040.jpeg",
+      "bytes": 940307,
+      "sha256": "e0c97bbac85ba296760a48d5cb4c7a0ed860f920378270ee0f6bf4f859a7075b",
+      "sha256_of": "original",
+      "working_copy": "1913_p040.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:41:56+00:00"
+  }
+}

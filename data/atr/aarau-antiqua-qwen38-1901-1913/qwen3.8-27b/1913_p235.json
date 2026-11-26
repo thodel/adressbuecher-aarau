@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p235",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p235.jpeg",
+    "bytes": 865926,
+    "sha256": "ba1f2cd9067076e09aa3e3f7dce533b48a47aae880255ab6d8002b9e42160b02",
+    "sha256_of": "original",
+    "working_copy": "1913_p235.jpeg"
+  },
+  "text": "-- 201 --\nMüller-Jutzeler, Arnold. Bankstraße 1050.\n— -Rothpletz, Arnold. Weinberg 1279.\nRothpletz, Karl August. Mühlematt 1512.\nSchärer-Brugger, Adolf [tel]. Buchserstraße 1791.\n*Schenker-Gaiser, Adolf [tel]. Vordere Vorstadt 336.\nSchibli-Hintz, Karl, Killwangen. Teilhaber der Firma Schärer & Cie.,\n  Baugeschäft [tel]. Wiesenstraße 1893.\n*Schmuziger, Jean [tel]. Feerstraße 692.\nSchneider-Basler, Karl [tel]. Bahnhofstraße 578 b.\nSchnetz-Kyburz, Fritz. Oberholzstraße 1904.\nSiegwart-Schuler, Paul, Lehrer am Gewerbemuseum [tel]. Zegli-\n  straße 1861.\nStamm-Galandat, August. Gönhardweg 1826.\nWegelin-Schmid, Hans. Hintere Bahnhofstraße 1004.\nWidmann-Zürcher, Karl Maria Jenseits der Aare 1246.\n*Wolf-Allemann, Fritz, Baugeschäft. Bachstraße 1093.\nZuber-Baumann, Andreas. Entfelderstraße 1411.\n\nAsphaltgeschäfte.\nWehrli-Schatzmann, Fritz [tel]. Halden 270.\n*Zschokke, M., Baugeschäft, A.-G. [tel] Rohrnerstraße 903.\n\nAutogarage.\nLüthy, Wilhelm [tel]. Vertreter der Autofabrik Martini. Schmied-\n  gasse 385.\n\nAutotaxis.\n*Keller, Ernst, Fuhrhalterei. Kasinostraße 647. [tel] 700.\n*Knobel-Andres, Markus. Küttigerstraße 1253. [tel] 200.\n\nBäckereien.\n*Amman-Stoller, Paul [tel]. Bahnhofstraße 619.\nBolli-Hunziker, Jakob. Pelzgasse 89.\n*Brändli-Erismann, Arnold [tel]. Gartenstraße 1566.\n*Brüllmann-Hilfiker, Friedrich [tel]. Rain 444.\nBuser-Wildi, Emil [tel]. Metgergasse 67.\nHändy-Richner, Adolf [tel]. Kirchgasse 37.\nHüssig, Friedrich [tel]. Rathausgasse 28.\nHány-Heidegger, Hermann. Ziegelrain 426.\n*Hemmel-Lanz, Ottlie, Witwe [tel]. Graben 218.\n*Hug-Bär, Sam. [tel]. Vordere Vorstadt 330.\nHunziker-Matter, Gottlieb. Zollrain 56.\n*Lüscher-Rohr, Paul [tel]. Obere Vorstadt 544.\nMerz-Leiser, Emil [tel]. Schmiedgasse 387.\nReber-Geißeler, Eduard. Rathausgasse 27.\nRüetschi-Schneider, Max [tel]. Pelzgasse 103.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 36285,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1807,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.81,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:05:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p235",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p235.jpeg",
+      "bytes": 865926,
+      "sha256": "ba1f2cd9067076e09aa3e3f7dce533b48a47aae880255ab6d8002b9e42160b02",
+      "sha256_of": "original",
+      "working_copy": "1913_p235.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:05:21+00:00"
+  }
+}

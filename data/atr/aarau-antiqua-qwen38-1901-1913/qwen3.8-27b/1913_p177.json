@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p177",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p177.jpeg",
+    "bytes": 991396,
+    "sha256": "fd2663dd2dbc0055410244e70e631e95f1473ed1fec45b5e8b1b9368a175c9f2",
+    "sha256_of": "original",
+    "working_copy": "1913_p177.jpeg"
+  },
+  "text": "— 135 —\nIßlinger, Oskar, Techniker, Würzburg. Laurenzenvorstadt 763.\n*Jung-Stéphani, Ludwig, Apotheker [tel]. Rathausgasse 7.\n*Jurazementfabriken A. G., Bureau [tel]. Scheibenschachen 1346.\n* — — Kosthaus. Scheibenschachen 1671.\nJustiz-, Polizei- und Sanitätsdirektion [tel]. Regierungsgebäude.\nKälin-Rychner, Emil, Buchdruckereibesitz., Einsiedeln. Kirchg. 36.\nKäser-Fischer, Alfred, Gärtner, Oberflachs. Stritengäßchen 1753.\n— -Laurent, Emil, Gärtnermeister, Oberflachs. 1753.\n— -Eng, Ferdinand, Telephonarbeiter, Scheibenschachen 1333.\n— -Lüscher, Gustav, Gärtner, Oberflachs. Stritengäßchen 1200.\n— -Häfliger, Heinrich, Fabrikarbeiter, Oberflachs. Telli 1636.\n— -Schütz, Jakob, Rathausabwart, Biberstein. Obere Vorstadt 509.\n— -Knupp, Josefine, Obererlinsbach (Solothurn). Tellrain 834.\n— -Fischer, Marie, Part., Erlinsbach. Bahnhofstraße 812.\n— -Kähr, Marie Louise, Privatin, Melchnau. Obere Vorstadt 554.\n— -Kappeler, Oswald, Telephonarbeiter, Biberstein. Gasstraße 1172.\n— -Markwalder, Robert, Magaziner, Obererlinsbach (Solothurn).\n  Tellrain 834.\n— -Buri, Samuel, Buchbindermeister, Leimiswil (Bern). Schreib-\n  materialien und Buchbindereigeschäft. Bahnhofstraße 559a.\n— -Stänz, Xaver, Partikular, Obererlinsbach (Sol.). Tellrain 834.\nKäslin, Hans, Professor Dr., Graben 232.\n— -Schönecker, Wilhelm., Witwe, Privatin, Laurenzenvorstadt 796.\nKaiser, Gebrüder, Viersen (Preußen), Kaffeesgeschäft, Rathausg. 6.\nKalb, Jette, Köchin, Mosbach (Baden). Gartenstraße 1433.\nKalt-Läubli, Alfred, Dr. med., Arzt, Koblenz [tel]. Rohrerstr. 1663.\n— Ida, Koblenz. Rohrerstraße 1663.\nKaltenbach-Scheiwiler, Fritz, Konditorei, Dättingen (Baden) [tel].\n  Rathausgasse 11.\nKantonale Krankenanstalt, Buchserstraße 956.\nKantonales anthropometrisches Bureau, Hintere Vorstadt 361.\nKantonsbibliothek, Großratsgebäude.\nKantonsgeometer und Agrikululturtechniker, Regierungsgebäude [tel].\nKantonsingenieur, Regierungsgebäude [tel].\nKantonsschule, Rektorat [tel]. Bahnhofstraße 592.\nKantonsschülerhaus, Bahnhofstraße 598.\nKantonsstatistiker, Regierungsgebäude.\nKarrer, Alice, Angestellte, Teufenthal. Schloßplatz 202.\n— -Haas, Gottfried, Kondukteur S. B. B., Teufenthal. Signalstr. 1763.\n— -Lerch, Julie, Privatin, Teufenthal. Buchserstraße 924.\n— Rosa, Arbeitslehrerin, Aesch (Baselland). Gartenstraße 1435.\n— Walter, Kantonschüler, Teufenthal. Buchserstraße 924.\nKaspar-Frey, Anna, Privatin, Entfelderstraße 1564.\n— -Merz, Rudolf, Pol.-Feldweibel, Leutwil. Hintere Vorstadt 361.\n— -Stauffer, Siegwart, Postfakt eur, Entfelderstraße 1564.\nKatasterbureau, Rathausgasse 1. [tel].",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 96006,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2562,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 53.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:31:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p177",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p177.jpeg",
+      "bytes": 991396,
+      "sha256": "fd2663dd2dbc0055410244e70e631e95f1473ed1fec45b5e8b1b9368a175c9f2",
+      "sha256_of": "original",
+      "working_copy": "1913_p177.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:31:32+00:00"
+  }
+}

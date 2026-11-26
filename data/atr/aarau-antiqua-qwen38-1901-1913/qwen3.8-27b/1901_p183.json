@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p183",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p183.jpeg",
+    "bytes": 806603,
+    "sha256": "51b44980af572dbd4f9f18b1eec68133a50f10a241029364be0fb1d0aaa73d58",
+    "sha256_of": "original",
+    "working_copy": "1901_p183.jpeg"
+  },
+  "text": "170\nSiegellack- und Tintenfabrikation.\nSchmuziger & Cie., Rain 447.\nSparkassen.\n(Siehe Bankgeschäfte.)\nSpengler.\nHuber, Fritz, obere Vorstadt 543.\nHumm, Emil, Kronengasse 49. Werkstatt Schloßplatz 200.\nKull, Emil, vordere Vorstadt 343.\nRämisperger, Hermann, Adelbändli 173.\nRichner-Thommen, Elise, Witwe, Kirchgasse 36.\nSuter, Rudolf, Ziegelrain 425.\n(Dieselben handeln auch mit Spenglerwaren.)\nSpezereihandlungen.\nAllgemeiner Konsumverein Aarau, Milchgasse 127.\nBachmann, Johann, Milchgasse 139.\nBertschinger-Wild, G., hintere Vorstadt 375.\nBrand, Jakob, vordere Vorstadt 326.\nEggen, Eduard, Laurenzenthorgasse 115.\nEgloff-Marti, Lina, Pelzgasse 92.\nFricker-Wirz, Fr.*, Rain 434a.\nGloor-Siebenmann, Marie,* Witwe, Kronengasse 47.\nGränicher-Wärtli, Marie, Witwe, Kirchhof 158.\nHagenbuch-Hagenbuch, Verena, Zollrain 64.\nHaßler-Wanger, E.,* Laurenzenthorgasse 120.\nHenz, Jakob & Cie.*, vordere Vorstadt 335.\nHirsbrunner, Elise, Halden 275.\nHitz-Lanz, Otto,* Rain 496.\nHoch, Gustav,* Laurenzenthorgasse 122.\nHof, Eduard, obere Vorstadt 547.\nHofer, Gottlieb,* Rathausgasse 25.\nIndermauer-Richner, Elise, Kasinogaße 641.\nKlein-Berner, Emma, Witwe, Kronengasse 43.\nMaurer, Emil,* jenseits der Aare 1247.\nNadler-Häuptli, Witwe, Bahnhofstraße 635.\nOtt-Wenger, Marie, Adelbändli 166.\nRiniker, Friedrich, obere Vorstadt 551.\nRohr, Jakob,* Pelzgasse (Oberthor) 97.\nSchid-Maurer, Mathilde, Rathausgasse 20.\nSchwarz, Theodor, Bahnhofstraße 557.\nSiegriat-Lindenmann, Johann,* obere Vorstadt 526.\nStephani-Winkler, Margaritha,* Witwe, Rathausgasse 17.\nWaldmeier-Schaubli, Luise, Rain 433.\nWalti, Gebr., Milchgasse 155.\nWüthrich, Samuel,* Laurenzenthorgasse 118.\nZimmerli, Emma, Laurenzenvorstadt 736.\nZingg-Fisch, Hermine, Zugführers, Buchserstraße 955.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16304,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1738,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:08:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p183",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p183.jpeg",
+      "bytes": 806603,
+      "sha256": "51b44980af572dbd4f9f18b1eec68133a50f10a241029364be0fb1d0aaa73d58",
+      "sha256_of": "original",
+      "working_copy": "1901_p183.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:08:15+00:00"
+  }
+}

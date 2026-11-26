@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p049",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p049.jpeg",
+    "bytes": 824901,
+    "sha256": "fa6e00266d37a617a9e55bb24536b1654e1a8a1aef15641580268af055d2f59c",
+    "sha256_of": "original",
+    "working_copy": "1901_p049.jpeg"
+  },
+  "text": "38\nHaus-\nNr.\n523 * Hemmeler-Scheibler, Hafners Witwe. Erben.\n  — -Schmidt, Bertha, Hafners Witwe.\n  Heusser-Müller, Otto, Bremsler, von Remetschwyl.\n524 † Dieselbe. Holzschopf.\n525 Hemmeler-Roth, Wilhelm, Kanzlist.\n  — Julia, Lehrerin.\n  — Wilhelm, Postcommis\n  Blattner-Burgunder, Aug., Sekretär der Aarg. Ersparniskasse,\n  von Küttigen.\n526 Sieg rist-Lindenmann, Johann, Schuhmacher, von Meisterschwan-\n  den. Spezerieihandlung.\n  Buser-Buser, Wilhelm, Güterschaffner, von Erlinsbach (Soloth.)\n527 Ernst-Käser, Friedrich, Röhrenfabrikant. [tel]\n  Göckel-Ernst, Anna, Part., von Solothurn.\n  Käser-Müller, Barbara, Part., von Wiliberg.\n528 † Gänsslen-Landolt, Karl, Fabrikant. Remise.\n529 † Derselbe. Magazin und Werkstatt.\n530 † Derselbe. Magazin und Laboratorium.\n531 † Derselbe. Magazin.\n532 † Derselbe. Fabrikgebäude.\n533 † Derselbe. Magazin.\n534 Firma: Landolt & Cie. [tel] Fabrikation feiner Wagen-, Bau-\n  und Dekorationslacke. Leinölfabrik.\n  Gänsslen-Landolt, Karl, Fabrikant.\n535 Sandmeier-Rohr, Susette, Witwe, Part.\n  — Gottlieb, Buchbinder.\n  Keller-Siebenmann, Auguste, Part., von Veltheim.\n  Meier-Mischer, Friedrich, Schreiner, von Roggwil (Bern).\n536 Fischer-Frei, Albert, Sekretär.\n537 † Einwohnergemeinde. Brunnenstube.\n538 Blattner, Emil, Dr. jur., Fürsprech und Notar. (Advokatur-\n  und Notariatsbüroau.)\n  Niggli-Bohnenblust, Arnold, Fürsprech und Stadtschreiber.\n  Holzinger, Bertha, Postcommise, von Baselaugst.\n  — Mina, Klavierlehrerin, von Baselaugst.\n  — Pauline, Part., von Baselaugst.\n  Bethge-Lerch, Karl, Postpacker, von Zofingen.\n  Jost-Horlacher, Friedrich, Maschinenmeister, von Binzen (Bad.)\n539 Aeschbach, Friedr., Part., von Oltingen (Baselland).\n  Bertschi-Jakob, Jakob, Sekretär, von Dürenäsch.\n  Gallauer-Lüscher, Anton, Taglöhner, von Ursendorf (Wrtbg.)\n  Häusermann-Keller, Friedrich, Schneider, von Egliswyl.\n  Gühr-Leuenberger, Wilhelm, Schuster, von Stein.\n540 † Hemmeler-Schmidt, Bertha, Hafners Erben (Ofenfabrik).\n541 Hemmeler-Scheibler, Verena, Hafners Witwe. Geschirr- und\n  Glaswarenhandlung.\n  Lienhardt-Hürzeler, Albert, Schlosser, von Uerkheim.\n542 Gysi-Anderegg, Emil, Malermeister.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19211,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2139,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:15:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p049",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p049.jpeg",
+      "bytes": 824901,
+      "sha256": "fa6e00266d37a617a9e55bb24536b1654e1a8a1aef15641580268af055d2f59c",
+      "sha256_of": "original",
+      "working_copy": "1901_p049.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:15:52+00:00"
+  }
+}

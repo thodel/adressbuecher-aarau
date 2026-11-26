@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p105",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p105.jpeg",
+    "bytes": 922400,
+    "sha256": "6ca6137f5ae9479f81c79767ba245f485572bd1a3c4c49cecd703cc90fcfb24a",
+    "sha256_of": "original",
+    "working_copy": "1913_p105.jpeg"
+  },
+  "text": "— 81 —\nHaus-\nNr.\nGönhardweg.\n1440 Trüeb-Müller, August, Lithographiebesitzer [tel].\n— Martha.\nLackerbauer-Schmuziger, Karoline, Privatin, Laufenburg.\n— Rosa, Privatin, Laufenburg.\nCostet-Lackerbauer, Bertha, Privatin, Paris.\n1557 Hesse-Rabe, Johann, Musikdirektor, Sondershausen.\n1556 Bußmann-Rüttli, Rosalia, Geometers Wwe.\n1450 Suter-Riederer, Jakob, Rektor des Lehrerinnenseminars, Suhr\n  und Winterthur.\n1448 Günther-Zschokke, Bertha, Wwe., Privatin, Rheinfelden.\n— Martha, Rheinfelden.\n1446 Leuenberger-Heß, Gottlieb, Buchhalter, Melchnau.\n1567 * Schmitz-Mathys, Andreas.\nHartmann-Beerle, Adolf, Dr., Professor, Schinznach.\nWacker-Moser, Gottlieb, Braumeister, Gröningen (Wrtbg.).\n1415 Bertschi-Ackermann, Emil, Landwirt, Ob.-Kulm.\n— -Ryniker,\n1824 * Schmitz-Mathys, Andreas. \" \" \"\nStamm-Galandat, August, Architekt, Thayngen.\nOhl-Guex, Karl, Kaufmann, Barmen (Preußen).\nZimmerli-Riniker, Otto, Postbeamter, Ofringen.\n1679 Müller-Brunner, Paul, Direktor der Chocolatfabrik Frey A.-G.,\n  Zürich [tel].\n1676 Metzger-Thoma, Fritz, Lehrer, Möhlin.\n1504 Wehrli-Schmid, Herm., Sparkassaverwalter der Aargauischen\n  Kantonalbank, Küttigen [tel].\nBrunner, Lina, Privatin.\n1870 Giger-Monigatti, David, Postangestellter, Gontenschwil.\nSpengler-Bircher, Wilhelm, Gärtner, Buchthalen.\n— Louise, Weißnäherin, \"\n— Frieda, Bureauangestellte, \"\nKrähenbühl-Thoma, Hans, Postbeamter, Signau (Bern).\n1875 Baumann-Gautschi, Fritz, Postpacker, Bottenwil.\nFrey-Müller, Hans, Postbeamter, Gontenschwil.\n1890 Sommerhalden-Siegrist, Rudolf, Briefträger.\nHerbst, Josef, Buchdrucker, Meran (Tirol).\nJové, José, Reiserender, Rinderaues (Spanien).\n1891 Vogt-Wacker, Johann, Briefträger, Menziken.\n1800 Walther-Lanz, Fritz, Landwirt, Oberburg (Bern).\nWeltistrasse.\n1443 Bußlinger-Kienberger, Siegfried, Postbeamter.\n— Siegfried, Kaufmann.\nMatter, Albert, Postbeamter, Muhen.\nWelti, Lisa, Privatin.\n6",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15812,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1874,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:03:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p105",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p105.jpeg",
+      "bytes": 922400,
+      "sha256": "6ca6137f5ae9479f81c79767ba245f485572bd1a3c4c49cecd703cc90fcfb24a",
+      "sha256_of": "original",
+      "working_copy": "1913_p105.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:03:50+00:00"
+  }
+}

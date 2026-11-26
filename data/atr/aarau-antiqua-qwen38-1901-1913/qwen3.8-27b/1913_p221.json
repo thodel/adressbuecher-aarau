@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p221",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p221.jpeg",
+    "bytes": 949256,
+    "sha256": "fa181196991e43bf1f2c73d17b21e8b6cd7db41e2734495361780faa1e4d6ae6",
+    "sha256_of": "original",
+    "working_copy": "1913_p221.jpeg"
+  },
+  "text": "— 179 —\nWanderon-Meier, Bernhard, Holzspalter, Tägerig. Rathausgasse 15.\n— -Lüscher, Emma, Taglöhnerin, Tägerig. Halden 293 a.\nWandfluh-Sommer, Johann, Schuhmachermeister, Frutigen. Ziegel-\n  rain 422 b.\nWanger, Alfred, Privatier. Kirchhof 160.\n— -Bucher, Karl, kant. Oberförster, Baden. Bachstraße 1072.\n— Rosa, Privatin. Kirchhof 160.\n— Sophie, Part. Zschokkestraße 1423.\n— -Siebenmann, Sophie, Witwe, Privatin. Rain 433.\nWanieck-Lüscher, Josef, Schuhmachermeister, Louzeiz (Böhmen).\n  Schmiedgasse 379.\n— — Josef, Werkstatt. Kirchgasse 34 a.\nWaßmer, Bertha. Spitagäßli 1898.\n— -Kummle, Emil, Privatier [tel]. Spitalgäßli 1898.\n— Emil, Architect. Spitalgäßli 1898.\n— -Schmid, Ernst, Schneidermeister. Laurenzentorgasse 114.\n*— -Ott, Fidel, Schneidermeister, Maßgeschäft. Pelzgasse 90.\n— -Leu, Jakob, Wagnermeister, Suhr. Rain 497.\n— Marie, Damenschneiderin. Pelzgasse 90.\n— Martha. Pelzgasse 90.\nWasserbaubureau [tel]. Bahnhofstraße 1811.\nWasser-Bürgi, Gottlieb, Schuhmacher, Gränichen. Halden 310.\nWeber-Reil, Ferdinand, Schneider. Rathausgasse 29.\n— Schießer, Fridolin, Güterarbeiter, Netstal. Milchgasse 148.\n— -Salm, Fritz, Lokomotivheizer S. B. B., Veltheim (Aarg.). Zelgli-\n  straße 1631b.\n— Fritz, Bäcker, Menziken. Erlinsbacherstraße 1314.\n— -Beck, Gustav, Dr. med., Bezirksarzt [tel]. Schloßplatz 203.\n— Hedwig, Bureauangestellte, Menziken. Bahnhofstraße 632.\n— -Hegnauer, Hermann, Haferhändler, Menziken [tel]. Bahnhof-\n  straße 632.\n* — — Hermann, Menziken. Haber- und Maishandlung. Magazin\n  und Bureau [tel]. Bachstraße 1055.\n— -Käser, Joh. Jak., Bankabwart, Oberflachs. Stritengäßchen 1220.\n— Johann Jakob, Kaufmann, Oberflachs. Stritengäßchen 1220.\n— -Voé, Johann, Lithograph, Reigoldswil. Bachstraße 1067.\n— Josef Karl, Kaufmann, Rheinfelden. Bahnhofstraße 1814.\n— -Bolliger, Louise, Haushälterin, Egliswil. Vordere Vorstadt 328.\n— Margrit, Damenschneiderin, Reigoldswil. Bachstraße 1067.\n— Marie, Telephonistin, Menziken. Bahnhofstraße 632.\n— Theresia, Ladentochter, Pfeffikon (Luzern). Rathausgasse 2.\n— -Weber, Wilhelm, Landwirt, Milchverkäufer, Menziken. Erlins-\n  bacherstraße 1314.\nWeberus-Probst, Andreas, Diener, Feldstetten (Württemberg).\n  Stritengäßchen 1533 b.\nWegelin-Schmid, Hans, Architect, Dießenhofen (Thurgau). Hintere\n  Bahnhofstraße 1004.\n— Sophie, Prokuristin, Dießenhofen. Hintere Bahnhofstraße 1004.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 61343,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2340,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:59:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p221",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p221.jpeg",
+      "bytes": 949256,
+      "sha256": "fa181196991e43bf1f2c73d17b21e8b6cd7db41e2734495361780faa1e4d6ae6",
+      "sha256_of": "original",
+      "working_copy": "1913_p221.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:59:08+00:00"
+  }
+}

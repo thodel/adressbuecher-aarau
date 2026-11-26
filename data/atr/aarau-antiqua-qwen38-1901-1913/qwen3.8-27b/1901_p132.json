@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p132",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p132.jpeg",
+    "bytes": 839343,
+    "sha256": "4da4e32ee3bda5cb2eef4a41b74c72c02bd0158c472876b6505bb471d1a669b3",
+    "sha256_of": "original",
+    "working_copy": "1901_p132.jpeg"
+  },
+  "text": "119\nSchäfer, Eduard, Buchdrucker, Milchgasse 148.\n  — Emil, Bauamtsarbeiter, Halden 283.\n  — Friedrich, gew. Einnehmer der N. O. B., Laurenzenvorstadt 751.\n  — Fritz, Sattler und Tapezierer, Hammer 188.\n  — Ida, Part., Jurastraße 1488.\n  — geb. Scheller, Elise, Witwe, Sesselflechterin, Hammer 188.\n  — Wilhelm, Dienstmann, Oberthor 239.\nSchäfle, Leo, Bierbrauer, Metzgergasse 66.\nSchärppi, Anna, Arbeitslehrerin, Laurenzenvorstadt 796.\n  — Bertha, Bureauangestellte (R. & M. Frey), Laurenzenvorst. 796.\n  — geb. Honegger, Bertha, Witwe, Laurenzenvorstadt 796.\nSchar, Hermann, Bäcker, Ziegelrain 426.\n  — Maria, Haushälterin, Rain 451.\nSchärer, Rudolf Heinrich, Maschinist, Holzmarkt 320.\nScharli, Emil, Fabrikarbeiter, Milchgasse 156.\nSchäublin, Maria, Damenschneiderin, Laurenzenvorstadt 713.\nSchaffner, Emma, Damenschneiderin, Strittengässchen 1209.\n  — Friedrich, Wagner, Bahnhofstraße 633.\n  — Fricker, Johanna, Strittengässchen 1209.\n  — Jakob, Gerichtskanzlist, Adelbändli 175.\n  — geb. Meier, Margaretha, Näherin, Adelbändli 175.\n  — Samuel, Fuhrmann, Strittengässchen 1209.\nSchaltum, Friedrich, Buchdrucker, Ziegelrain 419.\nSchatzmann, Albert, Photograph, Atelier Kasinoststraße 644, Woh-\n  nung 643.\n  — Anna, Part., Torfeldstraße 947.\n  — Heinrich, Schneider, Schachen 1135.\n  — Jb., chemische Wäscherei, Asylstraße 1147.\n  — Samuel, Buchbinder, Schreibmaterialienhdlg., Pelzgasse 99. [tel]\nSchaub, Adelb., Gipsmeister, [tel] Pelzgasse 96.\n  — Joseph, Gipsar, Metzgergasse 66.\nScheibler, Alfr., Tapezierer, Möbelhdlg., Adelbändli 174.\n  — Fritz, Küfer, Rain 498.\nScheidegger, Dr., Edwin Ernst, Arzt, [tel] Bahnhofstraße 606.\n  — Joh. Ulrich, Milch-, Butter- und Käsehandlung, Holzmarkt 320.\nSchenk, Adolf, Cementarbeiter, Adelbändli 170.\n  — Johann Rudolf, Schuhmacher, Halden 302.\nSchenker, Adrian, Magazinier, Halden 303.\n  — Adolf, Fachlehrer, Graben 207. [tel]\n  — Augustin, Fuhrmann, Strittengässchen 1152.\n  — Emil, Sohn, Fuhrmann, Strittengässchen 1152.\n  — Gottlieb, Dr. med., [tel] Bahnhofstraße 624.\n  — Gustav, Bezirkstierarzt, Schmiedgasse 381.\nScherrer, Johann, Lithograph, Buchserstraße 954.\n  — Vinzenz, Posamenter, Pelzgasse 102.\nScheuermann, Emilie, Part., Metzgergasse 76.\nScherz, Karl Niklaus, Wirt z. „Löwen“, vordere Vorstadt 338. [tel]\nSchibler, Fritz, Coiffur, Kronengasse 43.\n  — Rudolf, Aufseher, Kronengasse 43.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 48652,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2348,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:48:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p132",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p132.jpeg",
+      "bytes": 839343,
+      "sha256": "4da4e32ee3bda5cb2eef4a41b74c72c02bd0158c472876b6505bb471d1a669b3",
+      "sha256_of": "original",
+      "working_copy": "1901_p132.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:48:18+00:00"
+  }
+}

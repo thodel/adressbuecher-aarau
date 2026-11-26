@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p098",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p098.jpeg",
+    "bytes": 889297,
+    "sha256": "cc415eba595391993e06b5407e02fe6dd4cfd089a910aa84c0028f5d2f5c5fe8",
+    "sha256_of": "original",
+    "working_copy": "1913_p098.jpeg"
+  },
+  "text": "— 76 —\nHaus-\nNr.\n1642 Philipp-Hunkeler, Johann, Badmeister, Kienberg.\nFelber-Roth, Karl, Reisender, Unt.-Bözberg.\nRychner, Emma, Bureaulistin.\n1497 Steiner-Leutwyler, Gottfried, Kaminfeger und Dachdecker,\n  Ob.-Kulm [tel].\nWernli-Sommerhalder, Samuel, Schneider, Thalheim.\n1713 Häuptli-Ott, Othmar, Staatskassier.\n1692 Zulauf-Lehmann, Jakob, Postbeamter.\n1682 * Fretz, Hans, Fabrikant\n1625 Wehrli-Ritter, Emil, Telegraphist [tel].\nHumbel-Aeschbach, Adolf, Bankbeamter, Boniswil.\nHemmeler-Wehrli, Jakob, Postbeamter.\n1696 Frey-Wilson, Eduard, Seidenfabrikant.\n1647 * Brunnhof-Heim, Aug., Erbschaft.\n— -Hofer, August, Kreisförster.\nFischer-Koch, Otto, Direktor der Aarg. Kantonal-Bank, Meren-\n  schwand.\nHolliger-Schneider, Gottlieb, Bahnbeamter, Boniswil.\n— Elsa, Korrespondentin, Boniswil.\n\nHohlgasse.\n535 * Gänßlen-Landolt, Karl, Fabrikant.\nSchnellmann-Widmer, Heinrich, Maurer, Rapperswil (St. G.).\nSuter-Maier, Kaspar, Fabrikarbeiter, Gränichen.\nPluß-Lüscher, Maria, Privatin, Vordemwald.\n— Maria, Ladentochter.\n536 * Gänßlen-Landolt, Karl, Fabrikant.\nBäni-Hürzeler, Gottfried, Knecht, Uerkheim.\nRechsteiner, Josef, Brauereiarbeiter, Frankenhofen (Würtbg.).\nBäni-Widmer, Helena, Part., Uerkheim.\nSiebenmann, Fritz und Hans, Adlerbrauerei. Bureau [tel].\n1373 Baumann-Wacker, Eugen, Friedensrichter u. Armenpfleger [tel].\n— Ida.\nStiner-Erismann, Marie, Witwe, Part.\n1836 Großen-Scherler, Gottfried, Betriebschef des städtischen\n  Elektrizitätswerkes, Frutigen [tel].\n1835 Häberlin-Häfliger, Hugo, Prokurist, Illighausen (Thurgau).\nKeusch-Diebold, Karl, Privatier, Boswil.\n1860 Häuptli-Bircher, Hermann, Briefträger, Biberstein.\nHolliger-Urech, Hans, Bezirkslehrer.\n1909 Suter-Widmer, Albert, Notar, Zivilstands- und Betreibungs-\n  beamter, Vize-Gemeindeschreiber, Kölliken.\n\nEntfelderstrasse.\n1376 Kyburz-Zaugg, Gotthold, Sattler und Tapezierer, O.-Entfelden.\n— Gottfried, Sattler, Ober-Entfelden.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28426,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1898,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.19,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:02:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p098",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p098.jpeg",
+      "bytes": 889297,
+      "sha256": "cc415eba595391993e06b5407e02fe6dd4cfd089a910aa84c0028f5d2f5c5fe8",
+      "sha256_of": "original",
+      "working_copy": "1913_p098.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:02:43+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p246",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p246.jpeg",
+    "bytes": 805373,
+    "sha256": "6ec6bbf8244138c34ff2ccde58a208f0ef81c22ca073dddc51f2a40df2294be8",
+    "sha256_of": "original",
+    "working_copy": "1913_p246.jpeg"
+  },
+  "text": "— 212 —\nSennhauser, Amalie. Oberholzstraße 475.\nSuter, Elise. Hintere Vorstadt 359.\nWernli, Rosa. Bahnhofstraße 591.\nGlashandlungen.\n*Schär, Ernst [tel]. Rathausgasse 12.\n*Wirz-Rieß & Co. [tel] Ziegelrain 427.\nGlaswarenhandlungen.\n*Magazin Globus [tel]. Bahnhofstraße 632.\n*Morath, Wendolin [tel]. Rathausgasse 3.\n*Schär, Ernst [tel]. Rathausgasse 12.\n*Warenhaus Goldstein & Cie. [tel] Metzgergasse 73.\nGlockengiesserei.\n*Rüetschi, Hermann [tel]. Rain 557.\nGold- und Silberwaren.\n*Dätwyler, Gottfried. Kasinostraße 661.\nErismann, Paul. Kronengasse 43.\n*Fischer, Jonathan [tel]. Vordere Vorstadt 322.\nGebel, Eduard. Bahnhofstraße 560.\n*Roschach-Wärtli, A. Rathausgasse 24.\n*Schöni, Ernst [tel]. Vordere Vorstadt 325.\nGoldschmiede.\n*Fischer-Burger, Jonathan [tel]. Vordere Vorstadt 322.\n*Roschach-Wärtli, Arnold. Rathausgasse 24.\nGrabsteinlager.\n*Freihofer-Rusterholz, Jakob. Rainstraße 506.\n*Gerodetti, Söhne [tel]. Hinter dem Bahnhof 1041.\nHaferhandlungen.\n*Lagerhaus Aarau [tel]. Bahnhof 832.\n*Hoch, Gustav [tel]. Laurentzentorgasse 122.\n*Nägelin-Ramstein, Arnold [tel]. Herzogstraße 1786.\n*Weber-Hegnauer, Hermann [tel]. Bachstraße 1055.\nHafner.\n*Andres, Otto [tel]. Bachstraße 1064.\nLäuchli, Johann. Rain 495.\n*Wespi, Karl [tel]. Obere Vorstadt 540.\nHalbwollstoff-Fabrikation.\nStrich-Brack, Julius, Fabrikant. Ziegelrain 397.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15010,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1328,
+    "lines": 38,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0263,
+    "mean_line_chars": 33.97,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:07:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p246",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p246.jpeg",
+      "bytes": 805373,
+      "sha256": "6ec6bbf8244138c34ff2ccde58a208f0ef81c22ca073dddc51f2a40df2294be8",
+      "sha256_of": "original",
+      "working_copy": "1913_p246.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:07:54+00:00"
+  }
+}

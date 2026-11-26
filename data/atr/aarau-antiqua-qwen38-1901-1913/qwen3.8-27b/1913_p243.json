@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p243",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p243.jpeg",
+    "bytes": 877066,
+    "sha256": "32c4517ab090d8268f4323e9f88b5efdab8b305b53f110e024b599b3f4e5e9d4",
+    "sha256_of": "original",
+    "working_copy": "1913_p243.jpeg"
+  },
+  "text": "— 209 —\n\nFouragelieferanten.\n*Lagerhäuser der Zentralschweiz [tel]. Bahnhofstraße 579.\n*Nägelin-Ramstein, Arnold [tel]. Herzogstraße 1786.\n*Weber-Hegnauer, Hermann [tel]. Bachstraße 1055.\n\nFürsprecher.\nAmsler-Hürsch, Emil. Gartenstraße 1566.\nBeyli, Walter, Direktionssekretär. Laurenzenvorstadt 791.\nBühler-Guinand, Oswald, Bankkontrolleur. Bachstr. 1074.\nConrad-Sacchi, Peter Jos., Auw [tel]. Feerstraße 691.\nErnst, Aug., Dr. jur., Bezirksgerichtspräsident. Vord. Vorstadt 332.\nFrey, August. Pelzgasse 106.\n— -Amsler, Othmar, alt Bankdirektor. Graben 211.\nGraf, Ernst, Dr. jur. Kirchhof 164.\nHaller-Geiser, Ernst, Dr. [tel]. Graben 232.\nHaßler-Steiner, Hrch., Direktor des aarg. Versicherungsamtes [tel].\n  Spitalgäßli 1816.\nIsler, Edgar, Dr., Laurenzenvorstadt 766.\n— Emil, Ständerat [tel]. Laurenzenvorstadt 766.\nKeller-Feiß, Dr., Gottfried, Ständerat. Laurenzenvorstadt 710.\nLaager-Dürst, Dr., Fritz [tel]. Bahnhofstraße 610.\nMerz-Diebold, Walter, Dr. jur., Oberrichter. Jurastraße 1487.\nMeyer-Bergmann, Dr., Otto [tel]. Bahnhofstraße 1812.\nSchneider-Richner, Dr., Gustav, alt Oberrichter [tel]. Obere Vor-\n  stadt 548.\nSpühler, Otto. Bachstraße 1074.\nStierli-Brentano, Goar Leonz. Graben 228.\nWietlisbach-Peters, Fritz, Staatsschreiber. Westallee Neugut 1553.\nZschokke-Schmuziger, Arnold, Dr. jur., Part., alt Staatsschreiber.\n  Gartenstraße 1424.\n\nFuhrhalter.\n*Hangartner-Götz, Kaspár [tel]. Ziegeln 417.\n*Keller, Ernst. [tel] Kasinostraße 647.\n*Lagerhäuser der Zentralschweiz A.-G., Aarau [tel]. Bahnhofstr. 579.\nLeimgruber-Treyer, Xaver [tel]. Stritengäßchen 1150.\nMaurer-Häfeli, Wilhelm. Flößerstraße 1163.\nMürset-Lüscher, Gottlieb. Schachen 1788.\nSchmid-Jäger, Emil [tel]. Schmiedgasse 381.\n\nGärtner.\nBonneck-Tschanz, Max [tel]. Kasinostraße 655.\nGroßmann, Otto. Depot [tel]. Graben 221.\nKäser-Fischer, Alfred. Stritengäßchen 1753.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 30934,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1841,
+    "lines": 42,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.62,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:07:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p243",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p243.jpeg",
+      "bytes": 877066,
+      "sha256": "32c4517ab090d8268f4323e9f88b5efdab8b305b53f110e024b599b3f4e5e9d4",
+      "sha256_of": "original",
+      "working_copy": "1913_p243.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:07:29+00:00"
+  }
+}

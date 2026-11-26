@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p167",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p167.jpeg",
+    "bytes": 1018622,
+    "sha256": "a5e72eda162e714f0c25db4ea533117f17f1edad53c9da0e3dccba576f8afe4b",
+    "sha256_of": "original",
+    "working_copy": "1913_p167.jpeg"
+  },
+  "text": "— 125 —\n*Hässig-Groß, Fritz. Bäckerei und Wirtschaff zum Rathaus [tel]. Rat-\n  hauggasse 28.\n— -Haug, Gottlieb, Schleifer. Zollrain 58.\n— -Matter, Gottlieb, Unterpostbureauchef. Schachen 1130.\n— Hans, Stadtammann [tel]. Augustin Keller-Straße 1559.\n— -Siegle, Julius, Restaurant zum Bellevue [tel]. Schönenwerder-\n  straße 1452.\n— -Siegrist, Julius, Schlossermeister. Milchgasse 134.\n— -Baumann, Margaretha, Witwe, Malers. Herzogstraße 1513.\n— Marie, Witwe, Insaßin. Halden 261.\n— Rosina, Part. Zollrain 58.\nHäuptli-Schmid, Emil, Drechslermeister, Biberstein. Halden 297.\n— Hans, Taglöhner, Biberstein. Pelzgasse 93.\n— -Bircher, Hermann, Briefträger, Biberstein Hohl gasse 1860.\n— -Kern, Jakob, Färber, Biberstein. Oberholzstraße 482.\n— -Ott, Othmar, Staatskassier. Westallee Neugut 1713\n— Paul, Abwart, Biberstein. Laurenzenvorstadt 700.\nHäusermann-Ruf, Marie, Witwe, Fabrikarbeiterin, Egliswil. Ham-\n  mer 188.\nHäusler-Zähner, Emil, Malermeister, Schwaderloch. Flößerstr. 1194.\n— -Zimmerli, Ernst, Briefträger, Schwaderloch. Stritengäßchen 1753.\n— -Heß, Gottfried, Bedienter, Gondiswil. Schönenwerderstraße 464.\n— -Müri, Josef, Taglöhner, Schwaderloch. Laurenzenvorstadt 712.\n— -Schmid, Julie, Witwe, Schwaderloch. Flößerstraße 1194.\n— Julie, Glätterin, Schwaderloch. Flößerstraße 1194.\n— Karl, Schriftsetzer, Schwaderloch. Flößerstraße 1194.\nHaager-Baumgartner, Joh., Dachdecker, Frutigen (Bern). Bahnhof-\n  straße 556.\nHaase-Sage, Otto, Färbermeister, Blankenhain (Württemberg).\n  Telli 867.\nHaberstich-Scheurmann, Bertha, Schulinspektors Witwe. Obere\n  Vorstadt 545.\n— Frieda, Lehrerin, Ober-Entfelden. Entfelderstraße 1558.\n— Hulda, Privatin, Ober-Entfelden. Entfelderstraße 1558.\n— -Stöckli, Jakob, Privatier, Ober-Entfelden. Entfelderstr. 1558.\n— Lina, Lehrerin. Obere Vorstadt 545.\nHabicht-Sigg, Hermann, Schriftsetzer, Schaffhausen. Schachen 1133.\nHagenbuch-Müller, Emil, Coiffeur und patent. ärztlicher Gehilfe.\n  Rain 429.\n— Hans, Zeichner. Jurastraße 1488.\n*— -Ernst, Fritz, Buchbindermeister [tel]. Buchbinderei, Papeterie\n  und Einrahmungsgeschäft. Vordere Vorstadt 333.\n— -Egger, Johanna, Part. Jurastraße 1488.\n— -Württemberger, Karl, Kaufmann [tel]. Feerstraße 685.\n— -Gysi, Otto, Lithograph. Rohrerstraße 881.\n— -Hagenbuch, Verena, Witwe, Part. Obere Vorstadt 527.\n*— -Himmelberger, Walter, Metzgermeister [tel]. Metzgergasse 74.\nHagenbucher, Joh., Souschef, Ober-Winterthur. Bahnhofstraße 632.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 70100,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2413,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:25:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p167",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p167.jpeg",
+      "bytes": 1018622,
+      "sha256": "a5e72eda162e714f0c25db4ea533117f17f1edad53c9da0e3dccba576f8afe4b",
+      "sha256_of": "original",
+      "working_copy": "1913_p167.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:25:50+00:00"
+  }
+}

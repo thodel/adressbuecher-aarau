@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p117",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p117.jpeg",
+    "bytes": 860020,
+    "sha256": "47ac5592d41400682f593cc8aa21c69374bf09cd52d5a8fc0c1a9d286d57b98b",
+    "sha256_of": "original",
+    "working_copy": "1913_p117.jpeg"
+  },
+  "text": "— 93 —\nHaus-\nNr.\n1740 * Einwohnergemeinde Aarau.\n  Wüthrich-Dambach, Joh. Jak., Maschinist, Eggiwil (Bern).\n  Huber-Wehrli, Josef, Hülfsmaschinist, Segeten (Baden).\n1309 * Dieselbe.\n  Graf-von Däniker, Ernst, Werkführer, Küttigen.\n  Stiner-Walter, Gottlieb, Maschinist, Unter-Entfelden.\n1310 * Wirth-Voser, Franz, Generalagent.\n  Ehrsam-Perret, Heinrich, Gärtner, Weinigen (Zürich).\n  De Marco-Jörg, Maschinist, Castellavazo.\n1749 Wirth-Voser, Franz, General-Agent, z. Rebhalde.\n1314 Weber-Weber, Wilhelm, Landwirt, Milchverkäufer, Menziken.\n  — Fritz, Bäcker, Menziken.\n1317 Bircher-Wehrli, Karl, Mechaniker, Küttigen.\n  — Anna, Ladentochter, Küttigen.\n1318 Klingelfuß-Sommerhalder, Emil, Mechaniker, Basel.\n  — Joh.,                           \"        \"\n  — Ernst,                         \"        \"\n  — Anna, Bureaulistin,            \"        \"\n  — Elisabeth, Damenschneiderin,   \"        \"\n1872 Einwohnergemeinde, Männer-Badanstalt.\n\nAarestrasse.\n1230 Tuchschmid-Wildi, August, Dr. Professor, Rektor der Kantons-\n  schule, Thundorf (Thurgau).\n  — Bertha,\n1231 Heuberger-Fischer, Jakob,\" Sekretär der Finanzdirektion, Bözen.\n  — Leoni, Bözen.\n1232 Bircher-Burger, Emil Ludwig, Postbeamter.\n1233 Läuchli-Coradi, Hans, Prokurist.\n1227 Schmuziger, Jean, Baumeister.\n  Hediger-Kuhn, Heinrich, Postbeamter, Reinach.\n  Jäger-Faesy, Karl, Dr., Privatier, Brugg.\n  Thalmann-Schulze, Albert, Kartograph, Neftenbach.\n  Kersten, Frieda, Damenschneiderin.\n  Wirz-Lütolf, Alfred, Lokomotivführer S. B. B., Starrkirch.\n\nScheibenschachen.\n1289 Straßer-Hug, Eduard, Obermüller.\n1226 Wehrli-Wehrli, Hans, Stadtkassier.\n1321 Manz, Philipp, Aufseher.\n  — Philipp, Sohn, Leitmacher.\n1322 Baumann-Hunziker, Friedrich, Pferdewärter, Bottenwil.\n  — Emil, Färber, Bottenwil.\n  — Martha, Fabriksarbeiterin, Bottenwil.\n  Groß-Achermann, Edwin, Sekretär der Staatsanwaltschaft,\n    Rietheim.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 53282,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1867,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:09:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p117",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p117.jpeg",
+      "bytes": 860020,
+      "sha256": "47ac5592d41400682f593cc8aa21c69374bf09cd52d5a8fc0c1a9d286d57b98b",
+      "sha256_of": "original",
+      "working_copy": "1913_p117.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:09:39+00:00"
+  }
+}

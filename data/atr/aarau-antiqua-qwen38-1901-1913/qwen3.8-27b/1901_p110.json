@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p110",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p110.jpeg",
+    "bytes": 969645,
+    "sha256": "38ad8face9e900ba3290642dbb5d6199af4671135b099f01a3b9be64bae8e4cd",
+    "sha256_of": "original",
+    "working_copy": "1901_p110.jpeg"
+  },
+  "text": "97\nGisin, Joh. Georg, Lithograph, Jurastrasse 1484.\nGygax, Ernst, Kondukteur, Buchserstrasse 953.\n— -Huber, Anna, Strickerin, Laurenzenvorstadt 727.\nGysi, Adolf, Tapezierer, Pelzgasse 110. [tel]\n— Arnold, Part., vordere Vorstadt 332.\n— & Cie., Reißzeugfabrikation, optisches Warenlager, photogra-\n  phisches Atelier, [tel] vordere Vorstadt 345. Fabrik Bachstr. 1054.\n— Emil, Maler, obere Vorstadt 512.\n— Emil, Part., Gartenstrasse 1429.\n— Friedrich, Schlosser, hintere Vorstadt 363, Werkstätte 367.\n— Hans, Reißzeugfabrikant, Gartenstrasse 1431.\n— -Siebenmann, Otto, Part., Feerstrasse 693.\n— Otto, Photograph, vordere Vorstadt 345.\n— Otto Robert, Postcommis, obere Vorstadt 542.\n— Rudolf, Maler, obere Vorstadt 544.\n— Traugott, Lehrer, jenseits der Aare 1247.\nGladbach, Philipp, Professor, Kasinostrasse 655.\nGlauser, Christian, Handlanger, Rathausgasse 27.\nGloor, Arnold, Ausläufer, Kirchgasse 40.\n— Bertha, Damenschneiderin, hintere Vorstadt 364.\n— Ferdinand, Bauamtsarbeiter, Milchgasse 132.\n— Fritz, Buchhalter, Küttigerstrasse 1257.\n— Gottfried, Steindruker, Milchgasse 132.\n— Heinrich, Zimmermann, Stadthof 85.\n— Heinrich, Vater, Zimmermann, Milchgasse 145.\n— Heinrich, Bandweber, Scheibenschachen 1325.\n— Marie, Vorgängerin, Halden 273.\n— Rudolf Emil, Packer, Schachen 1139.\n— geb. Siebenmann, Witwe, [tel] Delikatessenhandlg., Kroneng. 47.\n— Wilhelm, Fuhrmann, hintere Vorstadt 364.\n— Wilhelmine, Taglöhnerin, hintere Vorstadt 364.\nGöckel-Ernst, Anna, Part., obere Vorstadt 527.\nGötz, Friedrich, Schuhfabriksaufseher, obere Vorstadt 550.\nGonzenbach geb. Gonzenbach, Julie, Witwe, Rain 438.\nGoszewisch, Friedrich Aug., Kondukteur, Bleichemattstrasse 1019.\nGränicher, Johann, Ausläufer, Kirchhof 158.\n— geb. Richner, Rosa, Briefträgers Witwe, Part., Kirchhof 158.\n— -Wärtli, Marie, Schneiders Witwe, Spezerei-handlung, Kirchhof 158.\nGrässli, Andreas, Commis, Bleichemattstrasse 1021.\nGraber, Elise, Part., Asylstrasse 1144.\nGraf, Arnold Eugen, Coiffeur u. Chirurg. Coiffuregeschäft Graben 214,\n  Wohnung hintere Vorstadt 361.\n— Ernst, reformirter Pfarrer, Kirchhof 164.\n— Helene, Ladentochter, vordere Vorstadt 343.\n— Jakob, Taglöhner, Milchgasse 143.\n— Jakob, Cementarbeiter, Erlinsbacherstrasse 1294.\n— Johann, Cementmüller, Erlinsbacherstrasse 1294.\n— Rudolf, Buchdruckereifaktor, Laurenzenvorstadt 791\nGreub, Ernst, Metzger und Wirt, Pelzgasse 107. [tel]\n7",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 56615,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2367,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:40:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p110",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p110.jpeg",
+      "bytes": 969645,
+      "sha256": "38ad8face9e900ba3290642dbb5d6199af4671135b099f01a3b9be64bae8e4cd",
+      "sha256_of": "original",
+      "working_copy": "1901_p110.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:40:06+00:00"
+  }
+}

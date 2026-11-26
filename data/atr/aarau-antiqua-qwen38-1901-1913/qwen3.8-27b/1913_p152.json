@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p152",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p152.jpeg",
+    "bytes": 915426,
+    "sha256": "5176fafc1f5739305c262de45d618be779deedcdf10eccc0c583de1aa6fdde5a",
+    "sha256_of": "original",
+    "working_copy": "1913_p152.jpeg"
+  },
+  "text": "— 110 —\n*Dubs-Walther, Carl, Wirt z. Warteck. Rathausgasse 23.\n*— Geschwister, Untere Mühle, Mehlhandlung, Küttigen.\n— Elisabeth, Küttigen. Hammer 178.\n— Hans, \" \" 178.\n— Jakob, \" \" 178.\n— Louise, Privatin, Küttigen. Kasinostraße 655.\n— Sophie, Küttigen. Küttigerstraße 1257.\nDucret, Anna, Woblenschwil. Schmiedgasse 383.\n— Josef Beat, kath. Pfarrer, Woblenschwil [tel]. Schmiedgasse 383.\nDudli, Robert, Wärter, Ober-Utzwil. Buchserstraße 956.\nDunkel-Käser, Arnold, Feilenhauer, Bubendorf. Zollrain 62.\n— Arnold, Feilenhaurei. Schachen 1140.\nDutli-Sansoni, Hans, Kaufmann, Schöffland. Jurasttaße 1481.\n— Julius, Postbeamter, \" \" 1481.\n— Wilhelmine, Modistin, \" \" 1481.\nEberhard-Tanner, Jakob, Reisender, Amden. Hintere Bahnhof-\nstraße 1032.\n— -Messer, Joh. Georg, Kinobesitzer, Memmingen. Rain 437.\n— -Ballmer, Wilhelm, Fabrikant, Amden (St. Gallen). Bahnhof-\nstraße 1813.\n*Eberle-Heer, Franz, Mühlebesitzer, zur Stadtmühle, Gösau [tel].\nStadthöfli 86.\n*Eckert & Sohn, Baugeschäft [tel]. Hintere Bahnhofstraße 1039.\n— Eduard, Baumeister [tel]. Hintere Bahnhofstraße 1009.\n— Eduard, Sohn. Hintere Bahnhofstraße 1009.\n— Hedwig, \" \" 1009.\n— Helene, \" \" 1009.\n— -Fehrenbacher, Klemens, Maschinist, Dogern (Baden). Kirch-\ngasse 32.\n— -Vögelin, Walter, Architect und Baumeister. Hintere Bahnhof-\nstraße 1009.\nEger-Eppier, Theophil, Schneider, Riehen. Hammer 190.\nEggen, Lina. Kasinostraße 655.\n— -Sulzer, Margr., Witwe, Privatin. Kasinostraße 655.\nEgger-Steinmann, Josef, Bahnmeister, Eggersried (St. Gallen). Tell-\nstraße 1884.\n*Eggimann-Suter, Fritz, Wirtschaft zum Bären [tel]. Bahnhofstraße 556.\nEgloff-Wirz, Joh. Ernst, Buchbindermeister, Tägerweilen. Schmied-\ngasse 387.\n— -Marti, Lina, Privatin, Wettingen. Vordere Vorstadt 331.\nEhrbar-Müller, Jakob, Steindrucker, Urnäsch. Stritengässchen 1217.\nEhrsam, Emilie, Part. Gartenstraße 1424.\n— Frida, Part. Gartenstraße 1424.\n— -Perret, Heinrich, Gärtner, Weiningen (Zürich). Erlinsbacher-\nstraße 1310.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 42717,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1948,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.37,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:17:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p152",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p152.jpeg",
+      "bytes": 915426,
+      "sha256": "5176fafc1f5739305c262de45d618be779deedcdf10eccc0c583de1aa6fdde5a",
+      "sha256_of": "original",
+      "working_copy": "1913_p152.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:17:21+00:00"
+  }
+}

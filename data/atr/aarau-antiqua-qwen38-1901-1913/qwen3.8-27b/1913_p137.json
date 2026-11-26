@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p137",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p137.jpeg",
+    "bytes": 905903,
+    "sha256": "fd1d17cb2a5aae3f91e784088e8b3bcc456f904316ad6b14e23eb177e2b8b310",
+    "sha256_of": "original",
+    "working_copy": "1913_p137.jpeg"
+  },
+  "text": "Alphabetisches Verzeichnis\nder\nBürger und Einwohner der Stadt Aarau.\n\n* = Im Handelsregister eingetragen. [tel] = Telephon.\n\n*Aarg. Creditanstalt A. G. [tel]   Laurentenvorstadt 700.\nAarg. Handelskammer [tel].   Bahnhofstraße 1811.\n*— Kantonalbank [tel].   Bahnhofstraße 572.\n*— Mühlen A. G., Bureau [tel].   Bahnhofstraße 575.\n— Nachrichten [tel].   Rain 452.\n— Oberforstamt, Bureau [tel].   Bahnhofstraße 606.\n*— Tagblatt A. G., Expedition.   Bahnhofstraße 1813.\n— — Redaktion und Verwaltung [tel] Bahnhofstraße 1814.\n— — Buchdruckerei.   Bahnhofstraße 1815.\n— Versicherungsamt [tel].   Bahnhofstraße 1811.\nAbt-Weiß, August, Instr.-Offizier, Basel.   Laurentenvorstadt 751.\n*Ackermann-Buser, Albert, Kaufmann, Amriswil. Konfektionsmagazin.\n  Vordere Vorstadt 352.\n— Rosa, Amriswil.   Vordere Vorstadt 352.\nAcklin-Brack, Anton, Handlanger, Ueken.   Telli 871.\n— -Jäger, Emil, Verwalter der kantonalen Krankenanstalt, Herz-\n  nach [tel].   Buchserstraße 956.\n— Geschwister, chemische Wäscherei und Glätterei, Herznach.\n  Hammer 190.\n— -Jäger, Peter, Posamenter, Herznach.   Hammer 190.\nAdam-Keller, Ant., Chemiker, Allschwil (Baselld.)[tel].   Buchserstr. 922.\n— -Stéphan, Hedwig, Witwe, Allschwil (Baselld.).   Bachstraße 1086.\nAdlerbrauerei, F. & H. Siebenmann [tel].   Hohlkasse 536.\nAdlon-Staub, Andreas, Hafner, Alpirsbach (Wrtbg.).   Halden 310.\n— Hedwig, Alpirsbach (Württemberg).   Halden 310.\nAeschbach-Kaspar, Ad., Polizeigefreiter, Leutwil.   Vord. Vorstadt 330.\n— Amalie, Ladentochter, Hendschikon.   Bachstraße 1066.\n— -Wey, Arnold, Kontrolleur, Reinach.   Zelglistraße 1631b.\n— Bertha, Fabrikarbeiterin, Hendschikon.   Bachstraße 1066.\n*— -Urech, Friedrich, Maschinenfabrikant, Reinach [tel].   Buchser-\n  straße 949.\n\n7",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17280,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1734,
+    "lines": 36,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.89,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:09:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p137",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p137.jpeg",
+      "bytes": 905903,
+      "sha256": "fd1d17cb2a5aae3f91e784088e8b3bcc456f904316ad6b14e23eb177e2b8b310",
+      "sha256_of": "original",
+      "working_copy": "1913_p137.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:09:56+00:00"
+  }
+}

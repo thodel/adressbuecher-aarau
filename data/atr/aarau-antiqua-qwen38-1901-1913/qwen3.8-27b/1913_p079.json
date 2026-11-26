@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p079.jpeg",
+    "bytes": 873580,
+    "sha256": "41a3caa74a678b13deb1dc335af15201cc6d4d47d66b98d6d7b36495da455f94",
+    "sha256_of": "original",
+    "working_copy": "1913_p079.jpeg"
+  },
+  "text": "— 59 —\nHaus-\nNr.\nMeyer, Anna, Buchhändlerin, Dintikon.\n  — Fernande, Dintikon.\n796 Feer-Großmann, Erbschaft.\nStierli-Brentano, Goar Leonz, Fürsprech und Notar.\nReimann-Reichle, Gustav, Obergerichtsschreiber.\n  — Dr. Martha.\nKäslin-Schönecker, Wilhelmine, Witwe, Privatin.\nKoch-von Takats, Ary Jules, Privatier, Zürich [tel].\nFeer, Karl, Privatier.\n  — Sophie, Fräulein.\n770 * Staat Aargau. Offiziershaus [tel].\n798 * Schweiz. Eidgenossenschaft. Infanteriekaserne. [tel]\n  Uebersax, Jakob, Kasernenverwalter, Thörigen (Bern).\n800 * Schweiz. Eidgenossenschaft.\n  Weibel, Adolf, Zeichnungslehrer, Muri.\n  Gautschi, Irma, Haushälterin, Reinach.\n  Uebersax, Jakob, Kasernier, Thörigen (Bern).\n  Mattenberger-Walther, Anna, Witwe, Privatin.\n  — Max.\n  Fleiner, Hans, Privatier [tel].\n  Rysér, Elisabeth, Haushälterin, Walterswil (Bern).\n802 * Einwohnergemeinde Aarau. Chemisches Laboratorium. [tel]\n  Grundbuchverwaltung [tel]. Lehrmittelverlag. Volkslesezimmer.\n\nTellrain.\n1774 Brogle-Gautschi, Josef, Postfaktreur, Sisseln.\n  — Walter, Aufseher, Sisseln.\nFischer, Luise, Privatin.\n1554* Brogle-Gautschi, Josef, Postfaktreur, Sisseln.\nGraf-Wehrli, Anna, Witwe, Privatin, Küttigen.\n  — Wilhelm, Maschinenmeister, Küttigen.\nKeller-Widmer, Emil, Mechaniker, Zurzach.\n834 * Käser, Kinder.\n  — -Markwalder, Robert, Magaziner, Ober-Erlinsbach (Sol.).\n  — -Knupp, Josefina, Ober-Erlinsbach (Solothurn).\n  — -Stänz, Xaver, Partikular, Ober-Erlinsbach (Sol.).\n  Badertscher, Karoline, Fabrikarbeiterin, Lauperswil (Bern).\n835 Wildi-Hilfiker, Gottfr., Heizer, Schafisheim.\nFehlmann-Bischofberger, Joh. Sam., Zimmerpolier, Villigen.\nScheiwiller-Wildi, Hans, Schlosser, Waldkirch (St. Gallen).\n1498 Gamp-Spreuer, Philipp, Part., Hornussen.\n  — Josef, Bureauangestellter,        \"\n  — Johann, Schreiner,        \"\n  — Lina, Ladentochter,        \"\n  — Frida,        \"\n  — Emilie, Damenschneiderin,        \"\nBaumann-Wilhelm, Fritz. Färber, Bottenwil.\n  — Walter, Färber, Bottenwil.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 46728,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1960,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.24,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:56:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p079.jpeg",
+      "bytes": 873580,
+      "sha256": "41a3caa74a678b13deb1dc335af15201cc6d4d47d66b98d6d7b36495da455f94",
+      "sha256_of": "original",
+      "working_copy": "1913_p079.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:56:14+00:00"
+  }
+}

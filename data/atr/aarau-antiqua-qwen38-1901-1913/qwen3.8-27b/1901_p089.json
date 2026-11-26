@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p089",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p089.jpeg",
+    "bytes": 807164,
+    "sha256": "d07662b3a6bf1eb1c5dc098e2a2eda06883dc5f7b2581579a7af8ff5b96f6670",
+    "sha256_of": "original",
+    "working_copy": "1901_p089.jpeg"
+  },
+  "text": "78\nHaus-\nNr.\nGartenstrasse.\n1429 Gysi-Böchli, Emil, Part.\nMerz-Diebold, Walter, Dr. jur., Oberichter, von Menziken.\nGehrig-Zeller, Adolf, Reisender, von Ammerswyl.\n1430 † Derselbe. Holzhaus.\n1431 Rinker, Hans, Regierungsrats Erbschaft. Wohnhaus.\nGysi-Rinker, Hans, Fabrikant.\nFlühmann, Elisabeth, Lehrerin, Part., von Saxeten (Bern).\nNadig, Klara, Part., von Davos, Graubünden.\n1432 † Dieselbe. Wasch- und Holzhaus.\n1433 Siebenmann-Siebenmann, Gotth., Part., [tel] Villa z. Rosenfels.\n1434 † Derselbe. Waschhaus und Hühnerhof.\n1435 Hartmann-Götze, Rudolf, Fabrikant. [tel]\n1436 † Derselbe. Wasch- und Holzhaus.\n1437 * Bally-Prior, Ed., Fabrikant.\nPrior-Dettmer, Helena, Part., [tel] von Dissen (Hanover).\nvon Brockdorff, Emilie, Comtesse, von Kiel (Holstein).\nErny-Ammann, Emil, [tel] Direktor d. aarg. Versicherungsamtes.\n1438 † Derselbe. Wasch- und Holzhaus.\n1439 † Aktienbrauerei Feldschlösschen Rheinfelden. Eiskeller und\nAnbau.\nGönhardfeldweg.\n1440 Trüb-Müller, August, Lithographiebesitzer.\nGautschi-Dietschi, Friedrich, Commis, von Reinach.\nSprenger-Wullschleger, Karl, Kondukteur, v. Winigen (Bern).\nBurkhardt, Eugen, Kondukteur, von Sumiswald (Bern).\n1441 † Derselbe. Holz- und Waschhaus.\nAugustin Keller-Strasse.\n1442 Bolliger-Kielholz, Albert, Bankbuchhalter, von Küttigen.\nWeltistrasse.\n1443 Busslinger-Kienberger, Siegfried, Postbeamter.\nWelti, Lisa, Privatìère.\n1444 Siegrist-Jolliet, Wilhelm, Postbeamter, von Seengen.\nSchmuziger-Kern, Ida, Part.\nGönhardfeldweg.\n1504 Kissennnig-Simmen, Ernst, Bauführer, von Dätwyi.\n1505 † Derselbe. Holzhaus.\n1445 Bertschi-Ackermann, Emil, Landwirt, von Oberkulm.\nLehner-Bertschi, Rudolf, Milchverkäufer, von Gränichen.\n1446 * Rothpletz-Richner, F.\nMüller-Karrer, Oskar, Zahnarzt, von Zofingen.\n1447 † Derselbe. Wasch- und Holzhaus.\n1448 Buffetti-Hagemann, Enrico, Kunstmaler, von Lendinara (Ital.)\n1449 † Derselbe. Waschhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 40164,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1876,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0213,
+    "mean_line_chars": 38.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:31:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p089",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p089.jpeg",
+      "bytes": 807164,
+      "sha256": "d07662b3a6bf1eb1c5dc098e2a2eda06883dc5f7b2581579a7af8ff5b96f6670",
+      "sha256_of": "original",
+      "working_copy": "1901_p089.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:31:59+00:00"
+  }
+}

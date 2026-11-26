@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p122",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p122.jpeg",
+    "bytes": 879603,
+    "sha256": "5bfbcbc727c1949331061cfa36b2b07d7dd123696a089d7f5ba74d2c87520556",
+    "sha256_of": "original",
+    "working_copy": "1901_p122.jpeg"
+  },
+  "text": "109\nLanz, Otto, Bäcker und Wirt, Rain 444.\nLechner, Paul Franz, March.-Tailleur, Casinogasse 655. [tel]\nLeder, Joh. Jak., Taglöhner, Halden 296.\nLehmann geb. Oelhafen, Jenny, Merceriegeschäft, vord. Vorstadt 352.\nLehner, Kaspar, Knecht, Halden 309.\n— -Müller, Ida, Fabrikarbeiterin, hintere Vorstadt 359.\n— Rudolf, Küher, Gönhardfeldweg 1445.\nLehrerinnen-Seminar, Laurenzenvorstadt 802.\nLeithe, Xaver, Schneider, Nähmaschinenhandlung, Laurenzenvor-\n  stadt 711.\nLenzi, Albert, Kontrolleur der Aarg. Ersparniskasse, Entfelder-\n  straße 1393.\n— Xaver, Dienstmann, Bachstraße 1059.\nLenzin, Joseph, Bureauangestellter, Pelzgasse 92.\n— Peter, Taglöhner, Entfelderstraße 1400.\n— Sophie, Lehrerin, Pelzgasse 110.\nLerf, Moritz, Schneider, Halden 274.\nLeu, Jakob, Bauamtsarbeiter, Rain 464.\n— Jakob, Obergerichtskanzlist, Milchgasse 139.\n— -Stalder, Anna Elisabeth, Köchin, Jurastraße 1480.\nLeube geb. Kienberger, Adele, Wirtin z. Jura, Rohrerstraße 879. [tel]\nLeuenberger, Johann, Wirt z. Central, Bahnhofstraße 555.\nLicht-Centrale, Bureau Bahnhofstraße 636.\nLiehti, Paul, Dr. phil., Professor, Strittengäßchen 1159.\nLienberger, Kaspar, Schuhmacher, Kirchgasse 34b.\nLienhard, Albert, Schlosser, obere Vorstadt 541.\n— Anna, Modistin, Modegeschäft, Pelzgasse 94.\n— geb. Baumann, Emilie, Witwe, hinter dem Bahnhof 1007.\n— Franz, Part., Metzgergasse 73.\n— Rosette, Rain 441.\nLimacher, Niklaus, Schuhmachermeister, Rathausgasse 15.\nLinnhof, Max, Photograph, Weinberg 1280.\nLindenmann, Emma, Lehrerin, Kasinogasse 655.\n— Ida, Telegraphistin, Kasinogasse 655.\n— geb. Wey, Maria, Witwe, Part., Kasinogasse 655.\nLindegger, Gottfried, Güterexpedient, Bahnhof 812.\nLips, Kaspar, Postkondukteur, Rain 478.\nLötzscher, Maria Rosalie, Fegerin, Rathausgasse 16.\nLocher, Jakob, gew. Bremser, Flößerstraße 1180.\n— Jakob, Postkondukteur, Buchserstraße 921.\n— Karl, Prokurist, Buchserstraße 955.\nLooser, Joh. Jakob, Bierbrauer, Bahnhofstraße 619.\nLüscher, Albert, Käse- und Milchhandlung, hintere Vorstadt 357.\n— Daniel, Gießereibesitzer, Bleichemattstraße 1015.\n— Elise, Glätterin, Bahnhofstraße 635.\n— Emma, Weißnäherin, vordere Vorstadt 343.\n— Friedrich Wilhelm, Part., Bahnhofstraße 635.\n— Hans, Notar, Bezirksrichter, Rain 439.\n— geb. Jäggi, Marie, Spetterin, Halden 267.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 48369,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2248,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:44:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p122",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p122.jpeg",
+      "bytes": 879603,
+      "sha256": "5bfbcbc727c1949331061cfa36b2b07d7dd123696a089d7f5ba74d2c87520556",
+      "sha256_of": "original",
+      "working_copy": "1901_p122.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:44:25+00:00"
+  }
+}

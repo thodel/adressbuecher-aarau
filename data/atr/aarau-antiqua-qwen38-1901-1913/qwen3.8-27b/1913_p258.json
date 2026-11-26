@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p258",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p258.jpeg",
+    "bytes": 810613,
+    "sha256": "c05b511c9b35ad03aa70e20d423e888e1dc6848f1bfe7a160553ce32825665c8",
+    "sha256_of": "original",
+    "working_copy": "1913_p258.jpeg"
+  },
+  "text": "— 224 —\nSuter-Widmer, Albert. Zivilstands- und Betreibungsbeamter.\n  Hohlgaße 1909.\nWehrli-Bertschi, Adolf. Hinteres Zeugli 1899.\n*— -Engeli, Jakob [tel]. Bahnhofstraße 578 b.\n\nOele.\n*Brack & Eich [tel]. Bahnhofstraße 584.\n\nOfenfabrikation.\n*Andres-Eichelberger, Otto [tel]. Bachstraße 1064.\n  Richner, Karl [tel]. Bahnhofstraße 613.\n*Wespi, Karl [tel]. Obere Vorstadt 540.\n\nOptische Instrumente.\n*Gysi & Co. [tel] Vordere Vorstadt 345 und Bachstraße 1054.\n*Kern & Co. [tel] Ziegelrain 400.\n\nPapeterien.\n*Hagenbuch, Friedrich [tel]. Vordere Vorstadt 333.\n  Käser, Samuel. Bahnhofstraße 559 a.\n*Schatzmann, Samuel [tel]. Rathausgaße 10.\n*Wärtdi, A. [tel] Vordere Vorstadt 326.\n*Wülser, Samuel [tel]. Laurenzentorgasse 119.\n\nParfümeriewaren.\n  Siehe Coiffeurs.\n\nPassementerie.\n*Erdin-Obrecht, Kaufmanns Witwe [tel]. Rathausgasse 13.\n*Erny-Bauer, C. [tel] Kronengasse 42 und Bahnhofstraße 1812.\n*Frey-Kieser, Frau. Rathausgasse 18.\n\nPhotographische Anstalten.\n*Hergert-Großmann, Wilh., photogr. Atelier [tel]. Vord. Vorstadt 345.\n*Photohaus W. Hergert [tel]. Oberthor 243.\n  Schatzmann-Weibel, Albert [tel]. Kasinostraße 660.\n  Wildi-Gisiger, Max. Kasinostraße 643.\n  Wolfsgruber-Künzli, Johann Gottfried. [tel] Bahnhofstraße 608.\n\nPhotographische Bedarfartikel.\n*Frey & Cie. [tel] Telli 840.\n*Hergert-Großmann, Wilh., photogr. Atelier [tel] Vord. Vorstadt 345.\n  Wolfsgruber-Künzli, J. G. [tel] Bahnhofstraße 608.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14860,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1411,
+    "lines": 36,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0021,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:12:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p258",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p258.jpeg",
+      "bytes": 810613,
+      "sha256": "c05b511c9b35ad03aa70e20d423e888e1dc6848f1bfe7a160553ce32825665c8",
+      "sha256_of": "original",
+      "working_copy": "1913_p258.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:12:03+00:00"
+  }
+}

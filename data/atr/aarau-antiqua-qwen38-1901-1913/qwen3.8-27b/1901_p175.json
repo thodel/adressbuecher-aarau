@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p175",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p175.jpeg",
+    "bytes": 766249,
+    "sha256": "c5b0d31bf2b85fc9ed13c99746f427b8418586a36ef8b5c766f5acb87a4d018a",
+    "sha256_of": "original",
+    "working_copy": "1901_p175.jpeg"
+  },
+  "text": "162\nIsler, Emil, Fürsprech, Laurenzenvorstadt 766.\nKeller, Gottfried, Dr., Pelzgasse 106.\nKurz, Erwins Nachfolger, Fürsprech, Laurenzenvorstadt 710.\nLüscher, Hans,* Rain 439.\n— Jakob,* Metzgergasse 66.\nMerz, Sebastian,* Bachstraße 1074.\nSchmidt, Max, Fürsprech, Stadtammann, Jurastraße 1491.\nSchneider, Gustav, Dr., Fürsprech, obere Vorstadt 550.\nStauber, Jakob, Amtsrevisor, Schachen 1137.\nStierli, Goar Leonz, Fürsprech, Graben 228.\nTanner, Erwin, Fürsprech, Laurenzenvorstadt 800.\nWydler, Julius, Rathausgasse 4.\nOfenfabrikation.\nAndres-Bircher, Fr.* obere Vorstadt 519. (Siehe Inserat Seite 28.)\n— Otto, Milchgasse 135. (Siehe Inserat Seite 21.)\nHemmeler, Wilhelms Witwe.* obere Vorstadt 541.\nWespi-Zurlindens Wwe, A., Entfelderstraße 1378. (S. Inserat S. 12.)\nOptische Instrumente.\nFrei, Alb., Uhrmacher, hintere Vorstadt 360.\nGysi & Co.,* vordere Vorstadt 345.\nKern & Cie.,* Ziegelrain 400.\nPapeterie.\nHagenbuch, Friedr.,* vordere Vorstadt 333. (S. Inserat Seite 4.)\nSchatzmann, Samuel, Pelzgasse 99.\nWirz-Christen, Karoline, Oberthor 243.\nZebert, Georg,* Bahnhofstraße 574 und Laurenzenthorgasse 119.\nParfümeriewaren.\n(Siehe Coiffeurs.)\nPassémenterie.\nErdin, Albin,* Rathausgasse 13.\nErny-Faßler & Sohn,* Kronengasse 42. (Siehe Inserat Seite 25.)\nPlazierungsbureau.\n(Siehe Stellenvermittler.)\nPelzwarenhändler.\nSperlich, Theoder, vordere Vorstadt 323.\nPfarrer.\n(Siehe Geistliche.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14394,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1387,
+    "lines": 38,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0022,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:05:30+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p175",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p175.jpeg",
+      "bytes": 766249,
+      "sha256": "c5b0d31bf2b85fc9ed13c99746f427b8418586a36ef8b5c766f5acb87a4d018a",
+      "sha256_of": "original",
+      "working_copy": "1901_p175.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:05:30+00:00"
+  }
+}

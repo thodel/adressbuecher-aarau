@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p024",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p024.jpeg",
+    "bytes": 968291,
+    "sha256": "ee93ad0c38a51b446e850f8387e084b340af09bd7854941a97c3cb98c94fa386",
+    "sha256_of": "original",
+    "working_copy": "1913_p024.jpeg"
+  },
+  "text": "— 10 —\nHaus-\nNr.\n94 * Fäs, Rud., gewes. Kaserniers Erbschaft.\nDepot der Chocoladefabrik Villars (A. Hänggi).\nSiegrist, Luise, Spetterin, Remigen.\nPfister-Sandmeier, Emil, Taglöhner, Nieder-Erlinsbach.\n— Emil, Schriftsetzer, Nieder-Erlinsbach.\n95 Hagnauer, Hermann, Bürstenfabrikant. [tel] Bürstenhandlung.\n— Fritz, Bürstenmacher.\nWärtli, Anna, Ladentochter.\n96 * Rüetschi, Herm., Glockengiesser und Mithafte.\nHorlacher-Müller, Wilh., Taglöhner, Umiken.\nGraf-Gloor, Joh., Stadtarbeiter, Leutwil.\nVilla-Bernasconi, Giov., Schneider, Como. 106\n97 Rohr-Reimann, Jakob, Kaufmann. [tel] Kolonialwarenhandlung\nund Kaffeesgeschäft zum Adler.\nHauri-Blanc, Hans, Coiffeur, Seengen.\n— — Alice, Coiffeuse, Seengen.\n98 * Lüscher-Fischer, Otto, Wirt, in Muhen. 107\nKempf-Schwander, Dominik, Wirt, Göggingen (Baden). [tel] 108\nLeutwyler-Brütsch, Theodor, Metzgerei, Birr wil.\n99 Roth-Sali, Samuel, Kistenmacher, Zetzwil. 109\n— Max, Zetzwil.\nFiliale der Pferdemetzgerei Ober-Entfelden.\n100 Hässig-Zimmerli, Alfred, Kupferschmied. Kupferwarenhandlung.\nCantu-Hübscher, Jos., Maurermeister, Vico-Morcote (Tessin).\n— Maria, Bureaulistin, Vico-Morcote.\nBaumer-Eich, Hermann, Schneider, Rheinfelden. 110\n101 * Suter, Adolf, Bäcker, Uerkheim.\nTheez-Hochuli, Alfred, Schirm- und Schuhmacher, Paris.\nSchirmhandlung. 111\n102 * Willimann-Wehrli, Marie, Oberhof.\nGall-Hunziker, Alfred, Taglöhner, Schöffland. 112\nBertschi-Haller, Emil, Stadtarbeiter, Dürrenäsch.\nZimmerli-Stänz, Barh., Putzerin, Ofringen.\nMinder-Feuz, Karoline, Wäscherin, Huttwil. 113\n103 Rüetschi-Schneider, Max, Bäckmeister. [tel]\nStahel-Hoggenmüller, Karl, Kaminfeger, Villnachern.\nJaccoud, Ernest Louis, Buchdrucker, Pidoux (Waadt).\n104 Widmer-Sutter, Emil, Schneider, Brittnau. 114\n— — Emma, Weißwaarengeschäft, Broderie, Brittnau.\nHöchli-Dietiker, Otto, Monteur, Klingnau.\nKüfer-Wärtli, Klara, Privatin, Solothurn.\n105 Bärtschi-Minder, Jakob, Wirt, Lützelflüh. Restr. z. Zunftssube. 115\nSchick-Lindegger, Niklaus, Drechsler, Waldsee (Württbgs.).\n— Fanny, Bureaulistin, Waldsee.\nWernli, Johann, Privater, Thalheim. 117\n— Elise, Damenschneiderin, „\nEmma, Thalheim.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 66111,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2108,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.18,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:32:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p024",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p024.jpeg",
+      "bytes": 968291,
+      "sha256": "ee93ad0c38a51b446e850f8387e084b340af09bd7854941a97c3cb98c94fa386",
+      "sha256_of": "original",
+      "working_copy": "1913_p024.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:32:02+00:00"
+  }
+}

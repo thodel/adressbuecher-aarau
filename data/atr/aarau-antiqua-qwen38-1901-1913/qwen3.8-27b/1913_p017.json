@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p017",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p017.jpeg",
+    "bytes": 1004406,
+    "sha256": "90902cfad1e2a7ae55c6fefcf5544a62da07eddf2fa129a9f1fb5832d052107c",
+    "sha256_of": "original",
+    "working_copy": "1913_p017.jpeg"
+  },
+  "text": "— 3 —\nHaus-\nNr.\n13 Erdin-Obrecht, Frieda, Witwe, Kaufmanns [tel]. Mercerie-, Bon-\n  neterie-, Lingerie- u. Passementeriewarenhandlung.\nJörg-Ritter, Karl Friedrich, Uhrmacher [tel].\n14 Dr. Göldlin-Frei, Heinr. Joseph, Apotheker, Luzern und Schwyz [tel].\nJörg-Ritter, Karl, Uhrmacher.\nSchmid, Edmund, Kaufmann, Basel.\nFrei, Klara, Buchhalterin, Basel.\n15 Limacher, Niklaus, Schuhmachermeister, Schüpfheim (Luzern).\nWandron-Meier, Bernhard, Holzsplalter, Tägerig (Aargau).\nRechner-Dietschweiler, Adolf, Schuhmacher, Luttingen (Baden).\n16 * Ryniker, Karl, Bierbrauer.\nKröll-Brunner, Johann, Wirtschaff z. Rütli, Edelsbach (Tyrol).\nBrunner, Ernestine, Magold (Württemberg).\nWerpeli-Werder, Otto, Tapezierer, Bottenvil.\nWerder-Müller, Elise, Privatin, Birrenlauf.\nFankhauser-Leimgruber, E., Dachdecker, Eggwil (Bern).\n17 Stéphanie-Winkler- Margrit, Witwe, Colonialwaren-, Tabak- und\n  Zigarrenhandlung.\nFrey-Kieser, Johanna, Mercerie, Bonneterie, Nouveautés.\nKauffmann, Nina, Modistin, Luzern.\nHaßler-Brunnhof, Karolina, Witwe, Privatin.\n  — Ida, Ladentochter.\n20 Schmid-Maurer, Mathilde, Witwe, Delikatessenhandlung, Möriken.\n  — Mathilde, Möriken.\n  — Clara,\nLenzin-Lenzin, Katharina, Witwe, Oberhof.\n21 Müller-Hürner, Eduard, Schirmfabrikant. Hut- und Mützen-\n  handlung. Berg- und Wintersportartikel.\n22 Schenker-Bächler, Otto, Dänikon (Solothurn). Schuhhandlung.\n23 Dubs-Walther, Karl, Wirt, Kuttigen, Wirtschaff z. Wardeck.\n24 * Eichenberger, Gottlieb, Obergerichtskanzlist.\nRorschach-Wärtli, Arnold, Goldschmied und Optiker, Bühl (Baden).\nWärtli-Vogel, Marie, Witwe, Privatin.\nHaßler, Marie, Privatin.\nIrse-Rebmann, Franz, Gärtner, Ebreichsdorf (Oesterreich).\n25 Hofer-Schaffner, Anna, Witwe.\nGötze-Scheidegger, Emil, Kaufmann, Wildhaus. Billiges Schuh-\n  und Kleidergeschäft.\nGaß-Bürgin, Jakob, Bierführer, Rothenfluh (Baselland).\nBürgin, Hans,\n26 * Hofer-Schaffner, Anna, \"Witwe, Privatin.  \"\nGröbli-Beindli, Veronika, Witwe, Spetterin, Henau (St. Gallen).\n27 Reber-Geisseler, Eduard, Bäckermeister, Sempach (Luzern).\n  Bäckerei, Konditorei, Salzverkauf.\nThuner-Berger, Marie, Witwe, Worb (Bern).\n  — Mathilde, Fabrikarbeiterin,  \"\n  — Frida,\nBertschi-Steiner, Luise, Witwe, Dürrenäsch.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 65216,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2189,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:28:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p017",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p017.jpeg",
+      "bytes": 1004406,
+      "sha256": "90902cfad1e2a7ae55c6fefcf5544a62da07eddf2fa129a9f1fb5832d052107c",
+      "sha256_of": "original",
+      "working_copy": "1913_p017.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:28:07+00:00"
+  }
+}

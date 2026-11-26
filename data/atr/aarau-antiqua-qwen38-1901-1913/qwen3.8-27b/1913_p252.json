@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p252",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p252.jpeg",
+    "bytes": 767356,
+    "sha256": "15291c033b660351a90539b40fc19e433510da6af19abf760e15c294400ba8e0",
+    "sha256_of": "original",
+    "working_copy": "1913_p252.jpeg"
+  },
+  "text": "— 218 —\nKüfer.\nLüscher-Konrad, Theodor. Milchgasse 137.\nLüthi-Fehlmann, Robert. Stadthöfli 82 a.\nMärki-Amsler, Jakob. Laurenzentorgasse 115 und 116.\nScheibler-Zingg, Fritz [tel]. Rain 498.\nWidmer, Hermann [tel]. Kronengasse 48.\nKunstmaler und -Malerinnen.\nFrey, Guido. Tellli 846.\nHunziker, Elise. Laurenzenvorstadt 763.\nSchirmer-Stéphaní, Paul. Oberholzstraße 1068.\nSpühler, Anna. Bachstraße 1091.\nSteiner, Hans. Zelgli 1619.\nWyler, Otto. Vordere Vorstadt 350.\nKupferschmiede.\nBühler-Haberstich, Gottlieb. Schmiedgasse 389.\nHässig-Zimmerli, Alfred. Pelzgasse 100.\n  Dieselben handeln auch mit Kupferschmiedwaren.\nKuranstalt.\nBrack, Heinrich, zum Alpenzeiger [tel].\nKuttlerel.\nLienhard-Bleuler, Adolf [tel]. Schachen 1117.\nLack- und Farbenfabrikation.\n*Gänßlen-Landolt, Karl & Cie. [tel] Obere Vorstadt 534.\nLackierer.\nGierse-Budde, Ferd. Stritengäßchen 1753.\nLagerungs-, Speditions-, Kommissions- und Belehnungs-\n  geschäfte.\n*Lagerhäuser der Zentralschweiz in Aarau, mit eigen. Niederlags-\n  haus in Aarau [tel]. Bahnhof 832.\n  Siehe auch Camionneure.\nLeder- und Fourniturenhandlung.\n*Häny-Walther, Rud. [tel]. Bahnhofstraße 623.\nLehrer.\nPrivat- und Musiklehrer.\nHoffmann, E. A., Musikdirektor. Spitalgäßli 1756.\nHunziker, Elise, Malererin. Laurenzenvorstadt 763.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 32206,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1265,
+    "lines": 37,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0024,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:10:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p252",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p252.jpeg",
+      "bytes": 767356,
+      "sha256": "15291c033b660351a90539b40fc19e433510da6af19abf760e15c294400ba8e0",
+      "sha256_of": "original",
+      "working_copy": "1913_p252.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:10:05+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p026",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p026.jpeg",
+    "bytes": 836782,
+    "sha256": "fe8165c6e34fddf2d6ed113bd57fcb5226e515cc2700e7e7ddcc2f2df3c261ca",
+    "sha256_of": "original",
+    "working_copy": "1901_p026.jpeg"
+  },
+  "text": "15\nHaus-\nNr.\n163 * Gemeinde Aarau, Kirche.\n164 * Dieselbe. Pfarrhaus.\n  Graf, Ernst, von Winterthur, ref. Pfarrer.\n165 Schlatler-Bühler, Maria, Marbriers Witwe.\n  Schröder-Kern, Theodor, Schuhmacher, v. Heintrog (Preußen).\n  Sandmeier-Stahel, Arnold, Küfer, von Seengen.\nAdelbändli.\n166 Ott-Wenger, Friedrich, Buchhalter, von Ryken.\n  — — Maria, Milch-, Butter-, Käs- und Spezereihandlung,\n    Salzverkauf.\n  Rüetschi, Gottfried, alt Obergerichtsweibel.\n  Ott, Anna, Zettlermeisterin, von Ryken.\n167 * Morath-Stirnemann, Wendolin, Kaufm., v. Blasewald (Gr. Bad.).\n  Frank-Roland, Anna Elisabeth, Witwe.\n  Weingärtner-Spiegelberg, Zacharias, Schneider, von Oetigheim\n    (Baden).\n168 * Scheibler-Suter, Alfred, Tapezierer, von Unterentfelden.\n  Bertschi-Haller, Emil, Holzer, von Dürrenäsch.\n  Märki-Vogt, Jakob, Buchbinder, von Rüfenach.\n  Isler-Horlacher, Emil, Cementarbeiter, von Wila (Zürich).\n169 Läuchli-Hosli, Jakob, Stadtpolizist, von Remigen.\n  Jeck, Frida, Fabrikarbeiterin, von Zeiningen.\n170a* Bär-Frei, Sattlers Witwe. Erbschaft.\n  Berner, Geschwister, Verena und Marianna, Spulerinnen, von\n    Unterkulm.\n170b Keller-Sommerhalder, Erwin, Gießereiarbeiter, von Maisprach.\n171 Schmuziger-Zulauf, Marie, Part.\n  Weber, Theodor, Commis, von Vordemwald.\n172 * Staat Aargau. Kath. Pfarrhaus.\n  Fischer-Keller, Xaver, christkath. Pfarrer [tel], von Triengen.\n  Bossard, Elise, Part., von Altstetten (Zürich).\n  Schmidt, Hedwig, Coiffeuse.\n173a* Fisch-Buser, Witwes Erbschaft.\n  Rämisperger-Hunkeler, Hermann, Spenglermeister.\n  Merz-Umkir, Jakob, Taglöhner, von Beinwyl.\n  Beck, Karolina, Weißnäherin.\n  — Louise, Damenschneiderin.\n  Hess-Fischer, Emil, Bodenleger, von Wißachengraben (Bern).\n  Wanger, Henriette, Buchbinders, Part.\n  Fischer-Widler, Ernestine, Witwe, Part.\n  Durr-Schmuziger, Isak, Schreiner.\n173b* Staat Aargau. Anteil. Estrich.\n174 Scheibler-Suter, Alfr., Tapezierer, v. U.-Entfelden. Möbeldlglg.\n  Widmer-Bahnholzer, Hans, Aufseher, von Gränichen.\n  Brunner-Sandmeier, Oskar, Schriftsetzer.\n  Hiltbrand-Meier, Johann, Fabrikarbeiter, von Boswyl.\n175 * Wehrli-Hassler, Friedrich, Pedell.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 45672,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2114,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.94,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:08:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p026",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p026.jpeg",
+      "bytes": 836782,
+      "sha256": "fe8165c6e34fddf2d6ed113bd57fcb5226e515cc2700e7e7ddcc2f2df3c261ca",
+      "sha256_of": "original",
+      "working_copy": "1901_p026.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:08:07+00:00"
+  }
+}

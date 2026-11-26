@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p195",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p195.jpeg",
+    "bytes": 742671,
+    "sha256": "837b70995ff4245ba9d9001138ebe7b071196f5fa7c7fdaffc78fc19056765c9",
+    "sha256_of": "original",
+    "working_copy": "1901_p195.jpeg"
+  },
+  "text": "182\n4. Ortsbürger-Rechnungskommission.\nPräsident: Gysi, Traugott, Lehrer.\nMitglieder: Andres-Bircher, Friedrich, Hafnermeister.\n  Baumann, Eugen, Weinhändler.\n  Frey, Max, Fabrikant.\n  Rothpletz, Karl, Architekt.\n  Schmuziger, Joh., Baumeister.\n  Schmuziger-Lackerbauer, Arnold, Ingenieur.\n5. Schulpflege.\nPräsident: Hässig, Hans, Stadtrat.\nVizepräsident: Rohr-Reiner, Hans, Oberriechter.\nAktuar: Fischer, X., Pfarrer.\nMitglieder: Dr. Berner, Hermann, Zahnarzt.\n  Brosy, Kreispostdirektor.\n  Dr. Gessner, J. A., Professor.\n  Hartmann, Rudolf, Fabrikant.\n  Reimann, Gustav, Obergerichtsschreiber.\n  Dr. Schmuziger, Friedrich, Arzt.\n  Wernly, Rud., Pfarrer.\n  Zurinden-Richner, Fabrikant.\n6. Steuerkommission.\nPräsident: Brack, Heinrich, Polizeichef.\nVizepräsident: Gysi-Studler, Arnold.\nMitglieder: Brunnhofe-Meder, August, Wirt.\n  Guggisberg, Emil, Bäcker.\n  Hartmann, Rudolf, Fabrikant.\n  Henz-Plüss, Stadtrat.\n  Hoffmann-Gamper, Emil.\n  Rychner, Louis, Stadtrat.\n  Gysi, Emil, Maler.\nErsatzmänner: Amsler, Otto, Notar.\n  Gysi-von Arx, Viktor, Kaufmann.\nAktuar: Siebenmann, Emil, Stadtkassier.\n7. Forstkommission.\nPräsident: Schmidt, Max, Stadtammann.\nMitglieder: Eismann, A., Friedensrichter.\n  Fahrländer, Eugen, Ingenieur.\n  Feer, Karl.\n  Imhof-Munzinger, Emil.\n  Müller, Eduard, Schirmfabrikant.\n  Siebenmann, Bernhard, Bäcker.\n  Siebenmann, F., Stadtrat.\n  Siebenmann, Jakob, Ökonom.\nAbgeordneter der Ortsbürgerrechnungskommission: Baumann, Eugen.\n  Weinhändler.\nBeratend: Meisel, Xaver, Forstverwalter.\nAktuar: Niggli, A., Fürsprech und Gemeindeschreiber.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 26752,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1562,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0208,
+    "mean_line_chars": 30.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:13:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p195",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p195.jpeg",
+      "bytes": 742671,
+      "sha256": "837b70995ff4245ba9d9001138ebe7b071196f5fa7c7fdaffc78fc19056765c9",
+      "sha256_of": "original",
+      "working_copy": "1901_p195.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:13:50+00:00"
+  }
+}

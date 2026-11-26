@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p057",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p057.jpeg",
+    "bytes": 799317,
+    "sha256": "648861961b2315394224d6c240a664e8b67cca605b6f575c16538b33d6d99500",
+    "sha256_of": "original",
+    "working_copy": "1901_p057.jpeg"
+  },
+  "text": "46\nHaus-\nNr.\n  Zurlinden-Boitel, Friedrich, Bankdirektor, von Zofingen.\n1507 † — Derselbe. Waschhaus mit Werkstatt.\n666 Riniker-Waldis, Arn., Wirt. [tel] Speisewirtschaft „Café Fédéral“.\n  Landolt-Hartmann, Emilie, Part.\n  Merz, Hermann, Conditor, von Menziken.\n667 † Derselbe. Wasch- und Holzhans.\n668 † Staat Aargau. Turnhalle.\n669 † Derselbe. Reitbahn.\n670 † „ Stallung.\n671 † „ Reitbahn.\n672 † „ Kaserne stallung.\n673 * „ Cantine mit Anbauten.\n  Hürbin-Heuberger, Ferdinand [tel], von Wegenstetten. Wirt\n  z. Kantine.\n  Sudler-Eiberle, Hermann, Küchenchef, von Emmingen (Baden).\n674 † Derselbe. Zeughaus.\n675 † „ Zeughaus mit Anbauten.\n676 † „ Zeughaus.\n677 † „ Zeughaus und Remise.\n678 † „ Zeughaus und Büchsenmacherei.\n679 † „ Neue Stallungen.\n680 † „ Kavallerie-Kaserne.\n\n  Feerstrasse.\n681 Ammann-Strähl, Robert, Architekt. [tel]\n  Schwendimann-Amsler, Wilhelm, Stabshauptmann, Kavallerie-\n  Instruktor, von Pohlern (Bern).\n682 * Derselbe. Wohnhaus.\n  Karrer-Roth, Maria, Part., von Teufenthal.\n  Brütel, Konstanze, Part.\n683 * Derselbe.\n  Kettiger-Bertschinger, Arnold, Kaufmann, Prokurist, v. Liestal\n  (Baselland).\n  Amsler-Harsch, Emil, Fürsprech und Notar. Advokatur und\n  Notariatsbureau.\n684 Offen gelassen.\n685 Hagenbuch-Württenberger, Karl, Kaufmann. [tel] Wohnhaus.\n  Württenberger-Kaiser, Marie, Part.\n686 Offen gelassen.\n687 dto.\n688 dto.\n689 Erne-Leblanc, Eduard, Kaufmann, von Leuggern.\n  Vuillermet-Leblanc, Charles Jean L., Kaufmann, von Verrières\n  (Frankreich).\n  Roullier, Numa Oscar, Commis, von Côte-aux-Fées (Neuenburg).\n690 † Erne & Cie., Kolonialwaarengeschäft en gros [tel]. Bureau und\n  Magazin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 35713,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1629,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 31.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:19:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p057",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p057.jpeg",
+      "bytes": 799317,
+      "sha256": "648861961b2315394224d6c240a664e8b67cca605b6f575c16538b33d6d99500",
+      "sha256_of": "original",
+      "working_copy": "1901_p057.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:19:35+00:00"
+  }
+}

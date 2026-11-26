@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p250",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p250.jpeg",
+    "bytes": 847586,
+    "sha256": "8cda260f84d1f2aac5ba7eccbd4b1797f4048bbb92a18a63cf319e54e5b62d38",
+    "sha256_of": "original",
+    "working_copy": "1913_p250.jpeg"
+  },
+  "text": "— 216 —\n\nKinderwagen.\nGantner, Arnold, Sattler [tel]. Kronengasse 43.\nHäfelin, Joseph, Sattler. Kasinostraße 642.\nKyburz, Gotthold, Sattler. Entfelderstraße 1376.\nLüthy, Eduard, Sattler. Metzgergasse 66.\n\nKlavierlehrer und -Lehrerinnen.\nCuster, Emma. Westallee Neugut 1552.\nDöselkel, Mina. Bahnhofstraße 608.\nFrey, Johanna. Pelzgasse 106.\nLerch, Gottfried. Entfelderstraße 1396.\nRochholz, Anna. Entfelderstraße 1400.\nRotheletz, Frieda. Konradstraße 1414.\nStänz, Anna. Bachstraße 1070.\nWidmer, Emma. Bachstraße 1826.\n  — Frida. Bachstraße 1826.\n\nKlaviermacher.\nErnst-Meier, Emil. Hintere Bahnhofstraße 1624.\n\nKleiderfärbereien.\nGottmann, Emil. Laurenzentorgasse 117.\nTrefzger-Zisel, Gustav. Hinterm Platz 237.\n\nKleiderhandlungen.\n*Ackermann, Albert. Vordere Vorstadt 352.\n*Bruns, Heinrich [tel]. Bahnhofstraße 620.\n  Dreifuß Jos. Bahnhofstraße 575.\n*Gamper & Co. [tel] Rathausgasse 2, 31. Zollrain 51.\n*Gerber, Gustav [tel]. Vordere Vorstadt 327.\n*Gisi-von Arx & Co. [tel] Graben 223.\n*Konfektionshaus zum Terminus. Bahnhofstraße 575.\n  Leutwyler, Robert [tel]. Bahnhofstraße 578.\n  Magazine zur Stadt Paris. Hintere Vorstadt 360.\n*Müller, Karl [tel]. Metzgergasse 65.\n*Naphthaly & Sohn. Bahnhofstraße 574.\n*Siebenmann & Co. [tel] Oberthor 241.\n\nKohlen-, Brikettes- und Koakshandlungen.\n  Brack & Cie. [tel] Bahnhofstraße 584.\n*Gasfabrik Aarau [tel]. Gasstraße 1173.\n*Lagerhäuser der Zentralschweiz [tel]. Bahnhofstraße 832.\n  Rüegg, Emil [tel]. Schloßplatz 198.\n  Stirnemann, Theresia, Witwe [tel]. Metzgergasse 79.\n*Walther-Dubs, Witwe [tel]. Bachstraße 1111.\n  Wägeler, Karl [tel]. Gasstraße 1172.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 46057,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1599,
+    "lines": 42,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0025,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:09:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p250",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p250.jpeg",
+      "bytes": 847586,
+      "sha256": "8cda260f84d1f2aac5ba7eccbd4b1797f4048bbb92a18a63cf319e54e5b62d38",
+      "sha256_of": "original",
+      "working_copy": "1913_p250.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:09:32+00:00"
+  }
+}

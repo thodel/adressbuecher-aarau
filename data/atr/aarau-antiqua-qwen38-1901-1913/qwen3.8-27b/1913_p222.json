@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p222",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p222.jpeg",
+    "bytes": 985668,
+    "sha256": "8f3e6b2f92b9bb1cde22c1f7d6844201e0b0341796c89023f8d35bd36a918fca",
+    "sha256_of": "original",
+    "working_copy": "1913_p222.jpeg"
+  },
+  "text": "— 180 —\nWegmann-Morf, August, Techniker, Neftenbach. Bahnhofstr. 588.\nWegmüller-Nußbaum, Fritz, Ausläufer, Vechigen (Bern). Hintere\n  Vorstadt 360.\nWehrli-Bertschi, Adolf, Notar, Küttigen. Hinteres Zegli 1899.\n— -Blattner, Adolf, Fabrikarbeiter, Küttigen. Stritengäßchen 1151.\n— Anna, Telephonistin. Flößerstraße 1166.\n— -Wehrli, August, Gärtner, Küttigen. Oberholzstraße 1851.\n— -Fuß, Barbara, Witwe, Asp-Densbüren. Oberholzstraße 482.\n— Elisabeth, Vorgängerin, Küttigen. Rain 436.\n— -Ritter, Emil, Telegraphist [tel]. Westallee Neugut 1625.\n*— -Säuberli, Emil, Bäckermeister, Küttigen [tel]. Rathausgasse 30.\n— -Schwarz, Emil, Briefträger, Asp-Densbüren. Stritengäßchen 1213.\n— Emmy, Ladentochter, Asp-Densbüren. Oberholzstraße 482.\n— -Schatzmann, Fritz, Gipsermeister, Asphaltgeschäft [tel]. Hal-\n  den 270.\n— -Hemmeler, Hans, Zimmereigeschäft. Flößerstraße 1166.\n— Hans, Privatier. Halden 270.\n— -Wehrli, Hans, Stadtkassier. Scheibenschachen 1226.\n— Hedwig, Fabrikarbeiterin, Küttigen. Weinberg 1280.\n— Heinrich, Privatier, Densbüren. Ziegelpain 422 b.\n— -Schmid, Herm., Sparkassaverwalter der Aargauischen Kantonal-\n  bank, Küttigen [tel]. Gönnhardweg 1504.\n— -Engeli, Jakob, Notar, Küttigen [tel]. Buchserstraße 939.\n*— — Jakob, Notar. Notariats- und Inkassogeschäft [tel]. Bahnhof-\n  straße 578 b.\n— -Graf, Jakob, Handlanger, Küttigen. Halden 296.\n— -Roth, Jakob, Taglöhner, Biberstein. Hammer 189.\n— -Märk, Ida, Witwe, Part., Höngg (Zürich). Herzogstraße 1782.\n— Ida, Höngg (Zürich). Herzogstraße 1782.\n— -Dubs, Johann, Handelsgärtnerei [tel]. Flößerstraße 1184.\n— — Johann Jakob, Heizer, Küttigen. Scheibenschachen 1333.\n— -Frey, Johann, Briefträger, Küttigen. Rain 461.\n— -Häni, Julius, Gepäckexpedient S. B. B., Küttigen. Mühle-\n  matt 1364.\n— Marie, Wäscherin, Küttigen. Rain 436.\n— -Kähr, Marie, Witwe, Privatin. Obere Vorstadt 554.\n— Martha, Ladentochter, Asp-Densbüren. Oberholzstraße 482.\n— Martha, Bureauangestellte. Konradstraße 1419.\n— Mina, Höngg (Zürich). Herzogstraße 1782.\n— -Steiner, Peter, Kaufmann, Asp-Densbüren. Laurenzenvor-\n  stadt 710.\n— Rosa, Ladentochter, Küttigen. Stritengäßchen 1151.\n— -Märk, Rosa, Bankkassiers Witwe, Küttigen. Bachstraße 1088.\n— -Peyer, Rudolf, Part. Konradstraße 1419.\nWeibel, Adolf, Zeichnungslehrer, Muri. Laurenzenvorstadt 800.\n— -Hunn, Gotthold, Wirt, Effingen. Restaur. zum Schwyzerhüsli.\n  Kasinostraße 656.\n*Weibezahl, Leonhard, Apotheker, Gotha [tel]. Rathausgasse 6.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 80221,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2431,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:59:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p222",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p222.jpeg",
+      "bytes": 985668,
+      "sha256": "8f3e6b2f92b9bb1cde22c1f7d6844201e0b0341796c89023f8d35bd36a918fca",
+      "sha256_of": "original",
+      "working_copy": "1913_p222.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:59:27+00:00"
+  }
+}

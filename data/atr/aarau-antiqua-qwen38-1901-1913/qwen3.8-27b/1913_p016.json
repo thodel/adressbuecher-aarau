@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p016",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p016.jpeg",
+    "bytes": 969797,
+    "sha256": "bfb196a0cabc58cc452ab879dc62d1f450cfd8328afb16ce3476bfa0f195b5a5",
+    "sha256_of": "original",
+    "working_copy": "1913_p016.jpeg"
+  },
+  "text": "- 2 -\nHaus-\nNr.\nMorath-Stirnemann, Wendolin, Spielwarenhandlung.\nFrey-Mösch, Ulrich Wilhelm, Zurzach.\n— Rosa, Ladentochter, Zurzach.\n— Wilhelm, Schlosser, \"\nWydler, Arthur, Kaufmann.\n— Ludwig, Schreiner.\nFasler-Wehrli, Jacob, Tapezierermeister, Densbüren.\nLehner, Johann, Stadtpolizist, Gränichen.\n5 * Hess, Gebrüder, A. G., Tuch- und Möbelwarenhandlung [tel].\n  Filiale der Magazine zur Stadt Mülhausen, Biel, Solothurn,\n  Basel und Olten.\n— -Weil, Silvan Salomon, Geschäftsführer, Mülhausen.\n6 * Weibezahl, Leonard, Apotheker, Gotha [tel].\nKaiser, Gebrüder, Viersen (Preußen), Kaffeegeschäft.\nLindegger-Kyburgz, Gottfried, Privatier, Ob.-Entfelden.\n— Traugott, Dr. jur, Direktionssekretär, \" \"\n— Rosa Marie, Privatin, Ob.-Entfelden.\nKlug, Julius, Assistent, Schönberg (Schlesien).\n7 Jung-Stéphani, Ludwig, Apotheker [tel].\nSchneider, Adolf, Apothekergehilfe, Winterthur.\nStucki-Lenz, Friedrich Rudolf, Maschinenmeister, Münsingen.\n8 * Falller-Unwin, Friedrich, Privatier, Breunlingen (Baden).\nCarl Schnyder & Cie. Eisenhandlung.\nSchnyder, Carl, Kaufmann, Hasle (Luzern).\n9 Simmen-Bill, Emil, Wirt, Münchnerbierhalle, Schinznach [tel].\nLiechti-Spillmann, Paul, Maler, Murten.\nMarti-Keller, Anna, Wwe., Spetterin, Wengi (Bern).\n— Olga, Bureauangestellte, Wengi (Bern)\n10 Schatzmann-Läuchli, Samuel, Buchbindermeister, Windisch [tel].\n  Schreibmaterialienhandlung und Einrahmungsgeschäft.\n— Emilie, Ladentochter, Windisch.\nZehnder-Lüscher, Bertha, Wwe., Holziken.\n— Walter, Reisender, Holziken.\n— Bertha, Damenschneiderin, Holziken.\n11 Wüthrich-Dambach, Antoinette, Wwe., Herrenpension, Eggiwil\n  (Bern).\nKaltenbach-Scheiwiller, Fritz, Konditorei, Dättingen (Baden) [tel].\n„Nivea“, Mech. Wäscherei für Kragen und Manchetten (Fabrik\n  in Montreux), Blanchisserie „Nivea“, rue Vuagnard, Montreux.\nRüthy, Antoinette, Schönenwerd (Solothurn),\nSchmid, Otto, Buchbinder, Felben (Thurgau).\nFreytag-Markwalder, Emil Hugo, Reparateur W. T. B., Zürich.\n12 Hemmeler-Stahl, Jacob, Privatier.\n— Paul, Kommis.\nSchär-Speck, Ernst, Quincaillerie, Glashandlung und Spielwaren,\n  Walteriswil (Bern) [tel].\nHelm-Schmidt, Ida, Damenschneiderin, Oerlikon.\n13\n14\n15\n16\n17\n20\n21\n22\n23\n24\n25\n26\n27",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 22133,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2172,
+    "lines": 63,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.3,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:27:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p016",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p016.jpeg",
+      "bytes": 969797,
+      "sha256": "bfb196a0cabc58cc452ab879dc62d1f450cfd8328afb16ce3476bfa0f195b5a5",
+      "sha256_of": "original",
+      "working_copy": "1913_p016.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:27:02+00:00"
+  }
+}

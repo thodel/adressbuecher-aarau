@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p199",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p199.jpeg",
+    "bytes": 950343,
+    "sha256": "3604413e020dbd3769b9c2e7cd99d2587a8818167eb04cd28552230af1b91dee",
+    "sha256_of": "original",
+    "working_copy": "1913_p199.jpeg"
+  },
+  "text": "— 157 —\nRey-Müller, Elis, Witwe, Muri. Graben 225.\n— -Ranucci, Friedrich, Professor und Vorsteher des Kantonsschüler-\n  kosthauses. Bahnhofstraße 598.\n— -Läubli, Rudolf, FabrikAufseher, Fahrwangen. Mühlematt 1364.\nRhyn, Johannes, Buchbinder, Bollodingen. Bahnhofstraße 568.\nRichner-Richner, Emma, Privatin, Gränichen. Bahnhofstraße 621.\n— -Gautschi, Hermann, Taglöhner. Kirchgasse 36.\n*— Karl, Fabrikant [tel]. Röhrenfabrik und Bureau. Bahnhofstr. 613.\n— -Karli, Karl, Röhrenfabrikant [tel]. Entfelderstraße 1401.\n— Lina, Portière. Buchserstraße 956.\nRichter, Ernst Eug., Buchhändler, Calw (Wttbrg.) Bahnhofstr. 632.\n— Ernst, Buchhändler, Calw (Wttbrg.). Laurezentorgasse 123.\nRickenbach-Kraft, Joh., Steindrucker, Salenstein (Thurgau). Kronen-\n  gasse 43.\nRiehl-Dürr, Karl, Koch und Gemüsehändler, Straßburg. Graben 215.\nRies-Buhlein, Emanuel, Privatier. Ziegelrain 427.\nRiner-Richner, Albert, Küchenchef und Wirt, Herznach. Speise-\n  wirtschaft zur Kantine. Schachen 1126.\n— -Hächler, Anna, Plazierungsbureau [tel]. Hintere Vorstadt 363.\n— — Josef Anton, Salzverkauf und Mehlhandlung [tel]. Hintere\n  Vorstadt 363.\n— -Obrist, Polizeikorporal, Herznach. Gasstraße 1171.\n— Walter, Schreiner, Herznach. Gasstraße 1171.\nRingier-Tschudi, Adolf, Privatier, Zofingen. Laurenzenvorstadt 761.\n— Arnold, Regierungsrat, Zofingen. Wellistrasse 1643.\n— -Emmisberger, Karl, Hauswart, Zofingen. Bahnhofstraße 1811.\nRingli-Duttli, Barbara, Wäscherin, Döttingen. Gartenstraße 1566.\nRiniker-Lutz, Adolf, Kaufmann. Zeughausstraße 665.\n— -Zulauf, Fritz, Bahnbeamter S. B. B., Schinznach. Zelglistr. 1832.\n— -Müri, Gottlieb, Obergerichtskanzlist, Schinznach-Dorf. Zelgli-\n  straße 1694.\n— -Hartmann, Jakob, Postbeamter, Schinznach. Westallee Neu-\n  gut 1605.\n— -Läuchli, J., Oekonom's Wwe. Binsenhof 1467.\n— Margrit. Zeughausstraße 665.\n— Walter, Landwirt. Binsenhof 1467.\nRipamonte-Schubiger, Angelo, Kaufmann, Marlon (Ital.). Metzger-\n  gasse 78.\nRiser-Schmid, Fritz, Gasarbeiter, Dürrenäsch. Milchgasse 154.\nRitschard-Kaufmann, Eduard, Schneider, Interlaken. Bahnhof-\n  straße 599.\nRitz, Robert, Bahnbeamter, Pfäffikon. Bahnhofstraße 620.\n*Ritzmann-Anderhub, Jakob, Generalagent, Flaach (Zürich) [tel]. General-\n  agentur der Helvetia, Versicherungsgesellschaften (Feuer und\n  Transport) in St. Gallen. Oberholzstraße 470.\nRödelsberger-Popp, Franz, Musikdirektor, Würzburg. Hintere Bahn-\n  hofstraße 1030.\nRömischkatholische Kirche. Schmiedgasse 382.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 45202,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2434,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 48.24,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:44:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p199",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p199.jpeg",
+      "bytes": 950343,
+      "sha256": "3604413e020dbd3769b9c2e7cd99d2587a8818167eb04cd28552230af1b91dee",
+      "sha256_of": "original",
+      "working_copy": "1913_p199.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:44:09+00:00"
+  }
+}

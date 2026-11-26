@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p037.jpeg",
+    "bytes": 804584,
+    "sha256": "97ebe6f14ca570b91a78f049428da5393f968c2c25c74ca0d5029d109defd2c2",
+    "sha256_of": "original",
+    "working_copy": "1901_p037.jpeg"
+  },
+  "text": "26\nHaus-\nNr.\n315 * Zimmermann-Wernli, Johann, gew. Bahnhofwärter, von Ruppers-\n  wyl (Erbschaft).\n  — — Barbara, Witwe, von Rupperswyl.\nRuf-Portmann, Johann, Taglöhner, von Rekingen.\nBäni-Hofmann, Friedrich, Taglöhner, von Uerkheim.\n\nHolzmarkt.\n316 † Ortsbürgergemeinde.  Gewerbehalle.\n317 † Dieselbe.  Verkaufslädli.\nTheez, Albert, Schuh- und Schirmmacher, von Paris.  Werk-\n  stätte.\nRothpletz, Rudolf, Metzger.  Bäckerwarenhandlung.\nBrunnhofser-Gietzentanner, Ursula.  Seilerwarenhandlung.\n318 Brast, Sophie Ida und Brast, Rosina Emma.  Waffen- und\n  Pulver-, Handschuh- und Cigarrenhandlung.\n319 Rohr-Holliger, Joh., von Buchs, Speisewirtschaft.\n320 Scheidegger-Roth, Johann Ulrich, Käser, von Ursenbach (Bern).\n  Milch-, Butter- und Käsehandlung.\nSchärer-Häuptli, Rudolf Heinrich, Maschinist, von Biberstein.\nBertschi-Storckenmeier, Emil, Schneider, von Sumiswald (Bern).\n321 Gisi-von Arx, Viktor, Kaufmann, von Niedergösgen (Solothurn).\n  Lager in Herren- u. Damenkleiderstoffen.  Damenkonfektion.\nFrei, Bertha, Schneiderin, von Erlinsbach (Solothurn).\n\nVordere Vorstadt.\n322 Müller-Gamper, Samuel, Part.\nFischer-Burger, Jonathan, Goldschmied, von Reinach.  Bijou-\n  teriewaren.\n323 Amsler-Tschudy, Otto, Notar, Kaufmann, von Kaisten.\nSperlich-Zimmermann, Theodor, von Oppeln (Schlesien).  Pelz-,\n  Hut- und Schirmlhandlung [tel]\nWidmer, Karoline und Marie, Modistinnen, von Freienwyl.\n324 Nägelin-Gisiger, Arnold, Höteler, [tel] von Liedertswil (Basel-\n  land).  Gasthof z. Wildenmann.\nBürgin-Gluck, Maria, von Bubendorf (Baselland), Part.\n325 Hirschi-Merz, Joh. Rudolf, Uhrenmacher.  Uhren-, Gold- und\n  Silberwarenhandlung.\n326 Brand-Baumann, Jakob, Spezerelihandlung.\nHemmeler-Lanz, Oskar, Bäckermeister.  Pintenwirtschafte.\n327 Gerber-Seiler, Gustav. March.-Tailleur. [tel] Lager in Herren-\n  und Knabenkleiderkonfektion.  Anfertigung von Herren-\n  kleidern nach Maß.\n  — -Hassler, Luise Elisabeth, March.-Tailleurs Witwe.\nDreifuss, Albert Abraham, Kaufmann, von Endingen.\n328 † Hemmeler-Mathys, Alfred, Metzgermeister. [tel]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17212,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2036,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:11:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p037.jpeg",
+      "bytes": 804584,
+      "sha256": "97ebe6f14ca570b91a78f049428da5393f968c2c25c74ca0d5029d109defd2c2",
+      "sha256_of": "original",
+      "working_copy": "1901_p037.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:11:50+00:00"
+  }
+}

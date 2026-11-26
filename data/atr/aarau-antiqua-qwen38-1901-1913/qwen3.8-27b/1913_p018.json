@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p018",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p018.jpeg",
+    "bytes": 941622,
+    "sha256": "acda3a687eb5322301158781ed90e393b1aa21a1156877d43ceeaed771a0459a",
+    "sha256_of": "original",
+    "working_copy": "1913_p018.jpeg"
+  },
+  "text": "Haus-\nNr.\n— 4 —\nBiri-Acklin, Wilhelm, Bremser S. B. B., Zeihen.\n— Gustav, Bauamtarbeiter, Zeihen.\n— Maria, Damenschneiderin, \"\nMarinello-Da Coll, Martina, Fabrikarbeiterin, Valle di Cadore\n(Italien).\n28 Hässig-Groß, Fritz, Bäckerei und Wirtschaf z. Rathaus [tel].\nFäs-Bircher, Anna, Witwe, Schöftland.\nWeingärtner-Spiegelberg, Anna, Witwe, Wäscherin, Aarburg.\n— Fritz, Packer, Aarburg.\n— Ernst, Färber, \"\n— Anna, Fabrikarbeiterin, Aarburg.\n29 * Hässig-Groß, Fritz, Bäcker und Wirt.\nMerz-von Arx, Christian, Coiffeur, Beinwil.\nWeber-Reil, Ferdinand, Schneider.\nSchweizer, Margrit, Damenschneiderin, Glattfelden (Zürich).\nLäuchli-Gilgen, Anna.\n30 Wehrli-Säuberli, Emil, Bäckermeister, Küttigen [tel].\nMeier-Großmann, Anna, Witwe, Privatin, Rheinfelden.\nLoutz-Leder, Emil, Lithograph, Chaux de Milieux (Neuenburg).\n31 * Gamper & Co. [tel] Lager in Herren- und Damenkleiderstoffen,\nHerren- und Damenkonfektion, Anfertigung von Damen- und\nHerrenkleidern nach Maβ.\nKirchgasse.\n32 * Matter-Rohr, Emil, Bezirksverwalter in Muri.\nLässer, Susanna, Packerin, Gontenschwil.\nWtrz-Elsasser, Rudolf, Pferdewärter, Schloßrued.\nEckert-Fehrenbacher, Klemens, Maschinist, Dogern (Baden).\nLöffler, Johann, Schneider, Gopprecht (Oesterreich).\n33 * Vidiella, Manuels Erbschaft [tel]. Spanische Weinhalle. Wein-\nhandlung und Champagner.\nMasaben-Elias, Juan, Wirt, Sabadell (Spanien).\n31a * Hány, Hermann, Bäckermeister, Kölliken.\nWanieck, Josef, Schuhmacherei. Wohnung: Schmiedgasse 379.\nMüller-Nikles, Jakob, Ausläufer, Unter-Entfelden.\nSuter-Bieber, Jakob, Fahrknecht, Gränichen.\nPamlitschka-Schlögel, Jakob, Fabrikarbeiter, Wien.\n36 Kálin-Rychner, Emil, Buchdruckereibesitzer, Einsiedeln.\nBuchdruckerei des Lokal Anzeigers [tel].\nRebmann-Häfliger, Emilie, Spetterin, Kulmerau.\n— Weilmersberger, Christiane, Witwe, Privatin, Kirchberg.\n(Württemberg).\n— Karl, Mechaniker, Kulmerau.\n— Hermann, Techniker, \"\nRichner-Gautschí, Hermann, Taglöhner.\nWernli-Wernli, Elisabeth, Witwe, Haushälterin, Thalheim.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16135,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1978,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.23,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:27:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p018",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p018.jpeg",
+      "bytes": 941622,
+      "sha256": "acda3a687eb5322301158781ed90e393b1aa21a1156877d43ceeaed771a0459a",
+      "sha256_of": "original",
+      "working_copy": "1913_p018.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:27:18+00:00"
+  }
+}

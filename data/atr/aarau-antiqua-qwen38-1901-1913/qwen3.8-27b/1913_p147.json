@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p147",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p147.jpeg",
+    "bytes": 967591,
+    "sha256": "dfa51290a6be238f78fb25b21b2889e25a8e5cd99abbaa00fc2f6f0c446da496",
+    "sha256_of": "original",
+    "working_copy": "1913_p147.jpeg"
+  },
+  "text": "— 105 —\nBrügger Fritz, Former, Churwalden. Hintere Bahnhofstraße 1008.\nBrühlmann-Oelhafen, Anna, Privatin, Muri. Rain 431.\nBrüllmann-Siebenmann, Ernst, Kaufmann, Hefenhofen (Thurgau).\n  Rain 436.\n*— -Hilfiker, Friedrich, Bäckerei und Wirtschaft zur Rainstube,\n  Zihlschlacht [tel]. Rain 444.\nBruder, Emmy, Fabrikarbeiterin, Seengen. Golattenmattgasse 256b.\nBruggger, Albert, Lehrer, Auenstein. Hinteres Zegli 1693.\n  — Emil, Fabrikarbeiter, Auenstein. Milchgasse 147.\n*— -Gränicher, Henriette, Tapisserie- und Broderiegeschäft. Gra-\n  ben 226.\n  — -Hartmann, Jakob, Sekretär, Auenstein. Hinteres Zegli 1693.\n  — Jean, Werkmeister, Appenzell. Schönenwerderstraße 1732.\n  — Marianne, Part., Auenstein. Bachstraße 1070.\nBrunner, Auguste, Haushälterin, Wetzikon. Rain 438.\n  — -Rohr, Bertha, Spetterin, Derendingen. Halden 296.\n  — Emil, Stadtarbeiter. Mühlematt 1360.\n  — -Eichenberger, Emil, Buchbinder. Mühlematt 1360.\n  — Ernestine, Magold (Württemberg). Rathausgasse 16.\n  — -Stucki, Friedrich, Schreiner, Schloßrued. Stritengässchen 1162.\n  — Gottfried, Stadtarbeiter, Schmiedrued. Halden 281.\n  — -Hürlimann, Gottfried, Maler, Gränichen. Adelbändli 176.\n  — -Müller, Gottlieb, Kondukteur S. B. B., Wald (Zürich). Striten-\n  gässchen 1216.\n  — Heinrich, Wasenmeister, Schmiedrued. Halden 281.\n  — Lina, Privatin. Gönhardweg 1504.\n  — -Seiler, Rosa, Taglöhnerin. Halden 302.\n  — -Wälchli, Viktor, Kaufmann, Laupersdorf. Rohrerstraße 1807.\nBrunnhofe-Hunziker, Albert, gewes. Tambourinstruktor. Striten-\n  gässchen 1151.\n  — -Hofer, August, Kreisforster. Westallee Neugut 1647.\n  — Elise, Privatin. Hintere Vorstadt 359.\n  — -Schenk, Emil, Briefträger. Weltistrasse 1643.\n  — -Wärtli, Fritz, Kunstmaler. Stritengässchen 1151.\n  — Gottlieb. Halden 261.\n  — Lisette, Privatin. Halden 264.\n  — -Schmid, Magdalena, Witwe. Bachstraße 1075.\nBrunold-Hunziker, Jb., Buchhändler, Maladers. Bahnhofstraße 1812.\nBruns-Wagner, Heinrich, Kaufmann. Spitalgässli 1896.\n* — Heinr., Kaufmann, Spezialmagazin, Knaben- und Arbeiter-\n  kleider [tel]. Bahnhofstraße 620.\n  — Klara, Glätterin. Bahnhofstraße 620.\nBryner, Anna, Modistin, Möriken. Halden 298.\nBühler-Schirks, Cäcilie, Part., Davos. Entfelderstraße 1398.\n  — Dora, Davos. Entfelderstraße 1398.\n  — -Schmid, Fritz, Lok.-Heizer S. B. B., Zürich. Buchserstraße 1547.\n  — -Haberstich, Gottlieb, Kupferschmied. Schmiedgasse 389.\n  — Marie, Weißnäherin. Schmiedgasse 389.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 85590,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2406,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:16:03+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p147",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p147.jpeg",
+      "bytes": 967591,
+      "sha256": "dfa51290a6be238f78fb25b21b2889e25a8e5cd99abbaa00fc2f6f0c446da496",
+      "sha256_of": "original",
+      "working_copy": "1913_p147.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:16:03+00:00"
+  }
+}

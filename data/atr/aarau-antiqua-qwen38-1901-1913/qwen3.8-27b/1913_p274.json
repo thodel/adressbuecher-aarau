@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p274",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p274.jpeg",
+    "bytes": 673878,
+    "sha256": "cad4b695638ce8fa84099f03b8eb88480f79f69b0be7aef8526ff16290848e22",
+    "sha256_of": "original",
+    "working_copy": "1913_p274.jpeg"
+  },
+  "text": "— 240 —\nZiegelfabrikanten.\n*Ziegel- und Backsteinfabrik A. G. Aarau, vormals Ernst, Jakob [tel].\n  Industriegasse 937 und 938.\n*Thut, Emil [tel]. Rain 483.\nZigarren- und Tabakhandlungen.\n  Siehe unter C.\nZimmermeister.\nWehrli, Johann. Flößerstrasse 1166.\nZoologisches Präparatorium.\n*Diebold-Heller, Max [tel]. Spitalgäßli 1667.\nZuckerbäcker.\n  Siehe Konditoren.\nZuckerwarenfabriken.\n*Merz & Cie. [tel] Bahnhofstrasse 631 b.\n*Suter & Cie. [tel] Laurenzenvorstadt 758.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 40813,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 467,
+    "lines": 16,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 27.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0043,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:16:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p274",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p274.jpeg",
+      "bytes": 673878,
+      "sha256": "cad4b695638ce8fa84099f03b8eb88480f79f69b0be7aef8526ff16290848e22",
+      "sha256_of": "original",
+      "working_copy": "1913_p274.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:16:55+00:00"
+  }
+}

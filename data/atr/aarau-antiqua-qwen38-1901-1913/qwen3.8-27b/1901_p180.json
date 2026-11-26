@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p180",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p180.jpeg",
+    "bytes": 764017,
+    "sha256": "2d292d08eb725b155523e34c6c9503319ac6af83980d035599b4e6e3107c17c8",
+    "sha256_of": "original",
+    "working_copy": "1901_p180.jpeg"
+  },
+  "text": "167\nWirz-Christen, Karoline,* Oberthor 243.\nZebert, Georg,* Laurenzenthorgasse 119 und Bahnhofstraße 574.\nSchreiner.\nAndres, Jakob, Küttigerstraße 1253.\nBerner, Rudolf, Rain 507.\nBlume, Robert, Hammer 188.\nEichenberger, Jakob, Bahnhofstraße 564.\nFrei, Friedrich, Halden 286.\nFuchs, Jakob, Schloßplatz 200.\nGysi, Samuel, Stadthof 83.\nJörg, Samuel, Bachstraße 1060.\nMeier-Keller, Xaver, Rain 466.\nRotter, Joh., Bleichemattstraße 1014.\nStrebel, Eduard, Rain 477.\nWernli, Jakob, obere Vorstadt 513.\nWildi, Emil, hinter dem Platz 234.\n— Samuel, Ziegelrain 416.\nSchuhfabrikation.\n(Siebe Fabrikationsgeschäfte.)\nSchuhmacher-Fournituren.\nHäny, Rudolf, Bahnhofstraße 623.\nSchuhmacher.\nBächli, Gottlieb, Bahnhofstraße 568.\nBerchtold, Jakob, obere Vorstadt 546.\nDietiker, Samuel, Laurenzenvorstadt 727.\nDill, Johann, Metzgergasse 75.\nDöhnel, August, Golttenmattgasse (Halden) 259.\nDürr, Gottfried, Halden 289.\nErnst, Hermann, Halden 260.\nGühr, Wilhelm, obere Vorstadt 539.\nHeinzelmann, Johann, Kirchgasse 39.\nHilfiker, Jakob, Kirchgasse 39.\nHochuli, Gottlieb, Pelzgasse 101.\nHoffmann, Johann, Milchgasse 129.\nHostettler, Niklaus, Halden 283.\nJörg, Peter, Rain 430.\nKünze, Oswald, Pelzgasse 112.\nLienberger, Kaspar, Kirchgasse 34.\nLimmacher, Niklaus, Rathausgasse 15.\nMayer, Thomas, hintere Vorstadt 356.\nMüller, Johann Jakob, Kirchgasse 36.\n— Xaver, Rain 446\nRoth, Friedrich, Zeughausstraße 665. (Siehe Inserat Seite 22.)\nSchenk, Johann, Kirchgasse 36.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 65505,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1441,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 31.04,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:07:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p180",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p180.jpeg",
+      "bytes": 764017,
+      "sha256": "2d292d08eb725b155523e34c6c9503319ac6af83980d035599b4e6e3107c17c8",
+      "sha256_of": "original",
+      "working_copy": "1901_p180.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:07:58+00:00"
+  }
+}

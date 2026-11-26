@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p078",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p078.jpeg",
+    "bytes": 912994,
+    "sha256": "834da6300eccedad4f2c2e3b230374d5563af52994f3ee09e9f68fa4f841fe92",
+    "sha256_of": "original",
+    "working_copy": "1913_p078.jpeg"
+  },
+  "text": "— 58 —\nHaus-\nNr.\n765 Windisch-Kohler, Samuel, Densbüren. Generalagentur der\n  schweiz. Lebensversicherungs- und Rentenanstalt Zürich.\nStolz-Windisch, Wilhelm, Kaufmann, Eckwil-Mägenwil.\n766 Isler, Emil, Ständerat, Fürsprech und Notar, Wohlen [tel].\n — Edgar, Fürsprech und Notar, Wohlen.\nMeier, Bertha, Haushälterin, Tegerfelden.\n768 Oehler-Osthueß, Adele.\nGautier-Ernst, Paul, Instruktionsoffizier, Genf.\nOehler-Theiler, Elise [tel].\n — Hedwig.\n773 * Chocolat Frey A. G., Fabrikgebäude, Bureau [tel].\n775 Frey-Schindler, Max, Fabrikant [tel].\n782 Sauerländer-Frey, Remigius, Buchdruckereibesitzer. Verlag,\n  Buchdruckerei und Buchbinderei [tel].\n — -Oehler, Remigius, Buchdrucker.\n785 Frey-Riniker, Gustav, Privater [tel].\n788 Meuly-Hilty, J. Lorenz, Dr. med., Arzt, Nufenen (Graub.) [tel].\nKeller, Lina, Privatin, Veltheim.\n888 Wildi-Egloff, Fritz, Instruktionsoffizier.\n — -Dätwyler, Rolf, Privater, Gontenschwil.\n1745 Otti-Roth, Dr. Johann, Professor, Oberwil (Bern).\n1717* Goldschmid, Max, Ingenieur.\nGygi-Schlatier, Adolf, Direktor der Jura cementfabrik Holder-\n  bank, Kappelen (Bern).\n1669 Müllhaupt-Fehlmann, Ernst, Kunstzeichner, Bergdietikon. Kunst-\n  gewerbliches Atelier.\nRöslin, Ignaz, Kaufmann, Säckingen (Baden).\n789 * Steiner, Sam., Privater.\nSchießer-Schießer, Hrch., Beamter der kant. Krankenanstalt,\n  Dießbach (Bern).\nLocher-Hunziker, Werner, Lehrer, Ems.\n790 * Steiner, Sam., Privater.\nHartmann-Richner, Wilhelm, Instruktionsoffizier, St. Peterzell.\n791 * Steiner, Sam., Privater.\nHusy-Burger, A., Olten.\nBeyli-Wohler, Friedr., kant. Steuerpräsident, Villmergen.\n — Walter, Fürsprech u. Notar, Direktionssekretär, Villmergen.\n — Bertha, Villmergen.\nMösch-Gaßler, Marie, Witwe, Privatin, Frick.\n793 Steiner-Sennhauser, Sam., Privater.\nLutz, Theodor, Limonadenfabrik. (Wohnung hint. Vorstadt 374.)\nGautschi-Siegrist, Dr. Walter, Stadt schreiber, Gontenschwil.\nHaller-Fischer, Hans, Kaufmann, Gontenschwil.\nMeister-Koller, Ernst, Heilsarmeeoffizier, Merishausen.\nBenz-Frey, Josef, Zugführer S. B. B., Neuenhof.\n — Rosa, Neuenhof.\n1665 Meyer-Schait, Jakob, Dintikon [tel]. Spezeriehandlung zum\n  Kaffeebaum. Salzverkaufstelle.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 22039,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2144,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:55:15+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p078",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p078.jpeg",
+      "bytes": 912994,
+      "sha256": "834da6300eccedad4f2c2e3b230374d5563af52994f3ee09e9f68fa4f841fe92",
+      "sha256_of": "original",
+      "working_copy": "1913_p078.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:55:15+00:00"
+  }
+}
