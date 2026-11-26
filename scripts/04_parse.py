@@ -161,11 +161,19 @@ ORIGIN_DOT_FROM = 1913
 
 
 _KNOWN_PLACES: set[str] | None = None
-OCC_SUFFIX = re.compile(r"(er|erin|in|ist|istin|eur|euse|our|aktur|ant|ent|kt|zt|wart|wirt|te|ling|mann|är|ärin|geschäft|handlung|bureau|filiale)$|\s(der|des|zum|zur|und|u\.)\s")
+# Berufsendungen (ohne Gross-/Kleinschreibung): «Bureau», «Filiale», «Professor», «Kupferschmied»; dazu
+# Beschreibungen mit «der/des/zum/zur/und» und solche, die mit «zum/zur/z.» beginnen («zum Schloßgarten»).
+OCC_SUFFIX = re.compile(r"(er|erin|in|ist|istin|eur|euse|our|aktur|ant|ent|kt|zt|wart|wirt|te|ling|mann|är|ärin|or|schmied"
+                        r"|polier|expedition|artikell?|waren|geschäft|handlung|bureau|filiale)$|\s(der|des|zum|zur|und|u\.)\s|^(zum|zur|z\.)\s",
+                        re.I)
+
+
+NOT_PLACES = {"Agent"}   # Gemeindename in Wikidata (Q70167), im Adressbuch immer der Beruf
 
 
 def known_places() -> set[str]:
-    """Heimatorte der Bände vor 1913 («von Küttigen»: dort sicher als Ort erkannt)."""
+    """Heimatorte der Bände vor 1913 («von Küttigen»: dort sicher als Ort erkannt) und die Namen der heutigen
+    und ehemaligen Schweizer Gemeinden (data/ext/ch_gemeinden.csv, scripts/07_gemeinden.py)."""
     global _KNOWN_PLACES
     if _KNOWN_PLACES is None:
         _KNOWN_PLACES = set()
@@ -174,12 +182,26 @@ def known_places() -> set[str]:
             if p.exists():
                 with p.open(encoding="utf-8") as fh:
                     _KNOWN_PLACES |= {r["origin_raw"] for r in csv.DictReader(fh) if r.get("origin_raw")}
+        p = CSV_DIR.parent / "ext" / "ch_gemeinden.csv"
+        if p.exists():
+            with p.open(encoding="utf-8") as fh:
+                _KNOWN_PLACES |= {r["name"] for r in csv.DictReader(fh)} - NOT_PLACES
     return _KNOWN_PLACES
 
 
+def _is_known_place(name: str) -> bool:
+    kp = known_places()
+    name = name.strip().rstrip(".")
+    return name in kp or name.replace("-", "") in kp or name.replace("-", "").capitalize() in kp
+
+
 def looks_like_place(pre: str) -> bool:
-    """Steht vor dem Punkt ein Heimatort oder ein Beruf? «Küttigen», «Bäriswil (Bern)», «U.-Kulm» gegen «Prokurist»."""
-    if "(" in pre or pre in known_places() or pre.endswith("stein"):
+    """Steht vor dem Punkt ein Heimatort oder ein Beruf? «Küttigen», «Bäriswil (Bern)», «U.-Kulm» gegen «Prokurist».
+    Bekannte Orte gehen vor (auch «Estavayer», «Luzern und Schwyz»); sonst entscheidet die Berufsendung."""
+    if "(" in pre or pre.endswith("stein") or _is_known_place(pre):
+        return True
+    parts = re.split(r"\s+(?:und|u\.)\s+", pre)
+    if len(parts) > 1 and all(_is_known_place(x) for x in parts):
         return True
     return not (pre in STATUS or pre + "." in STATUS or pre in RELATION or pre.endswith(("Witwe", "Wwe"))
                 or OCC_SUFFIX.search(pre))

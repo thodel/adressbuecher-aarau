@@ -78,6 +78,21 @@ class HeimatortOderBeruf1913(unittest.TestCase):
                          ("Ladentochter", "", "Ober-Erlinsbach"))
         self.assertEqual(self.fields("Huber, Karl, Schlosser, Darmstadt. Bahnhofstraße 5.")[3], "Darmstadt")
 
+    def test_berufe_gross_geschrieben_und_ohne_endung(self):   # Issue #6
+        for t in ("Aeschbach-Urech, Friedrich, Maschinenfabrik und Eisengießerei, Bureau [tel]. Torfeldstraße 942.",
+                  "Hagmann-Stolz, Adolf, Schuhhandlung, Filiale. Hint. Vorstadt 357.",
+                  "Rennhart-Maier, Martin, Professor. Entfelderstraße 1391.",
+                  "Haberstich, Gottlieb, Kupferschmied. Schmiedgasse 389.",
+                  "Renold, R., Fabrikants Erbschaft, zum Schloßgarten [tel]. Laurenzenvorstadt 701."):
+            self.assertEqual(self.fields(t)[3], "", t)
+
+    def test_orte_mit_berufsendung(self):                      # Issue #6
+        for t, o in (("Huber, Karl, Schlosser, Estavayer. Bahnhofstraße 5.", "Estavayer"),
+                     ("Huber, Karl, Schlosser, Savognin. Bahnhofstraße 5.", "Savognin"),
+                     ("Huber, Karl, Schlosser, Luzern und Schwyz. Bahnhofstraße 5.", "Luzern und Schwyz")):
+            self.assertEqual(self.fields(t)[3], o, t)
+        self.assertFalse(self.p.looks_like_place("Agent"))
+
 
 class Institutionen(unittest.TestCase):
     def setUp(self):
