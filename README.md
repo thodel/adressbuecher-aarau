@@ -19,7 +19,15 @@ DNB-Datei. Ab 1913 steht der Heimatort ohne «von» vor einem Punkt («…, Bott
 (S. 277–297) sind nicht eingebunden. Stichprobe 20 Einwohner-Einträge am Seitenbild
 (`data/review/stichprobe_dnb_1901_1913.csv`): 13 von 19 voll korrekt, ein Randfragment der Gegenseite (inzwischen
 verworfen); Fehler: 4 Parser (Institutionen mit Bindestrich wie in allen Bänden, Firmen-Folgezeile, Berufswort als
-Heimatort), 2 Lesung («Wehrlí», «Überlingen» statt «Ueberlingen»).
+Heimatort), 2 Lesung («Wehrlí», «Überlingen» statt «Ueberlingen»). Die Institutionen sind seither in allen Bänden
+behoben: Körperschaften (Ämter, Anstalten, Kassen, Vereine …) haben `entry_type` «institution», Geschäftsnamen
+(«…handlung», «…fabrik») «firma», beide mit ganzem Namen statt Name und Allianzname; umbrochene Zeilen wie
+«Direktor der aarg. | Kreditanstalt, …» gehören zum vorigen Eintrag, und «Bureau», «Laden», «Magazin» gelten als
+Adressrolle nur als ganzes Wort (nicht in «Bureauangestellte», «Ladentochter», «Magaziner»).
+1913 steht vor dem Punkt nicht immer ein Heimatort: Stand und Beruf («Privatin.», «Bankbeamter.») und der Vorname
+bei Einträgen ohne Beruf («Wehrli-Säuberli, Emil [tel]. Rathausgasse 30.») bleiben in ihren Feldern; als Ort gilt,
+was in Klammern steht, als Heimatort der älteren Bände vorkommt oder keine Berufsendung hat (`looks_like_place`).
+Bekannte Lücke: einzelne Orte auf -er/-in (Estavayer, Savognin) fallen in den Beruf.
 
 Ziel ist ein Informationssystem über Personen, Haushalte, Gebäude, Berufe und
 Institutionen Aaraus im späten 19. Jahrhundert, modelliert in CIDOC-CRM 7.1.3 + SDHSS.

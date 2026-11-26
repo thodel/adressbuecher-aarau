@@ -276,7 +276,7 @@ Graph später sagen kann, woher ein Tripel stammt.
 | `06_streets.csv` | `street_raw` | normierte Strasse, Quartier, heutiger Name (wo bekannt), Wikidata/GeoNames, `osm_id`, `osm_type`, `lat`, `lon` (Nominatim, Abschnitt 4b) |
 | `06_origins.csv` | `origin_raw` | Heimatort normiert, Kanton, HLS-/Wikidata-Id |
 | `07_persons.csv` | `person_id` | kanonischer Name, Einträge je Band (`entry_ids`), erstes/letztes Jahr, Matching-Score, Matching-Regel |
-| `07_groups.csv` | `group_id` | Behörden, Vereine, Firmen, Gemeinden (Bürgerorte); Typ |
+| `07_groups.csv` | `group_id` | Behörden, Vereine, Firmen, Gemeinden (Bürgerorte); Typ. Quelle in 04/05: `entry_type` «institution» (Körperschaft) und «firma» |
 | `07_roles.csv` | `person_id, group_id, volume` | Amt/Funktion, Quelle (Behördenverzeichnis) |
 | `08_mentions.csv` | `entry_id, target_id` | Eintrag → Person/Gebäude/Gruppe/Ort; Rolle der Erwähnung |
 | `09_links_anb.csv` | `target_id, chunk_id` | Verknüpfung Person/Gebäude ↔ Passage der Aarauer Neujahrsblätter (Abschnitt 4a); Stufe, Score, Beleg, Status |
@@ -296,7 +296,7 @@ Alle Begriffe aus `registry.py`; nichts Eigenes, solange SDHSS es hat.
 | Beruf | `sdh-slc:C12` Actor's Social Role (Vokabular) + `sdh-slc:C13` Embodiment je Person und Band | `P4` → E52 (Bandjahr als Zeitpunkt der Beobachtung) |
 | Wohnsitz | `P74_has_current_or_former_residence` → Gebäude; je Band als `E13_Attribute_Assignment` mit Zeit (damit Umzüge datierbar sind) | |
 | Gebäude | `E53_Place` mit `E42` (Gebäudenummer) | `P89_falls_within` → Strasse (`E53`) → Aarau (`E53`, Wikidata) |
-| Bürgerrecht Aarau | Stern im Einwohnerverzeichnis = `sdh-slc:C5` Membership (Typ «Bürgerrecht») → `E74_Group` Bürgergemeinde Aarau | ersetzt die frühere Lesart «Hausbesitz» |
+| Bürgerrecht Aarau | Stern im Einwohnerverzeichnis = `sdh-slc:C5` Membership (Typ «Bürgerrecht») → `E74_Group` Bürgergemeinde Aarau | ersetzt die frühere Lesart «Hausbesitz»; 1913 heisst der Stern «im Handelsregister eingetragen» (Legende S. 137), kein Bürgerrecht (`residual` «handelsregister») |
 | Eigentum | Gebäudeverzeichnis: Eigentümer je Nummer = `E13` «Eigentümer» (Rollentyp E55) mit Bandjahr; `*` dort = Eigentümer wohnt im Haus (zusätzlich `P74`) | |
 | Heimatort / Bürgerrecht | `sdh-slc:C5` Membership (Typ «Bürgerrecht») → `E74_Group` (Bürgergemeinde) mit `P74`-Ort | |
 | Behörde, Verein, Firma | `E74_Group` + `crm-sup:C9` Gruppentyp | Amt = `sdh-slc:C13` innerhalb der Gruppe, mit Bandjahr |

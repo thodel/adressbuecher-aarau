@@ -55,5 +55,73 @@ class DnbFaelle(unittest.TestCase):
         self.assertEqual((r["entry_type"], r["forename"]), ("person", "Rosine"))
 
 
+class HeimatortOderBeruf1913(unittest.TestCase):
+    def setUp(self):
+        self.p = _parse()
+
+    def fields(self, t, prev=""):
+        r = self.p.parse_entry(t, prev, origin_dot=True)
+        return r["forename"], r["occupation_raw"], r["civil_status"], r["origin_raw"], r["_addresses"][0][1]
+
+    def test_ohne_heimatort(self):
+        self.assertEqual(self.fields("Stauffer-Wildi, Albert, Bankbeamter. Bahnhofstraße 590."),
+                         ("Albert", "Bankbeamter", "", "", "Bahnhofstraße"))
+        self.assertEqual(self.fields("Meier, Anna, Privatin. Halden 12."), ("Anna", "", "Privatin", "", "Halden"))
+        self.assertEqual(self.fields("Meier, Anna, Witwe, Wäscherin. Halden 12.")[1:4], ("Wäscherin", "Witwe", ""))
+        self.assertEqual(self.fields("— -Herzog, Marie. Zelglistraße 1700.", "Urech")[0], "Marie")
+
+    def test_heimatort_bleibt(self):
+        self.assertEqual(self.fields("— Elisabeth, Küttigen. Hammer 178.", "Frey")[3], "Küttigen")
+        self.assertEqual(self.fields("Klay, Ludwig, Bäriswil (Bern). Zollrain 63.")[3], "Bäriswil")
+        self.assertEqual(self.fields("Müller, Hans, Kaufmann, St. Gallen. Westallee 5.")[1:4], ("Kaufmann", "", "St. Gallen"))
+        self.assertEqual(self.fields("— Hedwig, Ladentochter. Ober-Erlinsbach. Pelzgasse 106.", "X")[1:4],
+                         ("Ladentochter", "", "Ober-Erlinsbach"))
+        self.assertEqual(self.fields("Huber, Karl, Schlosser, Darmstadt. Bahnhofstraße 5.")[3], "Darmstadt")
+
+
+class Institutionen(unittest.TestCase):
+    def setUp(self):
+        self.p = _parse()
+
+    def test_institution_bleibt_ganz(self):
+        r = self.p.parse_entry("Kredit-Anstalt, Aargauische, [tel] Laurenzenvorstadt 700.", "")
+        self.assertEqual((r["entry_type"], r["surname"], r["alliance_name"], r["forename"], r["occupation_raw"]),
+                         ("institution", "Kredit-Anstalt", "", "", "Aargauische"))
+        r = self.p.parse_entry("Lehrerinnen-Seminar, Laurenzenvorstadt 802.", "")
+        self.assertEqual((r["entry_type"], r["surname"], r["alliance_name"]), ("institution", "Lehrerinnen-Seminar", ""))
+        r = self.p.parse_entry("Kreiskommando, Laurenzenvorstadt 714.", "")
+        self.assertEqual(r["entry_type"], "institution")
+
+    def test_geschaeft_und_aktiengesellschaft(self):
+        r = self.p.parse_entry("Eisen- und Quincailleriehandlung, Kronengasse 41.", "")
+        self.assertEqual((r["entry_type"], r["surname"]), ("firma", "Eisen- und Quincailleriehandlung"))
+        r = self.p.parse_entry("Conradin Zschokke A. G. Technisches Bureau, Laurenzenvorstadt 9.", "")
+        self.assertEqual(r["entry_type"], "firma")
+
+    def test_namen_bleiben_personen(self):
+        for t, s, a in (("Neuburger-Imhof, Albert, Apotheker, Graben 215.", "Neuburger", "Imhof"),
+                        ("Wyler-Guggenheim, Raphael, Kaufmann, Graben 7.", "Wyler", "Guggenheim"),
+                        ("Kurz-Korkhaus, Elsbeth, Witwe, Laurenzenvorstadt 710.", "Kurz", "Korkhaus")):
+            r = self.p.parse_entry(t, "")
+            self.assertEqual((r["entry_type"], r["surname"], r["alliance_name"]), ("person", s, a), t)
+        r = self.p.parse_entry("Muster-Bank, Emil, Lithograph, Gais 487.", "", forenames={"Emil"})
+        self.assertEqual((r["entry_type"], r["alliance_name"]), ("person", "Bank"))
+
+    def test_umbrochene_zeile_gehoert_zum_vorigen_eintrag(self):
+        text = ("Pfau, Joh. Jakob, Direktor der aarg.\nKreditanstalt, Laurentenvorst. 1340.\n"
+                "— Joh. Jakob, Bankangestellter, Laurenzenvorst. 100.\n"
+                "Vallentin, Emil, Gießer, Milchgasse 137.\nVersicherungsamt, Bahnhofstraße 606.\n")
+        rows = self.p.parse_page(text, "1896", 140)
+        self.assertEqual([(r["surname"], r["forename"]) for r in rows],
+                         [("Pfau", "Joh. Jakob"), ("Pfau", "Joh. Jakob"), ("Vallentin", "Emil"), ("Versicherungsamt", "")])
+        self.assertEqual(rows[0]["occupation_raw"], "Direktor der aarg. Kreditanstalt")
+
+    def test_rollenwort_nur_als_ganzes_wort(self):
+        r = self.p.parse_entry("Lenzin, Joseph, Bureauangestellter, Pelzgasse 92.", "")
+        self.assertEqual((r["occupation_raw"], r["_addresses"]), ("Bureauangestellter", [("", "Pelzgasse", "92")]))
+        r = self.p.parse_entry("Meier, Hans, Schreiner, Wohnung Zollrain 181; Werkstätte Hammer 12.", "")
+        self.assertEqual([a[0] for a in r["_addresses"]], ["wohnung", "werkstätte"])
+
+
 if __name__ == "__main__":
     unittest.main()

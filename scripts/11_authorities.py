@@ -184,7 +184,7 @@ def load_entries() -> list[dict]:
         kind = "einwohner" if "04_entries" in f else "bewohner"
         with open(f, encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
-                if r.get("entry_type") == "firma" or not r.get("surname"):
+                if r.get("entry_type") in ("firma", "institution") or not r.get("surname"):
                     continue
                 if r.get("address_seq") not in (None, "", "1"):
                     continue

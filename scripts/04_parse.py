@@ -37,7 +37,7 @@ STATUS = {"Sohn", "Tochter", "Wittwe", "Witwe", "Wwe.", "Wwe", "Frau", "Fräulei
 RELATION = {"Sohn", "Tochter"}
 TITLES = {"Dr.", "Dr. med.", "Dr. phil.", "Dr. jur.", "Prof.", "Regt.", "Pfr."}
 ADDR_RE = re.compile(r"^(?P<street>.+?)(?:\s+|(?<=\.))(?P<no>\d+\s?[a-z]?\.?(?:\s?[a-z]\.?)?)\.?$")
-ROLE_RE = re.compile(r"^(Wohnung|Werkstätte|Geschäft|Magazin|Bureau|Laden|Comptoir|Atelier)\s*[:,]?\s*", re.I)
+ROLE_RE = re.compile(r"^(Wohnung|Werkstätte|Geschäft|Magazin|Bureau|Laden|Comptoir|Atelier)\b\s*[:,]?\s*", re.I)
 # 1888/1892: Heimatort ohne Komma hinter dem Beruf («Taglöhner von Seon»). Gieriges «occ»,
 # damit bei «Handlung von Marmorsteinen von Sagliano» das letzte «von» gilt.
 OCC_ORIGIN_RE = re.compile(r"^(?P<occ>.+)\s+(?:von|v\.)\s+(?P<place>[A-ZÄÖÜ][^()]*?(?:\s*\([^)]+\))?)\.?$")
@@ -47,6 +47,30 @@ ORIGIN_RE = re.compile(r"^(?:von|v\.)\s+(?P<place>.+?)(?:\s*\((?P<canton>[^)]+)\
 RUNNING_HEAD = re.compile(r"^\d+\s*$|^(\d+\s+(—\s+)?)?[A-ZÄÖÜ][\w-]+\.?\s+—\s+[A-ZÄÖÜ][\w-]+\.?(\s+\d+)?$"
                           r"|^(\d+\s+)?(Alphabetisches Verzeichnis|Geschäfts- und Gewerbetreibende|Verzeichnis der Gebäude[^,]*)\.?(\s+\d+)?$|^—\s*\d+\s*—$")
 FIRM_RE = re.compile(r"&\s*(Cie|Co|Comp|Sohn|Söhne)\b|\bCie\.|\bGebr(üder|\.)|\bSöhne\b|^\S*fabrik\.|\bAktiengesellschaft\b|\bA\.-G\.", re.I)
+# Institutionen und Geschäfte im Namensfeld («Kredit-Anstalt, Aargauische», «Lehrerinnen-Seminar», «Kreiskommando»,
+# «Eisen- und Quincailleriehandlung»): ein Wort des Kopfes endet auf eines dieser Wörter. «hof», «heim», «haus» fehlen
+# mit Absicht (Imhof, Guggenheim, Korkhaus); steht danach ein bekannter Vorname, bleibt es eine Person.
+INST_WORD = re.compile(r"(anstalt|anstalten|seminar|verein|gesellschaft|kasse|bank|schule|amt|kommission|bureau|büreau"
+                       r"|direktion|verwaltung|spital|institut|genossenschaft|kanzlei|expedition|station|zentrale|union"
+                       r"|klub|club|stelle|kammer|komitee|comité|inspektorat|kommando|zeitung|blatt|asyl|kirche|gemeinde"
+                       r"|kollegium|bibliothek|museum|archiv|gericht|polizei|verband|korps|corps|gebäude|kaserne|zeughaus)\.?$", re.I)
+BUSINESS_WORD = re.compile(r"(handlung|fabrik|fabrikation|werk|werke|druckerei|lager|depot|agentur|magazin|geschäft"
+                           r"|brauerei|halle)\.?$", re.I)
+
+
+def body_kind(head: str) -> str:
+    """«institution», «firma» oder "" für den Namenskopf eines Eintrags."""
+    words = [w for w in re.split(r"[\s-]+", head) if len(w) > 2]
+    if re.search(r"&|\bA\.?\s?-?G\b", head) and (any(INST_WORD.search(w) for w in words)
+                                                  or any(BUSINESS_WORD.search(w) for w in words)):
+        return "firma"                              # «Conradin Zschokke A. G. Technisches Bureau»
+    if any(INST_WORD.search(w) for w in words):
+        return "institution"
+    if any(BUSINESS_WORD.search(w) for w in words):
+        return "firma"
+    return ""
+
+
 IDEM_RE = re.compile(r"\b(id\.|idem|dito|do\.)\s*", re.I)
 
 
@@ -65,6 +89,8 @@ def prenormalise(text: str) -> str:
 
 
 ENTRY_START = re.compile(r"^(\*|—|--|-\s|\[handschriftlich)|^\*?\s*[A-ZÄÖÜ][\w'.-]+(\s+(geb\.|von|de|&|u\.|und)\s+[\w'.-]+)?\s*,")
+# Vorzeile bricht mitten im Satz ab: «Direktor der aarg.», «Weißwaaren- und», «Kaufmann,», «Pfarrer der reformirten»
+OPEN_END = re.compile(r"(,|-|\b(und|u\.|der|des|dem|zur|zum|am|für)|\b(der|des|d\.)\s+\S+\.|\b[a-zäöü][\w-]*\.|&\s*Cie\.|[^\s.)\]])\s*$")
 COMPLETE_END = re.compile(r"\d+\s?[a-z]?\s*\.?\s*(\[tel\])?\s*(\([^)]*\)\.?)?\s*$")
 
 
@@ -97,6 +123,10 @@ def page_to_entries(text: str) -> list[tuple[int, int, str, str]]:
             lf, lt, t, k = prev_entry
             t = (t[:-1] + s) if (t.endswith("-") and s[:1].islower()) else (t + " " + s)
             entries[-1] = (lf, i, t, k)
+        elif (prev_entry and not complete and s[:1] not in "*—-[" and body_kind(first)
+              and OPEN_END.search(prev_entry[2])):
+            lf, lt, t, k = prev_entry          # «Pfau, Joh. Jakob, Direktor der aarg. | Kreditanstalt, Laurentenvorst. 1340.»
+            entries[-1] = (lf, i, (t[:-1] + s) if (t.endswith("-") and not t.endswith(" -")) else (t + " " + s), k)
         elif prev_entry and complete and not starts and (raw.startswith("  ") or raw.startswith("\t")) and (s[:1].islower() or s.startswith("(")):
             lf, lt, t, k = prev_entry
             entries[-1] = (lf, i, t + " " + s, k)
@@ -130,6 +160,31 @@ def split_addresses(tail: str) -> list[tuple[str, str, str]]:
 ORIGIN_DOT_FROM = 1913
 
 
+_KNOWN_PLACES: set[str] | None = None
+OCC_SUFFIX = re.compile(r"(er|erin|in|ist|istin|eur|euse|our|aktur|ant|ent|kt|zt|wart|wirt|te|ling|mann|är|ärin|geschäft|handlung|bureau|filiale)$|\s(der|des|zum|zur|und|u\.)\s")
+
+
+def known_places() -> set[str]:
+    """Heimatorte der Bände vor 1913 («von Küttigen»: dort sicher als Ort erkannt)."""
+    global _KNOWN_PLACES
+    if _KNOWN_PLACES is None:
+        _KNOWN_PLACES = set()
+        for name in ("04_entries_fraktur.csv", "04_entries_antiqua.csv", "05_residents_fraktur.csv", "05_residents_antiqua.csv"):
+            p = CSV_DIR / name
+            if p.exists():
+                with p.open(encoding="utf-8") as fh:
+                    _KNOWN_PLACES |= {r["origin_raw"] for r in csv.DictReader(fh) if r.get("origin_raw")}
+    return _KNOWN_PLACES
+
+
+def looks_like_place(pre: str) -> bool:
+    """Steht vor dem Punkt ein Heimatort oder ein Beruf? «Küttigen», «Bäriswil (Bern)», «U.-Kulm» gegen «Prokurist»."""
+    if "(" in pre or pre in known_places() or pre.endswith("stein"):
+        return True
+    return not (pre in STATUS or pre + "." in STATUS or pre in RELATION or pre.endswith(("Witwe", "Wwe"))
+                or OCC_SUFFIX.search(pre))
+
+
 def split_origin_dot(seg: str, last: bool = False) -> tuple[str, str]:
     """«U.-Entfelden. Hint. Zelgli 1849» → («U.-Entfelden», «Hint. Zelgli 1849»). Getrennt wird am ersten
     Punkt mit Leerzeichen ausserhalb von Klammern, hinter dem eine Adresse mit Nummer steht; sonst ("", seg).
@@ -144,7 +199,12 @@ def split_origin_dot(seg: str, last: bool = False) -> tuple[str, str]:
                 hits.append((pre, rest))
     if not hits:
         return "", seg
-    return hits[-1] if last else hits[0]
+    if last:
+        return hits[-1]
+    # «St. Gallen. Westallee 5», «Ladentochter. Ober-Erlinsbach. Pelzgasse 106»: der letzte Punkt hinter einem
+    # vollen Wort; Punkte hinter Kürzeln («St.», «Hint.») trennen nicht. Nur Kürzel: wie bisher der erste.
+    full = [h for h in hits if len(re.split(r"[\s.]+", h[0].strip(". "))[-1]) > 4]
+    return full[-1] if full else hits[0]
 
 
 def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
@@ -201,8 +261,17 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
                 t = pre + ", " + addr
         head, _, t = t.partition(",")
         head = head.strip()
+        kind = body_kind(head)
+        first = (t.split(",")[0].split() or [""])[0].rstrip(".")
+        if kind and forenames and first in forenames:
+            kind = ""                               # «Martin-Bank, Emil»: Person
         m = re.match(r"^(?P<s>\S+)\s+geb\.\s+(?P<g>.+)$", head)
-        if m:
+        if kind:
+            rec["surname"] = head                   # ganzer Name, nicht in Name und Allianzname zerlegt
+            if rec["entry_type"] == "person":
+                rec["entry_type"] = kind
+            notes.append("körperschaft" if kind == "institution" else "geschäft")
+        elif m:
             rec["surname"], rec["maiden_name"] = m.group("s"), m.group("g")
         elif "-" in head and not head.startswith("-") and not FIRM_RE.search(head):   # nicht «Frey A.-G.»
             rec["surname"], rec["alliance_name"] = head.split("-", 1)
@@ -232,16 +301,25 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
             pre, addr = split_origin_dot(addr_tail)
             if pre:
                 addr_tail = addr
+                occ, _, place = pre.rpartition(". ") if "(" not in pre else ("", "", pre)
+                if occ and len(re.split(r"[\s.]+", occ)[-1]) > 4:
+                    segs.append(occ)                 # «Ladentochter. Ober-Erlinsbach»
+                    pre = place
                 m = re.match(r"^(?P<p>[^()]+?)\s*\((?P<c>[^)]+)\)$", pre)
-                if rec["entry_type"] == "firma":
+                if rec["entry_type"] in ("firma", "institution"):
                     segs.append(pre)                 # Firmen: vor dem Punkt steht die Sache, kein Heimatort
+                elif (pre in STATUS or pre + "." in STATUS or pre.endswith(("Witwe", "Wwe")) or pre in RELATION
+                      or (not segs and not occ)            # «— -Herzog, Marie. Zelglistraße»: Vorname
+                      or not looks_like_place(pre)):        # «Anna, Witwe, Wäscherin. Halden 12»
+                    segs.append(pre)                 # ohne Heimatort: «Albert, Bankbeamter. Bahnhofstraße 590»
+                    notes.append("ohne heimatort")
                 else:
                     rec["origin_raw"] = (m.group("p") if m else pre).strip()
                     rec["origin_canton"] = (m.group("c") if m else "").strip()
                     notes.append("heimatort vor punkt")
         addresses = split_addresses(addr_tail)
     # Vorname: erstes Segment, sofern es nicht Status/Beruf ist
-    if segs and segs[0] not in STATUS and not ORIGIN_RE.match(segs[0]):
+    if segs and segs[0] not in STATUS and not ORIGIN_RE.match(segs[0]) and not any(n in ("körperschaft", "geschäft") for n in notes):
         rec["forename"] = segs.pop(0)
     if not rec["origin_raw"] and not any(ORIGIN_RE.match(x) for x in segs):
         for i, x in enumerate(segs):
