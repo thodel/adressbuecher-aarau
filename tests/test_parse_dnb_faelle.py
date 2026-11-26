@@ -47,12 +47,24 @@ class DnbFaelle(unittest.TestCase):
         r = self.p.parse_entry("Erdin-Obrecht, Albin, Kaufmann, Firma Erne und Cie., Bahnhofstraße 610.", "")
         self.assertEqual((r["surname"], r["alliance_name"]), ("Erdin", "Obrecht"))
 
-    def test_doppelstrich_setzt_firma_fort(self):
+    def test_doppelstrich_setzt_firma_fort(self):                # Issue #3
         firma = {"entry_type": "firma"}
         r = self.p.parse_entry("— — Fabrikgebäude, Bureau [tel]. Laurenzenvorstadt 773.", "Chocolat Frey A.-G.", firma, origin_dot=True)
-        self.assertEqual((r["entry_type"], r["origin_raw"]), ("firma", ""))
+        self.assertEqual((r["entry_type"], r["forename"], r["occupation_raw"], r["origin_raw"]),
+                         ("firma", "", "Fabrikgebäude, Bureau", ""))
+        r = self.p.parse_entry("*— — Filiale. Spitalgäßli 1769.", "Konsumverein Aarau", {"entry_type": "institution"}, origin_dot=True)
+        self.assertEqual((r["entry_type"], r["forename"]), ("institution", ""))
+        for t in ("— — Restaurant zum Bahnhof. Hintere Bahnhofstraße 1034.", "*— — Kosthaus. Scheibenschachen 1671.",
+                  "— — Schuhmacher, Schmiedgasse 391.", "*— — & Cie., Lack- und Farbfabrik [tel]. Obere Vorstadt 534."):
+            self.assertEqual(self.p.parse_entry(t, "X", {"entry_type": "person"}, origin_dot=True)["forename"], "", t)
+
+    def test_doppelstrich_mit_vorname_bleibt_person(self):       # Issue #3
+        r = self.p.parse_entry("— — Oskar, Seidenbandfabrikant, Schmiedgasse 384.", "Frey", {"entry_type": "firma"}, origin_dot=True)
+        self.assertEqual((r["entry_type"], r["forename"]), ("person", "Oskar"))
         r = self.p.parse_entry("—— Rosine, Näherin, hintere Vorstadt 641.", "Hemmeler", {"entry_type": "person"})
         self.assertEqual((r["entry_type"], r["forename"]), ("person", "Rosine"))
+        r = self.p.parse_entry("— — Anna. Mercerie- und Lingeriegeschäft.", "Dürr", has_address=False)
+        self.assertTrue(r["forename"].startswith("Anna"))
 
 
 class HeimatortOderBeruf1913(unittest.TestCase):

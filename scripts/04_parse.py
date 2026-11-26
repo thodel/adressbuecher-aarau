@@ -58,6 +58,17 @@ BUSINESS_WORD = re.compile(r"(handlung|fabrik|fabrikation|werk|werke|druckerei|l
                            r"|brauerei|halle)\.?$", re.I)
 
 
+# «— — Fabrikgebäude», «Filiale», «Restaurant zum Bahnhof», «& Cie.», «Schuhmacher»: Beschreibung statt Vorname
+DESCRIPTION_RE = re.compile(r"^[&„\"“”]|haus\b|gebäude|fabrik|lokal|stätte|statt\b|magazin|filiale|bureau|druckerei"
+                            r"|restaurant|restr\b|halle|gasthof|hotel|chalet|lager|depot", re.I)
+OCC_WORD = re.compile(r"(macher|meister|händler|schneider|istin|eur|euse|erin)$", re.I)
+
+
+def is_description(head: str) -> bool:
+    """Steht in einer «— —»-Folgezeile statt eines Vornamens eine Beschreibung?"""
+    return bool(DESCRIPTION_RE.search(head) or body_kind(head) or OCC_WORD.search(head.rstrip(". ")))
+
+
 def body_kind(head: str) -> str:
     """«institution», «firma» oder "" für den Namenskopf eines Eintrags."""
     words = [w for w in re.split(r"[\s-]+", head) if len(w) > 2]
@@ -271,9 +282,12 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
         rec["surname_inherited"] = "1"
         t = t[1:].strip()
         if t.startswith("—"):                       # «— — Fabrikgebäude, Bureau»: weitere Zeile derselben Firma
-            if prev and prev.get("entry_type") == "firma":
-                rec["entry_type"] = "firma"
             t = t[1:].strip()
+            part = re.split(r"\.\s", t.split(",")[0].strip())[0]     # «Anna. Mercerie-…» → «Anna»
+            if is_description(part):
+                if prev and prev.get("entry_type") in ("firma", "institution"):
+                    rec["entry_type"] = prev["entry_type"]
+                notes.append("folgezeile ohne vorname")  # «Filiale», «Kosthaus», «Restaurant zum Bahnhof»
         if t.startswith("-"):                       # — -Graden, … (Allianzname zum geerbten Namen)
             head, _, t = t[1:].partition(",")
             rec["alliance_name"] = head.strip()
@@ -353,7 +367,7 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
                 notes.append("beruf vor punkt")
         addresses = split_addresses(addr_tail)
     # Vorname: erstes Segment, sofern es nicht Status/Beruf ist
-    if segs and segs[0] not in STATUS and not ORIGIN_RE.match(segs[0]) and not any(n in ("körperschaft", "geschäft") for n in notes):
+    if segs and segs[0] not in STATUS and not ORIGIN_RE.match(segs[0]) and not any(n in ("körperschaft", "geschäft", "folgezeile ohne vorname") for n in notes):
         rec["forename"] = segs.pop(0)
     if not rec["origin_raw"] and not any(ORIGIN_RE.match(x) for x in segs):
         for i, x in enumerate(segs):
