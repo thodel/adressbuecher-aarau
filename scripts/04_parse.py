@@ -207,7 +207,7 @@ def looks_like_place(pre: str) -> bool:
                 or OCC_SUFFIX.search(pre))
 
 
-def split_origin_dot(seg: str, last: bool = False) -> tuple[str, str]:
+def split_origin_dot(seg: str, last: bool = False, strict: bool = False) -> tuple[str, str]:
     """«U.-Entfelden. Hint. Zelgli 1849» → («U.-Entfelden», «Hint. Zelgli 1849»). Getrennt wird am ersten
     Punkt mit Leerzeichen ausserhalb von Klammern, hinter dem eine Adresse mit Nummer steht; sonst ("", seg).
     `last`: am letzten solchen Punkt (Firmenzeilen ohne Komma: «Custer & Cie. Fabrikation … Champagner. Bahnhofstraße 626»)."""
@@ -226,6 +226,10 @@ def split_origin_dot(seg: str, last: bool = False) -> tuple[str, str]:
     # «St. Gallen. Westallee 5», «Ladentochter. Ober-Erlinsbach. Pelzgasse 106»: der letzte Punkt hinter einem
     # vollen Wort; Punkte hinter Kürzeln («St.», «Hint.») trennen nicht. Nur Kürzel: wie bisher der erste.
     full = [h for h in hits if len(re.split(r"[\s.]+", h[0].strip(". "))[-1]) > 4]
+    if strict:                                       # nur hinter einem vollen Wort, nie an einem Kürzel; dahinter
+        full = [h for h in full                      # beginnt eine Strasse («Bahnhofstr. 1020, …», «Nr. 5» nicht)
+                if re.match(r"^\*?\s*[A-Za-zÄÖÜäöü]", h[1]) and not re.match(r"^Nr\b", h[1])]
+        return full[-1] if full else ("", seg)
     return full[-1] if full else hits[0]
 
 
@@ -339,6 +343,14 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
                     rec["origin_raw"] = (m.group("p") if m else pre).strip()
                     rec["origin_canton"] = (m.group("c") if m else "").strip()
                     notes.append("heimatort vor punkt")
+        elif segs or rec["surname"]:
+            # Bände vor 1913: «Villiger, Anton, Geschäftsführer d. Aarg. Nachrichten. Bahnhofstraße 658.» — der
+            # Text vor dem letzten Punkt hinter einem vollen Wort ist Beruf (oder «von Ort»), nicht Strasse.
+            pre, addr = split_origin_dot(addr_tail, strict=True)
+            if pre:
+                addr_tail = addr
+                segs.extend(x.strip() for x in re.split(r",\s*", pre) if x.strip())
+                notes.append("beruf vor punkt")
         addresses = split_addresses(addr_tail)
     # Vorname: erstes Segment, sofern es nicht Status/Beruf ist
     if segs and segs[0] not in STATUS and not ORIGIN_RE.match(segs[0]) and not any(n in ("körperschaft", "geschäft") for n in notes):

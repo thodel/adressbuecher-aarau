@@ -94,6 +94,32 @@ class HeimatortOderBeruf1913(unittest.TestCase):
         self.assertFalse(self.p.looks_like_place("Agent"))
 
 
+class BerufVorPunkt(unittest.TestCase):                            # Issue #5
+    def setUp(self):
+        self.p = _parse()
+
+    def test_beruf_nicht_in_der_strasse(self):
+        r = self.p.parse_entry("Villiger, Anton, Geschäftsführer d. Aarg. Nachrichten. Bahnhofstraße 658.", "")
+        self.assertEqual((r["occupation_raw"], r["_addresses"]), ("Geschäftsführer d. Aarg. Nachrichten",
+                                                                  [("", "Bahnhofstraße", "658")]))
+        r = self.p.parse_entry("Lenzi, Hans, Lebens- und Unfallversicherung. Auswanderung. Zollrain 12.", "")
+        self.assertEqual(r["_addresses"][0][1], "Zollrain")
+
+    def test_von_ort_vor_punkt_ist_heimatort(self):
+        r = self.p.parse_entry("Huber, Jakob, Obsthändler, von Fahrwangen. Golattenmattgasse 229.", "")
+        self.assertEqual((r["occupation_raw"], r["origin_raw"], r["_addresses"][0][1]),
+                         ("Obsthändler", "Fahrwangen", "Golattenmattgasse"))
+
+    def test_kuerzel_und_nummern_trennen_nicht(self):
+        for t, street in (("Meier, Hans, Hafner, vord. Vorst. 12.", "vord. Vorst."),
+                          ("Meier, Hans, Architect, Bureau Bahnhofstr. 1020, Wohnung Bachstraße 5.", None),
+                          ("Meier, Hans, Oberarzt an der Krankenanstalt. Nr. 1186.", None)):
+            r = self.p.parse_entry(t, "")
+            self.assertNotIn("beruf vor punkt", r["residual"], t)
+            if street:
+                self.assertEqual(r["_addresses"][0][1], street)
+
+
 class Institutionen(unittest.TestCase):
     def setUp(self):
         self.p = _parse()
