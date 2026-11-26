@@ -51,6 +51,19 @@ def read_existing(csv_path: Path) -> dict[tuple[str, str], dict]:
         return {(r["volume"], r["page"]): r for r in csv.DictReader(fh)}
 
 
+def keep_without_pdf(csv_dir: Path, volumes: list[dict], pages: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Bände ohne PDF (1901, 1913: TIFF der DNB) stehen schon in den Tabellen und bleiben dort,
+    sonst würde `make pages` sie samt Abschnitten löschen."""
+    from_pdf = {v["volume"] for v in volumes}
+    vol_csv = csv_dir / "00_volumes.csv"
+    if vol_csv.exists():
+        with vol_csv.open(newline="", encoding="utf-8") as fh:
+            volumes = volumes + [r for r in csv.DictReader(fh) if r["volume"] not in from_pdf]
+    old = read_existing(csv_dir / "01_pages.csv")
+    pages = pages + [r for (v, _), r in old.items() if v not in from_pdf]
+    return volumes, pages
+
+
 def extract(pdf: Path, out_dir: Path, year: str) -> list[dict]:
     doc = pymupdf.open(pdf)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -106,6 +119,7 @@ def main() -> None:
                         "sha256": sha256(pdf)})
         print(f"{year}: {len(rows)} Seiten → {args.out / year}")
 
+    volumes, pages = keep_without_pdf(args.csv, volumes, pages)
     with (args.csv / "00_volumes.csv").open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=["volume", "pdf", "pages", "sha256"])
         w.writeheader(); w.writerows(volumes)

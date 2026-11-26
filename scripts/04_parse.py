@@ -125,10 +125,33 @@ def split_addresses(tail: str) -> list[tuple[str, str, str]]:
     return out
 
 
+# Ab 1913 steht der Heimatort ohne «von» vor einem Punkt und die Adresse danach:
+# «Custer-Roth, Emil, Fabrikant, Rheineck (St. Gallen). Westallee Neugut 1552.»
+ORIGIN_DOT_FROM = 1913
+
+
+def split_origin_dot(seg: str, last: bool = False) -> tuple[str, str]:
+    """«U.-Entfelden. Hint. Zelgli 1849» → («U.-Entfelden», «Hint. Zelgli 1849»). Getrennt wird am ersten
+    Punkt mit Leerzeichen ausserhalb von Klammern, hinter dem eine Adresse mit Nummer steht; sonst ("", seg).
+    `last`: am letzten solchen Punkt (Firmenzeilen ohne Komma: «Custer & Cie. Fabrikation … Champagner. Bahnhofstraße 626»)."""
+    depth, hits = 0, []
+    for i, ch in enumerate(seg):
+        depth += ch == "("
+        depth -= ch == ")"
+        if ch == "." and depth == 0 and seg[i + 1:i + 2] == " ":
+            pre, rest = seg[:i].strip(), seg[i + 1:].strip()
+            if len(pre) >= 2 and not re.search(r"\d", pre) and ADDR_RE.match(rest.split(";")[0].strip().rstrip(".")):
+                hits.append((pre, rest))
+    if not hits:
+        return "", seg
+    return hits[-1] if last else hits[0]
+
+
 def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
-                forenames: set[str] | None = None, has_address: bool = True) -> dict:
+                forenames: set[str] | None = None, has_address: bool = True, origin_dot: bool = False) -> dict:
     """`has_address=False` für Bewohnerzeilen des Gebäudeverzeichnisses: dort ist die
-    Adresse das Gebäude, und das letzte Segment ist Beruf oder Heimatort."""
+    Adresse das Gebäude, und das letzte Segment ist Beruf oder Heimatort. `origin_dot` für die Bände ab 1913
+    (Heimatort vor dem Punkt, Adresse dahinter)."""
     t = text.strip()
     rec = {k: "" for k in FIELDS}
     rec["text"] = text
@@ -147,6 +170,7 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
     if "[tel]" in t:
         rec["phone_flag"] = "1"
         t = t.replace("[tel]", "").replace("  ", " ")
+        t = re.sub(r"\s+([.,])", r"\1", t)                       # «Murgenthal [tel]. Spitalgäßli» → «Murgenthal.»
     if t.startswith("*"):
         rec["citizen_flag"] = "1"
         t = t[1:].strip()
@@ -162,6 +186,10 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
             head, _, t = t[4:].partition(",")
             rec["maiden_name"] = head.strip()
     else:
+        if origin_dot and "," not in t:            # «Custer & Cie. Fabrikation … Champagner. Bahnhofstraße 626.»
+            pre, addr = split_origin_dot(t, last=True)
+            if pre:
+                t = pre + ", " + addr
         head, _, t = t.partition(",")
         head = head.strip()
         m = re.match(r"^(?P<s>\S+)\s+geb\.\s+(?P<g>.+)$", head)
@@ -191,6 +219,17 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
         # Rollenwort «Wohnung» steht als eigenes Segment davor
         if segs and ROLE_RE.match(segs[-1] + " x"):
             addr_tail = segs.pop() + ", " + addr_tail
+        if origin_dot:
+            pre, addr = split_origin_dot(addr_tail)
+            if pre:
+                addr_tail = addr
+                m = re.match(r"^(?P<p>[^()]+?)\s*\((?P<c>[^)]+)\)$", pre)
+                if rec["entry_type"] == "firma":
+                    segs.append(pre)                 # Firmen: vor dem Punkt steht die Sache, kein Heimatort
+                else:
+                    rec["origin_raw"] = (m.group("p") if m else pre).strip()
+                    rec["origin_canton"] = (m.group("c") if m else "").strip()
+                    notes.append("heimatort vor punkt")
         addresses = split_addresses(addr_tail)
     # Vorname: erstes Segment, sofern es nicht Status/Beruf ist
     if segs and segs[0] not in STATUS and not ORIGIN_RE.match(segs[0]):
@@ -317,7 +356,7 @@ def parse_page(text: str, volume: str, page: int, section: str = "einwohner",
             continue                      # Titel, Kopfnoten («Bürger sind Diejenigen …»)
         if section == "berufe" and kind == "other":
             continue                      # Fliesstext von Agenturen, Kopfnoten
-        rec = parse_entry(t, prev, prev_rec, forenames)
+        rec = parse_entry(t, prev, prev_rec, forenames, origin_dot=int(volume[:4]) >= ORIGIN_DOT_FROM)
         rec["heading"] = heading
         prev = rec["surname"] or prev
         prev_rec = rec
