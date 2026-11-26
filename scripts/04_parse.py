@@ -102,6 +102,9 @@ def prenormalise(text: str) -> str:
 ENTRY_START = re.compile(r"^(\*|—|--|-\s|\[handschriftlich)|^\*?\s*[A-ZÄÖÜ][\w'.-]+(\s+(geb\.|von|de|&|u\.|und)\s+[\w'.-]+)?\s*,")
 # Vorzeile bricht mitten im Satz ab: «Direktor der aarg.», «Weißwaaren- und», «Kaufmann,», «Pfarrer der reformirten»
 OPEN_END = re.compile(r"(,|-|\b(und|u\.|der|des|dem|zur|zum|am|für)|\b(der|des|d\.)\s+\S+\.|\b[a-zäöü][\w-]*\.|&\s*Cie\.|[^\s.)\]])\s*$")
+# Legende am Anfang der Verzeichnisse: «* = Im Handelsregister eingetragen.», «[tel] = Telephon.» — Kopfnote, kein
+# Eintrag, und nichts wird an sie angehängt (sonst fressen sie die Rubriken «Advokaten.», «Ärzte.»)
+LEGEND_RE = re.compile(r"^\*?\s*=\s|^\[tel\]\s*=|\[tel\]\s*=\s*Tele(ph|f)on")
 COMPLETE_END = re.compile(r"\d+\s?[a-z]?\s*\.?\s*(\[tel\])?\s*(\([^)]*\)\.?)?\s*$")
 
 
@@ -119,6 +122,9 @@ def page_to_entries(text: str) -> list[tuple[int, int, str, str]]:
     for i, raw in enumerate(text.split("\n"), start=1):
         s = raw.strip()
         if not s or s == "[spalte 2]" or RUNNING_HEAD.match(s):
+            continue
+        if LEGEND_RE.search(s):
+            entries.append((i, i, s, "other"))
             continue
         prev_entry = entries[-1] if entries and entries[-1][3] == "entry" else None
         starts = bool(ENTRY_START.match(s))
@@ -452,7 +458,7 @@ def class_vocab() -> set[str]:
 
 
 CLASS_VOCAB = class_vocab()
-NOT_HEADING = re.compile(r"^St\. |^(General|Haupt|Lokal|Bezirks)?[Aa]gent|^(Präsident|Direktor|Kassier|Verwalter|Aktuar|Inspektor|Aktiengesellschaft|Filiale)\b")
+NOT_HEADING = re.compile(r"^St\. |^(General|Haupt|Lokal|Bezirks)?[Aa]gent(?!uren\.?$)|^(Präsident|Direktor|Kassier|Verwalter|Aktuar|Inspektor|Aktiengesellschaft|Filiale)\b")
 
 
 def is_heading(t: str) -> bool:

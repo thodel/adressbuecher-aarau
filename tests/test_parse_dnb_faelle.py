@@ -132,6 +132,27 @@ class BerufVorPunkt(unittest.TestCase):                            # Issue #5
                 self.assertEqual(r["_addresses"][0][1], street)
 
 
+class Legende(unittest.TestCase):                                  # Issue #4
+    def setUp(self):
+        self.p = _parse()
+
+    def test_legende_ist_kein_eintrag(self):
+        rows = self.p.parse_page("Alphabetisches Verzeichnis\n* = Im Handelsregister eingetragen. [tel] = Telephon.\n"
+                                 "Meier, Hans, Schreiner, Halden 12.\n", "1913", 137)
+        self.assertEqual([r["surname"] for r in rows], ["Meier"])
+
+    def test_rubriken_nach_der_legende(self):
+        text = ("Die\nGeschäfts- und Gewerbetreibenden\nin alphabetischer Folge der Berufsklassen.\n"
+                "* = Im Handelsregister eingetragen.\nAdvokaten.\n(Siehe Fürsprecher.)\nÄrzte.\n"
+                "Frey, Konrad, Dr. med., Laurenzenvorstadt 706.\nAgenturen.\nDolder, J.,* Bahnhofstrasse 610.\n")
+        rows = self.p.parse_page(text, "1901", 148, section="berufe")
+        self.assertEqual([(r["surname"], r["heading"]) for r in rows], [("Frey", "Ärzte"), ("Dolder", "Agenturen")])
+
+    def test_agent_zeile_bleibt_keine_rubrik(self):
+        self.assertFalse(self.p.is_heading("Generalagentur der Basler Lebensversicherungen"))
+        self.assertTrue(self.p.is_heading("Agenturen."))
+
+
 class Institutionen(unittest.TestCase):
     def setUp(self):
         self.p = _parse()
