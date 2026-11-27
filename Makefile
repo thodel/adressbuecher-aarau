@@ -47,6 +47,11 @@ frueh-parse:  ## frühe Bände → 05_*_frueh.csv, 05_hausnumerierung_1900.csv, 
 erstblick:  ## durchsuchbare HTML-Seite aus den Welle-2-CSV (OUT=...)
 	$(PY) scripts/90_erstblick.py --out $(or $(OUT),web/index.html)
 
+suche:  ## Startseite mit Suche über alle Bände + Eintragsseiten + Korrekturmodus nach _site/ (wie Pages)
+	$(PY) scripts/90_erstblick.py --out _site/korrektur/index.html
+	$(PY) scripts/92_karte.py --out _site/karte.html
+	$(PY) scripts/89_suche.py --out _site
+
 flags-merge:  ## exportierte Flags einmischen (FILE=...)
 	$(PY) scripts/91_merge_flags.py $(FILE)
 

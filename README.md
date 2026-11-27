@@ -39,7 +39,9 @@ Der Plan mit Befund, Pipeline, CSV-Schema, Mapping und Abnahmekriterien steht in
 
 Visualisierungen:
 
-- Kontrollseite der Datensätze mit Flagging und Telefonbuch-Abgleich: https://thodel.github.io/adressbuecher-aarau/
+- Suche über alle Bände (Liste, Karte, Facetten, Zeitstrahl) mit Seite je Eintrag: https://thodel.github.io/adressbuecher-aarau/
+  (`scripts/89_suche.py` mit dem gemeinsamen `scripts/site_search.py`; `make suche` baut alles nach `_site/`)
+- Korrekturmodus (Kontrollseite der Datensätze mit Flagging und Telefonbuch-Abgleich): https://thodel.github.io/adressbuecher-aarau/korrektur/
 - Karte Einzugsgebiet und Wohnorte: https://thodel.github.io/adressbuecher-aarau/karte.html
 - Schwesterprojekt Basel 1841/1850/1862: https://thodel.github.io/adressbuecher-basel/ ([Repo](https://github.com/thodel/adressbuecher-basel))
 
@@ -48,7 +50,7 @@ Visualisierungen:
 - ATR läuft über den Server `tei` (SSH-Alias in `~/.ssh/config`, oder `TEI_SSH=user@host`); die
   Läufe werden über den MCP-ATR-Server von agentic_historian gestartet (siehe PLAN.md, Welle 1).
 - `make fullrun-fetch fullrun-parse erstblick` holt fertige Läufe, parst alle Abschnitte und baut
-  die Kontrollseite `web/index.html`; GitHub Pages baut dieselbe Seite bei jedem Push.
+  die Kontrollseite `web/index.html`; GitHub Pages baut sie bei jedem Push unter `korrektur/`, die Startseite ist die Suche.
 - Flags von der Kontrollseite: CSV exportieren, `make flags-merge FILE=…`, committen.
 - Verknüpfungen in `web/`, mit den Skripten erzeugt und eingecheckt (der Pages-Bau braucht kein Netz):
   - `telefon.csv` (`scripts/80_telefon.py --vs ~/Repos/vernetzte-schweiz`): Einträge mit ☏ → PTT-Telefonbuch
