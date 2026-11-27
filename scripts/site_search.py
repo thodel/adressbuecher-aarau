@@ -14,14 +14,14 @@ Geschrieben wird nach `out/`:
 - `s/`           der Index, als .gz (Pages liefert .gz unverändert aus, der Browser entpackt mit DecompressionStream):
     - `meta.json`         Stadt, Bände, Teile, Gebiete, Strassen mit Koordinaten, Zahlen je Jahr
     - `occ.json.gz`       Berufe (häufigste Schreibung je Schlüssel; nur Berufe, die mindestens zweimal vorkommen)
-    - `c.bin.gz`          je Eintrag Strasse, Beruf (Uint16), Band, Teil, Gebiet (Uint8) — für Facetten und Karte
+    - `c.bin.gz`          je Eintrag Strasse, Beruf, Gebiet (Uint16), Band, Teil (Uint8) — für Facetten und Karte
     - `t/<xy>.json.gz`    Wortindex: «<Feld><Wort>» → Eintragsnummern (Differenzen), Teil = die ersten zwei Buchstaben
     - `r/<n>.json.gz`     Einträge in Blöcken zu BLOCK, nach Name, Vorname, Jahr geordnet
     - `i/<xx>.json.gz`    entry_id → Eintragsnummer (FNV-1a, 64 Teile)
 
 Ein Eintrag (dict) hat mindestens `id`, `vol`, `year`, `part`; dazu nach Bedarf `name`, `forename`, `alliance`,
 `occupation`, `street`, `no`, `area`, `origin`, `title`, `text` (gelesene Zeile), `page`, `page_url`, `lat`/`lon`
-(Strasse), `fields` (weitere Spalten als [[Spalte, Wert], …], beschriftet über `labels`), `links`
+(Strasse), `place` (Ort für die Karte, wenn keine Strasse da ist, z. B. die Gemeinde), `fields` (weitere Spalten als [[Spalte, Wert], …], beschriftet über `labels`), `links`
 ([[Art, Text, URL, Notiz], …]; Art tel, vs, wd, hls, mg, img, ext), `related` ([[Band, Stufe, entry_id], …]).
 Helfer für die gemeinsamen Zellformate der Seiten (Telefon, Normdaten, andere Bände): `std_links()`.
 """
@@ -129,7 +129,7 @@ def build(out: Path, *, city: dict, records: list[dict], labels: dict[str, str] 
     """city: key (wie in site_nav.CITIES), name («Aarau»), span («1833–1913»), title, lead, repo, lang («de»/«fr»),
     center [lat, lon], korr (Vorlage mit {id} {vol} {part}, relativ zur Startseite), nav (weitere Seiten als
     [[href, Label], …], z. B. Karte), parts {Schlüssel: Label}, volumes {Schlüssel: Titel}, note (Hinweis zur Lesung),
-    page_note (woher die Seitenbilder kommen). block = Einträge je Datei in s/r/ (grosse Städte mehr: der Pages-Deploy
+    page_note (woher die Seitenbilder kommen), ui (eigene Wörter der Oberfläche, z. B. {"area": "Commune", "area_l": "Commune"}). block = Einträge je Datei in s/r/ (grosse Städte mehr: der Pages-Deploy
     bricht bei rund 3 500 Dateien ab)."""
     out = Path(out)
     s = out / "s"
@@ -149,18 +149,19 @@ def build(out: Path, *, city: dict, records: list[dict], labels: dict[str, str] 
     part_keys = [p for p in part_keys if part_n[p]]
     part_ix = {p: i for i, p in enumerate(part_keys)}
     area_n = Counter(r.get("area", "") for r in recs if r.get("area"))
-    areas = [a for a, _ in area_n.most_common(254)]
+    areas = [a for a, _ in area_n.most_common(65535)]
     area_ix = {a: i + 1 for i, a in enumerate(areas)}
 
     # Strassen: Schlüssel = gefaltete Schreibung; Anzeige = häufigste Schreibung; Koordinaten aus den Einträgen
     st_cnt, st_lab, st_geo = Counter(), defaultdict(Counter), {}
+    loc = lambda r: r.get("street") or r.get("place") or ""  # noqa: E731
     for r in recs:
-        if r.get("street"):
-            k = occ_key(r["street"])
+        if loc(r):
+            k = occ_key(loc(r))
             if not k:
                 continue
             st_cnt[k] += 1
-            st_lab[k][r["street"].strip()] += 1
+            st_lab[k][loc(r).strip()] += 1
             if r.get("lat") and k not in st_geo:
                 st_geo[k] = (round(float(r["lat"]), 5), round(float(r["lon"]), 5))
     st_keys = [k for k, _ in st_cnt.most_common(65535)]
@@ -176,11 +177,11 @@ def build(out: Path, *, city: dict, records: list[dict], labels: dict[str, str] 
     oc_keys = [k for k, c in oc_cnt.most_common(65535) if c > 1]
     oc_ix = {k: i + 1 for i, k in enumerate(oc_keys)}
 
-    # Spalten (binär): Strasse u16, Beruf u16, Band u8, Teil u8, Gebiet u8
-    cs, cb, cv, cp, ca = array("H"), array("H"), array("B"), array("B"), array("B")
+    # Spalten (binär): Strasse u16, Beruf u16, Gebiet u16, Band u8, Teil u8
+    cs, cb, ca, cv, cp = array("H"), array("H"), array("H"), array("B"), array("B")
     post = defaultdict(list)
     for i, r in enumerate(recs):
-        cs.append(st_ix.get(occ_key(r.get("street", "")), 0))
+        cs.append(st_ix.get(occ_key(loc(r)), 0))
         cb.append(oc_ix.get(occ_key(r.get("occupation", "")), 0))
         cv.append(vol_ix[r["vol"]])
         cp.append(part_ix[r["part"]])
@@ -191,10 +192,10 @@ def build(out: Path, *, city: dict, records: list[dict], labels: dict[str, str] 
                 ws.update(words(r.get(k, "")))
             for w in ws:
                 post[f + w].append(i)
-    for a in (cs, cb):
+    for a in (cs, cb, ca):
         if a.itemsize != 2:
             raise RuntimeError("array('H') ist nicht 16 Bit")
-    blob = cs.tobytes() + cb.tobytes() + cv.tobytes() + cp.tobytes() + ca.tobytes()  # little endian auf x86/arm
+    blob = cs.tobytes() + cb.tobytes() + ca.tobytes() + cv.tobytes() + cp.tobytes()  # little endian auf x86/arm
     _gz(s / "c.bin.gz", blob)
 
     shards = defaultdict(dict)
@@ -226,7 +227,7 @@ def build(out: Path, *, city: dict, records: list[dict], labels: dict[str, str] 
     years = Counter(r["year"] for r in recs)
     meta = {
         "city": {k: city.get(k) for k in ("key", "name", "span", "title", "lead", "repo", "lang", "center", "korr", "note",
-                                          "page_note", "nav")},
+                                          "page_note", "nav", "ui")},
         "n": n, "block": block,
         "volumes": [{"k": v, "year": y, "label": city.get("volumes", {}).get(v, str(v)), "n": vol_n[v]} for y, v in vols],
         "parts": [{"k": p, "label": city.get("parts", {}).get(p, p), "n": part_n[p]} for p in part_keys],
@@ -537,7 +538,7 @@ async function loadCols() {
   if (COL) return COL;
   const [buf, occ] = await Promise.all([gz('s/c.bin.gz'), gz('s/occ.json.gz')]);
   OCC = occ;
-  COL = { s: new Uint16Array(buf, 0, N), b: new Uint16Array(buf, 2 * N, N), v: new Uint8Array(buf, 4 * N, N), p: new Uint8Array(buf, 5 * N, N), a: new Uint8Array(buf, 6 * N, N) };
+  COL = { s: new Uint16Array(buf, 0, N), b: new Uint16Array(buf, 2 * N, N), a: new Uint16Array(buf, 4 * N, N), v: new Uint8Array(buf, 6 * N, N), p: new Uint8Array(buf, 7 * N, N) };
   return COL;
 }
 function rowName(r) { return [r[3], r[5] && r[5] !== r[3] ? r[5] : ''].filter(Boolean).join('-'); }
@@ -854,7 +855,7 @@ async function entryPage() {
 
 (async () => {
   M = await fetch('s/meta.json').then(r => r.json());
-  T = TX[M.city.lang] || TX.de; N = M.n;
+  T = Object.assign({}, TX[M.city.lang] || TX.de, M.city.ui || {}); N = M.n;
   footer();
   if (document.body.dataset.page === 'eintrag') entryPage(); else searchPage();
 })().catch(e => { $('app').innerHTML = `<p>Fehler: ${esc(e.message)}</p>`; console.error(e); });
