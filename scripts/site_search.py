@@ -125,11 +125,12 @@ def _gz(path: Path, obj) -> None:
     path.write_bytes(gzip.compress(data, 9, mtime=0))
 
 
-def build(out: Path, *, city: dict, records: list[dict], labels: dict[str, str] | None = None) -> None:
+def build(out: Path, *, city: dict, records: list[dict], labels: dict[str, str] | None = None, block: int = BLOCK) -> None:
     """city: key (wie in site_nav.CITIES), name («Aarau»), span («1833–1913»), title, lead, repo, lang («de»/«fr»),
     center [lat, lon], korr (Vorlage mit {id} {vol} {part}, relativ zur Startseite), nav (weitere Seiten als
     [[href, Label], …], z. B. Karte), parts {Schlüssel: Label}, volumes {Schlüssel: Titel}, note (Hinweis zur Lesung),
-    page_note (woher die Seitenbilder kommen)."""
+    page_note (woher die Seitenbilder kommen). block = Einträge je Datei in s/r/ (grosse Städte mehr: der Pages-Deploy
+    bricht bei rund 3 500 Dateien ab)."""
     out = Path(out)
     s = out / "s"
     if s.exists():
@@ -207,9 +208,9 @@ def build(out: Path, *, city: dict, records: list[dict], labels: dict[str, str] 
         _gz(s / "t" / f"{sh}.json.gz", obj)
 
     ids = defaultdict(dict)
-    for b in range(0, n, BLOCK):
+    for b in range(0, n, block):
         rows = []
-        for i in range(b, min(n, b + BLOCK)):
+        for i in range(b, min(n, b + block)):
             r = recs[i]
             rows.append([r["id"], vol_ix[r["vol"]], part_ix[r["part"]], r.get("name", ""), r.get("forename", ""),
                          r.get("alliance", ""), r.get("occupation", ""), r.get("street", ""), r.get("no", ""),
@@ -217,7 +218,7 @@ def build(out: Path, *, city: dict, records: list[dict], labels: dict[str, str] 
                          [[k, v] for k, v in r.get("fields", []) if v not in ("", None)], r.get("links", []),
                          r.get("related", []), cs[i], r.get("title", ""), r.get("origin", "")])
             ids[fnv(r["id"])][r["id"]] = i
-        _gz(s / "r" / f"{b // BLOCK}.json.gz", rows)
+        _gz(s / "r" / f"{b // block}.json.gz", rows)
     for sh, obj in ids.items():
         _gz(s / "i" / f"{sh}.json.gz", obj)
     _gz(s / "occ.json.gz", [oc_lab[k].most_common(1)[0][0] for k in oc_keys])
@@ -226,7 +227,7 @@ def build(out: Path, *, city: dict, records: list[dict], labels: dict[str, str] 
     meta = {
         "city": {k: city.get(k) for k in ("key", "name", "span", "title", "lead", "repo", "lang", "center", "korr", "note",
                                           "page_note", "nav")},
-        "n": n, "block": BLOCK,
+        "n": n, "block": block,
         "volumes": [{"k": v, "year": y, "label": city.get("volumes", {}).get(v, str(v)), "n": vol_n[v]} for y, v in vols],
         "parts": [{"k": p, "label": city.get("parts", {}).get(p, p), "n": part_n[p]} for p in part_keys],
         "areas": areas, "streets": streets, "n_occ": len(oc_keys),
