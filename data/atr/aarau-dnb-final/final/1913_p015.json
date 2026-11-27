@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p015",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p015.jpeg",
+    "bytes": 877910,
+    "sha256": "5fadd9f7f7a527a13d38cf2c38fb096b05aeb3b3a5dc0de5512cb6c4f9fd656c",
+    "sha256_of": "original",
+    "working_copy": "1913_p015.jpeg"
+  },
+  "text": "Verzeichnis\nder\nGebäude der Stadt Aarau\nmit ihren\nEigentümern und Bewohnern\nNeben jeder Nummer ist der Eigentümer des betreffenden Hauses bemerkt; be-\nwohnt er selbst dieses nicht, so ist ein * beigesetzt. Ökonomiegebäude sind mit\n† bezeichnet. Wo kein Heimatsort beigesetzt ist, sind es Bürger von Aarau.\n[tel] = Telephon.\nHaus-\nNr.\nRathausgasse.\n1 * Einwohnergemeinde Aarau. Rathaus, Städtisches. Stadtpolizei\n  (Filiale der Allg. Plakat-Gesellschaft), Stadtkasse, Fremden-\n  bureau. Sitz der Jury, des Obergerichts, des Bezirksgerichts\n  und des Gemeinderats, Gemeindeammann, Gemeindekanzlei;\n  Bureau des Zivilstands- und Betreibungsbeamten, des Bau-\n  verwalters, des Fondsverwalters, Forstverwalters, Steuerver-\n  walters, Katastergeometers und der Gerichtskasse. Überall [tel].\n  Läuchli-Hossli, Jakob, II. Gemeindeweibel und Rathausabwart.\n  — Klara, Arbeitslehrerin.\n  — Anna.\n2 * Morath-Dilger, Johanns Erbschaft.\n  Gamper & Co. Lager in Herren- und Damen-Kleiderstoffen,\n  Herren- und Damen-Konfektion, Anfertigung von Damen- und\n  Herren-Kleidern nach Maß [tel].\n  Weber, Theresia, Ladentochter, Pfeffikon (Luzern).\n3 Morath-Stirnemann, Wendolin, Kaufmann, Schlagen (Baden) [tel].\n  Glas- und Porzellanhandlung.\n4 Wydler-Fischer, Minna, Wwe., Privatin.\n  Hess, Gebrüder, A. G., Möbelwarenmagazin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15840,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1308,
+    "lines": 31,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.26,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:26:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p015",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p015.jpeg",
+      "bytes": 877910,
+      "sha256": "5fadd9f7f7a527a13d38cf2c38fb096b05aeb3b3a5dc0de5512cb6c4f9fd656c",
+      "sha256_of": "original",
+      "working_copy": "1913_p015.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:26:56+00:00"
+  }
+}

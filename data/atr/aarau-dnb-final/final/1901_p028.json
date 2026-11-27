@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p028",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p028.jpeg",
+    "bytes": 862816,
+    "sha256": "2d6d293c39a4eab63a5e02750370ba4e165c1281ebf81fd4369fabef3814135d",
+    "sha256_of": "original",
+    "working_copy": "1901_p028.jpeg"
+  },
+  "text": "17\nHaus-\nNr.\nWydler-Kuhn, Robert, Ausläufer.\nSchäfer-Scheller, Elise, Wwe., Sesselflechterin.\n— Fritz, Sattler und Tapezierer.\nMüller-Stirnemann, Rudolf, Bremser, von Niederbipp (Bern).\nFelber-Gruber, Georg, von Unterbözberg.\nBerchem-Weiss, Peter, Schuhmacher, v. Semingen (Luxemburg).\nFischer-Haller, Maria, Taglöhnerin, von TennwyL\n— Fritz, Telephonarbeiter, von Tennwyl.\nFahländer geb. Müller, Verena, Part.\n— -Brügger, Fritz, Instruktions-Offizier.\nBeck, Emil, Sprachlehrer.\nBlume, Robert, Schreiner, von Sprendlingen (Hessen).\nBau- und Möbelschreinerei. (Werkstätte.)\nSchneeberger-Salvi, Jakob, Möbelmagazin.\nHof, Ferdinand, Feilenhauer, von Hauenstein (Solothurn).\nWerkstatt.\n189 * Hassler-Heberlein, Adolf, Färber.\nSiegenthaler-Hirth, Elise. von Trub (Bern). Wäscherei und\nGlätterei.\n190 * Hassler-Heberlein, Adolf. Färber.\nZellweger, Oskar, Part., von Hauptweil (Thurgau).\nHuber-Müller, Bertha, Glätterin, von Tristach (Oesterreich).\nBolliger, Rud. Hermann, Bahnangestellter, von Schloßrued.\n— Emma, Damenschneiderin, von Schloßrued.\n— Frida, Weisnäherin, von Schloßrued.\n— Rudolf, Arbeiter im Elektricitätswerk, von Schloßrued.\nEger-Eppier, Theophil, Schneider, von Riehen (Basel).\nMorf-Dreher, Jakob, Schneider, von Illnau.\n191 † Derselbe. Schopf.\n192 † Hegnauer-Renold, Rudolf, Fabrikant. Holzmagazin.\n193 Derselbe. Fabrikgebäude. Fabrikation und Export von Ge-\nflechten in Stroh, Roßhaar, Manillahanf und Baumwolle.\nBiber-Graber, Theodor, Fabrikation von Seidenband. Näh-\nmaschinenhandlung.\n194 Hegnauer-Renold, Rudolf, Fabrikant. Wohnhaus.\nWidmer, Rosette, Fergusin, von Othmarsingen.\n195 † Derselbe. Waschhaus.\n196 † Derselbe. Fabrikgebäude.\nBillo-Bohrer, Feodor, Kaufmann. Fabrikation v. Seidenband.\n197 † Derselbe. Schopf.\nSchlossplatz.\n198 Stahel-Ernst, Jean, Kaufmann.\nStahel & Cie., Manufacturwaren-Handlung en gros.\nPfleger-Hassler, Hermann, Zugführer.\n199 * Rothpletz-Wydler, E., Oberst, zum Schloßli (Erbschaft).\nRingier-Schwarz, Karl Arnold, Regierungsrat, von Zofingen.\n2",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16851,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1995,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:08:24+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p028",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p028.jpeg",
+      "bytes": 862816,
+      "sha256": "2d6d293c39a4eab63a5e02750370ba4e165c1281ebf81fd4369fabef3814135d",
+      "sha256_of": "original",
+      "working_copy": "1901_p028.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:08:24+00:00"
+  }
+}

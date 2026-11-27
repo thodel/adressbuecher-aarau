@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p027",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p027.jpeg",
+    "bytes": 977378,
+    "sha256": "c177cc375026226c0a50289c297f4739c9d8d554324e406ec71dd40798e18c82",
+    "sha256_of": "original",
+    "working_copy": "1913_p027.jpeg"
+  },
+  "text": "— 13 —\nHaus-\nNr.\n128 Hering-Leuenberger, Johann, Lehrer, Arisdorf.\n  — Elisab., Frau, Möbelhandlung.\nHunziker, Eduard, Bureaunist, Ob.-Kulm.\nKienberger, Karoline, Privatin, Oeschgen.\n129 Hofmann-Bartl, Ernst, Schuhmachermeister.\n  — Käser, Verena Ww., Privatin.\n130 * Maurer, Louise, Privatin.   Magazine für Schreinerei u. Glaserie\n  von Schar-Speck, E.\nMaurer-Ernst, Philipp, Zeughausarbeiter.\n  — Robert, Ausläufer.\n  — Paul, Händler.\nBaumann-Leuenberger, Gottlieb, Schneidermeister, Schafisheim.\n  — Alfred, Schmied, Schafisheim.\nLeuenberger, Elisabeth, Privatin, Staffelbach.\n131 Baumann-Leutwyler, Johann, Bauamtsarbeiter.\nBuchser, Jakob, Taglöhner, Schöftland.\nGysi-Dössekel, Johann, Lupfig.\nLeutwyler-Hunziker, Elise, Fabrikarbeiterin, Gontenschwil.\n132 Caprani-Minotti, Pietro, Maurerpolier, Nesso (Ital.).\nMüller-Müller, Hermann, Schlosser, U.-Kulm.\nBucciolini-Kyburz, Gaetano, Ausläufer, Dicomano (Ital.).\n133 Ernst-Lehmann, Elisabeth Ww., Privatin.\nGysi-Meier, Kunigunde Ww., Spühlerin, Nied.-Göschen.\nHertzog-Graf, Wilhelm, Küfer, Griesbach (Elsaß).\n134 Hässig-Siegrist, Julius, Schlossermeister.\nKonrad-Fäs, Karl, Schmied, Ursenbach (Bern).\n135 * Andres, Otto, Hafnermeister.\nGing-Ryser, Wilhelm, Wagner.\nGing, Karl, Mechaniker.\nGutjahr-Hauri, Jakob, Pferdewärter, Rorbach (Bern).\nUrban-Gütiger, Gustav, Schreiner, Liegnitz (Schlesien).\nBäny-Suter, Rudolf, Taglöhner, Uerkheim.\n136 Frank-Häuptli, Rudolf, Postfakteur.\nSuter-Sandmeyer, Reinhart, Bahnarbeiter S. B. B., Gränichen.\nFäs-Kyburz, Walter, Bureauangestellter, U.-Kulm.\n137 Lüscher-Konrad, Theodor, Küfermeister.\nGloor, Heinrich, Schreiner, Birrwil.\nSchilling, Karl, Küfer, Hornussen.\nSchenk-Schärer, Gottlieb, Taglöhner, Uerkheim.\nMüller-Hofer, Johann, Taglöhner, Hirschtal.\n138 * Gemeinde Aarau.\nFischer-Kaufmann, Fritz, Schlachthausabwart.\nFranzoni-Vansolini, Carlo, Handlanger, Saludecio (Ital.).\nMichelini-Avanzolini, Gregorio, Handlanger, Saludecio (Ital.).\n139 * Rohr-Reimann, Jakob, Kaufmann, Kaffeerösterei.\nKyburz-Seiler, Lina, Wäscherin, Erlinsbach.\nCologna, Pietro, Limonadenfabrikant, Castelfondo (Tirol).\nErb-Rodel, Hermann, Bauamtsarbeiter, Wöflinswil.\nPfautz-Hopp, Gustav, Coiffeur, Calw (Wttbg.).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 44493,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2185,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.81,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:34:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p027",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p027.jpeg",
+      "bytes": 977378,
+      "sha256": "c177cc375026226c0a50289c297f4739c9d8d554324e406ec71dd40798e18c82",
+      "sha256_of": "original",
+      "working_copy": "1913_p027.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:34:54+00:00"
+  }
+}

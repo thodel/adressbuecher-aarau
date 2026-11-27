@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p255",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p255.jpeg",
+    "bytes": 856042,
+    "sha256": "37f7a993923b3e316e0ebe1120d1cb71e4636e1ac3c2def4cb550a4f2dca3395",
+    "sha256_of": "original",
+    "working_copy": "1913_p255.jpeg"
+  },
+  "text": "— 221 —\n\nMehlhandlungen.\n*Dubs, Geschwister. Hammer 178.\n*Eberle, Franz [tel]. Stadthöfli 86.\n  Riner, Josef Anton [tel]. Hintere Vorstadt 363.\n\nMerceriwarenhandlungen.\n*Erdin-Obrecht, Frieda, Witwe. Kaufmanns [tel]. Rathausgasse 13.\n*Erny-Bauer, C., Kaufmann [tel]. Magazine zu den vier Jahreszeiten.\n  Kronengasse 42.\n*— — C., Filiale. Bahnhofstraße 1812.\n*Frey-Kieser, Johanna [tel]. Rathausgasse 18.\n*Hauri-Gränicher, L. Hintere Vorstadt 358.\n*Hemmeler & Cie., (en gros) [tel]. Hintere Vorstadt 373.\n*Heß, Gebr. [tel] Rathausgasse 5.\n  Heß, Lina. Bahnhofstraße 634.\n  Lechner-Wirth, Emma. Vordere Vorstadt 332.\n*Willimann, Marie. Metzgergasse 68.\n\nMesserschmied.\n  Schäfer, Bruno. Vordere Vorstadt 337.\n\nMetallgiessereien.\n*Drack, Hermann. Gassstraße 1169.\n*Küenzlen & Cie. [tel] Hinter dem Bahnhof 1013.\n*Oehler & Cie. [tel] Industriestraße 933.\n*Rüetschi, Hermann [tel]. Rain 457.\n*Sprecher & Schuh [tel]. Industriestraße 1508.\n\nMeteorologische Station.\n  Beobachter: Amsler-Baumann, H. Pestalozzistraße 1540.\n  Auskunftstelle für Behörden und Private, Anwälte, Ingenieure,\n  Elektrizitäts- und Wasserwerke, in Untersuchungs-, Straf- und\n  Prozeßangelegenheiten.\n\nMetzgermeister.\n*Frey-Zimmermann, Emil [tel]. Zollrain 57.\n  Häfliger-Bolliger, Otto [tel]. Ziegelrain 428.\n*Hagenbuch-Himmelberger, Walter [tel]. Metzgergasse 74.\n*Hemmeler-Mathys, Alfred [tel]. Vordere Vorstadt 328.\n*Indermauer, Jakob [tel]. Kasinostraße 659.\n*Ingold-Fehr, Walter [tel]. Pelzgasse 107.\n  Leutwyler-Brütsch, Theodor [tel]. Pelzgasse 98.\n  Neeser, Arthur [tel]. Obertor 244.\n  Siegrist, Heinrich. Rain 431.\n  — -Hug, Jakob [tel]. Milchgasse 149.\n  Vögeli-Aebersond, Louis [tel]. Gartenstraße 1772.\n  Zimmerli-Lauper, Gottfr [tel]. Hint. Vorstadt 355.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 30292,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1737,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:11:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p255",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p255.jpeg",
+      "bytes": 856042,
+      "sha256": "37f7a993923b3e316e0ebe1120d1cb71e4636e1ac3c2def4cb550a4f2dca3395",
+      "sha256_of": "original",
+      "working_copy": "1913_p255.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:11:44+00:00"
+  }
+}

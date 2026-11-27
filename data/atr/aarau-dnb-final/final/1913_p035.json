@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p035.jpeg",
+    "bytes": 956742,
+    "sha256": "c174c0c7ed2c5fe3779d418f43a64761fddb7a73b51c53a5af70580b4bff9485",
+    "sha256_of": "original",
+    "working_copy": "1913_p035.jpeg"
+  },
+  "text": "— 19 —\nHaus-\nNr.\n        Bolliger, Hermine, Haushälterin, Schloßrued.\n        — Rudolf, Schloßer,\n        Bechter, Ludwig, Bregenz.\n        Lehmann-Bolliger, Hermann, Sekretär, Zofingen.\n        Eger-Epprer, Theophil, Schneider, Riehen.\n        Umiker, Samuel, Taglöhner, Thalheim.\n193 * Hegnauer, Rud., Aktiengesellschaft, Aarau. Hutgeflechtfabrik [tel].\n194 —\n        Fischer-That, Jakob, Fabrikaufseher, Fahrwangen.\n        'ngold, Ernst, Modellschreiner, Rothrist.\n        Läppi-Widmer, Albert, Magaziner, Gränichen.\n196 Hegnauer, Rud., Aktiengesellschaft, Aarau. Hutgeflechtfabrik.\n        Schlossplatz.\n198 Stahel-Ernst, Marie Wwe., Privatin.\n        Stahel, Hans, Kaufmann.\n        Paneck, Ignaz, Schuhmachermeister, Mähren. Spezial-Schuh-\n          macherwerkstätte.\n        Wildi, Albert, Schreinerwerkstatt, Schafisheim.\n        Rüegg-Dieterli, Emil, Mineralwasserfabrik und Kohlenhandlung.\n        Kuhn, Hermann Jak., Bankbeamter, Suhr.\n        Oeschger, Aug., Bahnbeamter, Gansingen.\n        Keller-Hauri, Wilhelm, Stallknecht, Ob.-Endingen.\n        Keller, Walter, Milchhändler,\n199 * Rothpletz-Wydler, E., Obersts Erbschaft zum Schlößli.\n        Rothpletz, Frieda, Privatin.\n        Hergert-Großmann, Wilh., Photograph, Schneeberg.\n        Wengle, Mathilde, Köchin, Randeegg (Baden).\n200 Blume-Limacher, Rob., Schreinermeister, Sprentlingen.\n        Limacher, Aug. Rob., Handlanger, Entlebuch.\n        Kohlbrenner-Indermauer, Marie, Haushälterin, Schaffhausen.\n202 Gantner-Lehmann, Gottlieb, Milchhändler.\n        Cantu, Battista, Milchräger, Vico-Morcote.\n        Läuchli-Hagnauer, Emil, Mechaniker.\n        Wildi-Karrer, Albert, Schreinermeister, Schafisheim.\n        Karrer, Alice, Angestellte, Teufenthal.\n203 Weber-Beck, Gustav Dr. med., Bezirksarzt [tel].\n        Helbling, Dr. Alfred, Bez.-Lehrer, Rapperswil.\n        Blum, Walter, Gerichtsschreiber, Baden.\n204 * Einwohnergemeinde Aarau, Saalbau [tel].\n        Gloor-Weber, Ferdinand, Saalbauwart.\n        Graben.\n207 Dreifuß-Guggenheim, Emil, Kaufmann, Endingen. Französische\n          Warenhalle.\n208 Biland-Zimmermann, Adolf, Kanzleigehülfe, Birmenstorf.\n        Graf-Monner, Eugen, Coiffeur und Chirurg, Birrwil.\n        Hess Gebr. A.-G. (Werkstatt).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18703,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2226,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:38:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p035.jpeg",
+      "bytes": 956742,
+      "sha256": "c174c0c7ed2c5fe3779d418f43a64761fddb7a73b51c53a5af70580b4bff9485",
+      "sha256_of": "original",
+      "working_copy": "1913_p035.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:38:33+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p160",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p160.jpeg",
+    "bytes": 724932,
+    "sha256": "0f3160822e215bb2a03cbf6fef191c656f58defa07245c817a0b9ebdad5a0f52",
+    "sha256_of": "original",
+    "working_copy": "1901_p160.jpeg"
+  },
+  "text": "147\nFarbwarenhandlungen.\nImhof, Ernst,* Bachstraße 1063.\nLandolt & Cie.,* obere Vorstadt 534.\nWirz, Adolf, Ziegelrain 427.\nund die Maler.\nFärbereien.\nHaßler-Ernst, August,* Halden 281.\nJenni, Adolf,* in der Telli 859.\nKeller, Bertha, Witwe, Halden 287.\nWydler, H., Söhne,* Ziegelrain 405. (Siehe Inserat Seite 21.)\nWyser, Alfred,* Bachstraße 1105.\nFeilenhauer.\nHof, Ferdinand, Hammer 188.\nMathys, Wilhelm, Entfelderstraße 1400.\nFeinschleifer.\nHässig, Gottlieb, Hammer 180.\nFeuerversicherung.\n(Siehe Agenturen.)\nFuhrhalter.\nBaumann, Simon, Halden 268.\nHangartner, Kaspar, Ziegelrain 417.\nKeller, Katharina (Lohnkutscherei), Kasinostraße 647.\nMaier, Konrad (Lohnkutscherei), Bachstraße 1069.\nMürset, Gottlieb, Schachen 1134.\nSiebenmann & Cie.,* Bahnhofstraße 581. (Siehe Inserat Seite 22.)\nWillimann, Ant. (Lohnkutscherei), Schmiedgasse 381.\nFürsprecher.\nAmsler, Emil, Feerstraße 683.\nBlattner, Emil, Dr., obere Vorstadt 538.\nIsler, Emil, Laurenzenvorstadt 766.\nKeller, Gottfried, Dr., Pelzgasse 106.\nSchmidt, Max, Stadtammann, Jurastraße 1491.\nSchneider, Gustav, Dr., obere Vorstadt 550.\nStierli, Goar Leonz, Graben 228.\nTanner, Erwin, Laurenzenvorstadt 800.\nGarnhandlungen.\nCodoni-Dreßler, R.,* Rain 436.\nErdin, Albin,* Rathausgasse 13.\nErny-Faßler & Sohn,* Kronengasse 42. (Siehe Inserat Seite 25.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28832,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1299,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 31.5,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:59:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p160",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p160.jpeg",
+      "bytes": 724932,
+      "sha256": "0f3160822e215bb2a03cbf6fef191c656f58defa07245c817a0b9ebdad5a0f52",
+      "sha256_of": "original",
+      "working_copy": "1901_p160.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:59:52+00:00"
+  }
+}

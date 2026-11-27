@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p135",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p135.jpeg",
+    "bytes": 838540,
+    "sha256": "3511fdef62d0fea2cc607aecb9ffa27d9d7cd728b97e175a4c528435db2e4c4d",
+    "sha256_of": "original",
+    "working_copy": "1901_p135.jpeg"
+  },
+  "text": "122\nSchweizer geb. Siebenmann, Sophie, Witwe, Part., Rain 479.\nSchweizerische naturforschende Gesellschaft. Präsident: Professor\n  François Alphonse Forel in Morges.\nSchweiz. gemeinnütziger Frauenverein. Präsidentin: Frau Gertrud\n  Villiger-Keller in Lenzburg.\nSchwendimann, Wilhelm, Stabshauptm., Kavallerieinstruktor, Feer-\n  straße 681.\nSchwere, Gottfried, Dr., Seminarlehrer, Feerstraße 697.\nSeifert, Heinrich, Schneider, Pelzgasse 100.\nSeilaz, Abraham, Coiffeur, Rain 432.\n— geb. Brunner, Julia, Coiffeusegeschäft, Rathausgasse 11. Woh-\n  nung Rain 432.\nSeiler, Emil, Güterschaffner, Bleichemattstraße 1021.\n— -Hanhart, Marie, Bäckers Witwe, Rathausgasse 30.\n— Oskar, Bäcker, [tel] Rathausgasse 30.\n— Walter, Uhrenmacher, Rathausgasse 29.\nSenn geb. Blattner, Karolina, Witwe, Ziegelrain 401.\n— Friedrich, Stationsgehülfe, Bleichemattstraße 1019.\n— Hans, Zeughausverwalter, Jurastraße 1484.\n— Lina, Glätterin, Golattenmattgasse 251.\n— Siegfried, Maurer, Scheibenschachen 1328.\n— geb. Winkler, Julie, Witwe, Part., Kronengasse 47.\nSennhauser-Gosswisch, Amalie, Modistin, Schachen 1128.\n— Rosa und Amalie, Glätterinnen, Schachen 1128.\nSiebelist geb. Fahländer, Anna, Part., Laurenzenvorstadt 720.\nSiebenmann, Adolf, Sekretär, Bachstraße 1089.\n— Arnold, Tapezierer, vordere Vorstadt 340.\n— Bernhard, Part., vordere Vorstadt 330.\n— Bertha, Part., Ziegelrain 422a.\n— & Cie., Camionnage, Spedition und Brennmateralien. [tel] Bahn-\n  hofstraße 581.\n— Emmy, Klavierlehrerin, Schloßplatz 199.\n— Emil, Stadtkassier, Rain (Oberholzstraße) 1509.\n— Fanny, Part., Bachstraße 1089.\n— Friedrich, Bierbrauer, Stadtrat, [tel] Wohnung jenseits d. Aare 1234,\n  Bierbrauerei Entfelderstraße 1381. [tel]\n— Fritz, Commis, Rain 489.\n— Gebr. (Otto Siebenmann-Walther und Gustav Siebenmann-Hem-\n  meler), Civil- und Militärschneiderei, Konfektion. [tel] Oberth. 241.\n— Gottlieb, Färber, Halden 289.\n— Gottlieb, Gerber, Rain 451.\n— Gottlieb, Part., [tel] zum „Rosenfels“, Gartenstraße 1433.\n— Gottlieb, Spediteur, [tel] Bahnhofstraße 579.\n— Gustav, March.-Tailleur, Oberthor 241. [tel]\n— Hans, Wirt, „Chalet zum Adlerbräu“, Entfelderstraße 1381.\n— Jakob, Part., Entfelderstraße 1410.\n— Karl, Kaufmann, Entfelderstraße 1404.\n— Ludwig, Schuhmacher, Adelbändli 176.\n— Luise, Part., Bahnhofstraße 562.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 36831,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2274,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:48:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p135",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p135.jpeg",
+      "bytes": 838540,
+      "sha256": "3511fdef62d0fea2cc607aecb9ffa27d9d7cd728b97e175a4c528435db2e4c4d",
+      "sha256_of": "original",
+      "working_copy": "1901_p135.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:48:55+00:00"
+  }
+}

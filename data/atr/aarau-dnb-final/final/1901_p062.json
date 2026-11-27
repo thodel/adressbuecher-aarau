@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p062",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p062.jpeg",
+    "bytes": 828093,
+    "sha256": "9ea6b1f244fd5fa3530e1749ff159e1003abaa89abc9a4c4a8bdb813ab9f19da",
+    "sha256_of": "original",
+    "working_copy": "1901_p062.jpeg"
+  },
+  "text": "51\nHaus-\nNr.\n779 † Dieselben. Gartenhaus.\n780 † Dieselben. Holzhaus.\n781 † Dieselben. Waschhaus.\n782 * Sauerländer-Frey, R.\n  Bureau der Firma H. R. Sauerländer & Cie., Verlagsbuch-\n    handlung, Buchdruckerei und Buchbinderei en gros [tel].\n  Expedition des Amtsblattes des Kantons Aargau.\n  \" \" Aarg. Polizeianzeigers (Fahndungsblatt).\n  \" \" der Schweizerischen Bienenzeitung.\n  \" \" illustr. schweiz. Jugendblätter. Monatsschrift.\n  \" \" Tierwelt.\n  \" \" Aarg. Gewerbezeitung.\n  Custer-Sauerländer, Mathilde, Witwe, Part.\n  Sauerländer-Custer, Emma, Witwe, Part.\n  Denz-Borel, Joh. Theodor, Oberst, Kreisinstruktor, von Chur.\n783 † Derselbe. Ökonomie- und Wohngebäude.\n  Bossert-Gloor, Jakob, Gärtner und Portier, von Birr.\n784 † Derselbe. Buchdruckerei und Magazin, Buchbinderei.\n785 Frey-Frey, Adolf, Dr. med.\n  Sauerländer-Frey, Remigius, Buchdruckereibesitzer.\n  Ehlers-Sauerländer, Julie, Witwe.\n786 † Derselbe. Scheune und Remise.\n787 † Derselbe. Treib-, Wasch- und Holzhaus.\n788 Streit-Heller, Benedikt, Dr. med., prakt. Arzt [tel], von Belp-\n  berg (Bern).\n  Weisshaupt-Landolt, Elisabeth, Witwe, von Wollishofen (Zch.)\n789 * Steiner-Sennhauser, Samuel, Ökonom (Rössligut). -\n  Stäblin-Huldi, Paul, Ingenieur, von Brugg.\n  Widmann-Grüsi, Max, Redaktor, von Augst.\n790 * Derselbe. Wohnhaus.\n  Winteler-Eckart, Jost, Dr. phil., Professor, von Kerenzen (Gl.)\n  Frick, Friederika, Part., von Linda (Sachsen).\n  Rödelberger-Popp, Franz, Musikdirektor, von Würzburg.\n791 * Derselbe. Wohnhaus.\n  Uebelmann-Dubs, Anna, Witwe, Part., von Küttingen.\n  Dubs, Louise, Part., von Küttingen.\n  Keller, Lina, Part., von Veltheim.\n  Graf, Rudolf, Buchdruckereifaktor, von Küttingen.\n  Hagenbuch-Haywood, Gottl., Kaufmann, von Hetzlingen (Zch.)\n  Agentur der Northern Assurance Company London. Feuer-\n  und Lebensversicherungs-Gesellschaft.\n792 † Derselbe. Remise.\n793 Steiner-Sennhauser, Samuel, Oekonom.\n  Schlatter-Keller, Friedrich, Lokomotivführer, von Signau (Bern).\n  Küher, Johann, Buchhalter, von Leibstatt.\n  Zimmermann-Hartmann, Johann, Lehrer, von Kempfhof.\n  Benz-Frey, Joseph, Kondukteur N. O. B., von Neuenhof.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 97176,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2116,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:22:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p062",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p062.jpeg",
+      "bytes": 828093,
+      "sha256": "9ea6b1f244fd5fa3530e1749ff159e1003abaa89abc9a4c4a8bdb813ab9f19da",
+      "sha256_of": "original",
+      "working_copy": "1901_p062.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:22:54+00:00"
+  }
+}

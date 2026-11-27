@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p029",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p029.jpeg",
+    "bytes": 825930,
+    "sha256": "dc1bbce8a667871ffd0dd32269dc5283990abf2bc0594110742c726be137cba5",
+    "sha256_of": "original",
+    "working_copy": "1901_p029.jpeg"
+  },
+  "text": "18\nHaus-\nNr.\nFischer-Niggli, Lina, Part., von Reinach.\nSiebenmann, Emmy, Klavierlehrerin.\n200 Fuchs-Wirth, Jakob, Schreinermeister, von Remigen.\nDäster, Gottfried, Maler, von Balzenwyl (Malerwerkstätte).\nHumm-Brunnhofer, Emil, von Kirchleerau (Spenglerwerkstätte).\n201 † Gantner-Brack, Hermann, Ökonom (Scheune).\n202 — — Hermann, Ökonom (Wohnhaus).\n— -Richner, Maria, Ökonoms Witwe.\n— Gottlieb, Ökonom.\nHemmeler, Friedrich, Postangestellter.\nDettwyler, Bertha und Lisette, Damenschneiderinnen, von Rei-\ngoldswyl (Baselland).\n203 Weber-Beck, Gustav, Bezirksarzt. [tel]\nBlum, Karl Richard, Gerichtsschreiber, von Baden.\n204 * Gemeinde Aarau (Saalbau).\nWärtili-Vogel, Christian, Saalbauabwart.\n205 † Einwohnergemeinde Aarau (Alte Storchenscheune).\n206 † Biland-Wettler, Karl, Gastwirt, von Birmenstorf.\nScheune des Gasthofs zum Ochsen.\nGraben.\n207 * Dreifuss-Götschel, Adolf, Kaufmann, von Endingen, in Basel.\n— Guggenheim, Emil, Kaufmann, von Endingen, Manufaktur-\nwarenhandlung.\nSchenker-Gaisser, Adolf, Fachlehrer [tel] am Gewerbemuseum,\nvon Däniken (Solothurn).\n208 Schmidt-Hagnauer, Gustav, Kaufmann, Part. [tel]\nHassler-Schlatter, Walter, Kaufmann, Manufacturwaren- und\nTeppichhandlung.\nDr. Dill, Ernst Oskar, Bezirksschullehrer, von Basel.\nSchlatter-Heinbeck, Margaritha, Part.\n209 Kirchner-Vonwiller, Ida, Modistin, von Merseburg (Preußen),\nModewaren-Geschäft.\nVonwiller-Gautschi, Karol. Fridrika, Witwe, Part., v. St. Gallen.\nHugi, Marie, Coiffeuse, von Selzach (Solothurn).\nScholer, Heinrich, Kaufmann, von Zunzgen (Baselland).\n210 † Dieselbe: Waschhaus.\n211 Frey-Schmidlin, Othmar, Fürsprech, Bankdirektor.\n212 Rohr-Habicht, Hans, Konditor, Konditorei u. Kaffewirtsch. [tel]\nBallmer-Egloff, Karl, Bankangestellter, von Lausen (Baselland).\nKistler-Kull, Jakob, Steuerpräsent, von Bözen.\n213 Schiesser-Hässig, Hermann, Kaufmann, Käsehandlg. en gros. [tel]\n214 Stapfer-Däster, Johann, Schuhmacher, Part.\nGraf, Arnold, Eugen, Coiffeur u. Chirurg, von Birtwyl (Coiffeur-\ngeschäft).\nSchindler, Andreas, Kunstmalers, von Arth (Schwyz).\nHaller, Dr. E., Fürsprech, von Zofingen.\n215 Durr-Lüscher, Maria, Witwe, Gemüsehandlung. [tel]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15696,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2131,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.64,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:08:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p029",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p029.jpeg",
+      "bytes": 825930,
+      "sha256": "dc1bbce8a667871ffd0dd32269dc5283990abf2bc0594110742c726be137cba5",
+      "sha256_of": "original",
+      "working_copy": "1901_p029.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:08:23+00:00"
+  }
+}

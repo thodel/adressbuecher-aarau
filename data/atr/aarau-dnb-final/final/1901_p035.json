@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p035",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p035.jpeg",
+    "bytes": 927823,
+    "sha256": "6842302aae5328375a8694b025545e4190adfa70ba5bb60be14fc5d855c4803d",
+    "sha256_of": "original",
+    "working_copy": "1901_p035.jpeg"
+  },
+  "text": "24\nHaus-\nNr.\nBircher-Wächter, Jakob, Schlosser, von Küttingen.\nFricker-Frei, Gustav, Magaziner, von Wölfinswyl.\n286b Horlacher-Iberg, Samuel, Mechaniker. Tremkeller.\n287 Keller-Bauhofer, Bertha, Färbers Witwe, von Villigen, Färberei-\n  geschäft.\nDöhnel, Emma, Spetterin, von Badenweiler (Baden).\n288 Hausmann-Heuberger, Johann, Taglöhner, von Schafisheim.\nKiburz, Lisette, Krankenwärterin, von Oberentfelden.\nSchenk-Beutler, Adolf, Cementarbeiter, von Langnau (Bern).\nDätwyler-Moll, Brigitta, Fabrikarbeiterin, von Rothrist.\n289 * Ortsbürgergemeinde Aarau.\nDürr, Karolina, Glasers.\nFisch-Dürr, Elise, Schuhmachers Witwe.\nDürr-Fischer, Gottfried, Schuhmacher.\nSiebenmann-Beck, Gottlieb, Färber.\n290 * Widmer-Zehnder, Samuel, von Safenwyl, Kohlenhandlung.\nDa Col-Hediger, Simon, Cementarbeiter, v. Valle di Cadore (Ital.)\n291 Widmer-Zehnder, S., v. Safenwyl, Wirt z. Haldenrestauraton. [tel]\nBach-Hottiger, Wilhelm, Schneider, von Kolmar (Elsaß).\n292 Müller-Hartmann, Jakob, Obergerichtskanzlist.\nBircher-Suter, Eduard, Sattler, von Küttingen.\nFrei-Dürr, Gottfried, Taglöhner, von Trachselwald (Bern).\nJehme-Weber, Mathäus, Schreiner, von Wyl.\nMaritz-Keller, Arnold, Fabrikarbeiter, von Gösgen. (Soloth.)\n293a Jeck-Gautschi, Georg, Bauamtsarbeiter, von Zeiningen.\nTreier-Frei, Johann, Schreiner, von Oberhof.\n293b * Keller, Arnold, Schreiner, von Oberendingen (Hausanteil).\n294 — Arnold, Schreiner, von Oberendingen.\nBrunner-Senn, Heinrich, Taglöhner, von Schmiedrued.\nMaurer-Nussberger, Samuel, Taglöhner, von Schmiedrued.\nFrei-Windisch, Johann. Gipser, von Densbüren.\nWehrli-Kuhn, Joh. Heinrich, Holzspalter, von Densbüren.\nWernli-Treier, Samuel, Pferdewärter, von Thalheim.\n295 † Derselbe. Scheune (Hinter der Halde).\n296 Familienkiste Meier.\nProbst-Schneider, Johann, Schneider, von Ins (Bern).\nFehlmann-Buss, Johann, Gärtner, von Seon.\nLeder-Baumgartner, Joh. Jakob, Taglöhner, von Oberflachs.\nRohr-Wehrli, Daniel, Bauamtsarbeiter, von Hunzenschwil.\nWächter-Lindemann, Luise, Taglöhnerin, von Mönthal.\n297 Häuptli-Burkardt, Anna Maria, Drechslers Wwe., v. Biberstein.\n— -Schmid, Emil, Sohn, Drechslers, von Biberstein.\nLandolt-Häuptli, Marie, Witwe, Damenschneiderin.\nIsler-Meyer, Anton, Fabrikarbeiter, von Wohlen.\nHäusermann-Ruf, Marie, von Egliswyl.\nWandron-Meier, Bernhard, Taglöhner, von Dintiken.\n298 Eichenberger-Flad, Rudolf, Zimmermann, von Reinach.\nFischer, Franz, Schneider.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41938,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2388,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:11:08+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p035",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p035.jpeg",
+      "bytes": 927823,
+      "sha256": "6842302aae5328375a8694b025545e4190adfa70ba5bb60be14fc5d855c4803d",
+      "sha256_of": "original",
+      "working_copy": "1901_p035.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:11:08+00:00"
+  }
+}

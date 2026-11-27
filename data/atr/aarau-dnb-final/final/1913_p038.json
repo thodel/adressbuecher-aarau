@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p038",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p038.jpeg",
+    "bytes": 887071,
+    "sha256": "83b0be1efaae71edfb7f58dfe2bb7c32bb76fef7430390669336f441786ee4bd",
+    "sha256_of": "original",
+    "working_copy": "1913_p038.jpeg"
+  },
+  "text": "— 22 —\nHaus-\nNr.\nHaus-\nNr.\n250\nE. Von Däniken & Co., Wein- und Faßlager. Bureau Pelz-\n  gasse 106.\nMethodistengemeinde: Versammlungslokal.\n237 Trefzer-Zisel, Gustav, Kleiderfärberei und chem. Wasch-\n  anstalt, Badanstalt.\nZisel, Alois, Taglöhner, Erlenmoos.\n— Max, Kaufmannslehrling, Erlenmoos.\n238 Angst, Robert und Fanny, Buchhandlung für christl. Literatur,\n  Sanitäts- und Verbandstoffgeschäft etc.\nBachmann-Dätwyler, Elise, Bottenwil.\n— Emma, Bottenwil.\n251\n252\n253\n254\n255\nObertor.\n239 * Gemeinde Aarau. Oberturm.\n240 * Aargauer Tagblatt A. G.\nOelhafen, Helene, Zitherlehrerin.\n211 * Siebenmann & Cie. [tel] March.-Tailleurs. Offiziersausrüstungen,\n  Zivil-Maßgeschäft.\nSiebenmann-Hemmeler, Gustav, March.-Tailleur.\n— Emil, Sohn.\n242 Garganigo-Parolini, Giuseppe, Südfruchthändler, Nesso (Itl.).\n  Spezereihandlung.\n— Ido, Sohn, Nesso (Italien).\n243 * Wirz, Emil, Verlagshandlung [tel].\nHergert, Wilchelm, Photohaus.\nBachmann-Fluri, Johann, Kasernenbedienter, Bottenwil.\nGut, Rudolf, Schuhmacher, Mumpf.\n244 Neeser, Arthur, Metzgermeister, Schöftland [tel]. Metzgerei und\n  Wursterei.\n— Martha, Aushilfe, Schöftland.\n245 * Neeser, Arthur, Metzgermeister, Schöftland.\nSpeisewirtschaft „Zum Münchner Kindl“.\nKrämer-Barthel, Richard, Wirt, Weitingen.\nSchmid-Klenk, Josef, Koch, Frutigen (Bern).\n256a\n256b\n258\n259\n260\n261\nGolattenmattgasse.\n246 Siebenmann & Cie., March.-Tailleurs, Schneiderwerkstätte.\n247 Hemmeler, Meta, Privatinn.\nBertozzi-Gurioli, Antonio, Handlanger, Portico (Italien).\n248 Näf-Widmer, Marie, Witwe, Spetterin, Wisen (Solothurn).\n— Josef, Schreiner, Wisen.\nPierpaolini, Amato, Handlanger, Saludecio (Italien).\n249 * Kull-Eugster, Emil, Spenglermeister.\nMaurer, Paul, Trödlergeschäft.\nFasler, Marie, Fabrikarbeiterin, Densbüren.\nWernli-Bolliger, Elise, Taglöhnerin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 43186,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1788,
+    "lines": 61,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0328,
+    "mean_line_chars": 28.13,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:40:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p038",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p038.jpeg",
+      "bytes": 887071,
+      "sha256": "83b0be1efaae71edfb7f58dfe2bb7c32bb76fef7430390669336f441786ee4bd",
+      "sha256_of": "original",
+      "working_copy": "1913_p038.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:40:42+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p041",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p041.jpeg",
+    "bytes": 938303,
+    "sha256": "97722b03ca3b594062ce9a5315e62667009cf49696b108c62d5cbe74d1ca23e8",
+    "sha256_of": "original",
+    "working_copy": "1913_p041.jpeg"
+  },
+  "text": "Haus-\nNr.\n— 25 —\n278 Haller-Lerch, Albert, Dachdeckermeister, Reinach.\n  Schenk-Siegrist, Marie, Witwe, Fabrikarbeiterin, Uerkheim.\n  Meier, Frida, Vorsteherin zur Kinderkrippe, Zürich.\n  Iberg, Martha, Wärterin, Küttigen.\n  Eichenberger, Fritz, Schreiner, Beinwil (Aargau).\n  Balestra-Müller, Antonio, Händler, Bergamo (Italien).\n279 Wildi, Anna, Bettmacherin, Schafisheim.\n  Herzig-Eymann, Fritz, Dachdecker, Obersteckholz.\n  Bühler-Hunziker, Otto, Magazinier, Büron.\n  Krähenbühl, Luise, Weißnäherin, Altishofen.\n  Merzler, Karolina, Privatin, Waldshut.\n  Fricker-Frey, Gustav, Magazinier, Wölflinswil.\n  Hermann-Stengel, Thomas, Posamentier, Schachen (Baden).\n281 Gisler-Brunner, Moritz, Buchdrucker, Altorf (Uri).\n  Brunner, Heinrich, Wasenmeister, Schmiedrued.\n  — Gottfried, Stadtarbeiter\n  Schärer, Heinrich, Mechaniker, Biberstein\n  Metzger-Meier, Maria, Privatin, Oberhof (Baden).\n  Wullschleger, Heinrich, Part.\n  — Heinrich, Schlosser.\n282 Gloor, Emil, Fabrikarbeiter, Leutwil.\n  Maritz-Keller, Arnold, Fabrikarbeiter, Lostorf (Solothurn).\n  — — Emma, Wäscherei und Glättarei.\n283 — Zürcher, Arthur, Fabrikarbeiter, Lostorf\n  Hostettler-Hagnauer, Luise, Guggisberg (Bern).\n  Stirnemann-Utz, Johann, Schreiner, Gränichen.\n  Hagnauer, Fritz, Bürstenmacher.\n  Huber-Krebs, Hermann, Zimmermann, Ober-Urdorf (Zürich).\n  Kleeb-Meißner, Anton, Hilfsarbeiter, Roggliswil (Luzern).\n  Meißner, Johann, Schneider, Gerolshofen (Bayern).\n284 * Marti-Siebenmann, Erbschaft.\n  — — Ida, Witwe, Arbeitslehrerin.\n  Fasler-Widmer, Anna, Witwe, Wäscherin, Densbüren.\n  Strebel-Siebenmann, Karl, Sekretär.\n  — Gustav, Bankangestellter.\n285 Horlacher-Iberg, Samuel, Mechaniker, Umiken.\n  — Marie, Fabrikarbeiterin, Umiken.\n  Läuchli-Vogel, Hans, Hafnermeister, Remigen.\n  Beck-Müller, Otto, Handlanger, Horriwil (Solothurn).\n286 * Wärtli, August, gew. Buchbindermeister.\n  Agnoli-Da Col, Angelo, Maurer, Valle di Cadore (Italien).\n  Salaroli-Wernli, Giuseppe, Stadtarbeiter, Pavia\n  Suter-Kohler, Elise, Witwe, Privatin, Kölliken.\n  — Paula, Fabrikarbeiterin, Kölliken.\n287 Keller, Geschwister.\n  — Bertha, Ladentochter, Villigen.\n  — Mathilde,\n  — Hedwig, Haushälterin,",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21388,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2160,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:42:17+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p041",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p041.jpeg",
+      "bytes": 938303,
+      "sha256": "97722b03ca3b594062ce9a5315e62667009cf49696b108c62d5cbe74d1ca23e8",
+      "sha256_of": "original",
+      "working_copy": "1913_p041.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:42:17+00:00"
+  }
+}

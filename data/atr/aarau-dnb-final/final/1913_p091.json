@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p091",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p091.jpeg",
+    "bytes": 968128,
+    "sha256": "0d755e91efd2cfa593cd76d37553328632ae2cb84df674bfde59eb8d0135a0e3",
+    "sha256_of": "original",
+    "working_copy": "1913_p091.jpeg"
+  },
+  "text": "— 69 —\nHaus-\nNr.\n1014  Rotter-Baumgartner, Joh., Schreinermeister, Vermsdorf Oestr.).\n  Glur-Kurt, Friedr., Lokomotivheizer, Roggwil.\n1015  Kohler-Wymann, Friedr. Alfred, Ingenieur, Wynau.\n1016  Fricker-Hiltbold, Verena, Bahnmeisters Witwe, Veltheim.\n  Steiner, Arnold, Lokomotivheizer, Suhr.\n  Kielholz-Schneider, Gottlieb, Kreispostadjunkt, Mettau.\n1017 * Loge „Zur Brutertreue\".\n  Elsasser-Weickgenannt, Rosa, Witwe, Abwart [tel].\n  Weickgenannt-Käser, Verena, Witwe, Mingoldsheim (Baden).\n1018 * Kübler, Johann, gew. Bahnhofinspektor.\n  Elmer-Weber, Josef, Lok.-Fahrer S. B. B., Amden (St. G.).\n  Theodor-Furter, Amadeus, gew. Zugführer, Pizy (Waadt.).\n  Meng, Emil, Kaufmann, Frick.\n1019  Kübler-Kuhn, Johann, gew. Bahnhofinspektor.\n  — Elise.\n  Scherrer-Suter, Hans, Kaufmann, Stein (St. Gallen).\n1662 * Rüetschi, Max, Bäckermeister und Rüetschi, Frida.\n  — -Marti, Fritz, Schreiner.\n  Rutishauser-Boßhard, Arnold, Ingenieur, Hefenhofen.\n  Camerer-Ausfeld, Johann, Reisender, Wiesbaden.\n  Rüetschi-Nüsperli, Johanna, Part.\n  — Frida, Buchhalterin.\n1728 * Schmid, J., Ingenieur.\n  Morgenrather, Adolf, Knecht, Attelwil.\n1021 * Spichiger, Friedrich, Malermeister.\n  Gloor-Liechti, Rudolf, Bankangestellter, Birrnil[?].\n  Stauber-Marti, Gottfr., Chef der Telegraphen- und Telephon-\n  verwaltung [tel].\n  Steiner-Haller, Mina, Witwe, Rein.\n  — Rosa, Bureaulistin,\n    ”\n  — Bertha, Schneiderin,\n    ”\n1022  Spichiger-Thomer, Friedrich, Malermeister [tel].\n1023  Staub-Küblers Erbschaft.\n  — -Wehrli, Jakob, Wagenkontrolleur S. B. B., Düendorf.\n  — -Kübler, Regula, Part., Düendorf.\n  — -Böhni, Jean, Telephonarbeiter, Düendorf.\n  Linder, Ernst, Kommis, Reichenbach.\n1025  Ernst-Rey, Gustav, Privatier.\n  Dietiker-Lüthy, Jakob, Fuhrmann, Thalheim.\n  Spillmann, Josef, Fabrikarbeiter, Ober-Gösgen.\n1026 * Kummli & Matter A. G.  Fabrikgebäude und Bureau [tel].\n1027 * Dieselben.\n  Spaltenstein-Schenker, Jakob, Knecht, Flaach (Zürich).\n  Schenker, Adrian, Fabrikarbeiter, Däniken.\n1029  Bolliger-Gloor, Rudolf, Bankbeamter, Schmiedrned.\n  Gloor, Luise, Part., Retterswil, Seon.\n  Fierz, Max, Ingenieur, Winterthur.\n  Matter-Mathys, Julius, Monteur, Kölliken.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 55310,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2157,
+    "lines": 53,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0189,
+    "mean_line_chars": 38.32,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:00:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p091",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p091.jpeg",
+      "bytes": 968128,
+      "sha256": "0d755e91efd2cfa593cd76d37553328632ae2cb84df674bfde59eb8d0135a0e3",
+      "sha256_of": "original",
+      "working_copy": "1913_p091.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:00:58+00:00"
+  }
+}

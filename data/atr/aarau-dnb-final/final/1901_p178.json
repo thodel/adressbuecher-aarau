@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p178",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p178.jpeg",
+    "bytes": 786733,
+    "sha256": "9569ff9927c57e3de17ad2249ef135ae3292e549660afae554a6d939359be343",
+    "sha256_of": "original",
+    "working_copy": "1901_p178.jpeg"
+  },
+  "text": "165\nSchneider.\nBach, Wilhelm, Halden 291.\nBaumann, Gottlieb, Kasinostraße 641.\nBaumeister, Wendolin, Zuschneider, Pelzgasse 106.\nBaur, Bernhard, Pelzgasse 92.\nBeck, Karl, Ziegelrain 409.\nBertschi, Adolf, Metzgergasse 78.\n— Emil, Holzmarkt 320.\nBurgheer, Viktor, Graben 215.\nBrügger, Max, Halden 272.\nDobler, Robert, Golattenmattgasse 252.\nEger, Theophil, Hammer 190.\nFischer, Franz, Halden 298.\nFrei, Jakob, Buchserstraße 953.\nFelber, Karl, Zuschneider, Rathausgasse 24.\nForderer, Alois, Zuschneider, Bleichemattstraße 1023.\nFurrer, Erhard, Metzgergasse 78.\nGamper, Emil, Marchand-Tailleur, Rathausgasse 31.\nGanser, Georg, Rathausgasse 15.\nGerber, Gust., March.-Tailleur, vord. Vorstadt 327. (S. Inserat Seite 3.)\nGröbli, Jakob, Rathausgasse 26.\nHäusermann, Fritz, obere Vorstadt 539.\nHefti, Joh. Peter, Metzgergasse 78.\nHerzig, Karl, Marchand-Tailleur, hintere Vorstadt 368.\nHuber-Ment, Jakob, Halden 271.\nHunziker, Gottlieb, Halden 260.\nKeller, Hermann, Halden 271.\nLechner-Wirth, Paul Franz, Marchand-Tailleur, Kasinostraße 655.\n  (Siehe Inserat Seite 19.)\nLeithe-Weber, Xaver, Laurenzenvorstadt 711.\nLerf, Moritz, Halden 274.\nLudwig, Oskar, Ziegelrain 425.\nMeißner, Johann, Halden 283.\nMorf, Jakob, Hammer 190.\nMüller, Jost, Schmiedgasse 393.\n— Karl, Zollrain 56.\nNeesser, Samuel, hintere Vorstadt 357.\nProbst, Johann, Halden 296.\nRoth, Jakob, Zollrain 56.\nSchatzmann, Heinrich, Schachen 1135.\nSchmied, Friedrich, Halden 279.\nSchmuziger, Gottlieb, Ziegelrain 426.\nSeifert, Heinrich, Pelzgasse 100.\nSiebenmann, Gebr., Marchand-Tailleur, Oberthor 241.\nWafßmer, Fidel, Pelzgasse 90.\nWeigel, Heinrich, Laurenzenvorstadt 713.\nWeingärtner, Zacharias, Adelbändli 167.\nSchneiderinnen.\nAdrion, Marie, Halden 310.\nAmsler, Ida, Strittengäßchen 1219.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18451,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1742,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:06:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p178",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p178.jpeg",
+      "bytes": 786733,
+      "sha256": "9569ff9927c57e3de17ad2249ef135ae3292e549660afae554a6d939359be343",
+      "sha256_of": "original",
+      "working_copy": "1901_p178.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:06:53+00:00"
+  }
+}

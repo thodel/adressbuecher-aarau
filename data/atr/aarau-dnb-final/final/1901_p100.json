@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p100",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p100.jpeg",
+    "bytes": 831273,
+    "sha256": "5e06a5a56c0e4c4e6df0407619d6d5e30a8596db62261db64b9825fc3fb172e8",
+    "sha256_of": "original",
+    "working_copy": "1901_p100.jpeg"
+  },
+  "text": "87\nBolliger, Emma, Damenschneiderin, Hammer 190.\n— Emil, Buchbinder, Halden 272.\n— Franz, Kanzlegehilfe, Buchserstraße 956.\n— Frida, Weißnäherin, Hammer 190.\n— Gottfried, Schmied, Mühlematt 1365.\n— Gottlieb, Güterexpedient, Laurenzenvorstadt 710.\n— Heinrich, Kanzlegehilfe der Krankenanstalt, Buchserstraße 956.\n— -Huggenberger, Verena, Witwe, Laurenzenvorstadt 712.\n— Louise, Haushälterin, Milchgasse 157.\n— -Manger, Gustav, Hemdenfabrikation, hintere Vorstadt 366.\n— Pauline, Damenschneiderin, Laurenzenvorstadt 712.\n— Rudolf, Arbeiter im Elektrizitätswerk, Hammer 190.\n— Rudolf Hermann, Bahnangestellter, Hammer 190.\n— Rudolf, Pächter, Roggenhausen 1455.\n— Rudolf, Bankangestellter, Bleichemattstraße 1029.\n— Samuel, Bediener, Bahnhofstraße 556.\n— geb. Schädelin, Julia, Part., Rain 438.\nBonneck, Max, Blumengeschäft, Graben 226. [tel]\n— geb. Häusler, Louise, Witwe, Rain 505.\nBossard, Anna, Part., Stadthof 88.\n— Elisa, Part., Adelbändli 172.\n— Jakob, Gärtner, Laurenzenvorstadt 783.\n— Lina, Lehrerin, Jurastraße 1475.\n— Maria, Wagenputzerin, Stadthof 88.\nBosserl, Lina, Wäscherei und Glätterei, Milchgasse 147.\nBouvard, Johann, Güterexpedient, hinter dem Bahnhof 1006.\nBräm, Albert, Kaufmann, Graben 223.\n— geb. Huber, Anna, Witwe, hinter dem Bahnhof 1045.\nBrändli geb. Meier, Bertha, Fabrikarbeiterin, Ziegelrain 418.\n— Jakob, Fabrikarbeiter, Ziegelrain 418.\n— geb. Müller, Elisabeth, Witwe, Spetterin, Laurenzenvorstadt 727.\nBrack, Abraham, Oekonom, Bachstraße 1115.\n— Fridolin, Fabrikarbeiter, obere Vorstadt 551.\n— Gottlieb, Buchhändler, Graben 222.\n— Heinrich, Chef des Aarg. Polizeikorps, Schachen 1137.\n— Heinrich, Fabrikaufseher, Wirt z. Alpenzeiger, [tel] Gishügel 1275.\n— Jakob, Kaufmann, Bahnhofstraße 584. [tel]\n— Jakob, Part., Ziegelrain 397.\n— geb. Leuzinger, Margaretha, Flößerstraße 1192.\nBrand, Jakob, Spezeriehandlung, vordere Vorstadt 326.\nBrandl, Michael, Bierbrauer, Bachstraße 1066.\nBrast, Emma, Waffenhandlung, Holzmarkt 318.\n— Sophie Ida, Holzmarkt 318.\nBreitenmoser-Häfeli, Johanna, Fabrikarbeiterin, Milchgasse 147.\nBreitenstein, Johann, Knecht, Bachstraße 1497.\nBrentano, Gustav, Staatsanwalt, Bachstraße 1070.\n— Max, Zahnarzt, [tel] Entfelderstraße 1405.\nBreuninger, Karl, Buchhändler, Jurastraße 1484.\nBryner, Anna, Modistin, Halden 298.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19685,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2271,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:35:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p100",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p100.jpeg",
+      "bytes": 831273,
+      "sha256": "5e06a5a56c0e4c4e6df0407619d6d5e30a8596db62261db64b9825fc3fb172e8",
+      "sha256_of": "original",
+      "working_copy": "1901_p100.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:35:53+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p078",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p078.jpeg",
+    "bytes": 811436,
+    "sha256": "f951f5c0ba21d9fdec7dba04cec734ec60f08852ef6ece2db47eeb99a1e5e323",
+    "sha256_of": "original",
+    "working_copy": "1901_p078.jpeg"
+  },
+  "text": "67\nHaus-\nNr.\nGassstrasse.\n1169 Drack-Rohr, Hermann, Metallgießer.\nRüthi-Mauderli, Hans, Postcommis, von Schönenwerd.\n1170 † Derselbe. Werkstätte.\n1171 Riner-Obirst, Joh., Stadtpolizist. von Herznach.\nBaumann-Brunnhofer, Alfred, Kaufmann.\nKaufmann, Hermann, Stadtpolizist, von Wauwil (Luzern).\n1172 Wägeler-Vogel, Karl, ⚷ Dachdecker und Kaminfeger.\nVogel-Grädel, Anna, Witwe, Glätterin, von Kölliken.\nHaller-Attiger, Wilhelm, Schuhmacher, von Reinach.\nGisi-Dössekel, Johann, Taglöhner, von Lupfig.\nWernli-Wernli, Rudolf, Bauamtsarbeiter, von Thalheim.\n1173 * Gasbeleuchtungs-Gesellschaft. Wohnhaus und Anbau ⚷.\nRothenbach-Weibel, Otto Julius, Direktor von Wabern (Bern).\n1174 † Dieselbe. Retortenhaus mit 5 Anbauten.\n1175 † \" Werkstätte und Kohlenschopf.\n1176 † \" Heizhaus.\n1177 † \" 3 Schöpfe.\n1178 † \" Magazin.\n1179 † \" Badhaus und Anbau.\nFlößerstrasse.\n1180 Giger-Märki, Jakob, Schreiner, von Gontenschwyl.\n— — dessen Frau, von Gontenschwyl. Wäscherei.\nLocher-Heimgartner, Jakob, gew. Bremser, von Remetschwyl.\n1181 † Derselbe. Schopf.\n1182 † Frey-Rohner, Rob., Bäcker. Schopf.\n1183 † Wehrli-Dubs, Joh., Gärtner. Gärtnerhaus.\n1184 Derselbe. Wohnhaus ⚷.\nKull-Hartmann, Fritz, Part., von Fluntern (Zürich).\nFrei, Elise, Taglöhnerin, von Auenstein (Zürich).\n1185 † Derselbe. Scheune und Anbau.\n1186 † \" Treibhaus und Heizraum.\n1187 † \" Treibhaus.\n1188 * \" Wohnhaus.\nSinger-Kloter, Georg, Maurer, von Salzstetten (Württemberg).\nEichenberger-Stirnemann, Adolf, Taglöhner, von Beinwyl.\nKnaus-Haller, Georg, Maler, von Oberittlingen (Württembg.)\nFischer, Ludwig, Bauamtsarbeiter.\n— -Roth, Maria, Part.\n1189 Rey-Ringgern, Jakob, Bezirksschullehrer.\n1190 † Derselbe. Holzhans.\n1191 † Etter, Reinhard, Küher. Magazin und Anbau.\n1192 * Derselbe. Wohnhaus und Anbau.\nFricker-Amsler, Joseph, Commis, von Oberhof.\nBrack-Leuzinger, Margaritba, Part., von Mönthal.\nLüscher, Geschwister, Lisette, Rosette u. Pauline, Näherinnen,\nvon Muhen.\nOtt-Felber, Jakob, Obergerichtsweibel, von Biberstein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 24269,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1978,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:28:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p078",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p078.jpeg",
+      "bytes": 811436,
+      "sha256": "f951f5c0ba21d9fdec7dba04cec734ec60f08852ef6ece2db47eeb99a1e5e323",
+      "sha256_of": "original",
+      "working_copy": "1901_p078.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:28:59+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p095",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p095.jpeg",
+    "bytes": 922001,
+    "sha256": "3b2f13376f53e35836721ea4ec62944a216a591bc98f71aca6f82ba6d6504f46",
+    "sha256_of": "original",
+    "working_copy": "1913_p095.jpeg"
+  },
+  "text": "— 73 —\nHaus-\nNr.\n1064 Andres-Eichelberger, Otto, Hafnermeister [tel]. Bureau und\n  Magazin.\n  — Ernst, Hafner.\nBänziger-Burkhardt, Adolf, Telegraphist, Lutzenberg (Appenz.).\n1066 Letsch-Brunner, Alberts Erben.\n  — — Anna, Part.\n  — Paul, Bankbeamter.\nMellert-Brunner, Heinrich, Lithograph, Steinach (Baden).\nAeschbach-Steiner, Susette, Witwe, Hendschikon.\n  — Bertha, Fabrikarbeiterin, Hendschikon.\n  — Amalie, Ladentochter, \"\n  — Otto, Lehrling, \"\n1067 Kraft-Caspar, Maria, Part, Brugg.\n  — Dora, Brugg.\nWeber-Voé, Johann, Lithograph, Reigoldswil.\n  — Margrit, Damenschneiderin, \"\nFrey-Brand, Franz, Postbureauchef, Zurzach.\n1069 Maier-Ganter, Konrad, Lohnkutscher, Reiselingen (Baden).\nSiegrist-Maier, Emil, Kommis, Meisterschwanden.\n  — Walter, Handlanger, \"\nHumbel-Fischer, Gottlieb, Polizei korporal, Boniswil.\nStierli, Xaver, Kommis, Aristau.\n1070 * Stänz, R., Ingenieurs Erben.\n  — -Suter, Louise, Witwe, Part.\n  — Anna, Klavierlehrerin.\n  — Paulina.\nBrugger, Marianne, Part., Auenstein.\nBünzli, Elise, Part., Schöna (Zürich).\nBrentano-Zimmermann, Gustav, Staatsanwalt, Laufenburg.\n1072 * Bircher, Heinrich, Dr. med.\nBöniger-Meyer, Maria, Part., Luchsingen (Glarus).\nWanger-Bucher, Karl, kant. Oberförster, Baden.\n1074 * Aklin-Jäger, Emil, Verwalter der kant. Krankenanstalt.\nSpühler, Otto, Fürsprech und Notar, Bureau.\nGuinand-Spethmann, Caroline, Privatin, Neuchâtel.\nBühler-Guinand, Oswald, Fürsprech, Bankkontrolleur, Rietheim.\n1075 Baumann-Brunnhöfer, Alfred, Kaufmann.\nBrunnhöfer-Schmid, Magdalena, Witwe.\n1076 Thut-Hilty, Gottlieb, Weinhandlung, Ober-Entfelden [tel].\n1081 Wolfinger, Max, alt Professor, Mannheim.\nGamp, Josefine, Haushälterin, Hornussen.\n1082 Schmid-Läuchli, Jakob, Ingenieur, Baugeschäft, Glarus [tel].\n1084 Stéphaní-Wettler, Albertine, Fabrikants Witwe.\nRenold, Susette, Haushälterin, Brugg.\n1086 Adam-Stéphaní, Hedwig, Witwe, Allschwil (Baselland).\n1088 Wehrli-Märk, Rosa, Bankkassiers Witwe, Küttigen.\nMärk-Maurer, Rosa, Witwe, Part.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15668,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1968,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:02:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p095",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p095.jpeg",
+      "bytes": 922001,
+      "sha256": "3b2f13376f53e35836721ea4ec62944a216a591bc98f71aca6f82ba6d6504f46",
+      "sha256_of": "original",
+      "working_copy": "1913_p095.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:02:01+00:00"
+  }
+}

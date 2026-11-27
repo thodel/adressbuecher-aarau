@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p051",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p051.jpeg",
+    "bytes": 964637,
+    "sha256": "9bcbf5cc56410f509338d0a2051e8940157c6fc19d59469fc9d9c3b759bdc006",
+    "sha256_of": "original",
+    "working_copy": "1913_p051.jpeg"
+  },
+  "text": "Haus-\nNr.\n— 33 —\nSchmiedgasse.\n379 * Widmer-Eichenberger, Herm., Küfermeister, Hausen.\n  Freuler-Wiederkehr, Fridolin, Korbmacher, Glarus.\n  Wanieck-Lüscher, Josef, Schuhmachermeister, Louzeiz (Böhmen).\n  Marti-Hausreiter, Fritz, Fabrikarbeiter.\n  Huber-Bichsel, Luise, Wäscherin, Hägglingen.\n  Widmer-Höchli, Herm., Schlosser, Hausen.\n  — Bodmer, Anna, Privatin,\n  Bachmann-Kümin, Anna, Wwe., Schneiderin, Wollerau (Schwyz).\n  Lehner-Lehner, M., Wwe., Fabrikarbeiterin, Gränichen.\n  Sandmeier, Rosa,\n381 Willimann-Schmid, Emma, Wwe., Part.\n  Schmid-Jäger, Emil, Herznach [tel].\n  Schenker, Gustav, Bez.-Tierarzt, Schönenwerd [tel].\n  Bernet-Neesser, Aug., Ausläufer, Gommiswald (St. Gallen).\n382 † Bau- u. Garantie-Komitee der römisc-h-kath. Kirche. Römisc-\n  katholische Kirche.\n383 * Dasselbe. Pfarrhaus.\n  Ducrot, Josef Beat, Pfarrer, Wohlenschwil [tel].\n  — Anna, Wohlenschwil.\n  Birchmeier, Joh., Vikar, Würenlingen.\n  Fellmann, Martin, Dr., Lebensmittelinspektor, Alttishofen.\n384 Frey-Rüegg, Oskar, Seidenbandfabrikant.\n385 * Eichenberger-Härdi, Gottl., Kanzlist, Beinwil.\n  Luthy, Wilh., Auto-Garage [tel]. Vertreter d. AutoFabrik Martini.\n  Klingelfuß-Straßer, Elise, Damenschneiderin.\n  Kopp-Kohler, Emma, Wäscherin, Glätterin.\n  Zeender-Schäfer, Louis, Schriftsetzer, Köniz (Bern).\n  Wydler-Hechinger, Hans, Reisender.\n  Von Känel, Charles, Zahnarzt, Reichenbach.\n387 Merz-Leiser, Emil, Bäckermeister, Leimbach. [tel].\n  Keller-Schärer, Marie, Wwe., Privatin, Wöschnau.\n  Gamp-Siegenthaler, Otto, Stat.-Vorstand W. T. B., Hornussen.\n  Roth, Friedrich, Obergerichtskanzlist.\n  — Erwin, Kunstmaler.\n389 Bühler-Haberstich, Gottl., Kupferschmied.\n  — Marie, Weißnäherin.\n390 * Bertschinger-Wild, Gustav, Negt., Lenzburg.\n391 Gabbio-Cologra, Virginia, Hausiererin, Riva Valdobbia (Ita.).\n  — — Michaeli, Gipser,\n  Lorenzi, Vedeie, Schleifer, Mortaso (Oesterreich).\n  Gut, Rudolf, Schuhmacher.\n392 Müller-Thut, J. J., Taglöhner.\n  — Elisabeth, Damenschneiderin.\n383 Müller-Kramer, Dorothea, Wwe.\n  — Anna, Näherin.\n  Werner-Sourbeck, Hrch., Gießer, Merishausen (Schaffh.).\n3",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 53102,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2080,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:46:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p051",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p051.jpeg",
+      "bytes": 964637,
+      "sha256": "9bcbf5cc56410f509338d0a2051e8940157c6fc19d59469fc9d9c3b759bdc006",
+      "sha256_of": "original",
+      "working_copy": "1913_p051.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:46:28+00:00"
+  }
+}

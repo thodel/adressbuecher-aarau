@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p105",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p105.jpeg",
+    "bytes": 813720,
+    "sha256": "1fb322e2644d03a9beff9af9193bc962742d7aadb3054f9e524dccc4044b644c",
+    "sha256_of": "original",
+    "working_copy": "1901_p105.jpeg"
+  },
+  "text": "92\nErne & Cie., Kolonialwarengeschäft, en gros, [tel] Feerstraße 690.\n— Eduard, Kaufmann, Feerstraße 689.\nErny, Emil, Armenpfleger, Kronengasse 42.\n— Emil, Fürsprech, Direktor des aarg. Versicherungsamtes, Garten-\n  straße 1437.\n— -Fassler & Sohn, [tel] Handlung in Mercerie, Woll- und Seiden-\n  waren. Kronengasse 42.\n— Karl, Kaufmann, Kronengasse 42.\nErnst, Jakob, Thonröhrenfabrikation. Röhrfabrik Industriestr. 937.\n  Inhaber:\n  — Friedr. Jakob, Röhrfabrikant, [tel] Wohnung ob. Vorstadt 527.\n  — Friedr., Sohn, Röhrfabrikant, Industriestraße 938.\n— Gustav, Landwirt, Tellrain 837.\n— Hermann, Schuhmacher, Halden 260.\n— geb. Pfisterer, Lina, Witwe, vordere Vorstadt 329.\n— Robert, Briefträger, Ziegelrain 424.\n— Samuel, Gasarbeiter, Milchgasse 133.\nEtter, Reinhard, Küher, Rain 434b.\nFäs, Bertha, Damenschneiderin, Glatenmatgasse 256a.\n— Gottlieb, Schlosser, Bachstraße 1059.\n— geb. Huber, Anna, Witwe, Spelterin, Glatenmatgasse 256a.\n— Ida, Fabrikarbeiterin, Milchgasse 134.\n— Rudolf, Kasernier, Pelzgasse 94.\nFahrländer, Eugen, Ingenieur, Armeekorpskommandant, Rain 489.\n— Fritz, Instruktions-Offizier, Hammer 188.\n— Karl, Dr. jur., Regierungsrat, [tel] Laurenzenvorstadt 720.\n— geb. Müller, Verena, Part., Hammer 188.\nFaller geb. Faller, Elise Luise, Witwe, Eisen- und Quincailterie-\n  handlung, Kronengasse 50.\n— Friedrich, Kaufmann, Eisenhandlung, Rathausgasse 8.\n— Karl Friedrich, Sohn, Kaufmann, Kronengasse 50.\nFassler, Friedr. Georg, Gipser, Kirchgasse 38.\n— Maria, Part., hinter dem Platz 238.\nFasnacht, Olga, Bezirksschullehrerin, Bahnhofstraße 610.\nFeer, Adele, Rentière, Laurenzenvorstadt 796.\n— Johann, Bankangestellter, jenseits der Aare 1246.\n— Karl, Laurenzenvorstadt 796.\n— Sophie, Laurenzenvorstadt 796.\nFecht, Julius, Weinhandlung, [tel] Asylstraße 1146.\nFeger, Fidel, Zimmermann, Rohrerstraße 882.\nFehlmann geb. Blattner, Anna, Mercerie- und Lingeriegeschäft, Bahn-\n  hofstraße 634.\n— Christoph, Taglöhner, Schachen 1139.\n— Heinrich, Aufseher, Bahnhofstraße 634.\n— Johann, Gärtner, Halden 296.\nFehlmann, Kaspar, Bäckermeister, Rathausgasse 27.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 72755,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2068,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.72,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:37:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p105",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p105.jpeg",
+      "bytes": 813720,
+      "sha256": "1fb322e2644d03a9beff9af9193bc962742d7aadb3054f9e524dccc4044b644c",
+      "sha256_of": "original",
+      "working_copy": "1901_p105.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:37:26+00:00"
+  }
+}

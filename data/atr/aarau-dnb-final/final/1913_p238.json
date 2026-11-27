@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p238",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p238.jpeg",
+    "bytes": 848388,
+    "sha256": "4b9e656eac2a273f67cf3d329c2cc104a931b41d6299fb4ad9c680522fcaede9",
+    "sha256_of": "original",
+    "working_copy": "1913_p238.jpeg"
+  },
+  "text": "— 201 —\nBürstenfabrikant.\n*Hagnauer, Hermann [tel]. Pelzgasse 95.\nBürstenhändler.\n*Faller geb. Faller, Elise, Witwe. Kronengasse 50.\n*Hagnauer, Hermann. Pelzgasse 95.\n*Morath, Wendolin [tel]. Rathausgasse 3.\n*Schär, Ernst [tel]. Rathausgasse 12.\nBuchbinder.\nEgloff-Wirz, Joh. Ernst. Schmiedgasse 387.\n*Hagenbuch-Ernst, Fritz [tel]. Vordere Vorstadt 333.\n  Haßler-Müller, Theodor. Milchgasse 146.\n  Hiltbrunner-Frick, Gottfr [tel]. Rain 448.\n  Käser-Buri, Samuel. Bahnhofstraße 559 a.\n*Sauerländer, H. R. & Co. [tel] Laurenzenvorstadt 782.\n*Schatzmann-Läuchli, Samuel [tel]. Rathausgasse 10.\n*Wärtli, A., Bureaubedarfsgeschäft [tel]. Vordere Vorstadt 326.\n*Wülser-Schlecht, Samuel [tel]. Laurenzentorgasse 119.\nBuchdruckereien.\n*A. G. Aargauer Tagblatt [tel]. Bahnhofstraße 1815.\n*Keller G. & Sohn [tel]. Rain 452.\n  Buchdruckerei des Lokalanzeigers [tel]. Kirchgasse 36.\n  Dengler-Hemmeler, Hermann [tel]. Spitalgäßli 1778.\n  Neue Aargauer Zeitung [tel] Ziegellrain 399.\n*H. R. Sauerländer & Cie. [tel] Laurenzenvorstadt 782.\n*Trüeb & Cie., A. [tel] Bahnhofstraße 578 a und b.\nBuchhandlungen.\n*Angst, Robert und Fanny. Hinterm Platz 238.\n*Krauß & Brack [tel]. Graben 222.\n*Meißner, Arthur Hermann [tel]. Bahnhofstraße 1812.\n*Meyer, Ed. Erwin [tel]. Graben 228.\n*Sauerländer, H. R. & Co., Verlagsbuchhandl. [tel] Laurenzenvorst. 782.\n*Wirz, Emil, Verlagsbuchhandlung [tel]. Obertor 242.\nBureaumöbelfabrikation.\n*Gubler-Zimmerli & Cie. [tel] Industriestraße 928.\nButterverkäufer.\n*Anliker, Joh. Ernst [tel]. Pelzgasse 113.\n*Etter, Reinhard [tel]. Rain 434 b.\n  Frey, Rudolf [tel]. Obere Vorstadt 550.\n  Heimgartner, Emil. Kasinostroße 643.\n  Hunziker, Adolf. Obere Vorstadt 523.\n  Lüscher, Albert. Hintere Vorstadt 357.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18769,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1717,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:05:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p238",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p238.jpeg",
+      "bytes": 848388,
+      "sha256": "4b9e656eac2a273f67cf3d329c2cc104a931b41d6299fb4ad9c680522fcaede9",
+      "sha256_of": "original",
+      "working_copy": "1913_p238.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:05:40+00:00"
+  }
+}

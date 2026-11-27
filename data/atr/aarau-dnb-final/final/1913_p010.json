@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p010",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p010.jpeg",
+    "bytes": 962211,
+    "sha256": "1e04b401e1751665d4fc175c1656d175da743cd0122c9ebb99004c17c7c0a41c",
+    "sha256_of": "original",
+    "working_copy": "1913_p010.jpeg"
+  },
+  "text": "Bezugsquellenregister.\n(Für die näheren Details siehe hier verzeichneten Inserate.)\nSeite\nAlkoholfreie Wirtschafteu.\nRestaurant Banga . . . 32\n  Aussteuern.\nGebrüder Hess A. G. . . . 199\nSamuel Jörg, Schreiner . 17\nEduard Lüthi-Kneubühler 94m\nG. Wernli, Tapezierer . . 94f\n  Autofahrten.\nErnst Keller . . . . . 94h\nW. Lüthy . . . . . . 33\n  Autogarage.\nW. Lüthy . . . . . . 33\n  Badanstalt.\nHotel Gerber, Terminus Umschl.\n  G. Trefzger-Ziesel . . . . 81\n  Bankinstitute.\nAarg. Kreditanstalt . . . 94i\nAarg. Kantonalbank . . 48\n  Baugeschäfte.\nJ. J. Schmid . . . . . . 94n\nM. Zschokke A. G. . Umschlag\n  Baumaterialien.\nKarl Richner . . . . . 941\n  Baumwollwaren.\nGebrüder Hess A. G. . . 199\n  Bauschlosserei.\nCarl Mösch . . . . . . 32\n  Bauschreinerei.\nGubler, Zimmerli & Cie. 64\nM. Zschokke A. G. . Umschlag\n  Bierdépôt.\nBasler Aktienbrauerei,\n  Aug. Schilling-Döbeli . 94k\nSalmenbräu Rheinfelden,\n  J. Gundel, Buchs . . . 64\n  Bijouterie.\nE. Gebel . . . . . . 188\n  Bonnetterie.\nA. Erdin's Wwe. . . . . 16\nM. Lüscher-Gloor . . . 81\n  Buchbinderei.\nH. R. Sauerländer & Cie. 241\nS. Käser . . . . . . 94c\n[spalte 2]\nSeite\nBuchdruckerei.\nH. Dengler . . . . . . 17\nNeue Aargauer Zeitung . 94\nH. R. Sauerländer & Cie. 1\n  Bureaumöbel.\nGubler, Zimmerli & Cie. . 64\n  Butter und Käse.\nE. Anliker . . . . . . 94g\n  Camionage.\nK. Hangartner . . . . . 94n\nLagerhäuser der Zentral-\n  schweiz . . . . . Umschlag\n  Chemische Produkte.\nFrey & Cie. . . . . . . 94h\n  Chemische Waschanstalt.\nG. Trefzger-Ziesel . . . 94d\n  Coiffeur.\nE. Hagenbuch-Müller . . 94e\n  Dachdeckergeschäft.\nAlbert Haller-Lerch . . . 94m\n  Damenhüte.\nH. Heuberger . . . . . 33\n  Dekorationsmaler.\nGustav Haßler . . . . . 94b\n  Drechslerci.\nEmil Huber . . . . . . 94d\n  Droguerie.\nFuchs-Bender . . . . . 94e\n  Elektr. Installationen.\nA. G. Kummiler & Matter 94a\nHeinrich Schärer . . . 240\n  Garne.\nO. Wüthrich z. Storchen . 94f\n  Gasanstalt.\nGasbeleuchtungs Gesellschaft\n  Aarau . . . . . . 262\n  Gasthöfe.\nGasthof zur Krone . . . 94g\nGasthof zur Kettenbrücke 94k\n  Getreide und Futterartikel.\nLagerhäuser der Zentral-\n  schweiz . . . . . Umschlag",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 84139,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2106,
+    "lines": 90,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0556,
+    "mean_line_chars": 21.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:24:12+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p010",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p010.jpeg",
+      "bytes": 962211,
+      "sha256": "1e04b401e1751665d4fc175c1656d175da743cd0122c9ebb99004c17c7c0a41c",
+      "sha256_of": "original",
+      "working_copy": "1913_p010.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:24:12+00:00"
+  }
+}

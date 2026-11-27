@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p114",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p114.jpeg",
+    "bytes": 851545,
+    "sha256": "ac49a4c83a9792706e872ece6ff37c49dfb0e68dab5a35da9b5167a306f18e53",
+    "sha256_of": "original",
+    "working_copy": "1901_p114.jpeg"
+  },
+  "text": "101\nHauser, Quirin, Maurer, Golattenmattgasse 249.\nHausmann, Johann, Taglöhner, Halden 288.\nHediger geb. Born, Maria, Witwe, Milchgasse 144.\n— Emil, Drechsler, obere Vorstadt 546.\nHeffink, Richard, Reisender, obere Vorstadt 547.\nHefti, Johann Peter, Schneider, Metzgergasse 78.\nHegnauer, Rudolf, Fabrikant, Strohwarenfabrikation, [tel] Hammer 194.\n— Rudolf, Buchhalter, Schachen 1128.\nHeindel geb. Plüß, Mathilde, Damenschneiderin, Halden 272.\nHeinzelmann, Johann, Schuhmacher, Kirchgasse 39.\nHeitz, Kornelius, Zimmermann, Laurenzenvorstadt 727.\nHelbling, Alfred, Lehrer, jenseits der Aare 1233.\nHeller, Heinrich, Gerichtspräsident, Zollrain 61.\n— Oskar, Sohn, Notar, Inkassogeschaft, Zollrain 61.\nHelm, Fanny, Modistin, Zollrain 53.\n— -Schmid, Emil, von Oerlikon (Zürich), Pelzgasse 104.\n— geb. von Arx, Elise, Witwe, Zollrain 53.\nHemmeler, Alfred, Metzger, [tel] vordere Vorstadt 328.\n— August, Kaufmann, Metzgergasse 65.\n— August, Sohn, Kaufmann, Rain 492.\n— & Cie., Quincailiewarenhandlung, hintere Vorstadt 373. [tel]\n— Emil, Sohn, Kaufmann, hinter dem Bahnhof 1009.\n— Emil, Taglöhner, Halden 276.\n— Eugen, Telegraphist, Kronengasse 49.\n-- geb. Frey, Elise, Witwe, hintere Vorstadt 374.\n— Friedrich, Postcommis, Schloßplatz 202.\n— Gottlieb, Werkmeister, Flößerstraße 1164.\n— Jakob, Uhrenmacher, Rathausgasse 14.\n— geb. Stahl, Ida, Quincailiewarenhandlung, Rathausgasse 12.\n— Ida, Privatlehrerin, Golattenmattgasse 247.\n— Julia, Lehrerin, obere Vorstadt 525.\n— Meta, Part., Golattenmattgasse 247.\n— Oskar, Bäcker und Wirt, vordere Vorstadt 326.\n— geb. Scheibler, Verena, Witwe, obere Vorstadt 541.\n— -Schmidt, Bertha, Hafners Witwe, obere Vorstadt 523 [tel].\n— -Türler, Emil, Kaufmann, Garn- und Tuchwarenhandlung,\n  Metzgergasse 68.\n— Rudolf, Kaufmann, Weltistrasse 1496.\n— Wilhelm, Kanzlist, obere Vorstadt 525.\n— Wilhelm, Postcommis, obere Vorstadt 525.\nHenchell-Piderit, Bertha, Part., Rain 489.\nHenchoz, Marg., Damenschneiderin, Bahnhofstrasse 634.\nHengherr, August, Lehrer, Zschokkestrasse 1426.\nHenz, Emil, Kaufmann, Eisenwarenhandlung, [tel] vordere Vor-\n  stadt 339.\n— Hans, Kaufmann, vordere Vorstadt 335.\n— Jakob & Cie. (Hans Henz und Jakob Henz-Plüß), Grob-\n  eisenhandlung, Metalle, Gusse, Kolonialwaren, [tel] vordere Vor-\n  stadt 335.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 49058,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2253,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:41:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p114",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p114.jpeg",
+      "bytes": 851545,
+      "sha256": "ac49a4c83a9792706e872ece6ff37c49dfb0e68dab5a35da9b5167a306f18e53",
+      "sha256_of": "original",
+      "working_copy": "1901_p114.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:41:53+00:00"
+  }
+}

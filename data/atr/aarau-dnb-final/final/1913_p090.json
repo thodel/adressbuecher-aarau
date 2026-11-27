@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p090",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p090.jpeg",
+    "bytes": 914087,
+    "sha256": "c3b0af5e8aef870b50f13e586cfdd2e7214de30576a656f39f9744b340c841b3",
+    "sha256_of": "original",
+    "working_copy": "1913_p090.jpeg"
+  },
+  "text": "Haus-\nNr\n— 68 —\nHerzogstrasse.\n990 * Aktienbrauerei Feldschlößchen, Rheinfelden.\nStadelmann-Deiß, Leonhard, Polier, Escholzmatt.\nWüest-Kull, Albert, Bierführer, Lupfig\nSommerhalder, Traugott, Wagenführer W.T.B., Gontenschwil.\nBaltiser, Johann, Schlosser W. T. B., Weiaeh (Zch.).\n1782 * Maurer, Emil, Kaufmann, z. Kreuz. Spezerei- und Kolonial-\n  warenhandlung, Filiale.\nBollag-Ditiesheim, Isak, Vize-Direktor, Endingen.\nWehrli-Märk, Ida, Wwe., Part., Hönig (Zürich).\n  — Ida, Hönig (Zürich).\n  — Mina,     \"\nGlaus-Wennert, Eduard, Monteur, Guggisberg.\nMaurer, Eugen, Kunstmaler, Atelier.\n1805 Nägelin-Ramstein, Arnold, Liedertswil (Baselland). Fourage-\n  und Getreidehandlung, Futtermittel und Landesprodukte [tel].\n  -Gisiger, Louise, Privat., Liedertswil.\n  — Hans, Kellner, Liedertswil.\nStrub, Emil, Magaziner, Arisdorf (Baselland).\nRohr, Karl, Techniker, Hunzenschwil.\n1786 * Nägelin-Ramstein, A., Magazine und Bureau [tel].\n1844 Wulischleger-Senn, Emil, Kaufmann, Gränichen.\nLüthy-Dürler, Hans, Prediger der Methodistenkirche, Rüders-\n  wil (Bern).\n1897 Bolliger-Marti, Otto, Dachdeckermeister, Staffelbach [tel].\n1513 Frey-Hässig, Jakob, Bankbuehhalter.\nHässig-Baumann, Margaretha, Wwe., Malers.\nRegenaß-Sterchi, Adolf, Elekt.-Techniker, Basel.\n1506 Niederhauser-Gysin, Theodor, Geschäftsführer, Baselaugst.\n991 * Wehrli-Märk, Wwe.\nDeck, Hans, Dr. med., Spezialarzt für Ohren-, Nasen- und\n  Halskrankheiten, Brugg.\n993 Kern-von Arand, Heinrich, Fabrikant [tel].\n  — Margaretha.\n992 * Kummier, Hermann, Kaufmann.\nBircher-Oehler, Eugen, Dr. med., Sekundär-Arzt der kant.\n  Krankenanstalt.\nBlattner, Anna, Seminarlehrerin.\n  — Augusta, Part.\n998 * Kummier-Sauerländer, Hermann, Fabrikant.\n996 Derselbe.\nKummier--Frey, Auguste, Wwe., Privatin.\nBleiche mattstrasse.\n1615 Märki-Urech, Heinrich, Küher, Mandach. Spezereihandlung\n  und Salzverkauf.\nRupp-Baumann, Rudolf, Postkommis, Seon.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 74249,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1886,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:00:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p090",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p090.jpeg",
+      "bytes": 914087,
+      "sha256": "c3b0af5e8aef870b50f13e586cfdd2e7214de30576a656f39f9744b340c841b3",
+      "sha256_of": "original",
+      "working_copy": "1913_p090.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:00:02+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p039",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p039.jpeg",
+    "bytes": 856852,
+    "sha256": "fac53d57d987f47ab547e37aa1437ca6771785cb8b70d0ff0e5348d307cc7fc7",
+    "sha256_of": "original",
+    "working_copy": "1901_p039.jpeg"
+  },
+  "text": "28\nHaus-\nNr.\nGysi-Schneider, Otto, Photograph.\n346 † Dieselben. Photographisches Atelier.\n347 † Dieselben. Remisen.\n348 Keusch-Diebold, Jos. Karl, Apotheker, von Boswyl. [tel]\nStreit-Hegnauer, Mina, Witwe, Part., von Zimmerwald (Bern.)\n— Mina, Postangestellte, von Zimmerwald.\n— Heinrich, Kommis, von Zimmerwald.\n349 † Derselbe. Remise.\n350 Wyler-Guggenheim, Raphael, Kaufmann, von Endingen. Manu-\n  fakturwarenhandlung.\nFrey-Spalinger, Karl, Registrator, von Zurzach.\nVogelwald-Spalinger, Susanna, Part., von Horb (Württembg.)\n351 Dolder, Susette, von Hauptweil (Turgau). Mercerie, Bonneterie,\n  und Modewarenhandlung.\n352 Ackermann-Buser, Albert, Kaufmann, von Amrisweil (Thurg.),\n  Herren- und Knabenkleider-Magazin.\nLehmann-Oelhafen, Jenny, Witwe, von Zofingen. Mercerie und\n  Manufacturwarenhandlung.\nHolliger-Rymann, Rudolf, Reisender, von Boniswyl.\n353 Saxer, Lisa, Part.\nDreifuss, Albert, Kaufmann, von Endingen. Manufactur-\n  warenhandlung.\nWildi-König, Rudolf, von Suhr. General-Agent der Basler\n  Lebensversicherungsgesellschaft.\nHintere Vorstadt.\n354 Wildi-Wespi, Adele, von Veltheim. Salzverkauf.\n355 Oelhafen-Rufli, Anna, Witwe, Part.\n— Arnold, Metzger. [tel]\n356 Mayer-Vogel, Thomas, Schuhmachermeister, von Eigoldingen\n  (Baden). Schuhhandlung.\n357 * Nägelin-Gisiger, Arnold, Hôtelier, von Liedertswil.\nLüscher, Albert von Muhen, Käse- und Milchhandlung.\nHagmann-Stolz, Adolf, in Schönenwerd. Schuhhandlung.\n  (Filiale).\nNeeser-Wilhelm, Samuel, Schneider, von Schloßrued.\n358 Hauri-Gränicher, Karl, Kaufmann, von Seengen.\nHauri & Gränicher, Firma. Broderie- und Tapisseriegeschäft.\nHuber-Steiner, Albert, Einnehmer, von Birmenstorf.\nSteiner-Schürch, Anna, Witwe, von Dürrenäsch, Verkäuferin\n  im Blumenbazar von Großmann.\n— Hans Adolf, Zeichner, von Dürrenäsch.\n359 Siebenmann-Brunnhöfer, Otto, Schlosser, Part.\n— Mina, Lehrerin.\nKrummet-Moog, Gottlieb. Schuhhandlung, von Pirmasens\n  (Baiern).\nMüller-Nikles, Jakob, Ausläufer, von U.-Entfelden.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 37916,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1961,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:12:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p039",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p039.jpeg",
+      "bytes": 856852,
+      "sha256": "fac53d57d987f47ab547e37aa1437ca6771785cb8b70d0ff0e5348d307cc7fc7",
+      "sha256_of": "original",
+      "working_copy": "1901_p039.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:12:29+00:00"
+  }
+}

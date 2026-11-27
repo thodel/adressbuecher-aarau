@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p239",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p239.jpeg",
+    "bytes": 802568,
+    "sha256": "0968be35ae58e2fd91cd6b99f179307fde18c34884457d8248db60171c3d898f",
+    "sha256_of": "original",
+    "working_copy": "1913_p239.jpeg"
+  },
+  "text": "— 205 —\nMeyer-Wiehl, Adam. Gartenstraße 1772.\n*Scheidegger, J. Ulrich. Holzmarkt 220.\n*Schmid-Maurer, Math. [tel] Rathausgasse 20.\n  Sommerhalder, Rudolf. Kirchgasse 40.\n  Stirnemann, Theresia, Witwe [tel]. Metzgergasse 79.\n*Urben, Johann. Milchgasse 127.\nCamioneure.\n*Hangartner, Kaspar [tel]. Ziegelrain 417. Bureau Bahnhofstr. 585.\n*Lagerhäuser der Zentralschweiz [tel]. Bahnhofstraße 581.\nCementfabrikation.\n  (Siehe unter Z.)\nChampagner.\n*Custer, E. & Cie. [tel] Bahnhofstraße 626.\n*Vidiella [tel]. Kirchgasse 33 und Laurenzenvorstadt 738.\nChemiker, Fabrication und Handel mit chem. Produkten.\n*Angst, Robert. Hinter dem Platzi 238.\n*Chem. Fabrik A. G. [tel]. Telli 870.\n*Frey & Co [tel] Telli 840\n*Gänslen-Landolt & Cie. [tel] Obere Vorstadt 534.\n*Knobel & Cie. [tel] Küttigerstraße 1253.\n  Landolt, Alphans. Entfelderstraße 1402.\n  Werder-Pfisterer, Johann, Dr., Kantonschemiker. Juraststraße 1482.\n*Wirz-Ries, Adolf & Cie. [tel] Ziegelrain 427.\n  Wyser, Alfred Otto. Bahnhofstraße 575.\nChocoladefabrikation.\n*Chocolat Frey A. G. [tel] Telli 850.\nCigarrenhandlungen.\n  Brand's J. Nachfolger. Vordere Vorstadt 326.\n*Fischer, A. & W. [tel] Bahnhofstraße 1813 u. Laurenzentorgasse 126.\n  En gros et detail.\n  Pfeil Richard [tel]. Bahnhofstraße 575.\n  Zimmerli, Emma. Laurenzenvorstadt 736.\n  Ferner alle Spezereihandlungen.\nCoiffeurs.\n  Barrilucci-Amici, Ettore. Metzgergasse 78.\n  Burkhardt-Graf, Ferdinand. Laurenzentorgasse 117.\n  Graf-Monner, Eugen [tel]. Graben 208.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38507,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1475,
+    "lines": 38,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:06:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p239",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p239.jpeg",
+      "bytes": 802568,
+      "sha256": "0968be35ae58e2fd91cd6b99f179307fde18c34884457d8248db60171c3d898f",
+      "sha256_of": "original",
+      "working_copy": "1913_p239.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:06:28+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p063",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p063.jpeg",
+    "bytes": 821226,
+    "sha256": "4622d3fd894bdbcff6a478e065cfb5f5444a3c131405a32075dd6cd97a0be5be",
+    "sha256_of": "original",
+    "working_copy": "1901_p063.jpeg"
+  },
+  "text": "52\nHaus-\nNr.\nBirchmeier-Kull, August, Maler, von Würenlingen.\n— Lisa, Bureauangestellte, von Würenlingen.\n794 † Derselbe. Scheune und Einfahrt.\n795 † Derselbe. Waghäuschen.\n796 * Feer-Grossmann, Erbschaft.\nStierli-Brentano, Goar Leonz, Fürsprech und Notar. Vize-\nStadtammann. (Bureau Graben Nr. 615).\nKäslin-Schönecker, Lina, Musikdirectors Witwe.\nFeer, Karl, Part.\n— Adele, Part.\n— Sophie, Part.\n797 † Dieselbe. Waschhaus.\n798 Staat Aargau. Infanterie-Kaserne.\n799 † Fleiner, Alberts Erben. Holzschuppen.\n800 * Dieselben.\nFleiner-Zschokke, Leontine, Fabrikants Witwe. [tel]\nFleiner, Hans, Cementfabrikant.\nZschokke, Arthur, Part.\nTanner, Irmengard, Part.\n— -Vonwiller, Erwin, Fürsprech. Advocatur- und Notariats-\nbureau.\n801 † Dieselben. Waschhaus.\n802 * Einwohnergemeinde Aarau. Lehrerinnenseminar (alte Kan-\ntonsschule).\nBahnhof.\n803 * Schweizerische Nordostbahn. Bahnhofsgebäude.\nKübler-Kuhn, Johann, Bahnhofinspector.\nMeister-Uttiger, Jakob Emil, Adjunkt des Bahnhofinspectors,\nvon Dübingen (Zürich).\nDücret-Hassler, Siegfried, Einnehmer, von Wohlen/schwyl.\nKühn-Hofmann, Bernhard, Restaurateur. [tel]\n804 † Schweizerische Nordostbahn Einsteighalle.\n805 † — Abtritt.\n806 † — Wärterhäuschen.\n807 † — Wagenremise.\n808 † — Wärterhaus.\n809 † — Remise für Lokomotive.\n810 † — Wärterhaus.\n811 † — Wasserstationsgebäude.\n812 † — Güterschopf mit Wohnungen (Güterexpedition, Bureau). [tel]\nLindegger-Kyburg, Gottfried, Güterexpedient, von O.-Entfelden.\nRippstein-Küng, Joseph, Portier, von Kienberg (Solothurn).\n813 † Dieselbe. Centralweichenhaus.\n814 † — Wärterhaus.\n815 † — Lokomotivremise.\n816 † — Wärterhaus.\n817 † — „",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 35861,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1618,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 31.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:21:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p063",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p063.jpeg",
+      "bytes": 821226,
+      "sha256": "4622d3fd894bdbcff6a478e065cfb5f5444a3c131405a32075dd6cd97a0be5be",
+      "sha256_of": "original",
+      "working_copy": "1901_p063.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:21:52+00:00"
+  }
+}

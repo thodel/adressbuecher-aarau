@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p074",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p074.jpeg",
+    "bytes": 822531,
+    "sha256": "61317a1759ce741718994dc1b6d78d600127ec1717e54f2a72d6c384a48a110a",
+    "sha256_of": "original",
+    "working_copy": "1901_p074.jpeg"
+  },
+  "text": "63\nHaus-\nNr.\n1083 Derselbe. „Chalet“. Bureau.\n1084 Stephani-Wettler, Albertine, Fabrikants Witwe.\n1085 † Dieselbe. Holzschopf.\n1086 Adam-Stephani, Hedwig, Witwe, von AllschwyL (Baselland).\n1087 † Dieselbe. Stallung und Holzremise.\n1088 Wehrli-Märk, Emil, Kassier der Aarg. Bank, von Küttigen.\n1089 Siebenmann, Geschwister.\n  — Adolf, Sekretär.\n  — Fanny, Part.\n1090 Frey, Eugen, Part.\n1091 Spühler-Frey, Joh. Jakob, Sekretär, von Rekingen.\n  — Otto, Staatsanwalts substitut, von Rekingen.\n  — Anna, Kunstmalerin, von Rekingen.\n1092 Wirz-Martin, Emil, Buchhändler, von Solothurn.\n1093 Wolf-Allemann, Fritz, Architect, Baumeister.\n1094 * Grossmann, Alb., Fabrikant, v. Zofingen, in Brombach (Baden).\nPhilipp-von Arx, Rosina, Witwe, von Kienberg (Solothurn).\n  — Hunkeler, Joh., Milchverkäufer, von Kienberg (Solothurn).\n1095 † Derselbe. Scheune und Remise.\n1096 † „ Schuppen.\n1097 * „ Wohnhaus.\nSteimer-Wiederkehr, Eugen, Fachlehrer am Gewerbemuseum,\nvon Wettingen.\nVogler-Baumann, Julius, Stadtgärtner.\nWidmer-Nadler, Arnold, Lithograph, von Gränichen.\nKeller-Jäggi, Andreas, [tel] Hauptagent der Schweizerischen\nMobilienversicherungsgesellschaft (Bern).\n1098 * Derselbe. Wohnhaus.\nBurger-Mathys, Hans, Fürsprech, Kriminalgerichtsschreiber,\nvon Freienwyl.\nStephani-Kuhn, Fritz, Commis.\n1099 Herzog-Zobel, Julie, Witwe.\n  — Hans, Dr. Phil., Staatsarchivar.\n  — Max, Kaufmann.\nRothpletz-Brütel, Alfred, alt Bankdirektor.\nGanter-Schilling, Heinrich, Professor, von Neustadt (Baden).\n1100 † Dieselbe. Scheune.\n1101 * Hegnauer, R., Fabrikant. Fabrikgebäude und Anbau.\nOhl, Gustav, Fabrikant, von Barmen. Bureau. [tel]\nHangartner-Alder, Ferd., Lithograph, v. Buchthalen (Schaffh.)\n1102 † Derselbe. Fabrikgebäude und Anbau.\n1103 Kohlmann & Läuchli, Lithographiegeschäft [tel].\nKohlmann-Läuchli, Verena, Part.\n  — Arnold, Sohn, Lithograph,\nLäuchli, Adolf, Lithograph, von Remigen.\n1104 † Wyser-Müller, Alfred, Färberei. Holzschopf.\n1105 Derselbe. Wohnhaus und Färberei [tel].\nRichter-Wyser, Albert, Färber, von Elberfeld (Preußen).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16620,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2022,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:27:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p074",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p074.jpeg",
+      "bytes": 822531,
+      "sha256": "61317a1759ce741718994dc1b6d78d600127ec1717e54f2a72d6c384a48a110a",
+      "sha256_of": "original",
+      "working_copy": "1901_p074.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:27:58+00:00"
+  }
+}

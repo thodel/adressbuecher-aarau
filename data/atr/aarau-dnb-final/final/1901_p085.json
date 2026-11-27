@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p085",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p085.jpeg",
+    "bytes": 790585,
+    "sha256": "eab7a1cc609e976de36ddea9aab917551ab8faff05ec26047308f1107dfd4a97",
+    "sha256_of": "original",
+    "working_copy": "1901_p085.jpeg"
+  },
+  "text": "74\nHaus-\nNr.\n1337 Schneider-Wernli, Jakob, Aufseher, von Thalheim.\n1338 Offen gelassen.\n1339 Ryniker, Gebrüder, Bierbrauer. Faßremise.\n1340 Vogel-Ernst, Joh., Aufseher, Cementfabrik.\n1341 † Derselbe. Holzschopf.\n1342 Schmid-Pauli, Daniel, Gärtner, von Erlinsbach.\n1343 † Schützengesellschaft Aarau. Schützenhaus.\n1344 † Dieselbe. Scheibenstand.\n1345 † „ Revolverstand.\n1346 † Jura-Cementfabriken. [tel] Bureau mit Vorbau.\n1347 † — Werkstatt.\n1348 † — Scheune und Schopf.\n1349 † — Waghäuschen.\n1350 † — Fabrikgebäude, Ofenhaus, Mühle, 4 Anbauten und\n  Hochbahn.\n1351 † — Turbinenhaus.\n1352 † — Steinschuppen.\n1353 † — Baracke.\n1354 † — Abtritt.\n1355 † — Großes Ofenhaus.\n1356 † — Packschuppen mit Ofenhaus und Anbauten.\n1357 † Stadtgemeinde Aarau. Wasenhaus.\n1358 † Hürzeler, Jakob. Knochenmagazin.\n\nErlinsbacherstrasse.\n1359 † Siebenmann, Gottlieb. Rebhäuschen.\n\nMühlematt (Zollrain).\n1360 Brunner, Emil, Bauamtsarbeiter.\n  Knecht-Vögeli, Barbara, Part., von Oberflachs.\n  Schmid-Mösch, Joh. Baptist, [tel] Mineralwasserfabrikant, von\n  Reiden (Luzern).\n  Uebersax, Jakob, Ferger, von Thöringen (Bern).\n  Rautel-Kretschner, Paul, Ingenieur, von Nord-Amerika.\n1361 † Derselbe. Holzhaus.\n1362 † Wasserfahrverein Aarau. Material-Magazin.\n1512 Rothpletz, Karl, Architect.\n  Blume-Hirt, Maria, Witwe, Part., von Spredlingen (Hessen).\n  — Robert, Sohn, Schreiner, von Spredlingen (Hessen).\n1363 Müller-Nünlist, Sigm., Zimmermeister, v. Walterswyl (Sol.)\n  Läppi-Widmer, Robert, Magaziner, von Gränichen.\n1364 Läbli-Häfeli, Barbara, Witwe, von Seengen.\n  Urech-Liechti, Elise, Witwe, Fabrikarbeiterin, von Brunegg.\n1365 Bolliger-Häfeli, Gottfried, Schmied, von Uerkheim.\n  Küng-Riedi, Johann, Schriftsetzer, von Aristau.\n1366 Offen gelassen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15773,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1734,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:30:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p085",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p085.jpeg",
+      "bytes": 790585,
+      "sha256": "eab7a1cc609e976de36ddea9aab917551ab8faff05ec26047308f1107dfd4a97",
+      "sha256_of": "original",
+      "working_copy": "1901_p085.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:30:33+00:00"
+  }
+}

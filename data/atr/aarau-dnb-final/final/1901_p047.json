@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p047",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p047.jpeg",
+    "bytes": 839011,
+    "sha256": "7814d9bbe233088a3bf2849b23f1c691f03729901af9be873e2fdd480afbe109",
+    "sha256_of": "original",
+    "working_copy": "1901_p047.jpeg"
+  },
+  "text": "36\nHaus-\nNr.\nDango-Nöll, Maria, Fabrikarbeiterin, von Barmen (Preußen).\n483 Thut-Gidemann, Hermann, Ziegler von Oberentfelden, mecha-\n  nische Ziegelei. [tel]\n484 † Derselbe. Ziegelhütte.\n485 † Gemeinde Aarau. Holzmagazin.\n486 † Dieselbe. Schanzmättli-Remise und Keller.\n487 Hauri-Siegenthaler, Karl, Ziegler, von Seengen.\n488 † Derselbe. Schopf.\n489 Fahrländer-Johannes, Eugen, Ingenieur, Oberst, Kommandant\n  des II. Armeekorps.\n  Dr. Hirzel-Henckell, Arn., Bezirksschullehrer von Lenzburg.\n  Henckel-Piderit, Bertha, Part., von Hannover.\n  Siebenmann-Hodel, Fritz, Kommis.\n  Hodel, Josephha, Part., von Rheinfelden.\n490 † Derselbe. Waschhaus.\n491 Westfeld-Spitzli, Ida, Witwe, Part.\n492 Hemmeler-Biedermann, August, Kaufmann.\n  Plüss-Amstutz, Johann, Kondukteur, von Vordemwald.\n493 † Derselbe. Waschhaus.\n494 † Derselbe. Holzhauß.\n495 Siegrist-Hunziker, Emil, Kaufmann, Kassier des Niederlags-\n  hauses in Aarau.\n  Wirz-Widmer, Adolf, Postkondukteur, von Wezikon.\n  Rebmann-Häfliger, Karl Jakob, Maler, von Fellbach (Württem-\n  berg). Malerwerkstätte.\n496 Hitz-Lanz, Otto, Negt., Spezerei-, Kohlen- und Holzhandlung.\n  Hitz, Bertha, Part., von Hausen am Albis (Zürich).\n  Guyot, Maria, Damenschneiderin, von Lyon.\n  Dietiker, Susanna, Spetterin, von Thalheim.\n  Brunnhofer, Elise, Damenschneiderin.\n  Fisch, Mina. Kleinkinderschule.\n  Hauri-Christen, Maria, Part., von Hirschtal.\n  Dreifuss-Wyler, Karl Moses, Kaufmann, aus Endingen.\n497 Wasmer, Jakob, Wagner, von Suhr.\n  Sommerhalder-König, Louise, Spetterin, von Gontenschwyl.\n  Ruef-Moor, Maria Elisabeth, Fabrikarbeiterin, von Ryken.\n  Wehrli-Kähr, Maria, Part.\n  Schuppli, Karl Heinrich, Maler, von Gachnang.\n498 Scheibler-Zingg, Fritz, Küfermeister, von Unterentfelden.\n  Brunner-Arnold, Samuel Friedr., Zimmermann, v. Schmieadrned.\n499 Keller-Steiner, Karl, Hafer- und Weinhandlung.\n  Steiner, Johann, Part.\n  Mühlberg-Sutermeister, Fritz, Dr. phil., Professor.\n  von Steiger-Marthaler, William, Techniker, von Bern.\n  Steffen-Meier, Anna, Witwe, von Seebach (Zürich).\n500 * Derselbe. Hinterhaus.\n  Volkmer-Mussmann, Barbara, Schuhhändlerin, von Pirmasens\n  (Baiern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 39087,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2129,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:15:32+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p047",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p047.jpeg",
+      "bytes": 839011,
+      "sha256": "7814d9bbe233088a3bf2849b23f1c691f03729901af9be873e2fdd480afbe109",
+      "sha256_of": "original",
+      "working_copy": "1901_p047.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:15:32+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p111",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p111.jpeg",
+    "bytes": 839229,
+    "sha256": "ca432f2cac5e0afdcbe74899b4eb4fdbaf212e659a8b0e290fd6eeb47b36c910",
+    "sha256_of": "original",
+    "working_copy": "1901_p111.jpeg"
+  },
+  "text": "98\nGröbli, Jakob, Schneider, Rathausgasse 26.\nGrolimund, Emma, Lehrerin, vordere Vorstadt 328.\n— Sigmund, Buchhandlungsangestellter, vordere Vorstadt 328.\nGrossmann, Otto, Handelszüng, [tel] Filiale: Graben 221.\nGrütter, Friedrich, Heizer, Halden 240.\n— Peter, Heizer, Tellirain 836.\nGruber, Engelbert, Maurer, Schmiedgasse 392.\nGsell-Adam, Mina, Lingeriehandlung, Rathausgasse 11.\nGübr, Wilhelm, Schuhmacher, obere Vorstadt 539.\nGünther, Eugen, Hauptmann, Instruktor der Infanterie, Bahnhof-\n  straße 555.\n— -Zschokke, Bertha, Mathilde, Part., Laurenzenvorstadt 714.\nGugel, Friedrich, Schuhmacher, Milchgasse 155.\nGuggisberg, Emil, Bäcker, Bahnhofstraße 619 [tel].\n— geb. Hagenbuch, Bertha, Part., Entfelderstraße 1377.\nGull, Emil, Kaufmann, Bahnhofstraße 623.\n— geb. Wild, Bernardine, Witwe, Bahnhofstraße 623.\nGunsch, Joseph, Maurer, Golattenmatzgasse 251.\nGuyer, August, Part., Erlinsbacherstraße 1306.\n— Oskar, Fabrikant, Tell 873. [tel]\nGuyot, Maria, Damenschneiderin, Rain 496.\nHächler, Gottlieb, Bauamtsarbeiter, Kirchgasse 41.\n— Jakob, Part., hintere Vorstadt 363.\n— Luise, Glätterin, Kirchgasse 41.\n— Rosa, Damenschneiderin, Kirchgasse 41.\nHägi-Lier, Barbara, Part., Rain 434b.\nHäflliger, Daniel, Vater, Part., Pelzgasse 98.\n— Otto, Metzger, [tel] Pelzgasse 98.\nHäfeli, Gottfried, Stadtpolizist, Rathausgasse 16.\n— Jos., Sattler, Kasinostraße 612.\n— geb. Fischer, Julie, Näherin, Halden 278.\nHäni, Hermann, Bäcker, Kirchgasse 37.\n— Rudolf, Leder- und Fourniturenhandlung, [tel] Bahnhofstraße 623.\nHärdi, Lina, Haushälterin, Rathausgasse 24.\n— Wilhelm, Goldschmied, Rathausgasse 24.\nHärri, Arnold, Postcommis, Bahnhofstraße 587.\n— Rudolf, Expeditionschef auf der Staatskanzlei, Pelzgasse 110.\nHäsle, Emil, Maler, Rathausgasse 12.\nHässig, Albert, Werkführer, Halden 276.\n— geb. Baumann, Margaritha, Witwe, Kasinostraße 660.\n— Alfred, Sohn, Kupferschmied, Ziegelrain 424.\n— Emma, Part., Jurastraße 1477.\n— Emil, Postcommis, Flößerstraße 1193.\n— Emil, Tapezierer, Bachstraße 1056.\n— Friedrich, Kupferschmied, Ziegelrain 424.\n— Fritz, Bäcker und Wirt, Rathausgasse 28.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 42050,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2073,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.09,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:39:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p111",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p111.jpeg",
+      "bytes": 839229,
+      "sha256": "ca432f2cac5e0afdcbe74899b4eb4fdbaf212e659a8b0e290fd6eeb47b36c910",
+      "sha256_of": "original",
+      "working_copy": "1901_p111.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:39:52+00:00"
+  }
+}

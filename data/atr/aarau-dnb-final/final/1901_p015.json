@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p015",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p015.jpeg",
+    "bytes": 878218,
+    "sha256": "9f78e1e4297ea3ae97a07d2e0f29dff0bc2e89949b3c243b2cb6a98a609169e6",
+    "sha256_of": "original",
+    "working_copy": "1901_p015.jpeg"
+  },
+  "text": "4\nHaus-\nNr.\nKirchgasse.\n32 * Staat Aargau, Pfarrhelfergebäude.\n  Frey-Rauchenstein, Eduard, Pfarrhelfer für den Helferkreis Aarau.\n33 * Vediella-Tarrats, Manuel, von Sitges (Spanien), Spanische Wein-\n  halle. Weinhandlung. [tel]\n  Frey, Friedrich, Weinhändler, von Densbüren.\n34a Hoffmann-Suter, Christoph, von Schwabach (Bayern). Coiffeur-\n  geschäft.\n  Suter-Bieber, Jakob, Knecht, von Gränichen.\n34b Lienberger-Weber, Elise, Schuhmachers Frau, von Spreitenbach.\n  — — Kaspar, Schuhmachermeister, von Spreitenbach.\n35 † Gemeinde Aarau. Feuerlöschmagazin. Leiter Nr. I.\n36 Rychner-Thommen, Elise, Witwe, Spenglerwarenhandlung.\n  Fricker-Schmid, Jakob, Schneider, von Oberflachs.\n  Paulin-Thut, Rudolf, Maurer, von Canale (Italien).\n  Erb-Rodel, Hermann, Bauamtsarbeiter, von Wölflinswyl.\n  Müller-Amsler, Joh. Jakob, Schuhmacher, von Unter-Kulm.\n  Kiburz, Gottlieb, Taglöhner, von Erlinsbach (Aargau).\n37 Häny, Hermann, Bäckermeister, von Kölliken.\n  Hunziker-Brunner, Maria, Wwe., von Moosleerau.\n38 Strebel-Bernauer, Joseph, Schuhmacher, von Mägenwyl.\n  Fassler-Furter, Friedrich, Gipser, von Densbüren.\n  Suter, Geschwister, Emma und Bertha, Fabrikarbeiterinnen, von\n  Gränichen.\n39 Lattmann-Ackermann, Georg, Lokomotivf., von Sternenberg\n  (Zürich).\n  Heinzelmann, Joh., Schuhmacher, von Marschalkzimmer\n  (Württemberg).\n  Rochholz, Mina, Pianistin, von Ansbach (Baiern).\n  Hilfinger-Alchenberger, Jakob, Schuhmacher, von Safenwyl.\n40 Sommerhalder-Lindemann, Rudolf, Küher, von Schloßrued.\n  Milch- und Käsehandlung.\n  Gloor-Schärli, Arnold, Ausläufer, von Dürrenäsch.\n41 * Faller-Unwin, Friedr., Kaufmann. Magazin.\n  Müller-Vogt, Joh. Jakob, Postangestellter, von Bözberg.\n  Hächler-Peter, Gottlieb, Bauamtsarbeiter, von Teufenhal.\n  — Louise, Glätterin, von Teufenhal.\n  — Rosa, Damenschneiderin, von Teufenhal.\n  Stalder-Felger, Joseph, Gipser, von Hasle (Luzern).\nKronengasse.\n42 Erny-Fassler & Sohn, Firma. [tel]\n  Erny-Bauer, Karl, Kaufmann, Mercerie-, Passenterie-, Bonne-\n  terie- und Lingerie-Warenhandlung.\n  Erny-Fassler, Emil, Kaufmann, Armenpfleger. Vertretung der\n  Phönix-Feuerversicherung. Schweiz. Sterbe- und Alterskasse, Lebens-\n  versicherung.\n  Haase-Sage, Ed. Karl Otto, Färber, von Blankenhain (Sachsen).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19353,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2232,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:01:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p015",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p015.jpeg",
+      "bytes": 878218,
+      "sha256": "9f78e1e4297ea3ae97a07d2e0f29dff0bc2e89949b3c243b2cb6a98a609169e6",
+      "sha256_of": "original",
+      "working_copy": "1901_p015.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:01:48+00:00"
+  }
+}

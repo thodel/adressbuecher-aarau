@@ -7,6 +7,12 @@ Nimmt je Seite die Hauptlesung; ist sie am Token-Deckel abgeschnitten oder leer 
 es eine Ersatzlesung, gilt diese. Schreibt data/atr/<name>/final/<key>.json und
 data/csv/02_reading_choice.csv (eine Zeile je Seite: welcher Lauf, welcher Leser, warum).
 Die Parser lesen danach `--run <name> --reader final`.
+
+`--prefer RUN/LESER`: wo dieser Lauf die Seite hat (und sie nicht abgeschnitten oder leer ist), gilt er vor der
+Hauptlesung. So ersetzt die Gemini-Lesung des Einwohnerteils 1913 die qwen-Lesung (#9):
+
+    python scripts/02c_compose_run.py --name aarau-dnb-final --primary aarau-antiqua-qwen38-1901-1913/qwen3.8-27b \
+        --prefer aarau-dnb-gemini-1913/gemini-3.5-flash
 """
 from __future__ import annotations
 
@@ -34,6 +40,7 @@ def main() -> None:
     ap.add_argument("--name", required=True)
     ap.add_argument("--primary", required=True)
     ap.add_argument("--fallback", action="append", default=[])
+    ap.add_argument("--prefer", action="append", default=[])
     args = ap.parse_args()
     out = ATR / args.name / "final"
     out.mkdir(parents=True, exist_ok=True)
@@ -44,7 +51,11 @@ def main() -> None:
     for jp in sorted((ATR / args.primary).glob("*.json")):
         d = json.loads(jp.read_text(encoding="utf-8"))
         reason, src = bad(d), args.primary
-        if reason:
+        pref = next((pr for pr in args.prefer if (ATR / pr / jp.name).exists()
+                     and not bad(json.loads((ATR / pr / jp.name).read_text(encoding="utf-8")))), None)
+        if pref:
+            src = pref
+        elif reason:
             for fb in args.fallback:
                 fp = ATR / fb / jp.name
                 if fp.exists() and not bad(json.loads(fp.read_text(encoding="utf-8"))):
@@ -52,12 +63,14 @@ def main() -> None:
                     break
         shutil.copyfile(ATR / src / jp.name, out / jp.name)
         rows.append({"key": jp.stem, "final_run": args.name, "source": src, "primary_problem": reason,
-                     "note": "Ersatzlesung" if src != args.primary else ("Problem ohne Ersatz" if reason else "")})
+                     "note": "Zweitlesung bevorzugt" if src == pref else "Ersatzlesung" if src != args.primary
+                     else ("Problem ohne Ersatz" if reason else "")})
     with CHOICE.open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=["key", "final_run", "source", "primary_problem", "note"])
         w.writeheader(); w.writerows(rows)
     mine = [r for r in rows if r["final_run"] == args.name]
-    print(f"{len(mine)} Seiten → {out}; Ersatz: {sum(1 for r in mine if r['note'] == 'Ersatzlesung')}, "
+    print(f"{len(mine)} Seiten → {out}; bevorzugt: {sum(1 for r in mine if r['note'] == 'Zweitlesung bevorzugt')}, "
+          f"Ersatz: {sum(1 for r in mine if r['note'] == 'Ersatzlesung')}, "
           f"ohne Ersatz: {sum(1 for r in mine if r['note'] == 'Problem ohne Ersatz')}")
 
 

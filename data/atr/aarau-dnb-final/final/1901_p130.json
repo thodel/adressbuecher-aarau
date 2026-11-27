@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p130",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p130.jpeg",
+    "bytes": 921182,
+    "sha256": "cb8bb7d82785106ec5138a53dbad619864870f95a40dd728e6d13b1de08629c8",
+    "sha256_of": "original",
+    "working_copy": "1901_p130.jpeg"
+  },
+  "text": "117\nRyniker geb. Groß, Marie, Witwe, Metzgergasse 77.\n— Hermann, Küher, Entfelderstraße 1397.\n— Jakob, Oekonom, Binsenhof 1467.\n— Jakob, Postkondukteur, Bleichemattstraße 1016.\n— Karl, Bierbrauer, [tel] Speisewirtschaft, Metzgergasse 77.\nRippstein, Joseph, Bahnhofportier, Bahnhof 812.\nRitzmann, Jakob, Commis, Rain 478.\nRödelberger, Franz, Musikdirektor, Laurenzenvorstadt 790.\nRösiger, Max, Lithograph, Schachen 1136.\nRochholz, Mina, Klavierlehrerin, Kirchgasse 39.\nRodel geb. Sandmeier, Anna, Witwe, Fabrikarbeiterin, Telli 871.\nRohner geb. Ehrsam, Elise, Arzts Witwe, Part., Zollrain 52.\nRohr geb. Blaueustein, Marie Anna, Witwe, Pelzgasse 96.\n— Daniel, Bauamtsarbeiter, Halden 296.\n— geb. Hässig, Emma, Witwe, Part., Laurenzenvorstadt 737.\n— Hans, Oberrichter, [tel] Feerstraße 696.\n— Hans, Konditorei und Kaffeewirtschaft, [tel] Graben 212.\n— Hans, Fürsprech, Oberrichter, Jurastraße 1489.\n— Jakob, Kaufmann, Colonialwaarenhandlung, [tel] Pelzgasse 97.\n— Johann, Wirt, Holzmarkt 319.\n— Rudolf, Schmied, Rainstraße 504.\nRoos, Xaver, Postangestellter, Rathausgasse 3.\nRorschach, Frida, Kleinkinderlehrerin, Bahnhofstraße 626.\nRoth, Alfred, Oberst, Laurenzenvorstadt 754.\n— Friedrich, Obergerichtskanzlist, hintere Vorstadt 371.\n— Katharina, Spelterin, Milchgasse 147.\n— Friedrich, Schuhmachermeister, Zeughausstraße 665.\n— Jakob, Schneider, Zollrain 56.\n— Joh., Aufseher, Erlinsbacherstraße 1302.\n— Samuel, Knecht, Milchgasse 156.\nRothacker, Johann, Nachtwächter, Industriestraße 929.\nRothenbach, Otto Julius, Direktor der Gasfabrik, Gasstraße 1173.\nRothpletz, Alfred, alt Bankdirektor, Bachstraße 1099.\n— Emil, Verwalter, Konradstraße 1414.\n— Frida, Part., Konradstraße 1414.\n— geb. Hunziker, Anna Maria, Schreiners Witwe, Milchgasse 146.\n— geb. Imhof, Luise, Stadtrats Witwe, Erlinsbacherstraße 1306.\n— Karl, Architect, Mühlematt 1512.\n— Karl, Bankangestellter, Telli 859.\n— Max, Kaufmann, Erlinsbacherstraße 1306.\n— Melanie, Part., Entfelderstraße 1414.\n— Rudolf, Metzger, Milchgasse 138. Bäckerwaarenhandlung Holz-\n  markt 317.\n— geb. Siebenmann, Marie Elisabeth, Schreiners Witwe, Part.,\n  Stadthof 84a.\nRotter, Johann, Schreiner, Bleichemattstraße 1014.\nRoullier, Numa Oskar, Commis, Feerstraße 689.\nRüedi, Anton, Cementarbeiter, Erlinsbacherstraße 1310.\n— Johann, Staatsweibel, Milchgasse 136.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 31130,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2304,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:47:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p130",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p130.jpeg",
+      "bytes": 921182,
+      "sha256": "cb8bb7d82785106ec5138a53dbad619864870f95a40dd728e6d13b1de08629c8",
+      "sha256_of": "original",
+      "working_copy": "1901_p130.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:47:10+00:00"
+  }
+}

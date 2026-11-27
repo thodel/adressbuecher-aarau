@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p101",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p101.jpeg",
+    "bytes": 807361,
+    "sha256": "15f5b5d9fae86cbfa6c3cf55036d6a6124073605e580c86f10cb064f67041886",
+    "sha256_of": "original",
+    "working_copy": "1913_p101.jpeg"
+  },
+  "text": "— 79 —\nHaus-\nNr.\n1409 Schmuziger, Friedr., Dr. med., Arzt [tel].\n  Krannhals geb. Schmuziger, Nina, Privatim.\n1410 Siebenmann, Jakob, Privatier.\n  Holl-Hedinger, Marie, Haushälterin, Nördingen.\n1411 Zuber-Baumann, Andreas, Architekt.\n  — Hedwig, Bureauangestellte.\n  — -Müller, Barbara, Privatim.\n\nBinserhof.\n1457 Ryniker-Wirth, Karl, Bierbrauer, Chalet, Gasthof z. Binserhof [tel].\n  Wirth-Herzog, Jakob, Privatier.\n1467 Riniker-Läuchli, J., Oekonom's Wwe.\n  — Walter, Landwirt.\n1468 * Dieselbe\n  Rennhardt-Stirnemann, Josef, Küher, Böttstein.\n\nGoldern.\n1607 Walther-Liecht, Jakob, Privatier, Oberburg (Bern).\n1472 * Derselbe.\n  Wyß-Schenck, Friedr., Landwirt, Rohrbach.\n  — -Jäggi,   \"   \"   \"\n\nKonradstrasse.\n1412 Hagnauer-Zimmermann, Wwe., Fabrikants [tel].\n1413 Hagnauer, Nanette und Mathilde, Part.\n  Keller-Wetter, Georg, Fabrikant, Kallern.\n1414 * Rothpletz, Malers Erbschaft.\n  — Melanie, Part.\n  — Frieda, Klavierlehrerin.\n  Fasnacht, Olga, Bezirksschullehrerin, Murten.\n1417 Kühn-Hofmann, Bernhard, Bahnhofrestaurateur [tel].\n  — Abb. Walter, Koch.\n1419 Wehrli-Peyer, Rudolf, Part.\n  — Martha, Bureauangestellte.\n\nZschokkestrasse.\n1421 Zschokke-Sauerländer, Auguste, Buchhändlers Wwe.\n  — -Bertschinger, Ernst, Dr., Professor [tel].\n1423 Wanger, Sophie, Part.\n  Merz-Hunziker, Oskar, Rechnungsrevisor, Menziken.\n1426 Stigeler-Schaub, Margaretha, Rekingen.\n  — -Hammann, Franz, Bureau-Chef, Rekingen\n  Gysi-Stigeler, Wilma, Part.\n  Kern, Robert, Postbeamter, Villigen.\n  Rubli, Ernst, Reissender, Dachsen (Zürich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 33748,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1524,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:03:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p101",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p101.jpeg",
+      "bytes": 807361,
+      "sha256": "15f5b5d9fae86cbfa6c3cf55036d6a6124073605e580c86f10cb064f67041886",
+      "sha256_of": "original",
+      "working_copy": "1913_p101.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:03:34+00:00"
+  }
+}

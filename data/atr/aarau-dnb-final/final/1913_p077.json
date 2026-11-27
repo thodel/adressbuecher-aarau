@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p077",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p077.jpeg",
+    "bytes": 904417,
+    "sha256": "e9b4a412ce4a2ddec2b11e98f28b1408cf6cc540e42902452be7c2190fafd02c",
+    "sha256_of": "original",
+    "working_copy": "1913_p077.jpeg"
+  },
+  "text": "— 57 —\nHaus-\nNr.\n724 Hunziker-Frey, Julius und Mithafte.\n  — Walther, Forstadjunkt.\n727 Glühfadenfabrik Aarau A.-G. vormals Gmür & Cie.\n  Gloor, Johannes, Fabrikarbeiter, Niederlenz.\n729 Glühfadenfabrik Aarau A.-G. vormals Gmür & Cie., Bureau [tel].\n730 — — Fabrikgebäude.\n734 Leuthardt-Wäffler, Aug., Pierrist, Arlesheim (Baselland).\n736 *Vidiella-Tarrats, Augustina, Part.\n  Zimmerli, Emma, Spezerei- und Cigarrenhandlung.\n738 *Vidiella-Tarrats, Augustina. Weinhandlung. Bureau [tel].\n  *Frey-Seiler, F., Weinhandlung [tel].\n737 Vidiella-Tarrats, Augustina, Part.\n  — Manuel, Kaufmann.\n  — Braulio,\n  Martin-Rothpletz, Friedr., Part.\n  Landolt-Hässig, Lina,    \"\n  Rohr-Hässig, Emma,       \"\n744 Baumann & Cie., Weinhandlung, Bureau [tel].\n745 *Riniker, Karl, Bierbrauer.\n  Hubacher-Jakob, J., Wirt, Urtenen (Bern). Restaurant z. Freihaof [tel].\n  Frey-Burkard, Fritz, Bauführer, Basel.\n  Studer-Nebel, Adolf, Schreinermeister, Dornach.\n  Dango geb. Nölle, Marie, Fabrikaufseherin, Barmen (Preußen).\n746 *Baumann, Oskar und Fanny. Töchterheim.\n  Künzler-Custer, Adolf, Techniker, Wolfhalden.\n  Rothpletz, Emma. Vorsteherin des Töchterheims.\n748 Zürcher-Wirz, Alfred, Arzt [tel].\n  — Ida, Musiklehrerin.\n  Valton-Kuschke, Raymond, Kaufmann, Paris.\n751 Wäffler, Hrch., alt Turnlehrer, Basel.\n  Gerodetti-Wäffler, Hans, Kaufmann.\n  Abt-Weiß, August, Instr.-Offizier, Basel.\n754 Roth, Alfred, Obersts Wwe., Thun.\n  — Martha.\n  — Emma.\n  Förderer, Pauline.\n  — Elise, Part.\n756 Meyer-Zschokke, Jb. Ludwig, Direktor des kant. Gewerbe-\n  museum.\n758 *Suter & Cie., Zuckerwarenfabrik [tel].\n759 *Dasselben. Bureau.\n  Martinelli-Gatti, Angelo, Maler, Brescia (Ital.).\n  — Rosalinda,\n761 Ringier-Tschudi, Adolf, Privatier, \"Zofingen\".\n  Knecht-Ringier, Marie, Privatin, Zürich.\n763 Baumann-Baumann, Ida, Part., Stilli.\n  Iblinger, Oskar, Techniker, Würzburg.\n  Hunziker, Elise, Mallehrerin.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 33940,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1882,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.78,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:55:27+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p077",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p077.jpeg",
+      "bytes": 904417,
+      "sha256": "e9b4a412ce4a2ddec2b11e98f28b1408cf6cc540e42902452be7c2190fafd02c",
+      "sha256_of": "original",
+      "working_copy": "1913_p077.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:55:27+00:00"
+  }
+}

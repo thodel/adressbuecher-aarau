@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p073",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p073.jpeg",
+    "bytes": 898245,
+    "sha256": "af88ddc9c073b6c0e188281f1672eb4f36db0a59af1cf13d7e4e5b90c72141dd",
+    "sha256_of": "original",
+    "working_copy": "1901_p073.jpeg"
+  },
+  "text": "62\nHaus-\n  Nr.\n1058 † Gemeinde Aarau. Schuppen.\n1059 Maurer-Lemann, Friedrich, Heizer.\n  Fäs-Lüthi, Gottlieb, Schlosser, von Schöftland.\n  Sager-Wildi, Jakob, Taglöhner, von Gränichen.\n  Lenzi-Hort, Xaver, Dienstmann, von Oberhof.\n1060 Jürg-Hächler, Samuel, Schreiner, von Affoltern (Bern).\n  Speck-Hochuli, Elsa, Vorgängerin, von Oberkulm.\n1061 Eismann-Indermauer, Abraham, Friedensrichter, Oekonom.\n1062 † Derselbe. Scheune.\n1063 Imhof-Aman, Ernst, Fabrikant. Farwarenfabrikation für\n  Konditoreien.\n1064 † Andres-Bircher, Friedrich, Hafner. Holzhaus.\n1065 † Derselbe. Hafnerei.\n1066 Brunner, Gottfried, Part.\n  Aeschbach-Steiner, Rudolf, Steinhauer, von Hendschikon.\n  Gautschi-Frei, Jakob Gottlieb, Policeisoldat, von Gontenschwyl.\n  Mellert-Brunner, Heinr., Lithograph, von Steinach (Baden).\n  Brandl-Schmid, Michael, Bierbrauer, von Sansbach (Baiern).\n  Ringeles-Dutle, Barbara, Taglöhnerin, von Döttingen.\n  Brunner-Rothpletz, Gottfried, Part.\n  Hassler, Gustav, Maler.\n1067 Kraft-Kaspar, Maria, Witwe, von Brugg.\n  Frey-Brand, Franz Karl, Postcommis, von Zurzach.\n  Näf-Ludwig, Emil, Statistiker, von Aarburg.\n1068 † Dieselbe. Holzremise.\n1069 Maier-Ganter, Kon., [tel] Lohnkutscher, v. Reisaltingen (Baden).\n  Ehrsam, Ida, Part.\n  Heffink-Bensse, Richard, Reisender, von Belgien.\n  Weiss, Niklaus, Sekretär, von Sulz.\n1070 Stänz-Suter, Louise Witwe, Part.\n  Brentano-Zimmermann, Gustav, Staatsanwalt, von Laufenburg.\n  Furter, Klara, Ladentochter, von Staufen.\n1071 Dieselbe. Holzschopf.\n1072 * Bircher-Schatzmannn, Heinrich, Dr. med.\n  Sprecher-Siegrist, Karl, Elektrotechniker, v. Aesch (Baselld.)\n  Dössekker-Eggen, Walter, Dr. med., Arzt, von Seon. [tel]\n1073 Derselbe. Waschhaus.\n1074 Merz-Märk, Sebastian, Notar. [tel] (Notariats-, Informations-\n  und Inkassogeschäft).\n1075 * Bäbler, Joh. Jak., Dr. phil., Professor, v. Matt (Glar.) Erbschaft.\n1076 Thut-Hilty, Gottlieb, Weinhändler, [tel] von Oberentfelden.\n1077 † Derselbe. Kellergebäude.\n1078 † \" Remise.\n1079 † \" Holzschopf.\n1080 † \" Remise.\n1081 Wolfinger-Mayer, Max, Professor, von Mannheim (Baden).\n1082 Schmid-Läuchli, Joh. Jak., Ingenieur [tel], Konkorde- und\n  Katastergesometer, von Glarus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 43494,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2167,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:27:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p073",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p073.jpeg",
+      "bytes": 898245,
+      "sha256": "af88ddc9c073b6c0e188281f1672eb4f36db0a59af1cf13d7e4e5b90c72141dd",
+      "sha256_of": "original",
+      "working_copy": "1901_p073.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:27:40+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p075",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p075.jpeg",
+    "bytes": 864378,
+    "sha256": "7840fc606873fe53de966a50ee58832f2f35b64f9438c00820e1e9f8798e046c",
+    "sha256_of": "original",
+    "working_copy": "1901_p075.jpeg"
+  },
+  "text": "64\nHaus-\n-Nr.\n1106 Derselbe. Kesselhaus.\n  1107 \" Färbereigebäude.\n  1108 \" Wascherei und Anbau.\n  1109 \" Gartenhaus.\n  1110 Thalmann-Bolliger, Hrch., Buchhalter, von Bertschikon (Zür.)\n  Baur, Ludwig, Buchhändler, von Gmünden (Oesterreich).\n  1111 Walter-Dubs, Hans, [tel] Landwirt. Holzhandlung.\n  Sandmeier-Gignoux, August, Kaufmann, von Seengen.\n  1112 † Derselbe. Scheune und Remise.\n  1113 † \" Remise und Hühnerhaus.\n  1114 † \" Remise.\n  1115 Brack-Fehlmann, Abraham, Landwirt.\n  1116 † Gantner-Brack, Hermann. Bienenhaus.\n\nSchachen.\n  1117 Wydler-Wehrli, Heinrich, Färber.\n  Schmuziger-Hochstrasser, Maria, Part.\n  Merz, Marie, Damenschneiderin.\n  1118 † Derselbe. Holzschofp.\n  1119 † Ortsbürgergemeinde Aarau. Waschhäuser.\n  Matteberger, J. J., Metzger. Scheune.\n  1120 † Einwohnergemeinde Aarau. Militärbaracke I.\n  1121 † Dieselbe. Militärbaracke II.\n  1122 † Matteberger, J. J., Metzger. Gartenhaus.\n  1123 Walther-Matter, Verena, Oekonoms Witwe.\n  Wietlisbach-Walther, Joseph Burkard, Postcommis.\n  1124a * Müller-von Däniken, Elisabeth, Oekonoms Witwe.\n  Basler-Müller, Johann, Briefträger, von Zeihen.\n  Müller-Bachmann, Hermann, Landwirt.\n  1124b † Walther-Matter, Verena, Witwe. Schopfanbau.\n  1125 † Müller-von Däniken, Elisabeth. Scheune.\n  1126 Fehlmann-Wernli, Samuel, Lehrer, [tel] von Seon. Speise-\n    wirtschaft.\n  1127 † Derselbe. Keller.\n  1128 Hegnauer-Fischer, Rudolf, Buchhalter, von Seengen.\n  Sennhauser-Gossewisch, Amalie, Modistin, v. Herliberg (Zür.)\n  — Amalie, Glätterin, von Herliberg (Zürich).\n  — Rosa, Glätterin, von Herliberg (Zürich).\n  Kistler-Treier, Emil, Taglöhner, von Bözen.\n  1129 † Derselbe. Holzschofp.\n  1130 Matter-Schönenberg, Samuel, Amtsschreiber.\n  Hässig-Matter, Gottlieb, Postcommis.\n  1131a † Derselbe. Gartenhaus I.\n  1131b † Hirschi, Rudolf, Uhrenmacher. Gartenhaus II.\n  1132 Meyer-Bucher, August, Direktionsssekretär, von Obersiggenthal.\n  Bucher-Meder, Genofeva, Part., von Baden.\n  Herzog, Emilie, Part., von Baden.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 34963,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1982,
+    "lines": 49,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:28:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p075",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p075.jpeg",
+      "bytes": 864378,
+      "sha256": "7840fc606873fe53de966a50ee58832f2f35b64f9438c00820e1e9f8798e046c",
+      "sha256_of": "original",
+      "working_copy": "1901_p075.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:28:16+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p020",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p020.jpeg",
+    "bytes": 900869,
+    "sha256": "3008e6a2efe60c3b60841e575360b9d7d4cdae2239457091f1f325516801debb",
+    "sha256_of": "original",
+    "working_copy": "1913_p020.jpeg"
+  },
+  "text": "— 6 —\nHau\nNr\n61\nHaus-\nNr.\n48 Widmer-Eichenberger, Hermann, Küfer und Hotelier, Hausen [tel].\n  Hotel Krone.\n  — Karl, Küfer Hausen.\n  — Lina,\n49 Peloli-Castelnovo, Pietro, Wirt, Nesso (Ital.).\n50 Faller-Faller, Elise, Wwe., Eisenwarenhandlung, Raitenbuch\n  (Baden).\n  — Karl Friedrich, Kaufmann, Raitenbuch (Baden).\nZollrain.\n62\n51 * Gamper & Co. Lager in Herren- und Damen-Kleiderstoffen,\n  Herren- und Damen-Konfektion, Anfertigung von Damen- und\n  Herren-Kleidern nach Maß [tel].\n52 * Dieselben. Wie Zollrain 51 [tel].\n63\n  Abwartwohnung.\n53 * Von Arx, Carolinas Erbschaft.\n  Helm, Fanny, Wirtin, Oerlikon.\n  Frey-von Arx, Maria, Privatin, Gontenschwil.\n  Hummel, Karl Vinzenz, Kommis, Stettin.\n54 * Nüperli, Friedrich, Sattlers Erbschaft.\n  Böhmm-Hofmann, Georg, Seilermeister, Wilchingen.\n  — Marie, Maschinenstrickerei und Wollwarenhandlung, Wil-\n  chingen.\n  Basler-Wehrli, Albert, Hülfsmaschinist, Küttigen.\n64\n  Buchmann-Spicher, Adele, Veltheim (Zürich).\n  — Gaston, Kommis,     \"     \"\n  — Elsa, Modistin,     \"     \"\n55 Müller-Schmocker, Fritz, Huthandlung.\n  — Emma, Modegeschäft.\n  — Frida, Modistin.\n  — Fritz, Bankangestellter.\n56 Hunziker-Matter, Gottlieb, Bäckermeister, Ob.-Kulm.\n65\n  — Schönenberg, Elise, Ob.-Kulm.\n  Bär-Suter, Wwe., Fab.-Arbeiterin, Vordemwald.\n  Furrer-Notter, Erhard, Schneider, Bolken (Solothurn).\n  Strebel, Verena. Spetterin, Magenwil.\n66\n  Widmer-Blaser, Franz, Büchsenmacher, Ettiswil.\n57 Kieser-Kilchmann, Wilh , Kaufmann.\n  Frey-Zimmermann, Emil, Densbüren [tel]. Metzgerei und Wirt-\n67\n  schaft.\n  Schaub-Blaenstein, Adelbert, Gipsenmeister, Ettingen.\n68\n  Rohr-Blaenstein, Maria, Spulerin, Hunzenschwil.\n58 Dubs, Jakob, Johann und Elise, Küttigen.\n  Hässig-Haug, Gottl., Schleifer.\n70\n  — Rosina, Part.\n  Haug, Joh. Heinrich, Buchhalter, Zürich.\n60 Schilling-Döbeli, Aug., Gasthof z. Kettenbrücke [tel]. Depot der\n  Aktienbrauerei Basel.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 56072,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1887,
+    "lines": 61,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 28.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:29:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p020",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p020.jpeg",
+      "bytes": 900869,
+      "sha256": "3008e6a2efe60c3b60841e575360b9d7d4cdae2239457091f1f325516801debb",
+      "sha256_of": "original",
+      "working_copy": "1913_p020.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:29:04+00:00"
+  }
+}

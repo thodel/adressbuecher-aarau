@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p163",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p163.jpeg",
+    "bytes": 723535,
+    "sha256": "708d032c628f16ad78830f80d99ee43f11a92dddbf4b36269b585af3ba5b1698",
+    "sha256_of": "original",
+    "working_copy": "1901_p163.jpeg"
+  },
+  "text": "150\nSchatzmann-Häring, Elisabeth, Asylstraße 1147.\nSenn, Lina, Glatenmattgasse 251.\nSennhauser, Rosa und Amalie, Schachen 1128.\nSiegenthaler-Hirt, Elise, Hammer 189.\nSuter, Elise, Kasinogasse 658.\nVogel-Grädel, Anna, Gasstraße 1172.\nWernli, Marie, Milchgasse 147.\n— Rosa, Herzogstraße 990.\nZellweger, Marie, Milchgasse 146.\nZumbühl-Peyer, Sophie, Kirchhof 162.\nGlashandlungen.\nHagenbuch, Karl,* Kronengasse 44.\nWirz, Adolf, Ziegelrain 427.\nGlasurmühle.\nHof-Müller, Ed., obere Vorstadt 547.\nGlaswarenhandlungen.\nHagenbuch, Karl,* Kronengasse 44.\nHemmeler-Stahl, J.,* Rathausgasse 12.\nMorath, Wendolin,* Rathausgasse 3.\nWetter & Cie.,* Magazin z. Globus, obere Vorstadt 554.\nGlockengiesserei.\nRüetschi, Hermann,* Rain 557.\nGoldleistenhandlungen.\nEgloff, Ernst, Rain 464.\nHagenbuch, Friedr., Buchbinder,* vord. Vorstadt 333. (S. Ins. S. 4.)\nSchatzmann, Samuel, Buchbinder, Pelzgasse 99.\nWärtli, August, Buchbinder, Kirchhof 162.\nWirz, Adolf, Ziegelrain 427.\nZebert, Georg, Buchbinder,* Laurenzenthorgasse 119.\nGold- und Silberwaren.\nFischer, Jonathan, vordere Vorstadt 322. (S. Inserat Seite 10.)\nHärdy, Wilhelm,* Rathausgasse 24.\nHirschy, J. R.,* vordere Vorstadt 325.\nGoldschmiede.\nFischer, Jonathan, Holzmarkt 322. (Siehe Inserat Seite 10.)\nHärdy, Wilhelm,* Rathausgasse 24.\nGrabsteinlager.\nRusterholz & Freihofer,* Rain 506.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 53883,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1325,
+    "lines": 39,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0769,
+    "mean_line_chars": 33.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0023,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:01:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p163",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p163.jpeg",
+      "bytes": 723535,
+      "sha256": "708d032c628f16ad78830f80d99ee43f11a92dddbf4b36269b585af3ba5b1698",
+      "sha256_of": "original",
+      "working_copy": "1901_p163.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:01:25+00:00"
+  }
+}

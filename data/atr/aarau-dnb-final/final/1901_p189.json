@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p189",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p189.jpeg",
+    "bytes": 869145,
+    "sha256": "f5cd2fcec987d1e7a104786d52a35fceae478ee881851a097839d18dd4d7aefa",
+    "sha256_of": "original",
+    "working_copy": "1901_p189.jpeg"
+  },
+  "text": "176\n\nSpeisewirtschaften.\nBärtschi, Jakob, z. Weinberg 1278.\nBaumann, Ida, Witwe, zum Freihof, Laurenzenvorstadt 745.\nBrunnhof er, August,* Zollrain 63.\nDubs, Karl,* Rathausgasse 23.\nEggimann-Joß, Rosina, Witwe, Bahnhofstraße 556.\nFehlmann-Wernle, Maria, z. Kantine, Schachen 1126.\nFrei, Emil, Metzger, Zollrain 57.\nFrei-Mösch, zur Eintracht, Schachen 1133.\n  — -Richner, Café zur Bank, Bahnhofstraße 606. (S. Inserat S. 3.)\nGautschi-Maculin, Katharina, Witwe, z. Frohsinn, h. d. Bahnhof 1005.\nGerber, Emil,* z. „Affenkasten“, vord. Vorstadt 329 u. hint. Vorstadt 361.\nGreub, Ernst, Pelzgasse 107.\nHäfliger-Hilfiker, Otto,* Pelzgasse 98.\nHässig-Groß, Fritz, Rathausgasse 28.\n  — -Sigle, Julius, Restaurant Bellevue, Schönenwerderstraße 1452.\nHolzach-Siebenmann, Bierbrauers Witwe,* Bahnhofstraße 617.\n  — -Schmidt, Friedr.,* Zieglerain 428.\nHuber, Joseph, Schachen 1134.\nHürbin, Ferdinand,* zur Kantine, Laurenzenvorstadt 673.\nHug, Samuel, Bäcker, vordere Vorstadt 330.\nHumm, Bereiter, z. Tell i 857.\nKeller, Gottlieb, zum Neuen Bund, Rain 432.\nKempf, Dominikus, Schachen 1135.\nKühn, Bernhard,* Bahnhofrestauration, Bahnhof 803.\nLeubin-Kienberger, Adele, z. Café Jura, Rohrerstraße 879.\nLeuenberger, Johann, z. Central, Bahnhofstraße 555.\nLüthi-Weibel, Elisa, Witwe, z. „Zunftstube“, Pelzgasse 105.\nMattenberger, Jakob,* Oberthor 245.\nMaurer, Emil, z. Kreuz, jenseits der Aare 1247.\n  — -Richner, Fritz, Buchserstraße 986.\nMeier-Messerli, Elisabeth, Bahnhofstraße 587.\nReimann-Boog, G., Restaurant Bahnhof, hinter d. Bahnhof 1034.\nRyniker, Arn.,* z. Fédéral, Zeughausstr. 666 u. Restr. z. Binsenhof 1457.\n  — Karl,* Bierbrauer, Metzgergasse 77.\nRohr, Johann, Holzmarkt 319.\nRüthy, Vinzenz, z. Fauburg, obere Vorstadt 516.\nSchlummerberger-Jakob, Rosette, Graben 215.\nSiebenmann, Hans, z. Adlerbräu, Chalet, Entfelderstraße 1381.\nSimmen, Emil, Rathausgasse 9.\nStalder, Friedrich, z. „National“, Kasinstraße 662.\nStrübin-Frey, August, Metzgergasse 70.\nStuder, Adeline, z. Tivoli, Entfelderstraße 1394.\nVogt-Siegrist, Samuel,* Graben 224.\nWeber-Hegnauer, Hermann,* Bahnhofstraße 620.\nWehrli, Albert, Kasinstraße 656.\nWernli-Treier, Anna, z. Bairischen Halle, obere Vorstadt 553.\nWidmer, Franz, z. Jägerstübli, Kronengasse 49.\n  — Rudolf, zum „Lindenhof“, Buchserstraße 920.\n  — Samuel,* Halden 291.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29066,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2293,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.69,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:11:38+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p189",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p189.jpeg",
+      "bytes": 869145,
+      "sha256": "f5cd2fcec987d1e7a104786d52a35fceae478ee881851a097839d18dd4d7aefa",
+      "sha256_of": "original",
+      "working_copy": "1901_p189.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:11:38+00:00"
+  }
+}

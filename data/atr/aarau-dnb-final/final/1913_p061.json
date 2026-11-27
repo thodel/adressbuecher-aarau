@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p061",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p061.jpeg",
+    "bytes": 949390,
+    "sha256": "3c544b959ad542b9c0b54f614116c06d2419fd23811409ef567f6a2adf47d2ad",
+    "sha256_of": "original",
+    "working_copy": "1913_p061.jpeg"
+  },
+  "text": "— 43 —\nHaus-\nNr.\n1724 Baumann, Emma, Privatin, Ob.-Entfelden.\n  Gloor-Seiler, Friedrich, Kaufmann, Schöftland.\n  Tanner, Emma, Magd, Schoren.\n1700 Frauenasyl Aarau.\n  Graf, Barbara, Vorsteherin.\n  Hagnauer-Herzog, Marie.\n  Christen, Babette, Gutenberg.\n  Senn, Luise, Seon.\n  Berner-Boßard, Marie Wwe, Rupperswil\n  Dietiker, Susanna, Thalheim.\n  Lienhard, Rosette, Buchs.\n  Stohler, Marie, Kirchheim (Wttbg.).\n1865 Benguerell-Bertschi, Gust, Postbeamter, Fontainemelan.\n  Pathaux, Numa, Postbeamter, Neuenburg.\n1699 Bertschi-Waßmer, Jakob, Postfaktor, Sumiswald.\n  Frieden-Belser, Louis, Sekretär, Seedorf.\n  Zimmerli-Kunz, Sam., Seminarlehrer, Brittnau.\n  Suter-Rey, Emil, Kaufmann, Kölliken.\n1631a Gloor-Klauser, Karl, Bahnangest. S. B. B., Boniswil.\n  Kim-Hartmann, Ph., Lokomotivheizer S. B. B., Wallbach.\n1631b Aeschbach-Wey, Arnold, Kontrolleur, Reinach.\n  Weber-Salm, Fritz. Lokomotivheizer S. B. B., Veltheim (Aarg.).\n1804 Wernli-Bolliger, Sam., Rangierleiter S. B. B.\n1718 Leuzinger-Mangenegg, Jean, Lok.-Führer S. B. B., Glarus.\n1850 Roth-Friedrich, Robert, Elektr.-Techniker, Lenzburg.\n1838 Heiniger-Neuenschwander, Ernst, Turnlehrer, Eriswil.\n1523 Gantner-Brack, Herm., Landwirt.\n\nHinteres Zelgli.\n1779 Läuupi-Richner, Rudolf, Prokurist, Gränichen.\n  — Selma.\n1874 Steiner-Ueltschi, Aug., Lokomotivführer S. B. B., Dürenäsch.\n1899 Wehrli-Bertschi, Adolf, Notar, Küttigen.\n1619 Steiner-Lienhard, Hans, Kunstzeichner, Dürenäsch.\n1837 Mock-Bünzli, Karl, Kaufmann, Pfäffikon.\n  Zumbach-Anz, Niklaus, Geometer, Toffen.\n1849 Dätwyler-Pfister, Fried., Brunnenmeister, U.-Entfelden.\n  Hausheer, Gustav, Bankangest., Rotenschwil.\n  Hämmerli, Pauline, Bez.-Lehrerin, Lenzburg.\n1886 Henchoz-Rutschmann, Alfons, Kondukteur S. B. B., Château\n  d'Oex (Vaud).\n  Kim-Vonäsch, Fried. Ludwig, Direkt.-Sekretär, Wallbach.\n1570 Lienhard-Stoob, Gottfr., Chef des Aarg. Polizeicorps, Buchs\n1580 Müller-Hagenbuch, Otto, Bankkassier.\n1588 Fischer-Schmid, Gotth., Fortbildungslehrer, Fahrwangen.\n  — Gottl., Bureauangest., Fahrwangen.\n1668 Fischer-Christ, Otto, Dr., Bezirkslehrer, Brienzwiler.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 44738,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2081,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.53,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:50:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p061",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p061.jpeg",
+      "bytes": 949390,
+      "sha256": "3c544b959ad542b9c0b54f614116c06d2419fd23811409ef567f6a2adf47d2ad",
+      "sha256_of": "original",
+      "working_copy": "1913_p061.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:50:41+00:00"
+  }
+}

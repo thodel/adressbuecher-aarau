@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p080",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p080.jpeg",
+    "bytes": 808114,
+    "sha256": "cfba8ca3ceb323e4485e79c2ff857ce2173f07f8f4d9dcd568c79a3594d02281",
+    "sha256_of": "original",
+    "working_copy": "1901_p080.jpeg"
+  },
+  "text": "69\nHaus-\nNr.\n1217 Zürcher-Huber, Friedr., Landwirt, von Trub (Bern).\nSpillmann-Buser, Augustin, Fabrikarbeiter, v. O.-Gösgen (Sol.)\nWernli, Gabriel, Taglöhner, von Thalheim.\n1218 Siegrist-Heuberger, Jak., Schriftsetzer, von Elfinger.\nFuchs-Sommerhalder, Franz Xaver, Ausläufer, v. Hornussen.\n— Franz, Maler, von Hornussen.\n1219 Amsler, Fridolin. Erbschaft.\n— -Falger, Marie, Witwe, von Kaisten.\nVilliger-Amsler, Jos. Anton, Buchdrucker, von Meienberg.\nKaufmann-Wiss, Otto, Cementarbeiter, von Gränichen.\n1220 Weber-Käser, Jakob, Bankabwart, von Oberflachs.\nMaurer-Leutwyler, Gottlieb, Taglöhner, von Rubigen (Bern)\n1221 † Derselbe. Schopf.\n\nSchachen.\n\n1222 † Staat Aargau. Laboratorium.\n1223 † Derselbe. Munitionsgebäude.\n1224 † „ Abortgebäude.\n1225 † Gantner, Hermann, Oekonom, Revolverscheibenstand.\n1226 † Staat Aargau. Blockhaus.\n\nJenseits der Aare.\n\n1227 * Schmuziger-Kern, Ida, Baumeisters Witwe, Part.\n— -Hünerwadel, Johann, Baumeister. [tel]\nRütimann-Ludwig, Eugen, Ingenieur, v. Basendingen (Thurg.)\n1228 † Dieselbe. Schopf.\n1229 † „ Holzmagazin.\n1230 Dr. Tuchschmid-Wildi, August, Professor. Rektor der Kan-\ntonsschule, von Thundorf (Thurgau).\n1231 Heuberger-Fischer, Jakob, Sekretär der Finanzdirektion.\n1232 Bircher-Burger, Emil Ludwig, Postcommis.\nCaminada, David, Professor von Savognin (Graubünden).\n1233 Läschli-Coradi, Hans, Buchhalter, von Remigen.\nHelbling, Alfred, Lehrer, von Rapperswyl, St. Gallen.\n1234 Siebenmann-Hagnauer, Friedrich, Bierbrauer, Stadtrat. [tel]\nVögelin-Bohrer, Johann, Fabrikmeister, von Basel.\nThomen, Adolf, Posamenter, von Arboldswyl.\n1235 † Gemeinde Aarau. Badanstalt.\n1236 Müller-Rothpletz, Arnold, Architekt und Baumeister. [tel]\n1237 † Derselbe. Spähnöfen.\n1238 † „ Remise mit Anbauen.\n1239 † Einwohnergemeinde. Kriegsfuhrwerk-Schuppen.\n1240 Meier-Wydler, Hans, Postbureauchef, von Hilfikon.\n1241 † Rämiberger, Hermann. Magazin.\n1242 † Ortsbürgergemeinde. Remise mit Anbauen (Werkhaus).\n1243a † Dieselbe. Werkstätte und Anbauen.\n1243b † „ Werkstatt und Abortanbau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 22670,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2012,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.85,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:29:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p080",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p080.jpeg",
+      "bytes": 808114,
+      "sha256": "cfba8ca3ceb323e4485e79c2ff857ce2173f07f8f4d9dcd568c79a3594d02281",
+      "sha256_of": "original",
+      "working_copy": "1901_p080.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:29:39+00:00"
+  }
+}

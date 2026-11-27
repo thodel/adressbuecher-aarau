@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p162",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p162.jpeg",
+    "bytes": 720399,
+    "sha256": "f991da9f7f67c11a714584e4590decde8cea2f59943b416cc571422fb06eedd3",
+    "sha256_of": "original",
+    "working_copy": "1901_p162.jpeg"
+  },
+  "text": "149\nGemüsehändler.\nDürr-Hofer, Rosa, Milchgasse 156.\nFlückiger-Wüthrich, R., Witwe, Pelzgasse (Färbergäßchen) 109.\nHässig, Konrad, Rain 502.\nHausmann, Johann, Halden 288.\nJäcker-Haller, Joseph,* Laurenzenthorrgasse 116.\nReinhardt, Baptist, hintere Vorstadt 370.\nRiehl-Dürr, Graben 215.\nZehnder, Barbara, Kirchhof 161a.\nGeschäftsagenten.\n(Siehe Inkassogeschäfte.)\nGeschirrhandlungen.\nAndres, Friedrich,* obere Vorstadt 519. (Siehe Inserat Seite 28.)\nHagenbuch, Karl,* Kronengasse 41.\nHemmeler-Stahl, Ida,* Rathausgasse 12.\n— -Schmidt, Bertha,* obere Vorstadt 541.\n— -Scheibler, Verena, Witwe, obere Vorstadt 541.\nMorath, Wendolin,* Rathausgasse 3.\nGipsermeister.\nFaßler, Friedrich Georg, Kirchgasse 38.\nSchaub, Adelbert, Pelzgasse 96.\nWehrli, Hans, Halden 270.\n(Im weiteren siehe die Baumeister.)\nGlätterinnen.\nBalmer, Marie und Karoline, Laurenzenthorrgasse 118.\nBruder, Frida, Golattenmat tgasse 256.\nBossert, Lina, Milchgasse 147.\nDietiker, Anna, Adelbändli 177.\nDrack, Louise, Milchgasse 150.\nFrei, Bertha, Metzgergasse 75.\nHächler, Louise, Kirchgasse 41.\nHäusler, Julie, Flößerstraße 1194.\nHaller-Attiger, Maria, Gasstraße 1172.\nHaßler-Brunnhofer, Elise, Halden 267.\n— Sophie. Adelbändli 175.\nHuber-Müller, Bertha, Hammer 190.\nKäser-Leder, Nanette, Entfelderstraße 1400.\nKüng-Rüedi, Anna, Mühlernatt (Zollrain) 1365.\nLüscher, Elise, Bahnhofstraße 635.\nMeier-Keller, Frau, Rain 466.\nMüller, Elise, Halden 266.\n— Emma, Halden 261.\nPeyer-Roos, Wilhelmine, Kirchhof 162.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 62393,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1470,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:01:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p162",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p162.jpeg",
+      "bytes": 720399,
+      "sha256": "f991da9f7f67c11a714584e4590decde8cea2f59943b416cc571422fb06eedd3",
+      "sha256_of": "original",
+      "working_copy": "1901_p162.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:01:34+00:00"
+  }
+}

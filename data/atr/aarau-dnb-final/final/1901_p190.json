@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p190",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p190.jpeg",
+    "bytes": 740505,
+    "sha256": "3001f40bcf582026b3930ecf7d95ec203a2e422c268f9b70c76af1882bea2816",
+    "sha256_of": "original",
+    "working_copy": "1901_p190.jpeg"
+  },
+  "text": "177\nPintenwirtschaften.\nBolliger, Rudolf, Roggenhausen 1455.\nFrei-Rohner, Robert,* Zollrain 52.\nHemmeler, Oskar,* vordere Vorstadt 326.\nHeß, Wilhelm, Pelzgasse 93.\nKäser, Fritz, Rathausgasse 16.\nKeller, Paul, Zuckerbäcker, Zollrain 62.\nLanz, Otto, Bäcker, Rain 444.\nMeister, Georg,* Graben 218.\nSiebenmann, Rudolf,* Bierbrauer, Graben 225.\nVidiella, Manuel,* Spanische Weinhalle, Kirchgasse 33.\nVonarx, Karolina, Zollrain 53.\nWidmer, Rudolf, obere Vorstadt 552.\nWüthrich-Lüdi, Samuel,* zum Storchen, Laurenzenthorgasse 118.\nSommerswirtschaften.\nBalinger, Roman (Rössliparte), Schachen.\nKaffeewirtschaften.\nBaumann, Marie, Witwe, hintere Vorstadt 376.\nBanga-Lässer, Joh., Bahnhofstraße 560.\nGuggisberg, Emil, Bahnhofstraße 619.\nKeller-Läuchli, Paul, Zollrain 62.\nKunz, Ernst, vordere Vorstadt 331.\nRohr, Hans, Konditor, Graben 212.\nWüthrich, Jakob, Rathausgasse 11.\nWullschleger-Blattner, Bahnhofstraße 558.\nWoll- und Baumwollstoffdruckerei.\nJenny-Kunz, A.,* Telli 859.\nZahnärzte.\nBerner, Hermann, Dr., Graben 227.\nBrentano, Max, Entfelderstraße 1405.\nGersbach, Sebastian, Laurenzenvorstadt 701. (Siehe Inserat Seite 5.)\nMüller, Oskar, Gönhardfeldweg 1446.\nZiegelfabrikanten.\nErnst-Käser, Friedr. Jak.,* (Strangfalzziegelei), Industriestraße 937.\nHauri-Siegenthaler, Karl, Rain 487.\nThut-Gidemann, Hermann,* Rain 483.\nZimmermeister.\nEichenberger, Rudolf, Halden 298.\nMüller, Sigmund, Mühlematt 1363.\nWehrli, Johann, Flößerstraße 1166.\nZuckerbäcker.\n(Siehe Konditoren.)\n12",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 39490,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1470,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.43,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:12:55+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p190",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p190.jpeg",
+      "bytes": 740505,
+      "sha256": "3001f40bcf582026b3930ecf7d95ec203a2e422c268f9b70c76af1882bea2816",
+      "sha256_of": "original",
+      "working_copy": "1901_p190.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:12:55+00:00"
+  }
+}

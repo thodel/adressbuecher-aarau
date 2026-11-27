@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p081",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p081.jpeg",
+    "bytes": 805742,
+    "sha256": "7940cfdbadd7f37b996633a60ea50fc3b5a14b872615a7a58411a30b646e0617",
+    "sha256_of": "original",
+    "working_copy": "1901_p081.jpeg"
+  },
+  "text": "70\nHaus-\nNr.\n1243c † Einwohnergemeinde. Hydr.-Häuschen.\n1244 * Bauhofer-Keller, Anna, Kaufmanns Witwe. Erbschaft.\n  Waldmeier-Gautschi, Alfred, Kaufmann, von Möhlin.\n  Alder-Furter, Rud., Instruktions-Offizier, v. Urnäsch (Appenz.)\n1245 † Siebenmann-Hagnauer, Friedrich, Bierbrauer. Wagenschopf\n  und Eiskeller.\n1246 * Vonvelten-Willimann, Franz Jos., Kaufmann.\n  Feer-Widmer, Johann, Bankangestellter, von Kölliken.\n  Häuptli-Ott, Othmar, Adjunkt des Staatsbuchhalters, von\n  Biberstein.\n  Stephani-Heckmann, Wilhelmine, Part.\n  — Alfred, Versicherungsagent. General-Agentur der Ver-\n  sicherungsgesellschaft „Allianz\" in Berlin. Hauptagentur\n  der „Urbaine\" in Paris.\n  — Emma, Lehrerin.\n  — Marie, Buchhalterin.\n  Jauslin, Wilhelm, Kaufmann, von Basel.\n  Deppeler, Johann, Schriftsetzer, von Tegerfelden.\n1247 Maurer-Peter, Emil, Wirt u. Negotiant [tel], Gasthaus z. Kreuz,\n  Salzbütte und Spritverkauf. Ausschank von einheimischem\n  und fremdem Bier, Dépôt für Flaschenbiere, Handel in\n  Colonialwaren. Eigene Kaffeerösterei.\n  Schumacher-Stäbli, Fritz, Postkassier, von Brugg.\n  Gysi-Ammann, Traugott, Lehrer.\n  Billo-Billo, Marie, Part.\n  Bernot, Anna, Ladendienerin, von Thaignen (Schaffhausen).\n1248 † Derselbe. Schopf.\n\nKüttigerstrasse.\n1249 Andres, Gottlieb, Fondsverwalter.\n  Würger, Geschwister, Heinrich, Gießer und Lina, Haushälterin.\n1250 † Derselbe. Treibhaus und Anbau.\n1251 †   \" Gartenhaus.\n1252 †   \" Holzschoßf.\n1253 Andres-Schmid, Jakob, Schreinermeister.\n  Sommerhalder, Gottlieb, Confiseur, von Burg.\n1254 † Derselbe. Schreinerwerkstatt.\n1255 † Bally, C. F., Söhne. Farikgebäude, Neubau, Remise, Mittel-\n  bau, Anbauen, Magazin, Durchfahrt und Auf lad ehalle.\n1256 † Dieselben. Geschirrhäuschen.\n1257 Morach-Müller, Jakob, Fabrikaufseher, von Walterswyl (Roth-\n  aker, Solothurn).\n  Stocker-Treier, Johann, Aufseher, von Obermumpf.\n  Gloor-Seiler, Fritz, Buchhalter, von Schöffland.\n  Feiss, Eduard, Ingenieur, von Unterwasser (Toggenburg).\n  Randegger-Wirth, Josephine, Köchin, von Hägglingen.\n1258 Blattner-Jäger, Anna, Fürsprechs Witwe.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16347,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2063,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:29:33+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p081",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p081.jpeg",
+      "bytes": 805742,
+      "sha256": "7940cfdbadd7f37b996633a60ea50fc3b5a14b872615a7a58411a30b646e0617",
+      "sha256_of": "original",
+      "working_copy": "1901_p081.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:29:33+00:00"
+  }
+}

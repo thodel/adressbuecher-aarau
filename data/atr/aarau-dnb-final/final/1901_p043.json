@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p043",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p043.jpeg",
+    "bytes": 834635,
+    "sha256": "1bb08ff9c04de05d29788437b2781e1a50cf4b6d7d5b6e3238592074dab26a7b",
+    "sha256_of": "original",
+    "working_copy": "1901_p043.jpeg"
+  },
+  "text": "32\nHaus-\n  Nr.\n  Wydler-Bäuerlin, Emilie, Witwe, Part.\n  — Eugen, Färber.\n  — Emilie, Tochter.\n411 † Wydler, H., Söhne, Färber.  Remise.\n412 † Dieselben.  Remise.\n413 * Dieselben.  Wohnhaus und Anbau.\n  Brunnhofer-Hunziker, Albert, Tambour-Instruktor.\n414 † Dieselben.  Schopf.\n415 † Dieselben.  Remise.\n416  Bircher-Kielholz, Julius, Kreisingenieur, [tel] von Küttigen.\n  Wildi-Lässer, Samuel, Schreinermeister, von Schafisheim. Sarg-\n  magasin.\n  Gfeller-Wälchli, Joh. Gottfried, Müller, von Haßle (Bern).\n  Freihofer-Rusterholz, Jakob, Bildhauer, von Veltheim (Zürich).\n  Wälchli-Schär, Maria, Part., von Madiswil (Bern).\n417  Hangartner-Götz, Kaspar, Camioneur.\n418 * Holzach-Schmidt, Friedrich, Metzger.\n  Brändli-Hug, Jakob, Fabrikarbeiter, von Unterbötzberg.\n  Neeser-Amsler, Samuel, Postillon, von Schloßrued.\n419 * Huber-Bircher, Heinrich, Drechsler.\n  — -Bolliger, Emil, Drechsler, Sohn.\n  Siegrist-Mützenberg, Jakob, Komnis, von Meistersehwanden.\n  Schaltum-Holliger, Friedrich, Buchdrucker, aus Nordamerika.\n420  Hofmann-Wehrli, Friedrich, Kasernenarbeiter, von Schloßrued.\n  Wehrli-Roth, Jakob, Fabrikarbeiter, von Biberstein.\n  — Anna, Glätterin, von Biberstein.\n421 * Ortsbürgergemeinde Aarau.\n  Beck-Hunziker, Emil, Sattler.\n422a Siebenmann, Bertha, Part.\n  Dätwiler-Meier, Barbara, Part, von Wittwyl.\n  Isliker, Rosina, Damenschneiderin, von Kleinandelfingen.\n422b * Andres-Meier, Samuel, Schlosser,\n  Urban-Nussbaum, Ernst, Schreiner, von Liegnitz (Schlesien).\n  Portmann-Peyer, Joseph, Ausläufer, von Escholzmatt (Luzern).\n423 † Hässig, Alfred, Kupferschmied, Sohn.  Werkstatt.\n424  — -Bühler, Friedrich, Kupferschmied.\n  — -Zimmerli, Alfred, Kupferschmied, Sohn.\n  — Gebrüder, Alfred und Hans. Importgeschäft (Einlagesohlen).\n  Ernst-Döhnel, Robert, Briefträger.\n  Wernli, Anna Maria, Part., von Thalheim.\n  Iseli-Bühler, Niklaus, Schriftsetzer, von Altdorf (Baden).\n425  Suter-Dürr, Rudolf, Spengler, von Niederhallwyl.  Spengler-\n  waren- und Lampenlager.\n  — -Keller, Julius, Sohn, Spengler, von Niederhallwyl.\n  Märki-Amsler, Jakob, Küfer, von Mandach.\n  Ludwig-Oes, Oskar, Schneider, von Horschdorf (Preußen).\n426  Schmuziger-Bühler, Gottlieb, Schneidermeister.\n  Schär-Kunchel, Hermann, Bäcker, von Balzenwyl.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17642,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2235,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:14:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p043",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p043.jpeg",
+      "bytes": 834635,
+      "sha256": "1bb08ff9c04de05d29788437b2781e1a50cf4b6d7d5b6e3238592074dab26a7b",
+      "sha256_of": "original",
+      "working_copy": "1901_p043.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:14:02+00:00"
+  }
+}

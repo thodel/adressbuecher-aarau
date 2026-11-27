@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p111",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p111.jpeg",
+    "bytes": 934697,
+    "sha256": "9dc1af4cd7134db52d592557fab4d740ddffc803b524dfabd74395ec1e5f5312",
+    "sha256_of": "original",
+    "working_copy": "1913_p111.jpeg"
+  },
+  "text": "— 87 —\nHaus-\nNr.\n1576 Schneider-Hochstrasser, Samuel, Fuhrmann, Thalheim.\n  — Marie, Fabrikarbeiterin, Thalheim.\n  — Mina, \" \"\n  — Frieda, \" \"\n  — Elsa, \" \"\nStumm-Kobelt, August, Brennermeister, Spaychingen (Württbg.)\n1162 * Schneider-Hochstrasser, Samuel.\nMarschner-Gall, Valentin, Schreiner, Böhmen.\nWirz-Schneider, Emil, Steindrucker, Schloßrued.\nBrunner-Stucki, Friedrich, Schreiner, Schloßrued.\n1159 Liechti-Steinegger, Anna, Professors, Wwe., Murten.\n  — Julius, Kaufmann, Murten.\n1220 Weber-Käser, Johann Jakob, Bankabwart, Oberflachs.\n  — Johann Jakob, Kaufmann, Oberflachs.\nKistler-Treier, Emil, Stadtarbeiter, Bözen.\n1219 * Villiger-Amsler, Antons Erbschaft.\nMenzi-Zwickli, Karl, Bahnbeamter, Kerenzen.\nJauslin-Ramstein, Wilhelm, Reisender, Muttanz (Baselland).\n1218 Siegrist, Jakob, Privatier, Elzingen.\nMarahrens-Siegrist, Friedr. Hrch., Buchdrucker, Altendorf\n  (Preußen).\n1217 Zürcher-Bollinger, Friedrich, Straßenwärter, Trub.\nEhrbar-Müller, Jakob, Steindrucker, Urnäsch.\nStilli-Lüscher, Johann, Taglöhner, Bözen.\n  — Jakob, Knecht, Bözen.\n1216 Gfeller-Wälchli, Joh. Gottfried, Taglöhner, Hasle (Bern).\nBrunner-Müller, Gottlieb, Kondukteur S. B. B., Wald (Zürich).\n1213 Schmidt-Schmidt, Samuel, Prokurist.\n  — Emma.\nWehrli-Schwarz, Emil, Brietträger, Asp-Densbüren.\nNobst, Paul Hugo, Commis, Dresden.\n1209 Schaffner, Samuel, Landwirt.\n  — Mina.\n1205 Wernli-Häflicer, Marie, Wwe., Thalheim.\nSiegl-Weingartner, Richard, Schlosser, Tirol.\n1208 Bertschi-Siegrist, Gottlieb, Briefträger.\nBiri-Fähndrich, Wilhelm, Stadtpolizist, Zeihen.\n1753 Käser-Laurent, Emil, Gärtnermeister, Oberflachs.\n  — -Fischer, Alfred, Gärtner, Oberflachs.\nLüscher, Hans, Gränichen.\nGierse-Budde, Ferdinand, Lackierermeister, Kassel.\nZoll, Wilhelm, Buchdrucker, Breslau.\nHäusler-Zimmerli, Ernst, Briefträger, Schwaderloch.\nScheurer, Celestine, Bureaustellte, Schnottwil (Soloth.)\n1200 Käser-Lüscher, Gustav, Gärtner, Oberflachs.\n1196 Häfliger-Hilfiker, Otto, a. Metzgermeister.\nHilfiker-Wilhelm, Emilie, Wwe, Privatin, Muhen.\nHunziker, Sophie, Köchin, Bottenwil.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21092,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2048,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.75,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:06:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p111",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p111.jpeg",
+      "bytes": 934697,
+      "sha256": "9dc1af4cd7134db52d592557fab4d740ddffc803b524dfabd74395ec1e5f5312",
+      "sha256_of": "original",
+      "working_copy": "1913_p111.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:06:26+00:00"
+  }
+}

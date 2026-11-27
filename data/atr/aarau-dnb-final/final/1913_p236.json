@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p236",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p236.jpeg",
+    "bytes": 807260,
+    "sha256": "413af8c6b93d52b46297cd34cda0fade24d462030fb1781931e5a4ab804920ec",
+    "sha256_of": "original",
+    "working_copy": "1913_p236.jpeg"
+  },
+  "text": "— 202 —\nSchär-Knuchel, Hermann [tel]. Milchgasse 157.\n*Wehrli-Säuberli, Emil [tel]. Rathausgasse 30.\n*Widmer-Richner, Rud.. Obere Vorstadt 552.\nWilhelm-Matter, Emilie. Buchserstraße 1532.\nBadanstalten.\na) In Aarau.\nFrauenbadanstalt. Jenseits der Aare 1235.\n*Gerber, Hans, Hotel Terminus [tel]. Bahnhofstraße 575.\nIndermauer, Hans [tel]. Kasinostraße 658.\nMännerbadanstalt. Erlinsbacherstraße 1872.\nTrefzger-Ziesel, Gustav. Hinter dem Platz (Färbergäßchen) 237.\nb) In der Umgebung:\nBad in Gränichen.\nBad in Oberentfelden.\nSchinznacher-Bad.\nBandfabrikanten.\n*Ohl, Gustav, Fabrikant [tel]. Band- und Litzenfabrik mit Färberei-\n  betrieb. Bachstraße 1101.\nBankinstitute.\n*Aarg. Creditanstalt A. G. [tel] Laurenzenvorstadt 700.\n*Aarg. Kantonalbank [tel]. Bahnhofstraße 572.\n*Allgemeine Aarg. Ersparniskasse [tel]. Bahnhofstraße 1811.\n*Spar-, Leih- und Diskontokasse [tel]. Hintere Vorstadt 374.\nBaumeister und Baugeschäfte.\n*Eckert & Sohn [tel]. Hintere Bahnhofstraße 1039.\n*Schäfer, Ad. & Cie. [tel] Buchserstraße 975.\nSchmid-Läuchli, J. J. [tel] Bachstraße 1083.\n*Schmuziger-Hünernwadel, Jean [tel] Aarestraße 1227.\nValli-Eggspühler, Angelo [tel], Rohrerstraße 882.\n*Wolf, Karl. Bachstraße 1093.\n*Zschokke, M., A. G. [tel] Rohrerstraße 903.\nBaumwolltuchfabrikation und Baumwolltuchhandlungen.\n*Weberei Oboussier A. G. [tel] Graben 232.\nBettwarenhandlungen.\nGewerbehalle. Holzmarkt 316.\nGysi, Adolf [tel]. Pelzgasse 110.\n*Heß, Gebr. [tel] Rathausgasse 5.\n*Hering-Leuenberger, Lisette. Milchgasse 128.\nLüthy-Kneubühler, Eduard. Metzgergasse 66.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28795,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1539,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:05:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p236",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p236.jpeg",
+      "bytes": 807260,
+      "sha256": "413af8c6b93d52b46297cd34cda0fade24d462030fb1781931e5a4ab804920ec",
+      "sha256_of": "original",
+      "working_copy": "1913_p236.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:05:13+00:00"
+  }
+}

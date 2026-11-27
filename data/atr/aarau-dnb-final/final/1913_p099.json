@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p099",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p099.jpeg",
+    "bytes": 948632,
+    "sha256": "ed1bae43daad742282cfa2bfd9695e06c501727f8ad3da51ac7e99523294ba14",
+    "sha256_of": "original",
+    "working_copy": "1913_p099.jpeg"
+  },
+  "text": "— 77 —\nHaus-\nNr.\n1377 * Wespi, Karl, Hafnermeister.\nMüller-Vogt, Joh. Jb., Postpacker, Unter-Bözberg.\n— Klara, Ladentochter, Unter-Bözberg.\nHohler, Elise, Part., Zuzgen.\n1378 Wespi-Zurlinden, Anna, Witwe.\n— Karl, Hafnermeister.\nBöller, Fridoline, Privatin, Oberhof.\nNäf-Eichenberger, Emma, Witwe, Meilen.\n1380 * Bär, Rudolfs Kinder.\n— -Segesser, Otto, Drechslermeister.\nKleiner-Salm, Gottlieb, Knecht, Egliswil.\nMeier, Fritz, Schreiner, Roggwil (Bern).\n1381 * Siebenmann, Friedrich, Bierbrauer, Restaurant zum Chalet.\nMüller-Andersen, Walter, Färbermeister und Wirt, Barmen\n(Preußen) [tel].\nKönlein-Baltisperger, Friedr., Chromophograph, St. Gallen.\n1384 * Conradin Zschokke A. G. Technisches Bureau [tel].\n1388 * Zschokke, Conradin, Ingenieur.\nZimmermann-Hartmann, Maria, Part., Würenlos.\n— Martha, Bureauangestellte, Würenlos.\nKnechtli, Gottfried, Kaufmann, Muhen.\n1389 Zschokke-Disqué, Dr. Conradin, Ingenieur [tel].\n1391 Maier-Rychner, Erbschaft.\nRennhart-Maier, Martin, Professor.\nMaier, Mina, Bibliothekgehilfin.\n1393 Guggisberg-Beck, Emil, Privatier, Vevey.\nOchsner, Jakob, Privatier, Uster.\nFlückiger-Trösch, Gottfried, Pferdwärter, Auswil (Bern).\n1394 * Guggisberg, Emil, Restaurant zum Tivoli.\nFortenbach-Sommerhalder, Ida, Wirtin, Ostwald (Elsaß).\n— — Josef, Ostwald (Elsaß), Handel in Möbeln en gros.\n1564 Kaspar-Stauffer, Siegwart, Postfaktor.\n— -Frey, Anna, Privatin.\n1563 Breuninger-Furter, Karl, Buchhändler, Stuttgart [tel].\nWild, Paul, Korrespondent, Thunis.\n1604 Dambach-Drack, Jakob, Postfaktor, Ober-Bözberg.\n1535 Franke-Zurlinden, Wilhelm, Direktor der J. C. F. [tel]\nKrieg, Hanna, Pflegerin, Münchenbuchsee.\n1536 * Franke, Wilhelm.\nSturm-Müller, Karl, Kutscher, Mulfingen (Würtemberg).\n1544 Sprecher-Siegriſt, Karl, Ingenieur, Aesch (Baselland) [tel].\nMitinhaber der Firma: Sprecher & Schuh A. G., Fabrikation\nelektrischer Apparate.\n1618 * Vogel-Bertschinger, Bruno, Ober-Entfelden.\nOhl-Müller, Gustav, Fabrikant, Barmen (Preußen).\n— Fritz, Kaufmann, Mühlethal (Aargau).\n1396 Vogel-Waßmer, Elisabeth, Wwe., Part., Kölliken.\nWächter-Vogt, Anna, Wäscherin, Mönthal.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17516,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2086,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:03:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p099",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p099.jpeg",
+      "bytes": 948632,
+      "sha256": "ed1bae43daad742282cfa2bfd9695e06c501727f8ad3da51ac7e99523294ba14",
+      "sha256_of": "original",
+      "working_copy": "1913_p099.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:03:01+00:00"
+  }
+}

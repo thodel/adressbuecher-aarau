@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p150",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p150.jpeg",
+    "bytes": 768991,
+    "sha256": "9a282c6fbb8fb9ea5f1201fef308990882334a8c10d639fe7614e7d1e55c0274",
+    "sha256_of": "original",
+    "working_copy": "1901_p150.jpeg"
+  },
+  "text": "137\nKreß, Karl, Laurenzenvorstadt 745.\nMoser, Karl, Laurenzenvorstadt 745.\nMüller, Arnold,* jenseits der Aare 1236.  Zum Schützenhaus.\n  Übernahme von Bauarbeiten jeder Art.  Cementröhrenfabrikation.\nRothpletz, Karl, Mühlematt (Zollrain) 1512.\nSchäfer, Adolf,* Buchserstraße 794.\nSchenker, Adolf, Graben 207.\nSchmuziger, Johann,* jenseits der Aare 1227.\nSiegwart, Paul, Bahnhofstraße 639.\nStamm, August, Konradstraße 1414.\nWegelin, Johann Rud., hinter dem Bahnhof 1004.\nWehrli, Emil, Herzogstraße 991.\nWolf, Karl, Bachstraße 1093.\n        Asphaltgeschäfte.\nWehrli, Johann, Gipser, Halden 270.\nZschokke, M.,* Baugeschäft, Rohrerstraße 903.  (S. Inserat S. 30.)\n        Ausrufer von Steigerungen.\nFrick er, Joseph, Gemeindeweibel, Rathausgasse 1.\n        Bandfabrikanten.\n        (Siehe Fabrikationsgeschäfte.)\n        Bankgeschäfte.\nAargauische Bank,* Bahnhofstraße 572.  (S. Inserat Seite 25.)\n  Kassastunden: 8 1/2—12 Uhr und 2—5 Uhr.\n  Direktoren: Frey, Othmar und Zurlinden, Friedrich.\n  Kassier: Wehrli, Emil.\nAargauische Creditanstalt,* Laurenzenvorstadt 700.  (S. Inser. S. 11.)\n  Kassastunden 9—12 und 2—5 Uhr.\n  Direktor: Pfau, Johann Jakob.\n  Kassier: Kauf, Alfred.\nAllg. Aarg. Ersparniskasse,* Graben 217.\n  Kassastunden: 9—12 und 2—4 Uhr.\n  Geschäftsführer: Wehrli, Rudolf.\n  Zinsrodverwalter: Haberstich, Jak.\n  Kassier: Wanger, Gustav.\n  Kontrolleur: Lenzi, Albert.\nSparkasse von Aarau und Umgebung,* hintere Vorstadt 367.\n  Kassastunden 12—2 Uhr mittags.\n  Präsident des Verwaltungsrates: Amsler, Emil, Fürsprech.\n  Kassier: Schmid, Peter.\nSpar-, Leih- und Diskontokasse,* hintere Vorstadt 373.\n  Kassastunden: 9—12 und 2—5 Uhr.\n  Präsident des Vorstandes: Schneider, Gustav, Dr. jur.\n  Verwalter: Gebrüder Hemmeler.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18650,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1730,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:56:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p150",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p150.jpeg",
+      "bytes": 768991,
+      "sha256": "9a282c6fbb8fb9ea5f1201fef308990882334a8c10d639fe7614e7d1e55c0274",
+      "sha256_of": "original",
+      "working_copy": "1901_p150.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:56:22+00:00"
+  }
+}

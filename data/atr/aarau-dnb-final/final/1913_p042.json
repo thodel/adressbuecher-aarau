@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p042",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p042.jpeg",
+    "bytes": 990312,
+    "sha256": "f6972fac634ef8443509a6276bacc74817f18dcc3d7660d640608ab797de5679",
+    "sha256_of": "original",
+    "working_copy": "1913_p042.jpeg"
+  },
+  "text": "— 26 —\nHaus-\nNr.\nKeller, Gertrud, Ladentochter, Villigen.\nCologna, Pietro, Limonadenfabrikation.\nBrogli-Husner, Josef, Taglöhner, Wittnau.\n288 Hausmann-Heuberger, Johannes, Gemüsehändler, Schafisheim.\n289 * Ortbürgergemeinde Aarau.\n  Fisch-Dürr, Elise, Witwe, Glätterin.\n  Beck, Luise, Damenschneiderin.\n  Döhnel, Emma, Spetterin, Badenweiler (Elsaß).\n  Fricker, Jakob, Schneider, Oberflachs.\n290 * Nünlist-Herzog, Robert, Wirt, Schönenwerd.\n  Husner-Häuptli, Bernhard, Fabrikarbeiter, Wittnau.\n291 Nünlist-Herzog, Robert, Wirt, Schönenwerd. Speisewirtschaft\n  zur Halde [tel].\n292 Vogt-Pluß, Johann, Schreiner, Remigen.\n  Pluß-Ledermann, Bernhard, Fuhrmann, Murgenthal.\n  — Louise, Glätterin, Murgenthal.\n  Hunziker-Spillmann, Alfred, Stadtarbeiter, Moosleerau.\n  Pluß-Borner, Otto, Stadtarbeiter, Murgenthal.\n  Wittmann-Zubler, Heinrich, Fahnknecht, Gaggenau (Baden).\n  Cola-Zambra, Domenico, Maurer, Nesso (Italien).\n293a Jeck, Georg, Taglöhner, Zeiningen.\n  Benacci, Battista, Schuhmacherei, Portico (Italien).\n  Wanderon-Lüscher, Emma, Taglöhnerin, Tägerig.\n294 Keller-Vonäsch, Bertha, Ober-Endingen.\n  Bach-Hottiger, Wilhelm, Schneider, Freudenschaft (Baden).\n  Frey-Windisch, Johann, Gipser, Densbüren.\n  Berchem-Lüscher, Jean, Stadtarbeiter, Senningen (Luxemburg).\n  Frey-Oppliger, Johann, Fabrikarbeiter, Densbüren.\n296 * Familienkiste Meier.\n  Clini-Guidi, Mariano, Steinbrecher, Montelabate (Italien).\n  Faustini-Landi, Carlo, Handlanger, Corcaglio (Italien).\n  Rohr-Wehrli, Daniel, Stadtarbeiter, Hunzenschwil.\n  Brunner-Rohr, Bertha, Spetterin, Derendingen.\n  Wehrli-Graf, Jakob, Handlanger, Küttigen.\n  Bastianon-Surian, Giácinto, Handlanger, Possagno (Italien).\n297 * Häuptli-Burkhardt, Erbschaft.\n  — -Schmid, Emil, Drechslermeister, Biberstein.\n  Wächter-Sax, Hans, Taglöhner, Mönthal.\n  Landolt-Häuptli, Marie, Witwe, Damenschneiderin.\n  Deluchi, Giacomo, Maurer, Vico-Morcoie (Tessin).\n  Amsler-Gysi, Jakob, Stadtarbeiter, Densbüren.\n298 Eichenberger-Flad, Gertrud, Witwe, Reinach.\n  Bocchi-Cherubin, Pietro, Maurer, Conaglia (Italien).\n  — -Bonati, Giacomo, \" \"\n  Bryner, Anna, Modistin, Möriken.\n  Keller-Isler, Josef, Schneider, Ueberlingen.\n  Jopiti-Eichenberger, Anna. Damenschneiderin, Frasco (Italien).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 66236,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2228,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:43:02+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p042",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p042.jpeg",
+      "bytes": 990312,
+      "sha256": "f6972fac634ef8443509a6276bacc74817f18dcc3d7660d640608ab797de5679",
+      "sha256_of": "original",
+      "working_copy": "1913_p042.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:43:02+00:00"
+  }
+}

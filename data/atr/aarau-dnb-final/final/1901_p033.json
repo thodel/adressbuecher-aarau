@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p033",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p033.jpeg",
+    "bytes": 783750,
+    "sha256": "dcc5b82a3cc789f210074ee805b2ce24058ab2b36607e7771dbea33e4ac14e95",
+    "sha256_of": "original",
+    "working_copy": "1901_p033.jpeg"
+  },
+  "text": "22\nHaus-\nNr.\n  Hässig, Nanette.\n  Siebenmann, Bertha.\n  Fischer, Louise.\n  Lienhard, Maria.\n  Siebenmann, Rosa.\n  Hürner, Julius.\n  Renold, Maria\n  — Fritz.\n  Dürr, Gottlieb.\n  Fischer, Ludwig, Dachdeckers.\n  Brunnhöfer, Gottlieb.\n  Dürr, Gottlieb, Schlosser.\n  Trog, Gottlieb, Schuhmacher.\n  Pfrundanstalt:\n  Andres, Heinrich.\n  Nüsperli, Marie Anna, Schneiders.\n262 † Dieselbe. Absonderungshaus.\n263 † Dieselbe. Holz- und Spritzenhaus.\n264 * Brunnhöfer, El., Lehrers Erbschaft:\n  — Lisette, Lehrers, Part.\n  Zähner-Brunnhöfer, Nanette, von Horn (Thurgau). Stellen-\n    vermittlungsbureau des schweiz. Frauenverbandes.\n  Wellenberg-Schaffner, Albertine, Witwe, von Schöftland.\n  Nünlist-Müller, Katharina, Part., von Erlinsbach (Solothurn).\n265 † Dieselbe. Gartenhaus.\n266 Jörg, Jakob, Seiler, von Affoltern (Bern).\n  Brunnhöfer-Gietzentanner, Ursula, Witwe.\n  Müller-Riniker, Elisabeth, Staatsweibels Witwe, von Biberstein.\n  — Elise, Glätterin, von Biberstein.\n267 Hassler-Brunnhöfer, Elise, Kaminfegers Witwe, Wäscherei und\n  Glätterei.\n  Lüscher-Jäggi, Marie, Köchin, von Moosleerau.\n  Wilhelm-Kaspar, Gottlieb, Färber, von Safenwil.\n  Baumann-Schenk, Simon, Fuhrmann, von Bottenwil.\n  Wüthrich-Stirnemann, Jakob, Taglöhner, von Eggiwil (Bern).\n  Meier-Appenzeller, Frz. Jos., Schneider, von Wohlen.\n269 † Derselbe. Scheune.\n270 Wehrli-Bircher, Hans, Gipsermeister.\n  Meyer-Schneider, Joh. Robert, Bahnarbeiter, von Wohlen.\n271 Huber-Ment, Jakob, Schneider, von Unterembrach (Zürich).\n  Keller-Isler, Hermann Jos., Schneider, von Ueberlingen (Baden).\n272 Bolliger-Ment, Emil, Buchbinder, von Schloßrued.\n  Heindl-Plüss, Mathilde, Damenschneiderin, von Sachsenried\n    (Baiern).\n  Brügger-Träfel, Max Heinrich, Schneider, von Lostorf (Sol.)\n273 Brunnhöfer-Schmid, Magdalena, Mechanikers Witwe.\n  Häusermann-Schmid, Elisabeth, Taglöhnerin, von Egishwil.\n  Gloor, Marie, Vorgängerin, von Birrwil.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 76317,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1898,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.71,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:10:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p033",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p033.jpeg",
+      "bytes": 783750,
+      "sha256": "dcc5b82a3cc789f210074ee805b2ce24058ab2b36607e7771dbea33e4ac14e95",
+      "sha256_of": "original",
+      "working_copy": "1901_p033.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:10:26+00:00"
+  }
+}

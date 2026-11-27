@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p093",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p093.jpeg",
+    "bytes": 884271,
+    "sha256": "d81a2139099e92a532939d1f0f6a73e985111e6275754020178f36b0ecbfdeee",
+    "sha256_of": "original",
+    "working_copy": "1913_p093.jpeg"
+  },
+  "text": "— 71 —\nHaus-\nNr.\n1007 Schärer-Peter, Wwe., Biberstein.\n— Anna, Bureauangestellte, Biberstein.\nLenzin-Brudermann, Emil, Ausläufer, Oberhof.\nRehmann-Rohr, Albert, Bahnarbeiter S. B. B., Kaisten.\n1006 Bouvard-Schultheß, Joh, Güterexpedient, Remetschwil.\n— Amalia, Bureaulistin, Remetschwil.\n— Klara, Ladentochter,\n1005 * Gautschi, Rudolf, Wirts Erbschaft, Reinach. Speise-Wirt-\n  schaft z. Frohsinn.\n— Anna, Wirtin, Reinach.\nFrey-Gautschi, Gotth, Schriftsetzer, Biberstein.\nKeller-Bächtold, Rudolf, Lok.-Heizer S. B. B., Reinach.\n1004 Wegelin-Schmid, Hans, Architect, Dießenhofen (Thurg.).\n— Sophie, Prokuristin.\nWolf-Schwarz, Richard, Schneider, Lauterbach (Sachsen).\nSchmid, Louise, Haushälterin, Watterdingen (Baden).\n— Sophie, Weißnäherin,\n— Ida,\n— Anna,\n— Hilda,\n  Geschäft: Bahnhofstraße 621.\nWalti-Zimmermann, Rosa, Wwe., Taglöhnerin, Dürrenäsch.\n— Hans, Schreiner, Dürrenäsch.\n1000 Cie. des Lampes à Filament Métallique [tel].\nElekt. Glühlampenfabrik A. G., Fabrikgebäude [tel].\n1003 * Dieselbe.\nBolliger-Willi, Friedr., Werkführer, Urkheim.\n1623 Schwarz-Gautschi, Theodor, Weinhandlung.\nBucher-Gerber, Gottlieb, Kommis, Niederweningen (Zürich).\nFehlmann, Hans, Lok.-Führer S. B. B., Mönthal.\n1833 Schwarz-Gautschi, Theodor.\nSchwarz & Cie., Weinhandel en gros und en détail. Bureau\n  und Kellerei [tel].\n1624 Herzog-Frei, Gustav, Schreiner, Hornussen.\nFuchs-Bisig, Martin, Zuschnitzer, Einsiedeln.\nErnst-Meier, Emil, Klavermacher, Würenlos.\n— Marie, Ladentochter, Würenlos.\n1853 Kuhn-Gamper, Alfred, Techniker [tel]. Sanitäre Apparate und\n  Anlagen, Eisenkonstruktionen.\n1841 * Erne & Cie.\nFrey-Erb, Johann, Fuhrmann, Wyßachern.\n\nBankstrasse.\n1046 Kauf, Heinrich, Part., Wellhausen (Thurgau).\nIsele-Flum, Theresia, Schachtelmacherin, Amlikon (Thurg.).\n1047 Siebenmann, Rud., Part.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 32575,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1785,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:01:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p093",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p093.jpeg",
+      "bytes": 884271,
+      "sha256": "d81a2139099e92a532939d1f0f6a73e985111e6275754020178f36b0ecbfdeee",
+      "sha256_of": "original",
+      "working_copy": "1913_p093.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:01:31+00:00"
+  }
+}

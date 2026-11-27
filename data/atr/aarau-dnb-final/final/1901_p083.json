@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p083",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p083.jpeg",
+    "bytes": 803579,
+    "sha256": "52b79aa8db327e9b9e8638bded01971148845b6ecc1bc86418e55932d891d539",
+    "sha256_of": "original",
+    "working_copy": "1901_p083.jpeg"
+  },
+  "text": "72\nHaus-\nNr.\n1281 * Plüss-Wälchli, Friedrich, von Ryken.\n  Urech-Zürcher, Traugott, Knecht, von Nieder-Hallwyl.\n1282 † Derselbe.  Holzschopf.\n1283 Klingelfuss-Widmer, Johann Friedrich, Mechaniker, von Basel.\n  Spezialfabrikation von Wasserwaagen.\n  Widmer, Maria, Part., von Gränichen.\n1284 * Derselbe.  Wohnhaus.\n  Klingelfuss-Strasser, Johann Heinrich, Gärtner, von Basel.\n1285 † Derselbe.  Werkstatt, Magazin und Anbauten.\n1286 †    „  Treibhaus.\n1287 † Custer-Roth, Emil.  Rebhäuschen.\n1288 * Lattmann-Ackermann, Georg, Lokomotivführer, v. Sternenber g.\n  Stäubli-Vok, Nikl., Sekretär der Erziehungsdirektion, v. Sulz.\n  Schmid-Dätwiler, Bruno, Ausläufer, von Basedingen (Thurg.).\nErlinsbacherstrasse.\n1289 † Fleiner & Cie.  Kalkbrennerei mit Anbauten.\n1290 †  —  Schopf und Anbau.\n1291 †  —  Bureau und Anbau. [tel]\n1292 †  —  Waghans.\n1293 †  —  Cementfabrik mit Anbauten und Magazin.\n1503 †  —  Abort.\n1294 * Derselbe.  Alte Trotte.\n  Ott-Kiburz, Karl, Fuhrmann, von Auenstein.\n  Graf-Richner, Johann, Cementmüller, von Küttigen.\n  — Jakob, Cementarbeiter, von Küttigen.\n1295 † Derselbe.  Scheune.\n1296 † Schneider, Dr., Fürsprech.  Rebhäuschen und Anbau.\n1297 † Burkhard, Ferdinand.  Rebhäuschen.\n1298 Siegfried-Leupold, Friedrich, Staatsbuchhalter [tel], v. Zofingen.\n1299 † Derselbe.  Holzhaus.\n1300 † Elektricitätswerk.\n  a. Einwohnergemeinde Aarau.  Anteil.\n  Hochstrasser-Joho, Jakob, Maschinist, von Auenstein.\n  b. Fleiner & Cie.  Anteil.\n1301 † Einwohnergemeinde.  Holzhaus.\n1302 Roth, Johann, Aufseher, von Obererlinsbach.\n  Bodmer-Erb, Johann Julius, Fabrikaufseher, von Erlinsbach.\n  Schmid, Emil, Cementarbeiter, von Erlinsbach.\n1303 † Derselbe.  Holzschopf.\n1304 †    „  Spicher.\n1305 * Fleiner & Cie.\n  Flückiger-Hug, Jakob, Käser, von Auswil (Bern).\n  Wehrli-Blattner, Adolf, Cementarbeiter, von Küttigen.\n  Käser-Fischer, Jakob, Cementküfer, v. Obererlinsbach (Sol.).\n1306 Rothpletz-Imhof, Louise, Stadtrats Witwe.\n  — Max, Kaufmann.\n  Guyer-Blattner, August, Part., von Fehraltorf (Zürich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19580,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2015,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.56,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:29:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p083",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p083.jpeg",
+      "bytes": 803579,
+      "sha256": "52b79aa8db327e9b9e8638bded01971148845b6ecc1bc86418e55932d891d539",
+      "sha256_of": "original",
+      "working_copy": "1901_p083.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:29:59+00:00"
+  }
+}

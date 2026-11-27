@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p143",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p143.jpeg",
+    "bytes": 865188,
+    "sha256": "217fe609a3edf8ff51f8a395a1cf065ef6445e61c82aa474c991e9b2235287bf",
+    "sha256_of": "original",
+    "working_copy": "1901_p143.jpeg"
+  },
+  "text": "130\nWelti, Heinrich, Postpacker, Bahnhofstraße 591.\n— Lisa, Part., Weltistrasse 1443.\nWerenfels, Albert, Kaufmann, Buchserstraße 924.\nWerner-Lienhardt, Anna Maria, Fabrikarbeiterin, Metzgergasse 78.\nWernli, Andr., Schuhmacher, Rathausgasse 27.\n— Anna Maria, Part., Ziegelrain 424.\n— Elise, Weißnäherin, Rain 501.\n— Elisabeth, Rain 441.\n— Elise und Emma, Damenschneiderinnen, Ziegelrain 397.\n— Friedrich, Schreiner, obere Vorstadt 544.\n— Gabriel, Taglöhner, Strittengäßchen 1217.\n— Gottlieb, Kanzlist, Torfeldstraße 941.\n— Jakob, Part., Strittengäßchen 1150.\n— Jakob, Fabrikarbeiter, Telli 871.\n— Jakob, Gärtner, Strittengäßchen 1205.\n— Jakob, Maschinist, obere Vorstadt 545.\n— Jakob, Schreinermeister, obere Vorstadt 513.\n— Johann Jakob, Taglöhner, Adelbändli 176.\n— Johann, Bauamtsarbeiter, Milchgasse 132.\n— Joh., Magazinier, Rohrerstraße 878.\n— Joh., Bahnangestellter, Ziegelrain 397.\n— Julius, Lagerhausangestellter, Rohrerstraße 891.\n— Kaspar, Holzer, Rain 501.\n— Kaspar, Postkondukteur, Torfeldstraße 945.\n— Kaspar, Weichenwärter, Laurenzenvorstadt 711.\n— -Lienhardt, Maria, Spetterin, Herzogstraße 990.\n— Marie, Wäscherin und Glätterin, Milchgasse 147.\n— Rosa, Glätterin, Herzogstraße 990.\n— Rudolf, Bauamtsarbeiter, Gasstraße 1172.\n— Rudolf, Cementmüller, Rathausgasse 27.\n— Samuel, Holzsplalter, Hammer 184.\n— Samuel, Pferdedwärter, Halden 294.\n— Samuel, Cementarbeiter, Scheibenschachen 1336.\n— geb. Treier, Anna, Wirtin z. „Bairischen Bierhalle“, obere Vorstadt 553. [tel]\n— geb. Wehrli, Maria, Gärtners Witwe, Scheibenschachen 1323.\n— geb. Wehrli, Maria, Maschinenstrickerin, Zollrain 62.\n— -Wernli, Maria, Haushälterin, Buchserstraße 984.\nWernly, Rudolf, reform. Pfarrer, Milchgasse 141.\nWespi, K., Hafnermeister, Entfelderstraße 1378.\n— -Zurlinden, A., Hafners Witwe, Entfelderstraße 1378.\nWestfeld geb. Spitzli, Ida, Witwe, Rain 489.\nWetter & Cie., Firma, [tel] Magazin zum Globus, ob. Vorstadt 554.\n— J. Ulrich, Kaufmann, obere Vorstadt 548.\nWettler geb. Schneider, Julie, Witwe, Graben 223.\nWidmann, Max, Dr., Redaktor, Laurenzenvorstadt 789.\nWidmer, Anna, Weißnäherin, Rain 506.\n— Arnold, Lithograph, Bachstraße 1097.\n— Emma, Klavierlehrerin, Kasinostraße 657.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 47143,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2178,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:52:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p143",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p143.jpeg",
+      "bytes": 865188,
+      "sha256": "217fe609a3edf8ff51f8a395a1cf065ef6445e61c82aa474c991e9b2235287bf",
+      "sha256_of": "original",
+      "working_copy": "1901_p143.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:52:31+00:00"
+  }
+}

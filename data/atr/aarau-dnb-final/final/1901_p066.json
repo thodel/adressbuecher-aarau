@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p066",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p066.jpeg",
+    "bytes": 835005,
+    "sha256": "4de306043d02f75563e434f204595fd5cfee3385da56ae2d7a35f183316ba0e3",
+    "sha256_of": "original",
+    "working_copy": "1901_p066.jpeg"
+  },
+  "text": "55\nHaus-\nNr.\nRohrerstrasse.\n878  Wernli-Wernli, Johann, Magaziner, von Thalheim.\n  Müller-Hug, Eugen, Wagenkontroleur, von Affoltern.\n879 * Baumann, Gebr., Weinhändler, Speisewirtschaft zum \"Jura\".\n  Leube-Kienberger, Adele, von Frick, [tel] Wirtin z. Café \"Jura\".\n  Zogg-Moos, Osw. Martin, Kaufmann, von Wallenstadt.\n  Bläuer, Jakob, Kanzlist, von Linn.\n  Rütty, Viktor, Förster, von Wyl, St. Gallen.\n880 † Dieselben. Kellergebäude.\n881 * Valli-Eggspühler, August, Unternehmer von Erdarbeiten.\n  Müller-Hagenbuch, Otto, Buchhalter.\n  Zuberbühler-Egli, Johann, Maler, von Herisau.\n  Kossmann-Hodel, Christian, Prediger, von Thuttlingen (Wrtbg.)\n882  Valli-Eggspühler, August [tel], Unternehmer von Erdarbeiten.\n  Feger-Ruffner, Fidel, Zimmermann, von Triessen (Lichtenstein).\n  Hassler-Schmidt, Friedrich, Verwalter des Elektrizitätswerkes.\n883 † Derselbe. Magazin.\n884 † Jura-Cementfabriken. Schuppen für die Seilbahn.\n885 * Fischer & Schmuziger, [tel] Wohnhaus und Schmiede.\n  Angerer-Baumgartner, Joseph, Schmied, von Stils (Tirol).\n886 † Dieselben. Magazin und Remise.\n887 † \" Lokomobil-Remise.\n888 † \" Remise und Bureau.\n889 † \" Remise für Werkzeug.\n890 † \" Magazin.\n891  Kaspar-Häuptli, Eduard, Ferge, von Zezwyl.\n  Wernli-Wernli, Julius, Lagerhauskassier, von Thalheim.\n  Jost-Horlacher, Friedrich, Maschinenmeister, von Binzen (Bdn.)\n892 * Käser, Rudolf, Postkondukteur.\n  Otti-Roth, Johann, Professor, von Oberwyl (Baselland).\n  Zimmerli-Kunz, Samuel, Bezirkslehrer, von Brittnau.\n893 † Lagerhäuser der Centralschweiz. Lagerhaus mit Schuppen.\n894 † — Bureau.\n895  Hürzeler-Schenk, Jakob, Monteur, von Uerkheim.\n896 † Derselbe. Schuppen.\n897 † Keller-Steiner, Karl. Heuschuppen und Weinkeller.\n898 † Zschokke, M., Baugeschäft. Bauhütte.\n899 † Dasselbe. Werkzeughütte.\n900 † \" Parqueterie mit Anbau.\n901 † \" Schlackenschuppen.\n902 † \" Zimmermannswerkstatt.\n903 † \" Bureau mit Anbau [tel].\n904 † \" Abtrittgebäude.\n905 † \" Werkstatt für Cementarbeiter.\n906 † \" Steinhauerhütte.\n907 † \" Schmiede mit Anbau.\n908 † \" Wärterbude.\n909  Jäggi-Weber, Herm., Geschäftsführer, Baugeschäft Zschokke [tel].",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 63451,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2100,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:25:22+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p066",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p066.jpeg",
+      "bytes": 835005,
+      "sha256": "4de306043d02f75563e434f204595fd5cfee3385da56ae2d7a35f183316ba0e3",
+      "sha256_of": "original",
+      "working_copy": "1901_p066.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:25:22+00:00"
+  }
+}

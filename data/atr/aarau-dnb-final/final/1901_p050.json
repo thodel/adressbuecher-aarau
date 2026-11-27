@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p050",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p050.jpeg",
+    "bytes": 842973,
+    "sha256": "1ca28b29c431eacdecd2943913577c61a42c9644db245de8ac1dd9af8cf1ec03",
+    "sha256_of": "original",
+    "working_copy": "1901_p050.jpeg"
+  },
+  "text": "39\nHaus-\nNr.\n543 Huber-Hochuli, Fritz, Sohn, Spengler. Spengler- und Metall-\n  warenhandlung.\n544 Siegrist-Müller, Albert, Bäcker.\nWernli-Montprecht, Fritz, Schreiner.\nGysi-Hess, Rudolf, Maler.\n545 * Siebenmanu, Friedrich, Bierbrauer in Aarau und Gysi, Gott-\n  lieb, Bezirksrichters Erbschaft, in Buchs.\nWernli-Luginbühl, Jakob, Maschinist, von Thalheim.\nHaberstich-Scheuermann, Bertha, Schulinспекtors Witwe.\n— Lina, Lehrerin.\nLäuchli, Johann, Milchverkäufer.\nNadler-Häuptli, Anna, Witwe, von Biberstein.\n546 Berchtold-Glaus, Jakob, Schuhmacher. Schuhhandlung.\nBrunner-Rohr, Jakob, Knecht, von Derendingen (Solothurn).\nHediger-Gehrig, Emil, Drechsler, von Reinach.\n547 Hof-Müller, Eduard, Mechaniker, [tel] von Hauenstein (Solothurn).\n  Velohandlung und Reparaturwerkstätte. Butter- und Eier-\n  handlung und Salzverkauf.\nMüller-Vötsch, Anna, Gemüsehändlerin, von Erlinsbach (Sol.).\nSchmid-Unger, Sophie, Weichenwärters Witwe, von Erlinsbach\n  (Aargau).\nHeffink-Benffe, Heinrich, Reisender, aus Belgien.\n548 Rychner-Renz, Rosa, Part.\n— Fritz, Pianist.\nSchneider-Rychner, Gustav, Dr. jur., Fürsprech, alt Ober-\n  richter. [tel]\nDöbeli-Binder, Samuel, Bezirksschullehrer, von Seon.\nWetter-Weiss, Ulrich, Kaufmann, von St. Gallen.\nKeller-Wetter, Georg, Commis, von Kallern (Aargau).\n549 * Giger, J., Polizei-Wachtmeister, von Gontenschwil.\nHunziker-Graf, Adolf, Milchverkäufers, von Leutwyl.\nMeyer-Schait, Jakob, Gärtner, von Dintikon.\nHöhn, Hedwig, Kursleiterin, von Wädenswil (Zürich).\n550 * Riniker-Temperli, Friedrich. Wohnhaus.\nDr. Schneider-Richner, Gustav, alt Oberrichter, Fürsprech und\n  Notar. [tel] Advokatur- und Notariats-Büreau.\nGötz-Müri, Friedrich, Schuhfabriksaufseher, von Roth a. See\n  (Württemberg).\n551 Riniker-Temperli, Friedrich, Spezereihandlg., von Schinznach.\nTreier-Hort, Rosina, Näherin, von Wölflinswyl.\nBrack-Acklin, Fridolina, Fabrikarbeiterin, von Mönthal.\nKäser-Vonarx, Robert, Magaziner, von O-Erlinsbach (Soloth.).\nGeiger, Karoline, Part., von Karlsruhe.\n552 Widmer-Richner, Rudolf, Bäcker, von Gränichen, Pintenwirtsch.\nZüger-Hirschmann, Joseph, Lithograph, von Vorderthal (Schwyz).\n553 Wernli-Treier, Anna, Witwe, von Herznach. [tel] Speisewirt-\n  schaft (Bairische Bierhalle).\nMarfurt-Hofer, Xaver, Coiffeur, von Langnau (Luzern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 60315,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2265,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:17:11+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p050",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p050.jpeg",
+      "bytes": 842973,
+      "sha256": "1ca28b29c431eacdecd2943913577c61a42c9644db245de8ac1dd9af8cf1ec03",
+      "sha256_of": "original",
+      "working_copy": "1901_p050.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:17:11+00:00"
+  }
+}

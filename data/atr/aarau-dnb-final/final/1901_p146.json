@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p146",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p146.jpeg",
+    "bytes": 834175,
+    "sha256": "2237559617742f52c8920c379ebc7a6ff96be6011767086feea17f3f144e2f5a",
+    "sha256_of": "original",
+    "working_copy": "1901_p146.jpeg"
+  },
+  "text": "133\nZeender, Louis, Schriftsetzer, Buchserstraße 984.\nZehndel, Jakob, Schneider, Scheibenschachen 1334.\nZehnder, Anna, Part., Graben 228.\n— Gottlieb, Part., Graben 228.\n— geb. Kaufmann, Barbara, Wwe., Gemüsehändlerin, Kirchhof 161a.\n— Otto, Kantonsingenieur, Jurastraße 1479.\nZeller, Lina, Lehrerin, Flößerstraße 1165.\nZellweger, Elise, Glätterin, Milchgasse 146.\n— Jakob, Büchsenmacher, Milchgasse 146.\n— Oskar, Part., Hammer 190.\nZezzi, Eugen, Maurer, Bauamtsarbeiter, Halden 274.\nZeughäuser, Rohrerstraße 913 und 914.\nZeughaus-Verwaltung, Zeughausstraße 678. [tel]\nZiegler-Erismann, Anna Maria, Köchin, Asylstraße 1147.\nZiehli, Gottfried, Reisender, Pelzgasse 106.\nZimmerli, Eduard, Cementarbeiter, Halden 279.\n— Emma, Verkäuferin, Metzgergasse 78. Verkaufsladen Laurenzen-\n  vorstadt 736.\n— Gottlieb, Kreiskommandant, Laurenzenvorstadt 714.\n— Johann, Holzer, Stadthof 84a.\n— Samuel, Bezirkslehrer, Rohrerstraße 892.\nZimmermann, Johann, Lehrer, Laurenzenvorstadt 793.\n— -Wernli, Barbara, Witwe, Halden 315.\nZingg geb. Fisch., Hermine, Spezereihandlung, Buchserstraße 955.\n— Jakob, Zugführer, Buchserstraße 955.\nZobrist, Jakob, Bahnmeister, Bleichemattstraße 1025.\nZogg, Oswald Martin, Kaufmann, Rohrerstraße 879.\nZschokke, Arnold, Dr. jur., Staatschreiber, Entfelderstraße 1424.\n— Arthur, Part., Laurenzenvorstadt 800.\n— Ernst, Dr. phil., Professor, Zschokkestraße 1422.\n— Hermann, Versicherungsagent, [tel] Bureau Entfelderstraße 1388,\n  Wohnung Entfelderstraße 1405.\n— geb. Jordi, Elise, Witwe, Laurenzenvorstadt 746.\n— Konradin, Ingenieur, [tel] Entfelderstraße 1389.\n— M., Baugeschäft, [tel] Rohrerstraße 903.\n— geb. Offenhäuser, Elise, Pfarrers Witwe, Entfelderstraße 1388.\n— -Sauerländer, Auguste, [tel] Buchhändlers Witwe, Zschokkestr.1421.\n— geb. Sauerländer, Maria, Witwe, z. „Blumenhalde“, [tel] Gis-\n  higel 1271.\nZüger, Joseph, Lithograph, obere Vorstadt 552.\nZürcher, Alfred, Arzt, [tel] Laurenzenvorstadt 748.\n— Friedrich, Taglöhner, Strittengäßchen 1217.\nZuber-Müller, Witwe, Part., Kirchhof 159.\n— Andreas, Architekt, Bahnhofstraße 557.\n— Traugott, Sekretär, Rain 431.\nZuberbühler, J., in Zurzach (Lingerie- u. Broderiegeschäft), Filiale:\n  Zollrain 54.\n— Johann, Maler, Rohrerstraße 881.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 57306,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2207,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:54:46+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p146",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p146.jpeg",
+      "bytes": 834175,
+      "sha256": "2237559617742f52c8920c379ebc7a6ff96be6011767086feea17f3f144e2f5a",
+      "sha256_of": "original",
+      "working_copy": "1901_p146.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:54:46+00:00"
+  }
+}

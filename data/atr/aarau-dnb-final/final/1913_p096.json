@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p096",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p096.jpeg",
+    "bytes": 851704,
+    "sha256": "367292285ebae17f91597ad29b1d4d3c1124e529497f40692aaefad825cc0b68",
+    "sha256_of": "original",
+    "working_copy": "1913_p096.jpeg"
+  },
+  "text": "— 74 —\nHaus-\nNr.\n1089 Siebenmann, Geschwister.\n  — Adolf, Sekretär.\n  — Fanny, Part.\n1090 Fricker-Kuhn, August, Postkommis.\nSuppinger, Katharina, Haushälterin, Leuggern.\n1091 Spühler-Frey, Gustavine, Witwe, Rekingen.\n  — Otto, Fürsprech und Notar, \"\n  — Anna, Kunstmalerin, \"\n1092 Witz-Martin, Emil, Verlagsbuchhändler, Solothurn [tel].\n1093 Wolf-Allemann, Fritz, Architekt, Baugeschäft.\nKaufmann, Otto, Buchhalter, Buchs (Luzern).\nBurgheer, Ernst, Bankbeamter, Zetzwil.\n1595 Widmer-Nadler, Arnold, Privatlithograph, Gränichen.\n1825 * Schmid-Läuchli, Ingenieur.\nFornerod-Oederlin, Alfred, Ingenieur, Avenches.\n1826 * Schmid-Läuchli, Jakob, Ingenieur.\nWidmer-Reimann, Emma, Witwe, Privat.\n  — Emma, Klavierlehrerin.\n  — Frida, \"\n1827 * Schmid-Läuchli, Jakob, Ingenieur.\nDeron-Ineichen, Eugen, Ingenieur, Bas-Vuilly (Freiburg).\nBucher-Gieße, Andreas, Architekt, Zürich.\n1097 * Schmid-Läuchli, J. J., Ingenieur.\nKeller-Jäggi, Andreas, Hauptagent der Schweiz. Mobiliarver-\n  sicherungsgesellschaft Bern [tel].\nManesco-Morl, Louise, Haushälterin, Rumänien.\nKreß-Andersen, Karl, Architekt, Wigoltingen (Thurgau).\nDosser, Leopold, Rechnungsführer der Staatswirthschaft, Rhein-\n  felden.\nKull-Gerber, Adolf, Postdienstchef.\n1098 * Schmid-Läuchli, J., Ingenieur.\nDill-Ernst, Oskar, Professor an der Kantonsschule, Basel.\nHaller, Otto, Bankbeamter, Reinach.\n  — -Fehlmann, Susette, Witwe, Reinach.\n1099 Herzog-Zobel, Julie, Witwe.\n  — Hans, Dr. phil., Staatsarchivar.\n  — Max, Kaufmann.\nRothpletz-Keller, Lina, Witwe, Part.\nGanter-Schilling, Heinrich, Professor, Neustadt (Baden).\nKlinger, Hans, Kaufmann, Embrach.\n1101 † Ohl, Gustav, Fabrikant [tel]. Fabrikgebäude. Band- und\n  Litzenfabrik mit Färbereibetrieb.\n1102 † Derselbe. Fabrikgebäude.\n1103 Kohlmann-Läuchli, Verena, Part.\nKohlmann & Läuchli, Lithographieanstalt [tel].\n  — -Rüedi, Arnold, Lithographiebesitzer.\nLäuchli, Adolf, Remigen.\nRüedi-Wärtli, Rosa, Witwe, Part., Sulz.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29300,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1925,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:02:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p096",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p096.jpeg",
+      "bytes": 851704,
+      "sha256": "367292285ebae17f91597ad29b1d4d3c1124e529497f40692aaefad825cc0b68",
+      "sha256_of": "original",
+      "working_copy": "1913_p096.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:02:14+00:00"
+  }
+}

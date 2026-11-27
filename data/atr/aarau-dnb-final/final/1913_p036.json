@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p036",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p036.jpeg",
+    "bytes": 917830,
+    "sha256": "455448452d29d09e4fd750db86031c60fe500b6a04fa097146b1980e1376173a",
+    "sha256_of": "original",
+    "working_copy": "1913_p036.jpeg"
+  },
+  "text": "— 20 —  Hau-\nHaus-  Nr.\nNr.  Schmid-Pauli, Hermann, Taglöhner, Erlinsbach (Aarg.).\nEngesser-Brunner, Cresc., Taglöhnerin, Turschhausen.\n  —  Rosa, Damenschneiderin, Turschhausen.\n  —  Marie, Glätterin,  222\n209 * Aktienbrauerei Feldschlößchen in Rheinfelden.\nUlrich-Egli, Pius, Küchenchef, Restaurant zum Feldschlößchen,\n  Solbach (Baden) [tel].\nWürmli-Metz, Jakob, Buchhalter, Bichelsee.  223\n  —  Georgine, Bichelsee.\n211  Frey-Amsler, Othmar, Fürsprecher, alt Bankdirektor.\n212  Christen-Scherrer, Gottfr., Konditorei, Suhr.\nWüest-Bühler, Josef, Taglöhner, Bürön (Luzern).\n  —  Josef, Magaziner, Bürön (Luzern).  224\n  —  Anna, Ladentochter, \"\nMüller-Widmer, Jakob, Bankangestellter, Gränichen.\n213  Konsumverein Aarau.  225\nVon Wartburg-Schlegel, B., Buchhalter, Aarburg.\nTraber-Weber, Emil, Konsumverwalter, Winterthur.\nTorche, Paul, Ingenieur, Fribourg.\n214  Hubeli-Nadler, Fritz, Mechan. Schuhmacherei.\nFeucht, Lisette, Magd.\nGentner, Marie, Köchin.\n215  Dürr-Lüscher, Marie Wwe., Gemüsehändlerin [tel].\nBurgherr-Dürr, Viktor, Restaurant zur Grabenallee.\n  —  Seline, Bureaulistin.  226\nSchenk, Emil, Velo- und Nähmaschinenhandlung, Reparatur-\n  werkstatt.\nRiehl-Dürr, Karl, Koch und Gemüsehändler, Straßburg.  227\n216  Brentano, Sophie, Modistin, Laufenburg.\n  —  Alice, Modistin.\nGasbeleuchtungsgesellschaft Aarau (Verkaufslokal).\nBromberger-Schmid, Sophie, Privatin, Mellikon.  228\nFrey-Spalinger, Karl, Registrator, Zurzach.\n217  Gisi, Eugen & Co., Wolldecken-Manufaktur, Nied.-Gösgen [tel].\nGloor-Steiner, Generalagent d. Schweiz (La Suisse), Nied.-Hallwil.\n  —  Ida, Nied.-Hallwil.\nHemmeler-Gamper, Max, Kaufmann.  232\n218  Hemmeler-Lanz, Ottilie Wwe., Bäckerei und Wirtschaft.\nMeier, Oberbäcker.\nWaldmeier-Rothpletz, Bertha, Privatin, Hellikon.\nMeyer-Roth. Verena, Part., Dintikon.\n  —  Edward Erwin, Verlagsbuchhändler, Dintikon.\n219  Maier-Kern, Thomas, Schuhmachermeister. Schuhhandlung.\n220  Urech-Imhof, Philippine Wwe., Privatin.\n221 * Dolder-Saxer, Friedr. Kaufmanns Erbschaft.  234\nFirma: Großmann, Otto, Handelsgärtnerei, Samenhandlung-  236 -\n  Blumenbazar  (Vertreterin: Neumaier, Rosa, Steinach) [tel].",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 103797,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2128,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.96,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:39:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p036",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p036.jpeg",
+      "bytes": 917830,
+      "sha256": "455448452d29d09e4fd750db86031c60fe500b6a04fa097146b1980e1376173a",
+      "sha256_of": "original",
+      "working_copy": "1913_p036.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:39:58+00:00"
+  }
+}

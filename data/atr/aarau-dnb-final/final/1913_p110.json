@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p110",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p110.jpeg",
+    "bytes": 903635,
+    "sha256": "b98432b265011ace2b1cc3ad9ebb58036bbc1fd240b34d7d05f42ef17f976901",
+    "sha256_of": "original",
+    "working_copy": "1913_p110.jpeg"
+  },
+  "text": "— 86 —\nHaus-\nNr.\n1145 Laury-Werren, Jakob, Mech. Wagnerei, Mühlethal.\nChassot-Widmer, Maurice, Postbeamter, Neuenburg.\nAmmann, Ernst, Bureauangestellter, Ermatingen.\nSchaffner, Fritz, Wagner.\nSchmidt-Kollmar, Karoline, Wwe., Wäscherin.\nVanek-Zahn, Anton, Zuschneider, Oesterreich.\nBircher, Emma, Bureauangestellte, Küttigen.\nAngwerd, Karl, Schriftsetzer, Steinen (Schwyz).\nOettli, Karl, Bureauangestellter, Ottenberg.\n1146 Fecht-Ruh, Katharina, Wwe.\n— Walter, Weinhändler.\n— Martha, Bureauangestellte.\nHemmeler, Oskar, Kaufmann.\nSchön-Högg, Frz. Xaver, Steindrucker, Neuheim (Zug).\n1147 Schatzmann-Häring, Jakob, Chemische Wäscherei, Windisch.\nBachmann-Müller, Rudolf, Maurer, Bottenwil.\n— Marie, Fabrikarbeiterin, ”\n— Hermann, Schlosser, ”\n— Hans, Confiseur, ”\n— Bertha, ”\nStritengässchen.\n1150 Leimgruber-Treyer, Xaver, Fuhrhaltereigenschaft, Herznach [tel].\n— Albert, Fuhrhalter, Herzach.\n— Josef, Fuhrhalter, ”\n— Xaver, ”\nErb-Treier, Elise, Gipf-Oberfrick.\n1151 Brunnhofer-Hunziker, Albert, gew. Tambourinstruktor.\nWehrli-Blattner, Adolf, Fabrikarbeiter, Küttigen.\n— Rosa, Ladentochter, Küttigen.\nBrunnhofner-Wärtli, Fritz, Kunstmaler.\n1152 Laury-Bläuer, Friedrich, Agent, Mühlethal.\nGrütter-Graber, Fritz, Taglöhner, Seeberg (Bern).\nFedele-Frey, Angelo, Handlanger, Rumanca.\n1533a Eichenberger-Fischer, Gottlieb, Schreinermeister, Beinwil.\nSchwarz-Suter, Oskar, Magaziner.\nGubler-Gubler, Albert, Schreiner, Kienberg (Sol.)\nBaumann-Eichenberger, Hermann, Färber, Bottenwil.\nRüedi-Hufschmid, Katharina, Wwe., Sulz.\n1533b Eichenberger-Härdi, Gottlieb, Obergerichtskanzlist, Beinwil.\nSiegrist-Diebold, Rudolf, Dr., Bez.-Lehrer, Elflingen.\nAmsler, Elise, Weißnäherin, Densbüren.\nBachmann, Karl Jakob, Chauffeur, Winterthur.\nWeberus-Probst, Andreas, Bedienter, Feldstetten (Württbg.).\n1156 * Eichenberger-Härdi, Gottlieb, Obergerichtskanzlist.\nHartmann-Legenstein, Franz, Maschinen-Zwicker, Schwertberg\n(Oesterreich).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16775,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1916,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:05:28+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p110",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p110.jpeg",
+      "bytes": 903635,
+      "sha256": "b98432b265011ace2b1cc3ad9ebb58036bbc1fd240b34d7d05f42ef17f976901",
+      "sha256_of": "original",
+      "working_copy": "1913_p110.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:05:28+00:00"
+  }
+}

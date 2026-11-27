@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p112",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p112.jpeg",
+    "bytes": 853413,
+    "sha256": "1f651b56dddaa1759fc8b49d5e515a90e86168b2dd7b641e5608041b0bf07a59",
+    "sha256_of": "original",
+    "working_copy": "1913_p112.jpeg"
+  },
+  "text": "— 88 —\nHaus-\nNr.\nFlößerstrasse.\n1163 Maurer-Häfeli, Wilhelm, Fuhrhaltereigeschäft, Schmiedrued.\n  — Fritz, Fuhrmann, Schmiedrued.\n  — Hilda, Ladentochter, Schmiedrued.\n1712 Wernli-Bolliger, Johann, Stadtarbeiter.\nWachsmann-Wernli, Karl, Buchdrucker, Schlegel (Preußen).\nBachmann-Hediger, Rudolf, Lithograph, Bottenwil.\n1164 * Hemmeler, Gottlieb, alt Werkmeisters, Erbschaft.\nKüng-Rüedi, Hans, Faktor, Aristau.\nLüscher, Jakob, Handlanger, Seon.\nFisch-Vogt, Marie, Wwe., Badmeisterin.\n  — Oskar, Schriftsetzer.\n  — Olga, Haushälterin.\n  — Esther, Ladentochter.-\n  — Hildegard, Glätterin.\n  — Helene, Ladentochter.\nBachmann, Marie, Fabrikarbeiterin, Bottenwil.\nWernli-Treier, Rosa, Wwe., Taglöhnerin, Thalheim.\nTreier, Frieda, Fabrikarbeiterin, Oberhof.\n1165 * Frauenkomitee. Kleinkinderschule.\nZeller, Lina, Kleinkinderlehrerin, O.-Stammheim (Zürich).\nMüller, Albertine, Möttlingen (Württemberg).\n1166 * Wehrli, Hans, Privatier.\n  — -Hemmeler, Hans, Zimmereigeschäft.\n  — Anna, Telephonistin.\nSinniger-Siegrist, Josef, Schuhfabrikarbeiter, N.-Erliinsbach.\n1167 * Wehrli, Hans, Privatier.\nSuß-Häuselmann, Friedr., Gipser, Remigen.\nCaltuzzo-Rover, Pietro, Handlanger, Possagno (Italien).\nBerretti-Surian, Giuseppe, Handlanger, St. Godenzo.\n1802 Frey-Frey, Albert, Materialverwalter.\n  — -Rhonier, Robert, Privatier, Zurzach.\nBrandenberger-Großenbacher, Hrch., Geometer, Flaach.\n1180 Gyger-Märki, Jakob, Schreiner, Gontenschwil.\n  — — Marie, Wäscherei.\nGloor-Giger, Rudolf, Lithograph, Birr.\n1634 Nünlist-Mäuli, Hermann, Werkmeister, Erlinsbach (Sol.) [tel].\nFouz, Fritz, Schriftsetzer, Unterseen.\nGselli, Armin, Kaufmann, Ob.-Rohrdorf.\nAeschbach, Otto, Lehrer, Staffelbach.\nMager-Zimmermann, Gottfried, Buchhalter.\nTill, Franz, Uhrenmacher, Halbseit.\nPfister-Läubli, Friedrich, Monteur, Truebschachen.\nMark, Olivier, Buchhalter, Berlin.\n1184 Wehrli-Dubs, Johann, Handelsgärtnerei [tel].\nWyder-Wehrli, Rosa.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29020,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1902,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:06:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p112",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p112.jpeg",
+      "bytes": 853413,
+      "sha256": "1f651b56dddaa1759fc8b49d5e515a90e86168b2dd7b641e5608041b0bf07a59",
+      "sha256_of": "original",
+      "working_copy": "1913_p112.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:06:34+00:00"
+  }
+}

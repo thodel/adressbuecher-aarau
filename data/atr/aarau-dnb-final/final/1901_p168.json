@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p168",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p168.jpeg",
+    "bytes": 736294,
+    "sha256": "f2d1f588949c16897d065390322b86b9a0398525e4b01a8ac11245f381d4db1b",
+    "sha256_of": "original",
+    "working_copy": "1901_p168.jpeg"
+  },
+  "text": "155\nKonditoreien.\nGuggisberg, Emil,* Bahnhofstraße 619.\nHintz, Ulrich, Kronengasse 45.\nKeller, Paul, Zollrain 62.\nKunz, Ernst, vordere Vorstadt 331.\nMerz & Suter,* en gros, Bahnhofstraße 628.\nRohr, Hans, Graben 212.\nWüthrich, Jakob, Rathausgasse 11.\nKonfektionsgeschäfte.\nAckermann-Buser,* vordere Vorstadt 352.\nBruns, Heinrich, vordere Vorstadt 341.\nCodoni-Dreßler, Remigius,* Rain 436.\nGamper & Cie.,* Rathausgasse 2 und 31.\nGerber, Gustav,* vordere Vorstadt 327 und hintere Vorstadt 360.\n  (Siehe Inserat Seite 3.)\nGisi-von Arx, Viktor,* Holzmarkt 321.\nSiebenmann, Gebr.,* Oberthor 241.\nSuter, Rosa, Laurenzenthorgasse 126.\nKorbmacher.\nWyser, Gustav, Milchgasse 153. (Siehe Inserat Seite 13.)\nKorbwarenhandlungen.\nHagenbuch-Hagenbuch, Verena, Zollrain 64.\nHemmeler-Stahl, J.,* Rathausgasse 12.\nWetter & Cie.,* obere Vorstadt 554.\nWyser, Gustav, Milchgasse 153. (Siehe Inserat Seite 13.)\nKostümgeschäft.\nTheez, Geschwister, Laurenzenthorgasse 118.\nKunstmalter und Kunstmailerinnen.\nBuffetti, Enrico, Gönhardfeldweg 1448.\nHunziker, Elise, Laurenzenvorstadt 763.\nSchindler, Andreas, Graben 214.\nSpühler, Anna, Bachstraße 1091.\nKupferschmiede.\nBühler, Gottlieb, Schmidgasse 389.\nHässig, Alfred, Ziegelrain 424.\nHaßler, Paul, Pelzgasse 100.\n  Dieselben handeln auch mit Kupferschmiedwaren.\nKuranstalten,\nBrack, Heinrich, z. Alpenzeiger 1275.\nWüthrich-Elmer, Adolf (St. Laurenzenbad).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 13328,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1381,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0244,
+    "mean_line_chars": 32.61,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:02:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p168",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p168.jpeg",
+      "bytes": 736294,
+      "sha256": "f2d1f588949c16897d065390322b86b9a0398525e4b01a8ac11245f381d4db1b",
+      "sha256_of": "original",
+      "working_copy": "1901_p168.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:02:34+00:00"
+  }
+}

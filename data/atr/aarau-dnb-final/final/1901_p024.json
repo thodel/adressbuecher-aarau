@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p024",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p024.jpeg",
+    "bytes": 866385,
+    "sha256": "fea61ea33b971e04484954cefdaa0ea6510486d981158087141684e278a98640",
+    "sha256_of": "original",
+    "working_copy": "1901_p024.jpeg"
+  },
+  "text": "13\nHaus-\nNr.\n144 Hediger-Born, Marie, Witwe, von Reinach.\n145 * Weber-Beck, Gustav, Bezirksarzt.\n  Siegrist-Hauri, Anna, Witwe, Wäscherin, von Seengen.\n  Siegrist, Johann, Sohn, Taglöhner, von Seengen (Stumme).\n  Pfenninger-Bacon, Katharina, Sesselflechterin, von Stäfa (Zch.).\n  — Marie, Weißnäherin, von Stäfa (Zürich).\n  Hunziker-Müller, Maria, Witwe, Schuhmachers, v. Unt.-Kulm.\n  Gloor-Werder, Heinrich, Zimmermann, von Kulm.\n146 Hassler-Müller, Theodor, Buchbinder.\n  Holbein-Zimmerli, Eugen, Schreiner, von Steinach (St. Gall.).\n  Müller-Hauri, Marie, Witwe, Part., von Biberstein.\n  Siebenmann-Sprüngli, Sophie, Witwe, Part.\n  Zellweger-Fischer, Jak., Büchsenmacher, v. Teufen (Appenz.).\n  — Marie, Glätterin, von Teufen (Appenzell).\n  Rothpletz-Hunziker, Anna Maria, Witwe, Part.\n147 Wiederkehr-Oeschger, Viktoria, Witwe, von Zell (Luzern),\n  Wernli, Marie, von Thalheim. }\n  Bossert, Lina, von Othmarsingen. } Wäscherei und Glätterei.\n  Fricker-Häusermann, Verena, Wäscherin, von Veltheim.\n  Hunziker-Müller, Heinrich Reinhold, Camioneur, von Ob.-Kulm.\n  Roth, Katharina, Spetterin, von Ewattigen (Baden).\n  Schmidli-Stirnemann, Margaritha, von Siblingen (Schaffhaus.).\n  Breitenmoser-Häfeli, Johanna, Fabrikarbeiterin, v. Mogelsberg\n   (St. Gallen).\n  Häuptli, Rudolf, Taglöhner, von Biberstein.\n148 * Hoffmann-Käser, Johann, Schuhmachermeister.\n  Hochstrasser-Fehlmann, Verena, Spetterin, von Fahrwangen.\n  — Mina und Elise, Damenschneiderinnen, von Fahrwangen.\n  Schäfer-Morgenthaler, Eduard, Buchdrucker, von Zwickau.\n  Wehrli-Fischer, Rudolf, Maschinenmeister, von Küttigen.\n149 Siegrist-Fischer, Jakob, Metzger [tel], von Meisterschwanden.\n150 Dambach-Drack, Jakob, Faktor, von Ob.-Bötzberg.\n  Drack-Hauser, Elisabeth, Witwe, Spetterin.\n  — Louise, Glätterin.\n  Märki-Urech, Heinrich, Magazinier, von Mandach.\n  Weiss, Karoline, Fabrikarbeiterin, von Sulz.\n151 * Andres-Meier, Samuel, Schlosser.\n  Ging-Ryser, Wilhelm, Wagner.\n  Cima-Hauri, Verena, Wwe., Fabrikarbeiterin, v. Aquila (Tessin).\n  Hochuli-Widmer, Gottlieb, Schuhmacher, von Safenwyl.\n  Hunziker-Häfeli, Emilie, Witwe, Taglöhnerin, von Moosleerau.\n152 Andres-Meier, Samuel, Schlosser.\n  Bachofen, Joh. Friedrich, Sekretär, von Eiken,\n  Meier-Blum, Elisabeth, Part, von Oberhofen.\n  Fuchs, Franz, Maler, von Hornussen, Malerwerkstätte: Goltatten-\n   mattgasseite.\n153 * Kull, Emil, Spengler.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 74960,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2369,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.88,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:07:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p024",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p024.jpeg",
+      "bytes": 866385,
+      "sha256": "fea61ea33b971e04484954cefdaa0ea6510486d981158087141684e278a98640",
+      "sha256_of": "original",
+      "working_copy": "1901_p024.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:07:21+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p014",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p014.jpeg",
+    "bytes": 854531,
+    "sha256": "5e72113e97b25d0c7debf601a68711342b759f035ce0ed74e92c23561a8809c5",
+    "sha256_of": "original",
+    "working_copy": "1901_p014.jpeg"
+  },
+  "text": "3\nHaus-\nNr.\n  Weickgenannt-Käser, Verena, von Meiengoldsheim (Baden).\n  Lötscher, Maria Rosalie, Fergerin, von Basel.\n17  Stephani-Winkler, Margaritha, Kaufmanns Witwe, Kolonial-\n      waren-, Tabak- und Cigarrenhandlung.\n  Keller-Bailly, Alois, Postkommis, von Sarmenstorf.\n18 † Stephani-Winkler, Margaritha, Kaufmanns Witwe, Magazin.\n  Hess-Wolf, Alexander.  Firma Gebrüder Heß, Möbelhandlung.\n19 † Stephani-Winkler, Margaritha.  Waschhaus.\n20  Schmid-Maurer, Mathilde, von Möriken, Comestibleshandlung. [tel]\n  Maurer, Louise, Part.\n21  Müller-Hürner, Eduard, Schirmmacher.  Schirm-, Hut- und\n      Kappenhandlung.\n22  Stapfer-Gronmeyer, Johann, Schuhmacherustr., Schuhhandlung.\n23  Dubs-Walther, Karl, Metzger und Speisewirt [tel], von Küttigen.\n24  Härdi, Wilhelm, Goldschmied, von Lenzburg, Gold- u. Silber-\n      warenhandlung.\n  —  Lina, Haushälterin, von Lenzburg.\n  Bär, Adele, Modistin, Modegeschäft.\n  Felber-Roth, Karl, Zuschneider, von Unterbözberg.\n25  Hofer-Schaffner, Gottl., Kaufmann, Spezeriei- und Ellenwaren-\n      handlung.\n26 * —  —  Gottlieb, Kaufmann.\n  Gröbli-Reindli, Jakob, Schneider, von Henau (St. Gallen).\n  Merzler-Gutjahr, Karoline, Part., von Dangstetten (Großh. Baden).\n  —  Karoline, Frll., Part., von Dangstetten (Großh. Baden).\n27  Fehlmann-Brack, Kaspar, Bäckermeister.\n  Wernli-Bläuer, Andreas, Part., von Thalheim.\n  Hirt geb. Wehrli, Elisabeth, Witwe, Spetterin, von Zezwyl.\n  Birri-Aklin, Wilhelm, Bremser, von Zeihen.\n  Wernli-Glauser, Rudolf, Cementmüller, von Thalheim.\n  Glauser-Koch, Christian, Handlanger, von Worb (Bern).\n28  Hässig-Lienhardt, Marie, Bäckers Witwe, Part.\n  —  -Gross, Fritz, Bäcker, Speisewirtschaft.\n29 * —  -Lienhardt, Marie, Part.\n  Seiler, Walter, Uhrenmacher.  Uhrenhandlung.\n  Bühler-Guyer, Heinrich, Schmied, von Guntensweil (Volkers-\n      weil, Zürich).\n  Meier-Bertschi, Jakob, Schlosser, von Hausen.\n  Bertschi-Wächter, Maria, Wäscherin, von Dürrenäsch.\n  Fischer-Müller, Hans, Postpacker.\n30  Seiler-Hanhart, Marie, Bäckermeisters Witwe, Part.\n  —  -Leder, Oskar, Bäckermeister. [tel]\n31  Gamber & Cie., [tel] (Anteilhaber. Gamber-Zürcher, Hermann\n      und Gamber-Baumann, Emil).  Lager in Herren- und Damen-\n      Kleiderstoffen, Herren- und Damen-Konfektion, Anfertigung von Herren-\n      Kleidern nach Mass.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 60444,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2290,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:02:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p014",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p014.jpeg",
+      "bytes": 854531,
+      "sha256": "5e72113e97b25d0c7debf601a68711342b759f035ce0ed74e92c23561a8809c5",
+      "sha256_of": "original",
+      "working_copy": "1901_p014.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:02:29+00:00"
+  }
+}

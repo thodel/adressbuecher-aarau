@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p070",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p070.jpeg",
+    "bytes": 811281,
+    "sha256": "15a454a8574e89b1ce8754607ac5815f5bc096692fa151798b3270b90c35cec7",
+    "sha256_of": "original",
+    "working_copy": "1901_p070.jpeg"
+  },
+  "text": "59\nHaus-\nNr.\nHerzogstrasse.\n990 * Maurer-Richner, Fritz. Wohnhaus und Remise.\n  Frey-Hochuli, Rudolf, Commis, von Gontenschwyl.\n  Wernli-Lienhard, Maria, Spetterin, von Thalheim.\n  — Rosa, Glätterin, von Thalheim.\n1506 Niederhauser-Gysin, Theodor, Buchbinder, von Baselaugst.\n991 Wehrli-Märk, Emil, Architect, von Hönig (Zürich). Villa\n  „zur Erika“.\n992 Kummler-Sauerländer, Hermann, Kaufmann. Villa 🚗.\n  — -Frey, Auguste, Witwe, Privat.\n993 Kern-von Arand, Heinrich, Fabrikant. 🚗 Villa.\n994 † Derselbe. Waschhaus.\n995 † „ Hühnerhaus.\n996 Kern-Hunziker, Emil, Part. 🚗 Villa.\n997 † Derselbe. Scheune und Remise.\n998 † „ Waschaus und Anbau.\n999 † „ Holzhaus.\n\nHinter dem Bahnhof.\n1000 † Bally, Eugen, Fabrikant. Fabrikgebäude.\n1001 † Derselbe. Kohlenschuppen.\n1002 † „ Maschinenhaus und Anbau.\n1003 † „ Kosthaus.\n1004 Wägelin-Schmid, Johann, Bautechniker, v. Dießenhofen (Thrg.)\n  Schmid, Geschwister, Frida. Sophie u. Anna, Weißnäherinnen,\n    von Watterdingen (Baden).\n  Häusler-Müri, Joseph, Heizer, von Schwaderloch.\n  Walti-Zimmermann, Rosa, Witwe, Taglöhnerin, v. Dürrenäsch.\n1005 Gautschi-Maculin, Katharina, Wirtin, von Reinach. 🚗 Speise-\n    wirtschaft z. Frohsinn.\n  Frei-Gautschi, Gottlieb, Schriftsetzer, von Biberstein.\n  Meier-Brügel, Joh. Leonhard, Schneider, v. Nürnberg (Bayern).\n1006 Bouvard-Schulthess, Joh., Güterexpedient, von Remetschwyl.\n1007 Käser, Rudolf, Postkondukteur.\n  — Bertha, Telephonistin.\n  — Ida, Damenschneiderin.\n  Mosimann-Kleeb, Johann, Bahnarbeiter, von Signau (Bern).\n  Lienhard-Baumann, Emilie, Witwe, Wäscherin, von Buchs.\n1008 Brügger-Sommerhalder, Christ., Kontrolleur, von Churwalden\n    (Graubünden).\n  Mosimann-Waliser, Gottfr., Bahnangestellter, v. Signau (Bern).\n1009 Eckert-Giger, Eduard, Zimmerpolier.\n  — Walter, Bauführer.\n  — Elise, Damenschneiderin.\n  Hemmaler-Stähli, Emil, Kaufmann.\n  Imhof, Louise, Part.\n1010 Küenzlen & Cie. Eisengießerei und Weichgußfabrik.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 54252,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1918,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:26:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p070",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p070.jpeg",
+      "bytes": 811281,
+      "sha256": "15a454a8574e89b1ce8754607ac5815f5bc096692fa151798b3270b90c35cec7",
+      "sha256_of": "original",
+      "working_copy": "1901_p070.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:26:56+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p119",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p119.jpeg",
+    "bytes": 809545,
+    "sha256": "0d76908d46172d27d8117e1fcf936f34d1d5826e5a9a9e572af3e9dbd409e3e3",
+    "sha256_of": "original",
+    "working_copy": "1901_p119.jpeg"
+  },
+  "text": "106\nKantonsschule, Bahnhofstraße 592.\nKantonsschülerkosthaus, Bahnhofstraße 598.\nKantonspolizeiposten, hintere Vorstadt 362.\nKarrer-Roth, Maria, Part., Feerstraße 682.\nKaspar, Eduard, Feger, Rohrerstraße 891.\n— geb. Frei, Anna, Witwe, Rain 466.\n— Siegwart, Postpacker, Rain 466.\n— geb. Frei, Verena, Part., Rain 466.\nKauf, Alfred, Kassier, Entfelderstraße 1407.\n— Heinrich, Part., Bankstraße 1406.\nKaufmann, Herm., Stadtpolizist, Gassstraße 1171.\n— Otto, Commis, Graben 225.\n— Otto, Cementarbeiter, Strittengässchen 1219.\n— Rudolf, Taglöhner, Rain 431.\nKeller, Abraham, Mechaniker, [tel] Halden 277a.\n— Alois, Postcommis, Rathausgasse 17.\n— Andreas, Mobilienversicherungsagentur, [tel] Bachstraße 1097.\n— geb. Bauhofer, Bertha, Färbers Witwe, Halden 287.\n— Erwin, Gieße reiarbeiter, Adelbändli 170b.\n— Frida, Milchgasse 128.\n— Fritz, Part., Rain 466.\n— Georg, Commis, obere Vorstadt 548.\n— Gottfried, Buchdrucker, Rain 452.\n— Gottfried, Dr., Fürsprech, Pelzgasse 106.\n— Gottlieb, Wirt, Rain 432.\n— Joseph, Pferdewärter, Rain 466.\n— Jos. Hermann, Schneider, Halden 271.\n— Kath., Fuhrhaltere, [tel] Kasinogasse 647.\n— Karl, Fouragehandlung, Rain 499.\n— Lina, Part., Laurenzenvorstadt 791.\n— Lina, Part., Rathausgasse 11.\n— Lisette, Privat., Zollrain 52.\n— Paul, Zuckerbäcker, Pinten- u. Kaffeewirtschaft, Zollrain 62. [tel]\n— geb. Siebenmann, Auguste, Uhrenmachers Witwe, obere Vor-\n  stadt 535.\n— -Vonäsch, Arnold, Schreiner, Halden 294.\n— Wilhelm, Pferdewärter, Halden 300.\nKern & Cie., Fabrikation mathematischer Instrumente, [tel] Ziegel-\n  rain 400.\n— Emil, Fabrikant, [tel] Herzogstraße 996.\n— Hrch., Fabrikant, [tel] Herzogstraße 993.\n— Jakob Walter, Commis, Flößerstraße 1193.\nKessler, Johann, Verwalter der „Aarg. Nachrichten“, [tel] hintere\n  Vorstadt 377.\nKettiger, Arnold, Kaufmann, Feerstraße 683.\nKeusch, Jos. Karl, Apotheker, vordere Vorstadt 348. [tel]\nKiburz, Gotthold, Sattler und Tapezierer, Entfelderstraße 1376.\n— Gottlieb, Taglöhner, Kirchgasse 36.\n— Lisette, Krankenwärterin, Halden 288.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 20338,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2008,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.06,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:42:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p119",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p119.jpeg",
+      "bytes": 809545,
+      "sha256": "0d76908d46172d27d8117e1fcf936f34d1d5826e5a9a9e572af3e9dbd409e3e3",
+      "sha256_of": "original",
+      "working_copy": "1901_p119.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:42:54+00:00"
+  }
+}

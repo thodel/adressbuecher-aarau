@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p021",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p021.jpeg",
+    "bytes": 951620,
+    "sha256": "f35e86021886993d6f77973690a416ed8a93c6145d517af04b1b8e580c326196",
+    "sha256_of": "original",
+    "working_copy": "1913_p021.jpeg"
+  },
+  "text": "— 7 —\nHaus-\nNr.\n61 Heller, Heinrich, alt Gerichtspräsident.\n— Oskar, Notar und Sektionschef [tel]. Notariats- und Inkasso-\n  geschäft. Annoncen-Expedition Hasenstein & Vogler.\n— Margrit, Lehrerin.\nBannwart-Holzreuter, Wilh., Schriftsetzer, Sarnen.\n— — Bertha, Wäscherei und Glätterei.\nKrauß-Schwarzmann, Max, Buchhändler, Ehingen (Württhbg.),\n  in Firma Krauß & Brack.\nNüsperli-Witz, Ida, Wwe.\nZschokke, Arthur, Privatier.\n62 Keller-Läuchli, Paul, Konditorei und Kafiewirtschaft [tel].\nGessler, Maria, Köchin, Zurzach.\nDunkel-Käser, Arnold, Feilenhauer, Bubendorf.\nHaller, Rudolf, Kondukteur W. T. B., Reinach.\nWeber-Schiesser, Fridolin, Güterarbeiter, Netstal.\n63 * Wacker, Angelo, Negt., in Laufenburg [tel]. Speisewirtschaft\n  zum Zöllrain.\nHuber-Heuberger, Oskar, Wirt, Ob.-Erlinsbach (Soloth.).\nKohler-Klay, Philipp, Zuschner, Straßburg.\nNussbaum-Tonini, Gottlieb, Fabrikarbeiter, Densbüren.\nKlay, Ludwig, Bäriswil (Bern),\nSchmuziger-Lang, Elisabeth, Wwe., Wäscherin.\nWirth, Paul, Stationsgehilfe W. T. B., Kirchberg.\nStuder, Julius, Zimmermann, Olten.\n64 Derrer-Keller, Jacob, Werkmeister, Oberglatt [tel]. Spezerieihdlg.\nJoho-Briner, Samuel, Färber, Auenstein.\n— Maria, Damenschneiderin,\nSchmocker-Keller, Sl. Gottlieb, Postbureauadierer, Ringgenberg.\n— — Frau, Weißnäherei, Ringgenberg.\n\nMetznergasse.\n\n65 Müller-Bolliger, Karl, Schneidermeister, Birr. Maßgeschäft,\n  Herren- und Damenkonfektion.\n— -Schnyder, Susanna, Privatin, Birr.\nSiegrist, Karl, Schneider, Elfingen.\nHächler, Emma, Magd, Gränichen.\n66 Lüthy-Kneubühler, Ed., Tapezierermeister, Betten- und Möbel-\n  handlung, Bleienbach\n— Bertha, Ladentochter, Bleienbach.\nLüscher, Rudolf, Sattler, Seon.\n67 Buser-Wildi, Emil, Bäckermeister [tel].\n68 * Hemmeler-Stähli, Emil, Kaufmann.\n* — -Mathys, Alfred, Metzgermeister.\nWillimann, Marie, Mercerie-, Garn- und Ellenwarenhandlung.\n— Martha.\n70 * Rütschi-Reinert, Karl, Coiffeur.\nSchär-Bergundthal, Walter, Wirt, Walterswil. Restaurant zum\n  Vis-à-vis.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 95827,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1964,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:30:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p021",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p021.jpeg",
+      "bytes": 951620,
+      "sha256": "f35e86021886993d6f77973690a416ed8a93c6145d517af04b1b8e580c326196",
+      "sha256_of": "original",
+      "working_copy": "1913_p021.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:30:40+00:00"
+  }
+}

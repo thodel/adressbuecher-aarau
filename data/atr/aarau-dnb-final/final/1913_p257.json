@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p257",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p257.jpeg",
+    "bytes": 807016,
+    "sha256": "fb02725ed413861f3b39aacfee7b3973cb9fb265585c8e07c130ad867c197180",
+    "sha256_of": "original",
+    "working_copy": "1913_p257.jpeg"
+  },
+  "text": "— 223 —\n*Hering-Leuenberger, Lisette. Milchgasse 128.\nLüthy, Eduard. Metzgergasse 66.\nPließ, Johann. Hintere Vorstadt 377.\nScheibler, Alfred. Adelbändli 174.\nWerfeli, Mina. Buchserstraße 921.\n\nModistinnen.\nBrentano, Sophie. Graben 216.\nBryner, Anna. Halden 298.\nFischer, Ida. Obere Vorstadt 554.\nFrey-Fäs, Emma. Pelzgasse 91.\nGloor, Marie. Kronengasse 45.\nHeuberger, Hedwig. Bahnhofstraße 621.\nKauffmann, Nina. Vordere Vorstadt 323.\nMüller-Schmocker, Verena. Zollrain 55.\nSchenkel-Wetter, Hedwig. Laurenzentorgasse 114.\n\nMüllerereien.\n*Aarg. Mühlen A. G. [tel] Bahnhofstraße 575.\n*Eberle-Heer, Franz, zur Stadtmühle [tel]. Stadthöfli 86.\n\nMusikalien- und Instrumentenhandlungen.\n*Brast, Emma und Ida. Holzmarkt 318.\n*Hirsbrunner-Baumann, Gottfried. Kasinostraße 662.\nHüni & Cie. [tel]. Kasinostraße 641.\n\nNäherinnen.\nSiehe Weißnäherinnen.\n\nNähmaschinenhandlungen.\n*Bieber-Graber, E. Bahnhofstraße 639.\n*— -Müller, German [tel]. Kasinostraße 657.\n  Leithe-Weber, Xaver. Mühlematt 1360.\n  Schibler, Fritz. Kronengasse 43.\n*Walter-Härdi, Adolf [tel]. Pelzgasse 109.\n\nNotare.\nSiehe auch Fürsprecher.\nBächli-Frey, Friedrich. Zieglerain 395.\n*Heller, Oskar, Sektionschef [tel]. Annoncen-Exped. Hasenstein & Vogler.\n  Zollrain 61.\n*Lüscher-Wyßbrot, Jakob [tel]. Feerstraße 684.\n  Stauber-Götter, Jakob, Bezirksverwalter. Bachstraße 1063.\n*Stirnemann & Sandmeier [tel]. Bahnhofstraße 1813.\n15",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16160,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1384,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.27,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:12:04+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p257",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p257.jpeg",
+      "bytes": 807016,
+      "sha256": "fb02725ed413861f3b39aacfee7b3973cb9fb265585c8e07c130ad867c197180",
+      "sha256_of": "original",
+      "working_copy": "1913_p257.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:12:04+00:00"
+  }
+}

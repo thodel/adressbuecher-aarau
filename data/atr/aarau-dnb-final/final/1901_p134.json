@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p134",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p134.jpeg",
+    "bytes": 904623,
+    "sha256": "d65e2195b15c71f15ad5365c925f0cd9807907b8e2dcd839e4be6ec31c73b554",
+    "sha256_of": "original",
+    "working_copy": "1901_p134.jpeg"
+  },
+  "text": "121\nSchmocker, Gottlieb, Postangestellter, Zollrain 52.\n— -Keller, Henriette, Geschäftsführerin, Zollrain 54.\nSchmutz, Anna, Damenschneiderin, Zollrain 55.\n— geb. Weber, Anna, Witwe, Spetterin. Zollrain 55.\nSchmuziger, Adolf, Fabrikant, Rain 449.\n— Arnold, Fabrikant, Laurenzenvorstadt 705.\n— Daniel, Baumeister, Part., Laurenzenvorstadt 717.\n— & Cie. (Emil Schmuziger-Rüetschi und Adolf Schmuziger-Stäheli),\n  Siezellack- und Tintenfabrikation, [tel] Rain 447.\n— Emil, Fabrikant, Rain 447.\n— Friedrich, Dr. med., [tel] Entfelderstraße 1409.\n— Gottlieb, Schneidermeister, Ziegelrain 426.\n— geb. Gutjahr, Anna Maria, Witwe, Part, Kasinostraße 654\n— geb. Hochstrasser, Marie, Part., Schachen 1117.\n— Johann, Architekt, Baumeister, [tel] jenseits der Aare 1227.\n— geb. Kern, Ida, Baumeisters Witwe, Weltistrasse 1144.\n— -Jacot, Lucie, Rentière, Milchgasse 142.\n— geb. Lang, Elise, Witwe, Bahnhofstraße 558.\n— Lina, Part., Rain 479.\n— Louis, Pfarrer, Bahnhofstraße 561.\n— -Nelson, Sophie, Part., Bahnhofstraße 561.\n— Susette, Part., Milchgasse 137.\n— Traugott, Maler, Rain 841.\n— Verena, Part., Milchgasse 137.\n— geb. Visel, Wilhelmine, Witwe, Entfelderstraße 1409 und Ziegel-\n  rain 397.\n— geb. Zulauf, Marie, Part., Adelbändli 171.\nSchneeberger, Jakob, [tel] Handelsmann, Rathausgasse 4.\nSchneider, Emil Eduard, Magaziner, Schmiedgasse 379.\n— Ferdinand, Part., Bahnhofstraße 591.\n— Franz Xaver, Zugführer, Buchserstraße 955.\n— Gustav, Dr. jur., Fürsprech, [tel] Wohnung obere Vorstadt 548,\n  Advokaturbureau obere Vorstadt 550.\n— Jakob, Aufseher, Scheibenschachen 1337.\n— Samuel, Taglöhner, Glattnemattgasse 255.\n— Ulrich, Schlossermeister, Glattnemattgasse 253.\nSchnellmann, Heinrich, Maurer, Milchgasse 133.\nSchnetzer, Johann Rudolf, Bremscr, Strittengässchen 1151.\nSchoch, Joh. Jak., Güterexpedient, vordere Vorstadt 330.\nScholer, Heinrich, Kaufmann, Graben 209.\nSchroder, Theodor, Schuhmacher, Kirchhof 165.\nSchurch, Adolf, Fabrikant, Konradstraße 1417.\nSchützengesellschaft Aarau. Präsident: Biland z. Ochsen.\nSchubiger, Joseph, Ausläufer, Tellrain 836.\nSchudel, Wilhelm, Lithograph, Zollrain 64.\nSchumacher, Fritz, Postkassier, jenseits der Aare 1247.\nSchuppli, Karl Heinrich, Maler, Rain 497.\nSchwarz, Theodor, Spezereihandlung, Bahnhofstraße 557.\nSchweizer geb. Gubler, Nanette, Witwe, Rain 482",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 48051,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2300,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:49:07+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p134",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p134.jpeg",
+      "bytes": 904623,
+      "sha256": "d65e2195b15c71f15ad5365c925f0cd9807907b8e2dcd839e4be6ec31c73b554",
+      "sha256_of": "original",
+      "working_copy": "1901_p134.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:49:07+00:00"
+  }
+}

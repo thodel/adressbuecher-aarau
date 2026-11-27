@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p069",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p069.jpeg",
+    "bytes": 846440,
+    "sha256": "79f0d038f622b7e0d062a567e75f39e4df4d7b11aa2a5d95eef907f66e822cc0",
+    "sha256_of": "original",
+    "working_copy": "1901_p069.jpeg"
+  },
+  "text": "58\nHaus-\nNr.\n956 * Staat Aargau. Krankenanstalt. Verwaltungsgebäude. [tel]\nBircher-Schatzmann, Heinrich, Dr. med., administrativer Direk-\n  tor und Oberarzt der chirurgischen Abteilung.\nKalt-Läubli, Alfred August, von Koblenz, Oberarzt der medi-\n  zinischen Abteilung und der Gebäranstalt.\nBolliger, Heinrich, Kanzleigehülfe, von Küttigen.\n— Franz Alfred,    \"    \" Schloßrued.\nSchieser, Heinrich,    \"    \" Dießbach (Glarus).\n957 † Derselbe. Chirurgischer Pavillon.\n958 † \" Medizinischer \"\n959 † \" Operationshaus. \"\n960 † \" Küche, Wasch- und Kesselhaus.\n961 \" Chirurgischer Pavillon.\n962 \" Medizinischer \"\n963 \" Kinder-Pavillon.\n964 \" Hebammen und Gebäranstalt.\n965 † \" Eiskeller.\n966 \" Portierhäuschen.\n967 \" Gärtnerwohnung und Anbau.\n  Hauser-Mathey, Gottlieb, Gärtner, von Böttstein.\n968 † Derselbe. Schweinestall.\n969 † \" Hühnerhaus.\n970 † \" Schreinerwerkstatt.\n971 † \" Magazingebäude.\n972 * Fleuri-Adam, Kaufmann. Wohnhaus.\n  Ohl-Müller, Gustav, Fabrikant, [tel] von Barmen (Preußen).\n973 † Derselbe. Waschhaus.\n974 Schäfer-Troller, Adolf, Architect.\n975 † Derselbe. Wasch- und Holzhaus.\n976 † \" Zimmerwerkstatt.\n977 † \" Holzschuppen.\n978 † \" Gartenhaus.\n979 † \" Steinhauerhütte.\n980 † \" Bureau und Remise.\n981 Furter-Furter, Abraham, Zugführer, von Stauf en.\n  Moor-Haltiner, Ernst, Geometer, von Brütten (Zürich).\n  Diethelm-Kalanguin, Reinh., Zugführer, v. Hessenhofen (Thurg.).\n982 Erismann-Sager, Fried., Güterexpedient, von Gontenschwyl.\n983 † Derselbe. Scheune.\n984 Meier-Brunner, Emil, Sekretär, von Rheinfelden.\n  Zeeender-Schäfer, Louis, Schriftsetzer, von Könitz (Bern).\n  Holzach, Dietrich, Vater, Part.\n  Wernle-Wernle, Marie, Haushälterin, von Thalheim.\n985 † Derselbe. Gartenhaus.\n986 Maurer-Richner, Fritz, v. Zollikon (Zürich). Speisewirtschaft [tel].\n987 Bally-Schmitter, Adeline, Witwe, Part.\n988 † Dieselbe. Waschhaus.\n989 † Dieselbe. Gewächshaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 33878,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1873,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:25:56+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p069",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p069.jpeg",
+      "bytes": 846440,
+      "sha256": "79f0d038f622b7e0d062a567e75f39e4df4d7b11aa2a5d95eef907f66e822cc0",
+      "sha256_of": "original",
+      "working_copy": "1901_p069.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:25:56+00:00"
+  }
+}

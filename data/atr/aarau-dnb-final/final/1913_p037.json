@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p037",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p037.jpeg",
+    "bytes": 883100,
+    "sha256": "f07b4390ae26fb3d69bab8a4d8d2dcf7d5c59a8b8ae2668e840c408fb722b175",
+    "sha256_of": "original",
+    "working_copy": "1913_p037.jpeg"
+  },
+  "text": "— 21 —\nHaus-\nNr.\nSchibli-Jägge, Anna, Privatin, Killwangen.\n  — Alfred, Chef der Militärkanzlei,       „\n  — Anna, Damenschneiderin,       „\nRorschach, Frieda, Kleinkinderlehrerin, Arbon.\n222 * Zschokke-Sauerländer, G., Buchhändlers Erbschaft.\n  Firma: Krauß & Brack, Sortimentsbuchhandlung [tel].\n  Brack, Gottlieb, Buchhändler, Effingen.\n  — Walter, Effingen.\n223   Gisi-Faller, Oskar, Kaufmann, Nied.-Gösgen.\n  Firma: Gisi-von Arx & Cie , Lager in Herren- und Damen-\n  kleiderstoffen.   Damen- und Herrenkonfektion [tel].\n  Gisi-von Arx, Viktor, Privater, Nieder-Gösgen.\n  — Eugen, Kaufmann, Nied.-Gösgen.\n224   Vogt-Siegrist, Samuel, Wirt, Schinznach [tel].\n  Von Fellenberg, Albert, Redaktor der Aarg. Nachrichten, Bern.\n  Suter, Jakob, Ausläufer, Gränichen.\n225 * Siebenmann, Rud., Part.\n  Müller-Waßmer, Jb., Bierhalle zum Hirschen, Safenwil [tel].\n  — Lina, Kellnerin, Safenwil.\n  Rey-Müller, Elise Wwe., Muri.\n  Meyer-Stähelin, Elisabeth, Privatin, Zürich.\n  Sulser-Meyer, Emilie,       Wartau.\n  — Margreth,       „\n  — Emmy,       „\n226 * Siebenmann, Rudolf, Part.\n  Brugger-Gränicher, Henriette, Tapisserie- und Broderiegeschäft.\n  Walder-Gamper, Bertha, Privatin, Hombrechtikon.\n  — Gustav, Schlosser, Hombrechtikon.\n227   Berner-Egli, Herm., Dr., Zahnarzt [tel].\n  — Aline.\n  Oehler-Wassmer, Alfred, Ingenieur, Aarau [tel].\n228 * Oboussier-Schäfer, Friedr. Kaufmanns Erbschaft.\n  Stierli-Brentano , Goar Leonz, Fürsprech und Notar. Advo-\n  katur- und Notariatsbureau.\n  Meyer, Edward Erwin, Verlagsbuchhandlung, Dintikon.\n  Schwendimann-Amsler, Wilh., Kav.-Instr., Pohleru (Bern).\n  Custer-Sauerländer, Mathilde, Privatin, Rheineck.\n232 * Oboussier-Schäfer, Friedr., Kaufmanns Erbschaft.\n  Weberei Oboussier A.-G. [tel]\n  Haller-Geiser, Ernst Dr., Fürsprech und Notar, Zofingen [tel].\n  Käslin, Hans, Professor Dr.\nHinter dem Platz.\n234   Wildi-Aeschbach, Emil, Schreinermeister, Suhr.\n236 † Von Däniken, E.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 48497,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1921,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:40:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p037",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p037.jpeg",
+      "bytes": 883100,
+      "sha256": "f07b4390ae26fb3d69bab8a4d8d2dcf7d5c59a8b8ae2668e840c408fb722b175",
+      "sha256_of": "original",
+      "working_copy": "1913_p037.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:40:47+00:00"
+  }
+}

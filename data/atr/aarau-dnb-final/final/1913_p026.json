@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p026",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p026.jpeg",
+    "bytes": 935818,
+    "sha256": "2f2c3b4b5a809f2785acfab0fe366ccc1f7324a7b3600628b420b9429c72a039",
+    "sha256_of": "original",
+    "working_copy": "1913_p026.jpeg"
+  },
+  "text": "— 12 —\n118 Wüthrich-Zulauf, Otto, Kaufmann, Eggiiwil. Spezereien-, Wein- 128\n  und Spirituosenhandlung [tel]. Öffentliche Sprechstation.\nHintz-Gysi, Ulrich, Konditoreigeschäft, Lahr.\nKeller, Emma, Ladentochter, Hottwil. 129\nWüthrich-Autenheimer, Anna, Privatin, Eggiiwil.\nScheuzger, Otto, Sekretär, Staffelbach. 130\nSurber-Hüppin, Rosalie, Privatin, Otelfingen.\nPavesio-Theez, Peter, Kostümlager, Forno (Ital.).\nSteiner-Dürr, Jakob, Postkondekteur, Ob.-Engstringen.\nHolliger-Rüetschi, Arnold, Schlosser, Boniswil.\nHolliger & Fisch, Wäscherei und Glätterei.\n119 Wülser-Schlecht, Samuel, Buchbinder, Bözen, Geschäftsbücher-\n  fabrik, Buchbinderei und Linieranstalt, Schreibmaterialien- 131\n  handlung [tel].\n120 Haßler-Wanger, Lina, Witwe, Spezereihandlung.\n  — Mathilde.\nHefti, Fridolin, Reisender, Ennenda (Glarus).\nSchondorff-Hopfengärtner, Rob., Installateur, Zürich. 132\n122 Hoch-Ernst, Gustav, Samenhändler, Zollikon. Samen- und\n  Spezereihandlung [tel].\n  — Gustav, Sohn.\nMüller, Rosalie, Privatin. 133\n123 * Salmenbräu Rheinfelden A.-G. Gasthof z. Ochsen.\nHerzog-Glinz, Karl Otto, Hotelier, Stein (Aargau) [tel]. 134\nBernhardsgrütter-Sommerhalder, Jakob, Schreiner, Rorschacher-\n  berg\nBernhardsgrütter, Joh., Sekretär, Rorschacherberg. 135\n  — Emma, Damenschneiderin, Rorschacherberg.\nBallmer-Egloff, Lina, Herrenpension, Lausen.\nBallmer, Lina, Bureaulistin, Lausen.\nBaumgartner, Adolf, Commis, Oensingen.\nRichter, Ernst, Buchhändler, Calw (Wttbg.). 136\n125 * Ryniker-Wirth, Karl, Bierbrauer. Brauerei und Wohngebäude.\nBörschig-Kyburg, Georg, Braumeister, Nordrach.\nKyburz-Wüthrich, Barb., Privatin Unt.-Kulm 137\n126 Fischer-Beck, Karl Ad., Kaufmann. Firma: A. & W. Fischer,\n  Cigarren, Cigaretten, Tabake gros, detail. Filiale Bahnhofstr.\n  — -Vonwiller, W., Witwe.\nGrässli-Grob, Anna, Broderie und Lingerie, Grabs (St. Gallen).\n  Filiale der Firma Zuberbühler & Co., Stickerei, Zurzach. 138\n  — — Andreas, Kaufmann, Grabs.\nMilchgasse.\n127 Urben, Johann, Milchhändler, Inkwil (Bern). Milch-, Käse- 139\n  und Butterhandlung.\nWirz-Staub, Marie, Haushälterin, Hagenschwil (St. Gallen).\nBertschi-Bircher, Julius, Privatier, Sumiswald (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 127372,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2145,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:34:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p026",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p026.jpeg",
+      "bytes": 935818,
+      "sha256": "2f2c3b4b5a809f2785acfab0fe366ccc1f7324a7b3600628b420b9429c72a039",
+      "sha256_of": "original",
+      "working_copy": "1913_p026.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:34:10+00:00"
+  }
+}

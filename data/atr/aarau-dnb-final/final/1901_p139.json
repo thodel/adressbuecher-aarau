@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p139",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p139.jpeg",
+    "bytes": 825081,
+    "sha256": "f3cab53110fce13405ae07cf7b0af63b51f2489b2840c82178c38a9120b7d3a2",
+    "sha256_of": "original",
+    "working_copy": "1901_p139.jpeg"
+  },
+  "text": "126\nSuter-Arber, Marie, Milchgasse 131.\n— Bertha, Fabrikarbeiterin, Kirchgasse 38.\n— Elise, Wäscherin, Kasinostraße 658.\n— Emma, Fabrikarbeiterin, Kirchgasse 38.\n— Jakob, Knecht, Kirchgasse 34a.\n— Jakob, Schreiner, Rain 446.\n— Jakob, Professor, Gönhardfeldweg 1450.\n— Johann, Part., Laurenzenthorgasse 126.\n— Joseph, Bezirksschullehrer, hinter dem Bahnhof 1032.\n— Jost, Konditor, Ziegelrain 395.\n— Julius, Sohn, Spengler, Ziegelrain 425.\n— Kohler, Elise, Placierungsbureau Rain 446.\n— Rosa, Damenschneiderin, Laurenzenthorgasse 126.\n— Rudolf, Spengler, Ziegelrain 425.\n— Rudolf, Uhrenmacher, Kasinostraße 660.\n— Rudolf, Posamenter, Zollrain 63.\nTanner, Erwin, Fürsprech, Wohnung Entfelderstraße 1402, Bureau\n  Laurenzenzenvorstadt 800.\n— Irmengard, Part., Laurenzenzenvorstadt 800.\nTaubstummenanstalt Aarau. Präsident: Aug. Guyer, Erlinsbacher-\n  straße 1306. [tel]\nThalmann-Bolliger, Heinrich, Buchhalter, Bachstraße 1110.\nTheez, Albert, Schuhmacher, Laurenzenthorgasse 118. Werkstatt\n  Holzmarkt 317.\n— Louise und Emma, Laurenzenthorgasse 118.\nTheiler geb. Rebmann, Elise, Witwe, Part., Laurenzenzenvorstadt 768.\nTelegraphen-Bureau, Metzgergusse 72.\nTelephon-Centralstation, Metzgergusse 72.\nTheodor, Amadeus, Zugführer, Bleichemattstraße 1018.\nThielke, Friedrich, Schneider, Rain 482.\nThiemann, Albert, Appreteur, Milchgasse 128.\nThom, Franz, Trompeterinstruktor der Infanterie, Zeughausstr. 663.\nThomen, Adolf, Posamenter, jenseits der Aare 1234.\nThut, Emil, Sohn, Ziegler, Graben 218.\n— Gottlieb, Weinhändler, Bachstraße 1076. [tel]\n— Gottlieb, Part., Schachen 1137.\n— Hermann, Ziegler, [tel] Rain 483.\n— Walter, Kaufmann, Bankstraße 1049.\nTöchterheim Aarau, Laurenzenzenvorstadt 746.\nTraine, Eugen, Major, Instruktor der Infanterie, Buchserstraße 917.\nTrefzger-Schöndli, Nepomukina, Dampfwascherei und Badanstalt,\n  Färbergäßchen 237.\nTreier-Hort, Rosina, Näherin, obere Vorstadt 551.\n— Johann, Schreiner, Halden 293a.\n— Johann, Bauamtsarbeiter, Milchgasse 133.\nTrösch geb. Schütz, Anna, Stadthof 82a.\nTrüeb, August, Lithographiebesitzer, Gönhardfeldweg 1440.\nTuchschmid, Aug., Dr. phil., Professor, jenseits der Aare 1230.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 48185,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2129,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:50:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p139",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p139.jpeg",
+      "bytes": 825081,
+      "sha256": "f3cab53110fce13405ae07cf7b0af63b51f2489b2840c82178c38a9120b7d3a2",
+      "sha256_of": "original",
+      "working_copy": "1901_p139.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:50:40+00:00"
+  }
+}

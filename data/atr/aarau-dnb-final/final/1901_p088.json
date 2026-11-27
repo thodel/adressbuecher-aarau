@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p088",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p088.jpeg",
+    "bytes": 775351,
+    "sha256": "49d0a4025489be4bac93e72265db12182a65903f774a053316dbfff7f4be816d",
+    "sha256_of": "original",
+    "working_copy": "1901_p088.jpeg"
+  },
+  "text": "77\nHaus-\nNr.\n1410 Siebenmann-Steiner, Jakob, Part.\n  Brunner-UMiker, Elisabeth, Part.\n  Bertschi, Jakob August, Sekretär, von Dürrenäsch.\n1411 Käppeli-Müller, Gottlieb, Dr. jur., Regierungsrat.\nKonradstrasse.\n1412 Hagnauer-Zimmermann, Albert, Lederfabrikant. [tel]\n1413 — -Wildberger, Barbara, Witwe, Part.\n  — Emma, Part.\n  — Nanette, Part.\n  — Mathilde, Part.\n  Frey-Kieser, Joseph, Notar, Civilstandsbeamter und Stellver-\n  treter des Gemeindeschreibers.\n1414 Rothpletz-Waldkirch, Malermeisters Erbschaft.\n  — Melanie, Part.\n  — Frieda,   \"\n  — Emil, Verwalter.\n  Waldmeier-Rothpletz, Bertha, Witwe, von Hellikon.\n1415 † Dieselbe.  Holzhaus.\n1416 †       „       Waschhaus.\n1417 * Siebenmann-Steiner, Gottlieb, Kaufmann.  Camionneur.\n  Schürch, Adolf, Fabrikant, von Büren, zum Hof (Bern).\n  Beutter-Friedrich, Karl, Direktor der Seifenfabrik in Olten,\n1418 † Derselbe.  Wasch- und Holzhaus.\n1419 Wehrli-Pejer, Rudolf, Geschäftsführer der Allg. Aarg. Er-\n  sparniskasse.\n1420 † Derselbe.  Gartenhaus.\nZschokkestrasse.\n1421 Zschokke-Sauerländer, Auguste, Buchhändlers Witwe. [tel]\n  — -Bertschinger, Ernst, Dr. phil., Professor.\n1422 Dieselbe.  Bienenhaus.\n1423 Wanger, Gustav, Kassier der Aarg. Ersparniskasse.\n  — Sophie, Part.\n  — Marie, Part.\n  von Salis-Kneubühler, Adolf, Stadt Ingenieur, von Soglio (Grau-\n  bünden).\n1424 Ehrsam-Andres, Emilie, Part.\n  Zschokke-Schmuziger, Arnold, Staatsschreiber.\n1425a † Dieselbe.  Holzhaus.\n1425b † Wanger, Gustav, Kassier.  Holzhaus und Waschküche.\n1426 Stiegeler-Schaub, Joseph, Zeughausdirektor, von Rekingen.\n  Hengherr-Hiltbrunner, August, Lehrer, von Affoltern bei\n  Hönng (Zürich).\n1427 Wydler-Fischer, Heinrich, Bezirksschullehrer, v. Affoltern a. A.\n  (Zürich).\n  Schmid-Baumann, Emil, Part.\n1428 † Derselbe.  Wasch- und Holzhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 72871,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1785,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:32:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p088",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p088.jpeg",
+      "bytes": 775351,
+      "sha256": "49d0a4025489be4bac93e72265db12182a65903f774a053316dbfff7f4be816d",
+      "sha256_of": "original",
+      "working_copy": "1901_p088.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:32:31+00:00"
+  }
+}

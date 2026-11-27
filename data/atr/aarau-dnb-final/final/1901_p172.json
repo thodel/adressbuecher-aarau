@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p172",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p172.jpeg",
+    "bytes": 772398,
+    "sha256": "ac1329fc70adb448bb996c912ef839d2a2439a287e1f14851c3a71647d54a7a7",
+    "sha256_of": "original",
+    "working_copy": "1901_p172.jpeg"
+  },
+  "text": "159\nErny-Faßler & Sohn,* Kronengasse 42. (Siehe Inserat Seite 25.)\nFehlmann-Blatner, Anna, Bahnhofstraße 634.\nFrei-Kieser, Johanna, Rathausgasse 10. (Siehe Inserat Seite 7.)\nHauri & Gränicher,* hintere Vorstadt 358.\nHemmeler & Cie.* (en gros), hintere Vorstadt 373.\n— -Stahl, J.* Rathausgasse 12.\nHeß, Gebr.,* Rathausgasse 5.\nHofer, Gottlieb,* Rathausgasse 25.\nLehmann-Oelhaven, J., vordere Vorstadt 352.\nMarti, Hulda Flora, Metzgergasse 65.\nMesserschmiede.\nSchäfer, Cäsar, vordere Vorstadt 337.\nMetallgiessereien.\nDrack, Hermann,* Gasstraße 1169.\nKünzlen & Cie.,* hinter dem Bahnhof 1013. (S. Inserat Seite 11.)\nRüetschi, Hermann,* Rain 457.\nOehler & Cie.,* Industriestraße 933. (S. Ins. vord. innere Deckelseite.)\nMetzgermeister.\nDubs, Karl,* Rathausgasse 23.\nFrei, Emil, Zolllrain 57.\nGamper, Adolf,* Metzgergasse 74.\nGreub, Ernst, Pelzgasse 107.\nHäfliger, Otto,* Pelzgasse 98.\nHemmeler, Alfred, vordere Vorstadt 328.\nHolzach, Fritz,* Ziegelrain 428.\nIndermauer, Jakob, Kosinstraße 641.\nMattenberger, Jakob,* Oberthor 245.\nOelhaven, Arnold, hintere Vorstadt 355.\nRothpletz, Rudolf, Milchgasse 138.\nSiegrist, Heinrich, Bahnhofstraße 555.\n— Jakob, Milchgasse 149.\nMilitärartikel.\nBrast, Geschwister,* Holzmarkt 318.\nFaller-Faller, Elise Louise,* Witwe, Kronengasse 50.\nGerber, Gustav,* Schneider, vordere Vorstadt 327. (S. Inserat S. 3.)\nHerzig, Friedrich, Schneider,* hintere Vorstadt 368.\nSiebenmann, Gebr.,* Oberthor 241.\nSperlich, Theodor, vordere Vorstadt 323.\nMilchverkäufer.\nBertschi, Emil, Gönnhardfeldweg 1445.\nBrack, Abraham, Bachstraße 1115.\nDubs, Geschw., Müller, Hammer 178.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 68097,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1588,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.95,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:05:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p172",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p172.jpeg",
+      "bytes": 772398,
+      "sha256": "ac1329fc70adb448bb996c912ef839d2a2439a287e1f14851c3a71647d54a7a7",
+      "sha256_of": "original",
+      "working_copy": "1901_p172.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:05:16+00:00"
+  }
+}

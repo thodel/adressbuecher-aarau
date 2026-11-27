@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p071",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p071.jpeg",
+    "bytes": 912887,
+    "sha256": "165d538b5e627191e3c0ac8c2e88823299f090688771f183b4241e107d1d8ea7",
+    "sha256_of": "original",
+    "working_copy": "1901_p071.jpeg"
+  },
+  "text": "60\nHaus-\nNr.\n1011 Dieselben. Schmiede.\n1012 \" Werkstatt.\n1013 \" Eisengießerei, [tel] Bureau und Magazin.\nBleichemattstrasse.\n1014 Rotter-Baumgartner, Joh., Schreinermeister, von Vermsdorf\n  (Oesterreich).\n  Bachmann-Kümin, Joseph, Schneider, von Wollerau (Schwyz).\n1015 Lüscher-Gremlinger, Daniel, Gießereibesitzer, von O.-Entfelden.\n1016 Fricker-Hilpold, Verena, Bahnmeisters Witwe, von Veltheim.\n  Kielholz, Gottlieb, Postbeamter (Adjunkt), von Mettau.\n  Burger-Kielholz, Karolina, Haushälterin, von Möriken.\n  Riniker, Fritz, Bahnangestellter, von Schinznach.\n  — Jakob, Postkondukteur, von Schinznach.\n  Strauss, Guntram Markus, Stationsgehülfe, von Winterthur.\n1017 * Freimaurer-Loge zur Bruder treue [tel].\n1018 * Kübler, J., Bahnhofinspektor. Wohnhaus.\n  Kuhn-Andermatt, Johann, Bahnmeister.\n  Theodor-Furter, Amadeus, Zugführer, von Pizy (Waadt).\n  Müller, Heinrich Gottl., Ingenieur, von Warschau (Rußland).\n1019 * Derselbe.\n  Madon-Laufner, Friedrich, Lokomotivführer, von Zürich.\n  Gossewisich-Maier, Friedrich, Kondukteur, von Schloßrued.\n  Senn, Friedrich, Stationsgehülfe, von Habsburg.\n1020 † Derselbe. Bienenhaus.\n1021 Spichiger-Thomen, Friedrich, Maler [tel], von Ursenbach (Bern).\n  Seiler-Grütter, Emil, Güterschaffner, von Ermatingen (Thrg.)\n  Grässli-Grob, Andreas, Commis, von Grabs (St. Gallen).\n  Rupp, Rudolf, Postcommis, von Seon.\n1022 † Derselbe. Malerwerkstatt.\n1023 Staub-Kübler, Jakob. Bahnbeamter, von Dübendorf (Zürich).\n  — Wehrli, Jakob, Wagenkontroleur, von Dübendorf (Zür.)\n  Forderer-Schwammberger, Alois, Zuschnieder, von Ziegebach\n  (Württemberg).\n  Frei, Gottfried, Stadtpolizist, von Klingnau.\n1024 † Derselbe. Remise und Magazin.\n1025 * Kummier & Cie. Wohnhaus.\n  Meyer-Zobrist, Jakob, Kaufmann, von Othmarsingen.\n  — Marie, Bureauangestellte, von Othmarsingen.\n  Zobrist-Schiesser, Jakob, Bahnmeister, von Rupperswyl.\n1026 † Dieselben. Fabrikgebäude und Anbau (Bureau) [tel].\n1027 * \" Wohnhaus, Scheune und Schopf.\n  Furter-Wildi, Reinhard, Knecht, von Stauten.\n1028 † Dieselben. Magazin.\n1029 Bolliger-Gloor, Rudolf, Bankangestellter, von Schmiedrued.\n  Meyer-Fäs, Jean, Postangestellter, von Dintiken.\n  Knechtli-Gasser, Gottfried, Buchhalter, von Muhen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 37025,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2199,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.84,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:26:39+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p071",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p071.jpeg",
+      "bytes": 912887,
+      "sha256": "165d538b5e627191e3c0ac8c2e88823299f090688771f183b4241e107d1d8ea7",
+      "sha256_of": "original",
+      "working_copy": "1901_p071.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:26:39+00:00"
+  }
+}

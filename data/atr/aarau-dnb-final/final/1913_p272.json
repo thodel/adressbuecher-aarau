@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p272",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p272.jpeg",
+    "bytes": 1013455,
+    "sha256": "e538123d7595bfb748d3f31de9b3a35b7ce98accc843a43ce960251440ceff5c",
+    "sha256_of": "original",
+    "working_copy": "1913_p272.jpeg"
+  },
+  "text": "— 238 —\nBurgherr-Dürr, Viktor, Restr. zur Grabenallee [tel]. Graben 215.\nDennler, Jakob, zur Bavaria [tel]. Buchserstraße 1517.\n*Dubs-Walther, Carl, z. Warteck [tel]. Rathausgasse 23.\n*Eggimann-Suter, Fritz, zum Bären [tel]. Bahnhofstraße 556.\n*Fortenbach-Sommerhalder, Ida. Entfelderstr. 1394.\nFrey-Zimmermann, Emil [tel]. Zollrain 51.\nGautschi, Anna. Hintere Bahnhofstraße 1005.\n*Gerber-Wüthrich, Emil, Bierhalle z. Affenkasten [tel]. Hintere Vor-\n  stadt 361 und Vordere Vorstadt 329.\n*Gugger-Heß, Samuel, zum National [tel]. Kasinostraße 662.\nHäfli-Bolliger, Otto [tel]. Ziegelrain 428.\n*Hässig-Groß, Fritz, zum Rathaus [tel]. Rathausgasse 28.\n— -Sieg, Julius, zum Bellevue [tel]. Schönenwerderstraße 1452.\nHediger-Mügeli, Heinrich [tel]. Rohrerstraße 879.\nHelm, Fanny, Oerlikon. Zollrain 53.\n*Hemmeler-Lanz, O., Witwe [tel]. Graben 218.\n*Holzach-Schmidt, Fritz, Café zur Bank [tel]. Bahnhofstraße 606.\nHubacher-Jakob, J., zum Freihof [tel]. Laurenzenvorstadt 745.\nHuber, Oskar, zum Lindenhof. Buchserstraße 920.\n*Hug, Samuel, zum Jägerstübli [tel]. Vordere Vorstadt 330.\nKempf-Schwander, Dominik [tel]. Pelzgasse 98.\n*Kühn-Hofmann, Bernh., Bahnhofsrestaurateur [tel].\n*Kunz-Gerhard, Adolf, Militärkantine [tel]. Zeughausstraße 673.\nKrämer-Barthel, Richard, „Zum Münchner Kindl“. Obertor 245.\nKröll-Brunner, Johann, zum Rütli. Rathausg. 16.\nMarkwalder-Elmer, Heinrich [tel]. Buchserstraße 986.\nMatter-Aeschlimann, Adolf, zum Landhaus [tel]. Bahnhofstraße 588.\n*Maurer-Peter, Emil, zum Kreuz [tel]. Küttigerstraße 1247.\nMosimann-Kleeb, Johann [tel]. Roggenhausen 1455.\n*Müller-Wasmer, Jb., zum Hirschen [tel]. Graben 225.\n— -Andersen, Walter, Färbermeister [tel]. Entfelderstraße 1381.\nMürset-Wyß, Gottlieb [tel]. Schachen 1134.\nNeesser-Suter, Emil, Depotarbeiter. Hintere Bahnhofstraße 1034.\nNünlist-Herzog, Robert, zur Halde [tel]. Halden 291.\nNußbaumer-Dobler, Edmund, zum Neuen Bund [tel]. Rain 432.\nPeloli-Castelnovo, Pietro. Kronengasse 49.\nRiner-Richner, Alb., Küchenchef, z. Kantine [tel]. Schachen 1126.\n*Rohr-Holliger, Hans [tel]. Holzmarkt 319.\nRuaro-Poglia, Francesco [tel]. Schachen 1133.\nSchar-Bergundthal, Walter, zum Vis-à-vis. Metzergasse 70.\nSchönmann-Obrist, Karl, zur Telli. Telli 857.\n*Simmen-Bill, Emil, Münchnerbierhalle [tel]. Rathausgasse 9.\nStalden-Messerli, Witwe. Pelzgasse 93.\n*Strübin-Frey, Louise [tel]. Metzgergasse 77.\nSuter-Marti, Emil. Schachen 1135.\nTamburini, Ernesto [tel]. Zollrain 63.\n*Ulrich-Egli, Pius, Küchenchef, z. Feldschlößchen [tel]. Graben 209.\n*Vidiella, Manuels Erbschaft, Spanische Weinhallo [tel]. Kirchgasse 33.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 44283,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2568,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 51.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:16:14+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p272",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p272.jpeg",
+      "bytes": 1013455,
+      "sha256": "e538123d7595bfb748d3f31de9b3a35b7ce98accc843a43ce960251440ceff5c",
+      "sha256_of": "original",
+      "working_copy": "1913_p272.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:16:14+00:00"
+  }
+}

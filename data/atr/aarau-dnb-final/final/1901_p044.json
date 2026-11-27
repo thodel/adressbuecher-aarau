@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p044",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p044.jpeg",
+    "bytes": 906293,
+    "sha256": "c4f4a5549388d92b4e4328b1e599c1172ed820b0944045f0ee219ead3c94094f",
+    "sha256_of": "original",
+    "working_copy": "1901_p044.jpeg"
+  },
+  "text": "Haus-\nNr.\n33\n427 Ries-Buhlrein, Emanuel, Part.\nWirz-Buhlrein, Adolf, Kommis, von Menziken. Glas-, Farbwaren-\n  und Droguenhandlung.\n428 Holzach-Schmidt, Fritz, Metzger und Wirt. Speisewirtschaft.\nSchmidt-Henz, Hans, Part.\nRain.\n429 Hagenbuch-Gross, Karl, Chirurg und Leichenbeschauer. Spiegel-\nglasversicherungs-Agentur.\n— -Müller, Emil, Coiffurgeschäft. Pat. ärztl. Gehilfe.\n430 Jörg-Künzli, Peter, Schuhmachermeister. Schuhhandlung.\n— Emma, Damenschneiderin.\nGertiser-Andres, Maria, Witwe, Part., von Mönchwylen.\n431 Birkhofer-Hagenbuch, Albertine, Damenschneiderin.\nZuber-Huber, Traugott, Sekretär.\nKaufmann-Müller, Rudolf, Taglöhner, von Gränichen.\n432 Keller-Schärer, Gottlieb, Wirt, von Wöschnau (Solothurn.)\nSpeisewirtschaft z. Neuen Bund.\nHuber-Stähli, Peter, Gießer, von Petersthal (Gr. Baden).\nSeilaz-Brunner, Abraham, Coiffeur, von Vuilly-le-Bas. (Freib.).\nHunziker-Märki, Karl, Lithograph.\n433 Wittmer-Frey, Julius, Lithographicanstalt und Druckerei, von\nErlinsbach (Solothurn).\nWanger-Siebenmann, Sophie, Witwe, Part.\nSaxer, Friedrich, Part.\nWaldmeier-Schauli, Johann, Güterexpedient von Hellikon.\n— — Luise, von Hellikon, Spezereihandlung.\n434a Fricker-Wirz, Friedrich, von Hunzenschwyl. Spezereihandlung.\n434b Etter-Hägi, Reinhard, Milchverkäufer, v. Langrickenbach (Thurg.)\nSauter, Theresia, Vorgängerin, von Balgheim.\nHägi-Lier, Barbara, Part., von Kappel (Zürich).\n435 Fricker-Wirz, Friedr., von Hunzenschwyl. Magazin.\n436 * Dressler-Hoffmann, Laurenz, Kaufmann, von Belfort. (Frankr.).\nCodoni-Dressler, Remigius, Kaufmann, von Cabbio (Tessin).\nMöbel- und Tuchwarenhandlung.\nWehrli, Andreas, Zimmermann, von Küttigen, Part.\n— Marie, Spetterin, von Küttigen.\n— Elisabeth, Vorgängerin, von Küttigen.\n437 † Nägelin-Gisiger, Arnold, Höteller, von Liedertswyl. Scheune\nzum Wildenmann.\n438 Richner-Siebenmann, Elise, Bandfabrikants Witwe.\nGonzenbach-Gonzenbach, Julie, Witwe, von St. Gallen.\nBolliger-Schädelin, Julie, Part., von Schloßrued.\n439 Lüscher-Hilfiker, Hans, Notar, Bezirksrichter, von Muhen. No-\ntariats- und Inkassogeschäft.\n440 Derselbe. Wohnhaus.\nStäubli-Lutz, Joh. Heinrich, Kassier der Güterexpedition, von\nHorgen (Zürich).\n3",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 15951,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2154,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:14:18+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p044",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p044.jpeg",
+      "bytes": 906293,
+      "sha256": "c4f4a5549388d92b4e4328b1e599c1172ed820b0944045f0ee219ead3c94094f",
+      "sha256_of": "original",
+      "working_copy": "1901_p044.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:14:18+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p271",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p271.jpeg",
+    "bytes": 903318,
+    "sha256": "9ddf3e3aa4f9ea6bcfaabbfef2b263849038b63bb0eb8bf7039b970625ffcaab",
+    "sha256_of": "original",
+    "working_copy": "1913_p271.jpeg"
+  },
+  "text": "— 237 —\n\nWeissnäherinnen.\nAmmann-Grenacher, Josefine, Witwe, Näherin. Ziegelrain 425.\nAmsler, Elise, Weißnäherin. Stritengäßchen 1533 b.\nBächli, Frieda, Weißnäherin. Bahnhofstraße 568.\nBachmann-Kümin, Anna, Wwe., Schneiderin. Schmiedgasse 379.\nBethge, Anna, Schneiderin. Obere Vorstadt 538.\nGertiser-Andres, Marie, Schneiderin. Obere Vorstadt 547.\nHolzreuter, Emma, Weißnäherin. Zollrain 61.\nKrähenbühl, Luise, Weißnäherin. Halden 279.\nLips-Peter, Maria, Näherin. Mülematt 1365.\nLüscher, Lisette, Weißnäherin. Schönenwerderstraße 466.\nMaurer-Angerer, Mathilde. Hintere Vorstadt 358.\nMüller-Hauri, Marie, Witwe, Weißnäherin. Kirchhof 160.\nNiggli, Elise, Weißnäherin. Rain 446.\nNopper-Stirnemann, Verena, Weißnäherin. Entfelderstraße 1404.\nSchaffner-Meier, Margaretha, Witwe, Näherin. Adelbändli 175.\nSchmid, Geschwister, Weißwarengeschäft. Bahnhofstraße 621.\nSchmocker, Frau, Weißnäherei. Zollrain 64.\nSpengler, Louise, Weißnäherin. Gönhardweg 1870.\nSteiner, Bertha, Weißnäherin. Bleichemattstraße 1021.\n— Marie, Weißnäherin. Entfelderstraße 1397.\nWidmer, Emma, Weißwarengeschäft, Broderie. Pelzgasse 104.\n\nWirtschaften.\nGasthöfe, Hotels und Kurhaus.\n*Gasthof zum Binsenhof: Ryniker, Karl, Bierbrauer [tel]. Binsen-\n  hof 1475.\n*Gasthof zur Kettenbrücke: Schilling, August [tel]. Zollrain 60.\n  \"     \" Krone: Widmer-Eichenberger, Hermann [tel]. Kronen-\n  gasse 48.\n*Gasthof zum Rößli: Siegrist, Hermann [tel]. Metzgergasse 73.\n  \"     \" Sternen: Sandmeier, Arnold [tel]. Obere Vorstadt 515.\n*Hotel Gerber: Gerber, Hans [tel]. Bahnhofstraße 575.\n*Hotel Löwen: Scherz, Karl [tel]. Vordere Vorstadt 338.\n*      \" Ochsen: Herzog-Glinz, Karl Otto [tel]. Laurenzentorgasse 123.\n*Hotel zum Wildenmann: Fleisch, Karl [tel]. Vordere Vorstadt 324.\nKurhaus: Brack, Heinrich, zum Alpenzeiger 1275 [tel].\n\nSpeisewirtschaften.\nAlkoholfreies Restaurant Banga. Bahnhofstraße 557.\nAlkoholfreies Restaurant Helvetia [tel]. Zeughausstraße 666.\n*Bärtschi-Minder, Jb., Restaurant z. Zunfstubè. Pelzgasse 105.\nBirchmeier-Felber, Alfred, zum Weinberg [tel]. Weinberg 1278.\nBrüllmann-Hilfiker, Fritz [tel]. Rain 444.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 39177,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2092,
+    "lines": 43,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 47.42,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:15:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p271",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p271.jpeg",
+      "bytes": 903318,
+      "sha256": "9ddf3e3aa4f9ea6bcfaabbfef2b263849038b63bb0eb8bf7039b970625ffcaab",
+      "sha256_of": "original",
+      "working_copy": "1913_p271.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:15:29+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p018",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p018.jpeg",
+    "bytes": 854455,
+    "sha256": "a7bd5657ea8f138407adc06742c4e0469e33cff57d4d8659f80b9199b2647ad2",
+    "sha256_of": "original",
+    "working_copy": "1901_p018.jpeg"
+  },
+  "text": "Haus-\nNr.\nMetzgergasse.\n7\n65 Hemmeler-Gebrardt, August, Kaufmann.\nMarti, Hulda Flora, von Lyß (Bern). Quincaillerie- u. Kinder-\nspielwarenhandlung.\nForter geb. Märk, Maria, von Marbach (St. Gallen).\nMärk, Karl, Part.\n66 * Siegrist-Fischer, Jakob, Metzger, von Meisterschwanden.\nLüscher, Jakob, Notar, von Muhen, Notariats-, Rechts- und\nInkassogeschäft (Bureau).\nEichenberger, Christian, Zeughausarbeiter, von Beinwyi.\n— Ida und Elise, Weißnäherinnen, von Beinwyi.\nSchäfe-Flach, Leo, Bierbrauer, von Balgheim (Württemberg).\nSchaub-Zubler, Joseph, Gipser, von Arlesheim (Baselland).\n67 Buser-Wildi, Emil, Bäckermeister. [tel]\n68 Hemmeler, Emil, Kaufmann, Mercerie-, Garn- und Ellenwaren-\nhandlung.\n69 † Derselbe. Magazine.\n70 Strübin-Frey, August, von Basel, Speisewirtschaft z. Vis-à vis. [tel]\nKoller-Kohler, Elisabeth, Spetterin, von Berikon.\n— Mina, Telephonistin, von Berikon.\n71 Rüetschi-Reinert, Karl, Coiffeur.\n72 * Gemeinde Aarau. Post-Filiale und Telegraphenbureau, Tele-\nphon-Centralstation, Feuerwehrmagazin.\n73 * Kühn-Hoffmann, Bernhard (Gasthof zum Rössli).\nBalinger-Lienhardt, Roman, Wirt, von Zurzach.\nLienhardt, Franz, Part., von Buchs.\n74 Gamper-Wildi, Adolf, Metzger. [tel]\nGamper-Hassler, Karolina, Bäckers Witwe.\n75 Gantner-Schär, Arnold, Sattler.\nFrei-Tanner, Maria, Schneiders Witwe, von Densbüren.\n— Bertha, Glätterin, von Densbüren.\nUrech-Flückiger, Jakob, Stadtpolizist, von Niederhallwyl.\nDill-Frei, Johann Jakob, Schuhmacher, von Basel.\nHofer-Brunner, Johann Jakob, Maler, von Niederwyl.\n76 * Riniker, Gebrüder, Karl und Arnold. Bureau.\nScheurmann, Emilie, Part.\nltte, Wilh. Heinrich, Schlosser, von Durlach (Großh. Baden).\nHofmann-Enderli, Elisabeth, Witwe, Haushälterin, v. Staufenberg.\n77 Riniker-Wirth, Karl, Bierbrauer. Speisewirtschaft. [tel]\n— -Gross, Marie, Bierbrauers Witwe, Part.\n78 Hefti-Hunziker, Joh. Peter, Schneidermeister, von Schwanden\n(Glarus). Tuch- und Kleiderhandlung.\nSommerhalder-Huggenberger, Gottlieb, Bäcker, von Schloßrued.\nWerner-Lienhardt, Anna Maria, Fabrikarbeiterin, von Buchberg\n(Schaffhausen).\nBertschi-Schwammberger, Adolf, Schneider, von Sumiswald.\n— — Marie, Damenschneiderin, von Sumiswald.\nFurrer-Notter, Erhard, Schneider, von Bolken (Solothurn).\nCroci-Brügger, Agostino, Maurer, von Balermo (Tessin).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18201,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2268,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.63,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:03:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p018",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p018.jpeg",
+      "bytes": 854455,
+      "sha256": "a7bd5657ea8f138407adc06742c4e0469e33cff57d4d8659f80b9199b2647ad2",
+      "sha256_of": "original",
+      "working_copy": "1901_p018.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:03:51+00:00"
+  }
+}

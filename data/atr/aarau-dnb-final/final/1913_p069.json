@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p069",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p069.jpeg",
+    "bytes": 998195,
+    "sha256": "09860e0e8e6044db0b8b534ab733a6c6e26e13cdfb266842e8850ac9cd1cad3e",
+    "sha256_of": "original",
+    "working_copy": "1913_p069.jpeg"
+  },
+  "text": "— 49 —\nHaus-\nNr.\n831b*Hoch, Gustav, Samenändler, Warenlager [tel].\n  Wynyntalbahnhof, A. G., Stationsgebäude [tel].\n578a*Trüb A. & Cie., Lithographieanstalt.\n578b Dieselben. Lithographie und Kunstanstalt [tel].\n  Leutwyler, Robert, Gérant, Lupfig. Kleiderhalle.\n  Bracher & Widmer, Architekturbeureau [tel].\n  Wehrli, Jakob, Notar. Notariats- und Inkassogeschäft [tel].\n  Wohnung: Buchserstraße 939.\n  Dr. Klingler & Geyer, Patentanwälte und Technisches Beureau [tel].\n  Bissard, J. J., Ingenieur, Beureau [tel].\n  Schneider, Karl, Architekt, Architekturbeureau [tel].\n  Hellenbroich-Kempf, Wilhelm, Ingenieur, Dulken (Preußen).\n  Baumeister-Poyet, Hugo, Bankbeamter, Zürich.\n  Geier, Oskar, Ingenieur, Ramsen (Schaffh.) [tel].\n  Bischof-Besserer, Gustav, Ingenieur, Stuttgart [tel].\n  Iseli-Mumenthaler, Fritz, Zentralheizungsfabrikant, Lützelflüh [tel].\n  Beureau und Werkstatt Buchserstraße 924.\n  Fritz, Max, Architekt, Basel.\n  Allemann-Helbling, Herm., Redaktor der Neuen Aarg. Zeitung,\n  Welschenrohr.\n  Schneider-Basler, Karl, Architekt, Thalheim [tel].\n  Mülli-Rohner, Joh., Fortbildungslehrer, Würenlingen.\n  Graf-Surber, Albert, Abwart, Rohr.\n579 * Lagerhäuser der Zentral Schweiz A.-G., Aarau.\n  Meyer-Märki, Josef, Lagerhausdirektor, Buchs.\n580 * Dieselben.\n  Bernhard-Buser, Joh., Vorarbeiter, Walkringen.\n581 * Dieselben. Beureau, Camionage, Speditionsgeschäft und Möbel-\n  transport [tel].\n584  Brack-Müllhaupt, Jakob, Privatier.\n  — Elise, Privatinn.\n  — Hedwig,\n  — -Boß, Alfred, Kaufmann.\n  — & Eich, Oele und Fettwaren, Kohlen en gros, mi gros [tel].\n586 * Aktienbrauerei Feldschlößchen Rheinfelden, Bierdepot.\n  Pfisterer-Rohr, Rob., Bierdepotherhalter [tel].\n  — Robert, cand. jur.\n  Wüest-Werder, Hans, Bierführer, Lupfig.\n587 * Matter-Aeschlimann, Adolf, Wirt.\n  Schwarz-Müller, Joh., Pferdewärter, Kröppen (Deutschland).\n  — Niklaus, Buchbinder,\n  — Eugen, Monteur,\n  — Rosalie, Haushälterin,\n  — Emil, Färber,\n  Berchem-Kißling, Nicolas, Schreiner, Senningen (Lux.).\n  Kläusler-Bader, Josef, Posamentenmeister, Herzach.\n588  Matter-Aeschlimann, Adolf, Wirt, Restaurant z. Landhaus [tel].\n  — Marie.\n4",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21091,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2126,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.44,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:52:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p069",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p069.jpeg",
+      "bytes": 998195,
+      "sha256": "09860e0e8e6044db0b8b534ab733a6c6e26e13cdfb266842e8850ac9cd1cad3e",
+      "sha256_of": "original",
+      "working_copy": "1913_p069.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:52:10+00:00"
+  }
+}

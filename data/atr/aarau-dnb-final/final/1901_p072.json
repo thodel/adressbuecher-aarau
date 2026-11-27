@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p072",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p072.jpeg",
+    "bytes": 820779,
+    "sha256": "65ecd681e3ce2d6393cfa1657aa09f333bb46f823869603645519ac4b8a4da5f",
+    "sha256_of": "original",
+    "working_copy": "1901_p072.jpeg"
+  },
+  "text": "61\nHaus-\nNr.\nHinter dem Bahnhof.\n1030 * Rödelberger-Popp, Franz, Musikdirektor, v. Würzburg (Baiern).\n  Künzlen-Kranich, Friedrich, Gießeireibesitzer.\n1031 * Schäfer-Troller, Adolf, Architect, Südbahnbureau.\n1032 Suter-Detmer, Joseph, Bezirksschullehrer, von Lengnau.\n1033 Basler-Furter, Peter, Kantonsgeometer, von Zeihen.\n1034 Doswald-Schenker, Jos. Eduard, von Neuheim (Zug). Speise-\n  wirtschaft.  Restaurant z. Bahnhof.\n  Edel-Matino, Leonida, Kunstmaler, von Parma (Italien).\n1035 * Schmuziger-Koller, Daniel, Baumeister.\n  Kieser-Dambach, Robert, Bankbeamter.\n1036 † Derselbe.  Remise und Magazin.\n1037 † \"  Gartenhaus.\n1038 † \"  Werkstatt.\n1039 † \"  Werkstatt.\n1040 † \"  Holzschopf.\n  Müller, Sigmund, Baumeister.  (Bauplatz).\n1041 Gerodetti-Habermacher, Virgilius. [tel] Marmorsteingeschäft.\n1042 † Derselbe.  Werkstattgebäude.\n1043 † Derselbe.\n1044 * Lüscher-Umiker, Hermann, Mechaniker.  Erbschaft.\n  Bühler-Giedemann, Anna, Witwe, Part.\n1045 * Dieselbe.  Wohnhaus.\n  Lüscher-Umiker, Marie, Witwe, Part.\n  Bräm-Huber, Anna, Witwe, Part., von Bülach (Zürich).\nBankstrasse.\n1046 Kauf, Heinrich, gew. Lokomotivf., von Wellhausen (Thurgau).\n1047 Siebenmann-Siebenmann, Marie, Witwe, Part.\n1048 † Dieselbe.  Holzschopf.\n1049 Kunz, Johann Jakob, von Wald (Zürich), Part.\n  Walder-Kunz, Elise, Witwe, Part., von Benken (Schaffhausen).\n  Thut-Schiesser, Walter, Kaufmann, von Ober-Entfelden.\n  Wissmer, Heinrich, Chef der Güterexpedition, von Uetikon.\n1050 Derselbe.  Wasch- und Holzhaus.\n1051 * Lüscher-Umiker, Hermann, Mechaniker.  Erbschaft.\n  Spitzli-Fricker, Johann, Kaufmann, von Oberutzwy1 (St. Gall.)\n1052 Dieselbe.  Waschhaus.\nBachstrasse.\n1053 † Einwohnergemeinde.  Remise (Spritzenhaus Nr. 6. 7).\n1054 † Gysi & Cie.  Fabrikgebäude und Anbau [tel].\n1055 † Weber-Hegnauer, Hermann, Magazin.\n1056 * Rychner & Rothpletz.  Wohnhaus.\n  Hässig-Finsterwald, Emil, Tapezierer.\n1057 † Dieselben.  Werkstattgebäude.\n  Firma Itte & Lüscher, Kochherdfabrikation (Werkstätte).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 45346,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1976,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:27:41+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p072",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p072.jpeg",
+      "bytes": 820779,
+      "sha256": "65ecd681e3ce2d6393cfa1657aa09f333bb46f823869603645519ac4b8a4da5f",
+      "sha256_of": "original",
+      "working_copy": "1901_p072.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:27:41+00:00"
+  }
+}

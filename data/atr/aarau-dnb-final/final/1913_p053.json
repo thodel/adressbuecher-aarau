@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p053",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p053.jpeg",
+    "bytes": 967035,
+    "sha256": "93bfcd31dbd39dabb228990eebd60fd6dc593beb669a920aba859c28a57da78d",
+    "sha256_of": "original",
+    "working_copy": "1913_p053.jpeg"
+  },
+  "text": "Haus-                                    — 35 —\nNr.\n    Stöger, Anna, Bureaulistin, Alt Transberg (Bayern).\n    Stephani-Heckmann, Wilhelmine, Witwe, Privatin.\n      — Marie.\n      — Emma, Lehrerin.\n417    Hangartner-Götz, Kaspar, Camionneur [tel].\n      Fuhrhalterei und Möbeltransportgeschäft.\n      — Josefine.\n    Teufel, Wilhelm, Knecht, Bonndorf.\n    Hunziker, Gotth., Knecht, Moosleerau.\n418 * Häfliger-Bolliger, Otto, Sohn, Metzger und Wirt.\n    Kunz-Vögeli, Ferdinand, Kaminfeger, Baldingen.\n    Brändli-Hug, Jakob, Fabrikarbeiter, Unter-Bözberg.\n      — Jakob, Kommiss, Unter-Bözberg.\n      — Ernst,\n    „\n      — Berta, Fabrikarbeiterin, „ Unter-Bözberg.\n419    Huber-Bircher, Hch., Vorsteher des kant. Arbeitsamtes.\n      — Martha, Ladentochter.\n      — Olga, Kinderlehrerin.\n    Kaufmann-Badertscher, Herm., Stadtpolizist. Wauwil (Luzern).\n420    Wernli-Häfeli, Gottfried, Tapezierermeister, Thalheim.\n421 * Huber-Bircher, Hch.\n    Schaub-Zuber, Josef, Gipser, Ettingen.\n    Andermatt-von Däniken, Albert, Malermeister, Baar.\n    Schärli-Widmer, Hans, Elektromonteur, Biberstein.\n422a    Siebenmann, Bertha, Ladentochter.\n    Dätwyler-Meier, Anna, Witwe, Wäscherin, Wittwil.\n422b* Andres, Samuel, Privater.\n    Urban-Wehrli, Ernst, Schreiner, Liegnitz (Preußen).\n    Wehrli, Heinrich, Privater, Densbüren.\n    Wandfluh-Sommer, Joh., Schuhmachermeister, Frutigen.\n424    Hässig-Bühler, Friedrich, Privater.\n    Wernli-Adel, Karoline, Witwe, Privatin, Thalheim.\n    Fäs-Otter, Anna, Witwe, Fadenwinderin, Unter-Kulm.\n    Hunziker, Emanuel, Packer, Ober-Kulm.\n    Seiffert-Husser, Hch., Schneider, Falkenstein (Sachsen).\n425    Suter-Keller, Julius, Spenglermeister, Nieder-Hallwil.\n    Wintsch-Näf, August, Platzmeister, Dietlikon.\n    Baumann-Wälti, Maria, Witwe, Privatin, Bottenwil.\n    Ludwig-Oes, Oskar, Schneider, Horschdorf.\n    Ammann-Grenacher, Josefine, Witwe, Näherin, Roggwil.\n426    Hunziker, Erwin, Schlosser, Ober-Kulm.\n    Hängy-Heidegger, Hermann, Bäckermeister, Kölliken.\n      — Ad. Herm., Kommiss, Kölliken.\n427    Ries-Buhrein, Emanuel, Privater.\n    A. Wirz-Ries & Cie. [tel]  Fensterglas-, Farbwaren-, Chemi-\n      kalien- u. Drogenhandlung.\n    Bureau u. Magazin: Schönenwerderstraße 465.\n    Wirz-Ries, Adolf, Kaufmann, Menziken.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 49364,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2265,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:47:20+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p053",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p053.jpeg",
+      "bytes": 967035,
+      "sha256": "93bfcd31dbd39dabb228990eebd60fd6dc593beb669a920aba859c28a57da78d",
+      "sha256_of": "original",
+      "working_copy": "1913_p053.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:47:20+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p089",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p089.jpeg",
+    "bytes": 897962,
+    "sha256": "246d1d1d72fba79f9117129f6502182360b313168b3d79e0e9f09bed38cbd5e5",
+    "sha256_of": "original",
+    "working_copy": "1913_p089.jpeg"
+  },
+  "text": "— 67 —\nHaus-\nNr.\n1609   Schärer-Fankhauser, Gottl., Buchhalter, Biberstein.\n        Markwalder-Raschle, Albert, Kaufmann, Würenlos.\n941    Mauch-Zimmerli, Rudolf, Bankangestellter, Teufenthal.\n        Kläusler-Bader, Josef, Posamentermeister, Herznach.\n950    Fisch-Thut, Adolf, Privatier.\n        — Charlotte.\n942 *  Aeschbach, Friedrich, Maschinenfabrik und Eisengießerei,\n        Bureau [tel].\n        Marti-Aeschbach, Elise, Haushälterin, Etziken (Solothurn).\n        — Julie, Bureauangestellte,\n        Aeschbach, Sophie, Bureauangestellte, Reinach.   \"   \"\n948 *  Aeschbach, Friedrich, Fabrikant.\n        Steiner-Fischer, Wilhelm, Knecht, Boniswil.\n943    Miescher-Zimmerli, Walter, Bahnbeamter W. T. B., Walkringen.\n        Frey-Roth, Paul, Werkstätte-Vorarbeiter W. T. B., Glattfelden.\n945    Krähenbühl-Hoffmann, August, Lok.-Fahrer S. B. B., Altis-\n        hofen (Luzern).\n        Sommerhalder-Aeschbach, Gotthold, Kondukteur W. T. B.,\n        Burg.\n947    Müller-Schatzmann, Samuel, Postfaktuer.\n        — -Gygax, Jakob, Sekretär.\n\nIndustriestrasse.\n1508 * Sprecher & Schuh A.-G., Fabrikation elektrischer Apparate,\n        Bureau [tel].\n        Setz-Lüscher, Melchior, Commis, Dintikon.\n928 *  Gubler, Zimmerli & Cie., Bureaumöbelfabrik, mechan. Glaserie\n        und Schreinerei [tel].\n929 *  Oehler & Cie.\n        Schmid-Wasser, Johann, Portier, Hendschiken.\n        Wyß-Schwaller, Beda, Gießer, Kappel.\n932 *  Oehler & Cie., Maschinenfabrik, Eisengießerei und elektr.\n        Stahlgießerei [tel].\n937 *  Ziegel- und Backsteinfabrik A.-G. vorm. J. Ernst [tel].\n938 *  Dieselben.\n        Burkhart-Eisenring, Eduard, Werkführer, Emmishofen.\n1640 * Oehler & Cie.\n1641   Saurer-Salm, Gottfried, Kondukteur S. B. B., Sigriswil (Bern).\n        Ledermann-Sterchi, Siegfried,   \"   \"   \"   Madiswil.\n        Steinmann, Robert,                \"   \"   \"   Walterswil.\n1638   Suter-Wernli, Hermann, Rangiermeister S. B. B., Gränichen.\n        Höсле-Kull, Walter, Zeichner, Brugg.\n1820   Vogel-Genzler, Jak., Lok.-Heizer S. B. B., Kölliken.\n        Ochsner-Bräuner, Jakob, Lok.-Fahrer S. B. B., Wagenhausen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 51530,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2108,
+    "lines": 46,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0217,
+    "mean_line_chars": 40.65,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:59:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p089",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p089.jpeg",
+      "bytes": 897962,
+      "sha256": "246d1d1d72fba79f9117129f6502182360b313168b3d79e0e9f09bed38cbd5e5",
+      "sha256_of": "original",
+      "working_copy": "1913_p089.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:59:40+00:00"
+  }
+}

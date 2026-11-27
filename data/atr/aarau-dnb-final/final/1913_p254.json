@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p254",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p254.jpeg",
+    "bytes": 840468,
+    "sha256": "eb42dc2313e87053bc7c70fcfc7aba03a027edb0a1672aa234f906c4884ef6e0",
+    "sha256_of": "original",
+    "working_copy": "1913_p254.jpeg"
+  },
+  "text": "— 220 —\nGysi-Fehlmann, Emil.  Obere Vorstadt 523.\n— -Anderegg, Emil.  Obere Vorstadt 542.\nHäslin-Rümmele, Emil.  Mühlematt 1363.\nHäusler-Zähner, Emil.  Flößerstraße 1194.\nHaßler-Lanz, Gustav.  Ziegelrain 416.\nKnaus, Georg.  Schachen 1136.\nKnaus-Schmuziger, Herm.  Ziegelrain 406.\nSchmuziger-Großenbacher, Herm.  Rain 441.\nSpichiger-Thomer, Friedrich [tel].  Bleichemattstraße 1022.\nVogt-Weber, Gottlieb.  Hammer 188.\nManufakturwarengeschäfte.\n*Dreifuß, Emil.  Graben 207.\n*Gamper & Cie. [tel]  Rathausgasse 31.\n*Gysi-von Arx & Cie. [tel]  Graben 223.\n*Heß, Gebr [tel].  Rathausgasse 5.\n*Schmid-Fischer, Heinrich.  Laurenzentorgasse 114.\n*Wylert, Raphael.  Vordere Vorstadt 350.\nMarmorsteingeschäft.\n*Gerodetti, Gebrüder [tel].  Hinter dem Bahnhof 1041.\nMaschinenfabriken.\n*Aeschbach-Urech, Friedrich, Bureau [tel].  Torfeldstraße 942.\n*Küenzlen & Cie.  Hintere Bahnhofstraße 1010.\n*Oehler & Cie. [tel]  Industriestraße 932.\nMaschinestrickerinnen.\nBöhm-Hoffmann, Maria.  Zollrain 54.\nWernli-Wehrli, Marie.  Zollrain 62.\nMathematische Instrumente.\n*Gysi & Cie. [tel]  Vordere Vorstadt 345.\n*Kern & Cie. [tel]  Ziegelrain 400.\nMaurermeister.\nCantu-Hübscher, Jos.  Pelzgasse 100.\nCroci-Brugger, Agosini.  Obere Vorstadt 546.\nMechaniker.\nAeschbach, Otto, Eichmeister.  Buchserstraße 1678.\nFäs-Lüthi, Gottlieb.  Obere Vorstadt 527.\nFeilner-Bürgi, Johann.  Vordere Vorstadt 341.\nKlingelfuß-Sommerhalder, Emil.  Frilinsbacherstraße 1318.\nKeller-Widmer, Emil.  Tellrain 1554.\nLäuchli-Bircher, Friedrich.  Hammer 181.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 67383,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1507,
+    "lines": 40,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.7,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:11:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p254",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p254.jpeg",
+      "bytes": 840468,
+      "sha256": "eb42dc2313e87053bc7c70fcfc7aba03a027edb0a1672aa234f906c4884ef6e0",
+      "sha256_of": "original",
+      "working_copy": "1913_p254.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:11:13+00:00"
+  }
+}

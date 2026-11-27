@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p205",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p205.jpeg",
+    "bytes": 607884,
+    "sha256": "bc7b9745a5d3af294f0e68e74cadfb9639ce942ada3b908e83c1b83a41d7ecb0",
+    "sha256_of": "original",
+    "working_copy": "1901_p205.jpeg"
+  },
+  "text": "192\nTurnvereine.\nBürgerturnverein.\nTurnverein alte Sektion.\nKantonsschüler-Turnverein.\nGrütli-Turnverein.\nTurngesellschaft für Damen.\nVaria.\nVelo-Klub.\nDonnerstags-Kegelgesellschaft.\nSchach-Klub.\nFritzen-Verein.\nJakoben-Verein.\nAltersgenossen-Verein.\nDreizehner-Klub.\nWochen-, Jahr- und Viehmärkte.\nIn der Stadt Aarau werden abgehalten:\na. Die Wochenmärkte an den Samstagen.\nb. Die Jahr- und Viehmärkte je den dritten Mittwoch\n  des Monats in den Monaten Februar, April, Mai,\n  Juli, August, Oktober, November, Dezember.\nc. Die Viehmärkte je den dritten Mittwoch des Monats\n  in den Monaten Januar, März, Juni und September.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 8321,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 624,
+    "lines": 23,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 25.91,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0032,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:16:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p205",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p205.jpeg",
+      "bytes": 607884,
+      "sha256": "bc7b9745a5d3af294f0e68e74cadfb9639ce942ada3b908e83c1b83a41d7ecb0",
+      "sha256_of": "original",
+      "working_copy": "1901_p205.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:16:29+00:00"
+  }
+}

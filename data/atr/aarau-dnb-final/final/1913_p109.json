@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p109",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p109.jpeg",
+    "bytes": 924731,
+    "sha256": "1b7cf7678a84ef0512581a04d1ecd7260cbcb814a3e5fbb9028cfa63804337db",
+    "sha256_of": "original",
+    "working_copy": "1913_p109.jpeg"
+  },
+  "text": "— 85 —\nHaus-\nNr.\nLehmann-Duffner, Gustav, Lithograph, Leipzig.\nStocker-Feyer, Peter, Werkmeister, Obermumpf.\n1137 Knaus-Haller, Georg, Malermeister, Ober-Iflingen (Wrthg.).\nLeu-Zimmermann, Barbara, Witwe, Birrenlauf.\n— Ernst, Kommis, Birrenlauf.\n— Luise, Bureauistin, Birrenlauf.\nMüller-Haller, Anna, Witwe, Hirschthal.\n1138 Fricker-Kienberger, Johann, Kreispostkontrolleur.\nGrolimund-Gröli, Sigmund, Verlagsangestellter, Beinwil (Sol.).\nMerz, Flora, Postbeamtin, Menziken.\n— Ulrich, Gärtner,\n1139 Rychner-Fischer, Jakob, Landwirt, Gränichen.\nGeiger-Ernst, Emilie, Witwe, Flirsch (Tirol).\nBugno, Ferdinando, Bodenleger, Possagno (Italien).\nSerafin-Campaner, Giuseppe, Handlanger, Possagno (Ital.).\nRodel-Lüscher, Friedrich, Schlosser, Staufon.\n1140 * Rychner-Fischer, Jakob, Landwirt, Gränichen.\nDunkel, Arnold, Feilenhauerei.\n1614 Götzi-Müri, Friedrich, Fabrikaufseher.\nMey-Weber, Charles, Elektrotechniker, Evilard (Neuenburg).\nHumbel-Angliker, Friedrich, Obergerichtsweibel, Boniswil.\n1620 Neeser-Schneider, Werner, Stadtpolizist, Schloßrued.\nSalvisberg-Wyßenberg, Friedrich, Monteui der Telegraihen-\n  verwaltung,mühleberg.\nRoos-Hunziker, Xaver, Postbureaudienet, Romoos (Luzern).\n— Frida, Bureauistin, Romoos (Luzern)\n1852 Vaccani-Philipp, Domenico, Maurerpolier, Nesso (Italien).\nCavalli-Michellini, Christoforo, Zementarbeiter, Saludecio (Ital.).\n1906 Bircher-Diggelmann, Hermann, Briefträger, Küttigen.\nFriedrich, Gustav, Einleger, Zofingen.\nAsylstrasse.\n1141 Zimmermann-Byland, Jakob, Speisewirtschaft, Oberflachs.\nErisman-Niggli, Elise, Wwe., Damenschneiderin, Brugg.\n1698 * Zimmermann-Byland, Jakob, Wirt.\nBertschi-Merz, Gottlieb, Kondukteur S. B. B., Dürrenäsch.\nHäfliger-Müller, Josefa, Privatin, Reiden.\nLang, Maria, Bureauangestellte, Ermensee.\nReimann, Friedr. Wilhelm, Bankangestellter, Oeschen.\nStreit-Hegnauer, Mina, Wwe., Zimmerwald (Bern).\n— Mina, Postbeamtin, Zimmerwald (Bern).\n— Hans, Zimmerwald (Bern).\n1144 Dreier-Walter, Gottlieb, Huf- und Wagenschmiede, Landwivt-\n  schaftliche Gerüte, Trub.\nWachter, Josef, Schmied, Mels.\nSteiner-Baumann, Hermann, Knecht, Rein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 53167,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2090,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.48,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:06:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p109",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p109.jpeg",
+      "bytes": 924731,
+      "sha256": "1b7cf7678a84ef0512581a04d1ecd7260cbcb814a3e5fbb9028cfa63804337db",
+      "sha256_of": "original",
+      "working_copy": "1913_p109.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:06:05+00:00"
+  }
+}

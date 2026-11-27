@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p240",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p240.jpeg",
+    "bytes": 814532,
+    "sha256": "a31aa9b821fdade7eb41180ffb329ffb54e43297366abe04155ef5137baa0183",
+    "sha256_of": "original",
+    "working_copy": "1913_p240.jpeg"
+  },
+  "text": "— 206 —\nHagenbuch-Müller, Emil. Rain 429.\nHauri-Blanc, Hans. Pelzgasse 97.\nIndermauer-Suter, Hans [tel]. Kasinostraße 658.\nMarfurt-Hofer, Franz Xaver. Bahnhofstraße 559 b.\nMerz-Rodel, Jean. Bahnhofstraße 621.\n  — von Arx, Christian Rathausgasse 29.\nPfautz-Hopp, Gustav. Hintere Vorstadt 378.\nPfeil-Heller, Richard [tel]. Bahnhofstraße 575.\nRuetschi-Reinert, Karl. Metzgergasse 71.\nSchibler-Fehlmann, Fritz. Kronengasse 43.\nSchmid-Wärtli, Franz. Obertor 240\nTheiler, Albert. Zeughausstraße 663.\nCoiffeusen.\nBurkhardt, Lina. Rain 492.\nGraf, Eugen, Damensalon [tel]. Graben 208.\nHagenbuch-Müller, Pauline. Rain 429.\nHauri, Alice. Pelzgasse 97\nJörg, Frida. Rain 430.\nPfeil, Richard, Damensalon [tel]. Bahnhofstraße 575.\nRuetschi, Katharina. Metzgergasse 71.\nSchmid, Hedwig. Adelbändli 172.\nWerfeli, Martha. Buchserstraße 921.\nComestibles und Delikatessehandlungen.\n*Gloor-Graf, Arnold, Kaufmann. [tel] Kronengasse 47.\n*Jäcker-Haller, Josef [tel]. Laurenzentorgasse 115 und 116.\n*Schmid-Maurer, Mathilde, Witwe [tel]. Rathausgasse 20.\n  Taddei, Antonio. Adelbändli 170.\n  Telo, Septimo. Rain 447.\nDachdecker.\nBolliger-Marti, Otto. [tel] Herzogstraße 1897.\nFehlmann-Müller, Paul. Schönenwerderstraße 464.\nHaller-Lerch, Albert. Halden 278.\nWägeler-Vogel, Karl [tel]. Gasstraße 1172.\nDamenschneiderinnen.\nBeck, Luise. Halden 289.\nBernhardsgrütter, Emma. Laurenzentorgasse 123.\nBertschi, Marie. Metzgergasse 78.\nBiri, Maria. Rathausgasse 27.\nBolliger, Lina. Mühlematt 1365.\nEngesser, Rosa. Graben 208.\nErismann-Niggli, Elise, Witwe. Asylstraße 1141.\nFischer, Louise. Adelbändli 175.\nGamp, Emilie. Tellrain 1498.\nGloor, Bertha. Hintere Vorstadt 364.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 31541,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1639,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.31,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:06:21+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p240",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p240.jpeg",
+      "bytes": 814532,
+      "sha256": "a31aa9b821fdade7eb41180ffb329ffb54e43297366abe04155ef5137baa0183",
+      "sha256_of": "original",
+      "working_copy": "1913_p240.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:06:21+00:00"
+  }
+}

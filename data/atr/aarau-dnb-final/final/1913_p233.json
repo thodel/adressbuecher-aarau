@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p233",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p233.jpeg",
+    "bytes": 909828,
+    "sha256": "62d5beb8b41263ddef0bc0b3f91be503789b2dbc14a9d0fce3c2e49d70745c5a",
+    "sha256_of": "original",
+    "working_copy": "1913_p233.jpeg"
+  },
+  "text": "Die\nGeschäfts- und Gewerbetreibenden\nin alphabetischer Folge der Berufsklassen.\n* = Im Handelsregister eingetragen.\n\nÄrzte.\nBircher-Oehler, Eugen, Dr. med., Sekundär-Arzt der kant. Kranken-\n  anstalt, Herzogstraße 992. [tel] Sprechstunden: Täglich 1 – 3 Uhr\n  in der kantonalen Krankenanstalt.\nBircher-Schatzmann, Heinrich, Dr. med., administrativer Direktor\n  und Oberarzt der chirurg. Abtheilung, Buchserstraße 956. [tel]\n  Sprechstunden 10—12 Uhr. Sonntags ausgenommen.\nDeck, Hans. Dr. med., Spezialarzt für Ohren-, Nasen- und Hals-\n  krankheiten [tel]. Herzogstraße 991. Sprechstunden vormittags\n  9—11, nachmittags 1—2 Uhr. Sonntags keine.\nFrey-Hagnauer, Konrad, Dr. med., Arzt [tel]. Oberarzt an der kanto-\n  nalen Krankenanstalt. Laurenzenvorstadt 706. Sprechstunden\n  an Wochentagen 11/2 – 3 Uhr, Mittwoch nur 11—12 Uhr.\nGuignard-Mathers, Albert, Dr. med., Arzt [tel]. Feerstraße 686.\n  Sprechstunden vorm. 9 – 10, nachm. 11/2—3, Sonntags 101/4 bis\n  111/2 Uhr.\nKalt-Läubli, Alfred, Dr. med., Arzt [tel]. Rohrerstr. 1663. Sprech-\n  stunden vormittags 10 – 12 Uhr.\nLindt-Amsler, Rolf, Dr. med., Arzt [tel]. Bankstraße 1562. Sprech-\n  stunden vorm. 8  9, nachm. 1—2 Uhr, Sonntag vormittags.\nMeuly-Hilty, J. Lorenz, Dr. med., Arzt [tel] Laurenzenvorstadt 788.\n  Sprechstunden vorm. 71/2—10, nachmitt. 2—4 Uhr, Sonntags\n  nur in Notfällen.\nSchenker-Siebenmann, Gottlieb, Dr. med., Arzt [tel] Rohrerstr. 910.\n  Sprechstunden vormittags 8 – 9, nachmittags 11/2  3 Uhr.\nSchmuziger, Friedrich, Dr. med., Arzt [tel]. Entfelderstraße 1409.\n  Sprechstunden vormittags 8 – 9 nachmittags 1—2 Uhr.\nVogt-Bossart, Alfred, Dr. med., Aug'narzt [tel]. Buchserstraße 917.\n  Sprechstunden vormittags 9—10, nachmittags 1—3 Uhr.\nWeber-Beck, Gustav, Dr. med., Bezirksarzt [tel]. Schloßplatz 203.\n  Sprechstd. vorm. 8  9, nachm. 1—2 Uhr, Sonntags nur vorm.\nWyder-Zäch, Viktor, Dr. med. [tel]. Entfelderstraße 1405. Sprech-\n  stunden vorm. 8—9, nachm. 1—2 Uhr. Sonntags nur vormittags.\nZürcher-Wirz, Alfred, Arzt [tel]. Laurenzenvorstadt 748. Sprech-\n  stunden vormittags 10—11, nachmittags 1—3 Uhr.\n13*",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18257,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2085,
+    "lines": 40,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 50.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:04:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p233",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p233.jpeg",
+      "bytes": 909828,
+      "sha256": "62d5beb8b41263ddef0bc0b3f91be503789b2dbc14a9d0fce3c2e49d70745c5a",
+      "sha256_of": "original",
+      "working_copy": "1913_p233.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:04:45+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p023",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p023.jpeg",
+    "bytes": 859348,
+    "sha256": "f445e9d5dd12b219279d74370e9b079bda2e0d949715e5a0d1d1e57fa0e24fda",
+    "sha256_of": "original",
+    "working_copy": "1901_p023.jpeg"
+  },
+  "text": "12\nHaus-\nNr.\n130 * Maurer, Louise, Privatin.\n  — -Ernst, Philipp, Gießereiarbeiter.\n  — Robert, Coiffeur.\nMarquart-Förster, Friedrich, Steindrucker, v. Stuttgart (Wrtbg.).\n131 Baumann-Leutwyler, Johann, Bauamtsarbeiter, von Bottenwyl.\nSuter-Arber, Maria, Taglöhnerin, von Gränichen.\nWidmer-Wüthrich, Anna, Part., von Gränichen.\nWüthrich, Barbara, Taglöhnerin, von Riniken.\n132 Wernli-Bolliger, Johann, Bauamtsarbeiter.\nGloor-Horlacher, Ferdinand. Bauamtsarbeiter, von Birr.\n  — Gottfried, Steindrucker, von Birr.\nKleiner-Salm, Gottlieb, Bauamtsarbeiter, von Egliswyl.\n133 Ernst-Lehmann, Samuel, Gasarbeiter.\nSchnellmann-Widmer, Heinrich, Maurer, Rapperswyl (St. G.).\nTreier-Schenk, Johann, Bauamtsarbeiter, von Wölflinswyl.\nWahl, Johann, Schuster, von Laufen (Großh. Baden).\n134 Hässi-Siegrist, Julius, Schlossermeister.\nFäs, Ida, Fabrikarbeiterin, von Oberkulm.\n135 Andres-Eichelberger, Otto, Hafnermeister.\nHolzreuter-Suter, Katharina, Wwe., Taglöhnerin, von Üken.\nBannwart-Holzreuter, Wilh., Schriftsetzer, v. Sarnen (Unterw.).\n136 Wärtli geb. Nußbaum, Marg., Witwe, Part.\nRüedi-Wärtli, Joh. Nepomuk, Staatsweibel, von Sulz.\nFrank-Häuptli, Rudolf, Postpacker.\nObrist-Renold, Hermann, Bremser, von Riniken.\n137 Lüscher-Konrad, Theodor, Küfer, von Moosleerau.\nSchmuziger, Geschwister, Susette und Verena, Part.\nWeber, Ferdinand, Schneider, von Kreisdorf (Böhmen).\nValentin-Gloor, Emil, Gießer, von Allschwyl (Baselland).\n138 * Gemeinde Aarau.\nRothpletz, Rudolf, Metzger.\nBuchheim-Lüscher, Ernst, Färber, von Magwitz (Sachsen).\n139 Bachmann-Riniker, Johann, Küfer. Spezereihandlung.\nLeu-Zimmermann, Jakob, Obergerichtskanzlist, v. Birrenlauf.\nHunziker-Haudenschild, Alfred, Knecht, von Kirchleerau.\nStrasser-Hug, Eduard, Obermüller, von Ravensburg (Wrtbg.).\n140 * Derselbe. Werkstattgebäude.\n141 * Reformirte Kirchgemeinde Aarau. Pfarrhaus.\nWernly-Kraft, Rudolf, ref. Pfarrer, von Thalheim.\n142 Schmuziger-Jacot, Lucie, Witwe, Rentière.\n143 * Riniker-Lutz, Adolf und Fisch, Karl, Kaufmann.\nHäuptli, Jakob, Färber, von Biberstein.\nNotter-Steffen, Franziska, Haushälterin, von Niederrohrdorf.\nWehrli-Fuss, Barbara, Postfakteurs Witwe, von Asp.\n  — Emil, Briefträger, von Asp.\nNeiser-Hilfiker, Samuel, Holzspalter, von Schloßrued.\nGraf-Häuptli, Jakob, Taglöhner, von Biberstein.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18697,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2275,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.36,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:05:45+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p023",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p023.jpeg",
+      "bytes": 859348,
+      "sha256": "f445e9d5dd12b219279d74370e9b079bda2e0d949715e5a0d1d1e57fa0e24fda",
+      "sha256_of": "original",
+      "working_copy": "1901_p023.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:05:45+00:00"
+  }
+}

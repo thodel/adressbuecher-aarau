@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p036",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p036.jpeg",
+    "bytes": 847954,
+    "sha256": "8f6b29a17860f290fffa0597c27f7da5243d5fa0c9b10d843aca444de8080256",
+    "sha256_of": "original",
+    "working_copy": "1901_p036.jpeg"
+  },
+  "text": "Haus-\nNr.\n25\n                Stirnemann-Huber, Johann, Taglöhner, von Gränichen.\n                Bryner, Anna, Modistin, von Möriken.\n                Pavesio-Theez, Pietro, Maler, von Forino (Italien).\n299 † Derselbe. Holzschopf\n300         Keller-Hauri, Maria, Pferdewärters, von Oberendingen.\n          — — Wilhelm, Pferdewärter, von Oberendingen.\n                Widmer-Lüscher, Joseph, Taglöhner, von Erlinsbach (Soloth.)\n          — -Siegrist, Samuel, Fabrikarbeiter, von Gränichen.\n                Vonau-Berchem, Valentin, Schreiner, von Straßburg.\n301         Dieselbe. Werkstattgebäude.\n                Bircher-Suter, Eduard, Sattler. Werkstatt\n302 * Brunner, Jakob, Seifensieders Erbschaft.\n                Beilharz, Magdalena und Katharina, Weissnäherinnen, von\n                  Untermußbach (Württemberg).\n                Schenk-Habegger, Adolf, Schuhmacher, von Langnau (Bern).\n                Fehlmann, Rudolf, Dachdecker, Bauamtsarbeiter, von Menziken.\n                Wiss-Dietiker, Gottlieb, Gipser, von Dulliken (Solothurn).\n                Grüter-Graber, Friedrich, Heizer, von Seeberg (Bern).\n303 † Dieselbe. Waschhaus.\n304 * Dieselbe. Hinterhaus.\n                Schenker-Weber, Adrian, Magaziner, von Walterswyl (Sol.)\n                Weber, Anna, Glätterin, von Vordemwald.\n305         Elssasser-Bertschi, Gottlieb, Küfermeister, von Unterkulm.\n                Ortlieb-Bertschi, Louise, von Bhlenheim (Elsaß), Aufseherin\n                  der Gewerbehalle.\n                Bertschi-Vogt, Elise, Schreiners Witwe, von Sumiswald (Bern).\n                Pfister-Sandmeier, Emil, Taglöhner, von Erlinsbach (Soloth.)\n          — — Emma, Näherin, von Erlinsbach (Solothurn).\n                Lüscher-Hächler, Johann, Marmorist, von Muhen.\n306         Derselbe. Remise.\n307 † Gemeinde Aarau. Holzschopf\n308 † Kieser-Kilchemann, Wilhelm. (Schweinemetzg).\n309 * Camisasca, Franz, Kaufmann, Part.\n                Jäggi-Holliger, Agathokles, Gipser, von Fulenbach (Solothurn).\n                Dätwyler-Gysi, Johann, Taglöhner, von Wittwil.\n                Lehner-Lehner, Kasper, Knecht, von Gränichen.\n310         Adrion-Stauss, Andreas, Hafner, von Alpirsbach (Würtbgr.)\n          — Maria, Damenschneiderin, von Alpirsbach (Württemberg).\n                Wandfluh-Sommer, Johann, Schuhmacher, von Frutigen (Bern).\n311 † Derselbe. Remise.\n312 * Hefti-Hunziker, J. P., Schneidermeister, von Schwanden (Gl.).\n                Burkhalter-Widmer, Rudolf, Taglöhner, von Buchegg (Soloth.)\n313 * Camisasca, Franz, Kaufmann.\n                Plüss-Ledermann, Bernhard, Knecht, von Ryken.\n                Bachmann-Müller, Rudolf, Maurer, von Bottenwyl.\n                Forchiana-Pertunini, Rinaldo, Handlanger, von Nesso (Italien).\n314 * Ortsbürgergemeinde Aarau.\n                Beck-Bill, Gottlieb, Schlosser.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 18576,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2811,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.49,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0007,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:11:51+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p036",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p036.jpeg",
+      "bytes": 847954,
+      "sha256": "8f6b29a17860f290fffa0597c27f7da5243d5fa0c9b10d843aca444de8080256",
+      "sha256_of": "original",
+      "working_copy": "1901_p036.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:11:51+00:00"
+  }
+}

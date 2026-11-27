@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p115",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p115.jpeg",
+    "bytes": 851584,
+    "sha256": "e50c79d49099d44d0d7919c8595d36ef0f06843c44c0bedf41e9f3659deb0ec4",
+    "sha256_of": "original",
+    "working_copy": "1901_p115.jpeg"
+  },
+  "text": "102\nHenz, Jakob, Kaufmann, Jurastraße 1480. [tel]\nHering, Johann, Lehrer, Bettwaren- und Möbelhandlung, Milch-\n  gasse 128.\nHerzig-Hauri, Elisabeth, Schneiders Witwe, hintere Vorstadt 368.\n— Karl, Schneider, Sektionschef, Flößerstraße 1193. Geschäftslokal\n  hintere Vorstadt 368.\nHerzog, Adolf, Schreiner, Adelbändli 177.\n— Emilie, Part., Schachen 1132.\n— Gottlieb, Ingenieur, hintere Vorstadt 367.\n— Hans, Dr. phil., Staatsarchivar, Bachstraße 1099.\n— Johann, Brennmeister. Scheibenschachen 1324.\n— Konrad, Schneider, Halden 274.\n— Max, Kaufmann, Bachstraße 1099.\n— geb. Zobel, Julie, Witwe, Bachstraße 1099.\nHess, Alexander, Kaufmann, [tel] Rathausgasse 5.\n— Gebr., Filiale Aarau (Hauptgeschäft in Biel), Tuch- und Möbel-\n  handlung, [tel] Rathausgasse 5.\n— Emil, Bodenleger, Adelbändli 173.\n— Jakob Andreas, Müller, Stadthof 82a.\n— Klara, Hausmutter, Frauenasyl Rain 441.\n— Silvan Salomon, Kaufmann. Wohnung Rathausgasse 11, Ge-\n  schäft Rathausgasse 5.\n— Wilhelm, Wirt, Pelzgasse 93.\nHeuberger, Gottlieb, Sekretär, Laurenzenvorstadt 754.\n— Jakob, Direktionssekretär, jenseits der Aare 1231.\n— Jakob, Oberrichter, Laurenzenvorstadt 710.\n— Karl, Coiffeur, Elektromonteur, Bahnhofstraße 621.\n— geb. Wernli, Elisabeth, Witwe, Kasinostraße 641.\nHeusser, Otto, Bremser, obere Vorstadt 523.\nHiemer, Johann, Schneider, Milchgasse 154.\nHilfiker, Jakob, Schuhmacher, Kirchgasse 39.\n— geb. Wilhelm, Emilie, Witwe, Strittengässchen 1196.\nHiltbrand, Johann, Fabrikaufseher, Adelbändli 174.\n— obigen Ehefrau, Damenschneiderin, Adelbändli 174.\nHiltpold, Friedrich, Schneider, Scheibenschachen 1328.\nHintermann, Emil, Elektromonteur, Bahnhofstraße 556.\nHintz, Ulrich, Zuckerbäcker, [tel] Kronengasse 45.\n— geb. Wolf, Anna, Konditors Witwe, Kronengasse 45.\nHirschy, Joh. Rud., Uhrenmacher, vordere Vorstadt 325.\nHirsbrunner, Gottfried, Instrumentmacher, Kasinostraße 662.\n— -Kienner, Verena, Witwe, Halden 275.\n— Elise, Spezereihandlung, Halden 275.\nHirt, Luise, Bahnhofstraße 562.\n— geb. Wehrli, Elisabeth, Witwe, Spetterin, Rathausgasse 27.\nHirzel, Arnold, Dr. phil., Rektor der Bez.-Schule, Rain 489.\nHitz, Bertha, Part., Rain 496.\n— Otto, Negt., Spezerei- und Brennmaterialienhandlung, Rain 496.\nHöhn, Hedwig, Kursleiterin, obere Vorstadt 549.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38986,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2234,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:41:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p115",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p115.jpeg",
+      "bytes": 851584,
+      "sha256": "e50c79d49099d44d0d7919c8595d36ef0f06843c44c0bedf41e9f3659deb0ec4",
+      "sha256_of": "original",
+      "working_copy": "1901_p115.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:41:43+00:00"
+  }
+}

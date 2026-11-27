@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p161",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p161.jpeg",
+    "bytes": 774381,
+    "sha256": "ddd4414afc45d869a8bae275b7b643fa84ef8e812dc4311360a29580ccb9aa6d",
+    "sha256_of": "original",
+    "working_copy": "1901_p161.jpeg"
+  },
+  "text": "148\nHagenbuch-Hagenbuch, Verena, Zollrain 64.\nHemmeler-Türler, E.,* Metzgergasse 68.\nHeß-Wolf, Alexander,* Rathausgasse 5.\nHofer, Gottlieb,* Rathausgasse 25.\nSchneeberger-Salvi, Jakob,* Rathausgasse 4.\nWüthrich-Lüdi, Samuel,* Laurenzenthorgasse 118.\nGasanstalt.\nGasbeleuchtungsgesellschaft Aarau,* Gasstraße (Zollrain) 1173.\n  Direktor: Rothenbach, Otto Julius.\n  Gasmeister: Wehrli, Karl.\nGasthöfe.\n  (Siehe Wirtshaften.)\nGärtner.\nFehlmann, Johann, Halden 296.\nGehrig, Karl, Rathausgasse 9.\nGroßmann, Otto,* Handelsgärtnerei, Depot, Graben 221.\nKäser, Emil, Strittengäßchen 1200.\nKlingelfuß, Johann Heinrich, Weinberg 1284.\nMeier, Jakob, obere Vorstadt 549.\nReinhard, Joh. Baptist, hintere Vorstadt 370.\nVogler, Julius, Stadt- und Friedhofsgärtner, Bachstraße 1097.\nWehrli, Johann, Flößerstraße 1184.\nWernli, Jakob, Strittengäßchen 1205.\nGeflügelhändler.\nMarini, Dominico, Schmiedgasse 391.\nGeometer.\nBasler, Peter, Kantonsgeometer, hinter dem Bahnhof 1033.\nRychner, Louis, Rain 444.\nSchmid, Johann Jakob, Katastergeometer, Bachstraße 1082.\nGeistliche.\nFischer, Xaver, Pfarrer, d. christ.-kath. Kirchgemeinde, Adelbändli 172.\n— Dr. Ernst, reform. Kantonspfarrhelfer, Laurenzenvorstadt 796.\nFrey, Eduard, Pfarrhelfer der reformierten Kirchgemeinden für den\n  Helferkreis Aarau, Kirchgasse 32.\nGraf, Ernst, Pfarrer der reform. Kirchgemeinde, Kirchhof 164.\nSchmuziger, Louis, Pfarrer der evangel. Kapelle, Bahnhofstr. 561.\nStöckli, Stephan, Pfarrer der römisch-katholischen Genossenschaft,\n  Schmiedgasse 383.\nWernly, Rudolf, Pfarrer der reform. Kirchgemeinde, Milchgasse 141.\nGeldwechsel- und Wechselgeschäft.\nWirth, Franz,* Zollrain 81.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 68424,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1636,
+    "lines": 42,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.74,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:00:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p161",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p161.jpeg",
+      "bytes": 774381,
+      "sha256": "ddd4414afc45d869a8bae275b7b643fa84ef8e812dc4311360a29580ccb9aa6d",
+      "sha256_of": "original",
+      "working_copy": "1901_p161.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:00:31+00:00"
+  }
+}

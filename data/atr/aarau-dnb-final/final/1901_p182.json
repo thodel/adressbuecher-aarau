@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p182",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p182.jpeg",
+    "bytes": 779753,
+    "sha256": "7bb21efd1c8d79dba2254e8a90731d652605e7af4826a0cf0bb7b949c691d732",
+    "sha256_of": "original",
+    "working_copy": "1901_p182.jpeg"
+  },
+  "text": "169\nFrei, Maria, Flößerstraße 1165.\nGing-Hunziker, Klara, Witwe, Rathausgasse 4.\nGloor, Wilhelmine, hintere Vorstadt 364.\nHäusermann-Schmid, Elisabeth, Halden 273.\nHaller-Fehlmann, Susette, Ziegelrain 397.\nHirt-Wehrli, Elisabeth, Rathausgasse 27.\nHochstrasser-Fehlmann, Verena, Milchgasse 148.\nHofmann geb. Schenk, Maria, Kronengasse 49.\nHolzreuter-Suter, Katharina, Milchgasse 135.\nHunziker-Säuberli, Maria, Strittengäßchen 1196.\nKyburz, Verena, Tellirain 836.\nKoller-Kohler, Elisabeth, Metzgergasse 70.\nMeier-Hägli, Karolina, Schmiedgasse 379.\nNiederhauser-Schenk, Marie, Stadthof 84a.\nNußbaum-Frei, Verena, Schmiedgasse 394.\nRoth, Katharina, Milchgasse 147.\nSalm, Barbara, Adelbändli 175.\nSchmutz geb. Weber, Anna, Zollrain 55.\nSchmuziger-Lang, Elise, Bahnhofstraße 558.\nSiegrist-Plüss, Anna, Laurenzenvorstadt 727.\nSommerhalder-König, Louise, Rain 497.\nSteiner-Haller, Mina, Laurenzenvorstadt 727.\nStrebel, Martina und Verena, Zollrain 56.\nSuter, Anna, Milchgasse 154.\n— -Arber, Maria, Milchgasse 131.\nWächter-Lindenmann, Louise, Halden 296.\nWälchli, Verena, Adelbändli 175.\nWalti-Zimmermann, Rosa, hinter dem Bahnhof 1004.\nWehrli-Faßler, Elisabeth, Kirchhof 161a.\nWernli-Lienhardt, Marie, Herzogstraße 990.\nWüthrich, Barbara, Milchgasse 131.\n\nSeidenbandfabrikation.\nBieber-Graber, Theodor,* Hammer 193.\nFrey-Rüegg & Cie.,* Bahnhofstraße 566.\nGasser & Cie.,* Laurenzenvorstadt 730.\n  (Siehe Fabrikationsgeschäfte.)\n\nSesselflechterinnen.\nPfenninger-Bacon, Katharina, Milchgasse 145.\nSchäfer-Scheller, Elise, Witwe, Hammer 188.\n\nSiegriste.\nStrebel, Joseph, Kirchgasse 38, für die römisch-katholische Kirche\n  Wärthli, August, Kirchhof 162, für die reformierte Kirche.\n  Waßmer, Fidel, Pelzgasse 90, für die christ-katholische Kirche.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41883,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1735,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:08:40+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p182",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p182.jpeg",
+      "bytes": 779753,
+      "sha256": "7bb21efd1c8d79dba2254e8a90731d652605e7af4826a0cf0bb7b949c691d732",
+      "sha256_of": "original",
+      "working_copy": "1901_p182.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:08:40+00:00"
+  }
+}

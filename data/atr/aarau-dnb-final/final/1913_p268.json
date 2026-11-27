@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p268",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p268.jpeg",
+    "bytes": 823113,
+    "sha256": "095fcedbef85d0be7c9b8f86aed7e740e55dc5d08131e5cb6e67a67c5f870aa7",
+    "sha256_of": "original",
+    "working_copy": "1913_p268.jpeg"
+  },
+  "text": "— 234 —\n\nTuchhandlungen.\n*Baumeister, Wendolin. Bachstraße 1056.\n*Dreifuß, Emil. Graben 207.\n  Frei, Jakob. Buchserstraße 953.\n*Gamper & Cie. [tel] Rathausgasse 31.\n*Gerber, Gustav. [tel] Vordere Vorstadt 327.\n*Gysi-von Arx & Cie. [tel] Graben 223.\n*Heß, Gebr., „zur Stadt Mülhausen\" [tel]. Rathausgasse 4 und 5.\n*Müller, Karl [tel]. Metzgerngasse 68.\n*Oboussier, A.-G., en gros [tel]. Graben 232.\n*Siebenmann & Co. [tel] Obertor 241.\n  Strich, Julius. Ziegelrain 397.\n  Waßmer, Fidel. Pelzgasse 90.\n*Wyler, Raphael. Vordere Vorstadt 353.\n\nUhrmacher.\n*Datwyler, Gottfried. Kasinostraße 661.\n  Erisman-Berner, Paul. Kronengasse 43.\n  Gebel-Wilhelm, Eduard. Bahnhofstraße 560.\n*Jörg-Ritter, Karl [tel]. Rathausgasse 14.\n*Schöni-Gugger, Ernst. „Zum Trauring\". [tel]\n  Vordere Vorstadt 325.\n\nUnfallversicherungen.\n  Siehe Agenturen.\n\nVelo- und Nähmaschinenhandlungen.\n*Bieber-Graber, Theodor. Bahnhofstraße 639.\n*— -Müller, German [tel]. Kasinostraße 657.\n  Schenk-Woodtli, Emil. Graben 215.\n  Schibler-Fehlmann, Fritz. Kronengasse 43.\n*Walther-Härdi, Adolf [tel]. Pelzgasse 109.\n\nVerlagsbuchhandlungen.\n*Meyer, Edward Erwin [tel]. Graben 218.\n*Sauerländer, H. R. & Cie. [tel] Laurenzenvorstadt 782.\n*Wirz-Martin, Emil [tel]. Obertor 243.\n\nVorgängerinnen.\n  Schmidlin, Mina. Schönenwerderstraße 1454.\n  Wehrli, Elisabeth. Rain 436.\n\nWäschereien und Glättereien.\n  Acklin, Geschwister. Hammer 190.\n  Bannwart-Holzreuter, Bertha. Zollrain 61.\n  Gais-Appenzeller, Emma. Ziegelrain 407.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 26543,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1478,
+    "lines": 41,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.22,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:14:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p268",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p268.jpeg",
+      "bytes": 823113,
+      "sha256": "095fcedbef85d0be7c9b8f86aed7e740e55dc5d08131e5cb6e67a67c5f870aa7",
+      "sha256_of": "original",
+      "working_copy": "1913_p268.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:14:48+00:00"
+  }
+}

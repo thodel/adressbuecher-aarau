@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p022",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p022.jpeg",
+    "bytes": 846347,
+    "sha256": "47777c2648e41e3ad2b1567ee5d9591fc0965933519761258d20395b36f2c7b7",
+    "sha256_of": "original",
+    "working_copy": "1901_p022.jpeg"
+  },
+  "text": "11\nHaus-\nNr.\nSperlich-Zimmermann, Theodor, von Oppeln (Schlesien), Hut-\n  handlung [tel] (Filiale).\nSteiner-Dürr, Jak., Postkondukteur, v. Oberengstringen (Zürich).\nHunziker-Müller, Friedrich, Maschinenmeister.\nBalmer, Marie und Karoline, v. Lausen (Baselland), Wäscherei\n  und Glätterei.\nTheez, Geschwister, Albert, Louise und Emma, von Paris.\n  Kostümlager.\nHess, Gebrüder, Möbelmagazin.\n119 Zebert-Altorfer, Georg, Buchbinder, [tel] von Bauma (Zürich).\n  Buchbinderei und Linieranstalt.  Schreibmaterialienhandlg.\n120 Hassler-Wanger, Emil, Kaufmann.  Kolonialwarenhandlung.\nWeber-Bodmer, Bertha, Part., von St. Gallen.\n— Arnold, Instruktionsoffizier, von St. Gallen.\n121 † Hassler-Wanger, Emil, Kaufmann.  Holzhaus.\n122 Hoch-Ernst, Gustav, Kaufmann, [tel] von Zollikon (Zürich).\n  Samen- und Spezereihandlung.  Spezialität in landwirt-\n  schaftlichen Gemüse- u. Blumensämereien.  Lager in Futter-\n  mitteln, Hopfen und Brauerharz.\nLüthi-Gamper, Samuel, von Schöftland.  Chef des Telegrafen-\n  und Telephon-Büreau.\n123 Biland-Wettler, Karl, von Birmenstorf, Wirt, Gasthof z. Ochsen.\n— Anna Hermine, Erzieherin, von Birmenstorf.\n124 † Derselbe.  Holzschuppen.\n125 Riniker, Gebrüder, Bierbrauer.  Brauereigebäude.\nBörschig-Kyburz, Georg, Bierbrauer, von Nordrach (Gr. Baden).\n126 Weber-Suter, Heinrich, Kaufmann, von Hinwil (Zürich).\n  Spezialität in Damenkleiderstoffen.\n— — Ida, Modistin, von Hinwil (Zürich).  Mode- und Hand-\n  schuhgeschäft.\nSuter, Johann, Part., von Kölliken.\n— Rosa, Damenschneiderin, von Kölliken.  Robes u. Konfektion.\n\nMilchgasse.\n127 Bertschi-Bircher, Julius, gew. Zugführer, v. Sumiswald (Bern).\n— Anna, Damenschneiderin, von Sumiswald (Bern).\nAllgemeiner Consum-Verein Aarau, Spezereihandlung.\nMüller-Hug, Anna, Part., von Kulm.\n128 * Keller, Georg und Frida, von Kallern.\nHering-Leuenberger, Johann, Lehrer, von Aristorf (Baselland).\n  Bett- und Möbelhandlung.\nKeller, Frida, von Kallern.\nBaumann-Frei, Anna, Näherin, von Attelwyl.\nHaberthür, Albert, Posamenter, von Zullwyl (Solothurn).\nThiemann, Albert, Appretuer, von Barmen (Preußen).\n129 Hoffmann-Käser, Joh., Schuhmachermeister, Schuhwarenhandlg.\nPfister, Friedrich, Telephonarbeiter, von Trubschachen (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 39661,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2195,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:06:06+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p022",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p022.jpeg",
+      "bytes": 846347,
+      "sha256": "47777c2648e41e3ad2b1567ee5d9591fc0965933519761258d20395b36f2c7b7",
+      "sha256_of": "original",
+      "working_copy": "1901_p022.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:06:06+00:00"
+  }
+}

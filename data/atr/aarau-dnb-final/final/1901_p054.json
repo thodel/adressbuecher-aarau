@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p054",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p054.jpeg",
+    "bytes": 830622,
+    "sha256": "26d8e8fcb4765dadaf3c138020c69e8103a70416fa184c9b3d696ddadfaf5c46",
+    "sha256_of": "original",
+    "working_copy": "1901_p054.jpeg"
+  },
+  "text": "43\nHaus-\nNr.\nFassnacht, Olga, Bezirksschullehrerin, von Murten.\nFreivogel-Gasser, Ernst, Kaufmann, von Gelterkinden (Baselld.)\n611 † Derselbe.  Waschhaus.\n612 † Richner, Karl, Fabrikant.  Magazin.\n613 † Derselbe. [tel] Fabrikationsgebäude (Bureau). Thon- und Stein-\n  gutröhren und Cementwarenfabrik. Röhren zu Wasser-, Rauch-\n  und Abtrittleitungen, Cementbausteine, Cementröhren, Cement-,\n  Sargemünder- und Mettlacher-Boden- und Wandverkleidungs-\n  platten für Korridore, Veranden, Küchen, Schulhäuser und\n  Kirchen. Großes Lager in Regulir-Füllöfen verschiedener,\n  sehr gut bewährter Systeme. Alleinverkauf der Feuerlösch-\n  Granaten „Labbé“. Handel und Lieferung aller möglichen\n  Baumaterialien.\n614 † Holzach-Siebenmann, Dietrich, Bierbrauer.  Brauereigebäude.\n615 † Derselbe.  Eiskeller und Waschhaus.\n616 † Derselbe.  Eiskeller.\n617 Derselbe. [tel] Speisewirtschaft.\nSpengler-Lienhard, Louise, Witwe, Part.\n618 † Derselbe.  Trinkhalle.\n619 Guggisberg-Beck, Emil, Bäcker und Konditor, [tel] von Vevey\n  (Waadt).  Kaffeewirtschaft, Tabak- und Cigarrenhandlung.\nLooser-Breisinger, Jak. Joh., Bierbrauer, von Ehringen (Baden).\nOchsner, Johann, Koch, von Uster (Zürich).\nBeck, Friedrich, Zeughaussaßler.\n620 Weber-Hegnauer, Herm., Wirt, von Menziken. [tel] Restauation.\n621 Heuberger-Rychner, Karl.  Installation und Handlung elektri-\n  scher Apparate.\nMerz-Rodel, Johann, Coiffeur, von Reinach.  Coiffeurgeschäft.\nReimann-Riechli, Gustav, Obergerichtsschreiber.\n622 Hassler-Stampfli, Hans, Erben.  Waschhaus und Holzhaus.\n623 * Dieselben.\nHäny, Rudolf, von Kölliken. [tel] Leder- und Fourniturenhandlg.\nGull-Wild, Bernadina, Witwe, Part., von St. Gallen.\n— Emil, Kaufmann, von St. Gallen.\n624 Schenker-Siebenmann, Gottl., Dr. med, prakt. Arzt. [tel]\n625 † Derselbe.  Wasch- und Holzhaus.\n626 Custer-Roth, Emil, Fabrikant (Chemiker), [tel] von Rheineck\n  (St. Gallen).\nFirma: E. Custer & Cie., Fabrikation von Mineralwasser und\n  Kellereiartikel-Handlung.\nCuster, Fanny, Lehrerin, von St. Gallen.\nHagnauer, Hedwig, Lehrerin.\nRorschach, Frieda, Kleinkinder-Lehrerin, von Herisau.\n627 † Derselbe.  Fabrikgebäude.\n628 † Derselbe.  Fabrikgebäude.\nMerz & Suter, Zuckerwarenfabrik.\n629 † Derselbe.  Schopf.\n630 † Derselbe.  Gartenhaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 63831,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2234,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 42.35,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:18:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p054",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p054.jpeg",
+      "bytes": 830622,
+      "sha256": "26d8e8fcb4765dadaf3c138020c69e8103a70416fa184c9b3d696ddadfaf5c46",
+      "sha256_of": "original",
+      "working_copy": "1901_p054.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:18:59+00:00"
+  }
+}

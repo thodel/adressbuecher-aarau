@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p191",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p191.jpeg",
+    "bytes": 807115,
+    "sha256": "2cb637433432301ca346f6b5b6438479987092a725ef89188a1f4155d50c9dd4",
+    "sha256_of": "original",
+    "working_copy": "1901_p191.jpeg"
+  },
+  "text": "178\n\nVerzeichnis der in der Stadt Aarau erscheinenden\n  Zeitungen, Zeitschriften und Kalender.\n  Druck und Verlag der Aktiengesellschaft der Aargauer\n  Nachrichten,* hintere Vorstadt 377.\nAargauer Nachrichten, 7 mal wöchentlich. Preis Fr. 9 für\n  Aarau, franko auswärts Fr. 11.\n  Gratisbeilagen: Aarauer Blätter (wöchentl. 8 Seiten stark, illustr.) „Prak-\n  tischer Ratgeber“, ebenfalls wöchentl., 8 Seiten stark. Taschenfahrtenplan\n  der Eisenbahnen und Posten im Aargau. Gegründet: 1855 durch Buch-\n  drucker Martin. Redaktor: Dr. M. Widmann.\n\n  Druck und Verlag der Aktiengesellschaft des Aarg. Tag-\n  blattes,* Oberthor 240.\nAargauer Tagblatt, 7 mal wöchentlich. Preis Fr. 9 für\n  Aarau, franko auswärts Fr. 11.\n  Gegründet 1848 an Stelle des Posthörnli durch Friedr. Kappeler. Weiter-\n  führung durch † Karl Stierli (von 1869–87). 1888 Übergang an eine Aktien-\n  gesellschaft. Redaktor: Dr. A. Weder.\nAargauer Volksfreund, 3 mal wöchentlich. Preis für Aarau\n  und auswärts Fr. 6.\n  Gegründet 1863; Redaktor: Dr. A. Weder.\n\n  Druck und Verlag von Gottfried Keller,* Rain 452.\nAargauischer Anzeiger, 2 mal wöchentlich. Preis für Aarau\n  Fr. 5, franko für auswärts Fr. 5. 20.\n  Gegründet 1797; Redaktor: G. Keller.\nAargauer Schulblatt, (neue Folge), für die Kantone Aargau,\n  Baselland, Solothurn, 2 mal monatlich. Preis für Aarau\n  und auswärts Fr. 2. 50.\n  Gegründet: 1875. Redaktor: R. Hunziker, Lehrer.\nSuhrenthaler Bote, 2 mal wöchentlich. Preis Fr. 5 für\n  Aarau, franko für auswärts Fr. 5. 20.\n  Gegründet 1866 in Schöffland. Redaktor: G. Keller.\n\n  Druck und Verlag von H. R. Sauerländer & Co,* Lau-\n  renzenvorstadt 782.\nAmtsblatt des Kantons Aargau, 1 mal wöchentlich. Preis\n  Fr. 6. 50 für Aarau, franko auswärts 7. 50.\n  Erscheint seit dem Bestehen des Kantons. Verlag von H. R. Sauerländer & Co.\n  seit 1877.\nArgovia, Jahresschrift, Organ der historischen Gesellschaft\n  des Kantons Aargau. 29. Jahrgang.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 32362,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1919,
+    "lines": 40,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.025,
+    "mean_line_chars": 45.4,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:12:48+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p191",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p191.jpeg",
+      "bytes": 807115,
+      "sha256": "2cb637433432301ca346f6b5b6438479987092a725ef89188a1f4155d50c9dd4",
+      "sha256_of": "original",
+      "working_copy": "1901_p191.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:12:48+00:00"
+  }
+}

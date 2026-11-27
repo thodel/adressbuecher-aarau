@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p038",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p038.jpeg",
+    "bytes": 820654,
+    "sha256": "df8c4e1bc1d508cf9748dee2ed0779325c8961614ea735cfb13d6befa4399157",
+    "sha256_of": "original",
+    "working_copy": "1901_p038.jpeg"
+  },
+  "text": "27\nHaus-\nNr.\nGrolimund-Gröli, Sigmund, Buchhandlungsangestellter, von\n  Beinwyi (Solothurn).\n— Emma, Lehrerin, von Beinwyi (Solothurn).\nLauber-Müller, Jös. Anton, Postkommis, von Oeschgen.\n329 * Aktiengesellschaft Feldschlösschen in Rheinfelden. [tel] Speise-\n  wirtschaft zum Affenkasten.\nGerber-Wüthrich, Emil, Wirt z. Affenkasten.\nErnst-Pfisterer, Lina, Witwe, Part.\n330 Hug-Bär, Samuel, Bäcker und Wirt, [tel] von Thalheim. Speise-\n  wirtschaft.\nSiebenmann-Ackermann, Bernhard, Part.\nSchoch-Brütschweiler, Joh. Jakob, Güterexpedient, von Freu-\n  denberg (Zürich).\n331 Kunz-Graf, Ernst, Zuckerbäcker, [tel] von Wald (Zürich).\nMärki-Leder, Friedrich, Polizeikorporal, von Mandach.\nWydler, Lina, Part.\n332 Gysi-Studler, Arnold, Mechaniker.\nStudler-Sandmeier, Anna, Witwe, Part.\nHofmann, Arnold, von Aarburg. [tel] Manufacturwarenhandlung.\n333 Hagenbuch-Egger, Friedr., Buchbinderei und Papeterie. [tel]\n334 † Derselbe. Buchbindowerkstätte.\n335 Henz-Plüss, Jakob, Kaufmann. [tel]\n— -von Seuter, Hans, Kaufmann.\nJakob Henz & Cie., Firma. Colonialwaarengeschaft.\n336 Henz-Plüss, Jakob, Kaufmann.\nJb. Henz & Cie., Firma. Eisenhandlungsgeschäft.\nBaumann-Jucker, Emil, Kaufmann, von Uetikon (Zürich).\n337 Schäfer-Dennler, Cäsar, Messerschmied.\nMeier-Grossmann, Anna, Witwe, Part., von Rheinfelden.\nHässig-Hauenstein, Elisabeth, Witwe, Part.\n338 Scherz-Mollet, Karl Niklaus, Wirt, [tel] von Köniz (Bern).\n  Gasthof z. Löwen.\n339 Henz-Gautschi, Emil, Eisenwarenhandlung. [tel]\nWirth-Geiger, Joh. Rudolf, Arzt, Part., von Speicher (Appenzell).\n340 Siebenmann-Siebenmann, Arnold, Tapezierer.\nSteininge r, Leontine, Part.\n341 * Bürgi-Fricker, Barbara, Hutmachers Witwe, von Olten.\nBruns, Heinrich, von Bremen. Arbeiterkleiderhalle.\nMösch-Hug, Heinrich, Koch, von Remlingen (Baiern).\n342 Bürgi-Fricker, Barbara, Witwe, von Olten. Wohnhaus und\n  Werkstatt.\nFeilner-Bürgi, Hs., Mechaniker, von Bittendorf (Württemberg).\n343 Kull-Lerch, Emil, Spenglermeister, von Riniken.\nLüscher, Emma, Weißnäherin, von Muhen.\nGraf, Helene, Ladentochter, von Birrwyl.\n344 † Derselbe. Werkstätte.\n345 Gysi & Cie., mechanisches und optisches Geschäft, Photo-\n  graphieanstalt. [tel]",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 68153,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2151,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.92,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0014,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:12:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p038",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p038.jpeg",
+      "bytes": 820654,
+      "sha256": "df8c4e1bc1d508cf9748dee2ed0779325c8961614ea735cfb13d6befa4399157",
+      "sha256_of": "original",
+      "working_copy": "1901_p038.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:12:59+00:00"
+  }
+}

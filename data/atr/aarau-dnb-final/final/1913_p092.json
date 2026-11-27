@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p092",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p092.jpeg",
+    "bytes": 865005,
+    "sha256": "7702d8691389b7208e07c36b8e31ed4b14fc7ca293060f20c54bc0a2cb9e04d9",
+    "sha256_of": "original",
+    "working_copy": "1913_p092.jpeg"
+  },
+  "text": "— 70 —\nHaus-\nNr.\n1528 Fretz-Häusler, Hans, Schuhfabrikant.\n1660 * — Hans, Schuhfabrikant. Schuhwarenfabrik, Bureau [tel].\n\nHintere Bahnhofstrasse.\n1045 Lüscher-Umiker, Marie, Part.\n  Rütschi, Anna, Part, Suhr.\n1044 * Lüscher-Umiker, Marie, Part.\n  Wirz-Widmer, Adolf, Postkondukteur, Menziken.\n  — Wilhelmine, Menziken.\n  Schmuziger-Rütschi, Marie, Part.\n  — Anna, Aufseherin.\n1602 Geschwister Furter, Tapezierergeschäft.\n  Furter-Haller, Friederika, Wwe, Lenzburg.\n  — Julius, Tapezierer, Lenzburg.\n  — Lina, Arbeitslehrerin, \"\n  Dreifuß-Wyler, Regina, Wwe., Ob.-Endingen.\n  — Moritz, Bankbeamter, \"  \"\n  Fisch, Mina, Kleinkinderlehrerin.\n1041 Gerodetti Söhne, Marmor- und Granitwerke, Grabsteinlager [tel].\n  — -Habermacher, Virg., Sohn, Bildhauer.\n  — — Virg., Vater, Weinhandlung.\n  — Angiolina.\n1035 Kieser-Dambach, Robert, gew. Sparkassaverwalter d. Aarg. Bank.\n1039 Eckert & Sohn, Baugeschäft.\n1034 * Aktiengesellschaft Feldschlößchen, Rheinfelden. Restaurant\n  z. Bahnhof.\n  Neeser-Suter, Emil, Depotarbeiter und Wirt, Schöftland.\n  Etterlin-Häni, Hermann, Lok.-Heizer S. B. B., Muri.\n1033 Basler-Furter, Peter, Kantonsgeometer, Zeihen.\n  — Lina, Lehrerin, Zeihen.\n  — Erika, Telefonistin, Zeihen.\n1032 Suter-Demeter, Johanna, Wwe., Lengnau.\n  Eberhard-Tanner, Jakob, Resender, Amden.\n1031 * Schäfer-Troller, Adolf, Architekt.\n  — Ida, Part.\n1030 Rödelsberger-Popp, Franz, Musikdirektor, Würzburg.\n1010 Küenzlen & Cie., Eisengießerei und Weichgußfabrik.\n1009 Eckert, Eduard, Baumeister [tel].\n  — -Vögelin, Walter, Architekt und Baumeister.\n  — Eduard, Sohn.\n  — Hedwig.\n  — Helene.\n  Bä, Maria, alt Arbeitslehrerin.\n1008 Brügger-Sommerhalder, Christian, Werkmeister, Churwalden.\n  — Fritz, Former, Churwalden.\n  Angerer-Baumgartner, Joseph, Part, Stiffs (Tirol).\n  Zubler, Elisabeth, Part., Hunzenschwil.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 40621,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1813,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:00:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p092",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p092.jpeg",
+      "bytes": 865005,
+      "sha256": "7702d8691389b7208e07c36b8e31ed4b14fc7ca293060f20c54bc0a2cb9e04d9",
+      "sha256_of": "original",
+      "working_copy": "1913_p092.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:00:43+00:00"
+  }
+}

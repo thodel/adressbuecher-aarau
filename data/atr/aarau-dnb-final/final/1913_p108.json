@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p108",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p108.jpeg",
+    "bytes": 958112,
+    "sha256": "09a90048c1b1d074e1775bae295a879d0c51aa16c418c463f05063827546d156",
+    "sha256_of": "original",
+    "working_copy": "1913_p108.jpeg"
+  },
+  "text": "— 84 —\nHaus-\nNr.\n        Buser-Buser, Wilhelm, Eisenbahnangestellter, N.-Erlinsbach.\n        — Emilie, Ladentochter, Nieder-Erlinsbach.\n1155 * Siegrist, Hermann, Wirt zum Rößli.\n        Friedli, Christian, Schweinezüchter, Rüegsau.\n1123 Steiner-Walther, Rudolf, Techniker.\n        Walther-Egger, Elise, Privatin.\n        Wiederkehr-Walser,Emil,Assistent am Gewerbemuseum,Bünzen.\n1124a Basler-Müller, Hans, Briefträger.\n        Holliger-Mauerhofer, Gottlieb, Bauarbeiter, Boniswil.\n        Wiesner-Horlacher, Heinrich, Posamenter, Bubendorf.\n1126 * Ryniker, Carl, Bierbrauer, Speisewirthschaft [tel].\n        Riner-Richner, Albert, Küchenchef und Wirt, Herznach.\n        Lehner, Johann, Hausknecht, Gränichen.\n1128 * Hegnauer-Fischer, Joh. Rudolf, Buchhalter, in Seengen.\n        Fürst-Zeder, Konrad, Bierbrauer, Saulgau (Württemberg).\n        Fricker-Reimann, Josef, I. Gemeindeweibel, Wöflinswil.\n        Burger-Friedli, Adolf, Bahnangestellter S. B. B., Zürich.\n1130 Matter-Schönenberg, Samuel, Bezirksammann, O.-Entfelden.\n        Hässig-Matter, Gottlieb, Unterpostbureauchef.\n        Muggler, Amalia, Haushälterin, Fehraltorf (Zürich).\n1492 Wittmer-Keller, Telephonarbeiter, Erlinsbach (Solothurn).\n        Fischer-Müller, Hans, Postfaktour.\n        Häfliger, Jakob, Bahnangestellter S. B. B., Kulmerau.\n1793 Vogel-Häusler, Oskar, Spenglerei- und Installationsgeschäft,\n          Gipf-Oberfrick.\n1725 Imhof-Rohrbach, Silvan, Güterexpedient, Freienwil.\n1788 Mürset-Lüscher, Gottlieb, Fuhrmann, Diesse (Bern).\n1770 Müller-Bachmann, Hermann, Heizer.\n        Hubert-Ruchti, Rudolf, Telephonarbeiter, Mauraz (Waadt).\n        Müller-Vondäniken, Elise, Witwe.\n        Dietiker, Gottlieb, Fabrikarbeiter, Thalheim.\n1132 Meier-Bucher, August, Direktionssekretär, O.-Siggenthal.\n1133 * Ryniker-Wirth, Carl, Bierbrauer. Speisewirthschaft zur Ein-\n          tracht [tel].\n        Ruaro-Paglia, Francesco, Wirt, Schio (Italien).\n        Gloor-Schmid, Rudolf, Zimmermann, Leutwil.\n        Suter-Schmid, August, Magaziner, Gränichen.\n        Habicht-Sigg, Hermann, Schriftsetzer, Schaffhausen.\n1134 * Mürset-Lüscher, Gottl., Fuhrmann, Diesse. Speisewirthschaft.\n        — Wyß, Gottlieb, Wirt, Diesse (Bern) [tel].\n1135 Suter-Marti, Emil, Speisewirthschaft, Kölliken.\n        Jost-Brunner, Wilhelm, Buchdrucker, Binzen (Baden).\n        Mende-Löber, Herm. Rud., Präparateur, Pforta (Preußen).\n        Madörin-Bächli, Albert, Schriftsetzer, Ittingen.\n1136 * Rüetschi, H., Glockengiesser und Knoblauch in O.-Entfelden.\n        Knaus, Georg, Malerwerkstätte.\n        Schmid-Mauch, Gustav, Reisender, Wittnau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17875,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2592,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.82,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T13:04:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p108",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p108.jpeg",
+      "bytes": 958112,
+      "sha256": "09a90048c1b1d074e1775bae295a879d0c51aa16c418c463f05063827546d156",
+      "sha256_of": "original",
+      "working_copy": "1913_p108.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T13:04:31+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p042",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p042.jpeg",
+    "bytes": 802292,
+    "sha256": "eebe5e45b99a602ed7e61f1d6fef4c69476231027e263901f27eb76674e65674",
+    "sha256_of": "original",
+    "working_copy": "1901_p042.jpeg"
+  },
+  "text": "31\nHaus-\nNr.\nBachmann-Flury, Johann, Kasernenarbeiter, von Bottenwyl.\n391 Marini-Pertusni, Dominik, Südfrüchtenhändler, v. Pognona (It.)\n392 Müller-Thut, Jakob, gew. Buchdrucker.\nGruber-Stalder, Engelbert, Maurer, von St. Anton (Tirol).\n393 Müller-Kramer, Jost, Schneider.\n— Albert, Ausläufer.\n— Alfred, Maschinist.\nBerchem-Sturm, Niklaus, Zimmermann, v. Semingen (Luxemb.).\n394 Rychner-Schleuniger, Maria, Hafners Witwe.\nMerz-Dürr, Jakob, Part.\nNussbaum-Frei, Verena, Spetterin, von Densbüren.\n\nZiegelrain.\n395 Huber-Bircher, Heinrich, Drechsler. Mech. Drechslerei.\nSuter-Bopp, Jost, Zuckerwarenfabrikant, von Münster (Luz.)\n396 * Holzach, Friedrich, Metzger. Schweinemetzg.\nQuaglia-Fencarolli, G iovanne, Battista, Tapezierer, von Brescia\n  (Italien).\n397 Strich-Brack, Julius Wilh., von Aachen (Preußen), Halblein-\n  und Halbwollstoff-Fabrikation.\nBrack, Jakob, Part., von Elflingen.\nWernli-Wächter, Johann, Weichenwärter, von Thalheim.\n— Elise und Emma, Damenschneiderinnen, von Thalheim.\nSchmuziger-Visel, Wilhelmine, Part.\nHaller-Fehlmann, Susette, Spetterin, von Reinach.\n— Otto, Commis, von Reinach.\n398 † Derselbe. Remise.\n399 Kuhn-Buser, Alfred, Stadtrat. Schlosserei und mech. Werk-\n  stätte. [tel]\n400 Kern & Cie. Fabrikgebäude.\n401 * Dieselben. [tel] Fabrikgebäude. Fabrication mathematischer und\n  geodätischer Instrumente.\nSenn-Blattner, Karoline, Witwe, von Densbüren.\n402 † Dieselben. Remise.\n403 † Dieselben. Remise.\n404 † Wydler, H., Söhne, Färber. Gartenhaus.\n405 † — H., Söhne, Färber. Färbereigebäude und Bureau. [tel]\n406 † — H., Söhne, Färberei und Anbau.\n407 * — H., Söhne, Färber. Färberei und Wohnhaus.\n— -Wernli, Maria, Part.\nAmsler-Brack, Verena, Part., von Schinznach.\n408 Wydler, H., Söhne, Färber. Färberei u. Magazin mit Wohnung,\n— -Hechinger, Hans, Kaufmann.\n409 * — H., Söhne, Färber. Wohnhaus.\nOberli-Wydler, Richard, Part., von Mels (St. Gallen).\nBeck-Hertenstein, Karl, Schneider, von Harb (Württemberg).\n410 * Wydler, H., Söhne, Färber. Wohnhaus und Anbau.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16615,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1995,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.55,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:14:01+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p042",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p042.jpeg",
+      "bytes": 802292,
+      "sha256": "eebe5e45b99a602ed7e61f1d6fef4c69476231027e263901f27eb76674e65674",
+      "sha256_of": "original",
+      "working_copy": "1901_p042.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:14:01+00:00"
+  }
+}

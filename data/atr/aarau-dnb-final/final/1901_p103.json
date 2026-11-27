@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p103",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p103.jpeg",
+    "bytes": 843221,
+    "sha256": "4b2aa05f616286200e29837269df05ceacbe302a4d718c226eeee0d11400c348",
+    "sha256_of": "original",
+    "working_copy": "1901_p103.jpeg"
+  },
+  "text": "90\nDaaval-Hunziker, Elise F. W., Witwe, Laurenzenvorstadt 720.\nDavid geb. Hunziker, Julie, Witwe, Part., Rain 482.\nDecker, Elise, Part., Kasinostraße 654.\n— Julius, Hufschmied, Kasinostraße 654.\nDenz, Joh. Theodor, Oberst, Kreisinstruktor, Laurenzenvorstadt 782.\nDeppeleer, Johann, Schriftseher, jenseits der Aare 1246.\n— Friedrich, Prediger, Schachen 1136.\nDettwyleer, Bertha u. Lisette, Damensehneiderinnen, Schloßplatz 202.\nDeubelbeiss, Samuel, Part., Schmiedgasse 387.\nDiakonissenstation, Bahnhofstraße 562.\nDiethelm, Reinhard, Zugführer, Buchserstraße 981.\nDietiker, Adolf, Briefträger, Adelbändli 177.\n— Emma, Wäscherin, Adelbändli 177.\n— -Häfliger, Anna, Witwe, Bachstraße 605.\n— Jakob, Postfaktor, Bahnhofstraße 605.\n— Rosa, Damensehneiderin, Laurenzenvorstadt 727.\n— Samuel, Schuhmather, Laurenzenvorstadt 727.\n— Susanna, Spetterin, Rain 496.\nDill, Dr., Ernst Oskar, Bezirksschullehrer, Graben 208.\n— Johann Jakob, Schuhmather, Metzgergasse 75.\nDöbeli-Röniger, Alois, von Sarmentorf, Inspektionsgehülfe, hintere Vorstadt 360.\n— Samuel, Bezirksschullehrer, obere Vorstadt 548.\nDöhnel, August, Schuhmachermeister, Halden 259.\n— Emma, Spetterin, Halden 287.\nDössekel, Mina, Klavierlehrerin, Bahnhofstraße 608.\nDössekker, Walter, Dr. med., Arzt, [tel] Bachstraße 1072.\nDobler, Robert, Schneider, Glatenmattgasse 252.\nDolder, Jakob Friedrich, Kaufmann, Versicherungsagentur, Bahnhof-\n  straße 610.\n— Susette, Merzeriehandlung, vordere Vorstadt 351.\nDango-Nölle, Maria, Fabrikarbeiterin, Rain 482.\nDoser, Leopold, Direktonssekreter, Entfelderstraße 1388.\nDoswald, Joseph Eduard, Wirt, hinter dem Bahnhof 1084.\nDrack geb. Hauser, Elisabeth, Spetterin, Milchgasse 150.\n— Hermann, Metallgießer, Gassstraße 1169.\n— Luise, Milchgasse 150.\nDreifuss, Albert Abraham, Kaufmann, vordere Vorstadt 327. Laden\n  vordere Vorstadt 353.\n— Emil, Manufakturwarenhandlung, Graben 207.\n— Karl Moses, Kaufmann, Viehhändler, Rain 496.\nDücret, Siegfried, Einnehmer, Bahnhof 803.\nDürr, Gottfried, Schuhmather, Halden 289.\n— Heinrich, alt Pfarrer, Privatier, Rathausgasse 10.\n— Hermann, Maler, Kasinostraße 643.\n— -Hofer, Rosa, Gemüsehändlerin, Milchgasse 156.\nDürr, Johanna, Privatiere, Rathausgasse 10.\n— Isaak, Schreinermeister, Adelbändli 173.\n— Karl August, Part., Rathausgasse 10.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19541,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2265,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:36:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p103",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p103.jpeg",
+      "bytes": 843221,
+      "sha256": "4b2aa05f616286200e29837269df05ceacbe302a4d718c226eeee0d11400c348",
+      "sha256_of": "original",
+      "working_copy": "1901_p103.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:36:13+00:00"
+  }
+}

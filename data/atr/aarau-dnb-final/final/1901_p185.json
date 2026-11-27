@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p185",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p185.jpeg",
+    "bytes": 695304,
+    "sha256": "57542cf045ced9a460f44126bd07fd935ff77fd0ad52fdf1eddac91be891ea44",
+    "sha256_of": "original",
+    "working_copy": "1901_p185.jpeg"
+  },
+  "text": "172\n              Tapetenlager.\nHagenbuch-Hagenbuch, Verena, Zollrain 64.\nHaßler-Hunziker, Witwe, Bahnhofstraße 560.\nSiebenmann, Arnold, vordere Vorstadt 340.\n              Tapisseriegeschäfte.\nFörderer, Schwestern,* Graben 223.\nHauri & Gränicher,* hintere Vorstadt 358.\n              Teigwarenhandlungen.\n              (Siehe Speereihandlungen.)\n              Telegraphen- und Telephonbureau.\n              (Metzgergasse 72.)\nChef: Lüthy, Samuel.\n              Teppichhandlungen.\nCodoni-Dreßler, Remigius,* Rain 436.\nHaßler, Hans & Cie.,* Kasinostraße 649.\n  — Walter,* Graben 208.\nHeß, Gebr.,* Rathausgasse 5.\n              Tierarzt.\nSchenker, Gustav, Bezirkstierarzt, Schmiedgasse 381.\n              Tintenfabrikation.\n              (Siehe Siegellackfabrikation.)\n              Totengräber.\nVogler, Julius, Bachstraße 1097.\n              Thonröhrenfabrikation.\nErnst-Käser, Friedr.,* Industriestraße 937.\nRichner, Karl,* Bahnhofstraße 613.   (Siehe Inserat Seite 8.)\n              Tricotfabrikation (Strickwaren.)\nBöhm-Hofmann, Marie, Pelzgasse 102.\nKirchhofer-Obrist, Marie, Witwe, Kasinostraße 641.\nWernli-Wehrli, Maria, Zollrain 62.\n              Tuchhandlungen.\nCodoni-Dreßler, Remigius,* Rain 436.\nDreifuß, Emil,* Graben 207.\n  — Albert,* vordere Vorstadt 353.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 11390,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1268,
+    "lines": 35,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0286,
+    "mean_line_chars": 29.54,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:08:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p185",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p185.jpeg",
+      "bytes": 695304,
+      "sha256": "57542cf045ced9a460f44126bd07fd935ff77fd0ad52fdf1eddac91be891ea44",
+      "sha256_of": "original",
+      "working_copy": "1901_p185.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:08:52+00:00"
+  }
+}

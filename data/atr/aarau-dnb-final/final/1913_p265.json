@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p265",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p265.jpeg",
+    "bytes": 907753,
+    "sha256": "dc5de0fefe0b69fdb1e4cc13221d76202c9b9693ce88f3ea987ad9c76cf29237",
+    "sha256_of": "original",
+    "working_copy": "1913_p265.jpeg"
+  },
+  "text": "— 231 —\nFlückiger-Hug, Marie, Witwe. Kirchgasse 41.\nGeißler, Elise. Hintere Vorstadt 378.\nGing-Hug, Marie, Witwe. Milchgasse 143.\nGloor, Wilhelmine. Hintere Vorstadt 364.\nGröbli-Reindli, Veronika, Witwe. Rathausgasse 26.\nHässig, Elise. Kirchhof 160.\nJehle-Weber, Agathe, Witwe. Milchgasse 147.\nKyburz, Lisette. Glatenmatzgasse 251.\nMarti Keller, Anna, Witwe. Rathausgasse 9,\nMüller-Hiltmann, Emma, Witwe. Milchgasse 156\nNäf-Widmer, Marie, Witwe. Glatenmatzgasse 248.\nRebmann Häfiger, Emilie. Kirchgasse 36.\nSieglist, Luise. Pelzgasse 94.\nSteiner, Klara Frida. Kirchgasse 38.\nStrebel, Verena. Zollrain 56.\nVögeli-Bohrer, Marie, Witwe. Milchgasse 156.\nWälchli, Verena. Ziegelain 416.\nSpezereihandlungen.\n*Bertschinger-Wild, Joh. Gust. Hintere Vorstadt 375.\n*Derrer-Keller, Jakob, Werkmeister [tel]. Zollrain 64.\n  Gläus-Rodel, Gottfr. Buchserstraße 955.\n*Gloor-Graf, A. [tel] Kronengasse 47.\n  Häfler-Wanger, Lina, Witwe. Laurentzorgasse 120.\n  Hinden-Hort, August. Rain 434a.\n*Hoch-Ernst, Gustav [tel]. Laurentzorgasse 122.\n  Italienischer Konsum. Metzgergasse 78.\n  Kaiser, Gebrüder. Rathausgasse 6.\n*Konsumverein Aarau [tel]. Graben 213.\n*— — Filiale. Spitalgäßli 1769.\n*— — Filiale. Halden 275.\n  Märki-Urech, Heinrich. Bleichematstraße 1615.\n*Maerer, Emil [tel]. Jenseits der Aare 1247. Herzogstraße 1782 und\n  Gartenstraße 1566.\n  »Merkur«, Schweizer Schokoladen- u. Kolonialhaus. Holzmarkt 321.\n  Meyer-Schait, Jakob [tel]. Laurentzenvorstadt 1665.\n*Moro Simon, Felix. Metzgergasse 81.\n  Nadler, August [tel]. Bahnhofstraße 555.\n  Parolini, Saverio, Adelbändli 166.\n*Rohr, Jakob. Pelzgasse (Obertor) 97.\n  Ryniker-Temperli, Fritz. Obere Vorstadt 551.\n  Schaupp-Leppig. Franz, Laborant. Pelzgasse 92.\n*Schmid-Maerer, Mathilde [tel]. Rathausgasse 20.\n  Siegrist-Müller, Albert. Obere Vorstadt 526.\n*Stephani-Winkler, Margaritha, Witwe. Rathausgasse 17.\n  Walti, Emil. Milchgasse 155.\n*Wüthrich-Zulauf, Otto [tel]. Laurentzorgasse 118.\n  Zimmerli, Emma. Laurentzenvorstadt 736.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 23320,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1979,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.58,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:13:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p265",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p265.jpeg",
+      "bytes": 907753,
+      "sha256": "dc5de0fefe0b69fdb1e4cc13221d76202c9b9693ce88f3ea987ad9c76cf29237",
+      "sha256_of": "original",
+      "working_copy": "1913_p265.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:13:50+00:00"
+  }
+}

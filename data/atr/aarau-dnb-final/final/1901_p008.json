@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p008",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p008.jpeg",
+    "bytes": 748976,
+    "sha256": "a134422b9401e8274e628061328467e7afea3921c30156fc78e17b7c45e91ae9",
+    "sha256_of": "original",
+    "working_copy": "1901_p008.jpeg"
+  },
+  "text": "V\nJäckle-Schneider in Zürich . . . . . . 15\nJung, Ludwig, in Aarau . . . . . . 17\nKeller, Abraham, in Aarau . . . . . . 18\nKrauß & Brack, Buchhandlung in Aarau . . . . 18\nKüenzlen & Co., Eisengießerei in Aarau . . . . 11\nKuhn-Buser, A., in Aarau . . . . . . 17\nLagerhäuser der Centralschweiz in Aarau . . . . 19\nLechner-Wirth, J. J., in Aarau . . . . . . 19\nMagazine zum Wilden Mann in Basel . . . . 9\nMathys, Traugott, in Aarau . . . . . . 29\nMeyer, Karl, Buchhandlung in Zofingen . . . 19\nNägeli, Jb., Tapezierer in Aarau . . . . . . 19\nOehler & Co. in Aarau . . . . . . . . vordere innere Deckelseite\nPolytechnische Verlagsanstalt A.-G. in Bern . . . . VIII\nRichner, Carl, Röhrenfabrik in Aarau . . . . . . 8\nRoth, Fritz, Schuhhandlung in Aarau . . . . . . 22\nSauerländer & Co., H. R., in Aarau . . . . . . VI u. 30\nSchatzmann, A., Photograph . . . . . . . . vordere innere Deckelseite\nScheibler, Alfred, in Aarau . . . . . . 23\nSchilling-Döbeli, A., in Aarau . . . . . . 9\nSchneeberger-Salvi, Jb., in Aarau . . . . . . 23\nSchneider-Brucker, Ferd., in Aarau . . . . . . 4 u. 14\nSiebenmann & Cie. in Aarau . . . . . . 22\nSimmen, Traugott, in Brugg . . . . . . 20\nSommerhalder, J., Zahnarzt in Lenzburg . . . . 22\n  R., in Aarau . . . . . . 13\nSpecker's Witwe, H., in Zürich . . . . . . 20\nSpielmann, Ed. & Sohn, in Olten . . . . . . 22\nSpychiger & Schuppli in Aarau . . . . . . 10\n„Tagesanzeiger\" in Zürich . . . . . . 1\nVidiella & Frei in Aarau . . . . . . 24\nWeber, Franz Carl, in Zürich . . . . . . 12\nWespi-Zurlindens Witwe, A., in Aarau . . . . . . 12\nWiedemann, A. C., Handelsschule in Basel . . . . hintere innere Deckelseite\nWildi, R., in Aarau . . . . . . 6\nWindisch, Samuel, in Aarau . . . . . . 12\nWirth, Franz, in Aarau . . . . . . 13 u. 29\nWirz, Emil, in Aarau . . . . . . 27\nWirz-Rieß, Adolf, in Aarau . . . . . . 20\nWolfisgruber, H., in Aarau . . . . . . 23\nWylder's H. Söhne in Aarau . . . . . . 21\nWyser, S., Korbflechter in Aarau . . . . . . 13\nZschokke, M., Baugeschäft in Aarau . . . . . . 30",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21394,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2014,
+    "lines": 44,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.75,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:00:25+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p008",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p008.jpeg",
+      "bytes": 748976,
+      "sha256": "a134422b9401e8274e628061328467e7afea3921c30156fc78e17b7c45e91ae9",
+      "sha256_of": "original",
+      "working_copy": "1901_p008.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:00:25+00:00"
+  }
+}

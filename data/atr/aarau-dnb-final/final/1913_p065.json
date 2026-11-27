@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p065",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p065.jpeg",
+    "bytes": 930282,
+    "sha256": "c5f83296f1ae0125b606a5347e8cb340f419a88ed6d8602b9c84dfd0a5d6bb15",
+    "sha256_of": "original",
+    "working_copy": "1913_p065.jpeg"
+  },
+  "text": "— 47 —\nHaus-\nNr 554  Wernle-Treier, Anna Wwe., Wirtin, Herznach.  Restaurant\n  „Bayrische Bierhalle“ [tel].\nFischer, Ida, Modegeschäft.\nTreier, Henrik, Herznach.\nBaur-Suter, Xaver, Zugführer, Sarmentstorf.\nMarfurt-Hofer, Franz Xaver, Coiffeur.\nWehrli-Kähr, Marie Wwe., Privatin.\nKäser-Kähr, Marie Louise, Privatin, Melchnau.\nBahnhofstrasse.\n555  Nadler-Eckert, August, Kaufmann [tel]. Wein- und Spirituosen-\n  handlung, Drogerie zum Central.\nGsell-Adam, Mina, Lingerie und Kinderartikel.\nSüß, Gottlieb, Schneider, Trimbach.\n556  Erb-Autenheimer, Otto, Schmidemeister, Erlinsbach.\nEggimann-Suter, Fritz, Wirtsschaft zum Bären [tel].\nHaager-Baumgartner, Joh., Dachdecker, Frutigen (Bern).\nMeier-Maurer, Jakob, Vorarbeiter, Haussen.\nBolliger-Dietz, Friedr., Fabrikarbeiter, Gontenschwil.\n— Karl, Hülfsarbeiter,  Gontenschwil.\n— Frieda, Fabrikarbeiterin,  „\nSchenk-Woodtli, Emil, Mechaniker, Urkheim.  Werkstatt\n  Graben 215.\n557  Banga-Lässer, Jean, Wirt, Münchenstein.  Alkoholfreies Rest.,\n  Kaffehalle.\nMeißner-Süß, Elisab., Geroldshafen (Bayern).\nNeumaier, Frieda, Ladentochter, Walbach (Deutschland).\n558 *  Matter, Samuel, Bezirksamtmann.\nReiser-Mürset, Anna, Colombier.  Kaffeewirtsschaft.\n— Louise,\nScudeletti-Martini, Giov.  „ Handlanger, Bonate (Ital.)\n559a  Käser-Buri, Samuel, Buchbindermeister, Leimiswil (Bern).\n  Schreibmaterialien- und Buchbindergeschäft.\n559b  Wildi-Leuthard, Verene, Wwe., Privatin, Veltheim.\nMarfurt, Franz, Coiffeurgeschäft.\n560  Bär-Haßler, Louis und *Bolliger-Haßler, Wilh.\nGebeI-Wilhelm, Eduard, Uhrenhandlung, Rodern (Baden).\nBär-Haßler, Louis, Militär-Rechnungsrevisor.\n— Pia.\nBaur-Glauser, Jb., Lokomotivführer, Brugg.\n561 *  Evangelischer Verein, Pfarrhaus.\nSchmuziger-Dietrich, Louis, Pfarrer.\n562 *  Diakonissenstation.\nBeyeler, Magdalena, Diakonissin, Wählern\nBadertscher, Marie,  „  Lauperswil.\nGrößel, Doris,  „  Leipzig.\nZingg, Anna,  „  Berg (Thurg.).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 16500,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1899,
+    "lines": 48,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:51:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p065",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p065.jpeg",
+      "bytes": 930282,
+      "sha256": "c5f83296f1ae0125b606a5347e8cb340f419a88ed6d8602b9c84dfd0a5d6bb15",
+      "sha256_of": "original",
+      "working_copy": "1913_p065.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:51:47+00:00"
+  }
+}

@@ -36,6 +36,15 @@ am Seitenbild geprüft (`data/review/stichprobe_dnb_1901_1913_60.csv`). **1901: 
 «Spitalgässlì», «Wartaу» mit kyrillischem у; 1 Lesung und Parser). Mit der ersten Stichprobe: 1901 34 von 40 (85 %),
 1913 29 von 39 (74 %). 1913 liegt damit unter der Schwelle von 80 %, die für die Übernahme in Vernetzte Schweiz gilt.
 
+**1913 Einwohner mit Gemini neu gelesen** (27.11.2026, #9): 94 Seiten mit gemini-3.5-flash (antwortet als 3.6-flash),
+`scripts/02e_gemini_text.py`, Lauf `aarau-dnb-gemini-1913`, 1,02 $ (0,011 $ je Seite). `02c_compose_run.py --prefer`
+setzt diese Seiten vor die qwen-Lesung (`aarau-dnb-final`); 1901 und die übrigen Teile 1913 bleiben qwen. Die sieben
+Fehler der Stichproben sind richtig gelesen (Eggiwil, Hägglingen, Ziegelrain, Hilfiker, Schait, Spitalgäßli, Wartau),
+keine kyrillischen Zeichen mehr, Zeilen ohne den Gedankenstrich vor einem Vornamen 19 → 1. Neue Stichprobe 30
+Einträge (Seed 191313, `data/review/stichprobe_dnb_1913_gemini.csv`): **26 von 30** (2 Lesung: «Bureauist» statt
+«Bureaulist», fehlender Gedankenstrich vor «Martha»; 2 Parser: «Schwarz & Cie.» als geerbter Familienname, «Bureau»
+ohne Feld). Offen: «Meyer-Schait, Jakob, Dintikon [tel]. Spezereihandlung …» – Heimatort im Beruf.
+
 Ziel ist ein Informationssystem über Personen, Haushalte, Gebäude, Berufe und
 Institutionen Aaraus im späten 19. Jahrhundert, modelliert in CIDOC-CRM 7.1.3 + SDHSS.
 Zwischenresultate sind CSV. Das Tooling (ATR, Vokabular-Register, Graph-Bauer, Prüfung,

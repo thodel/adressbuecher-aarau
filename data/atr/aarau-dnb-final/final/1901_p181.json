@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p181",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p181.jpeg",
+    "bytes": 770500,
+    "sha256": "f9119b92e3f7856d81ca71f53048dcb087b7e3fb2add884546ae65b3c80ac09b",
+    "sha256_of": "original",
+    "working_copy": "1901_p181.jpeg"
+  },
+  "text": "168\nSchröder, Theodor, Kirchhof 165.\nSiegrist, Adolf, Laurenzenvorstadt 727.\nStapfer, Johann,* Rathausgasse 22.\nStrebel, Joseph, Kirchgasse 38.\nTheez, Albert, Holzmarkt 317.\nVogt, Johann, obere Vorstadt 514.\nWandfluh, Johann, Halden 310.\nSchuhwarenhandlungen.\nBerchtold, Jakob, obere Vorstadt 546.\nCodoni-Dreßler,* Remigius, Rain 436.\nHagmann, Adolf,* hintere Vorstadt 357.   (Siehe Inserat Seite 3.)\nHoffmann, Johann, Milchgasse 129.\nJörg, Peter, Rain 430.\nKrumet, Gottlieb, hintere Vorstadt 359.\nKünze, Oswald, Pelzgasse 112.\nMayer, Thomas, hintere Vorstadt 356.\nRoth, Friedrich, Zeughausstraße 665.   (Siehe Inserat Seite 22.)\nSchneeberger-Salvi, Jakob,* Rathausgasse 4.   (S. Inserat Seite 23.)\nStapfer, Johann,* Rathausgasse 22.\nVogt, Johann, obere Vorstadt 514.\nVolkmer-Mußmann, Barbara, Rain 500.\nSchwammhandlungen.\nAngst, Robert,* hinter dem Platz 238.   (Siehe Inserat Seite 25.)\nHagenbuch, Karl,* Kronengasse 44.\nMorath, Wendolin,* Rathausgasse 3.\nWirz, Adolf, Ziegelrain 427.\nSowie sämtliche Coiffeurs.\nSeiler.\nBöhm, Georg, Pelzgasse 102.\nJörg, Jakob, Holzmarkt 317.\nRychner, Konrad, Pelzgasse 111.\nDieselben handeln auch mit Seilerwaren.\nSpeterinnen.\nBächli, Verena, Adelbändli 175.\nBärtschi-Wächter, Maria, Rathausgasse 29.\nBamberger-Schwarz, Anna, Witwe, Halden 277.\nBrändli-Müller, Elisabeth, Laurenzenvorstadt 727.\nBruder-Bruder, Verena, Golattenmattgasse 256.\nDietiker, Susanna, Rain 496.\nDöhnel, Emma, Halden 287.\nDrack-Hauser, Elisabeth, Milchgasse 150.\nEngesser-Brunner, Kresenzia, Bahnhofstraße 558.\nFäs-Huber, Anna, Golattenmattgasse 237.\nFischer-Haller, Maria, Hammer 188.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 65404,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1595,
+    "lines": 45,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0444,
+    "mean_line_chars": 34.47,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0019,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:07:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p181",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p181.jpeg",
+      "bytes": 770500,
+      "sha256": "f9119b92e3f7856d81ca71f53048dcb087b7e3fb2add884546ae65b3c80ac09b",
+      "sha256_of": "original",
+      "working_copy": "1901_p181.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:07:58+00:00"
+  }
+}

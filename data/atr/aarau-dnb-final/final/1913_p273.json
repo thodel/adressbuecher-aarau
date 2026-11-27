@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p273",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p273.jpeg",
+    "bytes": 768025,
+    "sha256": "bad46b66385a3d98451d732921af855959f08b2629967f5d9f181bbba9916996",
+    "sha256_of": "original",
+    "working_copy": "1913_p273.jpeg"
+  },
+  "text": "— 239 —\n*Vogt-Siegrist, Samuel [tel]. Graben 224.\n  Weibel-Hunn, Gotth., zum Schwizerhüsl. Kasinostraße 656.\n*Wernle-Treier, Anna, Witwe, „Bayrische Bierhalle“ [tel]. Obere\n  Vorstadt 554.\nZimmermann-Byland, Jakob. Asylstraße 1141.\nKaffeewirtschaften.\nAlkoholfreies Restaurant [tel]. Zeughausstraße 666.\n*Ammann, Paul [tel]. Bahnhofstraße 619.\nBanga-Lässer, Joh. Bahnhofstraße 557.\nChristen, Friedr. Graben 212.\n*Frey-Seiler, Fritz Zeughausstraße 663.\nHinz, Gustav [tel]. Kronengasse 45.\n— Ulrich [tel]. Laurenzentorgasse 118.\nKeller-Läuchli, Paul [tel]. Zollrain 62.\nKunz, Ernst [tel]. Vordere Vorstadt 331.\nReiser-Mürset, Anna. Bahnhofstraße 558.\nWoll- und Baumwollstoffdruckerei.\n*Jenny-Kunz, A. [tel] Telli 859.\nWolldeckenmanufaktur.\n*Gisi, Eugen & Co. [tel] Graben 217.\nZahnärzte.\nBerner-Egli, Herm., Dr. [tel] Graben 227\nFahrländer-Fisch, Hermann, Dr. [tel] Zeughausstraße 666.\nGersbach-Höslí, Sebastian [tel] Bahnhofstraße 575.\nMüller-Karrer, Oskar [tel]. Weltistrasse 1651.\nZementfabrikation.\n*Jura-Zementfabriken [tel]. Scheibenschachen 1346.\nZentralheizungsfabriken.\n*Iseli-Mumenthaler, Fritz [tel]. Buchserstraße 924.\n*Ott, Paul, Techniker [tel]. Rain 447.\nZeitungen.\n*Aargauer Nachrichten [tel]. Rain 452.\n*Aargauischer Anzeiger und Suhrentaler Bote [tel]. Rain 452.\n*Aargauer Tagblatt A. G. [tel] Bahnhofstraße 1813, 1814 und 1815.\n*Neue Aargauer-Zeitung [tel]. Ziegelrain 399.\nNeuer Freier Aargauer. Kasinostraße 657.\nLokal-Anzeiger [tel]. Kirchgasse 36.\n15*",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 14015,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1472,
+    "lines": 39,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.67,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:15:43+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p273",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p273.jpeg",
+      "bytes": 768025,
+      "sha256": "bad46b66385a3d98451d732921af855959f08b2629967f5d9f181bbba9916996",
+      "sha256_of": "original",
+      "working_copy": "1913_p273.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:15:43+00:00"
+  }
+}

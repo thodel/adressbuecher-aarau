@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p101",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p101.jpeg",
+    "bytes": 829451,
+    "sha256": "055d665bdc2e513116a2c9c7e195b0465b334b354e55681b0eaa446532560659",
+    "sha256_of": "original",
+    "working_copy": "1901_p101.jpeg"
+  },
+  "text": "88\nBrogli, Joseph, Briefträger, Tellrain 834.\nBrosy-Miville, Rudolf, Kreis-Postdirektor, Bahnhofstraße 576.\nBrülmann-Oelhafen, Anna, Part., Bahnhofstraße 634.\nBrügger, Christian, Kontroleur, hinter dem Bahnhof 1008.\n  — Max Heinrich, Schneider, Halden 272.\nBrütel, Konstanze, Part., Feerstraße 682.\nBruder geb. Bruder, Verena, Witwe, Spetterin, Golattenmattg. 256b.\n  — Frida, Glätterin, Golattenmattgasse 256b.\nBrunner, Auguste, Part., Halden 274.\n  — Emil, Bauamtsarbeiter, Mühlematt 1360.\n  — Gottfried, Maler, Adelbändli 176.\n  — Gottfried, Part., Bachstraße 1066.\n  — Heinrich, Bahnangestellter, Strittengässchen 1216.\n  — Heinrich, Taglöhner, Halden 294.\n  — Jakob, Knecht, obere Vorstadt 546.\n  — geb. Lehner, Anna Maria, Part. Laurenzenvorstadt 727.\n  — Marie, Weißnäherin, Laurenzenvorstadt 727.\n  — Oskar, Schriftsetzer, Adelbändli 174.\n  — -Rothpletz, Gottfried, Part., Bachstraße 1066.\n  — geb. Umiker, Elisabeth, Entfelderstraße 1410.\n  — Samuel Friedr., Zimmermann, Rain 498.\nBrunnhofe, Albert, Tambourinstruktor, Ziegelrain 413.\n  — August, Wirt, Zollrain 63.\n  — Elise, Damenschneiderin, Rain 496.\n  — Emil, Briefträger, Schachen 1135.\n  — geb. Gietzentanner, Ursula, Witwe, Halden 266. Seilerladen Holz-\nmarkt 317.\n  — Lisette, Lehrers Part., Halden 264.\n  — geb. Schmidt, Magdalena, Witwe, Halden 273.\nBruns, Hermann, Schlosser, obere Vorstadt 545.\n  — Heinrich, Kaufmann, Arbeiterkleiderhalle, vordere Vorstadt 341.\nBüchler, Louise, Rain 441.\nBühler, Gottlieb, Kupferschmied, Schmiedgasse 389.\n  — Heinrich, Schmied, Rathausgasse 29.\n  — Marie, Wäscherei und Glätterei, Schmiedgasse 389.\nBührer geb. Gidemann, Anna, Witwe, Part., hinter dem Bahn-\n  hof 1044.\nBürgi geb. Fricker, Barbara, Witwe, vordere Vorstadt 342.\n  — Werner, Reisender, Bankstraße 1049.\nBürgin, Ernst, Kaufmann, Augustin Keller-Straße 1493.\n  — geb. Gluck, Maria, Part., vordere Vorstadt 324.\n  — Rosa, Fabrikarbeiterin, Strittengässchen 1205.\nBürki, Ida, Gesellschafterin, Bachstraße 1154.\nBucher, Gottlieb, Fabrikarbeiterin, Telli 871.\nBucher, Johann, Fabrikarbeiter, Telli 871.\n  — geb. Wirz, Marie, Witwe, Part., Telli 871.\n  — -Mäder, Genofeva, Part., Schachen 1132.\nBuchheim, Ernst, Färber, Milchgasse 138.\nBuchmann geb. Spycher, Adele, Damenschneiderin, Zollrain 54",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19606,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2261,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.08,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:35:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p101",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p101.jpeg",
+      "bytes": 829451,
+      "sha256": "055d665bdc2e513116a2c9c7e195b0465b334b354e55681b0eaa446532560659",
+      "sha256_of": "original",
+      "working_copy": "1901_p101.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:35:53+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p064",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p064.jpeg",
+    "bytes": 926797,
+    "sha256": "ee04e461bce48e69e7585822f73d8216f3a2f7c245674b031ef204b0eb4abba1",
+    "sha256_of": "original",
+    "working_copy": "1913_p064.jpeg"
+  },
+  "text": "— 46 —\nHaus-\nNr.\n540 * Wespi, Karl [tel]. Ofenfabrik, keramische Wand- und Boden-\n  beläge. Bureau.\n541 Baur-Suter, Bernhard, Schneidermeister, Sarmentorf. Tuch-\n  und Maßgeschäft.\n  Hüßer-Müller, Otto, Bremser, Remetschwil.\n542 Gysi-Anderegg, Emil, Malermeister.\n543 Groß-Hochuli, Friedrich, Spenglerei, Installation und Metall-\n  warenhandlung, Welschenreuth (Baden).\n544 Lüscher-Rohr, Paul, Bäckermeister, Muhen (Aarg.) [tel].\n  Gysi-Heß, Otto, Postbeamter.\n545 Siebenmann-Meyer, Fritz, Bierbrauer. Mitinhaber der Adler-\n  brauerei.\n  Baumann geb. Krauß, Ursula, Leutwil.\n  — Marie, Handelsangestellte, Leutwil.\n  — Martha,\n  Läubli, Johann, Privatier.\n  Haberstick-Scheurmann, Bertha, Schulinspektors Wwe.\n  — Lina, Lehrerin.\n546 Berchtold-Glaus, Marie Wwe., Schuhhandlung, Schmiedrued.\n  Peter-Glaus, Marie, Bonndorf (Baden).\n  Zimmermann-Fröhlich, Franz, Knecht, Döttingen.\n  Croci-Brugger, Agostino, Maurermeister, Balerna (Tessin).\n547 Mösch-Strebel, Karl, mechan. Kunst- und Bauschlosserei, Frick.\n  — Keller, Karl, Privatier, Frick.\n  Gertiser-Andres, Marie, Schneiderin, Münchwilen.\n  Schneider, Markus, Schneider, Waldmössingen (Wttbg.).\n548 Schneider-Richner, Gustav, Dr. Fürsprech, alt Oberrichter.\n  Advokatur- und Notariatsbureau [tel].\n  Hoffmann-Villiger, Paul, Kaufmann.\n  Haberstick, Frieda, Lehrerin, Ob.-Entfelden.\n  Peter-Gerber, Arthur, Ingenieur, Aarburg.\n549 VoglerWeidmann, Julius, Friedhofgärtner. Blumenhandlung,\n  Blumenbinderei [tel].\n  Bieber-Graber, Theodor, Velomechaniker. Werkstatt Bahnhof-\n  straße 639.\n550 Frey-Hochuli, Rudolf, Käse- u. Butterhandlung, Gontenschwil [tel].\n  — Ernst, Zeichner, Gontenschwil.\n  Vogt-Kohler, Friederike Wwe., Privatin.\n  — Fr. Ernst, stud.\n  Bircher, Fanny, Privatin.\n551 Ryniker-Temperli, Fritz, Spezerereihandlung, Schinznach.\n  — Friedr., Postbeamter, Schinznach.\n  Hauser-Leu, Quirin, Maurerpulier, Flirsch.\n552 Widmer-Richner, Rud., Bäcker und Wirt, Gränichen. Speise-\n  wirtschaft zur Suhrentalbahn.\n  — Martha, Gränichen.\n  Knecht-Graf, Johann, Polizeikorporal, Schwaderloch.\n  Graf, Elise, Privatin, Bleienbach (Bern).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 49701,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2096,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.75,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:51:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p064",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p064.jpeg",
+      "bytes": 926797,
+      "sha256": "ee04e461bce48e69e7585822f73d8216f3a2f7c245674b031ef204b0eb4abba1",
+      "sha256_of": "original",
+      "working_copy": "1913_p064.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:51:31+00:00"
+  }
+}

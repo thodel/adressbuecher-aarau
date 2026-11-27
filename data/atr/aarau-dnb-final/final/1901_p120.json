@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p120",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p120.jpeg",
+    "bytes": 863906,
+    "sha256": "1690c2e326433335a2fc6aeed6285bcc95a60aa83dad8496f8f4bc630fe0fa42",
+    "sha256_of": "original",
+    "working_copy": "1901_p120.jpeg"
+  },
+  "text": "107\nKiburz, Verena, Taglöhnerin, Tellrain 836.\n  — geb. Wüthrich, Barbara, Laurezenthorgasse 125.\nKielholz-Brogli, Karoline, Witwe, Strittengäßchen 1150.\n  — Gottlieb, Postbeamter (Adjunkt), Bleichemattstraße 1016.\n  — Luise, Part., Schachen 1133.\nKieser, Robert, Bankbeamter, hinter dem Bahnhof 1035.\n  — Wilhelm, Kaufmann, Zollrain 57.\nKirchhofer, Marie, Modistin, Kasinostraße 641.\n  — geb. Obrist, Maria, Witwe, Kasinostraße 641.\nKirchner geb. Vonwiller, Ida, Mod., Modewarengeschäft, Graben 209.\nKisspenfennig, Ernst, Bauführer, Gönhardfeldweg 1504.\nKistler, Emil, Taglöhner, Schachen 1128.\n  — Jb., Steuerpräsident, Graben 212.\nKleeb, Jos. Anton, Taglöhner, Halden 283.\nKlein-Berner, Emma, Witwe, Samenhandlung, [tel] Kronengasse 43.\nKleiner, Gottlieb, Taglöhner, Milchgasse 132.\nKlingelfuss, Emil, Mechaniker, Erlinsbacherstraße 1318.\n  — Johann Friedrich, Mechaniker, Weinberg 1283. [tel]\n  — Johann Heinrich, Gärtner, Weinberg 1284.\nKnaus, Georg, Maler, Flößerstraße 1188. Malerwerkstätte Asyl-\n  straße 1144.\nKnecht geb. Vögeli, Barbara, Mülematt 1360.\nKnechtli, Gottfried, Buchhalter, Bleichemattstraße 1029.\nKobelt, Alfred, Buchhalter, von Marbach (St. Gallen), Entfelder-\n  straße 1401.\nKohlmann, Arnold, Sohn, Lithograph, Bachstraße 1103.\n  — & Läuchli, Lithographie und Steindruckereigeschäft, [tel] Bach-\n  straße 1103.\n  — geb. Läuchli, Verena, Witwe, Bachstraße 1103.\nKoller geb. Kohler, Elisabeth, Spetterin, Metzgergasse 70.\n  — Mina, Telephonistin, Metzgergasse 70.\nKosmann, Christian, Prediger, Rohrerstraße 881.\nKrähenbühl, Luise, Näherin, Halden 279.\nKraft, Hermann, Steindrucker, Weinberg 1279.\n  — geb. Kasper, Maria, Witwe, Bachstraße 1067.\nKramer, Jakob, Knecht, Telli 871.\nKranken-Anstalt, [tel] Buchserstraße 956.\nKraus & Brack, Firma: Sortimentsbuchhandlung, Graben 222.\nKredit-Anstalt, Aargauische, [tel] Laurenzenvorstadt 700.\nKreiskommando, Laurenzenvorstadt 714.\nKress, Karl, Architekt, Laurenzenvorstadt 745.\nKropp, Mathilde, Part., Augustin Keller-Straße 1494.\nKrummet, Gottlieb, Schuhhandlung, hintere Vorstadt 359.\nKübler, Joh., Bahnhofinspektor, Bahnhof 803.\nKuher, Johann, Buchhalter, Laurenzenvorstadt 793.\nKühn, Bernhard, Restaurateur, [tel] Bahnhof 803.\nKümmerli, Rosa, Technikerin, Jura-Cementfabriken, Zollrain 64.\nKühnel, Johann, Werkmeister, Glattemattgasse 255.\nKüng, Anton, Sekretär, Telli 868.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 39690,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2344,
+    "lines": 50,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 45.3,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:43:37+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p120",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p120.jpeg",
+      "bytes": 863906,
+      "sha256": "1690c2e326433335a2fc6aeed6285bcc95a60aa83dad8496f8f4bc630fe0fa42",
+      "sha256_of": "original",
+      "working_copy": "1901_p120.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:43:37+00:00"
+  }
+}

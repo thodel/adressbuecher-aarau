@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p058",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p058.jpeg",
+    "bytes": 849237,
+    "sha256": "c3330de2ef293a7d82cb9e318e315ea3ba816c3df6f563a40a0e9f62b852c5e6",
+    "sha256_of": "original",
+    "working_copy": "1913_p058.jpeg"
+  },
+  "text": "— 40 —\nHaus-\nNr.\n1529 Huber-Anacker & Cie., Lithographie- u. Kartonageanstalt [tel].\n— -Hässig, Hans, Lithographiebesitzer, Luzern.\nAnacker-Huber, Georg,                    Eisenach.\n  \"\n1855 Suter-Lüscher, Rudolf, Privatier, Kölliken.\n1685 Mussepter-Sporrer, Otto, Ingenieur, Buchau (Württemberg).\n1688 Hauri-Siegenthaler, Karl, Privatier, Seengen.\n1454 Schmidlin-Bolliger, Joh., Zeughausarbeiter, Thalheim.\n— Otto, Fabrikarbeiter, Thalheim.\n— Mina, Vorgängerin,\nManera-Savera, Luigi, Cementier, Possagno (Italien).\n\nRoggenhausen.\n1455 * Ortsbürgergemeinde Aarau.  Speisewirtschaft zum Wildpark.\nMosimann-Kleeb, Johann, Wirt und Pächter, Signau [tel].\n\nOberholzstrasse.\n479 Schweizer-Siebenmann, Sophie, Witwe, Privatin, Dättwil.\nKüng-Furrer, Anton, Sekretär.\nSchmuziger, Lina, Privatin.\nMerz, Marie, Haushälterin, Tutlingen.\n482 * Schweizer-Siebenmann, Sophie, Witwe, Privatin.\nSiebenmann-Schmidt, Karls Wwe., Privatin.\n— Bruno, Reisender.\nStoffel, Lisa, Bureaulistin, Lindau (Bayern)\nWehrli-Fuß, Barbara, Witwe, Asp-Densbüren.\n— Emmy, Ladentochter,\n— Martha,\nHäuptli-Kern, Jakob, Färber, Biberstein.\n478 Lips-Sager, Elise, Witwe, Nieder-Urdorf.\n— Hans, Taglöhner,\n— Marie Sophie, Ladentochter,\nSteinbrenner-Schranner, Georg, Schriftsetzer, Lendsiedel (Würt-\ntemberg).\nSchranner, Otto, Sekretär, Sulz.\nGertiser, Karl, Geometer, Münchwilcn.\n476 Strebel, Herm., Schreinermeister, Wohlen.\n— Erwin, Schreiner, Wohlen.\n— Hedwig, Wohlen.\n475 * Siebenmann-Walther, Otto.\nSennhauser, Amalie, Glätterin, Herrliberg.\n— Rosa, Glätterin, Herrliberg.\nHaller-Vollmer, Georg, Ziegeltbreuner, Ravensberg.\n474 * Siebenmann-Walther, Otto.\nUrech, Jakob, Leiternmacher, Seon.\n1904 Schnetz-Kyburz, Fritz, Architect, Winterthur.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 50862,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1708,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.28,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0012,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:49:10+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p058",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p058.jpeg",
+      "bytes": 849237,
+      "sha256": "c3330de2ef293a7d82cb9e318e315ea3ba816c3df6f563a40a0e9f62b852c5e6",
+      "sha256_of": "original",
+      "working_copy": "1913_p058.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:49:10+00:00"
+  }
+}

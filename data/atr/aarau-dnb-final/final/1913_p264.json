@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p264",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p264.jpeg",
+    "bytes": 808809,
+    "sha256": "3a9a5d2ec5013ceba95e1836f25d8a069fcebaaa93b0084adcac8dc1db126d44",
+    "sha256_of": "original",
+    "working_copy": "1913_p264.jpeg"
+  },
+  "text": "— 230 —\nSchenker-Bächler, Otto. Rathausgasse 22.\n  Vogt, Johann. Obere Vorstadt 514.\n  Wahl, Johann. Pelzgasse 112.\nSeidenbandfabrikation.\n*Frey-Rüegg & Cie. [tel] Bahnhofstraße 566.\nSeidenfärberei.\n*Lenz-Suter, Otto [tel]. Bachstraße 1104.\nSeidenwarenhandlung.\n*Lüseher-Gloor, Marie. Pelzgasse 106 a.\nSeilermeister.\nBöhm-Hofmann, Georg. Zollrain 54.\nJörg-Meyer, Jakob. Halden 266.\nRychner-Vogt, Anna, Witwe. Pelzgasse 111.\nSiegellack- und Tintenfabrikation.\n*Schmuziger & Co. [tel] Buchserstraße 1578.\nSigriste.\nDubach, Ernst, Kirchhof 159, für die reformirte Kirche.\nStrebel, Joseph, Kirchgasse 38, für die römisch-katholische Kirche.\nWaßmer, Fidel, Pelzgasse 90, für die christ-katholische Kirche.\nSüdfrüchtenhandlungen.\nGarganigo-Parolini, Giuseppe. Obertor 242.\nParolini-Bellini, Saverio. Adelbändli 166.\nTaddei-Valli, Antonio. Adelbändli 170.\nSpenglermeister.\nDubach-Hadorn, Ernst. Kirchhof 159.\nGroß-Hochuli, Friedrich [tel]. Bachstraße 1054 u. Obere Vorstadt 543.\nHumm-Brunnhofer, Emil. Halden 275.\n*Kull-Lerch, Emil [tel]. Vordere Vorstadt 343.\n  — -Eugster, Emil, Philippss. Milchgasse 153.\nSuter-Keller, Julius [tel]. Ziegelrain 425.\nTrächsel-Schneeberger, Gottfried. Hammer 186.\nVogel-Häusler, Oskar. Schachen 1793.\nSpetterinnen.\nBrunner-Rohr, Bertha. Halden 296.\nDöhnel, Emma. Halden 289.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 27530,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1301,
+    "lines": 36,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.0,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0023,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:13:54+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p264",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p264.jpeg",
+      "bytes": 808809,
+      "sha256": "3a9a5d2ec5013ceba95e1836f25d8a069fcebaaa93b0084adcac8dc1db126d44",
+      "sha256_of": "original",
+      "working_copy": "1913_p264.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:13:54+00:00"
+  }
+}

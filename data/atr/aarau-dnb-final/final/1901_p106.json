@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p106",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p106.jpeg",
+    "bytes": 846005,
+    "sha256": "7a26887ed806521f4efc497f22218b27a6cd45e29edc05f548446e2edb32cd29",
+    "sha256_of": "original",
+    "working_copy": "1901_p106.jpeg"
+  },
+  "text": "93\nFehlmann, Rudolf, Dachdecker, Halden 302.\n— Samuel, Wirt, Schachen 1126. [tel]\nFeilner, Hans, Mechaniker, vordere Vorstadt 342.\nFeiss, Eduard, Ingenieur, Küttigerstraße 1257.\nFelber, Joh., Postkondukteur, Torfeldstraße 943.\n— Georg, Entfelderstraße 1398.\n— Karl, Schneider, Rathausgasse 24.\nFierz, Emma, Bahnhofstraße 562.\nFisch, Adolf, Buchhalter, Torfeldstraße 950.\n— geb. Dürr, Elise, Schuhmachers Witwe, Halden 289.\n— Lina, Metzgers, Milchgasse 157.\n— Mina, Kleinkinderlehrerin, Rain 496.\n— geb. Vogt, Marie, Part., Flößerstraße 1164.\nFischer, Adolf, Postbeamter, Cigarren- und Tabakhandlung, Lau-\n  renzenthorgasse 114.\n— Albert, Sekretär, obere Vorstadt 536.\n— Ernst, Kantonspfarrehelfer, Laurenzenvorstadt 796.\n— Franz, Schneider, Halden 298.\n— Friedrich, Schneider, Weibels, hinter dem Platz 234.\n— Friedrich, Maschinist, Weinberg 1279.\n— Fritz, Telephonarbeiter, Hammer 188.\n— Hans, Postpacker, Rathausgasse 29.\n— geb. Haller, Maria, Taglöhnerin, Hammer 188.\n— Johann, Bahnwärter, Rain 463.\n— Jonathan, Goldschmied, Holzmarkt 322.\n— Ludwig, Bauamtsarbeiter, Flößerstraße 1188.\n— Luise, Ladentochter, Laurenzenthorgasse 114.\n— Luise, Messerschmieds, Damenschneiderin, Adelbändli 175.\n— geb. Niggli, Lina, Witwe, Part., Schloßplatz 199.\n— Otto Johann, Bankkontroleur, Graben 224.\n— Otto, Sekretär, hintere Vorstadt 369.\n— -Peter, Anna, Part., Schmiedgasse 381.\n— geb. Roth, Maria, Stadtarbeiters, Flößerstraße 1188.\n— Rudolf, Tierarzt, Part., Jurastraße 1481.\n— & Schmuziger, Bureau, Rohrerstraße 1481.\n— geb. Widmer, Maria, Witwe, Laurenzenvorstadt 711.\n— geb. Wydler, Ernestine. Witwe, Taglöhnerin, Adelbändli 173.\n— Xaver, christkatholischer Pfarrer, [tel] Adelbändli 172.\nFlach, Johann, Müller, Stadthof 87.\nFleiner & Cie., [tel] Cementfabrik, Erlinsbacherstraße 1291.\n— Hans, Fabrikant, Laurenzenvorstadt 800.\n— geb. Zschokke, Leontine, Witwe, Laurenzenvorstadt 800.\nFlühmann, Elise, Seminarlehrerin, Gartenstraße 1431.\nFlückiger, Jakob, Käser, Erlinsbacherstraße 1305.\n— Gottfried, Pferdewärter, Stadthof 82a.\n— geb.Wüthrich, Rosette, Witwe, Gemüsehändlerin, Pelzgasse (Färber-\n  gäßchen) 109.\nFörderer, Geschwister, Anna, Elise und Pauline, Tapisserie- und\n  Broderiegeschäft. [tel] Graben 223.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 42702,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2211,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:38:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p106",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p106.jpeg",
+      "bytes": 846005,
+      "sha256": "7a26887ed806521f4efc497f22218b27a6cd45e29edc05f548446e2edb32cd29",
+      "sha256_of": "original",
+      "working_copy": "1901_p106.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:38:09+00:00"
+  }
+}

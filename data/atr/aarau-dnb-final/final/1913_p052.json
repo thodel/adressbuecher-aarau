@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p052",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p052.jpeg",
+    "bytes": 933488,
+    "sha256": "acb1c6b7273e6deec3a91cc75e41fc1881f34e3ba65e5935ed41dc92f1dad5d7",
+    "sha256_of": "original",
+    "working_copy": "1913_p052.jpeg"
+  },
+  "text": "Haus-\nNr.\n— 34 —\n394 * Schärer, Heinrich, Elektriker, Biberstein.\nLorenzi, Gebrüder, Cesare und Virgilio, Schleiferei u. Schirm-\n  handlung.\nBossard-Gloor, Barbara, Witwe, Birr.\nRöscli-Bossard, Felix, Bierführer, Bonndorf (Württemberg).\nMaurer-Leutwyler, Marie, Wäscherin, Rubigen (Bern).\nZiegelrain.\n395 Huber-Bolliger, Emil, Drechslermeister [tel]. Mechan. Drechs-\n  lerei und Kugelfabrik.\nBächli-Frey, Friedrich, Notar, Bucli.\n396 * Häfliger, Otto, Metzgermeister und Wirt.\nSenn-Schenk, Rudolf, Taglöhner, Densbüren.\n397 Strich-Brack, Julius, Fabrikant, Aachen. Halblein- und Halb-\n  wollstoffabrikation.\nBonim-Neiß, Alfred, Lithograph, Kronstadt (Ungarn).\nWullschlegler-Marti, Otto, Zeughausarbeiter, Vordemwald.\nCermak-Maier, Gustav, Schneider, Wiesbaden.\n399 * Kuhn-Gamper, Alfred, Fabrikant.\nNeue Aargauer-Zeitung, Redaktion und Buchdruckerei [tel].\nHauser-Dreher, Johann, Geschäftsführer, Boppelsen (Zürich).\n400 * Kern & Co. [tel] Fabrication mathematischer und geodätischer\n  Instrumente.\n405 * Rüetschi, H., Glockengießer.\nHoß-Müller, Luise, Witwe, Dürrenroth.\nStirnemann, Gotthold, Schreiner, Gränichen.\n407 * Rüetschi, H., Glockengießer.\nEngesser, Josef, Schneidermeister. Herrenmaßgeschäft.\nGais-Appenzeller, Fridolin, Gasarbeiter, Starrkirch.\n— — Emma, Wäscherei und Glätterei.\nMeier, Anna Marie, Glätterin, Wohlen.\nBuchheim-Lüscher, Maria, Witwe, Kostgeberei, Moosleerau.\n408 * Rüetschi, H., Glockengießer.\nHunziker-Schär, Emanuel, Schmied, Moosleerau.\n— Valerie, Moosleerau.\n409 * Rüetschi, H., Glockengießer.\nWidmer-Fischer, Adolf, Monteur, Gränichen.\nBeck-Hertenstein, Karl, Schneider, Horb (Württemberg).\n410 * Rüetschi, H., Glockengießer.\nKöpf-Walldroff, Gordian, Schuhmacher, Pfrönten (Bayern).\nOberly-Wydler, Richard, Privatier, Mels.\n413 * Rüetschi, H., Glockengießer.\nGaß-Spieß, Jakob, Gasarbeiter, Oltingen.\nSenn-Holzer, Daniel, Gärtner, Densbüren.\n416 Bircher-Kielholz, Julius, Kreisingenieur, Küttigen [tel].\nHaßler-Lanz, Gustav, Malermeister.\nWälchli, Verena, Spetterin, Madiswil.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 56075,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2009,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.86,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:46:31+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p052",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p052.jpeg",
+      "bytes": 933488,
+      "sha256": "acb1c6b7273e6deec3a91cc75e41fc1881f34e3ba65e5935ed41dc92f1dad5d7",
+      "sha256_of": "original",
+      "working_copy": "1913_p052.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:46:31+00:00"
+  }
+}

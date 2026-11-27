@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p061",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p061.jpeg",
+    "bytes": 795388,
+    "sha256": "292365874011943284127b2eb632a5baad9c66d60be0553767aba7c79f5c3318",
+    "sha256_of": "original",
+    "working_copy": "1901_p061.jpeg"
+  },
+  "text": "50\nHaus-\nNr.\n748 Zürcher-Wirz, Alfred, Arzt. [tel]\n749 † Derselbe. Holzhaus\n750 † Derselbe. Waschhaus.\n751 Wäffler-Stäuble, Heinrich, Turnlehrer, von Basel.\n  Schäfer-Meier, Friedrich, alt Bahnkassier.\n752 † Derselbe. Waschhaus.\n753 † Derselbe. Magazin.\n754 * Roth-Schmuziger, Alfred, Oberst, von Bühler (Appenzell).\n  Heuberger-Siebenmann, Gottlieb, Sekretär. Agentur der\n  schweiz. Rentenanstalt.\n755 † Derselbe. Holzschopf.\n756 Meyer-Zschokke, Jak. Ludwig, von Zürich, Direktor des Ge-\n  werbemuseums.\n  Furter-Haller, Johann, Part., von Lenzburg.\n  — Lina, Arbeitslehrerin, von Lenzburg.\n757 † Derselbe. Holzhaus.\n758 † Bally-Arndt, Eugen, Fabrikant. [tel] Fabrikgebäude mit Comptoir.\n759 † Derselbe. Nebengebäude. Magazin.\n760 † Derselbe. Holzschopf.\n761 * Ringier-Müller, Staatsschreibers Witwe (Erbschaft).\n  — -Tschudi, Adolf, Part., von Zofingen.\n  Kurz, Sophie, Part., von Schwamendingen (Zürich).\n762 † Dieselbe. Holzhaus.\n763 Hommel-Fritzsche, August, Mechaniker.\n  Hunziker-Wieland, Elise, Part., von Oberkulm.\n  Binz-Näf, Gustav, Ingenieur, von Bülach (Zürich).\n764 † Derselbe. Holzschopf.\n765 Windisch-Kohler, Samuel, Agent, von Densbüren. General-\n  agentur der schweiz. Lebensversicherungs- und Renten-\n  anstalt in Zürich.\n766 Isler, Emil Peter, Fürsprech u. Notar, v. Wohlen. Advokatur-\n  und Notariatsbureau.\n767 † Derselbe. Holzschopf.\n768 Oehler-Frey, Bertha, Witwe.\n  — -Theiler, Oskar, Ingenieur [tel].\n  Theiler geb. Rebmann, Elise, Part., von Wädensweil (Zürich).\n769 † Dieselbe. Wasch- und Holzhaus.\n770 Offen gelassen.\n771 † Frey, R. und M., Chocolatfabrikanten. Scheune und Remise.\n772 Dieselben. Maschinenhaus.\n773 · Dieselben. Fabrikgebäude. [tel] Bureau.\n774 Dieselben. „\n775 Dieselben. Wohnhaus.\n  Frey-Schindler, Max, Fabrikant.\n  — -Frey, Mina, Witwe, Part.\n776 Dieselben. Kohlenschopf.\n777 Dieselben. Treibhaus.\n778 † Dieselben. Gewächshaus.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 62765,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1877,
+    "lines": 51,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.16,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0016,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:21:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p061",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p061.jpeg",
+      "bytes": 795388,
+      "sha256": "292365874011943284127b2eb632a5baad9c66d60be0553767aba7c79f5c3318",
+      "sha256_of": "original",
+      "working_copy": "1901_p061.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:21:16+00:00"
+  }
+}

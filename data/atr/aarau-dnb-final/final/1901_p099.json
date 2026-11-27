@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p099",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p099.jpeg",
+    "bytes": 844882,
+    "sha256": "424080d6764134677d7b5756c3f894aa7c2e1f092b5cccb9f4726b3f6b035638",
+    "sha256_of": "original",
+    "working_copy": "1901_p099.jpeg"
+  },
+  "text": "86\nBezirksamt, hintere Vorstadt 362. [tel]\nBiber, Theodor, Seidenbandfabrikant und Nähmaschinenhandlung, [tel]\n  Hammer 193.\nBiberstein, Eugen, Spengler, Metzgergasse 78.\nBigler, Hans, Steindrucker, Kasinostraße 654.\nBiland, Karl, Wirt, [tel] (Gasthof z. Ochsen), Laurenzenthorgasse 123.\nBillo geb. Billo, Marie, Kaufmanns, Part., jenseits der Aare 1247.\n— Feodor, Fabrikant, Küttigerstraße 1268. Fabrik und Bureau\n  Hammer 196. [tel]\nBinz, Gustav, Ingenieur, Laurenzenvorstadt 763.\nBircher, Andreas, Kaufmann, Küttigerstraße 1260.\n— Eduard, Sattler, Halden 292. Werkstätte Halden 301.\n— Emil Ludwig, Postcommis, jenseits der Aare 1232.\n— Fanny, Part., obere Vorstadt 519.\n— Heinrich, Dr. med., Direktor der kant. Krankenanstalt, Buchser-\n  straße 956.\n— Jakob, Schlosser, Halden 286a.\n— Julius, Kreisingenieur, Ziegelrain 416. [tel]\n— Karl, Mechaniker, Erlinsbacherstraße 1317.\nBirchmeier, Alfred, Lithograph, Entfelderstraße 1396.\n— August, Maler, Laurenzenvorstadt 793.\n— Eduard, Professor, Buchserstraße 919.\n— Lisa, Bureauangestellte, Laurenzenvorstadt 795.\nBirkhofer geb. Hagenbuch, Albertine, Damenschneiderin, Rain 431.\nBirrer, Robert, Schriftsetzer, Laurenzenvorstadt 712.\nBirri, Fridolin, Posamenter, Scheibenschachen 1328.\n— Wilhelm, Bremser, Rathausgasse 27.\nBitterli, Sigmund, Elektrotechniker, Rathausgasse 13. [tel]\nBläuer, Jakob, Rechnungsrevisor, Rohrerstraße 879.\nBlattner, Anna, Seminarlehrerin, Küttigerstraße 1258.\n— August, Sekretär, obere Vorstadt 525.\n— Emil, Dr. jur., Fürsprech. Advokaturbureau obere Vorstadt 538.\n  Wohnung Küttigerstraße 1258.\n— Hans Rudolf, Landwirt, Erlinsbacherstraße 1310.\n— geb. Hofer, Elisabeth, Witwe, Bahnhofstraße 562.\n— -Jäger, Anna, Witwe, Küttigerstraße 1258.\n— Julius, Buchbinder, Asylstraße 1147.\n— Marie, Weißnäherin, Asylstraße 1147.\nBlum, Karl Richard, Gerichtsschreiber, Schloßplatz 203.\nBlume-Hirt, Maria, Schreiners Witwe, Mühlematt 1512.\n— Philipp, Drechsler, Zollrain 56. Werkstätte Milchstraße 131.\n— Robert, Schreiner, Mühlematt 1512. Werkstätte Hammer 188.\nBöhm, Georg, Seiler, Pelzgasse 102.\n— -Hoffmann, Maria, Maschinenumstrickerin, Pelzgasse 102.\nBörschig, Georg, Bierbrauer, Laurenzenthorgasse 125.\nBodmer, Joh. Julius, Fabrikaufseher, Erlinsbacherstraße 1302.\nBolli, Jakob, Bäckermeister, Pelzgasse 89.\nBolliger, Albert, Bäcker, Milchgasse 157.\n— Albert, Bankbuchhalter, Augustin Kellerstraße 1442.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 39712,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2374,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.34,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:34:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p099",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p099.jpeg",
+      "bytes": 844882,
+      "sha256": "424080d6764134677d7b5756c3f894aa7c2e1f092b5cccb9f4726b3f6b035638",
+      "sha256_of": "original",
+      "working_copy": "1901_p099.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:34:42+00:00"
+  }
+}

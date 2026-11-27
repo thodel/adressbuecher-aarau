@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p060",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p060.jpeg",
+    "bytes": 829382,
+    "sha256": "9f747496e2b0da75f2a5db9700636ec6c6659b764ae4c7d6ab77bad2336113a4",
+    "sha256_of": "original",
+    "working_copy": "1901_p060.jpeg"
+  },
+  "text": "49\nHaus-\nNr.\nHeiz-Neesser, Kornelius, Zimmermann, von Menziken.\nFrei-Hintermann, Johanna, Taglöhners Witwe, von Mellingen.\nMüller, Hs. Jakob, Bauamtsarbeiter, von Unterkulm.\nBrändli-Müller, Elisabeth, Witwe, Spetterin, von Bözberg.\nSchmid-Eng, Peter, Posamenteer, von Herznach.\nMüller-Huber, Jakob, Bahnhangestellter, von Unterkulm.\nSpengler-Hulder, Gottfried, Kutschner, von Lenzburg.\n  — Max, Part., von Lenzburg.\nGygax-Huber, Anna, Strickerin, von Horben, Thurgau.\nBrunner-Lehner, Anna Maria, von Gränichen.\n  — Maria, Weißnäherin, von Gränichen.\nWidmer-Hofmann, Salome, Winderin, von U.-Erinsbach (Sol.)\n728 † Dieselbe. Remise.\n729 † Dieselbe. Maschinenhaus und Werkstatt.\n730 † Dieselbe. Fabrikgebäude.\nGasser & Cie., Seidenfabrikation. [tel]\n731 † Dieselbe. Küche.\n732 Dieselbe. Scheune.\n733 † Dieselbe. Geflügelhaus.\n734 Märki-Wehrli, Jakob, Schuhmacher, von Mönthal.\n735 † Fahrländer-Hunziker, Karl. Treibhaus.\n736 * Vidella, Manuel, Weinhändler. Verkaufsmagazin.\nZimmerli, Emma, von Brittnau. Spezerei- und Cigarrenhdlg.\n737 Vidella-Tarrats, Manuel, von Sitges (Spanien).\nMorgan-Kilpatrick, Henry, [tel] Amerikanisches Konsulat.\nLandolt-Hässig, Lina, Witwe, Part.\nRohr-Hässig, Emma, Witwe, Part.\n738 † Derselbe. [tel] Bureau und Keller.\nFirma: Vidella & Frey, Weinhandlung.\n739 Baumann, Gebrüder, Weinhandlung. Remise.\n740 Dieselben. Remise.\n741 Dieselben. Gartenhaus.\n742 Dieselben. Gartenhaus.\n743 Dieselben. Waschhaus.\n744 Dieselben. Kellergebäude mit Brennerei und Anbauten.\n745 * Riniker, Gebr., Bierbrauer. Speisewirtschaft z. Freihof.\nBaumann-Baumann, Ida, von Stilli, Wirtin z. Freihof [tel].\n  — Karl und Eugen. [tel] Firma: Gebr. Baumann, Weinhand-\n  lung (Bureau).\nKress-Andersen, Karl, Architect, von Wigoltingen (Thurg.).\nMoser, Karl, Architect. Baubüreau.\n746 * Baumann, Gebr., Weinhändler. Wohnhaus. Töchterheim.\nZschokke-Jordi, Elise, Part., Vorsteherin.\nStäbli, Ida, Part., von Brugg.\n  — Henriette Adele, von Brugg.\nCasparis, Emma, Lehrerin am Gewerbemuseum, von Thusis\n  (Graubünden).\n747 † Dieselben. Wasch- und Holzhaus.\n4",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 33777,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2052,
+    "lines": 52,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.25,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:20:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p060",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p060.jpeg",
+      "bytes": 829382,
+      "sha256": "9f747496e2b0da75f2a5db9700636ec6c6659b764ae4c7d6ab77bad2336113a4",
+      "sha256_of": "original",
+      "working_copy": "1901_p060.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:20:47+00:00"
+  }
+}

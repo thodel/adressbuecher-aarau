@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p020",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p020.jpeg",
+    "bytes": 860283,
+    "sha256": "b3966e5e91137be50ba3bc5800111caf8bb1fa2b7030dac90ce92c1f492335ad",
+    "sha256_of": "original",
+    "working_copy": "1901_p020.jpeg"
+  },
+  "text": "9\nHaus-\nNr.\nBaur-Suter, Bernhard, Schneider, von Sarmenstorf.\nLenzin-Kyburz, Joseph, Bureauangestellter, von Oberhof.\n93 Hess-Zürcher, Wilhelm, Pintenwirt.\n94 Fäs-Gall, Rudolf, Kasernier, von Schöttland.\n  Lienhard, Anna, Modistin, von Buchs, Modegeschäft.\n95 Hagnauer, Friedrich, Bürstenfabrikant. Bürstenwarenhandlung.\n  — Hermann, Sohn, Kaufmann.\n  Joos, Anna, Näherin, von Hasle (Bern).\n96 Schaub-Blauenstein, Adelbert, Gipsermeister [tel], von Ettingen\n  (Baselland).\n  Ramsauer geb. Hächler, Anna, Wwe., Part., v. Herisau (App.).\n  Rohr-Blauenstein, Maria Anna, Fabrikarbeiterin, von Hunzen-\n  schwyl.\n97 Rohr-Reimann, Jakob, Kaufmann, Kolonialwarenhandlung. [tel]\n  Hauri-Blanc, Jean, Coiffeur, von Seengen (Coiffurgeschäft).\n98 Häfliger-Hilfinger, Otto, Metzgerei und Speisewirtschaft [tel].\n  — Daniel, Vater, Part., von Oberentfelden.\n99 Schatzmann-Läuchli, Samuel, Buchbinder, von Windisch. [tel]\n  Schreibmaterialien-, Feuerwerk- und Rahmenhandlung.\n100 Hassler-Bircher, Paul, Kupferschmied. Kupferwarenhandlung.\n  Oelhafen geb. Hagnauer, Nanette, Witwe, Part.\n  Seifert-Hüsser, Heinrich, Schneider, v. Falkenstein (Sachsen).\n101 * Suter, Bäcker in Ürkheim und Frei, Obere Mühle Schöttland.\n102 * Willimann-Wehrli, Maria, von Oberhof.\n  Böhm-Hofmann, Georg, Seiler, von Wilchingen (Schaffhausen).\n  Seilerwarenhandlung.\n  — — Maria, Maschinenstrickerin, von Wilchingen (Schaffh.).\n  Wollwarenhandlung.\n  Kallmann, Lidia, Fabrikarbeiterin, v. Müllheim (Großh. Baden).\n  Scherrer-Fässler, Vinzenz, Posamenter, von Seewen (Soloth.).\n103 * Rüetschi, Gottlieb, Part., in Suhr.\n  — -Schneider, Max, Bäckermeister. [tel]\n  — -Nüsperli, Friedrich, Buchhalter.\n104 * Deubelbeiss-Berner, Johann, Spengler, v. Schinznach. (Erbenschaft.)\n  Gysi-Bächli, Adolf, von Buchs, Tapezierer (Möbelmagazin).\n  Lüscher-Lüscher, Rudolf, Ausläufer, von Moosleerau.\n  Plüss-Zimmerli, Jakob, Maurer, von Brittnau.\n  — — Marie, Hebamme, von Brittnau.\n105 * Siebenmann-Hagnauer, Friedrich, Bierbrauer, Stadtrat.\n  Lüthi-Weibel, Elise, Witwe, von Holziken (Wirtin z. Zunft-\n  stubbe). Speisewirtschaft.\n  Wildi-Hagnauer, Friedrich, Postbeamter, von Reinach.\n  Morath-Dilger, Johann, Part.\n106 Weber-Lüscher, Otto, Weinhandlung. [tel]\n  Dr. Keller-Feiss, Gottfried, Fürsprech. Notariats- und Advo-\n  katurbureau.\n  Lüscher-Gloor, Karl, Küfer, von Muhen.\n  Riesterer, August, Mechaniker, von Basel.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 42044,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2378,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.39,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:05:26+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p020",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p020.jpeg",
+      "bytes": 860283,
+      "sha256": "b3966e5e91137be50ba3bc5800111caf8bb1fa2b7030dac90ce92c1f492335ad",
+      "sha256_of": "original",
+      "working_copy": "1901_p020.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:05:26+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p077",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p077.jpeg",
+    "bytes": 886260,
+    "sha256": "78ca2303a513b9957800af414ecde57b3c00fa6d1454c5c39c884c5153815372",
+    "sha256_of": "original",
+    "working_copy": "1901_p077.jpeg"
+  },
+  "text": "66\nHaus-\nNr.\nErismann, Marie, Weißnäherin, von Muhen.\nBlattner, Julius, Buchbinder, von Küttigen.\nZiegler-Erismann, Anna Maria, Köchin, von Veltheim.\n1148 † Derselbe. Holzschohf.\n1149 † Hassler, Aug., Färber. Schofh.\nStritengässchen.\n1150 Wernli-Adel, Jak., Gärtner.\nSuter-Bircher, Albert, Taglöhner, von Kölliken.\nPfeffer-Bruder, Bernhard, Pferdewärter, von Rust (Baden).\n1151 Kielholz-Brogli, Karoline, Witwe, von Mettau.\nBaumann-Stirnemann, Friedrich, Kaufmann, von Bottenwyl.\nSchnezler-Leimgruber, Joh. Rudolf, Bremser, von Kaisten.\nAckermann, Joseph, Part., von Menznau (Luzern).\n1152 * Scheidegger, J. U., Milchhändler. Wohnhaus und Anbau.\nHagnauer-Kaspar, Hans, Heizer.\n— Louise, Glätterin.\nSchenker-Ackermann, August, Fuhrmann, v. Rothacker (Sol.)\n— Emil, Sohn, Fuhrmann, von Rothacker (Solothurn).\n1153 † Derselbe. Waschhaus.\n1154 † Mattenberger, Jak., Metzger. Scheune.\n1155 † Derselbe. Schweinestall und Hühnerhaus.\n1156 † Kull, Philipp's Kinder. Magazin.\n1157 † Dubs, Karl, Metzger. Scheune, Schweineschlachthaus u. Anb.\n1158 † Derselbe. Schofh.\n1159 Liechti-Steinegger, Paul, Dr. Professor, von Murten.\n1160 † Derselbe. Gartenhaus.\n1161 † Siebenmann-Walther, Otto. Gartenhaus.\n1162 Lütolf-Bühler, Joseph, von Luzern. Seifenfabrikation.\nHaueis-Marrer, Joseph, Maurer, von Strengen (Tirol).\nFlösserstrasse.\n1163 † Gamper, Adolf, Metzger. Scheune.\n1164 Hemmeler, Gottl., Werkmeister.\nWeber-Noe, Heinrich, Lithograph, von Reigoldswyl (Baselld.).\nFisch-Vogt, Marie, Witwe, Part.\nHolliger-Rüetschi, Arnold, Schlosser, von Boniswyl.\n1165 * Frauen-Comité. Kleinkinderschule.\nZeller, Lina, Lehrerin, von Oberstammheim (Zürich).\nFrei, Maria, Spetterin, von Densbüren.\n1166 Wehrli-Hemmeler, Johann, Zimmermeister.\nVieten-Höfel, Peter Joseph, Steindruckere, von Herrath (Preuß.)\n1167 Derselbe. Nebengebäude.\nBertschi-Merz, Gottlieb, Schneider, von Dürrenäsch.\n— — Elise, Corsettschneiderin, von Dürrenäsch.\nMerz-Horlacher, Traugott, Telegraphenarbeiter, von Beinwyl.\n1168 † Derselbe. Holzschofh.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17473,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1996,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": true
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:28:34+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p077",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p077.jpeg",
+      "bytes": 886260,
+      "sha256": "78ca2303a513b9957800af414ecde57b3c00fa6d1454c5c39c884c5153815372",
+      "sha256_of": "original",
+      "working_copy": "1901_p077.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:28:34+00:00"
+  }
+}

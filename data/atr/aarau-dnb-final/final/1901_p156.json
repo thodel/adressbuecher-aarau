@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p156",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p156.jpeg",
+    "bytes": 718495,
+    "sha256": "81e29cb18caeb33e3c18a28cd07e695c2c984fbcd04727a3957684dd57465d68",
+    "sha256_of": "original",
+    "working_copy": "1901_p156.jpeg"
+  },
+  "text": "143\n\nCoiffeusen.\nBurkhardt, Lina, Laurenzen thor gasse 117.\nHugi, Marie, Graben 209.\nMürset, Marie, hintere Vorstadt 367.\nSchmidt, Hedwig, Adelbändli 172.\nSeilaz-Brunner, Julie, Rathausgasse 11.\n\nComestibles.\nGloor-Siebenmann, Marie,* Kronengasse 47.\nJäckler-Haller, Joseph,* Laurenzen thor gasse 116.\nSchmid-Maurer, Mathilde,* Rathausgasse 20.\n\nCorsettschneiderin.\nBertschi-Merz, Elise, Flößerstraße 1167.\n\nDachdecker.\nFehlmann, Rudolf, Halden 302.\nSteiner, Gottfried, Bachstraße (Neugut) 1497.\nSandmeier, Kaspar, Golattenmatzgasse 256.\nVogel, Rudolf, Entfelderstraße 1396.\nWägeler, Karl, Gasstraße 1172.\n\nDamens Schneiderinnen.\n  (Siehe Schneiderinnen.)\n\nDampfsäge.\nZschokke, M., Baugeschäft,* Rohrerstraße 903. (S. Inserat Seite 30.)\n\nDelikatessenhandlungen.\n  (Siehe Comestibles.)\n\nDienstmänner.\nHässig, Johann Konrad, Rain 502.\nLenzi, Xaver, Bachstraße 1059.\nSchäfer, Wilhelm, Oberthor 239.\nWittmann, Heinrich, Bahnhofstraße 556.\n\nDrechsler.\nBär, Otto, Entfelderstraße 1380.\nBlume, Philipp, Milchgasse 130.\nHäuptli, Emil, Halden 297.\nHuber, Heinrich, mechanische Drechslerie, Ziegelrain 395.\nKeller, Abraham, Metaldreherei,* Asylstraße 1143. (S. Ins. S. 18.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41762,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1163,
+    "lines": 36,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 30.97,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0017,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:58:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p156",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p156.jpeg",
+      "bytes": 718495,
+      "sha256": "81e29cb18caeb33e3c18a28cd07e695c2c984fbcd04727a3957684dd57465d68",
+      "sha256_of": "original",
+      "working_copy": "1901_p156.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:58:59+00:00"
+  }
+}

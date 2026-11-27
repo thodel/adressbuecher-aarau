@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p147",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p147.jpeg",
+    "bytes": 592421,
+    "sha256": "613b8706a56b380c1f149caeb5faf71600ed465678f0b1ebca9ae1a6eb183caf",
+    "sha256_of": "original",
+    "working_copy": "1901_p147.jpeg"
+  },
+  "text": "134\nZubler, Jakob, Schmied, Asylstraße 1144.\nZulauf, Albert, Bankbeamter, Feerstraße 692.\n  — Jakob, Postcommis, Feerstraße 692.\nZumbühl, Jos. Ant., Knecht, Kirchhof 162.\n  — Sophie, obigen Ehefrau, Wäscherei und Glätterei, Kirchhof 162.\nZumsteg-Jehle, Ursula, Part., Hammer 183b.\nZurlinden, Friedrich, Bankdirektor, Zeughausstraße 665.\n  — Rudolf, Fabrikant, [tel] Bahnhofstraße 569.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 10937,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 384,
+    "lines": 9,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.11,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0052,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:54:00+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p147",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p147.jpeg",
+      "bytes": 592421,
+      "sha256": "613b8706a56b380c1f149caeb5faf71600ed465678f0b1ebca9ae1a6eb183caf",
+      "sha256_of": "original",
+      "working_copy": "1901_p147.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:54:00+00:00"
+  }
+}

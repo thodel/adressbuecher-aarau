@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p063",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p063.jpeg",
+    "bytes": 911320,
+    "sha256": "da138d148bf3fb634702369ee724b0071d544c511a25a61b51b12c379ac032cb",
+    "sha256_of": "original",
+    "working_copy": "1913_p063.jpeg"
+  },
+  "text": "Haus-\nNr.\n— 45 —\nZangerl-Portmann, Johann, Maurerpolier, Flirsch (Tirol).\nPortmann-Emmenegger, Theresia, Part., Escholzmatt (Luzern).\n518 * Wernli, Fritz, Schreinermeister.\nSchatzmann, Heinrich, Schneider, Altenstadt (Deutschland).\n— Magdalena, Fabrikarbeiterin,\nHuber, Jakob, Schneider, Wetsweil (Zürich). \"\n519 * Verein der Freundinnen junger Mädchen, Marthahaus.\nWalther, Bertha, Vorsteherin, Ober-Entfelden [tel].\n— -Wild, Elisabeth, Privatin,\nSchlatter, Emma, Privatin, St. Gallen. \"\nWidmer, Marie, Fabrikarbeiterin, Gränichen.\nIberg, Marie, Seidenbandweberin, Küttigen.\nBaumann, Rosa, Fabrikarbeiterin, Bottenwil.\n520 Andres-Bircher, Friedrich, Privatiér.\n— -Weiß, Fritz, Kaufmann.\nSteinmann-Burkard, Dr., Paul, Professor, Basel.\n523 Hunziker-Graf, Rudolf, Milch-, Käse- und Butterhandlung,\nKirchleerau.\nChristen-Marti, Emil, Kondukteur S. B. B , Seeberg (Bern).\n— Martha, Bureauangestellte, Seeberg (Bern).\nGysi-Fehlmann, Emil, Malermeister.\n525 Hemmeler-Roth, Wilhelm, Kanzlist.\nSchmid-Hecht, Karl, Privatiér, Ober-Erlinsbach.\nLehmann-Oelhafen, Jenny, Witwe, Zofingen.\n— Jenny, Bureauangestellte, Zofingen.\n526 Siegrist-Müller, Albert, Spezeriehandlung, Meisterschwanden.\n— Louise, Meisterschwanden.\n527 Fäs-Lüthi, Gottlieb, mechan. Bauschlosserei, Schöttland.\nHagenbuch-Hagenbuch, Verena, Witwe, Part.\nGöckel-Ernst, Anna, Part., Solothurn.\n534 Gänßlen-Landolt, Karl, Fabrikant.\nGänßlen-Landolt & Cie., Lack- und Farbenfabrik [tel].\n538 Märky-Schaffner, Elise, Witwe, Part.\n— Elsa, Telephonistin.\n— Max, Postbeamter.\nJoho-Gränicher, Rudolf, Steuerverwalter der Stadt Aarau,\nAuenstein.\nBethge-Lerch, Karl, Postpacker, Zofingen.\n— Anna, Schneiderin, Zofingen.\n539 Weigel-Voigt, Heinrich, Schneider, Colberg (Preußen).\nBreitenstein-Mutter, Johann, Gärtner, Bettwil.\nRupp-Wernli, Elise, Fabrikarbeiterin, Reutigen.\nWildi-Wespi, Adele, Witwe, Veltheim.\nHäfeli, Rudolf, Reparateur, Seengen.\nSuter-Schlecker, Gottlieb, Lithograph, Kölliken.\nSchlatter-Mayer, Vinzenz, Maurerpolier, Flirsch (Tirol).",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17791,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1998,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.8,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:50:59+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p063",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p063.jpeg",
+      "bytes": 911320,
+      "sha256": "da138d148bf3fb634702369ee724b0071d544c511a25a61b51b12c379ac032cb",
+      "sha256_of": "original",
+      "working_copy": "1913_p063.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:50:59+00:00"
+  }
+}

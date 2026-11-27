@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p054",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p054.jpeg",
+    "bytes": 860239,
+    "sha256": "d3b01247cde7793ceecbdce67895db9cec9fec7fb0c12ec14485b5ed65b62fee",
+    "sha256_of": "original",
+    "working_copy": "1913_p054.jpeg"
+  },
+  "text": "— 36 —\nHaus-\nNr.\n428 Haffliger-Bolliger, Otto, Sohn, Metzgerei und Wirthschaft [tel].\n  Meyer, Jean, Metzger, Dagmarsellen.\n  Landolt-Hartmann, Emilie, Witwe, Privatin.\n\n   Rain.\n429 Hagenbuch-Müller, Coiffeur und patent. ärztlicher Gehilfe.\n  Müller-Nünlis, Emma, Witwe, Walterswil.\n  Wirth-Richter, Elisabeth, Hägglingen.\n  — Margaritha, Ladentochter, Hägglingen.\n  — Bruno, Elektromonteur, \"\n430 Jörg-Künzli, Joh. Peter, Privatier.\n  — Frida, Coiffeuse, Damenfrisiersalon.\n  Rubé-Schweizer, Fried., Kernmacher, Oppligen.\n431 Siegrist, Hch., Metzgermeister, Schweinemetzgerei.\n  — Hermann, Metzger.\n  — Hch., Bankbeamter.\n  Kyburz, Marianna, Köchin, Ober-Entfelden.\n  Brühlmann-Oelhafen, Anna, Privatin, Muri.\n432 * Keller-Schärer, Maria, Witwe, Wöschnau.\n  Nußbaumer-Dobler, Edmund, Wirt z. Neuen Bund, Mümliswil.\n  — Louise, Mümliswil.\n  Hemmeler-Monhard, Eugen, Telegraphist.\n  Belz, Robert, Ausläufer, Zihl-schlacht.\n  — Fanny, Haushälterin, \"\n  — Hulda, \"\n  — Hedwig, Fabrikarbeiterin, \"\n433 Schädle-Schurter, Alwin, Lithograph, Konstanz.\n  Schurter-Gremminger, Salomon, Lithograph, Eglisau.\n  — Clara, Eglisau.\n  Stirnemann-Lanz, Alfred, Fabrikarbeiter, Gränichen.\n  Wanger-Siebenmann, Sophie, Witwe, Privatin.\n  Hainfeld-Meytsky, Wilhelm, Tanzlehrer, Darmstadt.\n434a Hinden-Hort, August, Spezereihandlung, Gipf-Oberfrick.\n434b Etter-Zurfluh, Reinhard, Milch-, Käse- und Butterhandlung [tel].\n  Hunziker, Alfred, Milchtäger, Kirchleerau.\n436 * Siebenmann, Fritz, Eisenwarenhandlung [tel]. Wohnung Rain 1565\n  Brüllmann-Siebenmann, Ernst, Kaufmann, Hefenhofen (Thurg.).\n  Wehrli, Marie, Wäscherin, Küttigen.\n  — Elisabeth, Vorgängerin, \"\n437 * M. Zschokke A. G., Baugeschäft. Lichtspielhaus.\n  Eberhard-Messer, Joh. Georg, Kinobesitzer, Memmingen.\n  Schaub-Huwiler, Hans, Koch, Ramelsberg.\n  Müller-Giger, Alfred, Hafner, Unter-Kulm.\n  — Alfred, Chauffeur, Unter-Kulm.\n  Messer, Jakob, Operateur, Etzelnkofen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 63738,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1916,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 38.3,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:47:35+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p054",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p054.jpeg",
+      "bytes": 860239,
+      "sha256": "d3b01247cde7793ceecbdce67895db9cec9fec7fb0c12ec14485b5ed65b62fee",
+      "sha256_of": "original",
+      "working_copy": "1913_p054.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:47:35+00:00"
+  }
+}

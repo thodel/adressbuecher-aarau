@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p179",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p179.jpeg",
+    "bytes": 791689,
+    "sha256": "fcb9b69e8740c513efb792b9d9260ae760ca1b60276e17bb290d39be38777d8a",
+    "sha256_of": "original",
+    "working_copy": "1901_p179.jpeg"
+  },
+  "text": "166\nBaumann-Bhend, Elise, Kasinostraße 641.\nBeck, Louise, Adelbändli 173.\nBertschi, Anna, Milchgasse 127.\n— -Lüscher, Louise, Pelzgasse 89.\n— Schwammberger, Marie, Metzgergasse 78.\nBirkhofer-Hagenbuch, Albertine, Rain 431.\nBolliger, Emma, Hammer 190.\n— Pauline, Laurenzenvorstadt 712.\nBrunnhofe, Elise, Rain 496.\nBuchmann, Adele, Zollrain 54.\nDettwyle, Bertha und Lisette, Schloßplatz 202.\nDietiker, Rosa, Laurenzenvorstadt 727.\nEckert, Elise, hinter dem Bahnhof 1009.\nErbin-Zumsteg, Rosalie, Hammer 183b.\nFäs, Bertha, Glatenmatzgasse 256.\nFischer, Luise, Adelbändli 175.\nFrei, Bertha, Holzmarkt 321.\nFurrer-Blume, Mina, Zollrain 60.\nGloor, Bertha, hintere Vorstadt 364.\nGuyot, Maria, Rain 496.\nHächler, Rosa, Kirchgasse 41.\nHeindl-Plüss, Mathilde, Halden 272.\nHencholz, Margaritha, Bahnhofstraße 634.\nHochstrasser (Merz), Marie, Schachen 1117.\n— Mina und Elise, Milchgasse 148.\nHürzeler, Emma, Hammer 183.\nJörg, Emma, Rain 430.\nIsliger, Rosina, Ziegelrain 422.\nKäser, Ida, hinter dem Bahnhof 1007.\nLandolt-Hauptli, Marie, Halden 297.\nMarti, Emilie, Torfeldstraße 849.\n— Lina, Halden 284.\nNeumayer, Frida, Pelzgasse 106.\nPlüss, Anna, hintere Vorstadt 364.\nSalm, Maria, Adelbändli 175.\nSchäubli, Marie, Laurenzenvorstadt 713.\nSchaffner, Emma, Strittengäßchen 1209.\nSchibli, Anna, Graben 221.\nSchmiz, Anna, Zollrain 55.\nSteiner, Bertha, Laurenzenvorstadt 727.\nSuter, Rosa, Laurenzenthorgasse 126.\nRobes et Confection.\nWernli, Elise und Emma, Ziegelrain 397.\nWildi, Anna, Halden 279.\n\nSchreibmaterialienhandlungen.\nHagenbuch, Friedrich,* vordere Vorstadt 333. (S. Inserat Seite 4.)\nHaßler, Theodor, Milchgasse 146.\nSchatzmann, Samuel, Pelzgasse 99.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 17681,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1645,
+    "lines": 49,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 32.57,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0018,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:06:52+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p179",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p179.jpeg",
+      "bytes": 791689,
+      "sha256": "fcb9b69e8740c513efb792b9d9260ae760ca1b60276e17bb290d39be38777d8a",
+      "sha256_of": "original",
+      "working_copy": "1901_p179.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:06:52+00:00"
+  }
+}

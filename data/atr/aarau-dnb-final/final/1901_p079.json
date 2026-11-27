@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p079",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p079.jpeg",
+    "bytes": 773629,
+    "sha256": "4867d8aff1fe66fca9ef37b131d47aa23fa12f131bb044f269242bf78d11b73d",
+    "sha256_of": "original",
+    "working_copy": "1901_p079.jpeg"
+  },
+  "text": "68\nHaus-\nNr.\n1193 * Camisasca, Franz. Wohnhaus.\nKern-Frei, Jakob Walter, Commis, von Berlingen (Thurgau).\nHässig-Elmer, Emil, Postcommis.\nHerzig-Camisasca, Fritz, Schneider, Sekt.-Chef, von Wynaau\n  (Bern).\nHassler, Heinrich, Fürsprech, Direktionsschretär.\n  — Gustav, Maler.\n  — Adele, Haushälterin.\n1194 Häusler-Schmid, Angelus, Maler, von Schwaderloch.\n  — -Zähner, Emil, Maler, von Schwaderloch.\n  — Julie, Glätterin, von Schwaderloch.\n\nStritengässchen.\n1195 † Häfliger, Otto, Metzger. Scheune mit Anbau.\n1196 † Hilfiker-Wilhelm, Emilie, Witwe, von Safenwyl.\n  Hunziker-Säuberli, Marie, Witwe, von Gontenschwyl.\n  — Adolf, Commis, von Gontenschwyl.\n1197 † Häfliger, Otto, Metzger. Schopf.\n1198 † Derselbe. Gartenhaus.\n1199 † Käser-Laurent, Emil, Gärtner, von Oberflachs. Schopf.\n1200 Derselbe. Wohnhaus und Anbau.\n1201 † \" Hühner-Haus.\n1202 † \" Holzhauz.\n1203 † \" Gewächshaus.\n1204 † \" Gartenhaus.\n1205 Wernli-Häfliger, Jb., Gärtner, von Thalheim.\n  Bürgin, Rosa, Fabrikarbeiter, von Häfelingen (Baselland).\n1206 † Derselbe. Treibhaus.\n1207 † \"\n1208 Bertschi-Siegrist, Gottl., Briefträger, von Dürenäsch.\n  Hubert-Ruchti, Rudolf, Telephonarbeiter, von Mauraz (Waadt).\n1209 Schaffner-Fuhremann, Samuel, Landwirt, von Effingen.\n  — -Frick er, Johanna, Witwe, Part., von Effingen.\n  — Emma, Damenschneiderin, von Effingen.\n1210a † Derselbe. Schöpfe.\n1210b † Richner, Konrad, Seilers Erben. Schöpfe (Seilerbahn).\n1211 † Schaffner, Samuel. Treibhaus.\n1212 † Derselbe. Scheune und Anbau.\n1213 Schmid, Gebr. Wohnhaus und Anbau.\n  — -Schmid, Samuel, Commis.\n  — -Kollmar, Albert, Schriftsetzer.\n1214 † Dieselben. Waschhaus.\n1215 † Reformirte Kirchgemeinde. Gartenhaus.\n1216 Brunner-Seiler, Hch., Bahnarbeiter.\n  Andres-Schwendimann, Emil, Bahnarbeiter.\n  — Jakob, Bauamtzarbeiter.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 41360,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1776,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 35.38,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:29:16+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p079",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p079.jpeg",
+      "bytes": 773629,
+      "sha256": "4867d8aff1fe66fca9ef37b131d47aa23fa12f131bb044f269242bf78d11b73d",
+      "sha256_of": "original",
+      "working_copy": "1901_p079.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:29:16+00:00"
+  }
+}

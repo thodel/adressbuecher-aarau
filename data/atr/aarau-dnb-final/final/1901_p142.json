@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p142",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p142.jpeg",
+    "bytes": 871402,
+    "sha256": "9b8514e415927457293bfe20a081b4614a0a7a92463dcc3b8ba414a0d4891f37",
+    "sha256_of": "original",
+    "working_copy": "1901_p142.jpeg"
+  },
+  "text": "129\nWeber, Heinrich, Lithograph, Flößerstraße 1164.\n  — Heinrich, Kaufmann, Spezialität in Damenkleisterstoffen, Lau-\n  renzenthorgasse 126.\n  — Jakob, Bankabwart, Strittengäßchen 1220.\n  — Otto, Weinhandlung, Pelzgasse 106. [tel]\n  — Regina, Part., Rain 461.\n  — -Suter, Ida, Modistin, Modegeschäft, Laurenzenthorgasse 126.\n  — Theodor, Commis, Adelbändli 171.\n  — Theresia, Ladentochter, Rathausgasse 28.\n  — Wilhelm, Milchverkäufer, Erlinsbacherstraße 1314.\nWeberus, Andreas, Gärtner, Pelzgasse 112.\nWegelin, Joh. Rud., Architect, hinter dem Bahnhof 1004.\n  — geb. Riesch, Maria, Part., hinter dem Bahnhof 1004.\nWehrlí, Adolf, Cementarbeiter, Erlinsbacherstraße 1305.\n  — Albert, Wirt z. Schwyzerhüsli, Kasinostraße 656.\n  — Andreas, Zimmermann, Rain 436.\n  — Anna, Glätterin, Ziegelrain 420.\n  — Elisabeth, Vorgängerin, Rain 436.\n  — Emil, Bankkassier, Bachstraße 1088.\n  — Emil, Briefträger, Milchgasse 143.\n  — geb. Faßler, Elisabeth, Spetterin, Kirchhof 161a.\n  — Friedrich, Gärtner, Scheibenschachen 1323.\n  — Friedrich, Pedell, Bahnhofstraße 592.\n  — geb. Fuß, Barbara, Postfakteurs Witwe, Milchgasse 143.\n  — Hans, Gipsmeister, Halden 270.\n  — Hans, Heizer, Scheibenschachen 1332b.\n  — Jakob, Hafner, Erlinsbacherstraße 1314.\n  — J., Sekretär und Betriebsbeamter, Schachen 1136.\n  — Jakob, Wassertechniker, Kasinostraße 656.\n  — Jakob, Fabrikarbeiter, Ziegelrain 420.\n  — Jean, Gärtner, [tel] Flößerstraße 1184.\n  — Johann, Zimmermann, Flößerstraße 1166.\n  — Johann Heinrich, Holzsplalter, Halden 294.\n  — Karl Emil, Architect zur „Erika\", Herzogstraße 991.\n  — Karl, Lithograph, Scheibenschachen 1332b.\n  — geb. Kähr, Maria, Witwe, Rain 497.\n  — Maria, Spetterin, Rain 436.\n  — Rudolf, Geschäftsführer d. Aarg. Ersparniskasse, Konradstr. 1419.\n  — Rudolf, Maschinenmeister, Milchgasse 148.\nWeibel, Adolf, Zeichnungslehrer, Laurenzenvorstadt 800.\nWeibezahl, Leonhard, Apotheker, [tel] Rathausgasse 6.\nWeigel, Heinrich, Schneider, Laurenzenvorstadt 713.\n  — Joh., Part., Tellí 859.\nWeikgenannt geb. Käser, Verena, Näherin, Rathausgasse 16.\nWeingärtner, Zacharias, Schneider, Adelbändli 167.\nWeiss, Karoline, Fabrikarbeiterin, Milchgasse 150.\n  — Niklaus, Sekretär der Staatsanwaltschaft, Bachstraße 1069.\nWeisshaupt geb. Landolt, Elisabeth, Witwe, Laurenzenvorstadt 788.\nWellenberg geb. Schaffner, Albertine, Revisors Witwe, Halden 264.\n9",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 21308,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2347,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 43.59,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:52:05+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p142",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p142.jpeg",
+      "bytes": 871402,
+      "sha256": "9b8514e415927457293bfe20a081b4614a0a7a92463dcc3b8ba414a0d4891f37",
+      "sha256_of": "original",
+      "working_copy": "1901_p142.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:52:05+00:00"
+  }
+}

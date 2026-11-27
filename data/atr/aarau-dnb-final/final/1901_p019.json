@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p019",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p019.jpeg",
+    "bytes": 855136,
+    "sha256": "5f3b7bafeb8ec74c50d44e7a39e652ce7726ac48794fb193a7c3ea782862e6fe",
+    "sha256_of": "original",
+    "working_copy": "1901_p019.jpeg"
+  },
+  "text": "8\nHaus-\nNr.\nZimmerli, Emma, Verkäuferin, von Brittnau.\nBiberstein-Spicher, Eugen, Spengler, von Bözingen (Bern).\nBär-Suter, Samuel, Taglöhner, von Vordemwald.\nBachmann-Dätwyler, Maria Elise, Part., von Bottenwyl.\n79 * Gundle-Wassmer, Joh. Jakob, Bierbrauer in Buchs.\nStirnemann-Henzmann, Jakob, von Gränichen. Holz-, Kohlen-,\n  Käse-, Milch- und Butterhandlung.\nMeierhofer-Lang, Rudolf, Güterschaffner, von Weiach (Zürich).\n80 † Gemeinde Aarau. Schlachthaus.\n81 Wirth-Herzog, Jakob, Part.\n  — -Voser, Franz, Kaufmann. Lebens- und Unfallversicherung.\n  Auswanderung.\nRüegg-Wirth, Fanny, Witwe, Part., von Bauma (Zürich).\nFröhlich geb. Fröhlich, Sophie, Oberrichters Witwe, von Brugg.\nStadthof.\n82a Dambach-Heiniger, Elise, Postangestellten Witwe, v. O.-Bözberg.\nHess-Stirnemann, Jak. Andreas, Müller, v. Dürrenroth (Bern).\nFlückiger-Trösch, Gottfried, Pferdewärter, von Auswyl (Bern).\nTrösch-Schütz, Anna, Haushälterin, von Thunstetten (Bern).\n82b † Gundel, Joh. Jakob, Bierbrauer in Buchs. (Keller.)\n83a Gisi-Wernli, Samuel, Schreinermeister.\n83b † Gundel, Joh. Jakob, Bierbrauer in Buchs. (Anteil.)\n84a Rothpletz-Siebenmann, Maria Elisabeth, Schreiners Wwe. (Anteil).\nLässer-Gränicher, Susette, Witwe, Part., von Gontenschwyl.\nZimmerli, Johann, Holzer, von Unterentfelden.\nNiederhuser, Marie, Spetterin, von Eriswyl (Bern).\n84b Schmid-Schickler, Hans, Briefträger. (Anteil.)\n85 * Rothpletz-Siebenmann, Maria Elisabeth, Schreiners Witwe.\nGing-Hug, August, Bauamtsarbeiter.\nGloor-Gloor, Heinrich, Zimmermann, von Birr.\n86 Eberle-Heer, Franz, Müller, [tel] von Gossau (Zürich). Mehl-\n  handlung.\n87 † Derselbe. Kunstmühle, Transmission.\nFlach, Johann, Müller, von Bonndorf (Baden).\n88 Bossard, Geschwister, von Effingen.\n  — Maria, Wagenputzerin, von Effingen.\n  — Anna Maria, Part., von Effingen.\nMüller-Urech, Otto, Fabrikarbeiter, von Unterkulm.\nPelzgasse.\n89 Bolli-Hunziker, Jakob, Bäckermeister, von Altdorf (Schaffh.).\nBertschi-Lüscher, Louise, Damenschneiderin, von Dürrenäsch.\n90 Wassmer-Ott, Fidel, Schneidermeister.\n91 * Widmer, Xaver, Hausknecht z. Ochsen, von Freienwyl.\nBaumann, Emma, Modistin, von Oberentfelden. Modegeschäft.\n92 Egloff-Marti, Franz, Postangestellter, von Wettingen.\n  — — Lina, Spezeriehandlung.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 70548,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2225,
+    "lines": 49,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.14,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:04:44+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p019",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p019.jpeg",
+      "bytes": 855136,
+      "sha256": "5f3b7bafeb8ec74c50d44e7a39e652ce7726ac48794fb193a7c3ea782862e6fe",
+      "sha256_of": "original",
+      "working_copy": "1901_p019.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:04:44+00:00"
+  }
+}

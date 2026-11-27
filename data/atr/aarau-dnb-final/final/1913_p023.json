@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p023",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p023.jpeg",
+    "bytes": 921983,
+    "sha256": "667f3537e50c0daaba700d64592bc11e8cf193e74305a1c271a07b9970dc19b5",
+    "sha256_of": "original",
+    "working_copy": "1913_p023.jpeg"
+  },
+  "text": "— 9 —\nHaug-\nNr.\nZimmerli, Wilhelm, Pflästerer, Unter-Entfelden, Bureau.\nLeu-Furter, Jakob, Bauamtsarbeiter, Schloßrued.\n— Rosa, Fabrikarbeiterin, Schloßrued.\n80† Gemeinde Aarau, Schlachthaus.\n81* Wirth-Voser, Franz, Versicherungsbureau.\nMoro-Simon, F., Zürich. [tel] Kolonialwaren, z. billigen Laden.\nSchuhmacher-Frey, Friedrich, Bezirkslehrer, Bern.\nFrey-Trautwyler, Sophie, Privatin, Bern.\nIrschlinger-Schneider, Emma, Mannheim.\nSchneider, Pauline, Privatin, Obereisesheim.\nBourquin-Besson, Albert, Kommis, Sonvillier (Bern).\nStadthöfli.\n82a* Dambach-Heiniger, Elise, Privatin.\nSartirana-Joß, Celestino, Magaziner, Viovera (Italien).\nLüthi-Fehlmann, Robert, Küfermeister, Lauperswil.\nGloor-Bolliger, Arnold, Knecht, Birrwil.\n83a und b * Stirnemann-Henzmann, Th., Witwe, Gränichen.\nLüthi, Eduard, Sattlerwerkstätte. Wohnung: Metzgergasse 66.\nDeubelbeiß-Wernli, Elisabeth, Taglöhnerin, Veltheim.\nPodolak-Niederhäuser, Karl, Handlanger, Jungbunzlau (Oesterr.).\n84a Dambach-Heiniger, Elise, Privatin.\nFaccani, Giacinto, Kostgeber, Fortico (Italien).\n84b Schmid-Schickler, Josephine, Privatin.\n85 * Dambach-Heiniger, Elise, Privatin.\nFaccani, Giacinto, Kostgeberei, Fortico (Italien).\nFontanini-Avanzolini, G., Handlanger, Cremona (Italien).\n86 Eberle-Heer, Franz, Mühlebesitzer, z. Stadtmühle, Goßau [tel].\n88* Bossard, Geschwister, Effingen.\nPelzgasse.\n89 Bolli-Hunziker, Jakob, Bäckermeister.\n90 Waßmer-Ott, Fidel, Schneidermeister. Maßgeschäft.\n— Marie, Damenschneiderin.\n— Martha.\n91 Widmer, Joh. Xaver, Privatierr, Frienwil.\nFrey-Fäs, Emma, Modegeschäft, Brugg.\nAmacher, Anni, Modistin, Altorf.\n92 Schaupp-Leppig, Franz, Laborant, Huttikon (Zürich). Spezerrei-\nhandlung und Salzverkauf.\nCattin-Wärtili, Emil, Bureaulist, Les Bois (Bern).\nDecker, Elise, Privatin.\n93* Falkenbräu Baden. Restaurant.\nStalder-Messerli, Fritz, Wirt, Lützelflüh.\nHauptli, Hans, Taglöhner, Biberstein.\nPlaz-Schuppiser, Bonifazius, Küfer, Savognin.\nStegmaier, Otto, Bierbrauer, Ueberlingen.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 27338,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1968,
+    "lines": 48,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 40.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:31:23+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p023",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p023.jpeg",
+      "bytes": 921983,
+      "sha256": "667f3537e50c0daaba700d64592bc11e8cf193e74305a1c271a07b9970dc19b5",
+      "sha256_of": "original",
+      "working_copy": "1913_p023.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:31:23+00:00"
+  }
+}

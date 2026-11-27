@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p253",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p253.jpeg",
+    "bytes": 807039,
+    "sha256": "aa4c6a170918ccd7d695f6571c323a519bbcd765f1cdba897c331e5ce3f72750",
+    "sha256_of": "original",
+    "working_copy": "1913_p253.jpeg"
+  },
+  "text": "— 219 —\nLehner, A. Agnes, Privatehrin. Metzgergasse 77.\nOelhaven, Helene, Zitherlehrerin. Rain 436.\nRödelberger, Franz, Musiklehrer. Hinter dem Bahnhof 1030.\nThom, Franz, Trompeterinstruktor. Pestalozzistr. 1586.\nSpühler, Anna, Zeichnungslehrerin. Bachstraße 1091.\nZürcher, Ida, Musiklehrerin. Laurenzenvorstadt 748.\n  Klavierlehrerinnen siehe diese.\nLeitermacher.\nUrech, Jakob. Oberholzstraße 474.\nLimonadefabrikanten.\nCologna, Pietro. Halden 287.\nLutz-Suter, Theodor. Laurenzenvorstadt 793.\nRüegg, Emil [tel]. Schloßplatz 198.\nLingeriewaren.\n*Bolliger-Manger. Hintere Vorstadt 366.\n*Erdin, Kaufmanns Witwe [tel]. Rathausgasse 13.\n*Erny-Bauer, C [tel]. Kronengasse 42 und Bahnhofstraße 1812.\n*Frey-Kieser. Rathausgasse 18.\n*Gsell-Adam, Mina. Bahnhofstraße 555.\n  Heß, Lina. Bahnhofstraße 634.\n*Heß, Gebr., zur Stadt Müllhausen [tel]. Rathausgasse 5.\n  Lechner-Wirth, Emma. Vordere Vorstadt 332.\n*Schmid-Fischer, Heinrich. Laurenzentorgasse 114.\n— Geschwister. Bahnhofstraße 621.\n  Widmer-Suter, Emma. Pelzgasse 104.\nLinieranstalt.\n*Wülser, Samuel [tel]. Laurenzentorgasse 119.\nLithographische Anstalten.\n*Huber & Anacker [tel]. Schönenwerderstraße 1529.\n*Kohlmann & Läuchli [tel]. Bachstraße 1103.\n  Schädle, Alwin. Rain 433.\n*Trüb & Cie. [tel] Bahnhofstraße 578 a u. b.\nLohnkutschereien.\nKeller-Schmid, Ernst [tel]. Kasinostraße 647.\nSchmid-Jäger, Emil [tel]. Schmiedgasse 381.\nMalermeister.\nAndermatt-von Däniken, Albert. Ziegelrain 421.\nBirchmeier, August. Buchserstraße 918.\nDäster-Freiermuth, Gottfried [tel]. Spitalgäßli 1710.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 36018,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1533,
+    "lines": 40,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.1,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.002,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:10:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p253",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p253.jpeg",
+      "bytes": 807039,
+      "sha256": "aa4c6a170918ccd7d695f6571c323a519bbcd765f1cdba897c331e5ce3f72750",
+      "sha256_of": "original",
+      "working_copy": "1913_p253.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:10:42+00:00"
+  }
+}

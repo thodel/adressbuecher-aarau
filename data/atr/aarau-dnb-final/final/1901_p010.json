@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p010",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p010.jpeg",
+    "bytes": 852996,
+    "sha256": "877c154143eb467ee42c44cc317e0ea0ff445a9ce6796bce5378aebe16befa68",
+    "sha256_of": "original",
+    "working_copy": "1901_p010.jpeg"
+  },
+  "text": "Verzeichnis d. Strassen u. Plätze im Stadtbezirk Aarau.\n\nGebäudeverzeichnis Seite\nAdelbändli . . . . . . . 15\nAugustin Keller-Straße . 78, 80\nAsylstraße . . . . . . . 65\nBachstraße . . . . . 61, 80\nBahnhof . . . . . . . . 52\nBahnhofstraße . . . . . 40\nBankstraße . . . . . . . 61\nBalainenweg. . . . . . —\nBinsenhof . . . . . . . 79\nBleichemattstraße . . . 60\nBuchserstraße . . . . 56, 57\nEntfelderstraße . . . . 75\nErlinsbacherstraße . . 72, 74\nFärbergäßli. . . . . . —\nFeerstraße . . . . . . . 46\nFlößerstraße . . . . . 66, 67\nFloßplatz. . . . . . . —\nGartenstraße . . . . . 67, 78\nGassstraße . . . . . . . 67\nGishügel . . . . . . . . 71\nGolattenmattgasse . . . 21\nGoldern . . . . . . . . 79\nGönhardfeldweg . . . . 78\nGrabenstraße (und Allee) 18\nHalden . . . . . . . . . 21\nHammer . . . . . . . . 16\nHerzogstraße . . . . . 59\nHinter dem Bahnhof . 59, 61\nHinter dem Platz . . . 20\nHintere Vorstadt . . . 28\nHohlweg . . . . . . . . 75\nHolzmarktplatz . . . . 26\nHungerberggäßli. . . . —\nHungerbergstraße. . . —\nJenseits der Aare . . . 69\nIm Hammer . . . . . . . 16\nIm Zegli . . . . . . . . 79\nIndustriestraße . . . . 56\nJurastraße . . . . . . . 79\nKirchgasse . . . . . . . 4\nKirchhof . . . . . . . . 14\nKasernenplatz. . . . . —\nKasinoplatz. . . . . . —\nKasinostraße . . . . . 44\nKonradstraße . . . . . 77\nKronengasse . . . . . . 4\nKütigerstraße . . . . . 70\n[spalte 2]\nGebäudeverzeichnis Seite\nLaurenzenvorstadt . . . . . 47\nLaurenzenthorgasse . . . . 10\nMeyer'sche Promenade . .\n  (Hungerberg). . . . . . . —\nMetzgergasse . . . . . . . 7\nMilchgasse . . . . . . . . 11\nMühlematt (Zollrain) . . . 71\nOberholzstraße. . . . . . —\nOberthor . . . . . . . . . 20\nObere Vorstadt . . . . . . 37\nPhilosophenweg (Lauren-\n  zen vorstadt). . . . . . . —\nPelzgasse . . . . . . . . 8\nRain . . . . . . . . . . . 33\nRathausgasse . . . . . . . 1\nRathausplatz (u. Rathausgarten). —\nRoggenhauserstraße. . . —\nRoggenhausen . . . . . . 79\nRohnerstraße . . . . . . . 55\nSchachen . . . . . . . . 64, 69\nSchanze. . . . . . . . . —\nSchanzmättli. . . . . . . —\nSchanzrain. . . . . . . . —\nScheibenschachen . . . . 73\nSchifflände. . . . . . . . —\nSchloßplatz . . . . . . . 17\nSchmiedgasse . . . . . . 30\nSchönenwederstraße . . . 79\nSchulhausplatz. . . . . . —\nStadthof . . . . . . . . . 8\nStorchengäßchen. . . . . —\nStrittengäßchen (Vor dem\n  Haldenthor) . . . . . . . 66, 68\nSpitalgäßli. . . . . . . . —\nTelli . . . . . . . . . . . 53\nTellipatz (Turnplatz). . . —\nTellrain . . . . . . . . 53, 80\nTorfeldstraße . . . . . . 57\nViehmarktplatz (Schachen). —\nVordere Vorstadt . . . . . 26\nWeinberg . . . . . . . . 71\nWeltistraße . . . . . . . 78, 80\nZegli . . . . . . . . . . . 79\nZeughausstraße . . . . . 45\nZiegelrain . . . . . . . . 31\nZollrain . . . . . . . . . 5\nZschokkestraße . . . . . 77",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38392,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2762,
+    "lines": 98,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0102,
+    "mean_line_chars": 27.12,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:00:42+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p010",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p010.jpeg",
+      "bytes": 852996,
+      "sha256": "877c154143eb467ee42c44cc317e0ea0ff445a9ce6796bce5378aebe16befa68",
+      "sha256_of": "original",
+      "working_copy": "1901_p010.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:00:42+00:00"
+  }
+}

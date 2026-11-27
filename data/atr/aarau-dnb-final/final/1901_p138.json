@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p138",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p138.jpeg",
+    "bytes": 883793,
+    "sha256": "d6ad1d7ab08cfee7920b3a31a56347f39ecca3f62d539f988b4fd6fbd916e398",
+    "sha256_of": "original",
+    "working_copy": "1901_p138.jpeg"
+  },
+  "text": "125\nSteiner geb. Schürch, Anna, Witwe, Vertreterin des Blumenbazar,\n  Graben 221. Wohnung hintere Vorstadt 358.\nSteiniger, Leontine, Part., vordere Vorstadt 340.\nStephani, Alfred, Versicherungsagent, jenseits der Aare 1246.\n— Emma, Lehrerin, jenseits der Aare 1246.\n— Fritz, Commis, Bachstraße 1098.\n— geb. Heckmann, Wilhelmine, Witwe, Part., jenseits der Aare 1246.\n— Marie, Buchhalterin, jenseits der Aare 1246.\n— geb. Wettler, Albertine, Fabrikants Witwe, Bachstraße 1084.\n— geb. Winkler, Margarita, Kaufmanns Witwe, Colonialwaren-\n  handlung, Rathausgasse 17.\nStierli geb. Andres, Elise, Witwe, obere Vorstadt 519.\n— Cäcilia, Part., Rathausgasse 2.\n— Elise, Part., Rathausgasse 2.\n— Goar Leonz, Fürsprech und Notar, Vize-Stadtammann, Wohnung\n  Laurenzenvorstadt 796, Advokaturbureau Graben 228.\n— Marie, Ladendienenin, Rathausgasse 2.\n— Samuel, Kondukteur, Kirchhof 161b.\n— Sophie, Damenschneiderin, Rathausgasse 2.\nStigeler geb. Schaub, Zeughausdirectors Witwe, Zschokkestraße 1426.\nStiner, Karl, Lehrer, obere Vorstadt (Hohlgasse) 1373.\nStirnemann, Jakob, Zimmermann, Gölattenmattgasse 255.\n— Jakob, Holz-, Kohlen-, Milch- und Käsehandlung, Metzgerg. 79.\n— Johann, Taglöhner, Halden 298.\n— Marie, Fabrikarbeiterin, Laurenzenvorstadt 727.\nStöckli, Elisabeth, Haushälterin, Schmiedgasse 383.\n— Stephan, römisch-katholischer Pfarrer, Schmiedgasse 383.\nStocker, Johann, Fabriksaufseher, Küttigerstraße 1257.\nStoffel, Elise, Entfelderstraße 1404.\nStrasser, Eduard, Obermüller, Milchgasse 139.\nStrauss, Guntram Markus, Stationsgehülfe, Bleichemattstraße 1016.\nStrebel, Eduard, Schreiner, Rain 477.\n— Joseph, Schuhmacher, Kirchgasse 38.\n— Karl, Sekretär, Halden 284.\n— Martina, Spetterin, Zollrain 56.\n— Varena, Spetterin, Zollrain 56.\n— Waldburga, Näherin, Zollrain 56.\nStrich, Julius Wilhelm, Halbleinfabrikant, Ziegelrain 397.\nStreit, Benedikt, Dr. med., Laurenzenvorstadt 788. [tel]\n— geb. Hegnauer, Mina, Part., vordere Vorstadt 348.\n— Heinrich, Commis, vordere Vorstadt 348.\n— Mina, Postangestellte, vordere Vorstadt 348.\nStrübin, August, Wirt, Restauration z. vis-à-vis, Metzgergasse 70.\nStuder, Adeline, Wirtin z. Tivoli (Speisewirthschaft), Entfelderstr. 1394.\nStudler geb. Sandmeier, Anna, Witwe, vordere Vorstadt 332.\nSuedler, Hermann, Koch, Torfeldstraße 945.\nSüdbahnbüreau, hinter dem Bahnhof 1031.\nSuter, Albert, Taglöhner, Strittengässchen 1150.\n— Anna Elisabeth, Spetterin, Milchgasse 154.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 44147,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2404,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 46.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0008,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:50:36+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p138",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p138.jpeg",
+      "bytes": 883793,
+      "sha256": "d6ad1d7ab08cfee7920b3a31a56347f39ecca3f62d539f988b4fd6fbd916e398",
+      "sha256_of": "original",
+      "working_copy": "1901_p138.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:50:36+00:00"
+  }
+}

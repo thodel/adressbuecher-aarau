@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p084",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p084.jpeg",
+    "bytes": 941090,
+    "sha256": "b8e050bf50cbf04bf2440c509248114bfb8d6544148e1009a0b08f508e301288",
+    "sha256_of": "original",
+    "working_copy": "1913_p084.jpeg"
+  },
+  "text": "— 64 —\nHaus-\nNr.\n1791 Schäfer-Brugger, Adolf, Architect [tel].\n952 * Wüest-Senn, Witwe.\n  Henz-Wüest, Fritz Otto, Dr. phil., Kaufmann.\n949 Aeschbach-Urech, Friedrich, Maschinenfabrikant, Reinach [tel].\n  — Jakob, Schlosser, Reinach.\n  — Sophie, Bureaulistin, Reinach.\n953 Frey-Wirz, Jakob, Schneidermeister, Tuchhandlung.\n  Hälry-Baumann, Arnold, Postbeamter, Birrwil.\n  — Adèle, Bureaulistin, Birrwil.\n  — Arnold, Ingenieur,\n  \"\n  Keller-Reinhard, Ernst, Lok.-Heizer S. B. B., Weinfelden (Thurg.).\n954 Müller-Stöckli, Rosina, Witwe, Muri.\n  Kipfer, Christ., Kommis, Langnau.\n  Bader, Robert, Bureauangestellter, Langenbruck.\n  Bolliger-Racine, Adolf, Dekorateur, Küttigen.\n  Häfeli-Frey, Heinrich, Privatier, Gontenschwil.\n  Gautschi, Gertrud, Bureaulistin.\n1601 Baumann-Beck, Jakob, Grundbuchverwalter, Niederlenz.\n1542 Werwli-Wernli, Julius, Lagerhaus-Kassier.\n  Goßweiler-Gyger, Otto, Geometer, Dübenzorf.\n955 Glauser-Rodel, Gottfr., Spezerel- und Käsehändlung, Rüschegg\n  (Bern).\n  Rohr-Heiz, Hermann, Kaufmann, Hunzenschwil.\n  Sarbach, Adolf, Maschinentechniker, Adelboden.\n1547* Hofmann, Jakob, Landwirts Erben.\n  Bühler-Schmid, Fritz, Lok.-Heizer S. B. B., Zürich.\n  Michel, Adolf, Kaufmann, Köniz.\n  Frey-Bütticaz, Johann, Elektriker, Eglisau (Zürich).\n  — Spring, Arnold, Part.,\n  \"\n956 * Staat Aargau. Kantonale Krankenanstalt. \"\n  Bircher-Schatzmann, Heinrich, Dr. med., administrativer Di-\n  rektor und Oberarzt der chirurgischen Abteilung [tel].\n  — Heinrich, Fabrikdirektor.\n  Dardel, Alice, Buchhalterin, Aarberg.\n  Acklin-Jäger, Emil, Verwalter der kantonalen Krankenanstalt,\n  Herznach [tel].\n  Stirnemamm, Amalie, Portière, Gränichen [tel].\n  Richner, Lina, Portière.\n  Bopp, Anna, \" Birmenstorf.\n  Kuhn-Gall, Karl, Obergärtner, Suhr.\n  Dudli, Robert, Wärter, Ober-Utzwil.\n  Meier, Melchior, \" Villmergen.\n  Erb, Mathilde, Wärterin, Wölflinswil.\n  Füglitalle, Anna, Wärterin, Stilli.\n  Förderer, Anna, Lingerie.\n  Bány, Elisabeth, Wärterin, Uerkeheim.\n  Salm, Susanna, \" Veltheim.\n  Schilling, Theresia, \" Ob.-Frick.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 38966,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2035,
+    "lines": 53,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0189,
+    "mean_line_chars": 35.91,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:57:13+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p084",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p084.jpeg",
+      "bytes": 941090,
+      "sha256": "b8e050bf50cbf04bf2440c509248114bfb8d6544148e1009a0b08f508e301288",
+      "sha256_of": "original",
+      "working_copy": "1913_p084.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:57:13+00:00"
+  }
+}

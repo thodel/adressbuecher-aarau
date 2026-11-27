@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p248",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p248.jpeg",
+    "bytes": 906975,
+    "sha256": "a37fa749390ae8e68404f525e41139e45113a43d910b343a8aed40eacc8b8dad",
+    "sha256_of": "original",
+    "working_copy": "1913_p248.jpeg"
+  },
+  "text": "— 214 —\nDenzler-Geiger, Hans. Bahnhofstraße 590.\nDeron-Ineichen, Eugen. Bachstraße 1827.\nFahrländer-Johannes, Eugen Rain 489.\nFierz, Max. Bleichemattstraße 1029.\nFornerod-Oederlin, Alfred. Baschstraße 1825.\nGeier, Oskar [tel]. Bahnhofstraße 578 b.\nGmür, Gottlieb. Torfeldstraße 951.\nGrosjean-von Känel, Sigmund. Entfelderstraße 1555.\nGruner-Pichler, Otto. Hinteres Zegli 1693.\nHartig-Müller, Otto. Bahnhofstraße 1813.\nHellenbroich-Kempf, Wilh. [tel]. Bahnhofstr. 578b.\nKauffmann-Schumacher, Wilhelm. Bahnhofstraße 575.\nKeller-Merz, Martin [tel]. Jurastraße 1617.\nKohler-Wymann, Friedrich Alfred. Bleichemattstraße 1015.\nKuhn, Theodor. Entfelderstraße 1402.\n*Lüscher, Gottlieb, Dr. [tel]. Bahnhofstraße 624.\nMarmy-Fasel, Charles. Feerstraße 681.\nMussotter-Sporrer, Otto. Schönenwerderstraße 1685.\nNabholz-Benker, Georg. Feerstraße 681.\nOehler-Waßmer, Alfred [tel]. Graben 227.\nPeter-Gerber, Arthur. Obere Vorstadt 548.\nRüttimann-Ludwig, Eugen. Weltistrase 1486.\nRutishauser-Boßhard, Arnold. Bleichemattstraße 1662.\nRychner-Heß, Louis, Agenturen [tel]. Rain 444.\nSchantz, Friedrich. Buchserstraße 919.\nSchmid-Läuchli, Jakob [tel]. Bachstraße 1082.\nSchmuziger-Lackerbauer, Arnold. [tel] Laurenzenvorstadt 705.\nSchuh-Kern, Heinrich [tel]. Oberholzstraße 1603.\nSprecher-Siegrist, Karl [tel]. Entfelderstraße 1544.\nStäblin-Huldi, Paul. Wiesenstraße 1894.\nStänz-Müller, Robert. Weltistrase 1592.\nSteinweg-Schweizer, Wilhelm. Buchserstraße 1856.\nStierlin-Oboussier, Hermann. Feldwachtstraße 1626.\nStünzi, Jacques. Gartenstraße 1437.\nTorche, Paul. Laurenzenvorstadt 1665.\nZehnder-Gaßmann, Otto, Kantonsingenieur [tel]. Jurastraße 1479.\nZimmermann, Emil. Pelzgasse 106.\nZschokke-Disqué, Dr. Conradin, Prof., Nationalrat [tel]. Entfelder-\n  straße 1389.\nInkassogeschäfte.\n*Heller, Oskar, Notar [tel]. Zollrain 61.\n*Lüscher, Jakob, Notar [tel]. Feerstraße 684.\n*Stirnemann und Sandmeier [tel]. Bahnhofstraße 1813.\n*Wehrli, Jakob, Notar [tel]. Bahnhofstraße 578 b.\nInstrumentenmacher.\n*Hirsbrunner, Gottfried. Kasinotrak 662.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19307,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2012,
+    "lines": 47,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 41.79,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0015,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:08:29+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p248",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p248.jpeg",
+      "bytes": 906975,
+      "sha256": "a37fa749390ae8e68404f525e41139e45113a43d910b343a8aed40eacc8b8dad",
+      "sha256_of": "original",
+      "working_copy": "1913_p248.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:08:29+00:00"
+  }
+}

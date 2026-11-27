@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p056",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p056.jpeg",
+    "bytes": 898253,
+    "sha256": "9abf30223c6ef0a506fedbae3b295fb7c521c02947accb96fb4b5cbd5a220b7e",
+    "sha256_of": "original",
+    "working_copy": "1913_p056.jpeg"
+  },
+  "text": "— 38 —\nHaus-\nNr.\nOtt, Paul, Techniker, Zell (Zch.). Zentralheizungsfabrik, Bureau\n  und Werkstatt [tel]. Wohnung Zeughausstraße Nr. 665.\nMauch-Siegrist, Lina Wwe., Kostgeberei, Teufenthal.\n  — Hilda.\n504  Rohr-Hochstraßer, Susanna, Wwe., Privatin.\nLeu-Obrist, Hans, Schreinermeister, Schloßrued. Bau- und\n  Möbelschreinerei.\n448 * Keller, Joh. Jakob, Zürich.\nHiltbrunner-Frick, Gottfr., Buchbinderei, Wyssachen [tel].\nVogel-Salzgeber, Gottfr., Ober-Portier, Kölliken.\n451  Siebenmann, Gottl., Privatier.\nMüller-Chevalley, Rud., Reisender, Sunikon (Zürich).\nSchar, Marie, Haushälterin, Murgenthal.\nForderer-Schwammberger, Alois, Zutschneider, Ziegelbach\n  (Württemberg).\n499  Keller-Steiner, Karl, Privatier.\n  — Anna.\nMühlberg, Dr. Max, Geolog.\n  — -Sutermeister, Fritz, Dr. Professor.\n452  Keller-Buser, Gottfried, Buchdruckerei, Hottwil.\n  — -Fretz, Eugen, Buchdrucker, Hottwil.\n  — Anna, Hottwil.\n  — & Sohn, Druck und Verlag der Aargauer Nachrichten, des\n  Aargauischen Anzeiger und des Suhrentaler Bote. Buch- und\n  Akzidenzdruckerei [tel].\n498  Scheibler-Zingg, Fritz, Küfermeister, U.-Entfelden [tel].\n454  Wyder-Brast, Anna Wwe., Privatin, Zürich.\n  — Lina.\n497  Waßmer-Leu, Jakob, Wagnermeister, Suhr.\nSommerhalder-König, Louise Wwe., Wäscherin, Gontenschwil.\n  — Fritz, Mechaniker, Gontenschwil.\nMeyer, Josef, Schneider, Wohlen.\nGfeller-Schöni, Christian, Käser, Röthenbach.\n501  Mollet-Fäs, Joh., Schm.-Meister, Huf- und Wagenschmiede,\n  U.-Ramsern.\nFäs-Huber, Anna Wwe., Ob.-Kulm.\nSchmuziger-Großenbacher, Herm., Malermeister. Malerwerk-\n  statt Rain No. 441.\nBuser-Haller, Walter, Instr.-Offizier.\n457  Rüetschi-Bopp, Hermann, Glocken- und Geschützgießerei [tel].\nAlbrecht, Eduard, Glockengießer.\nPfau-Bertolf, Joh. Jak., Prokurist, Schaffhausen.\n496  Hitz-Lanz, Otto, Privatier.\n495  Siegrist-Hunziker, Emil, Privatier.\nLäuchli, Hans, Hafner, Werkstatt. Wohnung Halden Nr. 285.\nStäuble-Vock, Niklaus, Privatier, Sulz.\n  — Frieda, Sulz.\n  — Ida,       \"",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 44026,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1966,
+    "lines": 51,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 36.9,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:48:19+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p056",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p056.jpeg",
+      "bytes": 898253,
+      "sha256": "9abf30223c6ef0a506fedbae3b295fb7c521c02947accb96fb4b5cbd5a220b7e",
+      "sha256_of": "original",
+      "working_copy": "1913_p056.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:48:19+00:00"
+  }
+}

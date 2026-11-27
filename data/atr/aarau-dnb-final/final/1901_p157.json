@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p157",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p157.jpeg",
+    "bytes": 760879,
+    "sha256": "88c1601c6499244c9db4bac5acfc4c50b254679a38da2fb38e64e61f8931f9e7",
+    "sha256_of": "original",
+    "working_copy": "1901_p157.jpeg"
+  },
+  "text": "144\n\nDrogenhandlungen.\nLandolt & Cie.,* obere Vorstadt 534.\nWirz, Adolf, Ziegelrain 427.\n\nEichmeister.\nAeschbach, Otto, Torfeldstraße 849.\n\nEisengiesserei.\nKünzlen & Cie.,* Hinter dem Bahnhof 1010. (S. Inserat Seite 11.)\nOehler, A. & Cie.,* Industriestraße 933. (S. Ins. vord. innere Deckelseite.)\n\nEisenhandlung.\nHenz, Jakob & Cie.,* vordere Vorstadt 336.\n\nEisen-, Messing- und Stahlwaren.\nFaller, Friedrich,* Rathausgasse 8.\n— -Faller, Elise Luise, Witwe,* Kronengasse 50.\nHenz-Gautschi, Emil,* vordere Vorstadt 339.\n— Jb. & Cie.,* vordere Vorstadt 336.\n\nElastische Gewebe-Fabriken.\nBally, E.,* Fabrik hinter dem Bahnhof 1000, Bureau. Laurenzen-\n  vorstadt 758.\n\nElektrizitätsgeschäfte.\nKummier & Cie.,* Bleichemattstraße 1026.\nSprecher & Fretz, Industriestraße 1508.\nStädtisches Elektrizitätswerk, Bahnhofstraße 636.\n\nElektrotechniker.\nBitterli, Sigmund, Rathausgasse 13. Bureau Bahnhofstraße 636.\nSprecher, Karl, Bachstraße 1072. Bureau Industriestraße 1508.\n\nEllenwarenhandlungen.\n  (Siehe Tuchwaren.)\n\nErsparniskassen.\n  (Siehe Bankgeschäfte.)\n\nEsswarenhandlungen.\n  (Siehe Comestibles.)\n\nFabrikationsgeschäfte.\nAdam & Cie.* Fabrik in Buchs.\n  Firmainhaber: A. Adam-Keller und Scholer. Gründungsjahr: 1860. Erzeug-\n  nisse: Bleiche, Färberei und Appretur-Anstalt. Wasser- und Dampfbetrieb.\nAndres-Bircher, Friedrich, Ofenfabrikation.* Obere Vorstadt 519.\n  (Siehe Inserat Seite 28.)",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 31497,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1388,
+    "lines": 38,
+    "longest_char_run": 3,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 34.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0022,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:58:49+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p157",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p157.jpeg",
+      "bytes": 760879,
+      "sha256": "88c1601c6499244c9db4bac5acfc4c50b254679a38da2fb38e64e61f8931f9e7",
+      "sha256_of": "original",
+      "working_copy": "1901_p157.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:58:49+00:00"
+  }
+}

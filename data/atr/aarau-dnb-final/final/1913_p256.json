@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p256",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p256.jpeg",
+    "bytes": 845090,
+    "sha256": "0e9a0dce2b6929eac2acc529f95775f822addb15f844e6ba05b94abc5186bc5c",
+    "sha256_of": "original",
+    "working_copy": "1913_p256.jpeg"
+  },
+  "text": "— 222 —\n\nMilchverkäufer.\nBertschi, Emil. Gönhardweg 1445.\nBrack-Fehlmann, Sophie. Bachstraße 1115.\nEtter-Zurfluh, Reinhard [tel]. Rain 434b.\nGantner-Lehmann, Gottlieb. Schloßplatz 202.\nGautschi, Rudolf. Telli 876.\nHunziker-Graf, Rudolf. Obere Vorstadt 523.\nKeller, Walter. Schloßplatz 198.\nLehner-Bertschi, Rudolf. Entfelderstraße 1400.\nLüscher-Maurer, Albert. Hintere Vorstadt 357.\nMärki, Heinrich. Bleichemattstraße 1615.\nRinker, Jakob. Binsenhof 1467.\nRyniker, Hermann. Entfelderstraße 1397.\n*Scheidegger-Roth, Joh. Ulr. Holzmarkt 320.\nSommerhalder-Stettler, Otto. Pelzgasse 109.\n— -Lindenmann, Rudolf. Kirchgasse 40.\nStirnenmann-Henzmann, Therese, Witwe [tel]. Metzgergasse 79.\n*Urben, Johann. Milchgasse 127.\nWalther, Hans [tel]. Bachstraße 1111.\nWalti-Sandmeier, Emil. Milchgasse 155.\nWeber-Weber, Wilhelm. Erlinsbacherstraße 1314.\nWyß, Friedrich. Goldern 1472.\n\nMilitärartikel.\n*Brast, Geschwister. Holzmarkt 318.\n*Gerber, Gustav, Schneider [tel]. Vordere Vorstadt 327.\n*Roth, Friedrich. Zeughausstraße 665.\n*Siebenmann & Co. [tel] Obertor 241.\nSommerhalder, Hermann. Hintere Vorstadt 368.\nZimmerli, Emma. Laurenzenvorstadt 736.\n\nMineralwasserfabrikanten.\nLutz-Suter, Theodor, Basel [tel]. Hintere Vorstadt 374.\nRüegg-Dieterli, Emil [tel]. Schloßplatz 198.\nWägeler-Giger, Karl [tel]. Gasstraße 1172.\n\nMöbelfabriken.\n*Gubler, Zimmerli & Cie. [tel] Industriestraße 928.\n*Wernli, Fritz [tel]. Obere Vorstadt 513.\n\nMöbelhandlungen.\nFortenbach, Josef, Ostwald (Elsaß). Entfelderstraße 1394.\nGewerbehalle Aarau. Holzmarkt 316.\nGysi, Adolf [tel]. Pelzgasse 110.\n*Heß, Gebr., „zur Stadt Mülhausen“ [tel]. Rathausgasse 5.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 34089,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1619,
+    "lines": 42,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.45,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0025,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:11:47+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p256",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p256.jpeg",
+      "bytes": 845090,
+      "sha256": "0e9a0dce2b6929eac2acc529f95775f822addb15f844e6ba05b94abc5186bc5c",
+      "sha256_of": "original",
+      "working_copy": "1913_p256.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:11:47+00:00"
+  }
+}

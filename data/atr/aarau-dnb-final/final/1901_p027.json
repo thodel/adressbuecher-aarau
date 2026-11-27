@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p027",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p027.jpeg",
+    "bytes": 792630,
+    "sha256": "56eb66108c4127bed6b213f02355f13f524842cf97e09d8bc57ebcecdf8f5e8b",
+    "sha256_of": "original",
+    "working_copy": "1901_p027.jpeg"
+  },
+  "text": "16\nHaus-\nNr.\nHassler, Sophie, Glätterin.\n  — Julie, Modistin.\n  — Remigius, Taubstummer.\nMüller, Maria Anna, Fabrikarbeiter, von Kulm.\nSchaffner-Meier, Margaretha, Näherin, von Effingen.\n  — Jakob, Gerichtskanzlist, von Effingen\nFischer, Louise, Messerschmieds, Damenschneiderin.\nBächli, Verena, Spettlerin, von Buchs.\nWassmer, Samuel, Ausläufer, von Suhr.\nSalm, Marie, Schneiderin, von Veltheim.\n  — Barbara, Spettlerin, von Veltheim.\nWälchli, Verena, Taglöhnerin, von Madiswyl (Bern).\n176 Siebenmann-Frey, Ludwig, Schuhmacher, Part.\nBrunner, Gottfried, Maler, von Gränichen.\nWernli-Urech, Johann Jak., Taglöhner, von Thalheim.\n177 Dietiker-Staub, Adolf, Briefträger, von Thalheim.\n  — Emma, Wäscherin, von Thalheim.\nHerzog-Frei, Adolf, Schreiner, von Hornussen.\nSteiner-Lüscher, Hermann, Knecht, von Rain.\nGamper & Cie. Schneider-Atelier.\nIm Hammer.\n178 Dubs, Geschwister (Untere Mühle), Mehlhandlung.\n  — Elise, von Küttigen.\n  — Jakob, \" \"\n  — Hans, \" \"\n179 * Dubs, Geschwister (Alte Fabrik).\nSchmid, J., Mineralwasserfabrikant, [tel] von Reiden (Luzern).\nAmmann-Grenacher, Rudolf, Steindrucker, von Roggwil (Bern).\nWidmer-Engelmann, Johann, Landwirt, von Gränichen.\nSchneeberger-Salvi, Jakob, Tapeziererwerkstatt.\n180 † Hässig, Gottlieb, Feinschleifer (Werkstätte).\n181 Läubli-Bircher, Friedrich, Schlosser.\n182 † Derselbe. Schopf.\n183a Hürzeler-Gloor, Jakob, Hadernhändler, von Uerkheim.\n  — Emma, Damenschneiderin, von Uerkheim.\n183b Erdin-Zumsteg, Siegfried, Kerzenfabrikant, von Gansingen.\n  — — Rosalia, Damenschneiderin, von Gansingen.\nZumsteg-Jehle, Ursula, Part., von Mettau.\n184 Wernli-Meier, Samuel, Holzer, von Thalheim.\n185 * Rinker, Gebrüder, Karl und Arnold.\nMarti-Hanreiter, Fritz, Bierbrauer.\n186 * Hassler-Heberlein, Adolf, Färber.\nPrantl-Wildi, Niklaus, Maurer, von Strengen (Tirol).\nBurger, Samuel, gew. Wirt, von Möriken.\n187 † Derselbe. Holzschopf.\n188 Hassler-Heberlein, Adolf, Färber.\nFrymann-Lässer, Rosina, Witwe, Part.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 36556,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1949,
+    "lines": 50,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 37.6,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.001,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:07:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p027",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p027.jpeg",
+      "bytes": 792630,
+      "sha256": "56eb66108c4127bed6b213f02355f13f524842cf97e09d8bc57ebcecdf8f5e8b",
+      "sha256_of": "original",
+      "working_copy": "1901_p027.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:07:58+00:00"
+  }
+}

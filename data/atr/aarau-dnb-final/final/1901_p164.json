@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p164",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p164.jpeg",
+    "bytes": 712356,
+    "sha256": "b546516946d7899389550c13cabb6c86805d972da9daad5faa45a066201954f4",
+    "sha256_of": "original",
+    "working_copy": "1901_p164.jpeg"
+  },
+  "text": "151\nGraveur.\nRohr, Hans, Wirt, Holzmarkt 319.\nHaargeflechte.\nHauri, Jean, Coiffeur, Pelzgasse (Oberthor) 97.\nHadernhändler.\nHürzeler, Jakob, Hammer 183a.\nHaferhandlungen.\nKeller-Steiner, Karl, Rain 499.\nLagerhaus Aarau,* Bahnhof 832.\nWeber-Hegnauser, Hermann.* Bureau hintere Vorstadt 363.\nHafner.\nAndres, Friedrich,* obere Vorstadt 519. (Siehe Inserat Seite 28.)\nAndres, Otto, Milchgasse 135. (Siehe Inserat Seite 21.)\nHemmeler-Schmidt,* obere Vorstadt 541.\nWespi-Zurlindens Witwe, A., Entfelderstraße 1378. (S. Inserat S. 12.)\nHalbwollstoffabrikation.\nGuyer, Oskar,* in der Telli 873.\nStrich, Julius, Ziegelrain 397.\nHaushaltungsartikel.\nFaller-Faller, Elise Louise,* Kronengasse 50.\n— Friedrich,* Rathausgasse 8.\nHemmeler-Stahl, J.,* Rathausgasse 12.\nHenz-Gautschi, Emil,* vordere Vorstadt 339.\nMarti, Flora, Metzgergasse 65.\nWetter & Cie.,* Bazar z. Globus, obere Vorstadt 554.\nHebammen.\nPlüß-Wälchli, Lea, Weinberg 1280.\n— -Zimmerli, Marie, Pelzgasse 104.\nVogt-Keller, Marie, Kirchhof 161a.\nHemdenfabrikation.\nBolliger-Manger,* hintere Vorstadt 366.\nErismann & Blattner, Asylstraße 1147.\nHolzhandlungen.\nHitz-Lanz, Otto,* Rain 496.\nStirnenmann, Jakob, Metzgergasse 79.\nWalther-Dubs, Hans, Bachstraße 1111.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19090,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1210,
+    "lines": 37,
+    "longest_char_run": 4,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 31.73,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0033,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T12:01:53+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p164",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p164.jpeg",
+      "bytes": 712356,
+      "sha256": "b546516946d7899389550c13cabb6c86805d972da9daad5faa45a066201954f4",
+      "sha256_of": "original",
+      "working_copy": "1901_p164.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T12:01:53+00:00"
+  }
+}

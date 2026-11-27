@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1901_p128",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1901_p128.jpeg",
+    "bytes": 829256,
+    "sha256": "e84a6be4e9c83a0dd372a8453f241b4a4910c34cfbd33b7ae4e74abe88c0cb14",
+    "sha256_of": "original",
+    "working_copy": "1901_p128.jpeg"
+  },
+  "text": "115\nOehler-Osthes, Adele, Witwe, Part., Buchserstraße 924. [tel]\nOehlhaften, Arnold, Metzger, [tel] hintere Vorstadt 355.\n— Hermann, Bankangestellter, Bahnhofstraße 590.\n— geb. Hagnauer, Nanette, Part., Pelzgasse 100.\n— geb. Müller, Elisabeth Luise, Malers Witwe, Halden 276.\n— geb. Ruffi, Anna, Metzgers Witwe, hintere Vorstadt 355.\nOhl, Gustav, Fabrikant, Bachstraße 1101, [tel] Wohnung Buchser-\n  straße 972.\nOrtlieb geb. Bertschi, Luise, Aufseherin der Gewerbehalle, Halden 304.\nOsterwalder, Rudolf, Zuschneider, Scheibenschachen 1326.\nOtt, Anna, Zettlermeisterin, Adelbändli 166.\n— Jakob, Obergerichtsweibel, Flößerstraße 1192.\n— Karl, Fuhrmann, Erlinsbacherstraße 1294.\n— Friedrich, Buchhalter, Spezerei-, Milch- und Butterhandlung,\n  Salzverkauf, Adelbändli 166.\nOtti, Johann, Professor, Rohrerstraße 892.\nPache, Louis, Coiffeurgeschäft, hintere Vorstadt 378.\nPaulin, Rudolf, Maurer, Kirchgasse 36.\nPavesio, Peter, Maler, Halden 298.\nPeier geb. Roß, Wilhelmine, Glätterin, Kirchhof 162.\nPfau, Joh. Jakob, Direktor der aarg. Kreditsanstalt, [tel] Laurenzen-\n  vorstadt 700.\n— Joh. Jakob, Bankangestellter, Laurenzenvorstadt 700.\nPfeffer, Bernhard, Pferdewärter, Strittengäßchen 1150.\nFenninger geb. Bacon, Katharina, Sesselflechterin, Milchgasse 145.\n— Marie, Weißnäherin, Milchgasse 115.\nPfister, Emil, Taglöhner, Halden 305.\n— Friedrich, Telephonarbeiter, Milchgasse 129.\n— geb. Sandmeier, Emma, Näherin, Halden 305.\nPfisterer, Robert, Bierbrauer, Bierreposé Feldschlößchen, Bahnhof-\n  straße 586. [tel]\nPfleger, Emma, Pfarrers, Part., Halden 261.\n— Hermann, Zugführer S. C. B., Schloßplatz 198.\nPhilipp, Johann, Sohn, Küher, Bachstraße 1095.\n— von Arx, Rosina, Kühers Witwe, Bachstraße 1095.\nPletscher, Georg, chemische Wäscherei und Kleiderfärberei in Win-\n  terthur, Ablage Laurenzentorgasse 117.\nPlüss, Anna, Damenschneiderin, hintere Vorstadt 364.\n— Bernhard, Knecht, Halden 313.\n— Friedrich Rudolf, Landwirt, Weinberg 1280.\n— Jakob, Maurer, Pelzgasse 104.\n— Johann, Kondukteur, Rain 492.\n— geb. Wälchli, Lea, Hebamme, Weinberg 1280.\n— geb. Zimmerli, Marie, Hebamme, Pelzgasse 104.\nPolizeikommando, [tel] kantonales, obere Vorstadt, Regierungsge-\n  bäude 509.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 19137,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 2172,
+    "lines": 47,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 44.98,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0009,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T11:45:58+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1901_p128",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1901_p128.jpeg",
+      "bytes": 829256,
+      "sha256": "e84a6be4e9c83a0dd372a8453f241b4a4910c34cfbd33b7ae4e74abe88c0cb14",
+      "sha256_of": "original",
+      "working_copy": "1901_p128.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T11:45:58+00:00"
+  }
+}

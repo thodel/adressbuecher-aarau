@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p245",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p245.jpeg",
+    "bytes": 795566,
+    "sha256": "e761ee44e94ac876d77b65d6914350fa292336f9f8d794a3035b10e47e79a2f6",
+    "sha256_of": "original",
+    "working_copy": "1913_p245.jpeg"
+  },
+  "text": "— 211 —\nMeister-Landolt, Hans, Bezirkskatastergedometer [tel]. Spital-\n  gässlì 1716.\n— -Richard. Spitalgässlì 1716.\nZumbach-Anz, Niklaus. Hinteres Zelgli 1837.\nGeschirrhandlungen.\n*Morath, Wendolin [tel]. Rathausgasse 3.\n*Schär, Ernst [tel]. Rathausgasse 12.\n*Warenhaus Globus [tel]. Bahnhofstraße 632.\n*Warenhaus Goldstein & Cie. [tel] Metzgergasse 145.\nGipsermeister.\nCantu, Josef. Pelzgasse 100.\nGianini, D. Metzgergasse 78.\nSchaub-Blauenstein, Adelbert. Zollrain 57.\n— -Zuber, Josef. Zieglerain 421.\nTorchiana-Pertusini, Rinaldo. Milchgasse 145.\nWehrli-Schatzmann, Fritz [tel]. Halden 270.\nGlätterinnen.\nAcklin, Geschwister. Hammer 190.\nBannwart-Holzräuter. Zollrain 61.\nBruns, Klara. Bahnhofstraße 620.\nDietiker, Emma. Adelbändli 177.\nEngesser, Marie. Graben 208\nFisch, Hildegard. Flößerstraße 1164.\nGais-Appenzeller. Zieglerain 407.\nHäußler, Julie. Flößerstraße 1194.\nHaller-Attiger, Marie. Flößerstraße 1188.\nHaßler, Elise. Halden 267.\nHeindl, Mathilde. Milchgasse 150.\nHofmann-Wehrli, Frau. Hammer 189.\nHolliger-Fisch. Laurenzentorgasse 118.\nHolzreuter, Lina. Kirchhof 160.\nKopp-Koller, Frau. Schmiedgasse 385.\nMärki, Emma. Hintere Vorstadt 369.\n— Frieda, 369.\nMaritz-Keller, Frau. Halden 281.\nMeier, Anna Maria. Zieglerain 407.\nNiederbäuser-Markwalder. Metzgergasse 75.\nPluß, Louise. Halden 292.\nPortenier-Frieden, Maria. Obere Vorstadt 518.\nSandmeier-Frey, Elise. Hammer 184.\nSchatzmann-Häring, Elise. Asylstraße 1147.\nSchlatter, Elise. Hammer 184.\nSchmid-Kolmar, Witwe. Asylstraße 1145.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 29952,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1498,
+    "lines": 44,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 33.02,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0013,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:08:09+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p245",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p245.jpeg",
+      "bytes": 795566,
+      "sha256": "e761ee44e94ac876d77b65d6914350fa292336f9f8d794a3035b10e47e79a2f6",
+      "sha256_of": "original",
+      "working_copy": "1913_p245.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:08:09+00:00"
+  }
+}

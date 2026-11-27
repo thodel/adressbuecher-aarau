@@ -1,0 +1,65 @@
+{
+  "schema": "atr-batch/1",
+  "run": "aarau-antiqua-qwen38-1901-1913",
+  "model": "qwen3.8-27b",
+  "engine": "external",
+  "doc_id": "",
+  "source": {
+    "key": "1913_p269",
+    "doc_id": "",
+    "bestand": null,
+    "name": "1913_p269.jpeg",
+    "bytes": 901138,
+    "sha256": "3626f1a3409dfaeb6b513d1802090e40f6ccfcdeb92b31e4790392147caaf9f5",
+    "sha256_of": "original",
+    "working_copy": "1913_p269.jpeg"
+  },
+  "text": "— 235 —\n\nGyger-Märki, Marie. Flößerstraße 1180.\nHaller-Attiger, Marie, Witwe. Flößerstraße 1188.\nHaßler-Brunnhofen, Elise, Witwe. Halden 267.\nHoffmann-Wehrli, Frau. Hammer 189.\nHolliger & Fisch. Laurenzentorgasse 118.\nKopp-Kohler, Emma. Schmiedgasse 385.\nLechner-Wirth, Emma, Wwe. Ablage der chem. Waschanstalt und\n  Färberei E. Felder-Clement, Luzern. Vordere Vorstadt 332.\nMärki-Vogt, Elisabeth. Hintere Vorstadt 369.\nMaritz-Keller, Emma. Halden 282.\nNiederhäuser-Markwalder, Emilie. Metzgergasse 75.\n„Nivea“, mech. Wäscherei für Kragen und Manchetten in Montreux.\n  Rathausgasse 11.\nPortenier-Frieden, Marie. Obere Vorstadt 518.\nSandmeier-Frey, Elise, Witwe. Hammer 184.\nSchatzmann-Häring, Jakob. Asylstraße 1147.\nSuter, Elise. Hintere Vorstadt 359.\n\nWäscherinnen.\n\nBeck-Bill, Elisabeth, Witwe. Halden 276.\nDrack-Hauser, Elisabeth, Witwe. Milchgasse 150.\nFasler-Widmer, Anna, Witwe. Halden 284.\nGloor, Karoline. Milchgasse 143.\nHolzreuter-Suter, Katharina, Witwe. Kirchhof 160.\nHuber-Bichsel, Louise. Schmiedgasse 379.\nKoller-Koller, Elisabeth. Metzgergasse 76.\nKyburz-Seiler, Lina. Milchgasse 139.\nLienhard-Sutter, Marie. Hintere Vorstadt 357.\nMaurer-Leutwyler, Marie. Schmiedgasse 394.\nMinder-Feuz, Karoline. Pelzgasse 102.\nPeyer-Roß, Wilhelmine, Witwe. Kirchhof 162.\nRingli-Duttli, Barbara. Gartenstraße 1566.\nSchatzmann, Marie. Buchserstraße 956.\nSchmidt-Kollmar, Karoline, Witwe. Asylstraße 1145.\nSchmuziger-Lang, Elisabeth, Witwe. Zollrain 63.\nSchönenberg, Emma. Hinteres Zeggli 1885.\nSommerhalder-König, Louise, Witwe. Rain 497.\nWächter-Vogt, Anna. Entfelderstraße 1397.\n— -Lindenmann, Louise, Witwe. Halden 302.\nWehrli, Marie. Rain 436.\nWeingärtner-Spiegelberg, Anna, Witwe. Rathausgasse 28.\nWildi-Rodel, Frida, Witwe. Kirchhof 158.\nZiegler-Nyffenegger, Anna. Rain 505.\n\nWach- und Schliessinstitut.\n\nWeniger, Dietrich. Schmiedgasse 393.",
+  "lines": [],
+  "confidence": 0.0,
+  "segmented_by": null,
+  "timing_ms": 28793,
+  "truncated": false,
+  "settings": "prompt-3c9d55d7+think-low|max16000",
+  "quality": {
+    "verdict": "ok",
+    "chars": 1847,
+    "lines": 45,
+    "longest_char_run": 2,
+    "repeat_ratio": 0.0,
+    "mean_line_chars": 39.87,
+    "deliberation_ratio": 0.0,
+    "run_share": 0.0011,
+    "run_on_own_line": false
+  },
+  "second_opinion": null,
+  "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+  "recognised_at": "2026-11-26T14:14:50+00:00",
+  "provenance": {
+    "schema": "ah-provenance/1",
+    "run": "aarau-antiqua-qwen38-1901-1913",
+    "source": {
+      "key": "1913_p269",
+      "doc_id": "",
+      "bestand": null,
+      "name": "1913_p269.jpeg",
+      "bytes": 901138,
+      "sha256": "3626f1a3409dfaeb6b513d1802090e40f6ccfcdeb92b31e4790392147caaf9f5",
+      "sha256_of": "original",
+      "working_copy": "1913_p269.jpeg"
+    },
+    "model": {
+      "model": "qwen3.8-27b",
+      "engine": null,
+      "level": null,
+      "revision": null,
+      "revision_kind": "unreported",
+      "revision_at": null,
+      "weights": null,
+      "base_model": null
+    },
+    "gateway_version": "qwen3.8-27b@prompt-3c9d55d7+think-low",
+    "segmented_by": null,
+    "recognised_at": "2026-11-26T14:14:50+00:00"
+  }
+}
