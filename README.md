@@ -45,6 +45,21 @@ Einträge (Seed 191313, `data/review/stichprobe_dnb_1913_gemini.csv`): **26 von 
 «Bureaulist», fehlender Gedankenstrich vor «Martha»; 2 Parser: «Schwarz & Cie.» als geerbter Familienname, «Bureau»
 ohne Feld). Offen: «Meyer-Schait, Jakob, Dintikon [tel]. Spezereihandlung …» – Heimatort im Beruf.
 
+**Flags vom 06.11.2026 nachgeprüft** (27.11.2026): Die 48 Flags 1884 («Eintrag falsch getrennt», Kopfzeilen als
+Einträge) sind seit dem Parser-Fix vom 06.11. behoben. Beim Nachprüfen fanden sich verwandte Muster in allen Bänden,
+jetzt in `scripts/04_parse.py` behoben (Tests: `tests/test_parse_flags_1884.py`):
+
+- **Gedankenstrich falsch gelesen**: «--», «–», «- » oder ein verlorener Strich («*-Säuberli» statt «*— -Säuberli»,
+  1913) am Zeilenanfang; der Rest landete im Familiennamen und wurde an alle Folgeeinträge vererbt. Seitenzahlen
+  «- 120 -» galten als Einträge. Familiennamen, die mit einem Strich beginnen: vorher 83 Adresszeilen, jetzt 0.
+- **Ganze Einträge verworfen**, weil der Parser den Anfang nicht erkannte: Namen mit Partikel («Helm-von Arx»,
+  «Von Steiger», «Da Col»), mehrwortige Körperschaften («Aargauische Bank»), fehlendes Komma nach dem Familiennamen
+  («Frymann Gottfried»). Im Einwohnerverzeichnis 76 von 86 Zeilen mit Adresse zurückgeholt, im Berufsregister rund
+  150; die Folgeeinträge erbten vorher den falschen Familiennamen («Heller» statt «Helm»). Weiter verworfen bleiben
+  Wortreste vom Umbruch, Unterzeilen einer Körperschaft («Präsident: …») und «+Jäggi» (Stern als «+» gelesen).
+- **Allianzname ohne «=»** («— Leutwyler, Samuel», Lesefehler) wird jetzt aufgelöst statt nur vermerkt: Allianzname
+  Leutwyler, Vorname Samuel, Konfidenz «medium» (33 Einträge).
+
 Ziel ist ein Informationssystem über Personen, Haushalte, Gebäude, Berufe und
 Institutionen Aaraus im späten 19. Jahrhundert, modelliert in CIDOC-CRM 7.1.3 + SDHSS.
 Zwischenresultate sind CSV. Das Tooling (ATR, Vokabular-Register, Graph-Bauer, Prüfung,

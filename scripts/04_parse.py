@@ -35,6 +35,8 @@ FIELDS = ["entry_id", "volume", "page", "section", "line_from", "line_to", "entr
 STATUS = {"Sohn", "Tochter", "Wittwe", "Witwe", "Wwe.", "Wwe", "Frau", "Fräulein", "Frl.",
           "Part.", "Partik.", "Privatin", "Privatier", "Rentier", "Rentierin", "Rentner"}
 RELATION = {"Sohn", "Tochter"}
+BUSINESS_HEAD = re.compile(r"(haus|verein|halle|werk|fabrik|anstalt|gesellschaft|loge|bad)$", re.I)
+NAME_PARTICLES = {"von", "de", "da", "di", "van", "del", "della", "la", "le"}
 TITLES = {"Dr.", "Dr. med.", "Dr. phil.", "Dr. jur.", "Prof.", "Regt.", "Pfr."}
 ADDR_RE = re.compile(r"^(?P<street>.+?)(?:\s+|(?<=\.))(?P<no>\d+\s?[a-z]?\.?(?:\s?[a-z]\.?)?)\.?$")
 ROLE_RE = re.compile(r"^(Wohnung|Werkstätte|Geschäft|Magazin|Bureau|Laden|Comptoir|Atelier)\b\s*[:,]?\s*", re.I)
@@ -45,7 +47,8 @@ OCC_ORIGIN_RE = re.compile(r"^(?P<occ>.+)\s+(?:von|v\.)\s+(?P<place>[A-ZÄÖÜ][
 OCC_NOT_ORIGIN = re.compile(r"(ation|ung|handel|Nachfolger|Niederlage|Depot|Agentur|Vertretung|Verkauf|Lager|Fabrik|Verlag|Druck|Export|Import|:)$")
 ORIGIN_RE = re.compile(r"^(?:von|v\.)\s+(?P<place>.+?)(?:\s*\((?P<canton>[^)]+)\))?$")
 RUNNING_HEAD = re.compile(r"^\d+\s*$|^(\d+\s+(—\s+)?)?[A-ZÄÖÜ][\w-]+\.?\s+—\s+[A-ZÄÖÜ][\w-]+\.?(\s+\d+)?$"
-                          r"|^(\d+\s+)?(Alphabetisches Verzeichnis|Geschäfts- und Gewerbetreibende|Verzeichnis der Gebäude[^,]*)\.?(\s+\d+)?$|^—\s*\d+\s*—$")
+                          r"|^(\d+\s+)?(Alphabetisches Verzeichnis|Geschäfts- und Gewerbetreibende|Verzeichnis der Gebäude[^,]*)\.?(\s+\d+)?$|^—\s*\d+\s*—$"
+                          r"|^[-–—]{1,2}\s*\d+\s*[-–—]{1,2}$")       # Seitenzahl «- 120 -», «-- 201 --», «– 135 –»
 FIRM_RE = re.compile(r"&\s*(Cie|Co|Comp|Sohn|Söhne)\b|\bCie\.|\bGebr(üder|\.)|\bSöhne\b|^\S*fabrik\.|\bAktiengesellschaft\b|\bA\.-G\.", re.I)
 # Institutionen und Geschäfte im Namensfeld («Kredit-Anstalt, Aargauische», «Lehrerinnen-Seminar», «Kreiskommando»,
 # «Eisen- und Quincailleriehandlung»): ein Wort des Kopfes endet auf eines dieser Wörter. «hof», «heim», «haus» fehlen
@@ -88,6 +91,13 @@ IDEM_RE = re.compile(r"\b(id\.|idem|dito|do\.)\s*", re.I)
 def prenormalise(text: str) -> str:
     """Gemini-Rohtext → GT-Konventionen: ⸗/= → -, Tabs → Leerzeichen, * an den Anfang."""
     t = text.replace("ſ", "s").replace("⸗", "-").replace("­", "")
+    # «-- Emma», «–  -Walther», «*- -Rüegg & Cie.»: Gedankenstrich als Doppel- oder Halbgeviertstrich gelesen
+    # (nicht «– 135 –», die Seitenzahl)
+    t = re.sub(r"^([ \t]*\*?[ \t]*)(?:--|–)(?=[ \t]+[^\d\s])", r"\1—", t, flags=re.M)
+    t = re.sub(r"^([ \t]*\*?[ \t]*)-(?=[ \t]+[-=A-ZÄÖÜa-zäöü])", r"\1—", t, flags=re.M)   # «- Wilhelm, …»
+    # «*-Säuberli, Emil, …» (1913): Gedankenstrich verloren, «-Name» ist der Allianzname zum Familiennamen darüber
+    # (nicht nach einer Zeile, die mit Trennstrich endet: «Lehrerinnen- | -Seminar.»)
+    t = re.sub(r"(?<!-\n)^([ \t]*\*?)-(?=[A-ZÄÖÜ])", r"\1— -", t, flags=re.M)
     t = re.sub(r"(?<=[\s—])=(?=\S)", "-", t)
     t = re.sub(r"(?<=[A-Za-zäöüÄÖÜß])=(?=[A-Za-zäöüÄÖÜß])", "-", t)   # Stigeler=Schaub
     t = re.sub(r"^(\s*)\*\s*", r"\1*", t, flags=re.M)
@@ -99,11 +109,18 @@ def prenormalise(text: str) -> str:
     return t
 
 
-ENTRY_START = re.compile(r"^(\*|—|--|-\s|\[handschriftlich)|^\*?\s*[A-ZÄÖÜ][\w'.-]+(\s+(geb\.|von|de|&|u\.|und)\s+[\w'.-]+)?\s*,")
+ENTRY_START = re.compile(r"^(\*|—|--|-\s|\[handschriftlich)|^\*?\s*[A-ZÄÖÜ][\w'.-]+(\s+(geb\.|von|de|&|u\.|und)\s+[\w'.-]+)?\s*,"
+                         r"|^\*?\s*(?:[A-ZÄÖÜ][\w'.]*-)?(?:[Vv]on|[Dd]e|[Dd]a|[Dd]i|[Vv]an|[Dd]el)(?:\s+der)?\s+[A-ZÄÖÜ][\w'.-]+\s*,")
+# «Helm-von Arx, …», «Von der Crone, …», «Agnoli-Da Col, …»: Name mit Partikel
 # Vorzeile bricht mitten im Satz ab: «Direktor der aarg.», «Weißwaaren- und», «Kaufmann,», «Pfarrer der reformirten»
 OPEN_END = re.compile(r"(,|-|\b(und|u\.|der|des|dem|zur|zum|am|für)|\b(der|des|d\.)\s+\S+\.|\b[a-zäöü][\w-]*\.|&\s*Cie\.|[^\s.)\]])\s*$")
 # Legende am Anfang der Verzeichnisse: «* = Im Handelsregister eingetragen.», «[tel] = Telephon.» — Kopfnote, kein
 # Eintrag, und nichts wird an sie angehängt (sonst fressen sie die Rubriken «Advokaten.», «Ärzte.»)
+# Zeile, die ENTRY_START nicht erkennt, aber für sich ein ganzer Eintrag ist: Grossbuchstabe oder Stern am Anfang,
+# ein Komma vor jedem Doppelpunkt, Hausnummer am Schluss. «Helm-von Arx, Elise, …», «Von Steiger, William, …»,
+# «De Marco-Jörg, …», «Frymann Gottfried, Part., Hammer 188.», «Aargauische Bank, [tel] Bahnhofstraße 511.»
+# Nicht: «Präsident: Rud. Hegnauer, Hammer 194.» (gehört zur Körperschaft darüber).
+STANDALONE_START = re.compile(r"^\*?[A-ZÄÖÜ][^:,]*,")
 LEGEND_RE = re.compile(r"^\*?\s*=\s|^\[tel\]\s*=|\[tel\]\s*=\s*Tele(ph|f)on")
 COMPLETE_END = re.compile(r"\d+\s?[a-z]?\s*\.?\s*(\[tel\])?\s*(\([^)]*\)\.?)?\s*$")
 
@@ -147,7 +164,7 @@ def page_to_entries(text: str) -> list[tuple[int, int, str, str]]:
         elif prev_entry and complete and not starts and (raw.startswith("  ") or raw.startswith("\t")) and (s[:1].islower() or s.startswith("(")):
             lf, lt, t, k = prev_entry
             entries[-1] = (lf, i, t + " " + s, k)
-        elif starts:
+        elif starts or (STANDALONE_START.match(s) and COMPLETE_END.search(s)):
             entries.append((i, i, s, "entry"))
         else:
             entries.append((i, i, s, "other"))
@@ -307,6 +324,13 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
                 t = pre + ", " + addr
         head, _, t = t.partition(",")
         head = head.strip()
+        mv = re.match(r"^(?P<s>[A-ZÄÖÜ][\w'.-]+)\s+(?P<v>[A-ZÄÖÜ][\w]+\.?)$", head)
+        if (mv and forenames and mv.group("v").rstrip(".") in forenames and mv.group("s").lower() not in NAME_PARTICLES
+                and not body_kind(head) and not BUSINESS_HEAD.search(mv.group("s"))
+                and not _is_known_place(mv.group("v").rstrip("."))          # «Konsumverein Aarau», «Lagerhaus Aarau»
+                and not (t.split(",")[0].split() or [""])[0].rstrip(".") in forenames):
+            head, t = mv.group("s"), mv.group("v") + "," + t      # «Siegrist-Heuberger Jakob, Schriftsetzer»
+            notes.append("komma nach familienname ergänzt")
         kind = body_kind(head)
         first = (t.split(",")[0].split() or [""])[0].rstrip(".")
         if kind and forenames and first in forenames:
@@ -414,9 +438,16 @@ def parse_entry(text: str, prev_surname: str, prev: dict | None = None,
     # ein Vorname, der dort nie vorkommt, gefolgt von einem Segment, das ein Vorname ist.
     first_rest = rest[0] if rest else ""
     if (forenames and rec["dash_prefix"] and not rec["alliance_name"] and rec["forename"]
+            and re.fullmatch(r"[A-ZÄÖÜ][\w'-]+", rec["forename"]) and rec["entry_type"] == "person"
+            and not body_kind(rec["forename"]) and not is_description(first_rest)
+            and rec["forename"] not in ("Geschwister", "Erben", "Gebrüder", "Schwestern", "Familie")
+            and not FIRM_RE.search(rec["surname"]) and not body_kind(rec["surname"])
             and rec["forename"].rstrip(".") not in forenames
             and first_rest.rstrip(".") in forenames):
-        notes.append(f"allianz/vorname unsicher: {rec['forename']} | {first_rest}")
+        notes.append(f"allianz/vorname: {rec['forename']} als Allianzname, {first_rest} als Vorname gelesen")
+        rec["alliance_name"], rec["forename"] = rec["forename"], first_rest      # «— Leutwyler, Samuel» → Allianz Leutwyler
+        rest.pop(0)
+        rec["occupation_raw"] = ", ".join(rest)
     bad = [a for a in addresses if not a[2]]
     rec["parse_confidence"] = "high" if not bad and rec["surname"] else ("medium" if rec["surname"] else "review")
     if rec["entry_type"] == "firma" and rec["parse_confidence"] == "high":
