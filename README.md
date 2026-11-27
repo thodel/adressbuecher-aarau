@@ -29,6 +29,13 @@ bei Einträgen ohne Beruf («Wehrli-Säuberli, Emil [tel]. Rathausgasse 30.») b
 was in Klammern steht, als Heimatort der älteren Bände vorkommt oder keine Berufsendung hat (`looks_like_place`).
 Bekannte Lücke: einzelne Orte auf -er/-in (Estavayer, Savognin) fallen in den Beruf.
 
+Zweite Stichprobe 27.11.2026 (#9): 60 weitere Einwohner-Einträge, je Band 30 (Seed Band × 100 + 9, ohne die ersten 20),
+am Seitenbild geprüft (`data/review/stichprobe_dnb_1901_1913_60.csv`). **1901: 27 von 30** (2 Lesung: «Schuhmather»,
+«Gipsmeister» statt «Gipsermeister»; 1 Parser: Bureau-Adresse mit der Wohnadresse vermischt). **1913: 23 von 30**
+(6 Lesung, meist Orts- und Allianznamen: «Eggwil», «Häggligen», «Ziegelpain», «-Hilfinger» statt «-Hilfiker»,
+«Spitalgässlì», «Wartaу» mit kyrillischem у; 1 Lesung und Parser). Mit der ersten Stichprobe: 1901 34 von 40 (85 %),
+1913 29 von 39 (74 %). 1913 liegt damit unter der Schwelle von 80 %, die für die Übernahme in Vernetzte Schweiz gilt.
+
 Ziel ist ein Informationssystem über Personen, Haushalte, Gebäude, Berufe und
 Institutionen Aaraus im späten 19. Jahrhundert, modelliert in CIDOC-CRM 7.1.3 + SDHSS.
 Zwischenresultate sind CSV. Das Tooling (ATR, Vokabular-Register, Graph-Bauer, Prüfung,
